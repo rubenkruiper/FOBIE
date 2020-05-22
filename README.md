@@ -8,81 +8,80 @@ Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntacti
 
 ### Format
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:
-<sub>
+
 ```
-{"[document_ID]": 
-  {"[relation_ID_within_document]": 
-    {"annotations": 
-      {"modifiers": 
-        {"[within_sentence_modifier_ID]": 
-          {"Arg0": {"span_start": "[token_index]", 
-                    "span_end": "[token_index]", 
-                    "span_id": "[brat_ID]",  
-                    "text": "[string]"}, 
-           "Arg1": {"span_start": "[token_index]", 
-                    "span_end": "[token_index]", 
-                    "span_id": "[brat_ID]", 
-                    "text": "[string]"}
-          }
-       }, 
-     "tradeoffs": 
-        {"[within_sentence_tradeoff_ID]": 
-          {"Arg0": {"span_start": "[token_index]", 
-                    "span_end": "[token_index]", 
-                    "span_id": "[brat_ID]",  
-                    "text": "[string]"}, 
-          "Arg1": {"span_start": "[token_index]", 
-                   "span_end": "[token_index]", 
-                   "span_id": "[brat_ID]",  
-                   "text": "[string]"},           
-          "TO_indicator": {"span_start": "[token_index]", 
-                           "span_end": "[token_index]", 
-                           "span_id": "[brat_ID]",  
-                           "text": "[string]"}, 
-          "labels": {"Confidence": "High"}
-        }
-      }
-    }, 
-    "sentence": "[string]"
-    }
-}, {[next document]}
-``` </sub>
+<sub>{"[document_ID]": </sub>
+<sub>  {"[relation_ID_within_document]": </sub>
+<sub>    {"annotations": </sub>
+<sub>      {"modifiers": </sub>
+<sub>        {"[within_sentence_modifier_ID]": </sub>
+<sub>          {"Arg0": {"span_start": "[token_index]", </sub>
+<sub>                    "span_end": "[token_index]", </sub>
+<sub>                    "span_id": "[brat_ID]",  </sub>
+<sub>                    "text": "[string]"}, </sub>
+<sub>           "Arg1": {"span_start": "[token_index]", </sub>
+<sub>                    "span_end": "[token_index]", </sub>
+<sub>                    "span_id": "[brat_ID]", </sub>
+<sub>                    "text": "[string]"}</sub>
+<sub>          }</sub>
+<sub>       }, </sub>
+<sub>     "tradeoffs": </sub>
+<sub>        {"[within_sentence_tradeoff_ID]": </sub>
+<sub>          {"Arg0": {"span_start": "[token_index]", </sub>
+<sub>                    "span_end": "[token_index]", </sub>
+<sub>                    "span_id": "[brat_ID]",  </sub>
+<sub>                    "text": "[string]"}, </sub>
+<sub>          "Arg1": {"span_start": "[token_index]", </sub>
+<sub>                   "span_end": "[token_index]", </sub>
+<sub>                   "span_id": "[brat_ID]",  </sub>
+<sub>                   "text": "[string]"},        </sub>   
+<sub>          "TO_indicator": {"span_start": "[token_index]",</sub> 
+<sub>                           "span_end": "[token_index]", </sub>
+<sub>                           "span_id": "[brat_ID]",  </sub>
+<sub>                           "text": "[string]"}, </sub>
+<sub>          "labels": {"Confidence": "High"}</sub>
+<sub>        }</sub>
+<sub>      }</sub>
+<sub>    }, </sub>
+<sub>    "sentence": "[string]"</sub>
+<sub>    }</sub>
+<sub>}, {[next document]} </sub>
+``` 
 
 And the Sci-ERC dataset format, which is used to train the SciIE system:
-<sub>
 ```
-[line1] {   "clusters": [],
-              "sentences": [["List", "of", "some", "tokens", "."]],
-              "ner": [[[4, 4, "Generic"]]],
-              "relations": [[[4, 4, 6, 17, "Tradeoff"]]],
-              "doc_key": "XXX"}
-[line2] {   [next sentence]
-``` </sub>
+<sub>[line1] {   "clusters": [],</sub>
+<sub>              "sentences": [["List", "of", "some", "tokens", "."]],</sub>
+<sub>              "ner": [[[4, 4, "Generic"]]],</sub>
+<sub>              "relations": [[[4, 4, 6, 17, "Tradeoff"]]],</sub>
+<sub>              "doc_key": "XXX"}</sub>
+<sub>[line2] {   [next sentence]</sub>
+``` 
 
 We also provide a script to convert data from our format to SciIE format, as well as a script to convert BRAT annotations to the verbose format.
 
 ### Statistics
-<sub> 
-|                             | Train       | Dev   | Test  | Total |
+
+|<sub>                  </sub>| <sub>Train</sub>| <sub>Dev</sub>   | <sub>Test</sub>  | <sub>Total</sub> |
 |-----------------------------|-------------|-------|-------|-------|
-| # Sentences                 | 1248        | 150   | 150   | 1548  |
-| Avg. sent. length           | 37.28       | 37.78 | 37.82 | 37.77 |
-| % of sents ≥ 25 tokens      | -           | -     | -     | 79.26 |
+| <sub># Sentences</sub>                 | <sub>1248</sub>        | <sub>150</sub>   | <sub>150</sub>   | <sub>1548</sub>  |
+| <sub>Avg. sent. length</sub>           | <sub>37.28</sub>       | <sub>37.78</sub> | <sub>37.82</sub> | <sub>37.77</sub> |
+| <sub>% of sents ≥ 25 tokens</sub>      | -           | -     | -     | <sub>79.26</sub> |
 | Relations:                  |             |       |       |       |
-| - Trade-Off                 | 639         | 54    | 72    | 765   |
-| - Not-a-Trade-Off           | 2004        | 258   | 240   | 2502  |
-| - Arg-Modifier              | 1247        | 142   | 132   | 1521  |
-| Triggers                    | 1292        | 155   | 153   | 1600  |
-| Arguments                   | 3435        | 401   | 398   | 4234  |
-| Spans                       | 5137        | 596   | 576   | 6309  |
-| Unique spans                | 2701        
-| Unique triggers             | 41          
-| Max triggers/sent           | 2           
-| Max spans/sent              | 7           
-| Spans w/ multiple relations | 2075        
-| # single-word arguments     | 498 (11.8%) 
-| Avg. tokens per argument    | 3.44        
-</sub>
+|  * <sub>Trade-Off</sub>                 | <sub>639</sub>         | <sub>54</sub>    | <sub>72</sub>    | <sub>765</sub>   |
+|  * <sub>Not-a-Trade-Off</sub>           | <sub>2004</sub>        | <sub>258</sub>   | <sub>240</sub>   | <sub>2502</sub>  |
+|  * <sub>Arg-Modifier</sub>              | <sub>1247</sub>        | <sub>142</sub>   | <sub>132</sub>   | <sub>1521</sub>  |
+| <sub>Triggers</sub>                    | <sub>1292</sub>        | <sub>155</sub>   | <sub>153</sub>   | <sub>1600</sub>  |
+| <sub>Arguments</sub>                   | <sub>3435</sub>        | <sub>401</sub>   | <sub>398</sub>   | <sub>4234</sub>  |
+| <sub>Spans</sub>                       | <sub>5137</sub>        | <sub>596</sub>   | <sub>576</sub>   | <sub>6309</sub>  |
+| <sub>Unique spans</sub>                | <sub>2701</sub>        
+| <sub>Unique triggers</sub>             | <sub>41 </sub>         
+| <sub>Max triggers/sent</sub>           | <sub>2 </sub>          
+| <sub>Max spans/sent</sub>              | <sub>7</sub>           
+| <sub>Spans w/ multiple relations</sub> | <sub>2075</sub>        
+| <sub># single-word arguments</sub>     | <sub>498 (11.8%) </sub>
+| <sub>Avg. tokens per argument</sub>    | <sub>3.44 </sub>       
+
 
 If you use the FOBIE dataset in your research, please cite the following paper:
 ```
