@@ -1,5 +1,6 @@
-FOBIE
+Semi-Open Relation Extraction
 --
+
 Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntactically similar relations from scientific biological texts.
 
 **Readme will be cleaned soon.**
@@ -7,6 +8,7 @@ Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntacti
 
 ### Format
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:
+<font size="2">
 ```
 {"[document_ID]": 
   {"[relation_ID_within_document]": 
@@ -44,9 +46,10 @@ The train/test/dev data files are provided in two formats. A verbose json format
     "sentence": "[string]"
     }
 }, {[next document]}
-```
+``` </font>
 
 And the Sci-ERC dataset format, which is used to train the SciIE system:
+<font size="2"> 
 ```
 [line1] {   "clusters": [],
               "sentences": [["List", "of", "some", "tokens", "."]],
@@ -54,11 +57,12 @@ And the Sci-ERC dataset format, which is used to train the SciIE system:
               "relations": [[[4, 4, 6, 17, "Tradeoff"]]],
               "doc_key": "XXX"}
 [line2] {   [next sentence]
-```
+``` </font>
 
 We also provide a script to convert data from our format to SciIE format, as well as a script to convert BRAT annotations to the verbose format.
 
 ### Statistics
+<font size="2"> 
 |                             | Train       | Dev   | Test  | Total |
 |-----------------------------|-------------|-------|-------|-------|
 | # Sentences                 | 1248        | 150   | 150   | 1548  |
@@ -78,7 +82,7 @@ We also provide a script to convert data from our format to SciIE format, as wel
 | Spans w/ multiple relations | 2075        
 | # single-word arguments     | 498 (11.8%) 
 | Avg. tokens per argument    | 3.44        
-
+</font>
 
 If you use the FOBIE dataset in your research, please cite the following paper:
 ```
