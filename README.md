@@ -10,8 +10,8 @@ Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntacti
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:
 
 
-<sub>{"[document_ID]": </sub>. 
-<sub>  {"[relation_ID_within_document]": </sub>. 
+<sub>{"[document_ID]": </sub>..   
+<sub>  {"[relation_ID_within_document]": </sub>.. 
 <sub>    {"annotations": </sub>. 
 <sub>      {"modifiers": </sub>. 
 <sub>        {"[within_sentence_modifier_ID]": </sub>. 
@@ -50,12 +50,12 @@ The train/test/dev data files are provided in two formats. A verbose json format
 
 And the Sci-ERC dataset format, which is used to train the SciIE system:
 
-<sub>[line1] {   "clusters": [],</sub>. 
-<sub>              "sentences": [["List", "of", "some", "tokens", "."]],</sub>. 
-<sub>              "ner": [[[4, 4, "Generic"]]],</sub>. 
-<sub>              "relations": [[[4, 4, 6, 17, "Tradeoff"]]],</sub>. 
-<sub>              "doc_key": "XXX"}</sub>. 
-<sub>[line2] {   [next sentence]</sub>. 
+<sub>[line1] {   "clusters": [],</sub>.. 
+<sub>              "sentences": [["List", "of", "some", "tokens", "."]],</sub>.. 
+<sub>              "ner": [[[4, 4, "Generic"]]],</sub>.. 
+<sub>              "relations": [[[4, 4, 6, 17, "Tradeoff"]]],</sub>.. 
+<sub>              "doc_key": "XXX"}</sub>.. 
+<sub>[line2] {   [next sentence]</sub>.. 
 
 
 We also provide a script to convert data from our format to SciIE format, as well as a script to convert BRAT annotations to the verbose format.
