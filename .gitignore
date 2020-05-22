@@ -1,0 +1,9 @@
+*.pyc
+  
+# ignore specific folders of this project:
+output/
+data/elmo/*
+
+# ignore .idea config files
+.idea/
+.DS_Store
