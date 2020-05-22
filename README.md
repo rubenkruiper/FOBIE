@@ -45,7 +45,7 @@ The train/test/dev data files are provided in two formats. A verbose json format
     }, 
     "sentence": "[string]"
     }
-}, {\\ next sentence
+}, 
 ```
 
 And the Sci-ERC dataset format, which is used to train the SciIE system:
@@ -54,8 +54,7 @@ And the Sci-ERC dataset format, which is used to train the SciIE system:
     "sentences": [["List", "of", "some", "tokens", "."]],
     "ner": [[[4, 4, "Generic"]]],
     "relations": [[[4, 4, 6, 17, "Tradeoff"]]],
-    "doc_key": "XXX"} \\ one sample per line
-{   \\ next sentence
+    "doc_key": "XXX"} 
 ```
 
 We also provide a script to convert data from our format to SciIE format, as well as a script to convert BRAT annotations to the verbose format.
