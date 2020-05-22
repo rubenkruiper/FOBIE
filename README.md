@@ -2,8 +2,8 @@ FOBIE
 --
 Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntactically similar relations from scientific biological texts.
 
+**Readme will be cleaned soon.**
 **Code for Semi-Open Relation Extraction will be added soon.**
-<!-- Dataset: json & SciIE format, Script: rewrite this, Link to paper: once it's on arxiv, Bibtex: https://github.com/multi30k/dataset -->
 
 ### Format
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:
@@ -64,12 +64,10 @@ We also provide a script to convert data from our format to SciIE format, as wel
 | # Sentences                 | 1248        | 150   | 150   | 1548  |
 | Avg. sent. length           | 37.28       | 37.78 | 37.82 | 37.77 |
 | % of sents ≥ 25 tokens      | -           | -     | -     | 79.26 |
-|-----------------------------|-------------|-------|-------|-------|
 | Relations:                  |             |       |       |       |
 | - Trade-Off                 | 639         | 54    | 72    | 765   |
 | - Not-a-Trade-Off           | 2004        | 258   | 240   | 2502  |
 | - Arg-Modifier              | 1247        | 142   | 132   | 1521  |
-|-----------------------------|-------------|-------|-------|-------|
 | Triggers                    | 1292        | 155   | 153   | 1600  |
 | Arguments                   | 3435        | 401   | 398   | 4234  |
 | Spans                       | 5137        | 596   | 576   | 6309  |
