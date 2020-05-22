@@ -49,25 +49,25 @@ The train/test/dev data files are provided in two formats. A verbose json format
 ``` 
 
 And the Sci-ERC dataset format, which is used to train the SciIE system:
-```
+
 <sub>[line1] {   "clusters": [],</sub>
 <sub>              "sentences": [["List", "of", "some", "tokens", "."]],</sub>
 <sub>              "ner": [[[4, 4, "Generic"]]],</sub>
 <sub>              "relations": [[[4, 4, 6, 17, "Tradeoff"]]],</sub>
 <sub>              "doc_key": "XXX"}</sub>
 <sub>[line2] {   [next sentence]</sub>
-``` 
+
 
 We also provide a script to convert data from our format to SciIE format, as well as a script to convert BRAT annotations to the verbose format.
 
 ### Statistics
 
-|<sub>                  </sub>| <sub>Train</sub>| <sub>Dev</sub>   | <sub>Test</sub>  | <sub>Total</sub> |
+|                             |  Train | Dev   | Test  | Total |
 |-----------------------------|-------------|-------|-------|-------|
 | <sub># Sentences</sub>                 | <sub>1248</sub>        | <sub>150</sub>   | <sub>150</sub>   | <sub>1548</sub>  |
 | <sub>Avg. sent. length</sub>           | <sub>37.28</sub>       | <sub>37.78</sub> | <sub>37.82</sub> | <sub>37.77</sub> |
 | <sub>% of sents ≥ 25 tokens</sub>      | -           | -     | -     | <sub>79.26</sub> |
-| Relations:                  |             |       |       |       |
+| <sub>Relations:</sub>               |             |       |       |       |
 |  * <sub>Trade-Off</sub>                 | <sub>639</sub>         | <sub>54</sub>    | <sub>72</sub>    | <sub>765</sub>   |
 |  * <sub>Not-a-Trade-Off</sub>           | <sub>2004</sub>        | <sub>258</sub>   | <sub>240</sub>   | <sub>2502</sub>  |
 |  * <sub>Arg-Modifier</sub>              | <sub>1247</sub>        | <sub>142</sub>   | <sub>132</sub>   | <sub>1521</sub>  |
