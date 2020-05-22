@@ -67,9 +67,9 @@ We also provide a script to convert data from our format to SciIE format, as wel
 | <sub>Avg. sent. length</sub>           | <sub>37.28</sub>       | <sub>37.78</sub> | <sub>37.82</sub> | <sub>37.77</sub> |
 | <sub>% of sents ≥ 25 tokens</sub>      | -           | -     | -     | <sub>79.26</sub> |
 | <sub>Relations:</sub>               |             |       |       |       |
-|  * <sub>Trade-Off</sub>                 | <sub>639</sub>         | <sub>54</sub>    | <sub>72</sub>    | <sub>765</sub>   |
-|  * <sub>Not-a-Trade-Off</sub>           | <sub>2004</sub>        | <sub>258</sub>   | <sub>240</sub>   | <sub>2502</sub>  |
-|  * <sub>Arg-Modifier</sub>              | <sub>1247</sub>        | <sub>142</sub>   | <sub>132</sub>   | <sub>1521</sub>  |
+|  - <sub>Trade-Off</sub>                 | <sub>639</sub>         | <sub>54</sub>    | <sub>72</sub>    | <sub>765</sub>   |
+|  - <sub>Not-a-Trade-Off</sub>           | <sub>2004</sub>        | <sub>258</sub>   | <sub>240</sub>   | <sub>2502</sub>  |
+|  - <sub>Arg-Modifier</sub>              | <sub>1247</sub>        | <sub>142</sub>   | <sub>132</sub>   | <sub>1521</sub>  |
 | <sub>Triggers</sub>                    | <sub>1292</sub>        | <sub>155</sub>   | <sub>153</sub>   | <sub>1600</sub>  |
 | <sub>Arguments</sub>                   | <sub>3435</sub>        | <sub>401</sub>   | <sub>398</sub>   | <sub>4234</sub>  |
 | <sub>Spans</sub>                       | <sub>5137</sub>        | <sub>596</sub>   | <sub>576</sub>   | <sub>6309</sub>  |
