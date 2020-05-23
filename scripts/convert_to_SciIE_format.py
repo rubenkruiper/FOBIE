@@ -54,7 +54,7 @@ def convert_dataset_to_SCIIE(nlp, dataset):
         doc_count += 1
         for sentence_id in data[source_doc_id]:
             sent_dict = {"clusters": [],
-                         "doc_key": source_doc_id}
+                         "doc_key": source_doc_id + "_" + sentence_id}
             ner = []
             relations = []
 
