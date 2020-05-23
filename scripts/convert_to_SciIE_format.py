@@ -13,8 +13,8 @@ def standalone_TradeoffWordSplitter():
     matcher.add('Trade-Off', None, [{'ORTH': "Trade"}, {'ORTH': '-'}, {'ORTH': "Off"}]) # capitalised titles
     matcher.add('Trade-Offs', None, [{'ORTH': "Trade"}, {'ORTH': '-'}, {'ORTH': "Offs"}])
     matcher.add('parentheses', None, [{'ORTH': "("}, {}, {'ORTH': ")"}])
-    matcher.add('<s>', None, [{'ORTH': "<"}, {'ORTH': 's'}, {'ORTH': ">"}])
-    matcher.add('</s>', None, [{'ORTH': "<"}, {'ORTH': '/s'}, {'ORTH': ">"}])
+    # matcher.add('<s>', None, [{'ORTH': "<"}, {'ORTH': 's'}, {'ORTH': ">"}])
+    # matcher.add('</s>', None, [{'ORTH': "<"}, {'ORTH': '/s'}, {'ORTH': ">"}])
 
 
     def quote_merger(doc):
@@ -63,6 +63,7 @@ def convert_dataset_to_SCIIE(nlp, dataset):
             tradeoffs = data[source_doc_id][sentence_id]['annotations']['tradeoffs']
             modifiers = data[source_doc_id][sentence_id]['annotations']['modifiers']
 
+            unique_arg_spans = []
             for tradeoff_id in tradeoffs.keys():
                 predicate_start = int(tradeoffs[tradeoff_id]['TO_indicator']['span_start'])
                 predicate_end = int(tradeoffs[tradeoff_id]['TO_indicator']['span_end'])
@@ -77,7 +78,11 @@ def convert_dataset_to_SCIIE(nlp, dataset):
 
                 for arg_id, arg in arguments:
                     arg_span = [int(arg['span_start']), int(arg['span_end']), 'argument']
-                    ner.append(arg_span)
+
+                    if arg_span not in unique_arg_spans:
+                        ner.append(arg_span)
+                        unique_arg_spans.append(arg_span)
+
                     relations.append([indicator_span[0],
                                       indicator_span[1],
                                       arg_span[0], arg_span[1],
@@ -92,13 +97,9 @@ def convert_dataset_to_SCIIE(nlp, dataset):
                         mod_relations[mod_arg_id] = [int(mod_arg['span_start']),
                                                      int(mod_arg['span_end']),
                                                      'argument']
-
-                    # check if the entity already exists
-                    if mod_relations['Arg0'] not in ner:    # dep
-                        ner.append(mod_relations['Arg0'])
-
-                    if mod_relations['Arg1'] not in ner:    # gov
-                        ner.append(mod_relations['Arg1'])
+                        if mod_relations[mod_arg_id] not in unique_arg_spans:
+                            ner.append(mod_relations[mod_arg_id])
+                            unique_arg_spans.append(mod_relations[mod_arg_id])
 
                     relations.append([mod_relations['Arg1'][0], mod_relations['Arg1'][1],
                                       mod_relations['Arg0'][0], mod_relations['Arg0'][1],
