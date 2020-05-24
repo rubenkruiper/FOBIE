@@ -116,13 +116,14 @@ def statistics_per_split(nlp, dataset):
     print(" - Arg-Modifier: {}".format(relation_cnt["Arg_Modifier"]))
     print("Triggers: {}".format(sum(trigger_cnt.values())))
     print("Keyphrases: {}".format(sum(keyphrase_cnt.values())))
+    print("Keyphrases w/ multiple relations: {}".format(
+        len([v for v in rel_per_keyphrase.values() if v > 1])))
     print("Spans: {}".format(sum(span_cnt.values())))
     print("Max triggers/sent: {}".format(max(triggers_per_sent)))
     print("Max spans/sent: {}".format(max(spans_per_sent)))
-    print("Spans w/ multiple relations: {}".format(
-        len([v for v in rel_per_keyphrase.values() if v > 1])))
 
-    return span_cnt, trigger_cnt, keyphrase_cnt, sentence_len_cnt
+
+    return span_cnt, trigger_cnt, keyphrase_cnt, sentence_len_cnt, relation_cnt
 
 
 def main():
@@ -132,16 +133,18 @@ def main():
     unique_spans = Counter()
     unique_triggers = Counter()
     key_phrases = Counter()
+    total_rel_cnt = Counter()
 
     input_files = ["../data/train_set.json", "../data/dev_set.json", "../data/test_set.json"]
     for input_file in input_files:
 
-        spans, triggers, k_phrases, sent_cnt = statistics_per_split(nlp, input_file)
+        spans, triggers, k_phrases, sent_cnt, rel_cnt = statistics_per_split(nlp, input_file)
 
         total_sent_lengths += sent_cnt
         unique_spans += spans
         unique_triggers += triggers
         key_phrases += k_phrases
+        total_rel_cnt += rel_cnt
 
     print("----------------------  \n Combined over splits \n----------------------  ")
     print("Avg. sent. length: {:.2f}".format(
@@ -149,6 +152,8 @@ def main():
     print("% of sents ≥ 25: {0:.2%}".format(
         sum([v for k, v in total_sent_lengths.most_common() if k > 24]) / sum(total_sent_lengths.values())))
     print("Unique spans: ", len(unique_spans.keys()))
+    print("Total number of spans: ", sum(unique_spans.values()))
+    print("Total number of relations: ", sum(total_rel_cnt.values()))
     print("Unique triggers: ", len(unique_triggers.keys()))
     single_k_phrases = sum([v for k, v in key_phrases.items() if k == 1])
     print(
