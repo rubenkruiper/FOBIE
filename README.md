@@ -59,25 +59,25 @@ And the Sci-ERC dataset format, which is used to train the SciIE system:
 We also provide a script to convert data from the verbose format to SciIE format, as well as a script to convert BRAT annotations to the verbose format.
 
 ### Statistics
-Note that the statistics in the paper are slightly off, due to a counting error in the Argument Modifiers. You can find the updated _dataset_statistics.py_ under the scripts folder.
+Also see _dataset_statistics.py_ under the scripts folder.
 |                             |  Train | Dev   | Test  | Total |
 |-----------------------------|-------------|-------|-------|-------|
 | <sub># Unique documents </sub>         | <sub>1010</sub>        | <sub>138</sub>   | <sub>144</sub>   | <sub>1292</sub>  |
 | <sub># Sentences</sub>                 | <sub>1248</sub>        | <sub>150</sub>   | <sub>150</sub>   | <sub>1548</sub>  |
-| <sub>Avg. sent. length</sub>           | <sub>37.41</sub>       | <sub>38.91</sub> | <sub>40.02</sub> | <sub>37.81</sub> |
+| <sub>Avg. sent. length</sub>           | <sub>37.42</sub>       | <sub>38.91</sub> | <sub>40.02</sub> | <sub>37.81</sub> |
 | <sub>% of sents ≥ 25 tokens</sub>      | <sub>82.21 %</sub>       | <sub>85.33 %</sub> | <sub>83.33 %</sub> | <sub>82.62%</sub> |
 | <sub>Relations:</sub>                  |             |       |       |       |
 |<sub> - Trade-Off</sub>                 | <sub>639</sub>         | <sub>54</sub>    | <sub>72</sub>    | <sub>765</sub>   |
 |<sub> - Not-a-Trade-Off</sub>           | <sub>2004</sub>        | <sub>258</sub>   | <sub>240</sub>   | <sub>2502</sub>  |
 |<sub> - Arg-Modifier</sub>              | <sub>1296</sub>        | <sub>147</sub>   | <sub>137</sub>   | <sub>1580</sub>  |
 | <sub>Triggers</sub>                    | <sub>1292</sub>        | <sub>155</sub>   | <sub>153</sub>   | <sub>1600</sub>  |
-| <sub>Keyphrases</sub>                   | <sub>4018</sub>        | <sub>467</sub>   | <sub>460</sub>   | <sub>4945</sub>  |
+| <sub>Keyphrases</sub>                   | <sub>3451</sub>        | <sub>401</sub>   | <sub>400</sub>   | <sub>4252</sub>  |
 | <sub>Keyphrases w/ multiple relations</sub> | <sub>1614</sub>        | <sub>189</sub>   | <sub>164</sub>   | <sub>1967</sub> |
-| <sub>Spans</sub>                       | <sub>5310</sub>        | <sub>596</sub>   | <sub>576</sub>   | <sub>6309</sub>  |
+| <sub>Spans</sub>                       | <sub>4743</sub>        | <sub>556</sub>   | <sub>553</sub>   | <sub>5852</sub>  |
 | <sub>Max triggers/sent</sub>           | <sub>2 </sub> | <sub>2 </sub> | <sub>2 </sub> |         
 | <sub>Max spans/sent</sub>              | <sub>11</sub>  | <sub>8 </sub> | <sub>10 </sub> |
 | <sub>Unique spans</sub>                | |       |       |<sub>3643</sub>   |      
-| <sub>Unique triggers</sub>             | |       |       |<sub>41 </sub>    |               
+| <sub>Unique triggers</sub>             | |       |       |<sub>41 </sub>    |             
 | <sub># single-word keyphrases</sub>     | |       |       |<sub>872 (20.51%) </sub>|
 | <sub>Avg. tokens per keyphrase</sub>    | |       |       |<sub>3.45 </sub>     |   
 
