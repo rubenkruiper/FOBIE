@@ -49,9 +49,10 @@ def convert_dataset_to_SCIIE(nlp, dataset):
 
     converted_dataset = []
     doc_count = 0
-    for source_doc_id in tqdm(data):
 
+    for source_doc_id in tqdm(data):
         doc_count += 1
+
         for sentence_id in data[source_doc_id]:
             sent_dict = {"clusters": [],
                          "doc_key": source_doc_id + "_" + sentence_id}
@@ -64,6 +65,8 @@ def convert_dataset_to_SCIIE(nlp, dataset):
             modifiers = data[source_doc_id][sentence_id]['annotations']['modifiers']
 
             unique_arg_spans = []
+            unique_tuples = []
+
             for tradeoff_id in tradeoffs.keys():
                 predicate_start = int(tradeoffs[tradeoff_id]['TO_indicator']['span_start'])
                 predicate_end = int(tradeoffs[tradeoff_id]['TO_indicator']['span_end'])
@@ -83,31 +86,38 @@ def convert_dataset_to_SCIIE(nlp, dataset):
                         ner.append(arg_span)
                         unique_arg_spans.append(arg_span)
 
-                    relations.append([indicator_span[0],
-                                      indicator_span[1],
-                                      arg_span[0], arg_span[1],
-                                      relation_type])
+                    tuple = [indicator_span[0], indicator_span[1], arg_span[0], arg_span[1], relation_type]
+                    if tuple not in unique_tuples:
+                        unique_tuples.append(tuple)
+                        relations.append(tuple)
 
-                relation_type = "Arg_Modifier"
-                for mod_id, modifier in modifiers.items():
-                    mod_args = ((key, value) for key, value in modifier.items() if key.startswith('Arg'))
+            relation_type = "Arg_Modifier"
+            for mod_id, modifier in modifiers.items():
+                # mod_args = ((key, value) for key, value in modifier.items() if key.startswith('Arg'))
 
-                    mod_relations = {}
-                    for mod_arg_id, mod_arg in mod_args:
-                        mod_relations[mod_arg_id] = [int(mod_arg['span_start']),
-                                                     int(mod_arg['span_end']),
-                                                     'argument']
-                        if mod_relations[mod_arg_id] not in unique_arg_spans:
-                            ner.append(mod_relations[mod_arg_id])
-                            unique_arg_spans.append(mod_relations[mod_arg_id])
+                mod_arg1_s = int(modifiers[mod_id]['Arg0']['span_start'])
+                mod_arg1_e = int(modifiers[mod_id]['Arg0']['span_end'])
+                mod_arg2_s = int(modifiers[mod_id]['Arg1']['span_start'])
+                mod_arg2_e = int(modifiers[mod_id]['Arg1']['span_end'])
 
-                    relations.append([mod_relations['Arg1'][0], mod_relations['Arg1'][1],
-                                      mod_relations['Arg0'][0], mod_relations['Arg0'][1],
-                                      relation_type])
+                arg1_span = [mod_arg1_s, mod_arg1_e, 'argument']
+                arg2_span = [mod_arg2_s, mod_arg2_e, 'argument']
 
+                for mod_arg in [arg1_span, arg2_span]:
+                    if mod_arg not in unique_arg_spans:
+                        ner.append(mod_arg)
+                        unique_arg_spans.append(mod_arg)
+
+                mod_tuple = [mod_arg1_s, mod_arg1_e, mod_arg2_s, mod_arg2_e, relation_type]
+                if mod_tuple not in unique_tuples:
+                    unique_tuples.append(mod_tuple)
+                    relations.append(mod_tuple)
+
+            # aggregate sent annotations
             sent_dict['ner'] = [ner]
             sent_dict['relations'] = [relations]
             sent_dict['sentences'] = [[token.text for token in doc]]
+
 
             converted_dataset.append(sent_dict)
 

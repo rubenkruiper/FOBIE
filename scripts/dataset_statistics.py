@@ -46,7 +46,9 @@ def statistics_per_split(nlp, dataset):
     span_cnt = Counter()
     rel_per_keyphrase = Counter()
     triggers_per_sent = []
+    args_per_trigger = []
     spans_per_sent = []
+    tuples_per_sent = []
 
     with open(dataset) as f:
         data = json.load(f)
@@ -56,6 +58,8 @@ def statistics_per_split(nlp, dataset):
 
         for sentence_id in data[source_doc_id]:
             unique_spans_in_sent = []
+            unique_tuples_in_sent = []
+
             unique_sent_id = str(source_doc_id) + str(sentence_id)
 
             sentence: str = data[source_doc_id][sentence_id]['sentence']
@@ -75,34 +79,53 @@ def statistics_per_split(nlp, dataset):
                 if 'Negation' in tradeoffs[tradeoff_id]['labels']:
                     relation_type = "Not_a_TradeOff"
 
-                trigger_cnt[tradeoffs[tradeoff_id]['TO_indicator']['text']] += 1
-                unique_spans_in_sent.append(tradeoffs[tradeoff_id]['TO_indicator']['text'])   # trigger is still a span
-                span_cnt[tradeoffs[tradeoff_id]['TO_indicator']['text']] += 1
+                trigger = tradeoffs[tradeoff_id]['TO_indicator']['text']
+                trigger_s = tradeoffs[tradeoff_id]['TO_indicator']['span_start']
+                trigger_e = tradeoffs[tradeoff_id]['TO_indicator']['span_end']
+                trigger_cnt[trigger] += 1
+                unique_spans_in_sent.append(trigger)   # trigger is still a span
+                span_cnt[trigger] += 1
 
+                num_args_this_trigger = 0
 
                 for arg_id, arg in arguments:
-                    relation_cnt[relation_type] += 1
+                    num_args_this_trigger += 1
+                    tuple = [trigger_s, trigger_e, arg['span_start'], arg['span_end'], relation_type]
+                    if tuple not in unique_tuples_in_sent:
+                        relation_cnt[relation_type] += 1
+                        unique_tuples_in_sent.append(tuple)
+
                     rel_per_keyphrase[arg['text']+unique_sent_id] += 1
                     keyphrase_cnt[(int(arg['span_end']) - int(arg['span_start']) + 1)] += 1
                     unique_spans_in_sent.append(arg['text'])
                     span_cnt[arg['text']] += 1
 
-
-                for mod_id, modifier in modifiers.items():
-                    mod_args = ((key, value) for key, value in modifier.items() if key.startswith('Arg'))
-
-                    relation_cnt["Arg_Modifier"] += 1
-
-                    for mod_arg_id, mod_arg in mod_args:
-                        rel_per_keyphrase[mod_arg['text']+unique_sent_id] += 1
-                        if mod_arg['text'] not in unique_spans_in_sent:
-                            unique_spans_in_sent.append(mod_arg['text'])
-                            span_cnt[mod_arg['text']] += 1
-                            keyphrase_cnt[(int(mod_arg['span_end']) - int(mod_arg['span_start']) + 1)] += 1
+                args_per_trigger.append(num_args_this_trigger)
 
 
-        triggers_per_sent.append(len(tradeoffs.keys()))
-        spans_per_sent.append(len(unique_spans_in_sent))
+            for mod_id, modifier in modifiers.items():
+                # mod_args = ((key, value) for key, value in modifier.items() if key.startswith('Arg'))
+
+                relation_type = "Arg_Modifier"
+                mod_arg1 = modifiers[mod_id]['Arg0']
+                mod_arg2 = modifiers[mod_id]['Arg1']
+                mod_tuple = [mod_arg1['span_start'], mod_arg1['span_end'],
+                             mod_arg2['span_start'], mod_arg2['span_end'], relation_type]
+                if mod_tuple not in unique_tuples_in_sent:
+                    relation_cnt[relation_type] += 1
+                    unique_tuples_in_sent.append(mod_tuple)
+
+                for mod_arg in [mod_arg1, mod_arg2]:
+                    rel_per_keyphrase[mod_arg['text']+unique_sent_id] += 1
+                    if mod_arg['text'] not in unique_spans_in_sent:
+                        unique_spans_in_sent.append(mod_arg['text'])
+                        span_cnt[mod_arg['text']] += 1
+                        keyphrase_cnt[(int(mod_arg['span_end']) - int(mod_arg['span_start']) + 1)] += 1
+
+            # aggregate sentence statistics
+            triggers_per_sent.append(len(tradeoffs.keys()))
+            spans_per_sent.append(len(unique_spans_in_sent))
+            tuples_per_sent.append(len(unique_tuples_in_sent))
 
 
     print("Statistics: \n {} samples found in {} documents".format(sum(sentence_len_cnt.values()), doc_count))
@@ -119,9 +142,12 @@ def statistics_per_split(nlp, dataset):
     print("Keyphrases w/ multiple relations: {}".format(
         len([v for v in rel_per_keyphrase.values() if v > 1])))
     print("Spans: {}".format(sum(span_cnt.values())))
+    print("Max args/trigger: {}".format(max(args_per_trigger)))
     print("Max triggers/sent: {}".format(max(triggers_per_sent)))
     print("Max spans/sent: {}".format(max(spans_per_sent)))
-
+    print("Max tuples/sent: {}".format(max(tuples_per_sent)))
+    print("Total relations: {}".format(sum(tuples_per_sent)))
+    # print("Total relations v2: {}".format(sum(relation_cnt.values())))
 
     return span_cnt, trigger_cnt, keyphrase_cnt, sentence_len_cnt, relation_cnt
 

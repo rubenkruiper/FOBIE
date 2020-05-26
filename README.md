@@ -69,17 +69,19 @@ Also see _dataset_statistics.py_ under the scripts folder.
 | <sub>Relations:</sub>                  |             |       |       |       |
 |<sub> - Trade-Off</sub>                 | <sub>639</sub>         | <sub>54</sub>    | <sub>72</sub>    | <sub>765</sub>   |
 |<sub> - Not-a-Trade-Off</sub>           | <sub>2004</sub>        | <sub>258</sub>   | <sub>240</sub>   | <sub>2502</sub>  |
-|<sub> - Arg-Modifier</sub>              | <sub>1296</sub>        | <sub>147</sub>   | <sub>137</sub>   | <sub>1580</sub>  |
+|<sub> - Arg-Modifier</sub>              | <sub>1247</sub>        | <sub>142</sub>   | <sub>132</sub>   | <sub>1521</sub>  |
 | <sub>Triggers</sub>                    | <sub>1292</sub>        | <sub>155</sub>   | <sub>153</sub>   | <sub>1600</sub>  |
-| <sub>Keyphrases</sub>                   | <sub>3451</sub>        | <sub>401</sub>   | <sub>400</sub>   | <sub>4252</sub>  |
-| <sub>Keyphrases w/ multiple relations</sub> | <sub>1614</sub>        | <sub>189</sub>   | <sub>164</sub>   | <sub>1967</sub> |
-| <sub>Spans</sub>                       | <sub>4743</sub>        | <sub>556</sub>   | <sub>553</sub>   | <sub>5852</sub>  |
+| <sub>Keyphrases</sub>                   | <sub>3436</sub>        | <sub>401</sub>   | <sub>398</sub>   | <sub>4235</sub>  |
+| <sub>Keyphrases w/ multiple relations</sub> | <sub>1600</sub>        | <sub>188</sub>   | <sub>163</sub>   | <sub>1951</sub> |
+| <sub>Spans</sub>                       | <sub>4728</sub>        | <sub>556</sub>   | <sub>551</sub>   | <sub>5835</sub>  |
+| <sub>Max relations/sent</sub>           | <sub>9 </sub> | <sub>8 </sub> | <sub>8 </sub> |         
+| <sub>Max spans/sent</sub>              | <sub>9</sub>  | <sub>8 </sub> | <sub>8 </sub> |
 | <sub>Max triggers/sent</sub>           | <sub>2 </sub> | <sub>2 </sub> | <sub>2 </sub> |         
-| <sub>Max spans/sent</sub>              | <sub>11</sub>  | <sub>8 </sub> | <sub>10 </sub> |
+| <sub>Max args/trigger</sub>           | <sub>5 </sub> | <sub>4 </sub> | <sub>4 </sub> |         
 | <sub>Unique spans</sub>                | |       |       |<sub>3643</sub>   |      
 | <sub>Unique triggers</sub>             | |       |       |<sub>41 </sub>    |             
-| <sub># single-word keyphrases</sub>     | |       |       |<sub>872 (20.51%) </sub>|
-| <sub>Avg. tokens per keyphrase</sub>    | |       |       |<sub>3.45 </sub>     |   
+| <sub># single-word keyphrases</sub>     | |       |       |<sub>864 (20.4%) </sub>|
+| <sub>Avg. tokens per keyphrase</sub>    | |       |       |<sub>3.46 </sub>     |   
 
 
 If you use the FOBIE dataset in your research, please cite the following paper:
