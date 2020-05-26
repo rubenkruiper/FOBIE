@@ -2,7 +2,9 @@
   
 # ignore specific folders of this project:
 output/
-data/elmo/*
+SORE/data/filter_data/elmo_pubmed/
+SORE/data/filter_data/vectors/
+SORE/data/OpenIE/
 
 # ignore .idea config files
 .idea/
