@@ -5,6 +5,7 @@ Install requirements:
     * `python -m spacy download en_core_web_sm`
     * `python -m textblob.download_corpora`
 
+Prepare data for narrow IE 
 
 ----
 ### Run SciIE

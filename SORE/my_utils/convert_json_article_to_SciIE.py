@@ -1,4 +1,5 @@
 from SORE.my_utils.spacyNLP import spacy_nlp
+from SORE.my_utils import clean_raw_input
 
 def convert_doc_to_sciie_format(input_dict):
     """
@@ -10,6 +11,8 @@ def convert_doc_to_sciie_format(input_dict):
     for doc_id in input_dict:
 
         content = input_dict[doc_id]
+        content = clean_raw_input.clean_content(content)
+
         for sent_id, sentence in content.items():
             sent_dict = {"clusters": [],
                          "doc_key": doc_id + "_" + str(sent_id)}

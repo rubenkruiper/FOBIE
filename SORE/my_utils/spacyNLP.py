@@ -1,4 +1,4 @@
-import spacy, re
+import spacy
 from spacy.matcher import Matcher
 
 

@@ -1,29 +1,37 @@
-import glob, os
+import glob, os, sys, csv
 from pyopenie import OpenIE5
 from tqdm import tqdm
 
-"""
-Change this path to the OpenIE 5 jar you will have to assemble
-"""
-path_to_OIE_jar = "/Users/rubenkruiper/dev/OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar"
-
-
-oie_data_dir = 'data/OpenIE/'
 
 class OpenIE5_client(object):
-    def __init__(self, oie_data_dir, path_to_OIE_jar):
+    def __init__(self, csv_path, oie_data_dir, path_to_OIE_jar):
+        self.csv_path = csv_path
         self.oie_data_dir = oie_data_dir
         self.path_to_OIE_jar = path_to_OIE_jar
         self.current_pwd = os.getcwd()
 
-    def determine_output_files(self):
+
+    def get_docid_from_filename(self, filename, output_name=False):
+        if output_name:
+            return self.oie_data_dir+'processed/'+filename.rsplit('/',maxsplit=1)[1][:-4]+'_processed.txt'
+        return filename.rsplit('/',maxsplit=1)[1][:-4]
+
+
+    def determine_in_and_output_files(self):
         input_files = glob.glob(self.oie_data_dir+'inputs/*.txt')
-        print(input_files)
-        output_files = [self.oie_data_dir+'processed/'+ x.rsplit('/',maxsplit=1)[1][:-4] + '_processed.txt' for x in input_files]
+        docs_with_central_relations = []
+        with open(self.csv_path, 'r') as csv_f:
+            reader = csv.DictReader(csv_f)
+            for row in reader:
+                docs_with_central_relations.append(row['doc_id'])
+
+        docs_with_central_relations = list(set(docs_with_central_relations))
+
+        OIE_input = [f for f in input_files if self.get_docid_from_filename(f) in docs_with_central_relations]
+        output_files = [self.get_docid_from_filename(x, True) for x in OIE_input]
 
         file_paths = []
-
-        for idx, input_file in enumerate(input_files):
+        for idx, input_file in enumerate(OIE_input):
             file_paths.append([input_file, output_files[idx]])
 
         return file_paths
@@ -72,37 +80,41 @@ class OpenIE5_client(object):
         os.chdir(self.current_pwd)
         extractor = OpenIE5('http://localhost:8000')
 
-        input_output_files = self.determine_output_files()
+        input_output_files = self.determine_in_and_output_files()
 
         for input_file, output_file in input_output_files:
 
-            with open(input_file, encoding='ascii', errors='ignore') as f:
-                lines_in_file = f.readlines()
+            if os.path.exists(output_file):
+                print("{} already exists, skipping and assuming it's already been processed!".format(output_file))
+            else:
+                with open(input_file, encoding='ascii', errors='ignore') as f:
+                    lines_in_file = f.readlines()
 
-            number_of_lines = 0
-            number_of_lines_processed = 0
-            with open(output_file, 'w') as of:
-                for line in tqdm(lines_in_file):
-                    if line == '\n':
-                        pass
-                    else:
-
-                        number_of_lines += 1
-                        of.writelines([line.rstrip()])
-                        try:
-                            # extractions = os.system("curl -X POST http://localhost:8000/getExtraction -d {}".format('"'+ line + '"'))
-                            extractions = extractor.extract(line.rstrip())
-                            stuff_to_write = self.parse_extractions(extractions)
-                            of.writelines(stuff_to_write)
-                            of.writelines(['\n'])
-                            number_of_lines_processed += 1
-
-                        except:
-                            print("Can't process: {}".format(line.rstrip()))
+                number_of_lines = 0
+                number_of_lines_processed = 0
+                with open(output_file, 'w') as of:
+                    for line in tqdm(lines_in_file, position=0, leave=True):
+                        if line == '\n':
                             pass
+                        else:
 
-                print("Processed {}/{} lines in {} with OpenIE5".format(
-                    number_of_lines_processed, number_of_lines, input_file[:-4].rsplit('/', maxsplit=1)[1]))
+                            number_of_lines += 1
+                            of.writelines([line.rstrip()])
+                            try:
+                                # extractions = os.system("curl -X POST http://localhost:8000/getExtraction -d {}".format('"'+ line + '"'))
+                                extractions = extractor.extract(line.rstrip())
+                                stuff_to_write = self.parse_extractions(extractions)
+                                of.writelines(stuff_to_write)
+                                of.writelines(['\n'])
+                                number_of_lines_processed += 1
+
+                            except:
+                                print("Can't process: {}".format(line.rstrip()))
+                                pass
+
+                    sys.stderr.flush()
+                    print("Processed {}/{} lines in {} with OpenIE5\n".format(
+                        number_of_lines_processed, number_of_lines, input_file[:-4].rsplit('/', maxsplit=1)[1]))
 
         print("Finished processing files with OpenIE5, will now shut down server.")
 
@@ -111,7 +123,7 @@ class OpenIE5_client(object):
         print("Starting server at port 8000")
         OIE_dir = self.path_to_OIE_jar.split('target')[0]
         os.chdir(OIE_dir)
-        print("To start a server copy the following line into a new terminal window and run:")
+        print("To start an OpenIE5 server copy the following line into a new terminal window and run:")
         print("cd {} ; java -Xmx10g -XX:+UseConcMarkSweepGC -jar {} --ignore-errors --httpPort 8000\n".format(
             OIE_dir, self.path_to_OIE_jar
         ))
@@ -126,8 +138,12 @@ class OpenIE5_client(object):
             print('Error shutting down a pre-existing OpenIE5 server at port 8000')
 
 
-def run_OpenIE_5(unprocessed_paths, path_to_OIE_jar):
-    client = OpenIE5_client(unprocessed_paths, path_to_OIE_jar)
+def run_OpenIE_5(csv_path,
+                 path_to_OIE_jar=None,
+                 unprocessed_paths='SORE/data/OpenIE/'):
+    if path_to_OIE_jar == None:
+        print("Change `path_to_OIE_jar` to the OpenIE 5 jar you have to assemble!")
+    client = OpenIE5_client(csv_path, unprocessed_paths, path_to_OIE_jar)
     client.start_server()
     answer = input("Wait until the server is running to continue! Is the server ready? (y, n): ").lower()
     if answer == 'y':
@@ -136,5 +152,3 @@ def run_OpenIE_5(unprocessed_paths, path_to_OIE_jar):
             pass
 
     client.stop_server()
-
-run_OpenIE_5(oie_data_dir, path_to_OIE_jar)

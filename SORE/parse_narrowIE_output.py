@@ -1,19 +1,6 @@
 import json, glob, csv
 from collections import Counter
 
-"""
-converts the outputs of the SciIE model to a csv format for clustering.
-{"doc_key": "XXX", 
- "ner": [[[8, 8, "Generic"], [10, 10, "Generic"], [12, 14, "Generic"]]], 
- "relation": [[[8, 8, 10, 10, "Not_a_TradeOff"], [8, 8, 12, 14, "Not_a_TradeOff"]]]}
-"""
-
-narrowIE_data = "data/narrowIE/example_input.json"
-narrowIE_predictions = "data/narrowIE/predictions_example_input.json"
-
-# set the GLOBAL variable - choice between 'ALL', 'TRADEOFFS', and 'TRADEOFFS_AND_ARGMODS'
-RELATIONS_TO_STORE = "TRADEOFFS_AND_ARGMODS"
-output_csv = "data/narrowIE/tradeoffs_and_argmods.csv"
 
 
 ######
@@ -95,6 +82,7 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
                 all_pred_args, to_pred_args, mod_pred_args, rel_counter = convert_spans_to_tokenlist(sample, d_sample)
 
                 doc_id, sent_id = doc_key.rsplit('_', maxsplit=1)
+                doc_id = doc_id.replace('.','_')
                 sentence = simple_tokens_to_string(d_sample["sentences"][0])
 
                 if RELATIONS_TO_STORE == "ALL":
@@ -107,14 +95,16 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
                     relation_types = 'TradeOffs with Arg-Modifiers'
                     argument_list = [simple_tokens_to_string(arg) for arg in (to_pred_args + mod_pred_args)]
 
-                output_per_sentence.append([doc_id, sent_id, sentence, relation_types, argument_list])
+                if argument_list != []:
+                    output_per_sentence.append([doc_id, sent_id, sentence, relation_types, argument_list])
 
-        output_all_sentences.append(output_per_sentence)
+        if output_per_sentence != []:
+            output_all_sentences.append(output_per_sentence)
 
     return output_all_sentences
 
 
-def main(data, pred, output_csv, RELATIONS_TO_STORE):
+def start_parsing(data, pred, output_csv, RELATIONS_TO_STORE):
     """
     """
     rows_to_write = read_sciie_output_format(data, pred, RELATIONS_TO_STORE)
@@ -128,5 +118,3 @@ def main(data, pred, output_csv, RELATIONS_TO_STORE):
     f.close()
     print("Converted the predicted ", RELATIONS_TO_STORE, " to a csv file: ", output_csv)
 
-
-main(narrowIE_data, narrowIE_predictions, output_csv, RELATIONS_TO_STORE)

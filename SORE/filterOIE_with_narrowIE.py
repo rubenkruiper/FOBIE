@@ -18,13 +18,15 @@ from sklearn.metrics.pairwise import  cosine_distances
 
 from allennlp.commands.elmo import ElmoEmbedder
 
-import SORE.my_utils.spacyNLP as nlp
+from SORE.my_utils.spacyNLP import spacy_nlp
+import SORE.my_utils.filter_utils as fu
 
 
 class PrepareEmbeddings():
 
-    def __init__(self, sp_vocab_size, csv_path, elmo_options, elmo_weights, WEIGHT_COMBINATION='max',
-                 stemming=False, stopwords=False):
+    def __init__(self, sp_model_path, sp_vocab_size, IDF_path, csv_path,
+                 elmo_options, elmo_weights, WEIGHT_COMBINATION='max',
+                 subwordunits=True, stemming=False, stopwords=False):
 
         self.sp_vocab_size = sp_vocab_size
         self.csv_path = csv_path
@@ -33,14 +35,15 @@ class PrepareEmbeddings():
         self.stopwords = stopwords
 
         # SentencePiece
-        self.sp = spm.SentencePieceProcessor()
-        self.sp.load('data/filter_data/SORE_sentencepiece_{sp_vocab_size}.model'.format(sp_vocab_size=sp_vocab_size))
+        if subwordunits:
+            self.subwordunits = subwordunits
+            self.sp = spm.SentencePieceProcessor()
+            self.sp.load(sp_model_path)
 
         ### elmo embeddings
         self.elmo = ElmoEmbedder(elmo_options, elmo_weights)
 
         # IDF weights
-        IDF_path = "data/filter_data/subword_unit_IDF_{sp_vocab_size}.json".format(sp_vocab_size=sp_vocab_size)
         with open(IDF_path) as f:
             self.IDF_values = json.load(f)
 
@@ -51,11 +54,16 @@ class PrepareEmbeddings():
         stem = [token.stem() for token in tokens]
         return ''.join([w for w in stem])
 
+
+    def parse_argument_list(self, string_list):
+        return [x[1: -1] for x in string_list[1: -1].split(", ")]
+
+
     def load_data(self):
 
         if self.stopwords:
             stopwords = []
-            with open('data/filter_data/nltk_stopwords.txt') as f:
+            with open('SORE/my_utils/nltk_stopwords.txt') as f:
                 for line in f.readlines():
                     stopwords.append(line.strip())
 
@@ -63,8 +71,7 @@ class PrepareEmbeddings():
         with open(self.csv_path, 'r') as csv_f:
             reader = csv.DictReader(csv_f)
             for row in reader:
-                data[row['doc_id'] + '.' + row['sentence_nr']] = list(row['arguments'][1:-1].split(", "))
-
+                data[row['doc_id'] + '.' + row['sentence_nr']] = list(self.parse_argument_list(row['arguments']))
 
         # store all phrases by index
         all_phrases = []
@@ -72,23 +79,21 @@ class PrepareEmbeddings():
         for identifier, arguments_list in data.items():
 
             if arguments_list != ['']:
-
                 arguments_list = list(set(arguments_list))
 
                 for phrase in arguments_list:
-
                     all_phrases.append(phrase)
 
                     if self.stopwords and self.stemmer:
-                        words = [t.text for t in nlp.spacy_nlp(phrase) if t.text not in stopwords]
+                        words = [t.text for t in spacy_nlp(phrase) if t.text not in stopwords]
                         preprocessed_phrase = [self.stemmer(w) for w in words]
                     elif self.stemmer:
-                        words = [t.text for t in nlp.spacy_nlp(phrase)]
+                        words = [t.text for t in spacy_nlp(phrase)]
                         preprocessed_phrase = [self.stemmer(w) for w in words]
                     elif self.stopwords:
-                        preprocessed_phrase = [t.text for t in nlp.spacy_nlp(phrase) if t.text not in stopwords]
+                        preprocessed_phrase = [t.text for t in spacy_nlp(phrase) if t.text not in stopwords]
                     else:
-                        preprocessed_phrase = [t.text for t in nlp.spacy_nlp(phrase)]
+                        preprocessed_phrase = [t.text for t in spacy_nlp(phrase)]
                     preprocessed_phrases.append(preprocessed_phrase)
 
         #         print(len(all_phrases), len(preprocessed_phrases))
@@ -102,32 +107,39 @@ class PrepareEmbeddings():
             IDF_weights_for_phrase = []
             for word in preprocessed_phrase:
                 # initiate every subword-idx with value of 1
-                subword_units = self.sp.EncodeAsIds(word)
-                sw_weights = np.ones(len(subword_units))
+                if self.subwordunits:
+                    subword_units = self.sp.EncodeAsIds(word)
+                    sw_weights = np.ones(len(subword_units))
 
-                for sw_id, sw in enumerate(subword_units):
-                    try:
-                        # set index of phrase representation to corresponding IDF value
-                        sw_weights[sw_id] = self.IDF_values[str(sw)]
-                    except (KeyError, ValueError) as e:
-                        pass
-                        # No IDF value found, leave 1
-                        # print("Didn't find {subword_unit_id} in IDF values: {subword_unit}".format(
-                        #                subword_unit_id=sw,
-                        #                subword_unit=self.sp.DecodeIds([int(sw)])))
+                    for sw_id, sw in enumerate(subword_units):
+                        try:
+                            # set index of phrase representation to corresponding IDF value
+                            sw_weights[sw_id] = self.IDF_values[str(sw)]
+                        except (KeyError, ValueError) as e:
+                            pass
+                            # No IDF value found, leave 1
+                            # print("Didn't find {subword_unit_id} in IDF values: {subword_unit}".format(
+                            #                subword_unit_id=sw,
+                            #                subword_unit=self.sp.DecodeIds([int(sw)])))
 
-                if len(sw_weights) < 1:
-                    print(word)
-                    sw_weights = [0]
+                    if len(sw_weights) < 1:
+                        print(word)
+                        sw_weights = [0]
 
-                if self.WEIGHT_COMBINATION == 'max':
-                    word_weight = np.amax(sw_weights)
+                    if self.WEIGHT_COMBINATION == 'max':
+                        word_weight = np.amax(sw_weights)
+                    else:
+                        word_weight = np.average(sw_weights)
+
+                    IDF_weights_for_phrase.append(word_weight)
+
                 else:
-                    word_weight = np.average(sw_weights)
+                    try:
+                        IDF_weights_for_phrase.append(self.IDF_values[str(word)])
+                    except:
+                        print('Need to implement the non-subword version.')
 
-                IDF_weights_for_phrase.append(word_weight)
-
-            IDF_weights_for_phrases.append(IDF_weights_for_phrase)
+                IDF_weights_for_phrases.append(IDF_weights_for_phrase)
         print("Prepared the IDF weights, based on subword units.")
         #         print(len(IDF_weights_for_phrases))
         return IDF_weights_for_phrases
@@ -153,31 +165,33 @@ class PrepareEmbeddings():
 
 class NarrowIEOpenIECombiner(object):
 
-    def __init__(self, sp_size, csv_path,
+    def __init__(self, oie_data_dir, IDF_path, csv_path, SUBWORDUNIT, sp_size,
                  number_of_clusters=50,
-                 stemming=True,
-                 stopwords=True,
+                 stemming=False,
+                 stopwords=False,
                  weight_combination="avg",
                  path_to_embeddings=None):
         self.randomstate = 14
+        self.oie_data_dir = oie_data_dir
         self.csv_path = csv_path
         self.number_of_clusters = number_of_clusters
         self.weight_combination = weight_combination
         self.stemming = stemming
         self.stopwords = stopwords
 
-        if sp_size in ['4k', '8k', '16k', '32k']:
-            self.sp_size = sp_size
-            self.IDF_path = "subword_unit_IDF_{}.json".format(sp_size)
-            self.nr_of_IDF_values = int(sp_size[:-1]) * 1000
+        self.IDF_path = IDF_path
+        self.filter_data_path = IDF_path.rsplit('/', maxsplit=1)[0] + '/'
+
+        if SUBWORDUNIT:
+            self.sp_size = str(sp_size)
+            self.subwordunit = SUBWORDUNIT
         else:
-            print("Pick a sentence piece size from: '4k', '8k', '16k', '32k'")
-            print("(Or create your sp model and vocab, and change code accordingly)")
+            self.sp_size = ''
 
         self.ELMo_options_path = ""
         self.ELMo_weights_path = ""
         if not path_to_embeddings:
-            self.path_to_embeddings = "data/filter_data/elmo_pubmed/"
+            self.path_to_embeddings = "SORE/data/filter_data/elmo_pubmed/"
             self.check_for_embeddings()
 
 
@@ -185,7 +199,10 @@ class NarrowIEOpenIECombiner(object):
         """
         May need to download the ELMo PubMed embeddings
         """
-        embedding_files = glob.glob(self.path_to_embeddings + "*")
+        types = ['*.hdf5', '*.json']
+        embedding_files = []
+        for file_type in types:
+            embedding_files.extend(glob.glob(self.path_to_embeddings + file_type))
 
         if embedding_files == []:
             print('No embedding files found, beginning download of ELMo PubMed files.')
@@ -205,25 +222,28 @@ class NarrowIEOpenIECombiner(object):
             # would have to add other types of embeddings
 
 
-    def prepare_embeddings(self):
+    def prepare_embeddings(self, sp_model_path):
         """
         If setup doesn't exist yet, runs the embedder following user-defined settings
         and stores the output in pickle files. Otherwise, loads the existing pickle files
         for the specified settings.
         """
 
-        settings = "{sp}_{w}_{stem}_{stop}".format(sp=self.sp_size,
+        settings = "{sp}{w}_{stem}_{stop}".format(sp=self.sp_size + '_',
                                                    w=str(self.weight_combination),
                                                    stem=str(self.stemming),
                                                    stop=str(self.stopwords))
 
-        if not os.path.exists("data/filter_data/vectors_{settings}.pkl".format(settings=settings)):
+        if not os.path.exists(self.filter_data_path + "vectors/vectors_{settings}.pkl".format(settings=settings)):
             try:
-                embedder = PrepareEmbeddings(self.sp_size,
+                embedder = PrepareEmbeddings(sp_model_path,
+                                             self.sp_size,
+                                             self.IDF_path,
                                              self.csv_path,
                                              self.ELMo_options_path,
                                              self.ELMo_weights_path,
                                              WEIGHT_COMBINATION=self.weight_combination,
+                                             subwordunits=self.subwordunit,
                                              stemming=self.stemming,
                                              stopwords=self.stopwords)
                 all_phrases, preprocessed_phrases = embedder.load_data()
@@ -232,18 +252,18 @@ class NarrowIEOpenIECombiner(object):
                 print("Narrow IE arguments not properly embedded.")
                 return
 
-            with open("data/filter_data/vectors/all_phrases_{settings}.pkl".format(settings=settings),
+            with open(self.filter_data_path + "vectors/all_phrases_{settings}.pkl".format(settings=settings),
                       'wb') as f:
                 pickle.dump(all_phrases, f)
 
-            with open("data/filter_data/vectors/vectors_{settings}.pkl".format(settings=settings),
+            with open(self.filter_data_path + "vectors/vectors_{settings}.pkl".format(settings=settings),
                       'wb') as f:
                 pickle.dump(embeddings, f)
         else:
-            with open("data/filter_data/vectors/all_phrases_{settings}.pkl".format(settings=settings),
+            with open(self.filter_data_path + "vectors/all_phrases_{settings}.pkl".format(settings=settings),
                       'rb') as f:
                 all_phrases = pickle.load(f)
-            with open("data/filter_data/vectors/vectors_{settings}.pkl".format(settings=settings),
+            with open(self.filter_data_path + "vectors/vectors_{settings}.pkl".format(settings=settings),
                       'rb') as f:
                 embeddings = pickle.load(f)
 
@@ -258,7 +278,27 @@ class NarrowIEOpenIECombiner(object):
 
     def clustering(self, all_phrases, embeddings):
         clustering_data = np.stack([x.squeeze() for x in embeddings])
-        km_model = self.cluster_kmeans(clustering_data, self.number_of_clusters)
+
+        settings = "{num}_{sp}{w}_{stem}_{stop}".format(num=str(self.number_of_clusters),
+                                                  sp=self.sp_size + '_',
+                                                  w=str(self.weight_combination),
+                                                  stem=str(self.stemming),
+                                                  stop=str(self.stopwords))
+
+        if not os.path.exists(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings)):
+            print("Creating new K-means clustering model and storing it for reuse.")
+            try:
+                km_model = self.cluster_kmeans(clustering_data, self.number_of_clusters)
+            except ValueError:
+                print("You have chosen too many clusters w.r.t. the number of samples you're trying to cluster.")
+                raise ValueError
+            with open(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings),
+                      'wb') as f:
+                pickle.dump(km_model, f)
+        else:
+            with open(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings),
+                      'rb') as f:
+                km_model = pickle.load(f)
 
         distances_to_centroids = km_model.transform(clustering_data)
         distances_filtered_by_label = []
@@ -275,24 +315,46 @@ class NarrowIEOpenIECombiner(object):
         return km_model, results, clustering_data
 
 
-    def cluster_insight(self, amount_to_print=10):
+    def print_cluster_words(self, cluster_phrases, amount_to_print):
+        cluster_word_c = Counter()
+        for phrase in cluster_phrases['phrase']:
+            for token in spacy_nlp(phrase):
+                cluster_word_c[token.text] += 1
+        return [w for w, c in cluster_word_c.most_common(amount_to_print)]
+
+
+    def get_docid_from_filename(self, filename, output_name=False):
+        if output_name:
+            return self.oie_data_dir+'processed/'+filename.rsplit('/',maxsplit=1)[1][:-4]+'_processed.txt'
+        return filename.rsplit('/',maxsplit=1)[1][:-4]
+
+
+    def OIE_files_to_filter(self):
+        """
+        Tries to ensure that only the necessary 'processed OIE files' are selected,
+          based on the defined narrow IE output csv_file.
+        """
+        input_files = glob.glob(self.oie_data_dir + '*.txt')
+        doc_ids_for_filtering = []
+        with open(self.csv_path, 'r') as csv_f:
+            reader = csv.DictReader(csv_f)
+            for row in reader:
+                doc_ids_for_filtering.append(row['doc_id'])
+
+        doc_ids_for_filtering = list(set(doc_ids_for_filtering))
+
+        return [f for f in input_files if self.get_docid_from_filename(f) in doc_ids_for_filtering]
+
+
+    def cluster_insight(self, results, amount_to_print=10):
         """
         Print a couple of the clusters to see what type of arguments are found.
         """
         stopwords = []
         if self.stopwords:
-            with open('data/filter_data/nltk_stopwords.txt') as f:
+            with open('SORE/my_utils/nltk_stopwords.txt') as f:
                 for line in f.readlines():
                     stopwords.append(line.strip())
-
-        def print_cluster_words(cluster_phrases):
-            cluster_word_c = Counter()
-            for phrase in cluster_phrases['phrase']:
-                for token in nlp.run(phrase):
-                    if token.text not in stopwords:
-                        cluster_word_c[token.text] += 1
-            return [w for w, c in cluster_word_c.most_common(amount_to_print)]
-
 
         for cluster_id in range(self.number_of_clusters):
             print("###################################################")
@@ -305,12 +367,13 @@ class NarrowIEOpenIECombiner(object):
             print("\nTOP {} PHRASES AND COUNTS   ".format(amount_to_print))
             print(top_phrases[:amount_to_print])
 
-            top_words = print_cluster_words(cluster_phrases)
+            top_words = self.print_cluster_words(cluster_phrases, amount_to_print)
             print("\nTOP {} WORDS IN CLUSTER".format(len(top_words)))
             print(top_words)
             print('\n\n\n')
 
-    def scatter(x, colors, category_list, NUM_CLUSTERS):
+
+    def scatter(self, x, colors, category_list, NUM_CLUSTERS):
         # We choose a color palette with seaborn.
         palette = np.array(sns.color_palette("hls", NUM_CLUSTERS))
 
@@ -347,33 +410,41 @@ class NarrowIEOpenIECombiner(object):
         sns.palplot(np.array(sns.color_palette("hls", self.number_of_clusters)))
         # plot
         self.scatter(digits_proj, km_model.labels_,
-                category_list,
-                self.number_of_clusters)
-        plt.savefig('plot_{}.png'.format(settings=self.settings), dpi=120)
+                     category_list,
+                     self.number_of_clusters)
+        plt.savefig('cluster_plots/plot_{}.png'.format(settings), dpi=120)
+        print("Saved plot to 'cluster_plots/plot_{}.png'".format(settings))
 
 
-    def run(self,
-            print_clusters=True,
-            plot=True,
+    def run(self, prefix,
+            print_clusters=False,
+            plot=False,
             cluster_names=None):
 
-        all_phrases, embeddings = self.prepare_embeddings()
+        sp_model_path = self.filter_data_path + "{}_{}.model".format(prefix, self.sp_size)
+
+        all_phrases, embeddings = self.prepare_embeddings(sp_model_path)
         km_model, clusters, clustering_data = self.clustering(all_phrases, embeddings)
+
+        ### start filtering
+        OIE_files =
+        fu.get_list_of_all_arguments()
+
+
+        ## To gain some insight into the created clusters:
         if print_clusters:
             self.cluster_insight(clusters)
 
-        if cluster_names:
-            # You can manually name clusters and label the clusters
-            category_list = [x for x in cluster_names.values()]
-        else:
-            category_list = [x for x in range(self.number_of_clusters)]
-
         if plot:
+            if cluster_names:
+                # You can manually label the clusters if you like
+                category_list = [x for x in cluster_names.values()]
+            else:
+                category_list = [x for x in range(self.number_of_clusters)]
+
             digits_proj = TSNE(random_state=self.randomstate).fit_transform(clustering_data)
             self.palplot(digits_proj, km_model, category_list)
 
 
-csv_path = "data/narrowIE/tradeoffs_and_argmods.csv"
-test = NarrowIEOpenIECombiner('8k', csv_path, 46, True, True, 'avg', None)
-test.run()
+
 
