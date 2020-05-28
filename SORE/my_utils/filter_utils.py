@@ -453,7 +453,6 @@ class SoreFilter():
         doc_extractions = {doc_id: {}}
 
         extractions_for_sent = []
-
         for line in all_results:
             if line.startswith('0.') or line.startswith('1.00'):
                 if float(line[:5]) > oie_cutoff:
@@ -467,11 +466,12 @@ class SoreFilter():
                         extractions_for_sent.append(extractions)
                     except:
                         print("Issue parsing: {}".format(line))
-                        pass
+                        continue
             elif line == '\n':  # Empty lines shouldn't be encountered
-                pass
+                continue
             else:
                 [doc_extractions[doc_id][sent_id].append(ex) for ex in extractions_for_sent]
+                extractions_for_sent = []
                 sent_id, sent = line[6:].split(']', maxsplit=1)
                 doc_extractions[doc_id].update({sent_id: [sent]})
 
@@ -546,7 +546,7 @@ class SoreFilter():
 
         for embedding in embeddings:
             cluster_id = cluster_model.predict(embedding.reshape(1, -1))
-            clusters_for_args.append(list(cluster_id))
+            clusters_for_args.append(int(cluster_id))
 
         return clusters_for_args
 
@@ -582,7 +582,47 @@ class SoreFilter():
             json.dump(json_dict, f)
 
 
-    def get_stats(self, OIE_style_dict, filtered):
+    def get_stats_filtered(self, SORE_style_dict):
+        """
+        Print the statistics for a dictionary with OIE extractions, pre- or post-filtering.
+        """
+        tuple_c = 0
+        unique_arg_c = Counter()
+        unique_rel_c = Counter()
+        oie_unique_tuples_c = Counter()
+        arg_len_c = Counter()
+
+        for doc_id in SORE_style_dict.keys():
+
+            for sent_id, extraction_list in SORE_style_dict[doc_id].items():
+                if sent_id != 'narrowIE_args':
+                    extraction_list.pop(0)
+
+                    for extraction in extraction_list:
+                        # need to handle the tuple
+                        tuple_c += 1
+                        rel_tuple = []
+
+                        for arg in extraction['extraction']['args']:
+                            rel_tuple.append(tuple(arg[0]))
+                            unique_arg_c[tuple(arg[0])] += 1
+                            arg_len_c[arg[1]] += 1
+
+                        unique_rel_c[extraction['extraction']['rel']] += 1
+                        rel_tuple.insert(1, tuple(extraction['extraction']['rel']))
+                        oie_unique_tuples_c[tuple(rel_tuple)] += 1
+
+        print("OPENIE STATS FILTERED")
+        #   print("Avg. arg_len: ", ( sum([k*c for k, c in arg_len_c.items()] ) / len(unique_arg_c.keys())))
+        print("Unique args: ", len(unique_arg_c.keys()))
+        print("Unique rel: ", len(unique_rel_c.keys()))
+        print("Unique TRIPLES: ", len(oie_unique_tuples_c.keys()))
+
+
+    def get_stats_unfiltered(self, OIE_style_dict):
+        """
+        Print the statistics for a dictionary with OIE extractions, pre- or post-filtering.
+        """
         tuple_c = 0
         unique_arg_c = Counter()
         unique_rel_c = Counter()
@@ -590,7 +630,6 @@ class SoreFilter():
         arg_len_c = Counter()
 
         for doc_id in OIE_style_dict.keys():
-
             for sent_id, extraction_list in OIE_style_dict[doc_id].items():
                 extraction_list.pop(0)
 
@@ -598,17 +637,16 @@ class SoreFilter():
                     tuple_c += 1
                     rel_tuple = []
 
-                    for args in extraction['args']:
-                        for arg in args:
-                            tuple.append(arg[0])
-                            unique_arg_c[arg[0]] += 1
-                            arg_len_c[arg[1]] += 1
+                    for arg in extraction['args']:
+                        rel_tuple.append(tuple(arg[0]))
+                        unique_arg_c[tuple(arg[0])] += 1
+                        arg_len_c[arg[1]] += 1
 
                     unique_rel_c[extraction['rel']] += 1
-                    rel_tuple.insert(1, extraction['rel'])
+                    rel_tuple.insert(1, tuple(extraction['rel']))
                     oie_unique_tuples_c[tuple(rel_tuple)] += 1
 
-        print("OPENIE STATS {}".format(filtered.upper()))
+        print("OPENIE STATS UNFILTERED")
         #   print("Avg. arg_len: ", ( sum([k*c for k, c in arg_len_c.items()] ) / len(unique_arg_c.keys())))
         print("Unique args: ", len(unique_arg_c.keys()))
         print("Unique rel: ", len(unique_rel_c.keys()))
@@ -628,21 +666,30 @@ class SoreFilter():
         SORE_dict = {}
 
         for doc_id in narrowIE_embeddings.keys():
+            args_already_seen = []
 
-            output_name = output_dir + prefix + doc_id + '.json'
+            output_name_unfiltered = output_dir + prefix + doc_id + '_unfiltered.json'
+            output_name_filtered = output_dir + prefix + doc_id + '.json'
 
-            if os.path.exists(output_name):
-                print("Found filtered extractions for {} and prefix {}, loading these.".format(doc_id, prefix))
-                with open(output_name) as f:
-                    SORE_dict.update(json.load(f))
+            # avoid preprocessing the OIE data multiple times if the code is stopped
+            if os.path.exists(output_name_unfiltered):
+                with open(output_name_unfiltered) as unfiltered:
+                    OIE_dict.update(json.load(unfiltered))
+                OIE_doc_dict = OIE_dict[doc_id]
+            else:
+                OIE_doc_dict = self.read_openie_results(OIE_pathnames[doc_id], self.oie_cutoff, embedder)
+                OIE_dict.update(OIE_doc_dict)
+
+            # avoid filtering the same OIE doc multiple times if the code is stopped
+            if os.path.exists(output_name_filtered):
+                print("Found filtered extractions for {} and prefix '{}', loading these.".format(doc_id, prefix))
+                with open(output_name_filtered) as filtered:
+                    SORE_dict.update(json.load(filtered))
             else:
                 print("Filtering OIE document: {}".format(doc_id))
                 narrowIE_clusters = self.get_clusters_for_arguments(cluster_model, narrowIE_embeddings[doc_id])
 
-                OIE_doc_dict = self.read_openie_results(OIE_pathnames[doc_id], self.oie_cutoff, embedder)
-                OIE_dict.update(OIE_doc_dict)
-
-                possible_SORE_dict = {doc_id: {'narrowIE_args': narrowIE_phrases}}
+                possible_SORE_dict = {doc_id: {'narrowIE_args': narrowIE_phrases[doc_id]}}
                 total_triples = 0
 
                 for sent_id, extractions_dict_list in OIE_doc_dict[doc_id].items():
@@ -657,26 +704,31 @@ class SoreFilter():
                         OIE_clusters = self.get_clusters_for_arguments(cluster_model, OIE_embeddings)
 
                         for idx, arg in enumerate(args):
+                            if arg in args_already_seen:
+                                continue
+                            else:
+                                args_already_seen.append(arg)
                             # Do not consider phrases outside the clusters found in that document through narrow IE
                             if OIE_clusters[idx] in narrowIE_clusters:
                                 sim = self.phrase_similarity(narrowIE_embeddings[doc_id], OIE_embeddings[idx])
                                 if sim > self.sim_threshold:
                                     # triple should be added!
-                                    triple = (extraction, OIE_clusters[idx], sim)
-                                    possible_sent_dict[sent_id].append(triple)
+                                    match = {'extraction': extraction,
+                                              'cluster_match': OIE_clusters[idx],
+                                              'similarity_value': float(sim)}
+                                    possible_sent_dict[sent_id].append(match)
                                     found_triple = True
                                     total_triples += 1
                     if found_triple:
-                        possible_SORE_dict.update(possible_sent_dict)
+                        possible_SORE_dict[doc_id].update(possible_sent_dict)
 
-
-                with open(output_name) as out_file:
+                with open(output_name_filtered, 'w') as out_file:
                     print("Done processing {}, retained {} OIE extractions.".format(doc_id, total_triples))
                     json.dump(possible_SORE_dict, out_file)
-                    SORE_dict.update(possible_SORE_dict)
+                SORE_dict.update(possible_SORE_dict)
 
         if print_stats:
-            self.get_stats(OIE_dict, 'Unfiltered')
-            self.get_stats(SORE_dict, 'Filtered')
+            self.get_stats_unfiltered(OIE_dict,)
+            self.get_stats_filtered(SORE_dict)
 
 

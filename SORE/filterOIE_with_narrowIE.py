@@ -137,10 +137,10 @@ class NarrowIEOpenIECombiner(object):
 
 
     def run(self, prefix, filter_settings, output_dir,
+            print_stats=False,
             print_clusters=False,
             plot=False,
-            cluster_names=None,
-            print_stats=False):
+            cluster_names=None):
 
         sp_model_path = self.filter_data_path + "{}_{}.model".format(prefix, self.sp_size)
 
