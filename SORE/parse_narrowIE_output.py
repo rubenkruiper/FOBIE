@@ -6,7 +6,7 @@ from collections import Counter
 ######
 def convert_spans_to_tokenlist(predicted_spans, corresponding_data):
     """
-    Converts the spans to a list of tokens
+    Converts the spans of relations found in a sentence to a list of tokens
     :param predicted_spans: SciIE output, formatted with span_start and span_end as token indices
     :param corresponding_data: SciIE input file, which contains the list of tokens for each sentence
     """
@@ -16,30 +16,39 @@ def convert_spans_to_tokenlist(predicted_spans, corresponding_data):
     [relations] = predicted_spans['relation']
 
     all_arguments = []
+    all_rel_arguments = []
     tradeoff_arguments = []
-    modifier_arguments = []
+    modified_tradeoff_arguments = []
 
     for rel in relations:
         rel_c[rel[4]] += 1
 
-        all_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
-        all_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
+        if rel[4] == "Not_a_TradeOff":
+            all_rel_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
+            all_rel_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
 
         if rel[4] == "TradeOff":
             tradeoff_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
             tradeoff_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
+            all_rel_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
+            all_rel_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
 
         # collect arg_modifiers for trade-off relations as well, once trade-off args are known
         if rel[4] == "Arg_Modifier":
             arg_1 = corresponding_data["sentences"][0][rel[0]:rel[1] + 1]
             arg_2 = corresponding_data["sentences"][0][rel[2]:rel[3] + 1]
-            # only store if one of the arguments is a trade-off arg
-            if arg_1 in tradeoff_arguments:
-                modifier_arguments.append(arg_2)
-            if arg_2 in tradeoff_arguments:
-                modifier_arguments.append(arg_1)
 
-    return all_arguments, tradeoff_arguments, modifier_arguments, rel_c
+            if arg_1 in tradeoff_arguments:
+                modified_tradeoff_arguments.append(arg_1 + arg_2)
+            elif arg_2 in tradeoff_arguments:
+                modified_tradeoff_arguments.append(arg_2 +  arg_1)
+
+            if arg_1 in all_rel_arguments:
+                all_arguments.append(arg_1 + arg_2)
+            elif arg_2 in all_rel_arguments:
+                all_arguments.append(arg_2 + arg_1)
+
+    return all_arguments, tradeoff_arguments, modified_tradeoff_arguments, rel_c
 
 
 def simple_tokens_to_string(tokenlist):
@@ -76,10 +85,11 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
     output_all_sentences = []
     for sample in predicted_dicts:
         doc_key = sample['doc_key']
+
         output_per_sentence = []
         for d_sample in data_dicts:
             if d_sample['doc_key'] == doc_key:
-                all_pred_args, to_pred_args, mod_pred_args, rel_counter = convert_spans_to_tokenlist(sample, d_sample)
+                modified_args, to_args, modified_to_args, rel_counter = convert_spans_to_tokenlist(sample, d_sample)
 
                 doc_id, sent_id = doc_key.rsplit('_', maxsplit=1)
                 doc_id = doc_id.replace('.','_')
@@ -87,13 +97,13 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
 
                 if RELATIONS_TO_STORE == "ALL":
                     relation_types = 'All'
-                    argument_list = [simple_tokens_to_string(arg) for arg in all_pred_args]
+                    argument_list = [simple_tokens_to_string(arg) for arg in modified_args]
                 if RELATIONS_TO_STORE == "TRADEOFFS":
                     relation_types = 'TradeOffs'
-                    argument_list = [simple_tokens_to_string(arg) for arg in to_pred_args]
+                    argument_list = [simple_tokens_to_string(arg) for arg in to_args]
                 if RELATIONS_TO_STORE == "TRADEOFFS_AND_ARGMODS":
                     relation_types = 'TradeOffs with Arg-Modifiers'
-                    argument_list = [simple_tokens_to_string(arg) for arg in (to_pred_args + mod_pred_args)]
+                    argument_list = [simple_tokens_to_string(arg) for arg in (modified_to_args)]
 
                 if argument_list != []:
                     output_per_sentence.append([doc_id, sent_id, sentence, relation_types, argument_list])

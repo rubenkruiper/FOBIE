@@ -1,454 +1,682 @@
-import json, scipy, glob
-from collections import Counter
-from SORE.my_utils.spacyNLP import spacy_nlp
+import json, glob, csv, os, pprint, pickle
 
 import numpy as np
-from allennlp.commands.elmo import ElmoEmbedder
-import pprint
-
+import pandas as pd
+import seaborn as sns
 import sentencepiece as spm
+import matplotlib.patheffects as PathEffects
+import matplotlib.pyplot as plt
+
+from collections import Counter
+
+from tqdm import tqdm
+from textblob import TextBlob
+from sklearn.cluster import KMeans
+from sklearn.metrics import pairwise
+from allennlp.commands.elmo import ElmoEmbedder
+
+from SORE.my_utils.spacyNLP import spacy_nlp
 
 
 
-def get_trade_off_arguments_from_file(sore_input, oie_input):
+class PrepareEmbeddings():
 
-    with open(sore_input) as f:
-        x = json.load(f)
+    def __init__(self, prefix, sp_model_path, sp_vocab_size, IDF_path, csv_path,
+                 elmo_options, elmo_weights, SUBWORD_UNIT_COMBINATION='max',
+                 subwordunits=True, stemming=False, stopwords=False):
 
-    trade_off_arguments = []
-    phrases_word_c = Counter()
-    sent_tracker = {}
+        self.prefix = prefix
+        self.sp_vocab_size = sp_vocab_size
+        self.csv_path = csv_path
+        self.SUBWORD_UNIT_COMBINATION = SUBWORD_UNIT_COMBINATION  # 'avg' or 'max'
+        self.stemming = stemming
+        self.stopwords = stopwords
 
-    for doc_id, annotations in x.items():
-        if doc_id == oie_input:
-            for idx, dict in enumerate(annotations):
-                for rel in dict['relations']:
-                    for sent_id in rel:
-                        gov = rel[sent_id]['Gov']
-                        dep = rel[sent_id]['Dep']
-                        sent_tracker[sent_id] = []
-                        if len(gov) == 1:
-                            trade_off_arguments.append(gov[0])
-                        else:
-                            trade_off_arguments.append(' '.join(x for x in gov if x != '</s>'))
-                            sent_tracker[sent_id].append(' '.join(x for x in gov if x != '</s>'))
-                        if len(dep) == 1:
-                            trade_off_arguments.append(dep[0])
-                        else:
-                            trade_off_arguments.append(' '.join(x for x in dep if x != '</s>'))
+        # SentencePiece
+        if subwordunits:
+            self.subwordunits = subwordunits
+            self.sp = spm.SentencePieceProcessor()
+            self.sp.load(sp_model_path)
 
+        ### elmo embeddings
+        self.elmo = ElmoEmbedder(elmo_options, elmo_weights)
 
-    trade_off_arguments = list(set(trade_off_arguments)) # keep only unique phrases
-
-    return trade_off_arguments
+        # IDF weights
+        with open(IDF_path) as f:
+            self.IDF_values = json.load(f)
 
 
-def parse_openie_triple(line):
-    if 'Context(' in line:
-        without_context = line.split(':', maxsplit=1)
-        parts = without_context[1].rstrip().split(';')
-    else:
-        parts = line.rstrip().split(';')
-
-    try:
-        arg0 = parts[0].split('(', maxsplit=1)[1]
-        rel = parts[1]
-        arg1 = parts[2].rsplit(')', maxsplit=1)[0]
-    except IndexError:
-        return "skipping line because it start with 0. and I'm too hasted to implement regex"
-
-    return [arg0, rel, arg1]
+    def porterstemmer(self, str_input):
+        """ Porter stemmer - should actually get single words as input and output """
+        self.blob = TextBlob(str_input.lower())
+        tokens = self.blob.words
+        stem = [token.stem() for token in tokens]
+        return ''.join([w for w in stem])
 
 
-def read_openie_results(file_name, oie_cutoff):
-    all_results = open(file_name).readlines()
-    doc_extractions = {}
+    def parse_argument_list(self, string_list):
+        return [x[1: -1] for x in string_list[1: -1].split(", ")]
 
-    triple_c = 0
-    unique_arg_c = Counter()
-    unique_rel_c = Counter()
-    oie_unique_triples_c = Counter()
-    arg_len_c = Counter()
 
-    sent_no = 0
-    current_sent_triples = []
-    sentence_extractions = {}
+    def load_narrowIE_data(self):
 
-    for line in all_results:
-        if line.startswith('0.') or line.startswith('1.00'):
-            if float(line[:4]) < oie_cutoff:
-                triple = parse_openie_triple(line)
-                if type(triple) == list:
-                    current_sent_triples.append(triple)
-                    triple_c += 1
-                    unique_arg_c[triple[0]] += 1
-                    unique_rel_c[triple[1]] += 1
-                    unique_arg_c[triple[2]] += 1
-                    oie_unique_triples_c[tuple(triple)] += 1
+        if self.stopwords:
+            stopwords = []
+            with open('SORE/my_utils/nltk_stopwords.txt') as f:
+                for line in f.readlines():
+                    stopwords.append(line.strip())
 
-                    arg_len_c[len([t for t in spacy_nlp(triple[0])])] += 1 ### NEED TO FIND THE TOKEN LENGTH!
-                    arg_len_c[len([t for t in spacy_nlp(triple[2])])] += 1 ### NEED TO FIND THE TOKEN LENGTH!
+        data = {}
+        with open(self.csv_path, 'r') as csv_f:
+            reader = csv.DictReader(csv_f)
+            for row in reader:
+                data[row['doc_id'] + '.' + row['sentence_nr']] = list(self.parse_argument_list(row['arguments']))
 
+        narrowIE_data = {}
+        # all_phrases = []
+        # preprocessed_phrases = []
+        for identifier, arguments_list in data.items():
+            doc_id, sent_id = identifier.rsplit('.', maxsplit=1)
+
+            if arguments_list != ['']:
+                arguments_list = list(set(arguments_list))
+
+                for phrase in arguments_list:
+                    # all_phrases.append(phrase)
+
+                    if self.stopwords and self.stemming:
+                        words = [t.text for t in spacy_nlp(phrase) if t.text not in stopwords]
+                        preprocessed_phrase = [self.porterstemmer(w) for w in words]
+                    elif self.stemming:
+                        words = [t.text for t in spacy_nlp(phrase)]
+                        preprocessed_phrase = [self.porterstemmer(w) for w in words]
+                    elif self.stopwords:
+                        preprocessed_phrase = [t.text for t in spacy_nlp(phrase) if t.text not in stopwords]
+                    else:
+                        preprocessed_phrase = [t.text for t in spacy_nlp(phrase)]
+
+                    # preprocessed_phrases.append(preprocessed_phrase)
+                    if doc_id in narrowIE_data.keys():
+                        narrowIE_data[doc_id].append(preprocessed_phrase)
+                    else:
+                        narrowIE_data[doc_id] = [preprocessed_phrase]
+            # print(len(all_phrases), len(preprocessed_phrases))
+
+        return  narrowIE_data #all_phrases, preprocessed_phrases
+
+
+    def compute_weights_for_phrases(self, preprocessed_phrases):
+        IDF_weights_for_phrases = []
+        for preprocessed_phrase in preprocessed_phrases:
+            IDF_weights_for_phrase = []
+            for word in preprocessed_phrase:
+                # initiate every subword-idx with value of 1
+                if self.subwordunits:
+                    subword_units = self.sp.EncodeAsIds(word)
+                    sw_weights = np.ones(len(subword_units))
+
+                    for sw_id, sw in enumerate(subword_units):
+                        try:
+                            # set index of phrase representation to corresponding IDF value
+                            sw_weights[sw_id] = self.IDF_values[str(sw)]
+                        except (KeyError, ValueError) as e:
+                            raise e
+                            # No IDF value found, leave 1
+                            # print("Didn't find {subword_unit_id} in IDF values: {subword_unit}".format(
+                            #                subword_unit_id=sw,
+                            #                subword_unit=self.sp.DecodeIds([int(sw)])))
+
+                    if len(sw_weights) < 1:
+                        print(word)
+                        sw_weights = [0]
+
+                    if self.SUBWORD_UNIT_COMBINATION == 'max':
+                        word_weight = np.amax(sw_weights)
+                    else:
+                        word_weight = np.average(sw_weights)
+
+                    IDF_weights_for_phrase.append(word_weight)
+
+                else: # no subwordunits used
+                    try:
+                        IDF_weights_for_phrase.append(self.IDF_values[str(word)])
+                    except:
+                        IDF_weights_for_phrase.append(1)
+                        print('IDF weights not found for {}'.format(str(word)))
+
+            # for every phrase, add the list of word-weights
+            IDF_weights_for_phrases.append(IDF_weights_for_phrase)
+
+        return IDF_weights_for_phrases
+
+
+    def embed_all_narrowIE_phrases(self, phrase_dict):
+        embeddings_dict = {}
+
+        for doc_id, preprocessed_phrases in phrase_dict.items():
+            embeddings = []
+            weights_for_phrases = self.compute_weights_for_phrases(preprocessed_phrases)
+
+            for phrase_id, phrase in enumerate(tqdm(preprocessed_phrases)):
+                if len(phrase) > 0:
+                    elmo_embedding = self.elmo.embed_sentence(phrase)
+                    avg_embedding = np.average(elmo_embedding, axis=0)
+                    # average over words in the phrase
+                    weighted_embedding = np.average(avg_embedding,
+                                                    weights=weights_for_phrases[phrase_id],
+                                                    axis=0)
                 else:
-                    print(triple)
-                    pass
-        elif line == '\n': # Assume new sentence
-            sentence_extractions['extractions'] = current_sent_triples
-            doc_extractions[sent_no] = sentence_extractions
-            sentence_extractions = {}
-            current_sent_triples = []
-            sent_no += 1
-        else:
-            sentence_extractions['sentence'] = line
+                    # phrase is empty after pre-processing
+                    weighted_embedding = np.zeros([1, 1024])
 
-    print("OPENIE STATS UNFILTERED")
- #   print("Avg. arg_len: ", ( sum([k*c for k, c in arg_len_c.items()] ) / len(unique_arg_c.keys())))
-    print("Unique args: ", len(unique_arg_c.keys()))
-    print("Unique rel: ", len(unique_rel_c.keys()))
-    print("Unique TRIPLES: ", len(oie_unique_triples_c.keys()))
-    return doc_extractions
+                embeddings.append(weighted_embedding)
+
+            embeddings_dict[doc_id] = embeddings
+
+        return embeddings_dict
 
 
+    def preprocess_and_embed_phrase_list(self, preprocessed_phrases):
+        weights_for_phrases = self.compute_weights_for_phrases(preprocessed_phrases)
 
-def get_list_of_all_arguments(sore_input, oie_input):
-    all_args = []
-    predicted_concepts = get_sore_arguments(sore_input)
-    # predicted_concepts = get_trade_off_arguments_for_file(file, prediction_file, False)
-    oie_dict = read_openie_results(oie_input)
-    oie_arguments = []
-    for sent_id in oie_dict:
-        for triple in oie_dict[sent_id]['extractions']:
-            oie_arguments.append(triple[0])
-            oie_arguments.append(triple[2])
-
-    all_args += predicted_concepts
-    all_args += oie_arguments
-
-    return all_args
-
-# def get_oie_dict(file_path):
-#     # file_path, file_name = file_path.rsplit('/', maxsplit=1) #old_stuff
-#     # file_name = file_name.rsplit('.', maxsplit=1)[0].replace('.', '_') + '.txt'
-#     oie_dict = read_openie_results(file_path)# +'/'+ file_name)
-#     return oie_dict
-
-
-def process_input_file(input_file):
-    """
-    Reads the filtered OpenIE5 extractions prints them to the console
-    TO DO:
-        - store the filtered extractions instead
-        - output in format usable for graph-construction
-    :param input_file:
-    :return:
-    """
-    file_name = input_file.rsplit('_')[-1]
-
-    total_rel_c = 0
-    oie_rel_c = 0
-    oie_unique_rel_c = Counter()
-    oie_unique_triples_c = Counter()
-    oie_unique_arg_c = Counter()
-    oie_arg_len_c = Counter()
-
-    with open(input_file) as f:
-        _, filtered_triples = json.load(f).values()
-
-    # get the trade-off
-    my_list = []
-    with open('data/JEB_PREDICTIONS_' + file_name) as f:
-        for line in f:
-            my_list.append(json.loads(line))
-    trade_off_stuff_to_print = {}
-    for annotations in my_list:
-        gov = annotations['gov']
-        dep = annotations['dep']
-        rel = annotations['rel']
-        sentence = tuple(annotations['sentence'])
-
-        total_rel_c += 1
-
-        if sentence in trade_off_stuff_to_print:
-            trade_off_stuff_to_print[sentence].append(tuple([gov, '>>', rel, '>>', dep]))
-        else:
-            trade_off_stuff_to_print[sentence] = [tuple([gov, '>>', rel, '>>', dep])]
-
-    # get the filtered extractions
-    linked_extractions = {}
-    for sent_id, triples_dict in filtered_triples.items():
-        for trade_off_arg in triples_dict.keys():
-            similar_oie_arg, similarity_info = 0,0
-            for k,v in triples_dict[trade_off_arg].items():
-                similar_oie_arg = k
-                similarity_info = v
-            oie_triple, cos_similarity, arg_num = similarity_info
-
-            total_rel_c += 1
-            oie_rel_c += 1
-            oie_unique_triples_c[tuple(oie_triple)] += 1
-            oie_unique_arg_c[oie_triple[0]] += 1
-            oie_unique_rel_c[oie_triple[1]] += 1
-            oie_unique_arg_c[oie_triple[2]] += 1
-
-            oie_arg_len_c[len([t for t in nlp.run(oie_triple[0])])] += 1
-            oie_arg_len_c[len([t for t in nlp.run(oie_triple[2])])] += 1
-
-            if trade_off_arg in linked_extractions:
-                linked_extractions[trade_off_arg].append(tuple([oie_triple, " --> ", arg_num, "(", round(cos_similarity, 2), ") sent: ", sent_id]))
+        embeddings = []
+        for phrase_id, phrase in enumerate(preprocessed_phrases):
+            if len(phrase) > 0:
+                elmo_embedding = self.elmo.embed_sentence(phrase)
+                average_over_elmo = np.average(elmo_embedding, axis=0)
+                # average over words in the phrase
+                weighted_embedding = np.average(average_over_elmo,
+                                                weights=weights_for_phrases[phrase_id],
+                                                axis=0)
             else:
-                linked_extractions[trade_off_arg]  = [tuple([oie_triple, " --> ", arg_num, "(", round(cos_similarity, 2), ") sent: ", sent_id])]
+                # phrase is empty after pre-processing
+                weighted_embedding = np.zeros([1, 1024])
 
-            # print(trade_off_arg)
-            # print("\t", oie_triple, " --> ", arg_num, "(", round(cos_similarity, 2), ")")
+            embeddings.append(weighted_embedding)
 
-    # Can store this as a indented JSON file?
-    for k, v in trade_off_stuff_to_print.items():
-        print(k)
-        for rel in v:
-            print("\t", rel)
-            # [print(r) for r in rel]
-
-    for k, v in linked_extractions.items():
-        print(k)
-        for rel in v:
-            print("\t", rel)
-            # [print(r) for r in rel]
-
-    print("OPENIE STATS FILTERED")
-    print("Avg. arg_len: ", (sum([k * c for k, c in oie_arg_len_c.items()]) / len(oie_unique_arg_c.keys())))
-    print("Unique args: ", len(oie_unique_arg_c.keys()))
-    print("Unique rel: ", len(oie_unique_rel_c.keys()))
-    print("Unique TRIPLES: ", len(oie_unique_triples_c.keys()))
-
-    # print(trade_off_stuff_to_print)
-    # print(linked_extractions)
+        return embeddings
 
 
-    print(filtered_triples[sent_id])
-
-    # create a list per document of the all relations
-    # maybe indent the filtered extractions
 
 
-# SORE_input = glob.glob("../SORE_output/*.json")
-# OIE_input = glob.glob("../parsed_OIE/*.txt")
-
-# TEST input!
-SORE_input = ["../data/test_paper/SORE_output/transport_networks.json"]
-OIE_input = ["../data/test_paper/parsed_OIE/transport_networks.txt"]
-
-# run for a selection of JEB/BMC files
-#file_list = ['BMC_1045', 'BMC_0190', 'JEB_2254']
-#SORE_input = ["../SORE_output/"+x+".json" for x in file_list]
-#OIE_input = ["../parsed_OIE/"+x+".txt" for x in file_list]
+class ClusterTradeOffs():
+    def __init__(self, filter_data_path, number_of_clusters, sp_size, stemming, stopwords):
+        self.randomstate = 14
+        self.filter_data_path = filter_data_path
+        self.number_of_clusters = number_of_clusters
+        self.sp_size = sp_size
+        self.stemming = stemming
+        self.stopwords = stopwords
 
 
-IDF_path = '../data/BMC_JEB_IDF.json'
-oie_cutoff = .7             # minimum value of OPENIE score
-
-cos_threshold = .85
-overlap_threshold = 1      # max percentage of argument-overlap with respect to total nr of args that
-idf_threshold = 2.
-# ELMO embedding for cosine similarity:
-options_file = "/media/rk22/data0/PLOSone_embeddings/data/elmo/pubmed.json"
-weight_file = "/media/rk22/data0/PLOSone_embeddings/data/elmo/pubmed.hdf5"
-#options_file = "../data/elmo/pubmed.json"
-#weight_file = "../data/elmo/pubmed.hdf5"
-
-################################## code ###
-# model = sent2vec.Sent2vecModel()
-# model.load_model('/media/rk22/data0/wiki16gb.bin')
-sp = spm.SentencePieceProcessor()
-sp.load('../data/SORE_sentencepiece_8k.model')
+    def cluster_kmeans(self, input_matrix, KM_CLUSTERS):
+        print("Starting clustering with data shape {}".format(input_matrix.shape))
+        km = KMeans(n_clusters=KM_CLUSTERS, random_state=self.randomstate)
+        km.fit(input_matrix)
+        return km
 
 
-elmo = ElmoEmbedder(options_file, weight_file)
-pp = pprint.PrettyPrinter(indent=4)
+    def get_Kmeans_model(self, phrases_dict, embeddings_dict):
+        """
+        Could add doc_id info to clusters.
+        """
+        all_phrases = []
+        embeddings = []
 
-with open(IDF_path) as f:
-    IDF_values = json.load(f)
-print("Loaded IDF weights")
+        for phrases in phrases_dict.values():
+            all_phrases += phrases
 
-def check_phrase_similarity(sentence_1, weights_1, sentence_2, weights_2):
-    """  elmo.embed_sentence(correlated_c.split(' '))  """
-    # ELMo test
-    elmo_sent_1 = elmo.embed_sentence(sentence_1)
-    elmo_sent_2 = elmo.embed_sentence(sentence_2)
-    avg_sent_1 = np.average(elmo_sent_1, axis=0)
-    avg_sent_2 = np.average(elmo_sent_2, axis=0)
-    weighted_sent_1 = np.average(avg_sent_1, weights=weights_1, axis=0)
-    weighted_sent_2 = np.average(avg_sent_2, weights=weights_2, axis=0)
+        for embs in embeddings_dict.values():
+            embeddings += embs
 
-    # Sent2Vec test
-    # s2v_sent_1 = model.embed_sentence(' '.join(w for w in sentence_1)) # (1, 700)
-    # s2v_sent_2 = model.embed_sentence(' '.join(w for w in sentence_2))
-    # weighted_sent_1 = np.average(s2v_sent_1, weights=weights_1, axis=0)
-    # weighted_sent_2 = np.average(s2v_sent_2, weights=weights_2, axis=0)
+        clustering_data = np.stack([x.squeeze() for x in embeddings])
 
-    return scipy.spatial.distance.cosine(weighted_sent_1, weighted_sent_2)
+        settings = "{num}_{sp}{stem}_{stop}".format(num=str(self.number_of_clusters),
+                                                  sp=self.sp_size + '_',
+                                                  stem=str(self.stemming),
+                                                  stop=str(self.stopwords))
+
+        if not os.path.exists(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings)):
+            print("Creating new K-means clustering model and storing it for reuse.")
+            try:
+                km_model = self.cluster_kmeans(clustering_data, self.number_of_clusters)
+            except ValueError:
+                print("You have chosen too many clusters w.r.t. the number of samples you're trying to cluster.")
+                raise ValueError
+            with open(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings),
+                      'wb') as f:
+                pickle.dump(km_model, f)
+        else:
+            with open(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings),
+                      'rb') as f:
+                km_model = pickle.load(f)
+
+        return km_model
 
 
-def filter_results_for_file(oie_dict, rel_args, arg_weights):
+    def cluster(self, km_model, phrases_dict, embeddings_dict):
+        all_phrases = []
+        embeddings = []
 
-    filtered_triples = {}
+        for phrases in phrases_dict.values():
+            all_phrases += phrases
 
-    def check_similarity_for_entire_arg(triple, idx, rel_arg):
-        # Spacy tokens IDF
-        # to_w = arg_weights[arg]
-        rel_w = arg_weights[tuple(rel_arg)]
-        oie_arg = triple[idx]
-        oie_w = arg_weights[tuple(triple[idx])]
-        # oie_w = arg_weights[triple[idx]]
+        for embs in embeddings_dict.values():
+            embeddings += embs
+
+        clustering_data = np.stack([x.squeeze() for x in embeddings])
+
+        distances_to_centroids = km_model.transform(clustering_data)
+
+        distances_filtered_by_label = []
+        for idx, p in enumerate(all_phrases):
+            l = km_model.labels_.tolist()[idx]
+            distances_filtered_by_label.append(distances_to_centroids[idx][l])
+
+        results = pd.DataFrame()
+        results['phrase'] = all_phrases
+        results['category'] = km_model.labels_
+        results['distance'] = distances_filtered_by_label
+        # print("Example of a cluster:")
+        # print(results.loc[results['category'] == 3])
+
+        return clustering_data, results
+
+
+    def print_cluster_words(self, cluster_phrases, amount_to_print):
+        cluster_word_c = Counter()
+        for phrase in cluster_phrases['phrase']:
+            for token in spacy_nlp(phrase):
+                cluster_word_c[token.text] += 1
+        return [w for w, c in cluster_word_c.most_common(amount_to_print)]
+
+
+    def cluster_insight(self, results, amount_to_print=10):
+        """
+        Print a couple of the clusters to see what type of arguments are found.
+        """
+        stopwords = []
+        if self.stopwords:
+            with open('SORE/my_utils/nltk_stopwords.txt') as f:
+                for line in f.readlines():
+                    stopwords.append(line.strip())
+
+        for cluster_id in range(self.number_of_clusters):
+            print("###################################################")
+            cluster_phrases = results.loc[results['category'] == cluster_id]
+            print("CLUSTER ID  - ", cluster_id,
+                  "    SIZE: ", len(results.loc[results['category'] == cluster_id]))
+            print(cluster_phrases.nsmallest(amount_to_print, 'distance'))
+
+            top_phrases = cluster_phrases['phrase'].value_counts()
+            print("\nTOP {} PHRASES AND COUNTS   ".format(amount_to_print))
+            print(top_phrases[:amount_to_print])
+
+            top_words = self.print_cluster_words(cluster_phrases, amount_to_print)
+            print("\nTOP {} WORDS IN CLUSTER".format(len(top_words)))
+            print(top_words)
+            print('\n\n\n')
+
+
+    def scatter(self, x, colors, category_list, NUM_CLUSTERS):
+        # We choose a color palette with seaborn.
+        palette = np.array(sns.color_palette("hls", NUM_CLUSTERS))
+
+        # We create a scatter plot.
+        f = plt.figure(figsize=(60, 60))
+        ax = plt.subplot()  # 'equal')
+        sc = ax.scatter(x[:, 0], x[:, 1], lw=0, s=100,
+                        c=palette[colors.astype(np.int)])
+
+        ax.axis('on')
+        ax.axis('tight')
+
+        # We add the labels for each digit.
+        txts = []
+        for i in range(NUM_CLUSTERS):
+            # Position of each label.
+            xtext, ytext = np.median(x[colors == i, :], axis=0)
+            txt = ax.text(xtext, ytext, str(category_list[i]), fontsize=50)
+            txt.set_path_effects([
+                PathEffects.Stroke(linewidth=5, foreground="w"),
+                PathEffects.Normal()])
+            txts.append(txt)
+
+        return f, ax, sc, txts
+
+
+    def palplot(self, digits_proj, km_model, category_list):
+        settings = "{sp}{stem}_{stop}".format(sp=self.sp_size + '_',
+                                                   stem=str(self.stemming),
+                                                   stop=str(self.stopwords))
+
+        # legend of colours
+        sns.palplot(np.array(sns.color_palette("hls", self.number_of_clusters)))
+        # plot
+        self.scatter(digits_proj, km_model.labels_,
+                     category_list,
+                     self.number_of_clusters)
+        plt.savefig('cluster_plots/plot_{}.png'.format(settings), dpi=120)
+        print("Saved plot to 'cluster_plots/plot_{}.png'".format(settings))
+
+
+################################################################## old stuff need to check ##
+
+class SoreFilter():
+    def __init__(self, OIE_path, csv_path, IDF_path, subwordunit, sp_model_path,
+                 emb_weights, emb_options, filter_settings):
+
+        self.OIE_input = OIE_path
+        self.csv_path = csv_path
+
+        with open(IDF_path) as f:
+            self.IDF_values = json.load(f)
+            print("Got the IDF weights.")
+
+        if subwordunit:
+            self.subwordunit = subwordunit
+            sp = spm.SentencePieceProcessor()
+            sp.load(sp_model_path)
+
+        self.elmo = ElmoEmbedder(emb_options, emb_weights)
+
+        self.oie_cutoff = filter_settings['oie_cutoff']                         # minimum OpenIE confidence value
+        self.sim_type = filter_settings['sim_type']                             # cosine/euclidean distance
+        self.sim_threshold = filter_settings['sim_threshold']                   # minimum similarity value
+        self.token_length_threshold = filter_settings['token_length_threshold'] # max length of args in nr of tokens
+        self.idf_threshold = filter_settings['idf_threshold']                   # minimum overall IDF value
+
+        self.pp = pprint.PrettyPrinter(indent=4)
+
+
+    def parse_openie_triple(self, line):
+        """
+        Parses a line from an OIE file that contains a triple
+        """
+        confidence, tuple, context, neg_pass = line.split('\t')
+        negation = neg_pass.split(':')[1].startswith('T')
 
         try:
-            """ Entire arg similarity """
-            cos = check_phrase_similarity(oie_arg, oie_w, rel_arg, rel_w)
-            if cos > cos_threshold:
-                return {str(tuple(rel_arg)):{str(tuple(oie_arg)):
-                                                 str(tuple([triple, cos, 'OIE_arg_'+str(idx)]))}}
-        except:
-            print('Issues with:', rel_arg, ' && ', oie_arg)
+            arg0, rest = tuple.split('[*A*]', maxsplit=1)[1].split('[*R*]')
+            arg_list = [arg0]
+            rel_and_arg2s = rest.split('[*A*]')
+            rel = rel_and_arg2s.pop(0)
+            arg2s = rel_and_arg2s
+            for arg2 in arg2s:
+                arg_list.append(arg2)
 
-    def check_similarity_per_word(triple,idx, rel_arg):
-        # for every word in triple[idx], for every word in rel_arg check if something is similar:
-        for oie_word in triple[idx]:
-            for rel_word in rel_arg:
-                oie_w = IDF_values[oie_word]
-                rel_w = IDF_values[rel_word]
-                cos = check_phrase_similarity([oie_word], [oie_w], [rel_word], [rel_w])
-                if cos > cos_threshold:
-                    return {"rel_arg:"+str(tuple(rel_arg)): {"oie_arg:"+str(tuple(triple[idx])):
-                                                      str(tuple([triple, cos, 'OIE_arg_' + str(idx)]))}}
+        except IndexError:
+            return "skipping line because it start with 0. and I'm too hasted to implement regex"
 
-    print("Nr. of sents in doc:", len(oie_dict.keys()))
-    for sent_id in oie_dict:
-        print("sentence: ", sent_id)
-        filtered_triples[sent_id] = {}
-        for triple in oie_dict[sent_id]['extractions']:
-            for arg in rel_args:
-                if triple[0] != None:
-                    sim_whole = check_similarity_for_entire_arg(triple, 0, arg)
-                    sim_per_word = check_similarity_per_word(triple, 0, arg)
-                    if sim_whole != None:
-                        print("Sim WHOLE!! ", sim_whole)
-                        filtered_triples[sent_id].update(sim_whole)
-                    elif sim_per_word != None:
-                        filtered_triples[sent_id].update(sim_per_word)
-                if triple[2] != None:
-                    sim_whole = check_similarity_for_entire_arg(triple, -1, arg)
-                    sim_per_word = check_similarity_per_word(triple, -1, arg)
-                    if sim_whole != None:
-                        print("Sim WHOLE!! ", sim_whole)
-                        filtered_triples[sent_id].update(sim_whole)
-                    elif sim_per_word != None:
-                        filtered_triples[sent_id].update(sim_per_word)
-
-        print("Filtered triples for sent ", sent_id, ":")
-        print(filtered_triples[sent_id])
-    return filtered_triples
+        return confidence, arg_list, rel, context, negation
 
 
-def filter_oie_arguments_and_weights(oie_dict):
-    """
-    For every OIE argument, prepare a weight-vector
-    """
-    weights_for_args_dict = {}
+    def preprocess_arguments(self, arg_list, embedder):
 
-    def prepare_weight_vector_for_spacy_token(arg):
+        if embedder.stopwords:
+            stopwords = []
+            with open('SORE/my_utils/nltk_stopwords.txt') as f:
+                for line in f.readlines():
+                    stopwords.append(line.strip())
+
+        preprocessed_phrases = []
+        token_lenghts = []
+        if arg_list != []:
+            for phrase in arg_list:
+                spacy_phrase = spacy_nlp(phrase)
+                num_tokens_in_arg = len([t for t in spacy_phrase])
+                token_lenghts.append(num_tokens_in_arg)
+
+                if embedder.stopwords and embedder.stemming:
+                    words = [t.text for t in spacy_phrase if t.text not in stopwords]
+                    preprocessed_phrase = [embedder.porterstemmer(w) for w in words]
+                elif embedder.stemming:
+                    words = [t.text for t in spacy_phrase]
+                    preprocessed_phrase = [embedder.porterstemmer(w) for w in words]
+                elif embedder.stopwords:
+                    preprocessed_phrase = [t.text for t in spacy_phrase if t.text not in stopwords]
+                else:
+                    preprocessed_phrase = [t.text for t in spacy_phrase]
+
+                preprocessed_phrases.append(preprocessed_phrase)
+
+        return [x for x in zip(preprocessed_phrases, token_lenghts)]
+
+
+    def read_openie_results(self, file_name, oie_cutoff, embedder):
+        """
+        Reads all OIE results for a single document, and preprocesses the phrases extracted by
+        """
+        all_results = open(file_name).readlines()
+
+        doc_id = file_name.rsplit('/', maxsplit=1)[1].rsplit('_processed.txt')[0]
+        doc_extractions = {doc_id: {}}
+
+        extractions_for_sent = []
+
+        for line in all_results:
+            if line.startswith('0.') or line.startswith('1.00'):
+                if float(line[:5]) > oie_cutoff:
+                    confidence, args, rel, context, negation = self.parse_openie_triple(line)
+                    # rel_tuple = (args[0], rel, tuple(args[1:]))
+                    try:
+                        extractions = {'args': [], 'rel': rel, 'context': context,
+                                       'conf': confidence, 'negation': negation}
+                        ### preprocess and count tokens
+                        extractions['args'] = self.preprocess_arguments(args, embedder)
+                        extractions_for_sent.append(extractions)
+                    except:
+                        print("Issue parsing: {}".format(line))
+                        pass
+            elif line == '\n':  # Empty lines shouldn't be encountered
+                pass
+            else:
+                [doc_extractions[doc_id][sent_id].append(ex) for ex in extractions_for_sent]
+                sent_id, sent = line[6:].split(']', maxsplit=1)
+                doc_extractions[doc_id].update({sent_id: [sent]})
+
+        return doc_extractions
+
+
+    def get_weights_for_spacy_token(self, arg):
+        weights_for_args_dict = {}
         arg_list = []
         weights_list = []
-        for w in nlp.run(arg):
+
+        for w in spacy_nlp(arg):
+
             try:
-                if IDF_values[w.text] > idf_threshold:
+                if self.IDF_values[w.text] > self.idf_threshold:
                     arg_list.append(w.text)
-                    weights_list.append(IDF_values[w.text])
+                    weights_list.append(self.IDF_values[w.text])
             except KeyError:
-                print("Removed from args, since no IDF value: ", w.text)
+                print("Found token without an IDF value: ", w.text)
+
         if arg_list:
             weights_for_args_dict[tuple(arg_list)] = weights_list
-            # return ' '.join(filtered_arg)
-            # return [t.text for t in nlp.run(str(filtered_arg))]
-            return arg_list
+            return arg_list,  weights_for_args_dict
 
-    def prepare_weights_for_sentencepiece_units(arg):
+
+    def get_weights_for_subwordunits(self, arg):
+        weights_for_args_dict = {}
         arg_list = []
         weights_list = []
-        for w_id in sp.EncodeAsIds(arg):
+
+        for w_id in self.sp.EncodeAsIds(arg):
             try:
-                if IDF_values[w_id] > idf_threshold:
+                if self.IDF_values[w_id] > self.idf_threshold:
                     arg_list.append(w_id)
-                    weights_list.append(IDF_values[w_id])
+                    weights_list.append(self.IDF_values[w_id])
             except KeyError:
-                print("Removed from args, since no IDF value: ", w_id)
+                print("Found subwordunit without an IDF value: ", w_id)
+
         if arg_list:
             weights_for_args_dict[tuple(arg_list)] = weights_list
-            return arg_list
-
-    for sent_id in oie_dict:
-        for idx, triple in enumerate(oie_dict[sent_id]['extractions']):
-            filtered_oie_args = []
-            # oie_dict[sent_id]['extractions'][idx][0] = prepare_weight_vector_for_spacy_token(triple[0])
-            # oie_dict[sent_id]['extractions'][idx][-1] = prepare_weight_vector_for_spacy_token(triple[-1])
-            oie_dict[sent_id]['extractions'][idx][0] = prepare_weights_for_sentencepiece_units(triple[0])
-            oie_dict[sent_id]['extractions'][idx][-1] = prepare_weights_for_sentencepiece_units(triple[-1])
-
-    weights_for_args_dict[None] = 0
-    return oie_dict, weights_for_args_dict
+            return arg_list, weights_for_args_dict
 
 
-def filter_arguments_and_weights(rel_args):
-    """
-    For every SORE arg, prepare filtered IDF weights
-    """
-    filtered_rel_args = []
-    filtered_rel_weights = {}
-    for arg in rel_args:
-        filtered_arg = []
-        filtered_weights = []
-        for w in nlp.run(arg):
+    def get_weights_for_OIE_arguments(self, oie_dict):
+        """
+        For every OIE argument, prepare a weight-vector
+        """
+        weights_for_args_dict = {None: 0}
+        for sent_id in oie_dict:
+            for idx, triple in enumerate(oie_dict[sent_id]['extractions']):
+                if self.subwordunit:
+                    oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_subwordunits(triple[0])
+                    oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_subwordunits(triple[-1])
+                    # context as well? or list of secondary args
+                    weights_for_args_dict.update(w1)
+                    weights_for_args_dict.update(w2)
+                else:
+                    oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_spacy_token(triple[0])
+                    oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_spacy_token(triple[-1])
+                    # context as well? or list of secondary args
+                    weights_for_args_dict.update(w1)
+                    weights_for_args_dict.update(w2)
+
+        return oie_dict, weights_for_args_dict
+
+
+    def get_clusters_for_arguments(self, cluster_model, embeddings):
+        """
+        For every narrowIE arg, determine the cluster id
+        """
+        clusters_for_args = []
+
+        for embedding in embeddings:
+            cluster_id = cluster_model.predict(embedding.reshape(1, -1))
+            clusters_for_args.append(list(cluster_id))
+
+        return clusters_for_args
+
+
+    def phrase_similarity(self, narrowIE_embeddings, oie_arg_embedding):
+        """  Might add some more similarity options, although cosine seemed best so far.  """
+        similarities = []
+
+        for nIEarg in narrowIE_embeddings:
             try:
-                if IDF_values[w.text] > idf_threshold:
-                    filtered_arg.append(w.text)
-                    filtered_weights.append(IDF_values[w.text])
-            except KeyError:
-                filtered_weights.append(1)
-                    # print("Why don't we find: ", w.text)
-        if filtered_arg:
-            # filtered_rel_args.append(' '.join(filtered_arg))
-            filtered_rel_weights[tuple(filtered_arg)] = filtered_weights
-            # filtered_rel_args.append([t.text for t in nlp.run(str(filtered_arg))])
-            filtered_rel_args.append(filtered_arg)
+                if self.sim_type == 'euclidean':
+                    similarities.append(pairwise.euclidean_distances(nIEarg.reshape(1, 1024),
+                                                                   oie_arg_embedding.reshape(1, 1024)))
+                else:
+                    similarities.append(pairwise.cosine_similarity(nIEarg.reshape(1, 1024),
+                                                                   oie_arg_embedding.reshape(1, 1024)))
+            except:
+                pass
 
-    return filtered_rel_args, filtered_rel_weights
+        return max(similarities)
 
 
-def write_to_file(sore_input, oie_dict, filtered_triples):
-    # for all the filtered triples in the file store the overview in a readable format:
-    base_path, directory, filename = sore_input.rsplit('/', maxsplit=2)
-    output_filename = base_path + '/FILTERED_OIE/' + filename
+    def write_to_file(self, sore_input, oie_dict, filtered_triples):
+        # for all the filtered triples in the file store the overview in a readable format:
+        base_path, directory, filename = sore_input.rsplit('/', maxsplit=2)
+        output_filename = base_path + '/FILTERED_OIE/' + filename
 
-    # NEED TO MAKE THE DICT DUMPABLE (tuples are issue) -> convert to string
-    json_dict = { "oie_dict": oie_dict,
-                  'filtered_triples': filtered_triples}
+        # NEED TO MAKE THE DICT DUMPABLE (tuples are issue) -> convert to string
+        json_dict = { "oie_dict": oie_dict,
+                      'filtered_triples': filtered_triples}
 
-    with open(output_filename, 'w') as f:
-        json.dump(json_dict, f)
+        with open(output_filename, 'w') as f:
+            json.dump(json_dict, f)
 
 
-# RUN
-for sore_input, oie_input in zip(SORE_input, OIE_input):
-    # Prepare the IDF weights for the file
-    # list_of_arguments = get_list_of_all_arguments(sore_input, oie_input)
+    def get_stats(self, OIE_style_dict, filtered):
+        tuple_c = 0
+        unique_arg_c = Counter()
+        unique_rel_c = Counter()
+        oie_unique_tuples_c = Counter()
+        arg_len_c = Counter()
 
-    # get the concepts predicted by our model for a specific file
-    sore_args = get_sore_arguments(sore_input)
-    # get the oie arguments in a tractable dict
-    oie_args = read_openie_results(oie_input, oie_cutoff)
-    oie_arguments, oie_weights = filter_oie_arguments_and_weights(oie_args)
-    # filter the arguments and their weights, following the IDF threshold
-    sore_arguments, sore_weights = filter_arguments_and_weights(sore_args)
-    oie_weights.update(sore_weights)
-    # filter the oie triples:
-    filtered_triples = filter_results_for_file(oie_arguments, sore_arguments, oie_weights)
-    # store in readible format
-    write_to_file(sore_input, oie_arguments, filtered_triples)
+        for doc_id in OIE_style_dict.keys():
+
+            for sent_id, extraction_list in OIE_style_dict[doc_id].items():
+                extraction_list.pop(0)
+
+                for extraction in extraction_list:
+                    tuple_c += 1
+                    rel_tuple = []
+
+                    for args in extraction['args']:
+                        for arg in args:
+                            tuple.append(arg[0])
+                            unique_arg_c[arg[0]] += 1
+                            arg_len_c[arg[1]] += 1
+
+                    unique_rel_c[extraction['rel']] += 1
+                    rel_tuple.insert(1, extraction['rel'])
+                    oie_unique_tuples_c[tuple(rel_tuple)] += 1
+
+        print("OPENIE STATS {}".format(filtered.upper()))
+        #   print("Avg. arg_len: ", ( sum([k*c for k, c in arg_len_c.items()] ) / len(unique_arg_c.keys())))
+        print("Unique args: ", len(unique_arg_c.keys()))
+        print("Unique rel: ", len(unique_rel_c.keys()))
+        print("Unique TRIPLES: ", len(oie_unique_tuples_c.keys()))
+
+
+    def start_filtering(self, output_dir, prefix, narrowIE_phrases, narrowIE_embeddings, embedder,
+                        cluster_model, print_stats):
+
+        all_OIE_files = glob.glob(self.OIE_input + "*.txt")
+        OIE_pathnames = {}
+        for pathname in all_OIE_files:
+            doc_id = pathname.rsplit('/', maxsplit=1)[1].rsplit('_processed.txt')[0]
+            OIE_pathnames[doc_id] = pathname
+
+        OIE_dict = {}
+        SORE_dict = {}
+
+        for doc_id in narrowIE_embeddings.keys():
+
+            output_name = output_dir + prefix + doc_id + '.json'
+
+            if os.path.exists(output_name):
+                print("Found filtered extractions for {} and prefix {}, loading these.".format(doc_id, prefix))
+                with open(output_name) as f:
+                    SORE_dict.update(json.load(f))
+            else:
+                print("Filtering OIE document: {}".format(doc_id))
+                narrowIE_clusters = self.get_clusters_for_arguments(cluster_model, narrowIE_embeddings[doc_id])
+
+                OIE_doc_dict = self.read_openie_results(OIE_pathnames[doc_id], self.oie_cutoff, embedder)
+                OIE_dict.update(OIE_doc_dict)
+
+                possible_SORE_dict = {doc_id: {'narrowIE_args': narrowIE_phrases}}
+                total_triples = 0
+
+                for sent_id, extractions_dict_list in OIE_doc_dict[doc_id].items():
+                    possible_sent_dict = {sent_id: [extractions_dict_list.pop(0)]}
+                    found_triple = False
+
+                    for extraction in extractions_dict_list:
+                        args_and_tokenlengths = extraction['args']
+                        args = [a for (a,l) in args_and_tokenlengths if l < self.token_length_threshold]
+
+                        OIE_embeddings = embedder.preprocess_and_embed_phrase_list(args)
+                        OIE_clusters = self.get_clusters_for_arguments(cluster_model, OIE_embeddings)
+
+                        for idx, arg in enumerate(args):
+                            # Do not consider phrases outside the clusters found in that document through narrow IE
+                            if OIE_clusters[idx] in narrowIE_clusters:
+                                sim = self.phrase_similarity(narrowIE_embeddings[doc_id], OIE_embeddings[idx])
+                                if sim > self.sim_threshold:
+                                    # triple should be added!
+                                    triple = (extraction, OIE_clusters[idx], sim)
+                                    possible_sent_dict[sent_id].append(triple)
+                                    found_triple = True
+                                    total_triples += 1
+                    if found_triple:
+                        possible_SORE_dict.update(possible_sent_dict)
+
+
+                with open(output_name) as out_file:
+                    print("Done processing {}, retained {} OIE extractions.".format(doc_id, total_triples))
+                    json.dump(possible_SORE_dict, out_file)
+                    SORE_dict.update(possible_SORE_dict)
+
+        if print_stats:
+            self.get_stats(OIE_dict, 'Unfiltered')
+            self.get_stats(SORE_dict, 'Filtered')
+
+

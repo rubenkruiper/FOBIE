@@ -20,9 +20,9 @@ def write_sentences_to_txt_file(input_dict, output_folder):
                 content = input_dict[doc_id]
                 content = clean_raw_input.clean_content(content)
 
-                with open(output_name, 'w') as f:
+                with open(output_name, 'w', encoding='ascii') as f:
                     for sent_id, sentence in content.items():
-                        f.writelines(sentence['sentence'] + '\n')
+                        f.writelines(sentence['sentence'].encode("ascii") + '\n')
 
                 processed_files.append(output_name)
                 print('Processed ', doc_id, 'to a separate text file for OIE')

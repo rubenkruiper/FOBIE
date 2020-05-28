@@ -28,8 +28,8 @@ class PrepIDFWeights():
 
         if SUBWORDUNIT:
             if self.STEMMING or self.STOPWORDS:
-                print("Stemming/stopword-removal of subword units not implemented, "
-                      "seems counter-productive to stem or remove stopwords.")
+                print("Note: stemming/stopword-removal does not affect IDF values for subword units. "
+                      "This hasn't been implemented, as it seems counter-productive w.r.t. the IDF values.")
             self.sp = spm.SentencePieceProcessor()
             self.sp_size = 10
 
@@ -106,14 +106,15 @@ class PrepIDFWeights():
     def determine_output_name(self):
         if self.SUBWORDUNIT:
             output_name = self.output_dir + self.prefix + "IDF.json"
-        elif self.STEMMING and self.STOPWORDS:
-            output_name = self.output_dir + self.prefix + "IDF_stemmed_no_stopwords.json"
-        elif self.STEMMING:
-            output_name = self.output_dir  + self.prefix + "IDF_stemmed.json"
-        elif self.STOPWORDS:
-            output_name = self.output_dir  + self.prefix + "IDF_no_stopwords.json"
         else:
-            output_name = self.output_dir  + self.prefix + "IDF.json"
+            if self.STEMMING and self.STOPWORDS:
+                output_name = self.output_dir + self.prefix + "IDF_stemmed_no_stopwords.json"
+            elif self.STEMMING:
+                output_name = self.output_dir  + self.prefix + "IDF_stemmed.json"
+            elif self.STOPWORDS:
+                output_name = self.output_dir  + self.prefix + "IDF_no_stopwords.json"
+            else:
+                output_name = self.output_dir  + self.prefix + "IDF.json"
 
         return output_name
 

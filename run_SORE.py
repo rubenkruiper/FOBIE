@@ -107,16 +107,19 @@ class FilterPrep():
 
 
 class SORE_filter():
-    def __init__(self, csv_path="data/narrowIE/tradeoffs_and_argmods.csv"):
+    def __init__(self, csv_path="data/narrowIE/tradeoffs_and_argmods.csv",
+                 sore_output_dir="SORE/data/processed_data/"):
         self.csv_path = csv_path
+        self.sore_output_dir = sore_output_dir
 
-    def start(self, prefix, IDF_weights_path, SUBWORDUNIT,
+    def start(self, prefix, filter_settings, IDF_weights_path, SUBWORDUNIT,
                  oie_data_dir='SORE/data/OpenIE/processed/',
-                 sp_size=200,
+                 sp_size=16000,
                  number_of_clusters=50,
                  stemming=False,
-                 stopwords=False,
-                 weight_combination="avg",
+                 stopwords=True,
+                 SUBWORD_UNIT_COMBINATION="avg",
+                 print_stats=False,
                  path_to_embeddings=None):
         """
         :param prefix: A name to identify the created files that store IDFweights, sentencepiece model and vocab, etc.
@@ -125,16 +128,19 @@ class SORE_filter():
         :param sp_size: Size of vocab used for sentencepiece subwordunits.
         :param stemming: Boolean that determines whether keyphrases are stemmed before filtering.
         :param stopwords: Boolean that determines whether stopwords are removed from keyphrases before filtering.
-        :param weight_combination: How the weights for subwordunits are combined to a single weight per word.
+        :param SUBWORD_UNIT_COMBINATION: How the weights for subwordunits are combined to a single weight per word.
+        :param print_stats: Whether to print the statistics on unfiltered OIE extractions.
         :param path_to_embeddings: Path where ELMo PubMed embeddings can be found.
         """
         filter = filterOIE_with_narrowIE.NarrowIEOpenIECombiner(oie_data_dir,IDF_weights_path, self.csv_path, SUBWORDUNIT, sp_size,
                                                                 number_of_clusters, stemming, stopwords,
-                                                                weight_combination, path_to_embeddings)
+                                                                SUBWORD_UNIT_COMBINATION, path_to_embeddings)
 
-        filter.run(prefix, print_clusters=True,
-                   plot=True,
-                   cluster_names=None)
+        filter.run(prefix, filter_settings, self.sore_output_dir,
+                   print_clusters=True,
+                   plot=False,
+                   cluster_names=None,
+                   print_stats=False)
 
 
 class FilterCheck():
@@ -155,7 +161,7 @@ def test():
     predictions_filename = "predictions_more_examples.json"
 
     narrowIE_parser = NarrowIEParser(input_filename, predictions_filename)
-    narrowIE_parser.start()
+    # narrowIE_parser.start()
 
 
     ### Run Open IE
@@ -169,26 +175,33 @@ def test():
     sp_size = 200
     SUBWORDUNIT = True
     STEMMING = False
-    STOPWORDS = False
+    STOPWORDS = True
     prefix = 'test'
 
     prepper = FilterPrep()
     IDF_weights_path = prepper.determine_output_name(prefix, SUBWORDUNIT, STEMMING, STOPWORDS)
-    # prepper.start(sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
+    # prepper.start(prefix, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
 
 
     # Filter!
     # settings for preparing
     oie_data_dir = 'SORE/data/OpenIE/processed/'
+    sore_output_dir = 'SORE/data/processed_data/'
     sp_size = 200
-    number_of_clusters = 5
-    STEMMING = True
-    STOPWORDS = True
-    weight_combination = "avg"
+    number_of_clusters = 3
+    SUBWORD_UNIT_COMBINATION = "avg"
+    print_stats = True
+    filter_settings = {
+        'oie_cutoff': .7,                       # minimum OpenIE confidence value
+        'sim_type': 'cos',                      # use cosine/euclidean distance
+        'sim_threshold': .85,                   # minimum similarity value
+        'token_length_threshold': 25,           # max length of arg in number of tokens
+        'idf_threshold': 2.,                    # minimum idf weight for a phrase
+    }
 
-    my_SORE_filter = SORE_filter(narrowIE_parser.output_csv)
-    my_SORE_filter.start(oie_data_dir, prefix, IDF_weights_path, SUBWORDUNIT, sp_size, number_of_clusters,
-                         STEMMING, STOPWORDS, weight_combination)
+    my_SORE_filter = SORE_filter(narrowIE_parser.output_csv, sore_output_dir)
+    my_SORE_filter.start(prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, oie_data_dir, sp_size, number_of_clusters,
+                         STEMMING, STOPWORDS, SUBWORD_UNIT_COMBINATION, print_stats)
 
 if __name__ == "__main__":
     test()

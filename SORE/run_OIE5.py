@@ -47,6 +47,7 @@ class OpenIE5_client(object):
          etc.. ]
         """
         lines_to_write = []
+
         for tuple in dict_list:
 
             for k in tuple['extraction'].keys():
@@ -59,12 +60,15 @@ class OpenIE5_client(object):
             line_to_write = None
             try:
                 context = ""
+                arg2s_string = ""
+
                 if ex['context']:
                     context = ex['context']['text']
-                arg2s_string = ""
-                for idx, arg in enumerate(ex['arg2s']):
-                    arg2s_string += ", [#{}]{}".format(str(idx), arg['text'])
-                line_to_write = "{:.3f}\t({},{}{})\tcontext({})\tnegated: {} ,passive: {}".format(
+
+                for arg in ex['arg2s']:
+                    arg2s_string += "[*A*]{}".format(arg['text'])
+
+                line_to_write = "{:.3f}\t[*A*]{}[*R*]{}{}\tcontext({})\tnegated: {} ,passive: {}\n".format(
                     tuple['confidence'], ex['arg1']['text'],
                     ex['rel']['text'], arg2s_string,
                     context, str(ex['negated']), str(ex['passive']))
@@ -97,15 +101,12 @@ class OpenIE5_client(object):
                         if line == '\n':
                             pass
                         else:
-
                             number_of_lines += 1
-                            of.writelines([line.rstrip()])
+                            of.writelines('[LINE#{}]{}\n'.format(number_of_lines, line.rstrip()))
                             try:
-                                # extractions = os.system("curl -X POST http://localhost:8000/getExtraction -d {}".format('"'+ line + '"'))
                                 extractions = extractor.extract(line.rstrip())
                                 stuff_to_write = self.parse_extractions(extractions)
                                 of.writelines(stuff_to_write)
-                                of.writelines(['\n'])
                                 number_of_lines_processed += 1
 
                             except:
