@@ -170,7 +170,7 @@ class PrepIDFWeights():
         if len(input_files) > 1:
             total = len(input_files)
             for idx, input_file in enumerate(input_files):
-                print('Combining files into a single corpus for IDF ({}/{}); {}'.format(
+                print('Combining sentences into a single corpus for IDF ({}/{}); {}'.format(
                     idx + 1, total, input_file))
                 corpus_list.append(self.txt_files_to_corpus(input_file))
 

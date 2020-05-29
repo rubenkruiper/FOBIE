@@ -34,7 +34,7 @@ def write_dicts_to_files(num_docs, dict_with_various_docs,
         print("Wrote the input for the SciIE system to: ", output_folder_narrowIE + narrowIE_output_name)
 
 
-def convert_documents(input_files, output_folder_OIE, output_folder_narrowIE):
+def convert_documents(max_num_docs_narrowIE, input_files, output_folder_OIE, output_folder_narrowIE):
     """
     Reads an unprocessed json file and prepares the input document for narrow and open IE. Scraped
     text in JEB and BMC files is processed to single-sentence-dict:
@@ -45,7 +45,7 @@ def convert_documents(input_files, output_folder_OIE, output_folder_narrowIE):
     """
 
     for input_file in input_files:
-        num_docs = 400
+        num_docs = max_num_docs_narrowIE
         print("\nCollecting sentences from (max batch size {}): {}".format(num_docs, input_file))
         with open(input_file) as f:
             data = json.load(f)
@@ -69,7 +69,7 @@ def convert_documents(input_files, output_folder_OIE, output_folder_narrowIE):
                 print("Dropped document {}, because it only contains the sections: {}".format(doc_id, sections))
                 continue
             else:
-                # run in batches of 400 docs
+                # run in batches of 'max_num_docs_narrowIE' docs
                 if (index + 1) // num_docs == i:
                     i += 1
                     # clear the dict_list

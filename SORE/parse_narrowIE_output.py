@@ -82,36 +82,35 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
             if len(line) > 10:
                 data_dicts.append(json.loads(line))
 
-    output_all_sentences = []
-    for sample in predicted_dicts:
-        doc_key = sample['doc_key']
+    lines_to_write = []
 
-        output_per_sentence = []
-        for d_sample in data_dicts:
-            if d_sample['doc_key'] == doc_key:
-                modified_args, to_args, modified_to_args, rel_counter = convert_spans_to_tokenlist(sample, d_sample)
+    for preds_for_sent, sent in zip(predicted_dicts, data_dicts):
+        rel_args_for_sent = []
+        if preds_for_sent['relation'] != [[]]:
 
-                doc_id, sent_id = doc_key.rsplit('_', maxsplit=1)
-                doc_id = doc_id.replace('.','_')
-                sentence = simple_tokens_to_string(d_sample["sentences"][0])
+            modified_args, to_args, modified_to_args, rel_counter = convert_spans_to_tokenlist(preds_for_sent, sent)
 
-                if RELATIONS_TO_STORE == "ALL":
-                    relation_types = 'All'
-                    argument_list = [simple_tokens_to_string(arg) for arg in modified_args]
-                if RELATIONS_TO_STORE == "TRADEOFFS":
-                    relation_types = 'TradeOffs'
-                    argument_list = [simple_tokens_to_string(arg) for arg in to_args]
-                if RELATIONS_TO_STORE == "TRADEOFFS_AND_ARGMODS":
-                    relation_types = 'TradeOffs with Arg-Modifiers'
-                    argument_list = [simple_tokens_to_string(arg) for arg in (modified_to_args)]
+            doc_id, sent_id = preds_for_sent['doc_key'].rsplit('_', maxsplit=1)
+            doc_id = doc_id.replace('.','_')
+            sentence = simple_tokens_to_string(sent["sentences"][0])
 
-                if argument_list != []:
-                    output_per_sentence.append([doc_id, sent_id, sentence, relation_types, argument_list])
+            if RELATIONS_TO_STORE == "ALL":
+                relation_types = 'All'
+                argument_list = [simple_tokens_to_string(arg) for arg in modified_args]
+            if RELATIONS_TO_STORE == "TRADEOFFS":
+                relation_types = 'TradeOffs'
+                argument_list = [simple_tokens_to_string(arg) for arg in to_args]
+            if RELATIONS_TO_STORE == "TRADEOFFS_AND_ARGMODS":
+                relation_types = 'TradeOffs with Arg-Modifiers'
+                argument_list = [simple_tokens_to_string(arg) for arg in (modified_to_args)]
 
-        if output_per_sentence != []:
-            output_all_sentences.append(output_per_sentence)
+            if argument_list != []:
+                rel_args_for_sent.append([doc_id, sent_id, sentence, relation_types, argument_list])
 
-    return output_all_sentences
+        if rel_args_for_sent != []:
+            lines_to_write.append(rel_args_for_sent)
+
+    return lines_to_write
 
 
 def start_parsing(data, pred, output_csv, RELATIONS_TO_STORE):

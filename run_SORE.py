@@ -1,4 +1,4 @@
-import glob, json
+import glob, json, os
 import pandas as pd
 from SORE import prepare_data, run_OIE5, parse_narrowIE_output, filterOIE_with_narrowIE
 from SORE.my_utils import IDF_weight_utils
@@ -13,10 +13,9 @@ class DataPreparation():
         self.output_folder_narrowIE = output_folder_narrowIE
         self.output_folder_OIE = output_folder_OIE
 
-    def start(self):
+    def start(self, max_num_docs_narrowIE):
         input_files = glob.glob(self.unprocessed_data_path +'*.json')
-        prepare_data.convert_documents(input_files, self.output_folder_OIE, self.output_folder_narrowIE)
-
+        prepare_data.convert_documents(max_num_docs_narrowIE, input_files, self.output_folder_OIE, self.output_folder_narrowIE)
 
 
 class NarrowIEParser():
@@ -145,61 +144,68 @@ def main(all_settings):
     runOIE = all_settings['Run_OIE']
     filter = all_settings['Filter_OIE']
 
+    max_num_docs_narrowIE = all_settings['data_prep']['max_num_docs_narrowIE']
+
     narrowIE_input_files = all_settings['narrowIE']['narrowIE_input_files']
     RELATIONS_TO_STORE = all_settings['narrowIE']['RELATIONS_TO_STORE']
 
+
     path_to_OIE_jar = all_settings['OpenIE']['path_to_OIE_jar']
 
-    sp_size = all_settings['sp_size']
-    SUBWORDUNIT = all_settings['SUBWORDUNIT']
-    STEMMING = all_settings['STEMMING']
-    STOPWORDS = all_settings['STOPWORDS']
-    prefix = all_settings['prefix']
-    number_of_clusters = all_settings['number_of_clusters']
-    SUBWORD_UNIT_COMBINATION = all_settings['SUBWORD_UNIT_COMBINATION']
-    print_stats = all_settings['print_stats']
-    filter_settings = all_settings['filter_settings']
+    sp_size = all_settings['Filtering']['sp_size']
+    SUBWORDUNIT = all_settings['Filtering']['SUBWORDUNIT']
+    STEMMING = all_settings['Filtering']['STEMMING']
+    STOPWORDS = all_settings['Filtering']['STOPWORDS']
+    prefix = all_settings['Filtering']['prefix']
+    number_of_clusters = all_settings['Filtering']['number_of_clusters']
+    SUBWORD_UNIT_COMBINATION = all_settings['Filtering']['SUBWORD_UNIT_COMBINATION']
+    print_stats = all_settings['Filtering']['print_stats']
+    filter_settings = all_settings['Filtering']['filter_settings']
 
     if prep:
         ### Prepare data for OpenIE and narrow IE
         # Possible to define own data directories
         prep_obj = DataPreparation()
-        prep_obj.start()
+        prep_obj.start(max_num_docs_narrowIE)
+
+    # determine name for parsed narrowIE files
+    suffix_options = ['ALL', 'TRADEOFFS', 'TRADEOFFS_AND_ARGMODS']
+    suffixes = ["_all_arguments.csv", "_tradeoffs.csv", "_tradeoffs_and_argmods.csv"]
+    output_suffix = suffixes[suffix_options.index(RELATIONS_TO_STORE)]
+    narrowIE_parser = NarrowIEParser()
+    combined_name = narrowIE_parser.output_csv_path + prefix + output_suffix
 
     if parse_narrow:
         ### Parse narrow IE (need to run yourself for now)
         parse_files = [[input_filename, "predictions_"+input_filename] for input_filename in narrowIE_input_files]
         csv_files = []
 
-        narrowIE_parser = NarrowIEParser()
-
-        suffix_options = ['ALL', 'TRADEOFFS', 'TRADEOFFS_AND_ARGMODS']
-        suffixes = ["_all_arguments.csv", "_tradeoffs.csv", "_tradeoffs_and_argmods.csv"]
-        output_suffix = suffixes[suffix_options.index(RELATIONS_TO_STORE)]
-
         for input_filename, predictions_filename in parse_files:
             output_csv = narrowIE_parser.output_csv_path + input_filename.rsplit('.', maxsplit=1)[0] + output_suffix
             narrowIE_parser.start(input_filename, predictions_filename, output_csv)
-            csv_files.append(narrowIE_parser.output_csv_path)
+            csv_files.append(output_csv)
 
-        combined_name = narrowIE_parser.output_csv_path + prefix + output_suffix
-        combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
+        combined_csv = pd.concat([pd.read_csv(f, engine='python') for f in csv_files])
         combined_csv.to_csv(combined_name, index=False, encoding='utf-8')
 
     if runOIE:
         ### Run Open IE
+        # If run separately from narrowOIE, the csv_path has to be
         # Need to define own path_to_OIE_jar after building OpenIE5
-        run_OIE5.run_OpenIE_5(narrowIE_parser.output_csv, path_to_OIE_jar)
+        run_OIE5.run_OpenIE_5(combined_name, path_to_OIE_jar)
 
     if filter:
         # Compute IDF weights (and sentencepiece model and vocab if required)
         # settings for preparing
         prepper = FilterPrep()
         IDF_weights_path = prepper.determine_output_name(prefix, SUBWORDUNIT, STEMMING, STOPWORDS)
-        prepper.start(prefix, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
+        if os.path.exists(IDF_weights_path):
+            print("Assuming IDF weights and sentencepiece model exist, since path exists: {} ".format(IDF_weights_path))
+        else:
+            prepper.start(prefix, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
 
         # Filter!
-        my_SORE_filter = SORE_filter(narrowIE_parser.output_csv, sore_output_dir)
+        my_SORE_filter = SORE_filter(combined_name, sore_output_dir)
         my_SORE_filter.start(prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, oie_data_dir, sp_size,
                              number_of_clusters, STEMMING, STOPWORDS, SUBWORD_UNIT_COMBINATION, print_stats)
 

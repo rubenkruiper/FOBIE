@@ -24,9 +24,10 @@ class NarrowIEOpenIECombiner(object):
         self.IDF_path = IDF_path
         self.filter_data_path = IDF_path.rsplit('/', maxsplit=1)[0] + '/'
 
+        self.subwordunit = SUBWORDUNIT
         if SUBWORDUNIT:
             self.sp_size = str(sp_size)
-            self.subwordunit = SUBWORDUNIT
+
         else:
             self.sp_size = ''
 

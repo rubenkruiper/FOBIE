@@ -33,8 +33,8 @@ class PrepareEmbeddings():
         self.stopwords = stopwords
 
         # SentencePiece
+        self.subwordunits = subwordunits
         if subwordunits:
-            self.subwordunits = subwordunits
             self.sp = spm.SentencePieceProcessor()
             self.sp.load(sp_model_path)
 
@@ -274,7 +274,7 @@ class ClusterTradeOffs():
             distances_filtered_by_label.append(distances_to_centroids[idx][l])
 
         results = pd.DataFrame()
-        results['phrase'] = all_phrases
+        results['phrase'] = [tuple(p) for p in all_phrases]
         results['category'] = km_model.labels_
         results['distance'] = distances_filtered_by_label
         # print("Example of a cluster:")
@@ -286,8 +286,8 @@ class ClusterTradeOffs():
     def print_cluster_words(self, cluster_phrases, amount_to_print):
         cluster_word_c = Counter()
         for phrase in cluster_phrases['phrase']:
-            for token in spacy_nlp(phrase):
-                cluster_word_c[token.text] += 1
+            for token in phrase:
+                cluster_word_c[token] += 1
         return [w for w, c in cluster_word_c.most_common(amount_to_print)]
 
 
@@ -307,6 +307,7 @@ class ClusterTradeOffs():
             print("CLUSTER ID  - ", cluster_id,
                   "    SIZE: ", len(results.loc[results['category'] == cluster_id]))
             print(cluster_phrases.nsmallest(amount_to_print, 'distance'))
+
 
             top_phrases = cluster_phrases['phrase'].value_counts()
             print("\nTOP {} PHRASES AND COUNTS   ".format(amount_to_print))
@@ -631,7 +632,10 @@ class SoreFilter():
 
         for doc_id in OIE_style_dict.keys():
             for sent_id, extraction_list in OIE_style_dict[doc_id].items():
-                extraction_list.pop(0)
+                if extraction_list != []:
+                    extraction_list.pop(0)
+                else:
+                    continue
 
                 for extraction in extraction_list:
                     tuple_c += 1

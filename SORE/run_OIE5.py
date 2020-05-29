@@ -104,11 +104,18 @@ class OpenIE5_client(object):
                             number_of_lines += 1
                             of.writelines('[LINE#{}]{}\n'.format(number_of_lines, line.rstrip()))
                             try:
+                                # OIE sometimes runs into issues,
+                                # JSON errors seem related to the presence of unicode characters in extractions.
+                                # - e.g. "All methods find that β-strands 6, 5, 4, 3, 2 form first."
+                                # ConnectionErrors seems to be related to regex issues.
+                                # - e.g. "Strands 6, 5, 4, 3, 2 form first (and in that order) and disagree on the relative ordering."
+                                # While the following does not throw and error - "Not all β-strands are an issue."
+                                # Avoiding JSON errors by loading files in ascii encoding with errors being ignored
+                                # Skipping the sentences that run into regex-type issues.
                                 extractions = extractor.extract(line.rstrip())
                                 stuff_to_write = self.parse_extractions(extractions)
                                 of.writelines(stuff_to_write)
                                 number_of_lines_processed += 1
-
                             except:
                                 print("Can't process: {}".format(line.rstrip()))
                                 pass
