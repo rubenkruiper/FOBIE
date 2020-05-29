@@ -1,4 +1,5 @@
-import glob
+import glob, json
+import pandas as pd
 from SORE import prepare_data, run_OIE5, parse_narrowIE_output, filterOIE_with_narrowIE
 from SORE.my_utils import IDF_weight_utils
 
@@ -20,7 +21,6 @@ class DataPreparation():
 
 class NarrowIEParser():
     def __init__(self,
-                 input_filename, predictions_filename,
                  narrowIE_data_dir="SORE/data/narrowIE/input/",
                  narrowIE_predictions_dir = "SORE/data/narrowIE/predictions/",
                  RELATIONS_TO_STORE = "TRADEOFFS_AND_ARGMODS",
@@ -32,24 +32,17 @@ class NarrowIEParser():
          "ner": [[[8, 8, "Generic"], [10, 10, "Generic"], [12, 14, "Generic"]]],
          "relation": [[[8, 8, 10, 10, "Not_a_TradeOff"], [8, 8, 12, 14, "Not_a_TradeOff"]]]}
         """
-
-        self.narrowIE_data = narrowIE_data_dir + input_filename
-        self.narrowIE_predictions = narrowIE_predictions_dir + predictions_filename
+        self.narrowIE_data = narrowIE_data_dir
+        self.narrowIE_predictions = narrowIE_predictions_dir
         self.relations_to_store = RELATIONS_TO_STORE
-
-        # Choice between 'ALL', 'TRADEOFFS', and 'TRADEOFFS_AND_ARGMODS'
-        if RELATIONS_TO_STORE == "ALL":
-            self.output_csv = output_csv_path + input_filename.rsplit('.', maxsplit=1)[0] + "_all_arguments.csv"
-        if RELATIONS_TO_STORE == "TRADEOFFS":
-            self.output_csv = output_csv_path + input_filename.rsplit('.', maxsplit=1)[0] + "_tradeoffs.csv"
-        if RELATIONS_TO_STORE == "TRADEOFFS_AND_ARGMODS":
-            self.output_csv = output_csv_path + input_filename.rsplit('.', maxsplit=1)[0] + "_tradeoffs_and_argmods.csv"
+        self.output_csv_path = output_csv_path
 
 
-    def start(self):
-        parse_narrowIE_output.start_parsing(self.narrowIE_data,
-                                            self.narrowIE_predictions,
-                                            self.output_csv, self.relations_to_store)
+    def start(self, input_filename, predictions_filename, output_csv):
+        parse_narrowIE_output.start_parsing(self.narrowIE_data + input_filename,
+                                            self.narrowIE_predictions + predictions_filename,
+                                            output_csv, self.relations_to_store)
+        return output_csv
 
 
 class FilterPrep():
@@ -143,12 +136,30 @@ class SORE_filter():
                    cluster_names=None)
 
 
-class FilterCheck():
-    def __init__(self):
-        pass
+def main(all_settings):
+    oie_data_dir = 'SORE/data/OpenIE/processed/'
+    sore_output_dir = 'SORE/data/processed_data/'
 
+    prep = all_settings['Prepare_data']
+    parse_narrow = all_settings['Parse_narrowIE_predictions']
+    runOIE = all_settings['Run_OIE']
+    filter = all_settings['Filter_OIE']
 
-def main(prep, parse_narrow, runOIE, filter):
+    narrowIE_input_files = all_settings['narrowIE']['narrowIE_input_files']
+    RELATIONS_TO_STORE = all_settings['narrowIE']['RELATIONS_TO_STORE']
+
+    path_to_OIE_jar = all_settings['OpenIE']['path_to_OIE_jar']
+
+    sp_size = all_settings['sp_size']
+    SUBWORDUNIT = all_settings['SUBWORDUNIT']
+    STEMMING = all_settings['STEMMING']
+    STOPWORDS = all_settings['STOPWORDS']
+    prefix = all_settings['prefix']
+    number_of_clusters = all_settings['number_of_clusters']
+    SUBWORD_UNIT_COMBINATION = all_settings['SUBWORD_UNIT_COMBINATION']
+    print_stats = all_settings['print_stats']
+    filter_settings = all_settings['filter_settings']
+
     if prep:
         ### Prepare data for OpenIE and narrow IE
         # Possible to define own data directories
@@ -157,57 +168,45 @@ def main(prep, parse_narrow, runOIE, filter):
 
     if parse_narrow:
         ### Parse narrow IE (need to run yourself for now)
-        # Need to define own path_to_OIE_jar after building OpenIE5
-        input_filename = "JEB_BMC.json"
-        predictions_filename = "predictions_JEB_BMC.json"
+        parse_files = [[input_filename, "predictions_"+input_filename] for input_filename in narrowIE_input_files]
+        csv_files = []
 
-        narrowIE_parser = NarrowIEParser(input_filename, predictions_filename)
-        narrowIE_parser.start()
+        narrowIE_parser = NarrowIEParser()
+
+        suffix_options = ['ALL', 'TRADEOFFS', 'TRADEOFFS_AND_ARGMODS']
+        suffixes = ["_all_arguments.csv", "_tradeoffs.csv", "_tradeoffs_and_argmods.csv"]
+        output_suffix = suffixes[suffix_options.index(RELATIONS_TO_STORE)]
+
+        for input_filename, predictions_filename in parse_files:
+            output_csv = narrowIE_parser.output_csv_path + input_filename.rsplit('.', maxsplit=1)[0] + output_suffix
+            narrowIE_parser.start(input_filename, predictions_filename, output_csv)
+            csv_files.append(narrowIE_parser.output_csv_path)
+
+        combined_name = narrowIE_parser.output_csv_path + prefix + output_suffix
+        combined_csv = pd.concat([pd.read_csv(f) for f in csv_files])
+        combined_csv.to_csv(combined_name, index=False, encoding='utf-8')
 
     if runOIE:
         ### Run Open IE
         # Need to define own path_to_OIE_jar after building OpenIE5
-        path_to_OIE_jar = "/Users/rubenkruiper/dev/OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar"
         run_OIE5.run_OpenIE_5(narrowIE_parser.output_csv, path_to_OIE_jar)
 
     if filter:
         # Compute IDF weights (and sentencepiece model and vocab if required)
         # settings for preparing
-        sp_size = 16000
-        SUBWORDUNIT = True
-        STEMMING = False
-        STOPWORDS = True
-        prefix = 'test_JEB'
-
         prepper = FilterPrep()
         IDF_weights_path = prepper.determine_output_name(prefix, SUBWORDUNIT, STEMMING, STOPWORDS)
         prepper.start(prefix, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
 
-
         # Filter!
-        # settings for preparing
-        oie_data_dir = 'SORE/data/OpenIE/processed/'
-        sore_output_dir = 'SORE/data/processed_data/'
-        sp_size = 200
-        number_of_clusters = 3
-        SUBWORD_UNIT_COMBINATION = "avg"
-        print_stats = True
-        filter_settings = {
-            'oie_cutoff': .7,                       # minimum OpenIE confidence value
-            'sim_type': 'cos',                      # use cosine/euclidean distance
-            'sim_threshold': .85,                   # minimum similarity value
-            'token_length_threshold': 25,           # max length of arg in number of tokens
-            'idf_threshold': 2.,                    # minimum idf weight for a phrase
-        }
-
         my_SORE_filter = SORE_filter(narrowIE_parser.output_csv, sore_output_dir)
         my_SORE_filter.start(prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, oie_data_dir, sp_size,
                              number_of_clusters, STEMMING, STOPWORDS, SUBWORD_UNIT_COMBINATION, print_stats)
 
 
 if __name__ == "__main__":
-    main(prep=True,
-         parse_narrow=False,
-         runOIE=False,
-         filter=False)
+    with open("SORE/SORE_settings.json") as f:
+        all_settings = json.load(f)
+
+    main(all_settings)
 

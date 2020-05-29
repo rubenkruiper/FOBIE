@@ -1,0 +1,31 @@
+{
+  "Prepare_data": false,
+  "Parse_narrowIE_predictions": true,
+  "Run_OIE": false,
+  "Filter_OIE": false,
+  "narrowIE" : {
+    "RELATIONS_TO_STORE": "TRADEOFFS_AND_ARGMODS",
+    "narrowIE_input_files": ["",
+                             ""]
+  },
+  "OpenIE": {
+    "path_to_OIE_jar": "/Users/rubenkruiper/dev/OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar"
+  },
+  "Filtering": {
+    "prefix": "TestRun",
+    "sp_size": 16000,
+    "SUBWORDUNIT": true,
+    "SUBWORD_UNIT_COMBINATION": "avg",
+    "STEMMING": false,
+    "STOPWORDS": false,
+    "number_of_clusters": 10,
+    "print_stats": true,
+    "filter_settings": {
+          "oie_cutoff": 0.7,
+          "sim_type": "cos",
+          "sim_threshold": 0.85,
+          "token_length_threshold": 25,
+          "idf_threshold": 2.0
+    }
+  }
+}

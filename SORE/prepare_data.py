@@ -64,8 +64,8 @@ def convert_documents(input_files, output_folder_OIE, output_folder_narrowIE):
                 else:
                     sections.append(section.lower())
 
-            # drop documents that have only one or two sections:
-            if len(sections) < 3:
+            # drop documents that have only one or no sections:
+            if len(sections) < 2:
                 print("Dropped document {}, because it only contains the sections: {}".format(doc_id, sections))
                 continue
             else:
