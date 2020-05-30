@@ -3,7 +3,7 @@ Semi-Open Relation Extraction
 
 Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntactically similar relations from scientific biological texts.
 
-**Code for Semi-Open Relation Extraction will be added soon.**
+Instructions for using the Semi-Open Relation Extraction (SORE) code be found inside the SORE folder Readme.md
 
 ### Format
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:
@@ -84,7 +84,21 @@ Also see _dataset_statistics.py_ under the scripts folder.
 | <sub>Avg. tokens per keyphrase</sub>    | |       |       |<sub>3.46 </sub>     |   
 
 
-If you use the FOBIE dataset in your research, please cite the following paper:
+If you use the FOBIE dataset or SORE code in your research, please consider citing the following papers:
+```
+@inproceedings{Kruiper2020_SORE,
+  author =      "Kruiper, Ruben
+                and Vincent, Julian F V
+                and Chen-Burger, Jessica
+                and Desmulliez, Marc P Y
+                and Konstas, Ioannis",
+  title =       "In Layman's Terms: Semi-Open Relation Extraction from Scientific Texts"
+  year =        "2020",
+  url =         "https://arxiv.org/pdf/2005.07751.pdf",
+  arxivId =     "2005.07751"
+}
+```
+
 ```
 @inproceedings{Kruiper2020_FOBIE,
   author =      "Kruiper, Ruben
@@ -98,11 +112,9 @@ If you use the FOBIE dataset in your research, please cite the following paper:
   keywords =    "Biomimetics,Relation Extraction,Scientific Information Extraction,Trade-Offs",
   pages =       "2078--2085",
   url =         "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.255.pdf",
-  arxivId =     "2005.07753v1"
+  arxivId =     "2005.07753"
 }
 ```
 
-
-
-The FOBIE dataset along with scripts in this repository are licensed under a Creative Commons Attribution 4.0 License.
+The FOBIE dataset along with SORE code in this repository are licensed under a Creative Commons Attribution 4.0 License.
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" width="134" height="47">
