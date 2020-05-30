@@ -11,9 +11,10 @@ def write_dicts_to_files(num_docs, dict_with_various_docs,
     """
     Writes the files for OIE and NarrowIE
     """
-
+    # OIE
     convert_to_OIE.write_sentences_to_txt_file(dict_with_various_docs, output_folder_OIE)
 
+    # NarrowIE
     if index < num_docs-1:
         narrowIE_output_name = input_doc.rsplit('/', maxsplit=1)[1]
     else:

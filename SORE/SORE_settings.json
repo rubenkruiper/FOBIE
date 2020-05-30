@@ -1,15 +1,15 @@
 {
-  "Prepare_data": false,
+  "Prepare_data": true,
   "Parse_narrowIE_predictions": true,
-  "Run_OIE": false,
+  "Run_OIE": true,
   "Filter_OIE": true,
   "data_prep": {
     "max_num_docs_narrowIE" : 200
   },
   "narrowIE" : {
     "RELATIONS_TO_STORE": "TRADEOFFS_AND_ARGMODS",
-    "narrowIE_input_files": ["BMC_6884#1-400_narrowIE_input.json",
-                             "BMC_6884#1200-1600_narrowIE_input.json"]
+    "narrowIE_input_files": ["predictions_example_input.json",
+                             "predictions_example_input.json"]
   },
   "OpenIE": {
     "path_to_OIE_jar": "/Users/rubenkruiper/dev/OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar"
@@ -24,11 +24,11 @@
     "number_of_clusters": 4,
     "print_stats": true,
     "filter_settings": {
-          "oie_cutoff": 0.6,
+          "oie_cutoff": 0.65,
           "sim_type": "cos",
-          "sim_threshold": 0.65,
+          "sim_threshold": 0.6,
           "token_length_threshold": 25,
-          "idf_threshold": 2.0
+          "idf_threshold": 1.2
     }
   }
 }
