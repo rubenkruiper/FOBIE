@@ -18,7 +18,7 @@ sys.path.append(os.getcwd())
 # print tf.__version__
 
 
-class EmbedAndPredict():
+class Embedder():
     def __init__(self):
         #### Embedding Model #####
         set_gpus(0)
@@ -75,8 +75,18 @@ class EmbedAndPredict():
                 fout.close
 
 
+class Predictor():
+    def __init__(self, input_json, input_hdf5, output_path):
+        # Override config
+        # lm_path_dev = "./data/processed_data/elmo/FILE_TO_RUN.hdf5"
+        # eval_path = "./data/processed_data/json/FILE_TO_RUN.json"
+        # output_path = "./FOBIE_output/FILE_TO_RUN.json"
+        self.input_json = input_json
+        self.input_hdf5 = input_hdf5
+        self.output_path = output_path
 
-    def write_single(self, input_json, input_hdf5):
+
+    def write_single(self):
 
         if len(sys.argv) > 1:
             name = sys.argv[1]
@@ -91,16 +101,9 @@ class EmbedAndPredict():
         config["batch_size"] = -1
         config["max_tokens_per_batch"] = -1
 
-        # Override config
-        # lm_path_dev = "./data/processed_data/elmo/FILE_TO_RUN.hdf5"
-        # eval_path = "./data/processed_data/json/FILE_TO_RUN.json"
-        # output_path = "./FOBIE_output/FILE_TO_RUN.json"
-        file_name = input_json.rsplit('/', 1)[1][:-5]
-        output_path = "./FOBIE_output/predictions_{}.json".format(file_name)
-        config["lm_path"] = input_hdf5
-        config["eval_path"] = input_json
-        config["output_path"] = output_path
-
+        config["lm_path"] = self.input_hdf5
+        config["eval_path"] = self.input_json
+        config["output_path"] = self.output_path
 
         util.print_config(config)
         data = LSGNData(config)
@@ -122,6 +125,7 @@ class EmbedAndPredict():
             tf.global_variables_initializer().run()
             saver.restore(session, checkpoint_path)
             evaluator.evaluate(session, data, model.predictions, model.loss)
+            session.close()
 
         return output_path
 
@@ -141,20 +145,21 @@ for file_path in paths_to_files:
 
 # run for each selected input file
 for file_name in files_to_process:
+    print("Working on {}".format(file_name))
     input_json = './data/processed_data/json/{}.json'.format(file_name)
     input_hdf5 = './data/processed_data/elmo/{}.hdf5'.format(file_name)
-
-    embedder_predictor = EmbedAndPredict()
+    output_path = "./FOBIE_output/predictions_{}.json".format(file_name)
 
     # if embeddings don't exist, generate
     if os.path.exists(input_hdf5) == False:
-        embedder_predictor.Elmo(input_json, input_hdf5)
+        embedder = Embedder()
+        embedder.Elmo(input_json, input_hdf5)
 
-    # predict
-    output_path = embedder_predictor.write_single(input_json, input_hdf5)
-
-    # remove embeddings again
     if os.path.exists(output_path):
+        predictor = Predictor(input_json, input_hdf5, output_path)
+        # predict
+        output_path = predictor.write_single()
+        # remove embeddings again
         print("Could have removed {}".format(input_hdf5))
         # print("Removing the embeddings, since they get very big.")
         # os.remove(input_hdf5)
