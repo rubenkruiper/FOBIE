@@ -2,7 +2,7 @@
 
 # ignore specific folders of this project:
 SORE/data/processed_data/*
-SORE/data/unprocessed_data/*
+SORE/data/unprocessed_data/processed/*
 SORE/data/narrowIE/input/*
 SORE/data/narrowIE/predictions/*
 SORE/data/filter_data/elmo_pubmed/*
@@ -12,7 +12,7 @@ SORE/data/OpenIE/processed/*
 
 # do not ignore the folder structure
 !SORE/data/processed_data/.gitkeep
-!SORE/data/unprocessed_data/.gitkeep
+!SORE/data/unprocessed_data/processed/.gitkeep
 !SORE/data/narrowIE/input/.gitkeep
 !SORE/data/narrowIE/predictions/.gitkeep
 !SORE/data/filter_data/elmo_pubmed/.gitkeep
