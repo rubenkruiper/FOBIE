@@ -1,5 +1,5 @@
 *.pyc
-  
+
 # ignore specific folders of this project:
 SORE/data/processed_data/*
 SORE/data/unprocessed_data/*
@@ -9,6 +9,16 @@ SORE/data/filter_data/elmo_pubmed/*
 SORE/data/filter_data/vectors/*
 SORE/data/OpenIE/inputs/*
 SORE/data/OpenIE/processed/*
+
+# do not ignore the folder structure
+!SORE/data/processed_data/.gitkeep
+!SORE/data/unprocessed_data/.gitkeep
+!SORE/data/narrowIE/input/.gitkeep
+!SORE/data/narrowIE/predictions/.gitkeep
+!SORE/data/filter_data/elmo_pubmed/.gitkeep
+!SORE/data/filter_data/vectors/.gitkeep
+!SORE/data/OpenIE/inputs/.gitkeep
+!SORE/data/OpenIE/processed/.gitkeep
 
 # ignore .idea config files
 .idea/
