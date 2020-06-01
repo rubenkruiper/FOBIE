@@ -1,14 +1,14 @@
 *.pyc
   
 # ignore specific folders of this project:
-SORE/data/processed_data/
-SORE/data/unprocessed_data/
-SORE/data/narrowIE/input/
-SORE/data/narrowIE/predictions/
-SORE/data/filter_data/elmo_pubmed/
-SORE/data/filter_data/vectors/
-SORE/data/OpenIE/inputs/
-SORE/data/OpenIE/processed/
+SORE/data/processed_data/*
+SORE/data/unprocessed_data/*
+SORE/data/narrowIE/input/*
+SORE/data/narrowIE/predictions/*
+SORE/data/filter_data/elmo_pubmed/*
+SORE/data/filter_data/vectors/*
+SORE/data/OpenIE/inputs/*
+SORE/data/OpenIE/processed/*
 
 # ignore .idea config files
 .idea/
