@@ -13,6 +13,7 @@ from lsgn_data import LSGNData
 from lsgn_evaluator_writer import LSGNEvaluator
 from srl_model import SRLModel
 
+import imp
 
 sys.path.append(os.getcwd())
 # print tf.__version__
@@ -20,6 +21,9 @@ sys.path.append(os.getcwd())
 
 class Embedder():
     def __init__(self):
+        ##### Reset tensorflow variables
+        # imp.reload(tf)
+        tf.reset_default_graph()
         #### Embedding Model #####
         set_gpus(0)
         self.elmo = hub.Module("https://tfhub.dev/google/elmo/1", trainable=True)
@@ -77,6 +81,9 @@ class Embedder():
 
 class Predictor():
     def __init__(self, input_json, input_hdf5, output_path):
+        ##### Reset tensorflow variables
+        # imp.reload(tf)
+        tf.reset_default_graph()
         # Override config
         # lm_path_dev = "./data/processed_data/elmo/FILE_TO_RUN.hdf5"
         # eval_path = "./data/processed_data/json/FILE_TO_RUN.json"
@@ -127,8 +134,6 @@ class Predictor():
             evaluator.evaluate(session, data, model.predictions, model.loss)
             session.close()
 
-        return output_path
-
 
 ######## code to check which files to run over #######################
 paths_to_files = glob.glob('./data/processed_data/json/*.json')
@@ -155,10 +160,12 @@ for file_name in files_to_process:
         embedder = Embedder()
         embedder.Elmo(input_json, input_hdf5)
 
-    if os.path.exists(output_path):
-        predictor = Predictor(input_json, input_hdf5, output_path)
+    if os.path.exists(output_path) == False:
         # predict
-        output_path = predictor.write_single()
+        predictor = Predictor(input_json, input_hdf5, output_path)
+        predictor.write_single()
+
+    if os.path.exists(output_path):
         # remove embeddings again
         print("Could have removed {}".format(input_hdf5))
         # print("Removing the embeddings, since they get very big.")
