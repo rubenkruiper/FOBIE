@@ -149,7 +149,7 @@ class PrepIDFWeights():
         return test_Y
 
 
-    def compute_IDF_weights(self, sp_size, sp_storage_dir):
+    def compute_IDF_weights(self, input_file_prefixes, sp_size, sp_storage_dir):
         """
         :param sp_size: the vocab size of
         """
@@ -166,7 +166,11 @@ class PrepIDFWeights():
                 self.sp.Load(sp_model_name)
 
         corpus_list = []
-        input_files = glob.glob(self.input_file_dir + '*.txt')
+        input_files = []
+
+        for input_file_name_prefix in input_file_prefixes:
+            input_files += glob.glob(self.input_file_dir + input_file_name_prefix + '*.txt')
+
         if len(input_files) > 1:
             total = len(input_files)
             for idx, input_file in enumerate(input_files):

@@ -78,18 +78,21 @@ class NarrowIEOpenIECombiner(object):
                                                        stem=str(self.stemming),
                                                        stop=str(self.stopwords))
 
-        if not os.path.exists(self.filter_data_path + "vectors/vectors_{settings}.pkl".format(settings=settings)):
+
+        embedder = fu.PrepareEmbeddings(prefix, sp_model_path,
+                                        self.sp_size,
+                                        self.IDF_path,
+                                        self.csv_path,
+                                        self.ELMo_options_path,
+                                        self.ELMo_weights_path,
+                                        SUBWORD_UNIT_COMBINATION=self.SUBWORD_UNIT_COMBINATION,
+                                        subwordunits=self.subwordunit,
+                                        stemming=self.stemming,
+                                        stopwords=self.stopwords)
+
+        # Check if the embeddings have already been pre-computed sometime before; re-use if they exist
+        if not os.path.exists(self.filter_data_path + "vectors/nIE_phrases_{settings}.pkl".format(settings=settings)):
             try:
-                embedder = fu.PrepareEmbeddings(prefix, sp_model_path,
-                                                self.sp_size,
-                                                self.IDF_path,
-                                                self.csv_path,
-                                                self.ELMo_options_path,
-                                                self.ELMo_weights_path,
-                                                SUBWORD_UNIT_COMBINATION=self.SUBWORD_UNIT_COMBINATION,
-                                                subwordunits=self.subwordunit,
-                                                stemming=self.stemming,
-                                                stopwords=self.stopwords)
                 narrowIE_data = embedder.load_narrowIE_data()
                 narrowIE_embeddings = embedder.embed_all_narrowIE_phrases(narrowIE_data)
             except TypeError:
@@ -156,7 +159,7 @@ class NarrowIEOpenIECombiner(object):
                                  self.subwordunit, sp_model_path,
                                  self.ELMo_weights_path, self.ELMo_options_path, filter_settings)
 
-        filterer.start_filtering(output_dir, prefix, narrowIE_phrases, narrowIE_embeddings,
+        filterer.start_filtering(output_dir, prefix, self.number_of_clusters, narrowIE_phrases, narrowIE_embeddings,
                                  embedder, km_model, print_stats)
 
         ## To gain some insight into the created clusters:

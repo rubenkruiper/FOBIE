@@ -1,6 +1,6 @@
 import glob, json, os
 import pandas as pd
-from SORE import prepare_data, run_OIE5, parse_narrowIE_output, filterOIE_with_narrowIE
+from SORE import prepare_data, run_OIE5, parse_narrowIE_output, filterOIE_with_narrowIE, SORE_to_BRAT
 from SORE.my_utils import IDF_weight_utils
 
 
@@ -41,7 +41,6 @@ class NarrowIEParser():
         parse_narrowIE_output.start_parsing(self.narrowIE_data + input_filename,
                                             self.narrowIE_predictions + predictions_filename,
                                             output_csv, self.relations_to_store)
-        return output_csv
 
 
 class FilterPrep():
@@ -77,6 +76,7 @@ class FilterPrep():
 
     def start(self,
               prefix='test',
+              file_names="OA-STM",
               sp_size="8k",
               SUBWORDUNIT=True,
               STEMMING=False,
@@ -86,7 +86,8 @@ class FilterPrep():
         :param sp_size: string that determines the size of the sentencepiece vocabulary
         """
         if self.input_file_dir == 'SORE/data/OpenIE/inputs/':
-            print("Will compute IDF weights and subword info for all document in the folder `SORE/data/OpenIE/inputs/`")
+            print("Compute IDF weights (and subword model) for all documents in the folder `SORE/data/OpenIE/inputs/`",
+                  " that starts with either {}".format(str(file_names)))
             answer = input("Continue? (y, n): ").lower()
             if answer == 'y':
                 pass
@@ -95,7 +96,7 @@ class FilterPrep():
 
         IDF_computer = IDF_weight_utils.PrepIDFWeights(prefix, self.input_file_dir, self.output_dir,
                                                                         SUBWORDUNIT, STEMMING, STOPWORDS)
-        IDF_computer.compute_IDF_weights(sp_size, self.output_dir)
+        IDF_computer.compute_IDF_weights(file_names, sp_size, self.output_dir)
 
 
 class SORE_filter():
@@ -138,6 +139,7 @@ class SORE_filter():
 def main(all_settings):
     oie_data_dir = 'SORE/data/OpenIE/processed/'
     sore_output_dir = 'SORE/data/processed_data/'
+    brat_output_dir = 'SORE/data/brat_annotations/'
 
     prep = all_settings['Prepare_data']
     parse_narrow = all_settings['Parse_narrowIE_predictions']
@@ -157,10 +159,13 @@ def main(all_settings):
     STEMMING = all_settings['Filtering']['STEMMING']
     STOPWORDS = all_settings['Filtering']['STOPWORDS']
     prefix = all_settings['Filtering']['prefix']
+    file_names = all_settings['Filtering']['file_names']
     number_of_clusters = all_settings['Filtering']['number_of_clusters']
     SUBWORD_UNIT_COMBINATION = all_settings['Filtering']['SUBWORD_UNIT_COMBINATION']
     print_stats = all_settings['Filtering']['print_stats']
     filter_settings = all_settings['Filtering']['filter_settings']
+
+    convert_back_to_BRAT = all_settings['convert_back_to_BRAT']
 
     if prep:
         ### Prepare data for OpenIE and narrow IE
@@ -172,7 +177,7 @@ def main(all_settings):
     suffix_options = ['ALL', 'TRADEOFFS', 'TRADEOFFS_AND_ARGMODS']
     suffixes = ["_all_arguments.csv", "_tradeoffs.csv", "_tradeoffs_and_argmods.csv"]
     output_suffix = suffixes[suffix_options.index(RELATIONS_TO_STORE)]
-    narrowIE_parser = NarrowIEParser()
+    narrowIE_parser = NarrowIEParser(RELATIONS_TO_STORE=RELATIONS_TO_STORE)
     combined_name = narrowIE_parser.output_csv_path + prefix + output_suffix
 
     if parse_narrow:
@@ -187,6 +192,10 @@ def main(all_settings):
 
         combined_csv = pd.concat([pd.read_csv(f, engine='python') for f in csv_files])
         combined_csv.to_csv(combined_name, index=False, encoding='utf-8')
+        print("Written all predictions to {}.".format(combined_name))
+
+        for file_to_remove in csv_files:
+            os.remove(file_to_remove)
 
     if runOIE:
         ### Run Open IE
@@ -194,20 +203,26 @@ def main(all_settings):
         # Need to define own path_to_OIE_jar after building OpenIE5
         run_OIE5.run_OpenIE_5(combined_name, path_to_OIE_jar)
 
+    prepper = FilterPrep()
+    my_SORE_filter = SORE_filter(combined_name, sore_output_dir)
     if filter:
         # Compute IDF weights (and sentencepiece model and vocab if required)
         # settings for preparing
-        prepper = FilterPrep()
+
         IDF_weights_path = prepper.determine_output_name(prefix, SUBWORDUNIT, STEMMING, STOPWORDS)
         if os.path.exists(IDF_weights_path):
             print("Assuming IDF weights and sentencepiece model exist, since path exists: {} ".format(IDF_weights_path))
         else:
-            prepper.start(prefix, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
+            prepper.start(prefix, file_names, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
 
         # Filter!
-        my_SORE_filter = SORE_filter(combined_name, sore_output_dir)
         my_SORE_filter.start(prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, oie_data_dir, sp_size,
                              number_of_clusters, STEMMING, STOPWORDS, SUBWORD_UNIT_COMBINATION, print_stats)
+
+    if convert_back_to_BRAT:
+        dataset_paths = ['SORE/data/unprocessed_data/processed/' + d for d in narrowIE_input_files]
+        converter = SORE_to_BRAT.BratConverter(dataset_paths, combined_name, sore_output_dir, brat_output_dir)
+        converter.convert_to_BRAT(prefix)
 
 
 if __name__ == "__main__":

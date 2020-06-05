@@ -9,6 +9,7 @@ SORE/data/filter_data/elmo_pubmed/*
 SORE/data/filter_data/vectors/*
 SORE/data/OpenIE/inputs/*
 SORE/data/OpenIE/processed/*
+SORE/data/brat_annotations/*
 
 # do not ignore the folder structure
 !SORE/data/processed_data/.gitkeep
@@ -19,6 +20,10 @@ SORE/data/OpenIE/processed/*
 !SORE/data/filter_data/vectors/.gitkeep
 !SORE/data/OpenIE/inputs/.gitkeep
 !SORE/data/OpenIE/processed/.gitkeep
+!SORE/data/brat_annotations/annotation.conf
+!SORE/data/brat_annotations/visual.conf
+!SORE/data/brat_annotations/kb_shortcuts.conf
+!SORE/data/brat_annotations/tools.conf
 
 # ignore .idea config files
 .idea/

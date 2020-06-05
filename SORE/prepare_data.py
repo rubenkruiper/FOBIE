@@ -63,7 +63,7 @@ def convert_documents(max_num_docs_narrowIE, input_files, output_folder_OIE, out
                 if section.lower() == 'references':
                     pass
                 else:
-                    sections.append(section.lower())
+                    sections.append(section)
 
             # drop documents that have only one or no sections:
             if len(sections) < 2:

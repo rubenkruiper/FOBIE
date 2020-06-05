@@ -15,7 +15,6 @@ def convert_spans_to_tokenlist(predicted_spans, corresponding_data):
     # [spans] = predicted_spans['ner']   # NER spans and RE spans do not match up!
     [relations] = predicted_spans['relation']
 
-    all_arguments = []
     all_rel_arguments = []
     tradeoff_arguments = []
     modified_tradeoff_arguments = []
@@ -44,11 +43,11 @@ def convert_spans_to_tokenlist(predicted_spans, corresponding_data):
                 modified_tradeoff_arguments.append(arg_2 +  arg_1)
 
             if arg_1 in all_rel_arguments:
-                all_arguments.append(arg_1 + arg_2)
+                all_rel_arguments.append(arg_2)
             elif arg_2 in all_rel_arguments:
-                all_arguments.append(arg_2 + arg_1)
+                all_rel_arguments.append(arg_1)
 
-    return all_arguments, tradeoff_arguments, modified_tradeoff_arguments, rel_c
+    return all_rel_arguments, tradeoff_arguments, modified_tradeoff_arguments, rel_c
 
 
 def simple_tokens_to_string(tokenlist):
@@ -83,12 +82,14 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
                 data_dicts.append(json.loads(line))
 
     lines_to_write = []
+    all_relations_counter = Counter()
 
     for preds_for_sent, sent in zip(predicted_dicts, data_dicts):
         rel_args_for_sent = []
         if preds_for_sent['relation'] != [[]]:
 
-            modified_args, to_args, modified_to_args, rel_counter = convert_spans_to_tokenlist(preds_for_sent, sent)
+            all_modifies_args, to_args, modified_to_args, rel_counter = convert_spans_to_tokenlist(preds_for_sent, sent)
+            all_relations_counter += rel_counter
 
             doc_id, sent_id = preds_for_sent['doc_key'].rsplit('_', maxsplit=1)
             doc_id = doc_id.replace('.','_')
@@ -96,7 +97,7 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
 
             if RELATIONS_TO_STORE == "ALL":
                 relation_types = 'All'
-                argument_list = [simple_tokens_to_string(arg) for arg in modified_args]
+                argument_list = [simple_tokens_to_string(arg) for arg in all_modifies_args]
             if RELATIONS_TO_STORE == "TRADEOFFS":
                 relation_types = 'TradeOffs'
                 argument_list = [simple_tokens_to_string(arg) for arg in to_args]
@@ -109,6 +110,8 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
 
         if rel_args_for_sent != []:
             lines_to_write.append(rel_args_for_sent)
+
+    print("Relations found: ", rel_counter.most_common())
 
     return lines_to_write
 

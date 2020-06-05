@@ -1,3 +1,8 @@
+To test SORE this repository contains ~110 papers, which are copied from the 
+[OA-STM corpus](https://github.com/elsevierlabs/OA-STM-Corpus).
+These papers are sourced from 10 different scientific domains: Agriculture, Astronomy, Biology,
+Chemistry, Computer Science, Earth Science, Engineering, Materials Science, Mathematics and Medicine.  
+
 ----
 ### Train and use SciIE
 Clone the SciIE code from [this bitbucket repository](https://bitbucket.org/luanyi/scierc/src/master/), 
@@ -91,5 +96,11 @@ You can run the code for SORE from the FOBIE repository:
   note that you'll have to move predictions made with SciIE here (from the `[SciIE_folder]/FOBIE_output/` folder).
   * Run_OIE: Yes/No - run OpenIE 5 on each of the files for which SciIE has found relations.
   * Filter_OIE: Yes/No - filter the OpenIE 5 extractions using the predicted relations stored in the narrowIE output csv file.
+  * convert_back_to_BRAT: Yes/No - convert the SORE extractions to a BRAT annotations format, 
+  this enables you to visualise the resulting extractions in [BRAT](https://brat.nlplab.org/index.html).
  
+Note that FOBIE focuses on tradeoffs and other types of correlations in the Biology domain. Non-tradeoff relations 
+can be used to filter OpenIE extractions in distinct domains, but whether the arguments used for filtering are useful
+ can vary. 
+----
  If you have any questions, please let me know!
