@@ -102,5 +102,6 @@ You can run the code for SORE from the FOBIE repository:
 Note that FOBIE focuses on tradeoffs and other types of correlations in the Biology domain. Non-tradeoff relations 
 can be used to filter OpenIE extractions in distinct domains, but whether the arguments used for filtering are useful
  can vary. 
+ 
 ----
  If you have any questions, please let me know!
