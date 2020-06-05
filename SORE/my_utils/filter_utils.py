@@ -625,33 +625,36 @@ class SoreFilter():
                 possible_SORE_dict = {doc_id: {'narrowIE_args': narrowIE_phrases[doc_id]}}
                 total_triples = 0
 
-                for sent_id, extractions_dict_list in OIE_doc_dict[doc_id].items():
+                for sent_id, extractions_dict_list in OIE_doc_dict.items():
                     possible_sent_dict = {sent_id: [extractions_dict_list.pop(0)]}
                     found_triple = False
 
                     for extraction in extractions_dict_list:
-                        args_and_tokenlengths = extraction['args']
-                        args = [a for (a,l) in args_and_tokenlengths if l < self.token_length_threshold]
+                        if float(extraction['conf'][:5]) > self.oie_cutoff:
+                            args_and_tokenlengths = extraction['args']
+                            args = [a for (a,l) in args_and_tokenlengths if l < self.token_length_threshold]
 
-                        OIE_embeddings = embedder.preprocess_and_embed_phrase_list(args)
-                        OIE_clusters = self.get_clusters_for_arguments(cluster_model, OIE_embeddings)
+                            OIE_embeddings = embedder.preprocess_and_embed_phrase_list(args)
+                            OIE_clusters = self.get_clusters_for_arguments(cluster_model, OIE_embeddings)
 
-                        for idx, arg in enumerate(args):
-                            if arg in args_already_seen:
-                                continue
-                            else:
-                                args_already_seen.append(arg)
-                            # Do not consider phrases outside the clusters found in that document through narrow IE
-                            if OIE_clusters[idx] in narrowIE_clusters:
-                                sim = self.phrase_similarity(narrowIE_embeddings[doc_id], OIE_embeddings[idx])
-                                if sim > self.sim_threshold:
-                                    # triple should be added!
-                                    match = {'extraction': extraction,
-                                              'cluster_match': OIE_clusters[idx],
-                                              'similarity_value': float(sim)}
-                                    possible_sent_dict[sent_id].append(match)
-                                    found_triple = True
-                                    total_triples += 1
+                            for idx, arg in enumerate(args):
+                                if arg in args_already_seen:
+                                    continue
+                                else:
+                                    args_already_seen.append(arg)
+                                # Do not consider phrases outside the clusters found in that document through narrow IE
+                                if OIE_clusters[idx] in narrowIE_clusters:
+                                    sim = self.phrase_similarity(narrowIE_embeddings[doc_id], OIE_embeddings[idx])
+                                    if sim > self.sim_threshold:
+                                        # triple should be added!
+                                        match = {'extraction': extraction,
+                                                  'cluster_match': OIE_clusters[idx],
+                                                  'similarity_value': float(sim)}
+                                        possible_sent_dict[sent_id].append(match)
+                                        found_triple = True
+                                        total_triples += 1
+                                        # skip next args for the same relation, because the triple is already being added
+                                        break
                     if found_triple:
                         possible_SORE_dict[doc_id].update(possible_sent_dict)
 
