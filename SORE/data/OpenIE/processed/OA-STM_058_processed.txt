@@ -1,0 +1,888 @@
+[LINE#1]Most previous studies on soil microbial communities have been focused on species abundance and diversity, but not the interactions among species.
+0.938	[*A*]Most previous studies on soil microbial communities[*R*]have been focused[*A*]on species abundance and diversity	context()	negated: False ,passive: True
+[LINE#2] In present study, the Molecular Ecological Network Analysis tool was used to study the interactions and network organizations of fungal communities in yield-invigorating (healthy)and -debilitating (diseased) soils induced by prolonged potato monoculture, based on the relative abundances of internal transcribed spacer sequences derived using pyrosequencing.
+0.962	[*A*]the Molecular Ecological Network Analysis tool[*R*]to study[*A*]the network organizations of fungal communities in yield - debilitating ( diseased ) soils	context()	negated: False ,passive: False
+0.982	[*A*]the Molecular Ecological Network Analysis tool[*R*]was used[*A*]to study the network organizations of fungal communities in yield - debilitating ( diseased ) soils[*A*]In present study	context()	negated: False ,passive: True
+0.938	[*A*]yield - debilitating ( diseased ) soils[*R*]induced[*A*]by prolonged potato monoculture	context()	negated: False ,passive: True
+0.962	[*A*]the Molecular Ecological Network Analysis tool[*R*]to study[*A*]the interactions of fungal communities in yield - debilitating ( diseased ) soils	context()	negated: False ,passive: False
+0.982	[*A*]the Molecular Ecological Network Analysis tool[*R*]was used[*A*]to study the interactions of fungal communities in yield - debilitating ( diseased ) soils[*A*]In present study	context()	negated: False ,passive: True
+0.962	[*A*]the Molecular Ecological Network Analysis tool[*R*]to study[*A*]the network organizations of fungal communities in yield - invigorating ( healthy ) soils	context()	negated: False ,passive: False
+0.982	[*A*]the Molecular Ecological Network Analysis tool[*R*]was used[*A*]to study the network organizations of fungal communities in yield - invigorating ( healthy ) soils[*A*]In present study	context()	negated: False ,passive: True
+0.897	[*A*]prolonged potato monoculture[*R*]based[*A*]on the relative abundances of internal transcribed spacer sequences	context()	negated: False ,passive: True
+0.938	[*A*]yield - invigorating ( healthy ) soils[*R*]induced[*A*]by prolonged potato monoculture	context()	negated: False ,passive: True
+0.962	[*A*]the Molecular Ecological Network Analysis tool[*R*]to study[*A*]the interactions of fungal communities in yield - invigorating ( healthy ) soils	context()	negated: False ,passive: False
+0.769	[*A*]internal transcribed spacer sequences[*R*]derived	context()	negated: False ,passive: False
+0.982	[*A*]the Molecular Ecological Network Analysis tool[*R*]was used[*A*]to study the interactions of fungal communities in yield - invigorating ( healthy ) soils[*A*]In present study	context()	negated: False ,passive: True
+[LINE#3]An emphasis was placed on the differences between the healthy and diseased networks.
+0.903	[*A*]An emphasis[*R*]was placed[*A*]on the differences between the healthy and diseased networks	context()	negated: False ,passive: True
+[LINE#4]The constructed healthy and diseased networks both showed scale-free, small world and modular properties.
+0.905	[*A*]The constructed diseased networks[*R*]showed[*A*]scale - free , small modular properties	context()	negated: False ,passive: False
+0.905	[*A*]The constructed diseased networks[*R*]showed[*A*]scale - free , small world	context()	negated: False ,passive: False
+0.926	[*A*]The constructed healthy networks both[*R*]showed[*A*]scale - free , small modular properties	context()	negated: False ,passive: False
+0.926	[*A*]The constructed healthy networks both[*R*]showed[*A*]scale - free , small world	context()	negated: False ,passive: False
+[LINE#5]The key topological properties and phylogenetic composition of the two networks were similar.
+0.829	[*A*]phylogenetic composition of the two networks[*R*]were[*A*]similar	context()	negated: False ,passive: True
+0.799	[*A*]The key topological properties[*R*]were[*A*]similar	context()	negated: False ,passive: True
+[LINE#6] However, major differences included: a) the healthy network had more number of functionally interrelated operational taxonomic units (OTUs) than the diseased one; b) healthy network contained 6 (4%) generalist OTUs whereas the diseased contained only 1 (0.6%) marginal generalist OTU; andc) majority (55%) of OTUs in healthy soils were stimulated by a certain set of soil variables but the majorities (63%) in diseased soils were inhibited.
+0.866	[*A*]the majorities ( 63 % ) in diseased soils[*R*]were[*A*]inhibited	context()	negated: False ,passive: True
+0.955	[*A*]the healthy network[*R*]had[*A*]more number of functionally interrelated operational taxonomic units ( OTUs ) than the diseased one	context(major differences included healthy network contained)	negated: False ,passive: False
+0.882	[*A*]healthy network[*R*]contained[*A*]6 ( 4 %	context(major differences included)	negated: False ,passive: False
+0.687	[*A*]major differences[*R*]included	context()	negated: False ,passive: False
+0.568	[*A*]the diseased[*R*]contained[*A*]only 1 ( 0.6 %	context()	negated: False ,passive: False
+0.965	[*A*]majority ( 55 % ) of OTUs in healthy soils[*R*]were stimulated[*A*]by a certain set of soil variables	context()	negated: False ,passive: True
+[LINE#7]Based on these data, a conceptual picture was synthesized: a healthy community was a better organized or a better operated community than the diseased one; a healthy soil was a soil with variables that encouraged majority of fungi whereas a diseased soil discouraged.
+0.707	[*A*]a conceptual picture[*R*]was synthesized	context(a healthy community was a healthy soil was)	negated: False ,passive: False
+0.946	[*A*]a healthy community[*R*]was[*A*]a better organized or a better operated community than the diseased one	context(a healthy soil was)	negated: False ,passive: True
+0.916	[*A*]a healthy soil[*R*]was[*A*]a soil with variables	context()	negated: False ,passive: True
+0.751	[*A*]a diseased soil[*R*]discouraged	context()	negated: False ,passive: False
+0.877	[*A*]variables[*R*]encouraged[*A*]majority of fungi	context()	negated: False ,passive: False
+[LINE#8]By comparing the topological roles of different sets of shared OTUs between healthy and diseased networks, it was found that role-shifts prevailed among the network members such as generalists/specialists, significant module memberships and the OTU sets irresponsive to soil variables in one network but responsive in the counterpart network.
+0.868	[*A*]the OTU[*R*]sets to soil[*A*]variables	context(the OTU sets)	negated: False ,passive: False
+0.931	[*A*]the OTU[*R*]sets[*A*]irresponsive to soil variables in one network	context()	negated: False ,passive: False
+[LINE#9]Soil organic matter was the key variable associated with healthy community, whereas ammonium nitrogen (NH4+-N) and Electrical conductivity (EC) were the key variables associated with diseased community.
+0.914	[*A*]Electrical conductivity[*R*]were[*A*]the key variables associated with diseased community	context()	negated: False ,passive: True
+0.963	[*A*]Soil organic matter[*R*]was[*A*]the key variable associated with healthy community[*A*]whereas Electrical conductivity ( EC ) were the key variables	context()	negated: False ,passive: True
+0.911	[*A*]the key variables[*R*]associated[*A*]with diseased community	context()	negated: False ,passive: True
+0.887	[*A*]ammonium nitrogen[*R*]were[*A*]the key variables associated with diseased community	context()	negated: False ,passive: True
+0.911	[*A*]the key variable[*R*]associated[*A*]with healthy community	context()	negated: False ,passive: True
+0.963	[*A*]Soil organic matter[*R*]was[*A*]the key variable associated with healthy community[*A*]whereas ammonium nitrogen ( NH4+ - N ) were the key variables	context()	negated: False ,passive: True
+[LINE#10]Major affected phylogenetic groups were Sordariales and Hypocreales.
+0.949	[*A*]Major affected phylogenetic groups[*R*]were[*A*]Hypocreales	context()	negated: False ,passive: True
+0.949	[*A*]Major affected phylogenetic groups[*R*]were[*A*]Sordariales	context()	negated: False ,passive: True
+0.920	[*A*]Major[*R*]affected[*A*]phylogenetic groups	context()	negated: False ,passive: False
+[LINE#11]By using the network analysis tool, what a yield-invigorating (healthy) or -debilitating (diseased) soil fungal community was, what a healthy or a diseased soil was, how a healthy community became diseased, and what was the major cause(s) for the community shift were conceptualized.
+0.783	[*A*]a healthy community[*R*]became[*A*]diseased	context()	negated: False ,passive: True
+0.800	[*A*]a diseased soil[*R*]was	context()	negated: False ,passive: False
+0.800	[*A*]soil fungal community[*R*]was	context()	negated: False ,passive: False
+[LINE#12]A healthy fungal community was a better organized or a better operated community than the diseased one.
+0.960	[*A*]A healthy fungal community[*R*]was[*A*]a better organized or a better operated community than the diseased one	context()	negated: False ,passive: True
+[LINE#13]A healthy soil was a soil with variables that encouraged majority of fungi whereas a diseased soil discouraged.
+0.751	[*A*]a diseased soil[*R*]discouraged	context()	negated: False ,passive: False
+0.877	[*A*]variables[*R*]encouraged[*A*]majority of fungi	context()	negated: False ,passive: False
+0.932	[*A*]A healthy soil[*R*]was[*A*]a soil with variables[*A*]whereas a diseased soil discouraged	context()	negated: False ,passive: True
+[LINE#14]Soil organic matter was the key variable associated with healthy community, whereas NH4+-N and EC were the key variables associated with diseased community.
+0.855	[*A*]EC[*R*]were[*A*]the key variables associated with diseased community	context()	negated: False ,passive: True
+0.942	[*A*]Soil organic matter[*R*]was[*A*]the key variable associated with healthy community[*A*]whereas EC were the key variables	context()	negated: False ,passive: True
+0.911	[*A*]the key variables[*R*]associated[*A*]with diseased community	context()	negated: False ,passive: True
+0.877	[*A*]NH4+ - N[*R*]were[*A*]the key variables associated with diseased community	context()	negated: False ,passive: True
+0.911	[*A*]the key variable[*R*]associated[*A*]with healthy community	context()	negated: False ,passive: True
+0.942	[*A*]Soil organic matter[*R*]was[*A*]the key variable associated with healthy community[*A*]whereas NH4+ - N were the key variables	context()	negated: False ,passive: True
+[LINE#15]Role-shifts prevailed among the OTUs when the healthy community changed to a diseased one.
+0.911	[*A*]the healthy community[*R*]changed[*A*]to a diseased one	context()	negated: False ,passive: True
+0.925	[*A*]Role-shifts[*R*]prevailed[*A*]among the OTUs	context()	negated: False ,passive: False
+[LINE#16]Major affected phylogenetic groups were Sordariales and Hypocreales.
+0.949	[*A*]Major affected phylogenetic groups[*R*]were[*A*]Hypocreales	context()	negated: False ,passive: True
+0.949	[*A*]Major affected phylogenetic groups[*R*]were[*A*]Sordariales	context()	negated: False ,passive: True
+0.920	[*A*]Major[*R*]affected[*A*]phylogenetic groups	context()	negated: False ,passive: False
+[LINE#17]Synthesized from above results, a conceptual picture appeared on what a healthy or a diseased soil fungal community was, what a healthy or a diseased soil was, how a healthy community became diseased, and what was the major cause(s) leading to the community shift in soils under prolonged potato monoculture.
+0.743	[*A*]a healthy community[*R*]became[*A*]diseased	context(a healthy or a diseased soil was)	negated: False ,passive: True
+0.811	[*A*]a healthy or a diseased soil[*R*]was	context()	negated: False ,passive: False
+[LINE#18] A healthy community could be viewed as a better organized or a better operational community with more functionally interrelated members (92 nodes, accounting for 61% of total nodes) than a diseased community (63 nodes, accounting for 37% of total nodes), as revealed by eigengene network analysis (Fig..
+0.887	[*A*]63 nodes[*R*]accounting[*A*]for 37% of total nodes	context()	negated: False ,passive: False
+0.905	[*A*]more functionally interrelated members[*R*]accounting[*A*]for 61% of total nodes	context()	negated: False ,passive: False
+0.943	[*A*]A healthy community[*R*]could be viewed[*A*]as a better organized or a better operational community with more functionally interrelated members[*A*]as revealed by eigengene network analysis	context()	negated: False ,passive: True
+[LINE#19]Regardless of specific functions, the presence of more interrelated members is good for the overall community.
+0.948	[*A*]the presence of more interrelated members[*R*]is[*A*]good for the overall community	context()	negated: False ,passive: True
+[LINE#20]Analog to a human society, presence of more interrelated individuals in the society means more cooperation and exchange events occur.
+0.707	[*A*]more exchange events[*R*]occur	context(Analog to a human society means)	negated: False ,passive: False
+0.919	[*A*]Analog to a human society[*R*]means[*A*]more exchange events occur	context()	negated: False ,passive: False
+0.699	[*A*]more cooperation events[*R*]occur	context(presence of more interrelated individuals in the society means)	negated: False ,passive: False
+0.928	[*A*]presence of more interrelated individuals in the society[*R*]means[*A*]more cooperation events occur	context()	negated: False ,passive: False
+[LINE#21]Consequently, the society works more efficiently and the society goal is more likely to be achieved.
+0.718	[*A*]the society goal[*R*]to be achieved	context()	negated: False ,passive: False
+0.828	[*A*]the society goal[*R*]is[*A*]more likely to be achieved	context()	negated: False ,passive: True
+0.732	[*A*]the society[*R*]works more efficiently	context()	negated: False ,passive: False
+[LINE#22]In this case, an obvious output can be observed that crop-yield was significantly higher (Fig. S1).
+[LINE#23]Furthermore, only one marginal generalist (0.6%) was present in diseased network, but six generalists (4.0%) were present in healthy network, as revealed by Zi-Pi relationship of each individual OTU (Fig. 3).
+0.938	[*A*]six generalists[*R*]were[*A*]present in healthy network[*A*]as revealed by Zi - Pi relationship of each individual OTU	context()	negated: False ,passive: True
+0.927	[*A*]only one marginal generalist[*R*]was[*A*]present in diseased network	context()	negated: False ,passive: True
+[LINE#24]Generalists typically occupy a small fraction only, for example, 2.5% in soil bacterial networks (Zhou et al., 2011) and 15% in pollination networks (Olesen et al., 2007).
+[LINE#25]The presence of generalists is important.
+0.841	[*A*]The presence of generalists[*R*]is[*A*]important	context()	negated: False ,passive: True
+[LINE#26]Nodes within and/or among modules would be otherwise poorly connected or not connected at all to each other, consequently, the community would be chaotic without ordered structure, and fluxes of energy, material and information inside/through the whole community would not be efficient.
+0.789	[*A*]Nodes within and/or among modules[*R*]otherwise poorly connected	context()	negated: False ,passive: False
+0.818	[*A*]fluxes of energy, material and information[*R*]would not be[*A*]efficient	context()	negated: True ,passive: True
+0.895	[*A*]Nodes within and/or among modules[*R*]would be[*A*]otherwise poorly connected or not connected at all to each other	context()	negated: False ,passive: True
+[LINE#27]Analog to a human society again, presence of individuals who link different members within and/or among different tribes will very likely make the overall society ordered, stable and efficient.
+0.699	[*A*]the overall society[*R*]ordered	context(individuals will make)	negated: False ,passive: False
+0.514	[*A*]individuals[*R*]will make	context()	negated: False ,passive: False
+0.905	[*A*]individuals[*R*]link[*A*]different members	context()	negated: False ,passive: False
+[LINE#28]A conceptual picture on what was a healthy or a diseased soil could be perceived by looking at the responses of majority of fungal community members to soil variables.
+0.975	[*A*]A conceptual picture on what was a healthy or a diseased soil[*R*]could be perceived[*A*]by looking at the responses of majority of fungal community members to soil variables	context()	negated: False ,passive: True
+[LINE#29] Majority (55%) of OTUs in healthy soils were stimulated (encouraged) by a certain set of soil variables but the majorities (63%) in diseased soils were inhibited (discouraged).
+0.820	[*A*]the majorities ( 63 % ) in diseased soils[*R*]discouraged	context()	negated: False ,passive: False
+0.843	[*A*]the majorities ( 63 % ) in diseased soils[*R*]were inhibited	context()	negated: False ,passive: False
+0.872	[*A*]Majority ( 55 % ) of OTUs in healthy soils[*R*]encouraged	context()	negated: False ,passive: False
+0.958	[*A*]Majority ( 55 % ) of OTUs in healthy soils[*R*]were stimulated[*A*]by a certain set of soil variables	context()	negated: False ,passive: True
+[LINE#30]For a complex natural community, it is impossible that every environmental element encourages every community member: majority makes senses.
+0.871	[*A*]majority[*R*]makes[*A*]senses	context()	negated: False ,passive: False
+[LINE#31]With this view, a healthy soil was likely a soil with variables that encouraged majority of fungal community, whereas a diseased soil was a soil with variables that discouraged majorities.
+0.877	[*A*]variables[*R*]discouraged[*A*]majorities	context()	negated: False ,passive: False
+0.932	[*A*]a diseased soil[*R*]was[*A*]a soil with variables	context()	negated: False ,passive: True
+0.877	[*A*]variables[*R*]encouraged[*A*]majority of fungal community	context()	negated: False ,passive: False
+0.828	[*A*]a healthy soil[*R*]was[*A*]likely	context()	negated: False ,passive: True
+[LINE#32]Any society that encourages majority of its members will be more likely to become a vigorous and successful society.
+0.727	[*A*]Any society that encourages majority of its members[*R*]to become[*A*]a successful society	context()	negated: False ,passive: True
+0.759	[*A*]Any society that encourages majority of its members[*R*]will be[*A*]more likely to become a successful society	context()	negated: False ,passive: True
+0.727	[*A*]Any society that encourages majority of its members[*R*]to become[*A*]a vigorous society	context()	negated: False ,passive: True
+0.759	[*A*]Any society that encourages majority of its members[*R*]will be[*A*]more likely to become a vigorous society	context()	negated: False ,passive: True
+0.810	[*A*]Any society[*R*]encourages[*A*]majority of its members	context()	negated: False ,passive: False
+[LINE#33]The role-shifts of OTUs were major events when the healthy community changed to a diseased one.
+0.911	[*A*]the healthy community[*R*]changed[*A*]to a diseased one	context()	negated: False ,passive: True
+0.968	[*A*]The role-shifts of OTUs[*R*]were[*A*]major events when the healthy community changed to a diseased one	context()	negated: False ,passive: True
+[LINE#34]Three lines of evidences supported this generalization.
+0.919	[*A*]Three lines of evidences[*R*]supported[*A*]this generalization	context()	negated: False ,passive: False
+[LINE#35]Firstly, the generalist OTUs in healthy network were found to be specialist OTUs in diseased networks (Fig. 3), suggesting their role-shifts.
+0.895	[*A*]the generalist OTUs in healthy network[*R*]suggesting[*A*]their role-shifts	context()	negated: False ,passive: False
+0.950	[*A*]the generalist OTUs in healthy network[*R*]to be[*A*]specialist OTUs	context()	negated: False ,passive: True
+[LINE#36]Secondly, majority of MMs (70%) were not shared between healthy and diseased networks (Fig. 2 B).
+0.897	[*A*]majority of MMs[*R*]were not shared[*A*]between healthy and diseased networks	context()	negated: True ,passive: True
+[LINE#37]The unshared presented either as MMs in one network but as non-MMs (p > 0.05) in the other, or phased out of interactions, demonstrating the functional shifts of these MMs.
+0.589	[*A*]non-MMs[*R*]p[*A*]0.05[*A*]in the other	context()	negated: False ,passive: False
+[LINE#38] Thirdly, module members OTUH4 + H5 and OTUD2+ D6 were irresponsive to any measured soil variables in their respective networks but majority of which were found to be responsive in the counterpart network (Fig. 4).
+0.917	[*A*]OTUD2+ D6[*R*]were[*A*]irresponsive to any measured soil variables in their respective networks	context()	negated: False ,passive: True
+0.837	[*A*]H5[*R*]were[*A*]irresponsive to any measured soil variables in their respective networks	context()	negated: False ,passive: True
+0.924	[*A*]module members OTUH4[*R*]were[*A*]irresponsive to any measured soil variables in their respective networks	context()	negated: False ,passive: True
+0.897	[*A*]majority of which[*R*]to be[*A*]responsive in the counterpart network	context()	negated: False ,passive: True
+0.751	[*A*]majority of which[*R*]were found	context()	negated: False ,passive: False
+[LINE#39]Collectively, these data demonstrated that role-shifts were commonly happened in network OTUs.
+0.861	[*A*]role-shifts[*R*]were happened[*A*]in network OTUs	context(these data demonstrated)	negated: False ,passive: True
+0.835	[*A*]these data[*R*]demonstrated[*A*]that role-shifts were commonly happened in network OTUs	context()	negated: False ,passive: False
+[LINE#40]It is worthwhile mentioning that role-shift means that the capacity of an organism to exhibit a novel function must have already existed before a successful shift was initiated.
+0.756	[*A*]the capacity of an organism[*R*]was initiated	context()	negated: False ,passive: False
+[LINE#41]In this context, many fungi possessed diverse functions/physiologies, some of which were able to exhibit in one environment but not in another.
+0.551	[*A*]some of which[*R*]to exhibit[*A*]in one environment	context()	negated: False ,passive: False
+0.887	[*A*]diverse functions[*R*]were[*A*]able to exhibit in one environment	context()	negated: False ,passive: True
+0.964	[*A*]many fungi[*R*]possessed[*A*]diverse functions/physiologies, some of which were able to exhibit in one environment but not in another[*A*]In this context	context()	negated: False ,passive: False
+[LINE#42]Such predicted physiological/metabolic flexibility is consistent with the well-documented, cosmopolitan distribution of many fungi (Managbanag and Torzilli, 2002).Major soil factor(s) leading to the community shift can be summarized as follows.
+0.949	[*A*]physiological / metabolic flexibility[*R*]is[*A*]consistent with the well - documented , cosmopolitan distribution of many fungi	context(Such predicted Major soil factor ( s ) leading to the community shift can be summarized)	negated: False ,passive: True
+0.477	[*A*]Such[*R*]predicted[*A*]physiological / metabolic flexibility is consistent with the well - documented , cosmopolitan distribution of many fungi ( Torzilli , 2002 ) . Major soil factor ( s ) leading to the community shift can be summarized as follows	context()	negated: False ,passive: False
+0.949	[*A*]physiological / metabolic flexibility[*R*]is[*A*]consistent with the well - documented , cosmopolitan distribution of many fungi	context(Such predicted Major soil factor ( s ) leading to the community shift can be summarized)	negated: False ,passive: True
+0.945	[*A*]Major soil factor ( s ) leading to the community shift[*R*]can be summarized[*A*]as follows	context(Such predicted)	negated: False ,passive: True
+0.477	[*A*]Such[*R*]predicted[*A*]physiological / metabolic flexibility is consistent with the well - documented , cosmopolitan distribution of many fungi ( Managbanag ) . Major soil factor ( s ) leading to the community shift can be summarized as follows	context()	negated: False ,passive: False
+0.897	[*A*]Major soil factor[*R*]leading[*A*]to the community shift	context()	negated: False ,passive: False
+[LINE#43]Soil OM was the key variable associated with the healthy community, as it stimulated members of H6 and H7 modules in healthy network but stimulated no module members in diseased network (Table 1).
+0.498	[*A*]it[*R*]stimulated[*A*]members of H7 modules in healthy network	context()	negated: False ,passive: False
+0.946	[*A*]Soil OM[*R*]was[*A*]the key variable associated with the healthy community[*A*]as it stimulated members of H7 modules in healthy network	context()	negated: False ,passive: True
+0.498	[*A*]it[*R*]stimulated[*A*]members of H6 modules in healthy network	context()	negated: False ,passive: False
+0.946	[*A*]Soil OM[*R*]was[*A*]the key variable associated with the healthy community[*A*]as it stimulated members of H6 modules in healthy network	context()	negated: False ,passive: True
+0.452	[*A*]it[*R*]stimulated[*A*]no module members	context()	negated: False ,passive: False
+0.911	[*A*]the key variable[*R*]associated[*A*]with the healthy community	context()	negated: False ,passive: True
+0.901	[*A*]Soil OM[*R*]was[*A*]the key variable associated with the healthy community[*A*]as it stimulated no module members in diseased network	context()	negated: False ,passive: True
+[LINE#44]NH4+-N and EC were the key variables associated with the diseased community, as their significant correlations with GS taxa were found only in diseased soils (Table 2).
+0.855	[*A*]EC[*R*]were[*A*]the key variables associated with the diseased community ,	context()	negated: False ,passive: True
+0.779	[*A*]their significant correlations with GS taxa[*R*]were found[*A*]only in diseased soils	context()	negated: False ,passive: True
+0.911	[*A*]the key variables[*R*]associated[*A*]with the diseased community	context()	negated: False ,passive: True
+0.877	[*A*]NH4+ - N[*R*]were[*A*]the key variables associated with the diseased community ,	context()	negated: False ,passive: True
+[LINE#45]Furthermore, NH4+-N and EC were the major factors leading to generalist-specialist shift, as discussed above.
+0.855	[*A*]EC[*R*]were[*A*]the major factors leading to generalist - specialist shift	context()	negated: False ,passive: True
+0.751	[*A*]the major factors[*R*]leading	context()	negated: False ,passive: False
+0.877	[*A*]NH4+ - N[*R*]were[*A*]the major factors leading to generalist - specialist shift[*A*]as discussed above	context()	negated: False ,passive: True
+[LINE#46] Major affected phylogenetic groups were Sordariales and Hypocreales.
+0.949	[*A*]Major affected phylogenetic groups[*R*]were[*A*]Hypocreales	context()	negated: False ,passive: True
+0.949	[*A*]Major affected phylogenetic groups[*R*]were[*A*]Sordariales	context()	negated: False ,passive: True
+0.920	[*A*]Major[*R*]affected[*A*]phylogenetic groups	context()	negated: False ,passive: False
+[LINE#47] In most natural environments such as soils, individual organisms do not live in isolation but rather form a complex system of inter-species interactions that, to a large extent, determine the structure of an ecological community (Freilich et al., 2010),and consequently the function of the ecosystem (Fuhrman, 2009).
+0.887	[*A*]inter-species interactions[*R*]determine[*A*]the structure of an ecological community	context()	negated: False ,passive: False
+0.938	[*A*]inter-species interactions[*R*]determine[*A*]the structure of an ecological community ( Freilich et al . , 2010	context()	negated: False ,passive: False
+0.928	[*A*]individual organisms[*R*]do not live[*A*]in isolation[*A*]In most natural environments such as soils	context()	negated: True ,passive: False
+[LINE#48]However, interactions and the resulting ecological functions are usually difficult to elucidate, especially for soils.
+0.737	[*A*]the resulting ecological functions[*R*]to elucidate	context()	negated: False ,passive: False
+0.799	[*A*]the resulting ecological functions[*R*]are[*A*]usually[*A*]difficult to elucidate	context()	negated: False ,passive: True
+0.677	[*A*]interactions[*R*]to elucidate	context()	negated: False ,passive: False
+0.749	[*A*]interactions[*R*]are[*A*]usually[*A*]difficult to elucidate	context()	negated: False ,passive: True
+[LINE#49] Furthermore, most previous analytical techniques can be used to describe community composition, diversity and their changes across space, time, or experimental treatments, but cannot be used to reveal interactions among community members, which could be more important to ecosystem functioning than abundance and diversity, especially in complex ecosystems (Deng et al., 2012).Network analysis is proven to be a powerful tool in revealing the interactions among entities in a system, such as individuals in a school (Moody, 2001), species in food webs (Krause et al., 2003; Woodward et al., 2012),nodes on a computer network (Pastor-Satorras and Vespignani, 2001; Volchenkov et al., 2002), proteins in metabolic pathways (Brohe et al., 2008; Guimera and Amaral, 2005), and genes in regulatory networks (Crombach and Hogeweg, 2008).
+0.978	[*A*]Deng et al., 2012).Network analysis[*R*]to be[*A*]a powerful tool in revealing the interactions among entities in a system, such as individuals in a school (Moody, 2001), species in food webs (Krause et al., 2003; Woodward et al., 2012),nodes on a computer network	context()	negated: False ,passive: True
+0.893	[*A*]most previous analytical techniques[*R*]to describe[*A*]community composition, diversity and their changes across space, time, or experimental treatments	context()	negated: False ,passive: False
+0.889	[*A*]Deng et al., 2012).Network analysis[*R*]is proven	context()	negated: False ,passive: False
+[LINE#50]Yet, until recently, researchers begun to use this tool to study complex microbial ecological systems such as marine bacterioplankton (Gilbert et al., 2012), global environments in 16S rRNA dataset (Chaffron et al., 2010), fully sequenced bacterial species (Freilich et al., 2010), dental biofilm (Duran-Pinedo et al., 2011), human microbiome (Faust et al., 2012; Greenblum et al., 2012), bacterial communities in variety of soil samples (Barberan et al., 2012), and the communities in soils influenced by elevated CO2 (Deng et al., 2012; Zhou et al., 2010, 2011).
+0.926	[*A*]researchers[*R*]begun to use this tool to study[*A*]complex microbial ecological systems such as marine bacterioplankton ( Gilbert et al . , 2012 ) , global environments in 16 S rRNA dataset	context(researchers begun to use Chaffron et al . , 2010 sequenced Greenblum et al)	negated: False ,passive: False
+0.926	[*A*]researchers[*R*]begun to use[*A*]this tool[*A*]to study complex microbial ecological systems such as marine bacterioplankton ( Gilbert et al . , 2012 ) , global environments in 16 S rRNA dataset	context(researchers begun Chaffron et al . , 2010 sequenced Greenblum et al)	negated: False ,passive: False
+0.957	[*A*]researchers[*R*]begun[*A*]to use this tool to study complex microbial ecological systems such as marine bacterioplankton ( Gilbert et al . , 2012 ) , global environments in 16 S rRNA dataset[*A*]until recently	context(Chaffron et al . , 2010 sequenced Greenblum et al)	negated: False ,passive: False
+0.924	[*A*]Chaffron et al . , 2010[*R*]sequenced[*A*]bacterial species	context(Greenblum et al)	negated: False ,passive: False
+0.905	[*A*]Greenblum et[*R*]al[*A*]the communities in soils	context()	negated: False ,passive: False
+0.911	[*A*]soils[*R*]influenced[*A*]by elevated CO2 ( Deng et al	context()	negated: False ,passive: True
+0.926	[*A*]researchers[*R*]begun to use this tool to study[*A*]complex microbial ecological systems such as marine bacterioplankton ( Gilbert et al . , 2012 ) , global environments in 16 S rRNA dataset	context(researchers begun to use Chaffron et al . , 2010 sequenced)	negated: False ,passive: False
+0.926	[*A*]researchers[*R*]begun to use[*A*]this tool[*A*]to study complex microbial ecological systems such as marine bacterioplankton ( Gilbert et al . , 2012 ) , global environments in 16 S rRNA dataset ( Chaffron et al . , 2010 ) , fully sequenced bacterial species ( Freilich et al . , 2010 ) , dental biofilm ( Duran - Pinedo et al . , 2011 ) , human microbiome ( Faust et al . , 2012 ; Greenblum et al . . , 2012 ; Zhou et al	context(researchers begun Chaffron et al . , 2010 sequenced)	negated: False ,passive: False
+0.957	[*A*]researchers[*R*]begun[*A*]to use this tool to study complex microbial ecological systems such as marine bacterioplankton ( Gilbert et al . , 2012 ) , global environments in 16 S rRNA dataset ( Chaffron et al . , 2010 ) , fully sequenced bacterial species ( Freilich et al . , 2010 ) , dental biofilm ( Duran - Pinedo et al . , 2011 ) , human microbiome ( Faust et al . , 2012 ; Greenblum et al . . , 2012 ; Zhou et al[*A*]until recently	context(Chaffron et al . , 2010 sequenced)	negated: False ,passive: False
+0.924	[*A*]Chaffron et al . , 2010[*R*]sequenced[*A*]bacterial species	context()	negated: False ,passive: False
+[LINE#51]Despite its pitfalls (Faust and Raes, 2012), the power and usefulness of network analysis in revealing new information on community member interactions, community organizations, keystone organisms, and their responses to environmental factors that cannot be revealed by routine analytical techniques is unequivocally demonstrated.
+0.878	[*A*]the usefulness of network analysis in revealing new information on community organizations[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+0.606	[*A*]the usefulness of network analysis in revealing new information on their responses to environmental factors[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+0.878	[*A*]the usefulness of network analysis in revealing new information on keystone organisms[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+0.888	[*A*]the usefulness of network analysis in revealing new information on community member interactions[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+0.535	[*A*]the power in revealing new information on their responses to environmental factors[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+0.887	[*A*]environmental factors[*R*]can not be revealed[*A*]by routine analytical techniques	context()	negated: True ,passive: True
+0.843	[*A*]the power in revealing new information on keystone organisms[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+0.820	[*A*]the power in revealing new information on community organizations[*R*]unequivocally demonstrated	context()	negated: False ,passive: False
+0.895	[*A*]the power in revealing new information on community organizations[*R*]is[*A*]unequivocally demonstrated	context()	negated: False ,passive: True
+0.856	[*A*]the power in revealing new information on community member interactions[*R*]is unequivocally demonstrated	context()	negated: False ,passive: False
+[LINE#52](2011) demonstrated that Actinobacteria were the keystone bacteria connecting different co-expressed OTUs and were significantly correlated with selected soil variables.
+0.925	[*A*]the keystone bacteria[*R*]connecting[*A*]different co-expressed OTUs	context()	negated: False ,passive: False
+[LINE#53](2012) predicted novel interactions involving members of under-characterized phyla, providing valuable information on further co-culturing of these organisms.
+0.903	[*A*]novel interactions[*R*]involving[*A*]members of under-characterized phyla	context()	negated: False ,passive: True
+[LINE#54](2011) were even able to identify a helper bacterium successfully helping an uncultured bacterium to show up in petri dishes.
+0.888	[*A*]an uncultured bacterium[*R*]to show up[*A*]in petri dishes	context(a helper bacterium successfully helping)	negated: False ,passive: False
+0.888	[*A*]a helper bacterium[*R*]successfully helping[*A*]an uncultured bacterium to show up in petri dishes	context()	negated: False ,passive: False
+0.503	[*A*]2011[*R*]were[*A*]even[*A*]able to identify a helper bacterium	context()	negated: False ,passive: True
+[LINE#55] Network analysis probably represents a new direction in microbial ecology research (Zhou et al.,2011).Crop monoculture has long been considered un-sustainable as it often leads to yield decline (Shipton, 1977).
+0.349	[*A*]it[*R*]leads to yield[*A*]decline	context(it leads)	negated: False ,passive: False
+0.489	[*A*]it[*R*]leads[*A*]to yield decline[*A*]often	context()	negated: False ,passive: False
+0.914	[*A*]Network analysis[*R*]represents[*A*]a new direction	context()	negated: False ,passive: False
+[LINE#56]The yield decline usually occurs after two or three years of monoculture (as in this study), depending on crops, number of years and soil, and is usually attributed to the increase of yield-debilitating populations and switches of underground microbial communities (van Elsas et al., 2002).
+0.939	[*A*]The yield decline[*R*]occurs[*A*]after two or three years of monoculture[*A*]usually	context()	negated: False ,passive: True
+[LINE#57]However, to date, the questions, such as what species compose yield-debilitating soil microbial community, how a yield-invigorating community is shifted to a yield-debilitating one, and what are the key soil factors responsible for the shift remain unclear.
+0.997	[*A*]the questions , such as what species compose yield - debilitating soil microbial community , how a yield - invigorating community is shifted to what are the key soil factors responsible for the shift[*R*]remain[*A*]unclear[*A*]to date	context()	negated: False ,passive: True
+0.952	[*A*]a yield - invigorating community[*R*]is shifted[*A*]to what are the key soil factors responsible for the shift	context()	negated: False ,passive: True
+0.996	[*A*]the questions , such as what species compose yield - debilitating soil microbial community , how a yield - invigorating community is shifted to a yield - debilitating one[*R*]remain[*A*]unclear[*A*]to date	context()	negated: False ,passive: True
+0.926	[*A*]a yield - invigorating community[*R*]is shifted[*A*]to a yield - debilitating one	context()	negated: False ,passive: True
+0.894	[*A*]species[*R*]compose[*A*]yield - debilitating soil microbial community	context()	negated: False ,passive: False
+[LINE#58]By farmers' term, the soils under limited length of monoculture (2-3 years) still producing sound yields are called "healthy" soils whereas those under prolonged monoculture producing unacceptably low yields are called "diseased" soils.
+0.888	[*A*]those under prolonged monoculture[*R*]are called[*A*]diseased" soils	context()	negated: False ,passive: True
+0.903	[*A*]prolonged monoculture[*R*]producing[*A*]unacceptably low yields	context()	negated: False ,passive: False
+0.941	[*A*]the soils under limited length of monoculture (2-3 years) still producing sound yields[*R*]are called[*A*]healthy" soils[*A*]whereas those under prolonged monoculture producing unacceptably low yields are called "diseased" soils	context()	negated: False ,passive: True
+0.958	[*A*]the soils under limited length of monoculture[*R*]producing[*A*]sound yields[*A*]still	context()	negated: False ,passive: False
+[LINE#59] Because the farmers' terms "healthy" and "diseased"are simpler than yield-invigorating and yield-debilitating respectively, they are adopted hereafter for concise purpose.
+0.503	[*A*]diseased[*R*]are[*A*]simpler than yield - debilitating respectively	context()	negated: False ,passive: True
+0.503	[*A*]diseased[*R*]are[*A*]simpler than yield - invigorating	context()	negated: False ,passive: True
+0.910	[*A*]the farmers ' terms " healthy[*R*]are[*A*]simpler than yield - debilitating respectively , they are adopted hereafter for concise purpose	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]are adopted hereafter[*A*]for concise purpose	context()	negated: False ,passive: True
+0.921	[*A*]the farmers ' terms " healthy[*R*]are[*A*]simpler than yield - invigorating	context()	negated: False ,passive: True
+[LINE#60]The purpose of present study is to address these questions by a network analysis approach, using the "healthy" and "diseased" soils induced by prolonged potato monoculture as model soils.
+0.948	[*A*]the "healthy" and "diseased" soils[*R*]induced[*A*]by prolonged potato monoculture as model soils	context()	negated: False ,passive: True
+0.964	[*A*]The purpose of present study[*R*]is[*A*]to address these questions by a network analysis approach, using the "healthy" and "diseased" soils	context()	negated: False ,passive: True
+[LINE#61]It has long been recognized that the yield decline under prolonged monoculture is associated with soilborne pathogens (Shipton, 1977), many of which are fungi (Fiers et al., 2012).
+0.887	[*A*]soilborne pathogens[*R*]are[*A*]fungi	context()	negated: False ,passive: True
+[LINE#62] In present study, major potato diseases found in field included fusarium dry rots, late bright and black scurf/stem canker that are associated with Fusarium sps., Phytophthora infestans, Rhizoctonia solani respectively, all of which are soilborne fungal pathogens (.
+0.927	[*A*]black scurf / stem canker[*R*]are associated[*A*]with Fusarium sps	context()	negated: False ,passive: True
+0.802	[*A*]Rhizoctonia[*R*]solani[*A*]respectively	context()	negated: False ,passive: False
+0.771	[*A*]Phytophthora[*R*]infestans	context()	negated: False ,passive: False
+0.933	[*A*]late bright scurf / stem canker[*R*]are associated[*A*]with Fusarium sps	context()	negated: False ,passive: True
+0.961	[*A*]major potato diseases found in field[*R*]included[*A*]fusarium dry rots[*A*]In present study	context()	negated: False ,passive: True
+0.911	[*A*]major potato diseases[*R*]found[*A*]in field	context()	negated: False ,passive: True
+[LINE#63]Soil fungal community is thus the focus of present study.
+0.949	[*A*]Soil fungal community[*R*]is[*A*]thus[*A*]the focus of present study	context()	negated: False ,passive: True
+[LINE#64]We hypothesized that a healthy community is likely to be better organized or better operated than a diseased community with respect to network organization and keystone organisms.
+0.946	[*A*]a healthy community[*R*]is[*A*]likely to be better organized or better operated than a diseased community with respect to network organization and keystone organisms	context(We hypothesized)	negated: False ,passive: True
+0.279	[*A*]We[*R*]hypothesized[*A*]that a healthy community is likely to be better organized or better operated than a diseased community with respect to network organization and keystone organisms	context()	negated: False ,passive: False
+0.933	[*A*]a healthy community[*R*]to be[*A*]better organized or better operated than a diseased community with respect to network organization and keystone organisms	context()	negated: False ,passive: True
+[LINE#65]descriptionThe experimental sites were located in Tiaoshan Farm (10333-10443E, 3643-3738N), Gansu Province, China.
+0.925	[*A*]descriptionThe experimental sites[*R*]were located[*A*]in Tiaoshan Farm	context()	negated: False ,passive: True
+[LINE#66]It is a warm terrestrial arid area, with a mean annual temperature 9.1 C, a mean annual precipitation 185.6 mm, and a mean annul evaporation capacity 1722.8 mm.
+0.522	[*A*]It[*R*]is[*A*]a warm terrestrial arid area	context()	negated: False ,passive: True
+[LINE#67]Mean annual frost-free days are 141 days, sustaining only a single crop (corn or potato) per year.
+[LINE#68]The soil contains 10.1 g kg-1 organic matter, 0.
+0.999	[*A*]The soil[*R*]contains[*A*]10.1 g kg -1 organic matter	context()	negated: False ,passive: False
+0.903	[*A*]The soil[*R*]contains[*A*]10.1 g kg	context()	negated: False ,passive: False
+[LINE#69] 193 mg kg-1 extractable K, with pH 8.08(5:1water to soil ratio).Field experiment began in 2005 on fields under corn-potato rotations and was designed to collect year-series soil samples in the year 2011.
+0.164	[*A*]with pH 8.08 ( 5:1water to soil ratio )[*R*]has mg of[*A*]193 mg kg -1 extractable k	context()	negated: False ,passive: False
+0.413	[*A*]193 mg kg[*R*]has pH of[*A*]8.08	context()	negated: False ,passive: False
+0.945	[*A*]Field experiment[*R*]was designed[*A*]to collect year-series soil samples in the year	context()	negated: False ,passive: True
+0.817	[*A*]Field experiment[*R*]began[*A*]in 2005	context()	negated: False ,passive: True
+[LINE#70]For this, the field was divided into 21 plots, each being 9  6.1 m in size.
+0.993	[*A*]the field[*R*]was divided into[*A*]21 plots	context()	negated: False ,passive: False
+0.544	[*A*]each[*R*]being[*A*]9  6.1 m in size	context()	negated: False ,passive: True
+0.943	[*A*]the field[*R*]was divided[*A*]into 21 plots[*A*]each being 9  6.1 m in size[*A*]For this	context()	negated: False ,passive: True
+[LINE#71]Three plots were randomly selected each year for potato monoculture, leaving other plots to continue corn-potato rotation.
+0.887	[*A*]Three plots[*R*]leaving[*A*]other plots to continue corn-potato rotation	context()	negated: False ,passive: False
+0.903	[*A*]Three plots[*R*]were randomly selected[*A*]each year[*A*]for potato monoculture[*A*]leaving other plots	context()	negated: False ,passive: True
+[LINE#72]The selection was done in such a way that the previous crop of selected plots was always corn.
+0.948	[*A*]the previous crop of selected plots[*R*]was[*A*]always[*A*]corn	context()	negated: False ,passive: True
+0.732	[*A*]The selection[*R*]was done	context()	negated: False ,passive: False
+[LINE#73]After 7 years (by year 2011), 21 plots in total were used up (3 replicates  7 years).
+0.992	[*A*]21 plots[*R*]were used After[*A*]7 years ( by year 2011 )	context()	negated: False ,passive: False
+0.993	[*A*]21 plots in total[*R*]were used After[*A*]7 years	context()	negated: False ,passive: False
+[LINE#74]This experiment design provides opportunity to collect soil samples after culturing mono-crop from 1 to 7 years simultaneously.
+0.943	[*A*]This experiment design[*R*]provides[*A*]opportunity to collect soil samples after culturing mono-crop from 1 to 7 years simultaneously	context()	negated: False ,passive: False
+[LINE#75]Potato was typically seeded on April 25 every year with a few days variation.
+0.941	[*A*]Potato[*R*]was seeded[*A*]on April 25[*A*]every year with a few days variation[*A*]typically	context()	negated: False ,passive: True
+[LINE#76]Seed pieces (Atlantic cultivar, provided by Tiaoshan Farm) were buried on the top of raised paths (40 cm in height and 135 cm in bottom width) at 17 cm in between-plant space.
+0.959	[*A*]Seed pieces ( Atlantic cultivar , provided by Tiaoshan Farm[*R*]were buried[*A*]on the top of raised paths[*A*]at 17 cm in between - plant space	context()	negated: False ,passive: True
+0.959	[*A*]Seed pieces ( Atlantic cultivar , provided by Tiaoshan Farm[*R*]were buried[*A*]on the top of raised paths	context()	negated: False ,passive: True
+0.905	[*A*]Seed pieces[*R*]provided[*A*]by Tiaoshan Farm	context()	negated: False ,passive: True
+[LINE#77]Two lines were planted on each raised path with 70 cm in between-line space, resulting in a plant density at 84,075 plants ha-1.
+0.992	[*A*]two lines[*R*]were planted on[*A*]each raised path with 70 cm in between - line space	context()	negated: False ,passive: False
+0.937	[*A*]Two lines[*R*]were planted[*A*]on each raised path with 70 cm in between-line space[*A*]resulting in a plant density at 84,075 plants ha-1	context()	negated: False ,passive: True
+[LINE#78] Blended fertilizer (15-15-15) additionally supplemented with urea and K2SO4 was used at the rate of 210 kg N ha-1, with the ratio N:P2O5.
+0.920	[*A*]K2SO4[*R*]was used[*A*]at the rate of 210 kg	context()	negated: False ,passive: True
+0.887	[*A*]Blended fertilizer[*R*]additionally supplemented[*A*]with urea	context()	negated: False ,passive: True
+[LINE#79]Nitrogen form in blended fertilizer is (NH4)2SO4.
+0.957	[*A*]Nitrogen form in blended fertilizer[*R*]is[*A*]NH4)2SO4	context()	negated: False ,passive: True
+[LINE#80]All fertilizers were applied at the time of seeding by machine.
+0.903	[*A*]All fertilizers[*R*]were applied[*A*]at the time of seeding by machine	context()	negated: False ,passive: True
+[LINE#81]Once seeded and fertilized, the raised paths were covered with plastic film.
+0.911	[*A*]the raised paths[*R*]were covered[*A*]with plastic film	context()	negated: False ,passive: True
+0.948	[*A*]the raised paths[*R*]were covered[*A*]with plastic film[*A*]Once seeded	context()	negated: False ,passive: True
+[LINE#82]The field was irrigated three times during growth period, typically on June 1 (seedling stage), July 1 (early flowering stage) and July 20 (tuber enlargement stage), at the rate of 2700 t ha-1 each time.
+0.918	[*A*]The field[*R*]was irrigated[*A*]three times[*A*]during growth period[*A*]typically on June 1	context()	negated: False ,passive: True
+[LINE#83]Potato was harvested in late August. .
+0.932	[*A*]Potato[*R*]was harvested[*A*]in late August	context()	negated: False ,passive: True
+[LINE#84]Soil sampling, variable measurements and groupingSoil samples were collected in 2011 from 18 plots.
+0.903	[*A*]groupingSoil samples[*R*]were collected[*A*]in 2011[*A*]from 18 plots	context()	negated: False ,passive: True
+0.903	[*A*]variable measurements[*R*]were collected[*A*]in 2011[*A*]from 18 plots	context()	negated: False ,passive: True
+[LINE#85]The plots set up for potato monoculture in 2007 (5 years) were not sampled.
+0.859	[*A*]The plots set up for potato monoculture in 2007 (5 years[*R*]were not sampled	context()	negated: True ,passive: False
+0.903	[*A*]The plots[*R*]set up[*A*]for potato monoculture[*A*]in 2007 (5 years	context()	negated: False ,passive: True
+[LINE#86]From each plot, 15 sites were randomly sampled for 0-20 cm layer soils and well mixed.
+0.992	[*A*]15 sites[*R*]were sampled From[*A*]each plot	context()	negated: False ,passive: False
+0.993	[*A*]15 sites[*R*]were sampled for[*A*]0 -20 well mixed	context()	negated: False ,passive: False
+0.933	[*A*]15 sites[*R*]were randomly sampled[*A*]From each plot	context()	negated: False ,passive: True
+0.992	[*A*]15 sites[*R*]were sampled for[*A*]0-20 cm layer soils	context()	negated: False ,passive: False
+0.993	[*A*]15 sites[*R*]were sampled for[*A*]0 -20 cm layer soils	context()	negated: False ,passive: False
+0.943	[*A*]15 sites[*R*]were randomly sampled[*A*]for 0-20 cm layer soils[*A*]From each plot	context()	negated: False ,passive: True
+[LINE#87]Totally 18 samples were obtained.
+0.751	[*A*]Totally 18 samples[*R*]were obtained	context()	negated: False ,passive: False
+[LINE#88]Samples were put into sterile plastic bags, placed into ice box, transferred to laboratory and used as soon as possible, or stored in a refrigerator at -80 C if not immediately used.
+0.877	[*A*]Samples[*R*]transferred[*A*]to laboratory	context()	negated: False ,passive: True
+0.877	[*A*]Samples[*R*]placed[*A*]into ice box	context()	negated: False ,passive: True
+0.894	[*A*]Samples[*R*]were put[*A*]into sterile plastic bags	context()	negated: False ,passive: True
+[LINE#89] Selected soil variables included organic matter (OM, by dichromate oxidation), total nitrogen (TN, by total Kjeldahl N), NH4+-N, NO3--N (by 1 M KCl extraction), pH and electrical conductivity (EC) (both at 5:1 water soil ratio).The yield decline typically started at the fourth year and the yield records of recent two years are shown in Fig..
+0.888	[*A*]Selected soil variables[*R*]included[*A*]organic matter	context(The yield decline started)	negated: False ,passive: True
+0.870	[*A*]The yield decline[*R*]started[*A*]at the fourth year	context()	negated: False ,passive: True
+0.948	[*A*]the yield records of recent two years[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#90]The yields in first three years were more or less the same (with yearly variations) and are within the yield range of local farmers who practice rotations (30-40 t ha-1).
+0.887	[*A*]local farmers[*R*]practice[*A*]rotations	context()	negated: False ,passive: False
+0.921	[*A*]The yields in first three years[*R*]are[*A*]within the yield range of local farmers	context()	negated: False ,passive: True
+0.829	[*A*]The yields in first three years[*R*]were[*A*]more or less the same	context()	negated: False ,passive: True
+[LINE#91]A sudden decline occurred at the fourth year and thereafter, which is far below the yield range of local farmers.
+0.783	[*A*]A sudden decline[*R*]occurred[*A*]at the fourth[*A*]thereafter	context()	negated: False ,passive: True
+0.920	[*A*]the fourth year[*R*]is[*A*]far below the yield range of local farmers	context()	negated: False ,passive: True
+0.911	[*A*]A sudden decline[*R*]occurred[*A*]at the fourth year	context()	negated: False ,passive: True
+[LINE#92]Based on these results, soil samples were put into two groups, one including the first year, the second year and the third year samples (9 in total), which was herein termed as "healthy" group, and another including the fourth year, the sixth year and the seventh year samples (9 in total) termed as "diseased" group.
+0.905	[*A*]the seventh year samples[*R*]termed[*A*]as " diseased " group	context()	negated: False ,passive: True
+0.897	[*A*]the fourth year[*R*]termed[*A*]as " diseased " group	context()	negated: False ,passive: True
+0.897	[*A*]healthy " group[*R*]termed[*A*]as " diseased " group	context()	negated: False ,passive: True
+0.551	[*A*]9 in total[*R*]was herein termed[*A*]as " healthy " group	context()	negated: False ,passive: True
+0.897	[*A*]the second year[*R*]termed[*A*]as " diseased " group	context()	negated: False ,passive: True
+0.897	[*A*]9 in total[*R*]termed[*A*]as " diseased " group	context()	negated: False ,passive: True
+0.897	[*A*]the first year[*R*]termed[*A*]as " diseased " group	context()	negated: False ,passive: True
+0.903	[*A*]soil samples[*R*]were put[*A*]into two groups	context()	negated: False ,passive: True
+[LINE#93]This grouping allowed us to construct and compare networks between healthy and diseased fungal communities.
+0.397	[*A*]us[*R*]to compare[*A*]networks between diseased fungal communities	context(This grouping allowed)	negated: False ,passive: False
+0.802	[*A*]This grouping[*R*]allowed[*A*]us to compare networks between diseased fungal communities	context()	negated: False ,passive: False
+0.397	[*A*]us[*R*]to compare[*A*]networks between healthy fungal communities	context(This grouping allowed)	negated: False ,passive: False
+0.802	[*A*]This grouping[*R*]allowed[*A*]us to compare networks between healthy fungal communities	context()	negated: False ,passive: False
+0.162	[*A*]us[*R*]to construct	context(This grouping allowed)	negated: False ,passive: False
+0.802	[*A*]This grouping[*R*]allowed[*A*]us to construct	context()	negated: False ,passive: False
+[LINE#94]Soil variables and their statistics based on such grouping are shown in Table S1. .
+0.757	[*A*]their statistics based on such grouping[*R*]are shown[*A*]in Table S1	context()	negated: False ,passive: True
+0.638	[*A*]their statistics[*R*]based[*A*]on such grouping	context()	negated: False ,passive: True
+0.943	[*A*]Soil variables based on such grouping[*R*]are shown[*A*]in Table S1	context()	negated: False ,passive: True
+0.903	[*A*]Soil variables[*R*]based[*A*]on such grouping	context()	negated: False ,passive: True
+[LINE#95] A extraction, amplification, sequencing and sequence treatmentFor each soil sample, bulk DNA was extracted in triplicate from 0.5 g of soils (dry weight basis) with a FastDNA SPIN Kit for Soil(Bio 101, Carlsbad, Calif.) following the manufacturer's instructions.
+0.964	[*A*]bulk DNA[*R*]was extracted[*A*]from 0.5 g of soils ( dry weight basis ) with a FastDNA SPIN Kit for Soil ( Bio 101 , Carlsbad , Calif . ) following the manufacturer 's instructions[*A*]sequence treatmentFor each soil sample	context()	negated: False ,passive: True
+0.993	[*A*]bulk DNA[*R*]was extracted from[*A*]0.5 g	context()	negated: False ,passive: False
+0.964	[*A*]bulk DNA[*R*]was extracted[*A*]from 0.5 g of soils ( dry weight basis ) with a FastDNA SPIN Kit for Soil ( Bio 101 , Carlsbad , Calif . ) following the manufacturer 's instructions[*A*]amplification treatmentFor each soil sample	context()	negated: False ,passive: True
+0.906	[*A*]Soil[*R*]following[*A*]the manufacturer 's instructions	context()	negated: False ,passive: False
+0.937	[*A*]bulk DNA[*R*]was extracted[*A*]from 0.5 g of soils ( dry weight basis ) with a FastDNA SPIN Kit for Soil ( Bio 101 , Carlsbad , Calif . ) following the manufacturer 's instructions	context()	negated: False ,passive: True
+[LINE#96]The triplicate DNA samples were pooled together, and thus 18 DNA samples represent 18 soil plots.
+0.911	[*A*]18 DNA samples[*R*]represent[*A*]18 soil plots	context()	negated: False ,passive: False
+0.799	[*A*]The triplicate DNA samples[*R*]were pooled[*A*]together	context()	negated: False ,passive: True
+[LINE#97]The integrity of the extracted DNA was confirmed by running on 0.8% agarose gel with 0.5 TBE buffer (45 mM Tris-borate, 1 mM EDTA, pH 8.0).
+0.801	[*A*]The integrity of the extracted DNA[*R*]was confirmed	context()	negated: False ,passive: False
+[LINE#98] The extracted DNA (as well as PCR products) was quantified using TBS-380.
+0.698	[*A*]PCR products[*R*]was quantified	context()	negated: False ,passive: False
+0.776	[*A*]The extracted DNA[*R*]was quantified	context()	negated: False ,passive: False
+[LINE#99]All DNA samples were diluted to 100 ng l-1 and used as PCR templates.
+0.634	[*A*]PCR[*R*]templates	context()	negated: False ,passive: False
+0.918	[*A*]All DNA[*R*]used[*A*]as PCR templates	context()	negated: False ,passive: True
+0.911	[*A*]All DNA samples[*R*]were diluted[*A*]to 100 ng l - 1	context()	negated: False ,passive: True
+[LINE#100] Primer pair ITS2 (5-GCTGCGTTCTTCATCGATGC-3) and ITS5 (5-GGAAGTAAAAGTCGTAACAAGG-3) (Bellemain et al., 2010) was used for amplifying the internal transcribed spacer(ITS) region 1 (ITS1, 180 bp in full length).
+0.951	[*A*]ITS5 ( 5 - GGAAGTAAAAGTCGTAACAAGG - 3 ) ( Bellemain et al . , 2010[*R*]was used[*A*]for amplifying the internal transcribed spacer	context()	negated: False ,passive: True
+0.897	[*A*]Primer pair ITS2[*R*]was used[*A*]for amplifying the internal transcribed spacer	context()	negated: False ,passive: True
+[LINE#101] This region is a universal DNA barcode marker for fungi (Schoch et al., 2012) and has been widely used to characterize soil fungal communities (O'Brien et al., 2005; Bue et al., 2009; Tedersoo et al., 2010) as well as for species identification (.
+0.937	[*A*]This region[*R*]is[*A*]Bue et al	context()	negated: False ,passive: True
+0.784	[*A*]This region[*R*]is	context()	negated: False ,passive: False
+0.937	[*A*]This region[*R*]is[*A*]a universal DNA barcode marker for fungi	context()	negated: False ,passive: True
+[LINE#102] Besides, these primers had least bias as well.
+[LINE#103]Primer ITS2 anchors at the highly conserved 18S rRNA gene upstream of ITS1 region and primer ITS5 at the intercalary 5.8S rRNA gene downstream.
+[LINE#104] TransGen AP221 kit with TransStart Fastpfu DNA polymerase (.
+[LINE#105]TransGen Biotech, Beijing, China) was used for PCR under the following condition: 95 C 2 min, 30 cycles: 95 C 30 s, 55 C 30 s, 72 C 30 s; 72 C 5 min; 10 C forever.
+0.950	[*A*]TransGen Biotech, Beijing, China[*R*]was used[*A*]for PCR	context()	negated: False ,passive: True
+[LINE#106]A second round of PCR was performed under the same conditions using Amplicon Fusion Primers as 5-A-x-IST2-3 and 5-B-ITS5-3, where A and B represent the pyrosequencing adaptors (CCATCTCATCCCTGCGTGTCTCCGACGACT and CCTATCCCCTGTGTGCCTTGGCAGTCGACT) and x represents an 8 bp-tag for the sample identification.
+0.855	[*A*]B[*R*]represent[*A*]the pyrosequencing adaptors	context()	negated: False ,passive: False
+0.503	[*A*]5-A-x-IST2-3[*R*]B represent[*A*]the pyrosequencing adaptors	context()	negated: False ,passive: False
+0.381	[*A*]A[*R*]represent[*A*]the pyrosequencing adaptors	context()	negated: False ,passive: False
+0.944	[*A*]A second round of PCR[*R*]was performed[*A*]under the same conditions	context()	negated: False ,passive: True
+0.999	[*A*]x[*R*]represents[*A*]8 bp - tag	context()	negated: False ,passive: False
+0.931	[*A*]A second round of PCR[*R*]was performed[*A*]under the same conditions	context(x represents)	negated: False ,passive: True
+0.931	[*A*]A second round of PCR[*R*]was performed[*A*]under the same conditions	context(x represents)	negated: False ,passive: True
+0.085	[*A*]x[*R*]represents[*A*]an 8 bp - tag for the sample identification	context()	negated: False ,passive: False
+[LINE#107]For each sample, three independent PCRs were performed.
+0.751	[*A*]three independent PCRs[*R*]were performed	context()	negated: False ,passive: False
+[LINE#108]The triplicate products were pooled in equal amounts and purified using AxyPrep PCR Clean-up Kit (Axygen Biosciences, CA, USA).
+0.913	[*A*]The triplicate products[*R*]using[*A*]AxyPrep PCR Clean - up Kit	context()	negated: False ,passive: False
+0.751	[*A*]The triplicate products[*R*]were purified	context()	negated: False ,passive: False
+0.911	[*A*]The triplicate products[*R*]were pooled[*A*]in equal amounts	context()	negated: False ,passive: True
+[LINE#109] The purified PCR products from different soil samples contained 1.50 4.64 ng l-1 DNA and were pooled in equal quantities for pyrosequencing in one run, which was performed commercially at Shanghai Majorbio Bio-pharm Biotechnology Co., Ltd., on a Roche GS 454 FLX platform.
+0.905	[*A*]one run[*R*]was performed commercially[*A*]at Shanghai Majorbio Bio-pharm Biotechnology Co. , Ltd.	context()	negated: False ,passive: True
+0.904	[*A*]The purified PCR products[*R*]were pooled[*A*]for pyrosequencing in one run	context()	negated: False ,passive: True
+0.999	[*A*]The purified PCR products from different soil samples[*R*]contained[*A*]1.50 4.64 ng l - 1 dna	context()	negated: False ,passive: False
+0.943	[*A*]The purified PCR products from different soil samples[*R*]contained[*A*]1.50 4.64 ng l - 1 DNA	context()	negated: False ,passive: False
+[LINE#110]Sequences were submitted to DDBJ database under the accession number DRA000962.Sequence treatment follows the established procedures described by Jumpponen and Jones (2009) and Jumpponen et al.
+0.990	[*A*]by Jumpponen and Jones (2009) and Jumpponen et al[*R*]described[*A*]the established procedures	context()	negated: False ,passive: False
+0.911	[*A*]Sequences[*R*]were submitted[*A*]to DDBJ database[*A*]under the accession number DRA000962.Sequence treatment	context()	negated: False ,passive: True
+[LINE#111](2010), with modifications of using a few other software packages.
+[LINE#112]First, for quality control, sequences containing no valid sequencing primer ITS2 (allowing 2 mismatches) and no source tag were removed using the trim.seqs script in MOTHUR v. 1.29.2 (Schloss et al., 2009).
+0.751	[*A*]no source tag[*R*]were removed	context()	negated: False ,passive: False
+0.911	[*A*]sequences[*R*]containing[*A*]no valid sequencing primer ITS2	context()	negated: False ,passive: False
+[LINE#113]This program was also used to bin sequences to each sample based on source tags when samples were treated separately.
+0.713	[*A*]samples[*R*]were treated separately	context()	negated: False ,passive: False
+0.880	[*A*]This program[*R*]was used[*A*]to bin sequences	context()	negated: False ,passive: True
+[LINE#114] Second, the residue sequences from the highly conserved 18S and 5.8S genes that flank the ITS1 marker were removed using Fungal ITS Extractor 1.1 (Nilsson et al., 2010), as the presence of these fragments may distort sequence clustering and similarity searches.
+0.926	[*A*]the presence of these fragments[*R*]may distort[*A*]sequence clustering and similarity searches	context()	negated: False ,passive: False
+0.803	[*A*]the ITS1 marker[*R*]were removed	context()	negated: False ,passive: False
+0.858	[*A*]the highly conserved 18S and 5.8S genes[*R*]flank	context()	negated: False ,passive: False
+[LINE#115]Tags and adaptor A and B were also removed using this software.
+0.914	[*A*]adaptor B[*R*]using[*A*]this software	context()	negated: False ,passive: False
+0.708	[*A*]adaptor B[*R*]were removed	context()	negated: False ,passive: False
+0.859	[*A*]adaptor A[*R*]were removed[*A*]using this software	context()	negated: False ,passive: True
+0.786	[*A*]Tags[*R*]using[*A*]this software	context()	negated: False ,passive: False
+0.455	[*A*]Tags[*R*]were removed	context()	negated: False ,passive: False
+[LINE#116]After this step, only ITS1 region sequences remained for further analyses.
+0.953	[*A*]only ITS1 region sequences[*R*]remained[*A*]for further analyses[*A*]After this step	context()	negated: False ,passive: True
+[LINE#117]Third, sequences were filtered again using MOTHUR to remove the sequences shorter than 100 bp.
+0.896	[*A*]sequences[*R*]using[*A*]MOTHUR[*A*]to remove the sequences shorter than 100 bp	context()	negated: False ,passive: False
+0.942	[*A*]sequences[*R*]were filtered[*A*]again[*A*]using MOTHUR to remove the sequences shorter than 100 bp	context()	negated: False ,passive: True
+[LINE#118]Fourth, the sequences were aligned with CAP3 (Huang and Madan, 1999) and the operational taxonomic units (OTUs) were assigned at 97% identity level using a minimum overlap of 100 bp, with other parameters left at defaults.
+0.925	[*A*]other parameters[*R*]left[*A*]at defaults	context()	negated: False ,passive: True
+0.947	[*A*]the sequences[*R*]were aligned[*A*]with CAP3 (Huang and Madan, 1999) and the operational taxonomic units	context()	negated: False ,passive: True
+[LINE#119]Last, the OTU sequences were searched against NCBI database using BLAST to assign their phylogenetic associations.
+0.803	[*A*]the OTU sequences[*R*]were searched	context()	negated: False ,passive: False
+[LINE#120]On average, 12,266 reads per sample were obtained, and after filtering 9136 high-quality sequences per sample were left.
+0.856	[*A*]12,266 after filtering 9136 high - quality sequences per sample[*R*]were left	context()	negated: False ,passive: False
+0.769	[*A*]12,266 reads per sample[*R*]were obtained	context()	negated: False ,passive: False
+[LINE#121]Total number of OTUs assigned to healthy and diseased soils was 181 and 210 respectively.
+0.834	[*A*]Total number of OTUs assigned to healthy and diseased soils[*R*]had respectively of[*A*]181	context()	negated: False ,passive: False
+0.973	[*A*]Total number of OTUs assigned to healthy and diseased soils[*R*]was[*A*]181	context()	negated: False ,passive: False
+0.998	[*A*]OTUs[*R*]had Total number assigned to healthy and diseased soils of[*A*]181	context()	negated: False ,passive: False
+0.858	[*A*]Total number of OTUs[*R*]was[*A*]181 and 210[*A*]respectively	context()	negated: False ,passive: True
+0.939	[*A*]Total number of OTUs[*R*]assigned[*A*]to healthy and diseased soils	context()	negated: False ,passive: True
+[LINE#122]The OTU abundances were normalized into relative abundances (RA, % in present study).
+0.933	[*A*]The OTU abundances[*R*]were normalized[*A*]into relative abundances	context()	negated: False ,passive: True
+[LINE#123]All undetected/missing values were set to zero. .
+0.814	[*A*]All undetected/missing values[*R*]were set[*A*]to zero	context()	negated: False ,passive: True
+[LINE#124]Network analysisNetwork analysis was performed using the Molecular Ecological Network Analyses Pipeline (http://ieg2.ou.edu/MENA/main.cgi).
+0.934	[*A*]Network analysisNetwork analysis[*R*]using[*A*]the Molecular Ecological Network Analyses Pipeline	context()	negated: False ,passive: False
+0.803	[*A*]Network analysisNetwork analysis[*R*]was performed	context()	negated: False ,passive: False
+[LINE#125]More information on theories, algorithms, pipeline structure and procedures can be found in references (Deng et al., 2012; Zhou et al., 2010, 2011).
+0.919	[*A*]More information on procedures[*R*]can be found[*A*]in references	context()	negated: False ,passive: True
+0.926	[*A*]More information on pipeline structure[*R*]can be found[*A*]in references	context()	negated: False ,passive: True
+0.919	[*A*]More information on algorithms[*R*]can be found[*A*]in references	context()	negated: False ,passive: True
+0.919	[*A*]More information on theories[*R*]can be found[*A*]in references	context()	negated: False ,passive: True
+[LINE#126]Major practical steps are described as follows.
+0.911	[*A*]Major practical steps[*R*]are described[*A*]as follows	context()	negated: False ,passive: True
+[LINE#127]First, an RA matrix, a matrix of soil variable and an OTU annotation file were prepared in the formats as guided in the pipeline.
+0.955	[*A*]an RA matrix[*R*]were prepared[*A*]in the formats[*A*]as guided in the pipeline[*A*]First	context()	negated: False ,passive: True
+[LINE#128]Second, the RA matrix was submitted for network construction.
+0.933	[*A*]the RA matrix[*R*]was submitted[*A*]for network construction	context()	negated: False ,passive: True
+[LINE#129]Using default settings, a cutoff value (similarity threshold, st) for the similarity matrix was automatically generated.
+0.888	[*A*]a cutoff value (similarity threshold, st) for the similarity matrix[*R*]was automatically generated	context()	negated: False ,passive: False
+[LINE#130]A link between a pair of OTUs is assigned when the correlation between their RAs exceeds this threshold value.
+0.762	[*A*]the correlation between their RAs[*R*]exceeds[*A*]this threshold value	context()	negated: False ,passive: False
+0.955	[*A*]A link between a pair of OTUs[*R*]is assigned[*A*]when the correlation between their RAs exceeds this threshold value	context()	negated: False ,passive: True
+[LINE#131]Third, calculations on "global network properties", the "individual nodes' centrality", and the "module separation and modularity" were performed.
+[LINE#132]A module (or a cluster) is a group of nodes more densely connected to each other than to nodes outside the group.
+0.713	[*A*]nodes[*R*]more densely connected	context()	negated: False ,passive: False
+0.913	[*A*]a cluster[*R*]is[*A*]a group of nodes	context()	negated: False ,passive: True
+0.749	[*A*]nodes[*R*]more densely connected[*A*]to each other	context()	negated: False ,passive: True
+0.944	[*A*]A module[*R*]is[*A*]a group of nodes more densely connected to each other than to nodes outside the group	context()	negated: False ,passive: True
+[LINE#133]Modularity is a value measuring how well a network is divided into modules.
+0.882	[*A*]a network[*R*]is divided[*A*]into modules	context(a value measuring)	negated: False ,passive: True
+0.882	[*A*]a value[*R*]measuring[*A*]how well a network is divided into modules	context()	negated: False ,passive: False
+0.961	[*A*]Modularity[*R*]is[*A*]a value measuring how well a network is divided into modules	context()	negated: False ,passive: True
+[LINE#134]Fourth, the "output for Cytoscape visualization" was run by choosing "greedy modularity optimization mode".
+0.890	[*A*]Fourth[*R*]by choosing[*A*]greedy modularity optimization mode	context()	negated: False ,passive: False
+0.906	[*A*]Fourth[*R*]was run[*A*]by choosing "greedy modularity optimization mode	context()	negated: False ,passive: True
+[LINE#135]Three files were generated for network graph visualization.
+0.903	[*A*]Three files[*R*]were generated[*A*]for network graph visualization	context()	negated: False ,passive: True
+[LINE#136]Detail uses of Cytoscape can be found elsewhere (Shannon et al., 2003).
+0.774	[*A*]Detail[*R*]can be found[*A*]elsewhere	context()	negated: False ,passive: True
+0.771	[*A*]Detail[*R*]uses	context()	negated: False ,passive: False
+[LINE#137]Fifth, the "randomize the network structure and then calculate network" was run.
+0.805	[*A*]calculate network[*R*]was run[*A*]then	context()	negated: False ,passive: True
+[LINE#138]Properties of random and empirical networks were compared.
+0.769	[*A*]Properties of empirical networks[*R*]were compared	context()	negated: False ,passive: False
+0.769	[*A*]Properties of random networks[*R*]were compared	context()	negated: False ,passive: False
+[LINE#139]Sixth, the gene/OTU significances (GS) with environmental traits were calculated.
+0.899	[*A*]the gene/OTU significances (GS) with environmental traits[*R*]were calculated	context()	negated: False ,passive: False
+[LINE#140]A table showing significance values of each OTU against each soil variable was downloadable.
+0.939	[*A*]A table showing significance values of each OTU against each soil variable[*R*]was[*A*]downloadable	context()	negated: False ,passive: True
+[LINE#141]Mantel test to correlate GS and network connectivity was run after the soil variable matrix was uploaded and the option of Euclidean distance was selected.
+0.785	[*A*]the option of Euclidean distance[*R*]was selected	context()	negated: False ,passive: False
+0.903	[*A*]network connectivity[*R*]was run[*A*]after the option of Euclidean distance was selected	context()	negated: False ,passive: True
+0.903	[*A*]network connectivity[*R*]was run[*A*]after the soil variable matrix was uploaded	context()	negated: False ,passive: True
+0.915	[*A*]Mantel test to correlate GS was run after the option of Euclidean distance[*R*]was selected	context()	negated: False ,passive: False
+0.855	[*A*]GS[*R*]was run[*A*]after the option of Euclidean distance	context()	negated: False ,passive: True
+0.769	[*A*]the soil variable matrix[*R*]was uploaded	context()	negated: False ,passive: False
+0.944	[*A*]Mantel test to correlate GS[*R*]was run[*A*]after the soil variable matrix was uploaded	context()	negated: False ,passive: True
+[LINE#142]The correlation coefficient and the significance between network connectivity and GS of soil variables were shown.
+0.857	[*A*]the significance between GS of soil variables[*R*]were shown	context()	negated: False ,passive: False
+0.785	[*A*]the significance between network connectivity[*R*]were shown	context()	negated: False ,passive: False
+0.751	[*A*]The correlation coefficient[*R*]were shown	context()	negated: False ,passive: False
+[LINE#143]Options are available for selecting different combinations of soil variables and phylogeny level of OTUs in the annotation file.
+0.942	[*A*]Options[*R*]are[*A*]available for selecting different combinations of phylogeny level of OTUs in the annotation file	context()	negated: False ,passive: True
+0.894	[*A*]Options[*R*]are[*A*]available for selecting different combinations of soil variables	context()	negated: False ,passive: True
+[LINE#144]In present study, all soil variables and three phylogeny levels (genus, family and order) were included individually as well as in combinations.
+0.928	[*A*]three phylogeny levels[*R*]were included[*A*]In present study	context()	negated: False ,passive: True
+0.948	[*A*]all soil variables[*R*]were included[*A*]individually as well as in combinations[*A*]In present study	context()	negated: False ,passive: True
+[LINE#145]Finally, the "module eigengene analysis" was performed.
+0.847	[*A*]the "module eigengene analysis[*R*]was performed[*A*]Finally	context()	negated: False ,passive: True
+[LINE#146]Small modules with less than 5 nodes were ignored.
+0.816	[*A*]Small modules with less than 5 nodes[*R*]were ignored	context()	negated: False ,passive: False
+[LINE#147]Graphs and heatmaps showing the module-eigengenes of each module, the hierarchy structure of module eigengene, and the correlations between modules and soil variables were shown.
+0.843	[*A*]the hierarchy structure of the correlations between soil variables[*R*]were shown	context()	negated: False ,passive: False
+0.830	[*A*]the hierarchy structure of the correlations between modules[*R*]were shown	context()	negated: False ,passive: False
+0.894	[*A*]heatmaps[*R*]showing[*A*]the module - eigengenes of each module	context()	negated: False ,passive: False
+0.801	[*A*]the hierarchy structure of module eigengene[*R*]were shown	context()	negated: False ,passive: False
+[LINE#148]The significant module memberships (MMs) were also available.
+0.771	[*A*]The significant module memberships[*R*]were[*A*]also[*A*]available	context()	negated: False ,passive: True
+[LINE#149]Key topological properties of the networksAs shown in Fig. 1, networks with 150 and 171 nodes were constructed from healthy and diseased soil samples respectively.
+0.901	[*A*]the networksAs[*R*]shown respectively[*A*]in Fig soil samples	context()	negated: False ,passive: True
+[LINE#150]The connectivity fitted the power-law quite well, with R2 values being 0.90 and 0.84 for healthy and diseased networks respectively, indicating the scale-free property of the networks.
+0.903	[*A*]R2 values[*R*]being[*A*]0.84 for diseased networks[*A*]respectively	context()	negated: False ,passive: True
+0.903	[*A*]R2 values[*R*]being[*A*]0.84 for healthy networks[*A*]respectively	context()	negated: False ,passive: True
+0.903	[*A*]R2 values[*R*]being[*A*]0.90 for diseased networks[*A*]respectively	context()	negated: False ,passive: True
+0.903	[*A*]R2 values[*R*]being[*A*]0.90 for healthy networks[*A*]respectively	context()	negated: False ,passive: True
+0.641	[*A*]The connectivity[*R*]fitted quite well	context()	negated: False ,passive: False
+[LINE#151]The average path length (GD, a value measuring the efficiency of information or mass transport on a network) was 4.90 and 3.64 for healthy and diseased networks respectively, which were comparable to those of networks that displayed small-world behavior, as summarized by Brown et al.
+0.329	[*A*]healthy and diseased networks[*R*]had The average path length of[*A*]4.90	context()	negated: False ,passive: False
+0.834	[*A*]The average path length[*R*]had respectively of[*A*]4.90	context()	negated: False ,passive: False
+0.973	[*A*]The average path length[*R*]was[*A*]4.90	context()	negated: False ,passive: False
+0.897	[*A*]those of networks[*R*]displayed[*A*]small-world behavior	context()	negated: False ,passive: False
+0.927	[*A*]The average path length[*R*]was[*A*]4.90 and 3.64 for healthy and diseased networks[*A*]respectively	context()	negated: False ,passive: True
+0.937	[*A*]a value[*R*]measuring[*A*]the efficiency of information or mass transport on a network	context()	negated: False ,passive: False
+[LINE#152](2012), indicating that the networks constructed in present work had the property of small world.
+0.903	[*A*]the networks[*R*]constructed[*A*]in present work	context()	negated: False ,passive: True
+[LINE#153]Furthermore average clustering coefficients of empirical networks (0.210.24) were significantly higher than the values of corresponding random networks (0.030.06), suggesting again the small-world behavior of the constructed networks.
+0.949	[*A*]average clustering coefficients of empirical networks[*R*]were[*A*]significantly higher than the values of corresponding random networks[*A*]suggesting again the small-world behavior of the constructed networks	context()	negated: False ,passive: True
+[LINE#154]In present work, the modularity values were from 0.61 to 0.64, which were higher than the suggested threshold value 0.4 for a modular structure (Newman, 2006), higher than the values of corresponding randomized networks, and were also similar to the values of most modular networks as summarized by Deng et al.
+0.948	[*A*]the modularity values[*R*]were[*A*]from 0.61 to 0.64[*A*]In present work	context()	negated: False ,passive: True
+[LINE#155](2012), suggesting that the constructed networks were also modular.
+[LINE#156]All these key topological properties qualified the constructed networks for further analysis..
+[LINE#157] Structure and composition are similar between healthy and diseased networksA large proportion of nodes(107) was shared between healthy and diseased networks (Fig. 2 A).
+0.894	[*A*]composition[*R*]are[*A*]similar between healthy and diseased large proportion of nodes	context()	negated: False ,passive: True
+0.184	[*A*]Structure[*R*]are[*A*]similar between healthy and diseased large proportion of nodes	context()	negated: False ,passive: True
+[LINE#158]Nodes belonging to Hypocreales and Sordariales genera dominated in both networks.
+0.927	[*A*]Sordariales genera[*R*]dominated[*A*]in both networks	context()	negated: False ,passive: True
+0.911	[*A*]Nodes[*R*]belonging[*A*]to Sordariales genera	context()	negated: False ,passive: False
+0.891	[*A*]Nodes[*R*]belonging[*A*]to Hypocreales	context(Nodes belonging to Hypocreales dominated)	negated: False ,passive: False
+0.925	[*A*]Nodes belonging to Hypocreales[*R*]dominated[*A*]in both networks	context()	negated: False ,passive: False
+[LINE#159]Furthermore, the connectivity and clustering coefficient of total nodes between two networks were not significantly different by paired t test (with respective p values 0.403 and 0.486), and those of the shared nodes were also not significantly different (with respective p values 0.169 and 0.943).
+0.814	[*A*]those of the shared nodes[*R*]were[*A*]also[*A*]not significantly different	context()	negated: False ,passive: True
+0.929	[*A*]the connectivity and clustering coefficient of total nodes between two networks[*R*]were not[*A*]significantly different by paired t test (with respective p values 0.403 and 0.486), and those of the shared nodes were also not significantly different (with respective p values	context()	negated: True ,passive: True
+[LINE#160]These data suggested that the node composition of two networks was similar. .
+0.837	[*A*]the node composition of two networks[*R*]was[*A*]similar	context(These data suggested)	negated: False ,passive: True
+0.731	[*A*]These data[*R*]suggested[*A*]that the node composition of two networks was similar	context()	negated: False ,passive: False
+[LINE#161] Difference in eigengene network between healthy and diseased networksModule eigengene is a representative value summarizing a module expression profile by singular value decomposition.
+0.911	[*A*]a representative value[*R*]summarizing[*A*]a module expression profile	context()	negated: False ,passive: False
+0.983	[*A*]Difference in eigengene network between healthy and diseased networksModule eigengene[*R*]is[*A*]a representative value summarizing a module expression profile by singular value decomposition	context()	negated: False ,passive: True
+[LINE#162]Eigengene network analysis calculates the correlations among module eigengenes and thus shows the higher-order organizations of a network structure.
+0.920	[*A*]Eigengene network analysis[*R*]shows[*A*]the higher-order organizations of a network structure	context()	negated: False ,passive: False
+0.911	[*A*]Eigengene network analysis[*R*]calculates[*A*]the correlations among module eigengenes	context()	negated: False ,passive: False
+[LINE#163]In present work, module eigengenes (the  values shown in Fig. 1) explained 38-63% of the variations of RA across different samples in healthy network and 37-63% of that in diseased network.
+0.999	[*A*]module eigengenes[*R*]explained[*A*]37 -63 %	context()	negated: False ,passive: False
+0.837	[*A*]module eigengenes[*R*]explained[*A*]37-63 % of that[*A*]In present work	context()	negated: False ,passive: False
+0.999	[*A*]module eigengenes[*R*]explained[*A*]38 -63 %	context()	negated: False ,passive: False
+0.964	[*A*]module eigengenes[*R*]explained[*A*]38-63 % of the variations of RA across different samples in healthy network in diseased network[*A*]In present work	context()	negated: False ,passive: False
+0.937	[*A*]the values[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#164]Six module eigengenes explained more than 50%.
+0.999	[*A*]Six module eigengenes[*R*]explained[*A*]more than 50 %	context()	negated: False ,passive: False
+0.911	[*A*]Six module eigengenes[*R*]explained[*A*]more than 50%	context()	negated: False ,passive: False
+[LINE#165]These values were similar to those found in human (Langfelder and Horvath, 2007) as well as in soil bacteria eigengene networks (Deng et al., 2012), suggesting that the eigengenes in present work represent the module profiles relatively well and thus are qualified for eigengene network analysis.
+0.269	[*A*]those[*R*]found[*A*]in human ( Horvath , 2007 ) eigengene networks	context()	negated: False ,passive: True
+0.269	[*A*]those[*R*]found[*A*]in human ( Langfelder , 2007 ) eigengene networks	context()	negated: False ,passive: True
+0.845	[*A*]These values[*R*]were[*A*]similar to those[*A*]suggesting that the eigengenes in present work thus are qualified for eigengene network analysis	context()	negated: False ,passive: True
+0.234	[*A*]those[*R*]found[*A*]in soil bacteria	context()	negated: False ,passive: True
+0.845	[*A*]These values[*R*]were[*A*]similar to those[*A*]suggesting that the eigengenes in present work represent the module profiles relatively well	context()	negated: False ,passive: True
+[LINE#166]Eigengene network analysis revealed an obvious difference of higher-order organization between two networks (Fig. 1, right panel of A and B).
+0.943	[*A*]Eigengene network analysis[*R*]revealed[*A*]an obvious difference of higher-order organization between two networks	context()	negated: False ,passive: False
+[LINE#167]In healthy network, the eigengenes of module H6, H8 and H7 showed significant correlations (r  0.78, p  0.05; equivalent to a clustering height at 0.4 as marked by the dash line) and clustered together as one meta-module and those of H3 and H4 as another (Fig. 1).
+0.855	[*A*]H6[*R*]showed[*A*]significant correlations	context()	negated: False ,passive: False
+0.951	[*A*]the eigengenes of H7[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as those of H4 as another ( Fig[*A*]In healthy network	context()	negated: False ,passive: False
+0.951	[*A*]the eigengenes of H7[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as those of H3 as another ( Fig[*A*]In healthy network	context()	negated: False ,passive: False
+0.951	[*A*]the eigengenes of H8[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as those of H4 as another ( Fig[*A*]In healthy network	context()	negated: False ,passive: False
+0.951	[*A*]the eigengenes of H8[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as those of H3 as another ( Fig[*A*]In healthy network	context()	negated: False ,passive: False
+0.955	[*A*]the eigengenes of module H6[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as those of H4 as another[*A*]In healthy network	context()	negated: False ,passive: False
+0.955	[*A*]the eigengenes of module H6[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as those of H3 as another[*A*]In healthy network	context()	negated: False ,passive: False
+0.851	[*A*]the eigengenes of H7[*R*]clustered together[*A*]as those of H4 as another ( Fig	context()	negated: False ,passive: True
+0.851	[*A*]the eigengenes of H7[*R*]clustered together[*A*]as those of H3 as another ( Fig	context()	negated: False ,passive: True
+0.851	[*A*]the eigengenes of H8[*R*]clustered together[*A*]as those of H4 as another ( Fig	context()	negated: False ,passive: True
+0.851	[*A*]the eigengenes of H8[*R*]clustered together[*A*]as those of H3 as another ( Fig	context()	negated: False ,passive: True
+0.862	[*A*]the eigengenes of module H6[*R*]clustered together[*A*]as those of H4 as another	context()	negated: False ,passive: False
+0.862	[*A*]the eigengenes of module H6[*R*]clustered together[*A*]as those of H3 as another	context()	negated: False ,passive: False
+0.913	[*A*]H6[*R*]showed[*A*]significant correlations[*A*]In healthy network	context()	negated: False ,passive: False
+0.978	[*A*]the eigengenes of H7[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as one meta - module[*A*]In healthy network	context()	negated: False ,passive: False
+0.978	[*A*]the eigengenes of H8[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as one meta - module[*A*]In healthy network	context()	negated: False ,passive: False
+0.980	[*A*]the eigengenes of module H6[*R*]showed[*A*]significant correlations[*A*]r 0.78 and clustered together as one meta - module[*A*]In healthy network	context()	negated: False ,passive: False
+0.928	[*A*]the eigengenes of H7[*R*]clustered together[*A*]as one meta - module	context()	negated: False ,passive: True
+0.965	[*A*]the eigengenes of H7[*R*]showed[*A*]significant correlations[*A*]In healthy network	context()	negated: False ,passive: False
+0.928	[*A*]the eigengenes of H8[*R*]clustered together[*A*]as one meta - module	context()	negated: False ,passive: True
+0.965	[*A*]the eigengenes of H8[*R*]showed[*A*]significant correlations[*A*]In healthy network	context()	negated: False ,passive: False
+0.807	[*A*]the eigengenes of module H6[*R*]clustered together	context()	negated: False ,passive: False
+0.968	[*A*]the eigengenes of module H6[*R*]showed[*A*]significant correlations[*A*]In healthy network	context()	negated: False ,passive: False
+[LINE#168]These two meta-modules comprised 92 nodes, accounting for 61% of total number of nodes in the healthy network.
+0.991	[*A*]two meta - modules[*R*]comprised[*A*]92 nodes	context()	negated: False ,passive: False
+0.999	[*A*]These two meta modules[*R*]comprised[*A*]92 nodes	context()	negated: False ,passive: False
+0.944	[*A*]These two meta-modules[*R*]accounting[*A*]for 61% of total number of nodes in the healthy network	context()	negated: False ,passive: False
+0.952	[*A*]These two meta-modules[*R*]comprised[*A*]92 nodes[*A*]accounting for 61% of total number of nodes in the healthy network	context()	negated: False ,passive: True
+[LINE#169]In diseased network, however, only one meta-module consisting of D1 and D3 was recognized.
+0.971	[*A*]only one meta - module consisting of D3[*R*]was recognized[*A*]In diseased network	context()	negated: False ,passive: True
+0.937	[*A*]only one meta - module[*R*]consisting[*A*]of D3	context()	negated: False ,passive: True
+0.971	[*A*]only one meta - module consisting of D1[*R*]was recognized[*A*]In diseased network	context()	negated: False ,passive: True
+0.937	[*A*]only one meta - module[*R*]consisting[*A*]of D1	context()	negated: False ,passive: True
+[LINE#170]This meta-module contained 63 nodes, accounting for only 37% of total number of nodes in the diseased network.
+0.999	[*A*]This meta module[*R*]contained[*A*]63 nodes	context()	negated: False ,passive: False
+0.901	[*A*]This meta-module[*R*]contained 63 nodes accounting[*A*]for only 37% of total number of nodes in the diseased network	context(This meta - module contained)	negated: False ,passive: False
+0.933	[*A*]This meta-module[*R*]contained[*A*]63 nodes[*A*]accounting for only 37% of total number of nodes in the diseased network	context()	negated: False ,passive: False
+[LINE#171] Because a module can be regarded as a group of co-expressed genes and a meta-module as a group of modules functionally interrelated (.
+0.769	[*A*]a group of modules[*R*]functionally interrelated	context()	negated: False ,passive: False
+0.937	[*A*]a module[*R*]can be regarded[*A*]as a meta - module as a group of modules	context()	negated: False ,passive: True
+0.903	[*A*]a module[*R*]can be regarded[*A*]as a group of co-expressed genes	context()	negated: False ,passive: True
+[LINE#172] Langfelder and Horvath, 2007; Oldham et al., 2008), our data suggested that more number of OTUs in healthy network were functionally interrelated than in diseased network.
+0.828	[*A*]more number of OTUs in healthy network[*R*]were functionally interrelated	context(our data suggested)	negated: False ,passive: False
+0.822	[*A*]more number of OTUs in healthy network[*R*]were functionally interrelated	context(our data suggested)	negated: False ,passive: False
+0.828	[*A*]more number of OTUs in healthy network[*R*]were functionally interrelated	context(our data suggested)	negated: False ,passive: False
+0.499	[*A*]our data[*R*]suggested[*A*]that more number of OTUs in healthy network were functionally interrelated than in diseased network	context()	negated: False ,passive: False
+[LINE#173]This property is important for us to perceive how well a community is operated. .
+0.687	[*A*]a community[*R*]is operated	context(us to perceive)	negated: False ,passive: False
+0.397	[*A*]us[*R*]to perceive[*A*]how well a community is operated	context()	negated: False ,passive: False
+[LINE#174] Difference in presence of generalists between healthy and diseased networksUsing the threshold values of Zi (measuring how well a node is connected to other nodes in its own module)(measuring how well a node is connected to nodes in different modules) proposed by Guimera and Amaral (2005) and simplified by Olesen et al.
+0.945	[*A*]the threshold values of Zi[*R*]proposed[*A*]by Amaral	context()	negated: False ,passive: True
+0.945	[*A*]the threshold values of Zi[*R*]simplified[*A*]by Olesen et al	context()	negated: False ,passive: True
+0.687	[*A*]a node[*R*]is connected	context(the threshold values of Zi measuring)	negated: False ,passive: False
+0.909	[*A*]the threshold values of Zi[*R*]measuring[*A*]how well a node is connected to other nodes in its own module	context()	negated: False ,passive: False
+0.945	[*A*]the threshold values of Zi[*R*]proposed[*A*]by Guimera	context()	negated: False ,passive: True
+[LINE#175](2007), all nodes fell into three categories (Fig. 3).
+0.925	[*A*]all nodes[*R*]fell[*A*]into three categories	context()	negated: False ,passive: True
+[LINE#176] Majority of nodes (>96%) from both networks were categorized as peripherals (specialists)that have only a few links and almost always link to the nodes within their own modules.
+0.710	[*A*]peripherals[*R*]have link[*A*]almost always	context()	negated: False ,passive: True
+0.877	[*A*]peripherals[*R*]have[*A*]only a few links	context()	negated: False ,passive: False
+0.957	[*A*]Majority of nodes ( > 96 % ) from both networks[*R*]were categorized[*A*]as peripherals	context()	negated: False ,passive: True
+[LINE#177] Three nodes belonging to Gibellulopsis nigrescens , Schizothecium inaequale (OTU839) and Humicola grisea (OTU491) from healthy network were categorized as module hubs (generalists)that are highly connected to many nodes in their own modules.
+0.698	[*A*]module hubs[*R*]are highly connected	context()	negated: False ,passive: False
+0.954	[*A*]Schizothecium inaequale (OTU839) and Humicola grisea (OTU491) from healthy network[*R*]were categorized[*A*]as module hubs	context()	negated: False ,passive: True
+0.918	[*A*]Three nodes[*R*]belonging[*A*]to Gibellulopsis nigrescens	context()	negated: False ,passive: False
+[LINE#178] Four nodes were categorized as connectors (generalists)that are highly connected to several modules, three belonging to uncultured Geomyces (OTU1064), Fusarium sp.
+0.992	[*A*]four nodes[*R*]were categorized as[*A*]connectors that are highly connected to several modules three belonging to uncultured Geomyces ( OTU1064 ) , Fusarium sp	context()	negated: False ,passive: False
+0.544	[*A*]three[*R*]belonging[*A*]to uncultured Geomyces	context()	negated: False ,passive: False
+0.903	[*A*]Four nodes[*R*]were categorized[*A*]as connectors	context()	negated: False ,passive: True
+[LINE#179]gM-156 (OTU432) and Fusarium sp.
+[LINE#180](OTU424) from healthy network and one belonging to uncultured Cortinarius (OTU1058) from diseased network.
+0.590	[*A*]one[*R*]belonging[*A*]to uncultured Cortinarius	context()	negated: False ,passive: False
+[LINE#181]Note that this single connector from diseased network was only marginal according to the threshold values.
+[LINE#182]There was no node falling into network hub (supergeneralists) category that acts as both module hub and connector.
+0.939	[*A*]network hub ( supergeneralists ) category[*R*]acts[*A*]as both module connector	context()	negated: False ,passive: False
+0.939	[*A*]network hub ( supergeneralists ) category[*R*]acts[*A*]as both module hub	context()	negated: False ,passive: False
+0.903	[*A*]no node[*R*]falling[*A*]into network hub ( supergeneralists ) category	context()	negated: False ,passive: True
+[LINE#183]Obviously more generalists existed in healthy network than in the diseased.
+0.903	[*A*]more generalists[*R*]existed[*A*]in healthy network	context()	negated: False ,passive: True
+[LINE#184]As their connectivity speaks, generalists bridge different nodes within their own modules and/or among different modules whereas specialists link to only a few nodes.
+0.949	[*A*]different modules[*R*]link[*A*]specialists	context()	negated: False ,passive: True
+0.821	[*A*]generalists[*R*]bridge[*A*]different nodes within their own modules	context()	negated: False ,passive: False
+0.341	[*A*]their connectivity[*R*]speaks	context()	negated: False ,passive: False
+[LINE#185]Thus the generalists are the key organisms to the communities.
+0.903	[*A*]the generalists[*R*]are[*A*]the key organisms to the communities	context()	negated: False ,passive: True
+[LINE#186]It is interesting to note that the nodes identified as generalists in healthy network were not absent in diseased network.
+0.903	[*A*]the nodes[*R*]identified[*A*]as generalists in healthy network	context()	negated: False ,passive: True
+[LINE#187] Rather, they were present as specialists in diseased network instead(Fig. 3), suggesting that the same OTUs exhibited different functions in the two different sets of soils.
+0.530	[*A*]they[*R*]were[*A*]present as specialists in diseased network[*A*]suggesting that the same OTUs exhibited different functions in the two different sets of soils	context()	negated: False ,passive: True
+[LINE#188]This role-shift was not limited to generalist/specialist OTUs but was observed in many other OTUs (see below).
+0.918	[*A*]This role[*R*]was observed[*A*]in many other OTUs ( see below	context()	negated: False ,passive: True
+0.931	[*A*]This role - shift[*R*]was not limited[*A*]to generalist / specialist OTUs	context()	negated: True ,passive: True
+[LINE#189]Difference in phylogenetic distribution of module memberships between healthy and diseased networksModule eigengene analysis showed that all modules had significant (p  0.05) module memberships (MMs), also key organisms in corresponding modules.
+0.908	[*A*]all modules[*R*]had[*A*]significant (p  0.05) module memberships	context(Difference in phylogenetic distribution of module memberships between healthy and diseased networksModule eigengene analysis showed)	negated: False ,passive: False
+0.933	[*A*]Difference in phylogenetic distribution of module memberships between healthy and diseased networksModule eigengene analysis[*R*]showed[*A*]that all modules had significant (p  0.05) module memberships	context()	negated: False ,passive: False
+[LINE#190]The number of MMs ranged from 5 to 18 in different modules, resulting in 79 and 71 MMs in total in healthy and diseased networks respectively.
+0.961	[*A*]The number of MMs[*R*]ranged[*A*]from 5[*A*]to 18[*A*]in different modules[*A*]resulting in 79 and 71 MMs in total in healthy and diseased networks respectively	context()	negated: False ,passive: True
+[LINE#191] Phylogenetically the proportions of MMs belonging to Hypocreales (21.5%) and Sordariales (20.3%) were similar in healthy network, but were substantially different in diseased network (36.6% and 11.3% respectively).
+[LINE#192]When total nodes were considered, however, the corresponding proportions were not substantially different between the two networks (Fig. 2 A).
+0.948	[*A*]the corresponding proportions[*R*]were not[*A*]substantially different between the two networks[*A*]When total nodes were considered	context()	negated: True ,passive: True
+0.732	[*A*]total nodes[*R*]were considered	context()	negated: False ,passive: False
+[LINE#193]These data suggested that the MMs belonging to Sordariales were enriched in healthy network and those belonging to Hypocreales were enriched in diseased network.
+0.206	[*A*]those[*R*]were enriched[*A*]in diseased network	context()	negated: False ,passive: True
+0.862	[*A*]the MMs[*R*]belonging[*A*]to Sordariales	context(These data suggested)	negated: False ,passive: False
+0.766	[*A*]These data[*R*]suggested[*A*]that the MMs belonging to Sordariales	context()	negated: False ,passive: False
+[LINE#194]Of the 150 total significant MMs, 24 were shared between the two networks (Fig. 2 B), accounting for 30% and 33% in respective networks.
+0.992	[*A*]24[*R*]were shared between[*A*]the two networks	context()	negated: False ,passive: False
+0.657	[*A*]24[*R*]were shared[*A*]between the two networks[*A*]accounting for 30% and 33% in respective networks	context()	negated: False ,passive: True
+[LINE#195]The majority unshared (70%) either presented as MMs in one network but as non-MMs (p > 0.05) in the other, or was phased out of the interactions, suggesting that a large portion of the MMs changed their functions as their habits were changed.
+0.589	[*A*]non-MMs[*R*]p[*A*]0.05[*A*]in the other	context()	negated: False ,passive: False
+0.341	[*A*]their habits[*R*]were changed	context()	negated: False ,passive: False
+0.732	[*A*]The majority[*R*]unshared	context()	negated: False ,passive: False
+[LINE#196]These data also suggested that the composition of MMs was substantially different between the two networks. .
+0.940	[*A*]the composition of MMs[*R*]was[*A*]substantially different between the two networks	context(These data suggested)	negated: False ,passive: True
+0.810	[*A*]These data[*R*]suggested[*A*]that the composition of MMs was substantially different between the two networks	context()	negated: False ,passive: False
+[LINE#197] Difference of OTUs' responses to soil variables between healthy and diseased networksMajority of module eigengenes in both networks were significantly (p  0.05)correlated with one or more soil variables, either positively or negatively (Table 1).
+0.982	[*A*]Difference of OTUs' responses to soil variables between healthy and diseased networksMajority of module eigengenes in both networks[*R*]correlated[*A*]with one or more soil variables	context()	negated: False ,passive: True
+0.957	[*A*]Difference of OTUs' responses to soil variables between healthy and diseased networksMajority of module eigengenes in both networks[*R*]were correlated positively[*A*]significantly	context()	negated: False ,passive: True
+[LINE#198] As for the positive, correlations of OM vs H6, OM vs H7, TN vs H3,.
+[LINE#199]NH4+-N vs H1, NO3--N vs H7 and EC vs H8 in healthy network were significant.
+0.962	[*A*]NH4+ - N vs H1[*R*]were[*A*]significant[*A*]in healthy network	context()	negated: False ,passive: True
+[LINE#200]These involved modules contained 83 OTUs, accounting for 55% of total number of OTUs in healthy network.
+0.999	[*A*]These involved modules[*R*]contained[*A*]83 otus	context()	negated: False ,passive: False
+0.909	[*A*]These involved modules[*R*]contained 83 OTUs accounting[*A*]for 55% of total number of OTUs in healthy network	context(These involved modules contained)	negated: False ,passive: False
+0.938	[*A*]These involved modules[*R*]contained[*A*]83 OTUs[*A*]accounting for 55% of total number of OTUs in healthy network	context()	negated: False ,passive: False
+[LINE#201]In contrast, only one correlation EC vs D3 in diseased network was significant.
+0.921	[*A*]only one correlation EC vs D3 in diseased network[*R*]was[*A*]significant	context()	negated: False ,passive: True
+[LINE#202]This module contained 33 OTUs, accounting for only 19% of total OTUs in diseased network.
+0.999	[*A*]This module[*R*]contained[*A*]33 otus	context()	negated: False ,passive: False
+0.849	[*A*]This module[*R*]contained 33 OTUs accounting[*A*]for only 19% of total OTUs	context(This module contained)	negated: False ,passive: False
+0.933	[*A*]This module[*R*]contained[*A*]33 OTUs[*A*]accounting for only 19% of total OTUs in diseased network	context()	negated: False ,passive: False
+[LINE#203]As for the negative, correlations of EC vs H8, OM vs H1, NO3--N vs H1, EC vs H6 and pH vs H6 in healthy network were significant.
+0.888	[*A*]EC vs pH vs H6 in healthy network[*R*]were[*A*]significant	context()	negated: False ,passive: True
+0.888	[*A*]EC vs H6 vs H6 in healthy network[*R*]were[*A*]significant	context()	negated: False ,passive: True
+[LINE#204]The involved modules contained 55 OTUs, accounting for 37% of total OTUs in healthy network.
+0.999	[*A*]The involved modules[*R*]contained[*A*]55 otus	context()	negated: False ,passive: False
+0.861	[*A*]The involved modules[*R*]contained 55 OTUs accounting[*A*]for 37% of total OTUs in healthy network	context(The involved modules contained)	negated: False ,passive: False
+0.938	[*A*]The involved modules[*R*]contained[*A*]55 OTUs[*A*]accounting for 37% of total OTUs in healthy network	context()	negated: False ,passive: False
+[LINE#205]In contrast, correlations of OM vs D5, pH vs D1, EC vs D4, TN vs D3 and NH4+-N vs D3 were significant in diseased network with negative correlation.
+0.976	[*A*]correlations of OM vs D5 , pH vs D1 , EC vs D4 , TN vs NH4+ - N vs D3[*R*]were[*A*]significant[*A*]in diseased network[*A*]with negative correlation	context()	negated: False ,passive: True
+0.965	[*A*]correlations of OM vs D5 , pH vs D1 , EC vs D4 , TN vs D3[*R*]were[*A*]significant in diseased network with negative correlation	context()	negated: False ,passive: True
+[LINE#206]The involved modules contained 108 OTUs, accounting for 63% of total OTUs.
+0.999	[*A*]The involved modules[*R*]contained[*A*]108 otus	context()	negated: False ,passive: False
+0.861	[*A*]The involved modules[*R*]contained 108 OTUs accounting[*A*]for 63% of total OTUs	context(The involved modules contained)	negated: False ,passive: False
+0.905	[*A*]The involved modules[*R*]contained[*A*]108 OTUs[*A*]accounting for 63% of total OTUs	context()	negated: False ,passive: False
+[LINE#207]Collectively, these data suggested that majority of fungi in healthy soils were stimulated by a certain set of soil variables but in diseased soils were inhibited.
+0.913	[*A*]majority of fungi in healthy soils[*R*]were stimulated[*A*]in diseased soils	context(these data suggested)	negated: False ,passive: True
+0.808	[*A*]these data[*R*]suggested[*A*]that majority of fungi in healthy soils were stimulated in diseased soils were inhibited	context()	negated: False ,passive: False
+0.913	[*A*]majority of fungi in healthy soils[*R*]were stimulated[*A*]by a certain set of soil variables	context(these data suggested)	negated: False ,passive: True
+0.808	[*A*]these data[*R*]suggested[*A*]that majority of fungi in healthy soils were stimulated by a certain set of soil variables were inhibited	context()	negated: False ,passive: False
+[LINE#208]The correlation between module eigengenes and soil variables can be applied to analyze nodes' role-shift and responsible soil factors.
+0.943	[*A*]The correlation between module eigengenes and soil variables[*R*]can be applied[*A*]to analyze nodes ' responsible soil factors	context()	negated: False ,passive: True
+0.943	[*A*]The correlation between module eigengenes and soil variables[*R*]can be applied[*A*]to analyze nodes ' role - shift soil factors	context()	negated: False ,passive: True
+[LINE#209]Generalist-specialist shift is particularly interesting because of their key importance to the overall community.
+0.891	[*A*]Generalist-specialist shift[*R*]is[*A*]particularly interesting[*A*]because of their key importance to the overall community	context()	negated: False ,passive: True
+[LINE#210]OTU491 belonging to Humicola grisea and OTU424 belonging to Fusarium sp.
+0.891	[*A*]OTU491[*R*]belonging to OTU424 belonging[*A*]to Fusarium sp	context(OTU491 belonging)	negated: False ,passive: False
+0.891	[*A*]OTU491[*R*]belonging[*A*]to OTU424	context()	negated: False ,passive: False
+0.891	[*A*]OTU491[*R*]belonging to Humicola grisea belonging[*A*]to Fusarium sp	context(OTU491 belonging)	negated: False ,passive: False
+0.891	[*A*]OTU491[*R*]belonging[*A*]to Humicola grisea	context()	negated: False ,passive: False
+[LINE#211] P47E2 as generalists resided in H2 and H5 modules both irresponsive to soil EC in healthy network(Fig. 2, Table 2), but became specialists residing in D4 module that was negatively correlated with EC only in diseased network (Table 2).
+0.991	[*A*]p47e2 as generalists[*R*]modules[*A*]both irresponsive soil in healthy network ( Fig . 2 )	context()	negated: False ,passive: False
+0.859	[*A*]P47E2 as generalists[*R*]became[*A*]specialists residing in D4 module that was negatively correlated with EC only in diseased network ( Table 2 )	context()	negated: False ,passive: True
+0.944	[*A*]P47E2 as generalists[*R*]modules[*A*]both irresponsive to soil EC in healthy network ( Fig . 2 )	context()	negated: False ,passive: False
+0.713	[*A*]generalists[*R*]resided	context()	negated: False ,passive: False
+0.945	[*A*]specialists residing in D4 module[*R*]was negatively correlated[*A*]with EC[*A*]only in diseased network	context()	negated: False ,passive: True
+[LINE#212]Although insignificant, EC was higher in diseased soil than that in healthy soil (Table S1), it was thus the increase of EC that suppressed their expressions and consequently caused their role losses as generalists.
+0.875	[*A*]the increase of EC[*R*]caused[*A*]their role losses[*A*]as generalists	context()	negated: False ,passive: False
+0.875	[*A*]the increase of EC[*R*]suppressed[*A*]their expressions	context()	negated: False ,passive: False
+0.701	[*A*]it[*R*]was[*A*]thus[*A*]the increase of EC[*A*]in healthy soil	context()	negated: False ,passive: True
+0.741	[*A*]EC[*R*]was[*A*]higher[*A*]in diseased soil than that	context()	negated: False ,passive: True
+[LINE#213]Similarly, OTU432 belonging to Fusarium sp.
+0.932	[*A*]OTU432[*R*]belonging[*A*]to Fusarium sp	context()	negated: False ,passive: False
+[LINE#214]gM-156 and OTU464 belonging to Gibellulopsis nigrescens as generalists resided in the H6 and H5 modules both irresponsive to TN, NH4+-N and EC in healthy network, but became specialists residing in D3 module that was negatively correlated with TN and NH4+-N and positively correlated with EC in diseased network.
+0.572	[*A*]both irresponsive[*R*]became[*A*]specialists residing in D3 module	context()	negated: False ,passive: True
+0.941	[*A*]OTU464 belonging to Gibellulopsis nigrescens as generalists[*R*]modules[*A*]both irresponsive[*A*]to EC	context()	negated: False ,passive: False
+0.910	[*A*]OTU464 belonging to Gibellulopsis nigrescens[*R*]became[*A*]specialists residing in D3 module that was negatively correlated with TN	context()	negated: False ,passive: True
+0.928	[*A*]D3 module[*R*]was negatively correlated[*A*]with NH4+ - N	context()	negated: False ,passive: True
+0.911	[*A*]specialists[*R*]residing[*A*]in D3 module	context()	negated: False ,passive: False
+0.949	[*A*]both irresponsive to TN[*R*]became[*A*]specialists residing in D3 module	context()	negated: False ,passive: True
+0.943	[*A*]OTU464 belonging to Gibellulopsis nigrescens as generalists[*R*]modules[*A*]both irresponsive to TN	context()	negated: False ,passive: False
+0.928	[*A*]D3 module[*R*]was negatively correlated[*A*]with TN	context()	negated: False ,passive: True
+0.835	[*A*]NH4+ - N[*R*]became[*A*]specialists residing in D3 module that was negatively correlated with NH4+ - N	context()	negated: False ,passive: True
+0.835	[*A*]NH4+ - N[*R*]became[*A*]specialists residing in D3 module that was negatively correlated with TN	context()	negated: False ,passive: True
+0.945	[*A*]specialists residing in D3 module[*R*]was negatively correlated[*A*]with NH4+ - N	context()	negated: False ,passive: True
+0.945	[*A*]specialists residing in D3 module[*R*]was negatively correlated[*A*]with TN	context()	negated: False ,passive: True
+0.953	[*A*]generalists resided in the H5[*R*]modules[*A*]both irresponsive to TN	context()	negated: False ,passive: False
+0.910	[*A*]OTU464 belonging to Gibellulopsis nigrescens[*R*]became[*A*]specialists residing in D3 module that was negatively correlated positively correlated with EC in diseased network	context()	negated: False ,passive: True
+0.953	[*A*]generalists resided in the H6[*R*]modules[*A*]both irresponsive to TN	context()	negated: False ,passive: False
+0.911	[*A*]OTU464[*R*]belonging[*A*]to Gibellulopsis nigrescens	context()	negated: False ,passive: False
+0.835	[*A*]NH4+ - N[*R*]became[*A*]specialists residing in D3 module that was negatively correlated positively correlated with EC in diseased network	context()	negated: False ,passive: True
+0.945	[*A*]specialists residing in D3 module[*R*]positively correlated[*A*]with EC[*A*]in diseased network	context()	negated: False ,passive: True
+0.758	[*A*]D3 module[*R*]was negatively correlated	context()	negated: False ,passive: False
+0.887	[*A*]OTU464[*R*]belonging[*A*]to Gibellulopsis nigrescens as generalists	context(OTU464 belonging to Gibellulopsis nigrescens as generalists modules)	negated: False ,passive: False
+0.941	[*A*]OTU464 belonging to Gibellulopsis nigrescens as generalists[*R*]modules[*A*]both irresponsive[*A*]to EC[*A*]in healthy network	context()	negated: False ,passive: False
+0.941	[*A*]OTU464 belonging to Gibellulopsis nigrescens as generalists[*R*]modules[*A*]both irresponsive[*A*]to NH4+ - N in healthy network	context()	negated: False ,passive: False
+0.891	[*A*]OTU464[*R*]belonging[*A*]to Gibellulopsis nigrescens	context(OTU464 belonging to Gibellulopsis nigrescens as generalists modules)	negated: False ,passive: False
+0.933	[*A*]OTU464 belonging to Gibellulopsis nigrescens as generalists[*R*]modules[*A*]both irresponsive to TN in healthy network	context()	negated: False ,passive: False
+0.953	[*A*]generalists resided in the H5[*R*]modules[*A*]both irresponsive[*A*]to EC	context()	negated: False ,passive: False
+0.964	[*A*]gM - 156[*R*]belonging[*A*]to Gibellulopsis nigrescens[*A*]as generalists resided in the H5 modules both irresponsive to EC in healthy network	context()	negated: False ,passive: False
+0.953	[*A*]generalists resided in the H5[*R*]modules[*A*]both irresponsive[*A*]to NH4+ - N	context()	negated: False ,passive: False
+0.964	[*A*]gM - 156[*R*]belonging[*A*]to Gibellulopsis nigrescens[*A*]as generalists resided in the H5 modules both irresponsive to NH4+ - N in healthy network	context()	negated: False ,passive: False
+0.953	[*A*]generalists resided in the H6[*R*]modules[*A*]both irresponsive[*A*]to EC	context()	negated: False ,passive: False
+0.964	[*A*]gM - 156[*R*]belonging[*A*]to Gibellulopsis nigrescens[*A*]as generalists resided in the H6 modules both irresponsive to EC in healthy network	context()	negated: False ,passive: False
+0.953	[*A*]generalists resided in the H6[*R*]modules[*A*]both irresponsive[*A*]to NH4+ - N	context()	negated: False ,passive: False
+0.964	[*A*]gM - 156[*R*]belonging[*A*]to Gibellulopsis nigrescens[*A*]as generalists resided in the H6 modules both irresponsive to NH4+ - N in healthy network	context()	negated: False ,passive: False
+0.636	[*A*]both irresponsive[*R*]to TN[*A*]in healthy network	context()	negated: False ,passive: True
+0.713	[*A*]generalists[*R*]resided	context()	negated: False ,passive: False
+0.944	[*A*]gM - 156[*R*]belonging[*A*]to Gibellulopsis nigrescens	context()	negated: False ,passive: False
+[LINE#215]Since TN and NH4+-N were significantly lower in healthy soils than those in diseased soils (Table S1), the decreases of TN and NH4+-N and the increase of EC stimulated the growth of these OTUs, which consequently became specialists in diseased soils.
+0.957	[*A*]the decreases of NH4+ - N[*R*]stimulated[*A*]the growth of these OTUs	context()	negated: False ,passive: False
+0.683	[*A*]TN[*R*]were[*A*]significantly lower[*A*]in healthy soils than those in diseased soils	context()	negated: False ,passive: True
+0.949	[*A*]the decreases of TN[*R*]stimulated[*A*]the growth of these OTUs	context()	negated: False ,passive: False
+0.877	[*A*]NH4+ - N[*R*]were[*A*]significantly lower[*A*]in healthy soils	context()	negated: False ,passive: True
+0.934	[*A*]the growth of these OTUs[*R*]consequently became[*A*]specialists in diseased soils	context()	negated: False ,passive: True
+0.949	[*A*]the increase of EC[*R*]stimulated[*A*]the growth of these OTUs	context()	negated: False ,passive: False
+0.855	[*A*]TN[*R*]were[*A*]significantly lower[*A*]in healthy soils	context()	negated: False ,passive: True
+[LINE#216] OTU1064 belonging to uncultured Geomycesresided in H3 module that was positively correlated with TN but resided in D2 module that was irresponsive to soil variables.
+0.934	[*A*]D2 module[*R*]was[*A*]irresponsive to soil variables	context()	negated: False ,passive: True
+0.928	[*A*]H3 module[*R*]resided[*A*]in D2 module	context()	negated: False ,passive: False
+0.928	[*A*]H3 module[*R*]was positively correlated[*A*]with TN	context()	negated: False ,passive: True
+0.911	[*A*]OTU1064[*R*]belonging[*A*]to uncultured Geomycesresided[*A*]in H3 module	context()	negated: False ,passive: False
+[LINE#217]It was thus the decrease of TN that led the role-shift of this species.
+0.945	[*A*]the decrease of TN[*R*]led[*A*]the role-shift of this species	context()	negated: False ,passive: False
+0.568	[*A*]It[*R*]was[*A*]thus[*A*]the decrease of TN	context()	negated: False ,passive: True
+[LINE#218]Collectively, TN, NH4+-N and EC were the key soil variables that caused generalist-specialist shifts.
+0.776	[*A*]EC[*R*]were[*A*]the key soil variables that caused generalist - specialist shifts	context()	negated: False ,passive: True
+0.807	[*A*]NH4+ - N[*R*]were[*A*]the key soil variables that caused generalist - specialist shifts	context()	negated: False ,passive: True
+0.905	[*A*]the key soil variables[*R*]caused[*A*]generalist - specialist shifts	context()	negated: False ,passive: False
+0.776	[*A*]TN[*R*]were[*A*]the key soil variables that caused generalist - specialist shifts	context()	negated: False ,passive: True
+[LINE#219]Similar analysis applied to the OTUs in H4 and H5 (OTUH4 + H5) and in D2 and D6 (OTUD2 + D6) would also reveal their role-shifts.
+0.833	[*A*]Similar analysis applied in D6 ( OTUD2 + D6 )[*R*]would reveal[*A*]their role - shifts	context()	negated: False ,passive: False
+0.918	[*A*]Similar analysis[*R*]applied[*A*]in D6	context()	negated: False ,passive: True
+0.857	[*A*]Similar analysis applied in D2[*R*]would reveal[*A*]their role - shifts	context()	negated: False ,passive: False
+0.918	[*A*]Similar analysis[*R*]applied[*A*]in D2	context()	negated: False ,passive: True
+0.833	[*A*]Similar analysis applied to H5 ( OTUH4 + H5 )[*R*]would reveal[*A*]their role - shifts	context()	negated: False ,passive: False
+0.918	[*A*]Similar analysis[*R*]applied[*A*]to H5	context()	negated: False ,passive: True
+0.870	[*A*]Similar analysis applied to the OTUs in H4 ( OTUH4 + H5 )[*R*]would reveal[*A*]their role - shifts	context()	negated: False ,passive: False
+0.918	[*A*]Similar analysis[*R*]applied[*A*]to the OTUs in H4	context()	negated: False ,passive: True
+[LINE#220]These two sets of OTU resided in the modules whose eigengenes were significantly correlated with none of the selected soil variables in their respective networks (Table 1).
+0.873	[*A*]the modules[*R*]were significantly correlated[*A*]with none of the selected soil variables in their respective networks	context()	negated: False ,passive: True
+0.944	[*A*]These two sets of OTU[*R*]resided[*A*]in the modules	context()	negated: False ,passive: False
+[LINE#221] OTUH4+H5 had 34 members in total(Fig. 4), 28 (82%) of which were also found in diseased network and were associated with the modules whose eigengenes were significantly correlated with one or more soil variables.
+0.516	[*A*]OTUH4+H5[*R*]had [number of] members were found in diseased network[*A*]34	context()	negated: False ,passive: False
+0.999	[*A*]OTUH4+H5[*R*]had[*A*]34 members	context()	negated: False ,passive: False
+0.887	[*A*]the modules[*R*]were significantly correlated[*A*]with one or more soil variables	context()	negated: False ,passive: True
+0.862	[*A*]34 members in total[*R*]were found[*A*]in diseased network	context()	negated: False ,passive: True
+0.961	[*A*]OTUH4+H5[*R*]had[*A*]34 members in total(Fig. 4), 28 (82%) of which were also found in diseased network and were associated with the modules	context()	negated: False ,passive: False
+[LINE#222]OTU379 belonging to Fusarium solani, for example, was one of the H4 members.
+0.586	[*A*]OTU379 belonging to Fusarium solani[*R*]had the H4 members of[*A*]one of the h4 members	context()	negated: False ,passive: False
+0.888	[*A*]example[*R*]had OTU379 belonging to Fusarium solani of[*A*]one of the h4 members	context()	negated: False ,passive: False
+0.973	[*A*]OTU379 belonging to Fusarium solani[*R*]was[*A*]one of the h4 members	context()	negated: False ,passive: False
+0.958	[*A*]OTU379 belonging to Fusarium solani[*R*]was[*A*]one of the H4 members	context()	negated: False ,passive: True
+0.911	[*A*]OTU379[*R*]belonging[*A*]to Fusarium solani	context()	negated: False ,passive: False
+[LINE#223]The same OTU resided in diseased network in D1 whose eigengene was significantly negatively correlated with soil pH.
+0.944	[*A*]The same OTU[*R*]resided[*A*]in diseased network in D1	context()	negated: False ,passive: False
+[LINE#224]OTUD2+D6 contained 35 members in total, 17 (49%) of which overlapped with the total number of OTUs in healthy network.
+0.948	[*A*]17 (49%) of which[*R*]overlapped[*A*]with the total number of OTUs in healthy network	context()	negated: False ,passive: False
+0.698	[*A*]OTUD2+D6[*R*]contained[*A*]35 members in total, 17 (49%) of which overlapped with the total number of OTUs in healthy network	context()	negated: False ,passive: False
+[LINE#225]OTU910 belonging to Trichoderma stromaticum, for example, was one of D2 members, and was found in healthy network in module H7 whose eigengene was positively correlated with soil OM and NO3--N.
+0.932	[*A*]OTU910[*R*]was found[*A*]in healthy network[*A*]in module H7	context()	negated: False ,passive: True
+0.586	[*A*]OTU910 belonging to Trichoderma stromaticum[*R*]had D2 members of[*A*]one of d2 members	context()	negated: False ,passive: False
+0.888	[*A*]example[*R*]had OTU910 belonging to Trichoderma stromaticum of[*A*]one of d2 members	context()	negated: False ,passive: False
+0.973	[*A*]OTU910 belonging to Trichoderma stromaticum[*R*]was[*A*]one of d2 members	context()	negated: False ,passive: False
+0.958	[*A*]OTU910 belonging to Trichoderma stromaticum[*R*]was[*A*]one of D2 members	context()	negated: False ,passive: True
+0.911	[*A*]OTU910[*R*]belonging[*A*]to Trichoderma stromaticum	context()	negated: False ,passive: False
+[LINE#226]When OTUH4 + H5 were matched against OTUD2 + D6, it was found they were two different sets of OTUs (with only 2 overlaps).
+0.803	[*A*]OTUH4 + H5[*R*]were matched	context()	negated: False ,passive: False
+[LINE#227]In other words, majority of these members were irresponsive to any selected soil variables in their respective networks but were responsive in their counterpart networks.
+0.860	[*A*]majority of these members[*R*]were[*A*]responsive in their counterpart networks	context()	negated: False ,passive: True
+0.908	[*A*]majority of these members[*R*]were[*A*]irresponsive to any selected soil variables in their respective networks	context()	negated: False ,passive: True
+[LINE#228]Correlations between gene significances of soil variables and network connectivityOverall, OM was the only variable affecting Sordariales-associated OTUs in healthy community but not affecting any groups of OTUs in diseased community (Table 2).
+0.925	[*A*]the only variable[*R*]affecting[*A*]Sordariales - associated OTUs	context()	negated: False ,passive: False
+0.938	[*A*]OM[*R*]was[*A*]the only variable affecting Sordariales - associated OTUs in not affecting any groups of OTUs in diseased community ( Table 2 )	context()	negated: False ,passive: True
+0.925	[*A*]the only variable[*R*]affecting[*A*]Sordariales - associated OTUs in healthy community	context()	negated: False ,passive: False
+0.938	[*A*]OM[*R*]was[*A*]the only variable affecting Sordariales - associated OTUs in healthy community	context()	negated: False ,passive: True
+[LINE#229]In contrast, NH4+-N and EC were the variables affecting Glomerellales- and Hypocreales-associated OTUs in diseased community but not affecting any OTUs in healthy community.
+0.877	[*A*]EC[*R*]were[*A*]the variables affecting Glomerellales	context()	negated: False ,passive: True
+0.919	[*A*]EC[*R*]were[*A*]the variables affecting Glomerellales - and Hypocreales - associated OTUs in diseased community	context()	negated: False ,passive: True
+0.918	[*A*]the variables[*R*]affecting[*A*]Glomerellales	context()	negated: False ,passive: False
+0.896	[*A*]NH4+ - N[*R*]were[*A*]the variables affecting Glomerellales	context()	negated: False ,passive: True
+0.918	[*A*]the variables[*R*]affecting[*A*]Glomerellales - and Hypocreales - associated OTUs	context()	negated: False ,passive: False
+0.932	[*A*]NH4+ - N[*R*]were[*A*]the variables affecting Glomerellales - and Hypocreales - associated OTUs in diseased community	context()	negated: False ,passive: True
+[LINE#230] These results were not only consistent with the results based on the module membership analysis(Sordariales-associated OTUs were enriched in healthy soils whereas Hypocreales-associated OTUs were enriched in diseased soils), but also further explained the major soil variables responsible for the respective enrichments and role shifts of OTUs (see Discussion).
+0.903	[*A*]the results[*R*]based[*A*]on the module membership analysis	context()	negated: False ,passive: True
+0.939	[*A*]Hypocreales - associated OTUs[*R*]were enriched[*A*]in diseased soils	context()	negated: False ,passive: True
+0.961	[*A*]the module membership analysis ( Sordariales - associated OTUs[*R*]were enriched[*A*]in healthy soils	context()	negated: False ,passive: True
+0.903	[*A*]These results[*R*]were not[*A*]only consistent with the results	context()	negated: True ,passive: True

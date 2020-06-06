@@ -1,0 +1,368 @@
+[LINE#1]The pathogenic mechanisms of frontotemporal dementia (FTD) remain poorly understood.
+0.773	[*A*]The pathogenic mechanisms of frontotemporal dementia[*R*]poorly understood	context()	negated: False ,passive: False
+0.803	[*A*]The pathogenic mechanisms of frontotemporal dementia[*R*]remain[*A*]poorly understood	context()	negated: False ,passive: True
+[LINE#2]Here we generated multiple induced pluripotent stem cell lines from a control subject, a patient with sporadic FTD, and an FTD patient with a novel heterozygous GRN mutation (progranulin [PGRN] S116X).
+0.702	[*A*]we[*R*]generated[*A*]multiple induced pluripotent stem cell lines from a control subject[*A*]Here	context()	negated: False ,passive: False
+[LINE#3]In neurons and microglia differentiated from PGRN S116X induced pluripotent stem cells, the levels of intracellular and secreted PGRN were reduced, establishing patient-specific cellular models of PGRN haploinsufficiency.
+0.968	[*A*]the levels of secreted PGRN[*R*]were reduced[*A*]establishing patient - specific cellular models of PGRN haploinsufficiency[*A*]In microglia	context()	negated: False ,passive: True
+0.968	[*A*]the levels of intracellular PGRN[*R*]were reduced[*A*]establishing patient - specific cellular models of PGRN haploinsufficiency[*A*]In microglia	context()	negated: False ,passive: True
+0.911	[*A*]microglia[*R*]differentiated[*A*]from PGRN S116X induced pluripotent stem cells	context()	negated: False ,passive: True
+0.945	[*A*]the levels of secreted PGRN[*R*]establishing[*A*]patient - specific cellular models of PGRN haploinsufficiency	context()	negated: False ,passive: False
+0.968	[*A*]the levels of secreted PGRN[*R*]were reduced[*A*]establishing patient - specific cellular models of PGRN haploinsufficiency[*A*]In neurons	context()	negated: False ,passive: True
+0.945	[*A*]the levels of intracellular PGRN[*R*]establishing[*A*]patient - specific cellular models of PGRN haploinsufficiency	context()	negated: False ,passive: False
+0.968	[*A*]the levels of intracellular PGRN[*R*]were reduced[*A*]establishing patient - specific cellular models of PGRN haploinsufficiency[*A*]In neurons	context()	negated: False ,passive: True
+0.867	[*A*]PGRN S116X[*R*]induced[*A*]pluripotent stem cells	context()	negated: False ,passive: False
+0.911	[*A*]neurons[*R*]differentiated[*A*]from PGRN S116X induced pluripotent stem cells	context()	negated: False ,passive: True
+[LINE#4]Through a systematic screen of inducers of cellular stress, we found that PGRN S116X neurons, but not sporadic FTD neurons, exhibited increased sensitivity to staurosporine and other kinase inhibitors.
+0.909	[*A*]not sporadic FTD neurons[*R*]exhibited[*A*]increased sensitivity to other kinase inhibitors	context(we found)	negated: False ,passive: False
+0.309	[*A*]we[*R*]found[*A*]that not sporadic FTD neurons , exhibited increased sensitivity to other kinase inhibitors	context()	negated: False ,passive: False
+0.909	[*A*]not sporadic FTD neurons[*R*]exhibited[*A*]increased sensitivity to staurosporine	context(we found)	negated: False ,passive: False
+0.309	[*A*]we[*R*]found[*A*]that not sporadic FTD neurons , exhibited increased sensitivity to staurosporine	context()	negated: False ,passive: False
+0.823	[*A*]PGRN S116X neurons[*R*]exhibited[*A*]increased sensitivity to other kinase inhibitors	context(we found)	negated: False ,passive: False
+0.309	[*A*]we[*R*]found[*A*]that PGRN S116X neurons , exhibited increased sensitivity to other kinase inhibitors	context()	negated: False ,passive: False
+0.823	[*A*]PGRN S116X neurons[*R*]exhibited[*A*]increased sensitivity to staurosporine	context(we found)	negated: False ,passive: False
+0.309	[*A*]we[*R*]found[*A*]that PGRN S116X neurons , exhibited increased sensitivity to staurosporine	context()	negated: False ,passive: False
+[LINE#5]Moreover, the serine/threonine kinase S6K2, a component of the phosphatidylinositol 3-kinase and mitogen-activated protein kinase pathways, was specifically downregulated in PGRN S116X neurons.
+0.901	[*A*]the serine / threonine kinase S6K2[*R*]was downregulated[*A*]in PGRN S116X neurons	context()	negated: False ,passive: True
+[LINE#6]Both increased sensitivity to kinase inhibitors and reduced S6K2 were rescued by PGRN expression.
+0.938	[*A*]reduced S6K2[*R*]were rescued[*A*]by PGRN expression	context()	negated: False ,passive: True
+0.381	[*A*]Both[*R*]increased[*A*]sensitivity to kinase inhibitors	context()	negated: False ,passive: False
+[LINE#7]Our findings identify cell-autonomous, reversible defects in patient neurons with PGRN deficiency, and provide a compelling model for studying PGRN-dependent pathogenic mechanisms and testing potential therapies.
+0.773	[*A*]Our findings[*R*]identify[*A*]cell - autonomous , reversible defects in patient neurons with PGRN deficiency	context()	negated: False ,passive: False
+[LINE#8]Experimental ProceduresIsolation of Primary Human Skin Fibroblasts and Generation of iPSCsThis study was approved by the Institutional Review Board and Ethics Committees of the University of California, San Francisco, and written informed consent was obtained in all cases.
+0.927	[*A*]Experimental ProceduresIsolation of Generation of iPSCsThis study[*R*]was approved[*A*]by the Institutional San Francisco	context()	negated: False ,passive: True
+0.953	[*A*]Experimental ProceduresIsolation of Generation of iPSCsThis study[*R*]was approved[*A*]by the Institutional Ethics Committees of the University of California	context()	negated: False ,passive: True
+0.927	[*A*]Experimental ProceduresIsolation of Generation of iPSCsThis study[*R*]was approved[*A*]by the Institutional Review Board	context()	negated: False ,passive: True
+0.944	[*A*]Experimental ProceduresIsolation of Primary Human Skin Fibroblasts of iPSCsThis study[*R*]was approved[*A*]by the Institutional San Francisco	context()	negated: False ,passive: True
+0.965	[*A*]Experimental ProceduresIsolation of Primary Human Skin Fibroblasts of iPSCsThis study[*R*]was approved[*A*]by the Institutional Ethics Committees of the University of California	context()	negated: False ,passive: True
+0.944	[*A*]Experimental ProceduresIsolation of Primary Human Skin Fibroblasts of iPSCsThis study[*R*]was approved[*A*]by the Institutional Review Board	context()	negated: False ,passive: True
+0.911	[*A*]written informed consent[*R*]was obtained[*A*]in all cases	context()	negated: False ,passive: True
+[LINE#9]The patient with the PGRN S116X mutation followed the classic clinical progression for FTD and developed parkinsonism, as do all FTD patients with PGRN mutations, but he did not show typical features of PD dementia.
+0.498	[*A*]he[*R*]did not show[*A*]typical features of PD dementia	context()	negated: True ,passive: False
+0.927	[*A*]The patient with the PGRN S116X mutation[*R*]followed[*A*]the classic clinical progression for FTD	context()	negated: False ,passive: False
+[LINE#10]The patient with sporadic FTD also showed parkinsonism.
+0.934	[*A*]The patient with sporadic FTD[*R*]showed[*A*]parkinsonism	context()	negated: False ,passive: False
+[LINE#11]Skin biopsies were collected, cut into small pieces, and placed on culture dishes to allow the fibroblasts to expand.
+0.852	[*A*]Skin[*R*]cut[*A*]into small pieces	context()	negated: False ,passive: False
+0.732	[*A*]Skin biopsies[*R*]were collected	context()	negated: False ,passive: False
+[LINE#12]The cells were maintained in Dulbecco's modified Eagle's medium supplemented with 10% fetal bovine serum, 1X nonessential amino acids, and penicillin/streptomycin (100 U/ml).
+0.947	[*A*]The cells[*R*]were maintained[*A*]in Dulbecco 's modified Eagle 's medium supplemented with penicillin / streptomycin	context()	negated: False ,passive: True
+0.947	[*A*]The cells[*R*]were maintained[*A*]in Dulbecco 's modified Eagle 's medium supplemented with 1X nonessential amino acids	context()	negated: False ,passive: True
+[LINE#13]iPSCs were generated as described previously (Takahashi et al., 2007).
+0.894	[*A*]iPSCs[*R*]were generated[*A*]as described previously (Takahashi et al., 2007	context()	negated: False ,passive: True
+[LINE#14]Please see Supplemental Information for more details.qRT-PCR, Immunocytochemistry, Differentiation and Characterization of iPSCs, and ElectrophysiologyMost of the experiments involving qRT-PCR, immunocytochemistry, differentiation and characterization of iPSCs, and electrophysiology were performed as previously described (Delaloy et al., 2010) with minor adjustments.
+0.778	[*A*]more Characterization of iPSCs , and ElectrophysiologyMost of the experiments[*R*]were performed	context()	negated: False ,passive: False
+0.849	[*A*]more Differentiation , and ElectrophysiologyMost of the experiments[*R*]were performed	context()	negated: False ,passive: False
+0.849	[*A*]more Immunocytochemistry , and ElectrophysiologyMost of the experiments[*R*]were performed	context()	negated: False ,passive: False
+0.778	[*A*]more details.qRT - PCR , and ElectrophysiologyMost of the experiments[*R*]were performed	context()	negated: False ,passive: False
+0.820	[*A*]ElectrophysiologyMost of the experiments[*R*]were performed[*A*]as previously described	context()	negated: False ,passive: True
+0.918	[*A*]the experiments[*R*]involving[*A*]qRT - PCR	context()	negated: False ,passive: True
+[LINE#15]Please see Supplemental Information for more details.
+[LINE#16]PGRN MeasurementsFresh culture medium was added to the cells 24 hr before collection.
+0.887	[*A*]PGRN MeasurementsFresh culture medium[*R*]was added[*A*]to the cells[*A*]24 hr before collection	context()	negated: False ,passive: True
+[LINE#17]After the medium was collected, the cells were washed once with phosphate-buffered saline (PBS), lysed with NP-40 buffer, and subjected to three freeze-thaw cycles.
+0.905	[*A*]phosphate - buffered saline[*R*]subjected[*A*]to three freeze - thaw cycles	context()	negated: False ,passive: True
+0.920	[*A*]phosphate - buffered saline[*R*]lysed[*A*]with NP - 40 buffer	context()	negated: False ,passive: True
+0.943	[*A*]the cells[*R*]were washed[*A*]once[*A*]with phosphate - buffered saline[*A*]After the medium was collected	context()	negated: False ,passive: True
+0.732	[*A*]the medium[*R*]was collected	context()	negated: False ,passive: False
+[LINE#18]Both the culture medium and the cell lysates were centrifuged at 12,000 rpm at 4C for 10 min to clear cellular debris.
+0.993	[*A*]the cell lysates[*R*]were centrifuged at[*A*]12000 rpm	context()	negated: False ,passive: False
+0.925	[*A*]the cell lysates[*R*]were centrifuged[*A*]at 12,000 rpm at 4C[*A*]for 10 min to clear cellular debris	context()	negated: False ,passive: True
+0.993	[*A*]Both the culture medium[*R*]were centrifuged at[*A*]12000 rpm	context()	negated: False ,passive: False
+0.903	[*A*]10 min[*R*]to clear[*A*]cellular debris	context()	negated: False ,passive: False
+0.931	[*A*]Both the culture medium[*R*]were centrifuged[*A*]at 12,000 rpm at 4C[*A*]for 10 min to clear cellular debris	context()	negated: False ,passive: True
+[LINE#19]Cell lysate supernatants were assayed for protein concentration with the BioRad reagent assay.
+0.944	[*A*]Cell lysate supernatants[*R*]were assayed[*A*]for protein concentration with the BioRad reagent assay	context()	negated: False ,passive: True
+[LINE#20]Total cell lysates and culture medium were diluted, and the PGRN levels were determined with an ELISA kit (Alexis Biochemicals, San Diego, CA) according to the manufacturer's instructions.
+0.944	[*A*]the PGRN levels[*R*]were determined[*A*]with an ELISA kit	context()	negated: False ,passive: True
+0.801	[*A*]Total cell lysates and culture medium[*R*]were diluted	context()	negated: False ,passive: False
+[LINE#21]Data were normalized to protein concentration.
+0.771	[*A*]Data[*R*]were normalized	context()	negated: False ,passive: False
+[LINE#22]AssayTwo-week-old neurons were exposed for 24 hr to the following stress inducers: tunicamycin, lactacystin, rotenone, oligomycin, hydrogen peroxide, staurosporine, wortmannin, LY294002, PD98059, or DMSO.
+0.993	[*A*]AssayTwo week old neurons[*R*]were exposed for[*A*]24 hr	context()	negated: False ,passive: False
+0.949	[*A*]AssayTwo-week-old neurons[*R*]were exposed[*A*]for 24 hr[*A*]to the following stress inducers	context()	negated: False ,passive: True
+[LINE#23]Cell viability was determined with the WST1 cell-proliferation assay (Roche Applied Science, Penzberg, Germany) according to the manufacturer's instructions.
+0.938	[*A*]Cell viability[*R*]was determined[*A*]with the WST1 cell-proliferation assay	context()	negated: False ,passive: True
+[LINE#24]Caspase-3 activity assay is described in the Supplemental Information.
+0.992	[*A*]-3 activity assay[*R*]is described in[*A*]the Supplemental Information	context()	negated: False ,passive: False
+0.953	[*A*]Caspase-3 activity assay[*R*]is described[*A*]in the Supplemental Information	context()	negated: False ,passive: True
+[LINE#25]PGRN Rescue ExperimentsHuman GRN (NM_002087.2) was inserted into a CS-CGW lentiviral vector with Nhe I and Xho I.
+0.928	[*A*]PGRN Rescue ExperimentsHuman GRN[*R*]was inserted[*A*]into a CS - CGW lentiviral vector with Xho I.	context()	negated: False ,passive: True
+0.889	[*A*]PGRN Rescue ExperimentsHuman GRN[*R*]was inserted[*A*]into a CS - CGW lentiviral vector with Nhe	context()	negated: False ,passive: True
+[LINE#26]The vector also expressed green fluorescent protein through an internal ribosome entry site.
+0.887	[*A*]The vector[*R*]expressed[*A*]green fluorescent protein	context()	negated: False ,passive: False
+[LINE#27]One-week-old neurons were transduced overnight with lentivirus expressing PGRN or empty vector.
+0.911	[*A*]lentivirus[*R*]expressing[*A*]PGRN or empty vector	context()	negated: False ,passive: False
+0.829	[*A*]One-week-old neurons[*R*]were transduced[*A*]overnight	context()	negated: False ,passive: True
+[LINE#28]The next morning, the medium was doubled and thereafter replaced every other day.
+0.665	[*A*]The next[*R*]replaced[*A*]every other day[*A*]thereafter	context()	negated: False ,passive: True
+0.943	[*A*]the medium[*R*]was doubled[*A*]every other day[*A*]The next morning	context()	negated: False ,passive: True
+[LINE#29] One week after transduction, the neurons were exposed to 10 nM staurosporine, 0.5 M tunicamycin, 50 M PD98059,75 nM wortmannin, or DMSO for 24 hr.
+0.952	[*A*]the neurons[*R*]were exposed[*A*]to 10 nM staurosporine[*A*]One week after transduction	context()	negated: False ,passive: True
+[LINE#30]Cells were assayed for cell viability, caspase-3 activation, and S6K2 levels.
+0.840	[*A*]Cells[*R*]were assayed[*A*]for S6K2 levels	context()	negated: False ,passive: True
+0.993	[*A*]Cells[*R*]were assayed for[*A*]3 activation	context()	negated: False ,passive: False
+0.813	[*A*]Cells[*R*]were assayed[*A*]for caspase - 3 activation	context()	negated: False ,passive: True
+0.813	[*A*]Cells[*R*]were assayed[*A*]for cell viability	context()	negated: False ,passive: True
+[LINE#31]A multiplicity of infection of 50 was used in all cases.
+0.932	[*A*]A multiplicity of infection of 50[*R*]was used[*A*]in all cases	context()	negated: False ,passive: True
+[LINE#32]Extended Experimental ProceduresGeneration of iPSC LinesFibroblasts were seeded at 8  105 cells per 100-mm dish and transduced with equal volumes of supernatants from retroviruses encoding human OCT3/4, SOX2, KLF4, and c-MYC.
+0.894	[*A*]retroviruses[*R*]encoding[*A*]c - MYC	context()	negated: False ,passive: False
+0.894	[*A*]retroviruses[*R*]encoding[*A*]human OCT3/4	context()	negated: False ,passive: False
+[LINE#33]The next day, the medium was removed and replaced with fresh viral supernatants.
+0.943	[*A*]the medium[*R*]was replaced[*A*]with fresh viral supernatants[*A*]The next day	context()	negated: False ,passive: True
+0.933	[*A*]the medium[*R*]was removed[*A*]The next day	context()	negated: False ,passive: True
+[LINE#34]Seven days after the first infection, cells were collected and seeded (5  104 cells per 100-mm dish) onto mitomycin C-treated SNL feeder cells.
+0.886	[*A*]cells[*R*]were seeded[*A*]onto mitomycin C - treated SNL feeder cells[*A*]Seven days after the first infection	context()	negated: False ,passive: True
+0.866	[*A*]cells[*R*]were collected[*A*]Seven days after the first infection	context()	negated: False ,passive: True
+[LINE#35]One day later, the medium was replaced with iPSC medium containing basic fibroblast growth factor (4 ng/ml); thereafter, the medium was changed every other day.
+0.939	[*A*]the medium[*R*]was replaced[*A*]with iPSC medium containing basic fibroblast growth factor[*A*]One day later	context(the medium was changed)	negated: False ,passive: True
+0.928	[*A*]the medium[*R*]was changed[*A*]every other day[*A*]thereafter	context()	negated: False ,passive: True
+0.927	[*A*]iPSC medium[*R*]containing[*A*]basic fibroblast growth factor	context()	negated: False ,passive: False
+[LINE#36]Five weeks after viral transduction, colonies were picked and transferred to 12-well plates containing feeder cells.
+0.919	[*A*]12 - well plates[*R*]containing[*A*]feeder cells	context()	negated: False ,passive: False
+0.938	[*A*]colonies[*R*]were transferred[*A*]to 12 - well plates[*A*]Five weeks after viral transduction	context()	negated: False ,passive: True
+0.926	[*A*]colonies[*R*]were picked[*A*]Five weeks after viral transduction	context()	negated: False ,passive: True
+[LINE#37]For expansion, cells were dissociated in a 1:2 solution of accutase/PBS for 1 min at room temperature, washed twice with PBS, and scraped off the dish with a cell lifter in iPSC medium.
+0.938	[*A*]cells[*R*]were scraped[*A*]off the dish with a cell lifter in iPSC medium[*A*]For expansion	context()	negated: False ,passive: True
+[LINE#38]Larger colonies were further broken up by pipetting and transferred to 6-well plates containing feeder cells.
+0.919	[*A*]6 - well plates[*R*]containing[*A*]feeder cells	context()	negated: False ,passive: False
+0.903	[*A*]Larger colonies[*R*]were transferred[*A*]to 6 - well plates	context()	negated: False ,passive: True
+0.641	[*A*]Larger colonies[*R*]were broken up	context()	negated: False ,passive: False
+[LINE#39]After the initial characterization, selected iPSC lines were adapted and maintained in feeder-free conditions.
+0.897	[*A*]the initial characterization[*R*]selected[*A*]iPSC lines	context()	negated: False ,passive: True
+[LINE#40] In the absence of feeder cells, iPSC colonies were seeded onto plates coated with Matrigel (BD Biosciences) and cultured in mTeSR1 medium (StemCell Technologies).Bisulfite SequencingGenomic DNA was isolated from fibroblasts and iPSCswith the DNeasy blood and tissue kit (QIAGEN), and the EpiTect bisulfite kit (QIAGEN) was used for bisulfite treatment.
+0.928	[*A*]the EpiTect bisulfite kit[*R*]was used[*A*]for bisulfite treatment	context()	negated: False ,passive: True
+0.911	[*A*]plates[*R*]coated[*A*]with Matrigel	context()	negated: False ,passive: True
+0.938	[*A*]colonies[*R*]were seeded[*A*]onto plates[*A*]In the absence of feeder cells	context()	negated: False ,passive: True
+[LINE#41]The OCT4 promoter sequence of interest was amplified by PCR with previously described primers (Freberg et al., 2007, primer pair 7).
+0.957	[*A*]The OCT4 promoter sequence of interest[*R*]was amplified[*A*]by PCR[*A*]with previously described primers	context()	negated: False ,passive: True
+[LINE#42]The amplified products were cloned with the TOPO cloning kit (Invitrogen, Carlsbad, CA), purified, and sequenced.
+0.706	[*A*]The amplified products[*R*]were cloned	context(The amplified products were cloned with the TOPO cloning kit sequenced)	negated: False ,passive: False
+0.844	[*A*]The amplified products were cloned with the TOPO cloning kit[*R*]sequenced	context()	negated: False ,passive: False
+0.706	[*A*]The amplified products[*R*]were cloned	context(The amplified products were cloned with the TOPO cloning kit purified)	negated: False ,passive: False
+0.844	[*A*]The amplified products were cloned with the TOPO cloning kit[*R*]purified	context()	negated: False ,passive: False
+[LINE#43]RNA Extraction and qRT-PCRTotal RNA was isolated with RNeasy kits (QIAGEN), and 500 ng of RNA was reverse transcribed to cDNA with TaqMan reverse transcription reagent kits (Applied Biosystems, Foster City, CA) according to the manufacturer's instructions.
+0.993	[*A*]qRT PCRTotal RNA[*R*]was isolated with[*A*]500 ng	context()	negated: False ,passive: False
+0.905	[*A*]qRT - PCRTotal RNA[*R*]was isolated[*A*]with 500 ng of RNA	context()	negated: False ,passive: True
+0.993	[*A*]RNA Extraction[*R*]was isolated with[*A*]500 ng	context()	negated: False ,passive: False
+0.920	[*A*]TaqMan[*R*]reverse[*A*]transcription reagent kits[*A*]according to the manufacturer 's instructions	context()	negated: False ,passive: False
+0.938	[*A*]RNA Extraction[*R*]was isolated[*A*]with 500 ng of RNA	context()	negated: False ,passive: True
+0.698	[*A*]qRT - PCRTotal RNA[*R*]was isolated	context()	negated: False ,passive: False
+0.788	[*A*]RNA Extraction[*R*]was isolated	context()	negated: False ,passive: False
+[LINE#44]Quantitative PCR was performed with SYBR Green Master Mix (Applied Biosystems) and forward and reverse primers (10 M; Table S1) or with TaqMan Gene Expression Master Mix and TaqMan primers (Applied Biosystems).
+0.381	[*A*]Mix[*R*][is] Master [of][*A*]TaqMan Gene Expression	context()	negated: False ,passive: False
+0.381	[*A*]Mix[*R*][is] Green Master [of][*A*]SYBR	context()	negated: False ,passive: False
+0.914	[*A*]Quantitative PCR[*R*]reverse[*A*]primers	context()	negated: False ,passive: False
+0.788	[*A*]Quantitative PCR[*R*]was performed	context()	negated: False ,passive: False
+[LINE#45]Ct values for each sample and gene were normalized to GAPDH.
+0.785	[*A*]Ct values for each gene[*R*]were normalized	context()	negated: False ,passive: False
+0.785	[*A*]Ct values for each sample[*R*]were normalized	context()	negated: False ,passive: False
+[LINE#46]The 2-Ct method was used to determine the relative expression of each gene.
+0.934	[*A*]The 2-Ct method[*R*]to determine[*A*]the relative expression of each gene	context()	negated: False ,passive: False
+0.944	[*A*]The 2-Ct method[*R*]was used[*A*]to determine the relative expression of each gene	context()	negated: False ,passive: True
+[LINE#47]The putative iPSC lines were first analyzed for the four reprogramming factors at passage #8, almost two months after the picking of the colonies.
+0.795	[*A*]The putative iPSC lines[*R*]were analyzed[*A*]first	context()	negated: False ,passive: True
+[LINE#48]The primers are listed in Table S1.
+0.918	[*A*]The primers[*R*]are listed[*A*]in Table S1	context()	negated: False ,passive: True
+[LINE#49]At this stage, the transgene expression was between one to four times higher than the endogenous levels of ESC H9, except for two lines where the KLF4 transgene was twenty times higher than the endogenous levels.
+0.971	[*A*]the KLF4 transgene[*R*]was[*A*]twenty times higher than the endogenous levels[*A*]two lines	context()	negated: False ,passive: True
+0.979	[*A*]the transgene expression[*R*]was[*A*]between one to four times higher than the endogenous levels of ESC H9[*A*]At this stage	context()	negated: False ,passive: True
+[LINE#50]These two lines were not used in this study.
+0.911	[*A*]These two lines[*R*]were not used[*A*]in this study	context()	negated: True ,passive: True
+[LINE#51]Thus, our assay allows us to detect transgene expression levels of at least 20-fold above the endogenous ESC H9 levels.
+0.550	[*A*]us[*R*]to detect[*A*]transgene expression levels of at least 20-fold above the endogenous ESC H9 levels	context(our assay allows)	negated: False ,passive: False
+0.587	[*A*]our assay[*R*]allows[*A*]us to detect transgene expression levels of at least 20-fold above the endogenous ESC H9 levels	context()	negated: False ,passive: False
+[LINE#52]ImmunocytochemistryCells were fixed in 4% paraformaldehyde (pH 7.4) for 10 min and permeabilized with 0.2% Triton X-100.
+0.993	[*A*]ImmunocytochemistryCells[*R*]were permeabilized with[*A*]0.2 %	context()	negated: False ,passive: False
+0.894	[*A*]ImmunocytochemistryCells[*R*]were permeabilized[*A*]with 0.2 %	context()	negated: False ,passive: True
+0.876	[*A*]ImmunocytochemistryCells[*R*]were fixed[*A*]for 10 min	context()	negated: False ,passive: True
+[LINE#53]After incubation with 3% bovine serum albumin for 30 min, cells were incubated with primary antibodies for 1 hr at room temperature.
+0.926	[*A*]cells[*R*]were incubated[*A*]with primary antibodies[*A*]for 1 hr at room temperature[*A*]After incubation with 3% bovine serum albumin for 30 min	context()	negated: False ,passive: True
+[LINE#54] The primary antibodies used were mouse anti-OCT4 (Santa Cruz Biotechnology, Santa Cruz, CA; 1:100), mouse anti-TRA-1-60 and TRA-1.
+0.919	[*A*]The primary antibodies used[*R*]were[*A*]mouse anti-OCT4	context()	negated: False ,passive: True
+0.956	[*A*]The primary antibodies used[*R*]were[*A*]mouse anti-OCT4 ( Santa Cruz Biotechnology , Santa Cruz , CA ; 1:100	context()	negated: False ,passive: True
+0.751	[*A*]The primary antibodies[*R*]used	context()	negated: False ,passive: False
+[LINE#55] R&D Systems, Minneapolis, MN; 1:100), mouse anti-SSEA4 (Abcam, Cambridge, MA; 1:100), rabbit anti-desmin (Thermo Scientific, Waltham, MA; 1:100), mouse anti-III-tubulin (Promega, Madison, WI; 1:200), mouse anti--fetoprotein (R&D Systems; 1:200), mouse anti-MAP2 (Sigma, St. Louis, MO; 1:500), rabbit anti-glial fibrillary acidic protein (Dako, Carpinteria, CA; 1:1000), rabbit anti-VGLUT1 (Synaptic Systems, Goettingen, Germany; 1:500), rabbit anti-GABA (Sigma; 1:100), rabbit anti-tyrosine hydroxylase (.
+[LINE#56] Millipore, Billerica, MA; 1:500), rabbit(Protein Tech Group, Chicago, IL; 1:100).
+[LINE#57]After three washes with PBS, the cells were incubated with Alexa Fluor secondary antibodies (Invitrogen; 1:300) for 1 hr at room temperature followed by counter staining with 1 g/ml Hoechst or DAPI.
+0.894	[*A*]counter[*R*]staining[*A*]with 1 g	context()	negated: False ,passive: True
+0.785	[*A*]1 hr at room temperature[*R*]followed	context()	negated: False ,passive: False
+0.952	[*A*]the cells[*R*]were incubated[*A*]with Alexa Fluor secondary antibodies[*A*]After three washes with PBS	context()	negated: False ,passive: True
+[LINE#58]Immunostained cells were examined with an Axiovert 200 fluorescence microscope coupled to an Axiocam camera (Zeiss).
+0.993	[*A*]Immunostained cells[*R*]were examined with[*A*]200 fluorescence microscope	context()	negated: False ,passive: False
+0.953	[*A*]an Axiovert 200 fluorescence microscope[*R*]coupled[*A*]to an Axiocam camera	context()	negated: False ,passive: True
+0.732	[*A*]Immunostained cells[*R*]were examined	context()	negated: False ,passive: False
+[LINE#59]For neuron experiments, on average 200 cells were analyzed per experimental condition, n = 3 independent cultures.
+[LINE#60]Neuronal Differentiation of iPSC LinesiPSC colonies were detached with accutase (Millipore) and grown as embryoid bodies (EBs) in suspension for 5-6 days in iPSC medium without basic fibroblast growth factor.
+0.656	[*A*]Neuronal[*R*]grown[*A*]as embryoid bodies[*A*]for 5-6 days in iPSC medium	context()	negated: False ,passive: True
+0.905	[*A*]Neuronal Differentiation of iPSC LinesiPSC colonies[*R*]were detached[*A*]with accutase	context()	negated: False ,passive: True
+[LINE#61]EBs were allowed to attach and form rosettes.
+0.786	[*A*]EBs[*R*]to form[*A*]rosettes	context()	negated: False ,passive: False
+0.519	[*A*]EBs[*R*]to attach	context()	negated: False ,passive: False
+0.561	[*A*]EBs[*R*]were allowed	context()	negated: False ,passive: False
+[LINE#62]Ten-day-old rosettes were collected and grown in suspension as neurospheres.
+0.449	[*A*]Ten[*R*]grown[*A*]in suspension[*A*]as neurospheres	context()	negated: False ,passive: True
+0.801	[*A*]Ten - day - old rosettes[*R*]were collected	context()	negated: False ,passive: False
+[LINE#63]Neurospheres were dissociated after 3-4 weeks, and the cells were plated on glass coverslips (BD Biosciences) or plates coated with poly-D-lysine (0.1 mg/ml) and laminin (10 g/m).
+0.993	[*A*]Neurospheres[*R*]were dissociated after[*A*]after 3 -4 weeks	context()	negated: False ,passive: False
+0.918	[*A*]the cells[*R*]were plated[*A*]on glass coverslips (BD Biosciences) or plates	context()	negated: False ,passive: True
+0.894	[*A*]Neurospheres[*R*]were dissociated[*A*]after 3-4 weeks	context()	negated: False ,passive: True
+[LINE#64]Neurons were used after 2-4 weeks in culture.
+0.993	[*A*]Neurons[*R*]were used after[*A*]after 2 -4 weeks	context()	negated: False ,passive: False
+0.894	[*A*]Neurons[*R*]were used[*A*]after 2-4 weeks in culture	context()	negated: False ,passive: True
+[LINE#65]For spontaneous differentiation, EBs were obtained as described for neural differentiation and grown for 8 days in suspension.
+0.913	[*A*]EBs[*R*]were obtained[*A*]as grown for 8 days in suspension[*A*]For spontaneous differentiation	context()	negated: False ,passive: True
+0.913	[*A*]EBs[*R*]were obtained[*A*]as described for neural differentiation[*A*]For spontaneous differentiation	context()	negated: False ,passive: True
+[LINE#66]EBs were then allowed to adhere to Matrigel-coated glass coverslips and to further differentiate for 8 days in mTeSR1 medium.
+0.706	[*A*]EBs[*R*]to differentiate[*A*]for 8 days in mTeSR1 medium	context()	negated: False ,passive: False
+0.816	[*A*]EBs[*R*]to adhere[*A*]to Matrigel - coated glass coverslips	context()	negated: False ,passive: False
+0.599	[*A*]EBs[*R*]were allowed[*A*]then	context()	negated: False ,passive: True
+[LINE#67]Cells migrating out of the attached EBs were stained and analyzed by fluorescence microscopy for markers of the three germ layers.
+0.813	[*A*]Cells[*R*]analyzed[*A*]by fluorescence microscopy	context()	negated: False ,passive: True
+0.857	[*A*]Cells migrating out of the attached EBs[*R*]were stained	context()	negated: False ,passive: False
+0.840	[*A*]Cells[*R*]migrating[*A*]out of the attached EBs	context()	negated: False ,passive: False
+[LINE#68]Karyotyping and Teratoma FormationKaryotype analysis was performed at Cell Line Genetics (Madison, WI) and Cytogenetic Laboratory, University of Massachusetts Memorial Hospital (Worcester, MA).
+0.953	[*A*]Karyotyping and Teratoma FormationKaryotype analysis[*R*]was performed[*A*]at Cytogenetic Laboratory	context()	negated: False ,passive: True
+0.953	[*A*]Karyotyping and Teratoma FormationKaryotype analysis[*R*]was performed[*A*]at Cell Line Genetics	context()	negated: False ,passive: True
+[LINE#69]Teratoma formation was analyzed at Applied StemCell (Sunnyvale, CA).
+0.918	[*A*]Teratoma formation[*R*]was analyzed[*A*]at Applied StemCell	context()	negated: False ,passive: True
+[LINE#70]Briefly, iPSCs (1-2  106 cells/site) were injected into the kidney capsule of Fox Chase SCID-beige mice.
+0.927	[*A*]iPSCs[*R*]were injected[*A*]into the kidney capsule of Fox Chase SCID-beige mice[*A*]Briefly	context()	negated: False ,passive: True
+[LINE#71]Teratomas formed 7-10 weeks later.
+0.894	[*A*]Teratomas[*R*]formed[*A*]7-10 weeks later	context()	negated: False ,passive: True
+[LINE#72]Tissues were fixed in 10% formalin, embedded in paraffin, cut into 5-m serial sections, and stained with hematoxylin/eosin.
+0.771	[*A*]Tissues[*R*]were fixed	context()	negated: False ,passive: False
+[LINE#73]Differentiation of iPSCs into MicrogliaiPSCs were differentiated into microglial precursors in vivo with a modified version of a method designed for mouse ESCs (Napoli et al., 2009).
+0.903	[*A*]a method[*R*]designed[*A*]for mouse ESCs	context()	negated: False ,passive: True
+0.865	[*A*]Differentiation of iPSCs into MicrogliaiPSCs[*R*]were differentiated[*A*]into microglial precursors[*A*]in vivo	context()	negated: False ,passive: True
+[LINE#74]Briefly, EBs were formed as described for neuronal differentiation, cultured in suspension for 6 days, and allowed to adhere to dishes coated with 0.1% gelatin.
+0.871	[*A*]Briefly[*R*]allowed to adhere[*A*]to dishes	context(Briefly allowed)	negated: False ,passive: False
+0.871	[*A*]Briefly[*R*]allowed[*A*]to adhere to dishes	context()	negated: False ,passive: False
+0.894	[*A*]dishes[*R*]coated[*A*]with 0.1 % gelatin	context()	negated: False ,passive: True
+0.904	[*A*]EBs[*R*]were formed[*A*]as described for neuronal differentiation , cultured in suspension for 6 days	context()	negated: False ,passive: True
+[LINE#75]Twenty-four hours later, nestin-positive cells were selected by incubation with 5 g/ml fibronectin (Sigma) and 1X insulin-transferrin-selenite (GIBCO) in Dulbecco's modified Eagle's medium (DMEM)/F12 for 6 days.
+0.993	[*A*]nestin-positive cells[*R*]were selected with[*A*]5 g / 1x insulin - transferrin - selenite	context()	negated: False ,passive: False
+0.943	[*A*]nestin-positive cells[*R*]were selected[*A*]by incubation[*A*]Twenty - four hours later	context()	negated: False ,passive: True
+0.970	[*A*]nestin-positive cells[*R*]were selected[*A*]by incubation with 5 g / ml fibronectin ( Sigma ) in Dulbecco 's modified Eagle 's medium[*A*]Twenty - four hours later	context()	negated: False ,passive: True
+[LINE#76]Cells were expanded in DMEM/F12 containing 1% N2, 1 g/ml laminin, and 5 ng/ml basic fibroblast growth factor for 6 additional days.
+0.855	[*A*]Cells[*R*]containing[*A*]5 ng / ml basic fibroblast growth factor for 6 additional days	context()	negated: False ,passive: False
+0.894	[*A*]Cells[*R*]were expanded[*A*]in DMEM / F12[*A*]containing 5 ng / ml basic fibroblast growth factor for 6 additional days	context()	negated: False ,passive: True
+0.786	[*A*]Cells[*R*]containing[*A*]1 g / ml laminin	context()	negated: False ,passive: False
+0.840	[*A*]Cells[*R*]were expanded[*A*]in DMEM / F12[*A*]containing 1 g / ml laminin	context()	negated: False ,passive: True
+0.786	[*A*]Cells[*R*]containing[*A*]1 % N2	context()	negated: False ,passive: False
+0.840	[*A*]Cells[*R*]were expanded[*A*]in DMEM / F12[*A*]containing 1 % N2	context()	negated: False ,passive: True
+[LINE#77]Differentiation was induced by removing the growth factor from the medium.
+0.877	[*A*]Differentiation[*R*]by removing[*A*]the growth factor[*A*]from the medium	context()	negated: False ,passive: False
+0.713	[*A*]Differentiation[*R*]was induced	context()	negated: False ,passive: False
+[LINE#78] Twenty-one days later, precursor cells were dissociated with 0.125% trypsin and seeded on gelatin-coated, 100-mm dishes in.
+0.943	[*A*]precursor cells[*R*]were seeded[*A*]on gelatin-coated[*A*]Twenty - one days later	context()	negated: False ,passive: True
+0.993	[*A*]precursor cells[*R*]were dissociated with[*A*]0.125 % trypsin	context()	negated: False ,passive: False
+0.943	[*A*]precursor cells[*R*]were dissociated[*A*]with 0.125 % trypsin[*A*]Twenty - one days later	context()	negated: False ,passive: True
+[LINE#79]DMEM/F12 medium containing 1% N2 and 5% fetal bovine serum.
+0.999	[*A*]DMEM F12 medium[*R*]containing[*A*]1 % 5 %	context()	negated: False ,passive: False
+0.939	[*A*]DMEM / F12 medium[*R*]containing[*A*]1 %	context()	negated: False ,passive: False
+0.939	[*A*]DMEM / F12 medium[*R*]containing[*A*]1 % N2	context()	negated: False ,passive: False
+[LINE#80]Microglial cells migrating out of the aggregates were collected 14 days later and seeded on gelatin-coated 24-well plates.
+0.993	[*A*]Microglial cells migrating out of the aggregates[*R*]were seeded on[*A*]24 - well plates	context()	negated: False ,passive: False
+0.938	[*A*]Microglial cells migrating out of the aggregates[*R*]were seeded[*A*]on gelatin-coated 24 - well plates	context()	negated: False ,passive: True
+0.938	[*A*]Microglial cells migrating out of the aggregates[*R*]were collected[*A*]14 days later	context()	negated: False ,passive: True
+0.903	[*A*]Microglial cells[*R*]migrating[*A*]out of the aggregates	context()	negated: False ,passive: False
+[LINE#81]Experiments were performed 48 hr later.
+0.894	[*A*]Experiments[*R*]were performed[*A*]48 hr later	context()	negated: False ,passive: True
+[LINE#82]ElectrophysiologyElectrophysiological recording were performed on 3-4 week-old neurons.
+0.993	[*A*]ElectrophysiologyElectrophysiological recording[*R*]were performed on[*A*]3 -4 week - old neurons	context()	negated: False ,passive: False
+0.903	[*A*]ElectrophysiologyElectrophysiological recording[*R*]were performed[*A*]on 3-4 week-old neurons	context()	negated: False ,passive: True
+[LINE#83] The extracellular solution consisted of (in mM) 119 NaCl, 2.5 KCl, 4 CaCl2, 4 MgCl2, 26 NaHCO3, 1 NaH2PO4, and 11 glucose; it was gassed with 5% CO2/95% O2 and had a pH of 7.4, unless otherwise noted.
+0.911	[*A*]The extracellular solution[*R*]consisted[*A*]of ( had a pH of 7.4	context()	negated: False ,passive: True
+0.783	[*A*]The extracellular solution[*R*]consisted[*A*]of	context()	negated: False ,passive: True
+[LINE#84]The coverslips were mounted on an upright microscope (BX61WI, Olympus), and cells were identified visually by infrared (IR) differential interference contrast video microscopy with an IR-CCD camera (Olympus).
+0.894	[*A*]cells[*R*]were identified visually[*A*]by infrared ( IR ) differential interference contrast video microscopy with an IR - CCD camera	context()	negated: False ,passive: True
+0.903	[*A*]The coverslips[*R*]were mounted[*A*]on an upright microscope	context()	negated: False ,passive: True
+[LINE#85]Whole-cell recordings were made with a Multiclamp 700B amplifier, a Digidata 1320, and Clampex 9 (Molecular Devices).
+[LINE#86]The patch recording pipettes (3-5 M) were filled with internal solution containing (in mM): 115 potassium methanesulfonate, 20 KCl, 10 HEPES, 2.5 MgCl2, 4 adenosine triphosphate disodium salt, 0.4 guanosine triphosphate trisodium salt, 10 sodium phosphocreatine, and 0.6 EGTA, pH 7.25, with KOH.
+0.732	[*A*]internal solution[*R*]containing	context()	negated: False ,passive: False
+0.920	[*A*]The patch recording pipettes[*R*]were filled[*A*]with internal solution containing ( in mM	context()	negated: False ,passive: True
+[LINE#87]Membrane potentials were corrected for a liquid junction potential (10 mV) between the extracellular and pipette solutions.
+0.937	[*A*]Membrane potentials[*R*]were corrected[*A*]for a liquid junction potential (10 mV) between the extracellular and pipette solutions	context()	negated: False ,passive: True
+[LINE#88]All experiments were performed at room temperature (24-25C).
+0.903	[*A*]All experiments[*R*]were performed[*A*]at room temperature	context()	negated: False ,passive: True
+[LINE#89]Action potentials were recorded in whole-cell current-clamp mode.
+0.903	[*A*]Action potentials[*R*]were recorded[*A*]in whole-cell current-clamp mode	context()	negated: False ,passive: True
+[LINE#90]Membrane potentials were kept around -55 to 65 mV, and step currents were injected to evoke action potentials.
+0.887	[*A*]step currents[*R*]to evoke[*A*]action potentials	context()	negated: False ,passive: False
+0.903	[*A*]step currents[*R*]were injected[*A*]to evoke action potentials	context()	negated: False ,passive: True
+0.732	[*A*]Membrane potentials[*R*]were kept	context()	negated: False ,passive: False
+[LINE#91] AMPAR-mediated miniature excitatory postsynaptic currents (mEPSCs) were measured with whole-cell voltage-clamp recordings performed with tetrodotoxin (0.002mM, Ascent Scientific) and picrotoxin (0.1 mM, Sigma) in the extracellular solution.
+0.926	[*A*]whole - cell voltage - clamp recordings[*R*]performed[*A*]in the extracellular solution	context()	negated: False ,passive: True
+0.816	[*A*]whole - cell voltage - clamp recordings[*R*]performed	context()	negated: False ,passive: False
+0.945	[*A*]AMPAR - mediated miniature excitatory postsynaptic currents[*R*]were measured[*A*]with whole - cell voltage - clamp recordings	context()	negated: False ,passive: True
+[LINE#92]Miniature events were analyzed with Mini Analysis software (Synaptosoft).
+0.732	[*A*]Miniature events[*R*]were analyzed	context()	negated: False ,passive: False
+[LINE#93]Events smaller than 5 pA were excluded from the analysis.
+0.992	[*A*]5 pa[*R*]were excluded from[*A*]the analysis	context()	negated: False ,passive: False
+0.919	[*A*]smaller than 5 pA[*R*]were excluded[*A*]from the analysis	context()	negated: False ,passive: True
+[LINE#94]Data were digitized at 10k Hz with a 2-kHz low-pass filter.
+0.932	[*A*]Data[*R*]were digitized[*A*]at 10k Hz	context()	negated: False ,passive: True
+[LINE#95]Results are reported as mean  SEM.
+0.911	[*A*]Results[*R*]are reported[*A*]as mean  SEM	context()	negated: False ,passive: True
+[LINE#96]The statistical significance of differences in mEPSCs was determined by t test; p < 0.05 was considered statistically significant.
+[LINE#97]Caspase-3 Activity AssayCells were washed once in PBS and lysed with M-PER Reagent (Thermo Scientific) supplemented with protease inhibitor cocktail (Roche Applied Science).
+0.894	[*A*]Caspase[*R*]supplemented[*A*]with protease inhibitor cocktail	context()	negated: False ,passive: True
+0.932	[*A*]Caspase[*R*]lysed[*A*]with M - PER Reagent	context()	negated: False ,passive: False
+0.992	[*A*]3 activity assaycells[*R*]were washed in[*A*]PBS	context()	negated: False ,passive: False
+0.953	[*A*]Caspase - 3 Activity AssayCells[*R*]were washed[*A*]once[*A*]in PBS	context()	negated: False ,passive: True
+[LINE#98]After three freeze-thaw cycles, cellular debris was removed by centrifugation at 13,000 rpm for 10 min at 4C, and the supernatants were assayed for protein concentration with the BioRad reagent assay.
+0.918	[*A*]the supernatants[*R*]were assayed[*A*]for protein concentration with the BioRad reagent assay	context()	negated: False ,passive: True
+0.992	[*A*]three freeze - thaw cycles[*R*]was removed at[*A*]13,000 rpm	context()	negated: False ,passive: False
+[LINE#99] To measure caspase-3-like activity, 10 g of protein was incubated with 15 M.
+0.992	[*A*]10 g of protein[*R*]was incubated with[*A*]15 M.	context()	negated: False ,passive: False
+0.993	[*A*]10 g of protein[*R*]was incubated with[*A*]15 m	context()	negated: False ,passive: False
+0.931	[*A*]10 g of protein[*R*]was incubated[*A*]with 15 M.	context()	negated: False ,passive: True
+[LINE#100] Ac-DEVD-AFC (Caspase-3 Substrate VII, Calbiochem, San Diego, CA) in reaction buffer ( 25 mM HEPES, 10% sucrose, 0.1% CHAPS, pH 7.5, and 15 mM1,4 dithiothreitol) for 2 hr at 37C.
+0.952	[*A*]10 %[*R*]sucrose[*A*]15 mM1,4 dithiothreitol[*A*]for 2 hr at 37C[*A*]in reaction buffer	context()	negated: False ,passive: True
+0.918	[*A*]10 %[*R*]sucrose[*A*]pH 7.5[*A*]for 2 hr at 37C	context()	negated: False ,passive: False
+[LINE#101]AFC fluorescence was detected with excitation at 400 nm and emission at 505 nm in a SpectraMax M3 Microplate Reader (Molecular Devices, Sunnyvale, CA).
+0.993	[*A*]AFC fluorescence[*R*]was detected at[*A*]400 emission	context()	negated: False ,passive: False
+0.961	[*A*]AFC fluorescence[*R*]was detected[*A*]with excitation[*A*]at 400 emission[*A*]at 505 nm in a SpectraMax M3 Microplate Reader ( Molecular Devices , Sunnyvale	context()	negated: False ,passive: True
+0.993	[*A*]AFC fluorescence[*R*]was detected at[*A*]400 nm	context()	negated: False ,passive: False
+0.961	[*A*]AFC fluorescence[*R*]was detected[*A*]with excitation[*A*]at 400 nm at 505 nm in a SpectraMax M3 Microplate Reader	context()	negated: False ,passive: True
+[LINE#102] Caspase-like activity was calculated as the increase above control(DMSO-treated cells).Microarray ExperimentsTotal RNA was extracted from neuronal cultures with standard methods, and then amplified, biotin-labeled, and hybridized on Illumina HT12 version 4 Beadchip Expression microarrays, following the manufacturer's recommendations.
+0.896	[*A*]Microarray ExperimentsTotal RNA[*R*]was hybridized[*A*]on Illumina HT12 version[*A*]following the manufacturer 's recommendations	context()	negated: False ,passive: True
+0.956	[*A*]Caspase - like activity[*R*]was calculated[*A*]as the increase above control[*A*]Microarray ExperimentsTotal RNA was hybridized on Illumina HT12 version 4 Beadchip Expression microarrays , following the manufacturer 's recommendations	context()	negated: False ,passive: True
+0.919	[*A*]Caspase - like activity[*R*]was calculated[*A*]as the increase above control[*A*]following the manufacturer 's recommendations	context()	negated: False ,passive: True
+0.710	[*A*]Microarray ExperimentsTotal RNA[*R*]was amplified[*A*]then	context()	negated: False ,passive: True
+0.919	[*A*]Caspase - like activity[*R*]was calculated[*A*]as the increase above control	context()	negated: False ,passive: True
+0.877	[*A*]Microarray ExperimentsTotal RNA[*R*]was extracted[*A*]from neuronal cultures with standard methods[*A*]following the manufacturer 's recommendations	context()	negated: False ,passive: True
+0.956	[*A*]Caspase - like activity[*R*]was calculated[*A*]as the increase above control[*A*]Microarray ExperimentsTotal RNA was extracted from neuronal cultures with standard methods , following the manufacturer 's recommendations	context()	negated: False ,passive: True
+[LINE#103]Slides were scanned using Illumina BeadStation, and the signal was extracted by using Illumina BeadStudio software.
+0.918	[*A*]the signal[*R*]was extracted[*A*]by using Illumina BeadStudio software	context()	negated: False ,passive: True
+0.896	[*A*]Slides[*R*]using[*A*]Illumina BeadStation	context()	negated: False ,passive: False
+0.713	[*A*]Slides[*R*]were scanned	context()	negated: False ,passive: False
+[LINE#104]Raw data were analyzed by using Bioconductor packages [Gentleman R, Carey V, Huber W et al.
+0.918	[*A*]Raw data[*R*]were analyzed[*A*]by using Bioconductor packages	context()	negated: False ,passive: True
+[LINE#105] Bioinformatics and Computational Biology Solutions.
+[LINE#106]Quality assessment was performed analyzing at the inter-array Pearson correlation, and clustering based on top variant genes was used to assess overall data coherence.
+0.906	[*A*]Quality[*R*]to assess[*A*]overall data coherence	context()	negated: False ,passive: False
+0.920	[*A*]Quality[*R*]was used[*A*]to assess overall data coherence	context()	negated: False ,passive: True
+0.920	[*A*]Quality[*R*]clustering based[*A*]on top variant genes	context()	negated: False ,passive: True
+0.905	[*A*]Quality assessment[*R*]analyzing[*A*]at the inter-array Pearson correlation	context()	negated: False ,passive: True
+0.732	[*A*]Quality assessment[*R*]was performed	context()	negated: False ,passive: False
+[LINE#107]Contrast analysis of differential expression was performed by using the LIMMA package [Smyth GK, Gentleman R, Carey V et al.
+0.769	[*A*]analysis of differential expression[*R*]was performed	context()	negated: False ,passive: False
+[LINE#108]Limma: linear models for microarray data.
+[LINE#109] Bioinformatics and Computational Biology Solutions using R and Bioconductor:.
+0.925	[*A*]Computational Biology Solutions[*R*]using[*A*]Bio	context()	negated: False ,passive: False
+0.911	[*A*]Computational Biology Solutions[*R*]using[*A*]R	context()	negated: False ,passive: False
+[LINE#110]After linear model fitting, a Bayesian estimate of differential expression was calculated.
+0.953	[*A*]a Bayesian estimate of differential expression[*R*]was calculated[*A*]After linear model fitting	context()	negated: False ,passive: True
+[LINE#111]Data analysis was aimed at characterizing the gene expression differences between neurons from a sporadic FTD subject and a carrier the PGRN S116X mutation compared to neurons derived from one normal control.
+0.894	[*A*]neurons[*R*]derived[*A*]from one normal control	context()	negated: False ,passive: True
+0.961	[*A*]Data analysis[*R*]was aimed[*A*]at characterizing the gene expression differences between neurons from a sporadic FTD subject and a carrier	context()	negated: False ,passive: True
+[LINE#112] Pathway analysis was performed by using the Functional Analysis Annotation tool in the Ingenuity Pathways Analysis software (Ingenuity Systems, http://www.ingenuity.com).Statistical AnalysisValues are expressed as mean .
+0.905	[*A*]Pathway analysis[*R*]by using[*A*]the Functional Analysis Annotation tool	context()	negated: False ,passive: False
+0.732	[*A*]Pathway analysis[*R*]was performed	context()	negated: False ,passive: False
+[LINE#113]The significance of differences among multiple groups was determined with a one-way analysis of variance (ANOVA) followed by a Tukey-Kramer post hoc test (GraphPad Prism version 5.04).
+0.939	[*A*]a one-way analysis of variance[*R*]followed[*A*]by a Tukey-Kramer post hoc test	context()	negated: False ,passive: True
+0.938	[*A*]The significance of differences among multiple groups[*R*]was determined[*A*]with a one-way analysis of variance	context()	negated: False ,passive: True
+[LINE#114]Differences were considered significant at p < 0.05.

@@ -1,0 +1,746 @@
+[LINE#1]Over 20years ago single clonal deletions were the first mitochondrial DNA (mtDNA) genetic defects described in association with human disease.
+0.903	[*A*]genetic defects[*R*]described[*A*]in association with human disease	context()	negated: False ,passive: True
+0.948	[*A*]single clonal deletions[*R*]were[*A*]the first mitochondrial DNA[*A*]Over[*A*]20years ago	context()	negated: False ,passive: True
+[LINE#2]Since then very large numbers of children and adults harbouring such deletions have been described and it is clear they are an important cause of human mitochondrial disease.
+0.847	[*A*]very large numbers of adults[*R*]have been described[*A*]Since then	context()	negated: False ,passive: True
+0.894	[*A*]adults[*R*]harbouring[*A*]such deletions	context()	negated: False ,passive: False
+0.867	[*A*]very large numbers of children[*R*]have been described[*A*]Since then	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]are[*A*]an important cause of human mitochondrial disease	context()	negated: False ,passive: True
+0.278	[*A*]it[*R*]is[*A*]clear	context()	negated: False ,passive: True
+[LINE#3]However, there still remain many important challenges in relation to our understanding of mechanisms leading to deletion formation and propagation and in relation to the factors determining the complex and varying relationship between genotype and clinical phenotype.
+0.903	[*A*]the factors[*R*]varying[*A*]relationship between clinical phenotype	context()	negated: False ,passive: False
+0.903	[*A*]the factors[*R*]varying[*A*]relationship between genotype	context()	negated: False ,passive: False
+0.903	[*A*]the factors[*R*]determining[*A*]the complex	context()	negated: False ,passive: False
+0.713	[*A*]mechanisms[*R*]leading	context()	negated: False ,passive: False
+0.894	[*A*]mechanisms[*R*]leading[*A*]to propagation	context()	negated: False ,passive: False
+0.894	[*A*]mechanisms[*R*]leading[*A*]to deletion formation	context()	negated: False ,passive: False
+[LINE#4]Although multidisciplinary team care is essential and can improve quality of life and outcomes for patients, a definitive molecular treatment for single mtDNA deletions remains an important translational research goal.
+0.973	[*A*]Although multidisciplinary team can improve a definitive molecular treatment for single mtDNA deletions[*R*]remains[*A*]an important translational research goal	context()	negated: False ,passive: True
+0.918	[*A*]multidisciplinary team[*R*]can improve[*A*]a definitive molecular treatment for single mtDNA deletions	context()	negated: False ,passive: False
+0.932	[*A*]Although multidisciplinary team can improve outcomes[*R*]remains[*A*]an important translational research goal	context()	negated: False ,passive: True
+0.903	[*A*]multidisciplinary team[*R*]can improve[*A*]outcomes	context()	negated: False ,passive: False
+0.903	[*A*]multidisciplinary team[*R*]can improve[*A*]quality of life	context()	negated: False ,passive: False
+0.932	[*A*]Although multidisciplinary team care is essential[*R*]remains[*A*]an important translational research goal	context()	negated: False ,passive: True
+0.828	[*A*]multidisciplinary team care[*R*]is[*A*]essential	context()	negated: False ,passive: True
+[LINE#5]Patients with mtDNA deletions exhibit a very wide range of different clinical phenotypes with marked variation in age at onset and disease severity.
+0.961	[*A*]Patients with mtDNA deletions[*R*]exhibit[*A*]a very wide range of different clinical phenotypes with marked variation in age at disease severity	context()	negated: False ,passive: False
+0.961	[*A*]Patients with mtDNA deletions[*R*]exhibit[*A*]a very wide range of different clinical phenotypes with marked variation in age at onset	context()	negated: False ,passive: False
+[LINE#6]Single mtDNA deletions may enter into the differential diagnosis of many different paediatric and adult presentations across a wide range of medical specialties, although neurological presentations are amongst the most common.
+0.957	[*A*]Single mtDNA deletions[*R*]may enter[*A*]into the differential diagnosis of many adult presentations across a wide range of medical specialties[*A*]although neurological presentations are amongst the most common	context()	negated: False ,passive: False
+0.767	[*A*]neurological presentations[*R*]are[*A*]amongst the most common	context()	negated: False ,passive: True
+0.957	[*A*]Single mtDNA deletions[*R*]may enter[*A*]into the differential diagnosis of many different paediatric presentations across a wide range of medical specialties[*A*]although neurological presentations are amongst the most common	context()	negated: False ,passive: False
+[LINE#7]In this review, we examine the molecular mechanisms underpinning mtDNA replication and we consider the hypotheses proposed to explain the formation and propagation of single large-scale mtDNA deletions.
+0.560	[*A*]we[*R*]consider[*A*]the hypotheses proposed to explain the propagation of single large - scale mtDNA deletions	context()	negated: False ,passive: False
+0.905	[*A*]the hypotheses[*R*]to explain[*A*]the propagation of single large - scale mtDNA deletions	context()	negated: False ,passive: False
+0.560	[*A*]we[*R*]consider[*A*]the hypotheses proposed to explain the formation of single large - scale mtDNA deletions	context()	negated: False ,passive: False
+0.905	[*A*]the hypotheses[*R*]to explain[*A*]the formation of single large - scale mtDNA deletions	context()	negated: False ,passive: False
+0.925	[*A*]the molecular mechanisms[*R*]underpinning[*A*]mtDNA replication	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]examine[*A*]the molecular mechanisms underpinning mtDNA replication[*A*]In this review	context()	negated: False ,passive: False
+[LINE#8]We also describe the range of clinical features associated with single mtDNA deletions, outline a molecular diagnostic approach and discuss current management including the role of aerobic and resistance exercise training programmes.
+0.918	[*A*]clinical features[*R*]associated[*A*]with single mtDNA deletions	context()	negated: False ,passive: True
+0.411	[*A*]We[*R*]describe[*A*]the range of clinical features	context()	negated: False ,passive: False
+[LINE#9]Clinical phenotypes associated with single mitochondrial DNA deletionsThree sporadic clinical syndromes are classically associated with large-scale deletions of mtDNA.
+0.890	[*A*]sporadic clinical syndromes[*R*]are associated[*A*]with large-scale deletions of mtDNA	context()	negated: False ,passive: True
+0.816	[*A*]Clinical phenotypes associated with single mitochondrial DNA[*R*]deletionsThree	context()	negated: False ,passive: False
+0.903	[*A*]Clinical phenotypes[*R*]associated[*A*]with single mitochondrial DNA	context()	negated: False ,passive: True
+[LINE#10]However, it is increasingly recognised that there is a continuum of clinical phenotypes associated with single mtDNA deletions, and a large number of variants exist.
+0.785	[*A*]a large number of variants[*R*]exist	context()	negated: False ,passive: False
+0.918	[*A*]clinical phenotypes[*R*]associated[*A*]with single mtDNA deletions	context()	negated: False ,passive: True
+0.258	[*A*]it[*R*]is[*A*]increasingly recognised that there is a continuum of clinical phenotypes	context()	negated: False ,passive: True
+[LINE#11]The less common phenotypes associated with single mtDNA deletions are summarised in Table 1, but for purposes of this review we will describe each of the classical phenotypes in detail..
+0.452	[*A*]we[*R*]will describe[*A*]each of the classical phenotypes in detail	context()	negated: False ,passive: False
+0.968	[*A*]The less common phenotypes associated with single mtDNA deletions[*R*]are summarised[*A*]in Table 1	context()	negated: False ,passive: True
+0.931	[*A*]The less common phenotypes[*R*]associated[*A*]with single mtDNA deletions	context()	negated: False ,passive: True
+[LINE#12] Pearson marrow-pancreas syndrome(PMPS)This is a severe and often rapidly fatal disorder of infancy/early childhood characterised by sideroblastic anaemia and variable involvement of other blood cells, together with exocrine pancreatic dysfunction.
+0.919	[*A*]infancy / early childhood[*R*]characterised[*A*]by variable involvement of other blood cells	context()	negated: False ,passive: True
+0.567	[*A*]This[*R*]is[*A*]a severe and often rapidly fatal disorder of infancy / early childhood characterised by variable involvement of other blood cells , together with exocrine pancreatic dysfunction	context()	negated: False ,passive: True
+0.919	[*A*]infancy / early childhood[*R*]characterised[*A*]by sideroblastic anaemia	context()	negated: False ,passive: True
+0.567	[*A*]This[*R*]is[*A*]a severe and often rapidly fatal disorder of infancy / early childhood characterised by sideroblastic anaemia , together with exocrine pancreatic dysfunction	context()	negated: False ,passive: True
+[LINE#13]Onset is usually in early infancy with transfusion-dependent sideroblastic anaemia, neutropaenia, thrombocytopenia or pancytopaenia, poor growth and lactic acidosis.
+0.938	[*A*]Onset[*R*]is[*A*]usually[*A*]in early infancy	context()	negated: False ,passive: True
+[LINE#14]Pancreatic dysfunction may be present at disease onset or it may develop later.
+0.225	[*A*]it[*R*]may develop[*A*]later	context()	negated: False ,passive: True
+0.903	[*A*]Pancreatic dysfunction[*R*]may be[*A*]present at disease onset	context()	negated: False ,passive: True
+[LINE#15]Other clinical features include an enteropathy that may need parenteral nutrition support, and severe renal tubulopathy.
+0.887	[*A*]an enteropathy[*R*]may need[*A*]parenteral severe renal tubulopathy	context()	negated: False ,passive: False
+0.789	[*A*]Other clinical features[*R*]include[*A*]an enteropathy that may need parenteral severe renal tubulopathy	context()	negated: False ,passive: True
+0.887	[*A*]an enteropathy[*R*]may need[*A*]parenteral nutrition support	context()	negated: False ,passive: False
+0.789	[*A*]Other clinical features[*R*]include[*A*]an enteropathy that may need parenteral nutrition support	context()	negated: False ,passive: True
+[LINE#16]Bone marrow examination typically reveals high levels of ringed sideroblasts and vacuolisation of myeloid precursors [62-64].
+0.922	[*A*]Bone marrow examination[*R*]reveals[*A*]high levels of vacuolisation of myeloid precursors	context()	negated: False ,passive: False
+0.922	[*A*]Bone marrow examination[*R*]reveals[*A*]high levels of ringed sideroblasts	context()	negated: False ,passive: False
+[LINE#17]The disorder is frequently fatal in early childhood because of overwhelming lactic acidosis or liver failure.
+0.925	[*A*]The disorder[*R*]is[*A*]frequently fatal in early childhood[*A*]because of overwhelming lactic acidosis or liver failure	context()	negated: False ,passive: True
+[LINE#18] It is estimated that one out of three neonatal cases of PMPS surviving infancy develop features compatible with Kearns-Sayre syndrome (KSS) [65], including cardiac conduction defects, sensorineural hearing loss, pigmentary retinopathy and progressive neurological impairment which can sometimes resemble Leigh syndrome [.
+0.929	[*A*]infancy[*R*]develop[*A*]features compatible with Kearns - Sayre syndrome ( KSS ) [ 65 ] , including progressive neurological impairment	context(PMPS surviving)	negated: False ,passive: False
+0.871	[*A*]PMPS[*R*]surviving[*A*]infancy develop features compatible with Kearns - Sayre syndrome ( KSS ) [ 65 ] , including progressive neurological impairment	context()	negated: False ,passive: False
+0.924	[*A*]progressive neurological impairment[*R*]can resemble[*A*]Leigh syndrome[*A*]sometimes	context()	negated: False ,passive: True
+0.561	[*A*]PMPS[*R*]surviving	context()	negated: False ,passive: False
+0.813	[*A*]PMPS[*R*]surviving[*A*]infancy	context()	negated: False ,passive: False
+[LINE#19]In PMPS deleted mtDNA molecules are usually present at higher levels in blood than other tissues; hence haematological manifestations are such a prominent feature of the syndrome.
+[LINE#20] Due to the high replication rate of blood cells, mtDNA deletions can be cleared from these cells with time, leading to resolution of the haematological manifestations(for example, the need for transfusions has usually resolved by 2years).
+0.927	[*A*]mtDNA deletions[*R*]can be cleared[*A*]from these cells[*A*]with time	context()	negated: False ,passive: True
+[LINE#21]In contrast, deleted mtDNA molecules tend to progressively accumulate in other tissues (especially non-dividing tissues), leading to the multisystem and relentlessly progressive nature of this disorder.
+0.887	[*A*]other tissues[*R*]leading[*A*]to the relentlessly progressive nature of this disorder	context()	negated: False ,passive: False
+0.922	[*A*]deleted mtDNA molecules[*R*]leading[*A*]to the multisystem	context()	negated: False ,passive: False
+0.922	[*A*]deleted mtDNA molecules[*R*]to progressively accumulate[*A*]in other tissues	context()	negated: False ,passive: True
+0.949	[*A*]deleted mtDNA molecules[*R*]tend[*A*]to progressively accumulate in other tissues	context()	negated: False ,passive: True
+[LINE#22]Despite the classical description of PMPS, however, it is important to be aware of the more atypical presentations.
+[LINE#23]Neonates can present with anaemia as the only onset symptom in one third of cases [65,70], and hepatopathy may be the most prominent feature [71].
+0.894	[*A*]hepatopathy[*R*]may be[*A*]the most prominent feature	context()	negated: False ,passive: True
+0.894	[*A*]Neonates[*R*]can present[*A*]with anaemia as the only onset symptom[*A*]in one third of cases	context()	negated: False ,passive: False
+[LINE#24]The diagnosis should also be considered when there is isolated pancreatic exocrine insufficiency without marrow involvement [72].
+0.841	[*A*]The diagnosis[*R*]should be considered[*A*]when there is isolated pancreatic exocrine insufficiency without marrow involvement [72	context()	negated: False ,passive: True
+[LINE#25]Pancytopaenia and tubulopathy can occur without exocrine pancreatic dysfunction [73], and there are case reports of milder, childhood onset, isolated tubulopathy and hypoparathyroidism [74], which has also been reported in association with recurrent encephalopathy [75].
+0.862	[*A*]case reports of hypoparathyroidism[*R*]has been reported[*A*]in association with recurrent encephalopathy	context()	negated: False ,passive: True
+0.873	[*A*]case reports of isolated tubulopathy[*R*]has been reported[*A*]in association with recurrent encephalopathy	context()	negated: False ,passive: True
+0.873	[*A*]case reports of childhood onset[*R*]has been reported[*A*]in association with recurrent encephalopathy	context()	negated: False ,passive: True
+0.883	[*A*]case reports of milder [ 74[*R*]has been reported[*A*]in association with recurrent encephalopathy	context()	negated: False ,passive: True
+0.713	[*A*]tubulopathy[*R*]can occur	context()	negated: False ,passive: False
+0.771	[*A*]Pancytopaenia[*R*]can occur	context()	negated: False ,passive: False
+[LINE#26](KSS)KSS is a multisystem disorder defined clinically by the triad of PEO and pigmentary retinopathy with onset before the age of 20years plus at least one of: cardiac conduction block; cerebrospinal fluid (CSF) protein concentration greater than 0.1g/L; cerebellar ataxia [76-80].
+[LINE#27]Frequent additional signs include sensorineural hearing loss, renal tubular acidosis, dementia, seizures, short stature and endocrine disturbance (diabetes mellitus, hypoparathyroidism and growth hormone deficiency).
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]endocrine disturbance	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]short stature growth hormone deficiency	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]short stature hypoparathyroidism	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]short stature diabetes mellitus	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]seizures growth hormone deficiency	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]seizures hypoparathyroidism	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]dementia growth hormone deficiency	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]dementia hypoparathyroidism	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]dementia diabetes mellitus	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]renal tubular acidosis growth hormone deficiency	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]renal tubular acidosis hypoparathyroidism	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]renal tubular acidosis diabetes mellitus	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]sensorineural hearing loss growth hormone deficiency	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]sensorineural hearing loss hypoparathyroidism	context()	negated: False ,passive: True
+0.911	[*A*]Frequent additional signs[*R*]include[*A*]sensorineural hearing loss diabetes mellitus	context()	negated: False ,passive: True
+[LINE#28]A progressive skeletal myopathy is also frequently seen.
+0.795	[*A*]A progressive skeletal myopathy[*R*]is seen[*A*]frequently	context()	negated: False ,passive: True
+[LINE#29]The most common magnetic resonance imaging (MRI) findings are cerebral and cerebellar atrophy with bilateral, often symmetrical, hyperintense lesions in the subcortical white matter, thalamus, basal ganglia and brainstem [81-83].
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebellar atrophy with bilateral , often symmetrical , hyperintense lesions in the brainstem [ 81-83	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebellar atrophy with bilateral , often symmetrical , hyperintense lesions in the basal ganglia	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebellar atrophy with bilateral , often symmetrical , hyperintense lesions in the thalamus	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebellar atrophy with bilateral , often symmetrical , hyperintense lesions in the subcortical white matter	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebral atrophy with bilateral , often symmetrical , hyperintense lesions in the brainstem [ 81-83	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebral atrophy with bilateral , often symmetrical , hyperintense lesions in the basal ganglia	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebral atrophy with bilateral , often symmetrical , hyperintense lesions in the thalamus	context()	negated: False ,passive: True
+0.978	[*A*]The most common magnetic resonance imaging ( MRI ) findings[*R*]are[*A*]cerebral atrophy with bilateral , often symmetrical , hyperintense lesions in the subcortical white matter	context()	negated: False ,passive: True
+[LINE#30]Interestingly, there appears to be little correlation between neurological deficits and the severity of the MRI features [84].
+0.062	[*A*]there[*R*]appears	context()	negated: False ,passive: False
+[LINE#31]KSS is most commonly associated with single large-scale deletions of mtDNA [56].
+0.906	[*A*]KSS[*R*]associated[*A*]with single large-scale deletions of mtDNA [56	context()	negated: False ,passive: True
+0.938	[*A*]KSS[*R*]is[*A*]most commonly associated with single large-scale deletions of mtDNA [56	context()	negated: False ,passive: True
+[LINE#32]We recently identified a case of KSS caused by nuclear genomic dysfunction due to mutations in RRM2B in a patient with multiple deletions of the mtDNA [85].
+0.967	[*A*]a case of KSS[*R*]caused[*A*]by nuclear genomic dysfunction due to mutations in RRM2B in a patient with multiple deletions of the mtDNA [85	context()	negated: False ,passive: True
+0.599	[*A*]We[*R*]identified[*A*]a case of KSS[*A*]recently	context()	negated: False ,passive: False
+[LINE#33]It is, therefore, possible for KSS to follow a Mendelian pattern of inheritance, although the majority of cases are sporadic. .
+0.799	[*A*]the majority of cases[*R*]are[*A*]sporadic	context()	negated: False ,passive: True
+0.855	[*A*]KSS[*R*]to follow[*A*]a Mendelian pattern of inheritance	context()	negated: False ,passive: False
+0.243	[*A*]It[*R*]is[*A*]therefore[*A*]possible	context()	negated: False ,passive: True
+[LINE#34]Progressive external ophthalmoplegia (PEO)PEO is considered the mildest of the three syndromes most commonly associated with single mtDNA deletions.
+0.913	[*A*]the three syndromes[*R*]associated[*A*]with single mtDNA deletions	context()	negated: False ,passive: True
+[LINE#35]It is characterised by slowly progressive bilateral ptosis and limitation of eye movements (often with reduced upgaze early in the disease process) secondary to extra-ocular muscle (EOM) weakness.
+0.569	[*A*]It[*R*]is characterised[*A*]by slowly progressive limitation of eye movements ( often with reduced upgaze early in the disease process	context()	negated: False ,passive: True
+0.452	[*A*]It[*R*]is characterised[*A*]by slowly progressive bilateral ptosis	context()	negated: False ,passive: True
+[LINE#36]There is often no diplopia as the ophthalmoparesis is bilateral, relatively symmetrical, and has gradual onset.
+0.813	[*A*]the ophthalmoparesis[*R*]is[*A*]bilateral , relatively symmetrical	context()	negated: False ,passive: True
+[LINE#37]Additional clinical features may include oropharyngeal dysfunction causing dysphagia, proximal limb weakness and exercise intolerance.
+0.911	[*A*]Additional clinical features[*R*]may include[*A*]oropharyngeal dysfunction causing intolerance	context()	negated: False ,passive: True
+0.911	[*A*]Additional clinical features[*R*]may include[*A*]oropharyngeal dysfunction causing exercise	context()	negated: False ,passive: True
+0.903	[*A*]oropharyngeal dysfunction[*R*]causing[*A*]proximal limb weakness	context()	negated: False ,passive: False
+0.911	[*A*]Additional clinical features[*R*]may include[*A*]oropharyngeal dysfunction causing proximal limb weakness	context()	negated: False ,passive: True
+0.911	[*A*]Additional clinical features[*R*]may include[*A*]oropharyngeal dysfunction causing dysphagia	context()	negated: False ,passive: True
+[LINE#38]Isolated PEO is usually associated with a normal lifespan.
+0.936	[*A*]Isolated PEO[*R*]is associated[*A*]with a normal lifespan[*A*]usually	context()	negated: False ,passive: True
+[LINE#39]The reason for selective involvement of the EOMs in the single deletion disorders is not understood.
+0.915	[*A*]The reason for selective involvement of the EOMs in the single deletion disorders[*R*]is not understood	context()	negated: True ,passive: False
+[LINE#40]It may relate to distinct structural, functional, biochemical and immunological properties of this muscle group compared to other skeletal muscles [86].
+0.938	[*A*]distinct immunological properties of this muscle group[*R*]compared[*A*]to other skeletal muscles	context()	negated: False ,passive: True
+0.452	[*A*]It[*R*]may relate[*A*]to distinct immunological properties of this muscle group	context()	negated: False ,passive: True
+0.938	[*A*]distinct biochemical properties of this muscle group[*R*]compared[*A*]to other skeletal muscles	context()	negated: False ,passive: True
+0.452	[*A*]It[*R*]may relate[*A*]to distinct biochemical properties of this muscle group	context()	negated: False ,passive: True
+0.938	[*A*]distinct functional properties of this muscle group[*R*]compared[*A*]to other skeletal muscles	context()	negated: False ,passive: True
+0.452	[*A*]It[*R*]may relate[*A*]to distinct functional properties of this muscle group	context()	negated: False ,passive: True
+0.938	[*A*]distinct structural properties of this muscle group[*R*]compared[*A*]to other skeletal muscles	context()	negated: False ,passive: True
+0.452	[*A*]It[*R*]may relate[*A*]to distinct structural properties of this muscle group	context()	negated: False ,passive: True
+[LINE#41]The EOMs have also been reported to have a lower biochemical threshold for COX deficiency than limb muscles [87].
+0.938	[*A*]The EOMs[*R*]to have[*A*]a lower biochemical threshold for COX deficiency than limb muscles	context()	negated: False ,passive: False
+0.641	[*A*]The EOMs[*R*]have been reported	context()	negated: False ,passive: False
+[LINE#42]Although single mtDNA deletions were the first mtDNA mutations associated with human disease [21], there are still many unanswered questions surrounding their origin and propagation.
+0.848	[*A*]many unanswered questions[*R*]surrounding[*A*]their propagation	context()	negated: False ,passive: True
+0.848	[*A*]many unanswered questions[*R*]surrounding[*A*]their origin	context()	negated: False ,passive: True
+0.939	[*A*]the first mtDNA mutations[*R*]associated[*A*]with human disease	context()	negated: False ,passive: True
+0.944	[*A*]single mtDNA deletions[*R*]were[*A*]the first mtDNA mutations	context()	negated: False ,passive: True
+[LINE#43]The variable clinical severity and heterogeneity of disease phenotype remains incompletely understood.
+0.756	[*A*]The heterogeneity of disease phenotype[*R*]incompletely understood	context()	negated: False ,passive: False
+0.814	[*A*]The heterogeneity of disease phenotype[*R*]remains[*A*]incompletely understood	context()	negated: False ,passive: True
+0.737	[*A*]The variable clinical severity[*R*]incompletely understood	context()	negated: False ,passive: False
+0.799	[*A*]The variable clinical severity[*R*]remains[*A*]incompletely understood	context()	negated: False ,passive: True
+[LINE#44]Single mtDNA deletion disorders continue to provide a diagnostic challenge to paediatric and adult neurologists.
+0.928	[*A*]Single mtDNA deletion disorders[*R*]to provide[*A*]a diagnostic challenge[*A*]to adult neurologists	context()	negated: False ,passive: False
+0.928	[*A*]Single mtDNA deletion disorders[*R*]to provide[*A*]a diagnostic challenge[*A*]to paediatric	context()	negated: False ,passive: False
+0.818	[*A*]Single mtDNA deletion disorders[*R*]continue	context()	negated: False ,passive: False
+[LINE#45]Although primarily sporadic, a Mendelian inheritance pattern should not be used as an exclusion criterion for KSS, especially in the context of multiple mtDNA deletions [85].
+0.931	[*A*]a Mendelian inheritance pattern[*R*]should not be used[*A*]as an exclusion criterion for KSS[*A*]especially in the context of multiple mtDNA deletions	context()	negated: True ,passive: True
+[LINE#46]Diagnosis is usually achieved using DNA extracted from blood in children.
+0.855	[*A*]DNA[*R*]extracted[*A*]from blood in children	context()	negated: False ,passive: True
+0.743	[*A*]Diagnosis[*R*]is achieved[*A*]usually	context()	negated: False ,passive: True
+[LINE#47]However, use of uroepithelial cells is increasingly being recognised as a non-invasive alternative to muscle biopsy, particularly in children with cardiac conduction disorders in whom a general anaesthetic poses significant risks.
+0.948	[*A*]a general anaesthetic[*R*]poses[*A*]significant risks[*A*]children with cardiac conduction disorders	context()	negated: False ,passive: False
+0.881	[*A*]use of uroepithelial cells[*R*]is being recognised[*A*]as a non-invasive alternative to muscle biopsy	context()	negated: False ,passive: True
+[LINE#48]Although treatment is primarily supportive, a multidisciplinary team complemented by a tailored exercise regimen significantly improves overall function and life quality for patients and their families.
+0.909	[*A*]a multidisciplinary team complemented by a tailored exercise regimen[*R*]significantly improves[*A*]overall life quality for their families	context()	negated: False ,passive: False
+0.948	[*A*]a multidisciplinary team complemented by a tailored exercise regimen[*R*]significantly improves[*A*]overall life quality for patients	context()	negated: False ,passive: False
+0.948	[*A*]a multidisciplinary team complemented by a tailored exercise regimen[*R*]significantly improves[*A*]overall function	context()	negated: False ,passive: False
+0.911	[*A*]a multidisciplinary team[*R*]complemented[*A*]by a tailored exercise regimen	context()	negated: False ,passive: True
+0.798	[*A*]treatment[*R*]is[*A*]primarily supportive	context()	negated: False ,passive: True
+[LINE#49]Mitochondria are double membrane-bound intracellular organelles that form large branching reticular networks inside all eukaryotic cells except erythrocytes.
+0.918	[*A*]double membrane-bound intracellular organelles[*R*]form inside[*A*]large branching reticular networks	context()	negated: False ,passive: False
+0.832	[*A*]Mitochondria[*R*]are[*A*]double membrane-bound intracellular organelles that form large branching reticular networks inside all eukaryotic cells except erythrocytes	context()	negated: False ,passive: True
+[LINE#50]Their primary function is to convert food substrates in the presence of oxygen to energy, in the form of ATP, by aerobic respiration.
+0.833	[*A*]Their primary function[*R*]is[*A*]to convert food substrates in the presence of oxygen to energy, in the form of ATP, by aerobic respiration	context()	negated: False ,passive: True
+[LINE#51] This oxidative phosphorylation (OXPHOS) reaction is performed in the mitochondrial inner membrane by five enzyme complexes (so-called complexes.
+0.913	[*A*]This oxidative phosphorylation (OXPHOS) reaction[*R*]is performed[*A*]in the mitochondrial inner membrane	context()	negated: False ,passive: True
+[LINE#52]Electrons are provided by NADH and FADH2, which are reducing agents supplied by the oxidation of carbohydrates and fatty acids via the Krebs cycle and -oxidation, respectively.
+0.904	[*A*]FADH2[*R*]are reducing respectively[*A*]agents supplied by the oxidation of fatty acids	context()	negated: False ,passive: False
+0.942	[*A*]Electrons[*R*]are provided[*A*]by FADH2[*A*]which are reducing agents supplied by the oxidation of fatty acids via the Krebs cycle , respectively	context()	negated: False ,passive: True
+0.904	[*A*]FADH2[*R*]are reducing respectively[*A*]agents supplied by the oxidation of carbohydrates	context()	negated: False ,passive: False
+0.911	[*A*]Electrons[*R*]are provided[*A*]by FADH2	context()	negated: False ,passive: True
+0.942	[*A*]Electrons[*R*]are provided[*A*]by FADH2[*A*]which are reducing agents supplied by the oxidation of carbohydrates via the Krebs cycle , respectively	context()	negated: False ,passive: True
+0.829	[*A*]NADH[*R*]are reducing respectively[*A*]agents supplied by the oxidation of fatty acids	context()	negated: False ,passive: False
+0.894	[*A*]agents[*R*]supplied[*A*]by the oxidation of fatty acids	context()	negated: False ,passive: True
+0.942	[*A*]Electrons[*R*]are provided[*A*]by NADH[*A*]which are reducing agents supplied by the oxidation of fatty acids via the Krebs cycle , respectively	context()	negated: False ,passive: True
+0.829	[*A*]NADH[*R*]are reducing respectively[*A*]agents supplied by the oxidation of carbohydrates	context()	negated: False ,passive: False
+0.911	[*A*]Electrons[*R*]are provided[*A*]by NADH	context()	negated: False ,passive: True
+0.894	[*A*]agents[*R*]supplied[*A*]by the oxidation of carbohydrates	context()	negated: False ,passive: True
+0.942	[*A*]Electrons[*R*]are provided[*A*]by NADH[*A*]which are reducing agents supplied by the oxidation of carbohydrates via the Krebs cycle , respectively	context()	negated: False ,passive: True
+[LINE#53]Electrons are passed between a series of donors and increasingly electronegative acceptors until the final reduction of oxygen to water.
+0.931	[*A*]Electrons[*R*]are passed[*A*]between a series of donors and increasingly electronegative acceptors until the final reduction of oxygen to water	context()	negated: False ,passive: True
+[LINE#54] Each step releases energy which is used to actively pump protons (via complex I, III and IV) from within the mitochondrial matrix into the intermembrane space, thereby creating an electrochemical gradient(m) across the inner mitochondrial membrane [1].
+0.411	[*A*]I[*R*]creating[*A*]an electrochemical gradient	context()	negated: False ,passive: False
+0.877	[*A*]energy[*R*]to actively pump[*A*]protons	context()	negated: False ,passive: False
+0.877	[*A*]energy[*R*]is used[*A*]to actively pump protons	context()	negated: False ,passive: True
+0.903	[*A*]Each step[*R*]releases[*A*]energy which is used to actively pump protons	context()	negated: False ,passive: False
+[LINE#55]Some electrons leak directly to oxygen and form reactive oxygen species (ROS) and these molecules have long since been implicated in a number of disease states and ageing [2-4].
+0.938	[*A*]Some electrons[*R*]to form[*A*]reactive oxygen species ( ROS ) and ageing [ 2-4	context()	negated: False ,passive: False
+0.947	[*A*]Some electrons[*R*]leak directly[*A*]to form reactive oxygen species ( ROS ) and ageing [ 2-4	context()	negated: False ,passive: True
+0.878	[*A*]Some electrons[*R*]leak directly to form[*A*]reactive oxygen species	context(Some electrons leak directly)	negated: False ,passive: False
+0.878	[*A*]Some electrons[*R*]leak directly[*A*]to form reactive oxygen species	context()	negated: False ,passive: False
+0.952	[*A*]ROS ) and these molecules[*R*]have been implicated[*A*]in a number of disease states[*A*]long since	context()	negated: False ,passive: True
+0.698	[*A*]Some electrons[*R*]ageing	context()	negated: False ,passive: False
+0.903	[*A*]Some electrons[*R*]leak directly[*A*]to oxygen	context()	negated: False ,passive: True
+0.902	[*A*]Some electrons[*R*]have been implicated[*A*]in a number of disease states[*A*]long since	context()	negated: False ,passive: True
+0.903	[*A*]Some electrons[*R*]leak directly[*A*]to oxygen and these molecules	context()	negated: False ,passive: True
+[LINE#56]The proton gradient enables the terminal OXPHOS enzyme, complex V (ATP synthase), to generate ATP from ADP and inorganic phosphate, by allowing protons to flow passively through it along the electrochemical gradient back into the mitochondrial matrix.
+0.786	[*A*]protons[*R*]to flow[*A*]passively[*A*]through it[*A*]along the electrochemical gradient[*A*]back into the mitochondrial matrix	context(ATP by allowing)	negated: False ,passive: True
+0.915	[*A*]The proton gradient[*R*]enables[*A*]the terminal OXPHOS enzyme[*A*]to generate ATP from inorganic phosphate , by allowing protons to flow passively through it along the electrochemical gradient back into the mitochondrial matrix	context()	negated: False ,passive: False
+0.786	[*A*]protons[*R*]to flow[*A*]passively[*A*]through it[*A*]along the electrochemical gradient[*A*]back into the mitochondrial matrix	context(ATP by allowing)	negated: False ,passive: True
+0.777	[*A*]ATP[*R*]by allowing[*A*]protons to flow passively through it along the electrochemical gradient back into the mitochondrial matrix	context()	negated: False ,passive: False
+0.889	[*A*]the terminal OXPHOS enzyme[*R*]to generate[*A*]ATP	context()	negated: False ,passive: False
+0.915	[*A*]The proton gradient[*R*]enables[*A*]the terminal OXPHOS enzyme[*A*]to generate ATP from ADP , by allowing protons to flow passively through it along the electrochemical gradient back into the mitochondrial matrix	context()	negated: False ,passive: False
+[LINE#57]Mitochondria are unique amongst intracellular organelles in that they contain their own DNA [5,6].
+[LINE#58]The mitochondrial genome is a double-stranded circular structure consisting of 16,659 base-pairs (bp).
+0.932	[*A*]a double-stranded circular structure[*R*]consisting[*A*]of 16,659 base-pairs	context()	negated: False ,passive: True
+0.956	[*A*]The mitochondrial genome[*R*]is[*A*]a double-stranded circular structure consisting of 16,659 base-pairs (bp)	context()	negated: False ,passive: True
+[LINE#59]Genes are located on both strands; the so-called heavy (H) and light (L) strands due to their relative composition of either mainly purines (adenine and guanine) or pyrimidines (thymine and cytosine), respectively, with the former having greater molecular weight than the latter.
+0.871	[*A*]Genes[*R*]are located[*A*]on both strands	context(the so - called heavy ( H ) and light strands)	negated: False ,passive: True
+0.841	[*A*]the so-called heavy (H) and light[*R*]strands	context()	negated: False ,passive: False
+0.568	[*A*]the former[*R*]having[*A*]greater molecular weight than the latter	context()	negated: False ,passive: False
+[LINE#60]Mitochondrial DNA (mtDNA) is highly compact with no introns and only one major non-coding region (NCR), known as the control region (consisting of 900bp in mammals), which contains the origin of replication for the H-strand (OH), the origins of transcription for both H- and L-strands and the Displacement loop (D-loop).
+0.968	[*A*]the control region ( consisting of 900bp in mammals[*R*]contains[*A*]the origin of replication for the H - strand ( OH ) , the Displacement loop	context()	negated: False ,passive: False
+0.968	[*A*]the control region ( consisting of 900bp in mammals[*R*]contains[*A*]the origin of replication for the H - strand ( OH ) , L - strands	context()	negated: False ,passive: False
+0.968	[*A*]the control region ( consisting of 900bp in mammals[*R*]contains[*A*]the origin of replication for the H - strand ( OH ) , the origins of transcription for	context()	negated: False ,passive: False
+0.933	[*A*]only one major non-coding region[*R*]known[*A*]as the control region	context()	negated: False ,passive: True
+0.934	[*A*]Mitochondrial DNA[*R*]is[*A*]highly compact with only one major non-coding region	context()	negated: False ,passive: True
+0.934	[*A*]Mitochondrial DNA[*R*]is[*A*]highly compact with no introns	context()	negated: False ,passive: True
+[LINE#61] The D-loop is a triple-stranded regionwhose third strand (or 7S DNA) spans approximately 650bp from nucleotide numbers 16,111 to 191 [7].
+0.973	[*A*]The D loop[*R*]is[*A*]7 s dna	context()	negated: False ,passive: False
+0.953	[*A*]The D - loop[*R*]is[*A*]7 S DNA	context()	negated: False ,passive: True
+0.833	[*A*]a triple - stranded regionwhose third strand[*R*]spans	context()	negated: False ,passive: False
+0.970	[*A*]The D - loop[*R*]is[*A*]a triple - stranded regionwhose third strand ( ) spans approximately 650bp from nucleotide numbers 16,111 to 191 [ 7	context()	negated: False ,passive: True
+[LINE#62]MtDNA codes for 37 genes which enable synthesis of 13 OXPHOS subunits required for aerobic respiration.
+0.877	[*A*]13 OXPHOS subunits[*R*]required[*A*]for aerobic respiration	context()	negated: False ,passive: True
+0.905	[*A*]37 genes[*R*]enable[*A*]synthesis of 13 OXPHOS subunits	context()	negated: False ,passive: False
+[LINE#63]The mtDNA is susceptible to oxidative DNA damage due to its close proximity to ROS at the inner mitochondrial membrane, lack of protective histone proteins, and limited mitochondrial DNA proof-reading and repair systems.
+0.946	[*A*]The mtDNA[*R*]is[*A*]susceptible to oxidative DNA damage due to its close proximity to ROS at the inner mitochondrial membrane , limited mitochondrial DNA repair systems	context()	negated: False ,passive: True
+0.944	[*A*]The mtDNA[*R*]is[*A*]susceptible to oxidative DNA damage	context()	negated: False ,passive: True
+0.946	[*A*]The mtDNA[*R*]is[*A*]susceptible to oxidative DNA damage due to its close proximity to ROS at the inner mitochondrial membrane	context()	negated: False ,passive: True
+[LINE#64] As a result, mtDNA has a mutation rate 10-20 times that of nDNA [8,9].In vivo, nuclear DNA (nDNA) adopts a condensed structure associated with histones and other proteins [10,11] called nucleosomes which form the basic repeating units of eukaryotic chromatin.
+0.927	[*A*]other proteins[*R*]called[*A*]nucleosomes which form the basic repeating units of eukaryotic chromatin	context()	negated: False ,passive: True
+0.911	[*A*]a condensed structure[*R*]associated[*A*]with other proteins	context()	negated: False ,passive: True
+0.908	[*A*]nuclear DNA[*R*]adopts[*A*]a condensed structure associated with other proteins [ 10,11 ][*A*]10-20 times that of nDNA	context()	negated: False ,passive: False
+0.920	[*A*]histones[*R*]called[*A*]nucleosomes which form the basic repeating units of eukaryotic chromatin	context()	negated: False ,passive: True
+0.911	[*A*]a condensed structure[*R*]associated[*A*]with histones	context()	negated: False ,passive: True
+0.861	[*A*]nuclear DNA[*R*]adopts[*A*]a condensed structure associated with histones [ 10,11 ][*A*]10-20 times that of nDNA [ 8,9	context()	negated: False ,passive: False
+0.905	[*A*]nucleosomes[*R*]form[*A*]the basic repeating units of eukaryotic chromatin	context()	negated: False ,passive: False
+0.887	[*A*]mtDNA[*R*]has[*A*]a mutation rate	context()	negated: False ,passive: False
+[LINE#65]These protein-DNA complexes compact, order, and protect the DNA, and create a degree of regulatory control to ensure its correct expression.
+[LINE#66]They also facilitate co-ordinated copying and segregation of DNA molecules.
+0.575	[*A*]They[*R*]facilitate[*A*]segregation of DNA molecules	context()	negated: False ,passive: False
+0.620	[*A*]They[*R*]facilitate[*A*]co-ordinated copying of DNA molecules	context()	negated: False ,passive: False
+[LINE#67]MtDNA is also packaged as protein-DNA complexes called nucleoids, which may be the units of mtDNA transmission and inheritance [12,13].
+0.905	[*A*]protein-DNA complexes called nucleoids[*R*]may be[*A*]the units of inheritance	context()	negated: False ,passive: True
+0.920	[*A*]protein-DNA complexes called nucleoids[*R*]may be[*A*]the units of mtDNA transmission [ 12,13	context()	negated: False ,passive: True
+0.794	[*A*]MtDNA[*R*]is packaged[*A*]as protein-DNA complexes	context()	negated: False ,passive: True
+[LINE#68]Each mitochondrial nucleoid appears to contain a single mtDNA molecule.
+0.913	[*A*]Each mitochondrial nucleoid[*R*]to contain[*A*]a single mtDNA molecule	context()	negated: False ,passive: False
+0.751	[*A*]Each mitochondrial nucleoid[*R*]appears	context()	negated: False ,passive: False
+[LINE#69]Nucleoids are associated with the inner mitochondrial membrane and are evenly spaced along the mitochondrial reticulum [14-17].
+0.894	[*A*]Nucleoids[*R*]are evenly spaced[*A*]along the mitochondrial reticulum	context()	negated: False ,passive: True
+0.894	[*A*]Nucleoids[*R*]are associated[*A*]with the inner mitochondrial membrane	context()	negated: False ,passive: True
+[LINE#70]Interestingly, the nucleoid distribution process appears to be reliant on protein-protein interactions and is independent from the DNA itself [18].
+0.937	[*A*]the nucleoid distribution process[*R*]is[*A*]independent from the DNA	context()	negated: False ,passive: True
+0.905	[*A*]the nucleoid distribution process[*R*]to be[*A*]reliant on protein-protein interactions	context()	negated: False ,passive: True
+0.769	[*A*]the nucleoid distribution process[*R*]appears	context()	negated: False ,passive: False
+[LINE#71]More than 25 nucleoid-interacting proteins have been identified, but their precise role in mtDNA maintenance is not fully established.
+0.403	[*A*]their precise role in mtDNA maintenance[*R*]is not established	context()	negated: True ,passive: False
+0.816	[*A*]More than 25 nucleoid - interacting proteins[*R*]have been identified	context()	negated: False ,passive: False
+[LINE#72]In fact, many of these proteins appear to have functions unrelated to mtDNA maintenance suggesting they are bifunctional [18].
+0.996	[*A*]they[*R*]have bifunctional of[*A*]18 ]	context()	negated: False ,passive: False
+0.311	[*A*]they[*R*]are[*A*]bifunctional [18	context(mtDNA maintenance suggesting)	negated: False ,passive: True
+0.846	[*A*]mtDNA maintenance[*R*]suggesting[*A*]they are bifunctional [18	context()	negated: False ,passive: False
+0.920	[*A*]many of these proteins[*R*]to have[*A*]functions unrelated to mtDNA maintenance	context()	negated: False ,passive: False
+0.769	[*A*]many of these proteins[*R*]appear	context()	negated: False ,passive: False
+[LINE#73]Some are important for packaging, division and sorting of nucleoids, whereas others are involved in mtDNA replication, repair and transcription [17].
+0.544	[*A*]Some[*R*]are[*A*]important for sorting of nucleoids[*A*]whereas others are involved in transcription	context()	negated: False ,passive: True
+0.544	[*A*]Some[*R*]are[*A*]important for sorting of nucleoids[*A*]whereas others are involved in repair [ 17	context()	negated: False ,passive: True
+0.590	[*A*]Some[*R*]are[*A*]important for sorting of nucleoids[*A*]whereas others are involved in mtDNA replication [ 17	context()	negated: False ,passive: True
+0.544	[*A*]Some[*R*]are[*A*]important for division of nucleoids[*A*]whereas others are involved in transcription	context()	negated: False ,passive: True
+0.544	[*A*]Some[*R*]are[*A*]important for division of nucleoids[*A*]whereas others are involved in repair [ 17	context()	negated: False ,passive: True
+0.590	[*A*]Some[*R*]are[*A*]important for division of nucleoids[*A*]whereas others are involved in mtDNA replication [ 17	context()	negated: False ,passive: True
+0.894	[*A*]others[*R*]are involved[*A*]in transcription	context()	negated: False ,passive: True
+0.544	[*A*]Some[*R*]are[*A*]important for packaging of nucleoids[*A*]whereas others are involved in transcription	context()	negated: False ,passive: True
+0.894	[*A*]others[*R*]are involved[*A*]in repair [ 17	context()	negated: False ,passive: True
+0.544	[*A*]Some[*R*]are[*A*]important for packaging of nucleoids[*A*]whereas others are involved in repair [ 17	context()	negated: False ,passive: True
+0.911	[*A*]others[*R*]are involved[*A*]in mtDNA replication	context()	negated: False ,passive: True
+0.590	[*A*]Some[*R*]are[*A*]important for packaging of nucleoids[*A*]whereas others are involved in mtDNA replication [ 17	context()	negated: False ,passive: True
+[LINE#74]A detailed review of mitochondrial nucleoid-associated proteins and their function is given elsewhere [19].Although the mtDNA encodes 13 essential OXPHOS subunits, all other proteins needed for mitochondrial OXPHOS function are encoded by nuclear genes.
+0.773	[*A*]their function[*R*]is given[*A*]elsewhere[*A*]Although the mtDNA encodes 13 essential OXPHOS subunits , all other proteins needed for mitochondrial OXPHOS function are encoded by nuclear genes	context()	negated: False ,passive: True
+0.924	[*A*]the mtDNA[*R*]encodes[*A*]13 essential OXPHOS subunits	context()	negated: False ,passive: False
+0.925	[*A*]all other proteins[*R*]needed[*A*]for mitochondrial OXPHOS function	context()	negated: False ,passive: True
+0.972	[*A*]A detailed review of mitochondrial nucleoid - associated proteins[*R*]is given[*A*]elsewhere[*A*]Although the mtDNA encodes 13 essential OXPHOS subunits , all other proteins needed for mitochondrial OXPHOS function are encoded by nuclear genes	context()	negated: False ,passive: True
+[LINE#75]These include the remaining 77 OXPHOS subunits, and proteins involved with transcription and translation of mtDNA, assembly of the OXPHOS enzyme complexes, biosynthesis of mobile electron carriers in the inner mitochondrial membrane, import of solutes and proteins into the mitochondrion, regulation of mitochondrial membrane dynamics and composition, and mitochondrial fission and fusion.
+0.894	[*A*]proteins[*R*]involved[*A*]with import of proteins into regulation of composition	context()	negated: False ,passive: True
+0.657	[*A*]These[*R*]include[*A*]proteins involved with import of proteins into regulation of composition	context()	negated: False ,passive: True
+0.931	[*A*]proteins[*R*]involved[*A*]with import of proteins into regulation of mitochondrial membrane dynamics	context()	negated: False ,passive: True
+0.657	[*A*]These[*R*]include[*A*]proteins involved with import of proteins into regulation of mitochondrial membrane dynamics	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of solutes into regulation of composition	context()	negated: False ,passive: True
+0.657	[*A*]These[*R*]include[*A*]proteins involved with import of solutes into regulation of composition	context()	negated: False ,passive: True
+0.931	[*A*]proteins[*R*]involved[*A*]with import of solutes into regulation of mitochondrial membrane dynamics	context()	negated: False ,passive: True
+0.657	[*A*]These[*R*]include[*A*]proteins involved with import of solutes into regulation of mitochondrial membrane dynamics	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of proteins into fusion	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with import of proteins into fusion	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of proteins into mitochondrial fission	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with import of proteins into mitochondrial fission	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of proteins into the mitochondrion	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with import of proteins into the mitochondrion	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of solutes into fusion	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with import of solutes into fusion	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of solutes into mitochondrial fission	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with import of solutes into mitochondrial fission	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with import of solutes into the mitochondrion	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with import of solutes into the mitochondrion	context()	negated: False ,passive: True
+0.911	[*A*]proteins[*R*]involved[*A*]with translation of mtDNA	context()	negated: False ,passive: True
+0.698	[*A*]These[*R*]include[*A*]proteins involved with translation of mtDNA , assembly of the OXPHOS enzyme complexes , biosynthesis of mobile electron carriers in the inner mitochondrial membrane	context()	negated: False ,passive: True
+0.894	[*A*]proteins[*R*]involved[*A*]with transcription	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]include[*A*]proteins involved with transcription	context()	negated: False ,passive: True
+0.590	[*A*]These[*R*]include[*A*]the remaining 77 OXPHOS subunits	context()	negated: False ,passive: True
+[LINE#76]More than 80 nuclear genes have already been linked to human mitochondrial disease; however, an estimated 1500 nuclear-encoded proteins are targeted to mitochondria [20].
+0.992	[*A*]1500 nuclear - encoded proteins[*R*]are targeted to[*A*]mitochondria	context()	negated: False ,passive: False
+0.767	[*A*]More than 80 nuclear genes[*R*]have been linked[*A*]already	context(an estimated 1500 nuclear - encoded proteins are targeted)	negated: False ,passive: True
+0.921	[*A*]an estimated 1500 nuclear-encoded proteins[*R*]are targeted[*A*]to mitochondria	context()	negated: False ,passive: True
+[LINE#77]Defects in any of these genes could theoretically cause a mitochondrial disorder.
+0.932	[*A*]Defects in any of these genes[*R*]could theoretically cause[*A*]a mitochondrial disorder	context()	negated: False ,passive: False
+[LINE#78]Single large-scale deletions of mtDNA were the first mtDNA genetic defects to be described and associated with human mitochondrial disorders [21].
+0.944	[*A*]the first mtDNA genetic defects[*R*]associated[*A*]with human mitochondrial disorders	context()	negated: False ,passive: True
+0.832	[*A*]the first mtDNA genetic defects[*R*]to be described	context()	negated: False ,passive: False
+0.961	[*A*]Single large - scale deletions of mtDNA[*R*]were[*A*]the first mtDNA genetic defects	context()	negated: False ,passive: True
+[LINE#79]identified a deleted mtDNA subpopulation in skeletal muscle but not blood in nine patients with mitochondrial myopathy.
+[LINE#80]They found that the deleted population coexisted with wild-type (WT) mtDNA in muscle, a state known as heteroplasmy.
+0.941	[*A*]the deleted population[*R*]coexisted[*A*]with wild-type (WT) mtDNA in muscle	context(They found)	negated: False ,passive: True
+0.475	[*A*]They[*R*]found[*A*]that the deleted population coexisted with wild-type (WT) mtDNA in muscle	context()	negated: False ,passive: False
+0.925	[*A*]a state[*R*]known[*A*]as heteroplasmy	context()	negated: False ,passive: True
+[LINE#81]It has subsequently been shown that such single deletions account for a quarter of all adult patients with mtDNA-related disease [22]; data consistent with the authors' own clinical practice (unpublished data).
+[LINE#82]They are also an important cause of paediatric mtDNA-related mitochondrial disease.
+0.755	[*A*]They[*R*]are[*A*]also[*A*]an important cause of paediatric mtDNA-related mitochondrial disease	context()	negated: False ,passive: True
+[LINE#83] Single mtDNA deletions are considered sporadic events with low inheritance risk, whereas multiple mtDNA deletions are the result of primary nuclear defects in genes responsible for mtDNA maintenance or nucleoside metabolism and follow Mendelian inheritance patterns[23].Here we review current understanding of the molecular mechanisms underlying single large-scale mtDNA deletion formation.
+0.925	[*A*]the molecular mechanisms[*R*]underlying[*A*]single large-scale mtDNA deletion formation	context()	negated: False ,passive: False
+0.964	[*A*]multiple mtDNA deletions[*R*]are[*A*]the result of primary nuclear defects in genes responsible for mtDNA maintenance or nucleoside metabolism	context()	negated: False ,passive: True
+[LINE#84]We will also consider the clinical phenotypes, diagnostic work-up and management of this subgroup of mitochondrial disorders.
+0.350	[*A*]We[*R*]will consider[*A*]the clinical phenotypes	context()	negated: False ,passive: False
+[LINE#85]Investigations and diagnosis of single mitochondrial DNA deletion disordersTable 1 outlines the potentially wide range of different clinical settings in which mitochondrial disease caused by single deletions of mtDNA enters into the differential diagnosis.
+0.921	[*A*]diagnosis of single mitochondrial DNA deletion[*R*]outlines[*A*]the potentially wide range of different clinical settings	context()	negated: False ,passive: False
+0.976	[*A*]mitochondrial disease caused by single deletions of mtDNA[*R*]enters[*A*]into the differential diagnosis[*A*]different clinical settings	context()	negated: False ,passive: False
+0.918	[*A*]mitochondrial disease[*R*]caused[*A*]by single deletions of mtDNA	context()	negated: False ,passive: True
+0.894	[*A*]Investigations[*R*]outlines[*A*]the potentially wide range of different clinical settings	context()	negated: False ,passive: False
+[LINE#86]The diagnosis of single mtDNA deletion disorders involves careful clinical assessment and tailored investigations that are often guided by the age of the patient..
+0.902	[*A*]tailored investigations[*R*]are guided[*A*]by the age of the patient[*A*]often	context()	negated: False ,passive: True
+0.923	[*A*]The diagnosis of single mtDNA deletion disorders[*R*]involves[*A*]tailored investigations that are often guided by the age of the patient	context()	negated: False ,passive: True
+0.953	[*A*]The diagnosis of single mtDNA deletion disorders[*R*]involves[*A*]careful clinical assessment	context()	negated: False ,passive: True
+[LINE#87]Mitochondrial DNA analysisChildren, unlike adults, often have single large-scale rearrangements detectable in blood, and muscle biopsy is seldom required.
+0.761	[*A*]muscle biopsy[*R*]is required[*A*]seldom	context()	negated: False ,passive: True
+0.955	[*A*]Mitochondrial DNA analysisChildren[*R*]have[*A*]single large - scale rearrangements detectable in blood[*A*]often	context()	negated: False ,passive: False
+[LINE#88]In PMPS the mtDNA deletions are usually present at higher levels in blood than other tissues, so diagnosis is reliably made using leucocyte mtDNA.
+0.958	[*A*]the mtDNA deletions[*R*]are[*A*]usually[*A*]present[*A*]at higher levels in blood than other tissues[*A*]In PMPS	context(diagnosis is reliably made)	negated: False ,passive: True
+0.657	[*A*]diagnosis[*R*]is reliably made	context()	negated: False ,passive: False
+[LINE#89]The deleted mtDNA molecules are selectively shed from the rapidly dividing leucocytes with increasing age [88-91].
+0.961	[*A*]The deleted mtDNA molecules[*R*]are selectively shed[*A*]from the rapidly dividing leucocytes with increasing age [88-91	context()	negated: False ,passive: True
+[LINE#90]The consequence is that the deleted mtDNA molecules are often undetectable in blood by early adolescence.
+0.812	[*A*]the deleted mtDNA molecules[*R*]are[*A*]often[*A*]undetectable	context(The consequence is)	negated: False ,passive: True
+0.875	[*A*]The consequence[*R*]is[*A*]that the deleted mtDNA molecules are often undetectable in blood by early adolescence	context()	negated: False ,passive: True
+[LINE#91]Deleted mtDNA molecules, however, appear more readily detectable in cells extracted from urine, and a diagnosis can occasionally be achieved by analysing mtDNA from uroepithelial cells (extracted from 30 to 50mls of urine).
+0.887	[*A*]uroepithelial cells[*R*]extracted[*A*]from 30 to 50mls of urine	context()	negated: False ,passive: True
+0.761	[*A*]a diagnosis[*R*]can be achieved[*A*]occasionally	context()	negated: False ,passive: True
+0.813	[*A*]cells[*R*]extracted[*A*]from urine	context()	negated: False ,passive: True
+[LINE#92] Unfortunately, in contrast to the m.3243A>G point mutation, where uroepithelial cell mutant levels have been shown to closely resemble mutant levels present in muscle tissue [92], urine levels of mtDNA deletions are not always representative of the most clinically affected tissues [93].
+0.944	[*A*]urine levels of mtDNA deletions[*R*]are not[*A*]always[*A*]representative of the most clinically affected tissues	context()	negated: True ,passive: True
+0.905	[*A*]uroepithelial cell mutant levels[*R*]to closely resemble[*A*]mutant levels present in muscle tissue	context()	negated: False ,passive: True
+0.953	[*A*]uroepithelial cell mutant levels[*R*]have been shown[*A*]the m.3243A>G point mutation	context()	negated: False ,passive: True
+[LINE#93]As a consequence, a diagnostic muscle biopsy is still often ultimately required.
+0.834	[*A*]a diagnostic muscle biopsy[*R*]required[*A*]still[*A*]often	context()	negated: False ,passive: True
+0.841	[*A*]a diagnostic muscle biopsy[*R*]is[*A*]still[*A*]often[*A*]ultimately required	context()	negated: False ,passive: True
+[LINE#94]MtDNA is analysed using long-range polymerase chain reaction (PCR) and Southern blot genetic techniques to demonstrate large-scale rearrangements (deletions and/or duplications) of the mitochondrial genome. .
+0.951	[*A*]Southern[*R*]blot[*A*]genetic techniques to demonstrate large - scale rearrangements ( duplications ) of the mitochondrial genome	context(MtDNA is analysed)	negated: False ,passive: False
+0.951	[*A*]Southern[*R*]blot[*A*]genetic techniques to demonstrate large - scale rearrangements ( deletions of the mitochondrial genome	context(MtDNA is analysed)	negated: False ,passive: False
+0.949	[*A*]long - range polymerase chain reaction[*R*]to demonstrate[*A*]large - scale rearrangements ( duplications ) of the mitochondrial genome	context()	negated: False ,passive: False
+0.889	[*A*]MtDNA[*R*]using[*A*]long - range polymerase chain reaction[*A*]to demonstrate large - scale rearrangements ( duplications ) of the mitochondrial genome	context()	negated: False ,passive: False
+0.921	[*A*]long - range polymerase chain reaction[*R*]to demonstrate[*A*]large - scale rearrangements	context()	negated: False ,passive: False
+0.833	[*A*]MtDNA[*R*]using[*A*]long - range polymerase chain reaction[*A*]to demonstrate large - scale rearrangements	context()	negated: False ,passive: False
+0.634	[*A*]MtDNA[*R*]is analysed	context()	negated: False ,passive: False
+[LINE#95]Muscle histochemical analysisThe muscle tissue itself can be examined using light microscopy for features that support the diagnosis of mitochondrial disease.
+0.877	[*A*]features[*R*]support[*A*]the diagnosis of mitochondrial disease	context()	negated: False ,passive: False
+0.807	[*A*]Muscle histochemical analysisThe muscle tissue[*R*]can be examined	context()	negated: False ,passive: False
+[LINE#96]These include subsarcolemmal mitochondrial accumulation demonstrated on routine histochemical staining as "ragged-red fibres" (RRF) in the modified Gomori trichrome stain, or as succinate dehydrogenase (SDH)-positive fibres.
+0.698	[*A*]These[*R*]include[*A*]subsarcolemmal mitochondrial accumulation demonstrated on routine histochemical staining as "ragged-red fibres" (RRF) in the modified Gomori trichrome stain, or as succinate dehydrogenase (SDH)-positive fibres	context()	negated: False ,passive: True
+[LINE#97]Cytochrome c oxidase (COX) staining may reveal fibres deficient in complex IV, and is particularly useful when combined with sequential SDH staining since COX-deficient SDH-positive fibres appear as "ragged-blue" fibres.
+0.913	[*A*]COX - deficient SDH - positive fibres[*R*]appear[*A*]as " ragged - blue " fibres	context()	negated: False ,passive: True
+[LINE#98]Both RRF and COX-negative fibres are a common and expected finding in patients with single mtDNA deletions.
+0.931	[*A*]COX - negative fibres[*R*]are[*A*]a expected finding in patients with single mtDNA deletions	context()	negated: False ,passive: True
+0.931	[*A*]COX - negative fibres[*R*]are[*A*]a common finding in patients with single mtDNA deletions	context()	negated: False ,passive: True
+0.887	[*A*]Both RRF[*R*]are[*A*]a expected finding in patients with single mtDNA deletions	context()	negated: False ,passive: True
+0.887	[*A*]Both RRF[*R*]are[*A*]a common finding in patients with single mtDNA deletions	context()	negated: False ,passive: True
+[LINE#99]Respiratory chain enzymologyBiochemical analysis of the respiratory chain enzymes can be performed on fresh muscle by measuring substrate oxidation using polarography.
+0.939	[*A*]Respiratory chain enzymologyBiochemical analysis of the respiratory chain enzymes[*R*]by measuring[*A*]substrate oxidation	context()	negated: False ,passive: False
+0.948	[*A*]Respiratory chain enzymologyBiochemical analysis of the respiratory chain enzymes[*R*]can be performed[*A*]on fresh muscle	context()	negated: False ,passive: True
+[LINE#100]Specific enzyme activities can also be measured using spectrophotometric assays using either fresh muscle or muscle immediately frozen in liquid nitrogen or isopentane and stored at -80C.
+0.870	[*A*]Specific enzyme activities[*R*]can be measured[*A*]using spectrophotometric assays using either fresh muscle or muscle	context()	negated: False ,passive: True
+[LINE#101]Single mtDNA deletions usually involve several genes, including at least one tRNA, so that global mitochondrial protein synthesis is affected.
+0.769	[*A*]global mitochondrial protein synthesis[*R*]is affected	context()	negated: False ,passive: False
+0.962	[*A*]Single mtDNA deletions[*R*]involve[*A*]several genes, including at least one tRNA[*A*]usually	context()	negated: False ,passive: True
+[LINE#102] As a result, activities of OXPHOS complexes containing mtDNA-encoded subunits (complexes.
+0.887	[*A*]OXPHOS complexes[*R*]containing[*A*]mtDNA-encoded subunits	context()	negated: False ,passive: False
+[LINE#103]I, III, IV and V) can potentially be reduced [94].
+0.414	[*A*]V[*R*]can be reduced	context()	negated: False ,passive: False
+0.118	[*A*]I[*R*]can be reduced	context()	negated: False ,passive: False
+[LINE#104]However, normal OXPHOS enzyme activities may be observed in the muscle of patients with single mtDNA deletions; therefore, genetic analysis should be performed if there is clinical suspicion of a single mtDNA disorder, regardless of the biochemical findings.
+0.880	[*A*]normal OXPHOS enzyme activities[*R*]may be observed[*A*]in the muscle of patients with single mtDNA deletions	context(genetic analysis should be performed)	negated: False ,passive: True
+0.882	[*A*]genetic analysis[*R*]should be performed[*A*]if there is clinical suspicion of a single mtDNA disorder[*A*]regardless of the biochemical findings	context()	negated: False ,passive: True
+[LINE#105]Management of single mitochondrial DNA deletion disordersThis review does not provide a comprehensive discussion of all current treatment regimens for mitochondrial disorders; these may be found in detail elsewhere [94-96].
+0.954	[*A*]Management of single mitochondrial DNA deletion disordersThis review[*R*]does not provide[*A*]a comprehensive discussion of all current treatment regimens for mitochondrial disorders	context(these may be found elsewhere)	negated: True ,passive: False
+0.472	[*A*]these[*R*]may be found elsewhere[*A*]in detail	context()	negated: False ,passive: True
+[LINE#106]The following is a summary of treatment strategies aimed specifically at patients with single mtDNA deletions..
+0.918	[*A*]treatment strategies[*R*]aimed specifically[*A*]at patients with single mtDNA deletions	context()	negated: False ,passive: True
+0.636	[*A*]The following[*R*]is[*A*]a summary of treatment strategies	context()	negated: False ,passive: True
+[LINE#107]Importance of multidisciplinary team care to optimise quality of life and improve outcomesSince no curative therapy currently exists for patients with mitochondrial disease, symptom management is critical to maintain quality of life.
+0.961	[*A*]Importance of multidisciplinary team care to optimise quality of life[*R*]exists[*A*]for patients with mitochondrial disease[*A*]currently	context(symptom management is)	negated: False ,passive: True
+0.908	[*A*]symptom management[*R*]is[*A*]critical to maintain quality of life	context()	negated: False ,passive: True
+0.887	[*A*]symptom management[*R*]to maintain[*A*]quality of life	context()	negated: False ,passive: False
+[LINE#108]Awareness of potential disease complications allows early intervention, thereby reducing morbidly and mortality.
+0.862	[*A*]Awareness of potential disease complications[*R*]allows early intervention reducing[*A*]mortality	context(Awareness of potential disease complications allows)	negated: False ,passive: False
+0.905	[*A*]Awareness of potential disease complications[*R*]allows[*A*]early intervention[*A*]thereby reducing mortality	context()	negated: False ,passive: False
+0.648	[*A*]Awareness of potential disease complications[*R*]allows early intervention reducing morbidly	context(Awareness of potential disease complications allows)	negated: False ,passive: False
+0.905	[*A*]Awareness of potential disease complications[*R*]allows[*A*]early intervention[*A*]thereby reducing morbidly	context()	negated: False ,passive: False
+[LINE#109]All patients require support from a dedicated multidisciplinary team to facilitate careful consideration of both medical and non-medical needs.
+0.903	[*A*]All patients[*R*]require[*A*]support[*A*]to facilitate careful consideration of non-medical needs	context()	negated: False ,passive: False
+0.903	[*A*]All patients[*R*]require[*A*]support[*A*]to facilitate careful consideration of both medical needs	context()	negated: False ,passive: False
+[LINE#110]Clinical issues related to single mtDNA deletion disorders require input from doctors with specialist expertise in mitochondrial disorders.
+0.958	[*A*]Clinical issues related to single mtDNA deletion disorders[*R*]require[*A*]input from doctors with specialist expertise in mitochondrial disorders	context()	negated: False ,passive: False
+0.918	[*A*]Clinical issues[*R*]related[*A*]to single mtDNA deletion disorders	context()	negated: False ,passive: True
+[LINE#111]Patients with PMPS typically present during childhood to paediatricians and need supportive measures, including regular blood transfusions, pancreatic enzyme replacement, fat-soluble vitamin supplementation, hormone replacement for endocrine disease, and enteral feeding.
+0.939	[*A*]Patients with PMPS typically present during childhood to paediatricians[*R*]need[*A*]supportive measures , including enteral feeding	context()	negated: False ,passive: False
+0.897	[*A*]Patients with PMPS[*R*]need[*A*]supportive measures , including hormone replacement for endocrine disease	context()	negated: False ,passive: False
+0.939	[*A*]Patients with PMPS typically present during childhood to paediatricians[*R*]need[*A*]supportive measures , including fat - soluble vitamin supplementation	context()	negated: False ,passive: False
+0.939	[*A*]Patients with PMPS typically present during childhood to paediatricians[*R*]need[*A*]supportive measures , including pancreatic enzyme replacement	context()	negated: False ,passive: False
+0.897	[*A*]Patients with PMPS[*R*]need[*A*]supportive measures , including regular blood transfusions	context()	negated: False ,passive: False
+[LINE#112]Epilepsy, movement disorders and neuromuscular disease are common manifestations of mitochondrial disease in later life.
+0.903	[*A*]neuromuscular disease[*R*]are[*A*]common manifestations of mitochondrial disease in later life	context()	negated: False ,passive: True
+0.903	[*A*]movement disorders[*R*]are[*A*]common manifestations of mitochondrial disease in later life	context()	negated: False ,passive: True
+0.920	[*A*]Epilepsy[*R*]are[*A*]common manifestations of mitochondrial disease in later life	context()	negated: False ,passive: True
+[LINE#113]As a consequence, patients usually present to the neurologist during adulthood.
+[LINE#114]Ophthalmic review is often necessary to assess and monitor retinopathy, exclude cataracts, and provide prosthetic lid props or perform surgery for severe ptosis.
+[LINE#115]A cardiology opinion is mandatory even if cardiac symptoms are absent.
+0.932	[*A*]A cardiology opinion[*R*]is[*A*]mandatory[*A*]even if cardiac symptoms are absent	context()	negated: False ,passive: True
+[LINE#116]This is particularly important in patients with KSS in whom cardiac conduction defects are common and a permanent pacemaker or implantable defibrillator may be required.
+0.801	[*A*]a permanent pacemaker or implantable defibrillator[*R*]may be required	context()	negated: False ,passive: False
+0.783	[*A*]cardiac conduction defects[*R*]are[*A*]common	context()	negated: False ,passive: True
+0.495	[*A*]This[*R*]is[*A*]particularly important[*A*]in patients with KSS	context()	negated: False ,passive: True
+[LINE#117]Audiological assessment for aids and cochlear implants for hearing loss, and referral to endocrinology, gastroenterology, renal or palliative care may all be appropriate.
+0.937	[*A*]Audiological assessment for aids and cochlear implants for hearing loss, and referral to endocrinology, gastroenterology, renal or palliative care[*R*]may be[*A*]appropriate	context()	negated: False ,passive: True
+[LINE#118]Finally, advice should be sought prior to general anaesthesia so that perioperative complications related to cardiac arrhythmia and administration of potentially mitotoxic agents are avoided.
+0.843	[*A*]perioperative complications related to administration of potentially mitotoxic agents[*R*]are avoided	context()	negated: False ,passive: False
+0.903	[*A*]perioperative complications[*R*]related[*A*]to administration of potentially mitotoxic agents	context()	negated: False ,passive: True
+0.856	[*A*]perioperative complications related to cardiac arrhythmia of potentially mitotoxic agents[*R*]are avoided	context()	negated: False ,passive: False
+0.903	[*A*]perioperative complications[*R*]related[*A*]to cardiac arrhythmia of potentially mitotoxic agents	context()	negated: False ,passive: True
+0.894	[*A*]advice[*R*]should be sought[*A*]prior to general anaesthesia	context()	negated: False ,passive: True
+[LINE#119]A specialist mitochondrial disease nurse is crucial and provides the patient with a point of contact so that medical needs are addressed between out-patient clinic appointments.
+0.903	[*A*]medical needs[*R*]are addressed[*A*]between out - patient clinic appointments	context()	negated: False ,passive: True
+0.903	[*A*]A specialist[*R*]provides[*A*]the patient	context()	negated: False ,passive: False
+0.853	[*A*]A specialist mitochondrial disease nurse[*R*]is[*A*]crucial	context()	negated: False ,passive: True
+[LINE#120]They also offer invaluable practical advice concerning available social and income support.
+0.911	[*A*]invaluable practical advice[*R*]concerning[*A*]available income support	context()	negated: False ,passive: False
+0.575	[*A*]They[*R*]offer[*A*]invaluable practical advice concerning available income support	context()	negated: False ,passive: False
+0.911	[*A*]invaluable practical advice[*R*]concerning[*A*]available social support	context()	negated: False ,passive: False
+0.575	[*A*]They[*R*]offer[*A*]invaluable practical advice concerning available social support	context()	negated: False ,passive: False
+[LINE#121]Speech and language therapy and dietetic review are required if there is bulbar involvement or problems surrounding adequate nutrition, and occupational therapy, physiotherapy and orthotics can maintain and improve mobility to enable an independent lifestyle.
+0.921	[*A*]occupational therapy, physiotherapy and orthotics[*R*]improve[*A*]mobility[*A*]to enable an independent lifestyle	context()	negated: False ,passive: False
+0.801	[*A*]occupational therapy, physiotherapy and orthotics[*R*]can maintain	context()	negated: False ,passive: False
+0.947	[*A*]Speech and language therapy and dietetic review[*R*]are required[*A*]if there is bulbar involvement or problems surrounding adequate nutrition, and occupational therapy, physiotherapy and orthotics can maintain and improve mobility	context()	negated: False ,passive: True
+[LINE#122], including Co-enzyme Q10 (Ubiquinone), creatine and dichloroacetate have all been studied in randomised controlled double-blind clinical trials of patients with single mtDNA deletion disorders [97-101].
+0.914	[*A*]dichloroacetate[*R*]have been studied[*A*]in randomised controlled double - blind clinical trials of patients with single mtDNA deletion disorders	context()	negated: False ,passive: True
+0.914	[*A*]creatine[*R*]have been studied[*A*]in randomised controlled double - blind clinical trials of patients with single mtDNA deletion disorders	context()	negated: False ,passive: True
+[LINE#123]However, a Cochrane systematic review concluded there was no clear evidence supporting their routine use in mitochondrial disease [102].
+0.865	[*A*]a Cochrane systematic review[*R*]concluded[*A*]there was no clear evidence	context()	negated: False ,passive: False
+0.848	[*A*]no clear evidence[*R*]supporting[*A*]their routine use in mitochondrial disease	context()	negated: False ,passive: False
+[LINE#124]Cerebral folate deficiency can occur in KSS [103,104], and significant clinical improvement and resolution of white matter changes on MRI have been reported in patients with KSS treated with folinic acid which, unlike folate, is able to cross the blood brain barrier [105].
+0.961	[*A*]resolution of white matter changes on MRI[*R*]have been reported[*A*]in patients with KSS	context()	negated: False ,passive: True
+0.913	[*A*]folinic acid[*R*]is[*A*]able to cross the blood brain barrier	context()	negated: False ,passive: True
+0.933	[*A*]patients with KSS[*R*]treated[*A*]with folinic acid	context()	negated: False ,passive: True
+0.925	[*A*]significant clinical improvement[*R*]have been reported[*A*]in patients with KSS	context()	negated: False ,passive: True
+0.925	[*A*]Cerebral folate deficiency[*R*]can occur[*A*]in KSS [ 103,104	context()	negated: False ,passive: True
+[LINE#125]The frequency of cerebral folate deficiency in KSS is unknown, but CSF measurement and folinic acid supplementation should be considered, particularly when leukoencephalopathy is present. .
+0.913	[*A*]The frequency of cerebral folate deficiency in KSS[*R*]is[*A*]unknown	context()	negated: False ,passive: True
+[LINE#126] Exercise therapy to reduce deleted mitochondrial DNA moleculesFinally, exercise training has provided promising results in patients with single mtDNA deletion disorders.
+0.918	[*A*]exercise training[*R*]has provided[*A*]promising results[*A*]in patients with single mtDNA deletion disorders	context()	negated: False ,passive: False
+[LINE#127]Activation of muscle satellite cells by specific exercise training regimens allows WT mtDNA to repopulate muscle tissue and effectively reduce mutant load below the biochemical threshold needed to impair OXPHOS [106].
+0.839	[*A*]WT mtDNA[*R*]to effectively reduce[*A*]mutant load below the biochemical threshold	context(Activation of muscle satellite cells by specific exercise training regimens allows)	negated: False ,passive: False
+0.969	[*A*]Activation of muscle satellite cells by specific exercise training regimens[*R*]allows[*A*]WT mtDNA to effectively reduce mutant load below the biochemical threshold	context()	negated: False ,passive: False
+0.751	[*A*]the biochemical threshold[*R*]needed	context()	negated: False ,passive: False
+0.839	[*A*]WT mtDNA[*R*]to repopulate[*A*]muscle tissue	context(Activation of muscle satellite cells by specific exercise training regimens allows)	negated: False ,passive: False
+0.951	[*A*]Activation of muscle satellite cells by specific exercise training regimens[*R*]allows[*A*]WT mtDNA to repopulate muscle tissue	context()	negated: False ,passive: False
+[LINE#128]Endurance exercise training has been shown to increase muscle aerobic capacity [107], whilst resistance training improves muscle strength and oxidative ability [108].
+0.903	[*A*]resistance training[*R*]improves[*A*]muscle oxidative ability	context()	negated: False ,passive: False
+0.164	[*A*]muscle capacity[*R*]has aerobic of[*A*]107 ]	context()	negated: False ,passive: False
+0.903	[*A*]resistance training[*R*]improves[*A*]muscle strength	context()	negated: False ,passive: False
+0.751	[*A*]Endurance exercise training[*R*]has been shown	context()	negated: False ,passive: False
+[LINE#129]The merits of resistance versus endurance exercise training are currently being evaluated in patients with single mtDNA deletions, with the aim of providing tailored exercise regimes suitable for individual patients in the near future.
+0.959	[*A*]The merits of resistance versus endurance exercise training[*R*]are being evaluated[*A*]in patients with single mtDNA deletions[*A*]currently	context()	negated: False ,passive: True
+[LINE#130]Mitochondrial DNA replicationmtDNA encodes only 13 of the 90 essential OXPHOS subunits.
+0.999	[*A*]Mitochondrial DNA replicationmtDNA[*R*]encodes[*A*]13 of the 90 essential oxphos subunits	context()	negated: False ,passive: False
+0.896	[*A*]Mitochondrial DNA replicationmtDNA[*R*]encodes[*A*]only 13 of the 90 essential OXPHOS subunits	context()	negated: False ,passive: False
+[LINE#131]The remaining subunits, along with all the proteins required for their transcription, translation, post-translational modification and assembly, are nuclear-encoded.
+0.911	[*A*]all the proteins[*R*]required[*A*]for assembly	context()	negated: False ,passive: True
+0.911	[*A*]all the proteins[*R*]required[*A*]for post-translational modification	context()	negated: False ,passive: True
+0.911	[*A*]all the proteins[*R*]required[*A*]for translation	context()	negated: False ,passive: True
+0.845	[*A*]The remaining subunits , along with all the proteins[*R*]are[*A*]nuclear - encoded	context()	negated: False ,passive: True
+0.848	[*A*]all the proteins[*R*]required[*A*]for their transcription	context()	negated: False ,passive: True
+[LINE#132]The nuclear encoded proteins include those essential for mtDNA maintenance and repair.
+0.832	[*A*]The nuclear encoded proteins[*R*]include[*A*]those essential for mtDNA repair	context()	negated: False ,passive: True
+0.832	[*A*]The nuclear encoded proteins[*R*]include[*A*]those essential for mtDNA maintenance	context()	negated: False ,passive: True
+[LINE#133]Accurate mtDNA replication is essential to maintain the m electrochemical potential, established across the inner mitochondrial membrane by respiration, and is necessary for energy production in the form of ATP.
+0.957	[*A*]Accurate mtDNA replication[*R*]is[*A*]necessary for energy production in the form of ATP	context()	negated: False ,passive: True
+0.905	[*A*]the m electrochemical potential[*R*]established[*A*]across the inner mitochondrial membrane[*A*]by respiration	context()	negated: False ,passive: True
+[LINE#134] Although the mtDNA replication machinery is nuclear-encoded, it is completely separate from its nuclear counterpart, and consists of just 4 basic enzyme components: DNA polymerase gamma(POL); DNA helicase Twinkle; mitochondrial single-stranded DNA-binding protein (mtSSB); and mitochondrial RNA polymerase (POLRMT).
+0.927	[*A*]the mtDNA[*R*]consists[*A*]of just 4 basic enzyme components	context()	negated: False ,passive: True
+0.372	[*A*]it[*R*]is[*A*]completely separate from its nuclear counterpart	context()	negated: False ,passive: True
+0.878	[*A*]the mtDNA replication machinery[*R*]is[*A*]nuclear - encoded	context()	negated: False ,passive: True
+[LINE#135]Unlike nuclear DNA which replicates once during cell division, mtDNA replicates continuously throughout the cell cycle in dividing and post-mitotic cells.
+0.855	[*A*]mtDNA[*R*]replicates continuously[*A*]throughout the cell cycle[*A*]in post-mitotic cells	context()	negated: False ,passive: False
+0.855	[*A*]mtDNA[*R*]replicates continuously[*A*]throughout the cell cycle	context()	negated: False ,passive: False
+0.735	[*A*]nuclear DNA[*R*]replicates[*A*]once	context()	negated: False ,passive: True
+[LINE#136]Although the replication apparatus is relatively well characterised, the precise mode of mtDNA replication has been intensely debated [24-26].
+0.845	[*A*]the precise mode of mtDNA replication[*R*]has been intensely debated	context()	negated: False ,passive: False
+0.828	[*A*]the replication apparatus[*R*]is[*A*]relatively well characterised	context()	negated: False ,passive: True
+[LINE#137]For many years mtDNA replication was thought to occur exclusively by a strand-displacement model, where a leading strand is synthesised from OH and a lagging strand from the origin of L-strand replication (OL) in an asymmetric and unidirectional pattern [27-30].
+0.967	[*A*]a leading strand[*R*]is synthesised[*A*]from a lagging strand from the origin of L - strand replication[*A*]a strand - displacement model	context()	negated: False ,passive: True
+0.957	[*A*]a leading strand[*R*]is synthesised[*A*]from OH[*A*]a strand - displacement model	context()	negated: False ,passive: True
+0.758	[*A*]mtDNA replication[*R*]to occur exclusively	context()	negated: False ,passive: False
+0.949	[*A*]mtDNA replication[*R*]was thought[*A*]For many years	context()	negated: False ,passive: True
+[LINE#138] In 2000, Holt et al. proposed an alternative model in which leading- andlagging-strand syntheses were coupled (so-called synchronous or coupled replication), on the basis of Brewer and Fangman 2D-agarose gel electrophoresis (2D-AGE) [31].
+0.953	[*A*]leading- andlagging-strand syntheses[*R*]were coupled[*A*]an alternative model	context()	negated: False ,passive: True
+0.971	[*A*]Holt et al[*R*]proposed[*A*]an alternative model in which leading- andlagging-strand syntheses were coupled (so-called synchronous or coupled replication)[*A*]In 2000	context()	negated: False ,passive: False
+[LINE#139]The strand-coupled mechanism was suggested to initiate simultaneously in both directions from a broad zone, OriZ [32].
+0.913	[*A*]The strand-coupled mechanism[*R*]to initiate simultaneously[*A*]in both directions from a broad zone	context()	negated: False ,passive: False
+0.785	[*A*]The strand-coupled mechanism[*R*]was suggested	context()	negated: False ,passive: False
+[LINE#140]Later studies demonstrated that some replication intermediates were RNase H-sensitive, which led to the assumption that they were derived from ribonucleotide-rich DNA synthesis initiated unidirectionally from the non-coding region [33-35].
+0.908	[*A*]some replication intermediates[*R*]were[*A*]RNase H-sensitive	context(Later studies demonstrated)	negated: False ,passive: True
+0.766	[*A*]Later studies[*R*]demonstrated[*A*]that some replication intermediates were RNase H-sensitive	context()	negated: False ,passive: False
+0.911	[*A*]ribonucleotide-rich DNA synthesis[*R*]initiated unidirectionally[*A*]from the non-coding region	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]were derived[*A*]from ribonucleotide-rich DNA synthesis	context()	negated: False ,passive: True
+0.845	[*A*]RNase H-sensitive[*R*]led[*A*]to the assumption that they were derived from ribonucleotide-rich DNA synthesis	context()	negated: False ,passive: False
+[LINE#141]According to this replication mode, referred to as the ribonucleotide incorporation throughout the lagging strand (RITOLS) model, the lagging strand is initially laid down as RNA before being converted to DNA.
+0.913	[*A*]the lagging strand[*R*]before being converted[*A*]to DNA	context()	negated: False ,passive: True
+0.935	[*A*]the lagging strand[*R*]is laid[*A*]down[*A*]as RNA[*A*]before being converted to DNA[*A*]initially	context()	negated: False ,passive: True
+[LINE#142]In a similar manner to the strand-displacement model, RITOLS predicts delayed lagging strand DNA synthesis.
+0.940	[*A*]RITOLS[*R*]predicts[*A*]delayed lagging strand DNA synthesis[*A*]In a similar manner to the strand-displacement model	context()	negated: False ,passive: False
+[LINE#143]Although the precise mode of mtDNA replication is contentious, the weight of experimental data in support of all three models makes their combined existence likely.
+0.921	[*A*]the weight of experimental data in support of all three models[*R*]makes likely[*A*]their combined existence	context()	negated: False ,passive: False
+0.897	[*A*]the precise mode of mtDNA replication[*R*]is[*A*]contentious	context()	negated: False ,passive: True
+[LINE#144]Molecular mechanisms underlying formation and timing of single mitochondrial DNA deletionsMost deletions (85%) occur within the major arc between OH and OL and are flanked by runs of direct homologous base-pair repeats.
+0.980	[*A*]Molecular mechanisms underlying timing of single mitochondrial DNA deletionsMost deletions ( 85 % )[*R*]occur[*A*]within the major arc between OH and OL	context()	negated: False ,passive: True
+0.918	[*A*]Molecular mechanisms[*R*]underlying[*A*]timing of single mitochondrial DNA deletionsMost deletions	context()	negated: False ,passive: False
+0.980	[*A*]Molecular mechanisms underlying formation of single mitochondrial DNA deletionsMost deletions ( 85 % )[*R*]occur[*A*]within the major arc between OH and OL	context()	negated: False ,passive: True
+0.918	[*A*]Molecular mechanisms[*R*]underlying[*A*]formation of single mitochondrial DNA deletionsMost deletions	context()	negated: False ,passive: False
+0.903	[*A*]Molecular mechanisms[*R*]are flanked[*A*]by runs of direct homologous base - pair repeats	context()	negated: False ,passive: True
+[LINE#145] It is generally considered that mtDNA deletions arise during replication through slipped-strand mispairing between direct homologous base-pairs.
+[LINE#146]This mechanism assumes the asynchronous strand displacement model of mtDNA replication, since it is reliant on the presence of long stretches of single-stranded DNA which do not exist in the coupled and RITOLS replication models.
+0.939	[*A*]long stretches of single-stranded DNA[*R*]do not exist[*A*]in the coupled and RITOLS replication models	context()	negated: True ,passive: True
+0.637	[*A*]it[*R*]is[*A*]reliant on the presence of long stretches of single-stranded DNA	context()	negated: False ,passive: True
+0.907	[*A*]This mechanism[*R*]assumes[*A*]the asynchronous strand displacement model of mtDNA replication[*A*]since it is reliant on the presence of long stretches of single-stranded DNA	context()	negated: False ,passive: False
+[LINE#147]During replication a single stranded repeat of the H-strand misanneals with a newly exposed L-strand repeat (Fig. 1C).
+[LINE#148]This forms a downstream loop of single-stranded parental H-strand which is degraded, with subsequent ligation of the free H-strands and continued replication.
+0.944	[*A*]single - stranded parental H - strand[*R*]is[*A*]degraded , with subsequent ligation of continued replication	context()	negated: False ,passive: True
+0.964	[*A*]single - stranded parental H - strand[*R*]is[*A*]degraded , with subsequent ligation of the free H - strands	context()	negated: False ,passive: True
+0.567	[*A*]This[*R*]forms[*A*]a downstream loop of single - stranded parental H - strand	context()	negated: False ,passive: False
+[LINE#149] The end result is one WT and one deleted mtDNA molecule (.
+0.942	[*A*]The end result[*R*]is[*A*]one deleted mtDNA molecule	context()	negated: False ,passive: True
+0.942	[*A*]The end result[*R*]is[*A*]one WT	context()	negated: False ,passive: True
+[LINE#150]A recent alternative hypothesis proposed that deletions form during repair of mtDNA at double-stranded breaks, rather than during replication [37].
+0.945	[*A*]deletions[*R*]form[*A*]during repair of mtDNA at double-stranded breaks, rather than during replication [37	context(A recent alternative hypothesis proposed)	negated: False ,passive: False
+0.864	[*A*]A recent alternative hypothesis[*R*]proposed[*A*]that deletions form during repair of mtDNA at double-stranded breaks, rather than during replication [37	context()	negated: False ,passive: False
+[LINE#151] During repair of a double-stranded break (a commonly occurring transition state needed to restore the replication fork after a stalling event)single-stranded regions are generated by exonuclease activity.
+0.905	[*A*]a commonly occurring transition state[*R*]needed to restore[*A*]the replication fork[*A*]after a stalling event	context(a commonly occurring transition state needed)	negated: False ,passive: False
+0.945	[*A*]a commonly occurring transition state[*R*]needed[*A*]to restore the replication fork after a stalling event[*A*]During repair of a double-stranded break	context()	negated: False ,passive: False
+0.919	[*A*]single-stranded regions[*R*]are generated[*A*]by exonuclease activity	context()	negated: False ,passive: True
+[LINE#152]The single strands would be free to anneal with microhomologous sequences [38].
+0.897	[*A*]The single strands[*R*]to anneal[*A*]with microhomologous sequences	context()	negated: False ,passive: False
+0.911	[*A*]The single strands[*R*]would be[*A*]free to anneal with microhomologous sequences	context()	negated: False ,passive: True
+[LINE#153]Subsequent repair, ligation and degradation of the exposed single strands would lead to mtDNA molecules with a deleted portion.
+0.943	[*A*]degradation of the exposed single strands[*R*]would lead[*A*]to mtDNA molecules	context()	negated: False ,passive: False
+0.911	[*A*]ligation[*R*]would lead[*A*]to mtDNA molecules	context()	negated: False ,passive: False
+0.918	[*A*]Subsequent repair[*R*]would lead[*A*]to mtDNA molecules	context()	negated: False ,passive: False
+[LINE#154]suggest that if deletion formation only occurs during replication, higher levels of deleted molecules should be present in mitotic rather than post-mitotic cells (where mtDNA replication is less frequent); however, this has been shown not to be the case in rapidly dividing colonic tissue [39].
+0.342	[*A*]this[*R*]not to be[*A*]the case	context()	negated: True ,passive: True
+0.887	[*A*]deletion formation[*R*]occurs[*A*]during replication	context()	negated: False ,passive: True
+[LINE#155]The slipped-strand model also predicts conservation of the 3 repeat sequence in the deleted daughter molecule, which does not always occur [40,41].Uncertainty surrounding the pathophysiological mechanism underlying deletion formation in mtDNA includes the precise timing of the deletional event itself, which may occur during early embryonic development [42,43] or oogenesis [37].
+0.925	[*A*]the pathophysiological mechanism[*R*]underlying[*A*]deletion formation in mtDNA	context()	negated: False ,passive: False
+0.911	[*A*]Uncertainty[*R*]surrounding[*A*]the pathophysiological mechanism underlying deletion formation in mtDNA	context()	negated: False ,passive: True
+0.766	[*A*]the deleted daughter molecule[*R*]does not occur[*A*]always	context()	negated: True ,passive: True
+0.897	[*A*]the deletional event[*R*]may occur[*A*]during early embryonic development	context()	negated: False ,passive: True
+0.876	[*A*]Uncertainty surrounding the pathophysiological mechanism[*R*]includes[*A*]the precise timing of the deletional event itself, which may occur during early embryonic development [42,43] or oogenesis [37	context(The slipped - strand model predicts)	negated: False ,passive: True
+0.929	[*A*]The slipped-strand model[*R*]predicts[*A*]conservation of the 3 repeat sequence in the deleted daughter molecule	context()	negated: False ,passive: False
+[LINE#156]Deleted species have been demonstrated in tissue of mesodermal (skeletal muscle) and ectodermal (brain) origin, suggesting that the deletion is likely to occur prior to differentiation of these two embryonic layers [43].
+0.845	[*A*]Deleted species[*R*]have been demonstrated[*A*]in tissue of ectodermal ( brain ) origin[*A*]suggesting that the deletion is likely to occur prior to differentiation of these two embryonic layers	context()	negated: False ,passive: True
+0.887	[*A*]the deletion[*R*]to occur[*A*]prior to differentiation of these two embryonic layers	context()	negated: False ,passive: True
+0.845	[*A*]Deleted species[*R*]have been demonstrated[*A*]in tissue of mesodermal ( skeletal muscle ) ( brain ) origin[*A*]suggesting that the deletion is likely to occur prior to differentiation of these two embryonic layers	context()	negated: False ,passive: True
+[LINE#157]However, single large-scale mtDNA deletions have also been shown to exist in the oocyte prior to fertilisation [44,45].
+0.940	[*A*]single large-scale mtDNA deletions[*R*]to exist[*A*]in the oocyte prior to fertilisation [44,45	context()	negated: False ,passive: True
+0.781	[*A*]single large-scale mtDNA deletions[*R*]have been shown	context()	negated: False ,passive: False
+[LINE#158]In the case of progressive external ophthalmoplegia (PEO), where muscle is the only tissue clinically involved, the deletion may arise later in development, for example during differentiation of the muscle precursor cells.
+0.943	[*A*]the deletion[*R*]may arise[*A*]later in development[*A*]In the case of progressive external ophthalmoplegia	context()	negated: False ,passive: True
+0.751	[*A*]the only tissue[*R*]clinically involved	context()	negated: False ,passive: False
+0.918	[*A*]muscle[*R*]is[*A*]the only tissue clinically involved	context()	negated: False ,passive: True
+[LINE#159]An earlier deletion event during germ cell maturation followed by mitotic segregation of the mutant mtDNA might also explain the tissue-specific phenotype of this disorder [46].The case for deletion formation during germline maturation is compelling.
+0.999	[*A*]An earlier deletion event during germ cell maturation followed by mitotic segregation of the mutant mtDNA[*R*]might explain[*A*]46 ].the case	context()	negated: False ,passive: False
+0.835	[*A*]the tissue-specific phenotype of this disorder[*R*]is[*A*]compelling	context(An earlier deletion event during germ cell maturation might explain)	negated: False ,passive: True
+0.876	[*A*]An earlier deletion event during germ cell maturation[*R*]might explain[*A*]the tissue-specific phenotype of this disorder	context()	negated: False ,passive: False
+0.751	[*A*]germ cell maturation[*R*]followed	context()	negated: False ,passive: False
+[LINE#160]Human oocytes contain around 100,000 mtDNA molecules [44].
+0.999	[*A*]Human oocytes[*R*]contain[*A*]100000 mtdna molecules	context()	negated: False ,passive: False
+0.918	[*A*]Human oocytes[*R*]contain[*A*]around 100,000 mtDNA molecules	context()	negated: False ,passive: False
+[LINE#161]It is estimated that half of mature oocytes in healthy women each contain 5-20 molecules with the same "common" 4977bp mtDNA deletion found in patients with mtDNA deletion disorders [44,47,48].
+0.964	[*A*]the same "common" 4977bp mtDNA deletion[*R*]found[*A*]in patients with mtDNA deletion disorders	context()	negated: False ,passive: True
+[LINE#162]al. have hypothesised that the inherited deletion arises in the grandmother's oocyte [46].
+0.891	[*A*]the inherited deletion[*R*]arises[*A*]in the grandmother's oocyte	context(al have hypothesised)	negated: False ,passive: True
+0.701	[*A*]al[*R*]have hypothesised[*A*]that the inherited deletion arises in the grandmother's oocyte [46	context()	negated: False ,passive: False
+[LINE#163]As mtDNA is maintained in a mature oocyte for many years without replicating, Krishnan et al.
+0.833	[*A*]mtDNA[*R*]without replicating[*A*]Krishnan et al	context()	negated: False ,passive: False
+0.855	[*A*]mtDNA[*R*]is maintained[*A*]in a mature oocyte[*A*]for many years	context()	negated: False ,passive: True
+[LINE#164][37] suggested that the original mtDNA deletion event occurs in the grandmother's oocyte during repair of damaged mtDNA rather than during mtDNA replication.
+0.963	[*A*]the original mtDNA deletion event[*R*]occurs[*A*]in the grandmother's oocyte[*A*]during repair of damaged mtDNA rather than during mtDNA replication	context(37 suggested)	negated: False ,passive: True
+0.363	[*A*]37[*R*]suggested[*A*]that the original mtDNA deletion event occurs in the grandmother's oocyte during repair of damaged mtDNA rather than during mtDNA replication	context()	negated: False ,passive: False
+[LINE#165]The lack of any correlation between increasing age of the maternal grandmother and risk of having a grandchild with a single mtDNA deletion disorder, however, does not appear to support this hypothesis [49].
+0.989	[*A*]The lack of any correlation between increasing age of the maternal grandmother and risk of having a grandchild with a single mtDNA deletion disorder[*R*]to support[*A*]this hypothesis	context()	negated: False ,passive: False
+[LINE#166]So, if an oocyte containing deleted mtDNA molecules due to aberrant replication or repair from the maternal grandmother is fertilised, the zygote is destined to become the unaffected mother, and it is possible a proportion of primordial germ cells contain low levels of deleted mtDNA.
+0.887	[*A*]the zygote[*R*]to become[*A*]the unaffected mother	context()	negated: False ,passive: True
+0.947	[*A*]an oocyte[*R*]containing[*A*]deleted mtDNA molecules due to aberrant replication or repair from the maternal grandmother	context()	negated: False ,passive: False
+[LINE#167]The deleted mtDNA levels must, however, reach a critical biochemical threshold for disease to develop in the grandchild.
+0.909	[*A*]The deleted mtDNA levels[*R*]must reach[*A*]a critical biochemical threshold[*A*]to develop in the grandchild	context()	negated: False ,passive: False
+[LINE#168]This rapid shift of mtDNA heteroplasmy between generations is attributed to the so-called genetic bottleneck theory of mtDNA transmission [50].
+0.978	[*A*]This rapid shift of mtDNA heteroplasmy between generations[*R*]is attributed[*A*]to the so-called genetic bottleneck theory of mtDNA transmission	context()	negated: False ,passive: True
+[LINE#169]Although the precise mechanism and timing of the bottleneck is widely discussed in the literature, there are currently three main biological mechanisms that might potentially explain the phenomenon: (1) amplification of a reduced number of mtDNA molecules during early embryonic primordial germ cell development (approximately 7-9days post-fertilisation) [51]; (2) selective replication and transmission of a subpopulation of mtDNA molecules at a later stage of development during post-natal oocyte maturation [52]; (3) segregation of identical heteroplasmic mtDNA molecules thereby forming homoplasmic units, with effective restriction on the pool available for mtDNA transmission without any significant reduction in mtDNA content in the germ cells [53,54].If a deleted mtDNA molecule or homoplasmic deleted unit is selected for clonal expansion after the bottleneck, an accumulation of abnormally high levels of deleted mtDNA molecules might occur in a small number of mature oocytes in the unaffected mother.
+0.950	[*A*]3) segregation of identical heteroplasmic mtDNA molecules[*R*]forming[*A*]homoplasmic units	context()	negated: False ,passive: False
+0.958	[*A*]a deleted mtDNA molecule or homoplasmic deleted unit[*R*]is selected[*A*]for clonal expansion after the bottleneck	context()	negated: False ,passive: True
+0.862	[*A*]three main biological mechanisms[*R*]might explain[*A*]the phenomenon	context()	negated: False ,passive: False
+0.971	[*A*]an accumulation of abnormally high levels of deleted mtDNA molecules[*R*]might occur[*A*]in a small number of mature oocytes in the unaffected mother	context()	negated: False ,passive: True
+0.916	[*A*]the precise mechanism and timing of the bottleneck[*R*]is discussed[*A*]in the literature	context()	negated: False ,passive: True
+[LINE#170]This would predict a 5/100,000 risk of offspring inheriting high levels of the pathogenic mtDNA deletion, which roughly corresponds to the incidence of mtDNA deletion disorders in the general population [22].
+0.962	[*A*]the pathogenic mtDNA deletion[*R*]corresponds[*A*]to the incidence of mtDNA deletion disorders in the general population	context()	negated: False ,passive: True
+0.543	[*A*]This[*R*]would predict[*A*]a 5/100,000 risk of offspring inheriting high levels of the pathogenic mtDNA deletion	context()	negated: False ,passive: False
+[LINE#171]Clinically unaffected mothers are very unlikely to have more than one affected child.
+0.887	[*A*]unaffected mothers[*R*]to have[*A*]more than one affected child	context()	negated: False ,passive: False
+0.903	[*A*]unaffected mothers[*R*]are[*A*]very unlikely to have more than one affected child	context()	negated: False ,passive: True
+[LINE#172]However, there is an estimated 4% risk of subsequent transmission from an affected woman [46].
+[LINE#173]Size and location of single mitochondrial DNA deletionsThe size and location of large-scale deletions may vary.
+0.856	[*A*]location of single mitochondrial location of large - scale deletions[*R*]may vary	context()	negated: False ,passive: False
+0.756	[*A*]location of single mitochondrial DNA[*R*]may vary	context()	negated: False ,passive: False
+0.856	[*A*]Size of single mitochondrial location of large - scale deletions[*R*]may vary	context()	negated: False ,passive: False
+0.756	[*A*]Size of single mitochondrial DNA[*R*]may vary	context()	negated: False ,passive: False
+[LINE#174]However, one third of patients harbour a common 4977bp mtDNA deletion [44,47,48].
+0.999	[*A*]one third of patients[*R*]harbour[*A*]one third of patients harbour a common 4977bp mtdna deletion	context()	negated: False ,passive: False
+0.931	[*A*]one third of patients[*R*]harbour[*A*]a common 4977bp mtDNA deletion	context()	negated: False ,passive: False
+[LINE#175]The deleted molecule exists as a single species and is heteroplasmic, with variable mutant levels detectable in different tissues.
+0.956	[*A*]The deleted molecule[*R*]is[*A*]heteroplasmic , with variable mutant levels detectable in different tissues	context()	negated: False ,passive: True
+0.911	[*A*]The deleted molecule[*R*]exists[*A*]as a single species	context()	negated: False ,passive: True
+[LINE#176]The majority of deletions arise within the long arc between OH and OL but retain these replication sites.
+0.931	[*A*]The majority of deletions[*R*]arise[*A*]within the long arc between OH and OL	context()	negated: False ,passive: True
+[LINE#177]The likely explanation for this is that for mtDNA deletions to accumulate within a cell, the deleted molecules must retain the ability to replicate.
+0.621	[*A*]The likely explanation for this[*R*]is[*A*]that	context(the deleted molecules must retain)	negated: False ,passive: True
+0.888	[*A*]the deleted molecules[*R*]must retain[*A*]the ability to replicate	context()	negated: False ,passive: False
+0.927	[*A*]mtDNA deletions[*R*]to accumulate[*A*]within a cell	context()	negated: False ,passive: True
+[LINE#178] The deletion removes a variable number of essential protein-encoding subunits for complexes.
+0.903	[*A*]The deletion[*R*]removes[*A*]a variable number of essential protein-encoding subunits for complexes	context()	negated: False ,passive: False
+[LINE#179]I, III, IV and V and tRNA-encoding genes required for translation of the mtDNA-encoded OXPHOS complexes, with resulting dysfunction in OXPHOS.Early work found no correlation between clinical severity and the type, size or location of the large-scale rearrangement [55].
+0.528	[*A*]I[*R*]found[*A*]no correlation between clinical severity and the type, size or location of the large-scale rearrangement	context()	negated: False ,passive: False
+0.944	[*A*]III, IV and V and tRNA-encoding genes[*R*]required[*A*]for translation of the mtDNA-encoded OXPHOS complexes	context()	negated: False ,passive: True
+[LINE#180]However, Yamashita et al. reported that a larger deleted segment, and consequently a greater number of deleted tRNAs, correlated with an earlier age of disease onset.
+0.922	[*A*]Yamashita et al[*R*]reported[*A*]a larger deleted segment	context()	negated: False ,passive: False
+0.887	[*A*]deleted tRNAs[*R*]correlated[*A*]with an earlier age of disease onset	context()	negated: False ,passive: True
+0.602	[*A*]Yamashita et al[*R*]reported[*A*]that	context()	negated: False ,passive: False
+[LINE#181]Patients with large numbers of deleted tRNAs also appear to be more likely to develop Kearns-Sayre syndrome (KSS), suggesting that the quality of the deletion is somehow linked either to the development of the KSS phenotype or increased propensity for multi-systemic involvement [56].
+0.745	[*A*]the quality of the deletion[*R*]is somehow linked	context(Patients with large numbers of deleted tRNAs suggesting)	negated: False ,passive: False
+0.878	[*A*]Patients with large numbers of deleted tRNAs[*R*]suggesting[*A*]that the quality of the deletion is somehow linked either to the development of the KSS phenotype or increased propensity for multi-systemic involvement	context()	negated: False ,passive: False
+0.939	[*A*]Patients with large numbers of deleted tRNAs[*R*]to be[*A*]more likely to develop Kearns-Sayre syndrome	context()	negated: False ,passive: True
+0.789	[*A*]Patients with large numbers of deleted tRNAs[*R*]appear	context()	negated: False ,passive: False
+[LINE#182]Since patients with the same "common" deletion show different clinical symptoms, other factors are postulated to contribute to the observed phenotypic heterogeneity, such as systemic distribution and mutant load of deleted mtDNA molecules.
+0.938	[*A*]other factors[*R*]to contribute[*A*]to the observed phenotypic heterogeneity , such as mutant load of deleted mtDNA molecules	context()	negated: False ,passive: False
+0.927	[*A*]other factors[*R*]to contribute[*A*]to the observed phenotypic heterogeneity , such as systemic distribution	context()	negated: False ,passive: False
+0.732	[*A*]other factors[*R*]are postulated	context()	negated: False ,passive: False
+0.957	[*A*]patients with the same " common " deletion[*R*]show[*A*]different clinical symptoms	context()	negated: False ,passive: False
+[LINE#183]The time-point at which the deletion arises has also been suggested to determine the affected tissues, clinical phenotype, percentage and location of the deletion [57].Despite the probable importance of deletion size and location, many other factors are likely to contribute to the varied clinical phenotype and severity seen in this patient group.
+0.905	[*A*]The time - point at which the deletion arises[*R*]has been suggested[*A*]to determine the affected tissues	context(many other factors are)	negated: False ,passive: True
+0.905	[*A*]The time - point at which the deletion arises[*R*]has been suggested[*A*]to determine the affected tissues	context(many other factors are)	negated: False ,passive: True
+0.905	[*A*]The time - point at which the deletion arises[*R*]has been suggested[*A*]to determine the affected tissues	context(many other factors are)	negated: False ,passive: True
+0.905	[*A*]The time - point at which the deletion arises[*R*]has been suggested[*A*]to determine the affected tissues	context(many other factors are)	negated: False ,passive: True
+0.905	[*A*]The time - point at which the deletion arises[*R*]has been suggested[*A*]to determine the affected tissues	context(many other factors are)	negated: False ,passive: True
+0.897	[*A*]many other factors[*R*]to contribute[*A*]to severity	context()	negated: False ,passive: False
+0.891	[*A*]many other factors[*R*]are[*A*]likely to contribute to severity	context()	negated: False ,passive: True
+0.894	[*A*]severity[*R*]seen[*A*]in this patient group	context()	negated: False ,passive: True
+0.897	[*A*]many other factors[*R*]to contribute[*A*]to the varied clinical phenotype	context()	negated: False ,passive: False
+0.905	[*A*]The time - point at which the deletion arises[*R*]has been suggested[*A*]to determine the affected tissues	context(many other factors are)	negated: False ,passive: True
+0.891	[*A*]many other factors[*R*]are[*A*]likely to contribute to the varied clinical phenotype	context()	negated: False ,passive: True
+0.919	[*A*]the varied clinical phenotype[*R*]seen[*A*]in this patient group	context()	negated: False ,passive: True
+0.933	[*A*]the deletion[*R*]arises[*A*]The time - point	context()	negated: False ,passive: True
+[LINE#184]Deletions are heteroplasmic and mutant load may vary between tissue types and can shift over time.
+0.749	[*A*]Deletions[*R*]are[*A*]mutant	context()	negated: False ,passive: True
+0.749	[*A*]Deletions[*R*]are[*A*]heteroplasmic	context()	negated: False ,passive: True
+0.687	[*A*]mutant load[*R*]may vary	context(Deletions are)	negated: False ,passive: False
+0.871	[*A*]Deletions[*R*]are[*A*]mutant load may vary between tissue types	context()	negated: False ,passive: True
+0.687	[*A*]heteroplasmic load[*R*]may vary	context(Deletions are)	negated: False ,passive: False
+0.871	[*A*]Deletions[*R*]are[*A*]heteroplasmic load may vary between tissue types	context()	negated: False ,passive: True
+[LINE#185]This may explain the clinical features (dependent on the tissue with the greatest energy demand and level of mutant mtDNA) and delayed onset that is sometimes seen in patients with the disease.
+0.543	[*A*]This[*R*]may explain[*A*]the clinical features ( dependent on the tissue with the level of mutant mtDNA	context()	negated: False ,passive: False
+0.902	[*A*]delayed onset[*R*]is seen[*A*]in patients with the disease[*A*]sometimes	context()	negated: False ,passive: True
+0.497	[*A*]This[*R*]may explain[*A*]the clinical features ( dependent on the tissue with the greatest energy demand	context()	negated: False ,passive: False
+[LINE#186]Random mitotic segregation of mutant and WT mtDNA molecules, relaxed replication, tissue-specific energy requirements, contrasting selection bias of mitotic and post-mitotic cells, together with the mtDNA and nuclear haplotypes, are all thought to influence the ultimate spectrum of disease.
+0.899	[*A*]Random mitotic segregation of WT mtDNA molecules[*R*]to influence[*A*]the ultimate spectrum of disease	context()	negated: False ,passive: False
+0.940	[*A*]Random mitotic segregation of mutant molecules[*R*]to influence[*A*]the ultimate spectrum of disease	context()	negated: False ,passive: False
+[LINE#187]There is marked tissue specificity seen with mtDNA deletions when compared with other mtDNA mutations [58-61].
+0.751	[*A*]marked tissue specificity[*R*]seen	context()	negated: False ,passive: False
+[LINE#188]This observation, taken together with ongoing research examining the role the mitochondrial nucleoid plays in mtDNA distribution, is likely to be important in unravelling the cause of extreme tissue segregation seen in mtDNA deletion disorders.
+0.934	[*A*]This observation, taken together with ongoing research[*R*]to be[*A*]important in unravelling the cause of extreme tissue segregation	context()	negated: False ,passive: True
+0.968	[*A*]This observation, taken together with ongoing research[*R*]is[*A*]likely to be important in unravelling the cause of extreme tissue segregation	context()	negated: False ,passive: True
+0.905	[*A*]the role[*R*]plays[*A*]in mtDNA distribution	context()	negated: False ,passive: True
+0.925	[*A*]extreme tissue segregation[*R*]seen[*A*]in mtDNA deletion disorders	context()	negated: False ,passive: True
+0.918	[*A*]ongoing research[*R*]examining[*A*]the role the mitochondrial nucleoid plays in mtDNA distribution	context()	negated: False ,passive: False
+0.698	[*A*]This observation[*R*]taken together	context()	negated: False ,passive: False

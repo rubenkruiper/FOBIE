@@ -4,8 +4,9 @@ def clean_content(content):
     """
     Simple cleaning of the sentences found in the input files. Is called twice, during creation of
     OIE and narrowIE files.
+
     :param content: a dict containing {sent_id : sentence}
-    :return content: a dict containing {sent_id : sentence}
+    :return content: a dict containing {sent_id : sentence}, where the sentences have been cleaned
     """
     new_content = {}
     new_sent = ""

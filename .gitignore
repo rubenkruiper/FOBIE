@@ -1,15 +1,25 @@
 *.pyc
 
+# ignore specific files:
+SORE/SORE_settings_JEB_BMC.json
+
 # ignore specific folders of this project:
 SORE/data/processed_data/*
 SORE/data/unprocessed_data/processed/*
-SORE/data/narrowIE/input/*
-SORE/data/narrowIE/predictions/*
-SORE/data/filter_data/elmo_pubmed/*
-SORE/data/filter_data/vectors/*
+SORE/data/narrowIE/*
+SORE/data/filter_data/*
 SORE/data/OpenIE/inputs/*
 SORE/data/OpenIE/processed/*
 SORE/data/brat_annotations/*
+
+# do not ignore OASTM example files:
+!SORE/data/narrowIE/OA-STM_all_arguments.csv
+!SORE/data/filter_data/OA-STM_8000.model
+!SORE/data/filter_data/OA-STM_8000.vocab
+!SORE/data/filter_data/OA-STMIDF.json
+!SORE/data/filter_data/vectors/nIE_emb_OA-STM_8000_avg_False_True.pkl
+!SORE/data/filter_data/vectors/nIE_phrases_OA-STM_8000_avg_False_True.pkl
+!SORE/data/OpenIE/processed/OA-STM*
 
 # do not ignore the folder structure
 !SORE/data/processed_data/.gitkeep

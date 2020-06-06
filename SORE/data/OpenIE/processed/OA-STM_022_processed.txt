@@ -1,0 +1,511 @@
+[LINE#1]Temperature is one of the main parameters influencing the properties of CO2 during storage in saline aquifers since it along with pressure and co-constituents controls the phase behavior of the CO2/brine mixture.
+0.393	[*A*]it[*R*]along controls[*A*]the phase behavior of the CO2 / brine mixture	context()	negated: False ,passive: False
+0.925	[*A*]the main parameters[*R*]influencing[*A*]the properties of CO2[*A*]during storage in saline aquifers	context()	negated: False ,passive: False
+0.239	[*A*]Temperature[*R*]is[*A*]one of the main parameters[*A*]since it along with co-constituents controls the phase behavior of the CO2 / brine mixture	context()	negated: False ,passive: True
+0.925	[*A*]the main parameters[*R*]influencing[*A*]the properties of CO2	context()	negated: False ,passive: False
+0.239	[*A*]Temperature[*R*]is[*A*]one of the main parameters influencing the properties of CO2 during storage in saline aquifers since it along with pressure controls the phase behavior of the CO2 / brine mixture	context()	negated: False ,passive: True
+[LINE#2] When the CO2 replaces brine as a free gasit is well known to affect the elastic properties of porous media considerably.
+0.897	[*A*]a free gasit[*R*]to affect[*A*]the elastic properties of porous media[*A*]considerably	context()	negated: False ,passive: False
+0.956	[*A*]a free gasit[*R*]is[*A*]well known to affect the elastic properties of porous media considerably	context()	negated: False ,passive: True
+0.953	[*A*]the CO2[*R*]replaces[*A*]brine[*A*]as a free gasit is well known to affect the elastic properties of porous media considerably	context()	negated: False ,passive: True
+[LINE#3]In order to track the migration of geologically stored CO2 at the Ketzin site, 3D time-lapse seismic data were acquired by means of a baseline (pre-injection) survey in autumn 2005 and a first monitor survey in autumn 2009.
+0.992	[*A*]3 d time - lapse seismic data[*R*]were acquired In[*A*]order track	context()	negated: False ,passive: False
+0.938	[*A*]3 D time - lapse seismic data[*R*]were acquired[*A*]by means of a baseline	context()	negated: False ,passive: True
+[LINE#4]During this period the temperature in the storage reservoir near the injection well was observed to have increased from 34C to 38C.This temperature increase led us to investigate the potential impact of temperature on the seismic response to the CO2 injection and on the CO2 mass estimations based on the Ketzin 4D seismic data.
+0.949	[*A*]the CO2 mass estimations[*R*]based[*A*]on the Ketzin 4 D seismic data	context()	negated: False ,passive: True
+0.614	[*A*]us[*R*]to investigate[*A*]the potential impact of temperature on the seismic response to the CO2 on the CO2 mass estimations	context()	negated: False ,passive: False
+0.614	[*A*]us[*R*]to investigate[*A*]the potential impact of temperature on the seismic response to the CO2 injection	context()	negated: False ,passive: False
+0.949	[*A*]the temperature in the storage reservoir near the injection[*R*]to have increased[*A*]from 34C[*A*]to 38C.This temperature increase	context()	negated: False ,passive: True
+0.965	[*A*]the temperature in the storage reservoir near the injection[*R*]well was observed[*A*]this period	context()	negated: False ,passive: True
+[LINE#5]Two temperature scenarios in the reservoir (34C and 38C) were studied using multiphase fluid flow modeling.
+0.773	[*A*]Two temperature scenarios in the reservoir[*R*]were studied	context()	negated: False ,passive: False
+[LINE#6]The simulations show that the impact of temperature on the seismic response is minor, but that the impact of the temperature on the CO2 mass estimations is significant and can, with the help of the multiphase fluid flow simulations, be explained mostly by the impact on the density of the CO2.
+0.880	[*A*]The simulations[*R*]can be explained[*A*]mostly[*A*]by the impact on the density of the CO2	context()	negated: False ,passive: True
+0.928	[*A*]the impact of the temperature on the CO2 mass estimations[*R*]is[*A*]significant	context()	negated: False ,passive: True
+0.862	[*A*]the impact of temperature on the seismic response[*R*]is[*A*]minor	context(The simulations show)	negated: False ,passive: True
+0.853	[*A*]The simulations[*R*]show[*A*]that the impact of temperature on the seismic response is minor	context()	negated: False ,passive: False
+[LINE#7]By integrating seismic modeling and multiphase fluid flow simulations, we have estimated the impact of the reservoir temperature on the 4D seismic data from Ketzin.
+0.550	[*A*]we[*R*]have estimated[*A*]the impact of the reservoir temperature on the 4 D seismic data from Ketzin	context()	negated: False ,passive: False
+[LINE#8]We studied two cases, one where the injection was performed at 34C and the other at 38C.
+0.918	[*A*]the injection[*R*]was performed[*A*]at 34C[*A*]at 38C	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]studied[*A*]two cases	context()	negated: False ,passive: False
+[LINE#9]Results from the multiphase fluid flow simulations show that the difference between the two cases is small for the CO2 migration.
+0.837	[*A*]the difference between the two cases[*R*]is[*A*]small	context(Results from the multiphase fluid flow simulations show)	negated: False ,passive: True
+0.919	[*A*]Results from the multiphase fluid flow simulations[*R*]show[*A*]that the difference between the two cases is small for the CO2 migration	context()	negated: False ,passive: False
+[LINE#10]Likewise, the temperature does not affect significantly the seismic amplitude response, although the CO2 density is considerably lower for the higher temperature case.
+0.949	[*A*]the CO2 density[*R*]is[*A*]considerably lower for the higher temperature case	context()	negated: False ,passive: True
+0.947	[*A*]the temperature[*R*]does not affect significantly[*A*]the seismic amplitude response[*A*]although the CO2 density is considerably lower for the higher temperature case	context()	negated: True ,passive: False
+[LINE#11]The difference in CO2 density between 34C and 38C decreases with decreasing pressure and, therefore, with increasing distance from the injection well.
+0.961	[*A*]The difference in CO2 density between 34C and 38C[*R*]decreases[*A*]with decreasing pressure[*A*]therefore[*A*]with increasing distance from the injection well	context()	negated: False ,passive: True
+[LINE#12]Therefore, the modeled time-lapse seismic differences for the two temperature scenarios is minor regarding the qualitative analysis of the 4D seismic data from the Ketzin CO2 storage site (Fig. 8).However, the volumetric estimation of the CO2 based on the 4D seismic data from Ketzin using results from the multiphase fluid flow simulations (Fig. 9) shows that the impact of temperature in the reservoir at the monitoring time is significant for these estimations.
+0.953	[*A*]the 4D seismic data from Ketzin[*R*]using[*A*]results[*A*]from the multiphase fluid flow simulations	context()	negated: False ,passive: False
+0.976	[*A*]the modeled time-lapse seismic differences for the two temperature scenarios[*R*]regarding[*A*]the qualitative analysis of the 4D seismic data from the Ketzin CO2 storage site	context()	negated: False ,passive: False
+0.984	[*A*]the modeled time-lapse seismic differences for the two temperature scenarios[*R*]is[*A*]minor[*A*]regarding the qualitative analysis of the 4D seismic data from the Ketzin CO2 storage site	context()	negated: False ,passive: True
+[LINE#13]This is mostly due to its impact on CO2 density, which strongly depends on temperature.
+0.914	[*A*]CO2 density[*R*]strongly depends[*A*]on temperature	context()	negated: False ,passive: False
+0.348	[*A*]This[*R*]is[*A*]mostly due to its impact on CO2 density	context()	negated: False ,passive: True
+[LINE#14]In addition to temperature effects, the simulated CO2 saturation levels also influence volumetric estimation.
+0.934	[*A*]the simulated CO2 saturation levels[*R*]influence[*A*]volumetric estimation	context()	negated: False ,passive: False
+[LINE#15]Our results show that temperature monitoring is very important for quantitative seismic interpretation at the Ketzin site.
+0.950	[*A*]temperature monitoring[*R*]is[*A*]very important for quantitative seismic interpretation at the Ketzin site	context(Our results show)	negated: False ,passive: True
+0.569	[*A*]Our results[*R*]show[*A*]that temperature monitoring is very important for quantitative seismic interpretation at the Ketzin site	context()	negated: False ,passive: False
+[LINE#16]Using the higher temperature scenario, corresponding to that measured at the injection well, gives the best result for the CO2 mass quantification.
+0.136	[*A*]that[*R*]measured[*A*]at the injection well	context()	negated: False ,passive: True
+[LINE#17]The estimate is completely within the bounds of the true amount of injected CO2.
+0.960	[*A*]The estimate[*R*]is[*A*]completely within the bounds of the true amount of injected CO2	context()	negated: False ,passive: True
+[LINE#18]Seismic modeling and observations show that the effects of the injected CO2 on the 4D seismic data from Ketzin are significant, both regarding seismic amplitudes and time delays.
+0.919	[*A*]the effects of the injected CO2 on the 4 D seismic data from Ketzin[*R*]are[*A*]significant	context(observations show)	negated: False ,passive: True
+0.864	[*A*]observations[*R*]show[*A*]that the effects of the injected CO2 on the 4 D seismic data from Ketzin are significant	context()	negated: False ,passive: False
+0.875	[*A*]Seismic modeling[*R*]show[*A*]that the effects of the injected CO2 on the 4 D seismic data from Ketzin are significant , both regarding seismic time delays	context()	negated: False ,passive: False
+0.919	[*A*]the effects of the injected CO2 on the 4 D seismic data from Ketzin[*R*]are[*A*]significant	context(Seismic modeling show)	negated: False ,passive: True
+0.875	[*A*]Seismic modeling[*R*]show[*A*]that the effects of the injected CO2 on the 4 D seismic data from Ketzin are significant , both regarding seismic amplitudes	context()	negated: False ,passive: False
+[LINE#19]However, reservoir heterogeneity and seismic resolution, as well as random and coherent seismic noise are negative factors to be considered in seismic monitoring.
+0.911	[*A*]coherent seismic noise[*R*]are[*A*]negative factors to be considered in seismic monitoring	context()	negated: False ,passive: True
+0.911	[*A*]random seismic noise[*R*]are[*A*]negative factors to be considered in seismic monitoring	context()	negated: False ,passive: True
+0.903	[*A*]seismic resolution[*R*]are[*A*]negative factors to be considered in seismic monitoring	context()	negated: False ,passive: True
+0.903	[*A*]negative factors[*R*]to be considered[*A*]in seismic monitoring	context()	negated: False ,passive: True
+0.903	[*A*]reservoir heterogeneity[*R*]are[*A*]negative factors to be considered in seismic monitoring	context()	negated: False ,passive: True
+[LINE#20]It is likely that the simulated scenarios of 38C and 34C are representative in the vicinity of the injection well and in the remaining reservoir, respectively, in October 2009.
+0.385	[*A*]34C[*R*]are representative in[*A*]the vicinity	context()	negated: False ,passive: False
+0.385	[*A*]38C[*R*]are representative in[*A*]the vicinity	context()	negated: False ,passive: False
+[LINE#21]This is based on a measured temperature of approximately 38C at the injection well at the monitoring time, while at the well Ktzi200/2007 the temperature increased to only slightly above 34C and at the well Ktzi202/2007 the temperature remained at 34C during the injection period.
+0.952	[*A*]the temperature[*R*]increased[*A*]to at the well[*A*]during the injection period[*A*]at the well Ktzi200/2007	context()	negated: False ,passive: True
+0.918	[*A*]the temperature[*R*]remained[*A*]at 34C[*A*]during the injection period	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]is based[*A*]on a measured temperature of	context()	negated: False ,passive: True
+[LINE#22]Since most of the CO2 is concentrated around the injection well, the higher temperature value plays an important role in estimating the mass of CO2 from the seismic data.
+0.956	[*A*]the higher temperature value[*R*]plays[*A*]an important role in estimating the mass of CO2 from the seismic data	context()	negated: False ,passive: False
+0.939	[*A*]most of the CO2[*R*]is concentrated[*A*]around the injection well	context()	negated: False ,passive: True
+[LINE#23] The integration of seismic modeling and multiphase fluid flow simulations generated synthetic difference seismograms (repeat-base) that demonstrate the main features of the real difference seismograms (repeat-base).
+0.898	[*A*]The integration of multiphase fluid flow simulations[*R*]generated[*A*]synthetic difference seismograms ( repeat - base ) that demonstrate the main features of the real difference seismograms ( repeat - base )	context()	negated: False ,passive: False
+0.897	[*A*]synthetic difference seismograms[*R*]demonstrate[*A*]the main features of the real difference seismograms	context()	negated: False ,passive: False
+0.879	[*A*]The integration of seismic modeling[*R*]generated[*A*]synthetic difference seismograms ( repeat - base ) that demonstrate the main features of the real difference seismograms ( repeat - base )	context()	negated: False ,passive: False
+[LINE#24]Taking into account the assumptions made constructing the model we consider the correlation between the synthetic and real seismic sections to be satisfactory.
+0.838	[*A*]the correlation between the synthetic and real seismic sections[*R*]to be[*A*]satisfactory	context(we consider)	negated: False ,passive: True
+0.514	[*A*]we[*R*]consider[*A*]the correlation between the synthetic and real seismic sections to be satisfactory	context()	negated: False ,passive: False
+[LINE#25]However, the following points should be considered when evaluating the modeling results.
+0.911	[*A*]the following points[*R*]should be considered[*A*]when evaluating the modeling results	context()	negated: False ,passive: True
+[LINE#26]Firstly, the constant 20% reservoir porosity (Frster et al., 2009) used for modeling of the temperature effects is probably an over-simplification since the reservoir is quite heterogeneous (Frster et al., 2006).
+0.813	[*A*]the reservoir[*R*]is[*A*]quite heterogeneous	context()	negated: False ,passive: True
+0.995	[*A*]the constant 20% reservoir porosity (Frster et al., 2009) used for modeling of the temperature effects[*R*]is[*A*]probably[*A*]an over-simplification[*A*]since the reservoir is quite heterogeneous (Frster et al., 2006	context()	negated: False ,passive: True
+0.921	[*A*]the constant 20% reservoir porosity[*R*]used[*A*]for modeling of the temperature effects	context()	negated: False ,passive: True
+[LINE#27] Secondly, sound waves may have a frequency dependent propagation velocity (e.g. White, 1975; Mller et al., 2010) so that the higher the frequency.
+0.903	[*A*]sound waves[*R*]may have[*A*]a frequency dependent propagation velocity	context()	negated: False ,passive: False
+[LINE#28]Although velocity dispersion is probably present in the Ketzin reservoir rocks, we do not consider it to be large enough that it could considerably affect the qualitative and quantitative interpretation of our time-lapse seismic data (Ivanova et al., 2012).
+0.168	[*A*]it[*R*]to be[*A*]large enough[*A*]that it could considerably affect the quantitative interpretation of our time - lapse seismic data	context(we do not consider)	negated: False ,passive: True
+0.195	[*A*]we[*R*]do not consider[*A*]it to be large enough that it could considerably affect the quantitative interpretation of our time - lapse seismic data ( Ivanova et al . , 2012	context()	negated: True ,passive: False
+0.418	[*A*]it[*R*]could considerably affect[*A*]the quantitative interpretation of our time - lapse seismic data	context()	negated: False ,passive: False
+0.168	[*A*]it[*R*]to be[*A*]large enough[*A*]that it could considerably affect the qualitative interpretation of our time - lapse seismic data	context(we do not consider)	negated: False ,passive: True
+0.195	[*A*]we[*R*]do not consider[*A*]it to be large enough that it could considerably affect the qualitative interpretation of our time - lapse seismic data ( Ivanova et al . , 2012	context()	negated: True ,passive: False
+0.418	[*A*]it[*R*]could considerably affect[*A*]the qualitative interpretation of our time - lapse seismic data	context()	negated: False ,passive: False
+0.937	[*A*]velocity dispersion[*R*]is[*A*]probably[*A*]present in the Ketzin reservoir rocks	context()	negated: False ,passive: True
+[LINE#29](1) was derived using results of petrophysical experiments at 40C.
+0.385	[*A*]1[*R*]was derived[*A*]using results of petrophysical experiments at 40C	context()	negated: False ,passive: True
+[LINE#30]For brine saturated sandstone, the seismic velocity does not depend on temperatures in the range of 34-40C (Mavko, 2005), resulting in that there are only minor differences for Vp at conditions near the critical point (Han et al., 2010).
+0.797	[*A*]the seismic velocity[*R*]does not depend[*A*]on temperatures in the range of 34-40C[*A*]resulting in that there are only minor differences for Vp at conditions near the critical point (Han et al., 2010)	context()	negated: True ,passive: False
+0.894	[*A*]brine[*R*]saturated[*A*]sandstone	context()	negated: False ,passive: False
+[LINE#31] (1951) this translates into a maximum difference in Vp of 9m/s for 50% CO2 saturation for the Ketzin site comparing the 40C and 34C scenarios.
+0.933	[*A*]the Ketzin site[*R*]comparing[*A*]34C scenarios	context()	negated: False ,passive: False
+0.944	[*A*]the Ketzin site[*R*]comparing[*A*]the 40C	context()	negated: False ,passive: False
+0.543	[*A*]this[*R*]translates[*A*]into a maximum difference in Vp of 9m / s for 50 % CO2 saturation for the Ketzin site	context()	negated: False ,passive: True
+[LINE#32]Therefore, the effect of temperature on the velocity CO2 at the Ketzin site can be disregarded.
+0.907	[*A*]the effect of temperature on the velocity CO2 at the Ketzin site[*R*]can be disregarded	context()	negated: False ,passive: False
+[LINE#33]The volumetric estimations of the CO2 mass based on the Ketzin 4D seismic data (Fig. 9) shows that the impact of temperature is significant for the calculations due to its impact on CO2 density.
+0.923	[*A*]the impact of temperature[*R*]is[*A*]significant for the calculations	context(The volumetric estimations of the CO2 mass shows)	negated: False ,passive: True
+0.876	[*A*]The volumetric estimations of the CO2 mass[*R*]shows[*A*]that the impact of temperature is significant for the calculations due to its impact on CO2 density	context()	negated: False ,passive: False
+0.961	[*A*]The volumetric estimations of the CO2 mass[*R*]based[*A*]on the Ketzin 4D seismic data	context()	negated: False ,passive: True
+[LINE#34]Hence, temperature monitoring is an important component for quantitative seismic interpretations at Ketzin, and probably at other sites.
+0.952	[*A*]temperature monitoring[*R*]is[*A*]an important component for quantitative seismic interpretations probably at other sites	context()	negated: False ,passive: True
+0.937	[*A*]temperature monitoring[*R*]is[*A*]an important component for quantitative seismic interpretations at Ketzin	context()	negated: False ,passive: True
+[LINE#35]Using the temperature measured at the injection well for the mass estimations gives the best result for the CO2 mass quantification (Fig. 9).
+0.913	[*A*]Using the temperature[*R*]gives[*A*]the best result for the CO2 mass quantification	context()	negated: False ,passive: False
+0.903	[*A*]the temperature[*R*]measured[*A*]at the injection well for the mass estimations	context()	negated: False ,passive: True
+[LINE#36]It is completely within the bounds of the known injected CO2 mass at the beginning and end of 3D seismic repeat acquisition campaign and in very good agreement with the CO2 mass estimation based on in situ CO2 saturation PNG logging (Fig. 9).
+0.678	[*A*]It[*R*]is[*A*]completely within the bounds of the known injected CO2 mass[*A*]at the beginning of 3 D seismic repeat acquisition campaign	context()	negated: False ,passive: True
+0.467	[*A*]It[*R*]is[*A*]completely within the bounds of the known	context()	negated: False ,passive: True
+[LINE#37]Nevertheless, the quantitative analysis contains considerable uncertainties as discussed above and in Ivanova et al.
+0.925	[*A*]the quantitative analysis[*R*]contains[*A*]considerable uncertainties as discussed in Ivanova et al	context()	negated: False ,passive: False
+0.754	[*A*]the quantitative analysis[*R*]discussed[*A*]above	context()	negated: False ,passive: True
+[LINE#38](2012).Future issues to be considered include expanding the temperature range (34-38C in this study) to be investigated and the resulting effects on the seismic response, as well as the role of the reservoir heterogeneity.
+[LINE#39]In addition, it would be important to investigate the impact of temperature on CO2 storage at other sites with favorable P-T conditions in the reservoir (Fig. 3).
+0.573	[*A*]it[*R*]to investigate[*A*]the impact of temperature on CO2 storage at other sites with favorable P-T conditions in the reservoir	context()	negated: False ,passive: False
+[LINE#40]A similar approach applied to studying the impact of pressure in the reservoir would be also important for CO2 monitoring using 3D time-lapse seismic methods.
+0.888	[*A*]A similar approach[*R*]applied[*A*]to studying the impact of pressure in the reservoir[*A*]would be also important for CO2 monitoring	context()	negated: False ,passive: False
+[LINE#41]It is well known that temperature is a major parameter influencing CO2 storage and migration in saline aquifers along with pressure and co-constituents (e.g. Kumar et al., 2005; Bachu and Bennion, 2009).
+0.911	[*A*]a major parameter[*R*]influencing[*A*]migration in saline aquifers along with co-constituents	context()	negated: False ,passive: False
+0.945	[*A*]temperature[*R*]is[*A*]a major parameter influencing migration in saline aquifers along with pressure ( e.g. Kumar et Bachu and Bennion , 2009	context(It is known)	negated: False ,passive: True
+0.911	[*A*]a major parameter[*R*]influencing[*A*]migration in saline aquifers along with pressure	context()	negated: False ,passive: False
+0.925	[*A*]a major parameter[*R*]influencing[*A*]CO2 storage along with co-constituents	context()	negated: False ,passive: False
+0.945	[*A*]temperature[*R*]is[*A*]a major parameter influencing CO2 storage along with pressure ( e.g. Kumar ; Bachu and Bennion , 2009	context(It is known)	negated: False ,passive: True
+0.945	[*A*]temperature[*R*]is[*A*]a major parameter influencing CO2 storage along with pressure ( e.g. Kumar et Bachu and Bennion , 2009	context(It is known)	negated: False ,passive: True
+0.112	[*A*]It[*R*]is known	context()	negated: False ,passive: False
+0.925	[*A*]a major parameter[*R*]influencing[*A*]CO2 storage along with pressure	context()	negated: False ,passive: False
+[LINE#42]For example, the trapping of CO2 at irreducible saturation is a direct function of temperature, as well as in situ pressure.
+0.964	[*A*]the trapping of CO2 at irreducible saturation[*R*]is[*A*]a direct in situ pressure	context()	negated: False ,passive: True
+0.964	[*A*]the trapping of CO2 at irreducible saturation[*R*]is[*A*]a direct function of temperature	context()	negated: False ,passive: True
+[LINE#43]However, only few experimental data are reported in the temperature and pressure range of interest for geological CO2 storage (Kumar et al., 2005).
+0.919	[*A*]only few experimental data[*R*]are reported[*A*]in the pressure range of interest	context()	negated: False ,passive: True
+0.919	[*A*]only few experimental data[*R*]are reported[*A*]in the temperature range of interest	context()	negated: False ,passive: True
+[LINE#44]At the Ketzin pilot site, Germany, CO2 is being injected at about 640m depth with temperature data being continuously acquired with a permanently installed system (Giese et al., 2009).
+0.887	[*A*]temperature data[*R*]continuously acquired[*A*]with a permanently installed system	context()	negated: False ,passive: True
+0.903	[*A*]temperature data[*R*]being[*A*]continuously acquired with a permanently installed system	context()	negated: False ,passive: True
+0.961	[*A*]CO2[*R*]is being injected[*A*]at about 640m depth[*A*]At the Ketzin pilot site	context()	negated: False ,passive: True
+[LINE#45]These temperature measurements are performed over the entire length of the Ketzin boreholes using a distributed temperature sensing system (Henninges et al., 2011).Ketzin is the first European onshore pilot scale project for CO2 storage in a saline aquifer and was initiated in 2004 with the aim to evaluate and develop methods for CO2 storage monitoring (Wrdemann et al., 2010; Martens et al., 2012).
+0.774	[*A*]Ketzin[*R*]was initiated[*A*]in 2004	context()	negated: False ,passive: True
+0.967	[*A*]Ketzin[*R*]is[*A*]the first European onshore pilot scale project for CO2 storage in a saline aquifer	context()	negated: False ,passive: True
+0.948	[*A*]Martens[*R*]et[*A*]al	context()	negated: False ,passive: False
+0.925	[*A*]These temperature measurements[*R*]are performed[*A*]over the entire length of the Ketzin boreholes	context()	negated: False ,passive: True
+[LINE#46] The site is situated on the southern flank of an anticlinal structure, which has its crest approximately 1.5km to the north of the site.
+0.862	[*A*]an anticlinal structure[*R*]has[*A*]its crest	context()	negated: False ,passive: False
+0.903	[*A*]The site[*R*]is situated[*A*]on the southern flank of an anticlinal structure	context()	negated: False ,passive: True
+[LINE#47]The anticline is the eastern part of the Roskow-Ketzin double anticline (Norden et al., 2010) and hosts the sandstones of the Triassic Stuttgart Formation that serve as the storage reservoir (Fig. 2).
+0.928	[*A*]the Triassic Stuttgart Formation[*R*]serve[*A*]as the storage reservoir	context()	negated: False ,passive: False
+0.948	[*A*]Norden[*R*]hosts[*A*]the sandstones of the Triassic Stuttgart Formation	context()	negated: False ,passive: False
+0.960	[*A*]The anticline[*R*]is[*A*]the eastern part of the Roskow - Ketzin double anticline ( Norden hosts the sandstones of the Triassic Stuttgart Formation	context()	negated: False ,passive: True
+0.960	[*A*]The anticline[*R*]is[*A*]the eastern part of the Roskow - Ketzin double anticline	context()	negated: False ,passive: True
+[LINE#48]The Stuttgart Formation is lithologically heterogeneous, consisting not only of sandstones with good reservoir properties, but also alternating with muddy rocks of poor reservoir quality.
+0.950	[*A*]The Stuttgart Formation[*R*]consisting[*A*]not only of sandstones with good reservoir properties, but also alternating with muddy rocks of poor reservoir quality	context()	negated: False ,passive: True
+0.967	[*A*]The Stuttgart Formation[*R*]is[*A*]lithologically heterogeneous[*A*]consisting not only of sandstones with good reservoir properties, but also alternating with muddy rocks of poor reservoir quality	context()	negated: False ,passive: True
+[LINE#49]The sandstones vary in thickness between 15 and 30m (Frster et al., 2006) and are present in the depth range of 620-650m beneath the injection site.
+0.937	[*A*]The sandstones[*R*]are[*A*]present in the depth range of 620-650 m beneath the injection site	context()	negated: False ,passive: True
+0.903	[*A*]The sandstones[*R*]vary[*A*]in thickness	context()	negated: False ,passive: True
+[LINE#50] The Stuttgart Formation is sealed by an approximately 200m thick cap rock section of playa-type mudstones of the Weser and Arnstadt Formations (Frster et al., 2006)2).Monitoring at the Ketzin site is performed by means of surface-based and borehole-based methods.
+0.964	[*A*]The Stuttgart Formation[*R*]is sealed[*A*]by an approximately 200 m thick cap rock section of playa - type mudstones of the Arnstadt Formations	context()	negated: False ,passive: True
+0.964	[*A*]The Stuttgart Formation[*R*]is sealed[*A*]by an approximately 200 m thick cap rock section of playa - type mudstones of the Weser Formations	context()	negated: False ,passive: True
+[LINE#51]The latter use the injection well (Ktzi201/2007) and additionally two observation wells (Ktzi200/2007 and Ktzi202/2007), which are located at distances of 50m and 112m from the injection well, respectively (Fig. 2).
+[LINE#52]The wells were drilled in 2007 to depths of approximately 800m (Prevedel et al., 2008) after baseline characterization that included a 3D surface seismic survey (Juhlin et al., 2007).
+0.887	[*A*]baseline characterization[*R*]included[*A*]a 3D surface seismic survey	context()	negated: False ,passive: True
+0.903	[*A*]The wells[*R*]were drilled[*A*]in 2007[*A*]to depths of approximately 800m	context()	negated: False ,passive: True
+[LINE#53]CO2 injection started in June 2008 and more than 60 kilotons of CO2 had been injected by November 2012.
+0.992	[*A*]more than 60 kilotons of CO2[*R*]had been injected by[*A*]November 2012	context()	negated: False ,passive: False
+0.957	[*A*]more than 60 kilotons of CO2[*R*]had been injected[*A*]by November 2012	context()	negated: False ,passive: True
+0.918	[*A*]CO2 injection[*R*]started[*A*]in June 2008	context()	negated: False ,passive: True
+[LINE#54]Nearly all of the CO2 injected to date at Ketzin has been food grade quality, except for about 1500 tons of CO2 (purity 99.7%) from the oxyfuel pilot plant Schwarze Pumpe (Vattenfall) that were injected within a trial period from May 4, 2011 to June 13, 2011 (Martens et al., 2012).
+0.949	[*A*]the oxyfuel pilot plant[*R*]were injected[*A*]within a trial period[*A*]from May 4, 2011 to June 13, 2011 (Martens et al., 2012	context()	negated: False ,passive: True
+0.944	[*A*]Nearly all of the CO2[*R*]injected[*A*]to date	context()	negated: False ,passive: False
+[LINE#55]Therefore, the phase behavior of the CO2 is not expected to change due to the effects of co-constituents, e.g. SO2.
+0.921	[*A*]the phase behavior of the CO2[*R*]to change[*A*]due to the effects of co-constituents	context()	negated: False ,passive: True
+0.801	[*A*]the phase behavior of the CO2[*R*]is not expected	context()	negated: True ,passive: False
+[LINE#56]However, in cases where the level of co-constituents is high changes in the phase behavior of the CO2 can be expected (Kummerow and Spangenberg, 2011).Numerical modeling of multiphase flow is an essential tool to ensure the viability of long-term and safe CO2 storage in geological formations (Kumar et al., 2005; Bryant et al., 2008).
+0.964	[*A*]the level of co-constituents[*R*]is[*A*]high changes in the phase behavior of the CO2[*A*]cases	context()	negated: False ,passive: True
+[LINE#57] Thus, a number of reservoir simulations have been performed to enhance the understanding of the CO2 migration at the Ketzin site (Kempka et al., 2010; Lengler et al., 2010; Bergmann et al., 2010).Successful integration of reservoir simulations and 4D seismic data analysis at the Sleipner CO2 storage site (e.g. Arts et al., 2004; Chadwick et al., 2010)motivated us to integrate both methods also at the Ketzin site.
+0.939	[*A*]e.g. Arts[*R*]et[*A*]al	context(Chadwick et al motivated)	negated: False ,passive: False
+0.855	[*A*]Chadwick et al[*R*]motivated[*A*]us[*A*]to integrate both methods also at the Ketzin site	context()	negated: False ,passive: False
+0.498	[*A*]us[*R*]to integrate[*A*]both methods[*A*]also at the Ketzin site	context()	negated: False ,passive: False
+0.927	[*A*]a number of reservoir simulations[*R*]to enhance[*A*]the understanding of the CO2 migration	context()	negated: False ,passive: False
+0.960	[*A*]a number of reservoir simulations[*R*]have been performed[*A*]to enhance the understanding of the CO2 migration at the Ketzin site	context()	negated: False ,passive: True
+[LINE#58] The 3D baseline seismic survey at the Ketzin site was acquired in autumn 2005and revealed a sequence of clear reflections from approximately 150ms to 900ms two-way traveltime (TWT) in the stacked volume (Juhlin et al., 2007).
+0.698	[*A*]2005and[*R*]revealed[*A*]a sequence of clear reflections from approximately 150ms to 900ms two-way traveltime (TWT) in the stacked volume (Juhlin et al., 2007	context()	negated: False ,passive: False
+0.981	[*A*]The 3D baseline seismic survey at the Ketzin site[*R*]was acquired[*A*]in autumn[*A*]2005and revealed a sequence of clear reflections from approximately 150ms to 900ms two-way traveltime (TWT) in the stacked volume (Juhlin et al., 2007	context()	negated: False ,passive: True
+[LINE#59] In the autumn of 2009, a subset of this baseline survey was acquired around the injection well after approximately 22-25 kilotons of CO2 had been injected (Ivanova et al., 2012).
+0.993	[*A*]a subset of this baseline survey[*R*]was acquired after[*A*]approximately 22 -25 kilotons	context()	negated: False ,passive: False
+0.773	[*A*]a subset of this baseline survey[*R*]had been injected	context()	negated: False ,passive: False
+0.967	[*A*]a subset of this baseline survey[*R*]was acquired[*A*]around the injection[*A*]well after approximately 22-25 kilotons of CO2[*A*]In the autumn of 2009	context()	negated: False ,passive: True
+[LINE#60]This first 3D seismic repeat survey showed a pronounced time-lapse amplitude anomaly at the top of the storage reservoir (Ivandic et al., 2012; Ivanova et al., 2012).
+0.938	[*A*]This first 3D seismic repeat survey[*R*]showed[*A*]a pronounced time-lapse amplitude[*A*]anomaly at the top of the storage reservoir	context()	negated: False ,passive: False
+[LINE#61]The extent of this anomaly was approximately 250m in the S-N direction and 350m in the W-E direction.
+0.952	[*A*]The extent of this anomaly[*R*]was[*A*]approximately 250m in the S-N direction	context()	negated: False ,passive: True
+[LINE#62]This anomaly, as well as delayed arrival times of reflections below the reservoir ("velocity push-down effect": Arts et al., 2004; Chadwick et al., 2010), demonstrated that CO2 injected at the Ketzin site could be monitored by means of surface-based seismic methods.
+[LINE#63]As a follow up, the time-lapse seismic images were used to make estimates on the imaged amount of CO2, important for assessing storage efficiency and monitoring potential leakage.
+0.921	[*A*]the time-lapse seismic images[*R*]to make[*A*]estimates	context()	negated: False ,passive: False
+0.964	[*A*]the time-lapse seismic images[*R*]were used[*A*]to make estimates on the imaged amount of CO2, important for assessing storage efficiency and monitoring potential leakage	context()	negated: False ,passive: True
+[LINE#64]The minimum degree of accuracy is a crucial issue in these investigations.
+0.943	[*A*]The minimum degree of accuracy[*R*]is[*A*]a crucial issue in these investigations	context()	negated: False ,passive: True
+[LINE#65]Such minimum thresholds establish the smallest amount of CO2 that is possible to be monitored by means of surface-based methods (JafarGandomi and Curtis, 2011).
+0.870	[*A*]the smallest amount of CO2[*R*]is[*A*]possible	context()	negated: False ,passive: True
+0.925	[*A*]Such minimum thresholds[*R*]establish[*A*]the smallest amount of CO2	context()	negated: False ,passive: False
+[LINE#66] At Ketzin, quantification of the mass of the injected CO2 was performed using the time-lapse seismic data, petrophysical investigations on core samples, and in situ CO2 saturations from pulsed neutron gamma (PNG) logging as input.
+0.976	[*A*]quantification of the mass of the injected CO2[*R*]was performed[*A*]At Ketzin	context()	negated: False ,passive: True
+[LINE#67]The uncertainty range in the order of 5-7% encompasses the true injected mass CO2.In the Ivanova et al.
+0.948	[*A*]The uncertainty range in the order of 5-7%[*R*]encompasses[*A*]the true injected mass	context()	negated: False ,passive: False
+[LINE#68](2012) study the impact of reservoir temperature on the mass estimation was not included.
+[LINE#69]However, temperature is known to have a significant effect on CO2 density and can presumably have an effect on the mass estimation based on the time-lapse seismic data.
+0.911	[*A*]the mass estimation[*R*]based[*A*]on the time - lapse seismic data	context()	negated: False ,passive: True
+0.847	[*A*]temperature[*R*]can have[*A*]an effect on the mass estimation	context()	negated: False ,passive: False
+0.896	[*A*]temperature[*R*]to have[*A*]a significant effect on CO2 density	context()	negated: False ,passive: False
+0.713	[*A*]temperature[*R*]is known	context()	negated: False ,passive: False
+[LINE#70]3 illustrates the dependence of CO2 density on pressure and temperature in the reservoir at Ketzin.
+0.543	[*A*]3[*R*]illustrates[*A*]the dependence of CO2 density on temperature in the reservoir at Ketzin	context()	negated: False ,passive: False
+0.543	[*A*]3[*R*]illustrates[*A*]the dependence of CO2 density on pressure in the reservoir at Ketzin	context()	negated: False ,passive: False
+[LINE#71]Prior to the start of the CO2 injection, pressure and temperature at the injection horizon were approximately 6.2MPa and 34C, respectively.
+[LINE#72]Both pressure and temperature increased due to the injection (Giese et al., 2009; Wrdemann et al., 2010).
+0.894	[*A*]temperature[*R*]increased[*A*]due to the injection	context()	negated: False ,passive: True
+0.903	[*A*]Both pressure[*R*]increased[*A*]due to the injection	context()	negated: False ,passive: True
+[LINE#73] In October 2009, pressure and temperature reached values of approximately 7.73MPa and 38C, respectively, in the injectionwell Ktzi201/2007 at the injection depth.
+0.967	[*A*]temperature[*R*]reached[*A*]values of approximately 38C , respectively , in the injectionwell Ktzi201/2007 at the injection depth[*A*]In October 2009	context()	negated: False ,passive: False
+0.948	[*A*]temperature[*R*]reached[*A*]values of approximately 7.73MPa , respectively[*A*]In October 2009	context()	negated: False ,passive: False
+0.967	[*A*]pressure[*R*]reached[*A*]values of approximately 38C , respectively , in the injectionwell Ktzi201/2007 at the injection depth[*A*]In October 2009	context()	negated: False ,passive: False
+0.948	[*A*]pressure[*R*]reached[*A*]values of approximately 7.73MPa , respectively[*A*]In October 2009	context()	negated: False ,passive: False
+[LINE#74]At the observation well Ktzi200/2007, the temperature increased only slightly.
+0.943	[*A*]the temperature[*R*]increased[*A*]only slightly[*A*]At the observation	context()	negated: False ,passive: True
+[LINE#75] There was no significant change in the values of the reservoir temperature at the observation well Ktzi202/2007 (Fig. 2).
+[LINE#76] Based on these observations, it appears likely that the CO2 density was around 260kg/m3 at the injection point (38C) in autumn 2009, whereas it was near 320kg/m3 in the more distant part of the plume, close to the ambient temperature (34C) 3).In order to investigate the impact of the reservoir temperature variation on the interpretation of the 4D seismic data at Ketzin, we deduce quantitative CO2 mass estimates for both temperature limits in this study.
+0.614	[*A*]we[*R*]deduce[*A*]quantitative CO2 mass estimates for both temperature limits in this study	context()	negated: False ,passive: False
+0.491	[*A*]it[*R*]was close[*A*]near 320kg/m3	context()	negated: False ,passive: True
+[LINE#77]In the first step we apply seismic forward modeling and fluid substitution using the so far established petrophysical models for the Ketzin reservoir sandstone (Kummerow and Spangenberg, 2011; Ivanova et al., 2012).
+0.740	[*A*]we[*R*]apply[*A*]seismic[*A*]forward[*A*]using the so far established petrophysical models for the Ketzin reservoir sandstone[*A*]In the first step	context()	negated: False ,passive: False
+0.740	[*A*]we[*R*]apply[*A*]seismic forward fluid substitution Spangenberg , 2011 ; Ivanova et al[*A*]In the first step	context()	negated: False ,passive: False
+0.740	[*A*]we[*R*]apply[*A*]seismic forward fluid substitution Kummerow , 2011 ; Ivanova et al[*A*]In the first step	context()	negated: False ,passive: False
+0.333	[*A*]we[*R*]apply forward modeling[*A*]Spangenberg , 2011 ; Ivanova et al	context(we apply forward)	negated: False ,passive: False
+0.471	[*A*]we[*R*]apply forward[*A*]modeling Spangenberg , 2011 ; Ivanova et al[*A*]In the first step	context()	negated: False ,passive: False
+0.333	[*A*]we[*R*]apply forward modeling[*A*]Kummerow , 2011 ; Ivanova et al	context(we apply forward)	negated: False ,passive: False
+0.471	[*A*]we[*R*]apply forward[*A*]modeling Kummerow , 2011 ; Ivanova et al[*A*]In the first step	context()	negated: False ,passive: False
+[LINE#78]Subsequently, CO2 mass estimations based on reservoir isothermal simulations for both temperature scenarios are compared to those obtained by in situ PNG logging (Ivanova et al., 2012).
+0.371	[*A*]those[*R*]obtained[*A*]by in situ PNG logging (Ivanova et al., 2012	context()	negated: False ,passive: True
+0.902	[*A*]CO2 mass estimations[*R*]are compared[*A*]to those obtained by in situ PNG logging[*A*]Subsequently	context()	negated: False ,passive: True
+0.933	[*A*]CO2 mass estimations[*R*]based[*A*]on reservoir isothermal simulations for both temperature scenarios	context()	negated: False ,passive: True
+[LINE#79]Multiphase fluid flow simulationsNext we apply the multi-phase fluid flow simulations of Lengler et al.
+0.498	[*A*]we[*R*]apply[*A*]the multi-phase fluid flow simulations of Lengler et al	context()	negated: False ,passive: False
+[LINE#80](2010) to account for the lateral variability in the petrophysical properties of the storage formation at Ketzin.
+[LINE#81](2010) performed simulations on multiple realizations of the Ketzin reservoir using a stochastic Monte Carlo approach in order to take into account the high degree of uncertainty in the reservoir characterization at the scale required for fluid flow simulations.
+0.903	[*A*]the scale[*R*]required[*A*]for fluid flow simulations	context()	negated: False ,passive: True
+[LINE#82] In this paper, we use a similar approach, butthis time to investigate the impact of the reservoir temperature on the fluid migration and, in turn, on the 4D seismic data.
+0.588	[*A*]we[*R*]use a similar approach to investigate[*A*]the impact of the reservoir temperature on the fluid in turn , on the 4 D seismic data[*A*]butthis time	context(we use)	negated: False ,passive: False
+0.595	[*A*]we[*R*]use[*A*]a similar approach[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#83]Hydrogeological studies at the Ketzin site (Norden et al., 2010) have shown that a 2D radially symmetric model of the upper part (33m) of the Stuttgart Formation can be used to interpret the 3D data acquired near the injection well (Fig. 7).
+0.917	[*A*]the 3D data[*R*]acquired well[*A*]near the injection	context()	negated: False ,passive: True
+[LINE#84]This model accounts for the presence of channel sandstones in the reservoir that are the most favorable for CO2 migration and contains effective porosities in the range of 20-25% (Frster et al., 2010).
+0.903	[*A*]This model[*R*]contains[*A*]effective porosities in the range of 20-25 %	context()	negated: False ,passive: False
+0.887	[*A*]the reservoir[*R*]are[*A*]the most favorable for CO2 migration	context()	negated: False ,passive: True
+0.903	[*A*]This model[*R*]accounts[*A*]for the presence of channel sandstones in the reservoir	context()	negated: False ,passive: False
+[LINE#85] As known from core and log analysis of the injection well Ktzi201/2007 and the first observationwell Ktzi200/2007, the reservoir is composed of two high porosity sandstone layers.
+0.903	[*A*]the reservoir[*R*]is composed[*A*]of two high porosity sandstone layers	context()	negated: False ,passive: True
+[LINE#86]These layers are separated by a thin strongly cemented sandstone layer (Norden et al., 2010).
+0.903	[*A*]These layers[*R*]are separated[*A*]by a thin strongly cemented sandstone layer	context()	negated: False ,passive: True
+[LINE#87]Since the thickness of this layer is in the decimeter range, it cannot be detected with the seismic wavelengths typically available from surface-seismic measurements.
+0.569	[*A*]it[*R*]can not be detected[*A*]with the seismic wavelengths typically available from surface-seismic measurements	context()	negated: True ,passive: True
+0.943	[*A*]the thickness of this layer[*R*]is[*A*]in the decimeter range	context()	negated: False ,passive: True
+[LINE#88]However, this layer is known to be a significant constraint to fluid migration due to its low permeability (Wiese et al., 2010).This cemented sandstone layer is absent in the second observation well Ktzi202/2007, where only one sandstone layer is observed, which is situated at a distance of only 112m away from the injection well.
+0.769	[*A*]only one sandstone layer[*R*]is observed	context()	negated: False ,passive: False
+0.841	[*A*]This cemented sandstone layer[*R*]is[*A*]absent	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]cemented[*A*]sandstone layer	context()	negated: False ,passive: False
+0.887	[*A*]this layer[*R*]to be[*A*]a significant constraint to fluid migration	context()	negated: False ,passive: True
+0.945	[*A*]well Ktzi202/2007[*R*]is situated[*A*]at a distance of only 112m away from the injection well	context()	negated: False ,passive: True
+0.732	[*A*]this layer[*R*]is known	context()	negated: False ,passive: False
+[LINE#89]This observation shows the high degree of heterogeneity in the reservoir.
+0.925	[*A*]This observation[*R*]shows[*A*]the high degree of heterogeneity in the reservoir	context()	negated: False ,passive: False
+[LINE#90]However, pumping tests have demonstrated that the three wells are hydraulically connected (Wiese et al., 2010).
+0.699	[*A*]the three wells[*R*]are hydraulically connected	context(pumping tests have demonstrated)	negated: False ,passive: False
+0.724	[*A*]pumping tests[*R*]have demonstrated[*A*]that the three wells are hydraulically connected	context()	negated: False ,passive: False
+[LINE#91]Therefore, the conceptual model presented here assumes a simple connection between the sandstone intervals in the three wells.
+0.952	[*A*]the conceptual model presented here[*R*]assumes[*A*]a simple connection between the sandstone intervals in the three wells	context()	negated: False ,passive: False
+0.783	[*A*]the conceptual model[*R*]presented[*A*]here	context()	negated: False ,passive: True
+[LINE#92]Initial reservoir conditions and rock properties within the reservoir sandstone and the surrounding mudstone are listed in Table 1.
+0.943	[*A*]rock properties within the surrounding mudstone[*R*]are listed[*A*]in Table 1	context()	negated: False ,passive: True
+0.943	[*A*]rock properties within the reservoir sandstone[*R*]are listed[*A*]in Table 1	context()	negated: False ,passive: True
+0.925	[*A*]Initial reservoir conditions[*R*]are listed[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#93]They are assumed to be spatially constant for the flow simulations.
+0.575	[*A*]They[*R*]to be[*A*]spatially constant for the flow simulations	context()	negated: False ,passive: True
+0.320	[*A*]They[*R*]are assumed	context()	negated: False ,passive: False
+[LINE#94]The model boundary was set 10km away from the injection well to ensure that the simulated flow would not be affected by the boundary conditions.
+0.857	[*A*]The model boundary[*R*]was set[*A*]10km away from the injection[*A*]well to ensure that the simulated flow would not be affected by the boundary conditions	context()	negated: False ,passive: True
+[LINE#95]The generated mesh was regularly spaced at 0.3m in the vertical direction.
+0.911	[*A*]The generated mesh[*R*]was regularly spaced[*A*]at 0.3m in the vertical direction	context()	negated: False ,passive: True
+[LINE#96]In the study area, the lateral discretization was 5.0m, but with closer spacing within a radius of 7.5m around the injection well.
+0.960	[*A*]the lateral discretization[*R*]was[*A*]5.0m[*A*]In the study area	context()	negated: False ,passive: True
+[LINE#97]To simulate the vertical injection well, the vertical permeability of the well elements was set 104 times higher than that of the reservoir sandstone, and injection was simulated at 4 elements of the well column.
+0.993	[*A*]injection[*R*]was simulated at[*A*]4 elements	context()	negated: False ,passive: False
+0.894	[*A*]injection[*R*]was simulated[*A*]at 4 elements of the well column	context()	negated: False ,passive: True
+0.847	[*A*]the vertical permeability of the well elements[*R*]was set[*A*]104 times higher than that of the reservoir sandstone	context()	negated: False ,passive: True
+[LINE#98]This approach resulted in all elements of the well column being charged.
+0.751	[*A*]the well column[*R*]being charged	context()	negated: False ,passive: False
+0.903	[*A*]This approach[*R*]resulted[*A*]in all elements of the well column	context()	negated: False ,passive: True
+[LINE#99] The injection rate was modeled at a constant rate of 2tons/h (the average rate until 1 October 2009), and 3tons/h (the average rate until 29 October 2009 during the time of the 1st repeat seismic survey).The simulations were performed using the numerical program TOUGH2 version 2.0 (.
+0.887	[*A*]The simulations[*R*]using[*A*]the numerical program TOUGH2 version 2.0	context()	negated: False ,passive: False
+0.732	[*A*]The simulations[*R*]were performed	context()	negated: False ,passive: False
+0.911	[*A*]The injection rate[*R*]was modeled[*A*]at a constant rate of 2tons/h	context()	negated: False ,passive: True
+[LINE#100] Pruess et al., 1999) with the fluid property module ECO2N, which was designed for application to the geologic sequestration of CO2 in saline aquifers (.
+0.965	[*A*]the fluid property module ECO2N[*R*]was designed[*A*]for application to the geologic sequestration of CO2 in saline aquifers	context()	negated: False ,passive: True
+[LINE#101] Two cases were considered, one where the reservoir temperature is 34C and the other where the temperature is 38C.Fig.7 displays distributions of CO2 saturation and CO2 density in the reservoir for both the 34C and 38C scenarios.
+0.960	[*A*]the temperature[*R*]is[*A*]38C.Fig.7 displays distributions of CO2 density in the reservoir for both the 38C scenarios	context()	negated: False ,passive: True
+0.960	[*A*]the temperature[*R*]is[*A*]38C.Fig.7 displays distributions of CO2 density in the reservoir for both the 34C scenarios	context()	negated: False ,passive: True
+0.960	[*A*]the temperature[*R*]is[*A*]38C.Fig.7 displays distributions of CO2 saturation in the reservoir for both the 38C scenarios	context()	negated: False ,passive: True
+0.960	[*A*]the temperature[*R*]is[*A*]38C.Fig.7 displays distributions of CO2 saturation in the reservoir for both the 34C scenarios	context()	negated: False ,passive: True
+0.828	[*A*]the reservoir temperature[*R*]is[*A*]the other	context()	negated: False ,passive: True
+0.828	[*A*]the reservoir temperature[*R*]is[*A*]34C	context()	negated: False ,passive: True
+0.732	[*A*]Two cases[*R*]were considered	context()	negated: False ,passive: False
+[LINE#102]The CO2 saturation does not differ significantly between the two scenarios (less than 5%), whereas the CO2 density is notably lower for the higher temperature case.
+0.949	[*A*]the CO2 density[*R*]is[*A*]notably lower for the higher temperature case	context()	negated: False ,passive: True
+0.803	[*A*]The CO2 saturation[*R*]does not differ significantly	context()	negated: True ,passive: False
+[LINE#103] However, the difference in CO2 density decreases with decreasing pressure (Fig. 3) and, therefore, with distance from the injection.
+0.944	[*A*]the difference in CO2 density[*R*]decreases[*A*]with decreasing pressure[*A*]therefore[*A*]with distance from the injection	context()	negated: False ,passive: True
+[LINE#104]In the vicinity of the injection well, the difference in CO2 density is up to 20% and on average 12%.
+0.966	[*A*]CO2 density[*R*]has the difference of[*A*]20 %	context()	negated: False ,passive: False
+0.973	[*A*]the difference in CO2 density[*R*]is[*A*]20 %	context()	negated: False ,passive: False
+0.974	[*A*]the vicinity of the injection well[*R*]has the difference of[*A*]20 %	context()	negated: False ,passive: False
+0.976	[*A*]the difference in CO2 density[*R*]is[*A*]up to 20% and on average 12%[*A*]In the vicinity of the injection well	context()	negated: False ,passive: True
+[LINE#105]The slight increase in CO2 saturation with the isothermal temperature of 38C follows from the small increase in pressure that, in turn, is due to a lower CO2 density.
+0.145	[*A*]that[*R*]is[*A*]due to a lower CO2 density	context(The slight increase in CO2 saturation with the isothermal temperature of 38C follows)	negated: False ,passive: True
+0.964	[*A*]The slight increase in CO2 saturation with the isothermal temperature of 38C[*R*]follows[*A*]from the small increase in pressure	context()	negated: False ,passive: True
+[LINE#106]The same mass of CO2 has to be injected and, therefore, a larger CO2 volume is present in the higher temperature case, as evident in the greater lateral extent and volume of the CO2 plume (Table 2).
+0.937	[*A*]a larger CO2 volume[*R*]is[*A*]present in the higher temperature case	context()	negated: False ,passive: True
+0.807	[*A*]The same mass of CO2[*R*]to be injected	context()	negated: False ,passive: False
+[LINE#107]With an increasing volume of the CO2 plume, the contact area between the CO2 and the formation water increases.
+[LINE#108]Seismic modelingKazemeini et al.
+[LINE#109](2010) investigated the surface seismic response at the Ketzin site to various levels of CO2 saturation in the reservoir and established petrophysical models based on Gassmann's equations (1951) for homogeneous and patchy CO2 distributions.
+0.925	[*A*]established petrophysical models[*R*]based[*A*]on Gassmann 's equations	context()	negated: False ,passive: True
+0.661	[*A*]2010[*R*]investigated[*A*]the surface seismic response at the Ketzin site to various levels of CO2 saturation in the reservoir	context()	negated: False ,passive: False
+[LINE#110]The seismic response for different CO2 distribution geometries and saturation levels were modeled using 1D elastic and 2D acoustic finite difference methods.
+0.938	[*A*]The seismic response for different saturation levels[*R*]were modeled[*A*]using 1 D 2 D acoustic finite difference methods	context()	negated: False ,passive: True
+0.816	[*A*]The seismic response for different saturation levels[*R*]were modeled	context()	negated: False ,passive: False
+0.943	[*A*]The seismic response for different CO2 distribution geometries[*R*]were modeled[*A*]using 1 D 2 D acoustic finite difference methods	context()	negated: False ,passive: True
+0.830	[*A*]The seismic response for different CO2 distribution geometries[*R*]were modeled	context()	negated: False ,passive: False
+[LINE#111] In this contribution, forward modeling of the synthetic seismic response has been carried out using the reflectivity method (Wang, 1999) while incorporating results from petrophysical experiments (Kummerow and Spangenberg, 2011; Ivanova et al., 2012) and PNG logging (.
+0.957	[*A*]forward modeling of the synthetic seismic response[*R*]has been carried out[*A*]In this contribution	context()	negated: False ,passive: True
+[LINE#112]Henninges et al., 2011; Ivanova et al., 2012).
+[LINE#113]By using the reflectivity method, we assume that the geology around the wellbores can be approximated as 1D media (Fuchs and Mueller, 1971; Margrave and Manning, 2004).Input to the modeling consisted of the compressional wave velocity (Vp), shear wave velocity (Vs), and density () near the injection well obtained from borehole logging data (Fig. 4).
+0.870	[*A*]1 D media[*R*]consisted[*A*]of the compressional wave velocity	context(we assume)	negated: False ,passive: True
+0.920	[*A*]the geology around the wellbores[*R*]can be approximated[*A*]as 1 D media ( Margrave ) . Input	context(we assume)	negated: False ,passive: True
+0.309	[*A*]we[*R*]assume[*A*]that the geology around the wellbores can be approximated as 1 D media ( Margrave ) . Input to the modeling	context()	negated: False ,passive: False
+0.897	[*A*]Input to the modeling[*R*]consisted[*A*]of the compressional wave velocity	context(we assume)	negated: False ,passive: True
+0.903	[*A*]the modeling[*R*]consisted[*A*]of the compressional wave velocity	context()	negated: False ,passive: True
+0.905	[*A*]the geology around the wellbores[*R*]can be approximated[*A*]as 1 D media	context(we assume)	negated: False ,passive: True
+0.271	[*A*]we[*R*]assume[*A*]that the geology around the wellbores can be approximated as 1 D media	context()	negated: False ,passive: False
+0.959	[*A*]1 D media ( Fuchs ) . Input to the modeling[*R*]consisted[*A*]of the compressional wave velocity	context(we assume)	negated: False ,passive: True
+0.920	[*A*]the geology around the wellbores[*R*]can be approximated[*A*]as 1 D media ( Fuchs	context(we assume)	negated: False ,passive: True
+0.309	[*A*]we[*R*]assume[*A*]that the geology around the wellbores can be approximated as 1 D media ( Fuchs	context()	negated: False ,passive: False
+0.903	[*A*]the injection[*R*]well obtained[*A*]from borehole	context()	negated: False ,passive: True
+[LINE#114]Vp and  were vertically averaged from the logs to remove high frequency fluctuations.
+[LINE#115]Vs values from the well Ktzi202/2007 were vertically averaged over the main lithological units (Frster et al., 2010).
+0.920	[*A*]Ktzi202/2007[*R*]were vertically averaged[*A*]over the main lithological units	context()	negated: False ,passive: True
+[LINE#116]The resulting Vs model was linearly interpolated to the injection well using the interpreted lithological horizons after Kling (2011).
+0.939	[*A*]The resulting Vs model[*R*]was linearly interpolated[*A*]to the injection	context()	negated: False ,passive: True
+[LINE#117]The input wavelet was extracted from the 3D seismic baseline data (Juhlin et al., 2007) (Fig. 4), yielding a dominant frequency of 40Hz.
+0.925	[*A*]The input wavelet[*R*]was extracted[*A*]from the 3D seismic baseline data	context()	negated: False ,passive: True
+[LINE#118] Seismic modeling with the reflectivity method using the previously described Vp, Vs and density models as input parameters resulted in a synthetic trace corresponding to a 3D surface seismic baseline trace near the injection 4).In order to study the impact of a variable degree of CO2 saturation in a reservoir layer of constant thickness and the impact of a variable reservoir thickness at constant CO2 saturation near the injectionwell we applied fluid substitution models for Vp, Vs and  and repeated the seismic modeling for each case.
+0.498	[*A*]we[*R*]applied[*A*]fluid substitution models for Vs	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]applied[*A*]fluid substitution models for Vp	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]repeated[*A*]the seismic modeling	context()	negated: False ,passive: False
+0.903	[*A*]input parameters[*R*]resulted[*A*]in a synthetic trace	context()	negated: False ,passive: True
+0.943	[*A*]the reflectivity method[*R*]using[*A*]density models[*A*]as input parameters resulted in a synthetic trace corresponding to a 3 D surface seismic baseline trace near the injection 4 ) . In order	context()	negated: False ,passive: False
+0.925	[*A*]the reflectivity method[*R*]using[*A*]Vs	context()	negated: False ,passive: False
+0.943	[*A*]a synthetic trace[*R*]corresponding[*A*]to a 3 D surface seismic baseline trace near the injection 4	context()	negated: False ,passive: True
+0.921	[*A*]Seismic modeling with the reflectivity method[*R*]resulted[*A*]in a synthetic trace	context()	negated: False ,passive: True
+0.925	[*A*]the reflectivity method[*R*]using[*A*]the previously described Vp	context()	negated: False ,passive: False
+[LINE#119] Results from petrophysical experiments on two core samples from the target reservoir (Kummerow and Spangenberg, 2011;.
+[LINE#120]Ivanova et al., 2012) showed a near linear relationship between Vp and the CO2 saturation (Fig. 5).
+[LINE#121] A least-squares fit of the data yields the following equation:(1)VpVp=-0.46S(CO2)where Vp/.
+[LINE#122] Vp is the relative change of Vp and S(CO2)is the corresponding level of CO2 saturation, respectively.
+0.864	[*A*]S[*R*]is[*A*]the corresponding level of CO2 saturation[*A*]respectively	context(Vp is)	negated: False ,passive: True
+0.862	[*A*]Vp[*R*]is[*A*]the relative change of	context()	negated: False ,passive: True
+0.930	[*A*]the relative change of Vp[*R*]is respectively[*A*]the corresponding level of CO2 saturation	context(Vp is)	negated: False ,passive: True
+0.924	[*A*]Vp[*R*]is[*A*]the relative change of Vp ( CO2 ) is the corresponding level of CO2 saturation , respectively	context()	negated: False ,passive: True
+[LINE#123]This relationship was then used to scale the baseline Vp model in the reservoir layer.
+0.905	[*A*]This relationship[*R*]to scale[*A*]the baseline Vp model in the reservoir layer	context()	negated: False ,passive: False
+0.954	[*A*]This relationship[*R*]was used[*A*]to scale the baseline Vp model in the reservoir layer[*A*]then	context()	negated: False ,passive: True
+[LINE#124] At Ketzin, the average velocity from ultra-sonic laboratory experiments with 100% formation brine saturation (three measurements on two samples) is 3135 m/s, while on the logging data the average P-wave velocity is 3012m/s in the three wells at the Ketzin site in the reservoir sands.
+0.128	[*A*]Ketzin[*R*]has the average velocity of[*A*]3135 m /	context()	negated: False ,passive: False
+0.973	[*A*]the average velocity from ultra-sonic laboratory experiments with 100 % formation brine saturation ( three measurements on two samples )[*R*]is[*A*]3135 m /	context()	negated: False ,passive: False
+0.948	[*A*]the average P-wave velocity[*R*]is[*A*]3012m/s	context()	negated: False ,passive: True
+0.990	[*A*]the average velocity from ultra-sonic laboratory experiments with 100% formation brine saturation[*R*]is[*A*]3135 m/s[*A*]while on the logging data the average P-wave velocity is 3012m/s in the three wells at the Ketzin site in the reservoir sands[*A*]At Ketzin	context()	negated: False ,passive: True
+[LINE#125]This velocity is close to what is observed on crosshole seismic data between the two observation wells.
+0.952	[*A*]This velocity[*R*]is[*A*]close to what is observed on crosshole seismic data between the two observation wells	context()	negated: False ,passive: True
+[LINE#126] Although velocity dispersion is probably present in the Ketzin reservoir rocks, we do not consider it to be large enough to considerably affect interpretation of our time-lapse seismic data (Ivanova et al.,2012).The petrophysical experiments by Kummerow and Spangenberg (2011) showed that Vs is almost unaffected by CO2/brine fluid substitution.
+0.355	[*A*]it[*R*]to be[*A*]large enough to considerably affect interpretation of our time - lapse seismic data	context(we do not consider)	negated: False ,passive: True
+0.355	[*A*]we[*R*]do not consider[*A*]it to be large enough to considerably affect interpretation of our time - lapse seismic data	context()	negated: True ,passive: False
+0.274	[*A*]it[*R*]to considerably affect[*A*]interpretation of our time - lapse seismic data	context()	negated: False ,passive: False
+0.937	[*A*]velocity dispersion[*R*]is[*A*]probably[*A*]present in the Ketzin reservoir rocks	context()	negated: False ,passive: True
+[LINE#127]Therefore, we used an unchanged baseline Vs model (Fig. 4) throughout the modeling.
+0.452	[*A*]we[*R*]used[*A*]an unchanged baseline[*A*]throughout the modeling	context()	negated: False ,passive: False
+[LINE#128] The density of the composite fluid (the brine and the CO2) was calculated by the following equation:(2)fluid=brine(1-SCO2CO2)where fluid is the density of the composite fluid, brine is the formation brine density - 1164.59kg/m3 (after Kummerow and Spangenberg, 2011), SCO2 is CO2 saturation and CO2 is the CO2 density at the injection well at the time of the 3D seismic repeat acquisition - 266.62kg/m3 after Ivanova et al.
+0.958	[*A*]CO2[*R*]is[*A*]the CO2 density at the injection well at the time of the 3 D seismic repeat acquisition	context(SCO2 is)	negated: False ,passive: True
+0.976	[*A*]SCO2[*R*]is[*A*]CO2 is the CO2 density at the injection well at the time of the 3 D seismic repeat acquisition[*A*]after Spangenberg , 2011	context()	negated: False ,passive: True
+0.896	[*A*]brine[*R*]is[*A*]the formation brine density - 1164.59kg / m3	context(SCO2 is)	negated: False ,passive: True
+0.962	[*A*]SCO2[*R*]is[*A*]CO2 saturation after Ivanova et al[*A*]after Spangenberg , 2011	context()	negated: False ,passive: True
+0.947	[*A*]SCO2[*R*]is CO2 is[*A*]the CO2 density at the injection well at the time of the 3 D seismic repeat acquisition	context(SCO2 is)	negated: False ,passive: True
+0.969	[*A*]brine[*R*]is[*A*]the formation brine density - 1164.59kg / m3 ( after Kummerow[*A*]where fluid is the density of the composite fluid	context(SCO2 is)	negated: False ,passive: True
+0.936	[*A*]SCO2[*R*]is[*A*]CO2	context()	negated: False ,passive: True
+0.945	[*A*]brine[*R*]is[*A*]the formation brine density - 1164.59kg / m3 ( after Kummerow	context(SCO2 is)	negated: False ,passive: True
+0.936	[*A*]SCO2[*R*]is[*A*]CO2 saturation after Ivanova et al	context()	negated: False ,passive: True
+0.918	[*A*]fluid[*R*]is[*A*]the density of the composite fluid	context()	negated: False ,passive: True
+[LINE#129] We used the porosities () from borehole logging (Frster et al., 2010) for the calculation of bulk densities in the brine/CO2 saturated reservoir units using:(3)sat=fluid+(1-)matrixwhere matrix is the density of the matrix which can be calculated using the density of the rock fully saturated with brine satbrine by the equation:(4)matrix= satbrine-brine1-Based on these equations, the modeled decrease in density due to CO2 injection in the reservoir near the injection well in the autumn of 2009 was approximately 4% (at 50% CO2 saturation).The impact of a variable degree of CO2 saturation in a reservoir layer of constant thickness and the impact of a variable reservoir thickness at constant CO2 saturation are illustrated with Fig..
+[LINE#130]The latter case considers a CO2 saturation level of 50%, which is the average value of measured CO2 saturation at the injection well during the acquisition of the 3D seismic repeat survey (Ivanova et al., 2012).
+0.953	[*A*]50%[*R*]is[*A*]the average value of measured CO2 saturation at the injection	context()	negated: False ,passive: True
+0.925	[*A*]The latter case[*R*]considers[*A*]a CO2 saturation level of 50%	context()	negated: False ,passive: False
+[LINE#131](1), this yields a relative change in Vp of about -25%.
+0.543	[*A*]this[*R*]yields[*A*]a relative change in Vp of about -25%	context()	negated: False ,passive: False
+[LINE#132] Considering that the average baseline Vp is 3142m/s, the average time-lapse Vp used for the CO2 response modeling is then 2372m/s.
+0.968	[*A*]Considering that the average baseline Vp is 3142m/s[*R*]is[*A*]then[*A*]2372m/s	context()	negated: False ,passive: True
+0.913	[*A*]3142m/s[*R*]used[*A*]for the CO2 response modeling	context()	negated: False ,passive: True
+[LINE#133] Both the amplitude changes and "push-down effects" (up to 6ms) can be observed in the synthetic data for the case of increasing the thickness of the CO2 layer (Fig..
+0.949	[*A*]push - down effects[*R*]can be observed[*A*]in the synthetic data[*A*]for the case of increasing the thickness of the CO2 layer	context()	negated: False ,passive: True
+0.952	[*A*]the amplitude changes[*R*]can be observed[*A*]in the synthetic data for the case of increasing the thickness of the CO2 layer	context()	negated: False ,passive: True
+[LINE#134]The amplitude change for variable reservoir thickness further shows a "tuning effect" over the range of thicknesses tested.
+0.713	[*A*]thicknesses[*R*]tested	context()	negated: False ,passive: False
+0.964	[*A*]The amplitude change for variable reservoir thickness[*R*]shows[*A*]a "tuning effect" over the range of thicknesses	context()	negated: False ,passive: False
+[LINE#135]The time window used for this amplitude calculation is 515-540ms.
+0.973	[*A*]The time window used for this amplitude calculation[*R*]is[*A*]515 -540ms	context()	negated: False ,passive: False
+0.957	[*A*]The time window used for this amplitude calculation[*R*]is[*A*]515-540ms	context()	negated: False ,passive: True
+0.911	[*A*]The time window[*R*]used[*A*]for this amplitude calculation	context()	negated: False ,passive: True
+[LINE#136]Maximum tuning occurs at approximately 20m (Fig. 6b).
+0.903	[*A*]Maximum tuning[*R*]occurs[*A*]at approximately 20m	context()	negated: False ,passive: True
+[LINE#137] Arrival time delays of wave coda from below the reservoir reach values of up to 6ms for both cases (Fig..
+[LINE#138] The push-down velocity time delay is nearly linear with increasing CO2 saturation in Fig. 6a and with increasing layer thickness in Fig..
+0.960	[*A*]The push-down velocity time delay[*R*]is[*A*]nearly linear with increasing CO2 saturation in Fig	context()	negated: False ,passive: True
+[LINE#139]Temperature effects on the seismic dataIn order to investigate the impact of temperature in the reservoir on the 4D seismic data at the Ketzin site, the CO2 saturation and CO2 density, as well as the thickness of the CO2 layer obtained by multiphase fluid flow simulations were used as input to seismic modeling (see Section 2 of this paper).
+0.968	[*A*]the thickness of the CO2 layer[*R*]were used[*A*]as input to seismic modeling ( see Section 2 of this paper	context()	negated: False ,passive: True
+0.933	[*A*]the CO2 layer[*R*]obtained[*A*]by multiphase fluid flow simulations	context()	negated: False ,passive: True
+0.961	[*A*]CO2 density[*R*]were used[*A*]as input to seismic modeling ( see Section 2 of this paper	context()	negated: False ,passive: True
+0.964	[*A*]the CO2 saturation[*R*]were used[*A*]as input to seismic modeling ( see Section 2 of this paper	context()	negated: False ,passive: True
+[LINE#140]Porosity was assumed to be constant in the reservoir (20%) for modeling the temperature effects on the seismic data.
+0.877	[*A*]Porosity[*R*]to be[*A*]constant[*A*]in the reservoir	context()	negated: False ,passive: True
+0.713	[*A*]Porosity[*R*]was assumed	context()	negated: False ,passive: False
+[LINE#141]It is well known that the seismic velocity in sandstones saturated with brine does not depend on temperatures in the range of 34-38C (e.g. Mavko, 2005).
+0.910	[*A*]the seismic velocity in sandstones[*R*]does not depend[*A*]on temperatures in the range of 34-38C	context(It is known)	negated: True ,passive: False
+0.112	[*A*]It[*R*]is known	context()	negated: False ,passive: False
+0.894	[*A*]sandstones[*R*]saturated[*A*]with brine	context()	negated: False ,passive: True
+[LINE#142] To demonstrate this we calculated the difference in Vp between both temperature scenarios present at the Ketzin site at the time of the 1st 3D seismic repeat campaign (Ivanova et al., 2012) using Gassmann's equations.
+0.934	[*A*]Ivanova et al[*R*]using[*A*]Gassmann's equations	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]calculated[*A*]the difference in Vp between both temperature scenarios present at the Ketzin site at the time of the 1st 3D seismic repeat campaign	context()	negated: False ,passive: False
+[LINE#143] The resulting difference between the scenarios in Vp is less than 5.
+0.913	[*A*]The resulting difference between the scenarios in Vp[*R*]is[*A*]less than 5	context()	negated: False ,passive: True
+[LINE#144] Considering the uncertainties (e.g. 5% error in CO2 saturation) in the petrophysical experiments (Kummerow and Spangenberg, 2011; Ivanova et al., 2012) corresponding to, we did not take into account the Vp changes (Fig. 5, Eq.
+0.498	[*A*]we[*R*]did not take[*A*]into account[*A*]the Vp changes	context()	negated: True ,passive: False
+[LINE#145] (1)) due to the different temperature scenarios ( 34 and 38C).The resulting synthetic seismic differences(Fig. 8) of both the 34C and 38C options look very similar and also show some similarity to the real data, also shown in Fig. 8.
+[LINE#146]The synthetic difference (repeat-base) seismograms from near the top of the reservoir agree reasonably well with the real difference seismograms (repeat-base) for the Ktzi201/2007 and Ktzi200/2007 wells reported by Ivanova et al.
+0.983	[*A*]by Ivanova et al[*R*]reported[*A*]the Ktzi200/2007 wells	context()	negated: False ,passive: False
+0.986	[*A*]The synthetic difference ( repeat - base ) seismograms from near the top of the reservoir[*R*]agree reasonably well[*A*]with the real difference seismograms ( repeat - base ) for the Ktzi200/2007 wells	context()	negated: False ,passive: False
+0.983	[*A*]by Ivanova et al[*R*]reported[*A*]the Ktzi201/2007 wells	context()	negated: False ,passive: False
+0.986	[*A*]The synthetic difference ( repeat - base ) seismograms from near the top of the reservoir[*R*]agree reasonably well[*A*]with the real difference seismograms ( repeat - base ) for the Ktzi201/2007 wells	context()	negated: False ,passive: False
+[LINE#147]However, obvious disagreements are found at the Ktzi202/2007 well, which may be due to the fact that the velocity model used at this location is not sufficiently correct.
+0.842	[*A*]the velocity model used at this location[*R*]is not[*A*]sufficiently correct	context()	negated: True ,passive: True
+0.911	[*A*]the velocity model[*R*]used[*A*]at this location	context()	negated: False ,passive: True
+0.822	[*A*]obvious disagreements[*R*]may be[*A*]due to the fact that the velocity model used at this location is not sufficiently correct	context()	negated: False ,passive: True
+0.916	[*A*]obvious disagreements[*R*]are found well[*A*]at the Ktzi202/2007	context()	negated: False ,passive: True
+[LINE#148] Seismic amplitude differences between the 38C and 34C scenarios correspond to less than 1% of the amplitude values of the baseline.
+0.976	[*A*]Seismic amplitude differences between the 38C and 34C scenarios[*R*]correspond[*A*]to less than 1% of the amplitude values of the baseline	context()	negated: False ,passive: True
+[LINE#149] Since the normalized root mean square (NRMS) differences in the 3D time-lapse data are greater than 10%these temperature effects in the reservoir will not be resolvable with surface seismic methods at the Ketzin site.
+0.943	[*A*]these temperature effects in the reservoir[*R*]will not be[*A*]resolvable with surface seismic methods at the Ketzin site	context()	negated: True ,passive: True
+0.973	[*A*]square (NRMS) differences in the 3D time-lapse data[*R*]are[*A*]greater than 10%	context()	negated: False ,passive: True
+0.751	[*A*]the normalized root[*R*]mean	context()	negated: False ,passive: False
+[LINE#150]Although it is not possible to determine the reservoir temperature from the seismic data, the temperature does have a significant impact when estimating the volume of CO2 injected based on the above modeling.
+0.818	[*A*]the volume of CO2[*R*]injected	context()	negated: False ,passive: False
+0.918	[*A*]the temperature[*R*]does have[*A*]a significant impact[*A*]when estimating the volume of CO2	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]is not[*A*]possible[*A*]to determine the reservoir temperature from the seismic data	context()	negated: True ,passive: True
+[LINE#151]We show this here by applying the method of volumetric estimation of Ivanova et al.
+0.333	[*A*]We[*R*]show this by applying[*A*]the method of volumetric estimation of Ivanova et al	context(We show)	negated: False ,passive: False
+0.229	[*A*]We[*R*]show[*A*]this[*A*]here	context()	negated: False ,passive: False
+[LINE#152](2012) to both the 34C and 38C reservoir temperature scenarios.
+[LINE#153]We calculate minimum and maximum limits for the two temperature cases based on the bounds suggested by the total amount of injected CO2 for the period in which the repeat survey was active over the injection area (1 October 2009 to 28 October 2009) in this study.
+0.385	[*A*]the repeat survey[*R*]was active over[*A*]the injection area	context()	negated: False ,passive: False
+0.960	[*A*]the repeat survey[*R*]was[*A*]active[*A*]the period	context()	negated: False ,passive: True
+0.947	[*A*]the bounds[*R*]suggested[*A*]by the total amount of injected CO2 for the period	context()	negated: False ,passive: True
+0.919	[*A*]the two temperature cases[*R*]based[*A*]on the bounds	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]calculate[*A*]minimum and maximum limits for the two temperature cases	context()	negated: False ,passive: False
+[LINE#154](2012) results of two PNG logging runs before and after the 1st seismic 3D repeat campaign were averaged for minimum and maximum scenarios.
+0.943	[*A*]the 1 st seismic 3 D repeat campaign[*R*]were averaged[*A*]for maximum scenarios	context()	negated: False ,passive: True
+0.943	[*A*]the 1 st seismic 3 D repeat campaign[*R*]were averaged[*A*]for minimum scenarios	context()	negated: False ,passive: True
+[LINE#155]9 shows the resulting CO2 mass distribution maps for both temperature cases and reveals that they look similar to that from Ivanova et al.
+0.360	[*A*]they[*R*]look[*A*]similar to that from Ivanova et al	context(9 reveals)	negated: False ,passive: False
+0.159	[*A*]9[*R*]reveals[*A*]that they look similar to that from Ivanova et al	context()	negated: False ,passive: False
+0.612	[*A*]9[*R*]shows[*A*]the resulting CO2 mass distribution maps for both temperature cases	context()	negated: False ,passive: False
+[LINE#156]The minimum total mass (25.6 kilotons) and the maximum total mass (29.3 kilotons) for the 34C option are considerably higher than the amount of injected CO2 at the time of the repeat survey in 2009 (21.1-24.2 kilotons).
+0.983	[*A*]The minimum total mass (25.6 kilotons) and the maximum total mass (29.3 kilotons) for the 34C option[*R*]are[*A*]considerably higher than the amount of	context()	negated: False ,passive: True
+[LINE#157]However, for the 38C option, the minimum mass (22.3 kilotons) and maximum mass (22.8 kilotons) are completely within the bounds of the amount of injected CO2 (21.1-24.2 kilotons) and match well with the CO2 mass estimation from Ivanova et al.
+0.971	[*A*]the minimum mass (22.3 kilotons) and maximum mass[*R*]are[*A*]completely[*A*]within the bounds of the amount of injected CO2 (21.1-24.2 kilotons) and match well with the CO2 mass estimation from Ivanova et al	context()	negated: False ,passive: True
+[LINE#158]These calculations confirm that the impact of reservoir temperature is considerable when trying to quantify the amount of CO2 in the subsurface and that it needs to be accurately estimated.
+0.225	[*A*]it[*R*]needs[*A*]to be accurately estimated	context()	negated: False ,passive: False
+0.170	[*A*]it[*R*]to be accurately estimated	context()	negated: False ,passive: False
+0.962	[*A*]the impact of reservoir temperature[*R*]is[*A*]considerable[*A*]when trying to quantify the amount of CO2 in the subsurface	context(These calculations confirm)	negated: False ,passive: True
+0.740	[*A*]These calculations[*R*]confirm[*A*]that the impact of reservoir temperature is considerable when trying to quantify the amount of CO2 in the subsurface and that it needs to be accurately estimated	context()	negated: False ,passive: False
+[LINE#159]Based on these calculations it appears that a significant portion of the reservoir containing CO2 was at 38C at the time of the repeat survey in 2009.
+0.918	[*A*]the reservoir[*R*]containing[*A*]CO2	context()	negated: False ,passive: False

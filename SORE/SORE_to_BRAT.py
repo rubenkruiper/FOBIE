@@ -4,13 +4,33 @@ from SORE.my_utils.filter_utils import get_stats_filtered, get_stats_unfiltered
 
 
 class BratConverter():
+    """
+    Encapsulates the paths to convert SORE filtered files to BRAT annotations (for visualisation of results).
+    """
     def __init__(self, paths_to_datasets, narrowIE_path, SORE_processed_path, BRAT_output_path):
+        """
+        Initialise BratConverter with relevant paths.
+
+        :param paths_to_datasets: List of paths to unprocessed data sets. Can be used to retrieve document meta-data, such as
+            the category of a document in the OA-STM corpus. If these categories are found, the stats per category will be printed.
+        :param narrowIE_path: Path to CSV file with narrow IE extractions.
+        :param SORE_processed_path: Path to directory with the files that were filtered with SORE. Unfiltered json-files
+            can be found here as well, so that the entire document can be converted to BRAT (not just filtered sentences).
+        :param BRAT_output_path: Path to write the output .ann and .txt files for visualisation with BRAT
+        """
         self.paths_to_datasets = paths_to_datasets
         self.narrowIE_csv = narrowIE_path
         self.SORE_path = SORE_processed_path
         self.BRAT_output_path = BRAT_output_path
 
     def get_complete_span(self, w_list, sentence):
+        """
+        Determine the string in the original sentence spanned by the first and last word of an argument-list.
+
+        :param w_list: List of words for an argument.
+        :param sentence: Sentence from which the argument was extracted.
+        :return: The string in the sentence that corresponds to the argument-list.
+        """
         str_to_search = None
         w_list = [w for w in w_list if w not in [")", "("]]
         if len(w_list) == 1:
@@ -28,12 +48,13 @@ class BratConverter():
 
     def prep_ann_line(self, span_type, text, sentence, sent_start_idx, span_counter):
         """
+        Prepare a line that should be written to the .ann file, for a given span.
 
-        :param text: span found by OIE/SORE
-        :param sentence: sentence string
-        :param sent_start_idx: index of the sentence start in the whole document
-        :param span_counter: index of the previous span in the whole document
-        :return:
+        :param text: A span of text (argument represented as string) found by SORE (or OpenIE if relevant lines are uncommented).
+        :param sentence: String with the sentence from the original input, in which the span was found.
+        :param sent_start_idx: Index of the sentence start in the whole document
+        :param span_counter: Index of the previous span annotation in the whole document
+        :return: The line to write to an .ann file, and the updated span_counter
         """
         rel_match = None
         if text and text in sentence:
@@ -59,6 +80,16 @@ class BratConverter():
 
     def convert_NIE_annotations(self, sentence, narrowIE_args, sent_start_idx,
                                 span_counter, rel_counter):
+        """
+        Converts the narrow IE annotations for a sentence to a list of annotations to write to the .ann file.
+
+        :param sentence: String with input sentence.
+        :param narrowIE_args: Argument phrases found through narrow IE in that sentence.
+        :param sent_start_idx: Index of the sentence start in the whole document
+        :param span_counter: Index of the previous span annotation in the whole document
+        :param rel_counter: Index of the previous relation annotation in the whole document
+        :return: Lines to write for the narrow IE extractions in this sentence, and updated counters.
+        """
         lines_to_write = []
 
         narrowIE_unique_args = []
@@ -90,11 +121,17 @@ class BratConverter():
     def convert_OIE_annotations(self, sentence, annotations, sent_start_idx,
                                 span_counter, event_counter, attribute_counter):
         """
-        Convert a single extraction to a list of spans, events and attributes
-        :param sentence: OIE sentence
-        :param annotations: SORE extractions
-        :return: list of [spans, event, attributes] and relevant character-based indices
+        Converts an Open IE  extraction (after/before filtering) for a sentence to a list of annotations to write.
+
+        :param sentence: String with input sentence.
+        :param annotations: One of possibly multiple Open IE extraction for this sentence
+        :param sent_start_idx: Index of the sentence start in the whole document
+        :param span_counter: Index of the previous span annotation in the whole document
+        :param event_counter: Index of the previous Open IE event annotation in the whole document
+        :param attribute_counter: Index of the previous event attribute in the whole document
+        :return: Lines to write for one Open IE extraction in this sentence, and updated counters.
         """
+
         lines_to_write = []
         attributes = []
 
@@ -168,12 +205,20 @@ class BratConverter():
 
 
     def parse_argument_list(self, string_list):
+        """
+        Parses a narrow IE argument from the narrow IE CSV file (duplicate of narrowIE_parser).
+
+        :param string_list: String that holds the list of arguments in the CSV file.
+        :return: List of argument-phrases
+        """
         return [x[1: -1] for x in string_list[1: -1].split(", ")]
 
 
     def convert_to_BRAT(self, prefix):
         """
-        Convert the SORE annotations to BRAT annotations, simply highlighting spans for now.
+        Convert the SORE extractions to BRAT annotations.
+
+        :param prefix: Experiment name prefix for SORE files to convert.
         """
         dataset = {}
         for dataset_path in self.paths_to_datasets:
@@ -302,7 +347,6 @@ class BratConverter():
 
                 with open(txt_file, 'w') as f:
                     f.write(all_sentences)
-                print('Halt!!!, have to write already')
 
         for category in OIE_dicts_per_category.keys():
             print("\nCATEGORY:  {}".format(category))

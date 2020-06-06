@@ -1,0 +1,694 @@
+[LINE#1]-water corals are associated with high local biodiversity, but despite their importance as ecosystem engineers, little is known about how these organisms will respond to projected ocean acidification.
+0.903	[*A*]these organisms[*R*]will respond[*A*]to projected ocean acidification	context()	negated: False ,passive: False
+0.657	[*A*]little[*R*]is known[*A*]about how these organisms will respond to projected ocean acidification	context()	negated: False ,passive: True
+0.911	[*A*]- water corals[*R*]are associated[*A*]with high local biodiversity	context()	negated: False ,passive: True
+[LINE#2]Since preindustrial times, average ocean pH has decreased from 8.2 to ~8.1, and predicted CO2 emissions will decrease by up to another 0.3 pH units by the end of the century.
+0.940	[*A*]CO2 emissions[*R*]will decrease[*A*]by up to another 0.3 pH units by the end of the century	context(average ocean pH predicted)	negated: False ,passive: True
+0.969	[*A*]average ocean pH[*R*]predicted[*A*]CO2 emissions will decrease by up to another 0.3 pH units by the end of the century[*A*]Since preindustrial times	context()	negated: False ,passive: False
+0.961	[*A*]average ocean pH[*R*]has decreased[*A*]from 8.2[*A*]to ~8.1[*A*]Since preindustrial times	context()	negated: False ,passive: True
+[LINE#3]This decrease in pH may have a wide range of impacts upon marine life, and in particular upon calcifiers such as cold-water corals.
+0.939	[*A*]This decrease in pH[*R*]may have[*A*]a wide range of impacts upon marine life	context()	negated: False ,passive: False
+[LINE#4]Lophelia pertusa is the most widespread cold-water coral (CWC) species, frequently found in the North Atlantic.
+0.965	[*A*]the most widespread cold-water coral[*R*]found[*A*]in the North Atlantic[*A*]frequently	context()	negated: False ,passive: True
+0.970	[*A*]Lophelia pertusa[*R*]is[*A*]the most widespread cold-water coral (CWC) species, frequently found in the North Atlantic	context()	negated: False ,passive: True
+[LINE#5] Here, we present the first short-term (21 days) data on the effects of increased CO2(750ppm) upon the metabolism of freshly collected L. pertusa from Mingulay Reef Complex, Scotland, for comparison with net calcification.
+0.595	[*A*]we[*R*]present[*A*]the first short-term[*A*]Here	context()	negated: False ,passive: False
+[LINE#6]Over 21 days, corals exposed to increased CO2 conditions had significantly lower respiration rates (11.41.39 SE, molO2g-1tissuedryweighth-1) than corals in control conditions (28.67.30 SE molO2g-1tissuedryweighth-1).
+0.177	[*A*]corals exposed to increased CO2 conditions[*R*]had lower respiration rates of[*A*]11.41.39 se	context()	negated: False ,passive: False
+0.988	[*A*]corals exposed to increased CO2 conditions[*R*]had[*A*]significantly lower respiration rates (11.41.39 SE, molO2g-1tissuedryweighth-1) than corals in control conditions[*A*]Over 21 days	context()	negated: False ,passive: False
+0.911	[*A*]corals[*R*]exposed[*A*]to increased CO2 conditions	context()	negated: False ,passive: True
+[LINE#7]There was no corresponding change in calcification rates between treatments, measured using the alkalinity anomaly technique and 14C uptake.
+0.877	[*A*]treatments[*R*]measured[*A*]using the alkalinity anomaly technique and 14C uptake	context()	negated: False ,passive: True
+[LINE#8]The decrease in respiration rate and maintenance of calcification rate indicates an energetic imbalance, likely facilitated by utilisation of lipid reserves.
+0.960	[*A*]The decrease in maintenance of calcification rate[*R*]indicates[*A*]an energetic imbalance , likely facilitated by utilisation of lipid reserves	context()	negated: False ,passive: False
+0.952	[*A*]The decrease in respiration rate[*R*]indicates[*A*]an energetic imbalance , likely facilitated by utilisation of lipid reserves	context()	negated: False ,passive: False
+[LINE#9]These data from freshly collected L. pertusa from the Mingulay Reef Complex will help define the impact of ocean acidification upon the growth, physiology and structural integrity of this key reef framework forming species.
+0.976	[*A*]These data from freshly collected L. pertusa from the Mingulay Reef Complex[*R*]will help define[*A*]the impact of ocean acidification upon the structural integrity of this key reef framework	context(These data from freshly collected L. pertusa from the Mingulay Reef Complex will help)	negated: False ,passive: False
+0.976	[*A*]These data from freshly collected L. pertusa from the Mingulay Reef Complex[*R*]will help[*A*]define the impact of ocean acidification upon the structural integrity of this key reef framework	context()	negated: False ,passive: False
+0.919	[*A*]this key reef framework[*R*]forming[*A*]species	context()	negated: False ,passive: False
+0.962	[*A*]These data from freshly collected L. pertusa from the Mingulay Reef Complex[*R*]will help define[*A*]the impact of ocean acidification upon the physiology	context(These data from freshly collected L. pertusa from the Mingulay Reef Complex will help)	negated: False ,passive: False
+0.962	[*A*]These data from freshly collected L. pertusa from the Mingulay Reef Complex[*R*]will help[*A*]define the impact of ocean acidification upon the physiology	context()	negated: False ,passive: False
+0.962	[*A*]These data from freshly collected L. pertusa from the Mingulay Reef Complex[*R*]will help define[*A*]the impact of ocean acidification upon the growth	context(These data from freshly collected L. pertusa from the Mingulay Reef Complex will help)	negated: False ,passive: False
+0.962	[*A*]These data from freshly collected L. pertusa from the Mingulay Reef Complex[*R*]will help[*A*]define the impact of ocean acidification upon the growth	context()	negated: False ,passive: False
+[LINE#10], calcification and ocean acidificationLophelia pertusa respiration rate was significantly lower in fragments exposed to increased CO2 than in control fragments after 2 weeks.
+0.957	[*A*]ocean acidificationLophelia pertusa respiration rate[*R*]was[*A*]significantly lower[*A*]in fragments	context()	negated: False ,passive: True
+0.911	[*A*]fragments[*R*]exposed[*A*]to increased CO2	context()	negated: False ,passive: True
+0.957	[*A*]calcification acidificationLophelia pertusa respiration rate[*R*]was[*A*]significantly lower[*A*]in fragments	context()	negated: False ,passive: True
+[LINE#11]Metabolic respiration is needed to produce ATP, which in turn is used to support energy-requiring processes (Al-Horani et al., 2003).
+0.833	[*A*]ATP[*R*]is used[*A*]to support energy-requiring processes	context()	negated: False ,passive: True
+0.918	[*A*]Metabolic respiration[*R*]is needed[*A*]to produce ATP	context()	negated: False ,passive: True
+[LINE#12]This includes calcification, tissue production, mucus-production (Wild et al., 2009) (which accounts for a large proportion of tropical corals' carbon budget (Muscatine et al., 1984)) and driving the transport protein Ca2+ATP-ase.
+0.950	[*A*]Wild et al[*R*]accounts[*A*]for a large proportion of tropical corals ' carbon budget	context()	negated: False ,passive: False
+0.381	[*A*]This[*R*]includes[*A*]calcification , tissue production , mucus - production	context()	negated: False ,passive: True
+[LINE#13] This transport protein is essential for calcification to occur, as it actively pumps Ca2+ ions into the sub-calicoblastic space in exchange for H+ ions, thereby increasing Ca2+ concentration and making conditions favourable for calcification to occur by increasing pH.
+0.452	[*A*]it[*R*]actively pumps[*A*]into the sub-calicoblastic space in exchange for H+ ions	context()	negated: False ,passive: False
+0.713	[*A*]calcification[*R*]to occur	context()	negated: False ,passive: False
+0.828	[*A*]This transport protein[*R*]is[*A*]essential	context()	negated: False ,passive: True
+[LINE#14]The decreased respiration found in the present study under acidified conditions may indicate a decreased requirement of ATP production by L. pertusa under increased levels of CO2 after a few weeks.
+0.977	[*A*]The decreased respiration found in the present study under acidified conditions[*R*]may indicate[*A*]a decreased requirement of ATP production by L. pertusa under increased levels of CO2 after a few weeks	context()	negated: False ,passive: False
+0.911	[*A*]The decreased respiration[*R*]found[*A*]in the present study under acidified conditions	context()	negated: False ,passive: True
+[LINE#15] This may be due to a change in energetic requirements, a reallocation of resources, or changing metabolic pathways.
+0.381	[*A*]This[*R*]may be[*A*]due to a change in energetic requirements	context()	negated: False ,passive: True
+[LINE#16]Form and Riebesell (2012) noted discrepancies in L. pertusa physiology between very short (24h) and longer-term (months) experiments; whereby responses observed during the first 24h were no longer exhibited after some months.
+0.958	[*A*]Riebesell ( 2012[*R*]noted[*A*]discrepancies in L. pertusa physiology between very short ( 24 h ) and longer - term ( months ) experiments	context()	negated: False ,passive: False
+0.894	[*A*]Form[*R*]noted[*A*]discrepancies in L. pertusa physiology between very short ( 24 h ) and longer - term ( months ) experiments	context()	negated: False ,passive: False
+[LINE#17]This indicates that L. pertusa may have both 'shock' and acclimation responses to changes in CO2 conditions.
+0.924	[*A*]L. pertusa[*R*]may have[*A*]acclimation responses to changes in CO2 conditions	context(This indicates)	negated: False ,passive: False
+0.258	[*A*]This[*R*]indicates[*A*]that L. pertusa may have acclimation responses to changes in CO2 conditions	context()	negated: False ,passive: False
+0.910	[*A*]L. pertusa[*R*]may have[*A*]both ' shock	context(This indicates)	negated: False ,passive: False
+0.178	[*A*]This[*R*]indicates[*A*]that L. pertusa may have both ' shock	context()	negated: False ,passive: False
+[LINE#18]The two-week period observed here before any noticeable differences were observed between experimental and control fragments may indicate a switching of metabolic pathways cued by extended exposure to elevated CO2.However, due to coral respiration in closed-system experimental chambers, it is likely that there will have been a significant rise in CT and corresponding decrease in pH during the respiration incubation periods (Form and Riebesell, 2012).
+0.947	[*A*]metabolic pathways[*R*]cued[*A*]by extended exposure to elevated CO2.However , due to coral respiration in closed - system experimental chambers	context()	negated: False ,passive: True
+0.911	[*A*]any noticeable differences[*R*]were observed[*A*]between experimental and control fragments	context()	negated: False ,passive: True
+0.952	[*A*]The two - week period[*R*]observed[*A*]here[*A*]before any noticeable differences were observed between experimental and control fragments	context()	negated: False ,passive: True
+[LINE#19]Although unquantified in this experiment, reductions in pH may have matched those reported by Maier et al.
+0.863	[*A*]by Maier et al[*R*]reported[*A*]those	context()	negated: False ,passive: False
+[LINE#20](2009) where decreases over 24h (in smaller vessels) ranged from 0.1-0.5 pH units.
+0.949	[*A*]2009) where decreases over 24h (in smaller vessels[*R*]ranged[*A*]from 0.1-0.5 pH units	context()	negated: False ,passive: True
+[LINE#21]For low pH treatments (such as the 750ppm), reductions could be potentially larger due to the reduced buffering capacity.
+0.894	[*A*]reductions[*R*]could be[*A*]potentially larger due to the reduced buffering capacity	context()	negated: False ,passive: True
+[LINE#22]Although this is important to consider, the fact that respiration was not significantly lower than T0 in the experimental treatment at T+7 days, but only after 14 days, indicates that it was likely to be a result of experimental conditions rather than changes during incubations.
+0.457	[*A*]it[*R*]was[*A*]likely to be a result of changes during incubations	context(the fact that respiration was not significantly lower than T0 in the experimental treatment at T+7 days only indicates)	negated: False ,passive: True
+0.928	[*A*]the fact that respiration was not significantly lower than T0 in the experimental treatment at T+7 days[*R*]only indicates[*A*]that it was likely to be a result of changes during incubations[*A*]after 14 days	context()	negated: False ,passive: False
+0.411	[*A*]it[*R*]to be[*A*]a result of changes during incubations	context()	negated: False ,passive: True
+0.457	[*A*]it[*R*]was[*A*]likely to be a result of experimental conditions	context(the fact that respiration was not significantly lower than T0 in the experimental treatment at T+7 days only indicates)	negated: False ,passive: True
+0.928	[*A*]the fact that respiration was not significantly lower than T0 in the experimental treatment at T+7 days[*R*]only indicates[*A*]that it was likely to be a result of experimental conditions[*A*]after 14 days	context()	negated: False ,passive: False
+0.911	[*A*]respiration[*R*]was not[*A*]significantly lower than T0[*A*]in the experimental treatment[*A*]at T+7 days	context()	negated: True ,passive: True
+0.411	[*A*]it[*R*]to be[*A*]a result of experimental conditions	context()	negated: False ,passive: True
+[LINE#23]This is supported by observations that there are no significant differences in respiration rates in corals in the first 30min of respiration incubation compared to after T+4h in the same incubation water (Hennige, S., personal observation).Respiration rates for L. pertusa documented in this study are higher than those reported by Dodds et al.
+0.330	[*A*]This[*R*]is supported[*A*]by observations	context(Respiration rates for L. pertusa are)	negated: False ,passive: True
+0.595	[*A*]Respiration rates for L. pertusa[*R*]are[*A*]higher than those	context()	negated: False ,passive: True
+0.863	[*A*]by Dodds et al[*R*]reported[*A*]those	context()	negated: False ,passive: False
+0.927	[*A*]L. pertusa[*R*]documented[*A*]in this study	context()	negated: False ,passive: True
+[LINE#24]However, this experiment was conducted on freshly collected L. pertusa fragments, and not on colonies kept in aquaria conditions for several months.
+0.918	[*A*]this experiment[*R*]was conducted[*A*]on freshly collected L. pertusa fragments	context()	negated: False ,passive: True
+[LINE#25]Indeed, respiration rates by Dodds et al.
+[LINE#26](2007) are very comparable to rates observed in L. pertusa fragments that have been maintained in aquaria at Heriot-Watt University for more than a year (Hennige, S., personal observation).
+0.934	[*A*]L. pertusa fragments[*R*]have been maintained[*A*]in aquaria[*A*]at Heriot-Watt University[*A*]for more than a year	context()	negated: False ,passive: True
+0.911	[*A*]rates[*R*]observed[*A*]in L. pertusa fragments	context()	negated: False ,passive: True
+0.503	[*A*]2007[*R*]are[*A*]very comparable to rates	context()	negated: False ,passive: True
+[LINE#27]This is likely due to the feeding limitations of aquaria in comparison to the in situ food supply.
+0.567	[*A*]This[*R*]is[*A*]likely due to the feeding limitations of aquaria in comparison to the in situ food supply	context()	negated: False ,passive: True
+[LINE#28]Freshly collected fragments will be acclimated to the conditions they were removed from in situ, but may exhibit an unquantified and unknown element of stress due to collection and pressure differences.
+0.568	[*A*]Freshly collected[*R*]may exhibit[*A*]an unknown element of stress[*A*]due to pressure differences	context()	negated: False ,passive: False
+0.568	[*A*]Freshly collected[*R*]may exhibit[*A*]an unknown element of stress due to collection differences	context()	negated: False ,passive: False
+0.568	[*A*]Freshly collected[*R*]may exhibit[*A*]an unquantified element of stress[*A*]due to pressure differences	context()	negated: False ,passive: False
+0.568	[*A*]Freshly collected[*R*]may exhibit[*A*]an unquantified element of stress due to collection differences	context()	negated: False ,passive: False
+0.616	[*A*]they[*R*]were removed[*A*]from in situ	context()	negated: False ,passive: True
+0.911	[*A*]Freshly collected fragments[*R*]will be acclimated[*A*]to the conditions	context()	negated: False ,passive: True
+[LINE#29]However, while long-term aquarium fragments may not have any unknown 'stress' and can be kept at very specific conditions, they may be acclimated to some unrepresentative aquarium conditions.
+0.616	[*A*]they[*R*]may be acclimated[*A*]to some unrepresentative aquarium conditions	context()	negated: False ,passive: True
+0.926	[*A*]long - term aquarium fragments[*R*]may not have[*A*]any unknown ' stress	context()	negated: True ,passive: False
+[LINE#30]Both approaches are equally valid but it has to be considered that freshly collected corals may not always exhibit similar physiological responses to long-term aquarium corals.
+0.767	[*A*]Both approaches[*R*]are[*A*]equally valid	context()	negated: False ,passive: True
+[LINE#31]Results here were normalised to AFDM in preference to polyp number, as respiration rates of fragments from both treatments significantly correlated with tissue mass, and not polyp number.
+0.918	[*A*]Results here[*R*]were normalised[*A*]to AFDM[*A*]as respiration rates of fragments	context()	negated: False ,passive: True
+0.903	[*A*]both treatments[*R*]significantly correlated[*A*]with tissue mass	context()	negated: False ,passive: True
+0.918	[*A*]Results here[*R*]were normalised[*A*]to AFDM[*A*]in preference to polyp number[*A*]as respiration rates of fragments from both treatments	context()	negated: False ,passive: True
+[LINE#32]Although coral polyps are the centres of heterotrophic feeding, dry tissue weight, which includes both polyp tissue and the surrounding coenosarc (which also respires), is therefore a potentially more useful normalisation parameter than polyp number.
+0.971	[*A*]dry tissue weight , which includes the surrounding coenosarc ( which also respires )[*R*]is[*A*]therefore[*A*]a potentially more useful normalisation parameter than polyp number	context()	negated: False ,passive: True
+0.718	[*A*]the surrounding coenosarc[*R*]respires	context()	negated: False ,passive: False
+0.897	[*A*]dry tissue weight[*R*]includes[*A*]the surrounding coenosarc ( which also respires	context()	negated: False ,passive: True
+0.954	[*A*]dry tissue weight , which includes both polyp tissue[*R*]is[*A*]therefore[*A*]a potentially more useful normalisation parameter than polyp number	context()	negated: False ,passive: True
+0.897	[*A*]dry tissue weight[*R*]includes[*A*]both polyp tissue	context()	negated: False ,passive: True
+0.903	[*A*]coral polyps[*R*]are[*A*]the centres of heterotrophic feeding	context()	negated: False ,passive: True
+[LINE#33]The relationship between AFDM and dry coral weight means that dry skeletal weight can provide a convenient proxy of tissue weight, without the need to kill the coral.
+0.891	[*A*]dry skeletal weight[*R*]can provide[*A*]a convenient proxy of tissue weight	context(The relationship between AFDM and dry coral weight means)	negated: False ,passive: False
+0.914	[*A*]The relationship between AFDM and dry coral weight[*R*]means[*A*]that dry skeletal weight can provide a convenient proxy of tissue weight, without the need	context()	negated: False ,passive: False
+[LINE#34] Net calcification rates as measured by the alkalinity anomaly technique and 14C uptake, did not differ between control and experimental fragments, even though experimental fragments were at a much lower aragonite saturation level.
+0.962	[*A*]Net calcification rates as measured by 14C uptake[*R*]did not differ[*A*]even though experimental fragments were at a much lower aragonite saturation level	context()	negated: True ,passive: True
+0.958	[*A*]Net calcification rates as measured by the alkalinity anomaly technique[*R*]did not differ[*A*]even though experimental fragments were at a much lower aragonite saturation level	context()	negated: True ,passive: True
+[LINE#35]This complements a 24-h study by Maier et al.
+[LINE#36](2012) and a longer-term experiment by Form and Riebesell (2012), where growth rates of L. pertusa did not significantly change under different CO2 conditions.
+0.832	[*A*]growth rates of L. pertusa[*R*]did not significantly change	context()	negated: True ,passive: False
+[LINE#37]The stable net calcification rates reported in this study are in contrast to the reduced respiration in experimental fragments.
+0.948	[*A*]The stable net calcification rates reported in this study[*R*]are[*A*]in contrast to the reduced respiration in experimental fragments	context()	negated: False ,passive: True
+0.926	[*A*]The stable net calcification rates[*R*]reported[*A*]in this study	context()	negated: False ,passive: True
+[LINE#38]This suggests an energetic imbalance between the production of ATP, and the use of ATP to actively provide Ca2+ needed for calcification.
+0.920	[*A*]Ca2+[*R*]needed[*A*]for calcification	context()	negated: False ,passive: True
+0.949	[*A*]the use of ATP[*R*]to actively provide[*A*]Ca2+	context()	negated: False ,passive: False
+0.425	[*A*]This[*R*]suggests[*A*]an energetic imbalance between the production of ATP	context()	negated: False ,passive: False
+[LINE#39]In a recent study, Kaniewska et al.
+[LINE#40](2012) found that under high CO2 conditions, metabolic activity in the tropical coral Acropora millepora was suppressed after a period of weeks, and changes were observed in genes regulating membrane cytoskeletal interactions and cytoskeletal remodelling.
+0.894	[*A*]genes[*R*]regulating[*A*]cytoskeletal remodelling	context()	negated: False ,passive: False
+0.894	[*A*]genes[*R*]regulating[*A*]membrane cytoskeletal interactions	context()	negated: False ,passive: False
+0.919	[*A*]2012 ) found changes[*R*]were observed[*A*]in genes	context()	negated: False ,passive: True
+[LINE#41](2012) also indicated a possible breakdown of lipid reserves, which could provide the energy needed to maintain net calcification rates even with suppressed metabolism as observed.
+0.937	[*A*]the energy[*R*]needed[*A*]to maintain net calcification rates even with suppressed metabolism as observed	context()	negated: False ,passive: True
+0.921	[*A*]a possible breakdown of lipid reserves[*R*]could provide[*A*]the energy needed	context()	negated: False ,passive: False
+[LINE#42]This highlights the importance of considering energetic budgets and wider cellular processes in studies such as this (Findlay et al., 2009; Kaniewska et al. 2012).
+0.543	[*A*]This[*R*]highlights[*A*]the importance of considering wider cellular processes in studies such as this ( Findlay et al . , 2009	context()	negated: False ,passive: False
+0.381	[*A*]This[*R*]highlights[*A*]the importance of considering energetic budgets	context()	negated: False ,passive: False
+[LINE#43]coral dry weight between fragments exposed here to ambient and 750ppm conditions did not indicate any major change in tissue mass in coral fragments from either treatment.
+0.944	[*A*]coral dry weight between fragments[*R*]did not indicate[*A*]any major change in tissue mass in coral fragments from either treatment	context()	negated: True ,passive: False
+0.894	[*A*]fragments[*R*]exposed[*A*]here[*A*]to ambient and 750ppm conditions	context()	negated: False ,passive: True
+[LINE#44]However, it is probable that an increase in lipid breakdown would not be apparent through changes in tissue mass over this relatively short time period.
+[LINE#45]Net calcification rates reported here from the alkalinity anomaly technique are comparable to previously published rates by Maier et al.
+0.896	[*A*]anomaly technique[*R*]are[*A*]comparable to previously published rates by Maier et al	context(Net calcification rates reported)	negated: False ,passive: True
+0.938	[*A*]Net calcification rates[*R*]reported[*A*]here from the alkalinity[*A*]anomaly technique are comparable to previously published rates by Maier et al	context()	negated: False ,passive: False
+[LINE#46](2012, 2009), and Form and Riebesell (2012).
+[LINE#47]Net calcification rates reported here for L. pertusa were slightly lower than those reported by Maier et al.
+0.863	[*A*]by Maier et al[*R*]reported[*A*]those	context()	negated: False ,passive: False
+0.744	[*A*]Net calcification rates reported here for L. pertusa[*R*]were[*A*]slightly lower than those	context()	negated: False ,passive: True
+0.925	[*A*]Net calcification rates[*R*]reported[*A*]here[*A*]for L. pertusa	context()	negated: False ,passive: True
+[LINE#48](2009) where 45Ca was used to determine net calcification, within variability of alkalinity anomaly derived data in Maier et al.
+0.906	[*A*]45Ca[*R*]to determine[*A*]net calcification	context()	negated: False ,passive: False
+[LINE#49](2012), and slightly higher than those reported in Form and Riebesell (2012).
+0.269	[*A*]those[*R*]reported[*A*]in Riebesell ( 2012	context()	negated: False ,passive: True
+0.083	[*A*]those[*R*]reported	context()	negated: False ,passive: False
+[LINE#50]Net calcification rates in L. pertusa are often highly variable, even within studies where fragments are collected from the same locale and time of year.
+0.938	[*A*]fragments[*R*]are collected[*A*]from the time of year[*A*]studies	context()	negated: False ,passive: True
+0.938	[*A*]fragments[*R*]are collected[*A*]from the same locale of year[*A*]studies	context()	negated: False ,passive: True
+0.868	[*A*]Net calcification rates in L. pertusa[*R*]are[*A*]often[*A*]highly variable	context()	negated: False ,passive: True
+[LINE#51]It is perhaps expected then, that differences exist between L. pertusa from different reefs, depths, and age.
+0.887	[*A*]differences[*R*]exist[*A*]between L. pertusa[*A*]from different reefs, depths, and age	context(It is expected)	negated: False ,passive: True
+0.127	[*A*]It[*R*]is expected[*A*]then	context()	negated: False ,passive: True
+[LINE#52]Further differences may be elicited through irregular growth episodes or 'spurts' (Form and Riebesell, 2012; Mortensen et al., 2001), which is typical in scleractinian corals.
+0.732	[*A*]Further differences[*R*]may be elicited	context()	negated: False ,passive: False
+[LINE#53]The calcification rates measured by 14C uptake were significantly lower than rates calculated through the alkalinity anomaly technique.
+0.713	[*A*]rates[*R*]calculated	context()	negated: False ,passive: False
+0.953	[*A*]The calcification rates measured by 14C uptake[*R*]were[*A*]significantly lower than rates	context()	negated: False ,passive: True
+0.925	[*A*]The calcification rates[*R*]measured[*A*]by 14C uptake	context()	negated: False ,passive: True
+[LINE#54]This is not surprising, as labelled bicarbonate is not guaranteed to be taken up solely into the coral skeleton as calcium carbonate, and its uptake can be significantly less than 45Ca (Marshall and Wright, 1998).
+0.994	[*A*]It[*R*]can have uptake of[*A*]less than 45ca	context()	negated: False ,passive: False
+0.143	[*A*]This[*R*]is not[*A*]surprising	context(its uptake can be)	negated: True ,passive: True
+0.620	[*A*]its uptake[*R*]can be[*A*]significantly less than 45Ca	context()	negated: False ,passive: True
+0.887	[*A*]labelled bicarbonate[*R*]to be taken up solely[*A*]into the coral skeleton as calcium carbonate	context()	negated: False ,passive: True
+0.732	[*A*]labelled bicarbonate[*R*]is not guaranteed	context()	negated: True ,passive: False
+0.497	[*A*]This[*R*]is not[*A*]surprising[*A*]as labelled bicarbonate is not guaranteed to be taken up solely into the coral skeleton as calcium carbonate	context()	negated: True ,passive: True
+[LINE#55]The reduction in 14C uptake from time zero to the end of the experiment in both control and experimental fragments indicates that some physiological process may have altered during this time.
+0.891	[*A*]some physiological process[*R*]may have altered[*A*]during this time	context(The reduction in 14C uptake from time zero to the end of the experiment in both experimental fragments indicates)	negated: False ,passive: True
+0.965	[*A*]The reduction in 14C uptake from time zero to the end of the experiment in both experimental fragments[*R*]indicates[*A*]that some physiological process may have altered during this time	context()	negated: False ,passive: False
+0.891	[*A*]some physiological process[*R*]may have altered[*A*]during this time	context(The reduction in 14C uptake from time zero to the end of the experiment in both control indicates)	negated: False ,passive: True
+0.962	[*A*]The reduction in 14C uptake from time zero to the end of the experiment in both control[*R*]indicates[*A*]that some physiological process may have altered during this time	context()	negated: False ,passive: False
+[LINE#56]This may indicate a degree of acclimation to tank conditions (changing food source/change in circulation) that may have impacted the control of internal coral chemistry and cellular processes, so less 14C bicarbonate was incorporated into the skeleton.
+0.949	[*A*]tank conditions ( changing food source / change in circulation )[*R*]may have impacted[*A*]the control of cellular processes	context()	negated: False ,passive: False
+0.897	[*A*]so less 14C bicarbonate[*R*]was incorporated[*A*]into the skeleton	context(This may indicate)	negated: False ,passive: True
+0.321	[*A*]This[*R*]may indicate[*A*]a degree of acclimation	context()	negated: False ,passive: False
+0.949	[*A*]tank conditions ( changing food source / change in circulation )[*R*]may have impacted[*A*]the control of internal coral chemistry	context()	negated: False ,passive: False
+[LINE#57]Non-quantified changes in carbonate chemistry during radioisotope experimental incubations may also have impacted upon these calcification rates.
+0.923	[*A*]Non-quantified changes in carbonate chemistry during radioisotope experimental incubations[*R*]may have impacted[*A*]upon these calcification rates	context()	negated: False ,passive: False
+[LINE#58]Considering the similarity of 14C incubations to the 45Ca incubations by Maier et al.
+[LINE#59](2009), it is possible that pH may have changed during incubations by up to 0.5 units, even though incubations here were four times shorter.
+[LINE#60]However, considering that calcification rates (as measured through the alkalinity anomaly technique) did not change over the course of the 21 days, it is likely the reduction in 14C uptake from T0 represents experimentally induced and not incubation induced changes.
+0.278	[*A*]it[*R*]is[*A*]likely	context()	negated: False ,passive: True
+[LINE#61]In general, the impact of ocean acidification upon scleractinian corals; both tropical and cold, seems to be inconsistent, with different species exhibiting negative (Ohde and Hossain, 2004), no measureable response (Reynaud et al., 2003), or variable responses (Gattuso et al., 1998) to a change in conditions (Wicks and Roberts, 2012).
+0.767	[*A*]different species[*R*]exhibiting[*A*]negative	context()	negated: False ,passive: False
+0.284	[*A*]both tropical and cold[*R*]seems	context()	negated: False ,passive: False
+[LINE#62]This is further complicated by suggestions that corals may be more or less susceptible to ocean acidification depending upon their ontogenetic stage.
+0.835	[*A*]ocean acidification[*R*]depending[*A*]upon their ontogenetic stage	context()	negated: False ,passive: False
+0.894	[*A*]corals[*R*]may be[*A*]more or less susceptible to ocean acidification	context()	negated: False ,passive: True
+0.190	[*A*]This[*R*]is complicated[*A*]by suggestions that corals may be more or less susceptible to ocean acidification	context()	negated: False ,passive: True
+[LINE#63](2010) demonstrated that the tropical coral Acropora palmata is negatively impacted by increasing CO2 with respect to fertilisation, settlement of larvae, and growth of juveniles.
+0.893	[*A*]the tropical coral[*R*]is negatively impacted[*A*]by increasing CO2 with respect to growth of juveniles	context(2010 demonstrated)	negated: False ,passive: True
+0.363	[*A*]2010[*R*]demonstrated[*A*]that the tropical coral Acropora palmata is negatively impacted by increasing CO2 with respect to growth of juveniles	context()	negated: False ,passive: False
+0.913	[*A*]the tropical coral[*R*]by increasing[*A*]CO2[*A*]with respect to growth of juveniles	context()	negated: False ,passive: False
+0.893	[*A*]the tropical coral[*R*]is negatively impacted[*A*]by increasing CO2 with respect to settlement of larvae	context(2010 demonstrated)	negated: False ,passive: True
+0.363	[*A*]2010[*R*]demonstrated[*A*]that the tropical coral Acropora palmata is negatively impacted by increasing CO2 with respect to settlement of larvae	context()	negated: False ,passive: False
+0.913	[*A*]the tropical coral[*R*]by increasing[*A*]CO2[*A*]with respect to settlement of larvae	context()	negated: False ,passive: False
+0.893	[*A*]the tropical coral[*R*]is negatively impacted[*A*]by increasing CO2 with respect to fertilisation	context(2010 demonstrated)	negated: False ,passive: True
+0.363	[*A*]2010[*R*]demonstrated[*A*]that the tropical coral Acropora palmata is negatively impacted by increasing CO2 with respect to fertilisation	context()	negated: False ,passive: False
+0.913	[*A*]the tropical coral[*R*]by increasing[*A*]CO2[*A*]with respect to fertilisation	context()	negated: False ,passive: False
+[LINE#64]Impacts on these aspects in L. pertusa, and indeed any CWC remain unknown to date.
+0.927	[*A*]any CWC[*R*]remain[*A*]unknown to date	context()	negated: False ,passive: True
+[LINE#65]Scleractinian responses to ocean acidification may also not be observable in physiology, and may be enacted through changes in biomineralisation (Cohen and Holcomb, 2009; Holcomb et al., 2010).
+0.771	[*A*]Scleractinian[*R*]may be enacted	context()	negated: False ,passive: False
+0.890	[*A*]Scleractinian responses to ocean acidification[*R*]may not be[*A*]observable[*A*]in physiology	context()	negated: True ,passive: True
+[LINE#66]However, when comparing existing ocean acidification studies, care has to be taken, as methodologies often differ with respect to length of exposure to increased CO2 levels, the speed at which organisms are subjected to change (instantly versus increasing intermediate levels) and the way in which pH is reduced, i.e. acid addition versus CO2 bubbling (Wicks and Roberts, 2012).
+0.818	[*A*]methodologies[*R*]differ[*A*]often	context()	negated: False ,passive: True
+0.677	[*A*]care[*R*]to be taken	context()	negated: False ,passive: False
+0.677	[*A*]organisms[*R*]to change	context()	negated: False ,passive: False
+0.634	[*A*]pH[*R*]is reduced	context()	negated: False ,passive: False
+0.931	[*A*]organisms[*R*]are subjected[*A*]to change (instantly versus increasing intermediate levels) and the way	context()	negated: False ,passive: True
+[LINE#67]A particularly interesting area for future focus may be whether the internal pH upregulation noted in certain coral species (Anagnostou et al., 2012; McCulloch et al., 2012a; McCulloch et al., 2012b; Venn et al., 2009) is consistent across species, and across different simulated future conditions..
+0.940	[*A*]McCulloch et al[*R*]is[*A*]consistent across species	context()	negated: False ,passive: True
+0.939	[*A*]the internal pH upregulation[*R*]noted[*A*]in certain coral species	context()	negated: False ,passive: False
+0.967	[*A*]A particularly interesting area for future focus[*R*]may be[*A*]whether the internal pH upregulation noted in certain coral species	context()	negated: False ,passive: True
+[LINE#68]Environmental conditions at MingulayThe increases observed in CT and AT from the surface to the reef crest were primarily driven by increasing salinity with depth.
+0.938	[*A*]MingulayThe increases[*R*]observed[*A*]in AT[*A*]from the surface to the reef crest	context()	negated: False ,passive: True
+0.903	[*A*]Environmental conditions at MingulayThe increases[*R*]were driven[*A*]by increasing salinity with depth	context()	negated: False ,passive: True
+0.938	[*A*]MingulayThe increases[*R*]observed[*A*]in CT[*A*]from the surface to the reef crest	context()	negated: False ,passive: True
+[LINE#69]When normalised to a salinity of 35, AT decreased from the surface to the reef.
+0.913	[*A*]AT[*R*]decreased[*A*]from the surface[*A*]to the reef[*A*]When normalised to a salinity of 35	context()	negated: False ,passive: True
+[LINE#70]Proximity to the reef, where active calcification is occurring, would explain this decrease in alkalinity through calcification (Kleypas and Langdon, 2006), as for every mole of CaCO3 produced by the coral, total alkalinity of the water decreases by two moles.
+0.926	[*A*]total alkalinity of the water[*R*]decreases[*A*]by two moles	context()	negated: False ,passive: True
+0.939	[*A*]every mole of CaCO3[*R*]produced[*A*]by the coral	context()	negated: False ,passive: True
+0.949	[*A*]Proximity to the reef[*R*]would explain[*A*]this decrease[*A*]as for every mole of CaCO3 produced by the coral, total alkalinity of the water decreases by two moles	context()	negated: False ,passive: False
+0.933	[*A*]active calcification[*R*]is occurring[*A*]the reef	context()	negated: False ,passive: True
+[LINE#71]Differences observed between normalised CT indicate that there is either an addition of CT at the reef, or a drawdown of CT at the surface.
+0.713	[*A*]Differences[*R*]observed[*A*]between normalised CT[*A*]indicate that there is either an addition of CT at the reef, or a drawdown of CT at the surface	context()	negated: False ,passive: False
+[LINE#72]This may be a combination of phytoplankton photosynthesis at the surface (Riebesell, 2004), and respiration from the coral reef, which would act to increase CT.
+0.889	[*A*]the coral reef[*R*]would act to increase[*A*]CT	context(the coral reef would act)	negated: False ,passive: False
+0.889	[*A*]the coral reef[*R*]would act[*A*]to increase CT	context()	negated: False ,passive: False
+0.381	[*A*]This[*R*]may be[*A*]a combination of phytoplankton photosynthesis at the surface	context()	negated: False ,passive: True
+[LINE#73]It has been noted in tropical corals that as Aragonite decreases from 3 or 4 (Kleypas and Langdon, 2006) to ca. 2, significant reduction in calcification rates can occur (Wicks and Roberts, 2012).
+0.745	[*A*]significant reduction in calcification rates[*R*]can occur	context(It has been noted)	negated: False ,passive: False
+0.397	[*A*]It[*R*]has been noted[*A*]in tropical corals	context()	negated: False ,passive: True
+0.957	[*A*]Aragonite[*R*]decreases[*A*]from 3 or 4 (Kleypas and Langdon, 2006[*A*]to ca	context()	negated: False ,passive: True
+[LINE#74] The Aragonite at Mingulay (Table 1), which is considered relatively shallow for a Lophelia pertusa reef(Roberts et al., 2006), is about half that of many tropical reefs (Kleypas and Langdon, 2006).
+0.987	[*A*]The Aragonite at Mingulay ( Table 1 ) , which is considered relatively shallow for a Lophelia pertusa reef ( Roberts et al . , 2006[*R*]is[*A*]Langdon , 2006	context()	negated: False ,passive: True
+0.835	[*A*]The Aragonite at Mingulay[*R*]is	context()	negated: False ,passive: False
+[LINE#75]However, Aragonite is still >1, so dissolution should not occur.
+0.713	[*A*]dissolution[*R*]should not occur	context()	negated: True ,passive: False
+0.834	[*A*]Aragonite[*R*]has However of[*A*]1	context()	negated: False ,passive: False
+0.973	[*A*]Aragonite[*R*]is[*A*]1	context()	negated: False ,passive: False
+0.843	[*A*]Aragonite[*R*]is[*A*]still[*A*]1	context()	negated: False ,passive: True
+[LINE#76] At Mingulay Reef, corals experience a periodic downwelling of surface water.
+0.948	[*A*]corals[*R*]experience[*A*]a periodic downwelling of surface water[*A*]At Mingulay Reef	context()	negated: False ,passive: False
+[LINE#77]Recently characterised in terms of changing seawater carbonate chemistry (Findlay et al., 2013), this surface water will bring with it an influx of food from the surface, as well as periods of warmer water.
+0.899	[*A*]this surface water[*R*]will bring[*A*]with it[*A*]an influx of food from the periods of warmer water	context()	negated: False ,passive: False
+0.848	[*A*]this surface water[*R*]will bring[*A*]with it[*A*]an influx of food from the surface	context()	negated: False ,passive: False
+[LINE#78]Thus, corals at Mingulay are exposed to regularly fluctuating water conditions, both in terms of temperature and also water chemistry.
+0.957	[*A*]corals at Mingulay[*R*]are exposed[*A*]to regularly fluctuating water conditions , both in terms of also water chemistry	context()	negated: False ,passive: True
+0.957	[*A*]corals at Mingulay[*R*]are exposed[*A*]to regularly fluctuating water conditions , both in terms of temperature	context()	negated: False ,passive: True
+[LINE#79]This raises the possibility that corals at Mingulay may have higher tolerance for changing seawater conditions than those in more stable, bathyal environments.
+0.891	[*A*]corals at Mingulay[*R*]may have[*A*]higher tolerance for changing seawater conditions than those in more stable, bathyal environments	context()	negated: False ,passive: False
+0.302	[*A*]This[*R*]raises[*A*]the possibility that corals at Mingulay may have higher tolerance for changing seawater conditions than those in more stable, bathyal environments	context()	negated: False ,passive: False
+[LINE#80]These and related questions form the basis of on-going investigations. .
+0.937	[*A*]These and related questions[*R*]form[*A*]the basis of on-going investigations	context()	negated: False ,passive: False
+[LINE#81]From this experiment, we present the first short-term data on the effects of increased CO2, (750ppm) upon the metabolism of freshly collected L. pertusa from Mingulay Reef Complex, Scotland, and its comparison with net calcification rates.
+0.614	[*A*]we[*R*]present[*A*]the first short - term data on the effects of increased CO2	context()	negated: False ,passive: False
+[LINE#82]The sustained net calcification rates of L. pertusa under elevated CO2 conditions corresponds with other studies, but the observed decrease in respiration rate highlights an energetic imbalance, whereby L. pertusa may be forced to use energetic reserves to maintain calcification rates.
+0.892	[*A*]L. pertusa[*R*]to use energetic reserves to maintain[*A*]calcification rates	context(L. pertusa to use)	negated: False ,passive: False
+0.892	[*A*]L. pertusa[*R*]to use[*A*]energetic reserves[*A*]to maintain calcification rates	context()	negated: False ,passive: False
+0.964	[*A*]the observed decrease in respiration rate[*R*]highlights[*A*]an energetic imbalance , whereby L. pertusa may be forced to use energetic reserves to maintain calcification rates	context()	negated: False ,passive: False
+0.971	[*A*]The sustained net calcification rates of L. pertusa under elevated CO2 conditions[*R*]corresponds[*A*]with other studies	context()	negated: False ,passive: True
+[LINE#83]However, the observed decrease in respiration in response to ocean acidification is potentially detrimental in the longer term, as expending energetic reserves is a finite strategy.
+0.932	[*A*]expending energetic reserves[*R*]is[*A*]a finite strategy	context()	negated: False ,passive: True
+0.964	[*A*]the observed decrease in respiration in response to ocean acidification[*R*]is[*A*]potentially detrimental in the longer term[*A*]as expending energetic reserves is a finite strategy	context()	negated: False ,passive: True
+[LINE#84]Thus, it is crucial to perform longer-term experiments on Lophelia pertusa metabolism and growth to assess the acclimation potential, and ultimately the success, of this deep-sea ecosystem engineer to predicted increases of CO2 and warming.
+0.637	[*A*]it[*R*]is[*A*]ultimately[*A*]the success , of this deep - sea ecosystem engineer to predicted increases of warming	context()	negated: False ,passive: True
+0.678	[*A*]it[*R*]is[*A*]ultimately[*A*]the success , of this deep - sea ecosystem engineer to predicted increases of CO2	context()	negated: False ,passive: True
+[LINE#85]Finally it is important to note that the rapid rise in atmospheric CO2 is not only causing ocean acidification but warming.
+[LINE#86]Further studies examining the combined effects of warming and acidification alongside other predicted stressors are urgently needed if we are to truly appreciate the significance of global climatic change on cold-water corals and other vulnerable marine ecosystems.
+0.955	[*A*]Further studies examining the combined effects of acidification alongside other predicted stressors[*R*]are urgently needed[*A*]if we are to truly appreciate the significance of global climatic change on other vulnerable marine ecosystems	context()	negated: False ,passive: True
+0.955	[*A*]Further studies examining the combined effects of acidification alongside other predicted stressors[*R*]are urgently needed[*A*]if we are to truly appreciate the significance of global climatic change on cold - water corals	context()	negated: False ,passive: True
+0.903	[*A*]Further studies[*R*]examining[*A*]the combined effects of acidification alongside other predicted stressors	context()	negated: False ,passive: False
+0.955	[*A*]Further studies examining the combined effects of warming alongside other predicted stressors[*R*]are urgently needed[*A*]if we are to truly appreciate the significance of global climatic change on other vulnerable marine ecosystems	context()	negated: False ,passive: True
+0.422	[*A*]we[*R*]to appreciate[*A*]the significance of global climatic change on other vulnerable marine ecosystems	context()	negated: False ,passive: False
+0.569	[*A*]we[*R*]are[*A*]to truly appreciate the significance of global climatic change on other vulnerable marine ecosystems	context()	negated: False ,passive: True
+0.955	[*A*]Further studies examining the combined effects of warming alongside other predicted stressors[*R*]are urgently needed[*A*]if we are to truly appreciate the significance of global climatic change on cold - water corals	context()	negated: False ,passive: True
+0.422	[*A*]we[*R*]to appreciate[*A*]the significance of global climatic change on cold - water corals	context()	negated: False ,passive: False
+0.569	[*A*]we[*R*]are[*A*]to truly appreciate the significance of global climatic change on cold - water corals	context()	negated: False ,passive: True
+0.903	[*A*]Further studies[*R*]examining[*A*]the combined effects of warming alongside other predicted stressors	context()	negated: False ,passive: False
+[LINE#87]corals are among the most three-dimensionally complex deep-sea habitats known and are associated with high local biodiversity (Roberts et al., 2006, 2009).
+0.945	[*A*]the most three-dimensionally complex deep-sea habitats[*R*]are associated[*A*]with high local biodiversity	context()	negated: False ,passive: True
+0.887	[*A*]the most three-dimensionally complex deep-sea habitats[*R*]known	context()	negated: False ,passive: False
+0.931	[*A*]corals[*R*]are[*A*]among the most three-dimensionally complex deep-sea habitats	context()	negated: False ,passive: True
+[LINE#88]However, their remoteness and the relatively short history of ecological research in these habitats mean that to date, we have little information on how these ecosystems will fare in the face of predicted future climate change.
+0.645	[*A*]we[*R*]have[*A*]little information on how these ecosystems will fare in the face of predicted future climate change[*A*]to date	context(their remoteness and the relatively short history of ecological research in these habitats mean)	negated: False ,passive: False
+0.555	[*A*]their remoteness and the relatively short history of ecological research in these habitats[*R*]mean[*A*]that to date, we have little information on how these ecosystems will fare in the face of predicted future climate change	context()	negated: False ,passive: False
+0.903	[*A*]these ecosystems[*R*]will fare[*A*]in the face of predicted future climate change	context()	negated: False ,passive: False
+[LINE#89]Similar to their tropical counterparts, cold-water corals (referred to as CWC herein) are under potential threat from increasing sea temperatures and ocean acidification.
+0.666	[*A*]Similar to their tropical counterparts[*R*]are[*A*]under potential threat from ocean acidification	context()	negated: False ,passive: True
+0.666	[*A*]Similar to their tropical counterparts[*R*]are[*A*]under potential threat from increasing sea temperatures	context()	negated: False ,passive: True
+[LINE#90]Ocean acidification, also referred to as the 'other CO2 problem' or the 'evil twin of global warming', is caused by CO2 dissolving into the oceans.
+[LINE#91]As atmospheric CO2 levels increase, more CO2 dissolves into the oceans and forms carbonic acid, which dissociates to form hydrogen and bicarbonate ions.
+0.858	[*A*]carbonic acid[*R*]dissociates to form[*A*]bicarbonate ions	context(carbonic acid dissociates)	negated: False ,passive: False
+0.858	[*A*]carbonic acid[*R*]dissociates[*A*]to form bicarbonate ions	context()	negated: False ,passive: False
+0.964	[*A*]more CO2[*R*]dissolves[*A*]into the forms[*A*]carbonic acid , which dissociates to form bicarbonate ions[*A*]As atmospheric CO2 levels increase	context()	negated: False ,passive: False
+0.858	[*A*]carbonic acid[*R*]dissociates to form[*A*]hydrogen	context(carbonic acid dissociates)	negated: False ,passive: False
+0.858	[*A*]carbonic acid[*R*]dissociates[*A*]to form hydrogen	context()	negated: False ,passive: False
+0.964	[*A*]more CO2[*R*]dissolves[*A*]into the forms[*A*]carbonic acid , which dissociates to form hydrogen[*A*]As atmospheric CO2 levels increase	context()	negated: False ,passive: False
+0.927	[*A*]more CO2[*R*]dissolves[*A*]into the oceans	context()	negated: False ,passive: True
+0.803	[*A*]atmospheric CO2 levels[*R*]increase	context()	negated: False ,passive: False
+[LINE#92] This process has led to a decrease in pH by 0.1 units since the industrial revolution, and increasing amounts of atmospheric CO2 are projected to further decrease ocean pHby another 0.3-0.4 pH units by the end of the century in addition to altering seawater carbonate chemistry (Caldeira and Wickett, 2003; Guinotte et al., 2006; Kleypas et al., 1999; Orr et al., 2005).
+0.873	[*A*]increasing amounts of atmospheric CO2[*R*]to decrease[*A*]ocean	context()	negated: False ,passive: False
+0.785	[*A*]increasing amounts of atmospheric CO2[*R*]are projected	context()	negated: False ,passive: False
+0.947	[*A*]This process[*R*]has led[*A*]to a decrease in pH by 0.1 units since the industrial revolution	context()	negated: False ,passive: False
+[LINE#93]The shift in carbonate chemistry associated with ocean acidification also reduces the saturation state of aragonite, which is a naturally occurring polymorph of calcium carbonate from which most framework-building corals build their skeletons.
+0.810	[*A*]calcium carbonate[*R*]build[*A*]their skeletons	context()	negated: False ,passive: True
+0.933	[*A*]the saturation state of aragonite[*R*]is[*A*]a naturally occurring polymorph of calcium carbonate	context()	negated: False ,passive: True
+0.944	[*A*]The shift in carbonate chemistry[*R*]reduces[*A*]the saturation state of aragonite, which is a naturally occurring polymorph of calcium carbonate	context()	negated: False ,passive: False
+0.903	[*A*]carbonate chemistry[*R*]associated[*A*]with ocean acidification	context()	negated: False ,passive: True
+[LINE#94] The aragonite saturation depth or 'horizon' (ASH)(Guinotte et al., 2006) is predicted to become shallower (shoal), making it more difficult for calcifying organisms near this depth to maintain their calcified structures, thus affecting net reef growth.
+[LINE#95]CWC are under particular threat as they inhabit a much larger bathymetric range than tropical corals, and as such are closer to the ASH (Fautin et al., 2009; Form and Riebesell, 2012; Guinotte et al., 2006; Kleypas, 2006; McCulloch et al., 2012a; Roberts et al., 2006; Thresher et al., 2011; Turley et al., 2007).
+0.543	[*A*]such[*R*]are[*A*]closer to the ASH ( Fautin et al . , 2009 ; Riebesell , 2012 ; Guinotte et al . , 2006 ; Kleypas , 2006 ; McCulloch et al . , 2012a ; Roberts et al . , 2006 ; Thresher et al . , 2011 ; Turley et al . , 2007	context()	negated: False ,passive: True
+0.495	[*A*]such[*R*]are closer to[*A*]the ASH ( Fautin et al	context()	negated: False ,passive: False
+0.543	[*A*]such[*R*]are[*A*]closer to the ASH ( Fautin et al . , 2009 ; Form ; Guinotte et al . , 2006 ; Kleypas , 2006 ; McCulloch et al . , 2012a ; Roberts et al . , 2006 ; Thresher et al . , 2011 ; Turley et al . , 2007	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]inhabit[*A*]a much larger bathymetric range than tropical corals	context()	negated: False ,passive: False
+0.820	[*A*]CWC[*R*]are[*A*]under particular threat[*A*]as they inhabit a much larger bathymetric range than tropical corals ; Guinotte et al . , 2006 ; Kleypas , 2006 ; McCulloch et al . , 2012a ; Roberts et al . , 2006 ; Thresher et al . , 2011 ; Turley et al . , 2007	context()	negated: False ,passive: True
+[LINE#96]Only 5% of CWC are found below the ASH at present (Form and Riebesell, 2012), as net calcification below the ASH would require considerable energetic input at the detriment of other energetic processes.
+[LINE#97]Shoaling of the horizon could thus have potentially severe consequences for CWC.To date, only a handful of studies have been conducted on the responses of Lophelia pertusa to ocean acidification.
+0.923	[*A*]only a handful of studies[*R*]have been conducted[*A*]on the responses of Lophelia pertusa to ocean acidification	context()	negated: False ,passive: True
+[LINE#98]These focus on growth rate, ranging from very short term 24 hour experiments (Maier et al., 2009) on freshly collected coral, to longer-term 6 month (Form and Riebesell, 2012) experiments on laboratory-kept specimens.
+0.913	[*A*]These focus on growth rate[*R*]ranging[*A*]from very short term 24 hour experiments	context()	negated: False ,passive: True
+[LINE#99]Ocean acidification has very varied effects on the growth of calcifying organisms, with different phyla, and even species within phyla showing highly variable responses in experimental studies to date (Ries et al., 2009; Wicks and Roberts, 2012).
+0.970	[*A*]Ocean acidification[*R*]has[*A*]very varied effects on the growth of calcifying organisms , with even species within phyla showing highly variable responses in experimental studies to date ( Ries et al . , 2009 and Roberts , 2012	context()	negated: False ,passive: False
+0.944	[*A*]Ocean acidification[*R*]has[*A*]very varied effects on the growth of calcifying organisms	context()	negated: False ,passive: False
+[LINE#100]For scleractinian corals (i.e. calcareous skeleton forming corals), many studies demonstrate a reduction in growth (net calcification rates) in response to ocean acidification (Gattuso et al., 1998; Kleypas and Langdon, 2006; Krief et al., 2010; Langdon and Atkinson, 2005; Marubini et al., 2003).
+0.903	[*A*]many studies[*R*]demonstrate[*A*]a reduction in growth ( net calcification rates	context()	negated: False ,passive: False
+0.937	[*A*]many studies[*R*]demonstrate[*A*]a reduction in growth ( net calcification rates ) in response to ocean acidification	context()	negated: False ,passive: False
+[LINE#101]However, corals can actively increase the pH in the organic matrix where calcification occurs.
+0.926	[*A*]calcification[*R*]occurs[*A*]the organic matrix	context()	negated: False ,passive: True
+0.894	[*A*]corals[*R*]can actively increase[*A*]the pH	context()	negated: False ,passive: False
+[LINE#102]Thus even in situations where the surrounding water is undersaturated with respect to aragonite, calcification can still occur (McCulloch et al., 2012a, 2012b).
+0.892	[*A*]calcification[*R*]can occur[*A*]even in situations[*A*]still	context()	negated: False ,passive: True
+0.939	[*A*]the surrounding water[*R*]is undersaturated[*A*]situations	context()	negated: False ,passive: True
+[LINE#103]The process of increasing pH at calcification sites within corals is driven by Ca2+ATPase, which pumps Ca2+ ions into the sub-calicoblastic space in exchange for H+ ions (Allemand et al., 2004; Cohen and McConnaughey, 2003; Mass et al., 2012).
+0.939	[*A*]Ca2+ATPase[*R*]pumps[*A*]Ca2+ ions[*A*]into the sub-calicoblastic space in exchange for H+ ions	context()	negated: False ,passive: False
+0.971	[*A*]The process of increasing pH at calcification sites within corals[*R*]is driven[*A*]by Ca2+ATPase	context()	negated: False ,passive: True
+[LINE#104]However, this process is energy intensive and thus may require increased food intake (Edmunds, 2011).
+0.887	[*A*]this process[*R*]may require[*A*]increased food intake	context()	negated: False ,passive: False
+0.925	[*A*]this process[*R*]is[*A*]energy intensive	context()	negated: False ,passive: True
+[LINE#105]The low abundance of CWC below the ASH suggests that increased energetic demands cannot usually be met, and that dissolution of exposed skeletal framework may be greater that net calcification by tissue-covered skeleton.
+0.834	[*A*]that dissolution of exposed skeletal framework[*R*]may be[*A*]greater[*A*]that net calcification by tissue - covered skeleton	context()	negated: False ,passive: True
+0.738	[*A*]increased energetic demands[*R*]can not be met[*A*]usually	context(The low abundance of CWC below the ASH suggests)	negated: True ,passive: True
+0.772	[*A*]The low abundance of CWC below the ASH[*R*]suggests[*A*]that increased energetic demands can not usually be met	context()	negated: False ,passive: False
+[LINE#106]To fully understand the impact of increased CO2 on live CWC, it is important to combine growth rates with measures of metabolism, which has not been done previously.
+0.716	[*A*]metabolism[*R*]has not been done[*A*]previously	context()	negated: True ,passive: True
+[LINE#107]The research presented here addressed the question of whether ocean acidification will impact upon the metabolism and net calcification rate of the CWC Lophelia pertusa in a short-term experiment.
+0.918	[*A*]ocean acidification[*R*]will impact[*A*]upon the net calcification rate of the CWC Lophelia	context()	negated: False ,passive: False
+0.956	[*A*]The research presented here[*R*]addressed[*A*]the question of whether ocean acidification will impact upon the net calcification rate of the CWC Lophelia pertusa in a short - term experiment	context()	negated: False ,passive: False
+0.903	[*A*]ocean acidification[*R*]will impact[*A*]upon the metabolism	context()	negated: False ,passive: False
+0.948	[*A*]The research presented here[*R*]addressed[*A*]the question of whether ocean acidification will impact upon the metabolism	context()	negated: False ,passive: False
+0.767	[*A*]The research[*R*]presented[*A*]here	context()	negated: False ,passive: True
+[LINE#108]To this end, respiration and net calcification rates were calculated in corals exposed to increased CO2 conditions every 7 days for a total period of 21 days.
+0.911	[*A*]corals[*R*]exposed[*A*]to increased CO2 conditions[*A*]every 7 days[*A*]for a total period of 21 days	context()	negated: False ,passive: True
+0.957	[*A*]respiration and net calcification rates[*R*]were calculated[*A*]in corals[*A*]To this end	context()	negated: False ,passive: True
+[LINE#109] Sample collectionColonies of Lophelia pertusa were collected from Area 1 within the Mingulay Reef Complex56 49.38 N, 7 22.56 W (Figs. 1 and 2), during RRS Discovery cruise 366/7 in July 2011 (Achterberg and Richier, 2012).
+0.993	[*A*]Sample collectionColonies of Lophelia pertusa[*R*]were collected within[*A*]within 2	context()	negated: False ,passive: False
+0.953	[*A*]Sample collectionColonies of Lophelia pertusa[*R*]were collected[*A*]from Area 1[*A*]within 2[*A*]during RRS Discovery cruise 366/7 in July 2011	context()	negated: False ,passive: True
+0.953	[*A*]Sample collectionColonies of Lophelia pertusa[*R*]were collected[*A*]from Area 1[*A*]within 7 22.56 W ( Figs[*A*]during RRS Discovery cruise 366/7 in July 2011	context()	negated: False ,passive: True
+0.993	[*A*]Sample collectionColonies of Lophelia pertusa[*R*]were collected within[*A*]1 within the mingulay reef complex56 49.38 n	context()	negated: False ,passive: False
+0.953	[*A*]Sample collectionColonies of Lophelia pertusa[*R*]were collected[*A*]from Area 1[*A*]within the Mingulay Reef Complex56 49.38 N[*A*]during RRS Discovery cruise 366/7 in July 2011	context()	negated: False ,passive: True
+[LINE#110] The Mingulay complex is a relatively shallow inshore seascape of Lophelia reefs that developed through the Holocene with oldest currently dated coral from within the reef mounds at 7.68ka.
+0.928	[*A*]Lophelia reefs[*R*]developed[*A*]through the Holocene	context()	negated: False ,passive: True
+0.957	[*A*]The Mingulay complex[*R*]is[*A*]a relatively shallow inshore seascape of Lophelia reefs	context()	negated: False ,passive: True
+[LINE#111]They are the only known inshore Lophelia reef in UK waters.
+0.658	[*A*]They[*R*]are[*A*]the only known inshore Lophelia reef in UK waters	context()	negated: False ,passive: True
+[LINE#112]Colonies were collected using a modified video assisted van-Veen grab (Dodds et al., 2007).
+0.896	[*A*]Colonies[*R*]using[*A*]a modified video assisted van-Veen grab	context()	negated: False ,passive: False
+0.713	[*A*]Colonies[*R*]were collected	context()	negated: False ,passive: False
+[LINE#113]All colonies were collected from 141-167m.
+0.993	[*A*]All colonies[*R*]were collected from[*A*]141 -167m	context()	negated: False ,passive: False
+0.767	[*A*]All colonies[*R*]were collected[*A*]from 141-167m	context()	negated: False ,passive: True
+[LINE#114]Upon return to the surface, corals were placed in a holding tank at ambient seabed temperature for 2 days, to recover from collection.
+0.938	[*A*]corals[*R*]were placed[*A*]in a holding tank[*A*]at ambient seabed temperature[*A*]for 2 days[*A*]to recover from collection[*A*]Upon return to the surface	context()	negated: False ,passive: True
+[LINE#115]Corals were then carefully fragmented into smaller pieces for experiments.
+[LINE#116]These fragments had 5-20 polyps, and were taken from the top of sampled colonies to ensure that relatively young polyps were used consistently, as polyp age can determine physiological response with younger polyps known to be the fastest-growing (Maier et al., 2009).
+0.903	[*A*]polyp age[*R*]can determine[*A*]physiological response with younger polyps	context()	negated: False ,passive: False
+0.698	[*A*]younger polyps[*R*]to be	context()	negated: False ,passive: False
+0.813	[*A*]younger polyps[*R*]known[*A*]to be	context()	negated: False ,passive: True
+0.845	[*A*]These fragments[*R*]were taken[*A*]from the top of sampled colonies[*A*]to ensure that relatively young polyps were used consistently[*A*]as polyp age can determine physiological response with younger polyps	context()	negated: False ,passive: True
+0.516	[*A*]These fragments[*R*]had [number of] polyps[*A*]5 -20	context()	negated: False ,passive: False
+0.999	[*A*]These fragments[*R*]had[*A*]5 -20 polyps	context()	negated: False ,passive: False
+0.925	[*A*]These fragments[*R*]had[*A*]5-20 polyps	context()	negated: False ,passive: False
+[LINE#117]Fragments were attached to pre-labelled bases made of PVC pipe with Grotech Korafix epoxy..
+0.713	[*A*]Fragments[*R*]were attached	context()	negated: False ,passive: False
+[LINE#118]Two tanks (each ~350L seawater within 430L volume (0.90.60.8m)) were established for experiments; one at ambient reef conditions of 9.5C, 380ppm and the other at 9.5C, 750ppm in accordance with the IPCC IS92a CO2 emission scenario.
+0.887	[*A*]Two tanks[*R*]were established[*A*]for experiments	context()	negated: False ,passive: True
+[LINE#119]Elevated CO2 750ppm gas was purchased pre-mixed (BOC) and generously bubbled directly into a corner of the experimental tank near a powerhead to ensure gas and water mixing and dispersal throughout the tank.
+0.953	[*A*]Elevated CO2[*R*]generously bubbled directly[*A*]into a corner of the experimental tank near a powerhead[*A*]to ensure dispersal throughout the tank	context()	negated: False ,passive: False
+0.907	[*A*]Elevated CO2[*R*]generously bubbled directly into a corner of the experimental tank near a powerhead to ensure[*A*]water mixing throughout the tank	context(Elevated CO2 generously bubbled directly)	negated: False ,passive: False
+0.940	[*A*]Elevated CO2[*R*]generously bubbled directly[*A*]into a corner of the experimental tank near a powerhead[*A*]to ensure water	context()	negated: False ,passive: False
+0.894	[*A*]water[*R*]mixing[*A*]throughout the tank	context()	negated: False ,passive: True
+0.953	[*A*]Elevated CO2[*R*]generously bubbled directly[*A*]into a corner of the experimental tank near a powerhead[*A*]to ensure gas throughout the tank	context()	negated: False ,passive: False
+0.844	[*A*]Elevated CO2 750ppm gas[*R*]was purchased[*A*]pre-mixed	context()	negated: False ,passive: True
+[LINE#120]To check that bubbling was sufficient, tank pH was checked with a Mettler-Toledo SevenGo SG2 pH meter.
+0.887	[*A*]tank pH[*R*]was checked[*A*]with a Mettler-Toledo SevenGo SG2 pH meter	context()	negated: False ,passive: True
+[LINE#121]Ambient air was pumped into the control tank and checked for consistency with a Li-820 gas analyser (Licor).
+0.918	[*A*]Ambient air[*R*]was checked[*A*]for consistency with a Li - 820 gas analyser	context()	negated: False ,passive: True
+0.903	[*A*]Ambient air[*R*]was pumped[*A*]into the control tank	context()	negated: False ,passive: True
+[LINE#122]Both tanks were equipped with chillers, filtration units and powerheads to provide adequate temperature control, filtration and circulation.
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with powerheads	context()	negated: False ,passive: True
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with powerheads[*A*]to provide adequate temperature control	context()	negated: False ,passive: True
+0.887	[*A*]Both tanks[*R*]to provide[*A*]adequate circulation	context()	negated: False ,passive: False
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with filtration units[*A*]to provide adequate circulation	context()	negated: False ,passive: True
+0.887	[*A*]Both tanks[*R*]to provide[*A*]adequate filtration	context()	negated: False ,passive: False
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with filtration units[*A*]to provide adequate filtration	context()	negated: False ,passive: True
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with filtration units[*A*]to provide adequate temperature control	context()	negated: False ,passive: True
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with chillers	context()	negated: False ,passive: True
+0.887	[*A*]Both tanks[*R*]to provide[*A*]adequate temperature control	context()	negated: False ,passive: False
+0.903	[*A*]Both tanks[*R*]were equipped[*A*]with chillers[*A*]to provide adequate temperature control	context()	negated: False ,passive: True
+[LINE#123]Water circulation in this closed system from the tank to the filtration unit and chiller was 300lh-1.
+0.973	[*A*]Water circulation in this closed system from the tank to the chiller[*R*]was[*A*]1	context()	negated: False ,passive: False
+0.920	[*A*]Water circulation in this closed system from the tank to the chiller[*R*]was[*A*]300lh - 1	context()	negated: False ,passive: True
+0.966	[*A*]this closed system[*R*]had Water circulation of[*A*]1	context()	negated: False ,passive: False
+0.973	[*A*]Water circulation in this closed system from the tank to the filtration unit[*R*]was[*A*]1	context()	negated: False ,passive: False
+0.927	[*A*]Water circulation in this closed system from the tank to the filtration unit[*R*]was[*A*]300lh - 1	context()	negated: False ,passive: True
+[LINE#124]Thirty per cent water changes were conducted on each tank every 2 days.
+0.926	[*A*]Thirty per cent water changes[*R*]were conducted[*A*]on each tank[*A*]every 2 days	context()	negated: False ,passive: True
+[LINE#125]Tank temperatures and salinity were checked throughout the experimental period with a YSI (30) salinity and temperature meter.
+0.942	[*A*]salinity[*R*]were checked[*A*]throughout the experimental period with a YSI ( 30 ) temperature meter	context()	negated: False ,passive: True
+0.942	[*A*]salinity[*R*]were checked[*A*]throughout the experimental period with a YSI ( 30 ) salinity	context()	negated: False ,passive: True
+0.961	[*A*]Tank temperatures[*R*]were checked[*A*]throughout the experimental period with a YSI ( 30 ) temperature meter	context()	negated: False ,passive: True
+0.961	[*A*]Tank temperatures[*R*]were checked[*A*]throughout the experimental period with a YSI ( 30 ) salinity	context()	negated: False ,passive: True
+[LINE#126]Salinity and temperature for the control and experimental tanks were 35.20.04 and 35.30.03, and 9.720.13C and 9.860.07C respectively.
+0.767	[*A*]experimental tanks[*R*]were[*A*]35.30.03	context()	negated: False ,passive: True
+0.767	[*A*]experimental tanks[*R*]were[*A*]35.20.04	context()	negated: False ,passive: True
+0.998	[*A*]the control[*R*]had temperature of[*A*]35.30.03	context()	negated: False ,passive: False
+0.799	[*A*]temperature for the control[*R*]were[*A*]35.30.03	context()	negated: False ,passive: True
+0.998	[*A*]the control[*R*]had temperature of[*A*]35.20.04	context()	negated: False ,passive: False
+0.799	[*A*]temperature for the control[*R*]were[*A*]35.20.04	context()	negated: False ,passive: True
+0.749	[*A*]Salinity[*R*]were[*A*]35.30.03	context()	negated: False ,passive: True
+0.749	[*A*]Salinity[*R*]were[*A*]35.20.04	context()	negated: False ,passive: True
+[LINE#127]Corals (n=32 in each treatment) were fed a mixture of live Artemia and Skeletonema marinoi every two days.
+[LINE#128]Time points were Time Zero, +7 days, +14 days and +21 days.
+0.918	[*A*]Time points[*R*]were[*A*]Time Zero	context()	negated: False ,passive: True
+[LINE#129]Following measurements at time zero, 750ppm gas bubbling was initiated in the treatment tank.
+0.948	[*A*]750ppm gas bubbling[*R*]was initiated[*A*]in the treatment tank[*A*]Following measurements at time zero	context()	negated: False ,passive: True
+[LINE#130]Fragments from individual colonies were split evenly between treatments and time points to avoid colony pseudo replication. .
+0.919	[*A*]Fragments from individual colonies[*R*]were split evenly[*A*]between treatments and time points[*A*]to avoid colony pseudo replication	context()	negated: False ,passive: True
+[LINE#131] Site and experimental carbonate chemistryMingulay carbonatechemistry was assessed on two cruises; on D366/7 (July-August 2011) and on RRS James Cook 073 (Roberts et al., 2013) (May-June 2012) in surface waters (<20m) and near the reef crest (~120m).
+0.939	[*A*]experimental carbonate chemistryMingulay carbonatechemistry[*R*]was assessed[*A*]on two cruises	context()	negated: False ,passive: True
+0.933	[*A*]Site chemistryMingulay carbonatechemistry[*R*]was assessed[*A*]on two cruises	context()	negated: False ,passive: True
+[LINE#132]Borosilicate glass bottles with ground glass stoppers were used to collect seawater from Niskin bottles on the CTD rosette, and sample bottles were rinsed and filled according to standard procedures detailed in Dickson et al.
+0.918	[*A*]standard procedures[*R*]detailed[*A*]in Dickson et al	context()	negated: False ,passive: True
+0.771	[*A*]Borosilicate[*R*]filled	context()	negated: False ,passive: False
+0.732	[*A*]sample bottles[*R*]were rinsed	context()	negated: False ,passive: False
+0.939	[*A*]Borosilicate glass bottles with ground glass stoppers[*R*]to collect[*A*]seawater[*A*]from Niskin bottles on the CTD rosette	context()	negated: False ,passive: False
+0.967	[*A*]Borosilicate glass bottles with ground glass stoppers[*R*]were used[*A*]to collect seawater from Niskin bottles on the CTD rosette	context()	negated: False ,passive: True
+[LINE#133]Samples were poisoned with mercuric chloride, and duplicate samples were taken from the same Niskin bottle.
+0.918	[*A*]duplicate samples[*R*]were taken[*A*]from the same Niskin bottle	context()	negated: False ,passive: True
+0.894	[*A*]Samples[*R*]were poisoned[*A*]with mercuric chloride	context()	negated: False ,passive: True
+[LINE#134]Samples were bought to room temperature (approx. 23C) and analysed for total inorganic carbon and total alkalinity within 24h of collection.
+0.877	[*A*]Samples[*R*]analysed[*A*]for total inorganic carbon and total alkalinity[*A*]within 24h of collection	context()	negated: False ,passive: True
+0.877	[*A*]Samples[*R*]to room[*A*]temperature	context()	negated: False ,passive: False
+0.894	[*A*]Samples[*R*]were bought[*A*]to room temperature	context()	negated: False ,passive: True
+[LINE#135]Total Alkalinity (AT) and Dissolved Inorganic Carbon (CT) were calculated according to depth-specific salinity, and also normalised to a salinity of 35 for comparative purposes across depths where salinity changed.
+0.926	[*A*]salinity[*R*]changed[*A*]depths	context()	negated: False ,passive: True
+0.915	[*A*]Total Alkalinity (AT) and Dissolved Inorganic Carbon[*R*]normalised[*A*]to a salinity of 35[*A*]for comparative purposes[*A*]across depths	context()	negated: False ,passive: False
+0.760	[*A*]Total Alkalinity (AT) and Dissolved Inorganic Carbon[*R*]were calculated	context()	negated: False ,passive: False
+[LINE#136]AT was corrected for the addition of mercuric chloride.
+0.855	[*A*]AT[*R*]was corrected[*A*]for the addition of mercuric chloride	context()	negated: False ,passive: True
+[LINE#137]Carbonate parameters were calculated using CO2sys (Pierrot et al., 2006) with dissociation constants from Mehrbach et al.
+0.903	[*A*]Carbonate parameters[*R*]were calculated[*A*]2006) with dissociation constants from Mehrbach et al	context()	negated: False ,passive: True
+[LINE#138](1973), refit by Dickson and Millero (1987) and KSO4 using Dickson (1990).
+0.549	[*A*]1973[*R*]refit[*A*]by KSO4	context()	negated: False ,passive: True
+0.549	[*A*]1973[*R*]refit[*A*]by Millero ( 1987	context()	negated: False ,passive: True
+0.549	[*A*]1973[*R*]refit[*A*]by Dickson	context()	negated: False ,passive: True
+[LINE#139]AT and CT samples were collected (as described above) from the middle of experimental tanks at each time point.
+0.953	[*A*]AT and CT samples[*R*]were collected[*A*]as described above) from the middle of experimental tanks at each time point	context()	negated: False ,passive: True
+[LINE#140]Although there was only one experimental tank per treatment, the turnover of seawater between time points (through regular maintenance water changes) ensured that carbonate chemistry was not pseudo-replicated across time points.
+0.888	[*A*]that carbonate chemistry[*R*]was not[*A*]pseudo-replicated across time points	context(the turnover of seawater between time points ( through regular maintenance water changes ensured)	negated: True ,passive: True
+0.911	[*A*]the turnover of seawater between time points (through regular maintenance water changes[*R*]ensured[*A*]that carbonate chemistry was not pseudo-replicated across time points	context()	negated: False ,passive: False
+[LINE#141]For full details of instruments used to assess AT and CT for experimental purposes, and for site carbonate chemistry, please refer to Supplementary Material. .
+0.911	[*A*]instruments[*R*]used[*A*]to assess CT for site carbonate chemistry	context()	negated: False ,passive: True
+0.911	[*A*]instruments[*R*]used[*A*]to assess CT for experimental purposes	context()	negated: False ,passive: True
+0.911	[*A*]instruments[*R*]used[*A*]to assess AT for site carbonate chemistry	context()	negated: False ,passive: True
+0.911	[*A*]instruments[*R*]used[*A*]to assess AT for experimental purposes	context()	negated: False ,passive: True
+[LINE#142]Rates of oxygen consumption were assessed in coral fragments placed within 220mL incubation chambers fitted with oxygen optodes connected to a temperature-compensated oxygen analyser (Oxy-4 Mini with Temp-4, Presens & Loligo systems).
+0.903	[*A*]oxygen optodes[*R*]connected[*A*]to a temperature-compensated oxygen analyser	context()	negated: False ,passive: True
+0.933	[*A*]220mL incubation chambers[*R*]fitted[*A*]with oxygen optodes	context()	negated: False ,passive: True
+0.918	[*A*]coral fragments[*R*]placed[*A*]within 220mL incubation chambers	context()	negated: False ,passive: True
+0.919	[*A*]Rates of oxygen consumption[*R*]were assessed[*A*]in coral fragments	context()	negated: False ,passive: True
+[LINE#143]Magnetic stirrers ensured homogeneity of oxygen around the coral fragments.
+0.903	[*A*]Magnetic stirrers[*R*]ensured[*A*]homogeneity of oxygen around the coral fragments	context()	negated: False ,passive: False
+[LINE#144]Chambers were filled with tank seawater and corals were allowed to acclimate to the conditions for 2h.
+0.877	[*A*]corals[*R*]to acclimate[*A*]to the conditions for 2h	context()	negated: False ,passive: False
+0.713	[*A*]corals[*R*]were allowed	context()	negated: False ,passive: False
+0.894	[*A*]Chambers[*R*]were filled[*A*]with tank seawater	context()	negated: False ,passive: True
+[LINE#145]Ten chambers were used per treatment at each time point; 8 for respiration, and 2 as seawater 'blanks' in order to measure (and subsequently subtract) background microbial respiration.
+[LINE#146]Prior to respiration measures, corals were not fed for 48h.
+0.938	[*A*]corals[*R*]were not fed[*A*]for 48h[*A*]Prior to respiration measures	context()	negated: True ,passive: True
+[LINE#147]Once chamber lids were attached ensuring no headspace, oxygen consumption was recorded for a 40-min period for each fragment, during which oxygen saturation did not fall below 80%.
+0.878	[*A*]oxygen saturation[*R*]did not fall[*A*]below 80%	context(oxygen consumption was recorded)	negated: True ,passive: True
+0.928	[*A*]oxygen consumption[*R*]was recorded[*A*]for a 40-min period for each fragment[*A*]Once chamber lids were attached ensuring no headspace	context()	negated: False ,passive: True
+0.887	[*A*]chamber lids[*R*]ensuring[*A*]no headspace	context()	negated: False ,passive: False
+0.732	[*A*]chamber lids[*R*]were attached	context()	negated: False ,passive: False
+[LINE#148]Following incubations at T+21 days, fragments were removed and preserved at -20C for subsequent weight determination.
+0.767	[*A*]Following incubations[*R*]preserved[*A*]at - 20C	context()	negated: False ,passive: False
+0.926	[*A*]fragments[*R*]were removed[*A*]Following incubations at T+21 days	context()	negated: False ,passive: True
+[LINE#149]The ash-free dry mass (AFDM) of each sample was determined by adding homogenised material to a pre-weighed porcelain crucible and noting the weight of the crucible and the sample.
+0.966	[*A*]The ash - free dry mass ( AFDM ) of each sample[*R*]by noting[*A*]the weight of the sample	context()	negated: False ,passive: False
+0.966	[*A*]The ash - free dry mass ( AFDM ) of each sample[*R*]by noting[*A*]the weight of the crucible	context()	negated: False ,passive: False
+0.966	[*A*]The ash - free dry mass ( AFDM ) of each sample[*R*]by adding[*A*]homogenised material[*A*]to a pre-weighed porcelain crucible	context()	negated: False ,passive: False
+0.907	[*A*]The ash - free dry mass ( AFDM ) of each sample[*R*]was determined	context()	negated: False ,passive: False
+[LINE#150]The crucibles were covered and placed in a muffle furnace (Nabertherm Controller B170).
+0.903	[*A*]The crucibles[*R*]were placed[*A*]in a muffle furnace	context()	negated: False ,passive: True
+0.732	[*A*]The crucibles[*R*]were covered	context()	negated: False ,passive: False
+[LINE#151]The temperature of the furnace increased to 450C over a 30-min period and then remained at that temperature for a further 4h.
+0.837	[*A*]The temperature[*R*]remained[*A*]at that temperature for a further 4h[*A*]then	context()	negated: False ,passive: True
+0.913	[*A*]The temperature of the furnace[*R*]to 450C[*A*]over a 30 - min period	context()	negated: False ,passive: False
+0.926	[*A*]The temperature of the furnace[*R*]increased[*A*]to 450C over a 30 - min period	context()	negated: False ,passive: True
+[LINE#152]After this time the crucibles were re-weighed and the difference in the weight of the sample minus the ashed weight gave the amount of organic matter or AFDM. .
+0.967	[*A*]the difference in the weight of the sample minus the ashed weight[*R*]gave[*A*]the amount of organic matter or AFDM	context()	negated: False ,passive: False
+0.933	[*A*]the crucibles[*R*]were re-weighed[*A*]After this time	context()	negated: False ,passive: True
+[LINE#153]Net calcificationTwo methods were used to assess L. pertusa growth through net calcification; the alkalinity anomaly technique (Smith and Key, 1975) and uptake of labelled carbon (Marshall and Wright, 1998).
+0.934	[*A*]Net calcificationTwo methods[*R*]to assess[*A*]L. pertusa growth	context()	negated: False ,passive: False
+0.944	[*A*]Net calcificationTwo methods[*R*]were used[*A*]to assess L. pertusa growth through net calcification	context()	negated: False ,passive: True
+[LINE#154]To determine if there was any increase or decrease in tissue mass, the AFDM was compared to dry coral weight.
+[LINE#155]For additional comparison to recent CWC studies (Form and Riebesell, 2012; Maier et al., 2012, 2009), coral polyp numbers were also counted to determine calcification per polyp.
+0.870	[*A*]coral polyp numbers[*R*]were counted[*A*]to determine calcification per polyp	context()	negated: False ,passive: True
+[LINE#156]Different fragments were used for both techniques (Table 1)..
+0.903	[*A*]Different fragments[*R*]were used[*A*]for both techniques	context()	negated: False ,passive: True
+[LINE#157]Alkalinity anomalyFollowing techniques from Smith and Key (1975), and Ohde and Hossain (2004) calcification rates were calculated in L. pertusa by measuring the change in seawater alkalinity in respiration chambers housing coral fragments for 4h.
+0.965	[*A*]Alkalinity anomalyFollowing techniques from Key ( 1975[*R*]by measuring[*A*]the change in seawater alkalinity in respiration chambers housing coral fragments for 4h	context()	negated: False ,passive: False
+0.918	[*A*]calcification rates[*R*]were calculated[*A*]in L. pertusa	context()	negated: False ,passive: True
+0.958	[*A*]Alkalinity anomalyFollowing techniques from Smith[*R*]by measuring[*A*]the change in seawater alkalinity in respiration chambers housing coral fragments for 4h	context()	negated: False ,passive: False
+0.944	[*A*]Ohde calcification rates[*R*]were calculated[*A*]in L. pertusa	context()	negated: False ,passive: True
+[LINE#158]Samples of incubation water were taken at the beginning and end of the experimental period, and total alkalinity determined using an automatic titrator (Metrohm 702 SM Titrino).
+0.882	[*A*]total alkalinity[*R*]determined using[*A*]an automatic titrator	context(total alkalinity determined)	negated: False ,passive: False
+0.882	[*A*]total alkalinity[*R*]determined[*A*]using an automatic titrator	context()	negated: False ,passive: False
+0.919	[*A*]Samples of incubation water[*R*]were taken[*A*]at the beginning and end of the experimental period	context()	negated: False ,passive: True
+[LINE#159]Calcification (molCaCO3g-1h-1) was estimated following Eq.
+0.896	[*A*]Calcification[*R*]was estimated[*A*]following Eq	context()	negated: False ,passive: True
+[LINE#160] (1),(1)Calcification=0.5(TA)V/T/AFDMwhere TA is the change of total alkalinity (mol/l), V is the volume of experimental seawater (L) and T is the experimental period (h).
+[LINE#161]Calcification rates were calculated per hour (and extrapolated to per day) through a linear function.
+0.894	[*A*]Calcification[*R*]extrapolated[*A*]to per day	context()	negated: False ,passive: True
+0.903	[*A*]Calcification rates[*R*]were calculated[*A*]per hour	context()	negated: False ,passive: True
+[LINE#162]However, this may potentially underestimate growth rates if all newly accreted material contributes to calcification.
+0.919	[*A*]all newly accreted material[*R*]contributes[*A*]to calcification	context()	negated: False ,passive: False
+0.286	[*A*]this[*R*]may underestimate[*A*]growth rates[*A*]if all newly accreted material contributes to calcification	context()	negated: False ,passive: False
+[LINE#163]Further study is needed to calculate whether L. pertusa growth over time is better represented by linear or exponential growth functions.
+0.944	[*A*]L. pertusa growth over time[*R*]is better represented[*A*]by linear or exponential growth functions	context()	negated: False ,passive: True
+0.947	[*A*]Further study[*R*]is needed[*A*]to calculate whether L. pertusa growth over time is better represented by linear or exponential growth functions	context()	negated: False ,passive: True
+[LINE#164]With regard to nutrients, corrections applied to total alkalinity to account for the release of nutrients during incubations are considered negligible, especially for tropical corals (Riebesell et al., 2010; Smith, 1995).
+0.894	[*A*]corrections[*R*]applied[*A*]to total alkalinity[*A*]to account for the release of nutrients during incubations	context()	negated: False ,passive: True
+[LINE#165] Considering that the ~10% underestimation of net calcification rate due to nutrient omission is small compared to natural variation in CWC calcification(Maier et al., 2012), nutrients were considered negligible for experiments here.
+[LINE#166] Changes in aragonite, CT and pHduring incubation were not quantified.
+0.769	[*A*]Changes in pHduring incubation[*R*]were not quantified	context()	negated: True ,passive: False
+0.803	[*A*]Changes in CT[*R*]were not quantified	context()	negated: True ,passive: False
+0.751	[*A*]Changes in aragonite[*R*]were not quantified	context()	negated: True ,passive: False
+[LINE#167]For comparison to other CWC studies, calcification rates were also expressed as a percentage compared to initial skeletal weight of the corals to give growth as %d-1. .
+0.907	[*A*]calcification rates[*R*]were expressed[*A*]as a percentage[*A*]compared to initial skeletal weight of the corals to give growth as %d-1	context()	negated: False ,passive: True
+[LINE#168]Calcification rates were measured by incorporation of 14C (from sodium bicarbonate, CHNaO3), into new coral skeleton.
+0.947	[*A*]Calcification rates[*R*]were measured[*A*]by incorporation of 14C (from sodium bicarbonate, CHNaO3), into new coral skeleton	context()	negated: False ,passive: True
+[LINE#169]Fragments of live corals (different from those used for respiration/alkalinity anomaly) from both treatments were placed in 30ml filtered seawater (FSW) maintained at tank temperature (9.5C) in 50ml falcon tubes (20ml headspace).
+0.981	[*A*]Fragments of live corals (different from those used for respiration/alkalinity anomaly) from both treatments[*R*]were placed[*A*]in 30ml filtered seawater	context()	negated: False ,passive: True
+0.234	[*A*]those[*R*]used[*A*]for respiration/alkalinity anomaly	context()	negated: False ,passive: True
+[LINE#170]After 1h acclimation, 120l of 14C stock solution was added to each tube to a final activity of 3kBq/ml (0.08101uCi/ml) (Al-Horani et al., 2005).
+0.957	[*A*]120l of 14C stock solution[*R*]was added[*A*]to each tube[*A*]After 1h acclimation	context()	negated: False ,passive: True
+[LINE#171]Two controls were included; one of a dead coral fragment (previously placed in a 4% formalin solution), and one of Filtered Sea Water (FSW).
+0.918	[*A*]Two controls[*R*]were[*A*]one of Filtered Sea Water	context()	negated: False ,passive: True
+0.945	[*A*]a dead coral fragment[*R*]placed[*A*]in a 4 % formalin solution[*A*]previously	context()	negated: False ,passive: True
+0.903	[*A*]Two controls[*R*]were[*A*]one of a dead coral fragment	context()	negated: False ,passive: True
+0.732	[*A*]Two controls[*R*]were included	context()	negated: False ,passive: False
+[LINE#172]Tubes were kept in floating tube racks, so ship movement and a pump maintained gentle movement of the tubes to ensure isotope mixing.
+0.931	[*A*]Tubes[*R*]were kept[*A*]in floating tube racks[*A*]so ship a pump maintained gentle movement of the tubes	context()	negated: False ,passive: True
+0.878	[*A*]ship movement[*R*]maintained gentle movement of the tubes to ensure[*A*]isotope mixing	context(ship movement maintained)	negated: False ,passive: False
+0.867	[*A*]Tubes[*R*]were kept[*A*]in floating tube racks	context(ship movement maintained)	negated: False ,passive: True
+0.878	[*A*]ship movement[*R*]maintained[*A*]gentle movement of the tubes[*A*]to ensure isotope mixing	context()	negated: False ,passive: False
+[LINE#173]Immediately following addition of the radioisotope, 100l of sample water was removed and added to 4ml of Optisafe scintillation cocktail with 200l -phenylethylamine to assess total activity.
+0.957	[*A*]Immediately following addition of the radioisotope[*R*]added[*A*]to 4ml of Optisafe scintillation cocktail with 200l -phenylethylamine[*A*]to assess total activity	context()	negated: False ,passive: True
+0.773	[*A*]Immediately following addition of the radioisotope[*R*]was removed	context()	negated: False ,passive: False
+[LINE#174]Following 6h incubation, another 100l was taken to assess the decrease in total activity in incubation water.
+0.914	[*A*]another 100l[*R*]to assess[*A*]the decrease in total activity in incubation water	context()	negated: False ,passive: False
+0.973	[*A*]another 100l[*R*]was taken[*A*]to assess the decrease in total activity in incubation water[*A*]Following 6h incubation	context()	negated: False ,passive: True
+[LINE#175]Coral fragments were then placed in FSW for 1h to remove unbound tracer.
+0.827	[*A*]1h[*R*]to remove[*A*]unbound tracer	context()	negated: False ,passive: False
+0.929	[*A*]Coral fragments[*R*]were placed[*A*]in FSW[*A*]for 1h to remove unbound tracer[*A*]then	context()	negated: False ,passive: True
+[LINE#176]This step was repeated before corals were preserved at -20C for analysis following the expedition.
+0.894	[*A*]corals[*R*]were preserved[*A*]at -20C for analysis following the expedition	context()	negated: False ,passive: True
+0.937	[*A*]This step[*R*]was repeated[*A*]before corals were preserved at -20C for analysis following the expedition	context()	negated: False ,passive: True
+[LINE#177]No samples of water carbonate chemistry were taken from the experiment tubes before or after incubation.
+0.932	[*A*]No samples of water carbonate chemistry[*R*]were taken[*A*]from the experiment tubes[*A*]before or after incubation	context()	negated: False ,passive: True
+[LINE#178]To determine the amount of 14C incorporated in skeleton, frozen samples were dried overnight at 60C.
+0.918	[*A*]frozen samples[*R*]were dried[*A*]overnight[*A*]at 60C	context()	negated: False ,passive: True
+0.939	[*A*]the amount of 14C[*R*]incorporated[*A*]in skeleton	context()	negated: False ,passive: True
+[LINE#179]Samples were weighed and tissue was then hydrolysed with a known volume of 2N NaOH at 90C.
+0.922	[*A*]tissue[*R*]was hydrolysed[*A*]with a known volume of 2N NaOH at 90C[*A*]then	context()	negated: False ,passive: True
+0.713	[*A*]Samples[*R*]were weighed	context()	negated: False ,passive: False
+[LINE#180]Hydrolysate (100l) was sampled for uptake of 14C in coral tissue.
+0.921	[*A*]Hydrolysate[*R*]was sampled[*A*]for uptake of 14C in coral tissue	context()	negated: False ,passive: True
+[LINE#181]The skeleton was rinsed with distilled water and dried overnight again for re-weighing.
+0.767	[*A*]The skeleton[*R*]was dried[*A*]overnight again[*A*]for re-weighing	context()	negated: False ,passive: True
+0.903	[*A*]The skeleton[*R*]was rinsed[*A*]with distilled water	context()	negated: False ,passive: True
+[LINE#182]Tissue dry weight was calculated as the difference between skeleton and tissue weight, and skeleton weight.
+0.937	[*A*]dry weight[*R*]was calculated[*A*]as the difference between skeleton and tissue weight, and skeleton weight	context()	negated: False ,passive: True
+[LINE#183]To calculate uptake of 14C, skeletons were placed in flasks fitted with an outlet to a swinnex filter holder which contained a GF/C filter impregnated with -phenylethlyamine.
+0.920	[*A*]a swinnex filter holder[*R*]contained[*A*]a GF/C filter	context()	negated: False ,passive: False
+0.813	[*A*]flasks[*R*]fitted[*A*]with an outlet to a swinnex filter holder	context()	negated: False ,passive: True
+0.894	[*A*]skeletons[*R*]were placed[*A*]in flasks	context()	negated: False ,passive: True
+[LINE#184]Excess acid (HCl) was added to flasks to dissolve the skeleton and evolve CO2.
+0.887	[*A*]Excess acid[*R*]was added[*A*]to flasks[*A*]to dissolve the skeleton	context()	negated: False ,passive: True
+[LINE#185]Evolved 14C was trapped in the GF/C filter, and following complete skeletal dissolution, the filter was placed in 4ml of Optisafe scintillation cocktail for counting on a Packard 1900CA Tri-Carb Liquid Scintillation Analyser.
+0.970	[*A*]the filter[*R*]was placed[*A*]in 4ml of Optisafe scintillation cocktail[*A*]for counting on a Packard 1900CA Tri-Carb Liquid Scintillation Analyser[*A*]following complete skeletal dissolution	context()	negated: False ,passive: True
+0.938	[*A*]Evolved 14C[*R*]was trapped[*A*]in the GF / C filter	context()	negated: False ,passive: True
+[LINE#186]Mingulay seawater parametersFrom CTD casts in June 2012, salinity increased with depth at Mingulay whereas temperature slightly decreased from the surface to the reef crest (ca.
+0.950	[*A*]Mingulay seawater parametersFrom CTD[*R*]casts[*A*]in June 2012	context(salinity increased)	negated: False ,passive: False
+0.926	[*A*]salinity[*R*]increased[*A*]with depth[*A*]at Mingulay[*A*]whereas temperature slightly decreased from the surface to the reef crest	context()	negated: False ,passive: True
+0.877	[*A*]temperature[*R*]decreased[*A*]from the surface[*A*]to the reef crest	context()	negated: False ,passive: True
+[LINE#187]CT increased with depth, both when normalised to the changing salinity and when normalised to 35 for comparison with surface values (Table 2).
+0.855	[*A*]CT[*R*]increased[*A*]with depth[*A*]when normalised to 35 for comparison with surface values	context()	negated: False ,passive: True
+0.855	[*A*]CT[*R*]increased[*A*]with depth[*A*]both when normalised to the changing salinity	context()	negated: False ,passive: True
+[LINE#188]AT increased with depth when using depth-specific salinity values, but when normalised to 35, a decrease in AT was observed with depth.
+0.889	[*A*]a decrease in AT[*R*]was observed[*A*]when normalised to 35	context()	negated: False ,passive: True
+0.833	[*A*]AT[*R*]using[*A*]depth - specific salinity values	context()	negated: False ,passive: False
+0.855	[*A*]AT[*R*]increased[*A*]with depth[*A*]when using depth - specific salinity values	context()	negated: False ,passive: True
+[LINE#189]In situ pHT decreased with depth as pCO2 increased (Table 2).
+0.713	[*A*]pCO2[*R*]increased	context()	negated: False ,passive: False
+0.927	[*A*]pHT[*R*]decreased[*A*]with depth[*A*]as pCO2 increased (Table 2[*A*]In situ	context()	negated: False ,passive: True
+[LINE#190] Deeper CTD casts taken in July 2011 at the side of the Mingulay Reef mounds correlate with Table 1; such that AT and CT increased with depth (.
+0.634	[*A*]CT[*R*]increased	context()	negated: False ,passive: False
+0.924	[*A*]Deeper CTD[*R*]casts taken[*A*]in July 2011[*A*]at the side of the Mingulay Reef mounds	context(AT increased)	negated: False ,passive: True
+0.581	[*A*]AT[*R*]increased	context()	negated: False ,passive: False
+[LINE#191] AT 2332.71.18; DIC 2149.02.08 at 172m).
+[LINE#192]The respiration rates for coral fragments at Time Zero before fragments were exposed to experimental conditions was 23molO2g-1h-1.
+0.973	[*A*]The respiration rates for coral fragments at Time Zero[*R*]was[*A*]-1	context()	negated: False ,passive: False
+0.998	[*A*]coral fragments at Time Zero[*R*]had The respiration rates of[*A*]-1	context()	negated: False ,passive: False
+0.908	[*A*]The respiration rates for coral fragments at Time Zero[*R*]was[*A*]23molO2g-1h-1	context()	negated: False ,passive: True
+0.894	[*A*]fragments[*R*]were exposed[*A*]to experimental conditions	context()	negated: False ,passive: True
+[LINE#193]For fragments in the control treatment at 380ppm, 9.5C, pH 8.07 (Table 3), there was no significant change in respiration rates from Time Zero to 21 days.
+[LINE#194] For fragments exposed to increased CO2 at 750ppm, 9.5C, pH 7.77 (Table 3), respiration rates were significantly lower than control fragments at 14 days with 12.11.30 SE at 750ppm versus 23.75.13 SE at 380ppm, and at 21 days with 11.441.39 SE at 750ppm versus 28.67.30 SE at 380ppmmolO2g-1tissuedryweighth-1 (two sample t-test; t=2.19, p<0.05; t=2.31, p<0.05 respectively), see Fig..
+0.911	[*A*]fragments[*R*]exposed[*A*]to increased CO2 at 750ppm	context()	negated: False ,passive: True
+[LINE#195]Microbial respiration typically ranged from 0.005 to 1.3molO2h-1, but on average was ~0.5molO2h-1 in the experimental chambers.
+0.636	[*A*]on average[*R*]was[*A*]~0.5molO2h-1 in the experimental chambers	context()	negated: False ,passive: True
+0.790	[*A*]Microbial respiration[*R*]ranged[*A*]from 0.005[*A*]to 1.3molO2h-1	context()	negated: False ,passive: True
+[LINE#196]There was no difference in the relationship between AFDM and whole coral (skeleton+tissue) dry weight between 380ppm and 750ppm treatments after 21 days, so tissue mass did not change in coral fragments under acidified conditions compared to control individuals.
+0.878	[*A*]tissue mass[*R*]did not change[*A*]in coral fragments[*A*]compared to control individuals	context()	negated: True ,passive: True
+[LINE#197]Fragments from 380ppm and 750ppm were thus combined for correlation analysis between AFDM and whole coral dry weight.
+0.601	[*A*]750ppm[*R*]were combined[*A*]for correlation analysis between AFDM and whole coral dry weight	context()	negated: False ,passive: True
+0.928	[*A*]Fragments from 380ppm[*R*]were combined[*A*]for correlation analysis between AFDM and whole coral dry weight	context()	negated: False ,passive: True
+[LINE#198] The linear regression was strong4A, at T+21 days; y=0.0428x+0.08473) even with the presence of one anomalous point.
+0.942	[*A*]The linear regression[*R*]was[*A*]strong4A[*A*]at T+21 days	context()	negated: False ,passive: True
+[LINE#199]If this point was removed from the regression, y=0.0415x+0.0849, r2=0.97, p<0.0001, with tissue dry weight approximately 5% of dry coral weight.
+0.903	[*A*]this point[*R*]was removed[*A*]from r2=0.97	context()	negated: False ,passive: True
+0.903	[*A*]this point[*R*]was removed[*A*]from y=0.0415x+0.0849	context()	negated: False ,passive: True
+0.903	[*A*]this point[*R*]was removed[*A*]from the regression	context()	negated: False ,passive: True
+[LINE#200] Respiration rates for each treatment at T+21 days were compared to AFDM, with positive relationships for both 380ppm (r2=0.62, p=0.04) and 750ppm(r2=0.78, p=0.008) fragments (Fig. 4C).
+0.952	[*A*]Respiration rates for each treatment at T+21 days[*R*]were compared[*A*]to AFDM[*A*]with positive relationships for 750ppm ( r2=0.78	context()	negated: False ,passive: True
+0.970	[*A*]Respiration rates for each treatment at T+21 days[*R*]were compared[*A*]to AFDM[*A*]with positive relationships for both 380ppm ( r2=0.62 , p=0.04 ) fragments	context()	negated: False ,passive: True
+[LINE#201]However, these regressions were partially driven by one larger coral in each treatment.
+0.903	[*A*]these regressions[*R*]were partially driven[*A*]by one larger coral in each treatment	context()	negated: False ,passive: True
+[LINE#202] Comparisons of AFDM and respiration rates to fragment polyp numbers elicited poor relationships; 380ppm (r2=0.14, p=0.40), 750ppm.
+0.882	[*A*]polyp numbers[*R*]elicited[*A*]poor relationships	context(Comparisons of respiration rates to fragment)	negated: False ,passive: False
+0.900	[*A*]Comparisons of respiration rates[*R*]to fragment[*A*]polyp numbers elicited poor relationships	context()	negated: False ,passive: False
+0.903	[*A*]polyp numbers[*R*]elicited[*A*]poor relationships	context()	negated: False ,passive: False
+0.803	[*A*]Comparisons of AFDM[*R*]to fragment	context()	negated: False ,passive: False
+[LINE#203]Net calcificationNet calcification rates at time zero, measured with the alkalinity anomaly technique, were ca.
+0.881	[*A*]Net calcificationNet calcification rates at time zero, measured with the alkalinity anomaly technique[*R*]were	context()	negated: False ,passive: False
+0.927	[*A*]Net calcificationNet calcification rates at time zero[*R*]measured[*A*]with the alkalinity	context()	negated: False ,passive: True
+[LINE#204]1.5molCaCO3g-1tissuedryweighth-1.
+[LINE#205] This did not change significantly for either treatment over the 21 days, or between treatments at any time point (Fig..
+0.381	[*A*]This[*R*]did not change significantly[*A*]for either treatment[*A*]over the 21 days	context()	negated: True ,passive: True
+[LINE#206] Changes in AT (blank corrected) across both treatments were on average 34.7(3.34)molkg-1 and ranged from 9 to 59molkg-1.
+0.891	[*A*]Changes in AT (blank corrected) across both treatments[*R*]ranged[*A*]from 9 to 59molkg-1	context()	negated: False ,passive: True
+0.965	[*A*]Changes in AT (blank corrected) across both treatments[*R*]were[*A*]on average 34.7(3.34)molkg-1	context()	negated: False ,passive: True
+[LINE#207]Growth rates measured as %d-1 did not change significantly over the 21 days either, and averaged~0.028%d-1 (Fig. 5B).
+0.903	[*A*]Growth rates[*R*]averaged~0.028[*A*]% d - 1	context()	negated: False ,passive: False
+0.927	[*A*]Growth rates measured as % d -[*R*]did not change significantly[*A*]over the 21 days[*A*]either	context()	negated: True ,passive: True
+0.903	[*A*]Growth rates[*R*]measured[*A*]as % d	context()	negated: False ,passive: True
+[LINE#208]Calcification rate as determined by 14C uptake did not differ between treatment and control fragments at either the experiment start (380ppm; 19.310-2 (SE 2.76), 750ppm; 21.810-2 (SE 7.36)molCaCO3g-1tissuedryweighth-1) or end (380ppm; 1.6810-2 (SE 0.60), 750ppm; 4.3810-2 (SE 1.6)molCaCO3g-1tissuedryweighth-1).
+0.938	[*A*]Calcification rate[*R*]determined[*A*]by 14C uptake did not differ between treatment and control fragments at either the experiment start (380ppm; 19.310-2	context()	negated: False ,passive: True
+[LINE#209]However, there was a significant decrease in calcification rates measured by 14C uptake in 380ppm fragments over time (380ppm, two sample t-test; t=7.28, p=0.001), which was not significant in 750ppm fragments due to very high variability.
+0.913	[*A*]two sample t-test[*R*]was not[*A*]significant[*A*]in 750ppm fragments[*A*]due to very high variability	context()	negated: True ,passive: True
+0.943	[*A*]a significant decrease in calcification rates[*R*]measured[*A*]by 14C uptake	context()	negated: False ,passive: True
+[LINE#210]This decrease was not observed through the alkalinity anomaly technique.
+0.903	[*A*]This decrease[*R*]was not observed[*A*]through the alkalinity	context()	negated: True ,passive: True
+[LINE#211]14C uptake into L. pertusa tissue was approximately the same for all treatments and time points (ca.
+0.928	[*A*]14C[*R*]was[*A*]approximately the same for all time points	context()	negated: False ,passive: True
+0.928	[*A*]14C[*R*]was[*A*]approximately the same for all treatments	context()	negated: False ,passive: True
+0.932	[*A*]14C[*R*]uptake[*A*]into L. pertusa tissue	context()	negated: False ,passive: False
+[LINE#212] 6010-2mol14Cg-1tissuedryweighth-1)and did not significantly change between treatments or over time.

@@ -9,7 +9,17 @@ def write_dicts_to_files(num_docs, dict_with_various_docs,
                          input_doc, index, old_index,
                          output_folder_OIE, output_folder_narrowIE):
     """
-    Writes the files for OIE and NarrowIE
+    Call :func:`~SORE.my_utils.convert_json_article_to_SciIE.convert_doc_to_sciie_format` (and write the results) and
+    :func:`~SORE.my_utils.convert_json_article_to_OIE5.write_sentences_to_txt_file`.
+
+    :param num_docs: max number of input articles to group in a single narrow IE file.
+    :param dict_with_various_docs: A group of num_docs articles to work on.
+    :param input_doc: An input dataset path in json format, used to determine output names
+    :param index: Final index of the set of  articles to work on (old_index + num_docs)
+    :param old_index: Starting index of current articles to work on.
+    :param output_folder_OIE: output folder for OIE files, one for each doc_id
+    :param output_folder_narrowIE: output folder for NarrowIE files, one for each input_file
+    :return:
     """
     # OIE
     convert_to_OIE.write_sentences_to_txt_file(dict_with_various_docs, output_folder_OIE)
@@ -40,6 +50,7 @@ def convert_documents(max_num_docs_narrowIE, input_files, output_folder_OIE, out
     Reads an unprocessed json file and prepares the input document for narrow and open IE. Scraped
     text in JEB and BMC files is processed to single-sentence-dict:
         # {"doc_id": {"sent_id": {"sentence":
+
     :param input_files: list of a json-files containing unprocessed papers
     :param output_folder_OIE: output folder for OIE files, one for each doc_id
     :param output_folder_narrowIE: output folder for NarrowIE files, one for each input_file

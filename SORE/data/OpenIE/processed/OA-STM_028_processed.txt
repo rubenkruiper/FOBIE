@@ -1,0 +1,1257 @@
+[LINE#1]Precomputation of the supported QoS is very important for internet routing.
+0.957	[*A*]Precomputation of the supported QoS[*R*]is[*A*]very important for internet routing	context()	negated: False ,passive: True
+[LINE#2]By constructing routing tables before a request arrives, a packet can be forwarded with a simple table lookup.
+0.903	[*A*]a packet[*R*]can be forwarded[*A*]with a simple table lookup	context()	negated: False ,passive: True
+0.732	[*A*]a request[*R*]arrives	context()	negated: False ,passive: False
+[LINE#3]When the QoS information is provided, a node can immediately know whether a certain request can be supported without launching the path finding process.
+0.699	[*A*]a certain request[*R*]can be supported	context(a node can know)	negated: False ,passive: False
+0.942	[*A*]a node[*R*]can know[*A*]whether a certain request can be supported without launching the path[*A*]When the QoS information is provided[*A*]immediately	context()	negated: False ,passive: False
+0.803	[*A*]the QoS information[*R*]is provided	context()	negated: False ,passive: False
+[LINE#4]Unfortunately, as the problem of finding a route satisfying two additive constraints is NP-complete, the supported QoS information can only be approximated using a polynomial time mechanism.
+0.944	[*A*]Unfortunately, as the problem of finding a route satisfying two additive constraints is NP-complete, the supported QoS information[*R*]can be approximated	context()	negated: False ,passive: False
+0.903	[*A*]a route[*R*]satisfying[*A*]two additive constraints	context()	negated: False ,passive: False
+[LINE#5]A good approximation scheme should reduce the error in estimating the actual supported QoS.
+0.919	[*A*]A good approximation scheme[*R*]should reduce[*A*]the error	context()	negated: False ,passive: False
+[LINE#6]Nevertheless, existing approaches which determine this error may not truly reflect the performance on admission control, meaning whether a request can be correctly classified as feasible or infeasible.
+0.935	[*A*]existing approaches which determine this error[*R*]may not reflect[*A*]the performance on admission control[*A*]meaning whether a request can be correctly classified as feasible or infeasible	context()	negated: True ,passive: True
+0.887	[*A*]existing approaches[*R*]determine[*A*]this error	context()	negated: False ,passive: False
+[LINE#7]In this paper, we propose using a novel metric, known as distortion area, to evaluate the performance of precomputing the supported QoS.
+0.920	[*A*]a novel metric[*R*]known[*A*]as distortion area	context()	negated: False ,passive: True
+0.433	[*A*]we[*R*]propose using[*A*]a novel metric, known as distortion area[*A*]to evaluate the performance of precomputing the supported QoS	context(we propose)	negated: False ,passive: False
+0.686	[*A*]we[*R*]propose[*A*]using a novel metric, known as distortion area, to evaluate the performance of precomputing the supported QoS[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#8]We then analyze the performance of the class of algorithms that approximate the supported QoS through discretizing link metrics.
+0.896	[*A*]algorithms[*R*]approximate[*A*]the supported QoS	context()	negated: False ,passive: False
+0.554	[*A*]We[*R*]analyze[*A*]the performance of the class of algorithms[*A*]then	context()	negated: False ,passive: False
+[LINE#9]We demonstrate how the performance of these schemes can be enhanced without increasing complexity.
+0.745	[*A*]the performance of these schemes[*R*]can be enhanced	context(We demonstrate)	negated: False ,passive: False
+0.514	[*A*]We[*R*]demonstrate[*A*]how the performance of these schemes can be enhanced without increasing complexity	context()	negated: False ,passive: False
+[LINE#10]Our results serve as a guideline on developing discretization-based approximation algorithms.
+0.739	[*A*]Our results[*R*]serve[*A*]as a guideline on developing discretization-based approximation algorithms	context()	negated: False ,passive: False
+[LINE#11] Analyzing the distortion area of the existing algorithmsInthis section, we first present an exact pseudo-polynomial algorithm for computing the supported QoS with an integer cost metric.
+0.649	[*A*]we[*R*]present[*A*]an exact pseudo-polynomial algorithm for computing the supported QoS with an integer cost metric[*A*]first	context()	negated: False ,passive: False
+[LINE#12]In fact, this algorithm was mentioned in many existing literatures (Hassin, 1992; Orda and Sprintson, 2003).
+0.903	[*A*]this algorithm[*R*]was mentioned[*A*]in many existing literatures	context()	negated: False ,passive: True
+[LINE#13]We then present the existing quantization-based methods applied for precomputing the supported QoS.
+0.801	[*A*]the existing quantization-based methods[*R*]applied	context()	negated: False ,passive: False
+0.706	[*A*]We[*R*]present[*A*]the existing quantization-based methods applied for precomputing the supported QoS[*A*]then	context()	negated: False ,passive: False
+[LINE#14]Finally, we analyze the performance of the existing quantization-based algorithms based on the proposed metric, distortion area.
+0.932	[*A*]the existing quantization-based algorithms[*R*]based[*A*]on the proposed metric, distortion area	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]analyze[*A*]the performance of the existing quantization-based algorithms[*A*]Finally	context()	negated: False ,passive: False
+[LINE#15]As mentioned in Section 1, distortion area is defined as the difference between the approximate supported QoS region calculated by an approximation algorithm and the optimal supported QoS region.
+0.918	[*A*]the optimal[*R*]supported[*A*]QoS region	context()	negated: False ,passive: False
+0.944	[*A*]the approximate supported QoS region[*R*]calculated[*A*]by an approximation algorithm	context()	negated: False ,passive: True
+0.918	[*A*]distortion area[*R*]is defined[*A*]as the difference between the approximate supported QoS region	context()	negated: False ,passive: True
+[LINE#16] For instance, the shaded area in Fig. 3 shows the optimal supported QoS regionwhile Fig. 4(a) shows an approximate supported QoS region.
+0.896	[*A*]the optimal[*R*]supported[*A*]QoS regionwhile	context(the shaded area in Fig shows)	negated: False ,passive: False
+0.946	[*A*]the shaded area in Fig[*R*]shows[*A*]the optimal supported QoS regionwhile Fig	context()	negated: False ,passive: False
+[LINE#17] We calculate the shaded area in Fig..
+0.498	[*A*]We[*R*]calculate[*A*]the shaded area in Fig	context()	negated: False ,passive: False
+[LINE#18]The distortion area caused by the approximation algorithm is 0.04.
+0.886	[*A*]The distortion area caused by the approximation algorithm[*R*]is[*A*]0.04	context()	negated: False ,passive: True
+0.911	[*A*]The distortion area[*R*]caused[*A*]by the approximation algorithm	context()	negated: False ,passive: True
+[LINE#19]If we assume that the requirements of the connection request are uniformly distributed in the supported QoS region, we can consider that almost 10% of all the requests would be rejected by the approximation algorithm, while these requests actually can be supported by the network.
+0.949	[*A*]almost 10% of all the requests[*R*]would be rejected[*A*]by the approximation algorithm[*A*]while these requests actually can be supported by the network	context(we can consider)	negated: False ,passive: True
+0.271	[*A*]we[*R*]can consider[*A*]that almost 10% of all the requests would be rejected by the approximation algorithm, while these requests actually can be supported by the network	context()	negated: False ,passive: False
+0.930	[*A*]the requirements of the connection request[*R*]are uniformly distributed[*A*]in the supported QoS region	context(we assume)	negated: False ,passive: True
+0.317	[*A*]we[*R*]assume[*A*]that the requirements of the connection request are uniformly distributed in the supported QoS region	context()	negated: False ,passive: False
+0.887	[*A*]these requests[*R*]can be supported[*A*]by the network	context()	negated: False ,passive: True
+[LINE#20]In the following, we would give the upper bound of the distortion area introduced by different algorithms.
+0.911	[*A*]the distortion area[*R*]introduced[*A*]by different algorithms	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]would give[*A*]the upper bound of the distortion area[*A*]In the following	context()	negated: False ,passive: False
+[LINE#21]Suppose that we arrange the points in PFs,gopt in cost-ascending order.
+0.869	[*A*]PFs[*R*]gopt[*A*]in cost-ascending order	context()	negated: False ,passive: True
+[LINE#22] The first representative point rc=(Lc,Ud) corresponds to the minimum cost path, and the last representative pointrd=(Uc,Ld) corresponds to the minimum delay path.
+0.897	[*A*]the last representative[*R*]corresponds[*A*]to the minimum delay path	context()	negated: False ,passive: True
+0.913	[*A*]The first representative point rc=[*R*]corresponds[*A*]to the minimum cost path	context()	negated: False ,passive: True
+[LINE#23]All other representative points must have a cost falling between Lc and Uc, and a delay falling between Ld and Ud (Bauer et al., 2000).
+0.732	[*A*]a delay[*R*]falling	context()	negated: False ,passive: False
+0.732	[*A*]a cost[*R*]falling	context()	negated: False ,passive: False
+0.931	[*A*]All other representative points[*R*]must have[*A*]a cost falling between Lc and Uc	context()	negated: False ,passive: False
+[LINE#24]If we obtain all the representative points, we can derive the optimal delay function Ds,gopt(c), and vice versa.
+0.195	[*A*]we[*R*]vice versa	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]can derive[*A*]the optimal delay function	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]obtain[*A*]all the representative points	context()	negated: False ,passive: False
+[LINE#25]For example, in Fig. 2(b), the QoS parameter of the minimum cost path is (4,7), and the QoS parameter of the minimum delay path is (8,4).
+0.898	[*A*]the QoS parameter of the minimum delay path[*R*]is	context()	negated: False ,passive: False
+[LINE#26] In order to compute the optimal delay function DA,Gopt(c), we just need to find the representative pointsand (7,5), which have the costs falling between 4 and 8.
+0.462	[*A*]we[*R*]need to find[*A*]the representative pointsand (7,5), which have the costs	context(we need)	negated: False ,passive: False
+0.349	[*A*]we[*R*]need[*A*]to find the representative pointsand	context()	negated: False ,passive: False
+0.767	[*A*]the costs[*R*]falling[*A*]between 4 and 8	context()	negated: False ,passive: True
+0.897	[*A*]the representative pointsand[*R*]have[*A*]the costs falling between 4 and 8	context()	negated: False ,passive: False
+[LINE#27]To make the problem tractable, we first consider that the cost metric associated with each link is integer.
+0.939	[*A*]the cost metric associated with each link[*R*]is[*A*]integer	context(we consider)	negated: False ,passive: True
+0.359	[*A*]we[*R*]consider[*A*]that the cost metric associated with each link is integer[*A*]first	context()	negated: False ,passive: False
+0.911	[*A*]the cost metric[*R*]associated[*A*]with each link	context()	negated: False ,passive: True
+[LINE#28]For the ease of the subsequent discussion, we assume that Uc and Ud are the same, denoted by UB, and Lc and Ld are the same, denoted by LB=1..
+0.857	[*A*]Ud[*R*]denoted[*A*]by Ld	context()	negated: False ,passive: True
+0.857	[*A*]Ud[*R*]denoted[*A*]by Lc	context()	negated: False ,passive: True
+0.857	[*A*]Uc[*R*]denoted[*A*]by Ld	context()	negated: False ,passive: True
+0.572	[*A*]the same[*R*]denoted[*A*]by LB=1	context()	negated: False ,passive: True
+0.857	[*A*]Uc[*R*]denoted[*A*]by Lc	context()	negated: False ,passive: True
+0.616	[*A*]Ud[*R*]are[*A*]the same	context(we assume)	negated: False ,passive: True
+0.218	[*A*]we[*R*]assume[*A*]that Ud are the same	context()	negated: False ,passive: False
+0.857	[*A*]Ud[*R*]denoted[*A*]by UB	context()	negated: False ,passive: True
+0.616	[*A*]Uc[*R*]are[*A*]the same	context(we assume)	negated: False ,passive: True
+0.218	[*A*]we[*R*]assume[*A*]that Uc are the same	context()	negated: False ,passive: False
+0.857	[*A*]Uc[*R*]denoted[*A*]by UB	context()	negated: False ,passive: True
+[LINE#29] Exact algorithmSimilar to Hassin (1992) and Orda and Sprintson (2003), we assume that, for simplicity, network can be represented by a directed acyclic graph.
+[LINE#30]The extension of the algorithm for a general graph is straightforward.
+0.895	[*A*]The extension of the algorithm for a general graph[*R*]is[*A*]straightforward	context()	negated: False ,passive: True
+[LINE#31]In DAG, the network nodes are numbered in a way such that (i,j)E implies i<j.
+0.703	[*A*]E[*R*]implies[*A*]i<	context()	negated: False ,passive: False
+0.948	[*A*]the network nodes[*R*]are numbered[*A*]In DAG	context()	negated: False ,passive: True
+[LINE#32] If the cost metric of each link is an integer, we can develop a pseudo-polynomial algorithm for computing the supported QoS as follows:(1)Dg,g(c)0,c0;Di,g(c),c0,iV{g};Di,g(c)=minkA(i){Dk,g(c-c(i,k))+d(i,k),Di,g(c-1)}c=0,1,2,3,,UB,iV.Orda and Sprintson (2003) and Hassin (1992) give the pseudo-polynomial algorithm description as the same as (1).
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop Sprintson give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(Sprintson give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop iV.Orda give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(iV.Orda give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop UB give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(UB give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop Sprintson give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(Sprintson give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop iV.Orda give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(iV.Orda give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop UB give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(UB give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop Sprintson give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(Sprintson give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop iV.Orda give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(iV.Orda give)	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop UB give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(UB give)	negated: False ,passive: False
+0.906	[*A*]Hassin[*R*]give[*A*]the pseudo - polynomial algorithm description[*A*]as the same as ( 1	context()	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context()	negated: False ,passive: False
+0.922	[*A*]Hassin ( 1992[*R*]give[*A*]the pseudo - polynomial algorithm description[*A*]as the same as ( 1	context()	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop Sprintson give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(Sprintson give)	negated: False ,passive: False
+0.898	[*A*]Sprintson[*R*]give[*A*]the pseudo - polynomial algorithm description[*A*]as the same as ( 1	context()	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop iV.Orda give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(iV.Orda give)	negated: False ,passive: False
+0.898	[*A*]iV.Orda[*R*]give[*A*]the pseudo - polynomial algorithm description[*A*]as the same as ( 1	context()	negated: False ,passive: False
+0.939	[*A*]If the cost metric of each link[*R*]is[*A*]an integer	context(we can develop UB give)	negated: False ,passive: True
+0.550	[*A*]we[*R*]can develop[*A*]a pseudo - polynomial algorithm for computing the supported QoS	context(UB give)	negated: False ,passive: False
+0.820	[*A*]UB[*R*]give[*A*]the pseudo - polynomial algorithm description[*A*]as the same as ( 1	context()	negated: False ,passive: False
+[LINE#33]To compute {Di,g(c),c0} for all iV, we keep a table of |V| rows and UB columns, where one row for each node and one column for each integer cost value.
+0.614	[*A*]we[*R*]keep[*A*]a table of |V| rows and UB columns	context()	negated: False ,passive: False
+[LINE#34] To ease our discussion, we label the nodes as 1,2,.
+0.388	[*A*]we[*R*]label[*A*]the nodes[*A*]as 1,2	context()	negated: False ,passive: False
+[LINE#35]The entry on Row i and Column j represents the estimated delay from Node i to Node g at Cost j.
+0.957	[*A*]The entry on Row Column j[*R*]represents[*A*]the estimated delay from Node	context()	negated: False ,passive: False
+0.957	[*A*]the estimated delay from Node[*R*]g[*A*]i to Node	context()	negated: False ,passive: True
+0.498	[*A*]i[*R*]represents[*A*]the estimated delay from Node	context()	negated: False ,passive: False
+[LINE#36]Initially, Dg,g(j), for all j=0,1,,UB, are all set to be zero while Di,g(j), for all ig and j=0,1,,UB, are all set to be infinity.
+[LINE#37] In the first step, each neighbor u of g sets Du,g(c) to be du,g, where c=cu,g,cu,g+1,.
+0.973	[*A*]each neighbor u of g[*R*]sets[*A*]Du[*A*]In the first step	context()	negated: False ,passive: False
+[LINE#38]In step k, we update {Di,g(c),c0} for those nodes i that can be k hops away from g.
+0.610	[*A*]k[*R*]hops[*A*]away from	context(i can be)	negated: False ,passive: False
+0.349	[*A*]i[*R*]can be[*A*]k hops away from	context()	negated: False ,passive: True
+0.464	[*A*]we[*R*]update[*A*]Di,g(c),c0} for those nodes[*A*]In step k	context()	negated: False ,passive: False
+[LINE#39]After |V|-1 steps, the algorithm terminates since no path can have more than (|V|-1) hops.
+0.589	[*A*]V[*R*]hops	context()	negated: False ,passive: False
+0.937	[*A*]no path[*R*]can have[*A*]more than (|V|-1) hops	context()	negated: False ,passive: False
+0.964	[*A*]the algorithm[*R*]terminates[*A*]since no path can have more than (|V|-1) hops[*A*]After |V|-1 steps	context()	negated: False ,passive: True
+[LINE#40] As referred to Orda and Sprintson(2003), the computational complexity of this pseudo-polynomial algorithm is O(|E|UB). .
+0.960	[*A*]the computational complexity of this pseudo - polynomial algorithm[*R*]is[*A*]O	context()	negated: False ,passive: True
+[LINE#41]Existing quantization-based algorithmsIn general, cost values are not necessarily integers.
+0.903	[*A*]cost values[*R*]are not[*A*]necessarily[*A*]integers	context()	negated: True ,passive: True
+[LINE#42]The cost value of each link is quantized such that it is selected from a set of possible values, instead of the continuous real number line.
+0.452	[*A*]it[*R*]is selected[*A*]from a set of possible values	context()	negated: False ,passive: True
+0.801	[*A*]The cost value of each link[*R*]is quantized	context()	negated: False ,passive: False
+[LINE#43]Given the lower bound and the upper bound of the cost values Lc and Uc, we obtain a set of possible quantized cost values, denoted by {s1,s2,,sn}.
+0.905	[*A*]the upper bound of the cost values Uc , we obtain a set of possible quantized cost values[*R*]denoted[*A*]by { s1 , s2 ,, sn	context()	negated: False ,passive: True
+0.905	[*A*]the upper bound of the cost values Lc , we obtain a set of possible quantized cost values[*R*]denoted[*A*]by { s1 , s2 ,, sn	context()	negated: False ,passive: True
+0.905	[*A*]possible quantized cost values[*R*]denoted[*A*]by { s1 , s2 ,, sn	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]obtain[*A*]a set of possible quantized cost values	context()	negated: False ,passive: False
+[LINE#44]We then assume that each link or path cost is one of the quantized values.
+0.927	[*A*]each link or path cost[*R*]is[*A*]one of the quantized values	context(We assume)	negated: False ,passive: True
+0.359	[*A*]We[*R*]assume[*A*]that each link or path cost is one of the quantized values[*A*]then	context()	negated: False ,passive: False
+[LINE#45]For instance, if the cost value of a link cl falls between sj and sj+1, where j=1,,n-1, we assume clsj+1.
+0.225	[*A*]we[*R*]assume[*A*]clsj+1	context()	negated: False ,passive: False
+0.855	[*A*]the cost value of a link cl[*R*]falls	context()	negated: False ,passive: False
+[LINE#46]Hence, we can use (1) to compute the delay function at the samples.
+0.999	[*A*]we[*R*]can use[*A*]1	context()	negated: False ,passive: False
+0.293	[*A*]we[*R*]can use to compute[*A*]the delay function[*A*]at the samples	context(we can use)	negated: False ,passive: False
+0.346	[*A*]we[*R*]can use[*A*]to compute the delay function at the samples	context()	negated: False ,passive: False
+[LINE#47]We thus can obtain the approximated representative points based on the quantized cost values.
+0.919	[*A*]the approximated representative points[*R*]based[*A*]on the quantized cost values	context()	negated: False ,passive: True
+0.528	[*A*]We[*R*]can obtain[*A*]the approximated representative points based on the quantized cost values	context()	negated: False ,passive: False
+[LINE#48]We call this method the quantization-based approximation method.
+0.522	[*A*]We[*R*]call[*A*]this method[*A*]the quantization-based approximation method	context()	negated: False ,passive: False
+[LINE#49]As mentioned in Section 2, the existing approximation algorithms generally apply this quantization method to solve the NP-complete problem.
+0.898	[*A*]the existing approximation algorithms[*R*]apply this quantization method to solve[*A*]the NP-complete problem	context(the existing approximation algorithms apply)	negated: False ,passive: False
+0.898	[*A*]the existing approximation algorithms[*R*]apply[*A*]this quantization method[*A*]to solve the NP-complete problem	context()	negated: False ,passive: False
+[LINE#50]Different algorithms can indeed apply different quantization methods (Orda and Sprintson, 2003; Hassin, 1992; Lorenz and Raz, 2001; Goel et al., 2001; Chen et al., 2008; Sahni, 1977; Xue et al., 2007).
+0.859	[*A*]Different algorithms[*R*]can apply[*A*]different quantization methods	context()	negated: False ,passive: False
+[LINE#51]Most of them apply uniform scaling, and the work in Orda and Sprintson (2003) applies logarithmic scaling.
+0.928	[*A*]the work in Sprintson[*R*]applies[*A*]logarithmic scaling	context()	negated: False ,passive: False
+0.939	[*A*]the work in Orda[*R*]applies[*A*]logarithmic scaling	context()	negated: False ,passive: False
+0.660	[*A*]Most of them[*R*]apply[*A*]uniform scaling	context()	negated: False ,passive: False
+[LINE#52]Generally speaking, when applying uniform scaling, the set of possible cost values is denoted by {1,x,(x+1),,(x+m),UB}, where x=min{k|(k>1)(kZ+)}, and m=max{t|((x+t)<UB)(tZ+)}.
+0.829	[*A*]the set of possible cost values[*R*]is denoted[*A*]by { 1 , x	context()	negated: False ,passive: True
+[LINE#53]Different methods may select different values for .
+0.903	[*A*]Different methods[*R*]may select[*A*]different values[*A*]for	context()	negated: False ,passive: False
+[LINE#54]We shall discuss how to calculate the distortion area produced by uniform scaling with the given scaling parameter .
+0.293	[*A*]We[*R*]shall discuss to calculate[*A*]the distortion area produced by uniform	context(We shall discuss)	negated: False ,passive: False
+0.388	[*A*]We[*R*]shall discuss[*A*]how to calculate the distortion area	context()	negated: False ,passive: False
+0.911	[*A*]the distortion area[*R*]produced[*A*]by uniform	context()	negated: False ,passive: True
+[LINE#55] In logarithmic scaling, the cost metric of each path is selected from {1,(1+),(1+)2,,(1+)n,UB}, where n<UB)(jZ+)}.Consider the optimal delay function Ds,gopt(c) as depicted in Fig. 3.
+0.833	[*A*]UB[*R*]Consider[*A*]the optimal delay function	context()	negated: False ,passive: False
+0.961	[*A*]the cost metric of each path[*R*]is selected[*A*]from {1[*A*]In logarithmic scaling	context()	negated: False ,passive: True
+[LINE#56]By using logarithmic scaling, there are three samples for cost, namely, 1.2, 1.44, and 1.728.
+[LINE#57]From Fig. 3, the minimum delays at these cost values are 2.2, 1.8, and 1.3.
+0.973	[*A*]the minimum delays at these cost values[*R*]are[*A*]1.3	context()	negated: False ,passive: False
+0.970	[*A*]the minimum delays at these cost values[*R*]are[*A*]1.3[*A*]From Fig . 3	context()	negated: False ,passive: True
+0.973	[*A*]the minimum delays at these cost values[*R*]are[*A*]1.8	context()	negated: False ,passive: False
+0.970	[*A*]the minimum delays at these cost values[*R*]are[*A*]1.8[*A*]From Fig . 3	context()	negated: False ,passive: True
+0.973	[*A*]the minimum delays at these cost values[*R*]are[*A*]2.2	context()	negated: False ,passive: False
+0.970	[*A*]the minimum delays at these cost values[*R*]are[*A*]2.2[*A*]From Fig . 3	context()	negated: False ,passive: True
+[LINE#58] We thus obtain the resulting approximated delay function as exhibited in Fig..
+0.456	[*A*]We[*R*]obtain[*A*]the resulting approximated delay function[*A*]as exhibited in Fig	context()	negated: False ,passive: False
+[LINE#59]On the other hand, when uniform scaling is used, there are four samples between 1 and 2, which are 1.2, 1.4, 1.6, and 1.8.
+0.803	[*A*]four samples between 1 and 2[*R*]are[*A*]1.8	context()	negated: False ,passive: True
+0.803	[*A*]four samples between 1 and 2[*R*]are[*A*]1.6	context()	negated: False ,passive: True
+0.803	[*A*]four samples between 1 and 2[*R*]are[*A*]1.4	context()	negated: False ,passive: True
+0.803	[*A*]four samples between 1 and 2[*R*]are[*A*]1.2	context()	negated: False ,passive: True
+0.732	[*A*]uniform scaling[*R*]is used	context()	negated: False ,passive: False
+[LINE#60] The resulting approximated delay function is exhibited in Fig..
+0.937	[*A*]The resulting approximated delay function[*R*]is exhibited[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#61]It can be observed that different scaling schemes lead to different approximated delay functions.
+[LINE#62](without the opt superscript) as the approximated delay function.
+[LINE#63]Without loss of generality, assume that the set of the possible cost values is K={1,k1,k2,,km,UB}, which is generated by either uniform scaling or logarithmic scaling or any other quantization method.
+0.951	[*A*]the set of the possible cost values[*R*]is[*A*]K={1,k1,k2,,km	context(Without loss of generality assume)	negated: False ,passive: True
+0.844	[*A*]Without loss of generality[*R*]assume[*A*]that the set of the possible cost values is K={1,k1,k2,,km	context()	negated: False ,passive: False
+0.971	[*A*]K={1,k1,k2,,km[*R*]is generated[*A*]by either uniform scaling or logarithmic scaling or any other quantization method	context()	negated: False ,passive: True
+[LINE#64] and we compute the value of Ds,g(c) at the quantized values within [1,UB] as follows:(2)Dg,g(c)=0,c0;Di,g(c),c0,iV{g};Di,g(c)=minkA(i){Dk,g(c-c(i,k))+d(i,k),Di, g(c)}c=kj,c=kj-1forj=0,,m+1.If c(2) is similar to (1), except that the set of the cost values is different.
+0.443	[*A*]we[*R*]compute[*A*]the value of Ds	context(Di , g ( c ) =minkA ( i ) { Dk , g ( c - c ( i , k ) ) +d ( i , k ) , Di , g ( c ) } c=kj , c=kj - 1forj=0 ,, m+1.If c is)	negated: False ,passive: False
+0.998	[*A*]Di,g(c)=minkA(i){Dk,g(c-c(i,k))+d(i,k),Di, g(c)}c=kj,c=kj-1forj=0,,m+1.If c[*R*]is[*A*]similar to (1), except that the set of the cost values is different	context()	negated: False ,passive: True
+0.865	[*A*]the set of the cost values[*R*]is[*A*]different	context()	negated: False ,passive: True
+[LINE#65]In (1), the QoS metric of each link is an integer.
+0.978	[*A*]the QoS metric of each link[*R*]is[*A*]an integer[*A*]In (1	context()	negated: False ,passive: True
+[LINE#66]We just compute the minimum delay value at the integer cost value.
+0.411	[*A*]We[*R*]compute[*A*]the minimum delay value at the integer cost value	context()	negated: False ,passive: False
+[LINE#67]On the other hand, in (2), the cost value is selected from a set of real numbers.
+0.948	[*A*]the cost value[*R*]is selected[*A*]from a set of real numbers[*A*]in (2	context()	negated: False ,passive: True
+[LINE#68]We compute the minimum delay values at the discrete cost values, which may not necessarily be integers.
+0.862	[*A*]the discrete cost values[*R*]may not be[*A*]integers	context()	negated: True ,passive: True
+0.452	[*A*]We[*R*]compute[*A*]the minimum delay values at the discrete cost values	context()	negated: False ,passive: False
+[LINE#69]By applying the quantization method, the representative points in Ds,g(c) must be at the selected cost values.
+0.934	[*A*]the representative points in Ds[*R*]must be[*A*]at the selected cost values	context()	negated: False ,passive: True
+[LINE#70]The pseudo-code of the approximation algorithm can be referred to http://www.eee.hku.hk/research/technical_reports.htm.
+0.854	[*A*]The pseudo-code of the approximation algorithm[*R*]can be referred[*A*]to http://www.eee.hku.hk/research/technical_reports.htm.	context()	negated: False ,passive: True
+[LINE#71]As we only consider a limited number of the cost values, some representative points may be missed out under the estimation.
+0.911	[*A*]some representative points[*R*]may be missed out[*A*]under the estimation	context()	negated: False ,passive: True
+0.411	[*A*]we[*R*]consider[*A*]a limited number of the cost values	context()	negated: False ,passive: False
+[LINE#72]A drop in the minimum delay may happen at a later quantized cost value.
+0.932	[*A*]A drop in the minimum delay[*R*]may happen[*A*]at a later quantized cost value	context()	negated: False ,passive: True
+[LINE#73] For example, the representative point (1.5,1.6) appears in Fig..
+0.913	[*A*]the representative point[*R*]appears[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#74] Besides, the optimal delay function in Fig..
+[LINE#75]In other words, the scaling method can overestimate the delay at some costs.
+0.911	[*A*]the scaling method[*R*]can overestimate[*A*]the delay at some costs	context()	negated: False ,passive: False
+[LINE#76]The following lemma describes this phenomena.
+0.911	[*A*]The following lemma[*R*]describes[*A*]this phenomena	context()	negated: False ,passive: False
+[LINE#77]any c>0, if Ds,g(c)<, Ds,g(c)Ds,gopt(c).ProofDs,g(c) is initially set to infinity.
+0.908	[*A*]ProofDs[*R*]is set[*A*]to infinity[*A*]initially	context()	negated: False ,passive: True
+0.811	[*A*]gopt[*R*]is set[*A*]to infinity[*A*]initially	context()	negated: False ,passive: True
+0.873	[*A*]Ds[*R*]is set[*A*]to infinity[*A*]initially	context()	negated: False ,passive: True
+0.811	[*A*]c[*R*]is set[*A*]to infinity[*A*]initially	context()	negated: False ,passive: True
+0.651	[*A*]any c > 0[*R*]is set[*A*]to infinity[*A*]initially	context()	negated: False ,passive: True
+[LINE#78]According to (2), if Ds,g(c)<, there exists a physical path satisfying Request (c,Ds,g(c)).
+0.911	[*A*]a physical path[*R*]satisfying[*A*]Request	context()	negated: False ,passive: False
+[LINE#79]If Ds,g(c)<Ds,gopt(c), the optimal minimum delay from s to g with the cost constraint of c becomes Ds,g(c), which is less than Ds,gopt(c).
+0.830	[*A*]gopt[*R*]is[*A*]less than Ds , gopt	context()	negated: False ,passive: True
+0.935	[*A*]If Ds , g ( c ) < Ds[*R*]is[*A*]less than Ds , gopt	context()	negated: False ,passive: True
+[LINE#80]In this case, Ds,gopt(c) is no more the optimal delay function, which contradicts our assumption.
+0.838	[*A*]the optimal delay function[*R*]contradicts[*A*]our assumption	context()	negated: False ,passive: False
+0.946	[*A*]Ds,gopt(c[*R*]is[*A*]no more[*A*]In this case	context()	negated: False ,passive: True
+[LINE#81] For ease of discussion, we drop the subscripts s and g in the delay functions and simply use D(c) and Dopt(c)instead when the context is clear. .
+0.905	[*A*]the subscripts[*R*]g[*A*]in the delay functions	context(we drop)	negated: False ,passive: False
+0.457	[*A*]we[*R*]drop[*A*]the subscripts g in the delay functions	context()	negated: False ,passive: False
+0.522	[*A*]we[*R*]drop[*A*]the subscripts s	context()	negated: False ,passive: False
+[LINE#82]Distortion area analysisLet PF be the approximated representative points found by the algorithm.
+[LINE#83]For instance, in Fig. 4(a), PF has (1,2.2), (1.4,1.8), (1.6,1.5), (1.8,1.3), and (2,1).
+0.933	[*A*]PF[*R*]has[*A*]in Fig . 4	context()	negated: False ,passive: False
+0.999	[*A*]PF[*R*]has[*A*]12.2	context()	negated: False ,passive: False
+0.933	[*A*]PF[*R*]has[*A*]For instance , in Fig . 4	context()	negated: False ,passive: False
+[LINE#84] (1.5,1.6), (1.6,1.5), (1.7,1.3),and (2,1), as illustrated in Fig. 3.
+[LINE#85]For each point x on the cost-delay plane, denote xc and xd as the cost metric and delay metric of this point, respectively.
+[LINE#86]For each representative point rPF, we have rd=D(rc).
+0.639	[*A*]we[*R*]have[*A*]rd=D[*A*]For each representative point rPF	context()	negated: False ,passive: False
+[LINE#87]By Lemma 1, Dopt(rc)D(rc)=rd.
+[LINE#88] This implies that there exists a representative point rPFopt.
+0.089	[*A*]This[*R*]implies[*A*]that there exists a representative point rPFopt	context()	negated: False ,passive: False
+[LINE#89]Let Afeasible be the feasible area estimated by an algorithm, which is defined by PF.
+0.905	[*A*]an algorithm[*R*]is defined[*A*]by PF	context()	negated: False ,passive: True
+0.911	[*A*]the feasible area[*R*]estimated[*A*]by an algorithm	context()	negated: False ,passive: True
+[LINE#90]We thus have AfeasibleAfeasibleopt.
+0.456	[*A*]We[*R*]have[*A*]AfeasibleAfeasibleopt	context()	negated: False ,passive: False
+[LINE#91]As mentioned in Section 1, the distortion area is defined as Aerror=AfeasibleoptAfeasible.
+0.925	[*A*]the distortion area[*R*]is defined[*A*]as Aerror=AfeasibleoptAfeasible	context()	negated: False ,passive: True
+[LINE#92]Although Afeasibleopt and Afeasible are both infinite, Aerror must be finite since both Afeasibleopt and Afeasible contain the bounded minimum cost and minimum delay representative points.
+0.920	[*A*]Afeasible[*R*]are[*A*]both infinite	context()	negated: False ,passive: True
+0.920	[*A*]Afeasible[*R*]contain[*A*]the minimum delay representative points	context()	negated: False ,passive: False
+0.932	[*A*]Aerror[*R*]must be[*A*]finite[*A*]since Afeasible contain the minimum delay representative points	context()	negated: False ,passive: True
+0.920	[*A*]Afeasible[*R*]contain[*A*]the bounded minimum cost	context()	negated: False ,passive: False
+0.932	[*A*]Aerror[*R*]must be[*A*]finite[*A*]since Afeasible contain the bounded minimum cost	context()	negated: False ,passive: True
+0.927	[*A*]both Afeasibleopt[*R*]contain[*A*]the minimum delay representative points	context()	negated: False ,passive: False
+0.932	[*A*]Aerror[*R*]must be[*A*]finite[*A*]since both Afeasibleopt contain the minimum delay representative points	context()	negated: False ,passive: True
+0.927	[*A*]both Afeasibleopt[*R*]contain[*A*]the bounded minimum cost	context()	negated: False ,passive: False
+0.932	[*A*]Aerror[*R*]must be[*A*]finite[*A*]since both Afeasibleopt contain the bounded minimum cost	context()	negated: False ,passive: True
+0.920	[*A*]Afeasibleopt[*R*]are[*A*]both infinite	context()	negated: False ,passive: True
+[LINE#93]As discussed in Section 1, the distortion area reflects the admission control performance of the network.
+0.911	[*A*]the distortion area[*R*]reflects[*A*]the admission control performance of the network	context()	negated: False ,passive: True
+[LINE#94] We apply the distortion area as the metric to evaluate the performance of the quantization-based algorithms for estimating the supported QoS.Lemma 1implies that if D(c)=Dopt(c), cc. For example, in Figs.
+[LINE#95]3 and 5(a), the corresponding costs for delay=2 are 1.4 and 1.44, respectively, where the one on the approximation function is larger.
+[LINE#96] The cost deviation captures the difference in the cost values of the optimal and approximated delay functions, as referred to Definition4.Definition 4If c0 is the cost value of a representative point, we call c0 a representative cost.
+0.457	[*A*]we[*R*]call[*A*]c0[*A*]a representative cost	context()	negated: False ,passive: False
+0.943	[*A*]The cost deviation[*R*]captures[*A*]the difference in the cost values of the optimal and approximated delay functions	context()	negated: False ,passive: False
+[LINE#97]The cost deviation at the representative cost c0 on Dopt(c), denoted as CD(c0), is min {c|D(c)Dopt(c0)}-c0.The existing algorithms also give the upper bound of the cost deviation by using different quantization methods.
+0.901	[*A*]c0.The existing algorithms[*R*]give[*A*]the upper bound of the cost deviation	context()	negated: False ,passive: False
+0.903	[*A*]the upper[*R*]bound[*A*]of the cost deviation	context()	negated: False ,passive: True
+[LINE#98]For instance, it has been shown (Hassin, 1992) that the cost-deviation at any cost value is no more than H if we apply the scaling set K={1,,2,,m,UB}, where H is the maximum number of hops in the network.
+0.498	[*A*]we[*R*]apply[*A*]the scaling set K={1,,2	context()	negated: False ,passive: False
+0.852	[*A*]H[*R*]is[*A*]the maximum number of hops in the network	context()	negated: False ,passive: True
+0.949	[*A*]the cost-deviation at any cost value[*R*]is[*A*]no more than H[*A*]if we apply the scaling set K={1,,2,,m	context(it has been shown)	negated: False ,passive: True
+0.162	[*A*]it[*R*]has been shown	context()	negated: False ,passive: False
+[LINE#99]The work in Orda and Sprintson (2003) also shows that the cost-deviation at cost value c0 is no more than ((1+)H-1)c0 by using logarithmic scaling.
+0.857	[*A*]the cost-deviation at cost value c0[*R*]is[*A*]no more than ((1+	context(The work in Orda and Sprintson ( 2003 shows)	negated: False ,passive: True
+0.919	[*A*]The work in Orda and Sprintson (2003[*R*]shows[*A*]that the cost-deviation at cost value c0 is no more than ((1+)H-1)c0 by using logarithmic scaling	context()	negated: False ,passive: False
+[LINE#100]Since AfeasibleAfeasibleopt, the cost deviation at any cost value cannot be negative by using any kind of quantization method.
+0.970	[*A*]the cost deviation at any cost value[*R*]can not be[*A*]negative[*A*]Since AfeasibleAfeasibleopt	context()	negated: True ,passive: True
+[LINE#101]Generally, denote Cmax as the maximum cost-deviation at all the cost values.
+[LINE#102]It is the time to discuss how to calculate the distortion area based on PFopt={r0,r1,,rn-1,rn} and PF={r0,r1,,rm}, where r0=r0=rc, rn=rm=rd.
+0.952	[*A*]the distortion area[*R*]based[*A*]on PFopt= { r0 PF= { r0 , r1 ,, rm } , where r0=r0=rc	context()	negated: False ,passive: True
+0.637	[*A*]It[*R*]is[*A*]the time to discuss how to calculate the distortion area	context()	negated: False ,passive: True
+0.925	[*A*]the distortion area[*R*]based[*A*]on PFopt=	context()	negated: False ,passive: True
+0.678	[*A*]It[*R*]is[*A*]the time to discuss how to calculate the distortion area based on PFopt= { r0 , r1 ,, rn - 1 , rn } , where r0=r0=rc , rn=rm=rd	context()	negated: False ,passive: True
+[LINE#103]Suppose that the points in PFopt and PF are sorted in cost-ascending order.
+[LINE#104]Note that the first and the last representative points of PFopt and PF are the same because these two points are the minimum cost and minimum delay representative points, respectively.
+0.783	[*A*]these two points[*R*]are[*A*]the respectively	context()	negated: False ,passive: True
+0.911	[*A*]these two points[*R*]are[*A*]the minimum delay representative points	context()	negated: False ,passive: True
+0.911	[*A*]these two points[*R*]are[*A*]the minimum cost	context()	negated: False ,passive: True
+[LINE#105]They can be easily found out by Dijkstra's algorithm.
+0.658	[*A*]They[*R*]can be easily found out[*A*]by Dijkstra's algorithm	context()	negated: False ,passive: True
+[LINE#106]We first study how to calculate the distortion area between the delay values of two consecutive representative points ri and ri-1 in PFopt.
+0.706	[*A*]We[*R*]study[*A*]how to calculate the distortion area between the delay values of two consecutive representative points ri and ri-1 in PFopt[*A*]first	context()	negated: False ,passive: False
+[LINE#107]By Definition 4, the point (ri.c+CD(ri.c),ri.d) is on the efficient frontier defined by {D(c),c0}.
+0.925	[*A*]the efficient frontier[*R*]defined[*A*]by {D(c	context()	negated: False ,passive: True
+0.913	[*A*]the point[*R*]is[*A*]on the efficient frontier	context()	negated: False ,passive: True
+[LINE#108]If there is no representative point in PF located in the area [0,UB][rid,ri-1d], the area [ric,ric+CD(ric)][rid,ri-1d] is NOT included in the feasible area found by the scaling mechanism.
+0.934	[*A*]no representative point in PF[*R*]is NOT included[*A*]in the feasible area	context()	negated: True ,passive: True
+0.944	[*A*]no representative point in PF[*R*]located[*A*]in the area	context()	negated: False ,passive: True
+0.911	[*A*]the feasible area[*R*]found[*A*]by the scaling mechanism	context()	negated: False ,passive: True
+[LINE#109] The distortion area between the delay values of r1d and r2d is (r1d-r2d)CD(r2c),.
+0.968	[*A*]The distortion area between the delay values of r1d and r2d[*R*]is[*A*]r1d-r2d	context()	negated: False ,passive: True
+[LINE#110] If some representative points in PF, denoted by {rk,,rk+j}, are located in the region spanned by [0,UB](rid,ri-1d], rk+ld>ri.d, rk+lc<ric+CD(ric) for all l=0,.
+0.767	[*A*]the region[*R*]spanned[*A*]by [0	context()	negated: False ,passive: True
+0.934	[*A*]some representative points in PF[*R*]are located[*A*]in the region	context()	negated: False ,passive: True
+0.945	[*A*]some representative points in PF[*R*]denoted[*A*]by {rk,,rk+j	context()	negated: False ,passive: True
+[LINE#111]This means that all these representative points are located in the area [ric,ric+CD(ric)](rid,ri-1d].
+0.916	[*A*]all these representative points[*R*]are located[*A*]in the area [ric,ric+CD	context(This means)	negated: False ,passive: True
+0.258	[*A*]This[*R*]means[*A*]that all these representative points are located in the area [ric,ric+CD	context()	negated: False ,passive: False
+[LINE#112] By Definition 4, we have CD(r1c)=r3c, and we can observe that both points r1 and r2 are located in the area (r1d,rcd][r1c,r1c+CD(r1c)].Therefore, the distortion area between the delay values of rid and ri-1d is no more than (ri-1d-rid)CD(ric).The total distortion area is calculated by adding the distortion areas between the delay values of two consecutive optimal representative points as follows:(3)Aerror=i=1nCD(ric)(ri-1d-rid)Cmax(i=1n(ri-1d-rid))CmaxUBFor uniform scaling, we have(4)AerroruniHUB= =/H.Similarly, for logarithmic scaling, we have(5)Aerrorlog((1+)H-1)UBUB <UB2(=2H),since Cmax((1+)H-1)UB and .
+0.727	[*A*]The total distortion area[*R*]is calculated	context()	negated: False ,passive: False
+0.836	[*A*]i=1n(ri-1d-rid[*R*]scaling	context()	negated: False ,passive: False
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+0.905	[*A*]both points r1 and r2[*R*]are located[*A*]in the area	context(we can observe)	negated: False ,passive: True
+0.271	[*A*]we[*R*]can observe[*A*]that both points r1 and r2 are located in the area	context()	negated: False ,passive: False
+0.939	[*A*]The total distortion area[*R*]by adding[*A*]the distortion areas between the delay values of two consecutive optimal representative points	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]have[*A*]CD(r1c)=r3c	context()	negated: False ,passive: False
+[LINE#113]In this paper, we investigated the problem of precomputing the supported QoS with two additive constraints, which is NP-complete.
+0.933	[*A*]two additive constraints[*R*]is[*A*]NP-complete	context()	negated: False ,passive: True
+0.740	[*A*]we[*R*]investigated[*A*]the problem of precomputing the supported QoS with two additive constraints[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#114]We proposed a new metric, distortion area, to evaluate the performance of the approximation algorithms for estimating the supported QoS.
+0.614	[*A*]We[*R*]proposed[*A*]a new metric, distortion area, to evaluate the performance of the approximation algorithms for estimating the supported QoS	context()	negated: False ,passive: False
+[LINE#115]We gave the theoretical analysis for the upper bound of the distortion area produced by the existing quantization-based approximation algorithms, and then we presented a new method to further improve the accuracy performance, which is called two-dimensional scaling.
+0.897	[*A*]the accuracy performance[*R*]is called[*A*]two - dimensional scaling	context()	negated: False ,passive: True
+0.702	[*A*]we[*R*]presented[*A*]a new method to further improve the accuracy performance ,[*A*]then	context()	negated: False ,passive: False
+0.911	[*A*]the distortion area[*R*]produced[*A*]by the existing quantization - based approximation algorithms	context()	negated: False ,passive: True
+0.569	[*A*]We[*R*]gave[*A*]the theoretical analysis for the upper bound of the distortion area	context()	negated: False ,passive: False
+[LINE#116]We also formally show that two-dimensional scaling produces the smaller approximation error than the existing methods.
+0.897	[*A*]two-dimensional scaling[*R*]produces[*A*]the smaller approximation error than the existing methods	context(We formally show)	negated: False ,passive: False
+0.239	[*A*]We[*R*]formally show[*A*]that two-dimensional scaling produces the smaller approximation error than the existing methods	context()	negated: False ,passive: False
+[LINE#117]Finally, we demonstrated the performance of our method and compared it with the existing methods by conducting the extensive simulation experiments.
+0.562	[*A*]we[*R*]compared[*A*]it[*A*]with the existing methods by conducting the extensive simulation experiments[*A*]Finally	context()	negated: False ,passive: False
+0.444	[*A*]we[*R*]demonstrated[*A*]the performance of our method[*A*]Finally	context()	negated: False ,passive: False
+[LINE#118]Our method can be extended for the case of routing with multiple additive constraints.
+0.638	[*A*]Our method[*R*]can be extended[*A*]for the case of routing with multiple additive constraints	context()	negated: False ,passive: True
+[LINE#119]Further reducing the errorIn this section, we propose a strategy to further reduce the distortion area, which is called two-dimensional scaling.
+0.897	[*A*]the distortion area[*R*]is called[*A*]two-dimensional scaling	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]propose[*A*]a strategy to further reduce the distortion area,	context()	negated: False ,passive: False
+0.590	[*A*]Further[*R*]reducing[*A*]the errorIn	context()	negated: False ,passive: True
+[LINE#120]Two-dimensional scaling works with any quantization method, such as uniform scaling or logarithmic scaling.
+0.960	[*A*]Two-dimensional scaling[*R*]works[*A*]with any quantization method, such as uniform scaling or logarithmic scaling	context()	negated: False ,passive: False
+[LINE#121]We then calculate the upper bound of the distortion area produced by two-dimensional scaling.
+0.911	[*A*]the distortion area[*R*]produced[*A*]by two-dimensional scaling	context()	negated: False ,passive: True
+0.554	[*A*]We[*R*]calculate[*A*]the upper bound of the distortion area[*A*]then	context()	negated: False ,passive: False
+[LINE#122]Finally, we consider both quantization schemes, namely, uniform scaling and logarithmic scaling, and compare the error of two-dimensional scaling with that of the existing quantization-based algorithms..
+0.751	[*A*]namely , uniform[*R*]scaling	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]consider[*A*]both quantization schemes[*A*]Finally	context()	negated: False ,passive: False
+[LINE#123]the existing approximation algorithms, the cost metric is quantized, so that we can get the approximate delay function D(c).
+0.452	[*A*]we[*R*]can get[*A*]the approximate delay function D	context()	negated: False ,passive: False
+0.751	[*A*]the cost metric[*R*]is quantized	context()	negated: False ,passive: False
+[LINE#124]If we indeed quantize the delay metric by using the same scaling mechanism (logarithmic scaling or uniform scaling), we would get a different approximate cost function, denoted by C(d).
+0.927	[*A*]a different approximate cost function[*R*]denoted[*A*]by C(d	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]would get[*A*]a different approximate cost function, denoted by C(d)	context()	negated: False ,passive: False
+0.411	[*A*]we[*R*]quantize[*A*]the delay metric by using the same scaling mechanism	context()	negated: False ,passive: False
+[LINE#125]D(c) and C(d) may represent the different approximate supported QoS regions.
+0.636	[*A*]the different approximate[*R*]supported[*A*]QoS regions	context()	negated: False ,passive: False
+0.816	[*A*]C[*R*]may represent[*A*]the different approximate supported QoS regions	context()	negated: False ,passive: False
+0.843	[*A*]D ( c[*R*]supported[*A*]QoS regions	context()	negated: False ,passive: False
+[LINE#126]If we combine the two supported QoS regions represented by D(c) and C(d), we can get a more accurate supported QoS region than the one denoted by either one.
+0.938	[*A*]QoS regions[*R*]represented[*A*]by C	context()	negated: False ,passive: True
+0.938	[*A*]QoS regions[*R*]represented[*A*]by D	context()	negated: False ,passive: True
+0.613	[*A*]the two[*R*]supported[*A*]QoS regions	context()	negated: False ,passive: False
+0.195	[*A*]we[*R*]combine	context()	negated: False ,passive: False
+[LINE#127] For example, consider the optimal delay function depicted in Fig..
+0.931	[*A*]the optimal delay function[*R*]depicted[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#128] If we use the logarithmic scaling method on cost, we get the approximated function in Fig..
+0.568	[*A*]we[*R*]get[*A*]the approximated function[*A*]in Fig	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]use[*A*]the logarithmic scaling method on cost	context()	negated: False ,passive: False
+[LINE#129] On the other hand, if we quantize on delay, the function becomes the one shown in Fig..
+0.937	[*A*]the one[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.918	[*A*]the function[*R*]becomes[*A*]the one shown in Fig	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]quantize[*A*]on delay	context()	negated: False ,passive: False
+[LINE#130]The sets of the approximate representative points defined by the two functions are different.
+0.818	[*A*]The sets of the approximate representative points[*R*]are[*A*]different	context()	negated: False ,passive: True
+0.919	[*A*]the approximate representative points[*R*]defined[*A*]by the two functions	context()	negated: False ,passive: True
+[LINE#131]If we combine both sets, another set of seven representative points, i.e. {(1,2.2), (1.4,2.0736), (1.44,1.8), (1.5,1.728), (1.7,1.44), (1.728,1.3), (2,1)} is obtained, as shown in Fig. 6(b).
+0.452	[*A*]we[*R*]combine[*A*]both sets	context()	negated: False ,passive: False
+[LINE#132] The supported QoS region of Fig. 6(b) is larger than that of Fig.or (b).Our approximation algorithm is as follows.
+0.876	[*A*]The supported QoS region of Fig[*R*]is[*A*]larger than that of Fig.or	context(Our approximation algorithm is)	negated: False ,passive: True
+0.412	[*A*]Our approximation algorithm[*R*]is[*A*]as follows	context()	negated: False ,passive: True
+[LINE#133]Each node keeps two sets of the approximate representative points, PFu,gd and PFu,gc. PFu,gd is obtained by computing the minimum delay with all possible quantized cost values, while PFu,gc is obtained by computing the minimum cost with all possible quantized delay values.
+0.878	[*A*]Each node[*R*]keeps[*A*]two sets of the approximate representative points	context(gd is obtained)	negated: False ,passive: False
+0.878	[*A*]Each node[*R*]keeps[*A*]two sets of the approximate representative points , gd	context(gd is obtained)	negated: False ,passive: False
+0.561	[*A*]gc[*R*]is obtained	context()	negated: False ,passive: False
+0.878	[*A*]Each node[*R*]keeps[*A*]two sets of the approximate representative points	context(gd is obtained)	negated: False ,passive: False
+0.843	[*A*]gd[*R*]is obtained[*A*]while PFu , gc is obtained by computing the minimum cost with all possible quantized delay values	context()	negated: False ,passive: True
+0.886	[*A*]gc[*R*]is obtained[*A*]PFu	context()	negated: False ,passive: True
+[LINE#134]Both PFu,gd and PFu,gc may define different supported QoS regions.
+0.928	[*A*]Both PFu[*R*]supported[*A*]QoS regions	context()	negated: False ,passive: False
+0.840	[*A*]gc[*R*]may define[*A*]different supported QoS regions	context()	negated: False ,passive: False
+[LINE#135]We combine both sets to define the supported QoS region from u to g.
+0.433	[*A*]We[*R*]combine both sets to define[*A*]the supported QoS region[*A*]from u to	context(We combine)	negated: False ,passive: False
+0.433	[*A*]We[*R*]combine[*A*]both sets[*A*]to define the supported QoS region from u to	context()	negated: False ,passive: False
+[LINE#136]The pseudo-code of our algorithm is referred to http://www.eee.hku.hk/research/technical_reports.htm.
+0.502	[*A*]The pseudo-code of our algorithm[*R*]is referred[*A*]to http://www.eee.hku.hk/research/technical_reports.htm.	context()	negated: False ,passive: True
+[LINE#137]The computational complexity of the quantization-based approximation algorithm depends on the number of quantized values (Orda and Sprintson, 2003).
+0.953	[*A*]The computational complexity of the quantization - based approximation algorithm[*R*]depends[*A*]on the number of quantized values	context()	negated: False ,passive: False
+[LINE#138]The computational overhead of our algorithm is twice that of the existing quantization-based algorithm, since our algorithm conducts the quantization twice while the existing algorithm does once.
+0.783	[*A*]the existing algorithm[*R*]does[*A*]once	context()	negated: False ,passive: False
+0.638	[*A*]our algorithm[*R*]conducts[*A*]the quantization[*A*]twice[*A*]while the existing algorithm does once	context()	negated: False ,passive: False
+0.452	[*A*]The computational overhead of our algorithm[*R*]is twice[*A*]that of the existing quantization-based algorithm[*A*]since our algorithm conducts the quantization twice while the existing algorithm does once	context()	negated: False ,passive: True
+[LINE#139]For clarity, the existing quantization-based algorithms use cost-scaling, while our approach employs two-dimensional scaling.
+0.638	[*A*]our approach[*R*]employs[*A*]two-dimensional scaling	context()	negated: False ,passive: False
+0.882	[*A*]the existing quantization-based algorithms[*R*]use[*A*]cost-scaling[*A*]while our approach employs two-dimensional scaling	context()	negated: False ,passive: False
+[LINE#140]Either kind of quantization schemes, such as uniform scaling or logarithmic scaling, can be applied through cost-scaling or two-dimensional scaling.
+[LINE#141]Note that intuitively, two-dimensional scaling produces the smaller distortion area but the larger computational overhead if it uses the same scaling parameter as cost-scaling.
+0.452	[*A*]it[*R*]uses[*A*]the same scaling parameter as cost - scaling	context()	negated: False ,passive: False
+[LINE#142]In the following, we will show that with the condition that both cost-scaling and two-dimensional scaling produce the same computational overhead, two-dimensional scaling yields the smaller upper bound of the distortion area. .
+0.919	[*A*]two - dimensional scaling[*R*]produce[*A*]the same computational overhead	context()	negated: False ,passive: False
+0.551	[*A*]we[*R*]will show[*A*]In the following	context()	negated: False ,passive: False
+[LINE#143]Distortion area of two-dimensional scalingIn this subsection, we describe how to calculate the distortion area produced by our mechanism.
+0.848	[*A*]the distortion area[*R*]produced[*A*]by our mechanism	context()	negated: False ,passive: True
+0.874	[*A*]Distortion area of two-dimensional scalingIn[*R*]to calculate[*A*]the distortion area produced by our mechanism	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]describe[*A*]how to calculate the distortion area[*A*]this subsection	context()	negated: False ,passive: False
+[LINE#144] Let PFopt={r0,r1,,rn}, where r0=.
+[LINE#145] With the similar method described in Section 4.3, we first calculate the distortion area between two consecutive delay values rid and ri-1d, where i=1,,n-1.In two-dimensional scaling, the delay metric is also quantized.
+0.663	[*A*]the delay metric[*R*]is quantized	context()	negated: False ,passive: False
+0.815	[*A*]two consecutive delay values[*R*]rid	context()	negated: False ,passive: False
+0.666	[*A*]we[*R*]calculate[*A*]the distortion area between two consecutive delay values rid and ri-1d[*A*]first	context()	negated: False ,passive: False
+0.911	[*A*]the similar method[*R*]described[*A*]in Section 4.3	context()	negated: False ,passive: True
+[LINE#146]Let Copt(d) and C(d) be the optimal cost function and the approximated cost function, respectively.
+[LINE#147]Similar to Definition 4, we define delay deviation as follows.
+0.452	[*A*]we[*R*]define[*A*]delay deviation[*A*]as follows	context()	negated: False ,passive: False
+[LINE#148] Definition 5The delay deviation at the representative delay d0 on Copt(d), denoted as DD(d0), is min {d|C(d)Copt(d0)}-d0.In two-dimensional scaling,the cost metric and delay metric are quantized by the same method.
+[LINE#149]Thus, the calculation of the delay deviation at a certain delay value is similar to that of the cost deviation.
+0.915	[*A*]the calculation of the delay deviation at a certain delay value[*R*]is[*A*]similar to that of the cost deviation	context()	negated: False ,passive: True
+[LINE#150]In other words, by using uniform scaling, the delay deviation at a certain delay value d0 is no more than H, and by using logarithmic scaling, the delay deviation is no more than ((1+)H-1)d0.
+0.956	[*A*]the delay deviation[*R*]is[*A*]no more than ((1+)H-1)d0	context()	negated: False ,passive: True
+0.960	[*A*]the delay deviation at a certain delay value d0[*R*]is[*A*]no more than H	context()	negated: False ,passive: True
+[LINE#151]By setting the same upper bound for both cost metric and delay metric as UB, the upper bound of the delay deviation with logarithmic scaling is the same as that of cost deviation.
+0.907	[*A*]the upper bound of the delay deviation with logarithmic scaling[*R*]is[*A*]the same as that of cost deviation	context()	negated: False ,passive: True
+0.925	[*A*]the same upper[*R*]bound[*A*]for delay metric as UB	context()	negated: False ,passive: True
+0.911	[*A*]the same upper[*R*]bound[*A*]for both cost metric	context()	negated: False ,passive: True
+[LINE#152]Thus, Cmax denotes the maximum cost deviation at any cost value as well as the maximum delay deviation at any delay value produced by two-dimensional scaling.
+0.911	[*A*]any delay value[*R*]produced[*A*]by two-dimensional scaling	context()	negated: False ,passive: True
+0.855	[*A*]Cmax[*R*]denotes[*A*]the maximum cost deviation	context()	negated: False ,passive: False
+[LINE#153]By Definitions 4 and 5, the points (ric+CD(ric),rid) and (ric,rid+DD(rid)) are in the feasible area found by our mechanism.
+0.846	[*A*]the points[*R*]rid[*A*]By 5	context()	negated: False ,passive: False
+0.949	[*A*]the points[*R*]rid[*A*]By Definitions 4	context()	negated: False ,passive: False
+0.848	[*A*]the feasible area[*R*]found[*A*]by our mechanism	context()	negated: False ,passive: True
+0.922	[*A*]rid+DD ( rid[*R*]are[*A*]in the feasible area	context()	negated: False ,passive: True
+[LINE#154]This implies that the distortion area must be no more than CD(ric)DD(rid).
+0.908	[*A*]the distortion area[*R*]must be[*A*]no more than CD	context(This implies)	negated: False ,passive: True
+0.258	[*A*]This[*R*]implies[*A*]that the distortion area must be no more than CD	context()	negated: False ,passive: False
+[LINE#155] The total distortion area produced by two-dimensional scaling is no more than i=1n-1CD(ric)DD(rid).Wecan see that the total distortion area of two-dimensional scaling depends on the number of the optimal representative points n.
+0.936	[*A*]the total distortion area of two-dimensional scaling[*R*]depends[*A*]on the number of the optimal representative points	context(Wecan see)	negated: False ,passive: False
+0.843	[*A*]Wecan[*R*]see[*A*]that the total distortion area of two-dimensional scaling depends on the number of the optimal representative points	context()	negated: False ,passive: False
+0.887	[*A*]The total distortion area produced by two-dimensional scaling[*R*]is	context()	negated: False ,passive: False
+0.919	[*A*]The total distortion area[*R*]produced[*A*]by two-dimensional scaling	context()	negated: False ,passive: True
+[LINE#156] To gain the insight into n, we assume that the QoS metrics of all paths are independent and identically distributed (i.i.d.)(Van Mieghem and Kuipers, 2003).
+0.309	[*A*]we[*R*]assume[*A*]that the QoS metrics of all paths are identically distributed ( i.i.d. ) ( Kuipers	context()	negated: False ,passive: False
+0.808	[*A*]the QoS metrics of all paths[*R*]are identically distributed	context(we assume)	negated: False ,passive: False
+0.309	[*A*]we[*R*]assume[*A*]that the QoS metrics of all paths are identically distributed ( i.i.d. ) ( Van Mieghem	context()	negated: False ,passive: False
+0.835	[*A*]the QoS metrics of all paths[*R*]are[*A*]independent	context(we assume)	negated: False ,passive: True
+0.218	[*A*]we[*R*]assume[*A*]that the QoS metrics of all paths are independent	context()	negated: False ,passive: False
+[LINE#157] The following lemma is established in Van Mieghem and Kuipers (2003).Lemma 2The expected number of the representative points among a set of T i.i.d. points in K-dimensional space is bounded above by (lnT)K-1.Given a source s, a destination g, and other h-1 nodes in the networkdifferent h-hop paths from s to g.
+0.747	[*A*]Lemma 2The[*R*]expected	context()	negated: False ,passive: False
+0.925	[*A*]The following lemma[*R*]is established[*A*]in Van Mieghem and Kuipers	context()	negated: False ,passive: True
+[LINE#158] Therefore, there are at most (h-1)!|V-2|h-1 h-hop pathsbut |V-2|h-1 different QoS parameters for all h-hop paths from s to g.
+[LINE#159]Therefore, the maximum number of the QoS parameters of the paths from s to g is j=0|V|-2|V-2|h-1=2|V|-2.
+0.982	[*A*]the maximum number of the QoS parameters of the paths from s to g[*R*]is[*A*]j=0|V	context()	negated: False ,passive: True
+[LINE#160]For the two-dimensional case, it holds that (lnT)K-1ln2|V|-2|V|-2.
+0.243	[*A*]it[*R*]holds	context()	negated: False ,passive: False
+[LINE#161]Therefore, the distortion area introduced due to two-dimensional scaling can be calculated as(6)Aerror2-D=i=1n-1CD(ric)DD(ri.d)(|V|-2)Cmax2If two-dimensional uniform scaling is applied, we have DD(rid)(|V|-1) and CD(rid)(|V|-1).
+0.969	[*A*]the distortion area introduced due to two-dimensional scaling[*R*]can be calculated[*A*]as(6)Aerror2-D=i=1n-1CD(ric)DD(ri.d)(|V|-2)Cmax2If two-dimensional uniform scaling is applied	context(we have)	negated: False ,passive: True
+0.443	[*A*]we[*R*]have[*A*]DD(rid	context()	negated: False ,passive: False
+0.946	[*A*]Aerror2-D=i=1n-1CD(ric)DD(ri.d)(|V|-2)Cmax2If two-dimensional uniform scaling[*R*]is applied	context()	negated: False ,passive: False
+0.702	[*A*]DD(rid[*R*]|	context()	negated: False ,passive: False
+0.911	[*A*]the distortion area[*R*]introduced[*A*]due to two-dimensional scaling	context()	negated: False ,passive: True
+[LINE#162]Therefore, the distortion area is(7)Aerror2-D,uni(|V|-2)((|V|-1))2=(|V|-2)2where =/(|V|-1).Similarly, if two-dimensional logarithmic scaling is employed, we have DD(rid)((1+)|V|-1-1)rid and CD(ric)((1+)|V|-1-1)ric.
+0.933	[*A*]the distortion area[*R*]is[*A*]7)Aerror2-D,uni(|V|-2	context()	negated: False ,passive: True
+0.785	[*A*]two-dimensional logarithmic scaling[*R*]is employed	context()	negated: False ,passive: False
+[LINE#163]Therefore, the distortion area is(8)Aerror2-D,log(|V|-2)((1+)|V|-1-1)2rcdrdc<(|V|-2)((1+)|V|-1-1)2UB2(|V|-2)2UB2where =/2(|V|-1).
+0.948	[*A*]the distortion area[*R*]is[*A*]Aerror2-D,log(|V|-2)((1+)|V|-1-1)2rcdrdc<(|V|-2)((1+)|V|-1-1)2UB2(|V|-2)2UB2where =/2(|V|-1	context()	negated: False ,passive: True
+[LINE#164]Performance comparisonAccording to the discussion in Sections 4.3 and 5.2, we know that the computational overhead of a quantization-based algorithm depends on the quantization scheme employed.
+0.911	[*A*]Performance[*R*]comparisonAccording[*A*]to the discussion in Sections 5.2	context()	negated: False ,passive: True
+0.936	[*A*]the computational overhead of a quantization - based algorithm[*R*]depends[*A*]on the quantization scheme	context(we know)	negated: False ,passive: False
+0.339	[*A*]we[*R*]know[*A*]that the computational overhead of a quantization - based algorithm depends on the quantization scheme	context()	negated: False ,passive: False
+0.751	[*A*]the quantization scheme[*R*]employed	context()	negated: False ,passive: False
+0.911	[*A*]Performance[*R*]comparisonAccording[*A*]to the discussion in Sections 4.3	context()	negated: False ,passive: True
+[LINE#165]In this section, we consider both quantization schemes, namely, uniform scaling and logarithmic scaling, and compare the error produced by our approach and cost-scaling under the condition that they produce almost the same computational overhead.
+0.748	[*A*]the error[*R*]produced[*A*]by cost - scaling[*A*]under the condition that they produce almost the same computational overhead	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]produce[*A*]almost the same computational overhead	context()	negated: False ,passive: False
+0.748	[*A*]the error[*R*]produced[*A*]by our approach under the condition that they produce almost the same computational overhead	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]consider[*A*]both quantization schemes[*A*]In this section	context()	negated: False ,passive: False
+[LINE#166]If the same scaling parameter  is used, it is obvious that two-dimensional scaling generally outperforms cost-scaling by producing a smaller distortion area.
+0.769	[*A*]the same scaling parameter[*R*]is used	context()	negated: False ,passive: False
+[LINE#167]For two-dimensional scaling, the supported QoS region is defined by both PFd and PFc.
+0.971	[*A*]the supported QoS region[*R*]is defined[*A*]by PFc[*A*]For two - dimensional scaling	context()	negated: False ,passive: True
+0.971	[*A*]the supported QoS region[*R*]is defined[*A*]by both PFd[*A*]For two - dimensional scaling	context()	negated: False ,passive: True
+[LINE#168]However, for cost-scaling, the supported QoS region is defined by PFd.
+0.949	[*A*]the supported QoS region[*R*]is defined[*A*]by PFd	context()	negated: False ,passive: True
+[LINE#169]On the other hand, two-dimensional scaling yields a larger computational overhead if both techniques apply the same scaling parameter.
+0.903	[*A*]both techniques[*R*]apply[*A*]the same scaling parameter	context()	negated: False ,passive: False
+[LINE#170]According to Section 4, we know that the computational overheads of both our proposed approach and cost-scaling heavily depend on the number of possible cost values (and delay values for our approach) caused by the quantization scheme.
+0.925	[*A*]the computational overheads of both cost - scaling heavily[*R*]depend[*A*]on the number of possible delay values for our approach	context(we know)	negated: False ,passive: False
+0.211	[*A*]we[*R*]know[*A*]that the computational overheads of both cost - scaling heavily depend on the number of possible delay values for our approach	context()	negated: False ,passive: False
+0.934	[*A*]the computational overheads of both cost - scaling heavily[*R*]depend[*A*]on the number of possible cost values	context(we know)	negated: False ,passive: False
+0.330	[*A*]we[*R*]know[*A*]that the computational overheads of both cost - scaling heavily depend on the number of possible cost values	context()	negated: False ,passive: False
+0.678	[*A*]the computational overheads of both our proposed approach[*R*]depend[*A*]on the number of possible delay values for our approach	context(we know)	negated: False ,passive: False
+0.211	[*A*]we[*R*]know[*A*]that the computational overheads of both our proposed approach depend on the number of possible delay values for our approach	context()	negated: False ,passive: False
+0.598	[*A*]our approach[*R*]caused[*A*]by the quantization scheme	context()	negated: False ,passive: True
+0.708	[*A*]the computational overheads of both our proposed approach[*R*]depend[*A*]on the number of possible cost values	context(we know)	negated: False ,passive: False
+0.211	[*A*]we[*R*]know[*A*]that the computational overheads of both our proposed approach depend on the number of possible cost values	context()	negated: False ,passive: False
+0.921	[*A*]the number of possible cost values[*R*]caused[*A*]by the quantization scheme	context()	negated: False ,passive: True
+[LINE#171]We believe that if both approaches produce the same number of the possible quantized cost values (and delay values for our approach), they produce almost the same computational overhead.
+0.173	[*A*]We[*R*]believe[*A*]that if both approaches produce the same number of the possible delay values for our approach ) , they produce almost the same computational overhead	context()	negated: False ,passive: False
+0.890	[*A*]both approaches[*R*]produce[*A*]the same number of the possible delay values for our approach	context()	negated: False ,passive: False
+0.562	[*A*]they[*R*]produce[*A*]almost the same computational overhead	context(We believe)	negated: False ,passive: False
+0.173	[*A*]We[*R*]believe[*A*]that if both approaches produce the same number of the possible quantized cost values ( , they produce almost the same computational overhead	context()	negated: False ,passive: False
+0.903	[*A*]both approaches[*R*]produce[*A*]the same number of the possible quantized cost values	context()	negated: False ,passive: False
+[LINE#172]Thus, we are going to discuss how to set the scaling parameter, such that the total number of the possible quantized values is the same.
+0.883	[*A*]such that the total number of the possible quantized values[*R*]is[*A*]the same	context(we to discuss)	negated: False ,passive: True
+0.267	[*A*]we[*R*]to discuss to set[*A*]the scaling parameter	context(we to discuss)	negated: False ,passive: False
+0.358	[*A*]we[*R*]to discuss[*A*]how to set the scaling parameter	context()	negated: False ,passive: False
+[LINE#173]Given a scaling parameter , the number of possible cost values by uniform scaling is UB/, and that by logarithmic scaling is log1+UB, as referred to Section 4.2.
+0.967	[*A*]the number of possible cost values by uniform scaling[*R*]is[*A*]UB	context()	negated: False ,passive: True
+[LINE#174]For ease of discussion, denote t and s as the scaling parameters adopted in two-dimensional scaling and cost-scaling, respectively.
+0.911	[*A*]the scaling parameters[*R*]adopted[*A*]in two cost - scaling	context()	negated: False ,passive: True
+0.911	[*A*]the scaling parameters[*R*]adopted[*A*]in two - dimensional scaling	context()	negated: False ,passive: True
+0.911	[*A*]the scaling parameters[*R*]adopted[*A*]in two cost - scaling[*A*]respectively	context()	negated: False ,passive: True
+0.911	[*A*]the scaling parameters[*R*]adopted[*A*]in two - dimensional scaling[*A*]respectively	context()	negated: False ,passive: True
+[LINE#175]If we use uniform scaling, by setting t=2s, we can consider that the total number of quantized cost and delay values for two-dimensional scaling is the same as that for cost-scaling.
+0.293	[*A*]we[*R*]use uniform scaling by setting[*A*]t=2s	context(we use scaling)	negated: False ,passive: False
+0.157	[*A*]we[*R*]use uniform scaling	context(we use)	negated: False ,passive: False
+0.388	[*A*]we[*R*]use[*A*]uniform[*A*]scaling, by setting t=2s	context()	negated: False ,passive: False
+0.917	[*A*]the total number of quantized cost and delay values for two-dimensional scaling[*R*]is[*A*]the same as that for cost-scaling	context(we can consider)	negated: False ,passive: True
+0.271	[*A*]we[*R*]can consider[*A*]that the total number of quantized cost and delay values for two-dimensional scaling is the same as that for cost-scaling	context()	negated: False ,passive: False
+[LINE#176]We thus consider both algorithms incur a comparable computational overhead.
+0.878	[*A*]both algorithms[*R*]incur[*A*]a comparable computational overhead	context(We consider)	negated: False ,passive: False
+0.349	[*A*]We[*R*]consider[*A*]both algorithms incur a comparable computational overhead	context()	negated: False ,passive: False
+[LINE#177]If we use logarithmic scaling, by setting t=2s, the total number of possible cost values and delay values by two-dimensional scaling is 2log1+2sUB, and the number of cost values by cost-scaling is log1+sUB.
+0.843	[*A*]the number of cost values by cost-scaling[*R*]is log1+sUB	context()	negated: False ,passive: False
+0.939	[*A*]the total number of possible cost values and delay values by two-dimensional scaling[*R*]is[*A*]2log1+2sUB	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]use[*A*]logarithmic scaling	context()	negated: False ,passive: False
+[LINE#178]When s is very small, say s0.1, we have 1+2s(1+s)2.
+0.671	[*A*]s[*R*]is[*A*]very small	context()	negated: False ,passive: True
+[LINE#179]Therefore, if we set t=2s, we can consider that the computational overheads produced by two-dimensional scaling and cost-scaling are comparable.
+0.819	[*A*]the computational overheads produced by cost - scaling[*R*]are[*A*]comparable	context(we can consider)	negated: False ,passive: True
+0.271	[*A*]we[*R*]can consider[*A*]that the computational overheads produced by cost - scaling are comparable	context()	negated: False ,passive: False
+0.911	[*A*]the computational overheads[*R*]produced[*A*]by cost - scaling	context()	negated: False ,passive: True
+0.833	[*A*]the computational overheads produced by two - dimensional scaling[*R*]are[*A*]comparable	context(we can consider)	negated: False ,passive: True
+0.271	[*A*]we[*R*]can consider[*A*]that the computational overheads produced by two - dimensional scaling are comparable	context()	negated: False ,passive: False
+0.911	[*A*]the computational overheads[*R*]produced[*A*]by two - dimensional scaling	context()	negated: False ,passive: True
+0.522	[*A*]we[*R*]set[*A*]t=2 s	context()	negated: False ,passive: False
+[LINE#180]Denote  as the scaling parameter used in cost-scaling.
+0.911	[*A*]the scaling parameter[*R*]used[*A*]in cost-scaling	context()	negated: False ,passive: True
+[LINE#181]For two-dimensional scaling, the scaling parameter of 2 is used.
+0.949	[*A*]the scaling parameter of 2[*R*]is used[*A*]For two-dimensional scaling	context()	negated: False ,passive: True
+[LINE#182]If we apply uniform scaling, =/|V|-1.
+0.162	[*A*]we[*R*]apply uniform scaling	context(we apply)	negated: False ,passive: False
+0.397	[*A*]we[*R*]apply[*A*]uniform	context()	negated: False ,passive: False
+[LINE#183]By (4) and (7), the distortion area for cost-scaling and two-dimensional scaling is upper bounded by UB and 4(|V|-2)2, respectively.
+0.979	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by UB and 4[*A*]By ( 7	context()	negated: False ,passive: True
+0.986	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by UB and 4 ( | V | - 2 ) 2 , respectively[*A*]By ( 7	context()	negated: False ,passive: True
+0.979	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by UB and 4[*A*]By ( 4	context()	negated: False ,passive: True
+0.986	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by UB and 4 ( | V | - 2 ) 2 , respectively[*A*]By ( 4	context()	negated: False ,passive: True
+[LINE#184]For logarithmic scaling, =/2(|V|-1).
+[LINE#185]By (5) and (8), the distortion area for cost-scaling and two-dimensional scaling is upper bounded by UB2 and 4(|V|-2)2UB2, respectively.
+0.975	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by 2UB2[*A*]respectively[*A*]By ( 8	context()	negated: False ,passive: True
+0.973	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by 2UB2[*A*]respectively[*A*]By ( 8	context()	negated: False ,passive: True
+0.975	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by 2UB2[*A*]respectively[*A*]By ( 5	context()	negated: False ,passive: True
+0.952	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by 2UB2[*A*]respectively	context()	negated: False ,passive: True
+0.933	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by 4[*A*]By ( 8	context()	negated: False ,passive: True
+0.927	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by 4[*A*]By ( 8	context()	negated: False ,passive: True
+0.933	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by 4[*A*]By ( 5	context()	negated: False ,passive: True
+0.927	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by 4[*A*]By ( 5	context()	negated: False ,passive: True
+0.979	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by UB2[*A*]respectively[*A*]By ( 8	context()	negated: False ,passive: True
+0.977	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by UB2[*A*]respectively[*A*]By ( 8	context()	negated: False ,passive: True
+0.979	[*A*]the distortion area for two - dimensional scaling[*R*]is[*A*]upper bounded by UB2[*A*]respectively[*A*]By ( 5	context()	negated: False ,passive: True
+0.977	[*A*]the distortion area for cost - scaling[*R*]is[*A*]upper bounded by UB2[*A*]respectively[*A*]By ( 5	context()	negated: False ,passive: True
+[LINE#186] Since UB is the maximum cost value for a path in the network, it is upper bounded by(|V|-1)W, where W is the maximum cost value of each link.
+0.944	[*A*]W[*R*]is[*A*]the maximum cost value of each link[*A*]W	context()	negated: False ,passive: True
+0.522	[*A*]it[*R*]is[*A*]upper bounded by(|V	context()	negated: False ,passive: True
+0.926	[*A*]UB[*R*]is[*A*]the maximum cost value for a path in the network	context()	negated: False ,passive: True
+[LINE#187]For uniform scaling with <W/4, two-dimensional scaling yields a smaller upper bound on the distortion area than cost-scaling.
+0.721	[*A*]a smaller upper[*R*]bound[*A*]on the distortion area than cost-scaling[*A*]For uniform	context()	negated: False ,passive: False
+[LINE#188]For logarithmic scaling with 4(|V|-2)<1, two-dimensional scaling provides a better error guarantee.
+0.919	[*A*]two-dimensional scaling[*R*]provides[*A*]a better error guarantee	context()	negated: False ,passive: False
+[LINE#189]For the worst case, the distortion area incurred equals to its upper bound.
+0.848	[*A*]the distortion area[*R*]incurred[*A*]equals to its upper bound	context()	negated: False ,passive: False
+[LINE#190]This means that the distortion area for two-dimensional scaling is smaller than that for cost-scaling in the worst case analysis.
+0.912	[*A*]the distortion area for two-dimensional scaling[*R*]is[*A*]smaller than that for cost-scaling in the worst case analysis	context(This means)	negated: False ,passive: True
+0.224	[*A*]This[*R*]means[*A*]that the distortion area for two-dimensional scaling is smaller than that for cost-scaling in the worst case analysis	context()	negated: False ,passive: False
+[LINE#191]We notice that the distortion area for two-dimensional scaling is proportional to the square of , while that for cost-scaling is proportional to .
+0.866	[*A*]the distortion area for two-dimensional scaling[*R*]is[*A*]proportional to the square of[*A*]while that for cost-scaling is proportional to	context(We notice)	negated: False ,passive: True
+0.279	[*A*]We[*R*]notice[*A*]that the distortion area for two-dimensional scaling is proportional to the square of , while that for cost-scaling is proportional to	context()	negated: False ,passive: False
+0.853	[*A*]that for cost-scaling[*R*]is[*A*]proportional to	context()	negated: False ,passive: True
+[LINE#192]As increases, the distortion area of two-dimensional scaling grows much slower than that of cost-scaling.
+0.890	[*A*]the distortion area of two-dimensional scaling[*R*]grows[*A*]much slower than that of cost-scaling	context()	negated: False ,passive: True
+[LINE#193]On the other hand, the total number of the cost and delay values taken by two-dimensional scaling reduces with the same rate as that of cost-scaling.
+0.901	[*A*]the total number of the cost and delay values[*R*]reduces[*A*]with the same rate as that of cost-scaling	context()	negated: False ,passive: True
+0.926	[*A*]the cost and delay values[*R*]taken[*A*]by two-dimensional scaling	context()	negated: False ,passive: True
+[LINE#194]This implies that two-dimensional scaling can effectively reduce the computational overhead with a smaller increase in the distortion area when compared with cost-scaling.
+0.900	[*A*]two-dimensional scaling[*R*]can effectively reduce[*A*]the computational overhead[*A*]when compared with cost-scaling	context(This implies)	negated: False ,passive: False
+0.224	[*A*]This[*R*]implies[*A*]that two-dimensional scaling can effectively reduce the computational overhead with a smaller increase in the distortion area	context()	negated: False ,passive: False
+[LINE#195]As the actual improvement depends on the network topology, we have conducted extensive simulations to study the performance, which will be discussed in Section 6.
+0.504	[*A*]we[*R*]have conducted extensive simulations to study[*A*]the performance, which will be discussed in Section 6	context(we have conducted)	negated: False ,passive: False
+0.388	[*A*]we[*R*]have conducted[*A*]extensive simulations[*A*]to study the performance	context()	negated: False ,passive: False
+0.887	[*A*]the performance[*R*]will be discussed[*A*]in Section 6	context()	negated: False ,passive: True
+0.911	[*A*]the actual improvement[*R*]depends[*A*]on the network topology	context()	negated: False ,passive: False
+[LINE#196]We also notice that by setting the same scaling parameter , uniform scaling yields a smaller approximation error but a larger computational overhead than logarithmic scaling.
+0.290	[*A*]We[*R*]notice[*A*]that by setting the same scaling parameter , uniform scaling yields a larger computational overhead than logarithmic scaling	context()	negated: False ,passive: False
+0.290	[*A*]We[*R*]notice[*A*]that by setting the same scaling parameter , uniform scaling yields a smaller approximation error	context()	negated: False ,passive: False
+[LINE#197]As the demand for deploying real-time and multimedia applications over the internet is increasing, providing guaranteed quality-of-service (QoS) for these applications becomes more and more important.
+0.991	[*A*]providing guaranteed quality - of - service ( QoS ) for these applications[*R*]becomes[*A*]more and more important[*A*]As the demand for deploying real multimedia applications over the internet is increasing	context()	negated: False ,passive: True
+0.856	[*A*]the demand for deploying real multimedia applications over the internet[*R*]is increasing	context()	negated: False ,passive: False
+0.991	[*A*]providing guaranteed quality - of - service ( QoS ) for these applications[*R*]becomes[*A*]more and more important[*A*]As the demand for deploying real - time applications over the internet is increasing	context()	negated: False ,passive: True
+0.867	[*A*]the demand for deploying real - time applications over the internet[*R*]is increasing	context()	negated: False ,passive: False
+[LINE#198]In general, the QoS requirements can be divided into two categories: bottleneck metric and additive metric.
+0.933	[*A*]the QoS requirements[*R*]can be divided[*A*]into two categories	context()	negated: False ,passive: True
+[LINE#199]The additive metric of a path is the sum of the metrics of the links along the path, while the bottleneck metric of a path is the minimum value of the metrics of the links along the path.
+0.967	[*A*]the bottleneck metric of a path[*R*]is[*A*]the minimum value of the metrics of the links along the path	context()	negated: False ,passive: True
+0.967	[*A*]The additive metric of a path[*R*]is[*A*]the sum of the metrics of the links along the path[*A*]while the bottleneck metric of a path is the minimum value of the metrics of the links along the path	context()	negated: False ,passive: True
+[LINE#200]For example, bandwidth is a bottleneck QoS metric, while delay and delay jitter are additive QoS metrics.
+0.918	[*A*]delay jitter[*R*]are[*A*]additive QoS metrics	context()	negated: False ,passive: True
+0.931	[*A*]bandwidth[*R*]is[*A*]a bottleneck QoS metric[*A*]while delay jitter are additive QoS metrics	context()	negated: False ,passive: True
+0.911	[*A*]delay[*R*]are[*A*]additive QoS metrics	context()	negated: False ,passive: True
+0.931	[*A*]bandwidth[*R*]is[*A*]a bottleneck QoS metric[*A*]while delay are additive QoS metrics	context()	negated: False ,passive: True
+[LINE#201]In this work, we consider connection requests that have two additive QoS requirements or constraints, such as in delay and cost.
+0.938	[*A*]connection requests[*R*]have[*A*]two additive QoS requirements or constraints, such as in delay and cost	context()	negated: False ,passive: False
+0.509	[*A*]we[*R*]consider[*A*]connection requests that have two additive QoS requirements or constraints, such as in delay and cost[*A*]In this work	context()	negated: False ,passive: False
+[LINE#202]To simplify our discussion, we assume that delay and cost are the two additive metrics under consideration, although our analysis and method can be applied to any additive metrics.
+0.745	[*A*]cost[*R*]are[*A*]the two additive metrics under consideration[*A*]although our method can be applied to any additive metrics	context(we assume)	negated: False ,passive: True
+0.168	[*A*]we[*R*]assume[*A*]that cost are the two additive metrics under consideration , although our method can be applied to any additive metrics	context()	negated: False ,passive: False
+0.745	[*A*]cost[*R*]are[*A*]the two additive metrics under consideration[*A*]although our analysis can be applied to any additive metrics	context(we assume)	negated: False ,passive: True
+0.168	[*A*]we[*R*]assume[*A*]that cost are the two additive metrics under consideration , although our analysis can be applied to any additive metrics	context()	negated: False ,passive: False
+0.850	[*A*]delay[*R*]are[*A*]the two additive metrics under consideration[*A*]although our method can be applied to any additive metrics	context(we assume)	negated: False ,passive: True
+0.168	[*A*]we[*R*]assume[*A*]that delay are the two additive metrics under consideration , although our method can be applied to any additive metrics	context()	negated: False ,passive: False
+0.638	[*A*]our method[*R*]can be applied[*A*]to any additive metrics	context()	negated: False ,passive: True
+0.850	[*A*]delay[*R*]are[*A*]the two additive metrics under consideration[*A*]although our analysis can be applied to any additive metrics	context(we assume)	negated: False ,passive: True
+0.168	[*A*]we[*R*]assume[*A*]that delay are the two additive metrics under consideration , although our analysis can be applied to any additive metrics	context()	negated: False ,passive: False
+0.638	[*A*]our analysis[*R*]can be applied[*A*]to any additive metrics	context()	negated: False ,passive: True
+[LINE#203]Many existing works study how to identify a feasible path for a request with two additive constraints, which is an NP-complete problem.
+0.896	[*A*]Many existing works[*R*]study to identify[*A*]a feasible path for a request with two additive constraints	context(Many existing works study)	negated: False ,passive: False
+0.929	[*A*]Many existing works[*R*]study[*A*]how to identify a feasible path for a request with two additive constraints	context()	negated: False ,passive: False
+0.933	[*A*]two additive constraints[*R*]is[*A*]an NP-complete problem	context()	negated: False ,passive: True
+[LINE#204]These works usually assume either the cost or the delay requirement which is known.
+0.718	[*A*]the delay requirement[*R*]is known	context()	negated: False ,passive: False
+0.934	[*A*]These works[*R*]assume[*A*]either the cost or the delay requirement[*A*]usually	context()	negated: False ,passive: False
+[LINE#205]Nevertheless, such reactive routing mechanism, which finds a path after the requirement is known, cannot provide enough information to support efficient admission control.
+0.907	[*A*]such reactive routing mechanism[*R*]finds[*A*]a path after the requirement	context(such reactive routing mechanism , which finds a path after the requirement can not provide)	negated: False ,passive: False
+0.941	[*A*]such reactive routing mechanism, which finds a path after the requirement[*R*]can not provide[*A*]enough information to support efficient admission control	context()	negated: True ,passive: False
+0.878	[*A*]such reactive routing mechanism, which finds a path after the requirement[*R*]is known	context()	negated: False ,passive: False
+[LINE#206]When a request is received, a node cannot immediately tell whether a possible feasible path exists until a path finding process is launched based on the requested cost/delay.
+0.919	[*A*]a path finding process[*R*]is launched[*A*]based on the requested cost/delay	context()	negated: False ,passive: True
+0.903	[*A*]a path[*R*]finding[*A*]process	context()	negated: False ,passive: False
+0.933	[*A*]a possible feasible path[*R*]exists[*A*]until a path finding process is launched based on the requested cost/delay	context(a node can not tell)	negated: False ,passive: True
+0.931	[*A*]a node[*R*]can not tell[*A*]whether a possible feasible path exists until a path finding process is launched based on the requested cost/delay[*A*]When a request is received[*A*]immediately	context()	negated: True ,passive: False
+0.732	[*A*]a request[*R*]is received	context()	negated: False ,passive: False
+[LINE#207]On the other hand, by precomputing the supported QoS information, a source can immediately determine whether the connection request can be supported by the network.
+0.888	[*A*]the connection request[*R*]can be supported[*A*]by the network	context(a source can determine)	negated: False ,passive: True
+0.931	[*A*]a source[*R*]can determine[*A*]whether the connection request can be supported by the network[*A*]immediately	context()	negated: False ,passive: False
+[LINE#208]Moreover, accepting a new connection will not violate the service guarantees for the existing traffics, and also the transmission route satisfies the QoS requirement of the new connection.
+0.925	[*A*]the transmission route[*R*]satisfies[*A*]the QoS requirement of the new connection	context()	negated: False ,passive: False
+0.919	[*A*]accepting a new connection[*R*]will not violate[*A*]the service guarantees for the existing traffics	context()	negated: True ,passive: False
+[LINE#209] The problem of computing the supported QoS between two nodes is more complicated than the extensively studied multi-constrained path (MCP) problem or the delay-constrained least cost (DCLC) path problem.
+0.981	[*A*]The problem of computing the supported QoS between two nodes[*R*]is[*A*]more complicated than the extensively studied multi-constrained path (MCP) problem or the delay-constrained least cost (DCLC) path problem	context()	negated: False ,passive: True
+[LINE#210]The DCLC problem is also called the restricted shortest path (RSP) problem.
+0.883	[*A*]The DCLC problem[*R*]is called[*A*]problem	context()	negated: False ,passive: True
+[LINE#211]The RSP problem aims at finding the minimum delay path among the paths that satisfy a certain cost constraint.
+0.887	[*A*]the paths[*R*]satisfy[*A*]a certain cost constraint	context()	negated: False ,passive: False
+0.803	[*A*]The RSP problem[*R*]aims	context()	negated: False ,passive: False
+[LINE#212]The MCP problem studies finding a path satisfying both specified cost and delay constraints.
+0.903	[*A*]a path[*R*]satisfying[*A*]both specified delay constraints	context()	negated: False ,passive: False
+0.939	[*A*]The MCP problem studies[*R*]finding[*A*]a path satisfying both specified delay constraints	context()	negated: False ,passive: False
+0.903	[*A*]a path[*R*]satisfying[*A*]both specified cost constraints	context()	negated: False ,passive: False
+0.939	[*A*]The MCP problem studies[*R*]finding[*A*]a path satisfying both specified cost constraints	context()	negated: False ,passive: False
+[LINE#213]Both problems focus on finding a single path between two nodes with a given (cost) constraint.
+0.937	[*A*]Both problems[*R*]focus[*A*]on finding a single path between two nodes with a given (cost) constraint	context()	negated: False ,passive: False
+[LINE#214]Our problem, also known as the all-costs optimal path (ACOP) problem (Orda and Sprintson, 2003), finds, for each cost c, a c-cost constrained path from a source to a destination with the minimum delay.
+0.963	[*A*]a c - cost[*R*]constrained[*A*]path[*A*]from a source to a destination with the minimum delay[*A*]for each cost c	context(Our problem , also known as the all - costs optimal path ( ACOP ) problem ( Sprintson , 2003 ) finds)	negated: False ,passive: False
+0.903	[*A*]Our problem , also known as the all - costs optimal path ( ACOP ) problem ( Sprintson , 2003 )[*R*]finds[*A*]for each cost c , a c - cost constrained path from a source to a destination with the minimum delay	context()	negated: False ,passive: False
+0.792	[*A*]Our problem[*R*]known[*A*]as the all - costs optimal path ( ACOP ) problem ( Sprintson , 2003	context()	negated: False ,passive: True
+0.963	[*A*]a c - cost[*R*]constrained[*A*]path[*A*]from a source to a destination with the minimum delay[*A*]for each cost c	context(Our problem , also known as the all - costs optimal path ( ACOP ) problem ( Orda , 2003 ) finds)	negated: False ,passive: False
+0.903	[*A*]Our problem , also known as the all - costs optimal path ( ACOP ) problem ( Orda , 2003 )[*R*]finds[*A*]for each cost c , a c - cost constrained path from a source to a destination with the minimum delay	context()	negated: False ,passive: False
+0.792	[*A*]Our problem[*R*]known[*A*]as the all - costs optimal path ( ACOP ) problem ( Orda , 2003	context()	negated: False ,passive: True
+[LINE#215]In other words, instead of finding a single path given a cost constraint, the ACOP problem aims at finding a set of paths representing the supported QoS.Due to the NP-complete nature of the problem, some approximation mechanisms have been developed (Garroppo et al., 2010).
+0.840	[*A*]paths[*R*]representing[*A*]the supported QoS.Due	context()	negated: False ,passive: False
+0.917	[*A*]the ACOP problem[*R*]aims[*A*]at finding a set of paths	context(some approximation mechanisms have been developed)	negated: False ,passive: False
+0.706	[*A*]some approximation mechanisms[*R*]have been developed	context()	negated: False ,passive: False
+0.751	[*A*]a single path[*R*]given	context()	negated: False ,passive: False
+[LINE#216]They usually identify a path with a cost (or delay) within a certain deviation from the optimal one.
+0.707	[*A*]They[*R*]identify[*A*]a path with a delay[*A*]usually	context()	negated: False ,passive: False
+0.795	[*A*]They[*R*]identify[*A*]a path with a cost ( ) within a certain deviation from the optimal one[*A*]usually	context()	negated: False ,passive: False
+[LINE#217]Denote c as the estimated optimal cost of all the paths satisfying a given delay constraint d0, which is computed by an algorithm, and copt as the optimal cost of all the paths satisfying the delay constraint d0 in the network.
+0.911	[*A*]all the paths[*R*]satisfying[*A*]the delay constraint d0 in the network	context()	negated: False ,passive: False
+0.961	[*A*]Denote[*R*]c[*A*]as the estimated optimal cost copt as the optimal cost of all the paths	context()	negated: False ,passive: False
+0.913	[*A*]a given delay constraint d0[*R*]is computed[*A*]by an algorithm	context()	negated: False ,passive: True
+0.943	[*A*]all the paths[*R*]satisfying[*A*]a given delay constraint d0 , which is computed by an algorithm	context()	negated: False ,passive: False
+0.938	[*A*]Denote[*R*]c[*A*]as the estimated optimal cost of all the paths	context()	negated: False ,passive: False
+[LINE#218]c-copt is thus called the cost deviation at the delay constraint of d0.
+0.740	[*A*]copt[*R*]is called[*A*]the cost deviation at the delay constraint of d0	context()	negated: False ,passive: True
+[LINE#219]An algorithm is "better" if the deviation is smaller.
+0.813	[*A*]the deviation[*R*]is[*A*]smaller	context()	negated: False ,passive: True
+0.911	[*A*]An algorithm[*R*]is[*A*]better[*A*]if the deviation is smaller	context()	negated: False ,passive: True
+[LINE#220]While deviation is appropriate for measuring the performance of the DCLC solutions, we believe that it does not directly reflect the performance of the ACOP solutions in supporting admission control.
+0.550	[*A*]it[*R*]does not directly reflect[*A*]the performance of the ACOP solutions in supporting admission control	context(we believe)	negated: True ,passive: True
+0.195	[*A*]we[*R*]believe[*A*]that it does not directly reflect the performance of the ACOP solutions in supporting admission control	context()	negated: False ,passive: False
+0.931	[*A*]deviation[*R*]is[*A*]appropriate for measuring the performance of the DCLC solutions	context()	negated: False ,passive: True
+[LINE#221]A good pre-computation mechanism should approximate the supported QoS as precisely as possible.
+0.931	[*A*]A good pre-computation mechanism[*R*]should approximate[*A*]the supported QoS as precisely as possible	context()	negated: False ,passive: False
+[LINE#222]In other words, the error in estimation should be minimized.
+0.769	[*A*]the error in estimation[*R*]should be minimized	context()	negated: False ,passive: False
+[LINE#223]Since any possible delay constraint is considered, this "error" is not a single cost deviation, but an area on the Cartesian plane.
+0.897	[*A*]this "error[*R*]is not[*A*]a single cost deviation	context()	negated: True ,passive: True
+[LINE#224]To illustrate, consider that there are three paths connecting a source to a destination.
+0.903	[*A*]three paths[*R*]connecting[*A*]a source	context()	negated: False ,passive: False
+[LINE#225]The QoS parameters of the paths are (1,10), (2,2), and (10,1), where the first element in the tuple reflects the cost of the path while the second element represents the path delay.
+0.911	[*A*]the second element[*R*]represents[*A*]the path delay	context()	negated: False ,passive: False
+0.970	[*A*]the first element in the tuple[*R*]reflects[*A*](2,2), and (10,1), where the first element in the tuple reflects the cost of the path while the second element represents the path delay.	context()	negated: False ,passive: True
+0.845	[*A*]The QoS parameters of the paths[*R*]are	context()	negated: False ,passive: False
+[LINE#226]In this paper, we write the QoS parameter of a path and the constraints of a request as (cost,delay).
+0.740	[*A*]we[*R*]write[*A*]the QoS parameter of the constraints of a request as ( cost , delay[*A*]In this paper	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]write[*A*]the QoS parameter of a path[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#227]Request (c,d) can be supported by a path with the QoS parameter (c,d), where cc and dd.
+[LINE#228] Request (5,5) is feasible because it can be supported by the path with the QoS parameter.
+0.498	[*A*]it[*R*]can be supported[*A*]by the path with the QoS parameter	context()	negated: False ,passive: True
+0.909	[*A*]Request[*R*]is[*A*]feasible[*A*]because it can be supported by the path with the QoS parameter	context()	negated: False ,passive: True
+[LINE#229] Request (1,15) is also feasible because it can be supported by the path with the QoS parameter.
+0.498	[*A*]it[*R*]can be supported[*A*]by the path with the QoS parameter	context()	negated: False ,passive: True
+0.909	[*A*]Request[*R*]is[*A*]also[*A*]feasible[*A*]because it can be supported by the path with the QoS parameter	context()	negated: False ,passive: True
+[LINE#230]However, Request (1,1) is not feasible because no path can support it.
+0.835	[*A*]no path[*R*]can support[*A*]it	context()	negated: False ,passive: False
+0.795	[*A*]Request[*R*]is not[*A*]feasible[*A*]because no path can support it	context()	negated: True ,passive: True
+[LINE#231]If we plot the QoS parameters of the path on the cost-delay plane, any request that can be supported by any of the paths can be easily identified.
+0.867	[*A*]any request that can be supported by any of the paths[*R*]can be easily identified	context()	negated: False ,passive: False
+0.887	[*A*]any request[*R*]can be supported[*A*]by any of the paths	context()	negated: False ,passive: True
+0.678	[*A*]we[*R*]plot[*A*]the QoS parameters of the path on the cost-delay plane	context()	negated: False ,passive: False
+[LINE#232]1(a), the shaded area is the optimal supported QoS, in which any request that falls in the region is feasible.
+0.977	[*A*]any request that falls in the region[*R*]is[*A*]feasible[*A*]the optimal supported QoS	context()	negated: False ,passive: True
+0.913	[*A*]any request[*R*]falls[*A*]in the region	context()	negated: False ,passive: True
+0.935	[*A*]the shaded area[*R*]is[*A*](a), the shaded area is the optimal supported QoS, in which any request that falls in the region is feasible	context()	negated: False ,passive: True
+[LINE#233]Thus, a good pre-computation scheme should approximate this area as precisely as possible.
+0.919	[*A*]a good pre-computation scheme[*R*]should approximate[*A*]this area[*A*]as precisely as possible	context()	negated: False ,passive: False
+[LINE#234] The "error" in approximation is the difference in terms of the area between the region of the optimal supported QoS andthat of the approximated supported QoS.While cost deviation is related to the difference in area, it is not sufficient.
+0.183	[*A*]it[*R*]is not[*A*]sufficient	context()	negated: True ,passive: True
+[LINE#235]For example, the shaded areas in Fig. 1(a) and (b) represent the optimal and approximate supported QoS regions, respectively.
+0.385	[*A*]1[*R*](b) represent[*A*]the approximate supported QoS regions[*A*]respectively	context()	negated: False ,passive: False
+0.896	[*A*]the optimal[*R*]supported[*A*]QoS regions[*A*]respectively	context(the shaded areas in Fig (b) represent)	negated: False ,passive: False
+0.930	[*A*]the shaded areas in Fig[*R*](b) represent[*A*]the optimal supported QoS regions , respectively	context()	negated: False ,passive: False
+[LINE#236]According to Fig. 1(b), when delay is two, the approximate best cost is three.
+0.798	[*A*]delay[*R*]is[*A*]two	context()	negated: False ,passive: True
+[LINE#237]The cost deviation is 3-2=1, as the optimal cost is two.
+0.828	[*A*]the optimal cost[*R*]is[*A*]two	context()	negated: False ,passive: True
+0.932	[*A*]The cost deviation[*R*]is[*A*]3-2=1[*A*]as the optimal cost is two	context()	negated: False ,passive: True
+[LINE#238] The area of {[2,3][2,10]} is the "error" in estimating the supported QoS. Any request with the QoS requirements falling in this area is considered as infeasiblebut actually they are supported by the network.
+0.933	[*A*]the QoS requirements[*R*]falling[*A*]in this area	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]are supported[*A*]by the network	context()	negated: False ,passive: True
+0.925	[*A*]The area of {[2,3[*R*]is[*A*]the "error	context()	negated: False ,passive: True
+[LINE#239]For example, Request (2,5) is in fact feasible but can be rejected by any approximation algorithms based on the approximate QoS in Fig. 1(b).
+0.925	[*A*]any approximation algorithms[*R*]based[*A*]on the approximate QoS in Fig	context()	negated: False ,passive: True
+0.897	[*A*]Request ( 2,5[*R*]can be rejected[*A*]by any approximation algorithms	context()	negated: False ,passive: True
+0.905	[*A*]Request[*R*]is[*A*]in fact[*A*]feasible	context()	negated: False ,passive: True
+[LINE#240]On the other hand, in Fig. 1(d), the cost deviation with the delay constraint of two is also one.
+0.988	[*A*]1(d), the cost deviation with the delay constraint of two[*R*]is[*A*]also[*A*]one[*A*]On the other hand[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#241]However, we can observe that the "error" in Fig. 1(d) is much smaller than that in Fig. 1(b).
+0.876	[*A*]the "error" in Fig[*R*]is[*A*]much smaller than that in Fig	context(we can observe)	negated: False ,passive: True
+0.309	[*A*]we[*R*]can observe[*A*]that the "error" in Fig. 1(d) is much smaller than that in Fig	context()	negated: False ,passive: False
+[LINE#242]Request (2,5) would be correctly classified as feasible.
+0.754	[*A*]Request (2,5[*R*]would be correctly classified[*A*]as feasible	context()	negated: False ,passive: True
+[LINE#243] Thus, the approximate supported QoS in Fig. 1(d)provides a better network QoS providence than that in Fig. 1(b).
+0.817	[*A*]1(d[*R*]provides[*A*]a better network	context()	negated: False ,passive: False
+0.613	[*A*]the approximate[*R*]supported[*A*]QoS[*A*]in Fig	context()	negated: False ,passive: False
+[LINE#244]The above example illustrates that cost deviation cannot sufficiently reflect the admission control ability of the algorithm, while the "area" does.
+0.830	[*A*]cost deviation[*R*]can not reflect[*A*]the admission control ability of the algorithm	context(The above example illustrates)	negated: True ,passive: True
+0.828	[*A*]The above example[*R*]illustrates[*A*]that cost deviation cannot sufficiently reflect the admission control ability of the algorithm, while the "area" does	context()	negated: False ,passive: False
+0.718	[*A*]the "area[*R*]does	context()	negated: False ,passive: False
+[LINE#245] In this work, we propose a new metric, known as distortion area, which is defined as the difference between the approximate supported QoS region and the optimalsupported QoS region, to evaluate the accuracy performance of the algorithm for estimating the supported QoS.
+0.938	[*A*]distortion area[*R*]supported[*A*]QoS region and the optimalsupported QoS region[*A*]to evaluate the accuracy performance of the algorithm for estimating the supported QoS	context()	negated: False ,passive: False
+0.887	[*A*]distortion area[*R*]is defined[*A*]as the difference between the approximate	context()	negated: False ,passive: True
+0.619	[*A*]a new metric[*R*]known[*A*]as distortion area	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]propose[*A*]a new metric, known as distortion area,[*A*]In this work	context()	negated: False ,passive: False
+[LINE#246]We first analyze the distortion area of the representative algorithms described in Orda and Sprintson (2003) and Xue et al.
+0.925	[*A*]the representative algorithms[*R*]described[*A*]in Xue et al	context()	negated: False ,passive: True
+0.925	[*A*]the representative algorithms[*R*]described[*A*]in Sprintson ( 2003	context()	negated: False ,passive: True
+0.925	[*A*]the representative algorithms[*R*]described[*A*]in Orda	context()	negated: False ,passive: True
+0.554	[*A*]We[*R*]analyze[*A*]the distortion area of the representative algorithms[*A*]first	context()	negated: False ,passive: False
+[LINE#247]Then, we illustrate how to improve the algorithm to reduce the error.
+0.293	[*A*]we[*R*]illustrate to improve the algorithm to reduce[*A*]the error	context(we illustrate to improve)	negated: False ,passive: False
+0.293	[*A*]we[*R*]illustrate to improve[*A*]the algorithm[*A*]to reduce the error	context(we illustrate)	negated: False ,passive: False
+0.531	[*A*]we[*R*]illustrate[*A*]how to improve the algorithm to reduce the error[*A*]Then	context()	negated: False ,passive: False
+[LINE#248]Network model and problem formulationWe model a computer network by a directed graph G=(V,E), where V is the set of n vertices, and E is the set of m edges.
+[LINE#249]l=(u,v) is associated with two additive metrics, namely, cost and delay.
+0.833	[*A*]l=[*R*]is associated[*A*]with two additive metrics	context()	negated: False ,passive: True
+[LINE#250]Let (cl,dl) be the QoS parameter of Edge l, where cl and dl are the cost and delay of l, respectively.
+0.569	[*A*]dl[*R*]are[*A*]the delay of l , respectively[*A*]Edge l	context()	negated: False ,passive: True
+0.813	[*A*]dl[*R*]are[*A*]the cost	context()	negated: False ,passive: True
+0.903	[*A*]cl[*R*]are[*A*]the delay of l , respectively[*A*]Edge l	context()	negated: False ,passive: True
+0.813	[*A*]cl[*R*]are[*A*]the cost	context()	negated: False ,passive: True
+[LINE#251]We assume that all parameters (cost and delay) are positive, bounded, and independent.
+0.194	[*A*]We[*R*]assume[*A*]that all parameters ( delay ) are independent	context()	negated: False ,passive: False
+0.194	[*A*]We[*R*]assume[*A*]that all parameters ( delay ) are bounded	context()	negated: False ,passive: False
+0.194	[*A*]We[*R*]assume[*A*]that all parameters ( delay ) are positive	context()	negated: False ,passive: False
+0.690	[*A*]all parameters[*R*]are[*A*]independent	context(We assume)	negated: False ,passive: True
+0.194	[*A*]We[*R*]assume[*A*]that all parameters ( cost ) are independent	context()	negated: False ,passive: False
+0.194	[*A*]We[*R*]assume[*A*]that all parameters ( cost ) are bounded	context()	negated: False ,passive: False
+0.690	[*A*]all parameters[*R*]are[*A*]positive	context(We assume)	negated: False ,passive: True
+0.194	[*A*]We[*R*]assume[*A*]that all parameters ( cost ) are positive	context()	negated: False ,passive: False
+[LINE#252] Let A(v) be the node neighbor set of.
+[LINE#253]We define the optimal delay function of Link l, Dlopt(c), to specify the minimum delay value provided by link l at the cost constraint of c.
+0.919	[*A*]the minimum delay value[*R*]provided[*A*]by link l[*A*]at the cost constraint of	context()	negated: False ,passive: True
+0.498	[*A*]We[*R*]define[*A*]the optimal delay function of Link l	context()	negated: False ,passive: False
+[LINE#254]Thus, Dlopt(c) is equal to  if c<cl, otherwise, it is equal to dl if ccl.
+0.836	[*A*]Dlopt[*R*]is[*A*]equal to  if c<cl	context(it is)	negated: False ,passive: True
+0.457	[*A*]it[*R*]is[*A*]equal to dl	context()	negated: False ,passive: True
+[LINE#255]Given a path P from s to g, the optimal delay function of Path P, DPopt(c), is the minimum delay value provided by this path with a cost constraint of c.
+0.919	[*A*]the minimum delay value[*R*]provided[*A*]by this path with a cost constraint of	context()	negated: False ,passive: True
+0.964	[*A*]the optimal delay function of Path P[*R*]is[*A*]the minimum delay value provided by this path with a cost constraint of	context()	negated: False ,passive: True
+[LINE#256]Thus, DPopt(c) is equal to  if c<lPcl, otherwise, it is equal to lPdl.
+0.568	[*A*]it[*R*]is[*A*]equal to lPdl	context()	negated: False ,passive: True
+0.874	[*A*]DPopt[*R*]is[*A*]equal to  if c<lPcl, otherwise, it is equal to lPdl	context()	negated: False ,passive: True
+[LINE#257]Let Psg be the set of paths from s to g.
+[LINE#258]We define the optimal delay function from s to g, Ds,gopt(c), which is the minimum delay value provided by all the paths from s to g with the cost constraint of c, as Ds,gopt(c)=minPPsg{DPopt(c)}.Consider a simple network in Fig. 2(a).
+0.397	[*A*]We[*R*]define[*A*]the optimal delay function[*A*]from s to g	context(Ds Consider)	negated: False ,passive: False
+0.828	[*A*]Ds[*R*]Consider[*A*]a simple network in Fig	context()	negated: False ,passive: False
+0.948	[*A*]the minimum delay value[*R*]provided[*A*]by all the paths from s to g with the cost constraint of c	context()	negated: False ,passive: True
+0.914	[*A*]Ds[*R*]is[*A*]the minimum delay value provided by all the paths from s to g with the cost constraint of c,	context()	negated: False ,passive: True
+[LINE#259] Path ADFG with the QoS parameter (4,7), Path ACFG with the QoS parameter (5,6), Path ADCFG with the QoS parameter (5,10),.
+[LINE#260] Path ACEG with the QoS parameter (7,5), Path ADCEG with the QoS parameter.
+[LINE#261] For the given path P1=ABEG, the corresponding optimal delay function is DP1opt(c)=(ifc<8)or4(ifc8).We can compute the optimal delay function DA,Gopt(c) from A to G based on minPPAG{DPopt(c)}, which is DA,Gopt(c)={4ifc85if7c<86if5c<77if4c<5ifc<4As illustrated in Fig., DA,Gopt(c) is a staircase on the cost-delay plane, which is also called the efficient frontier in Bauer et al.
+0.889	[*A*]DPopt(c[*R*]is[*A*]DA	context()	negated: False ,passive: True
+0.873	[*A*]the cost-delay plane[*R*]is called[*A*]the efficient frontier	context()	negated: False ,passive: True
+0.388	[*A*]We[*R*]can compute[*A*]the optimal delay function DA	context(the corresponding optimal delay function is 4As illustrated in Fig . , DA , Gopt ( c is)	negated: False ,passive: False
+0.963	[*A*]4As illustrated in Fig., DA,Gopt(c[*R*]is[*A*]a staircase on the cost-delay plane	context(the corresponding optimal delay function is)	negated: False ,passive: True
+0.961	[*A*]the corresponding optimal delay function[*R*]is[*A*]DP1opt(c)=(ifc<8)or4	context()	negated: False ,passive: True
+[LINE#262]We would like to introduce several definitions.
+0.388	[*A*]We[*R*]would like to introduce[*A*]several definitions	context(We would like)	negated: False ,passive: False
+0.388	[*A*]We[*R*]would like[*A*]to introduce several definitions	context()	negated: False ,passive: False
+[LINE#263] Definition 1A point (x,y) is more representative than another point (x,y), denoted by (x,y)(x,y), if xx or yy, moreover, xx and yy.Definition a set S of the QoS parameters, (x,y)S is a representative point of S if there does not exist any other point (x,y)Ssuch that (x,y)(x,y).For example, in Fig. 2(b), there are totally six QoS parameters, but four of them, namely, (4,7), (5,6), (7,5), and (8,4), are the optimal representative points.11The set of the representative points is called the non-dominated front (or Pareto front).
+0.875	[*A*]y)S[*R*]is[*A*]a representative point of S	context()	negated: False ,passive: True
+0.960	[*A*]the optimal representative points.11The set of the representative points[*R*]is called[*A*]the non-dominated front (or Pareto front	context(four of them are)	negated: False ,passive: True
+0.278	[*A*]four of them[*R*]are	context()	negated: False ,passive: False
+0.861	[*A*]x,y[*R*]is[*A*]more representative than another point[*A*]if xx or yy, moreover, xx and yy.Definition a set S of the QoS parameters, (x,y)S is a representative point of S if there does not exist any other point (x,y)Ssuch	context()	negated: False ,passive: True
+[LINE#264]The corresponding paths of the representative points are called the non-dominated paths or Pareto optimal paths in the literature.
+0.967	[*A*]The corresponding paths of the representative points[*R*]are called[*A*]the non-dominated paths or Pareto optimal paths in the literature	context()	negated: False ,passive: True
+[LINE#265]Denote PFs,gopt as the set of representative points on the efficient frontier from s to g.
+0.958	[*A*]Denote PFs[*R*]gopt[*A*]as the set of representative points on the efficient frontier from s to	context()	negated: False ,passive: False
+[LINE#266]In Fig. 2(b), PFA,Gopt={(4,7),(5,6),(7,5),(8,4)}.
+[LINE#267]Definition 3Given a set of the optimal representative points PFopt, define R={(c,d)|(c,d)(c,d),(c,d)PFopt}.
+[LINE#268]The feasible area is defined as Afeasibleopt=RPFopt.
+0.925	[*A*]The feasible area[*R*]is defined[*A*]as Afeasibleopt=RPFopt	context()	negated: False ,passive: True
+[LINE#269]Definition 3 was also described in Bauer et al.
+0.880	[*A*]Definition 3[*R*]was described[*A*]in Bauer et al	context()	negated: False ,passive: True
+[LINE#270]Any request that falls in the feasible area must be supported by at least one path.
+0.943	[*A*]Any request that falls in the feasible area[*R*]must be supported[*A*]by at least one path	context()	negated: False ,passive: True
+0.913	[*A*]Any request[*R*]falls[*A*]in the feasible area	context()	negated: False ,passive: True
+[LINE#271]We call this request a feasible request.
+0.522	[*A*]We[*R*]call[*A*]this request[*A*]a feasible request	context()	negated: False ,passive: False
+[LINE#272]The problem of precomputing the supported QoS aims at finding the feasible area Afeasibleopt so that a routing table can tell whether a request is feasible upon a request arrives.
+0.770	[*A*]a request[*R*]is[*A*]feasible	context(a routing table can tell)	negated: False ,passive: True
+0.888	[*A*]a routing table[*R*]can tell[*A*]whether a request is feasible upon a request	context()	negated: False ,passive: False
+0.857	[*A*]The problem of precomputing the supported QoS[*R*]aims	context()	negated: False ,passive: False
+[LINE#273]The feasible area can be uniquely defined by the set of the optimal representative points PFopt.
+0.911	[*A*]The feasible area[*R*]can be uniquely defined[*A*]by the set of the optimal representative points	context()	negated: False ,passive: True
+[LINE#274]In Fig. 2(b), the shaded area is the feasible area which is on the upper right hand side of the efficient frontier.
+0.949	[*A*]the feasible area[*R*]is[*A*]on the upper right hand side of the efficient frontier	context()	negated: False ,passive: True
+[LINE#275]For instance, Request (10,6) falls in the shaded area.
+0.905	[*A*]Request[*R*]falls[*A*]in the shaded area	context()	negated: False ,passive: True
+[LINE#276]and (7,5) can serve this request.
+[LINE#277]Thus, this request is a feasible request.
+0.925	[*A*]this request[*R*]is[*A*]a feasible request	context()	negated: False ,passive: True
+[LINE#278]Finding the optimal feasible area is NP-Complete (Orda and Sprintson, 2003).
+0.952	[*A*]Finding the optimal feasible area[*R*]is[*A*]NP - Complete	context()	negated: False ,passive: True
+[LINE#279]Some existing works propose the approximation algorithms to estimate the feasible area.
+0.911	[*A*]Some existing works[*R*]propose[*A*]the approximation algorithms to estimate the feasible area	context()	negated: False ,passive: False
+[LINE#280]However, no work analyzes the upper bound of the approximation error caused by the existing works, which is called distortion area in this work.
+0.897	[*A*]the existing works[*R*]is called[*A*]distortion area	context()	negated: False ,passive: True
+0.911	[*A*]the approximation error[*R*]caused[*A*]by the existing works	context()	negated: False ,passive: True
+0.903	[*A*]no work[*R*]analyzes[*A*]the upper bound of the approximation error	context()	negated: False ,passive: False
+[LINE#281]In this work, we first analyze the upper bound of the approximation error produced by the existing quantized algorithms.
+0.911	[*A*]the approximation error[*R*]produced[*A*]by the existing quantized algorithms	context()	negated: False ,passive: True
+0.554	[*A*]we[*R*]analyze[*A*]the upper bound of the approximation error[*A*]In this work[*A*]first	context()	negated: False ,passive: False
+[LINE#282]We then propose a new method to estimate the feasible area, and also give the theoretical comparison between the existing schemes and our proposed method.
+0.784	[*A*]a new method[*R*]to give[*A*]the theoretical comparison between our proposed method	context()	negated: False ,passive: False
+0.520	[*A*]We[*R*]propose[*A*]a new method to also give the theoretical comparison between our proposed method[*A*]then	context()	negated: False ,passive: False
+0.870	[*A*]a new method[*R*]to give[*A*]the theoretical comparison between the existing schemes	context()	negated: False ,passive: False
+0.666	[*A*]We[*R*]propose[*A*]a new method to also give the theoretical comparison between the existing schemes[*A*]then	context()	negated: False ,passive: False
+0.911	[*A*]a new method[*R*]to estimate[*A*]the feasible area	context()	negated: False ,passive: False
+0.554	[*A*]We[*R*]propose[*A*]a new method to estimate the feasible area[*A*]then	context()	negated: False ,passive: False
+[LINE#283]this section, we present our simulation results.
+0.444	[*A*]we[*R*]present[*A*]our simulation results[*A*]this section	context()	negated: False ,passive: False
+[LINE#284]We compare our proposed method, two-dimensional scaling, with cost-scaling.
+0.418	[*A*]We[*R*]compare[*A*]our proposed method, two-dimensional scaling, with cost-scaling	context()	negated: False ,passive: False
+[LINE#285]We evaluate the performance of the algorithms from the perspectives of the approximation error and the computational overhead.
+0.569	[*A*]We[*R*]evaluate[*A*]the performance of the algorithms from the perspectives of the computational overhead	context()	negated: False ,passive: False
+0.569	[*A*]We[*R*]evaluate[*A*]the performance of the algorithms from the perspectives of the approximation error	context()	negated: False ,passive: False
+[LINE#286]As discussed in Section 1, we use the distortion area as the evaluation metric for the accuracy performance of the quantization-based approximation algorithms.
+0.569	[*A*]we[*R*]use[*A*]the distortion area[*A*]as the evaluation metric for the accuracy performance of the quantization-based approximation algorithms	context()	negated: False ,passive: False
+[LINE#287]We use the exhaustive method to compute the optimal feasible area Aopt.
+0.388	[*A*]We[*R*]use the exhaustive method to compute[*A*]the optimal feasible area	context(We use)	negated: False ,passive: False
+0.388	[*A*]We[*R*]use[*A*]the exhaustive method[*A*]to compute the optimal feasible area	context()	negated: False ,passive: False
+[LINE#288]Denote A as the estimated feasible area computed by an algorithm.
+0.919	[*A*]the estimated feasible area[*R*]computed[*A*]by an algorithm	context()	negated: False ,passive: True
+[LINE#289]The distortion area is thus Aopt-A(Aopt-A)/Aopt is called the region-deviation ratio which is proportional to the distortion area.
+0.933	[*A*]the region-deviation ratio[*R*]is[*A*]proportional to the distortion area	context()	negated: False ,passive: True
+0.963	[*A*]The distortion area[*R*]is[*A*]thus Aopt-A(Aopt-A)/Aopt is called the region-deviation ratio	context()	negated: False ,passive: True
+[LINE#290]We compare the region-deviation ratio for different quantization-based approximation algorithms.
+0.569	[*A*]We[*R*]compare[*A*]the region-deviation ratio for different quantization-based approximation algorithms	context()	negated: False ,passive: False
+[LINE#291]It is obvious that the region-deviation ratio depends on the scaling parameter .
+[LINE#292]A smaller  gives a smaller region-deviation ratio, but a larger computational overhead.
+0.568	[*A*]A smaller[*R*]gives[*A*]a smaller region - deviation ratio	context()	negated: False ,passive: False
+[LINE#293]In our simulation experiments, we use the running time of an algorithm as the metric for evaluating the efficiency performance.
+0.562	[*A*]we[*R*]use[*A*]the running time of an algorithm as the metric for evaluating the efficiency performance[*A*]In our simulation experiments	context()	negated: False ,passive: False
+[LINE#294]In order to fairly test the computational overheads of the different algorithms, all the algorithms run in turn under the same machine configuration and the same operation system (Fedora 10).
+0.932	[*A*]all the algorithms[*R*]run[*A*]in turn under the same operation system	context()	negated: False ,passive: False
+0.932	[*A*]all the algorithms[*R*]run[*A*]in turn	context()	negated: False ,passive: False
+[LINE#295]Moreover, during the running of each algorithm, the machine did not perform any other task.
+0.943	[*A*]the machine[*R*]did not perform[*A*]any other task[*A*]during the running of each algorithm	context()	negated: True ,passive: False
+[LINE#296]We use the function "gettimeofday" provided by the system to obtain the exact starting time and the end time, in order to calculate the running time delivered by different algorithms.
+0.388	[*A*]We[*R*]use the function " gettimeofday " provided by the system to obtain[*A*]the end time	context(We use)	negated: False ,passive: False
+0.388	[*A*]We[*R*]use[*A*]the function " gettimeofday " provided by the system[*A*]to obtain the end time	context()	negated: False ,passive: False
+0.887	[*A*]the function[*R*]provided[*A*]by the system	context()	negated: False ,passive: True
+0.911	[*A*]the running time[*R*]delivered[*A*]by different algorithms	context()	negated: False ,passive: True
+0.388	[*A*]We[*R*]use the function " gettimeofday " provided by the system to obtain[*A*]the exact starting time	context(We use)	negated: False ,passive: False
+0.388	[*A*]We[*R*]use[*A*]the function " gettimeofday " provided by the system[*A*]to obtain the exact starting time	context()	negated: False ,passive: False
+[LINE#297](2007), we used BRITE (Huang et al., 2010), a well-known Internet topology generator, to generate network topologies using the Waxman model.
+0.333	[*A*]we[*R*]used BRITE to generate[*A*]network topologies using the Waxman model	context(we used)	negated: False ,passive: False
+0.433	[*A*]we[*R*]used[*A*]BRITE[*A*]to generate network topologies	context()	negated: False ,passive: False
+0.918	[*A*]network topologies[*R*]using[*A*]the Waxman model	context()	negated: False ,passive: False
+[LINE#298]We apply the default parameters provided in BRITE.
+0.925	[*A*]the default parameters[*R*]provided[*A*]in BRITE	context()	negated: False ,passive: True
+0.498	[*A*]We[*R*]apply[*A*]the default parameters provided in BRITE	context()	negated: False ,passive: False
+[LINE#299]The details can be referred to Xue et al.
+0.918	[*A*]The details[*R*]can be referred[*A*]to Xue et al	context()	negated: False ,passive: True
+[LINE#300]The physical links in the networks are asymmetric, and the link metrics of both directions are independently generated.
+0.801	[*A*]the link metrics of both directions[*R*]are independently generated	context()	negated: False ,passive: False
+0.829	[*A*]The physical links in the networks[*R*]are[*A*]asymmetric	context()	negated: False ,passive: True
+[LINE#301]Cost metrics are selected uniformly from [1,100], while the delay values are selected uniformly from [1,300].
+0.993	[*A*]Cost metrics[*R*]are selected from[*A*]1100 ]	context()	negated: False ,passive: False
+0.783	[*A*]the delay values[*R*]are selected uniformly[*A*]from [1,300	context()	negated: False ,passive: True
+0.937	[*A*]Cost metrics[*R*]are selected uniformly[*A*]from [1,100[*A*]while the delay values are selected uniformly from [1,300	context()	negated: False ,passive: True
+[LINE#302]We consider five different network sizes with 100, 200, 300, 400, and 500 nodes.
+0.452	[*A*]We[*R*]consider[*A*]500 nodes	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]consider[*A*]five different network sizes with 100	context()	negated: False ,passive: False
+[LINE#303]We generate ten different instances for each network size.
+0.452	[*A*]We[*R*]generate[*A*]ten different instances for each network size	context()	negated: False ,passive: False
+[LINE#304]In each instance, we randomly select four nodes and compute the supported QoS regions from each selected node to all the other nodes in the network.
+0.452	[*A*]we[*R*]randomly select[*A*]four nodes	context()	negated: False ,passive: False
+[LINE#305]There are totally 994 different supported QoSes between two nodes in a network instance.
+[LINE#306]For each network size, the average region-deviation ratio is thus an average value of the region-deviation ratios among these 99410 configurations..
+0.967	[*A*]the average region-deviation ratio[*R*]is[*A*]thus[*A*]an average value of the region-deviation ratios among these 99410 configurations	context()	negated: False ,passive: True
+[LINE#307] Significance of distortion areaIn Section 1, we mention that the distortion area reflects the admission control performance of the network.
+0.888	[*A*]the distortion area[*R*]reflects[*A*]the admission control performance of the network	context(we mention)	negated: False ,passive: True
+0.271	[*A*]we[*R*]mention[*A*]that the distortion area reflects the admission control performance of the network	context()	negated: False ,passive: False
+[LINE#308]In this section, we have conducted the simulation experiments to demonstrate the relationship between the admission control performance and the size of the distortion area.
+0.504	[*A*]we[*R*]have conducted the simulation experiments to demonstrate[*A*]the relationship between the admission control performance and the size of the distortion area	context(we have conducted)	negated: False ,passive: False
+0.645	[*A*]we[*R*]have conducted[*A*]the simulation experiments[*A*]to demonstrate the relationship between the admission control performance and the size of the distortion area[*A*]In this section	context()	negated: False ,passive: False
+[LINE#309]After a source receives a connection request, it first determines whether there is a path satisfying the QoS requirement of a request.
+0.342	[*A*]it[*R*]determines[*A*]whether there is a path[*A*]After a source receives a connection request[*A*]first	context()	negated: False ,passive: False
+0.918	[*A*]a path[*R*]satisfying[*A*]the QoS requirement of a request	context()	negated: False ,passive: False
+0.903	[*A*]a source[*R*]receives[*A*]a connection request	context()	negated: False ,passive: False
+[LINE#310]The network will accept the request if it is feasible or reject it if the source cannot find a feasible path according to its precomputed supported QoS region.
+0.903	[*A*]the source[*R*]can not find[*A*]a feasible path	context()	negated: True ,passive: False
+0.892	[*A*]The network[*R*]reject[*A*]it[*A*]if the source cannot find a feasible path according to its precomputed supported QoS region	context()	negated: False ,passive: False
+0.278	[*A*]it[*R*]is[*A*]feasible	context()	negated: False ,passive: True
+0.835	[*A*]The network[*R*]will accept[*A*]the request if it is feasible	context()	negated: False ,passive: False
+[LINE#311]We define the ratio of the number of the requests accepted to the total number of the incoming requests as the acceptance ratio.
+0.937	[*A*]the requests[*R*]accepted[*A*]to the total number of the incoming requests as the acceptance ratio	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]define[*A*]the ratio of the number of the requests	context()	negated: False ,passive: False
+[LINE#312]Denote Sopt as the acceptance ratio corresponding to the optimal feasible area Aopt and S as the acceptance ratio for an approximation algorithm with the approximate feasible area A. Similar to Korkmaz and Krunz (2001), we define S/Sopt as the relative acceptance ratio which implies how well an algorithm works for the provision of the QoS guarantees.
+0.920	[*A*]an algorithm[*R*]works[*A*]for the provision of the QoS guarantees	context(the relative acceptance ratio implies)	negated: False ,passive: False
+0.920	[*A*]an algorithm[*R*]works[*A*]for the provision of the QoS guarantees	context(the relative acceptance ratio implies)	negated: False ,passive: False
+0.911	[*A*]the acceptance ratio[*R*]corresponding[*A*]to the optimal feasible area S	context()	negated: False ,passive: True
+0.920	[*A*]an algorithm[*R*]works[*A*]for the provision of the QoS guarantees	context(the relative acceptance ratio implies)	negated: False ,passive: False
+0.920	[*A*]an algorithm[*R*]works[*A*]for the provision of the QoS guarantees	context(the relative acceptance ratio implies)	negated: False ,passive: False
+0.934	[*A*]the relative acceptance ratio[*R*]implies[*A*]how well an algorithm works for the provision of the QoS guarantees	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]define[*A*]S / Sopt[*A*]as the relative acceptance ratio	context()	negated: False ,passive: False
+0.911	[*A*]the acceptance ratio[*R*]corresponding[*A*]to the optimal feasible area	context()	negated: False ,passive: True
+[LINE#313]S/Sopt thus reflects the admission control performance of the network.
+0.786	[*A*]S[*R*]reflects[*A*]the admission control performance of the network	context()	negated: False ,passive: True
+[LINE#314]A larger S/Sopt implies a better network performance.
+0.944	[*A*]A larger S/Sopt[*R*]implies[*A*]a better network performance	context()	negated: False ,passive: False
+[LINE#315]We generate the connection requests as follows.
+0.452	[*A*]We[*R*]generate[*A*]the connection requests[*A*]as follows	context()	negated: False ,passive: False
+[LINE#316]Given a source and a destination, let p1 and p2 be the minimum cost and minimum delay paths, respectively.
+[LINE#317]Denote the QoS parameters of p1 and p2 as (cmin,dmax) and (cmax,dmax), respectively.
+[LINE#318]We generated 1000 requests from each node pair.
+0.999	[*A*]We[*R*]generated[*A*]1000 requests	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]generated[*A*]1000 requests from each node pair	context()	negated: False ,passive: False
+[LINE#319]Each request has the cost requirement creq and the delay requirement dreq.
+0.925	[*A*]Each request[*R*]has[*A*]the delay requirement dreq	context()	negated: False ,passive: False
+0.925	[*A*]Each request[*R*]has[*A*]the cost requirement creq	context()	negated: False ,passive: False
+[LINE#320]As similar to Korkmaz and Krunz (2001), we take creq~uniform[flcmin,fucmax] and dreq~uniform[fldmin,fudmax], where fl=1.
+0.498	[*A*]we[*R*]take[*A*]dreq~uniform	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]take[*A*]creq~uniform	context()	negated: False ,passive: False
+[LINE#321]In our simulation experiments, the value of the scaling parameter for our proposed approach is twice of that for cost-scaling.
+0.642	[*A*]the value of the scaling parameter for our proposed approach[*R*]is[*A*]twice of that[*A*]In our simulation experiments	context()	negated: False ,passive: True
+[LINE#322]and (b) shows the relative acceptance ratio against the scaling parameter for cost-scaling when fu=1 and fu=0.9, respectively.
+[LINE#323]For example, when =0.05, the scaling parameter for two-dimensional scaling becomes 2=0.1.
+0.973	[*A*]the scaling parameter for two - dimensional scaling[*R*]becomes[*A*]2 = 0.1	context()	negated: False ,passive: False
+0.967	[*A*]the scaling parameter for two-dimensional scaling[*R*]becomes[*A*]2=0.1[*A*]when =0.05	context()	negated: False ,passive: True
+[LINE#324]The simulation results show that the relative acceptance ratio decreases as the scaling parameter increases.
+0.900	[*A*]the relative acceptance ratio[*R*]decreases[*A*]as the scaling parameter increases	context(The simulation results show)	negated: False ,passive: True
+0.865	[*A*]The simulation results[*R*]show[*A*]that the relative acceptance ratio decreases as the scaling parameter increases	context()	negated: False ,passive: False
+[LINE#325]Since the distortion area becomes larger as the scaling parameter increases, the distortion area varies with the relative acceptance ratio.
+0.961	[*A*]the distortion area[*R*]varies[*A*]Since the distortion area becomes larger as the scaling parameter increases	context()	negated: False ,passive: True
+0.911	[*A*]the distortion area[*R*]becomes[*A*]larger as the scaling parameter increases	context()	negated: False ,passive: True
+[LINE#326]That is, the distortion area reflects the admission control performance of the network.
+0.911	[*A*]the distortion area[*R*]reflects[*A*]the admission control performance of the network	context()	negated: False ,passive: True
+[LINE#327]We also observe that the relative acceptance ratio for our approach is higher than that for cost-scaling.
+0.516	[*A*]the relative acceptance ratio for our approach[*R*]is[*A*]higher than that for cost-scaling	context(We observe)	negated: False ,passive: True
+0.146	[*A*]We[*R*]observe[*A*]that the relative acceptance ratio for our approach is higher than that for cost-scaling	context()	negated: False ,passive: False
+[LINE#328]In the following, we are going to show that the computational overheads of our approach and cost-scaling are almost the same.
+0.471	[*A*]the computational overheads of our cost - scaling[*R*]are[*A*]almost the same	context(we to show)	negated: False ,passive: True
+0.151	[*A*]we[*R*]to show[*A*]that the computational overheads of our cost - scaling are almost the same	context()	negated: False ,passive: False
+0.423	[*A*]the computational overheads of our approach[*R*]are[*A*]almost the same	context(we to show)	negated: False ,passive: True
+0.151	[*A*]we[*R*]to show[*A*]that the computational overheads of our approach are almost the same	context()	negated: False ,passive: False
+[LINE#329]Therefore, our approach can provide a better admission control service than cost-scaling without inducing additional overhead.
+0.638	[*A*]our approach[*R*]can provide[*A*]a better admission control service than cost-scaling	context()	negated: False ,passive: False
+[LINE#330]and (b), we observe that the relative acceptance ratio with fu=0.9 is less than that with fu=1.
+0.709	[*A*]b), we observe that the relative acceptance ratio with fu=0.9[*R*]is[*A*]less than that with fu=1	context(we observe)	negated: False ,passive: True
+0.317	[*A*]we[*R*]observe[*A*]that the relative acceptance ratio with fu=0.9 is less than that with fu=1	context()	negated: False ,passive: False
+[LINE#331]The larger fu implies that more requests fall in the feasible region, and so, the relative acceptance ratio with larger fu is greater. .
+0.876	[*A*]the relative acceptance ratio with larger fu[*R*]is[*A*]greater	context()	negated: False ,passive: True
+0.908	[*A*]more requests[*R*]fall[*A*]in the feasible region	context(The larger fu implies)	negated: False ,passive: True
+0.750	[*A*]The larger fu[*R*]implies[*A*]that more requests fall in the feasible region	context()	negated: False ,passive: False
+[LINE#332]scaling against cost-scalingThe relative acceptance ratio does not only depend on the distortion area, but also it relates to the specific QoS requirements of the connection requests.
+0.498	[*A*]it[*R*]relates[*A*]to the specific QoS requirements of the connection requests	context()	negated: False ,passive: True
+0.916	[*A*]scaling against cost - scalingThe relative acceptance ratio[*R*]does not depend[*A*]on the distortion area	context()	negated: True ,passive: False
+[LINE#333]We would like to use the region-deviation ratio as the metric to evaluate the accuracy performance of an approximation algorithm.
+0.388	[*A*]We[*R*]would like to use[*A*]the region-deviation ratio[*A*]as the metric	context(We would like)	negated: False ,passive: False
+0.504	[*A*]We[*R*]would like[*A*]to use the region-deviation ratio as the metric	context()	negated: False ,passive: False
+[LINE#334]Figure 8 shows the simulation results with uniform scaling.
+0.991	[*A*]figure 8[*R*][number of] shows[*A*]the simulation results with uniform scaling	context()	negated: False ,passive: False
+0.925	[*A*]Figure 8[*R*]shows[*A*]the simulation results with uniform scaling	context()	negated: False ,passive: False
+[LINE#335] Figure 8(a) exhibits the relationship between the region-deviation ratios and the scaling parameter.
+0.927	[*A*]Figure 8[*R*]exhibits[*A*]the relationship between the region-deviation ratios and the scaling parameter	context()	negated: False ,passive: False
+[LINE#336]We can see that the region-deviation ratio for cost-scaling is the higher than that for two-dimensional scaling.
+0.872	[*A*]the region-deviation ratio for cost-scaling[*R*]is[*A*]the higher than that for two-dimensional scaling	context(We can see)	negated: False ,passive: True
+0.271	[*A*]We[*R*]can see[*A*]that the region-deviation ratio for cost-scaling is the higher than that for two-dimensional scaling	context()	negated: False ,passive: False
+[LINE#337]For each running time, there is a corresponding region-deviation ratio produced by algorithm.
+0.932	[*A*]a corresponding region-deviation ratio[*R*]produced[*A*]by algorithm	context()	negated: False ,passive: True
+[LINE#338]With the same running time, the lower the region-deviation ratio, the better the algorithm.
+[LINE#339]Figure 8(c) shows the region-deviation ratio of two-dimensional scaling is lower than that of cost-scaling, and so the proposed method outperforms cost-scaling.
+0.911	[*A*]the proposed method[*R*]outperforms[*A*]cost - scaling	context()	negated: False ,passive: False
+0.887	[*A*]the region - deviation ratio of two - dimensional scaling[*R*]is[*A*]lower than that of cost - scaling	context(Figure 8 shows)	negated: False ,passive: True
+0.931	[*A*]Figure 8[*R*]shows[*A*]the region - deviation ratio of two - dimensional scaling	context()	negated: False ,passive: False
+[LINE#340]We then test the performance of the algorithms applying logarithmic scaling.
+0.903	[*A*]the algorithms[*R*]applying[*A*]logarithmic scaling	context()	negated: False ,passive: False
+0.623	[*A*]We[*R*]test[*A*]the performance of the algorithms[*A*]then	context()	negated: False ,passive: False
+[LINE#341]Figure 9 shows the simulation results.
+0.925	[*A*]Figure 9[*R*]shows[*A*]the simulation results	context()	negated: False ,passive: False
+[LINE#342]9(b), the scaling parameter for two-dimensional scaling is twice of that for cost-scaling.
+0.933	[*A*]the scaling parameter for two-dimensional scaling[*R*]is twice[*A*]for cost-scaling	context()	negated: False ,passive: True
+[LINE#343]The computational overheads for both algorithms are comparable.
+0.829	[*A*]The computational overheads for both algorithms[*R*]are[*A*]comparable	context()	negated: False ,passive: True
+[LINE#344]This accords with our theoretical analysis in Section 5.3.
+[LINE#345]That is, when the scaling parameter is small enough, (1+2) is approximately the same as (1+)2.
+0.828	[*A*]the scaling parameter[*R*]is[*A*]small enough	context()	negated: False ,passive: True
+[LINE#346]Figure 9(c) shows the region-deviation ratio of the algorithms against the running time.
+0.944	[*A*]Figure 9[*R*]shows[*A*]the region-deviation ratio of the algorithms against the running time	context()	negated: False ,passive: False
+[LINE#347]We observe that the performance improvement for two-dimensional scaling over cost-scaling becomes greater with a smaller scaling parameter, which leads to a larger running time.
+0.951	[*A*]the performance improvement for two-dimensional scaling over cost-scaling[*R*]becomes[*A*]greater with a smaller scaling parameter	context(We observe)	negated: False ,passive: True
+0.279	[*A*]We[*R*]observe[*A*]that the performance improvement for two-dimensional scaling over cost-scaling becomes greater with a smaller scaling parameter	context()	negated: False ,passive: False
+0.905	[*A*]a smaller scaling parameter[*R*]leads[*A*]to a larger running time	context()	negated: False ,passive: False
+[LINE#348]Finally, we would like to evaluate the performance of the algorithms with different network sizes.
+0.388	[*A*]we[*R*]would like to evaluate[*A*]the performance of the algorithms with different network sizes	context(we would like)	negated: False ,passive: False
+0.645	[*A*]we[*R*]would like[*A*]to evaluate the performance of the algorithms with different network sizes[*A*]Finally	context()	negated: False ,passive: False
+[LINE#349]When applying uniform scaling, we set the scaling parameters as 0.1 and 0.2 for cost-scaling and two-dimensional scaling, respectively.
+0.661	[*A*]we[*R*]set[*A*]the scaling parameters[*A*]as 0.2 for two - dimensional scaling[*A*]respectively[*A*]When applying uniform scaling	context()	negated: False ,passive: False
+0.661	[*A*]we[*R*]set[*A*]the scaling parameters[*A*]as 0.2 for cost - scaling[*A*]respectively[*A*]When applying uniform scaling	context()	negated: False ,passive: False
+0.661	[*A*]we[*R*]set[*A*]the scaling parameters[*A*]as 0.1 for two - dimensional scaling[*A*]respectively[*A*]When applying uniform scaling	context()	negated: False ,passive: False
+0.661	[*A*]we[*R*]set[*A*]the scaling parameters[*A*]as 0.1 for cost - scaling[*A*]respectively[*A*]When applying uniform scaling	context()	negated: False ,passive: False
+[LINE#350]When applying logarithmic scaling, the scaling parameters for cost-scaling and two-dimensional scaling are 0.05 and 0.1, respectively.
+0.834	[*A*]the scaling parameters for two - dimensional scaling[*R*]have respectively of[*A*]0.1	context()	negated: False ,passive: False
+0.973	[*A*]the scaling parameters for two - dimensional scaling[*R*]are[*A*]0.1	context()	negated: False ,passive: False
+0.998	[*A*]two dimensional scaling[*R*]has parameters of[*A*]0.1	context()	negated: False ,passive: False
+0.967	[*A*]the scaling parameters for two - dimensional scaling[*R*]are[*A*]0.1[*A*]respectively[*A*]When applying logarithmic scaling	context()	negated: False ,passive: True
+0.834	[*A*]the scaling parameters for two - dimensional scaling[*R*]have respectively of[*A*]0.05	context()	negated: False ,passive: False
+0.973	[*A*]the scaling parameters for two - dimensional scaling[*R*]are[*A*]0.05	context()	negated: False ,passive: False
+0.998	[*A*]two dimensional scaling[*R*]has parameters of[*A*]0.05	context()	negated: False ,passive: False
+0.967	[*A*]the scaling parameters for two - dimensional scaling[*R*]are[*A*]0.05[*A*]respectively[*A*]When applying logarithmic scaling	context()	negated: False ,passive: True
+0.834	[*A*]the scaling parameters for cost - scaling[*R*]have respectively of[*A*]0.1	context()	negated: False ,passive: False
+0.973	[*A*]the scaling parameters for cost - scaling[*R*]are[*A*]0.1	context()	negated: False ,passive: False
+0.998	[*A*]cost scaling[*R*]has parameters of[*A*]0.1	context()	negated: False ,passive: False
+0.964	[*A*]the scaling parameters for cost - scaling[*R*]are[*A*]0.1[*A*]respectively[*A*]When applying logarithmic scaling	context()	negated: False ,passive: True
+0.834	[*A*]the scaling parameters for cost - scaling[*R*]have respectively of[*A*]0.05	context()	negated: False ,passive: False
+0.973	[*A*]the scaling parameters for cost - scaling[*R*]are[*A*]0.05	context()	negated: False ,passive: False
+0.998	[*A*]cost scaling[*R*]has parameters of[*A*]0.05	context()	negated: False ,passive: False
+0.964	[*A*]the scaling parameters for cost - scaling[*R*]are[*A*]0.05[*A*]respectively[*A*]When applying logarithmic scaling	context()	negated: False ,passive: True
+[LINE#351]The simulation results in Figs.
+0.918	[*A*]The simulation[*R*]results[*A*]in Figs	context()	negated: False ,passive: True
+[LINE#352]and 11(b) show that the computational overheads incurred by the algorithms are comparable.
+0.911	[*A*]the computational overheads[*R*]incurred[*A*]by the algorithms	context()	negated: False ,passive: True
+[LINE#353]Figures 10(a) and 11(a) show that the region-deviation ratio for two-dimensional scaling is less than half of that for cost-scaling.
+0.887	[*A*]the region - deviation ratio for two - dimensional scaling[*R*]is[*A*]less than half of that for cost - scaling	context(Figures 11 show)	negated: False ,passive: True
+0.830	[*A*]Figures 11[*R*]show[*A*]that the region - deviation ratio for two - dimensional scaling is less than half of that for cost - scaling	context()	negated: False ,passive: False
+0.887	[*A*]the region - deviation ratio for two - dimensional scaling[*R*]is[*A*]less than half of that for cost - scaling	context(Figures 10 show)	negated: False ,passive: True
+0.830	[*A*]Figures 10[*R*]show[*A*]that the region - deviation ratio for two - dimensional scaling is less than half of that for cost - scaling	context()	negated: False ,passive: False
+[LINE#354]These results show that our approach outperforms over cost-scaling in the general network topology.
+0.585	[*A*]our approach[*R*]outperforms[*A*]over cost-scaling in the general network topology	context(These results show)	negated: False ,passive: False
+0.759	[*A*]These results[*R*]show[*A*]that our approach outperforms over cost-scaling in the general network topology	context()	negated: False ,passive: False
+[LINE#355]Related workThe MCP problem and RSP (DCLC) problem have been studied extensively (Garroppo et al., 2010).
+0.754	[*A*]RSP ( DCLC ) problem[*R*]have been studied[*A*]extensively	context()	negated: False ,passive: True
+0.844	[*A*]Related workThe MCP problem[*R*]have been studied[*A*]extensively	context()	negated: False ,passive: True
+[LINE#356]The work in Hassin (1992) focuses on the RSP problem and presents two polynomial algorithms.
+0.903	[*A*]The work[*R*]presents[*A*]two polynomial algorithms	context()	negated: False ,passive: False
+0.950	[*A*]The work in Hassin ( 1992[*R*]focuses[*A*]on the RSP problem	context()	negated: False ,passive: False
+[LINE#357]The author first presented an -approximation algorithm by using the basic technique of rounding and scaling with the time complexity O(loglog(UBLB)(|E|(n/)+loglog(UBLB))), where UB and LB are the cost metrics of the minimum delay path and the minimum cost path, respectively, |E| is the number of links, and n is the number of nodes.
+0.852	[*A*]LB[*R*]are respectively[*A*]the cost metrics of	context()	negated: False ,passive: True
+0.964	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O ( loglog ( UBLB ) ( ( n / ) +loglog ( UBLB ) ) ) , where LB are the cost metrics of respectively , | E | is the number of links , and n is the number of nodes[*A*]first	context()	negated: False ,passive: False
+0.855	[*A*]LB[*R*]are[*A*]the cost metrics of the minimum cost path	context()	negated: False ,passive: True
+0.964	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O ( loglog ( UBLB ) ( ( n / ) +loglog ( UBLB ) ) ) , where LB are the cost metrics of the minimum cost path , | E | is the number of links , and n is the number of nodes[*A*]first	context()	negated: False ,passive: False
+0.855	[*A*]LB[*R*]are[*A*]the cost metrics of the minimum delay path	context()	negated: False ,passive: True
+0.964	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O ( loglog ( UBLB ) ( ( n / ) +loglog ( UBLB ) ) ) , where LB are the cost metrics of the minimum delay path , | E | is the number of links , and n is the number of nodes[*A*]first	context()	negated: False ,passive: False
+0.852	[*A*]UB[*R*]are respectively[*A*]the cost metrics of	context()	negated: False ,passive: True
+0.964	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O ( loglog ( UBLB ) ( ( n / ) +loglog ( UBLB ) ) ) , where UB are the cost metrics of respectively , | E | is the number of links , and n is the number of nodes[*A*]first	context()	negated: False ,passive: False
+0.918	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]first	context(E is)	negated: False ,passive: False
+0.796	[*A*]E[*R*]is[*A*]the number of links	context()	negated: False ,passive: True
+0.855	[*A*]UB[*R*]are[*A*]the cost metrics of the minimum cost path	context()	negated: False ,passive: True
+0.964	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O ( loglog ( UBLB ) ( ( n / ) +loglog ( UBLB ) ) ) , where UB are the cost metrics of the minimum cost path , | E | is the number of links , and n is the number of nodes[*A*]first	context()	negated: False ,passive: False
+0.449	[*A*]n[*R*]is[*A*]the number of nodes	context()	negated: False ,passive: True
+0.958	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O | E |[*A*]first	context()	negated: False ,passive: False
+0.855	[*A*]UB[*R*]are[*A*]the cost metrics of the minimum delay path	context()	negated: False ,passive: True
+0.890	[*A*]+loglog[*R*]is[*A*]n	context()	negated: False ,passive: True
+0.964	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of scaling with the time complexity O ( loglog ( UBLB ) ( ( n / ) +loglog ( UBLB ) ) ) , where UB are the cost metrics of the minimum delay path , | E | is the number of links , and n is the number of nodes[*A*]first	context()	negated: False ,passive: False
+0.934	[*A*]The author[*R*]presented[*A*]an - approximation algorithm[*A*]by using the basic technique of rounding[*A*]first	context()	negated: False ,passive: False
+[LINE#358]Then, the author applied the basic technique of interval partitioning in Sahni (1977) to design a second -approximation algorithm with the time complexity of O(|E|(n2/)log(n/)).
+0.882	[*A*]the author[*R*]applied the basic technique of interval partitioning in Sahni to design[*A*]a second -approximation algorithm with the time complexity of O	context(the author applied)	negated: False ,passive: False
+0.961	[*A*]the author[*R*]applied[*A*]the basic technique of interval partitioning in Sahni[*A*]to design a second -approximation algorithm with the time complexity of O[*A*]Then	context()	negated: False ,passive: False
+0.937	[*A*]the basic technique of interval[*R*]partitioning[*A*]in Sahni	context()	negated: False ,passive: True
+[LINE#359] Since the time complexity of the first algorithm depends on the upper bound of delay metric of each link, this algorithm is classified in Orda and Sprintson(2003) as a pseudo-polynomial algorithm.
+0.886	[*A*]this algorithm[*R*]is classified[*A*]as a pseudo - polynomial algorithm	context()	negated: False ,passive: True
+0.960	[*A*]the time complexity of the first algorithm[*R*]depends[*A*]on the upper bound of delay metric of each link	context()	negated: False ,passive: False
+[LINE#360] To the best of our knowledge, the algorithm in Xue(2007) is currently fastest one for precomputing the supported QoS with two additive constraints, which has the complexity of O(|E|n(loglogn+1/)), where  is the small positive constant.
+0.933	[*A*]two additive constraints[*R*]has[*A*]the complexity of O(|E	context()	negated: False ,passive: False
+0.971	[*A*]the algorithm in Xue[*R*]is[*A*]currently fastest one for precomputing the supported QoS with two additive constraints	context()	negated: False ,passive: True
+[LINE#361]The smaller , the higher accuracy but the higher computational overhead.
+[LINE#362](2008) design heuristic techniques to improve the performance computational overhead of the algorithm in Goel et al.
+[LINE#363]we know, heuristic algorithm cannot provide performance guarantees and the introduced approximation error is difficult to be bounded.
+0.803	[*A*]the introduced approximation error[*R*]is[*A*]difficult to be bounded	context(we know heuristic algorithm can not provide)	negated: False ,passive: True
+0.878	[*A*]heuristic algorithm[*R*]can not provide[*A*]performance guarantees	context(we know)	negated: True ,passive: False
+0.529	[*A*]we[*R*]know[*A*]heuristic algorithm cannot provide performance guarantees and the introduced approximation error is difficult to be bounded	context()	negated: False ,passive: False
+[LINE#364](2008) study the decision version of the problem.
+[LINE#365]Given a connection request with two additive constraints, the proposed algorithm either finds a feasible solution or confirms that there does not exist a source-destination path whose first metric is bounded by the first constraint and whose second weight is bounded by (1-) times the second constraint.
+[LINE#366](2012) enhance the algorithm proposed by Xue et al.
+0.918	[*A*]the algorithm[*R*]proposed[*A*]by Xue et al	context()	negated: False ,passive: True
+[LINE#367](2008) by reducing the computational complexity.
+[LINE#368]Li and Zhang (2010) study MCP problem in smart grid and propose a simple heuristic algorithm.
+0.833	[*A*]Zhang[*R*]propose[*A*]a simple heuristic algorithm	context()	negated: False ,passive: False
+0.855	[*A*]Li[*R*]propose[*A*]a simple heuristic algorithm	context()	negated: False ,passive: False
+0.885	[*A*]MCP problem[*R*][is] study [of][*A*]Li	context()	negated: False ,passive: False
+[LINE#369]Avallone and Ventre (2012) develop a routing algorithm which searches for a feasible path for a given flow request with multiple additive constraints that requires the least number of nodes and links to be turned on.
+0.954	[*A*]a feasible path for a given flow request with multiple additive constraints[*R*]requires[*A*]the least number of links	context()	negated: False ,passive: False
+0.940	[*A*]Ventre[*R*]develop[*A*]a routing algorithm which searches for a feasible path for a given flow request with multiple additive constraints	context()	negated: False ,passive: False
+0.561	[*A*]links[*R*]to be turned on	context()	negated: False ,passive: False
+0.934	[*A*]a given flow request with multiple additive constraints[*R*]requires[*A*]the least number of links	context()	negated: False ,passive: False
+0.713	[*A*]nodes[*R*]to be turned on	context()	negated: False ,passive: False
+0.954	[*A*]a feasible path for a given flow request with multiple additive constraints[*R*]requires[*A*]the least number of nodes	context()	negated: False ,passive: False
+0.933	[*A*]a routing algorithm[*R*]searches[*A*]for a feasible path for a given flow request with multiple additive constraints	context()	negated: False ,passive: False
+0.948	[*A*]Avallone[*R*]develop[*A*]a routing algorithm which searches for a feasible path for a given flow request with multiple additive constraints	context()	negated: False ,passive: False
+[LINE#370](2013) present a genetic algorithm to find a path satisfying a connection request with two additive constraints.
+0.903	[*A*]a path[*R*]satisfying[*A*]a connection request with two additive constraints	context()	negated: False ,passive: False
+[LINE#371]With the supported QoS region, the decision can be made immediately based on the QoS requirements.
+[LINE#372]In fact, the common technique used for designing approximation algorithms (for solving both RSP and MCP) is to map the cost (or delay) value of each link to an integer.
+0.982	[*A*]the common technique used for designing approximation algorithms (for solving both RSP and MCP)[*R*]is[*A*]to map the cost (or delay) value of each link to an integer	context()	negated: False ,passive: True
+0.952	[*A*]the common technique[*R*]used[*A*]for designing approximation algorithms (for solving both RSP and MCP	context()	negated: False ,passive: True
+[LINE#373]Then, the cost (or delay) of a path becomes a value in a finite set of integers instead of the continuous real number line.
+0.981	[*A*]the cost (or delay) of a path[*R*]becomes[*A*]a value in a finite set of integers instead of the continuous real number line[*A*]Then	context()	negated: False ,passive: True
+[LINE#374]We refer this technique as quantization.
+0.452	[*A*]We[*R*]refer[*A*]this technique[*A*]as quantization	context()	negated: False ,passive: False
+[LINE#375]For example, in the uniform scaling quantization method, a link cost is multiplied by a constant and then round (up or down) to an integer.
+0.967	[*A*]a link cost[*R*]is multiplied[*A*]by a constant and then round (up or down) to an integer[*A*]in the uniform scaling quantization method	context()	negated: False ,passive: True
+[LINE#376] Moreover, there is another quantization method called logarithmic scaling(Orda and Sprintson, 2003), and we shall describe it in more detail later.
+0.926	[*A*]another quantization method called logarithmic[*R*]scaling[*A*]Sprintson , 2003	context()	negated: False ,passive: False
+0.785	[*A*]another quantization method called logarithmic[*R*]scaling	context()	negated: False ,passive: False
+0.309	[*A*]we[*R*]shall describe[*A*]it[*A*]later	context()	negated: False ,passive: False
+[LINE#377]After quantizing the link costs (delays), we can apply the approximation algorithm to solve RSP for each possible cost (or delay) constraint to get the ACOP solution (Orda and Sprintson, 2003).
+0.333	[*A*]we[*R*]can apply the approximation algorithm to get[*A*]the ACOP solution	context(we can apply)	negated: False ,passive: False
+0.433	[*A*]we[*R*]can apply the approximation algorithm to solve[*A*]RSP[*A*]for delay	context(we can apply)	negated: False ,passive: False
+0.531	[*A*]we[*R*]can apply[*A*]the approximation algorithm[*A*]After quantizing the link costs	context()	negated: False ,passive: False
+0.333	[*A*]we[*R*]can apply the approximation algorithm to solve RSP for delay ) to get[*A*]the ACOP solution	context(we can apply)	negated: False ,passive: False
+0.577	[*A*]we[*R*]can apply[*A*]the approximation algorithm to solve RSP for delay )[*A*]After quantizing the link costs	context()	negated: False ,passive: False
+0.433	[*A*]we[*R*]can apply the approximation algorithm to solve[*A*]RSP[*A*]for each possible cost[*A*]to get the ACOP solution	context(we can apply)	negated: False ,passive: False
+0.718	[*A*]each possible cost[*R*]constraint	context()	negated: False ,passive: False
+0.433	[*A*]we[*R*]can apply the approximation algorithm to solve[*A*]RSP[*A*]for each possible cost	context(we can apply)	negated: False ,passive: False
+0.577	[*A*]we[*R*]can apply[*A*]the approximation algorithm[*A*]to solve RSP for each possible cost[*A*]After quantizing the link costs	context()	negated: False ,passive: False
+0.913	[*A*]each possible cost[*R*]constraint[*A*]to get the ACOP solution	context()	negated: False ,passive: True
+[LINE#378]Unfortunately, the complexity will be very high, and thus the authors in Orda and Sprintson (2003) developed a less computationally expensive approximation algorithm.
+0.767	[*A*]the complexity[*R*]will be[*A*]very high	context()	negated: False ,passive: True
+[LINE#379]Nevertheless, the performance analysis presented in Orda and Sprintson (2003) is based on cost deviation, but not on distortion area.
+0.961	[*A*]the performance analysis presented in Sprintson ( 2003 )[*R*]is based[*A*]on cost deviation	context()	negated: False ,passive: True
+0.925	[*A*]the performance analysis[*R*]presented[*A*]in Sprintson	context()	negated: False ,passive: True
+0.949	[*A*]the performance analysis presented in Orda[*R*]is based[*A*]on cost deviation	context()	negated: False ,passive: True
+0.925	[*A*]the performance analysis[*R*]presented[*A*]in Orda	context()	negated: False ,passive: True
+0.911	[*A*]the performance analysis[*R*]presented not[*A*]on distortion area	context()	negated: True ,passive: False
+[LINE#380] In this paper, we shall analyze the upper bound of the distortion area produced by the approximation algorithm in Orda and Sprintson.
+0.925	[*A*]the distortion area[*R*]produced[*A*]by the approximation algorithm in Sprintson	context()	negated: False ,passive: True
+0.925	[*A*]the distortion area[*R*]produced[*A*]by the approximation algorithm in Orda	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]shall analyze[*A*]the upper bound of the distortion area[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#381]Nevertheless, the analysis can be generalized for other approximation algorithms based on link metric quantization.
+0.911	[*A*]other approximation algorithms[*R*]based[*A*]on link	context()	negated: False ,passive: True
+0.903	[*A*]the analysis[*R*]can be generalized[*A*]for other approximation algorithms	context()	negated: False ,passive: True
+[LINE#382](2003, 2005) also study the problem of precomputing the supported QoS. The proposed mechanisms are heuristic and there is no performance guarantee.
+0.783	[*A*]The proposed mechanisms[*R*]are[*A*]heuristic	context()	negated: False ,passive: True
+0.596	[*A*]2003, 2005[*R*]study[*A*]the problem of precomputing the supported QoS	context()	negated: False ,passive: False
+[LINE#383]There are two kinds of errors for admission control in these algorithms.
+[LINE#384]The first one is when an algorithm rejects a feasible connection request, and the second one is whenever an algorithm accepts an infeasible connection request.
+0.916	[*A*]the second one[*R*]is[*A*]whenever an algorithm accepts an infeasible connection request	context(The first one is)	negated: False ,passive: True
+0.712	[*A*]The first one[*R*]is[*A*]the second one is whenever an algorithm accepts an infeasible connection request	context()	negated: False ,passive: True
+0.903	[*A*]an algorithm[*R*]accepts[*A*]an infeasible connection request	context()	negated: False ,passive: False
+0.903	[*A*]an algorithm[*R*]rejects[*A*]a feasible connection request	context()	negated: False ,passive: False
+0.658	[*A*]The first one[*R*]is[*A*]when an algorithm rejects a feasible connection request	context()	negated: False ,passive: True
+[LINE#385](2003, 2005) includes both kinds of errors.
+0.551	[*A*]2003, 2005[*R*]includes[*A*]both kinds of errors	context()	negated: False ,passive: True
+[LINE#386]Since the quantization-based algorithms presented in our work will not accept an infeasible connection request, they will not introduce the second kind of error.
+0.616	[*A*]they[*R*]will not introduce[*A*]the second kind of error	context()	negated: True ,passive: False
+0.776	[*A*]the quantization-based algorithms presented in our work[*R*]will not accept[*A*]an infeasible connection request	context()	negated: True ,passive: False
+0.871	[*A*]the quantization-based algorithms[*R*]presented[*A*]in our work	context()	negated: False ,passive: True
+[LINE#387]Therefore, the distortion area presented by our work is suitable to reflect the admission control performance of the algorithms.
+0.707	[*A*]the distortion area presented by our work[*R*]to reflect[*A*]the admission control performance of the algorithms	context()	negated: False ,passive: True
+0.859	[*A*]the distortion area presented by our work[*R*]is[*A*]suitable to reflect the admission control performance of the algorithms	context()	negated: False ,passive: True
+0.848	[*A*]the distortion area[*R*]presented[*A*]by our work	context()	negated: False ,passive: True

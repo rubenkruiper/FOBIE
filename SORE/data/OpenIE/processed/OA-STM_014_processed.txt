@@ -1,0 +1,939 @@
+[LINE#1]Incremental learning is an efficient technique for knowledge discovery in a dynamic database, which enables acquiring additional knowledge from new data without forgetting prior knowledge.
+0.870	[*A*]a dynamic database[*R*]enables acquiring[*A*]additional knowledge from new data	context(a dynamic database enables)	negated: False ,passive: False
+0.915	[*A*]a dynamic database[*R*]enables[*A*]acquiring additional knowledge from new data without forgetting prior knowledge	context()	negated: False ,passive: False
+0.952	[*A*]Incremental learning[*R*]is[*A*]an efficient technique for knowledge discovery in a dynamic database	context()	negated: False ,passive: True
+[LINE#2]Rough set theory has been successfully used in information systems for classification analysis.
+0.911	[*A*]Rough set theory[*R*]has been successfully used[*A*]in information systems[*A*]for classification analysis	context()	negated: False ,passive: True
+[LINE#3]Set-valued information systems are generalized models of single-valued information systems, which can be classified into two categories: disjunctive and conjunctive.
+0.913	[*A*]single - valued information systems[*R*]can be classified[*A*]into two categories	context()	negated: False ,passive: True
+0.926	[*A*]Set - valued information systems[*R*]are[*A*]generalized models of single - valued information systems	context()	negated: False ,passive: True
+[LINE#4]Approximations are fundamental concepts of rough set theory, which need to be updated incrementally while the object set varies over time in the set-valued information systems.
+0.911	[*A*]the object set[*R*]varies[*A*]over time in the set-valued information systems	context()	negated: False ,passive: True
+0.773	[*A*]fundamental concepts of rough set theory[*R*]to be updated incrementally	context()	negated: False ,passive: False
+0.803	[*A*]fundamental concepts of rough set theory[*R*]need[*A*]to be updated incrementally	context()	negated: False ,passive: False
+0.931	[*A*]Approximations[*R*]are[*A*]fundamental concepts of rough set theory, which need to be updated incrementally	context()	negated: False ,passive: True
+[LINE#5]In this paper, we analyze the updating mechanisms for computing approximations with the variation of the object set.
+0.702	[*A*]we[*R*]analyze[*A*]the updating mechanisms for computing approximations with the variation of the object set[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#6]Two incremental algorithms for updating the approximations in disjunctive/conjunctive set-valued information systems are proposed, respectively.
+0.914	[*A*]Two incremental algorithms for updating the approximations in disjunctive/conjunctive set-valued information systems[*R*]are proposed[*A*]respectively	context()	negated: False ,passive: True
+[LINE#7]Furthermore, extensive experiments are carried out on several data sets to verify the performance of the proposed algorithms.
+0.903	[*A*]extensive experiments[*R*]are carried out[*A*]on several data sets[*A*]to verify the performance of the proposed algorithms	context()	negated: False ,passive: True
+[LINE#8]The results indicate the incremental approaches significantly outperform non-incremental approaches with a dramatic reduction in the computational speed.
+0.929	[*A*]the incremental approaches[*R*]significantly outperform[*A*]non-incremental approaches with a dramatic reduction in the computational speed	context(The results indicate)	negated: False ,passive: False
+0.923	[*A*]The results[*R*]indicate[*A*]the incremental approaches significantly outperform non-incremental approaches with a dramatic reduction in the computational speed	context()	negated: False ,passive: False
+[LINE#9]The incremental technique is an effective way to maintain knowledge in the dynamic environment.
+0.956	[*A*]The incremental technique[*R*]is[*A*]an effective way to maintain knowledge in the dynamic environment	context()	negated: False ,passive: True
+[LINE#10]In this paper, we proposed incremental methods for updating approximations in SOIS when the information system is updated by inserting or deleting objects.
+0.911	[*A*]the information system[*R*]is updated[*A*]by inserting or deleting objects	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]proposed[*A*]incremental methods for updating approximations in SOIS[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#11]Through discussing the principles of updating approximations by deleting objects from the information system and inserting objects into the information system, respectively, we proposed the incremental algorithms for updating approximations based on SOIS in terms of inserting or deleting an object.
+0.498	[*A*]we[*R*]proposed[*A*]the incremental algorithms for updating approximations based on SOIS	context()	negated: False ,passive: False
+0.943	[*A*]the incremental algorithms for updating approximations[*R*]based[*A*]on SOIS	context()	negated: False ,passive: True
+[LINE#12]Experimental studies pertaining to four UCI data sets and two artificial data sets showed that the incremental algorithms can improve the computational efficiency for updating approximations when the object set in the information system varies over time.
+0.891	[*A*]the incremental algorithms[*R*]can improve[*A*]the computational efficiency for updating approximations	context(Experimental studies pertaining to two artificial data sets showed)	negated: False ,passive: False
+0.882	[*A*]Experimental studies[*R*]pertaining[*A*]to two artificial data sets	context(Experimental studies pertaining to two artificial data sets showed)	negated: False ,passive: False
+0.886	[*A*]Experimental studies pertaining to two artificial data sets[*R*]showed[*A*]that the incremental algorithms can improve the computational efficiency for updating approximations	context()	negated: False ,passive: False
+0.925	[*A*]the object[*R*]set[*A*]in the information system[*A*]varies over time	context()	negated: False ,passive: True
+0.891	[*A*]the incremental algorithms[*R*]can improve[*A*]the computational efficiency for updating approximations	context(Experimental studies pertaining to four UCI data sets showed)	negated: False ,passive: False
+0.900	[*A*]Experimental studies[*R*]pertaining[*A*]to four UCI data sets	context(Experimental studies pertaining to four UCI data sets showed)	negated: False ,passive: False
+0.914	[*A*]Experimental studies pertaining to four UCI data sets[*R*]showed[*A*]that the incremental algorithms can improve the computational efficiency for updating approximations	context()	negated: False ,passive: False
+0.938	[*A*]the object set in the information system[*R*]varies[*A*]over time	context()	negated: False ,passive: True
+[LINE#13]In real-world applications, an information system may be updated by inserting and deleting some objects at the same time.
+0.897	[*A*]an information system[*R*]by deleting[*A*]some objects[*A*]at the same time	context()	negated: False ,passive: False
+0.718	[*A*]an information system[*R*]by inserting	context()	negated: False ,passive: False
+0.939	[*A*]an information system[*R*]may be updated[*A*]In real - world applications	context()	negated: False ,passive: True
+[LINE#14]In our further work, we will focus on improving the incremental algorithm for updating knowledge by deleting and deleting some objects simultaneously.
+0.562	[*A*]we[*R*]will focus[*A*]on improving the incremental algorithm for updating knowledge by deleting some objects simultaneously[*A*]In our further work	context()	negated: False ,passive: False
+0.562	[*A*]we[*R*]will focus[*A*]on improving the incremental algorithm for updating knowledge by deleting[*A*]In our further work	context()	negated: False ,passive: False
+[LINE#15]Furthermore, as an information system consists of the objects, the attributes, and the domain of attributes values, all of the elements in the information system will change as time goes by under the dynamic environment.
+0.911	[*A*]an information system[*R*]consists[*A*]of all of the elements in the information system	context()	negated: False ,passive: True
+0.911	[*A*]an information system[*R*]consists[*A*]of the domain of attributes values	context()	negated: False ,passive: True
+0.911	[*A*]an information system[*R*]consists[*A*]of the attributes	context()	negated: False ,passive: True
+0.894	[*A*]time[*R*]goes[*A*]by[*A*]under the dynamic environment	context()	negated: False ,passive: True
+0.911	[*A*]an information system[*R*]consists[*A*]of the objects	context()	negated: False ,passive: True
+[LINE#16]In the future, the variation of attributes and the domain of attributes values in SOIS will also be taken into consideration in terms of incremental updating knowledge.
+0.970	[*A*]the variation of the domain of attributes values in SOIS[*R*]will be taken[*A*]into consideration[*A*]in terms of incremental updating knowledge[*A*]In the future	context()	negated: False ,passive: True
+0.929	[*A*]the variation of attributes[*R*]will be taken[*A*]into consideration[*A*]in terms of incremental updating knowledge[*A*]In the future	context()	negated: False ,passive: True
+[LINE#17]this section, in order to evaluate the performance of the proposed incremental algorithms, we conduct a series of experiments to compare the computational time between the non-incremental algorithm and the incremental algorithms for computing approximations based on standard data sets.
+0.702	[*A*]we[*R*]conduct[*A*]a series of experiments to compare the computational time between the non-incremental algorithm and the incremental algorithms for computing approximations[*A*]this section	context()	negated: False ,passive: False
+0.903	[*A*]computing approximations[*R*]based[*A*]on standard data sets	context()	negated: False ,passive: True
+[LINE#18] The algorithms are implemental using the JAVA programming language in Eclipse 3.5 with Java Virtual Machine(available at http://www.eclipse.org/platform).
+0.905	[*A*]The algorithms[*R*]using[*A*]the JAVA programming language[*A*]in Eclipse 3.5	context()	negated: False ,passive: False
+0.947	[*A*]The algorithms[*R*]are[*A*]implemental[*A*]using the JAVA programming language in Eclipse 3.5 with Java Virtual Machine(available at http://www.eclipse.org/platform	context()	negated: False ,passive: True
+[LINE#19]Experiments are performed on a computer with 2.66GHz CPU, 4.0GB of memory and 32-bit Windows 7 OS.
+0.894	[*A*]Experiments[*R*]are performed[*A*]on a computer with 2.66GHz CPU	context()	negated: False ,passive: True
+[LINE#20]We download four data sets from the machine learning data repository, University of California at Irvine [51], where the basic information of data sets is outlined in Table 5.
+0.397	[*A*]We[*R*]download[*A*]four data	context()	negated: False ,passive: False
+0.967	[*A*]the basic information of data sets[*R*]is outlined[*A*]in Table 5[*A*]the machine learning data repository	context()	negated: False ,passive: True
+[LINE#21]are all incomplete information systems with missing values.
+[LINE#22]In our experiment, we represent all the missing values by the set of all possible values of each attribute.
+0.562	[*A*]we[*R*]represent[*A*]all the missing values by the set of all possible values of each attribute[*A*]In our experiment	context()	negated: False ,passive: False
+[LINE#23]Then this type of data sets can be regarded as a special case of the set-valued information system.
+0.973	[*A*]this type of data sets[*R*]can be regarded[*A*]as a special case of the set-valued information system[*A*]Then	context()	negated: False ,passive: True
+[LINE#24]Besides, we also use the set-valued data generator to generate two artificial data sets 5-6 in order to test the efficiency of the proposed algorithms, which are also outlined in Table 5.Generally, we perform the experimental analysis with applying the non-incremental algorithm along with our proposed incremental algorithms when the objects inserting into or deleting from the information system, respectively.
+0.767	[*A*]the objects[*R*]inserting[*A*]into	context()	negated: False ,passive: True
+0.388	[*A*]we[*R*]perform the experimental analysis with applying[*A*]the non-incremental algorithm	context(we perform)	negated: False ,passive: False
+0.388	[*A*]we[*R*]perform[*A*]the experimental analysis	context()	negated: False ,passive: False
+0.887	[*A*]the objects[*R*]deleting[*A*]from the information system	context()	negated: False ,passive: False
+0.872	[*A*]the proposed algorithms[*R*]are outlined[*A*]in Table 5.Generally	context()	negated: False ,passive: True
+[LINE#25]In order to present more informative comparative data and acquire more dependable results in our experiments, we compare the computational efficiency of the algorithms according to the following two aspects:(1)Size of the data set: To compare the computational efficiency and distinguish the computational times used by the non-incremental and incremental algorithms with different-sized data sets, we divide each of the six data sets into 10 parts of equal size, respectively.
+0.388	[*A*]we[*R*]compare[*A*]the computational efficiency of the algorithms[*A*]according to the following two aspects	context(we divide)	negated: False ,passive: False
+0.388	[*A*]we[*R*]compare[*A*]the computational efficiency of the algorithms[*A*]according to the following two aspects	context(we divide)	negated: False ,passive: False
+0.388	[*A*]we[*R*]compare[*A*]the computational efficiency of the algorithms[*A*]according to the following two aspects	context(we divide)	negated: False ,passive: False
+0.943	[*A*]the computational times[*R*]used[*A*]by the incremental algorithms with different - sized data sets	context()	negated: False ,passive: True
+0.388	[*A*]we[*R*]compare[*A*]the computational efficiency of the algorithms[*A*]according to the following two aspects	context(we divide)	negated: False ,passive: False
+0.943	[*A*]the computational times[*R*]used[*A*]by the non-incremental algorithms with different - sized data sets	context()	negated: False ,passive: True
+0.388	[*A*]we[*R*]compare[*A*]the computational efficiency of the algorithms[*A*]according to the following two aspects	context(we divide)	negated: False ,passive: False
+0.784	[*A*]the data[*R*]set	context()	negated: False ,passive: False
+0.388	[*A*]we[*R*]compare[*A*]the computational efficiency of the algorithms[*A*]according to the following two aspects	context(we divide)	negated: False ,passive: False
+0.388	[*A*]we[*R*]divide[*A*]each of the six data[*A*]sets into 10 parts of equal size , respectively	context()	negated: False ,passive: False
+[LINE#26]The first part is regarded as the 1st data set, the combination of the first part and the second part is viewed as the 2nd data set, the combination of the 2nd data set and the third part is regarded as the 3rd data set, and so on.
+0.783	[*A*]the third part[*R*]is regarded[*A*]as so on	context()	negated: False ,passive: True
+0.751	[*A*]the third part[*R*]is regarded	context()	negated: False ,passive: False
+0.800	[*A*]the 2nd data[*R*]set	context()	negated: False ,passive: False
+0.932	[*A*]the combination of the second part[*R*]is viewed[*A*]as the 2nd data set	context()	negated: False ,passive: True
+0.800	[*A*]the 3rd data[*R*]set	context()	negated: False ,passive: False
+0.993	[*A*]The first part[*R*]is regarded as[*A*]1 st data	context()	negated: False ,passive: False
+0.815	[*A*]the 1 st data[*R*]set	context()	negated: False ,passive: False
+0.911	[*A*]The first part[*R*]is regarded[*A*]as the 1 st data	context()	negated: False ,passive: True
+[LINE#27] The combination of all ten parts is viewed as the 10th data set.(2)Update ratio of the data set:.
+0.932	[*A*]The combination of all ten parts[*R*]is viewed[*A*]as the 10th data set	context()	negated: False ,passive: True
+[LINE#28]The size of updated objects which inserting into or deleting from the universe may different, that is, the update ratio, i.e., the ratio of the number of updating (deleting or inserting) data and original data, may different.
+0.822	[*A*]updated objects[*R*]deleting[*A*]from the universe may different, that is, the update ratio	context()	negated: False ,passive: True
+0.822	[*A*]updated objects[*R*]inserting[*A*]into or deleting from the universe may different, that is, the update ratio, i.e., the ratio of the number of updating (deleting or inserting) data and original data, may different	context()	negated: False ,passive: True
+[LINE#29]Here, in order to analyze the influence of the update ratio on the efficiency of algorithms, we compare the computational time of the static and incremental algorithms with different update ratios.
+0.702	[*A*]we[*R*]compare[*A*]the computational time of the incremental algorithms with different update ratios[*A*]Here	context()	negated: False ,passive: False
+0.702	[*A*]we[*R*]compare[*A*]the computational time of the static algorithms with different update ratios[*A*]Here	context()	negated: False ,passive: False
+[LINE#30]That is to say, for each data sets, we conduct the comparison experiments with the same original data size, but different update ratios, i.e., deleting ratios and inserting ratios..
+0.452	[*A*]we[*R*]conduct[*A*]the comparison experiments with the same original data size	context()	negated: False ,passive: False
+0.415	[*A*]That[*R*]is[*A*]to say , for each data sets , we conduct the comparison experiments with the same original data size , but inserting ratios	context()	negated: False ,passive: True
+0.569	[*A*]we[*R*]conduct[*A*]the comparison experiments with the same original data size , but i.e. , deleting ratios	context()	negated: False ,passive: False
+0.569	[*A*]we[*R*]conduct[*A*]the comparison experiments with the same original data size , but different update ratios	context()	negated: False ,passive: False
+0.223	[*A*]That[*R*]is[*A*]to say	context()	negated: False ,passive: True
+[LINE#31]A comparison of computational efficiency between static and incremental algorithms with the deletion of the objectsTo compare the efficiency of static (Algorithm 1) and incremental (Algorithm 2) algorithms for computing approximations when deleting the objects from the data sets.
+0.990	[*A*]A comparison of computational efficiency between static and incremental algorithms with the deletion of the objectsTo[*R*]compare[*A*]the efficiency ( Algorithm 1 ) and incremental ( Algorithm 2[*A*]for computing approximations	context()	negated: False ,passive: False
+0.990	[*A*]A comparison of computational efficiency between static and incremental algorithms with the deletion of the objectsTo[*R*]compare[*A*]the efficiency of static and incremental ( Algorithm 2 ) algorithms for computing approximations	context()	negated: False ,passive: False
+[LINE#32]Firstly, we compare the two algorithms on the six data sets in Table 5 with the same updating ratio (the ratio of the number of deleting data and original data), but different sizes of the original data.
+[LINE#33]Here, we assume that the updating ratio is equal to 5%.
+0.385	[*A*]the updating ratio[*R*]is equal to[*A*]5 %	context()	negated: False ,passive: False
+0.913	[*A*]the updating ratio[*R*]is[*A*]equal to 5%	context(we assume)	negated: False ,passive: True
+0.293	[*A*]we[*R*]assume[*A*]that the updating ratio is equal to 5%[*A*]Here	context()	negated: False ,passive: False
+[LINE#34]The experimental results are shown in Table 6.
+0.925	[*A*]The experimental results[*R*]are shown[*A*]in Table 6	context()	negated: False ,passive: True
+[LINE#35] More detailed changing trendline of each of two algorithms with the increasing size of data sets are illustrated in Fig..
+0.977	[*A*]More detailed changing trendline of each of two algorithms with the increasing size of data sets[*R*]are illustrated[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#36]Secondly, we compare the computational time of the two algorithms with the same size of original data, but different updating ratios for each data sets (from 5% to 100%).
+0.569	[*A*]we[*R*]compare[*A*]the computational time of the two algorithms with the same size of original data	context()	negated: False ,passive: False
+[LINE#37]we show the experimental results in Table 7.
+0.568	[*A*]we[*R*]show[*A*]the experimental results in Table 7	context()	negated: False ,passive: False
+[LINE#38] More detailed changing trendline of each of two algorithms with the increasing updating ratio of data sets are presented in Fig. each sub-figures (a)-(f) of Fig.1, the x-coordinate pertains to the size of the data set (the 10 data sets starting from the smallest one), while the y-coordinate presents the computational time.
+0.799	[*A*]the 10 data sets[*R*]starting[*A*]from the smallest one	context()	negated: False ,passive: True
+0.784	[*A*]the data[*R*]set	context()	negated: False ,passive: False
+0.979	[*A*]More detailed changing trendline of each of two algorithms with the increasing updating ratio of data sets[*R*]are presented[*A*]in Fig	context()	negated: False ,passive: True
+0.919	[*A*]the y-coordinate[*R*]presents[*A*]the computational time	context()	negated: False ,passive: False
+[LINE#39]We use the star lines to denote the computational time of the static algorithm on different sizes of data sets, and the plus lines denote the computational time of the incremental algorithm on different sizes of data sets when deleting the objects into the universe.
+0.911	[*A*]the plus lines[*R*]denote[*A*]the computational time of the incremental algorithm[*A*]on different sizes of data sets[*A*]when deleting the objects into the universe	context()	negated: False ,passive: True
+0.504	[*A*]We[*R*]use the star lines to denote[*A*]the computational time of the static algorithm on different sizes of data sets	context(We use)	negated: False ,passive: False
+0.504	[*A*]We[*R*]use[*A*]the star lines[*A*]to denote the computational time of the static algorithm on different sizes of data sets	context()	negated: False ,passive: False
+[LINE#40]It is easy to see the computational time of the both algorithms usually increases with the increase of the size of data sets according to Table 6 and Fig. 1.
+[LINE#41] As the important advantage of the incremental algorithm shown in Table 6 and Fig.1, when deleting the objets from the universe, we find that the incremental algorithm is mush faster than the static algorithm for computing the approximations.
+0.944	[*A*]the incremental algorithm[*R*]is[*A*]mush faster than the static algorithm for computing the approximations	context(we find)	negated: False ,passive: True
+0.932	[*A*]the incremental algorithm[*R*]shown[*A*]in Fig.1	context()	negated: False ,passive: True
+0.944	[*A*]the incremental algorithm[*R*]is[*A*]mush faster than the static algorithm for computing the approximations	context(we find)	negated: False ,passive: True
+0.468	[*A*]we[*R*]find[*A*]that the incremental algorithm is mush faster than the static algorithm for computing the approximations[*A*]when deleting the objets from the universe	context()	negated: False ,passive: False
+0.942	[*A*]the incremental algorithm[*R*]shown[*A*]in Table 6	context()	negated: False ,passive: True
+[LINE#42]Furthermore, the differences become larger and larger when increasing the size of data sets.
+0.903	[*A*]the differences[*R*]become[*A*]larger and larger[*A*]when increasing the size of data sets	context()	negated: False ,passive: True
+[LINE#43]In each sub-figures (a)-(f) of Fig. 2, the x-coordinate pertains to the ratio of the number of the deleting data and original data, while the y-coordinate concerns the computational time.
+0.519	[*A*]y[*R*]coordinate	context()	negated: False ,passive: False
+[LINE#44] According to the experimental results in Table 7 and Fig.2, we find that, for the static algorithm, the computational time for computing approximations with deletion of the objects from the universe is decreasing monotonically along with the increase of deleting ratios.
+0.971	[*A*]the computational time for computing approximations with deletion of the objects from the universe[*R*]is decreasing monotonically[*A*]for the static algorithm	context(we find)	negated: False ,passive: True
+0.971	[*A*]the computational time for computing approximations with deletion of the objects from the universe[*R*]is decreasing monotonically[*A*]for the static algorithm	context(we find)	negated: False ,passive: True
+0.330	[*A*]we[*R*]find[*A*]that , for the static algorithm , the computational time for computing approximations with deletion of the objects from the universe is decreasing monotonically along with the increase of deleting ratios	context()	negated: False ,passive: False
+[LINE#45]It is because with the increase of ratios, the size of the universe decreases gradually.
+0.785	[*A*]the size of the universe[*R*]decreases gradually	context()	negated: False ,passive: False
+0.637	[*A*]It[*R*]is[*A*]because with the increase of ratios, the size of the universe decreases gradually	context()	negated: False ,passive: True
+[LINE#46]On the contrary, for incremental algorithm, we can see that the computational efficiency for computing approximations is changing smoothly along with the increase of deleting ratios.
+0.756	[*A*]the computational efficiency for computing approximations[*R*]is changing smoothly	context(we can see)	negated: False ,passive: False
+0.399	[*A*]we[*R*]can see[*A*]that the computational efficiency for computing approximations is changing smoothly along with the increase of deleting ratios[*A*]for incremental algorithm	context()	negated: False ,passive: False
+[LINE#47]It is easy to find out the incremental algorithm always performs faster than the non-incremental algorithm for computing approximations until a threshold of the deleting ratio.
+[LINE#48]The threshold differs depending on the data sets.
+0.732	[*A*]The threshold[*R*]differs	context()	negated: False ,passive: False
+[LINE#49]For example, in Fig. 2(a), (e), and (f), the thresholds of ratios are around 85%; In Fig. 2(b) and (c), the thresholds of ratios are around 65%; In Fig. 2(d), the incremental algorithm consistently outperforms the static algorithm even in the value of 90%. .
+0.897	[*A*]the thresholds of ratios[*R*]are[*A*]around 85%	context(the thresholds of ratios are the incremental algorithm consistently outperforms)	negated: False ,passive: True
+0.949	[*A*]the thresholds of ratios[*R*]are[*A*]around 65%[*A*]In Fig	context(the incremental algorithm consistently outperforms)	negated: False ,passive: True
+0.944	[*A*]the incremental algorithm[*R*]consistently outperforms[*A*]the static algorithm[*A*]In Fig	context()	negated: False ,passive: False
+[LINE#50] A comparison of computational efficiency between static and incremental algorithms with the insertion of the objectsSimilar to the experiment schemes for comparing the efficiencies between static and incremental algorithms when deleting the objects from the universe, we also adopt such schemes to compare the performance of algorithms on the case of inserting the objects into the universe.
+0.528	[*A*]we[*R*]adopt[*A*]such schemes to compare the performance of algorithms on the case of inserting the objects into the universe	context()	negated: False ,passive: False
+[LINE#51]Firstly, we compare the two algorithms, i.e., Algorithm 1 and Algorithm 3, on the six data sets in Table 5 with the same updating ratio (the ratio of the number of inserting data and original data), but different sizes of the original data.
+0.614	[*A*]we[*R*]compare[*A*]the two algorithms , i.e. , Algorithm 3 , on the six data sets in Table 5 with the same updating ratio ( the ratio of the number of original data )	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]compare[*A*]the two algorithms , i.e. , Algorithm 3 , on the six data sets in Table 5 with the same updating ratio ( the ratio of the number of inserting data )	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]compare[*A*]the two algorithms , i.e. , Algorithm 1 , on the six data sets in Table 5 with the same updating ratio ( the ratio of the number of original data )	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]compare[*A*]the two algorithms , i.e. , Algorithm 1 , on the six data sets in Table 5 with the same updating ratio ( the ratio of the number of inserting data )	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]compare[*A*]the two algorithms	context()	negated: False ,passive: False
+[LINE#52]Here, we assume the updating ratio is equal to 5%.
+0.385	[*A*]the updating ratio[*R*]is equal to[*A*]5 %	context()	negated: False ,passive: False
+0.913	[*A*]the updating ratio[*R*]is[*A*]equal to 5%	context(we assume)	negated: False ,passive: True
+0.531	[*A*]we[*R*]assume[*A*]the updating ratio is equal to 5%[*A*]Here	context()	negated: False ,passive: False
+[LINE#53]The experimental results are shown in Table 8.
+0.925	[*A*]The experimental results[*R*]are shown[*A*]in Table 8	context()	negated: False ,passive: True
+[LINE#54] More detailed change trendline of each of two algorithms with the increasing size of data sets are presented in Fig..
+0.977	[*A*]More detailed change trendline of each of two algorithms with the increasing size of data sets[*R*]are presented[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#55]Secondly, we compare the computational times of the two algorithms with the changing of updating ratios for each data sets.
+0.569	[*A*]we[*R*]compare[*A*]the computational times of the two algorithms with the changing of updating ratios for each data sets	context()	negated: False ,passive: False
+[LINE#56] We show the experimental results in Table 9, and more detailed change trendline of each of two algorithms with the increasing size of data sets are given in Fig. each sub-figures (a)-(f) of Fig.3, the x-coordinate pertains to the size of the data set (the 10 data sets starting from the smallest one), while the y-coordinate presents the computational time.
+0.919	[*A*]the y - coordinate[*R*]presents[*A*]the computational time	context()	negated: False ,passive: False
+0.799	[*A*]the 10 data sets[*R*]starting[*A*]from the smallest one	context()	negated: False ,passive: True
+0.784	[*A*]the data[*R*]set	context()	negated: False ,passive: False
+0.977	[*A*]more detailed change trendline of each of two algorithms with the increasing size of data sets[*R*]are given[*A*]in Fig	context()	negated: False ,passive: True
+0.568	[*A*]We[*R*]show[*A*]the experimental results in Table 9	context()	negated: False ,passive: False
+[LINE#57]We use the star lines to denote the computational time of static algorithm (Algorithm 1) on different sizes of data sets, and the plus lines denote the computational time of incremental algorithm (Algorithm 3) on different sizes of data sets when inserting the objects into the universe.
+0.911	[*A*]the plus lines[*R*]denote[*A*]the computational time of incremental algorithm[*A*]on different sizes of data sets[*A*]when inserting the objects into the universe	context()	negated: False ,passive: True
+0.388	[*A*]We[*R*]use the star lines to denote[*A*]the computational time of static algorithm	context(We use)	negated: False ,passive: False
+0.550	[*A*]We[*R*]use[*A*]the star lines[*A*]to denote the computational time of static algorithm ( Algorithm 1 ) on different sizes of data sets	context()	negated: False ,passive: False
+[LINE#58] Obviously, according to Table 8 and Fig.3, we can find that the computational time of the both algorithms usually increases with the increasing size of data sets.
+0.946	[*A*]the computational time of the both algorithms[*R*]increases[*A*]with the increasing size of data sets[*A*]usually	context(we can find)	negated: False ,passive: True
+0.946	[*A*]the computational time of the both algorithms[*R*]increases[*A*]with the increasing size of data sets[*A*]usually	context(we can find)	negated: False ,passive: True
+0.271	[*A*]we[*R*]can find[*A*]that the computational time of the both algorithms usually increases with the increasing size of data sets	context()	negated: False ,passive: False
+[LINE#59]However, the incremental algorithm is much faster than the static algorithm for computing the approximations when inserting the objects into the universe.
+0.956	[*A*]the incremental algorithm[*R*]is[*A*]much faster than the static algorithm for computing the approximations	context()	negated: False ,passive: True
+[LINE#60]Furthermore, the differences between static and incremental algorithms are getting larger when increasing the data size.
+0.938	[*A*]the differences between static and incremental algorithms[*R*]are getting[*A*]larger[*A*]when increasing the data size	context()	negated: False ,passive: True
+[LINE#61]In each sub-figures (a)-(f) of Fig. 4, the x-coordinate pertains to the ratio of the number of the inserted objects and original data, while the y-coordinate concerns the computational time.
+0.519	[*A*]y[*R*]coordinate	context()	negated: False ,passive: False
+[LINE#62] According to the experimental results as shown in Table 9 and Fig.4, we find that the computational time of both static (Algorithm 1) and incremental (Algorithm 3) algorithms are increasing monotonically along with the increasing of insert ratios.
+0.822	[*A*]the incremental ( Algorithm 3 ) algorithms[*R*]are increasing monotonically	context(we find)	negated: False ,passive: False
+0.822	[*A*]the incremental ( Algorithm 3 ) algorithms[*R*]are increasing monotonically	context(we find)	negated: False ,passive: False
+0.372	[*A*]we[*R*]find[*A*]that the incremental ( Algorithm 3 ) algorithms are increasing monotonically along with the increasing of insert ratios	context()	negated: False ,passive: False
+0.713	[*A*]algorithms[*R*]are increasing monotonically	context()	negated: False ,passive: False
+0.243	[*A*]we[*R*]find	context()	negated: False ,passive: False
+[LINE#63] It is easy to get the incremental algorithm is always faster than the static algorithm when the inserting ratio increases from 10% to 100% according to Fig..
+[LINE#64]In Fig. 4(f), we find the incremental algorithm is mush faster than the static algorithm when the inserting ratio is less than 85%, but slower than the static algorithm when the inserting ratio is more than 85%.
+0.932	[*A*]the inserting ratio[*R*]is[*A*]more than 85%	context()	negated: False ,passive: True
+0.932	[*A*]the inserting ratio[*R*]is[*A*]less than 85%	context()	negated: False ,passive: True
+[LINE#65]Incremental updating approximations in SOIS when the object set varies with timeWith the variation of an information system, the structure of information granules in the information system may vary over time which leads to the change of knowledge induced by RST.
+0.945	[*A*]Incremental updating approximations in SOIS[*R*]induced[*A*]by RST	context()	negated: False ,passive: True
+0.877	[*A*]time[*R*]leads[*A*]to the change of knowledge	context()	negated: False ,passive: False
+0.975	[*A*]the structure of information granules in the information system[*R*]may vary[*A*]over time[*A*]when the object set varies with timeWith	context()	negated: False ,passive: True
+0.925	[*A*]the object set[*R*]varies[*A*]with timeWith	context()	negated: False ,passive: True
+[LINE#66]For example, let us consider a practical information system from the test for foreign language ability of undergraduates in Shanxi University, the test results can be expressed as a set-valued information system where the attributes are all inclusion increasing preferences and the value of each student under each attribute is given by an evaluation expert through a set-value [43].
+0.931	[*A*]inclusion[*R*]increasing[*A*]preferences and the value of each student under each attribute	context()	negated: False ,passive: True
+0.964	[*A*]the attributes[*R*]are[*A*]all inclusion increasing preferences and the value of each student under each attribute[*A*]a set-valued information system	context()	negated: False ,passive: True
+0.911	[*A*]the test results[*R*]can be expressed[*A*]as a set-valued information system	context()	negated: False ,passive: True
+0.897	[*A*]the test results[*R*]is given[*A*]by an evaluation expert	context()	negated: False ,passive: True
+[LINE#67]However, during the process of evaluating the undergraduates language ability, data in an information system does not usually remain a stable condition.
+0.936	[*A*]data in an information system[*R*]does not remain[*A*]a stable condition[*A*]during the process of evaluating the undergraduates language ability[*A*]usually	context()	negated: True ,passive: True
+[LINE#68]Some objects may be inserted into the original information system due to the arrival of the new students.
+0.903	[*A*]Some objects[*R*]may be inserted[*A*]into the original information system[*A*]due to the arrival of the new students	context()	negated: False ,passive: True
+[LINE#69]On the other hand, some objects will be deleted from the original information system with the graduation of the senior students.
+0.937	[*A*]some objects[*R*]will be deleted[*A*]from the original information system with the graduation of the senior students	context()	negated: False ,passive: True
+[LINE#70]Then the discovered knowledge may become invalid, or some new implicit information may emerge in the whole updated information system.
+0.919	[*A*]some new implicit information[*R*]may emerge[*A*]in the whole updated information system	context()	negated: False ,passive: False
+0.866	[*A*]the discovered knowledge[*R*]may become[*A*]invalid[*A*]Then	context()	negated: False ,passive: True
+[LINE#71]Rather than restarting from scratch by the non-incremental or batch learning algorithm for each update, developing an efficient incremental algorithm to avoid unnecessary computations by utilizing the previous data structures or results is thus desired.
+[LINE#72]In this section, we discuss the variation of approximations in the dynamic SOIS when the object set evolves over time while the attribute set remains constant.
+0.783	[*A*]the attribute set[*R*]remains[*A*]constant	context()	negated: False ,passive: True
+0.925	[*A*]the object[*R*]set[*A*]evolves[*A*]over time	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]discuss[*A*]the variation of approximations in the dynamic SOIS[*A*]In this section	context()	negated: False ,passive: False
+[LINE#73]For convenience, we assume the incremental learning process lasts two periods from time t to time t+1.
+0.920	[*A*]the incremental learning process[*R*]lasts[*A*]two periods from time t to time	context(we assume)	negated: False ,passive: True
+0.504	[*A*]we[*R*]assume[*A*]the incremental learning process lasts two periods from time t to time t+1	context()	negated: False ,passive: False
+[LINE#74]We denote a dynamic SOIS at time t as S=(U,C{d},V,f), and at time t+1, with the insertion or deletion of objects, the original SOIS will change into a new one, denoted as S=(U,C{d},V,f).
+0.913	[*A*]a new one[*R*]denoted[*A*]as S=	context()	negated: False ,passive: True
+0.933	[*A*]the original SOIS[*R*]will change[*A*]into a new one	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]denote[*A*]a dynamic SOIS[*A*]at time t	context()	negated: False ,passive: False
+[LINE#75]Similarly, we denote the union of classes and the A-dominating set as Di and [x]A, respectively at time t, which are denoted as Di and [x]A, respectively at time t+1.
+0.921	[*A*]A , respectively at time t[*R*]are denoted[*A*]as [ x[*A*]A , respectively at time t+1	context()	negated: False ,passive: True
+0.933	[*A*]A , respectively at time t[*R*]are denoted[*A*]as Di A[*A*]respectively[*A*]at time t+1	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]denote[*A*]the union of [ x	context()	negated: False ,passive: False
+0.962	[*A*]the A-dominating set as Di A , respectively at time t[*R*]are denoted[*A*]as [ x[*A*]A , respectively at time t+1	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]denote[*A*]the A-dominating set as Di A , respectively at time t , which are denoted as [ x ] A , respectively at time t+1	context()	negated: False ,passive: False
+0.968	[*A*]the A-dominating set as Di A , respectively at time t[*R*]are denoted[*A*]as Di A[*A*]respectively[*A*]at time t+1	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]denote[*A*]the A-dominating set as Di A , respectively at time t , which are denoted as Di A , respectively at time t+1	context()	negated: False ,passive: False
+0.887	[*A*]time t[*R*]are denoted[*A*]as [ x[*A*]A , respectively at time t+1	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]denote[*A*]the union of classes A[*A*]respectively[*A*]at time t	context()	negated: False ,passive: False
+0.905	[*A*]time t[*R*]are denoted[*A*]as Di A[*A*]respectively[*A*]at time	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]denote[*A*]the union of classes A[*A*]respectively	context()	negated: False ,passive: False
+[LINE#76]According to Definition 4, the lower and upper approximations of Di with respect to AC are denoted as RADi and RADi, respectively at time t, which are denoted as RADi and RADi, respectively at time t+1, respectively.
+0.945	[*A*]the upper approximations of Di[*R*]are denoted[*A*]as RADi[*A*]respectively at time t	context()	negated: False ,passive: True
+0.905	[*A*]time t[*R*]are denoted[*A*]as RADi[*A*]respectively[*A*]at time t+1[*A*]respectively	context()	negated: False ,passive: True
+0.945	[*A*]the lower approximations of Di[*R*]are denoted[*A*]as RADi[*A*]respectively at time t	context()	negated: False ,passive: True
+[LINE#77]Here, we only discuss the incremental approach for updating approximations in the cases that a single object enter and go out of the information system.
+0.913	[*A*]the cases[*R*]go[*A*]out of the information system	context()	negated: False ,passive: True
+0.554	[*A*]we[*R*]discuss[*A*]the incremental approach for updating approximations in the cases[*A*]Here	context()	negated: False ,passive: False
+[LINE#78]The change of multiple objects can be seen as the cumulative change of a single object.
+0.926	[*A*]The change of multiple objects[*R*]can be seen[*A*]as the cumulative change of a single object	context()	negated: False ,passive: True
+[LINE#79] The approximations can be updated step by step through the updating principles in the case that a single object varies.. Principles for incrementally updating approximations with the deletion of a single objectGiven a SOIS S=(U,C{d},V,f) at time t, the deletion of object xU (x denotes the deleted object) will change the original information granules [x]A (xU,AC) and the union of decision classes.
+0.751	[*A*]a single object[*R*]varies	context()	negated: False ,passive: False
+0.835	[*A*]The approximations[*R*]can be updated[*A*]step by step through the updating principles in the case that a single object varies .. Principles for incrementally updating approximations with the deletion of a single objectGiven	context(the deletion of object xU ( x denotes the deleted object will change x)	negated: False ,passive: True
+0.950	[*A*]the deletion of object xU ( x denotes the deleted object[*R*]will change x[*A*]at time t	context()	negated: False ,passive: False
+0.793	[*A*]xU[*R*]denotes[*A*]the deleted object	context(xU ( x denotes the deleted object will change)	negated: False ,passive: False
+0.930	[*A*]xU ( x denotes the deleted object[*R*]will change[*A*]the original information granules	context()	negated: False ,passive: False
+0.868	[*A*]The approximations[*R*]can be updated[*A*]step by step through the updating principles in the case that a single object varies .. Principles for incrementally updating approximations with the deletion of a single objectGiven a SOIS S= ( U , C { d } , V , f ) at time t	context()	negated: False ,passive: True
+[LINE#80]The approximations of Di will change accordingly.
+0.818	[*A*]The approximations of Di[*R*]will change accordingly	context()	negated: False ,passive: False
+[LINE#81] Here, we discuss the principles for updating approximations of Di from two cases:.
+0.740	[*A*]we[*R*]discuss[*A*]the principles for updating approximations of Di from two cases:.[*A*]Here	context()	negated: False ,passive: False
+[LINE#82] The deleted object belongs to Di, i.e., xDi; (2).
+0.925	[*A*]The deleted object[*R*]belongs[*A*]to Di	context()	negated: False ,passive: False
+[LINE#83] The deleted object does not belong to Di, i.e., xDi.Case 1: x belongs to Di, i.e., xDi.Proposition 1Let S=(U,C{d},V,f) be a SOIS,.
+[LINE#84] AC. When xDi is deleted from U, for RADi, we have:(1)IfxRADi, then RADi=RADi-{x};(2)Otherwise, RADi=RADi.ProofWhen xDi is deleted from U, we have U=U-{x},Di=Di-{x}.
+0.532	[*A*]we[*R*]have[*A*]When xDi is deleted from U	context(RADi=RADi.ProofWhen xDi is deleted we have)	negated: False ,passive: False
+0.915	[*A*]RADi=RADi.ProofWhen xDi[*R*]is deleted[*A*]from U[*A*]then	context(we have)	negated: False ,passive: True
+0.433	[*A*]we[*R*]have[*A*]U=U-	context()	negated: False ,passive: False
+0.877	[*A*]xDi[*R*]is deleted[*A*]from U	context()	negated: False ,passive: True
+[LINE#85] xU, if [x]ADi, then [x]ADi; Analogously, if [x]ADi, then [x]ADi; Thus, from the definition of lower approximation in Definition 4, we have xU, if xRADi, then xRADi;.
+0.498	[*A*]we[*R*]have[*A*]xU	context()	negated: False ,passive: False
+[LINE#86]If xRADi, then xRADi.
+[LINE#87] if xRADi, then RADi=RADi-{x}; Otherwise, the lower approximation of Di will remain constant, i.e., RADi=RADi.Example 5Continuation of Example 4(1)For Table 1, according to Proposition 1, we compute the lower approximations of D2 by deleting x1 and x2 from U,the object x1 is deleted from Table 1, and U=U-{x1}.
+0.925	[*A*]the object x1[*R*]is deleted[*A*]from Table 1	context()	negated: False ,passive: True
+0.914	[*A*]the lower approximation of Di[*R*]will remain[*A*]constant[*A*]then	context()	negated: False ,passive: True
+[LINE#88]We have x1D2 and x1RCD2.
+0.452	[*A*]We[*R*]have[*A*]x1RCD2	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]have[*A*]x1D2	context()	negated: False ,passive: False
+[LINE#89]Therefore, RAD2=RCD2={x2,x4,x6}.Assume the object x2 is deleted from Table 1, and U=U-{x2}.
+0.905	[*A*]the object x2[*R*]is deleted[*A*]from Table 1	context(RAD2=RCD2= { x2 , x4 , x6 Assume)	negated: False ,passive: True
+0.892	[*A*]RAD2=RCD2={x2,x4,x6[*R*]Assume[*A*]the object x2 is deleted from Table 1	context()	negated: False ,passive: False
+[LINE#90]We have x2D2 and x2RCD2.
+0.452	[*A*]We[*R*]have[*A*]x2RCD2	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]have[*A*]x2D2	context()	negated: False ,passive: False
+[LINE#91] Therefore, RAD2=RCD2-{x2}={x4,x6}.(2)For Table 2, according to Proposition 1, we compute the lower approximations of D2 by deleting x1 and x3 from U,the object x1 is deleted from Table 2, and U=U-{x1}.
+0.433	[*A*]we[*R*]compute the lower approximations of D2 by deleting[*A*]x3[*A*]from U	context(we compute the object x1 is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute the lower approximations of D2 by deleting[*A*]x1[*A*]from U	context(we compute the object x1 is deleted)	negated: False ,passive: False
+0.388	[*A*]we[*R*]compute[*A*]the lower approximations of D2	context(the object x1 is deleted)	negated: False ,passive: False
+0.905	[*A*]the object x1[*R*]is deleted[*A*]from Table 2	context()	negated: False ,passive: True
+[LINE#92]Therefore, RAD2=RCD2-{x1}={x2,x5}.Assume the object x3 is deleted from Table 2, and U=U-{x3}.
+0.929	[*A*]the object x3[*R*]is[*A*]U=U-	context(Therefore , RAD2=RCD2 - { x1 } = { x2 , x5 Assume)	negated: False ,passive: True
+0.933	[*A*]Therefore , RAD2=RCD2 - { x1 } = { x2 , x5[*R*]Assume[*A*]the object x3 is U=U-	context()	negated: False ,passive: False
+0.905	[*A*]the object x3[*R*]is deleted[*A*]from Table 2	context(x1 } = { x2 , x5 Assume)	negated: False ,passive: True
+0.922	[*A*]x1 } = { x2 , x5[*R*]Assume[*A*]the object x3 is deleted from Table 2	context()	negated: False ,passive: False
+[LINE#93] Therefore, RAD2=RCD2={x1,x2,x5}.Proposition 2Let S=(U,C{d},V,f) be a SOIS,.
+0.958	[*A*]RAD2=RCD2={x1,x2,x5}.Proposition 2Let S=[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+[LINE#94] AC. When xDi is deleted from U, for RADi, we haveRADi=RADi-[x]AKwhere K={x|x[x]AK},K=xDi-{x}[x]A.ProofAccording to Definition 4, we have RADi=xDi[x]A.
+0.498	[*A*]we[*R*]have[*A*]RADi=xDi	context()	negated: False ,passive: False
+0.456	[*A*]we[*R*]A.ProofAccording[*A*]to Definition 4	context()	negated: False ,passive: False
+0.877	[*A*]xDi[*R*]is deleted[*A*]from U	context()	negated: False ,passive: True
+[LINE#95]Thus, when the object xDi is deleted from U, the A-dominating set [x]A should be removed from the upper approximation RADi, i.e., RADi=RADi-[x]A.
+0.569	[*A*]A[*R*]should be removed[*A*]from the upper approximation[*A*]when the object xDi is deleted from U	context()	negated: False ,passive: True
+0.784	[*A*]the A-dominating[*R*]set	context()	negated: False ,passive: False
+0.905	[*A*]the object[*R*]is deleted[*A*]from U	context()	negated: False ,passive: True
+[LINE#96]However, xDi-{x} satisfies that K=[x]A[x]A, and the object x[y]A (yDi-{x}) should not be removed from RADi.
+0.816	[*A*]x[*R*]satisfies[*A*]K=	context()	negated: False ,passive: False
+0.950	[*A*]A ( yDi - { x[*R*]should not be removed[*A*]from RADi	context()	negated: True ,passive: True
+0.754	[*A*]x[*R*]satisfies[*A*]A [ x ] A , and the object	context()	negated: False ,passive: False
+[LINE#97]Therefore, we have RADi=RADi-[x]AK, where K={x|x[x]AK},K=xDi-{x}[x]A.Example 6Continuation of Example 4(1)For Table 1, according to Proposition 2, we compute the upper approximation of D2 by deleting x1 from U.Assume the object x1 is deleted from Table 1, and U=U-{x1}.
+0.908	[*A*]the object x1[*R*]is deleted[*A*]from Table 1	context()	negated: False ,passive: True
+0.433	[*A*]we[*R*]compute the upper approximation of D2 by deleting[*A*]x1[*A*]from U.Assume	context(we compute)	negated: False ,passive: False
+0.577	[*A*]we[*R*]compute[*A*]the upper approximation of D2[*A*]RADi=RADi-[x]AK	context()	negated: False ,passive: False
+[LINE#98]We have x1D2,K=xD2-{x1}[x]C={x2,x4,x6}.
+0.452	[*A*]We[*R*]have[*A*]x1D2	context()	negated: False ,passive: False
+[LINE#99]Then K={x|x[x1]CK}={x2},RCD2=RADi-[x]AK={x2,x4,x6}.(2)For Table 2, according to Proposition 2, we compute the upper approximation of D2 by deleting x1 from U.Assume the object x1 is deleted from Table 2, and U=U-{x1}.
+0.433	[*A*]we[*R*]compute the upper approximation of D2 by deleting[*A*]x1[*A*]from U.Assume	context(we compute the object x1 is deleted)	negated: False ,passive: False
+0.577	[*A*]we[*R*]compute[*A*]the upper approximation of D2[*A*]Then	context(the object x1 is deleted)	negated: False ,passive: False
+0.905	[*A*]the object x1[*R*]is deleted[*A*]from Table 2	context()	negated: False ,passive: True
+[LINE#100]We have x1D2,K=xD2-{x1}[x]C={x2,x3,x4,x5,x6}.
+0.452	[*A*]We[*R*]have[*A*]x1D2	context()	negated: False ,passive: False
+[LINE#101] Then K={xx[x1]CK}={x5},RCD2=RADi-[x]AK={x2,x3,x4,x5,x6}.Case 2: x does not belong to Di, i.e. xDi.Proposition 3Let S=(U,C{d},V,f).
+0.997	[*A*]K={xx[x1]CK}={x5},RCD2=RADi-[x]AK={x2,x3,x4,x5,x6}.Case 2[*R*]does not belong[*A*]to Di, i.e. xDi.Proposition 3Let S=(U,C{d},V,f[*A*]Then	context()	negated: True ,passive: False
+[LINE#102] AC. When xDi is deleted from U, for RADi, we haveRADi=RADiKwhere K x|xDi-RADi,Di[x]A. If x[x]A, then [x]A=[x]A-{x}; Otherwise, [x]A=[x]A.ProofAccording to Definition 4, we have xDi, if xRADi,.
+0.701	[*A*]we[*R*]haveRADi=RADiKwhere[*A*]K x|xDi-RADi[*A*]When xDi is deleted from U	context()	negated: False ,passive: False
+0.877	[*A*]xDi[*R*]is deleted[*A*]from U	context()	negated: False ,passive: True
+[LINE#103]When the object xDi is deleted from U, we have U=U-{x},Di=Di, and xU,[x]A=[x]A-{x}.
+0.639	[*A*]we[*R*]have[*A*]xU[*A*]When the object xDi is deleted from U	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]have[*A*]Di=Di[*A*]When the object xDi is deleted from U	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]have[*A*]U=U-[*A*]When the object xDi is deleted from U	context()	negated: False ,passive: False
+0.905	[*A*]the object[*R*]is deleted[*A*]from U	context()	negated: False ,passive: True
+[LINE#104]It is easy to get if Di[x]A, then Di[x]A; Thus, xRADi,xRADi.
+[LINE#105]On the other hand, xDi-RADi, we know that Di[x]A.
+0.243	[*A*]we[*R*]know	context()	negated: False ,passive: False
+[LINE#106]However, it may exist that x[x]A, and after the deletion of x,Di([x]A).
+0.195	[*A*]it[*R*]may exist	context()	negated: False ,passive: False
+[LINE#107]Then x should be added to RADi, that is, RADi=RADi{x}.
+0.569	[*A*]x[*R*]should be added[*A*]to RADi[*A*]Then	context()	negated: False ,passive: True
+[LINE#108] Therefore, we have RADi=RADiK, where K=x|xDi-RADi,Di[x]A,[x]A=[x]A-{x}.
+0.498	[*A*]we[*R*]have[*A*]RADi=RADiK, where K=x|xDi-RADi	context()	negated: False ,passive: False
+[LINE#109]Example 7Continuation of Example 4(1)For Table 1, according to Proposition 3, we compute the lower approximation of D2 by deleting x3 from U.Assume the object x3 is deleted from Table 1, and U=U-{x3}.
+0.433	[*A*]we[*R*]compute the lower approximation of D2 by deleting[*A*]x3[*A*]from U.Assume	context(Example 7Continuation of Example 4 we compute is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute[*A*]the lower approximation of D2	context(Example 7Continuation of Example 4 is deleted)	negated: False ,passive: False
+0.930	[*A*]Example 7Continuation of Example 4[*R*]is deleted[*A*]from Table 1	context()	negated: False ,passive: True
+[LINE#110]We have x3D2,D2-RCD2={x1},D2[x1]C-{x3}={x1,x2}.
+0.452	[*A*]We[*R*]have[*A*]x3D2	context()	negated: False ,passive: False
+[LINE#111] Therefore, K={x1} and RADi=RADiK={x1,x2,x4,x6}.(2)For Table 2, according to Proposition 3, we compute the upper approximation of D2 by deleting x4 from U.Assumethe object x4 is deleted from Table 2, and U=U-{x4}.
+0.550	[*A*]we[*R*]compute the upper approximation of D2 by deleting[*A*]x4[*A*]from U.Assumethe object x4 is deleted from Table 2 , and U=U- { x4	context(we compute U.Assumethe object x4 is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute[*A*]the upper approximation of D2	context(U.Assumethe object x4 is deleted)	negated: False ,passive: False
+0.928	[*A*]U.Assumethe object x4[*R*]is deleted[*A*]from Table 2	context()	negated: False ,passive: True
+0.433	[*A*]we[*R*]compute the upper approximation of D2 by deleting[*A*]x4[*A*]from U.Assumethe object x4	context(K= { x1 we compute is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute[*A*]the upper approximation of D2	context(K= { x1 is deleted)	negated: False ,passive: False
+0.849	[*A*]K= { x1[*R*]is deleted[*A*]from Table 2	context()	negated: False ,passive: True
+[LINE#112]We have x4D2,D2-RCD2={x3,x6},D2[x3]C-{x4}={x2,x3,x5,x6} and D2[x6]C-{x6}={x6}.
+0.452	[*A*]We[*R*]have[*A*]x4D2 , x3 , x6	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]have[*A*]x4D2	context()	negated: False ,passive: False
+[LINE#113] Therefore, K={x3,x6} and RADi=RADiK={x1,x2,x3,x5,x6}.Proposition 4Let S=(U,Cd,V,f) be a SOIS,.
+0.980	[*A*]RADi=RADiK= { x1 , x2 , x3 , x5 , x6 } . Proposition 4Let S= ( U , Cd[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+0.965	[*A*]K= { x3 , x6 } . Proposition 4Let S= ( U , Cd[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+[LINE#114] AC. When the object xDi is deleted from U, for RADi, we have:(1)If xRADi, then RADi=RADi-{x};(2)Otherwise, RADi=RADi.ProofAccording to Definition 4, we have that RADi=xDi[x]A.
+0.596	[*A*]we[*R*]have[*A*]When the object xDi is deleted from U	context()	negated: False ,passive: False
+0.905	[*A*]the object[*R*]is deleted[*A*]from U	context()	negated: False ,passive: True
+[LINE#115] Since the deleted object xDi, there exists an object xDi satisfies x[x]Aif xRADi. Therefore, when x is deleted, we have [x]A=[x]A-{x}.
+0.561	[*A*]x[*R*]is deleted	context()	negated: False ,passive: False
+0.944	[*A*]an object[*R*]satisfies[*A*]xDi	context()	negated: False ,passive: True
+[LINE#116]Then RADi=xDi[x]A=RADi-{x}.
+[LINE#117]On the other hand, if xRADi, we have xDi,x[x]A.
+0.847	[*A*]xDi[*R*]x[*A*]x]A.	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]have[*A*]xDi[*A*]On the other hand, if xRADi	context()	negated: False ,passive: False
+[LINE#118]Hence, the upper approximation of Di will remain constant, i.e., RADi=RADi.
+0.953	[*A*]the upper approximation of Di[*R*]will remain[*A*]constant[*A*]i.e., RADi=RADi	context()	negated: False ,passive: True
+[LINE#119] Example 8Continuation of Example 4(1)For Table 1, according to Proposition 4, we compute the lower approximations of D2 by deleting x3 and x5 from U,the object x3 is deleted from Table 1, and U=U-{x3}.
+0.433	[*A*]we[*R*]compute the lower approximations of D2 by deleting[*A*]x5[*A*]from U	context(we compute the object x3 is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute the lower approximations of D2 by deleting[*A*]x3[*A*]from U	context(we compute the object x3 is deleted)	negated: False ,passive: False
+0.388	[*A*]we[*R*]compute[*A*]the lower approximations of D2	context(the object x3 is deleted)	negated: False ,passive: False
+0.905	[*A*]the object x3[*R*]is deleted[*A*]from Table 1	context()	negated: False ,passive: True
+[LINE#120]Therefore, RAD2=RCD2-{x3}={x1,x2,x4,x6}.Assume the object x5 is deleted from Table 1, and U=U-{x5}.
+0.905	[*A*]the object x5[*R*]is deleted[*A*]from Table 1	context(x2 , x4 , x6 Assume)	negated: False ,passive: True
+0.907	[*A*]x2,x4,x6[*R*]Assume[*A*]the object x5 is deleted from Table 1	context()	negated: False ,passive: False
+[LINE#121]We have x5D2 and x5RCD2.
+0.452	[*A*]We[*R*]have[*A*]x5RCD2	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]have[*A*]x5D2	context()	negated: False ,passive: False
+[LINE#122] Therefore, RAD2=RCD2={x1,x2,x3,x4,x6}.(2)For Table 2, according to Proposition 4, we compute the upper approximation of D3 by deleting x3 and x4 from U,the object x3 is deleted from Table 2, and U=U-{x3}.
+0.433	[*A*]we[*R*]compute the upper approximation of D3 by deleting[*A*]x4[*A*]from U	context(we compute the object x3 is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute the upper approximation of D3 by deleting[*A*]x3[*A*]from U	context(we compute the object x3 is deleted)	negated: False ,passive: False
+0.433	[*A*]we[*R*]compute[*A*]the upper approximation of D3	context(the object x3 is deleted)	negated: False ,passive: False
+0.905	[*A*]the object x3[*R*]is deleted[*A*]from Table 2	context()	negated: False ,passive: True
+[LINE#123]We have x3D3 and x3RCD3.
+0.452	[*A*]We[*R*]have[*A*]x3RCD3	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]have[*A*]x3D3	context()	negated: False ,passive: False
+[LINE#124]Therefore, RAD2=RCD3-{x3}={x2,x5}.Assume the object x4 is deleted from Table 2, and U=U-{x4}.
+0.929	[*A*]the object x4[*R*]is[*A*]U=U-	context(Therefore , RAD2=RCD3 - { x3 } = { x2 , x5 Assume)	negated: False ,passive: True
+0.933	[*A*]Therefore , RAD2=RCD3 - { x3 } = { x2 , x5[*R*]Assume[*A*]the object x4 is U=U-	context()	negated: False ,passive: False
+0.905	[*A*]the object x4[*R*]is deleted[*A*]from Table 2	context(x3 } = { x2 , x5 Assume)	negated: False ,passive: True
+0.922	[*A*]x3 } = { x2 , x5[*R*]Assume[*A*]the object x4 is deleted from Table 2	context()	negated: False ,passive: False
+[LINE#125]Therefore, RAD3=RCD3={x2,x3,x5}.
+[LINE#126]Principles for incrementally updating approximations with the insertion of a new objectGiven a SOIS (U,C{d},V,f) at time t, when the information system is updated by inserting a new object x (x denotes the inserted object) into the unverse U at time t+1, two situations may occur: (1) x forms a new decision class, i.e., xU,f(x,d)f(x,d); (2) x does not form a new decision class, i.e., xU,f(x,d)=f(x,d).
+0.897	[*A*]the information system[*R*]by inserting[*A*]a new object[*A*]into the unverse U	context()	negated: False ,passive: False
+0.943	[*A*]the information system[*R*]is updated[*A*]by inserting a new object x (x denotes the inserted object) into the unverse U	context()	negated: False ,passive: True
+[LINE#127]The difference between the two situations is: in the first situation, in addition to updating the approximations of union of the existing decision classes, we need to compute the approximations for the new decision class.
+0.388	[*A*]we[*R*]need to compute[*A*]the approximations for the new decision class	context(The difference between the two situations is we need)	negated: False ,passive: False
+0.531	[*A*]we[*R*]need[*A*]to compute the approximations for the new decision class[*A*]in the first situation	context(The difference between the two situations is)	negated: False ,passive: False
+0.910	[*A*]The difference between the two situations[*R*]is[*A*]in the first situation, in addition to updating the approximations of union of the existing decision classes, we need to compute the approximations for the new decision class	context()	negated: False ,passive: True
+[LINE#128] Firstly, for updating the approximations of the union of the existing decision classes Di (1ir) when inserting an object, we discuss the principles through two cases similar to the approach taken in the model of deletion:.
+0.903	[*A*]the approach[*R*]taken[*A*]in the model of deletion:.	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]discuss[*A*]the principles	context()	negated: False ,passive: False
+0.833	[*A*]Di[*R*]inserting[*A*]an object	context()	negated: False ,passive: False
+[LINE#129]The inserted object will belong to Di, i.e., xdx, where xDi; (2) The inserted object will not belong to Di, i.e., xdx, where xDi.
+[LINE#130]To illustrate our incremental methods for updating approximations when inserting a new object into SOIS, two tables (Tables 3 and 4) are given as follows.
+0.887	[*A*]two tables[*R*]are given[*A*]as follows	context()	negated: False ,passive: True
+[LINE#131] We assume that the objects in Table 3 will be inserted into Table 1, and the objects in Table 4 will be inserted into Table 2.Case 1:.
+0.942	[*A*]the objects in Table 4[*R*]will be inserted[*A*]into Table 2.Case 1	context(We assume)	negated: False ,passive: True
+0.317	[*A*]We[*R*]assume[*A*]that the objects in Table 4 will be inserted into Table 2.Case 1	context()	negated: False ,passive: False
+0.942	[*A*]the objects in Table 3[*R*]will be inserted[*A*]into Table 1	context(We assume)	negated: False ,passive: True
+0.317	[*A*]We[*R*]assume[*A*]that the objects in Table 3 will be inserted into Table 1	context()	negated: False ,passive: False
+[LINE#132]The inserted object x will belong to Di.
+0.931	[*A*]The inserted object x[*R*]will belong[*A*]to Di	context()	negated: False ,passive: False
+[LINE#133]Proposition 5Let S=(U,C{d},V,f) be a SOIS, AC.
+0.949	[*A*]Proposition 5Let S=[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+[LINE#134]When x is inserted into U, for RADi, we have:(1)If Di[x]A, where Di=Di{x}, then RADi=RADi{x};(2)Otherwise, RADi=RADi.ProofAccording to Definition 4, we have xDi, if [x]ADi, then xRADi. Thus, when the object x is inserted into U, we have Di=Di{x}; xDi, if x[x]A, then [x]A=[x]A{x}.
+0.498	[*A*]we[*R*]have[*A*]Di=Di	context()	negated: False ,passive: False
+0.925	[*A*]the object x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+0.596	[*A*]we[*R*]have[*A*]When x is inserted into U	context()	negated: False ,passive: False
+0.425	[*A*]x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+[LINE#135] That is, if Di[x]A, then Di[x]A; If Di[x]A, then Di[x]A. It follows that if xRADi, then xRADi;.
+[LINE#136]If xRADi, then xRADi.
+[LINE#137]Therefore, according to Definition 4, if [x]ADi, we have xRADi, and RADi=RADi{x}.
+0.498	[*A*]we[*R*]have[*A*]RADi=RADi	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]have[*A*]xRADi	context()	negated: False ,passive: False
+[LINE#138] Otherwise, RADi=RADi.Example 9Continuation of Example 4(1)For Table 1, according to Proposition 5, we compute the lower approximations of D2 when the object x7 and x8 in Table 3 insert into Table 1,the object x7 in Table 3 is inserted into Table 1, and U=U{x7}.
+0.957	[*A*]the object x7 in Table 3[*R*]is inserted[*A*]into Table 1	context()	negated: False ,passive: True
+0.498	[*A*]we[*R*]compute[*A*]the lower approximations of D2	context()	negated: False ,passive: False
+[LINE#139]Since f(x7,d)=3, then D2=D2{x7}.
+[LINE#140]Because of Di[x7]C={x2,x7}, we have RCD2=RCD2{x7}={x2,x4,x6,x7}.Assume the object x8 in Table 3 is inserted into Table 1, and U=U{x8}.
+0.740	[*A*]we[*R*]have[*A*]RCD2=RCD2 { x7 } = { x2 , x4 , x6 , x7 } , and U=U { x8[*A*]C= { x2 , x7	context()	negated: False ,passive: False
+[LINE#141]Since f(x8,d)=3, then D2=D2{x8}.
+[LINE#142] Because of D2[x8]C={x4,x6,x8}, we have RCD2=RCD2={x2,x4,x6}.(2)For Table 2, according to Proposition 4, we compute the lower approximation of D2 when the objects x7 and x8 in Table 4 insert into Table 2,the object x7 in Table 4 is inserted into Table 2, and U=U{x7}.
+0.550	[*A*]we[*R*]compute[*A*]the lower approximation of D2[*A*]when x8 in Table 4 insert into Table 2 , the object x7 in Table 4 is inserted into Table 2	context()	negated: False ,passive: False
+0.443	[*A*]we[*R*]have[*A*]RCD2=RCD2=[*A*]according to Proposition 4	context(we compute)	negated: False ,passive: False
+0.560	[*A*]we[*R*]compute[*A*]the lower approximation of D2 when the objects x7 insert into Table 2 , the object x7 in Table 4 is inserted into Table 2 , and U=U { x7 }	context()	negated: False ,passive: False
+0.957	[*A*]the object x7 in Table 4[*R*]is inserted[*A*]into Table 2	context()	negated: False ,passive: True
+0.732	[*A*]the objects[*R*]x7 insert	context()	negated: False ,passive: False
+[LINE#143]Since f(x7,d)=2, then D2=D2{x7}. Because of D2[x7]C={x5,x7}, we have RCD2=RCD2{x7}={x1,x2,x5,x7}.Assume the object x8 in Table 4 is inserted into Table 2, and U=U{x8}.
+[LINE#144]Since f(x8,d)=2, then D2=D2{x8}.
+[LINE#145] Because of D2[x8]C={x4,x6,x8}, we have RCD2=RCD2={x1,x2,x5}.Proposition 6Let S=(U,Cd,V,f) be a SOIS,.
+0.526	[*A*]we[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]have[*A*]RCD2=RCD2={x1,x2,x5}.Proposition 6Let S=(U,Cd	context()	negated: False ,passive: False
+[LINE#146] AC. When x is inserted into U, for RADi, we haveRADi=RADi[x]AProofWhenthe object x is inserted into U,U=U{x}.
+0.930	[*A*]AProofWhenthe object x[*R*]is inserted[*A*]into U,U=U	context(we haveRADi=RADi)	negated: False ,passive: True
+0.204	[*A*]we[*R*]haveRADi=RADi	context()	negated: False ,passive: False
+0.425	[*A*]x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+[LINE#147]According to Definition 4, we have RADi=xDi[x]A. Since Di=Di{x}, then we have RADi=xDi[x]A[x]A.
+[LINE#148] Because xU,[x]A=[x]A{x} or [x]A=[x]A, and x[x]A, we can obtain that RADi=xDi+1[x]A[x]A=RADi[x]A.Example 10Continuation of Example 4(1)For Table 1, according to Proposition 6, we compute the upper approximations of D2 when the object x7 in Table 3 inserts into Table 1.Assumethe object x7 in Table 3 inserts into Table 1, and U=U{x7}.
+0.433	[*A*]we[*R*]compute[*A*]the upper approximations of D2	context(we can obtain)	negated: False ,passive: False
+0.195	[*A*]we[*R*]can obtain[*A*]that RADi=xDi+1[x]A[x]A=RADi[x]A.Example 10Continuation of Example 4(1)For Table 1, according to Proposition 6, we compute the upper approximations of D2 when the object x7 in Table 3 inserts into Table 1.Assumethe object x7 in Table 3 inserts	context()	negated: False ,passive: False
+[LINE#149] Since f(x7,d)=3, then D2=D2{x7} and RCD2=RCD2[x7]C={x1,x2,x3,x4,x6,x7}.(2)For Table 2, according to Proposition 6, we compute the upper approximations of D2 when the object x7 in Table 4 inserts into Tablethe object x7 in Table 4 inserts into Table 2, and U=U{x7}.
+[LINE#150]Since f(x7,d)=2, then D2=D2{x7} and RCD2=RCD2[x7]C={x1,x2,x3,x4,x5,x6,x7}.Case 2:The inserted object x will not belong to Di.
+0.960	[*A*]The inserted object x[*R*]will not belong[*A*]to Di[*A*]Since f ( x7 , d ) =2[*A*]then	context()	negated: True ,passive: False
+[LINE#151] Proposition 7Let S=(U,Cd,V,f) be a SOIS, AC. When x is inserted into U, for RADi, we haveRADi=RADi-Kwhere K= x|xRADi,x[x]A.ProofWhen the object x is inserted into U, since xdx (xDi), we have U=U{x},Di=Di. xDi,[x]A=[x]A or.
+0.957	[*A*]Proposition 7Let S=(U,Cd[*R*]be[*A*]a SOIS, AC[*A*]When x is inserted into U	context(we haveRADi=RADi - Kwhere K= x | xRADi , x [ x ] A.ProofWhen the object x is inserted)	negated: False ,passive: True
+0.835	[*A*]we haveRADi=RADi-Kwhere K= x|xRADi,x[x]A.ProofWhen the object x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+0.498	[*A*]we[*R*]have[*A*]U=U{x},Di=Di	context()	negated: False ,passive: False
+0.425	[*A*]x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+[LINE#152]We have if [x]ADi, then [x]ADi.
+0.614	[*A*]We[*R*]have[*A*]if [x]ADi, then [x]ADi	context()	negated: False ,passive: False
+[LINE#153] Hence, we only consider the objectxRADi, i.e., [x]ADi. When x is deleted, there may exist that [x]A=[x]A{x}.
+0.392	[*A*]we[*R*]consider[*A*]the objectxRADi, i.e., [x]ADi	context()	negated: False ,passive: False
+0.153	[*A*]x[*R*]is deleted	context()	negated: False ,passive: False
+[LINE#154]Then [x]ADi=Di, i.e., xRADi.
+[LINE#155] Therefore, we have RADi=RADi-K, where K= Example 11Continuation of Example 4(1)For Table 1, according to Proposition 7 , we compute the lower approximations of D2 when the object x9 in Table 3 inserts into Table 1.Assumethe object x9 in Table 3 inserts into Table 1, and U=U{x9}.
+0.498	[*A*]we[*R*]have[*A*]RADi=RADi - K	context()	negated: False ,passive: False
+[LINE#156]Since f(x9,d)=1, then D2 remains unchanged.
+0.913	[*A*]D2[*R*]remains[*A*]unchanged[*A*]Since f(x9,d)=1[*A*]then	context()	negated: False ,passive: True
+[LINE#157] Because of RCD2={x2,x4,x6},x9Cx6, that is, x9[x6]C. Hence, we have K={x|xRCD2,x9[x]C}={x6},RCD2=RCD2-K={x2,x4}.(2)For Table 2, according to Proposition 7, we compute the lower approximations of D2 when the object x9 in Table 4 inserts into Tablethe object x9 in Table 4 is inserted into Table 2, and U=U{x9}.
+0.985	[*A*]the lower approximations of D2 when the object x9 in Table 4 inserts into Tablethe object x9 in Table 4[*R*]is inserted[*A*]into Table 2	context(we compute)	negated: False ,passive: True
+0.399	[*A*]we[*R*]have[*A*]K={x|xRCD2,x9[x]C}={x6},RCD2=RCD2-K={x2,x4}.(2)For Table 2, according to Proposition 7, we compute the lower approximations of D2 when the object x9 in Table 4 inserts into Tablethe object x9 in Table 4 is inserted into Table 2, and U=U	context(we compute)	negated: False ,passive: False
+0.550	[*A*]we[*R*]compute[*A*]the lower approximations of D2 when the object x9 in Table 4 inserts into Tablethe object x9 in Table 4	context()	negated: False ,passive: False
+[LINE#158]Since f(x9,d)=1, then D2 remains unchanged.
+0.913	[*A*]D2[*R*]remains[*A*]unchanged[*A*]Since f(x9,d)=1[*A*]then	context()	negated: False ,passive: True
+[LINE#159] Because of RCD2={x1,x2,x5},x9Cx1, that is, x9[x1]C. Hence K={x|xRCD2,x9[x]C}={x1},RCD2=RCD2-K={x2,x5}.Proposition 8Let (U,Cd,V,f) be a SOIS, AC. When x is inserted into U, for RADi, we have:(1)If xDi,x[x]A, then RADi=RADi{x};(2)Otherwise, RADi=RADi.ProofWhenthe object x is inserted into U, since xdx (xDi), we have U=U{x},Di=Di.
+0.999	[*A*]RCD2={x1,x2,x5},x9Cx1, that is, x9[x1]C. Hence K={x|xRCD2,x9[x]C}={x1},RCD2=RCD2-K={x2,x5}.Proposition 8Let (U,Cd,V[*R*]be[*A*]a SOIS, AC[*A*]When x is inserted into U	context(we have)	negated: False ,passive: True
+0.162	[*A*]we[*R*]have	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]have[*A*]U=U{x},Di=Di	context()	negated: False ,passive: False
+0.939	[*A*]RADi=RADi.ProofWhenthe object x[*R*]is inserted[*A*]into U[*A*]then	context()	negated: False ,passive: True
+0.425	[*A*]x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+[LINE#160]Then, xDi, if x[x]A, then [x]A=[x]A{x}.
+[LINE#161] According to Definition 4, we have xRADi, that is, RADi=RADi{x};.
+0.491	[*A*]we[*R*]have that is[*A*]xRADi	context()	negated: False ,passive: False
+[LINE#162] Otherwise, if xDi,x[x]A, that is, [x]A=[x]A. Then we have RADi=RADi.Example 12Continuation of Example 4(1)For Table 1, according to Proposition 8, we compute the lower approximations of D2 when the object x9 and x10 in Table 3 insert into Table 1,the object x9 in Table 3 inserts into Table 1, and U=U{x9}.
+0.614	[*A*]we[*R*]compute[*A*]the lower approximations of D2 when x10 in Table 3 insert into Table 1 , the object x9 in Table 3 inserts into Table 1	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]compute[*A*]the lower approximations of D2	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]compute[*A*]the lower approximations of D2 U=U	context()	negated: False ,passive: False
+[LINE#163]Since f(x9,d)=1, then D2 remains unchanged.
+0.913	[*A*]D2[*R*]remains[*A*]unchanged[*A*]Since f(x9,d)=1[*A*]then	context()	negated: False ,passive: True
+[LINE#164]Because of D2={x1,x2,x4,x6},x9Cx6, that is, x9[x6]C. Hence RCD2=RCD2{x9}={x1,x2,x3,x4,x6,x9}.Assume the object x10 in Table 3 inserts into Table 1, and U=U{x10}.
+[LINE#165]Since f(x10,d)=1, then D2 remains unchanged.
+0.913	[*A*]D2[*R*]remains[*A*]unchanged[*A*]Since f(x10,d)=1[*A*]then	context()	negated: False ,passive: True
+[LINE#166] Because of xD2={x1,x2,x4,x6},x9Cx, that is, x9[x]C. Hence RCD2=RCD2={x1,x2,x3,x4,x6}.(2)For Table 2, according to Proposition 8, we compute the upper approximations of D2 when the object x9 and x10 in Table 4 insert into Table 2, respectively.Assumethe object x9 in Table 4 inserts into Table 2, and U=U{x9}.
+0.498	[*A*]we[*R*]compute[*A*]the upper approximations of D2	context()	negated: False ,passive: False
+[LINE#167]Since f(x9,d)=1, then D2 remains unchanged.
+0.913	[*A*]D2[*R*]remains[*A*]unchanged[*A*]Since f(x9,d)=1[*A*]then	context()	negated: False ,passive: True
+[LINE#168]Because of D2={x1,x2,x3,x5,x6},x9Cx1, that is, x9[x1]C. Hence RCD2=RCD2{x9}={x1,x2,x3,x5,x6,x9}.Assume the object x10 in Table 4 inserts into Table 2, and U=U{x10}.
+[LINE#169]Since f(x10,d)=1, then D2 remains unchanged.
+0.913	[*A*]D2[*R*]remains[*A*]unchanged[*A*]Since f(x10,d)=1[*A*]then	context()	negated: False ,passive: True
+[LINE#170] Because of xD2={x1,x2,x3,x5,x6},x10Cx, that is, x10[x]C. Hence RCD2=RCD2={x1,x2,x3,x5,x6}.Based on the above analysis, we can compute the approximations of the union of existing decision classes Di(1ir) when inserting a new object into SOIS.
+0.857	[*A*]Di[*R*]inserting[*A*]a new object[*A*]into SOIS	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]can compute[*A*]the approximations of the union of existing decision classes	context()	negated: False ,passive: False
+[LINE#171]However, when a new object x is inserted into the universe, it might happen that x will form a new decision class, i.e., xU,f(x,d)f(x,d).
+0.381	[*A*]x[*R*]will form[*A*]a new decision class	context()	negated: False ,passive: False
+0.663	[*A*]it[*R*]might happen[*A*]when a new object x is inserted into the universe	context()	negated: False ,passive: True
+0.919	[*A*]a new object x[*R*]is inserted[*A*]into the universe	context()	negated: False ,passive: True
+[LINE#172] Then the universe U=U{x} will be divided into r+1 partitions, such as: D={D1,,Di, Dnew,.
+[LINE#173]Di+1,,Dr}, where |D|=r+1,Dnew={x}.
+[LINE#174] At this point, in addition to updating the approximations of the existing unions of decision classes, we need to compute the unions of new decision class Dnew: Dnew=Di+1{x}.Proposition 9Let S=(U,Cd,V,f) be a SOIS,.
+0.388	[*A*]we[*R*]need to compute[*A*]the unions of new decision class Dnew	context(we need Dnew=Di+1 { x } . Proposition 9Let S= ( U , Cd , V be)	negated: False ,passive: False
+0.531	[*A*]we[*R*]need[*A*]to compute the unions of new decision class Dnew[*A*]At this point	context(Dnew=Di+1 { x } . Proposition 9Let S= ( U , Cd , V be)	negated: False ,passive: False
+0.956	[*A*]Dnew=Di+1{x}.Proposition 9Let S=(U,Cd,V[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+[LINE#175] AC. When x is inserted into U, if xU,f(x,d)f(x,d), then the lower approximation of the union of the new decision class Dnew can be computed as follows:(1)If [x]ADnew, where Dnew=Di+1{x}, then RADnew=RADi+1{x};(2)Otherwise, RADnew=RADi+1.ProofWhenthe object x is inserted into U, then U=U{x}.
+0.978	[*A*]the lower approximation of the union of the new decision class Dnew[*R*]can be computed[*A*]When x is inserted into U[*A*]then	context()	negated: False ,passive: True
+0.425	[*A*]x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+[LINE#176]Since xU,f(x,d)f(x,d),x will form a new decision class.
+0.813	[*A*]x[*R*]will form[*A*]a new decision class	context()	negated: False ,passive: False
+[LINE#177] U will be divided into r+1 partitions, such as: D={D1,,Di,Dnew,.
+[LINE#178]Di+1,,Dr}, where |D|=r+1,Dnew={x}.
+[LINE#179]It is easy to obtain that the union of the new decision class Dnew is: Dnew=Di+1{x}.
+[LINE#180] Then from Definition 4, we know that xU, if [x]ADnew, then xRADnew; Furthermore, since Dnew=Di+1{x} and xU,[x]A=[x]A{x} or [x]A=[x]A, we have if xRADi+1, then xRADnew, and if xRADi+1, then xRADnew. Hence, if [x]ADnew, then RADnew=RADi+1{x}; Otherwise, RADnew=RADi+1.Example 13Continuation of Example 4(1)For Table 1, according to Proposition 9, we compute the lower approximations of Dnew when the object x11 and x12 in Table 3 insert into Table 1,the object x11 in Table 3 inserts into Table 1, and U=U{x11}.
+0.969	[*A*]Furthermore, since Dnew=Di+1{x} and xU,[x]A=[x]A{x} or [x]A=[x]A, we have if xRADi+1, then xRADnew, and if xRADi+1[*R*]xRADnew[*A*]then	context()	negated: False ,passive: False
+0.157	[*A*]we[*R*]have	context(A= xRADnew)	negated: False ,passive: False
+0.707	[*A*]A=[*R*]xRADnew[*A*]then	context()	negated: False ,passive: False
+0.916	[*A*]xU, if [x]ADnew[*R*]xRADnew[*A*]then	context()	negated: False ,passive: False
+0.365	[*A*]we[*R*]know[*A*]Then	context()	negated: False ,passive: False
+[LINE#181]Since xU, f(x,d)f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew=D3{x11}={x2,x6,x11}.
+[LINE#182]Because of [x11]C={x2,x11},[x11]CDnew, we have RCDnew=RCD3{x11}={x2,x6,x11}.Assume the object x12 in Table 3 inserts into Table 1, and U=U{x12}.
+[LINE#183]Since xU, f(x,d)f(x12,d)=3 and f(D2,d)<f(x12,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew=D3{x11}={x2,x6,x12}.
+[LINE#184] Because of [x12]C={x2,x4,x12},[x11]CDnew, we have RCDnew=RCD3={x2,x6}.(2)For Table 2, according to Proposition 9, we compute the lower approximations of Dnew when the object x11 and x12 in Table 4 are respectively inserted into Table 2.Assumethe object x11 in Table 4 inserts into Table 2, and U=U{x11}.
+0.443	[*A*]we[*R*]compute[*A*]the lower approximations of Dnew	context()	negated: False ,passive: False
+0.923	[*A*]x12 in Table 4[*R*]are inserted[*A*]into Table 2.Assumethe object x11	context()	negated: False ,passive: True
+0.433	[*A*]we[*R*]have[*A*]RCDnew=RCD3=[*A*]according to Proposition 9	context(we compute)	negated: False ,passive: False
+0.550	[*A*]we[*R*]compute[*A*]the lower approximations of Dnew[*A*]when the object x11 in Table 4 are respectively inserted into Table 2.Assumethe object x11 in Table 4 inserts into Table 2	context()	negated: False ,passive: False
+0.936	[*A*]the object x11 in Table 4[*R*]are inserted[*A*]into Table 2.Assumethe object x11	context()	negated: False ,passive: True
+[LINE#185]Since xU, f(x,d)f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew=D3{x11}={x2,x5,x11}.
+[LINE#186]Because of [x11]C={x5,x11},[x11]CDnew, we have RCDnew=RCD3{x11}={x11}.Assume the object x12 in Table 4 inserts into Table 2, and U=U{x12}.
+0.398	[*A*]we[*R*]have RCDnew=RCD3 Assume[*A*]the object x12 in Table	context(we have)	negated: False ,passive: False
+0.433	[*A*]we[*R*]have[*A*]RCDnew=RCD3	context()	negated: False ,passive: False
+[LINE#187]Since xU, f(x,d)f(x12,d)=3 and f(D2,d)<f(x12,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew=D3{x12}={x2,x5,x12}.
+[LINE#188] Because of [x12]C={x3,x5,x12},[x12]CDnew, we have.
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+[LINE#189] RCDnew=RCD3=.Proposition 10Let S=(U,Cd,V,f) be a SOIS, AC. When x is inserted into U, if xU,f(x,d)f(x,d), then the upper approximation of the union of the new decision class Dnew can be computed as follows:RADnew=RADi+1[x]Awhere Dnew=Di+1{x}.ProofWhenthe object x inserts into U,U=U{x}.
+0.920	[*A*]ProofWhenthe[*R*]object[*A*]x inserts	context()	negated: False ,passive: False
+0.939	[*A*]the upper approximation of the union of the new decision class Dnew[*R*]can be computed[*A*]as follows:RADnew=RADi+1[*A*]then	context()	negated: False ,passive: True
+0.425	[*A*]x[*R*]is inserted[*A*]into U	context()	negated: False ,passive: True
+0.965	[*A*]Proposition 10Let S=(U,Cd[*R*]be[*A*]a SOIS[*A*]When x is inserted into U	context()	negated: False ,passive: True
+[LINE#190]According to Definition 4, we have RADnew=xDnew[x]A=xDi+1[x]A[x]A. Since Dnew=Di+1{x}, then RADnew=xDi+1[x]A[x]A.
+0.498	[*A*]we[*R*]have[*A*]RADnew=xDnew	context()	negated: False ,passive: False
+[LINE#191] Because xU,[x]A=[x]A{x} or [x]A=[x]A, and x[x]A, we can obtain that RADnew=xDi+1[x]A[x]A=RADi+1[x]A.Example 14Continuation of Example 4(1)For Table 1, according to Proposition 9, we compute the lower approximations of Dnew when the object x11 in Table 3 inserts into Table 1.Assumethe object x11 in Table 3 inserts into Table 1, and U=U{x11}.
+0.550	[*A*]we[*R*]compute[*A*]the lower approximations of Dnew when the object x11 in Table 3 inserts into Table 1.Assumethe object x11 in Table 3 inserts into Table 1, and U=U{x11	context(we can obtain)	negated: False ,passive: False
+0.195	[*A*]we[*R*]can obtain[*A*]that RADnew=xDi+1[x]A[x]A=RADi+1[x]A.Example 14Continuation of Example 4(1)For Table 1, according to Proposition 9, we compute the lower approximations of Dnew when the object x11 in Table 3 inserts into Table 1.Assumethe object x11 in Table 3 inserts into Table 1, and U=U{x11	context()	negated: False ,passive: False
+[LINE#192]Since xU, f(x,d)f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew=D3{x11}={x2,x6,x11}.
+[LINE#193] Because of [x11]C={x2,x11}, we have RCDnew=RCD3[x11]A={x2,x6,x11}.(2)For Table 2, according to Proposition 9, we compute the lower approximations of Dnew when the object x11 in Table 4 inserts into Tablethe object x11 in Table 4 inserts into Table 2, and U=U{x11}.
+0.399	[*A*]we[*R*]have[*A*]RCDnew=RCD3[x11]A={x2,x6,x11}.(2)For Table 2, according to Proposition 9, we compute the lower approximations of Dnew when the object x11 in Table 4 inserts into Tablethe object x11 in Table 4 inserts into Table 2, and U=U	context(we compute)	negated: False ,passive: False
+0.550	[*A*]we[*R*]compute[*A*]the lower approximations of Dnew when the object x11 in Table 4 inserts into Tablethe object x11 in Table	context()	negated: False ,passive: False
+[LINE#194]Since xU, f(x,d)f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew=D3{x11}={x2,x5,x11}.
+[LINE#195]Because of [x11]C={x5,x11}, we have RCDnew=RCD3[x11]C={x2,x3,x5,x11}.
+0.498	[*A*]we[*R*]have[*A*]RCDnew=RCD3[x11]C={x2	context()	negated: False ,passive: False
+[LINE#196]Granular Computing (GrC), a new concept for information processing based on Zadeh's "information granularity", is a term of theories, methodologies, techniques, and tools that makes use of granules in the process of problem solving [1,2].
+0.905	[*A*]a term of tools[*R*]makes[*A*]use of granules in the process of problem	context()	negated: False ,passive: False
+0.892	[*A*]Granular Computing[*R*]is[*A*]a term of tools that makes use of granules in the process of problem	context()	negated: False ,passive: True
+0.934	[*A*]Granular Computing[*R*]is[*A*]a term of techniques	context()	negated: False ,passive: True
+0.934	[*A*]Granular Computing[*R*]is[*A*]a term of methodologies	context()	negated: False ,passive: True
+0.934	[*A*]Granular Computing[*R*]is[*A*]a term of theories	context()	negated: False ,passive: True
+0.943	[*A*]a new concept for information processing[*R*]based[*A*]on Zadeh 's " information granularity	context()	negated: False ,passive: True
+[LINE#197]With the development of artificial intelligence, the study on the theory of GrC has aroused the concern of more and more researchers [3-5].
+0.953	[*A*]the study on the theory of GrC[*R*]has aroused[*A*]the concern of more and more researchers	context()	negated: False ,passive: False
+[LINE#198]Up to now, GrC has been successfully applied to many branches of artificial intelligence.
+0.913	[*A*]GrC[*R*]has been successfully applied[*A*]to many branches of artificial intelligence[*A*]Up to now	context()	negated: False ,passive: True
+[LINE#199] The basic notions and principles of GrC have appeared in many related fields, such as concept formation [6], data mining [7] and knowledge discovery [8,9].Rough Set Theory (RST) is a powerful mathematical tool for dealing with inexact, uncertain or vague information [10].
+0.943	[*A*]The basic notions and principles of GrC[*R*]have appeared[*A*]in many related fields, such as concept formation	context(data mining [ 7 ] and knowledge discovery [ 8,9 ] . Rough Set Theory is)	negated: False ,passive: True
+0.985	[*A*]data mining [7] and knowledge discovery [8,9].Rough Set Theory[*R*]is[*A*]a powerful mathematical tool for dealing with inexact, uncertain or vague information	context()	negated: False ,passive: True
+[LINE#200]It is also known as one of three primary models of GrC [11].
+0.509	[*A*]It[*R*]is known[*A*]as one of three primary models of GrC [11	context()	negated: False ,passive: True
+[LINE#201]In recent years, there has been a rapid growth of interest in RST and its applications.
+[LINE#202]It seems to be of fundamental importance to artificial intelligence and cognitive sciences, especially in the areas of machine learning, decision analysis, expert systems, inductive reasoning and pattern recognition [13-16].
+0.411	[*A*]It[*R*]to be[*A*]of fundamental importance to cognitive sciences	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to cognitive sciences , especially in the areas of inductive reasoning	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to cognitive sciences , especially in the areas of expert systems	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to cognitive sciences , especially in the areas of decision analysis	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to cognitive sciences , especially in the areas of machine learning	context()	negated: False ,passive: True
+0.411	[*A*]It[*R*]to be[*A*]of fundamental importance to artificial intelligence	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to artificial intelligence , especially in the areas of inductive reasoning	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to artificial intelligence , especially in the areas of expert systems	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to artificial intelligence , especially in the areas of decision analysis	context()	negated: False ,passive: True
+0.528	[*A*]It[*R*]to be[*A*]of fundamental importance to artificial intelligence , especially in the areas of machine learning	context()	negated: False ,passive: True
+[LINE#203] The data acquired for rough set analysis is represented in form of attribute-value tables, consisting of objects (rows)and attributes (columns), called information systems [17].
+0.877	[*A*]attributes[*R*]called[*A*]information systems	context()	negated: False ,passive: True
+0.926	[*A*]The data acquired for rough set analysis[*R*]is represented[*A*]consisting of attributes	context()	negated: False ,passive: True
+0.877	[*A*]objects[*R*]called[*A*]information systems	context()	negated: False ,passive: True
+0.926	[*A*]The data acquired for rough set analysis[*R*]is represented[*A*]consisting of objects	context()	negated: False ,passive: True
+0.903	[*A*]The data[*R*]acquired[*A*]for rough set analysis	context()	negated: False ,passive: True
+[LINE#204]In real-life applications, data in information systems is generated and collected dynamically, and the knowledge discovered by RST need to be updating accordingly [12].
+0.799	[*A*]the knowledge discovered by RST[*R*]need to be updating accordingly [ 12 to be updating accordingly	context(the knowledge discovered by RST need)	negated: False ,passive: False
+0.826	[*A*]the knowledge discovered by RST[*R*]need[*A*]to be updating accordingly [ 12	context()	negated: False ,passive: False
+0.918	[*A*]the knowledge[*R*]discovered[*A*]by RST	context()	negated: False ,passive: True
+0.944	[*A*]data in information systems[*R*]is generated[*A*]In real - life applications	context()	negated: False ,passive: True
+[LINE#205]The incremental technique is an effective method to update knowledge by dealing with the new added-in data set without re-implementing the original data mining algorithm [18,19].
+0.842	[*A*]the new added-in data[*R*]set	context()	negated: False ,passive: False
+0.956	[*A*]The incremental technique[*R*]is[*A*]an effective method to update knowledge by dealing with the new added-in data	context()	negated: False ,passive: True
+[LINE#206]Many studies have been done towards the topic of incremental learning techniques under RST.
+0.918	[*A*]Many studies[*R*]have been done[*A*]towards the topic of incremental learning techniques under RST	context()	negated: False ,passive: True
+[LINE#207]Considering the problem of discretization of continuous attributes in the dynamic databases, Dey et al. developed a dynamic discreduction method based on RST and notions of Statistics, which merges the two tasks of discretization and reduction of attributes into a single seamless process, so as to reduce the computation time by using samples instead of the whole data to discretize the variables [20].
+0.897	[*A*]notions of Statistics[*R*]merges[*A*]the two tasks of reduction of attributes[*A*]into a single seamless process	context()	negated: False ,passive: False
+0.897	[*A*]notions of Statistics[*R*]merges[*A*]the two tasks of discretization[*A*]into a single seamless process	context()	negated: False ,passive: False
+0.919	[*A*]a dynamic discreduction method[*R*]based[*A*]on notions of Statistics	context()	negated: False ,passive: True
+0.950	[*A*]Dey et al[*R*]developed[*A*]a dynamic discreduction method based on notions of Statistics ,[*A*]so as to reduce the computation time by using samples instead of the whole data to discretize the variables	context()	negated: False ,passive: True
+0.833	[*A*]RST[*R*]merges[*A*]the two tasks of reduction of attributes[*A*]into a single seamless process	context()	negated: False ,passive: False
+0.833	[*A*]RST[*R*]merges[*A*]the two tasks of discretization[*A*]into a single seamless process	context()	negated: False ,passive: False
+0.931	[*A*]a dynamic discreduction method[*R*]based[*A*]on RST	context()	negated: False ,passive: True
+0.958	[*A*]Dey et al[*R*]developed[*A*]a dynamic discreduction method based on RST ,[*A*]so as to reduce the computation time by using samples instead of the whole data to discretize the variables	context()	negated: False ,passive: True
+[LINE#208]Considering the problem of dynamic attribute reduction, Hu et al. proposed an incremental positive region reduction algorithm based on elementary set, which can generate a new positive region reduction quickly when a new object is added into the decision information systems [28].
+0.911	[*A*]a new object[*R*]is added[*A*]into the decision information systems	context()	negated: False ,passive: True
+0.884	[*A*]elementary set[*R*]can generate quickly[*A*]a new positive region reduction	context()	negated: False ,passive: False
+0.932	[*A*]an incremental positive region reduction algorithm[*R*]based[*A*]on elementary set	context()	negated: False ,passive: True
+0.889	[*A*]Hu[*R*]proposed[*A*]an incremental positive region reduction algorithm based on elementary set,[*A*]when a new object is added into the decision information systems	context()	negated: False ,passive: False
+[LINE#209]From the view of information theory, Wang et al. proposed an incremental attribute reduction algorithm based on three representative entropies by considering changes of data values, which can generate a feasible reduct in a much shorter time.
+0.887	[*A*]data values[*R*]can generate[*A*]a feasible reduct in a much shorter time	context()	negated: False ,passive: False
+[LINE#210]However, the algorithm is only applicable on the case of the variation of data one by one [21].
+0.952	[*A*]the algorithm[*R*]is[*A*]only applicable on the case of the variation of data	context()	negated: False ,passive: True
+[LINE#211]Furthermore, Wang et al. developed a dimension incremental strategy for attribute reduction based on information entropy for data sets with dynamically increasing attributes [22].
+[LINE#212]Since the core of a decision table is the start point to many existing algorithms of attribute reduction, Yang et al. introduced an incremental updating algorithm of the computation of a core based on the discernibility matrix, which only inserts a new row and column, or deletes one row and updates corresponding column when updating the discernibility matrix [29].
+0.897	[*A*]the discernibility matrix[*R*]deletes[*A*]one row and updates	context()	negated: False ,passive: False
+0.897	[*A*]the discernibility matrix[*R*]inserts[*A*]a new row and column	context()	negated: False ,passive: False
+0.903	[*A*]a core[*R*]based[*A*]on the discernibility matrix	context()	negated: False ,passive: True
+[LINE#213] Considering the problem of dynamic rule induction, proposed an incremental rule-extraction algorithm (REA) based on RST, which updates rule sets by partly modifying original rule sets without re-computing rule sets from the very beginning andthe proposal approach is especially useful in a large database, since it does not re-compute the reducts/rules that are not influenced by the incremental data set [23].
+0.887	[*A*]the reducts[*R*]are not influenced[*A*]by the incremental data	context()	negated: True ,passive: True
+0.889	[*A*]RST[*R*]updates[*A*]rule sets[*A*]by partly modifying original rule sets without re-computing rule sets from the very beginning	context()	negated: False ,passive: False
+0.326	[*A*]it[*R*]does not re-compute[*A*]the reducts/rules that are not influenced by the incremental data	context()	negated: True ,passive: False
+0.933	[*A*]an incremental rule-extraction algorithm[*R*]based[*A*]on RST	context()	negated: False ,passive: True
+0.800	[*A*]the incremental data[*R*]set	context()	negated: False ,passive: False
+[LINE#214]Nevertheless, alternative rules which are as preferred as the original desired rules might exist since the maximum of strength index is not unique.
+0.769	[*A*]the original desired rules[*R*]might exist	context()	negated: False ,passive: False
+0.887	[*A*]alternative rules[*R*]are[*A*]as preferred as the original desired rules might exist	context()	negated: False ,passive: True
+[LINE#215] The REA may lead to non-complete rules, then an incremental alternative rule extraction algorithm(IAREA) was proposed to exclude the repetitive rules and to avoid the problem of redundant rules [24].
+0.921	[*A*]an incremental alternative rule extraction algorithm[*R*]to avoid[*A*]the problem of redundant rules	context()	negated: False ,passive: False
+0.927	[*A*]The REA[*R*]may lead[*A*]to non-complete rules	context()	negated: False ,passive: False
+[LINE#216]Zheng et al. developed a rough set and rule tree based incremental algorithm for knowledge acquisition, which is not only obviously quicker than that of classic algorithm, but also has a better performance of knowledge learned by the proposed algorithm to a certain degree [25].
+0.769	[*A*]a rough rule tree[*R*]based	context()	negated: False ,passive: False
+0.894	[*A*]knowledge[*R*]learned[*A*]by the proposed algorithm to a certain degree	context()	negated: False ,passive: True
+0.698	[*A*]knowledge acquisition[*R*]is not only	context()	negated: False ,passive: False
+0.751	[*A*]a rough set[*R*]based	context()	negated: False ,passive: False
+0.792	[*A*]knowledge acquisition[*R*]is[*A*]not only obviously quicker than that of classic algorithm	context()	negated: False ,passive: True
+[LINE#217]defined a new concept of interesting knowledge based on both accuracy and coverage of the generated rules in the information system, and presented an optimization model using the incremental matrix for generating interesting knowledge when the object set varies over time [26,27].The main goal of RST is to synthesize approximations of concepts from the acquired data, which is a necessary step for expressing and reducing incomplete and uncertain knowledge based on RST [30-32].
+0.932	[*A*]a new concept of interesting knowledge[*R*]based[*A*]on coverage of the generated rules in the information	context()	negated: False ,passive: True
+0.888	[*A*]the object set[*R*]varies[*A*]over time	context()	negated: False ,passive: True
+0.956	[*A*]a new concept of interesting knowledge[*R*]based[*A*]on both accuracy of the generated rules in the information	context()	negated: False ,passive: True
+0.957	[*A*]the acquired data[*R*]is[*A*]a necessary step for reducing incomplete and uncertain knowledge based on RST [ 30-32 ]	context()	negated: False ,passive: True
+0.956	[*A*]a new concept of interesting knowledge[*R*]based[*A*]on coverage of the generated rules in the information system	context()	negated: False ,passive: True
+0.957	[*A*]The main goal of RST[*R*]is[*A*]to synthesize approximations of concepts from the acquired data	context()	negated: False ,passive: True
+0.920	[*A*]the acquired data[*R*]is[*A*]a necessary step for expressing	context()	negated: False ,passive: True
+0.956	[*A*]a new concept of interesting knowledge[*R*]based[*A*]on both accuracy of the generated rules in the information system	context()	negated: False ,passive: True
+[LINE#218]The knowledge hidden in information systems can be discovered and expressed in the form of decision rules according to the lower and upper approximations [36-39].
+0.886	[*A*]The knowledge[*R*]expressed[*A*]according to the upper approximations	context()	negated: False ,passive: False
+0.886	[*A*]The knowledge[*R*]expressed[*A*]according to the lower approximations	context()	negated: False ,passive: False
+0.932	[*A*]The knowledge hidden in information systems[*R*]can be discovered[*A*]according to the upper approximations	context()	negated: False ,passive: True
+0.932	[*A*]The knowledge hidden in information systems[*R*]can be discovered[*A*]according to the lower approximations	context()	negated: False ,passive: True
+0.903	[*A*]The knowledge[*R*]hidden[*A*]in information systems	context()	negated: False ,passive: True
+[LINE#219]In order to resolve the problem of high computation complexity in computing approximations under the dynamic information systems, many incremental updating algorithms have been proposed.
+0.769	[*A*]many incremental updating algorithms[*R*]have been proposed	context()	negated: False ,passive: False
+[LINE#220]Therefore, extensive efforts have been devoted to efficient algorithms for computing approximations.
+0.903	[*A*]extensive efforts[*R*]have been devoted[*A*]to efficient algorithms[*A*]for computing approximations	context()	negated: False ,passive: True
+[LINE#221]presented an incremental method for updating approximations in an incomplete information system through the characteristic relation when the attribute set varies over time, which can deal with the case of adding and removing some attributes simultaneously in the information system [40].
+0.965	[*A*]the characteristic relation when the attribute set varies over time[*R*]can deal[*A*]with the case of removing some attributes simultaneously in the information system	context()	negated: False ,passive: False
+0.945	[*A*]the characteristic relation when the attribute set varies over time[*R*]can deal[*A*]with the case of adding in the information system	context()	negated: False ,passive: False
+0.911	[*A*]the attribute set[*R*]varies[*A*]over time	context()	negated: False ,passive: True
+[LINE#222] Since the domain of attributes may change in real-life applications, attributes values may be added to or deleted from the domain, Chen etproposed the incremental updating approach of approximations while attributes values coarsening or refining in the complete and incomplete information systems [35].
+0.879	[*A*]Chen[*R*]etproposed[*A*]the incremental updating approach of approximations[*A*]while attributes values coarsening or refining in the complete and incomplete information systems	context()	negated: False ,passive: False
+0.877	[*A*]values[*R*]deleted[*A*]from the domain	context()	negated: False ,passive: True
+0.732	[*A*]attributes values[*R*]coarsening	context()	negated: False ,passive: False
+0.919	[*A*]the domain of attributes[*R*]may change[*A*]in real-life applications	context()	negated: False ,passive: True
+[LINE#223]discussed the change of approximations in neighborhood decision systems when the object set evolves over time, and proposed two fast incremental algorithms for updating approximations when multiple objects enter into or get out of the neighborhood decision table [33].
+0.925	[*A*]the object[*R*]set[*A*]evolves[*A*]over time	context()	negated: False ,passive: False
+0.913	[*A*]multiple objects[*R*]get[*A*]out of the neighborhood decision table	context()	negated: False ,passive: True
+[LINE#224]firstly introduced a kind of dominance matrix to calculate P-dominating sets and P-dominated sets in dominance-based rough sets approach, and proposed the incremental algorithms for updating approximations of an upward union and downward union of decision classes [34].
+[LINE#225]Instead of considering the incremental updating strategies of rough sets, Cheng proposed two incremental methods for fast computing the rough fuzzy approximations, which are established respectively based on the redefined boundary set and the relation between a fuzzy set and its cut sets [41].However, to our best knowledge, previous studies on incremental computing approximations mainly concerned in the single-valued information systems, but little attention has been paid to the set-valued information systems.
+0.905	[*A*]the rough fuzzy approximations[*R*]are established[*A*]respectively based on the relation between a fuzzy set	context()	negated: False ,passive: True
+0.855	[*A*]Cheng[*R*]proposed[*A*]two incremental methods for fast computing	context()	negated: False ,passive: False
+0.863	[*A*]two incremental methods for fast computing[*R*]are established[*A*]respectively[*A*]based on the relation between its cut sets	context()	negated: False ,passive: True
+0.833	[*A*]Cheng[*R*]proposed However[*A*]two incremental methods for fast computing the rough fuzzy approximations , which are established respectively based on the relation between its cut sets [ 41 ]	context()	negated: False ,passive: False
+0.962	[*A*]two incremental methods for fast computing the rough fuzzy approximations , which are established[*R*]based[*A*]on the relation between a fuzzy set	context()	negated: False ,passive: True
+0.904	[*A*]Cheng[*R*]proposed[*A*]two incremental methods for fast computing the rough fuzzy approximations , which are established respectively based on the relation between a fuzzy set ,	context()	negated: False ,passive: False
+0.897	[*A*]incremental computing approximations[*R*]concerned[*A*]in the single - valued information systems	context()	negated: False ,passive: True
+0.903	[*A*]little attention[*R*]has been paid[*A*]to the set - valued information systems	context()	negated: False ,passive: True
+0.962	[*A*]two incremental methods for fast computing the rough fuzzy approximations , which are established[*R*]based[*A*]on the redefined boundary set	context()	negated: False ,passive: True
+0.904	[*A*]Cheng[*R*]proposed[*A*]two incremental methods for fast computing the rough fuzzy approximations , which are established respectively based on the redefined boundary set ,	context()	negated: False ,passive: False
+[LINE#226]Set-valued information systems are an important type of data tables, and generalized models of single-valued information systems [42].
+0.381	[*A*]Set[*R*]generalized[*A*]models of single - valued information systems	context()	negated: False ,passive: False
+0.926	[*A*]Set - valued information systems[*R*]are[*A*]an important type of data tables	context()	negated: False ,passive: True
+[LINE#227]In many practical decision-making issues, set-valued information systems have very wide applications, which can be used in intelligent decision-making and knowledge discovery from information systems with uncertain information and set-valued information.
+0.933	[*A*]very wide applications[*R*]can be used[*A*]in intelligent knowledge discovery from information systems with set - valued information	context()	negated: False ,passive: True
+0.973	[*A*]set - valued information systems[*R*]have[*A*]very wide applications , which can be used in intelligent knowledge discovery from information systems with set - valued information[*A*]In many practical decision - making issues	context()	negated: False ,passive: False
+0.933	[*A*]very wide applications[*R*]can be used[*A*]in intelligent knowledge discovery from information systems with uncertain information	context()	negated: False ,passive: True
+0.973	[*A*]set - valued information systems[*R*]have[*A*]very wide applications , which can be used in intelligent knowledge discovery from information systems with uncertain information[*A*]In many practical decision - making issues	context()	negated: False ,passive: False
+0.897	[*A*]very wide applications[*R*]can be used[*A*]in intelligent decision - making	context()	negated: False ,passive: True
+0.973	[*A*]set - valued information systems[*R*]have[*A*]very wide applications , which can be used in intelligent decision - making[*A*]In many practical decision - making issues	context()	negated: False ,passive: False
+[LINE#228]In such systems, some of the attribute values of an object may be set-valued, which are always used to characterize the incomplete information, i.e., the values of some attributes are unknown or multi-values.
+0.965	[*A*]the attribute values of an object[*R*]to characterize[*A*]In such systems, some of the attribute values of an object may be set-valued, which are always used to characterize the incomplete information, i.e., the values of some attributes are unknown or multi-values.	context()	negated: False ,passive: False
+0.931	[*A*]the attribute values of an object[*R*]are used[*A*]to characterize the incomplete information[*A*]always	context()	negated: False ,passive: True
+[LINE#229]On the other hand, we often encounter the scenario where the ordering of properties of the considering attributes plays a crucial role in the analysis of information systems.
+0.967	[*A*]the ordering of properties of the considering attributes[*R*]plays[*A*]a crucial role[*A*]in the analysis of information systems[*A*]the scenario	context()	negated: False ,passive: False
+0.666	[*A*]we[*R*]encounter[*A*]the scenario where the ordering of properties of the considering attributes plays a crucial role in the analysis of information systems[*A*]often	context()	negated: False ,passive: False
+[LINE#230]Considering attributes with preference-ordered domains is an important characteristic of multi-attribute decision making problems in practice.
+0.952	[*A*]Considering attributes with preference-ordered domains[*R*]is[*A*]an important characteristic of multi-attribute decision	context()	negated: False ,passive: True
+[LINE#231]proposed the Dominance-based Rough Sets Approach (DRSA) [44,45].
+[LINE#232]This innovation is mainly based on the substitution of the indiscernibility relation by a dominance relation.
+0.907	[*A*]This innovation[*R*]is based[*A*]on the substitution of the indiscernibility relation by a dominance relation	context()	negated: False ,passive: True
+[LINE#233]established a rough set approach in Set-valued Ordered Information Systems (SOIS) to take into account the ordering properties of attributes in set-valued information systems, and classified the SOIS into two categories: disjunctive and conjunctive systems [43].
+[LINE#234]Since the characteristics of the set-valued information systems is different from that of single-valued information systems (such as: some of the attribute values for an object are set-valued), the method for knowledge acquisition in the single-valued information systems cannot be applied directly to the set-valued ones.
+0.978	[*A*]are set-valued), the method for knowledge acquisition in the single-valued information systems[*R*]can not be applied directly[*A*]to the set-valued ones	context()	negated: True ,passive: True
+0.934	[*A*]the characteristics of the set-valued information systems[*R*]is[*A*]different from that of single-valued information systems (such as: some of the attribute values for an object	context()	negated: False ,passive: True
+[LINE#235]For this reason, the incremental method for updating approximations in the dynamic set-valued information systems is discussed in this paper.
+0.981	[*A*]the incremental method for updating approximations in the dynamic set-valued information systems[*R*]is discussed[*A*]in this paper[*A*]For this reason	context()	negated: False ,passive: True
+[LINE#236]al. proposed an incremental method for computing approximations in set-valued information systems under the tolerance relation, when the attribute set varies with time.
+0.751	[*A*]the attribute set[*R*]varies	context()	negated: False ,passive: False
+0.889	[*A*]al[*R*]proposed[*A*]an incremental method for computing approximations in set-valued information systems under the tolerance relation	context()	negated: False ,passive: False
+[LINE#237]In this paper, we focus on updating knowledge under the variation of the object set in SOIS.
+0.388	[*A*]we[*R*]focus on updating[*A*]knowledge[*A*]under the variation of the object	context(we focus)	negated: False ,passive: False
+0.531	[*A*]we[*R*]focus[*A*]on updating knowledge under the variation of the object[*A*]In this paper	context()	negated: False ,passive: False
+0.937	[*A*]the object[*R*]set[*A*]in SOIS	context()	negated: False ,passive: True
+[LINE#238]Firstly, we discuss the principles of incremental updating approximations when the objects in the universe change (increase or decrease) dynamically in the conjunctive/disjunctive SOIS.
+0.452	[*A*]we[*R*]discuss[*A*]the principles of incremental updating approximations	context()	negated: False ,passive: False
+[LINE#239]Then two incremental updating algorithms are proposed based on the principles.
+0.856	[*A*]two incremental updating algorithms[*R*]are proposed[*A*]Then	context()	negated: False ,passive: True
+[LINE#240]Finally, the performances of two incremental algorithms are evaluated on a variety of data sets.
+0.961	[*A*]the performances of two incremental algorithms[*R*]are evaluated[*A*]on a variety of data sets[*A*]Finally	context()	negated: False ,passive: True
+[LINE#241]The remainder of the paper is organized as follows.
+0.814	[*A*]The remainder of the paper[*R*]is organized[*A*]as follows	context()	negated: False ,passive: True
+[LINE#242]In Section 2, some basic concepts of RST in SOIS are introduced.
+0.940	[*A*]some basic concepts of RST in SOIS[*R*]are introduced[*A*]In Section 2	context()	negated: False ,passive: True
+[LINE#243]The principles and some illustrated examples for incremental updating approximations with the variation of the object set are presented in Section 3.
+0.967	[*A*]some illustrated examples for incremental updating approximations with the variation of the object set[*R*]are presented[*A*]in Section 3	context()	negated: False ,passive: True
+0.903	[*A*]The principles[*R*]are presented[*A*]in Section 3	context()	negated: False ,passive: True
+[LINE#244]In Section 4, we propose the incremental algorithms for computing approximations based on the updating principles.
+0.894	[*A*]approximations[*R*]based[*A*]on the updating principles	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]propose[*A*]the incremental algorithms for computing approximations[*A*]In Section 4	context()	negated: False ,passive: False
+[LINE#245]Performance evaluations are illustrated in Section 5.
+0.903	[*A*]Performance evaluations[*R*]are illustrated[*A*]in Section 5	context()	negated: False ,passive: True
+[LINE#246]The paper ends with conclusions and further research topics in Section 6.
+0.925	[*A*]The paper[*R*]ends[*A*]with further research topics in Section 6	context()	negated: False ,passive: True
+0.925	[*A*]The paper[*R*]ends[*A*]with conclusions	context()	negated: False ,passive: True
+[LINE#247]For convenience, some basic concepts of rough sets and SOIS are reviewed in this section [42,43].A set-valued information system is an ordered quadruple S=(U,C{d},V,f), where U={x1,x2,,xn} is a non-empty finite set of objects, called the universe.
+0.960	[*A*]some basic concepts of SOIS[*R*]are reviewed[*A*]in this section[*A*]For convenience	context(A set - valued information system is)	negated: False ,passive: True
+0.951	[*A*]some basic concepts of rough sets[*R*]are reviewed[*A*]in this section[*A*]For convenience	context(A set - valued information system is)	negated: False ,passive: True
+0.946	[*A*]A set - valued information system[*R*]is[*A*]an ordered quadruple S=	context()	negated: False ,passive: True
+0.921	[*A*]a non-empty finite set of objects[*R*]called[*A*]the universe	context()	negated: False ,passive: True
+0.974	[*A*]U= { x1 , x2 ,, xn[*R*]is[*A*]a non-empty finite set of objects , called the universe	context()	negated: False ,passive: True
+[LINE#248] C is a non-empty finite set of condition attributes and d is a decision attribute with C{d}=; V=VCVd, where V is the domain of all attributes, VC is the domain of all condition attributes and.
+0.915	[*A*]VC[*R*]is[*A*]the domain of all condition attributes[*A*]where V is the domain of all attributes	context()	negated: False ,passive: True
+0.852	[*A*]V[*R*]is[*A*]the domain of all attributes	context()	negated: False ,passive: True
+0.801	[*A*]a non-empty finite set of condition[*R*]attributes	context()	negated: False ,passive: False
+[LINE#249] Vd is the domain of the decision attribute; f is a mapping from U(C{d}) to V such that f:.
+[LINE#250] U{C}2Vc is a set-valued mapping and f: U{d}Vd is a single-valued mapping.
+0.930	[*A*]U { C } 2Vc[*R*]is[*A*]a set - f	context(U { d } Vd is)	negated: False ,passive: True
+0.930	[*A*]U { C } 2Vc[*R*]is[*A*]a set - valued mapping	context(U { d } Vd is)	negated: False ,passive: True
+0.902	[*A*]U { d } Vd[*R*]is[*A*]a single - valued mapping	context()	negated: False ,passive: True
+[LINE#251]In an information system, if the domain (scale) of a condition attribute is ordered according to a decreasing or increasing preference, then the attribute is a criterion.
+0.957	[*A*]the attribute[*R*]is[*A*]a criterion[*A*]In an information system	context()	negated: False ,passive: True
+0.843	[*A*]the domain (scale) of a condition attribute[*R*]is ordered	context()	negated: False ,passive: False
+[LINE#252]Definition 1A set-valued information system S=(U,C{d},V,f) is called a SOIS if all condition attributes are criterions.
+0.911	[*A*]all condition attributes[*R*]are[*A*]criterions	context()	negated: False ,passive: True
+0.816	[*A*]V[*R*]is called[*A*]a SOIS[*A*]if all condition attributes are criterions	context()	negated: False ,passive: True
+[LINE#253]In real problems, many ways to present the semantic interpretations of set-valued information systems have been provided [47-50].
+0.976	[*A*]many ways to present the semantic interpretations of set-valued information systems[*R*]have been provided[*A*]In real problems	context()	negated: False ,passive: True
+[LINE#254]summarized two types of set-valued information systems with two kinds of semantics, which are known as conjunctive (xU and cC, f(x,c) is interpreted conjunctively) and disjunctive (xU and cC, f(x,c) is interpreted disjunctively) set-valued information systems.
+0.920	[*A*]two kinds of semantics[*R*]are known[*A*]as conjunctive ( xU cC , f	context()	negated: False ,passive: True
+0.920	[*A*]two kinds of semantics[*R*]are known[*A*]as conjunctive ( cC xU , f	context()	negated: False ,passive: True
+0.920	[*A*]two kinds of semantics[*R*]are known[*A*]as conjunctive ( xU xU , f	context()	negated: False ,passive: True
+0.771	[*A*]two kinds of semantics[*R*]are known[*A*]as conjunctive	context()	negated: False ,passive: True
+0.949	[*A*]two kinds of semantics[*R*]are known[*A*]as conjunctive ( disjunctive ( xU[*A*]f ( x , c ) is interpreted disjunctively ) set - valued information systems	context()	negated: False ,passive: True
+[LINE#255] According to the introduction of the following two dominance relations to these types of set-valued information systems, SOIS can be also classified into two categories: conjunctive and disjunctive SOIS [43].Assumethe domain of a criterion aC is completely pre-ordered by an outranking relation a; xay means "x is at least as good as (outranks) y with respect to criterion a".
+0.857	[*A*]SOIS[*R*]can be classified[*A*]into two categories	context(xay means)	negated: False ,passive: True
+0.900	[*A*]xay[*R*]means[*A*]is at least as good as ( outranks ) y with respect to criterion a	context()	negated: False ,passive: False
+0.857	[*A*]SOIS[*R*]can be classified[*A*]into two categories	context(xay means)	negated: False ,passive: True
+0.900	[*A*]xay[*R*]means[*A*]is at least as good as ( outranks ) y with respect	context()	negated: False ,passive: False
+0.794	[*A*]aC[*R*]is pre-ordered[*A*]by an outranking relation	context()	negated: False ,passive: True
+[LINE#256], we define xAyaA,xay, which means "x is at least as good as (outranks) y with respect to all attributes in A".
+0.826	[*A*]we define xAyaA[*R*]is[*A*]at least as good as (outranks) y with respect to all attributes in A	context()	negated: False ,passive: True
+0.740	[*A*]xAyaA[*R*]means	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]define[*A*]xAyaA	context()	negated: False ,passive: False
+[LINE#257]Definition 2Let S=(U,C{d},V,f) be a conjunctive SOIS and AC. The dominance relation in terms of A is defined as:(1)RA={(y,x)UU|yAx}={(y,x)UU|f(y,a)f(x,a),aA}Example 1Table 1 illustrates a conjunctive SOIS, where U={x1,x2,x3,x4,x5,x6}, C={a1,a2,a3,a4}, d is the decision attribute, VC={e,f,g} and Vd={1,2,4}.
+0.948	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]Vd= { 1,2	context()	negated: False ,passive: True
+0.816	[*A*]The dominance relation in terms of A[*R*]is defined	context()	negated: False ,passive: False
+[LINE#258]Here, we can obtain that f(x1,a1)={e}, f(x2,a1)={e,f,g}.
+0.463	[*A*]we[*R*]can obtain[*A*]that f(x1,a1)={e[*A*]Here	context()	negated: False ,passive: False
+[LINE#259] Since {e,f,g}{e}, we have x2a1x1, that is, x2 is at least as good as x1 with respect to a1.Definition 3Let S=(U,C{d},V,f) be a disjunctive SOIS and AC. The dominance relation in terms of A is defined as:(2)RA={(y,x)UU|yAx}={(y,x)UU|maxf(y,a)minf(x,a),aA}Example 2Table 2 illustrates a disjunctive SOIS, where U={x1,x2,x3,x4,x5,x6},C={a1,a2,a3,a4}, D={d}, VC={0,1,2} and Vd={1,2,4}.
+0.367	[*A*]we[*R*]have[*A*]x2a1x1 , that is , x2 is at least as good as x1 with respect to a1.Definition 3Let S= ( U , C { d } , V , f ) be AC . The dominance relation in terms of A is defined as : 2 } and Vd= { 1,2 , 4	context()	negated: False ,passive: False
+0.317	[*A*]we[*R*]have[*A*]x2a1x1 , that is , x2 is at least as good as x1 with respect to a1.Definition 3Let S=	context(The dominance relation in terms of A is defined)	negated: False ,passive: False
+0.936	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as : U=	context(we have)	negated: False ,passive: True
+0.854	[*A*]V[*R*]be[*A*]AC	context()	negated: False ,passive: True
+0.367	[*A*]we[*R*]have[*A*]x2a1x1 , that is , x2 is at least as good as x1 with respect to a1.Definition 3Let S= ( U , C { d } , V , f ) be AC . The dominance relation in terms of A is defined as : where } and Vd= { 1,2 , 4	context()	negated: False ,passive: False
+0.959	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as : ( 2 ) RA= { ( y , x ) UU | yAx } = { ( y , x ) UU | maxf ( y , a ) minf ( x , a ) , aA } Example 2Table 2 illustrates a disjunctive SOIS } and Vd= { 1,2 , 4	context(we have)	negated: False ,passive: True
+0.953	[*A*]aA } Example 2Table 2[*R*]illustrates[*A*]a disjunctive SOIS	context()	negated: False ,passive: False
+0.810	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as	context()	negated: False ,passive: True
+0.317	[*A*]we[*R*]have[*A*]x2a1x1 , that is , x2 is at least as good as x1 with respect to a1.Definition 3Let S=	context(The dominance relation in terms of A is defined)	negated: False ,passive: False
+0.959	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as : VC= { 0,1 } and Vd= { 1,2 , 4	context()	negated: False ,passive: True
+0.967	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as : D= { d } } and Vd= { 1,2 , 4	context()	negated: False ,passive: True
+0.967	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as : U= { x1 , x2 , x3 , x4 , x5 , x6 } } and Vd= { 1,2 , 4	context()	negated: False ,passive: True
+0.816	[*A*]The dominance relation in terms of A[*R*]is defined	context()	negated: False ,passive: False
+0.934	[*A*]aA } Example[*R*]illustrates[*A*]a disjunctive SOIS	context()	negated: False ,passive: False
+0.967	[*A*]The dominance relation in terms of A[*R*]is defined[*A*]as : ( 2 ) RA= { ( y , x ) UU | yAx } = { ( y , x ) UU | maxf ( y , a ) minf ( x , a ) , aA } Example 2Table 2 illustrates a disjunctive SOIS	context()	negated: False ,passive: True
+0.526	[*A*]we[*R*]be[*A*]a disjunctive SOIS	context()	negated: False ,passive: True
+0.938	[*A*]x2[*R*]is[*A*]at least as good as x1 with respect to a1.Definition 3Let S=	context()	negated: False ,passive: True
+0.367	[*A*]we[*R*]have[*A*]x2a1x1 , that is , x2 is at least as good as x1 with respect to a1.Definition 3Let S=	context()	negated: False ,passive: False
+[LINE#260]Here, we can obtain that f(x1,a1)={1}, f(x2,a1)={0,1}.
+0.999	[*A*]we[*R*]can obtain[*A*]01 }	context()	negated: False ,passive: False
+0.551	[*A*]we[*R*]can obtain[*A*]f[*A*]Here	context()	negated: False ,passive: False
+[LINE#261] Since maxf(x1,a1)=1minf(x2,a1)=0, we have x1a1x2, that is, x1 is at least as good as x2 with respect to a1.For convenience, we denote RA({,})as the dominance relation in SOIS, where  represents the conjunctive SOIS and  represents the disjunctive SOIS.
+0.317	[*A*]we[*R*]have[*A*]x1a1x2 , that is , x1 is at least as good as x2 with respect to a1.For convenience	context(we denote)	negated: False ,passive: False
+0.443	[*A*]we[*R*]denote[*A*]RA	context()	negated: False ,passive: False
+0.926	[*A*]x1[*R*]is[*A*]at least as good as x2 with respect to a1.For convenience	context()	negated: False ,passive: True
+[LINE#262] Furthermore, we denote the granules of knowledge induced by the dominance relation RA({,})as follows:[x]A={y|(y,x)RA},(=,)[x]A={y|(x,y)RA},(=,)where [x]A is called the A-dominating set, describes the objects that dominate x in terms of A. [x]A is called the A-dominated set, describes the objects that are dominated by x in terms of A, respectively.
+0.887	[*A*]the objects[*R*]are dominated[*A*]by x	context()	negated: False ,passive: True
+0.381	[*A*]A[*R*]is called[*A*]the A-dominating set	context()	negated: False ,passive: True
+0.560	[*A*]we[*R*]denote[*A*]the granules of knowledge induced by the dominance relation RA({,})	context(A is called)	negated: False ,passive: False
+0.330	[*A*]A[*R*]is called[*A*]the A-dominated set	context()	negated: False ,passive: True
+0.931	[*A*]the granules of knowledge[*R*]induced[*A*]by the dominance relation RA	context()	negated: False ,passive: True
+0.735	[*A*]the objects[*R*]dominate[*A*]x	context()	negated: False ,passive: False
+[LINE#263]Let U/RA denote a classification on the universe, which is the family set {[x]A|xU}.
+0.913	[*A*]the universe[*R*]is[*A*]the family set	context()	negated: False ,passive: True
+[LINE#264]Any element from U/RA is called a dominance class with respect to A. Dominance classes in U/RA do not constitute a partition of U in general.
+0.957	[*A*]Any element from U/RA[*R*]is called[*A*]a dominance class with respect to A. Dominance classes	context()	negated: False ,passive: True
+[LINE#265]They constitute a covering of U.Example 3Continuation of Examples 1 and 2From Table 1, U/RC={[x1]C,[x2]C,,[x6]C}, where [x1]C={x1,x2,x3},[x2]C={x2},[x3]C={x2,x3},[x4]C={x2,x4},[x5]C={x2,x5},[x6]C={x6}.
+0.755	[*A*]They[*R*]constitute[*A*]a covering of U.Example 3Continuation of Examples 2From Table 1	context()	negated: False ,passive: False
+0.755	[*A*]They[*R*]constitute[*A*]a covering of U.Example 3Continuation of Examples 1 Table 1 , U / RC=	context()	negated: False ,passive: False
+[LINE#266]Analogously, U/RC={[x1]C,[x2]C,,[x6]C}, where [x1]C={x1},[x2]C={x1,x2,x3,x4,x5},[x3]C={x1,x3},[x4]C={x4},[x5]C={x5},[x6]C={x6}.
+[LINE#267]From Table 2, U/RC={[x1]C,[x2]C,,[x6]C}, where [x1]C={x1,x5},[x2]C={x2,x3},[x3]C={x2,x3,x4,x5,x6},[x4]C={x4,x6},[x5]C={x5},[x6]C={x4,x6}.
+[LINE#268]Analogously, U/RC={[x1]C,[x2]C,,[x6]C}, where [x1]C={x1,x6},[x2]C={x2,x6},[x3]C={x2,x3,x6},[x4]C={x3,x4,x6},[x5]C={x1,x3,x5},[x6]C={x3,x4,x6}.Assume that the decision attribute d makes a partition of U into a finite number of classes.
+0.878	[*A*]the decision[*R*]attribute[*A*]d	context(C= { x1 Assume)	negated: False ,passive: False
+0.630	[*A*]C={x1[*R*]Assume[*A*]that the decision attribute d	context()	negated: False ,passive: False
+0.992	[*A*]x6},[x5]C={x1,x3,x5},[x6]C={x3,x4,x6[*R*]makes[*A*]a partition of U	context()	negated: False ,passive: False
+[LINE#269]Let D={D1,D2,,Dr} be a set of these classes that are ordered, that is, i, jr, if ij, then the objects from Di are preferred to the objects from Dj.
+0.971	[*A*]the objects from Di[*R*]are[*A*]preferred to the objects from Dj[*A*]then	context()	negated: False ,passive: True
+0.698	[*A*]these classes[*R*]are ordered	context()	negated: False ,passive: False
+[LINE#270]The sets to be approximated in DRSA are upward and downward unions of classes, which are defined respectively as Di=ijDj,Di=jiDj,1ijr.
+0.953	[*A*]The sets to be approximated in DRSA[*R*]are[*A*]downward unions of classes	context()	negated: False ,passive: True
+0.896	[*A*]classes[*R*]are defined[*A*]respectively[*A*]as Di=ijDj , Di=jiDj , 1ijr	context()	negated: False ,passive: True
+0.953	[*A*]The sets to be approximated in DRSA[*R*]are[*A*]upward unions of classes	context()	negated: False ,passive: True
+0.918	[*A*]The sets[*R*]to be approximated[*A*]in DRSA	context()	negated: False ,passive: True
+[LINE#271] The statement xDi means "x belongs to at least class Di", where xDi means "x belongs to at most class.
+0.143	[*A*]x[*R*]belongs[*A*]to	context(The statement means xDi means)	negated: False ,passive: False
+0.572	[*A*]xDi[*R*]means[*A*]x belongs to	context(The statement means)	negated: False ,passive: False
+0.363	[*A*]x[*R*]belongs[*A*]to at least class Di	context(The statement means)	negated: False ,passive: False
+0.859	[*A*]The statement[*R*]means[*A*]x belongs to at least class Di	context()	negated: False ,passive: False
+[LINE#272]Definition 4Let S=(U,C{d},V,f) be a SOIS.
+0.949	[*A*]Definition 4Let S=[*R*]be[*A*]a SOIS	context()	negated: False ,passive: True
+[LINE#273]AC,Di(1ir), the lower and upper approximations of Di with respect to the dominance relation RA({,}) are defined respectively as follows:(3)RADi=xU|[x]ADi,(4)RADi=xDi[x]A.Analogously, Di(1ir), the lower and upper approximations of Di are defined as:(5)RADi=xU|[x]ADi,(6)RADi=xDi[x]A.Example 4Continuation of Example 3(1)From Table 1, we have D={D1,D2,D3}, where D1={x3,x5},D2={x1,x4}, D3={x2,x6}.
+[LINE#274] Thus, we get the unions of classes as follows:.
+0.522	[*A*]we[*R*]get[*A*]the unions of classes as follows:.	context()	negated: False ,passive: False
+[LINE#275] D1=D1,D2=D1D2,D2=D2D3,D3=D3.From Definition 4, we have:.
+[LINE#276]RCD1={x5},RCD1={x1,x3,x5},RCD2={x1,x3,x4,x5},RCD2={x1,x3,x4,x5},RCD2={x2,x4,x6},RCD2={x1,x2,x3,x4,x6},RCD3={x2,x6},RCD3={x2,x6}.(2)Analogously, from Table 2, we have D={D1,D2,D3}, where D1={x4},D2={x1,x3,x6}, D3={x2,x5}.
+0.498	[*A*]we[*R*]have[*A*]D={D1	context()	negated: False ,passive: False
+[LINE#277] Thus, we get the unions of classes as follows:.
+0.522	[*A*]we[*R*]get[*A*]the unions of classes as follows:.	context()	negated: False ,passive: False
+[LINE#278]D1=D1,D2=D1D2,D2=D2D3,D3=D3.From Definition 4, we have: RCD1=,RCD1={x3,x4,x6},RCD2={x1,x4,x6},RCD2={x1,x2,x3,x4,x6},RCD2={x1,x2,x5},RCD2={x1,x2,x3,x4,x5,x6},RCD3=,RCD3={x2,x3,x5}.
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+[LINE#279]Static (non-incremental) and incremental algorithms for computing approximations in SOIS with the variation of the object setIn this section, we design static and incremental algorithms on the variation of the object set in SOIS corresponding to Sections 2 and 3, respectively..
+0.445	[*A*]we[*R*]design respectively[*A*]this section	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]design[*A*]incremental algorithms on the variation of the object[*A*]this section	context()	negated: False ,passive: False
+0.937	[*A*]the object[*R*]set[*A*]in SOIS	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]design[*A*]static algorithms on the variation of the object[*A*]this section	context()	negated: False ,passive: False
+[LINE#280]The static algorithm for computing approximations in SOISAlgorithm 1 is a static (non-incremental) algorithm for computing the lower and upper approximations in SOIS while the object set in the information system is changed.
+0.970	[*A*]The static algorithm for computing approximations in SOISAlgorithm 1[*R*]is[*A*]a static ( non-incremental ) algorithm for computing the upper approximations in SOIS[*A*]while the object set in the information system is changed	context()	negated: False ,passive: True
+0.816	[*A*]the object set in the information system[*R*]is changed	context()	negated: False ,passive: False
+0.925	[*A*]the object[*R*]set[*A*]in the information system	context()	negated: False ,passive: True
+0.970	[*A*]The static algorithm for computing approximations in SOISAlgorithm 1[*R*]is[*A*]a static ( non-incremental ) algorithm for computing the lower approximations in SOIS	context()	negated: False ,passive: True
+[LINE#281]In Step 2, we compute all the decision classes, and the set of decision classes are preference-ordered according to the increasing order of class indices.
+0.952	[*A*]the set of decision classes[*R*]are[*A*]preference - ordered according to the increasing order of class indices	context()	negated: False ,passive: True
+0.445	[*A*]we[*R*]compute ordered[*A*]In Step 2	context()	negated: False ,passive: False
+[LINE#282]Step 3-7 compute all the upward unions of classes based on the set of decision classes.
+0.999	[*A*]Step 3-7[*R*]compute[*A*]3 -7 compute all the upward unions	context()	negated: False ,passive: False
+0.894	[*A*]classes[*R*]based[*A*]on the set of decision classes	context()	negated: False ,passive: True
+0.903	[*A*]Step 3-7[*R*]compute[*A*]all the upward unions of classes	context()	negated: False ,passive: False
+[LINE#283]Step 9-11 compute all the A-dominating sets.
+0.903	[*A*]Step 9-11[*R*]compute[*A*]all the A-dominating sets	context()	negated: False ,passive: False
+[LINE#284]Step 12-21 compute the lower and upper approximations in SOIS based on Definition 4. .
+0.999	[*A*]Step 12-21[*R*]compute[*A*]12 -21 compute the upper approximations	context()	negated: False ,passive: False
+0.953	[*A*]the upper approximations in SOIS[*R*]based[*A*]on Definition 4	context()	negated: False ,passive: True
+0.918	[*A*]Step 12-21[*R*]compute[*A*]the upper approximations in SOIS	context()	negated: False ,passive: False
+0.953	[*A*]the lower approximations in SOIS[*R*]based[*A*]on Definition 4	context()	negated: False ,passive: True
+0.918	[*A*]Step 12-21[*R*]compute[*A*]the lower approximations in SOIS	context()	negated: False ,passive: False
+[LINE#285]The incremental algorithm for updating approximations in SOIS when deleting an object from the universeAlgorithm 2 is an incremental algorithm for updating approximations in SOIS while deleting an object from the universe.
+0.968	[*A*]The incremental algorithm for updating approximations in SOIS[*R*]is[*A*]an incremental algorithm for updating approximations in SOIS	context()	negated: False ,passive: True
+[LINE#286] Step 3-16 update the approximations of the union of classes Di, when the deleted object x belongs to the union of classes.
+0.919	[*A*]the deleted object x[*R*]belongs[*A*]to the union of classes	context()	negated: False ,passive: False
+[LINE#287]Di. Step 4-8 compute the lower approximations of Di by Proposition 1.
+0.949	[*A*]Di. Step 4-8[*R*]compute[*A*]the lower approximations of Di	context()	negated: False ,passive: False
+[LINE#288]Step 9-16 compute the upper approximations of Di by Proposition 2.
+0.999	[*A*]Step 9-16[*R*]compute[*A*]9 -16 compute the upper approximations	context()	negated: False ,passive: False
+0.918	[*A*]Step 9-16[*R*]compute[*A*]the upper approximations of Di	context()	negated: False ,passive: False
+[LINE#289] Step 18-34 update the approximations of the union of classes Di, when the deleted object x does not belong to the union of classes.
+0.919	[*A*]the deleted object x[*R*]does not belong[*A*]to the union of classes	context()	negated: True ,passive: False
+[LINE#290]Di. Step 19-27 compute the lower approximations of Di by Proposition 3.
+0.949	[*A*]Di. Step 19-27[*R*]compute[*A*]the lower approximations of Di	context()	negated: False ,passive: False
+[LINE#291]Step 28-33 compute the upper approximations of Di by Proposition 4. .
+0.999	[*A*]Step 28-33[*R*]compute[*A*]28 -33 compute the upper approximations	context()	negated: False ,passive: False
+0.918	[*A*]Step 28-33[*R*]compute[*A*]the upper approximations of Di	context()	negated: False ,passive: False
+[LINE#292]The incremental algorithm for updating approximations in SOIS when inserting an object into the universeAlgorithm 3 is an incremental algorithm for updating approximations in SOIS while inserting an object into the universe.
+0.968	[*A*]The incremental algorithm for updating approximations in SOIS[*R*]is[*A*]an incremental algorithm for updating approximations in SOIS	context()	negated: False ,passive: True
+[LINE#293] Step 2 compute the A-dominating set with respect to the inserted object x. Step 3-25 update the approximations of the union of classes Di, when the inserted object x will belong to the union of classes.
+0.919	[*A*]the inserted object x[*R*]will belong[*A*]to the union of classes	context()	negated: False ,passive: False
+0.784	[*A*]the A-dominating[*R*]set	context()	negated: False ,passive: False
+0.947	[*A*]Step 2[*R*]compute[*A*]the A-dominating set with respect to the inserted object x. Step 3-25 update the approximations of the union of classes Di,	context()	negated: False ,passive: False
+[LINE#294]Di. Step 5-10 compute the lower approximations of Di by Proposition 5.
+0.949	[*A*]Di. Step 5-10[*R*]compute[*A*]the lower approximations of Di	context()	negated: False ,passive: False
+[LINE#295]Step 11 compute the upper approximation of Di by Proposition 6.
+0.918	[*A*]Step 11[*R*]compute[*A*]the upper approximation of Di by Proposition 6	context()	negated: False ,passive: False
+[LINE#296] Step 13-24 update the approximations of the union of classes Di, when the inserted object x will not belong to the union of classes.
+0.919	[*A*]the inserted object x[*R*]will not belong[*A*]to the union of classes	context()	negated: True ,passive: False
+[LINE#297]Di. Step 13-18 compute the lower approximations of Di by Proposition 7.
+0.949	[*A*]Di. Step 13-18[*R*]compute[*A*]the lower approximations of Di	context()	negated: False ,passive: False
+[LINE#298]Step 19-24 update the approximations of Di by Proposition 8.
+[LINE#299]Step 26-35 compute the approximation of the union of new decision class Dnew, if the inserted object does not belong to any existed decision classes.
+0.911	[*A*]the inserted object[*R*]does not belong[*A*]to any existed decision classes	context()	negated: True ,passive: False
+0.937	[*A*]Step 26-35[*R*]compute[*A*]the approximation of the union of new decision class Dnew	context()	negated: False ,passive: False
+[LINE#300]Step 29-33 compute the lower approximation of Dnew by Proposition 9.
+0.918	[*A*]Step 29-33[*R*]compute[*A*]the lower approximation of Dnew by Proposition 9	context()	negated: False ,passive: False
+[LINE#301]Step 34 compute the upper approximation of Dnew by Proposition 10.
+0.918	[*A*]Step 34[*R*]compute[*A*]the upper approximation of Dnew by Proposition 10	context()	negated: False ,passive: False

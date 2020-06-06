@@ -1,0 +1,666 @@
+[LINE#1]Although magnetoencephalography (MEG) studies show superior temporal gyrus (STG) auditory processing abnormalities in schizophrenia at 50 and 100ms, EEG and corticography studies suggest involvement of additional brain areas (e.g., frontal areas) during this interval.
+0.957	[*A*]magnetoencephalography ( MEG ) studies[*R*]show[*A*]superior temporal gyrus	context()	negated: False ,passive: False
+[LINE#2]Study goals were to identify 30 to 130ms auditory encoding processes in schizophrenia (SZ) and healthy controls (HC) and group differences throughout the cortex.
+0.947	[*A*]Study goals[*R*]were[*A*]to identify 30 to 130 ms auditory encoding processes in schizophrenia ( SZ ) and group differences throughout the cortex	context()	negated: False ,passive: True
+0.947	[*A*]Study goals[*R*]were[*A*]to identify 30 to 130 ms auditory encoding processes in schizophrenia ( SZ ) and healthy controls	context()	negated: False ,passive: True
+[LINE#3]MethodsThe standard paired-click task was administered to 19 SZ and 21 HC subjects during MEG recording.
+[LINE#4]Vector-based Spatial-temporal Analysis using L1-minimum-norm (VESTAL) provided 4D maps of activity from 30 to 130ms.
+0.949	[*A*]Vector-based Spatial-temporal Analysis[*R*]provided 4D maps of activity using[*A*]L1-minimum-norm	context(Vector - based Spatial - temporal Analysis provided)	negated: False ,passive: False
+0.941	[*A*]Vector-based Spatial-temporal Analysis[*R*]provided[*A*]4D maps of activity[*A*]from 30 to 130ms	context()	negated: False ,passive: False
+[LINE#5]Within-group t-tests compared post-stimulus 50ms and 100ms activity to baseline.
+0.919	[*A*]Within-group t - tests[*R*]compared[*A*]post-stimulus 50 100 ms activity to baseline	context()	negated: False ,passive: True
+0.991	[*A*]within - group t - tests[*R*]compared[*A*]post-stimulus 50 ms	context()	negated: False ,passive: False
+0.999	[*A*]Within-group t tests[*R*]compared[*A*]50 ms	context()	negated: False ,passive: False
+0.919	[*A*]Within-group t - tests[*R*]compared[*A*]post-stimulus 50 ms	context()	negated: False ,passive: False
+[LINE#6]Between-group t-tests examined 50 and 100ms group differences.
+0.999	[*A*]Between group t tests[*R*]examined[*A*]50 and 100ms group differences	context()	negated: False ,passive: False
+0.932	[*A*]Between-group t-tests[*R*]examined[*A*]50 and 100ms group differences	context()	negated: False ,passive: False
+[LINE#7]ResultsBilateral 50 and 100ms STG activity was observed in both groups.
+0.944	[*A*]ResultsBilateral 100 ms STG activity[*R*]was observed[*A*]in both groups	context()	negated: False ,passive: True
+0.944	[*A*]ResultsBilateral 50 ms STG activity[*R*]was observed[*A*]in both groups	context()	negated: False ,passive: True
+[LINE#8]HC had stronger bilateral 50 and 100ms STG activity than SZ.
+0.904	[*A*]HC[*R*]had[*A*]stronger bilateral 100 ms STG activity than SZ	context()	negated: False ,passive: False
+0.904	[*A*]HC[*R*]had[*A*]stronger bilateral 50 ms STG activity than SZ	context()	negated: False ,passive: False
+[LINE#9]In addition to the STG group difference, non-STG activity was also observed in both groups.
+0.859	[*A*]non-STG activity[*R*]was observed[*A*]in both groups	context()	negated: False ,passive: True
+[LINE#10]For example, whereas HC had stronger left and right inferior frontal gyrus activity than SZ, SZ had stronger right superior frontal gyrus and left supramarginal gyrus activity than HC.ConclusionsLess STG activity was observed in SZ than HC, indicating encoding problems in SZ.
+0.857	[*A*]SZ[*R*]was observed[*A*]in SZ[*A*]indicating encoding problems in SZ	context()	negated: False ,passive: True
+0.887	[*A*]SZ[*R*]had[*A*]stronger right superior frontal gyrus	context()	negated: False ,passive: False
+0.697	[*A*]HC[*R*]had	context()	negated: False ,passive: False
+0.896	[*A*]HC.ConclusionsLess STG activity[*R*]was observed[*A*]in SZ	context()	negated: False ,passive: True
+[LINE#11]Yet auditory encoding abnormalities are not specific to STG, as group differences were observed in frontal and SMG areas.
+0.918	[*A*]group differences[*R*]were observed[*A*]in SMG areas	context()	negated: False ,passive: True
+0.925	[*A*]auditory encoding abnormalities[*R*]are not[*A*]specific to STG[*A*]as group differences were observed in SMG areas	context()	negated: True ,passive: True
+0.903	[*A*]group differences[*R*]were observed[*A*]in frontal areas	context()	negated: False ,passive: True
+0.925	[*A*]auditory encoding abnormalities[*R*]are not[*A*]specific to STG[*A*]as group differences were observed in frontal areas	context()	negated: True ,passive: True
+[LINE#12]Thus, present findings indicate that individuals with SZ show abnormalities in multiple nodes of a concurrently activated auditory network.
+0.934	[*A*]individuals with SZ[*R*]show[*A*]abnormalities	context(present findings indicate)	negated: False ,passive: False
+0.835	[*A*]present findings[*R*]indicate[*A*]that individuals with SZ show abnormalities in multiple nodes of a concurrently activated auditory network	context()	negated: False ,passive: False
+[LINE#13]The present study shows that STG and non-STG areas (e.g., frontal regions) are involved in early auditory encoding.
+0.863	[*A*]non-STG areas[*R*]are involved[*A*]in early auditory encoding	context(The present study shows)	negated: False ,passive: True
+0.865	[*A*]The present study[*R*]shows[*A*]that non-STG areas ( e.g. , frontal regions ) are involved in early auditory encoding	context()	negated: False ,passive: False
+0.825	[*A*]STG[*R*]are involved[*A*]in early auditory encoding	context(The present study shows)	negated: False ,passive: True
+0.827	[*A*]The present study[*R*]shows[*A*]that STG are involved in early auditory encoding	context()	negated: False ,passive: False
+[LINE#14]Replicating findings from our prior study that used single dipole source localization to examine STG activity (Smith et al., 2010) and now examining a new sample using a different MEG system and applying distributed source localization methods, reduced S1 STG activity was observed in SZ, again supporting impaired encoding of auditory information.
+0.818	[*A*]a different MEG system[*R*]distributed	context()	negated: False ,passive: False
+0.949	[*A*]reduced S1 STG activity[*R*]was observed[*A*]in SZ[*A*]again supporting impaired encoding of auditory information	context()	negated: False ,passive: True
+0.664	[*A*]our prior study[*R*]used[*A*]single dipole source localization[*A*]to examine STG activity	context()	negated: False ,passive: False
+[LINE#15] we observed left 50ms and bilateral 100ms, group differences were observed bilaterally at both 50 and 100ms in this new sample.
+0.882	[*A*]group differences[*R*]were observed bilaterally[*A*]at 100 ms in this new sample	context(we observed)	negated: False ,passive: True
+0.514	[*A*]we[*R*]observed[*A*]left bilateral 100 ms , group differences were observed bilaterally at 100 ms in this new sample	context()	negated: False ,passive: False
+0.882	[*A*]group differences[*R*]were observed bilaterally[*A*]at both 50 ms in this new sample	context(we observed)	negated: False ,passive: True
+0.397	[*A*]we[*R*]observed left[*A*]bilateral 100 ms	context(we observed)	negated: False ,passive: False
+0.514	[*A*]we[*R*]observed[*A*]left bilateral 100 ms , group differences were observed bilaterally at both 50 ms in this new sample	context()	negated: False ,passive: False
+0.993	[*A*]group differences[*R*]were observed at[*A*]100 ms	context()	negated: False ,passive: False
+0.878	[*A*]group differences[*R*]were observed bilaterally[*A*]at 100 ms in this new sample	context()	negated: False ,passive: True
+0.993	[*A*]group differences[*R*]were observed at[*A*]50 ms	context()	negated: False ,passive: False
+0.388	[*A*]we[*R*]observed left[*A*]50 ms	context(we observed group differences were observed bilaterally)	negated: False ,passive: False
+0.388	[*A*]we[*R*]observed[*A*]left 50 ms	context(group differences were observed bilaterally)	negated: False ,passive: False
+0.878	[*A*]group differences[*R*]were observed bilaterally[*A*]at both 50 ms in this new sample	context()	negated: False ,passive: True
+[LINE#16]Present STG findings are consistent with theories postulating basic sensory processing abnormalities as central to schizophrenia (for a review, see Javitt, 2009).
+0.894	[*A*]theories[*R*]postulating[*A*]basic sensory processing abnormalities	context()	negated: False ,passive: False
+[LINE#17]As also detailed in Javitt (2009), other studies indicate a downstream consequence of early auditory abnormalities, such that basic auditory abnormalities in schizophrenia are associated with impaired performance on tests of attention (Smith et al., 2010) and tests of prosody (Leitman et al., 2005, 2006).
+0.939	[*A*]basic auditory abnormalities in schizophrenia[*R*]are associated[*A*]with impaired performance on tests of attention tests of prosody	context(other studies indicate)	negated: False ,passive: True
+0.905	[*A*]basic auditory abnormalities in schizophrenia[*R*]are associated[*A*]with impaired performance on tests of attention	context(other studies indicate)	negated: False ,passive: True
+0.878	[*A*]other studies[*R*]indicate[*A*]a downstream consequence of early auditory abnormalities	context()	negated: False ,passive: False
+[LINE#18]Finally, studies observing that 100ms responses are associated with decreased STG gray matter (Edgar et al., 2012), as well as N-methyl-d-asparate (NMDA) dysfunction (Javitt et al., 2000), suggest a biological mechanism for encoding abnormalities in schizophrenia.
+0.986	[*A*]studies observing that 100 ms responses are associated with decreased STG gray matter ( N - methyl - d - asparate ( NMDA ) dysfunction[*R*]suggest[*A*]a biological mechanism for encoding abnormalities in schizophrenia[*A*]Finally	context()	negated: False ,passive: False
+0.977	[*A*]studies observing that 100 ms responses are associated with decreased STG gray matter[*R*]suggest[*A*]a biological mechanism for encoding abnormalities in schizophrenia[*A*]Finally	context()	negated: False ,passive: False
+0.925	[*A*]100 ms responses[*R*]are associated[*A*]with decreased STG gray matter	context()	negated: False ,passive: True
+[LINE#19] As noted in the Introduction, Naatanen and Picton(1987) argued that the electric N1 reflects contributions from frontal sources as well as from primary auditory cortex.
+0.888	[*A*]the electric N1[*R*]reflects[*A*]contributions from primary auditory cortex	context(Picton ( 1987 argued)	negated: False ,passive: True
+0.841	[*A*]Picton ( 1987[*R*]argued[*A*]that the electric N1 reflects contributions from primary auditory cortex	context()	negated: False ,passive: False
+0.888	[*A*]the electric N1[*R*]reflects[*A*]contributions from frontal sources	context(Picton ( 1987 argued)	negated: False ,passive: True
+0.768	[*A*]Picton ( 1987[*R*]argued[*A*]that the electric N1 reflects contributions from frontal sources	context()	negated: False ,passive: False
+0.888	[*A*]the electric N1[*R*]reflects[*A*]contributions from primary auditory cortex	context(Naatanen argued)	negated: False ,passive: True
+0.838	[*A*]Naatanen[*R*]argued[*A*]that the electric N1 reflects contributions from primary auditory cortex	context()	negated: False ,passive: False
+0.888	[*A*]the electric N1[*R*]reflects[*A*]contributions from frontal sources	context(Naatanen argued)	negated: False ,passive: True
+0.763	[*A*]Naatanen[*R*]argued[*A*]that the electric N1 reflects contributions from frontal sources	context()	negated: False ,passive: False
+[LINE#20] Present results provide confirmation of these findings, with frontal activity observed in both groups.
+0.903	[*A*]frontal activity[*R*]observed[*A*]in both groups	context()	negated: False ,passive: True
+0.903	[*A*]Present results[*R*]provide[*A*]confirmation of these findings[*A*]with frontal activity	context()	negated: False ,passive: False
+[LINE#21]Findings are also consistent with imaging studies that have observed frontal activity during auditory tasks.22Although many paired-click studies have examined the association between frontal activity and gating measures (e.g., second click divided by first click), studies examining associations between paired-click ratio scores and frontal activity but not also associations between first click activity and frontal activity are not discussed as findings between ratio scores and frontal activity are outside the scope of this study (e.g., EEG studies such as Williams et al.
+0.976	[*A*]studies examining associations between paired - click ratio scores and frontal activity but not also associations between frontal activity[*R*]are[*A*]outside the scope of this study	context()	negated: False ,passive: True
+0.821	[*A*]Findings[*R*]are[*A*]also[*A*]consistent with imaging studies that have observed frontal activity during auditory tasks.22Although many paired - click studies have examined the association between frontal activity and gating measures ( e.g. , second click divided by first click ) , studies examining associations between paired - click ratio scores and frontal activity but not also associations between frontal activity are not discussed as findings between ratio scores and frontal activity are outside the scope of this study ( e.g. , EEG studies such as Williams et al	context(studies examining associations between paired - click ratio scores and frontal activity but not also associations between frontal activity are not discussed)	negated: False ,passive: True
+0.985	[*A*]studies examining associations between paired - click ratio scores and frontal activity but not also associations between frontal activity[*R*]are not discussed[*A*]as findings between ratio scores and frontal activity[*A*]e.g.	context()	negated: True ,passive: True
+0.931	[*A*]studies[*R*]examining[*A*]associations between paired - click ratio scores and frontal activity but not also associations between frontal activity	context()	negated: False ,passive: False
+0.903	[*A*]second click[*R*]divided[*A*]by first click	context()	negated: False ,passive: True
+0.978	[*A*]studies examining associations between paired - click ratio scores and frontal activity but not also associations between first click activity[*R*]are[*A*]outside the scope of this study	context()	negated: False ,passive: True
+0.926	[*A*]many paired - click studies[*R*]have examined[*A*]the association between frontal activity and gating measures	context()	negated: False ,passive: False
+0.821	[*A*]Findings[*R*]are[*A*]also[*A*]consistent with imaging studies that have observed frontal activity during auditory tasks.22Although many paired - click studies have examined the association between frontal activity and gating measures ( e.g. , second click divided by first click ) , studies examining associations between paired - click ratio scores and frontal activity but not also associations between first click activity are not discussed as findings between ratio scores and frontal activity are outside the scope of this study ( e.g. , EEG studies such as Williams et al	context(studies examining associations between paired - click ratio scores and frontal activity but not also associations between first click activity are not discussed)	negated: False ,passive: True
+0.986	[*A*]studies examining associations between paired - click ratio scores and frontal activity but not also associations between first click activity[*R*]are not discussed[*A*]as findings between ratio scores and frontal activity[*A*]e.g.	context()	negated: True ,passive: True
+0.902	[*A*]imaging studies[*R*]have observed e.g.[*A*]during auditory tasks.22Although	context()	negated: False ,passive: False
+0.931	[*A*]studies[*R*]examining[*A*]associations between paired - click ratio scores and frontal activity but not also associations between first click activity	context()	negated: False ,passive: False
+[LINE#22]studies such as Tregellas et al.
+[LINE#23]For example, examining auditory responses in patients with epilepsy using intracranial microelectrode grids, Korzyukov et al.
+0.894	[*A*]epilepsy[*R*]using[*A*]intracranial microelectrode grids	context()	negated: False ,passive: False
+[LINE#24] (2007) detected 50ms temporal and frontal auditory activity, findings consistent with earlier corticography studies suggesting frontal contributions to P50(2011) also detected 100ms temporal and frontal auditory activity using subdural electrodes.
+0.899	[*A*]findings consistent with earlier corticography studies[*R*]detected frontal auditory activity using[*A*]subdural electrodes	context(findings consistent with earlier corticography studies detected)	negated: False ,passive: False
+0.899	[*A*]findings consistent with earlier corticography studies[*R*]detected 100 ms temporal auditory activity using[*A*]subdural electrodes	context(findings consistent with earlier corticography studies detected)	negated: False ,passive: False
+0.899	[*A*]findings consistent with earlier corticography studies[*R*]detected frontal auditory activity using[*A*]subdural electrodes	context(findings consistent with earlier corticography studies detected)	negated: False ,passive: False
+0.899	[*A*]findings consistent with earlier corticography studies[*R*]detected[*A*]frontal auditory activity	context()	negated: False ,passive: False
+0.899	[*A*]findings consistent with earlier corticography studies[*R*]detected 100 ms temporal auditory activity using[*A*]subdural electrodes	context(findings consistent with earlier corticography studies detected)	negated: False ,passive: False
+0.899	[*A*]findings consistent with earlier corticography studies[*R*]detected[*A*]100 ms temporal auditory activity	context()	negated: False ,passive: False
+0.911	[*A*]earlier corticography studies[*R*]suggesting[*A*]frontal contributions to P50	context()	negated: False ,passive: False
+[LINE#25]Similar to present findings in controls, Boutros et al.
+[LINE#26] observed activity in the posterior part of STG and in left ventral prefrontal cortex (more exact comparisons between the two studies in terms of frontal activity are difficult, as many subjects in Boutrosdid not have electrodes placed in anterior frontal regions).
+[LINE#27](2011) also observed 100ms auditory activity in middle temporal gyrus, parietal, cingulate, and occipital regions.
+[LINE#28]Activity observed in similar but not identical locations in these other areas in the present study may be due to the significant latency variability Boutros et al.
+0.926	[*A*]Activity[*R*]observed[*A*]in not identical locations[*A*]in these other areas in the present study[*A*]may be due to the significant latency variability Boutros et al	context()	negated: False ,passive: False
+0.926	[*A*]Activity[*R*]observed[*A*]in similar locations[*A*]in these other areas in the present study[*A*]may be due to the significant latency variability Boutros et al	context()	negated: False ,passive: False
+[LINE#29](2011) observed in several regions.
+[LINE#30]Variability across subjects in the location of activation may also account for study differences.
+0.916	[*A*]Variability across subjects in the location of activation[*R*]may account[*A*]for study differences	context()	negated: False ,passive: False
+[LINE#31]In the present study, two abnormalities in frontal activity were observed in SZ.
+0.964	[*A*]two abnormalities in frontal activity[*R*]were observed[*A*]in SZ[*A*]In the present study	context()	negated: False ,passive: True
+[LINE#32]First, stronger right 50 and 100ms IFG activity was observed in HC than SZ.
+0.971	[*A*]100 ms IFG activity[*R*]was observed[*A*]in HC than SZ[*A*]First	context()	negated: False ,passive: True
+0.976	[*A*]stronger right 50 ms IFG activity[*R*]was observed[*A*]in HC than SZ[*A*]First	context()	negated: False ,passive: True
+[LINE#33]Second, stronger right SFG 50 and 100ms activity was observed in SZ than HC (Figs. 3 and 4).
+0.992	[*A*]100 ms activity[*R*]was observed in[*A*]SZ	context()	negated: False ,passive: False
+0.957	[*A*]stronger right SFG 100 ms activity[*R*]was observed[*A*]in SZ[*A*]than HC ( Figs . 3 and 4	context()	negated: False ,passive: True
+0.992	[*A*]50 ms activity[*R*]was observed in[*A*]SZ	context()	negated: False ,passive: False
+0.957	[*A*]stronger right SFG 50 ms activity[*R*]was observed[*A*]in SZ[*A*]than HC ( Figs . 3 and 4	context()	negated: False ,passive: True
+[LINE#34]This pattern of decreased inferior frontal activity but increased superior frontal activity in SZ suggests abnormal activation of fronto-temporal auditory networks in SZ.
+0.980	[*A*]This pattern of increased superior frontal activity in SZ[*R*]suggests[*A*]abnormal activation of fronto - temporal auditory networks in SZ	context()	negated: False ,passive: False
+0.967	[*A*]This pattern of decreased inferior frontal activity[*R*]suggests[*A*]abnormal activation of fronto - temporal auditory networks in SZ	context()	negated: False ,passive: False
+[LINE#35] Recent studies have shown functionally distinct auditory pathways in humans in particular distinct 'where' auditory system pathways analogous to the 'what/where' visual system pathways.
+0.732	[*A*]auditory system[*R*]pathways analogous	context()	negated: False ,passive: False
+[LINE#36](1999), combining microelectrode recordings with neural tracers infused in auditory cortex of rhesus monkeys, found paths from posterior and anterior auditory cortex that differentially targeted non-spatial (ventral) and spatial (dorsal) frontal areas.
+0.878	[*A*]anterior auditory cortex[*R*]differentially targeted[*A*]frontal areas	context()	negated: False ,passive: False
+0.897	[*A*]anterior auditory cortex[*R*]differentially targeted[*A*]non-spatial ( ventral ) frontal areas	context()	negated: False ,passive: False
+0.503	[*A*]1999[*R*]found[*A*]paths from anterior auditory cortex	context()	negated: False ,passive: False
+0.878	[*A*]posterior auditory cortex[*R*]differentially targeted[*A*]frontal areas	context()	negated: False ,passive: False
+0.897	[*A*]posterior auditory cortex[*R*]differentially targeted[*A*]non-spatial ( ventral ) frontal areas	context()	negated: False ,passive: False
+0.503	[*A*]1999[*R*]found[*A*]paths from posterior auditory cortex	context()	negated: False ,passive: False
+0.903	[*A*]neural tracers[*R*]infused[*A*]in auditory cortex of rhesus monkeys	context()	negated: False ,passive: True
+[LINE#37] (1999) hypothesized these to be analogous to the 'what'.
+0.296	[*A*]these[*R*]to be[*A*]analogous to	context()	negated: False ,passive: True
+[LINE#38]These non-human primate findings are consistent with language processing models, with a ventral stream mapping acoustic speech to conceptual and semantic representations and a dorsal stream mapping phonological information within the frontal articulatory system (Hickok and Poeppel, 2007; McClelland and Rogers, 2003).Present results suggest that HC activate the ventral 'what' auditory pathway more strongly than SZ.
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.919	[*A*]These non-human primate findings[*R*]are[*A*]consistent with language processing models	context()	negated: False ,passive: True
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.900	[*A*]These non-human primate findings[*R*]are[*A*]consistent with language processing models	context(Present results suggest)	negated: False ,passive: True
+0.898	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.897	[*A*]These non-human primate findings[*R*]are[*A*]consistent with language processing models	context(Present results suggest)	negated: False ,passive: True
+0.901	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.900	[*A*]These non-human primate findings[*R*]are[*A*]consistent with language processing models	context(Present results suggest)	negated: False ,passive: True
+0.898	[*A*]HC[*R*]activate[*A*]the ventral ' what ' auditory pathway more strongly than SZ	context(Present results suggest)	negated: False ,passive: False
+0.897	[*A*]These non-human primate findings[*R*]are[*A*]consistent with language processing models	context(Present results suggest)	negated: False ,passive: True
+0.835	[*A*]Present results[*R*]suggest[*A*]that HC activate the ventral ' what ' auditory pathway more strongly than SZ	context()	negated: False ,passive: False
+0.713	[*A*]auditory[*R*]pathway more strongly	context()	negated: False ,passive: False
+[LINE#39]Ventral PFC (orbitofrontal cortex) recordings indicate that cells in this region are responsive to the features of complex sounds (Romanski, 2004).
+0.900	[*A*]cells in this region[*R*]are[*A*]responsive to the features of complex sounds	context(Ventral PFC ( orbitofrontal cortex ) recordings indicate)	negated: False ,passive: True
+0.906	[*A*]Ventral PFC (orbitofrontal cortex) recordings[*R*]indicate[*A*]that cells in this region are responsive to the features of complex sounds	context()	negated: False ,passive: False
+[LINE#40]In addition, combining fMRI and DTI to identify anatomical pathways associated with language, Saur et al.
+0.918	[*A*]anatomical pathways[*R*]associated[*A*]with language , Saur et al	context()	negated: False ,passive: True
+[LINE#41](2008) found that linguistic processing of sound to meaning requires interaction between temporal lobe and ventrolateral PFC via the ventral route, whereas the dorsal route is involved primarily in the sensory-motor mapping of sound to articulation.
+0.955	[*A*]linguistic processing of sound to meaning[*R*]requires[*A*]interaction between temporal lobe and ventrolateral PFC via the ventral route	context(2008 found)	negated: False ,passive: False
+0.363	[*A*]2008[*R*]found[*A*]that linguistic processing of sound to meaning requires interaction between temporal lobe and ventrolateral PFC via the ventral route	context()	negated: False ,passive: False
+0.943	[*A*]the dorsal route[*R*]is involved[*A*]primarily in the sensory-motor mapping of sound to articulation	context()	negated: False ,passive: True
+[LINE#42]These findings are consistent with a role for ventrolateral PFC auditory neurons in analyzing the features of auditory objects.
+0.947	[*A*]These findings[*R*]are[*A*]consistent with a role for ventrolateral PFC auditory neurons in analyzing the features of auditory objects	context()	negated: False ,passive: True
+[LINE#43]Although the paired-click task is passive, an explanation of the present findings is that the 'what' stream (i.e., the auditory STG to IFG pathway) is activated in HC even when passively encoding auditory stimuli, with decreased activation of this pathway in SZ consistent with a deficit in encoding auditory stimuli (resulting in decreased STG auditory response), with such encoding deficits possibly leading to impairments in higher-order cognitive processes (Smith et al., 2010).
+0.907	[*A*]the 'what' stream[*R*]is activated[*A*]in HC	context(an explanation of the present findings is)	negated: False ,passive: True
+0.908	[*A*]an explanation of the present findings[*R*]is[*A*]that the 'what' stream (i.e., the auditory STG to IFG pathway) is activated in HC	context()	negated: False ,passive: True
+0.955	[*A*]auditory stimuli (resulting in decreased STG auditory response[*R*]leading[*A*]to impairments in higher-order cognitive processes	context()	negated: False ,passive: False
+0.853	[*A*]the paired-click task[*R*]is[*A*]passive	context()	negated: False ,passive: True
+[LINE#44] In contrast, given abnormal activation in individuals with SZ in right medial SFG areas, individuals with SZ may abnormally activate the dorsal 'where' pathway (or perhaps language pathways involved in mapping phonological information with the frontal articulatory system).Decreased STG and PFC gray matter in SZ(Gur et al., 2000; Mitelman and Buchsbaum, 2007; Olabi et al., 2011; Shenton et al., 2001; Thoma et al., 2004) may account for the decreased STG and PFC activity observed in the present SZ sample.
+0.949	[*A*]the decreased PFC activity[*R*]observed[*A*]in the present SZ sample	context()	negated: False ,passive: True
+0.949	[*A*]the decreased STG activity[*R*]observed[*A*]in the present SZ sample	context()	negated: False ,passive: True
+[LINE#45]Gray-matter reductions in SZ are thought to be due to elimination of the neuropil between neuron bodies (the reduced neuropil hypothesis) (Selemon and Goldman-Rakic, 1999).
+0.940	[*A*]Gray-matter reductions in SZ[*R*]to be[*A*]due to elimination of the neuropil between neuron bodies	context()	negated: False ,passive: True
+0.845	[*A*]Gray-matter reductions in SZ[*R*]are thought	context()	negated: False ,passive: False
+[LINE#46] (2003) found that, within auditory cortex, mean somal volumes of deep layer 3 pyramidal cells in BA 41 and 42 were reduced in SZ, and(2007) observed reduced axon terminal densities in feed-forward auditory pathways.
+0.972	[*A*]somal volumes of deep layer 3 pyramidal cells in BA 41 and 42[*R*]were reduced[*A*]in SZ	context(2003 found)	negated: False ,passive: True
+0.363	[*A*]2003[*R*]found[*A*]that, within auditory cortex, mean somal volumes of deep layer 3 pyramidal cells in BA 41 and 42 were reduced in SZ, and(2007) observed reduced axon terminal densities in feed-forward auditory pathways	context()	negated: False ,passive: False
+[LINE#47]A combined MEG and proton magnetic resonance spectroscopy study showed that the number and integrity of neurons (assessed via auditory cortex N-acetylaspartate) and the density and functional integrity of cell membranes (assessed via auditory cortex choline-containing compounds) are associated with M100 source strength (Soros et al., 2006).
+[LINE#48]Such abnormalities, perhaps leading to an abnormal spread of activity within cortical auditory areas after auditory stimulation, may explain the reduced STG and PFC activity observed in SZ.In addition to STG and frontal group differences, the present study found group differences in left SMG (Figs. 3 and 4).
+0.941	[*A*]the present study[*R*]found[*A*]group differences in left SMG (Figs. 3 and 4	context(the reduced STG and PFC activity observed)	negated: False ,passive: False
+0.902	[*A*]the reduced STG and PFC activity[*R*]observed[*A*]in SZ.In addition to STG and frontal group differences	context()	negated: False ,passive: False
+0.907	[*A*]Such abnormalities[*R*]leading[*A*]to an abnormal spread of activity within cortical auditory areas	context(Such abnormalities , perhaps leading to an abnormal spread of activity within cortical auditory areas may explain)	negated: False ,passive: False
+0.979	[*A*]Such abnormalities, perhaps leading to an abnormal spread of activity within cortical auditory areas[*R*]may explain[*A*]the reduced STG and PFC activity[*A*]after auditory stimulation	context()	negated: False ,passive: False
+[LINE#49]SMG is located at the temporoparietal junction and links posterior auditory cortex with parietal regions via an auditory dorsal pathway (Hickok and Poeppel, 2000), a finding that again provides evidence that individuals with SZ abnormally engage fronto-temporal auditory dorsal pathways when processing auditory information.
+0.855	[*A*]SMG[*R*]is located[*A*]at the links	context()	negated: False ,passive: True
+0.933	[*A*]individuals with SZ[*R*]abnormally engage[*A*]fronto - temporal auditory dorsal pathways	context()	negated: False ,passive: False
+0.908	[*A*]a finding[*R*]provides[*A*]evidence that individuals with SZ abnormally engage fronto - temporal auditory dorsal pathways[*A*]when processing auditory information[*A*]again	context()	negated: False ,passive: False
+0.904	[*A*]SMG[*R*]is located[*A*]at the temporoparietal junction posterior auditory cortex with parietal regions	context()	negated: False ,passive: True
+[LINE#50]Previous studies have shown that enhanced SMG activity is associated with auditory hallucinations.
+0.918	[*A*]enhanced SMG activity[*R*]is associated[*A*]with auditory hallucinations	context(Previous studies have shown)	negated: False ,passive: True
+0.766	[*A*]Previous studies[*R*]have shown[*A*]that enhanced SMG activity is associated with auditory hallucinations	context()	negated: False ,passive: False
+[LINE#51](2011) found that healthy controls who experienced auditory hallucinations showed greater left SMG activity than controls not experiencing auditory hallucinations.
+0.604	[*A*]greater[*R*]left[*A*]SMG activity than controls	context(2011 found healthy controls who experienced auditory hallucinations showed)	negated: False ,passive: False
+0.863	[*A*]healthy controls[*R*]experienced[*A*]auditory hallucinations	context(2011 found healthy controls who experienced auditory hallucinations showed)	negated: False ,passive: False
+0.930	[*A*]healthy controls who experienced auditory hallucinations[*R*]showed[*A*]greater left SMG activity than controls	context(2011 found)	negated: False ,passive: False
+0.363	[*A*]2011[*R*]found[*A*]that healthy controls who experienced auditory hallucinations showed greater left SMG activity than controls	context()	negated: False ,passive: False
+0.894	[*A*]controls[*R*]not experiencing[*A*]auditory hallucinations	context()	negated: True ,passive: False
+[LINE#52] SMG activity has been observed during auditory hallucinations in SZ (Diederen et al., 2012; Sommer et al., 2008), with the severity of auditory hallucinations in SZ associated with volume loss in left SMG as well as in left Heschl's gyrus and right IFG.
+[LINE#53]In the present study, post hoc analyses showed no associations between SMG activity and PANSS measures of auditory hallucinations.
+0.972	[*A*]post hoc analyses[*R*]showed[*A*]no associations between SMG activity and PANSS measures of auditory hallucinations[*A*]In the present study	context()	negated: False ,passive: False
+[LINE#54]As the individuals with SZ recruited for this study were stable and mostly likely not hallucinating at the time of the MEG scan, this may explain the failure to observe SMG and PANSS associations.
+0.939	[*A*]the individuals with SZ[*R*]recruited[*A*]for this study	context()	negated: False ,passive: False
+[LINE#55]Finally, and unexpectedly, posterior SFG/SMA activity was observed in both groups.
+0.939	[*A*]posterior SFG/SMA activity[*R*]was observed[*A*]in both groups[*A*]Finally[*A*]unexpectedly	context()	negated: False ,passive: True
+[LINE#56] A review of the literature indicates, however, that SMA areas are part of the auditory-motor integration network, important for speech production (.
+0.940	[*A*]SMA areas[*R*]are[*A*]part of the auditory-motor integration network, important for speech production	context(A review of the literature indicates)	negated: False ,passive: True
+0.849	[*A*]A review of the literature[*R*]indicates[*A*]however[*A*]that SMA areas are part of the auditory-motor integration network, important for speech production	context()	negated: False ,passive: False
+[LINE#57]Although previous studies suggest involvement of SMA during auditory tasks, replication of this finding is needed.
+0.769	[*A*]replication of this finding[*R*]is needed	context()	negated: False ,passive: False
+0.918	[*A*]previous studies[*R*]suggest[*A*]involvement of SMA[*A*]during auditory tasks	context()	negated: False ,passive: False
+[LINE#58]A limitation of the present study is that most subjects were chronic patients and all patients were on medication.
+0.882	[*A*]all patients[*R*]were[*A*]on medication	context(A limitation of the present study is)	negated: False ,passive: True
+0.842	[*A*]A limitation of the present study[*R*]is[*A*]that all patients were on medication	context()	negated: False ,passive: True
+0.882	[*A*]most subjects[*R*]were[*A*]chronic patients	context(A limitation of the present study is)	negated: False ,passive: True
+0.842	[*A*]A limitation of the present study[*R*]is[*A*]that most subjects were chronic patients	context()	negated: False ,passive: True
+[LINE#59]As such, it is not possible to determine whether the observed abnormalities are observed only in chronic patients or whether group differences were due to medication.
+0.903	[*A*]group differences[*R*]were[*A*]due to medication	context()	negated: False ,passive: True
+[LINE#60]Several studies, however, show that 100ms abnormalities in schizophrenia are present at first onset as well as in first-degree relatives (Turetsky et al., 2008), suggesting that auditory abnormalities in SZ are not due to medication.
+0.922	[*A*]auditory abnormalities in SZ[*R*]are not[*A*]due to medication	context(Several studies show suggesting)	negated: True ,passive: True
+0.905	[*A*]100 ms abnormalities in schizophrenia[*R*]are[*A*]in first - degree relatives	context(Several studies show)	negated: False ,passive: True
+0.825	[*A*]Several studies[*R*]show[*A*]that 100 ms abnormalities in schizophrenia are in first - degree relatives	context()	negated: False ,passive: False
+0.922	[*A*]auditory abnormalities in SZ[*R*]are not[*A*]due to medication	context(Several studies show suggesting)	negated: True ,passive: True
+0.736	[*A*]Several studies[*R*]show suggesting[*A*]that auditory abnormalities in SZ are not due to medication	context(Several studies show)	negated: False ,passive: False
+0.905	[*A*]100 ms abnormalities in schizophrenia[*R*]are[*A*]present at first onset	context(Several studies show)	negated: False ,passive: True
+0.825	[*A*]Several studies[*R*]show[*A*]that 100 ms abnormalities in schizophrenia are present at first onset	context()	negated: False ,passive: False
+[LINE#61]In addition, in a review of 100ms auditory studies Rosburg et al.
+[LINE#62](2008) concluded that medication did not seem to account for group differences in N100 activity.
+0.877	[*A*]medication[*R*]to account[*A*]for group differences in N100 activity	context()	negated: False ,passive: False
+[LINE#63]In sum, present findings indicate that early auditory encoding abnormalities in SZ are not limited to STG and that there are abnormalities in multiple nodes of a concurrently activated auditory network.
+0.695	[*A*]present findings[*R*]indicate[*A*]that there are abnormalities in multiple nodes of a concurrently activated auditory network	context()	negated: False ,passive: False
+0.945	[*A*]early auditory encoding abnormalities in SZ[*R*]are not limited[*A*]to STG	context(present findings indicate)	negated: True ,passive: True
+0.835	[*A*]present findings[*R*]indicate[*A*]that early auditory encoding abnormalities in SZ are not limited to STG	context()	negated: False ,passive: False
+[LINE#64] Present findings suggest that individuals with SZ show decreased activation in a temporal to frontal ventral pathway (a possible auditory 'what' pathway) as well as abnormally increased activation in a temporal to frontal dorsal pathway (a possible auditory 'where' pathway).
+0.875	[*A*]individuals with SZ[*R*]show decreased activation to frontal[*A*]ventral pathway	context(Present findings suggest individuals with SZ show)	negated: False ,passive: False
+0.934	[*A*]individuals with SZ[*R*]show[*A*]decreased activation	context(Present findings suggest)	negated: False ,passive: False
+0.835	[*A*]Present findings[*R*]suggest[*A*]that individuals with SZ show decreased activation in a temporal	context()	negated: False ,passive: False
+0.932	[*A*]abnormally increased activation in a temporal[*R*]to frontal[*A*]dorsal pathway	context()	negated: False ,passive: False
+[LINE#65]As detailed earlier in the Discussion, although the paired-click task is passive, an explanation of the present findings is that the 'what' stream (the auditory STG to IFG pathway) is activated in HC even when passively encoding auditory stimuli, with decreased activation of this pathway in SZ consistent with a deficit in encoding auditory stimuli (resulting in decreased STG auditory response).The following are the supplementary data related to this article.
+0.905	[*A*]auditory stimuli[*R*]resulting[*A*]in decreased STG auditory response	context()	negated: False ,passive: True
+0.911	[*A*]the supplementary data[*R*]related[*A*]to this article	context()	negated: False ,passive: True
+0.940	[*A*]the 'what' stream[*R*]is activated[*A*]in HC[*A*]even when passively encoding auditory stimuli, with decreased activation of this pathway in SZ consistent with a deficit in encoding	context(an explanation of the present findings is)	negated: False ,passive: True
+0.908	[*A*]an explanation of the present findings[*R*]is[*A*]that the 'what' stream (the auditory STG to IFG pathway) is activated in HC	context()	negated: False ,passive: True
+0.568	[*A*]The following[*R*]are[*A*]the supplementary data related to this article	context()	negated: False ,passive: True
+0.853	[*A*]the paired-click task[*R*]is[*A*]passive	context()	negated: False ,passive: True
+[LINE#66] 1Within-group VESTAL statistics for 50 (left panel) and 100ms (right panel) S2 activity showing left and right STG (L-STG, R-STG) and frontal regions (L-Frontal, R-Frontal) activated areas for HC (top panel) and SZ (bottom panel) (thresholded at FDR q<0.01).Supplementary2Between-group analyses for 50ms S2 activity.
+0.991	[*A*]50 ms s2 activity[*R*]showing[*A*]activated areas for HC ( top panel ) . Supplementary2Between - group analyses for	context()	negated: False ,passive: False
+0.918	[*A*]S2 activity[*R*]showing[*A*]right STG ( L - frontal regions	context()	negated: False ,passive: False
+0.903	[*A*]S2 activity[*R*]showing[*A*]left ( L - frontal regions	context()	negated: False ,passive: False
+0.991	[*A*]50 ms s2 activity[*R*]showing[*A*]right STG L STG L Frontal R Frontal activated areas for HC ( SZ ( bottom panel ) ( thresholded at FDR q < 0.01 ) . Supplementary2Between - group analyses for .	context()	negated: False ,passive: False
+0.947	[*A*]S2 activity[*R*]showing[*A*]right STG ( L - STG L - Frontal , R - Frontal ) activated areas for HC	context()	negated: False ,passive: False
+0.947	[*A*]S2 activity[*R*]showing[*A*]right STG ( L - STG L - Frontal , R - Frontal ) activated areas for HC ( top panel ) . Supplementary2Between - group analyses for 50 ms S2 activity	context()	negated: False ,passive: False
+0.698	[*A*]100 ms[*R*]showing left	context()	negated: False ,passive: False
+0.920	[*A*]L - frontal regions[*R*]activated[*A*]areas for HC	context()	negated: False ,passive: False
+0.991	[*A*]50 ms s2 activity[*R*]showing[*A*]right STG L frontal regions	context()	negated: False ,passive: False
+0.948	[*A*]50 ( left panel ) S2 activity[*R*]showing[*A*]right STG ( L - frontal regions	context()	negated: False ,passive: False
+0.991	[*A*]50 ms s2 activity[*R*]showing[*A*]right STG L R STG L Frontal R Frontal activated areas for HC ( SZ ( bottom panel ) ( thresholded at FDR q < 0.01 ) . Supplementary2Between - group analyses for .	context()	negated: False ,passive: False
+0.967	[*A*]50 ( left panel ) S2 activity[*R*]showing[*A*]right STG ( L - R - STG L - Frontal , R - Frontal ) activated areas for HC	context()	negated: False ,passive: False
+0.947	[*A*]S2 activity[*R*]showing[*A*]right STG ( L - R - STG L - Frontal , R - Frontal ) activated areas for HC	context()	negated: False ,passive: False
+0.991	[*A*]50 ms s2 activity[*R*]showing[*A*]1Within-group VESTAL statistics activated areas for HC ( SZ ( bottom panel ) ( thresholded at FDR q < 0.01 ) . Supplementary2Between - group analyses for .	context()	negated: False ,passive: False
+0.954	[*A*]right STG ( L - STG L - Frontal[*R*]activated[*A*]areas for HC ( SZ ( bottom panel ) ( thresholded at FDR q < 0.01 ) . Supplementary2Between - group analyses for 50 ms S2 activity	context()	negated: False ,passive: False
+0.967	[*A*]50 ( left panel ) S2 activity[*R*]showing[*A*]right STG ( L - STG L - Frontal , R - Frontal ) activated areas for HC ( SZ ( bottom panel ) ( thresholded at FDR q < 0.01 ) . Supplementary2Between - group analyses for 50 ms S2 activity	context()	negated: False ,passive: False
+0.991	[*A*]50 ms s2 activity[*R*]showing[*A*]L STG L Frontal activated areas for HC ( SZ ( bottom panel ) ( thresholded at FDR q < 0.01 ) . Supplementary2Between - group analyses for .	context()	negated: False ,passive: False
+0.754	[*A*]left panel[*R*]left	context()	negated: False ,passive: False
+0.952	[*A*]left panel ) S2 activity[*R*]showing[*A*]L - STG L - Frontal , R - Frontal ) activated areas for HC	context()	negated: False ,passive: False
+0.929	[*A*]right STG ( L - STG L - Frontal[*R*]activated[*A*]areas for HC	context()	negated: False ,passive: False
+0.967	[*A*]50 ( left panel ) S2 activity[*R*]showing[*A*]right STG ( L - STG L - Frontal , R - Frontal ) activated areas for HC	context()	negated: False ,passive: False
+[LINE#67] Activation clusters in yellow/red (thresholded at FDR q<0.05) show stronger L-STG, R-STG, and frontal medial cortex (FMC) activity in HC than SZ.
+0.949	[*A*]Activation clusters in yellow / red[*R*]show[*A*]stronger L - frontal medial cortex	context()	negated: False ,passive: False
+0.596	[*A*]yellow / red[*R*]thresholded[*A*]at FDR	context()	negated: False ,passive: True
+0.949	[*A*]Activation clusters in yellow / red[*R*]show[*A*]stronger L - STG	context()	negated: False ,passive: False
+[LINE#68] Activation clusters (thresholded at FDR q<0.05) in blue show stronger activity in left middle frontal gyrus (L-MFG), L-SMG, right lateral occipital cortex (R-LOC), right frontal pole (R-FP), and right postcentral gyrus (R-PG) in SZ than HC (SZ>HC).Supplementary Fig.3Between-group analyses for 100ms S2 activity.
+0.958	[*A*]Activation clusters (thresholded at FDR q[*R*]show[*A*]stronger activity in left middle frontal gyrus	context()	negated: False ,passive: False
+0.905	[*A*]Activation clusters[*R*]thresholded[*A*]at FDR	context()	negated: False ,passive: True
+[LINE#69] Activation clusters in yellow/red show stronger activity in L-STG, R-STG, and FMC in HC than SZ.
+[LINE#70] Activation clusters in blue show stronger activity in L-SMG, L-MFG, R-LOC, R-PG in SZ than HC.
+[LINE#71]HC).Supplementary data to this article can be found online at http://dx.doi.org/10.1016/j.nicl.2013.05.002.
+0.888	[*A*]HC).Supplementary data to this article[*R*]can be found[*A*]online[*A*]at http://dx.doi.org/10.1016/j.nicl.2013.05.002.	context()	negated: False ,passive: True
+[LINE#72]Using electroencephalography (EEG) and magnetoencephalography (MEG), a now large number of studies show smaller 100ms auditory amplitudes in individuals with schizophrenia (SZ) than healthy controls (HC).
+0.972	[*A*]a now large number of studies[*R*]show[*A*]smaller 100 ms auditory amplitudes in individuals with schizophrenia ( SZ ) than healthy controls	context()	negated: False ,passive: False
+[LINE#73]In a review of studies examining N1 and M100 in schizophrenia, Rosburg et al.
+0.911	[*A*]studies[*R*]examining[*A*]M100[*A*]in schizophrenia	context()	negated: False ,passive: False
+0.911	[*A*]studies[*R*]examining[*A*]N1[*A*]in schizophrenia	context()	negated: False ,passive: False
+[LINE#74](2008) concluded that 100ms auditory abnormalities are most commonly observed in studies using interstimulus intervals greater than 1s and that an increase in N1 amplitude by allocation of attention is often lacking in individuals with SZ.
+0.965	[*A*]an increase in N1 amplitude by allocation of attention[*R*]is lacking[*A*]in individuals with SZ[*A*]often	context(2008 concluded)	negated: False ,passive: False
+0.363	[*A*]2008[*R*]concluded[*A*]that an increase in N1 amplitude by allocation of attention is often lacking in individuals with SZ	context()	negated: False ,passive: False
+0.855	[*A*]100 ms auditory abnormalities[*R*]are observed[*A*]in studies	context(2008 concluded)	negated: False ,passive: True
+0.321	[*A*]2008[*R*]concluded[*A*]that 100 ms auditory abnormalities are most commonly observed in studies	context()	negated: False ,passive: False
+0.894	[*A*]studies[*R*]using[*A*]interstimulus intervals greater than 1 s	context()	negated: False ,passive: False
+[LINE#75]Several large-sample studies provide examples.
+0.926	[*A*]Several large-sample studies[*R*]provide[*A*]examples	context()	negated: False ,passive: False
+[LINE#76]Examining N1 activity in the standard paired-click paradigm, Turetsky et al.
+[LINE#77](2008) observed a small first and a normal second N1 click response in SZ (N=142) relative to HC (N=221).
+0.661	[*A*]2008[*R*]observed[*A*]a small first[*A*]a normal second N1 click response in SZ (N=142) relative to HC	context()	negated: False ,passive: False
+[LINE#78]Reduced N1 was also observed in the unaffected first-degree relatives of individuals with SZ without co-morbid psychiatric or substance use conditions, and N1 amplitude was observed to be a heritable measure and a better endophenotype than N1 gating.
+0.954	[*A*]N1 amplitude[*R*]to be[*A*]a heritable measure and a better endophenotype than N1 gating	context()	negated: False ,passive: True
+0.788	[*A*]N1 amplitude[*R*]was observed	context()	negated: False ,passive: False
+0.941	[*A*]Reduced N1[*R*]was observed[*A*]in the unaffected first-degree relatives of individuals with SZ	context()	negated: False ,passive: True
+[LINE#79]In another recent large-N study, Smith et al.
+[LINE#80](2010) used simultaneous EEG and MEG to examine 100ms auditory processes in individuals with SZ (N=79) and HC (N=73) during a paired-click task.
+[LINE#81] Patients had larger N1 Cz and left andright superior temporal gyrus (STG) M100 ratio scores (second-click/first-click), with EEG and MEG ratio score group differences due to a smaller first click (S1) response in patients, suggesting a deficit in encoding auditory information rather than a deficit in filtering redundant information.
+0.918	[*A*]Patients[*R*]left[*A*]andright superior temporal gyrus	context()	negated: False ,passive: False
+0.931	[*A*]Patients[*R*]had[*A*]larger N1 Cz	context()	negated: False ,passive: False
+[LINE#82](MEG) are the most prominent deflections of the adult auditory event-related potential (ERP) or field (ERF) (Hari, 1990).
+0.906	[*A*]MEG[*R*]are[*A*]the most prominent deflections of the adult auditory event-related potential (ERP) or field	context()	negated: False ,passive: True
+[LINE#83] In an early study, Naatanen and Picton (1987) argued that the electric N1 reflects contributions from up to 6 distinct cortical areas: dipoles in or near the primary auditory cortex as well as prefrontal cortex.
+0.888	[*A*]the electric N1[*R*]reflects[*A*]contributions from up to 6 distinct cortical areas	context(Naatanen and Picton ( 1987 argued)	negated: False ,passive: True
+0.920	[*A*]Naatanen and Picton (1987[*R*]argued[*A*]that the electric N1 reflects contributions from up to 6 distinct cortical areas[*A*]In an early study	context()	negated: False ,passive: False
+[LINE#84]Later studies showed connections between STG and PFC.
+0.918	[*A*]Later studies[*R*]showed[*A*]connections between STG and PFC	context()	negated: False ,passive: False
+[LINE#85] For example, several studies have demonstrated bidirectional connections between STG and PFC in the rhesus monkey.
+0.947	[*A*]several studies[*R*]have demonstrated[*A*]bidirectional connections between STG and PFC in the rhesus monkey	context()	negated: False ,passive: False
+[LINE#86]Combined tracing and immunohistochemistry studies have revealed that projections from PFC pyramidal neurons make synaptic contact with a subset of calbindin-positive GABAergic interneurons in auditory areas (Barbas et al., 2005).
+0.963	[*A*]projections from PFC pyramidal neurons[*R*]make[*A*]synaptic contact with a subset of calbindin-positive GABAergic interneurons in auditory areas	context(immunohistochemistry studies have revealed)	negated: False ,passive: False
+0.840	[*A*]immunohistochemistry studies[*R*]have revealed[*A*]that projections from PFC pyramidal neurons make synaptic contact with a subset of calbindin-positive GABAergic interneurons in auditory areas	context()	negated: False ,passive: False
+0.963	[*A*]projections from PFC pyramidal neurons[*R*]make[*A*]synaptic contact with a subset of calbindin-positive GABAergic interneurons in auditory areas	context(Combined tracing have revealed)	negated: False ,passive: False
+0.426	[*A*]Combined tracing[*R*]have revealed[*A*]that projections from PFC pyramidal neurons make synaptic contact with a subset of calbindin-positive GABAergic interneurons in auditory areas	context()	negated: False ,passive: False
+[LINE#87] Through these connections, PFC pyramidal neurons may modulate the excitability of microcircuits within the monkey's auditory belt and parabelt.
+0.933	[*A*]PFC pyramidal neurons[*R*]may modulate[*A*]the excitability of microcircuits within the parabelt	context()	negated: False ,passive: False
+0.957	[*A*]PFC pyramidal neurons[*R*]may modulate[*A*]the excitability of microcircuits within the monkey 's auditory belt	context()	negated: False ,passive: False
+[LINE#88]Neural tracers infused into auditory cortex have also been found to emerge in PFC axonal terminal (Romanski, 2004; Romanski et al., 1999).
+0.933	[*A*]Neural tracers infused into auditory cortex[*R*]to emerge[*A*]in PFC axonal terminal	context()	negated: False ,passive: False
+0.724	[*A*]Neural tracers infused into auditory cortex[*R*]have been found	context()	negated: False ,passive: False
+0.903	[*A*]Neural tracers[*R*]infused[*A*]into auditory cortex	context()	negated: False ,passive: True
+[LINE#89]Finally, anatomical studies in humans have identified white-matter tracks connecting auditory cortex with lateral and medial PFC.
+0.975	[*A*]anatomical studies in humans[*R*]have identified[*A*]white - matter tracks connecting auditory cortex with medial PFC[*A*]Finally	context()	negated: False ,passive: False
+0.919	[*A*]white - matter tracks[*R*]connecting[*A*]auditory cortex	context()	negated: False ,passive: False
+0.975	[*A*]anatomical studies in humans[*R*]have identified[*A*]white - matter tracks connecting auditory cortex with lateral PFC[*A*]Finally	context()	negated: False ,passive: False
+[LINE#90] These observations have been corroborated via in vivo imaging.
+0.886	[*A*]These observations[*R*]have been corroborated[*A*]in vivo imaging	context()	negated: False ,passive: True
+[LINE#91]Taken together, monkey and human studies support the hypothesis that PFC pyramidal neurons modulate the flow of information in auditory cortices by controlling the activity of GABAergic interneurons, which in turn modulate the excitability of STG pyramidal neurons (Barbas et al., 2005).
+0.929	[*A*]neurons[*R*]modulate[*A*]the flow of information in auditory cortices by controlling the activity of GABAergic interneurons	context(PFC pyramidal)	negated: False ,passive: False
+0.868	[*A*]human studies[*R*]support[*A*]the hypothesis that PFC pyramidal neurons modulate the flow of information in auditory cortices by controlling the activity of GABAergic interneurons ,	context()	negated: False ,passive: False
+0.929	[*A*]neurons[*R*]modulate[*A*]the flow of information in auditory cortices by controlling the activity of GABAergic interneurons	context(PFC pyramidal)	negated: False ,passive: False
+0.901	[*A*]PFC[*R*]pyramidal[*A*]neurons modulate the flow of information in auditory cortices by controlling the activity of GABAergic interneurons	context()	negated: False ,passive: False
+0.856	[*A*]monkey[*R*]support[*A*]the hypothesis that PFC pyramidal neurons modulate the flow of information in auditory cortices by controlling the activity of GABAergic interneurons ,	context()	negated: False ,passive: False
+0.928	[*A*]GABAergic interneurons[*R*]modulate[*A*]the excitability of STG pyramidal neurons	context()	negated: False ,passive: False
+[LINE#92]With regard to individuals with SZ, there is evidence of aberrant fronto-temporal connectivity: in a diffusion tensor imaging (DTI) study, Abdul-Rahman et al.
+[LINE#93] (2012) showed that disruption of fronto-temporal white-matter tracks involving arcuate fasciculus may be associated with psychotic features and auditory hallucinations in SZ.Although equivalent current dipole source localization techniques work well to examine 50 and 100ms STG activity (Edgar et al., 2003, 2008;.
+0.927	[*A*]equivalent current dipole source localization techniques[*R*]work well to examine[*A*]100 ms STG activity	context(equivalent current dipole source localization techniques work well)	negated: False ,passive: False
+0.927	[*A*]equivalent current dipole source localization techniques[*R*]work well[*A*]to examine 100 ms STG activity	context()	negated: False ,passive: False
+0.913	[*A*]equivalent current dipole source localization techniques[*R*]work well to examine[*A*]50 ms	context(equivalent current dipole source localization techniques work well)	negated: False ,passive: False
+0.913	[*A*]equivalent current dipole source localization techniques[*R*]work well[*A*]to examine 50 ms	context()	negated: False ,passive: False
+0.920	[*A*]current dipole source localization techniques[*R*]work well to examine[*A*]100 ms STG activity	context(current dipole source localization techniques work well)	negated: False ,passive: False
+0.920	[*A*]current dipole source localization techniques[*R*]work well[*A*]to examine 100 ms STG activity	context()	negated: False ,passive: False
+0.920	[*A*]current dipole source localization techniques[*R*]work well to examine[*A*]50 ms STG activity	context(current dipole source localization techniques work well)	negated: False ,passive: False
+0.920	[*A*]current dipole source localization techniques[*R*]work well[*A*]to examine 50 ms STG activity	context()	negated: False ,passive: False
+0.938	[*A*]fronto - temporal white - matter tracks[*R*]involving[*A*]arcuate fasciculus	context()	negated: False ,passive: True
+[LINE#94]Smith et al., 2010), equivalent current dipole techniques are likely less optimal in terms of localizing auditory activity in non-STG areas, because activity in non-STG areas is often distributed and thus non-dipolar.
+0.795	[*A*]activity in non-STG areas[*R*]is distributed[*A*]often	context()	negated: False ,passive: True
+0.948	[*A*]equivalent current dipole techniques[*R*]are[*A*]likely less optimal in terms of localizing auditory activity in non-STG areas[*A*]because activity in non-STG areas is often distributed and thus non-dipolar	context()	negated: False ,passive: True
+[LINE#95] The present study reports findings using a lead-field-based source localization method, Vector-based Spatio-temporal Analysis using L1-minimum norm (VESTAL;.
+0.953	[*A*]Vector-based Spatio-temporal Analysis[*R*]using[*A*]L1-minimum norm	context()	negated: False ,passive: False
+0.943	[*A*]The present study[*R*]reports[*A*]findings using a lead-field-based source localization method,	context()	negated: False ,passive: False
+[LINE#96]Huang et al., 2006), to examine auditory processes throughout the brain in HC and in individuals with SZ.
+[LINE#97] Given that our and others previous paired-click findings indicated group differences for the S1 but not the second click (S2)11Within-group and between-group.
+[LINE#98]VESTAL group statistics for S2 are provided in Supplementary Figs.
+0.913	[*A*]VESTAL group statistics for S2[*R*]are provided[*A*]in Supplementary Figs	context()	negated: False ,passive: True
+[LINE#99] (Smith et al., 2010; Turetsky et al., 2008), the present study focused on examining early S1 activity at 50ms and 100ms.
+0.911	[*A*]the present study[*R*]focused[*A*]on examining early S1 activity at 50 100ms	context()	negated: False ,passive: False
+0.911	[*A*]the present study[*R*]focused[*A*]on examining early S1 activity at 50 ms	context()	negated: False ,passive: False
+[LINE#100]The following predictions were made:Hypothesis 1STG activity would be observed in both groups, and VESTAL STG group differences would be analogous to those reported previous studies.
+0.448	[*A*]VESTAL STG group differences[*R*]would be[*A*]analogous to those	context(The following predictions were)	negated: False ,passive: True
+0.882	[*A*]1STG activity[*R*]would be observed[*A*]in both groups	context(The following predictions were)	negated: False ,passive: True
+0.743	[*A*]The following predictions[*R*]were[*A*]made:Hypothesis	context()	negated: False ,passive: True
+[LINE#101]In particular, 100ms STG group differences would be observed bilaterally.
+0.785	[*A*]100ms STG group differences[*R*]would be observed bilaterally	context()	negated: False ,passive: False
+[LINE#102]If 50ms group S1 differences were observed, the 50ms group differences would be left lateralized.
+0.756	[*A*]the 50ms group differences[*R*]lateralized	context()	negated: False ,passive: False
+0.814	[*A*]the 50ms group differences[*R*]would be left[*A*]lateralized	context()	negated: False ,passive: True
+0.785	[*A*]50ms group S1 differences[*R*]were observed	context()	negated: False ,passive: False
+[LINE#103]Hypothesis 2Given studies indicating prefrontal activation during simple auditory tasks, frontal activation was expected in both groups.
+0.943	[*A*]frontal activation[*R*]was expected[*A*]in both groups[*A*]Hypothesis 2Given studies	context()	negated: False ,passive: True
+0.903	[*A*]2Given studies[*R*]indicating[*A*]prefrontal activation[*A*]during simple auditory tasks	context()	negated: False ,passive: False
+[LINE#104]Although prior literature does not provide evidence for making strong predictions about group differences in frontal activity, it was hypothesized that the spatial pattern of frontal activity would be different in patients and controls.
+0.917	[*A*]the spatial pattern of frontal activity[*R*]would be[*A*]different in controls	context(it was hypothesized)	negated: False ,passive: True
+0.917	[*A*]the spatial pattern of frontal activity[*R*]would be[*A*]different in patients	context(it was hypothesized)	negated: False ,passive: True
+0.162	[*A*]it[*R*]was hypothesized	context()	negated: False ,passive: False
+0.903	[*A*]prior literature[*R*]does not provide[*A*]evidence	context()	negated: True ,passive: False
+[LINE#105] Although equivalent current dipole source localization techniques work well to examine 50 and 100ms STG activity (Edgar et al., 2003, 2008; Huang et al., 2003;.
+0.927	[*A*]equivalent current dipole source localization techniques[*R*]work well to examine[*A*]100 ms STG activity	context(equivalent current dipole source localization techniques work well)	negated: False ,passive: False
+0.927	[*A*]equivalent current dipole source localization techniques[*R*]work well[*A*]to examine 100 ms STG activity	context()	negated: False ,passive: False
+0.913	[*A*]equivalent current dipole source localization techniques[*R*]work well to examine[*A*]50 ms	context(equivalent current dipole source localization techniques work well)	negated: False ,passive: False
+0.913	[*A*]equivalent current dipole source localization techniques[*R*]work well[*A*]to examine 50 ms	context()	negated: False ,passive: False
+[LINE#106]Smith et al., 2010), equivalent current dipole techniques are likely less optimal in terms of localizing auditory activity in non-STG areas, because activity in non-STG areas is often and thus non-dipolar.
+0.841	[*A*]activity in non-STG areas[*R*]is[*A*]often[*A*]thus non-dipolar	context()	negated: False ,passive: True
+0.948	[*A*]equivalent current dipole techniques[*R*]are[*A*]likely less optimal in terms of localizing auditory activity in non-STG areas[*A*]because activity in non-STG areas is often and thus non-dipolar	context()	negated: False ,passive: True
+[LINE#107] The present study reports findings using a lead-field-based source localization method, Vector-based Spatio-temporal Analysis using L1-minimum norm (VESTAL;.
+0.953	[*A*]Vector-based Spatio-temporal Analysis[*R*]using[*A*]L1-minimum norm	context()	negated: False ,passive: False
+0.943	[*A*]The present study[*R*]reports[*A*]findings using a lead-field-based source localization method,	context()	negated: False ,passive: False
+[LINE#108]Huang et al., 2006), to examine auditory processes throughout the brain in HC and in individuals with SZ.
+[LINE#109] Given that our and others previous paired-click findings indicated group differences for the S1 but not the second click (S2)1 (.
+0.759	[*A*]our and others previous paired - click findings[*R*]indicated[*A*]group differences for not the second click	context()	negated: False ,passive: False
+0.791	[*A*]our and others previous paired - click findings[*R*]indicated[*A*]group differences for the S1	context()	negated: False ,passive: False
+[LINE#110] Smith et al., 2010; Turetsky et al., 2008), the present study focused on examining early S1 activity at 50ms and 100ms.
+0.911	[*A*]the present study[*R*]focused[*A*]on examining early S1 activity at 50 100ms	context()	negated: False ,passive: False
+0.911	[*A*]the present study[*R*]focused[*A*]on examining early S1 activity at 50 ms	context()	negated: False ,passive: False
+[LINE#111]The following predictions were made:Hypothesis 1STG activity would be observed in both groups, and VESTAL STG group differences would be analogous to those reported previous studies.
+0.448	[*A*]VESTAL STG group differences[*R*]would be[*A*]analogous to those	context(The following predictions were)	negated: False ,passive: True
+0.882	[*A*]1STG activity[*R*]would be observed[*A*]in both groups	context(The following predictions were)	negated: False ,passive: True
+0.743	[*A*]The following predictions[*R*]were[*A*]made:Hypothesis	context()	negated: False ,passive: True
+[LINE#112]In particular, 100ms STG group differences would be observed bilaterally.
+0.785	[*A*]100ms STG group differences[*R*]would be observed bilaterally	context()	negated: False ,passive: False
+[LINE#113]If 50ms group S1 differences were observed, the 50ms group differences would be left lateralized.
+0.756	[*A*]the 50ms group differences[*R*]lateralized	context()	negated: False ,passive: False
+0.814	[*A*]the 50ms group differences[*R*]would be left[*A*]lateralized	context()	negated: False ,passive: True
+0.785	[*A*]50ms group S1 differences[*R*]were observed	context()	negated: False ,passive: False
+[LINE#114]Hypothesis 2Given studies indicating prefrontal activation during simple auditory tasks, frontal activation was expected in both groups.
+0.943	[*A*]frontal activation[*R*]was expected[*A*]in both groups[*A*]Hypothesis 2Given studies	context()	negated: False ,passive: True
+0.903	[*A*]2Given studies[*R*]indicating[*A*]prefrontal activation[*A*]during simple auditory tasks	context()	negated: False ,passive: False
+[LINE#115]Although prior literature does not provide evidence for making strong predictions about group differences in frontal activity, it was hypothesized that the spatial pattern of frontal activity would be different in patients and controls.
+0.917	[*A*]the spatial pattern of frontal activity[*R*]would be[*A*]different in controls	context(it was hypothesized)	negated: False ,passive: True
+0.917	[*A*]the spatial pattern of frontal activity[*R*]would be[*A*]different in patients	context(it was hypothesized)	negated: False ,passive: True
+0.162	[*A*]it[*R*]was hypothesized	context()	negated: False ,passive: False
+0.903	[*A*]prior literature[*R*]does not provide[*A*]evidence	context()	negated: True ,passive: False
+[LINE#116]Nineteen patients with chronic SZ (14 males, mean age 40.3111.7years) and 22 age-matched HC (15 males; mean age 34.9510.2years) were recruited.
+0.899	[*A*]age 40.3111.7years) and 22 age-matched HC (15 males; mean age 34.9510.2years[*R*]were recruited	context()	negated: False ,passive: False
+0.807	[*A*]Nineteen patients with chronic SZ[*R*]mean	context()	negated: False ,passive: False
+[LINE#117] Selection criteria were (1) diagnosis of schizophrenia with no other Axis.
+0.903	[*A*]Selection criteria[*R*]were[*A*]1) diagnosis of schizophrenia with no other Axis	context()	negated: False ,passive: True
+[LINE#118] I diagnosis, determined by the Structured Clinical Interview for DSM-IV-Patient Edition (SCID-DSM-IV; American Psychiatric Association, 1994); (2) stable, continuous treatment with one antipsychotic medication for at least 3months; (3) no history of substance dependence (determined during the SCID-DSM-IV interview); (4) no history of alcohol or other substance abuse in the past 3months (determined during the SCID-DSM-IV interview);(5) no history of head injury with loss of consciousness for more than 5minutes; and (6) no psychiatric hospitalization in the last 3months.
+0.968	[*A*]4) no history of alcohol or other substance abuse in the past 3months[*R*]determined[*A*]during the SCID-DSM-IV interview	context()	negated: False ,passive: True
+0.939	[*A*]3) no history of substance dependence[*R*]determined[*A*]during the SCID-DSM-IV interview	context()	negated: False ,passive: True
+0.742	[*A*]I diagnosis[*R*]determined[*A*]by the Structured Clinical Interview for DSM-IV-Patient Edition (SCID-DSM-IV; American Psychiatric Association	context()	negated: False ,passive: True
+[LINE#119]As shown in Table 1, groups did not differ in age, education, or parental socioeconomic status (SES, Oakes and Rossi, 2003; scores derived from individual's income, education, and occupation information, with lower SES score indicating higher socioeconomic status).
+0.871	[*A*]groups[*R*]did not differ[*A*]in age, education, or parental socioeconomic status	context(scores derived)	negated: True ,passive: True
+0.929	[*A*]scores[*R*]derived[*A*]from individual's income, education, and occupation information, with lower SES score	context()	negated: False ,passive: True
+0.933	[*A*]lower SES score[*R*]indicating[*A*]higher socioeconomic status	context()	negated: False ,passive: False
+[LINE#120]Patients' SES was significantly lower than controls'.
+0.949	[*A*]Patients' SES[*R*]was[*A*]significantly lower than controls	context()	negated: False ,passive: True
+[LINE#121] Mean total scores of the Positive and Negative Syndrome Scale (PANSS)(Kay et al., 1987) were 20.00 for positive symptoms and 17.46 for negative symptoms (N=13; PANSS scores were not available in 6 subjects).
+0.947	[*A*]Mean total scores of the Positive and Negative Syndrome Scale[*R*]were[*A*]20.00 for positive symptoms and 17.46 for negative symptoms	context(PANSS scores were not)	negated: False ,passive: True
+0.907	[*A*]PANSS scores[*R*]were not[*A*]available[*A*]in 6 subjects	context()	negated: True ,passive: True
+[LINE#122]Additional recruitment procedures and additional information on inclusion and exclusion criteria are reported in Smith et al.
+0.937	[*A*]additional information on exclusion criteria[*R*]are reported[*A*]in Smith et al	context()	negated: False ,passive: True
+0.937	[*A*]additional information on inclusion criteria[*R*]are reported[*A*]in Smith et al	context()	negated: False ,passive: True
+0.925	[*A*]Additional recruitment procedures[*R*]are reported[*A*]in Smith et al	context()	negated: False ,passive: True
+[LINE#123](2010).Five HC and 2 SZ were left-handed as assessed by the Waterloo Handedness Questionnaire (Bryden, 1977).
+0.887	[*A*]2 SZ[*R*]were left[*A*]- handed[*A*]as assessed by the Waterloo Handedness Questionnaire	context()	negated: False ,passive: True
+[LINE#124]Patients with SZ were medicated and clinically stable without change in medications for at least one month before MEG.
+0.944	[*A*]Patients with SZ[*R*]were medicated[*A*]for at least one month[*A*]before MEG	context()	negated: False ,passive: True
+[LINE#125]In the patient group, 14 participants were treated with 2nd generation antipsychotics: 2 on aripiprazole, 5 on olanzapine, 3 on risperidone, 3 on quetiapine and 1 on ziprasidone.
+0.943	[*A*]14 participants[*R*]were treated[*A*]with 2nd generation antipsychotics[*A*]on aripiprazole[*A*]on olanzapine[*A*]on 1[*A*]In the patient group	context()	negated: False ,passive: True
+0.943	[*A*]14 participants[*R*]were treated[*A*]with 2nd generation antipsychotics[*A*]on aripiprazole[*A*]on olanzapine[*A*]on 3[*A*]In the patient group	context()	negated: False ,passive: True
+0.992	[*A*]14 participants[*R*]were treated with[*A*]2nd generation antipsychotics	context()	negated: False ,passive: False
+0.943	[*A*]14 participants[*R*]were treated[*A*]with 2nd generation antipsychotics[*A*]on aripiprazole[*A*]on olanzapine[*A*]on risperidone on ziprasidone[*A*]In the patient group	context()	negated: False ,passive: True
+[LINE#126]Two participants were treated with 1st generation antipsychotic halperiodol.
+0.992	[*A*]two participants[*R*]were treated with[*A*]1 st generation antipsychotic halperiodol	context()	negated: False ,passive: False
+0.903	[*A*]Two participants[*R*]were treated[*A*]with 1st generation antipsychotic halperiodol	context()	negated: False ,passive: True
+[LINE#127]Finally, 2 subjects were treated with both aripiprazole and clozapine and 1 with aripiprazole, clozapine, and halperiodol.
+0.992	[*A*]2 subjects[*R*]were treated with[*A*]halperiodol	context()	negated: False ,passive: False
+0.992	[*A*]2 subjects[*R*]were treated with[*A*]aripiprazole	context()	negated: False ,passive: False
+0.767	[*A*]2 subjects[*R*]were treated[*A*]with 1	context()	negated: False ,passive: True
+0.992	[*A*]2 subjects[*R*]were treated with[*A*]clozapine	context()	negated: False ,passive: False
+0.943	[*A*]2 subjects[*R*]were treated[*A*]with clozapine[*A*]Finally	context()	negated: False ,passive: True
+0.992	[*A*]2 subjects[*R*]were treated with[*A*]both aripiprazole	context()	negated: False ,passive: False
+0.943	[*A*]2 subjects[*R*]were treated[*A*]with both aripiprazole[*A*]Finally	context()	negated: False ,passive: True
+[LINE#128]The average of Chlorpromazine equivalent dosage for all patients was 587mg/day (1 patient did not have medication dosage information).
+0.878	[*A*]1 patient[*R*]did not have[*A*]medication dosage information	context(The average of Chlorpromazine equivalent dosage for all patients was)	negated: True ,passive: False
+0.962	[*A*]The average of Chlorpromazine equivalent dosage for all patients[*R*]was[*A*]587mg[*A*]day	context()	negated: False ,passive: True
+[LINE#129]Six patients with SZ and 2 HC were smokers.
+0.944	[*A*]Six patients with 2 HC[*R*]were[*A*]smokers	context()	negated: False ,passive: True
+0.939	[*A*]Six patients with SZ[*R*]were[*A*]smokers	context()	negated: False ,passive: True
+[LINE#130]paradigmThe paired-click paradigm followed the protocol of Adler et al.
+0.953	[*A*]paradigmThe paired-click paradigm[*R*]followed[*A*]the protocol of Adler et al	context()	negated: False ,passive: True
+[LINE#131](1993), in which 3ms binaural clicks were presented in pairs (S1 and S2) with 500ms inter-stimulus interval and with inter-trial interval jitter between 7 and 11s, averaging 9s.
+0.953	[*A*]3 ms binaural clicks[*R*]were presented[*A*]in pairs[*A*]1993	context()	negated: False ,passive: True
+0.992	[*A*]3 ms binaural clicks[*R*]were presented in[*A*]pairs	context()	negated: False ,passive: False
+0.919	[*A*]3 ms binaural clicks[*R*]were presented[*A*]in pairs[*A*]with 500 ms	context()	negated: False ,passive: True
+[LINE#132]Clicks were delivered through earphones placed in each ear canal.
+0.894	[*A*]earphones[*R*]placed[*A*]in each ear canal	context()	negated: False ,passive: True
+0.561	[*A*]Clicks[*R*]were delivered	context()	negated: False ,passive: False
+[LINE#133]The peak intensity of the click was presented 35dB above each subject's hearing threshold.
+0.932	[*A*]The peak intensity of the click[*R*]was presented[*A*]35dB above each subject's hearing threshold	context()	negated: False ,passive: True
+[LINE#134]Presenting 150 click trials, the duration of the task was approximately 25minutes.
+0.998	[*A*]the task[*R*]had the duration of[*A*]approximately 25minutes	context()	negated: False ,passive: False
+0.952	[*A*]the duration of the task[*R*]was[*A*]approximately 25minutes	context()	negated: False ,passive: True
+[LINE#135]As previously noted, the present study examined only S1 activity at 50 and 100ms. .
+0.911	[*A*]the present study[*R*]examined[*A*]only S1 activity[*A*]at 100ms	context()	negated: False ,passive: False
+0.911	[*A*]the present study[*R*]examined[*A*]only S1 activity[*A*]at 50	context()	negated: False ,passive: False
+[LINE#136]G and MRI data acquisition and coregistrationMEG data were recorded in a magnetically shielded room (Vacuumschmelze, Germany) using a 306-channel Vector-View MEG system (Elekta-Neuromag, Helsinki, Finland).
+0.927	[*A*]coregistrationMEG data[*R*]were recorded[*A*]in a magnetically shielded room	context()	negated: False ,passive: True
+0.933	[*A*]MRI data acquisition[*R*]were recorded[*A*]in a magnetically shielded room	context()	negated: False ,passive: True
+0.855	[*A*]G[*R*]were recorded[*A*]in a magnetically shielded room	context()	negated: False ,passive: True
+[LINE#137]After a band-pass (0.1-330Hz) and 60Hz notch filter, MEG signals were digitized at 1000Hz.
+0.964	[*A*]MEG signals[*R*]were digitized[*A*]at 1000Hz[*A*]After a 60Hz notch filter	context()	negated: False ,passive: True
+0.978	[*A*]MEG signals[*R*]were digitized[*A*]at 1000Hz[*A*]After a band - pass ( 0.1-330Hz ) notch filter	context()	negated: False ,passive: True
+[LINE#138] Electro-oculogram (EOG) (vertical EOG on the upper and lower left sides) and electrocardiogram(ECG) (at the collarbone) were also obtained.
+[LINE#139]The subjects' head position was monitored using four HPI coils attached to the scalp.
+0.803	[*A*]four HPI coils[*R*]attached	context()	negated: False ,passive: False
+0.785	[*A*]The subjects' head position[*R*]was monitored	context()	negated: False ,passive: False
+[LINE#140]Participants were asked to refrain from smoking for at least 1h before the recording session.
+0.920	[*A*]Participants[*R*]to refrain[*A*]from smoking for at least 1h before the recording session	context()	negated: False ,passive: False
+0.931	[*A*]Participants[*R*]were asked[*A*]to refrain from smoking for at least 1h before the recording session	context()	negated: False ,passive: True
+[LINE#141]To ensure compliance, they were asked to report to the facility an hour before recording commenced, during which time participants were familiarized with equipment and procedures.
+0.903	[*A*]time participants[*R*]were familiarized[*A*]with procedures	context()	negated: False ,passive: True
+0.903	[*A*]time participants[*R*]were familiarized[*A*]with equipment	context()	negated: False ,passive: True
+0.575	[*A*]they[*R*]to report[*A*]to the facility an hour[*A*]before recording commenced	context()	negated: False ,passive: False
+0.720	[*A*]they[*R*]were asked[*A*]to report to the facility an hour before recording commenced	context()	negated: False ,passive: True
+[LINE#142]After the MEG session, structural magnetic resonance imaging (sMRI) provided T1-weighted, 3-D anatomical images using a 3T Siemens Trio scanner (voxel size 111mm3).To coregister MEG and sMRI data, three anatomical landmarks (nasion and right and left preauriculars) as well as an additional 150+ points on the scalp and face were digitized for each subject using the Probe Position Identification (PPI) System (Polhemus, Colchester, VT).
+0.948	[*A*]T1 - an additional 150+ points on the face[*R*]were digitized[*A*]for each subject	context()	negated: False ,passive: True
+0.992	[*A*]150 + points[*R*]were digitized for[*A*]each subject using the Probe Position Identification ( PPI System ( Polhemus , Colchester , VT )	context()	negated: False ,passive: False
+0.948	[*A*]T1 - an additional 150+ points on the scalp[*R*]were digitized[*A*]for each subject	context()	negated: False ,passive: True
+0.992	[*A*]t1 - three anatomical landmarks[*R*]were digitized for[*A*]each subject using the Probe Position Identification ( PPI System ( Polhemus , Colchester , VT )	context()	negated: False ,passive: False
+0.992	[*A*]t1 - three anatomical landmarks[*R*]were digitized for[*A*]each subject using the Probe Position Identification ( PPI ) System ( Polhemus , Colchester , VT )	context()	negated: False ,passive: False
+0.913	[*A*]T1 - three anatomical landmarks[*R*]were digitized[*A*]for each subject	context()	negated: False ,passive: True
+[LINE#143]The three fiducials were identified in the subject's sMRI, and a transformation matrix that involved rotation and translation between the MEG and sMRI coordinate systems was obtained by matching the 150+ points from the PPI measurements to the surfaces of the scalp and face from the sMRI. .
+0.847	[*A*]a transformation matrix that involved translation between the MEG and sMRI coordinate systems[*R*]was obtained	context()	negated: False ,passive: False
+0.913	[*A*]a transformation matrix[*R*]involved[*A*]translation between the MEG and sMRI coordinate systems	context()	negated: False ,passive: True
+0.732	[*A*]coordinate systems[*R*]was obtained	context()	negated: False ,passive: False
+0.913	[*A*]a transformation matrix[*R*]involved[*A*]rotation between the MEG and sMRI	context()	negated: False ,passive: True
+0.847	[*A*]a transformation matrix that involved rotation between the MEG and sMRI coordinate systems[*R*]was obtained	context()	negated: False ,passive: False
+0.913	[*A*]a transformation matrix[*R*]involved[*A*]rotation between the MEG and sMRI coordinate systems	context()	negated: False ,passive: True
+0.925	[*A*]The three fiducials[*R*]were identified[*A*]in the subject 's sMRI	context()	negated: False ,passive: True
+[LINE#144] analysisMEG raw signals were first processed with Signal Space Separation (SSS; Taulu et al., 2004) using Maxfilter(Elekta MaxfilterTM; Elekta Oy).
+0.827	[*A*]analysisMEG raw signals[*R*]were processed[*A*]first	context()	negated: False ,passive: True
+[LINE#145]SSS separates neuronal magnetic signals arising from inside the MEG sensor array from external magnetic signals arising from the surrounding environment to effectively reduce environmental noise and artifacts.
+0.911	[*A*]external magnetic signals[*R*]arising[*A*]from the surrounding environment	context()	negated: False ,passive: True
+0.952	[*A*]neuronal magnetic signals[*R*]arising[*A*]from inside the MEG sensor array from external magnetic signals	context()	negated: False ,passive: True
+0.919	[*A*]SSS[*R*]separates[*A*]neuronal magnetic signals arising from inside the MEG sensor array from external magnetic signals	context()	negated: False ,passive: False
+[LINE#146]After SSS, S1 epochs 500ms pre-stimulus to 500ms post-stimulus were averaged.
+0.816	[*A*]500ms pre-stimulus to 500ms post-stimulus[*R*]were averaged	context()	negated: False ,passive: False
+0.927	[*A*]S1[*R*]epochs[*A*]500ms pre-stimulus to 500ms post-stimulus were averaged[*A*]After SSS	context()	negated: False ,passive: False
+[LINE#147]Trials containing eye-blinks and large eye-movements were excluded.
+0.801	[*A*]Trials containing large eye - movements[*R*]were excluded	context()	negated: False ,passive: False
+0.894	[*A*]Trials[*R*]containing[*A*]large eye - movements	context()	negated: False ,passive: False
+0.785	[*A*]Trials containing eye - blinks[*R*]were excluded	context()	negated: False ,passive: False
+0.894	[*A*]Trials[*R*]containing[*A*]eye - blinks	context()	negated: False ,passive: False
+[LINE#148]On average, 103 trials were obtained for each subject, and there were no group differences in number of accepted trials (t(39)=0.30, p=0.77).To calculate MEG forward solutions, a realistically shaped Boundary Element Method (BEM) head model was created from each subject's inner skull (Hamalainen and Sarvas, 1989), with the BEM mesh obtained from tessellating the inner skull surface from the MRI into ~6000 triangular elements with ~5mm size.
+0.903	[*A*]head model[*R*]was created[*A*]from each subject 's inner skull	context()	negated: False ,passive: True
+0.964	[*A*]the BEM mesh[*R*]obtained[*A*]from tessellating the inner skull surface from the MRI into ~6000 triangular elements with ~5 mm size	context()	negated: False ,passive: True
+0.992	[*A*]103 trials[*R*]were obtained for[*A*]each subject	context()	negated: False ,passive: False
+0.903	[*A*]103 trials[*R*]were obtained[*A*]for each subject	context()	negated: False ,passive: True
+[LINE#149]Vector-based Spatio-temporal Analysis using L1-minimum norm (VESTAL; Huang et al., 2006) provided source images for each subject.
+0.953	[*A*]Vector-based Spatio-temporal Analysis[*R*]using[*A*]L1-minimum norm[*A*]provided source images for each subject	context()	negated: False ,passive: False
+[LINE#150]VESTAL selects the source configuration that minimizes the absolute value of the source strength.
+0.897	[*A*]the source configuration[*R*]minimizes[*A*]the absolute value of the source strength	context()	negated: False ,passive: False
+0.776	[*A*]VESTAL[*R*]selects[*A*]the source configuration that minimizes the absolute value of the source strength	context()	negated: False ,passive: False
+[LINE#151]Both magnetometers and planar gradiometers were used in the source localization.
+0.903	[*A*]planar gradiometers[*R*]were used[*A*]in the source localization	context()	negated: False ,passive: True
+0.903	[*A*]Both magnetometers[*R*]were used[*A*]in the source localization	context()	negated: False ,passive: True
+[LINE#152]Whereas L1-minimum norm methods have been used in previous MEG studies (Auranen et al., 2005; Osipova et al., 2005; Pulvermuller and Shtyrov, 2003), a major limitation with previous L1-minimum norm routines has been instability in spatial localization and poor smoothness in reconstructed source time-courses (i.e., the time-course of one specific grid point can show substantial spiky-looking discontinuities).
+0.936	[*A*]Shtyrov , 2003[*R*]has been[*A*]instability in poor smoothness in reconstructed source time - courses	context(the time - course of one specific grid point can show)	negated: False ,passive: True
+0.950	[*A*]Shtyrov , 2003[*R*]has been[*A*]instability in spatial localization ( i.e. , the time - course of one specific grid point can show substantial spiky - looking discontinuities	context()	negated: False ,passive: True
+0.923	[*A*]Pulvermuller[*R*]has been[*A*]instability in poor smoothness in reconstructed source time - courses	context(the time - course of one specific grid point can show)	negated: False ,passive: True
+0.948	[*A*]the time - course of one specific grid point[*R*]can show[*A*]substantial spiky - looking discontinuities	context()	negated: False ,passive: False
+0.940	[*A*]Pulvermuller[*R*]has been[*A*]instability in spatial localization ( i.e. , the time - course of one specific grid point can show substantial spiky - looking discontinuities	context()	negated: False ,passive: True
+0.937	[*A*]L1 - minimum norm methods[*R*]have been used[*A*]in previous MEG studies	context()	negated: False ,passive: True
+[LINE#153]This problem is also encountered in other focal localization methods using lead-field approaches.
+0.919	[*A*]other focal localization methods[*R*]using[*A*]lead-field approaches	context()	negated: False ,passive: False
+0.859	[*A*]This problem[*R*]is encountered[*A*]in other focal localization methods	context()	negated: False ,passive: True
+[LINE#154]In VESTAL, the temporal information in the data is used to enhance the stability of the reconstructed solution.
+0.921	[*A*]the temporal information in the data[*R*]to enhance[*A*]the stability of the reconstructed solution	context()	negated: False ,passive: False
+0.967	[*A*]the temporal information in the data[*R*]is used[*A*]to enhance the stability of the reconstructed solution[*A*]In VESTAL	context()	negated: False ,passive: True
+[LINE#155]Since this approach makes no assumptions about the temporal dynamics of the sources, the approach can handle sources that are 100% correlated.
+0.877	[*A*]sources[*R*]are[*A*]100% correlated	context()	negated: False ,passive: True
+0.907	[*A*]the approach[*R*]can handle[*A*]sources that are 100% correlated[*A*]Since this approach makes no assumptions about the temporal dynamics of the sources	context()	negated: False ,passive: False
+0.903	[*A*]this approach[*R*]makes[*A*]no assumptions about the temporal dynamics of the sources	context()	negated: False ,passive: False
+[LINE#156]VESTAL also effectively obtains source strength and dipole orientation without iteration or choosing a pre-fixed dipole orientation for each grid node.
+0.833	[*A*]VESTAL[*R*]choosing[*A*]a pre-fixed dipole orientation for each grid node	context()	negated: False ,passive: False
+0.833	[*A*]VESTAL[*R*]effectively obtains[*A*]source strength and dipole orientation	context()	negated: False ,passive: False
+[LINE#157]The technical details of VESTAL, in which VESTAL was tested with computer simulations and human data, are presented in Appendix A and in Huang et al.
+0.927	[*A*]VESTAL[*R*]was tested[*A*]with human data[*A*]The technical details of VESTAL	context()	negated: False ,passive: True
+0.898	[*A*]The technical details of VESTAL[*R*]are presented[*A*]in Huang et al	context()	negated: False ,passive: True
+0.898	[*A*]The technical details of VESTAL[*R*]are presented[*A*]in Appendix A	context()	negated: False ,passive: True
+0.927	[*A*]VESTAL[*R*]was tested[*A*]with computer simulations[*A*]The technical details of VESTAL	context()	negated: False ,passive: True
+[LINE#158]Results show that VESTAL provides high spatial stability and continuous temporal dynamics, without compromising spatial or temporal resolution.
+0.825	[*A*]VESTAL[*R*]provides[*A*]high spatial stability and continuous temporal dynamics[*A*]without compromising spatial or temporal resolution	context(Results show)	negated: False ,passive: False
+0.864	[*A*]Results[*R*]show[*A*]that VESTAL provides high spatial stability and continuous temporal dynamics, without compromising spatial or temporal resolution	context()	negated: False ,passive: False
+[LINE#159]For group analyses, the following procedures were applied.
+0.939	[*A*]the following procedures[*R*]were applied[*A*]For group analyses	context()	negated: False ,passive: True
+[LINE#160] from each subject (Fig. 1A) were registered to MNI space (Montreal Neurological Institute, MNI-152 atlas as in Fig. 1B) using an affine transformation (FLIRT-FMRIB's Linear Image Registration Tool)(Jenkinson and Smith, 2001) in FSL (www.fmrib.ox.ac.uk/fsl/).
+0.381	[*A*]Registration Tool[*R*][is] Linear Image [of][*A*]FMRIB	context()	negated: False ,passive: False
+0.381	[*A*]Registration Tool[*R*][is] Image [of][*A*]Linear	context()	negated: False ,passive: False
+[LINE#161]The cortical (Fig. 1C) and subcortical masks with pre-defined brain regions from the standard atlas were transferred to the individual's headspace (Fig. 1D), using the inverse of the transformation obtained in the first step: the Harvard-Oxford Atlas, part of the FSL software with masks of 96 cortical gray-matter regions (48 regions in each hemisphere), 21 sub-cortical regions, and cerebellum, was used.
+0.941	[*A*]subcortical masks with pre-defined brain regions from the standard atlas[*R*]were transferred[*A*]to the individual 's headspace[*A*]using the inverse of the transformation	context(the Harvard - Oxford Atlas was used)	negated: False ,passive: True
+0.941	[*A*]subcortical masks with pre-defined brain regions from the standard atlas[*R*]were transferred[*A*]to the individual 's headspace[*A*]using the inverse of the transformation	context(the Harvard - Oxford Atlas was used)	negated: False ,passive: True
+0.941	[*A*]subcortical masks with pre-defined brain regions from the standard atlas[*R*]were transferred[*A*]to the individual 's headspace[*A*]using the inverse of the transformation	context(the Harvard - Oxford Atlas was used)	negated: False ,passive: True
+0.966	[*A*]The cortical ( Fig . 1C ) masks with pre-defined brain regions from the standard atlas[*R*]were transferred[*A*]to the individual 's headspace[*A*]using the inverse of the transformation	context(the Harvard - Oxford Atlas was used)	negated: False ,passive: True
+0.966	[*A*]The cortical ( Fig . 1C ) masks with pre-defined brain regions from the standard atlas[*R*]were transferred[*A*]to the individual 's headspace[*A*]using the inverse of the transformation	context(the Harvard - Oxford Atlas was used)	negated: False ,passive: True
+0.966	[*A*]The cortical ( Fig . 1C ) masks with pre-defined brain regions from the standard atlas[*R*]were transferred[*A*]to the individual 's headspace[*A*]using the inverse of the transformation	context(the Harvard - Oxford Atlas was used)	negated: False ,passive: True
+0.770	[*A*]the Harvard - Oxford Atlas[*R*]was used	context()	negated: False ,passive: False
+0.926	[*A*]the inverse of the transformation[*R*]obtained[*A*]in the first step	context()	negated: False ,passive: True
+[LINE#162]The regional masks were down-sampled to a cubic source grid with voxels of 5mm per side (Fig. 1E).
+0.943	[*A*]The regional masks[*R*]were[*A*]down-sampled to a cubic source grid with voxels of 5mm per side	context()	negated: False ,passive: True
+[LINE#163](4) VESTAL MEG source imaging used the source grid from step 3.
+0.887	[*A*]VESTAL MEG source imaging[*R*]used[*A*]the source grid[*A*]from step 3	context()	negated: False ,passive: False
+[LINE#164]This step permits group-based analyses.
+0.903	[*A*]This step[*R*]permits[*A*]group-based analyses	context()	negated: False ,passive: False
+[LINE#165]In the shown example, MEG responses evoked by S1 localized to left and right Heschl's gyri (Fig. 1F).
+0.958	[*A*]MEG responses[*R*]localized[*A*]to right Heschl 's gyri[*A*]In the shown example	context()	negated: False ,passive: True
+0.950	[*A*]MEG responses[*R*]localized[*A*]to left[*A*]In the shown example	context()	negated: False ,passive: True
+0.938	[*A*]MEG responses[*R*]evoked[*A*]by S1	context()	negated: False ,passive: True
+[LINE#166](5) Finally, for regions of interest (ROIs), the source time course was obtained by summing activity from all ROI voxels.
+0.769	[*A*]the source time course[*R*]was obtained	context()	negated: False ,passive: False
+[LINE#167] 1H shows the time course from left Heschl's gyrus (dark blue region in Fig.1C and D).Prior to VESTAL analyses, a 5-55Hz bandpass filter was applied.
+0.956	[*A*]a 5-55Hz bandpass filter[*R*]was applied[*A*]Prior to VESTAL analyses	context(1 H shows)	negated: False ,passive: True
+0.860	[*A*]1 H[*R*]shows[*A*]the time course from left Heschl 's gyrus	context()	negated: False ,passive: False
+[LINE#168]VESTAL analyses examined activity 30-130ms post-stimulus producing a 4D activation map (3D volumes across time) as well as a 2D source time-course matrix.
+0.911	[*A*]30-130 ms post-stimulus[*R*]producing[*A*]a 4 D activation map	context()	negated: False ,passive: False
+0.827	[*A*]VESTAL analyses[*R*]examined[*A*]activity	context()	negated: False ,passive: False
+[LINE#169]The average percent variance explained for gradiometer data using VESTAL was 95.81% for HC and 94.38% for SZ.
+0.944	[*A*]The average percent variance[*R*]explained[*A*]for gradiometer data[*A*]was 95.81% for HC and 94.38% for SZ	context()	negated: False ,passive: False
+0.918	[*A*]gradiometer data[*R*]using[*A*]VESTAL	context()	negated: False ,passive: False
+[LINE#170]The average percent variance explained for magnetometer data using VESTAL program was 96.24% for HC and 93.17% for SZ.
+0.944	[*A*]The average percent variance[*R*]explained[*A*]for magnetometer data[*A*]was 96.24% for HC and 93.17% for SZ	context()	negated: False ,passive: False
+0.918	[*A*]magnetometer data[*R*]using[*A*]VESTAL program	context()	negated: False ,passive: False
+[LINE#171]There were no group differences in percent variance explained for gradiometer data (t(39)=1.16, p=0.25) or magnetometer data (t(39)=1.31, p=0.20).
+0.932	[*A*]no group differences in percent variance[*R*]explained[*A*]for gradiometer data	context()	negated: False ,passive: True
+[LINE#172]The present analysis examined 50 to 100ms S1 activity only in cortical regions using source strength from VESTAL volumes summed from 30 to 80ms and from 80 to 130ms.
+0.867	[*A*]VESTAL volumes[*R*]summed[*A*]from 30 to[*A*]from 80 to 130ms	context()	negated: False ,passive: True
+0.999	[*A*]The present analysis[*R*]examined[*A*]50 to 100 ms s1 activity	context()	negated: False ,passive: False
+0.861	[*A*]The present analysis[*R*]examined 50 using[*A*]source strength from VESTAL volumes	context(The present analysis examined)	negated: False ,passive: False
+0.736	[*A*]The present analysis[*R*]examined[*A*]50	context()	negated: False ,passive: False
+0.867	[*A*]VESTAL volumes[*R*]summed[*A*]from 30 to 80 ms	context()	negated: False ,passive: True
+[LINE#173] Within-group t-tests compared 50 and 100ms activity to baseline, and between-groupt-tests examined group differences.
+0.991	[*A*]within - group t - tests[*R*]compared[*A*]100 ms activity	context()	negated: False ,passive: False
+0.999	[*A*]Within-group t tests[*R*]compared[*A*]100 ms activity	context()	negated: False ,passive: False
+0.919	[*A*]Within-group t - tests[*R*]compared[*A*]100 ms activity[*A*]to baseline	context()	negated: False ,passive: False
+0.991	[*A*]within - group t - tests[*R*]compared[*A*]50 ms activity	context()	negated: False ,passive: False
+0.999	[*A*]Within-group t tests[*R*]compared[*A*]50 ms activity	context()	negated: False ,passive: False
+0.919	[*A*]Within-group t - tests[*R*]compared[*A*]50 ms activity[*A*]to baseline	context()	negated: False ,passive: False
+0.926	[*A*]between - groupt - tests[*R*]examined[*A*]group differences	context()	negated: False ,passive: False
+[LINE#174]For within-group analyses, spatial smoothing of sigma 2mm was applied.
+0.965	[*A*]spatial smoothing of sigma 2mm[*R*]was applied[*A*]For within-group analyses	context()	negated: False ,passive: True
+[LINE#175]Given that between group differences are likely smaller than within-group differences for pre- versus post-stimulus activity, spatial smoothing of sigma 5mm was applied for between-group analyses.
+0.855	[*A*]mm[*R*]was applied[*A*]for between-group analyses	context()	negated: False ,passive: True
+[LINE#176]To control for multiple comparisons, false discovery rates (FDR; Benjamini, 2010; Benjamini and Hochberg, 1995) were computed for within- and between-group VESTAL statistical images.
+0.913	[*A*]false discovery rates[*R*]were computed[*A*]for within- and between - group VESTAL statistical images	context()	negated: False ,passive: True
+[LINE#177]An FDR of <1% was set for within-group analysis (FDR q<0.01), and an FDR of <5% was set for between-group analysis (FDR q<0.05), and only voxels that survived a threshold according to q<0.01 or q<0.05 were retained for statistical inferences.
+0.992	[*A*]5 %[*R*]was set for[*A*]between group analysis	context()	negated: False ,passive: False
+0.681	[*A*]0.05[*R*]were retained[*A*]for statistical inferences[*A*]q<0.05	context()	negated: False ,passive: True
+0.887	[*A*]only voxels[*R*]survived[*A*]a threshold[*A*]according to q<	context()	negated: False ,passive: False
+0.895	[*A*]5%[*R*]was set[*A*]for between-group analysis[*A*]q<0.01	context()	negated: False ,passive: True
+0.827	[*A*]1%[*R*]was set[*A*]for within-group analysis	context()	negated: False ,passive: True
+[LINE#178]2 shows pre- to post-stimulus 50 and 100ms maps for each group (FDR q<0.01).
+[LINE#179]STG and frontal activity was observed bilaterally in the HC and SZ groups at both 50 and 100ms.
+0.918	[*A*]frontal activity[*R*]was observed bilaterally[*A*]in the SZ groups[*A*]at 100ms	context()	negated: False ,passive: True
+0.918	[*A*]frontal activity[*R*]was observed bilaterally[*A*]in the SZ groups[*A*]at both 50	context()	negated: False ,passive: True
+0.918	[*A*]frontal activity[*R*]was observed bilaterally[*A*]in the HC groups[*A*]at 100ms	context()	negated: False ,passive: True
+0.918	[*A*]frontal activity[*R*]was observed bilaterally[*A*]in the HC groups[*A*]at both 50	context()	negated: False ,passive: True
+0.877	[*A*]STG[*R*]was observed bilaterally[*A*]in the SZ groups[*A*]at 100ms	context()	negated: False ,passive: True
+0.877	[*A*]STG[*R*]was observed bilaterally[*A*]in the SZ groups[*A*]at both 50	context()	negated: False ,passive: True
+0.877	[*A*]STG[*R*]was observed bilaterally[*A*]in the HC groups[*A*]at 100ms	context()	negated: False ,passive: True
+0.877	[*A*]STG[*R*]was observed bilaterally[*A*]in the HC groups[*A*]at both 50	context()	negated: False ,passive: True
+[LINE#180]In addition, activity in posterior superior frontal gyrus (SFG_p)/supplementary motor area (SMA) was observed in the right hemisphere for HC and in the left hemisphere for SZ.
+0.957	[*A*]activity in posterior superior frontal gyrus[*R*]was observed[*A*]in the right hemisphere in the left hemisphere for SZ	context()	negated: False ,passive: True
+0.933	[*A*]activity in posterior superior frontal gyrus[*R*]was observed[*A*]in the right hemisphere for HC	context()	negated: False ,passive: True
+[LINE#181]Interestingly, right superior frontal gyrus (R-SFG) activity was observed only in SZ..
+0.971	[*A*]right superior frontal gyrus (R-SFG) activity[*R*]was observed[*A*]only in SZ	context()	negated: False ,passive: True
+[LINE#182] analysesGroup contrast maps at 50ms(Fig. 3) showed group differences in STG and non-STG regions (FDR q<0.05).
+0.940	[*A*]analysesGroup contrast maps at 50 ms[*R*]showed[*A*]group differences in non-STG regions	context()	negated: False ,passive: False
+0.950	[*A*]analysesGroup contrast maps at 50 ms[*R*]showed[*A*]group differences in STG	context()	negated: False ,passive: False
+[LINE#183] HC had stronger left and right STG (R-ITG), and left and right IFG (L-IFG, R-IFG).
+0.904	[*A*]HC[*R*]had[*A*]right STG	context()	negated: False ,passive: False
+0.734	[*A*]HC[*R*]had[*A*]stronger left	context()	negated: False ,passive: False
+0.697	[*A*]HC[*R*]left	context()	negated: False ,passive: False
+[LINE#184] SZ had stronger right superior frontal gyrus (R-SFG) and left supramarginal gyrus (L-SMG) 50ms activity than HC.Similar to the 50ms group maps, group contrast maps at 100ms(Fig. 4) showed group differences in STG and non-STG regions (FDR q<0.05).
+[LINE#185]HC had stronger activity in L-STG, R-STG, R-ITG, R-IFG, and the posterior part of right SFG (R-SFG_p)/SMA than SZ at 100ms.
+0.938	[*A*]HC[*R*]had[*A*]stronger activity in L-STG, R-STG, R-ITG, R-IFG	context()	negated: False ,passive: False
+[LINE#186]SZ had stronger activity in R-SFG, posterior part of left SFG (L-SFG_p)/SMA, and L-SMG than HC at 100ms.
+0.904	[*A*]SZ[*R*]had[*A*]stronger activity in R-SFG	context()	negated: False ,passive: False

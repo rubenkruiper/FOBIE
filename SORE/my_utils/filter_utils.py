@@ -20,10 +20,28 @@ from SORE.my_utils.spacyNLP import spacy_nlp
 
 
 class PrepareEmbeddings():
+    """
+    Encapsulates the settings, paths and functionality to prepare ELMo (PubMed) embeddings from narrow IE and Open IE extractions.
+    """
 
     def __init__(self, prefix, sp_model_path, sp_vocab_size, IDF_path, csv_path,
                  elmo_options, elmo_weights, SUBWORD_UNIT_COMBINATION='max',
                  subwordunits=True, stemming=False, stopwords=False):
+        """
+        Initialise the embedding object with all required settings, so these settings can be retrieved later on.
+
+        :param prefix: Experiment name
+        :param sp_model_path: Path to the pre-trained SentencePiece model.
+        :param sp_vocab_size: Size of the pre-trained SentencePiece model.
+        :param IDF_path: Path to the pre-computed IDF weights.
+        :param csv_path: Path to the narrow IE extractions (stored in a single csv file)
+        :param elmo_options: Path to elmo options file
+        :param elmo_weights: Path to elmo weights file
+        :param SUBWORD_UNIT_COMBINATION: How to combine the weights for a selection of subwordunits that make up a single token.
+        :param subwordunits: Boolean value that indicates whether subwordunits have been used during IDF weight creation.
+        :param stemming: Boolean that determines whether keyphrases are stemmed before filtering.
+        :param stopwords: Boolean that determines whether stopwords are removed from keyphrases before filtering.
+        """
 
         self.prefix = prefix
         self.sp_vocab_size = sp_vocab_size
@@ -47,7 +65,12 @@ class PrepareEmbeddings():
 
 
     def porterstemmer(self, str_input):
-        """ Porter stemmer - should actually get single words as input and output """
+        """
+        Porter stemmer - actually gets single words as input and output, so that the tokenisation of TextBlob and spacy aligns.
+
+        :param str_input: string to stem
+        :return: stemmed string
+        """
         self.blob = TextBlob(str_input.lower())
         tokens = self.blob.words
         stem = [token.stem() for token in tokens]
@@ -55,10 +78,20 @@ class PrepareEmbeddings():
 
 
     def parse_argument_list(self, string_list):
+        """
+        Reads string of arguments (from the narrow IE extractions csv file) and outputs as list.
+        :param string_list: Narrow IE CSV argument-string
+        :return: Narrow IE argument list
+        """
         return [x[1: -1] for x in string_list[1: -1].split(", ")]
 
 
     def load_narrowIE_data(self):
+        """
+        Loads the argument phrases from the narrow IE CSV file, and preprocesses them following the stemming/stopword settings.
+
+        :return: Phrases (with/without stopwords and possibly stemmed)
+        """
 
         if self.stopwords:
             stopwords = []
@@ -106,6 +139,12 @@ class PrepareEmbeddings():
 
 
     def compute_weights_for_phrases(self, preprocessed_phrases):
+        """
+        Compute the IDF weights for the tokens in a list of preprocessed phrases
+
+        :param preprocessed_phrases: list of phrases to compute IDF weights for
+        :return: list of IDF weights for the pre-processed tokens in each phrase
+        """
         IDF_weights_for_phrases = []
         for preprocessed_phrase in preprocessed_phrases:
             IDF_weights_for_phrase = []
@@ -152,6 +191,12 @@ class PrepareEmbeddings():
 
 
     def embed_all_narrowIE_phrases(self, phrase_dict):
+        """
+        Compute the embeddings for all the narrow IE phrases, following the preprocessing settings.
+
+        :param phrase_dict: Dict with phrases, to identify which document the narrow IE extractions belong to
+        :return: Dict with embeddings, to identify which document the embeddings belong to
+        """
         embeddings_dict = {}
 
         for doc_id, preprocessed_phrases in phrase_dict.items():
@@ -178,6 +223,12 @@ class PrepareEmbeddings():
 
 
     def preprocess_and_embed_phrase_list(self, preprocessed_phrases):
+        """
+        Compute the embeddings for a list of OIE phrases.
+
+        :param preprocessed_phrases: List of pre-processed phrases (e.g. no stopwords)
+        :return: List of embeddings for pre-processed phrases (e.g. no stopwords)
+        """
         weights_for_phrases = self.compute_weights_for_phrases(preprocessed_phrases)
 
         embeddings = []
@@ -198,10 +249,20 @@ class PrepareEmbeddings():
         return embeddings
 
 
-
-
 class ClusterTradeOffs():
+    """
+    Encapsulates settings and paths for clustering of narrow IE arguments.
+    """
     def __init__(self, filter_data_path, number_of_clusters, sp_size, stemming, stopwords):
+        """
+        Initialise with cluster settings for reuse.
+
+        :param filter_data_path: Path to directory with filter data, default is "SORE/data/filter_data/"
+        :param number_of_clusters: Number of clusters to compute - the maximum number of clusters depends on the size of the input data!
+        :param sp_size: Size of the trained SentencePiece model.
+        :param stemming: Boolean - whether keyphrases were stemmed before clustering.
+        :param stopwords: Boolean whether stopwords were removed from keyphrases before clustering
+        """
         self.randomstate = 14
         self.filter_data_path = filter_data_path
         self.number_of_clusters = number_of_clusters
@@ -211,6 +272,13 @@ class ClusterTradeOffs():
 
 
     def cluster_kmeans(self, input_matrix, KM_CLUSTERS):
+        """
+        Compute the K-means model.
+
+        :param input_matrix: Embeddings x (pre-processed) phrases
+        :param KM_CLUSTERS: Number of clusters
+        :return: K-means model
+        """
         print("Starting clustering with data shape {}".format(input_matrix.shape))
         km = KMeans(n_clusters=KM_CLUSTERS, random_state=self.randomstate)
         km.fit(input_matrix)
@@ -219,8 +287,15 @@ class ClusterTradeOffs():
 
     def get_Kmeans_model(self, phrases_dict, embeddings_dict):
         """
-        Could add doc_id info to clusters.
+        Compute or load a K-means model.
+
+        :param phrases_dict: Phrases to compute the K-means model.
+        :param embeddings_dict: Embeddings to compute the K-means model.
+        :return: K-means model
         """
+
+        # ToDo - Could add doc_id info to clusters.
+
         all_phrases = []
         embeddings = []
 
@@ -256,6 +331,14 @@ class ClusterTradeOffs():
 
 
     def cluster(self, km_model, phrases_dict, embeddings_dict):
+        """
+        Use a K-means model to compute the clusters for phrases and corresponding embeddings
+
+        :param km_model: The K-means model to use.
+        :param phrases_dict: The phrases to compute clusters for.
+        :param embeddings_dict: The embeddings corresponding to the phrases to compute clusters for.
+        :return: clustering_data - Cluster-information for the input phrases, and results - a dataframe containing clustering info
+        """
         all_phrases = []
         embeddings = []
 
@@ -285,6 +368,13 @@ class ClusterTradeOffs():
 
 
     def print_cluster_words(self, cluster_phrases, amount_to_print):
+        """
+        Determine the words that are most commonly used in the phrases of a cluster.
+
+        :param cluster_phrases: Phrases that belong to a cluster
+        :param amount_to_print: Number of most-used words to return
+        :return: The most used words...
+        """
         cluster_word_c = Counter()
         for phrase in cluster_phrases['phrase']:
             for token in phrase:
@@ -294,7 +384,10 @@ class ClusterTradeOffs():
 
     def cluster_insight(self, results, amount_to_print=10):
         """
-        Print a couple of the clusters to see what type of arguments are found.
+         Print a couple of lines (amount_to_print) per cluster to see what type of arguments they contain.
+
+        :param results: The dataframe containing cluster-information (in terms of words and phrases and their distance to the centroid)
+        :param amount_to_print: Number of 'top phrases' and 'top words' to print per cluster
         """
         stopwords = []
         if self.stopwords:
@@ -321,10 +414,10 @@ class ClusterTradeOffs():
 
 
     def scatter(self, x, colors, category_list, NUM_CLUSTERS):
-        # We choose a color palette with seaborn.
+        # Choose a color palette with seaborn.
         palette = np.array(sns.color_palette("hls", NUM_CLUSTERS))
 
-        # We create a scatter plot.
+        # Create a scatter plot.
         f = plt.figure(figsize=(60, 60))
         ax = plt.subplot()  # 'equal')
         sc = ax.scatter(x[:, 0], x[:, 1], lw=0, s=100,
@@ -333,7 +426,7 @@ class ClusterTradeOffs():
         ax.axis('on')
         ax.axis('tight')
 
-        # We add the labels for each digit.
+        # Add the labels for each digit.
         txts = []
         for i in range(NUM_CLUSTERS):
             # Position of each label.
@@ -358,6 +451,8 @@ class ClusterTradeOffs():
         self.scatter(digits_proj, km_model.labels_,
                      category_list,
                      self.number_of_clusters)
+
+        # ToDo - check whether the cluster_plots dir exists and create if it doesn't (does not by default)
         plt.savefig('cluster_plots/plot_{}.png'.format(settings), dpi=120)
         print("Saved plot to 'cluster_plots/plot_{}.png'".format(settings))
 
@@ -365,8 +460,23 @@ class ClusterTradeOffs():
 ################################################################## old stuff need to check ##
 
 class SoreFilter():
+    """
+    Encapsulates all settings and paths for the SORE filtering step.
+    """
     def __init__(self, OIE_path, csv_path, IDF_path, subwordunit, sp_model_path,
                  emb_weights, emb_options, filter_settings):
+        """
+        Initialise SORE filtering object.
+
+        :param OIE_path: Path to Open IE extractions (directory with .txt files).
+        :param csv_path: Path to narrow IE extractions (single csv file).
+        :param IDF_path: Path to IDF weights file.
+        :param subwordunit: Boolean - whether subword units were used.
+        :param sp_model_path: Path to SentencePiece model (in case subwords units are used).
+        :param emb_weights: Path to ELMo (PubMed) embedding weights.
+        :param emb_options: Path to ELMo (PubMed) embedding options.
+        :param filter_settings: Dict with the settings used during filtering
+        """
 
         self.OIE_input = OIE_path
         self.csv_path = csv_path
@@ -393,7 +503,10 @@ class SoreFilter():
 
     def parse_openie_triple(self, line):
         """
-        Parses a line from an OIE file that contains a triple
+        Parses a line from an OIE file that contains an n-ary extraction.
+
+        :param line: string that contains an OIE extraction (n-ary, not necessarily a triple)
+        :return: OIE confidence score, list of arguments, relation, context, negation
         """
         confidence, tuple, context, neg_pass = line.split('\t')
         negation = neg_pass.split(':')[1].startswith('T')
@@ -408,12 +521,20 @@ class SoreFilter():
                 arg_list.append(arg2)
 
         except IndexError:
+            # Don't think this ever occurs
             return "skipping line because it start with 0. and I'm too hasted to implement regex"
 
         return confidence, arg_list, rel, context, negation
 
 
     def preprocess_arguments(self, arg_list, embedder):
+        """
+        Get the settings from the embedder used to embed narrow IE phrases, in order to pre-process Open IE phrases.
+
+        :param arg_list: List of Open IE argument-phrases.
+        :param embedder: The embedder object used to embed narrow IE phrases.
+        :return: Preprocessed phrases and their length in number of tokens
+        """
 
         if embedder.stopwords:
             stopwords = []
@@ -447,7 +568,12 @@ class SoreFilter():
 
     def read_openie_results(self, file_name, oie_cutoff, embedder):
         """
-        Reads all OIE results for a single document, and preprocesses the phrases extracted by
+        Reads all OIE extractions for a single document, and pre-processes the phrases following the narrow IE embedding settings.
+
+        :param file_name: Open IE extractions file.
+        :param oie_cutoff: Minimum confidence score for an Open IE extraction, if lower the extraction will be discarded.
+        :param embedder: Embedder object that encapsulates the settings used to pre-process narrow IE argument-phrases.
+        :return: A dictionary with all the Open IE extractions for a document.
         """
         all_results = open(file_name).readlines()
 
@@ -481,12 +607,17 @@ class SoreFilter():
 
 
     def get_weights_for_spacy_token(self, arg):
+        """
+        Get the IDF-weights for the words in a single OIE phrase.
+
+        :param arg: single Open IE argument phrase
+        :return: list of tokens and list of corresponding IDF weights
+        """
         weights_for_args_dict = {}
         arg_list = []
         weights_list = []
 
         for w in spacy_nlp(arg):
-
             try:
                 if self.IDF_values[w.text] > self.idf_threshold:
                     arg_list.append(w.text)
@@ -500,6 +631,12 @@ class SoreFilter():
 
 
     def get_weights_for_subwordunits(self, arg):
+        """
+        Get the IDF-weights for the subword-units of a single spacy token in an OIE phrase.
+
+        :param arg: single Open IE argument phrase
+        :return: list of tokens and list of corresponding IDF weights
+        """
         weights_for_args_dict = {}
         arg_list = []
         weights_list = []
@@ -516,33 +653,43 @@ class SoreFilter():
             weights_for_args_dict[tuple(arg_list)] = weights_list
             return arg_list, weights_for_args_dict
 
-
-    def get_weights_for_OIE_arguments(self, oie_dict):
-        """
-        For every OIE argument, prepare a weight-vector
-        """
-        weights_for_args_dict = {None: 0}
-        for sent_id in oie_dict:
-            for idx, triple in enumerate(oie_dict[sent_id]['extractions']):
-                if self.subwordunit:
-                    oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_subwordunits(triple[0])
-                    oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_subwordunits(triple[-1])
-                    # context as well? or list of secondary args
-                    weights_for_args_dict.update(w1)
-                    weights_for_args_dict.update(w2)
-                else:
-                    oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_spacy_token(triple[0])
-                    oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_spacy_token(triple[-1])
-                    # context as well? or list of secondary args
-                    weights_for_args_dict.update(w1)
-                    weights_for_args_dict.update(w2)
-
-        return oie_dict, weights_for_args_dict
+    #
+    # def get_weights_for_OIE_arguments(self, oie_dict):
+    #     """
+    #     Prepares a weight-vector for every Open IE argument-phrase.
+    #     SEEMS TO NOT BE IN USE
+    #     SEEMS TO NOT BE IN USE
+    #     SEEMS TO NOT BE IN USE
+    #
+    #     :param oie_dict: Dict for a single document, contains a.o. sentence-ids and extractions for that sentence.
+    #     :return: the
+    #     """
+    #     weights_for_args_dict = {None: 0}
+    #     for sent_id in oie_dict:
+    #         for idx, triple in enumerate(oie_dict[sent_id]['extractions']):
+    #             if self.subwordunit:
+    #                 oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_subwordunits(triple[0])
+    #                 oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_subwordunits(triple[-1])
+    #                 # context as well? or list of secondary args
+    #                 weights_for_args_dict.update(w1)
+    #                 weights_for_args_dict.update(w2)
+    #             else:
+    #                 oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_spacy_token(triple[0])
+    #                 oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_spacy_token(triple[-1])
+    #                 # context as well? or list of secondary args
+    #                 weights_for_args_dict.update(w1)
+    #                 weights_for_args_dict.update(w2)
+    #
+    #     return oie_dict, weights_for_args_dict
 
 
     def get_clusters_for_arguments(self, cluster_model, embeddings):
         """
-        For every narrowIE arg, determine the cluster id
+        Compute the cluster_id for an argument-phrase.
+
+        :param cluster_model: K-means model
+        :param embeddings: List of embeddings for argument-phrases
+        :return: List of cluster-ids per argument-phrase
         """
         clusters_for_args = []
 
@@ -554,7 +701,16 @@ class SoreFilter():
 
 
     def phrase_similarity(self, narrowIE_embeddings, oie_arg_embedding):
-        """  Might add some more similarity options, although cosine seemed best so far.  """
+        """
+        Computes the similarity between two phrases, similarity measure to use can be set in SORE_settings.json file.
+
+        :param narrowIE_embeddings: Embeddings for a phrase extracted by narrow IE
+        :param oie_arg_embedding: Embeddings for a phrase extracted by Open IE
+        :return: A similarity score
+        """
+
+        # ToDo - Add some more similarity options for people to play around with
+
         similarities = []
 
         for nIEarg in narrowIE_embeddings:
@@ -570,22 +726,47 @@ class SoreFilter():
 
         return max(similarities)
 
-
-    def write_to_file(self, sore_input, oie_dict, filtered_triples):
-        # for all the filtered triples in the file store the overview in a readable format:
-        base_path, directory, filename = sore_input.rsplit('/', maxsplit=2)
-        output_filename = base_path + '/FILTERED_OIE/' + filename
-
-        # NEED TO MAKE THE DICT DUMPABLE (tuples are issue) -> convert to string
-        json_dict = { "oie_dict": oie_dict,
-                      'filtered_triples': filtered_triples}
-
-        with open(output_filename, 'w') as f:
-            json.dump(json_dict, f)
+    #
+    # def write_to_file(self, sore_input, oie_dict, filtered_triples):
+    #     """
+    #     Write the filtered triples to a file. Enables simply loading, e.g., if the pipeline breaks.
+    #
+    #     SEEMS TO BE OLD AND NOT USED
+    #     SEEMS TO BE OLD AND NOT USED
+    #     SEEMS TO BE OLD AND NOT USED
+    #     SEEMS TO BE OLD AND NOT USED
+    #
+    #     :param sore_input:
+    #     :param oie_dict:
+    #     :param filtered_triples:
+    #     :return:
+    #     """
+    #     # for all the filtered triples in the file store the overview in a readable format:
+    #     base_path, directory, filename = sore_input.rsplit('/', maxsplit=2)
+    #     output_filename = base_path + '/FILTERED_OIE/' + filename
+    #
+    #     # NEED TO MAKE THE DICT DUMPABLE (tuples are issue) -> convert to string
+    #     json_dict = { "oie_dict": oie_dict,
+    #                   'filtered_triples': filtered_triples}
+    #
+    #     with open(output_filename, 'w') as f:
+    #         json.dump(json_dict, f)
 
 
     def start_filtering(self, output_dir, prefix, num_clusters, narrowIE_phrases, narrowIE_embeddings, embedder,
                         cluster_model, print_stats):
+        """
+        Script to filter all the Open IE extractions.
+
+        :param output_dir: Path to a directory to write filtered files.
+        :param prefix: Name of the experiment for re-use.
+        :param num_clusters: Number of clusters (used to determine output name for re-use)
+        :param narrowIE_phrases: Phrases found by narrow IE for all documents.
+        :param narrowIE_embeddings: Embeddings for the phrases found by narrow IE for all documents.
+        :param embedder: Embedder object, which stores the settings used to embed the narrow IE phrases.
+        :param cluster_model: Clustering model trained on narrow IE phrases, in order to cluster the Open IE phrases.
+        :param print_stats: Boolean - determines whether the pre- and post-filtering statistics should be printed.
+        """
 
         all_OIE_files = glob.glob(self.OIE_input + "*.txt")
         OIE_pathnames = {}
@@ -606,7 +787,6 @@ class SoreFilter():
             if os.path.exists(output_name_unfiltered):
                 with open(output_name_unfiltered) as unfiltered:
                     OIE_dict.update(json.load(unfiltered))
-                OIE_doc_dict = OIE_dict[doc_id]
             else:
                 OIE_doc_dict = self.read_openie_results(OIE_pathnames[doc_id], 0.0, embedder)
                 with open(output_name_unfiltered, 'w') as unfiltered:
@@ -625,7 +805,7 @@ class SoreFilter():
                 possible_SORE_dict = {doc_id: {'narrowIE_args': narrowIE_phrases[doc_id]}}
                 total_triples = 0
 
-                for sent_id, extractions_dict_list in OIE_doc_dict.items():
+                for sent_id, extractions_dict_list in OIE_dict[doc_id].items():
                     possible_sent_dict = {sent_id: [extractions_dict_list.pop(0)]}
                     found_triple = False
 
@@ -673,7 +853,9 @@ class SoreFilter():
 
 def get_stats_filtered(SORE_style_dict):
     """
-    Print the statistics for a dictionary with OIE extractions, pre- or post-filtering.
+    Print the statistics for a dictionary with OIE extractions, post-filtering.
+
+    :param SORE_style_dict: Dict with OIE extractions AFTER filtering with SORE.
     """
     tuple_c = 0
     unique_arg_c = Counter()
@@ -710,7 +892,9 @@ def get_stats_filtered(SORE_style_dict):
 
 def get_stats_unfiltered(OIE_style_dict):
     """
-    Print the statistics for a dictionary with OIE extractions, pre- or post-filtering.
+    Print the statistics for a dictionary with OIE extractions, pre-filtering.
+
+    :param SORE_style_dict: Dict with OIE extractions BEFORE filtering with SORE.
     """
     tuple_c = 0
     unique_arg_c = Counter()

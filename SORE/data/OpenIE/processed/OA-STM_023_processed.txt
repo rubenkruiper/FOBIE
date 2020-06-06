@@ -1,0 +1,895 @@
+[LINE#1]-crystal Czochralski silicon used for photovoltaics is typically supersaturated with interstitial oxygen at temperatures just below the melting point.
+0.960	[*A*]-crystal Czochralski silicon[*R*]is supersaturated[*A*]with interstitial oxygen at temperatures just below the melting point[*A*]typically	context()	negated: False ,passive: True
+0.939	[*A*]-crystal Czochralski silicon[*R*]used[*A*]for photovoltaics	context()	negated: False ,passive: True
+[LINE#2]Oxide precipitates therefore can form during ingot cooling and cell processing, and nucleation sites are typically vacancy-rich regions.
+0.887	[*A*]Oxide precipitates[*R*]can form[*A*]during cell processing	context()	negated: False ,passive: True
+0.887	[*A*]Oxide precipitates[*R*]can form[*A*]during ingot cooling	context()	negated: False ,passive: True
+0.903	[*A*]nucleation sites[*R*]are[*A*]typically[*A*]vacancy - rich regions	context()	negated: False ,passive: True
+[LINE#3]Oxygen precipitation gives rise to recombination centres, which can reduce cell efficiencies by as much as 4% (absolute).
+0.887	[*A*]recombination centres[*R*]can reduce[*A*]cell efficiencies[*A*]by as much as 4% (absolute	context()	negated: False ,passive: False
+0.927	[*A*]Oxygen precipitation[*R*]gives[*A*]rise[*A*]to recombination centres	context()	negated: False ,passive: False
+[LINE#4]We have studied the recombination behaviour in p-type and n-type monocrystalline silicon with a range of doping levels intentionally processed to contain oxide precipitates with a range of densities, sizes and morphologies.
+0.452	[*A*]We[*R*]have studied[*A*]the recombination behaviour[*A*]in n - type monocrystalline silicon	context()	negated: False ,passive: False
+0.903	[*A*]doping levels[*R*]intentionally processed[*A*]to contain oxide precipitates with a range of morphologies	context()	negated: False ,passive: True
+0.903	[*A*]doping levels[*R*]intentionally processed[*A*]to contain oxide precipitates with a range of sizes	context()	negated: False ,passive: True
+0.903	[*A*]doping levels[*R*]intentionally processed[*A*]to contain oxide precipitates with a range of densities	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]have studied[*A*]the recombination behaviour[*A*]in p - type monocrystalline silicon	context()	negated: False ,passive: False
+[LINE#5]We analyse injection-dependent minority carrier lifetime measurements to give a full parameterisation of the recombination activity in terms of Shockley-Read-Hall statistics.
+0.550	[*A*]We[*R*]analyse injection-dependent minority carrier lifetime measurements to give[*A*]a full parameterisation of the recombination activity in terms of Shockley-Read-Hall statistics	context(We analyse)	negated: False ,passive: False
+0.550	[*A*]We[*R*]analyse[*A*]injection-dependent minority carrier lifetime measurements[*A*]to give a full parameterisation of the recombination activity in terms of Shockley-Read-Hall statistics	context()	negated: False ,passive: False
+[LINE#6]We intentionally contaminate specimens with iron, and show recombination activity arises from iron segregated to oxide precipitates and surrounding defects.
+0.894	[*A*]oxide[*R*]surrounding[*A*]defects	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]intentionally contaminate[*A*]specimens	context()	negated: False ,passive: False
+[LINE#7]We find that phosphorus diffusion gettering reduces the recombination activity of the precipitates to some extent.
+0.891	[*A*]phosphorus diffusion gettering[*R*]reduces[*A*]the recombination activity of the precipitates[*A*]to some extent	context(We find)	negated: False ,passive: False
+0.339	[*A*]We[*R*]find[*A*]that phosphorus diffusion gettering reduces the recombination activity of the precipitates to some extent	context()	negated: False ,passive: False
+[LINE#8]We also find that bulk iron is preferentially gettered to the phosphorus diffused layer rather than to oxide precipitates.
+0.878	[*A*]bulk iron[*R*]is preferentially gettered[*A*]to the phosphorus	context(We find)	negated: False ,passive: True
+0.206	[*A*]We[*R*]find[*A*]that bulk iron is preferentially gettered to the phosphorus	context()	negated: False ,passive: False
+0.732	[*A*]the phosphorus[*R*]diffused	context()	negated: False ,passive: False
+[LINE#9]As a consequence of using fast crystal pulling rates, some monocrystalline Cz-Si solar wafers contain vacancy-rich regions which act as preferential sites for precipitation of supersaturated bulk oxygen.
+0.927	[*A*]vacancy-rich regions[*R*]act[*A*]as preferential sites for precipitation of supersaturated bulk oxygen	context()	negated: False ,passive: False
+0.956	[*A*]Cz-Si solar wafers[*R*]contain[*A*]vacancy-rich regions which act as preferential sites for precipitation of supersaturated bulk oxygen	context(some monocrystalline)	negated: False ,passive: False
+0.649	[*A*]some[*R*]monocrystalline[*A*]Cz-Si solar wafers contain vacancy-rich regions	context()	negated: False ,passive: False
+[LINE#10]Oxide precipitates and surrounding defects are associated with recombination activity, and this can have a substantial detrimental impact on the conversion efficiency of solar cells.
+0.767	[*A*]surrounding defects[*R*]are associated[*A*]with this	context()	negated: False ,passive: True
+0.945	[*A*]Oxide precipitates[*R*]can have[*A*]a substantial detrimental impact on the conversion efficiency of solar cells	context()	negated: False ,passive: False
+0.817	[*A*]Oxide precipitates[*R*]are associated[*A*]with this	context()	negated: False ,passive: True
+0.903	[*A*]surrounding defects[*R*]are associated[*A*]with recombination activity	context()	negated: False ,passive: True
+0.927	[*A*]Oxide precipitates[*R*]are associated[*A*]with recombination activity	context()	negated: False ,passive: True
+[LINE#11]We have used injection-dependent minority carrier lifetime measurements to study this recombination activity in 100 samples with different types, doping levels, precipitate morphologies and sizes.
+0.293	[*A*]We[*R*]have used injection - dependent minority carrier lifetime measurements precipitate[*A*]sizes	context(We have used)	negated: False ,passive: False
+0.504	[*A*]We[*R*]have used[*A*]injection - dependent minority carrier lifetime measurements[*A*]to study this recombination activity in 100 samples with different types , doping levels , precipitate sizes	context()	negated: False ,passive: False
+0.293	[*A*]We[*R*]have used injection - dependent minority carrier lifetime measurements precipitate[*A*]morphologies	context(We have used)	negated: False ,passive: False
+0.504	[*A*]We[*R*]have used[*A*]injection - dependent minority carrier lifetime measurements[*A*]to study this recombination activity in 100 samples with different types , doping levels , precipitate morphologies	context()	negated: False ,passive: False
+[LINE#12]In all cases we find the lifetime can be parameterised in terms of two independent defect states.
+0.678	[*A*]the lifetime[*R*]can be parameterised	context(we find)	negated: False ,passive: False
+0.707	[*A*]we[*R*]find[*A*]the lifetime can be parameterised in terms of two independent defect states[*A*]In all cases	context()	negated: False ,passive: False
+[LINE#13]The first defect is at EV+0.22eV and has a capture coefficient for electrons 157 times greater than that for holes.
+0.889	[*A*]The first defect[*R*]has[*A*]a capture coefficient for electrons 157 times greater than that for holes	context()	negated: False ,passive: False
+0.942	[*A*]The first defect[*R*]is[*A*]at EV+0.22eV	context()	negated: False ,passive: True
+[LINE#14]The second defect is at EC-0.08eV and has a capture coefficient for holes ~1200 times greater than that for electrons.
+0.889	[*A*]The second defect[*R*]has[*A*]a capture coefficient for holes ~1200 times greater than that for electrons	context()	negated: False ,passive: False
+0.942	[*A*]The second defect[*R*]is[*A*]at EC - 0.08eV	context()	negated: False ,passive: True
+[LINE#15]The concentration of centres appears to scale with the density (not size) of the precipitates, with surrounding dislocations and stacking faults increasing the density of centres per precipitate.
+0.894	[*A*]faults[*R*]increasing[*A*]the density of centres per precipitate	context()	negated: False ,passive: False
+0.939	[*A*]The concentration of centres[*R*]to scale[*A*]with the density ( not size ) of the precipitates	context()	negated: False ,passive: False
+0.939	[*A*]The concentration of centres[*R*]to scale[*A*]with the density ( not size ) of the precipitates , with surrounding dislocations	context()	negated: False ,passive: False
+0.769	[*A*]The concentration of centres[*R*]appears	context()	negated: False ,passive: False
+[LINE#16]Remarkably, we find the same defect states in oxide precipitate-containing samples which have been intentionally contaminated with iron.
+0.945	[*A*]the same defect states in oxide precipitate-containing samples[*R*]have been intentionally contaminated[*A*]with iron	context()	negated: False ,passive: False
+0.637	[*A*]we[*R*]find[*A*]the same defect states in oxide precipitate-containing samples which have been intentionally contaminated with iron	context()	negated: False ,passive: False
+[LINE#17]The density of the states per precipitate is dependent on the iron loss from the bulk per precipitate.
+0.385	[*A*]precipitate[*R*]is dependent on[*A*]the iron loss	context()	negated: False ,passive: False
+0.970	[*A*]The density of the states per precipitate[*R*]is[*A*]dependent on the iron loss from the bulk per precipitate	context()	negated: False ,passive: True
+[LINE#18]We therefore conclude that at least some of the recombination activity of oxide precipitates in "uncontaminated" samples is due to the segregation of iron to the precipitates and surrounding defects.
+0.982	[*A*]at least some of the recombination activity of oxide precipitates in " uncontaminated " samples[*R*]is[*A*]due to the segregation of iron to the surrounding defects	context(We conclude)	negated: False ,passive: True
+0.239	[*A*]We[*R*]conclude[*A*]that at least some of the recombination activity of oxide precipitates in " uncontaminated " samples is due to the segregation of iron to the surrounding defects	context()	negated: False ,passive: False
+0.971	[*A*]at least some of the recombination activity of oxide precipitates in " uncontaminated " samples[*R*]is[*A*]due to the segregation of iron to the precipitates	context(We conclude)	negated: False ,passive: True
+0.239	[*A*]We[*R*]conclude[*A*]that at least some of the recombination activity of oxide precipitates in " uncontaminated " samples is due to the segregation of iron to the precipitates	context()	negated: False ,passive: False
+[LINE#19]We find that a phosphorus diffusion gettering process reduces the density of states associated with the oxide precipitates by 20%, and that bulk iron is preferentially gettered to the phosphorus diffused layer rather than to the oxide precipitates.
+0.882	[*A*]bulk iron[*R*]is preferentially gettered[*A*]to the phosphorus	context(We find)	negated: False ,passive: True
+0.242	[*A*]We[*R*]find[*A*]that bulk iron is preferentially gettered to the phosphorus	context()	negated: False ,passive: False
+0.732	[*A*]the phosphorus[*R*]diffused	context()	negated: False ,passive: False
+0.891	[*A*]a phosphorus diffusion[*R*]gettering[*A*]process	context(We find a phosphorus diffusion gettering process reduces)	negated: False ,passive: False
+0.909	[*A*]a phosphorus diffusion gettering process[*R*]reduces[*A*]the density of states	context(We find)	negated: False ,passive: False
+0.339	[*A*]We[*R*]find[*A*]that a phosphorus diffusion gettering process reduces the density of states	context()	negated: False ,passive: False
+0.894	[*A*]states[*R*]associated[*A*]with the oxide precipitates by 20 %	context()	negated: False ,passive: True
+[LINE#20] Parameterisation in terms of SRH statisticsBy studying the injection-dependence of minority carrier lifetime as a function of doping level in both p-type and n-type siliconit has been possible to quantify recombination at oxide precipitates in terms of SRH statistics.
+0.953	[*A*]SRH statisticsBy[*R*]studying[*A*]the injection - dependence of minority carrier lifetime as a function of doping level in both siliconit	context()	negated: False ,passive: False
+0.953	[*A*]SRH statisticsBy[*R*]studying[*A*]the injection - dependence of minority carrier lifetime as a function of doping level in both n - type	context()	negated: False ,passive: False
+0.953	[*A*]SRH statisticsBy[*R*]studying[*A*]the injection - dependence of minority carrier lifetime as a function of doping level in both p - type	context()	negated: False ,passive: False
+[LINE#21]The recombination processes can be parameterised in terms of two independent single-level SRH centres, the parameters for which are stated in Table 1.
+0.905	[*A*]the parameters[*R*]are stated[*A*]in Table 1	context()	negated: False ,passive: True
+0.751	[*A*]The recombination processes[*R*]can be parameterised	context()	negated: False ,passive: False
+[LINE#22]It is not possible to determine the absolute density of these centres from our lifetime measurements alone.
+[LINE#23]However, we have provided an empirical correlation between the strained oxide precipitate density (determined by etching) and Nn for each defect.
+0.788	[*A*]the strained oxide precipitate density[*R*]determined[*A*]by etching	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]have provided[*A*]an empirical correlation between the strained oxide precipitate density (determined by etching) and Nn for each defect	context()	negated: False ,passive: False
+[LINE#24]The existence of dislocations/stacking faults around the precipitates was found to increase the Nn per precipitate values by a factor of 2 to 3.
+0.737	[*A*]The existence of dislocations[*R*]was found	context()	negated: False ,passive: False
+[LINE#25]These other defects did not however introduce any other detectable recombination centres.
+0.911	[*A*]These other defects[*R*]did not however introduce[*A*]any other detectable recombination centres	context()	negated: True ,passive: False
+[LINE#26]It is interesting to note that the same parameterisation of the recombination activity can be used before and after phosphorus diffusion gettering (Fig. 7).
+0.903	[*A*]phosphorus diffusion[*R*]gettering[*A*]Fig	context()	negated: False ,passive: False
+[LINE#27]This rules out the possibility that iron silicide precipitates form in the bulk during gettering.
+0.903	[*A*]iron silicide[*R*]precipitates[*A*]form in the bulk[*A*]during gettering	context()	negated: False ,passive: False
+0.265	[*A*]This[*R*]rules out[*A*]the possibility that iron silicide precipitates form in the bulk during gettering	context()	negated: False ,passive: False
+[LINE#28]It is likely that these would have different recombination parameters, and our results show that the gettering process does not introduce other recombination centres in detectable concentrations for the conditions studied..
+0.732	[*A*]the conditions[*R*]studied	context()	negated: False ,passive: False
+[LINE#29] The role of iron in the recombination processThe data presented in Fig.6 shows that the residual lifetime in iron-contaminated samples can be parameterised using the same two defects found in the "uncontaminated" samples.
+0.796	[*A*]the residual lifetime in iron-contaminated samples[*R*]can be parameterised	context(The role of iron in the recombination processThe data shows)	negated: False ,passive: False
+0.906	[*A*]The role of iron in the recombination processThe data[*R*]shows[*A*]that the residual lifetime in iron-contaminated samples can be parameterised using the same two defects	context()	negated: False ,passive: False
+0.919	[*A*]the same two defects[*R*]found[*A*]in the "uncontaminated" samples	context()	negated: False ,passive: True
+0.919	[*A*]the recombination processThe data[*R*]presented[*A*]in Fig.6	context()	negated: False ,passive: True
+[LINE#30]Iron contamination does not change the energy levels and the ratio of capture coefficients required to fit the injection-dependent lifetime data.
+0.903	[*A*]capture coefficients[*R*]required[*A*]to fit the injection - dependent lifetime data	context()	negated: False ,passive: True
+0.927	[*A*]Iron contamination[*R*]does not change[*A*]the ratio of capture coefficients	context()	negated: True ,passive: False
+0.927	[*A*]Iron contamination[*R*]does not change[*A*]the energy levels	context()	negated: True ,passive: False
+[LINE#31]However, the Nn parameters required to fit the lifetime data increased with increasing contamination temperature.
+0.911	[*A*]the lifetime data[*R*]increased[*A*]with increasing contamination temperature	context()	negated: False ,passive: True
+0.933	[*A*]the Nn parameters[*R*]required[*A*]to fit the lifetime data	context()	negated: False ,passive: True
+[LINE#32]Although iron solubility is clearly a factor in the resultant recombination activity, it is not the only one, as we have previously shown that the cooling rate after the contamination anneal also plays a role [23].
+0.941	[*A*]the cooling rate after the contamination[*R*]plays[*A*]a role[*A*]anneal	context(we have shown)	negated: False ,passive: False
+0.302	[*A*]we[*R*]have shown[*A*]that the cooling rate after the contamination anneal also plays a role[*A*]previously	context()	negated: False ,passive: False
+0.208	[*A*]it[*R*]is not[*A*]the only one[*A*]as we have previously shown that the cooling rate after the contamination anneal also plays a role	context()	negated: True ,passive: True
+0.925	[*A*]iron solubility[*R*]is[*A*]clearly[*A*]a factor in the resultant recombination activity	context()	negated: False ,passive: True
+[LINE#33]The bulk iron concentrations in the contaminated samples measured by photodissociation of FeB pairs are usually considerably lower than the solubility values [23].
+0.934	[*A*]The bulk iron concentrations in the contaminated samples[*R*]are[*A*]usually[*A*]considerably lower than the solubility values	context()	negated: False ,passive: True
+0.925	[*A*]the contaminated samples[*R*]measured[*A*]by photodissociation of FeB pairs	context()	negated: False ,passive: True
+[LINE#34]We assume that the difference in concentrations (Fe) has segregated to the oxide precipitates according to:(8)Fe=[Fesolubility]-[Febulk]where [Fesolubility] is the solubility of iron at the contamination temperature used, and [Febulk] is the bulk iron concentration in the contaminated sample measured by photodissociation of FeB pairs.
+0.925	[*A*]the contaminated sample[*R*]measured[*A*]by photodissociation of FeB pairs	context()	negated: False ,passive: True
+0.522	[*A*]We[*R*]is[*A*]the bulk iron concentration in the contaminated sample	context()	negated: False ,passive: True
+0.911	[*A*]Fesolubility[*R*]is[*A*]the solubility of iron at the contamination temperature	context(We assume)	negated: False ,passive: True
+0.884	[*A*]the difference in concentrations[*R*]has segregated[*A*]to the oxide	context(We assume)	negated: False ,passive: True
+0.317	[*A*]We[*R*]assume[*A*]that the difference in concentrations ( Fe ) has segregated to the oxide	context()	negated: False ,passive: False
+0.751	[*A*]the contamination temperature[*R*]used	context()	negated: False ,passive: False
+[LINE#35] The iron solubility in the relevant temperature range is given by[Fesolubility]=1.31021exp(-1.8eVkT)cm-3where T is the contamination temperature [34,35].Fig. 8 shows the relationship between the nN parameter per strained precipitate and Fe per strained precipitate for the five samples for which the lifetime data are plotted in Fig..
+0.925	[*A*]the lifetime data[*R*]are plotted[*A*]in Fig	context()	negated: False ,passive: True
+0.937	[*A*]cm-3where T[*R*]is[*A*]the contamination temperature	context()	negated: False ,passive: True
+[LINE#36]This relationship is approximately linear for Defect 1 and Defect 2.
+0.925	[*A*]This relationship[*R*]is[*A*]approximately linear for Defect 2	context()	negated: False ,passive: True
+0.925	[*A*]This relationship[*R*]is[*A*]approximately linear for Defect 1	context()	negated: False ,passive: True
+[LINE#37]This, combined with previously published data on samples with a wider variety of precipitate concentrations [23], suggests that segregated iron determines the recombination activity of the strained oxide precipitates and surrounding defects.
+0.882	[*A*]segregated iron[*R*]determines[*A*]the recombination activity of surrounding defects	context(This suggests)	negated: False ,passive: False
+0.196	[*A*]This[*R*]suggests[*A*]that segregated iron determines the recombination activity of surrounding defects	context()	negated: False ,passive: False
+0.882	[*A*]segregated iron[*R*]determines[*A*]the recombination activity of the strained oxide precipitates	context(This suggests)	negated: False ,passive: False
+0.196	[*A*]This[*R*]suggests[*A*]that segregated iron determines the recombination activity of the strained oxide precipitates	context()	negated: False ,passive: False
+[LINE#38]On the assumption that n is invariant, the density of the recombination centres appears to be proportional to the number of iron atoms segregated to the precipitates.
+0.949	[*A*]the density of the recombination centres[*R*]to be[*A*]proportional to the number of iron atoms segregated to the precipitates	context()	negated: False ,passive: True
+0.953	[*A*]the density of the recombination centres[*R*]appears[*A*]On the assumption	context()	negated: False ,passive: True
+0.786	[*A*]the assumption[*R*]n is[*A*]invariant	context()	negated: False ,passive: True
+[LINE#39]This implies that atomic decoration is more likely than iron precipitation at the oxide precipitates.
+0.908	[*A*]atomic decoration[*R*]is[*A*]more likely than iron precipitation at the oxide precipitates	context(This implies)	negated: False ,passive: True
+0.224	[*A*]This[*R*]implies[*A*]that atomic decoration is more likely than iron precipitation at the oxide precipitates	context()	negated: False ,passive: False
+[LINE#40]It is known that oxygen precipitation creates so-called Pb dangling bonds [20,46] which are known to give rise to recombination activity [20].
+0.921	[*A*]so-called Pb dangling bonds[*R*]to give[*A*]rise[*A*]to recombination activity	context()	negated: False ,passive: False
+0.921	[*A*]so-called Pb dangling bonds[*R*]are known[*A*]to give rise to recombination activity	context()	negated: False ,passive: True
+[LINE#41]However, these can be passivated by hydrogen [47,48], which is likely to be introduced into our samples during the PECVD surface passivation step [49].
+0.923	[*A*]hydrogen [47,48[*R*]is[*A*]likely to be introduced into our samples during the PECVD surface passivation step	context()	negated: False ,passive: True
+0.544	[*A*]these[*R*]can be passivated[*A*]by hydrogen [47,48	context()	negated: False ,passive: True
+[LINE#42]It is therefore possible that the only recombination activity we detect (and that would be expected in a completed solar cell) is due to impurities segregated to oxide precipitates and surrounding defects.
+0.905	[*A*]the only recombination activity[*R*]would be expected[*A*]in a completed solar cell	context()	negated: False ,passive: True
+0.903	[*A*]the only recombination activity[*R*]detect[*A*]we	context()	negated: False ,passive: True
+[LINE#43]We can estimate the number of iron atoms required to explain the recombination activity we measured in so-called "uncontaminated" samples.
+0.897	[*A*]the recombination activity[*R*]measured[*A*]in so-called "uncontaminated" samples	context()	negated: False ,passive: True
+0.903	[*A*]iron atoms[*R*]required[*A*]to explain the recombination activity	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]can estimate[*A*]the number of iron atoms	context()	negated: False ,passive: False
+[LINE#44] 5 shows the recombination rate via both defects in "uncontaminated" samples varies approximately linearly with precipitate density, with N1n1/Nstrained=(1.72.9)10-5cm3s-1 and N2n2/Nstrained=(1.85.1)10-6cm3s-1.
+0.449	[*A*]5[*R*]shows[*A*]the recombination rate	context()	negated: False ,passive: False
+[LINE#45]Assuming the state density to be proportional to Fe, the linear relationship shown in Fig. 8 is consistent with each strained precipitate in "uncontaminated" samples being decorated with 50 atoms of iron.
+0.911	[*A*]uncontaminated" samples[*R*]being decorated[*A*]with 50 atoms of iron	context()	negated: False ,passive: True
+0.942	[*A*]the linear relationship[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#46]The idea that very low levels of impurity contamination can have substantial effects on the electrical properties of extended defects is not a new one.
+0.981	[*A*]The idea that very low levels of impurity contamination can have substantial effects on the electrical properties of extended defects[*R*]is not[*A*]a new one	context()	negated: True ,passive: True
+0.932	[*A*]very low levels of impurity contamination[*R*]can have[*A*]substantial effects on the electrical properties of extended defects	context()	negated: False ,passive: False
+[LINE#47] It has been previously shown that the recombination activity of dislocation is strongly enhanced by contamination with metallic impurities [50,51].It would not be surprisingthat oxide precipitates in monocrystalline Cz-Si solar wafers are decorated by such low levels of metal impurities.
+0.550	[*A*]It[*R*]would not be[*A*]surprisingthat oxide precipitates in monocrystalline Cz-Si solar wafers	context()	negated: True ,passive: True
+0.965	[*A*]surprisingthat oxide precipitates in monocrystalline Cz-Si solar wafers[*R*]are decorated[*A*]by such low levels of metal impurities	context()	negated: False ,passive: True
+[LINE#48]The iron concentration at the precipitates required for the electrical activity seen in "uncontaminated" samples is much less than the iron solubility at temperatures at used in solar cell processing.
+0.921	[*A*]The iron concentration at the precipitates[*R*]used[*A*]in solar cell processing	context()	negated: False ,passive: True
+0.911	[*A*]the electrical activity[*R*]seen[*A*]in "uncontaminated" samples	context()	negated: False ,passive: True
+0.903	[*A*]the precipitates[*R*]required[*A*]for the electrical activity	context()	negated: False ,passive: True
+[LINE#49]found a 10s thermal treatment at 800C to result in a strong enhancement of the recombination activity of rings of oxide precipitates.
+0.960	[*A*]a 10s thermal treatment at 800C[*R*]to result[*A*]in a strong enhancement of the recombination activity of rings of oxide precipitates	context()	negated: False ,passive: True
+[LINE#50]Their thermal process would have been sufficient to redistribute low concentrations of bulk iron in the material, resulting in increased iron decoration of the precipitates.
+0.621	[*A*]Their thermal process[*R*]to redistribute[*A*]low concentrations of bulk iron in the material	context()	negated: False ,passive: False
+0.757	[*A*]Their thermal process[*R*]would have been[*A*]sufficient to redistribute low concentrations of bulk iron in the material[*A*]resulting in increased iron decoration of the precipitates	context()	negated: False ,passive: True
+[LINE#51]The efficiency reductions of up to 4% (absolute) that can arise due to oxygen precipitation in Cz-Si [7], is therefore likely to involve transition metal contamination of the precipitates and surrounding defects.
+0.596	[*A*]up absolute[*R*]has The efficiency reductions can arise due to of[*A*]4 %	context()	negated: False ,passive: False
+0.896	[*A*]The efficiency reductions that can arise due to[*R*]have % absolute of[*A*]4 %	context()	negated: False ,passive: False
+0.940	[*A*]oxygen precipitation in Cz-Si[*R*]to involve[*A*]transition metal contamination of the precipitates and surrounding defects	context()	negated: False ,passive: True
+0.971	[*A*]oxygen precipitation in Cz-Si[*R*]is[*A*]therefore likely to involve transition metal contamination of the precipitates and surrounding defects	context()	negated: False ,passive: True
+0.857	[*A*]The efficiency reductions of up to 4% (absolute[*R*]can arise[*A*]due to	context()	negated: False ,passive: True
+[LINE#52]It is interesting to note that the recombination activity of oxide precipitates in both "uncontaminated" and contaminated samples appears to be approximately dependent upon precipitate density and not size.
+0.945	[*A*]the recombination activity of oxide precipitates in both contaminated samples[*R*]to be[*A*]approximately dependent upon not size	context()	negated: False ,passive: True
+0.945	[*A*]the recombination activity of oxide precipitates in both contaminated samples[*R*]to be[*A*]approximately dependent upon precipitate density	context()	negated: False ,passive: True
+0.954	[*A*]the recombination activity of oxide precipitates in both " uncontaminated " samples[*R*]to be[*A*]approximately dependent upon not size	context()	negated: False ,passive: True
+0.954	[*A*]the recombination activity of oxide precipitates in both " uncontaminated " samples[*R*]to be[*A*]approximately dependent upon precipitate density	context()	negated: False ,passive: True
+[LINE#53]An explanation for this is that iron segregates to regions of the precipitates whose number is invariant with size, such as in the vicinity of precipitate corners. .
+0.944	[*A*]the precipitates[*R*]is[*A*]invariant with size, such as in the vicinity of precipitate corners	context()	negated: False ,passive: True
+[LINE#54]Extended versus point-like defectsIt is interesting that although oxide precipitates and surrounding dislocations and stacking faults are extended defects, we find that their effect on bulk minority carrier lifetime is that expected from point-like defects.
+0.903	[*A*]stacking faults[*R*]are[*A*]extended defects	context()	negated: False ,passive: True
+0.894	[*A*]oxide[*R*]surrounding[*A*]dislocations	context()	negated: False ,passive: True
+0.462	[*A*]their effect on bulk minority carrier lifetime[*R*]is	context(Extended versus point - like defectsIt is we find)	negated: False ,passive: False
+0.143	[*A*]we[*R*]find[*A*]that their effect on bulk minority carrier lifetime is	context(Extended versus point - like defectsIt is)	negated: False ,passive: False
+0.832	[*A*]Extended versus point - like defectsIt[*R*]is[*A*]interesting	context()	negated: False ,passive: True
+0.044	[*A*]that[*R*]expected	context()	negated: False ,passive: False
+[LINE#55]Our measurements were obtained in a wide range of samples (both types, different doping levels, a wide range of precipitate densities of morphologies, with/without iron contamination) and previously at different temperatures [21].
+0.638	[*A*]Our measurements[*R*]were obtained[*A*]in a wide range of samples	context()	negated: False ,passive: True
+0.341	[*A*]Our measurements[*R*]were obtained	context()	negated: False ,passive: False
+[LINE#56]Using our lifetime study alone, we have yet to find any feature of the process which cannot be explained using SRH statistics.
+0.397	[*A*]we[*R*]have yet to find[*A*]any feature of the process	context(we have)	negated: False ,passive: False
+0.189	[*A*]we[*R*]have[*A*]yet	context()	negated: False ,passive: False
+0.698	[*A*]the process[*R*]can not be explained	context()	negated: True ,passive: False
+[LINE#57]We note that others have applied a SRH-like approach to this problem in the past [52,53].
+0.891	[*A*]others[*R*]have applied[*A*]a SRH-like approach to this problem[*A*]in the past	context(We note)	negated: False ,passive: False
+0.317	[*A*]We[*R*]note[*A*]that others have applied a SRH-like approach to this problem in the past [52,53	context()	negated: False ,passive: False
+[LINE#58]However, we also acknowledge that other previous studies have invoked forms of barrier-controlled capture at the precipitates [54].
+0.888	[*A*]other previous studies[*R*]have invoked[*A*]forms of barrier-controlled capture at the precipitates	context(we acknowledge)	negated: False ,passive: False
+0.239	[*A*]we[*R*]acknowledge[*A*]that other previous studies have invoked forms of barrier-controlled capture at the precipitates	context()	negated: False ,passive: False
+[LINE#59]Reconciliation of the two approaches is a topic that requires further study. .
+0.887	[*A*]a topic[*R*]requires[*A*]further study	context()	negated: False ,passive: False
+0.858	[*A*]Reconciliation of the two approaches[*R*]is[*A*]a topic that requires further study	context()	negated: False ,passive: True
+[LINE#60]Lifetime in n-type and p-type siliconThere has been considerable recent interest in producing photovoltaics from n-type silicon substrates [55].
+0.956	[*A*]Lifetime in p - type siliconThere[*R*]has been[*A*]considerable recent interest in producing photovoltaics from n - type silicon substrates	context()	negated: False ,passive: True
+0.956	[*A*]Lifetime in n - type siliconThere[*R*]has been[*A*]considerable recent interest in producing photovoltaics from n - type silicon substrates	context()	negated: False ,passive: True
+[LINE#61]This is at partly because n-type material can have very high carrier lifetimes [56] due to the absence of light-induced degradation in boron-free material [57], and reduced recombination at interstitial iron [30,45].
+0.223	[*A*]This[*R*]is[*A*]at	context()	negated: False ,passive: True
+[LINE#62] Do oxide precipitates and associated defects affect recombination in one type more than another?.
+[LINE#63]The parameterisation established here and previously [21,23] can be used to estimate this.
+0.302	[*A*]previously [ 21,23[*R*]can be used[*A*]to estimate this	context()	negated: False ,passive: True
+0.767	[*A*]The parameterisation[*R*]established[*A*]here	context()	negated: False ,passive: True
+[LINE#64]We have established that iron decoration of oxide precipitates strongly enhances the recombination activity, so for a fair comparison we need to account for the iron decoration.
+0.397	[*A*]we[*R*]need to account[*A*]for the iron decoration	context(we need)	negated: False ,passive: False
+0.397	[*A*]we[*R*]need[*A*]to account for the iron decoration	context()	negated: False ,passive: False
+0.231	[*A*]We[*R*]have established[*A*]that iron decoration of oxide precipitates	context()	negated: False ,passive: False
+[LINE#65] Fitting the injection-dependent lifetime data alone does not allow for the separation of the state density (N) from the capture coefficient for electrons or holes.
+0.970	[*A*]Fitting the injection-dependent lifetime data alone[*R*]does not allow[*A*]for the separation of the state density (N) from the capture coefficient for electrons or holes	context()	negated: True ,passive: False
+[LINE#66] However, from assuming all the recombination activity arises due to iron decoration, we have previously combined iron-loss measurements with the lifetime data to estimate n1=210-6cm3s-1 and n2=410-7cm3s-1.
+0.606	[*A*]we[*R*]have combined[*A*]iron - loss measurements[*A*]with the lifetime data[*A*]However , from assuming all the recombination activity arises due to iron decoration[*A*]previously	context()	negated: False ,passive: False
+[LINE#67]This assumes that each iron atom at an oxide precipitate gives rise to one of each of Defect 1 and Defect 2.
+0.924	[*A*]each iron atom at an oxide precipitate[*R*]gives[*A*]rise[*A*]to one of each of Defect 2	context(This assumes)	negated: False ,passive: False
+0.224	[*A*]This[*R*]assumes[*A*]that each iron atom at an oxide precipitate gives rise to one of each of Defect 2	context()	negated: False ,passive: False
+0.924	[*A*]each iron atom at an oxide precipitate[*R*]gives[*A*]rise[*A*]to one of each of Defect 1	context(This assumes)	negated: False ,passive: False
+0.224	[*A*]This[*R*]assumes[*A*]that each iron atom at an oxide precipitate gives rise to one of each of Defect 1	context()	negated: False ,passive: False
+[LINE#68]We can use the values of Q in Table 1 to estimate p1=1.310-8cm3s-1 and p2=4.810-4cm3s-1.
+0.127	[*A*]We[*R*]can use the values of Q to estimate[*A*]p2=4.810-4cm3s - 1	context(We can use)	negated: False ,passive: False
+0.433	[*A*]We[*R*]can use[*A*]the values of Q[*A*]in Table 1[*A*]to estimate p2=4.810-4cm3s - 1	context()	negated: False ,passive: False
+0.127	[*A*]We[*R*]can use the values of Q to estimate[*A*]p1=1.310-8cm3s - 1	context(We can use)	negated: False ,passive: False
+0.433	[*A*]We[*R*]can use[*A*]the values of Q[*A*]in Table 1[*A*]to estimate p1=1.310-8cm3s - 1	context()	negated: False ,passive: False
+[LINE#69]Under the stated assumptions, this gives us the full parameterisation necessary to estimate carrier lifetime due to iron-decorated oxide precipitates in p-type and n-type silicon.
+0.489	[*A*]this[*R*]gives[*A*]us[*A*]the full parameterisation necessary to estimate carrier lifetime due to iron - decorated oxide precipitates in n - type silicon[*A*]Under the stated assumptions	context()	negated: False ,passive: False
+0.489	[*A*]this[*R*]gives[*A*]us[*A*]the full parameterisation necessary to estimate carrier lifetime due to iron - decorated oxide precipitates in p - type silicon[*A*]Under the stated assumptions	context()	negated: False ,passive: False
+[LINE#70] A plot of minority carrier lifetime multiplied by state density (N=N1=N2) versus excess minority carrier concentration in n-type and p-type silicon with different doping levels is shown in Fig..
+0.994	[*A*]A plot of minority carrier lifetime multiplied by state density ( N=N1=N2 ) versus excess minority carrier concentration in p - type silicon with different doping levels[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
+0.994	[*A*]A plot of minority carrier lifetime multiplied by state density ( N=N1=N2 ) versus excess minority carrier concentration in n - type silicon with different doping levels[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
+0.932	[*A*]A plot of minority carrier lifetime[*R*]multiplied[*A*]by state density	context()	negated: False ,passive: True
+[LINE#71]Under the assumptions stated above, the state density is the density of iron atoms at the oxide precipitates.
+0.960	[*A*]the state density[*R*]is[*A*]the density of iron atoms at the oxide precipitates[*A*]Under the assumptions	context()	negated: False ,passive: True
+0.767	[*A*]the assumptions[*R*]stated[*A*]above	context()	negated: False ,passive: True
+[LINE#72]The estimated residual minority carrier lifetime depends strongly upon doping level and injection level, with the lifetimes at high injection tending to the ambipolar lifetime.
+0.956	[*A*]The estimated residual minority carrier lifetime[*R*]depends strongly[*A*]upon doping injection level , with the lifetimes at high injection	context()	negated: False ,passive: False
+0.903	[*A*]high injection[*R*]tending[*A*]to the ambipolar lifetime	context()	negated: False ,passive: True
+0.956	[*A*]The estimated residual minority carrier lifetime[*R*]depends strongly[*A*]upon doping level , with the lifetimes at high injection	context()	negated: False ,passive: False
+[LINE#73]At typical substrate doping levels for photovoltaics (1016cm-3), the lifetime in p-type material is higher than in n-type for injection levels at which the lifetime is not at the ambipolar limit.
+0.943	[*A*]the lifetime[*R*]is not[*A*]at the ambipolar limit[*A*]injection levels	context()	negated: True ,passive: True
+0.973	[*A*]the lifetime in p-type material[*R*]is[*A*]higher than in n-type for injection levels[*A*]At typical substrate doping levels for photovoltaics	context()	negated: False ,passive: True
+[LINE#74]For higher substrate doping levels the lifetime benefit of p-type over n-type becomes more substantial.
+0.887	[*A*]the lifetime benefit of p-type over n-type[*R*]becomes[*A*]more substantial	context()	negated: False ,passive: True
+[LINE#75]For lower substrate doping levels, the lifetime values are similar in the p-type and n-type cases, with any predicted differences likely to lie within the errors of the SRH parameters.
+0.911	[*A*]the lifetime values[*R*]are[*A*]similar in the n - type cases	context()	negated: False ,passive: True
+0.931	[*A*]any predicted differences likely[*R*]to lie[*A*]within the errors of the SRH parameters	context()	negated: False ,passive: True
+0.911	[*A*]the lifetime values[*R*]are[*A*]similar in the p - type cases	context()	negated: False ,passive: True
+[LINE#76]In summary, the recombination activity associated with just the (iron-decorated) oxide precipitates is slightly better in typical p-type PV substrates than in n-type.
+0.986	[*A*]the recombination activity associated with just the (iron-decorated) oxide precipitates[*R*]is[*A*]slightly better[*A*]In summary	context()	negated: False ,passive: True
+0.943	[*A*]the recombination activity[*R*]associated[*A*]with just the (iron-decorated) oxide precipitates	context()	negated: False ,passive: True
+[LINE#77]That said, the increased recombination activity at bulk interstitial iron in p-type material [30,45] could easily eliminate any possible advantage. . Competition between gettering systemsIn silicon wafers for integrated circuits oxide precipitates and associated defects are frequently used as a way of internally gettering transition metal impurities, thus preventing the impurities harming the devices [5,6].
+0.897	[*A*]associated defects[*R*]are used[*A*]as a way of internally gettering transition metal impurities[*A*]frequently	context(That said)	negated: False ,passive: True
+0.903	[*A*]the impurities[*R*]harming[*A*]the devices	context()	negated: False ,passive: False
+0.966	[*A*]Competition between gettering systemsIn silicon wafers for integrated circuits oxide precipitates[*R*]are used[*A*]as a way of internally gettering transition metal impurities[*A*]frequently	context(That said)	negated: False ,passive: True
+0.948	[*A*]the increased recombination activity at bulk interstitial iron in p - type material[*R*]could easily eliminate[*A*]any possible advantage	context(That said)	negated: False ,passive: False
+0.126	[*A*]That[*R*]said	context()	negated: False ,passive: False
+[LINE#78]We performed phosphorus diffusion gettering on samples containing oxide precipitates, which enables us to assess the relative strength of the two gettering systems.
+0.452	[*A*]us[*R*]to assess[*A*]the relative strength of the two gettering systems	context()	negated: False ,passive: False
+0.873	[*A*]oxide precipitates[*R*]enables[*A*]us[*A*]to assess the relative strength of the two gettering systems	context()	negated: False ,passive: False
+0.880	[*A*]samples[*R*]containing[*A*]oxide precipitates, which enables us to assess the relative strength of the two gettering systems	context()	negated: False ,passive: False
+0.293	[*A*]We[*R*]performed phosphorus gettering[*A*]on samples	context(We performed)	negated: False ,passive: False
+0.388	[*A*]We[*R*]performed[*A*]phosphorus[*A*]diffusion	context()	negated: False ,passive: False
+[LINE#79]For the results shown in Fig. 7, the bulk iron concentration was 1.41012cm-3 before gettering and 5.21011cm-3 after gettering, and Nn terms associated with the oxide precipitates fell by 20%.
+0.937	[*A*]the results[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.937	[*A*]the bulk iron concentration[*R*]was[*A*]1.41012cm	context()	negated: False ,passive: True
+0.960	[*A*]the results[*R*]shown[*A*]in Fig . 7 , the bulk iron concentration was 1.41012cm - 3 before gettering after gettering	context()	negated: False ,passive: True
+0.952	[*A*]Nn terms associated with the oxide precipitates[*R*]fell[*A*]by 20 %	context()	negated: False ,passive: True
+0.827	[*A*]Nn terms[*R*]associated[*A*]with the oxide precipitates	context()	negated: False ,passive: True
+[LINE#80]As we have shown that the Nn parameters correlate with the iron lost to the precipitates (Fig. 8), we conclude that the bulk iron lost has not been gettered to the oxide precipitates, and has most likely been gettered to the phosphorus diffused layer.
+0.838	[*A*]the bulk iron[*R*]has been gettered[*A*]to the phosphorus	context(we conclude)	negated: False ,passive: True
+0.271	[*A*]we[*R*]conclude[*A*]that the bulk iron has most likely been gettered to the phosphorus	context()	negated: False ,passive: False
+0.732	[*A*]the phosphorus[*R*]diffused	context()	negated: False ,passive: False
+0.897	[*A*]the bulk iron lost[*R*]has not been gettered[*A*]to the oxide precipitates	context(we conclude)	negated: True ,passive: True
+0.271	[*A*]we[*R*]conclude[*A*]that the bulk iron lost has not been gettered to the oxide precipitates	context()	negated: False ,passive: False
+0.918	[*A*]the Nn parameters[*R*]correlate[*A*]with the iron	context(we have shown)	negated: False ,passive: False
+0.225	[*A*]we[*R*]have shown[*A*]that the Nn parameters correlate with the iron	context()	negated: False ,passive: False
+0.800	[*A*]the bulk iron[*R*]lost	context()	negated: False ,passive: False
+0.925	[*A*]the iron[*R*]lost[*A*]to the precipitates	context()	negated: False ,passive: True
+[LINE#81]Thus, for the conditions investigated, phosphorus diffusion gettering is more effective at gettering bulk iron than oxide precipitates.
+0.932	[*A*]phosphorus diffusion gettering[*R*]is[*A*]more effective at gettering bulk iron than oxide precipitates	context()	negated: False ,passive: True
+0.732	[*A*]the conditions[*R*]investigated	context()	negated: False ,passive: False
+[LINE#82]This is very encouraging from the perspective of solar wafers containing oxide precipitates and suggests that the recombination activities will not increase (and may decrease slightly) during the phosphorus diffusion gettering process.
+0.544	[*A*]suggests[*R*]may decrease[*A*]slightly[*A*]during the phosphorus diffusion gettering process	context()	negated: False ,passive: True
+0.903	[*A*]solar wafers[*R*]containing[*A*]oxide precipitates	context()	negated: False ,passive: False
+0.449	[*A*]This[*R*]is[*A*]very encouraging from the perspective of solar wafers	context()	negated: False ,passive: True
+[LINE#83] It is also noted that our findings are consistent with those of Rinio et al., who found evidence to suggest that impurities are gettered preferentially to the emitter rather than native crystal defects in mc-Si [ 58].The correlation between iron loss and recombination activity shown in Fig.8 implies that our analysis approach is capable of measuring very low relative concentrations of atomic iron at oxide precipitates.
+0.943	[*A*]iron loss and recombination activity[*R*]shown[*A*]in Fig.8	context()	negated: False ,passive: True
+0.374	[*A*]our findings[*R*]are[*A*]consistent with those of Rinio et al	context(It is)	negated: False ,passive: True
+0.229	[*A*]It[*R*]is[*A*]also[*A*]noted	context()	negated: False ,passive: True
+[LINE#84]7 show that the states associated with oxide precipitates are reduced by 20% by the phosphorus diffusion gettering process used.
+0.917	[*A*]the states associated with oxide precipitates[*R*]are reduced[*A*]by 20%[*A*]by the phosphorus diffusion gettering process	context(7 show)	negated: False ,passive: True
+0.277	[*A*]7[*R*]show[*A*]that the states associated with oxide precipitates are reduced by 20% by the phosphorus diffusion gettering process	context()	negated: False ,passive: False
+0.785	[*A*]the phosphorus diffusion gettering process[*R*]used	context()	negated: False ,passive: False
+0.903	[*A*]the states[*R*]associated[*A*]with oxide precipitates	context()	negated: False ,passive: True
+[LINE#85]An explanation for this reduction is that this proportion of iron has dissociated from the oxide precipitates and surrounding defects.
+0.900	[*A*]this proportion of iron[*R*]has dissociated[*A*]from the surrounding defects	context(An explanation for this reduction is)	negated: False ,passive: True
+0.886	[*A*]An explanation for this reduction[*R*]is[*A*]that this proportion of iron has dissociated from the surrounding defects	context()	negated: False ,passive: True
+0.900	[*A*]this proportion of iron[*R*]has dissociated[*A*]from the oxide precipitates	context(An explanation for this reduction is)	negated: False ,passive: True
+0.886	[*A*]An explanation for this reduction[*R*]is[*A*]that this proportion of iron has dissociated from the oxide precipitates	context()	negated: False ,passive: True
+[LINE#86]The future focus of our research is to use this approach with different thermal conditions to understand the fundamental thermodynamics of the interaction between iron and oxide precipitates.
+0.687	[*A*]The future focus of our research[*R*]to use[*A*]this approach	context()	negated: False ,passive: False
+0.775	[*A*]The future focus of our research[*R*]is[*A*]to use this approach with different thermal conditions	context()	negated: False ,passive: True
+[LINE#87]Sample productionA set of samples with different oxide precipitate densities, sizes and morphologies were produced from high purity integrated circuit wafers with different doping levels, types and interstitial oxygen concentrations.
+0.958	[*A*]Sample productionA set of samples with different morphologies[*R*]were produced[*A*]from high purity integrated circuit wafers	context()	negated: False ,passive: True
+0.958	[*A*]Sample productionA set of samples with different morphologies[*R*]were produced[*A*]from high purity integrated circuit wafers with different types	context()	negated: False ,passive: True
+0.973	[*A*]Sample productionA set of samples with different morphologies[*R*]were produced[*A*]from high purity integrated circuit wafers with different doping levels	context()	negated: False ,passive: True
+0.958	[*A*]Sample productionA set of samples with different sizes[*R*]were produced[*A*]from high purity integrated circuit wafers	context()	negated: False ,passive: True
+0.958	[*A*]Sample productionA set of samples with different sizes[*R*]were produced[*A*]from high purity integrated circuit wafers with different types	context()	negated: False ,passive: True
+0.973	[*A*]Sample productionA set of samples with different sizes[*R*]were produced[*A*]from high purity integrated circuit wafers with different doping levels	context()	negated: False ,passive: True
+0.965	[*A*]Sample productionA set of samples with different oxide precipitate densities[*R*]were produced[*A*]from high purity integrated circuit wafers	context()	negated: False ,passive: True
+0.965	[*A*]Sample productionA set of samples with different oxide precipitate densities[*R*]were produced[*A*]from high purity integrated circuit wafers with different types	context()	negated: False ,passive: True
+0.978	[*A*]Sample productionA set of samples with different oxide precipitate densities[*R*]were produced[*A*]from high purity integrated circuit wafers with different doping levels	context()	negated: False ,passive: True
+[LINE#88]A four-stage precipitation treatment, as described in detail in Ref.
+[LINE#89][19], is applied to the samples under test.
+0.992	[*A*]19 ][*R*]is applied to[*A*]the samples under test	context()	negated: False ,passive: False
+0.503	[*A*]19[*R*]is applied[*A*]to the samples under test	context()	negated: False ,passive: True
+[LINE#90]P-type samples were doped with 3.91014cm-3 to 8.21015cm-3 of boron.
+0.993	[*A*]P type samples[*R*]were doped to[*A*]-3 of boron	context()	negated: False ,passive: False
+0.919	[*A*]P-type samples[*R*]were doped[*A*]with 3.91014cm-3[*A*]to 8.21015cm-3 of boron	context()	negated: False ,passive: True
+[LINE#91]N-type samples were doped with 51013cm-3 to 1.01015cm-3 of phosphorus.
+0.993	[*A*]N type samples[*R*]were doped to[*A*]-3 of phosphorus	context()	negated: False ,passive: False
+0.919	[*A*]N-type samples[*R*]were doped[*A*]with 51013cm-3[*A*]to 1.01015cm-3 of phosphorus	context()	negated: False ,passive: True
+[LINE#92]Strained oxide precipitate densities (Nstrained) were measured by Schimmel etching.
+0.920	[*A*]Strained oxide precipitate densities[*R*]were measured[*A*]by Schimmel etching	context()	negated: False ,passive: True
+[LINE#93]Precipitate densities ranged from 3106cm-3 to 71010cm-3.
+0.817	[*A*]Precipitate densities[*R*]ranged[*A*]from 3106cm-3[*A*]to 71010cm-3	context()	negated: False ,passive: True
+[LINE#94]Some of the p-type samples have been characterised by transmission electron microscopy (TEM) and the results are discussed in detail elsewhere [3,19].
+0.919	[*A*]Some of the results[*R*]are discussed[*A*]in detail[*A*]elsewhere	context()	negated: False ,passive: True
+0.938	[*A*]Some of the p - type samples[*R*]have been characterised[*A*]by transmission electron microscopy	context()	negated: False ,passive: True
+[LINE#95]The TEM study performed on a subset of the samples measured enabled the identification of samples in which dislocations, and in some cases stacking faults, were found to surround the oxide precipitates.
+0.903	[*A*]some cases[*R*]stacking[*A*]faults	context()	negated: False ,passive: False
+0.914	[*A*]dislocations[*R*]were found[*A*]samples	context()	negated: False ,passive: True
+0.544	[*A*]measured[*R*]enabled[*A*]the identification of samples	context()	negated: False ,passive: False
+0.933	[*A*]The TEM study[*R*]performed[*A*]on a subset of the samples	context()	negated: False ,passive: False
+[LINE#96]Some of the data presented in this paper were obtained using samples in which substantial denuded zones free of oxide precipitates existed near the surfaces.
+0.964	[*A*]substantial denuded zones free of oxide precipitates[*R*]existed[*A*]near the surfaces[*A*]samples	context()	negated: False ,passive: True
+0.737	[*A*]Some of the data[*R*]were obtained	context()	negated: False ,passive: False
+0.903	[*A*]the data[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#97]This typically had a depth of 15m to 35m on each side.
+0.664	[*A*]This[*R*]had[*A*]a depth of 15m to 35m on each side[*A*]typically	context()	negated: False ,passive: False
+[LINE#98]The denuded zones were removed prior to processing using a planar chemical etch (HF (40% aqueous by volume), HNO3 (69% aqueous by volume) and CH3COOH (100%) mixed in the volume ratio 8:75:17).
+0.952	[*A*]The denuded zones[*R*]were removed[*A*]prior to processing[*A*]using a planar chemical etch ( HF ( 40 % CH3COOH ( 100 % ) mixed in the volume ratio 8:75:17	context()	negated: False ,passive: True
+0.877	[*A*]HNO3[*R*]mixed[*A*]in the volume ratio 8:75:17	context()	negated: False ,passive: True
+0.913	[*A*]40 % aqueous by volume[*R*]mixed[*A*]in the volume ratio 8:75:17	context()	negated: False ,passive: True
+0.911	[*A*]The denuded zones[*R*]were removed[*A*]prior to processing	context()	negated: False ,passive: True
+[LINE#99]Each sample was etched for 40min four times, so that between 40m and 70m of material was removed from each side.
+0.926	[*A*]between 70 m of material[*R*]was removed[*A*]from each side	context()	negated: False ,passive: True
+0.868	[*A*]Each sample[*R*]was etched[*A*]for 40min[*A*]four times[*A*]so that between 70 m of material was removed from each side	context()	negated: False ,passive: True
+0.911	[*A*]between 40 m[*R*]was removed[*A*]from each side	context()	negated: False ,passive: True
+0.868	[*A*]Each sample[*R*]was etched[*A*]for 40min[*A*]four times[*A*]so that between 40 m was removed from each side	context()	negated: False ,passive: True
+[LINE#100]Great care was taken to avoid contamination of the samples by metallic impurities during the oxygen precipitation process.
+0.937	[*A*]Great care[*R*]was taken[*A*]to avoid contamination of the samples by metallic impurities during the oxygen precipitation process	context()	negated: False ,passive: True
+[LINE#101]However, some samples were intentionally subsequently contaminated with iron, using the same procedure as in Refs.
+0.905	[*A*]some samples[*R*]using[*A*]the same procedure[*A*]as in Refs	context()	negated: False ,passive: False
+0.929	[*A*]some samples[*R*]were contaminated[*A*]with iron[*A*]using the same procedure as in Refs[*A*]intentionally subsequently	context()	negated: False ,passive: True
+[LINE#102]This involved rubbing the back-side of the sample with iron pieces (99.95% purity from Testbourne Limited, UK).
+[LINE#103]Samples were then annealed in air in a pre-heated furnace at temperatures up to 798C for times chosen to ensure complete iron diffusion through the sample.
+0.894	[*A*]times[*R*]chosen[*A*]to ensure complete iron diffusion through the sample	context()	negated: False ,passive: True
+0.941	[*A*]Samples[*R*]were annealed[*A*]in air[*A*]in a pre-heated furnace at temperatures up to 798C for times[*A*]then	context()	negated: False ,passive: True
+[LINE#104]Although our intention was to contaminate samples only with iron, the possibility that other transition metal impurities have entered the samples cannot be completely ruled out.
+0.919	[*A*]other transition metal impurities[*R*]have entered[*A*]the samples	context()	negated: False ,passive: False
+0.578	[*A*]our intention[*R*]was[*A*]to contaminate samples only with iron, the possibility that other transition metal impurities have entered the samples	context()	negated: False ,passive: True
+[LINE#105]Cooling was rapid, with the samples removed from the furnace at temperature and placed on a heat sink.
+0.903	[*A*]the samples[*R*]placed[*A*]on a heat sink	context()	negated: False ,passive: True
+0.613	[*A*]Cooling[*R*]was[*A*]rapid[*A*]with the samples	context()	negated: False ,passive: True
+0.903	[*A*]the samples[*R*]removed[*A*]from the furnace	context()	negated: False ,passive: True
+0.359	[*A*]Cooling[*R*]was[*A*]rapid	context()	negated: False ,passive: True
+[LINE#106]It is estimated that samples were cooled to below 100C in <10s.
+[LINE#107]Samples which were not intentionally contaminated with iron are referred to as "uncontaminated" samples in this paper, although it is possible that the low levels of impurity contamination in such samples have significant effects, as discussed later. .
+0.815	[*A*]Samples which were not intentionally contaminated with iron[*R*]are referred[*A*]as "uncontaminated" samples in this paper[*A*]although it is possible that the low levels of impurity contamination in such samples have significant effects	context()	negated: False ,passive: True
+0.877	[*A*]Samples[*R*]were not intentionally contaminated[*A*]with iron	context()	negated: True ,passive: True
+[LINE#108]Surface passivation and measurement of lifetimeSamples were cleaved into 3.5cm by 3.5cm or 5cm by 5cm pieces, which were RCA cleaned.
+0.946	[*A*]Surface passivation and measurement of lifetimeSamples[*R*]were cleaved[*A*]into 3.5cm[*A*]by 3.5cm or 5cm by 5cm pieces	context(RCA cleaned)	negated: False ,passive: True
+0.580	[*A*]RCA[*R*]cleaned	context()	negated: False ,passive: False
+0.718	[*A*]5cm pieces[*R*]were	context()	negated: False ,passive: False
+[LINE#109]Silicon nitride was then deposited on both surfaces by plasma enhanced chemical vapour deposition (PECVD).
+0.894	[*A*]plasma[*R*]enhanced[*A*]chemical vapour deposition	context()	negated: False ,passive: True
+0.936	[*A*]Silicon nitride[*R*]was deposited[*A*]on both surfaces[*A*]by plasma enhanced chemical vapour deposition[*A*]then	context()	negated: False ,passive: True
+[LINE#110]Two different PECVD processes were used for the results presented in this paper.
+0.903	[*A*]the results[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
+0.853	[*A*]Two different PECVD processes[*R*]were used[*A*]for the results	context()	negated: False ,passive: True
+[LINE#111]3-5 were from samples passivated by remote plasma PECVD at ISFH, which has previously been shown to give a surface recombination velocity below 10cms-1 [36].
+0.833	[*A*]ISFH[*R*]to give[*A*]a surface recombination velocity below 10cms-1	context()	negated: False ,passive: False
+0.903	[*A*]ISFH[*R*]has been shown[*A*]to give a surface recombination velocity below 10cms-1[*A*]previously	context()	negated: False ,passive: True
+0.911	[*A*]samples[*R*]passivated[*A*]by remote plasma PECVD[*A*]at ISFH	context()	negated: False ,passive: True
+0.544	[*A*]3-5[*R*]were[*A*]from samples	context()	negated: False ,passive: True
+[LINE#112]6-8 were from samples passivated using a direct plasma Oxford Instruments Plasmalab 80 Plus PECVD system at the University of Oxford.
+0.713	[*A*]samples[*R*]passivated	context()	negated: False ,passive: False
+0.544	[*A*]6-8[*R*]were[*A*]from samples	context()	negated: False ,passive: True
+[LINE#113]The surface recombination velocity associated with this latter scheme has not been studied in detail, but is estimated to be of order 100cms-1.
+0.887	[*A*]The surface[*R*]to be[*A*]of order 100cms - 1	context()	negated: False ,passive: True
+0.903	[*A*]The surface[*R*]is estimated[*A*]to be of order 100cms - 1	context()	negated: False ,passive: True
+0.843	[*A*]The surface recombination velocity associated with this latter scheme[*R*]has not been studied	context()	negated: True ,passive: False
+0.919	[*A*]The surface recombination velocity[*R*]associated[*A*]with this latter scheme	context()	negated: False ,passive: True
+[LINE#114]The lower quality scheme was used for samples with lower bulk lifetimes.
+0.919	[*A*]The lower quality scheme[*R*]was used[*A*]for samples with lower bulk lifetimes	context()	negated: False ,passive: True
+[LINE#115]The lifetime data for such samples could be fitted with the same recombination parameters extracted from the samples for which the better surface passivation scheme was used.
+0.934	[*A*]the samples[*R*]was used[*A*]the better surface passivation scheme	context()	negated: False ,passive: True
+0.919	[*A*]the same recombination parameters[*R*]extracted[*A*]from the samples	context()	negated: False ,passive: True
+0.801	[*A*]The lifetime data for such samples[*R*]could be fitted	context()	negated: False ,passive: False
+[LINE#116]It is possible that both PECVD processes introduces hydrogen into the bulk, which may passivate certain defects [37].Minority carrier lifetime was measured using transient or quasi-steady-state photoconductance [38] methods, with a Sinton WCT-120 lifetime tester.
+[LINE#117]The injection level range studied varied with the lifetime of the sample, but was usually in the range 1013cm-3 to 1016cm-3.
+0.925	[*A*]The injection[*R*]was[*A*]usually[*A*]in the range	context()	negated: False ,passive: True
+0.799	[*A*]The injection level range[*R*]studied[*A*]varied	context()	negated: False ,passive: False
+[LINE#118]It is our aim to determine the absolute lifetime associated with oxygen precipitation, so care was taken to prevent or factor out well-understood recombination processes.
+0.911	[*A*]the absolute lifetime[*R*]associated[*A*]with oxygen precipitation	context()	negated: False ,passive: True
+0.923	[*A*]so care[*R*]was taken[*A*]to prevent or factor out well-understood recombination processes	context(It is)	negated: False ,passive: True
+0.322	[*A*]It[*R*]is[*A*]our aim to determine the absolute lifetime	context()	negated: False ,passive: True
+[LINE#119]Boron-oxygen defects were eliminated by storing the samples in the dark after passivation, or by performing a 10 min pre-anneal at 200C [39] prior to lifetime measurement.
+0.928	[*A*]Boron-oxygen defects[*R*]by storing[*A*]the samples	context()	negated: False ,passive: False
+0.818	[*A*]Boron-oxygen defects[*R*]were eliminated	context()	negated: False ,passive: False
+[LINE#120]The samples were subjected to 50 close-up flashes from the lifetime tester to dissociate FeB pairs [40], after which an initial lifetime measurement was made immediately.
+0.993	[*A*]The samples[*R*]were subjected to[*A*]50 close - up flashes	context()	negated: False ,passive: False
+0.947	[*A*]The samples[*R*]were subjected[*A*]to 50 close-up flashes from the lifetime tester[*A*]to dissociate FeB pairs[*A*]after which an initial lifetime measurement was made immediately	context()	negated: False ,passive: True
+[LINE#121]It is noted that the aggregated illumination time of the flashes of light used to dissociate the iron-boron pairs is very short (<20 ms), so any effect on the formation of boron-oxygen defects is kept to a minimum [39].
+0.852	[*A*]the aggregated illumination time of the flashes of light[*R*]is[*A*]very short	context(It is noted)	negated: False ,passive: True
+0.162	[*A*]It[*R*]is noted	context()	negated: False ,passive: False
+[LINE#122]A second lifetime measurement was made more than 24h later, which was sufficient time to reassociate the FeB pairs [19,34,41].
+0.919	[*A*]A second lifetime measurement[*R*]was made[*A*]more than 24h later	context()	negated: False ,passive: True
+[LINE#123]The two lifetime measurements are then analysed to give the concentration of iron that exists in FeB pairs using an established method [30,40,42].
+0.927	[*A*]FeB pairs[*R*]using[*A*]an established method	context()	negated: False ,passive: False
+0.896	[*A*]iron[*R*]exists[*A*]in FeB pairs	context()	negated: False ,passive: True
+0.905	[*A*]The two lifetime measurements[*R*]to give[*A*]the concentration of iron	context()	negated: False ,passive: False
+0.929	[*A*]The two lifetime measurements[*R*]are analysed[*A*]to give the concentration of iron[*A*]then	context()	negated: False ,passive: True
+[LINE#124]This concentration is henceforth referred to as the bulk iron concentration, and excludes iron present in other forms such as iron silicide precipitates, or iron bound to, or precipitated at, oxide precipitates and any surrounding defects.
+0.927	[*A*]This concentration[*R*]excludes[*A*]iron present in other forms such as iron silicide precipitates, or iron	context()	negated: False ,passive: False
+0.937	[*A*]This concentration[*R*]is henceforth referred[*A*]to as the bulk iron concentration, and excludes iron present in other forms such as iron silicide precipitates, or iron bound to, or precipitated at, oxide precipitates and any surrounding defects	context()	negated: False ,passive: True
+[LINE#125]The specific analysis approach used is described in a previous publication [19].
+0.926	[*A*]The specific analysis approach used[*R*]is described[*A*]in a previous publication	context()	negated: False ,passive: True
+0.769	[*A*]The specific analysis approach[*R*]used	context()	negated: False ,passive: False
+[LINE#126] The essential feature is that SRH statistics ((1)) are used with the recombination parameters of Rein and Glunz [30] to determine the bulk iron concentration required to account for a lifetime change at a given injection level.
+0.911	[*A*]SRH statistics[*R*]are used[*A*]with the recombination parameters of Glunz[*A*]to determine the bulk iron concentration	context(The essential feature is)	negated: False ,passive: True
+0.885	[*A*]The essential feature[*R*]is[*A*]that SRH statistics ( ( 1 ) ) are used with the recombination parameters of Glunz [ 30 ] to determine the bulk iron concentration	context()	negated: False ,passive: True
+0.769	[*A*]the bulk iron concentration[*R*]required	context()	negated: False ,passive: False
+0.911	[*A*]SRH statistics[*R*]are used[*A*]with the recombination parameters of Rein[*A*]to determine the bulk iron concentration	context(The essential feature is)	negated: False ,passive: True
+0.885	[*A*]The essential feature[*R*]is[*A*]that SRH statistics ( ( 1 ) ) are used with the recombination parameters of Rein [ 30 ] to determine the bulk iron concentration	context()	negated: False ,passive: True
+[LINE#127]For the results presented in this paper, the injection level used was 0.2p0.
+0.769	[*A*]the injection level used[*R*]was 0.2p0	context()	negated: False ,passive: False
+0.751	[*A*]the injection level[*R*]used	context()	negated: False ,passive: False
+0.903	[*A*]the results[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#128] The bulk iron concentrations in the "uncontaminated" samples were always 1.51012cm-3.We express our data in terms of a "residual" minority carrier lifetime, residual, defined according to:(7)1residual=1measured-(1band-to-band+1CEAuger+1Fei)where measured is the measured minority carrier lifetime with iron in the interstitial state, band-to-band is the lifetime due to band-to-band recombination (from [43]),CE Auger is the lifetime due to Coloumb-enhanced Auger recombination (from [44]) and Fei is the lifetime due to SRH recombination at bulk interstitial iron (parameters from [30]).
+0.927	[*A*]band-to-band[*R*]is[*A*]the lifetime	context(CE Auger is Fei is)	negated: False ,passive: True
+0.928	[*A*]CE Auger[*R*]is[*A*]the lifetime	context(Fei is)	negated: False ,passive: True
+0.921	[*A*]Fei[*R*]is[*A*]the lifetime	context()	negated: False ,passive: True
+0.845	[*A*]a "residual" minority carrier lifetime, residual[*R*]defined[*A*]according to	context()	negated: False ,passive: True
+[LINE#129]More details of these corrections are given in our previous paper [19].
+0.871	[*A*]More details of these corrections[*R*]are given[*A*]in our previous paper	context()	negated: False ,passive: True
+[LINE#130]It is not possible to measure the interstitial iron concentration in n-type samples, so no correction is made for bulk iron-related recombination in such samples, and, besides which, the recombination activity of iron in n-type silicon is generally much less significant than in p-type silicon [45].
+0.977	[*A*]the recombination activity of iron in n - type silicon[*R*]is[*A*]generally much less significant than in p - type silicon	context()	negated: False ,passive: True
+0.225	[*A*]It[*R*]is not[*A*]possible	context()	negated: True ,passive: True
+[LINE#131]The effects of any remaining surface recombination are not factored out of the injection-dependent lifetime data.
+0.938	[*A*]The effects of any remaining surface recombination[*R*]are not factored[*A*]out of the injection-dependent lifetime data	context()	negated: True ,passive: True
+[LINE#132]This is not believed to have a substantial effect on our findings.
+0.220	[*A*]This[*R*]to have[*A*]a substantial effect on our findings	context()	negated: False ,passive: False
+0.153	[*A*]This[*R*]is not believed	context()	negated: True ,passive: False
+[LINE#133]The work of Aberle et al. shows the surface recombination velocity to be dependent on injection-level, with the surface recombination velocity increasing at lower levels of injection [29].
+0.919	[*A*]the surface recombination velocity[*R*]increasing[*A*]at lower levels of injection	context()	negated: False ,passive: True
+0.919	[*A*]the surface recombination velocity[*R*]to be[*A*]dependent on injection-level	context()	negated: False ,passive: True
+0.971	[*A*]The work of Aberle et al[*R*]shows[*A*]the surface recombination velocity to be dependent on injection-level	context()	negated: False ,passive: False
+[LINE#134]However, this alone is insufficient to explain the injection-level dependence we observe.
+0.911	[*A*]the injection-level dependence[*R*]observe[*A*]we	context()	negated: False ,passive: True
+0.381	[*A*]this alone[*R*]is[*A*]insufficient	context()	negated: False ,passive: True
+[LINE#135]It is noted that the same fit parameters can be used to fit lifetime data from samples with a high bulk lifetime (low precipitate density) and low bulk lifetime (iron contaminated precipitates with a high density), which suggests that differences between surface recombination rates between samples are not substantial. .
+0.804	[*A*]differences between surface recombination rates between samples[*R*]are not[*A*]substantial	context(a low bulk lifetime suggests)	negated: True ,passive: True
+0.812	[*A*]a low bulk lifetime[*R*]suggests[*A*]that differences between surface recombination rates between samples are not substantial	context()	negated: False ,passive: False
+0.737	[*A*]the same fit parameters[*R*]to fit	context()	negated: False ,passive: False
+[LINE#136]getteringSome uncontaminated samples were subjected to a phosphorus diffusion gettering process.
+0.933	[*A*]getteringSome uncontaminated samples[*R*]were subjected[*A*]to a phosphorus diffusion gettering process	context()	negated: False ,passive: True
+[LINE#137]The injection-dependent minority carrier lifetime and the bulk iron concentration were first measured as above.
+0.823	[*A*]the bulk iron concentration[*R*]were measured[*A*]as above[*A*]first	context()	negated: False ,passive: True
+0.861	[*A*]The injection - dependent minority carrier lifetime[*R*]were measured[*A*]as above[*A*]first	context()	negated: False ,passive: True
+[LINE#138]The silicon nitride was then removed from both surfaces by HF (40%) for up to 15s at room temperature.
+0.935	[*A*]The silicon nitride[*R*]was removed[*A*]from both surfaces[*A*]by HF (40%[*A*]then	context()	negated: False ,passive: True
+[LINE#139] Samples were then RCA cleaned, followed by a phosphorus diffusion gettering process in a standard quartz-tube furnace with the temperature profile shown in Fig..
+0.942	[*A*]the temperature profile[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.937	[*A*]phosphorus diffusion[*R*]gettering[*A*]process in a standard quartz-tube furnace with the temperature profile	context()	negated: False ,passive: True
+0.634	[*A*]RCA[*R*]cleaned	context()	negated: False ,passive: False
+0.942	[*A*]Samples[*R*]were[*A*]then[*A*]RCA cleaned[*A*]followed by a phosphorus diffusion gettering process in a standard quartz-tube furnace with the temperature profile	context()	negated: False ,passive: True
+[LINE#140]The process used is the standard POCl3-based process for formation of high efficiency passivated emitter and rear cell (PERC) type solar cells at ISFH.
+0.963	[*A*]The process used[*R*]is[*A*]the standard POCl3 - based process for formation of high efficiency rear cell ( PERC ) type solar cells at ISFH	context()	negated: False ,passive: True
+0.963	[*A*]The process used[*R*]is[*A*]the standard POCl3 - based process for formation of high efficiency	context()	negated: False ,passive: True
+0.732	[*A*]The process[*R*]used	context()	negated: False ,passive: False
+[LINE#141]The phosphorus glass was then removed by immersion in HF (40%) for 3 min at room temperature, and the emitter was removed by a KOH etch for 3min at 90C.
+0.918	[*A*]the emitter[*R*]was removed[*A*]by a KOH etch[*A*]for 3min[*A*]at 90C	context()	negated: False ,passive: True
+0.993	[*A*]The phosphorus glass[*R*]was removed for[*A*]3 min	context()	negated: False ,passive: False
+0.935	[*A*]The phosphorus glass[*R*]was removed[*A*]by immersion in HF ( 40 %[*A*]for 3 min at room temperature[*A*]then	context()	negated: False ,passive: True
+[LINE#142]This removed a total of 10m of material from the surfaces, reducing the wafer thickness from 700m to 690m.
+0.497	[*A*]This[*R*]removed[*A*]a total of 10m of material from the surfaces[*A*]reducing the wafer thickness from 700m to 690m	context()	negated: False ,passive: False
+[LINE#143]The amount of material removed was calculated by weighing the wafer before and afterwards.
+0.905	[*A*]The amount of material[*R*]was calculated[*A*]by weighing the wafer before and afterwards	context()	negated: False ,passive: True
+0.769	[*A*]The amount of material[*R*]removed	context()	negated: False ,passive: False
+[LINE#144]Samples were then subjected to another RCA clean followed by silicon nitride surface passivation and lifetime measurement, as described above.
+0.803	[*A*]another RCA clean[*R*]followed	context()	negated: False ,passive: False
+0.922	[*A*]Samples[*R*]were subjected[*A*]to another RCA clean[*A*]then	context()	negated: False ,passive: True
+[LINE#145]At present the majority of solar cells are made from bulk crystalline silicon.
+0.957	[*A*]the majority of solar cells[*R*]are made[*A*]from bulk crystalline silicon[*A*]At present	context()	negated: False ,passive: True
+[LINE#146]Minority carrier lifetime is the main parameter used to assess the quality of wafers from which cells are produced.
+0.927	[*A*]wafers[*R*]are produced[*A*]cells	context()	negated: False ,passive: True
+0.897	[*A*]the main parameter[*R*]to assess[*A*]the quality of wafers	context()	negated: False ,passive: False
+0.956	[*A*]Minority carrier lifetime[*R*]is[*A*]the main parameter used to assess the quality of wafers	context()	negated: False ,passive: True
+[LINE#147]For a given generation rate, the minority carrier lifetime is largely determined by recombination processes.
+0.881	[*A*]the minority carrier lifetime[*R*]is determined[*A*]by recombination processes	context()	negated: False ,passive: True
+[LINE#148]Some recombination is intrinsic (band-to-band and Auger), while other is determined by defects in the bulk or at surfaces.
+0.544	[*A*]other[*R*]is determined[*A*]by defects in the bulk or at surfaces	context()	negated: False ,passive: True
+0.813	[*A*]Some recombination[*R*]is[*A*]intrinsic	context()	negated: False ,passive: True
+[LINE#149] It is necessary to understand which defects are typically present in solar wafers before processing, andwhat effect processing has on those defects.
+0.833	[*A*]andwhat effect processing[*R*]has[*A*]on those defects	context()	negated: False ,passive: False
+[LINE#150]Moreover, it is important to understand the mechanism by which the relevant defects give rise to recombination, as well as to quantify their recombination activity.
+0.948	[*A*]the relevant defects[*R*]give[*A*]rise[*A*]to recombination[*A*]the mechanism	context()	negated: False ,passive: False
+[LINE#151]Monocrystalline Czochralski silicon (Cz-Si) typically contains ~1018cm-3 of interstitial oxygen, which is mainly incorporated from the silica crucible which contains the melt.
+0.766	[*A*]Monocrystalline Czochralski silicon[*R*]has interstitial oxygen is incorporated from the silica crucible which contains the melt of[*A*]-3 of interstitial oxygen	context()	negated: False ,passive: False
+0.999	[*A*]Monocrystalline Czochralski silicon[*R*]contains[*A*]-3 of interstitial oxygen	context()	negated: False ,passive: False
+0.897	[*A*]the silica crucible[*R*]contains[*A*]the melt	context()	negated: False ,passive: False
+0.837	[*A*]interstitial oxygen[*R*]is incorporated[*A*]from the silica crucible	context()	negated: False ,passive: True
+0.922	[*A*]Monocrystalline Czochralski silicon[*R*]contains[*A*]~1018cm-3 of interstitial oxygen	context()	negated: False ,passive: False
+[LINE#152] This level of oxygen is supersaturated below 1200C, so the equilibrium state is reached by the formation of SiO2 particles (oxide precipitates).
+0.925	[*A*]the equilibrium state[*R*]is reached[*A*]by the formation of SiO2 particles	context()	negated: False ,passive: True
+0.956	[*A*]This level of oxygen[*R*]is supersaturated[*A*]below 1200C[*A*]so the equilibrium state is reached by the formation of SiO2 particles	context()	negated: False ,passive: True
+[LINE#153]The morphology of such particles changes as they grow, from unstrained particles initially, to strained precipitates, which are eventually surrounded by dislocations and sometimes stacking faults [2,3].
+0.927	[*A*]dislocations[*R*]stacking[*A*]faults[*A*]sometimes	context()	negated: False ,passive: False
+0.885	[*A*]The morphology of such particles changes as they grow , from unstrained particles[*R*]stacking[*A*]faults[*A*]initially[*A*]sometimes	context()	negated: False ,passive: False
+0.384	[*A*]they[*R*]grow	context()	negated: False ,passive: False
+[LINE#154]The first stage in precipitation is nucleation, and the rate of this is strongly enhanced by the presence of crystal defects.
+0.919	[*A*]the rate of this[*R*]is strongly enhanced[*A*]by the presence of crystal defects	context()	negated: False ,passive: True
+0.943	[*A*]The first stage in precipitation[*R*]is[*A*]nucleation	context()	negated: False ,passive: True
+[LINE#155]In modern Cz-Si used for integrated circuits the grown-in defect concentration is insufficient for oxygen precipitation to occur unintentionally.
+0.732	[*A*]oxygen precipitation[*R*]to occur unintentionally	context()	negated: False ,passive: False
+0.865	[*A*]the grown-in defect concentration[*R*]is[*A*]insufficient	context()	negated: False ,passive: True
+[LINE#156]However, even in the highest quality Cz-Si, oxide precipitates can nucleate upon prolonged annealing at 650C to 850C [1,4].
+0.952	[*A*]oxide precipitates[*R*]can nucleate[*A*]upon prolonged annealing at 650C[*A*]even in	context()	negated: False ,passive: False
+[LINE#157]In silicon for microelectronics thermal processes are often used to force oxygen precipitation to provide gettering centres for harmful metallic contaminants [5,6].
+0.164	[*A*]harmful contaminants[*R*]have metal of[*A*]56 ]	context()	negated: False ,passive: False
+0.903	[*A*]oxygen precipitation[*R*]to provide[*A*]gettering centres for harmful metallic contaminants	context()	negated: False ,passive: False
+0.887	[*A*]thermal processes[*R*]to force[*A*]oxygen precipitation[*A*]to provide gettering centres for harmful metallic contaminants	context()	negated: False ,passive: False
+0.946	[*A*]thermal processes[*R*]are used[*A*]to force oxygen precipitation to provide gettering centres for harmful metallic contaminants[*A*]In silicon for microelectronics[*A*]often	context()	negated: False ,passive: True
+[LINE#158]For photovoltaics, the Cz-Si wafers used are often of lower crystal quality, and several studies have found concentric rings of oxide precipitates in wafers or cells after growth or processing [7-10].
+0.937	[*A*]several studies[*R*]have found[*A*]concentric rings of oxide precipitates[*A*]in wafers or cells after growth or processing [7-10	context()	negated: False ,passive: False
+0.934	[*A*]the Cz-Si wafers[*R*]are[*A*]often[*A*]of lower crystal quality	context()	negated: False ,passive: True
+0.832	[*A*]the Cz-Si wafers[*R*]used	context()	negated: False ,passive: False
+[LINE#159]It is also noted that oxygen precipitation occurs at dislocations in multicrystalline silicon (mc-Si) during ingot cooling [11-13].The undesirable precipitation of oxygen in Cz-Si is not a new problem, having been widely studied (and essentially solved) in Cz-Si for integrated circuits.
+0.713	[*A*]ingot[*R*]cooling[*A*]11-13	context()	negated: False ,passive: False
+[LINE#160]Oxide precipitates are known to form in vacancy-rich regions [14].
+0.914	[*A*]Oxide precipitates[*R*]to form[*A*]in vacancy-rich regions	context()	negated: False ,passive: False
+0.788	[*A*]Oxide precipitates[*R*]are known	context()	negated: False ,passive: False
+[LINE#161] The formation of such regions can be essentially eliminated by carefully controlling the so-called v/G criterion (where v is the crystal growth rate and G is the near-interface temperature gradient).
+0.858	[*A*]G[*R*]is[*A*]the near - interface temperature gradient	context(v is)	negated: False ,passive: True
+0.430	[*A*]v[*R*]is[*A*]G	context()	negated: False ,passive: True
+0.449	[*A*]v[*R*]is[*A*]the crystal growth rate	context()	negated: False ,passive: True
+0.927	[*A*]The formation of such regions[*R*]by carefully controlling[*A*]the so - called v / G criterion	context()	negated: False ,passive: False
+0.705	[*A*]The formation of such regions[*R*]can be eliminated	context()	negated: False ,passive: False
+[LINE#162]Although it is possible to reduce intrinsic point defect concentrations to levels which are essentially negligible, doing so requires slow growth rates and these are not always compatible with the commercial constraints of the silicon photovoltaics industry.
+0.596	[*A*]these[*R*]are not[*A*]always[*A*]compatible with the commercial constraints of the silicon photovoltaics industry	context(doing so requires)	negated: True ,passive: True
+0.503	[*A*]doing so[*R*]requires[*A*]slow growth rates	context()	negated: False ,passive: False
+0.716	[*A*]levels[*R*]are[*A*]essentially negligible	context()	negated: False ,passive: True
+[LINE#163]Thus, although the problem can in principle be eliminated, the fact is many commercial Cz-Si solar wafers do contain vacancy-rich regions in which oxide precipitates form [7-9].Oxide precipitates have been linked to a substantial detrimental impact on conversion efficiencies in silicon solar cells [7,16].
+0.968	[*A*]many commercial Cz-Si solar wafers[*R*]do contain[*A*]vacancy-rich regions in which oxide precipitates form [7-9].Oxide precipitates have been linked to a substantial detrimental impact on conversion efficiencies in silicon solar cells [7,16]	context(the fact is)	negated: False ,passive: False
+0.948	[*A*]the fact[*R*]is[*A*]many commercial Cz-Si solar wafers do contain vacancy-rich regions	context()	negated: False ,passive: True
+0.949	[*A*]Oxide precipitates[*R*]have been linked[*A*]vacancy-rich regions	context()	negated: False ,passive: True
+0.641	[*A*]the problem[*R*]can be eliminated	context()	negated: False ,passive: False
+[LINE#164]associated oxide precipitates with a 4% (absolute) efficiency reduction [7].
+0.732	[*A*]associated oxide[*R*]precipitates	context()	negated: False ,passive: False
+[LINE#165]Interestingly, they found that the recombination activity to be strongly affected by a 10s anneal at 800C.
+0.888	[*A*]the recombination activity[*R*]to be strongly affected[*A*]by a 10s anneal	context(they found)	negated: False ,passive: True
+0.465	[*A*]they[*R*]found[*A*]that the recombination activity to be strongly affected by a 10s anneal at 800C	context()	negated: False ,passive: False
+[LINE#166]This, and earlier studies on iron-contaminated samples [17,18], suggests that impurities might play a role in the recombination mechanism.
+0.871	[*A*]impurities[*R*]might play[*A*]a role in the recombination mechanism	context(earlier studies on iron - contaminated samples suggests)	negated: False ,passive: False
+0.857	[*A*]earlier studies on iron - contaminated samples[*R*]suggests[*A*]that impurities might play a role in the recombination mechanism	context()	negated: False ,passive: False
+0.871	[*A*]impurities[*R*]might play[*A*]a role in the recombination mechanism	context(This suggests)	negated: False ,passive: False
+0.196	[*A*]This[*R*]suggests[*A*]that impurities might play a role in the recombination mechanism	context()	negated: False ,passive: False
+[LINE#167]The aim of this paper is to answer some open questions regarding the effects of oxygen precipitation in silicon photovoltaics.
+0.964	[*A*]The aim of this paper[*R*]is[*A*]to answer some open questions regarding the effects of oxygen precipitation in silicon photovoltaics	context()	negated: False ,passive: True
+[LINE#168] These include:Can the impact of oxide precipitates on minority carrier lifetime be systematically quantified?What is the mechanism of recombination at oxide precipitates?.
+0.812	[*A*]the impact of oxide precipitates on minority carrier lifetime[*R*]be systematically quantified	context()	negated: False ,passive: False
+[LINE#169] Do impurities play a role?What happens to the recombination activity of oxide precipitates after phosphorus diffusion gettering used in solar cell processing?.
+[LINE#170]Which is the more effective gettering system for bulk iron: oxide precipitates or phosphorus diffusion?This paper builds upon our previously published work in this area [19-23] by assimilating the key ideas in one article, adding new experimental data, and focussing specifically on photovoltaics.
+0.678	[*A*]This paper[*R*]builds	context()	negated: False ,passive: False
+[LINE#171]After presenting a general methodology for parameterising injection-dependent minority carrier lifetime in semiconductors, we apply this methodology to determine the recombination parameters of oxide precipitates in silicon.
+0.388	[*A*]we[*R*]apply this methodology to determine[*A*]the recombination parameters of oxide precipitates in silicon	context(we apply)	negated: False ,passive: False
+0.645	[*A*]we[*R*]apply[*A*]this methodology[*A*]to determine the recombination parameters of oxide precipitates in silicon[*A*]After presenting a general methodology for parameterising injection-dependent minority carrier lifetime in semiconductors	context()	negated: False ,passive: False
+[LINE#172]Parameterisation of carrier lifetimes.
+[LINE#173]Linear formulation of Shockley-Read-Hall statisticsShockley-Read-Hall (SRH) statistics [24,25] are frequently used to quantify the bulk minority carrier lifetime in semiconductor materials.
+0.978	[*A*]Linear formulation of Shockley-Read-Hall statisticsShockley-Read-Hall (SRH) statistics[*R*]are used[*A*]to quantify the bulk minority carrier lifetime in semiconductor materials[*A*]frequently	context()	negated: False ,passive: True
+[LINE#174] SRH statistics enable the recombination activity of states associated with point-like defects to be quantified by using just three parameters: the energy position of the defect in the bandgap (ET), its capture coefficient for electrons (n) and its capture coefficient for holes(Alternatively capture cross-sections for electrons (n) and holes (p) can be used instead of capture coefficients.
+0.882	[*A*]SRH statistics[*R*]enable[*A*]the recombination activity of states	context(its capture coefficient for electrons (n) and its capture coefficient for holes can be used)	negated: False ,passive: False
+0.480	[*A*]its capture coefficient for electrons (n) and its capture coefficient for holes[*R*]can be used	context()	negated: False ,passive: False
+0.882	[*A*]SRH statistics[*R*]enable[*A*]the recombination activity of states	context(the energy position of the defect in the bandgap ( ET ) and its capture coefficient for holes can be used)	negated: False ,passive: False
+0.691	[*A*]the energy position of the defect in the bandgap ( ET ) and its capture coefficient for holes[*R*]can be used	context()	negated: False ,passive: False
+0.561	[*A*](p)[*R*]can be used	context()	negated: False ,passive: False
+0.769	[*A*]point - like defects[*R*]to be quantified	context()	negated: False ,passive: False
+0.894	[*A*]states[*R*]associated[*A*]with point - like defects	context()	negated: False ,passive: True
+0.903	[*A*]SRH statistics[*R*]enable[*A*]the recombination activity of states	context()	negated: False ,passive: False
+[LINE#175]The capture coefficient is the product of the capture cross-section and the thermal velocity).
+0.932	[*A*]The capture coefficient[*R*]is[*A*]the product of the thermal velocity	context()	negated: False ,passive: True
+0.932	[*A*]The capture coefficient[*R*]is[*A*]the product of the capture cross-section	context()	negated: False ,passive: True
+[LINE#176]Capture coefficients (or cross-sections) are temperature-dependent empirically-determined parameters which quantify the propensity of the states to capture carriers.
+0.890	[*A*]temperature-dependent empirically - determined parameters[*R*]quantify the propensity of the states to capture[*A*]carriers	context(temperature-dependent empirically - determined parameters quantify)	negated: False ,passive: False
+0.890	[*A*]temperature-dependent empirically - determined parameters[*R*]quantify[*A*]the propensity of the states[*A*]to capture carriers	context()	negated: False ,passive: False
+0.927	[*A*]Capture cross-sections[*R*]are[*A*]temperature-dependent empirically - determined parameters which quantify the propensity of the states	context()	negated: False ,passive: True
+0.913	[*A*]temperature-dependent empirically - determined parameters[*R*]quantify[*A*]the propensity of the states to capture carriers	context()	negated: False ,passive: False
+[LINE#177]In some circumstances the use of simple SRH statistics is an oversimplification (see for example [26]), but for the most part the SRH approach is invaluable.
+0.867	[*A*]the SRH approach[*R*]is[*A*]invaluable	context()	negated: False ,passive: True
+0.978	[*A*]the use of simple SRH statistics[*R*]is[*A*]an oversimplification[*A*]In some circumstances	context()	negated: False ,passive: True
+[LINE#178]The most commonly used formation of SRH statistics describes the minority carrier lifetime in terms of the excess concentration of minority carriers (n for electrons; p for holes) (see Ref.
+0.948	[*A*]The most commonly used formation of SRH statistics[*R*]describes[*A*]the minority carrier lifetime	context(p for holes see)	negated: False ,passive: False
+0.893	[*A*]p for holes[*R*]see[*A*]Ref	context()	negated: False ,passive: False
+[LINE#179]In our work we use a different form which we have derived in an earlier paper [21].
+0.897	[*A*]a different form[*R*]have derived[*A*]in an earlier paper	context()	negated: False ,passive: True
+0.562	[*A*]we[*R*]use[*A*]a different form which we have derived in an earlier paper [21][*A*]In our work	context()	negated: False ,passive: False
+[LINE#180]We express the minority carrier lifetime as a linear function of the ratio of the total carrier concentrations.
+0.569	[*A*]We[*R*]express[*A*]the minority carrier lifetime[*A*]as a linear function of the ratio of the total carrier concentrations	context()	negated: False ,passive: False
+[LINE#181]In p-type material, for example, the electron lifetime (n) is expressed as a linear function of the ratio of the total electron concentration (n=n0+n) to the total hole concentration (p=p0+p) according to:(1)n=1nN[1+Qn1p0+p1p0+X(Q-Qn1p0-p1p0)]where X=(n/p)=(1/p0+n), where p0 is the equilibrium hole concentration, n0 is the equilibrium electron concentration, Q=(n/p)=(n/p), and N is the concentration of the defect.
+0.887	[*A*]N[*R*]is[*A*]the concentration of the defect	context()	negated: False ,passive: True
+0.852	[*A*]p0[*R*]is[*A*]the equilibrium hole concentration	context()	negated: False ,passive: True
+[LINE#182] The so-called SRH densities for electrons (n1) and holes (p1) are given by:(2)n1=NCexp(-EC-ETkT)(3)p1=NVexp(-ET-EVkT)where EC and EV are the energies of the conduction band and valence band edge, respectively, and NC and NV are the densities of states in the conduction band and valence band, respectively.
+0.870	[*A*]The so - called SRH densities for holes[*R*]are given[*A*]by	context()	negated: False ,passive: True
+0.870	[*A*]The so - called SRH densities for holes[*R*]are given[*A*]by : ( 2 ) n1=NCexp	context()	negated: False ,passive: True
+0.974	[*A*]2 ) n1=NCexp ( - EC - ETkT ) ( 3 ) p1=NVexp ( - ET - EVkT ) NV[*R*]are[*A*]the densities of states in valence band[*A*]respectively	context()	negated: False ,passive: True
+0.974	[*A*]2 ) n1=NCexp ( - EC - ETkT ) ( 3 ) p1=NVexp ( - ET - EVkT ) NV[*R*]are[*A*]the densities of states in the conduction band[*A*]respectively	context()	negated: False ,passive: True
+0.870	[*A*]The so - called SRH densities for electrons[*R*]are given[*A*]by	context()	negated: False ,passive: True
+0.958	[*A*]EC - ETkT ) ( 3 ) p1=NVexp ( - ET - EVkT ) NC[*R*]are[*A*]the densities of states in valence band[*A*]respectively	context()	negated: False ,passive: True
+0.958	[*A*]EC - ETkT ) ( 3 ) p1=NVexp ( - ET - EVkT ) NC[*R*]are[*A*]the densities of states in the conduction band[*A*]respectively	context()	negated: False ,passive: True
+0.870	[*A*]The so - called SRH densities for electrons[*R*]are given[*A*]by : ( 2 ) n1=NCexp	context()	negated: False ,passive: True
+0.849	[*A*]The so - called SRH densities for holes[*R*]are given	context()	negated: False ,passive: False
+0.974	[*A*]The so - called SRH densities for holes[*R*]are given[*A*]by : ( 2 ) n1=NCexp ( - EC - ETkT ) ( 3 ) p1=NVexp	context()	negated: False ,passive: True
+0.855	[*A*]EV[*R*]are[*A*]the energies of valence band edge	context()	negated: False ,passive: True
+0.855	[*A*]EV[*R*]are[*A*]the energies of the conduction band	context()	negated: False ,passive: True
+0.855	[*A*]EC[*R*]are[*A*]the energies of valence band edge	context()	negated: False ,passive: True
+0.974	[*A*]The so - called SRH densities for electrons[*R*]are given[*A*]by : ( 2 ) n1=NCexp ( - EC - ETkT ) ( 3 ) p1=NVexp	context()	negated: False ,passive: True
+0.855	[*A*]EC[*R*]are[*A*]the energies of the conduction band	context()	negated: False ,passive: True
+0.849	[*A*]The so - called SRH densities for electrons[*R*]are given	context()	negated: False ,passive: False
+[LINE#183](p) in n-type material can be derived as [21]:(4)p=1pN[1+n1n0+p1n0Q+Y(1Q-n1n0-p1Qn0)]where Y=(p/n)=(p/n0+p). .
+[LINE#184]Extracting defect parameters from injection-dependent lifetime dataThe linear formulation of SRH statistics provides an elegant route to parameterise recombination due to specific defects.
+0.985	[*A*]Extracting defect parameters from injection-dependent lifetime dataThe linear formulation of SRH statistics[*R*]provides[*A*]an elegant route to parameterise recombination due to specific defects	context()	negated: False ,passive: False
+[LINE#185](1) and (4) is that all the injection-dependence of the minority carrier lifetime is consumed into X or Y. All other terms in the Equations depend upon the properties of the defect, material or temperature.
+[LINE#186]In the p-type case, information on the key SRH parameters can be extracted by taking the derivative of Eq.
+0.920	[*A*]information on the key[*R*]by taking[*A*]the derivative of Eq	context()	negated: False ,passive: False
+0.949	[*A*]SRH parameters[*R*]can be extracted[*A*]In the p-type case	context()	negated: False ,passive: True
+[LINE#187] (1) with respect to X and dividing this by the high injection limit of lifetime (n as X1), which gives:(5)dndX/nX1=Q1+Q-1p0(Qn1+p11+Q)Bystudying material with different values of p0, Eq.
+0.732	[*A*]the high injection limit of lifetime[*R*]gives	context()	negated: False ,passive: False
+[LINE#188](5) can be used to deduce values of Q and Qn1+p1, and an example to show this is given in Section 2.3 below.
+0.381	[*A*]this[*R*]is given[*A*]in Section 2.3 below	context()	negated: False ,passive: True
+0.732	[*A*]an example[*R*]to show	context()	negated: False ,passive: False
+[LINE#189]Information can also be gained from inspecting the low injection limit of Eq.
+0.896	[*A*]Information[*R*]from inspecting[*A*]the low injection limit of Eq	context()	negated: False ,passive: False
+0.869	[*A*]Information[*R*]can be gained[*A*]from inspecting the low injection limit of Eq	context()	negated: False ,passive: True
+[LINE#190] (n as X0), which gives:(6)nX0=1nN[1+1p0(Qn1+p1)]If.
+[LINE#191]Qn1+p1 is known it is thus possible to use Eq.
+[LINE#192] (6) to extract nN, which is useful as, for constant n, it is proportional to the state density.
+0.522	[*A*]it[*R*]is[*A*]proportional to the state density	context()	negated: False ,passive: True
+0.700	[*A*]nN[*R*]is[*A*]useful	context()	negated: False ,passive: True
+[LINE#193]It is important to note that from single temperature injection-dependent lifetime measurements alone it is not possible to extract unique values for n, p, or ET.
+[LINE#194]Such measurements on samples with different doping levels enable the deduction of Q=(n/p) and Qn1+p1 (which depends upon ET via Eqs.
+0.940	[*A*]the deduction of Qn1+p1[*R*]depends[*A*]upon ET	context()	negated: False ,passive: False
+0.952	[*A*]Such measurements on samples with different doping levels[*R*]enable[*A*]the deduction of Qn1+p1	context()	negated: False ,passive: False
+0.952	[*A*]Such measurements on samples with different doping levels[*R*]enable[*A*]the deduction of Q= ( n / p	context()	negated: False ,passive: False
+[LINE#195] To isolate separate values of nand p it is necessary to determine the state density, N, by another technique.
+[LINE#196]Temperature-dependent lifetime measurements can be used to determine whether Qn1 or p1 dominates, and hence can allow ET to be uniquely found.
+0.572	[*A*]ET[*R*]to be uniquely found	context(Qn1 or p1 can allow)	negated: False ,passive: False
+0.916	[*A*]Qn1 or p1[*R*]can allow[*A*]ET to be uniquely found	context()	negated: False ,passive: False
+0.766	[*A*]Qn1 or p1[*R*]dominates	context(Temperature-dependent lifetime measurements to determine)	negated: False ,passive: False
+0.931	[*A*]Temperature-dependent lifetime measurements[*R*]to determine[*A*]whether Qn1 or p1 dominates, and hence can allow ET to be uniquely found	context()	negated: False ,passive: False
+0.952	[*A*]Temperature-dependent lifetime measurements[*R*]can be used[*A*]to determine whether Qn1 or p1 dominates, and hence can allow ET to be uniquely found	context()	negated: False ,passive: True
+[LINE#197]In principle the linear SRH formulation is valid at all injection levels.
+0.973	[*A*]the linear SRH formulation[*R*]is[*A*]valid[*A*]at all injection levels[*A*]In principle	context()	negated: False ,passive: True
+[LINE#198]However, it is important to note that care must be taken when using the approach over a wide range of injection levels.
+[LINE#199]Under typical conditions, X=0.01 corresponds to n0.011p0.
+0.953	[*A*]X=0.01[*R*]corresponds[*A*]to n0.011p0[*A*]Under typical conditions	context()	negated: False ,passive: True
+[LINE#200]Thus processes which manifest themselves at low injection, such as trapping [28] and surface effects [29], can occur very close to the X0 limit. .
+0.905	[*A*]surface effects[*R*]can occur[*A*]very close to the X0 limit	context()	negated: False ,passive: True
+0.839	[*A*]processes which manifest themselves at low injection , such as trapping [ 28[*R*]can occur[*A*]very close to the X0 limit	context()	negated: False ,passive: True
+0.795	[*A*]processes[*R*]manifest[*A*]themselves[*A*]at low injection	context()	negated: False ,passive: True
+[LINE#201]Example of FeB in siliconWe demonstrate the merits of this linear SRH formulation by considering the well-established example of FeB pairs in silicon.
+0.953	[*A*]Example of FeB in siliconWe[*R*]demonstrate[*A*]the merits of this linear SRH formulation	context()	negated: False ,passive: False
+[LINE#202]we have simulated the injection-dependent lifetime due to (only) this defect.
+0.452	[*A*]we[*R*]have simulated[*A*]the injection-dependent lifetime[*A*]due to (only) this defect	context()	negated: False ,passive: False
+[LINE#203]We note that different values of the SRH parameters for FeB exist in the literature [30-32].
+0.948	[*A*]different values of the SRH parameters for FeB[*R*]exist[*A*]in the literature	context(We note)	negated: False ,passive: True
+0.317	[*A*]We[*R*]note[*A*]that different values of the SRH parameters for FeB exist in the literature	context()	negated: False ,passive: False
+[LINE#204]For our example here we use the parameters of Rein and Glunz [30], which are ET=EC-0.26eV, n=2.510-15cm2, p=5.510-15cm2, and we have used 2107cms-1 for the thermal velocity, 25C for the temperature and a defect concentration of 11012cm-3.
+0.999	[*A*]we[*R*]have used[*A*]1	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]have used[*A*]2107cms - 1[*A*]for the thermal velocity	context()	negated: False ,passive: False
+0.940	[*A*]the parameters of Glunz[*R*]are[*A*]ET=EC - 0.26eV	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]use[*A*]the parameters of Glunz[*A*]here	context()	negated: False ,passive: False
+0.950	[*A*]the parameters of Rein [ 30[*R*]are[*A*]ET=EC - 0.26eV	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]use[*A*]the parameters of Rein [ 30[*A*]here	context()	negated: False ,passive: False
+[LINE#205]Values of NC and NV were taken from Ref.
+0.944	[*A*]Values of NV[*R*]were taken[*A*]from Ref	context()	negated: False ,passive: True
+0.944	[*A*]Values of NC[*R*]were taken[*A*]from Ref	context()	negated: False ,passive: True
+[LINE#206] The first feature to note in Fig. ) is that the lifetime plotted against X is linear (.
+[LINE#207]Second, the lifetime at high injection (as X1) tends to the so called 'ambipolar' lifetime given by Eq.
+0.948	[*A*]the so called 'ambipolar' lifetime[*R*]given[*A*]by Eq	context()	negated: False ,passive: True
+0.962	[*A*]the lifetime at high injection (as X1[*R*]tends[*A*]to the so called 'ambipolar' lifetime	context()	negated: False ,passive: True
+[LINE#208](1) as (1/n+1/p)/N, which is independent of the doping level.
+0.962	[*A*]1/n+1/p)/N[*R*]is[*A*]independent of the doping level	context()	negated: False ,passive: True
+[LINE#209]Third, at low injection (as X0), the lifetime is dependent upon the doping level.
+0.385	[*A*]the lifetime[*R*]is dependent upon[*A*]the doping level	context()	negated: False ,passive: False
+0.964	[*A*]the lifetime[*R*]is[*A*]dependent upon the doping level[*A*]at low injection (as X0	context()	negated: False ,passive: True
+[LINE#210]It would also be dependent upon the defect's energy level.
+0.350	[*A*]It[*R*]would be[*A*]dependent upon the defect's energy level	context()	negated: False ,passive: True
+[LINE#211] 1(b) is a plot of the gradient of the data plotted in Fig.normalised by the high injection lifetime, plotted against the reciprocal of doping in accordance with Eq.
+0.919	[*A*]the data plotted in[*R*]Fig.normalised[*A*]by the high injection lifetime	context()	negated: False ,passive: True
+[LINE#212]The y-intercept of depends only upon Q, whereas the gradient depends only upon Q and Qn1+p1.
+0.918	[*A*]the gradient[*R*]depends[*A*]only upon Qn1+p1	context()	negated: False ,passive: False
+0.937	[*A*]The y - intercept of[*R*]depends[*A*]only upon Q[*A*]whereas the gradient depends only upon Qn1+p1	context()	negated: False ,passive: False
+0.918	[*A*]the gradient[*R*]depends[*A*]only upon Q	context()	negated: False ,passive: False
+0.937	[*A*]The y - intercept of[*R*]depends[*A*]only upon Q[*A*]whereas the gradient depends only upon Q	context()	negated: False ,passive: False
+[LINE#213]Unsurprisingly the plot in Fig. 1(b) gives the characteristic Q value for the FeB pair and the Qn1+p1 value consistent with that of the FeB pair.
+0.901	[*A*]the plot in Fig[*R*]gives[*A*]the characteristic Q value for the FeB pair and the Qn1+p1 value consistent with that of the FeB pair	context()	negated: False ,passive: False
+[LINE#214]Other information (such as temperature-dependent measurements) is needed to isolate whether the Qn1 or the p1 term is dominant.
+0.961	[*A*]Other information (such as temperature-dependent measurements[*R*]is needed[*A*]to isolate whether the Qn1 or the p1 term is dominant	context()	negated: False ,passive: True
+[LINE#215]The same methodology is drawn upon in this paper to quantify recombination at oxide precipitates in silicon, for which the parameters are not well established.
+0.732	[*A*]the parameters[*R*]are not well established	context()	negated: True ,passive: False
+0.911	[*A*]The same methodology[*R*]is drawn[*A*]upon[*A*]in this paper[*A*]to quantify recombination at oxide precipitates in silicon	context()	negated: False ,passive: True
+[LINE#216]" samplesIn Fig. 3, the residual minority carrier lifetime measured in uncontaminated samples containing oxide precipitates is plotted against X=n/p for two p-type specimens and Y=p/n for two n-type specimens.
+0.820	[*A*]the residual minority carrier lifetime measured in uncontaminated samples[*R*]is plotted	context()	negated: False ,passive: False
+0.903	[*A*]uncontaminated samples[*R*]containing[*A*]oxide precipitates	context()	negated: False ,passive: False
+0.926	[*A*]the residual minority carrier lifetime[*R*]measured[*A*]in uncontaminated samples	context()	negated: False ,passive: True
+[LINE#217]The supporting TEM study [3] found dislocations and stacking faults to surround the oxide precipitates in one of the p-type sample types, but not the other.
+0.912	[*A*]The supporting TEM study[*R*]found[*A*]stacking faults to surround the oxide	context()	negated: False ,passive: False
+0.912	[*A*]The supporting TEM study[*R*]found[*A*]dislocations	context()	negated: False ,passive: False
+0.961	[*A*]The supporting TEM study [ 3 ] found dislocations[*R*]precipitates[*A*]in one of the p - type sample types	context()	negated: False ,passive: True
+[LINE#218]The two n-type samples have different doping levels.
+0.932	[*A*]The two n-type samples[*R*]have[*A*]different doping levels	context()	negated: False ,passive: False
+[LINE#219] Similar curves to those in Fig.and (b) were obtained in ~100 other p-type samples studied.
+[LINE#220](1) shows that a single SRH centre gives a lifetime response which is linear with X=n/p, but the variation obtained experimentally is clearly not linear.
+0.666	[*A*]the variation obtained[*R*]is not[*A*]linear	context()	negated: True ,passive: True
+0.732	[*A*]the variation[*R*]obtained	context()	negated: False ,passive: False
+0.959	[*A*]a single SRH centre[*R*]gives[*A*]a lifetime response which is linear with X=n / p	context(1 shows)	negated: False ,passive: False
+0.195	[*A*]1[*R*]shows[*A*]that a single SRH centre gives a lifetime response	context()	negated: False ,passive: False
+0.933	[*A*]a lifetime response[*R*]is[*A*]linear with X=n / p	context()	negated: False ,passive: True
+[LINE#221]shows clear non-linearity with Y=p/n in the n-type case too.
+[LINE#222]Thus it is the case that oxygen precipitation introduces more than simple single-level SRH recombination centre.
+0.918	[*A*]oxygen precipitation[*R*]introduces[*A*]more than simple single-level SRH recombination centre	context()	negated: False ,passive: False
+0.435	[*A*]it[*R*]is[*A*]the case that oxygen precipitation introduces more than simple single-level SRH recombination centre	context()	negated: False ,passive: True
+[LINE#223]We have previously ruled out the possibility that precipitation introduces a single defect with two energy levels [21].
+0.894	[*A*]precipitation[*R*]introduces[*A*]a single defect with two energy levels	context()	negated: False ,passive: False
+0.360	[*A*]We[*R*]have ruled out[*A*]the possibility that precipitation introduces a single defect with two energy levels[*A*]previously	context()	negated: False ,passive: False
+[LINE#224]We find in all cases that the injection-dependence of the lifetime can be fitted with two single-levels that act independently, i.e. (1/residual)=((1/1)+(1/2)).
+0.737	[*A*]two single - levels[*R*]act independently	context()	negated: False ,passive: False
+0.774	[*A*]the injection - dependence of the lifetime[*R*]can be fitted	context(We find)	negated: False ,passive: False
+0.330	[*A*]We[*R*]find[*A*]in all cases[*A*]that the injection - dependence of the lifetime can be fitted with two single - levels	context()	negated: False ,passive: False
+[LINE#225] These are referred to simply as "Defect 1" and "Defect 2", and their individual and combined effects that best fit the experimental data are plotted on the graphs in Fig.3.To determine the properties of the two defects, the same approach as in the example shown in Fig. 1 was used.
+0.905	[*A*]the experimental data[*R*]are plotted[*A*]on the graphs in Fig.3.To	context(their combined effects best fit)	negated: False ,passive: True
+0.271	[*A*]their combined effects[*R*]best fit	context()	negated: False ,passive: False
+0.881	[*A*]their combined effects that best fit the experimental data are plotted on the graphs in Fig.3.To[*R*]determine[*A*]the properties of the two defects	context(the same approach as in the example was used)	negated: False ,passive: False
+0.881	[*A*]their individual effects that best fit the experimental data are plotted on the graphs in Fig.3.To[*R*]determine[*A*]the properties of the two defects	context(the same approach as in the example was used)	negated: False ,passive: False
+0.749	[*A*]the same approach as in the example[*R*]was used	context()	negated: False ,passive: False
+0.905	[*A*]the experimental data[*R*]are plotted[*A*]on the graphs in Fig.3.To	context(their individual effects best fit)	negated: False ,passive: True
+0.271	[*A*]their individual effects[*R*]best fit	context()	negated: False ,passive: False
+0.153	[*A*]1[*R*]was used	context()	negated: False ,passive: False
+0.925	[*A*]the experimental data[*R*]are plotted[*A*]on the graphs in Fig.3.To	context()	negated: False ,passive: True
+0.658	[*A*]These[*R*]are referred[*A*]simply as " Defect 2 " the experimental data are plotted on the graphs in Fig.3.To	context()	negated: False ,passive: True
+0.937	[*A*]the example[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.751	[*A*]the experimental data[*R*]are plotted	context()	negated: False ,passive: False
+0.499	[*A*]These[*R*]are referred[*A*]simply as " Defect 1	context()	negated: False ,passive: True
+[LINE#226]The gradients of the fits to the experimental data for both defects for a large number of p-type samples were normalised by the high injection (X1) limits and were plotted against 1/p0 according to Eq.
+0.993	[*A*]The gradients[*R*]were plotted against[*A*]1 / p0	context()	negated: False ,passive: False
+0.903	[*A*]The gradients[*R*]were plotted[*A*]according to Eq	context()	negated: False ,passive: True
+0.983	[*A*]The gradients of the fits to the experimental data for both defects for a large number of p - type samples[*R*]were normalised[*A*]by the high injection ( X1 ) limits	context()	negated: False ,passive: True
+[LINE#227]A similar approach was taken for the n-type samples (see Ref.
+0.911	[*A*]A similar approach[*R*]was taken[*A*]for the n-type samples	context()	negated: False ,passive: True
+[LINE#228]These plots were used to deduce the value of Q from the intercept and the values of Qn1+p1 (for p-type) and n1+p1/Q (for n-type) from the gradient.
+0.905	[*A*]These plots[*R*]to deduce[*A*]the value of Q[*A*]from the intercept	context()	negated: False ,passive: False
+0.947	[*A*]These plots[*R*]were used[*A*]to deduce the value of Q from the intercept and the values of Qn1+p1 (for p-type) and n1+p1/Q (for n-type) from the gradient	context()	negated: False ,passive: True
+[LINE#229] For Defect 1, both the p-type and n-type data give the ratio of the capture coefficient for electrons (n1) to that of holes (p1) as Q1=.
+0.906	[*A*]both the n - type data[*R*]give[*A*]the ratio of the capture coefficient for electrons ( n1 ) to that of holes ( p1 ) as Q1=	context()	negated: False ,passive: False
+0.906	[*A*]both the p - type data[*R*]give[*A*]the ratio of the capture coefficient for electrons ( n1 ) to that of holes ( p1 ) as Q1=	context()	negated: False ,passive: False
+[LINE#230] For Defect 2, both the p-type and the n-type data give the ratio of the capture coefficient for holes (p2) to that of electrons (n2) for Defect 2.
+0.889	[*A*]both the n - type data[*R*]give[*A*]the ratio of the capture coefficient for holes ( p2 ) to that of electrons ( n2 ) for Defect 2	context()	negated: False ,passive: False
+0.820	[*A*]both the p - type[*R*]give[*A*]the ratio of the capture coefficient for holes[*A*]to that of electrons	context()	negated: False ,passive: False
+[LINE#231]For Defect 1, for which n1 and p1 are the SRH densities given by Eqs.
+0.944	[*A*]the SRH densities[*R*]given[*A*]by Eqs	context()	negated: False ,passive: True
+0.903	[*A*]p1[*R*]are[*A*]the SRH densities[*A*]Defect 1	context()	negated: False ,passive: True
+[LINE#232], the parameter Q1n1+p1 is 4.81015cm-3 from the p-type data and the parameter n1+(p1/Q1) is 3.11013cm-3 from the n-type data.
+0.920	[*A*]the parameter n1+[*R*]is[*A*]3.11013cm - 3	context()	negated: False ,passive: True
+0.973	[*A*]the parameter[*R*]is[*A*]3	context()	negated: False ,passive: False
+0.913	[*A*]the parameter[*R*]is[*A*]4.81015cm - 3	context()	negated: False ,passive: True
+[LINE#233]For Defect 2, for which n2 and p2 are the corresponding SRH densities, the parameter Q2n2+p2 is 1.01015cm-3 from the p-type and the parameter n2+(p2/Q2) is 1.31018cm-3 from the n-type data.
+0.888	[*A*]Defect 2 for which p2 are the corresponding SRH densities[*R*]has the parameter is of[*A*]3	context()	negated: False ,passive: False
+0.903	[*A*]p2[*R*]are[*A*]the corresponding SRH densities[*A*]Defect 2	context()	negated: False ,passive: True
+0.973	[*A*]the parameter Q2n2+p2 1.01015 cm - from the parameter n2+[*R*]is[*A*]3	context()	negated: False ,passive: False
+0.974	[*A*]the parameter Q2n2+p2 is 1.01015cm - 3 from the parameter n2+[*R*]is[*A*]1.31018cm - 3	context()	negated: False ,passive: True
+0.888	[*A*]Defect 2 for which n2 are the corresponding SRH densities[*R*]has the parameter is of[*A*]3	context()	negated: False ,passive: False
+0.973	[*A*]the parameter Q2n2+p2 1.01015 cm - from the p - type[*R*]is[*A*]3	context()	negated: False ,passive: False
+0.980	[*A*]the parameter Q2n2+p2 is 1.01015cm - 3 from the p - type[*R*]is[*A*]1.31018cm - 3	context()	negated: False ,passive: True
+0.938	[*A*]Q2n2+p2[*R*]is[*A*]1.01015cm - 3	context()	negated: False ,passive: True
+0.903	[*A*]n2[*R*]are[*A*]the corresponding SRH densities[*A*]Defect 2	context()	negated: False ,passive: True
+[LINE#234]Temperature-dependent lifetime data reported previously [21] were used to determine the half of the band-gap in which the energy levels of the two defects lie.
+0.957	[*A*]the energy levels of the two defects[*R*]lie[*A*]the band-gap	context()	negated: False ,passive: True
+0.913	[*A*]Temperature-dependent lifetime data reported previously[*R*]were used[*A*]to determine the half of the band-gap	context()	negated: False ,passive: True
+0.783	[*A*]Temperature-dependent lifetime data[*R*]reported[*A*]previously	context()	negated: False ,passive: True
+[LINE#235]We deduce that Defect 1 is at EV+0.22eV, and that Defect 2 is at EC-0.08eV.
+0.923	[*A*]Defect 2[*R*]is[*A*]at EC - 0.08eV	context(We deduce)	negated: False ,passive: True
+0.225	[*A*]We[*R*]deduce[*A*]that Defect 2 is at EC - 0.08eV	context()	negated: False ,passive: False
+0.923	[*A*]Defect 1[*R*]is[*A*]at EV+0.22eV	context(We deduce)	negated: False ,passive: True
+0.225	[*A*]We[*R*]deduce[*A*]that Defect 1 is at EV+0.22eV	context()	negated: False ,passive: False
+[LINE#236]The SRH parameters are summarised in Table 1.
+0.944	[*A*]The SRH parameters[*R*]are summarised[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#237] The temperature dependent lifetime data show that the capture coefficient for holes at Defect 1 (p1) decreases with temperature with a 0.20eV activation energy, and that the capture coefficient for electrons at Defect 2 (n2) decreases with temperature with a 0.14eV activation energy [21].Aswell as extracting SRH parameters from the lifetime data, it is possible to extract information on the density of each defect and to correlate this with the precipitate density measured by chemical etching.
+0.911	[*A*]the precipitate density[*R*]measured[*A*]by chemical etching	context()	negated: False ,passive: True
+0.805	[*A*]the capture coefficient for electrons at Defect 2[*R*]decreases	context()	negated: False ,passive: False
+0.918	[*A*]the capture coefficient for holes at Defect 1[*R*]decreases[*A*]with temperature with a 0.20eV activation energy	context(The temperature dependent lifetime data show)	negated: False ,passive: True
+0.886	[*A*]The temperature dependent lifetime data[*R*]show[*A*]that the capture coefficient for holes at Defect 1 ( p1 ) decreases with temperature with a 0.20eV activation energy	context()	negated: False ,passive: False
+[LINE#238] It is not possible to determine the absolute densities of Defect 1and Defect 2 (N2) from lifetime measurements alone.
+[LINE#239]it is possible to deduce N1n1 and N2n2 for each lifetime measurement in p-type material.
+[LINE#240]A similar approach for n-type material allows for N1p1 and N2p2 to be extracted.
+0.730	[*A*]N2p2[*R*]to be extracted	context(A similar approach for n - type material allows)	negated: False ,passive: False
+0.941	[*A*]A similar approach for n - type material[*R*]allows[*A*]for N2p2 to be extracted	context()	negated: False ,passive: False
+0.730	[*A*]N1p1[*R*]to be extracted	context(A similar approach for n - type material allows)	negated: False ,passive: False
+0.941	[*A*]A similar approach for n - type material[*R*]allows[*A*]for N1p1 to be extracted	context()	negated: False ,passive: False
+[LINE#241] The p-type parameters are plotted against the measured concentration of strained precipitates in Fig. for the case when oxide precipitates are not surrounded by dislocations and stacking faults and in Fig.in the case when the oxide precipitates are surrounded by other extended defects.
+0.751	[*A*]the oxide precipitates[*R*]are surrounded	context()	negated: False ,passive: False
+0.785	[*A*]The p - type parameters[*R*]are plotted	context()	negated: False ,passive: False
+[LINE#242]In both plots, the correlation of N1n1 and N2n2 with Nstrained is approximately linear.
+0.978	[*A*]the correlation of N2n2 with Nstrained[*R*]is[*A*]approximately linear[*A*]In both plots	context()	negated: False ,passive: True
+0.973	[*A*]the correlation of N1n1[*R*]is[*A*]approximately linear[*A*]In both plots	context()	negated: False ,passive: True
+[LINE#243]The gradients of the linear fit shown are given alongside the SRH parameters in Table 1.
+0.933	[*A*]The gradients of the linear fit[*R*]are given[*A*]alongside the SRH parameters in Table 1	context()	negated: False ,passive: True
+0.800	[*A*]the linear fit[*R*]shown	context()	negated: False ,passive: False
+[LINE#244]Similar plots for n-type material have been published previously [21].
+0.842	[*A*]Similar plots for n-type material[*R*]have been published[*A*]previously	context()	negated: False ,passive: True
+[LINE#245]We note that the relationship is only approximately linear, and we suggest this is due to differences in the decoration of the precipitates by impurities, as discussed in the next section..
+0.502	[*A*]this[*R*]is[*A*]due to differences in the decoration of the precipitates by impurities[*A*]as discussed in the next section	context(we suggest)	negated: False ,passive: True
+0.504	[*A*]we[*R*]suggest[*A*]this is due to differences in the decoration of the precipitates by impurities , as discussed in the next section	context()	negated: False ,passive: False
+0.195	[*A*]We[*R*]note[*A*]approximately linear	context()	negated: False ,passive: False
+0.512	[*A*]this[*R*]is[*A*]due to differences in the decoration of the precipitates by impurities	context(we suggest)	negated: False ,passive: True
+0.514	[*A*]we[*R*]suggest[*A*]this is due to differences in the decoration of the precipitates by impurities	context()	negated: False ,passive: False
+0.777	[*A*]the relationship[*R*]is[*A*]approximately linear	context(We note)	negated: False ,passive: True
+0.194	[*A*]We[*R*]note[*A*]that the relationship is approximately linear	context()	negated: False ,passive: False
+[LINE#246] Iron contaminated samplesInjection-dependent lifetime measurements on a set of p-type iron contaminated samples are plotted in Fig..
+0.945	[*A*]samplesInjection-dependent lifetime measurements[*R*]are plotted[*A*]in Fig	context()	negated: False ,passive: True
+0.894	[*A*]iron[*R*]contaminated[*A*]samples	context()	negated: False ,passive: False
+0.957	[*A*]Iron[*R*]contaminated[*A*]samplesInjection-dependent lifetime measurements[*A*]on a set of p-type iron contaminated samples	context()	negated: False ,passive: False
+[LINE#247]The samples used all came from the same wafer (so have very similar precipitate densities), and different levels of iron were diffused into the samples by varying the contamination temperature.
+0.932	[*A*]The samples different levels of iron[*R*]were diffused[*A*]into the samples	context()	negated: False ,passive: True
+0.887	[*A*]The samples[*R*]have[*A*]very similar precipitate densities	context()	negated: False ,passive: False
+0.732	[*A*]The samples[*R*]used	context()	negated: False ,passive: False
+[LINE#248]The residual lifetime reduces with contamination temperature.
+0.911	[*A*]The residual lifetime[*R*]reduces[*A*]with contamination temperature	context()	negated: False ,passive: False
+[LINE#249] It is noted that the lifetime component associated with bulk iron is factored out of residual (Eq. (7)), so reductions in lifetime are assumed to be due to recombination associated with iron segregated to oxide precipitates and any surrounding defects (dislocations and stacking faults).Itis remarkable that the injection response of the residual lifetime has the same form in iron-contaminated and "uncontaminated" samples.
+0.882	[*A*]iron segregated[*R*]to oxide[*A*]any surrounding defects ( stacking faults	context()	negated: False ,passive: False
+0.942	[*A*]recombination[*R*]associated[*A*]with iron segregated to oxide any surrounding defects ( stacking faults ) . Itis remarkable	context()	negated: False ,passive: True
+0.963	[*A*]the injection response of the residual lifetime[*R*]has[*A*]the same form in iron - contaminated and " uncontaminated " samples	context(iron segregated to oxide)	negated: False ,passive: False
+0.882	[*A*]iron segregated[*R*]to oxide[*A*]any surrounding defects	context()	negated: False ,passive: False
+0.942	[*A*]recombination[*R*]associated[*A*]with iron segregated to oxide any surrounding defects ( dislocations ) . Itis remarkable	context()	negated: False ,passive: True
+0.897	[*A*]reductions in lifetime[*R*]to be[*A*]due to recombination	context()	negated: False ,passive: True
+0.751	[*A*]reductions in lifetime[*R*]are assumed	context()	negated: False ,passive: False
+0.970	[*A*]the injection response of the residual lifetime[*R*]has[*A*]the same form in iron - contaminated and " uncontaminated " samples	context()	negated: False ,passive: False
+0.911	[*A*]the lifetime component[*R*]associated[*A*]with bulk iron	context()	negated: False ,passive: True
+0.856	[*A*]recombination[*R*]associated[*A*]with iron segregated to oxide precipitates . Itis remarkable that the injection response of the residual lifetime has the same form in iron - contaminated and " uncontaminated " samples	context()	negated: False ,passive: True
+[LINE#250]In fact, the same defect parameters can be used to fit the experimental data in both cases.
+0.737	[*A*]the same defect parameters[*R*]to fit	context()	negated: False ,passive: False
+0.919	[*A*]the same defect parameters[*R*]can be used[*A*]to fit the experimental data in both cases	context()	negated: False ,passive: True
+[LINE#251] Nn terms for both Defect 1 and Defect 2 have been extracted from fits to the data in Fig..
+0.937	[*A*]Nn terms for Defect 2[*R*]have been extracted[*A*]from fits to the data in Fig	context()	negated: False ,passive: True
+0.943	[*A*]Nn terms for both Defect 1[*R*]have been extracted[*A*]from fits to the data in Fig	context()	negated: False ,passive: True
+[LINE#252]The values of these fit parameters increase with contamination temperature, and the ratio of N1n1 to N2n2 is fairly consistent at between 2.8 and 4.0.
+0.897	[*A*]the ratio of N1n1 to N2n2[*R*]is[*A*]fairly consistent[*A*]at between 4.0	context()	negated: False ,passive: True
+0.897	[*A*]the ratio of N1n1 to N2n2[*R*]is[*A*]fairly consistent[*A*]at between 2.8	context()	negated: False ,passive: True
+0.801	[*A*]The values of these fit parameters[*R*]increase	context()	negated: False ,passive: False
+[LINE#253]We discuss the relationship between recombination activity and iron decoration of the oxide precipitates and surrounding defects in Section 5.2. .
+0.569	[*A*]We[*R*]discuss[*A*]the relationship between recombination activity and iron decoration of the oxide precipitates and surrounding defects in Section 5.2	context()	negated: False ,passive: False
+[LINE#254] Samples subjected to phosphorus diffusion getteringFig.7 shows residual minority carrier lifetime plotted against X=n/p for a typical sample before and after phosphorus diffusion gettering using the temperature profile shown in Fig. 2.
+0.925	[*A*]phosphorus diffusion gettering[*R*]using[*A*]the temperature profile shown in Fig	context()	negated: False ,passive: False
+0.964	[*A*]Samples subjected to phosphorus diffusion getteringFig.7 shows residual minority carrier lifetime[*R*]plotted[*A*]against X=n / p[*A*]after phosphorus diffusion gettering using the temperature profile	context()	negated: False ,passive: False
+0.942	[*A*]the temperature profile[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.964	[*A*]Samples subjected to phosphorus diffusion getteringFig.7 shows residual minority carrier lifetime[*R*]plotted[*A*]against X=n / p[*A*]for a typical sample[*A*]before using the temperature profile	context()	negated: False ,passive: False
+0.894	[*A*]Samples[*R*]subjected[*A*]to phosphorus diffusion getteringFig.7 shows residual minority carrier lifetime	context()	negated: False ,passive: True
+[LINE#255]The injection response before and after gettering can be fitted using the parameters for Defect 1 and Defect 2 shown in Table 1.
+0.785	[*A*]The injection response after gettering[*R*]can be fitted	context()	negated: False ,passive: False
+0.952	[*A*]the parameters for Defect 2[*R*]shown[*A*]in Table 1	context()	negated: False ,passive: True
+0.952	[*A*]the parameters for Defect 1[*R*]shown[*A*]in Table 1	context()	negated: False ,passive: True
+0.845	[*A*]The injection response[*R*]can be fitted[*A*]before	context()	negated: False ,passive: True
+[LINE#256]The gettering process increases the overall lifetime, and the Nn term for both defects is reduced by 20%.
+0.993	[*A*]the Nn term for both defects[*R*]is reduced by[*A*]20 %	context()	negated: False ,passive: False
+0.949	[*A*]the Nn term for both defects[*R*]is reduced[*A*]by 20 %	context()	negated: False ,passive: True
+0.891	[*A*]The gettering process[*R*]increases[*A*]the overall lifetime	context()	negated: False ,passive: False
+[LINE#257]The gettering process reduces the bulk iron concentration by a factor of 2.7.
+0.911	[*A*]The gettering process[*R*]reduces[*A*]the bulk iron concentration[*A*]by a factor of 2.7	context()	negated: False ,passive: False

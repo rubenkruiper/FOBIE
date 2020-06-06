@@ -15,7 +15,7 @@ matcher.add('Trade-Offs', None, [{'ORTH': "Trade"}, {'ORTH': '-'}, {'ORTH': "Off
 matcher.add('parentheses', None, [{'ORTH': "("}, {}, {'ORTH': ")"}])
 
 def quote_merger(doc):
-    # this will be called on the Doc object in the pipeline
+    # this will be called on the Doc object in the spacy pipeline
     matched_spans = []
     matches = matcher(doc)
     for match_id, start, end in matches:
@@ -30,5 +30,12 @@ nlp.add_pipe(quote_merger, first=True)  # add it right after the tokenizer
 # no_parse_nlp.add_pipe(quote_merger, first=True)  # add it right after the tokenizer
 
 def spacy_nlp(too_be_parsed):
+    """
+    Instantiate a Spacy nlp parser (spacy.load('en_core_web_sm', disable=['ner','tagger']), which matches a couple
+    of 'trade-off' expressions as single tokens - rather than ['trade', '-', 'off'].
+
+    :param too_be_parsed: Some string to be parsed, could be single or multiple sentences.
+    :return: The space doc for that string, containing sentence and token information.
+    """
     return nlp(too_be_parsed)
 

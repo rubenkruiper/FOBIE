@@ -1,0 +1,1268 @@
+[LINE#1]Oceanic tides have the potential to yield a vast amount of renewable energy.
+0.830	[*A*]Oceanic tides[*R*]have to yield[*A*]a vast amount of renewable energy	context(Oceanic tides have)	negated: False ,passive: False
+0.923	[*A*]Oceanic tides[*R*]have[*A*]the potential to yield a vast amount of renewable energy	context()	negated: False ,passive: False
+[LINE#2]Tidal stream generators are one of the key technologies for extracting and harnessing this potential.
+0.911	[*A*]Tidal stream generators[*R*]are[*A*]one of the key technologies for harnessing this potential	context()	negated: False ,passive: True
+0.911	[*A*]Tidal stream generators[*R*]are[*A*]one of the key technologies for extracting	context()	negated: False ,passive: True
+[LINE#3]In order to extract an economically useful amount of power, hundreds of tidal turbines must typically be deployed in an array.
+0.881	[*A*]hundreds of tidal turbines[*R*]must be deployed[*A*]in an array	context()	negated: False ,passive: True
+[LINE#4]This naturally leads to the question of how these turbines should be configured to extract the maximum possible power: the positioning and the individual tuning of the turbines could significantly influence the extracted power, and hence is of major economic interest.
+0.122	[*A*]This[*R*]naturally leads	context(the individual tuning of the turbines could significantly influence)	negated: False ,passive: False
+0.913	[*A*]the individual tuning of the turbines[*R*]could significantly influence[*A*]the extracted power	context()	negated: False ,passive: False
+0.122	[*A*]This[*R*]naturally leads	context(the positioning could significantly influence)	negated: False ,passive: False
+0.878	[*A*]the positioning[*R*]could significantly influence[*A*]the extracted power	context()	negated: False ,passive: False
+0.903	[*A*]these turbines[*R*]should be configured[*A*]to extract the maximum possible power	context()	negated: False ,passive: True
+0.408	[*A*]This[*R*]is[*A*]of major economic interest	context()	negated: False ,passive: True
+[LINE#5]However, manual optimisation is difficult due to legal site constraints, nonlinear interactions of the turbine wakes, and the cubic dependence of the power on the flow speed.
+0.813	[*A*]manual optimisation[*R*]is[*A*]difficult	context()	negated: False ,passive: True
+0.761	[*A*]manual optimisation[*R*]is due[*A*]difficult	context()	negated: False ,passive: True
+[LINE#6]The novel contribution of this paper is the formulation of this problem as an optimisation problem constrained by a physical model, which is then solved using an efficient gradient-based optimisation algorithm.
+0.748	[*A*]a physical model[*R*]is solved[*A*]then	context()	negated: False ,passive: True
+0.911	[*A*]an optimisation problem[*R*]constrained[*A*]by a physical model	context()	negated: False ,passive: True
+0.948	[*A*]The novel contribution of this paper[*R*]is[*A*]the formulation of this problem as an optimisation problem	context()	negated: False ,passive: True
+[LINE#7]In each optimisation iteration, a two-dimensional finite element shallow water model predicts the flow and the performance of the current array configuration.
+0.970	[*A*]a two - dimensional finite element shallow water model[*R*]predicts[*A*]the performance of the current array configuration[*A*]In each optimisation iteration	context()	negated: False ,passive: False
+0.970	[*A*]a two - dimensional finite element shallow water model[*R*]predicts[*A*]the flow[*A*]In each optimisation iteration	context()	negated: False ,passive: False
+[LINE#8]The gradient of the power extracted with respect to the turbine positions and their tuning parameters is then computed in a fraction of the time taken for a flow solution by solving the associated adjoint equations.
+0.937	[*A*]the time[*R*]taken[*A*]for a flow solution by solving the associated adjoint equations	context()	negated: False ,passive: True
+0.783	[*A*]The gradient of the power[*R*]is computed[*A*]then	context()	negated: False ,passive: True
+0.732	[*A*]the power[*R*]extracted	context()	negated: False ,passive: False
+[LINE#9]These equations propagate causality backwards through the computation, from the power extracted back to the turbine positions and the tuning parameters.
+0.903	[*A*]the power[*R*]extracted[*A*]back to the tuning parameters	context()	negated: False ,passive: True
+0.903	[*A*]the power[*R*]extracted[*A*]back to the turbine positions	context()	negated: False ,passive: True
+0.901	[*A*]These equations[*R*]propagate backwards[*A*]causality	context()	negated: False ,passive: False
+[LINE#10]This yields the gradient at a cost almost independent of the number of turbines, which is crucial for any practical application.
+0.927	[*A*]the number of turbines[*R*]is[*A*]crucial for any practical application	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]yields[*A*]the gradient	context()	negated: False ,passive: False
+[LINE#11]The utility of the approach is demonstrated by optimising turbine arrays in four idealised scenarios and a more realistic case with up to 256 turbines in the Inner Sound of the Pentland Firth, Scotland.
+0.785	[*A*]The utility of the approach[*R*]is demonstrated	context()	negated: False ,passive: False
+[LINE#12]In this work, the optimal configuration of tidal turbine farms was formulated as an optimisation problem constrained by partial differential equations describing the flow.
+0.911	[*A*]partial differential equations[*R*]describing[*A*]the flow	context()	negated: False ,passive: False
+0.911	[*A*]an optimisation problem[*R*]constrained[*A*]by partial differential equations	context()	negated: False ,passive: True
+0.964	[*A*]the optimal configuration of tidal turbine farms[*R*]was formulated[*A*]as an optimisation problem[*A*]In this work	context()	negated: False ,passive: True
+[LINE#13]This formulation allows the direct application of sophisticated mathematical techniques to its solution, particularly the adjoint technique for rapidly evaluating gradients.
+0.890	[*A*]This formulation[*R*]allows[*A*]the direct application of sophisticated mathematical techniques to its solution	context()	negated: False ,passive: False
+[LINE#14]The optimisation of tidal turbine farms is necessary to realise their full potential, but without gradient-based optimisation techniques the computational cost is prohibitive [42].The approach presented here has several key advantages.
+0.937	[*A*]The approach presented here[*R*]has[*A*]several key advantages	context()	negated: False ,passive: False
+0.767	[*A*]The approach[*R*]presented[*A*]here	context()	negated: False ,passive: True
+0.996	[*A*]the computational cost[*R*]has prohibitive of[*A*]42 ]	context()	negated: False ,passive: False
+0.828	[*A*]the computational cost[*R*]is[*A*]prohibitive [ 42	context()	negated: False ,passive: True
+0.908	[*A*]The optimisation of tidal turbine farms[*R*]is[*A*]necessary to realise their full potential	context()	negated: False ,passive: True
+[LINE#15]It fully accounts for the nonlinear interactions between the geometry, the turbines, and the flow throughout the optimisation.
+0.528	[*A*]It[*R*]accounts[*A*]for the nonlinear interactions between the geometry, the turbines, and the flow throughout the optimisation	context()	negated: False ,passive: False
+[LINE#16]The use of gradient-based optimisation algorithms combined with the adjoint technique enables the use of physically-realistic flow models, even for a large number of turbines.
+0.934	[*A*]The use of gradient-based optimisation algorithms[*R*]enables[*A*]the use of physically-realistic flow models	context()	negated: False ,passive: False
+0.926	[*A*]gradient-based optimisation algorithms[*R*]combined[*A*]with the adjoint technique	context()	negated: False ,passive: True
+[LINE#17]Once the flow model inputs are specified (domain, boundary conditions, initial array configuration, etc.), the optimisation is fully automatic.
+0.813	[*A*]the optimisation[*R*]is[*A*]fully automatic	context()	negated: False ,passive: True
+0.769	[*A*]the flow model inputs[*R*]are specified	context()	negated: False ,passive: False
+[LINE#18]The approach extends naturally to more realistic flow models, and to different functionals of interest such as profit or environmental impact.
+0.903	[*A*]The approach[*R*]extends naturally[*A*]to more realistic flow models	context()	negated: False ,passive: True
+[LINE#19]The algorithm was first applied to the optimisation of four idealised scenarios, both to demonstrate the capability of the method and to build physical intuition.
+0.916	[*A*]The algorithm[*R*]was applied[*A*]to the optimisation of four idealised scenarios[*A*]first	context()	negated: False ,passive: True
+[LINE#20]In all cases, the optimisation algorithm was successful in significantly increasing the power extracted by the farm, at a computationally feasible cost.
+0.903	[*A*]the power[*R*]extracted[*A*]by the farm	context()	negated: False ,passive: True
+0.544	[*A*]significantly[*R*]increasing[*A*]the power extracted by the farm,	context()	negated: False ,passive: True
+0.975	[*A*]the optimisation algorithm[*R*]was[*A*]successful[*A*]in significantly increasing the power extracted by the farm, at a computationally feasible cost[*A*]In all cases	context()	negated: False ,passive: True
+[LINE#21]The algorithm was then successfully applied to a more realistic optimisation problem, involving a site of major industrial interest, accurate shoreline geometry, and an industrially relevant number of turbines.
+0.925	[*A*]The algorithm[*R*]was[*A*]an industrially relevant number of turbines	context()	negated: False ,passive: True
+0.916	[*A*]The algorithm[*R*]was successfully applied[*A*]to a more realistic optimisation problem[*A*]then	context()	negated: False ,passive: True
+[LINE#22]Four main extensions are required to apply this in an industrial setting.
+0.897	[*A*]Four main extensions[*R*]to apply[*A*]this[*A*]in an industrial setting	context()	negated: False ,passive: False
+0.911	[*A*]Four main extensions[*R*]are required[*A*]to apply this in an industrial setting	context()	negated: False ,passive: True
+[LINE#23]Firstly, the simulations must be driven by realistic tidal forcing, and incorporate a wider model domain around the site to be investigated.
+0.903	[*A*]the simulations[*R*]must be driven[*A*]by realistic tidal forcing	context()	negated: False ,passive: True
+[LINE#24]This also includes extending the forward model to be forced by a head loss instead of a fixed inflow velocity to incorporate the impact of large arrays on the free-stream velocity [39].
+0.943	[*A*]the forward model[*R*]to be forced[*A*]by a fixed inflow velocity[*A*]to incorporate the impact of large arrays on the free - stream velocity	context()	negated: False ,passive: True
+0.911	[*A*]the forward model[*R*]to be forced[*A*]by a head loss	context()	negated: False ,passive: True
+0.342	[*A*]This[*R*]includes[*A*]extending the forward model	context()	negated: False ,passive: True
+[LINE#25]Secondly, bathymetric effects must be accounted for.
+[LINE#26]Thirdly, the flow model must then be validated against real-world measurements.
+0.779	[*A*]the flow model[*R*]must be validated[*A*]then	context()	negated: False ,passive: True
+[LINE#27]Finally, the wake modelling should be improved via a turbulence closure and a realistic power curve used.
+0.769	[*A*]a realistic power curve[*R*]used	context()	negated: False ,passive: False
+0.843	[*A*]the wake modelling[*R*]should be improved[*A*]Finally	context()	negated: False ,passive: True
+[LINE#28]All of these advances are the subject of ongoing work.
+0.385	[*A*]these advances[*R*]are the subject of[*A*]ongoing work	context()	negated: False ,passive: False
+0.919	[*A*]All of these advances[*R*]are[*A*]the subject of ongoing work	context()	negated: False ,passive: True
+[LINE#29]The source-code of the turbine farm optimisation software and all examples are open-source and available at http://opentidalfarm.org.
+0.842	[*A*]The source - code of all examples[*R*]are[*A*]available[*A*]at http://opentidalfarm.org.	context()	negated: False ,passive: True
+0.938	[*A*]The source - code of all examples[*R*]are[*A*]open - source	context()	negated: False ,passive: True
+0.877	[*A*]The source - code of the turbine farm optimisation software[*R*]are[*A*]available[*A*]at http://opentidalfarm.org.	context()	negated: False ,passive: True
+0.953	[*A*]The source - code of the turbine farm optimisation software[*R*]are[*A*]open - source	context()	negated: False ,passive: True
+[LINE#30] The following numerical examples solve the optimal layout problem in four idealised scenarios motivated by [9] (.
+0.783	[*A*]four idealised scenarios[*R*]motivated[*A*]by [9	context()	negated: False ,passive: True
+0.919	[*A*]The following numerical examples[*R*]solve[*A*]the optimal layout problem[*A*]in four idealised scenarios	context()	negated: False ,passive: False
+[LINE#31]Additionally, in scenario 3 we optimise for the positions and the tuning of the individual turbines.
+0.595	[*A*]we[*R*]optimise[*A*]for the tuning of the individual turbines[*A*]in scenario 3	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]optimise[*A*]for the positions[*A*]in scenario 3	context()	negated: False ,passive: False
+[LINE#32] In all examples, 32 turbines are to be deployed in a rectangular turbine site of size 320 m.
+0.164	[*A*]a turbine site of size[*R*]has rectangle of[*A*]320 m	context()	negated: False ,passive: False
+0.887	[*A*]32 turbines[*R*]to be deployed[*A*]in a rectangular turbine site of size	context()	negated: False ,passive: True
+0.937	[*A*]32 turbines[*R*]are[*A*]to be deployed in a rectangular turbine site of size	context()	negated: False ,passive: True
+[LINE#33]The idealised domains simplify the subsequent interpretation of the optimised configurations.
+0.911	[*A*]The idealised domains[*R*]simplify[*A*]the subsequent interpretation of the optimised configurations	context()	negated: False ,passive: False
+[LINE#34]Nevertheless, the domains are chosen such that they resemble structures that can be found in practical deployment sites.
+0.877	[*A*]structures[*R*]can be found[*A*]in practical deployment sites	context()	negated: False ,passive: True
+0.369	[*A*]they[*R*]resemble[*A*]structures that can be found in practical deployment sites	context()	negated: False ,passive: True
+0.732	[*A*]the domains[*R*]are chosen	context()	negated: False ,passive: False
+[LINE#35] The main three objectives for the numerical examples are to investigate: by how much can optimisation increase the energy extraction?.
+0.805	[*A*]The main three objectives for the numerical examples[*R*]to investigate	context()	negated: False ,passive: False
+0.964	[*A*]The main three objectives for the numerical examples[*R*]are[*A*]to investigate: by how much can optimisation increase the energy extraction	context()	negated: False ,passive: True
+[LINE#36] Can the optimisation algorithm reliably improve the energy extraction for different scenarios?.
+[LINE#37]How does the choice of the optimisation variables and the constraints impact the resulting configuration?The parameter choices for the experiments are listed in Table 1.
+0.943	[*A*]The parameter choices for the experiments[*R*]are listed[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#38]The stopping accuracy of the SLSQP optimisation algorithm was set to 10-6 unless otherwise stated.
+0.993	[*A*]The stopping accuracy of the SLSQP optimisation algorithm[*R*]was set to[*A*]10 -6	context()	negated: False ,passive: False
+0.804	[*A*]The stopping accuracy of the SLSQP optimisation algorithm[*R*]was set[*A*]to 10-6[*A*]unless otherwise stated	context()	negated: False ,passive: True
+[LINE#39]The stopping criteria demand that the solution is feasible (i.e. that the L1 norm of the constraint residuals is less than the tolerance) and that the solution is optimal (i.e. that the gradient in the search direction is also less than the tolerance).
+0.813	[*A*]the solution[*R*]is[*A*]optimal	context()	negated: False ,passive: True
+[LINE#40]This tolerance is extremely tight, as can be seen in the convergence plots, and could be weakened for efficiency reasons.
+0.381	[*A*]This[*R*]could be weakened[*A*]for efficiency reasons	context()	negated: False ,passive: True
+0.925	[*A*]This tolerance[*R*]is[*A*]extremely tight[*A*]as can be seen in the convergence plots	context()	negated: False ,passive: True
+[LINE#41]Scenarios 1 and 3 were modelled using the stationary shallow water equations with the following boundary conditions.
+0.497	[*A*]3[*R*]were modelled[*A*]using the stationary shallow water equations with the following boundary conditions	context()	negated: False ,passive: True
+0.937	[*A*]Scenarios 1[*R*]were modelled[*A*]using the stationary shallow water equations with the following boundary conditions	context()	negated: False ,passive: True
+[LINE#42]On the inflow boundary a constant inflow velocity of 2 m s-1 was enforced and on the outflow boundary the free-surface displacement was set to zero.
+0.957	[*A*]the free - surface displacement[*R*]was set[*A*]to zero[*A*]on the outflow boundary	context()	negated: False ,passive: True
+0.968	[*A*]a constant inflow velocity of 2 m s - 1[*R*]was enforced[*A*]On the inflow boundary	context()	negated: False ,passive: True
+[LINE#43]A no-normal flow boundary condition with a free-slip condition for the tangential components was applied on the remaining boundaries.
+0.975	[*A*]A no-normal flow boundary condition with a free-slip condition for the tangential components[*R*]was applied[*A*]on the remaining boundaries	context()	negated: False ,passive: True
+[LINE#44]Scenarios 2 and 4 solved the non-stationary shallow water equations with boundary conditions explained in the associated sections.
+0.381	[*A*]4[*R*]solved[*A*]the non-stationary shallow water equations with boundary conditions	context()	negated: False ,passive: False
+0.903	[*A*]boundary conditions[*R*]explained[*A*]in the associated sections	context()	negated: False ,passive: True
+0.903	[*A*]Scenarios 2[*R*]solved[*A*]the non-stationary shallow water equations with boundary conditions	context()	negated: False ,passive: False
+[LINE#45] All examples used unstructured meshes with a uniform mesh element size of h.
+0.903	[*A*]All examples[*R*]used[*A*]unstructured meshes	context()	negated: False ,passive: False
+[LINE#46]Inside the site area, the mesh was structured with an element size of h = 2 m.
+0.943	[*A*]the mesh[*R*]was structured[*A*]with an element size of h = 2 m.[*A*]Inside the site area	context()	negated: False ,passive: True
+[LINE#47]The higher resolution in the turbine site ensures that each individual turbine is well resolved, independent of its location within the site; this obviates the need for regridding when the turbines are moved.
+0.905	[*A*]each individual turbine[*R*]is[*A*]well resolved, independent of its location within the site	context(The higher resolution in the turbine site ensures this obviates)	negated: False ,passive: True
+0.330	[*A*]this[*R*]obviates[*A*]the need for regridding when the turbines are moved	context(The higher resolution in the turbine site ensures)	negated: False ,passive: False
+0.794	[*A*]The higher resolution in the turbine site[*R*]ensures[*A*]that each individual turbine is well resolved, independent of its location within the site; this obviates the need for regridding	context()	negated: False ,passive: False
+0.732	[*A*]the turbines[*R*]are moved	context()	negated: False ,passive: False
+[LINE#48]Doubling the resolution for the problem considered in Section 5.1 changed the power extracted by less than 0.5%.
+0.890	[*A*]the resolution for the problem[*R*]changed[*A*]the power extracted by less than 0.5%	context()	negated: False ,passive: False
+0.903	[*A*]the power[*R*]extracted[*A*]by less than 0.5%	context()	negated: False ,passive: True
+0.903	[*A*]the problem[*R*]considered[*A*]in Section 5.1	context()	negated: False ,passive: True
+[LINE#49]It is therefore assumed that the problems are sufficiently well resolved.
+0.698	[*A*]the problems[*R*]sufficiently well resolved	context()	negated: False ,passive: False
+[LINE#50]The resulting meshes consisted of approximately 33,000 triangles for scenario 1 and 2, 63,000 triangles for scenario 3 and 45,000 triangles for scenario 4.
+0.911	[*A*]The resulting meshes[*R*]consisted[*A*]of approximately 33,000 triangles for scenario 2	context()	negated: False ,passive: True
+0.911	[*A*]The resulting meshes[*R*]consisted[*A*]of approximately 33,000 triangles for scenario 1	context()	negated: False ,passive: True
+[LINE#51] All meshes were generated using Gmsh [16].Inall numerical experiments, the optimisation algorithm was initialised with the 32 turbines deployed in a regular 8  4 grid and with box constraints for the turbine positions to ensure that the turbines remain inside the site areas..
+0.857	[*A*]the 32 turbines[*R*]deployed[*A*]in a regular 8  4 grid[*A*]to ensure that the turbines remain inside the site areas	context()	negated: False ,passive: True
+0.911	[*A*]the optimisation algorithm[*R*]was initialised[*A*]with the 32 turbines	context()	negated: False ,passive: True
+0.905	[*A*]All meshes[*R*]using[*A*]Gmsh	context()	negated: False ,passive: False
+0.732	[*A*]All meshes[*R*]were generated	context()	negated: False ,passive: False
+[LINE#52]a preliminary test, a single turbine was deployed in the setup of scenario 1.
+0.911	[*A*]a single turbine[*R*]was deployed[*A*]in the setup of scenario 1	context()	negated: False ,passive: True
+[LINE#53] The turbine was placed 640/3 m  320/2 m away from the bottom left corner, as shown in Fig. 4.This setup was used to study the dependency of the power extraction J on the friction coefficient K that occurs in the turbine parameterisation4c shows the power extraction for a range of K values.
+0.887	[*A*]4.This setup[*R*]to study[*A*]the dependency of the power extraction	context()	negated: False ,passive: False
+0.947	[*A*]4.This setup[*R*]was used[*A*]to study the dependency of the power extraction J on the friction coefficient K	context()	negated: False ,passive: True
+0.948	[*A*]parameterisation4c[*R*]shows[*A*]the power extraction for a range of K values	context()	negated: False ,passive: False
+0.905	[*A*]the friction coefficient K[*R*]occurs[*A*]in the turbine	context()	negated: False ,passive: True
+0.918	[*A*]The turbine[*R*]was placed[*A*]640/3 m  320/2 m away from the bottom[*A*]as shown in Fig	context()	negated: False ,passive: True
+[LINE#54]The graph shows a defined single peak where the power extraction is maximised, and is similar to previous studies [14,40,41].
+0.925	[*A*]The graph[*R*]is[*A*]similar to previous studies	context()	negated: False ,passive: True
+0.939	[*A*]the power extraction[*R*]is maximised[*A*]a defined single peak	context()	negated: False ,passive: True
+0.952	[*A*]The graph[*R*]shows[*A*]a defined single peak where the power extraction is maximised	context()	negated: False ,passive: False
+[LINE#55] The reason for this peak is that as K  0, the turbine friction function ct approaches 0, which in turn results in no power extraction since the power function (8) is multiplied by ct; similarly, as K , the flow is deflected around the turbine and results in the observed power drop.
+0.778	[*A*]the turbine friction function ct[*R*]approaches[*A*]0	context(The reason for this peak is)	negated: False ,passive: True
+0.903	[*A*]The reason for this peak[*R*]is[*A*]that as K 0 , the turbine friction function ct approaches 0 , which in turn results in the observed power drop	context()	negated: False ,passive: True
+0.939	[*A*]the turbine friction function ct[*R*]approaches[*A*]0[*A*]which in turn results in no power extraction since the power function	context(The reason for this peak is the flow is deflected)	negated: False ,passive: True
+0.900	[*A*]The reason for this peak[*R*]is[*A*]that as K 0 , the turbine friction function ct approaches 0	context(the flow is deflected)	negated: False ,passive: True
+0.928	[*A*]the flow[*R*]is deflected[*A*]around the turbine[*A*]similarly	context()	negated: False ,passive: True
+[LINE#56]The power extraction peaks for K = 21, which was used for all following numerical tests if not otherwise stated.
+0.922	[*A*]K = 21[*R*]was used[*A*]for all following numerical tests	context()	negated: False ,passive: True
+[LINE#57]With this choice the single turbine extracted 3.2 MW from the flow. .
+0.999	[*A*]the single turbine[*R*]extracted[*A*]3.2 mw	context()	negated: False ,passive: False
+0.925	[*A*]the single turbine[*R*]extracted[*A*]3.2 MW[*A*]from the flow	context()	negated: False ,passive: False
+[LINE#58] Scenario 1Firstly, the layout problem for scenario 1(Fig. 3a) was solved without enforcing a minimum distance between turbines, i.e. the turbines can be placed arbitrarily inside the site area and may even overlap.
+0.619	[*A*]Scenario[*R*]may overlap	context()	negated: False ,passive: False
+0.962	[*A*]the layout problem for scenario 1 ( Fig[*R*]was solved[*A*]without enforcing a minimum distance between turbines[*A*]Scenario 1Firstly	context()	negated: False ,passive: True
+[LINE#59]With that setup the optimisation algorithm terminated after 135 iterations (134 gradient evaluations, 231 functional evaluations).
+0.911	[*A*]the optimisation algorithm[*R*]terminated[*A*]after 135 iterations	context()	negated: False ,passive: True
+[LINE#60] Compared to the initial regular layout (Fig. the optimisation algorithm was able to increase the farm power extraction by 76% from 54.5 MW to 95.7 MW.
+[LINE#61]The optimised layout (Fig. 5b) has the turbines aligned in the shape of two s with the open end facing the inflow.
+0.911	[*A*]the open end[*R*]facing[*A*]the inflow	context()	negated: False ,passive: False
+0.937	[*A*]the turbines[*R*]aligned[*A*]in the shape of two s with the open end	context()	negated: False ,passive: True
+0.949	[*A*]The optimised layout[*R*]has[*A*]the turbines aligned in the shape of two s with the open end	context()	negated: False ,passive: False
+[LINE#62]An intuitive interpretation of this layout is that the water is funnelled by the two sides of the s and then forced through the dense turbine 'wall' at their closed ends.
+0.883	[*A*]the water[*R*]is forced[*A*]through the dense turbine ' wall ' at their closed ends[*A*]then	context(An intuitive interpretation of this layout is)	negated: False ,passive: True
+0.822	[*A*]An intuitive interpretation of this layout[*R*]is[*A*]that the water is then forced through the dense turbine ' wall ' at their closed ends	context()	negated: False ,passive: True
+0.882	[*A*]the water[*R*]is funnelled[*A*]by the two sides of the s	context(An intuitive interpretation of this layout is)	negated: False ,passive: True
+0.895	[*A*]An intuitive interpretation of this layout[*R*]is[*A*]that the water is funnelled by the two sides of the s	context()	negated: False ,passive: True
+[LINE#63] This interpretation is confirmed by an increasing free-surface displacement (not shown) and velocity difference along the sides of the s and the large jump along their closed endadditional experiment was performed where inequality constraints were included to enforce a minimum distance of 30 m (3 turbine radii) between each turbine.
+0.835	[*A*]This interpretation[*R*]is confirmed[*A*]by the large jump along their closed endadditional experiment	context()	negated: False ,passive: True
+0.937	[*A*]This interpretation[*R*]is confirmed[*A*]by an increasing free - surface velocity difference along the sides of the s	context()	negated: False ,passive: True
+0.732	[*A*]inequality constraints[*R*]were included	context()	negated: False ,passive: False
+0.927	[*A*]This interpretation[*R*]was performed[*A*]where inequality constraints were included to enforce a minimum distance of 30 m ( 3 turbine radii ) between each turbine	context()	negated: False ,passive: True
+0.773	[*A*]an increasing free - surface displacement[*R*]not shown	context()	negated: True ,passive: False
+0.927	[*A*]inequality constraints[*R*]to enforce[*A*]a minimum distance of 30 m ( 3 turbine radii ) between each turbine	context()	negated: False ,passive: False
+0.903	[*A*]This interpretation[*R*]is confirmed[*A*]by an increasing free - surface displacement	context()	negated: False ,passive: True
+[LINE#64]With this setup, the optimisation algorithm terminated after 54 iterations (53 gradient evaluations, 112 functional evaluations) and the farm power extraction increased by 38% from 54.5 MW to 75.0 MW.
+0.931	[*A*]the farm power extraction[*R*]increased[*A*]by 38 %[*A*]from 54.5 MW to 75.0 MW	context()	negated: False ,passive: True
+0.952	[*A*]the optimisation algorithm[*R*]terminated[*A*]after the farm power extraction increased by 38 % from 54.5 MW to 75.0 MW	context()	negated: False ,passive: True
+0.977	[*A*]the optimisation algorithm terminated after 54 iterations ( 53 gradient evaluations , 112 functional evaluations )[*R*]increased[*A*]by 38 %[*A*]from 54.5 MW to 75.0 MW	context()	negated: False ,passive: True
+0.911	[*A*]the optimisation algorithm[*R*]terminated[*A*]after 54 iterations	context()	negated: False ,passive: True
+[LINE#65]The reduced optimised power extraction compared to the previous setup is expected since the inequality constraints add further restrictions to the feasible turbine positioning.
+0.932	[*A*]the inequality constraints[*R*]add[*A*]further restrictions[*A*]to the feasible turbine positioning	context()	negated: False ,passive: False
+0.970	[*A*]The reduced optimised power extraction compared to the previous setup[*R*]is expected[*A*]since the inequality constraints add further restrictions to the feasible turbine positioning	context()	negated: False ,passive: True
+[LINE#66]In particular, the previous optimised turbine layout is not a feasible solution for this setup.
+0.926	[*A*]the previous optimised turbine layout[*R*]is not[*A*]a feasible solution for this setup	context()	negated: True ,passive: True
+[LINE#67]The optimised alignment differs significantly from the previous one (Fig. 6b).
+0.751	[*A*]The optimised alignment[*R*]differs significantly	context()	negated: False ,passive: False
+[LINE#68]The two main characteristic structures are a > shaped alignment close to the inflow boundary and a wall of turbines near the outflow boundary.
+[LINE#69]Furthermore, the turbines are staggered to avoid placing one turbine in the direct wake of another turbine.
+0.927	[*A*]the turbines[*R*]to avoid[*A*]placing one turbine in the direct wake of another turbine	context()	negated: False ,passive: False
+0.732	[*A*]the turbines[*R*]are staggered	context()	negated: False ,passive: False
+[LINE#70]Finally, the free-surface displacement (not shown) and the velocity magnitude decrease more gradually towards the outflow compared to the previous setup (Fig. 6d).
+0.943	[*A*]the velocity magnitude[*R*]decrease more gradually[*A*]towards the outflow[*A*]compared to the previous setup ( Fig . 6 d	context()	negated: False ,passive: True
+0.958	[*A*]the free - surface displacement ( not shown[*R*]decrease more gradually[*A*]towards the outflow[*A*]compared to the previous setup ( Fig . 6 d	context()	negated: False ,passive: True
+0.756	[*A*]the free - surface displacement[*R*]not shown	context()	negated: True ,passive: False
+[LINE#71] Scenario 2The layout problem for scenario 23b) was solved using the non-stationary shallow water equations.
+0.927	[*A*]Scenario 2The layout problem for scenario 23b[*R*]was solved[*A*]using the non-stationary shallow water equations	context()	negated: False ,passive: True
+[LINE#72]The boundary conditions were as follows.
+0.783	[*A*]The boundary conditions[*R*]were[*A*]as follows	context()	negated: False ,passive: True
+[LINE#73]On the top, bottom and right boundaries a no-slip boundary condition was applied.
+0.953	[*A*]a no - slip boundary condition[*R*]was applied[*A*]On the right boundaries	context()	negated: False ,passive: True
+0.953	[*A*]a no - slip boundary condition[*R*]was applied[*A*]On the bottom	context()	negated: False ,passive: True
+0.953	[*A*]a no - slip boundary condition[*R*]was applied[*A*]On the top	context()	negated: False ,passive: True
+[LINE#74] On the left boundary a Dirichlet boundary condition enforced a sinusoidal in-/outflow velocity:u(x,y,t)=(-2sin(2t/.
+0.965	[*A*]a Dirichlet boundary condition[*R*]enforced[*A*]a sinusoidal in-/outflow[*A*]On the left boundary	context()	negated: False ,passive: False
+[LINE#75]P)0),where P is the tidal period time.
+0.852	[*A*]P[*R*]is[*A*]the tidal period time	context()	negated: False ,passive: True
+[LINE#76]Due to the small basin size, a realistically long tidal period would lead to an excessively large tidal range.
+0.926	[*A*]a realistically long tidal period[*R*]would lead[*A*]to an excessively large tidal range	context()	negated: False ,passive: False
+[LINE#77] Therefore, the tidal period was defined to be P 10 min, which resulted in a tidal range of 12 m.
+0.922	[*A*]P 10 min[*R*]resulted[*A*]in a tidal range of 12 m.	context()	negated: False ,passive: True
+0.913	[*A*]the tidal period[*R*]to be[*A*]P 10 min	context()	negated: False ,passive: True
+0.925	[*A*]the tidal period[*R*]was defined[*A*]to be P 10 min	context()	negated: False ,passive: True
+[LINE#78] The simulation time was set to one full tidal period with a time step of t =.
+0.943	[*A*]The simulation time[*R*]was set[*A*]to one full tidal period with a time step of t =	context()	negated: False ,passive: True
+[LINE#79]No spin up phase was applied, as its effect is assumed to be small due to the relatively short extent of the domain.
+0.344	[*A*]its effect[*R*]to be[*A*]small	context()	negated: False ,passive: True
+0.341	[*A*]its effect[*R*]is assumed	context()	negated: False ,passive: False
+0.891	[*A*]No spin up phase[*R*]was applied[*A*]as its effect is assumed to be small due to the relatively short extent of the domain	context()	negated: False ,passive: True
+[LINE#80]The optimisation was performed without enforcing a minimum distance between the turbines.
+0.887	[*A*]The optimisation[*R*]without enforcing[*A*]a minimum distance between the turbines	context()	negated: False ,passive: False
+0.732	[*A*]The optimisation[*R*]was performed	context()	negated: False ,passive: False
+[LINE#81]After 97 optimisation iterations (96 gradient evaluations, 217 functional evaluations) the relative functional improvement in each iteration dropped below the tolerance and the optimisation was terminated.
+0.954	[*A*]97 optimisation iterations ( 96 gradient evaluations , 217 functional evaluations ) the relative functional improvement in each iteration dropped below the optimisation[*R*]was terminated	context()	negated: False ,passive: False
+0.938	[*A*]the relative functional improvement in each iteration[*R*]dropped[*A*]below the optimisation	context()	negated: False ,passive: True
+0.954	[*A*]97 optimisation iterations ( 96 gradient evaluations , 217 functional evaluations ) the relative functional improvement in each iteration dropped below the tolerance[*R*]was terminated	context()	negated: False ,passive: False
+0.938	[*A*]the relative functional improvement in each iteration[*R*]dropped[*A*]below the tolerance	context()	negated: False ,passive: True
+[LINE#82] The average power extracted during one tidal cycle increased by 96% from 10.5 MW to 20.6 MW (Fig..
+0.952	[*A*]The average power extracted during one tidal cycle[*R*]increased[*A*]by 96%[*A*]from 10.5 MW to 20.6 MW	context()	negated: False ,passive: True
+0.911	[*A*]The average power[*R*]extracted[*A*]during one tidal cycle	context()	negated: False ,passive: True
+[LINE#83] The optimised layout (Fig. 7b) resembles the result of scenario 1 (Fig.5b), with the difference that the opening of the  structure faces the closed basin side.
+0.926	[*A*]the opening of the  structure[*R*]faces[*A*]the closed basin side	context()	negated: False ,passive: False
+0.897	[*A*]The optimised layout[*R*]resembles[*A*]the result of scenario 1	context()	negated: False ,passive: True
+[LINE#84] Scenario 3The domain of the third scenario is shown in Fig..
+0.948	[*A*]Scenario 3The domain of the third scenario[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#85]First, only the layout problem is solved.
+0.856	[*A*]only the layout problem[*R*]is solved[*A*]First	context()	negated: False ,passive: True
+[LINE#86]For this test, inequality constraints were applied to enforce a minimum distance of 30 m between each turbine.
+0.896	[*A*]a minimum distance[*R*]has length between each turbine of[*A*]30 m	context()	negated: False ,passive: False
+0.887	[*A*]inequality constraints[*R*]to enforce[*A*]a minimum distance of 30 m between each turbine	context()	negated: False ,passive: False
+0.933	[*A*]inequality constraints[*R*]were applied[*A*]For this test	context()	negated: False ,passive: True
+[LINE#87]The optimisation algorithm terminated after 56 iterations (55 gradient evaluations, 73 functional evaluations).
+0.911	[*A*]The optimisation algorithm[*R*]terminated[*A*]after 56 iterations	context()	negated: False ,passive: True
+[LINE#88] The optimised farm layout extracts 40.6 MW, which corresponds to an increase of 31% compared to the initial layout (30.9 MW).
+0.945	[*A*]40.6 MW[*R*]corresponds[*A*]to an increase of 31% compared to the initial layout	context()	negated: False ,passive: True
+[LINE#89] The optimised layout features a distinct -shaped alignment with an opening on the inflow facing side (8d shows the velocity magnitude and suggests that this hole acts to trap and push the flow through the downstream turbines similar to the previous examples.
+0.882	[*A*]this hole[*R*]acts to push[*A*]the flow[*A*]through the downstream turbines similar to the previous examples	context(The optimised layout suggests this hole acts)	negated: False ,passive: False
+0.941	[*A*]this hole[*R*]acts[*A*]to push the flow through the downstream turbines similar to the previous examples	context(The optimised layout suggests)	negated: False ,passive: False
+0.828	[*A*]The optimised layout[*R*]suggests[*A*]that this hole acts to push the flow through the downstream turbines similar to the previous examples	context()	negated: False ,passive: False
+0.687	[*A*]this hole[*R*]acts to trap to trap	context(The optimised layout suggests this hole acts)	negated: False ,passive: False
+0.777	[*A*]this hole[*R*]acts[*A*]to trap	context(The optimised layout suggests)	negated: False ,passive: False
+0.750	[*A*]The optimised layout[*R*]suggests[*A*]that this hole acts to trap	context()	negated: False ,passive: False
+0.929	[*A*]The optimised layout[*R*]features[*A*]a distinct - shaped alignment with an opening on the inflow	context(8 d shows)	negated: False ,passive: False
+0.836	[*A*]8 d[*R*]shows[*A*]the velocity magnitude	context()	negated: False ,passive: False
+0.903	[*A*]the inflow[*R*]facing[*A*]side	context()	negated: False ,passive: False
+[LINE#90]Second, the optimisation parameters were extended to include the friction coefficients K of each turbine in the parameterisation (5).
+0.944	[*A*]the optimisation parameters[*R*]to include[*A*]the friction coefficients K of each turbine in the parameterisation	context()	negated: False ,passive: True
+[LINE#91]Vennell [39,40] showed the necessity of varying the friction coefficients in order to achieve optimal farm performance.
+0.922	[*A*]Vennell [39,40[*R*]showed[*A*]the necessity of varying the friction coefficients in order	context()	negated: False ,passive: False
+[LINE#92] Each K coefficient was constrained.
+0.803	[*A*]Each K coefficient[*R*]was constrained	context()	negated: False ,passive: False
+[LINE#93]With this setup, the optimisation algorithm terminated after 92 iterations (88 gradient evaluations, 148 functional evaluations).
+0.911	[*A*]the optimisation algorithm[*R*]terminated[*A*]after 92 iterations	context()	negated: False ,passive: True
+[LINE#94] The results are presented in Fig..
+0.918	[*A*]The results[*R*]are presented[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#95] Compared to the initial configuration, the farm power extraction increased by 39% from 30.9 MW to 42.9 MW - the additional freedom of varyingthe K coefficients resulted in a higher optimised power extraction than the previous setup.
+0.970	[*A*]the additional freedom of varyingthe K coefficients[*R*]resulted[*A*]in a higher optimised power extraction than the previous setup	context()	negated: False ,passive: True
+0.931	[*A*]the farm power extraction[*R*]increased[*A*]by 39%[*A*]from 30.9 MW to 42.9 MW	context()	negated: False ,passive: True
+[LINE#96]The optimised turbine configuration is similar in shape to the previous solution but with a less distinct hole on the inflow facing side.
+0.903	[*A*]the inflow[*R*]facing[*A*]side	context()	negated: False ,passive: False
+0.960	[*A*]The optimised turbine configuration[*R*]is[*A*]similar in shape with a less distinct hole on the inflow	context()	negated: False ,passive: True
+0.937	[*A*]The optimised turbine configuration[*R*]is[*A*]similar in shape to the previous solution	context()	negated: False ,passive: True
+[LINE#97]Most notably, the friction coefficients of most turbines are significantly reduced.
+0.824	[*A*]the friction coefficients of most turbines[*R*]are reduced[*A*]significantly	context()	negated: False ,passive: True
+[LINE#98]Only the turbines on the downflow edges of the  take the maximum value, but nevertheless this configuration extracts 6% more energy than the optimal solution of the previous setup where only the positions were optimised.
+0.999	[*A*]this configuration[*R*]extracts[*A*]6 % more energy	context()	negated: False ,passive: False
+0.939	[*A*]only the positions[*R*]were optimised[*A*]the previous setup	context()	negated: False ,passive: True
+0.937	[*A*]this configuration[*R*]extracts[*A*]6 % more energy than the optimal solution of the previous setup	context()	negated: False ,passive: False
+0.948	[*A*]Only the turbines on the downflow edges of the[*R*]take[*A*]the maximum value	context()	negated: False ,passive: False
+[LINE#99]This example shows that optimising the friction coefficient (which can be viewed as reducing the size of the turbine or controlling the blade pitch) can lead to a significant increase in the power extraction of the farm. .
+0.933	[*A*]the friction coefficient[*R*]can be viewed[*A*]as reducing the size of the turbine or controlling the blade pitch	context()	negated: False ,passive: True
+0.925	[*A*]optimising the friction coefficient[*R*]can lead[*A*]to a significant increase in the power extraction of the farm	context(This example shows)	negated: False ,passive: False
+0.853	[*A*]This example[*R*]shows[*A*]that optimising the friction coefficient (which can be viewed as reducing the size of the turbine or controlling the blade pitch) can lead to a significant increase in the power extraction of the farm	context()	negated: False ,passive: False
+[LINE#100]Scenario 4The final scenario (Fig. 3d) was solved with the non-stationary shallow water equations.
+0.955	[*A*]Scenario 4The final scenario (Fig. 3d[*R*]was solved[*A*]with the non-stationary shallow water equations	context()	negated: False ,passive: True
+[LINE#101] The simulation time consisted of one P = 12 h sinusoidal period with a time step of t = 864.
+0.943	[*A*]The simulation time[*R*]consisted[*A*]of one P = 12 h sinusoidal period with a time step of t = 864	context()	negated: False ,passive: True
+[LINE#102]No spin up phase was applied, as its effect is assumed to be small due to the relatively short extent of the domain.
+0.344	[*A*]its effect[*R*]to be[*A*]small	context()	negated: False ,passive: True
+0.341	[*A*]its effect[*R*]is assumed	context()	negated: False ,passive: False
+0.891	[*A*]No spin up phase[*R*]was applied[*A*]as its effect is assumed to be small due to the relatively short extent of the domain	context()	negated: False ,passive: True
+[LINE#103] Dirichlet boundary conditions on the left and right boundaries enforced the following sinusoidal in-/outflow velocity:u(x,y,t)=(-2sin(2t/P)0).Onthe remaining boundaries a no-slip boundary condition was applied.
+0.763	[*A*]a no - slip boundary condition[*R*]was applied	context(Dirichlet boundary conditions on the right boundaries enforced)	negated: False ,passive: False
+0.780	[*A*]Dirichlet boundary conditions on the right boundaries[*R*]enforced	context()	negated: False ,passive: False
+0.763	[*A*]a no - slip boundary condition[*R*]was applied	context(Dirichlet boundary conditions on the left enforced)	negated: False ,passive: False
+0.763	[*A*]Dirichlet boundary conditions on the left[*R*]enforced	context()	negated: False ,passive: False
+0.920	[*A*]Onthe[*R*]remaining[*A*]boundaries	context()	negated: False ,passive: True
+[LINE#104]The setup optimised the turbine positions and applied the inequality constraints to enforce a minimum turbine distance of 30 m.
+0.878	[*A*]The setup[*R*]applied the inequality constraints to enforce[*A*]a minimum turbine distance of 30 m.	context(The setup applied)	negated: False ,passive: False
+0.878	[*A*]The setup[*R*]applied[*A*]the inequality constraints[*A*]to enforce a minimum turbine distance of 30 m.	context()	negated: False ,passive: False
+0.903	[*A*]The setup[*R*]optimised[*A*]the turbine positions	context()	negated: False ,passive: False
+[LINE#105]The optimisation algorithm terminated after 55 iterations (54 gradient evaluations, 75 functional evaluations).
+0.911	[*A*]The optimisation algorithm[*R*]terminated[*A*]after 55 iterations	context()	negated: False ,passive: True
+[LINE#106]10.The averaged power extracted during one cycle increased by 22% from 48.4 MW to 59.0 MW (Fig. 10e).
+0.923	[*A*]power extracted during one cycle[*R*]increased[*A*]by 22%[*A*]from 48.4 MW to 59.0 MW	context(10.The averaged)	negated: False ,passive: True
+0.902	[*A*]10.The[*R*]averaged[*A*]power extracted during one cycle	context()	negated: False ,passive: False
+0.894	[*A*]power[*R*]extracted[*A*]during one cycle	context()	negated: False ,passive: True
+[LINE#107]Since the computational domain is symmetric and the simulation time covered one full period, the optimised layout is expected to be symmetric in the x-direction.
+0.754	[*A*]the optimised layout[*R*]to be[*A*]symmetric	context()	negated: False ,passive: True
+0.751	[*A*]the optimised layout[*R*]is expected	context()	negated: False ,passive: False
+0.943	[*A*]the simulation time[*R*]covered[*A*]one full period , the optimised layout is expected to be symmetric in the x - direction	context()	negated: False ,passive: True
+0.828	[*A*]the computational domain[*R*]is[*A*]symmetric	context()	negated: False ,passive: True
+[LINE#108]The numerical solution, shown in Fig. 10b, indeed shows an almost symmetric result.
+0.965	[*A*]The numerical solution, shown in Fig. 10b[*R*]shows[*A*]an almost symmetric result	context()	negated: False ,passive: False
+0.933	[*A*]The numerical solution[*R*]shown[*A*]in Fig. 10b	context()	negated: False ,passive: True
+[LINE#109]The turbine alignment consists of two distorted  shapes whose open ends face the in/-outflow boundaries.
+0.911	[*A*]The turbine alignment[*R*]consists[*A*]of two distorted  shapes	context()	negated: False ,passive: True
+[LINE#110]Similar to the previous example, an interpretation of this alignment is to divert the stream towards the corner of the  where turbines can extract large amounts of power.
+0.894	[*A*]turbines[*R*]can extract[*A*]large amounts of power	context()	negated: False ,passive: False
+0.964	[*A*]an interpretation of this alignment[*R*]is[*A*]to divert the stream towards the corner of the  where turbines can extract large amounts of power	context()	negated: False ,passive: True
+[LINE#111]An additional row of turbines can be seen parallel to the bottom of the domain.
+[LINE#112]These turbines are positioned to capture energy from the flow passing along the boundary.
+0.903	[*A*]the flow[*R*]passing[*A*]along the boundary	context()	negated: False ,passive: True
+0.887	[*A*]These turbines[*R*]to capture[*A*]energy	context()	negated: False ,passive: False
+0.903	[*A*]These turbines[*R*]are positioned[*A*]to capture energy from the flow	context()	negated: False ,passive: True
+[LINE#113]Farm optimisation in the Inner Sound of the Pentland FirthA key design feature of the framework is that it should scale to problems in realistic oceanographic domains with large numbers of turbines in parallel.
+0.514	[*A*]it[*R*]should scale[*A*]to problems in realistic oceanographic domains with large numbers of turbines in parallel	context(Farm optimisation in the Inner Sound of the Pentland FirthA key design feature of the framework is)	negated: False ,passive: False
+0.895	[*A*]Farm optimisation in the Inner Sound of the Pentland FirthA key design feature of the framework[*R*]is[*A*]that it should scale to problems in realistic oceanographic domains with large numbers of turbines in parallel	context()	negated: False ,passive: True
+[LINE#114]To demonstrate this capability, the layout optimisation of a farm in a semi-idealised geometry modelled on the Inner Sound of the Pentland Firth (Fig. 11a) was conducted on the Stampede supercomputer.
+0.954	[*A*]the layout optimisation of a farm in a semi-idealised geometry[*R*]was conducted[*A*]on the Stampede supercomputer	context()	negated: False ,passive: True
+0.925	[*A*]a semi-idealised geometry[*R*]modelled[*A*]on the Inner Sound of the Pentland Firth	context()	negated: False ,passive: True
+[LINE#115]This site is one of the most promising locations in the UK, and is currently under development by MeyGen Ltd.
+0.937	[*A*]This site[*R*]is[*A*]currently[*A*]under development by MeyGen Ltd.	context()	negated: False ,passive: True
+0.937	[*A*]This site[*R*]is[*A*]one of the most promising locations in the UK	context()	negated: False ,passive: True
+[LINE#116]The computational domain is shown in Fig. 11b.
+0.925	[*A*]The computational domain[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#117]The pink area marks the turbine site location which roughly approximates the area used by the MeyGen project.
+0.918	[*A*]the area[*R*]used[*A*]by the MeyGen project	context()	negated: False ,passive: True
+0.920	[*A*]the turbine site location[*R*]roughly approximates[*A*]the area used by the MeyGen project	context()	negated: False ,passive: False
+0.932	[*A*]The pink area[*R*]marks[*A*]the turbine site location which roughly approximates the area	context()	negated: False ,passive: False
+[LINE#118]The discretised domain consists of a regular mesh in the turbine site area with 2 m element size, and an unstructured mesh elsewhere with element sizes ranging from 1.5 to 200 m.
+0.903	[*A*]element sizes[*R*]ranging[*A*]from 1.5 to 200 m.	context()	negated: False ,passive: True
+0.943	[*A*]The discretised domain[*R*]consists[*A*]of a regular mesh in the turbine site area with 2 m element size	context()	negated: False ,passive: True
+[LINE#119]The mesh was generated using Gmsh [16] using the GSHHS shoreline database [44].
+0.549	[*A*]16[*R*]using[*A*]the GSHHS shoreline database	context()	negated: False ,passive: False
+0.732	[*A*]The mesh[*R*]was generated	context()	negated: False ,passive: False
+[LINE#120]The mesh consists of 1.25  106 elements, which induces a discretisation with a total of 5.6  106 degrees of freedom with the Taylor-Hood finite element pair.
+0.897	[*A*]1.25  106 elements[*R*]induces[*A*]a discretisation	context()	negated: False ,passive: False
+0.903	[*A*]The mesh[*R*]consists[*A*]of 1.25  106 elements	context()	negated: False ,passive: True
+[LINE#121] In this idealised problem, the bathymetry is assumed constant at H =.
+0.943	[*A*]the bathymetry[*R*]is assumed[*A*]constant at H =[*A*]In this idealised problem	context()	negated: False ,passive: True
+[LINE#122]The addition of bathymetry is straightforward, and will be presented in future work, but would obscure the physical interpretation of the results presented here.
+0.829	[*A*]the physical interpretation of the results[*R*]presented[*A*]here	context()	negated: False ,passive: True
+0.905	[*A*]The addition of bathymetry[*R*]will be presented[*A*]in future work	context()	negated: False ,passive: True
+0.841	[*A*]The addition of bathymetry[*R*]is[*A*]straightforward	context()	negated: False ,passive: True
+[LINE#123]The farm optimisation was modelled during the flood tide using the stationary shallow water equations.
+0.911	[*A*]The farm optimisation[*R*]was modelled[*A*]during the flood tide	context()	negated: False ,passive: True
+[LINE#124] The simulations were performed with the same parameter settings as in the previous section (Table 1), but with an increased viscosity coefficient of  = 30 m2 s-1 and a decreased turbine friction coefficient of K.
+0.732	[*A*]The simulations[*R*]were performed	context()	negated: False ,passive: False
+[LINE#125]This was to ensure the existence of a steady-state solution.
+0.567	[*A*]This[*R*]was[*A*]to ensure the existence of a steady-state solution	context()	negated: False ,passive: True
+[LINE#126]Again, the unsteady case is straightforward and will be presented in future work.
+0.911	[*A*]the unsteady case[*R*]will be presented[*A*]in future work	context()	negated: False ,passive: True
+0.828	[*A*]the unsteady case[*R*]is[*A*]straightforward	context()	negated: False ,passive: True
+[LINE#127]For efficiency reasons, the convergence tolerance of the SLSQP optimisation algorithm was changed to 1.
+0.976	[*A*]the convergence tolerance of the SLSQP optimisation algorithm[*R*]was changed[*A*]to 1[*A*]For efficiency reasons	context()	negated: False ,passive: True
+[LINE#128]The same boundary conditions were used as in the steady-state scenarios of the previous section, with the inflow condition imposed on the western boundary and the outflow condition enforced on the eastern boundary.
+0.911	[*A*]the outflow condition[*R*]enforced[*A*]on the eastern boundary	context()	negated: False ,passive: True
+0.911	[*A*]the inflow condition[*R*]imposed[*A*]on the outflow condition	context()	negated: False ,passive: True
+0.911	[*A*]the inflow condition[*R*]imposed[*A*]on the western boundary	context()	negated: False ,passive: True
+0.948	[*A*]The same boundary conditions[*R*]were used[*A*]as in the steady - state scenarios of the previous section	context()	negated: False ,passive: True
+[LINE#129]Two optimisation runs were conducted, with 128 and 256 turbines respectively.
+0.993	[*A*]Two optimisation runs[*R*]were conducted with[*A*]256 turbines	context()	negated: False ,passive: False
+0.993	[*A*]Two optimisation runs[*R*]were conducted with[*A*]128 turbines	context()	negated: False ,passive: False
+0.751	[*A*]Two optimisation runs[*R*]were conducted[*A*]respectively	context()	negated: False ,passive: True
+[LINE#130] Both were performed on the Stampede supercomputer at the Texas Advanced Computing Center on 64 cores; both took between 24 and 48 h of real time to complete(one functional evaluation took approximately 270 s, one gradient evaluation took approximately 90 s).
+0.991	[*A*]one functional evaluation[*R*]took[*A*]approximately 270 s gradient approximately 90 s	context()	negated: False ,passive: False
+0.999	[*A*]one functional evaluation[*R*]took[*A*]approximately 270 s	context()	negated: False ,passive: False
+0.372	[*A*]Both[*R*]were performed[*A*]on the Stampede supercomputer[*A*]at the Texas Advanced Computing Center	context(both took one functional evaluation took)	negated: False ,passive: True
+0.330	[*A*]both[*R*]took[*A*]between 24 and 48 h of real time	context(one functional evaluation took)	negated: False ,passive: True
+0.929	[*A*]one functional evaluation[*R*]took[*A*]approximately 270 s, one gradient evaluation took approximately 90 s	context()	negated: False ,passive: False
+0.911	[*A*]one gradient evaluation[*R*]took[*A*]approximately 90 s	context()	negated: False ,passive: False
+[LINE#131]The 128 turbine case converged in 197 iterations (197 gradient evaluations, 349 functional evaluations), and increased the power extraction from 600 MW to 741 MW, an increase of 24% (Fig. 12a).
+0.613	[*A*]The 128[*R*]increased[*A*]the power extraction[*A*]from 600 MW to 741 MW	context()	negated: False ,passive: False
+0.919	[*A*]The 128 turbine case[*R*]converged[*A*]in 197 iterations	context()	negated: False ,passive: False
+[LINE#132]The 256 turbine case converged in 133 iterations (133 gradient evaluations, 185 functional evaluations), and increased the power extraction from 607 MW to 804 MW, an increase of 33% (Fig. 12b).
+0.613	[*A*]The 256[*R*]increased[*A*]the power extraction[*A*]from 607 MW to 804 MW	context()	negated: False ,passive: False
+0.919	[*A*]The 256 turbine case[*R*]converged[*A*]in 133 iterations	context()	negated: False ,passive: False
+[LINE#133]Even though eight times as many turbines are to be optimised compared to the previous section, the number of iterations has hardly increased at all, suggesting the suitability of the method for larger arrays.
+0.905	[*A*]the number of iterations[*R*]suggesting[*A*]the suitability of the method for larger arrays	context()	negated: False ,passive: False
+0.881	[*A*]the number of iterations[*R*]has increased[*A*]at all[*A*]suggesting the suitability of the method for larger arrays	context()	negated: False ,passive: True
+0.897	[*A*]as many turbines[*R*]to be optimised[*A*]compared to the previous section	context()	negated: False ,passive: True
+[LINE#134]The initial and optimised configurations are shown in Fig. 13.
+0.925	[*A*]The optimised configurations[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+0.925	[*A*]The initial configurations[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#135]In both cases, the optimisation algorithm builds very similar structures.
+0.948	[*A*]the optimisation algorithm[*R*]builds[*A*]very similar structures[*A*]In both cases	context()	negated: False ,passive: False
+[LINE#136]The key features of the optimised layouts are the following:Walls of turbines aligned with the north and south boundaries; the southern wall extends for the entire zonal length, while the northern wall only extends for the eastern two-thirds of the site.
+0.894	[*A*]turbines[*R*]aligned[*A*]with the south boundaries	context()	negated: False ,passive: True
+0.921	[*A*]The key features of the optimised layouts[*R*]are[*A*]the following:Walls of turbines	context(the southern wall extends)	negated: False ,passive: True
+0.927	[*A*]the southern wall[*R*]extends[*A*]for the entire zonal length[*A*]while the northern wall only extends for the eastern two - thirds of the site	context()	negated: False ,passive: True
+0.897	[*A*]the northern wall[*R*]extends[*A*]for the eastern two - thirds of the site	context()	negated: False ,passive: True
+0.894	[*A*]turbines[*R*]aligned[*A*]with the north boundaries	context()	negated: False ,passive: True
+[LINE#137]The turbine density on the western side of the northern wall appears to decay in a similar way in both cases.Eastern and western 'barrages' of densely packed turbines; in the 128 turbine case, the barrages consist of a single meridional column, while for the 256 turbine case the extra turbines are used to form additional columns.
+0.834	[*A*]The turbine density on the western side of the northern wall[*R*]appears	context(the barrages consist)	negated: False ,passive: False
+0.834	[*A*]The turbine density on the western side of the northern wall[*R*]appears	context(the barrages consist)	negated: False ,passive: False
+0.928	[*A*]the barrages[*R*]consist[*A*]of a single meridional column[*A*]in the 128 turbine case	context()	negated: False ,passive: True
+0.897	[*A*]the extra turbines[*R*]to form[*A*]additional columns	context()	negated: False ,passive: False
+0.911	[*A*]the extra turbines[*R*]are used[*A*]to form additional columns	context()	negated: False ,passive: True
+[LINE#138]The optimisation algorithm automatically staggers these extra columns to minimize wake shadowing (Fig. 13d).
+[LINE#139]These barrages are aligned perpendicular to the flow field (Fig. 14a and b) and extract the majority of the power (Fig. 14c and d).'Spurs' arcing from the southern wall in a north-easterly direction; in the 128 turbine case two spurs can be seen, while there are three spurs in the 256 turbine case.
+0.878	[*A*]These barrages[*R*]are aligned[*A*]perpendicular to the flow field	context(in the 128 turbine case two spurs can be seen)	negated: False ,passive: True
+0.894	[*A*]in the 128 turbine case two spurs[*R*]can be seen[*A*]while there are three spurs in the 256 turbine case	context()	negated: False ,passive: True
+[LINE#140]Again, the optimisation aligns the spurs perpendicular to the flow field.
+0.903	[*A*]the optimisation[*R*]aligns[*A*]the spurs perpendicular to the flow field	context()	negated: False ,passive: False
+[LINE#141]The spur length is chosen such that the majority of streamlines only intersect with two rows of turbines (Fig. 14c and d).We hypothesise that these structures serve the following functions:The main purpose of the southern and northern walls is to funnel the flow into and retain the flow inside the site boundary.
+0.939	[*A*]functions:The main purpose of the northern walls[*R*]is[*A*]to retain the flow inside the site boundary	context(the majority of streamlines intersect)	negated: False ,passive: True
+0.661	[*A*]the majority of streamlines[*R*]intersect[*A*]We hypothesise that these structures serve the following functions:The main purpose of the northern walls is to retain the flow inside the site boundary	context()	negated: False ,passive: False
+0.939	[*A*]functions:The main purpose of the northern walls[*R*]is[*A*]to funnel the flow into	context(the majority of streamlines intersect)	negated: False ,passive: True
+0.661	[*A*]the majority of streamlines[*R*]intersect[*A*]We hypothesise that these structures serve the following functions:The main purpose of the northern walls is to funnel the flow into	context()	negated: False ,passive: False
+0.952	[*A*]functions:The main purpose of the southern walls[*R*]is[*A*]to retain the flow inside the site boundary	context()	negated: False ,passive: True
+0.952	[*A*]functions:The main purpose of the southern walls[*R*]is[*A*]to funnel the flow into	context()	negated: False ,passive: True
+0.724	[*A*]these structures[*R*]serve[*A*]the following	context(We hypothesise)	negated: False ,passive: False
+0.194	[*A*]We[*R*]hypothesise[*A*]that these structures serve the following	context()	negated: False ,passive: False
+0.905	[*A*]the majority of streamlines[*R*]intersect[*A*]with two rows of turbines ( d	context()	negated: False ,passive: False
+0.905	[*A*]the majority of streamlines[*R*]intersect[*A*]with two rows of turbines	context()	negated: False ,passive: False
+0.751	[*A*]The spur length[*R*]is chosen	context()	negated: False ,passive: False
+[LINE#142]Similar features are found in all scenarios of the previous section.
+0.903	[*A*]Similar features[*R*]are found[*A*]in all scenarios of the previous section	context()	negated: False ,passive: True
+[LINE#143]The water predominantly flows in from the northwest, which is why the northern wall stops short on the western side.
+0.932	[*A*]the northern wall[*R*]stops[*A*]short on the western side	context()	negated: False ,passive: True
+0.944	[*A*]the northwest[*R*]is[*A*]why the northern wall stops short on the western side	context()	negated: False ,passive: True
+0.903	[*A*]The water[*R*]predominantly flows[*A*]in[*A*]from the northwest	context()	negated: False ,passive: True
+[LINE#144]We hypothesise that the decay of the turbine density on the western side of the northern wall acts to funnel water through the barrages.
+0.960	[*A*]the decay of the turbine density on the western side of the northern wall[*R*]acts to funnel[*A*]water[*A*]through the barrages	context(We hypothesise the decay of the turbine density on the western side of the northern wall acts)	negated: False ,passive: False
+0.969	[*A*]the decay of the turbine density on the western side of the northern wall[*R*]acts[*A*]to funnel water through the barrages	context(We hypothesise)	negated: False ,passive: False
+0.279	[*A*]We[*R*]hypothesise[*A*]that the decay of the turbine density on the western side of the northern wall acts to funnel water through the barrages	context()	negated: False ,passive: False
+[LINE#145] A similar density decay is visible in the optimised layout of scenario 15b).The flow trapped inside the site domain attempts to escape through the northern and southern walls, which causes the arcing of the western and eastern barrages close to the northern and southern boundaries (Fig. 14a and b).
+0.933	[*A*]the southern walls[*R*]causes[*A*]the arcing of the eastern barrages close to the southern boundaries	context()	negated: False ,passive: False
+0.933	[*A*]the southern walls[*R*]causes[*A*]the arcing of the eastern barrages close to the northern boundaries ( Fig . 14a and b	context()	negated: False ,passive: False
+0.933	[*A*]the southern walls[*R*]causes[*A*]the arcing of the western barrages close to the southern boundaries	context()	negated: False ,passive: False
+0.933	[*A*]the southern walls[*R*]causes[*A*]the arcing of the western barrages close to the northern boundaries ( Fig . 14a and b	context()	negated: False ,passive: False
+0.903	[*A*]The flow[*R*]trapped[*A*]inside the site[*A*]domain attempts to escape through the southern walls ,	context()	negated: False ,passive: False
+0.933	[*A*]the northern walls[*R*]causes[*A*]the arcing of the eastern barrages close to the southern boundaries	context()	negated: False ,passive: False
+0.933	[*A*]the northern walls[*R*]causes[*A*]the arcing of the eastern barrages close to the northern boundaries ( Fig . 14a and b	context()	negated: False ,passive: False
+0.933	[*A*]the northern walls[*R*]causes[*A*]the arcing of the western barrages close to the southern boundaries	context()	negated: False ,passive: False
+0.933	[*A*]the northern walls[*R*]causes[*A*]the arcing of the western barrages close to the northern boundaries ( Fig . 14a and b	context()	negated: False ,passive: False
+0.903	[*A*]The flow[*R*]trapped[*A*]inside the site[*A*]domain attempts to escape through the northern walls ,	context()	negated: False ,passive: False
+0.937	[*A*]A similar density decay[*R*]is[*A*]visible[*A*]in the optimised layout of scenario 15b	context()	negated: False ,passive: True
+[LINE#146]Since the prevailing incoming flow is towards the southeast, more turbines are placed on the southern wall to retain the flow.
+0.903	[*A*]more turbines[*R*]are placed[*A*]on the southern wall	context()	negated: False ,passive: True
+0.841	[*A*]the prevailing incoming flow[*R*]is[*A*]towards the southeast	context()	negated: False ,passive: True
+[LINE#147]This motivates the deployment of the spurs on the western side of the southern wall.
+0.497	[*A*]This[*R*]motivates[*A*]the deployment of the spurs on the western side of the southern wall	context()	negated: False ,passive: False
+[LINE#148]It is not physically meaningful to compare the optimised power extractions for the 128 and 256 turbine cases, as a realistic power curve was not used.
+0.769	[*A*]a realistic power curve[*R*]was not used	context()	negated: True ,passive: False
+[LINE#149]The maximum velocity in the site for the 128 turbine case was 3.7 m s-1, while it was 3.0 m s-1 for the 256 turbine case.
+0.966	[*A*]the site for the 128 turbine case[*R*]had The maximum velocity of[*A*]3.7 m	context()	negated: False ,passive: False
+0.973	[*A*]The maximum velocity in the site for the 128 turbine case[*R*]was[*A*]3.7 m	context()	negated: False ,passive: False
+0.522	[*A*]it[*R*]was[*A*]3.0 m s	context()	negated: False ,passive: True
+0.941	[*A*]The maximum velocity in the site for the 128 turbine case[*R*]was[*A*]3.7 m s-1[*A*]while it was 3.0 m s	context()	negated: False ,passive: True
+[LINE#150]Due to the cubic dependence of the power extraction on the speed, the power per turbine is approximately doubled in the 128 turbine case, and so the total power extraction of the two cases is almost the same.
+0.881	[*A*]the power per turbine[*R*]is doubled[*A*]in the 128 turbine case	context()	negated: False ,passive: True
+[LINE#151]However, if the turbine model enforced a rated speed beyond which no extra power was extracted, this approximate equality would not hold.
+0.751	[*A*]this approximate equality[*R*]would not hold	context()	negated: True ,passive: False
+0.939	[*A*]a rated speed[*R*]was extracted[*A*]no extra power	context()	negated: False ,passive: True
+0.943	[*A*]the turbine model[*R*]enforced[*A*]a rated speed beyond which no extra power was extracted	context()	negated: False ,passive: False
+[LINE#152]With the increasing cost of energy, tidal turbines are becoming a competitive and promising option for renewable electricity generation.
+0.903	[*A*]tidal turbines[*R*]are becoming[*A*]a promising option for renewable electricity generation	context()	negated: False ,passive: True
+0.903	[*A*]tidal turbines[*R*]are becoming[*A*]a competitive option for renewable electricity generation	context()	negated: False ,passive: True
+[LINE#153]A key advantage of tidal energy is that the power extracted is predictable in advance, which is highly attractive for grid management.
+0.916	[*A*]the power extracted[*R*]is[*A*]predictable[*A*]in advance	context(A key advantage of tidal energy is)	negated: False ,passive: True
+0.895	[*A*]A key advantage of tidal energy[*R*]is[*A*]that the power extracted is predictable in advance, which is highly attractive for grid management	context()	negated: False ,passive: True
+0.732	[*A*]the power[*R*]extracted	context()	negated: False ,passive: False
+[LINE#154]In order to amortise the fixed costs of installation and grid connection, arrays consisting of hundreds of tidal turbines must typically be deployed at a particular site.
+0.908	[*A*]arrays consisting of hundreds of tidal turbines[*R*]must be deployed[*A*]at a particular site	context()	negated: False ,passive: True
+0.894	[*A*]arrays[*R*]consisting[*A*]of hundreds of tidal turbines	context()	negated: False ,passive: True
+[LINE#155]This raises the question of where to place the turbines within the site and how to tune them individually in order to maximise the power output; finding the optimal configuration is of huge importance as it could substantially change the energy captured and possibly determine whether the project is economically viable.
+0.349	[*A*]This[*R*]raises[*A*]the question of how to tune them individually in order to maximise the power output ; finding the optimal configuration is of huge importance	context()	negated: False ,passive: False
+0.349	[*A*]This[*R*]raises[*A*]the question of how to tune them individually in order	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]could substantially change[*A*]the energy captured	context()	negated: False ,passive: False
+0.732	[*A*]the energy[*R*]captured	context()	negated: False ,passive: False
+0.497	[*A*]This[*R*]raises[*A*]the question of where to place the turbines within the site ; finding the optimal configuration is of huge importance	context()	negated: False ,passive: False
+[LINE#156]However, the determination of the optimal configuration is difficult because of the complex flow interactions between turbines and the fact that the power output depends sensitively on the flow velocity at the turbine positions.
+0.911	[*A*]the power output[*R*]depends sensitively[*A*]on the flow velocity at the turbine positions	context()	negated: False ,passive: False
+0.914	[*A*]the determination of the optimal configuration[*R*]is[*A*]difficult[*A*]because of the complex flow interactions between turbines and the fact that the power output depends sensitively on the flow velocity at the turbine positions	context()	negated: False ,passive: True
+[LINE#157]This problem has heretofore been addressed in two different ways.
+0.761	[*A*]This problem[*R*]has been addressed[*A*]heretofore	context()	negated: False ,passive: True
+[LINE#158]One approach is to simplify the tidal flow model such that the solutions are either available as explicit analytical expressions, or are extremely fast to compute.
+0.735	[*A*]the solutions[*R*]are[*A*]extremely fast to compute	context()	negated: False ,passive: True
+0.903	[*A*]the solutions[*R*]are[*A*]either available as explicit analytical expressions	context()	negated: False ,passive: True
+0.901	[*A*]One approach[*R*]is such[*A*]to simplify the tidal flow model	context()	negated: False ,passive: True
+[LINE#159]This means that the optimum can be analytically derived, or that the whole parameter space of possible configurations can be rapidly explored.
+0.687	[*A*]the optimum[*R*]can be analytically derived	context(This means)	negated: False ,passive: False
+0.224	[*A*]This[*R*]means[*A*]that the optimum can be analytically derived, or that the whole parameter space of possible configurations can be rapidly explored	context()	negated: False ,passive: False
+0.816	[*A*]the whole parameter space of possible configurations[*R*]can be rapidly explored	context()	negated: False ,passive: False
+[LINE#160]For example, Bryden and Couch [5] and Garrett and Cummins [15] optimised simplified models to derive an estimate for the maximum energy that can be extracted from a tidal basin.
+0.934	[*A*]Couch and Cummins [ 15[*R*]optimised[*A*]simplified models[*A*]to derive an estimate for the maximum energy	context()	negated: False ,passive: False
+0.934	[*A*]Bryden and Cummins [ 15[*R*]optimised[*A*]simplified models[*A*]to derive an estimate for the maximum energy	context()	negated: False ,passive: False
+0.934	[*A*]Couch and Garrett [ 15[*R*]optimised[*A*]simplified models[*A*]to derive an estimate for the maximum energy	context()	negated: False ,passive: False
+0.934	[*A*]Bryden and Garrett [ 15[*R*]optimised[*A*]simplified models[*A*]to derive an estimate for the maximum energy	context()	negated: False ,passive: False
+0.897	[*A*]the maximum energy[*R*]can be extracted[*A*]from a tidal basin	context()	negated: False ,passive: True
+0.903	[*A*]simplified models[*R*]to derive[*A*]an estimate for the maximum energy	context()	negated: False ,passive: False
+0.928	[*A*]5 ] and Garrett[*R*]optimised[*A*]simplified models[*A*]to derive an estimate for the maximum energy	context()	negated: False ,passive: False
+[LINE#161]Vennell [39,40] used simple one-dimensional models to demonstrate the importance of tuning each turbine individually to account for the channel geometry, turbine positions, and the tidal forcing.
+0.882	[*A*]Vennell[*R*]used simple one - dimensional models to demonstrate[*A*]the importance of tuning each turbine individually	context(Vennell used)	negated: False ,passive: False
+0.882	[*A*]Vennell[*R*]used[*A*]simple one - dimensional models[*A*]to demonstrate the importance of tuning each turbine individually	context()	negated: False ,passive: False
+[LINE#162]Thus, optimisation of farms is a crucial step needed to achieve their full potential.
+0.848	[*A*]a crucial step[*R*]needed[*A*]to achieve their full potential	context()	negated: False ,passive: True
+0.932	[*A*]optimisation of farms[*R*]is[*A*]a crucial step needed	context()	negated: False ,passive: True
+[LINE#163]However, Vennell [42] observes that this optimisation requires many model runs (if performed naively), thus making it computationally infeasible to use expensive, physically-accurate flow models for this task.
+0.878	[*A*]this optimisation[*R*]requires[*A*]many model runs (if performed naively	context(Vennell observes)	negated: False ,passive: False
+0.703	[*A*]Vennell[*R*]observes[*A*]that this optimisation requires many model runs (if performed naively[*A*]thus making it computationally infeasible	context()	negated: False ,passive: False
+[LINE#164]While this approach can provide a coarse estimate for the power potential of a site, these simplified models cannot accurately capture the complex nonlinear flow interactions between turbines.
+0.911	[*A*]these simplified models[*R*]can not accurately capture[*A*]the complex nonlinear flow interactions between turbines	context()	negated: True ,passive: False
+0.937	[*A*]this approach[*R*]can provide[*A*]a coarse estimate for the power potential of a site	context()	negated: False ,passive: False
+[LINE#165]The second approach is to use more complex flow models to accurately predict the tidal flow, the turbine wakes, and the resulting power output.
+0.956	[*A*]The second approach[*R*]is[*A*]to use more complex flow models to accurately predict the tidal flow , the resulting power output	context()	negated: False ,passive: True
+0.946	[*A*]The second approach[*R*]is[*A*]to use more complex flow models to accurately predict the tidal flow	context(the turbine wakes)	negated: False ,passive: True
+0.686	[*A*]the turbine[*R*]wakes	context()	negated: False ,passive: False
+[LINE#166]These models are usually formulated as numerical solutions to partial differential equations (PDEs).
+0.916	[*A*]These models[*R*]are formulated[*A*]as numerical solutions to partial differential equations[*A*]usually	context()	negated: False ,passive: True
+[LINE#167]The computational expense of these models prohibits the exploration of the whole parameter space [38].
+0.932	[*A*]The computational expense of these models[*R*]prohibits[*A*]the exploration of the whole parameter space	context()	negated: False ,passive: False
+[LINE#168]Consequently, typically only a handful of manually identified turbine configurations are investigated in a given scenario [1].
+0.948	[*A*]typically only a handful of manually identified turbine configurations[*R*]are investigated[*A*]in a given scenario	context()	negated: False ,passive: True
+[LINE#169][8] compared the power output of four different layouts in a rectangular channel by solving the two-dimensional nonlinear shallow water equations and was able to improve the power outcome by over 50% compared to a regular layout.
+0.342	[*A*]8[*R*]to improve[*A*]the power outcome	context()	negated: False ,passive: False
+0.567	[*A*]8[*R*]was[*A*]able to improve the power outcome by over 50 %[*A*]compared to a regular layout	context()	negated: False ,passive: True
+0.455	[*A*]8[*R*]compared[*A*]the power output of four different layouts[*A*]in a rectangular channel by solving the two - dimensional nonlinear shallow water equations	context()	negated: False ,passive: False
+[LINE#170][28] used a three-dimensional model to investigate how the distance between adjacent rows in a regular array layout impacts the turbine efficiency and showed an efficiency decay for distances of less than three times the turbine diameter.
+0.618	[*A*]28[*R*]used[*A*]a three-dimensional model[*A*]to investigate how the distance between adjacent rows in a regular array layout impacts the turbine efficiency and showed an efficiency decay for distances of less than three times the turbine diameter	context()	negated: False ,passive: False
+[LINE#171]While these studies show the potential of improving the performance by changing the turbine positions, such manual optimisation guided by intuition and experience becomes difficult in a realistic domain with complex bottom bathymetry, flow dynamics and hundreds of turbines.
+0.829	[*A*]such manual optimisation guided by experience[*R*]becomes[*A*]difficult	context()	negated: False ,passive: True
+0.911	[*A*]such manual optimisation[*R*]guided[*A*]by experience	context()	negated: False ,passive: True
+0.829	[*A*]such manual optimisation guided by intuition[*R*]becomes[*A*]difficult	context()	negated: False ,passive: True
+0.911	[*A*]such manual optimisation[*R*]guided[*A*]by intuition	context()	negated: False ,passive: True
+0.925	[*A*]these studies[*R*]show[*A*]the potential of improving the performance	context()	negated: False ,passive: False
+[LINE#172]In this paper, we present a novel technique for maximising the power extraction of array configurations that combines the physical fidelity of PDE-based flow models with advanced automated optimisation techniques.
+0.949	[*A*]the power extraction of array configurations[*R*]combines[*A*]the physical fidelity of PDE-based flow models with advanced automated optimisation techniques	context()	negated: False ,passive: False
+0.702	[*A*]we[*R*]present[*A*]a novel technique for maximising the power extraction of array configurations[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#173]This approach allows the identification of optimal solutions in a computationally feasible number of iterations, circumventing the computational limitations noted in Ref.
+0.952	[*A*]the identification of optimal solutions in a computationally feasible number of iterations[*R*]noted[*A*]in Ref	context(This approach allows)	negated: False ,passive: False
+0.935	[*A*]This approach[*R*]allows[*A*]the identification of optimal solutions in a computationally feasible number of iterations, circumventing the computational limitations noted in Ref	context()	negated: False ,passive: False
+0.921	[*A*]a computationally feasible number of iterations[*R*]circumventing[*A*]the computational limitations	context()	negated: False ,passive: False
+[LINE#174]The turbine configuration problem is formulated as a PDE-constrained optimisation problem, which is a major topic of research in applied mathematics [20,21].
+0.945	[*A*]a PDE-constrained optimisation problem[*R*]is[*A*]a major topic of research in applied mathematics	context()	negated: False ,passive: True
+0.769	[*A*]The turbine configuration problem[*R*]is formulated	context()	negated: False ,passive: False
+[LINE#175]The resulting maximisation problem is solved using a gradient-based optimisation algorithm that takes orders of magnitude fewer iterations than genetic algorithms or simulated annealing approaches (see e.g. Ref.
+0.921	[*A*]a gradient-based optimisation algorithm[*R*]takes[*A*]orders of magnitude fewer iterations	context()	negated: False ,passive: False
+0.869	[*A*]The resulting maximisation problem[*R*]is solved[*A*]using a gradient-based optimisation algorithm that takes orders of magnitude fewer iterations than genetic algorithms	context()	negated: False ,passive: True
+[LINE#176]In this paper, the power extracted by an array configuration is predicted using a two-dimensional nonlinear shallow water model, which captures the interactions between the geometry, the turbines, and the flow.
+0.958	[*A*]a two-dimensional nonlinear shallow water model[*R*]captures[*A*]the interactions between the geometry, the turbines, and the flow	context()	negated: False ,passive: False
+0.957	[*A*]the power extracted by an array configuration[*R*]is predicted[*A*]In this paper	context()	negated: False ,passive: True
+0.903	[*A*]the power[*R*]extracted[*A*]by an array configuration	context()	negated: False ,passive: True
+[LINE#177]The gradient of the power is efficiently computed using the adjoint technique of variational calculus, which solves an auxiliary system that propagates causality backwards through the physical system.
+0.894	[*A*]an auxiliary system[*R*]propagates backwards[*A*]causality	context()	negated: False ,passive: False
+0.872	[*A*]the adjoint technique of variational calculus[*R*]solves[*A*]an auxiliary system that propagates causality backwards through the physical system	context()	negated: False ,passive: False
+0.785	[*A*]The gradient of the power[*R*]is efficiently computed	context()	negated: False ,passive: False
+[LINE#178]This yields the gradient at a cost almost independent of the number of turbines to be optimised, which is crucial for the method to be applied to large arrays.
+0.903	[*A*]the method[*R*]to be applied[*A*]to large arrays	context()	negated: False ,passive: True
+0.944	[*A*]the number of turbines to be optimised[*R*]is[*A*]crucial[*A*]for the method to be applied to large arrays	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]yields[*A*]the gradient	context()	negated: False ,passive: False
+[LINE#179]This gradient is used by the optimisation algorithm to automatically reposition the turbines and to adjust their tuning parameters.
+0.835	[*A*]This gradient[*R*]is used[*A*]by the optimisation algorithm[*A*]to adjust their tuning parameters	context()	negated: False ,passive: True
+0.903	[*A*]This gradient[*R*]is used[*A*]by the optimisation algorithm[*A*]to automatically reposition the turbines	context()	negated: False ,passive: True
+[LINE#180]The flow solution is re-evaluated, and the algorithm iterated until an optimum is found.
+0.732	[*A*]an optimum[*R*]is found	context()	negated: False ,passive: False
+0.903	[*A*]the algorithm[*R*]iterated[*A*]until an optimum is found	context()	negated: False ,passive: False
+0.751	[*A*]The flow solution[*R*]is re-evaluated	context()	negated: False ,passive: False
+[LINE#181]This approach has several key advantages.
+0.925	[*A*]This approach[*R*]has[*A*]several key advantages	context()	negated: False ,passive: False
+[LINE#182]Firstly, it closes the optimisation loop, by accounting for the effects of the turbines on the flow field itself.
+0.452	[*A*]it[*R*]closes[*A*]the optimisation loop	context()	negated: False ,passive: False
+[LINE#183]This is necessary to find the actual optimum of the nonlinear optimisation problem.
+[LINE#184]Secondly, unlike gradient-free methods, the approach requires a relatively small number of model evaluations and scales to large numbers of turbines, which is necessary for the optimisation of industrial arrays.
+0.817	[*A*]large numbers of turbines[*R*]is[*A*]necessary	context()	negated: False ,passive: True
+0.937	[*A*]the approach[*R*]requires[*A*]a relatively small number of scales to large numbers of turbines	context()	negated: False ,passive: False
+0.857	[*A*]a relatively small number of model evaluations[*R*]is[*A*]necessary	context()	negated: False ,passive: True
+0.937	[*A*]the approach[*R*]requires[*A*]a relatively small number of model evaluations to large numbers of turbines , which is necessary for the optimisation of industrial arrays	context()	negated: False ,passive: False
+[LINE#185]For example, in Section 6, an array of 256 turbines is optimised in a realistic domain at an approximate cost of 200 flow solutions.
+0.957	[*A*]an array of 256 turbines[*R*]is optimised[*A*]in a realistic domain[*A*]at an approximate cost of 200 flow solutions[*A*]in Section 6	context()	negated: False ,passive: True
+[LINE#186]Thirdly, the optimisation algorithm can incorporate complex constraints such as minimum separation distances, bathymetry gradient constraints, and legal site restrictions.
+0.911	[*A*]the optimisation algorithm[*R*]can incorporate[*A*]complex constraints such as legal site restrictions	context()	negated: False ,passive: False
+0.911	[*A*]the optimisation algorithm[*R*]can incorporate[*A*]complex constraints such as bathymetry gradient constraints	context()	negated: False ,passive: False
+0.911	[*A*]the optimisation algorithm[*R*]can incorporate[*A*]complex constraints such as minimum separation distances	context()	negated: False ,passive: False
+[LINE#187]Finally, the same mathematical framework extends naturally to more realistic flow models such as the Reynolds-averaged Navier-Stokes equations, and to other functionals such as profit or environmental impact.
+0.921	[*A*]Reynolds[*R*]averaged[*A*]Navier-Stokes equations	context()	negated: False ,passive: True
+0.975	[*A*]the same mathematical framework[*R*]extends naturally[*A*]to more realistic flow models such as the Reynolds-averaged Navier-Stokes equations[*A*]Finally	context()	negated: False ,passive: True
+[LINE#188]The approach is implemented in an open-source software framework called OpenTidalFarm; all code and examples from this paper are available at http://opentidalfarm.org.. Optimisation algorithmsOptimisation algorithms can be divided into two categories: gradient-free and gradient-based algorithms.
+0.878	[*A*]The approach[*R*]is implemented[*A*]in an open - source software framework	context(all examples from this paper are)	negated: False ,passive: True
+0.949	[*A*]all examples from this paper[*R*]are[*A*]available[*A*]at http://opentidalfarm.org.. Optimisation algorithmsOptimisation algorithms can be divided into two categories	context()	negated: False ,passive: True
+0.878	[*A*]The approach[*R*]is implemented[*A*]in an open - source software framework	context(all code from this paper are)	negated: False ,passive: True
+0.949	[*A*]all code from this paper[*R*]are[*A*]available[*A*]at http://opentidalfarm.org.. Optimisation algorithmsOptimisation algorithms can be divided into two categories	context()	negated: False ,passive: True
+0.933	[*A*]Optimisation algorithmsOptimisation algorithms[*R*]can be divided[*A*]into two categories	context()	negated: False ,passive: True
+0.943	[*A*]an open - source software framework[*R*]called[*A*]OpenTidalFarm	context()	negated: False ,passive: True
+[LINE#189]Gradient-free optimisation algorithms use the functional of interest (in this case, power extracted by the array) as a black box.
+0.894	[*A*]power[*R*]extracted[*A*]by the array[*A*]as a black box	context()	negated: False ,passive: True
+0.926	[*A*]Gradient-free optimisation algorithms[*R*]use[*A*]the functional of interest (in this case	context()	negated: False ,passive: False
+[LINE#190]They proceed by evaluating the functional at many points in parameter space and use these values to decide which areas merit further exploration.
+0.562	[*A*]They[*R*]proceed by evaluating[*A*]the functional[*A*]at many points in parameter space	context(They proceed)	negated: False ,passive: False
+0.673	[*A*]They[*R*]proceed[*A*]by evaluating the functional at many points in parameter space	context()	negated: False ,passive: False
+[LINE#191]While these methods tend to be robust and can, under certain smoothness conditions, provably find globally optimal solutions [33], they typically require a very large number of functional evaluations that scales linearly or superlinearly with the number of parameters to be optimised.
+0.914	[*A*]a very large number of functional evaluations[*R*]scales linearly[*A*]with the number of parameters	context()	negated: False ,passive: False
+0.442	[*A*]they[*R*]require[*A*]a very large number of functional evaluations that scales linearly or superlinearly with the number of parameters	context()	negated: False ,passive: False
+0.902	[*A*]these methods[*R*]can provably find[*A*]globally optimal solutions[*A*]under certain smoothness conditions	context()	negated: False ,passive: False
+0.735	[*A*]these methods[*R*]to be[*A*]robust	context()	negated: False ,passive: True
+0.713	[*A*]parameters[*R*]to be optimised	context()	negated: False ,passive: False
+0.813	[*A*]these methods[*R*]tend[*A*]to be robust	context()	negated: False ,passive: True
+[LINE#192]For example, Bilbao and Alba [3] used a genetic algorithm that mimics the process of natural evolution to optimise the location of 8 wind turbines.
+0.897	[*A*]a genetic algorithm[*R*]mimics[*A*]the process of natural evolution[*A*]to optimise the location of 8 wind turbines	context()	negated: False ,passive: False
+0.873	[*A*]Alba [ 3[*R*]used[*A*]a genetic algorithm that mimics the process of natural evolution	context()	negated: False ,passive: False
+0.897	[*A*]a genetic algorithm[*R*]mimics[*A*]the process of natural evolution	context()	negated: False ,passive: False
+0.870	[*A*]Bilbao[*R*]used[*A*]a genetic algorithm that mimics the process of natural evolution	context()	negated: False ,passive: False
+[LINE#193]The algorithm was able to improve the power output by about 70% compared to the initial layout after 17,300 functional evaluations.
+0.887	[*A*]The algorithm[*R*]to improve[*A*]the power output	context()	negated: False ,passive: False
+0.952	[*A*]The algorithm[*R*]was[*A*]able to improve the power output by about 70%[*A*]compared to the initial layout after 17,300 functional evaluations	context()	negated: False ,passive: True
+[LINE#194]This large number of evaluations clearly introduces a practical upper limit for the number of turbines that can be optimised.
+0.677	[*A*]turbines[*R*]can be optimised	context()	negated: False ,passive: False
+0.926	[*A*]This large number of evaluations[*R*]clearly introduces[*A*]a practical upper limit for the number of turbines	context()	negated: False ,passive: False
+[LINE#195]This difficulty is compounded if a more realistic (and hence more expensive) model is used.
+0.830	[*A*]a more realistic hence more expensive ) model[*R*]is used	context()	negated: False ,passive: False
+0.937	[*A*]This difficulty[*R*]is compounded[*A*]if a more realistic hence more expensive ) model is used	context()	negated: False ,passive: True
+0.801	[*A*]a more realistic ( ) model[*R*]is used	context()	negated: False ,passive: False
+0.903	[*A*]This difficulty[*R*]is compounded[*A*]if a more realistic ( ) model is used	context()	negated: False ,passive: True
+[LINE#196]By contrast, gradient-based optimisation algorithms use additional information to update the position in parameter space at each iteration: the first or higher derivatives of the functional of interest with respect to the parameters.
+0.905	[*A*]gradient-based optimisation algorithms[*R*]use additional information to update[*A*]the position in parameter space[*A*]at each iteration	context(gradient - based optimisation algorithms use)	negated: False ,passive: False
+0.939	[*A*]gradient-based optimisation algorithms[*R*]use[*A*]additional information[*A*]to update the position in parameter space at each iteration	context()	negated: False ,passive: False
+[LINE#197]Depending on the problem, this can lead to a significant reduction in the number of iterations required compared to gradient-free algorithms, making these the only feasible choice for large scale optimisation problems [20].
+0.894	[*A*]iterations[*R*]required[*A*]compared to gradient-free algorithms	context()	negated: False ,passive: True
+0.381	[*A*]this[*R*]can lead[*A*]to a significant reduction in the number of iterations	context()	negated: False ,passive: False
+[LINE#198]One caveat of applying gradient-based optimisation algorithms is that they find only local optima.
+0.630	[*A*]they[*R*]find[*A*]only local optima	context(One caveat of applying gradient - based optimisation algorithms is)	negated: False ,passive: False
+0.794	[*A*]One caveat of applying gradient-based optimisation algorithms[*R*]is[*A*]that they find only local optima	context()	negated: False ,passive: True
+[LINE#199]This issue can be circumvented by using hybrid approaches [22].
+0.732	[*A*]This issue[*R*]can be circumvented	context()	negated: False ,passive: False
+[LINE#200]The main difficulty of applying gradient-based methods is that the implementation of the gradient computation can be difficult for complex models, as it involves differentiating through the solution of a partial differential equation.
+0.905	[*A*]the implementation of the gradient computation[*R*]can be[*A*]difficult[*A*]as it involves differentiating through the solution of a partial differential equation	context(The main difficulty of applying gradient - based methods is)	negated: False ,passive: True
+0.861	[*A*]The main difficulty of applying gradient-based methods[*R*]is[*A*]that the implementation of the gradient computation can be difficult for complex models, as it involves differentiating through the solution of a partial differential equation	context()	negated: False ,passive: True
+0.452	[*A*]it[*R*]involves[*A*]differentiating through the solution of a partial differential equation	context()	negated: False ,passive: True
+[LINE#201]One way to obtain the derivative information is to approximate the gradient using finite differences.
+0.952	[*A*]One way to obtain the derivative information[*R*]is[*A*]to approximate the gradient	context()	negated: False ,passive: True
+[LINE#202]However, a major disadvantage of this approach is that a single gradient evaluation requires a large number of functional evaluations that scales linearly with the number of optimisation parameters.
+0.897	[*A*]a single gradient evaluation[*R*]requires[*A*]a large number of functional evaluations	context(a major disadvantage of this approach is)	negated: False ,passive: False
+0.891	[*A*]a major disadvantage of this approach[*R*]is[*A*]that a single gradient evaluation requires a large number of functional evaluations	context()	negated: False ,passive: True
+0.887	[*A*]functional evaluations[*R*]scales linearly[*A*]with the number of optimisation parameters	context()	negated: False ,passive: False
+[LINE#203]This sets a practical upper bound on the number of turbines to be optimised, and discards the main advantage of gradient-based optimisation algorithms.
+0.713	[*A*]turbines[*R*]to be optimised	context()	negated: False ,passive: False
+0.911	[*A*]a practical upper[*R*]bound[*A*]on the number of turbines	context()	negated: False ,passive: True
+0.449	[*A*]This[*R*]sets[*A*]a practical upper bound on the number of turbines	context()	negated: False ,passive: False
+[LINE#204]Alternatively, the tangent linearisation of the model (i.e. the derivative of the model evaluated at a particular solution) can efficiently compute the derivative of all outputs with respect to a single input, while the adjoint linearisation can efficiently compute the derivative of a single output with respect to all inputs [19].
+0.943	[*A*]the adjoint linearisation[*R*]can efficiently compute[*A*]the derivative of a single output with respect to all inputs	context()	negated: False ,passive: False
+0.949	[*A*]the tangent linearisation of the model[*R*]can efficiently compute[*A*]the derivative of all outputs[*A*]while the adjoint linearisation can efficiently compute the derivative of a single output with respect to all inputs	context()	negated: False ,passive: False
+0.903	[*A*]the model[*R*]evaluated[*A*]at a particular solution	context()	negated: False ,passive: True
+[LINE#205]For the turbine optimisation problem, we wish to maximise a single output (the power extracted) with respect to many input parameters (the positions and tuning parameters of the turbines); this means that the adjoint approach is the natural choice, as the required gradient information can be computed in a number of equation solves that is independent of the number of turbines.
+0.916	[*A*]the adjoint approach[*R*]is[*A*]the natural choice	context(this means)	negated: False ,passive: True
+0.397	[*A*]we[*R*]wish to maximise[*A*]a single output	context(we wish this means)	negated: False ,passive: False
+0.584	[*A*]we[*R*]wish[*A*]to maximise a single output ( the power extracted ) with respect to many input parameters	context(this means)	negated: False ,passive: False
+0.173	[*A*]that[*R*]is[*A*]independent of the number of turbines	context()	negated: False ,passive: True
+0.916	[*A*]the adjoint approach[*R*]is[*A*]the natural choice	context(this means)	negated: False ,passive: True
+0.397	[*A*]we[*R*]wish to maximise[*A*]a single output	context(we wish this means)	negated: False ,passive: False
+0.584	[*A*]we[*R*]wish[*A*]to maximise a single output ( the power extracted ) with respect to many input parameters	context(this means)	negated: False ,passive: False
+0.224	[*A*]this[*R*]means[*A*]that the adjoint approach is the natural choice , as the required gradient information can be computed in a number of equation solves	context()	negated: False ,passive: False
+0.732	[*A*]the power[*R*]extracted	context()	negated: False ,passive: False
+0.919	[*A*]the required gradient information[*R*]can be computed[*A*]in a number of equation	context()	negated: False ,passive: True
+[LINE#206]The development of adjoint models is generally considered as very complicated [17,30].
+0.993	[*A*]The development of adjoint models[*R*]is considered as[*A*]1730 ]	context()	negated: False ,passive: False
+0.741	[*A*]The development of adjoint models[*R*]is considered[*A*]as very complicated [17,30	context()	negated: False ,passive: True
+[LINE#207]However, this problem has been solved in recent work for the case where the forward model is discretised using finite elements, in the high-level FEniCS framework [11].
+0.939	[*A*]the forward model[*R*]is discretised[*A*]the case	context()	negated: False ,passive: True
+0.903	[*A*]this problem[*R*]has been solved[*A*]in recent work	context()	negated: False ,passive: True
+[LINE#208]This allows for the extremely rapid development of optimally efficient adjoint models, which significantly reduces the development effort required to implement gradient-based optimisation algorithms for PDE-constrained optimisation problems [13].To the best of our knowledge, this paper presents the first application of the adjoint method to the optimisation of turbine arrays.
+0.937	[*A*]this paper[*R*]presents[*A*]the first application of the adjoint method to the optimisation of turbine arrays	context()	negated: False ,passive: False
+0.943	[*A*]the development effort[*R*]required[*A*]to implement gradient-based optimisation algorithms for PDE-constrained optimisation problems	context()	negated: False ,passive: True
+0.905	[*A*]optimally efficient adjoint models[*R*]reduces[*A*]the development effort required	context()	negated: False ,passive: False
+0.497	[*A*]This[*R*]allows[*A*]for the extremely rapid development of optimally efficient adjoint models	context()	negated: False ,passive: False
+[LINE#209]While the examples are shown in the marine context, it is expected that the presented techniques can also be applied to the optimisation of wind farms.
+0.838	[*A*]the presented techniques[*R*]can be applied[*A*]to the optimisation of wind farms	context(it is expected)	negated: False ,passive: True
+0.157	[*A*]it[*R*]is expected	context()	negated: False ,passive: False
+0.903	[*A*]the examples[*R*]are shown[*A*]in the marine context	context()	negated: False ,passive: True
+[LINE#210]As the wind turbine layout problem is both closely related and better studied, we next review techniques proposed for its solution. .
+0.756	[*A*]the wind turbine layout problem[*R*]better studied	context()	negated: False ,passive: False
+0.853	[*A*]the wind turbine layout problem[*R*]is[*A*]better studied	context()	negated: False ,passive: True
+0.821	[*A*]techniques[*R*]proposed[*A*]for its solution	context()	negated: False ,passive: True
+0.403	[*A*]we[*R*]review[*A*]techniques proposed for its solution[*A*]next	context()	negated: False ,passive: False
+0.829	[*A*]the wind turbine layout problem[*R*]is	context()	negated: False ,passive: False
+[LINE#211]Wind farm optimisationLayout optimisation for wind farms has been addressed in numerous studies, most of which are based on gradient-free optimisation algorithms.
+0.721	[*A*]most of which[*R*]are based[*A*]on gradient-free optimisation algorithms[*A*]numerous studies	context()	negated: False ,passive: True
+0.938	[*A*]Wind farm optimisationLayout optimisation for wind farms[*R*]has been addressed[*A*]in numerous studies	context()	negated: False ,passive: True
+[LINE#212]In particular, evolutionary methods [2] are known to yield good results (Ref.
+0.164	[*A*]results[*R*]have good of[*A*]2 ]	context()	negated: False ,passive: False
+0.913	[*A*]In particular, evolutionary methods[*R*]to yield[*A*]good results	context()	negated: False ,passive: False
+0.756	[*A*]In particular, evolutionary methods[*R*]are known	context()	negated: False ,passive: False
+[LINE#213][35] and the references therein).
+[LINE#214]These algorithms mimic the process of natural evolution by considering a population of candidate solutions on which it executes an evolutionary process to find the "fittest" solution.
+0.887	[*A*]candidate solutions[*R*]executes[*A*]an evolutionary process[*A*]to find the "fittest" solution	context()	negated: False ,passive: True
+0.903	[*A*]These algorithms[*R*]mimic[*A*]the process of natural evolution	context()	negated: False ,passive: False
+[LINE#215]A related method is particle swarm optimisation [24], which considers a population of candidate solutions called particles, that move through the parameter space and influence each other to drive the swarm to the best solution.
+0.926	[*A*]a population of candidate solutions[*R*]called[*A*]particles	context()	negated: False ,passive: True
+0.897	[*A*]particle swarm optimisation[*R*]considers[*A*]a population of candidate solutions called particles	context()	negated: False ,passive: False
+0.956	[*A*]A related method[*R*]is[*A*]particle swarm optimisation [ 24 ] , which considers a population of candidate solutions	context()	negated: False ,passive: True
+[LINE#216][43] applied particle swarm optimisation on an analytical wake model to optimise the location of 39 wind turbines and showed that this approach can yield better optimal solutions than genetic algorithms.
+0.882	[*A*]this approach[*R*]can yield[*A*]better optimal solutions than genetic algorithms	context(43 showed)	negated: False ,passive: False
+0.359	[*A*]43[*R*]showed[*A*]that this approach can yield better optimal solutions than genetic algorithms	context()	negated: False ,passive: False
+0.503	[*A*]43[*R*]applied[*A*]particle swarm optimisation[*A*]on an analytical wake model	context()	negated: False ,passive: False
+[LINE#217]Simulated annealing algorithms [26] are probabilistic optimisation methods that exploit an analogy between the way in which a metal heats and cools into a minimum energy crystalline structure (the annealing process) and the search for a minimum in a more abstract system.
+0.933	[*A*]probabilistic optimisation methods[*R*]exploit[*A*]an analogy between the search for a minimum in a more abstract system	context()	negated: False ,passive: False
+0.836	[*A*]Simulated annealing algorithms[*R*]are[*A*]probabilistic optimisation methods that exploit an analogy between the search for a minimum in a more abstract system	context()	negated: False ,passive: True
+0.698	[*A*]a metal[*R*]cools	context()	negated: False ,passive: False
+0.732	[*A*]a metal[*R*]heats	context()	negated: False ,passive: False
+0.897	[*A*]probabilistic optimisation methods[*R*]exploit[*A*]an analogy between the way	context()	negated: False ,passive: False
+0.836	[*A*]Simulated annealing algorithms[*R*]are[*A*]probabilistic optimisation methods that exploit an analogy between the way	context()	negated: False ,passive: True
+[LINE#218][3] used an analytical wake model to compare a simulated annealing algorithm with a genetic optimisation algorithm.
+0.455	[*A*]3[*R*]used[*A*]an analytical wake model[*A*]to compare a simulated annealing algorithm with a genetic optimisation algorithm	context()	negated: False ,passive: False
+[LINE#219]In a scenario with 47 turbines, the number of model evaluations was reduced from 1,036,200 with the genetic algorithm to 61,802 with simulated annealing.
+0.957	[*A*]the number of model evaluations[*R*]was reduced[*A*]from 1,036,200[*A*]with the genetic algorithm[*A*]to 61,802[*A*]In a scenario with 47 turbines	context()	negated: False ,passive: True
+[LINE#220]However, such a large number of evaluations would be infeasible for a more complex PDE-based model.
+0.829	[*A*]such a large number of evaluations[*R*]would be[*A*]infeasible	context()	negated: False ,passive: True
+[LINE#221]Few publications solve the layout problem with gradient-based optimisation algorithms.
+0.903	[*A*]Few publications[*R*]solve[*A*]the layout problem with gradient-based optimisation algorithms	context()	negated: False ,passive: False
+[LINE#222]Lackner and Elkinton [27] optimised the position of two wind turbines by applying a gradient-based optimisation algorithm to a simplified energy production model with an analytical expression.
+0.936	[*A*]Elkinton [ 27[*R*]optimised the position of two wind turbines by applying[*A*]a gradient - based optimisation algorithm[*A*]to a simplified energy production model with an analytical expression	context(Elkinton [ 27 optimised)	negated: False ,passive: False
+0.901	[*A*]Elkinton [ 27[*R*]optimised[*A*]the position of two wind turbines	context()	negated: False ,passive: False
+0.934	[*A*]Lackner[*R*]optimised the position of two wind turbines by applying[*A*]a gradient - based optimisation algorithm[*A*]to a simplified energy production model with an analytical expression	context(Lackner optimised)	negated: False ,passive: False
+0.898	[*A*]Lackner[*R*]optimised[*A*]the position of two wind turbines	context()	negated: False ,passive: False
+[LINE#223]Huang [22] combined a genetic algorithm with steepest ascent to accelerate convergence to an optimal solution.
+0.922	[*A*]Huang [22[*R*]combined[*A*]a genetic algorithm[*A*]with steepest ascent	context()	negated: False ,passive: False
+[LINE#224]With this additional derivative information, the number of iterations was reduced by approximately an order of magnitude to less than 300 iterations, for a similar power extraction.
+0.919	[*A*]the number of iterations[*R*]was reduced[*A*]by approximately an order of magnitude[*A*]for a similar power extraction	context()	negated: False ,passive: True
+[LINE#225]Finally, Fagerfjll [10] showed how mixed integer linear programming techniques can be used to optimise for both the number and position of turbines.
+0.913	[*A*]how mixed integer linear programming techniques[*R*]can be used[*A*]to optimise for position of turbines	context(Fagerfjll showed)	negated: False ,passive: True
+0.955	[*A*]Fagerfjll[*R*]showed[*A*]how mixed integer linear programming techniques can be used to optimise for position of turbines[*A*]Finally	context()	negated: False ,passive: False
+0.921	[*A*]how mixed integer linear programming techniques[*R*]to optimise[*A*]for position of turbines	context()	negated: False ,passive: True
+0.913	[*A*]how mixed integer linear programming techniques[*R*]can be used[*A*]to optimise for both the number	context(Fagerfjll showed)	negated: False ,passive: True
+0.955	[*A*]Fagerfjll[*R*]showed[*A*]how mixed integer linear programming techniques can be used to optimise for both the number[*A*]Finally	context()	negated: False ,passive: False
+0.921	[*A*]how mixed integer linear programming techniques[*R*]to optimise[*A*]for both the number	context()	negated: False ,passive: True
+[LINE#226]All of these publications use very simplified flow models for which the gradient is either available analytically or can be easily approximated.
+0.698	[*A*]the gradient[*R*]can be easily approximated	context()	negated: False ,passive: False
+0.813	[*A*]the gradient[*R*]is[*A*]either available[*A*]analytically	context()	negated: False ,passive: True
+0.948	[*A*]All of these publications[*R*]use[*A*]very simplified flow models for which the gradient is either available analytically or can be easily approximated	context()	negated: False ,passive: False
+[LINE#227]Furthermore, none of the reviewed papers use gradient-based methods with the adjoint technique to find an optimal configuration in a physically realistic model.
+0.905	[*A*]none of the reviewed papers[*R*]use gradient-based methods with the adjoint technique to find[*A*]an optimal configuration[*A*]in a physically realistic model	context(none of the reviewed papers use)	negated: False ,passive: False
+0.939	[*A*]none of the reviewed papers[*R*]use[*A*]gradient-based methods with the adjoint technique[*A*]to find an optimal configuration in a physically realistic model	context()	negated: False ,passive: False
+[LINE#228]While this prior research on wind farm optimisation is relevant, there are key differences between wind and tidal turbine arrays.
+0.876	[*A*]this prior research on wind farm optimisation[*R*]is[*A*]relevant	context()	negated: False ,passive: True
+[LINE#229]Firstly, the flow in a tidal channel is dominantly driven by the predictable tidal forcing, while wind flow modelling is inherently stochastic and needs to include the temporal uncertainty in the magnitude and direction of the wind forcing.
+0.933	[*A*]wind flow modelling[*R*]to include[*A*]the temporal uncertainty in the direction of the wind forcing	context()	negated: False ,passive: True
+0.943	[*A*]wind flow modelling[*R*]needs[*A*]to include the temporal uncertainty in the direction of the wind forcing	context()	negated: False ,passive: False
+0.935	[*A*]the flow in a tidal channel[*R*]is driven[*A*]by the predictable tidal forcing[*A*]while wind flow modelling needs to include the temporal uncertainty in the direction of the wind forcing	context()	negated: False ,passive: True
+0.933	[*A*]wind flow modelling[*R*]to include[*A*]the temporal uncertainty in the magnitude of the wind forcing	context()	negated: False ,passive: True
+0.943	[*A*]wind flow modelling[*R*]needs[*A*]to include the temporal uncertainty in the magnitude of the wind forcing	context()	negated: False ,passive: False
+0.935	[*A*]the flow in a tidal channel[*R*]is driven[*A*]by the predictable tidal forcing[*A*]while wind flow modelling needs to include the temporal uncertainty in the magnitude of the wind forcing	context()	negated: False ,passive: True
+0.828	[*A*]wind flow modelling[*R*]is[*A*]inherently stochastic	context()	negated: False ,passive: True
+0.899	[*A*]the flow in a tidal channel[*R*]is driven[*A*]by the predictable tidal forcing[*A*]while wind flow modelling is inherently stochastic	context()	negated: False ,passive: True
+[LINE#230]Secondly, the ratio of turbine height to free-surface elevation is significantly different: while the rotor diameter of a wind turbine is small compared to the height of the atmosphere, tidal turbines typically have diameters of around 20 m and are deployed in water depths of approximately 50 m or less.
+0.887	[*A*]tidal turbines[*R*]are deployed[*A*]in water depths of approximately 50 m or less	context()	negated: False ,passive: True
+0.887	[*A*]tidal turbines[*R*]have[*A*]diameters of around 20 m	context()	negated: False ,passive: False
+0.952	[*A*]the rotor diameter of a wind turbine[*R*]is[*A*]small[*A*]compared to the height of the atmosphere	context()	negated: False ,passive: True
+0.904	[*A*]the ratio of turbine height to free-surface elevation[*R*]is[*A*]significantly different	context()	negated: False ,passive: True
+[LINE#231]This leads to little undisturbed flow above the turbine which could contribute to wake recovery and thus potentially increases the length of the wake compared to wind turbines [6,8].
+0.374	[*A*]This[*R*]leads thus[*A*]to little undisturbed flow above the turbine	context()	negated: False ,passive: False
+0.887	[*A*]the turbine[*R*]could contribute[*A*]to wake recovery	context()	negated: False ,passive: False
+0.381	[*A*]This[*R*]leads[*A*]to little undisturbed flow above the turbine	context()	negated: False ,passive: False
+[LINE#232]Finally, if a tidal farm occupies a large fraction of the channel's width and depth then the presence of turbines significantly affects the flow velocity upstream of the farm [14,39].
+0.953	[*A*]the presence of turbines[*R*]significantly affects[*A*]the flow velocity upstream of the farm[*A*]Finally[*A*]then	context()	negated: False ,passive: False
+0.911	[*A*]a tidal farm[*R*]occupies[*A*]a large fraction of the channel 's width	context()	negated: False ,passive: False
+[LINE#233]In wind farms, this is not the case [41].
+0.523	[*A*]this[*R*]is not[*A*]the case[*A*]In wind farms	context()	negated: True ,passive: True
+[LINE#234]This interaction adds an additional complication to the optimisation of tidal farms.
+0.925	[*A*]This interaction[*R*]adds[*A*]an additional complication[*A*]to the optimisation of tidal farms	context()	negated: False ,passive: False
+[LINE#235]The remaining sections are organised as follows.
+0.897	[*A*]The remaining sections[*R*]organised[*A*]as follows	context()	negated: False ,passive: True
+0.911	[*A*]The remaining sections[*R*]are[*A*]organised as follows	context()	negated: False ,passive: True
+[LINE#236]In Section 2, we formulate the turbine configuration problem as an optimisation problem constrained by the shallow water equations.
+0.911	[*A*]an optimisation problem[*R*]constrained[*A*]by the shallow water equations	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]formulate[*A*]the turbine configuration problem[*A*]as an optimisation problem[*A*]In Section 2	context()	negated: False ,passive: False
+[LINE#237]Section 3 discusses the discretisation and implementation, which is then verified in Section 4.
+0.902	[*A*]the implementation[*R*]is verified[*A*]in Section 4[*A*]then	context()	negated: False ,passive: True
+0.937	[*A*]Section 3[*R*]discusses[*A*]the implementation , which is then verified in Section 4	context()	negated: False ,passive: False
+0.902	[*A*]the discretisation[*R*]is verified[*A*]in Section 4[*A*]then	context()	negated: False ,passive: True
+0.937	[*A*]Section 3[*R*]discusses[*A*]the discretisation , which is then verified in Section 4	context()	negated: False ,passive: False
+[LINE#238]In Section 5, we demonstrate the capabilities of the proposed approach on four idealised scenarios with 32 turbines.
+0.702	[*A*]we[*R*]demonstrate[*A*]the capabilities of the proposed approach on four idealised scenarios with 32 turbines[*A*]In Section 5	context()	negated: False ,passive: False
+[LINE#239]Section 6 presents an application of this approach where the positions of up to 256 turbines are optimised in a geometry motivated by the Inner Sound of the Pentland Firth, Scotland.
+0.918	[*A*]a geometry[*R*]motivated[*A*]by the Inner Sound of the Pentland Firth	context()	negated: False ,passive: True
+0.964	[*A*]the positions of up to 256 turbines[*R*]are optimised[*A*]in a geometry[*A*]this approach	context()	negated: False ,passive: True
+0.903	[*A*]Section 6[*R*]presents[*A*]an application of this approach	context()	negated: False ,passive: False
+[LINE#240]Finally, we make some concluding remarks in Section 7.
+0.544	[*A*]some[*R*]concluding[*A*]remarks in Section 7	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]make[*A*]some concluding remarks in Section 7[*A*]Finally	context()	negated: False ,passive: False
+[LINE#241] Optimisation algorithmA typical gradient-based optimisation algorithm implements the following iteration:Choose an initial guess m0 for = 0 for zi and evaluate the functional of interest the functional gradient d J/dm(zi,mi).3.Stop if the termination criteria are fulfilled.4.Find improved1 and 2.Optimisation algorithms differ mainly in their implementation of step 4.
+0.568	[*A*]the following[*R*]evaluate[*A*]the functional of interest	context()	negated: False ,passive: False
+0.580	[*A*]the following[*R*]evaluate[*A*]the functional of interest[*A*]the functional gradient d J / dm ( zi , mi ) . 3.Stop if the termination criteria are fulfilled.4.Find improved1 differ mainly in their implementation of step 4	context()	negated: False ,passive: False
+0.911	[*A*]the termination criteria[*R*]are[*A*]2.Optimisation algorithms	context()	negated: False ,passive: True
+0.922	[*A*]an initial guess[*R*]m0[*A*]the functional gradient[*A*]if the termination criteria are 2.Optimisation algorithms differ mainly in their implementation of step 4	context()	negated: False ,passive: False
+0.916	[*A*]an initial guess[*R*]m0[*A*]the functional gradient	context()	negated: False ,passive: False
+0.911	[*A*]the termination criteria[*R*]are[*A*]fulfilled.4.Find improved1	context()	negated: False ,passive: True
+[LINE#242]The main task is to identify an improved parameter choice so that the algorithm converges quickly to the optimal solution while satisfying the imposed constraints.
+0.824	[*A*]the algorithm[*R*]converges quickly to the optimal solution satisfying[*A*]the imposed constraints	context(the algorithm converges quickly)	negated: False ,passive: False
+0.878	[*A*]the algorithm[*R*]converges quickly[*A*]to the optimal solution[*A*]while satisfying the imposed constraints	context()	negated: False ,passive: False
+0.889	[*A*]The main task[*R*]is[*A*]to identify an improved parameter choice so that the algorithm converges quickly to the optimal solution	context()	negated: False ,passive: True
+[LINE#243] In this paper we solve the turbine configuration problem using sequential quadratic programming(SQP), which is considered to be one of the most efficient optimisation algorithms [4].
+0.897	[*A*]sequential quadratic programming[*R*]to be[*A*]one of the most efficient optimisation algorithms	context()	negated: False ,passive: True
+0.740	[*A*]we[*R*]solve[*A*]the turbine configuration problem using sequential quadratic programming(SQP),[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#244]The implementation used here is the SLSQP algorithm available through the SciPy optimisation package [23] and is described in detail in Ref.
+0.903	[*A*]The implementation[*R*]is described[*A*]in Ref	context()	negated: False ,passive: True
+0.947	[*A*]The implementation used here[*R*]is[*A*]the SLSQP algorithm available[*A*]through the SciPy optimisation package	context()	negated: False ,passive: True
+0.767	[*A*]The implementation[*R*]used[*A*]here	context()	negated: False ,passive: True
+[LINE#245]The optimisation problem was formulated and solved with the PDE-constrained optimisation framework described in Ref.
+0.931	[*A*]the PDE-constrained optimisation framework[*R*]described[*A*]in Ref	context()	negated: False ,passive: True
+0.911	[*A*]The optimisation problem[*R*]was solved[*A*]with the PDE-constrained optimisation framework	context()	negated: False ,passive: True
+0.751	[*A*]The optimisation problem[*R*]was formulated	context()	negated: False ,passive: False
+[LINE#246][13].The SQP implementation used is not scale-invariant, i.e. scaling the functional of interest can impact the convergence of the algorithm (even though it does not change the optimal configuration).
+0.901	[*A*]The SQP implementation[*R*]is not[*A*]scale-invariant	context(i.e. scaling the functional of interest can impact)	negated: True ,passive: True
+0.873	[*A*]i.e. scaling the functional of interest[*R*]can impact[*A*]the convergence of the algorithm[*A*]even though it does not change the optimal configuration	context()	negated: False ,passive: False
+0.544	[*A*]i.e.[*R*]scaling[*A*]the functional of interest	context()	negated: False ,passive: False
+0.803	[*A*]The SQP implementation[*R*]used	context()	negated: False ,passive: False
+[LINE#247]Preliminary numerical investigation found that such rescaling was necessary to achieve fast convergence.
+0.750	[*A*]Preliminary numerical investigation[*R*]found[*A*]that such rescaling was necessary to achieve fast convergence	context()	negated: False ,passive: False
+[LINE#248]Therefore, for each numerical experiment presented here the problem was internally rescaled such that the maximum absolute value of the initial functional gradient with respect to the turbine positions was ten times the turbine radius.11More precisely, we compare the Riesz representer of the functional gradient with respect to turbine positions, which has the same units of length as the turbine radius. .
+0.927	[*A*]respect to turbine positions[*R*]has[*A*]the same units of length	context()	negated: False ,passive: False
+0.978	[*A*]the maximum absolute value of the initial functional gradient with respect to the turbine positions[*R*]was[*A*]ten times the turbine radius.11More precisely, we compare the Riesz representer of the functional gradient with respect to turbine positions	context()	negated: False ,passive: True
+0.781	[*A*]the problem[*R*]was internally rescaled[*A*]such that the maximum absolute value of the initial functional gradient with respect to the turbine positions was ten times the turbine radius.11More precisely, we compare the Riesz representer of the functional gradient with respect to turbine positions	context()	negated: False ,passive: True
+0.783	[*A*]each numerical experiment[*R*]presented[*A*]here	context()	negated: False ,passive: True
+[LINE#249] The functional gradient computation with the adjointapproachThe second step of the optimisation algorithm requires the computation of the functional derivative with respect to the optimisation parameters d J/dm.
+0.964	[*A*]The functional gradient computation with the adjointapproachThe second step of the optimisation algorithm[*R*]requires[*A*]the computation of the functional derivative	context()	negated: False ,passive: False
+[LINE#250]Its efficient computation is achieved using the adjoint approach.
+0.363	[*A*]Its efficient computation[*R*]is achieved	context()	negated: False ,passive: False
+[LINE#251]For reasons of brevity, only the key equations are mentioned; for fuller explanations, see Refs.
+[LINE#252][11,17,20].Let |J| be the number of functional outputs (in this case 1, the power), let |m| be the number of parameters, and let |z| be the number of degrees of freedom of the discretised state vector.
+0.115	[*A*]|[*R*]| be[*A*]the number of parameters	context()	negated: False ,passive: True
+[LINE#253]The adjoint approach computes the gradient in two steps.
+0.911	[*A*]The adjoint approach[*R*]computes[*A*]the gradient[*A*]in two steps	context()	negated: False ,passive: False
+[LINE#254] Firstly, the adjoint equation is solved to obtain the adjoint solution  (with the matrix dimensions indicated below the braces):Fz|z||z||z||J|=Jz|z||J|,where* denotes the Hermitian transpose.
+0.944	[*A*]z||J|=Jz|[*R*]z[*A*]||J|	context()	negated: False ,passive: False
+0.939	[*A*]Fz|z[*R*]z |[*A*]|z||J|=Jz|z||J|	context()	negated: False ,passive: True
+0.943	[*A*]the adjoint solution  (with the matrix dimensions[*R*]indicated[*A*]below the braces	context()	negated: False ,passive: True
+0.889	[*A*]||J|[*R*]denotes[*A*]the Hermitian transpose	context()	negated: False ,passive: False
+[LINE#255]The adjoint solution plays the role of the Lagrange multiplier enforcing the PDE constraint in the Lagrangian associated with the optimisation problem (1).
+0.940	[*A*]the role of the Lagrange multiplier[*R*]associated[*A*]with the optimisation problem	context()	negated: False ,passive: True
+0.944	[*A*]the Lagrange multiplier[*R*]enforcing[*A*]the PDE constraint in the Lagrangian	context()	negated: False ,passive: False
+0.925	[*A*]The adjoint solution[*R*]plays[*A*]the role of the Lagrange multiplier	context()	negated: False ,passive: False
+[LINE#256] Secondly, the functional gradient is obtainedby:(10)Jm|J||m|=-|J||z|Fm|z||m|+Jm|J||m|.The functional gradient is the key piece of information that makes the optimisation of large numbers of turbines tractable.
+0.901	[*A*]|Fm|[*R*]z[*A*]||m	context(Jm | J | | m | = - | J | | z +Jm |)	negated: False ,passive: False
+0.931	[*A*]|=-|J||[*R*]z[*A*]|Fm|z||m	context(Jm | J | | m +Jm |)	negated: False ,passive: False
+0.947	[*A*]Jm|J||[*R*]m[*A*]|=-|J||z|Fm|z||m	context(+Jm |)	negated: False ,passive: False
+0.901	[*A*]J||[*R*]m[*A*]|	context(+Jm |)	negated: False ,passive: False
+0.793	[*A*]the functional gradient[*R*]is[*A*]obtainedby	context(+Jm |)	negated: False ,passive: True
+0.883	[*A*]+Jm[*R*]|[*A*]J||m|	context()	negated: False ,passive: False
+0.913	[*A*]the key piece of information[*R*]makes[*A*]the optimisation of large numbers of turbines tractable	context()	negated: False ,passive: False
+0.889	[*A*]The functional gradient[*R*]is[*A*]the key piece of information that makes the optimisation of large numbers of turbines tractable	context()	negated: False ,passive: True
+[LINE#257] For the optimisation problem considered here, the adjoint shallow water equations are:(11)-ut+(u)u-(u)u-uu-2u-H+cb+ct(m)H(uu+uuuu)=Ju,-t-gu=0.where (u,) is the vector containing the unknown adjoint velocity and adjoint free-surface displacement, respectively.
+0.739	[*A*]u[*R*]adjoint[*A*]free - surface displacement[*A*]respectively	context(the adjoint shallow water equations are)	negated: False ,passive: False
+0.928	[*A*]the adjoint shallow water equations[*R*]are[*A*]u- ( u ) adjoint free - surface displacement , respectively	context()	negated: False ,passive: True
+0.903	[*A*]the vector[*R*]containing[*A*]the unknown adjoint velocity	context()	negated: False ,passive: False
+0.944	[*A*]u ) u-uu-2u-H+cb+ct ( m ) H[*R*]is[*A*]the vector containing the unknown adjoint velocity	context()	negated: False ,passive: True
+0.926	[*A*]the adjoint shallow water equations[*R*]are[*A*]11 ) -ut+	context()	negated: False ,passive: True
+0.783	[*A*]the optimisation problem[*R*]considered[*A*]here	context()	negated: False ,passive: True
+[LINE#258]The derivation of these equations can be found in Ref.
+0.937	[*A*]The derivation of these equations[*R*]can be found[*A*]in Ref	context()	negated: False ,passive: True
+[LINE#259]The non-stationary adjoint equations ( = 1) have a final-time condition for the adjoint velocity and free-surface displacement; this condition is homogeneous, as the functional J has no term evaluated at the end of time.
+0.922	[*A*]The non-stationary adjoint equations[*R*]have[*A*]a final - time condition for free - surface displacement	context(this condition is)	negated: False ,passive: False
+0.880	[*A*]The non-stationary adjoint equations[*R*]have[*A*]a final - time condition for the adjoint velocity	context(this condition is)	negated: False ,passive: False
+0.920	[*A*]this condition[*R*]is[*A*]homogeneous[*A*]as the functional J has no term	context()	negated: False ,passive: True
+0.903	[*A*]no term[*R*]evaluated[*A*]at the end of time	context()	negated: False ,passive: True
+0.949	[*A*]the functional J[*R*]has[*A*]no term evaluated at the end of time	context()	negated: False ,passive: False
+[LINE#260]The adjoint equations are solved from the final time to the initial time, propagating information backwards in time.
+0.911	[*A*]The adjoint equations[*R*]are solved[*A*]from the final time[*A*]to the initial time[*A*]propagating information backwards in time	context()	negated: False ,passive: True
+[LINE#261]The boundary conditions for the adjoint equations are the homogeneous versions of the boundary conditions of the forward equations, again because the functional has no boundary integral terms.
+0.636	[*A*]the functional[*R*]has[*A*]no boundary integral terms	context()	negated: False ,passive: False
+0.960	[*A*]The boundary conditions for the adjoint equations[*R*]are[*A*]the homogeneous versions of the boundary conditions of the forward equations[*A*]again[*A*]because the functional has no boundary integral terms	context()	negated: False ,passive: True
+[LINE#262]The functional derivative (J/u) appears as the source term for the adjoint velocity equation and is easy to evaluate as the functional is available as an analytical expression.
+0.636	[*A*]the functional[*R*]is[*A*]available as an analytical expression	context()	negated: False ,passive: True
+0.265	[*A*]The functional derivative[*R*]appears	context()	negated: False ,passive: False
+[LINE#263]Note that the adjoint equations are linear while the forward equations are nonlinear, and therefore solving the adjoint equations is typically much cheaper.
+0.783	[*A*]the forward equations[*R*]are[*A*]nonlinear	context()	negated: False ,passive: True
+[LINE#264] If the time-dependent equations are solved, the entire forward trajectory is required to assemble the adjoint equations; if the forward trajectory is too large to store at once, then a checkpointing algorithm must be used [11,18].Inthis work, rather than deriving, discretising and implementing the adjoint equation (11) by hand, we apply the high-level algorithmic differentiation approach described in Ref.
+0.948	[*A*]the high - level algorithmic differentiation approach[*R*]described[*A*]in Ref	context()	negated: False ,passive: True
+0.404	[*A*]the forward trajectory[*R*]is[*A*]too large to store at once	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]apply[*A*]the high - level algorithmic differentiation approach described in Ref	context()	negated: False ,passive: False
+0.905	[*A*]the entire forward trajectory[*R*]to assemble[*A*]the adjoint equations	context()	negated: False ,passive: False
+0.897	[*A*]the entire forward trajectory[*R*]is required[*A*]to assemble the adjoint equations	context(a checkpointing algorithm must be used)	negated: False ,passive: True
+0.806	[*A*]a checkpointing algorithm[*R*]must be used[*A*]then	context()	negated: False ,passive: True
+0.785	[*A*]the time - dependent equations[*R*]are solved	context()	negated: False ,passive: False
+[LINE#265]This efficiently and automatically derives and implements the discrete adjoint model from the implementation of the forward model (12), without user intervention.
+0.497	[*A*]This[*R*]automatically implements[*A*]the discrete adjoint model from the implementation of the forward model[*A*]without user intervention	context()	negated: False ,passive: False
+0.497	[*A*]This[*R*]efficiently implements[*A*]the discrete adjoint model from the implementation of the forward model[*A*]without user intervention	context()	negated: False ,passive: False
+0.153	[*A*]This[*R*]automatically derives	context()	negated: False ,passive: False
+0.153	[*A*]This[*R*]efficiently derives	context()	negated: False ,passive: False
+[LINE#266]This significantly reduces the effort and expertise required to implement adjoints of complex nonlinear forward models.
+0.903	[*A*]the expertise[*R*]required[*A*]to implement adjoints of complex nonlinear forward models	context()	negated: False ,passive: True
+0.342	[*A*]This[*R*]reduces[*A*]the expertise required	context()	negated: False ,passive: False
+0.903	[*A*]the effort[*R*]required[*A*]to implement adjoints of complex nonlinear forward models	context()	negated: False ,passive: True
+0.342	[*A*]This[*R*]reduces[*A*]the effort required	context()	negated: False ,passive: False
+[LINE#267]The second step of the adjoint approach (equation (10)) evaluates the functional gradient using the adjoint solution .
+0.911	[*A*]the functional gradient[*R*]using[*A*]the adjoint solution	context()	negated: False ,passive: False
+0.927	[*A*]The second step of the adjoint approach[*R*]evaluates[*A*]the functional gradient using the adjoint solution	context()	negated: False ,passive: False
+[LINE#268]This step only requires the computation of a matrix-vector product and consequently its computational cost is negligible.
+0.476	[*A*]its computational cost[*R*]is[*A*]negligible	context()	negated: False ,passive: True
+0.887	[*A*]This step[*R*]requires[*A*]the computation of a matrix - vector product	context()	negated: False ,passive: False
+[LINE#269]This allows for the computation of the gradient of the functional with only the solution of one adjoint system.
+0.497	[*A*]This[*R*]allows[*A*]for the computation of the gradient of the functional with only the solution of one adjoint system	context()	negated: False ,passive: False
+[LINE#270]While the cost of the matrix-vector product technically depends on the number of turbines, in practice the cost of the adjoint PDE solution dominates, and so the adjoint technique yields the gradient at a cost independent of the number of turbines.
+0.911	[*A*]the adjoint technique[*R*]yields[*A*]the gradient	context()	negated: False ,passive: False
+0.857	[*A*]the cost of the adjoint PDE solution[*R*]dominates	context()	negated: False ,passive: False
+0.962	[*A*]the cost of the matrix - vector product[*R*]depends[*A*]on the number of turbines[*A*]technically	context()	negated: False ,passive: False
+[LINE#271]This is a key property if many turbines are to be optimised. .
+0.698	[*A*]many turbines[*R*]to be optimised	context()	negated: False ,passive: False
+0.767	[*A*]many turbines[*R*]are[*A*]to be optimised	context()	negated: False ,passive: True
+0.449	[*A*]This[*R*]is[*A*]a key property[*A*]if many turbines are to be optimised	context()	negated: False ,passive: True
+[LINE#272]The governing PDEs (3) are discretised with the finite element method.
+0.897	[*A*]The governing PDEs[*R*]are discretised[*A*]with the finite element method	context()	negated: False ,passive: True
+[LINE#273]The weak form is derived by multiplying the equations with test functions (,) from suitable function spaces, integrating over the computational domain and applying integration by parts to selected terms.
+0.911	[*A*]The weak form[*R*]is derived[*A*]by applying integration by parts to selected terms	context()	negated: False ,passive: True
+0.911	[*A*]The weak form[*R*]is derived[*A*]by integrating over the computational domain	context()	negated: False ,passive: True
+0.897	[*A*]The weak form[*R*]by multiplying[*A*]the equations[*A*]with test functions[*A*]from suitable function spaces	context()	negated: False ,passive: False
+0.943	[*A*]The weak form[*R*]is derived[*A*]by multiplying the equations with test functions ( , ) from suitable function spaces	context()	negated: False ,passive: True
+[LINE#274] The weak form of equations (3) is: find (u,) such that (,):(12)ut,+uu,+u,+g,+cb+ct(m)Huu,=0,t,-Hu,+Hun,inout=0,where.
+[LINE#275]The no-normal flow/free-slip conditions on \(in  out) are weakly imposed by excluding the associated surface integrals.
+0.974	[*A*]The no-normal flow/free-slip conditions on \(in  out[*R*]are weakly imposed[*A*]by excluding the associated surface integrals	context()	negated: False ,passive: True
+[LINE#276]The Dirichlet boundary conditions are strongly imposed by restricting the function spaces to functions that yield the correct boundary values.
+0.877	[*A*]functions[*R*]yield[*A*]the correct boundary values	context()	negated: False ,passive: False
+0.939	[*A*]The Dirichlet boundary conditions[*R*]are strongly imposed[*A*]by restricting the function spaces to functions	context()	negated: False ,passive: True
+[LINE#277]The discretised problem is obtained by choosing discrete function spaces in the weak formulation (12).
+0.751	[*A*]The discretised problem[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#278]In this work, these are constructed from a suitable triangulation of the computational domain  using the Taylor-Hood finite element pair which uses piecewise quadratic functions on each triangle for the velocity and piecewise linear functions on each triangle for the free-surface displacement [37].If the non-stationary problem is considered ( = 1), then the spatially discretised equations (12) must also be discretised in time.
+0.958	[*A*]the Taylor-Hood finite element pair[*R*]uses[*A*]piecewise linear functions on each triangle for the free - surface displacement	context()	negated: False ,passive: False
+0.681	[*A*]these[*R*]are constructed[*A*]from a suitable triangulation of the computational domain[*A*]In this work	context()	negated: False ,passive: True
+0.622	[*A*]these[*R*]are constructed[*A*]from a suitable triangulation of the computational domain[*A*]In this work	context(the spatially discretised equations must be discretised)	negated: False ,passive: True
+0.896	[*A*]the spatially discretised equations[*R*]must be discretised[*A*]in time[*A*]then	context()	negated: False ,passive: True
+0.922	[*A*]the Taylor-Hood finite element pair[*R*]uses[*A*]quadratic functions[*A*]on each triangle for the velocity	context()	negated: False ,passive: False
+0.948	[*A*]a suitable triangulation of the computational domain[*R*]using[*A*]the Taylor-Hood finite element pair	context()	negated: False ,passive: False
+[LINE#279]In this paper, the time discretisation was performed using the implicit Euler method, due to its unconditional stability and simplicity.
+0.892	[*A*]the time discretisation[*R*]was performed[*A*]due to its simplicity[*A*]In this paper	context()	negated: False ,passive: True
+0.892	[*A*]the time discretisation[*R*]was performed[*A*]due to its unconditional stability[*A*]In this paper	context()	negated: False ,passive: True
+[LINE#280]Finally, the integral evaluation of the functionals of interest (7) and (8) used the same quadrature rules as used in the underlying finite element formulation of the problem.
+0.795	[*A*]the integral ( 8[*R*]used[*A*]the same quadrature rules as used in the underlying finite element formulation of the problem[*A*]Finally	context()	negated: False ,passive: False
+0.976	[*A*]the integral evaluation of the functionals of interest[*R*]used[*A*]the same quadrature rules as used in the underlying finite element formulation of the problem[*A*]Finally	context()	negated: False ,passive: False
+[LINE#281] this section we formulate the optimal configuration of turbines in an array as a PDE-constrained optimisation problem in the following abstract form:(1)maxz,mJ(z,m)subjecttoF(z,m)=0,blmbu ,g(m)0,where J(z,m)R is the functional of interest, m are the design parameters, F(z,m) is a PDE operator parameterised by m with solution z, bl and bu arelower and upper bound constraints for the design parameters, and g(m) enforces additional restrictions on the design parameters.
+0.933	[*A*]J ( z , m ) R[*R*]is[*A*]the functional of interest	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]formulate[*A*]the optimal configuration of turbines[*A*]in an array as a PDE-constrained optimisation problem[*A*]in the following abstract form[*A*]this section	context()	negated: False ,passive: False
+[LINE#282] In this work z = (u,) is the solution (horizontal velocity, free-surface displacement) of the shallow water equations written in the formand m contains the configuration (position and/or tuning parameters) of the turbines.
+0.919	[*A*]the shallow water equations[*R*]written[*A*]in the formand m	context()	negated: False ,passive: True
+[LINE#283] The bounds bl and bu are used to enforce that the turbines remain in a prescribed area (here assumed a rectangle for simplicity), while g(m) is used to enforce a minimum distance between any two turbines (e.g. as a multiple of the turbine diameter).The optimisation problem (1) can be reduced by using the fact that the constraint equation F(z,m) = implicitly maps any choice of m to a unique solution.
+0.786	[*A*]m[*R*]is used[*A*]to enforce a minimum distance between any two turbines	context()	negated: False ,passive: True
+0.897	[*A*]the constraint equation[*R*]implicitly maps[*A*]any choice of m	context()	negated: False ,passive: False
+0.882	[*A*]the turbines[*R*]remain[*A*]in a prescribed area	context(bu to enforce)	negated: False ,passive: True
+0.518	[*A*]bu[*R*]to enforce[*A*]that the turbines remain in a prescribed area	context()	negated: False ,passive: False
+0.718	[*A*]bu[*R*]are used[*A*]to enforce that the turbines remain in a prescribed area	context()	negated: False ,passive: True
+0.784	[*A*]The bounds[*R*]bl	context()	negated: False ,passive: False
+[LINE#284]Hence, the solution z can be considered as an implicit function of the optimisation parameters: z  z(m).
+0.911	[*A*]the solution z[*R*]can be considered[*A*]as an implicit function of the optimisation parameters	context()	negated: False ,passive: True
+[LINE#285] By substituting this operator into the functional of interest, we obtain the reduced optimisation problem:(2)maxmJ(z(m),m)subjecttoblmbu,g(m)0.Whileit is possible to solve the optimisation problem in unreduced form (1), we choose to solve the reduced form, as it is usually preferable for time-dependent governing equations [29]..
+0.278	[*A*]it[*R*]is[*A*]usually[*A*]preferable	context()	negated: False ,passive: True
+0.397	[*A*]we[*R*]choose to solve[*A*]the reduced form	context(we choose)	negated: False ,passive: False
+0.397	[*A*]we[*R*]choose[*A*]to solve the reduced form	context()	negated: False ,passive: False
+[LINE#286] The design parametersFor the turbine optimisation problem considered here, the design parameter m is a vector containing the positions, and optionally the tuning parameters, of the turbines.
+0.903	[*A*]a vector[*R*]containing[*A*]the positions	context()	negated: False ,passive: False
+0.937	[*A*]the design parameter m[*R*]is[*A*]a vector containing the positions	context()	negated: False ,passive: True
+0.799	[*A*]the turbine optimisation problem[*R*]considered[*A*]here	context()	negated: False ,passive: True
+[LINE#287]If the turbine tuning parameters are fixed, then the design parameters contain only the (x,y) positions of the N turbines encoded in the form:If additionally the turbines are to be individually tuned, then the vector m is extended to contain the friction coefficient Ki of each turbine:This could be further generalised to account for any number of turbine parameters.
+0.698	[*A*]the turbines[*R*]to be individually tuned[*A*]then	context()	negated: False ,passive: True
+0.945	[*A*]the friction coefficient Ki of each turbine:This[*R*]to account[*A*]for any number of turbine parameters	context()	negated: False ,passive: False
+0.797	[*A*]the friction coefficient Ki of each turbine:This[*R*]could be generalised	context()	negated: False ,passive: False
+0.831	[*A*]the N turbines[*R*]encoded[*A*]in the form:If	context()	negated: False ,passive: True
+0.913	[*A*]the vector m[*R*]to contain[*A*]the friction coefficient Ki of each turbine:This	context()	negated: False ,passive: False
+0.948	[*A*]the design parameters[*R*]contain[*A*]positions of the N turbines[*A*]then	context()	negated: False ,passive: False
+0.925	[*A*]the vector m[*R*]is extended[*A*]to contain the friction coefficient Ki of each turbine:This	context()	negated: False ,passive: True
+0.769	[*A*]the turbine tuning parameters[*R*]are fixed	context()	negated: False ,passive: False
+[LINE#288] The PDE constraintThe constraint equation F(z,m) = 0enforces the laws of physics in the optimisation problem (1).
+0.934	[*A*]The PDE constraintThe constraint equation[*R*]0enforces[*A*]the laws of physics[*A*]in the optimisation problem	context()	negated: False ,passive: False
+[LINE#289]For gradient-based optimisation, the constraint equation must fulfill some properties.
+0.911	[*A*]the constraint equation[*R*]must fulfill[*A*]some properties	context()	negated: False ,passive: False
+[LINE#290] Firstly, for every m it must yield a unique solution z so that z can be written as an implicit function ofm. Secondly, F must be differentiable and its derivative with respect to z must be continuously invertible.
+0.388	[*A*]it[*R*]must yield[*A*]a unique solution z	context(F must be)	negated: False ,passive: False
+0.711	[*A*]F[*R*]must be[*A*]its derivative with respect to z	context()	negated: False ,passive: True
+0.637	[*A*]F[*R*]must be[*A*]continuously invertible	context()	negated: False ,passive: True
+0.669	[*A*]F[*R*]must be must be continuously invertible[*A*]differentiable	context()	negated: False ,passive: True
+0.813	[*A*]z[*R*]can be written[*A*]as an implicit function ofm	context()	negated: False ,passive: True
+0.452	[*A*]it[*R*]must yield[*A*]a unique solution z	context()	negated: False ,passive: False
+[LINE#291]In this work, the physical laws are modelled by the nonlinear shallow water equations.
+0.948	[*A*]the physical laws[*R*]are modelled[*A*]by the nonlinear shallow water equations[*A*]In this work	context()	negated: False ,passive: True
+[LINE#292]Let  be the domain of interest and let (0,T) be the simulation period.
+[LINE#293]Then the equations read:(3)ut+uu-2u+g+cb+ct(m)Huu=0,t+(Hu)=0,where the unknowns u:(0,T]R2 and :(0,T]R are the depth-averaged velocity and the free-surface displacement, respectively, H:R is the water depth at rest, gR is the acceleration due to gravity, R is the viscosity coefficient, and cb:R and ct(m):R represent the quadratic bottom friction and the turbine parameterisation, respectively.
+0.777	[*A*]R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(R represent respectively)	negated: False ,passive: False
+0.770	[*A*]R[*R*]are[*A*]H	context(R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.803	[*A*]T ] R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.813	[*A*]R[*R*]represent[*A*]the quadratic bottom friction	context()	negated: False ,passive: False
+0.777	[*A*]R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(R represent respectively)	negated: False ,passive: False
+0.777	[*A*]R[*R*]are[*A*]H	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(R represent respectively)	negated: False ,passive: False
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R represent respectively)	negated: False ,passive: False
+0.809	[*A*]T ] R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R represent respectively)	negated: False ,passive: False
+0.809	[*A*]T ] R[*R*]are[*A*]the depth - averaged velocity	context(R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the depth - averaged velocity	context(R is gR is R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(R is gR is R is R represent respectively)	negated: False ,passive: False
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.816	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are gR is R is R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.858	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.816	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R is gR is R is R represent respectively)	negated: False ,passive: False
+0.809	[*A*]T ] R[*R*]are[*A*]the depth - averaged velocity	context(R is gR is R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.772	[*A*]R[*R*]represent respectively[*A*]the turbine parameterisation	context()	negated: False ,passive: False
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.852	[*A*]R[*R*]is[*A*]the water depth at rest	context()	negated: False ,passive: True
+0.777	[*A*]R[*R*]are[*A*]the depth - averaged velocity	context(R is gR is R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.957	[*A*]the unknowns[*R*]u[*A*]Hu ) =0	context()	negated: False ,passive: False
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(R is gR is R is R represent respectively)	negated: False ,passive: False
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.816	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.928	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are gR is R is R represent respectively)	negated: False ,passive: False
+0.803	[*A*]T ] R[*R*]are[*A*]the free - surface displacement[*A*]respectively	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.858	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.816	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.930	[*A*]the equations[*R*]read[*A*]3 ) ut+uu-2u+g+cb+ct ( m ) Huu=0 , t+[*A*]Then	context(T ] R are R is gR is R is R represent respectively)	negated: False ,passive: False
+0.809	[*A*]T ] R[*R*]are[*A*]the depth - averaged velocity	context(R is gR is R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the water depth at rest	context(gR is R is R represent respectively)	negated: False ,passive: True
+0.862	[*A*]gR[*R*]is[*A*]the acceleration due to gravity	context(R is R represent respectively)	negated: False ,passive: True
+0.822	[*A*]R[*R*]is[*A*]the viscosity coefficient	context(R represent respectively)	negated: False ,passive: True
+0.772	[*A*]R[*R*]represent respectively[*A*]the quadratic bottom friction	context()	negated: False ,passive: False
+[LINE#294]The parameter   {0,1} specifies if the stationary ( = 0) or the non-stationary problem ( = 1) is considered; in the stationary case the time-dependency of the variable definitions above can be neglected.
+0.834	[*A*]the stationary ( = 0) or the non-stationary problem[*R*]is considered	context()	negated: False ,passive: False
+[LINE#295]The boundary conditions are as follows: on the domain inflow boundary in a Dirichlet boundary condition is applied to the velocity.
+0.952	[*A*]The boundary conditions[*R*]are[*A*]as follows: on the domain inflow boundary in a Dirichlet boundary condition is applied to the velocity	context()	negated: False ,passive: True
+[LINE#296]On the outflow boundary out the free-surface displacement is set to zero.
+[LINE#297]Elsewhere, a no-slip or a no-normal flow boundary condition with a free-slip condition for the tangential components is imposed.
+0.971	[*A*]a no-slip or a no-normal flow boundary condition with a free-slip condition for the tangential components[*R*]is imposed[*A*]Elsewhere	context()	negated: False ,passive: True
+[LINE#298]Note that these boundary conditions imply that the effect of the array on the free-stream flow is negligible, which is not the case for large farms [39]: for large arrays, it would be more appropriate to force the model with tidal boundary conditions on the free surface displacement or to ensure that the size of the domain includes the far-field region around the farm. .
+0.326	[*A*]it[*R*]would be[*A*]more appropriate[*A*]to force the model with tidal boundary conditions on the free surface displacement or to ensure that the size of the domain includes the far-field region around the farm	context()	negated: False ,passive: True
+0.528	[*A*]it[*R*]to force[*A*]the model with tidal boundary conditions on the free surface displacement	context()	negated: False ,passive: False
+[LINE#299]The turbine parameterisationA turbine is modelled here via an increased bottom friction over a small area representative of an individual turbine [8].
+0.844	[*A*]The turbine parameterisationA turbine[*R*]is modelled[*A*]here	context()	negated: False ,passive: True
+[LINE#300]The sum of the bottom friction associated with all turbines is denoted as ct(m) in equation (3).
+0.921	[*A*]The sum of the bottom friction[*R*]is denoted[*A*]as ct[*A*]in equation	context()	negated: False ,passive: True
+0.911	[*A*]the bottom friction[*R*]associated[*A*]with all turbines	context()	negated: False ,passive: True
+[LINE#301]This individual turbine approach is in contrast to previous work (e.g. [9,14]), where uniformly increased bottom drag over the array area was used to parameterise groups of turbines.
+0.937	[*A*]This individual turbine approach[*R*]is[*A*]in contrast to previous work	context()	negated: False ,passive: True
+[LINE#302][8]; the authors set the friction to a constant value at the turbine locations and zero everywhere else.
+0.952	[*A*]the authors[*R*]set[*A*]the friction[*A*]to a constant value at the turbine locations and zero everywhere else	context()	negated: False ,passive: False
+[LINE#303]This constant parameterisation is problematic in the context of gradient-based optimisation because the friction becomes a non-differentiable function of the turbine position.
+0.903	[*A*]the friction[*R*]becomes[*A*]a non-differentiable function of the turbine position	context()	negated: False ,passive: True
+0.956	[*A*]This constant parameterisation[*R*]is[*A*]problematic[*A*]in the context of gradient-based optimisation[*A*]because the friction becomes a non-differentiable function of the turbine position	context()	negated: False ,passive: True
+[LINE#304]For this reason, the turbine parameterisation used in this work smoothly increases the friction value at each turbine position.
+0.938	[*A*]the turbine parameterisation used in this work[*R*]smoothly increases[*A*]the friction value at each turbine position	context()	negated: False ,passive: False
+0.911	[*A*]the turbine parameterisation[*R*]used[*A*]in this work	context()	negated: False ,passive: True
+[LINE#305]The associated friction function is constructed from bump functions, i.e. smooth functions with finite support.
+[LINE#306]A bump function in one dimension is:(4)p,r(x){1-1/(1-x-pr2)forx-pr<1,0otherwise,where the two parameters p and r are the centre and the support radius of the bump function, respectively.
+0.897	[*A*]the two parameters[*R*]are[*A*]the support radius of the bump function	context()	negated: False ,passive: True
+0.919	[*A*]the two parameters r[*R*]are[*A*]the centre[*A*]respectively	context()	negated: False ,passive: True
+0.374	[*A*]p[*R*]are respectively[*A*]the support radius of the bump function	context()	negated: False ,passive: True
+0.374	[*A*]p[*R*]are respectively[*A*]the centre	context()	negated: False ,passive: True
+0.938	[*A*]A bump function in one dimension[*R*]is[*A*]4 ) p , r	context()	negated: False ,passive: True
+[LINE#307]A two-dimensional bump function is obtained by multiplying equation (4) in both independent dimensions.
+0.921	[*A*]A two-dimensional bump function[*R*]by multiplying[*A*]equation[*A*]in both independent dimensions	context()	negated: False ,passive: False
+0.801	[*A*]A two-dimensional bump function[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#308] With that, the friction function of a single turbine parameterised by a friction coefficient Ki centred at a point (xi,yi) is given by:(5)Ci(m)(x,y)Kixi,r(x)yi,r(y).A plot of the resulting friction for Ki = 1, turbine friction function ct in the governing PDE (3) is defined to be the sum of the friction functions (5) for all N turbines:(6)ct(m)i=1NCi(m),wherea single value for r is used based on the assumption that the deployed turbines are of equal size.
+0.769	[*A*]single value for r[*R*]is used	context()	negated: False ,passive: False
+0.956	[*A*]Ki = 1, turbine friction function ct in the governing PDE[*R*]ct[*A*]m)i=1NCi(m),wherea single value for r is used based on the assumption that the deployed turbines are of equal size	context()	negated: False ,passive: False
+0.818	[*A*]the friction function of a single turbine[*R*]is given[*A*]by	context()	negated: False ,passive: True
+0.966	[*A*]Ki = 1, turbine friction function ct in the governing PDE[*R*]to be[*A*]the sum of the friction functions	context()	negated: False ,passive: True
+0.897	[*A*]a friction coefficient[*R*]centred[*A*]at a point (xi,yi	context()	negated: False ,passive: True
+0.911	[*A*]the deployed turbines[*R*]are[*A*]of equal size	context()	negated: False ,passive: True
+0.982	[*A*]Ki = 1, turbine friction function ct in the governing PDE[*R*]is defined[*A*]to be the sum of the friction functions (5) for all N turbines	context()	negated: False ,passive: True
+0.911	[*A*]a single turbine[*R*]parameterised[*A*]by a friction coefficient	context()	negated: False ,passive: True
+[LINE#309]Note that turbine properties can be calibrated by modifying the friction parameter K in equation (5).
+0.887	[*A*]turbine properties[*R*]by modifying[*A*]the friction parameter K in equation	context()	negated: False ,passive: False
+[LINE#310]For example, the amount of energy that is extracted from an individual turbine (e.g. due to different pitch settings of the turbine blades) can be controlled.
+0.737	[*A*]the amount of energy[*R*]can be controlled	context()	negated: False ,passive: False
+0.920	[*A*]energy[*R*]is extracted[*A*]from an individual turbine (e.g. due to different pitch settings of the turbine blades	context()	negated: False ,passive: True
+[LINE#311]As a further extension this could be used to handle cut in/out velocities in which the turbines are operational, but this is not considered in this work.
+0.381	[*A*]this[*R*]is not considered[*A*]in this work	context()	negated: True ,passive: True
+0.943	[*A*]the turbines[*R*]are[*A*]operational[*A*]out velocities	context()	negated: False ,passive: True
+0.342	[*A*]this[*R*]to handle[*A*]cut in / out velocities	context()	negated: False ,passive: False
+0.381	[*A*]this[*R*]could be used[*A*]to handle cut in / out velocities	context()	negated: False ,passive: True
+[LINE#312]Finally, other more sophisticated turbine parameterisations such as extensions of actuator disc theory could be employed [32]. .
+0.928	[*A*]other more sophisticated turbine parameterisations such as extensions of actuator disc theory[*R*]could be employed[*A*]Finally	context()	negated: False ,passive: True
+[LINE#313]The functional of interestThe functional of interest J in equation (1) defines the value of interest that is to be maximised.
+0.737	[*A*]the value of interest[*R*]to be maximised	context()	negated: False ,passive: False
+0.817	[*A*]the value of interest[*R*]is[*A*]to be maximised	context()	negated: False ,passive: True
+0.894	[*A*]The functional of interestThe functional of interest J in equation[*R*]defines[*A*]the value of interest that is to be maximised	context()	negated: False ,passive: False
+[LINE#314]For gradient-based optimisation, J must be differentiable.
+0.675	[*A*]J[*R*]must be[*A*]differentiable	context()	negated: False ,passive: True
+[LINE#315]A natural choice for the functional of interest is the time-averaged power extracted due to the increased friction by the turbines [36,41].
+0.952	[*A*]the time-averaged power[*R*]extracted[*A*]due to the increased friction by the turbines [36,41	context()	negated: False ,passive: True
+0.973	[*A*]A natural choice for the functional of interest[*R*]is[*A*]the time-averaged power extracted due to the increased friction by the turbines [36,41]	context()	negated: False ,passive: True
+[LINE#316]In the non-stationary case ( = 1) this is expressed as:(7)J(u,m)=1T0Tct(m)u3xt,where  is the fluid density.
+0.965	[*A*]7 ) J ( u , m ) u3xt[*R*]is[*A*]the fluid density	context()	negated: False ,passive: True
+0.478	[*A*]this[*R*]is expressed[*A*]In the non-stationary case	context()	negated: False ,passive: True
+[LINE#317]In the stationary case ( = 0) the functional is defined to be the power extracted from the increased friction:(8)J(u,m)=ct(m)u3x.Note that this value represents kinetic power extraction rather than electrical power generation, since it does not incorporate losses due to the turbine support structures and the conversion to electricity.
+0.903	[*A*]the power[*R*]extracted[*A*]from the increased friction	context()	negated: False ,passive: True
+0.452	[*A*]it[*R*]does not incorporate[*A*]losses due to the turbine support structures	context()	negated: True ,passive: False
+0.682	[*A*]the functional[*R*]to be[*A*]the power extracted from the increased friction:(8)J(u,m)=ct(m	context()	negated: False ,passive: True
+0.662	[*A*]the functional[*R*]is defined[*A*]In the stationary case	context()	negated: False ,passive: True
+[LINE#318]More advanced functional choices could instead maximise the profit of the turbine farm, by including installation and service costs depending on turbine size and the deployment location [1].
+0.903	[*A*]service costs[*R*]depending[*A*]on the deployment location	context()	negated: False ,passive: False
+0.903	[*A*]service costs[*R*]depending[*A*]on turbine size	context()	negated: False ,passive: False
+0.881	[*A*]More advanced functional choices[*R*]could maximise[*A*]the profit of the turbine farm	context()	negated: False ,passive: False
+[LINE#319]Another alternative would be to incorporate potential environmental impacts.
+0.903	[*A*]Another alternative[*R*]would be[*A*]to incorporate potential environmental impacts	context()	negated: False ,passive: True
+[LINE#320]These are not considered in this study. .
+0.544	[*A*]These[*R*]are not considered[*A*]in this study	context()	negated: True ,passive: True
+[LINE#321]Box and inequality constraintsThe box and inequality constraints in the generic optimisation problem (1) are used to define the feasible values for the optimisation variables.
+0.921	[*A*]constraints in the generic optimisation problem[*R*]to define[*A*]the feasible values for the optimisation variables	context()	negated: False ,passive: False
+0.921	[*A*]constraints in the generic optimisation problem[*R*]are used[*A*]to define the feasible values for the optimisation variables	context()	negated: False ,passive: True
+0.877	[*A*]inequality[*R*]to define[*A*]the feasible values for the optimisation variables	context()	negated: False ,passive: False
+0.894	[*A*]inequality[*R*]are used[*A*]to define the feasible values for the optimisation variables	context()	negated: False ,passive: True
+0.897	[*A*]inequality constraintsThe box[*R*]to define[*A*]the feasible values for the optimisation variables	context()	negated: False ,passive: False
+0.911	[*A*]inequality constraintsThe box[*R*]are used[*A*]to define the feasible values for the optimisation variables	context()	negated: False ,passive: True
+0.833	[*A*]Box[*R*]to define[*A*]the feasible values for the optimisation variables	context()	negated: False ,passive: False
+0.855	[*A*]Box[*R*]are used[*A*]to define the feasible values for the optimisation variables	context()	negated: False ,passive: True
+[LINE#322]In the context of the turbine layout problem, a typical condition is to restrict the area in which the turbines may be placed to the development site.
+0.887	[*A*]the area[*R*]may be placed[*A*]to the development site	context()	negated: False ,passive: True
+0.960	[*A*]a typical condition[*R*]is[*A*]to restrict the area[*A*]In the context of the turbine layout problem	context()	negated: False ,passive: True
+[LINE#323]The numerical examples in this work have rectangular shaped deployment sites and therefore box constraints are sufficient to enforce this restriction.
+0.887	[*A*]box constraints[*R*]to enforce[*A*]this restriction	context()	negated: False ,passive: False
+0.903	[*A*]box constraints[*R*]are[*A*]sufficient to enforce this restriction	context()	negated: False ,passive: True
+0.932	[*A*]The numerical examples in this work[*R*]have rectangular shaped[*A*]deployment sites	context()	negated: False ,passive: False
+[LINE#324]For more general site shapes appropriate inequality constraints can be used instead.
+0.948	[*A*]appropriate inequality constraints[*R*]can be used[*A*]instead[*A*]For more general site shapes	context()	negated: False ,passive: True
+[LINE#325]Another common condition is to ensure that individual turbines do not overlap.
+0.833	[*A*]Another common condition[*R*]is[*A*]to ensure that individual turbines do not overlap	context()	negated: False ,passive: True
+[LINE#326] This is implemented by enforcing a minimum distance dmin between any two turbines:(9)pi-pj2dmin2i,j:1i<jN.In order for the optimisation to be well-posed, the constraints must satisfy a constraint qualification [21].
+0.767	[*A*]the optimisation[*R*]to be[*A*]well-posed	context()	negated: False ,passive: True
+0.497	[*A*]This[*R*]is implemented[*A*]by enforcing a minimum distance dmin between any two turbines:(9)pi-pj2dmin2i,j:1i<jN.In order for the optimisation to be well-posed, the constraints must satisfy a constraint qualification	context()	negated: False ,passive: True
+[LINE#327] The box constraints and inequality constraint (9) are concave functions, and hence satisfy the Concave Constraint Qualification[7]; theorem 5.4).More advanced constraints could for example enforce a minimum or maximum deployment depth or limit the maximum local bathymetry steepness where turbines may be installed, but these are not investigated in this work.
+[LINE#328]Verification of the forward modelThe shallow water model implementation was verified by order-of-convergence analysis.
+0.961	[*A*]Verification of the forward modelThe shallow water model implementation[*R*]was verified[*A*]by order-of-convergence analysis	context()	negated: False ,passive: True
+[LINE#329]The analytical solution is constructed using the method of manufactured solutions [31,34]: a desired analytical solution is chosen and then substituted into the governing PDE, which yields a non-zero remainder.
+0.924	[*A*]The analytical solution[*R*]is substituted[*A*]into the governing PDE[*A*]then	context()	negated: False ,passive: True
+0.922	[*A*]the governing PDE[*R*]yields[*A*]a non-zero remainder	context()	negated: False ,passive: False
+0.769	[*A*]a desired analytical solution[*R*]is chosen	context()	negated: False ,passive: False
+0.751	[*A*]The analytical solution[*R*]is constructed	context()	negated: False ,passive: False
+[LINE#330] By adding this remainder as a source term to the governing equations, the selected solution becomes an analytical solution to the modified PDE.For the following tests, the analytical solution consists of sinusoidal functions for both the velocity and the free-surface displacement:(13)uexact(x,y,t)=(0gH-1cos(kx-gHkt)0),exact(x,y,t)=0cos(kx-gHkt),with k = /640 = 50 m,  = 3 m2 s-1, ct = 0, cb = 0.0025, g =9.81 m s-2 and a final time of T=/(gHk)28.9s which corresponds to half a wave cycle.
+0.929	[*A*]the analytical solution[*R*]consists[*A*]of sinusoidal functions for both the free - surface displacement	context()	negated: False ,passive: True
+0.698	[*A*]28.9 s[*R*]corresponds	context()	negated: False ,passive: False
+0.887	[*A*]28.9 s[*R*]to half[*A*]a wave cycle	context()	negated: False ,passive: False
+0.920	[*A*]cb = 0.0025[*R*]g[*A*]=9.81 m s	context()	negated: False ,passive: False
+0.908	[*A*]the selected solution[*R*]becomes[*A*]an analytical solution to the modified PDE.For	context(the analytical solution consists)	negated: False ,passive: True
+0.891	[*A*]the analytical solution[*R*]consists[*A*]of sinusoidal functions for both the velocity	context()	negated: False ,passive: True
+[LINE#331] The computational domain  is defined to be a rectangle of size 640 m  320 m. Following the method of manufactured solutions, the functions (13) are substituted into the shallow water equations (3) andthe non-zero remainders are added as source terms.
+0.929	[*A*]The computational domain[*R*]is defined[*A*]to be a rectangle of size 640 m  320 m.	context(the functions are substituted)	negated: False ,passive: True
+0.863	[*A*]the functions[*R*]are substituted[*A*]into the shallow water equations	context()	negated: False ,passive: True
+0.933	[*A*]The computational domain[*R*]to be[*A*]a rectangle of size 640 m  320 m. Following the method of manufactured solutions	context()	negated: False ,passive: True
+0.911	[*A*]andthe non-zero remainders[*R*]are added[*A*]as source terms	context()	negated: False ,passive: True
+[LINE#332]This ensures that (13) is a solution of this modified system.
+0.518	[*A*]13[*R*]is[*A*]a solution of this modified system	context(This ensures)	negated: False ,passive: True
+0.224	[*A*]This[*R*]ensures[*A*]that (13) is a solution of this modified system	context()	negated: False ,passive: False
+[LINE#333] To determine the spatial order of convergence of the model, the time step was fixed to a small value of t= T/16,800 s, to ensure that the numerical error of the spatial discretisation dominates the overall discretisation error.
+0.879	[*A*]the time step[*R*]was fixed[*A*]to a small value of t= T/16,800 s[*A*]to ensure that the numerical error of the spatial discretisation dominates the overall discretisation error	context()	negated: False ,passive: True
+[LINE#334] Then, the forward model with the added source term was run on four uniform, increasingly fine meshes and the error in the numerical solution (u,) measured as: uexact(0,T)2+-exact(0,T)2)12.The resulting errors plotted in Fig.2 show the second-order convergence that is expected from the Taylor-Hood finite element pair.
+0.980	[*A*]uexact(0,T)2+-exact(0,T)2)12.The resulting errors[*R*]plotted[*A*]in Fig.2	context()	negated: False ,passive: True
+0.718	[*A*]the numerical solution[*R*]measured	context()	negated: False ,passive: False
+0.913	[*A*]the second-order convergence[*R*]is expected[*A*]from the Taylor-Hood finite element pair	context()	negated: False ,passive: True
+0.897	[*A*]the forward model with the added source term[*R*]was run[*A*]Then	context()	negated: False ,passive: True
+[LINE#335]For determining the temporal order of convergence, a mesh with 2.5 m element size in the x-direction and 160 m element size in the y-direction was generated (the analytical solution does not vary in the y-direction and hence a relatively large mesh element size can be used).
+0.891	[*A*]the analytical solution[*R*]does not vary[*A*]in the y - direction	context(a mesh with 2.5 m element size in the x 160 m element size in the y - direction was generated)	negated: True ,passive: True
+0.983	[*A*]a mesh with 2.5 m element size in the x 160 m element size in the y - direction[*R*]was generated[*A*]For determining the temporal order of convergence	context()	negated: False ,passive: True
+0.816	[*A*]hence a relatively large mesh element size[*R*]can be used	context()	negated: False ,passive: False
+0.891	[*A*]the analytical solution[*R*]does not vary[*A*]in the y - direction	context(a mesh with 2.5 m element size in the x - direction was generated)	negated: True ,passive: True
+0.967	[*A*]a mesh with 2.5 m element size in the x - direction[*R*]was generated[*A*]For determining the temporal order of convergence	context()	negated: False ,passive: True
+[LINE#336]This fine mesh resolution ensures that the numerical error of the temporal discretisation dominates the overall discretisation error.
+0.924	[*A*]the numerical error of the temporal discretisation[*R*]dominates[*A*]the overall discretisation error	context(This fine mesh resolution ensures)	negated: False ,passive: False
+0.841	[*A*]This fine mesh resolution[*R*]ensures[*A*]that the numerical error of the temporal discretisation dominates the overall discretisation error	context()	negated: False ,passive: False
+[LINE#337]The forward model was then run with a set of different time steps.
+0.779	[*A*]The forward model[*R*]was run[*A*]then	context()	negated: False ,passive: True
+[LINE#338] The resulting errors plotted in Fig.2b show the first-order convergence expected for the implicit Euler time discretisation..
+0.937	[*A*]the first-order convergence[*R*]expected[*A*]for the implicit Euler time discretisation	context()	negated: False ,passive: True
+0.979	[*A*]The resulting errors plotted in Fig.2b[*R*]show[*A*]the first-order convergence expected for the implicit Euler time discretisation	context()	negated: False ,passive: False
+0.925	[*A*]The resulting errors[*R*]plotted[*A*]in Fig.2b	context()	negated: False ,passive: True
+[LINE#339]Verification of the gradient computationThe gradient computation was verified using the Taylor remainder convergence test.
+0.857	[*A*]Verification of the gradient computationThe gradient computation[*R*]was verified	context()	negated: False ,passive: False
+[LINE#340] The first-order Taylor expansion states that:(14)|J(m+m)-J(m)-Jmm|=O(m2).Examining the convergence order of the remainder term is a strong test that the adjoint model and the gradient evaluation are implemented correctly:for nonlinear functionals, the gradient computed using the discrete adjoint approach is correct if and only if the Taylor remainder converges at second order.
+0.678	[*A*]the gradient[*R*]computed	context(using the discrete adjoint approach is)	negated: False ,passive: False
+0.978	[*A*]Jmm | =O ( m2 ) . Examining the convergence order of the remainder term[*R*]is[*A*]a strong test	context(using the discrete adjoint approach is)	negated: False ,passive: True
+0.808	[*A*]The first - order Taylor expansion[*R*]states	context(using the discrete adjoint approach is)	negated: False ,passive: False
+0.678	[*A*]the gradient[*R*]computed	context(using the discrete adjoint approach is)	negated: False ,passive: False
+0.978	[*A*]Jmm | =O ( m2 ) . Examining the convergence order of the remainder term[*R*]is[*A*]a strong test	context(using the discrete adjoint approach is)	negated: False ,passive: True
+0.808	[*A*]The first - order Taylor expansion[*R*]states	context(using the discrete adjoint approach is)	negated: False ,passive: False
+0.961	[*A*]using the discrete adjoint approach[*R*]is[*A*]correct[*A*]if and only if the Taylor remainder converges at second order	context()	negated: False ,passive: True
+0.858	[*A*]Jmm | =O[*R*]Examining[*A*]the convergence order of the remainder term	context()	negated: False ,passive: False
+[LINE#341]Firstly, a simple configuration with a single turbine was set up with the turbine parameterisation and the functional of interest as described above.
+0.816	[*A*]a simple configuration with a single turbine[*R*]was set up[*A*]as described above	context()	negated: False ,passive: True
+0.938	[*A*]a simple configuration with a single turbine[*R*]was set up[*A*]with the turbine parameterisation	context()	negated: False ,passive: True
+[LINE#342] The Taylor remainder convergence test in many random perturbation directionsm yielded the expected second-order convergence (not shown).
+0.773	[*A*]the expected second-order convergence[*R*]not shown	context()	negated: True ,passive: False
+0.965	[*A*]The Taylor remainder convergence test in many random perturbation directionsm[*R*]yielded[*A*]the expected second-order convergence (not shown	context()	negated: False ,passive: False
+[LINE#343]Secondly, the Taylor remainder convergence test was applied on several of the numerical examples presented in the following section (not shown).
+0.718	[*A*]the following section[*R*]not shown	context()	negated: True ,passive: False
+0.911	[*A*]the numerical examples[*R*]presented[*A*]in the following section	context()	negated: False ,passive: True
+0.944	[*A*]the Taylor remainder convergence test[*R*]was applied[*A*]on several of the numerical examples	context()	negated: False ,passive: True
+[LINE#344]All yielded second-order convergence, giving confidence that the adjoint model and the gradient computation are implemented correctly.
+0.751	[*A*]the gradient computation[*R*]are implemented correctly	context()	negated: False ,passive: False
+0.183	[*A*]All[*R*]yielded[*A*]second - order convergence[*A*]giving confidence that the gradient computation are implemented correctly	context()	negated: False ,passive: False
+0.751	[*A*]the adjoint model[*R*]are implemented correctly	context()	negated: False ,passive: False
+0.183	[*A*]All[*R*]yielded[*A*]second - order convergence[*A*]giving confidence that the adjoint model are implemented correctly	context()	negated: False ,passive: False

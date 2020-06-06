@@ -7,6 +7,9 @@ import SORE.my_utils.filter_utils as fu
 
 
 class NarrowIEOpenIECombiner(object):
+    """
+    Encapsulates paths and settings for SORE filtering.
+    """
 
     def __init__(self, oie_data_dir, IDF_path, csv_path, SUBWORDUNIT, sp_size,
                  number_of_clusters=50,
@@ -14,6 +17,20 @@ class NarrowIEOpenIECombiner(object):
                  stopwords=True,
                  SUBWORD_UNIT_COMBINATION="avg",
                  path_to_embeddings=None):
+        """
+        Initialise the embedding and clustering settings and paths.
+
+        :param oie_data_dir: Input directory to all files that contain OIE extractions.
+        :param IDF_path: Path to the IDF_weights created during filter preparation.
+        :param csv_path: Path to the CSV file with combined extractions from narrow IE.
+        :param SUBWORDUNIT: Boolean value that indicates whether subwordunits have been used during IDF weight creation.
+        :param sp_size: The size of the SentencePiece vocab used to compute subwordunits.
+        :param number_of_clusters: The number of clusters to compute over the narrow IE arguments.
+        :param stemming: Boolean that determines whether keyphrases are stemmed before filtering.
+        :param stopwords: Boolean that determines whether stopwords are removed from keyphrases before filtering.
+        :param SUBWORD_UNIT_COMBINATION: How the weights for subwordunits are combined to a single weight per word.
+        :param path_to_embeddings: Path where ELMo PubMed embeddings can be found.
+        """
         self.oie_data_dir = oie_data_dir
         self.csv_path = csv_path
         self.number_of_clusters = number_of_clusters
@@ -40,7 +57,7 @@ class NarrowIEOpenIECombiner(object):
 
     def check_for_embeddings(self):
         """
-        May need to download the ELMo PubMed embeddings
+        Check if the ELMo (pubmed) embeddings are present. If not found, will download them for reuse.
         """
         types = ['*.hdf5', '*.json']
         embedding_files = []
@@ -67,11 +84,13 @@ class NarrowIEOpenIECombiner(object):
 
     def prepare_narrowIE_embeddings(self, prefix, sp_model_path):
         """
-        If setup doesn't exist yet, runs the embedder following user-defined settings
-        and stores the output in pickle files. Otherwise, loads the existing pickle files
-        for the specified settings.
-        """
+        Prepare all embeddings for the narrow IE arguments, store them as pickle files for reuse (name based on settings).
+        If these pickle files already exist, simply load the embeddings.
 
+        :param prefix: Experiment name
+        :param sp_model_path: Path to the pre-trained SentencePiece model.
+        :return: Phrases extracted through narrow IE, corresponding embeddings and the embedder obj for re-use
+        """
         settings = "{pr}_{sp}{w}_{stem}_{stop}".format(pr=prefix,
                                                        sp=self.sp_size + '_',
                                                        w=str(self.SUBWORD_UNIT_COMBINATION),
@@ -118,6 +137,9 @@ class NarrowIEOpenIECombiner(object):
 
 
     def get_docid_from_filename(self, filename, output_name=False):
+        """
+        Simple returns the filename from a path.
+        """
         if output_name:
             return self.oie_data_dir+'processed/'+filename.rsplit('/',maxsplit=1)[1][:-4]+'_processed.txt'
         return filename.rsplit('/',maxsplit=1)[1][:-4]
@@ -125,8 +147,7 @@ class NarrowIEOpenIECombiner(object):
 
     def OIE_files_to_filter(self):
         """
-        Tries to ensure that only the necessary 'processed OIE files' are selected,
-          based on the defined narrow IE output csv_file.
+        Tries to ensure that only the 'processed OIE files' are selected for which narrow IE extractions are found.
         """
         input_files = glob.glob(self.oie_data_dir + '*.txt')
         doc_ids_for_filtering = []
@@ -145,6 +166,17 @@ class NarrowIEOpenIECombiner(object):
             print_clusters=False,
             plot=False,
             cluster_names=None):
+        """
+        Script to run the filtering process.
+
+        :param prefix: Name of the experiment.
+        :param filter_settings: A dict with filter settings, retrieved from the settings file (e.g. SORE/SORE_settings.json).
+        :param output_dir: Directory to store filtered and unfiltered extractions as json files.
+        :param print_stats: Boolean - determines whether you'd like to print the filtering statistics
+        :param print_clusters: Boolean - determines whether you'd like to print the clusters to get some insight
+        :param plot: Boolean - determines whether you'd like to plot the clusters (by default not being used)
+        :param cluster_names: A list of names for the clusters, to provide the plot with labels.
+        """
 
         sp_model_path = self.filter_data_path + "{}_{}.model".format(prefix, self.sp_size)
 
@@ -154,6 +186,11 @@ class NarrowIEOpenIECombiner(object):
                                         self.sp_size, self.stemming, self.stopwords)
         km_model = clusterer.get_Kmeans_model(narrowIE_phrases, narrowIE_embeddings)
 
+        ## To gain some insight into the created clusters:
+        if print_clusters:
+            clusters, results = clusterer.cluster(km_model, narrowIE_phrases, narrowIE_embeddings)
+            clusterer.cluster_insight(results)
+
         # need to pass the model to filter
         filterer = fu.SoreFilter(self.oie_data_dir, self.csv_path, self.IDF_path,
                                  self.subwordunit, sp_model_path,
@@ -161,11 +198,6 @@ class NarrowIEOpenIECombiner(object):
 
         filterer.start_filtering(output_dir, prefix, self.number_of_clusters, narrowIE_phrases, narrowIE_embeddings,
                                  embedder, km_model, print_stats)
-
-        ## To gain some insight into the created clusters:
-        if print_clusters:
-            clusters, results = clusterer.cluster(km_model, narrowIE_phrases, narrowIE_embeddings)
-            clusterer.cluster_insight(results)
 
         if plot:
             if cluster_names:

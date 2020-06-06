@@ -1,0 +1,722 @@
+[LINE#1]In this paper, we set out to compare several techniques that can be used in the analysis of imbalanced credit scoring data sets.
+0.271	[*A*]we[*R*]set out to compare[*A*]several techniques that can be used in the analysis of imbalanced credit scoring data sets	context(we set out)	negated: False ,passive: False
+0.531	[*A*]we[*R*]set out[*A*]to compare several techniques[*A*]In this paper	context()	negated: False ,passive: False
+0.887	[*A*]several techniques[*R*]can be used[*A*]in the analysis of imbalanced credit scoring data sets	context()	negated: False ,passive: True
+[LINE#2]In a credit scoring context, imbalanced data sets frequently occur as the number of defaulting loans in a portfolio is usually much lower than the number of observations that do not default.
+0.677	[*A*]observations[*R*]do not default	context()	negated: True ,passive: False
+0.939	[*A*]imbalanced data sets[*R*]occur[*A*]as the number of defaulting loans in a portfolio[*A*]In a credit scoring context[*A*]frequently	context()	negated: False ,passive: True
+[LINE#3]As well as using traditional classification techniques such as logistic regression, neural networks and decision trees, this paper will also explore the suitability of gradient boosting, least square support vector machines and random forests for loan default prediction.
+[LINE#4]Five real-world credit scoring data sets are used to build classifiers and test their performance.
+0.884	[*A*]Five real - world credit scoring data sets[*R*]to test[*A*]their performance	context()	negated: False ,passive: False
+0.900	[*A*]Five real - world credit scoring data sets[*R*]are used[*A*]to test their performance	context()	negated: False ,passive: True
+0.934	[*A*]Five real - world credit scoring data sets[*R*]to build[*A*]classifiers	context()	negated: False ,passive: False
+0.943	[*A*]Five real - world credit scoring data sets[*R*]are used[*A*]to build classifiers	context()	negated: False ,passive: True
+[LINE#5]In our experiments, we progressively increase class imbalance in each of these data sets by randomly under-sampling the minority class of defaulters, so as to identify to what extent the predictive power of the respective techniques is adversely affected.
+0.562	[*A*]we[*R*]progressively increase[*A*]class imbalance in each of these data sets[*A*]by randomly under-sampling the minority class of defaulters[*A*]so as to identify to what extent the predictive power of the respective techniques is adversely affected[*A*]In our experiments	context()	negated: False ,passive: False
+[LINE#6]The performance criterion chosen to measure this effect is the area under the receiver operating characteristic curve (AUC); Friedman's statistic and Nemenyi post hoc tests are used to test for significance of AUC differences between techniques.
+0.946	[*A*]The performance criterion chosen to measure this effect[*R*]is[*A*]the area under the receiver operating characteristic curve	context(Nemenyi post hoc tests are used)	negated: False ,passive: True
+0.937	[*A*]Nemenyi post hoc tests[*R*]are used[*A*]to test for significance of AUC differences between techniques	context()	negated: False ,passive: True
+0.940	[*A*]Nemenyi post hoc tests[*R*]to test[*A*]for significance of AUC differences between techniques	context()	negated: False ,passive: True
+0.946	[*A*]The performance criterion chosen to measure this effect[*R*]is[*A*]the area under the receiver operating characteristic curve	context(Friedman 's statistic are used)	negated: False ,passive: True
+0.931	[*A*]Friedman 's statistic[*R*]are used[*A*]to test for significance of AUC differences between techniques	context()	negated: False ,passive: True
+0.934	[*A*]Friedman 's statistic[*R*]to test[*A*]for significance of AUC differences between techniques	context()	negated: False ,passive: True
+0.911	[*A*]The performance criterion[*R*]chosen[*A*]to measure this effect	context()	negated: False ,passive: True
+[LINE#7]The results from this empirical study indicate that the random forest and gradient boosting classifiers perform very well in a credit scoring context and are able to cope comparatively well with pronounced class imbalances in these data sets.
+0.888	[*A*]the random gradient[*R*]boosting[*A*]classifiers	context(The results from this empirical study indicate the random gradient boosting classifiers perform very well)	negated: False ,passive: False
+0.905	[*A*]the random gradient boosting classifiers[*R*]perform very well[*A*]in a credit scoring context	context(The results from this empirical study indicate)	negated: False ,passive: False
+0.861	[*A*]The results from this empirical study[*R*]indicate[*A*]that the random gradient boosting classifiers perform very well in a credit scoring context	context()	negated: False ,passive: False
+0.909	[*A*]the random forest boosting classifiers[*R*]perform very well[*A*]in a credit scoring context	context(The results from this empirical study indicate)	negated: False ,passive: False
+0.865	[*A*]The results from this empirical study[*R*]indicate[*A*]that the random forest boosting classifiers perform very well in a credit scoring context	context()	negated: False ,passive: False
+0.887	[*A*]The results[*R*]to cope comparatively well[*A*]with pronounced class imbalances in these data sets	context()	negated: False ,passive: False
+0.937	[*A*]The results[*R*]are[*A*]able to cope comparatively well with pronounced class imbalances in these data sets	context()	negated: False ,passive: True
+[LINE#8]We also found that, when faced with a large class imbalance, the C4.5 decision tree algorithm, quadratic discriminant analysis and k-nearest neighbours perform significantly worse than the best performing classifiers.
+0.239	[*A*]We[*R*]found[*A*]that , when faced with k - nearest neighbours perform significantly worse than the best performing classifiers	context()	negated: False ,passive: False
+0.239	[*A*]We[*R*]found[*A*]that , when faced with quadratic discriminant analysis perform significantly worse than the best performing classifiers	context()	negated: False ,passive: False
+0.274	[*A*]We[*R*]found[*A*]that , when faced with the C4.5 decision tree algorithm perform significantly worse than the best performing classifiers	context()	negated: False ,passive: False
+0.239	[*A*]We[*R*]found[*A*]that , when faced with a large class imbalance perform significantly worse than the best performing classifiers	context()	negated: False ,passive: False
+[LINE#9] Conclusions and recommendations for further workInthis comparative study we have looked at a number of credit scoring techniques, and studied their performance over various class distributions in five real-life credit data sets.
+0.418	[*A*]we[*R*]have studied[*A*]their performance over various class distributions in five real - life credit data sets	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]have looked[*A*]at a number of credit scoring techniques	context()	negated: False ,passive: False
+[LINE#10]Two techniques that have yet to be fully researched in the context of credit scoring, i.e., gradient boosting and random forests, were also chosen to give a broader review of the techniques available.
+0.954	[*A*]Two techniques that have yet to be fully researched in random forests[*R*]to give[*A*]a broader review of the techniques available	context()	negated: False ,passive: False
+0.931	[*A*]Two techniques that have yet to be fully researched in random forests[*R*]were chosen[*A*]to give a broader review of the techniques available	context()	negated: False ,passive: True
+0.837	[*A*]Two techniques[*R*]to be researched[*A*]in random forests	context()	negated: False ,passive: True
+0.962	[*A*]Two techniques that have yet to be fully researched in i.e. , gradient boosting[*R*]to give[*A*]a broader review of the techniques available	context()	negated: False ,passive: False
+0.942	[*A*]Two techniques that have yet to be fully researched in i.e. , gradient boosting[*R*]were chosen[*A*]to give a broader review of the techniques available	context()	negated: False ,passive: True
+0.837	[*A*]Two techniques[*R*]to be researched[*A*]in i.e. , gradient boosting	context()	negated: False ,passive: True
+0.965	[*A*]Two techniques that have yet to be fully researched in the context of credit scoring[*R*]to give[*A*]a broader review of the techniques available	context()	negated: False ,passive: False
+0.948	[*A*]Two techniques that have yet to be fully researched in the context of credit scoring[*R*]were chosen[*A*]to give a broader review of the techniques available	context()	negated: False ,passive: True
+0.837	[*A*]Two techniques[*R*]to be researched[*A*]in the context of credit scoring	context()	negated: False ,passive: True
+0.735	[*A*]Two techniques[*R*]have[*A*]yet	context()	negated: False ,passive: False
+[LINE#11]The classification power of these techniques was assessed based on the area under the receiver operating characteristic curve (AUC).
+0.956	[*A*]The classification power of these techniques[*R*]was assessed[*A*]based on the area under the receiver operating characteristic curve	context()	negated: False ,passive: True
+[LINE#12]Friedman's test and Nemenyi's post hoc tests were then applied to determine whether the differences between the average ranked performances of the AUCs were statistically significant.
+0.982	[*A*]Friedman's test and Nemenyi's post hoc tests[*R*]were applied[*A*]to determine whether the differences between the average ranked performances of the AUCs were statistically significant[*A*]then	context()	negated: False ,passive: True
+[LINE#13]Finally, these significance results were visualised using significance diagrams for each of the various class distributions analysed.
+0.769	[*A*]the various class distributions[*R*]analysed	context()	negated: False ,passive: False
+0.897	[*A*]these significance results[*R*]using[*A*]significance diagrams[*A*]for each of the various class distributions	context()	negated: False ,passive: False
+0.967	[*A*]these significance results[*R*]were visualised[*A*]using significance diagrams for each of the various class distributions[*A*]Finally	context()	negated: False ,passive: True
+[LINE#14]The results of these experiments show that the gradient boosting and random forest classifiers performed well in dealing with samples where a large class imbalance was present.
+0.897	[*A*]the random forest classifiers[*R*]performed well in dealing[*A*]with samples	context(The results of these experiments show the random forest classifiers performed well)	negated: False ,passive: False
+0.897	[*A*]the random forest classifiers[*R*]performed well[*A*]in dealing with samples	context(The results of these experiments show)	negated: False ,passive: False
+0.882	[*A*]The results of these experiments[*R*]show[*A*]that the random forest classifiers performed well in dealing with samples	context()	negated: False ,passive: False
+0.886	[*A*]The results of these experiments[*R*]show[*A*]that the gradient boosting performed well in dealing with samples	context()	negated: False ,passive: False
+0.964	[*A*]a large class imbalance[*R*]was[*A*]present[*A*]samples	context()	negated: False ,passive: True
+[LINE#15]It does appear that in extreme cases the ability of random forests and gradient boosting to concentrate on 'local' features in the imbalanced data is useful.
+0.887	[*A*]the gradient[*R*]to concentrate[*A*]on ' local ' features in the imbalanced data	context()	negated: False ,passive: False
+[LINE#16]The most commonly used credit scoring techniques, linear discriminant analysis (LDA) and logistic regression (LOG), gave results that were reasonably competitive with the more complex techniques and this competitive performance continued even when the samples became much more imbalanced.
+0.877	[*A*]results[*R*]were[*A*]reasonably competitive with this competitive performance	context()	negated: False ,passive: True
+0.823	[*A*]The most commonly used credit scoring techniques[*R*]gave[*A*]results that were reasonably competitive with this competitive performance	context()	negated: False ,passive: False
+0.903	[*A*]the samples[*R*]became[*A*]much more imbalanced	context()	negated: False ,passive: True
+0.919	[*A*]the more complex techniques[*R*]continued[*A*]even when the samples became much more imbalanced	context()	negated: False ,passive: True
+0.877	[*A*]results[*R*]were[*A*]reasonably competitive with the more complex techniques	context()	negated: False ,passive: True
+0.882	[*A*]The most commonly used credit scoring techniques[*R*]gave[*A*]results that were reasonably competitive with the more complex techniques	context()	negated: False ,passive: False
+[LINE#17]This would suggest that the currently most popular approaches are fairly robust to imbalanced class sizes.
+0.905	[*A*]the currently most popular approaches[*R*]are[*A*]fairly robust to imbalanced class sizes	context(This would suggest)	negated: False ,passive: True
+0.217	[*A*]This[*R*]would suggest[*A*]that the currently most popular approaches are fairly robust to imbalanced class sizes	context()	negated: False ,passive: False
+0.913	[*A*]the currently most popular approaches[*R*]to imbalanced[*A*]class sizes	context()	negated: False ,passive: False
+[LINE#18]On the other hand, techniques such as QDA and C4.5 were significantly worse than the best performing classifiers.
+0.939	[*A*]techniques such as C4.5[*R*]were[*A*]significantly worse than the best performing classifiers	context()	negated: False ,passive: True
+0.939	[*A*]techniques such as QDA[*R*]were[*A*]significantly worse than the best performing classifiers	context()	negated: False ,passive: True
+[LINE#19]It can also be concluded that the use of a linear kernel LS-SVM would not be beneficial in the scoring of data sets where a very large class imbalance exists.
+0.877	[*A*]LS-SVM[*R*]would not be[*A*]beneficial in the scoring of data	context()	negated: True ,passive: True
+[LINE#20]Further work that could be conducted, as a result of these findings, would be to firstly consider a stacking approach to classification through the combination of multiple techniques.
+0.973	[*A*]Further work that could be conducted, as a result of these findings[*R*]would be[*A*]to firstly consider a stacking approach to classification through the combination of multiple techniques	context()	negated: False ,passive: True
+0.698	[*A*]Further work[*R*]could be conducted	context()	negated: False ,passive: False
+[LINE#21]Such an approach would allow a meta-learner to pick the best model to classify an observation.
+0.897	[*A*]a meta-learner[*R*]to pick[*A*]the best model to classify an observation	context(Such an approach would allow)	negated: False ,passive: False
+0.888	[*A*]Such an approach[*R*]would allow[*A*]a meta-learner to pick the best model	context()	negated: False ,passive: False
+[LINE#22]Secondly, another interesting extension to the research would be to apply these techniques on much larger data sets which display a wider variety of class distributions.
+0.905	[*A*]much larger data sets[*R*]display[*A*]a wider variety of class distributions	context()	negated: False ,passive: False
+0.932	[*A*]another interesting extension to the research[*R*]would be[*A*]to apply these techniques on much larger data sets	context()	negated: False ,passive: True
+[LINE#23]It would also be of interest to look into the effect of not only the percentage class distribution but also the effect of the actual number of observations in a data set.
+[LINE#24]Finally, as stated in the literature review section of this paper, there have been several approaches already researched in the area of over-sampling techniques to deal with large class imbalances.
+0.934	[*A*]several approaches[*R*]researched[*A*]in the area of over-sampling techniques[*A*]already	context()	negated: False ,passive: True
+[LINE#25]Further research into this and their effect on credit scoring model performance would be beneficial.
+0.502	[*A*]their effect on credit scoring model performance[*R*]would be[*A*]beneficial	context()	negated: False ,passive: True
+0.799	[*A*]Further research into this[*R*]would be[*A*]beneficial	context()	negated: False ,passive: True
+[LINE#26]Experimental set-up and data sets.
+[LINE#27]Data set characteristicsThe characteristics of the data sets used in evaluating the performance of the aforementioned classification techniques are given below in Table 2.
+0.936	[*A*]Data[*R*]set[*A*]characteristicsThe characteristics of the data sets	context()	negated: False ,passive: False
+0.911	[*A*]the data sets[*R*]used[*A*]in evaluating the performance of the aforementioned classification techniques	context()	negated: False ,passive: True
+[LINE#28]Bene2 data sets were obtained from two major financial institutions in the Benelux region.
+0.911	[*A*]Bene2 data sets[*R*]were obtained[*A*]from two major financial institutions	context()	negated: False ,passive: True
+[LINE#29]For these two data sets, a bad customer was defined as someone who had missed three consecutive months of payments.
+0.877	[*A*]someone[*R*]had missed[*A*]three consecutive months of payments	context()	negated: False ,passive: False
+0.948	[*A*]a bad customer[*R*]was defined[*A*]as someone[*A*]For these two data sets	context()	negated: False ,passive: True
+[LINE#30] The German credit data set and the Australian Credit data set are publicly available at the UCI repository.
+0.940	[*A*]the Australian Credit data[*R*]are[*A*]publicly[*A*]available[*A*]at the UCI repository	context()	negated: False ,passive: True
+0.857	[*A*]the Australian Credit data[*R*]set	context()	negated: False ,passive: False
+[LINE#31]The Behav data set was also acquired from a Benelux institution.
+0.923	[*A*]The Behav data set[*R*]was acquired[*A*]from a Benelux institution	context()	negated: False ,passive: True
+[LINE#32]As all the data sets used have a reasonable number of observations they will each be split into a training (two thirds) and a test set (one third).
+0.926	[*A*]all the data sets used[*R*]have[*A*]a reasonable number of observations	context()	negated: False ,passive: False
+0.769	[*A*]all the data sets[*R*]used	context()	negated: False ,passive: False
+[LINE#33]This test set will remain unchanged throughout the analysis of the techniques. .
+0.911	[*A*]This test set[*R*]will remain[*A*]unchanged[*A*]throughout the analysis of the techniques	context()	negated: False ,passive: True
+[LINE#34]metricsIn order for the percentage reduction in the bad observations, in each data set, to be relatively compared, the Bene1 set, Australian credit and the Behavioural Scoring set have first been altered to give a 70/30 class distribution.
+0.840	[*A*]metricsIn order for the percentage reduction in the bad observations[*R*]to be relatively compared	context(the Behavioural Scoring set have been altered)	negated: False ,passive: False
+0.932	[*A*]the Behavioural Scoring set[*R*]have been altered[*A*]to give a 70/30 class distribution[*A*]first	context()	negated: False ,passive: True
+0.928	[*A*]the Behavioural Scoring set[*R*]to give[*A*]a 70/30 class distribution	context()	negated: False ,passive: False
+0.887	[*A*]Australian credit[*R*]to give[*A*]a 70/30 class distribution	context()	negated: False ,passive: False
+0.916	[*A*]Australian credit[*R*]have been altered[*A*]to give a 70/30 class distribution[*A*]first	context()	negated: False ,passive: True
+0.897	[*A*]the Bene1 set[*R*]to give[*A*]a 70/30 class distribution	context()	negated: False ,passive: False
+0.923	[*A*]the Bene1 set[*R*]have been altered[*A*]to give a 70/30 class distribution[*A*]first	context()	negated: False ,passive: True
+0.872	[*A*]metricsIn order for the percentage reduction in the bad observations[*R*]to be relatively compared	context()	negated: False ,passive: False
+[LINE#35]This was done by either under-sampling the bad observations (from a total of 1041 bad observations in the Bene1 data set, only 892 observations have been used; and from a total of 307 bad observations in the Australian credit data set, only 164 observations have been used) or under-sampling the good observations in the behavioural scoring data set, (from a total of 1436 good observations, only 838 observations have been used).For this empirical study, the class of defaulters in each of the training data sets was artificially reduced, by a factor of 5% up to 95% then by 2.5% and 1%, so as to create a larger difference in class distribution.
+0.751	[*A*]only 164 observations[*R*]have been used	context()	negated: False ,passive: False
+0.815	[*A*]the Australian credit data[*R*]set	context()	negated: False ,passive: False
+0.699	[*A*]only 838 observations[*R*]have been used	context(the class of defaulters in each of the training data sets was artificially reduced)	negated: False ,passive: False
+0.958	[*A*]the class of defaulters in each of the training data sets[*R*]was artificially reduced[*A*]by a factor of 5% up to 95% then by 2.5% and 1%	context()	negated: False ,passive: True
+0.147	[*A*]This[*R*]was done[*A*]by	context(only 892 observations have been used)	negated: False ,passive: True
+0.706	[*A*]only 892 observations[*R*]have been used	context()	negated: False ,passive: False
+0.844	[*A*]the Bene1 data[*R*]set	context()	negated: False ,passive: False
+0.815	[*A*]the behavioural scoring data[*R*]set	context()	negated: False ,passive: False
+[LINE#36]As a result of this reduction, eight data sets were created for each of the five original data sets.
+0.911	[*A*]eight data sets[*R*]were created[*A*]for each of the five original data sets	context()	negated: False ,passive: True
+[LINE#37]The percentage splits created were 75%, 80%, 85%, 90%, 95%, 97.5%, 99% good observations.
+0.698	[*A*]The percentage[*R*]created	context()	negated: False ,passive: False
+[LINE#38]For this empirical study our focus is on the performance of classification techniques on data sets with a large class imbalance.
+0.790	[*A*]our focus[*R*]is[*A*]on the performance of classification techniques on data sets with a large class imbalance	context()	negated: False ,passive: True
+[LINE#39]Therefore detailed results will only be presented for the data set with the original 70/30 split, as a benchmark, and data sets with 85%, 90% and 99% splits.
+0.925	[*A*]the data[*R*]set[*A*]with data sets with 99 % splits	context()	negated: False ,passive: True
+0.925	[*A*]the data[*R*]set[*A*]with data sets with 90 %	context()	negated: False ,passive: True
+0.925	[*A*]the data[*R*]set[*A*]with data sets with 85 %	context()	negated: False ,passive: True
+0.925	[*A*]the data[*R*]set[*A*]with the original 70/30 split	context()	negated: False ,passive: True
+0.859	[*A*]detailed results[*R*]will be presented[*A*]for the data	context()	negated: False ,passive: True
+[LINE#40]By doing so, it is possible to identify whether techniques are adversely affected in the prediction of the target variable when there is a substantially lower number of observations in one of the classes.
+[LINE#41]The performance criterion chosen to measure this effect is the area under the receiver operator characteristic curve (AUC) statistic as proposed by Baesens et al.
+0.897	[*A*]The performance criterion[*R*]to measure[*A*]this effect	context()	negated: False ,passive: False
+0.911	[*A*]The performance criterion[*R*]chosen[*A*]to measure this effect	context()	negated: False ,passive: True
+[LINE#42](2003).The receiver operating characteristic curve (ROC) is a two-dimensional graphical illustration of the trade-off between the true positive rate (sensitivity) and false positive rate (1-specificity).
+0.682	[*A*]2003[*R*]is[*A*]a two-dimensional graphical illustration of the trade-off between the true positive rate (sensitivity) and false positive rate	context()	negated: False ,passive: True
+[LINE#43]The ROC curve illustrates the behaviour of a classifier without having to take into consideration the class distribution or misclassification cost.
+0.933	[*A*]The ROC curve[*R*]illustrates[*A*]the behaviour of a classifier	context()	negated: False ,passive: False
+[LINE#44]In order to compare the ROC curves of different classifiers, the area under the receiver operating characteristic curve (AUC) must be computed.
+0.805	[*A*]the area under the receiver operating characteristic curve[*R*]must be computed	context()	negated: False ,passive: False
+[LINE#45]The AUC statistic is similar to the Gini coefficient which is equal to 2(AUC-0.5).
+0.973	[*A*]The AUC statistic[*R*]is[*A*]-0.5	context()	negated: False ,passive: False
+0.268	[*A*]which[*R*]is equal to[*A*]2 ( AUC - 0.5 )	context()	negated: False ,passive: False
+0.846	[*A*]the Gini coefficient[*R*]is[*A*]equal to 2	context()	negated: False ,passive: True
+0.957	[*A*]The AUC statistic[*R*]is[*A*]similar to the Gini coefficient	context()	negated: False ,passive: True
+[LINE#46]An example of an ROC curve is depicted in Fig. 1:The diagonal line represents the trade-off between the sensitivity and (1-specificity) for a random model, and has an AUC of 0.5.
+0.997	[*A*]An example[*R*]has an AUC of[*A*]0.5	context()	negated: False ,passive: False
+0.925	[*A*]An example[*R*]has[*A*]an AUC of 0.5	context()	negated: False ,passive: False
+0.947	[*A*]An example of an ROC curve[*R*]is depicted[*A*]in Fig	context(The diagonal line represents)	negated: False ,passive: True
+0.929	[*A*]The diagonal line[*R*]represents[*A*]the trade-off between the sensitivity and ( 1 - specificity ) for a random model	context()	negated: False ,passive: False
+[LINE#47]For a well performing classifier the ROC curve needs to be as far to the top left-hand corner as possible.
+0.950	[*A*]the ROC curve[*R*]to be[*A*]as far to the top left-hand corner as possible	context()	negated: False ,passive: True
+[LINE#48]In the example shown in Fig. 1, the classifier that performs the best is the ROC1 curve.
+0.975	[*A*]the classifier that performs the best[*R*]is[*A*]the ROC1 curve[*A*]In the example	context()	negated: False ,passive: True
+0.735	[*A*]the classifier[*R*]performs[*A*]the best	context()	negated: False ,passive: False
+0.937	[*A*]the example[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#49] Parameter tuning and input selectionThe linear discriminant analysis (LDA), quadratic discriminant analysis (QDA) and logistic regression(LOG) classification techniques require no parameter tuning.
+[LINE#50]The LOG model was built in SAS using proc logistic and using a stepwise variable selection method.
+0.944	[*A*]The LOG model[*R*]was built[*A*]in SAS	context()	negated: False ,passive: True
+[LINE#51]Both the LDA and QDA techniques were run in SAS using proc discrim.
+0.938	[*A*]QDA techniques[*R*]were run[*A*]in SAS	context()	negated: False ,passive: True
+0.944	[*A*]the LDA techniques[*R*]were run[*A*]in SAS	context()	negated: False ,passive: True
+[LINE#52]Before all the techniques were run, dummy variables were created for the categorical variables.
+0.943	[*A*]dummy variables[*R*]were created[*A*]for the categorical variables[*A*]Before all the techniques were run	context()	negated: False ,passive: True
+0.751	[*A*]all the techniques[*R*]were run	context()	negated: False ,passive: False
+[LINE#53] The AUC statistic was computed using the ROC macro by DeLong, DeLong, and Clarke-Pearson (1988), which is available from the SAS website (http://.support.sas.com/kb/25/017.html).Forthe LS-SVM classifier, a linear kernel was chosen and a grid search mechanism was used to tune the hyper-parameters.
+0.958	[*A*]Clarke - Pearson ( 1988[*R*]is[*A*]available from the SAS website	context()	negated: False ,passive: True
+0.803	[*A*]The AUC statistic[*R*]was computed	context()	negated: False ,passive: False
+0.905	[*A*]a grid search mechanism[*R*]to tune[*A*]the hyper - parameters	context()	negated: False ,passive: False
+0.919	[*A*]a grid search mechanism[*R*]was used[*A*]to tune the hyper - parameters	context()	negated: False ,passive: True
+0.751	[*A*]a linear kernel[*R*]was chosen	context()	negated: False ,passive: False
+[LINE#54]For the LS-SVM, the LS-SVMlab Matlab toolbox developed by Suykens et al.
+0.954	[*A*]the LS-SVMlab Matlab toolbox[*R*]developed[*A*]by Suykens et al[*A*]For the LS-SVM	context()	negated: False ,passive: True
+[LINE#55]The NN classifiers were trained after selecting the best performing number of hidden neurons based on a validation set.
+0.938	[*A*]the best performing number of hidden neurons[*R*]based[*A*]on a validation set	context()	negated: False ,passive: True
+0.950	[*A*]The NN classifiers[*R*]after selecting[*A*]the best performing number of hidden neurons based on a validation set	context()	negated: False ,passive: False
+0.933	[*A*]The NN classifiers[*R*]were trained[*A*]after selecting the best performing number of hidden neurons	context()	negated: False ,passive: True
+[LINE#56]The neural networks were trained in SAS Enterprise Miner using a logistic hidden and target layer activation function.
+0.925	[*A*]The neural networks[*R*]were trained[*A*]in SAS Enterprise Miner	context()	negated: False ,passive: True
+[LINE#57]The confidence level for the pruning strategy of C4.5 was varied from 0.01 to 0.5, and the most appropriate value was selected for each data set based on validation set performance.
+0.925	[*A*]each data[*R*]set[*A*]based on validation set performance	context()	negated: False ,passive: True
+0.919	[*A*]the most appropriate value[*R*]was selected[*A*]for each data	context()	negated: False ,passive: True
+0.921	[*A*]The confidence level for the pruning strategy of C4.5[*R*]was[*A*]varied	context()	negated: False ,passive: True
+[LINE#58]The tree was built using the Weka (Witten & Frank, 2005) package.
+0.732	[*A*]The tree[*R*]was built	context()	negated: False ,passive: False
+[LINE#59]Two parameters have to be set for the Random Forests technique: these are the number of trees and the number of attributes used to grow each tree.
+0.489	[*A*]these[*R*]are[*A*]the number of attributes	context()	negated: False ,passive: True
+0.894	[*A*]attributes[*R*]used[*A*]to grow each tree	context()	negated: False ,passive: True
+0.489	[*A*]these[*R*]are[*A*]the number of trees	context()	negated: False ,passive: True
+0.905	[*A*]Two parameters[*R*]to be set[*A*]for the Random Forests technique	context()	negated: False ,passive: True
+[LINE#60]A range of [10,50,100,250,500,1000] trees has been assessed, as well as three different settings for the number of randomly selected attributes per tree ([0.5,1,2].M), whereby M denotes the number of attributes within the respective data set (Breiman, 2001).
+0.800	[*A*]the respective data[*R*]set	context()	negated: False ,passive: False
+0.855	[*A*]M[*R*]denotes[*A*]the number of attributes within the respective data	context()	negated: False ,passive: False
+0.816	[*A*]A range of [10,50,100,250,500,1000] trees[*R*]has been assessed	context()	negated: False ,passive: False
+[LINE#61]As with the C4.5 algorithm, Random Forests were also trained in Weka (Witten & Frank, 2005), using 10-fold cross-validation for tuning the parameters.
+0.914	[*A*]Random Forests[*R*]using[*A*]10-fold cross-validation[*A*]for tuning the parameters	context()	negated: False ,passive: False
+0.908	[*A*]Random Forests[*R*]were trained[*A*]in Weka[*A*]using 10-fold cross-validation for tuning the parameters	context()	negated: False ,passive: True
+[LINE#62]The k-Nearest Neighbours technique was applied for both k=10 and k=100, using the Weka (Witten & Frank, 2005) IBk classifier.
+0.973	[*A*]The k - Nearest Neighbours technique[*R*]was applied[*A*]for k=100[*A*]using the Weka ( Witten & Frank , 2005 ) IBk classifier	context()	negated: False ,passive: True
+0.973	[*A*]The k - Nearest Neighbours technique[*R*]was applied[*A*]for both k=10[*A*]using the Weka ( Witten & Frank , 2005 ) IBk classifier	context()	negated: False ,passive: True
+[LINE#63]For the gradient boosting classifier a partitioning algorithm was used as proposed by Friedman (2001).
+0.732	[*A*]the gradient[*R*]boosting	context()	negated: False ,passive: False
+[LINE#64]The number of iterations was varied in the range [10,50,100,250,500,1000], with a maximum branch size of two selected for the splitting rule (Friedman, 2001).
+0.381	[*A*]two[*R*]selected[*A*]for the splitting rule	context()	negated: False ,passive: True
+0.937	[*A*]The number of iterations[*R*]was[*A*]varied in the range[*A*]with a maximum branch size of two	context()	negated: False ,passive: True
+[LINE#65]The gradient boosting node in SAS Enterprise Miner was used to run this technique. .
+0.921	[*A*]The gradient boosting node in SAS Enterprise Miner[*R*]was used[*A*]to run this technique	context()	negated: False ,passive: True
+[LINE#66]Statistical comparison of classifiersWe used Friedman's test (Friedman, 1940) to compare the AUCs of the different classifiers.
+0.949	[*A*]Statistical comparison of classifiersWe[*R*]used[*A*]Friedman's test[*A*]to compare the AUCs of the different classifiers	context()	negated: False ,passive: False
+[LINE#67]The Friedman test statistic is based on the average ranked (AR) performances of the classification techniques on each data set, and is calculated as follows:(11)F2=12DK(K+1)j=1KARj2-K(K+1)24,whereARj=1Di=1Drij.
+0.845	[*A*]performances of the classification techniques on each data set[*R*]is calculated[*A*]as follows	context()	negated: False ,passive: True
+0.732	[*A*]the average[*R*]ranked	context()	negated: False ,passive: False
+0.939	[*A*]The Friedman test statistic[*R*]is based[*A*]on the average	context()	negated: False ,passive: True
+[LINE#68] In (13), D denotes the number of data sets used in the study, K is the total number of classifiers and rijthe rank of classifier j on data set i. F2 is distributed according to the Chi-square distribution with K-1 degrees of freedom.
+0.862	[*A*]D[*R*]denotes[*A*]the number of data sets[*A*]In (13	context(K is)	negated: False ,passive: False
+0.924	[*A*]K[*R*]is[*A*]the total number of classifiers and rijthe rank of classifier j on data set i. F2 is distributed according to the Chi-square distribution with K-1 degrees of freedom	context()	negated: False ,passive: True
+0.788	[*A*]i. F2[*R*]is distributed	context()	negated: False ,passive: False
+0.767	[*A*]data[*R*]set	context()	negated: False ,passive: False
+0.903	[*A*]data sets[*R*]used[*A*]in the study	context()	negated: False ,passive: True
+[LINE#69]If the value of F2 is large enough, then the null hypothesis that there is no difference between the techniques can be rejected.
+0.688	[*A*]the null hypothesis that there is no difference between the techniques[*R*]can be rejected[*A*]then	context()	negated: False ,passive: True
+0.878	[*A*]the value of F2[*R*]is[*A*]large enough	context()	negated: False ,passive: True
+[LINE#70] The Friedman statistic is well suited for this type of data analysis as it is less susceptible to outliers (Friedman,1940).The post hoc Nemenyi test (Nemenyi, 1963) is applied to report any significant differences between individual classifiers.
+0.889	[*A*]The Friedman statistic[*R*]is[*A*]well suited for this type of data analysis[*A*]as it is less susceptible to outliers	context(The post hoc Nemenyi test is applied)	negated: False ,passive: True
+0.894	[*A*]The post hoc Nemenyi test[*R*]is applied[*A*]to report any significant differences between individual classifiers	context()	negated: False ,passive: True
+0.913	[*A*]The post hoc Nemenyi test[*R*]to report[*A*]any significant differences between individual classifiers	context()	negated: False ,passive: False
+0.522	[*A*]it[*R*]is[*A*]less susceptible to outliers	context()	negated: False ,passive: True
+[LINE#71] The Nemenyi post hoc test states that the performances of two or more classifiers are significantly different if their average ranks differ by at least the critical difference (CD), givenby(12)CD=q,,KK(K+1)12D.In this formula, the value q,,K is based on the studentised range statistic (Nemenyi, 1963).
+0.927	[*A*]the performances of two or more classifiers[*R*]are[*A*]significantly different[*A*]if their average ranks differ by at least the critical difference (CD), givenby(12)CD=q,,KK(K+1)12D.In this formula	context(The Nemenyi post hoc test states)	negated: False ,passive: True
+0.838	[*A*]The Nemenyi post hoc test[*R*]states[*A*]that the performances of two or more classifiers are significantly different if their average ranks differ by at least the critical difference (CD), givenby(12)CD=q,,KK(K+1)12D.In this formula, the value q	context()	negated: False ,passive: False
+0.913	[*A*]K[*R*]is based[*A*]on the studentised range statistic[*A*]the value q	context()	negated: False ,passive: True
+0.363	[*A*]their average ranks[*R*]differ	context()	negated: False ,passive: False
+[LINE#72]Finally, the results from Friedman's statistic and the Nemenyi post hoc tests are displayed using a modified version of Demar (2006) significance diagrams (Lessmann, Baesens, Mues, & Pietsch, 2008).
+0.987	[*A*]the results from the Nemenyi post hoc tests[*R*]are displayed[*A*]using a modified version of Demar ( 2006 ) significance diagrams[*A*]Finally	context()	negated: False ,passive: True
+0.985	[*A*]the results from Friedman 's statistic[*R*]are displayed[*A*]using a modified version of Demar ( 2006 ) significance diagrams[*A*]Finally	context()	negated: False ,passive: True
+[LINE#73]These diagrams display the ranked performances of the classification techniques along with the critical difference to clearly show any techniques which are significantly different to the best performing classifiers.
+0.923	[*A*]These diagrams[*R*]display the ranked performances of the classification techniques along with the critical difference to clearly show[*A*]any techniques which are significantly different to the best performing classifiers	context(These diagrams display)	negated: False ,passive: False
+0.923	[*A*]These diagrams[*R*]display[*A*]the ranked performances of the classification techniques along with the critical difference	context()	negated: False ,passive: False
+0.887	[*A*]any techniques[*R*]are[*A*]significantly different to the best performing classifiers	context()	negated: False ,passive: True
+[LINE#74]The aim of credit scoring is essentially to classify loan applicants into two classes, i.e., good payers (i.e., those who are likely to keep up with their repayments) and bad payers (i.e., those who are likely to default on their loans).
+0.123	[*A*]those[*R*]are[*A*]likely to default on their loans	context()	negated: False ,passive: True
+0.123	[*A*]those[*R*]to keep up[*A*]with their bad payers	context()	negated: False ,passive: False
+0.123	[*A*]those[*R*]are[*A*]likely to keep up with their bad payers	context()	negated: False ,passive: True
+0.123	[*A*]those[*R*]to default[*A*]on their loans	context()	negated: False ,passive: True
+0.399	[*A*]i.e. , those[*R*]are[*A*]likely to default on their loans	context()	negated: False ,passive: True
+0.123	[*A*]those[*R*]to keep up[*A*]with their repayments	context()	negated: False ,passive: False
+0.123	[*A*]those[*R*]are[*A*]likely to keep up with their repayments	context()	negated: False ,passive: True
+0.399	[*A*]i.e. , those[*R*]to default[*A*]on their loans	context()	negated: False ,passive: True
+0.943	[*A*]The aim of credit scoring[*R*]is[*A*]essentially[*A*]to classify loan applicants into two classes	context()	negated: False ,passive: True
+[LINE#75]In the current financial climate, and with the recent introduction of the Basel II Accord, financial institutions have even more incentives to select and implement the most appropriate credit scoring techniques for their credit portfolios.
+0.890	[*A*]financial institutions[*R*]have[*A*]even more incentives to implement the most appropriate credit scoring techniques for their credit portfolios	context()	negated: False ,passive: False
+0.903	[*A*]financial institutions[*R*]have[*A*]even more incentives to select	context()	negated: False ,passive: False
+[LINE#76]It is stated in Henley and Hand (1997) that companies could make significant future savings if an improvement of only a fraction of a percent could be made in the accuracy of the credit scoring techniques implemented.
+0.913	[*A*]companies[*R*]could make[*A*]significant future savings[*A*]if an improvement of only a fraction of a percent could be made in the accuracy of the credit scoring techniques	context(It is stated)	negated: False ,passive: False
+0.309	[*A*]It[*R*]is stated[*A*]in Hand[*A*]that companies could make significant future savings if an improvement of only a fraction of a percent could be made in the accuracy of the credit scoring techniques	context()	negated: False ,passive: True
+0.769	[*A*]the credit scoring techniques[*R*]implemented	context()	negated: False ,passive: False
+[LINE#77]However, in the research literature, portfolios that can be considered as very low risk, or low default portfolios (LDPs), have had relatively little attention paid to them in particular with regards to which techniques are most appropriate for scoring them.
+0.821	[*A*]techniques[*R*]are[*A*]most appropriate for scoring them	context()	negated: False ,passive: True
+0.848	[*A*]relatively little attention[*R*]paid[*A*]to them	context()	negated: False ,passive: True
+0.986	[*A*]portfolios that can be considered as very low risk, or low default portfolios (LDPs)[*R*]have had[*A*]relatively little attention paid to them in particular with regards to which[*A*]in the research literature	context()	negated: False ,passive: False
+0.877	[*A*]portfolios[*R*]can be considered[*A*]as very low risk, or low default portfolios	context()	negated: False ,passive: True
+[LINE#78]The underlying problem with LDPs is that they contain a much smaller number of observations in the class of defaulters than in that of the good payers.
+0.429	[*A*]they[*R*]contain[*A*]a much smaller number of observations in the class of defaulters than in that of the good payers	context(The underlying problem with LDPs is)	negated: False ,passive: False
+0.851	[*A*]The underlying problem with LDPs[*R*]is[*A*]that they contain a much smaller number of observations in the class of defaulters than in that of the good payers	context()	negated: False ,passive: True
+[LINE#79]A large class imbalance is therefore present which some techniques may not be able to successfully handle.
+0.724	[*A*]some techniques[*R*]may not be[*A*]able to successfully handle	context(A large class imbalance is therefore)	negated: True ,passive: True
+0.761	[*A*]A large class imbalance[*R*]is therefore[*A*]present	context()	negated: False ,passive: True
+0.698	[*A*]some techniques[*R*]to successfully handle	context()	negated: False ,passive: False
+[LINE#80] Typical examples of low default portfolios include high-quality corporate borrowers, banks, sovereigns and some categories of specialised lendingbut in some countries even certain retail lending portfolios could turn out to have very low numbers of defaults compared to the majority class.
+0.785	[*A*]even certain retail lending portfolios[*R*]could turn out	context()	negated: False ,passive: False
+0.956	[*A*]Typical examples of low default portfolios[*R*]include[*A*]high some categories of specialised lendingbut in some countries even certain retail lending portfolios could turn out to have very low numbers of defaults compared to the majority class	context()	negated: False ,passive: True
+0.932	[*A*]Typical examples of low default portfolios[*R*]include[*A*]high sovereigns	context()	negated: False ,passive: True
+0.905	[*A*]certain retail lending portfolios[*R*]to have[*A*]very low numbers of defaults[*A*]compared to the majority class	context()	negated: False ,passive: False
+0.769	[*A*]certain retail lending portfolios[*R*]could turn out	context()	negated: False ,passive: False
+0.932	[*A*]Typical examples of low default portfolios[*R*]include[*A*]high banks	context()	negated: False ,passive: True
+0.913	[*A*]even certain retail lending portfolios[*R*]to have[*A*]very low numbers of defaults[*A*]compared to the majority class	context()	negated: False ,passive: False
+0.756	[*A*]high - quality corporate borrowers[*R*]could turn out	context()	negated: False ,passive: False
+0.956	[*A*]Typical examples of low default portfolios[*R*]include[*A*]high - quality corporate borrowers even certain retail lending portfolios could turn out to have very low numbers of defaults compared to the majority class	context()	negated: False ,passive: True
+[LINE#81]In a recent FSA publication regarding conservative estimation of low default portfolios, regulatory concerns were raised about whether firms can adequately asses the risk of LDPs (Benjamin, Cathcart, & Ryan, 2006).A wide range of classification techniques have already been proposed in the credit scoring literature, including statistical techniques, such as linear discriminant analysis and logistic regression, and non-parametric models, such as k-nearest neighbour and decision trees.
+0.894	[*A*]firms[*R*]can adequately asses[*A*]the risk of LDPs ( Benjamin , Cathcart , & Ryan , 2006	context()	negated: False ,passive: False
+0.943	[*A*]regulatory concerns[*R*]were raised[*A*]In a recent FSA publication	context()	negated: False ,passive: True
+0.939	[*A*]a recent FSA publication[*R*]regarding[*A*]conservative estimation of low default portfolios	context()	negated: False ,passive: False
+[LINE#82]But it is currently unclear from the literature which technique is the most appropriate for improving discrimination for LDPs.
+0.926	[*A*]the literature[*R*]is[*A*]the most appropriate for improving discrimination for LDPs	context()	negated: False ,passive: True
+0.278	[*A*]it[*R*]is[*A*]currently[*A*]unclear	context()	negated: False ,passive: True
+[LINE#83]Table 1 provides a selection of techniques currently applied in a credit scoring context, along with references showing some of their reported applications in the literature.
+0.821	[*A*]references[*R*]showing[*A*]some of their reported applications in the literature	context()	negated: False ,passive: False
+0.927	[*A*]techniques[*R*]applied[*A*]in a credit scoring context[*A*]currently	context()	negated: False ,passive: True
+0.679	[*A*]Table 1[*R*]provides[*A*]a selection of techniques currently applied in a credit scoring context, along with references	context()	negated: False ,passive: False
+[LINE#84]Hence, the aim of this paper is to conduct a study of various classification techniques based on five real-life credit scoring data sets.
+0.911	[*A*]various classification techniques[*R*]based[*A*]on five real-life credit scoring data sets	context()	negated: False ,passive: True
+0.943	[*A*]the aim of this paper[*R*]is[*A*]to conduct a study of various classification techniques	context()	negated: False ,passive: True
+[LINE#85]These data sets will then have the size of their minority class of defaulters further reduced by decrements of 5% (from an original 70/30 good/bad split) to see how the performance of the various classification techniques is affected by increasing class imbalance.
+0.921	[*A*]the performance of the various classification techniques[*R*]is affected[*A*]by increasing class imbalance	context(These data sets will have to see)	negated: False ,passive: True
+0.892	[*A*]These data sets[*R*]will have the size of their minority class of defaulters to see[*A*]how the performance of the various classification techniques is affected by increasing class imbalance	context(These data sets will have)	negated: False ,passive: False
+0.833	[*A*]These data sets[*R*]will have[*A*]the size of their minority class of defaulters[*A*]then	context()	negated: False ,passive: False
+0.920	[*A*]defaulters[*R*]reduced[*A*]by decrements of 5% (from an original 70/30 good/bad split	context()	negated: False ,passive: True
+[LINE#86]The five real-life credit scoring data sets used in this empirical research study include two data sets from Benelux (Belgium, Netherlands and Luxembourg) institutions, the German Credit and Australian Credit data sets which are publicly available at the UCI repository (http://kdd.ics.uci.edu/), and the fifth data set is a behavioural scoring data set, which was also obtained from a Benelux institution.
+0.984	[*A*]The five real - life credit scoring data sets used in this empirical research study[*R*]include[*A*]two data sets from Benelux ( Luxembourg ) institutions , and the fifth data set is a behavioural scoring data	context()	negated: False ,passive: True
+0.984	[*A*]The five real - life credit scoring data sets used in this empirical research study[*R*]include[*A*]two data sets from Benelux ( Netherlands ) institutions , and the fifth data set is a behavioural scoring data	context()	negated: False ,passive: True
+0.984	[*A*]The five real - life credit scoring data sets used in this empirical research study[*R*]include[*A*]two data sets from Benelux ( Belgium ) institutions , and the fifth data set is a behavioural scoring data	context()	negated: False ,passive: True
+0.967	[*A*]the fifth data set[*R*]is[*A*]a behavioural scoring data set , which was also obtained from a Benelux institution	context()	negated: False ,passive: True
+0.940	[*A*]Australian Credit data sets[*R*]are publicly[*A*]available[*A*]at the UCI repository	context()	negated: False ,passive: True
+0.984	[*A*]The five real - life credit scoring data sets used in this empirical research study[*R*]include[*A*]two data sets from the German Credit and Australian Credit data sets which are publicly available at the UCI repository ( http://kdd.ics.uci.edu/ ) , and the fifth data set is a behavioural scoring data	context()	negated: False ,passive: True
+0.892	[*A*]a behavioural scoring data set[*R*]was obtained[*A*]from a Benelux institution	context()	negated: False ,passive: True
+0.948	[*A*]The five real - life credit scoring data sets[*R*]used[*A*]in this empirical research study	context()	negated: False ,passive: True
+[LINE#87] The techniques that will be applied in this paper are logistic regression(LOG), linear and quadratic discriminant analysis (LDA, QDA), least square support vector machines (LS-SVM), decision trees (C4.5), neural networks (NN), nearest-neighbour classifiers (k-NN10, k-NN100), a gradient boosting algorithm and random forests.
+0.903	[*A*]a gradient[*R*]boosting[*A*]random forests	context()	negated: False ,passive: False
+0.894	[*A*]gradient[*R*]boosting[*A*]algorithm forests	context()	negated: False ,passive: True
+0.948	[*A*]The techniques that will be applied in this paper[*R*]are[*A*]logistic regression	context()	negated: False ,passive: True
+0.887	[*A*]The techniques[*R*]will be applied[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#88]We are especially interested in the power and usefulness of the gradient boosting and random forest classifiers which have yet to be thoroughly investigated in a credit scoring context.
+0.569	[*A*]We[*R*]are[*A*]especially interested in the usefulness of gradient boosting and random forest classifiers	context()	negated: False ,passive: True
+0.569	[*A*]We[*R*]are[*A*]especially interested in the usefulness of the and random forest classifiers	context()	negated: False ,passive: True
+0.897	[*A*]random forest classifiers[*R*]to be thoroughly investigated[*A*]in a credit scoring context	context()	negated: False ,passive: True
+0.754	[*A*]random forest classifiers[*R*]have[*A*]yet	context()	negated: False ,passive: False
+0.569	[*A*]We[*R*]are[*A*]especially interested in the power of gradient boosting and random forest classifiers	context()	negated: False ,passive: True
+0.913	[*A*]the and random forest classifiers[*R*]to be thoroughly investigated[*A*]in a credit scoring context	context()	negated: False ,passive: True
+0.788	[*A*]the and random forest classifiers[*R*]have[*A*]yet	context()	negated: False ,passive: False
+0.569	[*A*]We[*R*]are[*A*]especially interested in the power of the and random forest classifiers	context()	negated: False ,passive: True
+[LINE#89]All techniques will be evaluated in terms of their area under the receiver operating characteristic curve (AUC).
+0.732	[*A*]All techniques[*R*]will be evaluated	context()	negated: False ,passive: False
+[LINE#90] This is a measure of the discrimination power of a classifier without regard to class distribution or misclassification cost(Baesens et al., 2003).To make statistical inferences from the observed difference in AUC, we followed the recommendations given in a recent article (Demar, 2006) that looked at the problem of benchmarking classifiers on multiple data sets.
+0.933	[*A*]a recent article[*R*]looked[*A*]at the problem of benchmarking classifiers on multiple data sets	context()	negated: False ,passive: False
+0.903	[*A*]the recommendations[*R*]given[*A*]in a recent article	context()	negated: False ,passive: True
+0.512	[*A*]This[*R*]is[*A*]a measure of the discrimination power of a classifier without regard to class distribution or misclassification cost	context(we followed)	negated: False ,passive: True
+0.560	[*A*]we[*R*]followed[*A*]the recommendations given in a recent article (Demar, 2006)	context()	negated: False ,passive: False
+[LINE#91]The recommendations given were for a set of simple robust non-parametric tests for the statistical comparison of the classifiers (Demar, 2006).
+0.943	[*A*]The recommendations given[*R*]were[*A*]for a set of simple robust non-parametric tests for the statistical comparison of the classifiers	context()	negated: False ,passive: True
+0.732	[*A*]The recommendations[*R*]given	context()	negated: False ,passive: False
+[LINE#92]The AUC measures will therefore be compared using Friedman's average rank test, and Nemenyi's post hoc test will be employed to test the significance of the differences in rank between individual classifiers.
+0.964	[*A*]Nemenyi's post hoc test[*R*]will be employed[*A*]to test the significance of the differences in rank between individual classifiers	context()	negated: False ,passive: True
+0.934	[*A*]The AUC measures[*R*]using[*A*]Friedman's average rank test	context()	negated: False ,passive: False
+0.916	[*A*]The AUC measures[*R*]will be compared[*A*]using Friedman's average rank test	context()	negated: False ,passive: True
+[LINE#93]Finally, a variant of Demar's significance diagrams will be plotted to visualise their results.
+0.904	[*A*]a variant of Demar's significance diagrams[*R*]to visualise[*A*]their results	context()	negated: False ,passive: False
+0.915	[*A*]a variant of Demar's significance diagrams[*R*]will be plotted[*A*]Finally	context()	negated: False ,passive: True
+[LINE#94]The organisation of this paper is as follows.
+0.853	[*A*]The organisation of this paper[*R*]is[*A*]as follows	context()	negated: False ,passive: True
+[LINE#95]Section 2 will begin by providing a literature review of the work that has been conducted on the topic of classification for imbalanced data sets.
+0.887	[*A*]the work[*R*]has been conducted[*A*]on the topic of classification for imbalanced data sets	context()	negated: False ,passive: True
+0.903	[*A*]Section 2[*R*]will begin[*A*]by providing a literature review of the work	context()	negated: False ,passive: True
+[LINE#96]A brief explanation will then be given for the ten classification techniques to be used in the analysis of the data sets.
+0.919	[*A*]the ten classification techniques[*R*]to be used[*A*]in the analysis of the data sets	context()	negated: False ,passive: True
+0.923	[*A*]A brief explanation[*R*]will be given[*A*]for the ten classification techniques[*A*]then	context()	negated: False ,passive: True
+[LINE#97]Secondly, the empirical set up and criteria used for comparing the classification performance will be described.
+0.830	[*A*]the criteria used for comparing the classification performance[*R*]will be described	context()	negated: False ,passive: False
+0.903	[*A*]the criteria[*R*]used[*A*]for comparing the classification performance	context()	negated: False ,passive: True
+0.856	[*A*]the empirical set up used for comparing the classification performance[*R*]will be described	context()	negated: False ,passive: False
+0.919	[*A*]the empirical set up[*R*]used[*A*]for comparing the classification performance	context()	negated: False ,passive: True
+[LINE#98]Thirdly, the results of our experiments are presented and discussed.
+0.732	[*A*]the results[*R*]discussed	context()	negated: False ,passive: False
+0.409	[*A*]the results of our experiments[*R*]are presented	context()	negated: False ,passive: False
+[LINE#99]Finally, conclusions will be drawn from the study and recommendations for further research work will be outlined.
+0.938	[*A*]conclusions[*R*]will be drawn[*A*]from the recommendations for further research work[*A*]Finally	context()	negated: False ,passive: True
+0.677	[*A*]conclusions[*R*]will be outlined	context()	negated: False ,passive: False
+0.938	[*A*]conclusions[*R*]will be drawn[*A*]from the study[*A*]Finally	context()	negated: False ,passive: True
+[LINE#100]Literature reviewA wide range of different classification techniques for scoring credit data sets has been proposed in the literature, a non-exhaustive list of which was provided earlier in Table 1.
+0.967	[*A*]Literature reviewA wide range of different classification techniques for scoring credit data sets[*R*]has been proposed[*A*]in the literature	context(a non-exhaustive list of which was provided)	negated: False ,passive: True
+0.923	[*A*]a non-exhaustive list of which[*R*]was provided[*A*]earlier in Table 1	context()	negated: False ,passive: True
+[LINE#101]In addition, some benchmarking studies have been undertaken to empirically compare the performance of these various techniques (e.g., Baesens et al., 2003), but they did not focus specifically on how these techniques compare on heavily imbalanced samples, or to what extent any such comparison is affected by the issue of class imbalance.
+0.903	[*A*]these techniques[*R*]compare[*A*]on heavily imbalanced samples	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]did not focus specifically[*A*]on how these techniques compare on heavily imbalanced samples	context()	negated: True ,passive: False
+0.897	[*A*]some benchmarking studies[*R*]to empirically compare[*A*]the performance of these various techniques	context()	negated: False ,passive: False
+0.911	[*A*]any such comparison[*R*]is affected[*A*]by the issue of class imbalance	context()	negated: False ,passive: True
+0.751	[*A*]some benchmarking studies[*R*]have been undertaken	context()	negated: False ,passive: False
+[LINE#102]seventeen techniques including both well-known techniques such as logistic regression and discriminant analysis and more advanced techniques such as least square support vector machines were compared on eight real-life credit scoring data sets.
+0.981	[*A*]seventeen techniques including both well - known techniques such as more advanced techniques such as least square support vector machines[*R*]were compared[*A*]on eight real - life credit scoring data sets	context()	negated: False ,passive: True
+0.961	[*A*]seventeen techniques including both well - known techniques such as discriminant analysis[*R*]were compared[*A*]on eight real - life credit scoring data sets	context()	negated: False ,passive: True
+0.961	[*A*]seventeen techniques including both well - known techniques such as logistic regression[*R*]were compared[*A*]on eight real - life credit scoring data sets	context()	negated: False ,passive: True
+[LINE#103]Although more complicated techniques such as radial basis function least square support vector machines (RBF LS-SVM) and neural networks (NN) yielded good performances in terms of AUC, simpler linear classifiers such as linear discriminant analysis (LDA) and logistic regression (LOG) also gave very good performances.
+0.939	[*A*]more complicated techniques such as neural networks[*R*]yielded[*A*]good performances in terms of AUC	context()	negated: False ,passive: False
+0.927	[*A*]simpler linear classifiers such as logistic regression[*R*]gave[*A*]very good performances	context()	negated: False ,passive: False
+0.934	[*A*]simpler linear classifiers such as linear discriminant analysis[*R*]gave[*A*]very good performances	context()	negated: False ,passive: False
+0.944	[*A*]more complicated techniques such as radial basis function[*R*]yielded[*A*]good performances in terms of AUC	context()	negated: False ,passive: False
+[LINE#104]However, there are often conflicting opinions when comparing the conclusions of studies promoting differing techniques.
+0.894	[*A*]studies[*R*]promoting[*A*]differing techniques	context()	negated: False ,passive: False
+[LINE#105]For example, in Yobas, Crook, and Ross (2000), the authors found that linear discriminant analysis (LDA) outperformed neural networks in the prediction of loan default, whereas in Desai, Crook, and Overstreet (1996), neural networks were reported to actually perform significantly better than LDA.
+0.928	[*A*]linear discriminant analysis[*R*]outperformed[*A*]neural networks[*A*]in the prediction of loan default[*A*]whereas in Overstreet ( 1996 ) , neural networks were reported to actually perform significantly better than LDA	context(the authors found)	negated: False ,passive: False
+0.928	[*A*]linear discriminant analysis[*R*]outperformed[*A*]neural networks[*A*]in the prediction of loan default[*A*]whereas in Crook , neural networks were reported to actually perform significantly better than LDA	context(the authors found)	negated: False ,passive: False
+0.928	[*A*]linear discriminant analysis[*R*]outperformed[*A*]neural networks[*A*]in the prediction of loan default[*A*]whereas in Desai , neural networks were reported to actually perform significantly better than LDA	context(the authors found)	negated: False ,passive: False
+0.900	[*A*]the authors[*R*]found[*A*]that linear discriminant analysis ( LDA ) outperformed neural networks in the prediction of loan default[*A*]in Ross ( 2000	context()	negated: False ,passive: False
+0.900	[*A*]the authors[*R*]found[*A*]that linear discriminant analysis ( LDA ) outperformed neural networks in the prediction of loan default[*A*]in Crook	context()	negated: False ,passive: False
+0.928	[*A*]linear discriminant analysis[*R*]outperformed[*A*]neural networks[*A*]in the prediction of loan default[*A*]whereas in Overstreet ( 1996 ) , neural networks were reported to actually perform significantly better than LDA	context(the authors found)	negated: False ,passive: False
+0.928	[*A*]linear discriminant analysis[*R*]outperformed[*A*]neural networks[*A*]in the prediction of loan default[*A*]whereas in Crook , neural networks were reported to actually perform significantly better than LDA	context(the authors found)	negated: False ,passive: False
+0.928	[*A*]linear discriminant analysis[*R*]outperformed[*A*]neural networks[*A*]in the prediction of loan default[*A*]whereas in Desai , neural networks were reported to actually perform significantly better than LDA	context(the authors found)	negated: False ,passive: False
+0.900	[*A*]the authors[*R*]found[*A*]that linear discriminant analysis ( LDA ) outperformed neural networks in the prediction of loan default[*A*]in Yobas	context()	negated: False ,passive: False
+0.602	[*A*]neural networks[*R*]to perform significantly better	context()	negated: False ,passive: False
+0.732	[*A*]neural networks[*R*]were reported	context()	negated: False ,passive: False
+[LINE#106]Furthermore, many empirical studies only evaluate a small number of classification techniques on a single credit scoring data set.
+0.933	[*A*]many empirical studies[*R*]evaluate[*A*]a small number of classification techniques on a single credit scoring data set	context()	negated: False ,passive: False
+[LINE#107]The data sets used in these empirical studies are also often far smaller and less imbalanced than those data sets used in practice.
+0.859	[*A*]The data sets used in these empirical studies[*R*]are[*A*]also[*A*]often[*A*]far less imbalanced than those data sets	context()	negated: False ,passive: True
+0.911	[*A*]those data sets[*R*]used[*A*]in practice	context()	negated: False ,passive: True
+0.859	[*A*]The data sets used in these empirical studies[*R*]are[*A*]also[*A*]often[*A*]far smaller than those data sets	context()	negated: False ,passive: True
+0.911	[*A*]The data sets[*R*]used[*A*]in these empirical studies	context()	negated: False ,passive: True
+[LINE#108] Hence, the issue of which classification technique to use for credit scoring, particularly with a small number of bad observations, remains a challenging problem (Baesens et al., 2003).The topic of whichgood/bad distribution is the most appropriate in classifying a data set has been discussed in some detail in the machine learning and data mining literature.
+0.973	[*A*]the issue of which classification technique to use for credit scoring , particularly with a small number of bad observations[*R*]remains[*A*]a challenging problem	context(The topic of whichgood / bad distribution is)	negated: False ,passive: True
+0.941	[*A*]The topic of whichgood / bad distribution[*R*]is[*A*]the most appropriate in classifying a data set	context()	negated: False ,passive: True
+0.713	[*A*]machine[*R*]learning	context()	negated: False ,passive: False
+0.932	[*A*]the issue of which classification technique[*R*]to use[*A*]for credit scoring	context()	negated: False ,passive: True
+[LINE#109](2003) it was found that the naturally occurring class distributions in the 25 data sets looked at, often did not produce the best-performing classifiers.
+[LINE#110]More specifically, based on the AUC measure (which was preferred over the use of the error rate), it was shown that the optimal class distribution should contain between 50% and 90% minority class examples within the training set.
+0.922	[*A*]the AUC measure[*R*]was preferred[*A*]over the use of the error rate	context()	negated: False ,passive: True
+[LINE#111] Alternatively, a progressive adaptive sampling strategy for selecting the optimal class distribution is proposed in Provost, Jensen, and Oates.
+0.964	[*A*]a progressive adaptive sampling strategy for selecting the optimal class distribution[*R*]is proposed[*A*]in Oates	context()	negated: False ,passive: True
+0.964	[*A*]a progressive adaptive sampling strategy for selecting the optimal class distribution[*R*]is proposed[*A*]in Jensen	context()	negated: False ,passive: True
+0.964	[*A*]a progressive adaptive sampling strategy for selecting the optimal class distribution[*R*]is proposed[*A*]in Provost	context()	negated: False ,passive: True
+[LINE#112]Whilst this method of class adjustment can be very effective for large data sets, with adequate observations in the minority class of defaulters, in some low default portfolios there are only a very small number of loan defaults to begin with.
+0.854	[*A*]only a very small number of loan defaults[*R*]to begin[*A*]with	context()	negated: False ,passive: True
+[LINE#113]Various kinds of techniques have been compared in the literature to try and ascertain the most effective way of overcoming a large class imbalance.
+0.948	[*A*]Various kinds of techniques[*R*]have been compared[*A*]in the literature[*A*]to ascertain the most effective way of overcoming a large class imbalance	context()	negated: False ,passive: True
+0.919	[*A*]Various kinds of techniques[*R*]have been compared[*A*]in the literature	context()	negated: False ,passive: True
+[LINE#114]Chawla, Bowyer, Hall, and Kegelmeyer (2002) proposed a synthetic minority over-sampling technique (SMOTE) which was applied to example data sets in fraud, telecommunications management, and detection of oil spills in satellite images.
+0.958	[*A*]Kegelmeyer ( 2002[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in detection of oil spills in satellite images	context()	negated: False ,passive: False
+0.958	[*A*]Kegelmeyer ( 2002[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in telecommunications management	context()	negated: False ,passive: False
+0.958	[*A*]Kegelmeyer ( 2002[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in fraud	context()	negated: False ,passive: False
+0.919	[*A*]Hall[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in detection of oil spills in satellite images	context()	negated: False ,passive: False
+0.919	[*A*]Hall[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in telecommunications management	context()	negated: False ,passive: False
+0.919	[*A*]Hall[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in fraud	context()	negated: False ,passive: False
+0.957	[*A*]Bowyer[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in detection of oil spills in satellite images	context()	negated: False ,passive: False
+0.957	[*A*]Bowyer[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in telecommunications management	context()	negated: False ,passive: False
+0.957	[*A*]Bowyer[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in fraud	context()	negated: False ,passive: False
+0.944	[*A*]a synthetic minority over-sampling technique[*R*]was applied[*A*]to example[*A*]data sets in detection of oil spills in satellite images	context()	negated: False ,passive: True
+0.957	[*A*]Chawla[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in detection of oil spills in satellite images	context()	negated: False ,passive: False
+0.913	[*A*]a synthetic minority over-sampling technique[*R*]was applied[*A*]to example[*A*]data sets in telecommunications management	context()	negated: False ,passive: True
+0.957	[*A*]Chawla[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in telecommunications management	context()	negated: False ,passive: False
+0.913	[*A*]a synthetic minority over-sampling technique[*R*]was applied[*A*]to example[*A*]data sets	context()	negated: False ,passive: True
+0.957	[*A*]Chawla[*R*]proposed[*A*]a synthetic minority over-sampling technique ( SMOTE ) which was applied to example data sets in fraud	context()	negated: False ,passive: False
+[LINE#115]In Japkowicz (2000), over-sampling and downsizing were compared to the author's own method of "learning by recognition" in order to determine the most effective technique.
+0.805	[*A*]downsizing[*R*]were compared[*A*]to the author 's own method of " learning by recognition " in order[*A*]In Japkowicz ( 2000	context()	negated: False ,passive: True
+0.805	[*A*]over-sampling[*R*]were compared[*A*]to the author 's own method of " learning by recognition " in order[*A*]In Japkowicz ( 2000	context()	negated: False ,passive: True
+[LINE#116]The findings, however, were inconclusive but demonstrated that both over-sampling the minority class and downsizing the majority class can be very effective.
+0.761	[*A*]downsizing the majority class[*R*]can be[*A*]very effective	context(The findings demonstrated)	negated: False ,passive: True
+0.731	[*A*]The findings[*R*]demonstrated[*A*]that downsizing the majority class can be very effective	context()	negated: False ,passive: False
+0.778	[*A*]both over-sampling the minority class[*R*]can be[*A*]very effective	context(The findings demonstrated)	negated: False ,passive: True
+0.814	[*A*]The findings[*R*]demonstrated[*A*]that both over-sampling the minority class can be very effective	context()	negated: False ,passive: False
+0.381	[*A*]both[*R*]over-sampling[*A*]the minority class	context()	negated: False ,passive: False
+0.735	[*A*]The findings[*R*]were[*A*]inconclusive	context()	negated: False ,passive: True
+[LINE#117]Subsequently, Batista (2004) identified ten alternative techniques in dealing with class imbalances and trialed them on thirteen data sets.
+0.917	[*A*]Batista[*R*]trialed[*A*]them[*A*]on thirteen data sets[*A*]Subsequently	context()	negated: False ,passive: False
+0.945	[*A*]Batista[*R*]identified[*A*]ten alternative techniques in dealing with class imbalances[*A*]Subsequently	context()	negated: False ,passive: False
+[LINE#118]The techniques chosen included a variety of under-sampling and over-sampling methods.
+0.911	[*A*]The techniques chosen[*R*]included[*A*]a variety of over-sampling methods	context()	negated: False ,passive: True
+0.911	[*A*]The techniques chosen[*R*]included[*A*]a variety of under - sampling methods	context()	negated: False ,passive: True
+0.732	[*A*]The techniques[*R*]chosen	context()	negated: False ,passive: False
+[LINE#119]Findings suggested that generally over-sampling methods provide more accurate results than under-sampling methods.
+0.891	[*A*]generally over-sampling methods[*R*]provide[*A*]more accurate results than under-sampling methods	context(Findings suggested)	negated: False ,passive: False
+0.799	[*A*]Findings[*R*]suggested[*A*]that generally over-sampling methods provide more accurate results than under-sampling methods	context()	negated: False ,passive: False
+[LINE#120]Also, a combination of either SMOTE (Chawla et al., 2002) and Tomek links or SMOTE and ENN (a nearest-neighbour cleaning rule), were proposed.
+0.902	[*A*]a combination of either SMOTE (Chawla et al., 2002) and Tomek links or SMOTE and ENN[*R*]were proposed	context()	negated: False ,passive: False
+[LINE#121]Overview of classification techniquesThis study aims to compare the performance of a wide range of classification techniques within a credit scoring context, thereby assessing to what extent they are affected by increasing class imbalance.
+0.575	[*A*]they[*R*]by increasing[*A*]class imbalance	context()	negated: False ,passive: False
+0.952	[*A*]Overview of classification techniquesThis study[*R*]aims[*A*]to compare the performance of a wide range of classification techniques within a credit scoring context	context()	negated: False ,passive: False
+[LINE#122]For the purpose of this study, ten classifiers have been selected which provide a balance between well-established credit scoring techniques such as logistic regression, decision trees and neural networks, and newly developed machine learning techniques such as least square support vector machines, gradient boosting and random forests.
+0.911	[*A*]newly developed machine[*R*]learning[*A*]techniques such as random forests	context()	negated: False ,passive: False
+0.911	[*A*]newly developed machine[*R*]learning[*A*]techniques such as gradient boosting	context()	negated: False ,passive: False
+0.910	[*A*]ten classifiers[*R*]provide[*A*]a balance between well - established credit scoring techniques such as logistic regression , decision trees and neural networks , and newly developed machine	context(ten classifiers have been selected)	negated: False ,passive: False
+0.917	[*A*]ten classifiers[*R*]have been selected[*A*]For the purpose of this study	context()	negated: False ,passive: True
+0.911	[*A*]newly developed machine[*R*]learning[*A*]techniques such as least square support vector machines	context()	negated: False ,passive: False
+[LINE#123]A brief explanation of each of the techniques applied in this paper is presented below..
+0.832	[*A*]A brief explanation of each of the techniques[*R*]is presented[*A*]below	context()	negated: False ,passive: True
+0.903	[*A*]the techniques[*R*]applied[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#124]this paper, we will be focusing on the binary response of whether a creditor turns out to be a good or bad payer (i.e., non-defaulter vs. defaulter).
+0.927	[*A*]a creditor[*R*]to be[*A*]a good or bad payer (i.e., non-defaulter vs. defaulter	context()	negated: False ,passive: True
+0.732	[*A*]a creditor[*R*]turns out	context()	negated: False ,passive: False
+0.569	[*A*]we[*R*]will be focusing[*A*]on the binary response of whether a creditor turns out to be a good or bad payer (i.e., non-defaulter vs. defaulter	context()	negated: False ,passive: False
+[LINE#125] For this binary response model, the response variable, y, can take on one of two possible values; i.e., y=0 if the customer is a bad payer, y=1 if he/.
+[LINE#126]Let us assume x is a column vector of M explanatory variables and =Pr(y=1|x) is the response probability to be modelled.
+0.928	[*A*]y=1[*R*]is[*A*]the response probability to be modelled	context()	negated: False ,passive: True
+0.751	[*A*]the response probability[*R*]to be modelled	context()	negated: False ,passive: False
+[LINE#127] The number of observations is denoted by N. The logistic regression model then takes the form:(1)logit()log1-=+Tx,where  is the intercept parameter and T contains the variable coefficients (Hosmer & Stanley, 2000). .
+0.945	[*A*]The logistic regression model[*R*]takes[*A*]the form[*A*]then	context()	negated: False ,passive: False
+0.931	[*A*]The number of observations[*R*]is denoted[*A*]by N.	context()	negated: False ,passive: True
+[LINE#128]Linear and quadratic discriminant analysisDiscriminant analysis assigns an observation to the response, y(y{0,1}), with the largest posterior probability; i.e., classify into class 0 if p(0|x)>p(1|x), or class 1 if the reverse is true.
+0.813	[*A*]the reverse[*R*]is[*A*]true	context()	negated: False ,passive: True
+[LINE#129] According to Bayes' theorem, these posterior probabilities are given by(2)p(y|x)=p(x|y)p(y)p(x).Assuming now that the class-conditional distributions p(x|y=0), p(x|y=1) are multivariate normal distributions with mean vector 0, 1, and covariance matrix 0, 1, respectively, the classification rule becomes: classify as y=0 if the following is satisfied:(3)x--1x-0-x-1T1-1x-1<2logP(y=0)-log(P(y=1))+log|1|-log|0|Linear discriminant analysis is then obtained if the simplifying assumption is made that both covariance matrices are equal, i.e., 0=1=, which has the effect of cancelling out the quadratic terms in the expression above. .
+0.932	[*A*]the classification rule[*R*]becomes[*A*]classify as y=0 if the following is satisfied:(3)x--	context()	negated: False ,passive: True
+0.920	[*A*]P(y=1[*R*]+log[*A*]|1|-log|	context()	negated: False ,passive: True
+0.682	[*A*]0=1=[*R*]has[*A*]the effect of cancelling out the quadratic terms in the expression above	context()	negated: False ,passive: False
+0.920	[*A*]0|Linear discriminant analysis[*R*]is obtained[*A*]if the simplifying assumption is made that both covariance matrices are equal[*A*]then	context()	negated: False ,passive: True
+0.330	[*A*]the following[*R*]is[*A*]satisfied	context()	negated: False ,passive: True
+0.911	[*A*]these posterior probabilities[*R*]are given[*A*]by(2)p	context()	negated: False ,passive: True
+[LINE#130]Neural networks (Multi-layer perceptron)Neural networks (NN) are mathematical representations modelled on the functionality of the human brain (Bishop, 1995).
+[LINE#131]The added benefit of a NN is its flexibility in modelling virtually any non-linear association between input variables and target variable.
+0.955	[*A*]The added benefit of a NN[*R*]is[*A*]its flexibility in modelling virtually any non-linear association between input variables and target variable	context()	negated: False ,passive: True
+[LINE#132] Although various architectures have been proposed, our study focuses on probably the most widely used type of NN, i.e., the multilayer perceptron.
+0.680	[*A*]our study[*R*]focuses[*A*]on probably the most widely used type of NN	context()	negated: False ,passive: False
+0.732	[*A*]various architectures[*R*]have been proposed	context()	negated: False ,passive: False
+[LINE#133]A MLP is typically composed of an input layer (consisting of neurons for all input variables), a hidden layer (consisting of any number of hidden neurons), and an output layer (in our case, one neuron).
+0.758	[*A*]A MLP[*R*]is composed[*A*]of an output layer	context()	negated: False ,passive: True
+0.897	[*A*]a hidden layer[*R*]consisting[*A*]of any number of hidden neurons	context()	negated: False ,passive: True
+0.758	[*A*]A MLP[*R*]is composed[*A*]of a hidden layer	context()	negated: False ,passive: True
+0.897	[*A*]an input layer[*R*]consisting[*A*]of neurons for all input variables	context()	negated: False ,passive: True
+0.758	[*A*]A MLP[*R*]is composed[*A*]of an input layer	context()	negated: False ,passive: True
+[LINE#134]Each neuron processes its inputs and transmits its output value to the neurons in the subsequent layer.
+0.810	[*A*]Each neuron[*R*]transmits[*A*]its output value[*A*]to the neurons in the subsequent layer	context()	negated: False ,passive: False
+0.835	[*A*]Each neuron[*R*]processes[*A*]its inputs	context()	negated: False ,passive: False
+[LINE#135]Each such connection between neurons is assigned a weight during training.
+[LINE#136] The output of hidden neuron i is computed by applying an activation function f(1) (for example the logistic function) to the weighted inputs and its bias term bi(1):(4)hi f(1)bi(1)+j=1MWijxj,where W represents a weight matrix in which Wij denotes the weight connecting input j to hidden neuron i. For the analysis conducted in this paper, a binary prediction will be made; hence, for the activation function in the output layer, we will be using the logistic (sigmoid) activation function, f(2)(x)=11+e-x to obtain a response probability:(5)=f(2)b(2)+j=1nhvjhj,with nh the number of hidden neurons and vthe weight vector where vj represents the weight connecting hidden neuron j to the output neuron.
+0.751	[*A*]a binary prediction[*R*]will be made	context()	negated: False ,passive: False
+0.903	[*A*]the analysis[*R*]conducted[*A*]in this paper	context()	negated: False ,passive: True
+0.293	[*A*]we[*R*]will be using the logistic to obtain[*A*]a response probability	context(we will be using)	negated: False ,passive: False
+0.388	[*A*]we[*R*]will be using[*A*]the logistic[*A*]to obtain a response probability	context()	negated: False ,passive: False
+0.875	[*A*]vj[*R*]represents[*A*]the weight connecting hidden neuron j to the output neuron	context()	negated: False ,passive: False
+0.903	[*A*]the weight[*R*]connecting[*A*]hidden neuron j	context()	negated: False ,passive: False
+0.919	[*A*]W[*R*]represents[*A*]a weight matrix in which Wij denotes the weight connecting input j to hidden neuron i. For the analysis	context()	negated: False ,passive: False
+0.195	[*A*]i[*R*]is computed	context()	negated: False ,passive: False
+0.913	[*A*]Wij[*R*]denotes[*A*]the weight connecting input j[*A*]to hidden neuron i. For the analysis[*A*]a weight matrix	context()	negated: False ,passive: False
+[LINE#137]During model estimation, the weights of the network are first randomly initialised and then iteratively adjusted so as to minimise an objective function, e.g., the sum of squared errors (possibly accompanied by a regularisation term to prevent over-fitting).
+0.949	[*A*]the weights of the network[*R*]iteratively adjusted[*A*]so as to minimise an objective function, e.g.[*A*]then	context()	negated: False ,passive: True
+0.756	[*A*]the weights of the network[*R*]randomly initialised	context()	negated: False ,passive: False
+0.887	[*A*]squared errors[*R*]accompanied[*A*]by a regularisation term[*A*]to prevent over-fitting	context()	negated: False ,passive: True
+0.957	[*A*]the weights of the network[*R*]are first[*A*]randomly initialised[*A*]During model estimation	context()	negated: False ,passive: True
+[LINE#138]This iterative procedure can be based on simple gradient descent learning or more sophisticated optimisation methods such as Levenberg-Marquardt or Quasi-Newton.
+0.952	[*A*]This iterative procedure[*R*]can be based[*A*]on simple gradient descent learning or more sophisticated optimisation methods such as Levenberg-Marquardt or Quasi-Newton	context()	negated: False ,passive: True
+[LINE#139]The number of hidden neurons can be determined through a grid search based on validation set performance. .
+0.911	[*A*]a grid search[*R*]based[*A*]on validation set performance	context()	negated: False ,passive: True
+0.785	[*A*]The number of hidden neurons[*R*]can be determined	context()	negated: False ,passive: False
+[LINE#140]Least square support vector machines (LS-SVMs)Support vector machines (SVMs) are a set of powerful supervised learning techniques used for classification and regression.
+[LINE#141]Their basic principle is to construct a maximum-margin separating hyperplane in some transformed feature space.
+0.805	[*A*]Their basic principle[*R*]is[*A*]to construct a maximum-margin separating hyperplane in some transformed feature space	context()	negated: False ,passive: True
+[LINE#142]Rather than requiring one to specify the exact transformation though, they use the principle of kernel substitution to turn them into a general (non-linear) model.
+0.582	[*A*]they[*R*]use[*A*]the principle of kernel substitution[*A*]to turn them into a general (non-linear) model	context()	negated: False ,passive: False
+0.616	[*A*]one[*R*]to specify[*A*]the exact transformation[*A*]though	context()	negated: False ,passive: False
+[LINE#143]The least square support vector machine (LS-SVM) proposed by Suykens, Van Gestel, De Brabanter, De Moor, and Vandewalle (2002) is a further adaptation of Vapnik's original SVM formulation which leads to solving linear KKT (Karush-Kuhn-Tucker) systems (rather than a more complex quadratic programing problem).
+0.978	[*A*]The least square support vector machine ( LS - SVM ) proposed by Vandewalle ( 2002 )[*R*]is[*A*]a further adaptation of Vapnik 's original SVM formulation	context()	negated: False ,passive: True
+0.933	[*A*]The least square support vector machine[*R*]proposed[*A*]by Vandewalle ( 2002	context()	negated: False ,passive: True
+0.973	[*A*]The least square support vector machine ( LS - SVM ) proposed by De Moor[*R*]is[*A*]a further adaptation of Vapnik 's original SVM formulation	context()	negated: False ,passive: True
+0.933	[*A*]The least square support vector machine[*R*]proposed[*A*]by De Moor	context()	negated: False ,passive: True
+0.973	[*A*]The least square support vector machine ( LS - SVM ) proposed by De Brabanter[*R*]is[*A*]a further adaptation of Vapnik 's original SVM formulation	context()	negated: False ,passive: True
+0.933	[*A*]The least square support vector machine[*R*]proposed[*A*]by De Brabanter	context()	negated: False ,passive: True
+0.973	[*A*]The least square support vector machine ( LS - SVM ) proposed by Van Gestel[*R*]is[*A*]a further adaptation of Vapnik 's original SVM formulation	context()	negated: False ,passive: True
+0.933	[*A*]The least square support vector machine[*R*]proposed[*A*]by Van Gestel	context()	negated: False ,passive: True
+0.965	[*A*]Vapnik 's original SVM formulation[*R*]leads[*A*]to solving linear KKT ( Karush - Kuhn - Tucker ) systems ( rather than a more complex quadratic programing problem	context()	negated: False ,passive: False
+0.971	[*A*]The least square support vector machine ( LS - SVM ) proposed by Suykens[*R*]is[*A*]a further adaptation of Vapnik 's original SVM formulation	context()	negated: False ,passive: True
+0.933	[*A*]The least square support vector machine[*R*]proposed[*A*]by Suykens	context()	negated: False ,passive: True
+[LINE#144] The optimisation problem for the LS-SVM is defined as:(6)minw,b,eJ(w,b,e)=12wTw+12i=1Nei2,subject to the following equality constraints:(7)yiwT(xi)+b=1-ei,i=1,,N,Where w is the weight vector in primal space,  is the regularisation parameter, and yi=+1 or -1 for good(bad) payers, respectively (Suykens et al., 2002).
+0.869	[*A*]N[*R*]is[*A*]the regularisation parameter	context()	negated: False ,passive: True
+0.637	[*A*]w[*R*]is[*A*]the weight vector in primal space[*A*]N	context()	negated: False ,passive: True
+0.957	[*A*]The optimisation problem for the LS-SVM[*R*]is defined[*A*]as:(6)minw,b,eJ(w,b,e)=12wTw+12i=1Nei2,subject to the following equality constraints:(7)yiwT(xi	context()	negated: False ,passive: True
+[LINE#145]A solution can then be obtained after constructing the Lagrangian, and choosing a particular kernel function K(x,xi) that computes inner products in the transformed space, based on which a classifier of the following form is obtained:y(x)=signi=1NiyiK(x,xi)+b,where by K(x,xi)=(x)T(xi) is taken to be a positive definite kernel satisfying the Mercer theorem.
+0.916	[*A*]A solution[*R*]can be obtained[*A*]after choosing a particular kernel function[*A*]then	context()	negated: False ,passive: True
+0.519	[*A*]T[*R*]is taken	context()	negated: False ,passive: False
+0.931	[*A*]a positive definite kernel[*R*]satisfying[*A*]the Mercer theorem	context()	negated: False ,passive: False
+0.837	[*A*]a classifier of the following form[*R*]is[*A*]obtained:y	context()	negated: False ,passive: True
+0.929	[*A*]A solution[*R*]can be obtained[*A*]after constructing the Lagrangian[*A*]then	context()	negated: False ,passive: True
+[LINE#146]The hyper parameter  for the LS-SVM classification technique is tuned using 10-fold cross validation. . .
+0.805	[*A*]The hyper parameter  for the LS-SVM classification technique[*R*]is tuned	context()	negated: False ,passive: False
+[LINE#147]decision treesA decision tree consists of internal nodes that specify tests on individual input variables or attributes that split the data into smaller subsets, and a series of leaf nodes assigning a class to each of the observations in the resulting segments.
+0.903	[*A*]leaf nodes[*R*]assigning[*A*]a class[*A*]to each of the observations in the resulting segments	context()	negated: False ,passive: False
+0.933	[*A*]individual input variables or attributes[*R*]split[*A*]the data[*A*]into smaller subsets	context()	negated: False ,passive: False
+0.822	[*A*]internal nodes[*R*]specify[*A*]tests[*A*]on individual input variables or attributes that split the data into smaller subsets, and a series of leaf nodes	context()	negated: False ,passive: False
+0.939	[*A*]decision treesA decision tree[*R*]consists[*A*]of internal nodes	context()	negated: False ,passive: True
+[LINE#148]For our study, we chose the popular decision tree classifier C4.5, which builds decision trees using the concept of information entropy (Quinlan, 1993).
+0.940	[*A*]the popular decision tree classifier C4.5[*R*]builds[*A*]decision trees	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]chose[*A*]the popular decision tree classifier C4.5	context()	negated: False ,passive: False
+[LINE#149]The entropy of a sample S of classified observations is given by(8)Entropy(S)=-p1log2(p1)-p0log2(p0),where p1(p0) are the proportions of the class values 1(0) in the sample S, respectively.
+0.852	[*A*]p1[*R*]are respectively[*A*]the proportions of the class values 1(0) in the sample S	context()	negated: False ,passive: True
+0.957	[*A*]The entropy of a sample S of classified observations[*R*]is given[*A*]by(8)Entropy(S	context()	negated: False ,passive: True
+[LINE#150]C4.5 examines the normalised information gain (entropy difference) that results from choosing an attribute for splitting the data.
+0.905	[*A*]the normalised information gain[*R*]results[*A*]from choosing an attribute for splitting the data	context()	negated: False ,passive: True
+0.832	[*A*]C4.5[*R*]examines[*A*]the normalised information gain (entropy difference) that results from choosing an attribute for splitting the data	context()	negated: False ,passive: False
+[LINE#151]The attribute with the highest normalised information gain is the one used to make the decision.
+[LINE#152]The algorithm then recurs on the smaller subsets. .
+0.934	[*A*]The algorithm[*R*]recurs[*A*]on the smaller subsets[*A*]then	context()	negated: False ,passive: False
+[LINE#153]reasoning)The k-nearest neighbours algorithm (k-NN) classifies a data point by taking a majority vote of its k most similar data points (Hastie, Tibshirani, & Friedman, 2001).
+0.924	[*A*]reasoning)The k-nearest neighbours algorithm[*R*]classifies[*A*]a data point[*A*]by taking a majority vote of its k most similar data points	context()	negated: False ,passive: False
+[LINE#154]The similarity measure used in this paper is the Euclidean distance between the two points:(9)dxi,xj=xi-xj=xi-xjTxi-xj1/2. .
+0.952	[*A*]The similarity measure used in this paper[*R*]is[*A*]the Euclidean distance between the two points	context()	negated: False ,passive: True
+0.911	[*A*]The similarity measure[*R*]used[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#155]Random forestsRandom forests are defined as a group of un-pruned classification or regression trees, trained on bootstrap samples of the training data using random feature selection in the process of tree generation.
+0.911	[*A*]the training data[*R*]using[*A*]random feature selection in the process of tree generation	context()	negated: False ,passive: False
+0.934	[*A*]a group of un-pruned classification or regression trees[*R*]trained[*A*]on bootstrap samples of the training data	context()	negated: False ,passive: True
+0.933	[*A*]Random forestsRandom forests[*R*]are defined[*A*]as a group of un-pruned classification or regression trees	context()	negated: False ,passive: True
+[LINE#156]After a large number of trees have been generated, each tree votes for the most popular class.
+0.785	[*A*]a large number of trees[*R*]have been generated	context()	negated: False ,passive: False
+[LINE#157]These tree voting procedures are collectively defined as random forests.
+0.919	[*A*]These tree voting procedures[*R*]are collectively defined[*A*]as random forests	context()	negated: False ,passive: True
+[LINE#158]A more detailed explanation of how to train a random forest can be found in Breiman (2001).
+0.964	[*A*]A more detailed explanation of how to train a random forest[*R*]can be found[*A*]in Breiman (2001	context()	negated: False ,passive: True
+[LINE#159]For the Random Forests classification technique two parameters require tuning.
+0.952	[*A*]two parameters[*R*]require[*A*]tuning[*A*]For the Random Forests classification technique	context()	negated: False ,passive: False
+[LINE#160]These are the number of trees and the number of attributes used to grow each tree. .
+0.894	[*A*]attributes[*R*]used[*A*]to grow each tree	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]are[*A*]the number of attributes	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]are[*A*]the number of trees	context()	negated: False ,passive: True
+[LINE#161]Gradient boostingGradient boosting (Friedman, 2001, 2002) is an ensemble algorithm that improves the accuracy of a predictive function through incremental minimisation of the error term.
+0.897	[*A*]an ensemble algorithm[*R*]improves[*A*]the accuracy of a predictive function	context()	negated: False ,passive: False
+0.951	[*A*]boostingGradient boosting (Friedman, 2001, 2002)[*R*]is[*A*]an ensemble algorithm that improves the accuracy of a predictive function through incremental minimisation of the error term	context()	negated: False ,passive: True
+0.895	[*A*]boostingGradient[*R*]boosting[*A*]Friedman	context()	negated: False ,passive: False
+[LINE#162]After the initial base learner (most commonly a tree) is grown, each tree in the series is fit to the so-called "pseudo residuals" of the prediction from the earlier trees with the purpose of reducing the error.
+0.967	[*A*]each tree in the series[*R*]is fit[*A*]After the initial base learner (most commonly a tree) is grown	context()	negated: False ,passive: True
+0.737	[*A*]the initial base learner[*R*]is grown	context()	negated: False ,passive: False
+[LINE#163] This leads to the following model:(10)F(x)=G0+1T1(x)+2T2(x)++nTn(x),where G0 equals the first value for the series, T1,,Tnare the trees fitted to the pseudo-residuals, and i are coefficients for the respective tree nodes computed by the gradient boosting algorithm.
+0.452	[*A*]i[*R*]are[*A*]coefficients for the respective tree nodes	context()	negated: False ,passive: True
+0.903	[*A*]the trees[*R*]fitted[*A*]to the pseudo-residuals	context()	negated: False ,passive: True
+0.855	[*A*]G0[*R*]equals[*A*]the first value for the series	context()	negated: False ,passive: True
+0.919	[*A*]the respective tree nodes[*R*]computed[*A*]by the gradient boosting algorithm	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]leads[*A*]to the following model	context()	negated: False ,passive: False
+[LINE#164]A more detailed explanation of gradient boosting can be found in Friedman (2001, 2002).
+0.948	[*A*]A more detailed explanation of gradient boosting[*R*]can be found[*A*]in Friedman (2001, 2002	context()	negated: False ,passive: True
+[LINE#165]The gradient boosting classifier requires tuning of the number of iterations and the maximum branch size used in the splitting rule.
+0.919	[*A*]the maximum branch size[*R*]used[*A*]in the splitting rule	context()	negated: False ,passive: True
+0.919	[*A*]The gradient boosting classifier[*R*]requires[*A*]tuning of the number of the maximum branch size	context()	negated: False ,passive: False
+0.919	[*A*]The gradient boosting classifier[*R*]requires[*A*]tuning of the number of iterations	context()	negated: False ,passive: False
+[LINE#166]Results and discussionThe table on the following page (Table 3) reports the AUCs of all ten classifiers on the five credit scoring data sets at varying degrees of class imbalance.
+0.957	[*A*]discussionThe table on the following page[*R*]reports[*A*]the AUCs of all ten classifiers on the five credit scoring data sets at varying degrees of class imbalance	context()	negated: False ,passive: False
+0.931	[*A*]Results[*R*]reports[*A*]the AUCs of all ten classifiers on the five credit scoring data sets at varying degrees of class imbalance	context()	negated: False ,passive: False
+[LINE#167]For each level of imbalance, the Friedman test statistic and corresponding p-value is shown.
+0.785	[*A*]the corresponding p - value[*R*]is shown	context()	negated: False ,passive: False
+0.818	[*A*]the Friedman test statistic[*R*]is shown	context()	negated: False ,passive: False
+[LINE#168]As these were all significant (p<0.005) a post hoc Nemenyi test was then applied to each class distribution.
+0.952	[*A*]a post hoc Nemenyi test[*R*]was applied[*A*]to each class distribution[*A*]then	context()	negated: False ,passive: True
+0.296	[*A*]these[*R*]were[*A*]all significant	context()	negated: False ,passive: True
+[LINE#169]The technique achieving the highest AUC on each data set is underlined as well as the overall highest ranked technique.
+0.918	[*A*]The technique[*R*]achieving[*A*]the highest AUC[*A*]on each data set	context()	negated: False ,passive: False
+[LINE#170]Table 3 shows that the gradient boosting algorithm has the highest Friedman score (average rank (AR)) on two of the five different percentage class splits.
+0.967	[*A*]the gradient boosting algorithm[*R*]has[*A*]the highest Friedman score (average rank (AR)) on two of the five different percentage class splits	context()	negated: False ,passive: False
+0.894	[*A*]gradient[*R*]boosting[*A*]algorithm	context()	negated: False ,passive: False
+[LINE#171] However at the extreme class split (99% good, 1% bad).
+0.164	[*A*]the class split[*R*]has extremity of[*A*]99 %	context()	negated: False ,passive: False
+[LINE#172] Random Forests provides the best average ranking across the five data sets(Random Forests also ranks first on the 10% data set).In the majority of the class splits, the AR of the QDA and Lin LS-SVM classifiers are statistically worse than the AR of the Random Forests classifier at the 5% critical difference level (=0.05), as shown in the significance diagrams included next.
+0.938	[*A*]the AR of the QDA and Lin LS-SVM classifiers[*R*]are classifier[*A*]as shown in the significance diagrams[*A*]In the majority of the class splits	context()	negated: False ,passive: True
+0.815	[*A*]the 10% data[*R*]set	context()	negated: False ,passive: False
+0.934	[*A*]Random Forests[*R*]ranks[*A*]first[*A*]on the 10% data	context()	negated: False ,passive: True
+0.783	[*A*]the significance diagrams[*R*]included[*A*]next	context()	negated: False ,passive: True
+0.927	[*A*]Random Forests[*R*]provides[*A*]the best average ranking across the five data sets	context()	negated: False ,passive: False
+[LINE#173] Note that, even though the differences between the classifiers are small, it is important to note that in a credit scoring context, an increase in the discrimination ability of even a fraction of a percent may translate into significant future savings (Henley & Hand, 1997).The following significance diagrams display the AUC performance ranks of the classifiers, along with Nemenyi's critical difference.
+[LINE#174]The CD value for all the following diagrams is equal to 6.06.
+0.385	[*A*]all the following diagrams[*R*]is equal to[*A*]6.06	context()	negated: False ,passive: False
+0.913	[*A*]The CD value for all the following diagrams[*R*]is[*A*]equal to 6.06	context()	negated: False ,passive: True
+[LINE#175]Each diagram shows the classification techniques listed in ascending order of ranked performance on the y-axis, and the classifier's mean rank across all five data sets displayed on the x-axis.
+0.919	[*A*]all five data sets[*R*]displayed[*A*]on the x-axis	context()	negated: False ,passive: True
+0.943	[*A*]the classification techniques[*R*]listed[*A*]in ascending order of ranked performance on the y-axis	context()	negated: False ,passive: True
+0.952	[*A*]Each diagram[*R*]shows[*A*]the classification techniques listed in ascending order of ranked performance on the y-axis, and the classifier's mean rank across all five data sets	context()	negated: False ,passive: False
+[LINE#176]Two vertical dashed lines have been inserted to clearly identify the end of the best performing classifier's tail and the start of the next significantly different classifier.
+0.905	[*A*]Two vertical dashed lines[*R*]to clearly identify[*A*]the start of the next significantly different classifier	context()	negated: False ,passive: False
+0.948	[*A*]Two vertical dashed lines[*R*]have been inserted[*A*]to clearly identify the start of the next significantly different classifier	context()	negated: False ,passive: True
+0.905	[*A*]Two vertical dashed lines[*R*]to clearly identify[*A*]the end of the best performing classifier 's tail	context()	negated: False ,passive: False
+0.948	[*A*]Two vertical dashed lines[*R*]have been inserted[*A*]to clearly identify the end of the best performing classifier 's tail	context()	negated: False ,passive: True
+[LINE#177]The first significance diagram (see Fig. 2) displays the average rank of the classifiers at the original class distribution of a 70% good, 30% bad split:At this original 70/30% split, the linear LS-SVM is the best performing classification technique with an AR value of 1.2.
+0.957	[*A*]The first significance diagram (see Fig[*R*]displays[*A*]the average rank of the classifiers at the original class distribution of a 70% good, 30% bad	context(the linear LS - SVM is)	negated: False ,passive: False
+0.972	[*A*]the linear LS-SVM[*R*]is[*A*]the best performing classification technique with an AR value of 1.2	context()	negated: False ,passive: True
+[LINE#178]This diagram clearly shows that the k-NN10, QDA and C4.5 techniques perform significantly worse than the best performing classifier with values of 7.7, 8.5 and 9.1 respectively.
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the C4.5 techniques perform significantly worse than the best performing classifier with values of 9.1 respectively	context()	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the C4.5 techniques perform significantly worse than the best performing classifier with values of 8.5 respectively	context()	negated: False ,passive: False
+0.673	[*A*]the C4.5 techniques[*R*]perform significantly worse respectively	context(This diagram clearly shows)	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the C4.5 techniques perform significantly worse than the best performing classifier with values of 7.7 respectively	context()	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the QDA techniques perform significantly worse than the best performing classifier with values of 9.1 respectively	context()	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the QDA techniques perform significantly worse than the best performing classifier with values of 8.5 respectively	context()	negated: False ,passive: False
+0.673	[*A*]the QDA techniques[*R*]perform significantly worse respectively	context(This diagram clearly shows)	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the QDA techniques perform significantly worse than the best performing classifier with values of 7.7 respectively	context()	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the k - NN10 techniques perform significantly worse than the best performing classifier with values of 9.1 respectively	context()	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the k - NN10 techniques perform significantly worse than the best performing classifier with values of 8.5 respectively	context()	negated: False ,passive: False
+0.714	[*A*]the k - NN10 techniques[*R*]perform significantly worse respectively	context(This diagram clearly shows)	negated: False ,passive: False
+0.835	[*A*]This diagram[*R*]clearly shows[*A*]that the k - NN10 techniques perform significantly worse than the best performing classifier with values of 7.7 respectively	context()	negated: False ,passive: False
+[LINE#179]The following significance diagram displays the average rank of the classifiers at an 85% good, 15% bad class split:At the level where only 15% of the data sets are bad observations, it is shown in the significance diagram that gradient boosting becomes the best performing classifier (see Fig. 3).
+0.882	[*A*]gradient boosting[*R*]becomes[*A*]the best performing classifier	context(it is shown)	negated: False ,passive: True
+0.397	[*A*]it[*R*]is shown[*A*]in the significance diagram	context()	negated: False ,passive: True
+0.964	[*A*]only 15% of the data sets[*R*]are[*A*]bad observations[*A*]the level	context()	negated: False ,passive: True
+[LINE#180]The gradient boosting classifier performs significantly better than the quadratic discriminant analysis (QDA) classifier.
+0.901	[*A*]The gradient[*R*]boosting significantly better[*A*]classifier performs	context()	negated: False ,passive: False
+[LINE#181]From these findings we can make a preliminary assumption that when a larger class imbalance is present, the QDA classifier remains significantly different to the gradient boosting classifier.
+0.961	[*A*]the QDA classifier[*R*]remains[*A*]significantly different to the gradient boosting classifier[*A*]when a larger class imbalance is present	context()	negated: False ,passive: True
+0.841	[*A*]a larger class imbalance[*R*]is[*A*]present	context()	negated: False ,passive: True
+0.367	[*A*]we[*R*]can make[*A*]a preliminary assumption that when a larger class imbalance is present, the QDA classifier remains significantly different to the gradient boosting classifier	context()	negated: False ,passive: False
+[LINE#182]All the other techniques used are not significantly different.
+0.814	[*A*]All the other techniques used[*R*]are not[*A*]significantly different	context()	negated: True ,passive: True
+0.769	[*A*]All the other techniques[*R*]used	context()	negated: False ,passive: False
+[LINE#183] At a 90% good, 10% bad class split the significance diagram shown in Fig.4 indicates that the C4.5 and QDA algorithms are significantly worse than the random forests classifier.
+0.751	[*A*]the random forests[*R*]classifier	context()	negated: False ,passive: False
+[LINE#184] It can be noted that the Linear LS-SVM classifier however is progressively becoming less powerful as a large class imbalance is present (see Fig. 5).The final split, displaying a 99% good, 1% bad class split, indicates that, at the most extreme class distribution analysed, two classification techniques are significantly worse.
+0.853	[*A*]The final split[*R*]displaying[*A*]1% bad class split	context(The final split , displaying a 99 % good , 1 % bad class split indicates two classification techniques are)	negated: False ,passive: False
+0.890	[*A*]The final split, displaying a 99% good, 1% bad class split[*R*]indicates[*A*]that, at the most extreme class distribution analysed	context(two classification techniques are)	negated: False ,passive: False
+0.743	[*A*]two classification techniques[*R*]are[*A*]significantly worse	context()	negated: False ,passive: True
+[LINE#185]This displays an interesting finding that at the extreme split, LOG is now close to being significantly worse than the Random Forests algorithm.
+0.857	[*A*]LOG[*R*]to being[*A*]significantly worse than the Random Forests algorithm	context()	negated: False ,passive: True
+0.964	[*A*]LOG[*R*]is[*A*]now[*A*]close to being significantly worse than the Random Forests algorithm[*A*]at the extreme split	context()	negated: False ,passive: True
+0.302	[*A*]This[*R*]displays[*A*]an interesting finding that at the extreme split, LOG is now close to being significantly worse than the Random Forests algorithm	context()	negated: False ,passive: False
+[LINE#186]The logistic regression technique therefore shows limited power in correctly classifying observations where only a small number of bad observations exist.
+0.957	[*A*]only a small number of bad observations[*R*]exist[*A*]observations	context()	negated: False ,passive: True
+0.927	[*A*]The logistic regression technique[*R*]shows[*A*]limited power	context()	negated: False ,passive: False
+[LINE#187]It can also be concluded that the random forests classifier performs surprisingly well given a large class imbalance.
+[LINE#188]In summary, when considering the AUC performance measures, it can be concluded that the gradient boosting and random forest classifiers yield a very good performance at extreme levels of class imbalance, whereas the Lin LS-SVM sees a reduction in performance as a larger class imbalance is introduced.
+0.769	[*A*]a larger class imbalance[*R*]is introduced	context()	negated: False ,passive: False
+0.897	[*A*]the Lin LS - SVM[*R*]sees[*A*]a reduction in performance[*A*]as a larger class imbalance is introduced	context()	negated: False ,passive: False
+[LINE#189]However, the simpler, linear classification techniques such as LDA and LOG also give a relatively good performance, which is not significantly different from that of the gradient boosting and random forest classifiers.
+0.925	[*A*]the simpler , linear classification techniques such as LOG[*R*]give[*A*]a relatively good performance , which is not significantly different from that of the random forest classifiers	context()	negated: False ,passive: False
+0.925	[*A*]the simpler , linear classification techniques such as LOG[*R*]give[*A*]a relatively good performance , which is not significantly different from that of the gradient boosting	context()	negated: False ,passive: False
+0.777	[*A*]a relatively good performance[*R*]is not[*A*]significantly different from that of the random forest classifiers	context()	negated: True ,passive: True
+0.925	[*A*]the simpler , linear classification techniques such as LDA[*R*]give[*A*]a relatively good performance , which is not significantly different from that of the random forest classifiers	context()	negated: False ,passive: False
+0.777	[*A*]a relatively good performance[*R*]is not[*A*]significantly different from that of the gradient boosting	context()	negated: True ,passive: True
+0.925	[*A*]the simpler , linear classification techniques such as LDA[*R*]give[*A*]a relatively good performance , which is not significantly different from that of the gradient boosting	context()	negated: False ,passive: False
+[LINE#190]This finding seems to confirm the suggestion made in Baesens et al.
+0.905	[*A*]This finding[*R*]to confirm[*A*]the suggestion made in Baesens et al	context()	negated: False ,passive: False
+0.732	[*A*]This finding[*R*]seems	context()	negated: False ,passive: False
+[LINE#191](2003) that most credit scoring data sets are only weakly non-linear.
+0.814	[*A*]most credit scoring data sets[*R*]are[*A*]only weakly non-linear	context()	negated: False ,passive: True
+[LINE#192]However, techniques such as QDA, C4.5 and k-NN10 perform significantly worse than the best performing classifiers at each percentage reduction.
+0.845	[*A*]techniques such as k - NN10[*R*]perform significantly worse	context()	negated: False ,passive: False
+0.818	[*A*]techniques such as C4.5[*R*]perform significantly worse	context()	negated: False ,passive: False
+0.818	[*A*]techniques such as QDA[*R*]perform significantly worse	context()	negated: False ,passive: False
+[LINE#193]The majority of classification techniques yielded classification performances that are quite competitive with each other.
+0.735	[*A*]classification performances[*R*]are[*A*]quite competitive with each other	context()	negated: False ,passive: True
+0.820	[*A*]The majority of classification techniques[*R*]yielded[*A*]classification performances that are quite competitive with each other	context()	negated: False ,passive: False

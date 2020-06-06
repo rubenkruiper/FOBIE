@@ -1,0 +1,614 @@
+[LINE#1]We evaluated total and inorganic arsenic levels in long grain rice and rice based baby foods on Finnish market.
+0.569	[*A*]We[*R*]evaluated[*A*]total and inorganic arsenic levels in long grain rice and rice based baby foods on Finnish market	context()	negated: False ,passive: False
+[LINE#2]Inorganic arsenic was analysed with an HPLC-ICP-MS system.
+0.918	[*A*]Inorganic arsenic[*R*]was analysed[*A*]with an HPLC-ICP-MS system	context()	negated: False ,passive: True
+[LINE#3]The total arsenic concentration was determined with an ICP-MS method.
+0.931	[*A*]The total arsenic concentration[*R*]was determined[*A*]with an ICP-MS method	context()	negated: False ,passive: True
+[LINE#4]In this study, the inorganic arsenic levels in long grain rice varied from 0.09 to 0.28mg/kg (n=8) and the total arsenic levels from 0.11 to 0.65mg/kg.
+0.967	[*A*]the inorganic arsenic levels in long grain rice[*R*]varied[*A*]from 0.09 to 0.28mg/kg[*A*]In this study	context()	negated: False ,passive: True
+[LINE#5]There was a good correlation between the total and inorganic arsenic levels in long grain rice at a confidence level of 95%.
+[LINE#6] The total arsenic levels of rice-based baby foods were in the range , however, the level of inorganic arsenic could only be quantitated in four samples,on average they were 0.11mg/kg.
+0.507	[*A*]they[*R*]were 0.11mg[*A*]kg	context(the level of inorganic arsenic could be quantitated)	negated: False ,passive: False
+0.940	[*A*]The total arsenic levels of rice-based baby foods[*R*]were[*A*]in the range	context(the level of inorganic arsenic could be quantitated)	negated: False ,passive: True
+0.862	[*A*]the level of inorganic arsenic[*R*]could be quantitated[*A*]in four samples	context()	negated: False ,passive: True
+[LINE#7]Our estimation of inorganic arsenic intake from long grain rice and rice-based baby food in Finland indicate that in every age group the intake is close to the lowest BMDL0.1 value 0.3g/kg bw/day set by EFSA.
+0.966	[*A*]the intake[*R*]is[*A*]close to the lowest BMDL0.1 value 0.3g/kg bw/day[*A*]in every age group	context(Our estimation of inorganic arsenic intake from long grain rice and rice - based baby food in Finland indicate)	negated: False ,passive: True
+0.840	[*A*]Our estimation of inorganic arsenic intake from long grain rice and rice-based baby food in Finland[*R*]indicate[*A*]that in every age group the intake is close to the lowest BMDL0.1 value 0.3g/kg bw/day	context()	negated: False ,passive: False
+0.970	[*A*]the lowest BMDL0.1 value 0.3g/kg bw/day[*R*]set[*A*]by EFSA	context()	negated: False ,passive: True
+[LINE#8]According to our data, the intake of inorganic arsenic should be more extensively evaluated.
+0.756	[*A*]the intake of inorganic arsenic[*R*]more extensively evaluated	context()	negated: False ,passive: False
+0.814	[*A*]the intake of inorganic arsenic[*R*]should be[*A*]more extensively evaluated	context()	negated: False ,passive: True
+[LINE#9]The results from this study can be utilised in risk assessments of inorganic arsenic.
+0.926	[*A*]The results from this study[*R*]can be utilised[*A*]in risk assessments of inorganic arsenic	context()	negated: False ,passive: True
+[LINE#10]The EFSA Panel on Contaminants in the Food Chain (CONTAM) stated that arsenic speciation data was needed for different food commodities, and furthermore they declared that there was a need for well validated methods for determining the inorganic arsenic levels in foodstuffs.
+0.282	[*A*]they[*R*]declared[*A*]that there was a need for well validated methods for determining the inorganic arsenic levels in foodstuffs	context()	negated: False ,passive: False
+0.891	[*A*]arsenic speciation data[*R*]was needed[*A*]for different food commodities	context(The EFSA Panel on Contaminants in the Food Chain stated)	negated: False ,passive: True
+0.835	[*A*]The EFSA Panel on Contaminants in the Food Chain[*R*]stated[*A*]that arsenic speciation data was needed for different food commodities	context()	negated: False ,passive: False
+[LINE#11]Our study is one of the first to report inorganic arsenic levels in rice-based baby foods.
+0.568	[*A*]the first[*R*]to report[*A*]inorganic arsenic levels in rice-based baby foods	context()	negated: False ,passive: False
+0.452	[*A*]Our study[*R*]is[*A*]one of the first	context()	negated: False ,passive: True
+[LINE#12]In particular, these experiments provide additional information on the relationship between total and inorganic arsenic levels as well as their correlations as evaluated in rice-based baby foods which are very popular in Europe.
+0.927	[*A*]rice-based baby foods[*R*]are[*A*]very popular[*A*]in Europe	context()	negated: False ,passive: True
+0.890	[*A*]these experiments[*R*]provide[*A*]additional information on the relationship between total and inorganic arsenic levels as well as their correlations	context()	negated: False ,passive: False
+[LINE#13]It is notable that five of the products analysed exceeded the limit set by People's Republic of China for inorganic arsenic in rice.
+0.887	[*A*]It[*R*]is notable that[*A*]five	context()	negated: False ,passive: False
+0.937	[*A*]the limit[*R*]set[*A*]by People's Republic of China	context()	negated: False ,passive: True
+0.732	[*A*]the products[*R*]analysed	context()	negated: False ,passive: False
+[LINE#14]Due to the fact that the intake figures are around the lower BMDL0.1 value in all age groups even though only the intake of inorganic arsenic from rice-based baby food and long grain rice was evaluated, the future goal will be the cumulative intake assessment of inorganic arsenic in different age groups.
+0.943	[*A*]the future goal[*R*]will be[*A*]the cumulative intake assessment of inorganic arsenic in different age groups	context()	negated: False ,passive: True
+0.925	[*A*]the intake figures[*R*]are[*A*]around the lower BMDL0.1 value in all age groups	context()	negated: False ,passive: True
+[LINE#15]Arsenic is a metalloid with a ubiquitous presence; it occurs in rock, soil, water, air and living organisms in inorganic and organic forms (Mandal & Suzuki, 2002; Naja & Volesky, 2009).
+0.388	[*A*]it[*R*]occurs[*A*]in rock[*A*]living organisms in organic forms	context()	negated: False ,passive: True
+0.388	[*A*]it[*R*]occurs[*A*]in rock[*A*]living organisms in inorganic forms	context()	negated: False ,passive: True
+0.397	[*A*]it[*R*]occurs[*A*]in rock , water organisms in organic forms	context()	negated: False ,passive: True
+0.924	[*A*]Arsenic[*R*]is[*A*]a metalloid with a ubiquitous presence	context(it occurs)	negated: False ,passive: True
+0.397	[*A*]it[*R*]occurs[*A*]in rock	context()	negated: False ,passive: True
+[LINE#16]The two inorganic forms are arsenite (As(III)) and arsenate (As(V)) and nowadays over fifty organic arsenic compounds have been discovered (Francesconi, 2010).
+0.799	[*A*]The two inorganic forms[*R*]are[*A*]arsenite	context()	negated: False ,passive: True
+0.867	[*A*]over fifty organic arsenic compounds[*R*]have been discovered[*A*]nowadays	context()	negated: False ,passive: True
+0.956	[*A*]The two inorganic forms[*R*]are[*A*]arsenite ( As ( III ) ) and arsenate ( and nowadays over fifty organic arsenic compounds have been discovered ( Francesconi , 2010	context()	negated: False ,passive: True
+[LINE#17] The most abundant organic arsenic species are monomethylarsonic acid (MMA), dimethylarsonic acid (DMA), trimethylarsine oxide (TMAO), tetramethylarsonium ion (TeMA), arsenobetaine (AB), arsenocholine (AC), dimethylarsinylribosides, trimethylarsonioribosides, glycerylphosphorylarsenocholine and phosphatidylarsenocholine.
+0.829	[*A*]The most abundant organic arsenic species[*R*]are[*A*]phosphatidylarsenocholine	context()	negated: False ,passive: True
+0.829	[*A*]The most abundant organic arsenic species[*R*]are[*A*]glycerylphosphorylarsenocholine	context()	negated: False ,passive: True
+0.932	[*A*]The most abundant organic arsenic species[*R*]are[*A*]trimethylarsonioribosides	context()	negated: False ,passive: True
+0.932	[*A*]The most abundant organic arsenic species[*R*]are[*A*]dimethylarsinylribosides	context()	negated: False ,passive: True
+0.943	[*A*]The most abundant organic arsenic species[*R*]are[*A*]arsenocholine ( AC	context()	negated: False ,passive: True
+0.932	[*A*]The most abundant organic arsenic species[*R*]are[*A*]arsenobetaine	context()	negated: False ,passive: True
+0.932	[*A*]The most abundant organic arsenic species[*R*]are[*A*]tetramethylarsonium ion	context()	negated: False ,passive: True
+0.964	[*A*]The most abundant organic arsenic species[*R*]are[*A*]monomethylarsonic acid ( MMA ) , dimethylarsonic acid ( DMA ) , trimethylarsine oxide	context()	negated: False ,passive: True
+[LINE#18] According to the World Health Organization, arsenic, in one or another form, is found in virtually all foodstuffs (World Health Organization, 2001).The toxicity and metabolism of the distinct arsenic species are different(Huang, Ke, Costa, & Shi, 2004).
+0.866	[*A*]The toxicity and metabolism of the distinct arsenic species[*R*]are[*A*]different	context()	negated: False ,passive: True
+[LINE#19]Generally speaking, inorganic arsenic compounds are more toxic than organic ones, and the trivalent arsenic form is more toxic than its pentavalent equivalent (Hughes, 2002).
+0.891	[*A*]the trivalent arsenic form[*R*]is[*A*]more toxic than its pentavalent equivalent	context()	negated: False ,passive: True
+0.911	[*A*]inorganic arsenic compounds[*R*]are[*A*]more toxic than organic ones	context()	negated: False ,passive: True
+[LINE#20]It is difficult to determine the individual arsenic species in order of their toxicity, because the toxicity of these chemical forms is very different not only in different organisms but even between organs.
+0.948	[*A*]the toxicity of these chemical forms[*R*]is[*A*]very different even between organs	context()	negated: False ,passive: True
+0.948	[*A*]the toxicity of these chemical forms[*R*]is[*A*]very different not only in different organisms	context()	negated: False ,passive: True
+[LINE#21]One factor that makes arsenic more interesting is that arsenic is an essential element for some animals, like rats and goats (Pssa, 2008; Ratnaike, 2003) and interindividual susceptibility in humans to the adverse effects caused by arsenic compounds has been reported (Huang et al., 2004).
+0.900	[*A*]arsenic[*R*]is[*A*]an essential element for some animals	context(One factor that makes arsenic more interesting is)	negated: False ,passive: True
+0.919	[*A*]One factor that makes arsenic more interesting[*R*]is[*A*]that arsenic is an essential element for some animals, like rats and goats (Pssa, 2008; Ratnaike, 2003) and interindividual susceptibility in humans to the adverse effects	context()	negated: False ,passive: True
+0.911	[*A*]the adverse effects[*R*]caused[*A*]by arsenic compounds	context()	negated: False ,passive: True
+0.735	[*A*]One factor[*R*]makes arsenic[*A*]more interesting	context()	negated: False ,passive: False
+[LINE#22]The initiation and progression mechanisms of human carcinogenesis caused by arsenic exposure are still not entirely clear (Shi, Shi, & Liu, 2004).
+0.892	[*A*]The progression mechanisms of human carcinogenesis caused by arsenic exposure[*R*]are not[*A*]entirely clear[*A*]still	context()	negated: True ,passive: True
+0.932	[*A*]The progression mechanisms of human carcinogenesis[*R*]caused[*A*]by arsenic exposure	context()	negated: False ,passive: True
+0.892	[*A*]The initiation mechanisms of human carcinogenesis caused by arsenic exposure[*R*]are not[*A*]entirely clear[*A*]still	context()	negated: True ,passive: True
+0.932	[*A*]The initiation mechanisms of human carcinogenesis[*R*]caused[*A*]by arsenic exposure	context()	negated: False ,passive: True
+[LINE#23]However, chronic exposure to inorganic arsenic not only causes, but also can evoke hypertension, skin lesions, diabetes and cardiovascular disease and furthermore it can affect the vascular system (Hughes, 2002; Jomova et al., 2011).
+[LINE#24] Acute exposure to high levels of arsenic can cause cardiomyopathy, hypotension, gastrointestinal discomfort, vomiting, diarrhea, bloody urine, anuria, shock, convulsions, coma and in death in the most severe cases (Hughes, 2002; Jomova et al., 2011).According to the International Agency for Research on Cancer(IARC) arsenic is a class I carcinogen (International Agency for Research on Cancer, 1987).
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]in death[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]coma[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]convulsions	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]shock[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]anuria[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]bloody urine[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]diarrhea[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]vomiting[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]gastrointestinal discomfort[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]hypotension[*A*]in the most severe cases	context()	negated: False ,passive: False
+0.452	[*A*]I[*R*]carcinogen[*A*]International Agency for Research	context()	negated: False ,passive: False
+0.922	[*A*]arsenic[*R*]is[*A*]a class I carcinogen ( International Agency for Research on Cancer , 1987	context()	negated: False ,passive: True
+0.938	[*A*]Acute exposure to high levels of arsenic[*R*]can cause[*A*]cardiomyopathy[*A*]in the most severe cases	context()	negated: False ,passive: False
+[LINE#25]In 2004 IARC declared that arsenic could cause lung, skin and urinary bladder cancer in humans (International Agency for Research on Cancer, 2004).
+0.479	[*A*]arsenic[*R*]could cause[*A*]urinary bladder cancer[*A*]in humans	context(IARC declared)	negated: False ,passive: False
+0.852	[*A*]IARC[*R*]declared[*A*]that arsenic could cause urinary bladder cancer in humans[*A*]In 2004	context()	negated: False ,passive: False
+0.867	[*A*]arsenic[*R*]could cause[*A*]skin in humans	context(IARC declared)	negated: False ,passive: False
+0.852	[*A*]IARC[*R*]declared[*A*]that arsenic could cause skin in humans[*A*]In 2004	context()	negated: False ,passive: False
+0.479	[*A*]arsenic[*R*]could cause[*A*]lung[*A*]in humans	context(IARC declared)	negated: False ,passive: False
+0.852	[*A*]IARC[*R*]declared[*A*]that arsenic could cause lung in humans[*A*]In 2004	context()	negated: False ,passive: False
+[LINE#26] WHO Expert Committee on Food Additives(JECFA) estimated that BMDL0.5 for inorganic arsenic species would be 3g/kg bw/day (Joint FAO/WHO Expert Committee on Food Additives, 2010).
+0.929	[*A*]BMDL0.5 for inorganic arsenic species[*R*]would be[*A*]3g/kg	context(Expert Committee on Food Additives estimated)	negated: False ,passive: True
+0.886	[*A*]Expert Committee on Food Additives[*R*]estimated[*A*]that BMDL0.5 for inorganic arsenic species would be 3g/kg bw/day	context()	negated: False ,passive: False
+[LINE#27]This conclusion replaced the old PTWI-value for inorganic arsenic (15g/kg bw/week) which had been established in 1989.
+0.947	[*A*]This conclusion[*R*]replaced[*A*]the old PTWI-value for inorganic arsenic (15g/kg bw/week	context()	negated: False ,passive: True
+[LINE#28] The European Food Safety Authority (EFSA) set the BMDL0.1 value at 0.3 - 8g/kg bw/day in 2010(European Food Safety Authority, 2010).
+0.958	[*A*]The European Food Safety Authority[*R*]set[*A*]the BMDL0.1 value[*A*]at 0.3 - 8g/kg bw/day[*A*]in 2010	context()	negated: False ,passive: False
+[LINE#29]At present, there are no regulations about organic or inorganic arsenic species in food or beverages except for that in drinking water.
+[LINE#30] In 1993, WHO provided a reference value of 10g/L of total arsenic compounds in drinking water, previously the reference value had been set at 50g/L (World Health Organization, 1993).In 2008the Data Collection and Exposure Unit (DATEX) of EFSA collected information on the arsenic levels in food from the EU member states and Norway (EFSA, 2010).
+0.957	[*A*]the reference value[*R*]had been set[*A*]at 50g/L (World Health Organization[*A*]In 1993[*A*]previously	context()	negated: False ,passive: True
+[LINE#31]According to the DATEX survey, the total arsenic level was highest in fish and seafood and miscellaneous dietary products.
+0.937	[*A*]the total arsenic level[*R*]was[*A*]highest[*A*]in fish and seafood and miscellaneous dietary products	context()	negated: False ,passive: True
+[LINE#32]The miscellaneous group consisted of diverse foodstuffs, e.g. algae, algae based food supplements, spices, herbs, different baby foods and formulas.
+0.943	[*A*]The miscellaneous group[*R*]consisted[*A*]of diverse foodstuffs , e.g. algae , algae based food formulas	context()	negated: False ,passive: True
+0.911	[*A*]The miscellaneous group[*R*]consisted[*A*]of diverse foodstuffs	context()	negated: False ,passive: True
+0.943	[*A*]The miscellaneous group[*R*]consisted[*A*]of diverse foodstuffs , e.g. algae , algae based food herbs	context()	negated: False ,passive: True
+0.943	[*A*]The miscellaneous group[*R*]consisted[*A*]of diverse foodstuffs , e.g. algae , algae based food spices	context()	negated: False ,passive: True
+0.943	[*A*]The miscellaneous group[*R*]consisted[*A*]of diverse foodstuffs , e.g. algae , algae based food supplements	context()	negated: False ,passive: True
+[LINE#33] It is well-known that a significant part of total arsenic in fish and seafood exists in the organic arsenic forms, particularly arsenobetaine (.
+0.953	[*A*]a significant part of total arsenic in fish and seafood[*R*]exists[*A*]in the organic arsenic forms	context()	negated: False ,passive: True
+0.390	[*A*]It[*R*]is[*A*]well-known that a significant part of total arsenic in fish and seafood exists in the organic arsenic forms	context()	negated: False ,passive: True
+[LINE#34]Nam, Oh, Min, & Lee, 2010; Sloth, Larsen, & Julshamn, 2005; Suner et al., 2002) and in algae, as different forms of arsenosugars (Kohlmeyer, Kuballa, & Jantzen, 2002).Rice seem to contain higher levels of arsenic compounds than many other terrestrial plants or crops (Meharg et al., 2009; Williams et al., 2007).
+0.940	[*A*]Rice[*R*]to contain[*A*]higher levels of arsenic compounds than many other terrestrial plants or crops	context()	negated: False ,passive: False
+0.945	[*A*]Rice[*R*]seem[*A*]in algae	context()	negated: False ,passive: True
+[LINE#35] For example, the rice plant seems to be more effective in its ability to take up and translocate arsenite than oat and barley(Su, McGrath, & Zhao, 2010) and a significant amount of the total arsenic in rice exists in its inorganic forms (Heitkemper, Vela, Stewart, & Westphal, 2001; Nishimura et al., 2010).
+0.909	[*A*]a significant amount of the total arsenic in rice[*R*]exists[*A*]in its inorganic forms	context()	negated: False ,passive: True
+0.825	[*A*]the rice plant[*R*]to be[*A*]more effective in its ability	context()	negated: False ,passive: True
+0.751	[*A*]the rice plant[*R*]seems	context()	negated: False ,passive: False
+[LINE#36]The amount of inorganic arsenic depends also on the cultivation site (Meharg et al., 2009; Williams et al., 2005).
+0.926	[*A*]The amount of inorganic arsenic[*R*]depends[*A*]also[*A*]on the cultivation site	context()	negated: False ,passive: False
+[LINE#37]The People's Republic of China has set a maximum value for inorganic arsenic in rice of 0.15mg/kg (United States Department of Agriculture Foreign Agricultural Service, 2006).EFSA has stated that in EU member states the main dietary exposure to total arsenic is derived from fish and seafood, cereals and cereal products whereas inorganic arsenic intake is most often derived from cereals and cereals products (EFSA, 2010).
+0.948	[*A*]EU member[*R*]states[*A*]the main dietary exposure to total arsenic[*A*]in	context(EFSA has stated)	negated: False ,passive: False
+0.866	[*A*]EFSA[*R*]has stated[*A*]that in EU member states the main dietary exposure to total arsenic	context()	negated: False ,passive: False
+0.923	[*A*]inorganic arsenic intake[*R*]is derived[*A*]from cereals and cereals products[*A*]most often	context()	negated: False ,passive: True
+0.973	[*A*]The People's Republic of China[*R*]has set[*A*]a maximum value[*A*]for inorganic arsenic in rice of 0.15mg/kg (United States Department of Agriculture Foreign Agricultural Service	context()	negated: False ,passive: False
+[LINE#38]In this category, rice is one of the main contributors to the inorganic arsenic intake due to its high level of total arsenic.
+0.946	[*A*]rice[*R*]is[*A*]one of the main contributors to the inorganic arsenic intake due to its high level of total arsenic[*A*]In this category	context()	negated: False ,passive: True
+[LINE#39]Generally speaking, drinking water does not play any significant role in inorganic arsenic intake in the EU member states.
+0.918	[*A*]drinking water[*R*]does not play[*A*]any significant role[*A*]in inorganic arsenic intake[*A*]in the EU member states	context()	negated: True ,passive: False
+[LINE#40]The national Findiet 2007 survey revealed that 20% of working age men eat rice as a side dish and they consume 8060g/day of rice (KTL-National Public Health Institute.
+0.856	[*A*]20 % of working age men[*R*]eat[*A*]rice they consume[*A*]day of rice	context(The national Findiet 2007 survey revealed)	negated: False ,passive: False
+0.838	[*A*]The national Findiet 2007 survey[*R*]revealed[*A*]that 20 % of working age men eat rice they consume 8060g / day of rice ( KTL - National Public Health Institute	context()	negated: False ,passive: False
+0.874	[*A*]rice[*R*]consume[*A*]they	context()	negated: False ,passive: True
+0.917	[*A*]20 % of working age men[*R*]eat[*A*]rice[*A*]as a side dish 8060g / day of rice	context(The national Findiet 2007 survey revealed)	negated: False ,passive: False
+0.905	[*A*]The national Findiet 2007 survey[*R*]revealed[*A*]that 20 % of working age men eat rice as a side dish 8060g / day of rice ( KTL - National Public Health Institute	context()	negated: False ,passive: False
+[LINE#41]Department of Health Promotion, 2008a).
+[LINE#42]In men in the age group 65 - 74years the corresponding figures were 11% and 8333g/day.
+0.948	[*A*]the corresponding figures[*R*]were[*A*]8333g[*A*]day[*A*]In men in the age group	context()	negated: False ,passive: True
+0.973	[*A*]the corresponding figures[*R*]were[*A*]11 %	context()	negated: False ,passive: False
+0.974	[*A*]men in the age group 65 - 74years[*R*]had the corresponding figures of[*A*]11 %	context()	negated: False ,passive: False
+0.948	[*A*]the corresponding figures[*R*]were[*A*]11 %[*A*]In men in the age group	context()	negated: False ,passive: True
+[LINE#43]Finnish women of their working age eat rice as a side dish somewhat less than men (17%); their consumption was 6642g/day.
+[LINE#44]Only ten percent of older women consume rice as a side dish; they eat on average 5438g/day.
+0.917	[*A*]Only ten percent of older women[*R*]consume[*A*]rice	context(they eat)	negated: False ,passive: False
+0.562	[*A*]they[*R*]eat[*A*]on average 5438g/day	context()	negated: False ,passive: False
+[LINE#45]The Diet of Finnish Preschoolers" study showed that 0.6-50% of one to six years old girls consumed manufactured porridges (KTL-National Public Health Institute.
+0.999	[*A*]The Diet of Finnish Preschoolers study[*R*]showed[*A*]0.6 -50 %	context()	negated: False ,passive: False
+0.945	[*A*]The Diet of Finnish Preschoolers" study[*R*]showed[*A*]0.6-50% of one to six years old girls	context()	negated: False ,passive: False
+[LINE#46]Department of Health Promotion, 2008b).
+[LINE#47]Typically the food group called "manufactured porridges" consists of water and milk based porridges both as powders and ready-made porridges.
+0.964	[*A*]the food group called " manufactured porridges "[*R*]consists[*A*]of milk based porridges both as ready - made porridges	context()	negated: False ,passive: True
+0.813	[*A*]milk[*R*]based[*A*]porridges both as powders	context()	negated: False ,passive: True
+0.943	[*A*]the food group called " manufactured porridges "[*R*]consists[*A*]of milk based porridges both as powders	context()	negated: False ,passive: True
+0.964	[*A*]the food group called " manufactured porridges "[*R*]consists[*A*]of water based porridges both as ready - made porridges	context()	negated: False ,passive: True
+0.894	[*A*]water[*R*]based[*A*]porridges both as powders	context()	negated: False ,passive: True
+0.943	[*A*]the food group called " manufactured porridges "[*R*]consists[*A*]of water based porridges both as powders	context()	negated: False ,passive: True
+0.895	[*A*]the food group[*R*]called[*A*]manufactured porridges	context()	negated: False ,passive: True
+[LINE#48]The girls were given porridge 171-280g a day.
+0.903	[*A*]The girls[*R*]were given[*A*]porridge 171-280g a day	context()	negated: False ,passive: True
+[LINE#49]1 - 50% of the boys aged one to four years were fed with manufactured porridges; their intake was in the range of 184 - 234g.
+0.951	[*A*]1 - 50% of the boys aged one to four years[*R*]were fed[*A*]with manufactured porridges	context(their intake was)	negated: False ,passive: True
+0.652	[*A*]their intake[*R*]was[*A*]in the range of 184 - 234g	context()	negated: False ,passive: True
+0.903	[*A*]the boys[*R*]aged[*A*]one to four years	context()	negated: False ,passive: True
+[LINE#50]Finnish children (1 - 6years old) can consume rice in forms other than porridges (wholegrain rice, rice noodles, rice-rye mixture); the amount vary from 20 to 47gday, although only a minority of this age group (7-24%) ate rice in forms other than porridges.
+0.908	[*A*]Finnish children (1 - 6years old[*R*]can consume[*A*]rice	context(the amount vary)	negated: False ,passive: False
+0.933	[*A*]the amount[*R*]vary[*A*]from 20 to 47gday[*A*]although only a minority of this age group (7-24%) ate rice in forms other than porridges	context()	negated: False ,passive: True
+0.927	[*A*]only a minority of this age group[*R*]ate[*A*]rice	context()	negated: False ,passive: False
+[LINE#51]According to the present knowledge of inorganic arsenic risk assessment, every exposure represents a risk (Meharg & Raab, 2010).
+0.903	[*A*]every exposure[*R*]represents[*A*]a risk	context()	negated: False ,passive: False
+[LINE#52]The amount of rice consumed varies significantly in different countries.
+0.905	[*A*]The amount of rice[*R*]varies[*A*]significantly[*A*]in different countries	context()	negated: False ,passive: True
+0.713	[*A*]rice[*R*]consumed	context()	negated: False ,passive: False
+[LINE#53]In 2009, the rice consumption was 4.40kg/capita/year (milled equivalent) in Finland whereas in the People's Republic of China it was much more, 76.30kg/capita/year (milled equivalent) (Food, 2012).
+0.701	[*A*]it[*R*]was[*A*]much more[*A*]76.30kg/capita/year (milled equivalent[*A*]in the People's Republic of China	context()	negated: False ,passive: True
+0.960	[*A*]the rice consumption[*R*]was[*A*]4.40kg/capita/year[*A*]In 2009	context()	negated: False ,passive: True
+[LINE#54]However, with respect to arsenic intake the way of cooking significantly contributes to the arsenic intake originating from rice (Mihucz et al., 2007).According to EFSA's risk characterisation, children who are fed with rice-based baby formula may be exposed to a higher intake of inorganic arsenic than other consumers (EFSA, 2010).
+0.961	[*A*]children who are fed with rice-based baby formula[*R*]may be exposed[*A*]to a higher intake of inorganic arsenic than other consumers	context(the way of cooking significantly contributes)	negated: False ,passive: True
+0.897	[*A*]the way of cooking[*R*]significantly contributes[*A*]to the arsenic intake	context()	negated: False ,passive: False
+0.877	[*A*]children[*R*]are fed[*A*]with rice-based baby formula	context()	negated: False ,passive: True
+0.925	[*A*]the arsenic intake[*R*]originating[*A*]from rice (Mihucz et al	context()	negated: False ,passive: True
+[LINE#55]Based on that assessment, children under three years of age are believed to be exposed to between two to three times more inorganic arsenic than adults because children consume more food relative to their body weight than adults.
+0.892	[*A*]children[*R*]consume relative[*A*]more food	context()	negated: False ,passive: False
+0.921	[*A*]children under three years of age[*R*]to be exposed[*A*]to between two to three times more inorganic arsenic	context()	negated: False ,passive: True
+0.801	[*A*]children under three years of age[*R*]are believed	context()	negated: False ,passive: False
+[LINE#56]The dietary exposure to inorganic arsenic in children under three years of age has been estimated to be 0.50 - 2.66g/kg bw per day.
+0.852	[*A*]kg[*R*]bw[*A*]per day	context()	negated: False ,passive: False
+0.889	[*A*]The dietary exposure to inorganic arsenic in children under three years of age[*R*]to be[*A*]0.50 - 2.66g	context()	negated: False ,passive: True
+[LINE#57]These estimates are lower than BMDL0.1 values for those thought to be causing lung and bladder cancer as well for dermal lesions (0.3 - 8g/kg bw per day).
+0.293	[*A*]those[*R*]to be causing[*A*]bladder cancer as well for dermal lesions ( 0.3 - 8g / kg bw per day	context()	negated: False ,passive: False
+0.852	[*A*]kg[*R*]bw[*A*]per day	context()	negated: False ,passive: False
+0.293	[*A*]those[*R*]to be causing[*A*]lung cancer as well for dermal lesions ( 0.3 - 8g / kg bw per day	context()	negated: False ,passive: False
+0.083	[*A*]those[*R*]thought	context()	negated: False ,passive: False
+0.804	[*A*]These estimates[*R*]are[*A*]lower than BMDL0.1 values for those	context()	negated: False ,passive: True
+[LINE#58]In Europe, the average dietary exposure to inorganic arsenic is in the range 0.13 - 0.56g/kg bw per day; for high level adult consumers it is between 0.37 - 1.22g/kg bw per day.
+0.971	[*A*]the average dietary exposure to inorganic arsenic[*R*]is[*A*]in the range[*A*]In Europe	context(kg bw it is)	negated: False ,passive: True
+0.816	[*A*]kg[*R*]bw[*A*]per day	context(it is)	negated: False ,passive: False
+0.457	[*A*]it[*R*]is[*A*]between 0.37 - 1.22g/kg bw per day	context()	negated: False ,passive: True
+[LINE#59] However, in certain ethnic groups the exposure to inorganic arsenic can be higher, for example avid consumers of rice (certain ethnic groups)it can be 0.95g/kg bw per day, in individuals eating a lot of algae-based products it can be as high as 4.03g/kg bw per day.
+0.498	[*A*]it[*R*]can be[*A*]as high as 4.03g/kg bw per day	context()	negated: False ,passive: True
+0.195	[*A*]it[*R*]can be 0.95g	context()	negated: False ,passive: False
+0.957	[*A*]the exposure to inorganic arsenic[*R*]can be[*A*]higher[*A*]in certain ethnic groups	context()	negated: False ,passive: True
+[LINE#60]Nonetheless these values for exposure are still within the range of BMDL0.1 values.
+0.937	[*A*]Nonetheless these values for exposure[*R*]are[*A*]still[*A*]within the range of BMDL0.1 values	context()	negated: False ,passive: True
+[LINE#61]In this article we describe a fully validated method for the determination of total and inorganic arsenic in rice.
+0.702	[*A*]we[*R*]describe[*A*]a fully validated method for the determination of total and inorganic arsenic in rice[*A*]In this article	context()	negated: False ,passive: False
+[LINE#62]We also assessed total and inorganic arsenic levels in long grain rice and rice-based baby food products on the Finnish market.
+0.528	[*A*]We[*R*]assessed[*A*]total and inorganic arsenic levels in long grain rice and rice-based baby food products on the Finnish market	context()	negated: False ,passive: False
+[LINE#63]This paper also performs a risk assessment for inorganic arsenic from long grain rice and rice based baby food in different age groups in Finland.
+0.938	[*A*]This paper[*R*]performs[*A*]a risk assessment for inorganic arsenic from long grain rice based baby food in different age groups in Finland	context()	negated: False ,passive: False
+0.927	[*A*]This paper[*R*]performs[*A*]a risk assessment for inorganic arsenic from long grain rice	context()	negated: False ,passive: False
+[LINE#64]Samples and reference materialsThe samples evaluated in this study were long grain rice and baby food products based on rice.
+0.903	[*A*]materialsThe samples[*R*]evaluated[*A*]in this study	context()	negated: False ,passive: True
+0.938	[*A*]reference materialsThe samples evaluated in this study[*R*]were[*A*]long grain rice	context()	negated: False ,passive: True
+0.911	[*A*]reference materialsThe samples[*R*]evaluated[*A*]in this study	context()	negated: False ,passive: True
+0.894	[*A*]Samples[*R*]were[*A*]long grain rice	context()	negated: False ,passive: True
+[LINE#65]Eight brands of long grain rice were purchased from a Finnish supermarket, three packets of each brand.
+0.956	[*A*]Eight brands of long grain rice[*R*]were purchased[*A*]from a Finnish supermarket, three packets of each brand	context()	negated: False ,passive: True
+[LINE#66]Rice-based baby foods were also bought from a Finnish supermarket.
+0.917	[*A*]Rice-based baby foods[*R*]were bought[*A*]from a Finnish supermarket	context()	negated: False ,passive: True
+[LINE#67]Three packets of each ten brands were purchased.
+0.801	[*A*]Three packets of each ten brands[*R*]were purchased	context()	negated: False ,passive: False
+[LINE#68]Baby porridge powders were composed only on rice or rice and other cereals.
+0.933	[*A*]Baby porridge powders[*R*]were composed[*A*]only on rice or rice and other cereals	context()	negated: False ,passive: True
+[LINE#69]Some of the powders contained also dried fruits.
+0.903	[*A*]the powders[*R*]contained[*A*]also dried fruits	context()	negated: False ,passive: False
+[LINE#70]There are commercially available rice or other cereal based reference materials which have a certified value for total arsenic level not for the distinct inorganic arsenic or arsenic species.
+0.913	[*A*]other cereal based reference materials[*R*]have[*A*]a certified value for total arsenic level	context()	negated: False ,passive: False
+[LINE#71]We utilised IMEP-107 - test material (The Institute for Reference Materials and Measurands IRMM, Joint Research Centre JRC, European Commission, Belgium) rice flour as a reference material in the inorganic arsenic analysis.
+0.999	[*A*]We[*R*]utilised[*A*]107 - test material	context()	negated: False ,passive: False
+0.498	[*A*]We[*R*]utilised[*A*]IMEP - 107 - test material	context()	negated: False ,passive: False
+[LINE#72]The IMEP-107 has been used as a test material in one interlaboratory comparison in 2009 - 2010.
+0.992	[*A*]-107 has[*R*]area been used as[*A*]a test material in one interlaboratory comparison in 2009 - 2010	context()	negated: False ,passive: False
+0.961	[*A*]The IMEP-107[*R*]has been used[*A*]as a test material in one interlaboratory comparison in 2009 - 2010	context()	negated: False ,passive: True
+[LINE#73]For total arsenic determination, NIST Standard Reference Material 1568a Rice Flour (National Institute of Standards and Technology, Gaithersburg, MD, USA), was used as the reference material.
+0.381	[*A*]1568a Rice Flour[*R*][is] Material [of][*A*]NIST Standard Reference	context()	negated: False ,passive: False
+0.381	[*A*]Gaithersburg[*R*][is][*A*]MD	context()	negated: False ,passive: False
+[LINE#74]The laboratories of the Chemistry and Toxicology Research Unit of Research and Laboratory Department of Finnish Food Safety Authority Evira have been accredited according to ISO 17,025. .
+0.965	[*A*]The laboratories of Toxicology Research Unit of Laboratory Department of Finnish Food Safety Authority Evira[*R*]have been accredited[*A*]according to ISO 17,025	context()	negated: False ,passive: True
+0.381	[*A*]Evira[*R*][is] Food Safety Authority [from][*A*]Finland	context()	negated: False ,passive: False
+0.965	[*A*]The laboratories of Toxicology Research Unit of Research Department of Finnish Food Safety Authority Evira[*R*]have been accredited[*A*]according to ISO 17,025	context()	negated: False ,passive: True
+0.953	[*A*]The laboratories of the Chemistry[*R*]have been accredited[*A*]according to ISO 17,025	context()	negated: False ,passive: True
+[LINE#75]Reagents and standardsThe water was ultrapure water obtained from a Milli-Q-system (Millipore Corporation, Bedford, MA, USA) and nitric acid (68 - 70%), hydrochloric acid (30%), ammonium carbonate (powder), hydrogen peroxide (30%) and formic acid (98%) were all from J. T. Baker (Deventer, Netherlands).
+0.925	[*A*]standardsThe water[*R*]was[*A*]formic acid	context()	negated: False ,passive: True
+0.925	[*A*]standardsThe water[*R*]was[*A*]hydrogen peroxide	context()	negated: False ,passive: True
+0.925	[*A*]standardsThe water[*R*]was[*A*]ammonium carbonate	context()	negated: False ,passive: True
+0.925	[*A*]standardsThe water[*R*]was[*A*]hydrochloric acid	context()	negated: False ,passive: True
+0.905	[*A*]standardsThe water[*R*]were[*A*]all from J. T. Baker	context()	negated: False ,passive: True
+0.925	[*A*]standardsThe water[*R*]was[*A*]nitric acid	context()	negated: False ,passive: True
+0.947	[*A*]ultrapure water[*R*]obtained[*A*]from a Milli-Q-system ( Millipore Corporation , Bedford , MA	context()	negated: False ,passive: True
+0.960	[*A*]standardsThe water[*R*]was[*A*]ultrapure water obtained from a Milli-Q-system ( Millipore Corporation , Bedford , MA , USA )	context()	negated: False ,passive: True
+0.911	[*A*]Reagents[*R*]were all[*A*]from J. T. Baker	context()	negated: False ,passive: True
+[LINE#76] In the arsenic speciation analysis arsenobetaine (AB) (Fluka Analytical, Italy), arsenic(III)oxide (As(III)) (Aldrich Chemistry, USA), dimethyl arsenic acid (DMA) (Chem Service, USA), monomethyl arsenic acid disodium salt (MMA) (Argus Chemicals, Italy) and arsenic(V)(As(V)) standard solution (Merck, Germany) were used.
+0.698	[*A*]standard solution[*R*]were used	context()	negated: False ,passive: False
+0.902	[*A*]dimethyl arsenic acid ( DMA ) ( Chem Service , USA ) ( As ( V ) ) standard solution[*R*]were used	context()	negated: False ,passive: False
+[LINE#77] Two stock solutions of each standard compound were made; for AB, As(III), DMA and MMA the concentrations were 100mg/L and 1mg/L and for As(V)the concentrations were 10mg/L and 0.1mg/L.
+0.882	[*A*]the concentrations[*R*]were[*A*]1mg	context()	negated: False ,passive: True
+0.780	[*A*]Two stock solutions of each standard compound[*R*]were made	context(the concentrations were)	negated: False ,passive: False
+0.882	[*A*]the concentrations[*R*]were[*A*]100mg	context()	negated: False ,passive: True
+0.939	[*A*]the concentrations[*R*]were[*A*]1mg[*A*]for AB , As ( III	context()	negated: False ,passive: True
+0.774	[*A*]Two stock solutions of each standard compound[*R*]were made	context(the concentrations were)	negated: False ,passive: False
+0.939	[*A*]the concentrations[*R*]were[*A*]100mg[*A*]for AB , As ( III	context()	negated: False ,passive: True
+0.952	[*A*]the concentrations[*R*]were[*A*]10mg / L and 0.1mg / L[*A*]for As	context()	negated: False ,passive: True
+[LINE#78]The stock solutions were prepared in nitric acid (1%), with the exception of As(III), in which concentrated hydrochloric acid was used to promote its dissolution.
+0.923	[*A*]concentrated hydrochloric acid[*R*]was used[*A*]to promote its dissolution[*A*]As	context()	negated: False ,passive: True
+0.751	[*A*]The stock solutions[*R*]were prepared	context()	negated: False ,passive: False
+[LINE#79]The final standard concentrations for all compounds were 1, 5, 10, 20 and 50g/L in 1% nitric acid.
+0.948	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]50g / L[*A*]in 1 % nitric acid	context()	negated: False ,passive: True
+0.739	[*A*]1 % nitric acid[*R*]had The final standard concentrations of[*A*]20	context()	negated: False ,passive: False
+0.867	[*A*]The final standard concentrations for all compounds[*R*]had % nitric acid of[*A*]20	context()	negated: False ,passive: False
+0.973	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]20	context()	negated: False ,passive: False
+0.998	[*A*]all compounds[*R*]had The final standard concentrations of[*A*]20	context()	negated: False ,passive: False
+0.938	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]20 in 1 % nitric acid	context()	negated: False ,passive: True
+0.739	[*A*]1 % nitric acid[*R*]had The final standard concentrations of[*A*]10	context()	negated: False ,passive: False
+0.867	[*A*]The final standard concentrations for all compounds[*R*]had % nitric acid of[*A*]10	context()	negated: False ,passive: False
+0.973	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]10	context()	negated: False ,passive: False
+0.998	[*A*]all compounds[*R*]had The final standard concentrations of[*A*]10	context()	negated: False ,passive: False
+0.938	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]10 in 1 % nitric acid	context()	negated: False ,passive: True
+0.739	[*A*]1 % nitric acid[*R*]had The final standard concentrations of[*A*]5	context()	negated: False ,passive: False
+0.867	[*A*]The final standard concentrations for all compounds[*R*]had % nitric acid of[*A*]5	context()	negated: False ,passive: False
+0.973	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]5	context()	negated: False ,passive: False
+0.998	[*A*]all compounds[*R*]had The final standard concentrations of[*A*]5	context()	negated: False ,passive: False
+0.938	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]5 in 1 % nitric acid	context()	negated: False ,passive: True
+0.739	[*A*]% nitric acid[*R*]had The final standard concentrations of[*A*]1	context()	negated: False ,passive: False
+0.867	[*A*]The final standard concentrations for all compounds[*R*]had % nitric acid of[*A*]1	context()	negated: False ,passive: False
+0.973	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]1	context()	negated: False ,passive: False
+0.998	[*A*]all compounds[*R*]had The final standard concentrations of[*A*]1	context()	negated: False ,passive: False
+0.938	[*A*]The final standard concentrations for all compounds[*R*]were[*A*]1 in 1 % nitric acid	context()	negated: False ,passive: True
+[LINE#80] Three standard stock solutions for the ICP-MS analysis were prepared 100, 10 and 1g/L from ICP Calibration mix.
+0.944	[*A*]Three standard stock solutions for the ICP - MS analysis[*R*]were prepared[*A*]1g / L	context()	negated: False ,passive: True
+[LINE#81]FS9 ME175 multielement reference solution (Romil, Cambridge, GB).
+[LINE#82]From these stock solutions, seven standard solutions were made (0.005, 0.01, 0.05, 0.1, 0.5, 1 and 16g/L).
+0.939	[*A*]seven standard solutions[*R*]were made[*A*]From these stock solutions	context()	negated: False ,passive: True
+[LINE#83]The stock solutions and final standard solutions were both prepared in 2% nitric acid.
+0.663	[*A*]final standard solutions[*R*]were prepared	context()	negated: False ,passive: False
+0.718	[*A*]The stock solutions[*R*]prepared	context()	negated: False ,passive: False
+0.895	[*A*]The stock solutions[*R*]were[*A*]prepared in 2 % nitric acid	context()	negated: False ,passive: True
+[LINE#84] In final standard solutions, internal standard, rhodium (.
+[LINE#85]Romil, Cambridge, GB), was incorporated.
+0.776	[*A*]Romil, Cambridge[*R*]was incorporated	context()	negated: False ,passive: False
+[LINE#86]A stock solution of 1mg/L rhodium was made daily in ultrapure water.
+[LINE#87]The stock solution was added to final standards and samples so that the final concentration of rhodium was always 10g/L. .
+0.879	[*A*]The stock solution[*R*]was added[*A*]to samples[*A*]so that the final concentration of rhodium was always 10g / L	context()	negated: False ,passive: True
+0.952	[*A*]the final concentration of rhodium[*R*]was[*A*]always[*A*]10g / L	context()	negated: False ,passive: True
+0.879	[*A*]The stock solution[*R*]was added[*A*]to final standards[*A*]so that the final concentration of rhodium was always 10g / L	context()	negated: False ,passive: True
+[LINE#88]In the total arsenic determination, a quadrupole inductively coupled plasma mass spectrometer (Thermo Fisher Scientific XSeries II, Waltham, Massachusetts, USA) was used.
+0.950	[*A*]a quadrupole inductively coupled plasma mass spectrometer[*R*]was used[*A*]In the total arsenic determination	context()	negated: False ,passive: True
+0.903	[*A*]a quadrupole[*R*]inductively coupled[*A*]plasma mass spectrometer	context()	negated: False ,passive: False
+[LINE#89]In the inorganic arsenic analysis, the ICP-MS was equipped with a high performance liquid chromatograph (Waters 2690 Separations Module, Waters, USA).
+0.965	[*A*]the ICP-MS[*R*]was equipped[*A*]with a high performance liquid chromatograph[*A*]In the inorganic arsenic analysis	context()	negated: False ,passive: True
+[LINE#90] An anion exchange column Hamilton PRP-X100 (Bonaduz, Switzerland), 2504.6mm5m, and pre-column, 252.3mm, were used to separate the arsenic species.
+0.905	[*A*]pre-column , 252.3 mm[*R*]to separate[*A*]the arsenic species	context()	negated: False ,passive: False
+0.905	[*A*]pre-column , 252.3 mm[*R*]were used[*A*]to separate the arsenic species	context()	negated: False ,passive: True
+0.905	[*A*]An anion exchange column[*R*]to separate[*A*]the arsenic species	context()	negated: False ,passive: False
+0.887	[*A*]2504.6mm5 m[*R*]were used[*A*]to separate the arsenic species	context()	negated: False ,passive: True
+[LINE#91] Sample preparation was performed in a microwave oven (Milestone Ethos Plus High Performance.
+0.903	[*A*]Sample preparation[*R*]was performed[*A*]in a microwave oven	context()	negated: False ,passive: True
+[LINE#92]Microwave Lab station, Chelton, Connecticut, USA). .
+[LINE#93] Sample preparation and determination of total arsenicLong grain rice samples were homogenised before microwave assisted digestion in the presence of strong nitric acid(3mL), hydrogen peroxide (2mL) and ultrapure water (3mL).
+0.894	[*A*]microwave[*R*]assisted[*A*]digestion[*A*]in the presence of strong nitric acid	context()	negated: False ,passive: False
+0.970	[*A*]Sample preparation and determination of total arsenicLong grain rice samples[*R*]were homogenised[*A*]before microwave assisted digestion in the presence of strong nitric acid	context()	negated: False ,passive: True
+[LINE#94]The sample was weighed (0.5g) into a digestion vessel and the reagents were added.
+0.732	[*A*]the reagents[*R*]were added	context()	negated: False ,passive: False
+0.732	[*A*]The sample[*R*]was weighed	context()	negated: False ,passive: False
+[LINE#95] The microwave digestion program was as follows:5min to 100C, 5min to 130C, 5min to 160C, 7min to 200C, 10min at 200C and cooling down to 80C.
+0.918	[*A*]The microwave[*R*]cooling down[*A*]to 80C	context()	negated: False ,passive: True
+0.841	[*A*]The microwave digestion program[*R*]was[*A*]as follows:5min	context()	negated: False ,passive: True
+[LINE#96]The digested solution was transferred into a volumetric flask (100mL) using ultrapure water, the internal standard was added and the volume was made up to 100mL.The performance of the ICP-MS-method in the rice matrix was confirmed by using NIST Standard Reference Material 1568a (rice flour).
+0.381	[*A*]1568a[*R*][is] Material [of][*A*]NIST Standard Reference	context()	negated: False ,passive: False
+0.947	[*A*]the volume[*R*]was made up[*A*]to 100mL.The performance of the ICP - MS - method in the rice matrix	context()	negated: False ,passive: True
+0.751	[*A*]the internal standard[*R*]was added	context()	negated: False ,passive: False
+0.897	[*A*]a volumetric flask[*R*]using[*A*]ultrapure water	context()	negated: False ,passive: False
+0.911	[*A*]The digested solution[*R*]was transferred[*A*]into a volumetric flask	context()	negated: False ,passive: True
+[LINE#97]Eight parallel samples were analysed which resulted in a mean value of 0.290mg/kg, SD was 0.006mg/kg and coefficient of variation was 2.0%.
+[LINE#98]The certified value for the total arsenic in the NIST 1568a is 0.290.03mg/kg.
+0.899	[*A*]The certified value for the total arsenic in the NIST 1568a[*R*]is 0.290.03mg	context()	negated: False ,passive: False
+[LINE#99]The method used in this exercise is a self-devised modification of an accredited method used for heavy metals in animal tissue samples.
+0.911	[*A*]an accredited method[*R*]used[*A*]for heavy metals in animal tissue samples	context()	negated: False ,passive: True
+0.948	[*A*]The method used in this exercise[*R*]is[*A*]a self-devised modification of an accredited method	context()	negated: False ,passive: True
+0.903	[*A*]The method[*R*]used[*A*]in this exercise	context()	negated: False ,passive: True
+[LINE#100]Determination of inorganic arsenicSamples (2g) were weighed into a digestion vessel and nitric acid (1%) was added - 10mL for long grain rice and 20mL for baby food, respectively.
+0.737	[*A*]Determination of inorganic arsenicSamples[*R*]were weighed[*A*]respectively	context()	negated: False ,passive: True
+0.647	[*A*]Determination of inorganic arsenicSamples[*R*]were weighed respectively	context()	negated: False ,passive: False
+0.888	[*A*]Determination of inorganic arsenicSamples[*R*]were weighed[*A*]for 20mL for baby food[*A*]respectively	context()	negated: False ,passive: True
+0.737	[*A*]Determination of inorganic arsenicSamples[*R*]were weighed	context()	negated: False ,passive: False
+[LINE#101] The samples were microwave extracted as follows: 5min to 75C, 10min at 75C, 5min to 95C, 30min at 95C and cooled down to 50C.
+0.940	[*A*]The 5min to 75C[*R*]cooled down[*A*]to 50C	context()	negated: False ,passive: True
+0.698	[*A*]The samples[*R*]cooled down	context()	negated: False ,passive: False
+0.767	[*A*]The samples[*R*]were microwave extracted[*A*]as follows	context()	negated: False ,passive: True
+[LINE#102]After microwave extraction, the sample was transferred into a 50mL volumetric flask with 1% nitric acid followed by shaking and the transfer of an aliquot into a centrifuge tube.
+0.769	[*A*]1 % nitric acid[*R*]followed	context()	negated: False ,passive: False
+0.943	[*A*]the sample[*R*]was transferred[*A*]into a 50mL volumetric flask[*A*]After microwave extraction	context()	negated: False ,passive: True
+[LINE#103] The samples were centrifuged (Ultracentifuge AvantiTM J-301 High Performance Centrifuge, Beckman Coulter, Brea, California, USA)at 10,000G at 10C) and supernatant (1.5mL) was passed through a 0.2m syringe-type filter.
+0.993	[*A*]supernatant[*R*]was passed through[*A*]0.2 m syringe - type filter	context()	negated: False ,passive: False
+0.877	[*A*]supernatant[*R*]was passed[*A*]through a 0.2 m syringe - type filter	context()	negated: False ,passive: True
+0.732	[*A*]The samples[*R*]were centrifuged	context()	negated: False ,passive: False
+[LINE#104]The data were quantitated using the external standard method and peak areas.
+0.887	[*A*]The data[*R*]using[*A*]peak areas	context()	negated: False ,passive: False
+0.732	[*A*]The data[*R*]were quantitated	context()	negated: False ,passive: False
+0.903	[*A*]The data[*R*]were quantitated[*A*]using the external standard method	context()	negated: False ,passive: True
+[LINE#105]The amount of inorganic arsenic was calculated as the sum of arsenite and arsenate. .
+0.926	[*A*]The amount of inorganic arsenic[*R*]was calculated[*A*]as the sum of arsenite and arsenate	context()	negated: False ,passive: True
+[LINE#106] S for total arsenic determinationInthe total arsenic determination, a Cetac Autosampler ASX-520 was used for introducing the standards and samples.
+0.940	[*A*]a Cetac Autosampler ASX-520[*R*]for introducing[*A*]the standards and samples	context()	negated: False ,passive: False
+0.949	[*A*]a Cetac Autosampler ASX-520[*R*]was used[*A*]for introducing the standards and samples	context()	negated: False ,passive: True
+[LINE#107]The HeH2-gas (7% H2, 3.20mL/min) was used as a collision cell gas to avoid any interferences.
+0.966	[*A*]The HeH2-gas (7% H2, 3.20mL/min[*R*]was used[*A*]as a collision cell gas	context()	negated: False ,passive: True
+[LINE#108]The dwell time was 200ms, one channel was used and resolution was standard.
+0.798	[*A*]resolution[*R*]was[*A*]standard	context()	negated: False ,passive: True
+0.732	[*A*]one channel[*R*]was used	context()	negated: False ,passive: False
+0.932	[*A*]The dwell time[*R*]was[*A*]200 ms	context()	negated: False ,passive: True
+[LINE#109]The ICP power was set to 1400W and the nebulizer gas flow rate was adjusted to 0.87L/min.
+0.937	[*A*]the nebulizer gas flow rate[*R*]was adjusted[*A*]to 0.87L / min	context()	negated: False ,passive: True
+0.944	[*A*]The ICP power[*R*]was set[*A*]to 1400W	context()	negated: False ,passive: True
+[LINE#110]The nebulizer was a glass concentric nebulizer and the interface cones were made of nickel.
+0.911	[*A*]the interface cones[*R*]were made[*A*]of nickel	context()	negated: False ,passive: True
+0.925	[*A*]The nebulizer[*R*]was[*A*]a glass concentric nebulizer	context()	negated: False ,passive: True
+[LINE#111]S for inorganic arsenic determinationAmmonium carbonate (10 - 50mM) was used as the mobile phase (Thermo Electron Corporation, 2004) and it was prepared using ammonium carbonate powder and ultrapure water.
+0.411	[*A*]it[*R*]using[*A*]ultrapure water	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]was prepared[*A*]using ultrapure water	context()	negated: False ,passive: True
+0.411	[*A*]it[*R*]using[*A*]ammonium carbonate powder	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]was prepared[*A*]using ammonium carbonate powder	context()	negated: False ,passive: True
+0.921	[*A*]S for inorganic arsenic determinationAmmonium carbonate[*R*]was used[*A*]as the mobile phase	context()	negated: False ,passive: True
+[LINE#112]The pH of the eluent was adjusted to 8.9 with concentrated formic acid.
+0.993	[*A*]The pH of the eluent[*R*]was adjusted to[*A*]8.9	context()	negated: False ,passive: False
+0.856	[*A*]The pH of the eluent[*R*]was adjusted[*A*]to 8.9	context()	negated: False ,passive: True
+[LINE#113]The injection volume was 100L, the column temperature was RT and the eluent flow rate was set to 1mL/min.
+0.916	[*A*]the eluent flow rate[*R*]was set[*A*]to 1mL/min	context(the column temperature was)	negated: False ,passive: True
+0.929	[*A*]The injection volume[*R*]was[*A*]100L	context(the column temperature was)	negated: False ,passive: True
+0.929	[*A*]the column temperature[*R*]was[*A*]RT	context()	negated: False ,passive: True
+[LINE#114]In the speciation analysis, the ICP-MS was equipped with HPLC-ICP-MS Coupling Kit, Integrated PlasmaLab software (Thermo Fisher Scientific, Waltham Massachusetts, USA).
+0.971	[*A*]the ICP-MS[*R*]was equipped[*A*]with HPLC-ICP-MS Coupling Kit[*A*]In the speciation analysis	context()	negated: False ,passive: True
+[LINE#115]The data was collected on-line for arsenic (m/z 75).
+0.903	[*A*]The data[*R*]was collected[*A*]on-line for arsenic	context()	negated: False ,passive: True
+[LINE#116]The dwell time was 200ms and resolution was in the standard mode.
+[LINE#117]The data was processed with PlasmaLab and Microsoft Excel softwares. .
+0.732	[*A*]The data[*R*]was processed	context()	negated: False ,passive: False
+[LINE#118]M SPSS Statistics 19 software was used in the statistical analysis.
+0.992	[*A*]19 software[*R*]was used in[*A*]the statistical analysis	context()	negated: False ,passive: False
+0.897	[*A*]M SPSS Statistics 19 software[*R*]was used[*A*]in the statistical analysis	context()	negated: False ,passive: True
+[LINE#119]The correlation tests were performed with the Pearson correlation test and Spearman rank correlation test.
+0.751	[*A*]The correlation tests[*R*]were performed	context()	negated: False ,passive: False
+[LINE#120]In the correlation tests, the values above the limit of detection were set to LOQ and the values below the limit of detection were set to LOD (Upper Bound method).
+0.948	[*A*]the values below the limit of detection[*R*]were set[*A*]to LOD	context()	negated: False ,passive: True
+0.970	[*A*]the values above the limit of detection[*R*]were set[*A*]to LOQ[*A*]In the correlation tests	context()	negated: False ,passive: True
+[LINE#121]The amount of porridge powder in porridge was calculated according to the manufacturer's instructions for preparation of the porridge.
+0.816	[*A*]The amount of porridge powder in porridge[*R*]was calculated	context()	negated: False ,passive: False
+[LINE#122] The consumption levels and the consumer's weights were obtained from several sources; "The national Findiet 2007 Survey", "The Diet of Finnish Preschoolers" and "Finnish Nutrition Recommendations 2005" (KTL-National Public Health Institute, 2008a; KTL-National Public Health Institute, 2008b; National Nutrition Council of Finland.
+0.919	[*A*]the consumer 's weights[*R*]were obtained[*A*]from several sources	context()	negated: False ,passive: True
+0.911	[*A*]The consumption levels[*R*]were obtained[*A*]from several sources	context()	negated: False ,passive: True
+[LINE#123]All the assessments and consumption data involved only the people who use these rice products.
+0.903	[*A*]consumption data[*R*]involved[*A*]only the people who use these rice products	context()	negated: False ,passive: True
+0.897	[*A*]only the people[*R*]use[*A*]these rice products	context()	negated: False ,passive: False
+0.911	[*A*]All the assessments[*R*]involved[*A*]only the people who use these rice products	context()	negated: False ,passive: True
+[LINE#124]The ICP-MS-method for the determination of elements (lead, cadmium, chromium, nickel, copper, zinc, manganese, arsenic and selenium) has been in use in Evira for several years.
+0.946	[*A*]The ICP - MS - method for the determination of elements selenium[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements arsenic[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements manganese[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements zinc[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements copper[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements nickel[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements chromium[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.946	[*A*]The ICP - MS - method for the determination of elements cadmium[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+0.940	[*A*]The ICP - MS - method for the determination of elements[*R*]has been[*A*]in use in Evira[*A*]for several years	context()	negated: False ,passive: True
+[LINE#125]It has been validated and has a flexible scope accredited status.
+0.891	[*A*]a flexible scope[*R*]accredited[*A*]status	context(It has)	negated: False ,passive: False
+0.467	[*A*]It[*R*]has[*A*]a flexible scope accredited status	context()	negated: False ,passive: False
+0.195	[*A*]It[*R*]has been validated	context()	negated: False ,passive: False
+[LINE#126]Several independent exercises (including one done for arsenic in rice flour during this study) have demonstrated its applicability for other matrices as well.
+0.863	[*A*]Several independent exercises (including one[*R*]have demonstrated[*A*]its applicability for other matrices[*A*]as well	context()	negated: False ,passive: False
+0.544	[*A*]one[*R*]done[*A*]for arsenic in rice flour[*A*]during this study	context()	negated: False ,passive: True
+[LINE#127]The limit of detection and the limit of quantification for arsenic are 0.005mg/kg and 0.010mg/kg, respectively.
+0.948	[*A*]The limit of the limit of quantification for arsenic[*R*]are[*A*]0.005mg / 0.010mg / kg , respectively	context()	negated: False ,passive: True
+0.948	[*A*]The limit of the limit of quantification for arsenic[*R*]are[*A*]0.005mg / kg , respectively	context()	negated: False ,passive: True
+0.919	[*A*]The limit of detection[*R*]are[*A*]0.005mg / 0.010mg / kg , respectively	context()	negated: False ,passive: True
+0.919	[*A*]The limit of detection[*R*]are[*A*]0.005mg / kg , respectively	context()	negated: False ,passive: True
+[LINE#128]The method uncertainty for arsenic was 18%, repeatability was 13% and reproducibility was 11%.We validated and accredited the arsenic speciation method for rice.
+0.918	[*A*]reproducibility[*R*]was[*A*]11 %	context()	negated: False ,passive: True
+0.899	[*A*]reproducibility[*R*]was[*A*]11 %	context(We validated)	negated: False ,passive: True
+0.162	[*A*]We[*R*]validated	context()	negated: False ,passive: False
+0.918	[*A*]repeatability[*R*]was[*A*]13 %	context()	negated: False ,passive: True
+0.998	[*A*]arsenic[*R*]had The method uncertainty of[*A*]18 %	context()	negated: False ,passive: False
+0.943	[*A*]The method uncertainty for arsenic[*R*]was[*A*]18 %	context()	negated: False ,passive: True
+[LINE#129]The limit of quantification and the limit of detection for inorganic arsenic were 0.06mg/kg and 0.03mg/kg, respectively and the overall uncertainty of the method was 25%.
+0.960	[*A*]the limit of detection for inorganic arsenic[*R*]were[*A*]0.06mg / 0.03mg / kg , the overall uncertainty of the method was 25 %	context()	negated: False ,passive: True
+0.960	[*A*]the limit of detection for inorganic arsenic[*R*]were[*A*]0.06mg / kg , the overall uncertainty of the method was 25 %	context()	negated: False ,passive: True
+0.948	[*A*]The limit of quantification[*R*]were[*A*]0.06mg / 0.03mg / kg , the overall uncertainty of the method was 25 %	context()	negated: False ,passive: True
+0.948	[*A*]the overall uncertainty of the method[*R*]was[*A*]25 %	context()	negated: False ,passive: True
+0.948	[*A*]The limit of quantification[*R*]were[*A*]0.06mg / kg , the overall uncertainty of the method was 25 %	context()	negated: False ,passive: True
+0.938	[*A*]the limit of detection for inorganic arsenic[*R*]were[*A*]0.06mg[*A*]respectively	context()	negated: False ,passive: True
+0.938	[*A*]the limit of detection for inorganic arsenic[*R*]were[*A*]0.06mg / kg[*A*]respectively	context()	negated: False ,passive: True
+0.919	[*A*]The limit of quantification[*R*]were[*A*]0.06mg[*A*]respectively	context()	negated: False ,passive: True
+0.919	[*A*]The limit of quantification[*R*]were[*A*]0.06mg / kg[*A*]respectively	context()	negated: False ,passive: True
+[LINE#130]The repeatability, reproducibility and trueness of the method for inorganic arsenic are summarised in Table 1.
+0.948	[*A*]trueness of the method for inorganic arsenic[*R*]are summarised[*A*]in Table 1	context()	negated: False ,passive: True
+0.911	[*A*]reproducibility[*R*]are summarised[*A*]in Table 1	context()	negated: False ,passive: True
+0.918	[*A*]The repeatability[*R*]are summarised[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#131]These figures reveal that the method is highly repeatable (CV 11% at the level of 0.08 - 0.11mg/kg) and reproducibility is also good (on average CV 8%).
+0.777	[*A*]the method[*R*]is[*A*]highly repeatable	context(These figures reveal)	negated: False ,passive: True
+0.840	[*A*]These figures[*R*]reveal[*A*]that the method is highly repeatable (CV 11% at the level of 0.08 - 0.11mg/kg) and reproducibility is also good (on average CV	context()	negated: False ,passive: False
+0.798	[*A*]reproducibility[*R*]is[*A*]also[*A*]good	context()	negated: False ,passive: True
+[LINE#132]The method trueness was determined using the test material IMEP-107, a material used in one interlaboratory comparison.
+0.903	[*A*]a material[*R*]used[*A*]in one interlaboratory comparison	context()	negated: False ,passive: True
+0.911	[*A*]The method trueness[*R*]was determined[*A*]using the test material	context()	negated: False ,passive: True
+[LINE#133]No certified reference materials are available for inorganic arsenic species of rice.
+0.919	[*A*]No certified reference materials[*R*]are[*A*]available for inorganic arsenic species of rice	context()	negated: False ,passive: True
+[LINE#134]The trueness of the method is very good if compared to the results achieved in interlaboratory comparison.
+0.903	[*A*]the results[*R*]achieved[*A*]in interlaboratory comparison	context()	negated: False ,passive: True
+0.943	[*A*]The trueness of the method[*R*]is[*A*]very good[*A*]compared to the results	context()	negated: False ,passive: True
+[LINE#135] Examples of a sample chromatogram, a standard chromatogram and a blank chromatogram are in Fig.total arsenic content of long grain rice samples analysed in this study varied from 0.11 to 0.65mg/kg (n=8) and the average amount of total arsenic in long grain rice samples was 0.25mg/kg (Table 2).
+0.867	[*A*]the average amount of total arsenic in long grain rice samples[*R*]was 0.25mg	context()	negated: False ,passive: False
+0.919	[*A*]long grain rice samples[*R*]analysed[*A*]in this study varied[*A*]from 0.11 to 0.65mg/kg	context()	negated: False ,passive: True
+0.970	[*A*]Examples of a sample chromatogram, a standard chromatogram and a blank chromatogram[*R*]are[*A*]in Fig.total arsenic content of long grain rice samples	context()	negated: False ,passive: True
+[LINE#136]The average amount of inorganic arsenic was 0.16mg/kg, ranging from 0.09 to 0.28mg/kg.
+0.999	[*A*]The average amount of inorganic arsenic[*R*]was 0.16mg[*A*]0.09 to 0.28mg / kg	context()	negated: False ,passive: False
+0.921	[*A*]The average amount of inorganic arsenic[*R*]ranging[*A*]from 0.09[*A*]to 0.28mg/kg	context()	negated: False ,passive: True
+0.801	[*A*]The average amount of inorganic arsenic[*R*]was 0.16mg	context()	negated: False ,passive: False
+[LINE#137]The relative value of the total arsenic in its inorganic forms has varied from 34 to 110%, the average being 74%.
+0.903	[*A*]the average[*R*]being[*A*]74%	context()	negated: False ,passive: True
+0.808	[*A*]The relative value of the total arsenic in its inorganic forms[*R*]has varied[*A*]from 34[*A*]the average being 74%	context()	negated: False ,passive: True
+[LINE#138]AB and MMA were not detected in any of the long grain rice samples.
+0.855	[*A*]MMA[*R*]were not detected[*A*]in any of the long grain rice samples	context()	negated: True ,passive: True
+0.855	[*A*]AB[*R*]were not detected[*A*]in any of the long grain rice samples	context()	negated: True ,passive: True
+[LINE#139]The arsenic species detected in the rice samples were DMA, As(III) and As(V).
+0.952	[*A*]The arsenic species detected in the rice samples[*R*]were[*A*]DMA	context()	negated: False ,passive: True
+0.911	[*A*]The arsenic species[*R*]detected[*A*]in the rice samples	context()	negated: False ,passive: True
+[LINE#140] Both Pearson and Spearman correlation tests demonstrated a significant correlation between total and inorganic arsenic levels in long grain rice at the confidence level 95% (Pearson correlation p=0.016, Spearman correlation p=0.043).The total arsenic content of rice based baby food products was 0.09mg/kg on average (n=10), ranging from 0.02 to 0.29mg/kg (Table 3) and arsenic species in rice based baby foodswere the same as in long grain rice (DMA, As(III), As(V)).
+0.905	[*A*]based baby food products[*R*]ranging[*A*]from 0.02[*A*]to 0.29mg/kg	context()	negated: False ,passive: True
+0.904	[*A*]based baby food products[*R*]was 0.09mg[*A*]kg	context()	negated: False ,passive: False
+0.882	[*A*]based baby[*R*]foodswere[*A*]the same[*A*]as in long grain rice	context(Both Pearson and Spearman correlation tests demonstrated)	negated: False ,passive: False
+0.966	[*A*]Both Pearson and Spearman correlation tests[*R*]demonstrated[*A*]a significant correlation between total and inorganic arsenic levels in long grain rice at the confidence level 95% (Pearson correlation p=0.016, Spearman correlation p=0.043	context()	negated: False ,passive: False
+[LINE#141]We were able to measure the amount of inorganic arsenic in four out of ten porridge powders.
+0.528	[*A*]We[*R*]to measure[*A*]the amount of inorganic arsenic in four out of ten porridge powders	context()	negated: False ,passive: False
+0.569	[*A*]We[*R*]were[*A*]able to measure the amount of inorganic arsenic in four out of ten porridge powders	context()	negated: False ,passive: True
+[LINE#142] The average inorganic arsenic content of these four samples was 0.11mg/kg, the highest quantified inorganic arsenic level was 0.21mg/kg and the lowest level.
+0.948	[*A*]the highest quantified inorganic arsenic level[*R*]was[*A*]0.21mg/kg and the lowest level	context()	negated: False ,passive: True
+0.967	[*A*]The average inorganic arsenic content of these four samples[*R*]was[*A*]0.11mg/kg	context()	negated: False ,passive: True
+[LINE#143]In one sample, the level was above the limit of detection.
+0.957	[*A*]the level[*R*]was[*A*]above the limit of detection[*A*]In one sample	context()	negated: False ,passive: True
+[LINE#144]The Pearson correlation test shows a correlation between total and inorganic arsenic levels in porridge powders with a confidence level of 99% (p=0.000).
+0.970	[*A*]The Pearson correlation test[*R*]shows[*A*]a correlation between total and inorganic arsenic levels in porridge powders with a confidence level of 99%	context()	negated: False ,passive: False
+[LINE#145]The Spearman correlation test also detected a correlation, but at a confidence level of 95% (p=0.025).The results for total and inorganic arsenic in long grain rice samples are in line with results obtained in other studies (Heitkemper et al., 2001; Sun et al., 2008; Zavala, Gerads, Gurleyuk, & Duxbury, 2008).
+0.894	[*A*]results[*R*]obtained[*A*]in other studies	context()	negated: False ,passive: True
+0.978	[*A*]The results for total and inorganic arsenic in long grain rice samples[*R*]are[*A*]in line with results[*A*]at a confidence level of 95%	context()	negated: False ,passive: True
+0.928	[*A*]The Spearman correlation test[*R*]detected[*A*]a correlation	context()	negated: False ,passive: False
+[LINE#146] The distribution of species has also been found to be similar to those in other surveys (Ackerman et al., 2005; Heitkemper et al., 2001; Nishimura et al., 2010;.
+0.777	[*A*]The distribution of species[*R*]to be[*A*]similar to those in other surveys	context()	negated: False ,passive: True
+0.684	[*A*]The distribution of species[*R*]has been found	context()	negated: False ,passive: False
+[LINE#147]Williams et al., 2005; Zavala et al., 2008; Zhu et al., 2008).
+[LINE#148]However, there is very little information available on the total and inorganic arsenic levels in rice-based baby food.
+[LINE#149]Our results for baby food are in line with the data of Meharg et al., in which the median inorganic arsenic level of 17 rice-only baby food was 0.11mg/kg (Meharg et al., 2008).
+0.739	[*A*]Our results for baby food[*R*]are[*A*]in line with the data of Meharg et al	context()	negated: False ,passive: True
+[LINE#150]The major difference with our study is that we analysed rice based baby foods which contained also other ingredients in addition to rice.
+0.514	[*A*]we[*R*]analysed[*A*]rice based baby foods which contained also other ingredients in addition to rice	context(The major difference with our study is)	negated: False ,passive: False
+0.353	[*A*]The major difference with our study[*R*]is[*A*]that we analysed rice based baby foods	context()	negated: False ,passive: True
+0.905	[*A*]rice based baby foods[*R*]contained also[*A*]other ingredients	context()	negated: False ,passive: False
+[LINE#151]Our data is in line with recently published inorganic arsenic levels in some rice based baby food (Llorente-Mirandes, Caldern, Lpez-Snchez, Centrich, & Rubio, 2012).
+0.790	[*A*]Our data[*R*]is[*A*]in line with recently published inorganic arsenic levels in some rice based baby food	context()	negated: False ,passive: True
+[LINE#152]One of the major advantages of our method is that it permits quantification of inorganic arsenic or arsenic species in everyday routine analysis.
+0.514	[*A*]it[*R*]permits[*A*]quantification of inorganic arsenic or arsenic species in everyday routine analysis	context(One of the major advantages of our method is)	negated: False ,passive: False
+0.515	[*A*]One of the major advantages of our method[*R*]is[*A*]that it permits quantification of inorganic arsenic or arsenic species in everyday routine analysis	context()	negated: False ,passive: True
+[LINE#153]Many methods developed in arsenic speciation are only applicable for research purposes.
+0.932	[*A*]Many methods developed in arsenic speciation[*R*]are[*A*]only applicable for research purposes	context()	negated: False ,passive: True
+0.903	[*A*]Many methods[*R*]developed[*A*]in arsenic speciation	context()	negated: False ,passive: True
+[LINE#154]The disadvantages of using carbonate buffers as an eluents are long retention time and the peak broadening with arsenate (Raber et al., 2012).
+0.903	[*A*]the peak[*R*]broadening[*A*]with arsenate	context()	negated: False ,passive: True
+0.972	[*A*]The disadvantages of using carbonate buffers as an eluents[*R*]are[*A*]the peak broadening with arsenate ( Raber et al . , 2012 )	context()	negated: False ,passive: True
+0.948	[*A*]The disadvantages of using carbonate buffers as an eluents[*R*]are[*A*]long retention time	context()	negated: False ,passive: True
+[LINE#155]These are due to high pH which leads to additional deprotonation of the arsenate anion.
+0.802	[*A*]high pH[*R*]leads[*A*]to additional deprotonation of the arsenate anion	context()	negated: False ,passive: False
+0.544	[*A*]These[*R*]are[*A*]due to high pH	context()	negated: False ,passive: True
+[LINE#156]Irrespective of these problems, one achieves good repeatability and reproducibility with this method (Table 1).
+0.544	[*A*]one[*R*]achieves[*A*]good reproducibility[*A*]with this method	context()	negated: False ,passive: False
+0.544	[*A*]one[*R*]achieves[*A*]good repeatability[*A*]with this method	context()	negated: False ,passive: False
+[LINE#157]One interesting observation is that reproducibility improves from the first day to the third day of analysis which may be a result of the gradual accommodation of the instrumentation to the HPLC-ICP-MS-mode.
+0.916	[*A*]reproducibility[*R*]improves[*A*]from the first day to the third day of analysis	context(One interesting observation is)	negated: False ,passive: True
+0.865	[*A*]One interesting observation[*R*]is[*A*]that reproducibility improves from the first day to the third day of analysis	context()	negated: False ,passive: True
+0.953	[*A*]the third day of analysis[*R*]may be[*A*]a result of the gradual accommodation of the instrumentation to the HPLC-ICP-MS-mode	context()	negated: False ,passive: True
+[LINE#158]Thus, we estimate that the reproducibility of the method would be around 4% if a dedicated HPLC-ICP-MS instrument could be used.
+0.949	[*A*]the reproducibility of the method[*R*]would be[*A*]around 4%[*A*]if a dedicated HPLC-ICP-MS instrument could be used	context(we estimate)	negated: False ,passive: True
+0.309	[*A*]we[*R*]estimate[*A*]that the reproducibility of the method would be around 4% if a dedicated HPLC-ICP-MS instrument could be used	context()	negated: False ,passive: False
+0.773	[*A*]a dedicated HPLC-ICP-MS instrument[*R*]could be used	context()	negated: False ,passive: False
+[LINE#159]Furthermore, trueness of the method is very good with regard to the validation data as well as from the results from several interlaboratory comparisons.
+0.960	[*A*]trueness of the method[*R*]is[*A*]very good with regard to the validation from the results from several interlaboratory comparisons	context()	negated: False ,passive: True
+0.937	[*A*]trueness of the method[*R*]is[*A*]very good with regard to the validation data	context()	negated: False ,passive: True
+[LINE#160]The analysis time is 45min which can be considered as long.
+0.828	[*A*]The analysis time[*R*]is[*A*]45min which can be considered as long	context()	negated: False ,passive: True
+[LINE#161]However the overall analysis time is not so long because the extraction time is short and sample preparation is fast and robust.
+0.828	[*A*]the sample preparation[*R*]is[*A*]robust	context()	negated: False ,passive: True
+0.919	[*A*]the overall analysis time[*R*]is not[*A*]so long because the sample preparation is robust	context()	negated: True ,passive: True
+0.828	[*A*]the sample preparation[*R*]is[*A*]fast	context()	negated: False ,passive: True
+0.919	[*A*]the overall analysis time[*R*]is not[*A*]so long because the sample preparation is fast	context()	negated: True ,passive: True
+0.828	[*A*]the extraction time[*R*]is[*A*]short	context()	negated: False ,passive: True
+0.919	[*A*]the overall analysis time[*R*]is not[*A*]so long because the extraction time is short	context()	negated: True ,passive: True
+[LINE#162]The method takes a full advantage of specificity and no interfering signals to the five standard compounds used was detected in any of the samples analysed so far.
+0.767	[*A*]the samples[*R*]analysed[*A*]so far	context()	negated: False ,passive: True
+0.934	[*A*]no interfering signals to the five standard compounds[*R*]was detected[*A*]in any of the samples	context()	negated: False ,passive: True
+0.769	[*A*]the five standard compounds[*R*]used	context()	negated: False ,passive: False
+0.903	[*A*]The method[*R*]takes[*A*]a full advantage of specificity	context()	negated: False ,passive: False
+[LINE#163]The method worked perfectly also for the samples which included also other ingredients.
+0.887	[*A*]the samples[*R*]included[*A*]also[*A*]other ingredients	context()	negated: False ,passive: True
+0.903	[*A*]The method[*R*]worked perfectly also[*A*]for the samples	context()	negated: False ,passive: False
+[LINE#164]In general the total and inorganic arsenic contents of rice-based baby food are lower than the levels in long grain rice.
+0.961	[*A*]the total and inorganic arsenic contents of rice-based baby food[*R*]are[*A*]lower than the levels in long grain rice	context()	negated: False ,passive: True
+[LINE#165]One of the reasons for the lower total arsenic levels in these products compared to long grain rice is that they include other foodstuffs, for example fruits and whey and milk powder which dilute the sample.
+0.562	[*A*]they[*R*]include[*A*]other foodstuffs	context(One of the reasons for the lower total arsenic levels in these products is)	negated: False ,passive: True
+0.885	[*A*]One of the reasons for the lower total arsenic levels in these products[*R*]is[*A*]that they include other foodstuffs, for example fruits and whey and milk powder	context()	negated: False ,passive: True
+0.927	[*A*]example fruits and whey and milk powder[*R*]dilute[*A*]the sample	context()	negated: False ,passive: False
+0.943	[*A*]the lower total arsenic levels in these products[*R*]compared[*A*]to long grain rice	context()	negated: False ,passive: True
+[LINE#166]Only two out of ten baby cereal products had the exact relative amount of rice declared on the label.
+0.932	[*A*]the exact relative amount of rice[*R*]declared[*A*]on the label	context()	negated: False ,passive: True
+0.973	[*A*]Only two out of ten baby cereal products[*R*]had[*A*]the exact relative amount of rice declared on the label	context()	negated: False ,passive: False
+[LINE#167]Three products which had rice as the main ingredient (rice was mentioned first in the ingredient list) had the highest total arsenic content detected in this study.
+0.981	[*A*]Three products which had rice as the main ingredient (rice was mentioned first in the ingredient list)[*R*]had[*A*]the highest total arsenic content detected in this study	context()	negated: False ,passive: False
+0.926	[*A*]the highest total arsenic content[*R*]detected[*A*]in this study	context()	negated: False ,passive: True
+0.894	[*A*]rice[*R*]was mentioned[*A*]first[*A*]in the ingredient list	context()	negated: False ,passive: True
+[LINE#168]For this reason, it is reasonable to conclude that when rice powder is the main ingredient of baby food, the arsenic content is higher than in products which have some other cereals or milk to dilute the amount of rice.
+0.920	[*A*]products[*R*]have[*A*]some other cereals or milk to dilute the amount of rice	context()	negated: False ,passive: False
+0.925	[*A*]rice powder[*R*]is[*A*]the main ingredient of baby food	context()	negated: False ,passive: True
+[LINE#169]Therefore it is possible to recommend that there should be "dilution" of the rice powder with some other healthy ingredient low in its inorganic arsenic level to lower the overall arsenic intake.
+[LINE#170]This is particularly true in countries with high consumption of rice based baby food.
+0.567	[*A*]This[*R*]is[*A*]particularly true[*A*]in countries with high consumption of rice based baby food	context()	negated: False ,passive: True
+[LINE#171]Some assessments of the inorganic arsenic intake from long grain rice and baby food can be made (Table 4).
+0.856	[*A*]Some assessments of the inorganic arsenic intake from baby food[*R*]can be made	context()	negated: False ,passive: False
+0.867	[*A*]Some assessments of the inorganic arsenic intake from long grain rice[*R*]can be made	context()	negated: False ,passive: False
+[LINE#172]All the estimations are conservative, worst case scenarios and conducted using the products that contained the highest inorganic arsenic levels (long grain rice 0.28mg/kg and porridge powder 0.21mg/kg) and the lowest BMDL0.1 level 0.3g/kg bw/day evaluated by EFSA.
+0.836	[*A*]All the estimations[*R*]using[*A*]the products that contained the highest inorganic arsenic levels ( long grain rice porridge powder 0.21mg / kg ) 0.3g / kg bw / day	context()	negated: False ,passive: False
+0.943	[*A*]0.3g / kg bw / day[*R*]evaluated[*A*]by EFSA	context()	negated: False ,passive: True
+0.836	[*A*]All the estimations[*R*]using[*A*]the products that contained the highest inorganic arsenic levels ( long grain rice 0.28mg / kg ) 0.3g / kg bw / day	context()	negated: False ,passive: False
+0.927	[*A*]the lowest BMDL0.1 level 0.3g[*R*]evaluated[*A*]by EFSA	context()	negated: False ,passive: True
+0.887	[*A*]the products[*R*]contained[*A*]the highest inorganic arsenic levels	context()	negated: False ,passive: False
+0.836	[*A*]All the estimations[*R*]using[*A*]the products that contained the highest inorganic arsenic levels ( the lowest BMDL0.1 level 0.3g / kg bw / day	context()	negated: False ,passive: False
+0.718	[*A*]All the estimations[*R*]conducted	context()	negated: False ,passive: False
+0.911	[*A*]All the estimations[*R*]are[*A*]conservative[*A*]using the products	context()	negated: False ,passive: True
+0.911	[*A*]All the estimations[*R*]are[*A*]conservative , worst case scenarios	context()	negated: False ,passive: True
+[LINE#173] The consumption of long grain rice is around 66g/day in women (25 - 64years)and 80g/day in men (25-64years), respectively.
+0.930	[*A*]The consumption of long grain rice[*R*]is respectively[*A*]in women	context()	negated: False ,passive: True
+[LINE#174]The average consumption figures would result in inorganic arsenic intakes of 0.26g/kg (women) and 0.27g/kg (men) bw/day.
+0.931	[*A*]The average consumption figures[*R*]would result[*A*]in inorganic arsenic intakes of 0.26g/kg	context()	negated: False ,passive: True
+[LINE#175]In the worst case scenarios the levels of inorganic arsenic intake for the four groups was above the lower limit of the benchmark dose needed for a 0.1% increased incidence of various cancer types and skin lesions.
+0.911	[*A*]the benchmark dose[*R*]needed[*A*]for a 0.1 % increased incidence of skin lesions	context()	negated: False ,passive: True
+0.943	[*A*]the benchmark dose[*R*]needed[*A*]for a 0.1 % increased incidence of various cancer types	context()	negated: False ,passive: True
+[LINE#176]The inorganic arsenic intake of different age groups of children from rice-based baby food was also close to the lower BMDL0.1 value.
+0.983	[*A*]The inorganic arsenic intake of different age groups of children from rice-based baby food[*R*]was[*A*]also[*A*]close to the lower BMDL0.1 value	context()	negated: False ,passive: True
+[LINE#177]Our data indicates also, that the cumulative inorganic arsenic intake in different age groups should be assessed.
+0.806	[*A*]the cumulative inorganic arsenic intake in different age groups[*R*]should be assessed	context(Our data indicates)	negated: False ,passive: False
+0.443	[*A*]Our data[*R*]indicates[*A*]also[*A*]that the cumulative inorganic arsenic intake in different age groups should be assessed	context()	negated: False ,passive: False

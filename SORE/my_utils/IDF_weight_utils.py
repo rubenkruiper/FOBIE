@@ -6,6 +6,9 @@ import sentencepiece as spm
 
 
 class PrepIDFWeights():
+    """
+    Encapsulates the setting for preparing IDF weights.
+    """
 
     def __init__(self,
                  prefix,
@@ -14,7 +17,16 @@ class PrepIDFWeights():
                  SUBWORDUNIT=True,
                  STEMMING=False,
                  STOPWORDS=False):
-        """   """
+        """
+        Initialise with desired settings.
+
+        :param prefix: Experiment name.
+        :param input_file_dir: Directory with files to compute the IDF weights (and SentenciePiece model) for.
+        :param output_dir: Directory to store the computed IDF weights (and SentenciePiece model).
+        :param SUBWORDUNIT: Boolean that determines whether to apply subword unit splitting
+        :param STEMMING: Boolean that determines whether to apply stemming
+        :param STOPWORDS: Boolean that determines whether to remove stopwords
+        """
         if not output_dir.endswith('/'):
             print("Select a folder as output directory, make sure to end the string with '/'")
             return
@@ -31,14 +43,15 @@ class PrepIDFWeights():
                 print("Note: stemming/stopword-removal does not affect IDF values for subword units. "
                       "This hasn't been implemented, as it seems counter-productive w.r.t. the IDF values.")
             self.sp = spm.SentencePieceProcessor()
+            # Initialise the sp_size parameter
             self.sp_size = 10
 
 
     def new_sentencepiece_vocab(self, sp_storage_dir):
         """
-        :param input: one-sentence-per-line raw corpus file. No need to run tokenise, normalise, or preprocess.
-        :param model_prefix: output model name prefix, a model_prefix.model and model_prefix.vocab will be created.
-        :param vocab_size: size of the vocabulary, e.g., 8000
+        Train a new SentencePiece model and vocabulary.
+
+        :param sp_storage_dir: Directory to store the SentencePiece model and vocabulary, set in :class:`~FilterPrep`.
         """
         input_files = glob.glob(self.input_file_dir + '*.txt')
         current_pwd = os.getcwd()+'/'
@@ -59,6 +72,13 @@ class PrepIDFWeights():
 
 
     def txt_files_to_corpus(self, input_file):
+        """
+        Prepare an input txt file to a list of sentences (following the settings of using subwordunits, stemming, stopwords),
+        so it can be added to a single corpus to compute the IDF weights.
+
+        :param input_file: .txt file to process
+        :return: list of processed sentences
+        """
 
         if self.STOPWORDS:
             list_of_stopwords = []
@@ -104,6 +124,11 @@ class PrepIDFWeights():
 
 
     def determine_output_name(self):
+        """
+        Determines the output name for the IDF weight file, so it can be reused with the same settings.
+
+        :return: path to the IDF weight file
+        """
         if self.SUBWORDUNIT:
             output_name = self.output_dir + self.prefix + "IDF.json"
         else:
@@ -125,7 +150,10 @@ class PrepIDFWeights():
 
     def get_idf(self, corpus):
         """
-        Compute IDF values for a set of input documents
+        Compute IDF values for a single corpus (list of sentences from selection of files).
+
+        :param corpus: A single corpus (list of sentences)
+        :return: Dict with IDF weights for all tokens found in the corpus
         """
         vectorizer = TfidfVectorizer(
             strip_accents='unicode',
@@ -151,7 +179,14 @@ class PrepIDFWeights():
 
     def compute_IDF_weights(self, input_file_prefixes, sp_size, sp_storage_dir):
         """
-        :param sp_size: the vocab size of
+        Overarching function to compute or load the IDF weights, as well as train or load a SentencePiece model - based
+        on the settings provided to :class:`~SORE.my_utils.PrepIDFWeights`
+
+        :param input_file_prefixes: Select files to compute IDF weights for based on a possible prefixes, e.g., only
+        compute IDF weights over files that are derived from the OA-STM corpus.
+        :param sp_size: Size of the SentencePiece vocab, recommended 8k (input would be an int 8000), 16k or 32k, but
+        this depends on the size of your dataset.
+        :param sp_storage_dir: Directory to store sp model, I believe this is redundant - self.output_dir could be used.
         """
 
         if self.SUBWORDUNIT:

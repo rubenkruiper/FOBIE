@@ -1,0 +1,896 @@
+[LINE#1]We prove an integrality property of the Chern character with values in Chow groups.
+0.614	[*A*]We[*R*]prove[*A*]an integrality property of the Chern character with values in Chow groups	context()	negated: False ,passive: False
+[LINE#2]As a consequence, we obtain a construction of the p-1 first homological Steenrod operations on Chow groups modulo p and p-primary torsion, over an arbitrary field.
+0.817	[*A*]p - 1[*R*]modulo[*A*]p - primary torsion , over an arbitrary field	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]obtain[*A*]a construction of the p - 1 first homological Steenrod operations on Chow groups	context()	negated: False ,passive: False
+[LINE#3]We provide applications to the study of correspondences between algebraic varieties.
+0.452	[*A*]We[*R*]provide[*A*]applications[*A*]to the study of correspondences between algebraic varieties	context()	negated: False ,passive: False
+[LINE#4]Adams operations and Chern characterWe fix an element lZ-{0}.
+0.944	[*A*]Chern characterWe[*R*]fix[*A*]an element	context()	negated: False ,passive: False
+0.944	[*A*]Adams operations[*R*]fix[*A*]an element	context()	negated: False ,passive: False
+[LINE#5] The sole purpose of this section is to prove, in Proposition 2.4, the relation for n0, (3)chnl=.
+0.385	[*A*]Proposition 2.4[*R*][is] the relation for[*A*]n0	context()	negated: False ,passive: False
+0.972	[*A*]The sole purpose of this section[*R*]is[*A*]to prove, in Proposition 2.4, the relation for n0, (3)chnl=	context()	negated: False ,passive: True
+[LINE#6]This is certainly very classical, at least so is the cohomological counterpart of this statement.
+0.181	[*A*]This[*R*]is[*A*]certainly[*A*]very classical	context(so is)	negated: False ,passive: True
+0.386	[*A*]so[*R*]is[*A*]the cohomological counterpart of this statement	context()	negated: False ,passive: True
+[LINE#7]Due to the lack of suitable reference, we give some details in this section.
+0.452	[*A*]we[*R*]give[*A*]some details[*A*]in this section	context()	negated: False ,passive: False
+[LINE#8]We shall need to introduce some notations, but except in Appendix, the only thing used in the sequel will be the relation (3).Cohomological variants.
+0.860	[*A*]the only thing used in the sequel[*R*]will be[*A*]the relation[*A*]except in Appendix	context()	negated: False ,passive: True
+0.660	[*A*]the only thing[*R*]used[*A*]in the sequel	context()	negated: False ,passive: True
+0.388	[*A*]We[*R*]shall need to introduce[*A*]some notations	context(We shall need)	negated: False ,passive: False
+0.388	[*A*]We[*R*]shall need[*A*]to introduce some notations	context()	negated: False ,passive: False
+[LINE#9] Chern character [9, Example 3.2.3] is a morphism of presheaves of rings on V ar/kch:.
+0.913	[*A*]Chern character[*R*]is[*A*]a morphism of presheaves of rings on V	context()	negated: False ,passive: True
+[LINE#10]K0(-)CH(-)Q.The cohomological (i.e. usual) l-th Adams operation is a morphism of presheaves of rings on V ar/kl:K0(-)K0(-), sending the class of a line bundle to its l-th tensor power.
+0.977	[*A*]Q.The cohomological (i.e. usual) l-th Adams operation[*R*]is[*A*]a morphism of presheaves of rings on V ar/kl:K0(-)K0(-), sending the class of a line bundle to its l-th tensor power.	context()	negated: False ,passive: True
+[LINE#11] When X is connected, the ring K0(X) has an augmentation rank:.
+0.971	[*A*]the ring K0[*R*]has[*A*]an augmentation[*A*]When X is connected	context()	negated: False ,passive: False
+0.634	[*A*]X[*R*]is connected	context()	negated: False ,passive: False
+[LINE#12]K0(X)Z sending the class of a vector bundle to its rank.
+0.666	[*A*]K0[*R*]sending[*A*]the class of a vector bundle to its rank	context()	negated: False ,passive: False
+[LINE#13]Consider the Laurent polynomial in the variable xtl(x)=1-xl1-x.
+[LINE#14] There is a unique morphism of presheaves of abelian groups on V ar/kl:K0(-)(Z[1such that for all line bundles L, l(L)=tl[L].
+[LINE#15]Note that this does not follow [28], where l(L)=tl[L].K-theory with supports.
+[LINE#16]When X is a closed subvariety of a variety W, the notation K0X(W) stands for the Grothendieck group of complexes of locally free OW-modules, which are acyclic off X, modulo the classes of acyclic complexes.
+0.922	[*A*]the notation K0X[*R*]modulo[*A*]the classes of acyclic complexes	context()	negated: False ,passive: False
+0.945	[*A*]locally free OW-modules[*R*]are[*A*]acyclic off X	context()	negated: False ,passive: True
+0.982	[*A*]the notation K0X[*R*]stands[*A*]for the Grothendieck group of complexes of locally free OW-modules[*A*]When X is a closed subvariety of a variety	context()	negated: False ,passive: True
+0.887	[*A*]X[*R*]is[*A*]a closed subvariety of a variety	context()	negated: False ,passive: True
+[LINE#17]It has a natural structure of a K0(W)-module.
+0.678	[*A*]It[*R*]has[*A*]a natural structure of a K0(W)-module	context()	negated: False ,passive: False
+[LINE#18]the bivariant Chow group (see [9, Definition 17.1]).
+[LINE#19]There are maps -[OW]:K0X(W)K0(X),-[W]:CH(XW)CH(X) which are isomorphisms when W is smooth ([12, Lemma 1.9] and [9, Proposition 17.4.2]).
+0.734	[*A*]W[*R*]is[*A*]smooth	context()	negated: False ,passive: True
+0.833	[*A*]X[*R*]are[*A*]isomorphisms	context()	negated: False ,passive: True
+[LINE#20]We write chXW:K0X(W)CH(XW)Q for the local Chern character [9, Section 18.1], and Xl:K0X(W)K0X(W) for the Adams operation with supports [12, Section 4].Assume that W is smooth, and that xK0X(W).
+0.498	[*A*]We[*R*]write[*A*]chXW:K0X[*A*]W ) CH ( XW ) Q[*A*]for the local Chern character	context()	negated: False ,passive: False
+[LINE#21] Then the homological Chern character is given by the formula [9, Theorem 18.3, (3)], (4)ch(x[OW])=(Td(TW)chXW(x))[W], while homological Adams operations are defined by the formula [28,.
+0.933	[*A*]homological Adams operations[*R*]are defined[*A*]by the formula	context()	negated: False ,passive: True
+0.965	[*A*]the homological Chern character[*R*]is given[*A*]by the formula[*A*]Then	context()	negated: False ,passive: True
+[LINE#22] Thorme 7](5)l(x[OW])=(l(-TW)Xl(x))[OW].Composing the maps chXW with projections CH(XW)QCHj(XW)Q, we obtain individual components (chXW)j.
+0.452	[*A*]we[*R*]obtain[*A*]individual components	context()	negated: False ,passive: False
+0.951	[*A*]x[OW])=(l(-TW)Xl(x[*R*]Composing[*A*]the maps	context()	negated: False ,passive: False
+[LINE#23]We now prove a few lemmas that will be used to obtain (3).
+0.718	[*A*]a few lemmas[*R*]to obtain	context()	negated: False ,passive: False
+0.754	[*A*]a few lemmas[*R*]will be used[*A*]to obtain (3	context()	negated: False ,passive: True
+0.422	[*A*]We[*R*]prove[*A*]a few lemmas that will be used to obtain (3)[*A*]now	context()	negated: False ,passive: False
+[LINE#24]We have in CH(X)Q, for all uK0(X),Td(-u)chl(u)=lrank(u)Td(-l(u)).ProofAssume that L is a line bundle.
+0.887	[*A*]L[*R*]is[*A*]a line bundle	context()	negated: False ,passive: True
+0.498	[*A*]We[*R*]have[*A*]in CH(X)Q	context()	negated: False ,passive: False
+[LINE#25]Then chl(L)=ch(tl[L])=tl(ch[L])=tl(x-1)=1-x-l1-x-1, where x=ec1(L).
+[LINE#26]Then Td(-L)chl(L)=1-x-1c1(L)1-x-l1-x-1=1-x-lc1(L)=l1-e-c1(Ll)c1(Ll)=lTd(-Ll).
+[LINE#27]Thus the claimed formula holds when u is the class of a line bundle.
+0.852	[*A*]u[*R*]is[*A*]the class of a line bundle	context()	negated: False ,passive: True
+0.932	[*A*]the claimed formula[*R*]holds[*A*]when u is the class of a line bundle	context()	negated: False ,passive: False
+[LINE#28] Both sides of this formula define morphisms of presheaves of abelian groups on V.
+0.937	[*A*]Both sides of this formula[*R*]define[*A*]morphisms of presheaves of abelian groups on V.	context()	negated: False ,passive: False
+[LINE#29]Therefore, we can conclude with the splitting principle.
+0.452	[*A*]we[*R*]can conclude[*A*]with the splitting principle	context()	negated: False ,passive: False
+[LINE#30]We have in CH(X)Q, for all uK0(X),Td(l(-u))=i0liTdi(-u).ProofFor a line bundle L, we have Td(-Ll)=i0(-c1(Ll))i(i+1)!=i0li(-c1(L))i(i+1)!=i0liTdi(-L), proving the formula for u the class of a line bundle.
+0.528	[*A*]i[*R*]proving[*A*]the formula for u the class of a line bundle	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]have[*A*]Td	context()	negated: False ,passive: False
+0.463	[*A*]We[*R*]have[*A*]in CH(X)Q, for all uK0(X),Td(l(-u))=i0liTdi(-u).ProofFor a line bundle L, we have Td(-Ll)=i0(-c1(Ll))i(i+1)!=i0li(-c1(L))i	context()	negated: False ,passive: False
+[LINE#31]The lemma follows as above from the splitting principle.
+0.732	[*A*]The lemma[*R*]follows	context()	negated: False ,passive: False
+[LINE#32]Lemma 2.3[19, Theorem 3.1]Let X be a closed subvariety of a smooth variety W .
+[LINE#33] We have in CH(XW)Q, for xK0X(W),chXW(Xl(x))=j0lj(chXW)j(x).Proposition 2.4Let-nchn.ProofIt will be enough to prove that the two sides of the formula have the same effect on any element of K0(X), for X a connected variety.
+0.930	[*A*]the two sides of the formula[*R*]have[*A*]the same effect on any element of K0	context(Proposition 2.4Let - nchn.ProofIt to prove)	negated: False ,passive: False
+0.880	[*A*]Proposition 2.4Let-nchn.ProofIt[*R*]to prove[*A*]that the two sides of the formula have the same effect on any element of K0	context()	negated: False ,passive: False
+0.939	[*A*]Proposition 2.4Let-nchn.ProofIt[*R*]will be[*A*]enough to prove that the two sides of the formula have the same effect on any element of K0(X), for X a connected variety[*A*]in CH(XW)Q	context(We have)	negated: False ,passive: True
+0.162	[*A*]We[*R*]have	context()	negated: False ,passive: False
+[LINE#34]Choose a closed embedding XW into a smooth connected variety W of dimension d.
+[LINE#35] Then, we have in CH(X)Q, for all xK0X(W),chl(x[OW])=Td(TW|X)(chXW(l(-TW)Xl(x))[W])=(Td(TW|X)chl(-TW|X))(chXW(Xl(x))[W])=l-dTd(l(TW|X))(chXW(Xl(x))[W])=i=0dli-dTdi(TW|X)j0lj((chXW)j(x)[W])=n=0dl-ni+j=d-nTdi(TW|X)((chXW)j(x)[W])=n=0dl-nchn(x[OW]).
+0.639	[*A*]we[*R*]have[*A*]in CH(X)Q[*A*]Then	context()	negated: False ,passive: False
+[LINE#36]The first equality is (4) and (5).
+0.800	[*A*]The first equality[*R*]is[*A*]5	context()	negated: False ,passive: True
+0.800	[*A*]The first equality[*R*]is[*A*]4	context()	negated: False ,passive: True
+[LINE#37]The second follows from [9, Proposition 18.1, (c)].
+0.613	[*A*]The second[*R*]follows[*A*]from [9, Proposition 18.1, (c	context()	negated: False ,passive: True
+[LINE#38]For the third one, we use Lemma 2.1.
+0.498	[*A*]we[*R*]use[*A*]Lemma 2.1	context()	negated: False ,passive: False
+[LINE#39]The fourth one uses Lemmas 2.2 and 2.3.
+0.991	[*A*]one[*R*][number of] uses[*A*]Lemmas 2.3	context()	negated: False ,passive: False
+0.925	[*A*]The fourth one[*R*]uses[*A*]Lemmas 2.3	context()	negated: False ,passive: False
+0.991	[*A*]one[*R*][number of] uses[*A*]Lemmas 2.2	context()	negated: False ,passive: False
+0.925	[*A*]The fourth one[*R*]uses[*A*]Lemmas 2.2	context()	negated: False ,passive: False
+[LINE#40] Consequences of Gabber's TheoremIn this section, we use the theorem of Gabber asserting that, over a field of characteristic different from p, any integral variety X admits a regular alteration of degree prime top. This means that there exists a projective morphism ZX, generically finite of degree prime to p, with Z regular.
+0.443	[*A*]we[*R*]use[*A*]the theorem of Gabber	context(This means)	negated: False ,passive: False
+0.159	[*A*]This[*R*]means[*A*]that there exists a projective morphism ZX, generically finite of degree prime to p, with Z regular	context()	negated: False ,passive: False
+[LINE#41] the d-th Todd number is (8)d=p primep[d/(p-1)].Proposition 4.1Let.
+0.901	[*A*]th Todd number[*R*]is[*A*]8)d=p primep	context()	negated: False ,passive: True
+[LINE#42]X be a local complete intersection variety.
+0.852	[*A*]X[*R*]be[*A*]a local complete intersection variety	context()	negated: False ,passive: True
+[LINE#43]Then, for all nnchdimX-n[OX]CH(X)ZQ.ProofLet x:XSpec(k) be the structural morphism of X. Then by [9, Theorem 18.3, (4) and (5)], ch[OX]=chx[OSpec(k)]=Td(TX)xch[OSpec(k)]=Td(TX)[X].
+[LINE#44]Then the proposition follows from Lemma 6.3 below.
+0.952	[*A*]the proposition[*R*]follows[*A*]from Lemma 6.3 below[*A*]Then	context()	negated: False ,passive: True
+[LINE#45]Theorem 4.2Let p be a prime different from the characteristic of the base field.
+0.805	[*A*]Theorem 4.2Let p[*R*]be[*A*]a prime different from the characteristic of the base field	context()	negated: False ,passive: True
+[LINE#46]Then p-integrality holds in codimension c, for any c.
+0.960	[*A*]p-integrality[*R*]holds[*A*]in codimension c[*A*]Then	context()	negated: False ,passive: False
+[LINE#47]ProofWe must prove Statement 1.1 with c arbitrary large.
+0.932	[*A*]ProofWe[*R*]must prove[*A*]Statement 1.1	context()	negated: False ,passive: False
+[LINE#48]We proceed by induction on d, the case d=0 being obvious.
+0.407	[*A*]We[*R*]proceed[*A*]on d	context()	negated: False ,passive: False
+[LINE#49]It is enough to consider the case X integral of dimension d, and x=[OX].
+0.637	[*A*]It[*R*]is[*A*]enough to consider the case X integral of dimension d	context()	negated: False ,passive: True
+[LINE#50]Using Gabber's theorem, we choose f:ZX a projective morphism, with Z a regular connected variety of dimension d, and such that [k(Z):k(X)]= is prime to p.
+0.632	[*A*]k[*R*]is[*A*]prime	context()	negated: False ,passive: True
+[LINE#51] Then there is an element K0(X)(d-1).
+[LINE#52]Thus vp(chd-n(x))min(vp(fchd-n[OZ]),vp(chd-n()))min(vp(chd-n[OZ]),vp(ch(d-1)-(n-1)())).
+[LINE#53]We conclude using Proposition 4.1 for Z, and the induction hypothesis on .
+0.498	[*A*]We[*R*]conclude using[*A*]Proposition 4.1[*A*]for Z	context()	negated: False ,passive: False
+[LINE#54]The combination of Theorems 3.2 and 4.2 implies the following.
+0.944	[*A*]The combination of Theorems 4.2[*R*]implies[*A*]the following	context()	negated: False ,passive: False
+0.944	[*A*]The combination of Theorems 3.2[*R*]implies[*A*]the following	context()	negated: False ,passive: False
+[LINE#55]Corollary 4.3Let X be a variety over a field of characteristic p, and d be an integer.
+0.938	[*A*]Corollary[*R*]d be[*A*]an integer	context()	negated: False ,passive: True
+0.932	[*A*]Corollary 4.3Let X[*R*]be[*A*]a variety over a field of characteristic p	context()	negated: False ,passive: True
+[LINE#56] Then for all integers n such that 0n<p(p-1), and all elements xK0(X)(d), we havenchd-n(x)CH(X)ZQ.Part 2.
+[LINE#57]We proceed as in [14] to derive operations from the integrality property of the Chern character stated above.
+0.341	[*A*]We[*R*]proceed as in [14 to derive[*A*]operations[*A*]from the integrality property of the Chern character	context(We proceed)	negated: False ,passive: False
+0.189	[*A*]We[*R*]proceed[*A*]as in [14	context()	negated: False ,passive: False
+0.831	[*A*]the Chern character[*R*]stated[*A*]above	context()	negated: False ,passive: True
+[LINE#58] This follows [4, Section 7].Let.
+[LINE#59]Then the natural map (9)AZQZ/pAZ(p)QZ/p, is an isomorphism.
+0.954	[*A*]the natural map[*R*]is[*A*]an isomorphism[*A*]Then	context()	negated: False ,passive: True
+[LINE#60]This group can also be described as A modulo p and p-primary torsion.
+0.859	[*A*]This group[*R*]can be described[*A*]as A modulo p - primary torsion	context()	negated: False ,passive: True
+0.859	[*A*]This group[*R*]can be described[*A*]as A modulo p	context()	negated: False ,passive: True
+[LINE#61] By this we mean the quotient of A by pA+T, where T is the subgroup of elements aA such that pna=0 for some integer n>0.We assume that p-integrality holds in codimension m(p-1), for some integer m. Let q>0 be an integer.
+0.913	[*A*]p-integrality[*R*]holds[*A*]in codimension m	context(pna=0 for some integer n assume)	negated: False ,passive: False
+0.675	[*A*]pna=0 for some integer[*R*]n assume[*A*]that p-integrality holds in codimension m	context()	negated: False ,passive: False
+0.925	[*A*]T[*R*]is[*A*]the subgroup of elements[*A*]pA+T	context()	negated: False ,passive: True
+0.498	[*A*]we[*R*]mean[*A*]the quotient of A by pA+T	context()	negated: False ,passive: False
+[LINE#62] For every integer i such that 0<im, we see using Statement 1.1, for d=q and n=i(p-1), that the association xpichq-i(p-1)(x) induces a natural transformation of functors ProjAbK0(-)(q)CHq-i(p-1)(-)Z(p)Q. Let X be a variety, and xK0(X)(q-1)K0(X)(q).
+0.858	[*A*]X[*R*]be[*A*]a variety	context(i Let)	negated: False ,passive: True
+0.433	[*A*]we[*R*]see using[*A*]Statement 1.1	context(i such we see i Let)	negated: False ,passive: False
+0.332	[*A*]we[*R*]see[*A*]using Statement 1.1[*A*]im	context(i such i Let)	negated: False ,passive: False
+0.244	[*A*]i[*R*]such[*A*]that 0 < im , we see using Statement 1.1	context(i Let)	negated: False ,passive: False
+0.461	[*A*]i[*R*]Let[*A*]X be a variety	context()	negated: False ,passive: False
+0.411	[*A*]i[*R*]induces[*A*]a natural transformation of functors	context()	negated: False ,passive: False
+[LINE#63]Then pichq-i(p-1)(x)=p(pi-1ch(q-1)-(i(p-1)-1)(x)).
+[LINE#64], we see that this element belongs to pCHq-i(p-1)(X)Z(p)Q.
+0.882	[*A*]this element[*R*]belongs[*A*]to pCHq	context(we see)	negated: False ,passive: False
+0.202	[*A*]we[*R*]see[*A*]that this element belongs to pCHq-i(p-1)(X)Z(p)Q.	context()	negated: False ,passive: False
+[LINE#65] This gives a natural transformation of functors ProjAbgrqK0(-)Z.
+0.425	[*A*]This[*R*]gives[*A*]a natural transformation of functors ProjAbgrqK0	context()	negated: False ,passive: False
+[LINE#66] Composing on the left with the map (2), and on the right with the inverse of the map (9) with A=CHq-i(p-1)(-), we obtain a natural transformation of functors ProjAbTi:.
+0.388	[*A*]we[*R*]obtain[*A*]a natural transformation of functors	context()	negated: False ,passive: False
+[LINE#67]CHq(-)Z/pCHq-i(p-1)(-)ZQZ/p.
+[LINE#68] It will be convenient to agree that T0:.
+0.234	[*A*]It[*R*]to agree[*A*]that T0	context()	negated: False ,passive: False
+0.266	[*A*]It[*R*]will be[*A*]convenient to agree that T0	context()	negated: False ,passive: True
+[LINE#69]CHq(-)Z/pCHq(-)ZQZ/p is the quotient map modulo the image modulo p of p-primary torsion.
+[LINE#70] Correspondences modulo pLet X and Ybe varieties, with Y projective and X integral.
+0.911	[*A*]Correspondences[*R*]modulo[*A*]Ybe varieties	context()	negated: False ,passive: False
+0.911	[*A*]Correspondences[*R*]modulo[*A*]pLet X varieties	context()	negated: False ,passive: False
+[LINE#71]The multiplicity of  is the image of  under the composite CH(XY)CH(Spec(k(X))Y)degCH(Spec(k(X)))=Z..
+0.932	[*A*]The multiplicity of[*R*]is[*A*]the image of	context()	negated: False ,passive: True
+[LINE#72]Strong p-incompressibilityLet p be a prime number.
+0.943	[*A*]Strong p-incompressibilityLet p[*R*]be[*A*]a prime number	context()	negated: False ,passive: True
+[LINE#73] Following [18, p. 150], we call an integral projective variety X strongly p-incompressible if the existence of a correspondence.
+0.661	[*A*]we[*R*]call[*A*]an integral projective variety X[*A*]strongly p-incompressible if[*A*]Following [18	context()	negated: False ,passive: False
+[LINE#74] Y of multiplicity prime to p, with Y an integral projective variety of dimension dimX and such that vp(nY)vp(nX) , implies that dimY=dimX, and that there exists a correspondence.
+0.508	[*A*]vp(nY)vp[*R*]implies[*A*]that dimY=dimX, and that there exists a correspondence	context()	negated: False ,passive: False
+[LINE#75] Proposition 10.1Let p be a prime number, and i an integer.
+0.944	[*A*]Proposition 10.1Let[*R*]p be[*A*]a prime number	context()	negated: False ,passive: True
+[LINE#76]Let X be an integral projective variety with vp(nX)i .
+[LINE#77]Assume that (OX) is prime to p .
+[LINE#78]In case of equality, X is strongly p-incompressible.
+0.912	[*A*]X[*R*]is[*A*]strongly p-incompressible[*A*]In case of equality	context()	negated: False ,passive: True
+[LINE#79]Then in particular dimX<p(p-1), and Proposition 9.1 gives ivp(nX)[dimXp-1]+vp((OX))<i, a contradiction.
+0.958	[*A*]Proposition 9.1[*R*]gives[*A*]ivp[*A*]Then	context()	negated: False ,passive: False
+0.868	[*A*]p[*R*]gives[*A*]ivp[*A*]Then	context()	negated: False ,passive: False
+[LINE#80]Hence dimXi(p-1).Now we assume that dimX=i(p-1).
+0.302	[*A*]we[*R*]assume[*A*]Now	context()	negated: False ,passive: False
+[LINE#81] We proceed as in the proof of [22, Theorem 7.2] - i=p, we cannot use the relation ptp(X)=0.Let Y be an integral projective variety of dimension dimX, with a correspondence.
+0.388	[*A*]We[*R*]proceed[*A*]as in the proof of [22	context(we can not use)	negated: False ,passive: False
+0.550	[*A*]we[*R*]can not use[*A*]the relation ptp[*A*]=0.Let Y be an integral projective variety of dimension dimX, with a correspondence	context()	negated: True ,passive: False
+0.970	[*A*]=0.Let Y[*R*]be[*A*]an integral projective variety of dimension dimX, with a correspondence	context()	negated: False ,passive: True
+[LINE#82] Y of multiplicity prime to p, and such that.
+[LINE#83] We can assume that there is an integral variety Z with dimZ=dimX, and two projective morphisms f:ZX and g:.
+0.722	[*A*]two projective morphisms[*R*]g	context(We can assume)	negated: False ,passive: False
+0.388	[*A*]We[*R*]can assume[*A*]two projective morphisms f g	context()	negated: False ,passive: False
+0.755	[*A*]two projective morphisms[*R*]f	context(We can assume)	negated: False ,passive: False
+0.388	[*A*]We[*R*]can assume[*A*]two projective morphisms f	context()	negated: False ,passive: False
+0.195	[*A*]We[*R*]can assume[*A*]that there is an integral variety Z with dimZ=dimX g	context()	negated: False ,passive: False
+0.131	[*A*]We[*R*]can assume[*A*]that there is an integral variety Z with dimZ=dimX	context()	negated: False ,passive: False
+[LINE#84]ZYY, such that degf is prime to p.
+0.888	[*A*]ZYY, such that degf[*R*]is[*A*]prime	context()	negated: False ,passive: True
+[LINE#85]Here Y is the product of Y with a projective space of appropriate dimension: in particular dimY=dimX and nY=nY.
+0.964	[*A*]Y[*R*]is[*A*]the product of Y with a projective space of appropriate dimension[*A*]Here	context()	negated: False ,passive: True
+[LINE#86] Since by Theorem 9.4 we have degftp(X)=tp(Z)modnX(p), we see that tp(Z) is non-zero modulo nX(p),.
+0.570	[*A*]tp[*R*]is[*A*]non-zero	context(we see)	negated: False ,passive: True
+0.309	[*A*]we[*R*]see[*A*]that tp(Z) is non-zero modulo nX(p	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]have[*A*]degftp[*A*]=tp	context()	negated: False ,passive: False
+[LINE#87] Now by the same theorem we have deggtp(Y)=tp(Z)modnY(p), hence degg is non-zero and g is dominant, so that Y=Y and dimY.
+0.802	[*A*]=tp ( Z ) g[*R*]is[*A*]dominant and dimY	context()	negated: False ,passive: True
+0.813	[*A*]hence degg[*R*]is[*A*]non-zero and dimY	context()	negated: False ,passive: True
+0.595	[*A*]we[*R*]have[*A*]deggtp[*A*]Now	context()	negated: False ,passive: False
+[LINE#88]For further reference, let us mention that we also obtain that tp(Y) is non-zero modulo nY(p).
+[LINE#89]Let X be the Severi-Brauer variety of a central division algebra of degree pn, with p a prime number.
+[LINE#90]Then X is strongly p-incompressible when the characteristic of the base field is not p[22, Example 7.2, Theorem 7.2].
+0.801	[*A*]the characteristic of the base field[*R*]is not p	context()	negated: True ,passive: False
+0.957	[*A*]X[*R*]is[*A*]strongly p-incompressible[*A*]when the characteristic of the base field is not p[22[*A*]Then	context()	negated: False ,passive: True
+[LINE#91]According to [18, Example 2.3], it is unknown whether X is strongly p-incompressible when the characteristic is p.
+0.925	[*A*]the characteristic[*R*]is[*A*]p.	context()	negated: False ,passive: True
+[LINE#92]We can treat the case n=1 with Proposition 10.1.
+0.498	[*A*]We[*R*]can treat[*A*]the case[*A*]with Proposition 10.1	context()	negated: False ,passive: False
+[LINE#93]Corollary 10.2The Severi-Brauer variety of a central division algebra of prime degree p is strongly p-incompressible. .
+0.954	[*A*]Corollary 10.2The Severi-Brauer variety of a central division algebra of prime degree p[*R*]is[*A*]strongly p-incompressible	context()	negated: False ,passive: True
+[LINE#94] Index reduction formulaWe mentioned in [13, Section 4.1] that the index reduction formula of [31, Corollary(B)] can be generalized to base fields of arbitrary characteristic.
+0.908	[*A*]the index reduction formula of [31[*R*]can be generalized[*A*]to base fields of arbitrary characteristic	context(Index reduction formulaWe mentioned)	negated: False ,passive: True
+0.883	[*A*]Index reduction formulaWe[*R*]mentioned[*A*]in[*A*]13, Section 4.1] that the index reduction formula of [31, Corollary(B)] can be generalized to base fields of arbitrary characteristic	context()	negated: False ,passive: False
+[LINE#95]The results obtained here allow us to additionally remove all assumptions of regularity.
+0.397	[*A*]us[*R*]to additionally remove[*A*]all assumptions of regularity	context(The results obtained here allow)	negated: False ,passive: False
+0.831	[*A*]The results obtained here[*R*]allow[*A*]us to additionally remove all assumptions of regularity	context()	negated: False ,passive: False
+0.767	[*A*]The results[*R*]obtained[*A*]here	context()	negated: False ,passive: True
+[LINE#96]Proposition 10.3Let X and Y be integral projective varieties, of dimensions i(p-1) for some ip .
+[LINE#97]Assume that vp(nY)vp(nX)i, p|(OY), and (OX) is prime to p .
+[LINE#98] Then there is no correspondence.
+[LINE#99]ProofThe first part of Proposition 10.1 implies that dimX=i(p-1); hence dimYdimX. If such a correspondence exist, the last sentence of the proof of Proposition 10.1 would imply that (OY) is prime to p, a contradiction.
+0.908	[*A*]OY[*R*]is[*A*]prime to p	context(ProofThe first part of Proposition 10.1 implies dimX=i hence dimYdimX If such a correspondence exist would imply)	negated: False ,passive: True
+0.781	[*A*]If such a correspondence exist[*R*]would imply[*A*]that (OY) is prime to p	context(ProofThe first part of Proposition 10.1 implies dimX=i hence dimYdimX)	negated: False ,passive: False
+0.687	[*A*]dimX=i[*R*]hence dimYdimX	context(ProofThe first part of Proposition 10.1 implies)	negated: False ,passive: False
+0.910	[*A*]ProofThe first part of Proposition 10.1[*R*]implies[*A*]that dimX=i(p-1); hence dimYdimX. If such a correspondence exist, the last sentence of the proof of Proposition 10.1 would imply that (OY) is prime to p	context()	negated: False ,passive: False
+[LINE#100] 's correspondencesThe operations.
+[LINE#101]Ti can be used to extend the case n=1 in [25, Theorem 9.1] to arbitrary fields.
+0.833	[*A*]Ti[*R*]to extend[*A*]the case	context()	negated: False ,passive: False
+0.919	[*A*]Ti[*R*]can be used[*A*]to extend the case n=1 in [25, Theorem 9.1] to arbitrary fields	context()	negated: False ,passive: True
+[LINE#102]X be a smooth projective variety of dimension p-1 .
+0.852	[*A*]X[*R*]be[*A*]a smooth projective variety of dimension p-1	context()	negated: False ,passive: True
+[LINE#103]Assume that X has a special correspondence in the sense of [25, Definition 5.1], with b=1 .
+[LINE#104]Assume moreover that X has no zero-cycle of degree prime to p .
+[LINE#105]Thendeg(r(p)(-TX)[X])0modp2.By Remark 9.3, this means that the integer (OX) is prime to p.
+0.893	[*A*]the integer[*R*]is[*A*]prime to p.	context(this means)	negated: False ,passive: True
+0.258	[*A*]this[*R*]means[*A*]that the integer (OX) is prime to p.	context()	negated: False ,passive: False
+[LINE#106]ProofWe only sketch how [25, Proof of Theorem 9.1] can be adapted.
+0.780	[*A*]25, Proof of Theorem 9.1[*R*]can be adapted	context(ProofWe sketch)	negated: False ,passive: False
+0.950	[*A*]ProofWe[*R*]sketch[*A*]how [25, Proof of Theorem 9.1] can be adapted	context()	negated: False ,passive: False
+[LINE#107]This proof only involves cycles of dimension 2p-3; in particular, the only Steenrod operation used is the first one.
+0.858	[*A*]This proof[*R*]involves[*A*]cycles of dimension 2p-3	context(the only Steenrod operation is)	negated: False ,passive: True
+0.823	[*A*]the only Steenrod operation[*R*]is[*A*]the first one	context()	negated: False ,passive: True
+0.818	[*A*]the only Steenrod operation[*R*]used	context()	negated: False ,passive: False
+[LINE#108]Moreover, since the degree map factors through the Chow group modulo torsion, there is no loss in using the operation with values in this group.
+[LINE#109]All the properties needed are contained in Proposition 7.4.
+0.931	[*A*]All the properties needed[*R*]are contained[*A*]in Proposition 7.4	context()	negated: False ,passive: True
+0.751	[*A*]All the properties[*R*]needed	context()	negated: False ,passive: False
+[LINE#110] Index and Euler characteristicWe begin by giving a restriction on the possible values of the index nX of a projective variety X, in terms of two integers which do not change under field extensions: the dimension of X and the Euler characteristic (OX).Proposition 9.1Let X be a projective variety of dimension.
+0.954	[*A*]Euler characteristicWe[*R*]by giving[*A*]a restriction on the possible values of the index nX of a projective variety X , in terms of two integers	context()	negated: False ,passive: False
+0.788	[*A*]Euler characteristicWe[*R*]begin	context()	negated: False ,passive: False
+0.949	[*A*]Proposition 9.1Let X[*R*]be[*A*]a projective variety of dimension	context()	negated: False ,passive: True
+0.887	[*A*]two integers[*R*]do not change[*A*]under field extensions	context()	negated: True ,passive: True
+0.949	[*A*]Index[*R*]by giving[*A*]a restriction on the possible values of the index nX of a projective variety X , in terms of two integers	context()	negated: False ,passive: False
+0.957	[*A*]Index[*R*]begin[*A*]by giving a restriction on the possible values of the index nX of a projective variety X , in terms of two integers	context()	negated: False ,passive: True
+[LINE#111]Thenvp(nX)[dimXp-1]+vp((OX)).ProofWe have, by Theorem 3.2, vp(ch0[OX])-[dimXp-1], which means that there is an integral zero-cycle xCH0(X), and an integer  prime to p such that x=p[dimX/(p-1)]ch0[OX].
+[LINE#112]Taking degrees, we obtain nX|p[dimX/(p-1)](OX), whence the result.
+0.433	[*A*]we[*R*]obtain[*A*]nX|p	context()	negated: False ,passive: False
+[LINE#113]Let X be an integral projective variety of dimension i(p-1), with i>0.
+[LINE#114]We define in Z/nX(p)tp(X)=pi-1(OX)modnX(p).
+0.498	[*A*]We[*R*]define[*A*]in Z/nX	context()	negated: False ,passive: False
+[LINE#115]Then Proposition 9.1 amounts to saying that we have, when i<p, ptp(X)=0modnX(p).
+0.812	[*A*]Proposition 9.1[*R*]amounts when < p[*A*]Then	context()	negated: False ,passive: True
+[LINE#116] The same conclusion holds for any i>0 when X is a local complete intersection variety by Proposition 4.1, or if p-integrality holds in codimension i(p-1).Remark 9.2By[26, Corollary 1], the class tp(X) vanishes when the base field is perfect of characteristic p.
+0.932	[*A*]the base field[*R*]is[*A*]perfect of characteristic p.	context()	negated: False ,passive: True
+0.945	[*A*]p-1).Remark 9.2By[*R*]vanishes[*A*]when the base field is perfect of characteristic p.	context()	negated: False ,passive: True
+0.932	[*A*]p-integrality[*R*]holds[*A*]in codimension	context()	negated: False ,passive: False
+0.852	[*A*]X[*R*]is[*A*]a local complete intersection variety	context()	negated: False ,passive: True
+0.934	[*A*]The same conclusion[*R*]holds[*A*]for any[*A*]when X is a local complete intersection variety by Proposition 4.1, or if p-integrality holds in codimension i(p-1).Remark 9.2By[26, Corollary 1], the class tp(X) vanishes	context()	negated: False ,passive: False
+[LINE#117]Let up(X)CH0(X) be a cycle whose class modulo p and p-primary torsion is Ti[X].
+0.926	[*A*]a cycle[*R*]is[*A*]Ti	context()	negated: False ,passive: True
+[LINE#118]Then its image up(X) in CH0(X)Z(p)Q satisfies up(X)=pich0[OX]modpCH0(X)Z(p)Q.
+0.876	[*A*]its image up(X) in CH0(X)Z(p)Q[*R*]satisfies up[*A*]X)=pich0[*A*]Then	context()	negated: False ,passive: False
+[LINE#119]Hence degup(X)=pi(OX)modpnXZ(p) and degup(X)p=pi-1(OX)modnX(p).
+[LINE#120] Thus the class tp(X) corresponds to the Rost numbers for a certain combination of Steenrod operations (see [22, p. 20]) under the map Z/nXZ/nX(p).When f:.
+0.913	[*A*]the class tp[*R*]corresponds[*A*]to the Rost numbers	context()	negated: False ,passive: True
+[LINE#121]YX is a morphism between varieties of the same dimension, then the integer degf is defined as the degree of the extension of function fields when f is dominant, and as zero otherwise.
+0.858	[*A*]YX[*R*]is[*A*]a morphism between varieties of the same dimension	context(the integer degf is defined)	negated: False ,passive: True
+0.934	[*A*]the integer degf[*R*]is defined[*A*]as the degree of the extension of function fields[*A*]then	context()	negated: False ,passive: True
+0.671	[*A*]f[*R*]is[*A*]dominant	context()	negated: False ,passive: True
+[LINE#122] :YX be a morphism of integral projective varieties of the same dimension i(p-1) with 0.
+0.926	[*A*]YX[*R*]be[*A*]a morphism of integral projective varieties of the same dimension	context()	negated: False ,passive: True
+[LINE#123]Thentp(Y)=degftp(X)modnX(p).ProofWe have in K0(X)(13)f[OY]=degf[OX]+ with K0(X)(i(p-1)-1).
+[LINE#124]This element  can be written as a linear combination of elements of type [OZ], for Z a closed subvariety of X, with dimZi(p-1)-1.
+0.993	[*A*]This element[*R*]can be written with[*A*]-1	context()	negated: False ,passive: False
+0.732	[*A*]This element[*R*]can be written	context()	negated: False ,passive: False
+[LINE#125]Note that nX(p)|nZ(p) for such Z.
+[LINE#126]The result is obtained by projecting (13) to K0(Spec(k)), and using Proposition 9.1.Thus the class tp(-) is defined for varieties of dimension i(p-1) when i is arbitrary, satisfies the degree formula when ip, and is of p-torsion when ip-1.Remark 9.5Let X be a projective variety of dimension i(p-1), with ip.
+0.698	[*A*]The result[*R*]by projecting	context()	negated: False ,passive: False
+0.732	[*A*]The result[*R*]is obtained	context()	negated: False ,passive: False
+0.935	[*A*]ip - 1.Remark 9.5Let X[*R*]be[*A*]a projective variety of dimension i ( p - 1 ) , with ip	context()	negated: False ,passive: True
+0.520	[*A*]i[*R*]satisfies[*A*]the degree formula when ip i ( p - 1 ) , with ip[*A*]when i is arbitrary	context()	negated: False ,passive: False
+0.278	[*A*]i[*R*]is[*A*]arbitrary	context()	negated: False ,passive: True
+[LINE#127] Assume that there is a morphism f:XY, for some projective variety Y, such that.
+[LINE#128]Integrality in arbitrary characteristicProposition 3.1Let lZ-{0}, X a variety, and xK0(X)(d) .
+[LINE#129] -dxK0(X)(d-1)Z[1/l].ProofWhen l.
+[LINE#130]Actually we obtained this result using the formula p(-d)=p-d,(dZ), which is true when p is an arbitrary element of Z-{0}.
+0.550	[*A*]we[*R*]obtained this result using[*A*]the formula p(-d)=p-d,(dZ), which is true	context(we obtained)	negated: False ,passive: False
+0.388	[*A*]we[*R*]obtained[*A*]this result	context()	negated: False ,passive: False
+0.874	[*A*]p[*R*]is[*A*]an arbitrary element of Z-{0	context()	negated: False ,passive: True
+0.957	[*A*]the formula p[*R*]is[*A*]true[*A*]when p is an arbitrary element of Z-{0	context()	negated: False ,passive: True
+[LINE#131] Therefore, we can obtain the proposition using the proof of [15,.
+0.388	[*A*]we[*R*]can obtain the proposition using[*A*]the proof of [15	context(we can obtain)	negated: False ,passive: False
+0.388	[*A*]we[*R*]can obtain[*A*]the proposition	context()	negated: False ,passive: False
+[LINE#132] Lemma 6.1].Alternatively, one can assume that X is integral and d=dimX. Then we have an exact sequence 0K0(X)(d-1)Z[1/l]K0(X)(d)Z[1/l]K0(Spec(k(X)))Z[1/l]0, and the statement is a consequence of [16, Lemma 4.2].
+0.842	[*A*]X[*R*]is[*A*]d=dimX	context(one can assume)	negated: False ,passive: True
+0.351	[*A*]one[*R*]can assume[*A*]that X is d=dimX	context()	negated: False ,passive: False
+0.610	[*A*]X[*R*]is[*A*]integral	context(one can assume)	negated: False ,passive: True
+0.310	[*A*]one[*R*]can assume[*A*]that X is integral	context()	negated: False ,passive: False
+[LINE#133] Theorem 3.2p-integrality holds in codimensionp(p-1)-1.ProofWe must prove Statement 1.1 with c=p(p-1)-1.
+0.938	[*A*]-1.ProofWe[*R*]must prove[*A*]Statement 1.1	context()	negated: False ,passive: False
+0.918	[*A*]integrality[*R*]holds[*A*]in codimensionp	context()	negated: False ,passive: True
+[LINE#134]For all d, the case n=0 immediately follows from [9, Theorem 18.3, (5)].
+0.944	[*A*]the case[*R*]follows[*A*]from [9, Theorem 18.3, (5[*A*]immediately	context()	negated: False ,passive: True
+[LINE#135]In particular, the theorem is proved when d=0.
+0.767	[*A*]the theorem[*R*]is proved[*A*]when d=0	context()	negated: False ,passive: True
+[LINE#136] We can therefore proceed by induction on d, and assume that n>0.For all i1, define an integer ap(i)={1 if p-1|i0 otherwiseso that we have (6)[np-1]=[n-1p-1]+ap(n).Since 0<n<p(p-1), we can use Lemma 3.3 below to choose an integer l, prime to p,such that (7)vp(ln-1)=ap(n).Write, in K0(X)Z[1/l], using Proposition 3.1, l(x)=l-dx+l-d-m with K0(X)(d-1), and m0.
+0.078	[*A*]We[*R*]assume[*A*]that n >	context(7 ) vp ( ln - 1 ) =ap ( n Write)	negated: False ,passive: False
+0.938	[*A*]7 ) vp ( ln - 1 ) =ap ( n[*R*]Write[*A*]in K0 ( X ) Z	context()	negated: False ,passive: False
+0.293	[*A*]we[*R*]can use Lemma 3.3 to choose[*A*]an integer l , prime to p	context(we can use)	negated: False ,passive: False
+0.686	[*A*]we[*R*]can use[*A*]Lemma 3.3[*A*]below to choose an integer l , prime to p[*A*]Since 0	context()	negated: False ,passive: False
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+0.843	[*A*]1 / l[*R*]using[*A*]Proposition 3.1	context()	negated: False ,passive: False
+0.527	[*A*]all i1[*R*]define[*A*]an integer ap	context()	negated: False ,passive: False
+0.938	[*A*]7 ) vp ( ln - 1 ) =ap ( n[*R*]Write[*A*]in K0 ( X ) Z	context(We assume)	negated: False ,passive: False
+0.174	[*A*]We[*R*]assume[*A*]n - 1p - 1 ] +ap ( n ) . Since 0 < n < p ( p - 1 ) , we can use Lemma 3.3 below to choose an integer l , prime to p , such that ( 7 ) vp ( ln - 1 ) =ap ( n ) . Write , in K0 ( X ) Z	context()	negated: False ,passive: False
+0.310	[*A*]We[*R*]can proceed[*A*]on d	context()	negated: False ,passive: False
+[LINE#137] Then applying ld+mchd-n to the relation above, and using Proposition 2.4, we obtain in CHd-n(X)Qlm(ln-1)chd-.
+0.157	[*A*]we[*R*]obtain	context()	negated: False ,passive: False
+[LINE#138]Because of (7), we get vp(chd-n(x))=vp(chd-n())+ap(n).We conclude using (6) and the induction hypothesis for K0(X)(d-1).
+0.522	[*A*]we[*R*]get[*A*]vp[*A*]=vp	context()	negated: False ,passive: False
+0.477	[*A*]we[*R*]get vp[*A*]x ) ) =vp	context()	negated: False ,passive: False
+[LINE#139]Lemma 3.3Let p be a prime number.
+0.944	[*A*]Lemma 3.3Let[*R*]p be[*A*]a prime number	context()	negated: False ,passive: True
+[LINE#140]Then there exists an integer l, prime to p, with the following properties(a)If n is not divisible by p-1, then ln-1 is not divisible by p.(b)If n is not divisible by p(p-1), then ln-1 is not divisible by p2.ProofTake for l an integer whose class modulo p2 generates the cyclic group (Z/p2).
+0.897	[*A*]l an integer[*R*]generates[*A*]the cyclic group	context()	negated: False ,passive: False
+0.168	[*A*]ln-1[*R*]is not[*A*]divisible	context()	negated: True ,passive: True
+[LINE#141] Then one checks easily that the class of l modulo p generates the cyclic group (Z/p). Remark 3.4In contrast with [14] where the normalization procedure was used, we do not use geometric arguments here.
+0.452	[*A*]we[*R*]do not use[*A*]geometric arguments[*A*]here	context()	negated: True ,passive: False
+0.751	[*A*]the normalization procedure[*R*]was used	context()	negated: False ,passive: False
+[LINE#142]We only use basic relations between Adams operations, Chern character, and filtration on K-theory.
+0.456	[*A*]We[*R*]use[*A*]filtration on K - theory	context()	negated: False ,passive: False
+0.456	[*A*]We[*R*]use[*A*]Chern character	context()	negated: False ,passive: False
+0.456	[*A*]We[*R*]use[*A*]basic relations between Adams operations	context()	negated: False ,passive: False
+[LINE#143]Using [3, (1.5)] in place of Proposition 3.1, and [2, Theorem 5.1, (vi)] in place of Proposition 2.4, one could proceed as above to replace the assumption "X is without torsion" by "n<p(p-1)" in [4, Theorem 7.1], thus giving an elementary proof of the p-primary part of [1, Theorem 1], for small n.
+0.446	[*A*]one[*R*]could proceed to replace[*A*]the assumption " X is without torsion	context(one could proceed)	negated: False ,passive: False
+0.446	[*A*]one[*R*]could proceed to replace[*A*]the assumption " X is without torsion	context(one could proceed)	negated: False ,passive: False
+0.664	[*A*]one[*R*]could proceed[*A*]as above to replace the assumption " X is without torsion	context()	negated: False ,passive: False
+0.852	[*A*]X[*R*]is[*A*]without torsion	context()	negated: False ,passive: True
+[LINE#144]Note also that the approach of [14] is limited by nature to schemes whose normalization morphism is of finite type, while Theorem 3.2 is valid for more general schemes (see Appendix).
+0.944	[*A*]Theorem 3.2[*R*]is[*A*]valid[*A*]for more general schemes	context()	negated: False ,passive: True
+0.919	[*A*]schemes[*R*]is[*A*]of finite type[*A*]while Theorem 3.2 is valid for more general schemes	context()	negated: False ,passive: True
+[LINE#145]The Grothendieck-Riemann-Roch theorem of [5] can be expressed as the existence of the homological Chern character, a collection of group morphisms chi:K0(X)CHi(X)Q, which are compatible with projective push-forwards.
+0.928	[*A*]the homological Chern character[*R*]are[*A*]compatible with projective push-forwards	context()	negated: False ,passive: True
+0.965	[*A*]The Grothendieck-Riemann-Roch theorem of [5[*R*]can be expressed[*A*]as the existence of the homological Chern character	context()	negated: False ,passive: True
+[LINE#146] Here X is a (possibly singular) algebraic variety, K0(X) the Grothendieck group of coherent sheaves, and CHi(X)Q the Chow group of X of algebraic cycles of dimension.
+0.952	[*A*]X[*R*]is[*A*]the Chow group of X of algebraic cycles of dimension[*A*]Here	context()	negated: False ,passive: True
+0.912	[*A*]X[*R*]is[*A*]a ( possibly singular ) algebraic variety[*A*]Here	context()	negated: False ,passive: True
+[LINE#147]Compatibility with pull-backs is expressed by a Riemann-Roch type formula involving the Todd class.
+0.957	[*A*]a Riemann-Roch type formula[*R*]involving[*A*]the Todd class	context()	negated: False ,passive: True
+0.937	[*A*]Compatibility with pull-backs[*R*]is expressed[*A*]by a Riemann-Roch type formula	context()	negated: False ,passive: True
+[LINE#148]Given a prime number p, one can formulate the following statement describing a p-integrality property of the homological Chern character.
+0.952	[*A*]the following statement[*R*]describing[*A*]a p-integrality property of the homological Chern character	context()	negated: False ,passive: False
+0.755	[*A*]one[*R*]can formulate[*A*]the following statement describing a p-integrality property of the homological Chern character	context()	negated: False ,passive: False
+[LINE#149]ConjectureLet X be a variety, and n a positive integer.
+0.944	[*A*]ConjectureLet X[*R*]be[*A*]a variety	context()	negated: False ,passive: True
+[LINE#150]Thenp[n/(p-1)]chdimX-n[OX]im(CHdimX-n(X)Z(p)CHdimX-n(X)Q).
+[LINE#151]The topological analog of this conjecture was stated and proved by Adams in [1, Theorem 1].
+0.993	[*A*]The topological analog of this conjecture[*R*]was proved in[*A*]1	context()	negated: False ,passive: False
+0.943	[*A*]The topological analog of this conjecture[*R*]was proved[*A*]by Adams[*A*]in [ 1	context()	negated: False ,passive: True
+0.801	[*A*]The topological analog of this conjecture[*R*]was stated	context()	negated: False ,passive: False
+[LINE#152]A more elementary proof of this topological result was later given by Atiyah [4, Theorem 7.1], under the quite restrictive assumption that X is a CW-complex whose homology has no torsion.
+0.980	[*A*]Theorem 7.1], under the quite restrictive assumption that X[*R*]is[*A*]a CW-complex	context()	negated: False ,passive: True
+0.959	[*A*]A more elementary proof of this topological result[*R*]was given[*A*]by Atiyah [4[*A*]later	context()	negated: False ,passive: True
+[LINE#153]Although our approach is more akin to Atiyah's than Adams' (where in particular Steenrod operations were used), no condition of such nature will appear.
+0.785	[*A*]no condition of such nature[*R*]will appear	context()	negated: False ,passive: False
+0.738	[*A*]our approach[*R*]is[*A*]more akin to Atiyah's than Adams'	context()	negated: False ,passive: True
+[LINE#154]In [14, Theorem 4.4], we proved the conjecture for p=2 and n=1.
+0.595	[*A*]we[*R*]proved[*A*]the conjecture for n=1[*A*]In [ 14	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]proved[*A*]the conjecture for p=2[*A*]In [ 14	context()	negated: False ,passive: False
+[LINE#155]In the present article, we prove it for n<p(p-1), and any p (Section 3).
+0.444	[*A*]we[*R*]prove[*A*]it[*A*]In the present article	context()	negated: False ,passive: False
+[LINE#156]In particular we recover the previously obtained result, using an argument of different nature.
+0.452	[*A*]we[*R*]recover[*A*]the previously obtained result[*A*]using an argument of different nature	context()	negated: False ,passive: False
+[LINE#157]We discuss in Appendix how this result can be extended to the more general setting of a scheme of finite type over a regular base.
+0.920	[*A*]this result[*R*]can be extended[*A*]to the more general setting of a scheme of finite type over a regular base	context(We discuss)	negated: False ,passive: True
+0.550	[*A*]We[*R*]discuss[*A*]in Appendix[*A*]how this result can be extended to the more general setting of a scheme of finite type over a regular base	context()	negated: False ,passive: False
+[LINE#158]Let us mention that the conjecture is an immediate consequence of the formula expressing compatibility of the homological Chern character with pull-backs when X is smooth, or more generally a local complete intersection variety.
+0.903	[*A*]X[*R*]is[*A*]smooth, or more generally a local complete intersection variety	context()	negated: False ,passive: True
+0.937	[*A*]the formula[*R*]expressing[*A*]compatibility of the homological Chern character with pull-backs	context()	negated: False ,passive: False
+[LINE#159]This remark can be used to prove the conjecture in the presence of some form of resolution of singularities.
+0.937	[*A*]This remark[*R*]can be used[*A*]to prove the conjecture in the presence of some form of resolution of singularities	context()	negated: False ,passive: True
+[LINE#160]Using a result of Gabber on existence of regular alterations, we prove the conjecture for all n, when the characteristic of the base field is not p.
+0.504	[*A*]we[*R*]prove[*A*]the conjecture for all[*A*]when the characteristic of the base field is not p.	context()	negated: False ,passive: False
+0.932	[*A*]the characteristic of the base field[*R*]is not[*A*]p.	context()	negated: True ,passive: True
+[LINE#161]The n-th Steenrod operation on Chow groups modulo p is an endomorphism of the Chow group with Z/p-coefficients which lowers dimension of cycles by n(p-1).
+0.983	[*A*]The n - th Steenrod operation on p[*R*]is[*A*]an endomorphism of the Chow group with Z / p - coefficients	context()	negated: False ,passive: True
+0.934	[*A*]Z / p - coefficients[*R*]lowers[*A*]dimension of cycles[*A*]by n ( p - 1	context()	negated: False ,passive: False
+0.985	[*A*]The n - th Steenrod operation on Chow groups[*R*]is[*A*]an endomorphism of the Chow group with Z / p - coefficients	context()	negated: False ,passive: True
+[LINE#162]The Steenrod operations constitute an efficient tool for studying rationality properties of projective homogeneous varieties.
+0.957	[*A*]The Steenrod operations[*R*]constitute[*A*]an efficient tool for studying rationality properties of projective homogeneous varieties	context()	negated: False ,passive: False
+[LINE#163] The classical constructions of the operations modulo p[6-8,21,30]do not work over a field of characteristic p.
+0.917	[*A*]The classical constructions of the operations[*R*]modulo[*A*]p	context()	negated: False ,passive: False
+[LINE#164]In [14], we constructed a weak form of the operation for p=2 and n=1, over any field.
+0.595	[*A*]we[*R*]constructed[*A*]a weak form of the operation[*A*]for n=1[*A*]In [ 14	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]constructed[*A*]a weak form of the operation[*A*]for p=2[*A*]In [ 14	context()	negated: False ,passive: False
+[LINE#165]We later obtained the full version of this operation in [16].
+0.554	[*A*]We[*R*]obtained[*A*]the full version of this operation[*A*]later	context()	negated: False ,passive: False
+[LINE#166] In the present paper, we construct a weak form of the n-th Steenrod operation modulo p, for p an arbitrary prime and n=1,.
+0.740	[*A*]we[*R*]construct[*A*]a weak form of the n - th Steenrod operation modulo p[*A*]In the present paper	context()	negated: False ,passive: False
+[LINE#167] More precisely, assuming that the conjecture above holds true for nm(p-1), and given any (possibly singular) variety X over an arbitrary field, we construct for each integer i such that 0<im, a morphism of graded abelian groups.
+0.452	[*A*]we[*R*]construct[*A*]for each integer	context()	negated: False ,passive: False
+0.903	[*A*]the conjecture[*R*]above holds[*A*]true for nm	context()	negated: False ,passive: False
+0.123	[*A*]i[*R*]such[*A*]that 0 <	context()	negated: False ,passive: False
+[LINE#168]Ti:CH(X)Z/pCH-i(p-1)(X)Z/p.
+[LINE#169]Here CHd is the quotient of the Chow group CHd by its torsion subgroup.
+0.936	[*A*]CHd[*R*]is[*A*]the quotient of the Chow group CHd by its torsion subgroup[*A*]Here	context()	negated: False ,passive: True
+[LINE#170]These morphisms are compatible with proper push-forwards, external products, and extension of the base field.
+0.903	[*A*]These morphisms[*R*]are[*A*]compatible with extension of the base field	context()	negated: False ,passive: True
+0.903	[*A*]These morphisms[*R*]are[*A*]compatible with external products	context()	negated: False ,passive: True
+0.903	[*A*]These morphisms[*R*]are[*A*]compatible with proper push - forwards	context()	negated: False ,passive: True
+[LINE#171]We also provide a Riemann-Roch type formula expressing compatibility with pull-backs along local complete intersection morphisms.
+0.949	[*A*]a Riemann-Roch type formula[*R*]expressing[*A*]compatibility	context()	negated: False ,passive: False
+0.456	[*A*]We[*R*]provide[*A*]a Riemann-Roch type formula	context()	negated: False ,passive: False
+[LINE#172]Thus we construct operations T1,,Tp-1 unconditionally, and operations Ti for all i>0 when the characteristic of the base field is not p.
+0.932	[*A*]the characteristic of the base field[*R*]is not[*A*]p.	context()	negated: True ,passive: True
+0.498	[*A*]we[*R*]construct[*A*]operations[*A*]T1	context()	negated: False ,passive: False
+[LINE#173]The operation Ti corresponds-up to a sign-to the i-th Steenrod operation modulo p when ip.
+[LINE#174]More generally, the total operation iTi corresponds to the inverse of the total Steenrod operation jSj.
+0.949	[*A*]the total operation iTi[*R*]corresponds[*A*]to the inverse of the total Steenrod operation jSj	context()	negated: False ,passive: True
+[LINE#175]We explain how to recover the operation induced by Sj on reduced Chow groups (the reduced Steenrod operation) from the operations Ti.
+0.918	[*A*]the operation[*R*]induced[*A*]by Sj[*A*]on reduced Chow groups	context()	negated: False ,passive: True
+0.614	[*A*]We[*R*]explain[*A*]how to recover the operation induced by Sj on reduced Chow groups (the reduced Steenrod operation) from the operations Ti	context()	negated: False ,passive: False
+[LINE#176]In the last part of this paper, we prove the degree formula corresponding to the operations Ti.
+0.911	[*A*]the degree formula[*R*]corresponding[*A*]to the operations	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]prove[*A*]the degree formula corresponding to the operations Ti[*A*]In the last part of this paper	context()	negated: False ,passive: False
+[LINE#177] Since we only proved the conjecture in general for small values of n, we need to work with varieties of dimension p(p-1)(note that the dimension p(p-1) is allowed).
+0.397	[*A*]we[*R*]need to work[*A*]with varieties of dimension p	context(we need)	negated: False ,passive: False
+0.397	[*A*]we[*R*]need[*A*]to work with varieties of dimension p	context()	negated: False ,passive: False
+0.718	[*A*]the dimension p[*R*]is allowed	context()	negated: False ,passive: False
+0.411	[*A*]we[*R*]proved[*A*]the conjecture in general for small values of n	context()	negated: False ,passive: False
+[LINE#178]We first give a bound on the p-adic valuation of the index of a projective variety in terms of its dimension and of the Euler characteristic of its structure sheaf.
+0.566	[*A*]We[*R*]give[*A*]a bound on the p - adic valuation of the index of a projective variety in terms of the Euler characteristic of its structure sheaf[*A*]first	context()	negated: False ,passive: False
+0.520	[*A*]We[*R*]give[*A*]a bound on the p - adic valuation of the index of a projective variety in terms of its dimension[*A*]first	context()	negated: False ,passive: False
+[LINE#179]Then we deduce from the degree formula that the Severi-Brauer variety of a central division algebra of prime degree p is strongly p-incompressible.
+0.935	[*A*]the Severi-Brauer variety of a central division algebra of prime degree p[*R*]is[*A*]strongly p-incompressible	context(we deduce)	negated: False ,passive: True
+0.444	[*A*]we[*R*]deduce[*A*]from the degree formula[*A*]that the Severi-Brauer variety of a central division algebra of prime degree p is strongly p-incompressible[*A*]Then	context()	negated: False ,passive: False
+[LINE#180]This is a new statement when the base field has characteristic p.
+0.932	[*A*]the base field[*R*]has[*A*]characteristic p.	context()	negated: False ,passive: False
+0.567	[*A*]This[*R*]is[*A*]a new statement when the base field has characteristic p.	context()	negated: False ,passive: True
+[LINE#181] Finally, we show that the Euler characteristic of the structure sheaf of a smooth projective variety of dimension p-1, possessing a special correspondence but no zero-cycle of degree prime to p, is prime top. This extends a statement of Rost to arbitrary base fields.
+0.979	[*A*]the Euler characteristic of the structure sheaf of a smooth projective variety of dimension p-1[*R*]is[*A*]prime top	context(we show This extends)	negated: False ,passive: True
+0.514	[*A*]we[*R*]show[*A*]that the Euler characteristic of the structure sheaf of a smooth projective variety of dimension p-1, possessing a special correspondence but no zero-cycle of degree prime to p, is prime top[*A*]Finally	context(This extends)	negated: False ,passive: False
+0.363	[*A*]This[*R*]extends[*A*]a statement of Rost[*A*]to arbitrary base fields	context()	negated: False ,passive: False
+0.939	[*A*]a smooth projective variety of dimension p-1[*R*]possessing[*A*]a special correspondence	context()	negated: False ,passive: False
+[LINE#182]k. A variety is a finite type, separated, quasi-projective scheme over k. A morphism of varieties is a morphism of schemes over k. We will denote by V ar/k this category.
+0.407	[*A*]We[*R*]will denote[*A*]this category	context()	negated: False ,passive: False
+0.960	[*A*]A variety[*R*]is[*A*]a finite type, separated, quasi-projective scheme over k. A morphism of varieties	context()	negated: False ,passive: True
+[LINE#183]We also denote by Proj/k the category with the same objects, but with morphisms only those which are projective.
+0.771	[*A*]with morphisms only those[*R*]are[*A*]projective	context()	negated: False ,passive: True
+0.170	[*A*]We[*R*]denote	context()	negated: False ,passive: False
+[LINE#184]The function field of an integral variety X shall be denoted by k(X).Integral elements.
+0.943	[*A*]The function field of an integral variety X[*R*]shall be denoted[*A*]by k(X).Integral elements	context()	negated: False ,passive: True
+[LINE#185]For a number Q, we write [] for the greatest integer .
+0.596	[*A*]we[*R*]write[*A*]for the greatest integer[*A*]For a number Q	context()	negated: False ,passive: False
+[LINE#186] For any commutative ring R we write AR for AZR, and, if S is another commutative ring containing R, we write ARS.
+0.498	[*A*]we[*R*]write[*A*]ARS	context()	negated: False ,passive: False
+0.911	[*A*]another commutative ring[*R*]containing[*A*]R	context()	negated: False ,passive: False
+0.852	[*A*]S[*R*]is[*A*]another commutative ring containing R	context()	negated: False ,passive: True
+0.498	[*A*]we[*R*]write[*A*]AR[*A*]for AZR	context()	negated: False ,passive: False
+[LINE#187] Note that if A is a ring, then ARS is a subring of AS.Let p (the subring of Q consisting of fractions with denominator prime to p), S=Q, and xAQ-{0}, we denote by vp(x) vp(x+y)min(vp(x),vp(y)).If A is a commutative ring,1)vp(am)vp(a)+vp(m).Grothendieck groups of schemes.
+0.857	[*A*]a subring of AS.Let[*R*]p[*A*]0	context()	negated: False ,passive: True
+0.449	[*A*]A[*R*]is[*A*]a commutative ring	context()	negated: False ,passive: True
+0.939	[*A*]the subring of Q[*R*]consisting[*A*]of fractions with denominator prime to p	context()	negated: False ,passive: True
+0.449	[*A*]A[*R*]is[*A*]a ring	context()	negated: False ,passive: True
+[LINE#188]the presheaf of rings on V ar/k which associates to a variety X the Grothendieck ring of locally-free coherent OX-modules.
+0.831	[*A*]V ar/k[*R*]associates[*A*]to a variety X	context()	negated: False ,passive: False
+[LINE#189] the functor Proj/kAb which associates to a variety.
+0.934	[*A*]the functor Proj/kAb[*R*]associates[*A*]to a variety	context()	negated: False ,passive: False
+[LINE#190]X the Grothendieck group of coherent OX-modules.
+[LINE#191]Here, and in the rest of the paper, the notation Ab stands for the category of abelian groups.
+0.971	[*A*]the notation Ab[*R*]stands[*A*]for the category of abelian groups[*A*]Here[*A*]in the rest of the paper	context()	negated: False ,passive: True
+[LINE#192]Local complete intersection morphisms.
+[LINE#193]These are the morphisms of varieties f:YX which can be factored as pi, with i a regular closed embedding, and p a smooth morphism.
+0.786	[*A*]YX[*R*]can be factored[*A*]as pi	context()	negated: False ,passive: True
+0.815	[*A*]the morphisms of varieties[*R*]f	context()	negated: False ,passive: False
+0.544	[*A*]These[*R*]are[*A*]the morphisms of varieties	context()	negated: False ,passive: True
+[LINE#194]Such a morphism admits a virtual tangent bundle Tf=i[Tp]-[Ni]K0(Y), where Tp is the tangent bundle of p, and Ni the normal bundle of i.
+0.925	[*A*]Such a morphism[*R*]admits[*A*]a virtual tangent bundle Tf=i [ Ni	context()	negated: False ,passive: False
+0.887	[*A*]Tp[*R*]is[*A*]the tangent bundle of p	context()	negated: False ,passive: True
+0.925	[*A*]Such a morphism[*R*]admits[*A*]a virtual tangent bundle Tf=i	context()	negated: False ,passive: False
+[LINE#195]This element does not depend on the choice of the factorization.
+0.903	[*A*]This element[*R*]does not depend[*A*]on the choice of the factorization	context()	negated: True ,passive: False
+[LINE#196]There are pull-backs f:CH(X)CH(Y) and f:K0(X)K0(Y).
+0.697	[*A*]X[*R*]f	context()	negated: False ,passive: False
+[LINE#197] We call a variety X a local complete intersection variety if its structural morphismx:XSpec(k) is a local complete intersection morphism.
+0.685	[*A*]its structural morphismx:XSpec[*R*]is[*A*]a local complete intersection morphism	context()	negated: False ,passive: True
+0.488	[*A*]We[*R*]call[*A*]a variety X[*A*]a local complete intersection variety[*A*]if its structural morphismx:XSpec(k) is a local complete intersection morphism	context()	negated: False ,passive: False
+[LINE#198]the virtual tangent bundle Tx of x.
+[LINE#199]Let X be a variety, and d an integer.
+[LINE#200]the subgroup of K0(X) generated by those OX-modules whose support has dimension d.
+0.945	[*A*]those OX-modules[*R*]has[*A*]dimension	context()	negated: False ,passive: False
+0.618	[*A*]X[*R*]generated[*A*]by those OX-modules	context()	negated: False ,passive: True
+[LINE#201] It coincides with the subgroup generated by elements of type i[OZ], where i:.
+0.835	[*A*]the subgroup[*R*]generated[*A*]by elements of type i	context()	negated: False ,passive: True
+0.195	[*A*]It[*R*]coincides	context()	negated: False ,passive: False
+[LINE#202]ZX is a closed embedding, and dimZd.
+0.634	[*A*]ZX[*R*]is dimZd	context()	negated: False ,passive: False
+0.887	[*A*]ZX[*R*]is[*A*]a closed embedding	context()	negated: False ,passive: True
+[LINE#203] When f:YX is a projective morphism, we have fK0(Y)(d)K0(X)(d).When f:YX is a local complete intersection morphism of relative dimension n , we have [11, Theorem 83 and Lemma 84]fK0(X)(d)K0(Y)(d+n).Theassociated graded group is denoted by grdK0(X)=K0(X)(d)/K0(X)(d-1).
+0.980	[*A*]fK0 ( X ) ( d ) K0 ( Y ) ( d+n ) . Theassociated[*R*]graded[*A*]group	context()	negated: False ,passive: False
+0.991	[*A*]fK0 ( X ) ( d ) K0 ( Y ) ( d+n ) . Theassociated graded group[*R*]is denoted[*A*]by grdK0[*A*]we have fK0 ( Y ) ( d ) K0 ( X ) ( d ) . When f : YX is a local complete intersection morphism of relative dimension n , we have [ 11	context()	negated: False ,passive: True
+0.920	[*A*]Theassociated[*R*]graded[*A*]group	context()	negated: False ,passive: False
+0.986	[*A*]Theorem 83 fK0 ( X ) ( d ) K0 ( Y ) ( d+n ) . Theassociated graded group[*R*]is denoted[*A*]by grdK0[*A*]we have fK0 ( Y ) ( d ) K0 ( X ) ( d ) . When f : YX is a local complete intersection morphism of relative dimension n , we have [ 11	context()	negated: False ,passive: True
+0.887	[*A*]YX[*R*]is[*A*]a projective morphism	context()	negated: False ,passive: True
+[LINE#204]There is a natural transformation of functors Proj/kAb(2)-:CH(-)grK0(-) which respects the gradings [9, Example 15.5].
+0.833	[*A*]CH[*R*]respects[*A*]the gradings	context()	negated: False ,passive: False
+[LINE#205]It is moreover compatible with pull-backs along local complete intersection morphisms, external products, and extension of the base field (see [15, Section 3]).Chow cohomology ring.
+0.637	[*A*]It[*R*]is[*A*]moreover compatible with pull - backs along local complete extension of the base field	context()	negated: False ,passive: True
+0.637	[*A*]It[*R*]is[*A*]moreover compatible with pull - backs along local complete external products	context()	negated: False ,passive: True
+0.637	[*A*]It[*R*]is[*A*]moreover compatible with pull - backs along local complete intersection morphisms	context()	negated: False ,passive: True
+[LINE#206] Let X be a possibly singular variety, and consider the operational Chow ring CH(XidX).
+[LINE#207]When resolution of singularities is available, this ring is commutative [9, Example 17.4.4].
+0.957	[*A*]this ring[*R*]is[*A*]commutative[*A*]When resolution of singularities is available	context()	negated: False ,passive: True
+0.828	[*A*]resolution of singularities[*R*]is[*A*]available	context()	negated: False ,passive: True
+[LINE#208]such that for any morphism f:YX the element fx belongs to the center of CH(YidY).
+0.925	[*A*]the element fx[*R*]belongs[*A*]to the center of CH	context()	negated: False ,passive: False
+[LINE#209]The group CH(X) has a natural structure of a CH(X)-module.
+0.953	[*A*]The group[*R*]has[*A*]a natural structure of a CH(X)-module	context()	negated: False ,passive: False
+[LINE#210]We obtain a presheaf of commutative rings CH on V ar/k, in which Chern classes of vector bundles take their values [9, Proposition 17.3.2].When E is a vector bundle over a variety X, we write Td(E)CH(X)Q for the total Todd class [9, Example 3.2.4].
+0.409	[*A*]We[*R*]obtain[*A*]a presheaf of commutative rings CH on V ar/k, in which Chern classes of vector bundles take their values	context(we write)	negated: False ,passive: False
+0.443	[*A*]we[*R*]write[*A*]Td(E	context()	negated: False ,passive: False
+0.852	[*A*]E[*R*]is[*A*]a vector bundle over a variety X	context()	negated: False ,passive: True
+0.942	[*A*]Chern classes of vector bundles[*R*]take[*A*]their values[*A*]a presheaf of commutative rings	context()	negated: False ,passive: False
+[LINE#211]The individual components are Tdi(E)CHi(X)Q.Chern character.
+0.925	[*A*]The individual components[*R*]are[*A*]Tdi	context()	negated: False ,passive: True
+[LINE#212] The homological Chern character is a natural transformation of functors ProjAbch:.
+0.953	[*A*]The homological Chern character[*R*]is[*A*]a natural transformation of functors	context()	negated: False ,passive: True
+[LINE#213]This is the map  of [9, Theorem 18.3].
+0.495	[*A*]This[*R*]is[*A*]the map  of [9, Theorem 18.3	context()	negated: False ,passive: True
+[LINE#214]Its component of dimension i will be chi:K0(-)CHi(-)Q.Adams operations.
+0.614	[*A*]i[*R*]will be[*A*]chi:K0(-)CHi(-)Q.Adams operations	context()	negated: False ,passive: True
+[LINE#215] The l-th homological Adams operation is a natural transformation of functors ProjAbl:K0(-)K0(-)Z[1/.
+0.981	[*A*]The l-th homological Adams operation[*R*]is[*A*]a natural transformation of functors ProjAbl:K0(-)K0(-)Z[1	context()	negated: False ,passive: True
+[LINE#216] Integrality of the Chern characterWe fix a prime number.
+0.957	[*A*]Integrality of the Chern characterWe[*R*]fix[*A*]a prime number	context()	negated: False ,passive: False
+[LINE#217]We say that p-integrality holds in codimension c if the following statement is true.
+0.793	[*A*]the following statement[*R*]is[*A*]true	context(We say)	negated: False ,passive: True
+0.397	[*A*]We[*R*]say[*A*]if the following statement is true	context()	negated: False ,passive: False
+0.916	[*A*]p - integrality[*R*]holds[*A*]in codimension	context(We say)	negated: False ,passive: False
+0.194	[*A*]We[*R*]say[*A*]that p - integrality holds in codimension	context()	negated: False ,passive: False
+[LINE#218]X be a variety and d0 an integer.
+0.852	[*A*]X[*R*]d0[*A*]an integer	context()	negated: False ,passive: False
+0.852	[*A*]X[*R*]be[*A*]a variety	context()	negated: False ,passive: True
+[LINE#219]Then for all integers n such that 0nc, and all elements xK0(X)(d), we havevp(chd-n(x))-[np-1].
+0.195	[*A*]we[*R*]havevp	context()	negated: False ,passive: False
+[LINE#220]We prove in Section 3 that p-integrality holds in codimension p(p-1)-1.
+0.932	[*A*]p-integrality[*R*]holds[*A*]in codimension p	context()	negated: False ,passive: False
+0.231	[*A*]We[*R*]prove[*A*]in Section 3[*A*]that p-integrality holds in codimension p	context()	negated: False ,passive: False
+[LINE#221]Moreover, we prove in Section 4 that p-integrality holds in codimension m for all m when the characteristic of the base field is not p.
+0.944	[*A*]p-integrality[*R*]holds[*A*]in codimension m[*A*]when the characteristic of the base field is not p.	context(we prove)	negated: False ,passive: False
+0.271	[*A*]we[*R*]prove[*A*]in Section 4[*A*]that p-integrality holds in codimension m for all m when the characteristic of the base field is not p.	context()	negated: False ,passive: False
+0.932	[*A*]the characteristic of the base field[*R*]is not[*A*]p.	context()	negated: True ,passive: True
+[LINE#222]We expect that this assumption is superfluous.
+0.777	[*A*]this assumption[*R*]is[*A*]superfluous	context(We expect)	negated: False ,passive: True
+0.194	[*A*]We[*R*]expect[*A*]that this assumption is superfluous	context()	negated: False ,passive: False
+[LINE#223] In this section, we assume that integrality holds in codimension m(p-1), and describe some functorial properties of the operations T0,,Tm constructed in Section 5.Proposition:YX be a local complete intersection morphism.
+0.550	[*A*]oposition:YX[*R*]be[*A*]a local complete intersection morphism	context(we assume)	negated: False ,passive: True
+0.293	[*A*]we[*R*]assume[*A*]that oposition:YX be a local complete intersection morphism[*A*]In this section	context()	negated: False ,passive: False
+0.350	[*A*]we[*R*]assume[*A*]that p - 1[*A*]In this section	context()	negated: False ,passive: False
+0.896	[*A*]integrality[*R*]holds[*A*]in codimension m	context(we assume)	negated: False ,passive: True
+0.293	[*A*]we[*R*]assume[*A*]that integrality holds in codimension m[*A*]In this section	context()	negated: False ,passive: False
+[LINE#224]Let i be an integer such that 0im .
+[LINE#225]Then we haveTif=j=0irj(p)(-Tf)fTi-j.
+0.302	[*A*]we[*R*]haveTif=j=0irj[*A*]Then	context()	negated: False ,passive: False
+[LINE#226]ProofWe have, by [9, Theorem 18.3, (4)], chn-i(p-1)f=u=0i(p-1)Tdu(Tf)fchn-i(p-1)+u.
+[LINE#227]In view of Lemmas 6.3 and 6.2 and Theorem 3.2, we have, in the group CHn-i(p-1)(Y)Z(p)QZ/p, pichn-i(p-1)f=j=0i(pjTdj(p-1)(Tf))f(pi-jchn-(i-j)(p-1)).
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+[LINE#228]Since the map (2) is compatible with f, Proposition 6.4 allows us to conclude.
+0.157	[*A*]us[*R*]to conclude	context(Proposition 6.4 allows)	negated: False ,passive: False
+0.841	[*A*]Proposition 6.4[*R*]allows[*A*]us to conclude	context()	negated: False ,passive: False
+0.913	[*A*]the map[*R*]is[*A*]compatible with f	context()	negated: False ,passive: True
+[LINE#229]Applying Proposition 7.1 to the structural morphism of a local complete intersection variety, we obtain the formula computing the effect of the operation Ti on regular cycles.
+0.550	[*A*]we[*R*]obtain[*A*]the formula computing the effect of the operation Ti on regular cycles	context()	negated: False ,passive: False
+0.918	[*A*]the formula[*R*]computing[*A*]the effect of the operation Ti on regular cycles	context()	negated: False ,passive: False
+[LINE#230]X be a local complete intersection variety (e.g. a regular variety).
+0.852	[*A*]X[*R*]be[*A*]a local complete intersection variety	context()	negated: False ,passive: True
+[LINE#231]Let i be an integer such that 0im .
+[LINE#232] ThenTi[X]=ri(p)(-TX)[X].Proposition7.3Let X and Y be two varieties over the same field.
+0.852	[*A*]Y[*R*]be[*A*]two varieties over the same field	context()	negated: False ,passive: True
+0.944	[*A*]Proposition7.3Let X[*R*]be[*A*]two varieties over the same field	context()	negated: False ,passive: True
+[LINE#233] Then for xCHd(X), and yCHe(Y), and 0im, we haveTi(xy)=j=0iTj(x)Ti-j(y).ProofLet aK0(X)(d) bK0(X)(e)) be an element such that.
+0.480	[*A*]we[*R*]be[*A*]an element	context()	negated: False ,passive: True
+[LINE#234] We have, by [9, Example 18.3.1]chd+e-i(p-1)(ab)=u=0i(p-1)chd-u(a)che+u-i(p-1)(b).
+0.195	[*A*]We[*R*]have	context()	negated: False ,passive: False
+[LINE#235]By Lemma 6.2, this gives in CHd+e-i(p-1)(XY)Z(p)QZ/p, pichd+e-i(p-1)(ab)=j=0i(pjchd-j(p-1)(a))(pi-jche-(i-j)(p-1)(b)).
+0.543	[*A*]this[*R*]gives[*A*]in CHd+e-i(p-1)(XY)Z	context()	negated: False ,passive: False
+[LINE#236]We can conclude using the fact that  is compatible with external products.
+0.188	[*A*]We[*R*]can conclude using[*A*]the fact that  is compatible with external products	context(We can conclude)	negated: False ,passive: False
+0.188	[*A*]We[*R*]can conclude[*A*]using the fact that  is compatible with external products	context()	negated: False ,passive: False
+[LINE#237]Assume that X is a local complete intersection variety.
+[LINE#238] the i-th cohomological operation Ti by the formula.
+[LINE#239]Ti=j=0irj(p)(TX)Ti-j:CH(X)CH-i(p-1)(X)ZQZ/p.
+[LINE#240] Proposition 7.4Let X and Y be local complete intersection varieties over a common field, and i an integersuch that 0<im.(i)For xCH(X),yCH(Y), we haveTi(xy)=j=0iTj(x)Ti-j(y).(ii)When X is smooth, x,yCH(X), we haveTi(xy)=j=0iTj(x)Ti-j(y).(iii)The operation T0 is the identity.(iv)Ti[X]=0.(v)Assume that X is smooth, and let xCH1(X) .
+[LINE#241] if i=1, and Ti(x)=0 otherwise.(vi)If f:.
+[LINE#242]YX is a local complete intersection morphism, then Tif=fTi.(vii)Let f:YX be a projective morphism.
+0.522	[*A*]YX[*R*]be[*A*]a projective morphism	context()	negated: False ,passive: True
+0.891	[*A*]YX[*R*]is[*A*]a local complete intersection morphism, then Tif=fTi.(vii)Let f:YX be a projective morphism	context()	negated: False ,passive: True
+[LINE#243]ThenTif=fj=0irj(p)(-Tf)Ti-j.
+[LINE#244]ProofStatement (i) follows from Proposition 7.3, statement (vi) from Proposition 7.1, and (vii) from the fact that the operations Ti are compatible with projective push-forwards.
+0.933	[*A*]the operations Ti[*R*]are[*A*]compatible with projective push - forwards	context()	negated: False ,passive: True
+0.855	[*A*]Ti[*R*]are[*A*]compatible with projective push - forwards	context()	negated: False ,passive: True
+0.938	[*A*]ProofStatement (i)[*R*]follows[*A*]from Proposition 7.3	context()	negated: False ,passive: True
+[LINE#245]Then (ii) follows from (i) and (vi), statement (iv) from (vi) and the obvious computation for X=Spec(k).
+0.790	[*A*]ii[*R*]follows[*A*]Then	context()	negated: False ,passive: True
+[LINE#246] Statement (iii) is a consequence of the definition of T0.We.
+0.919	[*A*]Statement[*R*]is[*A*]a consequence of the definition of T0.We	context()	negated: False ,passive: True
+[LINE#247]We can assume that x=[Z] for some integral closed subvariety Z of X. Since X is locally factorial, Z is a locally principal divisor.
+0.858	[*A*]Z[*R*]is[*A*]a locally principal divisor	context(We can assume)	negated: False ,passive: True
+0.309	[*A*]We[*R*]can assume[*A*]that x=[Z] for some integral closed subvariety Z of X. Since X is locally factorial, Z is a locally principal divisor	context()	negated: False ,passive: False
+0.675	[*A*]X[*R*]is locally[*A*]factorial	context()	negated: False ,passive: True
+[LINE#248] In particular, the closed embedding f:.
+[LINE#249]ZX is regular, and Z is a local complete intersection variety.
+0.852	[*A*]Z[*R*]is[*A*]a local complete intersection variety	context()	negated: False ,passive: True
+0.734	[*A*]ZX[*R*]is[*A*]regular	context()	negated: False ,passive: True
+[LINE#250]Then, using (iv) and (vii), where Tf=-f[OX(Z)], we obtain for i>0, Ti(x)=Tif[Z]=fTi[Z]-f(c1(f[OX(Z)])p-1Ti-1[Z])=-c1(OX(Z))p-1fTi-1[Z].
+0.195	[*A*]we[*R*]obtain	context()	negated: False ,passive: False
+[LINE#251]When i=1, this is, by (iii), -c1(OX(Z))p-1[Z]=-c1(OX(Z))p=-xp, as requested.
+0.193	[*A*]this[*R*]is	context()	negated: False ,passive: False
+[LINE#252]Finally, we mention the following.
+0.342	[*A*]we[*R*]mention[*A*]the following[*A*]Finally	context()	negated: False ,passive: False
+[LINE#253]Proposition 7.5Let L/k be a field extension.
+0.957	[*A*]Proposition 7.5Let L/k[*R*]be[*A*]a field extension	context()	negated: False ,passive: True
+[LINE#254]Then, for all varieties X, all xCH(X), and i such that 0im, we haveTi(xL)=Ti(x)L.ProofThis follows from [14, (2) and Theorem 3.1, (d)].
+[LINE#255] Relation with Steenrod operationsInthis section, we compare the operations Ti with the Steenrod operations constructed by other methods.
+0.933	[*A*]the Steenrod operations[*R*]constructed[*A*]by other methods	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]compare[*A*]the operations Ti with the Steenrod operations[*A*]Relation with Steenrod operationsInthis section	context()	negated: False ,passive: False
+[LINE#256]We therefore make the assumption that the characteristic of the base field is different from p.
+0.948	[*A*]the characteristic of the base field[*R*]is[*A*]different from p.	context()	negated: False ,passive: True
+0.290	[*A*]We[*R*]make[*A*]the assumption that the characteristic of the base field is different from p.	context()	negated: False ,passive: False
+[LINE#257]Consider the i-th homological Steenrod operation of, say, [7]Si:CH(-)Z/pCH-i(p-1)(-)Z/p, and write S=iSi.
+[LINE#258] =id, we have S=id+f, where for every variety X the induced endomorphism.
+0.498	[*A*]we[*R*]have[*A*]S=id+f	context()	negated: False ,passive: False
+[LINE#259]We write TX for the left inverse of SX; this defines a natural transformation of functors V ar/kAb with components Ti:CH(-)Z/pCH-i(p-1)(-)Z/p.
+0.443	[*A*]We[*R*]write[*A*]TX[*A*]for the left inverse of SX	context(this defines p)	negated: False ,passive: False
+0.480	[*A*]this[*R*]defines p[*A*]a natural transformation of functors V ar/kAb with components Ti	context()	negated: False ,passive: False
+[LINE#260]and, for i>0, one can express Ti inductively as (11)Ti=-j=1iTi-jSj.
+0.458	[*A*]one[*R*]can express inductively[*A*]for i>0	context()	negated: False ,passive: False
+[LINE#261]Proposition 8.1We have for ipTi=(-1)iSi.
+0.788	[*A*]Proposition 8.1We[*R*]have	context()	negated: False ,passive: False
+[LINE#262]ThenT[X]=r(p)(-TX)[X].ProofProof of Propositions 8.1 and 8.2Let Z be a variety.
+0.944	[*A*]8.2Let Z[*R*]be[*A*]a variety	context()	negated: False ,passive: True
+[LINE#263] It is proven in [22, Lemma 5.2 and Proposition 3.1]that the homological Steenrod operations S induce an action of the Steenrod Z/p-algebra S on CH(Z)Z/p.
+0.919	[*A*]S[*R*]induce[*A*]an action of the Steenrod Z/p-algebra S on CH	context()	negated: False ,passive: False
+0.498	[*A*]It[*R*]is proven[*A*]in [22, Lemma 5.2 and Proposition 3.1	context()	negated: False ,passive: True
+[LINE#264]The operation Sj acts as the element PjS (in case p=2 we write Pj for Sq2j).
+0.639	[*A*]we[*R*]write[*A*]Pj[*A*]for Sq2j[*A*]in case p=2	context()	negated: False ,passive: False
+0.933	[*A*]Sj[*R*]acts[*A*]as the element[*A*]The operation	context()	negated: False ,passive: False
+[LINE#265]Using (11), we see that the action of Tj on CH(Z)Z/p coincides with the action of the conjugate c(Pj) of Pj, in the sense of [23, Section 7].
+0.787	[*A*]the action of Tj on CH[*R*]coincides	context(we see)	negated: False ,passive: False
+0.317	[*A*]we[*R*]see[*A*]that the action of Tj on CH(Z)Z/p coincides with the action of the conjugate c(Pj) of Pj, in the sense of [23	context()	negated: False ,passive: False
+[LINE#266]Let bi for iN-{0} be indeterminates.
+[LINE#267] If R=(r1,r2,) is a sequence of non-negative integers, we write bR.
+0.498	[*A*]we[*R*]write[*A*]bR	context()	negated: False ,passive: False
+0.869	[*A*]R=[*R*]is[*A*]a sequence of non-negative integers	context()	negated: False ,passive: True
+[LINE#268] By [23, Corollary 6], the morphism S[[b1,b2,]]S[[x]],bi(-1)pi-1p-1xpi-1=(-1)ixpi-1modp sends the total Steenrod operation RPRbR to jc(Pj)xj(p-1).We obtain Proposition 8.1 by noticing that for ip the element Pi is the only basis element of type PR of the same dimension as c(Pi).Moreover, by [22, Proposition 5.3, (2)], we obtain T[X]=d(-TX)[X], where d is the total Chern class RcRbR evaluated at bi=(-1)i.
+0.360	[*A*]we[*R*]obtain[*A*]T[*A*]By [23, Corollary 6], the morphism S[[b1,b2,]]S[[x]],bi(-1)pi-1p-1xpi-1=(-1)ixpi-1modp sends the total Steenrod operation RPRbR to jc(Pj)xj(p-1).We obtain Proposition 8.1 by noticing that for ip the element Pi is the only basis element of type PR of the same dimension as	context()	negated: False ,passive: False
+0.957	[*A*]Pi[*R*]is[*A*]the only basis element of type PR of the same dimension as[*A*]the element	context()	negated: False ,passive: True
+0.498	[*A*]We[*R*]obtain[*A*]Proposition 8.1	context()	negated: False ,passive: False
+0.629	[*A*]d[*R*]is	context()	negated: False ,passive: False
+0.984	[*A*]-1)pi-1p-1xpi-1=(-1)ixpi-1modp[*R*]sends[*A*]the total Steenrod operation RPRbR[*A*]to jc	context()	negated: False ,passive: False
+[LINE#269]Inspection of the value of d on a line bundle reveals that d=r(p), establishing Proposition 8.2.
+0.828	[*A*]d=r[*R*]establishing[*A*]Proposition 8.2	context(Inspection of the value of d on a line bundle reveals)	negated: False ,passive: False
+0.877	[*A*]Inspection of the value of d on a line bundle[*R*]reveals[*A*]that d=r(p), establishing Proposition 8.2	context()	negated: False ,passive: False
+[LINE#270]Proposition 8.3Assume that the base field is of characteristic different from p .
+0.916	[*A*]the base field[*R*]is[*A*]of characteristic different from p	context(Proposition 8.3Assume)	negated: False ,passive: True
+0.843	[*A*]Proposition[*R*]8.3Assume[*A*]that the base field is of characteristic different from p	context()	negated: False ,passive: False
+[LINE#271]Then we have a commutative diagramProofBy Lemma 8.4 below and Proposition 7.5, we can assume that the base field is perfect.
+0.787	[*A*]the base field[*R*]is[*A*]perfect	context(we can assume)	negated: False ,passive: True
+0.577	[*A*]we[*R*]have[*A*]Proposition 7.5[*A*]Then	context(we can assume)	negated: False ,passive: False
+0.787	[*A*]the base field[*R*]is[*A*]perfect	context(we can assume)	negated: False ,passive: True
+0.250	[*A*]we[*R*]have[*A*]Then	context(we can assume)	negated: False ,passive: False
+0.188	[*A*]we[*R*]can assume[*A*]that the base field is perfect	context()	negated: False ,passive: False
+[LINE#272] Since both operations are compatible with proper push-forwards, it will be enough to compare their values in CHd-i(p-1)(X)ZQZwhen X is an integral variety of dimension d. Using Gabber's theorem, we find a projective morphism f:ZX, with Z smooth of dimension d, and f dominant with [k(Z):k(X)]= an integer prime to p.
+0.964	[*A*]with Z smooth of dimension[*R*]f[*A*]with [ k ( Z	context()	negated: False ,passive: True
+0.943	[*A*]an integral variety of dimension d.[*R*]Using[*A*]Gabber 's theorem	context()	negated: False ,passive: False
+0.313	[*A*]it[*R*]to compare[*A*]their values[*A*]in CHd - i ( p - 1	context()	negated: False ,passive: False
+0.964	[*A*]with Z smooth of dimension[*R*]d[*A*]with [ k ( Z	context()	negated: False ,passive: True
+0.463	[*A*]it[*R*]will be[*A*]enough to compare their values in CHd - i ( p - 1	context()	negated: False ,passive: True
+0.941	[*A*]it will be enough to compare their values in CHd - i ( p - 1[*R*]is[*A*]an integral variety of dimension d. Using Gabber 's theorem	context(we find)	negated: False ,passive: True
+0.467	[*A*]we[*R*]find[*A*]a projective morphism f	context()	negated: False ,passive: False
+0.903	[*A*]both operations[*R*]are[*A*]compatible with proper push - forwards	context()	negated: False ,passive: True
+[LINE#273]Let (Z/p) be the inverse modulo p of .
+[LINE#274]Then, using Corollary 7.2, Ti[X]=Ti([X])=Tif[Z]=fTi[Z]=f(ri(p)(-TZ)[Z]).
+[LINE#275]A similar computation, and Proposition 8.2, show that Ti[X] has the same value, as requested.
+0.841	[*A*]Ti[*R*]has[*A*]the same value[*A*]as requested	context(Proposition 8.2 show)	negated: False ,passive: False
+0.833	[*A*]Proposition 8.2[*R*]show[*A*]that Ti [ X ] has the same value	context()	negated: False ,passive: False
+0.841	[*A*]Ti[*R*]has[*A*]the same value[*A*]as requested	context(A similar computation show)	negated: False ,passive: False
+0.802	[*A*]A similar computation[*R*]show[*A*]that Ti [ X ] has the same value	context()	negated: False ,passive: False
+[LINE#276]X be a variety over a field k of characteristic p .
+0.852	[*A*]X[*R*]be[*A*]a variety over a field k of characteristic p	context()	negated: False ,passive: True
+[LINE#277]Then scalars extension induces an injective morphismCH(X)ZQZ/pCH(XF)ZQZ/p.
+0.871	[*A*]extension[*R*]induces[*A*]an injective morphismCH	context()	negated: False ,passive: False
+[LINE#278]ProofLet L/k be a finite field extension.
+0.953	[*A*]ProofLet L/k[*R*]be[*A*]a finite field extension	context()	negated: False ,passive: True
+[LINE#279]A transfer argument shows that CH(X)QCH(XL)Q is injective, hence so is CH(X)ZQCH(XL)ZQ, and therefore so is CH(X)ZQZ(p)CH(XL)ZQZ(p).
+0.885	[*A*]A transfer argument[*R*]shows[*A*]that CH ( X ) QCH ( XL ) Q is injective , hence so is therefore	context()	negated: False ,passive: False
+0.835	[*A*]CH ( X ) QCH ( XL ) Q[*R*]is[*A*]therefore	context()	negated: False ,passive: True
+0.827	[*A*]CH ( X ) QCH ( XL ) Q[*R*]is[*A*]injective	context(A transfer argument shows)	negated: False ,passive: True
+0.885	[*A*]A transfer argument[*R*]shows[*A*]that CH ( X ) QCH ( XL ) Q is injective , hence so is CH ( X ) ZQCH ( XL ) ZQ	context()	negated: False ,passive: False
+[LINE#280]When the degree of the extension L/k is prime to p, the transfer induces a splitting of this monomorphism, so that CH(X)ZQZ/pCH(XL)ZQZ/p is injective.
+0.898	[*A*]CH(X)ZQZ/pCH(XL)ZQZ/p[*R*]is[*A*]injective	context()	negated: False ,passive: True
+0.970	[*A*]the transfer[*R*]induces[*A*]a splitting of this monomorphism[*A*]When the degree of the extension L/k is prime to p	context()	negated: False ,passive: False
+0.968	[*A*]the degree of the extension L/k[*R*]is[*A*]prime to p	context()	negated: False ,passive: True
+[LINE#281]By [29, Theorem 5.20 and Proposition 5.26], the group CH(XF) is the direct limit of the groups CH(XL) with L/k a finite subextension of F/k.
+0.949	[*A*]the group[*R*]is[*A*]the direct limit of the groups[*A*]By [ 29	context()	negated: False ,passive: True
+[LINE#282]Such an extension L/k is of degree prime to p because it is a purely inseparable extension of a field of characteristic p.
+0.637	[*A*]it[*R*]is[*A*]a purely inseparable extension of a field of characteristic p.	context()	negated: False ,passive: True
+0.955	[*A*]Such an extension L/k[*R*]is[*A*]of degree prime to p[*A*]because it is a purely inseparable extension of a field of characteristic p.	context()	negated: False ,passive: True
+[LINE#283]Using the fact that the functor AAZQZ/p commutes with any exact functor commuting with tensor products, we see that the natural map colimkLF[L:k]<(CH(XL)ZQZ/p)CH(XF)ZQZ/p is an isomorphism.
+0.986	[*A*]the natural map colimkLF[L:k]<(CH(XL)ZQZ/p)CH(XF)ZQZ/p[*R*]is[*A*]an isomorphism	context(we see)	negated: False ,passive: True
+0.317	[*A*]we[*R*]see[*A*]that the natural map colimkLF[L:k]<(CH(XL)ZQZ/p)CH(XF)ZQZ/p is an isomorphism	context()	negated: False ,passive: False
+0.911	[*A*]any exact functor[*R*]commuting[*A*]with tensor products	context()	negated: False ,passive: False
+[LINE#284] Remark 8.5Proposition 8.3 actually gives some new information about Steenrod operations modulo p in characteristic not p. Denote by :CH(-)Z/pCH(-)ZQZ.
+0.973	[*A*]some new information about Steenrod operations[*R*]modulo p[*A*]in characteristic[*A*]not p. Denote[*A*]by :CH(-)Z/pCH(-)ZQZ	context()	negated: False ,passive: True
+0.934	[*A*]Remark 8.5Proposition 8.3[*R*]gives[*A*]some new information about Steenrod operations	context()	negated: False ,passive: False
+[LINE#285]Let X be a variety, and (12)K(X)=ker(CH(X)grK0(X)).
+[LINE#286]Then K(X) consists of torsion elements.
+0.899	[*A*]K[*R*]consists[*A*]of torsion elements[*A*]Then	context()	negated: False ,passive: True
+[LINE#287]Let Kp(X) be its image in CH(X)Z/p.
+[LINE#288] One can ask the following question: "What is the set E of operations Q on Chow groups modulo p such that Q vanishes on Kp(X), for all X?"By construction , we have Ti(Kp(X))=0; hence a consequence of Proposition 8.3 is that TiE, for all i. On the other hand when p=2 and j>1, then the cohomological Steenrod square S2j-1 does not belong to E(see [16, Remark 8.4]).This can also be used to obtain information on grK0(X).
+0.949	[*A*]cohomological Steenrod square S2j - 1[*R*]does not belong[*A*]to E	context()	negated: True ,passive: False
+0.907	[*A*]By construction , we have Ti ( Kp ( X ) ) =0 ; hence a consequence of Proposition 8.3[*R*]is[*A*]that TiE , for all i. On the other hand when j > 1 , then the cohomological Steenrod square S2j - 1 does not belong to E ( see [ 16 , Remark 8.4 ] ) . This can also be used to obtain information on grK0	context(One can ask)	negated: False ,passive: True
+0.498	[*A*]we[*R*]have[*A*]Ti ( Kp ( X ) ) =0	context()	negated: False ,passive: False
+0.385	[*A*]This[*R*]to obtain[*A*]information on grK0	context()	negated: False ,passive: False
+0.271	[*A*]This[*R*]can be used[*A*]to obtain information on grK0	context(One can ask By construction , we have Ti ( Kp ( X ) ) =0 ; hence a consequence of Proposition 8.3 is)	negated: False ,passive: True
+0.907	[*A*]By construction , we have Ti ( Kp ( X ) ) =0 ; hence a consequence of Proposition 8.3[*R*]is[*A*]that TiE , for all i. On the other hand when p=2 , Remark 8.4 ] ) . This can also be used to obtain information on grK0	context(One can ask)	negated: False ,passive: True
+0.552	[*A*]One[*R*]can ask[*A*]the following question	context()	negated: False ,passive: False
+[LINE#289] For example, a direct consequence of Proposition 8.3 is that gr2K0(D) contains non-zero 3-torsion, where D is the variety of [27](over a field of characteristic zero).Remark 8.6One can use the operations Ti to recover some of the results of [15].
+0.923	[*A*]gr2K0[*R*]contains[*A*]non-zero 3-torsion, where D is the variety of [27](over a field of characteristic zero)	context(a direct consequence of Proposition 8.3 is)	negated: False ,passive: False
+0.930	[*A*]a direct consequence of Proposition 8.3[*R*]is[*A*]that gr2K0(D) contains non-zero 3-torsion	context()	negated: False ,passive: True
+0.961	[*A*]Remark 8.6One[*R*]can use[*A*]the operations[*A*]Ti to recover some of the results of [15	context()	negated: False ,passive: False
+0.918	[*A*]D[*R*]is[*A*]the variety of [27](over a field of characteristic zero).Remark 8.6One can use the operations Ti to recover some of the results of [15]	context()	negated: False ,passive: True
+[LINE#290] Assume that X is a variety and L/k an extension of the base fieldsuch that CH(XL) is torsion-free.
+0.869	[*A*]CH[*R*]is[*A*]torsion - free	context()	negated: False ,passive: True
+[LINE#291]Then Ti is an endomorphism of CH(XL)Z/p.
+0.944	[*A*]Ti[*R*]is[*A*]an endomorphism of CH[*A*]Then	context()	negated: False ,passive: True
+[LINE#292]We set S0=id, and define inductively, for n>0 and xCH(XL)Z/p, Sn(x)=-i=1nTiSn-i(x).
+0.195	[*A*]We[*R*]define inductively	context()	negated: False ,passive: False
+0.568	[*A*]We[*R*]set[*A*]S0=id	context()	negated: False ,passive: False
+[LINE#293]Let Ch(X)=im(CH(X)Z/pCH(XL)Z/p) be the reduced Chow group modulo p.
+[LINE#294]Since the operations Ti commute with extension of the base field, they send the subgroup Ch(X)CH(XL)Z/p to itself.
+0.719	[*A*]they[*R*]send[*A*]the subgroup Ch	context()	negated: False ,passive: False
+[LINE#295]Therefore, the association xSn(x) induces an operation of this subgroup, the n-th reduced Steenrod operation.
+0.864	[*A*]n-th[*R*]reduced[*A*]Steenrod operation	context()	negated: False ,passive: False
+0.922	[*A*]the association xSn[*R*]induces[*A*]an operation of this subgroup	context()	negated: False ,passive: False
+[LINE#296]Degree formula and applications.
+[LINE#297]We now describe some consequences of the results obtained above.
+0.767	[*A*]the results[*R*]obtained[*A*]above	context()	negated: False ,passive: True
+0.554	[*A*]We[*R*]describe[*A*]some consequences of the results[*A*]now	context()	negated: False ,passive: False
+[LINE#298] In order to make unconditional statements, we restrict ourselves to applications of the fact that p-integrality holds in codimension p(p-1)-1 (Theorem 3.2).We fix prime number.
+0.522	[*A*]We[*R*]fix[*A*]prime number	context()	negated: False ,passive: False
+0.932	[*A*]p-integrality[*R*]holds[*A*]in codimension p	context()	negated: False ,passive: False
+0.208	[*A*]we[*R*]restrict[*A*]ourselves[*A*]to applications of the fact that p-integrality holds in codimension p	context()	negated: False ,passive: False
+[LINE#299] When X is a projective variety, we let nX be the positive generator of the image of the degree map.
+0.906	[*A*]nX[*R*]be[*A*]the positive generator of the image of the degree map	context(we let)	negated: False ,passive: True
+0.744	[*A*]we[*R*]let[*A*]nX be the positive generator of the image of the degree map[*A*]When X is a projective variety	context()	negated: False ,passive: False
+0.852	[*A*]X[*R*]is[*A*]a projective variety	context()	negated: False ,passive: True
+[LINE#300] Let x:XSpec(k) be the structural morphism of X. We denote by (OX) the integer corresponding to x[OX]under the identification K0(Spec(k))=Z.
+0.918	[*A*]the integer[*R*]corresponding[*A*]to x[*A*]under the identification K0	context()	negated: False ,passive: True
+0.933	[*A*]the structural morphism of X.[*R*]denote[*A*]We	context()	negated: False ,passive: True
+[LINE#301]In other words, (OX)=j0(-1)jdimkHj(X,OX).
+[LINE#302]Note that ch[OSpec(k)]=[Spec(k)], so that (OX)=degch0[OX].
+[LINE#303] The inverse Todd genusWe consider the power series in the variable x(10)R(p)(x)=i=0(-1)ixpi-1.There is a unique morphism of presheaves of abelian groups on V ar/kr(p):K0(-)(CH(-)Z/p)such that for L a line bundle, r(p)(L)=R(p)(c1(L)).
+0.946	[*A*]ixpi-1.There[*R*]is[*A*]a unique morphism of presheaves of abelian groups on V ar/kr	context(The inverse Todd genusWe consider)	negated: False ,passive: True
+0.925	[*A*]The inverse Todd genusWe[*R*]consider[*A*]the power series in the variable x	context()	negated: False ,passive: False
+[LINE#304]Individual components are denoted ri(p):K0(-)CHi(p-1)(-)Z/p.
+0.641	[*A*]Individual components[*R*]are denoted p	context()	negated: False ,passive: False
+[LINE#305]Using the terminology of [24], this class will be the inverse Todd genus of the operation T=iTi constructed in the previous section.
+0.887	[*A*]the operation[*R*]constructed[*A*]in the previous section	context()	negated: False ,passive: True
+0.918	[*A*]this class[*R*]will be[*A*]the inverse Todd genus of the operation	context()	negated: False ,passive: True
+[LINE#306]In this section we describe a relation between the characteristic class r(p) and the Todd class.
+0.740	[*A*]we[*R*]describe[*A*]a relation between the characteristic class r(p) and the Todd class[*A*]In this section	context()	negated: False ,passive: False
+[LINE#307]6.1The inverse Todd genus of the usual Steenrod operation iSi is defined by the power series W(p)(x)=1+xp-1.
+0.976	[*A*]6.1The inverse Todd genus of the usual Steenrod operation[*R*]is defined[*A*]by the power series W(p)(x)=1+xp-1	context()	negated: False ,passive: True
+[LINE#308]One easily checks that xR(p)(x) is the left inverse of xW(p)(x) for the law given by composition of power series with coefficients in Z/p.
+0.908	[*A*]xR[*R*]is[*A*]the left inverse of xW(p)(x) for the law	context(One easily checks)	negated: False ,passive: True
+0.393	[*A*]One[*R*]easily checks[*A*]that xR(p)(x) is the left inverse of xW(p)(x) for the law	context()	negated: False ,passive: False
+0.947	[*A*]the law[*R*]given[*A*]by composition of power series with coefficients in Z/p	context()	negated: False ,passive: True
+[LINE#309]We begin by stating an easy argument that we will use repeatedly below.
+0.116	[*A*]We[*R*]begin by stating[*A*]an easy argument that we will use repeatedly below	context(We begin)	negated: False ,passive: False
+0.173	[*A*]We[*R*]begin[*A*]by stating an easy argument that we will use repeatedly below	context()	negated: False ,passive: False
+0.754	[*A*]an easy argument[*R*]will use[*A*]repeatedly below	context()	negated: False ,passive: True
+[LINE#310]an A-module, auAQ and muMQ for u=0,,i(p-1) satisfyingvp(au)-[up-1]andvp(mu)-[up-1].Then we have an equality in MZ(p)QZ/p,u=0i(p-1)(piaumi(p-1)-u)=j=0i(pjaj(p-1))(pi-jm(i-j)(p-1)).ProofWe compute, for all u, using (1), vp(aumi(p-1)-u)vp(au)+vp(mi(p-1)-u)-[up-1]-[i(p-1)-up-1]=-[up-1]-i-[-up-1].
+0.889	[*A*]ProofWe[*R*]compute using[*A*]vp ( aumi ( p - 1 ) - u ) vp ( au ) +vp	context(ProofWe compute)	negated: False ,passive: False
+0.118	[*A*]i[*R*]satisfyingvp au	context()	negated: False ,passive: False
+0.999	[*A*]i[*R*]satisfyingvp[*A*]1	context()	negated: False ,passive: False
+0.889	[*A*]ProofWe[*R*]compute using[*A*]vp ( aumi ( p - 1 ) - u ) vp ( au ) +vp	context(ProofWe compute)	negated: False ,passive: False
+0.729	[*A*]ProofWe[*R*]compute	context()	negated: False ,passive: False
+0.170	[*A*]i[*R*]satisfyingvp	context()	negated: False ,passive: False
+[LINE#311]This integer is always -i; hence the elements delimited by the parentheses in the formula of the statement belong to the submodule MZ(p)QMQ.
+0.770	[*A*]This integer[*R*]is[*A*]always	context(the elements delimited by the parentheses in the formula of the statement belong)	negated: False ,passive: True
+0.958	[*A*]the elements delimited by the parentheses in the formula of the statement[*R*]belong[*A*]to the submodule MZ	context()	negated: False ,passive: False
+0.903	[*A*]the elements[*R*]delimited[*A*]by the parentheses in the formula of the statement	context()	negated: False ,passive: True
+[LINE#312]Moreover, when u is not divisible by p-1, this integer is >-i.
+0.948	[*A*]this integer[*R*]is[*A*]when u is not divisible by p-1	context()	negated: False ,passive: True
+0.813	[*A*]u[*R*]is not[*A*]divisible by p-1	context()	negated: True ,passive: True
+[LINE#313]This gives the requested formula modulo p.
+0.381	[*A*]This[*R*]gives[*A*]the requested formula[*A*]modulo p.	context()	negated: False ,passive: False
+[LINE#314] Lemma 6.3We have, for all integers n, and all xK0(X)vp(Tdn(x))-[np-1].ProofLet.
+0.788	[*A*]Lemma 6.3We[*R*]have	context()	negated: False ,passive: False
+[LINE#315]Then the set of elements 1+y with yn>0p-[n/(p-1)]CHn(X)Z(p)Q is a subgroup B(X) of (CH(X)Q).
+0.983	[*A*]CHn(X)Z(p)Q[*R*]is[*A*]a subgroup B(X) of (CH(X)Q[*A*]Then	context()	negated: False ,passive: True
+[LINE#316]YX is a morphism of varieties, then fB(X)B(Y).
+0.887	[*A*]YX[*R*]is[*A*]a morphism of varieties	context()	negated: False ,passive: True
+[LINE#317]Thus we can define a presheaf of abelian groups C on V ar/k by C(-)=(CH(-)Q)/B(-).
+0.569	[*A*]we[*R*]can define[*A*]a presheaf of abelian groups C on V ar/k	context()	negated: False ,passive: False
+[LINE#318] We have a morphism of presheaves of abelian groups on V.
+0.498	[*A*]We[*R*]have[*A*]a morphism of presheaves of abelian groups on V.	context()	negated: False ,passive: False
+[LINE#319]When L is a line bundle, we have by definition of the Todd class, [L]=n0(-c1(L))n(n+1)!.
+0.596	[*A*]we[*R*]have[*A*]When L is a line bundle	context()	negated: False ,passive: False
+0.887	[*A*]L[*R*]is[*A*]a line bundle	context()	negated: False ,passive: True
+[LINE#320] Then  vanishes on the classes of line bundles, because of Lemma.
+[LINE#321]The splitting principle allows us to conclude.11If f:YX is a projective bundle, one can check that the pull-back C(X)C(Y) is injective using the fact that f:CH(X)CH(Y) is a split monomorphism.
+0.883	[*A*]the pull-back C[*R*]is[*A*]injective[*A*]using the fact that f:CH(X)CH(Y) is a split monomorphism	context(The splitting principle allows one can check)	negated: False ,passive: True
+0.858	[*A*]YX[*R*]is[*A*]a projective bundle	context(The splitting principle allows one can check)	negated: False ,passive: True
+0.465	[*A*]one[*R*]can check[*A*]that the pull-back C(X)C(Y) is injective	context(The splitting principle allows)	negated: False ,passive: False
+0.811	[*A*]The splitting principle[*R*]allows[*A*]us	context()	negated: False ,passive: False
+0.830	[*A*]f[*R*]is[*A*]a split monomorphism	context()	negated: False ,passive: True
+[LINE#322]Proposition 6.4Let j0 be an integer, X a variety, and xK0(X) .
+0.949	[*A*]Proposition 6.4Let j0[*R*]be[*A*]an xK0	context()	negated: False ,passive: True
+0.949	[*A*]Proposition 6.4Let j0[*R*]be[*A*]an X	context()	negated: False ,passive: True
+0.949	[*A*]Proposition 6.4Let j0[*R*]be[*A*]an integer	context()	negated: False ,passive: True
+[LINE#323] Then the elements pjTdj(p-1)(-x) and rj(p)(x).
+[LINE#324]ProofWe consider the presheaf of commutative rings on V ar/kCH(-)=CH(-)Z(p)QZ/p.
+0.920	[*A*]ProofWe[*R*]consider[*A*]the presheaf of commutative rings on V ar	context()	negated: False ,passive: False
+[LINE#325]The characteristic class r(p) induces a morphism of presheaves of abelian groups on V ar/kr(p):K0(-)CH(-).By Lemma 6.3, we can consider the association :K0(-)CH(-),xj0pjTdj(p-1)(-x).
+0.452	[*A*]we[*R*]can consider[*A*]the association	context()	negated: False ,passive: False
+0.909	[*A*]The characteristic class r[*R*]induces[*A*]a morphism of presheaves of abelian groups on V ar/kr(p):K0(-)CH(-).By Lemma 6.3, we can consider the association :K0(-)CH(-),xj0pjTdj(p-1)(-x)	context()	negated: False ,passive: False
+[LINE#326]It is clearly compatible with arbitrary pull-backs.
+0.522	[*A*]It[*R*]is[*A*]clearly[*A*]compatible with arbitrary pull-backs	context()	negated: False ,passive: True
+[LINE#327]It sends sums to products because the total Todd class has the same property, and because of Lemmas 6.2 and 6.3.Let L be a line bundle.
+0.953	[*A*]the total Todd class[*R*]has[*A*]the same property	context()	negated: False ,passive: False
+0.678	[*A*]It[*R*]sends[*A*]sums[*A*]to products[*A*]because the total Todd class has the same property, and because of Lemmas 6.2 and 6.3.Let L be a line bundle	context()	negated: False ,passive: False
+[LINE#328] Then by definition of the Todd class, we have [L]=j0pj(j(p-1)+1)!(-c1(L))j(p-1).Using Lemma 6.5 below, we see that the j-th coefficient is an element of Z(p).
+0.941	[*A*]the j-th coefficient[*R*]is[*A*]an element of Z(p	context(we see)	negated: False ,passive: True
+0.317	[*A*]we[*R*]see[*A*]that the j-th coefficient is an element of Z(p	context()	negated: False ,passive: False
+[LINE#329] Moreover, we see that it belongs to pZ(p)if and only if j(p-1)+1 is not a power of p.
+0.433	[*A*]it[*R*]belongs[*A*]to pZ	context(we see)	negated: False ,passive: False
+0.131	[*A*]we[*R*]see[*A*]that it belongs to pZ	context()	negated: False ,passive: False
+[LINE#330]pi, we see using Lemma 6.6 below, that the j-th coefficient is (-1)i modulo pZ(p).
+0.443	[*A*]we[*R*]see using[*A*]Lemma 6.6 below	context(we see i modulo)	negated: False ,passive: False
+0.443	[*A*]we[*R*]see[*A*]using Lemma 6.6 below	context(i modulo)	negated: False ,passive: False
+0.443	[*A*]i[*R*]modulo[*A*]pZ	context()	negated: False ,passive: False
+0.829	[*A*]the j-th coefficient[*R*]is	context()	negated: False ,passive: False
+[LINE#331]In view of (10), the characteristic class  coincides with r(p) on the classes of line bundles, and the claim follows from the splitting principle.
+0.903	[*A*]the claim[*R*]follows[*A*]from the splitting principle	context()	negated: False ,passive: True
+0.939	[*A*]the characteristic class[*R*]coincides[*A*]In view of ( 10	context()	negated: False ,passive: True
+[LINE#332]6.5[20, p.10]Let p be a prime number, and n a positive integer.
+[LINE#333]Let s be the sum of the digits appearing in the expression of n in base p .
+[LINE#334]i0 be an integer, and p a prime number.
+0.613	[*A*]i0[*R*]p[*A*]a prime number	context()	negated: False ,passive: False
+0.918	[*A*]i0[*R*]be[*A*]an integer	context()	negated: False ,passive: True
+[LINE#335]We have(pi)!p-pi-1p-1=(-1)imodp.
+0.195	[*A*]We[*R*]have	context()	negated: False ,passive: False
+[LINE#336]ProofWe proceed by induction on i.
+0.771	[*A*]ProofWe[*R*]proceed	context()	negated: False ,passive: False
+[LINE#337]Let i1 and consider the set Ui={1,2,,pi-1,pi}.
+[LINE#338]The product of all the integers sitting between two consecutive multiples of p is congruent to -1 modulo p, by Wilson's Theorem.
+0.973	[*A*]The product of all the integers sitting between two consecutive multiples of p[*R*]is[*A*]-1 modulo p	context()	negated: False ,passive: False
+0.998	[*A*]the integers sitting between two consecutive multiples of p[*R*]have The product of[*A*]-1 modulo p	context()	negated: False ,passive: False
+0.844	[*A*]The product of all the integers[*R*]is[*A*]congruent	context()	negated: False ,passive: True
+0.911	[*A*]all the integers[*R*]sitting[*A*]between two consecutive multiples of p	context()	negated: False ,passive: True
+[LINE#339]Thus the product of all elements of Ui which are non-divisible by p is congruent modulo p to (-1)pi-1=-1.
+0.890	[*A*]the product of all elements of Ui[*R*]is[*A*]congruent[*A*]modulo p to (-1	context()	negated: False ,passive: True
+0.928	[*A*]all elements of Ui[*R*]are[*A*]non-divisible by p	context()	negated: False ,passive: True
+[LINE#340]The product of the pi-1 elements of Ui which are divisible by p is ppi-1(pi-1)!.
+0.973	[*A*]The product of the pi - 1 elements of Ui which are divisible by p[*R*]is[*A*]-1	context()	negated: False ,passive: False
+0.998	[*A*]the pi 1 elements of Ui which are divisible by p[*R*]have The product of[*A*]-1	context()	negated: False ,passive: False
+0.968	[*A*]The product of the pi-1 elements of Ui[*R*]is[*A*]ppi-1	context()	negated: False ,passive: True
+0.945	[*A*]the pi-1 elements of Ui[*R*]are[*A*]divisible by p	context()	negated: False ,passive: True
+[LINE#341]Hence we have (pi)!p-pi-1p-1=(-1)ppi-1(pi-1)!p-pi-1p-1=-p-pi-1-1p-1(pi-1)!.
+0.177	[*A*]we[*R*]have pi of[*A*]-1 =	context()	negated: False ,passive: False
+0.999	[*A*]we[*R*]have[*A*]-1 = - p - pi -1 -1p -1	context()	negated: False ,passive: False
+0.524	[*A*]we[*R*]have[*A*]pi)!p-pi-1p-1=(-1)ppi-1(pi-1)!p-pi-1p-1=-p-pi-1-1p-1	context()	negated: False ,passive: False

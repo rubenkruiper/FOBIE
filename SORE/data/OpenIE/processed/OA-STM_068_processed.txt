@@ -1,0 +1,1130 @@
+[LINE#1]To prevent ocean acidification and mitigate greenhouse gas emissions, it is necessary to capture and store carbon dioxide.
+[LINE#2]The Sleipner storage site, offshore Norway, is the world's first and largest engineered waste repository for a greenhouse gas.
+0.965	[*A*]The Sleipner storage site[*R*]is[*A*]the world 's largest engineered waste repository for a greenhouse gas	context()	negated: False ,passive: True
+0.965	[*A*]The Sleipner storage site[*R*]is[*A*]the world 's first engineered waste repository for a greenhouse gas	context()	negated: False ,passive: True
+[LINE#3]CO2 is separated from the Sleipner gas condensate field and stored in the pore space of the Utsira Formation, a saline aquifer approximately 1km below the surface and 200km from the coast.
+0.932	[*A*]CO2[*R*]is stored[*A*]in the pore space of the Utsira Formation	context()	negated: False ,passive: True
+0.932	[*A*]CO2[*R*]is separated[*A*]from the Sleipner gas condensate field	context()	negated: False ,passive: True
+[LINE#4]Statoil, the field operator, has injected almost 1Mt/yr of captured CO2 into the storage site since 1996.
+0.999	[*A*]Statoil[*R*]has injected[*A*]almost 1mt / yr	context()	negated: False ,passive: False
+0.887	[*A*]Statoil[*R*][is][*A*]the field operator	context()	negated: False ,passive: False
+0.921	[*A*]Statoil[*R*]has injected[*A*]almost 1Mt/yr of captured CO2[*A*]into the storage site[*A*]since 1996	context()	negated: False ,passive: False
+[LINE#5]The buoyant CO2 plume ascended rapidly through eight thin shale barriers within the aquifer to reach the top seal in less than three years.
+0.939	[*A*]The buoyant CO2 plume[*R*]ascended rapidly[*A*]through eight thin shale barriers within the aquifer	context()	negated: False ,passive: False
+[LINE#6]The plume's progress has been monitored by eight seismic surveys, as well as gravimetric and electromagnetic monitoring, which record the spreading of nine thin CO2 layers.
+0.919	[*A*]The plume 's progress[*R*]has been monitored[*A*]by electromagnetic monitoring	context()	negated: False ,passive: True
+0.919	[*A*]The plume 's progress[*R*]has been monitored[*A*]by gravimetric monitoring	context()	negated: False ,passive: True
+0.897	[*A*]eight seismic surveys[*R*]record[*A*]the spreading of nine thin CO2 layers	context()	negated: False ,passive: False
+0.919	[*A*]The plume 's progress[*R*]has been monitored[*A*]by eight seismic surveys	context()	negated: False ,passive: True
+[LINE#7]This paper presents a capillary flow model using invasion percolation physics that accurately matches the plume's geometry.
+0.718	[*A*]invasion percolation physics[*R*]accurately matches	context()	negated: False ,passive: False
+0.869	[*A*]a capillary flow model[*R*]using[*A*]invasion percolation physics that accurately matches the plume's geometry	context()	negated: False ,passive: False
+0.732	[*A*]This paper[*R*]presents	context()	negated: False ,passive: False
+[LINE#8]The approach differs from standard Darcy flow simulations, which fail to match the plume geometry.
+0.928	[*A*]standard Darcy flow simulations[*R*]to match[*A*]the plume geometry	context()	negated: False ,passive: True
+0.928	[*A*]standard Darcy flow simulations[*R*]fail[*A*]to match the plume geometry	context()	negated: False ,passive: True
+0.732	[*A*]The approach[*R*]differs	context()	negated: False ,passive: False
+[LINE#9]The calibrated capillary flow simulation indicates that a mass balance for the plume is likely, but can only replicate the plume geometry if the thin intra-formational shale barriers are fractured.
+0.843	[*A*]a mass balance[*R*]can replicate[*A*]the plume geometry[*A*]if the thin intra-formational shale barriers are fractured	context(The calibrated capillary flow simulation indicates)	negated: False ,passive: False
+0.854	[*A*]The calibrated capillary flow simulation[*R*]indicates[*A*]that a mass balance can only replicate the plume geometry if the thin intra-formational shale barriers are fractured	context()	negated: False ,passive: False
+0.936	[*A*]a mass balance for the plume[*R*]is[*A*]likely[*A*]if the thin intra-formational shale barriers are fractured	context(The calibrated capillary flow simulation indicates)	negated: False ,passive: True
+0.854	[*A*]The calibrated capillary flow simulation[*R*]indicates[*A*]that a mass balance for the plume is likely if the thin intra-formational shale barriers are fractured	context()	negated: False ,passive: False
+0.785	[*A*]the thin intra-formational shale barriers[*R*]are fractured	context()	negated: False ,passive: False
+[LINE#10]The model enables an estimate of the shale barrier behavior and caprock performance.
+0.903	[*A*]The model[*R*]enables[*A*]an estimate of the caprock performance	context()	negated: False ,passive: False
+0.903	[*A*]The model[*R*]enables[*A*]an estimate of the shale barrier behavior	context()	negated: False ,passive: False
+[LINE#11]The fractures are very unlikely to have been caused by CO2 injection given the confining stress of the rock and weak overpressure of the plume, and so fracturing must pre-date injection.
+0.947	[*A*]The fractures[*R*]are[*A*]very unlikely to have been caused by CO2 injection[*A*]given the confining stress of the weak overpressure of the plume	context()	negated: False ,passive: True
+0.918	[*A*]The fractures[*R*]are[*A*]very unlikely to have been caused by CO2 injection[*A*]given the confining stress of the rock	context()	negated: False ,passive: True
+0.905	[*A*]The fractures[*R*]to have been caused[*A*]by CO2 injection	context()	negated: False ,passive: True
+[LINE#12]A novel mechanism is suggested: the deglaciation of regional ice sheets that have rapidly and repeatedly unloaded approximately 1km of ice.
+0.910	[*A*]regional ice sheets[*R*]have rapidly unloaded[*A*]approximately 1km of ice[*A*]repeatedly	context()	negated: False ,passive: False
+0.751	[*A*]A novel mechanism[*R*]is suggested	context()	negated: False ,passive: False
+[LINE#13]The induced transient pore pressures are sufficient to hydro-fracture thin shales.
+0.926	[*A*]The induced transient pore pressures[*R*]are[*A*]sufficient to hydro-fracture thin shales	context()	negated: False ,passive: True
+[LINE#14]The fractures enable fast CO2 ascent, resulting in a multi-layered plume.
+0.918	[*A*]The fractures[*R*]enable[*A*]fast CO2 ascent[*A*]resulting in a multi-layered plume	context()	negated: False ,passive: False
+[LINE#15]Shallow CO2 storage sites in the Northern North Sea and other regions that have been loaded by Quaternary ice sheets are likely to behave in a similar manner.
+0.945	[*A*]Shallow CO2 storage sites in other regions[*R*]to behave[*A*]in a similar manner	context()	negated: False ,passive: False
+0.945	[*A*]Shallow CO2 storage sites in other regions[*R*]are[*A*]likely to behave in a similar manner	context()	negated: False ,passive: True
+0.887	[*A*]other regions[*R*]have been loaded[*A*]by Quaternary ice sheets	context()	negated: False ,passive: True
+0.915	[*A*]Shallow CO2 storage sites in the Northern North Sea[*R*]to behave[*A*]in a similar manner	context()	negated: False ,passive: False
+0.915	[*A*]Shallow CO2 storage sites in the Northern North Sea[*R*]are[*A*]likely to behave in a similar manner	context()	negated: False ,passive: True
+0.915	[*A*]Shallow CO2 storage sites in the Northern North Sea[*R*]have been loaded[*A*]by Quaternary ice sheets	context()	negated: False ,passive: True
+[LINE#16]The Sleipner CO2 storage site is an iconic carbon sequestration project and extraordinary fluid flow experiment in terms of the setting, nature and volume of fluid injected.
+0.878	[*A*]an extraordinary fluid flow experiment in terms of the volume of fluid[*R*]injected	context()	negated: False ,passive: False
+0.973	[*A*]The Sleipner CO2 storage site[*R*]is[*A*]an extraordinary fluid flow experiment in terms of the volume of fluid injected	context()	negated: False ,passive: True
+0.856	[*A*]an extraordinary fluid flow experiment in terms of the nature[*R*]injected	context()	negated: False ,passive: False
+0.973	[*A*]The Sleipner CO2 storage site[*R*]is[*A*]an extraordinary fluid flow experiment in terms of the nature injected	context()	negated: False ,passive: True
+0.856	[*A*]an extraordinary fluid flow experiment in terms of the setting[*R*]injected	context()	negated: False ,passive: False
+0.973	[*A*]The Sleipner CO2 storage site[*R*]is[*A*]an extraordinary fluid flow experiment in terms of the setting injected	context()	negated: False ,passive: True
+0.785	[*A*]an iconic carbon sequestration project[*R*]injected	context()	negated: False ,passive: False
+0.957	[*A*]The Sleipner CO2 storage site[*R*]is[*A*]an iconic carbon sequestration project injected	context()	negated: False ,passive: True
+[LINE#17]This paper has documented a numerical modeling approach that results in a plausible CO2 distribution and mass balance estimate.
+0.905	[*A*]a numerical modeling approach[*R*]results[*A*]in a mass balance estimate	context()	negated: False ,passive: True
+0.845	[*A*]This paper[*R*]has documented[*A*]a numerical modeling approach that results in a mass balance estimate	context()	negated: False ,passive: False
+0.920	[*A*]a numerical modeling approach[*R*]results[*A*]in a plausible CO2 distribution	context()	negated: False ,passive: True
+0.868	[*A*]This paper[*R*]has documented[*A*]a numerical modeling approach that results in a plausible CO2 distribution	context()	negated: False ,passive: False
+[LINE#18]Data acquisition and monitoring at Sleipner has been via remote geophysical sensing, primarily 4D seismic.
+0.933	[*A*]monitoring at Sleipner[*R*]has been[*A*]via remote geophysical sensing , primarily 4 D seismic	context()	negated: False ,passive: True
+0.903	[*A*]Data acquisition[*R*]has been[*A*]via remote geophysical sensing , primarily 4 D seismic	context()	negated: False ,passive: True
+[LINE#19]As a consequence, a number of quite large uncertainties remain with respect to the observed plume distribution.
+0.932	[*A*]a number of quite large uncertainties[*R*]remain[*A*]with respect to the observed plume distribution	context()	negated: False ,passive: True
+[LINE#20]The paper demonstrates the sensitivity of mass balance estimates associated with a poorly constrained temperature profile close to the critical point of CO2, and poorly constrained thickness estimates of the multiple thin layers that characterize the plume.
+0.905	[*A*]the multiple thin layers[*R*]characterize[*A*]the plume	context()	negated: False ,passive: False
+0.943	[*A*]mass balance estimates[*R*]associated[*A*]with a poorly constrained thickness estimates of the multiple thin layers	context()	negated: False ,passive: True
+0.952	[*A*]mass balance estimates[*R*]associated[*A*]with a poorly constrained temperature profile close to the critical point of CO2	context()	negated: False ,passive: True
+0.903	[*A*]The paper[*R*]demonstrates[*A*]the sensitivity of mass balance estimates	context()	negated: False ,passive: False
+[LINE#21]With respect to simulations, it is noted that previous attempts to numerically model the plume have used software governed by Darcy flow physics, and achieved poor results.
+0.911	[*A*]software[*R*]governed[*A*]by Darcy flow physics	context()	negated: False ,passive: True
+[LINE#22]This paper presents an alternative approach that leads to a successful 3D simulation of the injected plume distribution using a model based on capillary flow and percolation physics.
+0.903	[*A*]a model[*R*]based[*A*]on percolation physics	context()	negated: False ,passive: True
+0.903	[*A*]a model[*R*]based[*A*]on capillary flow	context()	negated: False ,passive: True
+0.933	[*A*]an alternative approach[*R*]leads[*A*]to a successful 3 D simulation of the injected plume distribution	context()	negated: False ,passive: False
+0.845	[*A*]This paper[*R*]presents[*A*]an alternative approach that leads to a successful 3 D simulation of the injected plume distribution	context()	negated: False ,passive: False
+[LINE#23]The paper carefully documents the modeling approach and justification for this unusual but effective method.
+0.903	[*A*]The paper[*R*]carefully documents[*A*]the justification for this effective method	context()	negated: False ,passive: False
+0.903	[*A*]The paper[*R*]carefully documents[*A*]the justification for this unusual method	context()	negated: False ,passive: False
+0.903	[*A*]The paper[*R*]carefully documents[*A*]the modeling approach for this effective method	context()	negated: False ,passive: False
+0.903	[*A*]The paper[*R*]carefully documents[*A*]the modeling approach for this unusual method	context()	negated: False ,passive: False
+[LINE#24]The modeling indicates that the multiple layers of thin CO2 are likely a consequence of unexpectedly low threshold pressures for vertical migration through the shale barriers within the Utsira Formation.
+0.795	[*A*]the multiple layers of thin CO2[*R*]are[*A*]likely	context(The modeling indicates)	negated: False ,passive: True
+0.840	[*A*]The modeling[*R*]indicates[*A*]that the multiple layers of thin CO2 are likely a consequence of unexpectedly low threshold pressures for vertical migration through the shale barriers within the Utsira Formation	context()	negated: False ,passive: False
+[LINE#25]The estimated threshold pressures for CO2, at around 50kPa, are approximately 35-fold less than that measured on a sample of the caprock shale from well 15/9A-11, close to the site, at approximately 1.75MPa.
+0.228	[*A*]that[*R*]measured close[*A*]on a sample of the caprock shale from well 15/9A-11	context()	negated: False ,passive: True
+0.749	[*A*]The estimated threshold pressures for CO2, at around 50kPa[*R*]are[*A*]approximately 35-fold less than that	context()	negated: False ,passive: True
+[LINE#26]This difference is most plausibly explained by microfracturing of the shale barriers, but CO2 injection at Sleipner is not considered to be a likely cause of fracturing.
+0.928	[*A*]CO2 injection at Sleipner[*R*]to be[*A*]a likely cause of fracturing	context()	negated: False ,passive: True
+0.903	[*A*]This difference[*R*]is most plausibly explained[*A*]by microfracturing of the shale barriers	context()	negated: False ,passive: True
+[LINE#27]It is postulated that the fracturing occurred long before CO2 injection commenced, as a result of rapid pore pressure fluctuations associated with the collapse of thick ice sheets during multiple episodes of deglaciation in the region over the last million years.
+0.948	[*A*]rapid pore pressure fluctuations[*R*]associated[*A*]with the collapse of thick ice sheets[*A*]during multiple episodes of deglaciation in the region over the last million years	context()	negated: False ,passive: True
+0.788	[*A*]CO2 injection[*R*]commenced	context()	negated: False ,passive: False
+[LINE#28]A number of independent observations are considered to support this hypothesis.
+0.913	[*A*]A number of independent observations[*R*]to support[*A*]this hypothesis	context()	negated: False ,passive: False
+[LINE#29]Concerning seal integrity, the caprock and overlying Nordland Group shales of the Lower Seal may have also been fractured during deglaciation.
+0.942	[*A*]the overlying Nordland Group shales of the Lower Seal[*R*]may have been fractured[*A*]during deglaciation	context()	negated: False ,passive: True
+0.859	[*A*]the caprock[*R*]may have been fractured[*A*]during deglaciation	context()	negated: False ,passive: True
+[LINE#30]However, it is noted that there is no evidence of CO2 leaking, possibly as a result of a different caprock response to CO2 retention, which is notably thicker than the thin shale barriers within the storage site.
+0.958	[*A*]CO2 retention[*R*]is[*A*]notably thicker than the thin shale barriers within the storage site	context()	negated: False ,passive: True
+[LINE#31]It is inferred that similar fracture networks within the primary seal are potentially only proximal to the formation, and may have limited percolation connectivity, preventing vertical migration through the overburden.
+0.112	[*A*]that[*R*]may have limited[*A*]percolation connectivity	context(It is inferred)	negated: False ,passive: False
+0.279	[*A*]It[*R*]is inferred[*A*]that may have limited percolation connectivity , preventing vertical migration through the overburden	context()	negated: False ,passive: True
+[LINE#32]Successive seismic reflection surveys of the Sleipner CO2 storage site have shown by observation that the plume of injected CO2 at the Sleipner storage site has a geometry which reveals partial trapping beneath thin shales within the Utsira Formation.
+0.982	[*A*]the plume of injected CO2 at the Sleipner storage site[*R*]has[*A*]a geometry which reveals partial trapping beneath thin shales within the Utsira Formation	context()	negated: False ,passive: False
+0.905	[*A*]a geometry[*R*]reveals[*A*]partial trapping[*A*]beneath thin shales within the Utsira Formation	context()	negated: False ,passive: False
+0.889	[*A*]Successive seismic reflection surveys of the Sleipner CO2 storage site[*R*]have shown	context()	negated: False ,passive: False
+[LINE#33]The flow modeling approach and analysis presented here suggest that the shale barriers have uncharacteristically low threshold pressures, enabling the rapid vertical migration of injected CO2 within the storage site.
+0.829	[*A*]The flow modeling approach and analysis[*R*]presented[*A*]here	context()	negated: False ,passive: False
+[LINE#34]The inferred threshold of around 50kPa is much lower than the observed value of approximately 1.75MPa from core measurements by Springer and Lindgren (2006) and Harrington et al.
+0.961	[*A*]The inferred threshold of[*R*]is[*A*]much lower than the observed value of approximately 1.75MPa from core measurements by Springer and Lindgren (2006) and Harrington et al	context()	negated: False ,passive: True
+[LINE#35]However, it should be noted that standard methodologies for core sampling and threshold pressure measurements specifically avoid fractured samples, assuming such fractures to be indicative of drilling damage.
+0.903	[*A*]such fractures[*R*]to be[*A*]indicative of drilling damage	context()	negated: False ,passive: True
+[LINE#36]As such, the influence of natural fracture networks on bulk shale threshold pressures is likely to be under-represented, if considered at all.
+0.869	[*A*]the influence of natural fracture networks on bulk shale threshold pressures[*R*]to be[*A*]under-represented[*A*]if considered at all	context()	negated: False ,passive: True
+0.912	[*A*]the influence of natural fracture networks on bulk shale threshold pressures[*R*]is[*A*]likely to be under-represented	context()	negated: False ,passive: True
+[LINE#37]The model results indicate that a definitive mass balance for the plume is difficult to ascertain given the inherent uncertainties in the data.
+0.963	[*A*]a definitive mass balance for the plume[*R*]is[*A*]difficult to ascertain given the inherent uncertainties in the data	context(The model results indicate)	negated: False ,passive: True
+0.828	[*A*]The model results[*R*]indicate[*A*]that a definitive mass balance for the plume is difficult to ascertain given the inherent uncertainties in the data	context()	negated: False ,passive: False
+[LINE#38]However, a mid-range temperature profile and reasonable layer thickness estimate indicates that a mass balance for the plume is certainly possible.
+0.832	[*A*]a mass balance for the plume[*R*]is[*A*]certainly[*A*]possible	context(a reasonable layer thickness estimate indicates)	negated: False ,passive: True
+0.849	[*A*]a reasonable layer thickness estimate[*R*]indicates[*A*]that a mass balance for the plume is certainly possible	context()	negated: False ,passive: False
+0.832	[*A*]a mass balance for the plume[*R*]is[*A*]certainly[*A*]possible	context(a mid-range temperature profile thickness estimate indicates)	negated: False ,passive: True
+0.861	[*A*]a mid-range temperature profile thickness estimate[*R*]indicates[*A*]that a mass balance for the plume is certainly possible	context()	negated: False ,passive: False
+[LINE#39]The modeled low shale barrier threshold pressures are potentially indicative of fracturing.
+0.938	[*A*]The modeled low shale barrier threshold pressures[*R*]are[*A*]potentially indicative of fracturing	context()	negated: False ,passive: True
+[LINE#40]However, the current pressure regime is extremely unlikely to cause fracturing, and so it is inferred that the shales may have been pervasively fractured in the past.
+0.771	[*A*]the current pressure regime[*R*]to cause[*A*]fracturing	context()	negated: False ,passive: False
+0.841	[*A*]the current pressure regime[*R*]is[*A*]extremely unlikely to cause fracturing	context()	negated: False ,passive: True
+[LINE#41]A fracturing process consistent with the geological history of the region is that the shale barriers have undergone a transient pulse of fluid overpressure sufficient to fracture the rock.
+0.929	[*A*]the shale barriers[*R*]have undergone[*A*]a transient pulse of fluid overpressure sufficient to fracture the rock	context(A fracturing process consistent with the geological history of the region is)	negated: False ,passive: True
+0.933	[*A*]A fracturing process consistent with the geological history of the region[*R*]is[*A*]that the shale barriers have undergone a transient pulse of fluid overpressure sufficient to fracture the rock	context()	negated: False ,passive: True
+[LINE#42]Such a pressure history could be a consequence of the rapid unloading of hundreds of meters of ice from the overburden during a deglaciation.
+0.948	[*A*]Such a pressure history[*R*]could be[*A*]a consequence of the rapid unloading of hundreds of meters of ice from the overburden during a deglaciation	context()	negated: False ,passive: True
+[LINE#43]A transient ice sheet load equivalent to 10MPa of overpressure could have been removed rapidly by melting, or instantly by a sea level rise and the flotation of an ice sheet grounded on the seabed, during a typical ablation timespan of less than a few thousand years.
+0.911	[*A*]an ice sheet[*R*]grounded[*A*]on the seabed	context()	negated: False ,passive: True
+0.970	[*A*]A transient ice sheet load equivalent to 10MPa of overpressure[*R*]could have been removed rapidly[*A*]by melting, or instantly by a sea level rise and the flotation of an ice sheet grounded on the seabed, during a typical ablation timespan of less than a few thousand years	context()	negated: False ,passive: True
+[LINE#44]At the shallow burial depth of these shales, 10MPa is sufficient to exceed the tensional rock strength and cause pervasive hydraulic fracturing.
+0.906	[*A*]10MPa[*R*]to cause[*A*]pervasive hydraulic fracturing	context()	negated: False ,passive: False
+0.965	[*A*]10MPa[*R*]is[*A*]sufficient to cause pervasive hydraulic fracturing[*A*]At the shallow burial depth of these shales	context()	negated: False ,passive: True
+0.906	[*A*]10MPa[*R*]to exceed[*A*]the tensional rock strength	context()	negated: False ,passive: False
+0.965	[*A*]10MPa[*R*]is[*A*]sufficient to exceed the tensional rock strength[*A*]At the shallow burial depth of these shales	context()	negated: False ,passive: True
+[LINE#45]This may have happened as a consequence of one or more regional ice sheet excursions into the basin.
+0.497	[*A*]This[*R*]may have happened[*A*]as a consequence of one or more regional ice sheet excursions into the basin	context()	negated: False ,passive: True
+[LINE#46]While the strength and thickness of the overburden at any given ice collapse is unknown, a conservative approximation for the fracture gradient, based on present-day leak-off tests (Nicoll, 2012), suggests that such an event is plausible.
+0.787	[*A*]such an event[*R*]is[*A*]plausible	context(a conservative approximation for the fracture gradient suggests)	negated: False ,passive: True
+0.895	[*A*]thickness of the overburden at any given ice collapse[*R*]is[*A*]unknown	context()	negated: False ,passive: True
+0.787	[*A*]such an event[*R*]is[*A*]plausible	context(a conservative approximation for the fracture gradient suggests)	negated: False ,passive: True
+0.782	[*A*]a conservative approximation for the fracture gradient[*R*]suggests[*A*]that such an event is plausible	context()	negated: False ,passive: False
+0.897	[*A*]the fracture gradient[*R*]based[*A*]on present - day leak - off tests	context()	negated: False ,passive: True
+0.904	[*A*]the strength of the overburden at any given ice collapse[*R*]is[*A*]unknown	context()	negated: False ,passive: True
+[LINE#47]Two rival processes are acting on today's CO2 storage performance at this site.
+0.925	[*A*]Two rival processes[*R*]are acting[*A*]on today's CO2 storage performance at this site	context()	negated: False ,passive: False
+[LINE#48]The first process, favoring retention, is the spreading and dispersal of the injected CO2.
+0.949	[*A*]The first process , favoring retention[*R*]is[*A*]dispersal of the injected CO2	context()	negated: False ,passive: True
+0.949	[*A*]The first process , favoring retention[*R*]is[*A*]the spreading of the injected CO2	context()	negated: False ,passive: True
+0.897	[*A*]The first process[*R*]favoring[*A*]retention	context()	negated: False ,passive: False
+[LINE#49]For this process, weak shale barriers within the storage formation are beneficial.
+0.842	[*A*]weak shale barriers within the storage formation[*R*]are[*A*]beneficial	context()	negated: False ,passive: True
+[LINE#50]These encourage the development of many thin layers of injected CO2, rather than one thick plume.
+0.590	[*A*]These[*R*]encourage[*A*]the development of many thin layers of injected CO2	context()	negated: False ,passive: False
+[LINE#51]This maximizes the surface area contact of CO2 to porewater within the formation while decreasing the column height acting on the caprock and minimizing the lateral spread of CO2.
+0.925	[*A*]the column height[*R*]minimizing[*A*]the lateral spread of CO2	context()	negated: False ,passive: False
+0.425	[*A*]This[*R*]maximizes[*A*]the surface area contact of CO2[*A*]while decreasing the column height	context()	negated: False ,passive: False
+0.425	[*A*]This[*R*]maximizes[*A*]the surface area contact of CO2[*A*]while decreasing the column height acting on the caprock	context()	negated: False ,passive: False
+[LINE#52] An increased surface area promotes the dissolution of CO2 in brine (Gilfillan et al., 2009), which results in permanent sequestration, as the slightly increased brine density causes the dissolved CO2 to descend away from the upper barrier surface.
+0.918	[*A*]the dissolved CO2[*R*]to descend[*A*]away from the upper barrier surface	context(the slightly increased brine density causes)	negated: False ,passive: False
+0.951	[*A*]the slightly increased brine density[*R*]causes[*A*]the dissolved CO2 to descend away from the upper barrier surface	context()	negated: False ,passive: False
+0.544	[*A*]slightly[*R*]increased[*A*]brine density	context()	negated: False ,passive: True
+0.940	[*A*]the dissolution of CO2 in brine[*R*]results[*A*]in permanent sequestration	context()	negated: False ,passive: True
+0.931	[*A*]An increased surface area[*R*]promotes[*A*]the dissolution of CO2 in brine	context()	negated: False ,passive: False
+[LINE#53]Solubility trapping is desirable as it eliminates the need to physically retain a lower density buoyant fluid; sequestration of CO2 by growth into new minerals is likely to be too slow in nature to effect trapping over the required timescale of hundreds-to-thousands of years (Wilkinson et al., 2011).The second process, opposing retention, is the vertical flow of CO2 which may be mediated by existing micro-fracture networks that span the shale barriers.
+0.968	[*A*]sequestration of CO2 by growth into new minerals[*R*]to be[*A*]too slow in nature to effect trapping over the required timescale of hundreds-to-thousands of years	context()	negated: False ,passive: True
+0.843	[*A*]Solubility trapping[*R*]is[*A*]desirable[*A*]as it eliminates the need	context(sequestration of CO2 by growth into new minerals is)	negated: False ,passive: True
+0.975	[*A*]sequestration of CO2 by growth into new minerals[*R*]is[*A*]likely to be too slow in nature to effect trapping over the required timescale of hundreds-to-thousands of years	context()	negated: False ,passive: True
+0.920	[*A*]existing micro-fracture networks[*R*]span[*A*]the shale barriers	context()	negated: False ,passive: False
+0.939	[*A*]The second process, opposing retention[*R*]is[*A*]the vertical flow of CO2	context()	negated: False ,passive: True
+0.569	[*A*]it[*R*]eliminates[*A*]the need to physically retain a lower density buoyant fluid	context()	negated: False ,passive: False
+0.877	[*A*]CO2[*R*]may be mediated[*A*]by existing micro-fracture networks	context()	negated: False ,passive: True
+[LINE#54]This may be disadvantageous to CO2 storage for two reasons: firstly, because the CO2 is only partially spread laterally beneath the shale barriers, potentially resulting in a focused vertical flow path; secondly, because CO2 could potentially break through the caprock seal.
+0.321	[*A*]This[*R*]may be[*A*]disadvantageous to CO2 storage[*A*]for two reasons	context(CO2 could break)	negated: False ,passive: True
+0.852	[*A*]CO2[*R*]could break[*A*]through the caprock seal	context()	negated: False ,passive: False
+[LINE#55]Evidence from Sleipner indicates that the fracturing affects all the internal shale barriers including the uppermost 7m thick shale.
+0.923	[*A*]the fracturing[*R*]affects[*A*]all the internal shale barriers including the uppermost 7m thick shale	context(Evidence from Sleipner indicates)	negated: False ,passive: False
+0.867	[*A*]Evidence from Sleipner[*R*]indicates[*A*]that the fracturing affects all the internal shale barriers including the uppermost 7m thick shale	context()	negated: False ,passive: False
+[LINE#56]This thick shale is geologically considered to be part of the overlying Lower Seal (Gregersen and Johannessen, 2001; Eidvin et al., 2013).
+0.944	[*A*]This thick shale[*R*]to be[*A*]part of the overlying Lower Seal ( Johannessen , 2001 ; Eidvin et al . , 2013	context()	negated: False ,passive: True
+0.944	[*A*]This thick shale[*R*]to be[*A*]part of the overlying Lower Seal ( Gregersen , 2001 ; Eidvin et al . , 2013	context()	negated: False ,passive: True
+[LINE#57]Fracturing of the Lower Seal would be of particular concern, as the caprock acts as the primary seal for storage site.
+0.925	[*A*]the caprock[*R*]acts[*A*]as the primary seal for storage site	context()	negated: False ,passive: False
+0.964	[*A*]Fracturing of the Lower Seal[*R*]would be[*A*]of particular concern[*A*]as the caprock acts as the primary seal for storage site	context()	negated: False ,passive: True
+[LINE#58] The question arises, has the caprock been fractured by the same deglaciation mechanism?.
+0.686	[*A*]The question[*R*]arises	context()	negated: False ,passive: False
+[LINE#59] And if so, do the observed chimney-like structures in the secondary seal within the vicinity of the storage site (Nicoll et al., 2012) contain vertical fracture networks that compromise the seal integrity?.
+0.897	[*A*]vertical fracture networks[*R*]compromise[*A*]the seal integrity	context()	negated: False ,passive: False
+[LINE#60]As yet, a percolation network of connected fractures through the much thicker shale sequences of the overburden has not been proven.
+0.945	[*A*]a percolation network of connected fractures through the much thicker shale sequences of the overburden[*R*]has not been proven[*A*]As yet	context()	negated: True ,passive: True
+[LINE#61]Evidence against such a fracture network is the continued lateral migration of the uppermost CO2 plume at about 1m per day to the north (Chadwick et al., 2008), and the lack of seismic velocity changes observed in the caprock above the storage site, and within the Middle Seal, on successive 4D seismic surveys (StatoilHydro, 2009; Chadwick et al., 2009).
+0.911	[*A*]seismic velocity changes[*R*]observed[*A*]in the caprock above the storage site	context()	negated: False ,passive: True
+0.972	[*A*]Evidence against such a fracture network[*R*]is[*A*]the continued lateral migration of the uppermost CO2 plume at about 1m per day to the north	context()	negated: False ,passive: True
+[LINE#62]This is encouraging, as even small amounts of CO2 gas added to the Lower Seal would result in a strong seismic reflection signal, given the strong density contrast between brine and gas for the pressure and temperature conditions of the overburden.
+0.925	[*A*]even small amounts of CO2 gas[*R*]added[*A*]would result in a strong seismic reflection signal	context()	negated: False ,passive: False
+0.612	[*A*]This[*R*]is[*A*]encouraging[*A*]as even small amounts of CO2 gas added to the Lower Seal would result in a strong seismic reflection signal	context()	negated: False ,passive: True
+0.470	[*A*]This[*R*]would result in a strong seismic reflection signal is[*A*]encouraging[*A*]as even small amounts of CO2 gas added to the Lower Seal	context(This would result)	negated: False ,passive: True
+0.286	[*A*]This[*R*]would result[*A*]in a strong seismic reflection signal	context()	negated: False ,passive: True
+0.845	[*A*]even small amounts of CO2 gas[*R*]added	context()	negated: False ,passive: False
+0.133	[*A*]This[*R*]encouraging	context()	negated: False ,passive: False
+[LINE#63]These are reasonable grounds to assert that the caprock is a functioning seal that is significantly thicker than the underlying shales.
+0.920	[*A*]a functioning seal[*R*]is[*A*]significantly thicker than the underlying shales	context()	negated: False ,passive: True
+0.853	[*A*]the caprock[*R*]is[*A*]a functioning seal that is significantly thicker than the underlying shales	context(reasonable grounds to assert)	negated: False ,passive: True
+0.731	[*A*]reasonable grounds[*R*]to assert[*A*]that the caprock is a functioning seal	context()	negated: False ,passive: False
+0.412	[*A*]These[*R*]are[*A*]reasonable grounds to assert that the caprock is a functioning seal	context()	negated: False ,passive: True
+[LINE#64] If CO2 were to seep into the Lower Seal, then predictions of observable phenomena to be expected would include:(a)Stabilization or shrinkage of the upper plume layer on a timescale of years rather than decades, due to the seepage of CO2 via fractures rather than dissolution into the underlying formation.(b)Observable brightening and extending of seismic anomalies for the existing bright spots of natural gas pockets above and within the Lower Seal; 'lighting up' of existing seismic chimneys.(c)New 'soft kick' seismic anomalies appearing in the overburden as a consequence of gaseous CO2 ascending through micro-fractures and charging shallow sand bodies within the near future.(d)Ultimately,some form of surface expression at the sea floor, including pockmarking, seawater geochemical changes, bubble trains, and possibly behavioral changes in bottom-dwelling fauna.
+0.939	[*A*]predictions of observable phenomena[*R*]would include[*A*]a)Stabilization or shrinkage of the upper plume layer on a timescale of years rather than decades	context()	negated: False ,passive: True
+0.732	[*A*]observable phenomena[*R*]to be expected	context()	negated: False ,passive: False
+0.903	[*A*]seismic anomalies[*R*]appearing[*A*]in the overburden	context()	negated: False ,passive: True
+0.650	[*A*]CO2[*R*]to seep Ultimately	context()	negated: False ,passive: False
+0.957	[*A*]CO2[*R*]were[*A*]to seep into the Lower Seal, then predictions of observable phenomena to be expected would include:(a)Stabilization or shrinkage of the upper plume layer on a timescale of years rather than decades, due to the seepage of CO2 via fractures rather than dissolution into the underlying formation.(b)Observable brightening and extending of seismic anomalies for the existing bright spots of natural gas pockets above and within the Lower Seal; 'lighting up' of existing seismic chimneys.(c)New 'soft kick' seismic anomalies appearing in the overburden as a consequence of gaseous CO2 ascending through micro-fractures and charging shallow sand bodies within the near future.(d)Ultimately	context()	negated: False ,passive: True
+[LINE#65]While none of these are apparent, or inferred at present (Pedersen et al., 2012), future monitoring of the Sleipner storage site could be directed toward testing such possibilities.
+0.978	[*A*]Pedersen et al., 2012), future monitoring of the Sleipner storage site[*R*]could be directed[*A*]toward testing such possibilities	context()	negated: False ,passive: True
+0.754	[*A*]none of these[*R*]inferred[*A*]at present	context()	negated: False ,passive: True
+0.783	[*A*]none of these[*R*]are[*A*]apparent	context()	negated: False ,passive: True
+[LINE#66]Note that a significant increase in fluid pressure for aquifers and sand bodies above Utsira, a commonly cited detection criteria, is not expected due to the buoyant capillary-dominated nature of the flow and associated weak pressure differentials.
+[LINE#67]Processes occurring in this storage site are relevant for all areas of the North Sea affected by regional ice sheets.
+0.949	[*A*]all areas of the North Sea[*R*]affected[*A*]by regional ice sheets	context()	negated: False ,passive: True
+0.943	[*A*]Processes occurring in this storage site[*R*]are[*A*]relevant for all areas of the North Sea	context()	negated: False ,passive: True
+0.894	[*A*]Processes[*R*]occurring[*A*]in this storage site	context()	negated: False ,passive: True
+[LINE#68]The hydraulic fracturing of thin, shallow shale intervals during deglaciation could be a widespread feature beneath continental ice sheets.
+0.957	[*A*]The hydraulic fracturing of thin, shallow shale intervals during deglaciation[*R*]could be[*A*]a widespread feature beneath continental ice sheets	context()	negated: False ,passive: True
+[LINE#69]Similar processes may be expected to affect all northern hemisphere regions exposed to thick regional ice sheets in the past million years.
+0.919	[*A*]all northern hemisphere regions[*R*]exposed[*A*]to thick regional ice sheets[*A*]in the past million years	context()	negated: False ,passive: True
+0.927	[*A*]Similar processes[*R*]to affect[*A*]all northern hemisphere regions exposed to thick regional ice sheets in the past million years	context()	negated: False ,passive: False
+0.732	[*A*]Similar processes[*R*]may be expected	context()	negated: False ,passive: False
+[LINE#70]Consequently, shales shallower than about 1.5km may be less effective primary seals than anticipated, but vertical stacking of multiple thin CO2 layers within storage formations is advantageous, as is the distribution of further CO2 layers beneath secondary seals within the storage complex, increasing the contact area with porewater and enhancing dissolution trapping.
+0.737	[*A*]less effective primary seals[*R*]anticipated	context()	negated: False ,passive: False
+0.952	[*A*]about 1.5 km[*R*]may be[*A*]less effective primary seals than anticipated of multiple thin CO2 layers within storage formations	context()	negated: False ,passive: True
+[LINE#71]Dissolution uses more of the reservoir pore volume efficiently, and potentially increases site capacity relative to regional estimates of storage efficiency.
+0.877	[*A*]Dissolution[*R*]increases[*A*]site capacity[*A*]relative to regional estimates of storage efficiency	context()	negated: False ,passive: False
+0.892	[*A*]Dissolution[*R*]uses efficiently[*A*]more of the reservoir pore volume	context()	negated: False ,passive: False
+[LINE#72]However, a lack of understanding with respect to flow processes in the overburden will likely lead to conservative estimates of the secondary sealing potential and an underestimation of the important contribution of the overlying stratigraphy to the performance of a storage site.
+0.962	[*A*]a lack of understanding with respect to flow processes in the overburden[*R*]will lead[*A*]to conservative estimates of an underestimation of the important contribution of the overlying stratigraphy to the performance of a storage site	context()	negated: False ,passive: False
+0.941	[*A*]a lack of understanding with respect to flow processes in the overburden[*R*]will lead[*A*]to conservative estimates of the secondary sealing potential	context()	negated: False ,passive: False
+[LINE#73]At the present time, in our opinion, the evidence from the very extensively analyzed geophysical data for Sleipner is compatible with retention of CO2.
+0.979	[*A*]the evidence from the very extensively analyzed geophysical data for Sleipner[*R*]is[*A*]compatible with retention of CO2[*A*]At the present time[*A*]in our opinion	context()	negated: False ,passive: True
+[LINE#74]Climate change and ocean acidification are driven by high rates of CO2 emission to the atmosphere.
+0.918	[*A*]ocean acidification[*R*]are driven[*A*]by high rates of CO2 emission	context()	negated: False ,passive: True
+0.918	[*A*]Climate change[*R*]are driven[*A*]by high rates of CO2 emission	context()	negated: False ,passive: True
+[LINE#75]One contribution to the mitigation of CO2 emissions is carbon capture and storage, CCS (Lovell, 2011).
+0.968	[*A*]One contribution to the mitigation of CO2 emissions[*R*]is[*A*]carbon storage	context()	negated: False ,passive: True
+0.968	[*A*]One contribution to the mitigation of CO2 emissions[*R*]is[*A*]carbon capture	context()	negated: False ,passive: True
+[LINE#76]This is proposed by the G8 and the International Energy Agency as an essential technology for lowering greenhouse gas emissions.
+0.425	[*A*]This[*R*]is proposed[*A*]by the International Energy Agency[*A*]as an essential technology for lowering greenhouse gas emissions	context()	negated: False ,passive: True
+0.425	[*A*]This[*R*]is proposed[*A*]by the G8[*A*]as an essential technology for lowering greenhouse gas emissions	context()	negated: False ,passive: True
+[LINE#77]CCS reduces the emission of CO2 at a power station, or other large industrial sources such as oil and gas fields.
+0.840	[*A*]CCS[*R*]reduces[*A*]the emission of CO2	context()	negated: False ,passive: False
+[LINE#78]This captured CO2 is compressed, transported by pipeline, and injected for storage into porous rock formations deep below the land or sea surface.
+0.776	[*A*]This captured CO2[*R*]transported	context()	negated: False ,passive: False
+0.803	[*A*]This captured CO2[*R*]is compressed	context()	negated: False ,passive: False
+[LINE#79]Large-scale sites have been demonstrating engineered CO2 storage technology for nearly two decades.
+0.931	[*A*]Large-scale sites[*R*]have been demonstrating[*A*]engineered CO2 storage technology[*A*]for nearly two decades	context()	negated: False ,passive: False
+[LINE#80]At the Sleipner field, CO2 is produced with natural gas and condensate, separated from the production stream, and compressed.
+0.877	[*A*]condensate[*R*]separated[*A*]from the production stream	context()	negated: False ,passive: True
+0.887	[*A*]natural gas[*R*]separated[*A*]from the production stream	context()	negated: False ,passive: True
+0.954	[*A*]CO2[*R*]is produced[*A*]At the Sleipner field	context()	negated: False ,passive: True
+0.954	[*A*]CO2[*R*]is compressed[*A*]At the Sleipner field	context()	negated: False ,passive: True
+[LINE#81]The supercritical CO2 is then injected into the Utsira Formation, offshore Norway.
+0.951	[*A*]The supercritical CO2[*R*]is injected[*A*]into the Utsira Formation[*A*]then	context()	negated: False ,passive: True
+[LINE#82]This is the longest running carbon capture and storage experiment in the world, with more than 14 Mt of supercritical CO2 injected during the period 1996-2013.
+0.953	[*A*]more than 14 Mt of supercritical CO2[*R*]injected[*A*]during the period	context()	negated: False ,passive: False
+0.612	[*A*]This[*R*]is[*A*]storage experiment in the world , with more than 14 Mt of supercritical CO2 injected during the period 1996-2013	context()	negated: False ,passive: True
+0.926	[*A*]the longest running carbon capture[*R*]injected[*A*]during the period	context()	negated: False ,passive: True
+0.567	[*A*]This[*R*]is[*A*]the longest running carbon capture injected during the period 1996-2013	context()	negated: False ,passive: True
+[LINE#83] The injection schedule is intended to remain at around 0.9Mt/yr until around 2020, separating and storing CO2 from the West Sleipner gas-condensate field to prevent climate change.
+0.754	[*A*]The injection schedule[*R*]to remain[*A*]at	context()	negated: False ,passive: True
+0.783	[*A*]The injection schedule[*R*]is intended[*A*]to remain at	context()	negated: False ,passive: True
+0.944	[*A*]The injection schedule[*R*]to remain[*A*]at[*A*]until around separating from the West Sleipner gas - condensate field	context()	negated: False ,passive: True
+0.952	[*A*]The injection schedule[*R*]is intended[*A*]to remain at around 0.9Mt / yr until around separating from the West Sleipner gas - condensate field	context()	negated: False ,passive: True
+0.944	[*A*]The injection schedule[*R*]to remain[*A*]at[*A*]until around 2020 from the West Sleipner gas - condensate field	context()	negated: False ,passive: True
+0.952	[*A*]The injection schedule[*R*]is intended[*A*]to remain at around 0.9Mt / yr until around 2020 from the West Sleipner gas - condensate field	context()	negated: False ,passive: True
+[LINE#84]This is incentivized by the Norwegian state tax on offshore petroleum industry emissions, commencing in 1991 at NOK 210 and increasing to NOK 410 in 2013, equivalent to about $65 per tonne of CO2.The storage site, a saline formation and sandstone aquifer, is 800m below sea level (mbsl).
+0.920	[*A*]offshore petroleum industry emissions[*R*]commencing[*A*]in 1991[*A*]at NOK 210	context()	negated: False ,passive: False
+[LINE#85] This is considered to be a shallow depth setting for a storage environment (.
+0.911	[*A*]a shallow depth[*R*]setting[*A*]for a storage environment	context()	negated: False ,passive: False
+0.342	[*A*]This[*R*]to be[*A*]a shallow depth setting for a storage environment (	context()	negated: False ,passive: True
+[LINE#86]Chadwick et al., 2008) as the pressure and temperature conditions are likely to be close to the critical point above which CO2 becomes a more buoyant gas phase.
+0.897	[*A*]the temperature conditions[*R*]to be[*A*]close to the critical point	context()	negated: False ,passive: True
+0.911	[*A*]the temperature conditions[*R*]are[*A*]likely to be close to the critical point	context()	negated: False ,passive: True
+0.953	[*A*]CO2[*R*]becomes[*A*]a more buoyant gas phase[*A*]the critical point	context()	negated: False ,passive: True
+0.897	[*A*]the pressure conditions[*R*]to be[*A*]close to the critical point	context()	negated: False ,passive: True
+0.911	[*A*]the pressure conditions[*R*]are[*A*]likely to be close to the critical point	context()	negated: False ,passive: True
+[LINE#87]The overlying Nordland Group, which extends from the top of the Utsira Formation to the seafloor, is predominantly shale (Fig. 1), and is expected to provide a caprock with a high threshold pressure, sufficient to seal the site and prevent leakage of the buoyant CO2 fluid over several millennia, i.e. the timescale required to offset climate change (Lindeberg and Bergmo, 2003).
+0.209	[*A*]the buoyant CO2 fluid[*R*]has sufficient prevent leakage of[*A*]2003	context()	negated: False ,passive: False
+0.911	[*A*]i.e. the timescale[*R*]required[*A*]to offset climate change	context()	negated: False ,passive: True
+0.928	[*A*]The overlying Nordland Group[*R*]to provide[*A*]a caprock[*A*]with a high threshold pressure	context()	negated: False ,passive: False
+0.818	[*A*]The overlying Nordland Group[*R*]is expected	context()	negated: False ,passive: False
+0.858	[*A*]The overlying Nordland Group[*R*]is[*A*]predominantly shale ( Fig	context()	negated: False ,passive: True
+0.940	[*A*]The overlying Nordland Group[*R*]extends[*A*]from the top of the Utsira Formation[*A*]to the seafloor	context()	negated: False ,passive: True
+[LINE#88]Saline formations worldwide are considered to be candidates for carbon sequestration because of their suitable depths, large storage volumes, and common occurrence.
+0.897	[*A*]Saline formations worldwide[*R*]to be[*A*]candidates for carbon sequestration	context()	negated: False ,passive: True
+[LINE#89]However, one of the critical uncertainties for saline formation storage is the ability of the caprock (primary seal), and the overlying containment geology (secondary seals), to retain buoyant CO2 without leakage.
+0.975	[*A*]one of the critical uncertainties for saline formation storage[*R*]is[*A*]the ability of the overlying containment geology ( secondary seals ) , to retain buoyant CO2 without leakage	context()	negated: False ,passive: True
+0.960	[*A*]one of the critical uncertainties for saline formation storage[*R*]is[*A*]the ability of the caprock	context()	negated: False ,passive: True
+[LINE#90]The fluid flow processes currently occurring in the Sleipner storage site provide a crucial exemplar for saline formation storage projects worldwide.
+0.968	[*A*]The fluid flow processes currently occurring in the Sleipner storage site[*R*]provide[*A*]a crucial exemplar for saline formation storage projects worldwide	context()	negated: False ,passive: False
+0.954	[*A*]The fluid flow processes[*R*]occurring[*A*]in the Sleipner storage site[*A*]currently	context()	negated: False ,passive: True
+[LINE#91]Published interpretations of a series of seismic reflection surveys show that, by 1999, the Sleipner CO2 plume had ascended more than 200m vertically within the Utsira Formation from the injection point (1012mbsl) to the caprock (800mbsl).
+0.963	[*A*]the Sleipner CO2 plume[*R*]had ascended[*A*]more than 200m vertically within the Utsira Formation[*A*]by 1999	context(Published interpretations of a series of seismic reflection surveys show)	negated: False ,passive: False
+0.932	[*A*]Published interpretations of a series of seismic reflection surveys[*R*]show[*A*]that, by 1999, the Sleipner CO2 plume had ascended more than 200m vertically within the Utsira Formation from the injection point (1012mbsl) to the caprock	context()	negated: False ,passive: False
+[LINE#92]The plume has encountered and breached eight shale barriers within the storage site: seven thin shales that are approximately 1-2m thick, and an uppermost thick shale that is 6-7m thick and geologically similar to the primary seal (Gregersen and Johannessen, 2001; Zweigel et al., 2004).
+0.927	[*A*]an uppermost thick shale[*R*]is[*A*]geologically similar to the primary seal	context()	negated: False ,passive: True
+0.927	[*A*]an uppermost thick shale[*R*]is[*A*]6-7 m thick Zweigel et al	context()	negated: False ,passive: True
+0.897	[*A*]seven thin shales[*R*]are[*A*]approximately 1-2 m thick Zweigel et al	context()	negated: False ,passive: True
+0.918	[*A*]The plume[*R*]has encountered[*A*]Zweigel et al	context()	negated: False ,passive: False
+[LINE#93]These shale barriers result in 10-20m thick CO2 layers that are vertically stacked and extend laterally for hundreds of meters.
+0.913	[*A*]10-20 m thick CO2 layers[*R*]extend[*A*]laterally[*A*]for hundreds of meters	context()	negated: False ,passive: True
+0.807	[*A*]10-20 m thick CO2 layers[*R*]are vertically stacked	context()	negated: False ,passive: False
+0.925	[*A*]These shale barriers[*R*]result[*A*]in 10-20 m thick CO2 layers	context()	negated: False ,passive: True
+[LINE#94]Biennial monitoring of the plume behavior and the resultant six seismic reflection surveys make this experiment ideally suited to numerical modeling studies (Hamborg et al., 2003; Zweigel et al., 2004; Hellevang, 2006).
+0.932	[*A*]the resultant six seismic reflection surveys[*R*]make[*A*]this experiment ideally suited to numerical modeling studies	context()	negated: False ,passive: False
+0.932	[*A*]Biennial monitoring of the plume behavior[*R*]make[*A*]this experiment ideally suited to numerical modeling studies	context()	negated: False ,passive: False
+[LINE#95]The areal distribution of CO2 stored within the storage site has been precisely mapped from the seismic surveys (Chadwick et al., 2006; Bickle et al., 2007).
+0.944	[*A*]The areal distribution of CO2[*R*]stored[*A*]within the storage site	context()	negated: False ,passive: True
+[LINE#96]However, no published dynamic model to date has accurately replicated the layered morphology of the plume or flow behavior, and three significant aspects of the plume are poorly understood, as outlined below.
+0.801	[*A*]three significant aspects of the plume[*R*]are poorly understood[*A*]as outlined below	context()	negated: False ,passive: True
+0.932	[*A*]no published dynamic model to date[*R*]has accurately replicated[*A*]the layered morphology of the plume or flow behavior	context()	negated: False ,passive: False
+[LINE#97]Fundamental aspects of the CO2 plume layering are examined by constructing a mass-balanced flow model to test the physical containment processes through iterative numerical simulation.
+0.965	[*A*]Fundamental aspects of the CO2 plume layering[*R*]by constructing[*A*]a mass-balanced flow model to test the physical containment processes through iterative numerical simulation	context()	negated: False ,passive: False
+0.857	[*A*]Fundamental aspects of the CO2 plume layering[*R*]are examined	context()	negated: False ,passive: False
+[LINE#98]The simulations are calibrated to published observations.
+0.732	[*A*]The simulations[*R*]are calibrated	context()	negated: False ,passive: False
+[LINE#99]Capillary flow, not Darcy flow, is applied to obtain a good match with observations.
+0.905	[*A*]Capillary flow, not[*R*]to obtain[*A*]a good match[*A*]with observations	context()	negated: False ,passive: False
+0.737	[*A*]Capillary flow, not[*R*]is applied	context()	negated: False ,passive: False
+[LINE#100]It is essential for the calibration that the shale barriers within the Utsira Formation have high vertical permeabilities.
+[LINE#101]This implies that the shales may be fractured.
+0.687	[*A*]the shales[*R*]may be fractured	context(This implies)	negated: False ,passive: False
+0.152	[*A*]This[*R*]implies[*A*]that the shales may be fractured	context()	negated: False ,passive: False
+[LINE#102]A novel mechanism is proposed to account for fracturing prior to CO2 injection: transient fluid overpressure during rapid deglaciation.
+0.913	[*A*]A novel mechanism[*R*]to account[*A*]for fracturing prior to CO2 injection	context()	negated: False ,passive: False
+0.751	[*A*]A novel mechanism[*R*]is proposed	context()	negated: False ,passive: False
+[LINE#103]Modeling methodologyTo better understand the mass balance, spatial distribution and flow behavior of the plume, a numerical flow model of the storage site is constructed.
+0.830	[*A*]a numerical flow model of the storage site[*R*]is constructed	context()	negated: False ,passive: False
+[LINE#104]This three-dimensional model consists of a geological framework of nine alternating intervals of sandstone and shale that extends from the base of the Utsira Formation below the injection point to the primary seal above the storage site.
+0.932	[*A*]shale[*R*]extends[*A*]from the base of the Utsira Formation below the injection point to the primary seal above the storage site	context()	negated: False ,passive: True
+0.952	[*A*]This three - dimensional model[*R*]consists[*A*]of a geological framework of nine alternating intervals of shale	context()	negated: False ,passive: True
+0.932	[*A*]sandstone[*R*]extends[*A*]from the base of the Utsira Formation below the injection point to the primary seal above the storage site	context()	negated: False ,passive: True
+0.952	[*A*]This three - dimensional model[*R*]consists[*A*]of a geological framework of nine alternating intervals of sandstone	context()	negated: False ,passive: True
+[LINE#105]Published morphology maps for each CO2 layer (Bickle et al., 2007) are used as the topography for the base of each shale barrier, assuming a flat gas-water contact for the layers.
+0.965	[*A*]Published morphology maps for each CO2 layer[*R*]are used[*A*]as the topography for the base of each shale barrier[*A*]assuming a flat gas-water contact for the layers	context()	negated: False ,passive: True
+[LINE#106]This implies that the CO2 is ponding, and the layers are close to equilibrium with respect to any Darcy flow dynamics (Cavanagh, 2013).
+0.935	[*A*]the layers[*R*]are[*A*]close to equilibrium with respect to any Darcy flow dynamics	context(This implies)	negated: False ,passive: True
+0.487	[*A*]This[*R*]implies[*A*]the layers are close to equilibrium with respect to any Darcy flow dynamics	context()	negated: False ,passive: False
+0.698	[*A*]the layers[*R*]to equilibrium	context()	negated: False ,passive: False
+0.748	[*A*]the CO2[*R*]is ponding	context(This implies)	negated: False ,passive: False
+0.178	[*A*]This[*R*]implies[*A*]that the CO2 is ponding	context()	negated: False ,passive: False
+[LINE#107]The flow of CO2 within the storage site is then simulated with an invasion percolation simulator (Permedia, 2012), assuming percolation as a function of CO2 capillary pressure and shale threshold pressure.
+0.963	[*A*]The flow of CO2 within the storage site[*R*]is simulated[*A*]with an invasion percolation simulator[*A*]assuming percolation as a function of shale threshold pressure[*A*]then	context()	negated: False ,passive: True
+0.969	[*A*]The flow of CO2 within the storage site[*R*]is simulated[*A*]with an invasion percolation simulator[*A*]assuming percolation as a function of CO2 capillary pressure[*A*]then	context()	negated: False ,passive: True
+[LINE#108]This approach examines capillary flow in a deep saline formation that is segmented by thin laterally extensive horizontal shale layers.
+0.905	[*A*]a deep saline formation[*R*]is segmented[*A*]by thin laterally extensive horizontal shale layers	context()	negated: False ,passive: True
+0.903	[*A*]This approach[*R*]examines[*A*]capillary flow in a deep saline formation	context()	negated: False ,passive: False
+[LINE#109]Scenarios are tested for resemblance to the plume morphology and then quantified for CO2 in place to arrive at the best mass balance scenario for the simulated plume with respect to the known injected volume..
+0.922	[*A*]Scenarios[*R*]are quantified[*A*]for CO2[*A*]in place[*A*]then	context()	negated: False ,passive: True
+0.894	[*A*]Scenarios[*R*]are tested[*A*]for resemblance to the plume morphology	context()	negated: False ,passive: True
+[LINE#110]Conceptual modelThe conceptual model for the simulation is a plume of vertically stacked buoyant CO2 layers that are trapped in the sandstone intervals as thin but highly saturated layers, breaking through the shale barriers as a result of percolation.
+0.897	[*A*]highly saturated layers[*R*]breaking[*A*]through the shale barriers as a result of percolation	context()	negated: False ,passive: False
+0.934	[*A*]vertically stacked buoyant CO2 layers[*R*]are trapped[*A*]in the sandstone intervals as highly saturated layers	context()	negated: False ,passive: True
+0.934	[*A*]vertically stacked buoyant CO2 layers[*R*]are trapped[*A*]in the sandstone intervals as thin layers	context()	negated: False ,passive: True
+0.960	[*A*]Conceptual modelThe conceptual model for the simulation[*R*]is[*A*]a plume of vertically stacked buoyant CO2 layers	context()	negated: False ,passive: True
+[LINE#111]Percolation occurs when the threshold pressure of the shale barrier is exceeded by the buoyant gas capillary pressure of the trapped CO2 layer (Boettcher et al., 2002; Carruthers, 2003).
+0.967	[*A*]the threshold pressure of the shale barrier[*R*]is exceeded[*A*]by the buoyant gas capillary pressure of the trapped CO2 layer	context()	negated: False ,passive: True
+0.942	[*A*]Percolation[*R*]occurs[*A*]when the threshold pressure of the shale barrier is exceeded by the buoyant gas capillary pressure of the trapped CO2 layer	context()	negated: False ,passive: True
+[LINE#112]The 3D model is calibrated by adjusting the breakthrough threshold pressures of the shales to match published estimates of layer thickness (column heights underlying shale barriers) and the areal distribution for trapped CO2 derived from 4D seismic.
+0.973	[*A*]column heights underlying shale barriers ) and the areal distribution for trapped CO2[*R*]derived[*A*]from 4 D seismic	context()	negated: False ,passive: True
+0.894	[*A*]heights[*R*]underlying[*A*]shale barriers	context()	negated: False ,passive: False
+0.919	[*A*]layer thickness column heights[*R*]underlying[*A*]shale barriers	context()	negated: False ,passive: False
+0.927	[*A*]published estimates of layer thickness column heights[*R*]derived[*A*]from 4 D seismic	context()	negated: False ,passive: True
+0.769	[*A*]The 3 D model[*R*]is calibrated	context()	negated: False ,passive: False
+[LINE#113]The Sleipner plume is likely to ascend as a result of gravity segregation (Singh et al., 2010), given the strong density contrast between the brine and CO2, and the high permeability of the Utsira Formation sandstones.
+0.922	[*A*]The Sleipner plume[*R*]to ascend[*A*]as a result of gravity segregation	context()	negated: False ,passive: False
+0.949	[*A*]The Sleipner plume[*R*]is[*A*]likely to ascend as a result of gravity segregation	context()	negated: False ,passive: True
+[LINE#114]However, the crucial distinction between our model and other approaches is our assumption concerning the dominant physics of the flow process.
+0.638	[*A*]our assumption[*R*]concerning[*A*]the dominant physics of the flow process	context()	negated: False ,passive: False
+0.800	[*A*]the crucial distinction between our model and other approaches[*R*]is[*A*]our assumption concerning the dominant physics of the flow process	context()	negated: False ,passive: True
+[LINE#115]The buoyant separate phase behavior of CO2 in the formation not only promotes gravity segregation, but also results in strong capillary forces at the interface between the ascending gas (non-wetting fluid) and the brine (wetting fluid) in the pore throats of the geological media, which manifest as threshold pressures for the sandstones and shales.
+0.897	[*A*]the geological media[*R*]manifest[*A*]as threshold pressures for the shales	context()	negated: False ,passive: True
+0.897	[*A*]the geological media[*R*]manifest[*A*]as threshold pressures for the sandstones	context()	negated: False ,passive: True
+0.959	[*A*]The buoyant separate phase behavior of CO2 in the formation[*R*]promotes[*A*]gravity segregation	context()	negated: False ,passive: False
+[LINE#116]This is quite distinct from other modeling approaches that assume a Darcy flow regime, where the plume behavior is primarily a function of the interplay between viscosity, pressure gradients, and permeability.
+0.956	[*A*]the plume behavior[*R*]is[*A*]primarily[*A*]a function of the interplay between viscosity, pressure gradients, and permeability	context()	negated: False ,passive: True
+0.913	[*A*]other modeling approaches[*R*]assume[*A*]a Darcy flow regime	context()	negated: False ,passive: False
+0.449	[*A*]This[*R*]is[*A*]quite distinct from other modeling approaches	context()	negated: False ,passive: True
+[LINE#117]If capillary forces dominate over viscous forces, the plume will ascend and backfill beneath flow barriers, manifesting a sensitivity to the topography at the base of each shale barrier (Cavanagh, 2013).
+0.939	[*A*]backfill beneath flow barriers[*R*]manifesting[*A*]a sensitivity to the topography at the base of each shale barrier	context()	negated: False ,passive: True
+0.732	[*A*]the plume[*R*]will ascend	context()	negated: False ,passive: False
+0.903	[*A*]capillary forces[*R*]dominate[*A*]over viscous forces	context()	negated: False ,passive: False
+[LINE#118]Given the known correlation in shape between the upper layers and the basal topography of the caprock and underlying thick shale, it is proposed that the flow behavior may be best characterized as a gravity-dominated percolation phenomenon, as explained below. .
+0.891	[*A*]the flow behavior[*R*]may be best characterized[*A*]as a gravity-dominated percolation phenomenon	context(it is proposed)	negated: False ,passive: True
+0.891	[*A*]the flow behavior[*R*]may be best characterized[*A*]as a gravity-dominated percolation phenomenon	context(it is proposed)	negated: False ,passive: True
+0.162	[*A*]it[*R*]is proposed	context()	negated: False ,passive: False
+[LINE#119]Choice of simulatorPrevious attempts to model the distribution of CO2 within the Utsira Formation have used fluid flow software based on Darcy flow physics.
+0.925	[*A*]fluid flow software[*R*]based[*A*]on Darcy flow physics	context()	negated: False ,passive: True
+0.920	[*A*]Choice of simulatorPrevious attempts[*R*]have used[*A*]fluid flow software based on Darcy flow physics	context()	negated: False ,passive: False
+[LINE#120]To obtain multiple layers of CO2, these have either imposed a discrete vertical pathway to by-pass the thin shales within the Formation (Chadwick et al., 2006; Hermanrud et al., 2009, 2010) or assumed a convenient vertical juxtaposition of pre-existing holes (erosional or otherwise) for the eight intra-formational shale barriers.
+0.698	[*A*]these[*R*]have either imposed[*A*]a discrete vertical pathway[*A*]to by-pass the thin shales within the Formation	context()	negated: False ,passive: False
+[LINE#121]These simulations fail to quantitatively or qualitatively reproduce the multi-layered CO2 plume.
+0.861	[*A*]These simulations[*R*]to quantitatively reproduce[*A*]the multi-layered CO2 plume	context()	negated: False ,passive: False
+0.918	[*A*]These simulations[*R*]fail[*A*]to quantitatively or qualitatively reproduce the multi-layered CO2 plume	context()	negated: False ,passive: True
+[LINE#122](2006) 'observed fluxes derived from the seismic data, do not match the flow simulation'.
+0.894	[*A*]fluxes[*R*]derived[*A*]from the seismic data	context()	negated: False ,passive: True
+[LINE#123]In this approach, a flow simulator based on a different flow physics is used, and a different workflow undertaken to achieve a very good match and calibrated mass balance.
+0.897	[*A*]a different workflow[*R*]to achieve[*A*]a calibrated mass balance	context()	negated: False ,passive: False
+0.911	[*A*]a different workflow[*R*]undertaken[*A*]to achieve a calibrated mass balance	context()	negated: False ,passive: True
+0.897	[*A*]a different workflow[*R*]to achieve[*A*]a very good match	context()	negated: False ,passive: False
+0.911	[*A*]a different workflow[*R*]undertaken[*A*]to achieve a very good match	context()	negated: False ,passive: True
+0.965	[*A*]a flow simulator based on a different flow physics[*R*]is used[*A*]In this approach	context()	negated: False ,passive: True
+0.911	[*A*]a flow simulator[*R*]based[*A*]on a different flow physics	context()	negated: False ,passive: True
+[LINE#124]Permedia Migration is a multi-phase invasion percolation simulator.
+0.944	[*A*]Permedia Migration[*R*]is[*A*]a multi-phase invasion percolation simulator	context()	negated: False ,passive: True
+[LINE#125]The simulator uses capillary threshold pressures and fluid density descriptions for oil, gas and CO2.
+0.918	[*A*]The simulator[*R*]uses[*A*]capillary fluid density descriptions for CO2	context()	negated: False ,passive: False
+0.903	[*A*]The simulator[*R*]uses[*A*]capillary fluid density descriptions for gas	context()	negated: False ,passive: False
+0.903	[*A*]The simulator[*R*]uses[*A*]capillary fluid density descriptions for oil	context()	negated: False ,passive: False
+0.903	[*A*]The simulator[*R*]uses[*A*]capillary threshold pressures	context()	negated: False ,passive: False
+[LINE#126]Assuming a flow domain dominated by capillary and gravity forces, invasion percolation describes the behavior of an immiscible fluid (CO2) that is migrating, or percolating into, a porous medium (sandstones and shales).
+0.890	[*A*]CO2[*R*]percolating[*A*]a porous medium	context()	negated: False ,passive: False
+0.740	[*A*]CO2[*R*]is migrating	context()	negated: False ,passive: False
+0.903	[*A*]invasion percolation[*R*]describes[*A*]the behavior of an immiscible fluid	context()	negated: False ,passive: False
+0.911	[*A*]a flow domain[*R*]dominated[*A*]by capillary and gravity forces	context()	negated: False ,passive: True
+[LINE#127]Commonly known as drainage within petroleum systems modeling, as distinct from imbibition, the buoyant phase displaces the original pore fluid (brine).
+0.911	[*A*]the buoyant phase[*R*]displaces[*A*]the original pore fluid	context()	negated: False ,passive: False
+[LINE#128]Invasion percolation is commonly applied to slow moving immiscible fluids in geological flow systems.
+0.927	[*A*]Invasion percolation[*R*]is commonly applied[*A*]to slow moving immiscible fluids in geological flow systems	context()	negated: False ,passive: True
+[LINE#129]Below a critical flux velocity threshold, such flow systems tend to self-organize into discrete migration pathways and pooling traps (de Gennes et al., 2004).
+0.932	[*A*]such flow systems[*R*]tend[*A*]to self - pooling traps	context()	negated: False ,passive: True
+0.850	[*A*]such flow systems[*R*]to organize[*A*]into discrete migration pathways	context()	negated: False ,passive: False
+0.932	[*A*]such flow systems[*R*]tend[*A*]to self - organize into discrete migration pathways	context()	negated: False ,passive: True
+[LINE#130]Percolation theory has been successfully applied to the invasion of non-wetting fluids such as oil and gas into water-wet porous geological media when studying regional hydrocarbon migration and local hydrocarbon field charge processes (Carruthers and Ringrose, 1998; Boettcher et al., 2002; Glass and Yarrington, 2003).
+0.903	[*A*]Percolation theory[*R*]has been successfully applied[*A*]to the invasion of non-wetting fluids such as gas[*A*]when studying local hydrocarbon field charge processes	context()	negated: False ,passive: True
+0.903	[*A*]Percolation theory[*R*]has been successfully applied[*A*]to the invasion of non-wetting fluids such as oil[*A*]when studying local hydrocarbon field charge processes	context()	negated: False ,passive: True
+0.903	[*A*]Percolation theory[*R*]has been successfully applied[*A*]to the invasion of non-wetting fluids such as gas[*A*]when studying regional hydrocarbon migration	context()	negated: False ,passive: True
+0.903	[*A*]Percolation theory[*R*]has been successfully applied[*A*]to the invasion of non-wetting fluids such as oil[*A*]when studying regional hydrocarbon migration	context()	negated: False ,passive: True
+[LINE#131]The approach is valid at low flux rates, as the viscosity contribution to flow is negligible and the viscous-dominated Darcy flow approximation breaks down.
+0.879	[*A*]the viscosity contribution to the viscous-dominated Darcy flow approximation[*R*]breaks down	context()	negated: False ,passive: False
+0.813	[*A*]The approach[*R*]is[*A*]valid	context()	negated: False ,passive: True
+0.853	[*A*]the viscosity contribution to flow[*R*]is[*A*]negligible	context()	negated: False ,passive: True
+0.925	[*A*]The approach[*R*]is[*A*]valid[*A*]as the viscosity contribution to flow is negligible	context()	negated: False ,passive: True
+[LINE#132]Under capillary-dominated conditions the immiscible fluid is either migrating along a pathway at a low critical saturation or, is backfilling and flooding a trap at a higher saturation not exceeding the maximum gas saturation for the porous medium (Cavanagh and Rostron, 2013).The model presented here differs significantly from earlier conceptual models of the storage site (e.g. Hellevang, 2006; Chadwick et al., 2008; Hermanrud et al., 2009, 2010) where researchers have assumed Darcy flow along a pressure gradient via holes in the shale barriers.
+0.769	[*A*]The model presented here[*R*]differs significantly	context()	negated: False ,passive: False
+0.776	[*A*]Rostron , 2013[*R*]differs significantly	context()	negated: False ,passive: False
+0.719	[*A*]The model presented here[*R*]differs significantly	context(the immiscible fluid is)	negated: False ,passive: False
+0.968	[*A*]the immiscible fluid[*R*]is[*A*]either migrating along a pathway at a low critical saturation[*A*]Under capillary-dominated conditions	context()	negated: False ,passive: True
+0.951	[*A*]the immiscible fluid[*R*]is[*A*]either migrating along a pathway[*A*]Under capillary-dominated conditions	context(The model presented)	negated: False ,passive: True
+0.911	[*A*]a higher saturation[*R*]not exceeding[*A*]the maximum gas saturation for the porous medium	context()	negated: True ,passive: False
+0.903	[*A*]a pathway[*R*]flooding[*A*]a trap[*A*]at a higher saturation	context()	negated: False ,passive: False
+0.740	[*A*]Cavanagh[*R*]differs significantly	context()	negated: False ,passive: False
+0.767	[*A*]The model[*R*]presented[*A*]here	context()	negated: False ,passive: True
+0.949	[*A*]the immiscible fluid[*R*]is[*A*]either migrating along a pathway[*A*]Under capillary-dominated conditions	context()	negated: False ,passive: True
+0.968	[*A*]the immiscible fluid[*R*]is[*A*]either migrating along a pathway at a low critical saturation[*A*]Under capillary-dominated conditions	context(The model presented)	negated: False ,passive: True
+0.920	[*A*]The model[*R*]presented[*A*]here[*A*]differs significantly from earlier conceptual models of the storage site	context()	negated: False ,passive: False
+0.911	[*A*]researchers[*R*]have assumed[*A*]Darcy flow along a pressure gradient	context()	negated: False ,passive: False
+[LINE#133]This study assumes that the thin shales represent laterally continuous barriers to flow.
+0.891	[*A*]the thin shales[*R*]represent[*A*]laterally continuous barriers to flow	context(This study assumes)	negated: False ,passive: False
+0.814	[*A*]This study[*R*]assumes[*A*]that the thin shales represent laterally continuous barriers to flow	context()	negated: False ,passive: False
+[LINE#134]While a Darcy flow model requires a rising cascade of fluid through the sandstone and around the shales, via holes or breaks in the shale succession, the approach presented here suggests a simpler hypothesis: the vertical stacking of kilometer-wide and meter-thick CO2 layers that are the result of buoyant gas percolating through the vertical heterogeneity of sandstones and shales found in the Utsira Formation, in a similar manner to hydrocarbon migration and trap charge in petroleum systems, as appropriate for two-phase flow with a low capillary number (England et al., 1987).
+0.955	[*A*]kilometer-wide and meter-thick CO2 layers[*R*]are[*A*]the result of buoyant gas	context()	negated: False ,passive: True
+0.919	[*A*]the approach presented here[*R*]suggests[*A*]a simpler hypothesis	context()	negated: False ,passive: False
+0.767	[*A*]the approach[*R*]presented[*A*]here	context()	negated: False ,passive: True
+0.925	[*A*]sandstones and shales[*R*]found[*A*]in the Utsira Formation	context()	negated: False ,passive: True
+0.939	[*A*]a Darcy flow model[*R*]requires[*A*]a rising cascade of fluid	context()	negated: False ,passive: False
+[LINE#135]The capillary flow and ponding hypothesis does not require the unlikely geological coincidence of nine vertically aligned holes in the shales through which fluid cascades within the storage site. .
+0.943	[*A*]The ponding hypothesis[*R*]does not require[*A*]the unlikely geological coincidence of nine vertically aligned holes in the shales	context()	negated: True ,passive: False
+0.943	[*A*]The capillary flow[*R*]does not require[*A*]the unlikely geological coincidence of nine vertically aligned holes in the shales	context()	negated: True ,passive: False
+[LINE#136]Sleipner capillary numberAn invasion percolation simulation assumes a dominance of capillary and gravity forces over viscous forces.
+0.932	[*A*]Sleipner capillary numberAn invasion percolation simulation[*R*]assumes[*A*]a dominance of gravity forces over viscous forces	context()	negated: False ,passive: False
+0.932	[*A*]Sleipner capillary numberAn invasion percolation simulation[*R*]assumes[*A*]a dominance of capillary forces over viscous forces	context()	negated: False ,passive: False
+[LINE#137] The interplay of forces (viscous, capillary and gravity) in reservoir models is commonly defined using scaling-group theory (.
+0.856	[*A*]The interplay of forces ( gravity ) in reservoir models[*R*]is commonly defined	context()	negated: False ,passive: False
+0.856	[*A*]The interplay of forces ( capillary ) in reservoir models[*R*]is commonly defined	context()	negated: False ,passive: False
+0.856	[*A*]The interplay of forces ( viscous ) in reservoir models[*R*]is commonly defined	context()	negated: False ,passive: False
+[LINE#138]Ringrose et al., 1993; Li and Lake, 1995), with the commonly accepted limiting condition for invasion percolation being that the capillary force must exceed the viscous force by a ratio of ten thousand-to-one.
+[LINE#139] In other words, the capillary number, Ca, is less than 10-4:(1)Capillary number,Ca=qwhere, Ca, the capillary number for a given flow regime; , the viscosity of the more viscous fluid in a two-phase system; q, the volumetric flux; , the interfacial tension between the invading phase and resident phase.
+0.957	[*A*]the capillary number[*R*]is[*A*]less than 10-4:(1)Capillary number,Ca=qwhere, Ca, the capillary number for a given flow regime; , the viscosity of the more viscous fluid in a two-phase system; q, the volumetric flux; , the interfacial tension between the invading phase and resident phase	context()	negated: False ,passive: True
+[LINE#140]Under these conditions, invasion percolation is a reasonable approximation for the flow physics.
+0.957	[*A*]invasion percolation[*R*]is[*A*]a reasonable approximation for the flow physics[*A*]Under these conditions	context()	negated: False ,passive: True
+[LINE#141]For example hydrocarbon migration typically has a capillary number of 10-10-10-14 (England et al., 1987).
+0.997	[*A*]hydrocarbon migration[*R*]has a capillary number of[*A*]10 -10 -10 -14	context()	negated: False ,passive: False
+0.913	[*A*]hydrocarbon migration[*R*]has[*A*]a capillary number of 10-10-10-14	context()	negated: False ,passive: False
+[LINE#142]If the capillary number is less than 10-4, flow modeling lends itself to fast invasion percolation simulations which yield high-resolution numerical solutions (Carruthers, 2003).
+0.905	[*A*]fast invasion percolation simulations[*R*]yield[*A*]high-resolution numerical solutions	context()	negated: False ,passive: False
+0.870	[*A*]flow modeling[*R*]lends[*A*]itself[*A*]to fast invasion percolation simulations	context()	negated: False ,passive: False
+0.828	[*A*]the capillary number[*R*]is[*A*]less than 10-4	context()	negated: False ,passive: True
+[LINE#143]With respect to the Sleipner CO2 plume, the viscosity of the brine (0.7-0.8mPas) and interfacial tension between the brine and CO2 (25-27mN/m) have been estimated (Singh et al., 2010).
+0.756	[*A*]the viscosity of the brine[*R*]have been estimated	context()	negated: False ,passive: False
+[LINE#144]Therefore, the limiting migration rate (Ca10-4) for the storage site can be calculated as 3-4mm/s.
+0.993	[*A*]the limiting migration rate for the storage site[*R*]can be calculated as[*A*]3 -4mm /	context()	negated: False ,passive: False
+0.957	[*A*]the limiting migration rate (Ca10-4) for the storage site[*R*]can be calculated[*A*]as 3-4mm/s	context()	negated: False ,passive: True
+[LINE#145] This fits well with observations, as the Sleipner CO2 plume flux is reasonably well constrained both vertically and horizontally: (a) the plume reached the caprock in 1999, approximately 3 years after injection began from the well 210m below - an observed ascent rate of about 70m/yr or 2m/s; (b) the plume has spread laterally beneath the caprock, and is about 0.5km wide (E-W) and 3km long (N-S) after a decade - an observed lateral flux rate of less than 300m/.
+0.913	[*A*]the plume[*R*]is[*A*]about 0.5km wide	context()	negated: False ,passive: True
+0.732	[*A*]the Sleipner CO2 plume flux[*R*]reasonably well constrained vertically	context()	negated: False ,passive: False
+0.878	[*A*]the plume[*R*]reached[*A*]the caprock[*A*]in 1999	context(This fits well the plume has spread laterally long)	negated: False ,passive: False
+0.122	[*A*]This[*R*]fits well	context(the plume has spread laterally long)	negated: False ,passive: False
+0.875	[*A*]the plume[*R*]has spread laterally long[*A*]after a decade[*A*]beneath the caprock	context()	negated: False ,passive: True
+0.888	[*A*]the Sleipner CO2 plume flux[*R*]is[*A*]reasonably well constrained both vertically and horizontally	context()	negated: False ,passive: True
+0.749	[*A*]injection[*R*]began[*A*]from	context()	negated: False ,passive: True
+[LINE#146]It follows that the capillary number for the plume (Ca<10-7) is much lower than the necessary limit for a viscous-dominated Darcy flow simulation.
+[LINE#147]The CO2 ascent and lateral spreading is very likely to be dominated by buoyancy and capillary forces, and therefore highly sensitive to contrasts in formation and shale threshold pressure (Table 1).
+0.887	[*A*]lateral spreading[*R*]to be dominated[*A*]by capillary forces	context()	negated: False ,passive: True
+0.925	[*A*]lateral spreading[*R*]is[*A*]very likely to be dominated by capillary forces	context()	negated: False ,passive: True
+0.887	[*A*]lateral spreading[*R*]to be dominated[*A*]by buoyancy	context()	negated: False ,passive: True
+0.925	[*A*]lateral spreading[*R*]is[*A*]very likely to be dominated by buoyancy	context()	negated: False ,passive: True
+0.922	[*A*]The CO2 ascent[*R*]to be dominated[*A*]by capillary forces	context()	negated: False ,passive: True
+0.949	[*A*]The CO2 ascent[*R*]is[*A*]very likely to be dominated by capillary forces	context()	negated: False ,passive: True
+0.922	[*A*]The CO2 ascent[*R*]to be dominated[*A*]by buoyancy	context()	negated: False ,passive: True
+0.949	[*A*]The CO2 ascent[*R*]is[*A*]very likely to be dominated by buoyancy	context()	negated: False ,passive: True
+[LINE#148]Given these flow rate indications, it makes sense, a priori, to model the plume distribution with an invasion percolation simulator.
+0.569	[*A*]it[*R*]makes[*A*]sense[*A*]to model the plume distribution with an invasion percolation simulator	context()	negated: False ,passive: False
+[LINE#149]The Young-Laplace equation describes the governing physics: a capillary pressure occurs at an interface between two immiscible fluids such as CO2 and brine.
+0.931	[*A*]The Young-Laplace equation[*R*]describes[*A*]the governing physics	context(a capillary pressure occurs)	negated: False ,passive: False
+0.941	[*A*]a capillary pressure[*R*]occurs[*A*]at an interface between two immiscible fluids such as CO2 and brine	context()	negated: False ,passive: True
+[LINE#150]This equation, named after the Enlightenment scientists who discovered the principles of capillary action (Young, 1805; Laplace, 1806), is commonly used for multi-phase migration models.
+0.926	[*A*]This equation, named after the Enlightenment scientists[*R*]is used[*A*]for multi-phase migration models	context()	negated: False ,passive: True
+0.922	[*A*]the Enlightenment scientists[*R*]discovered[*A*]the principles of capillary action	context()	negated: False ,passive: False
+0.905	[*A*]This equation[*R*]named[*A*]after the Enlightenment scientists	context()	negated: False ,passive: True
+[LINE#151]The pressure is a result of the tension of the surface that forms at the interface between the two fluids.
+0.913	[*A*]the surface[*R*]forms[*A*]at the interface between the two fluids	context()	negated: False ,passive: True
+0.925	[*A*]The pressure[*R*]is[*A*]a result of the tension of the surface	context()	negated: False ,passive: True
+[LINE#152] A popular expression of the Young-Laplace equation(2a)) relates the gravitationally stable column height of an oil or gas trap, and related capillary pressure, to the threshold pressure of the rock at which breakthrough occurs (Hobson, 1954).
+0.713	[*A*]breakthrough[*R*]occurs	context()	negated: False ,passive: False
+0.971	[*A*]A popular expression of the Young-Laplace equation[*R*]relates[*A*]the gravitationally stable column height of an oil or gas trap, and related capillary pressure[*A*]to the threshold pressure of the rock	context()	negated: False ,passive: False
+[LINE#153]By exchanging the capillary pressure term with the density difference between the two fluids, the column height of the buoyant fluid can be determined (Eqs.
+0.816	[*A*]the column height of the buoyant fluid[*R*]can be determined	context()	negated: False ,passive: False
+[LINE#154] and (2c)):(2a)Threshold pressure, Pth=2 cos r(2b)Capillary pressure, Pc=gh(2c)Breakthrough condition, gh=2.
+0.933	[*A*]Pth=2[*R*]cos[*A*]r(2b[*A*]Threshold pressure	context()	negated: False ,passive: False
+[LINE#155]Pth is the threshold pressure of the rock at which breakthrough occurs; , the interfacial tension between the invading phase and resident phase; , the wetting angle between the invading phase and the rock (a low angle results in a high threshold pressure as the cosine value approaches unity); r, the representative pore throat radius for the rock.
+0.713	[*A*]breakthrough[*R*]occurs	context()	negated: False ,passive: False
+0.887	[*A*]Pth[*R*]is[*A*]the threshold pressure of the rock	context()	negated: False ,passive: True
+[LINE#156]Pc, the capillary pressure of the invading phase at the interface; , the density difference between the two phases; g, standard gravity; h, the column height of the invading phase.
+[LINE#157]If the capillary pressure does not exceed the threshold pressure, the fluid will pool beneath the shale and back-fill the shale topography until a spill-point is reached.
+0.769	[*A*]a spill - point[*R*]is reached	context()	negated: False ,passive: False
+0.903	[*A*]the fluid[*R*]will pool[*A*]beneath the shale	context()	negated: False ,passive: True
+0.911	[*A*]the capillary pressure[*R*]does not exceed[*A*]the threshold pressure	context()	negated: True ,passive: False
+[LINE#158]The CO2 will then migrate laterally until trapped again.
+0.838	[*A*]The CO2[*R*]will migrate laterally[*A*]until trapped again[*A*]then	context()	negated: False ,passive: False
+[LINE#159]However, if the capillary pressure at the top of the CO2 pool does exceed the shale threshold pressure, the pool will breach the seal and migrate vertically until the next shale is reached and trapping occurs again, resulting in a vertical stack of pools.
+0.592	[*A*]migrate vertically trapping[*R*]occurs[*A*]again[*A*]resulting in a vertical stack of pools	context()	negated: False ,passive: True
+0.260	[*A*]migrate[*R*]vertically trapping	context()	negated: False ,passive: False
+0.751	[*A*]the next shale[*R*]is reached	context()	negated: False ,passive: False
+0.903	[*A*]the pool[*R*]will breach[*A*]the seal	context()	negated: False ,passive: False
+0.965	[*A*]the capillary pressure at the top of the CO2 pool[*R*]does exceed[*A*]the shale threshold pressure	context()	negated: False ,passive: False
+[LINE#160]Hence, the conceptual model is that this pattern of pooling, breaching and lateral spill will match the observed plume distribution.
+0.738	[*A*]this pattern of lateral spill[*R*]will match	context(the conceptual model is)	negated: False ,passive: False
+0.860	[*A*]the conceptual model[*R*]is[*A*]that this pattern of lateral spill will match the observed plume distribution	context()	negated: False ,passive: True
+0.719	[*A*]this pattern of breaching[*R*]will match	context(the conceptual model is)	negated: False ,passive: False
+0.860	[*A*]the conceptual model[*R*]is[*A*]that this pattern of breaching will match the observed plume distribution	context()	negated: False ,passive: True
+0.719	[*A*]this pattern of pooling[*R*]will match	context(the conceptual model is)	negated: False ,passive: False
+0.860	[*A*]the conceptual model[*R*]is[*A*]that this pattern of pooling will match the observed plume distribution	context()	negated: False ,passive: True
+[LINE#161]Plume modelThe properties of the shale and sandstone intervals are constrained by the geological framework of the Utsira Formation and present-day observations from the Sleipner storage site.
+0.975	[*A*]Plume modelThe properties of the sandstone intervals[*R*]are constrained[*A*]by the geological framework of the present - day observations from the Sleipner storage site	context()	negated: False ,passive: True
+0.961	[*A*]Plume modelThe properties of the sandstone intervals[*R*]are constrained[*A*]by the geological framework of the Utsira Formation	context()	negated: False ,passive: True
+0.975	[*A*]Plume modelThe properties of the shale intervals[*R*]are constrained[*A*]by the geological framework of the present - day observations from the Sleipner storage site	context()	negated: False ,passive: True
+0.961	[*A*]Plume modelThe properties of the shale intervals[*R*]are constrained[*A*]by the geological framework of the Utsira Formation	context()	negated: False ,passive: True
+[LINE#162]The Utsira Formation is internally segmented by laterally extensive horizontal shales, approximately 1-2m thick, acting as barriers (Isaksen and Tonstad, 1989).
+0.957	[*A*]The Utsira Formation[*R*]is internally segmented[*A*]by laterally extensive horizontal shales , approximately 1-2 m thick[*A*]acting as barriers	context()	negated: False ,passive: True
+[LINE#163]Approximately 20m beneath the caprock of the Lower Seal, the shallowest shale barrier (7m thick shale) is thought to be lithologically identical to the caprock (Gregersen and Johannessen, 2001).
+0.959	[*A*]Approximately 20 m beneath the caprock of the Lower Seal[*R*]to be[*A*]lithologically identical to the caprock	context()	negated: False ,passive: True
+0.872	[*A*]Approximately 20 m beneath the caprock of the Lower Seal[*R*]is thought	context()	negated: False ,passive: False
+[LINE#164]Reviews of the reservoir geology indicate that this 7m thick shale merges laterally with the Lower Seal, which is considered to be an effective primary seal (Arts et al., 2000; Chadwick et al., 2004).
+0.904	[*A*]Arts[*R*]et[*A*]al	context()	negated: False ,passive: False
+0.934	[*A*]the Lower Seal[*R*]to be[*A*]an effective primary seal (Arts et al	context()	negated: False ,passive: True
+0.898	[*A*]Reviews of the reservoir geology[*R*]indicate[*A*]that this 7m thick shale merges laterally with the Lower Seal	context()	negated: False ,passive: False
+[LINE#165]As such, above the storage site and inter-layering with it as the 7m thick shale, are the Lower Seal shales of the Nordland Group.
+[LINE#166]This is overlain by the Middle Seal, bounded at the top and base by regional unconformities (Gregersen and Johannessen, 2001; Gregersen and Johannessen, 2007).
+0.425	[*A*]This[*R*]is overlain[*A*]by the Middle Seal	context()	negated: False ,passive: True
+[LINE#167]The upper unconformity provides important evidence of ice sheet erosion and exhumation during the Pleistocene.
+0.925	[*A*]The upper unconformity[*R*]provides[*A*]important evidence of exhumation[*A*]during the Pleistocene	context()	negated: False ,passive: False
+0.911	[*A*]The upper unconformity[*R*]provides[*A*]important evidence of ice sheet erosion	context()	negated: False ,passive: False
+[LINE#168]The shallower Pleistocene shales are referred to as the Upper Seal (Fig. 1).
+0.939	[*A*]The shallower Pleistocene shales[*R*]are referred[*A*]as the Upper Seal	context()	negated: False ,passive: True
+[LINE#169] The primary seal and overburden stratigraphy have considerably more complexity and heterogeneity when considered in detail(Nicoll et al., 2012), with numerous shallow sands, chimney structures and sub-glacial relict features.
+0.568	[*A*]overburden stratigraphy[*R*]have[*A*]considerably more complexity when considered in detail	context()	negated: False ,passive: False
+0.769	[*A*]The primary seal stratigraphy[*R*]have	context()	negated: False ,passive: False
+0.177	[*A*]The primary seal stratigraphy[*R*]has more complexity of[*A*]2012	context()	negated: False ,passive: False
+0.919	[*A*]The primary seal stratigraphy[*R*]have[*A*]considerably more complexity when considered in detail	context()	negated: False ,passive: False
+[LINE#170]However, a simple first approximation is suitable for this study..
+0.937	[*A*]a simple first approximation[*R*]is[*A*]suitable for this study	context()	negated: False ,passive: True
+[LINE#171]Geocellular model designThe 3D profile of the plume (Fig. 1) is used to build a three-dimensional model of the storage site.
+0.833	[*A*]Fig[*R*]to build[*A*]a three-dimensional model of the storage site	context()	negated: False ,passive: False
+0.961	[*A*]Geocellular model designThe 3D profile of the plume[*R*]is used[*A*]to build a three-dimensional model of the storage site	context()	negated: False ,passive: True
+[LINE#172]The geometry of each CO2 layer and the associated shale barrier topographies are derived from published images of the CO2 layering (Bickle et al., 2007; Chadwick et al., 2008).
+0.952	[*A*]The geometry of the associated shale barrier topographies[*R*]are derived[*A*]from published images of the CO2 layering	context()	negated: False ,passive: True
+0.957	[*A*]The geometry of each CO2 layer[*R*]are derived[*A*]from published images of the CO2 layering	context()	negated: False ,passive: True
+[LINE#173]The nine layers define the cross-sectional relief of the shale barriers above the CO2.
+0.991	[*A*]nine layers[*R*]define[*A*]the cross-sectional relief of the shale barriers above the CO2	context()	negated: False ,passive: False
+0.943	[*A*]The nine layers[*R*]define[*A*]the cross-sectional relief of the shale barriers above the CO2	context()	negated: False ,passive: False
+[LINE#174]The thin shale barriers that trap the first seven layers are assumed to be 1-2m thick; the thick shale overlying layer 8 is assumed to be 7m thick.
+0.826	[*A*]The thin shale barriers that trap the first seven layers[*R*]are assumed	context(the thick shale overlying layer 8 is assumed)	negated: False ,passive: False
+0.763	[*A*]the thick shale overlying layer 8[*R*]is assumed	context()	negated: False ,passive: False
+0.911	[*A*]the thick shale[*R*]overlying[*A*]layer 8	context()	negated: False ,passive: False
+0.857	[*A*]The thin shale barriers that trap the first seven layers[*R*]to be[*A*]1-2m thick	context()	negated: False ,passive: True
+0.921	[*A*]the thick shale overlying layer 8[*R*]to be[*A*]7m thick	context()	negated: False ,passive: True
+0.927	[*A*]The thin shale barriers[*R*]trap[*A*]the first seven layers	context()	negated: False ,passive: False
+[LINE#175] The modeled shales are assumed to be petrologically similar to the Lower Seal shale, conforming to petrophysical data from the sampled well, 15/9A-11(Gregersen and Johannessen, 2001).
+0.897	[*A*]The modeled shales[*R*]conforming[*A*]to petrophysical data from	context()	negated: False ,passive: True
+0.913	[*A*]The modeled shales[*R*]to be[*A*]petrologically similar to the Lower Seal shale	context()	negated: False ,passive: True
+0.751	[*A*]The modeled shales[*R*]are assumed	context()	negated: False ,passive: False
+[LINE#176] The model Utsira sandstone conforms to petrophysical data, i.e. clean, well-sorted and poorly cemented.
+0.698	[*A*]petrophysical data[*R*]poorly cemented	context()	negated: False ,passive: False
+0.939	[*A*]The model Utsira sandstone[*R*]conforms[*A*]to petrophysical data	context()	negated: False ,passive: True
+[LINE#177]Numerical simulationThe simulation releases CO2 at the known perforation interval of the injection well, close to the base of the model, and calculates the percolation pathway and resultant accumulations for the ascent of a discrete supercritical phase of CO2.
+0.952	[*A*]Numerical simulationThe simulation[*R*]calculates[*A*]the resultant accumulations for the ascent of a discrete supercritical phase of CO2	context()	negated: False ,passive: False
+0.952	[*A*]Numerical simulationThe simulation[*R*]calculates[*A*]the percolation pathway accumulations for the ascent of a discrete supercritical phase of CO2	context()	negated: False ,passive: False
+[LINE#178]The simulation assumes a buoyant gravity-driven flow dominated by capillary forces.
+0.932	[*A*]a buoyant gravity-driven flow[*R*]dominated[*A*]by capillary forces	context()	negated: False ,passive: True
+0.937	[*A*]The simulation[*R*]assumes[*A*]a buoyant gravity-driven flow dominated by capillary forces	context()	negated: False ,passive: False
+[LINE#179]The depth range of the storage site is close to the phase boundary conditions for supercritical CO2.
+0.960	[*A*]The depth range of the storage site[*R*]is[*A*]close to the phase boundary conditions for supercritical CO2	context()	negated: False ,passive: True
+[LINE#180]This results in significant fluid density changes with ascent (Bickle et al., 2007).
+0.543	[*A*]This[*R*]results[*A*]in significant fluid density changes with ascent (Bickle et al	context()	negated: False ,passive: True
+[LINE#181]These density variations are estimated from a commonly used equation of state for CO2 (Duan and Sun, 2003) assuming hydrostatic pressure and geothermal temperature profiles for the storage site (Table 2).
+0.925	[*A*]These density variations[*R*]are estimated[*A*]from a commonly used equation of state for CO2	context()	negated: False ,passive: True
+0.922	[*A*]CO2 ( Sun[*R*]assuming[*A*]hydrostatic pressure	context()	negated: False ,passive: False
+0.952	[*A*]These density variations[*R*]are estimated[*A*]from a commonly used equation of state for CO2 ( Sun , 2003 ) assuming hydrostatic pressure	context()	negated: False ,passive: True
+0.906	[*A*]CO2[*R*]assuming[*A*]hydrostatic pressure	context()	negated: False ,passive: False
+0.952	[*A*]These density variations[*R*]are estimated[*A*]from a commonly used equation of state for CO2 ( Duan ) assuming hydrostatic pressure	context()	negated: False ,passive: True
+[LINE#182]The output of the model is a plume distribution of CO2 with respect to the geological framework (Fig. 3) and a numerical estimate of the associated masses for each CO2 layer and threshold pressures for each shale barrier (Table 2).
+0.952	[*A*]The output of the model[*R*]is[*A*]a plume distribution of CO2	context()	negated: False ,passive: True
+0.970	[*A*]The output of the model[*R*]is[*A*]a plume distribution of CO2 with respect to the geological framework	context()	negated: False ,passive: True
+[LINE#183] While the layer distributions are known and stable in the model, the multiple migration pathways and breakthrough points for vertical migrationonly represent equivalent simulation pathways and potential breach locations for a given barrier at its shallowest expression.
+0.911	[*A*]the layer distributions[*R*]are known[*A*]in the multiple migration pathways and breakthrough points	context()	negated: False ,passive: True
+0.899	[*A*]the layer distributions[*R*]are known[*A*]in the model and breakthrough points for potential breach locations for a given barrier at its shallowest expression	context()	negated: False ,passive: True
+0.943	[*A*]the layer distributions[*R*]are known[*A*]in the model and breakthrough points for vertical migrationonly represent equivalent simulation pathways	context()	negated: False ,passive: True
+[LINE#184]These are not expected to be better than an accurate approximation of the breach locations, as ascending migration paths in the actual storage site are likely to be sensitive to local heterogeneities in the shale barriers and sandstone formation.
+0.503	[*A*]These[*R*]to be[*A*]sensitive to local heterogeneities in sandstone formation	context()	negated: False ,passive: True
+0.503	[*A*]These[*R*]to be[*A*]sensitive to local heterogeneities in the shale barriers	context()	negated: False ,passive: True
+0.503	[*A*]These[*R*]to be[*A*]better than an accurate approximation of the breach locations	context()	negated: False ,passive: True
+0.260	[*A*]These[*R*]are not expected	context()	negated: True ,passive: False
+[LINE#185]However, multiple realisations of the simulation confirm the robust and stable outcome of stacked CO2 layers that insensitive to variations in the precise position of CO2 breakthrough. .
+0.937	[*A*]multiple realisations of the simulation[*R*]confirm[*A*]the stable outcome of stacked CO2 layers	context()	negated: False ,passive: False
+0.937	[*A*]multiple realisations of the simulation[*R*]confirm[*A*]the robust outcome of stacked CO2 layers	context()	negated: False ,passive: False
+[LINE#186]scenariosTwo scenarios with identical geometry were tested by varying the threshold pressure of the shales within Utsira Formation: the first, a base case, assumed that the threshold pressure of approximately 1.6-1.9MPa measured in core recovered from Lower Seal shales (Springer and Lindgren, 2006) is applicable to all shale barriers within the model.
+0.903	[*A*]approximately 1.6-1.9MPa[*R*]measured[*A*]in core	context()	negated: False ,passive: True
+0.960	[*A*]scenariosTwo scenarios with identical geometry[*R*]were tested[*A*]by varying the threshold pressure of the shales within Utsira Formation	context()	negated: False ,passive: True
+[LINE#187]The threshold pressures are assigned to the shales as a global mean value i.e. a single shale barrier has a uniform mean threshold pressure of 1.75MPa (three-sigma standard deviation of 0.15MPa, equivalent to approximately 8.5%, assuming a normal distribution).
+0.938	[*A*]a global mean value[*R*]has[*A*]a uniform mean threshold pressure of 1.75MPa	context()	negated: False ,passive: False
+0.952	[*A*]The threshold pressures[*R*]are assigned[*A*]to the shales[*A*]as a global mean value i.e. a single shale barrier has a uniform mean threshold pressure of 1.75MPa	context()	negated: False ,passive: True
+[LINE#188]This base case model failed to match the observed CO2 distribution, as the high threshold pressures for the shales resulted in a 'zig-zag' pattern of predominantly laterally spilling migration.
+0.937	[*A*]the shales[*R*]resulted[*A*]in a 'zig-zag' pattern of predominantly laterally spilling migration	context()	negated: False ,passive: True
+0.920	[*A*]This base case model[*R*]to match[*A*]the observed CO2 distribution	context()	negated: False ,passive: False
+0.931	[*A*]This base case model[*R*]failed[*A*]to match the observed CO2 distribution	context()	negated: False ,passive: True
+[LINE#189]The simulation ultimately failed to reach the caprock, as the CO2 backfilled beneath the 7m thick shale without breaching, resulting in a final column height of hundreds of meters and total saturation of the reservoir.
+0.651	[*A*]the CO2[*R*]backfilled without breaching	context(the CO2 backfilled)	negated: False ,passive: False
+0.940	[*A*]the CO2[*R*]backfilled[*A*]beneath the 7m thick shale[*A*]resulting in a final column height of hundreds of meters and total saturation of the reservoir	context()	negated: False ,passive: False
+0.887	[*A*]The simulation[*R*]to reach[*A*]the caprock	context()	negated: False ,passive: False
+0.964	[*A*]The simulation[*R*]failed[*A*]to reach the caprock[*A*]as the CO2 backfilled beneath the 7m thick shale without breaching[*A*]ultimately	context()	negated: False ,passive: True
+[LINE#190]This scenario is totally unlike the Sleipner plume seismic observations, and is rejected.
+0.732	[*A*]This scenario[*R*]is rejected	context()	negated: False ,passive: False
+0.937	[*A*]This scenario[*R*]is[*A*]totally unlike the Sleipner plume seismic observations	context()	negated: False ,passive: True
+[LINE#191]The second scenario is unchanged from the base case with the exception of reduced threshold pressures for the shales within the storage site.
+0.956	[*A*]The second scenario[*R*]is[*A*]unchanged from the base case with the exception of reduced threshold pressures for the shales within the storage site	context()	negated: False ,passive: True
+[LINE#192]The threshold pressure was gradually reduced by iterative experimentation until the simulation exhibited thin CO2 layers similar to those observed in the seismic monitoring.
+0.234	[*A*]those[*R*]observed[*A*]in the seismic monitoring	context()	negated: False ,passive: True
+0.804	[*A*]the simulation[*R*]exhibited[*A*]thin CO2 layers similar to those	context()	negated: False ,passive: False
+0.879	[*A*]The threshold pressure[*R*]was gradually reduced[*A*]by iterative experimentation[*A*]until the simulation exhibited thin CO2 layers similar to those	context()	negated: False ,passive: True
+[LINE#193]The normal distribution range for the lower threshold pressures remained as 8.5% of the mean assigned to a given shale barrier.
+0.903	[*A*]the mean[*R*]assigned[*A*]to a given shale barrier	context()	negated: False ,passive: True
+0.948	[*A*]The normal distribution range for the lower threshold pressures[*R*]remained[*A*]as 8.5% of the mean	context()	negated: False ,passive: True
+[LINE#194]This second scenario provides an excellent match with the observed phenomena i.e. a vertical 'pancake stack' of layers approximately 7-11m thick (Figs. 1 and 3).
+0.911	[*A*]This second scenario[*R*]provides[*A*]an excellent match[*A*]with the observed phenomena	context()	negated: False ,passive: False
+[LINE#195]The barrier geometry is prescribed by the observed geometry of the CO2 layers, and so the morphology of the simulated layers is forced, given the derivation of shale layer topography from the 4D seismic.
+0.937	[*A*]The barrier[*R*]given[*A*]the derivation of shale layer topography from the 4 D seismic	context()	negated: False ,passive: False
+0.801	[*A*]the morphology of the simulated layers[*R*]is forced	context()	negated: False ,passive: False
+0.925	[*A*]The barrier geometry[*R*]is prescribed[*A*]by the observed geometry of the CO2 layers	context()	negated: False ,passive: True
+[LINE#196]However, the significance of the result lies in the replication of the stacked plume layering, and an estimate of CO2 layer thicknesses that results in a reasonable match to observations and a plausible mass balance (Fig. 3 and Table 2).It is notable that the model breakthrough pressure is surprisingly low in the calibrated match to the observed Sleipner plume.
+0.500	[*A*]It[*R*]is notable that[*A*]the model breakthrough pressure	context()	negated: False ,passive: False
+0.926	[*A*]the significance of the result[*R*]lies[*A*]in the replication of the stacked plume layering	context()	negated: False ,passive: True
+[LINE#197]The simulation enables the inference of permeability and threshold pressures for the shales at the kilometer scale of the entire Sleipner storage site which are difficult or impossible to measure directly.
+0.834	[*A*]the entire Sleipner storage site[*R*]are[*A*]difficult or impossible to measure directly	context()	negated: False ,passive: True
+0.947	[*A*]The simulation[*R*]enables[*A*]the inference of permeability and threshold pressures for the shales at the kilometer scale of the entire Sleipner storage site	context()	negated: False ,passive: False
+[LINE#198]The inferred threshold pressures required to achieve a thinly layered plume trapped by intra-formational shales are two orders of magnitude lower than the laboratory values measured on the caprock at well 15/9A-11.
+0.919	[*A*]a thinly layered plume[*R*]trapped[*A*]by intra-formational shales	context()	negated: False ,passive: True
+0.925	[*A*]the laboratory values[*R*]measured[*A*]on the caprock at well 15/9A-11	context()	negated: False ,passive: True
+0.769	[*A*]The inferred threshold pressures[*R*]required	context()	negated: False ,passive: False
+0.949	[*A*]The inferred threshold pressures required to achieve a thinly layered plume[*R*]are[*A*]two orders of magnitude lower than the laboratory values	context()	negated: False ,passive: True
+[LINE#199]This is an important outcome of the model.
+0.449	[*A*]This[*R*]is[*A*]an important outcome of the model	context()	negated: False ,passive: True
+[LINE#200]The mode of CO2 ascentGiven the model results, the mode of CO2 ascent within the storage site deserves further scrutiny.
+0.961	[*A*]the mode of CO2 ascent within the storage site[*R*]deserves[*A*]further scrutiny	context()	negated: False ,passive: False
+[LINE#201]The favored scenario of thin, and stacked, CO2 layering with low intra-formational shale threshold pressures raises an obvious concern: if the assumptions hold regarding the similarity of the 7m thick shale to the Lower Seal, and the unbroken lateral continuity of the shale barriers, then the breakthrough condition for CO2 at the caprock may be as low as 50kPa (Table 2).
+0.882	[*A*]CO2[*R*]raises[*A*]an obvious concern	context()	negated: False ,passive: False
+0.896	[*A*]CO2[*R*]raises an obvious concern layering[*A*]with low intra-formational shale threshold pressures	context(CO2 raises)	negated: False ,passive: False
+0.935	[*A*]CO2[*R*]raises[*A*]an obvious concern[*A*]if the assumptions hold regarding the similarity of the 7 m thick shale to the Lower Seal	context()	negated: False ,passive: False
+0.980	[*A*]the breakthrough condition for CO2 at the caprock[*R*]may be[*A*]as low as 50kPa[*A*]then	context()	negated: False ,passive: True
+0.926	[*A*]The favored scenario of thin[*R*]raises[*A*]an obvious concern	context()	negated: False ,passive: False
+0.784	[*A*]the assumptions[*R*]hold	context()	negated: False ,passive: False
+0.960	[*A*]The favored scenario of thin[*R*]raises[*A*]an obvious concern : if the assumptions hold regarding the similarity of the 7 m thick shale to the Lower Seal	context()	negated: False ,passive: False
+[LINE#202]Such an extremely low threshold pressure for shales can only occur in fractured rocks.
+0.916	[*A*]Such an extremely low threshold pressure for shales[*R*]can occur[*A*]in fractured rocks	context()	negated: False ,passive: True
+[LINE#203]It is therefore inferred that a network of micro-fractures span the shale barriers within the Utsira Formation, allowing the plume to ascend vertically, leaving a stack of thin CO2 layers.
+[LINE#204]The significance of this finding with respect to the integrity of the caprock and Nordland Group shales is discussed below..
+0.869	[*A*]The significance of this finding with respect to the integrity of[*R*]is discussed[*A*]below	context()	negated: False ,passive: True
+0.945	[*A*]The significance of this finding with respect to the integrity of the and Nordland Group shales[*R*]is discussed[*A*]below	context()	negated: False ,passive: True
+[LINE#205]Inferred fracture networks for shale barriersThe width of the inferred micro-fractures can be characterized to a first approximation by a modified form of the Young-Laplace equation (Pankow and Cherry, 1996).
+0.953	[*A*]Inferred fracture networks for shale[*R*]can be characterized[*A*]to a first approximation by a modified form of the Young - Laplace equation	context()	negated: False ,passive: True
+[LINE#206] In this modification for a fractured shale, the fracture half-width substitutes for pore throat radius, and the seal is breached when the capillary pressure of the CO2 layer, Pc(2b)), exceeds the threshold pressure of a fracture, Pf, equivalent to the product of the interfacial tension, , and cosine of the wetting angle, , divided by the fracture half-width, f (Eq.
+0.897	[*A*]a fractured shale[*R*]divided[*A*]by the fracture half - width	context()	negated: False ,passive: True
+0.945	[*A*]the fracture half - width substitutes for pore throat radius[*R*]divided[*A*]by the fracture half - width	context()	negated: False ,passive: True
+[LINE#207]The calibrated invasion percolation simulation (Fig. 3) enables the fracture width to be estimated as a function of the height of column retained beneath the shales.
+0.891	[*A*]the fracture width[*R*]to be estimated[*A*]as a function of the height of column	context(The calibrated invasion percolation simulation enables)	negated: False ,passive: True
+0.931	[*A*]The calibrated invasion percolation simulation[*R*]enables[*A*]the fracture width to be estimated as a function of the height of column	context()	negated: False ,passive: False
+0.938	[*A*]a function of the height of column[*R*]retained[*A*]beneath the shales	context()	negated: False ,passive: True
+[LINE#208]This indicates a fracture width of approximately 2m (Table 2).
+0.381	[*A*]This[*R*]indicates[*A*]a fracture width of approximately 2m	context()	negated: False ,passive: False
+[LINE#209] Micron-thick fractures commonly occur in shales, and are physically observed in physical shale specimens as pale gossamer-like threads that appear on the faces of rock samples indicating cement-filled fractures, or salts drying out from fluids in open fractures.(3)Fracture threshold pressure,.
+0.784	[*A*]salts[*R*]drying out[*A*]Fracture threshold pressure	context()	negated: False ,passive: False
+0.937	[*A*]rock samples[*R*]indicating[*A*]cement-filled fractures, or salts drying out from fluids in open fractures.(3)Fracture threshold pressure	context()	negated: False ,passive: False
+0.913	[*A*]pale gossamer-like threads[*R*]appear[*A*]on the faces of rock samples	context()	negated: False ,passive: True
+0.931	[*A*]Micron-thick fractures[*R*]are observed[*A*]in physical shale specimens as pale gossamer-like threads	context()	negated: False ,passive: True
+0.928	[*A*]Micron-thick fractures[*R*]occur[*A*]in shales	context()	negated: False ,passive: True
+[LINE#210]Pf=2 cos fwhere, Pf, threshold pressure of the fracture; , interfacial tension; , wetting angle; f, the half-width of the representative fracture aperture.
+[LINE#211] The micro-fracture explanation for low threshold pressures raises a number of questions: what is the vertical extent of the inferred fractures?.
+[LINE#212] And, do these connect to form fracture networks that span the shale barriers?.
+0.913	[*A*]fracture networks[*R*]span[*A*]the shale barriers	context()	negated: False ,passive: False
+0.270	[*A*]these[*R*]to form[*A*]fracture networks that span the shale barriers	context()	negated: False ,passive: False
+[LINE#213] What are the origins of the fractures?.
+[LINE#214] And, is the integrity of the caprock compromised?.
+[LINE#215]Firstly, it is apparent that the 7m thick shale within the Utsira Formation transmits CO2.
+[LINE#216]It follows that this span is the minimum limit for a connected network of percolating fractures within the storage site.
+[LINE#217]It is unclear if such a percolation bridge might affect the much thicker Lower Seal.
+[LINE#218]No observational evidence to date indicates that CO2 has penetrated the caprock.
+0.902	[*A*]CO2[*R*]has penetrated[*A*]the caprock	context(No observational evidence to date indicates)	negated: False ,passive: False
+0.814	[*A*]No observational evidence to date[*R*]indicates[*A*]that CO2 has penetrated the caprock	context()	negated: False ,passive: False
+[LINE#219]Given the very thin layers of CO2 (10-15m column heights with correspondingly low capillary pressures), a caprock breach would require a pre-existing fracture network.
+0.911	[*A*]a caprock breach[*R*]would require[*A*]a pre-existing fracture network	context()	negated: False ,passive: False
+[LINE#220] The evidence from a neighboring shale caprock, albeit older, more compacted and buried to 4km(the seal for the nearby Miller oilfield), shows that CO2 penetration of an unfractured caprock is very slow, taking approximately 70Ma to diffuse 10m into the caprock (Lu et al., 2009).
+0.974	[*A*]CO2 penetration of an unfractured caprock[*R*]is[*A*]very slow[*A*]taking approximately 70Ma to diffuse 10 m into the caprock ( Lu et al . , 2009 )	context(The evidence from a neighboring shale caprock shows)	negated: False ,passive: True
+0.905	[*A*]a neighboring shale caprock[*R*]buried[*A*]to 4 km	context()	negated: False ,passive: True
+0.974	[*A*]CO2 penetration of an unfractured caprock[*R*]is[*A*]very slow[*A*]taking approximately 70Ma to diffuse 10 m into the caprock ( Lu et al . , 2009 )	context(The evidence from a neighboring shale caprock shows)	negated: False ,passive: True
+0.905	[*A*]The evidence from a neighboring shale caprock[*R*]shows[*A*]that CO2 penetration of an unfractured caprock is very slow	context()	negated: False ,passive: False
+0.974	[*A*]CO2 penetration of an unfractured caprock[*R*]is[*A*]very slow[*A*]taking approximately 70Ma to diffuse 10 m into the caprock ( Lu et al . , 2009 )	context(The evidence from a neighboring shale caprock , albeit older shows)	negated: False ,passive: True
+0.927	[*A*]The evidence from a neighboring shale caprock , albeit older[*R*]shows[*A*]that CO2 penetration of an unfractured caprock is very slow	context()	negated: False ,passive: False
+0.940	[*A*]CO2 penetration of an unfractured caprock[*R*]taking[*A*]approximately 70Ma[*A*]to diffuse 10 m into the caprock	context()	negated: False ,passive: False
+[LINE#221]However, the maximum limit of fracture connectivity at the Sleipner caprock, or through the Lower Seal remains unknown.
+0.945	[*A*]the maximum limit of fracture connectivity at the Sleipner caprock, or through the Lower Seal[*R*]remains[*A*]unknown	context()	negated: False ,passive: True
+[LINE#222] In addition to potential fracture networks, paleo-gas chimneys and glacial tunnel valleys with the Nordland Group shales may provide physical routes for the rapid vertical escape of CO2, though these are not thought to intersect the present CO2 plume footprint or expected future distribution beneath the caprock (Zweigel et al., 2004; Nicoll et al., 2012).Concerningthe origin of the micro-fractures, CO2 injection is an unlikely fracture mechanism for the breaching of thick or thin shales.
+0.549	[*A*]these[*R*]to intersect[*A*]the present CO2 plume footprint	context()	negated: False ,passive: False
+0.229	[*A*]these[*R*]not thought	context()	negated: True ,passive: False
+0.698	[*A*]these[*R*]are[*A*]not thought to intersect the present CO2 plume footprint or expected future distribution beneath the caprock (Zweigel et al., 2004; Nicoll et al., 2012).Concerningthe origin of the micro-fractures, CO2 injection is an unlikely fracture mechanism for the breaching of thick or thin shales	context()	negated: False ,passive: True
+0.964	[*A*]CO2 injection[*R*]is[*A*]an unlikely fracture mechanism for the breaching of thick or thin shales	context()	negated: False ,passive: True
+[LINE#223]A low capillary pressure of around 50kPa, associated with the buoyancy of a 10-15m CO2 column, may be high enough to allow CO2 to percolate through an existing fracture network for 1-7m thick shale barriers.
+0.971	[*A*]A low capillary pressure of around 50kPa[*R*]may be[*A*]high enough to allow CO2 to percolate through an existing fracture network for 1-7m thick shale barriers	context()	negated: False ,passive: True
+0.914	[*A*]around 50kPa[*R*]associated[*A*]with the buoyancy of a 10-15m CO2 column	context()	negated: False ,passive: True
+[LINE#224]However, the fracturing of shales as a consequence of such small pressure changes within the Utsira Formation is highly unlikely.
+0.958	[*A*]the fracturing of shales as a consequence of such small pressure changes within the Utsira Formation[*R*]is[*A*]highly unlikely	context()	negated: False ,passive: True
+[LINE#225]By analogy, micro-fractures in overpressured hydrocarbon fields occur when the pore pressures exceed around 80% of the lithostatic pressure, typically equivalent to multi-MPa changes (Aplin et al., 2000).
+0.943	[*A*]the pore pressures[*R*]exceed[*A*]around 80% of the lithostatic pressure, typically equivalent to multi-MPa changes	context()	negated: False ,passive: False
+0.952	[*A*]micro-fractures in overpressured hydrocarbon fields[*R*]occur[*A*]when the pore pressures exceed around 80% of the lithostatic pressure, typically equivalent to multi-MPa changes	context()	negated: False ,passive: True
+[LINE#226]The Sleipner storage site is not significantly stressed or overpressured at the present day (Wei et al., 1990); the pore fluids are effectively at hydrostatic pressure; and so for Sleipner, the fluid pressure increase necessary to fracture an intact seal (about 10MPa) is highly unlikely.
+0.935	[*A*]the fluid pressure increase necessary to fracture an intact seal (about 10MPa[*R*]is[*A*]highly unlikely	context()	negated: False ,passive: True
+0.911	[*A*]the pore fluids[*R*]are[*A*]effectively[*A*]at hydrostatic pressure	context()	negated: False ,passive: True
+0.928	[*A*]The Sleipner storage site[*R*]overpressured[*A*]at the present day	context()	negated: True ,passive: True
+0.818	[*A*]The Sleipner storage site[*R*]is not significantly stressed	context()	negated: True ,passive: False
+[LINE#227]It is therefore inferred that the shales have been fractured prior to CO2 injection. .
+[LINE#228]Ice sheet unloading as a mechanism for fracturingPrevious studies have put forward a number of ideas to explain the rapid vertical migration of CO2 within the Utsira Formation, as neatly summarized by Chadwick et al.
+0.947	[*A*]Ice sheet unloading as a mechanism for fracturingPrevious studies[*R*]have put forward to explain[*A*]the rapid vertical migration of CO2 within the Utsira Formation	context(Ice sheet unloading as a mechanism for fracturingPrevious studies have put)	negated: False ,passive: False
+0.878	[*A*]Ice sheet[*R*]unloading[*A*]as a mechanism for fracturingPrevious studies	context(Ice sheet unloading as a mechanism for fracturingPrevious studies have put)	negated: False ,passive: False
+0.965	[*A*]Ice sheet unloading as a mechanism for fracturingPrevious studies[*R*]have put[*A*]forward[*A*]a number of ideas[*A*]to explain the rapid vertical migration of CO2 within the Utsira Formation	context()	negated: False ,passive: False
+[LINE#229]The gamut ranges from small faults and natural holes in the intra-formational shale barriers, to geomechanically induced chimneys, sand injectites and changes in the wetting characteristics of shales exposed to CO2.
+0.937	[*A*]The gamut[*R*]ranges[*A*]from natural holes in the intra-formational shale barriers , to geomechanically changes in the wetting characteristics of shales	context()	negated: False ,passive: True
+0.903	[*A*]The gamut[*R*]ranges[*A*]from natural holes in the intra-formational shale barriers	context()	negated: False ,passive: True
+0.937	[*A*]The gamut[*R*]ranges[*A*]from natural holes in the intra-formational shale barriers , to geomechanically induced chimneys in the wetting characteristics of shales	context()	negated: False ,passive: True
+0.937	[*A*]The gamut[*R*]ranges[*A*]from small faults , to geomechanically changes in the wetting characteristics of shales	context()	negated: False ,passive: True
+0.903	[*A*]The gamut[*R*]ranges[*A*]from small faults	context()	negated: False ,passive: True
+0.911	[*A*]shales[*R*]exposed[*A*]to CO2	context()	negated: False ,passive: True
+0.937	[*A*]The gamut[*R*]ranges[*A*]from small faults , to geomechanically induced chimneys in the wetting characteristics of shales	context()	negated: False ,passive: True
+[LINE#230]However, these scenarios are hypothetical and frequently driven by model design, in terms of creating suitable pathways for simulating flow.
+0.916	[*A*]these scenarios[*R*]are driven[*A*]by model design[*A*]frequently	context()	negated: False ,passive: True
+0.767	[*A*]these scenarios[*R*]are[*A*]hypothetical	context()	negated: False ,passive: True
+[LINE#231]The lack of sampling and direct observations from within the Utsira Formation has done little to narrow the field of possibilities.
+0.965	[*A*]The lack of direct observations from within the Utsira Formation[*R*]has done[*A*]little to narrow the field of possibilities	context()	negated: False ,passive: False
+0.919	[*A*]The lack of sampling[*R*]has done[*A*]little to narrow the field of possibilities	context()	negated: False ,passive: False
+[LINE#232]The modeling presented in this paper implies fracturing prior to CO2 injection, as outlined above.
+0.930	[*A*]The modeling presented in this paper[*R*]implies fracturing[*A*]prior to CO2 injection	context(The modeling presented in this paper implies)	negated: False ,passive: False
+0.930	[*A*]The modeling presented in this paper[*R*]implies[*A*]fracturing prior to CO2 injection	context()	negated: False ,passive: False
+0.903	[*A*]The modeling[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#233]As a consequence, a plausible pre-injection fracturing mechanism is sought, given the geological history and context of the storage site.
+0.912	[*A*]a plausible pre-injection fracturing mechanism[*R*]is sought[*A*]given the geological context of the storage site	context()	negated: False ,passive: True
+0.912	[*A*]a plausible pre-injection fracturing mechanism[*R*]is sought[*A*]given the geological history	context()	negated: False ,passive: True
+[LINE#234]The following hypothesis further adds to the various competing ideas concerning the flow properties of the Utsira Formation, and the shale barriers in particular; and in common with those ideas, shares a lack of direct evidence from the storage site itself.
+0.919	[*A*]the various competing ideas[*R*]concerning[*A*]the shale barriers in particular	context()	negated: False ,passive: False
+0.931	[*A*]the various competing ideas[*R*]concerning[*A*]the flow properties of the Utsira Formation	context()	negated: False ,passive: False
+0.920	[*A*]The following hypothesis[*R*]adds[*A*]to the various competing ideas	context()	negated: False ,passive: True
+[LINE#235]However, there are a number of supporting regional indications, presented below, and the simplicity of the model, in itself, is encouraging.
+0.756	[*A*]the simplicity of the model[*R*]is encouraging	context()	negated: False ,passive: False
+0.773	[*A*]a number of supporting regional indications[*R*]presented below	context()	negated: False ,passive: False
+[LINE#236]The Sleipner storage site location lies within the Pleistocene ice sheet domain of NW Europe (Boulton and Hagdorn, 2006).
+0.953	[*A*]The Sleipner storage site location[*R*]lies[*A*]within the Pleistocene ice sheet domain of NW Europe	context()	negated: False ,passive: True
+[LINE#237]An erosional unconformity at the Pliocene/Pleistocene boundary between the Middle Seal and Lower Seal of the Nordland Group shales indicates that ice was in contact with the seabed, scouring and eroding the underlying sediments.
+0.908	[*A*]that ice[*R*]was[*A*]in contact with the seabed	context(An erosional unconformity at the Pliocene / Pleistocene boundary between the Middle Seal and Lower Seal of the Nordland Group shales indicates)	negated: False ,passive: True
+0.950	[*A*]An erosional unconformity at the Pliocene/Pleistocene boundary between the Middle Seal and Lower Seal of the Nordland Group shales[*R*]indicates[*A*]that ice was in contact with the seabed, scouring and eroding the underlying sediments	context()	negated: False ,passive: False
+0.698	[*A*]that ice[*R*]scouring	context()	negated: False ,passive: False
+[LINE#238]Additional unconformities within the Middle Seal and Upper Seal indicate several similar events (Nicoll, 2012).
+0.961	[*A*]Additional unconformities within the Middle Seal and Upper Seal[*R*]indicate[*A*]several similar events	context()	negated: False ,passive: False
+[LINE#239]The youngest ice sheet (Late Devensian) has left well-preserved sediments to record its position and demise; reconstructions of ice sheet thickness over the British Isles and Southern Norway during this final stage indicate that the ice was around 1000m thick and grounded over the Sleipner area of the Northern North Sea (Boulton and Hagdorn, 2006).
+0.923	[*A*]the ice[*R*]was[*A*]around 1000 m thick Hagdorn , 2006	context(reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: True
+0.908	[*A*]the ice[*R*]was[*A*]around 1000 m	context(reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: True
+0.884	[*A*]The youngest ice sheet[*R*]has left[*A*]well - preserved sediments[*A*]to record demise	context(reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: False
+0.923	[*A*]the ice[*R*]was[*A*]around 1000 m thick Hagdorn , 2006	context(reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: True
+0.908	[*A*]the ice[*R*]was[*A*]around 1000 m	context(reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: True
+0.884	[*A*]The youngest ice sheet[*R*]has left[*A*]well - preserved sediments[*A*]to record demise	context(reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: False
+0.984	[*A*]reconstructions of ice sheet thickness over the British Southern Norway during this final stage[*R*]indicate[*A*]grounded over the Sleipner area of the Northern North Sea	context()	negated: False ,passive: False
+0.976	[*A*]reconstructions of ice sheet thickness over the British Southern Norway during this final stage[*R*]grounded[*A*]over the Sleipner area of the Northern North Sea	context()	negated: False ,passive: True
+0.920	[*A*]the ice[*R*]was[*A*]around 1000 m thick Hagdorn , 2006	context(reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: True
+0.956	[*A*]reconstructions of ice sheet thickness over the British Southern Norway during this final stage[*R*]indicate[*A*]that the ice was around 1000 m thick Hagdorn , 2006	context()	negated: False ,passive: False
+0.905	[*A*]the ice[*R*]was[*A*]around 1000 m	context(reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: True
+0.800	[*A*]The youngest ice sheet[*R*]has left well - preserved sediments to record[*A*]its position	context(The youngest ice sheet has left reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: False
+0.800	[*A*]The youngest ice sheet[*R*]has left[*A*]well - preserved sediments[*A*]to record its position	context(reconstructions of ice sheet thickness over the British Southern Norway during this final stage indicate)	negated: False ,passive: False
+0.932	[*A*]reconstructions of ice sheet thickness over the British Southern Norway during this final stage[*R*]indicate[*A*]that the ice was around 1000 m thick Boulton	context()	negated: False ,passive: False
+0.984	[*A*]reconstructions of ice sheet thickness over the British Isles Norway during this final stage[*R*]indicate[*A*]grounded over the Sleipner area of the Northern North Sea	context()	negated: False ,passive: False
+0.976	[*A*]reconstructions of ice sheet thickness over the British Isles Norway during this final stage[*R*]grounded[*A*]over the Sleipner area of the Northern North Sea	context()	negated: False ,passive: True
+0.920	[*A*]the ice[*R*]was[*A*]around 1000 m thick Hagdorn , 2006	context(reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: True
+0.956	[*A*]reconstructions of ice sheet thickness over the British Isles Norway during this final stage[*R*]indicate[*A*]that the ice was around 1000 m thick Hagdorn , 2006	context()	negated: False ,passive: False
+0.905	[*A*]the ice[*R*]was[*A*]around 1000 m	context(reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: True
+0.800	[*A*]The youngest ice sheet[*R*]has left well - preserved sediments to record[*A*]its position	context(The youngest ice sheet has left reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: False
+0.800	[*A*]The youngest ice sheet[*R*]has left[*A*]well - preserved sediments[*A*]to record its position	context(reconstructions of ice sheet thickness over the British Isles Norway during this final stage indicate)	negated: False ,passive: False
+0.932	[*A*]reconstructions of ice sheet thickness over the British Isles Norway during this final stage[*R*]indicate[*A*]that the ice was around 1000 m thick Boulton	context()	negated: False ,passive: False
+[LINE#240]Similar grounded ice sheets probably occurred during several glaciations over the last 1Ma from marine isotope stage MIS 12 onwards.
+0.949	[*A*]Similar grounded ice sheets[*R*]occurred[*A*]during several glaciations over the last 1Ma from marine isotope stage MIS 12 onwards	context()	negated: False ,passive: True
+[LINE#241]Considering the effect of ice on fluid pressure and stress on the underlying shale, the following scenario is hypothesized:The gradual increase of ice sheet thickness during prograde glaciation produces a slow transient additional overburden load.
+0.903	[*A*]prograde glaciation[*R*]produces[*A*]a slow transient additional overburden load	context()	negated: False ,passive: False
+0.828	[*A*]the following scenario[*R*]is[*A*]hyp	context()	negated: False ,passive: True
+[LINE#242]This load is transferred to the sediments below the ice sheet if it is grounded rather than floating.
+0.195	[*A*]it[*R*]is grounded	context()	negated: False ,passive: False
+0.835	[*A*]This load[*R*]is transferred[*A*]to the sediments below the ice sheet[*A*]if it is grounded rather than floating	context()	negated: False ,passive: True
+[LINE#243]The youngest grounded ice sheet (Late Devensian, MIS 2) can be precisely mapped; the MIS 2 ice sheet formed as a confluence of the British and Fennoscandian ice sheets, flowing to the north-west, and ultimately reaching the continental margin (Bradwell et al., 2008; Davison, 2012).
+0.940	[*A*]the Fennoscandian ice sheets[*R*]flowing[*A*]to the north - west Bradwell et al	context()	negated: False ,passive: True
+0.945	[*A*]the MIS 2 ice sheet[*R*]flowing[*A*]to the north - west Bradwell et al	context()	negated: False ,passive: True
+0.408	[*A*]The youngest[*R*]grounded reaching[*A*]the continental margin	context(The youngest grounded)	negated: False ,passive: False
+0.513	[*A*]The youngest[*R*]grounded[*A*]ultimately reaching the continental margin	context()	negated: False ,passive: False
+[LINE#244]The preservation of relict landform features indicates that, during deglaciation, the ice melted very rapidly, possibly catastrophically, within hundreds of years at 24ka, coincident with a global sea-level change (Bradwell et al., 2008).
+0.897	[*A*]the ice[*R*]melted very rapidly possibly catastrophically[*A*]at 24ka[*A*]during deglaciation	context(The preservation of relict landform features indicates)	negated: False ,passive: True
+0.886	[*A*]The preservation of relict landform features[*R*]indicates[*A*]that, during deglaciation, the ice melted very rapidly, possibly catastrophically, within hundreds of years at 24ka, coincident with a global sea-level change	context()	negated: False ,passive: False
+0.887	[*A*]the ice[*R*]coincident[*A*]with a global sea-level change	context()	negated: False ,passive: True
+[LINE#245]It is possible that the sea level rise transgressed beneath the grounded ice, causing it to float off the seabed; at which point the overburden pressure is removed instantaneously (Davidson, 2005; Bradwell et al., 2008).
+0.939	[*A*]the overburden pressure[*R*]is removed instantaneously[*A*]at which point	context()	negated: False ,passive: True
+[LINE#246]The significance of this deglaciation event is the possibility of unusually rapid and transient pore pressure changes within shales that may have exceeded the geomechanical limit, fracturing the shales (Cavanagh et al., 2006).Pressure fluctuations associated with deglaciation are distinct from more commonly encountered subsurface overpressure regimes in that both the hydrostatic and lithostatic baseline pressures are offset to higher values by loading from a grounded ice sheet (Fig. 4).
+0.877	[*A*]shales[*R*]may have exceeded[*A*]the geomechanical limit[*A*]fracturing the shales	context()	negated: False ,passive: False
+0.822	[*A*]the shales[*R*]are[*A*]distinct from more commonly encountered subsurface overpressure regimes in that both the lithostatic baseline pressures are offset to higher values by loading from a grounded ice sheet	context()	negated: False ,passive: True
+0.926	[*A*]both the lithostatic baseline pressures[*R*]are offset[*A*]to higher values	context()	negated: False ,passive: True
+0.822	[*A*]the shales[*R*]are[*A*]distinct from more commonly encountered subsurface overpressure regimes in that both the hydrostatic baseline pressures are offset to higher values by loading from a grounded ice sheet	context()	negated: False ,passive: True
+0.903	[*A*]Pressure fluctuations[*R*]associated[*A*]with deglaciation	context()	negated: False ,passive: True
+0.926	[*A*]both the hydrostatic baseline pressures[*R*]are offset[*A*]to higher values	context()	negated: False ,passive: True
+0.877	[*A*]shales[*R*]may have exceeded[*A*]the geomechanical limit	context()	negated: False ,passive: False
+0.967	[*A*]The significance of this deglaciation event[*R*]is[*A*]the possibility of unusually rapid pore pressure changes within shales[*A*]fracturing the shales	context()	negated: False ,passive: True
+[LINE#247]Gradients remain the same but a change in the baseline pressure occurs which is dependent on ice sheet thickness.
+0.272	[*A*]which[*R*]is dependent on[*A*]ice sheet thickness	context()	negated: False ,passive: False
+0.801	[*A*]a change in the baseline pressure[*R*]occurs	context()	negated: False ,passive: False
+0.749	[*A*]Gradients[*R*]remain[*A*]the same	context()	negated: False ,passive: True
+[LINE#248] Hypothetically, the loading of the Nordland Group shales by a 1000m thick ice sheet (gray upper layer, Fig. 4) would cause both hydrostatic and lithostatic values to increase by about 10MPa during a glacial stage lasting several tens of millennia.
+0.808	[*A*]the loading of the Nordland Group[*R*]shales	context()	negated: False ,passive: False
+0.911	[*A*]a glacial stage[*R*]lasting[*A*]several tens of millennia	context()	negated: False ,passive: True
+[LINE#249]This affects a pore pressure increase within the Utsira Formation from 7MPa (700m depth) to a new equilibrium beneath the ice of 16MPa (1700m depth, including ice sheet).
+0.543	[*A*]This[*R*]affects[*A*]a pore pressure increase within the Utsira Formation from 7MPa	context()	negated: False ,passive: False
+[LINE#250]The new hydrostatic pressure gradient (gray lines, Fig. 4) starts near the top of the ice sheet; the new lithostatic gradient runs from the base of the ice sheet.
+0.918	[*A*]The new hydrostatic pressure gradient[*R*]starts[*A*]near the top of the ice sheet	context(the new lithostatic gradient runs)	negated: False ,passive: True
+0.923	[*A*]the new lithostatic gradient[*R*]runs[*A*]from the base of the ice sheet	context()	negated: False ,passive: True
+[LINE#251]The maximum ice load does not need to be located directly above the Utsira Formation as, for a hydraulically connected aquifer, a lateral transmission of pressure will occur for tens of kilometers.
+0.926	[*A*]a lateral transmission of pressure[*R*]will occur[*A*]for tens of kilometers	context()	negated: False ,passive: True
+0.920	[*A*]The maximum ice load[*R*]to be located directly[*A*]above the Utsira Formation	context()	negated: False ,passive: True
+0.931	[*A*]The maximum ice load[*R*]does not need[*A*]to be located directly above the Utsira Formation	context()	negated: True ,passive: False
+[LINE#252]During deglaciation the ice melts rapidly, and both the lithostatic and hydrostatic equilibrium lines return geologically instantaneously to their normal positions (black lines, Fig. 4).
+0.871	[*A*]both the hydrostatic equilibrium lines[*R*]return geologically instantaneously[*A*]to their normal positions	context()	negated: False ,passive: True
+0.871	[*A*]both the lithostatic equilibrium lines[*R*]return geologically instantaneously[*A*]to their normal positions	context()	negated: False ,passive: True
+0.923	[*A*]both the hydrostatic equilibrium lines[*R*]return geologically instantaneously[*A*]to their normal positions[*A*]During deglaciation	context()	negated: False ,passive: True
+0.923	[*A*]both the lithostatic equilibrium lines[*R*]return geologically instantaneously[*A*]to their normal positions[*A*]During deglaciation	context()	negated: False ,passive: True
+[LINE#253]Since pore fluids in the deep subsurface cannot flow instantaneously to re-equilibrate the rock, this rapid deglaciation leaves the pore fluids isolated at, or above the re-established normal fracture gradient.
+0.911	[*A*]the pore fluids[*R*]isolated[*A*]at, or above the re-established normal fracture gradient	context()	negated: False ,passive: True
+0.943	[*A*]this rapid deglaciation[*R*]leaves[*A*]the pore fluids isolated at, or above the re-established normal fracture gradient	context()	negated: False ,passive: False
+0.921	[*A*]pore fluids in the deep subsurface[*R*]to re-equilibrate[*A*]the rock	context()	negated: False ,passive: False
+0.829	[*A*]pore fluids in the deep subsurface[*R*]can not flow[*A*]instantaneously	context()	negated: True ,passive: True
+[LINE#254]While the highly permeable Utsira Formation is free to flow and equilibrate rapidly, the much lower permeability shales are not.
+0.957	[*A*]the highly permeable Utsira Formation[*R*]is[*A*]free to equilibrate rapidly	context()	negated: False ,passive: True
+0.785	[*A*]the much lower permeability shales[*R*]are not	context()	negated: True ,passive: False
+0.807	[*A*]the highly permeable Utsira Formation[*R*]to flow	context()	negated: False ,passive: False
+0.888	[*A*]the highly permeable Utsira Formation[*R*]is[*A*]free to flow	context()	negated: False ,passive: True
+[LINE#255]The shale pore pressure collides with the fracture gradient, at about 80% of lithostatic pressure, creating a zone of hydraulic fracturing potential (red triangle, Fig. 4).
+0.939	[*A*]The shale pore pressure collides with the fracture gradient[*R*]creating[*A*]a zone of hydraulic fracturing potential (red triangle	context()	negated: False ,passive: False
+[LINE#256]The thickness and strength of the overburden for any given stage is highly uncertain, hence the dashed line (fracture gradient, Fig. 4), which is conservatively estimated from present day leak-off test data (Nicoll, 2012).
+0.886	[*A*]strength of the overburden for any given stage[*R*]is[*A*]highly uncertain	context()	negated: False ,passive: True
+0.905	[*A*]hence the dashed line[*R*]is conservatively estimated[*A*]from present day	context()	negated: False ,passive: True
+0.895	[*A*]The thickness of the overburden for any given stage[*R*]is[*A*]highly uncertain	context()	negated: False ,passive: True
+[LINE#257]This mechanism suggests that, within this zone of fracturing potential, the shales of the Utsira Formation pervasively micro-fractured perpendicular to geological bedding, enabling rapid porewater escape during deglaciation.
+0.903	[*A*]the shales of the Utsira Formation[*R*]pervasively micro-fractured perpendicular enabling[*A*]rapid porewater escape[*A*]during deglaciation	context(This mechanism suggests the shales of the Utsira Formation pervasively micro-fractured)	negated: False ,passive: False
+0.962	[*A*]the shales of the Utsira Formation[*R*]pervasively micro-fractured[*A*]perpendicular[*A*]to geological bedding[*A*]enabling rapid porewater escape during deglaciation[*A*]within this zone of fracturing potential	context(This mechanism suggests)	negated: False ,passive: False
+0.835	[*A*]This mechanism[*R*]suggests[*A*]that, within this zone of fracturing potential, the shales of the Utsira Formation pervasively micro-fractured perpendicular to geological bedding	context()	negated: False ,passive: False
+[LINE#258]This fracturing is now responsible for the rapid migration of CO2 within the storage site.
+0.952	[*A*]This fracturing[*R*]is[*A*]now[*A*]responsible for the rapid migration of CO2 within the storage site	context()	negated: False ,passive: True
+[LINE#259] Five independent lines of evidence are considered to support this hypothesis:.
+0.913	[*A*]Five independent lines of evidence[*R*]to support[*A*]this h	context()	negated: False ,passive: False
+0.926	[*A*]Five independent lines of evidence[*R*]are considered[*A*]to support this h	context()	negated: False ,passive: True
+[LINE#260] Firstly, reservoirs in the much deeper Sleipner hydrocarbon fields, both East and West, appear to be overpressured by about 10MPa.
+0.870	[*A*]reservoirs in the much deeper Sleipner hydrocarbon fields[*R*]to be overpressured[*A*]by	context()	negated: False ,passive: True
+0.849	[*A*]reservoirs in the much deeper Sleipner hydrocarbon fields[*R*]appear	context()	negated: False ,passive: False
+[LINE#261] Secondly, a phenomenon known as the 'Oligocene-Miocene bump' appears to record a regional occurrence of 5-10MPa overpressure at about 1.3-1.5km depth in the Northern North Sea.
+0.968	[*A*]a phenomenon known as the 'Oligocene-Miocene bump'[*R*]to record[*A*]a regional occurrence of 5-10MPa	context()	negated: False ,passive: False
+0.899	[*A*]a phenomenon known as the 'Oligocene-Miocene bump'[*R*]appears	context()	negated: False ,passive: False
+0.937	[*A*]a phenomenon[*R*]known[*A*]as the 'Oligocene-Miocene bump	context()	negated: False ,passive: True
+[LINE#262]There is no diagenetic reaction or hydrocarbon charge effect to explain such an overpressure.
+0.938	[*A*]no diagenetic reaction or hydrocarbon charge effect[*R*]to explain[*A*]such an overpressure	context()	negated: False ,passive: False
+[LINE#263]This suggests that both pressure phenomena are relicts from regional deglaciation events.
+0.891	[*A*]both pressure phenomena[*R*]are[*A*]relicts from regional deglaciation events	context(This suggests)	negated: False ,passive: True
+0.224	[*A*]This[*R*]suggests[*A*]that both pressure phenomena are relicts from regional deglaciation events	context()	negated: False ,passive: False
+[LINE#264] Thirdly, seismic data for the Sleipner storage site locale display a number of discrete anomalies (pock marks, soft kicks, small chimney features)where sediment layering is disrupted, indicative of vertical gas migration in the Nordland Group shales (Zweigel, 2000; Nicoll et al., 2012).
+0.732	[*A*]sediment layering[*R*]is disrupted	context()	negated: False ,passive: False
+0.958	[*A*]seismic data for the Sleipner storage site locale[*R*]display[*A*]a number of discrete anomalies	context()	negated: False ,passive: False
+[LINE#265]It is proposed that these shallow gas indications are relicts of natural gas leakage from the Utsira Formation during depressurization.
+[LINE#266]Fourthly, observations of thirty nine deeper hydrocarbon fields across the North Sea show that thermogenic gas and condensates have leaked through caprocks to form diffuse zones hundreds of meters thick above the hydrocarbon reservoirs (Aplin et al., 2006).
+0.810	[*A*]condensates[*R*]have leaked to form[*A*]diffuse zones	context(observations of thirty nine deeper hydrocarbon fields across the North Sea show condensates have leaked)	negated: False ,passive: False
+0.844	[*A*]condensates[*R*]have leaked[*A*]to form diffuse zones[*A*]hundreds of meters thick above the hydrocarbon reservoirs	context(observations of thirty nine deeper hydrocarbon fields across the North Sea show)	negated: False ,passive: False
+0.947	[*A*]observations of thirty nine deeper hydrocarbon fields across the North Sea[*R*]show[*A*]that condensates have leaked through caprocks to form diffuse zones hundreds of meters thick above the hydrocarbon reservoirs	context()	negated: False ,passive: False
+0.857	[*A*]thermogenic gas[*R*]have leaked[*A*]to form diffuse zones[*A*]hundreds of meters thick above the hydrocarbon reservoirs	context(observations of thirty nine deeper hydrocarbon fields across the North Sea show)	negated: False ,passive: False
+0.947	[*A*]observations of thirty nine deeper hydrocarbon fields across the North Sea[*R*]show[*A*]that thermogenic gas have leaked through caprocks to form diffuse zones hundreds of meters thick above the hydrocarbon reservoirs	context()	negated: False ,passive: False
+[LINE#267]These seismic chimneys suggest that the leakage may be a regional manifestation of vertical micro-fractures created by the same transient depressurization phenomenon associated with ice sheet unloading.
+0.882	[*A*]the leakage[*R*]may be[*A*]a regional manifestation of vertical micro-fractures	context(These seismic chimneys suggest)	negated: False ,passive: True
+0.828	[*A*]These seismic chimneys[*R*]suggest[*A*]that the leakage may be a regional manifestation of vertical micro-fractures	context()	negated: False ,passive: False
+0.926	[*A*]the same transient depressurization phenomenon[*R*]associated[*A*]with ice sheet unloading	context()	negated: False ,passive: True
+0.903	[*A*]vertical micro-fractures[*R*]created[*A*]by the same transient depressurization phenomenon	context()	negated: False ,passive: True
+[LINE#268]Finally, tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during glaciation and deglaciation (Grollimund and Zoback, 2000) indicates that the Sleipner region is currently in a state of horizontal extensional stress (5-15MPa at 2-3km depth) as a consequence of ice sheet unloading.
+0.934	[*A*]the Sleipner region[*R*]is[*A*]currently[*A*]in a state of horizontal extensional stress	context(tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during deglaciation indicates)	negated: False ,passive: True
+0.934	[*A*]the Sleipner region[*R*]is[*A*]currently[*A*]in a state of horizontal extensional stress	context(tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during deglaciation indicates)	negated: False ,passive: True
+0.967	[*A*]tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during deglaciation[*R*]indicates[*A*]that the Sleipner region is currently in a state of horizontal extensional stress ( 5-15MPa at 2-3 km depth ) as a consequence of ice sheet unloading[*A*]Finally	context()	negated: False ,passive: False
+0.934	[*A*]the Sleipner region[*R*]is[*A*]currently[*A*]in a state of horizontal extensional stress	context(tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during glaciation indicates)	negated: False ,passive: True
+0.934	[*A*]the Sleipner region[*R*]is[*A*]currently[*A*]in a state of horizontal extensional stress	context(tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during glaciation indicates)	negated: False ,passive: True
+0.967	[*A*]tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during glaciation[*R*]indicates[*A*]that the Sleipner region is currently in a state of horizontal extensional stress ( 5-15MPa at 2-3 km depth ) as a consequence of ice sheet unloading[*A*]Finally	context()	negated: False ,passive: False
+[LINE#269] Grollimund and Zoback suggest an explanation that is sympathetic to the hypothesis proposed here, i.e. the present-day unstressed hydrostatic pore pressure regime results from fracturing and pore fluid leakage: 'The stress decrease due to deglaciation might have brought horizontal compressional stress down to the existing pore pressure at the time when the stress decrease took place and parts of the fluids leaked away, leading to a pore pressure reduction' (Grollimund and Zoback,2000).A recent, more detailed, analysis by Grollimund and Zoback (2003) includes the influence of ice sheet loading from 1Ma onwards, and a history of recent ice sheet melting events, with similar results.
+0.973	[*A*]i.e. the present - day unstressed hydrostatic pore pressure regime results from pore fluid leakage[*R*]might have brought[*A*]horizontal compressional stress[*A*]down[*A*]to the existing pore pressure at the time parts of the fluids	context(Zoback suggest)	negated: False ,passive: False
+0.919	[*A*]Zoback , 2000[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Zoback suggest)	negated: False ,passive: True
+0.975	[*A*]A recent , more detailed , analysis by Zoback ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards , and a history of recent ice sheet melting events , with similar results	context(Zoback suggest)	negated: False ,passive: True
+0.975	[*A*]A recent , more detailed , analysis by Grollimund ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards , and a history of recent ice sheet melting events , with similar results	context(Zoback suggest)	negated: False ,passive: True
+0.917	[*A*]The stress decrease due to deglaciation[*R*]might have brought[*A*]horizontal compressional stress[*A*]down[*A*]to the existing pore pressure[*A*]at the time	context(Zoback suggest)	negated: False ,passive: False
+0.799	[*A*]Zoback[*R*]suggest[*A*]an explanation that is sympathetic to the hypothesis proposed here , i.e. the present - day unstressed hydrostatic pore pressure regime results from pore fluid leakage	context()	negated: False ,passive: False
+0.961	[*A*]A recent , more detailed , analysis by Zoback ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Zoback suggest)	negated: False ,passive: True
+0.961	[*A*]A recent , more detailed , analysis by Grollimund ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Zoback suggest)	negated: False ,passive: True
+0.712	[*A*]Zoback[*R*]suggest[*A*]an explanation that is sympathetic to the hypothesis	context()	negated: False ,passive: False
+0.919	[*A*]Zoback , 2000[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Grollimund suggest)	negated: False ,passive: True
+0.903	[*A*]Grollimund[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Grollimund suggest)	negated: False ,passive: True
+0.973	[*A*]i.e. the present - day unstressed hydrostatic pore pressure regime results from pore fluid leakage[*R*]might have brought[*A*]horizontal compressional stress[*A*]down[*A*]to the existing pore pressure at the time parts of the fluids	context(Grollimund suggest)	negated: False ,passive: False
+0.975	[*A*]A recent , more detailed , analysis by Zoback ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards , and a history of recent ice sheet melting events , with similar results	context(Grollimund suggest)	negated: False ,passive: True
+0.975	[*A*]A recent , more detailed , analysis by Grollimund ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards , and a history of recent ice sheet melting events , with similar results	context(Grollimund suggest)	negated: False ,passive: True
+0.843	[*A*]Grollimund[*R*]suggest[*A*]an explanation that is sympathetic to the hypothesis proposed here , i.e. the present - day unstressed hydrostatic pore pressure regime results from pore fluid leakage	context()	negated: False ,passive: False
+0.989	[*A*]i.e. the present - day unstressed hydrostatic pore pressure regime results from fracturing fluid leakage : ' The stress decrease due to deglaciation[*R*]might have brought[*A*]horizontal compressional stress[*A*]down[*A*]to the existing pore pressure at the time parts of the fluids	context(Grollimund suggest)	negated: False ,passive: False
+0.843	[*A*]Grollimund[*R*]suggest[*A*]an explanation that is sympathetic to the hypothesis proposed here ,	context()	negated: False ,passive: False
+0.968	[*A*]A recent , more detailed , analysis by Zoback ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context()	negated: False ,passive: True
+0.968	[*A*]A recent , more detailed , analysis by Grollimund ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context()	negated: False ,passive: True
+0.767	[*A*]the fluids[*R*]leaked[*A*]away	context()	negated: False ,passive: True
+0.873	[*A*]The stress decrease due to deglaciation[*R*]might have brought horizontal compressional stress leading[*A*]to a pore pressure reduction	context(Grollimund suggest The stress decrease due to deglaciation might have brought)	negated: False ,passive: False
+0.944	[*A*]The stress decrease due to deglaciation[*R*]might have brought[*A*]horizontal compressional stress[*A*]down[*A*]to the existing pore pressure at the time parts of the fluids	context(Grollimund suggest)	negated: False ,passive: False
+0.770	[*A*]Grollimund[*R*]suggest[*A*]an explanation that is sympathetic to the hypothesis	context()	negated: False ,passive: False
+0.961	[*A*]A recent , more detailed , analysis by Zoback ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Grollimund suggest)	negated: False ,passive: True
+0.767	[*A*]the hypothesis[*R*]proposed[*A*]here	context()	negated: False ,passive: True
+0.948	[*A*]the stress decrease[*R*]took[*A*]place[*A*]the time	context()	negated: False ,passive: True
+0.913	[*A*]an explanation[*R*]is[*A*]sympathetic to the hypothesis	context()	negated: False ,passive: True
+0.961	[*A*]A recent , more detailed , analysis by Grollimund ( 2003[*R*]includes[*A*]the influence of ice sheet loading from 1Ma onwards	context(Grollimund suggest)	negated: False ,passive: True
+0.917	[*A*]The stress decrease due to deglaciation[*R*]might have brought[*A*]horizontal compressional stress[*A*]down[*A*]to the existing pore pressure[*A*]at the time	context(Grollimund suggest)	negated: False ,passive: False
+0.843	[*A*]Grollimund[*R*]suggest[*A*]an explanation that is sympathetic to the hypothesis proposed here , i.e. the present - day unstressed hydrostatic pore pressure regime results from fracturing fluid leakage : '	context()	negated: False ,passive: False
+[LINE#270]They determine that the common and widely observed indications of vertical fluid leakage from oil and gas fields within the region via faults or fractures is unlikely during glacial stages, but much more likely during regional deglaciations, with particular emphasis on events at 60ka and 15ka.
+0.429	[*A*]They[*R*]determine[*A*]that the common and widely observed indications of vertical fluid leakage from oil and gas fields within the region via faults or fractures is unlikely during glacial stages	context()	negated: False ,passive: False
+[LINE#271]It seems reasonable that these regional findings for paleo-stress, pore pressure, and fluid flow also apply to the Sleipner storage site.
+[LINE#272]This combination of present-day overpressure observations, local vertical natural gas migration features and regional indications of pore pressure fluctuations associated with ice sheet-related lithospheric stress changes affirm the possibility of our inferred process for fracturing the Utsira Formation shales, both with respect to mechanism and magnitude.
+0.929	[*A*]This combination of regional indications of pore pressure fluctuations[*R*]affirm[*A*]the possibility of our inferred process for fracturing the Utsira Formation shales , both with respect to magnitude	context()	negated: False ,passive: False
+0.573	[*A*]the possibility of our inferred process for fracturing the Utsira Formation[*R*]shales	context(This combination of regional indications of pore pressure fluctuations affirm)	negated: False ,passive: False
+0.929	[*A*]This combination of regional indications of pore pressure fluctuations[*R*]affirm[*A*]the possibility of our inferred process for fracturing the Utsira Formation shales , both with respect to mechanism	context()	negated: False ,passive: False
+0.911	[*A*]pore pressure fluctuations[*R*]associated[*A*]with ice sheet - related lithospheric stress changes	context()	negated: False ,passive: True
+0.939	[*A*]This combination of local vertical natural gas migration features[*R*]affirm[*A*]the possibility of our inferred process for fracturing the Utsira Formation shales , both with respect to magnitude	context()	negated: False ,passive: False
+0.573	[*A*]the possibility of our inferred process for fracturing the Utsira Formation[*R*]shales	context(This combination of local vertical natural gas migration features affirm)	negated: False ,passive: False
+0.939	[*A*]This combination of local vertical natural gas migration features[*R*]affirm[*A*]the possibility of our inferred process for fracturing the Utsira Formation shales , both with respect to mechanism	context()	negated: False ,passive: False
+0.933	[*A*]This combination of present - day overpressure observations[*R*]affirm[*A*]the possibility of our inferred process for fracturing the Utsira Formation shales , both with respect to magnitude	context()	negated: False ,passive: False
+0.573	[*A*]the possibility of our inferred process for fracturing the Utsira Formation[*R*]shales	context(This combination of present - day overpressure observations affirm)	negated: False ,passive: False
+0.933	[*A*]This combination of present - day overpressure observations[*R*]affirm[*A*]the possibility of our inferred process for fracturing the Utsira Formation shales , both with respect to mechanism	context()	negated: False ,passive: False
+[LINE#273] Unexplained aspects of the plumeFirstly, there is a significant uncertainty concerning mass-balance estimates for the plume.
+0.911	[*A*]a significant uncertainty[*R*]concerning[*A*]mass-balance estimates for the plume	context()	negated: False ,passive: False
+[LINE#274]To illustrate this, consider estimates for the uppermost layer alone, circa July 2002, equivalent to 5Mt injected, bearing in mind that the uppermost layer is the best constrained portion of the plume with respect to observational data (Chadwick et al., 2008).
+0.944	[*A*]the uppermost layer[*R*]is[*A*]the best constrained portion of the plume with respect to observational data	context(circa July 2002 , equivalent to 5Mt injected bearing)	negated: False ,passive: True
+0.858	[*A*]circa July 2002, equivalent to 5Mt[*R*]injected bearing[*A*]that the uppermost layer is the best constrained portion of the plume with respect to observational data (Chadwick et al., 2008	context(circa July 2002 , equivalent to 5Mt injected)	negated: False ,passive: False
+0.903	[*A*]circa July 2002, equivalent to 5Mt[*R*]injected[*A*]bearing in mind that the uppermost layer is the best constrained portion of the plume with respect to observational data (Chadwick et al., 2008	context()	negated: False ,passive: False
+[LINE#275]The CO2 volume in this layer is estimated to be approximately 110-165 thousand cubic meters (Chadwick et al., 2009).
+0.940	[*A*]The CO2 volume in this layer[*R*]to be[*A*]approximately 110-165 thousand cubic meters	context()	negated: False ,passive: True
+0.949	[*A*]The CO2 volume in this layer[*R*]is estimated[*A*]to be approximately 110-165 thousand cubic meters	context()	negated: False ,passive: True
+[LINE#276]Assuming an upper layer density of 426kg/m3 (after Bickle et al., 2007), this is equivalent to a mass of 0.05-0.07Mt.
+0.495	[*A*]this[*R*]is[*A*]equivalent to a mass of 0.05-0.07Mt	context()	negated: False ,passive: True
+[LINE#277] Although Chadwick and co-workers (2009) favor the upper end of this range, 0.07Mt is considerably less than estimates of 0.11Mt.
+0.877	[*A*]co-workers[*R*]favor[*A*]the upper end of this range	context()	negated: False ,passive: False
+0.948	[*A*]0.07Mt[*R*]is[*A*]considerably less than estimates of 0.11Mt	context()	negated: False ,passive: True
+0.920	[*A*]Chadwick[*R*]favor[*A*]the upper end of this range	context()	negated: False ,passive: False
+[LINE#278] This wide disparity in outcomes stems partly from (a) uncertainty concerning the plume temperature profile (Fig. 2a), with Singh and co-workers(2010) assuming a much colder plume with an uppermost layer density of 760kg/m3; and (b) poorly constrained assumptions regarding layer thickness (Fig. 2b), which are unresolvable at less than 15m thick given the seismic resolution (Arts et al., 2004).
+0.920	[*A*]co-workers[*R*]assuming[*A*]a much colder plume with an uppermost layer density of 760kg / m3	context()	negated: False ,passive: False
+0.904	[*A*]Singh[*R*]assuming[*A*]a much colder plume with an uppermost layer density of 760kg / m3	context()	negated: False ,passive: False
+0.926	[*A*]This wide disparity in outcomes[*R*]stems partly[*A*]from (a) uncertainty concerning the plume temperature profile	context()	negated: False ,passive: True
+0.904	[*A*]Arts[*R*]et[*A*]al	context()	negated: False ,passive: False
+0.735	[*A*]layer thickness[*R*]are[*A*]unresolvable	context()	negated: False ,passive: True
+[LINE#279]This uncertainty is further compounded by poorly constrained gas saturations for the plume layers.
+0.887	[*A*]This uncertainty[*R*]compounded[*A*]by poorly constrained gas saturations for the plume layers	context()	negated: False ,passive: True
+0.952	[*A*]This uncertainty[*R*]is[*A*]further compounded by poorly constrained gas saturations for the plume layers	context()	negated: False ,passive: True
+[LINE#280]All three aspects are discussed further below.
+0.751	[*A*]All three aspects[*R*]are discussed further below	context()	negated: False ,passive: False
+[LINE#281]Secondly, despite the layer thickness uncertainty, the plume morphology indicates that column heights for trapped CO2 are unexpectedly low.
+0.821	[*A*]column heights for trapped CO2[*R*]are[*A*]unexpectedly low	context(the plume morphology indicates)	negated: False ,passive: True
+0.776	[*A*]the plume morphology[*R*]indicates[*A*]that column heights for trapped CO2 are unexpectedly low	context()	negated: False ,passive: False
+[LINE#282] The only published laboratory measurements for the caprock threshold pressure (Springer and Lindgren, 2006; Harrington et al., 2009), from a cored productionwell, 15/9A-11, close to the storage site, suggest a range of 1.6-1.9MPa, i.e. the fluid pressure necessary for CO2 to break through a low permeability rock.
+0.971	[*A*]15/9A - 11[*R*]suggest[*A*]The only published laboratory measurements for the caprock threshold pressure ( Lindgren , 2006 ; Harrington et al . , 2009 ) , from a cored productionwell , 15/9A - 11 , close to the storage site , suggest a range of 1.6-1.9MPa , i.e. the fluid pressure necessary for CO2 to break through a low permeability rock	context()	negated: False ,passive: False
+0.920	[*A*]CO2[*R*]to break[*A*]through a low permeability rock	context()	negated: False ,passive: False
+0.971	[*A*]15/9A - 11[*R*]suggest[*A*]The only published laboratory measurements for the caprock threshold pressure ( Springer , 2006 ; Harrington et al . , 2009 ) , from a cored productionwell , 15/9A - 11 , close to the storage site , suggest a range of 1.6-1.9MPa , i.e. the fluid pressure necessary for CO2 to break through a low permeability rock	context()	negated: False ,passive: False
+[LINE#283]If this range is applicable to the shale barriers within the Utsira Formation, such a scenario would result in CO2 column heights of hundreds of meters (Springer and Lindgren, 2006).
+0.925	[*A*]such a scenario[*R*]would result[*A*]in CO2 column heights of hundreds of meters	context()	negated: False ,passive: True
+0.937	[*A*]this range[*R*]is[*A*]applicable to the shale barriers within the Utsira Formation	context()	negated: False ,passive: True
+[LINE#284] However, estimated column heights for the layered plume consistently fall within the range 7-14m (Chadwick et al., 2005, 2006;.
+0.938	[*A*]estimated column heights for the layered plume[*R*]consistently fall[*A*]within the range 7-14m	context()	negated: False ,passive: True
+[LINE#285] These thin layers occur beneath all three-barrier types: (a) the 1-2m thin shales within the formation; (b) the uppermost 7m thick shale barrier; and (c)the much thicker Nordland Group shale caprock that forms the primary seal.
+0.891	[*A*]These thin layers[*R*]occur[*A*]beneath all three - barrier types	context(that forms)	negated: False ,passive: True
+0.143	[*A*]that[*R*]forms[*A*]the primary seal	context()	negated: False ,passive: False
+0.911	[*A*]These thin layers[*R*]occur[*A*]beneath all three - barrier types	context()	negated: False ,passive: True
+[LINE#286]Thirdly, the plume flow behavior is not indicative of sealing shale barriers punctuated by faults, holes or penetrated by a high permeability chimney or sand injectite (Zweigel et al., 2004), and the means of CO2 ascent is poorly understood.
+0.887	[*A*]shale barriers[*R*]penetrated[*A*]by a high permeability chimney or sand injectite	context()	negated: False ,passive: True
+0.903	[*A*]shale barriers[*R*]punctuated[*A*]by faults, holes	context()	negated: False ,passive: True
+0.919	[*A*]the plume flow behavior[*R*]is not[*A*]indicative of sealing shale barriers	context()	negated: True ,passive: True
+[LINE#287]The plume initially ascended 200m vertically through the eight shale barriers in less than three years (Chadwick et al., 2006), resulting in a 'pancake stack' of layers.
+0.934	[*A*]The plume[*R*]ascended[*A*]200m[*A*]vertically[*A*]resulting in a 'pancake stack' of layers[*A*]initially	context()	negated: False ,passive: False
+[LINE#288]If the laterally extensive shales had acted as seals, preventing the vertical migration of CO2, the plume would have taken much longer to breakthrough, and its behavior would have been more akin to a 'zig-zag' distribution with lateral offsets, resulting from the CO2 tracking along the base of a barrier until encountering a hole through which to escape up to the next barrier, and then repeating this behavior..
+0.922	[*A*]the CO2[*R*]tracking along the base of a barrier repeating[*A*]this behavior[*A*]then	context(the CO2 tracking)	negated: False ,passive: False
+0.910	[*A*]the CO2[*R*]tracking[*A*]along the base of a barrier	context()	negated: False ,passive: False
+0.773	[*A*]its behavior[*R*]would have been[*A*]more akin to a ' zig - zag ' distribution with lateral offsets[*A*]resulting from the CO2 tracking along the base of a barrier until then repeating this behavior	context()	negated: False ,passive: True
+0.788	[*A*]the CO2[*R*]tracking	context()	negated: False ,passive: False
+0.773	[*A*]its behavior[*R*]would have been[*A*]more akin to a ' zig - zag ' distribution with lateral offsets[*A*]resulting from the CO2 tracking along the base of a barrier until encountering a hole	context()	negated: False ,passive: True
+0.877	[*A*]the laterally extensive shales[*R*]had acted as seals preventing[*A*]the vertical migration of CO2	context(the laterally extensive shales had acted)	negated: False ,passive: False
+0.900	[*A*]the laterally extensive shales[*R*]had acted[*A*]as seals	context()	negated: False ,passive: False
+0.903	[*A*]the plume[*R*]would have taken[*A*]much longer[*A*]to breakthrough	context()	negated: False ,passive: False
+[LINE#289] Mass balance estimatesAddressing the mass balance question first,available areal mapping of the plume layers derived from time-lapse seismic reflection survey images (Bickle et al., 2007) are combined with layer-thickness estimates (Chadwick et al., 2009) to build a three-dimensional representation of the CO2 plume (Fig. 1).
+[LINE#290]The approach assumes a flat gas-water contact for the plume layers, which implies that each layer has backfilled the trap as a gravitationally ponding fluid.
+0.878	[*A*]each layer[*R*]has backfilled[*A*]the trap[*A*]as a gravitationally ponding fluid	context(the plume layers implies)	negated: False ,passive: False
+0.796	[*A*]the plume layers[*R*]implies[*A*]that each layer has backfilled the trap as a gravitationally ponding fluid	context()	negated: False ,passive: False
+0.937	[*A*]The approach[*R*]assumes[*A*]a flat gas-water contact for the plume layers	context()	negated: False ,passive: False
+[LINE#291] The model provides an insight into the volumetric relationship between layer thickness and mass balance.
+0.937	[*A*]The model[*R*]provides[*A*]an insight into the volumetric relationship between layer thickness and mass balance	context()	negated: False ,passive: False
+[LINE#292] Recent published estimates of volume and mass balance appear to have been primarily hampered by uncertainty in layer thickness and plume density.
+0.883	[*A*]Recent published estimates of mass balance[*R*]to have been hampered[*A*]by uncertainty in layer plume density	context()	negated: False ,passive: True
+0.883	[*A*]Recent published estimates of mass balance[*R*]to have been hampered[*A*]by uncertainty in layer thickness	context()	negated: False ,passive: True
+0.801	[*A*]Recent published estimates of mass balance[*R*]appear	context()	negated: False ,passive: False
+0.873	[*A*]Recent published estimates of volume[*R*]to have been hampered[*A*]by uncertainty in layer plume density	context()	negated: False ,passive: True
+0.873	[*A*]Recent published estimates of volume[*R*]to have been hampered[*A*]by uncertainty in layer thickness	context()	negated: False ,passive: True
+0.785	[*A*]Recent published estimates of volume[*R*]appear	context()	negated: False ,passive: False
+[LINE#293]For the uppermost layer, circa 2002, thickness estimates vary from 4 to 7m (Chadwick et al., 2005; Bickle et al., 2007).
+0.903	[*A*]thickness estimates[*R*]vary[*A*]from 4[*A*]to 7m	context()	negated: False ,passive: True
+[LINE#294]The CO2 layers circa 2006 have recently been estimated as 10m thick (Lippard et al., 2008; Chadwick et al., 2009).
+0.683	[*A*]2006[*R*]have been estimated[*A*]as 10m thick (Lippard et al., 2008; Chadwick et al., 2009[*A*]recently	context(The CO2 layers circa)	negated: False ,passive: True
+0.956	[*A*]The CO2 layers[*R*]circa[*A*]2006 have recently been estimated as 10m thick (Lippard et al., 2008; Chadwick et al., 2009	context()	negated: False ,passive: False
+[LINE#295] Both these estimates are thinner than the limit of phenomena resolvable by conventional seismic reflection surveys at this depth.
+0.943	[*A*]Both these estimates[*R*]are[*A*]thinner than the limit of phenomena resolvable by conventional seismic reflection surveys at this depth	context()	negated: False ,passive: True
+[LINE#296]A case has been made for amplitude tuning of the Sleipner seismic to produce greater precision (Chadwick et al., 2006); however, the sensitivity of this seismic interpretation technique is such that the amplitude does not discriminate between layers more than 4m thick and less than 15m thick.
+0.878	[*A*]A case[*R*]has been made[*A*]to produce greater precision (Chadwick et al	context(the sensitivity of this seismic interpretation technique is)	negated: False ,passive: True
+0.900	[*A*]the sensitivity of this seismic interpretation technique[*R*]is[*A*]such that the amplitude does not discriminate between layers more than 4m thick and less than 15m thick	context()	negated: False ,passive: True
+0.937	[*A*]the amplitude[*R*]does not discriminate[*A*]between layers more than 4m thick and less than 15m thick	context()	negated: True ,passive: False
+[LINE#297]Furthermore, the thin shale barriers within the aquifer are unresolvable on the baseline 1994 seismic (Arts et al., 2004) making tuning even more difficult.
+0.948	[*A*]the thin shale barriers within the aquifer[*R*]are[*A*]unresolvable[*A*]on the baseline 1994 seismic (Arts et al	context()	negated: False ,passive: True
+[LINE#298] Published estimates of the CO2 volume in the top layer(110,000m3 from amplitude analysis, and 165,000m3 from structure) differ by 150% for the same seismic survey (Chadwick et al., 2009).
+0.951	[*A*]Published estimates of the CO2 volume in 165,000m3 from structure[*R*]differ[*A*]for the same seismic survey	context()	negated: False ,passive: True
+0.951	[*A*]Published estimates of the CO2 volume in the top layer[*R*]differ[*A*]for the same seismic survey	context()	negated: False ,passive: True
+[LINE#299]Although structure estimates are considered to be more reliable than amplitude (Chadwick et al., 2008), there is no method to discriminate between them.
+0.887	[*A*]structure estimates[*R*]to be[*A*]more reliable than amplitude	context()	negated: False ,passive: True
+[LINE#300]An additional uncertainty arises from saturation profiling, which discerns between pores filled with brine and pores filled with CO2 above a poorly constrained level of saturation (Arts et al., 2004).
+0.925	[*A*]brine and pores[*R*]filled[*A*]with CO2[*A*]above a poorly constrained level of saturation	context()	negated: False ,passive: True
+0.894	[*A*]pores[*R*]filled[*A*]with brine and pores	context()	negated: False ,passive: True
+0.887	[*A*]saturation profiling[*R*]discerns[*A*]between pores	context()	negated: False ,passive: False
+0.904	[*A*]Arts[*R*]et[*A*]al	context()	negated: False ,passive: False
+[LINE#301]It follows from the commonly used Gassmann equation (Gassmann, 1951) that: (a) very low saturations of less than a few percent are undetectable; (b) a strong correlation emerges as the gas saturation increases from a few percent to around thirty percent; and (c) for saturations much above thirty percent, it is difficult to distinguish between moderate and high saturations.
+0.838	[*A*]very low saturations of less than a few percent[*R*]are[*A*]undetectable	context(a strong correlation emerges)	negated: False ,passive: True
+0.929	[*A*]a strong correlation[*R*]emerges[*A*]as the gas saturation increases from a few percent to around thirty percent	context()	negated: False ,passive: False
+0.498	[*A*]It[*R*]follows[*A*]from the commonly used Gassmann equation	context()	negated: False ,passive: True
+[LINE#302]It follows that the 80% gas saturation that is commonly assumed for the Sleipner plume, while reasonable (Chadwick et al., 2005; Bickle et al., 2007), remains uncertain (Lumley, 2008).
+0.162	[*A*]It[*R*]follows	context()	negated: False ,passive: False
+0.892	[*A*]the 80% gas saturation[*R*]is assumed[*A*]for the Sleipner plume	context()	negated: False ,passive: True
+[LINE#303]If the 80% assumption represents a reasonable upper limit to the mean saturation for the plume, the lower limit could be as low as 40%, halving mass balance estimates premised on the widely assumed high-saturation value.
+0.911	[*A*]mass balance estimates[*R*]premised[*A*]on the widely assumed high-saturation value	context()	negated: False ,passive: True
+0.911	[*A*]the lower limit[*R*]could be[*A*]as low as 40%[*A*]halving mass balance estimates	context()	negated: False ,passive: True
+0.948	[*A*]the 80% assumption[*R*]represents[*A*]a reasonable upper limit to the mean saturation for the plume	context()	negated: False ,passive: False
+[LINE#304]Finally, the liminal pressure and temperature conditions of the plume with respect to the critical point of CO2 (31C and 7.4MPa) compound the uncertainty.
+0.978	[*A*]the liminal pressure with respect to the critical point of CO2[*R*]compound[*A*]the uncertainty[*A*]Finally	context()	negated: False ,passive: False
+[LINE#305]The ambient temperature at the injection depth is reasonably well constrained at 411C (Bickle et al., 2007); however, the temperature at the top of the plume is much more poorly constrained at around 343C (Singh et al., 2010).
+0.949	[*A*]The ambient temperature at the injection depth[*R*]is[*A*]reasonably well constrained at 411C (Bickle et al	context(the temperature at the top of the plume is)	negated: False ,passive: True
+0.970	[*A*]the temperature at the top of the plume[*R*]is[*A*]much more poorly constrained at around 343C (Singh et al., 2010	context()	negated: False ,passive: True
+0.964	[*A*]the temperature at the top of the plume[*R*]much more poorly constrained[*A*]at around 343C (Singh et al., 2010	context()	negated: False ,passive: True
+0.939	[*A*]The ambient temperature at the injection depth[*R*]reasonably well constrained[*A*]at 411C (Bickle et al	context()	negated: False ,passive: True
+[LINE#306] This results in a potential density range for CO2 in the uppermost layer of 300-700kg/m3; a mid-range scenario is assumed, with a temperature of 35C at the caprock and a linear geothermal gradient to the injection depth at 41C for the flow simulations that follow (orange diamonds, Fig..
+0.897	[*A*]the flow simulations[*R*]follow[*A*]orange diamonds , Fig	context()	negated: False ,passive: False
+0.487	[*A*]This[*R*]results[*A*]in a potential density range for CO2 in the uppermost layer of 300-700kg / m3	context(a mid-range scenario is assumed)	negated: False ,passive: True
+0.707	[*A*]a mid-range scenario[*R*]is assumed	context()	negated: False ,passive: False
+[LINE#307] However, a brief consideration of different thickness and density scenarios (assuming 80% saturation) with respect to the solution space for mass balance (gray area, Fig.2b) suggests that a cold high-density plume requires an upper layer that is at least 8-9m thick, circa July 2002 and 5Mt injected; while a hot low-density plume exceeds a mass balance with layers that are greater than 13m thick.
+0.882	[*A*]a cold high - density plume[*R*]requires[*A*]an upper layer that is at least 8-9 m thick 5Mt injected ;	context(a brief consideration of density scenarios ( assuming 80 % saturation ) with respect to the solution space for mass balance suggests)	negated: False ,passive: False
+0.957	[*A*]a brief consideration of density scenarios ( assuming 80 % saturation ) with respect to the solution space for mass balance[*R*]suggests[*A*]that a cold high - density plume requires an upper layer	context()	negated: False ,passive: False
+0.861	[*A*]a cold high - density plume[*R*]requires[*A*]an upper layer that is at least 8-9 m thick	context(a brief consideration of density scenarios ( assuming 80 % saturation ) with respect to the solution space for mass balance suggests)	negated: False ,passive: False
+0.964	[*A*]a brief consideration of density scenarios ( assuming 80 % saturation ) with respect to the solution space for mass balance[*R*]suggests[*A*]that a cold high - density plume requires an upper layer that is at least 8-9 m thick , circa July 2002 injected ;	context()	negated: False ,passive: False
+0.973	[*A*]an upper layer that is at least 8-9 m thick[*R*]injected[*A*]5Mt	context()	negated: False ,passive: True
+0.882	[*A*]a cold high - density plume[*R*]requires[*A*]an upper layer that is at least 8-9 m thick 5Mt injected ;	context(a brief consideration of different thickness with respect to the solution space for mass balance suggests)	negated: False ,passive: False
+0.926	[*A*]a brief consideration of different thickness with respect to the solution space for mass balance[*R*]suggests[*A*]that a cold high - density plume requires an upper layer	context()	negated: False ,passive: False
+0.932	[*A*]a hot low - density plume[*R*]exceeds[*A*]a mass balance with layers	context()	negated: False ,passive: False
+0.803	[*A*]circa July 2002[*R*]injected	context()	negated: False ,passive: False
+0.920	[*A*]an upper layer[*R*]is[*A*]at least 8-9 m thick	context()	negated: False ,passive: True
+0.877	[*A*]layers[*R*]are[*A*]greater than 13 m thick	context()	negated: False ,passive: True
+0.861	[*A*]a cold high - density plume[*R*]requires[*A*]an upper layer that is at least 8-9 m thick	context(a brief consideration of different thickness with respect to the solution space for mass balance suggests)	negated: False ,passive: False
+0.938	[*A*]a brief consideration of different thickness with respect to the solution space for mass balance[*R*]suggests[*A*]that a cold high - density plume requires an upper layer that is at least 8-9 m thick , circa July 2002 injected ;	context()	negated: False ,passive: False
+[LINE#308] The uppermost layer thickness necessary for a mass balance, circa July 2002 and5Mt injected, lies in the range 8-13m.
+0.939	[*A*]The uppermost layer thickness necessary for a mass balance[*R*]lies[*A*]in the range	context()	negated: False ,passive: True
+0.818	[*A*]circa July 2002 and5Mt[*R*]injected	context()	negated: False ,passive: False
+[LINE#309]Consequently, these compounded uncertainties in mass balance (layer thickness, gas saturation and gas density) are highly sensitive to small changes in assumptions that are unresolvable by remote geophysical monitoring given the broadly constrained fields of pressure, temperature and saturation.
+0.905	[*A*]small changes in assumptions[*R*]given[*A*]the broadly constrained fields of temperature	context()	negated: False ,passive: True
+0.934	[*A*]these compounded uncertainties in mass balance gas density[*R*]are[*A*]highly sensitive to small changes in assumptions	context()	negated: False ,passive: True
+0.934	[*A*]these compounded uncertainties in mass balance gas saturation[*R*]are[*A*]highly sensitive to small changes in assumptions	context()	negated: False ,passive: True
+0.877	[*A*]assumptions[*R*]are[*A*]unresolvable by remote geophysical monitoring	context()	negated: False ,passive: True
+0.921	[*A*]these compounded uncertainties in mass balance[*R*]are[*A*]highly sensitive to small changes in assumptions	context()	negated: False ,passive: True
+[LINE#310]Although an accurate mass balance estimate would be desirable to confirm site integrity with respect to the present-day caprock behavior, this aspect of Sleipner is likely to remain elusive due to the uncertainties inherent in remote geophysical monitoring of gas plumes.
+0.820	[*A*]this aspect of Sleipner[*R*]to remain[*A*]elusive	context()	negated: False ,passive: True
+0.970	[*A*]this aspect of Sleipner[*R*]is[*A*]likely to remain elusive due to the uncertainties inherent in remote geophysical monitoring of gas plumes	context()	negated: False ,passive: True
+0.814	[*A*]an accurate mass balance estimate[*R*]would be[*A*]desirable	context()	negated: False ,passive: True

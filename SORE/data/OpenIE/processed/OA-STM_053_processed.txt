@@ -1,0 +1,692 @@
+[LINE#1]Multiple respiratory chain deficiencies represent a common cause of mitochondrial diseases and are associated with a wide range of clinical symptoms.
+0.911	[*A*]Multiple respiratory chain[*R*]are associated[*A*]with a wide range of clinical symptoms	context()	negated: False ,passive: True
+0.919	[*A*]Multiple respiratory chain deficiencies[*R*]represent[*A*]a common cause of mitochondrial diseases	context()	negated: False ,passive: False
+[LINE#2]We report a subject, born to consanguineous parents, with growth retardation and neurological deterioration.
+0.569	[*A*]We[*R*]report[*A*]a subject , born to consanguineous parents , with neurological deterioration	context()	negated: False ,passive: False
+0.913	[*A*]a subject[*R*]born[*A*]to consanguineous parents	context()	negated: False ,passive: True
+0.569	[*A*]We[*R*]report[*A*]a subject , born to consanguineous parents , with growth retardation	context()	negated: False ,passive: False
+[LINE#3] Multiple respiratory chain deficiency was found in muscle and fibroblasts of the subject as well as abnormal assembly of complexes.
+0.919	[*A*]Multiple respiratory chain deficiency[*R*]was found[*A*]in abnormal assembly of complexes	context()	negated: False ,passive: True
+0.919	[*A*]Multiple respiratory chain deficiency[*R*]was found[*A*]in fibroblasts of complexes	context()	negated: False ,passive: True
+0.919	[*A*]Multiple respiratory chain deficiency[*R*]was found[*A*]in muscle of complexes	context()	negated: False ,passive: True
+[LINE#4]A microsatellite genotyping of the family members detected only one region of homozygosity on chromosome 17q24.2-q25.3 in which we focused our attention to genes involved in mitochondrial translation.
+0.894	[*A*]genes[*R*]involved[*A*]in mitochondrial translation	context()	negated: False ,passive: True
+0.444	[*A*]we[*R*]focused[*A*]our attention[*A*]to genes[*A*]chromosome 17q24.2-q25.3	context()	negated: False ,passive: False
+0.938	[*A*]A microsatellite genotyping of the family members[*R*]detected[*A*]only one region of homozygosity	context()	negated: False ,passive: False
+[LINE#5]We sequenced MRPL12, encoding the mitochondrial ribosomal protein L12 and identified a c.542C>T transition in exon 5 changing a highly conserved alanine into a valine (p.Ala181Val).
+0.498	[*A*]We[*R*]identified[*A*]a c.542C > T transition in exon 5	context()	negated: False ,passive: False
+0.293	[*A*]We[*R*]sequenced MRPL12 encoding[*A*]the mitochondrial ribosomal protein L12	context(We sequenced)	negated: False ,passive: False
+0.433	[*A*]We[*R*]sequenced[*A*]MRPL12[*A*]encoding the mitochondrial ribosomal protein L12	context()	negated: False ,passive: False
+[LINE#6]This mutation resulted in a decreased steady-state level of MRPL12 protein, with altered integration into the large ribosomal subunit.
+0.947	[*A*]This mutation[*R*]resulted[*A*]in a decreased steady-state level of MRPL12 protein	context()	negated: False ,passive: True
+[LINE#7]Moreover, an overall mitochondrial translation defect was observed in the subject's fibroblasts with a significant reduction of synthesis of COXI, COXII and COXIII subunits.
+0.926	[*A*]an overall mitochondrial translation defect[*R*]was observed[*A*]in the subject 's fibroblasts	context()	negated: False ,passive: True
+[LINE#8]Modeling of MRPL12 shows Ala181 positioned in a helix potentially involved in an interface of interaction suggesting that the p.
+0.909	[*A*]Modeling of MRPL12 shows[*R*]positioned[*A*]in a helix	context()	negated: False ,passive: True
+0.887	[*A*]a helix[*R*]involved[*A*]in an interface of interaction	context()	negated: False ,passive: True
+[LINE#9]Ala181Val change might be predicted to alter interactions with the elongation factors.
+0.732	[*A*]Ala181Val change[*R*]might be predicted	context()	negated: False ,passive: False
+[LINE#10]These results contrast with the eubacterial orthologues of human MRPL12, where L7/L12 proteins do not appear to have a selective effect on translation.
+0.928	[*A*]L7/L12 proteins[*R*]to have[*A*]a selective effect on translation	context()	negated: False ,passive: False
+0.818	[*A*]L7/L12 proteins[*R*]do not appear	context()	negated: True ,passive: False
+0.918	[*A*]These results[*R*]contrast[*A*]with the eubacterial orthologues of human MRPL12	context()	negated: False ,passive: True
+[LINE#11]Therefore, analysis of the mutated version found in the subject presented here suggests that the mammalian protein does not function in an entirely analogous manner to the eubacterial L7/L12 equivalent.
+0.888	[*A*]the mammalian protein[*R*]does not function[*A*]to the eubacterial L7/L12 equivalent	context(analysis of the mutated version suggests)	negated: True ,passive: False
+0.851	[*A*]analysis of the mutated version[*R*]suggests[*A*]that the mammalian protein does not function in an entirely analogous manner to the eubacterial L7/L12 equivalent	context()	negated: False ,passive: False
+0.767	[*A*]the subject[*R*]presented[*A*]here	context()	negated: False ,passive: True
+0.911	[*A*]the mutated version[*R*]found[*A*]in the subject	context()	negated: False ,passive: True
+[LINE#12]The mitochondrial machinery responsible for oxidative phosphorylation (OXPHOS) comprises five enzyme complexes containing approximately 80 proteins of which only 13 are encoded by the mitochondrial genome (mtDNA) [1].
+0.615	[*A*]of which only 13[*R*]are encoded[*A*]by the mitochondrial genome	context()	negated: False ,passive: True
+0.952	[*A*]five enzyme complexes[*R*]containing[*A*]approximately 80 proteins of which only 13 are encoded by the mitochondrial genome (mtDNA) [1]	context()	negated: False ,passive: False
+[LINE#13]OXPHOS deficiencies affecting a single or multiple complexes can result from mutations in either mitochondrial or nuclear genes and are associated with a variety of disease mechanisms [2,3].
+0.846	[*A*]OXPHOS deficiencies[*R*]are associated[*A*]with a variety of disease mechanisms	context()	negated: False ,passive: True
+0.867	[*A*]OXPHOS deficiencies[*R*]affecting[*A*]a single or multiple complexes	context()	negated: False ,passive: False
+[LINE#14]With the advent of Next Generation Sequencing there is an increasing number of pathogenic mutations being identified that are not solely restricted to the 80 genes encoding OXPHOS components, thus highlighting the importance of mechanisms impacting on mitochondrial gene expression [4,5].
+0.925	[*A*]the 80 genes[*R*]encoding[*A*]OXPHOS components	context()	negated: False ,passive: False
+0.894	[*A*]mechanisms[*R*]impacting[*A*]on mitochondrial gene expression	context()	negated: False ,passive: False
+[LINE#15]Combined OXPHOS deficiencies can arise from alterations in mtDNA, its maintenance [6], cardiolipin levels [7,8], or where none of these are affected, from direct defects in synthesis of mitochondrially encoded proteins [9].
+0.751	[*A*]none of these[*R*]are affected	context()	negated: False ,passive: False
+0.896	[*A*]Combined OXPHOS deficiencies[*R*]can arise[*A*]from alterations in mtDNA	context()	negated: False ,passive: True
+[LINE#16]This last group constitutes a heterogeneous mix of patients suffering from a wide range of clinical symptoms making clinical diagnosis difficult [10].
+0.903	[*A*]clinical symptoms[*R*]making[*A*]clinical diagnosis difficult [10	context()	negated: False ,passive: False
+0.894	[*A*]patients[*R*]suffering[*A*]from a wide range of clinical symptoms	context()	negated: False ,passive: False
+0.911	[*A*]This last group[*R*]constitutes[*A*]a heterogeneous mix of patients	context()	negated: False ,passive: False
+[LINE#17]Genetic diagnosis is yet more elusive in children with mitochondrial disease where unidentified nuclear mutations account for the majority of cases [11].
+0.948	[*A*]unidentified nuclear mutations[*R*]account[*A*]for the majority of cases[*A*]mitochondrial disease	context()	negated: False ,passive: False
+0.925	[*A*]Genetic diagnosis[*R*]is[*A*]yet more elusive in children with mitochondrial disease	context()	negated: False ,passive: True
+[LINE#18]This diagnostic problem is compounded by our relatively poor understanding of the complex molecular machinery that drives translation in mitochondria.
+0.905	[*A*]the complex molecular machinery[*R*]drives[*A*]translation[*A*]in mitochondria	context()	negated: False ,passive: False
+0.899	[*A*]This diagnostic problem[*R*]is compounded[*A*]by our relatively poor understanding of the complex molecular machinery	context()	negated: False ,passive: True
+[LINE#19]This machinery comprises over a hundred proteins [12], all of which are putative candidate genes for translation deficiencies in human.
+0.905	[*A*]over a hundred proteins[*R*]are[*A*]putative candidate genes for translation deficiencies in human	context()	negated: False ,passive: True
+[LINE#20]Indeed, translation deficiencies represent a growing cause of multiple OXPHOS deficiencies with several published pathogenic mutations in genes related to the intra-organellar protein synthesis.
+0.894	[*A*]genes[*R*]related[*A*]to the intra-organellar protein synthesis	context()	negated: False ,passive: True
+0.947	[*A*]translation deficiencies[*R*]represent[*A*]a growing cause of multiple OXPHOS deficiencies with several published pathogenic mutations in genes	context()	negated: False ,passive: False
+[LINE#21] Although many mutations associated with impaired mitochondrial translation currently map to tRNA genes [13] and a few ribosomal RNA (rRNA) [14], the list of nuclear gene mutations is steadily growing as mutations in genes encoding mitochondrial translation factors such as GFM1 (OMIM: 606639) [18]; mitochondrial aminoacyl-tRNA synthetases (RARS2 (OMIM: 611524) [27]; tRNA-modifying enzymes (PUS1 (OMIM: 608109) [28], TRMU (OMIM: 610230)[30]); other factors (C12orf65 (OMIM: 613541) [31], TACO1 (OMIM: 612958) [32], LRPPRC (OMIM: 607544) [33], C12orf62 (OMIM: 614478) [34]) and mitochondrial ribosomal proteins (MRPS16 (OMIM: 609204) [35], MRPS22 (OMIM: 605810) [36], MRPL3 (OMIM: 607118) [5]) have been successively reported (reviewed in Ref.
+0.973	[*A*]many mutations associated with impaired mitochondrial translation[*R*]map[*A*]to tRNA[*A*]currently	context()	negated: False ,passive: False
+0.770	[*A*]mitochondrial aminoacyl - tRNA synthetases[*R*]have been successively reported	context()	negated: False ,passive: False
+0.849	[*A*]13 ] ; mitochondrial aminoacyl - tRNA synthetases[*R*]have been successively reported	context()	negated: False ,passive: False
+0.973	[*A*]many mutations associated with impaired mitochondrial translation[*R*]map[*A*]to tRNA genes[*A*]currently	context()	negated: False ,passive: False
+0.888	[*A*]other factors[*R*]have been successively reported[*A*]reviewed in Ref	context()	negated: False ,passive: True
+0.973	[*A*]many mutations associated with impaired mitochondrial translation[*R*]map[*A*]13 ] ; mitochondrial aminoacyl - tRNA synthetases[*A*]currently	context()	negated: False ,passive: False
+0.903	[*A*]many mutations[*R*]associated[*A*]with impaired mitochondrial translation	context()	negated: False ,passive: True
+[LINE#22]Relatively few cases of OXPHOS deficiencies associated with mutations in mitochondrial ribosomal proteins (MRPs) have been described so far.
+0.740	[*A*]Relatively few cases of OXPHOS deficiencies[*R*]have been described[*A*]so far	context()	negated: False ,passive: True
+0.867	[*A*]OXPHOS deficiencies[*R*]associated[*A*]with mutations in mitochondrial ribosomal proteins	context()	negated: False ,passive: True
+[LINE#23]MRPS16 mutations have been described in only one family with agenesis of corpus callosum and dysmorphism.
+0.992	[*A*]mrps16 mutations[*R*]have been described with[*A*]agenesis of corpus dysmorphism	context()	negated: False ,passive: False
+0.903	[*A*]MRPS16 mutations[*R*]have been described[*A*]in only one family[*A*]with agenesis of corpus dysmorphism	context()	negated: False ,passive: True
+0.992	[*A*]mrps16 mutations[*R*]have been described with[*A*]agenesis of corpus callosum	context()	negated: False ,passive: False
+0.903	[*A*]MRPS16 mutations[*R*]have been described[*A*]in only one family[*A*]with agenesis of corpus callosum	context()	negated: False ,passive: True
+[LINE#24]MRPS22 mutations lead to cardiomyopathy, hypotonia and tubulopathy in a first family and Cornelia de Lange-like dysmorphic features, brain abnormalities and hypertrophic cardiomyopathy in another family.
+0.947	[*A*]MRPS22 mutations[*R*]lead[*A*]to tubulopathy in Cornelia de Lange - like dysmorphic features in another family	context()	negated: False ,passive: False
+0.903	[*A*]MRPS22 mutations[*R*]lead[*A*]to tubulopathy	context()	negated: False ,passive: False
+0.947	[*A*]MRPS22 mutations[*R*]lead[*A*]to hypotonia in Cornelia de Lange - like dysmorphic features in another family	context()	negated: False ,passive: False
+0.903	[*A*]MRPS22 mutations[*R*]lead[*A*]to hypotonia	context()	negated: False ,passive: False
+0.947	[*A*]MRPS22 mutations[*R*]lead[*A*]to cardiomyopathy in Cornelia de Lange - like dysmorphic features in another family	context()	negated: False ,passive: False
+0.903	[*A*]MRPS22 mutations[*R*]lead[*A*]to cardiomyopathy	context()	negated: False ,passive: False
+[LINE#25]Finally, we recently identified MRPL3 mutations in four siblings of the same family presenting cardiomyopathy and psychomotor retardation.
+0.911	[*A*]the same family[*R*]presenting[*A*]psychomotor retardation	context()	negated: False ,passive: False
+0.259	[*A*]we[*R*]identified MRPL3 mutations presenting[*A*]cardiomyopathy	context(we identified)	negated: False ,passive: False
+0.535	[*A*]we[*R*]identified[*A*]MRPL3 mutations[*A*]Finally[*A*]recently	context()	negated: False ,passive: False
+[LINE#26] Since the mammalian mitoribosome (55S) is ~2megadalton machine consisting of approximately 80 components that make up the 28S small (SSU) and 39S large subunit(LSU), it is likely that more pathogenic mutations in the constituent polypeptides will be uncovered.
+0.816	[*A*]more pathogenic mutations in the constituent polypeptides[*R*]will be uncovered	context()	negated: False ,passive: False
+0.390	[*A*]it[*R*]is[*A*]likely that more pathogenic mutations in the constituent polypeptides will be uncovered	context()	negated: False ,passive: True
+0.944	[*A*]approximately 80 components[*R*]make up[*A*]the 28S small (SSU) and 39S large subunit	context()	negated: False ,passive: False
+0.903	[*A*]~2megadalton machine[*R*]consisting[*A*]of approximately 80 components	context()	negated: False ,passive: True
+0.920	[*A*]the mammalian mitoribosome[*R*]is[*A*]~2megadalton machine consisting of approximately 80 components	context()	negated: False ,passive: True
+[LINE#27] One of the substantial differences between the mammalian mitoribosome and those of eubacteria (70S) or the eukaryotic cytosol(80S) is the reversal in the protein to rRNA ratio.
+0.987	[*A*]One of the substantial differences between the mammalian mitoribosome and those of eubacteria (70S) or the eukaryotic cytosol[*R*]is[*A*]the reversal in the protein to rRNA ratio	context()	negated: False ,passive: True
+[LINE#28]The 70S and 80S particles contain ~70% rRNA, whilst human mitoribosomes contain ~70% protein.
+0.903	[*A*]human mitoribosomes[*R*]contain[*A*]~70% protein	context()	negated: False ,passive: False
+0.938	[*A*]The 70S and 80S particles[*R*]contain[*A*]~70%[*A*]whilst human mitoribosomes contain ~70% protein	context()	negated: False ,passive: False
+[LINE#29]This change in the ratio represents both an acquisition of new MRPs as well as loss of bacterial orthologues [37,38].
+0.926	[*A*]This change in the ratio[*R*]represents[*A*]loss of bacterial orthologues	context()	negated: False ,passive: False
+0.937	[*A*]This change in the ratio[*R*]represents[*A*]both an acquisition of new MRPs	context()	negated: False ,passive: False
+[LINE#30] MRPL12 does have a bacterial orthologue, which through its interactions with translation factors is important in protein synthesis regulating both speed and accuracywe investigate the genetic basis of disease in a subject born to consanguineous parents, who initially presented with growth retardation and then neurological distress, with evidence of compromised mitochondrial protein synthesis.
+0.784	[*A*]a subject[*R*]born	context()	negated: False ,passive: False
+0.958	[*A*]consanguineous parents[*R*]presented[*A*]with growth retardation , with evidence of compromised mitochondrial protein synthesis[*A*]initially	context()	negated: False ,passive: False
+0.925	[*A*]a subject[*R*]born[*A*]to consanguineous parents	context()	negated: False ,passive: True
+0.897	[*A*]a bacterial orthologue[*R*]accuracywe investigate[*A*]the genetic basis of disease in a subject	context()	negated: False ,passive: False
+0.909	[*A*]MRPL12[*R*]does have[*A*]a bacterial orthologue , which through its interactions accuracywe investigate the genetic basis of disease in a subject	context()	negated: False ,passive: False
+0.903	[*A*]protein synthesis[*R*]regulating[*A*]both speed	context()	negated: False ,passive: False
+0.920	[*A*]a bacterial orthologue[*R*]is[*A*]important in protein synthesis	context()	negated: False ,passive: True
+0.909	[*A*]MRPL12[*R*]does have[*A*]a bacterial orthologue , which through its interactions with translation factors is important in protein synthesis	context()	negated: False ,passive: False
+[LINE#31]We have identified the causative mutation to be in MRPL12, encoding a protein of the large subunit of mitochondrial ribosome.
+0.293	[*A*]We[*R*]have identified the causative mutation encoding[*A*]a protein of the large subunit of mitochondrial ribosome	context(We have identified)	negated: False ,passive: False
+0.504	[*A*]We[*R*]have identified[*A*]the causative mutation[*A*]encoding a protein of the large subunit of mitochondrial ribosome	context()	negated: False ,passive: False
+0.456	[*A*]We[*R*]to be[*A*]in MRPL12	context()	negated: False ,passive: True
+[LINE#32]This is an important finding indicating that the function and consequence of dysfunction cannot automatically be extrapolated from an apparent orthologue.
+0.891	[*A*]consequence of dysfunction[*R*]can not automatically be extrapolated[*A*]from an apparent orthologue	context(an important finding indicating)	negated: True ,passive: True
+0.828	[*A*]an important finding[*R*]indicating[*A*]that consequence of dysfunction can not automatically be extrapolated from an apparent orthologue	context()	negated: False ,passive: False
+0.323	[*A*]This[*R*]is[*A*]an important finding indicating that consequence of dysfunction can not automatically be extrapolated from an apparent orthologue	context()	negated: False ,passive: True
+0.882	[*A*]the function[*R*]can not automatically be extrapolated[*A*]from an apparent orthologue	context(an important finding indicating)	negated: True ,passive: True
+0.828	[*A*]an important finding[*R*]indicating[*A*]that the function can not automatically be extrapolated from an apparent orthologue	context()	negated: False ,passive: False
+0.323	[*A*]This[*R*]is[*A*]an important finding indicating that the function can not automatically be extrapolated from an apparent orthologue	context()	negated: False ,passive: True
+[LINE#33]We show that proteins involved in mitochondrial translation, even close orthologues as submitted here, can defy predictions.
+0.894	[*A*]proteins involved in mitochondrial translation[*R*]can defy[*A*]predictions	context(We show)	negated: False ,passive: False
+0.339	[*A*]We[*R*]show[*A*]that proteins involved in mitochondrial translation, even close orthologues as submitted here, can defy predictions	context()	negated: False ,passive: False
+0.894	[*A*]proteins[*R*]involved[*A*]in mitochondrial translation	context()	negated: False ,passive: True
+[LINE#34]Moreover, mutations in such genes that should affect all mitochondrially encoded gene products can exert respiratory chain complex specific defects.
+0.905	[*A*]mutations in such genes[*R*]can exert[*A*]respiratory chain complex specific defects	context()	negated: False ,passive: False
+0.887	[*A*]such genes[*R*]should affect[*A*]all mitochondrially encoded gene products	context()	negated: False ,passive: False
+[LINE#35]Analysis of oxidative phosphorylation activitiesSpectrophotometric assays of respiratory chain and complex V enzymes were carried out as previously described [42].
+0.877	[*A*]Analysis of oxidative phosphorylation activitiesSpectrophotometric assays of complex V enzymes[*R*]were carried out[*A*]as previously described [ 42	context()	negated: False ,passive: True
+0.866	[*A*]Analysis of oxidative phosphorylation activitiesSpectrophotometric assays of respiratory chain[*R*]were carried out[*A*]as previously described [ 42	context()	negated: False ,passive: True
+[LINE#36] Mitochondrial suspension from cultured skin fibroblasts was obtained after suspending 50l of frozen cells in 1ml of mitochondria extraction medium (20mM Tris-HCl (pH 7.2), 250mM sucrose, 2mM EGTA, 40mM KCl, 1mg/ml BSA) supplemented with 0.01% (w/v) digitonin and 10% Percoll (.
+0.788	[*A*]250mM[*R*]sucrose	context()	negated: False ,passive: False
+0.964	[*A*]Mitochondrial suspension from cultured skin fibroblasts[*R*]was obtained[*A*]after suspending 50l of frozen cells in 1ml of mitochondria extraction medium (20mM Tris-HCl (pH 7.2), 250mM sucrose	context()	negated: False ,passive: True
+[LINE#37]After 10min at 4C, the sample was pelleted, washed in extraction medium and pelleted before resuspension in 30l of extraction medium for respiratory chain enzyme measurements. .
+0.931	[*A*]extraction[*R*]pelleted[*A*]before resuspension in 30l of extraction medium for respiratory chain enzyme measurements	context()	negated: False ,passive: True
+0.887	[*A*]the sample[*R*]washed[*A*]in extraction	context()	negated: False ,passive: True
+0.943	[*A*]the sample[*R*]was pelleted[*A*]washed in extraction[*A*]After 10min at 4C	context()	negated: False ,passive: True
+0.887	[*A*]the sample[*R*]washed[*A*]in extraction medium	context()	negated: False ,passive: True
+0.943	[*A*]the sample[*R*]was pelleted[*A*]washed in extraction medium[*A*]After 10min at 4C	context()	negated: False ,passive: True
+[LINE#38]Microsatellite genotyping and mutation screeningA genome-wide search for homozygosity was undertaken with 382 pairs of fluorescent oligonucleotides from the Genescan Linkage Mapping Set, version II (Perkin-Elmer) under conditions recommended by the manufacturer.
+0.993	[*A*]Microsatellite mutation screeningA genome wide search for homozygosity[*R*]was undertaken with[*A*]382 pairs	context()	negated: False ,passive: False
+0.980	[*A*]Microsatellite mutation screeningA genome - wide search for homozygosity[*R*]was undertaken[*A*]with 382 pairs of fluorescent oligonucleotides from the Genescan Linkage Mapping Set , version II ( Perkin-Elmer ) under conditions	context()	negated: False ,passive: True
+0.993	[*A*]Microsatellite genotyping screeningA genome wide search for homozygosity[*R*]was undertaken with[*A*]382 pairs	context()	negated: False ,passive: False
+0.894	[*A*]conditions[*R*]recommended[*A*]by the manufacturer	context()	negated: False ,passive: True
+0.980	[*A*]Microsatellite genotyping screeningA genome - wide search for homozygosity[*R*]was undertaken[*A*]with 382 pairs of fluorescent oligonucleotides from the Genescan Linkage Mapping Set , version II ( Perkin-Elmer ) under conditions	context()	negated: False ,passive: True
+[LINE#39]Amplified fragments were electrophoresed and analyzed with an automatic sequencer (ABI 377).
+0.732	[*A*]Amplified fragments[*R*]were analyzed	context()	negated: False ,passive: False
+0.732	[*A*]Amplified fragments[*R*]were electrophoresed	context()	negated: False ,passive: False
+[LINE#40]The polymorphic markers had an average spacing of 10cM throughout the genome.
+0.932	[*A*]The polymorphic markers[*R*]had[*A*]an average spacing of 10cM throughout the genome	context()	negated: False ,passive: False
+[LINE#41]Genes encoding mitochondrial proteins were selected in Mitocarta [43].
+0.931	[*A*]Genes encoding mitochondrial proteins[*R*]were selected[*A*]in Mitocarta	context()	negated: False ,passive: True
+0.894	[*A*]Genes[*R*]encoding[*A*]mitochondrial proteins	context()	negated: False ,passive: False
+[LINE#42]The exons and exon-intron boundaries of the MRPL12 gene were amplified using specific primers (sequences available on request) with initial denaturation at 96C - 5min, followed by 30 cycles of 96C - 30s, 55C - 30s, 72C - 30s, and a last extension at 72C for 10min.
+0.869	[*A*]exon - intron boundaries of the MRPL12 gene[*R*]were amplified	context()	negated: False ,passive: False
+0.938	[*A*]The exons[*R*]using[*A*]specific primers ( sequences available on request ) with initial denaturation at 96C - 5min , followed by 30 cycles of a last extension at 72C for 10min	context()	negated: False ,passive: False
+0.698	[*A*]specific primers[*R*]followed	context()	negated: False ,passive: False
+0.938	[*A*]The exons[*R*]using[*A*]specific primers ( sequences available on request ) with initial denaturation at 96C - 5min , followed by 30 cycles of 96C - 30 s , 55C - 30 s , 72C - 30 s	context()	negated: False ,passive: False
+0.732	[*A*]The exons[*R*]were amplified	context()	negated: False ,passive: False
+[LINE#43]Amplification products were purified by ExoSapIT (Amersham, Buckinghamshire, UK) and directly sequenced using the PRISM Ready Reaction Sequencing Kit (Perkin-Elmer, Oak Brook, IL) on an automatic sequencer (ABI 3130xl; PE Applied Biosystems, Foster City, CA). .
+0.934	[*A*]Amersham , Buckinghamshire[*R*]directly sequenced using[*A*]the PRISM Ready Reaction Sequencing Kit[*A*]on an automatic sequencer	context()	negated: False ,passive: False
+0.905	[*A*]Amplification products[*R*]using[*A*]the PRISM Ready Reaction Sequencing Kit[*A*]on an automatic sequencer	context()	negated: False ,passive: False
+0.918	[*A*]Amplification products[*R*]were purified[*A*]by ExoSapIT	context()	negated: False ,passive: True
+[LINE#44] Cell cultureHuman skin fibroblasts were cultured in DMEM medium (Dulbecco's modified Eagle's medium, Gibco)supplemented with 10% (v/v) fetal calf serum (FCS), 2mM l-glutamine, 50g/ml uridine, 110g/ml pyruvate, 10,000U/ml penicillin G and 10,000g/ml streptomycin. .
+0.381	[*A*]Gibco )[*R*][is] medium [of][*A*]Eagle	context()	negated: False ,passive: False
+0.937	[*A*]Cell cultureHuman skin fibroblasts[*R*]were[*A*]cultured[*A*]in DMEM medium	context(Dulbecco 's modified Eagle 's medium supplemented)	negated: False ,passive: True
+0.953	[*A*]Dulbecco 's modified Eagle 's medium[*R*]supplemented[*A*]with 10 % ( v / v ) fetal calf serum	context()	negated: False ,passive: False
+[LINE#45]Protein analysisFor blue native-polyacrylamide gel electrophoresis (BN-PAGE), mitochondria and OXPHOS complexes were isolated as described [44].
+0.628	[*A*]OXPHOS complexes[*R*]were isolated[*A*]as described [ 44	context()	negated: False ,passive: True
+0.749	[*A*]mitochondria[*R*]were isolated[*A*]as described [ 44	context()	negated: False ,passive: True
+0.803	[*A*]blue native - polyacrylamide gel electrophoresis[*R*]were isolated[*A*]as described [ 44	context()	negated: False ,passive: True
+0.749	[*A*]Protein[*R*]were isolated[*A*]as described [ 44	context()	negated: False ,passive: True
+[LINE#46]Solubilized OXPHOS proteins (20g) were loaded on a 4-16% (w/v) polyacrylamide non-denaturing gradient gel (Invitrogen).
+[LINE#47]SDS-PAGE analysis was performed on either solubilized mitochondrial proteins (40g) or cell lysate (50g) extracted from cultured skin fibroblasts.
+0.945	[*A*]either solubilized mitochondrial proteins (40g) or cell lysate[*R*]extracted[*A*]from cultured skin fibroblasts	context()	negated: False ,passive: True
+0.927	[*A*]SDS-PAGE analysis[*R*]was performed[*A*]on either solubilized mitochondrial proteins (40g) or cell lysate	context()	negated: False ,passive: True
+[LINE#48]After electrophoresis, gels were transferred to a PVDF membrane (GE-Healthcare) and processed for immunoblotting. .
+0.886	[*A*]gels[*R*]were processed[*A*]for immunoblotting[*A*]After electrophoresis	context()	negated: False ,passive: True
+0.903	[*A*]gels[*R*]were transferred[*A*]to a PVDF membrane[*A*]After electrophoresis	context()	negated: False ,passive: True
+[LINE#49]Metabolic labelling of mitochondrial translation productsIn vitro labeling of mitochondrial translation products was a modification from Chomyn et al.
+0.981	[*A*]Metabolic labelling of mitochondrial translation productsIn vitro labeling of mitochondrial translation products[*R*]was[*A*]a modification from Chomyn et al	context()	negated: False ,passive: True
+[LINE#50]Essentially, cultured skin fibroblasts were preincubated in methionine/cysteine-free DMEM (210min) followed by a 10min in the presence of emetine (100g/ml).
+0.925	[*A*]cultured skin fibroblasts[*R*]were preincubated[*A*]in methionine/cysteine-free DMEM	context()	negated: False ,passive: True
+[LINE#51]express35S protein labelling mix - NEG772002MC, PerkinElmer) was then added for 1h at 37C and chased for 1h.
+0.544	[*A*]express35[*R*]chased[*A*]for 1h	context()	negated: False ,passive: False
+0.993	[*A*]express35 S protein labelling mix - NEG772002MC , PerkinElmer )[*R*]was added for[*A*]1 h	context()	negated: False ,passive: False
+0.952	[*A*]express35 S protein labelling mix - NEG772002MC , PerkinElmer )[*R*]was added[*A*]for 1 h at 37C[*A*]then	context()	negated: False ,passive: True
+0.925	[*A*]express35 S protein[*R*]labelling[*A*]mix - NEG772002MC	context()	negated: False ,passive: False
+[LINE#52]Cells were harvested in cold 1mM EDTA/PBS, washed 3 times in cold PBS and the pellet resuspended in 30l PBS containing 1 EDTA free protease inhibitors (Roche) and 1mM PMSF.
+0.905	[*A*]the pellet[*R*]containing[*A*]1 mM PMSF	context()	negated: False ,passive: False
+0.918	[*A*]the pellet[*R*]resuspended[*A*]in 30l PBS[*A*]containing 1 mM PMSF	context()	negated: False ,passive: True
+0.905	[*A*]the pellet[*R*]containing[*A*]1 EDTA free protease inhibitors	context()	negated: False ,passive: False
+0.918	[*A*]the pellet[*R*]resuspended[*A*]in 30l PBS[*A*]containing 1 EDTA free protease inhibitors	context()	negated: False ,passive: True
+0.807	[*A*]Cells[*R*]were harvested[*A*]in cold 1 mM EDTA / PBS	context(Cells were harvested in cold 1 mM EDTA / PBS washed)	negated: False ,passive: True
+0.920	[*A*]Cells were harvested in cold 1 mM EDTA / PBS[*R*]washed[*A*]3 times in cold PBS	context()	negated: False ,passive: True
+[LINE#53] Samples were treated with 2 dissociation buffer (20% (v/v) glycerol, 4% (w/v) SDS, 250mM Tris-HCl pH 6.8, 100mM DTT) and 12U Benzonasenuclease (Novagen) for 1h and separated on a 15% (w/v) SDS-PAGE.
+0.974	[*A*]12U Benzonasenuclease ( Novagen ) for 1 h[*R*]separated[*A*]on a 15 % ( w / v ) SDS - PAGE	context()	negated: False ,passive: False
+0.993	[*A*]Samples[*R*]were treated for[*A*]1 h	context()	negated: False ,passive: False
+0.931	[*A*]Samples[*R*]were treated[*A*]with 2 dissociation buffer ( 20 % ( v / v ) glycerol	context()	negated: False ,passive: True
+[LINE#54] The gel was fixed overnight (3% (v/v) glycerol, 10% (v/v)acetic acid, 30% (v/v) methanol) and vacuum dried (60C, 2h).
+0.876	[*A*]vacuum[*R*]dried[*A*]60C , 2 h	context()	negated: False ,passive: False
+0.767	[*A*]The gel[*R*]was fixed[*A*]overnight	context()	negated: False ,passive: True
+[LINE#55]Radiolabelled proteins were visualized by PhosphorImage and analyzed with Image-Quant software (Molecular Dynamics, GE Healthcare). .
+0.732	[*A*]Radiolabelled proteins[*R*]were analyzed	context()	negated: False ,passive: False
+0.918	[*A*]Radiolabelled proteins[*R*]were visualized[*A*]by PhosphorImage	context()	negated: False ,passive: True
+[LINE#56] Homology modeling of the human MRPL12 proteinThe three dimensional structure of the human(residues 64 to 198) was modeled by comparative protein modeling and energy minimization, using the Swiss-Model program (http://swissmodel.expasy.org/) in the automated mode.
+0.974	[*A*]Homology modeling of the human MRPL12 proteinThe three dimensional structure of the human ( residues[*R*]was modeled[*A*]by energy minimization[*A*]using the Swiss - Model program ( http://swissmodel.expasy.org/ ) in the automated mode	context()	negated: False ,passive: True
+0.974	[*A*]Homology modeling of the human MRPL12 proteinThe three dimensional structure of the human ( residues[*R*]was modeled[*A*]by comparative protein modeling[*A*]using the Swiss - Model program ( http://swissmodel.expasy.org/ ) in the automated mode	context()	negated: False ,passive: True
+[LINE#57] The 2 coordinate set for the ribosomal protein L12 from Thermotoga maritima(PDB code: 1dd3) was used as a template for modeling the human MRPL12 protein.
+0.973	[*A*]The 2 coordinate set for the ribosomal protein L12 from Thermotoga maritima(PDB code: 1dd3)[*R*]was used[*A*]as a template for modeling the human MRPL12 protein	context()	negated: False ,passive: True
+0.963	[*A*]The 2 coordinate[*R*]set[*A*]for the ribosomal protein L12 from Thermotoga maritima(PDB code	context()	negated: False ,passive: True
+[LINE#58]Swiss-Pdb Viewer 3.7 (http://www.expasy.org/spdbv) was used to analyze the structural insight into MRPL12 mutation and visualize the structures. .
+0.858	[*A*]Swiss - Pdb[*R*]visualize[*A*]the structures	context()	negated: False ,passive: False
+0.879	[*A*]Swiss - Pdb[*R*]to analyze[*A*]the structural insight into MRPL12 mutation	context()	negated: False ,passive: False
+[LINE#59]Cell lysates, Westerns and isokinetic sucrose gradientsCell lysates were prepared from fibroblasts by addition of cold lysis buffer (50mM Tris-HCl pH 7.5, 130mM NaCl, 2mM MgCl2, 1mM PMSF, 1% (v/v) NP-40) to cell pellets, which were vortexed for 30s, centrifuged at 600g for 2min (4C) to remove nuclei and the supernatant retained.
+0.887	[*A*]30s[*R*]centrifuged[*A*]at 600g[*A*]for 2min[*A*]to remove nuclei and the supernatant retained	context()	negated: False ,passive: True
+0.887	[*A*]cell pellets[*R*]were vortexed[*A*]for 30s	context()	negated: False ,passive: True
+0.966	[*A*]Westerns and isokinetic sucrose gradientsCell lysates[*R*]were prepared[*A*]from fibroblasts[*A*]by addition of cold lysis buffer (50mM Tris-HCl pH 7.5, 130mM NaCl, 2mM MgCl2, 1mM PMSF, 1% (v/v) NP-40) to cell pellets	context(Cell lysates)	negated: False ,passive: True
+0.884	[*A*]Cell[*R*]lysates[*A*]Westerns and isokinetic sucrose gradientsCell lysates were prepared from fibroblasts by addition of cold lysis buffer (50mM Tris-HCl pH 7.5, 130mM NaCl, 2mM MgCl2, 1mM PMSF, 1% (v/v) NP-40) to cell pellets	context()	negated: False ,passive: False
+[LINE#60]These were used for standard westerns as described [46].
+0.544	[*A*]These[*R*]were used[*A*]for standard westerns[*A*]as described [46	context()	negated: False ,passive: True
+[LINE#61]Mitochondria were prepared as above and lyzed in 50mM Tris-HCl pH 7.4, 150mM NaCl, 1mM EDTA, 1% Triton X-100, protease inhibitor mix (EDTA free, Roche), 1mM PMSF, 10mM MgCl2.
+0.771	[*A*]Mitochondria[*R*]were prepared	context()	negated: False ,passive: False
+[LINE#62] Mitochondrial lysates (0.3mg) were loaded on a isokinetic sucrose gradient (1ml 10-30% (v/v))in 50mM Tris-HCl (pH 7.2), 10mM Mg(OAc)2, 40mM NH4Cl, 0.1M KCl, 1mM PMSF, 50g/ml chloramphenicol), and centrifuged for 2h 15min at 100,000g at 4C.
+0.776	[*A*]40 mM NH4Cl[*R*]centrifuged	context()	negated: False ,passive: False
+0.887	[*A*]Mitochondrial lysates[*R*]were loaded[*A*]on a isokinetic sucrose gradient	context()	negated: False ,passive: True
+[LINE#63] Fractions (100l) were collected and 10l aliquots were analyzed directly by western blotting [47].Immunodetection was performed using the following primary antibodies: anti-CI-Grim19, CII-SDHA 70kDa, CIII-core2, CIV-COXI, CIV-COXII, CV-subunit , cyt c, (mouse monoclonal antibodies, MitoSciences); anti-MRPL3 goat polyclonal, MRPS18B rabbit polyclonal,.
+0.903	[*A*]10l aliquots[*R*]were analyzed directly[*A*]by western blotting	context()	negated: False ,passive: True
+0.906	[*A*]Immunodetection[*R*]using[*A*]the following primary antibodies	context()	negated: False ,passive: False
+0.771	[*A*]Immunodetection[*R*]was performed	context()	negated: False ,passive: False
+0.677	[*A*]Fractions[*R*]were collected	context()	negated: False ,passive: False
+[LINE#64]MRPS25 rabbit polyclonal and ICT1 rabbit polyclonal antibodies (Protein Tech Group, Inc., Chicago); anti-DAP3 mouse monoclonal, POLRMT rabbit polyclonal (Abcam); and anti-Porin, mouse monoclonal antibodies (Invitrogen).
+[LINE#65]Anti-MRPL12 rabbit polyclonal antibody was custom made (Eurogentec).
+0.713	[*A*]custom[*R*]made	context()	negated: False ,passive: False
+0.947	[*A*]Anti-MRPL12 rabbit polyclonal antibody[*R*]was[*A*]custom made (Eurogentec)	context()	negated: False ,passive: True
+[LINE#66]Secondary antibody detection was performed using peroxidase-conjugated anti-rabbit, anti-goat or anti-mouse IgG (Abcam or Dako).
+0.751	[*A*]Secondary antibody detection[*R*]was performed	context()	negated: False ,passive: False
+[LINE#67] The signal was generated using ECL+(Pierce, Rockford, USA) and visualised by phosphorimaging and analyzed by ImageQuant software. .
+0.905	[*A*]The signal[*R*]analyzed[*A*]by ImageQuant software	context()	negated: False ,passive: True
+0.767	[*A*]The signal[*R*]was visualised[*A*]by	context()	negated: False ,passive: True
+0.732	[*A*]The signal[*R*]was visualised	context()	negated: False ,passive: False
+0.918	[*A*]The signal[*R*]was generated[*A*]using ECL+	context()	negated: False ,passive: True
+[LINE#68]A and Northern blottingRNA was isolated from fibroblasts using Trizol following manufacturer's protocol (Invitrogen).
+0.876	[*A*]fibroblasts[*R*]using[*A*]following manufacturer's protocol	context()	negated: False ,passive: False
+0.927	[*A*]Northern blottingRNA[*R*]was isolated[*A*]from fibroblasts	context()	negated: False ,passive: True
+[LINE#69]Northern blots were performed as described [48].
+0.767	[*A*]Northern blots[*R*]were performed[*A*]as described [48	context()	negated: False ,passive: True
+[LINE#70]Briefly, aliquots of RNA (5g) were electrophoresed through 1.2% (w/v) agarose under denaturing conditions and transferred to GenescreenPlus membrane (NEN duPont) following the manufacturer's protocol.
+[LINE#71]Radiolabelled probes were generated using random hexamers on PCR-generated templates corresponding to internal regions of the relevant genes.
+0.939	[*A*]PCR-generated templates[*R*]corresponding[*A*]to internal regions of the relevant genes	context()	negated: False ,passive: True
+0.905	[*A*]Radiolabelled probes[*R*]using[*A*]random hexamers on PCR-generated templates	context()	negated: False ,passive: False
+0.732	[*A*]Radiolabelled probes[*R*]were generated	context()	negated: False ,passive: False
+[LINE#72] Clinical reportThe subject, a boy, was born to first cousin.
+0.897	[*A*]Clinical reportThe subject[*R*]was born[*A*]to first cousin	context()	negated: False ,passive: True
+[LINE#73] Roma/Gypsy parents by cesarean section, at 41weeks of pregnancy with severe general hypotrophy (birth weight2250g, height 48cm, Occipitofrontal Circumference 34cm).
+[LINE#74]His clinical examination at birth was normal and initial investigations failed to identify the cause of his severe hypotrophy (normal blood caryotype, heart ultrasound, bone age, CT scan and metabolic workup).
+0.802	[*A*]initial investigations[*R*]failed[*A*]to identify the cause of his severe hypotrophy	context(His clinical examination at birth was)	negated: False ,passive: True
+0.685	[*A*]His clinical examination at birth[*R*]was[*A*]initial investigations failed to identify the cause of his severe hypotrophy	context()	negated: False ,passive: True
+0.810	[*A*]initial investigations[*R*]to identify[*A*]the cause of his severe hypotrophy	context()	negated: False ,passive: False
+0.887	[*A*]initial investigations[*R*]failed[*A*]to identify the cause of his severe hypotrophy ( normal blood caryotype , heart ultrasound , bone age , CT scan	context(His clinical examination at birth was)	negated: False ,passive: True
+0.724	[*A*]His clinical examination at birth[*R*]was[*A*]initial investigations failed to identify the cause of his severe hypotrophy ( normal blood caryotype , heart ultrasound , bone age , CT scan	context()	negated: False ,passive: True
+0.892	[*A*]initial investigations[*R*]to identify[*A*]the cause of his severe hypotrophy ( normal blood caryotype , heart ultrasound , bone age , CT scan	context()	negated: False ,passive: False
+0.715	[*A*]His clinical examination at birth[*R*]was[*A*]normal investigations	context()	negated: False ,passive: True
+0.802	[*A*]normal investigations[*R*]failed[*A*]to identify the cause of his severe hypotrophy	context(His clinical examination at birth was)	negated: False ,passive: True
+0.685	[*A*]His clinical examination at birth[*R*]was[*A*]normal investigations failed to identify the cause of his severe hypotrophy	context()	negated: False ,passive: True
+0.697	[*A*]CT[*R*]scan	context()	negated: False ,passive: False
+0.810	[*A*]normal investigations[*R*]to identify[*A*]the cause of his severe hypotrophy	context()	negated: False ,passive: False
+[LINE#75]He failed to thrive thereafter and was repeatedly admitted in the first 12months for gradual worsening of his condition (weight and height: -4SD, OFC: -2SD).
+0.418	[*A*]He[*R*]was repeatedly admitted[*A*]in the first 12months for gradual worsening of his condition ( height	context()	negated: False ,passive: True
+0.418	[*A*]He[*R*]was repeatedly admitted[*A*]in the first 12months for gradual worsening of his condition	context()	negated: False ,passive: True
+0.197	[*A*]He[*R*]to thrive[*A*]thereafter	context()	negated: False ,passive: True
+0.225	[*A*]He[*R*]failed[*A*]to thrive thereafter	context()	negated: False ,passive: True
+[LINE#76]Clinical examination at 10months showed severe denutrition, muscle weakness but detectable deep tendon reflexes and no major trunk hypotonia.
+0.919	[*A*]Clinical examination at 10months[*R*]showed[*A*]no major trunk hypotonia	context()	negated: False ,passive: False
+0.919	[*A*]Clinical examination at 10months[*R*]showed[*A*]detectable deep tendon reflexes	context()	negated: False ,passive: False
+0.919	[*A*]Clinical examination at 10months[*R*]showed[*A*]severe muscle weakness	context()	negated: False ,passive: False
+0.919	[*A*]Clinical examination at 10months[*R*]showed[*A*]severe denutrition	context()	negated: False ,passive: False
+[LINE#77]He started walking with aid at 12months.
+0.162	[*A*]He[*R*]started walking with aid at 12months walking	context(He started)	negated: False ,passive: False
+0.397	[*A*]He[*R*]started[*A*]walking with aid at 12months	context()	negated: False ,passive: False
+[LINE#78](GH) levels in plasma were normal (0.5ng/ml) but plasma IGF1 was very low (0.07U/ml, normal 0.2).
+0.855	[*A*]plasma IGF1[*R*]was[*A*]very low	context()	negated: False ,passive: True
+0.944	[*A*]GH ) levels in plasma[*R*]were[*A*]normal ( 0.5ng / ml	context()	negated: False ,passive: True
+[LINE#79] Stimulation by ornithine triggered an adequate elevation of plasma GH with correction of plasma IGF1 (GH: 46.9ng/ml, IGF1:0.2U/ml, and 0.45U/ml following GH administration).
+0.925	[*A*]Stimulation by ornithine[*R*]triggered[*A*]an adequate elevation of plasma GH	context()	negated: False ,passive: False
+[LINE#80]These results ruled out a dwarfism of endocrine origin.
+0.903	[*A*]These results[*R*]ruled out[*A*]a dwarfism of endocrine origin	context()	negated: False ,passive: False
+[LINE#81] Yet, high plasma lactate (3.5 to 4.4mmol/l, normal below 2.2) prompted skeletal muscle, liver and skin biopsies that revealed a multiple respiratory chain enzyme deficiency in muscle and liver homogenate and cultured skin fibroblasts (Table 1)[42].He had a first episode of generalized tonic seizure aged 2years and his neurological condition rapidly worsened following an episode of acute fever (40C) caused by a respiratory infection.
+0.551	[*A*]normal below 2.2[*R*]rapidly worsened[*A*]following an episode of acute fever	context()	negated: False ,passive: False
+0.314	[*A*]He[*R*]had[*A*]a first episode of his neurological condition[*A*]rapidly worsened following an episode of acute fever	context()	negated: False ,passive: False
+0.927	[*A*]skin biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts	context()	negated: False ,passive: False
+0.463	[*A*]normal below 2.2[*R*]prompted[*A*]skin biopsies that revealed a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts ( Table 1 ) [ 42 ]	context()	negated: False ,passive: False
+0.365	[*A*]normal below 2.2[*R*]prompted[*A*]skin biopsies that revealed a multiple respiratory chain enzyme deficiency in homogenate	context(He had)	negated: False ,passive: False
+0.333	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skin biopsies that revealed a multiple respiratory chain enzyme deficiency in homogenate . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.887	[*A*]skin biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in homogenate	context()	negated: False ,passive: False
+0.365	[*A*]normal below 2.2[*R*]prompted[*A*]skin biopsies that revealed a multiple respiratory chain enzyme deficiency in liver	context(He had)	negated: False ,passive: False
+0.333	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skin biopsies that revealed a multiple respiratory chain enzyme deficiency in liver . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.887	[*A*]skin biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in liver	context()	negated: False ,passive: False
+0.461	[*A*]normal below 2.2[*R*]prompted[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skin biopsies that revealed a multiple respiratory chain enzyme deficiency in muscle	context(He had)	negated: False ,passive: False
+0.887	[*A*]skin biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in muscle	context()	negated: False ,passive: False
+0.688	[*A*]a first episode of his neurological condition[*R*]rapidly worsened[*A*]following an episode of acute fever	context(liver biopsies revealed He had)	negated: False ,passive: True
+0.423	[*A*]He[*R*]had[*A*]a first episode of his neurological condition rapidly worsened following an episode of acute fever	context(liver biopsies revealed)	negated: False ,passive: False
+0.832	[*A*]high plasma lactate[*R*]prompted[*A*]to 4.4mmol / l , normal below 2.2 ) prompted liver biopsies that revealed a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts ( Table 1 ) [ 42 ] . He had a first episode of his neurological condition rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.522	[*A*]He[*R*]had[*A*]a first episode of generalized tonic seizure	context()	negated: False ,passive: False
+0.927	[*A*]liver biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts	context()	negated: False ,passive: False
+0.903	[*A*]aged 2years[*R*]rapidly worsened[*A*]following an episode of acute fever	context()	negated: False ,passive: True
+0.463	[*A*]normal below 2.2[*R*]prompted[*A*]liver biopsies that revealed a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts ( Table 1 ) [ 42 ]	context()	negated: False ,passive: False
+0.365	[*A*]normal below 2.2[*R*]prompted[*A*]liver biopsies that revealed a multiple respiratory chain enzyme deficiency in homogenate	context(He had)	negated: False ,passive: False
+0.333	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted liver biopsies that revealed a multiple respiratory chain enzyme deficiency in homogenate . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.887	[*A*]liver biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in homogenate	context()	negated: False ,passive: False
+0.365	[*A*]normal below 2.2[*R*]prompted[*A*]liver biopsies that revealed a multiple respiratory chain enzyme deficiency in liver	context(He had)	negated: False ,passive: False
+0.333	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted liver biopsies that revealed a multiple respiratory chain enzyme deficiency in liver . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.887	[*A*]liver biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in liver	context()	negated: False ,passive: False
+0.461	[*A*]normal below 2.2[*R*]prompted[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted liver biopsies that revealed a multiple respiratory chain enzyme deficiency in muscle	context(He had)	negated: False ,passive: False
+0.887	[*A*]liver biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in muscle	context()	negated: False ,passive: False
+0.696	[*A*]a first episode of his neurological condition[*R*]rapidly worsened[*A*]following an episode of acute fever	context(He had)	negated: False ,passive: True
+0.432	[*A*]He[*R*]had[*A*]a first episode of his neurological condition rapidly worsened following an episode of acute fever	context()	negated: False ,passive: False
+0.859	[*A*]high plasma lactate[*R*]prompted[*A*]skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts ( Table 1 ) [ 42 ]	context()	negated: False ,passive: False
+0.322	[*A*]He[*R*]had[*A*]a first episode of his neurological condition	context()	negated: False ,passive: False
+0.411	[*A*]He[*R*]rapidly worsened[*A*]following an episode of acute fever	context()	negated: False ,passive: False
+0.384	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts ( Table 1 ) [ 42 ] . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.933	[*A*]skeletal muscle biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts	context()	negated: False ,passive: False
+0.463	[*A*]normal below 2.2[*R*]prompted[*A*]skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in cultured skin fibroblasts ( Table 1 ) [ 42 ]	context()	negated: False ,passive: False
+0.365	[*A*]normal below 2.2[*R*]prompted[*A*]skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in homogenate	context(He had)	negated: False ,passive: False
+0.333	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in homogenate . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.897	[*A*]skeletal muscle biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in homogenate	context()	negated: False ,passive: False
+0.365	[*A*]normal below 2.2[*R*]prompted[*A*]skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in liver	context(He had)	negated: False ,passive: False
+0.333	[*A*]He[*R*]had[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in liver . He had a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.897	[*A*]skeletal muscle biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in liver	context()	negated: False ,passive: False
+0.461	[*A*]normal below 2.2[*R*]prompted[*A*]high plasma lactate ( 3.5 to 4.4mmol / l , normal below 2.2 ) prompted skeletal muscle biopsies that revealed a multiple respiratory chain enzyme deficiency in muscle	context(He had)	negated: False ,passive: False
+0.628	[*A*]He[*R*]had[*A*]a first episode of generalized tonic seizure aged 2years rapidly worsened following an episode of acute fever ( 40C )	context()	negated: False ,passive: False
+0.887	[*A*]acute fever[*R*]caused[*A*]by a respiratory infection	context()	negated: False ,passive: True
+0.897	[*A*]skeletal muscle biopsies[*R*]revealed[*A*]a multiple respiratory chain enzyme deficiency in muscle	context()	negated: False ,passive: False
+0.927	[*A*]a first episode of generalized tonic seizure[*R*]rapidly worsened[*A*]following an episode of acute fever	context()	negated: False ,passive: True
+[LINE#82]At that age, he had severe denutrition, flat weight curve, no weight and height gain (-5 SD) and a mildly enlarged liver.
+0.416	[*A*]he[*R*]had[*A*]a mildly enlarged liver[*A*]At that age	context()	negated: False ,passive: False
+0.416	[*A*]he[*R*]had[*A*]gain[*A*]At that age	context()	negated: False ,passive: False
+0.416	[*A*]he[*R*]had[*A*]severe height[*A*]At that age	context()	negated: False ,passive: False
+0.416	[*A*]he[*R*]had[*A*]no weight[*A*]At that age	context()	negated: False ,passive: False
+0.416	[*A*]he[*R*]had[*A*]severe flat weight curve[*A*]At that age	context()	negated: False ,passive: False
+0.416	[*A*]he[*R*]had[*A*]severe denutrition[*A*]At that age	context()	negated: False ,passive: False
+[LINE#83]Neurological examination revealed overt psychomotor retardation, severe trunk hypotonia, inability to sit and stand unaided and no speech.
+0.903	[*A*]Neurological examination[*R*]revealed[*A*]overt psychomotor retardation	context()	negated: False ,passive: False
+0.903	[*A*]Neurological examination[*R*]revealed[*A*]overt psychomotor retardation , severe trunk hypotonia , inability	context()	negated: False ,passive: False
+[LINE#84]Intermittent horizontal nystagmus, with cerebellar ataxia and tremor were noted.
+0.939	[*A*]Intermittent horizontal nystagmus[*R*]were noted[*A*]with cerebellar tremor	context()	negated: False ,passive: True
+0.939	[*A*]Intermittent horizontal nystagmus[*R*]were noted[*A*]with cerebellar ataxia	context()	negated: False ,passive: True
+[LINE#85]He had a mild facial dysmorphism, with round face, epicanthic folds, arched palate, short neck, low-set ears and a unique bilateral median palmar crease.
+0.522	[*A*]He[*R*]had[*A*]a mild facial dysmorphism[*A*]with round face	context()	negated: False ,passive: False
+[LINE#86]Brain MRI showed T1 hyposignal and T2 hypersignal of white matter and basal ganglia.
+0.938	[*A*]Brain MRI[*R*]showed[*A*]T1 T2 hypersignal of basal ganglia	context()	negated: False ,passive: False
+0.938	[*A*]Brain MRI[*R*]showed[*A*]T1 T2 hypersignal of white matter	context()	negated: False ,passive: False
+0.938	[*A*]Brain MRI[*R*]showed[*A*]T1[*A*]hyposignal hypersignal of basal ganglia	context()	negated: False ,passive: False
+0.938	[*A*]Brain MRI[*R*]showed[*A*]T1 hyposignal hypersignal of white matter	context()	negated: False ,passive: False
+[LINE#87]Rapid aggravation of respiratory conditions required endotracheal intubation and assisted ventilation.
+[LINE#88]Plasma lactates rose to 3.3-4.2mmol/l, he gradually developed abnormal limb movements then fell into a deep coma, and died following a cardiac arrest.
+0.920	[*A*]Plasma[*R*]died[*A*]following a cardiac arrest	context()	negated: False ,passive: True
+0.907	[*A*]Plasma lactates[*R*]rose[*A*]to 3.3-4.2mmol / l	context(he gradually developed then)	negated: False ,passive: True
+0.381	[*A*]he[*R*]gradually developed then[*A*]abnormal limb movements	context()	negated: False ,passive: False
+0.623	[*A*]he[*R*]fell[*A*]into a deep coma[*A*]then	context()	negated: False ,passive: True
+[LINE#89]During the next pregnancy, the mother expected dizygotic twin fetuses.
+0.943	[*A*]the mother[*R*]expected[*A*]dizygotic twin fetuses[*A*]During the next pregnancy	context()	negated: False ,passive: False
+[LINE#90]A prenatal diagnosis based on assessment of respiratory chain enzyme activities in cultured skin fibroblasts on amniotic fluid was offered.
+0.928	[*A*]A prenatal diagnosis based on assessment of respiratory chain enzyme activities in cultured skin fibroblasts on amniotic fluid[*R*]was offered	context()	negated: False ,passive: False
+0.943	[*A*]A prenatal diagnosis[*R*]based[*A*]on assessment of respiratory chain enzyme activities in cultured skin fibroblasts on amniotic fluid	context()	negated: False ,passive: True
+[LINE#91]Hemoglobin contamination of the samples rendered the very low respiratory chain activities; despite this the activity ratios clearly showed a severe complex IV deficiency in cells from the fetus twins leading to termination of the second pregnancy.
+0.905	[*A*]Hemoglobin contamination of the samples[*R*]rendered[*A*]the very low respiratory chain activities	context(the activity ratios clearly showed)	negated: False ,passive: False
+0.905	[*A*]the activity ratios[*R*]clearly showed[*A*]a severe complex IV deficiency[*A*]in cells from the fetus twins	context()	negated: False ,passive: False
+0.911	[*A*]the fetus twins[*R*]leading[*A*]to termination of the second pregnancy	context()	negated: False ,passive: False
+[LINE#92]The same test was normal in the third pregnancy and a normal baby girl was born, now 14years old (Table 1). .
+0.808	[*A*]The same test[*R*]was 14years[*A*]old[*A*]now	context()	negated: False ,passive: True
+0.727	[*A*]a normal baby girl[*R*]was born	context(The same test was)	negated: False ,passive: False
+0.929	[*A*]The same test[*R*]was[*A*]a normal baby girl was born ( Table 1	context()	negated: False ,passive: True
+0.932	[*A*]The same test[*R*]was[*A*]normal[*A*]in the third pregnancy	context()	negated: False ,passive: True
+[LINE#93] Blue native-PAGE analysisWhilst skin fibroblasts were propagated for enzyme analysisit was clear that those from the subject harboring the mutation had a reduced doubling time on glucose medium compared to control lines (data available on request).
+0.894	[*A*]those from the subject[*R*]had a reduced doubling time on glucose medium harboring[*A*]the mutation	context(those from the subject had)	negated: False ,passive: False
+0.907	[*A*]those from the subject[*R*]had[*A*]a reduced doubling time on glucose medium[*A*]compared to control lines	context()	negated: False ,passive: False
+0.886	[*A*]Blue native-PAGE analysisWhilst skin fibroblasts[*R*]were propagated[*A*]for enzyme analysisit	context()	negated: False ,passive: True
+[LINE#94]Cell extracts were subsequently prepared and SDS-PAGE/western blot analysis revealed reduced steady-state level of COXII subunit, consistent with the decreased CIV activity (Fig. 1A).
+0.953	[*A*]SDS - PAGE / western blot analysis[*R*]revealed[*A*]reduced steady - state level of COXII subunit , consistent with the decreased CIV activity	context()	negated: False ,passive: False
+0.812	[*A*]Cell extracts[*R*]were prepared[*A*]subsequently	context()	negated: False ,passive: True
+[LINE#95] Moreover, we also observed a decreased amount of nuclear encoded protein NDUFB8(Fig. 1A), which joins late in complex I assembly [44] and is consistent with the low CI activity in the biopsies.
+0.195	[*A*]I[*R*]assembly	context()	negated: False ,passive: False
+0.716	[*A*]NDUFB8(Fig. 1A[*R*]joins in[*A*]late	context()	negated: False ,passive: False
+0.411	[*A*]we[*R*]observed[*A*]a decreased amount of nuclear encoded protein	context()	negated: False ,passive: False
+[LINE#96] These decreases were consistent with the BN-PAGE data from fibroblast mitoplasts (Fig..
+0.947	[*A*]These decreases[*R*]were[*A*]consistent with the BN-PAGE data from fibroblast mitoplasts	context()	negated: False ,passive: True
+[LINE#97] Both complexes I and IV, detected by anti-GRIM19 antibody or mitochondrially-encoded COXI, were severely decreased in the subject, which in contrast exhibited control levels of complex II (70kDa SDHA subunit) and complex III (Core 2 subunit).
+0.938	[*A*]the subject[*R*]exhibited[*A*]control levels of complex II (70kDa SDHA subunit) and complex III	context()	negated: False ,passive: False
+0.887	[*A*]Both complexes[*R*]were severely decreased[*A*]in the subject	context()	negated: False ,passive: True
+[LINE#98]No partial complexes were observed.
+0.751	[*A*]No partial complexes[*R*]were observed	context()	negated: False ,passive: False
+[LINE#99]Identifying the causative mutation by Microsatellite genotyping and mutation screeningIn order to identify the causative mutation a genome-wide search for homozygosity was undertaken using 382 polymorphic microsatellite markers (Genescan Linkage Mapping Set, version II (Perkin-Elmer).
+0.816	[*A*]a genome - wide search for homozygosity[*R*]was undertaken	context()	negated: False ,passive: False
+[LINE#100] We obtained evidence for homozygosity in all affected individuals at loci D17S785, D17S784, and D17S928 on chromosome 17q24.2-q25.3.
+0.452	[*A*]We[*R*]obtained[*A*]evidence	context()	negated: False ,passive: False
+[LINE#101]No other homozygous region was found with other markers.
+0.919	[*A*]No other homozygous region[*R*]was found[*A*]with other markers	context()	negated: False ,passive: True
+[LINE#102]This 32.7cM region was then refined by additional microsatellite markers reducing the critical region to the 25cM interval, defined by loci D17S1352 and D17S928.
+0.940	[*A*]the 25 cM interval[*R*]defined[*A*]by loci D17S928	context()	negated: False ,passive: True
+0.940	[*A*]the 25 cM interval[*R*]defined[*A*]by loci D17S1352	context()	negated: False ,passive: True
+0.929	[*A*]This 32.7 cM region[*R*]was refined[*A*]by additional microsatellite markers[*A*]then	context()	negated: False ,passive: True
+[LINE#103] This corresponds to a 8.4Mb physical region containing more than 170 genes, 10 of which encode mitochondrial proteins or proteins predicted to be mitochondrially targeted (FDXR (MIM 103270), ICT1 (MIM 603000), , MRPS7 (MIM 611974), SLC25A19 (MIM 606521),(MIM 602375), SLC25A10 (MIM 606794), FASN (MIM 600212)).
+0.592	[*A*]10 of which[*R*]encode[*A*]mitochondrial proteins or proteins	context()	negated: False ,passive: False
+0.948	[*A*]a 8.4Mb physical region[*R*]containing[*A*]more than 170 genes, 10 of which encode mitochondrial proteins or proteins	context()	negated: False ,passive: False
+[LINE#104]Considering the multiple RC deficiency observed in patient muscle, liver and fibroblasts and the abnormal BN-PAGE pattern reminiscent of translation deficiencies, we focused on genes involved in mitochondrial translation, excluding mutations in MRPS7, MRPL38 and ICT1 by direct sequencing.
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPL38	context(we focused)	negated: False ,passive: False
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPS7	context(we focused)	negated: False ,passive: False
+0.967	[*A*]the multiple RC deficiency[*R*]observed[*A*]in the abnormal BN - PAGE pattern reminiscent of translation deficiencies	context()	negated: False ,passive: True
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPL38	context(we focused)	negated: False ,passive: False
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPS7	context(we focused)	negated: False ,passive: False
+0.939	[*A*]the multiple RC deficiency[*R*]observed[*A*]in patient fibroblasts	context()	negated: False ,passive: True
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPL38	context(we focused)	negated: False ,passive: False
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPS7	context(we focused)	negated: False ,passive: False
+0.939	[*A*]the multiple RC deficiency[*R*]observed[*A*]in liver	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]focused[*A*]on genes	context()	negated: False ,passive: False
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPL38	context(we focused)	negated: False ,passive: False
+0.433	[*A*]we[*R*]focused[*A*]on genes[*A*]excluding mutations in MRPL38 by direct sequencing	context()	negated: False ,passive: False
+0.333	[*A*]we[*R*]focused on genes excluding[*A*]mutations in MRPS7	context(we focused)	negated: False ,passive: False
+0.433	[*A*]we[*R*]focused[*A*]on genes[*A*]excluding mutations in MRPS7 by direct sequencing	context()	negated: False ,passive: False
+0.894	[*A*]genes[*R*]involved[*A*]in mitochondrial translation	context()	negated: False ,passive: True
+0.939	[*A*]the multiple RC deficiency[*R*]observed[*A*]in patient muscle	context()	negated: False ,passive: True
+[LINE#105] Sequencing of MRPL12 exons and exon-intron boundaries on genomic DNA (primer sequences available on request) from the affected child identified a homozygous c.542C>T transition in exon 5 (RefSeq accession number NM_002949.3, Fig..
+0.953	[*A*]primer sequences available on request ) from the affected child[*R*]identified[*A*]a homozygous c.542C > T transition in exon 5	context()	negated: False ,passive: False
+0.978	[*A*]Sequencing of MRPL12 exons ( primer sequences available on request ) from the affected child[*R*]identified[*A*]a homozygous c.542C > T transition in exon 5	context()	negated: False ,passive: False
+[LINE#106]This mutation changed a highly conserved alanine into a valine (p.
+0.903	[*A*]This mutation[*R*]changed[*A*]a highly conserved alanine[*A*]into a valine	context()	negated: False ,passive: False
+[LINE#107]and was predicted by Polyphen2 (http://genetics.bwh.harvard.edu/pph2/) and SIFT (http://sift.jcvi.org/) software to be "probably damaging" and "deleterious" respectively.
+[LINE#108]The parents were heterozygous for the mutation, both twin fetuses were homozygous and the healthy girl was wild-type homozygous.
+0.932	[*A*]the healthy girl[*R*]was[*A*]wild - type homozygous	context()	negated: False ,passive: True
+0.882	[*A*]The parents[*R*]were[*A*]heterozygous for the mutation	context(both twin fetuses were)	negated: False ,passive: True
+0.743	[*A*]both twin fetuses[*R*]were[*A*]homozygous	context()	negated: False ,passive: True
+[LINE#109]This mutation was absent from 100 controls of the same ethnic origin and from all SNP databases.
+0.937	[*A*]This mutation[*R*]was[*A*]absent from all SNP databases	context()	negated: False ,passive: True
+0.813	[*A*]This mutation[*R*]was[*A*]absent	context()	negated: False ,passive: True
+[LINE#110]Further, no additional MRPL12 mutation could be identified in two other unrelated subjects with similar clinical presentation and biochemical defect.
+0.939	[*A*]no additional MRPL12 mutation[*R*]could be identified[*A*]in two other unrelated subjects with similar biochemical defect	context()	negated: False ,passive: True
+0.939	[*A*]no additional MRPL12 mutation[*R*]could be identified[*A*]in two other unrelated subjects with similar clinical presentation	context()	negated: False ,passive: True
+[LINE#111]To demonstrate the deleterious nature of the p.
+[LINE#112]Ala181Val MRPL12 substitution we used, overexpression of wild-type or mutant human MRPL12 cDNA in the SV40-immortalized fibroblasts but rather recapitulating the respiratory phenotype of the patient fibroblasts, this was found to be lethal.
+0.155	[*A*]this[*R*]to be[*A*]lethal	context()	negated: False ,passive: True
+0.153	[*A*]this[*R*]was found	context()	negated: False ,passive: False
+0.195	[*A*]we[*R*]used	context()	negated: False ,passive: False
+[LINE#113]Cells stopped growing, became polynucleated and progressively died. .
+0.561	[*A*]Cells[*R*]progressively died	context()	negated: False ,passive: False
+0.519	[*A*]Cells[*R*]polynucleated	context()	negated: False ,passive: False
+0.605	[*A*]Cells[*R*]became[*A*]polynucleated	context()	negated: False ,passive: True
+0.519	[*A*]Cells[*R*]growing	context()	negated: False ,passive: False
+0.605	[*A*]Cells[*R*]stopped[*A*]growing	context()	negated: False ,passive: False
+[LINE#114]In silico analysis of the putative impact of A181V substitutionHuman MRPL12 is 27.5% identical in amino acid sequence to the previously crystallized T. maritima L12 ribosomal protein.
+[LINE#115]The C-terminal domain (CTD) (107 to end in Escherichia coli) is conserved in evolution [50] and is required for initial binding and GTPase activation for both EF-Tu and EF-G.
+0.932	[*A*]coli[*R*]is required[*A*]for GTPase activation for both EF - G	context()	negated: False ,passive: True
+0.932	[*A*]coli[*R*]is required[*A*]for GTPase activation for both EF - Tu	context()	negated: False ,passive: True
+0.920	[*A*]coli[*R*]is required[*A*]for initial binding	context()	negated: False ,passive: True
+0.503	[*A*]coli[*R*]is conserved[*A*]in evolution	context()	negated: False ,passive: True
+[LINE#116]Indeed, both EF-Tu and EF-G have greatly diminished GTPase activity on ribosomes lacking the CTD of L12 [51,52].
+0.849	[*A*]EF - G[*R*]have diminished[*A*]GTPase activity[*A*]on ribosomes	context()	negated: False ,passive: False
+0.911	[*A*]ribosomes[*R*]lacking[*A*]the CTD of L12	context()	negated: False ,passive: False
+0.923	[*A*]both EF - Tu[*R*]have diminished[*A*]GTPase activity[*A*]on ribosomes	context()	negated: False ,passive: False
+[LINE#117] Superimposition of MRPL12 with the Thermus thermophilus 70S ribosome(PDB code: 2WRL) lacking L7/L12 stalk proteins shows that MRPL12 Ala181 is located within this highly conserved region (Fig. 3A).
+0.910	[*A*]MRPL12 Ala181[*R*]is located[*A*]within this highly conserved region	context(Superimposition of MRPL12 with the Thermus thermophilus shows)	negated: False ,passive: True
+0.870	[*A*]Superimposition of MRPL12 with the Thermus thermophilus[*R*]shows[*A*]that MRPL12 Ala181 is located within this highly conserved region	context()	negated: False ,passive: False
+[LINE#118]Moreover, modeling of MRPL12 shows Ala181 positioned in a helix potentially involved in translation factor interactions (Fig. 3A/B).
+0.898	[*A*]Ala181[*R*]positioned[*A*]in a helix	context(modeling of MRPL12 shows)	negated: False ,passive: True
+0.945	[*A*]modeling of MRPL12[*R*]shows[*A*]Ala181 positioned in a helix	context()	negated: False ,passive: False
+0.887	[*A*]a helix[*R*]involved[*A*]in translation factor interactions (Fig	context()	negated: False ,passive: True
+[LINE#119]Bacterial L7/L12 CTDs also contain a number of strictly conserved residues that are involved in the initial contact with elongation factors [52,53] and crucial for translation [54].
+0.933	[*A*]strictly conserved residues[*R*]are involved[*A*]in the initial contact with elongation factors crucial for translation	context()	negated: False ,passive: True
+0.897	[*A*]strictly conserved residues[*R*]are involved[*A*]in the initial contact with elongation factors	context()	negated: False ,passive: True
+0.880	[*A*]Bacterial L7 / L12 CTDs[*R*]contain[*A*]a number of strictly conserved residues	context()	negated: False ,passive: False
+[LINE#120]Alanine is one of the best helix forming residues and substitutions can therefore have profound energetic effects by perturbing packing interactions or tertiary contacts [55].
+0.888	[*A*]the best helix[*R*]forming[*A*]residues and substitutions	context(the best helix forming residues and substitutions can have)	negated: False ,passive: False
+0.924	[*A*]the best helix forming residues and substitutions[*R*]can have[*A*]profound energetic effects by perturbing packing interactions or tertiary contacts	context()	negated: False ,passive: False
+0.961	[*A*]Alanine[*R*]is[*A*]one of the best helix forming residues and substitutions can therefore have profound energetic effects by perturbing packing interactions or tertiary contacts [55]	context()	negated: False ,passive: True
+[LINE#121]Ala181Val change might be predicted to alter interactions with the elongation factors, and since MRPL7/12 bound to elongation factors is predicted to have a higher affinity for the ribosome [54], the mutation may in turn affect both rate and accuracy of mitochondrial translation. .
+0.906	[*A*]MRPL7/12[*R*]to elongation[*A*]factors	context()	negated: False ,passive: False
+0.732	[*A*]Ala181Val change[*R*]might be predicted	context()	negated: False ,passive: False
+[LINE#122]Ribosome assemblyThe steady state level of MRPL12 in the subject's fibroblasts was reduced to 30% of control value (Fig. 4A and B).
+0.993	[*A*]Ribosome assemblyThe steady state level of MRPL12 in the subject 's fibroblasts[*R*]was reduced to[*A*]30 %	context()	negated: False ,passive: False
+0.945	[*A*]Ribosome assemblyThe steady state level of MRPL12 in the subject's fibroblasts[*R*]was reduced[*A*]to 30% of control value	context()	negated: False ,passive: True
+[LINE#123] The mt-LSU protein ICT1 was also decreased (~30% of control values) as was MRPL3(by 37%) suggesting that a consequence of the MRPL12 mutation is a global defect in assembly of the large ribosomal subunit (mt-LSU).
+0.845	[*A*]The mt-LSU protein[*R*]was decreased[*A*]suggesting that a consequence of the MRPL12 mutation is a global defect in assembly of the large ribosomal subunit	context()	negated: False ,passive: True
+[LINE#124]In order to estimate the effect of the MRPL12 mutation on assembly of the whole ribosome, we also tested three proteins of the small ribosomal subunit (SSU), MRPS18B, MRPS25 and DAP3.
+0.411	[*A*]we[*R*]tested[*A*]three proteins of the small ribosomal subunit	context()	negated: False ,passive: False
+[LINE#125]These were modestly decreased with levels of ~60-80% of control (Fig. 4A and B).
+0.438	[*A*]These[*R*]were decreased[*A*]with levels of ~60-80 % of control B	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]were modestly decreased[*A*]with levels of ~60-80 % of control	context()	negated: False ,passive: True
+[LINE#126] Correspondingly, 16S and 12S rRNA levels were decreased by 35% and 22% respectively (Fig..
+0.992	[*A*]16 12 s rrna levels[*R*]were decreased by[*A*]22 %	context()	negated: False ,passive: False
+0.993	[*A*]16 12 S rRNA levels[*R*]were decreased by[*A*]22 %	context()	negated: False ,passive: False
+0.926	[*A*]16 12 S rRNA levels[*R*]were decreased[*A*]by 22 %[*A*]respectively	context()	negated: False ,passive: True
+0.992	[*A*]16 12 s rrna levels[*R*]were decreased by[*A*]35 %	context()	negated: False ,passive: False
+0.993	[*A*]16 12 S rRNA levels[*R*]were decreased by[*A*]35 %	context()	negated: False ,passive: False
+0.926	[*A*]16 12 S rRNA levels[*R*]were decreased[*A*]by 35 %[*A*]respectively	context()	negated: False ,passive: True
+0.992	[*A*]16 s[*R*]were decreased by[*A*]22 %	context()	negated: False ,passive: False
+0.993	[*A*]16 S[*R*]were decreased by[*A*]22 %	context()	negated: False ,passive: False
+0.927	[*A*]16 S[*R*]were decreased[*A*]by 22 %[*A*]respectively	context()	negated: False ,passive: True
+0.992	[*A*]16 s[*R*]were decreased by[*A*]35 %	context()	negated: False ,passive: False
+0.993	[*A*]16 S[*R*]were decreased by[*A*]35 %	context()	negated: False ,passive: False
+0.927	[*A*]16 S[*R*]were decreased[*A*]by 35 %[*A*]respectively	context()	negated: False ,passive: True
+[LINE#127] Since porin indicated that there was no compensatory mitochondrial biogenesis and staining of the mitochondrial network with tetramethylrhodamine methyl ester showed no significant alteration in amount or distribution of mitochondria (AR and ZCL unpublished observation)we conclude that the MRPL12 mutation destabilizes the protein resulting in less mt-LSU and to a lesser extent of the small subunit.
+0.928	[*A*]the MRPL12 mutation[*R*]destabilizes[*A*]the protein resulting in less mt-LSU	context(we conclude)	negated: False ,passive: False
+0.309	[*A*]we[*R*]conclude[*A*]that the MRPL12 mutation destabilizes the protein resulting in less mt-LSU and to a lesser extent of the small subunit	context()	negated: False ,passive: False
+0.683	[*A*]porin[*R*]indicated[*A*]that there was no compensatory mitochondrial biogenesis and staining of the mitochondrial network	context()	negated: False ,passive: False
+0.911	[*A*]tetramethylrhodamine methyl ester[*R*]showed[*A*]no significant alteration	context()	negated: False ,passive: False
+0.918	[*A*]the protein[*R*]resulting[*A*]in less mt-LSU	context()	negated: False ,passive: True
+[LINE#128]In order to determine whether the MRPL12 mutation also induced changes in composition and assembly of the mitochondrial ribosomal large and small subunits, mitochondrial lysates from cultured fibroblasts (subject and control) were fractionated on isokinetic sucrose gradients (10-30%, as in Ref.
+0.953	[*A*]mitochondrial lysates from cultured fibroblasts[*R*]were fractionated[*A*]on isokinetic sucrose gradients ( 10-30 % , as in Ref	context()	negated: False ,passive: True
+[LINE#129]If assembly of either the large subunit or the entire ribosome was affected then the distribution of individual ribosomal proteins would change within the gradient profile.
+0.932	[*A*]the distribution of individual ribosomal proteins[*R*]would change[*A*]within the gradient profile	context()	negated: False ,passive: True
+0.877	[*A*]assembly of either the large subunit or the entire ribosome[*R*]was affected[*A*]then	context()	negated: False ,passive: True
+[LINE#130]On analysis MRPL12 from the patient was substantially decreased in all fractions but detectable in the fractions consistent with mt-LSU; however it was noticeably absent from the free pool (fractions 1 and 2, Fig. 5).
+0.522	[*A*]it[*R*]was[*A*]noticeably absent from the free pool	context()	negated: False ,passive: True
+0.179	[*A*]it[*R*]was absent[*A*]noticeably	context()	negated: False ,passive: True
+[LINE#131]This was in contrast to the control that exhibited a pool of free MRPL12, which has been reported to interact with POLRMT [56].
+0.928	[*A*]free MRPL12[*R*]to interact[*A*]with POLRMT [56	context()	negated: False ,passive: False
+0.758	[*A*]free MRPL12[*R*]has been reported	context()	negated: False ,passive: False
+0.905	[*A*]the control[*R*]exhibited[*A*]a pool of free MRPL12	context()	negated: False ,passive: False
+0.449	[*A*]This[*R*]was[*A*]in contrast to the control	context()	negated: False ,passive: True
+[LINE#132]MRPL3 was also slightly reduced in subject cells but remained in fractions consistent with the large subunit.
+0.855	[*A*]MRPL3[*R*]remained[*A*]in fractions consistent with the large subunit	context()	negated: False ,passive: True
+0.794	[*A*]MRPL3[*R*]was reduced[*A*]in subject cells	context()	negated: False ,passive: True
+[LINE#133]The MRPL12 mutation impacted more modestly on the small ribosomal subunit, with DAP3 apparently unaffected and MRPS18B found in lower amounts only in fractions 4 and 5 but otherwise with similar steady state levels and distribution profile compared to control.
+0.867	[*A*]DAP3 MRPS18B[*R*]found[*A*]in lower amounts only in fractions 5	context()	negated: False ,passive: True
+0.867	[*A*]DAP3 MRPS18B[*R*]found[*A*]in lower amounts only in fractions 4	context()	negated: False ,passive: True
+0.933	[*A*]DAP3 apparently unaffected[*R*]found[*A*]in lower amounts only in fractions 5	context()	negated: False ,passive: True
+0.926	[*A*]similar steady state distribution profile[*R*]compared[*A*]to control	context()	negated: False ,passive: True
+0.919	[*A*]similar steady state levels[*R*]compared[*A*]to control	context()	negated: False ,passive: True
+0.933	[*A*]DAP3 apparently unaffected[*R*]found[*A*]in lower amounts only in fractions 4	context()	negated: False ,passive: True
+0.933	[*A*]The MRPL12 mutation[*R*]impacted more modestly[*A*]on the small ribosomal subunit	context()	negated: False ,passive: False
+[LINE#134]Since POLRMT and MRPL12 have been published as interactors, we analyzed both the steady state level and gradient distribution of POLRMT to see if these were affected by the MRPL12 mutation.
+0.920	[*A*]MRPL12[*R*]have been published[*A*]as interactors	context()	negated: False ,passive: True
+0.525	[*A*]these[*R*]were affected[*A*]by the MRPL12 mutation	context(we analyzed to see)	negated: False ,passive: True
+0.503	[*A*]we[*R*]analyzed gradient distribution of POLRMT to see[*A*]if these were affected by the MRPL12 mutation	context(we analyzed)	negated: False ,passive: False
+0.550	[*A*]we[*R*]analyzed[*A*]gradient distribution of POLRMT[*A*]to see if these were affected by the MRPL12 mutation	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]analyzed[*A*]both the steady state level to see if these were affected by the MRPL12 mutation	context()	negated: False ,passive: False
+0.855	[*A*]POLRMT[*R*]have been published[*A*]as interactors	context()	negated: False ,passive: True
+[LINE#135] Overall levels in the subject sample were decreased to 63% of control value (Fig. 5B) but distribution in the gradient appeared largely unaffected with the exception of fraction 11, where levels were lower than control.
+0.894	[*A*]levels[*R*]were[*A*]lower than control	context()	negated: False ,passive: True
+[LINE#136]In vitro translationTo identify any effect on global mitochondrial protein synthesis, we studied de novo mitochondrial translation in cultured skin fibroblasts, as described in Ref.
+0.388	[*A*]we[*R*]studied[*A*]de novo mitochondrial translation[*A*]in cultured skin fibroblasts	context()	negated: False ,passive: False
+[LINE#137]Although there was an overall decrease in mitochondrial translation compared to control, densitometric profiles showed that certain polypeptides were more affected than others (Fig. 6).
+0.878	[*A*]certain polypeptides[*R*]were[*A*]more affected than others	context(densitometric profiles showed)	negated: False ,passive: True
+0.724	[*A*]densitometric profiles[*R*]showed[*A*]that certain polypeptides were more affected than others	context()	negated: False ,passive: False
+[LINE#138]In particular, there was a significant reduction of synthesis of COXI, COXII and COXIII subunits.
+[LINE#139] Consistent with the respiratory chain activities, complex.
+[LINE#140]I polypeptides were affected to a lesser extent and cytochrome b from complex III appears to be spared.
+0.638	[*A*]I polypeptides[*R*]were affected[*A*]to cytochrome b	context()	negated: False ,passive: True
+0.680	[*A*]I polypeptides[*R*]were affected[*A*]to a lesser extent from complex III	context()	negated: False ,passive: True
+[LINE#141]Despite the potential role of MRPL12 in translational accuracy, no aberrant translation product could be detected. .
+0.769	[*A*]no aberrant translation product[*R*]could be detected	context()	negated: False ,passive: False
+[LINE#142]level of mitochondrial transcriptsMRPL12 has been shown to interact with the mitochondrial RNA polymerase (POLRMT) and to stimulate mitochondrial transcription [56,57].
+0.164	[*A*]transcription[*R*]has mitochondrial of[*A*]5657 ]	context()	negated: False ,passive: False
+0.905	[*A*]level of mitochondrial transcriptsMRPL12[*R*]to stimulate[*A*]mitochondrial transcription	context()	negated: False ,passive: False
+0.920	[*A*]level of mitochondrial transcriptsMRPL12[*R*]to interact[*A*]with the mitochondrial RNA polymerase	context()	negated: False ,passive: False
+0.769	[*A*]level of mitochondrial transcriptsMRPL12[*R*]has been shown	context()	negated: False ,passive: False
+[LINE#143]Since the steady-state level of POLRMT in subject fibroblasts was modestly decreased, we analyzed the steady-state level of mitochondrial transcripts to see if these were similarly affected.
+0.213	[*A*]these[*R*]were similarly affected	context(we analyzed to see)	negated: False ,passive: False
+0.183	[*A*]we[*R*]analyzed the steady-state level of mitochondrial transcripts to see[*A*]if these were similarly affected	context(we analyzed)	negated: False ,passive: False
+0.388	[*A*]we[*R*]analyzed[*A*]the steady-state level of mitochondrial transcripts[*A*]to see if these were similarly affected	context()	negated: False ,passive: False
+0.805	[*A*]the steady-state level of POLRMT in subject fibroblasts[*R*]was modestly decreased	context()	negated: False ,passive: False
+[LINE#144]Northern blots on control and subject fibroblast RNA did not show a decrease that paralleled the reduced levels of POLRMT.
+0.891	[*A*]Northern blots on subject fibroblast RNA[*R*]did not show[*A*]a decrease that paralleled the reduced levels of POLRMT	context()	negated: True ,passive: False
+0.905	[*A*]a decrease[*R*]paralleled[*A*]the reduced levels of POLRMT	context()	negated: False ,passive: False
+0.881	[*A*]Northern blots on control RNA[*R*]did not show[*A*]a decrease that paralleled the reduced levels of POLRMT	context()	negated: True ,passive: False
+[LINE#145]In fact there was a slight increase of MTND1 in subject cells compared to control, whilst MTCOI and MTCYB transcripts appeared unaffected (Fig. 7A).
+0.788	[*A*]MTCYB transcripts[*R*]appeared	context()	negated: False ,passive: False
+0.788	[*A*]MTCOI transcripts[*R*]appeared	context()	negated: False ,passive: False
+[LINE#146]Conversely, as mentioned earlier, the levels of 16S and 12S rRNA were modestly decreased (Fig. 7A) in a proportion that was consistent with the loss of MRPs with which they would associate.
+0.816	[*A*]the levels of 16 12 S rRNA[*R*]were modestly decreased	context()	negated: False ,passive: False
+0.320	[*A*]they[*R*]would associate	context()	negated: False ,passive: False
+0.926	[*A*]a proportion[*R*]was[*A*]consistent with the loss of MRPs	context()	negated: False ,passive: True
+0.832	[*A*]the levels of 16 S[*R*]were modestly decreased	context()	negated: False ,passive: False
+[LINE#147] Analysis of the distribution on 10-30% (w/v)[58]) of two mt-mRNAs, MTCOI and MTND1, showed a relatively similar pattern for subject and control but in each case a smaller proportion of the subject transcript sedimented to the final fraction (data available on request).
+0.973	[*A*]Analysis of the distribution on 10-30 %[*R*]showed[*A*]a relatively similar pattern for control[*A*]w / v ) [ 58 ] ) of two mt - mRNAs	context()	negated: False ,passive: False
+0.973	[*A*]Analysis of the distribution on 10-30 %[*R*]showed[*A*]a relatively similar pattern for subject[*A*]w / v ) [ 58 ] ) of two mt - mRNAs	context()	negated: False ,passive: False
+0.938	[*A*]a smaller proportion of the subject transcript[*R*]sedimented[*A*]to the final fraction	context()	negated: False ,passive: True
+0.973	[*A*]Analysis of the distribution on 10-30 %[*R*]showed[*A*]a relatively similar pattern in each case[*A*]w / v ) [ 58 ] ) of two mt - mRNAs	context()	negated: False ,passive: False
+[LINE#148]This was also true for the 16S and 12S rRNA.
+0.223	[*A*]This[*R*]was[*A*]also[*A*]true	context()	negated: False ,passive: True
+[LINE#149]As no major redistribution in the sucrose gradient was observed, it is unlikely that the MRPL12 mutation causes a global defect in assembly of the mitoribosome.
+0.816	[*A*]no major redistribution in the sucrose gradient[*R*]was observed	context()	negated: False ,passive: False
+[LINE#150]Since the levels of POLRMT were slightly decreased with normal or slightly elevated levels of mt-mRNA, we assessed the stability of transcripts to see if the half-lives were extended to compensate for reduced synthesis in order to maintain normal steady state levels.
+0.897	[*A*]the half-lives[*R*]were extended[*A*]to compensate for reduced synthesis in order	context(we assessed to see)	negated: False ,passive: True
+0.504	[*A*]we[*R*]assessed the stability of transcripts to see[*A*]if the half-lives were extended to compensate for reduced synthesis in order	context(we assessed)	negated: False ,passive: False
+0.388	[*A*]we[*R*]assessed[*A*]the stability of transcripts[*A*]to see if the half-lives were extended	context()	negated: False ,passive: False
+0.938	[*A*]the levels of POLRMT[*R*]were slightly decreased[*A*]with normal or slightly elevated levels of mt-mRNA	context()	negated: False ,passive: True
+[LINE#151]Mitochondrial transcription was poisoned by addition of low levels of ethidium bromide and RNA prepared at numerous time points thereafter (0-16h).
+0.855	[*A*]RNA[*R*]prepared[*A*]at numerous time points	context()	negated: False ,passive: False
+0.927	[*A*]Mitochondrial transcription[*R*]was poisoned[*A*]by addition of low levels of ethidium bromide	context()	negated: False ,passive: True
+[LINE#152]Densitometry of the subsequent Northern demonstrated that half-lives of MTCOI and MTND1 were extended, the latter more so, consistent with the modest increase in steady state levels (data available on request).
+0.722	[*A*]half - lives of MTND1[*R*]were extended more so	context(Densitometry of the subsequent Northern demonstrated)	negated: False ,passive: False
+0.905	[*A*]Densitometry of the subsequent Northern[*R*]demonstrated[*A*]that half - lives of MTND1 were extended , the latter more so	context()	negated: False ,passive: False
+0.722	[*A*]half - lives of MTCOI[*R*]were extended more so	context(Densitometry of the subsequent Northern demonstrated)	negated: False ,passive: False
+0.905	[*A*]Densitometry of the subsequent Northern[*R*]demonstrated[*A*]that half - lives of MTCOI were extended , the latter more so	context()	negated: False ,passive: False
+[LINE#153]2 dimerization and interaction with the mitoribosomeMRPL12 is the orthologue of eubacterial L7/L12, where L7 is identical to L12 except that it is N-terminal acetylated.
+0.947	[*A*]interaction with the mitoribosomeMRPL12[*R*]is[*A*]the orthologue of eubacterial L7 / L12	context()	negated: False ,passive: True
+0.568	[*A*]it[*R*]is[*A*]N - terminal acetylated	context()	negated: False ,passive: True
+0.594	[*A*]L7[*R*]to L12	context()	negated: False ,passive: False
+0.843	[*A*]L7[*R*]is[*A*]identical to L12 except that it is N - terminal acetylated[*A*]eubacterial L7 / L12	context()	negated: False ,passive: True
+0.937	[*A*]2 dimerization[*R*]is[*A*]the orthologue of eubacterial L7 / L12	context()	negated: False ,passive: True
+[LINE#154]L7/L12 is also phosphorylated, which can affect both conformation and binding to partner ribosomal proteins (reviewed in Ref.
+0.913	[*A*]partner ribosomal proteins[*R*]reviewed[*A*]in Ref	context()	negated: False ,passive: True
+0.883	[*A*]L7 / L12[*R*]is phosphorylated[*A*]which can affect binding to partner ribosomal proteins	context()	negated: False ,passive: True
+0.883	[*A*]L7 / L12[*R*]is phosphorylated[*A*]which can affect both conformation	context()	negated: False ,passive: True
+[LINE#155] This modification has now been confirmed to be present in mammalian MRPL12.
+0.905	[*A*]This modification[*R*]to be[*A*]present in mammalian MRPL12	context()	negated: False ,passive: True
+0.761	[*A*]This modification[*R*]has been confirmed[*A*]now	context()	negated: False ,passive: True
+[LINE#156]In eubacteria, association of L7/12 to the large subunit takes place via the L10 protein such that two L7/L12 heterodimers normally associate per LSU [60].
+0.940	[*A*]L7/L12 heterodimers[*R*]associate[*A*]per LSU[*A*]60	context()	negated: False ,passive: False
+0.973	[*A*]association of L7/12 to the large subunit[*R*]takes[*A*]place[*A*]In eubacteria	context()	negated: False ,passive: True
+[LINE#157]Interestingly these dimers are actively exchanged on the 70S molecule without disruption of the ribosomal particle [54,61].
+0.903	[*A*]these dimers[*R*]are actively exchanged[*A*]on the 70S molecule	context()	negated: False ,passive: True
+[LINE#158]The dimerization status and number of dimers attached to the human 55S has not been clarified.
+0.718	[*A*]number of dimers[*R*]has not been clarified	context()	negated: True ,passive: False
+0.713	[*A*]dimers[*R*]attached	context()	negated: False ,passive: False
+0.751	[*A*]The dimerization status[*R*]has not been clarified	context()	negated: True ,passive: False
+[LINE#159]In order to identify if the stoichiometry of MRPL12 per mt-LSU was altered as a consequence of the mutation, we performed immunoprecipitation (IP) analysis on subject and control fibroblasts using antibodies to MRPL12.
+0.333	[*A*]we[*R*]performed immunoprecipitation using[*A*]antibodies[*A*]to MRPL12	context(we performed)	negated: False ,passive: False
+0.388	[*A*]we[*R*]performed[*A*]immunoprecipitation[*A*]analysis	context()	negated: False ,passive: False
+0.921	[*A*]the stoichiometry of MRPL12 per mt - LSU[*R*]was altered[*A*]as a consequence of the mutation	context()	negated: False ,passive: True
+[LINE#160]Analysis of the immunoprecipitate demonstrated similar levels small subunit polypeptides including DAP3 and MRPS18B in subject and control samples.
+0.919	[*A*]Analysis of the immunoprecipitate[*R*]demonstrated[*A*]similar levels	context()	negated: False ,passive: False
+[LINE#161] In contrast, the total amount of MRPL12 was reduced (Fig..
+0.832	[*A*]the total amount of MRPL12[*R*]was reduced	context()	negated: False ,passive: False
+[LINE#162]In the patient the IP is restricted to MRPL12 in the large subunit or the fully assembled 55S with the total amount of MRPL12 being reduced as it lacks the "free" population.
+0.522	[*A*]it[*R*]lacks[*A*]the "free" population	context()	negated: False ,passive: False
+0.902	[*A*]the total amount of MRPL12[*R*]being reduced[*A*]as it lacks the "free" population	context()	negated: False ,passive: True
+0.978	[*A*]the IP[*R*]is restricted[*A*]to MRPL12[*A*]in the large subunit or the fully assembled 55S with the total amount of MRPL12[*A*]In the patient	context()	negated: False ,passive: True
+[LINE#163] The densitometric measurements indicate that the patient IP has ~49% MRPL12compared to control, in accordance with the gradient and steady state data.
+0.822	[*A*]The densitometric measurements[*R*]indicate[*A*]that the patient IP has ~49 % MRPL12compared to control , in accordance with the steady state data	context()	negated: False ,passive: False
+0.717	[*A*]~49 %[*R*]MRPL12compared[*A*]to control	context(The densitometric measurements indicate the patient IP has)	negated: False ,passive: True
+0.913	[*A*]the patient IP[*R*]has[*A*]~49 % MRPL12compared to control	context(The densitometric measurements indicate)	negated: False ,passive: False
+0.822	[*A*]The densitometric measurements[*R*]indicate[*A*]that the patient IP has ~49 % MRPL12compared to control , in accordance with the gradient state data	context()	negated: False ,passive: False
+0.698	[*A*]~49 %[*R*]to control	context()	negated: False ,passive: False
+[LINE#164]ICT1 appears to be sensitive to the MRPL12 levels and so is reduced in both the IP (~58% of control) and in the steady state westerns (Fig. 4).
+0.894	[*A*]ICT1[*R*]appears[*A*]in the steady state westerns	context()	negated: False ,passive: True
+0.921	[*A*]ICT1[*R*]is reduced[*A*]in both the IP ( ~58 % of control	context()	negated: False ,passive: True
+0.896	[*A*]ICT1[*R*]to be[*A*]sensitive to the MRPL12 levels	context()	negated: False ,passive: True
+0.713	[*A*]ICT1[*R*]appears	context()	negated: False ,passive: False
+[LINE#165]The lower levels of MRPL12 could reflect loss of multimerization but since the region in the bacterial protein involved in multimerization is towards the N-terminus [62], this mutation is unlikely to have an impact on dimer/multimer formation.
+0.887	[*A*]this mutation[*R*]to have[*A*]an impact on dimer / multimer formation	context()	negated: False ,passive: False
+0.952	[*A*]this mutation[*R*]is[*A*]unlikely to have an impact on dimer / multimer formation	context()	negated: False ,passive: True
+0.949	[*A*]the region in the bacterial protein[*R*]is[*A*]towards the N - terminus [ 62	context()	negated: False ,passive: True
+0.911	[*A*]the bacterial protein[*R*]involved[*A*]in multimerization	context()	negated: False ,passive: True
+0.944	[*A*]The lower levels of MRPL12[*R*]could reflect[*A*]loss of multimerization	context()	negated: False ,passive: True
+[LINE#166]The translation factor bound dimer has been suggested to have an increased affinity for the ribosome [54,61].
+0.913	[*A*]The translation factor bound dimer[*R*]to have[*A*]an increased affinity for the ribosome	context()	negated: False ,passive: False
+0.785	[*A*]The translation factor bound dimer[*R*]has been suggested	context()	negated: False ,passive: False
+0.911	[*A*]The translation factor[*R*]bound[*A*]dimer	context()	negated: False ,passive: True
+[LINE#167]Thus a possible explanation is that the mutation affects translation factor binding, thereby reducing the affinity of the mutant MRPL12 for the ribosome.
+0.849	[*A*]the mutation[*R*]affects translation factor binding reducing[*A*]the affinity of the mutant MRPL12 for the ribosome	context(a possible explanation is the mutation affects)	negated: False ,passive: False
+0.933	[*A*]the mutation[*R*]affects[*A*]translation factor binding[*A*]thereby reducing the affinity of the mutant MRPL12 for the ribosome	context(a possible explanation is)	negated: False ,passive: False
+0.881	[*A*]a possible explanation[*R*]is[*A*]that the mutation affects translation factor binding, thereby reducing the affinity of the mutant MRPL12 for the ribosome	context()	negated: False ,passive: True
+0.732	[*A*]translation factor[*R*]binding	context()	negated: False ,passive: False
+[LINE#168] If this were the case, however, then we would expect an increase in the pool of free MRPL12whereas the subject exhibits a reduced pool of free MRPL12, which interacts with POLRMT [57].
+0.928	[*A*]free MRPL12[*R*]interacts[*A*]with POLRMT [57	context()	negated: False ,passive: False
+0.918	[*A*]the subject[*R*]exhibits[*A*]a reduced pool of free MRPL12	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]would expect[*A*]an increase in the pool of free MRPL12whereas[*A*]then	context()	negated: False ,passive: False
+0.381	[*A*]this[*R*]were[*A*]the case	context()	negated: False ,passive: True
+[LINE#169] The immunoprecipitation was performed using an MRPL12 specific antibody and so should contain all free MRPL12, MRPL12associated with uncomplexed mt-LSU and MRPL12 as part of the fully assembled 55S. Since the levels of small and large subunit proteins appeared to be similar in subject and control, these data suggest that the mt-LSU and 55S assembly are unaffected by the mutation consistent with the gradient data for the protein and RNA components.
+0.934	[*A*]all free MRPL12[*R*]MRPL12associated[*A*]with MRPL12[*A*]as part of the fully assembled 55S	context()	negated: False ,passive: True
+0.921	[*A*]the levels of large subunit proteins[*R*]to be[*A*]similar in control	context()	negated: False ,passive: True
+0.921	[*A*]the levels of large subunit proteins[*R*]to be[*A*]similar in subject	context()	negated: False ,passive: True
+0.801	[*A*]the levels of large subunit proteins[*R*]appeared	context()	negated: False ,passive: False
+0.921	[*A*]the levels of small subunit proteins[*R*]to be[*A*]similar in control	context()	negated: False ,passive: True
+0.921	[*A*]the levels of small subunit proteins[*R*]to be[*A*]similar in subject	context()	negated: False ,passive: True
+0.801	[*A*]the levels of small subunit proteins[*R*]appeared	context()	negated: False ,passive: False
+0.934	[*A*]all free MRPL12[*R*]MRPL12associated[*A*]with uncomplexed mt - LSU[*A*]as part of the fully assembled 55S	context()	negated: False ,passive: True
+0.732	[*A*]The immunoprecipitation[*R*]was performed	context()	negated: False ,passive: False
+[LINE#170] Thus the reduced levels of mutant MRPL12 in this subject correspond to i) loss of stability, ii)a decrease in the free pool that is believed to interact with the mitochondrial RNA polymerase and iii) reduced translation potentially resulting from decreased interactions with translation factors, but with no detectable increase in aberrant translation products.
+0.883	[*A*]the free pool[*R*]to interact[*A*]ii ) a decrease in the free pool that is believed to interact with iii ) reduced translation potentially resulting from decreased interactions with translation factors , but with no detectable increase in aberrant translation products	context()	negated: False ,passive: False
+0.961	[*A*]the mitochondrial RNA polymerase[*R*]reduced[*A*]translation potentially resulting from decreased interactions with translation factors , but with no detectable increase in aberrant translation products	context()	negated: False ,passive: False
+0.718	[*A*]the free pool[*R*]to interact	context()	negated: False ,passive: False
+0.718	[*A*]the free pool[*R*]is believed	context()	negated: False ,passive: False
+0.990	[*A*]ii ) a decrease in the free pool that is believed to interact with the mitochondrial RNA polymerase reduced translation[*R*]resulting[*A*]from decreased interactions with translation factors , but with no detectable increase in aberrant translation products	context()	negated: False ,passive: True
+[LINE#171] In conclusion, we report a mutation in human MRPL12that results in growth retardation and neurological distress.
+0.639	[*A*]we[*R*]report[*A*]a mutation in human MRPL12that results in neurological distress[*A*]In conclusion	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]report[*A*]a mutation in human MRPL12that results in growth retardation[*A*]In conclusion	context()	negated: False ,passive: False
+[LINE#172] It is interesting to note that whereas the eubacterial orthologue is not essential for invitro translation assays, this MRPL12 mutation induces a mitochondrial translation defect in human.
+0.911	[*A*]the eubacterial orthologue[*R*]is not[*A*]essential for invitro translation assays	context()	negated: True ,passive: True
+[LINE#173]This lack of predictability between orthologous proteins makes it important to examine and not assume what impact mutant forms or loss of MRPs may have on mitochondrial homeostasis and the resulting clinical manifestation.
+0.941	[*A*]This lack of predictability between orthologous proteins[*R*]makes[*A*]it important to examine and not assume what impact mutant forms or loss of MRPs may have on mitochondrial homeostasis and the resulting clinical manifestation	context()	negated: False ,passive: False
+[LINE#174]The data presented here provide another example, amongst a growing list of translation factors, which despite their apparent universal contribution to the synthesis of all mitochondrially encoded proteins, has a selective effect on the different oxidative phosphorylation complexes.
+0.939	[*A*]a growing list of translation factors[*R*]has[*A*]a selective effect on the different oxidative phosphorylation complexes	context()	negated: False ,passive: False
+0.919	[*A*]The data presented here[*R*]provide[*A*]another example	context()	negated: False ,passive: False
+0.767	[*A*]The data[*R*]presented[*A*]here	context()	negated: False ,passive: True

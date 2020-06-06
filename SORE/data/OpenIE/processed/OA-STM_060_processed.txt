@@ -1,0 +1,560 @@
+[LINE#1](OME), a common chronic childhood condition affecting hearing, is thought to be a result of bacterial infection, with biofilms recently implicated.
+0.818	[*A*]biofilms[*R*]implicated[*A*]recently	context()	negated: False ,passive: True
+0.927	[*A*]a common chronic childhood condition affecting hearing[*R*]to be[*A*]a result of bacterial infection	context()	negated: False ,passive: True
+0.789	[*A*]a common chronic childhood condition affecting hearing[*R*]is thought	context()	negated: False ,passive: False
+[LINE#2]Although bacterial DNA can be detected by polymerase chain reaction in 80% of patients, typically fewer than half of effusions are positive using standard culture techniques.
+0.937	[*A*]bacterial DNA[*R*]can be detected[*A*]by polymerase chain reaction in 80% of patients, typically fewer than half of effusions	context()	negated: False ,passive: True
+[LINE#3]We adopted an alternative approach to demonstrating bacteria in OME, using a bacterial viability stain and confocal laser scanning microscopy (CLSM): staining allows detection of live bacteria without requiring growth on culture, while CLSM allows demonstration of the three-dimensional structure typical of biofilms.
+0.919	[*A*]detection of live bacteria[*R*]without requiring[*A*]growth on culture	context()	negated: False ,passive: False
+0.904	[*A*]CLSM[*R*]allows[*A*]demonstration of the three - dimensional structure typical of biofilms	context()	negated: False ,passive: False
+0.498	[*A*]We[*R*]adopted[*A*]an alternative approach to demonstrating bacteria in OME	context()	negated: False ,passive: False
+[LINE#4]MethodsEffusion samples were collected at the time of ventilation tube insertion, analysed with CLSM and bacterial viability stain, and extended culture techniques performed with the intention of capturing all possible organisms.
+0.897	[*A*]ventilation tube insertion[*R*]analysed[*A*]with bacterial viability stain	context()	negated: False ,passive: True
+0.913	[*A*]ventilation tube insertion[*R*]analysed[*A*]with CLSM	context()	negated: False ,passive: True
+0.903	[*A*]MethodsEffusion samples[*R*]were collected[*A*]at the time of ventilation tube insertion	context()	negated: False ,passive: True
+0.732	[*A*]culture techniques[*R*]performed	context()	negated: False ,passive: False
+0.948	[*A*]MethodsEffusion[*R*]extended[*A*]culture techniques performed with the intention of capturing all possible organisms	context()	negated: False ,passive: False
+[LINE#5] ResultsSixty-two effusions (42 patients) were analysed: 28 (45.2%)were culture-positive, but 51 (82.3%) were CLSM-positive.
+0.920	[*A*]51 ( 82.3 %[*R*]were[*A*]CLSM - positive	context()	negated: False ,passive: True
+0.692	[*A*]ResultsSixty - two effusions[*R*]were analysed	context(28 ( 45.2 % were)	negated: False ,passive: False
+0.729	[*A*]28 ( 45.2 %[*R*]were[*A*]culture-positive	context()	negated: False ,passive: True
+[LINE#6]Combining the two techniques demonstrated live bacteria in 57 (91.8%) samples.
+0.888	[*A*]the two techniques[*R*]demonstrated[*A*]live bacteria[*A*]in 57 (91.8%) samples	context()	negated: False ,passive: False
+[LINE#7]Using CLSM, bacteria exhibited biofilm morphology in 25 effusions and were planktonic in 26; the proportion of samples exhibiting biofilm morphology was similar in the culture-positive and culture-negative groups (50.0% and 48.3%, respectively).
+0.781	[*A*]Using CLSM[*R*]were[*A*]planktonic[*A*]in 26	context(the proportion of samples was)	negated: False ,passive: True
+0.907	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-negative groups[*A*]respectively	context()	negated: False ,passive: True
+0.907	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-negative groups	context()	negated: False ,passive: True
+0.907	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-positive groups[*A*]respectively	context()	negated: False ,passive: True
+0.867	[*A*]bacteria[*R*]exhibited[*A*]biofilm morphology[*A*]in 25 effusions	context(the proportion of samples was)	negated: False ,passive: False
+0.907	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-positive groups	context()	negated: False ,passive: True
+0.894	[*A*]samples[*R*]exhibiting[*A*]biofilm morphology	context()	negated: False ,passive: False
+[LINE#8]Biofilm samples contained an average of 1.7 different bacterial isolates and planktonic samples 2.0, with the commonest bacteria identified being coagulase-negative staphylococci.
+0.919	[*A*]the commonest bacteria identified[*R*]being[*A*]coagulase-negative staphylococci	context()	negated: False ,passive: True
+0.751	[*A*]the commonest bacteria[*R*]identified	context()	negated: False ,passive: False
+0.937	[*A*]Biofilm samples[*R*]contained[*A*]an average of 1.7 different bacterial isolates and planktonic samples	context()	negated: False ,passive: False
+[LINE#9]ConclusionLive bacteria are present in most effusions, strongly suggesting that bacteria and biofilms are important in the aetiopathogenesis of OME.
+0.887	[*A*]biofilms[*R*]are[*A*]important in the aetiopathogenesis of OME	context(ConclusionLive bacteria strongly suggesting)	negated: False ,passive: True
+0.727	[*A*]ConclusionLive bacteria[*R*]strongly suggesting[*A*]that biofilms are important in the aetiopathogenesis of OME	context()	negated: False ,passive: False
+0.868	[*A*]ConclusionLive bacteria[*R*]are[*A*]present[*A*]in most effusions[*A*]strongly suggesting that biofilms are important in the aetiopathogenesis of OME	context()	negated: False ,passive: True
+0.887	[*A*]bacteria[*R*]are[*A*]important in the aetiopathogenesis of OME	context(ConclusionLive bacteria strongly suggesting)	negated: False ,passive: True
+0.727	[*A*]ConclusionLive bacteria[*R*]strongly suggesting[*A*]that bacteria are important in the aetiopathogenesis of OME	context()	negated: False ,passive: False
+0.868	[*A*]ConclusionLive bacteria[*R*]are[*A*]present[*A*]in most effusions[*A*]strongly suggesting that bacteria are important in the aetiopathogenesis of OME	context()	negated: False ,passive: True
+[LINE#10]The role of bacteria in OME has been controversial, with a long-held debate fuelled by the low number of effusions that are culture-positive and the controversy over whether PCR-positive samples indicate live bacteria.
+0.919	[*A*]PCR - positive samples[*R*]indicate[*A*]live bacteria	context()	negated: False ,passive: False
+0.920	[*A*]effusions[*R*]are[*A*]the controversy over whether PCR - positive samples indicate live bacteria	context()	negated: False ,passive: True
+0.716	[*A*]effusions[*R*]are[*A*]culture-positive	context()	negated: False ,passive: True
+0.926	[*A*]a long - held debate[*R*]fuelled[*A*]by the low number of effusions	context()	negated: False ,passive: True
+0.949	[*A*]The role of bacteria in OME[*R*]has been[*A*]controversial[*A*]with a long - held debate	context()	negated: False ,passive: True
+[LINE#11]However, this study, using extended cultures and confocal microscopy, demonstrates live bacteria in more than 90% of middle ear effusions in children with glue ear, strongly suggesting that bacteria and biofilms are important in the pathogenesis of the condition.
+0.888	[*A*]bacteria and biofilms[*R*]are[*A*]important in the pathogenesis of the condition	context(this study , using extended cultures and confocal microscopy demonstrates strongly suggesting)	negated: False ,passive: True
+0.820	[*A*]this study, using extended cultures and confocal microscopy[*R*]demonstrates live bacteria strongly suggesting[*A*]that bacteria and biofilms are important in the pathogenesis of the condition	context(this study , using extended cultures and confocal microscopy demonstrates)	negated: False ,passive: False
+0.858	[*A*]this study[*R*]using[*A*]extended cultures and confocal microscopy	context(this study , using extended cultures and confocal microscopy demonstrates)	negated: False ,passive: False
+0.923	[*A*]this study, using extended cultures and confocal microscopy[*R*]demonstrates[*A*]live bacteria	context()	negated: False ,passive: False
+[LINE#12]Summary of findingsThe results show that combining culture and confocal microscopy enables demonstration of live bacteria in more than 90% of OME samples, strongly suggesting a role for bacteria in the aetiopathogenesis of OME.
+0.941	[*A*]combining confocal microscopy[*R*]enables[*A*]demonstration of live bacteria in more than 90 % of OME samples	context(Summary of findingsThe results show)	negated: False ,passive: False
+0.894	[*A*]Summary of findingsThe results[*R*]show[*A*]that combining confocal microscopy enables demonstration of live bacteria in more than 90 % of OME samples , strongly suggesting a role for bacteria in the aetiopathogenesis of OME	context()	negated: False ,passive: False
+0.935	[*A*]combining culture[*R*]enables[*A*]demonstration of live bacteria in more than 90 % of OME samples	context(Summary of findingsThe results show)	negated: False ,passive: False
+0.894	[*A*]Summary of findingsThe results[*R*]show[*A*]that combining culture enables demonstration of live bacteria in more than 90 % of OME samples , strongly suggesting a role for bacteria in the aetiopathogenesis of OME	context()	negated: False ,passive: False
+[LINE#13]Extended cultures alone were positive in 45.2%.
+0.911	[*A*]Extended cultures alone[*R*]were[*A*]positive[*A*]in 45.2%	context()	negated: False ,passive: True
+[LINE#14]However, CLSM was positive in 82.3%, and in these samples biofilms were demonstrated in 49.0%.
+0.993	[*A*]CLSM[*R*]were demonstrated in[*A*]49.0 %	context()	negated: False ,passive: False
+0.899	[*A*]CLSM[*R*]were demonstrated[*A*]in 49.0 %[*A*]in these samples biofilms	context()	negated: False ,passive: True
+0.734	[*A*]CLSM[*R*]was[*A*]positive	context()	negated: False ,passive: True
+[LINE#15]A wide variety of different bacteria were also identified, rather than just the traditional three studied in the past (S. pneumoniae, H. influenzae, M. catarrhalis)..
+0.615	[*A*]just the traditional three[*R*]studied[*A*]in the past	context()	negated: False ,passive: True
+0.724	[*A*]A wide variety of different bacteria[*R*]were identified	context()	negated: False ,passive: False
+[LINE#16]Biofilms in OMEThe microbiology of OME has been studied for many decades, yet controversy still exists as to the role of bacteria in the aetiology of OME [4,26].
+0.961	[*A*]controversy[*R*]exists[*A*]as to the role of bacteria in the aetiology of OME[*A*]still	context()	negated: False ,passive: True
+0.905	[*A*]Biofilms in OMEThe microbiology of OME[*R*]has been studied[*A*]for many decades	context()	negated: False ,passive: True
+[LINE#17]A high proportion of effusions (typically more than half) are culture-negative [11-16].
+0.996	[*A*]typically more than half[*R*]has culture-negative of[*A*]11 -16	context()	negated: False ,passive: False
+0.788	[*A*]A high proportion of effusions[*R*]are[*A*]culture-negative [11-16	context()	negated: False ,passive: True
+[LINE#18]However, while PCR has demonstrated bacterial nucleic acids in a much greater number of patients [4,17,18], nucleic acids identified at PCR may not represent viable bacteria, even when the quantitative technique of real time PCR is used [27], although a novel technique of differentiating whether DNA comes from live or dead bacteria has recently been developed [28].
+0.735	[*A*]a novel technique of differentiating[*R*]has been developed[*A*]recently	context(nucleic acids identified at PCR may not represent)	negated: False ,passive: True
+0.929	[*A*]nucleic acids identified at PCR[*R*]may not represent[*A*]viable bacteria	context()	negated: True ,passive: False
+0.918	[*A*]nucleic acids[*R*]identified[*A*]at PCR	context()	negated: False ,passive: True
+0.855	[*A*]DNA[*R*]comes[*A*]from live or dead bacteria	context()	negated: False ,passive: True
+0.855	[*A*]PCR[*R*]has demonstrated[*A*]bacterial nucleic acids	context()	negated: False ,passive: False
+[LINE#19]An alternative view of bacteria in OME is that they might be viable but not culturable by conventional means, a state that is commonly seen in biofilms [29,30].
+0.562	[*A*]they[*R*]might be[*A*]not culturable by conventional means	context(An alternative view of bacteria in OME is)	negated: False ,passive: True
+0.874	[*A*]An alternative view of bacteria in OME[*R*]is[*A*]that they might be not culturable by conventional means , a state	context()	negated: False ,passive: True
+0.311	[*A*]they[*R*]might be[*A*]viable	context(An alternative view of bacteria in OME is)	negated: False ,passive: True
+0.812	[*A*]An alternative view of bacteria in OME[*R*]is[*A*]that they might be viable , a state	context()	negated: False ,passive: True
+0.837	[*A*]a state[*R*]is seen[*A*]in biofilms	context()	negated: False ,passive: True
+[LINE#20]An additional problem is the issue of sampling: a biofilm may be localised to only one part of the effusion, so unless the entire effusion is analysed, a localised biofilm may be missed.
+0.887	[*A*]An additional problem[*R*]is the issue of[*A*]sampling	context()	negated: False ,passive: False
+0.878	[*A*]a biofilm[*R*]may be localised[*A*]to only one part of the effusion	context(An additional problem is a localised biofilm may be missed)	negated: False ,passive: True
+0.913	[*A*]An additional problem[*R*]is[*A*]the issue of sampling	context(a localised biofilm may be missed)	negated: False ,passive: True
+0.699	[*A*]a localised biofilm[*R*]may be missed	context()	negated: False ,passive: False
+0.751	[*A*]the entire effusion[*R*]is analysed	context()	negated: False ,passive: False
+[LINE#21]Our data add to current knowledge of bacterial and biofilm involvement in OME as we examined mucus as the site of biofilm attachment rather than mucosa, and clearly demonstrated that the bacteria were viable (something that PCR cannot do) in more than 90% of samples [4,12,20,31,32].
+0.710	[*A*]Our data[*R*]add[*A*]to current knowledge of biofilm involvement in OME[*A*]as we examined mucus as the site of biofilm attachment	context()	negated: False ,passive: False
+0.939	[*A*]something[*R*]can not do[*A*]PCR	context()	negated: True ,passive: True
+0.498	[*A*]we[*R*]examined[*A*]mucus	context()	negated: False ,passive: False
+0.710	[*A*]Our data[*R*]add[*A*]to current knowledge of bacterial involvement in OME[*A*]as we examined mucus as the site of biofilm attachment	context()	negated: False ,passive: False
+0.856	[*A*]something[*R*]can not do[*A*]in more than 90 % of samples	context()	negated: True ,passive: True
+[LINE#22]Biofilms and bacterial structural components may themselves be pathogenic, and have been shown to cause inflammatory cytokine release [13,33], but may also act as a reservoir of bacteria, with some bacteria leaving the biofilm to become planktonic and disseminated.
+0.903	[*A*]some bacteria[*R*]leaving[*A*]the biofilm[*A*]to become planktonic and disseminated	context()	negated: False ,passive: False
+0.873	[*A*]Biofilms and bacterial structural components[*R*]may act[*A*]as a reservoir of bacteria	context()	negated: False ,passive: False
+0.913	[*A*]Biofilms and bacterial structural components[*R*]to cause[*A*]inflammatory cytokine release	context()	negated: False ,passive: False
+0.756	[*A*]Biofilms and bacterial structural components[*R*]have been shown	context()	negated: False ,passive: False
+0.735	[*A*]some bacteria[*R*]to become[*A*]planktonic and disseminated	context()	negated: False ,passive: True
+[LINE#23] While bacteria in biofilm mode are usually in dormant phase and do not, for instance, produce toxins or invasion-related virulence factors, this facility can be restored on reversion to planktonic mode.
+0.903	[*A*]this facility[*R*]can be restored[*A*]on reversion[*A*]to planktonic mode	context()	negated: False ,passive: True
+0.862	[*A*]bacteria in biofilm mode[*R*]do not produce[*A*]toxins or invasion-related virulence factors	context()	negated: True ,passive: False
+0.919	[*A*]bacteria in biofilm mode[*R*]are[*A*]usually[*A*]in dormant phase	context()	negated: False ,passive: True
+[LINE#24]CLSM we were able to detect biofilms in just under half of CLSM-positive samples.
+0.411	[*A*]we[*R*]to detect[*A*]biofilms[*A*]in just under half of CLSM-positive samples	context()	negated: False ,passive: False
+0.702	[*A*]we[*R*]were[*A*]able to detect biofilms in just under half of CLSM-positive samples[*A*]CLSM	context()	negated: False ,passive: True
+[LINE#25]However, CLSM identified live bacteria in 85.3% of the culture-negative samples.
+0.855	[*A*]CLSM[*R*]identified[*A*]live bacteria	context()	negated: False ,passive: False
+[LINE#26]Among culture-negative samples 14.7% were also confocal-negative, but of the culture-positive samples 21.4% were confocal-negative.
+0.767	[*A*]21.4%[*R*]were[*A*]confocal-negative	context()	negated: False ,passive: True
+0.943	[*A*]14.7%[*R*]were[*A*]also[*A*]confocal-negative[*A*]Among culture-negative samples	context()	negated: False ,passive: True
+[LINE#27]This suggests that CLSM may under-estimate the presence of bacteria, perhaps due to sampling differences, especially important where small samples of effusion were divided between several tests.
+0.832	[*A*]CLSM[*R*]may estimate[*A*]the presence of bacteria, perhaps due to sampling differences, especially important	context(This suggests)	negated: False ,passive: False
+0.258	[*A*]This[*R*]suggests[*A*]that CLSM may under-estimate the presence of bacteria, perhaps due to sampling differences, especially important	context()	negated: False ,passive: False
+0.919	[*A*]small samples of effusion[*R*]were divided[*A*]between several tests	context()	negated: False ,passive: True
+[LINE#28]There appeared to be no great difference between planktonic and biofilm bacteria identified on LCSM-positive samples, with similar numbers being culture-positive.
+0.767	[*A*]similar numbers[*R*]being[*A*]culture-positive	context()	negated: False ,passive: True
+0.931	[*A*]planktonic and biofilm bacteria[*R*]identified[*A*]on LCSM-positive samples	context()	negated: False ,passive: True
+[LINE#29]Although one might have expected all samples containing planktonic bacteria to have been culture-positive according to the non-culturable biofilm theory, 16 such effusions were culture-negative.
+0.905	[*A*]all samples containing planktonic bacteria[*R*]to have been[*A*]culture-positive[*A*]according to the non-culturable biofilm theory	context(one might have expected)	negated: False ,passive: True
+0.664	[*A*]one[*R*]might have expected[*A*]all samples containing planktonic bacteria to have been culture-positive according to the non-culturable biofilm theory	context()	negated: False ,passive: False
+0.783	[*A*]16 such effusions[*R*]were[*A*]culture-negative	context()	negated: False ,passive: True
+0.903	[*A*]all samples[*R*]containing[*A*]planktonic bacteria	context()	negated: False ,passive: False
+[LINE#30]It is possible that these bacteria did exist in biofilm form (which would make them difficult to culture), but that their original morphology was disturbed by the process of surgical aspiration or laboratory preparation/mixing.
+0.757	[*A*]their original morphology[*R*]was disturbed[*A*]by the process of surgical aspiration or laboratory preparation/mixing	context()	negated: False ,passive: True
+[LINE#31]The fact that some effusions containing biofilms on confocal microscopy were culture positive is not surprising as bacteria from biofilms frequently leave the biofilm to enter the planktonic state (and would therefore be culturable), and processing of samples for analysis may also disrupt the biofilm thus rendering the bacteria planktonic and the culture positive.
+0.887	[*A*]the biofilm[*R*]rendering[*A*]the culture positive	context()	negated: False ,passive: False
+0.890	[*A*]processing of samples for analysis[*R*]may disrupt[*A*]the biofilm thus rendering the culture positive	context()	negated: False ,passive: False
+0.887	[*A*]the biofilm[*R*]rendering[*A*]the bacteria planktonic	context()	negated: False ,passive: False
+0.890	[*A*]processing of samples for analysis[*R*]may disrupt[*A*]the biofilm thus rendering the bacteria planktonic	context()	negated: False ,passive: False
+0.623	[*A*]the biofilm[*R*]would be[*A*]culturable	context(bacteria from biofilms leave)	negated: False ,passive: True
+0.923	[*A*]bacteria from biofilms[*R*]leave[*A*]the biofilm would therefore be culturable[*A*]frequently	context()	negated: False ,passive: False
+0.977	[*A*]The fact that some effusions containing biofilms on confocal microscopy were culture positive[*R*]is not[*A*]surprising[*A*]as bacteria from biofilms frequently leave the biofilm would therefore be culturable	context()	negated: True ,passive: True
+0.813	[*A*]bacteria from biofilms[*R*]leave to enter[*A*]the planktonic state	context(bacteria from biofilms leave)	negated: False ,passive: False
+0.923	[*A*]bacteria from biofilms[*R*]leave[*A*]the biofilm to enter the planktonic state ( )[*A*]frequently	context()	negated: False ,passive: False
+0.964	[*A*]The fact that some effusions containing biofilms on confocal microscopy were culture positive[*R*]is not[*A*]surprising[*A*]as bacteria from biofilms frequently leave the biofilm	context()	negated: True ,passive: True
+0.938	[*A*]some effusions containing biofilms on confocal microscopy[*R*]were[*A*]culture positive	context()	negated: False ,passive: True
+0.903	[*A*]some effusions[*R*]containing[*A*]biofilms on confocal microscopy	context()	negated: False ,passive: False
+[LINE#32]Children's effusions appeared to be more likely to contain biofilms than adults, in keeping with the expected infective aetiology of OME in children but a possibly different aetiology in adults [4].
+0.897	[*A*]Children 's effusions[*R*]to contain[*A*]biofilms than adults	context()	negated: False ,passive: False
+0.897	[*A*]Children 's effusions[*R*]to be[*A*]more likely to contain biofilms than adults	context()	negated: False ,passive: True
+0.751	[*A*]Children 's effusions[*R*]appeared	context()	negated: False ,passive: False
+[LINE#33]No great correlation between findings in the opposite ears has been demonstrated, suggesting that individual ears may be subject to different local aetiopathogenic mechanisms.
+0.899	[*A*]No great correlation between findings in the opposite ears[*R*]has been demonstrated[*A*]suggesting that individual ears may be subject to different local aetiopathogenic mechanisms	context()	negated: False ,passive: True
+[LINE#34]Biofilms were identified on the basis of well-established morphological criteria that have been applied to OME in the recent past, i.e. the presence of three-dimensional bacterial clusters within an amorphous matrix and associated with a surface such as eukaryotic cells or strands [12,25].
+0.927	[*A*]well-established morphological criteria[*R*]have been applied[*A*]to OME[*A*]in the recent past	context()	negated: False ,passive: True
+0.713	[*A*]Biofilms[*R*]were identified	context()	negated: False ,passive: False
+[LINE#35]Although the BacLight stain enables differentiation only between bacteria with intact and damaged cytoplasmic membranes it is often used to differentiate between active and dead cells [35,36], and while it appears to be reasonable to consider membrane-compromised bacterial cells as dead, the reverse (i.e. intact membrane signifies live cells) may not be true in a small number of cases [35].
+0.528	[*A*]it[*R*]to be[*A*]reasonable to consider membrane - compromised bacterial cells as dead	context()	negated: False ,passive: True
+0.939	[*A*]the reverse ( i.e. intact membrane signifies live cells[*R*]may not be[*A*]true[*A*]in a small number of cases	context()	negated: True ,passive: True
+0.911	[*A*]i.e. intact membrane[*R*]signifies[*A*]live cells	context()	negated: False ,passive: False
+0.170	[*A*]it[*R*]to differentiate	context()	negated: False ,passive: False
+0.606	[*A*]it[*R*]is used[*A*]to differentiate between active and dead cells [ 35,36 ] as dead[*A*]often	context()	negated: False ,passive: True
+0.957	[*A*]the BacLight stain[*R*]enables[*A*]differentiation only between bacteria with intact and damaged cytoplasmic membranes	context()	negated: False ,passive: False
+[LINE#36]However, given that 82.3% of the samples in this study stained live on confocal microscopy, a small false-live rate will still leave the majority of samples containing live bacteria.
+0.894	[*A*]samples[*R*]containing[*A*]live bacteria	context()	negated: False ,passive: False
+0.941	[*A*]a small false-live rate[*R*]will leave[*A*]the majority of samples[*A*]still	context()	negated: False ,passive: False
+0.943	[*A*]82.3% of the samples in this study[*R*]stained live[*A*]on confocal microscopy	context()	negated: False ,passive: False
+[LINE#37]The question of whether OME is a biofilm infection has been addressed by Fergie et al.
+0.968	[*A*]The question of whether OME is a biofilm infection[*R*]has been addressed[*A*]by Fergie et al	context()	negated: False ,passive: True
+0.938	[*A*]OME[*R*]is[*A*]a biofilm infection	context()	negated: False ,passive: True
+[LINE#38] Parsek and Singh suggested that the following criteria should be fulfilled for a disease to be considered a biofilm infection[25]:Bacteria are adherent to substratum or a surface.Bacteria are living in cell clusters or micro-colonies encased in an extracellular matrix.Infection is generally confined to a particular location.Infection is difficult or impossible to eradicate with antibiotics, despite the responsible bacteria being susceptible to the antibiotic when in the planktonic state.
+0.385	[*A*]Bacteria[*R*]are adherent to[*A*]substratum	context()	negated: False ,passive: False
+0.894	[*A*]micro-colonies[*R*]encased[*A*]in an extracellular matrix.Infection	context()	negated: False ,passive: True
+0.911	[*A*]the responsible bacteria[*R*]being[*A*]susceptible to the antibiotic when in the planktonic state	context()	negated: False ,passive: True
+0.903	[*A*]a surface.Bacteria[*R*]are living[*A*]in cell clusters or micro-colonies	context()	negated: False ,passive: False
+0.707	[*A*]the following criteria[*R*]should be fulfilled	context(Parsek and Singh suggested)	negated: False ,passive: False
+0.867	[*A*]Parsek and Singh[*R*]suggested[*A*]that the following criteria should be fulfilled for a disease to be considered a biofilm infection[25]	context()	negated: False ,passive: False
+[LINE#39]Our results show that extended culture techniques and confocal microscopy together can identify live bacteria in 92% of cases, and we found biofilms in just under half of effusions.
+0.882	[*A*]confocal microscopy[*R*]together can identify[*A*]live bacteria	context(Our results show)	negated: False ,passive: False
+0.523	[*A*]Our results[*R*]show[*A*]that confocal microscopy together can identify live bacteria in 92 % of cases	context()	negated: False ,passive: False
+0.891	[*A*]extended culture techniques[*R*]together can identify[*A*]live bacteria	context(Our results show)	negated: False ,passive: False
+0.523	[*A*]Our results[*R*]show[*A*]that extended culture techniques together can identify live bacteria in 92 % of cases	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]found[*A*]biofilms[*A*]in just under half of effusions	context()	negated: False ,passive: False
+[LINE#40]Although studies of middle ear mucosa have shown biofilms in most (but not all) samples, this does not necessarily contradict our findings as there are several reasons why this difference between mucosa and mucus may exist [12,32].
+0.801	[*A*]this difference between mucosa and mucus[*R*]may exist	context()	negated: False ,passive: False
+0.179	[*A*]this[*R*]does not contradict[*A*]our findings[*A*]as there are several reasons	context()	negated: True ,passive: False
+0.926	[*A*]studies of middle ear mucosa[*R*]have shown[*A*]biofilms[*A*]in most (but not all) samples	context()	negated: False ,passive: False
+[LINE#41]It is possible that biofilms exist on the mucosa in most people with OME but exist within the effusion associated with mucins in only just under half of cases, or that biofilms on mucosa act as reservoirs of bacteria that then enter the effusion, or that there is an issue with which part of the effusion is sampled for analysis.
+0.385	[*A*]there[*R*]is an issue with[*A*]which	context()	negated: False ,passive: False
+0.939	[*A*]reservoirs of bacteria[*R*]enter[*A*]the effusion[*A*]then	context()	negated: False ,passive: False
+0.845	[*A*]the effusion[*R*]associated[*A*]with mucins in only just under half of cases, or that biofilms on mucosa act as reservoirs of bacteria	context()	negated: False ,passive: True
+0.877	[*A*]biofilms[*R*]exist[*A*]within the effusion	context()	negated: False ,passive: True
+0.919	[*A*]part of the effusion[*R*]is sampled[*A*]for analysis	context()	negated: False ,passive: True
+[LINE#42] The presence of an intact mucus layer appears to be important in controlling bacteria within the human gastro-intestinal tract as most bacteria reside on the luminal side of the mucus layer [37], with no direct contact with the epithelium unless inflammation is present [38,39].Could biofilms be a part of the normal middle ear flora rather than the pathogenic cause of OME?.
+0.798	[*A*]inflammation[*R*]is[*A*]present	context()	negated: False ,passive: True
+0.937	[*A*]most bacteria[*R*]reside[*A*]on the luminal side of the mucus layer [37], with no direct contact with the epithelium	context()	negated: False ,passive: False
+0.953	[*A*]The presence of an intact mucus layer[*R*]to be[*A*]important in controlling bacteria within the human gastro-intestinal tract	context()	negated: False ,passive: True
+0.816	[*A*]The presence of an intact mucus layer[*R*]appears	context()	negated: False ,passive: False
+[LINE#43]While Hall-Stoodley [12] did not find any biofilms in their healthy controls, another study [40] of middle ear mucosal biopsy at time of cochlear implant showed biofilms in 2 out of 45 cases without evidence of previous otologic problems or abnormalities, suggesting that biofilms may exist in the asymptomatic middle ear.
+0.934	[*A*]another study [40] of middle ear[*R*]showed[*A*]biofilms[*A*]in 2	context()	negated: False ,passive: False
+0.865	[*A*]Hall-Stoodley[*R*]did not find[*A*]any biofilms in their healthy controls	context()	negated: True ,passive: False
+[LINE#44]The difficulty when researching biofilms in OME is choice of control group.
+0.964	[*A*]The difficulty when researching biofilms in OME[*R*]is[*A*]choice of control group	context()	negated: False ,passive: True
+[LINE#45]Entirely normal patients do not require ear surgery, and all the control groups chosen are patients having surgery for another (ostensibly non-related) reason, but they cannot be considered to be normal.
+0.323	[*A*]they[*R*]to be[*A*]normal	context()	negated: False ,passive: True
+0.894	[*A*]patients[*R*]having[*A*]surgery for another ( ostensibly non-related ) reason	context()	negated: False ,passive: False
+0.952	[*A*]all the control groups chosen[*R*]are[*A*]patients having surgery for another ( ostensibly non-related ) reason	context()	negated: False ,passive: True
+0.769	[*A*]all the control groups[*R*]chosen	context()	negated: False ,passive: False
+0.911	[*A*]Entirely normal patients[*R*]do not require[*A*]ear surgery	context()	negated: True ,passive: False
+[LINE#46]When studying effusions as in this study, the problem is compounded by the fact that the normal ear does not have an effusion, therefore no suitable negative control exists.
+0.886	[*A*]the problem[*R*]is compounded[*A*]by the fact that the normal ear does not have an effusion[*A*]When studying effusions as in this study	context(no suitable negative control exists)	negated: False ,passive: True
+0.727	[*A*]no suitable negative control[*R*]exists	context()	negated: False ,passive: False
+0.911	[*A*]the normal ear[*R*]does not have[*A*]an effusion	context()	negated: True ,passive: False
+[LINE#47]A further problem relates to the common phenomenon of temporary OME, so it possible that children considered "normal" may have biofilms in their middle ear because they have a temporary problem that would never come to medical attention otherwise.
+0.897	[*A*]a temporary problem[*R*]would never come[*A*]to medical attention[*A*]otherwise	context()	negated: True ,passive: True
+0.484	[*A*]they[*R*]have[*A*]a temporary problem that would never come to medical attention otherwise	context()	negated: False ,passive: False
+0.810	[*A*]children considered[*R*]may have[*A*]biofilms[*A*]in their middle ear[*A*]because they have a temporary problem	context()	negated: False ,passive: False
+0.713	[*A*]children[*R*]considered	context()	negated: False ,passive: False
+0.925	[*A*]A further problem[*R*]relates[*A*]to the common phenomenon of temporary OME	context()	negated: False ,passive: True
+[LINE#48]Nevertheless, the presence of a biofilm may lead to an inflammatory stimulus that results in middle ear mucosal inflammation and therefore clinical OME [10,13].
+0.944	[*A*]an inflammatory stimulus[*R*]results[*A*]in middle ear mucosal inflammation and therefore clinical OME [10,13	context()	negated: False ,passive: True
+0.926	[*A*]the presence of a biofilm[*R*]may lead[*A*]to an inflammatory stimulus	context()	negated: False ,passive: False
+[LINE#49]Biofilms have also been found in patients with cholesteatoma and chronic suppurative otitis media [32,41]. .
+0.847	[*A*]Biofilms[*R*]have been found[*A*]in patients with chronic suppurative otitis media	context()	negated: False ,passive: True
+0.847	[*A*]Biofilms[*R*]have been found[*A*]in patients with cholesteatoma otitis media	context()	negated: False ,passive: True
+[LINE#50]pneumoniae, M. catarrhalis and H. influenzae are the most common pathogens implicated in OME, and all are capable of forming biofilms [33,42].
+0.938	[*A*]H. influenzae[*R*]are[*A*]the most common pathogens implicated in OME	context()	negated: False ,passive: True
+0.931	[*A*]the most common pathogens[*R*]implicated[*A*]in OME	context()	negated: False ,passive: True
+0.938	[*A*]M. catarrhalis[*R*]are[*A*]the most common pathogens implicated in OME	context()	negated: False ,passive: True
+0.381	[*A*]all[*R*]are[*A*]capable of forming biofilms	context()	negated: False ,passive: True
+[LINE#51]However, rather than focusing just on those three bacteria, this study cultured effusions on a wide range of different media for prolonged time periods in order to capture as many isolates as possible.
+[LINE#52]Interestingly, coagulase negative staphylococci (CoNS), Veillonella spp.
+[LINE#53]and S. aureus were the three commonest pathogens isolated in this study.
+0.919	[*A*]the three commonest pathogens[*R*]isolated[*A*]in this study	context()	negated: False ,passive: True
+0.927	[*A*]S. aureus[*R*]were[*A*]the three commonest pathogens isolated in this study	context()	negated: False ,passive: True
+[LINE#54]CoNS were long thought to be non-pathogenic commensals, but with the recognition of their biofilm-forming capacity have emerged as the leading cause of biomaterials-related infection [43,43].
+0.786	[*A*]CoNS[*R*]to be[*A*]non-pathogenic commensals	context()	negated: False ,passive: True
+0.599	[*A*]CoNS[*R*]were thought[*A*]long	context()	negated: False ,passive: True
+[LINE#55]S. lugdunensis, isolated here on three occasions, in particular has been implicated in endocarditis, wound infection, and implant-related infection as well as otitis media, behaving more like S. aureus than other CoNS [45].
+0.928	[*A*]S. lugdunensis[*R*]has been implicated[*A*]in otitis media[*A*]behaving more like S. aureus than other CoNS	context()	negated: False ,passive: True
+0.928	[*A*]S. lugdunensis[*R*]has been implicated[*A*]in implant - related infection[*A*]behaving more like S. aureus than other CoNS	context()	negated: False ,passive: True
+0.928	[*A*]S. lugdunensis[*R*]has been implicated[*A*]in wound infection[*A*]behaving more like S. aureus than other CoNS	context()	negated: False ,passive: True
+0.928	[*A*]S. lugdunensis[*R*]has been implicated[*A*]in endocarditis[*A*]behaving more like S. aureus than other CoNS	context()	negated: False ,passive: True
+0.914	[*A*]S. lugdunensis[*R*]isolated[*A*]here[*A*]on three occasions	context()	negated: False ,passive: True
+[LINE#56]Other CoNS have also been previously implicated in otitis media, with a recent study finding that they account for 60% of bacteria isolated from OME [46,47].
+0.562	[*A*]they[*R*]account[*A*]for 60% of bacteria	context(a recent study finding)	negated: False ,passive: False
+0.620	[*A*]a recent study[*R*]finding[*A*]that they account for 60% of bacteria	context()	negated: False ,passive: False
+0.931	[*A*]60% of bacteria[*R*]isolated[*A*]from OME	context()	negated: False ,passive: True
+0.855	[*A*]Other CoNS[*R*]have been implicated[*A*]in otitis media[*A*]previously	context()	negated: False ,passive: True
+[LINE#57]Veillonella is a Gram-negative anaerobe that inhabits the mouth and upper respiratory tract, forms biofilms [48] and has previously been found in middle ear disease [49,50].
+0.943	[*A*]a Gram-negative anaerobe[*R*]has been found[*A*]in middle ear disease[*A*]previously	context()	negated: False ,passive: True
+0.958	[*A*]a Gram-negative anaerobe[*R*]inhabits[*A*]the mouth and upper respiratory tract, forms biofilms [48	context()	negated: False ,passive: False
+0.948	[*A*]Veillonella[*R*]is[*A*]a Gram-negative anaerobe	context()	negated: False ,passive: True
+[LINE#58]S. aureus also forms biofilms and has been identified in middle ear disease [51,52].
+0.914	[*A*]S. aureus[*R*]has been identified[*A*]in middle ear disease	context()	negated: False ,passive: True
+0.934	[*A*]S. aureus[*R*]forms[*A*]biofilms	context()	negated: False ,passive: False
+[LINE#59]Although most of the bacteria in Table 2 have previously been isolated in middle ear disease, to the best of the authors' knowledge Flavimonas oryzihabitans, Vibrio metschnikovii and Gemella haemolysans have not been implicated previously.
+0.856	[*A*]Vibrio metschnikovii and Gemella haemolysans[*R*]have not been implicated[*A*]previously	context()	negated: True ,passive: True
+0.960	[*A*]most of the bacteria in Table 2[*R*]have been isolated[*A*]in middle ear disease[*A*]previously	context()	negated: False ,passive: True
+[LINE#60]It is unclear why the present study identified the three traditional OME bacteria in a lower proportion of samples than other studies.
+[LINE#61]Although the samples in this study may have been cultured for longer periods of time (with the intention of identifying slow-growing species) than is typical in the routine diagnostic laboratory, the authors do not consider that results represent contamination as stringent precautions were taken.
+0.867	[*A*]results[*R*]represent[*A*]contamination as stringent precautions were taken	context(the authors do not consider)	negated: False ,passive: False
+0.724	[*A*]the authors[*R*]do not consider[*A*]that results represent contamination	context()	negated: True ,passive: False
+0.732	[*A*]stringent precautions[*R*]were taken	context()	negated: False ,passive: False
+0.952	[*A*]the samples in this study[*R*]may have been[*A*]cultured[*A*]for longer periods of time (with the intention of identifying slow-growing species	context()	negated: False ,passive: True
+[LINE#62]Variation in prevalence of OME over time has been previously documented [16], and may be due to patterns of antibiotic use or vaccination, particularly with the introduction of vaccines against H. influenzae type b and S. pneumoniae.
+0.971	[*A*]Variation in prevalence of OME over time[*R*]may be[*A*]due to patterns of antibiotic use or vaccination[*A*]particularly with the introduction of vaccines against H. influenzae type b and S. pneumoniae	context()	negated: False ,passive: True
+0.875	[*A*]Variation in prevalence of OME over time[*R*]has been documented[*A*]previously	context()	negated: False ,passive: True
+[LINE#63]The adoption of a broad microbiological approach in this study with the aim of identification of all bacteria may also have detected species missed by studies adopting a narrower culturing approach.
+0.894	[*A*]studies[*R*]adopting[*A*]a narrower culturing approach	context()	negated: False ,passive: False
+0.894	[*A*]species[*R*]missed[*A*]by studies	context()	negated: False ,passive: True
+0.966	[*A*]The adoption of a broad microbiological approach in this study with the aim of identification of all bacteria[*R*]may have detected[*A*]species missed by studies	context()	negated: False ,passive: False
+[LINE#64] Confocal microscopy itself does not allow identification of bacterial species,have characterised bacteria by fluorescence in situ hybridisation [12].
+0.880	[*A*]identification of bacterial species[*R*]have characterised[*A*]bacteria	context(Confocal microscopy does not allow)	negated: False ,passive: False
+0.921	[*A*]Confocal microscopy[*R*]does not allow[*A*]identification of bacterial species,have characterised bacteria by fluorescence in situ hybridisation	context()	negated: True ,passive: False
+[LINE#65]However, as bacterial identification is obtained only when a species-specific probe is used, this approach is not suitable when trying to identify every species as part of a strategy aimed at identifying the broadest possible range of bacterial species.
+0.937	[*A*]this approach[*R*]is not[*A*]suitable[*A*]when trying to identify every species as part of a strategy	context()	negated: True ,passive: True
+0.785	[*A*]a species-specific probe[*R*]is used	context()	negated: False ,passive: False
+0.903	[*A*]a strategy[*R*]aimed[*A*]at identifying the broadest possible range of bacterial species	context()	negated: False ,passive: True
+0.903	[*A*]bacterial identification[*R*]is obtained[*A*]only when a species-specific probe is used	context()	negated: False ,passive: True
+[LINE#66]Although numbers of isolates of any one bacterial species are small, it is interesting to note that majority of samples that grew CoNS and S. aureus on culture appeared to contain planktonic bacteria on confocal microscopy, despite both being well-recognised as biofilm-forming pathogens [43,44,51].
+0.919	[*A*]samples[*R*]grew[*A*]S. aureus[*A*]on culture	context()	negated: False ,passive: True
+0.905	[*A*]samples[*R*]grew[*A*]CoNS[*A*]on culture	context()	negated: False ,passive: True
+0.381	[*A*]both[*R*]being[*A*]well - recognised as biofilm - forming pathogens	context()	negated: False ,passive: True
+0.905	[*A*]that majority of samples[*R*]to contain[*A*]planktonic bacteria on confocal microscopy	context()	negated: False ,passive: False
+0.854	[*A*]numbers of isolates of any one bacterial species[*R*]are[*A*]small	context()	negated: False ,passive: True
+[LINE#67]Pseudomonas aeruginosa, which is well known to produce biofilms [42] was also identified in biofilm morphology in this study, but Acinetobacter appeared difficult to detect on CLSM. .
+0.875	[*A*]Pseudomonas aeruginosa[*R*]was identified[*A*]in biofilm morphology[*A*]in this study	context()	negated: False ,passive: True
+0.914	[*A*]Pseudomonas aeruginosa[*R*]to produce[*A*]biofilms	context()	negated: False ,passive: False
+0.934	[*A*]Pseudomonas aeruginosa[*R*]is[*A*]well known to produce biofilms	context()	negated: False ,passive: True
+[LINE#68]Glue ear treatmentThis study clearly implicates bacteria in the aetiopathogenesis of OME.
+0.918	[*A*]treatmentThis study[*R*]clearly implicates[*A*]bacteria[*A*]in the aetiopathogenesis of OME	context()	negated: False ,passive: False
+[LINE#69]Our study finds biofilms in 49.0% of confocal-positive effusions, and previous research has demonstrated them on more than 90% of mucosal biopsies in children with OME or recurrent AOM [12].
+0.907	[*A*]previous research[*R*]has demonstrated[*A*]them[*A*]on more than 90% of mucosal biopsies in children with OME or recurrent AOM [12	context()	negated: False ,passive: False
+0.701	[*A*]Our study[*R*]finds[*A*]biofilms[*A*]in 49.0% of confocal-positive effusions	context()	negated: False ,passive: False
+[LINE#70]This new understanding of OME aetiology also leads to potentially novel therapeutic possibilities that may improve current management options.
+0.743	[*A*]This new understanding of OME aetiology[*R*]leads to novel[*A*]therapeutic possibilities that may improve current management options	context(This new understanding of OME aetiology leads)	negated: False ,passive: False
+0.924	[*A*]This new understanding of OME aetiology[*R*]leads[*A*]to potentially novel therapeutic possibilities	context()	negated: False ,passive: False
+0.887	[*A*]therapeutic possibilities[*R*]may improve[*A*]current management options	context()	negated: False ,passive: False
+[LINE#71]At present, treatment of persistent symptomatic OME involves drainage of the effusion and VT insertion, but this does not address any persistent bacterial infection, and serves to merely remove the effusion that is the result of a middle ear inflammation.
+0.913	[*A*]the effusion[*R*]is[*A*]the result of a middle ear inflammation	context()	negated: False ,passive: True
+0.342	[*A*]this[*R*]serves[*A*]to merely remove the effusion	context()	negated: False ,passive: False
+0.381	[*A*]this[*R*]does not address[*A*]any persistent bacterial infection	context()	negated: True ,passive: False
+0.973	[*A*]treatment of persistent symptomatic OME[*R*]involves[*A*]drainage of the effusion and VT insertion[*A*]At present	context()	negated: False ,passive: True
+[LINE#72]It is therefore perhaps not surprising that about a quarter of cases will require further surgical treatment within 2 years, and the average number of procedures per child is greater than two [7,8].Unlike planktonic bacteria, which would be expected to respond to conventional antibiotic treatment, bacteria in biofilms adopt a distinct phenotype with a slow growth rate that makes them recalcitrant to standard antibacterial therapy [42,53,54].
+0.887	[*A*]planktonic bacteria[*R*]to respond[*A*]to conventional antibiotic treatment	context()	negated: False ,passive: False
+0.698	[*A*]planktonic bacteria[*R*]would be expected	context()	negated: False ,passive: False
+0.876	[*A*]the average number of procedures per child[*R*]is[*A*]greater than two	context()	negated: False ,passive: True
+0.838	[*A*]a slow growth rate[*R*]makes[*A*]them recalcitrant to standard antibacterial therapy	context()	negated: False ,passive: False
+0.926	[*A*]about a quarter of cases[*R*]will require[*A*]further surgical treatment within 2 years	context()	negated: False ,passive: False
+0.911	[*A*]bacteria in biofilms[*R*]adopt[*A*]a distinct phenotype with a slow growth rate	context()	negated: False ,passive: False
+0.326	[*A*]It[*R*]is therefore[*A*]perhaps not surprising that about a quarter of cases will require further surgical treatment within 2 years, and the average number of procedures per child is greater than two	context()	negated: False ,passive: True
+[LINE#73]However, novel antibacterial strategies such as locally delivered high-dose antibiotics over a prolonged time period [53,54] or new drug delivery systems and antimicrobial-impregnated devices appear promising [53,55,56], and other novel techniques such as ultrasound [57,58], low-strength electrical fields [59], enzymatic degradation of extracellular matrix [60], inhibition of quorum sensing [61-63], disruption of biofilm-related genes, or indeed a combination of the above in a smart system that detects and treats biofilm infection [64] might be of interest.
+0.897	[*A*]a smart system[*R*]treats[*A*]biofilm infection	context()	negated: False ,passive: False
+0.718	[*A*]a smart system[*R*]detects	context()	negated: False ,passive: False
+0.969	[*A*]novel antibacterial strategies such as locally delivered high-dose antibiotics over a prolonged time period [53,54] or new drug delivery systems and antimicrobial-impregnated devices[*R*]promising[*A*]53,55,56	context()	negated: False ,passive: False
+0.974	[*A*]novel antibacterial strategies such as locally delivered high-dose antibiotics over a prolonged time period [53,54] or new drug delivery systems and antimicrobial-impregnated devices[*R*]appear	context()	negated: False ,passive: False
+0.965	[*A*]other novel techniques such as ultrasound [57,58], low-strength electrical fields[*R*]might be[*A*]of interest	context()	negated: False ,passive: True
+[LINE#74]However, at present the application of these approaches to OME remains speculative.
+0.897	[*A*]at present the application of these approaches to OME[*R*]remains[*A*]speculative	context()	negated: False ,passive: True
+[LINE#75](otitis media with effusion, OME) is the commonest cause of deafness in children in the developed world with point prevalence in the region of 20%, and up to 80% of children are affected at least temporarily by the age of 10 years [1,2].
+0.932	[*A*]up to 80 % of children[*R*]are affected[*A*]at least temporarily[*A*]by the age of 10 years	context()	negated: False ,passive: True
+0.794	[*A*]otitis media with effusion[*R*]is[*A*]the commonest cause of deafness in children in the developed world with point prevalence in the region of 20 %	context()	negated: False ,passive: True
+[LINE#76]OME, acute otitis media (AOM) and recurrent AOM (3 or more episodes in 6 months) are closely related clinical conditions [3].
+0.792	[*A*]acute otitis media (AOM) and recurrent AOM[*R*]are[*A*]closely	context()	negated: False ,passive: True
+[LINE#77]AOM represents an acute infective (bacterial and/or viral) process, whereas OME is characterised by the presence of a middle ear effusion in the absence of symptoms and signs of acute inflammation [4].
+0.948	[*A*]OME[*R*]is characterised[*A*]by the presence of a middle ear effusion in the absence of symptoms and signs of acute inflammation	context()	negated: False ,passive: True
+0.957	[*A*]AOM[*R*]represents[*A*]an acute infective (bacterial and/or viral) process, whereas OME is characterised by the presence of a middle ear effusion in the absence of symptoms and signs of acute inflammation [4]	context()	negated: False ,passive: False
+[LINE#78] OME and AOM are the leading cause of primary care visits, and the most frequent reason for antibiotics or surgery [5,6].Although in the majority of cases.
+0.877	[*A*]OME and AOM[*R*]are[*A*]the leading cause of primary care visits	context()	negated: False ,passive: True
+[LINE#79]OME is transient, a proportion of children develop persistent symptoms that may affect hearing, education, language or behaviour [2].
+0.811	[*A*]OME[*R*]is[*A*]transient	context(a proportion of children develop)	negated: False ,passive: True
+0.841	[*A*]a proportion of children[*R*]develop[*A*]persistent symptoms that may affect hearing, education, language or behaviour [2]	context()	negated: False ,passive: False
+0.887	[*A*]persistent symptoms[*R*]may affect[*A*]hearing, education, language or behaviour [2	context()	negated: False ,passive: False
+[LINE#80]If OME persists after a three month period of watchful waiting, treatment with ventilation tubes (VTs or grommets) or hearing aids may be considered [2].
+0.957	[*A*]OME[*R*]persists[*A*]after a three month period of watchful waiting, treatment with ventilation tubes (VTs or grommets) or hearing aids	context()	negated: False ,passive: True
+[LINE#81] Most UK parents opt for surgery, and VT insertion is one of the commonest surgical procedures in children in the developed world[4].VT insertion is currently the only effective treatment to restore hearing but it requires a general anaesthetic in children.
+0.551	[*A*]the only effective[*R*]requires[*A*]a general anaesthetic in children	context()	negated: False ,passive: True
+0.936	[*A*]VT insertion[*R*]is[*A*]currently[*A*]the only effective it requires a general anaesthetic in children	context()	negated: False ,passive: True
+0.944	[*A*]VT insertion[*R*]is[*A*]currently[*A*]the only effective treatment to restore hearing	context()	negated: False ,passive: True
+0.964	[*A*]VT insertion[*R*]is[*A*]one of the commonest surgical procedures in children in the developed world [ 4	context()	negated: False ,passive: True
+0.949	[*A*]Most UK parents[*R*]opt[*A*]for surgery	context()	negated: False ,passive: False
+[LINE#82]In addition, about a quarter of cases will require further surgical treatment within 2 years [7], with the average number of procedures per patient being 2.1 [8].
+0.749	[*A*]patient[*R*]being[*A*]2.1 [8	context()	negated: False ,passive: True
+0.926	[*A*]about a quarter of cases[*R*]will require[*A*]further surgical treatment within 2 years	context()	negated: False ,passive: False
+[LINE#83]Numerous medical treatments have also been tried.
+0.663	[*A*]Numerous medical treatments[*R*]have been tried	context()	negated: False ,passive: False
+[LINE#84] Antibiotics particularly have received considerable attention, but although oral antibiotics are effective in resolving OME in the short term, there is no long-term benefit, and it is not a recommended treatment in the UK[2,6,9].Due to its major socio-economic and health care importance, much attention has focused on the aetiology of OME [6].
+0.896	[*A*]much attention[*R*]has focused[*A*]on the aetiology of OME	context(it is not)	negated: False ,passive: False
+0.550	[*A*]it[*R*]is not[*A*]a recommended treatment in the UK [ 2,6 , 9	context()	negated: True ,passive: True
+0.905	[*A*]oral antibiotics[*R*]in resolving[*A*]OME	context()	negated: False ,passive: False
+0.918	[*A*]oral antibiotics[*R*]are[*A*]effective in resolving OME in the short term	context()	negated: False ,passive: True
+0.877	[*A*]Antibiotics[*R*]have received[*A*]considerable attention	context()	negated: False ,passive: False
+[LINE#85] It is a chronic inflammatory condition affecting the middle ear mucosa resulting in secretion of mucusthat accumulates in the middle ear cleft [4,10].
+0.948	[*A*]a chronic inflammatory condition[*R*]affecting[*A*]the middle ear mucosa resulting in secretion of mucusthat accumulates in the middle ear cleft [4,10]	context()	negated: False ,passive: False
+0.522	[*A*]It[*R*]is[*A*]a chronic inflammatory condition affecting the middle ear mucosa	context()	negated: False ,passive: True
+[LINE#86]However, the cause of the inflammatory response has been difficult to identify especially because OME is not characterised by symptoms and signs of acute inflammation that would be expected in a typical acute bacterial infection caused by planktonic bacteria; there is no pain, fever, or tympanic membrane inflammation.
+0.926	[*A*]a typical acute bacterial infection[*R*]caused[*A*]by planktonic bacteria	context()	negated: False ,passive: True
+0.921	[*A*]symptoms and signs of acute inflammation[*R*]would be expected[*A*]in a typical acute bacterial infection	context()	negated: False ,passive: True
+0.920	[*A*]OME[*R*]is not characterised[*A*]by symptoms and signs of acute inflammation	context()	negated: True ,passive: True
+0.803	[*A*]the cause of the inflammatory response[*R*]to identify[*A*]especially	context()	negated: False ,passive: True
+[LINE#87]The role of bacteria in OME has therefore been controversial.
+0.811	[*A*]The role of bacteria in OME[*R*]has been[*A*]controversial	context()	negated: False ,passive: True
+[LINE#88]The typical bacteria implicated in OME are Streptococcus pneumoniae, Moraxella catarrhalis and Haemophilus influenzae [4], but in most studies bacteria were culturable in less than half of samples, ranging from 21 to 70% [11-16].
+0.957	[*A*]The typical bacteria implicated in OME[*R*]are[*A*]Streptococcus pneumoniae	context()	negated: False ,passive: True
+0.999	[*A*]Moraxella catarrhalis[*R*]influenzae[*A*]4 ]	context()	negated: False ,passive: False
+0.947	[*A*]The typical bacteria implicated in OME[*R*]are[*A*]Streptococcus pneumoniae	context(Moraxella catarrhalis influenzae)	negated: False ,passive: True
+0.748	[*A*]Moraxella catarrhalis[*R*]influenzae[*A*]4	context()	negated: False ,passive: False
+0.925	[*A*]The typical bacteria[*R*]implicated[*A*]in OME	context()	negated: False ,passive: True
+0.932	[*A*]The typical in most studies bacteria[*R*]were[*A*]culturable[*A*]in less than half of samples[*A*]ranging from 21 to 70 %	context()	negated: False ,passive: True
+[LINE#89] Although this may suggest that bacteria are not important in OME, it contrasts with studies examining effusions for the presence of bacterial nucleic acids by polymerase chain reaction(PCR), which have demonstrated bacterial DNA typically in excess of 80% of effusions [4,17,18].
+0.887	[*A*]bacteria[*R*]are not[*A*]important in OME	context(this may suggest)	negated: True ,passive: True
+0.172	[*A*]this[*R*]may suggest[*A*]that bacteria are not important in OME	context()	negated: False ,passive: False
+0.913	[*A*]polymerase chain reaction[*R*]have demonstrated[*A*]bacterial DNA	context()	negated: False ,passive: False
+0.931	[*A*]studies[*R*]examining[*A*]effusions[*A*]for the presence of bacterial nucleic acids by polymerase chain reaction	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]contrasts[*A*]with studies	context()	negated: False ,passive: True
+[LINE#90]However, the presence of bacterial nucleic acids does not necessarily equate to the presence of viable bacteria as components of effusion samples have been shown to inhibit nuclease activity, and this has been postulated to cause the persistence of RNA and DNA even if bacteria are no longer viable [19].A possible explanation for the discrepancy between high PCR-positive rate and low culture-positive rate in OME is the involvement of biofilms in the progression of this pathology [20].
+0.497	[*A*]this[*R*]has been postulated[*A*]to cause the persistence of DNA even if bacteria are no longer viable [ 19 ]	context()	negated: False ,passive: True
+0.425	[*A*]this[*R*]has been postulated[*A*]to cause the persistence of RNA	context()	negated: False ,passive: True
+0.985	[*A*]A possible explanation for the discrepancy between high PCR - positive rate and low culture-positive rate in OME[*R*]is[*A*]the involvement of biofilms in the progression of this pathology	context()	negated: False ,passive: True
+0.917	[*A*]the presence of bacterial nucleic acids[*R*]does not equate[*A*]to the presence of viable bacteria as components of effusion samples[*A*]have been shown to inhibit nuclease activity	context()	negated: True ,passive: False
+[LINE#91] Indeed, biofilms have been identified on human middle ear mucosa in children with OMEand/or recurrent AOM in more than 90% of cases, but not in any control samples studied [12].
+0.993	[*A*]biofilms[*R*]have been identified in[*A*]more than 90 %	context()	negated: False ,passive: False
+0.751	[*A*]any control samples[*R*]studied	context()	negated: False ,passive: False
+0.894	[*A*]biofilms[*R*]have been identified[*A*]on human middle ear mucosa	context()	negated: False ,passive: True
+[LINE#92]In addition to tissue surfaces, biofilms have also been identified attached to mucus [21,22] and attach in vitro to collagen gel matrix [23].
+0.877	[*A*]biofilms[*R*]attach[*A*]in vitro[*A*]to collagen gel matrix [23	context()	negated: False ,passive: False
+0.677	[*A*]biofilms[*R*]attached	context()	negated: False ,passive: False
+0.847	[*A*]biofilms[*R*]have been identified[*A*]attached to mucus	context()	negated: False ,passive: True
+[LINE#93]In OME, biofilms may be attached to mucus as well as mucosa, thus providing the inflammatory stimulus leading to a middle ear effusion [10,13,24].To demonstrate bacteria and biofilms in OME, an alternative approach was adopted in this study.
+0.911	[*A*]the inflammatory stimulus[*R*]leading[*A*]to a middle ear effusion	context()	negated: False ,passive: False
+0.944	[*A*]mucus as well as mucosa[*R*]providing[*A*]the inflammatory stimulus leading to a middle ear effusion [10,13,24]	context()	negated: False ,passive: False
+0.960	[*A*]biofilms[*R*]may be attached[*A*]mucus as well as mucosa, thus providing the inflammatory stimulus[*A*]To demonstrate bacteria and biofilms in OME, an alternative approach was adopted in this study[*A*]In OME	context()	negated: False ,passive: True
+[LINE#94]In addition to extended microbial culture on a wide variety of media of middle ear effusion samples taken at the time of VT insertion, effusions were also analysed using a bacterial viability stain and confocal laser scanning microscopy (CLSM).
+0.877	[*A*]effusions[*R*]using[*A*]a bacterial viability stain and confocal laser scanning microscopy	context()	negated: False ,passive: False
+0.619	[*A*]effusions[*R*]were analysed	context()	negated: False ,passive: False
+0.931	[*A*]middle ear effusion samples[*R*]taken[*A*]at the time of VT insertion	context()	negated: False ,passive: True
+[LINE#95]The advantage of the former technique is that staining allows detection of live bacteria without requiring them to grow on culture, while CLSM demonstrates three-dimensional structure of bacterial communities typical of biofilms [25].
+0.779	[*A*]staining[*R*]allows detection of live bacteria without requiring[*A*]them[*A*]to grow on culture	context(The advantage of the former technique is staining allows)	negated: False ,passive: False
+0.926	[*A*]staining[*R*]allows[*A*]detection of live bacteria[*A*]while CLSM demonstrates three-dimensional structure of bacterial communities typical of biofilms	context(The advantage of the former technique is)	negated: False ,passive: False
+0.843	[*A*]The advantage of the former technique[*R*]is[*A*]that staining allows detection of live bacteria without requiring them to grow on culture, while CLSM demonstrates three-dimensional structure of bacterial communities typical of biofilms [25]	context()	negated: False ,passive: True
+0.904	[*A*]CLSM[*R*]demonstrates[*A*]three-dimensional structure of bacterial communities typical of biofilms	context()	negated: False ,passive: False
+0.452	[*A*]them[*R*]to grow[*A*]on culture	context()	negated: False ,passive: True
+[LINE#96]The results presented here differ from data presented by Hall-Stoodley et al.
+0.911	[*A*]data[*R*]presented[*A*]by Hall-Stoodley et al	context()	negated: False ,passive: True
+0.769	[*A*]The results presented here[*R*]differ	context()	negated: False ,passive: False
+0.767	[*A*]The results[*R*]presented[*A*]here	context()	negated: False ,passive: True
+[LINE#97]in that the present analysis relates to the middle ear effusion itself, rather than the mucosal biopsies examined by previous research [12].This study aimed to determine the proportion of effusion samples that could be shown to contain live bacteria on extended culture and/or CLSM with bacterial viability staining.
+0.887	[*A*]effusion samples[*R*]to contain[*A*]live bacteria on extended culture	context()	negated: False ,passive: False
+0.698	[*A*]effusion samples[*R*]could be shown	context()	negated: False ,passive: False
+0.887	[*A*]This study[*R*]to determine[*A*]the proportion of effusion samples	context()	negated: False ,passive: False
+0.911	[*A*]the mucosal biopsies[*R*]examined[*A*]by previous research	context()	negated: False ,passive: True
+[LINE#98]We also identified the bacteria involved, and determined whether they existed as biofilms in middle ear effusions.
+0.552	[*A*]they[*R*]existed[*A*]as biofilms in middle ear effusions	context(We determined)	negated: False ,passive: True
+0.225	[*A*]We[*R*]determined[*A*]whether they existed as biofilms in middle ear effusions	context()	negated: False ,passive: False
+0.732	[*A*]the bacteria[*R*]involved	context()	negated: False ,passive: False
+0.411	[*A*]We[*R*]identified[*A*]the bacteria involved	context()	negated: False ,passive: False
+[LINE#99]The study was approved by Nottingham Research Ethics Committee.
+0.918	[*A*]The study[*R*]was approved[*A*]by Nottingham Research Ethics Committee	context()	negated: False ,passive: True
+[LINE#100]Written informed consent was provided by the parents or legal guardians of the study participants.
+0.943	[*A*]Written informed consent[*R*]was provided[*A*]by the parents or legal guardians of the study participants	context()	negated: False ,passive: True
+[LINE#101]Patients were listed for VT insertion according to standard clinical practice: symptomatic OME persisting for at least 3 months.
+0.903	[*A*]symptomatic OME[*R*]persisting[*A*]for at least 3 months	context()	negated: False ,passive: True
+0.911	[*A*]Patients[*R*]were listed[*A*]for VT insertion[*A*]according to standard clinical practice	context()	negated: False ,passive: True
+[LINE#102]The deliberately wide inclusion criteria were chosen to maximise the applicability of study results to clinical practice.
+0.913	[*A*]The deliberately wide inclusion criteria[*R*]to maximise[*A*]the applicability of study results to clinical practice	context()	negated: False ,passive: False
+0.952	[*A*]The deliberately wide inclusion criteria[*R*]were chosen[*A*]to maximise the applicability of study results to clinical practice	context()	negated: False ,passive: True
+[LINE#103]The ear canal was disinfected by instilling 70% isopropanol for 2min, with swabs performed before and after alcohol disinfection.
+0.813	[*A*]swabs[*R*]performed[*A*]after alcohol disinfection	context()	negated: False ,passive: True
+0.897	[*A*]The ear canal[*R*]by instilling[*A*]70 % isopropanol[*A*]for 2min[*A*]with swabs	context()	negated: False ,passive: False
+0.605	[*A*]swabs[*R*]performed[*A*]before	context()	negated: False ,passive: True
+0.751	[*A*]The ear canal[*R*]was disinfected	context()	negated: False ,passive: False
+[LINE#104]Myringotomy was performed using standard aseptic technique, and effusion aspirated into a sterile collection tube and transported for immediate processing.
+0.894	[*A*]effusion[*R*]transported[*A*]for immediate processing	context()	negated: False ,passive: True
+0.894	[*A*]effusion[*R*]aspirated[*A*]into a sterile collection tube	context()	negated: False ,passive: True
+0.911	[*A*]standard aseptic technique[*R*]transported[*A*]for immediate processing	context()	negated: False ,passive: True
+0.911	[*A*]standard aseptic technique[*R*]aspirated[*A*]into a sterile collection tube	context()	negated: False ,passive: True
+0.713	[*A*]Myringotomy[*R*]was performed	context()	negated: False ,passive: False
+[LINE#105]Samples were analysed in a dedicated microbiology laboratory routinely involved in the processing of clinical samples for research, supervised by a certified clinical microbiologist (RB).
+0.905	[*A*]clinical samples for research[*R*]supervised[*A*]by a certified clinical microbiologist	context()	negated: False ,passive: True
+0.919	[*A*]a dedicated microbiology laboratory[*R*]routinely involved[*A*]in the processing of clinical samples for research	context()	negated: False ,passive: True
+0.894	[*A*]Samples[*R*]were analysed[*A*]in a dedicated microbiology laboratory	context()	negated: False ,passive: True
+[LINE#106]Effusion samples were cultured on six different media.
+0.903	[*A*]Effusion samples[*R*]were[*A*]cultured on six different media	context()	negated: False ,passive: True
+[LINE#107] Sheep blood and MacConkey agar plates(Oxoid, Basingstoke, UK) were incubated aerobically for up to three weeks at 37C.
+0.934	[*A*]MacConkey agar plates[*R*]were incubated aerobically[*A*]for up to three weeks[*A*]at 37C	context()	negated: False ,passive: True
+0.940	[*A*]Sheep blood agar plates[*R*]were incubated aerobically[*A*]for up to three weeks[*A*]at 37C	context()	negated: False ,passive: True
+[LINE#108]The remaining four media (Helicobacter pylori, chocolatised blood for H. influenzae, and Mycoplasma selective agars incubated in 5% CO2, and sheep blood agar incubated anaerobically), were incubated for up to ten weeks with rigorous precautions to prevent contamination.
+0.751	[*A*]sheep blood agar[*R*]incubated anaerobically	context()	negated: False ,passive: False
+0.933	[*A*]Mycoplasma selective agars[*R*]incubated[*A*]in 5% CO2	context()	negated: False ,passive: False
+0.920	[*A*]The remaining four media[*R*]chocolatised[*A*]blood for H. influenzae	context()	negated: False ,passive: False
+[LINE#109] Bacteria were identified using conventional tests including Gram stain, catalase, oxidase and DNase production, optochin susceptibility, response to growth factorsand V (nicotinamide adenine dinucleotide), and growth in anaerobic conditions, with Analytical Profile Index (API) strips (bioMrieux, Marcy l'Etoile, France) used to speciate the isolates.
+0.932	[*A*]Bacteria[*R*]using[*A*]conventional tests including Gram stain, catalase, oxidase and DNase production, optochin susceptibility, response to growth factorsand V (nicotinamide adenine dinucleotide), and growth in anaerobic conditions, with Analytical Profile Index (API) strips	context()	negated: False ,passive: False
+0.713	[*A*]Bacteria[*R*]were identified	context()	negated: False ,passive: False
+[LINE#110]CLSM was performed using a Leica SP2 microscope, on samples stained with LIVE/DEAD stain (Molecular Probes, OR, USA) according to the product literature protocol.
+0.911	[*A*]samples[*R*]stained[*A*]with LIVE/DEAD stain	context()	negated: False ,passive: True
+0.561	[*A*]CLSM[*R*]was performed	context()	negated: False ,passive: False
+[LINE#111] The LIVE/DEAD stain employs differential membrane permeability to stain intact and uncompromised bacterial cell membranes (i.e. live bacteria)green with SYTO 9, whereas nuclei of dead bacteria stain red with propidium iodide.
+0.928	[*A*]The LIVE / DEAD stain[*R*]employs differential membrane permeability to stain[*A*]uncompromised bacterial cell membranes ( i.e. live bacteria ) green with SYTO 9	context(The LIVE / DEAD stain employs)	negated: False ,passive: False
+0.928	[*A*]The LIVE / DEAD stain[*R*]employs[*A*]differential membrane permeability[*A*]to stain uncompromised bacterial cell membranes ( i.e. live bacteria ) green with SYTO 9[*A*]whereas nuclei of dead bacteria stain red with propidium iodide	context()	negated: False ,passive: False
+0.928	[*A*]The LIVE / DEAD stain[*R*]employs differential membrane permeability to stain[*A*]intact bacterial cell membranes ( i.e. live bacteria ) green with SYTO 9	context(The LIVE / DEAD stain employs)	negated: False ,passive: False
+0.928	[*A*]The LIVE / DEAD stain[*R*]employs[*A*]differential membrane permeability[*A*]to stain intact bacterial cell membranes ( i.e. live bacteria ) green with SYTO 9[*A*]whereas nuclei of dead bacteria stain red with propidium iodide	context()	negated: False ,passive: False
+0.919	[*A*]nuclei of dead bacteria[*R*]stain[*A*]red with propidium iodide	context()	negated: False ,passive: True
+[LINE#112]Eukaryotic-derived material also has a tendency to stain red.
+0.913	[*A*]derived material[*R*]has[*A*]a tendency to stain red	context()	negated: False ,passive: False
+[LINE#113]Morphology of bacterial populations was also analysed.
+0.684	[*A*]Morphology of bacterial populations[*R*]was analysed	context()	negated: False ,passive: False
+[LINE#114]Biofilms were identified on the basis of well-established morphologic criteria that have been applied to OME in the past [12,25].
+0.927	[*A*]well-established morphologic criteria[*R*]have been applied[*A*]to OME[*A*]in the past	context()	negated: False ,passive: True
+0.713	[*A*]Biofilms[*R*]were identified	context()	negated: False ,passive: False
+[LINE#115]Three-dimensional bacterial clusters within an amorphous matrix and associated with a surface such as eukaryotic cells or strands were classified as biofilms.
+0.981	[*A*]Three-dimensional bacterial clusters within an amorphous matrix and associated with a surface such as eukaryotic cells or strands[*R*]were classified[*A*]as biofilms	context()	negated: False ,passive: True
+0.939	[*A*]Three-dimensional bacterial clusters within an amorphous matrix[*R*]associated[*A*]with a surface such as eukaryotic cells or strands	context()	negated: False ,passive: True
+[LINE#116]In contrast, bacteria that appeared as individual bacteria rather than a grouping were considered planktonic, as were any bacterial groups that were not associated with a surface.
+0.877	[*A*]bacteria[*R*]appeared[*A*]as a grouping	context()	negated: False ,passive: True
+0.897	[*A*]any bacterial groups[*R*]were not associated[*A*]with a surface	context()	negated: True ,passive: True
+0.877	[*A*]bacteria[*R*]appeared[*A*]as individual bacteria	context()	negated: False ,passive: True
+[LINE#117] Typical examples are shown in Fig..
+0.918	[*A*]Typical examples[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#118]Two assessors (RB, MD) determined bacterial morphology, and both were blinded to the culture result.
+0.381	[*A*]both[*R*]were blinded[*A*]to the culture result	context()	negated: False ,passive: True
+0.381	[*A*]RB[*R*][is][*A*]MD	context()	negated: False ,passive: False
+0.887	[*A*]Two assessors[*R*]determined[*A*]bacterial morphology	context()	negated: False ,passive: False
+[LINE#119]Mucins were identified by Alcian blue/periodic acid Schiff (PAS) staining.
+0.911	[*A*]Mucins[*R*]were identified[*A*]by Alcian	context()	negated: False ,passive: True
+[LINE#120]Samples were smeared thinly onto a glass slide and fixed in methanol.
+0.713	[*A*]Samples[*R*]were fixed	context()	negated: False ,passive: False
+0.894	[*A*]Samples[*R*]were smeared thinly[*A*]onto a glass slide	context()	negated: False ,passive: True
+[LINE#121] After addition of Alcian blue (HD Supplies, Aylesbury, UK), slides were placed in 1% periodic acid, then Schiff's reagent, stained with Mayer's haematoxylin, "blued" with 1% lithium carbonate, and mounted in dibutyl phthalate in xylene.
+0.933	[*A*]slides[*R*]were placed[*A*]in 1% periodic acid[*A*]After addition of Alcian blue	context(Schiff 's reagent blued)	negated: False ,passive: True
+0.931	[*A*]Schiff's reagent[*R*]blued[*A*]with 1% lithium carbonate[*A*]then	context()	negated: False ,passive: False
+0.934	[*A*]Schiff's reagent[*R*]stained[*A*]with Mayer's haematoxylin	context()	negated: False ,passive: True
+[LINE#122]Any mucin stains blue/purple in colour with this technique.
+[LINE#123]PASW Statistics18 was used for statistical analysis.
+0.927	[*A*]PASW Statistics18[*R*]was used[*A*]for statistical analysis	context()	negated: False ,passive: True
+[LINE#124]A total of 62 samples from 42 different patients (27 male, 15 female) were analysed.
+0.890	[*A*]A total of 62 samples from 42 different patients[*R*]were analysed[*A*]15 female	context()	negated: False ,passive: True
+[LINE#125]Most patients (35, 83.3%) were aged under 18 years, the median age being 4.5 years and age ranging from 1 to 75..
+0.993	[*A*]Most patients[*R*]were aged under[*A*]under 18 years	context()	negated: False ,passive: False
+0.799	[*A*]4.5 years and age[*R*]ranging[*A*]from 1[*A*]to 75	context()	negated: False ,passive: True
+0.911	[*A*]the median age[*R*]being[*A*]4.5 years and age ranging from 1 to 75	context()	negated: False ,passive: True
+0.887	[*A*]Most patients[*R*]were aged[*A*]under 18 years	context()	negated: False ,passive: True
+[LINE#126]Canal disinfectionA random subset of 14 ears was analysed to assess effectiveness of alcohol disinfection, by comparing culture results in swabs taken before and after disinfection.
+0.813	[*A*]swabs[*R*]taken[*A*]after disinfection	context()	negated: False ,passive: True
+0.605	[*A*]swabs[*R*]taken[*A*]before	context()	negated: False ,passive: True
+0.945	[*A*]Canal disinfectionA random subset of 14 ears[*R*]to assess[*A*]effectiveness of alcohol disinfection	context()	negated: False ,passive: False
+0.970	[*A*]Canal disinfectionA random subset of 14 ears[*R*]was analysed[*A*]to assess effectiveness of alcohol disinfection , by comparing culture results in swabs	context()	negated: False ,passive: True
+[LINE#127]Four swabs were culture positive prior to disinfection (one containing Streptococcus constelatus, one Bacillus spp., and two coagulase negative staphylococci).
+0.590	[*A*]one[*R*]containing[*A*]Streptococcus constelatus	context()	negated: False ,passive: False
+0.903	[*A*]Four swabs[*R*]were[*A*]culture positive[*A*]prior to disinfection	context()	negated: False ,passive: True
+[LINE#128]All swab cultures were negative after disinfection. .
+0.911	[*A*]All swab cultures[*R*]were[*A*]negative[*A*]after disinfection	context()	negated: False ,passive: True
+[LINE#129] Effusion culture and confocal microscopyTwenty-eight of the 62 effusions were culture-positive (45.2%), but CLSM demonstrated live bacteria in 51 (82.3%) samples.
+0.860	[*A*]confocal microscopyTwenty - eight of the 62 effusions[*R*]were[*A*]culture-positive	context(CLSM demonstrated)	negated: False ,passive: True
+0.855	[*A*]CLSM[*R*]demonstrated[*A*]live bacteria[*A*]in 51	context()	negated: False ,passive: False
+0.767	[*A*]Effusion culture[*R*]were[*A*]culture-positive	context()	negated: False ,passive: True
+0.958	[*A*]confocal microscopyTwenty - eight of the 62 effusions[*R*]were[*A*]culture-positive ( 45.2 %	context()	negated: False ,passive: True
+0.903	[*A*]Effusion culture[*R*]were[*A*]culture-positive ( 45.2 %	context()	negated: False ,passive: True
+[LINE#130] Table 1 illustrates the relationship between culture and CLSM results, showing that combining the two techniques identified live bacteria in 57 effusions (91.9%).Among the CLSM-positive samples, 25 (49.0%) contained biofilms and 26 (51.0%).
+0.951	[*A*]combining the two techniques identified live bacteria in 57 effusions[*R*]contained[*A*]Among the CLSM - positive samples	context(Table 1 illustrates)	negated: False ,passive: False
+0.737	[*A*]combining the two techniques[*R*]live	context()	negated: False ,passive: False
+0.751	[*A*]the two techniques[*R*]identified	context()	negated: False ,passive: False
+0.929	[*A*]25 ( 49.0 %[*R*]contained[*A*]biofilms[*A*]Among the CLSM - positive samples	context(Table 1 illustrates)	negated: False ,passive: False
+0.503	[*A*]Table 1[*R*]illustrates[*A*]the relationship between culture and CLSM results[*A*]showing	context()	negated: False ,passive: False
+[LINE#131] Culture positivity appeared not to influence bacterial morphology at CLSM, as the proportion of samples exhibiting biofilm morphology was similar in the culture-positive and culture-negative groups (50.0% and 48.3%, respectively).Differences between adults and children were explored on a per-patient (rather than per-ear) basis; where data existed for two ears, the per-patient analysis was carried out using the criteria of at least one ear being culture/confocal positive and at least one ear containing biofilms.
+0.927	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-negative groups[*A*]respectively	context()	negated: False ,passive: True
+0.927	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-negative groups	context()	negated: False ,passive: True
+0.785	[*A*]Differences between adults and children[*R*]were explored	context()	negated: False ,passive: False
+0.927	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-positive groups[*A*]respectively	context()	negated: False ,passive: True
+0.830	[*A*]50.0 % . Differences between adults and children[*R*]were explored	context()	negated: False ,passive: False
+0.938	[*A*]the criteria of at least one ear[*R*]being[*A*]culture	context()	negated: False ,passive: True
+0.927	[*A*]the proportion of samples[*R*]was[*A*]similar in the culture-positive groups	context()	negated: False ,passive: True
+0.944	[*A*]the per - patient analysis[*R*]using[*A*]the criteria of at least one ear being culture / confocal positive	context()	negated: False ,passive: False
+0.894	[*A*]samples[*R*]exhibiting[*A*]biofilm morphology	context()	negated: False ,passive: False
+0.919	[*A*]at least one ear[*R*]containing[*A*]biofilms	context()	negated: False ,passive: False
+0.785	[*A*]the per - patient analysis[*R*]was carried out	context()	negated: False ,passive: False
+0.928	[*A*]Culture positivity[*R*]not to influence[*A*]bacterial morphology[*A*]at CLSM	context()	negated: True ,passive: False
+0.894	[*A*]data[*R*]existed[*A*]for two ears	context()	negated: False ,passive: True
+0.788	[*A*]Culture positivity[*R*]appeared	context()	negated: False ,passive: False
+[LINE#132]Children appeared to have a greater number of culture-positive, confocal-positive, and biofilm results than adults (54.3% vs. 14.3%, 82.9% vs. 57.1%, and 67.9% vs. 0%, respectively).
+0.877	[*A*]Children[*R*]to have[*A*]a greater number of culture-positive , confocal - positive	context()	negated: False ,passive: False
+0.713	[*A*]Children[*R*]appeared	context()	negated: False ,passive: False
+[LINE#133] However, only the presence of biofilms reached statistical significance (Fisher's exact test p=0.02).Inthe 20 patients (all children) in whom data from both ears were available the correlation between the findings in the two ears was assessed.
+0.843	[*A*]the correlation between the findings in the two ears[*R*]was assessed	context()	negated: False ,passive: False
+0.799	[*A*]data from both ears[*R*]were[*A*]available	context()	negated: False ,passive: True
+0.926	[*A*]only the presence of biofilms[*R*]reached[*A*]statistical significance	context()	negated: False ,passive: False
+[LINE#134] The agreement rate was 70.0% (14/20) in the case of culture positivity rate (kappa=0.381, fair agreement), 90.0% (18/20) in the case of confocal positivity rate (kappa=0.444, moderate agreement), and 58.8% (10/17 confocal positive samples)in the case of confocal morphology type (kappa=0.168, poor agreement).
+0.974	[*A*]the case of culture positivity rate ( kappa=0.381 , fair agreement ) , 90.0 % 58.8 % ( 10/17 confocal positive samples ) in the case of confocal morphology type ( kappa=0.168 , poor agreement )[*R*]had The agreement rate of[*A*]70.0 %	context()	negated: False ,passive: False
+0.973	[*A*]The agreement rate[*R*]was[*A*]70.0 %	context()	negated: False ,passive: False
+0.974	[*A*]the case of culture positivity rate ( kappa=0.381 , fair agreement ) , 90.0 % ( 18/20 ) in the case of confocal positivity rate ( kappa=0.444 , moderate agreement ) in the case of confocal morphology type ( kappa=0.168 , poor agreement )[*R*]had The agreement rate of[*A*]70.0 %	context()	negated: False ,passive: False
+0.932	[*A*]The agreement rate[*R*]was[*A*]70.0 %[*A*]in the case of culture positivity rate	context()	negated: False ,passive: True
+[LINE#135]The same bacteria were identified in both ears in 7 children (35.0%).Table 2 shows the range of different bacterial isolates, including the relationship of bacterial isolates to CLSM findings.
+0.891	[*A*]The same bacteria[*R*]were identified[*A*]in both ears[*A*]in 7 children	context(Table 2 shows)	negated: False ,passive: True
+0.963	[*A*]Table 2[*R*]shows[*A*]the range of different bacterial isolates, including the relationship of bacterial isolates to CLSM findings	context()	negated: False ,passive: False
+[LINE#136]The mean number of different bacterial isolates was 1.8 per culture-positive sample, with no significant difference between confocal-positive and confocal-negative samples.
+0.973	[*A*]The mean number of different bacterial isolates with no significant difference between confocal - positive and confocal - negative samples[*R*]was[*A*]1.8 per culture - positive	context()	negated: False ,passive: False
+0.998	[*A*]different bacterial isolates with no significant difference between confocal - positive and confocal - negative samples[*R*]had The mean number of[*A*]1.8 per culture - positive	context()	negated: False ,passive: False
+0.952	[*A*]The mean number of different bacterial isolates[*R*]was[*A*]1.8 per culture-positive sample	context()	negated: False ,passive: True
+[LINE#137]Biofilm samples contained an average of 1.7 and planktonic samples 2.0 different bacterial isolates, but this was not statistically significant on t-test (p=0.51).Fig. 1 shows representative images obtained by CLSM.
+0.918	[*A*]representative images[*R*]obtained[*A*]by CLSM	context()	negated: False ,passive: True
+0.543	[*A*]this[*R*]was not[*A*]statistically significant on t-test (p=0.51).Fig. 1	context()	negated: True ,passive: True
+0.903	[*A*]Biofilm samples[*R*]contained[*A*]an average of 1.7 and planktonic samples	context()	negated: False ,passive: False
+[LINE#138]The red strands observed at CLSM had the appearance of mucin, confirmed with Alcian blue/PAS staining (Fig. 2).
+0.737	[*A*]the appearance of mucin[*R*]confirmed	context()	negated: False ,passive: False
+0.957	[*A*]The red strands[*R*]had[*A*]the appearance of mucin, confirmed with Alcian blue/PAS staining (Fig. 2	context()	negated: False ,passive: False
+0.925	[*A*]The red strands[*R*]observed[*A*]at CLSM	context()	negated: False ,passive: False

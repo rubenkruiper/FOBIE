@@ -1,0 +1,959 @@
+[LINE#1]Let G be a unimodular Lie group, X a compact manifold with boundary, and M the total space of a principal bundle GMX so that M is also a strongly pseudoconvex complex manifold.
+0.887	[*A*]M[*R*]is[*A*]also[*A*]a strongly pseudoconvex complex manifold	context()	negated: False ,passive: True
+[LINE#2]In this work, we show that if there exists a point pbM such that TpG is contained in the complex tangent space TpcbM of bM at p, then the Bergman space of M is large.
+0.916	[*A*]the Bergman space of M[*R*]is[*A*]large[*A*]then	context(we show)	negated: False ,passive: True
+0.365	[*A*]we[*R*]show[*A*]that if there exists a point pbM such that TpG is contained in the complex tangent space TpcbM of bM at p, then the Bergman space of M is large[*A*]In this work	context()	negated: False ,passive: False
+0.877	[*A*]TpG[*R*]is contained[*A*]in the complex tangent space TpcbM of bM	context()	negated: False ,passive: True
+[LINE#3]Natural examples include the gauged G-complexifications of Heinzner, Huckleberry, and Kutzschebauch.
+0.918	[*A*]Natural examples[*R*]include[*A*]the gauged G - complexifications of Kutzschebauch	context()	negated: False ,passive: True
+0.918	[*A*]Natural examples[*R*]include[*A*]the gauged G - complexifications of Huckleberry	context()	negated: False ,passive: True
+0.918	[*A*]Natural examples[*R*]include[*A*]the gauged G - complexifications of Heinzner	context()	negated: False ,passive: True
+[LINE#4]Complexification of free G-actions.
+[LINE#5]K tubesLet X and G be, respectively, a real-analytic manifold of dimension n and a Lie group acting freely and properly on X by real-analytic transformations.
+0.828	[*A*]G[*R*]be[*A*]respectively[*A*]a real - analytic manifold of n	context()	negated: False ,passive: True
+0.885	[*A*]G[*R*]be[*A*]respectively[*A*]a real - analytic manifold of n and a Lie group acting freely on X by real - analytic transformations	context()	negated: False ,passive: True
+0.957	[*A*]a real - analytic manifold of dimension and a Lie group[*R*]acting properly[*A*]on X	context()	negated: False ,passive: False
+0.885	[*A*]G[*R*]be[*A*]respectively[*A*]a real - analytic manifold of dimension and a Lie group acting properly on X by real - analytic transformations	context()	negated: False ,passive: True
+0.911	[*A*]a Lie group[*R*]acting freely[*A*]on X	context()	negated: False ,passive: False
+0.885	[*A*]G[*R*]be[*A*]respectively[*A*]a real - analytic manifold of dimension and a Lie group	context()	negated: False ,passive: True
+0.911	[*A*]a Lie group[*R*]acting properly[*A*]on X	context()	negated: False ,passive: False
+0.939	[*A*]K tubesLet X[*R*]be[*A*]respectively[*A*]a real - analytic manifold of n	context()	negated: False ,passive: True
+0.957	[*A*]a real - analytic manifold of n and a Lie group[*R*]acting freely[*A*]on X	context()	negated: False ,passive: False
+0.961	[*A*]K tubesLet X[*R*]be[*A*]respectively[*A*]a real - analytic manifold of n and a Lie group acting freely on X by real - analytic transformations	context()	negated: False ,passive: True
+[LINE#6]In [6] it is shown that any such G-action can be extended to a free and proper action by biholomorphisms on a neighborhood of X in its complexification XCX.
+0.993	[*A*]it[*R*]is shown In[*A*]6	context()	negated: False ,passive: False
+[LINE#7] In the same work, the authors also construct a G-invariant, strongly plurisubharmonic, non-negative function  which vanishes on X, thus by setting(12)M={<}XC for >0sufficiently small, one obtains a strongly pseudoconvex G-manifold M on which G acts freely by holomorphic transformations.
+0.956	[*A*]the authors[*R*]construct[*A*]a G-invariant, strongly plurisubharmonic, non-negative function[*A*]In the same work	context(one obtains)	negated: False ,passive: False
+0.535	[*A*]one[*R*]obtains[*A*]a strongly pseudoconvex G-manifold M	context()	negated: False ,passive: False
+0.959	[*A*]a G-invariant, strongly plurisubharmonic, non-negative function[*R*]vanishes[*A*]on X	context()	negated: False ,passive: True
+0.974	[*A*]a strongly pseudoconvex G-manifold M[*R*]acts freely[*A*]G	context()	negated: False ,passive: True
+[LINE#8]Note, however, that the construction in [6] also applies to the much more general case of a proper, not necessarily free G-action.
+[LINE#9]In the paper, the manifolds M are called gauged G-complexifications of X. By construction, they are Stein manifolds and so possess a rich collection of holomorphic functions O(M) which is invariant under the induced group action.
+0.658	[*A*]they[*R*]are[*A*]Stein manifolds	context()	negated: False ,passive: True
+0.877	[*A*]M[*R*]are called[*A*]gauged G - complexifications of X.	context()	negated: False ,passive: True
+0.833	[*A*]M[*R*]is invariant[*A*]under the induced group action	context()	negated: False ,passive: True
+0.575	[*A*]they[*R*]possess[*A*]a rich collection of holomorphic functions	context()	negated: False ,passive: False
+0.775	[*A*]they[*R*]are[*A*]Stein manifolds[*A*]In the paper	context()	negated: False ,passive: True
+[LINE#10]The purpose of this section is to show that the Bergman space L2O(M) is also non-trivial.
+0.921	[*A*]The purpose of this section[*R*]is[*A*]to show that the Bergman space L2O(M) is also non-trivial	context()	negated: False ,passive: True
+[LINE#11]In order to achieve this, we prove that the sufficient condition of Theorem 1.1 is satisfied when X does not coincide with the underlying manifold of G.
+0.870	[*A*]the sufficient condition of Theorem 1.1[*R*]is[*A*]satisfied	context(we prove)	negated: False ,passive: True
+0.218	[*A*]we[*R*]prove[*A*]that the sufficient condition of Theorem 1.1 is satisfied	context()	negated: False ,passive: False
+0.561	[*A*]X[*R*]does not coincide	context()	negated: True ,passive: False
+[LINE#12] We refer to [3] for a treatment of the case G=.
+0.452	[*A*]We[*R*]refer[*A*]to [3[*A*]for a treatment of the case	context()	negated: False ,passive: False
+[LINE#13]X.Proposition 5.1Let X,G and M be as in the previous paragraph, with dimRG<dimRX.
+0.852	[*A*]M[*R*]be[*A*]as in the previous paragraph	context()	negated: False ,passive: True
+0.852	[*A*]G[*R*]be[*A*]as in the previous paragraph	context()	negated: False ,passive: True
+0.932	[*A*]X.Proposition 5.1Let X[*R*]be[*A*]as in the previous paragraph	context()	negated: False ,passive: True
+[LINE#14] If  is small enough, there exists a point pbMsuch that the tangency condition of Theorem 1.1 is satisfied at p.
+0.961	[*A*]the tangency condition of Theorem 1.1[*R*]is[*A*]satisfied at p.	context()	negated: False ,passive: True
+[LINE#15] In order to prove the proposition, we fix any point and we choose local complex coordinates z=(z1,,zn), zj= xj+iyj, for a neighborhood U of q in XC such that q0 and XU{yj=0,j=1,.
+0.614	[*A*]we[*R*]choose[*A*]local complex coordinates z= ( z1 ,, zn ) , zj= xj+iyj , for a neighborhood U of q in XC XU { yj=0 , j=1	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]choose[*A*]local complex coordinates z= ( z1 ,, zn ) , zj= xj+iyj , for a neighborhood U of q in XC	context()	negated: False ,passive: False
+0.522	[*A*]we[*R*]fix[*A*]any point	context()	negated: False ,passive: False
+0.285	[*A*]we[*R*]fix[*A*]any point[*A*]such that q0	context()	negated: False ,passive: False
+[LINE#16] By [3, Lemma 3] we may assume that up to a complex linear transformation we have(13)(z)=j=1nyj2+O(|z|3) and that T0(G0) is spanned by /xj, j=1,=dimRG.First, however, we will limit ourselves to the case where d=1 and T0(G0) is spanned by /x1.
+0.490	[*A*]we[*R*]will limit[*A*]ourselves[*A*]to the case[*A*]z | 3	context()	negated: False ,passive: False
+0.899	[*A*]T0[*R*]is spanned[*A*]by / x1[*A*]the case	context()	negated: False ,passive: True
+0.256	[*A*]we[*R*]will limit[*A*]ourselves[*A*]to the case	context(we may assume up)	negated: False ,passive: False
+0.425	[*A*]we[*R*]may assume up[*A*]to a complex linear transformation[*A*]By [ 3	context()	negated: False ,passive: False
+0.868	[*A*]d=1[*R*]is spanned[*A*]by / x1[*A*]the case	context()	negated: False ,passive: True
+0.833	[*A*]T0[*R*]is spanned[*A*]by / xj , j=1 , =dimRG.First , however	context()	negated: False ,passive: True
+0.903	[*A*]a complex linear transformation[*R*]have[*A*]we	context()	negated: False ,passive: True
+[LINE#17] For any qUX, we consider the complex tangent space H(q)=Tqc(bM(q))=(q)} of the function  through z, and define the set CG=(XU){qU:Tq(Gq)H(q)}.
+0.452	[*A*]we[*R*]consider[*A*]the complex tangent space H	context()	negated: False ,passive: False
+[LINE#18]In the following lemma, J is the standard complex structure, orthogonality is intended with respect to the standard Euclidean metric in the coordinates z, and  denotes the gradient associated to this metric.
+0.767	[*A*]the gradient[*R*]associated[*A*]to this metric	context()	negated: False ,passive: True
+0.949	[*A*]the standard complex structure[*R*]is intended[*A*]with respect to the standard Euclidean metric in the coordinates	context()	negated: False ,passive: True
+[LINE#19] Lemma 5.2For some small neighborhood U of 0 in Cn , the set CGU is a smooth hypersurface of U.ProofUp to a holomorphic change of coordinates, we can assume that the action of G is generated by the vector field /x1 ; notice that we can choose this coordinate change in such a way that its linear part at 0 is the identity, which implies that  still admits the expansion.
+0.647	[*A*]its linear part at 0[*R*]is[*A*]the identity, which implies that  still admits the expansion	context()	negated: False ,passive: True
+0.208	[*A*]we[*R*]can choose[*A*]this coordinate change in such a way that its linear part at 0 is the identity	context()	negated: False ,passive: False
+0.922	[*A*]the action of G[*R*]is generated[*A*]by the vector field /x1	context(we can assume)	negated: False ,passive: True
+0.939	[*A*]the set[*R*]is[*A*]a smooth hypersurface of U.ProofUp to a holomorphic change of coordinates	context(we can assume)	negated: False ,passive: True
+0.309	[*A*]we[*R*]can assume[*A*]that the action of G is generated by the vector field /x1	context()	negated: False ,passive: False
+0.689	[*A*]the identity[*R*]implies[*A*]that  still admits the expansion	context()	negated: False ,passive: False
+[LINE#20]Moreover, in the new coordinates  does not depend on the variable x1 and /x1(q) for all q; hence the set CG coincides with the set {qU:/x1J(q)}.
+[LINE#21] Again by (13),(z)=2j=1nyjyj+O(|z|2),J(z)=-2j=1nyjxj+O(|z|2)from which we deriveJ(z)=(-2y1+k(z))x1+V(z) where V(z)/x1 and k(z)=O(|z|2).
+0.812	[*A*]z | 2[*R*]deriveJ[*A*]we	context()	negated: False ,passive: True
+[LINE#22]It follows that CG is given by {-2y1+k(z)=0}; by the implicit function theorem, CG is a smooth hypersurface of a small enough neighborhood of 0.
+0.945	[*A*]CG[*R*]is[*A*]a smooth hypersurface of a small enough neighborhood of 0[*A*]by the implicit function theorem	context()	negated: False ,passive: True
+[LINE#23]the proof of the previous lemma also follows that the tangent hyperplane of CG at 0 is given by /y1.
+[LINE#24]In fact, the gradient of the defining function -2y1+k(z) at 0 is a multiple of /y1, and the same is true in the original coordinates because the linear part of the coordinate change equals the identity.
+0.938	[*A*]the linear part of the coordinate change[*R*]equals[*A*]the identity	context()	negated: False ,passive: True
+0.737	[*A*]the same[*R*]is[*A*]true[*A*]in the original coordinates[*A*]because the linear part of the coordinate change equals the identity	context()	negated: False ,passive: True
+0.973	[*A*]the gradient of the defining function - 2y1+k ( z ) at 0[*R*]is[*A*]a multiple of / y1	context()	negated: False ,passive: True
+[LINE#25]Proof of Proposition 5.1Now, we turn back to the case when the dimension of G is arbitrary, and we define the set CG in the same way as before.
+0.445	[*A*]we[*R*]define as before[*A*]the set	context()	negated: False ,passive: False
+0.878	[*A*]the dimension of G[*R*]is[*A*]arbitrary	context()	negated: False ,passive: True
+0.522	[*A*]we[*R*]turn[*A*]back to the case	context()	negated: False ,passive: True
+[LINE#26] G1,,Gd of local 1-parameter subgroups of G with the property that T0(Gj0) is generated by /xj for all j=1,.
+0.833	[*A*]T0[*R*]is generated[*A*]by /xj	context()	negated: False ,passive: True
+[LINE#27]For q in a small neighborhood U of 0 in Cn, then, we have that Tq(Gq) is spanned by the union of the Tq(Gjq) for 1jd.
+0.822	[*A*]Tq[*R*]is spanned[*A*]by the union of the Tq	context(we have)	negated: False ,passive: True
+0.127	[*A*]we[*R*]have[*A*]that[*A*]then	context()	negated: False ,passive: False
+[LINE#28]It follows thatUCG=Uj=1dCGj.
+0.498	[*A*]It[*R*]follows[*A*]thatUCG=Uj=1dCGj	context()	negated: False ,passive: False
+[LINE#29]By Lemma 5.2, up to shrinking U, each CGj is a smooth hypersurface; by Remark 5.3, then, we derive that T0(CGj)=/yj, which implies that the CGj intersect transversally.
+0.931	[*A*]each CGj[*R*]is[*A*]a smooth hypersurface	context(we derive)	negated: False ,passive: True
+0.257	[*A*]we[*R*]derive[*A*]then	context()	negated: False ,passive: False
+0.849	[*A*]that T0(CGj)=/yj[*R*]implies	context()	negated: False ,passive: False
+[LINE#30]Since d<n, it follows that CG is a smooth submanifold of U of real dimension strictly bigger than n.
+[LINE#31]In particular, CG does not coincide with XU, and as a consequence it must intersect bM for  small enough.
+0.452	[*A*]it[*R*]must intersect[*A*]bM for small enough	context()	negated: False ,passive: False
+0.634	[*A*]CG[*R*]does not coincide	context()	negated: True ,passive: False
+[LINE#32]Any pCGbM satisfies the claim of the proposition.
+0.903	[*A*]Any pCGbM[*R*]satisfies[*A*]the claim of the proposition	context()	negated: False ,passive: False
+[LINE#33], G=Rt, and let T=C/R be the complex cylinder.
+[LINE#34] The complexification XC of X is given by TC, in which we consider coordinates (z0.
+0.807	[*A*]The complexification XC of X[*R*]coordinates	context()	negated: False ,passive: False
+0.195	[*A*]we[*R*]consider	context()	negated: False ,passive: False
+0.953	[*A*]The complexification XC of X[*R*]is given[*A*]by TC	context()	negated: False ,passive: True
+[LINE#35] A tube M around X can be realized as a domain of XC as follows:.
+0.937	[*A*]A tube M around X[*R*]can be realized[*A*]as a domain of XC as follows:.	context()	negated: False ,passive: True
+[LINE#36] M={(z0,z1):y02+y12<2}TC. Define, now, for any fixed cRan action c of R on X byc(t)(,x1)=(+ct,x1+t)S1R for all tR.
+[LINE#37]For any fixed c, this action extends by the same formula to an action on XC by biholomorphic transformations which, moreover, preserve each M.
+0.905	[*A*]biholomorphic transformations[*R*]preserve[*A*]each M.	context()	negated: False ,passive: False
+0.903	[*A*]this action[*R*]extends[*A*]to an action on XC by biholomorphic transformations	context()	negated: False ,passive: True
+[LINE#38] It is also clear that both the action c and its extension are free and cocompact on, respectively,.
+0.324	[*A*]its extension[*R*]are[*A*]cocompact[*A*]on[*A*]respectively	context(It is)	negated: False ,passive: True
+0.207	[*A*]its extension[*R*]are on[*A*]respectively	context(It is)	negated: False ,passive: True
+0.718	[*A*]both the action[*R*]are cocompact[*A*]respectively	context()	negated: False ,passive: True
+0.625	[*A*]both the action c[*R*]are on[*A*]respectively	context(It is)	negated: False ,passive: True
+0.229	[*A*]It[*R*]is[*A*]also[*A*]clear	context()	negated: False ,passive: True
+[LINE#39]X and M. A computation shows that, indeed, the tangency condition for the action c holds along the c-invariant submanifold of bM given by{(z0,z1)TC:y02+y12=2,y1=-cy0}bM. Thus Theorem 1.1 applies, showing that dimGL2O(M)=. Moreover, it shows that almost every point of bM is a (weakly) peaking point.
+0.945	[*A*]almost every point of bM[*R*]is[*A*]a (weakly) peaking point	context(it shows)	negated: False ,passive: True
+0.371	[*A*]it[*R*]shows[*A*]that almost every point of bM is a (weakly) peaking point	context()	negated: False ,passive: False
+0.758	[*A*]Theorem 1.1[*R*]showing	context()	negated: False ,passive: False
+0.948	[*A*]the c-invariant submanifold of bM[*R*]given[*A*]by{(z0,z1)TC	context()	negated: False ,passive: True
+[LINE#40]We remark that in this case, because of the presence of cocompact lattices, the methods of [5] already apply.
+0.938	[*A*]the methods of [5[*R*]apply[*A*]in this case[*A*]already	context(We remark)	negated: False ,passive: True
+0.279	[*A*]We[*R*]remark[*A*]that in this case, because of the presence of cocompact lattices, the methods of [5] already apply	context()	negated: False ,passive: False
+[LINE#41]However, even under the hypothesis of unimodularity a Lie group does not, in general, admit such a lattice, see [15].
+0.928	[*A*]a Lie group[*R*]see[*A*]15[*A*]even under the hypothesis of unimodularity	context()	negated: False ,passive: False
+0.923	[*A*]a Lie group[*R*]does not admit[*A*]such a lattice[*A*]even under the hypothesis of unimodularity	context()	negated: True ,passive: False
+[LINE#42]Integrals of the Levi polynomial over submanifoldsIn this section we discuss the divergence of integrals analogous to (5).
+0.452	[*A*]we[*R*]discuss[*A*]the divergence of integrals analogous to	context()	negated: False ,passive: False
+[LINE#43]The integrals in question will be performed over a submanifold ObM, as well as over a 1-parameter family of submanifolds approaching it.
+0.993	[*A*]The integrals in question[*R*]will be performed over[*A*]1 - parameter family	context()	negated: False ,passive: False
+0.821	[*A*]submanifolds[*R*]approaching[*A*]it	context()	negated: False ,passive: True
+0.931	[*A*]The integrals in question[*R*]will be performed[*A*]over a submanifold ObM[*A*]over a 1-parameter family of submanifolds	context()	negated: False ,passive: True
+[LINE#44]We think of O as the orbit through pbM of some G-action, but for the moment we do not make this assumption.
+0.595	[*A*]we[*R*]do not make[*A*]this assumption[*A*]for the moment	context()	negated: True ,passive: False
+0.678	[*A*]We[*R*]think[*A*]of O[*A*]as the orbit through pbM of some G - action	context()	negated: False ,passive: False
+[LINE#45]The validity of our approach depends on the fact that the divergence properties of these integrals are invariant under a smooth change of coordinates and of the measure, and as such, they are insensitive to the presence of a group structure on O. We will prove that under a certain order assumption on O, these divergence properties are the same as those of (5).
+0.932	[*A*]the divergence properties of these integrals[*R*]are[*A*]invariant[*A*]under a smooth change of the measure	context()	negated: False ,passive: True
+0.580	[*A*]The validity of our approach[*R*]depends[*A*]on the fact that the divergence properties of these integrals are invariant under a smooth change of the measure	context()	negated: False ,passive: False
+0.837	[*A*]these divergence properties[*R*]are[*A*]the same as those of ( 5[*A*]under a certain order assumption on O	context(We will prove)	negated: False ,passive: True
+0.932	[*A*]the divergence properties of these integrals[*R*]are[*A*]invariant[*A*]under a smooth change of coordinates	context()	negated: False ,passive: True
+0.580	[*A*]The validity of our approach[*R*]depends[*A*]on the fact that the divergence properties of these integrals are invariant under a smooth change of coordinates	context()	negated: False ,passive: False
+0.837	[*A*]these divergence properties[*R*]are[*A*]the same as those of ( 5[*A*]under a certain order assumption on O	context(We will prove)	negated: False ,passive: True
+0.271	[*A*]We[*R*]will prove[*A*]that under a certain order assumption on O , these divergence properties are the same as those of ( 5	context()	negated: False ,passive: False
+0.654	[*A*]The validity of our approach[*R*]depends[*A*]on the fact as such	context(they are)	negated: False ,passive: False
+0.712	[*A*]they[*R*]are[*A*]insensitive to the presence of a group structure on O.	context()	negated: False ,passive: True
+[LINE#46]Later, we will see that this assumption is automatically satisfied when O is an orbit..
+0.905	[*A*]this assumption[*R*]is[*A*]automatically satisfied[*A*]when O is an orbit	context(we will see)	negated: False ,passive: True
+0.399	[*A*]we[*R*]will see[*A*]that this assumption is automatically satisfied when O is an orbit[*A*]Later	context()	negated: False ,passive: False
+0.852	[*A*]O[*R*]is[*A*]an orbit	context()	negated: False ,passive: True
+[LINE#47]we will be interested in only the local picture, we may, without loss of generality, model our situation on a fixed, small neighborhood in Cn+1 as follows.
+0.388	[*A*]we[*R*]will be[*A*]interested in only the local picture	context(we may model)	negated: False ,passive: True
+0.303	[*A*]we[*R*]may model[*A*]our situation on a fixed, small neighborhood in Cn+1	context()	negated: False ,passive: False
+[LINE#48] We will say that a system of local coordinates (z0=x0+iy0,z), where z=(z1=x1+iy1,,zn=xn+iyn), is adapted to (bM,p) if p(0,0)and T0(bM) is spanned by {/x0,/xj,/yj}1jn.
+0.833	[*A*]T0[*R*]is spanned[*A*]by { / x0	context()	negated: False ,passive: True
+0.955	[*A*]z= ( z1=x1+iy1 ,, zn=xn+iyn[*R*]is adapted[*A*]a system of local coordinates	context()	negated: False ,passive: True
+0.994	[*A*]that a system of local coordinates ( z0=x0+iy0 , z ) , where z= ( z1=x1+iy1 ,, zn=xn+iyn ) , is adapted to ( bM , p ) if p[*R*]is spanned[*A*]by { / x0	context()	negated: False ,passive: True
+0.945	[*A*]z= ( z1=x1+iy1 ,, zn=xn+iyn[*R*]is adapted[*A*]to ( bM	context()	negated: False ,passive: True
+0.195	[*A*]We[*R*]will say	context()	negated: False ,passive: False
+[LINE#49]Remark 2.2Obviously, any set of coordinates can be brought to this form by a complex linear transformation.
+0.919	[*A*]any set of coordinates[*R*]can be brought[*A*]to this form[*A*]by a complex linear transformation	context()	negated: False ,passive: True
+[LINE#50]Moreover, if the coordinates are fixed as above, then the complex tangent space T0c(bM)=T0(bM)iT0(bM) is spanned by {/xj,/yj}1jn.
+0.962	[*A*]the complex tangent space T0c[*R*]is spanned[*A*]by {/xj[*A*]then	context()	negated: False ,passive: True
+0.732	[*A*]the coordinates[*R*]are fixed	context()	negated: False ,passive: False
+[LINE#51] If such coordinates are fixed, we select uniquely an equation for bM by solving for Imz0:(6)bM={(z0,z)Cn+1:where f(Rez0,z)=O(2) is a smooth, real-valued function.
+0.553	[*A*]we[*R*]bM=[*A*]z0,z)Cn+1:where f(Rez0,z)=O(2) is a smooth, real-valued function	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]select[*A*]uniquely[*A*]an equation for bM	context()	negated: False ,passive: False
+0.732	[*A*]such coordinates[*R*]are fixed	context()	negated: False ,passive: False
+[LINE#52]We express the second-order Taylor expansion f2 of f in the following way,(7)f2(Rez0,z)=Rez0(Rez0,z)+2ReP(z)+L(z,z), where  is a real-valued, linear function in (Rez0,z), while P and L correspond to the parts (involving only z) of type, respectively, (2,0) and (1,1) of the second-order expansion.
+0.855	[*A*]L[*R*]correspond[*A*]to the parts	context()	negated: False ,passive: True
+0.887	[*A*]the parts[*R*]involving[*A*]only z ) of type , respectively	context()	negated: False ,passive: True
+0.614	[*A*]We[*R*]express[*A*]the second - order Taylor expansion f2 of f in the following way	context()	negated: False ,passive: False
+[LINE#53]The notation L(z,z) is used to emphasize the fact that L is a real-valued polynomial of degree 2 in z. Since bM is strongly pseudoconvex, L(z,z), the restriction of the Levi form to T0c(bM), is positive and Hermitian.
+0.810	[*A*]The notation[*R*]is used[*A*]to emphasize the fact that L is a real - valued polynomial of degree 2 in z.	context(the restriction of the Levi form to T0c is)	negated: False ,passive: True
+0.959	[*A*]the restriction of the Levi form to T0c[*R*]is[*A*]Hermitian	context()	negated: False ,passive: True
+0.847	[*A*]The notation[*R*]to emphasize[*A*]the fact that L is a real - valued polynomial of degree 2 in z.	context()	negated: False ,passive: False
+0.873	[*A*]the restriction of the Levi form to T0c[*R*]is[*A*]positive	context()	negated: False ,passive: True
+0.904	[*A*]bM[*R*]is[*A*]strongly pseudoconvex[*A*]L	context()	negated: False ,passive: True
+0.926	[*A*]L[*R*]is[*A*]a real - valued polynomial of degree 2 in z.	context()	negated: False ,passive: True
+0.892	[*A*]The notation L[*R*]to emphasize[*A*]the fact that L is a real - valued polynomial of degree 2 in z.	context()	negated: False ,passive: False
+[LINE#54]We define an adapted Levi polynomial (z0,z) by(z0,z)=z0-2iP(z).
+0.614	[*A*]We[*R*]define[*A*]an adapted Levi polynomial (z0,z) by(z0,z	context()	negated: False ,passive: False
+[LINE#55] Note that our definition does not coincide with the standard definition of the Levi polynomial associated to the defining function (z0,z)=Imz0-f(Rez0,z).
+0.933	[*A*]the Levi polynomial[*R*]associated[*A*]to the defining function	context()	negated: False ,passive: True
+[LINE#56] Nevertheless, we can show that  is still a support function for bM at 0.Lemma 2.3With (z0,z) as defined above, for a small enough neighborhood U of 0the following hold:{=0}UbM={0},the restriction of  to MU takes values in C{wC:Rew=0,Imw0}.
+0.162	[*A*]that[*R*]is[*A*]still[*A*]a support function for bM at 0.Lemma 2.3With	context(we can show)	negated: False ,passive: True
+0.309	[*A*]we[*R*]can show[*A*]that  is still a support function for bM at 0.Lemma 2.3With	context()	negated: False ,passive: False
+0.877	[*A*]MU[*R*]takes[*A*]values[*A*]in C	context()	negated: False ,passive: False
+[LINE#57] In particular, a branch of log is well-defined on MU.ProofBy definition, we have Re(z0,z)=Rez0+2ImP(z).
+0.935	[*A*]a branch of log[*R*]is[*A*]well-defined on MU.ProofBy definition	context(we have)	negated: False ,passive: True
+0.443	[*A*]we[*R*]have[*A*]Re	context()	negated: False ,passive: False
+0.594	[*A*]Re[*R*]=Rez0+2ImP[*A*]z	context()	negated: False ,passive: False
+[LINE#58]If q=(z0q,zq) is such that (q)=0 and qbM, we have that2ReP(zq)=Imz0q=2ImP(zq)(2ImP(zq),zq)+2ReP(zq)+L(zq,zq)+O(3), from which we getL(zq,zq)+O(3)=0.
+0.774	[*A*]q= ( z0q , zq[*R*]is[*A*]such	context()	negated: False ,passive: True
+0.365	[*A*]3[*R*]getL[*A*]=0	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]have[*A*]that2ReP	context()	negated: False ,passive: False
+0.756	[*A*]q= ( z0q , zq[*R*]is[*A*]such that ( q ) =0 , we have that2ReP	context()	negated: False ,passive: True
+[LINE#59]If q lies in a sufficiently small neighborhood U of 0, the condition above implies that zq=0, hence z0q=0 and q=0, which proves the first point.
+0.905	[*A*]that zq=0 , q=0[*R*]proves[*A*]the first point	context()	negated: False ,passive: False
+0.751	[*A*]the condition above[*R*]implies	context()	negated: False ,passive: False
+0.813	[*A*]q[*R*]lies[*A*]in a sufficiently small neighborhood U of 0	context()	negated: False ,passive: True
+[LINE#60]We obtain thatImz0q>2ImP(zq)(2ImP(zq),zq)+2ReP(zq)+L(zq,zq)+O(3), which impliesIm(q)=Imz0q-2ReP(zq)>L(zq,zq)+O(3).
+0.407	[*A*]We[*R*]obtain[*A*]2ImP	context()	negated: False ,passive: False
+[LINE#61]If q belongs to U, the expression on the right-hand side is positive, thus the second point is proved.
+0.751	[*A*]the second point[*R*]is proved	context()	negated: False ,passive: False
+0.498	[*A*]q[*R*]belongs[*A*]to U	context()	negated: False ,passive: False
+[LINE#62]An order 3 vanishing conditionLet ObM be a real submanifold of dimension 2n with 0O.
+[LINE#63]We will show in Section 2.4 how to extend our arguments to manifolds of smaller dimensions.
+0.463	[*A*]We[*R*]will show[*A*]in Section 2.4[*A*]how to extend our arguments to manifolds of smaller dimensions	context()	negated: False ,passive: False
+[LINE#64]We are now in a position to describe our main assumption.
+0.452	[*A*]We[*R*]are[*A*]now[*A*]in a position	context()	negated: False ,passive: True
+[LINE#65] the restriction of Re to O vanishes to order at least 3 at 0we will say that the order 3 condition is satisfied.
+0.803	[*A*]the order 3 condition[*R*]is[*A*]satisfied	context(the restriction of Re to O vanishes to order at least 3 at 0we will say)	negated: False ,passive: True
+0.919	[*A*]the restriction of Re to O vanishes to order at least 3 at 0we[*R*]will say[*A*]that the order 3 condition is satisfied	context()	negated: False ,passive: False
+0.911	[*A*]vanishes[*R*]to order[*A*]at least 3[*A*]at 0we	context()	negated: False ,passive: False
+[LINE#66]Remark 2.5Denote by  the projection of Cn+1 onto T0(bM), and let ={=0}.
+[LINE#67]The order 3 condition is then equivalent to the property that (O) and () have order of contact at least two at zero.
+0.841	[*A*]The order 3 condition[*R*]is[*A*]then equivalent to at least two at zero	context()	negated: False ,passive: True
+0.937	[*A*]The order 3 condition[*R*]is[*A*]then[*A*]equivalent to the property	context()	negated: False ,passive: True
+[LINE#68]We now check that our hypothesis is invariantly defined.
+0.285	[*A*]our hypothesis[*R*]is invariantly defined	context(We check)	negated: False ,passive: False
+0.201	[*A*]We[*R*]check[*A*]that our hypothesis is invariantly defined[*A*]now	context()	negated: False ,passive: False
+[LINE#69]Lemma 2.6The order 3 condition does not depend on the choice of (adapted) local coordinates about p.
+0.944	[*A*]Lemma 2.6The order 3 condition[*R*]does not depend[*A*]on the choice of (adapted	context()	negated: True ,passive: False
+[LINE#70]ProofLet (z0,z) be another set of adapted local coordinates around p0.
+0.928	[*A*]ProofLet[*R*]be[*A*]another set of adapted local coordinates around p0	context()	negated: False ,passive: True
+[LINE#71] Since its differential at 0 must preserve T0(bM), the map giving the change of coordinates between (z0,z) and (z0,z) can be expressed up to a real scaling factor asz0=z0+F(z0,z),zwhere F(z0,z)=O(2) is a holomorphic function and G(z0,z):Cn+1Cn is a holomorphic mapping whose differential with respect to the variables z has non-vanishing determinant at 0.
+0.920	[*A*]zwhere F[*R*]z0 is[*A*]G ( z0[*A*]=O ( 2	context(Cn+1Cn is)	negated: False ,passive: True
+0.951	[*A*]zwhere F[*R*]is[*A*]a holomorphic function[*A*]=O ( 2	context(Cn+1Cn is)	negated: False ,passive: True
+0.906	[*A*]Cn+1Cn[*R*]is[*A*]a holomorphic mapping whose differential with respect to the variables z has non-vanishing determinant at 0	context()	negated: False ,passive: True
+0.937	[*A*]the map[*R*]giving[*A*]the change of coordinates between ( z0 , z ) and ( z0	context()	negated: False ,passive: False
+0.920	[*A*]a holomorphic mapping[*R*]has[*A*]non-vanishing determinant at 0	context()	negated: False ,passive: False
+[LINE#72] We denote by F2 the second-order expansion of F:.
+0.195	[*A*]We[*R*]denote	context()	negated: False ,passive: False
+[LINE#73] F2(z0,z)=z0(z0,z)+E(z) where  is a complex linear function and E is a homogeneous polynomial of degree 2 in the variables.
+0.852	[*A*]E[*R*]is[*A*]a homogeneous polynomial of degree 2 in the variables	context()	negated: False ,passive: True
+0.786	[*A*]=z0[*R*]where is[*A*]a complex linear function	context()	negated: False ,passive: True
+[LINE#74]We also write G=G1+O(2), where G1(z0,z)=(z0)+(z) is again a complex linear map.
+0.976	[*A*]G1(z0,z)=(z0)+(z[*R*]is[*A*]again[*A*]a complex linear map	context()	negated: False ,passive: True
+0.456	[*A*]We[*R*]write[*A*]G=G1+O(2	context()	negated: False ,passive: False
+[LINE#75] } be a set of equations for the orbit O around 0 in the coordinates.
+[LINE#76]The order 3 condition gives that h(z)=-2ImP(z)+O(3) and in particular, O must be tangent to T0c(bM).
+0.948	[*A*]= - 2ImP ( z ) in particular[*R*]must be[*A*]tangent to T0c	context(The order 3 condition gives)	negated: False ,passive: True
+0.776	[*A*]The order 3 condition[*R*]gives[*A*]that h ( z ) = - 2ImP ( z ) in particular , O must be tangent to T0c	context()	negated: False ,passive: False
+0.897	[*A*]The order 3 condition[*R*]gives[*A*]= - 2ImP ( z ) +O ( 3	context(O must be)	negated: False ,passive: False
+0.801	[*A*]O[*R*]must be[*A*]tangent to T0c	context()	negated: False ,passive: True
+[LINE#77]In the coordinates (z0,z), the hypersurface bM is locally defined by(8)Imz0+ImF(z0,z)=f(Rez0+ReF(z0,z),G(z0,z)) and the orbit O by{Rez0+ReF(z0,z)=h(G(z0,z)),Imz0+ImF(z0,z)=f(h(G(z0,z)),G(z0,z))}.
+0.919	[*A*]bM[*R*]is locally defined[*A*]by ( 8 ) Imz0+ImF ( z0 , z ) =f ( Rez0+ReF ( z0 , z ) , z ) ) and the orbit O by ( G ( z0	context()	negated: False ,passive: True
+0.919	[*A*]bM[*R*]is locally defined[*A*]by ( 8 ) Imz0+ImF ( z0 , z ) =f ( Rez0+ReF ( z0 , z ) , z	context()	negated: False ,passive: True
+0.937	[*A*]the orbit[*R*]O[*A*]by { Rez0+ReF ( z0	context()	negated: False ,passive: True
+0.919	[*A*]bM[*R*]is locally defined[*A*]by ( 8 ) Imz0+ImF ( z0 , z ) =f	context()	negated: False ,passive: True
+[LINE#78]Let f(z0,z) be uniquely defined in such a way that {Imz0=f(z0,z)} is a local defining equation for bM. To verify the order 3 condition in the new coordinates, we compute the second-order Taylor expansion f2 of f,f2(Rez0,z)=Rez0(Rez0,z)+2ReP(z)+L(z,z).
+0.920	[*A*]such a way[*R*]is[*A*]a local defining equation	context()	negated: False ,passive: True
+[LINE#79]To this end, we examine the second-order jet of (8).
+0.595	[*A*]we[*R*]examine[*A*]the second-order jet of (8[*A*]To this end	context()	negated: False ,passive: False
+[LINE#80]Obviously, we need only to consider f2, F2 and G1:Imz0=-ImF2(z0,z)+f2(Rez0,G1(z0,z))+O(3).
+0.333	[*A*]we[*R*]need to consider[*A*]G1	context(we need)	negated: False ,passive: False
+0.433	[*A*]we[*R*]need[*A*]only[*A*]to consider G1	context()	negated: False ,passive: False
+0.433	[*A*]we[*R*]need only to consider[*A*]F2	context(we need only)	negated: False ,passive: False
+0.433	[*A*]we[*R*]need only[*A*]to consider F2	context()	negated: False ,passive: False
+0.183	[*A*]we[*R*]need only to consider[*A*]f2	context(we need only)	negated: False ,passive: False
+0.183	[*A*]we[*R*]need only[*A*]to consider f2	context()	negated: False ,passive: False
+[LINE#81] We expand the right-hand side of the previous expression in a polynomial in Rez0, and z. Any monomial of this expansion which is of the form QImz0 with Q=O(1) can be replaced, using (8), by Q(-ImF(z0,z)+f(Rez0+ReF(z0,z),G(z0,z))), which is O(3) and thus can be ignored.
+0.861	[*A*]Rez0+ReF ( z0[*R*]can be ignored[*A*]+f	context()	negated: False ,passive: True
+0.940	[*A*]Rez0+ReF ( z0[*R*]is[*A*]O ( 3	context()	negated: False ,passive: True
+0.922	[*A*]QImz0 with Q=O[*R*]can be replaced[*A*]using ( 8 ) , by Q	context()	negated: False ,passive: True
+0.950	[*A*]- ImF ( z0 z[*R*]is[*A*]O	context()	negated: False ,passive: True
+0.807	[*A*]- ImF ( z0 z[*R*]can be ignored	context()	negated: False ,passive: False
+0.913	[*A*]the form[*R*]is[*A*]O ( 3	context()	negated: False ,passive: True
+0.776	[*A*]QImz0 with Q=O[*R*]can be replaced	context()	negated: False ,passive: False
+0.913	[*A*]this expansion[*R*]is[*A*]of the form	context()	negated: False ,passive: True
+0.934	[*A*]the form[*R*]can be ignored[*A*]+f ( Rez0+ReF ( z0	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]expand[*A*]the right - hand side of the previous expression	context()	negated: False ,passive: False
+[LINE#82]Performing the computation we obtainImz0=Rez0(Rez0,z)-ImE(z)+2ReP((z))+L((z),(z))+O(3) for a suitable linear form , which gives in particularP(z)=iE(z)/2+P((z)).
+0.920	[*A*]a suitable linear form[*R*]gives[*A*]in particularP	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]obtainImz0=Rez0[*A*]Rez0,z)-ImE(z	context()	negated: False ,passive: False
+[LINE#83]It follows that the Levi polynomial (z0,z) has the expression(z0,z)=z0+E(z)-2iP((z)).
+[LINE#84]Now, we turn to the second-order jet of the defining equations for O in the new coordinates:Rez0=-ReF2(z0,z)+h2(G1(z0,z)),Imz0=-ImF2(z0,z)+f2(0,G1(z0,z)).
+0.758	[*A*]we[*R*]turn[*A*]to the second-order jet of the defining equations[*A*]for O in the new co[*A*]Now	context()	negated: False ,passive: True
+[LINE#85]Combining these we obtainRez0=h(z)=-ReE(z)-2ImP((z))+O(3) which implies that the order 3 condition holds in the new coordinates (z0,z).
+0.920	[*A*]the order 3 condition[*R*]holds[*A*]in the new coordinates (z0,z	context(3 implies)	negated: False ,passive: True
+0.190	[*A*]3[*R*]implies[*A*]that the order 3 condition holds in the new coordinates (z0,z	context()	negated: False ,passive: False
+0.162	[*A*]we[*R*]obtainRez0=h	context()	negated: False ,passive: False
+[LINE#86]previous lemma also holds for a manifold O of dimension lower than 2n.
+0.913	[*A*]previous lemma[*R*]holds[*A*]for a manifold O of dimension	context()	negated: False ,passive: False
+[LINE#87]In fact, (O) has order of contact at least 2 with () if and only if it is contained in a 2n-dimensional manifold O with the same property. .
+[LINE#88] Estimation of the integralsBy results of [4, 18], about a point pbM there exists a neighborhood UpM and local complex coordinates Z=(z0,z)CCnsuch that(1)p0Cn+1;(2)bM={(z0,z)Cn+1:Imz0=|z|2+O(|z0||z|+|z|3)}.
+0.923	[*A*]a local complex[*R*]coordinates[*A*]Z=[*A*]a point pbM there exists	context()	negated: False ,passive: False
+0.925	[*A*]a local complex[*R*]coordinates[*A*]Z=	context()	negated: False ,passive: False
+0.867	[*A*]Imz0= | z[*R*]| z[*A*]| 3	context()	negated: False ,passive: True
+0.454	[*A*]z0[*R*]z[*A*]|	context()	negated: False ,passive: False
+0.949	[*A*]a neighborhood UpM complex[*R*]coordinates[*A*]Z=	context()	negated: False ,passive: False
+[LINE#89] (2) means that the hypersurface bM osculates the boundary of the Siegel domainDn+1={(z0,z)Cn+1:Imz0>|z|2} to first order at zero, and to second-order along the variables.
+0.919	[*A*]bM[*R*]osculates[*A*]the boundary of the Siegel domainDn+1={(z0,z)Cn+1:Imz0>|z|2} to first order at zero, and to second-order along the variables	context()	negated: False ,passive: False
+0.268	[*A*]2[*R*]means[*A*]that the hypersurface bM osculates the boundary of the Siegel domainDn+1={(z0,z)Cn+1:Imz0>|z|2} to first order at zero, and to second-order along the variables	context()	negated: False ,passive: False
+[LINE#90] This means that the surfaces bM{z0=0} and bDn+1{z0=0} osculate to order 2.In such coordinates, the Levi polynomial of bMat 0 is given by (Z)=z0, moreover, for >0 sufficiently small, the curve :[0,):MCn+1:s(is,0) is a path to zero in M, normal in R2n+2Cn+1 to T0(bM).We now perform an analysis on bM analogous to the one in Section 1.4 for bDn+1Hn.
+0.965	[*A*]the Levi polynomial of bMat 0[*R*]is given[*A*]by ( Z ) =z0 , moreover , for > 0 sufficiently small , the curve	context(This means s ( is , 0 is We perform)	negated: False ,passive: True
+0.954	[*A*]s ( is , 0[*R*]is[*A*]a path to zero in M , normal in R2n+2Cn+1 to T0	context(This means We perform)	negated: False ,passive: True
+0.534	[*A*]We[*R*]perform[*A*]an analysis[*A*]on bM analogous to the one in Section 1.4[*A*]now	context(This means)	negated: False ,passive: False
+0.122	[*A*]This[*R*]means	context()	negated: False ,passive: False
+0.908	[*A*]s ( is , 0[*R*]is normal[*A*]a path to zero in M	context(This means)	negated: False ,passive: True
+0.258	[*A*]This[*R*]means[*A*]that the surfaces bM { z0=0 } , the Levi polynomial of bMat 0 is given by ( Z ) =z0 , moreover , for > 0 sufficiently small , the curve : [ 0 , ) : MCn+1 : s ( is , 0 ) is a path to zero in M , normal in R2n+2Cn+1 to T0	context()	negated: False ,passive: False
+0.706	[*A*]We[*R*]perform[*A*]an analysis[*A*]on bM analogous to the one in Section 1.4 for bDn+1Hn[*A*]now	context()	negated: False ,passive: False
+0.589	[*A*]s[*R*]is[*A*]0	context()	negated: False ,passive: True
+0.958	[*A*]bM { z0=0[*R*]is given[*A*]by ( Z ) =z0 , moreover , for > 0 sufficiently small , the curve	context()	negated: False ,passive: True
+[LINE#91] The tangent space at the origin of bM at 0 is given by T0(bM)={Imz0=0}; denote by :Cn+1T0(bM) where h is a smooth, real-valued function defined in a neighborhood of 0 in (0,z), because of the order 3 condition, h(z)=O(|z|3).
+0.938	[*A*]a smooth, real-valued function[*R*]defined[*A*]in a neighborhood of 0	context()	negated: False ,passive: True
+0.952	[*A*]h[*R*]is[*A*]a smooth, real-valued function defined in a neighborhood of 0 in (0,z)[*A*]Cn+1T0	context()	negated: False ,passive: True
+0.971	[*A*]The tangent space at the origin of bM at 0[*R*]is given[*A*]by T0	context()	negated: False ,passive: True
+[LINE#92] Note that, in particular, the tangent space of (O) at 0 is {z0=0}=T0c(bM).Alternatively, we can consider a smooth parametrization.
+0.388	[*A*]we[*R*]can consider[*A*]a smooth parametrization	context()	negated: False ,passive: False
+[LINE#93]:Cn(O)RCnT0(bM) taking the formCn(h(),)=(O(||3),).
+0.857	[*A*]Cn[*R*]taking[*A*]the formCn	context()	negated: False ,passive: False
+[LINE#94] Since bM is given as the zero set of Imz0-f with f as in (6), and since ObM, it follows that the mapCnP():=(h(),f(h(),),)Cn+1(Rez0,Imz0,z) gives a smooth parametrization of O.We are interested in the following integral, keeping the notation.
+0.903	[*A*]Rez0[*R*]gives[*A*]a smooth parametrization of O.We	context(it follows)	negated: False ,passive: False
+0.542	[*A*]it[*R*]follows[*A*]since ObM	context()	negated: False ,passive: True
+0.950	[*A*]the mapCnP ( ) : = ( h[*R*]keeping[*A*]the notation	context()	negated: False ,passive: False
+0.919	[*A*]bM[*R*]is given[*A*]as the zero set of Imz0 - f with f as in ( 6	context()	negated: False ,passive: True
+[LINE#95]R- only in analogy to (5):(9)(R-)(0)=Cnd(P())(P())[(P())]Bd[h()+i(f(h(),))]=Bd[h()+i(||2+O(||3))], where we use the notation  to express that the quotient of the two integrands is a smooth function not vanishing at 0.
+0.889	[*A*]the quotient of the two integrands[*R*]is[*A*]R- only in analogy to (5):(9)(R-)(0)=Cnd(P())(P())[(P())]Bd[h()+i(f(h(),))]=Bd[h()+i(||2+O(||3))], where we use the notation  to express that the quotient of the two integrands is a smooth function not vanishing at 0.	context(we use to express)	negated: False ,passive: True
+0.195	[*A*]we[*R*]use to express[*A*]that the quotient of the two integrands is a smooth function	context(we use)	negated: False ,passive: False
+0.271	[*A*]we[*R*]use[*A*]the notation[*A*]to express that the quotient of the two integrands is a smooth function	context()	negated: False ,passive: False
+0.832	[*A*]R- only in analogy to (5[*R*]not vanishing[*A*]at 0	context()	negated: True ,passive: True
+[LINE#96] The last equality follows from the fact that f(Rez0,z)=|z|2+O(|Rez0||z|+|z|3), and that along the parametrization we have Rez0(P())=h()=O(||3) and z(P())==.
+[LINE#97]This integral is then a perturbation of the one computed for the Heisenberg group at s=0, obtained by adding the "high order terms" h() and O(||3).
+0.958	[*A*]the Heisenberg group at s=0[*R*]obtained[*A*]by adding the " high order terms O ( | | 3	context()	negated: False ,passive: True
+0.965	[*A*]the Heisenberg group at s=0[*R*]obtained[*A*]by adding the " high order terms " h ( ) | | 3	context()	negated: False ,passive: True
+0.613	[*A*]the one[*R*]computed[*A*]for the Heisenberg group at s=0	context()	negated: False ,passive: True
+0.925	[*A*]This integral[*R*]is[*A*]then[*A*]a perturbation of the one	context()	negated: False ,passive: True
+[LINE#98]Collecting ||2 in the denominator of (9),Bd||2(h()||2+i+O(||)), we have that h()/||20 for 0.
+0.188	[*A*]we[*R*]have[*A*]that h[*A*]for 0	context()	negated: False ,passive: False
+[LINE#99] This is enough to prove that the integral diverges for large , but, as in the case of the Heisenberg group, we actually need to look at the behavior of this integral along a one-parameter family of submanifolds rather than just along O.Let us now, then, consider the path in Cn+1 given by (s)=(is,0), where sR+, and an arbitrary, smooth 1-parameter family of submanifolds.
+0.223	[*A*]This[*R*]is[*A*]enough to prove	context()	negated: False ,passive: True
+0.095	[*A*]This[*R*]is[*A*]enough to prove that	context()	negated: False ,passive: True
+0.230	[*A*]This[*R*]is[*A*]enough to prove that the integral diverges for large	context()	negated: False ,passive: True
+[LINE#100] We choose a map :R+CnCn+1 with the following properties:(s,0)=(s);for each fixed sR+, the map (s,) parametrizes Os;foreach fixed sR+, the map (s,z) is of the form (A(s,z)+iB(s,z),z).
+[LINE#101] From these properties we deduce the following expression for (s,z)=(A(s,z)+iB(s,z),z):A(s,z)=h(z)+s(za(s,z)),B(s,z)=f(h(z),z)+s(1+zb(s,z))for some smooth maps a,b:R+CnCn.
+[LINE#102]We remark that here we employ the notation vw to denote the Euclidean scalar product of two vectors v,wCn.
+0.433	[*A*]we[*R*]employ the notation vw to denote[*A*]the Euclidean scalar product of two vectors	context(We remark we employ)	negated: False ,passive: False
+0.577	[*A*]we[*R*]employ[*A*]the notation vw[*A*]to denote the Euclidean scalar product of two vectors[*A*]here	context(We remark)	negated: False ,passive: False
+0.195	[*A*]We[*R*]remark[*A*]that here we employ the notation vw to denote the Euclidean scalar product of two vectors	context()	negated: False ,passive: False
+[LINE#103]In the following, we will replace our Levi polynomial with the more convenient =-iz0.
+0.490	[*A*]we[*R*]will replace[*A*]our Levi polynomial[*A*]with the more convenient =-iz0[*A*]In the following	context()	negated: False ,passive: False
+[LINE#104] With this new definition for  we obtain the integral(R-)((s))Bd[-i(h()+s(a(s,)))+(f(h(),)+s(1+b(s,)))], which we rewrite after collecting (s+||2) as(R- )((s))Bd(s+||2)1[f(h(),)+s+sb(s,)s+||2-ih()+sa(s, )s+||2]=Bd(s+||2)cos(arctan((s,)))+isin(arctan((s,)))[(f(h(),)+s+sb(s,)s+||2)2+(h()+sa(s,)s+||2)2]/2where we set(s,)=-h()+sa(s,)f(h(),)+s+sb(s,).
+0.195	[*A*]we[*R*]obtain	context()	negated: False ,passive: False
+[LINE#105] The key observation is the following:.
+0.828	[*A*]The key observation[*R*]is[*A*]the following:.	context()	negated: False ,passive: True
+[LINE#106]Lemma 2.9We have (s,)0 as (s,)0.ProofWe have|(s,)||h()||f(h(),)+s+sb(s,)|+s|||a(s,)||f(h(),)+s+sb(s,)|=1(s,)+2(s,).
+0.888	[*A*]+s+sb[*R*]| +s[*A*]||	context()	negated: False ,passive: False
+0.260	[*A*]0.ProofWe[*R*]have |	context()	negated: False ,passive: False
+0.788	[*A*]Lemma 2.9We[*R*]have	context()	negated: False ,passive: False
+[LINE#107]Choose a small enough neighborhood V of (0,0) in R+Cn such that for (s,)V{(0,0)} we have s(1+b(s,))>0.
+[LINE#108]Since f(h(),)>0, in such a neighborhood the denominator is positive, thus1(s,)=|h()|f(h(),)+s(1+b(s,))|h()|f(h(),)=O(||3)||2+O(||3) where the last equality is due to the order 3 condition.
+0.800	[*A*]the last equality[*R*]is	context()	negated: False ,passive: False
+0.957	[*A*]the denominator[*R*]is[*A*]positive[*A*]in such a neighborhood	context()	negated: False ,passive: True
+[LINE#109]It follows that 1(s,)0 for (s,)0.
+0.145	[*A*]It[*R*]follows[*A*]that 1(s,)0 for (s,)0	context()	negated: False ,passive: False
+[LINE#110] For the remaining term we have2(s,)s|||a(s,)|s(1+b(s,))=O(||)1+O(||) which also approaches 0 For the sake of notational convenience, we also letQ(s,)=f(h(),)+s+sb(s,)s+||2,R(s,)=h()+sa(s,.
+0.817	[*A*]a(s[*R*]approaches[*A*]0[*A*]For the sake of notational convenience	context()	negated: False ,passive: True
+0.894	[*A*]the remaining term[*R*]have2[*A*]we	context()	negated: False ,passive: True
+[LINE#111]By arguments similar to those in Lemma 2.9, it is easy to verify that Q(s,)1 and R(s,)0 as (s,)0.Now, we consider polar coordinates =(,r) in B{0}S(0,1) and compute our integral in these coordinates.
+0.388	[*A*]we[*R*]consider[*A*]polar coordinates	context()	negated: False ,passive: False
+0.274	[*A*]we[*R*]compute[*A*]our integral[*A*]in these coordinates	context()	negated: False ,passive: False
+0.418	[*A*]we[*R*]consider[*A*]polar coordinates = ( , r ) in B { 0 } S ( 0,1 ) and compute our integral in these coordinates	context()	negated: False ,passive: False
+[LINE#112]Applying Fubini,(R-)((s))(0,1)drr2n-1(s+|r|2)I(s,r) whereI(s,r)=Sdcos(arctan((s,,r)))+isin(arctan((s,,r)))(Q2(s,,r)+R2(s,,r))/2.
+[LINE#113]Here ,Q and R are, respectively, the expressions of ,Q and R in polar coordinates.
+0.866	[*A*]R[*R*]are[*A*]respectively[*A*]the expressions of , R in polar coordinates[*A*]Here	context()	negated: False ,passive: True
+0.886	[*A*]R[*R*]are[*A*]respectively[*A*]the expressions of , Q[*A*]Here	context()	negated: False ,passive: True
+0.898	[*A*]Q[*R*]are[*A*]respectively[*A*]the expressions of , R in polar coordinates[*A*]Here	context()	negated: False ,passive: True
+0.914	[*A*]Q[*R*]are[*A*]respectively[*A*]the expressions of , Q[*A*]Here	context()	negated: False ,passive: True
+[LINE#114] As a consequence of Lemma 2.9 and of the discussion above, we obtain that I(s,r)C for r0, uniformly in sR+, where C=Area(S) is a real, positive constant.
+0.846	[*A*]C=Area(S[*R*]is[*A*]a real, positive constant	context()	negated: False ,passive: True
+[LINE#115]In particular, the sign of ReI(s,r) is positive and bounded below for (s,r) small enough.
+0.899	[*A*]the sign of ReI ( s , r[*R*]is[*A*]positive	context()	negated: False ,passive: True
+[LINE#116] It follows thatRe(R-)((s))C(0,1)drr2n-1(s+|r|2) for some C>0.
+0.614	[*A*]It[*R*]follows[*A*]thatRe(R-)((s))C(0,1)drr2n-1	context()	negated: False ,passive: False
+[LINE#117]General dimensionLet us assume that the dimension m of O is lower than 2n.
+0.823	[*A*]the dimension m of O[*R*]is[*A*]lower than 2n	context(General dimensionLet us assume)	negated: False ,passive: True
+0.279	[*A*]us[*R*]assume[*A*]that the dimension m of O is lower than 2n	context(General dimensionLet)	negated: False ,passive: False
+0.745	[*A*]General[*R*]dimensionLet[*A*]us assume that the dimension m of O is lower than 2n	context()	negated: False ,passive: False
+[LINE#118]By hypothesis, the tangent space of (O) at 0 is contained in T0c(S)={z0=0}.
+0.975	[*A*]the tangent space of (O) at 0[*R*]is contained[*A*]in T0c[*A*]By hypothesis	context()	negated: False ,passive: True
+[LINE#119] Since we are principally interested in the case when O is totally real, we will actually let mn and suppose that T0((O)) is spanned by /x1, , x=(xm+1,,xn) and y=(y1,,yn), a set of defining functions for (O) can be written in the following way:{(z0,z):Rez0= h(x),Imz0=0,x=g1(x),y=g2(x)}where g1 and g2 are vector-valued functions that vanish to first order at 0.
+0.820	[*A*]g2[*R*]are[*A*]x ) , Imz0=0 , x=g1 ( x ) , y=g2 ( x ) } where g2 are vector - valued functions that vanish to first order at 0	context()	negated: False ,passive: True
+0.805	[*A*]a set of defining functions for ( O[*R*]can be written	context()	negated: False ,passive: False
+0.820	[*A*]g1[*R*]are[*A*]x ) , Imz0=0 , x=g1 ( x ) , y=g2 ( x ) } where g1 are vector - valued functions that vanish to first order at 0	context()	negated: False ,passive: True
+0.567	[*A*]xm+1 ,, xn[*R*]can be written	context()	negated: False ,passive: False
+0.718	[*A*]g2[*R*]are[*A*]vector - valued functions that vanish to first order at 0	context()	negated: False ,passive: True
+0.905	[*A*]vector - valued functions[*R*]vanish[*A*]to first order[*A*]at 0	context()	negated: False ,passive: True
+0.718	[*A*]g1[*R*]are[*A*]vector - valued functions that vanish to first order at 0	context()	negated: False ,passive: True
+0.490	[*A*]we[*R*]will let[*A*]mn ( z0[*A*]when O is totally real	context()	negated: False ,passive: False
+0.671	[*A*]O[*R*]is[*A*]totally real	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]are[*A*]principally interested in the case	context()	negated: False ,passive: True
+[LINE#120]Moreover, because of the order 3 condition, the function h vanishes up to third order at 0.
+0.911	[*A*]the function h[*R*]vanishes[*A*]up[*A*]to third order at 0	context()	negated: False ,passive: True
+[LINE#121]As before, we will consider a smooth parametrization Rm(O), of the formRm(h(),,g1(),g2())T0(M)R(Rez0)Cn(z) where we have split the z-space according to the decomposition z=(x,x,y).
+0.452	[*A*]we[*R*]have split[*A*]the z-space	context()	negated: False ,passive: False
+0.740	[*A*]we[*R*]will consider[*A*]a smooth parametrization Rm(O), of the formRm[*A*]As before	context()	negated: False ,passive: False
+[LINE#122]Writing z() for (,g1(),g2()), a parametrization of O is thus given byRmP()=(h(),f(h(),z()),z())Cn+1(Rez0,Imz0,z).
+0.899	[*A*]a parametrization of O[*R*]is given[*A*]byRmP	context()	negated: False ,passive: True
+[LINE#123] Analogously to before, we define a mapping :R+RmCn+1, with (s,)=(A(s, )),B(s,)=f(h(),z())+s(1+b(s,)),C(s,)=z()+sc(s,) for some smooth maps.
+[LINE#124]R+RmCn, parametrizing the manifold Os through the point (s)=(is,0).
+0.909	[*A*]R+RmCn, parametrizing the manifold Os through the point (s[*R*]is[*A*]0	context()	negated: False ,passive: True
+0.857	[*A*]R+RmCn[*R*]parametrizing[*A*]the manifold Os[*A*]through the point (s	context()	negated: False ,passive: False
+[LINE#125]Again with the choice of the Levi polynomial as =-iz0, we then need to evaluate the following integral:(10)(R-)((s))Bd[-i(h()+s(a(s,)))+(f(h(),z())+s(1+b(s,)))].
+0.159	[*A*]we[*R*]need to evaluate[*A*]the following integral	context(we need)	negated: False ,passive: False
+0.252	[*A*]we[*R*]need[*A*]to evaluate the following integral[*A*]then	context()	negated: False ,passive: False
+[LINE#126]We need only observe now thatf(h(),z())=|z()|2+O(||3)=||2+O(||3), where the first equality is due the order 3 condition and the second follows from the facts that by definition |z()|2=||2+|g1()|2+|g2()|2 and g1(),g2() are both O(||2).
+0.202	[*A*]We[*R*]need only[*A*]observe now thatf ( h ( ) , z ( ) ) = | z ( ) | 2+O ( | | 3 ) = | | 2+O ( | | 3 ) , where the first equality is due the second follows from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) g1 ( ) , g2 ( ) are both O ( | | 2 )	context()	negated: False ,passive: False
+0.998	[*A*]2+O ( | | 3 ) = | | 2+O ( | | 3 ) , where the first equality is due the second follows from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) g1 ( ) , g2[*R*]are[*A*]both O	context()	negated: False ,passive: True
+0.481	[*A*]the second[*R*]follows[*A*]from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) g1 ( ) , g2 ( ) are both O	context()	negated: False ,passive: True
+0.202	[*A*]We[*R*]need only[*A*]observe now thatf ( h ( ) , z ( ) ) = | z ( ) | 2+O ( | | 3 ) = | | 2+O ( | | 3 ) , where the first equality is due the second follows from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) | 2 ( ) , g2 ( ) are both O ( | | 2 )	context()	negated: False ,passive: False
+0.481	[*A*]the second[*R*]follows[*A*]from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) | 2 ( ) , g2 ( ) are both O	context()	negated: False ,passive: True
+0.828	[*A*]the first equality[*R*]is[*A*]due	context()	negated: False ,passive: True
+0.968	[*A*]| 2+ | g2 ( ) g1 ( ) , g2[*R*]are[*A*]both O	context()	negated: False ,passive: True
+0.888	[*A*]the order 3 condition[*R*]follows[*A*]from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) g1 ( ) , g2 ( ) are both O	context()	negated: False ,passive: True
+0.906	[*A*]the first equality[*R*]is[*A*]due the order 3 condition follows from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) g1 ( ) , g2 ( ) are both O ( | | 2	context()	negated: False ,passive: True
+0.397	[*A*]We[*R*]need only observe[*A*]now[*A*]thatf[*A*]| z	context(We need only)	negated: False ,passive: False
+0.514	[*A*]We[*R*]need only[*A*]observe now thatf ( h ( ) , z ( ) ) = | z	context()	negated: False ,passive: False
+0.816	[*A*]g2[*R*]are[*A*]both O	context()	negated: False ,passive: True
+0.888	[*A*]the order 3 condition[*R*]follows[*A*]from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) | 2 ( ) , g2 ( ) are both O	context()	negated: False ,passive: True
+0.906	[*A*]the first equality[*R*]is[*A*]due the order 3 condition follows from the facts that by definition | z ( ) | 2= | | 2+ | g1 ( ) | 2+ | g2 ( ) | 2 ( ) , g2 ( ) are both O ( | | 2	context()	negated: False ,passive: True
+[LINE#127]This is all that is needed to prove the analogue of Lemma 2.9 for the argument (s,)=-(h()+sa(s,))/(f(h(),z())+s+sb(s,)).
+0.501	[*A*]all[*R*]is needed[*A*]to prove the analogue of Lemma 2.9 for the argument (s	context()	negated: False ,passive: True
+0.095	[*A*]This[*R*]is[*A*]all that is needed	context()	negated: False ,passive: True
+[LINE#128] The divergence of the integral for a sufficiently large  follows then in the same way as before, namely,(11)(R-)((s))(0,1)drrm-1(s+|r|2)I(s,r)where I(s,r) approaches, uniformly in s, a fixed, positive constant for r0.
+0.941	[*A*]The divergence of the integral for a sufficiently large[*R*]follows[*A*]then[*A*]as before, namely,(11)(R-)((s))(0,1)drrm-1(s+|r|2)I(s,r)where I(s,r) approaches, uniformly in s	context()	negated: False ,passive: True
+[LINE#129] General settingLet M be a complex manifold with nonempty, smooth, strongly pseudoconvex boundary bMand M=MbM so that M is the interior of M, and dimC(M)=n+1.
+0.973	[*A*]General settingLet M[*R*]be[*A*]a complex manifold with nonempty , smooth , strongly pseudoconvex boundary bMand M=MbM dimC ( M ) =n+1	context()	negated: False ,passive: True
+0.904	[*A*]M[*R*]is[*A*]the interior of M	context()	negated: False ,passive: True
+0.973	[*A*]General settingLet M[*R*]be[*A*]a complex manifold with nonempty , smooth , strongly pseudoconvex boundary bMand M=MbM	context()	negated: False ,passive: True
+[LINE#130] Also assume that M is a closed subset in M, a complex neighborhood of M of the same dimension on which the complex structure on M extends that of M and every point of M is an interior point of M. Denote by O(M)the space of holomorphic functions on M.Suppose that a Lie group G acts by biholomorphisms on M, and that M is invariant under this action.
+0.930	[*A*]the complex structure on M[*R*]extends[*A*]that of every point of M[*A*]the same dimension	context()	negated: False ,passive: False
+0.887	[*A*]M[*R*]is[*A*]invariant[*A*]under this action	context()	negated: False ,passive: True
+0.905	[*A*]the complex structure on M[*R*]extends[*A*]that of M is an interior point of M. Denote by O ( M ) the space of holomorphic functions on M.Suppose that a Lie group G acts by biholomorphisms on M	context()	negated: False ,passive: False
+0.947	[*A*]a Lie group G[*R*]acts[*A*]by biholomorphisms on M	context()	negated: False ,passive: False
+[LINE#131]We assume that the G acts on M freely, properly, and cocompactly.
+0.195	[*A*]We[*R*]assume cocompactly	context()	negated: False ,passive: False
+0.859	[*A*]the G[*R*]acts freely properly[*A*]on M	context(We assume)	negated: False ,passive: False
+0.225	[*A*]We[*R*]assume[*A*]that the G acts on M freely , properly	context()	negated: False ,passive: False
+[LINE#132]This means that the map GMMM given by (g,p)(gp,p) is proper, that the stabilizer of each pM is trivial, and that the quotient space M/G is compact, where from now on we denote by gp the action of the group element gG on the point pM.Choosing a G-invariant measure , smooth on M, and restricting it to M, we define the Bergman space L2O(M,) as L2(M,)O(M).
+0.923	[*A*]the quotient space[*R*]is[*A*]compact , where from now on we denote by gp the action of the group element gG on the point pM.Choosing restricting it to M , we define the Bergman space L2O ( M , ) as L2	context()	negated: False ,passive: True
+0.639	[*A*]we[*R*]define[*A*]the Bergman space L2O[*A*]as L2[*A*]on the point	context()	negated: False ,passive: False
+0.676	[*A*]gp , p[*R*]is[*A*]proper	context()	negated: False ,passive: True
+0.302	[*A*]This[*R*]means[*A*]the map GMMM given by ( g , p ) ( gp , p ) is proper , that the stabilizer of each pM is trivial , and	context()	negated: False ,passive: False
+0.923	[*A*]the quotient space[*R*]is[*A*]compact , where from now on we denote by gp the action of the group element gG on the point pM.Choosing a G - invariant measure , smooth on M , we define the Bergman space L2O	context()	negated: False ,passive: True
+0.888	[*A*]the stabilizer of each pM[*R*]is[*A*]trivial	context()	negated: False ,passive: True
+0.487	[*A*]This[*R*]means[*A*]the map GMMM given by ( g , p ) ( gp , p ) is proper	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]define[*A*]the Bergman space L2O	context()	negated: False ,passive: False
+0.585	[*A*]we[*R*]define[*A*]the Bergman space L2O[*A*]on the point	context(This means)	negated: False ,passive: False
+0.126	[*A*]This[*R*]means	context()	negated: False ,passive: False
+0.551	[*A*]we[*R*]denote[*A*]the action of the group element[*A*]from now on	context()	negated: False ,passive: False
+0.802	[*A*]the quotient space[*R*]is[*A*]compact	context()	negated: False ,passive: True
+[LINE#133]Compactness of the quotient and invariance of the measure imply that L2O(M,) does not depend on , provided that the measure is smooth on M.
+0.732	[*A*]L2O[*R*]does not depend[*A*]on	context(Compactness of invariance of the measure imply)	negated: True ,passive: False
+0.886	[*A*]Compactness of invariance of the measure[*R*]imply[*A*]that L2O ( M , ) does not depend on , provided that the measure is smooth on M.	context()	negated: False ,passive: False
+0.732	[*A*]L2O[*R*]does not depend[*A*]on	context(Compactness of the quotient of the measure imply)	negated: True ,passive: False
+0.895	[*A*]Compactness of the quotient of the measure[*R*]imply[*A*]that L2O ( M , ) does not depend on , provided that the measure is smooth on M.	context()	negated: False ,passive: False
+0.937	[*A*]the measure[*R*]is[*A*]smooth on M.	context()	negated: False ,passive: True
+[LINE#134]Thus we will omit mention of the measure henceforth and write L2O(M) for the Bergman space.
+0.452	[*A*]we[*R*]will omit[*A*]mention of the measure[*A*]henceforth	context()	negated: False ,passive: False
+[LINE#135]In the following result, we use the notation Tpc(bM) for the complex tangent space Tp(bM)iTp(bM), and the unimodularity assumption means that the Lie group G admits a biinvariant Haar measure, see [9].Theorem 1.1Let G be a unimodular group acting properly, freely and cocompactly by biholomorphisms on a complex manifold M with strongly pseudoconvex boundary bM and suppose that, for some pbM, we have Tp(Gp)Tpc(bM).
+0.498	[*A*]we[*R*]have[*A*]Tp(Gp)Tpc	context()	negated: False ,passive: False
+0.937	[*A*]Theorem 1.1Let G[*R*]be[*A*]a unimodular group acting properly, freely and cocompactly	context(the unimodularity assumption means the Lie group admits see)	negated: False ,passive: True
+0.571	[*A*]the Lie group[*R*]admits a biinvariant Haar measure see[*A*]9	context(the unimodularity assumption means the Lie group admits)	negated: False ,passive: False
+0.893	[*A*]the Lie group[*R*]admits[*A*]a biinvariant Haar measure	context(the unimodularity assumption means)	negated: False ,passive: False
+0.853	[*A*]the unimodularity assumption[*R*]means[*A*]that the Lie group G admits a biinvariant Haar measure	context()	negated: False ,passive: False
+0.751	[*A*]a unimodular group[*R*]acting properly	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]use[*A*]the notation Tpc[*A*]for the complex tangent space Tp[*A*]In the following result	context()	negated: False ,passive: False
+[LINE#136] Then we have dimG(L2O(M))=.Remark 1.2A thorough description of the G-dimension can be found in [9], but for our purposes here let us just mention that this result implies that the Bergman space is infinite-dimensional over C as any space of positive G-dimension is infinite-dimensional over.
+0.743	[*A*]Remark 1.2A[*R*]can be found[*A*]in [ 9	context(we have)	negated: False ,passive: True
+0.577	[*A*]we[*R*]have[*A*]dimG[*A*]Then	context()	negated: False ,passive: False
+[LINE#137]C. An example in [5] shows that the nontriviality of the Bergman space is not automatic, even in strongly pseudoconvex manifolds admitting a cocompact Lie group action by biholomorphisms.
+0.840	[*A*]the nontriviality of the Bergman space[*R*]is not[*A*]automatic	context(C. An example in [ 5 shows)	negated: True ,passive: True
+0.922	[*A*]C. An example in [5[*R*]shows[*A*]that the nontriviality of the Bergman space is not automatic, even in strongly pseudoconvex manifolds	context()	negated: False ,passive: False
+0.911	[*A*]strongly pseudoconvex manifolds[*R*]admitting[*A*]a cocompact Lie group action by biholomorphisms	context()	negated: False ,passive: False
+[LINE#138]Since G acts in M by measure-preserving biholomorphisms, its action induces a unitary representation of G in L2O(M).
+0.748	[*A*]G[*R*]acts by measure-preserving[*A*]biholomorphisms	context(G acts)	negated: False ,passive: False
+0.879	[*A*]G[*R*]acts[*A*]in M	context()	negated: False ,passive: False
+0.680	[*A*]its action[*R*]induces[*A*]a unitary representation of G in L2O	context()	negated: False ,passive: False
+[LINE#139]By the methods of [3], it can be shown that the representation R obtained is non-trivial and in fact we haveCorollary 1.3kerR is compact.
+0.805	[*A*]1.3kerR[*R*]is[*A*]compact	context(we haveCorollary)	negated: False ,passive: True
+0.433	[*A*]we[*R*]haveCorollary[*A*]1.3kerR is compact	context()	negated: False ,passive: False
+0.751	[*A*]the representation R[*R*]obtained	context()	negated: False ,passive: False
+[LINE#140]Our method of analyzing the Bergman space is derived from a partial differential equations approach to several complex variables due to Morrey, Spencer, Kohn, and others.
+0.861	[*A*]Our method of analyzing the Bergman space[*R*]is derived[*A*]from a partial differential equations approach to several complex variables due to others	context()	negated: False ,passive: True
+0.882	[*A*]Our method of analyzing the Bergman space[*R*]is derived[*A*]from a partial differential equations approach to several complex variables due to Kohn	context()	negated: False ,passive: True
+0.882	[*A*]Our method of analyzing the Bergman space[*R*]is derived[*A*]from a partial differential equations approach to several complex variables due to Spencer	context()	negated: False ,passive: True
+0.882	[*A*]Our method of analyzing the Bergman space[*R*]is derived[*A*]from a partial differential equations approach to several complex variables due to Morrey	context()	negated: False ,passive: True
+[LINE#141]This involves the analysis of a self-adjoint boundary value problem for an operator  similar to the Hodge Laplacian and is called the -Neumann problem.
+0.543	[*A*]This[*R*]involves[*A*]the analysis of a self-adjoint boundary value problem for an operator  similar to the Hodge Laplacian	context()	negated: False ,passive: True
+[LINE#142] For any integers p,q with 0p,qn+1 denote by C(M,p,q) the space of all C forms of type (p,q) on M.The antiholomorphic exterior derivative =|p,q defines a linear map :C(M,p,q)C(M,.
+0.813	[*A*]q[*R*]defines[*A*]a linear map	context()	negated: False ,passive: False
+0.920	[*A*]any integers p[*R*]q[*A*]qn+1 denote by C	context()	negated: False ,passive: False
+0.784	[*A*]any integers[*R*]p	context()	negated: False ,passive: False
+[LINE#143] If it can be established thatu= has a square-integrable, smooth solution u whenever L2 belongs to C(M,0,1) and satisfies the compatibility condition=0, then we may construct L2-holomorphic functions.
+0.620	[*A*]thatu=[*R*]has[*A*]a square-integrable , smooth solution u	context(we may construct)	negated: False ,passive: False
+0.577	[*A*]we[*R*]may construct[*A*]L2 - holomorphic functions[*A*]then	context()	negated: False ,passive: False
+0.575	[*A*]thatu=[*R*]satisfies[*A*]the compatibility condition=0	context()	negated: False ,passive: False
+0.620	[*A*]thatu=[*R*]has[*A*]a square-integrable , smooth solution u	context(we may construct)	negated: False ,passive: False
+0.577	[*A*]we[*R*]may construct[*A*]L2 - holomorphic functions[*A*]whenever L2 belongs to C[*A*]then	context()	negated: False ,passive: False
+0.840	[*A*]L2[*R*]belongs[*A*]to C	context()	negated: False ,passive: False
+0.195	[*A*]it[*R*]can be established	context()	negated: False ,passive: False
+[LINE#144] The first step is to use the pseudoconvexity property of the boundary to construct a function fL2, holomorphic in a neighborhood.
+0.956	[*A*]The first step[*R*]is[*A*]to use the pseudoconvexity property of the boundary to construct a function fL2, holomorphic in a neighborhood	context()	negated: False ,passive: True
+[LINE#145]Ux of x in M, that blows up just at x.
+0.834	[*A*]Ux of x in M[*R*]blows up[*A*]just at	context()	negated: False ,passive: True
+[LINE#146]The function f is usually chosen to be the reciprocal of the Levi polynomial.
+0.913	[*A*]The function f[*R*]to be[*A*]the reciprocal of the Levi polynomial	context()	negated: False ,passive: True
+0.935	[*A*]The function f[*R*]is chosen[*A*]to be the reciprocal of the Levi polynomial[*A*]usually	context()	negated: False ,passive: True
+[LINE#147] Next, we can take a smooth function  with support in Ux that is identically equal 1 close to x. Extending f by zero on the rest of M, we obtain a function, which we also call f, defined everywhere and smooth away from x. Furthermore, (f)=()f=0near x, so f can be extended smoothly to the boundary.
+0.590	[*A*]we[*R*]call f[*A*]x. Extending f by zero on the rest of M , we obtain a function , which we also call f , smooth away from x.	context()	negated: False ,passive: False
+0.085	[*A*]f[*R*]can be extended smoothly[*A*]to the boundary	context(we obtain)	negated: False ,passive: True
+0.507	[*A*]we[*R*]obtain[*A*]x. Extending f by zero on the rest of M , we obtain a function , which we also call f , smooth away from x.	context()	negated: False ,passive: False
+0.840	[*A*]x.[*R*]Extending f[*A*]by zero[*A*]on the rest of M	context()	negated: False ,passive: True
+0.890	[*A*]a smooth function with support in Ux[*R*]is[*A*]identically equal	context()	negated: False ,passive: True
+0.872	[*A*]x. Extending f by zero on the rest of M[*R*]smooth away	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]can take[*A*]a smooth function with support in Ux	context()	negated: False ,passive: False
+0.545	[*A*]we[*R*]call f[*A*], we obtain a function , which we also call f , defined everywhere	context()	negated: False ,passive: False
+0.516	[*A*]we[*R*]obtain[*A*], we obtain a function , which we also call f , defined everywhere	context()	negated: False ,passive: False
+0.925	[*A*]close to x.[*R*]Extending f[*A*]by zero[*A*]on the rest of M	context()	negated: False ,passive: True
+0.846	[*A*]support in Ux[*R*]is[*A*]identically equal	context()	negated: False ,passive: True
+0.484	[*A*]a function , which we also call f[*R*]defined[*A*]everywhere	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]can take[*A*]a smooth function	context()	negated: False ,passive: False
+[LINE#148] If we can now find a smooth solution u to u=f, then =f-u will be holomorphic and must be singular at x since u is smooth up to the boundary.
+0.449	[*A*]u[*R*]is[*A*]smooth up to the boundary	context()	negated: False ,passive: True
+0.650	[*A*]=f - u[*R*]will be[*A*]holomorphic	context()	negated: False ,passive: True
+0.490	[*A*]we[*R*]can find[*A*]a smooth solution u to u=f[*A*]now	context()	negated: False ,passive: False
+[LINE#149]In particular,  will be non-trivial.
+[LINE#150] Let us describe the construction of solutions uL2(M) to u= with L2(M,0,1), =0, noting that solutions will only be determined modulo the kernel of (i.e. the square-integrable holomorphic functions).
+[LINE#151]First, we pass to an analysis of a self-adjoint operator as follows.
+0.522	[*A*]we[*R*]pass[*A*]to an analysis of a self-adjoint operator[*A*]as follows	context()	negated: False ,passive: False
+[LINE#152]Since the Hilbert space adjoint  of  satisfies im=(ker), we will look for u of the form u=v satisfying(1)v=.
+0.698	[*A*]the form[*R*]satisfying	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]will look[*A*]for u of the form	context()	negated: False ,passive: False
+0.953	[*A*]the Hilbert space adjoint  of[*R*]satisfies[*A*]im=	context()	negated: False ,passive: False
+[LINE#153]In order to eliminate the compatibility condition on , let us add a term, v, to obtain a new operator and equation(2)v:=(+)v=, in which  need not be assumed to satisfy =0.
+[LINE#154] By von Neumanns theorem, the -Neumann Laplacian  is self-adjoint with its natural boundary conditions.
+0.917	[*A*]the -Neumann Laplacian[*R*]is[*A*]self-adjoint with its natural boundary conditions	context()	negated: False ,passive: True
+[LINE#155]This is shown by applying  to Eq.
+0.153	[*A*]This[*R*]is shown	context()	negated: False ,passive: False
+[LINE#156] (2), which gives that v=0and in turn implies 0=v,v=vL2(M)2.
+0.132	[*A*]2[*R*]gives[*A*]that v=0and[*A*]in turn	context(2 ) , which gives that v=0and in turn implies)	negated: False ,passive: False
+0.946	[*A*]2), which gives that v=0and in turn[*R*]implies[*A*]0=v,v=vL2	context()	negated: False ,passive: False
+[LINE#157](2) vanishes when the compatibility condition holds.
+0.800	[*A*]the compatibility condition[*R*]holds	context()	negated: False ,passive: False
+[LINE#158]The Laplacian is elliptic but its natural -Neumann boundary conditions are not.
+0.508	[*A*]its natural - Neumann boundary conditions[*R*]are not	context()	negated: True ,passive: False
+0.855	[*A*]The Laplacian[*R*]is[*A*]elliptic	context()	negated: False ,passive: True
+[LINE#159]Still, it turns out that the gain at the boundary depends on the geometry of the boundary, and the best such situation is that which we assume, in which the boundary is strongly pseudoconvex.
+0.770	[*A*]the boundary[*R*]is[*A*]strongly pseudoconvex	context(that assume)	negated: False ,passive: True
+0.090	[*A*]that[*R*]assume[*A*]we	context()	negated: False ,passive: True
+0.227	[*A*]it[*R*]is[*A*]that which we assume , in which the boundary is strongly pseudoconvex	context()	negated: False ,passive: True
+[LINE#160] In this case, the operator gains one degree on the Sobolev scale in neighborhoods of bMand so global estimates including both interior and boundary neighborhoods gain only one degree.
+[LINE#161](2) is to establish that  satisfies a generalized Fredholm property.
+0.233	[*A*]2[*R*]is[*A*]to establish that  satisfies a generalized Fredholm property	context()	negated: False ,passive: True
+[LINE#162]Classically, this means that the spaces ker and coker are finite-dimensional, i.e. on a (closed) subspace of finite complex codimension in L2(M,p,q), q>0, the Laplacian is a Hilbert space isomorphism.
+0.477	[*A*]this[*R*]means[*A*]are finite - dimensional , i.e. on a ( closed ) subspace of finite complex codimension in L2 ( M , p , q ) , q > 0 , the Laplacian is a Hilbert space isomorphism	context()	negated: False ,passive: False
+0.487	[*A*]this[*R*]means[*A*]coker M , p , q ) , q > 0	context(the Laplacian is)	negated: False ,passive: False
+0.923	[*A*]the Laplacian[*R*]is[*A*]a Hilbert space isomorphism	context()	negated: False ,passive: True
+0.919	[*A*]the Laplacian[*R*]is[*A*]a Hilbert space isomorphism	context(this means the spaces ker)	negated: False ,passive: True
+0.736	[*A*]the spaces[*R*]ker	context(this means)	negated: False ,passive: False
+0.249	[*A*]this[*R*]means[*A*]that the spaces ker M , p , q ) , q > 0 , the Laplacian is a Hilbert space isomorphism	context()	negated: False ,passive: False
+[LINE#163]In the case of compact M, we can use the Rellich lemma and the operators Sobolev gain to obtain the finite-dimensionality of those spaces.
+0.188	[*A*]we[*R*]can use the operators Sobolev gain to obtain[*A*]the finite - dimensionality of those spaces	context(we can use)	negated: False ,passive: False
+0.332	[*A*]we[*R*]can use[*A*]the operators Sobolev gain[*A*]to obtain the finite - dimensionality of those spaces[*A*]In the case of compact M	context()	negated: False ,passive: False
+0.698	[*A*]the operators[*R*]gain	context()	negated: False ,passive: False
+0.131	[*A*]we[*R*]can use the Rellich lemma Sobolev to obtain[*A*]the finite - dimensionality of those spaces	context(we can use)	negated: False ,passive: False
+0.444	[*A*]we[*R*]can use[*A*]the Rellich lemma Sobolev[*A*]gain to obtain the finite - dimensionality of those spaces[*A*]In the case of compact M	context()	negated: False ,passive: False
+0.848	[*A*]the Rellich lemma Sobolev[*R*]gain[*A*]to obtain the finite - dimensionality of those spaces	context()	negated: False ,passive: True
+[LINE#164]This completely characterizes the solvability of ..
+0.342	[*A*]This[*R*]characterizes[*A*]the solvability of	context()	negated: False ,passive: False
+[LINE#165] The G-Fredholm property of the -Neumann problemInthe case of a noncompact manifold, an operator A may fail to be Fredholm regardless of its Sobolev gain.
+0.961	[*A*]The G-Fredholm property of the -Neumann problemInthe case of a noncompact manifold[*R*]to be[*A*]Fredholm[*A*]regardless of its Sobolev gain	context()	negated: False ,passive: True
+0.870	[*A*]an operator A[*R*]may fail[*A*]to be Fredholm regardless of its Sobolev gain	context()	negated: False ,passive: True
+[LINE#166]That is, the kernel and/or cokernel of A may be infinite-dimensional and/or the image of A may not be closed.
+0.919	[*A*]the cokernel of A[*R*]may be[*A*]the image of A	context()	negated: False ,passive: True
+0.737	[*A*]the cokernel of A[*R*]may not be closed	context()	negated: True ,passive: False
+0.799	[*A*]the cokernel of A[*R*]may be[*A*]infinite - dimensional	context()	negated: False ,passive: True
+0.903	[*A*]the kernel[*R*]may be[*A*]the image of A	context()	negated: False ,passive: True
+0.698	[*A*]the kernel[*R*]may not be closed	context()	negated: True ,passive: False
+0.767	[*A*]the kernel[*R*]may be[*A*]infinite - dimensional	context()	negated: False ,passive: True
+[LINE#167]Thus, our solvability theory in the G-manifold case will be worked in terms of a generalized Fredholm property valid for G-invariant subspaces of L2.
+0.580	[*A*]our solvability theory in the G-manifold case[*R*]will be worked	context()	negated: False ,passive: False
+[LINE#168]The corresponding dimension is obtained by replacing the ordinary meaning of the complex dimension by the value of von Neumanns G-trace trG which takes finite values on some closed, G-invariant subspaces of L2(M) which are infinite-dimensional over C.
+0.881	[*A*]some closed, G-invariant subspaces of L2[*R*]are[*A*]infinite-dimensional	context()	negated: False ,passive: True
+0.976	[*A*]the value of von Neumanns G-trace trG[*R*]takes[*A*]finite values[*A*]on some closed, G-invariant subspaces of L2	context()	negated: False ,passive: False
+0.751	[*A*]The corresponding dimension[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#169] For this dimension to be defined, we need that Ms symmetry group G be a unimodular group [9], and that the quotient.
+0.732	[*A*]this dimension[*R*]to be	context()	negated: False ,passive: False
+0.945	[*A*]that Ms symmetry group G[*R*]be[*A*]a unimodular group	context(we need)	negated: False ,passive: True
+0.218	[*A*]we[*R*]need[*A*]that Ms symmetry group G be a unimodular group	context()	negated: False ,passive: False
+0.732	[*A*]this dimension[*R*]to be defined	context()	negated: False ,passive: False
+[LINE#170]Making appropriate choices of metric on M and in the vector bundles over M and using a Haar measure on G, we obtain Hilbert spaces of sections on which the G-action is unitary.
+0.847	[*A*]the G - action[*R*]is[*A*]unitary	context(we obtain)	negated: False ,passive: True
+0.847	[*A*]the G - action[*R*]is[*A*]unitary	context(we obtain)	negated: False ,passive: True
+0.847	[*A*]the G - action[*R*]is[*A*]unitary	context(we obtain)	negated: False ,passive: True
+0.433	[*A*]we[*R*]obtain[*A*]Hilbert spaces of sections	context()	negated: False ,passive: False
+[LINE#171]This action allows us to define an trace trG in the algebra of operators commuting with the action of G.For the case in which M=G, the G-dimension has a simple definition.
+0.397	[*A*]us[*R*]to define[*A*]an trace trG	context(This action allows)	negated: False ,passive: False
+0.867	[*A*]This action[*R*]allows[*A*]us to define an trace trG in the algebra of operators	context()	negated: False ,passive: False
+0.922	[*A*]M=G[*R*]has[*A*]a simple definition[*A*]the case	context()	negated: False ,passive: False
+0.942	[*A*]operators[*R*]commuting[*A*]with the action of G.For[*A*]the case in which M=G, the G-dimension has a simple definition	context()	negated: False ,passive: False
+[LINE#172]The algebra of operators LGB(L2(G)) commuting with the right action of G is a von Neumann algebra consisting of some left convolutions  against distributions  on G.
+0.920	[*A*]The algebra of operators[*R*]commuting[*A*]with the right action of G	context()	negated: False ,passive: False
+[LINE#173] On this algebra there is a unique trace trG agreeing withtrG()=Gds|(s)|2, whenever B(L2(G)).
+0.877	[*A*]trG[*R*]agreeing[*A*]withtrG()=Gds|(s[*A*]|2	context()	negated: False ,passive: False
+[LINE#174]In order to measure invariant projections in B(L2(M))G, one uses the tensor product TrG=trGtrL2(M/G).
+[LINE#175] Restricting this trace to orthogonal projections PL onto G-invariant subspaces.
+[LINE#176]L provides a dimension function dimG,dimG(L)=TrG(PL).
+0.855	[*A*]L[*R*]provides[*A*]a dimension function	context()	negated: False ,passive: False
+[LINE#177]With this idea of dimension, one generalizes the classical definition of Fredholm operator.
+0.590	[*A*]one[*R*]generalizes[*A*]the classical definition of Fredholm operator	context()	negated: False ,passive: False
+[LINE#178] H1H2 is said to be G-Fredholm if dimGkerA< and if there exists a closed, invariant subspace Qim(A) so that dimG(H2Q)<.The principal result of [10] is the following:.
+0.730	[*A*]H1H2[*R*]is said	context(The principal result of [ 10 is)	negated: False ,passive: False
+0.921	[*A*]H1H2[*R*]to be[*A*]G - Fredholm dimG ( H2Q ) <	context()	negated: False ,passive: True
+0.844	[*A*]The principal result of [ 10[*R*]is[*A*]the following:.	context()	negated: False ,passive: True
+0.921	[*A*]H1H2[*R*]to be[*A*]G - Fredholm	context()	negated: False ,passive: True
+0.771	[*A*]H1H2[*R*]is said	context()	negated: False ,passive: False
+[LINE#179]Theorem 1.5Let M be a complex manifold with boundary which is strongly pseudoconvex.
+0.831	[*A*]a complex manifold with boundary[*R*]is[*A*]strongly pseudoconvex	context()	negated: False ,passive: True
+0.777	[*A*]Theorem 1.5Let M[*R*]be[*A*]a complex manifold with boundary which is strongly pseudoconvex	context()	negated: False ,passive: True
+[LINE#180]Let G be a unimodular Lie group acting freely and properly by holomorphic transformations on M so that M/G is compact.
+0.769	[*A*]a unimodular Lie group[*R*]acting properly	context()	negated: False ,passive: False
+0.770	[*A*]M / G[*R*]is[*A*]compact	context()	negated: False ,passive: True
+0.769	[*A*]a unimodular Lie group[*R*]acting freely	context()	negated: False ,passive: False
+[LINE#181]Then, for q>0, the -Neumann Laplacian  in L2(M,p,q) is G-Fredholm.
+0.978	[*A*]the -Neumann Laplacian  in L2[*R*]is[*A*]G-Fredholm[*A*]Then	context()	negated: False ,passive: True
+[LINE#182]In other words, as the Laplacian G-Fredholm, it is an isomorphism in the orthogonal complement of a closed, invariant subspace of finite G-dimension.
+0.678	[*A*]it[*R*]is[*A*]an isomorphism in the orthogonal complement of a closed, invariant subspace of finite G-dimension	context()	negated: False ,passive: True
+[LINE#183]Remark 1.6Examples of manifolds satisfying the hypotheses of the theorem are the gauged G-complexifications of [6] for unimodular Lie groups.
+0.911	[*A*]1.6Examples of manifolds[*R*]satisfying[*A*]the hypotheses of the theorem	context()	negated: False ,passive: False
+[LINE#184]The unimodularity of G is necessary for the definition of the G-Fredholm property [9].
+0.878	[*A*]The unimodularity of G[*R*]is[*A*]necessary	context()	negated: False ,passive: True
+[LINE#185]See also [13] (where the G-Fredholm property is extended to a wider class of invariant operators), [12] and [14] (where the Laplacian is studied without unimodularity assumptions on G). .
+0.788	[*A*]the Laplacian[*R*]is studied	context()	negated: False ,passive: False
+0.944	[*A*]the G - Fredholm property[*R*]is extended[*A*]to a wider class of invariant operators	context()	negated: False ,passive: True
+[LINE#186]The Levi problem on G-bundlesThe G-Fredholm property established earlier provides that the image of the Laplacian nontrivially intersects any closed, invariant subspace of L2(M) of large enough dimension.
+0.970	[*A*]the image of the Laplacian[*R*]nontrivially intersects[*A*]any closed, invariant subspace of L2(M) of large enough dimension	context()	negated: False ,passive: False
+0.916	[*A*]The Levi problem on G-bundlesThe G-Fredholm property[*R*]established[*A*]earlier provides that the image of the Laplacian nontrivially intersects any closed, invariant subspace of L2(M) of large enough dimension	context()	negated: False ,passive: False
+[LINE#187]On the other hand, the Paley-Wiener theorem of [1] provides that if a closed, invariant subspace of L2(M) contains an element with compact support, then it is infinite-G-dimensional.
+0.457	[*A*]it[*R*]is[*A*]infinite-G-dimensional	context(the Paley - Wiener theorem of [ 1 provides)	negated: False ,passive: True
+0.849	[*A*]the Paley-Wiener theorem of [1[*R*]provides[*A*]that if a closed, invariant subspace of L2(M) contains an element with compact support, then it is infinite-G-dimensional	context()	negated: False ,passive: False
+0.945	[*A*]a closed, invariant subspace of L2[*R*]contains[*A*]an element with compact support	context()	negated: False ,passive: False
+[LINE#188]Thus, if u denotes the closure of the complex vector space generated by translates of uCc, we have imf{0}, which is the basis of the construction of the Bergman space.
+0.854	[*A*]imf[*R*]is[*A*]the basis of the construction of the Bergman space	context()	negated: False ,passive: True
+0.614	[*A*]we[*R*]have[*A*]imf{0}, which is the basis of the construction of the Bergman space	context()	negated: False ,passive: False
+0.931	[*A*]the complex vector space[*R*]generated[*A*]by translates of uCc	context()	negated: False ,passive: True
+0.813	[*A*]u[*R*]denotes[*A*]the closure of the complex vector space	context()	negated: False ,passive: False
+[LINE#189]To be more precise, we need subspaces in imfC(M,0,1) of arbitrarily large G-dimension in order to solve our problem.
+0.614	[*A*]we[*R*]need[*A*]subspaces in imfC(M,0,1) of arbitrarily large G-dimension	context()	negated: False ,passive: False
+[LINE#190]These are constructed in [11] as images under  of subspaces of L2 generated by convolutions as follows,f={Rf:imP}, where (Ru)(p)=Gdt(t)u(pt), Ru=Ru, and P is some invariant projection in L2(G).
+0.874	[*A*]P[*R*]is[*A*]some invariant projection in L2	context()	negated: False ,passive: True
+0.948	[*A*]Ru=Ru[*R*]is[*A*]some invariant projection in L2	context()	negated: False ,passive: True
+0.698	[*A*]These[*R*]are constructed[*A*]in [ 11[*A*]as images under of subspaces of L2 generated by convolutions as follows , f= { Rf	context()	negated: False ,passive: True
+0.974	[*A*]Ru ) ( p ) =Gdt ( t ) u[*R*]is[*A*]some invariant projection in L2	context()	negated: False ,passive: True
+0.933	[*A*]subspaces of L2[*R*]generated[*A*]by convolutions as follows	context()	negated: False ,passive: True
+0.590	[*A*]These[*R*]are constructed[*A*]in [ 11[*A*]as images under of subspaces of L2	context()	negated: False ,passive: True
+[LINE#191] If the projections P are chosen appropriately, the convolution kernels imP will be smooth andso elements uf will have uC(M,0,1).
+0.498	[*A*]uf[*R*]will have[*A*]uC	context()	negated: False ,passive: False
+0.901	[*A*]the convolution kernels[*R*]will be[*A*]smooth andso elements uf will have uC(M,0,1)	context()	negated: False ,passive: True
+0.751	[*A*]the projections P[*R*]are chosen appropriately	context()	negated: False ,passive: False
+[LINE#192]If it happens that uC(M), then Kohns nontriviality argument can be applied with u replacing f.
+0.561	[*A*]u[*R*]replacing	context()	negated: False ,passive: False
+0.961	[*A*]Kohns nontriviality argument[*R*]can be applied[*A*]with u replacing[*A*]then	context()	negated: False ,passive: True
+0.195	[*A*]it[*R*]happens	context()	negated: False ,passive: False
+[LINE#193] This motivates the introduction of the property called amenability in [11]:Definition 1.7Let GMpX be a principal G-bundle and let :.
+0.440	[*A*]This[*R*]motivates[*A*]the introduction of the property called amenability in [ 11 ] : Definition 1.7Let	context(GMpX be let)	negated: False ,passive: False
+0.580	[*A*]GMpX[*R*]be let	context()	negated: False ,passive: False
+0.330	[*A*]This[*R*]motivates[*A*]the introduction of the property	context(Definition 1.7Let GMpX be)	negated: False ,passive: False
+0.947	[*A*]Definition 1.7Let GMpX[*R*]be[*A*]a principal G - bundle	context()	negated: False ,passive: True
+0.903	[*A*]the property[*R*]called[*A*]amenability	context()	negated: False ,passive: True
+[LINE#194] XM be a piecewise continuous section so that |p(supp).
+0.772	[*A*]XM[*R*]be[*A*]a piecewise continuous section so that |p(supp)	context()	negated: False ,passive: True
+[LINE#195] The action of G on M is called amenable if there exist an xbM and >0 so that if f is a Levi polynomial at x, then (1) f-L2(M), (2) f-(,)L1(G)< for all p(supp), and (3) for any nonzero C(G), we haveus point out that our nonstandard use of the term amenable refers to actions rather than groups intrinsically and is unrelated to the existence of an invariant mean on the group as in the property due to von Neumann.
+0.681	[*A*]our nonstandard use of the term amenable[*R*]refers intrinsically[*A*]to actions rather than groups	context(we haveus point out)	negated: False ,passive: False
+0.195	[*A*]we[*R*]haveus point out[*A*]that our nonstandard use of the term amenable refers to actions rather than groups intrinsically and is unrelated to the existence of an invariant mean on the group as in the property due to von Neumann	context()	negated: False ,passive: False
+0.418	[*A*]f[*R*]is then[*A*]a Levi polynomial at x	context()	negated: False ,passive: True
+0.861	[*A*]our nonstandard use of the term amenable[*R*]is[*A*]unrelated to the existence of an invariant mean on the group as in the property due to von Neumann	context()	negated: False ,passive: True
+0.910	[*A*]The action of G on M[*R*]is called[*A*]amenable[*A*]if there exist an xbM and >0	context()	negated: False ,passive: True
+[LINE#196]In [11] it is shown that conditions (1) and (2) hold for 0<2<dimG.The main result of [11] and the motivation for much of the present work isTheorem 1.9Let G and M be as in Theorem 1.5 and assume that the action of G in M is amenable.
+0.949	[*A*]dimG.The main result of [ 11[*R*]be[*A*]as in Theorem 1.5	context()	negated: False ,passive: True
+0.993	[*A*]it[*R*]is shown In[*A*]11	context()	negated: False ,passive: False
+0.874	[*A*]the action of G in M[*R*]is[*A*]amenable	context(conditions assume)	negated: False ,passive: True
+0.716	[*A*]conditions[*R*]assume[*A*]that the action of G in M is amenable	context()	negated: False ,passive: False
+[LINE#197]It follows that the Bergman space L2O(M) is infinite-G-dimensional.
+[LINE#198][3] we apply this theorem to establish the nontriviality of the Bergman spaces of some natural G-manifolds; we describe these in Section 5. .
+0.550	[*A*]we[*R*]apply this theorem to establish[*A*]the nontriviality of the Bergman spaces of some natural G-manifolds	context(we apply we describe)	negated: False ,passive: False
+0.550	[*A*]we[*R*]apply[*A*]this theorem[*A*]to establish the nontriviality of the Bergman spaces of some natural G-manifolds	context(we describe)	negated: False ,passive: False
+0.388	[*A*]we[*R*]describe[*A*]these[*A*]in Section 5	context()	negated: False ,passive: False
+[LINE#199]Integrals on the Heisenberg groupVerifying in practice the condition described in Definition 1.7 leads, rather concretely, to the estimation of certain integrals with parameter performed on the group G.
+0.894	[*A*]parameter[*R*]performed[*A*]on the group	context()	negated: False ,passive: True
+0.781	[*A*]the condition described in Definition 1.7[*R*]leads rather concretely	context()	negated: False ,passive: False
+0.918	[*A*]the condition[*R*]described[*A*]in Definition 1.7	context()	negated: False ,passive: True
+[LINE#200]In this section we present an example that will serve as a model for the general situation of Theorem 1.1.
+0.938	[*A*]an example[*R*]will serve[*A*]as a model for the general situation of Theorem 1.1	context()	negated: False ,passive: False
+0.509	[*A*]we[*R*]present[*A*]an example that will serve as a model for the general situation of Theorem 1.1[*A*]In this section	context()	negated: False ,passive: False
+[LINE#201] Note that, since the integrals to estimate have a local character,a global assumptions like cocompactness of the action plays no role and in the following example it is in fact not satisfied.
+0.522	[*A*]it[*R*]is[*A*]in fact[*A*]not satisfied	context()	negated: False ,passive: True
+0.882	[*A*]the integrals[*R*]to estimate have[*A*]a local character	context(the integrals to estimate)	negated: False ,passive: False
+0.882	[*A*]the integrals[*R*]to estimate[*A*]have a local character	context()	negated: False ,passive: False
+[LINE#202]Let (z0,z) be complex coordinates for Cn+1CCn.
+[LINE#203]The Siegel domain Dn+1 is defined asDn+1={(z0,z)Cn+1:Imz0>|z|2} and the Levi polynomial of bDn+1 at 0 is given by (z0,z)=z0.
+0.953	[*A*]the Levi polynomial of bDn+1 at 0[*R*]is given[*A*]by ( z0	context()	negated: False ,passive: True
+0.342	[*A*]2[*R*]is given[*A*]by ( z0	context()	negated: False ,passive: True
+[LINE#204]For >0 sufficiently small, the curve :[0,)Cn+1:s(is,0) is a path to zero in Dn+1.
+0.968	[*A*]sufficiently small, the curve :[0,)Cn+1[*R*]is[*A*]a path to zero in Dn+1	context()	negated: False ,passive: True
+0.660	[*A*]s[*R*]is[*A*]0	context()	negated: False ,passive: True
+[LINE#205]Note that this path is also normal in R2n+2Cn+1 to T0(bDn+1).
+[LINE#206]There is a convenient coordinatization of bDn+1 in terms of the Heisenberg group in n dimensions Hn as follows.
+[LINE#207] That boundary is modeled geometrically as the Lie group whose underlying manifold is RCn with coordinates (t,1,2,,n)=(t,) and whose group law is given by(t,)(t,)=(t+t+2Im(),+),where =1njj.
+0.933	[*A*]the Lie group[*R*]is[*A*]RCn	context()	negated: False ,passive: True
+0.903	[*A*]That boundary[*R*]is modeled geometrically[*A*]as the Lie group	context()	negated: False ,passive: True
+[LINE#208]The group Hn acts on Cn+1 by holomorphic, affine transformations which preserve Dn+1 and bDn+1 as follows: if (t,)Hn and zCn+1, then define(t,)z=(z0+t+i||2+2i1nzjj,z1+1,,zn+n).
+0.949	[*A*]holomorphic , affine transformations[*R*]preserve[*A*]bDn+1[*A*]as follows : if zCn+1 , then define ( t , ) z= ( z0+t+i | | 2+2i1nzjj , z1+1 ,, zn+n	context()	negated: False ,passive: False
+0.949	[*A*]holomorphic , affine transformations[*R*]preserve[*A*]bDn+1[*A*]as follows : if ( t , ) Hn , then define ( t , ) z= ( z0+t+i | | 2+2i1nzjj , z1+1 ,, zn+n	context()	negated: False ,passive: False
+0.949	[*A*]holomorphic , affine transformations[*R*]preserve[*A*]Dn+1[*A*]as follows : if zCn+1 , then define ( t , ) z= ( z0+t+i | | 2+2i1nzjj , z1+1 ,, zn+n	context()	negated: False ,passive: False
+0.949	[*A*]holomorphic , affine transformations[*R*]preserve[*A*]Dn+1[*A*]as follows : if ( t , ) Hn , then define ( t , ) z= ( z0+t+i | | 2+2i1nzjj , z1+1 ,, zn+n	context()	negated: False ,passive: False
+0.937	[*A*]The group[*R*]Hn[*A*]acts on Cn+1	context()	negated: False ,passive: False
+[LINE#209] The action of a group element (t,)Hn on the Levi polynomial (z)=z0 is then(3)((t,))(z)=z0+t+i||2+2i1nzjjand, in particular for (z0,z)=(0,0), this expression reduces to(4)((t,))(0,0)=t+i||2.
+0.960	[*A*]The action of a group element[*R*]is[*A*]then[*A*]t,))(z)=z0+t+i||2+2i1nzjjand, in particular for (z0	context(this expression reduces)	negated: False ,passive: True
+0.724	[*A*]this expression[*R*]reduces[*A*]to(4	context()	negated: False ,passive: False
+[LINE#210]We will verify that the action of any subgroup G{(0,)}Hn is amenable.
+0.791	[*A*]the action of any subgroup[*R*]is[*A*]amenable	context(We will verify)	negated: False ,passive: True
+0.309	[*A*]We[*R*]will verify[*A*]that the action of any subgroup G{(0,)}Hn is amenable	context()	negated: False ,passive: False
+[LINE#211] The group G consists of points (0,)Hn with  belonging to a certain subset SCn with the property z,zSzzR.
+0.887	[*A*]The group[*R*]consists[*A*]of points	context()	negated: False ,passive: True
+[LINE#212]Along the path (s), we get(5)(R-)((s))=Sd(0,)((0,)((s)))[i(s+||2)]Bdz[i(s+||2)]0drrd-1[i(s+r2)].
+0.619	[*A*]we[*R*]get[*A*]Along the path	context()	negated: False ,passive: False
+[LINE#213]Taking sufficiently many derivatives and putting s=0, the resulting integral is manifestly divergent, so from this we conclude that the convolution is not smooth to the boundary.
+0.379	[*A*]the resulting integral[*R*]is[*A*]manifestly divergent[*A*]so from this we conclude that the convolution is not smooth to the boundary	context()	negated: False ,passive: True
+[LINE#214]Note that we obtain a singular convolution from subgroups whose orbits satisfy the tangency condition assumed in Theorem 1.1.
+0.905	[*A*]the tangency condition[*R*]assumed[*A*]in Theorem 1.1	context(subgroups satisfy)	negated: False ,passive: False
+0.869	[*A*]subgroups[*R*]satisfy[*A*]the tangency condition assumed in Theorem 1.1	context()	negated: False ,passive: False
+[LINE#215]Our proof of the theorem depends on the fact that, as it turns out, the general case is a sufficiently small perturbation of this Heisenberg group case to preserve this divergent behavior. .
+0.942	[*A*]the general case[*R*]is[*A*]a sufficiently small perturbation of this Heisenberg group case	context()	negated: False ,passive: True
+0.195	[*A*]it[*R*]turns out	context()	negated: False ,passive: False
+0.474	[*A*]Our proof of the theorem[*R*]depends[*A*]on the fact that, as it turns out, the general case is a sufficiently small perturbation of this Heisenberg group case	context()	negated: False ,passive: False
+[LINE#216]Unitary representations of Lie groupsUnitary representations of Lie groups in L2-spaces of holomorphic functions have been studied intensely, and although the abstract theory of Lie group representations is highly developed, it has been long considered important to provide geometric realizations of these representations.
+0.876	[*A*]the abstract theory of Lie group representations[*R*]is[*A*]highly developed	context()	negated: False ,passive: True
+0.914	[*A*]Unitary representations of Lie groupsUnitary representations of Lie groups in L2 - spaces of holomorphic functions[*R*]have been studied intensely	context()	negated: False ,passive: False
+[LINE#217]The Borel-Weil theorem is an important example in which representations are realized as holomorphic functions on a space related to the group.
+0.903	[*A*]a space[*R*]related[*A*]to the group	context()	negated: False ,passive: True
+0.938	[*A*]representations[*R*]are realized[*A*]as holomorphic functions[*A*]an important example	context()	negated: False ,passive: True
+0.973	[*A*]The Borel-Weil theorem[*R*]is[*A*]an important example in which representations are realized as holomorphic functions on a space	context()	negated: False ,passive: True
+[LINE#218] Also, the Mackey program of construction of unitary representations of Lie groups and Harish-Chandra theory are connected to our setting [7].Asour present analytical techniques rely ultimately on the methods of the L2-index theorem of Atiyah, it seems worthwhile to mention here that the first example application of that theorem in the original paper [2] was in the construction of L2-holomorphic representation spaces for SL(2,R) belonging to the discrete series.
+0.889	[*A*]the Mackey program of construction of Harish - Chandra theory[*R*]are connected	context()	negated: False ,passive: False
+0.899	[*A*]the Mackey program of construction of unitary representations of Lie groups[*R*]are connected	context()	negated: False ,passive: False
+[LINE#219]Though our method is a long-reaching development of this method, the initial content dates from the index theorem.
+0.701	[*A*]our method[*R*]is[*A*]a long-reaching development of this method	context()	negated: False ,passive: True
+[LINE#220]To our aesthetic, it seems most attractive to take the natural geometric, complex G-manifolds constructed in [6] and investigate their Bergman spaces.
+0.888	[*A*]the natural geometric , complex G - manifolds[*R*]constructed[*A*]in [ 6	context()	negated: False ,passive: True
+[LINE#221]Thus these manifolds will provide the starting points of our main class.
+0.835	[*A*]these manifolds[*R*]will provide[*A*]the starting points of our main class	context()	negated: False ,passive: False
+[LINE#222]Some properties of the orbitIn this section, we will establish some consequences of the hypothesis Tp(Gp)Tpc(bM).
+0.639	[*A*]we[*R*]will establish[*A*]some consequences of the hypothesis[*A*]Some properties of the orbitIn this section	context()	negated: False ,passive: False
+[LINE#223]First of all, we derive its implications regarding the dimension of the orbit through p.
+0.444	[*A*]we[*R*]derive[*A*]its implications regarding the dimension of the orbit[*A*]First of all	context()	negated: False ,passive: False
+[LINE#224] If S if a hypersurface of Cn+1, we denote by T(S) its complex tangent bundle and by CT(S),CTc(S)their respective complexifications.
+[LINE#225] 3.1Let S be a strongly pseudoconvex hypersurface of Cn+1, 0S, and let M be a CR submanifold of S, 0M,.
+0.874	[*A*]S[*R*]be[*A*]a strongly pseudoconvex hypersurface of Cn+1	context()	negated: False ,passive: True
+[LINE#226]Then M is totally real and, in particular, dimRMn.
+0.831	[*A*]M[*R*]is[*A*]totally real[*A*]Then	context()	negated: False ,passive: True
+[LINE#227] ProofConsider the following decompositions of the complexified tangent bundles: ,CT(M)=CTc(M)R=T1,0(M)T0,1(M)R, where T and R are the following transversal subbundles: (1) T is of dimension 1 and corresponds to the "bad" direction; (2) R can have larger dimension.
+0.957	[*A*]R are the following transversal subbundles : ( 1 ) T[*R*]corresponds[*A*]to the " bad " direction	context()	negated: False ,passive: True
+0.813	[*A*]R[*R*]are[*A*]the following transversal subbundles	context()	negated: False ,passive: True
+0.813	[*A*]R[*R*]can have[*A*]larger dimension	context()	negated: False ,passive: False
+0.813	[*A*]T[*R*]corresponds[*A*]to the " bad " direction	context()	negated: False ,passive: True
+0.938	[*A*]T[*R*]are[*A*]the following transversal subbundles[*A*]CT ( M ) =CTc ( M ) R=T1,0 ( M ) T0,1 ( M ) R	context()	negated: False ,passive: True
+0.852	[*A*]T[*R*]is[*A*]of dimension 1	context()	negated: False ,passive: True
+0.813	[*A*]T[*R*]are[*A*]the following transversal subbundles	context()	negated: False ,passive: True
+[LINE#228]Assuming, by contradiction, that M is not totally real, it follows that Tc(M), and thus T1,0(M), are non-trivial.
+0.675	[*A*]M[*R*]is not[*A*]totally real	context()	negated: True ,passive: True
+[LINE#229]If L is a smooth section of T1,0(M) in a neighborhood of 0 in M, then [L,L] is a section of CT(M).
+0.888	[*A*]L[*R*]is[*A*]a section of CT	context()	negated: False ,passive: True
+0.938	[*A*]L[*R*]is[*A*]a smooth section of T1,0(M) in a neighborhood of 0 in M	context()	negated: False ,passive: True
+[LINE#230]Hence by hypothesis, it is a section of CTc(S) along M. Consider, now, any smooth extension of L to a section of T1,0(S) over a neighborhood of 0 in S, which we denote by L. Note that, if pM, the value of the bracket [L,L](p), performed in S, coincides with [L,L](p), performed in M. Since S is strongly pseudoconvex, we have that T[L,L](0)0 where T is the projection on the T-space and, in particular, [L,L](0)CT0c(S).
+0.887	[*A*]T[*R*]is[*A*]the projection on the T-space	context()	negated: False ,passive: True
+0.857	[*A*]pM[*R*]performed[*A*]in S	context()	negated: False ,passive: False
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+0.855	[*A*]S[*R*]is strongly[*A*]pseudoconvex	context()	negated: False ,passive: True
+0.987	[*A*]any smooth extension of L to a section of T1,0(S) over a neighborhood of 0 in S[*R*]denote[*A*]by L.	context()	negated: False ,passive: True
+0.907	[*A*]L,L](p[*R*]performed[*A*]in M.	context()	negated: False ,passive: True
+[LINE#231]This is a contradiction since [L,L](0)CT0c(S) as observed above.
+0.612	[*A*]This[*R*]is[*A*]a contradiction since [L,L](0	context()	negated: False ,passive: True
+[LINE#232]Corollary 3.2Let G be a Lie group, acting freely by biholomorphisms on an (n+1)-dimensional complex manifold with strongly pseudoconvex boundary S0, and denote by G0=0G the orbit of G through 0.
+0.913	[*A*]a Lie group[*R*]strongly denote[*A*]by G0=0G	context()	negated: False ,passive: True
+0.973	[*A*]Corollary 3.2Let G[*R*]be[*A*]a Lie group , acting freely by biholomorphisms on an ( n+1 ) - dimensional complex manifold with strongly denote by G0=0G the orbit of G through 0[*A*]acting freely by biholomorphisms on an ( n+1	context()	negated: False ,passive: True
+0.949	[*A*]Corollary 3.2Let G[*R*]be[*A*]a Lie group[*A*]acting freely by biholomorphisms on an ( n+1	context()	negated: False ,passive: True
+[LINE#233]then dimRGn.ProofSince G acts by biholomorphisms, Tpc(G0) has the same dimension at every pG0, which means that G0 is a CR submanifold of S. By the same reason the condition T0(G0)T0c(S) implies T(G0)Tc(S).
+0.879	[*A*]G0[*R*]is[*A*]a CR submanifold of S. By the same reason	context(every pG0 means)	negated: False ,passive: True
+0.810	[*A*]every pG0[*R*]means[*A*]that G0 is a CR submanifold of S. By the same reason	context()	negated: False ,passive: False
+0.958	[*A*]dimRGn.ProofSince G[*R*]acts[*A*]by biholomorphisms[*A*]then	context(Tpc has)	negated: False ,passive: False
+0.836	[*A*]Tpc[*R*]has[*A*]the same dimension[*A*]at every pG0	context()	negated: False ,passive: False
+0.833	[*A*]T0[*R*]implies[*A*]T	context()	negated: False ,passive: False
+[LINE#234]The previous lemma then yields dimRG0n, thus dimRGn.
+0.939	[*A*]The previous lemma[*R*]yields[*A*]dimRG0n[*A*]then	context()	negated: False ,passive: False
+[LINE#235] Remark 3.3It follows that, in the example of the Heisenberg group (see Section 1.4), there cannot be any subgroup contained in {(0,z)} of dimension bigger than n.
+0.795	[*A*]Remark 3.3It[*R*]follows[*A*]that, in the example of the Heisenberg group (see Section 1.4), there cannot be any subgroup	context()	negated: False ,passive: False
+0.937	[*A*]any subgroup[*R*]contained[*A*]in {(0,z)} of dimension bigger than	context()	negated: False ,passive: True
+[LINE#236]Remark 3.4The results above also hold, with small adaptations to the proof, when we just assume that S is of finite commutator type rather than strongly pseudoconvex.
+0.858	[*A*]S[*R*]is[*A*]of strongly pseudoconvex	context(we assume)	negated: False ,passive: True
+0.191	[*A*]we[*R*]assume[*A*]that S is of strongly pseudoconvex	context()	negated: False ,passive: False
+0.858	[*A*]S[*R*]is[*A*]of finite commutator type	context(we assume)	negated: False ,passive: True
+0.191	[*A*]we[*R*]assume[*A*]that S is of finite commutator type	context()	negated: False ,passive: False
+[LINE#237]Next, we will show that, under the same hypothesis, the orbit O=G0 must satisfy the order 3 condition.
+0.950	[*A*]the orbit O=G0[*R*]must satisfy[*A*]the order 3 condition[*A*]under the same hypothesis	context(we will show)	negated: False ,passive: False
+0.309	[*A*]we[*R*]will show[*A*]that, under the same hypothesis, the orbit O=G0 must satisfy the order 3 condition	context()	negated: False ,passive: False
+[LINE#238] Proposition 3.5If the orbit O of G through 0bM verifies T0(O)T0c(bM), then it satisfies the order 3 condition.
+0.999	[*A*]it[*R*]satisfies[*A*]3 condition	context()	negated: False ,passive: False
+0.595	[*A*]it[*R*]satisfies[*A*]the order 3 condition[*A*]then	context()	negated: False ,passive: False
+[LINE#239]ProofWe start by verifying the claim when dimRO=dimRG=1.
+0.906	[*A*]ProofWe[*R*]by verifying[*A*]the claim[*A*]when dimRO=dimRG=1	context()	negated: False ,passive: False
+0.817	[*A*]ProofWe[*R*]start	context()	negated: False ,passive: False
+[LINE#240]In this case TeG is spanned by a single vector v. The image of v by the differential of the action is a vector field V, defined in a neighborhood of 0 in M, which is tangent to every orbit of G.
+0.890	[*A*]TeG[*R*]is spanned[*A*]by a single vector[*A*]In this case	context()	negated: False ,passive: True
+0.888	[*A*]M[*R*]is[*A*]tangent to every orbit of G.	context()	negated: False ,passive: True
+[LINE#241] Since G acts by biholomorphisms, we have V=ReZ for a non-singular holomorphic vector field.
+0.498	[*A*]we[*R*]have[*A*]V=ReZ	context()	negated: False ,passive: False
+0.697	[*A*]G[*R*]acts	context()	negated: False ,passive: False
+[LINE#242] Z.By a choice of complex coordinates (z0,z1,,zn)=(z0,z), we can assume that Z=/z1, so that V=/x1 and the orbits of G are parametrized by GRt(z0,t,,zn)Cn+1.
+0.967	[*A*]the orbits of G[*R*]are parametrized[*A*]by GRt ( z0 , t ,, zn ) Cn+1	context()	negated: False ,passive: True
+0.932	[*A*]V= / x1[*R*]are parametrized[*A*]by GRt ( z0 , t ,, zn ) Cn+1	context()	negated: False ,passive: True
+0.195	[*A*]we[*R*]can assume	context()	negated: False ,passive: False
+[LINE#243] Note that, by hypothesis, /x1T0c(bM) hence, up to a linear transformation, we can assume that T0c(M) is spanned by /xj,/yj(1jn), i.e. that (z0,z) are adapted coordinates.
+[LINE#244]Choose, as before, a local defining equation for bM of the form {Imz0=f(Rez0,z)}.
+[LINE#245]Since bM is G-invariant, f does not depend on the variable x1.
+0.813	[*A*]f[*R*]does not depend[*A*]on the variable x1	context()	negated: True ,passive: False
+0.904	[*A*]bM[*R*]is[*A*]G-invariant	context()	negated: False ,passive: True
+[LINE#246]We express the second-order expansion f2 of f according to Eq.
+0.498	[*A*]We[*R*]express[*A*]the second-order expansion f2 of f[*A*]according to Eq	context()	negated: False ,passive: False
+[LINE#247]and we concentrate on P(z), the homogeneous holomorphic polynomial of degree 2 giving the harmonic part of the expansion.
+0.452	[*A*]we[*R*]concentrate[*A*]on P(z	context()	negated: False ,passive: False
+[LINE#248]We can writeP(z)=Q(z)+z1(z)+z12 where Q(z) and (z) are, respectively, a homogeneous polynomial of degree 2 and a complex linear function in z=(z2,,zn), and where C. We claim that R. Indeed, consider the expression of f2 in the real coordinates (xj,yj)0jn.
+0.971	[*A*]=Q ( z ) +z1 ( z ) +z12[*R*]are[*A*]respectively[*A*]a homogeneous polynomial of a complex linear function in z= ( z2 ,, zn	context()	negated: False ,passive: True
+0.168	[*A*]We[*R*]can writeP[*A*]=Q ( z ) +z1 ( z ) +z12 where (z) are , respectively a homogeneous polynomial of degree 2 , and where C. We claim that R. Indeed , consider the expression of f2 in the real coordinates	context()	negated: False ,passive: False
+0.946	[*A*]=Q ( z ) +z1 ( z ) +z12[*R*]are[*A*]respectively[*A*]a homogeneous polynomial of degree 2	context()	negated: False ,passive: True
+0.389	[*A*]We[*R*]can writeP[*A*]=Q ( z ) +z1 ( z ) +z12	context()	negated: False ,passive: False
+0.889	[*A*]Q[*R*]are[*A*]a homogeneous polynomial of a complex linear function in z= ( z2 ,, zn	context()	negated: False ,passive: True
+0.168	[*A*]We[*R*]can writeP[*A*]=Q ( z ) +z1 ( z ) +z12 where Q ( z ) are , respectively a homogeneous polynomial of degree 2 , and where C. We claim that R. Indeed , consider the expression of f2 in the real coordinates	context()	negated: False ,passive: False
+0.806	[*A*]Q[*R*]are[*A*]respectively[*A*]a homogeneous polynomial of degree 2	context()	negated: False ,passive: True
+0.168	[*A*]We[*R*]can writeP[*A*]=Q ( z ) +z1 ( z ) +z12 where (z) are , respectively , , and where C. We claim that R. Indeed , consider the expression of f2 in the real coordinates	context()	negated: False ,passive: False
+0.861	[*A*]=Q ( z ) +z1 ( z ) +z12[*R*]are[*A*]respectively	context()	negated: False ,passive: True
+0.309	[*A*]We[*R*]claim[*A*]that R. Indeed , consider the expression of f2 in the real coordinates	context()	negated: False ,passive: False
+0.108	[*A*]We[*R*]can writeP z	context(We can writeP)	negated: False ,passive: False
+0.168	[*A*]We[*R*]can writeP[*A*]=Q ( z ) +z1 ( z ) +z12 where Q ( z ) are , respectively , , and where C. We claim that R. Indeed , consider the expression of f2 in the real coordinates	context()	negated: False ,passive: False
+0.899	[*A*]Q[*R*]are[*A*]respectively[*A*]=Q ( z ) +z1 ( z ) +z12	context()	negated: False ,passive: True
+[LINE#249] Since f2 does not depend on x1, the only one of its monomials which includes only the variablescy12 for some cR. Since cy12=-c/4(z12+z12-2z1z1), it follows that =-c/4R.
+0.393	[*A*]it[*R*]follows[*A*]that =-c/4R[*A*]Since cy12=-c/4	context()	negated: False ,passive: False
+0.642	[*A*]its monomials[*R*]includes[*A*]only the variablescy12 for some cR	context()	negated: False ,passive: True
+0.605	[*A*]f2[*R*]does not depend[*A*]on x1	context()	negated: True ,passive: False
+[LINE#250]In particular, if for tR we define z(t)=(t,0,,0), we have P(z(t))=t2, which implies ImP(z(t))0.
+0.897	[*A*]P(z(t))=t2[*R*]implies[*A*]ImP(z(t))0	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]have[*A*]P(z(t))=t2, which implies ImP(z(t))0	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]define[*A*]z	context()	negated: False ,passive: False
+[LINE#251],0)=(0,z(t))Cn+1 parametrize the orbit O of G through 0 - also notice that in these coordinates O coincides with (O).
+0.877	[*A*]Cn+1[*R*]parametrize[*A*]the orbit O of G	context()	negated: False ,passive: False
+[LINE#252]With (z0,z)=z0-2iP(z), we haveRe((t))=2ImP(z(t))0, thus the order 3 condition is certainly satisfied.
+0.841	[*A*]the order 3 condition[*R*]is[*A*]certainly satisfied	context()	negated: False ,passive: True
+0.195	[*A*]we[*R*]haveRe	context()	negated: False ,passive: False
+[LINE#253]By Lemma 2.6 and Remark 2.7, the condition is also verified in the original coordinates.
+0.929	[*A*]the condition[*R*]is verified[*A*]in the original coordinates[*A*]By Remark 2.7	context()	negated: False ,passive: True
+0.929	[*A*]the condition[*R*]is verified[*A*]in the original coordinates[*A*]By Lemma 2.6	context()	negated: False ,passive: True
+[LINE#254]Let us now turn to the general case.
+[LINE#255]Let g=TeG be the Lie algebra of G, and let U be a neighborhood of 0 in g such that the exponential map is a diffeomorphism Uexp(U) onto a neighborhood of the identity in G.
+[LINE#256]It follows that the map :UO defined asUv(v)=exp(v)0OT0(bM) gives a regular parametrization of a neighborhood of 0 in O.
+[LINE#257]We must verify that the function Re((v)), defined on U, vanishes to third order at 0, which is equivalent to verifying that, for every fixed wg with |w|=1, the function RtRe((tw)) vanishes to third order at 0.
+0.899	[*A*]third order at 0[*R*]is[*A*]equivalent to verifying that, for every fixed wg with |w|=1, the function RtRe((tw)) vanishes to third order at 0	context()	negated: False ,passive: True
+0.966	[*A*]the function Re((v)), defined on U[*R*]vanishes[*A*]to third order at 0	context()	negated: False ,passive: True
+0.905	[*A*]the function[*R*]defined[*A*]on U	context()	negated: False ,passive: True
+0.367	[*A*]We[*R*]must verify[*A*]that the function Re((v)), defined on U, vanishes to third order at 0	context()	negated: False ,passive: False
+[LINE#258] This is the same as checking the order 3 condition for the (local) 1-parameter real subgroup.
+0.567	[*A*]This[*R*]is[*A*]the same as checking the order 3 condition for the (local) 1-parameter real subgroup	context()	negated: False ,passive: True
+[LINE#259] Gw of G generated by w; since of course the tangent space of the orbit.
+0.716	[*A*]Gw of G[*R*]generated[*A*]by w	context()	negated: False ,passive: False
+[LINE#260] Ow of Gw is contained in T0(O)T0c(bM), by the discussion above we have that our condition is satisfied for Ow. .
+0.693	[*A*]our condition[*R*]is[*A*]satisfied for Ow	context(the discussion above have)	negated: False ,passive: True
+0.871	[*A*]the discussion above[*R*]have[*A*]we	context()	negated: False ,passive: True
+0.944	[*A*]Ow of Gw[*R*]is contained[*A*]in T0	context()	negated: False ,passive: True
+[LINE#261]The tangency condition implies amenabilityLet  be a smooth G-invariant measure on M, and choose pbM for which the tangency condition is satisfied.
+0.793	[*A*]the tangency condition[*R*]is[*A*]satisfied	context(The tangency condition implies choose)	negated: False ,passive: True
+0.908	[*A*]The tangency condition[*R*]implies choose[*A*]pbM	context(The tangency condition implies)	negated: False ,passive: False
+0.908	[*A*]The tangency condition[*R*]implies[*A*]choose pbM for which the tangency condition is satisfied	context()	negated: False ,passive: False
+0.936	[*A*]amenabilityLet[*R*]be[*A*]a smooth G - invariant measure on M	context(The tangency condition implies)	negated: False ,passive: True
+0.941	[*A*]The tangency condition[*R*]implies[*A*]amenabilityLet be a smooth G - invariant measure on M	context()	negated: False ,passive: False
+[LINE#262]A small G-invariant neighborhood U of p in M is diffeomorphic to BkG with k=2n+2-d.
+0.976	[*A*]A small G-invariant neighborhood U of p in M[*R*]is[*A*]diffeomorphic to BkG with k=2n+2-d	context()	negated: False ,passive: True
+[LINE#263] The pull-back of |U by a diffeomorphism :BkGUis then a product measure , where  is some smooth measure on Bk and the Haar measure  is biinvariant since G is unimodular.
+0.939	[*A*]BkGUis[*R*]is[*A*]biinvariant[*A*]since G is unimodular	context()	negated: False ,passive: True
+0.938	[*A*]then a product measure[*R*]is[*A*]some smooth measure on the Haar measure	context()	negated: False ,passive: True
+0.734	[*A*]G[*R*]is[*A*]unimodular	context()	negated: False ,passive: True
+[LINE#264] If L1(G), a convolution operator R is defined on L2(M) (see [11])where zM, tG and uL2(M).Lemma 4.1Let L2(G) and hL1(M).
+0.594	[*A*]L1[*R*]see	context()	negated: False ,passive: False
+0.931	[*A*]a convolution operator R[*R*]is defined[*A*]on L2	context()	negated: False ,passive: True
+0.500	[*A*]L1 ( G )[*R*][is] a operator [of][*A*]convolution	context()	negated: False ,passive: False
+0.500	[*A*]L1 ( G )[*R*][is][*A*]a convolution operator	context()	negated: False ,passive: False
+0.888	[*A*]L1[*R*]is[*A*]hL1	context()	negated: False ,passive: True
+[LINE#265]Then RhL2(M).ProofSee [3, Lemma 7].
+[LINE#266] In particular, if  is the Levi polynomial at p,Cc(M) and 0<<d/2, we have R-L2(M).
+0.587	[*A*]In particular[*R*]is[*A*]the Levi polynomial at p	context(we have)	negated: False ,passive: True
+0.443	[*A*]we[*R*]have[*A*]R - L2	context()	negated: False ,passive: False
+[LINE#267]We also remark that the set of  which are admissible in the definition of amenability given in there is a G-invariant, smooth subspace of L2(G), thus, by translating and rescaling  we can assume (e)=1.
+0.897	[*A*]the set of which[*R*]are[*A*]admissible in the definition of amenability	context(We remark we can assume)	negated: False ,passive: True
+0.136	[*A*]We[*R*]remark	context(we can assume)	negated: False ,passive: False
+0.346	[*A*]we[*R*]can assume[*A*]e ) =1	context()	negated: False ,passive: False
+0.897	[*A*]the set of which[*R*]are[*A*]admissible in the definition of amenability	context(We remark)	negated: False ,passive: True
+0.319	[*A*]We[*R*]remark[*A*]there is a G - invariant , smooth subspace of L2 ( G ) , thus , by translating we can assume ( e ) =1	context()	negated: False ,passive: False
+0.799	[*A*]the definition of amenability[*R*]given[*A*]in	context()	negated: False ,passive: True
+[LINE#268] Our aim is to show that R- does not extend smoothly through p, and in order to do so we will look at its behavior along a certain curve [0,1]s(s)M ending at p. Note that, if  is suitably chosen, the support of - lies on U.Also, we can choose the diffeomorphism  mentioned above in such a way that (0,e)=p.
+0.845	[*A*]the diffeomorphism[*R*]mentioned[*A*]above[*A*]in such a way that ( 0 , e ) =p	context()	negated: False ,passive: True
+0.472	[*A*]Our aim[*R*]is[*A*]to show M ending at p. Note that , if is suitably chosen , the support of - lies on U.Also , we can choose the diffeomorphism	context()	negated: False ,passive: True
+0.671	[*A*]Our aim[*R*]is[*A*]to show in order to do so we will look at its behavior along a certain curve	context()	negated: False ,passive: True
+0.578	[*A*]Our aim[*R*]is[*A*]to show that R - does not extend smoothly through p	context()	negated: False ,passive: True
+[LINE#269]Let U be any neighborhood of e in G and let u=-.
+[LINE#270] It follows that(Ru)((s))=Ud(t)(t)u((s)t)+GUd(t)(t)u((s)t)=R1(s)+R2(s) and R2(s)is a smooth function since u((s)t) is smooth and bounded for (s,t)[0,1](GU).
+0.997	[*A*]Ru ) ( ( s ) ) =Ud ( t ) ( t ) u ( ( s ) t ) +GUd ( t ) ( t ) u ( ( s ) t ) =R1 ( s ) +R2[*R*]is[*A*]a smooth function since u ( ( s ) t	context(It follows)	negated: False ,passive: True
+0.162	[*A*]It[*R*]follows	context()	negated: False ,passive: False
+[LINE#271] Thus, we shall concentrate on R1(s) for a small enough neighborhood.
+0.498	[*A*]we[*R*]shall concentrate[*A*]on R1	context()	negated: False ,passive: False
+[LINE#272]U. Setting v=u and (s)=-1((s)), (s)=(1(s),2(s))BkU, we can rewrite R1(s) asR1(s)=Ud(t)(t)v(1(s),2(s)t).
+0.498	[*A*]we[*R*]can rewrite[*A*]R1(s) asR1	context()	negated: False ,passive: False
+[LINE#273]We will show that Re(jR1(s)/sj) as s0 by giving a lower estimate for the real part of the integrand.
+0.195	[*A*]We[*R*]will show	context()	negated: False ,passive: False
+[LINE#274]We point out that this property does not depend on the choice of a smooth measure on BkU, or, for our purposes, just of a family of smooth measures s on {(s)}U varying smoothly with respect to the parameter s[0,1].
+0.896	[*A*]this property[*R*]does not depend[*A*]on the choice of a smooth measure on BkU	context(We point out)	negated: True ,passive: False
+0.309	[*A*]We[*R*]point out[*A*]that this property does not depend on the choice of a smooth measure on BkU	context()	negated: False ,passive: False
+[LINE#275]After a choice of local adapted coordinates in a neighborhood of pbM, consider the path (s) defined in Section 2.3, and the parametrization (s,)(s,) of the orbits of G through (s) given in Section 2.4.
+0.982	[*A*]the parametrization ( s , ) ( s , ) of the orbits of G through (s)[*R*]given[*A*]in Section 2.4	context()	negated: False ,passive: True
+0.887	[*A*]the path[*R*]defined[*A*]in Section 2.3	context()	negated: False ,passive: True
+[LINE#276]The push-forward of d by  induces, in a neighborhood of p, a measure on the orbits of G through .
+[LINE#277]By the discussion above, we may define on a small enough neighborhood U, 1([0,1])U, the pull-back of this measure by the diffeomorphism . With this choice, the integral R1(s) becomes precisely the one considered in (10).
+0.397	[*A*]we[*R*]may define[*A*]on a small enough neighborhood U	context(the integral R1 becomes)	negated: False ,passive: False
+0.874	[*A*]the integral R1[*R*]becomes[*A*]precisely the one considered in (10)	context()	negated: False ,passive: True
+0.783	[*A*]precisely the one[*R*]considered[*A*]in (10	context()	negated: False ,passive: True
+[LINE#278]We can now conclude the proof of Theorem 1.1.Lemma 4.2Let G act freely on a complex manifold M with boundary, and suppose that the orbit O of G through pbM satisfies Tp(O)Hp(bM).
+0.961	[*A*]the orbit O of G through pbM[*R*]satisfies[*A*]Tp	context()	negated: False ,passive: False
+0.650	[*A*]We[*R*]can conclude[*A*]the proof of Theorem 1.1.Lemma 4.2Let G act freely on a complex manifold M with boundary[*A*]now	context()	negated: False ,passive: False
+[LINE#279]It follows that the action of G is amenable.
+[LINE#280]ProofWith the complex coordinates around p given in Section 2.3, we take =-iz0.
+0.407	[*A*]we[*R*]take[*A*]-iz0	context()	negated: False ,passive: False
+0.813	[*A*]p[*R*]given[*A*]in Section 2.3	context()	negated: False ,passive: True
+0.903	[*A*]the complex[*R*]coordinates[*A*]around p	context()	negated: False ,passive: True
+[LINE#281]Using (11) and noticing that the integrand is non-singular for s0, so that the differentiation under the integral sign is justified, we gets(R1(s))(0,1)drrd-1(s+|r|2)+1I(s,r)+(0,1)drrd-1(s+|r|2)sI(s,r)=I1+I2.
+[LINE#282]Since I(s,r)/s is smooth, I2 is absolutely convergent for s0 by the choice of .
+0.938	[*A*]I2[*R*]is[*A*]absolutely convergent for s0	context()	negated: False ,passive: True
+0.431	[*A*]I(s,r)/s[*R*]is[*A*]smooth	context()	negated: False ,passive: True
+[LINE#283] From Lemma 3.5 we have (in the notation of Section 2.4)that h()=O(||3), so that the discussion before Eq.
+0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
+[LINE#284]Therefore ReI1 is divergent for s0, and we conclude that R1(s) is not smooth at s=0.
+0.829	[*A*]R1 ( s[*R*]is not[*A*]smooth at s=0	context(we conclude)	negated: True ,passive: True
+0.317	[*A*]we[*R*]conclude[*A*]that R1 ( s ) is not smooth at s=0	context()	negated: False ,passive: False
+0.938	[*A*]ReI1[*R*]is[*A*]divergent for s0	context()	negated: False ,passive: True

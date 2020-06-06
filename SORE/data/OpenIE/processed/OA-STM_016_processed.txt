@@ -1,0 +1,962 @@
+[LINE#1]The northern mid-latitudes of Uranus produce greater episodes of bright cloud formation than any other region on the planet.
+0.964	[*A*]The northern mid-latitudes of Uranus[*R*]produce[*A*]greater episodes of bright cloud formation than any other region on the planet	context()	negated: False ,passive: False
+[LINE#2]Near 30N, very bright cloud features were observed in 1999, 2004, and 2005, with lifetimes of the order of months.
+0.799	[*A*]very bright cloud features[*R*]were observed[*A*]in 1999	context()	negated: False ,passive: True
+[LINE#3]In October 2011, Gemini and HST observations revealed another unusually bright cloud feature near 23N, which was subsequently identified in July 2011 observations and found to be increasing in brightness.
+0.964	[*A*]HST observations[*R*]revealed[*A*]another unusually bright cloud feature near 23N[*A*]In October 2011	context()	negated: False ,passive: False
+0.906	[*A*]23N[*R*]to be increasing[*A*]in brightness	context()	negated: False ,passive: True
+0.769	[*A*]23N[*R*]was found[*A*]subsequently	context()	negated: False ,passive: True
+0.942	[*A*]another unusually bright cloud feature near[*R*]was identified[*A*]in July 2011 observations[*A*]subsequently	context()	negated: False ,passive: True
+0.964	[*A*]Gemini observations[*R*]revealed[*A*]another unusually bright cloud feature near 23N[*A*]In October 2011	context()	negated: False ,passive: False
+[LINE#4]Observations obtained at Keck in November 2011 revealed a second bright spot only 2N of the first, but with a substantially different drift rate (-9.2E/day vs -1.4E/day), which we later determined would lead to a close approach on 25 December 2011.
+0.649	[*A*]we[*R*]determined[*A*]would lead to a close approach on 25 December 2011[*A*]later	context()	negated: False ,passive: False
+0.953	[*A*]Observations obtained at Keck in November 2011[*R*]revealed[*A*]a second bright spot	context()	negated: False ,passive: False
+0.911	[*A*]Observations[*R*]obtained[*A*]at Keck[*A*]in November 2011	context()	negated: False ,passive: True
+[LINE#5]A Hubble Target of Opportunity proposal was activated to image the results of the interaction.
+0.940	[*A*]A Hubble Target of Opportunity proposal[*R*]to image[*A*]the results of the interaction	context()	negated: False ,passive: False
+0.845	[*A*]A Hubble Target of Opportunity proposal[*R*]was activated	context()	negated: False ,passive: False
+[LINE#6]We found that the original bright spot had faded dramatically before the HST observations had begun and the second bright spot was found to be a companion of a new dark spot on Uranus, only the second ever observed.
+0.317	[*A*]We[*R*]found[*A*]that the original bright spot had faded dramatically before the second bright spot was found to be a companion of a new dark spot on Uranus	context()	negated: False ,passive: False
+0.857	[*A*]the original bright spot[*R*]observed[*A*]the second ever	context()	negated: False ,passive: True
+0.920	[*A*]the second bright spot[*R*]to be[*A*]a companion of a new dark spot on Uranus	context()	negated: False ,passive: True
+0.769	[*A*]the second bright spot[*R*]was found	context()	negated: False ,passive: False
+0.916	[*A*]the original bright spot[*R*]had faded dramatically[*A*]before the HST observations had begun	context(We found)	negated: False ,passive: True
+0.317	[*A*]We[*R*]found[*A*]that the original bright spot had faded dramatically before the HST observations had begun	context()	negated: False ,passive: False
+0.803	[*A*]the HST observations[*R*]had begun	context()	negated: False ,passive: False
+[LINE#7]Both spots exhibited variable drift rates during the nearly 5months of tracking, and both varied in brightness, with BS1 reaching its observed peak on 26 October 2011, and BS2 on 11 November 2011.
+0.903	[*A*]Both spots[*R*]exhibited[*A*]variable drift rates[*A*]during the nearly 5months of tracking	context()	negated: False ,passive: False
+[LINE#8] Altitude measurements based on near-IR imaging in H and Hcont filters showed that the deeper BS2 clouds were located near the methane condensation level(1.2bars), while BS1 was generally 500mb above that level (at lower pressures).
+0.900	[*A*]the deeper BS2 clouds[*R*]were located[*A*]near the methane condensation level	context(Altitude measurements based on near - IR imaging in Hcont filters showed)	negated: False ,passive: True
+0.934	[*A*]Altitude measurements based on near - IR imaging in Hcont filters[*R*]showed[*A*]that the deeper BS2 clouds were located near the methane condensation level	context()	negated: False ,passive: False
+0.918	[*A*]Altitude measurements[*R*]based[*A*]on near - IR imaging in Hcont filters	context()	negated: False ,passive: True
+0.900	[*A*]the deeper BS2 clouds[*R*]were located[*A*]near the methane condensation level	context(Altitude measurements based on near - IR imaging in H filters showed)	negated: False ,passive: True
+0.934	[*A*]Altitude measurements based on near - IR imaging in H filters[*R*]showed[*A*]that the deeper BS2 clouds were located near the methane condensation level	context()	negated: False ,passive: False
+0.585	[*A*]BS1[*R*]was 500mb[*A*]above that level ( at lower pressures	context()	negated: False ,passive: True
+0.918	[*A*]Altitude measurements[*R*]based[*A*]on near - IR imaging in H filters	context()	negated: False ,passive: True
+[LINE#9]Large morphological changes in the bright cloud features suggest that they are companion clouds of possibly orographic nature associated with vortex circulations, perhaps similar to companion clouds associated with the Great Dark Spot on Neptune, but in this case at a much smaller size scale, spanning only a few degrees of longitude at their greatest extents.
+0.573	[*A*]they[*R*]are[*A*]companion clouds of possibly orographic nature associated with vortex circulations, perhaps similar to companion clouds associated with the Great Dark Spot on Neptune, but in this case at a much smaller size scale, spanning only a few degrees of longitude at their greatest extents	context(Large morphological changes in the bright cloud features suggest)	negated: False ,passive: True
+0.836	[*A*]Large morphological changes in the bright cloud features[*R*]suggest[*A*]that they are companion clouds of possibly orographic nature associated with vortex circulations, perhaps similar to companion clouds associated with the Great Dark Spot on Neptune, but in this case at a much smaller size scale, spanning only a few degrees of longitude at their greatest extents	context()	negated: False ,passive: False
+0.918	[*A*]companion clouds[*R*]associated[*A*]with the Great Dark Spot on Neptune	context()	negated: False ,passive: True
+0.932	[*A*]companion clouds of possibly orographic nature[*R*]associated[*A*]with vortex circulations	context()	negated: False ,passive: True
+[LINE#10]Brightness variationsA problem arises in quantifying the brightness of BS1 and BS2.
+0.944	[*A*]Brightness variationsA problem[*R*]arises[*A*]in quantifying the brightness of BS2	context()	negated: False ,passive: True
+0.944	[*A*]Brightness variationsA problem[*R*]arises[*A*]in quantifying the brightness of BS1	context()	negated: False ,passive: True
+[LINE#11]I/F in a calibrated image fails to account for the size of the feature or the variations in peak I/F due to seeing variations or to resolution differences.
+0.925	[*A*]the variations in peak[*R*]/[*A*]I	context()	negated: False ,passive: True
+0.774	[*A*]I/F in a calibrated image[*R*]to account[*A*]for the size of the feature or the variations in peak I/F due to seeing variations or to resolution differences	context()	negated: False ,passive: False
+0.802	[*A*]I/F in a calibrated image[*R*]fails[*A*]to account for the size of the feature or the variations in peak I/F due to seeing variations or to resolution differences	context()	negated: False ,passive: True
+[LINE#12]Thus we use a more robust measure, which is the fractional integral of the differential brightness.
+0.927	[*A*]a more robust measure[*R*]is[*A*]the fractional integral of the differential brightness	context()	negated: False ,passive: True
+0.569	[*A*]we[*R*]use[*A*]a more robust measure, which is the fractional integral of the differential brightness	context()	negated: False ,passive: False
+[LINE#13]We define this, following Sromovsky et al.
+0.225	[*A*]We[*R*]define[*A*]this	context()	negated: False ,passive: False
+[LINE#14](2000), as(3)FIDB=i,jtarget[I(i,j)-IB(i,j)]i,jplanetI(i,j),where the variables are the same as defined for Eq. 2.
+0.214	[*A*]i[*R*]j	context()	negated: False ,passive: False
+[LINE#15]This provides a measure of the fraction of the total brightness of the planet that is due to the presence of the target cloud feature.
+0.913	[*A*]the planet[*R*]is[*A*]due to the presence of the target cloud feature	context()	negated: False ,passive: True
+0.497	[*A*]This[*R*]provides[*A*]a measure of the fraction of the total brightness of the planet	context()	negated: False ,passive: False
+[LINE#16]If the target box has sufficient margin to cover variations in apparent physical size due to seeing and resolution differences, the measure becomes relatively insensitive to those variations, though still uncertain to 10%, or even more at very low levels.
+0.768	[*A*]the measure[*R*]becomes still uncertain[*A*]relatively insensitive to those variations	context()	negated: False ,passive: True
+0.937	[*A*]sufficient margin[*R*]to cover[*A*]variations in apparent physical size due to seeing and resolution differences	context()	negated: False ,passive: True
+0.956	[*A*]the target box[*R*]has[*A*]sufficient margin to cover variations in apparent physical size due to seeing and resolution differences	context()	negated: False ,passive: False
+[LINE#17]Brightness changes for BS1 and BS2 are illustrated in Fig. 17.
+0.949	[*A*]Brightness changes for BS2[*R*]are illustrated[*A*]in Fig	context()	negated: False ,passive: True
+0.949	[*A*]Brightness changes for BS1[*R*]are illustrated[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#18]The increasing brightness from 26 July to 26 October in H images and between 13 and 23 October in F845M images, was not sustained in November images.
+0.965	[*A*]The increasing brightness between 23 October in F845 M images[*R*]was not sustained[*A*]in November images	context()	negated: True ,passive: True
+0.965	[*A*]The increasing brightness between 13 October in F845 M images[*R*]was not sustained[*A*]in November images	context()	negated: True ,passive: True
+0.971	[*A*]The increasing brightness from 26 July to 26 October in H images[*R*]was not sustained[*A*]in November images	context()	negated: True ,passive: True
+[LINE#19]By 13 November, BS2 declined dramatically, while BS1 rose only slightly above the 10 November value.
+0.877	[*A*]BS1[*R*]rose[*A*]only slightly[*A*]above the 10 November value	context()	negated: False ,passive: True
+0.944	[*A*]BS2[*R*]declined dramatically[*A*]while BS1 rose only slightly above the 10 November value[*A*]By 13 November	context()	negated: False ,passive: True
+[LINE#20]Instead of approaching the record values seen in 2005 (Sromovsky et al., 2007), the 2011 spots faded.
+0.751	[*A*]the 2011 spots[*R*]faded	context()	negated: False ,passive: False
+0.925	[*A*]the record values[*R*]seen[*A*]in 2005 (Sromovsky et al	context()	negated: False ,passive: True
+[LINE#21]As the northern mid-latitudes of Uranus emerged from a long dark winter in the late 1990s, bright cloud features began to appear in near-IR images, unlike any that had been seen in the southern hemisphere.
+0.503	[*A*]any[*R*]had been seen[*A*]in the southern hemisphere	context()	negated: False ,passive: True
+0.913	[*A*]bright cloud features[*R*]to appear[*A*]in near-IR images, unlike any	context()	negated: False ,passive: True
+0.944	[*A*]the northern mid-latitudes of Uranus[*R*]emerged[*A*]from a long dark winter in	context()	negated: False ,passive: False
+[LINE#22]In 1997, using the recently commissioned HST NICMOS camera, Karkoschka (1998) found several bright clouds near the northern limb of Uranus.
+[LINE#23]The local contrast of these features reached a maximum near 190% at 1.7m, and the fractional integrated differential brightness (FIDB), which is the total extra light reflected by one of these clouds as a fraction of the total light reflected by the planet, reached about 1.2%.
+0.911	[*A*]the total light[*R*]reflected[*A*]by the planet	context()	negated: False ,passive: True
+0.948	[*A*]the total extra light[*R*]reflected[*A*]by one of these clouds as a fraction of the total light	context()	negated: False ,passive: True
+0.957	[*A*]the fractional integrated differential brightness[*R*]is[*A*]the total extra light reflected by one of these clouds as a fraction of the total light	context()	negated: False ,passive: True
+0.974	[*A*]the fractional integrated differential brightness (FIDB), which is the total extra light[*R*]reached[*A*]about 1.2%	context()	negated: False ,passive: False
+0.932	[*A*]The local contrast of these features[*R*]reached[*A*]a maximum[*A*]at 1.7m	context()	negated: False ,passive: False
+[LINE#24]This was followed by the Sromovsky et al.
+0.425	[*A*]This[*R*]was followed[*A*]by the Sromovsky et al	context()	negated: False ,passive: True
+[LINE#25](2000) detection of even brighter cloud features in 1998 and 1999 groundbased images obtained with the NASA IRTF NSFCAM imager.
+0.960	[*A*]2000 ) detection of even brighter cloud features in 1999[*R*]groundbased[*A*]images obtained with the NASA IRTF NSFCAM imager	context()	negated: False ,passive: False
+0.713	[*A*]images[*R*]obtained	context()	negated: False ,passive: False
+0.960	[*A*]2000 ) detection of even brighter cloud features in 1998[*R*]groundbased[*A*]images obtained with the NASA IRTF NSFCAM imager	context()	negated: False ,passive: False
+[LINE#26]One of these features, located at a latitude of 306N, reached a local contrast of 500% (in deconvolved images) and an FIDB of 4.90.7% using the Spencer 1.73-m filter.
+0.959	[*A*]One of these features , located at a latitude of 306N[*R*]reached an FIDB of 4.90.7 % using[*A*]the Spencer 1.73 - m filter	context(One of these features , located at a latitude of 306N reached)	negated: False ,passive: False
+0.959	[*A*]One of these features , located at a latitude of 306N[*R*]reached[*A*]an FIDB of 4.90.7 %[*A*]using the Spencer 1.73 - m filter	context()	negated: False ,passive: False
+0.980	[*A*]One of these features , located at a latitude of 306N[*R*]reached[*A*]a local contrast of 500 %[*A*]in deconvolved images ) using the Spencer 1.73 - m filter	context()	negated: False ,passive: False
+0.920	[*A*]One of these features[*R*]located[*A*]at a latitude of 306N	context()	negated: False ,passive: True
+[LINE#27]The brightest single cloud feature ever observed on Uranus was found 6years later by Sromovsky et al.
+0.946	[*A*]The brightest single cloud feature[*R*]observed[*A*]on Uranus[*A*]was found 6years later by Sromovsky et al[*A*]ever	context()	negated: False ,passive: False
+[LINE#28](2007) in 14-15 August 2005 Keck II images obtained with the NIRC2 camera and adaptive optics system.
+0.845	[*A*]14-15 August 2005 Keck II images[*R*]obtained	context()	negated: False ,passive: False
+[LINE#29] This feature (the brightest feature in Fig.1B) reached an FIDB value of 4-5% in the H filter and 13% in the K filter.
+0.938	[*A*]This feature[*R*]reached[*A*]an FIDB value of 4-5% in the H filter and 13% in the K filter	context()	negated: False ,passive: False
+[LINE#30]The high brightness was short lived, however.
+[LINE#31]In images taken on 6 July (before the peak) and on 29 October (more than two months later) the feature was a factor of 4-10times dimmer.
+0.946	[*A*]the feature[*R*]was[*A*]a factor of 4-10times[*A*]In images[*A*]more than two months later	context(In images taken on 29 October ( more than two months later ) the feature was a factor of 4-10times dimmer)	negated: False ,passive: True
+0.944	[*A*]In images taken on 29 October ( more than two months later ) the feature was a factor of 4-10times[*R*]dimmer	context()	negated: False ,passive: False
+0.911	[*A*]images[*R*]taken[*A*]on 29 October	context()	negated: False ,passive: True
+0.385	[*A*]the feature[*R*]was a factor of[*A*]4-10times	context()	negated: False ,passive: False
+0.946	[*A*]the feature[*R*]was[*A*]a factor of 4-10times[*A*]In images[*A*]more than two months later	context(In images taken on 6 July ( more than two months later ) the feature was a factor of 4-10times dimmer)	negated: False ,passive: True
+0.944	[*A*]In images taken on 6 July ( more than two months later ) the feature was a factor of 4-10times[*R*]dimmer	context()	negated: False ,passive: False
+0.911	[*A*]images[*R*]taken[*A*]on 6 July	context()	negated: False ,passive: True
+[LINE#32] Another especially interesting transient feature was found at nearly the same latitude in 2004 images (Sromovsky and Fry, 2005), but in this case the bright clouds formed a huge complex extending across almost 90 of longitude (Fig. 1A).These transient but very brightcloud features in the northern hemisphere of Uranus were seen in both H and K filters, the latter implying that the features were elevated to relatively high altitudes, placing significant amounts of aerosol scattering above the background of methane and hydrogen absorption.
+0.971	[*A*]These very brightcloud features in the northern hemisphere of Uranus[*R*]were seen[*A*]in both K filters	context()	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.965	[*A*]These very brightcloud features in the northern hemisphere of Uranus[*R*]were seen[*A*]in both H filters	context()	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.926	[*A*]Another especially interesting transient feature[*R*]was found[*A*]at nearly the same latitude in 2004 images	context()	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.934	[*A*]Fig . 1A[*R*]were seen[*A*]in both K filters	context()	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.922	[*A*]Fig . 1A[*R*]were seen[*A*]in both H filters	context()	negated: False ,passive: True
+0.911	[*A*]a huge complex[*R*]extending[*A*]across almost 90 of longitude	context()	negated: False ,passive: True
+0.948	[*A*]the bright clouds[*R*]formed[*A*]a huge complex extending across almost 90 of longitude[*A*]in this case	context()	negated: False ,passive: False
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.857	[*A*]a huge complex[*R*]extending[*A*]across almost 90 of longitude[*A*]the latter implying that the features were elevated to relatively high altitudes ,	context()	negated: False ,passive: False
+0.972	[*A*]the bright clouds[*R*]formed[*A*]a huge complex extending across almost 90 of longitude . These very brightcloud features in the northern hemisphere of Uranus were seen in both H filters , the latter[*A*]in this case	context()	negated: False ,passive: False
+0.968	[*A*]These transient features in the northern hemisphere of Uranus[*R*]were seen[*A*]in both K filters	context()	negated: False ,passive: True
+0.972	[*A*]the bright clouds[*R*]formed[*A*]a huge complex extending across almost 90 of longitude . These transient features in the northern hemisphere of Uranus were seen in both K filters ,[*A*]in this case	context()	negated: False ,passive: False
+0.919	[*A*]significant amounts of aerosol[*R*]scattering[*A*]above the background of hydrogen absorption	context()	negated: False ,passive: True
+0.882	[*A*]the features[*R*]were elevated[*A*]to relatively high altitudes	context(the latter implying)	negated: False ,passive: True
+0.382	[*A*]the latter[*R*]implying[*A*]that the features were elevated to relatively high altitudes , placing significant amounts of aerosol	context()	negated: False ,passive: False
+0.961	[*A*]These transient features in the northern hemisphere of Uranus[*R*]were seen[*A*]in both H filters	context()	negated: False ,passive: True
+0.919	[*A*]significant amounts of aerosol[*R*]scattering[*A*]above the background of methane	context()	negated: False ,passive: True
+0.972	[*A*]the bright clouds[*R*]formed[*A*]a huge complex extending across almost 90 of longitude . These transient features in the northern hemisphere of Uranus were seen in both H filters ,[*A*]in this case	context()	negated: False ,passive: False
+[LINE#33]These features reached pressures in the 300-500mb range (Sromovsky et al., 2007), which is well above the 1.2-bar methane condensation level (Sromovsky et al., 2011).
+0.573	[*A*]2007[*R*]is[*A*]well above the 1.2-bar methane condensation level	context()	negated: False ,passive: True
+0.903	[*A*]These features[*R*]reached[*A*]pressures in the 300-500mb range	context()	negated: False ,passive: False
+[LINE#34]These eruptions of bright cloud material are thus almost certainly composed largely of methane ice, perhaps as pure particles or as methane ice coatings on particles originally condensed at deeper levels and then lofted above the methane condensation level.
+0.927	[*A*]particles[*R*]condensed[*A*]at deeper levels[*A*]originally	context()	negated: False ,passive: True
+0.829	[*A*]These eruptions of bright cloud material[*R*]are[*A*]thus[*A*]perhaps	context()	negated: False ,passive: True
+[LINE#35]These bright cloud features might possibly be due to deep convective events, qualitatively similar to thunderstorms on Jupiter.
+0.934	[*A*]These bright cloud features[*R*]might be[*A*]due to deep convective events, qualitatively similar to thunderstorms on Jupiter	context()	negated: False ,passive: True
+[LINE#36]A more likely explanation, however, is that such features are generated by vertical displacements of atmosphere flowing around vortex circulations, resulting in local condensation as the flow is displaced above the methane condensation level.
+0.920	[*A*]such features[*R*]are generated[*A*]by vertical displacements of atmosphere[*A*]resulting in local condensation as the flow is displaced above the methane condensation level	context(A more likely explanation is)	negated: False ,passive: True
+0.873	[*A*]A more likely explanation[*R*]is[*A*]that such features are generated by vertical displacements of atmosphere flowing around vortex circulations, resulting in local condensation	context()	negated: False ,passive: True
+0.903	[*A*]the flow[*R*]is displaced[*A*]above the methane condensation level	context()	negated: False ,passive: True
+0.931	[*A*]vertical displacements of atmosphere[*R*]flowing[*A*]around vortex circulations	context()	negated: False ,passive: True
+[LINE#37]Bright cloud features associated with Neptune's Great Dark Spot were termed companion clouds because they traveled along with it in defiance of the meridional shear of the local zonal wind profile (Hammel et al.
+0.381	[*A*]Dark Spot[*R*][is] Great [of][*A*]Neptune	context()	negated: False ,passive: False
+0.465	[*A*]they[*R*]traveled[*A*]along with it	context()	negated: False ,passive: False
+0.960	[*A*]Bright cloud features associated with Neptune's Great Dark Spot[*R*]were termed[*A*]companion clouds[*A*]because they traveled along with it in defiance of the meridional shear of the local zonal wind profile	context()	negated: False ,passive: True
+0.925	[*A*]Bright cloud features[*R*]associated[*A*]with Neptune's Great Dark Spot	context()	negated: False ,passive: True
+[LINE#38] Such clouds are thought to be similar to orographic clouds generated by lee waves downwind of mountain ranges, an idea first suggested by Smith et al., 1989 and later verified by dynamical models in which vortex circulations produced similar cloud features (Stratman et al., 2001).Companion clouds were also found to be associated with the first dark spot ever seen on Uranus(Hammel et al., 2009), which was also found at northern mid-latitudes in July 2006.
+0.944	[*A*]an idea[*R*]suggested[*A*]by Smith et al[*A*]first	context()	negated: False ,passive: True
+0.970	[*A*]vortex circulations[*R*]produced[*A*]similar cloud features[*A*]dynamical models in which vortex circulations produced similar cloud features ( Stratman et al . , 2001 ) . Companion clouds were also found to be associated with the first dark spot ever seen on Uranus ( Hammel et al . , 2009 ) , which was also found at northern mid-latitudes in July 2006	context()	negated: False ,passive: False
+0.998	[*A*]dynamical models in which vortex circulations produced similar cloud features ( Stratman et al . , 2001 ) . Companion clouds were also found to be associated with the first dark spot ever seen on Uranus ( Hammel et al . , 2009 )[*R*]was found[*A*]at northern mid-latitudes[*A*]in July 2006	context()	negated: False ,passive: True
+0.954	[*A*]the first dark spot[*R*]seen[*A*]on Uranus[*A*]ever	context()	negated: False ,passive: True
+0.901	[*A*]orographic clouds[*R*]generated downwind[*A*]by lee waves	context()	negated: False ,passive: True
+0.959	[*A*]Stratman et al . , 2001 ) . Companion clouds[*R*]to be associated[*A*]with the first dark spot	context()	negated: False ,passive: True
+0.887	[*A*]Such clouds[*R*]to be[*A*]similar to orographic clouds	context()	negated: False ,passive: True
+0.889	[*A*]Stratman et al . , 2001 ) . Companion clouds[*R*]were also found	context()	negated: False ,passive: False
+0.732	[*A*]Such clouds[*R*]are thought	context()	negated: False ,passive: False
+[LINE#39] The dark spot itself was near 28N planetocentric latitude, while bright companion clouds were seen over a latitude range of 3 centered about 29N. Companion clouds related to this dark spot were also seen in H images obtained with the Keck II telescope NIRC2 Narrow Angle(NA) camera (Fig. 1C), though they were not unusually bright in these images.
+0.791	[*A*]Companion clouds[*R*]were seen[*A*]in H images[*A*]though they were not unusually bright in these images	context()	negated: False ,passive: True
+0.927	[*A*]Companion clouds[*R*]related[*A*]to this dark spot	context()	negated: False ,passive: True
+0.937	[*A*]a latitude range of 3[*R*]centered[*A*]about 29N	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]were not[*A*]unusually bright in these images	context()	negated: True ,passive: True
+0.911	[*A*]bright companion clouds[*R*]were seen[*A*]over a latitude range of 3	context()	negated: False ,passive: True
+0.732	[*A*]H images[*R*]obtained	context()	negated: False ,passive: False
+0.957	[*A*]The dark spot[*R*]was[*A*]near 28N planetocentric latitude[*A*]while bright companion clouds were seen over a latitude range of 3	context()	negated: False ,passive: True
+[LINE#40] A similar configuration of even brighter clouds was observed in 2007 (1D), also thought to be associated with a dark oval circulation feature (Sromovsky et al., 2009), although the evidence is not as strong in this case.
+0.993	[*A*]A similar configuration of even brighter clouds[*R*]was observed in[*A*]2007	context()	negated: False ,passive: False
+0.903	[*A*]the evidence[*R*]is not[*A*]as strong in this case	context()	negated: True ,passive: True
+0.960	[*A*]A similar configuration of even brighter clouds[*R*]was observed[*A*]in 2007[*A*]although the evidence is not as strong in this case	context()	negated: False ,passive: True
+[LINE#41]The cause of these sudden increases in high altitude cloud development is unknown, and whether they are all related to vortex circulation features is likewise unknown.
+0.619	[*A*]whether they are all related to vortex circulation features[*R*]is[*A*]likewise unknown	context()	negated: False ,passive: True
+0.511	[*A*]they[*R*]are related[*A*]to vortex circulation features	context()	negated: False ,passive: True
+0.912	[*A*]The cause of these sudden increases in high altitude cloud development[*R*]is[*A*]unknown	context()	negated: False ,passive: True
+[LINE#42]Thus, further examples that can be studied in detail offer the possibility of gaining a better understanding of this phenomenon.
+0.964	[*A*]further examples that can be studied in detail[*R*]offer[*A*]the possibility of gaining a better understanding of this phenomenon	context()	negated: False ,passive: False
+0.887	[*A*]further examples[*R*]can be studied[*A*]in detail	context()	negated: False ,passive: True
+[LINE#43]On 26 October 2011, Gemini images of Uranus revealed another unusually bright cloud feature (Fig. 2C), providing us with another possible opportunity to study this episodic development.
+0.807	[*A*]Gemini images of Uranus[*R*]revealed another unusually bright cloud feature providing[*A*]us[*A*]with another possible opportunity	context(Gemini images of Uranus revealed)	negated: False ,passive: False
+0.932	[*A*]Gemini images of Uranus[*R*]revealed[*A*]another unusually bright cloud feature[*A*]providing us with another possible opportunity[*A*]On 26 October 2011	context()	negated: False ,passive: False
+[LINE#44]We also located these features in a set of Hubble images taken to support an investigation of the planet's rings (M. Showalter, PI) on 13 October and 23 October 2011 using the F845M filter.
+0.961	[*A*]Hubble images[*R*]taken[*A*]to support an investigation of the planet 's rings ( M. Showalter , PI ) on 23 October 2011	context()	negated: False ,passive: True
+0.961	[*A*]Hubble images[*R*]taken[*A*]to support an investigation of the planet 's rings ( M. Showalter , PI ) on 13 October	context()	negated: False ,passive: True
+0.456	[*A*]We[*R*]located[*A*]these features[*A*]in a set of Hubble images	context()	negated: False ,passive: False
+[LINE#45]These images (Fig. 2A and B) revealed that the cloud feature had brightened and impelled us to further investigation.
+0.774	[*A*]These images[*R*]revealed impelled[*A*]us[*A*]to further investigation	context(These images revealed)	negated: False ,passive: False
+0.774	[*A*]These images[*R*]revealed[*A*]impelled us to further investigation	context()	negated: False ,passive: False
+0.707	[*A*]the cloud feature[*R*]had brightened	context(These images revealed)	negated: False ,passive: False
+0.810	[*A*]These images[*R*]revealed impelled[*A*]us[*A*]to further investigation	context()	negated: False ,passive: False
+0.707	[*A*]the cloud feature[*R*]had brightened	context(These images revealed)	negated: False ,passive: False
+0.697	[*A*]These images[*R*]revealed[*A*]that the cloud feature had brightened	context()	negated: False ,passive: False
+[LINE#46]In the following, we describe the observations obtained in pursuit of this feature, the motions we determined from them, the morphological changes that occurred, the nature of a second bright spot discovered at nearly the same latitude, the predicted close approach of the two features, their brightness changes over time, the Target of Opportunity imaging results, constraints on their vertical structure, and our conclusions.
+0.919	[*A*]a second bright spot[*R*]discovered[*A*]at nearly the same latitude	context()	negated: False ,passive: True
+0.702	[*A*]we[*R*]describe[*A*]the observations obtained in pursuit of this feature , the motions[*A*]In the following	context()	negated: False ,passive: False
+0.654	[*A*]we[*R*]describe[*A*]the observations obtained in pursuit of this feature , the motions[*A*]In the following	context(the nature of a second bright spot discovered)	negated: False ,passive: False
+0.924	[*A*]the nature of a second bright spot[*R*]discovered[*A*]at nearly the same latitude	context()	negated: False ,passive: False
+0.718	[*A*]the morphological changes[*R*]occurred	context()	negated: False ,passive: False
+0.140	[*A*]we[*R*]determined[*A*]from them[*A*]the morphological changes that occurred	context()	negated: False ,passive: False
+0.903	[*A*]the observations[*R*]obtained[*A*]in pursuit of this feature	context()	negated: False ,passive: True
+[LINE#47]Morphology and position measurements.
+[LINE#48]There was considerable temporal variation in the morphology of both bright spots, as illustrated in Fig. 4.
+[LINE#49]The rectangular projections in that figure are mostly from H-filter images and generally enhanced to show morphology rather than relative changes in brightness.
+0.527	[*A*]The rectangular[*R*]to show[*A*]morphology rather than relative changes in brightness	context()	negated: False ,passive: False
+0.527	[*A*]The rectangular[*R*]enhanced[*A*]to show morphology rather than relative changes in brightness	context()	negated: False ,passive: True
+0.932	[*A*]The rectangular projections in that figure[*R*]are[*A*]mostly[*A*]from H - filter images	context()	negated: False ,passive: True
+[LINE#50] An exception is the pair of F845M images (Fig.4D and E) which are enhanced in the same way, so that in this case the apparent brightness increase from 13 to 23 October is meaningful and amounts to a 30% increase in FIDB.
+0.971	[*A*]the apparent brightness increase from 13 to 23[*R*]is[*A*]meaningful[*A*]in this case	context()	negated: False ,passive: True
+0.843	[*A*]October[*R*]is[*A*]meaningful	context()	negated: False ,passive: True
+0.922	[*A*]F845 M images[*R*]are enhanced[*A*]in the same way	context()	negated: False ,passive: True
+0.937	[*A*]An exception[*R*]is[*A*]the pair of F845 M images	context()	negated: False ,passive: True
+[LINE#51] When first identified in the 26 October 2011.
+[LINE#52]Gemini-North image (Fig. 4F), the bright spot (BS1) appeared as a relatively compact feature with two adjacent components.
+0.882	[*A*]Gemini-North image (Fig. 4F), the bright spot[*R*]appeared	context()	negated: False ,passive: False
+[LINE#53]Between 13 and 23 October, the feature became more compact as well as brighter, but then expanded in area by 26 October.
+0.952	[*A*]the feature[*R*]became[*A*]brighter[*A*]Between 13 and 23 October	context()	negated: False ,passive: True
+0.952	[*A*]the feature[*R*]became[*A*]more compact[*A*]Between 13 and 23 October	context()	negated: False ,passive: True
+0.744	[*A*]Between 13 and 23[*R*]expanded[*A*]in area[*A*]by 26 October[*A*]then	context()	negated: False ,passive: True
+[LINE#54]Its very compact appearance on 19 September (Fig. 4C) is probably a result of the 1.764-m filter used for that image.
+0.820	[*A*]the 1.764-m filter[*R*]used[*A*]for that image	context()	negated: False ,passive: True
+0.813	[*A*]Its very compact appearance on 19 September[*R*]is[*A*]probably[*A*]a result of the 1.764-m filter	context()	negated: False ,passive: True
+[LINE#55]As indicated in Fig. 3, this filter does not penetrate as deeply as the H filter and thus weights the higher part of the cloud more heavily, which seems to be more compact than the deeper structure.
+0.934	[*A*]the higher part of the cloud more heavily[*R*]to be[*A*]more compact than the deeper structure	context()	negated: False ,passive: True
+0.903	[*A*]this filter[*R*]does not penetrate[*A*]as deeply[*A*]as the H filter	context()	negated: True ,passive: False
+[LINE#56]The apparent expansion of the cloud area seen in the 10-11 November images (Fig. 4G and H) is mainly a result of a temporary misalignment of the adaptive optics lenslet array, which produced an extended and oddly shaped PSF when extended objects were used as a wavefront reference.
+0.920	[*A*]array[*R*]produced[*A*]an extended PSF when extended objects were used as a wavefront reference	context()	negated: False ,passive: False
+0.925	[*A*]the cloud area[*R*]seen[*A*]in the 10-11 November images H	context()	negated: False ,passive: True
+0.896	[*A*]array[*R*]produced[*A*]an oddly shaped PSF[*A*]when extended objects were used as a wavefront reference	context()	negated: False ,passive: False
+0.964	[*A*]The apparent expansion of the cloud area[*R*]is[*A*]mainly[*A*]a result of a temporary misalignment of the adaptive optics	context()	negated: False ,passive: True
+0.903	[*A*]extended objects[*R*]were used[*A*]as a wavefront reference	context()	negated: False ,passive: True
+0.927	[*A*]lenslet array[*R*]produced[*A*]an extended PSF when extended objects were used as a wavefront reference	context()	negated: False ,passive: False
+0.964	[*A*]The apparent expansion of the cloud area[*R*]is[*A*]mainly[*A*]a result of a temporary misalignment of the adaptive optics lenslet array	context()	negated: False ,passive: True
+0.925	[*A*]the cloud area[*R*]seen[*A*]in the 10-11 November images	context()	negated: False ,passive: True
+[LINE#57]This misalignment had the effect of producing a secondary image displaced in the x direction from the primary image.
+0.911	[*A*]a secondary image[*R*]displaced[*A*]in the x direction from the primary image	context()	negated: False ,passive: True
+0.925	[*A*]This misalignment[*R*]had[*A*]the effect of producing a secondary image	context()	negated: False ,passive: False
+[LINE#58]However, some of the expansion of the BS1 image is likely to be real, based on its subsequent appearance as a multi-element structure in the 13 November image (panel I), which was taken after the AO misalignment was fixed.
+0.803	[*A*]the AO misalignment[*R*]was fixed	context()	negated: False ,passive: False
+0.940	[*A*]the 13 November image[*R*]was taken[*A*]after the AO misalignment was fixed	context()	negated: False ,passive: True
+0.870	[*A*]some of the expansion of the BS1 image[*R*]to be[*A*]real	context()	negated: False ,passive: True
+0.969	[*A*]some of the expansion of the BS1 image[*R*]is[*A*]likely to be real[*A*]based on its subsequent appearance as a multi-element structure in the 13 November image	context()	negated: False ,passive: True
+[LINE#59]This image shows several very compact features distributed over a somewhat wider area than previously seen.
+0.919	[*A*]several very compact features[*R*]distributed[*A*]over a somewhat wider area	context()	negated: False ,passive: True
+0.952	[*A*]This image[*R*]shows[*A*]several very compact features distributed over a somewhat wider area	context()	negated: False ,passive: False
+[LINE#60]The 16 December image (panel J) shows a very small feature and an overall fading of BS1, which we verified by brightness measurements described in the next section.
+0.991	[*A*]16 december image[*R*]shows[*A*]an overall fading of BS1 , which we verified by brightness measurements described in the next section	context()	negated: False ,passive: False
+0.903	[*A*]brightness measurements[*R*]described[*A*]in the next section	context()	negated: False ,passive: True
+0.829	[*A*]BS1[*R*]verified[*A*]we	context()	negated: False ,passive: True
+0.954	[*A*]The 16 December image[*R*]shows[*A*]an overall fading of BS1	context()	negated: False ,passive: False
+0.991	[*A*]16 december image[*R*]shows[*A*]a very small feature	context()	negated: False ,passive: False
+0.945	[*A*]The 16 December image[*R*]shows[*A*]a very small feature	context()	negated: False ,passive: False
+[LINE#61]The brightness continued to decline so much that it became quite difficult to locate BS1 in any later F845M images (see Section 7).
+0.614	[*A*]it[*R*]became[*A*]quite difficult to locate BS1 in any later F845M images (see Section 7	context()	negated: False ,passive: True
+0.732	[*A*]The brightness[*R*]continued	context()	negated: False ,passive: False
+[LINE#62]Panels K-M are centered within the 15 range of where we expected BS1 to be, but except for panel L, which we think is dominated by BS2, there is no obvious bright feature to be found.
+0.513	[*A*]we[*R*]think[*A*]is dominated by BS2	context()	negated: False ,passive: False
+0.769	[*A*]no obvious bright feature[*R*]to be found	context()	negated: False ,passive: False
+0.993	[*A*]Panels K M[*R*]are centered within[*A*]15 range	context()	negated: False ,passive: False
+0.818	[*A*]Panels K - M[*R*]are centered	context()	negated: False ,passive: False
+[LINE#63] On the other hand there are hints of BS1, better seen in FQ889N images (see Section 7), where there is a low contrast streak near the center of panel K and a bright spot just left of center in panel M.
+0.934	[*A*]hints of BS1[*R*]better seen[*A*]in FQ889N images	context()	negated: False ,passive: True
+[LINE#64]M also registers that bright feature and also a faint dark spot just below it.
+0.666	[*A*]M[*R*]registers[*A*]also[*A*]a faint dark spot just below it	context()	negated: False ,passive: False
+0.573	[*A*]M[*R*]registers[*A*]that bright feature	context()	negated: False ,passive: False
+[LINE#65] We did not become aware of the second bright spot (BS2) until we saw the 10 November image (Fig..
+0.568	[*A*]we[*R*]saw[*A*]the 10 November image	context()	negated: False ,passive: False
+0.350	[*A*]We[*R*]did not become[*A*]aware of the second bright spot[*A*]until we saw the 10 November image	context()	negated: True ,passive: True
+[LINE#66] It seemed to be at nearly the same latitude, but drifted relative to BS1 at a rate of nearly 8/day(compare panels G and H or P and Q).
+0.411	[*A*]It[*R*]to be[*A*]at nearly the same latitude	context()	negated: False ,passive: True
+[LINE#67]We then looked for it in previous observations and did find it in all of the H-band images taken when BS2 was on the sunlit side of the planet.
+0.887	[*A*]BS2[*R*]was[*A*]on the sunlit side of the planet	context()	negated: False ,passive: True
+0.960	[*A*]the H - band images[*R*]taken[*A*]when BS2 was on the sunlit side of the planet	context()	negated: False ,passive: True
+0.309	[*A*]We[*R*]did find[*A*]it	context()	negated: False ,passive: False
+0.403	[*A*]We[*R*]looked[*A*]for it[*A*]in previous observations[*A*]then	context()	negated: False ,passive: False
+[LINE#68]The relative motions, close approach, and relative expansion seen in both features in the November images, suggested the possibility of interactions between the two features.
+0.959	[*A*]relative expansion seen in both features in the November images[*R*]suggested[*A*]the possibility of interactions between the two features	context()	negated: False ,passive: False
+0.918	[*A*]relative expansion[*R*]seen[*A*]in both features in the November images	context()	negated: False ,passive: True
+0.959	[*A*]close approach seen in both features in the November images[*R*]suggested[*A*]the possibility of interactions between the two features	context()	negated: False ,passive: False
+0.918	[*A*]close approach[*R*]seen[*A*]in both features in the November images	context()	negated: False ,passive: True
+0.962	[*A*]The relative motions seen in both features in the November images[*R*]suggested[*A*]the possibility of interactions between the two features	context()	negated: False ,passive: False
+0.925	[*A*]The relative motions[*R*]seen[*A*]in both features in the November images	context()	negated: False ,passive: True
+[LINE#69]This might take the form of increased vertical disturbances and condensation cloud formation, an idea suggested by such an occurrence on Saturn in 1981, as shown in Fig. 4 of Sromovsky et al.
+0.918	[*A*]an idea[*R*]suggested[*A*]by such an occurrence on Saturn[*A*]in 1981	context()	negated: False ,passive: True
+0.425	[*A*]This[*R*]might take[*A*]the form of increased vertical condensation cloud formation[*A*]as shown in Fig	context()	negated: False ,passive: False
+0.425	[*A*]This[*R*]might take[*A*]the form of increased vertical disturbances[*A*]as shown in Fig	context()	negated: False ,passive: False
+[LINE#70] (1983).Morphological variations in BS2 are displayed in Fig.4N-V, from 27 July 2011 to 29 December 2011.
+[LINE#71]There is some doubt about the July observation because of the long gap from then until its next sighting on 25 October, and because it appears at a considerably higher latitude in the earlier observation.
+0.452	[*A*]it[*R*]appears[*A*]at a considerably higher latitude in the earlier observation	context()	negated: False ,passive: True
+[LINE#72]However, latitudinal variations are not uncommon for Uranian cloud features.
+0.767	[*A*]latitudinal variations[*R*]are not[*A*]uncommon	context()	negated: True ,passive: True
+[LINE#73] The most unusual morphological change associated with BS2 occurred during the December sequence of observations, when a small dark spot was revealed in 20-29 December images, with maximum contrast occurring on 25 December.
+0.918	[*A*]maximum contrast[*R*]occurring[*A*]on 25 December	context()	negated: False ,passive: True
+0.956	[*A*]a small dark spot[*R*]was revealed[*A*]in 20-29 December images, with maximum contrast occurring on 25 December	context()	negated: False ,passive: True
+0.978	[*A*]The most unusual morphological change associated with BS2[*R*]occurred[*A*]during the December sequence of observations[*A*]when a small dark spot was revealed in 20-29 December images, with maximum contrast occurring on 25 December	context()	negated: False ,passive: True
+0.937	[*A*]The most unusual morphological change[*R*]associated[*A*]with BS2	context()	negated: False ,passive: True
+[LINE#74]This is only the second dark spot ever seen on Uranus. .
+0.958	[*A*]only the second dark spot[*R*]seen[*A*]on Uranus[*A*]ever	context()	negated: False ,passive: True
+0.495	[*A*]This[*R*]is[*A*]only the second dark spot ever seen on Uranus	context()	negated: False ,passive: True
+[LINE#75]Position measurements and modeling.
+[LINE#76]Large telescope resultsThe morphological variations during the period over which the spots were tracked made the measurement of their positions somewhat of a challenge.
+0.884	[*A*]Large telescope resultsThe morphological variations during the period[*R*]made[*A*]the measurement of their positions somewhat of a challenge	context()	negated: False ,passive: False
+0.933	[*A*]the spots[*R*]were tracked[*A*]the period	context()	negated: False ,passive: True
+[LINE#77]To define their positions we used two different methods: (1) the location of the center of differential brightness (CODB) and (2) the location of the brightest pixel.
+0.582	[*A*]To define their positions[*R*]used[*A*]two different methods	context()	negated: False ,passive: True
+[LINE#78]In the first method we weight the position of each pixel inside a box containing the feature by the differential brightness above the image background.
+0.937	[*A*]a box[*R*]containing[*A*]the feature by the differential brightness above the image background	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]weight[*A*]the position of each pixel inside a box[*A*]In the first method	context()	negated: False ,passive: False
+[LINE#79] The coordinates of the CODB are mathematically defined as follows:(1)xCODB=i,jtargetxi[I(i,j)-IB(i,j)]i,jtarget[I(i,j)-IB(i,j)](2)yCODB=i,jtargetyi[I(i,j)-IB(i,j)]i,jtarget[I(i,j)-IB(i,j)]where I(i,j) is the reflectivity at image location i, j, IB(i,j) is the background reflectivity at the perimeter of the target box interpolated to the i,j position, xi and yj are the physical coordinates associated with the indexed pixel coordinates, and the summation is over the area of the target box.
+0.953	[*A*]the background reflectivity at the perimeter of the target box[*R*]interpolated[*A*]to the i	context()	negated: False ,passive: True
+0.946	[*A*]The coordinates of the CODB[*R*]are mathematically defined[*A*]as follows : ( 1 ) xCODB=i , jtargetxi [ I ( i , j ) - IB ( i , j ) ] i , jtarget [ I ( i , j ) - IB ( i , j ) ] ( 2 ) yCODB=i , jtargetyi [ I ( i , j ) - IB ( i , j ) ] i , jtarget [ I ( i , j ) - IB ( i , j ) ] where I ( i , j ) is the reflectivity at image location i , j , IB ( i , j ) is the background reflectivity at the perimeter of the target box interpolated to the i , yj are the physical coordinates	context()	negated: False ,passive: True
+0.411	[*A*]i[*R*]interpolated[*A*]to the i	context()	negated: False ,passive: False
+0.856	[*A*]The coordinates of the CODB[*R*]are mathematically defined[*A*]as follows	context()	negated: False ,passive: True
+0.877	[*A*]the background reflectivity at the perimeter of the target box[*R*]interpolated[*A*]to	context()	negated: False ,passive: True
+0.427	[*A*]i[*R*]j is[*A*]the background reflectivity at the perimeter of the target box interpolated to	context(j position are)	negated: False ,passive: True
+0.678	[*A*]j position[*R*]are	context()	negated: False ,passive: False
+0.911	[*A*]the physical coordinates[*R*]associated[*A*]with the indexed pixel coordinates	context()	negated: False ,passive: True
+0.214	[*A*]i[*R*]j	context()	negated: False ,passive: False
+0.856	[*A*]The coordinates of the CODB[*R*]are mathematically defined[*A*]as follows	context()	negated: False ,passive: True
+0.964	[*A*]The coordinates of the CODB[*R*]are mathematically defined[*A*]as follows : the summation is over the area of the target box	context()	negated: False ,passive: True
+[LINE#80]The CODB position measurements are summarized in Table 5.
+0.949	[*A*]The CODB position measurements[*R*]are summarized[*A*]in Table 5	context()	negated: False ,passive: True
+[LINE#81]The uncertainties in establishing a position value are relatively low for each individual image, but the position of the suspected underlying circulation feature that generates the cloud features is far less certain, and probably better estimated from the variability in latitude values from different images and longitude deviations from a constant drift rate model.
+0.913	[*A*]the suspected underlying circulation feature[*R*]generates[*A*]the cloud features	context()	negated: False ,passive: False
+0.934	[*A*]the position of the suspected underlying circulation feature[*R*]estimated[*A*]from the variability in latitude values from different images	context()	negated: False ,passive: True
+0.938	[*A*]The uncertainties in establishing a position value[*R*]are[*A*]relatively low for each individual image	context()	negated: False ,passive: True
+0.868	[*A*]the position of the suspected underlying circulation feature[*R*]is[*A*]far less certain	context()	negated: False ,passive: True
+[LINE#82]The CODB positions are less variable than peak locations, although the variability is only significant for latitude measurements to be discussed later.
+0.767	[*A*]latitude measurements[*R*]to be discussed[*A*]later	context()	negated: False ,passive: True
+0.813	[*A*]the variability[*R*]is[*A*]only significant	context()	negated: False ,passive: True
+0.957	[*A*]The CODB positions[*R*]are[*A*]less variable than peak locations[*A*]although the variability is only significant for latitude measurements to be discussed later	context()	negated: False ,passive: True
+[LINE#83] The CODB results for longitude are displayed in Fig. 5 for BS1 and in Fig.it appeared that BS1 was drifting at a constant drift rate, but subsequent observations revealed a more complex behavior.
+0.901	[*A*]The CODB results for longitude[*R*]are displayed[*A*]in Fig[*A*]in Fig.it[*A*]appeared that BS1 was drifting at a constant drift rate	context()	negated: False ,passive: True
+0.953	[*A*]The CODB results for longitude[*R*]are displayed[*A*]in Fig[*A*]for BS1	context()	negated: False ,passive: True
+0.903	[*A*]subsequent observations[*R*]revealed[*A*]a more complex behavior	context()	negated: False ,passive: False
+[LINE#84]Constant drift model fit results are summarized in Table 6 for several different time periods.
+0.937	[*A*]Constant drift model fit results[*R*]are summarized[*A*]in Table 6[*A*]for several different time periods	context()	negated: False ,passive: True
+[LINE#85]While the average rates are very precisely defined, the instantaneous drift rates are much more uncertain because they vary with time.
+0.616	[*A*]they[*R*]vary[*A*]with time	context()	negated: False ,passive: True
+0.860	[*A*]the instantaneous drift rates[*R*]are[*A*]much more uncertain[*A*]because they vary with time	context()	negated: False ,passive: True
+0.751	[*A*]the average rates[*R*]are very precisely defined	context()	negated: False ,passive: False
+[LINE#86]After 26 October, the BS1 feature increased its westward drift rate in comparison to the average observed between July and October.
+0.918	[*A*]the average[*R*]observed[*A*]between July and October	context()	negated: False ,passive: True
+0.942	[*A*]the BS1 feature[*R*]increased[*A*]its westward drift rate[*A*]in comparison to the average[*A*]After 26 October	context()	negated: False ,passive: False
+[LINE#87]The average drift rate for the 26 July to 16 December period was 1.386W/day, which is nearly the same as the drift rate seen for the 26 July to 26 October period.
+0.925	[*A*]the drift rate[*R*]seen[*A*]for the 26 July to 26 October period	context()	negated: False ,passive: True
+0.940	[*A*]1.386W/day[*R*]is[*A*]nearly the same as the drift rate	context()	negated: False ,passive: True
+0.981	[*A*]The average drift rate for the 26 July to 16 December period[*R*]was[*A*]1.386W/day	context()	negated: False ,passive: True
+[LINE#88]But, from 10 November to 16 December the drift rate increased to 1.749W/day, raising serious doubts about our ability to predict its position during the planned Target of Opportunity imaging by Hubble.
+0.923	[*A*]the drift rate[*R*]increased[*A*]to 1.749W/day[*A*]raising serious doubts about our ability[*A*]from 10 November[*A*]to 16 December	context()	negated: False ,passive: True
+[LINE#89]The residuals for the July-December fit raise the possibility of a long-period (150-day) oscillation in drift rate.
+0.973	[*A*]The residuals for the July-December fit[*R*]raise[*A*]the possibility of a long-period (150-day) oscillation in drift rate	context()	negated: False ,passive: False
+[LINE#90]It is also conceivable that the drift rate was perturbed by interactions with the second bright spot (discussed in the next section).
+0.888	[*A*]the drift rate[*R*]was perturbed[*A*]by interactions with the second bright spot	context(It is)	negated: False ,passive: True
+0.229	[*A*]It[*R*]is[*A*]also[*A*]conceivable	context()	negated: False ,passive: True
+0.905	[*A*]the second bright spot[*R*]discussed[*A*]in the next section	context()	negated: False ,passive: True
+[LINE#91]Although we were initially unsure of which spot was seen in the 20 December HST image, its longitude deviates roughly 30 from the expected location of BS1, while it almost exactly matches the predicted location of BS2.
+0.999	[*A*]its longitude[*R*]deviates[*A*]roughly 30	context()	negated: False ,passive: False
+0.498	[*A*]it[*R*]almost exactly matches[*A*]the predicted location of BS2	context()	negated: False ,passive: False
+0.649	[*A*]its longitude[*R*]deviates[*A*]roughly 30[*A*]from the expected location of BS1[*A*]while it almost exactly matches the predicted location of BS2	context()	negated: False ,passive: False
+0.840	[*A*]spot[*R*]was seen[*A*]in the 20 December HST image	context()	negated: False ,passive: True
+0.225	[*A*]we[*R*]were[*A*]initially[*A*]unsure of which	context()	negated: False ,passive: True
+[LINE#92]The decline of BS1 in combination with the inherently lower contrast in FQ845M images compared to H images may both be responsible for its near disappearance on 19 December.
+0.935	[*A*]The decline of BS1 in combination with the inherently lower contrast in FQ845M images compared to H images[*R*]may be[*A*]responsible for its near disappearance on 19 December	context()	negated: False ,passive: True
+[LINE#93]The only hint of its location is a faint streak in the FQ889N image (see Section 7), which we used to estimate its position at that time.
+0.121	[*A*]we[*R*]to estimate[*A*]its position at that time	context()	negated: False ,passive: False
+0.869	[*A*]The only hint of its location[*R*]is[*A*]a faint streak in the FQ889N image (see Section 7	context()	negated: False ,passive: True
+[LINE#94]As shown in Fig. 6, the location of the bright spot observed on 20 December 2011 is in good agreement with the position predicted from the linear drift models for BS2.
+0.918	[*A*]the position[*R*]predicted[*A*]from the linear drift models for BS2	context()	negated: False ,passive: True
+[LINE#95]When that and the 25 December observation are included in a fit to observations from 27 July through 25 December, we obtain a drift rate of 9.125W/day, which is 7.739W/day faster than BS1.
+0.740	[*A*]we[*R*]obtain[*A*]a drift rate of 9.125W / day , which is 7.739W / day faster than BS1[*A*]When the 25 December observation are included in a fit to observations from 27 July through 25 December	context()	negated: False ,passive: False
+0.967	[*A*]the 25 December observation[*R*]are included[*A*]in a fit to observations from 27 July through 25 December	context()	negated: False ,passive: True
+0.953	[*A*]a drift rate of 9.125W / day[*R*]is[*A*]7.739W / day faster than BS1	context()	negated: False ,passive: True
+0.509	[*A*]we[*R*]obtain[*A*]a drift rate of 9.125W / day , which is 7.739W / day faster than BS1[*A*]When that are included in a fit to observations from 27 July through 25 December	context()	negated: False ,passive: False
+0.233	[*A*]that[*R*]are included[*A*]in a fit to observations from 27 July through 25 December	context()	negated: False ,passive: True
+[LINE#96] The spot drift rates are only roughly compatible with the mean zonal wind profile at their respective latitudes, which are compared in Fig..
+0.664	[*A*]their respective latitudes[*R*]are compared[*A*]in Fig	context()	negated: False ,passive: True
+0.908	[*A*]The spot drift rates[*R*]are only[*A*]roughly compatible with the mean zonal wind profile at their respective latitudes	context()	negated: False ,passive: True
+[LINE#97]One way to interpret the substantial deviations from the zonal mean profile is that there are unseen vortices (V1 and V2 in Fig. 7) centered at the latitudes defined by the intersections of the drift rates and the wind profile curve.
+0.791	[*A*]One way to interpret the substantial deviations from the zonal mean profile[*R*]is centered[*A*]that there are unseen vortices	context()	negated: False ,passive: True
+0.937	[*A*]the latitudes[*R*]defined[*A*]by the intersections of the drift rates and the wind profile curve	context()	negated: False ,passive: True
+0.954	[*A*]One way to interpret the substantial deviations from the zonal mean profile[*R*]centered[*A*]at the latitudes	context()	negated: False ,passive: True
+[LINE#98] If that interpretation were valid, then the BS1 bright spot appears on average to be located a few degrees north of its generating vortex (V1), while the average BS2 cloud material is located a few degrees south of its (different) generating vortex.
+0.936	[*A*]the average BS2 cloud material[*R*]is located[*A*]a few degrees south of its (different) generating vortex	context()	negated: False ,passive: True
+0.875	[*A*]the BS1 bright spot[*R*]to be located[*A*]a few degrees north of its generating vortex	context()	negated: False ,passive: True
+0.844	[*A*]the BS1 bright spot[*R*]appears[*A*]on average	context()	negated: False ,passive: True
+0.767	[*A*]that interpretation[*R*]were[*A*]valid	context()	negated: False ,passive: True
+[LINE#99]However, we will later see that BS2 clouds may appear at different locations relative to its associated dark spot (a possible vortex marker).Another possible interpretation for the deviations from the zonal wind profile is that the BS1 is drifting more slowly than the mean profile because it is at a higher altitude than the mean of cloud features used to establish the zonal wind profile, and that BS2 is drifting more rapidly because it is a deeper feature.
+0.637	[*A*]it[*R*]is[*A*]at a higher altitude than the mean of cloud features	context()	negated: False ,passive: True
+0.522	[*A*]it[*R*]is[*A*]a deeper feature	context()	negated: False ,passive: True
+0.762	[*A*]BS2[*R*]is drifting more rapidly[*A*]because it is a deeper feature	context()	negated: False ,passive: True
+0.876	[*A*]the BS1[*R*]is drifting more slowly[*A*]because it is at a higher altitude than the mean of cloud features	context(Another possible interpretation for the deviations from the zonal wind profile is)	negated: False ,passive: True
+0.897	[*A*]Another possible interpretation for the deviations from the zonal wind profile[*R*]is[*A*]that the BS1 is drifting more slowly than the mean profile because it is at a higher altitude than the mean of cloud features used to establish the zonal wind profile, and that BS2 is drifting more rapidly	context()	negated: False ,passive: True
+0.841	[*A*]BS2 clouds[*R*]may appear[*A*]at different locations relative to its associated dark spot	context(we will see)	negated: False ,passive: True
+0.221	[*A*]we[*R*]will see[*A*]that BS2 clouds may appear at different locations relative to its associated dark spot[*A*]later	context()	negated: False ,passive: False
+[LINE#100] This makes qualitative sense because Voyager IRIS observations of Uranus (Flasar et al., 1987) imply that winds generally decay with height, although the quantitative estimates for the 500-1000mb region are only 2-5m/s per scale height at 25-30N.
+0.464	[*A*]winds[*R*]decay	context(Voyager IRIS observations of Uranus ( Flasar et al imply)	negated: False ,passive: False
+0.859	[*A*]Voyager IRIS observations of Uranus (Flasar et al[*R*]imply[*A*]that winds generally decay with height, although the quantitative estimates for the 500-1000mb region are only 2-5m/s per scale height at 25-30N	context()	negated: False ,passive: False
+0.938	[*A*]the quantitative estimates for the 500-1000mb region[*R*]are[*A*]only 2-5m/s per scale height	context()	negated: False ,passive: True
+0.302	[*A*]This[*R*]makes[*A*]qualitative sense[*A*]because Voyager IRIS observations of Uranus (Flasar et al., 1987) imply that winds generally decay with height	context()	negated: False ,passive: False
+[LINE#101]To explain the 40m/s net BS1 and BS2 deviations from the zonal mean profile as effects of vertical wind shear would require at least 8 scale heights of vertical separation.
+0.989	[*A*]To explain the 40m/s net BS1 and BS2 deviations from the zonal mean profile as effects of vertical wind shear[*R*]would require[*A*]at least 8 scale heights of vertical separation	context()	negated: False ,passive: False
+[LINE#102]As we shall see later, the measured cloud height difference is only 500mb, which is less than one scale height.
+0.934	[*A*]only 500mb[*R*]is[*A*]less than one scale height	context()	negated: False ,passive: True
+0.952	[*A*]the measured cloud height difference[*R*]is[*A*]only 500mb	context()	negated: False ,passive: True
+0.225	[*A*]we[*R*]shall see[*A*]later	context()	negated: False ,passive: False
+[LINE#103]Thus, vertical wind shear is not a plausible explanation, unless the cloud generating feature for BS2 is much deeper than the clouds that it generates.
+0.884	[*A*]the clouds[*R*]generates[*A*]it	context()	negated: False ,passive: True
+0.961	[*A*]the cloud generating feature for BS2[*R*]is[*A*]much deeper than the clouds	context()	negated: False ,passive: True
+0.918	[*A*]the cloud[*R*]generating[*A*]feature for BS2	context()	negated: False ,passive: False
+0.952	[*A*]vertical wind shear[*R*]is not[*A*]a plausible explanation[*A*]unless the cloud generating feature for BS2 is much deeper than the clouds	context()	negated: True ,passive: True
+[LINE#104]The latitudinal variations of the two spots are shown in Fig. 8.
+0.948	[*A*]The latitudinal variations of the two spots[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#105]The most surprising results in this comparison are the 2-3 northward displacement of the latitudes observed in July 2011, and the relative reversal of latitudes on December 16, when the BS1 feature appears slightly north of the BS2 feature.
+0.586	[*A*]The most surprising results in this comparison[*R*]have the relative reversal of[*A*]2 -3 northward displacement	context()	negated: False ,passive: False
+0.966	[*A*]this comparison[*R*]has The surprising results of[*A*]2 -3 northward displacement	context()	negated: False ,passive: False
+0.973	[*A*]The most surprising results in this comparison[*R*]are[*A*]2 -3 northward displacement	context()	negated: False ,passive: False
+0.944	[*A*]the BS1 feature[*R*]appears[*A*]slightly north of the BS2 feature	context()	negated: False ,passive: True
+0.967	[*A*]The most surprising results in this comparison[*R*]are[*A*]the 2-3 northward displacement of the relative reversal of latitudes on December 16	context()	negated: False ,passive: True
+0.586	[*A*]The most surprising results in this comparison[*R*]have the latitudes observed in July 2011 of[*A*]2 -3 northward displacement of the latitudes	context()	negated: False ,passive: False
+0.966	[*A*]this comparison[*R*]has The surprising results of[*A*]2 -3 northward displacement of the latitudes	context()	negated: False ,passive: False
+0.973	[*A*]The most surprising results in this comparison[*R*]are[*A*]2 -3 northward displacement of the latitudes	context()	negated: False ,passive: False
+0.918	[*A*]the latitudes[*R*]observed[*A*]in July 2011	context()	negated: False ,passive: True
+0.938	[*A*]The most surprising results in this comparison[*R*]are[*A*]the 2-3 northward displacement of the latitudes	context()	negated: False ,passive: True
+[LINE#106] If the putative unseen vortex generating BS1 is actually following the mean zonal flow, then the observed latitudinal variation of BS1 would suggest a relatively lower drift rate (less westward) in October and a peak-to-peak deviation of a few degrees per day, according to Fig..
+0.913	[*A*]the putative unseen vortex[*R*]generating[*A*]BS1	context(the putative unseen vortex generating BS1 is following)	negated: False ,passive: False
+0.903	[*A*]the putative unseen vortex generating BS1[*R*]is following[*A*]the mean zonal flow	context()	negated: False ,passive: False
+0.985	[*A*]the observed latitudinal variation of BS1[*R*]would suggest[*A*]a relatively lower drift rate (less westward[*A*]in October and a peak-to-peak deviation of a few degrees per day[*A*]according to Fig[*A*]then	context()	negated: False ,passive: False
+[LINE#107]The location of the minimum roughly matches this model, but the actual drift rate variation is only about 0.4/day.
+0.973	[*A*]the actual drift rate variation[*R*]is[*A*]about 0.4 / day	context()	negated: False ,passive: False
+0.943	[*A*]the actual drift rate variation[*R*]is[*A*]only about 0.4 / day	context()	negated: False ,passive: True
+0.785	[*A*]The location of the minimum[*R*]roughly matches	context()	negated: False ,passive: False
+[LINE#108]It is hard to discern a pattern in BS2 latitudes because of smaller late variation and the large temporal gap between July and October measurements. .
+[LINE#109]Pic du Midi resultsThe spot discovered in October observations with Gemini triggered several observation runs on other instruments and a detailed search for the spot in previous observations.
+0.958	[*A*]Pic du Midi resultsThe spot[*R*]triggered[*A*]several observation runs on a detailed search for the spot in previous observations	context()	negated: False ,passive: False
+0.934	[*A*]Pic du Midi resultsThe spot[*R*]triggered[*A*]several observation runs on other instruments	context()	negated: False ,passive: False
+0.953	[*A*]Pic du Midi resultsThe spot[*R*]discovered[*A*]in October observations with Gemini	context()	negated: False ,passive: True
+0.904	[*A*]Pic[*R*]du[*A*]Midi resultsThe spot	context()	negated: False ,passive: False
+[LINE#110]We were able to recover images of the spot in observations obtained with the 1-m telescope at the Pic du Midi observatory on August 2011.
+0.942	[*A*]observations[*R*]obtained[*A*]with the 1-m telescope at the Pic du Midi observatory on August 2011	context()	negated: False ,passive: True
+0.411	[*A*]We[*R*]to recover[*A*]images of the spot in observations	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]were[*A*]able to recover images of the spot in observations	context()	negated: False ,passive: True
+[LINE#111]Other observations with this telescope were obtained during October; observations planned for December were canceled due to bad weather.
+0.923	[*A*]Other observations with this telescope[*R*]were obtained[*A*]during October	context(observations planned for December were canceled)	negated: False ,passive: True
+0.925	[*A*]observations planned for December[*R*]were canceled[*A*]due to bad weather	context()	negated: False ,passive: True
+0.911	[*A*]observations[*R*]planned[*A*]for December	context()	negated: False ,passive: True
+[LINE#112]Early ephemerides of the spot transit were largely based on these observations together with those of Gemini.
+0.899	[*A*]Early ephemerides of the spot transit[*R*]were based[*A*]on these observations	context()	negated: False ,passive: True
+[LINE#113]These observations were acquired by several minute runs of rapid image acquisition.
+0.903	[*A*]These observations[*R*]were acquired[*A*]by several minute runs of rapid image acquisition	context()	negated: False ,passive: True
+[LINE#114]A lucky imaging technique was then used to select the best images, which avoids the worst atmospheric seeing effects (Law et al., 2006).
+0.897	[*A*]the best images[*R*]avoids[*A*]the worst atmospheric seeing effects	context()	negated: False ,passive: False
+0.929	[*A*]A lucky imaging technique[*R*]was used[*A*]to select the best images[*A*]then	context()	negated: False ,passive: True
+[LINE#115]This technique has been very successful for observations of Jupiter and Saturn (Hueso et al., 2010), but is more difficult to implement for observations of Uranus.
+0.918	[*A*]This technique[*R*]has been[*A*]very successful[*A*]for observations of Saturn Hueso et al	context()	negated: False ,passive: True
+0.926	[*A*]This technique[*R*]is[*A*]more difficult to implement for observations of Uranus	context()	negated: False ,passive: True
+0.918	[*A*]This technique[*R*]has been[*A*]very successful[*A*]for observations of Jupiter Hueso et al	context()	negated: False ,passive: True
+[LINE#116] The typical frame rate is only 4framespersecond, sovery good seeing conditions are required to detect the spot.
+0.900	[*A*]sovery good seeing conditions[*R*]are required[*A*]to detect the spot	context(The typical frame rate is)	negated: False ,passive: True
+0.809	[*A*]The typical frame rate[*R*]is[*A*]only 4framespersecond	context()	negated: False ,passive: True
+[LINE#117]The approach is to obtain a good quality video sequence of the imaged object, then sort the images according to a sharpness criteria.
+0.952	[*A*]The approach[*R*]is[*A*]to obtain a good quality video sequence of the imaged object, then sort the images according to a sharpness criteria	context()	negated: False ,passive: True
+[LINE#118]The best images are selected, shifted, and added to produce a final image with high signal-to-noise ratio.
+0.933	[*A*]The best images[*R*]to produce[*A*]a final image with high signal - to - noise ratio	context()	negated: False ,passive: False
+0.751	[*A*]The best images[*R*]are added	context()	negated: False ,passive: False
+0.751	[*A*]The best images[*R*]are shifted	context()	negated: False ,passive: False
+0.751	[*A*]The best images[*R*]are selected	context()	negated: False ,passive: False
+[LINE#119]The image is then processed to retrieve the fine-scale structure.
+0.916	[*A*]The image[*R*]is processed[*A*]to retrieve the fine-scale structure[*A*]then	context()	negated: False ,passive: True
+[LINE#120]A very strong enhancement based on wavelet algorithms is applied.
+0.830	[*A*]A very strong enhancement based on wavelet algorithms[*R*]is applied	context()	negated: False ,passive: False
+0.919	[*A*]A very strong enhancement[*R*]based[*A*]on wavelet algorithms	context()	negated: False ,passive: True
+[LINE#121]The final image quality approaches in some cases the diffraction limit of the telescope, however this strong processing required to bring out the atmospheric details does not allow accurate photometric measurements.
+0.953	[*A*]this strong processing required to bring out the atmospheric details[*R*]does not allow[*A*]accurate photometric measurements	context()	negated: True ,passive: False
+[LINE#122] In Fig. 9, the Pic du Midi images from 10 August, and 10, 12, and 30 October are compared to predicted locations inferred from the July to December regression fit to large-telescope observations of BS1 (the fit shown by the solid line in Fig..
+0.971	[*A*]the Pic du Midi images from 10 August , and 30 October[*R*]are compared[*A*]to predicted locations	context()	negated: False ,passive: True
+0.544	[*A*]12[*R*]are compared[*A*]to predicted locations	context()	negated: False ,passive: True
+0.937	[*A*]the fit[*R*]shown[*A*]by the solid line in Fig	context()	negated: False ,passive: True
+0.978	[*A*]the Pic du Midi images from 10 August[*R*]fit[*A*]In Fig	context()	negated: False ,passive: True
+0.903	[*A*]predicted locations[*R*]inferred[*A*]to December regression	context()	negated: False ,passive: True
+0.544	[*A*]10[*R*]are compared[*A*]to predicted locations	context()	negated: False ,passive: True
+[LINE#123]While the features displayed in the images are not of high contrast, they are reasonably consistent with the predictions, especially in October.
+0.658	[*A*]they[*R*]are[*A*]reasonably consistent with the predictions, especially in October	context()	negated: False ,passive: True
+0.932	[*A*]the features displayed in the images[*R*]are not[*A*]of high contrast	context()	negated: True ,passive: True
+0.903	[*A*]the features[*R*]displayed[*A*]in the images	context()	negated: False ,passive: True
+[LINE#124]The August images put the feature nearly 10 east of the prediction, which is evidence for a variation, possibly a slow oscillation, in the drift rate of BS1.
+0.953	[*A*]the prediction[*R*]is[*A*]evidence for a variation, possibly a slow oscillation, in the drift rate of BS1	context()	negated: False ,passive: True
+0.949	[*A*]The August images[*R*]put[*A*]the feature[*A*]nearly 10 east of the prediction	context()	negated: False ,passive: False
+[LINE#125]From the "discovery" observation on 26 October 2011, we worked backward and forward to locate other observations of the bright spot we here refer to as BS1.
+0.293	[*A*]we[*R*]worked to locate[*A*]other observations of the bright spot	context(we worked)	negated: False ,passive: False
+0.686	[*A*]we[*R*]worked[*A*]forward[*A*]to locate other observations of the bright spot[*A*]From the " discovery " observation on 26 October 2011	context()	negated: False ,passive: False
+0.388	[*A*]we[*R*]worked backward to locate[*A*]other observations of the bright spot	context(we worked backward)	negated: False ,passive: False
+0.686	[*A*]we[*R*]worked backward[*A*]to locate other observations of the bright spot[*A*]From the " discovery " observation on 26 October 2011	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]here refer[*A*]to[*A*]as BS1	context()	negated: False ,passive: False
+[LINE#126]Observations were gathered from HST, Keck II, Gemini-North, the VLT, and from Pic du Midi.
+0.911	[*A*]Observations[*R*]were gathered[*A*]from Pic du Midi	context()	negated: False ,passive: True
+0.942	[*A*]Observations[*R*]were gathered[*A*]from HST , Keck II , Gemini-North , the VLT	context()	negated: False ,passive: True
+[LINE#127]After the November 2011 Keck II observations identified a second bright spot (here designated BS2) at nearly the same latitude as BS1, we also examined the extant data to identify additional observations of this second feature.
+0.349	[*A*]we[*R*]examined the extant data to identify[*A*]additional observations of this second feature	context(we examined)	negated: False ,passive: False
+0.649	[*A*]we[*R*]examined[*A*]the extant data[*A*]to identify additional observations of this second feature[*A*]After the November 2011 Keck II observations identified a second bright spot	context()	negated: False ,passive: False
+0.954	[*A*]a second bright spot[*R*]designated[*A*]BS2[*A*]at nearly the same latitude as BS1[*A*]here	context()	negated: False ,passive: False
+0.973	[*A*]the November 2011 Keck II observations[*R*]identified[*A*]a second bright spot (here designated BS2) at nearly the same latitude as BS1	context()	negated: False ,passive: False
+[LINE#128]All the imaging observations we used for feature tracking from the large telescopes are summarized in observing time sequence in Table 1.
+0.727	[*A*]All the imaging observations we used for feature[*R*]are summarized[*A*]in observing time sequence in Table 1	context()	negated: False ,passive: True
+0.894	[*A*]feature[*R*]tracking[*A*]from the large telescopes	context()	negated: False ,passive: True
+0.905	[*A*]All the imaging observations[*R*]used[*A*]for feature	context()	negated: False ,passive: True
+[LINE#129]The images we used for estimating cloud height are listed in Table 2.
+0.791	[*A*]The images we used for estimating cloud height[*R*]are listed[*A*]in Table 2	context()	negated: False ,passive: True
+0.411	[*A*]we[*R*]for estimating[*A*]cloud height	context()	negated: False ,passive: False
+[LINE#130]A complete list of the HST imaging observations that were part of the TOO program is provided in Table 3.
+0.958	[*A*]A complete list of the HST imaging observations[*R*]is provided[*A*]in Table 3	context()	negated: False ,passive: True
+0.940	[*A*]the HST imaging observations[*R*]were[*A*]part of the TOO program	context()	negated: False ,passive: True
+[LINE#131] The camera characteristics for each observing configuration are given in Table 4 and filter throughputs are displayed in Fig.3 above a plot of the spectral penetration depth of sunlight into Uranus' atmosphere.
+0.903	[*A*]filter throughputs[*R*]are displayed[*A*]in Fig.3	context()	negated: False ,passive: True
+0.948	[*A*]The camera characteristics for each observing configuration[*R*]are given[*A*]in Table 4	context()	negated: False ,passive: True
+[LINE#132]Spot interactionsBS1 and BS2 were generally found at very similar latitudes, on average differing less than 2, which is comparable to the latitudinal variability of their individual cloud elements and also to the size of the 2006 dark spot (Hammel et al., 2009), which is thought to be about the same size as the unseen associated vortex circulation.
+0.962	[*A*]Hammel et al., 2009[*R*]to be[*A*]about the same size as the unseen associated vortex circulation	context()	negated: False ,passive: True
+0.632	[*A*]average differing less than 2[*R*]is[*A*]comparable to the latitudinal variability of their individual cloud elements	context()	negated: False ,passive: True
+0.922	[*A*]Spot interactionsBS1 and BS2[*R*]were found[*A*]at very similar latitudes, on average differing less than 2	context()	negated: False ,passive: True
+[LINE#133]Thus it is plausible to consider that there might be an interaction when these two features make a close approach, as was seen on Saturn (Sromovsky et al., 1983).
+0.911	[*A*]these two features[*R*]make[*A*]a close approach	context()	negated: False ,passive: False
+0.278	[*A*]it[*R*]is[*A*]plausible	context()	negated: False ,passive: True
+[LINE#134] These close approaches can be predicted from the drift rate fits discussed previously and are illustrated in Fig..
+0.925	[*A*]These close approaches[*R*]are illustrated[*A*]in Fig	context()	negated: False ,passive: True
+0.799	[*A*]the drift rate fits[*R*]discussed[*A*]previously	context()	negated: False ,passive: True
+0.751	[*A*]These close approaches[*R*]can be predicted	context()	negated: False ,passive: False
+[LINE#135]The close approach on 8 November might have caused the generation of a wider distribution of cloud cover seen in the 10-13 November images (Fig. 4G and H).
+0.918	[*A*]cloud cover[*R*]seen[*A*]in the 10-13 November images	context()	negated: False ,passive: True
+0.949	[*A*]The close approach on 8 November[*R*]might have caused[*A*]the generation of a wider distribution of cloud cover	context()	negated: False ,passive: False
+[LINE#136]The VLT images obtained just two days before the encounter (Fig. 11) indicate that BS2 was quite dim just prior to the encounter, although it is difficult to define a specific FIDB value in those images.
+0.933	[*A*]The VLT images[*R*]obtained[*A*]just two days	context()	negated: False ,passive: False
+[LINE#137]The anomalous location of BS1 in the Pic du Midi image taken on 10 August might have been the result of an interaction related to the close approach on 7 August.
+0.918	[*A*]an interaction[*R*]related[*A*]to the close approach on 7 August	context()	negated: False ,passive: True
+0.962	[*A*]The anomalous location of BS1 in the Pic du Midi image[*R*]might have been[*A*]the result of an interaction	context()	negated: False ,passive: True
+0.953	[*A*]the Pic du Midi image[*R*]taken[*A*]on 10 August	context()	negated: False ,passive: True
+[LINE#138]Similarly, the presence of significantly increased high-altitude aerosols on 25 December might also be a result of the close approach of BS1 and BS2 on that date.
+0.939	[*A*]the presence of significantly increased high - altitude aerosols on 25 December[*R*]might be[*A*]a result of the close approach of BS2 on that date	context()	negated: False ,passive: True
+0.939	[*A*]the presence of significantly increased high - altitude aerosols on 25 December[*R*]might be[*A*]a result of the close approach of BS1 on that date	context()	negated: False ,passive: True
+[LINE#139] Summary and conclusionsOur main conclusions are as follows:1.On 26 November 2011 we discovered a new bright spot on Uranus near 25N (named BS1) that grew increasingly bright near the time of discovery, suggesting a possible major brightening might be underway, perhaps competing with previous features observed in 1999, 2004, and 2005.2.Withthe help of observations from Gemini-North, Keck, Pic du Midi, and HST observatories, some before and some after the discovery date, we were able to track BS1 from 26 July through 16 December, and found it to be drifting at nearly a constant rate of 1.386/day westward at a mean latitude of 24.3 planetocentric until 13 November, after which its drift rate increased to 1.749/day westward.3.We discovered a second bright spot (named BS2) on November 10, when it was very close to BS1.
+0.991	[*A*]1.749 / day westward.3.we[*R*]discovered[*A*]a second bright spot named BS2	context()	negated: False ,passive: False
+0.568	[*A*]it[*R*]was[*A*]very close to BS1	context()	negated: False ,passive: True
+0.962	[*A*]a new bright spot on Uranus near 25N[*R*]grew[*A*]increasingly bright near the time of discovery[*A*]suggesting a possible major brightening might be underway	context()	negated: False ,passive: True
+0.767	[*A*]previous features[*R*]observed[*A*]in 1999	context()	negated: False ,passive: True
+0.660	[*A*]its drift rate[*R*]increased[*A*]to 1.749/day	context()	negated: False ,passive: True
+0.958	[*A*]a new bright spot on Uranus near 25N[*R*]named[*A*]BS1	context()	negated: False ,passive: True
+0.433	[*A*]we[*R*]discovered[*A*]a new bright spot on Uranus near 25N	context(we were westward.3.We discovered)	negated: False ,passive: False
+0.550	[*A*]we[*R*]were[*A*]able to track BS1 from 26 July through 16 December	context(westward.3.We discovered)	negated: False ,passive: True
+0.911	[*A*]westward.3.We[*R*]discovered[*A*]a second bright spot (named BS2[*A*]on November 10[*A*]when it was very close to BS1[*A*]until 13 November	context()	negated: False ,passive: False
+0.456	[*A*]we[*R*]to track[*A*]BS1[*A*]from 26 July[*A*]through 16 December	context()	negated: False ,passive: False
+0.920	[*A*]a second bright spot[*R*]named[*A*]BS2	context()	negated: False ,passive: True
+0.514	[*A*]it[*R*]to be drifting[*A*]at nearly a constant rate of 1.386/day westward[*A*]at a mean latitude of 24.3 planetocentric	context(we found)	negated: False ,passive: True
+0.327	[*A*]we[*R*]found[*A*]it to be drifting at nearly a constant rate of 1.386/day westward at a mean latitude of 24.3 planetocentric	context()	negated: False ,passive: False
+[LINE#140]This second spot was tracked from 27 July until at least 20 December, although with larger time gaps because it was not found in the October HST images.
+0.993	[*A*]This second spot[*R*]was tracked from[*A*]27 july	context()	negated: False ,passive: False
+0.498	[*A*]it[*R*]was not found[*A*]in the October HST images	context()	negated: True ,passive: True
+0.915	[*A*]This second spot[*R*]was tracked[*A*]from 27 July[*A*]until at least 20 December[*A*]although with larger time gaps because it was not found in the October HST images	context()	negated: False ,passive: True
+[LINE#141]BS2 was found to have a mean latitude of 25.5 and a mean drift rate of 9.125/day westward from 27 July 2011 through 16 December 2011, increasing to 9.235/day westward for the November-December time period.4.From spectral modulation ratios in H and Hcont image pairs obtained in July, October, and November, we inferred that BS1 was a higher altitude feature than BS2, with inferred pressures mainly in the 350-600 mb range for BS1 and mainly in the 1-1.3bar range for BS2, explaining why BS2 was never seen in any K image over that period.
+0.319	[*A*]latitude of 25.5 and[*R*]has a mean drift rate of[*A*]9.125 / day	context()	negated: False ,passive: False
+0.944	[*A*]Hcont image pairs[*R*]obtained[*A*]in July	context()	negated: False ,passive: True
+0.975	[*A*]period.4.From[*R*]spectral[*A*]modulation ratios in H and Hcont image pairs obtained in July, October, and November[*A*]the November-December time	context()	negated: False ,passive: False
+0.857	[*A*]BS2[*R*]increasing[*A*]to 9.235/day westward[*A*]for the November-December time	context()	negated: False ,passive: True
+0.906	[*A*]BS2[*R*]to have[*A*]a mean latitude of 25.5 and a mean drift rate of 9.125/day westward from 27 July 2011 through 16	context()	negated: False ,passive: False
+0.883	[*A*]BS1[*R*]was[*A*]a higher altitude feature than BS2	context(we inferred)	negated: False ,passive: True
+0.317	[*A*]we[*R*]inferred[*A*]that BS1 was a higher altitude feature than BS2, with inferred pressures mainly in the 350-600 mb range for BS1 and mainly in the 1-1.3bar range for BS2	context()	negated: False ,passive: False
+0.634	[*A*]BS2[*R*]was found	context()	negated: False ,passive: False
+[LINE#142]The vertical separation does not seem large enough to explain their relative deviations from the drift rate expected from the most recent zonal wind profile obtained from fits to 2007 cloud tracking results.5.Because BS1 and BS2 differed in mean latitudes by only 1.6 and had drift rates differing by 7.7/day, there was a possibility of interaction between these features at 46.5-day intervals, with one of the close approaches occurring on 8 November 2011, shortly after which there was a large expansion in horizontal size of the features, and another close approach occurring on 25 December 2011.
+0.925	[*A*]the close approaches[*R*]occurring[*A*]on 8 November 2011	context()	negated: False ,passive: True
+0.932	[*A*]the most recent zonal wind profile[*R*]obtained[*A*]from fits	context()	negated: False ,passive: True
+0.911	[*A*]the drift rate[*R*]expected[*A*]from the most recent zonal wind profile	context()	negated: False ,passive: True
+0.903	[*A*]drift rates[*R*]differing[*A*]by 7.7/day	context()	negated: False ,passive: True
+0.925	[*A*]another close approach[*R*]occurring[*A*]on 25 December 2011	context()	negated: False ,passive: True
+[LINE#143] Capturing the results of this possible interaction was the aim of the TOO imaging carried out on 20, 25, and 29 December 2011.6.The large drift rate difference between BS1 and BS2 (7.7/day) in comparison with the difference expected from the latitudinal shear in the zonal wind profile (1.5/day) is quite large, and might be due to these features actually being companions to unseen vortices at somewhat different and more widely separated latitudes that do follow the zonal flow.7.BS1began to decline in brightness between October 26 and November 10, and was not clearly identifiable after 16 December, though subtle features were found that are consistent with survival through our last image on 29 December 2011, in which BS1 appears just north of a faint dark spot visible in F845M images, and has much more contrast in the F889N image taken on that date.8.The variable drift rates of both BS1 and BS2 suggest the possibility of long period oscillations in drift rates and latitudes, although latitudinal variability of the bright features is too large to confirm a simple advective model in which drift rate is proportional to latitude.9.BS2 was identifiable in 20 and 29 December TOO images, and in the 25 December image the feature seen may be either BS2 or the result of merging of BS1 and BS2.
+0.976	[*A*]date.8.The variable drift rates of both BS1 and BS2[*R*]suggest[*A*]the possibility of long period oscillations in drift rates and latitudes	context()	negated: False ,passive: False
+0.950	[*A*]2011.6.The large drift rate difference between BS1 and BS2 (7.7/day) in comparison with the difference[*R*]is[*A*]quite large	context()	negated: False ,passive: True
+0.732	[*A*]the feature[*R*]seen	context()	negated: False ,passive: False
+0.961	[*A*]somewhat different and more widely separated latitudes[*R*]do follow[*A*]the zonal flow.7.BS1began[*A*]to decline in brightness between October 26 and November 10	context()	negated: False ,passive: False
+0.865	[*A*]latitudinal variability of the bright features[*R*]is[*A*]too large	context()	negated: False ,passive: True
+0.957	[*A*]drift rate[*R*]is[*A*]proportional to latitude.9.BS2[*A*]a simple advective model	context()	negated: False ,passive: True
+0.903	[*A*]the difference[*R*]expected[*A*]from the latitudinal shear in the zonal wind profile	context()	negated: False ,passive: True
+0.634	[*A*]BS1[*R*]appears just north	context()	negated: False ,passive: False
+0.831	[*A*]the TOO imaging[*R*]carried out[*A*]on 20	context()	negated: False ,passive: True
+0.888	[*A*]BS1[*R*]has[*A*]much more contrast in the F889N image	context()	negated: False ,passive: False
+0.887	[*A*]these features[*R*]being[*A*]companions to unseen vortices	context()	negated: False ,passive: True
+0.960	[*A*]Capturing the results of this possible interaction[*R*]was[*A*]the aim of the TOO imaging	context()	negated: False ,passive: True
+0.972	[*A*]the feature seen[*R*]may be[*A*]either BS2 or the result of merging of BS1 and BS2[*A*]in the 25 December image	context()	negated: False ,passive: True
+0.878	[*A*]much more contrast in the F889N image[*R*]taken[*A*]on	context()	negated: False ,passive: True
+0.732	[*A*]subtle features[*R*]were found	context()	negated: False ,passive: False
+0.976	[*A*]2011.6.The large drift rate difference between BS1 and BS2 (7.7/day) in comparison with the difference[*R*]might be[*A*]due to these features	context()	negated: False ,passive: True
+[LINE#144] In the 20 and 29 December images BS2 is found adjacent to a faint dark spot, which is plausibly a marker for the putative vortex circulation that might be producing the bright cloudfeatures.10.The main feature visible in the 25 December image is a small dark spot accompanied by a bright companion cloud.
+0.919	[*A*]a small dark spot[*R*]accompanied[*A*]by a bright companion cloud	context()	negated: False ,passive: True
+0.949	[*A*]the putative vortex circulation[*R*]might be producing[*A*]the bright cloudfeatures.10.The main feature visible in the 25 December image	context()	negated: False ,passive: False
+0.927	[*A*]a faint dark spot[*R*]is[*A*]plausibly[*A*]a marker for the putative vortex circulation	context()	negated: False ,passive: True
+[LINE#145] The dark spot is visible in F845M and F775W images and the companion cloud is visible in these images and also with greater contrast in FQ889N and FQ906N images, implying that the bright cloud is elevated well abovethe methane condensation level.11.The observed peak in the fractional integrated differential brightness of BS1 in the H filter was observed to be 0.64% in the discovery image on 26 October 2011, and declined to 0.02% by December 16.12.The observed peak in the fractional integrated differential brightness of BS2 in the H filter was observed to be 0.13% on 11 November 2011, declined to 0.003% by 16 December, and appears to have risen to 0.03% by 25 December.13.The small dark spot observed in late December has the greatest contrast at 0.7-0.8m, while Neptune's dark spots have the highest contrast at 0.4-0.6m, suggesting a different formation mechanism or difference in vertical structure that remains to be understood.
+0.911	[*A*]methane condensation level.11.The[*R*]observed[*A*]peak	context()	negated: False ,passive: False
+0.820	[*A*]a different formation mechanism or difference in vertical structure[*R*]to be understood	context()	negated: False ,passive: False
+0.939	[*A*]Neptune's dark spots[*R*]have[*A*]the highest contrast at 0.4-0.6m	context()	negated: False ,passive: False
+0.845	[*A*]a different formation mechanism or difference in vertical structure[*R*]remains[*A*]to be understood	context()	negated: False ,passive: True
+0.867	[*A*]the fractional integrated differential brightness of BS1 in the H filter[*R*]was observed	context()	negated: False ,passive: False
+0.828	[*A*]the companion cloud[*R*]is[*A*]visible	context()	negated: False ,passive: True
+0.828	[*A*]The dark spot[*R*]is[*A*]visible	context()	negated: False ,passive: True
+[LINE#146]Target of Opportunity imaging by WFC3.
+[LINE#147] last image obtained from the Keck II telescope prior to the Target of Opportunity (TOO) imaging program was obtained on 16 December 2011.
+0.993	[*A*]last image obtained from the Keck II telescope prior to the Target of Opportunity ( TOO ) imaging program[*R*]was obtained on[*A*]16 december 2011	context()	negated: False ,passive: False
+0.976	[*A*]last image obtained from the Keck II telescope prior to the Target of Opportunity (TOO) imaging program[*R*]was obtained[*A*]on 16 December 2011	context()	negated: False ,passive: True
+0.947	[*A*]last image[*R*]obtained[*A*]from the Keck II telescope[*A*]prior to the Target of Opportunity (TOO) imaging program	context()	negated: False ,passive: True
+[LINE#148]This was taken using an H filter in a time window when we expected to see both BS1 and BS2 in the same image, and that was indeed the case.
+0.388	[*A*]we[*R*]expected to see[*A*]BS2 in the same image	context(we expected)	negated: False ,passive: False
+0.388	[*A*]we[*R*]expected[*A*]to see BS2 in the same image	context()	negated: False ,passive: False
+0.309	[*A*]This[*R*]was taken[*A*]in a time window[*A*]when we expected to see BS2 in the same image	context()	negated: False ,passive: True
+0.433	[*A*]we[*R*]expected to see[*A*]both BS1[*A*]in the same image	context(we expected)	negated: False ,passive: False
+0.433	[*A*]we[*R*]expected[*A*]to see both BS1 in the same image	context()	negated: False ,passive: False
+0.349	[*A*]This[*R*]was taken[*A*]in a time window[*A*]when we expected to see both BS1 in the same image	context()	negated: False ,passive: True
+0.173	[*A*]that[*R*]was[*A*]indeed[*A*]the case	context()	negated: False ,passive: True
+[LINE#149]However, we did find some unexpected results.
+0.452	[*A*]we[*R*]did find[*A*]some unexpected results	context()	negated: False ,passive: False
+[LINE#150]BS1 and BS2 both were dramatically dimmer than previously observed by factors of 10 or more.
+0.801	[*A*]BS1 and BS2[*R*]were dimmer[*A*]dramatically	context()	negated: False ,passive: True
+[LINE#151]BS2 seemed to decline more significantly than BS1 although it was so close to the limb in the 16 December image that it is hard to be sure about this.
+0.295	[*A*]it[*R*]was[*A*]so close to the limb in the 16 December image that it is hard to be sure about this	context()	negated: False ,passive: True
+0.614	[*A*]BS2[*R*]to decline more significantly[*A*]although it was so close to the limb in the 16 December image that it is hard to be sure about this	context()	negated: False ,passive: True
+0.634	[*A*]BS2[*R*]seemed	context()	negated: False ,passive: False
+[LINE#152] We were also surprised to find both features to be very compact and to find that while the latitude of BS2 was as expected, BS1 had moved north of BS2!.
+0.850	[*A*]BS1[*R*]had moved[*A*]north of BS2	context(We to find to find)	negated: False ,passive: True
+0.282	[*A*]We[*R*]to find to find[*A*]that while the latitude of BS2 was as expected , BS1 had moved north of BS2	context(We to find)	negated: False ,passive: False
+0.282	[*A*]We[*R*]to find[*A*]to find that while the latitude of BS2 was as expected , BS1 had moved north of BS2	context()	negated: False ,passive: False
+0.878	[*A*]the latitude of BS2[*R*]was[*A*]as expected	context()	negated: False ,passive: True
+0.367	[*A*]We[*R*]were[*A*]also[*A*]surprised to find to find that while the latitude of BS2 was as expected , BS1 had moved north of BS2	context()	negated: False ,passive: True
+0.724	[*A*]both features[*R*]to be[*A*]very compact	context(We to find)	negated: False ,passive: True
+0.358	[*A*]We[*R*]to find[*A*]both features to be very compact	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]were[*A*]also[*A*]surprised to find both features to be very compact	context()	negated: False ,passive: True
+[LINE#153]As this image was contributed by a program with different science objectives, only a single image was requested, precluding any clear altitude information.
+0.964	[*A*]only a single image[*R*]was requested[*A*]precluding any clear altitude information[*A*]As this image was contributed by a program with different science objectives	context()	negated: False ,passive: True
+0.903	[*A*]this image[*R*]was contributed[*A*]by a program with different science objectives	context()	negated: False ,passive: True
+[LINE#154]Adding position measurements from that image to the prior results, we discovered that BS1 was changing drift rate in an unpredictable way (not surprising considering its latitude change), while BS2 was remaining close to its prior drift rate, which is consistent with its more stable latitude, presuming that the feature (or the vortex it is pinned to) drifts with the mean zonal flow.
+0.762	[*A*]BS2[*R*]was remaining[*A*]close to its prior drift rate	context()	negated: False ,passive: True
+0.417	[*A*]not surprising[*R*]considering[*A*]its latitude change	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]is pinned[*A*]to) drifts with the mean zonal flow	context()	negated: False ,passive: True
+0.559	[*A*]its prior drift rate, which is consistent with its more stable latitude[*R*]presuming	context()	negated: False ,passive: False
+0.711	[*A*]BS1[*R*]was changing[*A*]drift rate[*A*]not surprising considering its latitude change	context(we discovered)	negated: False ,passive: False
+0.309	[*A*]we[*R*]discovered[*A*]that BS1 was changing drift rate in an unpredictable way	context()	negated: False ,passive: False
+[LINE#155]We did not know if the deviation of BS1 was a temporary excursion from its mean behavior, or a persistent change in drift rate.
+0.932	[*A*]the deviation of BS1[*R*]was[*A*]a temporary excursion from its mean behavior, or a persistent change in drift rate	context(We did not know)	negated: False ,passive: True
+0.399	[*A*]We[*R*]did not know[*A*]if the deviation of BS1 was a temporary excursion from its mean behavior, or a persistent change in drift rate	context()	negated: True ,passive: False
+[LINE#156]Accordingly, we considered both options in making predictions for BS1.
+0.498	[*A*]we[*R*]considered[*A*]both options in making predictions for BS1	context()	negated: False ,passive: False
+[LINE#157]For the Hubble TOO observations, we predicted that BS1 and BS2 were likely to reach the same longitude on 25 December, and arranged a program of three visits, one on 20 December 2011 to capture the features well before any possible interaction, one on 25 December to catch the interaction in progress, and one on 29 December to observe any extended aftermath of the interaction.
+0.332	[*A*]we[*R*]predicted[*A*]that BS2 were arranged a program of three visits[*A*]For the Hubble TOO observations	context()	negated: False ,passive: False
+0.549	[*A*]one[*R*]to catch[*A*]one[*A*]on 29 December	context()	negated: False ,passive: False
+0.332	[*A*]we[*R*]predicted[*A*]that BS1 were arranged a program of three visits[*A*]For the Hubble TOO observations	context()	negated: False ,passive: False
+0.845	[*A*]BS2[*R*]were[*A*]likely to reach the same longitude on 25 December	context(we predicted)	negated: False ,passive: True
+0.444	[*A*]we[*R*]predicted[*A*]that BS2 were likely to reach the same longitude on 25 December[*A*]For the Hubble TOO observations	context()	negated: False ,passive: False
+0.857	[*A*]BS2[*R*]to reach[*A*]the same longitude on 25 December	context()	negated: False ,passive: False
+0.845	[*A*]BS1[*R*]were[*A*]likely to reach the same longitude on 25 December	context(we predicted)	negated: False ,passive: True
+0.444	[*A*]we[*R*]predicted[*A*]that BS1 were likely to reach the same longitude on 25 December[*A*]For the Hubble TOO observations	context()	negated: False ,passive: False
+0.857	[*A*]BS1[*R*]to reach[*A*]the same longitude on 25 December	context()	negated: False ,passive: False
+[LINE#158]This imaging program is summarized in Table 3.
+0.925	[*A*]This imaging program[*R*]is summarized[*A*]in Table 3	context()	negated: False ,passive: True
+[LINE#159] The spectral and vertical sampling of the filters chosen are indicated in Fig..
+0.933	[*A*]The vertical sampling of the filters[*R*]are indicated[*A*]in Fig	context()	negated: False ,passive: True
+0.933	[*A*]The spectral sampling of the filters[*R*]are indicated[*A*]in Fig	context()	negated: False ,passive: True
+0.732	[*A*]the filters[*R*]chosen	context()	negated: False ,passive: False
+[LINE#160]A dark spot similar to the GDS of Neptune would be expected to be visible at short wavelengths (in F547M and F467M images) while a dark spot similar to the previous Uranus dark spot would be visible only at longer wavelengths, with a maximum contrast in the F658N filter.
+0.965	[*A*]a dark spot similar to the previous Uranus dark spot[*R*]would be[*A*]visible[*A*]only at longer wavelengths	context()	negated: False ,passive: True
+0.955	[*A*]A dark spot similar to the GDS of Neptune[*R*]to be[*A*]visible[*A*]at short wavelengths	context()	negated: False ,passive: True
+0.879	[*A*]A dark spot similar to the GDS of Neptune[*R*]would be expected	context()	negated: False ,passive: False
+[LINE#161]18, there was no indication of a dark spot in F658N images.
+[LINE#162] To enhance visibility of features near the limb, we corrected for limb darkening in the F658N images using the empirical factor [1-exp(-/0.2)], where  is the cosine of the solar zenith angle (which is approximately equal to the observer zenith angle as well for our low phase angle observations).The main WFC3 filters that were useful in detecting discrete cloud featureswere F845M and FQ889N, the former sensing relatively deeply with good overall contrast, and the latter providing information on which cloud features extended well above the 1.2-bar methane condensation level (Fig. 12).
+0.400	[*A*]we[*R*]corrected sensing relatively deeply[*A*]the latter providing information on which cloud features extended well above the 1.2 - bar methane condensation level ( Fig . 12 )	context(we corrected)	negated: False ,passive: False
+0.986	[*A*]- / 0.2 ) ] , where is the cosine of the solar zenith angle ( which is approximately equal to the observer zenith angle as well for our low phase angle observations ) . The main WFC3 filters[*R*]were[*A*]useful[*A*]in detecting discrete cloud	context()	negated: False ,passive: True
+0.905	[*A*]the latter providing information[*R*]extended[*A*]well above the 1.2 - bar methane condensation level	context()	negated: False ,passive: True
+0.195	[*A*]we[*R*]corrected	context()	negated: False ,passive: False
+0.962	[*A*]- / 0.2 ) ] , where is the cosine of the solar zenith angle ( which is approximately equal to the observer zenith angle as well for our low phase angle observations ) . The main WFC3 filters[*R*]were[*A*]useful	context()	negated: False ,passive: True
+[LINE#163]Because the FQ889N images have substantial limb brightening, it is difficult to display an entire image with good feature contrast at all positions.
+0.933	[*A*]the FQ889N images[*R*]have[*A*]substantial limb brightening	context()	negated: False ,passive: False
+[LINE#164]To remove most of the limb brightening in such images we multiplied by an empirical function of the form (1-exp(-/0.1)) [1-0.856(1-exp(-3.2))].
+0.999	[*A*]we[*R*]multiplied[*A*]1 -0.856	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]multiplied[*A*]by an empirical function of the form	context()	negated: False ,passive: False
+[LINE#165]An additional scaling factor is chosen to achieve the desired intensity relative to other color components in composite images.
+0.939	[*A*]An additional scaling factor[*R*]to achieve[*A*]the desired intensity relative to other color components in composite images	context()	negated: False ,passive: False
+0.948	[*A*]An additional scaling factor[*R*]is chosen[*A*]to achieve the desired intensity relative to other color components in composite images	context()	negated: False ,passive: True
+[LINE#166]To enhance the resolution and signal to noise ratio of the F845M images, we used four dithered exposures combined together to form a single enhanced image. .
+0.388	[*A*]we[*R*]used four dithered exposures combined together to form[*A*]a single enhanced image	context(we used)	negated: False ,passive: False
+0.911	[*A*]four dithered exposures[*R*]combined[*A*]together[*A*]to form a single enhanced image	context()	negated: False ,passive: True
+0.397	[*A*]we[*R*]used four dithered exposures combined together to form[*A*]a single enhanced image	context(we used)	negated: False ,passive: False
+0.397	[*A*]we[*R*]used[*A*]four dithered exposures combined together	context()	negated: False ,passive: False
+[LINE#167]Identification and tracking of discrete featuresThe TOO imaging results and predicted locations of features for each visit are shown in Fig. 18.
+0.982	[*A*]tracking of discrete featuresThe TOO imaging results and predicted locations of features for each visit[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+0.968	[*A*]Identification and predicted locations of features for each visit[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+0.906	[*A*]Identification[*R*]predicted[*A*]locations of features for each visit	context()	negated: False ,passive: False
+[LINE#168]On the first visit, 20 December 2011, we were surprised again, this time finding no obvious cloud feature in the range of predicted locations for BS1 on that date.
+[LINE#169]There is only a faint hint of a feature in the FQ889N image near the 1a prediction position.
+[LINE#170]On the other hand we did see a distinct feature at the predicted position for BS2 and that feature took the form of a small dark spot with a bright southern companion (Fig. 4T).
+0.937	[*A*]that feature[*R*]took[*A*]the form of a small dark spot with a bright southern companion	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]did see[*A*]a distinct feature at the predicted position for BS2	context()	negated: False ,passive: False
+[LINE#171]No evidence of that companion feature is apparent in the FQ889N image taken during that visit.
+0.836	[*A*]the FQ889N image[*R*]taken[*A*]during that visit	context()	negated: False ,passive: True
+0.956	[*A*]No evidence of that companion feature[*R*]is[*A*]apparent[*A*]in the FQ889N image	context()	negated: False ,passive: True
+[LINE#172]In the 25 December image, we again found a small dark spot and a bright eastward companion cloud close to the predicted location of BS2, but this time the companion feature is quite bright in the FQ889N image, indicating cloud particles had at this time reached pressures significantly lower (i.e. at altitudes significantly higher) than the methane condensation level.
+0.706	[*A*]we[*R*]found[*A*]a bright eastward companion cloud close to the predicted location of BS2[*A*]In the 25 December image[*A*]again	context()	negated: False ,passive: False
+0.599	[*A*]we[*R*]found[*A*]a small dark spot[*A*]In the 25 December image[*A*]again	context()	negated: False ,passive: False
+0.979	[*A*]the companion feature[*R*]is[*A*]quite bright in the FQ889N image[*A*]indicating cloud particles had at this time reached pressures significantly lower ( i.e. at altitudes significantly higher ) than the methane condensation level[*A*]this time	context()	negated: False ,passive: True
+[LINE#173]it can be inferred that this feature would also have been visible in K images, had any been taken at the time.
+[LINE#174]This is the only time that BS2 was observed to generate high altitude clouds.
+0.833	[*A*]BS2[*R*]to generate[*A*]high altitude clouds	context()	negated: False ,passive: False
+0.913	[*A*]BS2[*R*]was observed[*A*]to generate high altitude clouds[*A*]the only time	context()	negated: False ,passive: True
+0.264	[*A*]This[*R*]is[*A*]the only time that BS2 was observed	context()	negated: False ,passive: True
+[LINE#175]There were bright clouds associated with BS2 in the FQ889N filter on that day, but not on 20 or 29 December.
+0.804	[*A*]bright clouds[*R*]associated[*A*]with BS2[*A*]in the FQ889N filter[*A*]on that day	context()	negated: False ,passive: True
+[LINE#176] However, since BS1, if it still existed as a circulation feature, might also be near the same location at this time(the observed feature is between 1a and 1b prediction points), what we are seeing might be BS1, BS2, or a combination of both.
+0.195	[*A*]we[*R*]are seeing	context()	negated: False ,passive: False
+0.765	[*A*]BS1[*R*]might be[*A*]near the same location[*A*]at this time	context()	negated: False ,passive: True
+0.927	[*A*]the observed feature[*R*]is[*A*]between 1a and 1b prediction points	context(what we are seeing might be)	negated: False ,passive: True
+0.665	[*A*]what we are seeing[*R*]might be[*A*]BS1, BS2, or a combination of both	context()	negated: False ,passive: True
+0.554	[*A*]it[*R*]existed[*A*]as a circulation feature[*A*]still	context()	negated: False ,passive: True
+[LINE#177]And perhaps it is BS1 that is really responsible for the high altitude feature.
+0.869	[*A*]BS1[*R*]is[*A*]really responsible for the high altitude feature	context()	negated: False ,passive: True
+0.568	[*A*]it[*R*]is[*A*]BS1	context()	negated: False ,passive: True
+[LINE#178]In the TOO images taken on 29 December, there is again a distinct feature near the BS2 prediction point, and a slight hint of a feature between 1a and 1b prediction points for BS1, both in F845M and FQ889N images.
+0.944	[*A*]the TOO images[*R*]taken[*A*]on 29 December	context()	negated: False ,passive: True
+[LINE#179]Here again BS1 seems associated with higher altitude aerosols, while BS2 produces no detectable result in the FQ889N image, and thus can be inferred to be at a significantly higher pressure (lower altitude).
+0.833	[*A*]BS1[*R*]to be[*A*]at a significantly higher pressure ( lower altitude	context()	negated: False ,passive: True
+0.724	[*A*]BS1[*R*]can be inferred[*A*]Here again	context()	negated: False ,passive: True
+0.877	[*A*]BS2[*R*]produces[*A*]no detectable result in the FQ889N image	context()	negated: False ,passive: False
+0.919	[*A*]BS1[*R*]seems associated[*A*]with higher altitude aerosols[*A*]while BS2 produces no detectable result in the FQ889N image	context()	negated: False ,passive: True
+[LINE#180]4V, we see BS2 cloud aerosols to the west and south of what appears to be a somewhat faded dark spot. .
+0.614	[*A*]we[*R*]see[*A*]BS2 cloud aerosols to the south of what appears to be a somewhat faded dark spot	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]see[*A*]BS2 cloud aerosols	context()	negated: False ,passive: False
+[LINE#181]Spectral character of the dark spotThe dark spot that appeared on 25 December 2011 is unlike the Neptune dark spots and unlike the previously observed Uranus dark spot.
+0.957	[*A*]Spectral character of the dark spotThe dark spot[*R*]is[*A*]unlike the previously observed Uranus dark spot	context()	negated: False ,passive: True
+0.957	[*A*]Spectral character of the dark spotThe dark spot[*R*]is[*A*]unlike the Neptune dark spots	context()	negated: False ,passive: True
+0.927	[*A*]the dark spotThe dark spot[*R*]appeared[*A*]on 25 December 2011	context()	negated: False ,passive: True
+[LINE#182]While the Neptune dark spots achieved maximum contrast at short wavelengths, usually in the F467M filter, the first discovered Uranus dark spot achieved its maximum contrast in an F658N image and was also visible at longer wavelengths.
+0.805	[*A*]the first discovered[*R*]was[*A*]also[*A*]visible[*A*]at longer wavelengths[*A*]usually in the F467 M filter	context()	negated: False ,passive: True
+0.279	[*A*]the first[*R*]discovered	context()	negated: False ,passive: False
+0.939	[*A*]the Neptune dark spots[*R*]achieved[*A*]maximum contrast at short wavelengths	context()	negated: False ,passive: False
+0.875	[*A*]Uranus dark spot[*R*]achieved[*A*]its maximum contrast in an F658N image	context(the first discovered)	negated: False ,passive: False
+0.655	[*A*]the first[*R*]discovered[*A*]Uranus dark spot achieved its maximum contrast in an F658N image[*A*]While the Neptune dark spots achieved maximum contrast at short wavelengths , usually in the F467 M filter	context()	negated: False ,passive: False
+0.967	[*A*]the Neptune dark spots[*R*]achieved[*A*]maximum contrast at short wavelengths , usually in the F467 M filter	context()	negated: False ,passive: False
+[LINE#183]In contrast to those results, there is no hint of the 2012 Uranus dark spot in F467M, F547M, or F658N images.
+[LINE#184] The best dark spot contrast is seen in F775W and F845Mimages, the latter registering significantly more contrast than the former for the companion clouds associated with the dark spot.
+0.937	[*A*]The best dark spot contrast[*R*]is seen[*A*]in F845Mimages	context()	negated: False ,passive: True
+0.911	[*A*]the companion clouds[*R*]associated[*A*]with the dark spot	context()	negated: False ,passive: True
+0.679	[*A*]the latter[*R*]registering[*A*]significantly more contrast than the former for the companion clouds	context()	negated: False ,passive: False
+0.937	[*A*]The best dark spot contrast[*R*]is seen[*A*]in F775W	context()	negated: False ,passive: True
+[LINE#185]Among the filters we used in the TOO observations (Table 3), the highest companion cloud contrast is seen in the FQ889N and FQ906N filters.
+0.964	[*A*]the highest companion cloud contrast[*R*]is seen[*A*]in the FQ889N and FQ906N filters[*A*]Among the filters	context()	negated: False ,passive: True
+[LINE#186]However, it should be remembered that before the dark spot became visible, BS1 was visible in K images, while BS2 was not.
+0.634	[*A*]BS2[*R*]was not	context()	negated: True ,passive: False
+0.783	[*A*]the dark spot[*R*]became[*A*]visible	context()	negated: False ,passive: True
+[LINE#187]If both features are actually companions to an unseen vortex feature, not all companions reach the high altitudes that produce high contrast at wavelengths of strong methane absorption.
+0.897	[*A*]the high altitudes[*R*]produce[*A*]high contrast at wavelengths of strong methane absorption	context()	negated: False ,passive: False
+0.857	[*A*]not all companions[*R*]reach[*A*]the high altitudes that produce high contrast at wavelengths of strong methane absorption	context()	negated: False ,passive: False
+0.903	[*A*]both features[*R*]are[*A*]actually[*A*]companions to an unseen vortex feature	context()	negated: False ,passive: True
+[LINE#188]These spectral differences suggest that the Uranus dark spots might be produced by cloud clearing, which appears dark at long wavelengths due to absorption by the methane below the cloud level.
+0.925	[*A*]the Uranus dark spots[*R*]might be produced[*A*]by cloud clearing	context(These spectral differences suggest)	negated: False ,passive: True
+0.853	[*A*]These spectral differences[*R*]suggest[*A*]that the Uranus dark spots might be produced by cloud clearing	context()	negated: False ,passive: False
+0.927	[*A*]cloud clearing[*R*]appears[*A*]dark[*A*]at long wavelengths due to absorption by the methane below the cloud level	context()	negated: False ,passive: True
+[LINE#189]But at short wavelengths, the bright Rayleigh scattering of a clear atmosphere is hard to distinguish from the scattering by the surrounding cloud layer.
+0.933	[*A*]the bright Rayleigh[*R*]scattering[*A*]of a clear atmosphere	context()	negated: False ,passive: True
+[LINE#190]On the other hand, the Neptune dark spots appear more likely to be a result of a cloud component that absorbs most at short wavelengths, much like the stratospheric haze on Neptune.
+0.754	[*A*]a cloud component[*R*]absorbs[*A*]most	context()	negated: False ,passive: False
+0.928	[*A*]the Neptune dark spots[*R*]to be[*A*]a result of a cloud component	context()	negated: False ,passive: True
+[LINE#191] Spectral constraints on cloud pressureThe different penetration depths of key filters into the atmosphere of Uranus are indicated in Fig. 3, and more precisely shown in Fig.12, where the apparent brightness of a unit albedo reflecting surfaces viewed through each filter is shown as a function of the pressure level of the reflector.
+0.982	[*A*]the apparent brightness of a unit albedo reflecting surfaces[*R*]is shown[*A*]as a function of the pressure level of the reflector[*A*]Fig.12	context()	negated: False ,passive: True
+0.732	[*A*]reflecting surfaces[*R*]viewed	context()	negated: False ,passive: False
+[LINE#192]FQ889N images will not reveal any cloud features deeper than about 1bar.
+0.896	[*A*]any cloud[*R*]features[*A*]deeper than about 1bar	context(FQ889N images will not reveal)	negated: False ,passive: True
+0.896	[*A*]FQ889N images[*R*]will not reveal[*A*]any cloud features deeper than about 1bar	context()	negated: True ,passive: False
+[LINE#193]The H and Hcont images will reveal deeper cloud features but the contrast will decrease with increasing pressure more rapidly for H than for Hcont.
+0.579	[*A*]the contrast[*R*]will decrease more rapidly	context(Hcont images will reveal)	negated: False ,passive: False
+0.878	[*A*]Hcont images[*R*]will reveal[*A*]deeper cloud features	context()	negated: False ,passive: False
+0.579	[*A*]the contrast[*R*]will decrease more rapidly	context(The H will reveal)	negated: False ,passive: False
+0.787	[*A*]The H[*R*]will reveal[*A*]deeper cloud features	context()	negated: False ,passive: False
+[LINE#194]A limited number of K and Hcont images provide especially useful constraints on the vertical structures of the two features when paired with nearly simultaneous H images.
+0.968	[*A*]A limited number of Hcont images[*R*]provide[*A*]especially useful constraints on the vertical structures of the two features[*A*]when paired with nearly simultaneous H images	context()	negated: False ,passive: False
+0.968	[*A*]A limited number of K images[*R*]provide[*A*]especially useful constraints on the vertical structures of the two features[*A*]when paired with nearly simultaneous H images	context()	negated: False ,passive: False
+[LINE#195]These height-constraining images are listed in Table 2.
+0.937	[*A*]These height-constraining images[*R*]are listed[*A*]in Table 2	context()	negated: False ,passive: True
+[LINE#196]The constraints are illustrated in the images displayed in Fig. 13.
+0.918	[*A*]the images[*R*]displayed[*A*]in Fig	context()	negated: False ,passive: True
+0.903	[*A*]The constraints[*R*]are illustrated[*A*]in the images	context()	negated: False ,passive: True
+[LINE#197]There, in the 10 November image set, we find that BS1 is brighter than BS2 in the H image, but dimmer in the Hcont image.
+0.879	[*A*]BS1[*R*]is[*A*]brighter than BS2 in the H image	context(we find)	negated: False ,passive: True
+0.514	[*A*]we[*R*]find[*A*]that BS1 is brighter than BS2 in the H image, but dimmer in the Hcont image[*A*]There[*A*]in the 10 November image set	context()	negated: False ,passive: False
+[LINE#198]A similar reversal in relative brightness is seen in the pair of H and Hcont images from 27 July (Fig. 14).
+0.943	[*A*]A similar reversal in relative brightness[*R*]is seen[*A*]in the pair of Hcont images from 27 July	context()	negated: False ,passive: True
+0.932	[*A*]A similar reversal in relative brightness[*R*]is seen[*A*]in the pair of H	context()	negated: False ,passive: True
+[LINE#199]This indicates that BS2 is a deeper and optically thicker cloud feature than BS1.
+0.883	[*A*]BS2[*R*]is[*A*]a optically thicker cloud feature than BS1	context(This indicates)	negated: False ,passive: True
+0.258	[*A*]This[*R*]indicates[*A*]that BS2 is a optically thicker cloud feature than BS1	context()	negated: False ,passive: False
+0.883	[*A*]BS2[*R*]is[*A*]a deeper cloud feature than BS1	context(This indicates)	negated: False ,passive: True
+0.178	[*A*]This[*R*]indicates[*A*]that BS2 is a deeper cloud feature than BS1	context()	negated: False ,passive: False
+[LINE#200]Also note in Fig. 13 that BS1 is prominent in the K image, but BS2 is not even visible in that image, again implying a much higher altitude for BS1 (400-600mb vs >1000mb for BS2).
+0.915	[*A*]BS1[*R*]implying[*A*]a much higher altitude for BS1[*A*]again	context()	negated: False ,passive: False
+[LINE#201]This relative prominence of BS1 is also seen in the K image from 13 November, where the morphology is similar at both wavelengths. .
+0.925	[*A*]the morphology[*R*]is[*A*]similar at both wavelengths	context()	negated: False ,passive: True
+0.930	[*A*]This relative prominence of BS1[*R*]is seen[*A*]in the K image[*A*]from 13 November	context()	negated: False ,passive: True
+[LINE#202] Quantitative pressure estimates: techniqueAn estimate of the pressure levels of the BS1 and BS2 features can be made using the ratio of spatial modulations in H and Hcont filters, as employed in the simplest form by de Pater(2011) and in a more exact form here.
+[LINE#203]These two filters are well suited for this purpose because they not only have different penetration depth profiles over a useful pressure range (Fig. 12), but they also have sufficiently similar effective wavelengths that we can ignore wavelength dependent differences in seeing, effective spatial resolution, or cloud properties, which otherwise might distort the observed modulation ratios and the inferred cloud pressures.
+0.939	[*A*]sufficiently similar effective wavelengths[*R*]can ignore[*A*]wavelength dependent differences in seeing, effective spatial resolution, or cloud properties	context()	negated: False ,passive: True
+0.301	[*A*]they[*R*]have[*A*]sufficiently similar effective wavelengths that we can ignore wavelength dependent differences in seeing, effective spatial resolution, or cloud properties,	context()	negated: False ,passive: False
+0.575	[*A*]they[*R*]have[*A*]different penetration depth profiles over a useful pressure range	context()	negated: False ,passive: False
+0.927	[*A*]effective spatial resolution, or cloud properties[*R*]might distort[*A*]the observed modulation ratios and the inferred cloud pressures	context()	negated: False ,passive: False
+0.899	[*A*]These two filters[*R*]are[*A*]well suited for this purpose[*A*]because they not only have different penetration depth profiles over a useful pressure range	context()	negated: False ,passive: True
+[LINE#204]The useful pressure range for H and Hcont is between 300mb and 4-5bars, between which the H-filter I/F differences (between regions with more and less cloud amount) decline more rapidly with pressure than the corresponding Hcont I/F differences.
+0.942	[*A*]between which the H - filter I / F differences ( between regions with more and less cloud amount[*R*]decline more rapidly[*A*]with pressure than the corresponding Hcont I / F differences	context(I /)	negated: False ,passive: True
+0.887	[*A*]Hcont[*R*]is[*A*]between 4-5bars	context()	negated: False ,passive: True
+0.942	[*A*]between which the H - filter I / F differences ( between regions with more and less cloud amount[*R*]decline more rapidly[*A*]with pressure than the corresponding Hcont I / F differences	context(I /)	negated: False ,passive: True
+0.904	[*A*]Hcont[*R*]is[*A*]between 300mb	context()	negated: False ,passive: True
+0.975	[*A*]F differences ( between regions with more and less cloud amount[*R*]decline more rapidly[*A*]with pressure than the corresponding Hcont I / F differences	context(I /)	negated: False ,passive: True
+0.628	[*A*]I[*R*]/[*A*]F differences ( between regions with more and less cloud amount ) decline more rapidly with pressure than the corresponding Hcont I / F differences	context()	negated: False ,passive: False
+[LINE#205]The ratio of H to Hcont modulation within a given target area thus provides a measure of the pressure location of the modulations in cloud properties.
+0.978	[*A*]The ratio of H to Hcont modulation within a given target area[*R*]provides[*A*]a measure of the pressure location of the modulations in cloud properties	context()	negated: False ,passive: False
+[LINE#206]To apply the spatial modulation technique to our observations, we first calculated model ratios for middle latitudes for an array of cloud pressures and view angles including the effects of the main cloud layer between 1.2 and 2bars, using the optimum F1 profiles of Sromovsky et al.
+0.944	[*A*]the main cloud layer between 1.2 and 2bars[*R*]using[*A*]the optimum F1 profiles of Sromovsky et al	context()	negated: False ,passive: False
+0.666	[*A*]we[*R*]calculated[*A*]model ratios[*A*]for middle latitudes for an array of cloud pressures and view angles including the effects of the main cloud layer between 1.2 and 2bars[*A*]first	context()	negated: False ,passive: False
+[LINE#207](2011) for temperature and methane mixing ratio.
+0.894	[*A*]methane[*R*]mixing[*A*]ratio	context()	negated: False ,passive: False
+0.894	[*A*]temperature[*R*]mixing[*A*]ratio	context()	negated: False ,passive: False
+[LINE#208]We treat the cloud perturbation as a thin layer inserted into the background structure.
+0.911	[*A*]a thin layer[*R*]inserted[*A*]into the background structure	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]treat[*A*]the cloud perturbation[*A*]as a thin layer	context()	negated: False ,passive: False
+[LINE#209]Both the background and the inserted physically thin layer are modeled as conservative Mie particle layers of 0.8m in radius with a refractive index of 1.3.
+0.960	[*A*]the inserted physically thin layer[*R*]are modeled[*A*]as conservative Mie particle layers of 0.8 m in radius with a refractive index of 1.3	context()	negated: False ,passive: True
+0.952	[*A*]Both the background[*R*]are modeled[*A*]as conservative Mie particle layers of 0.8 m in radius with a refractive index of 1.3	context()	negated: False ,passive: True
+[LINE#210](These particle properties were chosen to roughly match the 0.3-1m backscatter efficiency of the tropospheric particles defined by Karkoschka and Tomasko (2009), while providing a physical basis for extrapolation beyond 1m, which is not provided by the Karkoschka and Tomasko parameterization.
+0.925	[*A*]the tropospheric particles[*R*]defined[*A*]by Tomasko	context()	negated: False ,passive: True
+0.830	[*A*]1 m[*R*]is not provided[*A*]by the Tomasko parameterization	context()	negated: True ,passive: True
+0.830	[*A*]1 m[*R*]is not provided[*A*]by the Karkoschka parameterization	context()	negated: True ,passive: True
+0.897	[*A*]the 0.3-1 m[*R*]providing[*A*]a physical basis for extrapolation beyond 1 m	context()	negated: False ,passive: False
+0.925	[*A*]the tropospheric particles[*R*]defined[*A*]by Karkoschka	context()	negated: False ,passive: True
+0.718	[*A*]These particle properties[*R*]to roughly match	context()	negated: False ,passive: False
+0.783	[*A*]These particle properties[*R*]were chosen[*A*]to roughly match	context()	negated: False ,passive: True
+[LINE#211] This choice, though somewhat arbitrary, also allows good fits to observed H-band spectra.)From the ratio of H and Hcont spatial modulations in I/Fwe can infer an effective pressure at which the modulations are occurring, and from the peak-to-peak amplitude we can infer the change in optical depth required.
+0.349	[*A*]I[*R*]can infer[*A*]an effective pressure at which the modulations are occurring	context(This choice allows)	negated: False ,passive: False
+0.785	[*A*]the change in optical depth[*R*]required	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]can infer[*A*]the change in optical depth required	context()	negated: False ,passive: False
+0.855	[*A*]Fwe[*R*]can infer[*A*]from the peak - to - peak amplitude	context()	negated: False ,passive: False
+0.489	[*A*]I[*R*]can infer[*A*]an effective pressure at which the modulations are occurring[*A*]From the ratio of H in	context(This choice allows)	negated: False ,passive: False
+0.878	[*A*]good fits[*R*]to observed[*A*]H - band spectra	context(This choice allows)	negated: False ,passive: False
+0.858	[*A*]This choice[*R*]allows[*A*]good fits to observed H - band spectra	context()	negated: False ,passive: False
+0.732	[*A*]the modulations[*R*]are occurring	context()	negated: False ,passive: False
+[LINE#212]This is illustrated in Fig. 15, for observer and solar zenith angle cosines of 0.9.
+0.425	[*A*]This[*R*]is illustrated[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#213]The solid curve is our model, which is compared to the de Pater et al.
+0.642	[*A*]our model[*R*]is compared[*A*]to the de Pater et al	context()	negated: False ,passive: True
+0.934	[*A*]The solid curve[*R*]is[*A*]our model, which is compared to the de Pater et al	context()	negated: False ,passive: True
+[LINE#214](2011) reflecting layer models.
+[LINE#215]If the cloud feature is not spatially resolved, then the inferred optical depth maximum will be less than the true optical depth, while the pressure will not be significantly affected. .
+0.732	[*A*]the pressure[*R*]will not be significantly affected	context()	negated: True ,passive: False
+0.926	[*A*]the inferred optical depth maximum[*R*]will be[*A*]less than the true optical depth[*A*]while the pressure will not be significantly affected	context()	negated: False ,passive: True
+0.751	[*A*]the cloud feature[*R*]is not spatially resolved	context()	negated: True ,passive: False
+[LINE#216] Quantitative pressure estimates:resultsA sample application of the modulation ratio technique to the BS1 feature on 26 July 2011 is shown in Fig. 16.
+0.986	[*A*]Quantitative pressure estimates:resultsA sample application of the modulation ratio technique to the BS1 feature on 26 July 2011[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#217]A target box size is selected and positioned in the Hcont image.
+0.931	[*A*]A target box size[*R*]is positioned[*A*]in the Hcont image	context()	negated: False ,passive: True
+0.769	[*A*]A target box size[*R*]is selected	context()	negated: False ,passive: False
+[LINE#218]The target box in the H image is shifted slightly as needed to maximize correlation between Hcont and H variations.
+0.967	[*A*]The target box in the H image[*R*]is shifted slightly[*A*]as needed to maximize correlation between Hcont and H variations	context()	negated: False ,passive: True
+[LINE#219]This shift is usually less than a few tenths of a degree in longitude and latitude, and compensates for slight navigation errors and/or small cloud motions during the time interval between images.
+0.952	[*A*]This shift[*R*]is[*A*]usually[*A*]less than a few tenths of a degree in latitude	context()	negated: False ,passive: True
+0.952	[*A*]This shift[*R*]is[*A*]usually[*A*]less than a few tenths of a degree in longitude	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]compensates[*A*]for slight navigation errors	context()	negated: False ,passive: False
+[LINE#220]Once the correlation is maximized, the linear regression fit is used to obtain a slope in the H vs Hcont plot of pixels within the target box.
+0.970	[*A*]the linear regression fit[*R*]is used[*A*]to obtain a slope in the H vs Hcont plot of pixels within the target box[*A*]Once the correlation is maximized	context()	negated: False ,passive: True
+0.732	[*A*]the correlation[*R*]is maximized	context()	negated: False ,passive: False
+[LINE#221]From the ratio at the observed view angles we use a spline interpolation of the model ratios vs pressure and view angle to infer a pressure.
+0.452	[*A*]we[*R*]use[*A*]a spline interpolation of the model ratios	context()	negated: False ,passive: False
+0.702	[*A*]we[*R*]use[*A*]a spline interpolation of the model ratios vs pressure angle[*A*]to infer a pressure[*A*]From the ratio at the observed view angles	context()	negated: False ,passive: False
+[LINE#222]From the estimated pressure we interpolate the models of I/F vs optical depth to infer a cloud optical depth change that would yield the observed variation of I/F.
+0.927	[*A*]a cloud optical depth change[*R*]would yield[*A*]the observed variation of I/F	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]interpolate[*A*]the models of I/F vs optical depth	context()	negated: False ,passive: False
+[LINE#223]the effective pressure is 39010 mb, and the optical depth variation is 0.4.
+0.841	[*A*]the optical depth variation[*R*]is[*A*]0.4	context()	negated: False ,passive: True
+0.932	[*A*]the effective pressure[*R*]is[*A*]39010 mb	context()	negated: False ,passive: True
+[LINE#224]While the formal uncertainties are generally quite small or completely negligible, there are substantial uncertainties due to relative calibration errors, which are discussed in the following paragraph.
+0.897	[*A*]relative calibration errors[*R*]are discussed[*A*]in the following paragraph	context()	negated: False ,passive: True
+0.783	[*A*]the formal uncertainties[*R*]are[*A*]generally[*A*]quite small or completely negligible	context()	negated: False ,passive: True
+[LINE#225]I/F gradients defined by the boundary of the target box are generally subtracted from the gradients within the box to avoid background variations from affecting local changes.
+0.615	[*A*]I/F gradients[*R*]are subtracted[*A*]from the gradients within the box[*A*]to avoid background variations from affecting local changes	context()	negated: False ,passive: True
+0.744	[*A*]I/F gradients[*R*]defined[*A*]by the boundary of the target box	context()	negated: False ,passive: True
+[LINE#226]Otherwise, the relatively high feature surrounded by background clouds deeper in the atmosphere would appear at an intermediate pressure between its true pressure and that of the background clouds.
+0.886	[*A*]the relatively high feature surrounded by background clouds deeper in the atmosphere[*R*]would appear[*A*]at an intermediate pressure between its true pressure and that of the background clouds	context()	negated: False ,passive: True
+0.769	[*A*]the relatively high feature[*R*]surrounded	context()	negated: False ,passive: False
+[LINE#227] Targets B and C in this figure are found to have effective pressures of about 590mb and 540mb respectively and about half the optical depth of Target A.
+0.953	[*A*]Targets C in this figure[*R*]to have[*A*]effective pressures of about 590mb and about half the optical depth of Target A.	context()	negated: False ,passive: False
+0.785	[*A*]Targets C in this figure[*R*]are found	context()	negated: False ,passive: False
+0.953	[*A*]Targets B in this figure[*R*]to have[*A*]effective pressures of about 590mb and about half the optical depth of Target A.	context()	negated: False ,passive: False
+0.785	[*A*]Targets B in this figure[*R*]are found	context()	negated: False ,passive: False
+0.814	[*A*]Targets C in this figure[*R*]are found[*A*]respectively	context()	negated: False ,passive: True
+0.814	[*A*]Targets B in this figure[*R*]are found[*A*]respectively	context()	negated: False ,passive: True
+[LINE#228]Applying this technique to NIRC2 Wide Angle H and Hcont images from 27 July, we were able to estimate and effective pressure of 1.030.05bars and an optical depth of 0.2 for the BS2 feature.
+0.614	[*A*]we[*R*]were[*A*]able to an optical depth of 0.2 for the BS2 feature	context()	negated: False ,passive: True
+0.411	[*A*]we[*R*]to pressure[*A*]of 1.030.05bars	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]were[*A*]able to pressure of 1.030.05bars	context()	negated: False ,passive: True
+0.225	[*A*]we[*R*]were[*A*]able to effective	context()	negated: False ,passive: True
+0.170	[*A*]we[*R*]to estimate	context()	negated: False ,passive: False
+0.225	[*A*]we[*R*]were[*A*]able to estimate	context()	negated: False ,passive: True
+[LINE#229]The pressure and optical depth change of a cloud feature inferred from the ratio of H and Hcont I/F spatial variations is strongly affected by the relative calibration error between the H and Hcont images.
+0.961	[*A*]optical depth change of a cloud feature[*R*]is strongly affected[*A*]by the relative calibration error between the H and Hcont images	context()	negated: False ,passive: True
+0.952	[*A*]a cloud feature[*R*]inferred[*A*]from the ratio of Hcont I / F spatial variations	context()	negated: False ,passive: True
+0.961	[*A*]The pressure change of a cloud feature[*R*]is strongly affected[*A*]by the relative calibration error between the H and Hcont images	context()	negated: False ,passive: True
+0.911	[*A*]a cloud feature[*R*]inferred[*A*]from the ratio of H	context()	negated: False ,passive: True
+[LINE#230] Our analysis measures the central disc value of each image and then converts the image to I/F units using a scale factor that produces a central disk(4.10.35)10-2 (Hcont), which are values obtained by Sromovsky and Fry (2007) from 2004 Keck images.
+0.897	[*A*]a scale factor[*R*]produces[*A*]a central disk	context()	negated: False ,passive: False
+0.203	[*A*]I[*R*]using[*A*]a scale factor that produces a central disk	context()	negated: False ,passive: False
+0.635	[*A*]Our analysis[*R*]converts[*A*]the image[*A*]to I/F units using a scale factor[*A*]then	context()	negated: False ,passive: False
+0.911	[*A*]values[*R*]obtained[*A*]by Sromovsky and Fry (2007[*A*]from 2004 Keck images	context()	negated: False ,passive: True
+0.638	[*A*]Our analysis[*R*]measures[*A*]the central disc value of each image	context()	negated: False ,passive: False
+[LINE#231]New central disc measurements using preliminary calibrations of 2011 Gemini-North images, indicate significant changes to values of 0.8610-2 (H) and 2.910-2 (Hcont) with relative errors of 5% and 10% respectively.
+0.968	[*A*]New central disc measurements using preliminary calibrations of 2011 Gemini-North images ,[*R*]indicate[*A*]significant changes to values of 0.8610-2 ( H ) with relative errors of 10 %[*A*]respectively	context()	negated: False ,passive: False
+0.897	[*A*]New central disc measurements[*R*]using[*A*]preliminary calibrations of 2011 Gemini-North images	context(New central disc measurements using preliminary calibrations of 2011 Gemini-North images , indicate)	negated: False ,passive: False
+0.968	[*A*]New central disc measurements using preliminary calibrations of 2011 Gemini-North images ,[*R*]indicate[*A*]significant changes to values of 0.8610-2 ( H ) with relative errors of 5 %[*A*]respectively	context()	negated: False ,passive: False
+[LINE#232]The most critical change is in the ratio of H to Hcont central disc values, which increases by 11% from 2004 to 2011, which is also comparable to the uncertainty in the ratio.
+0.939	[*A*]the ratio of H to Hcont central disc values[*R*]increases[*A*]by 11%[*A*]from 2004 to 2011	context()	negated: False ,passive: True
+0.960	[*A*]The most critical change[*R*]is[*A*]in the ratio of H to Hcont central disc values	context()	negated: False ,passive: True
+[LINE#233]The effect on derived pressures in a typical example is to decrease P by about 100mb and increase derived optical depth by 30%.
+0.960	[*A*]The effect on derived pressures in a typical example[*R*]is[*A*]to increase derived optical depth by 30 %	context()	negated: False ,passive: True
+0.960	[*A*]The effect on derived pressures in a typical example[*R*]is[*A*]to decrease P by	context()	negated: False ,passive: True
+[LINE#234]Thus the formal uncertainties given in Table 7 are generally far less significant than the uncertainties associated with relative calibrations, which add about 0.1bars to the pressure uncertainty and 30% to the optical depth uncertainty.
+0.944	[*A*]relative calibrations[*R*]add[*A*]about 0.1bars to the 30 % to the optical depth uncertainty	context()	negated: False ,passive: False
+0.913	[*A*]relative calibrations[*R*]add[*A*]about 0.1bars to the pressure uncertainty	context()	negated: False ,passive: False
+0.903	[*A*]the uncertainties[*R*]associated[*A*]with relative calibrations	context()	negated: False ,passive: True
+0.953	[*A*]the formal uncertainties given in Table 7[*R*]are[*A*]generally[*A*]far less significant than the uncertainties	context()	negated: False ,passive: True
+0.925	[*A*]the formal uncertainties[*R*]given[*A*]in Table 7	context()	negated: False ,passive: True
+[LINE#235]In the Keck II NIRC2 imaging from 10 November 2011 we were able to perform a correlation analysis for both BS1 and BS2, using the brightest part of each feature to minimize the effects of PSF artifacts, and inferred cloud parameters given in Table 7.
+0.456	[*A*]we[*R*]to perform[*A*]a correlation analysis[*A*]for BS2	context()	negated: False ,passive: False
+0.740	[*A*]we[*R*]were[*A*]able to perform a correlation analysis for BS2[*A*]using the brightest part of each feature to minimize the effects of PSF artifacts[*A*]In the Keck II NIRC2 imaging from 10 November 2011	context()	negated: False ,passive: True
+0.456	[*A*]we[*R*]to perform[*A*]a correlation analysis[*A*]for both BS1	context()	negated: False ,passive: False
+0.740	[*A*]we[*R*]were[*A*]able to perform a correlation analysis for both BS1[*A*]using the brightest part of each feature to minimize the effects of PSF artifacts[*A*]In the Keck II NIRC2 imaging from 10 November 2011	context()	negated: False ,passive: True
+0.953	[*A*]the Keck inferred cloud parameters[*R*]given[*A*]in Table 7	context()	negated: False ,passive: True
+0.877	[*A*]Keck[*R*]inferred[*A*]cloud parameters given in Table 7	context()	negated: False ,passive: False
+[LINE#236] We find that the main region of BS1 reaches a relatively low pressure near 500mb, well above the altitude at which methane condensation would be expected.
+0.931	[*A*]the main region of BS1[*R*]reaches[*A*]a relatively low pressure near 500mb	context(We find)	negated: False ,passive: False
+0.382	[*A*]We[*R*]find[*A*]that the main region of BS1 reaches a relatively low pressure near 500mb, well above the altitude	context()	negated: False ,passive: False
+0.732	[*A*]methane condensation[*R*]would be expected	context()	negated: False ,passive: False
+[LINE#237]But the inferred optical depths are much lower, by at least a factor of two, most of which is undoubtedly due to the broad PSF produced by an out-of-adjustment AO system.
+0.925	[*A*]the broad PSF[*R*]produced[*A*]by an out-of-adjustment AO system	context()	negated: False ,passive: True
+0.658	[*A*]most of which[*R*]is[*A*]undoubtedly due to the broad PSF	context()	negated: False ,passive: True
+0.799	[*A*]the inferred optical depths[*R*]are[*A*]much lower	context()	negated: False ,passive: True
+[LINE#238]However, there also appears to be a drop in the FIDB values, implying that loss of resolution may not be entirely responsible for the change.
+[LINE#239]The results for BS2 on 10 November (Table 7), also for the brightest part of the feature, show that BS2 remained a much deeper feature than BS1, with a pressures of about 1.3bars, and an optical depth somewhat exceeding that of BS1.
+0.818	[*A*]an optical depth[*R*]somewhat exceeding[*A*]that of BS1	context()	negated: False ,passive: False
+0.910	[*A*]The results for BS2 on 10 November[*R*]show[*A*]an optical depth somewhat exceeding that of BS1	context()	negated: False ,passive: False
+0.845	[*A*]BS2[*R*]remained[*A*]a much deeper feature than BS1	context(The results for BS2 on 10 November show)	negated: False ,passive: True
+0.926	[*A*]The results for BS2 on 10 November[*R*]show[*A*]that BS2 remained a much deeper feature than BS1 , with a pressures of about 1.3bars	context()	negated: False ,passive: False
+[LINE#240]Its optical depth is also degraded by PSF blur, but the relative comparison is still meaningful.
+0.828	[*A*]the relative comparison[*R*]is[*A*]still[*A*]meaningful	context()	negated: False ,passive: True
+0.476	[*A*]Its optical depth[*R*]is[*A*]also[*A*]degraded	context()	negated: False ,passive: True
+[LINE#241]This explains why BS2 is relatively brighter in the Hcont image, and why BS2 is not seen at all in the K image.
+0.850	[*A*]BS2[*R*]is not seen[*A*]at all[*A*]in the K image	context(This explains)	negated: True ,passive: True
+0.487	[*A*]This[*R*]explains[*A*]why BS2 is not seen at all in the K image	context()	negated: False ,passive: False
+0.883	[*A*]BS2[*R*]is[*A*]relatively brighter in the Hcont image	context(This explains)	negated: False ,passive: True
+0.372	[*A*]This[*R*]explains[*A*]why BS2 is relatively brighter in the Hcont image	context()	negated: False ,passive: False
+[LINE#242]It would also not have been seen in a WFC3 FQ889N image, had there been one taken on 11 November, while BS1 would have been seen in such images.
+0.855	[*A*]BS1[*R*]would have been seen[*A*]in such images	context()	negated: False ,passive: True
+0.590	[*A*]one[*R*]taken[*A*]on 11 November	context()	negated: False ,passive: True
+0.360	[*A*]It[*R*]would not have been seen[*A*]in a WFC3 FQ889N image[*A*]had there been one taken on 11 November, while BS1 would have been seen in such images	context()	negated: True ,passive: True

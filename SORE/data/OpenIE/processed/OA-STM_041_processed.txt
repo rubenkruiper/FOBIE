@@ -1,0 +1,957 @@
+[LINE#1]Silica nanoparticles possessing three different diameters (23, 74 and 170 nm) were used to modify a piperidine-cured epoxy polymer.
+0.914	[*A*]Silica nanoparticles[*R*]to modify[*A*]a piperidine - cured epoxy polymer	context()	negated: False ,passive: False
+0.914	[*A*]Silica nanoparticles[*R*]were used[*A*]to modify a piperidine - cured epoxy polymer	context()	negated: False ,passive: True
+0.927	[*A*]Silica nanoparticles[*R*]possessing[*A*]three different diameters	context()	negated: False ,passive: False
+[LINE#2]Fracture tests were performed and values of the toughness increased steadily as the concentration of silica nanoparticles was increased.
+0.832	[*A*]the concentration of silica nanoparticles[*R*]was increased	context()	negated: False ,passive: False
+0.931	[*A*]values of the toughness[*R*]increased steadily[*A*]as the concentration of silica nanoparticles was increased	context()	negated: False ,passive: True
+0.732	[*A*]Fracture tests[*R*]were performed	context()	negated: False ,passive: False
+[LINE#3]However, no significant effects of particle size were found on the measured value of toughness.
+0.932	[*A*]no significant effects of particle size[*R*]were found[*A*]on the measured value of toughness	context()	negated: False ,passive: True
+[LINE#4]The toughening mechanisms were identified as (i) the formation of localised shear-band yielding in the epoxy matrix polymer which is initiated by the silica nanoparticles, and (ii) debonding of the silica nanoparticles followed by plastic void growth of the epoxy matrix polymer.
+0.751	[*A*]the silica nanoparticles[*R*]followed	context()	negated: False ,passive: False
+0.943	[*A*]The toughening mechanisms[*R*]were identified[*A*]as (i) the formation of localised shear - band yielding in the epoxy matrix	context()	negated: False ,passive: True
+0.905	[*A*]the epoxy matrix polymer[*R*]is initiated[*A*]by the silica nanoparticles	context()	negated: False ,passive: True
+0.943	[*A*]The toughening mechanisms[*R*]were identified[*A*]as (i) the formation of localised shear - band yielding in the epoxy matrix polymer	context()	negated: False ,passive: True
+[LINE#5]These mechanisms, and hence the toughness of the epoxy polymers containing the silica nanoparticles, were modelled using the Hsieh et al.
+0.773	[*A*]the toughness of the epoxy polymers[*R*]were modelled	context()	negated: False ,passive: False
+0.911	[*A*]the epoxy polymers[*R*]containing[*A*]the silica nanoparticles	context()	negated: False ,passive: False
+0.905	[*A*]These mechanisms[*R*]using[*A*]the Hsieh et al	context()	negated: False ,passive: False
+0.698	[*A*]These mechanisms[*R*]were modelled	context()	negated: False ,passive: False
+[LINE#6]approach (Polymer 51, 2010, 6284-6294).
+[LINE#7]However, it is noteworthy that previous modelling work has required the volume fraction of debonded silica particles to be measured from the fracture surfaces but in the present paper a new and more fundamental approach has been proposed.
+0.944	[*A*]a more fundamental approach[*R*]has been proposed[*A*]in the present paper	context()	negated: False ,passive: True
+0.939	[*A*]a new approach[*R*]has been proposed[*A*]in the present paper	context()	negated: False ,passive: True
+[LINE#8]Here finite-element modelling has demonstrated that once one silica nanoparticle debonds then its nearest neighbours are shielded from the applied stress field, and hence may not debond.
+0.345	[*A*]its nearest neighbours[*R*]are shielded[*A*]from hence	context(finite - element modelling has demonstrated once one silica nanoparticle debonds)	negated: False ,passive: True
+0.883	[*A*]once one silica nanoparticle[*R*]debonds[*A*]then[*A*]its nearest neighbours are shielded from hence may not debond	context(finite - element modelling has demonstrated)	negated: False ,passive: False
+0.832	[*A*]finite - element modelling[*R*]has demonstrated[*A*]that once one silica nanoparticle debonds then its nearest neighbours are shielded from hence may not debond[*A*]Here	context()	negated: False ,passive: False
+0.325	[*A*]its nearest neighbours[*R*]may not debond	context()	negated: True ,passive: False
+0.599	[*A*]its nearest neighbours[*R*]are shielded[*A*]from the applied stress field	context(finite - element modelling has demonstrated once one silica nanoparticle debonds)	negated: False ,passive: True
+0.883	[*A*]once one silica nanoparticle[*R*]debonds[*A*]then[*A*]its nearest neighbours are shielded from the applied stress field	context(finite - element modelling has demonstrated)	negated: False ,passive: False
+0.832	[*A*]finite - element modelling[*R*]has demonstrated[*A*]that once one silica nanoparticle debonds then its nearest neighbours are shielded from the applied stress field[*A*]Here	context()	negated: False ,passive: False
+[LINE#9]Statistical analysis showed that, for a good, i.e. random, dispersion of nanoparticles, each nanoparticle has six nearest neighbours, so only one in seven particles would be predicted to debond.
+0.908	[*A*]each nanoparticle[*R*]has[*A*]six nearest neighbours	context(Statistical analysis showed)	negated: False ,passive: False
+0.814	[*A*]Statistical analysis[*R*]showed[*A*]that, for a good, i.e. random, dispersion of nanoparticles, each nanoparticle has six nearest neighbours, so only one in seven particles would be predicted to debond	context()	negated: False ,passive: False
+0.785	[*A*]only one in seven particles[*R*]would be predicted	context()	negated: False ,passive: False
+[LINE#10]This approach therefore predicts that only 14.3% of the nanoparticles present will debond, and this value is in excellent agreement with the value of 10-15% of those nanoparticles present debonding which was recorded via direct observations of the fracture surfaces.
+0.774	[*A*]only 14.3% of the nanoparticles present[*R*]will debond	context(This approach predicts)	negated: False ,passive: False
+0.780	[*A*]This approach[*R*]predicts[*A*]that only 14.3% of the nanoparticles present will debond	context()	negated: False ,passive: False
+0.698	[*A*]present debonding[*R*]was recorded	context()	negated: False ,passive: False
+0.879	[*A*]this value[*R*]is[*A*]in excellent agreement with the value of 10-15% of those nanoparticles	context()	negated: False ,passive: True
+[LINE#11]Further, this value of about 15% of silica nanoparticles particles present debonding has also been noted in other published studies, but has never been previously explained.
+0.854	[*A*]this value of about 15% of silica nanoparticles particles[*R*]has never been explained[*A*]previously	context()	negated: True ,passive: True
+0.918	[*A*]this value of about 15% of silica nanoparticles particles[*R*]has been noted[*A*]in other published studies	context()	negated: False ,passive: True
+[LINE#12]The predictions from the modelling studies of the toughness of the various epoxy polymers containing the silica nanoparticles were compared with the measured fracture energies and the agreement was found to be good.
+0.898	[*A*]The predictions from the modelling studies of the toughness of the various epoxy polymers[*R*]to be[*A*]good	context()	negated: False ,passive: True
+0.962	[*A*]The predictions from the modelling studies of the toughness of the various epoxy polymers[*R*]were compared[*A*]with the agreement	context()	negated: False ,passive: True
+0.962	[*A*]The predictions from the modelling studies of the toughness of the various epoxy polymers[*R*]were compared[*A*]with the measured fracture energies	context()	negated: False ,passive: True
+0.919	[*A*]the various epoxy polymers[*R*]containing[*A*]the silica nanoparticles	context()	negated: False ,passive: False
+[LINE#13]Comparisons between the predicted and experimental toughnessThe modelling scheme outlined above was employed to calculate the values of Gs and Gv using the parameters given in Table 2.
+0.949	[*A*]the values of Gv[*R*]using[*A*]the parameters given in Table 2	context()	negated: False ,passive: False
+0.949	[*A*]Comparisons between the predicted and experimental toughnessThe modelling scheme[*R*]was employed[*A*]to calculate the values of Gv	context()	negated: False ,passive: True
+0.918	[*A*]the parameters[*R*]given[*A*]in Table 2	context()	negated: False ,passive: True
+0.939	[*A*]Comparisons between the predicted and experimental toughnessThe modelling scheme[*R*]was employed[*A*]to calculate the values of Gs	context()	negated: False ,passive: True
+0.842	[*A*]the predicted and experimental toughnessThe modelling scheme[*R*]outlined[*A*]above	context()	negated: False ,passive: True
+[LINE#14]The results are compared with the measured fracture energies in Fig. 8.
+0.903	[*A*]The results[*R*]are compared[*A*]with the measured fracture energies	context()	negated: False ,passive: True
+[LINE#15]In this Figure the modelling results are shown as lines considering the contribution to the fracture energy, Gc, due to (i) plastic shear-band yielding in the epoxy matrix polymer only and (ii) plastic shear-band yielding and plastic void growth in the epoxy matrix polymer but arising from only 14.3% of those nanoparticles present being active in terms of initiating this latter debonding and the plastic void growth toughening mechanism.
+0.953	[*A*]plastic void growth in the epoxy matrix[*R*]present[*A*]being active in terms of initiating this latter debonding and the plastic void growth toughening mechanism	context()	negated: False ,passive: False
+0.958	[*A*]ii ) void growth in the epoxy matrix[*R*]present being[*A*]active[*A*]in terms of initiating this latter debonding and the plastic void growth toughening mechanism	context()	negated: False ,passive: True
+0.789	[*A*]the epoxy matrix[*R*]arising[*A*]from only 14.3 % of those nanoparticles	context()	negated: False ,passive: True
+0.952	[*A*]the epoxy matrix polymer present[*R*]being[*A*]active[*A*]in terms of initiating this latter debonding and the plastic void growth toughening mechanism	context()	negated: False ,passive: True
+0.385	[*A*]the epoxy matrix polymer present[*R*]being active in[*A*]terms	context()	negated: False ,passive: False
+0.970	[*A*]ii ) void growth in the epoxy matrix polymer present[*R*]being[*A*]active[*A*]in terms of initiating this latter debonding and the plastic void growth toughening mechanism	context()	negated: False ,passive: True
+0.926	[*A*](i) plastic shear - band[*R*]yielding[*A*]in the epoxy matrix polymer only	context()	negated: False ,passive: False
+0.942	[*A*]lines[*R*]considering[*A*]the contribution to the fracture energy , Gc , due to (i) plastic shear - band	context()	negated: False ,passive: False
+0.948	[*A*]the modelling results[*R*]are shown[*A*]as lines[*A*]In this Figure	context()	negated: False ,passive: True
+[LINE#16]The individual contributions to the toughness from shear-band yielding and plastic void growth of the epoxy matrix polymer are shown in Table 3, where it again should be noted that the predicted values of GC assume that the toughening increment, Gv, from the plastic void growth mechanism arises from only 14.3% of the particles present.
+0.962	[*A*]the toughening increment , Gv , from the plastic void growth mechanism[*R*]arises[*A*]from only 14.3 % of the particles present	context(it should be noted the predicted values of GC assume)	negated: False ,passive: True
+0.902	[*A*]the predicted values of GC[*R*]assume[*A*]that the toughening increment , Gv , from the plastic void growth mechanism arises from only 14.3 % of the particles present	context(it should be noted)	negated: False ,passive: False
+0.977	[*A*]The individual contributions to the toughness from shear plastic void growth of the epoxy matrix polymer[*R*]are shown[*A*]in Table 3	context()	negated: False ,passive: True
+0.962	[*A*]the toughening increment , Gv , from the plastic void growth mechanism[*R*]arises[*A*]from only 14.3 % of the particles present	context(it should be noted the predicted values of GC assume)	negated: False ,passive: True
+0.902	[*A*]the predicted values of GC[*R*]assume[*A*]that the toughening increment , Gv , from the plastic void growth mechanism arises from only 14.3 % of the particles present	context(it should be noted)	negated: False ,passive: False
+0.535	[*A*]it[*R*]should be noted[*A*]Table 3[*A*]again	context()	negated: False ,passive: True
+0.964	[*A*]The individual contributions to the toughness from shear - band yielding[*R*]are shown[*A*]in Table 3	context()	negated: False ,passive: True
+[LINE#17]8 shows that the model which considers both toughening mechanisms generally under-predicts the measured fracture energy at low particle contents, and may somewhat over-predict the toughness at high volume fractions.
+0.991	[*A*]8 shows[*R*]may over-predict[*A*]the toughness at high volume fractions	context()	negated: False ,passive: False
+0.903	[*A*]8 shows[*R*]may somewhat over-predict[*A*]the toughness at high volume fractions	context()	negated: False ,passive: False
+0.858	[*A*]the model[*R*]considers[*A*]both toughening mechanisms	context(the model which considers both toughening mechanisms predicts)	negated: False ,passive: False
+0.908	[*A*]the model which considers both toughening mechanisms[*R*]predicts[*A*]the measured fracture energy	context()	negated: False ,passive: False
+[LINE#18]However, for all of the different particle diameters, a good agreement with the experimental data was obtained using the model that takes into account both the shear-banding yielding and the debonding and subsequent plastic void growth mechanisms in the epoxy matrix polymer, when the predicted value of about 14% of the nanoparticles present only are active in the latter toughening mechanism.
+0.927	[*A*]the model[*R*]takes[*A*]into account[*A*]both the shear-banding yielding and the debonding and subsequent plastic void growth mechanisms	context()	negated: False ,passive: False
+0.945	[*A*]the predicted value of about 14% of the nanoparticles[*R*]are[*A*]active[*A*]in the latter toughening mechanism	context()	negated: False ,passive: True
+0.897	[*A*]all of the different particle diameters, a good agreement with the experimental data[*R*]was obtained	context()	negated: False ,passive: False
+[LINE#19]Thus, the modelling, as well as the experimental studies, clearly confirm the important role of debonding of the nanoparticles which enables subsequent plastic void growth to occur in the epoxy matrix polymer; and the fact that it is only initiated and occurs via a relatively low percentage of the nanoparticles present due to stress-shielding of those nanoparticles immediately adjacent to a void.
+0.734	[*A*]the experimental studies[*R*]clearly confirm[*A*]the fact that it occurs via a relatively low percentage of the nanoparticles present due to stress - shielding of those nanoparticles immediately adjacent to a void	context()	negated: False ,passive: False
+0.632	[*A*]the experimental studies[*R*]clearly confirm[*A*]the fact that it is only initiated	context()	negated: False ,passive: False
+0.195	[*A*]it[*R*]occurs	context()	negated: False ,passive: False
+0.715	[*A*]the modelling[*R*]clearly confirm[*A*]the fact that it occurs via a relatively low percentage of the nanoparticles present due to stress - shielding of those nanoparticles immediately adjacent to a void	context()	negated: False ,passive: False
+0.136	[*A*]it[*R*]is initiated	context()	negated: False ,passive: False
+0.610	[*A*]the modelling[*R*]clearly confirm[*A*]the fact that it is only initiated	context()	negated: False ,passive: False
+0.897	[*A*]the experimental studies[*R*]clearly confirm[*A*]the important role of debonding of the nanoparticles	context()	negated: False ,passive: False
+0.887	[*A*]the nanoparticles[*R*]enables[*A*]subsequent plastic void growth[*A*]to occur in the epoxy matrix polymer	context()	negated: False ,passive: False
+0.887	[*A*]the modelling[*R*]clearly confirm[*A*]the important role of debonding of the nanoparticles	context()	negated: False ,passive: False
+[LINE#20] As noted above, the shear-banding term in the model is dependent on particle size,i.e. smaller particles provide a greater contribution to the value of Gs, whereas the plastic void growth term, Gv, is independent of particle size.
+0.385	[*A*]the model[*R*]is dependent on[*A*]particle size	context()	negated: False ,passive: False
+0.933	[*A*]the plastic void growth term[*R*]is[*A*]independent of particle size	context()	negated: False ,passive: True
+0.952	[*A*]i.e. smaller particles[*R*]provide[*A*]a greater contribution to the value of Gs[*A*]whereas the plastic void growth term, Gv, is independent of particle size	context()	negated: False ,passive: False
+0.957	[*A*]the shear-banding term in the model[*R*]is[*A*]dependent on particle size	context()	negated: False ,passive: True
+[LINE#21]However, Table 3 shows that the Gs contributions for the three particle diameters studied and there is no significant difference between the values for any given volume fraction of particles.
+0.804	[*A*]Table 3[*R*]shows[*A*]that there is no significant difference between the values for any given volume fraction of particles	context()	negated: False ,passive: False
+0.836	[*A*]the Gs contributions for the three particle diameters[*R*]studied	context(Table 3 shows)	negated: False ,passive: False
+0.901	[*A*]Table 3[*R*]shows[*A*]that the Gs contributions for the three particle diameters studied	context()	negated: False ,passive: False
+[LINE#22]For example, for 30 vol% of nanosilica particles, Gs = 300 J/m2 for the 23 nm diameter particles, 299 J/m2 for the 74 nm diameter particles, and 297 J/m2 for the 170 nm diameter particles.
+[LINE#23]Hence, over the range of particle sizes used in the present work the model predicts that there is no significant effect of particle diameter on the predicted toughness.
+0.803	[*A*]the model[*R*]predicts[*A*]that there is no significant effect of particle diameter on the predicted toughness[*A*]over the range of particle sizes	context()	negated: False ,passive: False
+0.903	[*A*]particle sizes[*R*]used[*A*]in the present work	context()	negated: False ,passive: True
+[LINE#24]This agrees very well with the experimental data, where no size effect was seen.
+0.939	[*A*]no size effect[*R*]was seen[*A*]the experimental data	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]agrees very well[*A*]with the experimental data	context()	negated: False ,passive: False
+[LINE#25]Finally, for the 23 nm diameter particles, it is unlikely that all the observed toughening effect could arise from shear yielding alone.
+0.749	[*A*]shear[*R*]yielding[*A*]alone	context()	negated: False ,passive: False
+[LINE#26]Since there is no significant difference in the measured GC for any particle diameter for a given volume fraction of silica nanoparticles; and noting that the other two particle size particles experimentally, as well as theoretically, showed debonding and void growth.
+[LINE#27]Thus, also observing that the contribution of the plastic void growth mechanism to the fracture energy, Gv, is predicted to be independent of particle size, it is suggested that particle debonding and subsequent plastic void growth in the epoxy polymer does indeed occur for the 23 nm diameter particles but that it is obscured by the coating process when the FEG-SEM observations are made.
+0.954	[*A*]the contribution of the plastic void growth mechanism to the fracture energy[*R*]to be[*A*]independent of particle size	context()	negated: False ,passive: True
+0.928	[*A*]the FEG - SEM observations[*R*]are made[*A*]the coating process	context()	negated: False ,passive: True
+0.452	[*A*]it[*R*]is obscured[*A*]by the coating process	context()	negated: False ,passive: True
+[LINE#28]This confirms that it is very useful to be able to predict the toughening mechanisms associated with such small particles, rather than relying solely upon observations of the fracture surfaces.
+0.943	[*A*]the toughening mechanisms[*R*]associated[*A*]with such small particles, rather than relying solely upon observations of the fracture surfaces	context()	negated: False ,passive: True
+0.135	[*A*]This[*R*]confirms[*A*]that it is very useful to be able to predict the toughening mechanisms	context()	negated: False ,passive: False
+[LINE#29]Silica nanoparticles possessing three different diameters (23, 74 and 170 nm) were used to modify a piperidine-cured epoxy polymer.
+0.914	[*A*]Silica nanoparticles[*R*]to modify[*A*]a piperidine - cured epoxy polymer	context()	negated: False ,passive: False
+0.914	[*A*]Silica nanoparticles[*R*]were used[*A*]to modify a piperidine - cured epoxy polymer	context()	negated: False ,passive: True
+0.927	[*A*]Silica nanoparticles[*R*]possessing[*A*]three different diameters	context()	negated: False ,passive: False
+[LINE#30]Fracture tests were performed and the values of the toughness increased steadily as the concentration of silica-nanoparticles was increased, but with no significant effects of particle size being observed.
+0.801	[*A*]no significant effects of particle size[*R*]being observed	context()	negated: False ,passive: False
+0.732	[*A*]Fracture tests[*R*]was increased	context()	negated: False ,passive: False
+0.938	[*A*]Fracture tests the values of the toughness[*R*]increased steadily[*A*]as the concentration of silica - nanoparticles	context()	negated: False ,passive: True
+0.732	[*A*]Fracture tests[*R*]were performed	context()	negated: False ,passive: False
+[LINE#31]The toughening mechanisms were identified as (i) the formation of localised shear-band yielding in the epoxy matrix polymer which is initiated by the silica nanoparticles, and (ii) debonding of the silica nanoparticles followed by plastic void growth of the epoxy matrix polymer.
+0.751	[*A*]the silica nanoparticles[*R*]followed	context()	negated: False ,passive: False
+0.943	[*A*]The toughening mechanisms[*R*]were identified[*A*]as (i) the formation of localised shear - band yielding in the epoxy matrix	context()	negated: False ,passive: True
+0.905	[*A*]the epoxy matrix polymer[*R*]is initiated[*A*]by the silica nanoparticles	context()	negated: False ,passive: True
+0.943	[*A*]The toughening mechanisms[*R*]were identified[*A*]as (i) the formation of localised shear - band yielding in the epoxy matrix polymer	context()	negated: False ,passive: True
+[LINE#32]These toughening mechanisms, and hence the toughness of the epoxy polymers containing the silica nanoparticles, were modelled.
+0.911	[*A*]the epoxy polymers[*R*]containing[*A*]the silica nanoparticles	context()	negated: False ,passive: False
+0.718	[*A*]These toughening mechanisms[*R*]were modelled	context()	negated: False ,passive: False
+[LINE#33]However, previously, the percentage of nanoparticles that actually initiate this latter mechanism of debonding and subsequent plastic void growth of the epoxy matrix polymer, was calculated by observations from the fracture surfaces after the fracture test had been performed.
+0.920	[*A*]nanoparticles[*R*]initiate[*A*]this latter mechanism of subsequent plastic void growth of the epoxy matrix polymer	context()	negated: False ,passive: False
+0.751	[*A*]the fracture test[*R*]had been performed	context()	negated: False ,passive: False
+0.945	[*A*]the percentage of nanoparticles[*R*]was calculated[*A*]by observations from the fracture surfaces[*A*]after the fracture test had been performed[*A*]previously	context()	negated: False ,passive: True
+0.877	[*A*]nanoparticles[*R*]initiate[*A*]this latter mechanism of debonding	context()	negated: False ,passive: False
+[LINE#34]The present paper has obtained the value of this important parameter via firstly developing a finite-element model of a number of particles in the epoxy polymer.
+0.911	[*A*]The present paper[*R*]has obtained[*A*]the value of this important parameter	context()	negated: False ,passive: False
+[LINE#35]This model showed that once one silica nanoparticle debonds and forms a void, then its nearest neighbours are shielded from the applied stress-field and hence will not debond.
+0.735	[*A*]its nearest neighbours[*R*]are shielded[*A*]from the applied stress - field[*A*]once one silica forms a void[*A*]then	context(This model showed)	negated: False ,passive: True
+0.703	[*A*]This model[*R*]showed[*A*]that once one silica forms a void , then its nearest neighbours are shielded from the applied stress - field	context()	negated: False ,passive: False
+0.735	[*A*]its nearest neighbours[*R*]are shielded[*A*]from the applied stress - field[*A*]once one silica nanoparticle debonds[*A*]then	context(This model showed)	negated: False ,passive: True
+0.703	[*A*]This model[*R*]showed[*A*]that once one silica nanoparticle debonds , then its nearest neighbours are shielded from the applied stress - field	context()	negated: False ,passive: False
+0.724	[*A*]This model[*R*]showed[*A*]hence will not debond	context()	negated: False ,passive: False
+[LINE#36]A statistical analysis, using Delaunay triangles, was then employed which revealed that, for a random dispersion of nanoparticles, each nanoparticle has exactly six nearest neighbours, so only one in seven particles will debond.
+0.856	[*A*]A statistical analysis, using Delaunay triangles[*R*]was employed[*A*]then	context()	negated: False ,passive: True
+0.913	[*A*]A statistical analysis[*R*]using[*A*]Delaunay triangles	context()	negated: False ,passive: False
+[LINE#37]This predicted value of 14.3% of the particles present that will actually debond, and hence lead to subsequent plastic void growth in the epoxy matrix polymer, was in excellent agreement with the observation from the fracture surfaces that about 10-15% of the nanoparticles present debonded.
+0.329	[*A*]This[*R*]predicted[*A*]value of 14.3% of the particles present	context()	negated: False ,passive: False
+0.408	[*A*]This[*R*]was[*A*]in excellent agreement with the observation from the fracture	context()	negated: False ,passive: True
+0.933	[*A*]the particles present[*R*]lead[*A*]to subsequent plastic void growth in the epoxy matrix polymer	context()	negated: False ,passive: False
+0.625	[*A*]the particles present[*R*]will debond	context()	negated: False ,passive: False
+[LINE#38] Indeed, this value of about 15% only of the silicapresent debonding has also been noted in other published studies, but has never been previously explained.
+0.866	[*A*]this value of about 15% only of the silicapresent debonding[*R*]has never been explained[*A*]previously	context()	negated: True ,passive: True
+0.936	[*A*]this value of about 15% only of the silicapresent debonding[*R*]has been noted[*A*]in other published studies	context()	negated: False ,passive: True
+[LINE#39]Thus, the predictions from the modelling studies of the toughness may now be undertaken without the need for any fracture tests to be first conducted, i.e. a priori from the basic material properties of the modified epoxy polymers.
+0.779	[*A*]any fracture tests[*R*]to be conducted[*A*]first	context()	negated: False ,passive: True
+0.863	[*A*]the predictions from the modelling studies of the toughness[*R*]may be undertaken[*A*]now	context()	negated: False ,passive: True
+[LINE#40]The predicted fracture energies of the various epoxy polymers containing the silica nanoparticles were so deduced and compared with the measured fracture energies.
+0.939	[*A*]The predicted fracture energies of the various epoxy polymers[*R*]were compared[*A*]with the measured fracture energies	context()	negated: False ,passive: True
+0.845	[*A*]The predicted fracture energies of the various epoxy polymers[*R*]were[*A*]so deduced	context()	negated: False ,passive: True
+0.919	[*A*]the various epoxy polymers[*R*]containing[*A*]the silica nanoparticles	context()	negated: False ,passive: False
+[LINE#41]The agreement was found to be good.
+0.735	[*A*]The agreement[*R*]to be[*A*]good	context()	negated: False ,passive: True
+0.732	[*A*]The agreement[*R*]was found	context()	negated: False ,passive: False
+[LINE#42]Further, for example, over the range of particle diameters (i.e. from 23 nm to 170 nm) used in the present work the model predicted that there is no effect of particle diameter on the toughness, as was indeed observed from the experimental data.
+0.695	[*A*]the model[*R*]predicted[*A*]that there is no effect of particle diameter on the toughness, as was indeed observed from the experimental data	context()	negated: False ,passive: False
+[LINE#43]The epoxy resin consisted of a standard diglycidyl ether of bisphenol A (DGEBA) (DER331 resin, Dow Chemical Company, USA) with an equivalent molecular weight of 187 g/mol.
+0.381	[*A*]USA[*R*][is] Chemical Company [of][*A*]Dow	context()	negated: False ,passive: False
+0.911	[*A*]The epoxy resin[*R*]consisted[*A*]of a standard diglycidyl ether of bisphenol A	context()	negated: False ,passive: True
+[LINE#44]The three different sizes of silica nanoparticles were employed which possessed average particle diameters of 23 nm, 74 nm, and 170 nm, respectively, and were surface modified by an organosilane via a sol-gel process.
+0.816	[*A*]The three different sizes of silica nanoparticles[*R*]were employed	context()	negated: False ,passive: False
+[LINE#45]They were supplied pre-mixed in a silica-DGEBA master-batch for each particle size by the 3M Company, USA.
+0.381	[*A*]USA[*R*][is] Company [of][*A*]M	context()	negated: False ,passive: False
+0.755	[*A*]They[*R*]were supplied[*A*]pre-mixed[*A*]in a silica-DGEBA master-batch for each particle size[*A*]by the 3M Company	context()	negated: False ,passive: True
+[LINE#46]Sigma-Aldrich, USA) was used as the curing agent.
+0.922	[*A*]Sigma-Aldrich[*R*]was used[*A*]as the curing agent	context()	negated: False ,passive: True
+[LINE#47]The required volume fraction of silica nanoparticles was achieved by blending the silica-DGEBA master-batch with the pure DGEBA, mixing at 85 C using a mechanical stirrer, and then degassing for 4 h.
+0.816	[*A*]The required volume fraction of silica nanoparticles[*R*]was achieved	context()	negated: False ,passive: False
+[LINE#48]The silica nanoparticle-epoxy blend was then mixed with five weight percent of piperidine, degassed for a second time and then poured in a release-coated steel mould and cured at 160 C for 6 h. As expected, the viscosity of the epoxy resin/curing agent mixture increased at higher loadings of silica nanoparticles.
+0.953	[*A*]the viscosity of the epoxy resin / curing agent mixture[*R*]increased[*A*]at higher loadings of silica nanoparticles	context()	negated: False ,passive: True
+[LINE#49]However, the basic epoxy resin/curing agent mixture possessed a relatively low initial viscosity and the increase in viscosity upon addition of the higher concentrations of silica nanoparticles was not considered to be an important aspect of the production of the cast sheets via pouring into, and then curing in, the steel mould.
+0.954	[*A*]the basic epoxy resin/curing agent mixture[*R*]possessed[*A*]a relatively low initial viscosity and the increase in viscosity upon addition of the higher concentrations of silica nanoparticles	context()	negated: False ,passive: False
+[LINE#50]The same batch of material was used as for previous studies [16].
+0.926	[*A*]The same batch of material[*R*]was used[*A*]as for previous studies	context()	negated: False ,passive: True
+[LINE#51][16] transmission electron microscopy images were given which showed that a good dispersion of silica nanoparticles in the epoxy polymer was achieved, although at the very highest concentration of silica nanoparticles a small degree of agglomeration was observed.
+0.949	[*A*]a small degree of agglomeration[*R*]was observed[*A*]at the very highest concentration of silica nanoparticles	context()	negated: False ,passive: True
+0.769	[*A*]transmission electron microscopy images[*R*]were given	context()	negated: False ,passive: False
+[LINE#52]The density of the composites was measured using a pycnometer and the calculated densities of the epoxy polymer and silica nanoparticles were 1.16 g/cm3 and 1.92 g/cm3, respectively.
+0.834	[*A*]the calculated densities of silica nanoparticles[*R*]had respectively of[*A*]1.16 1.92 g / cm3	context()	negated: False ,passive: False
+0.973	[*A*]the calculated densities of silica nanoparticles[*R*]were[*A*]1.16 1.92 g / cm3	context()	negated: False ,passive: False
+0.998	[*A*]silica nanoparticles[*R*]had the calculated densities of[*A*]1.16 1.92 g / cm3	context()	negated: False ,passive: False
+0.932	[*A*]the calculated densities of silica nanoparticles[*R*]were[*A*]1.16 1.92 g / cm3[*A*]respectively	context()	negated: False ,passive: True
+0.834	[*A*]the calculated densities of silica nanoparticles[*R*]had respectively of[*A*]1.16 g / cm3 / cm3	context()	negated: False ,passive: False
+0.973	[*A*]the calculated densities of silica nanoparticles[*R*]were[*A*]1.16 g / cm3 / cm3	context()	negated: False ,passive: False
+0.998	[*A*]silica nanoparticles[*R*]had the calculated densities of[*A*]1.16 g / cm3 / cm3	context()	negated: False ,passive: False
+0.932	[*A*]the calculated densities of silica nanoparticles[*R*]were[*A*]1.16 g[*A*]respectively	context()	negated: False ,passive: True
+0.834	[*A*]the calculated densities of the epoxy polymer[*R*]had respectively of[*A*]1.16 1.92 g / cm3	context()	negated: False ,passive: False
+0.973	[*A*]the calculated densities of the epoxy polymer[*R*]were[*A*]1.16 1.92 g / cm3	context()	negated: False ,passive: False
+0.998	[*A*]the epoxy polymer[*R*]had the calculated densities of[*A*]1.16 1.92 g / cm3	context()	negated: False ,passive: False
+0.938	[*A*]the calculated densities of the epoxy polymer[*R*]were[*A*]1.16 1.92 g / cm3[*A*]respectively	context()	negated: False ,passive: True
+0.834	[*A*]the calculated densities of the epoxy polymer[*R*]had respectively of[*A*]1.16 g / cm3 / cm3	context()	negated: False ,passive: False
+0.973	[*A*]the calculated densities of the epoxy polymer[*R*]were[*A*]1.16 g / cm3 / cm3	context()	negated: False ,passive: False
+0.998	[*A*]the epoxy polymer[*R*]had the calculated densities of[*A*]1.16 g / cm3 / cm3	context()	negated: False ,passive: False
+0.938	[*A*]the calculated densities of the epoxy polymer[*R*]were[*A*]1.16 g / cm3 / cm3[*A*]respectively	context()	negated: False ,passive: True
+0.926	[*A*]The density of the composites[*R*]was measured[*A*]using a pycnometer	context()	negated: False ,passive: True
+[LINE#53]Using the measured densities, the volume fraction of the silica nanoparticles was calculated from the known weight percentages.
+0.938	[*A*]the volume fraction of the silica nanoparticles[*R*]was calculated[*A*]from the known weight percentages	context()	negated: False ,passive: True
+[LINE#54]This confirmed that the volume fraction of silica nanoparticles was as stated.
+0.763	[*A*]the volume fraction of silica nanoparticles[*R*]was as stated	context(This confirmed)	negated: False ,passive: False
+0.224	[*A*]This[*R*]confirmed[*A*]that the volume fraction of silica nanoparticles was as stated	context()	negated: False ,passive: False
+[LINE#55]A glass transition temperature of 80 C was measured for the epoxy polymer using differential scanning calorimetry, and this value was unaffected by the addition of the silica nanoparticles [16]..
+0.925	[*A*]this value[*R*]was[*A*]unaffected by the addition of the silica nanoparticles	context()	negated: False ,passive: True
+0.911	[*A*]the epoxy polymer[*R*]using[*A*]differential scanning calorimetry	context()	negated: False ,passive: False
+0.953	[*A*]A glass transition temperature of 80 C[*R*]was measured[*A*]for the epoxy polymer using differential scanning calorimetry	context()	negated: False ,passive: True
+[LINE#56]Material characterisationThe Young's modulus, E, and yield stress, y, of the unmodified and silica nanoparticle-modified epoxies were measured using uniaxial tensile tests.
+0.961	[*A*]yield stress , y , of the silica nanoparticle - modified epoxies[*R*]were measured[*A*]using uniaxial tensile tests	context()	negated: False ,passive: True
+0.961	[*A*]yield stress , y , of the unmodified nanoparticle - modified epoxies[*R*]were measured[*A*]using uniaxial tensile tests	context()	negated: False ,passive: True
+0.813	[*A*]E[*R*]were measured[*A*]using uniaxial tensile tests	context()	negated: False ,passive: True
+0.934	[*A*]Material characterisationThe Young 's modulus[*R*]using[*A*]uniaxial tensile tests	context()	negated: False ,passive: False
+0.944	[*A*]Material characterisationThe Young 's modulus[*R*]were measured[*A*]using uniaxial tensile tests	context()	negated: False ,passive: True
+[LINE#57]The bulk polymer samples were machined into a dog-bone shape with dimensions of 63.5 mm long by 3 mm thick, and 3 mm wide in the gauge section.
+0.948	[*A*]The bulk polymer samples[*R*]were machined[*A*]into a dog - bone shape[*A*]with dimensions of 63.5 mm long by 3 mm wide in the gauge section	context()	negated: False ,passive: True
+0.948	[*A*]The bulk polymer samples[*R*]were machined[*A*]into a dog - bone shape[*A*]with dimensions of 63.5 mm long by 3 mm thick	context()	negated: False ,passive: True
+[LINE#58]They were tested at a constant displacement rate of 5 mm/min at room temperature, according to the ASTM-D638 (Type V) standard test method [17], with a minimum of five replicate samples per material type.
+0.616	[*A*]They[*R*]were tested[*A*]at a constant displacement rate of 5 mm	context()	negated: False ,passive: True
+[LINE#59]It should be noted that since the present epoxy polymers are all relatively brittle materials it was not possible to obtain meaningful values of the strain to break from uniaxial tensile tests: any such data would be very dependent upon the sample preparation technique employed and will inevitably exhibit a relatively high degree of scatter.
+0.769	[*A*]the sample preparation technique[*R*]employed	context()	negated: False ,passive: False
+0.904	[*A*]the present epoxy polymers[*R*]are[*A*]relatively brittle materials	context()	negated: False ,passive: True
+0.888	[*A*]any such data[*R*]would be[*A*]very dependent upon the sample preparation technique	context()	negated: False ,passive: True
+[LINE#60]Indeed, for these reasons plane-strain compression tests have been undertaken of the unmodified epoxy polymer to ascertain the overall yield behaviour of the material, since as expected it failed around the yield point when uniaxial tensile tests were undertaken.
+0.751	[*A*]uniaxial tensile tests[*R*]were undertaken	context()	negated: False ,passive: False
+0.926	[*A*]plane-strain compression tests[*R*]have been undertaken[*A*]of the unmodified epoxy polymer[*A*]to ascertain the overall yield behaviour of the material	context()	negated: False ,passive: True
+[LINE#61] The plane-strain compression tests were conducted as described previously [13].The fracture toughness, KC, was measured using a single-edge notchbend (SENB) test, in accordance with the ASTM-D5045 standard [18].
+0.944	[*A*]The fracture toughness[*R*]was measured[*A*]using a single-edge notchbend (SENB) test, in accordance with the ASTM-D5045 standard	context()	negated: False ,passive: True
+0.829	[*A*]The plane-strain compression tests[*R*]were conducted[*A*]as described previously [13	context()	negated: False ,passive: True
+[LINE#62]Sample dimensions of 75.6 mm  12.7 mm  6.36 mm and a constant displacement rate of 1 mm/min were used.
+0.878	[*A*]Sample dimensions of a constant displacement rate of 1 mm / min[*R*]were used	context()	negated: False ,passive: False
+0.843	[*A*]Sample dimensions of 75.6 mm 12.7 mm 6.36 mm[*R*]were used	context()	negated: False ,passive: False
+[LINE#63]A pre-crack was made by lightly tapping a fresh razor blade into the machined notch, yielding a very sharp natural crack tip.
+0.937	[*A*]A pre-crack[*R*]was made[*A*]by lightly tapping a fresh razor blade into the machined notch, yielding a very sharp natural crack tip	context()	negated: False ,passive: True
+[LINE#64]The mean and standard deviation values of the fracture toughness were ascertained, using a minimum of five replicate samples for each material.
+0.945	[*A*]The mean and standard deviation values of the fracture toughness[*R*]using[*A*]a minimum of five replicate samples for each material	context()	negated: False ,passive: False
+0.970	[*A*]The mean and standard deviation values of the fracture toughness[*R*]were[*A*]ascertained[*A*]using a minimum of five replicate samples for each material	context()	negated: False ,passive: True
+[LINE#65]The fracture energy, GC, was calculated from the values of the fracture toughness, Poisson's ratio and Young's modulus [19].The fracture surfaces of the SENB samples were studied using scanning electron microscopy.
+0.874	[*A*]The fracture energy[*R*]was calculated[*A*]from the values of the fracture toughness	context(Young 's modulus were studied)	negated: False ,passive: True
+0.734	[*A*]Young 's modulus[*R*]were studied	context()	negated: False ,passive: False
+0.874	[*A*]The fracture energy[*R*]was calculated[*A*]from the values of the fracture toughness	context(Poisson 's ratio were studied)	negated: False ,passive: True
+0.766	[*A*]Poisson 's ratio[*R*]were studied	context()	negated: False ,passive: False
+[LINE#66]High-resolution scanning-electron microscopy was performed using an electron microscope equipped with a field-emission gun (FEG-SEM); a Carl Zeiss Leo 1525 with a Gemini column was used, with a typical accelerating voltage of 5 kV.
+0.992	[*A*]1525[*R*]was used with[*A*]a typical accelerating voltage of 5 kV	context()	negated: False ,passive: False
+0.780	[*A*]High-resolution scanning-electron microscopy[*R*]was performed	context(a Carl Zeiss Leo 1525 with a Gemini column was used)	negated: False ,passive: False
+0.854	[*A*]a Carl Zeiss Leo 1525 with a Gemini column[*R*]was used	context()	negated: False ,passive: False
+0.911	[*A*]an electron microscope[*R*]equipped[*A*]with a field-emission gun	context()	negated: False ,passive: True
+[LINE#67]All samples were coated with an approximately 5 nm thick layer of chromium before imaging.
+0.937	[*A*]All samples[*R*]were coated[*A*]with an approximately 5 nm thick layer of chromium before imaging	context()	negated: False ,passive: True
+[LINE#68]The FEG-SEM images were used to study the debonding and any subsequent plastic void growth of the polymer.
+0.880	[*A*]The FEG - SEM images[*R*]to study[*A*]any subsequent plastic void growth of the polymer	context()	negated: False ,passive: False
+0.933	[*A*]The FEG - SEM images[*R*]were used[*A*]to study any subsequent plastic void growth of the polymer	context()	negated: False ,passive: True
+0.880	[*A*]The FEG - SEM images[*R*]to study[*A*]the debonding	context()	negated: False ,passive: False
+0.897	[*A*]The FEG - SEM images[*R*]were used[*A*]to study the debonding	context()	negated: False ,passive: True
+[LINE#69]The fraction of silica nanoparticles that debonded during the fracture process was estimated from the images to compare with the results of the predictive model.
+0.913	[*A*]The fraction of silica nanoparticles[*R*]was estimated[*A*]from the images[*A*]to compare with the results of the predictive model	context()	negated: False ,passive: True
+0.887	[*A*]silica nanoparticles[*R*]debonded[*A*]during the fracture process	context()	negated: False ,passive: True
+[LINE#70]The FEG-SEM images were overlaid with an evenly spaced grid.
+0.897	[*A*]The FEG-SEM images[*R*]were overlaid[*A*]with an evenly spaced grid	context()	negated: False ,passive: True
+[LINE#71]Next, each cell was analysed, and each particle identified.
+0.732	[*A*]each particle[*R*]identified	context()	negated: False ,passive: False
+0.830	[*A*]each cell[*R*]was analysed[*A*]Next	context()	negated: False ,passive: True
+[LINE#72]Via standard stereology, the area fraction of particles in the image and volume fraction of the silica nanoparticle modified epoxy were assumed to be equal, ensuring that almost all nanoparticles on the fracture surface were considered in the analysis.
+[LINE#73]Thereafter, the fraction of particles that debonded with subsequent void growth were obtained by zooming into the image, and the diameters of the voids measured.
+0.785	[*A*]the diameters of the voids[*R*]measured	context()	negated: False ,passive: False
+0.737	[*A*]the fraction of particles[*R*]were obtained	context()	negated: False ,passive: False
+0.877	[*A*]particles[*R*]debonded[*A*]with subsequent void growth	context()	negated: False ,passive: False
+[LINE#74]To ensure that the appropriate number of silica nanoparticles were included in the analysis, the area fraction of such particles was measured and compared with the known volume fraction of the particles.
+0.932	[*A*]the area fraction of such particles[*R*]was compared[*A*]with the known volume fraction of the particles	context()	negated: False ,passive: True
+0.801	[*A*]the area fraction of such particles[*R*]was measured	context()	negated: False ,passive: False
+[LINE#75]The subsurface damage in the tested SENB samples was studied using transmitted-light optical microscopy (TOM).
+0.869	[*A*]The subsurface damage in the tested SENB samples[*R*]was studied	context()	negated: False ,passive: False
+[LINE#76]Cross-sections were cut from the fracture surfaces, then ground and polished using standard petrographic techniques to approximately 100 m thick.
+0.894	[*A*]Cross-sections[*R*]were cut[*A*]from the fracture surfaces	context()	negated: False ,passive: True
+[LINE#77]These thin sections were examined under bright field and cross-polarised light using an Olympus model BH2 optical microscope.
+0.381	[*A*]BH2[*R*][is] model [of][*A*]Olympus	context()	negated: False ,passive: False
+0.911	[*A*]These thin sections[*R*]were examined[*A*]under bright field and cross-polarised light	context()	negated: False ,passive: True
+[LINE#78]Epoxy polymers are widely used in many different engineering applications, such as coatings, adhesives and matrices in composite materials.
+0.937	[*A*]Epoxy polymers[*R*]are widely used[*A*]in many different engineering applications , such as matrices in composite materials	context()	negated: False ,passive: True
+0.937	[*A*]Epoxy polymers[*R*]are widely used[*A*]in many different engineering applications , such as adhesives in composite materials	context()	negated: False ,passive: True
+0.937	[*A*]Epoxy polymers[*R*]are widely used[*A*]in many different engineering applications , such as coatings in composite materials	context()	negated: False ,passive: True
+[LINE#79]For example, as coatings, such polymers are employed widely for applications requiring good ultra-violet light protection or high-scratch resistance.
+0.894	[*A*]applications[*R*]requiring[*A*]good ultra-violet light protection or high-scratch resistance	context()	negated: False ,passive: False
+0.903	[*A*]such polymers[*R*]are employed widely[*A*]for applications	context()	negated: False ,passive: True
+[LINE#80]Their insulating properties, good temperature resistance and ease of processing also allow epoxy polymers to be used extensively in the electronics industry for applications in printed circuit boards and encapsulated electrical components [1].
+0.718	[*A*]ease of processing[*R*]allow	context()	negated: False ,passive: False
+0.920	[*A*]epoxy polymers[*R*]to be used extensively[*A*]in the electronics industry for applications in printed circuit boards	context(ease of processing allow)	negated: False ,passive: True
+0.915	[*A*]ease of processing[*R*]allow[*A*]epoxy polymers to be used extensively in the electronics industry for applications in printed circuit boards	context()	negated: False ,passive: False
+0.718	[*A*]good temperature resistance[*R*]allow	context()	negated: False ,passive: False
+0.920	[*A*]epoxy polymers[*R*]to be used extensively[*A*]in the electronics industry for applications in printed circuit boards	context(good temperature resistance allow)	negated: False ,passive: True
+0.915	[*A*]good temperature resistance[*R*]allow[*A*]epoxy polymers to be used extensively in the electronics industry for applications in printed circuit boards	context()	negated: False ,passive: False
+0.325	[*A*]Their insulating properties[*R*]allow	context()	negated: False ,passive: False
+0.920	[*A*]epoxy polymers[*R*]to be used extensively[*A*]in the electronics industry for applications in printed circuit boards	context(Their insulating properties allow)	negated: False ,passive: True
+0.670	[*A*]Their insulating properties[*R*]allow[*A*]epoxy polymers to be used extensively in the electronics industry for applications in printed circuit boards	context()	negated: False ,passive: False
+[LINE#81]Furthermore, the use of adhesive and composite materials based on epoxy polymers is widespread in the aerospace, automobile and wind-energy industries due to their structural efficiency [2,3].
+0.999	[*A*]the use of composite materials based on epoxy polymers[*R*]is[*A*]23 ]	context()	negated: False ,passive: False
+0.933	[*A*]the use of composite materials[*R*]is[*A*]widespread[*A*]in the wind - energy industries	context()	negated: False ,passive: True
+0.924	[*A*]the use of composite materials[*R*]is[*A*]widespread[*A*]in the automobile industries due to their structural efficiency [ 2,3	context()	negated: False ,passive: True
+0.924	[*A*]the use of composite materials[*R*]is[*A*]widespread[*A*]in the aerospace industries due to their structural efficiency [ 2,3	context()	negated: False ,passive: True
+0.903	[*A*]composite materials[*R*]based[*A*]on epoxy polymers	context()	negated: False ,passive: True
+0.929	[*A*]the use of adhesive[*R*]is[*A*]widespread[*A*]in the wind - energy industries due to their structural efficiency	context()	negated: False ,passive: True
+0.929	[*A*]the use of adhesive[*R*]is[*A*]widespread[*A*]in the automobile industries due to their structural efficiency [ 2,3	context()	negated: False ,passive: True
+0.929	[*A*]the use of adhesive[*R*]is[*A*]widespread[*A*]in the aerospace industries due to their structural efficiency [ 2,3	context()	negated: False ,passive: True
+[LINE#82]Indeed, their outstanding temperature resistance and durability to weathering, fuel, de-icing fluids, etc.
+[LINE#83]leads to them invariably being the preferred materials, compared to acrylics and polyurethanes, for external aerospace applications [1-3].
+[LINE#84]Epoxies are amorphous, highly cross-linked, thermosetting polymers which exhibit good elevated temperature resistance and low creep.
+0.877	[*A*]polymers[*R*]exhibit[*A*]low creep	context()	negated: False ,passive: False
+0.877	[*A*]polymers[*R*]exhibit[*A*]good elevated temperature resistance	context()	negated: False ,passive: False
+0.743	[*A*]Epoxies[*R*]are highly cross-linked[*A*]amorphous	context()	negated: False ,passive: True
+[LINE#85]However, their high cross-link density causes them to be relatively brittle polymers, and this limits their application as structural materials, as they have a poor resistance to the initiation and growth of cracks.
+0.616	[*A*]they[*R*]have[*A*]a poor resistance to growth of cracks	context()	negated: False ,passive: False
+0.349	[*A*]this[*R*]limits[*A*]their application as structural materials[*A*]as they have a poor resistance to growth of cracks	context()	negated: False ,passive: False
+0.616	[*A*]they[*R*]have[*A*]a poor resistance to the initiation of cracks	context()	negated: False ,passive: False
+0.349	[*A*]this[*R*]limits[*A*]their application as structural materials[*A*]as they have a poor resistance to the initiation of cracks	context()	negated: False ,passive: False
+0.388	[*A*]them[*R*]to be[*A*]relatively brittle polymers	context(their high cross-link density causes)	negated: False ,passive: True
+0.472	[*A*]their high cross-link density[*R*]causes[*A*]them to be relatively brittle polymers	context()	negated: False ,passive: False
+[LINE#86]Thus, improvements in their fracture performance are highly sought after by industry [3].
+0.606	[*A*]improvements in their fracture performance[*R*]are sought[*A*]after[*A*]by industry [3	context()	negated: False ,passive: True
+[LINE#87]The addition of silica nanoparticles has been shown to improve these properties without adversely affecting the thermo-mechanical properties of the epoxy polymer [4-8].
+0.164	[*A*]the polymer[*R*]has epoxy of[*A*]4 -8	context()	negated: False ,passive: False
+0.913	[*A*]The addition of silica nanoparticles[*R*]to improve[*A*]these properties	context()	negated: False ,passive: False
+0.785	[*A*]The addition of silica nanoparticles[*R*]has been shown	context()	negated: False ,passive: False
+[LINE#88]Another advantage [5,6,8-10] is that due to their very small size, and hence large number, then a relatively low volume fraction of such nanoparticles can induce relatively extensive toughening of the epoxy polymer.
+0.936	[*A*]then a relatively low volume fraction of such nanoparticles[*R*]can induce[*A*]relatively extensive toughening of the epoxy polymer	context(Another advantage is)	negated: False ,passive: False
+0.830	[*A*]Another advantage[*R*]is[*A*]that due to hence large number , then a relatively low volume fraction of such nanoparticles can induce relatively extensive toughening of the epoxy polymer	context()	negated: False ,passive: True
+0.727	[*A*]Another advantage[*R*]is[*A*]that due to their very small size can induce relatively extensive toughening of the epoxy polymer	context()	negated: False ,passive: True
+[LINE#89] Furthermore, the particles are sufficiently small such that when resin transfer moulding manufacturing processes are employedthey are not filtered-out of the matrix by the fibre preforms when added to the matrices for fibre-reinforced composite materials [7,9]; where they improve both the fracture and fatigue resistance of the composite material.
+0.616	[*A*]they[*R*]improve[*A*]resistance of the composite material	context()	negated: False ,passive: False
+0.912	[*A*]resin transfer moulding manufacturing processes[*R*]are[*A*]by the fibre preforms	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]improve[*A*]fatigue	context()	negated: False ,passive: False
+0.748	[*A*]the particles[*R*]are[*A*]sufficiently small such that when resin transfer moulding manufacturing processes are employedthey are not filtered - out of the matrix by the fibre preforms when added to the matrices for fibre-reinforced composite materials [ 7,9 ] ; where they improve fatigue	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]improve[*A*]both the fracture	context()	negated: False ,passive: False
+0.785	[*A*]resin transfer moulding manufacturing processes[*R*]are	context()	negated: False ,passive: False
+0.767	[*A*]the particles[*R*]are[*A*]sufficiently small	context()	negated: False ,passive: True
+[LINE#90][10] ascertained that a major toughening mechanism arose from plastic void growth of the epoxy matrix polymer around debonded silica nanoparticles.
+0.936	[*A*]a major toughening mechanism[*R*]arose[*A*]from plastic void growth of the epoxy matrix polymer around debonded silica nanoparticles	context(10 ascertained)	negated: False ,passive: True
+0.321	[*A*]10[*R*]ascertained[*A*]that a major toughening mechanism arose from plastic void growth of the epoxy matrix polymer around debonded silica nanoparticles	context()	negated: False ,passive: False
+[LINE#91]Liang and Pearson [11] extended these ideas to show that plastic shear-banding in the epoxy matrix polymer also contributed to the toughening of such modified epoxy polymers.
+0.923	[*A*]plastic shear - banding in the epoxy matrix polymer[*R*]contributed[*A*]to the toughening of such modified epoxy polymers	context(Pearson [ 11 extended to show)	negated: False ,passive: False
+0.841	[*A*]Pearson [ 11[*R*]extended these ideas to show[*A*]that plastic shear - banding in the epoxy matrix polymer also contributed to the toughening of such modified epoxy polymers	context(Pearson [ 11 extended)	negated: False ,passive: False
+0.841	[*A*]Pearson [ 11[*R*]extended[*A*]these ideas[*A*]to show that plastic shear - banding in the epoxy matrix polymer also contributed to the toughening of such modified epoxy polymers	context()	negated: False ,passive: False
+0.923	[*A*]plastic shear - banding in the epoxy matrix polymer[*R*]contributed[*A*]to the toughening of such modified epoxy polymers	context(Liang extended to show)	negated: False ,passive: False
+0.838	[*A*]Liang[*R*]extended these ideas to show[*A*]that plastic shear - banding in the epoxy matrix polymer also contributed to the toughening of such modified epoxy polymers	context(Liang extended)	negated: False ,passive: False
+0.838	[*A*]Liang[*R*]extended[*A*]these ideas[*A*]to show that plastic shear - banding in the epoxy matrix polymer also contributed to the toughening of such modified epoxy polymers	context()	negated: False ,passive: False
+[LINE#92]These toughening mechanisms were then implemented into a mathematical model proposed by Hsieh et al.
+0.925	[*A*]a mathematical model[*R*]proposed[*A*]by Hsieh et al	context()	negated: False ,passive: True
+0.923	[*A*]These toughening mechanisms[*R*]were implemented[*A*]into a mathematical model[*A*]then	context()	negated: False ,passive: True
+[LINE#93][12,13] and such a model was used to predict successfully the fracture energy, GC, of epoxy polymers toughened via the addition of silica nanoparticles.
+0.732	[*A*]epoxy polymers[*R*]toughened	context()	negated: False ,passive: False
+0.913	[*A*]such a model[*R*]to predict successfully[*A*]the fracture energy, GC, of epoxy polymers	context()	negated: False ,passive: False
+0.952	[*A*]such a model[*R*]was used[*A*]to predict successfully the fracture energy, GC, of epoxy polymers	context()	negated: False ,passive: True
+[LINE#94][15] have shown that this theoretical model also applies to the toughening of epoxy polymers via rubbery core-shell nano-sized particles.
+0.918	[*A*]this theoretical model[*R*]applies[*A*]to the toughening of epoxy polymers via rubbery core-shell nano-sized particles	context(15 have shown)	negated: False ,passive: True
+0.321	[*A*]15[*R*]have shown[*A*]that this theoretical model also applies to the toughening of epoxy polymers via rubbery core-shell nano-sized particles	context()	negated: False ,passive: False
+[LINE#95]Interestingly, Giannakopoulos et al.
+[LINE#96][14] also reported that, within experimental error, there was little effect of particle diameter on the increase in toughness resulting from the addition of the core-shell particles, within the range of 100-300 nm.
+0.198	[*A*]14[*R*]reported[*A*]that, within experimental error, there was little effect of particle diameter on the increase in toughness	context()	negated: False ,passive: False
+0.931	[*A*]toughness[*R*]resulting[*A*]from the addition of the core-shell particles, within the range of 100-300 nm	context()	negated: False ,passive: True
+[LINE#97]In the present study, the Hsieh et al.
+[LINE#98][12,13] model will be used to predict the fracture energy of nanoparticle-modified epoxy polymers, where rigid, amorphous silica nanoparticles of three distinct sizes have been used, at various concentrations, to modify the epoxy polymer.
+0.992	[*A*]1213 ] model[*R*]have been used at[*A*]various concentrations	context()	negated: False ,passive: False
+0.843	[*A*]rigid, amorphous silica nanoparticles of three distinct sizes[*R*]have been used	context()	negated: False ,passive: False
+0.943	[*A*]12,13] model[*R*]will be used[*A*]to predict the fracture energy of nanoparticle-modified epoxy polymers	context()	negated: False ,passive: True
+[LINE#99]Further, the previous work discussed above required high-resolution scanning-electron microscopy of the fracture surfaces to be undertaken after the fracture test had been conducted in order to identify the quantitative details of the toughening mechanisms that were required in the predictive mathematical model.
+0.911	[*A*]the fracture test[*R*]had been conducted[*A*]in order	context()	negated: False ,passive: True
+0.911	[*A*]the fracture surfaces[*R*]to be undertaken[*A*]after the fracture test had been conducted in order	context()	negated: False ,passive: True
+0.952	[*A*]the previous work discussed above[*R*]required[*A*]high-resolution scanning-electron microscopy of the fracture surfaces	context()	negated: False ,passive: False
+0.897	[*A*]the toughening mechanisms[*R*]were required[*A*]in the predictive mathematical model	context()	negated: False ,passive: True
+0.783	[*A*]the previous work[*R*]discussed[*A*]above	context()	negated: False ,passive: True
+[LINE#100]The present work develops a new approach which enables the modelling results to be deduced from the basic properties of the polymer, i.e. before any fracture tests are undertaken.
+0.751	[*A*]any fracture tests[*R*]are undertaken	context()	negated: False ,passive: False
+0.897	[*A*]a new approach[*R*]to be deduced[*A*]from the basic properties of the polymer[*A*]i.e. before any fracture tests are undertaken	context()	negated: False ,passive: True
+0.933	[*A*]a new approach[*R*]enables[*A*]the modelling results[*A*]to be deduced from the basic properties of the polymer, i.e. before any fracture tests are undertaken	context()	negated: False ,passive: False
+0.943	[*A*]The present work[*R*]develops[*A*]a new approach which enables the modelling results to be deduced from the basic properties of the polymer,	context()	negated: False ,passive: False
+[LINE#101]Modelling the toughening mechanismsThe mechanisms of shear band yielding and plastic void growth have been successfully modelled by Huang and Kinloch [20] for rubber-modified epoxy polymers, and more recently by Hsieh et al.
+[LINE#102][12,13] for silica nanoparticle-modified DGEBA epoxy polymers.
+[LINE#103][15] have also applied this model to epoxy polymers toughened using core-shell rubbers.
+0.732	[*A*]epoxy polymers[*R*]toughened	context()	negated: False ,passive: False
+0.397	[*A*]15[*R*]have applied[*A*]this model[*A*]to epoxy polymers	context()	negated: False ,passive: False
+[LINE#104] Huang and Kinloch [20] proposed a generalised solution to examine incremental increases in GC,.
+0.916	[*A*]Kinloch [ 20[*R*]proposed a generalised solution to examine[*A*]incremental increases in GC	context(Kinloch [ 20 proposed)	negated: False ,passive: False
+0.916	[*A*]Kinloch [ 20[*R*]proposed[*A*]a generalised solution[*A*]to examine incremental increases in GC	context()	negated: False ,passive: False
+0.878	[*A*]Huang[*R*]proposed to examine[*A*]incremental increases in GC	context(Huang proposed)	negated: False ,passive: False
+0.917	[*A*]Huang[*R*]proposed[*A*]a generalised solution to examine incremental increases in GC	context()	negated: False ,passive: False
+[LINE#105] GCU is the fracture energy of the unmodified epoxy polymer and  represents the overall toughening contribution provided by the presence of the particulate phase, such that:(3)=Gs+GvHere the toughening increment due to the silica nanoparticles, termed , is a combination of the two mechanisms identified from the experimental work, and can be separated into their relative toughening contributions.
+0.878	[*A*]the fracture energy of the unmodified epoxy polymer[*R*]can be separated[*A*]into their relative toughening contributions	context(GCU is)	negated: False ,passive: True
+0.845	[*A*]GCU[*R*]is[*A*]the fracture energy of the unmodified epoxy polymer can be separated into their relative toughening contributions	context()	negated: False ,passive: True
+0.919	[*A*]the overall toughening contribution[*R*]provided[*A*]by the presence of the particulate phase	context()	negated: False ,passive: True
+0.911	[*A*]the two mechanisms[*R*]identified[*A*]from the experimental work	context()	negated: False ,passive: True
+0.805	[*A*]the fracture energy of the unmodified epoxy polymer[*R*]termed	context()	negated: False ,passive: False
+[LINE#106]the formation of localised plastic shear-band yielding, Gs, in the epoxy matrix polymer which is initiated by the silica nanoparticles, and (ii) debonding of the silica nanoparticles followed by plastic void growth, Gv, of the epoxy matrix polymer.
+0.751	[*A*]the silica nanoparticles[*R*]followed	context()	negated: False ,passive: False
+0.905	[*A*]the epoxy matrix polymer[*R*]is initiated[*A*]by ( ii ) debonding of the silica nanoparticles	context()	negated: False ,passive: True
+0.905	[*A*]the epoxy matrix polymer[*R*]is initiated[*A*]by the silica nanoparticles	context()	negated: False ,passive: True
+[LINE#107]It should be noted that the contribution to the increase in toughness due to particle debonding is widely considered to be negligible and thus the value of interfacial free energy between the silica nanoparticles and epoxy polymer matrix does not enter into the formulation of the model [21-23].
+0.869	[*A*]the contribution to the increase in toughness due to particle debonding[*R*]to be[*A*]negligible	context()	negated: False ,passive: True
+[LINE#108]However, although the energy absorbed by debonding is small, the process of debonding is vital for plastic void growth of the epoxy polymer to occur.
+0.937	[*A*]the process of debonding[*R*]is[*A*]vital for plastic void growth of the epoxy polymer	context()	negated: False ,passive: True
+0.853	[*A*]the energy absorbed by debonding[*R*]is[*A*]small	context()	negated: False ,passive: True
+0.767	[*A*]the energy[*R*]absorbed[*A*]by debonding	context()	negated: False ,passive: True
+[LINE#109]Ideally, whether or not the particles debond should be predicted prior to undertaking fracture tests, rather than relying upon analysis of the fracture surfaces after fracture testing.
+[LINE#110]Therefore, it is necessary to consider firstly the role of the adhesion of the particles to the matrix. .
+[LINE#111]Adhesion of the particles to the matrixPuknsky and Vrs [24-26] showed that very different levels of particle to matrix interfacial adhesion could be obtained with particle-filled polymers, including glass-particle modified epoxy polymers.
+0.687	[*A*]interfacial adhesion[*R*]could be obtained	context(Adhesion of the particles to Vrs showed)	negated: False ,passive: False
+0.881	[*A*]Adhesion of the particles to Vrs[*R*]showed[*A*]that very different levels of particle to matrix interfacial adhesion could be obtained with particle - filled polymers , including glass - particle modified epoxy polymers	context()	negated: False ,passive: False
+0.687	[*A*]interfacial adhesion[*R*]could be obtained	context(Adhesion of the particles to the matrixPuknsky showed)	negated: False ,passive: False
+0.890	[*A*]Adhesion of the particles to the matrixPuknsky[*R*]showed[*A*]that very different levels of particle to matrix interfacial adhesion could be obtained with particle - filled polymers , including glass - particle modified epoxy polymers	context()	negated: False ,passive: False
+0.785	[*A*]very different levels of particle[*R*]to matrix	context()	negated: False ,passive: False
+[LINE#112]Also, they showed that the degree of adhesion has a marked effect on the observed yield stress at different volume fractions, as was also shown by Dekkers and Heikens [27].
+0.957	[*A*]the degree of adhesion[*R*]has[*A*]a marked effect on the observed yield stress at different volume fractions[*A*]as was also shown by Heikens [ 27	context(they showed)	negated: False ,passive: False
+0.465	[*A*]they[*R*]showed[*A*]that the degree of adhesion has a marked effect on the observed yield stress at different volume fractions , as was also shown by Heikens [ 27 ]	context()	negated: False ,passive: False
+0.949	[*A*]the degree of adhesion[*R*]has[*A*]a marked effect on the observed yield stress at different volume fractions	context(they showed)	negated: False ,passive: False
+0.419	[*A*]they[*R*]showed[*A*]that the degree of adhesion has a marked effect on the observed yield stress at different volume fractions , as was also shown by Dekkers	context()	negated: False ,passive: False
+[LINE#113]The work of Puknsky and Vrs [24-26] focused on using stress-averaging principles to develop predictive models for the variation of the yield stress as a function of the volume fraction of glass particles.
+0.954	[*A*]The work of Vrs[*R*]focused[*A*]on using stress - averaging principles to develop predictive models for the variation of the yield stress as a function of the volume fraction of glass particles	context()	negated: False ,passive: False
+0.954	[*A*]The work of Puknsky[*R*]focused[*A*]on using stress - averaging principles to develop predictive models for the variation of the yield stress as a function of the volume fraction of glass particles	context()	negated: False ,passive: False
+[LINE#114]The general trend in their work was in good agreement to that of Vollenberg et al.
+0.602	[*A*]The general trend in their work[*R*]was[*A*]in good agreement to that of Vollenberg et al	context()	negated: False ,passive: True
+[LINE#115]These studies revealed that (i) smaller particles generated relatively higher values of the yield stress for a given level of particle-matrix adhesion and that (ii) strong interfacial adhesion leads to matrix yielding, whilst decreased particle-matrix interaction leads to debonding with a corresponding dependence of the yield stress on the particle volume fraction.
+0.941	[*A*]decreased particle - matrix interaction[*R*]leads[*A*]to debonding with a corresponding dependence of the yield stress on the particle volume fraction	context(These studies revealed)	negated: False ,passive: False
+0.923	[*A*]These studies[*R*]revealed[*A*]whilst decreased particle - matrix interaction leads to debonding with a corresponding dependence of the yield stress on the particle volume fraction	context()	negated: False ,passive: False
+0.909	[*A*]ii ) strong interfacial adhesion[*R*]leads[*A*]to matrix yielding	context(These studies revealed)	negated: False ,passive: False
+0.814	[*A*]These studies[*R*]revealed[*A*]that ( ii ) strong interfacial adhesion leads to matrix yielding	context()	negated: False ,passive: False
+0.929	[*A*](i) smaller particles[*R*]generated[*A*]relatively higher values of the yield stress for a given level of particle - matrix adhesion	context(These studies revealed)	negated: False ,passive: False
+0.814	[*A*]These studies[*R*]revealed[*A*]that (i) smaller particles generated relatively higher values of the yield stress for a given level of particle - matrix adhesion	context()	negated: False ,passive: False
+[LINE#116]Further, these authors reported that the interphase properties, the degree of interfacial adhesion and the particle size determined the stress necessary to separate the particle-matrix interface.
+0.944	[*A*]the degree of the particle size[*R*]determined[*A*]the stress necessary to separate the particle - matrix interface	context(these authors reported)	negated: False ,passive: False
+0.939	[*A*]the degree of interfacial adhesion[*R*]determined[*A*]the stress necessary to separate the particle - matrix interface	context(these authors reported)	negated: False ,passive: False
+0.857	[*A*]these authors[*R*]reported[*A*]the interphase properties	context()	negated: False ,passive: False
+[LINE#117]Indeed, Puknsky and Vrs extended their earlier work to include the interphase properties that surround the particles [33], recently reviewed in Ref.
+0.762	[*A*]Vrs[*R*]extended[*A*]their earlier work[*A*]to include the interphase properties	context()	negated: False ,passive: False
+0.973	[*A*]the interphase properties that surround the particles [ 33 ][*R*]reviewed[*A*]in Ref[*A*]recently	context()	negated: False ,passive: True
+0.862	[*A*]Puknsky[*R*]extended[*A*]their earlier work[*A*]to include the interphase properties	context()	negated: False ,passive: False
+[LINE#118]This is relevant with respect to the work of Zhang et al.
+0.612	[*A*]This[*R*]is[*A*]relevant with respect to the work of Zhang et al	context()	negated: False ,passive: True
+[LINE#119][35] who have predicted the formation of an interphase in silica nanoparticle-modified epoxies, but were unable to support their hypothesis with experimental evidence.
+[LINE#120][36] reported the formation of an interphase around silica nanoparticles in their modified polystyrene using small-angle neutron-scattering experiments.
+0.468	[*A*]36[*R*]reported[*A*]the formation of an interphase around silica nanoparticles in their modified polystyrene	context()	negated: False ,passive: False
+[LINE#121]Considering the level of interfacial adhesion, Kawaguchi and Pearson [37,38] varied the adhesion in glass-bead filled epoxies by using an adhesion promoter, i.e. aminopropyltrimethoxysilane, to coat the glass beads and found that better adhesion resulted in higher values of the yield stress in their modified epoxy polymers.
+0.862	[*A*]better adhesion[*R*]resulted[*A*]in higher values of the yield stress in their modified epoxy polymers	context(the level found)	negated: False ,passive: True
+0.803	[*A*]the level[*R*]found[*A*]that better adhesion resulted in higher values of the yield stress in their modified epoxy polymers[*A*]Considering	context()	negated: False ,passive: False
+[LINE#122]Many researchers, for example Gent [39], Nicholson [40] and more recently, Chen et al.
+[LINE#123][41,42] and Williams [43] have reported a strong dependence of debonding stress on the particle size, with other notable studies reported in Refs.
+0.940	[*A*]Williams[*R*]have reported[*A*]a strong dependence of debonding stress on the particle size , with other notable studies	context()	negated: False ,passive: False
+0.911	[*A*]other notable studies[*R*]reported[*A*]in Refs	context()	negated: False ,passive: True
+0.618	[*A*]41,42[*R*]have reported[*A*]a strong dependence of debonding stress on the particle size , with other notable studies	context()	negated: False ,passive: False
+[LINE#124] For example, the work of Chen etal. suggests that the debonding stress is relatively high for particles in the nanometre size range.
+0.913	[*A*]the debonding stress[*R*]is[*A*]relatively high for particles in the nanometre size range	context(the work of Chen etal suggests)	negated: False ,passive: True
+0.865	[*A*]the work of Chen etal[*R*]suggests[*A*]that the debonding stress is relatively high for particles in the nanometre size range	context()	negated: False ,passive: False
+[LINE#125]As indicated above, the work of Puknsky and Vrs [24-26] may be used to semi-quantitatively evaluate the interfacial adhesion between the silica nanoparticles and the epoxy matrix polymer.
+0.954	[*A*]the work of Vrs[*R*]may be used[*A*]to semi-quantitatively evaluate the interfacial adhesion between the silica nanoparticles and the epoxy matrix polymer	context()	negated: False ,passive: True
+0.954	[*A*]the work of Puknsky[*R*]may be used[*A*]to semi-quantitatively evaluate the interfacial adhesion between the silica nanoparticles and the epoxy matrix polymer	context()	negated: False ,passive: True
+[LINE#126]Now, since the reversible work of adhesion for the various particle-epoxy interfaces is unknown, they proposed a simple model to quantify the interfacial strength.
+0.741	[*A*]they[*R*]proposed[*A*]a simple model to quantify the interfacial strength[*A*]Now	context()	negated: False ,passive: False
+0.920	[*A*]the reversible work of adhesion for the various particle-epoxy interfaces[*R*]is[*A*]unknown	context()	negated: False ,passive: True
+[LINE#127] Assuming that the particles carry a load proportional to their volume fraction, Puknszky and Vrs [24,25] proposed that:(4)e the applied stress acting on the modified polymer, e is a function of the volume fraction, vf, of particles, the proportionality constant, k, for stress transfer between the particles and the matrix, and the average stress in the matrix, m.
+0.911	[*A*]the applied stress[*R*]acting[*A*]on the modified polymer	context()	negated: False ,passive: False
+[LINE#128] The first term expresses the stress carried by the particles, with the second expressing the stress in the matrix; i.e. if there are no particles presentthen the applied stress is equal to the average matrix stress.
+0.385	[*A*]the applied stress[*R*]is equal to[*A*]the average matrix stress	context()	negated: False ,passive: False
+0.903	[*A*]the stress[*R*]carried[*A*]by the particles	context()	negated: False ,passive: True
+0.899	[*A*]The first term[*R*]expresses[*A*]the stress carried by the particles, with the second expressing the stress in the matrix; i.e. if there are no particles presentthen the applied stress is equal to the average matrix stress	context()	negated: False ,passive: False
+[LINE#129]This can be simplified further by taking m to be the yield stress of the matrix, which is expressed for the unmodified epoxy in the equation below by yu.
+0.887	[*A*]the matrix[*R*]is expressed[*A*]for the unmodified epoxy in the equation below[*A*]by yu	context()	negated: False ,passive: True
+0.178	[*A*]This[*R*]can be simplified[*A*]further	context()	negated: False ,passive: True
+[LINE#130]yu(1-vf)(1-kvf)where e is now the applied stress needed to produce yielding in the modified polymer.
+0.911	[*A*]the applied stress[*R*]needed[*A*]to produce yielding in the modified polymer	context()	negated: False ,passive: True
+0.852	[*A*]e[*R*]is[*A*]now[*A*]the applied stress needed	context()	negated: False ,passive: True
+[LINE#131]The magnitude of k was reported to be greater than 0 for rigid particles and to increase with the level of particle-matrix adhesion.
+0.905	[*A*]The magnitude of k[*R*]to increase[*A*]with the level of particle - matrix adhesion	context()	negated: False ,passive: True
+0.905	[*A*]The magnitude of k[*R*]to be[*A*]greater than 0 for rigid particles	context()	negated: False ,passive: True
+0.769	[*A*]The magnitude of k[*R*]was reported	context()	negated: False ,passive: False
+[LINE#132](No maximum can be given to the value of k because this is entirely dependent on the interphase region that forms between the particles and matrix.
+0.920	[*A*]the interphase region[*R*]forms[*A*]between the particles and matrix	context()	negated: False ,passive: True
+0.449	[*A*]this[*R*]is[*A*]entirely dependent on the interphase region	context()	negated: False ,passive: True
+0.903	[*A*]No maximum[*R*]can be given[*A*]to the value of k[*A*]because this is entirely dependent on the interphase region	context()	negated: False ,passive: True
+[LINE#133] The value of k = 0 for the assumption of voids present in the epoxy would provide the lower limit to the model.).
+0.970	[*A*]The value of k = 0 for the assumption of voids present in the epoxy[*R*]would provide[*A*]the lower limit[*A*]to the model	context()	negated: False ,passive: False
+[LINE#134] Plots of the normalised yield stress of the modified epoxy polymers (i.e. normalised relative to the unmodified epoxy) versus the volume fraction, vf, of the silica nanoparticles in the different epoxy polymers are shown in Fig..
+0.997	[*A*]Plots of the normalised yield stress of the modified epoxy polymers (i.e. normalised relative to the unmodified epoxy) versus the volume fraction, vf, of the silica nanoparticles in the different epoxy polymers[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#135]The lines represent the predictions of the model of Vrs and Puknszky [24,25] using the values of the interfacial parameter, k, as stated.
+0.824	[*A*]The lines[*R*]represent the predictions of the model of Puknszky using[*A*]the values of the interfacial parameter , k	context(The lines represent)	negated: False ,passive: False
+0.896	[*A*]The lines[*R*]represent[*A*]the predictions of the model of Puknszky	context()	negated: False ,passive: False
+0.824	[*A*]The lines[*R*]represent the predictions of the model of Vrs using[*A*]the values of the interfacial parameter , k	context(The lines represent)	negated: False ,passive: False
+0.896	[*A*]The lines[*R*]represent[*A*]the predictions of the model of Vrs	context()	negated: False ,passive: False
+[LINE#136]Firstly, the values for the three piperidine-cured epoxy polymers, containing particle sizes of 23, 74 or 170 nm, clearly show that the plots for the three particle sizes lie close to one another, and thus the respective values of k are in good agreement.
+0.804	[*A*]the plots for the three particle sizes[*R*]lie[*A*]close to one another	context(the values for the three piperidine - cured epoxy polymers clearly show)	negated: False ,passive: True
+0.885	[*A*]the values for the three piperidine-cured epoxy polymers[*R*]clearly show[*A*]that the plots for the three particle sizes lie close to one another, and thus the respective values of k are in good agreement	context()	negated: False ,passive: False
+0.926	[*A*]the respective values of k[*R*]are[*A*]in good agreement	context()	negated: False ,passive: True
+0.927	[*A*]the three piperidine-cured epoxy polymers[*R*]containing[*A*]particle sizes of 23	context()	negated: False ,passive: False
+[LINE#137]This reveals that, within the range of particle sizes that were studied, there is no effect of the particle size on the degree of adhesion between the particles to the matrix.
+0.135	[*A*]This[*R*]reveals[*A*]that, within the range of particle sizes that were studied, there is no effect of the particle size on the degree of adhesion between the particles to the matrix	context()	negated: False ,passive: False
+0.756	[*A*]the range of particle sizes[*R*]were studied	context()	negated: False ,passive: False
+[LINE#138]Secondly, the data from the present work fits within the region of values of k, and hence the adhesion levels, where debonding and void growth were observed previously in other nanosilica-modified epoxy polymers by Hsieh et al.
+0.970	[*A*]void growth[*R*]were observed[*A*]previously[*A*]in other nanosilica - modified epoxy polymers by Hsieh et al[*A*]hence the adhesion levels	context()	negated: False ,passive: True
+0.967	[*A*]debonding[*R*]were observed[*A*]previously[*A*]in other nanosilica - modified epoxy polymers by Hsieh et al[*A*]hence the adhesion levels	context()	negated: False ,passive: True
+0.967	[*A*]the data from the present work[*R*]fits[*A*]within the region of values of hence the adhesion levels	context()	negated: False ,passive: True
+0.948	[*A*]the data from the present work[*R*]fits[*A*]within the region of values of k	context()	negated: False ,passive: True
+[LINE#139]Hence, from both of these observations, it would be expected that all three piperidine-cured epoxy polymers, containing particle sizes of 23, 74 or 170 nm, examined in the present study will exhibit particle debonding, followed by plastic void growth of the epoxy matrix polymer, prior to fracture.
+0.157	[*A*]it[*R*]would be expected	context()	negated: False ,passive: False
+0.698	[*A*]particle debonding[*R*]followed	context()	negated: False ,passive: False
+0.905	[*A*]74 or 170 nm[*R*]examined[*A*]in the present study	context()	negated: False ,passive: True
+[LINE#140]Thus, it is predicted that the toughening mechanisms of plastic shear-band yielding and debonding followed by plastic void growth will both occur for all the materials studied in the present work. .
+0.816	[*A*]the toughening mechanisms of plastic shear debonding[*R*]followed	context()	negated: False ,passive: False
+0.911	[*A*]all the materials[*R*]studied[*A*]in the present work	context()	negated: False ,passive: True
+0.843	[*A*]the toughening mechanisms of plastic shear - band yielding[*R*]followed	context()	negated: False ,passive: False
+[LINE#141]Modelling shear-band yieldingThe energy contribution from plastic shear-band yielding, Gs, initiated by the presence of the particles is related to the size of the plastic zone from Ref.
+0.954	[*A*]shear-band yieldingThe energy contribution from plastic shear-band yielding[*R*]initiated[*A*]by the presence of the particles	context()	negated: False ,passive: True
+[LINE#142] by:(6)Gs=0.5vfycfF(ry)where vf is the volume fraction of the silica nanoparticles, yc is the plane-strain compressive true yield stress, and f is the true fracture strain for the unmodified epoxy, see Table 2.
+0.449	[*A*]f[*R*]is[*A*]the true fracture strain for the unmodified epoxy	context()	negated: False ,passive: True
+0.852	[*A*]yc[*R*]is[*A*]the plane - strain compressive true yield stress	context()	negated: False ,passive: True
+0.852	[*A*]vf[*R*]is[*A*]the volume fraction of the silica nanoparticles	context()	negated: False ,passive: True
+[LINE#143]The F(ry) term takes a modified form of the original formulation of the model, from Ref.
+0.973	[*A*]The F(ry) term[*R*]takes[*A*]a modified form of the original formulation of the model, from Ref	context()	negated: False ,passive: False
+[LINE#144] [13], to be:(7)F(ry)=ry[(43vf)1/3(1-rpry)3-85(1-rpry)(rpry)5/2-1635(rpry)7/2-2(1-rpry)2+the rp is the radius of the particle and ry is the radius of the plane-strain plastic zone at the crack tip at fracture in the nanoparticle-modified polymer.
+0.999	[*A*]F ( ry ) =ry [ ( 43vf ) 1/3 ( 1 - rpry ) 3-85 ( 1 - rpry ) ( rpry ) 5/2 - 1635 ( rpry ) 7/2 - 2 ( 1 - rpry ) 2+the rp is the radius of the ry[*R*]is[*A*]the radius of the plane - strain plastic zone at the crack tip at fracture in the nanoparticle - modified polymer	context()	negated: False ,passive: True
+0.964	[*A*]7/2 - 2 ( 1 - rpry ) 2+the rp[*R*]is[*A*]the radius of the ry	context()	negated: False ,passive: True
+0.999	[*A*]F ( ry ) =ry [ ( 43vf ) 1/3 ( 1 - rpry ) 3-85 ( 1 - rpry ) ( rpry ) 5/2 - 1635 ( rpry ) 7/2 - 2 ( 1 - rpry ) 2+the rp is the radius of the particle[*R*]is[*A*]the radius of the plane - strain plastic zone at the crack tip at fracture in the nanoparticle - modified polymer	context()	negated: False ,passive: True
+0.964	[*A*]7/2 - 2 ( 1 - rpry ) 2+the rp[*R*]is[*A*]the radius of the particle	context()	negated: False ,passive: True
+[LINE#145] The value of ry is given by:(8)ry=.
+0.799	[*A*]The value of ry[*R*]is given[*A*]by:(8)ry=	context()	negated: False ,passive: True
+[LINE#146]Kp2(1+m31/2)2rpzwhere Kp is the maximum stress concentration for the von Mises stresses around a rigid particle, and m is a material constant which allows for the pressure-dependency of the yield stress.
+0.551	[*A*]a material constant[*R*]allows[*A*]for the pressure-dependency of the yield stress	context()	negated: False ,passive: False
+0.903	[*A*]m[*R*]is[*A*]a material constant which allows for the pressure-dependency of the yield stress	context()	negated: False ,passive: True
+0.927	[*A*]Kp2[*R*]is[*A*]the maximum stress concentration for the von Mises stresses around a rigid particle	context()	negated: False ,passive: True
+[LINE#147] The value of m was shown by Sultan and McGarry [45] to be in the range from 0.175 to 0.225.
+0.905	[*A*]The value of m[*R*]to be[*A*]in the range from 0.175 to 0.225	context()	negated: False ,passive: True
+0.931	[*A*]The value of m[*R*]was shown[*A*]by Sultan and McGarry	context()	negated: False ,passive: True
+[LINE#148]The value of Kp is dependent on the volume fraction of particles, and was calculated from the data of Guild and Young [46].
+0.385	[*A*]Kp[*R*]is dependent on[*A*]the volume fraction	context()	negated: False ,passive: False
+0.940	[*A*]The value of Kp[*R*]was calculated[*A*]from the data of Guild and Young	context()	negated: False ,passive: True
+0.953	[*A*]The value of Kp[*R*]is[*A*]dependent on the volume fraction of particles	context()	negated: False ,passive: True
+[LINE#149]The value of Kp varies from approximately 1.65-1.85 for the range of volume fractions used in the present work.
+0.903	[*A*]volume fractions[*R*]used[*A*]in the present work	context()	negated: False ,passive: True
+0.939	[*A*]The value of Kp[*R*]varies[*A*]from approximately 1.65-1.85 for the range of volume fractions	context()	negated: False ,passive: True
+[LINE#150]The value of rpz, the Irwin prediction of the plane-strain plastic zone radius for the unmodified epoxy at fracture, was calculated from Ref.
+0.989	[*A*]The value of rpz, the Irwin prediction of the plane-strain plastic zone radius for the unmodified epoxy at fracture[*R*]was calculated[*A*]from Ref	context()	negated: False ,passive: True
+[LINE#151] as:(9)rpz=16KCU2yt2where KCU is the fracture toughness and ytis the tensile yield stress for the unmodified epoxy polymer.
+0.926	[*A*]KCU[*R*]is[*A*]ytis the tensile yield stress for the unmodified epoxy polymer	context()	negated: False ,passive: True
+0.887	[*A*]KCU[*R*]is[*A*]the fracture toughness	context()	negated: False ,passive: True
+[LINE#152]It should be noted that, via equation.
+0.195	[*A*]It[*R*]should be noted	context()	negated: False ,passive: False
+[LINE#153](7), the shear banding term is dependent on particle size, i.e. smaller particles provide a greater contribution to the value of Gs. .
+0.385	[*A*]the shear banding term[*R*]is dependent on[*A*]particle size	context()	negated: False ,passive: False
+0.937	[*A*]the shear banding term[*R*]is[*A*]dependent on particle size	context()	negated: False ,passive: True
+[LINE#154] Modelling plastic void growthAlthoughthe energy contribution from debonding is considered to be negligible, particle debonding is of great importance since this reduces the constraint at the crack-tip and allows the epoxy matrix polymer to deform plastically via void growth mechanisms.
+0.818	[*A*]plastic void growthAlthoughthe energy contribution from debonding[*R*]to be[*A*]negligible	context()	negated: False ,passive: True
+0.381	[*A*]this[*R*]reduces[*A*]the constraint	context()	negated: False ,passive: False
+0.952	[*A*]particle debonding[*R*]is[*A*]of great importance[*A*]since this reduces the constraint at the crack - tip	context()	negated: False ,passive: True
+0.832	[*A*]Modelling plastic void growthAlthoughthe energy contribution from debonding[*R*]to be[*A*]negligible	context()	negated: False ,passive: True
+[LINE#155]The contribution of Gv via the plastic void growth mechanism, assuming that 100% of the particles present debond, was taken from Ref.
+0.910	[*A*]100% of the particles[*R*]was taken[*A*]from Ref	context(The contribution of Gv via the plastic void growth mechanism assuming)	negated: False ,passive: True
+0.929	[*A*]The contribution of Gv via the plastic void growth mechanism[*R*]assuming[*A*]that 100% of the particles present debond, was taken from Ref	context()	negated: False ,passive: False
+[LINE#156] [20] as:(10)Gv=(1-m23)(vfv-vf)ycrpzKv2where m is a material constant which allows for the pressure-dependency of the yield stress [45] and was taken to be 0.2, vfv and vfare the volume fraction of voids and the volume fraction of silica nanoparticles.
+0.551	[*A*]a material constant[*R*]allows[*A*]for the pressure-dependency of the yield stress	context()	negated: False ,passive: False
+0.964	[*A*]ycrpzKv2where m[*R*]is[*A*]a material constant which allows for the pressure-dependency of the yield stress	context()	negated: False ,passive: True
+[LINE#157]The value of vfv was calculated from a void radius, rpv, of (1 + f)rp [12], i.e. based upon the maximum hoop strain that a shell void could sustain, see Table 2.
+0.913	[*A*]a shell void[*R*]see[*A*]Table 2	context()	negated: False ,passive: False
+0.945	[*A*]the maximum hoop strain[*R*]could sustain[*A*]a shell void	context()	negated: False ,passive: True
+0.948	[*A*]The value of vfv[*R*]was calculated[*A*]from a void radius, rpv, of (1 + f)rp [12	context()	negated: False ,passive: True
+[LINE#158]The value of Kv is taken as the von Mises stress concentration factor for voids from the work of Guild and Young [48].
+0.949	[*A*]The value of Kv[*R*]is taken[*A*]as the von Mises stress concentration factor	context()	negated: False ,passive: True
+[LINE#159]The value of Kv was allowed to vary linearly between 2.11 and 2.14 for the volume fractions considered in the present study.
+0.911	[*A*]the volume fractions[*R*]considered[*A*]in the present study	context()	negated: False ,passive: True
+0.928	[*A*]The value of Kv[*R*]to vary[*A*]linearly[*A*]between 2.11 and 2.14 for the volume fractions	context()	negated: False ,passive: True
+0.818	[*A*]The value of Kv[*R*]was allowed	context()	negated: False ,passive: False
+[LINE#160]Now, as written it should be noted that equation (8) assumes that 100% of the silica nanoparticles present will debond, and hence allow plastic void growth of the matrix to occur.
+[LINE#161]However, it is very significant that Hsieh et al.
+[LINE#162][12,13] observed that only 15  5% of the silica nanoparticles present actually debonded and so resulted in plastic void growth of the epoxy polymer, and this observation was independent of the epoxy matrix used.
+0.551	[*A*]12,13 ] observed[*R*]resulted[*A*]in plastic void growth of the epoxy polymer	context()	negated: False ,passive: True
+0.737	[*A*]the silica nanoparticles present[*R*]debonded	context()	negated: False ,passive: False
+0.229	[*A*]12,13[*R*]observed	context()	negated: False ,passive: False
+0.751	[*A*]the epoxy matrix[*R*]used	context()	negated: False ,passive: False
+0.925	[*A*]this observation[*R*]was[*A*]independent of the epoxy matrix	context()	negated: False ,passive: True
+[LINE#163]However, to obtain this value it was necessary to undertake fracture tests on all the different materials and then to examine in detail their fracture surfaces.
+[LINE#164]However, for the model to be fully predictive it would be ideal to predict a priori the proportion of the nanoparticles present that will debond, without reference to the fracture surfaces obtained after the fracture tests have been completed. .
+0.911	[*A*]the fracture surfaces[*R*]obtained[*A*]after the fracture tests	context()	negated: False ,passive: True
+0.229	[*A*]present[*R*]will debond	context()	negated: False ,passive: False
+0.773	[*A*]the proportion of the nanoparticles present[*R*]have been completed	context()	negated: False ,passive: False
+0.767	[*A*]the model[*R*]to be[*A*]fully predictive	context()	negated: False ,passive: True
+[LINE#165]Predicting debonding of the silica nanoparticlesThe effect of debonding of a nanoparticle on the local stress-field was investigated using finite-element analysis, employing 'Abaqus version 6.12, Implicit'.
+0.756	[*A*]Predicting debonding of the silica[*R*]was investigated	context()	negated: False ,passive: False
+[LINE#166]The mesh was drawn in two-dimensions using a single layer of elements to allow the application of a pure hydrostatic stress.
+0.926	[*A*]a single layer of elements[*R*]to allow[*A*]the application of a pure hydrostatic stress	context()	negated: False ,passive: False
+0.903	[*A*]The mesh[*R*]was drawn[*A*]in two-dimensions	context()	negated: False ,passive: True
+[LINE#167]The mesh is shown in Fig. 5, with one particle debonded at A and the particles are arranged so that the nearest inter-particle distances are equal.
+0.903	[*A*]one particle[*R*]debonded[*A*]at the particles	context()	negated: False ,passive: True
+0.799	[*A*]the nearest inter-particle distances[*R*]are[*A*]equal	context()	negated: False ,passive: True
+0.133	[*A*]5[*R*]are arranged	context()	negated: False ,passive: False
+0.767	[*A*]one particle[*R*]debonded[*A*]at A	context()	negated: False ,passive: True
+0.918	[*A*]The mesh[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#168]This mesh represents 13.7 vol% of particles, which is equivalent to 20 wt% of particles.
+0.615	[*A*]This mesh[*R*]has particles of[*A*]13.7 vol %	context()	negated: False ,passive: False
+0.999	[*A*]This mesh[*R*]represents[*A*]13.7 vol %	context()	negated: False ,passive: False
+0.933	[*A*]13.7 vol% of particles[*R*]is[*A*]equivalent to 20 wt% of particles	context()	negated: False ,passive: True
+0.937	[*A*]This mesh[*R*]represents[*A*]13.7 vol% of particles, which is equivalent to 20 wt% of particles	context()	negated: False ,passive: False
+[LINE#169]The relative size of the nanoparticles was calculated assuming that the two-dimensional area fraction is equal to the three-dimensional volume fraction, see above.
+0.385	[*A*]the two - dimensional area fraction[*R*]is equal to[*A*]the three - dimensional volume fraction	context()	negated: False ,passive: False
+0.801	[*A*]The relative size of the nanoparticles[*R*]was calculated	context()	negated: False ,passive: False
+[LINE#170]Around the void, the particles are identified by numbers.
+0.943	[*A*]the particles[*R*]are identified[*A*]by numbers[*A*]Around the void	context()	negated: False ,passive: True
+[LINE#171]Mirror boundary conditions were imposed on each edge of the mesh, with stress and constraining equal displacements imposed on edges BC and CD, and with edges AB and DA constrained in the orthogonal direction.
+0.918	[*A*]equal displacements[*R*]imposed[*A*]on CD	context()	negated: False ,passive: True
+0.903	[*A*]equal displacements[*R*]imposed[*A*]on edges	context()	negated: False ,passive: True
+0.903	[*A*]edges DA[*R*]constrained[*A*]in the orthogonal direction	context()	negated: False ,passive: True
+0.877	[*A*]edges[*R*]constrained[*A*]in the orthogonal direction	context()	negated: False ,passive: True
+0.933	[*A*]Mirror boundary conditions[*R*]were imposed[*A*]on each edge of the mesh	context()	negated: False ,passive: True
+[LINE#172]The bottom plane of the mesh was constrained in the orthogonal direction, with stress and constraining equal displacements imposed on the top surface.
+0.903	[*A*]equal displacements[*R*]imposed[*A*]on the top surface	context()	negated: False ,passive: True
+0.932	[*A*]The bottom plane of the mesh[*R*]was constrained[*A*]in the orthogonal direction[*A*]with constraining equal displacements	context()	negated: False ,passive: True
+0.932	[*A*]The bottom plane of the mesh[*R*]was constrained[*A*]in the orthogonal direction[*A*]with stress	context()	negated: False ,passive: True
+[LINE#173]Analyses were also undertaken with all the particles present.
+0.847	[*A*]Analyses[*R*]were undertaken[*A*]with all the particles present	context()	negated: False ,passive: True
+[LINE#174]Elastic material properties were assumed for the silica nanoparticles and elastic-plastic properties, matched to the experimental stress-strain results, were used for the epoxy matrix polymer.
+0.905	[*A*]elastic - plastic properties[*R*]matched[*A*]to the experimental stress - strain results	context()	negated: False ,passive: True
+0.897	[*A*]Elastic material properties[*R*]were used[*A*]for the epoxy matrix polymer	context()	negated: False ,passive: True
+0.751	[*A*]Elastic material properties[*R*]were assumed	context()	negated: False ,passive: False
+[LINE#175]5 is a deformed mesh, which is clear from the relative size of the void and the silica nanoparticles.
+0.920	[*A*]a deformed mesh[*R*]is[*A*]clear from the relative size of the silica nanoparticles	context()	negated: False ,passive: True
+0.567	[*A*]5[*R*]is[*A*]a deformed mesh , which is clear from the relative size of the silica nanoparticles	context()	negated: False ,passive: True
+0.920	[*A*]a deformed mesh[*R*]is[*A*]clear from the relative size of the void	context()	negated: False ,passive: True
+0.567	[*A*]5[*R*]is[*A*]a deformed mesh , which is clear from the relative size of the void	context()	negated: False ,passive: True
+[LINE#176]Essentially, it was found that the growth of the void alters the stress-state around the surrounding nanoparticles.
+0.909	[*A*]the growth of the void[*R*]alters[*A*]the stress-state around the surrounding nanoparticles	context(it was found)	negated: False ,passive: False
+0.162	[*A*]it[*R*]was found	context()	negated: False ,passive: False
+[LINE#177]An energy-based criterion was used to predict debonding of the particles.
+0.913	[*A*]An energy-based criterion[*R*]to predict[*A*]debonding of the particles	context()	negated: False ,passive: False
+0.926	[*A*]An energy-based criterion[*R*]was used[*A*]to predict debonding of the particles	context()	negated: False ,passive: True
+[LINE#178]The method used has been fully described elsewhere [49] and essentially it proposes that the criterion for debonding is based upon the energy released by the debonding process.
+0.897	[*A*]the criterion for debonding[*R*]is based[*A*]upon the energy	context(it proposes)	negated: False ,passive: True
+0.271	[*A*]it[*R*]proposes[*A*]that the criterion for debonding is based upon the energy	context()	negated: False ,passive: False
+0.903	[*A*]the energy[*R*]released[*A*]by the debonding process	context()	negated: False ,passive: True
+0.783	[*A*]The method used[*R*]has been fully described[*A*]elsewhere	context()	negated: False ,passive: True
+[LINE#179]To obtain the parameters needed for this energy-based criterion, a finite-element analysis modelling study has been used to derive the change in strain-energy arising from the cavitation process, with the addition of the strain-energy stored in the particle prior to debonding.
+0.927	[*A*]a finite-element analysis modelling study[*R*]to derive[*A*]the change in strain-energy arising from the cavitation process	context()	negated: False ,passive: False
+0.960	[*A*]a finite-element analysis modelling study[*R*]has been used[*A*]to derive the change in strain-energy arising from the cavitation process	context()	negated: False ,passive: True
+0.903	[*A*]the parameters[*R*]needed[*A*]for this energy-based criterion	context()	negated: False ,passive: True
+0.903	[*A*]the strain-energy[*R*]stored[*A*]in the particle[*A*]prior to debonding	context()	negated: False ,passive: True
+[LINE#180]The applied stress used for these simulations was derived from experimental observations.
+0.938	[*A*]The applied stress used for these simulations[*R*]was derived[*A*]from experimental observations	context()	negated: False ,passive: True
+0.911	[*A*]The applied stress[*R*]used[*A*]for these simulations	context()	negated: False ,passive: True
+[LINE#181]Namely, as implied above, the debonding of the silica nanoparticles from the epoxy matrix polymer appears to take place during the elastic deformation region and, as shown in Table 1, the yield stress for all modified epoxy polymers is approximately equal, irrespective of particle size.
+0.957	[*A*]the yield stress for all modified epoxy polymers[*R*]is[*A*]approximately equal[*A*]irrespective of particle size	context()	negated: False ,passive: True
+0.949	[*A*]the debonding of the silica nanoparticles from the epoxy matrix polymer[*R*]to take[*A*]place[*A*]during the elastic deformation region	context()	negated: False ,passive: True
+0.867	[*A*]the debonding of the silica nanoparticles from the epoxy matrix polymer[*R*]appears	context()	negated: False ,passive: False
+[LINE#182]It has therefore been assumed that the debonding takes place at an applied uniaxial stress of about 70 MPa, which equates to a hydrostatic stress at the crack tip of about 210 MPa.
+0.958	[*A*]about 70 MPa[*R*]equates[*A*]to a hydrostatic stress at the crack tip of about 210 MPa	context()	negated: False ,passive: False
+[LINE#183]Thus, the finite-element analysis simulations were analysed for an applied hydrostatic stress of 210 MPa.
+0.943	[*A*]the finite-element analysis simulations[*R*]were analysed[*A*]for an applied hydrostatic stress of 210 MPa	context()	negated: False ,passive: True
+[LINE#184] 6 where values of the energy required for debonding have been extracted for five of the numbered particles shown in Fig.they are also compared with the value for the isolated particle extracted from the analyses without the void.
+0.992	[*A*]6[*R*]are compared with[*A*]the value for the isolated particle extracted from the analyses without the void	context()	negated: False ,passive: False
+0.960	[*A*]6 where values of the energy required for debonding have been extracted for five of the numbered particles[*R*]are compared[*A*]with the value for the isolated particle	context()	negated: False ,passive: True
+0.942	[*A*]the numbered particles[*R*]shown[*A*]in Fig.they	context()	negated: False ,passive: True
+0.911	[*A*]the isolated particle[*R*]extracted[*A*]from the analyses	context()	negated: False ,passive: True
+0.945	[*A*]values of the energy[*R*]have been extracted[*A*]for five of the numbered particles[*A*]6	context()	negated: False ,passive: True
+0.903	[*A*]the energy[*R*]required[*A*]for debonding	context()	negated: False ,passive: True
+[LINE#185]The results show that the values of energy required to debond the particles closest to the void (caused by the debonded particle at A), i.e. particles numbered 1 and 2, are significantly higher than that required to debond an isolated particle.
+0.767	[*A*]i.e. particles[*R*]numbered[*A*]2	context()	negated: False ,passive: True
+0.875	[*A*]The results[*R*]show[*A*]that the values of energy required to debond the particles closest to the void ( caused by the debonded particle at A ) , i.e. particles numbered 2 , are significantly higher than that	context()	negated: False ,passive: False
+0.933	[*A*]the particles closest to the void[*R*]caused[*A*]by the debonded particle at A	context()	negated: False ,passive: True
+0.044	[*A*]that[*R*]required	context()	negated: False ,passive: False
+0.767	[*A*]i.e. particles[*R*]numbered[*A*]1	context()	negated: False ,passive: True
+0.496	[*A*]the values of energy[*R*]are[*A*]significantly higher than that	context(The results show)	negated: False ,passive: True
+0.875	[*A*]The results[*R*]show[*A*]that the values of energy required to debond the particles closest to the void ( caused by the debonded particle at A ) , i.e. particles numbered 1 , are significantly higher than that	context()	negated: False ,passive: False
+[LINE#186]Hence, these particles are shielded from debonding by the presence of the void.
+0.903	[*A*]these particles[*R*]are shielded[*A*]from debonding by the presence of the void	context()	negated: False ,passive: True
+[LINE#187]Results for the more distant particles (i.e. numbered 3, 4 and 6) show that the energies for debonding are all significantly closer in value to the energy required for the isolated particle.
+0.900	[*A*]the energies for debonding[*R*]are all[*A*]significantly closer in value to the energy	context(Results for the more distant particles ( i.e. numbered 3 , 4 show)	negated: False ,passive: True
+0.928	[*A*]Results for the more distant particles (i.e. numbered 3, 4[*R*]show[*A*]that the energies for debonding are all significantly closer in value to the energy	context()	negated: False ,passive: False
+0.903	[*A*]the energy[*R*]required[*A*]for the isolated particle	context()	negated: False ,passive: True
+0.771	[*A*]the more distant particles[*R*]i.e. numbered[*A*]3[*A*]4	context()	negated: False ,passive: True
+[LINE#188]Indeed, the value of energy required to debond particle 6 is almost identical to the value required for an isolated particle.
+0.903	[*A*]the value[*R*]required[*A*]for an isolated particle	context()	negated: False ,passive: True
+0.927	[*A*]the value of energy[*R*]is[*A*]almost identical to the value	context()	negated: False ,passive: True
+0.894	[*A*]energy[*R*]required[*A*]to debond particle 6	context()	negated: False ,passive: True
+[LINE#189](The energy required to debond particle 5 will be very similar to that of particle 6).
+0.847	[*A*]The energy required to debond particle 5[*R*]will be[*A*]very similar to that of particle 6	context()	negated: False ,passive: True
+0.903	[*A*]The energy[*R*]required[*A*]to debond particle 5	context()	negated: False ,passive: True
+[LINE#190] The energy values shown in Fig.6 are identical for all particle sizes, since they are normalised.
+0.361	[*A*]they[*R*]are[*A*]normalised	context()	negated: False ,passive: True
+0.882	[*A*]The energy values shown in Fig.6[*R*]are[*A*]identical for all particle sizes[*A*]since they are normalised	context()	negated: False ,passive: True
+0.932	[*A*]The energy values[*R*]shown[*A*]in Fig.6	context()	negated: False ,passive: True
+[LINE#191]However, since the value of energy is proportional to the volume of the particle, the actual energy values for the 174 nm diameter particle are more than 400 times the values for the 23 nm diameter particle.
+0.970	[*A*]the actual energy values for the 174 nm diameter particle[*R*]are[*A*]more than 400 times the values for the 23 nm diameter particle	context()	negated: False ,passive: True
+0.937	[*A*]the value of energy[*R*]is[*A*]proportional to the volume of the particle	context()	negated: False ,passive: True
+[LINE#192] Further work regarding this debonding process will include 3-dimensional analysis and investigation of the criteria for nanoparticle debonding which is expected to be size dependent [49,50].Now, the arrangement in Fig.5 is idealised, but it shows that the nearest neighbours to the void are shielded from debonding.
+0.788	[*A*]the nearest neighbours to the void[*R*]are shielded[*A*]from debonding	context(it shows)	negated: False ,passive: True
+0.932	[*A*]Further work regarding this debonding process[*R*]will include[*A*]investigation of the criteria for nanoparticle debonding	context()	negated: False ,passive: True
+0.917	[*A*]Further work regarding this debonding process[*R*]will include[*A*]investigation of the criteria for nanoparticle debonding	context(the arrangement in Fig.5 is idealised)	negated: False ,passive: True
+0.887	[*A*]nanoparticle debonding[*R*]to be[*A*]size dependent [ 49,50	context()	negated: False ,passive: True
+0.698	[*A*]nanoparticle debonding[*R*]is expected	context()	negated: False ,passive: False
+0.788	[*A*]the nearest neighbours to the void[*R*]are shielded[*A*]from debonding	context(it shows)	negated: False ,passive: True
+0.913	[*A*]Further work regarding this debonding process[*R*]will include[*A*]3 - dimensional analysis	context(it shows)	negated: False ,passive: True
+0.468	[*A*]it[*R*]shows[*A*]that the nearest neighbours to the void are shielded from debonding[*A*]Now	context()	negated: False ,passive: False
+0.889	[*A*]the arrangement in Fig.5[*R*]is idealised[*A*]Now	context()	negated: False ,passive: True
+0.932	[*A*]Further work regarding this debonding process[*R*]will include[*A*]3 - dimensional analysis	context()	negated: False ,passive: True
+[LINE#193]For a random distribution, the mean inter-particle distance would be a value between the distance from the void to particles 1 and 2, but Fig. 6 shows that the energy required to debond these particles is much higher than for particles further away from the void.
+0.963	[*A*]the energy required to debond these particles[*R*]is[*A*]much higher than for particles further away from the void	context(Fig . 6 shows)	negated: False ,passive: True
+0.896	[*A*]Fig. 6[*R*]shows[*A*]that the energy required to debond these particles is much higher than for particles further away from the void	context()	negated: False ,passive: False
+0.732	[*A*]the energy[*R*]required	context()	negated: False ,passive: False
+0.948	[*A*]the mean inter-particle distance[*R*]would be[*A*]a value between the distance from the void to particles 1 and 2	context()	negated: False ,passive: True
+[LINE#194]Hence, it is now necessary to generalise these findings to a random distribution of particles, where each nanoparticle is surrounded by a set of other nanoparticles which can be described as its nearest neighbours but without prescribing the inter-particle distance or the arrangement of the particles.
+0.873	[*A*]other nanoparticles[*R*]can be described[*A*]as its nearest neighbours but without prescribing the inter-particle distance or the arrangement of the particles	context()	negated: False ,passive: True
+0.943	[*A*]each nanoparticle[*R*]is surrounded[*A*]by a set of other nanoparticles[*A*]a random distribution of particles	context()	negated: False ,passive: True
+[LINE#195]This will allow the number of nearest neighbours that a particle possesses to be determined, and hence the percentage of particles which are expected to debond to be calculated.
+0.716	[*A*]particles[*R*]to debond[*A*]to be calculated	context()	negated: False ,passive: True
+0.677	[*A*]particles[*R*]are expected	context()	negated: False ,passive: False
+0.381	[*A*]This[*R*]will allow[*A*]hence the percentage of particles	context()	negated: False ,passive: False
+0.756	[*A*]the number of nearest neighbours[*R*]to be determined	context()	negated: False ,passive: False
+0.949	[*A*]the number of nearest neighbours[*R*]possesses[*A*]a particle	context()	negated: False ,passive: True
+0.265	[*A*]This[*R*]will allow[*A*]the number of nearest neighbours that a particle possesses to be determined	context()	negated: False ,passive: False
+[LINE#196]This can be undertaken by considering previous work on the quantification of the dispersion of nanoparticles [51,52], as discussed below. .
+0.153	[*A*]This[*R*]can be undertaken	context()	negated: False ,passive: False
+[LINE#197]Calculating the percentage of debonded silica nanoparticlesNow, each nanoparticle is surrounded by a set of other nanoparticles which can be described as its nearest neighbours.
+0.810	[*A*]other nanoparticles[*R*]can be described[*A*]as its nearest neighbours	context()	negated: False ,passive: True
+0.903	[*A*]each nanoparticle[*R*]is surrounded[*A*]by a set of other nanoparticles	context()	negated: False ,passive: True
+[LINE#198] A Voronoi tessellation [51,52] of the material, based around the positions of the nanoparticles, provides a method for deciding which particles are the nearest neighbours, as shown in Fig..
+0.971	[*A*]A Voronoi tessellation [51,52] of the material[*R*]provides[*A*]a method for deciding which particles are the nearest neighbours	context()	negated: False ,passive: False
+0.955	[*A*]A Voronoi tessellation [51,52] of the material[*R*]based[*A*]around the positions of the nanoparticles	context()	negated: False ,passive: True
+[LINE#199]This tessellation breaks the material into a set of space-filling convex polygons around each particle, where any position within a polygon is closest to the engulfed nanoparticle.
+0.967	[*A*]any position within a polygon[*R*]is[*A*]closest to the engulfed nanoparticle[*A*]each particle	context()	negated: False ,passive: True
+0.937	[*A*]This tessellation[*R*]breaks[*A*]the material[*A*]into a set of space-filling convex polygons around each particle	context()	negated: False ,passive: False
+[LINE#200]Hence, each Voronoi polygon, and its associated nanoparticle, is completely bordered by other polygons and the particles contained within the surrounding polygons are defined as the nearest neighbours.
+0.517	[*A*]its associated nanoparticle[*R*]is bordered[*A*]by the particles	context()	negated: False ,passive: True
+0.517	[*A*]its associated nanoparticle[*R*]is bordered[*A*]by other polygons	context()	negated: False ,passive: True
+0.903	[*A*]the particles[*R*]contained[*A*]within the surrounding polygons	context()	negated: False ,passive: True
+0.885	[*A*]each Voronoi polygon[*R*]is bordered[*A*]by the particles	context()	negated: False ,passive: True
+0.885	[*A*]each Voronoi polygon[*R*]is bordered[*A*]by other polygons	context()	negated: False ,passive: True
+[LINE#201]To calculate the total number of nearest neighbours around a nanoparticle, a dual representation to the Voronoi tessellation, termed a Delaunay network, is calculated.
+0.836	[*A*]a dual representation to the Voronoi tessellation[*R*]is calculated	context()	negated: False ,passive: False
+0.954	[*A*]a dual representation to the Voronoi tessellation[*R*]termed[*A*]a Delaunay network	context()	negated: False ,passive: False
+[LINE#202]Here the vertices of each Delaunay triangle lie on nanoparticles, and each edge crosses over exactly one boundary between neighbouring Voronoi polygons.
+[LINE#203]A nanoparticle is connected to one of its nearest neighbours through a triangle edge.
+0.732	[*A*]A nanoparticle[*R*]is connected	context()	negated: False ,passive: False
+[LINE#204] Hence, the number of nearest neighbours of a nanoparticle is equivalent to the number of Delaunay triangles that contain that nanoparticle as a vertex, shown as the shaded triangles in Fig..
+0.926	[*A*]a vertex[*R*]shown[*A*]as the shaded triangles in Fig	context()	negated: False ,passive: True
+0.796	[*A*]Delaunay triangles[*R*]contain[*A*]that nanoparticle	context()	negated: False ,passive: False
+0.964	[*A*]the number of nearest neighbours of a nanoparticle[*R*]is[*A*]equivalent to the number of Delaunay triangles	context()	negated: False ,passive: True
+[LINE#205]By this definition the mean number of neighbours is equivalent to the mean number of Delaunay triangles per unique vertex (particle).
+0.970	[*A*]the mean number of neighbours[*R*]is[*A*]equivalent to the mean number of Delaunay triangles per unique vertex	context()	negated: False ,passive: True
+[LINE#206]Thus, for a micrograph containing N dispersed particles, there will be N Voronoi polygons, i.e. one for each particle.
+0.918	[*A*]a micrograph[*R*]containing[*A*]N dispersed particles	context()	negated: False ,passive: False
+[LINE#207]When the Delaunay tessellation is generated there must be 2N Delaunay triangles in the micrograph.
+0.803	[*A*]the Delaunay tessellation[*R*]is generated	context()	negated: False ,passive: False
+[LINE#208] As there are three vertices per triangle then the total number of triangle vertices is 3  2N.
+0.834	[*A*]the total number of triangle vertices[*R*]has then of[*A*]3 2n	context()	negated: False ,passive: False
+0.973	[*A*]the total number of triangle vertices[*R*]is[*A*]3 2n	context()	negated: False ,passive: False
+0.998	[*A*]triangle vertices[*R*]have the total number of[*A*]3 2n	context()	negated: False ,passive: False
+0.970	[*A*]the total number of triangle vertices[*R*]is[*A*]3  2N[*A*]then	context()	negated: False ,passive: True
+[LINE#209]Now, each particle is a potential position for a vertex, and multiple vertices can lie on a particle.
+0.903	[*A*]multiple vertices[*R*]can lie[*A*]on a particle	context()	negated: False ,passive: True
+0.957	[*A*]each particle[*R*]is[*A*]a potential position for a vertex[*A*]Now	context()	negated: False ,passive: True
+[LINE#210] Thus, the mean number of vertices on one particle must be equal to the total number of vertices divided by the number of particles =.
+0.894	[*A*]vertices[*R*]divided[*A*]by the number of particles	context()	negated: False ,passive: True
+0.943	[*A*]the mean number of vertices on one particle[*R*]must be[*A*]equal to the total number of vertices	context()	negated: False ,passive: True
+[LINE#211]As each vertex connects the particle with its nearest neighbours then the number of nearest neighbours is exactly six.
+0.853	[*A*]the number of nearest neighbours[*R*]is[*A*]exactly six	context()	negated: False ,passive: True
+0.903	[*A*]each vertex[*R*]connects[*A*]the particle	context()	negated: False ,passive: False
+[LINE#212]This above methodology reveals that once one particle debonds and void growth occurs, then its six nearest neighbours will not debond.
+0.718	[*A*]its six nearest neighbours[*R*]will not debond[*A*]once one particle debonds and void growth occurs[*A*]then	context(This above methodology reveals)	negated: True ,passive: True
+0.723	[*A*]This above methodology[*R*]reveals[*A*]that once one particle debonds and void growth occurs, then its six nearest neighbours will not debond	context()	negated: False ,passive: False
+[LINE#213]Hence only one in seven particles will exhibit debonding and void growth, which gives a value of the percentage of debonding particles as 14.3% of those present.
+0.822	[*A*]void growth[*R*]gives[*A*]a value of the percentage of debonding particles as 14.3% of those present	context()	negated: False ,passive: False
+0.926	[*A*]only one in seven particles[*R*]will exhibit[*A*]debonding and void growth	context()	negated: False ,passive: False
+[LINE#214]This prediction agrees very well with the experimental observations from the fracture surfaces.
+0.903	[*A*]This prediction[*R*]agrees very well[*A*]with the experimental observations from the fracture surfaces	context()	negated: False ,passive: False
+[LINE#215]Indeed, Hsieh et al. reported that in their studies the experimental observations indicated that 15  5% of the nanoparticles present exhibited debonding and void growth [12,13] and, in the current work, 10-15% of the nanoparticles were observed to show debonding and void growth.
+0.945	[*A*]10-15 % of the nanoparticles[*R*]were observed[*A*]to show void growth[*A*]in the current work	context(Hsieh et al reported the experimental observations indicated)	negated: False ,passive: True
+0.911	[*A*]the experimental observations[*R*]indicated[*A*]in the current work , 10-15 % of the nanoparticles were observed to show void growth[*A*]in their studies	context(Hsieh et al reported)	negated: False ,passive: False
+0.945	[*A*]10-15 % of the nanoparticles[*R*]were observed[*A*]to show debonding[*A*]in the current work	context(Hsieh et al reported the experimental observations indicated)	negated: False ,passive: True
+0.911	[*A*]the experimental observations[*R*]indicated[*A*]in the current work , 10-15 % of the nanoparticles were observed to show debonding[*A*]in their studies	context(Hsieh et al reported)	negated: False ,passive: False
+0.742	[*A*]Hsieh et al[*R*]reported[*A*]that in their studies the experimental observations indicated , in the current work , 10-15 % of the nanoparticles were observed	context()	negated: False ,passive: False
+0.921	[*A*]15 5 % of the nanoparticles present[*R*]exhibited[*A*]void growth	context(Hsieh et al reported the experimental observations indicated)	negated: False ,passive: False
+0.818	[*A*]the experimental observations[*R*]indicated[*A*]that 15 5 % of the nanoparticles present exhibited void growth[*A*]in their studies	context(Hsieh et al reported)	negated: False ,passive: False
+0.742	[*A*]Hsieh et al[*R*]reported[*A*]that in their studies the experimental observations indicated that 15 5 % of the nanoparticles present exhibited void growth	context()	negated: False ,passive: False
+0.921	[*A*]15 5 % of the nanoparticles present[*R*]exhibited[*A*]debonding growth	context(Hsieh et al reported the experimental observations indicated)	negated: False ,passive: False
+0.818	[*A*]the experimental observations[*R*]indicated[*A*]that 15 5 % of the nanoparticles present exhibited debonding growth[*A*]in their studies	context(Hsieh et al reported)	negated: False ,passive: False
+0.742	[*A*]Hsieh et al[*R*]reported[*A*]that in their studies the experimental observations indicated that 15 5 % of the nanoparticles present exhibited debonding growth	context()	negated: False ,passive: False
+[LINE#216]The results from both of these studies clearly agree very well with the above prediction of 14.3%.
+0.927	[*A*]The results from both of these studies[*R*]agree very well[*A*]with the above prediction of 14.3%	context()	negated: False ,passive: False
+[LINE#217]Mechanical propertiesThe values of the tensile Young's modulus that were measured are shown in Table 1.
+0.962	[*A*]Mechanical propertiesThe values of the tensile Young's modulus[*R*]are shown[*A*]in Table 1	context()	negated: False ,passive: True
+0.807	[*A*]the tensile Young's modulus[*R*]were measured	context()	negated: False ,passive: False
+[LINE#218]3.50 GPa was measured for the unmodified epoxy polymer.
+0.927	[*A*]3.50 GPa[*R*]was measured[*A*]for the unmodified epoxy polymer	context()	negated: False ,passive: True
+[LINE#219] The modulus was found to increase steadily with the silica nanoparticle content due to the much higher modulus of the silica particles (i.e. E = 70 GPa) compared with the polymer.
+0.698	[*A*]The modulus[*R*]to increase steadily	context()	negated: False ,passive: False
+0.732	[*A*]The modulus[*R*]was found	context()	negated: False ,passive: False
+[LINE#220]There was no effect of the particle size, as expected [16].
+[LINE#221]The yield stress, y, of the unmodified epoxy was measured to be 85 MPa.
+0.954	[*A*]The yield stress, y, of the unmodified epoxy[*R*]to be[*A*]85 MPa	context()	negated: False ,passive: True
+0.960	[*A*]The yield stress, y, of the unmodified epoxy[*R*]was measured[*A*]to be 85 MPa	context()	negated: False ,passive: True
+[LINE#222]The addition of the nanoparticles was found to reduce the yield stress slightly and a minimum value of 78 MPa was recorded as shown in Table 1, and again there was no significant effect of particle size.
+0.877	[*A*]MPa[*R*]was recorded[*A*]as shown in Table 1	context()	negated: False ,passive: True
+0.785	[*A*]The addition of the nanoparticles[*R*]was found	context()	negated: False ,passive: False
+[LINE#223](It should be noted that, as explained in detail below in Section 4.2, strong interfacial adhesion leads to matrix yielding whilst decreased particle-matrix interaction leads to debonding with a corresponding dependence of the yield stress on the particle volume fraction.
+[LINE#224]Thus, the reason for the observed slight reduction of the tensile yield stress upon addition of the silica nanoparticles is discussed below.).
+0.928	[*A*]the reason for the observed slight reduction of the tensile yield stress upon addition of the silica nanoparticles[*R*]is discussed below	context()	negated: False ,passive: False
+[LINE#225] Fracture energyThe values of the measured fracture toughness, KC, and fracture energy, GC, for the epoxy polymers are listed in Table 1, and the values of the fracture energy are plotted as a function of the volume fraction of silica nanoparticles in Fig..
+0.994	[*A*]fracture energy , GC , for the epoxy polymers are listed in Table 1 , and the values of the fracture energy[*R*]are plotted[*A*]as a function of the volume fraction of silica nanoparticles in Fig	context()	negated: False ,passive: True
+0.925	[*A*]the epoxy polymers[*R*]are listed[*A*]in Table 1	context()	negated: False ,passive: True
+0.964	[*A*]the values of the fracture energy[*R*]are plotted[*A*]as a function of the volume fraction of silica nanoparticles in Fig	context()	negated: False ,passive: True
+0.877	[*A*]KC[*R*]are listed[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#226]A value of GC = 303 J/m2 was measured for the unmodified epoxy, and this value is in good agreement with values previously reported in the literature [11].
+0.927	[*A*]values[*R*]reported[*A*]in the literature[*A*]previously	context()	negated: False ,passive: True
+0.925	[*A*]this value[*R*]is[*A*]in good agreement with values	context()	negated: False ,passive: True
+0.961	[*A*]A value of GC = 303 J/m2[*R*]was measured[*A*]for the unmodified epoxy	context()	negated: False ,passive: True
+[LINE#227]The addition of the silica nanoparticles increased the values of the toughness, and the increase is approximately linear after an initial relatively steep increase at 2.5 vol%.
+0.813	[*A*]the increase[*R*]is[*A*]approximately linear	context()	negated: False ,passive: True
+0.932	[*A*]The addition of the silica nanoparticles[*R*]increased[*A*]the values of the toughness	context()	negated: False ,passive: False
+[LINE#228]The effect of the presence of the silica nanoparticles is clearly major, with the epoxy polymers containing 30 vol% of such particles having values of GC of about 1000 J/m2.
+0.918	[*A*]such particles[*R*]having[*A*]values of GC of about 1000 J/m2	context()	negated: False ,passive: False
+0.911	[*A*]the epoxy polymers[*R*]containing[*A*]30 vol% of such particles	context()	negated: False ,passive: False
+0.895	[*A*]The effect of the presence of the silica nanoparticles[*R*]is[*A*]clearly[*A*]major	context()	negated: False ,passive: True
+[LINE#229]As discussed in detail previously [16], there is no significant effect of the particle size, within experimental error, on the measured values of the fracture energy with the addition of silica nanoparticles, within the range studied of 23-170 nm in particle diameter (see Fig. 1).
+[LINE#230]This observation also agrees with previous work, which showed no effect of particle diameter between 20 and 80 nm [11]. .
+0.927	[*A*]previous work[*R*]showed[*A*]no effect of particle diameter between 20 and 80 nm	context()	negated: False ,passive: False
+0.887	[*A*]This observation[*R*]agrees[*A*]with previous work	context()	negated: False ,passive: False
+[LINE#231]optical microscopyThe toughening mechanism due to the formation of extensive localised shear-band yielding has been previously established for epoxy polymers containing silica particles, when using both nanoparticles and micrometre-sized particles [13].
+0.903	[*A*]epoxy polymers[*R*]containing[*A*]silica particles[*A*]when using micrometre-sized particles	context()	negated: False ,passive: False
+0.938	[*A*]optical microscopyThe toughening mechanism due to the formation of extensive localised shear - band yielding[*R*]has been established[*A*]previously	context()	negated: False ,passive: True
+0.903	[*A*]epoxy polymers[*R*]containing[*A*]silica particles	context()	negated: False ,passive: False
+0.977	[*A*]optical microscopyThe toughening mechanism due to the formation of extensive localised shear - band yielding[*R*]has been established[*A*]when using both nanoparticles[*A*]previously	context()	negated: False ,passive: True
+[LINE#232]The presence of plastic shear-band yielding in the present epoxy matrix polymers containing silica nanoparticles was confirmed using transmission optical microscopy.
+0.789	[*A*]The presence of plastic shear-band[*R*]was confirmed	context()	negated: False ,passive: False
+0.926	[*A*]the present epoxy matrix polymers[*R*]containing[*A*]silica nanoparticles	context()	negated: False ,passive: False
+0.919	[*A*]plastic shear-band[*R*]yielding[*A*]in the present epoxy matrix polymers	context()	negated: False ,passive: False
+[LINE#233]Examples of such micrographs are illustrated in Fig. 2, which shows both bright-field and crossed-polarised optical-light images.
+0.931	[*A*]Examples of such micrographs[*R*]are illustrated[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#234]The horizontal line across the centre of the image is the fracture surface, and the subsurface damage is on the bottom half of each image.
+0.932	[*A*]the subsurface damage[*R*]is[*A*]on the bottom half of each image	context()	negated: False ,passive: True
+0.960	[*A*]The horizontal line across the centre of the image[*R*]is[*A*]the fracture surface	context()	negated: False ,passive: True
+[LINE#235]The dark lines on the micrographs on the left-hand side of Fig. 2, i.e. the bright-field images, are dilatational bands caused by the stress concentrations around the silica nanoparticles.
+[LINE#236] Birefringence is observed in the micrographs on the left-hand side of Fig. 2, i.e. the dark-field images, as bright lines and a white-region.
+0.957	[*A*]Birefringence[*R*]is observed[*A*]in the micrographs on the left - hand side of Fig	context()	negated: False ,passive: True
+[LINE#237] This indicates the presence of shear yielding (i.e. plastic shear banding) in the epoxy matrix polymer, as the plastic shear deformation causes orientation of the polymer molecules which rotates the plane of the polarised light and leads to a bright image.
+0.441	[*A*]This[*R*]indicates[*A*]the presence of shear yielding ( i.e. plastic shear banding ) in the epoxy matrix polymer	context()	negated: False ,passive: False
+0.897	[*A*]the polymer molecules[*R*]rotates[*A*]the plane of the polarised light	context()	negated: False ,passive: False
+0.919	[*A*]the plastic shear deformation[*R*]causes[*A*]orientation of the polymer molecules	context()	negated: False ,passive: False
+0.497	[*A*]This[*R*]indicates[*A*]the presence of shear yielding ( i.e. plastic shear banding ) in the epoxy matrix polymer[*A*]as the plastic shear deformation causes orientation of the polymer molecules	context()	negated: False ,passive: False
+[LINE#238]The process zone region of the fracture surfaces was examined using field-emission gun scanning-electron microscopy (FEG-SEM) to find evidence of any debonding and subsequent plastic void growth of the epoxy matrix polymer.
+0.830	[*A*]The process zone region of the fracture surfaces[*R*]was examined	context()	negated: False ,passive: False
+[LINE#239]3 shows micrographs of the fracture surfaces for the epoxies modified with 10 vol% of silica nanoparticles for the three particle diameters that were studied.
+0.737	[*A*]the three particle diameters[*R*]were studied	context()	negated: False ,passive: False
+0.947	[*A*]the epoxies[*R*]modified[*A*]with 10 vol% of silica nanoparticles for the three particle diameters	context()	negated: False ,passive: True
+[LINE#240]Some single nanoparticles are identified with arrows, and evidence to support debonding and subsequent void growth in the epoxy polymer are shown circled.
+0.856	[*A*]evidence to support subsequent void growth in the epoxy polymer[*R*]are shown	context()	negated: False ,passive: False
+0.894	[*A*]evidence[*R*]to support[*A*]subsequent void growth in the epoxy polymer	context()	negated: False ,passive: False
+0.769	[*A*]evidence to support debonding[*R*]are shown	context()	negated: False ,passive: False
+0.911	[*A*]Some single nanoparticles[*R*]are identified[*A*]with arrows	context()	negated: False ,passive: True
+[LINE#241]As explained in detail above, to analyse such micrographs the FEG-SEM images were overlaid with an evenly spaced grid.
+0.897	[*A*]the FEG-SEM images[*R*]were overlaid[*A*]with an evenly spaced grid	context()	negated: False ,passive: True
+[LINE#242]Next, each cell was analysed, and each particle identified.
+0.732	[*A*]each particle[*R*]identified	context()	negated: False ,passive: False
+0.830	[*A*]each cell[*R*]was analysed[*A*]Next	context()	negated: False ,passive: True
+[LINE#243]Via standard stereology, the area fraction of particles in the image and volume fraction of the silica nanoparticle modified epoxy were assumed to be equal, ensuring that almost all nanoparticles on the fracture surface were considered in the analysis.
+[LINE#244]The smallest particles employed, i.e. silica nanoparticles of 23 nm diameter, showed no evidence of debonding and subsequent void growth of the epoxy polymer.
+0.939	[*A*]The smallest particles employed[*R*]showed[*A*]no evidence of subsequent void growth of the epoxy polymer	context()	negated: False ,passive: False
+0.905	[*A*]The smallest particles employed[*R*]showed[*A*]no evidence of debonding	context()	negated: False ,passive: False
+0.751	[*A*]The smallest particles[*R*]employed	context()	negated: False ,passive: False
+[LINE#245][10] reported the diameter of the void growth surrounding the 20 nm silica nanoparticles in a somewhat different epoxy polymer that they studied as 30 nm, via using atomic force microscopy; and a diameter of void growth in the range of 30-35 nm diameter was measured from the FEG-SEM images.
+0.981	[*A*]a diameter of void growth in the range of 30-35 nm diameter[*R*]was measured[*A*]from the FEG - SEM images[*A*]via	context()	negated: False ,passive: True
+0.967	[*A*]a diameter of void growth in the range of 30-35 nm diameter[*R*]was measured[*A*]from the FEG - SEM images	context()	negated: False ,passive: True
+0.913	[*A*]a somewhat different epoxy polymer[*R*]studied[*A*]as 30 nm	context()	negated: False ,passive: True
+0.911	[*A*]the void growth[*R*]surrounding[*A*]the 20 nm silica nanoparticles	context()	negated: False ,passive: True
+0.503	[*A*]10[*R*]reported[*A*]the diameter of the void growth	context()	negated: False ,passive: False
+[LINE#246]However, more recently, Hsieh et al.
+[LINE#247][13] have demonstrated that when the adhesion between the silica nanoparticle and the epoxy polymer is sufficiently high, then debonding of the silica particles does not occur.
+0.963	[*A*]then debonding of the silica particles[*R*]does not occur[*A*]when the adhesion between the silica nanoparticle and the epoxy polymer is sufficiently high	context(13 have demonstrated)	negated: True ,passive: True
+0.321	[*A*]13[*R*]have demonstrated[*A*]that when the adhesion between the silica nanoparticle and the epoxy polymer is sufficiently high, then debonding of the silica particles does not occur	context()	negated: False ,passive: False
+0.904	[*A*]the adhesion between the silica nanoparticle and the epoxy polymer[*R*]is[*A*]sufficiently high	context()	negated: False ,passive: True
+[LINE#248]In the present work, it was relatively difficult to clearly observe the 23 nm silica nanoparticles, see Fig. 3(a), although some particles were observed, as indicated by the arrows.
+0.732	[*A*]some particles[*R*]were observed	context()	negated: False ,passive: False
+[LINE#249]However, there was no evidence of particle debonding and subsequent plastic void growth in the epoxy polymer, and this of course explains why the particles are more difficult to identify.
+0.717	[*A*]the particles[*R*]are[*A*]more difficult to identify	context(this explains)	negated: False ,passive: True
+0.286	[*A*]this[*R*]explains[*A*]why the particles are more difficult to identify	context()	negated: False ,passive: False
+[LINE#250] It can be argued that the coating used to make the fracture surfaces of the samples conductivehas obscured the evidence of debonding from the matrix, and the subsequent void growth of the epoxy polymer.
+0.946	[*A*]the fracture surfaces of the samples[*R*]conductivehas obscured[*A*]the evidence of debonding from the matrix, and the subsequent void growth of the epoxy polymer	context(the coating to make)	negated: False ,passive: False
+0.910	[*A*]the coating[*R*]to make[*A*]the fracture surfaces of the samples conductivehas obscured the evidence of debonding from the matrix, and the subsequent void growth of the epoxy polymer	context()	negated: False ,passive: False
+[LINE#251]Therefore, several studies were undertaken to change the thickness of the chromium coating, but there was still no evidence of plastic void growth having occurred.
+0.751	[*A*]plastic void growth[*R*]having occurred	context()	negated: False ,passive: False
+0.887	[*A*]several studies[*R*]to change[*A*]the thickness of the chromium coating	context()	negated: False ,passive: False
+0.732	[*A*]several studies[*R*]were undertaken	context()	negated: False ,passive: False
+[LINE#252]However, the modelling work discussed below reveals that debonding and void growth would be expected.
+0.732	[*A*]void growth[*R*]would be expected	context()	negated: False ,passive: False
+0.820	[*A*]However , the modelling work[*R*]discussed[*A*]below reveals that void growth would be expected	context()	negated: False ,passive: True
+0.678	[*A*]debonding growth[*R*]would be expected	context(the modelling work discussed below reveals)	negated: False ,passive: False
+0.778	[*A*]the modelling work discussed below[*R*]reveals[*A*]that debonding growth would be expected	context()	negated: False ,passive: False
+0.783	[*A*]the modelling work[*R*]discussed[*A*]below	context()	negated: False ,passive: True
+[LINE#253] This proposal is supported, of course, by the relatively high values of the fracture energies that were measured, see Table 1 and Fig.1, and which are not significantly different from the values for the two larger particle sizes.
+0.718	[*A*]the fracture energies[*R*]were measured	context()	negated: False ,passive: False
+0.886	[*A*]This proposal[*R*]is supported[*A*]of course	context()	negated: False ,passive: True
+[LINE#254]The 74 nm silica nanoparticles were readily identifiable on the fracture surfaces, see Fig. 3(b).
+0.926	[*A*]The 74 nm silica nanoparticles[*R*]were[*A*]readily identifiable on the fracture surfaces	context()	negated: False ,passive: True
+[LINE#255]The sizes of some of the particles were measured and a mean particle diameter of 76 nm was obtained, again agreeing well with the expected particle diameter.
+0.816	[*A*]a mean particle diameter of 76 nm[*R*]was obtained	context()	negated: False ,passive: False
+0.816	[*A*]The sizes of some of the particles[*R*]were measured	context()	negated: False ,passive: False
+[LINE#256]The fracture surfaces show evidence of debonding with subsequent plastic void growth of the epoxy polymer, as shown circled in Fig. 3(b).
+0.955	[*A*]The fracture surfaces[*R*]show b[*A*]evidence of debonding with subsequent plastic void growth of the epoxy polymer	context()	negated: False ,passive: False
+[LINE#257]However, only some of the 74 nm diameter particles show evidence of such debonding and void growth.
+0.957	[*A*]only some of the 74 nm diameter particles[*R*]show[*A*]evidence of void growth	context()	negated: False ,passive: False
+0.957	[*A*]only some of the 74 nm diameter particles[*R*]show[*A*]evidence of such debonding	context()	negated: False ,passive: False
+[LINE#258]Dittanet and Pearson [16] reported from their studies that about 10% of the particles present resulted in the debonding and void growth process for this silica nanoparticle-modified epoxy polymer.
+0.951	[*A*]about 10 % of the particles present[*R*]resulted[*A*]in void growth process for this silica nanoparticle - modified epoxy polymer	context(Dittanet reported)	negated: False ,passive: True
+0.938	[*A*]about 10 % of the particles present[*R*]resulted[*A*]in the debonding	context()	negated: False ,passive: True
+0.795	[*A*]Dittanet[*R*]reported[*A*]from their studies	context()	negated: False ,passive: True
+[LINE#259]In the present work, for this same epoxy polymer, debonding and subsequent void growth were found to be associated with about 10-15% of the particles present.
+0.897	[*A*]subsequent void growth[*R*]to be associated[*A*]with about 10-15 % of the particles present	context()	negated: False ,passive: True
+0.939	[*A*]subsequent void growth[*R*]were found[*A*]In the present work[*A*]for this same epoxy polymer	context()	negated: False ,passive: True
+0.503	[*A*]debonding[*R*]to be associated[*A*]with about 10-15 % of the particles present	context()	negated: False ,passive: True
+0.640	[*A*]debonding[*R*]were found[*A*]In the present work[*A*]for this same epoxy polymer	context()	negated: False ,passive: True
+[LINE#260]The 170 nm diameter particles were relatively easy to identify on the fracture surfaces, see Fig. 3(c).
+[LINE#261]A mean particle diameter of 160 nm was measured from the micrographs, which is in good agreement with the expected diameter when considering the experimental errors associated with such measurements.
+0.911	[*A*]the experimental errors[*R*]associated[*A*]with such measurements	context()	negated: False ,passive: True
+0.913	[*A*]the micrographs[*R*]is[*A*]in good agreement with the expected diameter[*A*]when considering the experimental errors	context()	negated: False ,passive: True
+0.938	[*A*]A mean particle diameter of 160 nm[*R*]was measured[*A*]from the micrographs	context()	negated: False ,passive: True
+[LINE#262]For the 170 nm diameter nanoparticle material, evidence of debonding and void growth could be identified from the micrographs.
+0.993	[*A*]evidence of void growth[*R*]could be identified For[*A*]170 nm diameter nanoparticle material	context()	negated: False ,passive: False
+0.953	[*A*]evidence of void growth[*R*]could be identified[*A*]from the micrographs[*A*]For the 170 nm diameter nanoparticle material	context()	negated: False ,passive: True
+0.948	[*A*]evidence of debonding[*R*]could be identified[*A*]from the micrographs[*A*]For the 170 nm diameter nanoparticle material	context()	negated: False ,passive: True
+[LINE#263]As for the 74 nm particles, debonding and subsequent void growth were found to be associated with about 10-15% of the 170 nm particles present.
+0.596	[*A*]the particles present[*R*]have % of[*A*]170 nm	context()	negated: False ,passive: False
+0.896	[*A*]about 10-15 %[*R*]has the length particles present of[*A*]170 nm	context()	negated: False ,passive: False
+[LINE#264]Again this is in good agreement with the earlier assessment [16] of about 10% for this modified epoxy polymer.
+0.567	[*A*]this[*R*]is[*A*]in good agreement with the earlier assessment [16] of about 10% for this modified epoxy polymer	context()	negated: False ,passive: True
+[LINE#265]The diameter of the voids was measured, and was found to correlate well with the calculated value that may be deduced from Ref.
+0.913	[*A*]the calculated value[*R*]may be deduced[*A*]from Ref	context()	negated: False ,passive: True
+0.913	[*A*]The diameter of the voids[*R*]was found[*A*]to correlate well with the calculated value	context()	negated: False ,passive: True
+0.785	[*A*]The diameter of the voids[*R*]was measured	context()	negated: False ,passive: False
+[LINE#266][12]:(1)rpv=(1+f)rpwhere the radius of a particle void, rpv, may be deduced from the maximum hoop strain that a void could sustain before fracture in the polymer, and is a function of the plane-strain true fracture strain, f, and particle radius, rp.
+0.613	[*A*]12[*R*]is[*A*]a function of particle radius , rp	context()	negated: False ,passive: True
+0.606	[*A*]12[*R*]is rp[*A*]a function of f	context()	negated: False ,passive: True
+0.718	[*A*]12[*R*]is[*A*]a function of the plane - strain true fracture strain	context()	negated: False ,passive: True
+0.905	[*A*]the maximum hoop strain[*R*]could sustain[*A*]before fracture in the polymer	context()	negated: False ,passive: True
+0.544	[*A*]12[*R*]rpwhere[*A*]the radius of a particle void	context()	negated: False ,passive: False
+[LINE#267]For example, in the epoxy system in this study, f = 0.71, see Table 2.
+[LINE#268]Thus, the predicted diameter of the voids associated with the 170 nm particles is about 290 nm.
+0.939	[*A*]the predicted diameter of the voids[*R*]is[*A*]about 290 nm	context()	negated: False ,passive: True
+0.903	[*A*]the voids[*R*]associated[*A*]with the 170 nm particles	context()	negated: False ,passive: True
+[LINE#269]From the examined images, the void size was measured to be 250  80 nm, which agrees well with the prediction.
+0.897	[*A*]250  80 nm[*R*]agrees well[*A*]with the prediction	context()	negated: False ,passive: False
+0.933	[*A*]the void size[*R*]to be[*A*]250  80 nm, which agrees well with the prediction	context()	negated: False ,passive: True
+0.939	[*A*]the void size[*R*]was measured[*A*]From the examined images	context()	negated: False ,passive: True
+[LINE#270]It is noteworthy that the large variation in the mean value is attributed to the distribution in the sizes of the voids that were observed.
+0.698	[*A*]the voids[*R*]were observed	context()	negated: False ,passive: False

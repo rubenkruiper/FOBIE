@@ -1,0 +1,387 @@
+[LINE#1] the projective system of monoids we insert an extra monoid E between F1 and F2 by means of monoid-epimorphisms : 1,F1EF22F33.The restrictions of  to G2 and of  to the group of units H of E will be group-epimorphisms, so that we also insert an extra group H between G1 and G2 into the projective system of the Gi,.
+0.913	[*A*]the projective system of monoids[*R*]will be[*A*]group - epimorphisms	context()	negated: False ,passive: True
+0.842	[*A*]F1EF22F33.The restrictions of[*R*]will be[*A*]group - epimorphisms[*A*]so that we also insert an extra group H between G1 and G2 into the projective system of the Gi	context()	negated: False ,passive: True
+0.456	[*A*]we[*R*]insert[*A*]an extra group H between G1 and G2[*A*]into the projective system of the Gi	context()	negated: False ,passive: False
+0.855	[*A*]G2[*R*]will be[*A*]group - epimorphisms	context()	negated: False ,passive: True
+0.498	[*A*]we[*R*]insert[*A*]an extra monoid E between F1 and F2	context()	negated: False ,passive: False
+[LINE#2]G1HG22G33.In the following definition of E and H, f and f are just two different names for functions.
+[LINE#3]The connection with polynomials and their formal derivatives suggested by the notation will appear when we define  and .
+0.544	[*A*]The connection with their formal derivatives[*R*]will appear[*A*]when we define	context()	negated: False ,passive: True
+0.660	[*A*]their formal derivatives[*R*]suggested[*A*]by the notation	context()	negated: False ,passive: True
+0.195	[*A*]we[*R*]define	context()	negated: False ,passive: False
+0.838	[*A*]The connection with polynomials[*R*]will appear[*A*]when we define	context()	negated: False ,passive: True
+0.894	[*A*]polynomials[*R*]suggested[*A*]by the notation	context()	negated: False ,passive: True
+[LINE#4]DefinitionWe define the semigroup (E,) byE={(f,f)|f:ZpZpf:ZpZp} (where f and f are just symbols) with law of composition(f,f)(g,g)=(fg,(fg)g).
+0.906	[*A*]DefinitionWe[*R*]are[*A*]just symbols	context()	negated: False ,passive: True
+0.920	[*A*]DefinitionWe[*R*]define[*A*]the semigroup	context()	negated: False ,passive: False
+[LINE#5] and ((fg)g)(x)=f(g(x))g(x).We denote by (H,) the group of units of E.The following facts are easy to verify:.
+0.767	[*A*]following facts[*R*]are[*A*]easy to verify:.	context()	negated: False ,passive: True
+0.551	[*A*]We[*R*]denote[*A*]g	context()	negated: False ,passive: False
+[LINE#6] Lemma 3.1(1)The identity element of E is (,1), with  denoting the identity function on Zp and 1 1.(2)The group of units of E has the formH={(f,f)|f:.
+0.806	[*A*]the formH=[*R*]| f	context()	negated: False ,passive: False
+0.958	[*A*]Lemma 3.1[*R*]is[*A*]with ( 2 ) The group of units of E has the formH=	context()	negated: False ,passive: True
+0.914	[*A*]Lemma 3.1 ( 1 ) The identity element of E[*R*]is[*A*]with 1 1	context()	negated: False ,passive: True
+0.973	[*A*]Lemma 3.1 ( 1 ) The identity element of E[*R*]is[*A*]with denoting the identity function on Zp	context()	negated: False ,passive: True
+[LINE#7] ZpZp bijective,f:ZpZp{0}}.(3)The inverse of (g,g)H is(g,g)-1=(g-1,1gg-1), where g-1 is the inverse permutation of the permutation g and 1/a stands for the multiplicative inverse of a non-zero element aZp, such that(1gg-1)(x)=1g(g-1(x)) means the multiplicative inverse in Zp{0} of g(g-1(x)).Note that H is a semidirect product of (as the normal subgroup) a direct sum of p copies of the cyclic group of order p-1and (as the complement acting on it) the symmetric group on p letters, Sp, acting on the direct sum by permuting its components.
+0.683	[*A*]1gg-1)(x)=1g[*R*]x means	context()	negated: False ,passive: False
+0.887	[*A*]p letters[*R*]acting[*A*]on the direct sum	context()	negated: False ,passive: False
+0.835	[*A*]the complement[*R*]acting[*A*]on it	context()	negated: False ,passive: False
+0.275	[*A*]g-1[*R*]is[*A*]the inverse permutation of the permutation g and 1/a stands for the multiplicative inverse of a non-zero element aZp, such that(1gg-1)(x)=1g(g-1(x)) means the multiplicative inverse in Zp{0} of g(g-1(x)).Note that H is a semidirect product of (as the normal subgroup) a direct sum of p copies of the cyclic group of order p-1and (as the complement acting on it	context()	negated: False ,passive: True
+0.854	[*A*]g)H[*R*]is[*A*]g,g	context()	negated: False ,passive: True
+[LINE#8] In combinatorics, one would call this a wreath product (designed to act on the left) of the abstract group Cp-1 by the permutation group.
+0.897	[*A*]a wreath product[*R*]to act[*A*]on the left	context()	negated: False ,passive: False
+0.897	[*A*]a wreath product[*R*]designed[*A*]to act on the left[*A*]by the permutation group	context()	negated: False ,passive: True
+0.741	[*A*]one[*R*]would call[*A*]this[*A*]In combinatorics	context()	negated: False ,passive: False
+[LINE#9]Sp with its standard action on p letters.
+[LINE#10](Group theorists, however, have a narrower definition of wreath product, which is not applicable here.)Now for the homomorphisms  and .
+0.735	[*A*]wreath product[*R*]is not[*A*]applicable[*A*]here	context()	negated: True ,passive: True
+0.914	[*A*]Group theorists[*R*]have[*A*]a narrower definition of wreath product[*A*]Now	context()	negated: False ,passive: False
+[LINE#11]DefinitionWe define :EF1 by (f,f)=f.
+0.771	[*A*]DefinitionWe[*R*]define	context()	negated: False ,passive: False
+[LINE#12]As for :F2E, given an element [g]p2F2, set ([g]p2)=([g]p,[g]p).
+0.772	[*A*]g]p2F2[*R*]set	context()	negated: False ,passive: False
+0.527	[*A*]As for[*R*]given[*A*]an element	context()	negated: False ,passive: True
+[LINE#13]  is well defined by Lemma 2.8(1).Lemma.
+[LINE#14] F2E is a monoid-epimorphism.(ii)The inverse image of H under :.
+0.938	[*A*]F2E[*R*]is[*A*]a monoid-epimorphism	context()	negated: False ,passive: True
+[LINE#15] F2E is G2.(iii)The restriction of  to G2 is a group-epimorphism :G2H with |ker()|=pp.(iv):.
+0.887	[*A*]G2[*R*]is[*A*]a group-epimorphism	context()	negated: False ,passive: True
+0.948	[*A*]F2E[*R*]is[*A*]G2	context()	negated: False ,passive: True
+[LINE#16] EF1 is a monoid-epimorphism and  restricted to H is a group-epimorphism :HG1.Proof(i)(iii) follows from Lemma 2.8(4).
+0.947	[*A*]EF1 is restricted to H[*R*]is[*A*]a group - epimorphism	context(HG1.Proof follows)	negated: False ,passive: True
+0.920	[*A*]EF1[*R*]is restricted[*A*]to H	context()	negated: False ,passive: True
+0.923	[*A*]a monoid - epimorphism[*R*]is[*A*]a group - epimorphism	context(EF1 is HG1.Proof follows)	negated: False ,passive: True
+0.924	[*A*]EF1[*R*]is[*A*]a monoid - epimorphism is a group - epimorphism	context(HG1.Proof follows)	negated: False ,passive: True
+0.903	[*A*]HG1.Proof[*R*]follows[*A*]from Lemma 2.8	context()	negated: False ,passive: True
+[LINE#17] Finally, (iv) holds because every function on Zp is a polynomial function and every permutation of Zp is a polynomial permutation. .
+0.942	[*A*]every permutation of Zp[*R*]is[*A*]a polynomial permutation	context(every function on Zp is)	negated: False ,passive: True
+0.951	[*A*]every function on Zp[*R*]is[*A*]every permutation of Zp is a polynomial permutation	context()	negated: False ,passive: True
+0.945	[*A*]every function on Zp[*R*]is[*A*]a polynomial permutation	context()	negated: False ,passive: True
+0.953	[*A*]every function on Zp[*R*]is[*A*]a polynomial function	context()	negated: False ,passive: True
+[LINE#18]We enumerate and describe the Sylow p-groups of the groups of polynomial permutations of the integers mod pn for n1 and of the pro-finite group which is the projective limit of these groups.
+0.977	[*A*]the Sylow p - groups of the groups of polynomial permutations of the integers[*R*]mod[*A*]pn of the pro-finite group	context(We describe)	negated: False ,passive: False
+0.560	[*A*]We[*R*]describe[*A*]the Sylow p - groups of the groups of polynomial permutations of the integers mod pn of the pro-finite group	context()	negated: False ,passive: False
+0.920	[*A*]the pro-finite group[*R*]is[*A*]the projective limit of these groups	context()	negated: False ,passive: True
+0.977	[*A*]the Sylow p - groups of the groups of polynomial permutations of the integers[*R*]mod pn[*A*]for n1	context(We describe)	negated: False ,passive: True
+0.560	[*A*]We[*R*]describe[*A*]the Sylow p - groups of the groups of polynomial permutations of the integers mod pn for n1	context()	negated: False ,passive: False
+0.195	[*A*]We[*R*]enumerate	context()	negated: False ,passive: False
+[LINE#19]Fix a prime p and let nN. Every polynomial fZ[x] defines a function from Zpn= to itself.
+[LINE#20]If this function happens to be bijective, it is called a polynomial permutation of Zpn.
+0.498	[*A*]it[*R*]is called[*A*]a polynomial permutation of Zpn	context()	negated: False ,passive: True
+0.732	[*A*]this function[*R*]happens	context()	negated: False ,passive: False
+[LINE#21]The polynomial permutations of Zpn form a group (Gn,) with respect to composition.
+0.957	[*A*]The polynomial permutations of Zpn[*R*]form[*A*]a group	context()	negated: False ,passive: False
+[LINE#22] The order of this group has been known since at least 1921 (Kempner [10]) to be|G2|=p!(p-1)pppand|Gn|=p!(p-1)ppppk=3n(k)for n3, where (k) is the least nbut the structure of (Gn,) is elusive.
+0.870	[*A*]the structure of (Gn[*R*]is[*A*]elusive	context()	negated: False ,passive: True
+0.632	[*A*]n3[*R*]is[*A*]the least	context()	negated: False ,passive: True
+0.949	[*A*]|Gn[*R*]|[*A*]=p[*A*]pppand	context()	negated: False ,passive: False
+0.927	[*A*]The order of this group[*R*]to be |[*A*]G2|=p	context()	negated: False ,passive: True
+0.814	[*A*]The order of this group[*R*]has been known[*A*]since at least 1921	context()	negated: False ,passive: True
+[LINE#23] (See, however, Nbauer [15] for some partial results.).
+[LINE#24]Since the order of Gn is divisible by a high power of (p-1) for large p, even the number of Sylow p-groups is not obvious.
+0.888	[*A*]even the number of Sylow p-groups[*R*]is not[*A*]obvious	context()	negated: True ,passive: True
+0.970	[*A*]the order of Gn[*R*]is[*A*]divisible by a high power of (p-1) for large p	context()	negated: False ,passive: True
+[LINE#25] We will show that there are (p-1)!(p-1)p-2 Sylow p-groups of Gn and describe these Sylow p-groups, see Theorem 5.1 and Corollary 5.2.Some notation:.
+0.195	[*A*]We[*R*]will show[*A*]that there are ( p - 1 see Theorem Corollary 5.2.Some	context()	negated: False ,passive: False
+0.195	[*A*]We[*R*]will show[*A*]that there are ( p - 1 see Theorem 5.1	context()	negated: False ,passive: False
+0.999	[*A*]We[*R*]will show[*A*]1	context()	negated: False ,passive: False
+0.112	[*A*]We[*R*]will show[*A*]that there are ( p - 1	context()	negated: False ,passive: False
+[LINE#26]A function g:ZpnZpn arising from a polynomial in Zpn[x] or, equivalently, from a polynomial in Z[x], is called a polynomial function on Zpn.
+0.877	[*A*]ZpnZpn[*R*]arising[*A*]from a polynomial in Zpn	context()	negated: False ,passive: True
+[LINE#27]We denote by (Fn,) the monoid with respect to composition of polynomial functions on Zpn.
+0.498	[*A*]We[*R*]denote[*A*]by (Fn	context()	negated: False ,passive: False
+[LINE#28]By monoid, we mean semigroup with an identity element.
+0.452	[*A*]we[*R*]mean[*A*]semigroup	context()	negated: False ,passive: False
+[LINE#29]Let (Gn,) be the group of units of (Fn,), which is the group of polynomial permutations of Zpn.
+0.888	[*A*]Fn[*R*]is[*A*]the group of polynomial permutations of Zpn	context()	negated: False ,passive: True
+[LINE#30]Since every function induced by a polynomial preserves congruences modulo ideals, there is a natural epimorphism mapping polynomial functions on Zpn+1 onto polynomial functions on Zpn, and we write it as n:Fn+1Fn.
+0.350	[*A*]we[*R*]write[*A*]it[*A*]as n : Fn+1Fn	context()	negated: False ,passive: False
+0.871	[*A*]congruences[*R*]modulo[*A*]ideals	context(every function induced by a polynomial preserves)	negated: False ,passive: False
+0.917	[*A*]every function induced by a polynomial[*R*]preserves[*A*]congruences modulo ideals	context()	negated: False ,passive: False
+0.903	[*A*]every function[*R*]induced[*A*]by a polynomial	context()	negated: False ,passive: True
+[LINE#31]we denote the polynomial function on Zpn[x] induced by f by [f]pn.
+0.786	[*A*]x[*R*]induced[*A*]by f	context()	negated: False ,passive: True
+0.498	[*A*]we[*R*]denote[*A*]the polynomial function on Zpn	context()	negated: False ,passive: False
+[LINE#32]The order of Fn and that of Gn have been determined by Kempner [10] in a rather complicated manner.
+0.957	[*A*]The order of that of Gn[*R*]have been determined[*A*]by Kempner	context()	negated: False ,passive: True
+0.949	[*A*]The order of Fn[*R*]have been determined[*A*]by Kempner	context()	negated: False ,passive: True
+[LINE#33]His results were cast into a simpler form by Nbauer [14] and Keller and Olson [9] among others.
+0.773	[*A*]His results[*R*]were cast[*A*]into a simpler form[*A*]by Nbauer [14] and Keller and Olson [9	context()	negated: False ,passive: True
+[LINE#34]Since then there have been many generalizations of the order formulas to more general finite rings [16,13,2,6,1,8,7].
+[LINE#35]Also, polynomial permutations in several variables (permutations of (Zpn)k defined by k-tuples of polynomials in k variables) have been looked into [5,4,19,17,18,11].
+0.993	[*A*]polynomial permutations in several variables ( permutations of ( Zpn ) k defined by k - tuples of polynomials in k variables )[*R*]have been looked into[*A*]54,19171811 ]	context()	negated: False ,passive: False
+0.756	[*A*]polynomial permutations in several variables[*R*]have been looked	context()	negated: False ,passive: False
+[LINE#36]Polynomial functions and permutationsTo put things in context, we recall some well-known facts, to be found, among other places, in [10,14,3,9].
+0.942	[*A*]Polynomial functions and permutationsTo[*R*]put[*A*]things[*A*]in context	context(we recall)	negated: False ,passive: False
+0.397	[*A*]we[*R*]recall[*A*]some well-known facts	context()	negated: False ,passive: False
+0.898	[*A*]some well-known facts[*R*]to be found[*A*]among other places	context()	negated: False ,passive: True
+[LINE#37]The reader familiar with polynomial functions on finite rings is encouraged to skip to Section 3.
+0.948	[*A*]The reader familiar with polynomial functions on finite rings[*R*]is encouraged[*A*]to skip to Section 3	context()	negated: False ,passive: True
+[LINE#38]Note that we do not claim anything in Section 2 as new.
+[LINE#39]DefinitionFor p prime and nN, letp(n)=k=1[npk]andp(n)=min{m|p(m)n}.
+[LINE#40] If p is fixed, we just write (n) and (n).NotationFor kN, let (x)k=x(x-1).
+0.635	[*A*]p ( n[*R*]let	context()	negated: False ,passive: False
+0.170	[*A*]we[*R*]write	context()	negated: False ,passive: False
+0.561	[*A*]p[*R*]is fixed	context()	negated: False ,passive: False
+[LINE#41]We denote p-adic valuation by vp.
+0.452	[*A*]We[*R*]denote[*A*]p-adic valuation	context()	negated: False ,passive: False
+[LINE#42] Fact 2.1(1)p(n)=vp(n!).(2)For 1np, p(n)=np and for n>p, p(n)<np.(3)For all nZ, vp((n)k)p(k); and vp((k)k)=vp(k!)=p(k).ProofEasy.
+[LINE#43]RemarkThe sequence (p(n))n=1 is obtained by going through the natural numbers in increasing order and repeating each kNvp(k) times.
+0.675	[*A*]p(n))n=1[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#44] For instance, 2(n) for n1 is: 2,4,4,6,8,8,8,10,12,12,14,16,16,16,16,18,20,20,.The falling factorials (x)0=1, (x)k=x(x-1)(x-k+1), k>0, form a basis of the free Z-module Z[x], and representation with respect to this basis gives a convenient canonical form for a polynomial representing a given polynomial function on Zpn.
+0.949	[*A*]2 ( n ) for n1[*R*]is[*A*]x ) k=x ( x - 1 ) ( x - k+1 ) , k > 0 , form a basis of the representation with respect to this basis	context(2,4 , 4,6 , 8,8 , 8,10,12,12,14,16,16,16,16,18,20,20 , . The falling factorials ( x ) 0=1 gives)	negated: False ,passive: True
+0.959	[*A*]2,4 , 4,6 , 8,8 , 8,10,12,12,14,16,16,16,16,18,20,20 , . The falling factorials ( x ) 0=1[*R*]gives[*A*]a convenient canonical form for a polynomial	context()	negated: False ,passive: False
+0.957	[*A*]2 ( n ) for n1[*R*]is[*A*]x ) k=x ( x - 1 ) ( x - k+1 ) , k > 0 , form a basis of the free Z - module Z	context(0=1 gives)	negated: False ,passive: True
+0.846	[*A*]0=1[*R*]gives[*A*]a convenient canonical form for a polynomial	context()	negated: False ,passive: False
+0.918	[*A*]a polynomial[*R*]representing[*A*]a given polynomial function on Zpn	context()	negated: False ,passive: False
+[LINE#45] A polynomial fZ[x], f=kak(x)k, induces the zero-function mod pn if and only if ak0or, equivalently, for all k<(n)).ProofInduction on k using the facts that (m)k=0 for m<k, that vp((n)k)p(k) for all nZ, and that vp((k)k)=vp(k!)=p(k).
+0.897	[*A*]A polynomial fZ[*R*]induces[*A*]the zero - function mod pn	context()	negated: False ,passive: False
+[LINE#46]Every polynomial function on Zpn is represented by a unique fZ[x] of the form f=k=0(n)-1ak(x)k, with 0ak<pn-(k) for all k.
+0.943	[*A*]Every polynomial function on Zpn[*R*]is represented n[*A*]by a unique fZ	context()	negated: False ,passive: True
+[LINE#47] Comparing the canonical forms of polynomial functions mod pn with those mod pn-1 we see that every polynomial function.
+0.894	[*A*]those mod pn[*R*]see[*A*]we	context()	negated: False ,passive: True
+[LINE#48] Let (Fn,) be the monoid of polynomial functions on Zpn with respect to composition and n:Fn+1Fn the canonical projection.(1)For all n1 and for each fFnwe have |n-1(f)|=p(n+1).(2)For all n1, the number of polynomial functions on Zpn is|Fn|=pk=1n(k).NotationWe write [f]pn for the function defined by fZ[x] on Zpn.
+0.905	[*A*]NotationWe[*R*]write[*A*]f ] pn for the function	context()	negated: False ,passive: False
+0.702	[*A*]all n1[*R*]have |[*A*]n - 1 ( f[*A*]For	context()	negated: False ,passive: False
+0.918	[*A*]the function[*R*]defined[*A*]by fZ	context()	negated: False ,passive: True
+[LINE#49] Lemma 2.5Every polynomial fZ[x] is uniquely representable asf(x)=f0(x)+f1(x)(xp-x)+f2(x)(xp-x)2++fm(x)(xp-x)m+ with fmZ[x],.
+0.945	[*A*]Lemma 2.5Every polynomial fZ[*R*]is[*A*]uniquely representable asf	context()	negated: False ,passive: True
+[LINE#50] Now let f,gZ[x].(1)If np, then [f]pn=[g]pn is equivalent to: fk=gk mod pn-kZ[x] for 0k<n.(2)[f]p2=[g]p2 is equivalent to: f0=g0 mod p2Z[x] and f1=g1 [f]p=[g]p is equivalent to: f0=mod pZ[x].ProofThe canonical representation is obtained by repeated division with remainder by (xp-x), and uniqueness follows from uniqueness of quotient and remainder of polynomial division.
+0.941	[*A*]f ] pn= [ g ] pn[*R*]is[*A*]equivalent to : fk=gk mod pn - kZ [ x ] for 0k < n. ( 2 ) [ f ] p2= [ g ] p2 is equivalent to : f1=g1 [ f	context(g ] p is)	negated: False ,passive: True
+0.987	[*A*]0k < n. ( 2 ) [ f ] p2= [ g ] p2 is equivalent to : f0=g0 mod p2Z[*R*]is[*A*]equivalent to : f0=mod pZ	context()	negated: False ,passive: True
+0.883	[*A*]f[*R*]is[*A*]equivalent to : fk=gk mod pn - kZ [ x ] for 0k < n. ( 2 ) [ f ] p2= [ g ] p2 is equivalent to : f1=g1 [ f	context(g ] p is)	negated: False ,passive: True
+0.871	[*A*]g ] p[*R*]is[*A*]equivalent to : f0=mod pZ	context()	negated: False ,passive: True
+0.920	[*A*]n. ( 2 ) [ f ] p2= [ g ] p2[*R*]is[*A*]equivalent to	context()	negated: False ,passive: True
+0.933	[*A*]f0=g0 mod p2Z[*R*]is[*A*]equivalent to : f0=mod pZ	context()	negated: False ,passive: True
+0.970	[*A*]n. ( 2 ) [ f ] p2= [ g ] p2[*R*]is[*A*]equivalent to : f0=g0 mod p2Z	context()	negated: False ,passive: True
+0.952	[*A*]f ] pn= [ g ] pn[*R*]is[*A*]equivalent to : fk=gk mod pn - kZ [ x ] for 0k < n. ( 2 ) [ f ] p2= [ g ] p2 is equivalent to : f0=g0 mod p2Z	context()	negated: False ,passive: True
+0.968	[*A*]ProofThe canonical representation[*R*]is obtained[*A*]by repeated division[*A*]f0=mod pZ	context()	negated: False ,passive: True
+[LINE#51]Note that [f]p=[f0]p and [f]p=[f0-f1]p.
+[LINE#52] This gives (3).Denote by fg the equivalence relation fk.
+0.153	[*A*]This[*R*]gives	context()	negated: False ,passive: False
+[LINE#53] There are pp+2p+3p++np equivalence classes of  and p(1)+(2)+(3)++(n).
+[LINE#54]Therefore the equivalence relations fg and [f]pn=[g]pn coincide.
+0.932	[*A*]the equivalence relations[*R*]fg[*A*]pn coincide	context()	negated: False ,passive: False
+[LINE#55]This gives (1), and (2) is just the special case n=2.
+0.408	[*A*]2[*R*]is[*A*]just[*A*]the special case n=2	context()	negated: False ,passive: True
+0.153	[*A*]This[*R*]gives	context()	negated: False ,passive: False
+[LINE#56] We can rephrase this in terms of ideals of Z[x].Corollary 2.6Forevery nN, consider the two ideals of Z[x]In={fZ[x]|f(Z)pnZ}andJn=({pn-k(xp-x)k|0kn}).
+0.456	[*A*]We[*R*]consider[*A*]the two ideals of Z	context()	negated: False ,passive: False
+0.225	[*A*]We[*R*]can rephrase[*A*]this	context()	negated: False ,passive: False
+[LINE#57]Then [Z[x]:In]=p(1)+(2)+(3)++(n) and [Z[x]:Jn]=pp+2p+3p++np.
+[LINE#58]In for np, whereas for n>p, Jn is properly contained in In.
+[LINE#59] The index of Jn in Z[x] is pp+2p+3p++np, because fJnmod pn-kZ[x] for 0k<n in the canonical representation of Lemma 2.5.
+0.880	[*A*]The index of Jn in Z[*R*]is[*A*]pp+2p+3p++np	context()	negated: False ,passive: True
+[LINE#60] The index of In in Z[x] is p(1)+(2)+(3)++(n) by Corollary 2.4(2) and [Z[x]:In]<[Z[x]:Jn]if and only if n>p by Fact 2.1(2).
+0.834	[*A*]The index of In in Z[*R*]has n of[*A*]3	context()	negated: False ,passive: False
+0.966	[*A*]Z[*R*]has The index of[*A*]3	context()	negated: False ,passive: False
+0.973	[*A*]The index of In in Z[*R*]is[*A*]3	context()	negated: False ,passive: False
+0.998	[*A*]In[*R*]has The index of[*A*]3	context()	negated: False ,passive: False
+0.834	[*A*]The index of In in Z[*R*]has n of[*A*]2	context()	negated: False ,passive: False
+0.966	[*A*]Z[*R*]has The index of[*A*]2	context()	negated: False ,passive: False
+0.973	[*A*]The index of In in Z[*R*]is[*A*]2	context()	negated: False ,passive: False
+0.998	[*A*]In[*R*]has The index of[*A*]2	context()	negated: False ,passive: False
+0.956	[*A*]The index of In in Z[*R*]is n[*A*]if and only if n > p by Fact 2.1 ( 2	context()	negated: False ,passive: True
+0.962	[*A*]The index of In in Z[*R*]p[*A*]by Fact 2.1 ( 2	context()	negated: False ,passive: True
+0.953	[*A*]The index of In in Z[*R*]is n[*A*]p	context()	negated: False ,passive: True
+[LINE#61] The function on Zpn induced by a polynomial fZ[x] is a permutation if andonly if(1)f induces a permutation of Zp, and(2)the derivative f has no zero mod p.
+0.932	[*A*]the derivative f[*R*]has[*A*]no zero mod p.	context()	negated: False ,passive: False
+0.965	[*A*]The function on Zpn[*R*]is[*A*]a permutation ( 2 ) the derivative f has no zero mod p.	context()	negated: False ,passive: True
+0.971	[*A*]The function on Zpn[*R*]is[*A*]a permutation[*A*]if andonly if ( 1 ) f induces a permutation of Zp	context()	negated: False ,passive: True
+0.949	[*A*]The function on Zpn[*R*]induced[*A*]by a polynomial fZ	context()	negated: False ,passive: True
+[LINE#62][f]p be the functions defined by fZ[x] on Zpn and Zp, respectively, and [f]p the function defined by the formal derivative of f on Zp.
+0.916	[*A*]the functions[*R*]defined respectively[*A*]by fZ	context()	negated: False ,passive: True
+0.918	[*A*]the function[*R*]defined[*A*]by the formal derivative of f on Zp	context()	negated: False ,passive: True
+0.673	[*A*]f ] p[*R*]be[*A*]respectively	context()	negated: False ,passive: True
+[LINE#63]not just [f]p, but also [f]p.(2)Let n2.
+[LINE#64] Then [f]pn is a permutation if and only if [f]p2 is a permutation.(3)For every pair of functions (,),.
+0.926	[*A*]f ] pn[*R*]is[*A*]a permutation 3[*A*]Then	context()	negated: False ,passive: True
+0.926	[*A*]f ] pn[*R*]is[*A*]a permutation[*A*]Then	context()	negated: False ,passive: True
+[LINE#65]ZpZp, there are exactly pp polynomial functions [f]p2 on Zp2 with [f]p= and [f]p=.(4)For every pair of functions (,), :ZpZp bijective, :ZpZp{0}, there are exactly pp polynomial permutations [f]p2 on Zp2 with [f]p= and [f]p=.
+[LINE#66] and (3) follow immediately from Lemma 2.5 for n=2 and (2) and Remark 2.9Fact 2.7 and Lemma 2.8(2) imply that(1)for all n1, the image of Gn+1 under n:.
+[LINE#67] Fn+1Fn is contained in Gn, and(2)for all n2, the inverse image of Gn under n:.
+0.877	[*A*]Fn+1Fn[*R*]is contained[*A*]in Gn	context()	negated: False ,passive: True
+[LINE#68]Fn+1Fn is Gn+1.We denote by n:Gn+1Gn the restriction of n to Gn.
+[LINE#69]This is the canonical epimorphism from the group of polynomial permutations on Zpn+1 onto the group of polynomial permutations on Zpn.
+0.612	[*A*]This[*R*]is[*A*]the canonical epimorphism from the group of polynomial permutations on Zpn+1 onto the group of polynomial permutations on Zpn	context()	negated: False ,passive: True
+[LINE#70] The above remark allows us to draw conclusions on the projective system of groups.
+0.397	[*A*]us[*R*]to draw[*A*]conclusions[*A*]on the projective system of groups	context(The above remark allows)	negated: False ,passive: False
+0.877	[*A*]The above remark[*R*]allows[*A*]us to draw conclusions on the projective system of groups	context()	negated: False ,passive: False
+[LINE#71]Gn from the information in Corollary 2.4 concerning the projective system of monoids Fn.
+0.961	[*A*]Gn from the information in Corollary 2.4[*R*]concerning[*A*]the projective system of monoids Fn	context()	negated: False ,passive: False
+[LINE#72]Corollary 2.10Let n2, and n:Gn+1Gn the canonical epimorphism from the group of polynomial permutations on Zpn+1 onto the group of polynomial permutations on Zpn.
+[LINE#73]Then|ker(n)|=p(n+1).Corollary 2.11(See cf.
+[LINE#74] Kempner [10] and Keller and Olson [9].).
+[LINE#75] The number of polynomial permutations on Zp2 is|G2|=p!(p-1)ppp, and for n3 the number of polynomial permutations on Zp2 is|Gn|=p!(p-1)ppppk=3n(k).ProofIn the canonical representation of fZ[x] in Lemma 2.5 , there are p!(p-1)p choices of coefficients mod p for f0 and f1such that the criteria of Fact 2.7 for a polynomial permutation on Zp2 are satisfied.
+0.895	[*A*]the criteria of Fact 2.7 for a polynomial permutation on Zp2[*R*]are[*A*]satisfied	context(choices of coefficients mod)	negated: False ,passive: True
+0.934	[*A*]the number of polynomial permutations on Zp2[*R*]is |[*A*]for n3	context()	negated: False ,passive: True
+0.916	[*A*]choices of coefficients[*R*]mod[*A*]p for f1such	context()	negated: False ,passive: False
+0.895	[*A*]the criteria of Fact 2.7 for a polynomial permutation on Zp2[*R*]are[*A*]satisfied	context(choices of coefficients mod)	negated: False ,passive: True
+0.916	[*A*]choices of coefficients[*R*]mod[*A*]p for f0	context()	negated: False ,passive: False
+[LINE#76]And for each such choice there are pp possibilities for the coefficients of f0 mod p2.
+[LINE#77]The coefficients of f0 mod p2 and those of f1 mod p then determine the polynomial function mod p2.
+0.913	[*A*]those of f1[*R*]mod[*A*]p	context(The coefficients of f0 mod p2 determine)	negated: False ,passive: False
+0.941	[*A*]The coefficients of f0 mod p2[*R*]determine[*A*]the polynomial function mod p2[*A*]then	context()	negated: False ,passive: False
+[LINE#78]The formula for |Gn| then follows from Corollary 2.10.
+0.971	[*A*]The formula for |Gn|[*R*]follows[*A*]from Corollary 2.10[*A*]then	context()	negated: False ,passive: True
+[LINE#79]This concludes our review of polynomial functions and polynomial permutations on Zpn.
+0.287	[*A*]This[*R*]concludes[*A*]our review of polynomial permutations on Zpn	context()	negated: False ,passive: False
+0.287	[*A*]This[*R*]concludes[*A*]our review of polynomial functions on Zpn	context()	negated: False ,passive: False
+[LINE#80]We will now introduce a homomorphic image of G2 whose Sylow p-groups bijectively correspond to the Sylow p-groups of Gn for any n2.
+0.536	[*A*]We[*R*]will introduce[*A*]a homomorphic image of G2[*A*]now	context()	negated: False ,passive: False
+[LINE#81]Sylow subgroups of Gn and of the projective limitAgain we consider the projective system of finite groupsG1HG22n-1Gnn where (Gn,) is the group of polynomial permutations on Zpn (with respect to composition of functions) and H is the group defined in section 3.
+0.498	[*A*]we[*R*]consider[*A*]the projective system of finite groupsG1HG22n - 1Gnn	context()	negated: False ,passive: False
+[LINE#82]Let G=limGn be the projective limit of this system.
+[LINE#83]Recall that a Sylow p-group of a pro-finite group is defined as a maximal group consisting of elements whose order in each of the finite groups in the projective system is a power of p.
+0.385	[*A*]the projective system[*R*]is a power of[*A*]p.	context()	negated: False ,passive: False
+0.905	[*A*]elements[*R*]is[*A*]a power of p.	context()	negated: False ,passive: True
+0.911	[*A*]a maximal group[*R*]consisting[*A*]of elements	context()	negated: False ,passive: True
+[LINE#84]Theorem 5.1(i)Let (Gn,) be the group of polynomial permutations on Zpn with respect to composition.
+[LINE#85]If n2 there are (p-1)!(p-1)p-2 Sylow p-groups of Gn.
+[LINE#86] They are the inverse images of the Sylow p-groups of H (described in Theorem 4.4) under the canonical projection.
+0.954	[*A*]the Sylow p-groups of H[*R*]described[*A*]in Theorem 4.4[*A*]under the canonical projection	context()	negated: False ,passive: True
+0.755	[*A*]They[*R*]are[*A*]the inverse images of the Sylow p-groups of H	context()	negated: False ,passive: True
+[LINE#87] There are (p-1)!(p-1)p-2 Sylow p-groups of G, which are the inverse images of the Sylow p-groups of H (described in Theorem 4.4) under the canonical projection the kernel of the group-epimorphism GnH is a finite p-group for every n2, because for n2 the kernel of n:Gn+1Gn is of order p(n+1) by Corollary 2.10 :.
+0.887	[*A*]Gn+1Gn[*R*]is[*A*]of order p	context()	negated: False ,passive: True
+0.983	[*A*]the kernel of the group-epimorphism GnH[*R*]is[*A*]a finite p-group for every n2[*A*]because for n2 the kernel of n:Gn+1Gn is of order p(n+1) by Corollary 2.10	context()	negated: False ,passive: True
+0.971	[*A*]the Sylow p-groups of H[*R*]described[*A*]in Theorem 4.4[*A*]under the canonical projection the kernel of the group-epimorphism GnH is a finite p-group for every n2	context()	negated: False ,passive: True
+0.984	[*A*]p-1)p-2 Sylow p-groups of G[*R*]are[*A*]the inverse images of the Sylow p-groups of H	context()	negated: False ,passive: True
+[LINE#88]G2H is of order pp by Lemma 3.2(iii).
+0.864	[*A*]G2H[*R*]is[*A*]of order pp	context()	negated: False ,passive: True
+[LINE#89]So the Sylow p-groups of Gn for n2 are just the inverse images of the Sylow p-groups of H and, likewise, the Sylow p-groups of the projective limit G are just the inverse images of the Sylow p-groups of H, whose number was determined in Corollary 4.3.
+0.974	[*A*]the Sylow p-groups of Gn for n2[*R*]are[*A*]just[*A*]the inverse images of the Sylow p-groups of H	context(the Sylow p - groups of the projective limit are)	negated: False ,passive: True
+0.969	[*A*]the Sylow p-groups of the projective limit[*R*]are[*A*]just the inverse images of the Sylow p-groups of H	context()	negated: False ,passive: True
+[LINE#90]If we combine this information with the description of the Sylow p-groups of H in Theorem 4.4 we get the following explicit description of the Sylow p-groups of Gn.
+0.678	[*A*]we[*R*]get[*A*]the following explicit description of the Sylow p-groups of Gn	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]combine[*A*]this information[*A*]with the description of the Sylow p-groups of H in Theorem 4.4	context()	negated: False ,passive: False
+[LINE#91] Recall that [f]pn denotes the function induced on Zpn by the polynomial f in Z[x](or in Zpm[x] for some mn).Corollary 5.2Let n2.
+0.918	[*A*]the function[*R*]induced[*A*]on Zpn[*A*]by the polynomial f in Z	context()	negated: False ,passive: True
+0.911	[*A*]f]pn[*R*]denotes[*A*]the function induced on Zpn by the polynomial f in Z	context()	negated: False ,passive: False
+[LINE#92]Let Gn be the group (with respect to composition) of polynomial permutations on Zpn.
+[LINE#93] The Sylow p-groups of Gn are in bijective correspondence with pairs (C,), where C is a cyclic subgroup of order p of Sp, :ZpZp{0} is a function and its class with respect to the equivalence relation of multiplication by a non-zero constant.
+0.848	[*A*]ZpZp { 0[*R*]is[*A*]its class with respect to the equivalence relation of multiplication	context()	negated: False ,passive: True
+0.943	[*A*]The Sylow p - groups of Gn[*R*]are[*A*]in bijective correspondence with pairs	context(ZpZp { 0 is)	negated: False ,passive: True
+0.865	[*A*]ZpZp { 0[*R*]is[*A*]a function by a non-zero constant	context()	negated: False ,passive: True
+0.944	[*A*]C[*R*]is[*A*]a cyclic subgroup of order p of Sp[*A*]C	context()	negated: False ,passive: True
+[LINE#94] The subgroup corresponding to (C,) isS(C,)={[f]pnGn|[f]pC,[f]p(x)=([f]p(x))(x)}.ExampleA particularly easy to describe Sylow p-group of Gn is the one corresponding to (C,) where  is a constant function and Cthe subgroup of Sp generated by (012p-1).
+0.918	[*A*]The subgroup[*R*]corresponding[*A*]to (C	context()	negated: False ,passive: True
+[LINE#95] It is the inverse image of S defined in Lemma 4.1 and it consists of the functions on Zpn induced by polynomials f such that the formal derivative f induces the constant function 1 on Zp and the function induced by f itself on Zp is a power of (012p-1).Combining.
+0.850	[*A*]the function induced by f itself on Zp[*R*]is[*A*]a power of ( 012p - 1	context()	negated: False ,passive: True
+0.443	[*A*]it[*R*]consists[*A*]of the functions on Zpn	context()	negated: False ,passive: True
+0.939	[*A*]the functions on Zpn[*R*]induced[*A*]by polynomials	context()	negated: False ,passive: True
+0.385	[*A*]Zp[*R*]is a power of[*A*]( 012p	context()	negated: False ,passive: False
+0.872	[*A*]the function[*R*]by f[*A*]itself[*A*]on Zp	context()	negated: False ,passive: False
+0.732	[*A*]the function[*R*]induced	context()	negated: False ,passive: False
+0.819	[*A*]the function induced by f itself on Zp[*R*]is[*A*]a power of ( 012p - 1	context(It is)	negated: False ,passive: True
+0.931	[*A*]the formal derivative f[*R*]induces[*A*]the constant function 1[*A*]on Zp	context()	negated: False ,passive: False
+0.840	[*A*]S[*R*]defined[*A*]in Lemma 4.1	context()	negated: False ,passive: True
+0.522	[*A*]It[*R*]is[*A*]the inverse image of S	context()	negated: False ,passive: True
+[LINE#96] Theorem 5.1 with Proposition 4.5we obtain the following description of the intersection of all Sylow p-groups of Gn for odd p.
+0.970	[*A*]Theorem 5.1 with Proposition 4.5we[*R*]obtain[*A*]the following description of the intersection of all Sylow p-groups of Gn for odd p.	context()	negated: False ,passive: False
+[LINE#97] Corollary 5.3Let p be an odd prime.(i)For n2 the intersection of all Sylow p-groups of Gn is the kernel of the projection.
+0.973	[*A*]the intersection of all Sylow p-groups of Gn[*R*]is[*A*]the kernel of the projection	context()	negated: False ,passive: True
+0.932	[*A*]Corollary 5.3Let p[*R*]be[*A*]an odd prime	context()	negated: False ,passive: True
+[LINE#98]GH.(ii)Likewise, the intersection of all Sylow p-groups of G is the kernel of the canonical epimorphism of G onto H.(iii)The intersection of all Sylow p-groups of Gn (n2) can also be described as the normal subgroupN={[f]pnGn|[f]p=,[f]p=1}, where  denotes the identity function on Zp.
+0.774	[*A*]the kernel of the canonical epimorphism of G onto H.[*R*]can be described	context(the intersection of all Sylow p - groups of G is)	negated: False ,passive: False
+0.982	[*A*]the intersection of all Sylow p-groups of G[*R*]is[*A*]the kernel of the canonical epimorphism of G onto H.(iii)The intersection of all Sylow p-groups of Gn (n2) can also be described	context()	negated: False ,passive: True
+0.772	[*A*]the normal subgroupN=[*R*]p=1	context()	negated: False ,passive: False
+[LINE#99] Its order is pppk=3n(k) and its index in Gn (for n2) is[Gn:.
+0.710	[*A*]Its order[*R*]is[*A*]its index in Gn ( for n2 ) is [ Gn	context()	negated: False ,passive: True
+0.842	[*A*]pppk=3n[*R*]is[*A*]Gn	context(Its order is)	negated: False ,passive: True
+0.693	[*A*]Its order[*R*]is[*A*]pppk=3n	context()	negated: False ,passive: True
+[LINE#100] N]=p!(p-1)p.(iv)Likewise, the index of the intersection of all Sylow p-subgroups of G in G is p!(p-1)p.Proof(i)and (ii) follow immediately from Theorem 5.1 and Proposition 4.5.
+[LINE#101]To see (iii), let  be the projection from Gn to H (that is =2n-1).
+0.069	[*A*]that[*R*]is[*A*]=2n-1	context()	negated: False ,passive: True
+[LINE#102]Then N is the inverse image of {(,1)}, the identity element of H, under , and is therefore the intersection of the Sylow p-groups of Gn by (i).
+0.957	[*A*]N[*R*]is[*A*]the inverse image of { , the identity element of H , under[*A*]Then	context()	negated: False ,passive: True
+0.874	[*A*]N[*R*]is[*A*]therefore[*A*]the intersection of the Sylow p - groups of Gn by ( i	context()	negated: False ,passive: True
+0.957	[*A*]N[*R*]is[*A*]the inverse image of { ( , 1 ) the identity element of H , under[*A*]Then	context()	negated: False ,passive: True
+[LINE#103]As the kernel of a group homomorphism, N is a normal subgroup.
+0.852	[*A*]N[*R*]is[*A*]a normal subgroup	context()	negated: False ,passive: True
+[LINE#104]The order of N is the order of the kernel of , which is the product of pp (the order of the kernel of ) and p(k) (the order of the kernel of k-1) for 3kn.
+0.970	[*A*]The order of N[*R*]is[*A*]the order of the kernel of , which is the product of pp	context()	negated: False ,passive: True
+[LINE#105]Finally, the index of the kernel of the homomorphism of Gn or G onto H is the order of H which is p!(p-1)p.
+0.916	[*A*]the index of the kernel of the homomorphism of Gn or G[*R*]is p	context()	negated: False ,passive: False
+0.985	[*A*]the index of the kernel of the homomorphism of Gn or G[*R*]is[*A*]the order of H[*A*]Finally	context()	negated: False ,passive: True
+[LINE#106]Sylow subgroups of HWe will first determine the Sylow p-groups of H.
+0.956	[*A*]Sylow subgroups of HWe[*R*]will determine[*A*]the Sylow p-groups of H.[*A*]first	context()	negated: False ,passive: False
+[LINE#107]The Sylow p-groups of Gn for n2 are obtained in the next section as the inverse images of the Sylow p-groups of H under the epimorphism GnH.Lemma 4.1Let C0 be the subgroup of Sp generated by the p-cycle (012p-1).
+0.980	[*A*]The Sylow p-groups of Gn for n2[*R*]are obtained[*A*]in the next section as the inverse images of the Sylow p-groups of H under the epimorphism	context()	negated: False ,passive: True
+[LINE#108]Then one Sylow p-subgroup of H isS={(f,f)H|fC0,f=1}, where f=1 means the constant function 1.
+0.886	[*A*]f=1[*R*]means[*A*]the constant function 1[*A*]Then	context()	negated: False ,passive: False
+[LINE#109] isNH(S)={(g,g)|gNSp(C0),g a non-zero constant}.ProofAs |H|=p!(p-1)p, and S is a subgroup of H of order p , S is a Sylow p-group of H. Conjugation of (f,f)S by (g,g)H (using the fact that f=1) gives(g,g)-1(f,f)(g,g)=(g-1,1gg-1)(fg,g)=(g-1fg,ggg-1fg).
+0.651	[*A*]gNSp[*R*]g[*A*]a non-zero constant	context(S is S is)	negated: False ,passive: False
+0.822	[*A*]S[*R*]is[*A*]a subgroup of H of order p	context(S is)	negated: False ,passive: True
+0.938	[*A*]ProofAs[*R*]|[*A*]H	context()	negated: False ,passive: False
+0.938	[*A*]S[*R*]is[*A*]a Sylow p - group of H. Conjugation of ( f , f ) S by ( g	context()	negated: False ,passive: True
+0.519	[*A*]f=1[*R*]gives	context()	negated: False ,passive: False
+[LINE#110]The first coordinate of (g,g)-1(f,f)(g,g) being in C0 for all (f,f)S is equivalent to gNSp(C0).
+0.874	[*A*]S[*R*]is[*A*]equivalent to gNSp	context()	negated: False ,passive: True
+0.933	[*A*]The first coordinate of (g[*R*]being[*A*]in C0	context()	negated: False ,passive: True
+[LINE#111] The second coordinate of (g,g)-1(f,f)(g,g) being the constant function 1 for all(f,f)S is equivalent toxZp,g(x)=g(g-1(f(g(x)))), which is equivalent to g being constant on every cycle of g-1fg, which is equivalent to g being constant on Zp, since f can be chosen to be a p-cycle.
+0.867	[*A*]g-1fg[*R*]is[*A*]equivalent to g	context()	negated: False ,passive: True
+0.605	[*A*]g[*R*]being[*A*]constant	context()	negated: False ,passive: True
+0.786	[*A*]f[*R*]to be[*A*]a p-cycle	context()	negated: False ,passive: True
+0.830	[*A*]g[*R*]is[*A*]equivalent to g	context()	negated: False ,passive: True
+0.813	[*A*]f[*R*]can be chosen[*A*]to be a p-cycle	context()	negated: False ,passive: True
+0.852	[*A*]S[*R*]is[*A*]equivalent toxZp,g	context()	negated: False ,passive: True
+0.840	[*A*]g[*R*]being[*A*]constant[*A*]on Zp	context()	negated: False ,passive: True
+[LINE#112] Lemma 4.2Another way of describing the normalizer of S in HisNH(S)={(g,g)H|k0a,b,g(a)-g(b)=k(a-b);g a non-zero constant}.
+[LINE#113] Therefore, |NH(S)|=p(p-1)2 and [H:.
+[LINE#114]NH(S)]=(p-1)!(p-1)p-2.ProofLet =(012p-1) and gSp thengg-1=(g(0)g(1)g(2)g(p-1)).
+[LINE#115]if and only if, for some 1k<p, gg-1=k, i.e.,(g(0)g(1)g(2)g(p-1))=(0k2k(p-1)k), all numbers taken mod p.
+0.903	[*A*]all numbers[*R*]taken[*A*]mod p.	context()	negated: False ,passive: False
+[LINE#116]This is equivalent to g(x+1)=g(x)+k org(x+1)-g(x)=k and further equivalent to g(a)-g(b)=k(a-b).
+0.449	[*A*]This[*R*]is[*A*]equivalent to g	context()	negated: False ,passive: True
+[LINE#117]Thus k and g(0) determine gNSp(C0), and there are (p-1) choices for k and p choices for g(0).
+0.794	[*A*]g[*R*]determine[*A*]gNSp ( there are ( p - 1 ) choices for p choices for g	context()	negated: False ,passive: False
+0.794	[*A*]g[*R*]determine[*A*]gNSp ( there are ( p - 1 ) choices for k for g ( 0	context()	negated: False ,passive: False
+0.809	[*A*]Thus k[*R*]determine[*A*]gNSp ( there are ( p - 1 ) choices for p choices for g	context()	negated: False ,passive: False
+0.809	[*A*]Thus k[*R*]determine[*A*]gNSp ( there are ( p - 1 ) choices for k for g ( 0	context()	negated: False ,passive: False
+0.816	[*A*]g[*R*]determine[*A*]gNSp	context()	negated: False ,passive: False
+0.830	[*A*]Thus k[*R*]determine[*A*]gNSp	context()	negated: False ,passive: False
+[LINE#118] Together with the (p-1) choices for the non-zero constantthis makes p(p-1)2 elements of NH(S).
+[LINE#119] Corollary 4.3There are (p-1)!(p-1)p-2 Sylow p-subgroups of H.Theorem 4.4The Sylow p-subgroups of H are in bijective correspondence with pairs (C,), where C is a cyclic subgroup of order p of Sp, :ZpZp{0} is a function and  is the class of  with respect to the equivalence relation of multiplication by a non-zero constant.
+0.852	[*A*]C[*R*]is[*A*]the class of	context()	negated: False ,passive: True
+0.967	[*A*]p - 1 ) p - 2 Sylow p - subgroups of H.Theorem 4.4The Sylow p - subgroups of H[*R*]are[*A*]in bijective correspondence with pairs	context(ZpZp { 0 is)	negated: False ,passive: True
+0.912	[*A*]ZpZp { 0[*R*]is[*A*]a function with respect to the equivalence relation of multiplication	context()	negated: False ,passive: True
+0.944	[*A*]C[*R*]is[*A*]a cyclic subgroup of order p of Sp[*A*]C	context()	negated: False ,passive: True
+[LINE#120] The subgroup corresponding to (C, ) isS(C,)={(f,f)H|fC,f(x)=(f(x))(x)}.ProofObserve that each S(C,) is a subgroup of order p of H. Different pairs (C,)give rise to different groups: Suppose S(C,)=S(D,).
+0.931	[*A*]each S[*R*]is[*A*]a subgroup of order p of H. Different pairs	context(f ( x ProofObserve)	negated: False ,passive: True
+0.511	[*A*]f(x[*R*]ProofObserve	context()	negated: False ,passive: False
+0.947	[*A*]The subgroup[*R*]corresponding[*A*]to (C, ) isS(C,)={(f	context()	negated: False ,passive: True
+[LINE#121]and for all fC we get(f(x))(x)=(f(x))(x).
+0.839	[*A*]all fC[*R*]get[*A*]we	context()	negated: False ,passive: True
+[LINE#122] As C is transitive on Zp the latter condition is equivalenttox,yZp(x)(x)=(y)(y), which means that =k for a non-zero kZp.
+0.963	[*A*]the latter condition[*R*]is[*A*]equivalenttox[*A*]yZp(x)(x)=(y)(y	context()	negated: False ,passive: True
+0.904	[*A*]C[*R*]is[*A*]transitive on Zp	context()	negated: False ,passive: True
+[LINE#123] cyclic subgroups of order p of Sp, and (p-1)p-1 equivalence classes.
+[LINE#124]So the number of pairs (C,) equals (p-1)!(p-1)p-2, which is the number of Sylow p-groups of H, by the preceding corollary.
+0.999	[*A*]the number of pairs ( C , )[*R*]equals[*A*]-1	context()	negated: False ,passive: False
+0.877	[*A*]p-2[*R*]is[*A*]the number of Sylow p-groups of H	context()	negated: False ,passive: True
+0.737	[*A*]the number of pairs[*R*]equals[*A*]p-1	context()	negated: False ,passive: True
+[LINE#125] Proposition 4.5If p is an odd primethen the intersection of all Sylow p-subgroups of H is trivial, i.e.,(C,)S(C,)={(,1)}.
+0.846	[*A*]Proposition 4.5If p[*R*]is[*A*]trivial	context()	negated: False ,passive: True
+0.949	[*A*]Proposition 4.5If p[*R*]is[*A*]an odd primethen	context()	negated: False ,passive: True
+[LINE#126]If p=2 then |H|=2 and the intersection of all Sylow 2-subgroups of H is H itself.
+0.973	[*A*]the intersection of all Sylow 2 - subgroups of H[*R*]is[*A*]H	context()	negated: False ,passive: True
+0.754	[*A*]p=2[*R*]|[*A*]then	context()	negated: False ,passive: False
+0.952	[*A*]If p=2 then | H | =2[*R*]is[*A*]H	context()	negated: False ,passive: True
+0.897	[*A*]p=2[*R*]|[*A*]H | =2[*A*]then	context()	negated: False ,passive: False
+[LINE#127]ProofLet p be an odd prime, and let (f,f)(C,)S(C,).
+0.938	[*A*]ProofLet[*R*]p be[*A*]an odd prime	context()	negated: False ,passive: True
+[LINE#128] Suppose f is not the identity function and let.
+[LINE#129]Note that  in (C,) is arbitrary, apart from the fact that 0 is not in the image.
+0.381	[*A*]0[*R*]is not[*A*]in the image	context()	negated: True ,passive: True
+[LINE#130]Therefore, and because p3, among the various  there occur functions  and  with (k)=(k) and (f(k))(f(k)).
+[LINE#131]Now (f,f)S(D,)S(E,) for any cyclic subgroups D and E of Sp of order p.
+[LINE#132]Therefore(f(k))(k)=f(k)=(f(k))(k), and hence (f(k))=(f(k)), a contradiction.
+[LINE#133] Thus f is the identity and therefore f=1.If p=2 then |H|=2 and therefore the one and only Sylow 2-subgroup of H is H. .
+0.999	[*A*]f=1.If p=2[*R*]|[*A*]2 - subgroup	context()	negated: False ,passive: False
+0.962	[*A*]f=1.If p=2[*R*]|[*A*]2 - subgroup of H[*A*]then	context()	negated: False ,passive: False
+0.950	[*A*]f=1.If p=2[*R*]| therefore[*A*]the one[*A*]then	context()	negated: False ,passive: False
+0.962	[*A*]f=1.If p=2[*R*]|[*A*]H | =2[*A*]then	context()	negated: False ,passive: False
+[LINE#134] In the case p5, the lemma above can be proved in a simpler way: There is more than one cyclic group of order p, so for (f,f)(C,)S(C,), there are distinct cyclic groups D and E of order p with fDE.
+0.931	[*A*]order[*R*]p[*A*]with fDE	context()	negated: False ,passive: True
+[LINE#135]Therefore f has to be the identity.
+0.090	[*A*]f[*R*]to be[*A*]the identity	context()	negated: False ,passive: True

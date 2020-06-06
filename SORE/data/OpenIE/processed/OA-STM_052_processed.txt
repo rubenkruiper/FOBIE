@@ -1,0 +1,885 @@
+[LINE#1]The power coefficient of a turbine increases according to the predictions from streamtube theory for sites with a confined fluid flow.
+[LINE#2]Here, a vertical axis turbine (optimized for free flow) has been simulated by a two-dimensional vortex method, both in a channel and in free flow.
+0.965	[*A*]a vertical axis turbine ( optimized for free flow[*R*]has been simulated[*A*]by a two - dimensional vortex method[*A*]Here	context()	negated: False ,passive: True
+0.978	[*A*]a vertical axis turbine ( optimized for free flow[*R*]has been simulated[*A*]by a two - dimensional vortex method , both in a channel[*A*]Here	context()	negated: False ,passive: True
+0.905	[*A*]a vertical axis turbine[*R*]optimized[*A*]for free flow	context()	negated: False ,passive: True
+[LINE#3]The first part of the study concerns the numerical parameters of channel simulations.
+0.932	[*A*]The first part of the study[*R*]concerns[*A*]the numerical parameters of channel simulations	context()	negated: False ,passive: False
+[LINE#4]It is found that for free flow and wide channels, a large number of revolutions is required for convergence (around 100 at the optimal tip speed ratio and increasing with higher tip speed ratio), while for smaller channels, the required number of revolutions decreases.
+0.919	[*A*]the optimal tip speed[*R*]increasing[*A*]with higher tip speed ratio	context()	negated: False ,passive: True
+0.941	[*A*]a large number of revolutions[*R*]is required[*A*]for convergence[*A*]while for smaller channels , the required number of revolutions decreases	context(It is found)	negated: False ,passive: True
+0.162	[*A*]It[*R*]is found	context()	negated: False ,passive: False
+0.785	[*A*]the required number of revolutions[*R*]decreases	context()	negated: False ,passive: False
+[LINE#5]The second part analyses changes in turbine performance by the channel boundaries.
+[LINE#6]The turbine performance increases when the channel width is decreased, although the results are below the predictions from streamtube theory, and this difference increases with decreasing channel width.
+0.903	[*A*]this difference[*R*]increases[*A*]with decreasing channel width	context()	negated: False ,passive: True
+0.903	[*A*]the results[*R*]are[*A*]below the predictions from streamtube theory	context()	negated: False ,passive: True
+0.751	[*A*]the channel width[*R*]is decreased	context()	negated: False ,passive: False
+[LINE#7]It is also observed that the optimal tip speed ratio increases with decreasing channel width.
+[LINE#8]By increasing the chord, which decreases the optimal tip speed ratio, the power coefficient can be increased somewhat.
+0.783	[*A*]the power coefficient[*R*]can be increased[*A*]somewhat	context()	negated: False ,passive: True
+0.887	[*A*]the chord[*R*]decreases[*A*]the optimal tip speed ratio	context()	negated: False ,passive: False
+[LINE#9]Channel effectsFor turbines in channels, two questions are: 1.
+0.910	[*A*]Channel effectsFor[*R*]turbines[*A*]in channels	context(two questions are)	negated: False ,passive: False
+0.687	[*A*]two questions[*R*]are[*A*]1	context()	negated: False ,passive: True
+[LINE#10] How does the change in power coefficient depend on the width of the channel?.
+[LINE#11] How should the turbine design be altered to optimize the turbine for the channel?.
+[LINE#12]As a first study of the first question, a case study of a single turbine has been performed.
+0.816	[*A*]a case study of a single turbine[*R*]has been performed	context()	negated: False ,passive: False
+[LINE#13] By looking at the predicted power coefficients of the free flow turbine in Fig. 1, a turbine with  = 0.12 appears to be a good choice in this case, and the results for this turbine are plotted in Fig.5 for three different channel widths.
+0.926	[*A*]the results for this turbine[*R*]are plotted[*A*]in Fig.5[*A*]for three different channel widths	context()	negated: False ,passive: True
+0.913	[*A*]a turbine with = 0.12[*R*]to be[*A*]a good choice[*A*]in this case	context()	negated: False ,passive: True
+0.973	[*A*]a turbine with = 0.12[*R*]appears[*A*]By looking at the predicted power coefficients of the free flow turbine in Fig . 1	context()	negated: False ,passive: True
+[LINE#14]First, the power coefficient increases with decreasing channel width.
+[LINE#15]Second, the turbine reaches its optimum at a higher TSR when the channel width decreases.
+0.751	[*A*]the channel width[*R*]decreases	context()	negated: False ,passive: False
+0.859	[*A*]the turbine[*R*]reaches[*A*]its optimum[*A*]at a higher TSR[*A*]when the channel width decreases	context()	negated: False ,passive: False
+[LINE#16]According to the results of Garrett and Cummings, the theoretical maximum power coefficient should increase with 31% for a width of 8 turbine diameters, 78% for 4 turbine diameters and 300% for 2 turbine diameters.
+0.952	[*A*]the theoretical maximum power coefficient[*R*]should increase[*A*]with 31 % for a width of 8 turbine diameters	context()	negated: False ,passive: True
+0.926	[*A*]the theoretical maximum power coefficient[*R*]should increase[*A*]with 31 %	context()	negated: False ,passive: True
+[LINE#17]In the current case, the increase is 16% in the first case, 37% in the second case and 97% in the last case.
+0.739	[*A*]the first case[*R*]has the increase of[*A*]16 %	context()	negated: False ,passive: False
+0.867	[*A*]the increase[*R*]has the first case of[*A*]16 %	context()	negated: False ,passive: False
+0.973	[*A*]the increase[*R*]is[*A*]16 %	context()	negated: False ,passive: False
+0.974	[*A*]the current case[*R*]has the increase of[*A*]16 %	context()	negated: False ,passive: False
+0.957	[*A*]the increase[*R*]is[*A*]16 % in the first case[*A*]In the current case	context()	negated: False ,passive: True
+[LINE#18]The increase in power coefficient is further illustrated in Figs.
+0.907	[*A*]The increase in power coefficient[*R*]is illustrated[*A*]in Figs	context()	negated: False ,passive: True
+[LINE#19]6 and 7, where the simulated power coefficients are plotted against the theoretical curve obtained from equation (9), but with CP,max obtained from the simulations without a channel, instead of the Betz value.
+0.911	[*A*]the theoretical curve[*R*]obtained[*A*]from equation	context()	negated: False ,passive: True
+0.769	[*A*]the simulated power coefficients[*R*]are plotted	context()	negated: False ,passive: False
+0.813	[*A*]max[*R*]obtained[*A*]from the simulations	context()	negated: False ,passive: True
+[LINE#20]These figures show that the obtained increase in power is lower than the values from the analytical theory, which is in accordance with the prediction that the fixed pitch vertical axis turbine cannot absorb power equally over its cross-sectional area and the effects of the blockage should therefore be lower.
+0.871	[*A*]the analytical theory[*R*]is[*A*]in accordance with the prediction that the fixed pitch vertical axis turbine can not absorb power equally over the effects of the blockage	context()	negated: False ,passive: True
+0.899	[*A*]the fixed pitch vertical axis turbine[*R*]can not absorb equally[*A*]over the effects of the blockage	context()	negated: True ,passive: False
+0.853	[*A*]These figures[*R*]show[*A*]that the obtained increase in power is lower than the values from the analytical theory , which is in accordance with the prediction that the fixed pitch vertical axis turbine can not absorb power equally over the effects of the blockage should therefore be lower	context()	negated: False ,passive: False
+0.785	[*A*]the analytical theory[*R*]is[*A*]in accordance with the prediction that the fixed pitch vertical axis turbine can not absorb power equally over its cross-sectional area	context()	negated: False ,passive: True
+0.708	[*A*]the obtained increase in power[*R*]should be[*A*]lower	context()	negated: False ,passive: True
+0.829	[*A*]the fixed pitch vertical axis turbine[*R*]can not absorb equally[*A*]over its cross-sectional area	context()	negated: True ,passive: False
+0.930	[*A*]the obtained increase in power[*R*]is[*A*]lower than the values from the analytical theory	context(These figures show)	negated: False ,passive: True
+0.759	[*A*]These figures[*R*]show[*A*]that the obtained increase in power is lower than the values from the analytical theory , which is in accordance with the prediction that the fixed pitch vertical axis turbine can not absorb power equally over its cross-sectional area should therefore be lower	context()	negated: False ,passive: False
+[LINE#21]8 illustrates the second observed trend that the highest power coefficients are obtained at higher tip speed ratios for higher blockage ratios.
+0.919	[*A*]the highest power coefficients[*R*]are obtained[*A*]at higher tip speed ratios for higher blockage ratios	context()	negated: False ,passive: True
+0.265	[*A*]8[*R*]illustrates[*A*]the second observed trend that the highest power coefficients are obtained at higher tip speed ratios for higher blockage ratios	context()	negated: False ,passive: False
+[LINE#22]With the increased tip speed ratio, both the angle of relative wind  (angle between the direction of the relative flow velocity and the direction of the blade movement) and the angle of attack are decreased.
+0.773	[*A*]both the angle of relative wind[*R*]are decreased	context()	negated: False ,passive: False
+[LINE#23]Therefore, the projection of the lift force FL on the tangential direction will decrease, while the tangential projection of the drag force FD increases slightly (The tangential force is FT = FLsin() - FDcos()).
+0.929	[*A*]The tangential force[*R*]is[*A*]FT = FLsin	context(the tangential projection of the drag force increases)	negated: False ,passive: True
+0.783	[*A*]the tangential projection of the drag force[*R*]increases[*A*]slightly	context()	negated: False ,passive: True
+0.980	[*A*]the projection of the lift force FL on the tangential direction[*R*]will decrease[*A*]while the tangential projection of the drag force FD increases slightly (The tangential force is FT = FLsin	context()	negated: False ,passive: True
+[LINE#24]This causes the drag force to be more dominant at higher tip speed ratios, which results in a decrease of the maximum power coefficient.
+0.891	[*A*]the drag force[*R*]to be[*A*]more dominant[*A*]at higher tip speed ratios	context(This causes)	negated: False ,passive: True
+0.441	[*A*]This[*R*]causes[*A*]the drag force to be more dominant at higher tip speed ratios	context()	negated: False ,passive: False
+0.905	[*A*]higher tip speed ratios[*R*]results[*A*]in a decrease of the maximum power coefficient	context()	negated: False ,passive: True
+[LINE#25] For this reason, it is desirable to design a turbine to operate at a quite low tip speed ratio to avoid excessive drag losses, but not too low to enter the stall region (compare with Fig.if the performance can be increased by lowering the optimal tip speed ratio, several tests for high blockage ratio have been performed with larger solidities (with a step of 0.03 between each solidity), keeping other parameters constant.
+0.992	[*A*]several tests[*R*]have been performed with[*A*]a step of 0.03 between each solidity	context()	negated: False ,passive: False
+0.878	[*A*]the performance[*R*]can be increased[*A*]by lowering the optimal tip speed ratio	context(several tests for high blockage ratio have been performed)	negated: False ,passive: True
+0.229	[*A*]it[*R*]is[*A*]desirable	context(several tests for high blockage ratio have been performed)	negated: False ,passive: True
+0.898	[*A*]several tests for high blockage ratio[*R*]have been performed[*A*]keeping other parameters constant	context()	negated: False ,passive: True
+0.887	[*A*]the performance[*R*]by lowering[*A*]the optimal tip speed ratio	context()	negated: False ,passive: False
+[LINE#26]By increasing the solidity to 0.15, a 19% increase is obtained for a channel width of 8 turbine diameters (compared to 16% for  = 0.12).
+0.992	[*A*]19 % increase[*R*]is obtained for[*A*]a channel width of 8 turbine diameters	context()	negated: False ,passive: False
+0.919	[*A*]a 19% increase[*R*]is obtained[*A*]for a channel width of 8 turbine diameters[*A*]compared to 16% for  = 0.12	context()	negated: False ,passive: True
+[LINE#27]For the channel with a width of 4 turbine diameters,  = 0.18 gives 46% improvement (compared to 37%), and with the width of 2 turbine diameters,  = 0.27 gives 139% improvement (compared to 97%).
+0.544	[*A*]0.27[*R*]gives[*A*]139 % improvement[*A*]compared to 97 %	context()	negated: False ,passive: False
+0.544	[*A*]0.18[*R*]gives[*A*]46 % improvement[*A*]compared to 37 %	context()	negated: False ,passive: False
+[LINE#28]These results indicate that it is possible to increase the power coefficient by increasing the solidity, which lowers the optimal tip speed ratio.
+0.703	[*A*]These results[*R*]indicate[*A*]that it is possible to increase the power coefficient by increasing the solidity	context()	negated: False ,passive: False
+0.887	[*A*]the solidity[*R*]lowers[*A*]the optimal tip speed ratio	context()	negated: False ,passive: False
+[LINE#29]It should be noted that there are more parameters that can be optimized.
+0.698	[*A*]more parameters[*R*]can be optimized	context()	negated: False ,passive: False
+[LINE#30]One example is the blade pitch angle which, due to flow curvature effects caused by the rotational motion, can change its optimal value with changing chord length.
+0.838	[*A*]the blade pitch angle[*R*]can change[*A*]its optimal value with changing chord length	context()	negated: False ,passive: False
+0.911	[*A*]flow curvature effects[*R*]caused[*A*]by the rotational motion	context()	negated: False ,passive: True
+0.915	[*A*]One example[*R*]is[*A*]the blade pitch angle which, due to flow curvature effects caused by the rotational motion, can change its optimal value with changing chord length	context()	negated: False ,passive: True
+[LINE#31]Another possibility is to increase the number of blades for higher blockage ratios, thus avoiding the large curvature effects associated with large chord lengths.
+0.919	[*A*]the large curvature effects[*R*]associated[*A*]with large chord lengths	context()	negated: False ,passive: True
+0.952	[*A*]Another possibility[*R*]is[*A*]to increase the number of blades for higher blockage ratios, thus avoiding the large curvature effects	context()	negated: False ,passive: True
+[LINE#32] As an additional check, simulations have been performed for  = 0.12, but with the drag coefficient artificially set to zero, and the lift coefficient set to the value of flat plate theory(2sin), where  is the angle of attack.
+0.783	[*A*]the drag coefficient[*R*]artificially set[*A*]to zero	context()	negated: False ,passive: True
+0.749	[*A*]simulations[*R*]have been performed[*A*]for  = 0.12	context()	negated: False ,passive: True
+[LINE#33]As there is no drag force here, the negative effects of a high tip speed ratio no longer applies.
+0.907	[*A*]the negative effects of a high tip speed ratio[*R*]applies[*A*]no longer	context()	negated: False ,passive: True
+[LINE#34]In this case, the turbine peaks for a power coefficient of 53.3% for free flow.
+[LINE#35]The simulated increase in power coefficient for the channel is higher than for the real blades with drag included, but one can still se the trend that the simulated values are lower than the theoretical values (Fig. 9).
+0.911	[*A*]the simulated values[*R*]are[*A*]lower than the theoretical values	context()	negated: False ,passive: True
+0.522	[*A*]one[*R*]can se[*A*]the trend that the simulated values are lower than the theoretical values[*A*]still	context()	negated: False ,passive: False
+[LINE#36]To compare the same channel widths as in the increased solidity case, 19% improvement is obtained with a channel width of 8 diameters, 48% improvement is obtained with a width of 4 diameters and 153% improvement is obtained with a width of 2 diameters.
+0.751	[*A*]153 % improvement[*R*]is obtained	context()	negated: False ,passive: False
+0.751	[*A*]48 % improvement[*R*]is obtained	context()	negated: False ,passive: False
+0.911	[*A*]19 % improvement[*R*]is obtained[*A*]with a channel width of 8 diameters	context()	negated: False ,passive: True
+[LINE#37]For widths 8 and 4, these values are quite similar to the values obtained when the solidity is increased.
+0.732	[*A*]the solidity[*R*]is increased	context()	negated: False ,passive: False
+0.903	[*A*]the values[*R*]obtained[*A*]when the solidity is increased	context()	negated: False ,passive: True
+0.903	[*A*]these values[*R*]are[*A*]quite similar to the values	context()	negated: False ,passive: True
+[LINE#38] For a width of 2 diameters, 153% is more than 141%, which partly can be explained by the optimal tip speed ratio, as the value 141% is obtained for TSR =4.4, while the turbines with even higher solidities (which should have their peak at lower tip speed ratio) obtained lower power coefficients, probably due to flow curvature effects caused by the increased chord length.
+0.888	[*A*]a width of 2 diameters[*R*]has % of[*A*]more than 141 %	context()	negated: False ,passive: False
+0.973	[*A*]153 %[*R*]is[*A*]more than 141 %	context()	negated: False ,passive: False
+0.921	[*A*]the turbines with even higher solidities[*R*]obtained[*A*]lower power coefficients	context()	negated: False ,passive: False
+0.825	[*A*]even higher solidities[*R*]should have[*A*]their peak[*A*]at lower tip speed ratio	context()	negated: False ,passive: False
+0.931	[*A*]the value 141%[*R*]is obtained[*A*]for TSR =4.4	context()	negated: False ,passive: True
+0.893	[*A*]more than 141%[*R*]can be explained[*A*]by the optimal tip speed ratio[*A*]while the turbines with even higher solidities (which should have their peak at lower tip speed ratio) obtained lower power coefficients[*A*]probably due to flow curvature effects	context()	negated: False ,passive: True
+0.911	[*A*]flow curvature effects[*R*]caused[*A*]by the increased chord length	context()	negated: False ,passive: True
+0.928	[*A*]153%[*R*]is[*A*]more than 141%, which partly can be explained by the optimal tip speed ratio, as the value 141% is obtained for TSR =4.4, while the turbines with even higher solidities (which should have their peak at lower tip speed ratio) obtained lower power coefficients, probably due to flow curvature effects	context()	negated: False ,passive: True
+[LINE#39] As a comparison between the two cases, the improvements due to the channel blockage ratio have been plotted in Fig.10 for the real and the ideal turbine.
+0.943	[*A*]the improvements due to the channel blockage ratio[*R*]have been plotted[*A*]in Fig.10	context()	negated: False ,passive: True
+[LINE#40]To compare with other results, the CP correction by Alidadi and alial [2] has also been included, as well as the theoretical prediction in equation (9).
+0.764	[*A*]the CP correction by Alidadi[*R*]has been included	context()	negated: False ,passive: False
+[LINE#41]It should be noted here that the turbine simulated by Alidadi and alial is smaller (0.9 m in diameter) and designed for a lower tip speed ratio (2.7), hence, dynamic stall effects are therefore more prominent for this turbine.
+0.867	[*A*]alial[*R*]is designed[*A*]for a lower tip speed ratio	context(It should be noted dynamic stall effects are)	negated: False ,passive: True
+0.183	[*A*]It[*R*]should be noted[*A*]here	context(dynamic stall effects are)	negated: False ,passive: True
+0.929	[*A*]the turbine simulated by Alidadi[*R*]is designed[*A*]for a lower tip speed ratio	context(It should be noted)	negated: False ,passive: True
+0.183	[*A*]It[*R*]should be noted[*A*]here	context()	negated: False ,passive: True
+0.911	[*A*]dynamic stall effects[*R*]are[*A*]therefore more prominent for this turbine	context()	negated: False ,passive: True
+0.753	[*A*]alial[*R*]is[*A*]smaller	context(It should be noted dynamic stall effects are)	negated: False ,passive: True
+0.183	[*A*]It[*R*]should be noted[*A*]here	context(dynamic stall effects are)	negated: False ,passive: True
+0.859	[*A*]the turbine simulated by Alidadi[*R*]is[*A*]smaller	context(It should be noted dynamic stall effects are)	negated: False ,passive: True
+0.183	[*A*]It[*R*]should be noted[*A*]here	context(dynamic stall effects are)	negated: False ,passive: True
+0.888	[*A*]dynamic stall effects[*R*]are[*A*]therefore[*A*]more prominent for this turbine	context()	negated: False ,passive: True
+0.918	[*A*]the turbine[*R*]simulated[*A*]by Alidadi	context()	negated: False ,passive: True
+[LINE#42]The comparison shows similar behavior for the real and the ideal turbine, as well as the turbine by Alidadi and alial, although the simulations of Alidadi and alial predict a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the real and ideal turbine.
+0.936	[*A*]the simulations of alial[*R*]predict[*A*]a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the ideal turbine	context(The comparison shows)	negated: False ,passive: False
+0.941	[*A*]The comparison[*R*]shows[*A*]although the simulations of alial predict a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the ideal turbine	context()	negated: False ,passive: False
+0.936	[*A*]the simulations of alial[*R*]predict[*A*]a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the real turbine	context(The comparison shows)	negated: False ,passive: False
+0.941	[*A*]The comparison[*R*]shows[*A*]although the simulations of alial predict a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the real turbine	context()	negated: False ,passive: False
+0.952	[*A*]the simulations of Alidadi[*R*]predict[*A*]a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the ideal turbine	context(The comparison shows)	negated: False ,passive: False
+0.950	[*A*]The comparison[*R*]shows[*A*]although the simulations of Alidadi predict a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the ideal turbine	context()	negated: False ,passive: False
+0.952	[*A*]the simulations of Alidadi[*R*]predict[*A*]a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the real turbine	context(The comparison shows)	negated: False ,passive: False
+0.950	[*A*]The comparison[*R*]shows[*A*]although the simulations of Alidadi predict a slightly larger increase in power coefficient for higher blockage ratios than what is predicted for the real turbine	context()	negated: False ,passive: False
+0.925	[*A*]The comparison[*R*]shows[*A*]the turbine	context()	negated: False ,passive: False
+0.937	[*A*]The comparison[*R*]shows[*A*]the turbine by Alidadi	context()	negated: False ,passive: False
+0.925	[*A*]The comparison[*R*]shows[*A*]the ideal turbine	context()	negated: False ,passive: False
+0.925	[*A*]The comparison[*R*]shows[*A*]similar behavior for the real	context()	negated: False ,passive: False
+[LINE#43]All these turbine simulation results are much more similar to each other than to the theoretical estimation.
+0.952	[*A*]All these turbine simulation results[*R*]are[*A*]much more similar to each other than to the theoretical estimation	context()	negated: False ,passive: True
+[LINE#44]Considering the results from Figs.
+[LINE#45]6 and 9, equation (9) can theoretically be used to estimate the power coefficient for the turbine in free flow if a simulation is performed with channel walls.
+0.732	[*A*]a simulation[*R*]is performed	context()	negated: False ,passive: False
+[LINE#46]However, with the current simulation model, the estimated power coefficient is too low.
+0.841	[*A*]the estimated power coefficient[*R*]is[*A*]too low	context()	negated: False ,passive: True
+[LINE#47] As a first order correction, the power coefficient can be estimated using the modified equation(14)CP,est=CP,sim(1-k)2,where CP,est is the estimated power coefficient, CP,simis the simulated value and k is the correction term.
+0.884	[*A*]the estimated power coefficient[*R*]simis[*A*]the simulated value and k	context(CP , est is)	negated: False ,passive: False
+0.691	[*A*]CP,est[*R*]is	context()	negated: False ,passive: False
+0.987	[*A*]where CP,est is the estimated power coefficient, CP,simis the simulated value and k[*R*]is[*A*]the correction term	context()	negated: False ,passive: True
+0.751	[*A*]the power coefficient[*R*]can be estimated	context()	negated: False ,passive: False
+[LINE#48]This corresponds to an effective blockage ratio that is smaller than the geometric value in equation (10) and k = 1 causes the expression to reduce back to equation (9).
+0.882	[*A*]the expression[*R*]to reduce[*A*]back to equation	context(k = 1 causes)	negated: False ,passive: True
+0.809	[*A*]k = 1[*R*]causes[*A*]the expression to reduce back to equation	context()	negated: False ,passive: False
+0.953	[*A*]an effective blockage ratio[*R*]is[*A*]smaller than the geometric value in equation (10) and k = 1 causes the expression to reduce back to equation (9	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]corresponds[*A*]to an effective blockage ratio	context()	negated: False ,passive: True
+[LINE#49]11, the values for k = 1 underestimate the power coefficient.
+0.932	[*A*]the values for k = 1[*R*]underestimate[*A*]the power coefficient	context()	negated: False ,passive: False
+[LINE#50]The value k = 0.43 gives good estimates for wide channels, while k = 0.57 is better when the width decreases.
+0.999	[*A*]The value k[*R*]gives[*A*]0.43 gives good estimates	context()	negated: False ,passive: False
+0.732	[*A*]the width[*R*]decreases	context()	negated: False ,passive: False
+0.932	[*A*]k = 0.57[*R*]is[*A*]better when the width decreases	context()	negated: False ,passive: True
+0.897	[*A*]The value k[*R*]gives[*A*]good estimates for wide channels[*A*]while k = 0.57 is better	context()	negated: False ,passive: False
+[LINE#51]For the real turbine, k = 0.57 shows relatively good agreement throughout the entire interval, but for the ideal turbine, both values overestimate the power coefficient for low channel widths.
+0.903	[*A*]both values[*R*]overestimate[*A*]the power coefficient for low channel widths	context()	negated: False ,passive: False
+[LINE#52]It should however be noted that the good agreement for the real turbine originates from the drop in performance due to the increased tip speed ratio.
+[LINE#53]Therefore, a more advanced model is required to predict the free flow performance from simulations in narrow channels in the ideal case as well.
+0.939	[*A*]a more advanced model[*R*]to predict[*A*]the free flow performance from simulations in narrow channels in the ideal case as well	context()	negated: False ,passive: False
+0.948	[*A*]a more advanced model[*R*]is required[*A*]to predict the free flow performance from simulations in narrow channels in the ideal case as well	context()	negated: False ,passive: True
+[LINE#54]Still, this very simplified model with a reduced effective blockage ratio shows significant improvements, compared to the original analytical theory, and can be used as long as the channel width is reasonably large.
+0.828	[*A*]the channel width[*R*]is[*A*]reasonably large	context()	negated: False ,passive: True
+0.964	[*A*]this very simplified model with a reduced effective blockage ratio[*R*]shows[*A*]significant improvements[*A*]compared to the original analytical theory	context()	negated: False ,passive: False
+[LINE#55]A good estimate is a k value somewhere in the region 0.43-0.57, depending on the channel width.
+0.897	[*A*]a k value[*R*]depending[*A*]on the channel width	context()	negated: False ,passive: False
+0.941	[*A*]A good estimate[*R*]is somewhere[*A*]a k value somewhere in the region 0.43-0.57, depending on the channel width	context()	negated: False ,passive: True
+[LINE#56]From these simulations, a more precise value for k cannot be determined.
+0.801	[*A*]a more precise value for k[*R*]can not be determined	context()	negated: True ,passive: False
+[LINE#57]Channel theoryFor wind power, the maximum power coefficient for free flow is 16/27 according to the Betz limit [29].
+0.981	[*A*]Channel theoryFor wind power, the maximum power coefficient for free flow[*R*]is[*A*]16/27[*A*]according to the Betz limit	context()	negated: False ,passive: True
+[LINE#58]This result assumes that there are no walls confining the flow.
+0.597	[*A*]This result[*R*]assumes[*A*]that there are no walls	context()	negated: False ,passive: False
+0.903	[*A*]no walls[*R*]confining[*A*]the flow	context()	negated: False ,passive: False
+[LINE#59]On the open sea, this can be considered as a good assumption, but it does not hold for a channel.
+0.452	[*A*]it[*R*]does not hold[*A*]for a channel	context()	negated: True ,passive: False
+[LINE#60] The more general case with a channel of arbitrary width has been studied by Garrett and Cummings [1], and according to their estimates, the maximum power that can be extracted in a channel is(9)Pmax ,max12Au03(1-)2,where A is the turbine cross-sectional area, u0 is the asymptotic flow velocity,  is the density and CP,max is the maximum power coefficient for free flow, i.e. 16/27.
+0.822	[*A*]max[*R*]is[*A*]the maximum power coefficient for free flow	context()	negated: False ,passive: True
+0.449	[*A*]A[*R*]is[*A*]the turbine cross-sectional area	context()	negated: False ,passive: True
+0.897	[*A*]the maximum power[*R*]can be extracted[*A*]in a channel	context()	negated: False ,passive: True
+0.953	[*A*]The more general case with a channel of arbitrary width[*R*]has been studied[*A*]by Cummings	context()	negated: False ,passive: True
+0.960	[*A*]The more general case with a channel of arbitrary width[*R*]has been studied[*A*]by Garrett	context()	negated: False ,passive: True
+[LINE#61]This expression predicts that the maximum extractable power increases with a factor (1 - )-2 in the channel.
+0.773	[*A*]This expression[*R*]predicts[*A*]that the maximum extractable power increases with a factor	context()	negated: False ,passive: False
+[LINE#62]In this formula,  is the blockage ratio, which is defined as(10)=AAc,where Ac is the cross-sectional area of the channel.
+0.944	[*A*]Ac[*R*]is[*A*]the cross-sectional area of the channel[*A*]10)=AAc	context()	negated: False ,passive: True
+0.913	[*A*]the blockage ratio[*R*]is defined[*A*]as(10)=AAc	context()	negated: False ,passive: True
+[LINE#63]According to this equation, there is no real limit to the amount of energy that can be extracted form a turbine in a channel, since Pmax will diverge when the turbine covers the entire channel.
+0.903	[*A*]the turbine[*R*]covers[*A*]the entire channel	context()	negated: False ,passive: False
+0.855	[*A*]Pmax[*R*]will diverge[*A*]when the turbine covers the entire channel	context()	negated: False ,passive: False
+0.905	[*A*]the amount of energy[*R*]can be extracted[*A*]form a turbine[*A*]in a channel	context()	negated: False ,passive: True
+[LINE#64]To interpret this result, the pressure drop can be considered.
+0.751	[*A*]the pressure drop[*R*]can be considered	context()	negated: False ,passive: False
+[LINE#65] The pressure difference between far ahead of the turbine, and far enough behind the turbine for the flow to be stable (but not far enough for viscous effects to be important) is given in the same article as(11)p=4(3-)9(1-)2u02.As can be seen,the pressure difference diverges as well, and it is actually from the pressure difference that the energy is extracted, not from the kinetic energy.
+0.732	[*A*]the energy[*R*]is extracted	context()	negated: False ,passive: False
+0.390	[*A*]it[*R*]is[*A*]actually[*A*]from the pressure difference that the energy is extracted , not from the kinetic energy	context()	negated: False ,passive: True
+0.767	[*A*]the flow[*R*]to be[*A*]stable	context()	negated: False ,passive: True
+0.886	[*A*]the energy[*R*]is extracted[*A*]not from the kinetic energy	context()	negated: False ,passive: True
+0.522	[*A*]it[*R*]is[*A*]actually[*A*]from the pressure difference	context()	negated: False ,passive: True
+0.767	[*A*]viscous effects[*R*]to be[*A*]important	context()	negated: False ,passive: True
+0.713	[*A*]2u02.As[*R*]can be seen	context()	negated: False ,passive: False
+0.967	[*A*]The pressure difference between far ahead of the turbine[*R*]is given[*A*]in the same article as ( 11 ) p=4 ( 3 - ) 9	context()	negated: False ,passive: True
+[LINE#66]When comparing the simulation results with equation (9), it should be kept in mind that both neglect changes in water level, since equation (9) is based on streamtube theory and the simulations are restricted to 2D. For a real turbine, the pressure difference will be limited by the difference in water level and cannot diverge.
+0.877	[*A*]equation[*R*]is based[*A*]on the simulations	context()	negated: False ,passive: True
+0.921	[*A*]both neglect changes in water level[*R*]are restricted[*A*]to 2D	context()	negated: False ,passive: True
+0.877	[*A*]equation[*R*]is based[*A*]on streamtube theory	context()	negated: False ,passive: True
+0.509	[*A*]it[*R*]can not diverge[*A*]When comparing the simulation results with equation	context()	negated: True ,passive: False
+0.911	[*A*]the pressure difference[*R*]will be limited[*A*]by the difference in water level	context()	negated: False ,passive: True
+0.595	[*A*]it[*R*]should be kept[*A*]in mind[*A*]When comparing the simulation results with equation	context()	negated: False ,passive: True
+[LINE#67]The difference in water level will therefore put a limit on the maximum extractable power.
+0.890	[*A*]The difference in water level[*R*]will put[*A*]a limit[*A*]on the maximum extractable power	context()	negated: False ,passive: False
+[LINE#68]A traditional hydro power plant, which forces all flow through the turbine ( = 1) is an example of the how the water level limit affects a turbine.
+0.919	[*A*]the water level limit[*R*]affects[*A*]a turbine	context()	negated: False ,passive: False
+0.988	[*A*]A traditional hydro power plant, which forces all flow through the turbine ( = 1)[*R*]is[*A*]an example of the how the water level limit affects a turbine	context()	negated: False ,passive: True
+0.913	[*A*]A traditional hydro power plant[*R*]forces[*A*]all flow through the turbine	context()	negated: False ,passive: False
+[LINE#69]Additionally, for an open channel flow, there will be an immediate drop in water level over the turbine.
+[LINE#70]This change in water level causes a change in cross-sectional area of the channel.
+0.926	[*A*]This change in water level[*R*]causes[*A*]a change in cross-sectional area of the channel	context()	negated: False ,passive: False
+[LINE#71]As the theory assumes constant cross-sectional area, it is required that this change in water level is small compared to the depth.
+0.927	[*A*]this change in water level[*R*]is[*A*]small[*A*]compared to the depth	context(it is required)	negated: False ,passive: True
+0.271	[*A*]it[*R*]is required[*A*]that this change in water level is small compared to the depth	context()	negated: False ,passive: True
+0.903	[*A*]the theory[*R*]assumes[*A*]constant cross-sectional area	context()	negated: False ,passive: False
+[LINE#72]The model of Garrett and Cummings [1] has been extended to open channel flow with a drop in surface level by Whelan et al.
+0.954	[*A*]The model of Cummings[*R*]has been extended[*A*]to open channel flow with a drop in surface level by Whelan et al	context()	negated: False ,passive: True
+0.954	[*A*]The model of Garrett[*R*]has been extended[*A*]to open channel flow with a drop in surface level by Whelan et al	context()	negated: False ,passive: True
+[LINE#73][30], but this modification is omitted in the current work as the two-dimensional simulation model in Section 2 does not model changes in surface level.
+0.937	[*A*]this modification[*R*]is omitted[*A*]in the current work as the two-dimensional simulation model in Section 2	context()	negated: False ,passive: True
+[LINE#74]The model of Garrett and Cummings, as well as Betz model, assumes that the turbine is a flat area with equal power absorption over the entire disc.
+0.941	[*A*]the turbine[*R*]is[*A*]a flat area with equal power absorption over the entire disc	context(The model of Cummings assumes)	negated: False ,passive: True
+0.859	[*A*]The model of Cummings[*R*]assumes[*A*]that the turbine is a flat area with equal power absorption over the entire disc	context()	negated: False ,passive: False
+0.941	[*A*]the turbine[*R*]is[*A*]a flat area with equal power absorption over the entire disc	context(The model of Garrett assumes)	negated: False ,passive: True
+0.859	[*A*]The model of Garrett[*R*]assumes[*A*]that the turbine is a flat area with equal power absorption over the entire disc	context()	negated: False ,passive: False
+0.941	[*A*]the turbine[*R*]is[*A*]a flat area with equal power absorption over the entire disc	context(Betz model assumes)	negated: False ,passive: True
+0.834	[*A*]Betz model[*R*]assumes[*A*]that the turbine is a flat area with equal power absorption over the entire disc	context()	negated: False ,passive: False
+[LINE#75]For a vortex model, this would correspond to that all vorticity is released at the boundaries of the disc.
+[LINE#76]The vertical axis turbine should instead be modeled as a cylinder surface.
+0.881	[*A*]The vertical axis turbine[*R*]should be modeled[*A*]as a cylinder surface	context()	negated: False ,passive: True
+[LINE#77]Moreover, the fixed pitch vertical axis turbine does not absorb power evenly over the cylindrical surface due to the variations in angle of attack (only turbines with fixed pitch are studied in this work).
+0.899	[*A*]the fixed pitch vertical axis turbine[*R*]does not absorb evenly[*A*]over the cylindrical surface[*A*]due to the variations in angle of attack	context()	negated: True ,passive: False
+[LINE#78]Instead, most of the power is absorbed in the middle of the cross-sectional area of the turbine.
+0.948	[*A*]most of the power[*R*]is absorbed[*A*]in the middle of the cross-sectional area of the turbine	context()	negated: False ,passive: True
+[LINE#79]This corresponds to a release of vorticity that is distributed over the cylindrical surface.
+0.905	[*A*]a release of vorticity[*R*]is distributed[*A*]over the cylindrical surface	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]corresponds[*A*]to a release of vorticity	context()	negated: False ,passive: True
+[LINE#80]For this reason, the fixed pitch vertical axis turbine will not have the optimum power absorption over the entire cross-sectional area, and therefore, it can be expected that the benefits of the channel are lower for the vertical axis case than what the theory of Garrett and Cummings predicts.
+0.818	[*A*]the theory of Cummings[*R*]predicts	context()	negated: False ,passive: False
+0.772	[*A*]the benefits of the channel[*R*]are[*A*]lower	context(it can be expected)	negated: False ,passive: True
+0.157	[*A*]it[*R*]can be expected	context()	negated: False ,passive: False
+0.818	[*A*]the theory of Garrett[*R*]predicts	context()	negated: False ,passive: False
+0.932	[*A*]the fixed pitch vertical axis turbine[*R*]will not have[*A*]the optimum power absorption over the entire cross-sectional area	context()	negated: True ,passive: False
+[LINE#81]In the section above, it is assumed that the total flow in the channel is constant.
+[LINE#82]This is a reasonable approximation for a river, but for tidal currents, the total flow can decrease due to the thrust force of the turbine.
+0.948	[*A*]the total flow[*R*]can decrease[*A*]due to the thrust force of the turbine[*A*]for tidal currents	context()	negated: False ,passive: True
+0.449	[*A*]This[*R*]is[*A*]a reasonable approximation for a river	context()	negated: False ,passive: True
+[LINE#83]This has been studied analytically for a narrow channel by Garret and Cummings [31].
+0.381	[*A*]This[*R*]has been studied analytically[*A*]for a narrow channel by Cummings	context()	negated: False ,passive: True
+0.425	[*A*]This[*R*]has been studied analytically[*A*]for a narrow channel by Garret [ 31	context()	negated: False ,passive: True
+[LINE#84]The study has later been extended by Vennell [32,33], who combined the reduction in flow velocity with a model of how the turbine's efficiency depends on blockage and demonstrated that the maximum power coefficient of the turbine becomes limited due to the reduction of the flow in the channel.
+0.953	[*A*]the maximum power coefficient of the turbine[*R*]limited[*A*]due to the reduction of the flow in the channel	context()	negated: False ,passive: True
+0.929	[*A*]The study[*R*]has been extended[*A*]by Vennell[*A*]later	context()	negated: False ,passive: True
+0.919	[*A*]the turbine 's efficiency[*R*]depends[*A*]on blockage	context()	negated: False ,passive: False
+0.929	[*A*]The study[*R*]has been extended[*A*]by Vennell [ 32,33[*A*]later	context()	negated: False ,passive: True
+[LINE#85]The maximum power coefficient in a tidal flow is therefore expected to be lower than the predictions in the present study, since a constant incoming flow velocity is considered here.
+0.814	[*A*]a constant incoming flow velocity[*R*]is considered[*A*]here	context()	negated: False ,passive: True
+0.934	[*A*]The maximum power coefficient in a tidal flow[*R*]to be[*A*]lower than the predictions in the present study	context()	negated: False ,passive: True
+0.900	[*A*]The maximum power coefficient in a tidal flow[*R*]is expected[*A*]since a constant incoming flow velocity is considered here	context()	negated: False ,passive: True
+[LINE#86]The simulations show that a turbine in a channel experiences an increase in power coefficient compared to a turbine in a free flow and that the peak for the power coefficient occurs at a higher tip speed ratio.
+0.917	[*A*]the peak for the power coefficient[*R*]occurs[*A*]at a higher tip speed ratio	context(The simulations show)	negated: False ,passive: True
+0.853	[*A*]The simulations[*R*]show[*A*]that the peak for the power coefficient occurs at a higher tip speed ratio	context()	negated: False ,passive: False
+0.909	[*A*]a turbine in a channel[*R*]experiences[*A*]an increase in power coefficient[*A*]compared to a turbine in a free flow	context(The simulations show)	negated: False ,passive: False
+0.853	[*A*]The simulations[*R*]show[*A*]that a turbine in a channel experiences an increase in power coefficient compared to a turbine in a free flow	context()	negated: False ,passive: False
+[LINE#87]Compared to the idealized theoretical maximum for channels, the simulations show that the increase in performance due to the channel for a turbine optimized for free flow is smaller than the simple analytical expectation, and this difference increases with increased blockage ratio.
+0.903	[*A*]this difference[*R*]increases[*A*]with increased blockage ratio	context()	negated: False ,passive: True
+0.950	[*A*]the increase in performance due to the channel for a turbine[*R*]is[*A*]smaller than the simple analytical expectation	context(the simulations show)	negated: False ,passive: True
+0.848	[*A*]the simulations[*R*]show[*A*]that the increase in performance due to the channel for a turbine optimized for free flow is smaller than the simple analytical expectation	context()	negated: False ,passive: False
+0.903	[*A*]a turbine[*R*]optimized[*A*]for free flow	context()	negated: False ,passive: True
+[LINE#88]The simulations also indicate that the turbine should be designed differently for the channel case.
+0.878	[*A*]the turbine[*R*]should be designed differently[*A*]for the channel case	context(The simulations indicate)	negated: False ,passive: True
+0.780	[*A*]The simulations[*R*]indicate[*A*]that the turbine should be designed differently for the channel case	context()	negated: False ,passive: False
+[LINE#89]For narrow channels, the solidity should be increased to improve the performance.
+0.903	[*A*]the solidity[*R*]should be increased[*A*]to improve the performance	context()	negated: False ,passive: True
+[LINE#90]This increased power with higher solidity is still limited at a blockage ratios of 12.5% (3% increase), although grows with increasing blockage ratio.
+0.941	[*A*]This increased power with higher solidity[*R*]is limited[*A*]at a blockage ratios of 12.5%[*A*]although grows with increasing blockage ratio[*A*]still	context()	negated: False ,passive: True
+[LINE#91]This indicates that for blockage ratios higher than about 10%, the blockage ratio should be taken into account for the optimal turbine design.
+0.936	[*A*]the blockage ratio[*R*]should be taken[*A*]into account[*A*]for the optimal turbine design[*A*]for blockage ratios higher than about 10%	context(This indicates)	negated: False ,passive: True
+0.224	[*A*]This[*R*]indicates[*A*]that for blockage ratios higher than about 10%, the blockage ratio should be taken into account for the optimal turbine design	context()	negated: False ,passive: False
+[LINE#92]For the numerical part, it is seen that high blockage ratios give faster convergence, while for small blockage ratios, the number of revolutions until convergence is high and for wide channels, about 100 revolutions are required for convergence at the optimal tip speed ratio.
+0.891	[*A*]high blockage ratios[*R*]give[*A*]faster convergence	context(it is seen)	negated: False ,passive: False
+0.162	[*A*]it[*R*]is seen	context()	negated: False ,passive: False
+0.948	[*A*]about 100 revolutions[*R*]are required[*A*]for convergence at the optimal tip speed ratio[*A*]for wide channels	context()	negated: False ,passive: True
+0.798	[*A*]convergence[*R*]is[*A*]high	context()	negated: False ,passive: True
+0.911	[*A*]about 100 revolutions[*R*]are required[*A*]for convergence at the optimal tip speed ratio	context()	negated: False ,passive: True
+[LINE#93]This highlights the necessity to use fast numerical schemes to enable computations of sufficient numbers of revolutions in the case of small blockage ratios.
+0.497	[*A*]This[*R*]highlights[*A*]the necessity to use fast numerical schemes to enable computations of sufficient numbers of revolutions in the case of small blockage ratios	context()	negated: False ,passive: False
+[LINE#94]Determination of simulation parameters and reference caseOne of the purposes of this study is to investigate necessary ranges of values for the simulation parameters, which will be helpful for other researchers performing similar simulations.
+0.977	[*A*]Determination of reference caseOne of the purposes of this study[*R*]is[*A*]to investigate necessary ranges of values for the simulation parameters	context()	negated: False ,passive: True
+0.903	[*A*]other researchers[*R*]performing[*A*]similar simulations	context()	negated: False ,passive: False
+0.897	[*A*]the simulation parameters[*R*]will be[*A*]helpful for other researchers	context()	negated: False ,passive: True
+0.977	[*A*]Determination of simulation parameters of the purposes of this study[*R*]is[*A*]to investigate necessary ranges of values for the simulation parameters	context()	negated: False ,passive: True
+[LINE#95]As a start, the case without any walls is investigated and used as a reference.
+0.926	[*A*]the case without any walls[*R*]is used[*A*]as a reference	context()	negated: False ,passive: True
+0.949	[*A*]the case without any walls[*R*]is investigated[*A*]As a start	context()	negated: False ,passive: True
+[LINE#96]Due to the use of empirical data for the blade forces, which can be inaccurate in deep stall conditions, the turbine is designed to have its highest power coefficient at a reasonably high tip speed ratio (TSR).
+0.873	[*A*]the turbine[*R*]to have[*A*]its highest power coefficient at a reasonably high tip speed ratio	context()	negated: False ,passive: False
+0.890	[*A*]the turbine[*R*]is designed[*A*]to have its highest power coefficient at a reasonably high tip speed ratio	context()	negated: False ,passive: True
+0.897	[*A*]the blade forces[*R*]can be[*A*]inaccurate in deep stall conditions	context()	negated: False ,passive: True
+[LINE#97]To further reduce the effects of stall, a fixed pitch of 3 is used for the blades to reduce the angle of attack upstream and hence cause more even peak values for the angle of attack between the upstream and downstream parts of the turbine.
+0.943	[*A*]a fixed pitch of 3[*R*]is used[*A*]hence cause more even peak values for the angle of attack between the downstream parts of the turbine	context()	negated: False ,passive: True
+0.903	[*A*]the blades[*R*]to reduce[*A*]the angle	context()	negated: False ,passive: False
+0.943	[*A*]a fixed pitch of 3[*R*]is used[*A*]hence cause more even peak values for the angle of attack between the upstream parts of the turbine	context()	negated: False ,passive: True
+0.903	[*A*]the blades[*R*]to reduce[*A*]the angle of attack[*A*]upstream	context()	negated: False ,passive: False
+0.952	[*A*]a fixed pitch of 3[*R*]is used[*A*]for the blades to reduce the angle of attack upstream	context()	negated: False ,passive: True
+[LINE#98] Note that the fixed pitch angle only improves the performance in the case that stall effects are present and it has been shown by Ferreira and Scheurich that the power from a vertical axis turbine should be independent on the blade pitch angle for an ideal turbine [34].The turbine has a diameter of 10 m, the viscosity is1.3 m2/s and the asymptotic flow velocity is 1 m/s (the viscosity and flow velocity are only used to calculate the Reynolds number for the determination of lift and drag coefficients).
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the asymptotic flow velocity is the flow velocity are used)	negated: False ,passive: False
+0.920	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s	context(the flow velocity are used)	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the asymptotic flow velocity is the flow velocity are used)	negated: False ,passive: False
+0.920	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s	context(the flow velocity are used)	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the asymptotic flow velocity is the viscosity velocity are used)	negated: False ,passive: False
+0.920	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s	context(the viscosity velocity are used)	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the asymptotic flow velocity is the viscosity velocity are used)	negated: False ,passive: False
+0.920	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s	context(the viscosity velocity are used)	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the viscosity is1.3 m2 / s is the flow velocity are used)	negated: False ,passive: False
+0.933	[*A*]the viscosity is1.3 m2 / s[*R*]is[*A*]1 m / s	context(the flow velocity are used)	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the viscosity is1.3 m2 / s is the flow velocity are used)	negated: False ,passive: False
+0.933	[*A*]the viscosity is1.3 m2 / s[*R*]is[*A*]1 m / s	context(the flow velocity are used)	negated: False ,passive: True
+0.443	[*A*]it[*R*]has been shown[*A*]by Scheurich	context()	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the viscosity is1.3 m2 / s is the viscosity velocity are used)	negated: False ,passive: False
+0.933	[*A*]the viscosity is1.3 m2 / s[*R*]is[*A*]1 m / s	context(the viscosity velocity are used)	negated: False ,passive: True
+0.924	[*A*]the power from a vertical axis turbine[*R*]should be[*A*]independent on the blade pitch angle	context(it has been shown)	negated: False ,passive: True
+0.443	[*A*]it[*R*]has been shown[*A*]by Ferreira	context()	negated: False ,passive: True
+0.905	[*A*]The turbine[*R*]has[*A*]a diameter of 10 m	context(the viscosity is1.3 m2 / s is the viscosity velocity are used)	negated: False ,passive: False
+0.933	[*A*]the viscosity is1.3 m2 / s[*R*]is[*A*]1 m / s	context(the viscosity velocity are used)	negated: False ,passive: True
+0.960	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s ( the flow velocity are only used to calculate the drag coefficients	context()	negated: False ,passive: True
+0.967	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s ( the flow velocity are only used to calculate the Reynolds number for the determination of lift	context()	negated: False ,passive: True
+0.960	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s ( the viscosity velocity are only used to calculate the drag coefficients	context()	negated: False ,passive: True
+0.967	[*A*]the asymptotic flow velocity[*R*]is[*A*]1 m / s ( the viscosity velocity are only used to calculate the Reynolds number for the determination of lift	context()	negated: False ,passive: True
+0.897	[*A*]the flow velocity[*R*]to calculate[*A*]the drag coefficients	context()	negated: False ,passive: False
+0.838	[*A*]the flow velocity[*R*]are used[*A*]to calculate the drag coefficients	context()	negated: False ,passive: True
+0.913	[*A*]the flow velocity[*R*]to calculate[*A*]the Reynolds number[*A*]for the determination of lift	context()	negated: False ,passive: False
+0.933	[*A*]the viscosity is1.3 m2 / s[*R*]is[*A*]1 m / s	context(the flow velocity are used)	negated: False ,passive: True
+0.909	[*A*]the flow velocity[*R*]are used[*A*]to calculate the Reynolds number for the determination of lift	context()	negated: False ,passive: True
+0.897	[*A*]the viscosity velocity[*R*]to calculate[*A*]the drag coefficients	context()	negated: False ,passive: False
+0.838	[*A*]the viscosity velocity[*R*]are used[*A*]to calculate the drag coefficients	context()	negated: False ,passive: True
+0.767	[*A*]stall effects[*R*]are[*A*]present	context()	negated: False ,passive: True
+0.913	[*A*]the viscosity velocity[*R*]to calculate[*A*]the Reynolds number[*A*]for the determination of lift	context()	negated: False ,passive: False
+0.933	[*A*]the viscosity is1.3 m2 / s[*R*]is[*A*]1 m / s	context(the viscosity velocity are used)	negated: False ,passive: True
+0.909	[*A*]the viscosity velocity[*R*]are used[*A*]to calculate the Reynolds number for the determination of lift	context()	negated: False ,passive: True
+[LINE#99]All blades have a NACA0021 profile.
+0.903	[*A*]All blades[*R*]have[*A*]a NACA0021 profile	context()	negated: False ,passive: False
+[LINE#100] The power coefficient of the single turbine reference case in free flow can be found in Fig. 1 for four different turbine solidities(12)=.
+0.967	[*A*]The power coefficient of the single turbine reference case in free flow[*R*]can be found[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#101]NbcR.Here, Nb is the number of blades, c is the chord and R is the radius.
+0.862	[*A*]Nb[*R*]is[*A*]the number of blades	context(c is R is)	negated: False ,passive: True
+0.849	[*A*]c is R[*R*]is[*A*]the radius	context()	negated: False ,passive: True
+0.852	[*A*]c[*R*]is[*A*]R	context()	negated: False ,passive: True
+0.908	[*A*]the chord[*R*]is[*A*]the radius	context(c is)	negated: False ,passive: True
+0.862	[*A*]Nb[*R*]is[*A*]the number of blades	context(c is)	negated: False ,passive: True
+0.822	[*A*]c[*R*]is[*A*]the chord is the radius	context()	negated: False ,passive: True
+[LINE#102]For increasing solidity, the power coefficient reaches its maximum at lower TSR.
+0.870	[*A*]the power coefficient[*R*]reaches[*A*]its maximum[*A*]at lower TSR	context()	negated: False ,passive: False
+[LINE#103]From the peak value, it is also seen that the turbines which peak at a lower TSR reach higher power coefficients.
+0.946	[*A*]the turbines which peak at a lower TSR[*R*]reach[*A*]higher power coefficients	context(it is seen)	negated: False ,passive: False
+0.108	[*A*]it[*R*]is seen	context()	negated: False ,passive: False
+0.905	[*A*]the turbines[*R*]peak[*A*]at a lower TSR	context()	negated: False ,passive: True
+[LINE#104]This trend works for the three lowest solidities, but for  = 0.15, the peak value is almost equal to the peak value for  = 0.12.
+0.960	[*A*]the peak value[*R*]is[*A*]almost equal to the peak value for  = 0.12[*A*]for  = 0.15	context()	negated: False ,passive: True
+0.925	[*A*]This trend[*R*]works[*A*]for the three lowest solidities	context()	negated: False ,passive: False
+[LINE#105]When the TSR decreases to these low tip speed ratios, the blades start to enter the stall region, which is one reason why the power coefficient does not increase any further.
+0.783	[*A*]the power coefficient[*R*]does not increase[*A*]any further	context()	negated: True ,passive: True
+0.949	[*A*]the stall region[*R*]is[*A*]one reason why the power coefficient does not increase any further	context()	negated: False ,passive: True
+0.887	[*A*]the blades[*R*]to enter[*A*]the stall region, which is one reason	context()	negated: False ,passive: False
+0.973	[*A*]the blades[*R*]start[*A*]When the TSR decreases to these low tip speed ratios	context()	negated: False ,passive: True
+0.867	[*A*]the TSR[*R*]decreases[*A*]to these low tip speed ratios	context()	negated: False ,passive: True
+[LINE#106]In this reference case, one numerically important parameter is how long the simulations have to be run to achieve convergence.
+0.954	[*A*]one numerically important parameter[*R*]is[*A*]how long the simulations have to be run[*A*]In this reference case	context()	negated: False ,passive: True
+0.887	[*A*]the simulations[*R*]to achieve[*A*]convergence	context()	negated: False ,passive: False
+0.887	[*A*]the simulations[*R*]to be run[*A*]to achieve convergence	context()	negated: False ,passive: True
+[LINE#107]The simulation time is in this study measured in the number of revolutions until convergence and all simulations have been performed for 200 revolutions.
+0.903	[*A*]all simulations[*R*]have been performed[*A*]for 200 revolutions	context()	negated: False ,passive: True
+0.932	[*A*]The simulation time[*R*]is[*A*]in this study[*A*]until all simulations have been performed for 200 revolutions	context()	negated: False ,passive: True
+0.894	[*A*]convergence[*R*]have been performed[*A*]for 200 revolutions	context()	negated: False ,passive: True
+0.903	[*A*]this study[*R*]measured[*A*]in the number of revolutions	context()	negated: False ,passive: True
+0.932	[*A*]The simulation time[*R*]is[*A*]in this study[*A*]until convergence have been performed for 200 revolutions	context()	negated: False ,passive: True
+[LINE#108]Generally, the convergence rate decreases with increased TSR.
+0.925	[*A*]the convergence rate[*R*]decreases[*A*]with increased TSR	context()	negated: False ,passive: True
+[LINE#109]It should be noted that for higher TSR, the total simulated time (for a given number of revolutions) decreases, since one revolution takes a shorter amount of time, which, to some extent, is a reason why additional revolutions are necessary, but the simulated time does increase as well.
+0.933	[*A*]a shorter amount of time[*R*]is[*A*]a reason why additional revolutions are necessary	context()	negated: False ,passive: True
+0.937	[*A*]one revolution[*R*]takes[*A*]a shorter amount of time, which, to some extent, is a reason	context()	negated: False ,passive: False
+0.783	[*A*]the simulated time[*R*]does increase[*A*]as well	context()	negated: False ,passive: True
+0.767	[*A*]additional revolutions[*R*]are[*A*]necessary	context()	negated: False ,passive: True
+[LINE#110]As can be seen from the simulation with  = 0.15 and TSR = 6 in Fig. 2, the simulated power coefficient exhibits oscillations when the turbine is heavily loaded (the case for high TSR and high solidities).
+0.732	[*A*]the turbine[*R*]is heavily loaded	context()	negated: False ,passive: False
+[LINE#111]As the wake of the heavily loaded turbine decreases the flow velocity at the turbine more and drifts away slower due to this lower flow velocity, more revolutions are required.
+0.957	[*A*]more revolutions[*R*]are required[*A*]As the wake drifts away slower due to this lower flow velocity	context()	negated: False ,passive: True
+0.925	[*A*]the wake[*R*]drifts[*A*]away[*A*]slower due to this lower flow velocity	context()	negated: False ,passive: True
+0.732	[*A*]more revolutions[*R*]are required	context()	negated: False ,passive: False
+0.938	[*A*]the wake of the heavily loaded turbine[*R*]decreases[*A*]the flow velocity at the turbine	context()	negated: False ,passive: False
+[LINE#112]The lower flow velocity also causes the wake to break up into a Karman street earlier, which is a source for the oscillations.
+0.272	[*A*]which[*R*]is a source for[*A*]the oscillations	context()	negated: False ,passive: False
+0.896	[*A*]the wake[*R*]to break up[*A*]into a Karman street earlier	context(The lower flow velocity causes)	negated: False ,passive: False
+0.934	[*A*]The lower flow velocity[*R*]causes[*A*]the wake to break up into a Karman street earlier	context()	negated: False ,passive: False
+0.945	[*A*]a Karman street earlier[*R*]is[*A*]a source for the oscillations	context()	negated: False ,passive: True
+[LINE#113]The oscillations in power coefficient make it difficult to formulate a good convergence criterion that automatically detects convergence, which is the reason why all simulations were run for a relatively long time.
+0.903	[*A*]all simulations[*R*]were run[*A*]for a relatively long time	context()	negated: False ,passive: True
+0.938	[*A*]convergence[*R*]is[*A*]the reason why all simulations were run for a relatively long time	context()	negated: False ,passive: True
+0.905	[*A*]a good convergence criterion[*R*]automatically detects[*A*]convergence, which is the reason	context()	negated: False ,passive: False
+0.871	[*A*]The oscillations in power coefficient[*R*]make[*A*]it difficult to formulate a good convergence criterion	context()	negated: False ,passive: False
+[LINE#114] To analyze how many revolutions that are necessary for convergence, convergence is assumed when the absolute value of the power coefficient is within 0.001(which is an error of approximately 0.22% for the peak values) of the average value of the last 5 revolutions.
+0.876	[*A*]the absolute value of the power coefficient[*R*]is[*A*]within 0.001	context()	negated: False ,passive: True
+0.931	[*A*]convergence[*R*]is assumed[*A*]when the absolute value of the power coefficient is within 0.001(which is an error of approximately 0.22% for the peak values) of the average value of the last 5 revolutions	context()	negated: False ,passive: True
+0.754	[*A*]how many revolutions[*R*]are[*A*]necessary	context()	negated: False ,passive: True
+[LINE#115]The number of revolutions until convergence is plotted in Fig. 3, and by comparing with Fig. 1, it can be seen that approximately 100 revolutions are necessary for the TSR with optimal power coefficient in all three cases.
+0.911	[*A*]convergence[*R*]is plotted[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#116] This shows that the most important factor for convergence is how much the turbine decreases the flow velocity (the flow velocity decreases with increasing TSR).Not all simulations satisfy the convergence criterion= 6 in Fig. 2) due to their oscillatory behavior.
+0.882	[*A*]the turbine[*R*]decreases[*A*]the flow velocity	context(This shows the most important factor for convergence is the flow velocity decreases)	negated: False ,passive: False
+0.936	[*A*]the most important factor for convergence[*R*]is[*A*]how much the turbine decreases the flow velocity	context(This shows the flow velocity decreases)	negated: False ,passive: True
+0.277	[*A*]This[*R*]shows[*A*]that the most important factor for convergence is how much the turbine decreases the flow velocity	context(the flow velocity decreases)	negated: False ,passive: False
+0.908	[*A*]the flow velocity[*R*]decreases[*A*]with increasing TSR	context()	negated: False ,passive: True
+0.848	[*A*]Not all simulations[*R*]satisfy[*A*]the convergence[*A*]due to their oscillatory behavior	context()	negated: False ,passive: False
+[LINE#117]Numerically, given that the number of revolutions is limited, at some point the criterion will be satisfied because it is close to the end of the simulation, but this is a numerical artifact.
+0.449	[*A*]this[*R*]is[*A*]a numerical artifact	context()	negated: False ,passive: True
+0.522	[*A*]it[*R*]is[*A*]close to the end of the simulation	context()	negated: False ,passive: True
+0.935	[*A*]the criterion[*R*]will be[*A*]satisfied[*A*]because it is close to the end of the simulation[*A*]at some point	context()	negated: False ,passive: True
+0.841	[*A*]the number of revolutions[*R*]is[*A*]limited	context()	negated: False ,passive: True
+[LINE#118]For the unsteady values at high TSR in Fig. 3, the interpretation should be that the solution oscillates.
+0.678	[*A*]the solution[*R*]oscillates	context(the interpretation should be)	negated: False ,passive: False
+0.900	[*A*]the interpretation[*R*]should be[*A*]that the solution oscillates[*A*]For the unsteady values at high TSR in Fig. 3	context()	negated: False ,passive: True
+[LINE#119]The result is therefore that for slightly higher tip speed ratios than the peak values, the results show an oscillating behavior large enough to prevent convergence according to the chosen criterion.
+0.853	[*A*]The result[*R*]is[*A*]therefore that for slightly higher tip speed ratios than the peak values, the results show an oscillating behavior large enough to prevent convergence according to the chosen criterion	context()	negated: False ,passive: True
+[LINE#120]3 can be attributed to numerical noise in the determination of convergence and only the global trends can be considered reliable.
+0.992	[*A*]3[*R*]can be attributed to[*A*]numerical noise in the determination of only the global trends	context()	negated: False ,passive: False
+0.497	[*A*]3[*R*]can be attributed[*A*]to numerical noise in the determination of only the global trends	context()	negated: False ,passive: True
+0.992	[*A*]3[*R*]can be attributed to[*A*]numerical noise in the determination of convergence	context()	negated: False ,passive: False
+0.381	[*A*]3[*R*]can be attributed[*A*]to numerical noise in the determination of convergence	context()	negated: False ,passive: True
+[LINE#121]The chosen convergence criterion is demanding and from Fig. 2, it appears that the oscillations are limited and the calculated power coefficient is therefore expected to be sufficiently accurate even without convergence.
+0.698	[*A*]the oscillations[*R*]limited	context()	negated: False ,passive: False
+0.905	[*A*]the calculated power coefficient[*R*]to be[*A*]sufficiently accurate even without convergence	context()	negated: False ,passive: True
+[LINE#122]As the channel walls introduce additional confinement to the wake, it is expected that the required number of revolutions varies as a function of channel width.
+0.745	[*A*]the required number of revolutions[*R*]varies	context(it is expected)	negated: False ,passive: False
+0.162	[*A*]it[*R*]is expected	context()	negated: False ,passive: False
+0.911	[*A*]the channel walls[*R*]introduce[*A*]additional confinement[*A*]to the wake	context()	negated: False ,passive: False
+[LINE#123]By combining equations (3) and (7), the velocity contribution from a vortex far downstream is(13)u(z)=-i2k=1ake-zWk.
+0.948	[*A*]the velocity contribution from a vortex far downstream[*R*]is[*A*]13)u(z	context()	negated: False ,passive: True
+[LINE#124]Here, it is seen that the contribution from a vortex decays exponentially with the factor z/W, where z is the distance to the vortex.
+0.738	[*A*]the contribution from a vortex[*R*]decays exponentially	context(it is seen)	negated: False ,passive: False
+0.250	[*A*]it[*R*]is seen[*A*]Here	context()	negated: False ,passive: True
+0.925	[*A*]z[*R*]is[*A*]the distance to the vortex[*A*]z/W	context()	negated: False ,passive: True
+[LINE#125]The length of the wake is approximately proportional to the number of revolutions (assuming constant tip speed ratio), hence it is expected that the required number of revolutions should increase linearly with increasing channel width for narrow channels.
+0.738	[*A*]the required number of revolutions[*R*]should increase linearly	context(it is expected)	negated: False ,passive: False
+0.927	[*A*]The length of the wake[*R*]is[*A*]approximately proportional to the number of revolutions	context(it is expected)	negated: False ,passive: True
+0.157	[*A*]it[*R*]is expected	context()	negated: False ,passive: False
+[LINE#126]When the width increases, the number of revolutions should asymptotically approach the free flow values.
+0.953	[*A*]the number of revolutions[*R*]should asymptotically approach[*A*]the free flow values[*A*]When the width increases	context()	negated: False ,passive: True
+0.732	[*A*]the width[*R*]increases	context()	negated: False ,passive: False
+[LINE#127] With the same convergence criterion as for the free flow and all turbines simulated at optimal tip speed ratio, the convergence for a turbine with  = 0.12 is given in Fig..
+0.903	[*A*]all turbines[*R*]simulated[*A*]at optimal tip speed ratio	context()	negated: False ,passive: True
+0.952	[*A*]the convergence for a turbine with = 0.12[*R*]is given[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#128]The channel width is measured in terms of turbine diameters and the turbine is located in the center of the channel (applies for all simulations in the article).
+0.903	[*A*]the turbine[*R*]is located[*A*]in the center of the channel	context()	negated: False ,passive: True
+[LINE#129]The results show an increase in the required number of revolutions for the narrow channels which is similar to the expected linear behavior, while it approaches a steady value around 100 revolutions for wide channels.
+0.452	[*A*]it[*R*]approaches[*A*]a steady value[*A*]around 100 revolutions for wide channels	context()	negated: False ,passive: True
+0.920	[*A*]the narrow channels[*R*]is[*A*]similar to the expected linear behavior	context()	negated: False ,passive: True
+0.915	[*A*]The results[*R*]show[*A*]an increase in the required number of revolutions for the narrow channels[*A*]while it approaches a steady value around 100 revolutions for wide channels	context()	negated: False ,passive: False
+[LINE#130]The values for wide channels are similar to the obtained value for free flow, hence the results conform to the predictions.
+0.905	[*A*]The values for wide channels[*R*]are[*A*]similar to the obtained value for free flow	context(the results conform)	negated: False ,passive: True
+0.878	[*A*]the results[*R*]conform[*A*]to the predictions	context()	negated: False ,passive: True
+[LINE#131]In Fig. 4, all simulations have converged, although there are some numerical uncertainties, which can be attributed to the uncertainty in the model due to the oscillatory behavior.
+0.897	[*A*]some numerical uncertainties[*R*]can be attributed[*A*]to the uncertainty in the model[*A*]due to the oscillatory behavior	context()	negated: False ,passive: True
+0.901	[*A*]all simulations[*R*]have converged[*A*]although there are some numerical uncertainties[*A*]In Fig. 4	context()	negated: False ,passive: False
+[LINE#132]It should be emphasized that the current simulations are in 2D.
+[LINE#133]In reality, the flow can pass above and beneath the turbine as well as on the sides, which gives a lower blockage ratio than the two-dimensional case.
+0.903	[*A*]the flow[*R*]can pass[*A*]beneath the turbine	context()	negated: False ,passive: True
+0.903	[*A*]the flow[*R*]can pass[*A*]above[*A*]on the sides	context()	negated: False ,passive: True
+[LINE#134]Considering that for low blockage ratios, the agreement with the theoretical increase in performance is quite good, it seems plausible that the actual blockage ratio is the most important factor for the increase in power coefficient.
+[LINE#135]For this reason, it is important to keep the blockage ratio correct in the simulations.
+[LINE#136]One limitation with 2D simulations is that the effects of tip vortices are ignored.
+0.745	[*A*]the effects of tip vortices[*R*]are ignored	context(One limitation with 2 D simulations is)	negated: False ,passive: False
+0.842	[*A*]One limitation with 2D simulations[*R*]is[*A*]that the effects of tip vortices are ignored	context()	negated: False ,passive: True
+[LINE#137]Tip vortices cause additional losses and should therefore decrease the power coefficient.
+0.794	[*A*]Tip[*R*]should decrease[*A*]the power coefficient	context()	negated: False ,passive: False
+0.927	[*A*]Tip vortices[*R*]cause[*A*]additional losses	context()	negated: False ,passive: False
+[LINE#138]One possibility to model 3D effects is to use finite wing theory similar to what is done with the streamtube model, see for example Paraschivoiu [35].
+[LINE#139]However, finite wing theory applies for airplanes with constant angle of attack, not for blades moving in circles as for the vertical axis turbine.
+0.894	[*A*]blades[*R*]moving[*A*]in circles	context()	negated: False ,passive: True
+0.943	[*A*]finite wing theory[*R*]applies[*A*]for airplanes with constant angle of attack, not for blades	context()	negated: False ,passive: True
+[LINE#140]In this study, the 3D effects are intentionally ignored to avoid an additional source of uncertainty in the model.
+0.970	[*A*]the 3D effects[*R*]are intentionally ignored[*A*]to avoid an additional source of uncertainty in the model[*A*]In this study	context()	negated: False ,passive: True
+[LINE#141]If an additional model was to be included, the differences seen in the results could be the result of this modeling.
+0.932	[*A*]the differences seen in the results[*R*]could be[*A*]the result of this modeling	context()	negated: False ,passive: True
+0.903	[*A*]the differences[*R*]seen[*A*]in the results	context()	negated: False ,passive: True
+0.718	[*A*]an additional model[*R*]to be included	context()	negated: False ,passive: False
+0.828	[*A*]an additional model[*R*]was[*A*]to be included	context()	negated: False ,passive: True
+[LINE#142]The vortex model gives a solution to Navier-Stokes equations (or Euler's equation in our case, since viscosity is neglected in the wake).
+0.915	[*A*]The vortex model[*R*]gives[*A*]a solution to Navier - Stokes equations Euler 's equation in our case	context()	negated: False ,passive: False
+0.894	[*A*]viscosity[*R*]is neglected[*A*]in the wake	context()	negated: False ,passive: True
+0.925	[*A*]The vortex model[*R*]gives[*A*]a solution to Navier - Stokes equations	context()	negated: False ,passive: False
+[LINE#143]It is chosen to rely as much as possible on this part of the code, considering that all additional modeling introduce new sources of errors and uncertainties.
+0.326	[*A*]It[*R*]is chosen[*A*]to rely as much as possible on this part of the code[*A*]considering that all additional modeling introduce new sources of uncertainties	context()	negated: False ,passive: True
+0.411	[*A*]It[*R*]to rely[*A*]as much as possible[*A*]on this part of the code	context()	negated: False ,passive: False
+0.326	[*A*]It[*R*]is chosen[*A*]to rely as much as possible on this part of the code[*A*]considering that all additional modeling introduce new sources of errors	context()	negated: False ,passive: True
+[LINE#144]As a result, the obtained power coefficients are typically overestimated.
+0.795	[*A*]the obtained power coefficients[*R*]are overestimated[*A*]typically	context()	negated: False ,passive: True
+[LINE#145]However, the trends seen in the simulations are more likely to be caused by the channel effects, and not due to additional modeling.
+0.949	[*A*]the trends seen in the simulations[*R*]to be caused[*A*]by the channel effects, and not due to additional modeling	context()	negated: False ,passive: True
+0.956	[*A*]the trends seen in the simulations[*R*]are[*A*]more likely to be caused by the channel effects, and not due to additional modeling	context()	negated: False ,passive: True
+0.903	[*A*]the trends[*R*]seen[*A*]in the simulations	context()	negated: False ,passive: True
+[LINE#146]A straight bladed vertical axis turbine will need support structure for the blades, which lowers the power coefficient.
+0.887	[*A*]the blades[*R*]lowers[*A*]the power coefficient	context()	negated: False ,passive: False
+0.932	[*A*]A straight bladed vertical axis turbine[*R*]will need[*A*]support structure[*A*]for the blades	context()	negated: False ,passive: False
+[LINE#147]This has been omitted in this study, as the size of the support structure will be a question of material properties and the nominal flow velocity.
+0.381	[*A*]This[*R*]has been omitted[*A*]in this study[*A*]as the size of the support structure	context()	negated: False ,passive: True
+[LINE#148]Since this support structure causes additional drag, the performance can be expected to decrease with increased tip speed ratio.
+0.887	[*A*]the performance[*R*]to decrease[*A*]with increased tip speed ratio	context()	negated: False ,passive: True
+0.732	[*A*]the performance[*R*]can be expected	context()	negated: False ,passive: False
+0.911	[*A*]this support structure[*R*]causes[*A*]additional drag	context()	negated: False ,passive: False
+[LINE#149]Additional information about the losses from struts and how to model it can be found in Refs.
+0.793	[*A*]Additional information about the losses from how to model it[*R*]can be found[*A*]in Refs	context()	negated: False ,passive: True
+[LINE#150][36-38].The simulations indicate that the power coefficient will not increase as fast as the analytical theory predicts when the blockage ratio increases.
+0.707	[*A*]the power coefficient[*R*]will not increase as fast	context(The simulations indicate)	negated: True ,passive: False
+0.731	[*A*]The simulations[*R*]indicate[*A*]that the power coefficient will not increase as fast	context()	negated: False ,passive: False
+0.911	[*A*]the analytical theory[*R*]predicts[*A*]when the blockage ratio increases	context()	negated: False ,passive: False
+[LINE#151]Although a part of the difference originate from the increase in optimal tip speed ratio, which increases the drag losses, most of the difference remains for the ideal turbine as well.
+0.919	[*A*]most of the difference[*R*]remains[*A*]for the ideal turbine[*A*]as well	context()	negated: False ,passive: True
+0.905	[*A*]optimal tip speed ratio[*R*]increases[*A*]the drag losses	context()	negated: False ,passive: False
+0.926	[*A*]a part of the difference[*R*]originate[*A*]from the increase in optimal tip speed ratio	context()	negated: False ,passive: True
+[LINE#152]One explanation is that the vertical axis turbine cannot absorb optimum power over its entire cross-sectional area, but further validations are required to determine if this is the only reason for the lower simulated power coefficients compared to analytical theory.
+0.544	[*A*]lower[*R*]simulated[*A*]power coefficients	context()	negated: False ,passive: True
+0.931	[*A*]validations[*R*]are required[*A*]to determine if this is the only reason for the lower simulated power coefficients compared to analytical theory	context()	negated: False ,passive: True
+0.831	[*A*]the vertical axis turbine[*R*]can not absorb[*A*]optimum power over its entire cross-sectional area	context(One explanation is)	negated: True ,passive: False
+0.759	[*A*]One explanation[*R*]is[*A*]that the vertical axis turbine can not absorb optimum power over its entire cross-sectional area	context()	negated: False ,passive: True
+[LINE#153]This work has only studied fixed pitch turbines.
+0.859	[*A*]This work[*R*]has studied[*A*]fixed pitch turbines	context()	negated: False ,passive: False
+[LINE#154]With a pitch mechanism, it is possible to cause more of the vorticity to be released close to the edges of the cross-sectional area, which theoretically can increase performance.
+0.897	[*A*]the cross-sectional area[*R*]can increase[*A*]performance	context()	negated: False ,passive: False
+0.903	[*A*]the vorticity[*R*]to be released[*A*]close to the edges of the cross-sectional area	context()	negated: False ,passive: True
+[LINE#155]How large these effects are, is however outside the scope of this work.
+0.933	[*A*]How large these effects are[*R*]is[*A*]however[*A*]outside the scope of this work	context()	negated: False ,passive: True
+0.732	[*A*]these effects[*R*]are	context()	negated: False ,passive: False
+[LINE#156]Note that the required number of revolutions for convergence varies substantially, depending on many parameters, such as the channel length, how much the turbine decreases the flow velocity etc.
+0.901	[*A*]the turbine[*R*]decreases etc.[*A*]the flow velocity	context()	negated: False ,passive: False
+[LINE#157]For the low tip speed ratio simulations, which have relatively low affect on the flow velocity through the turbine, it can be beneficial to check for convergence during the simulation and end the simulation as soon as convergence is detected, instead of running all simulations for a fixed large number of revolutions to ensure convergence.
+0.713	[*A*]convergence[*R*]is detected	context()	negated: False ,passive: False
+0.225	[*A*]it[*R*]can be[*A*]beneficial	context()	negated: False ,passive: True
+0.949	[*A*]the low tip speed ratio simulations[*R*]have[*A*]relatively low affect on the flow velocity through the turbine	context()	negated: False ,passive: False
+[LINE#158]However, as the solution may oscillate for the high tip speed ratio case, it is still recommended to limit the maximum allowed number of revolutions, as full convergence may not always be achieved.
+0.761	[*A*]full convergence[*R*]may not be achieved[*A*]always	context()	negated: True ,passive: True
+0.411	[*A*]it[*R*]to limit[*A*]the maximum allowed number of revolutions	context()	negated: False ,passive: False
+0.606	[*A*]it[*R*]is recommended[*A*]to limit the maximum allowed number of revolutions, as full convergence may not always be achieved[*A*]still	context()	negated: False ,passive: True
+0.903	[*A*]the solution[*R*]may oscillate[*A*]for the high tip speed ratio case	context()	negated: False ,passive: True
+[LINE#159]Considering the number of parameters that affect the convergence, it is recommended to check the convergence when performing simulations of a new turbine.
+0.411	[*A*]it[*R*]to check[*A*]the convergence[*A*]when performing simulations of a new turbine	context()	negated: False ,passive: False
+0.452	[*A*]it[*R*]is recommended[*A*]to check the convergence	context()	negated: False ,passive: True
+0.877	[*A*]parameters[*R*]affect[*A*]the convergence	context()	negated: False ,passive: False
+[LINE#160]The values presented in this work should only serve as guidelines to how the convergence of the simulations is expected to behave.
+0.756	[*A*]the convergence of the simulations[*R*]to behave	context()	negated: False ,passive: False
+0.785	[*A*]the convergence of the simulations[*R*]is expected	context()	negated: False ,passive: False
+0.724	[*A*]The values presented in this work[*R*]should serve	context()	negated: False ,passive: False
+0.903	[*A*]The values[*R*]presented[*A*]in this work	context()	negated: False ,passive: True
+[LINE#161]The convergence criterion used here is also relatively demanding, and if less accuracy is required, a smaller number of revolutions will be necessary.
+0.814	[*A*]a smaller number of revolutions[*R*]will be[*A*]necessary	context()	negated: False ,passive: True
+0.732	[*A*]less accuracy[*R*]is required	context()	negated: False ,passive: False
+0.853	[*A*]The convergence criterion used here[*R*]is[*A*]also[*A*]relatively demanding	context()	negated: False ,passive: True
+0.783	[*A*]The convergence criterion[*R*]used[*A*]here	context()	negated: False ,passive: True
+[LINE#162]For the design of the turbine, the simulations with higher solidities show that when designing a turbine for a channel, the optimal design will be different compared to the free flow case.
+0.934	[*A*]the optimal design[*R*]will be[*A*]different[*A*]compared to the free flow case[*A*]when designing a turbine for a channel	context(the simulations with higher solidities show)	negated: False ,passive: True
+0.882	[*A*]the simulations with higher solidities[*R*]show[*A*]that when designing a turbine for a channel, the optimal design will be different compared to the free flow case	context()	negated: False ,passive: False
+[LINE#163]This also work the other way around: If a turbine is optimized while in a channel, it will probably not be optimal for the free flow case, which should be taken into account for all volume discretization methods.
+0.905	[*A*]the free flow case[*R*]should be taken[*A*]into account for all volume discretization methods	context()	negated: False ,passive: True
+0.350	[*A*]it[*R*]will not be[*A*]optimal for the free flow case	context()	negated: True ,passive: True
+0.890	[*A*]a turbine[*R*]is optimized[*A*]while in a channel, it will probably not be optimal for the free flow case	context()	negated: False ,passive: True
+0.334	[*A*]This[*R*]work[*A*]If a turbine is optimized while in a channel, it will probably not be optimal for the free flow case,	context()	negated: False ,passive: False
+[LINE#164]It should be emphasized that the results in this study only apply for channels where all the flow has to pass through the channel.
+0.897	[*A*]all the flow[*R*]to pass[*A*]through the channel	context()	negated: False ,passive: True
+[LINE#165]For an artificial channel where the flow can pass outside the channel walls as well, the results in the current article do not apply, because the total flow between the channel walls will decrease.
+0.816	[*A*]the total flow between the channel walls[*R*]will decrease	context()	negated: False ,passive: False
+0.948	[*A*]the results in the current article[*R*]do not apply[*A*]because the total flow between the channel walls will decrease	context()	negated: True ,passive: True
+0.901	[*A*]the flow[*R*]can pass as well[*A*]an artificial channel	context()	negated: False ,passive: True
+[LINE#166]For this case, a different study will have to be performed with the appropriate boundary conditions.
+0.718	[*A*]a different study[*R*]to be performed	context()	negated: False ,passive: False
+[LINE#167]If a site for a turbine is bounded by rigid walls, the walls will affect the character of the flow and thereby the performance of the turbine.
+0.903	[*A*]the walls[*R*]will affect thereby[*A*]the performance of the turbine	context()	negated: False ,passive: False
+0.903	[*A*]the walls[*R*]will affect[*A*]the character of the flow	context()	negated: False ,passive: False
+[LINE#168]One example is a river, where the net flow between impermeable river banks is constant.
+0.973	[*A*]the net flow between impermeable river banks[*R*]is[*A*]constant[*A*]a river	context()	negated: False ,passive: True
+0.952	[*A*]One example[*R*]is[*A*]a river, where the net flow between impermeable river banks is constant	context()	negated: False ,passive: True
+[LINE#169]In this case, the flow boundaries increase turbine performance [1,2].
+0.948	[*A*]the flow boundaries[*R*]increase[*A*]turbine performance[*A*]In this case	context()	negated: False ,passive: False
+[LINE#170]The same holds for experimental tests in wind tunnels and towing tanks etc.
+0.636	[*A*]The same[*R*]holds[*A*]for experimental tests in wind tunnels	context()	negated: False ,passive: True
+[LINE#171]Another example is flow generated by tides in a river mouth.
+0.813	[*A*]flow[*R*]generated[*A*]by tides in a river mouth	context()	negated: False ,passive: True
+0.925	[*A*]Another example[*R*]is[*A*]flow generated by tides in a river mouth	context()	negated: False ,passive: True
+[LINE#172]Here, the flow resistance caused by the turbines can decrease the total flow through the channel and reduce power production [3].
+0.927	[*A*]the flow resistance caused by the turbines[*R*]reduce[*A*]power production	context()	negated: False ,passive: False
+0.964	[*A*]the flow resistance caused by the turbines[*R*]can decrease[*A*]the total flow[*A*]Here	context()	negated: False ,passive: False
+0.911	[*A*]the flow resistance[*R*]caused[*A*]by the turbines	context()	negated: False ,passive: True
+[LINE#173]A final example is flow with artificial walls created in open sea.
+0.903	[*A*]artificial walls[*R*]created[*A*]in open sea	context()	negated: False ,passive: True
+0.932	[*A*]A final example[*R*]is[*A*]flow with artificial walls	context()	negated: False ,passive: True
+[LINE#174]Here, the flow has the possibility to pass around the walls, and the fluid motion between the channel walls depends on the flow resistance of the turbine.
+0.938	[*A*]the fluid motion between the channel walls[*R*]depends[*A*]on the flow resistance of the turbine	context()	negated: False ,passive: False
+0.957	[*A*]the flow[*R*]has[*A*]the possibility to pass around the walls[*A*]Here	context()	negated: False ,passive: False
+[LINE#175]This case has been studied in Refs.
+0.903	[*A*]This case[*R*]has been studied[*A*]in Refs	context()	negated: False ,passive: True
+[LINE#176]The present study only covers the first case, where the total flow in the channel is constant.
+0.970	[*A*]the total flow in the channel[*R*]is[*A*]constant[*A*]the first case	context()	negated: False ,passive: True
+0.933	[*A*]The present study[*R*]covers[*A*]the first case, where the total flow in the channel is constant	context()	negated: False ,passive: True
+[LINE#177]Apart from building turbines in confined areas, the study of turbines inside a channel is also important from a simulation point of view.
+0.952	[*A*]the study of turbines inside a channel[*R*]is[*A*]also[*A*]important from a simulation point of view	context()	negated: False ,passive: True
+[LINE#178]For simulations based on volume discretization, e.g. FEM, walls in the simulation domain are introduced.
+0.949	[*A*]walls in the simulation domain[*R*]are introduced[*A*]For simulations	context()	negated: False ,passive: True
+0.894	[*A*]simulations[*R*]based[*A*]on volume discretization	context()	negated: False ,passive: True
+[LINE#179]If these walls are located too close to the turbine, the computed performance will be incorrect.
+0.783	[*A*]the computed performance[*R*]will be[*A*]incorrect	context()	negated: False ,passive: True
+0.903	[*A*]these walls[*R*]are located[*A*]too close to the turbine	context()	negated: False ,passive: True
+[LINE#180]This article is intended to be useful both for designers of turbines in channels and for those involved with simulations of turbines.
+0.234	[*A*]those[*R*]involved[*A*]with simulations of turbines	context()	negated: False ,passive: True
+0.545	[*A*]This article[*R*]is intended[*A*]to be useful for those	context()	negated: False ,passive: True
+0.735	[*A*]This article[*R*]to be[*A*]useful	context()	negated: False ,passive: True
+0.937	[*A*]This article[*R*]is intended[*A*]to be useful both for designers of turbines in channels	context()	negated: False ,passive: True
+[LINE#181]In this study, straight bladed vertical axis turbines are investigated.
+0.949	[*A*]straight bladed vertical axis turbines[*R*]are investigated[*A*]In this study	context()	negated: False ,passive: True
+[LINE#182]For a simple and robust turbine design, only turbines with a fixed blade pitch angle are studied.
+[LINE#183]Vertical axis turbines are typically simulated with either streamtube models, vortex models or CFD models based on volume discretization.
+0.961	[*A*]either streamtube models, vortex models or CFD models[*R*]based[*A*]on volume discretization	context()	negated: False ,passive: True
+0.958	[*A*]Vertical axis turbines[*R*]are simulated[*A*]with either streamtube models, vortex models or CFD models[*A*]typically	context()	negated: False ,passive: True
+[LINE#184]Since the traditional streamtube models [7,8], only work for free flow, this is not an option for channel flow.
+0.381	[*A*]this[*R*]is not[*A*]an option for channel flow	context()	negated: True ,passive: True
+0.927	[*A*]the traditional streamtube models[*R*]work[*A*]for free flow	context()	negated: False ,passive: False
+[LINE#185]The choice therefore stands between vortex methods, which in their basic forms are best suited for free flows, and CFD models, which due to the volume discretization always are accompanied by channel effects.
+0.887	[*A*]vortex methods[*R*]are best suited[*A*]for free flows	context()	negated: False ,passive: True
+0.916	[*A*]The choice[*R*]stands[*A*]between vortex methods, which in their basic forms are best suited for free flows, and CFD models	context()	negated: False ,passive: True
+[LINE#186]To study the channel effects properly, many simulations have to be performed.
+0.698	[*A*]many simulations[*R*]to be performed	context()	negated: False ,passive: False
+[LINE#187]Therefore, a computationally efficient method is required, and vortex method simulations are generally faster than CFD models.
+0.925	[*A*]vortex method simulations[*R*]are[*A*]generally faster than CFD models	context()	negated: False ,passive: True
+0.769	[*A*]a computationally efficient method[*R*]is required	context()	negated: False ,passive: False
+[LINE#188]For this reason, the vortex method is chosen for the current study.
+0.911	[*A*]the vortex method[*R*]is chosen[*A*]for the current study	context()	negated: False ,passive: True
+[LINE#189]To further reduce the computational time, only 2D simulations are performed, which is a reasonably realistic model for a vertical axis turbine.
+0.938	[*A*]only 2D simulations[*R*]are performed[*A*]which is a reasonably realistic model for a vertical axis turbine	context()	negated: False ,passive: True
+[LINE#190]The vortex methodVortex methods are based on the incompressible Navier-Stokes equations, but instead of using the velocity as the main variable, the vorticity (i.e. the curl of the velocity) is chosen.
+0.698	[*A*]the vorticity[*R*]is chosen	context()	negated: False ,passive: False
+0.931	[*A*]The vortex methodVortex methods[*R*]are based[*A*]on the incompressible Navier - Stokes equations	context()	negated: False ,passive: True
+[LINE#191]The vorticity field is discretized in a grid-free manner using point vortices.
+0.926	[*A*]a grid-free manner[*R*]using[*A*]point vortices	context()	negated: False ,passive: False
+0.751	[*A*]The vorticity field[*R*]is discretized	context()	negated: False ,passive: False
+[LINE#192]In the vorticity formulation, the vorticity is a conserved quantity, which can only be created at the boundaries and will move with the flow velocity.
+0.820	[*A*]a conserved quantity , which can only be created at[*R*]will move	context(the vorticity is)	negated: False ,passive: False
+0.965	[*A*]the vorticity[*R*]is[*A*]a conserved quantity , which can only be created at will move with the flow velocity[*A*]In the vorticity formulation	context()	negated: False ,passive: True
+0.625	[*A*]a conserved quantity[*R*]can be created	context()	negated: False ,passive: False
+0.850	[*A*]a conserved quantity[*R*]can be created[*A*]at the boundaries	context()	negated: False ,passive: True
+0.973	[*A*]the vorticity[*R*]is[*A*]a conserved quantity , which can only be created at the boundaries[*A*]In the vorticity formulation	context()	negated: False ,passive: True
+[LINE#193]Vortex methods are well documented in literature and for a more detailed description of the general theory, see for example Ref.
+0.732	[*A*]Vortex methods[*R*]are well documented	context()	negated: False ,passive: False
+0.903	[*A*]Vortex methods[*R*]are well documented[*A*]for a more detailed description of the general theory	context()	negated: False ,passive: True
+0.903	[*A*]Vortex methods[*R*]are well documented[*A*]in literature	context()	negated: False ,passive: True
+[LINE#194][9].There have been several implementations of the vortex method for vertical axis turbines.
+[LINE#195]For wind turbines, Strickland implemented the method to study the curved bladed turbine 1979 [10].
+0.828	[*A*]Strickland[*R*]implemented to study[*A*]curved bladed turbine 1979	context(Strickland implemented)	negated: False ,passive: False
+0.962	[*A*]Strickland[*R*]implemented[*A*]the method to study the curved bladed turbine 1979 [10][*A*]For wind turbines	context()	negated: False ,passive: False
+[LINE#196]More recent implementations of vortex methods include the three-dimensional panel implementation by Dixon et al.
+0.964	[*A*]More recent implementations of vortex methods[*R*]include[*A*]the three-dimensional panel implementation by Dixon et al	context()	negated: False ,passive: True
+[LINE#197][11] and the two-dimensional implementation by Deglaire et al.
+[LINE#198][12], which is based on conformal mappings instead of a panel method.
+0.503	[*A*]12[*R*]is based[*A*]on conformal mappings	context()	negated: False ,passive: True
+[LINE#199]One can also note the two-dimensional double wake model by Zanon et al.
+0.669	[*A*]One[*R*]can note[*A*]the two-dimensional double wake model by Zanon et al	context()	negated: False ,passive: False
+[LINE#200][13], where the leading edge separation point is determined through a boundary layer model and one additional vortex is released at each time step to create this leading edge separation.
+0.965	[*A*]13 ] , where the leading edge separation point is determined through one additional vortex[*R*]is released[*A*]to create this leading edge separation	context()	negated: False ,passive: True
+0.992	[*A*]13 ][*R*]is released at[*A*]each time step	context()	negated: False ,passive: False
+0.968	[*A*]13 ] , where the leading edge separation point is determined through a boundary layer model[*R*]is released[*A*]to create this leading edge separation	context()	negated: False ,passive: True
+0.785	[*A*]the leading edge separation point[*R*]is determined	context()	negated: False ,passive: False
+[LINE#201]This makes the model suitable for dynamic stall simulations.
+0.381	[*A*]This[*R*]makes[*A*]the model suitable for dynamic stall simulations	context()	negated: False ,passive: False
+[LINE#202]The two-dimensional vortex method has also been combined with a finite element method by Ponta and Jacovkis [14], where the finite element method is used to calculate the flow close to the blade and the vortex method is used to calculate the wake.
+0.915	[*A*]The two - dimensional vortex method[*R*]has been combined[*A*]with a finite element method by Jacovkis [ 14	context()	negated: False ,passive: True
+0.919	[*A*]the finite element method[*R*]is used[*A*]to calculate the flow close to the vortex method	context()	negated: False ,passive: True
+0.905	[*A*]the finite element method[*R*]is used[*A*]to calculate the wake	context()	negated: False ,passive: True
+0.919	[*A*]the finite element method[*R*]is used[*A*]to calculate the flow close to the blade	context()	negated: False ,passive: True
+0.915	[*A*]The two - dimensional vortex method[*R*]has been combined[*A*]with a finite element method by Ponta [ 14	context()	negated: False ,passive: True
+[LINE#203]The vortex method has been used for tidal turbines by e.g. Wang et al.
+0.925	[*A*]The vortex method[*R*]has been used[*A*]for tidal turbines[*A*]by e.g. Wang et al	context()	negated: False ,passive: True
+[LINE#204][15], where the model uses a panel method for the potential flow and compensates for friction drag through a boundary layer model.
+0.980	[*A*]15 ] , where the model uses a panel method for the potential compensates for friction[*R*]drag[*A*]through a boundary layer model	context()	negated: False ,passive: True
+0.903	[*A*]the model[*R*]uses[*A*]a panel method for the potential compensates for friction	context()	negated: False ,passive: False
+0.980	[*A*]15 ] , where the model uses a panel method for the potential flow for friction[*R*]drag[*A*]through a boundary layer model	context()	negated: False ,passive: True
+0.903	[*A*]the model[*R*]uses[*A*]a panel method for the potential flow for friction	context()	negated: False ,passive: False
+[LINE#205]Other notable work includes the work of Li and alial [16], which is based on empirical values for the lift and drag coefficients, and this model also includes additional corrections for viscous effects, such as the decay of vortices.
+0.551	[*A*]alial [ 16[*R*]is based[*A*]on empirical values for the drag coefficients	context()	negated: False ,passive: True
+0.943	[*A*]Other notable work[*R*]includes[*A*]alial [ 16 ] , which is based on empirical values for the drag coefficients	context()	negated: False ,passive: True
+0.999	[*A*]Other notable work[*R*]includes[*A*]16 ]	context()	negated: False ,passive: False
+0.551	[*A*]alial [ 16[*R*]is based[*A*]on empirical values for the lift	context()	negated: False ,passive: True
+0.943	[*A*]Other notable work[*R*]includes[*A*]alial [ 16 ] , which is based on empirical values for the lift	context()	negated: False ,passive: True
+0.925	[*A*]Other notable work[*R*]includes[*A*]the work of Li	context()	negated: False ,passive: True
+0.927	[*A*]this model[*R*]includes[*A*]additional corrections for viscous effects , such as the decay of vortices	context()	negated: False ,passive: True
+[LINE#206]All the above mentioned models have been free vortex models, where the vortices move with the flow.
+0.933	[*A*]the vortices[*R*]move[*A*]free vortex models	context()	negated: False ,passive: True
+0.952	[*A*]All the above mentioned models[*R*]have been[*A*]free vortex models, where the vortices move with the flow	context()	negated: False ,passive: True
+[LINE#207]One other approach is taken by McCombes et al.
+0.925	[*A*]One other approach[*R*]is taken[*A*]by McCombes et al	context()	negated: False ,passive: True
+[LINE#208]In this three-dimensional model, the vorticity instead is modeled on an Eulerian mesh to obtain improved stability in the solution (although a traditional free vortex model is used in the close proximity of the blades).
+0.926	[*A*]a traditional free vortex model[*R*]is used[*A*]in the close proximity of the blades	context()	negated: False ,passive: True
+0.958	[*A*]the vorticity[*R*]is modeled[*A*]on an Eulerian mesh[*A*]to obtain improved stability in the solution[*A*]although a traditional free vortex model is used in the close proximity of the blades[*A*]In this three-dimensional model	context()	negated: False ,passive: True
+[LINE#209]This model is implemented through a finite volume version of the vorticity-velocity equation.
+0.937	[*A*]This model[*R*]is implemented[*A*]through a finite volume version of the vorticity-velocity equation	context()	negated: False ,passive: True
+[LINE#210]In this paper, a relatively simplified version of the vortex model will be used to ensure high computational efficiency.
+0.934	[*A*]a relatively simplified version of the vortex model[*R*]to ensure[*A*]high computational efficiency	context()	negated: False ,passive: False
+0.967	[*A*]a relatively simplified version of the vortex model[*R*]will be used[*A*]to ensure high computational efficiency[*A*]In this paper	context()	negated: False ,passive: True
+[LINE#211]One simplification is that the viscous effects in the wake regions can be neglected for high Reynolds numbers.
+0.936	[*A*]the viscous effects in the wake regions[*R*]can be neglected[*A*]for high Reynolds numbers	context(One simplification is)	negated: False ,passive: True
+0.875	[*A*]One simplification[*R*]is[*A*]that the viscous effects in the wake regions can be neglected for high Reynolds numbers	context()	negated: False ,passive: True
+[LINE#212]This approximation seems reasonable in most regions of the flow, apart from the boundary layer region with its large velocity gradients.
+[LINE#213]A common approach is to assume that the inviscid approximation holds in the entire domain and use the Kutta condition [18] to calculate the circulation around the blade.
+0.906	[*A*]A common approach[*R*]is[*A*]to assume that use the Kutta condition [ 18 ] to calculate the circulation around the blade	context()	negated: False ,passive: True
+0.889	[*A*]A common approach[*R*]is[*A*]to assume that the inviscid approximation holds in the entire domain	context()	negated: False ,passive: True
+[LINE#214]A problem with this approach is that separation cannot be modeled, which means that stall phenomena are neglected.
+0.665	[*A*]separation[*R*]can not be modeled	context(A problem with this approach is)	negated: True ,passive: False
+0.886	[*A*]A problem with this approach[*R*]is[*A*]that separation cannot be modeled, which means that stall phenomena are neglected	context()	negated: False ,passive: True
+[LINE#215]Another problem is that the drag force will be zero, which makes it difficult to estimate turbine efficiency.
+0.817	[*A*]the drag force[*R*]will be[*A*]zero, which makes it difficult	context(Another problem is)	negated: False ,passive: True
+0.783	[*A*]Another problem[*R*]is[*A*]that the drag force will be zero	context()	negated: False ,passive: True
+0.354	[*A*]zero[*R*]makes[*A*]it difficult to estimate turbine efficiency	context()	negated: False ,passive: False
+[LINE#216]To account for this problem, profile section data is used in the following way: First, the velocities at the boundary points are calculated from the vortices (a Gaussian smoothing kernel is used in all velocity evaluations [9]).
+0.699	[*A*]profile section data[*R*]is used	context(the velocities at the boundary points are calculated)	negated: False ,passive: False
+0.973	[*A*]the velocities at the boundary points[*R*]are calculated[*A*]from the vortices[*A*]a Gaussian smoothing kernel is used in all velocity evaluations[*A*]First	context()	negated: False ,passive: True
+0.939	[*A*]a Gaussian smoothing kernel[*R*]is used[*A*]in all velocity evaluations	context()	negated: False ,passive: True
+[LINE#217]With the boundary velocities known, a linear vortex panel method is used to calculate the circulation around the blades by applying the Kutta condition (assuming zero panel vorticity at the trailing edge).
+0.913	[*A*]a linear vortex panel method[*R*]to calculate[*A*]the circulation[*A*]around the blades	context()	negated: False ,passive: False
+0.960	[*A*]a linear vortex panel method[*R*]is used[*A*]to calculate the circulation around the blades by applying the Kutta condition	context()	negated: False ,passive: True
+0.800	[*A*]the boundary velocities[*R*]known	context()	negated: False ,passive: False
+[LINE#218]To translate this into an angle of attack, a lookup table is used.
+0.751	[*A*]a lookup table[*R*]is used	context()	negated: False ,passive: False
+[LINE#219]The lookup table is created by calculating the circulation for known angles of attack for a stationary blade in homogeneous flow.
+0.933	[*A*]The lookup table[*R*]by calculating[*A*]the circulation[*A*]for known angles of attack for a stationary blade in homogeneous flow	context()	negated: False ,passive: False
+0.751	[*A*]The lookup table[*R*]is created	context()	negated: False ,passive: False
+[LINE#220]With the angle of attack computed, the lift and drag coefficients are obtained from profile section data.
+0.911	[*A*]the drag coefficients[*R*]are obtained[*A*]from profile section data	context()	negated: False ,passive: True
+0.713	[*A*]attack[*R*]computed	context()	negated: False ,passive: False
+0.903	[*A*]the lift[*R*]are obtained[*A*]from profile section data	context()	negated: False ,passive: True
+0.769	[*A*]the angle of attack[*R*]computed	context()	negated: False ,passive: False
+[LINE#221]With this method, a different lift coefficient is obtained than from the Kutta condition.
+0.769	[*A*]a different lift coefficient[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#222]One additional equation is necessary to calculate the circulation from these new coefficients, and following the work of Strickland [10], the Kutta Joukowski lift formula is used.
+0.832	[*A*]the Kutta Joukowski lift formula[*R*]is used	context()	negated: False ,passive: False
+0.828	[*A*]One additional equation[*R*]is[*A*]necessary	context()	negated: False ,passive: True
+[LINE#223]The change in circulation can be calculated as the difference in circulation from the previous time step, and a vortex with a strength corresponding to this change in circulation is released into the flow each time step.
+0.913	[*A*]a vortex with a strength[*R*]is released[*A*]into the flow[*A*]each time step	context()	negated: False ,passive: True
+0.903	[*A*]a strength[*R*]corresponding[*A*]to this change in circulation	context()	negated: False ,passive: True
+0.948	[*A*]The change in circulation[*R*]can be calculated[*A*]as the difference in circulation from the previous time step	context()	negated: False ,passive: True
+[LINE#224]The whole procedure is iterated to take into account that the released circulation changes the boundary velocity.
+0.888	[*A*]the released circulation[*R*]changes[*A*]the boundary velocity	context(The whole procedure to take)	negated: False ,passive: False
+0.709	[*A*]The whole procedure[*R*]to take[*A*]into account[*A*]that the released circulation changes the boundary velocity	context()	negated: False ,passive: False
+0.857	[*A*]The whole procedure[*R*]is iterated[*A*]to take into account that the released circulation changes the boundary velocity	context()	negated: False ,passive: True
+[LINE#225]It is assumed that the blades are small in comparison to the whole turbine, and each blade is solved individually, where the other blades are approximated as point circulations.
+0.911	[*A*]the other blades[*R*]are approximated[*A*]as point circulations	context()	negated: False ,passive: True
+0.767	[*A*]each blade[*R*]is solved[*A*]individually	context()	negated: False ,passive: True
+[LINE#226]One limit of this model is that profile section data has to be available.
+0.828	[*A*]One limit of this model[*R*]is[*A*]that profile section data has to be available	context()	negated: False ,passive: True
+0.754	[*A*]profile section data[*R*]to be[*A*]available	context()	negated: False ,passive: True
+[LINE#227]For the current blade, data is obtained from Ref.
+0.948	[*A*]data[*R*]is obtained[*A*]from Ref[*A*]For the current blade	context()	negated: False ,passive: True
+[LINE#228]For low tip speed ratios, the blades will enter the dynamic stall region.
+0.943	[*A*]the blades[*R*]will enter[*A*]the dynamic stall region[*A*]For low tip speed ratios	context()	negated: False ,passive: False
+[LINE#229]To compensate for these effects, a model originally developed by Gormont [20] and later modified by Mass [21] is used.
+0.941	[*A*]a model originally developed by Gormont [20] and later modified by Mass [21][*R*]is used	context()	negated: False ,passive: False
+0.978	[*A*]a model originally developed by Gormont [20][*R*]modified[*A*]by Mass [21[*A*]later	context()	negated: False ,passive: True
+[LINE#230]The current implementation uses the parameters suggested by Berg [22].
+0.918	[*A*]the parameters[*R*]suggested[*A*]by Berg [22	context()	negated: False ,passive: True
+0.925	[*A*]The current implementation[*R*]uses[*A*]the parameters suggested by Berg [22]	context()	negated: False ,passive: False
+[LINE#231]The blades are assumed to have a high aspect ratio and no corrections due to 3D effects are performed.
+0.751	[*A*]3 D effects[*R*]are performed	context()	negated: False ,passive: False
+0.887	[*A*]The blades[*R*]to have[*A*]no corrections due to 3 D effects are performed	context()	negated: False ,passive: False
+0.887	[*A*]The blades[*R*]to have[*A*]a high aspect ratio	context()	negated: False ,passive: False
+0.732	[*A*]The blades[*R*]are assumed	context()	negated: False ,passive: False
+[LINE#232]The Kutta condition is not satisfied with the reduced blade circulation, which corresponds to infinite flow velocity at the trailing edge.
+0.905	[*A*]the reduced blade circulation[*R*]to infinite[*A*]flow velocity at the trailing edge	context()	negated: False ,passive: False
+0.905	[*A*]the reduced blade circulation[*R*]corresponds[*A*]to infinite flow velocity at the trailing edge	context()	negated: False ,passive: True
+0.933	[*A*]The Kutta condition[*R*]is not[*A*]satisfied with the reduced blade circulation	context()	negated: True ,passive: True
+[LINE#233]To account for this, the blades are approximated as single point circulations during the vortex convection step to avoid problems at the trailing edge and to improve computational speed.
+0.903	[*A*]the blades[*R*]are approximated[*A*]as single point circulations[*A*]during the vortex convection step	context()	negated: False ,passive: True
+[LINE#234]Within this approximation, a few vortices may penetrate into the blade in the computational domain.
+0.948	[*A*]a few vortices[*R*]may penetrate[*A*]into the blade in the computational domain[*A*]Within this approximation	context()	negated: False ,passive: False
+[LINE#235]Since this is unphysical, the contributions from these vortices are neglected during the calculation of the blade circulation while the vortices are inside the blade..
+0.903	[*A*]the vortices[*R*]are[*A*]inside the blade	context()	negated: False ,passive: True
+0.926	[*A*]the contributions from these vortices[*R*]are neglected[*A*]during the calculation of the blade circulation[*A*]while the vortices are inside the blade	context()	negated: False ,passive: True
+0.223	[*A*]this[*R*]is[*A*]unphysical	context()	negated: False ,passive: True
+[LINE#236] Modeling channelsThe velocity contribution (complex conjugated) from a vortex at position zj and with strength.
+0.260	[*A*]complex[*R*]conjugated	context()	negated: False ,passive: False
+[LINE#237]j in free flow is obtained at position z from(1)u(z)=-ij21z-zj,where the z and zj are complex numbers.
+0.813	[*A*]zj[*R*]are[*A*]complex numbers	context()	negated: False ,passive: True
+0.912	[*A*]the z[*R*]are[*A*]complex numbers[*A*]= - ij21z - zj	context()	negated: False ,passive: True
+0.918	[*A*]position[*R*]z[*A*]from ( 1 ) u ( z	context()	negated: False ,passive: True
+0.769	[*A*]j in free flow[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#238] [23] that if the vortex is located in a channel with walls at Im(z) = 0 and Im(z) = W, equation (1) can be written as(2)u(z)=-ij2(coth(c(z-zj))-coth(c(z-zj))),where(3)c=2W.This method ensures that there is no flow through any of the two channel walls.
+0.133	[*A*]1[*R*]can be written	context()	negated: False ,passive: False
+0.947	[*A*]the vortex[*R*]is located[*A*]in a channel with walls at Im ( z ) = W	context()	negated: False ,passive: True
+0.734	[*A*]3 ) c=2W.This method[*R*]ensures[*A*]that there is no flow through any of the two channel walls	context()	negated: False ,passive: False
+0.918	[*A*]the vortex[*R*]is located[*A*]in a channel with walls at Im	context()	negated: False ,passive: True
+[LINE#239]Equation (2) is suitable as all simulations are performed with the constant channel width W.
+0.732	[*A*]all simulations[*R*]are performed	context()	negated: False ,passive: False
+0.770	[*A*]Equation[*R*]is[*A*]suitable	context()	negated: False ,passive: True
+[LINE#240]For a more general case, a traditional panel method can be used to create the channel walls.
+0.905	[*A*]a traditional panel method[*R*]to create[*A*]the channel walls	context()	negated: False ,passive: False
+0.919	[*A*]a traditional panel method[*R*]can be used[*A*]to create the channel walls	context()	negated: False ,passive: True
+[LINE#241]One method to calculate the circulation around the blade is to use a linear panel method and apply the Kutta condition [24].
+0.967	[*A*]One method to calculate the circulation around the blade[*R*]is[*A*]to apply the Kutta condition	context()	negated: False ,passive: True
+0.960	[*A*]One method to calculate the circulation around the blade[*R*]is[*A*]to use a linear panel method	context()	negated: False ,passive: True
+[LINE#242]A panel in this method is linear between the points z1 and z2 and has a strength that varies linearly between 1 and 2.
+0.735	[*A*]a strength[*R*]varies linearly[*A*]between 2	context()	negated: False ,passive: True
+0.819	[*A*]A panel[*R*]has[*A*]a strength that varies linearly between 2	context()	negated: False ,passive: False
+0.735	[*A*]a strength[*R*]varies linearly[*A*]between 1	context()	negated: False ,passive: True
+0.819	[*A*]A panel[*R*]has[*A*]a strength that varies linearly between 1	context()	negated: False ,passive: False
+0.943	[*A*]A panel in this method[*R*]is[*A*]linear between the points z1 and z2	context()	negated: False ,passive: True
+[LINE#243]For wide channels when the blades are far away from the channel walls, one approximation is to use the free flow expression when solving the Kutta condition (as described in Ref.
+0.977	[*A*]one approximation[*R*]is[*A*]to use the free flow expression when solving the Kutta condition ([*A*]when the blades are far away from the channel walls	context()	negated: False ,passive: True
+0.903	[*A*]the blades[*R*]are[*A*]far away from the channel walls	context()	negated: False ,passive: True
+[LINE#244]This approximation holds when the size of the blade is small compared to the distance to the channel wall.
+0.930	[*A*]the size of the blade[*R*]is[*A*]small[*A*]compared to the distance to the channel wall	context(This approximation holds)	negated: False ,passive: True
+0.941	[*A*]This approximation[*R*]holds[*A*]when the size of the blade is small compared to the distance to the channel wall	context()	negated: False ,passive: False
+[LINE#245]If one blade is close to a wall, equation (2) has to be used to derive the exact expression for full accuracy.
+0.877	[*A*]equation[*R*]to be used[*A*]to derive the exact expression for full accuracy	context()	negated: False ,passive: True
+0.925	[*A*]one blade[*R*]is[*A*]close to a wall	context()	negated: False ,passive: True
+[LINE#246]For consistency, the exact expression will be used throughout this work.
+0.948	[*A*]the exact expression[*R*]will be used[*A*]throughout this work[*A*]For consistency	context()	negated: False ,passive: True
+[LINE#247]The expression for the flow velocity of a linear panel with linear strength can be obtained by integrating equation (2) over the panel.
+0.888	[*A*]The expression for the flow velocity of a linear panel with linear strength[*R*]can be obtained	context()	negated: False ,passive: False
+[LINE#248] If equation (2) is split into two parts u(z)=u1(z)+u2(z) where(4)u1(z)=-ij2coth(c(z-zj)),u2(z)=ij2coth(c(z-zj)),the solution for u1(z) is(5)u1(z)=-i2[e-i(0log{2sinh[c(z-z0)]}-1log{2sinh[c(z-z1)]})+(1-0)e-2i2sc{c2[(z-z0)2-(z-z1)2]}+Li2(e-2c(z- z0))-Li2(e-2c(z-z1))}],where s = |z1.
+[LINE#249]Li2 is the dilogarithm function and efficient numerical methods for its evaluation are found in Ref.
+0.714	[*A*]efficient numerical methods for its evaluation[*R*]are found[*A*]in Ref	context(Li2 is)	negated: False ,passive: True
+0.904	[*A*]Li2[*R*]is[*A*]efficient numerical methods for its evaluation are found in Ref	context()	negated: False ,passive: True
+0.925	[*A*]the dilogarithm function[*R*]are found[*A*]in Ref	context()	negated: False ,passive: True
+0.918	[*A*]Li2[*R*]is[*A*]the dilogarithm function	context()	negated: False ,passive: True
+[LINE#250]A corresponding expression for u2(z) can be obtained by the substitutions z0z0 and z1z1 (note that these substitutions also change the sign of ).
+0.887	[*A*]these substitutions[*R*]change[*A*]the sign of	context()	negated: False ,passive: False
+0.934	[*A*]A corresponding expression for u2[*R*]can be obtained[*A*]by the substitutions	context()	negated: False ,passive: True
+[LINE#251]Equation (5) cannot be applied when integrating over the negative real axis, which is the branch cut of the logarithms.
+0.927	[*A*]the negative real axis[*R*]is[*A*]the branch cut of the logarithms	context()	negated: False ,passive: True
+0.897	[*A*]Equation (5[*R*]can not be applied[*A*]when integrating over the negative real axis	context()	negated: True ,passive: True
+[LINE#252]Here, the relation(6)coth(x)=-coth(-x)can be used to make the integration cross the positive real axis instead.
+0.879	[*A*]the integration[*R*]cross instead[*A*]the positive real axis	context(the relation ( 6 ) coth to make)	negated: False ,passive: False
+0.903	[*A*]the relation(6)coth[*R*]to make[*A*]the integration cross the positive real axis instead	context()	negated: False ,passive: False
+0.927	[*A*]=-coth[*R*]can be used[*A*]to make the integration cross the positive real axis instead[*A*]Here	context()	negated: False ,passive: True
+[LINE#253] If the evaluation point z is far upstream or far downstream of the panel, the velocity can instead be evaluated through stream expansions (in this equation around origin)(7)u(z)=-i2k=1ake2czk,where  = 1 for upstream expansions and = -1 for downstream expansions.
+0.835	[*A*]the velocity[*R*]can be evaluated[*A*]in this equation around origin	context()	negated: False ,passive: True
+0.937	[*A*]the evaluation point z[*R*]is[*A*]far upstream or far downstream of the panel	context()	negated: False ,passive: True
+[LINE#254] The coefficients ak can be calculated for a panel according to(8)ak=iIm{(2c1eim+1-0s)e-2cz1mce2im2-(02ceim+1-0s)e-2cz0mce2im2}.Equations (7) and(8) are useful for evaluating the velocity far away from the panel, as equation (5) can suffer from large cancellation errors if the distance is too large.
+0.891	[*A*]The coefficients ak[*R*]can be calculated[*A*]for a panel	context(8 are)	negated: False ,passive: True
+0.400	[*A*]8[*R*]are[*A*]useful for evaluating the velocity far away from the panel	context()	negated: False ,passive: True
+0.813	[*A*]the distance[*R*]is[*A*]too large	context()	negated: False ,passive: True
+0.877	[*A*]equation[*R*]can suffer[*A*]from large cancellation errors	context()	negated: False ,passive: False
+[LINE#255]The flow velocity is evaluated using the fast multipole method [26] with asymmetric adaptivity as described in Ref.
+0.897	[*A*]The flow velocity[*R*]using[*A*]the fast multipole method	context()	negated: False ,passive: False
+0.751	[*A*]The flow velocity[*R*]is evaluated	context()	negated: False ,passive: False
+[LINE#256]The implementation is based on the CPU part of method described in Ref.
+0.911	[*A*]method[*R*]described[*A*]in Ref	context()	negated: False ,passive: True
+0.903	[*A*]The implementation[*R*]is based[*A*]on the CPU part of method	context()	negated: False ,passive: True
+[LINE#257][28], which has been extended for channels according to Ref.
+0.503	[*A*]28[*R*]has been extended[*A*]for channels	context()	negated: False ,passive: True
+[LINE#258]that by combining equations (7) and (8) together with the panel implementation of the fast multipole method used in Ref.
+0.931	[*A*]the fast multipole method[*R*]used[*A*]in Ref	context()	negated: False ,passive: True
+[LINE#259][24], the fast multipole method can also be used to evaluate the velocities from panels.
+0.905	[*A*]the fast multipole method[*R*]to evaluate[*A*]the velocities from panels	context()	negated: False ,passive: False
+0.881	[*A*]the fast multipole method[*R*]can be used[*A*]to evaluate the velocities from panels	context()	negated: False ,passive: True

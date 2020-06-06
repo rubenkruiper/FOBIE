@@ -1,0 +1,551 @@
+[LINE#1]Currently there are few observations of the urban wind field at heights other than rooftop level.
+[LINE#2]Remote sensing instruments such as Doppler lidars provide wind speed data at many heights, which would be useful in determining wind loadings of tall buildings, and predicting local air quality.
+0.887	[*A*]many heights[*R*]would be[*A*]useful[*A*]in determining wind loadings of tall buildings	context()	negated: False ,passive: True
+0.927	[*A*]Doppler lidars[*R*]provide[*A*]wind speed data[*A*]at many heights	context()	negated: False ,passive: False
+[LINE#3]Studies comparing remote sensing with traditional anemometers carried out in flat, homogeneous terrain often use scan patterns which take several minutes.
+0.867	[*A*]Studies[*R*]comparing[*A*]remote sensing[*A*]with traditional anemometers	context(Studies comparing remote sensing with traditional anemometers use)	negated: False ,passive: False
+0.946	[*A*]Studies comparing remote sensing with traditional anemometers[*R*]use[*A*]scan patterns[*A*]often	context()	negated: False ,passive: False
+0.877	[*A*]patterns[*R*]take[*A*]several minutes	context()	negated: False ,passive: False
+0.903	[*A*]traditional anemometers[*R*]carried out[*A*]in flat, homogeneous terrain	context()	negated: False ,passive: True
+[LINE#4]In an urban context the flow changes quickly in space and time, so faster scans are required to ensure little change in the flow over the scan period.
+0.903	[*A*]the flow[*R*]changes quickly[*A*]in time	context()	negated: False ,passive: True
+0.897	[*A*]so faster scans[*R*]to ensure[*A*]little change in the flow over the scan period	context()	negated: False ,passive: False
+0.967	[*A*]so faster scans[*R*]are required[*A*]to ensure little change in the flow over the scan period[*A*]In an urban context	context()	negated: False ,passive: True
+0.903	[*A*]the flow[*R*]changes quickly[*A*]in space	context()	negated: False ,passive: True
+[LINE#5]We compare 3993h of wind speed data collected using a three-beam Doppler lidar wind profiling method with data from a sonic anemometer (190m).
+0.751	[*A*]wind speed data[*R*]collected	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]compare[*A*]3993h of wind speed data	context()	negated: False ,passive: False
+[LINE#6]Both instruments are located in central London, UK; a highly built-up area.
+0.918	[*A*]Both instruments[*R*]are located[*A*]in central London[*A*]UK	context()	negated: False ,passive: True
+[LINE#7]Based on wind profile measurements every 2min, the uncertainty in the hourly mean wind speed due to the sampling frequency is 0.05-0.11ms-1.
+0.966	[*A*]the hourly mean wind speed[*R*]has the uncertainty of[*A*]0.05 -0.11ms -1	context()	negated: False ,passive: False
+0.973	[*A*]the uncertainty in the hourly mean wind speed due to the sampling frequency[*R*]is[*A*]0.05 -0.11ms -1	context()	negated: False ,passive: False
+0.985	[*A*]the uncertainty in the hourly mean wind speed due to the sampling frequency[*R*]is[*A*]0.05-0.11ms-1[*A*]every 2min	context()	negated: False ,passive: True
+[LINE#8]The lidar tended to overestimate the wind speed by 0.5ms-1 for wind speeds below 20ms-1.
+0.887	[*A*]The lidar[*R*]to overestimate[*A*]the wind speed[*A*]by 0.5ms-1	context()	negated: False ,passive: False
+0.937	[*A*]The lidar[*R*]tended[*A*]to overestimate the wind speed by 0.5ms-1 for wind speeds below 20ms-1	context()	negated: False ,passive: True
+[LINE#9]Accuracy may be improved by increasing the scanning frequency of the lidar.
+0.713	[*A*]Accuracy[*R*]may be improved	context()	negated: False ,passive: False
+[LINE#10]This method is considered suitable for use in urban areas.
+[LINE#11]A three-beam Doppler lidar wind profiling method, consisting of one vertical beam and two tilted beams (elevation 75), was evaluated to determine whether it was suitable for use in urban areas.
+0.955	[*A*]A three - beam Doppler lidar wind profiling method[*R*]consisting[*A*]of two tilted beams	context()	negated: False ,passive: True
+0.948	[*A*]A three - beam Doppler lidar wind profiling method[*R*]was evaluated[*A*]to determine whether it was suitable for use in urban areas	context()	negated: False ,passive: True
+0.955	[*A*]A three - beam Doppler lidar wind profiling method[*R*]consisting[*A*]of one vertical beam	context()	negated: False ,passive: True
+[LINE#12]The reference instrument used was a sonic anemometer located at 190m above ground, at a site 1.6km from the lidar.
+0.751	[*A*]The reference instrument[*R*]used	context()	negated: False ,passive: False
+[LINE#13]After removing data from the sonic anemometer affected by flow distortion, and correcting for a 0.5 tilt of the lidar, the data from the two instruments were compared.
+0.953	[*A*]the data from the two instruments[*R*]were compared[*A*]After correcting for a 0.5 tilt of the lidar	context()	negated: False ,passive: True
+0.953	[*A*]the data from the two instruments[*R*]were compared[*A*]After removing data from the sonic anemometer	context()	negated: False ,passive: True
+0.911	[*A*]the sonic anemometer[*R*]affected[*A*]by flow distortion	context()	negated: False ,passive: True
+[LINE#14]The horizontal wind speeds were averaged over 60min to reduce variability.
+0.919	[*A*]The horizontal wind speeds[*R*]were averaged[*A*]over 60min[*A*]to reduce variability	context()	negated: False ,passive: True
+[LINE#15]A strong correlation was found between the two datasets, although the lidar has a tendency to overestimate the wind speed by 0-0.5ms-1 at speeds of less than 20ms-1.
+0.952	[*A*]the lidar[*R*]has[*A*]a tendency to overestimate the wind speed by 0-0.5ms-1 at speeds of less than 20ms-1	context()	negated: False ,passive: False
+0.911	[*A*]A strong correlation[*R*]was found[*A*]between the two datasets[*A*]although the lidar has a tendency	context()	negated: False ,passive: True
+[LINE#16]At higher wind speeds there are few data, so it is not possible to draw a robust conclusion for these conditions.
+[LINE#17]The error in the lidar-derived wind speeds varies with the stability of the atmosphere; from 0.36ms-1 in stable conditions, to 1.05ms-1 in unstable conditions, and 0.86ms-1 in neutral conditions.
+0.843	[*A*]The error in the lidar-derived wind speeds[*R*]varies	context()	negated: False ,passive: False
+[LINE#18]There is a considerable amount of spread around the fitted curve, which can be attributed to the low sampling frequency of the lidar (30 scans per hour), and the large distance between the instruments (1.6km).
+0.897	[*A*]the fitted curve[*R*]can be attributed[*A*]to the low sampling frequency of the lidar	context()	negated: False ,passive: True
+[LINE#19]This result could be improved by increasing the sampling frequency of the lidar, as well as using instruments located closer together.
+0.713	[*A*]instruments[*R*]located closer together	context()	negated: False ,passive: False
+0.886	[*A*]This result[*R*]could be improved[*A*]using instruments	context()	negated: False ,passive: True
+[LINE#20]The 3-beam DBS wind profiling method is considered to be appropriate for use in urban locations.
+0.950	[*A*]The 3-beam DBS wind profiling method[*R*]to be[*A*]appropriate for use in urban locations	context()	negated: False ,passive: True
+[LINE#21]This method is capable of providing accurate wind speed data throughout the depth of the urban boundary layer suitable for both wind engineering and meteorological applications.
+0.952	[*A*]This method[*R*]is[*A*]capable of providing accurate wind speed data throughout the depth of the urban boundary layer suitable for meteorological applications	context()	negated: False ,passive: True
+0.952	[*A*]This method[*R*]is[*A*]capable of providing accurate wind speed data throughout the depth of the urban boundary layer suitable for both wind engineering applications	context()	negated: False ,passive: True
+[LINE#22]Comprehensive knowledge of the urban wind field is important to a wide variety of applications, including air quality, micro-generation of electricity and building design.
+0.970	[*A*]Comprehensive knowledge of the urban wind field[*R*]is[*A*]important to a wide variety of applications , including air quality , micro-generation of building design	context()	negated: False ,passive: True
+0.970	[*A*]Comprehensive knowledge of the urban wind field[*R*]is[*A*]important to a wide variety of applications , including air quality , micro-generation of electricity	context()	negated: False ,passive: True
+[LINE#23]Dispersal of pollutants in urban areas is a well-studied area and data for this, and for studies of rooftop wind turbines, may be obtained using conventional instrumented masts, or roof-mounted equipment.
+0.948	[*A*]Dispersal of pollutants in urban areas[*R*]is[*A*]a well-studied area and data for this	context()	negated: False ,passive: True
+[LINE#24]It is often challenging to obtain wind profile data in urban areas as it is generally not possible to use radiosondes or tethered balloons within a city, and erecting masts at the height of many tall buildings is not feasible.
+0.159	[*A*]it[*R*]is not[*A*]possible	context()	negated: True ,passive: True
+0.411	[*A*]It[*R*]to obtain[*A*]wind profile data in urban areas	context()	negated: False ,passive: False
+0.866	[*A*]erecting masts at the height of many tall buildings[*R*]is not[*A*]feasible	context()	negated: True ,passive: True
+[LINE#25]The majority of studies of the urban boundary layer (UBL) have, therefore, been carried out using instrumented masts or roof-mounted instruments.
+0.748	[*A*]The majority of studies of the urban boundary layer[*R*]have been carried out	context()	negated: False ,passive: False
+[LINE#26] This has led to a lack of observations at greater heights(Roth, 2000), a problem which may be solved if remote sensing instruments such as sodars and lidars can be successfully deployed in urban environments.
+0.932	[*A*]remote sensing instruments such as lidars[*R*]can be successfully deployed[*A*]in urban environments	context()	negated: False ,passive: True
+0.927	[*A*]a problem[*R*]may be solved[*A*]if remote sensing instruments such as lidars can be successfully deployed in urban environments	context()	negated: False ,passive: True
+0.932	[*A*]remote sensing instruments such as sodars[*R*]can be successfully deployed[*A*]in urban environments	context()	negated: False ,passive: True
+0.927	[*A*]a problem[*R*]may be solved[*A*]if remote sensing instruments such as sodars can be successfully deployed in urban environments	context()	negated: False ,passive: True
+0.381	[*A*]This[*R*]has led[*A*]to a lack of observations at greater heights	context()	negated: False ,passive: False
+[LINE#27]Wind profile data, as opposed to the point measurements collected by traditional anemometers, are essential to the compilation of a complete urban wind climatology.
+0.965	[*A*]Wind profile data, as opposed to the point measurements[*R*]are[*A*]essential to the compilation of a complete urban wind climatology	context()	negated: False ,passive: True
+0.911	[*A*]the point measurements[*R*]collected[*A*]by traditional anemometers	context()	negated: False ,passive: True
+[LINE#28]Given the sometimes complex way in which wind profiles adjust to the urban surface, this information could be extremely useful for calculating potential wind loadings on tall buildings, as well as for producing accurate weather forecasts for urban areas.
+0.937	[*A*]this information[*R*]could be[*A*]extremely useful for calculating potential wind loadings for producing accurate weather forecasts for urban areas	context()	negated: False ,passive: True
+0.937	[*A*]this information[*R*]could be[*A*]extremely useful for calculating potential wind loadings on tall buildings	context()	negated: False ,passive: True
+0.903	[*A*]wind profiles[*R*]adjust[*A*]to the urban surface	context()	negated: False ,passive: False
+[LINE#29]Another potential advantage of using remote sensing is that it is relatively simple to acquire data from above the roughness sublayer (RSL).
+0.836	[*A*]Another potential advantage of using remote sensing[*R*]is[*A*]that it is relatively simple to acquire data from above the roughness sublayer	context()	negated: False ,passive: True
+[LINE#30]Within the RSL the flow is directly influenced by roughness elements at the surface, such as trees and buildings, and may vary widely in the horizontal as well as the vertical.
+0.952	[*A*]the flow[*R*]may vary[*A*]widely[*A*]in the vertical[*A*]Within the RSL	context()	negated: False ,passive: True
+0.952	[*A*]the flow[*R*]may vary[*A*]widely[*A*]in the horizontal[*A*]Within the RSL	context()	negated: False ,passive: True
+0.970	[*A*]the flow[*R*]is directly influenced[*A*]by roughness elements at the surface , such as buildings[*A*]Within the RSL	context()	negated: False ,passive: True
+0.970	[*A*]the flow[*R*]is directly influenced[*A*]by roughness elements at the surface , such as trees[*A*]Within the RSL	context()	negated: False ,passive: True
+[LINE#31]If we wish to obtain data that is representative of the wider surface, our measurements must be made above the RSL, which can be considered to extend up to 2-5 times the mean building height (Rotach, 1999; Cheng and Castro, 2002).
+0.272	[*A*]that[*R*]is representative of[*A*]the wider surface	context()	negated: False ,passive: False
+0.638	[*A*]our measurements[*R*]must be made[*A*]above the RSL	context()	negated: False ,passive: True
+0.905	[*A*]data[*R*]is[*A*]representative of the wider surface	context()	negated: False ,passive: True
+0.802	[*A*]the RSL[*R*]to extend[*A*]up to 2-5 times the mean building height	context()	negated: False ,passive: False
+0.194	[*A*]we[*R*]wish to obtain[*A*]data that is representative of the wider surface	context(we wish)	negated: False ,passive: False
+0.467	[*A*]we[*R*]wish[*A*]to obtain data	context()	negated: False ,passive: False
+[LINE#32] This can be difficult to achieve using, for example, an anemometer, as this type of instrument is generally mounted on a mast or building, which are both likely to be within the RSL.There are several scan types that may be employed to obtain wind profiles using a Doppler lidar including Velocity Azimuth Display (Browning and Wexler, 1968), Range Height Indicator (.
+0.905	[*A*]a mast or building[*R*]are[*A*]likely to be within the RSL.There	context()	negated: False ,passive: True
+0.881	[*A*]this type of instrument[*R*]is mounted[*A*]on a mast or building	context()	negated: False ,passive: True
+0.897	[*A*]several scan types[*R*]may be employed[*A*]to obtain wind profiles	context()	negated: False ,passive: True
+0.689	[*A*]an anemometer[*R*]are[*A*]several scan types that may be employed	context()	negated: False ,passive: True
+[LINE#33]Davies et al., 2003) and Doppler Beam Swinging (Pearson et al. 2009).
+[LINE#34]A VAD scan involves making observations at a single elevation angle and many azimuth angles, so that the lidar beam describes a cone.
+0.891	[*A*]A VAD scan[*R*]involves[*A*]making observations at many azimuth angles , so that the lidar beam describes a cone	context()	negated: False ,passive: True
+0.911	[*A*]the lidar beam[*R*]describes[*A*]a cone	context()	negated: False ,passive: False
+0.891	[*A*]A VAD scan[*R*]involves[*A*]making observations at a single elevation angle , so that the lidar beam describes a cone	context()	negated: False ,passive: True
+[LINE#35]An RHI scan takes samples at a single azimuth angle, and many elevations, so that the lidar samples a vertical 'slice' of the atmosphere.
+0.903	[*A*]the lidar[*R*]samples[*A*]a vertical ' slice ' of the atmosphere	context()	negated: False ,passive: False
+0.891	[*A*]An RHI scan[*R*]takes[*A*]samples[*A*]so that the lidar samples a vertical ' slice ' of the atmosphere	context()	negated: False ,passive: False
+[LINE#36]During a DBS scan the lidar measures vertically, and then tilted in at least two other perpendicular directions (e.g. north and east).
+[LINE#37]Because a DBS scan involves scanning in fewer directions than an RHI or VAD scan, it can be completed more quickly (i.e. in seconds rather than minutes).
+0.407	[*A*]it[*R*]can be completed more quickly[*A*]i.e. in seconds rather than minutes	context()	negated: False ,passive: True
+0.944	[*A*]a DBS scan[*R*]involves[*A*]scanning in fewer directions than an RHI or VAD	context()	negated: False ,passive: True
+[LINE#38]These three scans can all be carried out using a single Doppler lidar, but two or more lidars may also be used to measure different components of the wind in a common volume (Collier et al., 2005), or to create a 'virtual tower' (Calhoun et al., 2006) using intersecting RHI scans for measuring wind profiles.
+0.905	[*A*]two or more lidars[*R*]to measure[*A*]different components of the wind	context()	negated: False ,passive: False
+0.922	[*A*]two or more lidars[*R*]may be used[*A*]to measure different components of the wind in a common volume	context()	negated: False ,passive: True
+0.663	[*A*]These three scans[*R*]can be carried out	context()	negated: False ,passive: False
+[LINE#39]Before deciding which scan type to use, it is necessary to consider the likely characteristics of the local wind field.
+[LINE#40](2009) suggest that Doppler Beam Swinging (DBS) is suitable for areas where the flow cannot be considered to be uniform over the area sampled during a velocity azimuth display (VAD) scan, or steady over the time it takes for such a scan to be completed.
+0.903	[*A*]the area[*R*]sampled[*A*]during a velocity azimuth display	context()	negated: False ,passive: True
+0.887	[*A*]the flow[*R*]to be[*A*]uniform over the area	context()	negated: False ,passive: True
+0.751	[*A*]such a scan[*R*]to be completed	context()	negated: False ,passive: False
+[LINE#41]The much shorter time required to complete a DBS scan should allow unsteady flow to be captured more completely because many scans may be completed in the same time required to carry out a VAD scan.
+0.903	[*A*]many scans[*R*]may be completed[*A*]in the same time	context()	negated: False ,passive: True
+0.920	[*A*]unsteady flow[*R*]to be captured more completely[*A*]because many scans may be completed in the same time	context(The much shorter time required to complete a DBS scan should allow)	negated: False ,passive: True
+0.971	[*A*]The much shorter time required to complete a DBS scan[*R*]should allow[*A*]unsteady flow to be captured more completely because many scans may be completed in the same time	context()	negated: False ,passive: False
+0.769	[*A*]The much shorter time[*R*]required	context()	negated: False ,passive: False
+[LINE#42]Due to the extremely rough nature of the urban surface, high turbulence intensities may be found up to a substantial distance above the mean building height, suggesting that a DBS scan may be suitable for use in observing the urban wind field.
+0.751	[*A*]high turbulence intensities[*R*]may be found up	context()	negated: False ,passive: False
+[LINE#43]This paper builds on the work of Pearson et al.
+0.918	[*A*]This paper[*R*]builds[*A*]on the work of Pearson et al	context()	negated: False ,passive: False
+[LINE#44](2009) by testing the DBS scanning method in an urban setting.
+[LINE#45]As part of the ACTUAL project (Advanced Climate Technology Urban Atmospheric Laboratory) a pulsed Doppler lidar was located in central London, at a site on the Marylebone Road, with the aim of making observations throughout the UBL.
+0.949	[*A*]a pulsed Doppler lidar[*R*]was located[*A*]in central London[*A*]at a site on the Marylebone Road	context()	negated: False ,passive: True
+[LINE#46] Wind speed observations from the lidarusing the DBS method were compared with data from a sonic anemometer located at 190m during the period 06/07/2010-11/01/2012.
+0.911	[*A*]a sonic anemometer[*R*]located[*A*]at 190m[*A*]during the period	context()	negated: False ,passive: True
+0.933	[*A*]the DBS method[*R*]were compared[*A*]with data from a sonic anemometer	context()	negated: False ,passive: True
+[LINE#47]An estimate of the uncertainty of the lidar wind speeds was calculated and the suitability of the DBS method for urban wind profiling was assessed.
+0.889	[*A*]the suitability of the DBS method for urban wind profiling[*R*]was assessed	context()	negated: False ,passive: False
+0.856	[*A*]An estimate of the uncertainty of the lidar wind speeds[*R*]was calculated	context()	negated: False ,passive: False
+[LINE#48]Instrument locationsThe two instrument sites are located within central London, UK (Fig. 1).
+0.953	[*A*]Instrument locationsThe two instrument sites[*R*]are located[*A*]within central London, UK	context()	negated: False ,passive: True
+[LINE#49]A HALO Photonics Streamline pulsed Doppler lidar is located on the roof of the Westminster City Council building (WCC) on the Marylebone Road (51.5213N, 0.1606W), and a sonic anemometer is positioned on an open lattice tower on top of the BT Tower (51.5215N, 0.1389W).
+0.914	[*A*]Doppler lidar[*R*]is positioned[*A*]on an open lattice tower	context()	negated: False ,passive: True
+[LINE#50](2011b) for wind-tunnel simulations of flow around the tower, and Wood et al.
+[LINE#51](2010) for previous work carried out at this site.
+0.903	[*A*]previous work[*R*]carried out[*A*]at this site	context()	negated: False ,passive: True
+[LINE#52]The heights of the lidar and anemometer above local ground level are 18m and 190m, respectively, and the distance between the two sites is 1.6km.
+0.834	[*A*]The heights of the anemometer above local ground level[*R*]have respectively of[*A*]18 190 m	context()	negated: False ,passive: False
+0.973	[*A*]The heights of the anemometer above local ground level[*R*]are[*A*]18 190 m	context()	negated: False ,passive: False
+0.998	[*A*]the anemometer above local ground level[*R*]has The heights of[*A*]18 190 m	context()	negated: False ,passive: False
+0.948	[*A*]The heights of the anemometer above local ground level[*R*]are[*A*]18 190 m[*A*]respectively	context()	negated: False ,passive: True
+0.834	[*A*]The heights of the anemometer above local ground level[*R*]have respectively of[*A*]18 m	context()	negated: False ,passive: False
+0.973	[*A*]The heights of the anemometer above local ground level[*R*]are[*A*]18 m	context()	negated: False ,passive: False
+0.998	[*A*]the anemometer above local ground level[*R*]has The heights of[*A*]18 m	context()	negated: False ,passive: False
+0.948	[*A*]The heights of the anemometer above local ground level[*R*]are[*A*]18 m[*A*]respectively	context()	negated: False ,passive: True
+0.834	[*A*]The heights of the lidar above local ground level[*R*]have respectively of[*A*]18 190 m	context()	negated: False ,passive: False
+0.973	[*A*]The heights of the lidar above local ground level[*R*]are[*A*]18 190 m	context()	negated: False ,passive: False
+0.998	[*A*]the lidar above local ground level[*R*]has The heights of[*A*]18 190 m	context()	negated: False ,passive: False
+0.948	[*A*]The heights of the lidar above local ground level[*R*]are[*A*]18 190 m[*A*]respectively	context()	negated: False ,passive: True
+0.834	[*A*]The heights of the lidar above local ground level[*R*]have respectively of[*A*]18 m	context()	negated: False ,passive: False
+0.973	[*A*]The heights of the lidar above local ground level[*R*]are[*A*]18 m	context()	negated: False ,passive: False
+0.998	[*A*]the lidar above local ground level[*R*]has The heights of[*A*]18 m	context()	negated: False ,passive: False
+0.948	[*A*]The heights of the lidar above local ground level[*R*]are[*A*]18 m[*A*]respectively	context()	negated: False ,passive: True
+0.948	[*A*]the distance between the two sites[*R*]is[*A*]1.6km	context()	negated: False ,passive: True
+[LINE#53]The area around the two sites is primarily commercial and residential, although there are two large parks in the vicinity.
+0.908	[*A*]The area around the two sites[*R*]is[*A*]primarily residential[*A*]although there are two large parks in the vicinity	context()	negated: False ,passive: True
+0.908	[*A*]The area around the two sites[*R*]is[*A*]primarily commercial[*A*]although there are two large parks in the vicinity	context()	negated: False ,passive: True
+[LINE#54]The nearest point of Regent's Park (1.66km2) is 0.4km to the north-east of WCC, and 0.7km north-west of the BT Tower.
+0.978	[*A*]The nearest point of Regent 's Park[*R*]is[*A*]0.4 km to 0.7 km north - west of the BT Tower	context()	negated: False ,passive: True
+0.973	[*A*]The nearest point of Regent 's Park ( 1.66km2 )[*R*]is[*A*]0.4 km	context()	negated: False ,passive: False
+0.998	[*A*]Regent 's Park[*R*]has The nearest point of[*A*]0.4 km	context()	negated: False ,passive: False
+0.965	[*A*]The nearest point of Regent 's Park[*R*]is[*A*]0.4 km to the north - east of WCC	context()	negated: False ,passive: True
+[LINE#55]The nearest point in Hyde Park is located 0.9km to the south of WCC and 1.7km to the south-west of the BT Tower.
+0.993	[*A*]The nearest point in Hyde Park[*R*]is located to[*A*]1.7 km	context()	negated: False ,passive: False
+0.949	[*A*]The nearest point in Hyde Park[*R*]is located[*A*]0.9 km	context()	negated: False ,passive: True
+0.957	[*A*]The nearest point in Hyde Park[*R*]is located[*A*]0.9 km[*A*]to the south of WCC	context()	negated: False ,passive: True
+[LINE#56]Hyde Park extends westwards and, together with the adjacent Kensington Gardens, comprises 2.53km2 of grass, lake and woodland.
+0.920	[*A*]Hyde[*R*]comprises[*A*]2.53km2 of woodland	context()	negated: False ,passive: True
+0.920	[*A*]Hyde[*R*]comprises[*A*]2.53km2 of lake	context()	negated: False ,passive: True
+0.927	[*A*]Hyde Park[*R*]extends[*A*]westwards	context()	negated: False ,passive: False
+[LINE#57] Within 1-10km of the BT Tower (the tower's approximate source area in neutral conditions-Wood et al., 2010)the mean building height is 8.83.0m, so the instruments at the top of the BT Tower are 22 times the mean building height (Wood et al., 2010).
+0.961	[*A*]the instruments at the top of the BT Tower[*R*]are[*A*]22 times the mean building height	context()	negated: False ,passive: True
+0.970	[*A*]the mean building height[*R*]is[*A*]8.83.0m[*A*]Within 1-10km of the BT Tower	context()	negated: False ,passive: True
+[LINE#58]In order to compare data from an anemometer with the lidar, the height above ground of the anemometer must exceed the minimum range of the lidar.
+0.938	[*A*]the height above ground of the anemometer[*R*]must exceed[*A*]the minimum range of the lidar	context()	negated: False ,passive: False
+[LINE#59]In this case, this means the anemometer must be at least 105m above ground (see Section 2.2.1).
+0.878	[*A*]the anemometer[*R*]must be[*A*]at least 105m above ground	context(this means)	negated: False ,passive: True
+0.620	[*A*]this[*R*]means[*A*]the anemometer must be at least 105m above ground (see Section 2.2.1[*A*]In this case	context()	negated: False ,passive: False
+[LINE#60]The BT Tower site provides a rare opportunity to collect data continuously so far above an urban surface, allowing a long-term comparison with the lidar.
+0.885	[*A*]The BT Tower site[*R*]provides allowing[*A*]a long-term comparison with the lidar	context(The BT Tower site provides)	negated: False ,passive: False
+0.885	[*A*]The BT Tower site[*R*]provides to collect continuously[*A*]so far above an urban surface	context(The BT Tower site provides)	negated: False ,passive: False
+0.950	[*A*]The BT Tower site[*R*]provides[*A*]a rare opportunity to collect data continuously so far above an urban surface[*A*]allowing a long-term comparison with the lidar	context()	negated: False ,passive: False
+[LINE#61]To avoid interference with the lidar data from turbulence generated by the tower, the lidar must be sited further from the tower than the length of the wake, which is estimated to be ten times the width of the tower, or 1020m=200m.
+0.927	[*A*]the wake[*R*]to be[*A*]ten times the width of the tower, or 1020m=200m	context()	negated: False ,passive: True
+0.927	[*A*]the wake[*R*]is estimated[*A*]to be ten times the width of the tower, or 1020m=200m	context()	negated: False ,passive: True
+0.937	[*A*]the lidar[*R*]must be sited[*A*]further from the tower than the length of the wake	context()	negated: False ,passive: True
+0.894	[*A*]turbulence[*R*]generated[*A*]by the tower	context()	negated: False ,passive: True
+[LINE#62] The WCC site is far enough away that the BT Tower's wake will not affect the lidar measurements, and the choice to use this site was made to build on previous work (.
+0.944	[*A*]the BT Tower 's wake[*R*]will not affect[*A*]the lidar measurements	context()	negated: True ,passive: False
+0.827	[*A*]The WCC site[*R*]is away[*A*]far enough	context()	negated: False ,passive: True
+[LINE#63]Barlow et al., 2009; Harrison et al., 2012)..
+[LINE#64]Doppler lidarThe lidar used here is a pulsed, heterodyne Doppler lidar.
+0.936	[*A*]Doppler lidarThe lidar used here[*R*]is[*A*]a pulsed, heterodyne Doppler lidar	context()	negated: False ,passive: True
+[LINE#65]It is eye-safe, and the scan pattern is configurable by the user (for an example, see Wood et al., 2013).
+0.828	[*A*]the scan pattern[*R*]is[*A*]configurable	context()	negated: False ,passive: True
+0.522	[*A*]It[*R*]is[*A*]eye - safe	context()	negated: False ,passive: True
+[LINE#66]The lidar has several built-in scanning modes, including a DBS wind profiling setting which is used here.
+0.820	[*A*]a DBS wind profiling[*R*]is used[*A*]here	context()	negated: False ,passive: True
+0.818	[*A*]a DBS wind profiling[*R*]setting	context()	negated: False ,passive: False
+0.960	[*A*]The lidar[*R*]has[*A*]several built-in scanning modes, including a DBS wind profiling	context()	negated: False ,passive: False
+[LINE#67]Some technical specifications for this lidar configuration are given in Table 1.
+0.948	[*A*]Some technical specifications for this lidar configuration[*R*]are given[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#68]Observations of light scattered from aerosol particles in the atmosphere are received as a function of time from transmission to detection.
+0.897	[*A*]Observations of light[*R*]are received[*A*]as a function of time from transmission to detection	context()	negated: False ,passive: True
+0.813	[*A*]light[*R*]scattered[*A*]from aerosol particles in the atmosphere	context()	negated: False ,passive: True
+[LINE#69]Data are combined by the lidar software into 30 m-long gates along the lidar beam.
+0.993	[*A*]Data[*R*]are combined into[*A*]30 m - long gates	context()	negated: False ,passive: False
+0.931	[*A*]Data[*R*]are combined[*A*]by the lidar software[*A*]into 30 m-long gates along the lidar beam	context()	negated: False ,passive: True
+[LINE#70] Although there are 80 gates, the data from the first three are not useable as the geometry of the lidar causes only part of the return signal at short distances to be detected.
+0.913	[*A*]the data from the first three[*R*]are not[*A*]useable as the geometry of the lidar	context()	negated: True ,passive: True
+[LINE#71] The seemingly low maximum Doppler velocity (11ms-1) refers to the maximum measurable unambiguous velocity along the beam; it is still possible to measure higher horizontal wind speeds when measurements from several beams are trigonometrically combined.. Doppler beam swinging (DBS)The DBS method of lidar wind profiling uses a beam pointed consecutively in three directions: vertically, tilted east and tilted north.
+0.903	[*A*]a beam[*R*]pointed[*A*]consecutively[*A*]in three directions	context()	negated: False ,passive: True
+[LINE#72]The pre-programmed DBS mode of the lidar takes two consecutive samples in each direction, with each sample taking 1s to obtain and 2.5s to process.
+0.903	[*A*]each sample[*R*]taking[*A*]1s[*A*]to obtain and 2.5s	context()	negated: False ,passive: False
+0.953	[*A*]The pre-programmed DBS mode of the lidar[*R*]takes[*A*]two consecutive samples in each direction[*A*]with each sample taking 1s	context()	negated: False ,passive: False
+[LINE#73]The entire scan cycle is completed in approximately 21s.
+0.993	[*A*]The entire scan cycle[*R*]is completed in[*A*]approximately 21s	context()	negated: False ,passive: False
+0.919	[*A*]The entire scan cycle[*R*]is completed[*A*]in approximately 21s	context()	negated: False ,passive: True
+[LINE#74]The interval between scans is set to the allowed minimum of 120s.
+0.919	[*A*]The interval between scans[*R*]is set[*A*]to the allowed minimum of 120s	context()	negated: False ,passive: True
+[LINE#75]This translates to an effective sampling frequency of 0.008Hz.
+0.425	[*A*]This[*R*]translates[*A*]to an effective sampling frequency of 0.008Hz	context()	negated: False ,passive: True
+[LINE#76] The radial velocities VRN (north-tilted), VRE (east-tilted), and VRZ (vertical) =vsin+wcos(2)VRE=usin+wcos(3)VRZw are the east-west, north-south and vertical components of the wind, and  is the angle between the tilted and vertical beams.
+0.939	[*A*]the east - north - south[*R*]is[*A*]the angle between the tilted and vertical beams	context()	negated: False ,passive: True
+0.927	[*A*]the east - west[*R*]is[*A*]the angle between the tilted and vertical beams	context()	negated: False ,passive: True
+0.954	[*A*]The VRZ ( vertical ) =vsin+wcos[*R*]is[*A*]the angle between the tilted and vertical beams	context()	negated: False ,passive: True
+0.822	[*A*]The VRZ ( vertical ) =vsin+wcos[*R*]are	context()	negated: False ,passive: False
+0.971	[*A*]The VRE ( east - tilted ) ( vertical ) =vsin+wcos[*R*]is[*A*]the angle between the tilted and vertical beams	context()	negated: False ,passive: True
+0.882	[*A*]The VRE ( east - tilted ) ( vertical ) =vsin+wcos[*R*]are	context()	negated: False ,passive: False
+0.979	[*A*]The radial velocities VRN ( north - tilted ) ( vertical ) =vsin+wcos ( 2 ) VRE=usin+wcos ( 3 ) VRZw[*R*]is[*A*]the angle between the tilted and vertical beams	context()	negated: False ,passive: True
+0.923	[*A*]The radial velocities VRN ( north - tilted ) ( vertical ) =vsin+wcos ( 2 ) VRE=usin+wcos ( 3 ) VRZw[*R*]are	context()	negated: False ,passive: False
+[LINE#77]The radial velocities are then used to calculate the horizontal wind components:(4)u=(VRE-VRZcos)/sin(5)v=(VRN-VRZcos)/sinThe magnitude of the horizontal wind is then U=u2+v2.
+0.987	[*A*]The radial velocities are then used to calculate the horizontal wind components:(4)u=(VRE-VRZcos)/sin(5[*R*]is[*A*]then[*A*]U=u2+v2	context()	negated: False ,passive: True
+0.944	[*A*]The radial velocities[*R*]to calculate[*A*]the horizontal wind components:(4)u=(VRE-VRZcos)/sin(5	context()	negated: False ,passive: False
+0.958	[*A*]The radial velocities[*R*]are used[*A*]to calculate the horizontal wind components:(4)u=(VRE-VRZcos)/sin(5[*A*]then	context()	negated: False ,passive: True
+[LINE#78]Compared to other lidar wind profiling methods (e.g. VAD), which take many more samples, DBS is relatively fast.
+0.734	[*A*]DBS[*R*]is[*A*]relatively fast	context()	negated: False ,passive: True
+0.913	[*A*]other lidar wind profiling methods[*R*]take[*A*]many more samples	context()	negated: False ,passive: False
+[LINE#79]Given that each DBS scan samples only 6s of data, averaging is required to give more accurate mean wind speeds, which is discussed in Section 2.2.4. .
+0.913	[*A*]more accurate mean wind speeds[*R*]is discussed[*A*]in Section 2.2.4	context()	negated: False ,passive: True
+0.944	[*A*]each DBS[*R*]scan[*A*]samples	context()	negated: False ,passive: False
+[LINE#80] errorThe theoretical standard deviation of a single Doppler lidar velocity estimate can be approximated using an equation derived from Rye and Hardesty (1993).
+0.918	[*A*]an equation[*R*]derived[*A*]from Hardesty ( 1993	context()	negated: False ,passive: True
+0.918	[*A*]an equation[*R*]derived[*A*]from Rye ( 1993	context()	negated: False ,passive: True
+0.899	[*A*]errorThe theoretical standard deviation of a single Doppler lidar velocity estimate[*R*]can be approximated	context()	negated: False ,passive: False
+[LINE#81] In this context, a single velocity estimate consists of many pulses averaged over several seconds to produce an estimate of the error in the Doppler velocity (Barlow et al., 2011a, after Pearson et al.,.
+0.947	[*A*]many pulses[*R*]averaged[*A*]over several seconds[*A*]to produce an estimate of the error in the Doppler velocity	context()	negated: False ,passive: True
+0.953	[*A*]a single velocity estimate[*R*]consists[*A*]of many pulses[*A*]In this context	context()	negated: False ,passive: True
+[LINE#82] Np is the accumulated photon count:(7)Np  is the ratio of the lidar detector photon count to the specklecount:(8)=SNR(2)0.5(v/B)v is the signal spectral width, SNR is the signal to noise ratio, M is the number of points per range gate, n is the number of pulses averaged, and B is the bandwidth.
+0.852	[*A*]B[*R*]is[*A*]the bandwidth	context()	negated: False ,passive: True
+0.862	[*A*]Np[*R*]is[*A*]the accumulated photon count	context(accumulated photon count : ( 7 ) Np is the ratio of the lidar detector photon count to the specklecount : ( 8 ) =SNR ( 2 ) 0.5 ( v / B ) v is SNR is M is n is)	negated: False ,passive: True
+0.910	[*A*]Np[*R*]is[*A*]the ratio of the lidar detector photon count to the specklecount	context(accumulated photon count : ( 7 ) Np is the ratio of the lidar detector photon count to the specklecount : ( 8 ) =SNR ( 2 ) 0.5 ( v / B ) v is SNR is M is n is)	negated: False ,passive: True
+0.997	[*A*]accumulated photon count : ( 7 ) Np is the ratio of the lidar detector photon count to the specklecount : ( 8 ) =SNR ( 2 ) 0.5 ( v / B ) v[*R*]is[*A*]the signal spectral width	context(SNR is M is n is)	negated: False ,passive: True
+0.862	[*A*]SNR[*R*]is[*A*]the signal to noise ratio	context(M is n is)	negated: False ,passive: True
+0.862	[*A*]M[*R*]is[*A*]the number of points per range gate	context(n is)	negated: False ,passive: True
+0.395	[*A*]n[*R*]is[*A*]the number of pulses averaged	context()	negated: False ,passive: True
+0.769	[*A*]the number of pulses[*R*]averaged	context()	negated: False ,passive: False
+[LINE#83]The relevant values for the lidar used in this study are given in Table 2.e=0.15ms-1 was selected as the maximum acceptable uncertainty for a single lidar wind speed measurement.
+0.993	[*A*]The relevant values for the lidar used in this study[*R*]are given in[*A*]-1	context()	negated: False ,passive: False
+0.949	[*A*]The relevant values for the lidar[*R*]was selected[*A*]as the maximum acceptable uncertainty for a single lidar wind speed measurement	context()	negated: False ,passive: True
+0.921	[*A*]The relevant values for the lidar[*R*]are given[*A*]in Table 2.e=0.15ms-1	context()	negated: False ,passive: True
+0.903	[*A*]the lidar[*R*]used[*A*]in this study	context()	negated: False ,passive: True
+[LINE#84]This is equivalent to a minimum SNR threshold of ~-20dB and is close to the threshold used by Barlow et al.
+0.918	[*A*]the threshold[*R*]used[*A*]by Barlow et al	context()	negated: False ,passive: True
+0.612	[*A*]This[*R*]is[*A*]equivalent to a minimum SNR threshold of ~ - 20dB	context()	negated: False ,passive: True
+[LINE#85](2009) found that the threshold SNR for a reliable Doppler estimate was ~-23dB.
+0.966	[*A*]the threshold SNR for a reliable Doppler estimate[*R*]was[*A*]~-23dB	context(2009 found)	negated: False ,passive: True
+0.363	[*A*]2009[*R*]found[*A*]that the threshold SNR for a reliable Doppler estimate was ~-23dB	context()	negated: False ,passive: False
+[LINE#86] An upper SNR threshold of 2dB is applied to filter out returns from cloud and rain droplets.
+0.949	[*A*]An upper SNR threshold of 2dB[*R*]is applied[*A*]to filter out returns from rain droplets	context()	negated: False ,passive: True
+0.949	[*A*]An upper SNR threshold of 2dB[*R*]is applied[*A*]to filter out returns from cloud	context()	negated: False ,passive: True
+[LINE#87]The final quality control applied to the lidar data is the removal of data collected in the first 3 gates, as they are unreliable.
+0.361	[*A*]they[*R*]are[*A*]unreliable	context()	negated: False ,passive: True
+0.894	[*A*]data[*R*]collected[*A*]in the first 3 gates	context()	negated: False ,passive: True
+0.930	[*A*]The final quality control applied to the lidar data[*R*]is[*A*]the removal of data[*A*]as they are unreliable	context()	negated: False ,passive: True
+0.919	[*A*]The final quality control[*R*]applied[*A*]to the lidar data	context()	negated: False ,passive: True
+[LINE#88]This results in a blind area in the first 90m of the lidar beam. .
+0.497	[*A*]This[*R*]results[*A*]in a blind area in the first 90m of the lidar beam	context()	negated: False ,passive: True
+[LINE#89]Sampling errorBecause of the rapid variation in wind speed in the UBL, each wind speed profile obtained by the lidar must be regarded as a snapshot, rather than as representative of the mean wind speed.
+0.986	[*A*]Sampling errorBecause of the rapid variation in wind speed in the UBL, each wind speed profile[*R*]must be regarded[*A*]as a snapshot, rather than as representative of the mean wind speed	context()	negated: False ,passive: True
+0.919	[*A*]each wind speed profile[*R*]obtained[*A*]by the lidar	context()	negated: False ,passive: True
+[LINE#90]In order to produce a more reliable estimate of the mean wind speed, the data was averaged into one-hour blocks.
+0.903	[*A*]the data[*R*]was averaged[*A*]into one-hour blocks	context()	negated: False ,passive: True
+[LINE#91]This relatively long time period is used because the lidar has a low sampling frequency (0.008Hz).
+0.925	[*A*]the lidar[*R*]has[*A*]a low sampling frequency	context()	negated: False ,passive: False
+0.926	[*A*]This relatively long time period[*R*]is used[*A*]because the lidar has a low sampling frequency	context()	negated: False ,passive: True
+[LINE#92]Because the time between scans is larger than the integral timescale of the flow, the error on the mean wind speed measured by the lidar can be estimated as the uncertainty attributed to the sampling frequency, which is estimated in this section.
+0.897	[*A*]the sampling frequency[*R*]is estimated[*A*]in this section	context()	negated: False ,passive: True
+0.903	[*A*]the uncertainty[*R*]attributed[*A*]to the sampling frequency	context()	negated: False ,passive: True
+0.927	[*A*]the error on the mean wind speed[*R*]can be estimated[*A*]as the uncertainty	context()	negated: False ,passive: True
+0.919	[*A*]the mean wind speed[*R*]measured[*A*]by the lidar	context()	negated: False ,passive: True
+0.937	[*A*]the time between scans[*R*]is[*A*]larger than the integral timescale of the flow	context()	negated: False ,passive: True
+[LINE#93] in the mean wind speed due to the sampling frequency when the time between scans is greater than the integral timescale may be estimated as follows (Kaimal and Finnigan, 1994):(9)x2=x2Nwhere.
+0.920	[*A*]the time between scans[*R*]may be estimated[*A*]as follows (Kaimal and Finnigan, 1994	context()	negated: False ,passive: True
+0.937	[*A*]the time between scans[*R*]is[*A*]greater than the integral timescale	context()	negated: False ,passive: True
+[LINE#94]N=T/t, and x2 is the variance of the dataset.
+0.852	[*A*]x2[*R*]is[*A*]the variance of the dataset	context()	negated: False ,passive: True
+[LINE#95]T is the averaging period, and t is the time between scans (120s).
+0.852	[*A*]t[*R*]is[*A*]the time between scans	context()	negated: False ,passive: True
+0.852	[*A*]T[*R*]is[*A*]the averaging period	context()	negated: False ,passive: True
+[LINE#96]Table 3 shows the mean, median and interquartile range of the lidar error due to the sampling rate for T=3600s over the 3993h of the data set.
+0.771	[*A*]Table 3[*R*]shows[*A*]the mean, median and interquartile range of the lidar error due to the sampling rate for T=3600s over the 3993h of the data set	context()	negated: False ,passive: False
+[LINE#97]It is possible to mitigate the effects of a low sampling frequency by increasing the averaging period, although over longer time periods, the data is likely to be statistically non-stationary.
+0.735	[*A*]the data[*R*]to be[*A*]statistically non-stationary	context()	negated: False ,passive: True
+0.813	[*A*]the data[*R*]is[*A*]likely to be statistically non-stationary	context()	negated: False ,passive: True
+[LINE#98]For these reasons, an averaging period of T=3600s is used in the comparison between the lidar and the sonic anemometer. .
+0.971	[*A*]For these reasons, an averaging period of T=3600[*R*]is used[*A*]in the comparison between the lidar and the sonic anemometer	context()	negated: False ,passive: True
+[LINE#99]anemometerThe sonic anemometer is a Gill Instruments R3-50.
+0.973	[*A*]anemometerThe sonic anemometer[*R*]is[*A*]-50	context()	negated: False ,passive: False
+0.942	[*A*]anemometerThe sonic anemometer[*R*]is[*A*]a Gill Instruments R3-50	context()	negated: False ,passive: True
+[LINE#100]It measures both horizontal (u, v) and vertical (w) components of the wind and samples at a rate of 20Hz.
+0.614	[*A*]It[*R*]measures[*A*]vertical[*A*](w) components of the samples at a rate of 20Hz	context()	negated: False ,passive: True
+0.452	[*A*]It[*R*]measures[*A*]vertical[*A*](w) components of the wind	context()	negated: False ,passive: True
+0.225	[*A*]It[*R*]measures[*A*]both horizontal ( u , v	context()	negated: False ,passive: False
+[LINE#101]It is located on a 12.2m tall scaffolding tower at the top of the main BT Tower, with a number of other meteorological instruments (Fig. 3).
+0.498	[*A*]It[*R*]is located[*A*]on a 12.2m tall scaffolding tower[*A*]at the top of the main BT Tower	context()	negated: False ,passive: True
+[LINE#102]The head of the anemometer is raised 750mm above the other instruments, and has good exposure to all wind directions.
+0.925	[*A*]The head[*R*]has[*A*]good exposure to all wind directions	context()	negated: False ,passive: False
+0.926	[*A*]The head of the anemometer[*R*]is raised[*A*]750 mm[*A*]above the other instruments	context()	negated: False ,passive: True
+[LINE#103]This instrument will be used as a reference with which to compare wind data gathered by the lidar.
+0.903	[*A*]wind data[*R*]gathered[*A*]by the lidar	context()	negated: False ,passive: True
+0.732	[*A*]This instrument[*R*]will be used	context()	negated: False ,passive: False
+[LINE#104]The position of the sonic anemometer, and the lidar gate to which it was compared (190m above ground level), mean that they are likely to be above the roughness sublayer.
+0.562	[*A*]they[*R*]are[*A*]likely to be above the roughness sublayer	context(The position of the sonic anemometer , and the lidar gate mean)	negated: False ,passive: True
+0.827	[*A*]The position of the sonic anemometer, and the lidar gate[*R*]mean[*A*]that they are likely to be above the roughness sublayer	context()	negated: False ,passive: False
+0.575	[*A*]they[*R*]to be[*A*]above the roughness sublayer	context()	negated: False ,passive: True
+0.407	[*A*]it[*R*]was compared[*A*]190m above ground level	context()	negated: False ,passive: True
+[LINE#105] The depth of the roughness sublayer may be expected to be between 18m and 45m, which correspond to 2 and 5 times the mean building height,respectively (Britter and Hanna, 2003; Cheng and Castro, 2002).
+0.884	[*A*]45m[*R*]correspond respectively[*A*]to 2 and 5 times[*A*]the mean building height	context()	negated: False ,passive: True
+0.921	[*A*]The depth of the roughness sublayer[*R*]to be[*A*]between 18m and 45m	context()	negated: False ,passive: True
+0.801	[*A*]The depth of the roughness sublayer[*R*]may be expected	context()	negated: False ,passive: False
+[LINE#106]This means that the flow being measured will be more homogeneous than the flow close to the ground.
+0.900	[*A*]the flow being measured[*R*]will be[*A*]more homogeneous than the flow close to the ground	context(This means)	negated: False ,passive: True
+0.224	[*A*]This[*R*]means[*A*]that the flow being measured will be more homogeneous than the flow close to the ground	context()	negated: False ,passive: False
+0.732	[*A*]the flow[*R*]being measured	context()	negated: False ,passive: False
+[LINE#107]Because the interval between samples taken by this instrument is smaller than the integral timescale, the sampling error must be estimated using a slightly different method than that applied to the lidar.
+0.136	[*A*]that[*R*]applied[*A*]to the lidar	context()	negated: False ,passive: True
+0.789	[*A*]the sampling error[*R*]must be estimated[*A*]using a slightly different method than that	context()	negated: False ,passive: True
+0.927	[*A*]the interval between samples[*R*]is[*A*]smaller than the integral timescale	context()	negated: False ,passive: True
+0.894	[*A*]samples[*R*]taken[*A*]by this instrument	context()	negated: False ,passive: True
+[LINE#108] The error variance in each hour can be estimatedwhere  is the integral timescale of the flow.
+0.851	[*A*]The error variance in each hour[*R*]can be[*A*]estimatedwhere  is the integral timescale of the flow	context()	negated: False ,passive: True
+[LINE#109]The spectra of the horizontal flow are calculated using the method used by Wood et al.
+0.918	[*A*]the method[*R*]used[*A*]by Wood et al	context()	negated: False ,passive: True
+0.801	[*A*]The spectra of the horizontal flow[*R*]are calculated	context()	negated: False ,passive: False
+[LINE#110](2010), which is also used to determine the integral lengthscale .
+0.503	[*A*]2010[*R*]to determine[*A*]the integral lengthscale	context()	negated: False ,passive: False
+0.397	[*A*]2010[*R*]is used[*A*]to determine the integral lengthscale	context()	negated: False ,passive: True
+[LINE#111]The integral timescale is then =/U, where U is the mean wind speed.
+0.944	[*A*]U[*R*]is[*A*]the mean wind speed[*A*]U	context()	negated: False ,passive: True
+0.942	[*A*]The integral timescale[*R*]is[*A*]then[*A*]U	context()	negated: False ,passive: True
+[LINE#112]In order to evaluate the performance of the DBS scanning technique, data from the sonic anemometer at the BT Tower was compared with data from the lidar gate corresponding to the height of the BT Tower instruments.
+0.925	[*A*]the lidar gate[*R*]corresponding[*A*]to the height of the BT Tower instruments	context()	negated: False ,passive: True
+0.961	[*A*]data from the sonic anemometer at the BT Tower[*R*]was compared[*A*]with data from the lidar gate	context()	negated: False ,passive: True
+[LINE#113]The distance between the instruments (1.6km) means that it is not expected that the comparison will reveal an exact match.
+0.878	[*A*]the comparison[*R*]will reveal[*A*]an exact match	context(The distance between the instruments means it is not expected)	negated: False ,passive: False
+0.157	[*A*]it[*R*]is not expected	context(The distance between the instruments means)	negated: True ,passive: False
+0.720	[*A*]The distance between the instruments[*R*]means[*A*]that it is not expected that the comparison will reveal an exact match	context()	negated: False ,passive: False
+[LINE#114]Possible reasons for this could be influences of the different sites, differing surface types upwind of the two instruments, or evolution of the flow between the two sites.
+0.948	[*A*]Possible reasons for this[*R*]could be[*A*]influences of the different sites[*A*]differing surface types upwind of the two instruments, or evolution of the flow between the two sites	context()	negated: False ,passive: True
+[LINE#115]The purpose of this study, however, is to test the long-term performance of the DBS method.
+0.964	[*A*]The purpose of this study[*R*]is[*A*]to test the long-term performance of the DBS method	context()	negated: False ,passive: True
+[LINE#116]If the method produces good estimates of the mean wind speed, a strong linear correlation would be expected between the data from the two instruments.
+0.769	[*A*]a strong linear correlation[*R*]would be expected	context()	negated: False ,passive: False
+0.903	[*A*]the method[*R*]produces[*A*]good estimates of the mean wind speed	context()	negated: False ,passive: False
+[LINE#117]In this case a slope not significantly different from one, and an intercept close to zero would be expected, with some amount of scatter due to the distance between the instruments.
+[LINE#118]the sonic anemometer is to be used to evaluate the accuracy of the lidar-measured wind speeds, confidence in the accuracy of the wind speeds measured by this instrument must be high.
+0.911	[*A*]the wind speeds[*R*]measured[*A*]by this instrument	context()	negated: False ,passive: True
+0.933	[*A*]the sonic anemometer[*R*]to be used[*A*]to evaluate the accuracy of the lidar-measured wind speeds, confidence in the accuracy of the wind speeds	context()	negated: False ,passive: True
+0.956	[*A*]the sonic anemometer[*R*]is[*A*]to be used to evaluate the accuracy of the lidar-measured wind speeds, confidence in the accuracy of the wind speeds	context()	negated: False ,passive: True
+[LINE#119]In a previous study Barlow et al.
+[LINE#120](2011b) carried out wind tunnel simulations of the flow around BT Tower and the lattice tower on which the anemometer is located.
+0.933	[*A*]the anemometer[*R*]is located[*A*]the lattice tower	context()	negated: False ,passive: True
+[LINE#121]During these simulations it was observed that both the tower and the lattice distorted the flow at the position of a sonic anemometer installed on top of the lattice, and correction factors were developed for this position.
+0.923	[*A*]the flow at the position of a sonic anemometer[*R*]were developed[*A*]for this position	context(it was observed the lattice distorted)	negated: False ,passive: True
+0.920	[*A*]the lattice[*R*]distorted[*A*]the flow at the position of a sonic anemometer installed on top of the correction factors were developed for this position	context(it was observed)	negated: False ,passive: False
+0.399	[*A*]it[*R*]was observed[*A*]that the lattice distorted the flow at the position of a sonic anemometer installed on top of the correction factors were developed for this position[*A*]During these simulations	context()	negated: False ,passive: False
+0.923	[*A*]the flow at the position of a sonic anemometer[*R*]were developed[*A*]for this position	context(it was observed both the tower distorted)	negated: False ,passive: True
+0.927	[*A*]both the tower[*R*]distorted[*A*]the flow at the position of a sonic anemometer installed on top of the correction factors were developed for this position	context(it was observed)	negated: False ,passive: False
+0.399	[*A*]it[*R*]was observed[*A*]that both the tower distorted the flow at the position of a sonic anemometer installed on top of the correction factors were developed for this position[*A*]During these simulations	context()	negated: False ,passive: False
+0.911	[*A*]a sonic anemometer[*R*]installed[*A*]on top of the correction factors	context()	negated: False ,passive: True
+0.878	[*A*]the lattice[*R*]distorted[*A*]the flow at the position of a sonic anemometer	context(it was observed)	negated: False ,passive: False
+0.399	[*A*]it[*R*]was observed[*A*]that the lattice distorted the flow at the position of a sonic anemometer[*A*]During these simulations	context()	negated: False ,passive: False
+0.888	[*A*]both the tower[*R*]distorted[*A*]the flow at the position of a sonic anemometer	context(it was observed)	negated: False ,passive: False
+0.399	[*A*]it[*R*]was observed[*A*]that both the tower distorted the flow at the position of a sonic anemometer[*A*]During these simulations	context()	negated: False ,passive: False
+0.911	[*A*]a sonic anemometer[*R*]installed[*A*]on top of the lattice	context()	negated: False ,passive: True
+[LINE#122]These correction factors cannot be directly applied to the data presented here, as the sonic anemometer has been moved since the original installation.
+0.911	[*A*]the sonic anemometer[*R*]has been moved[*A*]since the original installation	context()	negated: False ,passive: True
+0.767	[*A*]the data[*R*]presented[*A*]here	context()	negated: False ,passive: True
+0.943	[*A*]These correction factors[*R*]can not be directly applied[*A*]to the data[*A*]as the sonic anemometer has been moved since the original installation	context()	negated: True ,passive: True
+[LINE#123]Although the corrections applied by Barlow et al.
+0.918	[*A*]the corrections[*R*]applied[*A*]by Barlow et al	context()	negated: False ,passive: True
+[LINE#124](2011b) were small (2% of the mean wind speed), data from the sonic anemometer are examined here to determine whether flow distortion has a substantial effect on the instrument in this new position.
+0.952	[*A*]data from the sonic anemometer[*R*]are examined[*A*]here[*A*]to determine whether flow distortion has a substantial effect on the instrument in this new position	context()	negated: False ,passive: True
+[LINE#125]Since the new position is higher, and therefore further from the lattice tower, it is expected that any error will be smaller.
+0.717	[*A*]any error[*R*]will be[*A*]smaller	context(it is expected)	negated: False ,passive: True
+0.932	[*A*]the new position[*R*]is[*A*]therefore further from the lattice tower	context()	negated: False ,passive: True
+0.717	[*A*]any error[*R*]will be[*A*]smaller	context(it is expected)	negated: False ,passive: True
+0.157	[*A*]it[*R*]is expected	context()	negated: False ,passive: False
+0.828	[*A*]the new position[*R*]is[*A*]higher	context()	negated: False ,passive: True
+[LINE#126]Whether or not the instrument is being affected by flow distortion from the tower, or turbulent wakes shed by other objects may be determined by calculating the turbulence intensity associated with each wind direction.
+0.911	[*A*]the turbulence intensity[*R*]associated[*A*]with each wind direction	context()	negated: False ,passive: True
+0.921	[*A*]turbulent wakes shed by other objects[*R*]by calculating[*A*]the turbulence intensity associated with each wind direction	context()	negated: False ,passive: False
+0.932	[*A*]turbulent wakes shed by other objects[*R*]may be determined[*A*]by calculating the turbulence intensity	context()	negated: False ,passive: True
+0.925	[*A*]turbulent wakes[*R*]shed[*A*]by other objects	context()	negated: False ,passive: True
+[LINE#127] This can be calculated as:(11)TI.
+0.425	[*A*]This[*R*]can be calculated[*A*]as:(11)TI	context()	negated: False ,passive: True
+[LINE#128]U is the 60min averaged wind speed, and U is the standard deviation of the wind speed over the same hour-long period.
+0.903	[*A*]U[*R*]is[*A*]the standard deviation of the wind speed over the same hour - long period	context()	negated: False ,passive: True
+0.920	[*A*]60min[*R*]averaged[*A*]wind speed	context()	negated: False ,passive: True
+0.874	[*A*]U[*R*]is[*A*]the 60min averaged wind speed	context()	negated: False ,passive: True
+[LINE#129]A peak in the turbulence intensity suggests that the instrument is being affected by the wake from another object.
+0.882	[*A*]the instrument[*R*]is being affected[*A*]by the wake from another object	context(A peak in the turbulence intensity suggests)	negated: False ,passive: True
+0.865	[*A*]A peak in the turbulence intensity[*R*]suggests[*A*]that the instrument is being affected by the wake from another object	context()	negated: False ,passive: False
+[LINE#130]4 shows the median turbulence intensity measured by the sonic anemometer within each 15 sector.
+0.919	[*A*]the median turbulence intensity[*R*]measured[*A*]by the sonic anemometer within each 15 sector	context()	negated: False ,passive: True
+0.567	[*A*]4[*R*]shows[*A*]the median turbulence intensity measured by the sonic anemometer within each 15 sector	context()	negated: False ,passive: False
+[LINE#131]In most sectors, the median turbulence intensity is close to 0.2 which is in line with the findings of Barlow et al.
+0.617	[*A*]0.2[*R*]is[*A*]in line with the findings of Barlow et al	context()	negated: False ,passive: True
+0.964	[*A*]the median turbulence intensity[*R*]is[*A*]close to 0.2[*A*]In most sectors	context()	negated: False ,passive: True
+[LINE#132]There is also a broad peak of 0.4 apparent in the 90 sector centred on north.
+0.911	[*A*]the 90 sector[*R*]centred[*A*]on north	context()	negated: False ,passive: True
+[LINE#133]If this was the result of interference by the turbulent wake of a nearby object, a sharper peak would be expected.
+0.751	[*A*]a sharper peak[*R*]would be expected	context()	negated: False ,passive: False
+0.567	[*A*]this[*R*]was[*A*]the result of interference by the turbulent wake of a nearby object	context()	negated: False ,passive: True
+[LINE#134]The small magnitude and broad width of this peak suggest that the source of the turbulence is further away, and the direction is consistent with the flow being distorted by the scaffolding tower.
+0.908	[*A*]the direction[*R*]is[*A*]consistent with the flow	context(The broad width of this peak suggest)	negated: False ,passive: True
+0.800	[*A*]The broad width of this peak[*R*]suggest[*A*]that the direction is consistent with the flow	context()	negated: False ,passive: False
+0.823	[*A*]the source of the turbulence[*R*]is[*A*]further away	context(The broad width of this peak suggest)	negated: False ,passive: True
+0.800	[*A*]The broad width of this peak[*R*]suggest[*A*]that the source of the turbulence is further away	context()	negated: False ,passive: False
+0.908	[*A*]the direction[*R*]is[*A*]consistent with the flow	context(The small magnitude suggest)	negated: False ,passive: True
+0.750	[*A*]The small magnitude[*R*]suggest[*A*]that the direction is consistent with the flow	context()	negated: False ,passive: False
+0.903	[*A*]the flow[*R*]being distorted[*A*]by the scaffolding tower	context()	negated: False ,passive: True
+0.823	[*A*]the source of the turbulence[*R*]is[*A*]further away	context(The small magnitude suggest)	negated: False ,passive: True
+0.750	[*A*]The small magnitude[*R*]suggest[*A*]that the source of the turbulence is further away	context()	negated: False ,passive: False
+[LINE#135]Data collected when the sonic anemometer records a wind direction between 315 and 45 are removed as wind speed data from the sonic anemometer in these conditions is considered to be unreliable..
+0.934	[*A*]Data[*R*]collected[*A*]when the sonic anemometer records a wind direction between 315 and 45[*A*]are removed as wind speed data from the sonic anemometer in these conditions is considered to be unreliable	context()	negated: False ,passive: False
+0.911	[*A*]the sonic anemometer[*R*]records[*A*]a wind direction between 315 and 45	context()	negated: False ,passive: False
+[LINE#136]Effect of tiltAnother potential source of error in the lidar wind speed measurements is a tilting of the instrument so that the beam is slightly offset from its intended position.
+0.835	[*A*]the beam[*R*]is slightly offset[*A*]from its intended position	context()	negated: False ,passive: True
+0.980	[*A*]Effect of tiltAnother potential source of error in the lidar wind speed measurements[*R*]is[*A*]a tilting of the instrument	context()	negated: False ,passive: True
+[LINE#137]This would mean that, for example, when the beam is in the vertical position, it will not only be measuring vertical motion; it will capture some horizontal motion as well.
+0.293	[*A*]it[*R*]will be measuring[*A*]vertical motion	context(This would mean it will capture)	negated: False ,passive: False
+0.131	[*A*]This[*R*]would mean[*A*]that, for example, when the beam is in the vertical position, it will not only be measuring vertical motion	context(it will capture)	negated: False ,passive: False
+0.388	[*A*]it[*R*]will capture[*A*]some horizontal motion[*A*]as well	context()	negated: False ,passive: False
+0.925	[*A*]the beam[*R*]is[*A*]in the vertical position	context()	negated: False ,passive: True
+[LINE#138]This would give inaccurate estimates of the horizontal wind speed.
+0.381	[*A*]This[*R*]would give[*A*]inaccurate estimates of the horizontal wind speed	context()	negated: False ,passive: False
+[LINE#139]The same effect would occur if the flow was distorted by the local terrain so that it consistently intersected the lidar beam at an angle from the horizontal.
+0.452	[*A*]it[*R*]consistently intersected[*A*]the lidar beam[*A*]at an angle from the horizontal	context()	negated: False ,passive: False
+0.748	[*A*]the flow[*R*]was distorted[*A*]by the local terrain[*A*]so that it consistently intersected the lidar beam at an angle from the horizontal	context()	negated: False ,passive: True
+0.765	[*A*]The same effect[*R*]would occur[*A*]if the flow was distorted by the local terrain so that it consistently intersected the lidar beam at an angle from the horizontal	context()	negated: False ,passive: True
+[LINE#140]It is possible to determine whether a tilt or deflection of the flow is present by fitting a function of the form Asin(+B)+C to a plot of =tan-1(w/U) against wind direction, where A is the tilt angle, B-90 is the azimuth direction in which the tilt occurs, C is a vertical offset from zero, w is the mean vertical wind speed and U is the mean horizontal wind speed.
+0.449	[*A*]A[*R*]is[*A*]the tilt angle	context()	negated: False ,passive: True
+0.933	[*A*]the tilt[*R*]occurs[*A*]the azimuth direction	context()	negated: False ,passive: True
+[LINE#141]The method used here is the same as that used by Barlow et al.
+0.159	[*A*]that[*R*]used[*A*]by Barlow et al	context()	negated: False ,passive: True
+0.659	[*A*]The method used here[*R*]is[*A*]the same as that	context()	negated: False ,passive: True
+0.767	[*A*]The method[*R*]used[*A*]here	context()	negated: False ,passive: True
+[LINE#142](2011b) to determine whether a sonic anemometer mounted on the BT Tower was tilted.
+[LINE#143]5 shows =tan-1(w/U) against wind speed in gate closest to the height of the BT Tower (midpoint=180m).
+0.612	[*A*]5[*R*]shows[*A*]=tan-1(w/U) against wind speed in gate closest to the height of the BT Tower	context()	negated: False ,passive: False
+[LINE#144] Below the median wind speed of 7.83ms-1the variability in  increases dramatically.
+[LINE#145]Low wind speeds are often associated with unstable conditions where larger fluctuations in w would be more common, increasing the variability in .
+0.953	[*A*]larger fluctuations in w[*R*]would be[*A*]more common[*A*]increasing the variability in[*A*]unstable conditions	context()	negated: False ,passive: True
+0.923	[*A*]Low wind speeds[*R*]are associated[*A*]with unstable conditions[*A*]often	context()	negated: False ,passive: True
+[LINE#146]In fitting the sine function only data where the horizontal wind speed was greater than the median wind speed were used, in order to reduce the variability in .
+0.937	[*A*]the horizontal wind speed[*R*]was[*A*]greater than the median wind speed	context()	negated: False ,passive: True
+[LINE#147]A sine function was fitted to the data using a least squares method (Fig. 6).
+0.903	[*A*]the data[*R*]using[*A*]a least squares method	context()	negated: False ,passive: False
+0.751	[*A*]A sine function[*R*]was fitted	context()	negated: False ,passive: False
+[LINE#148] Table 4 lists all of the coefficients =vertical offset) which describe the sine functions fitted to the data recorded at the same height as in Fig..
+0.918	[*A*]the data[*R*]recorded[*A*]at the same height as in Fig	context()	negated: False ,passive: True
+0.911	[*A*]the sine functions[*R*]fitted[*A*]to the data	context()	negated: False ,passive: True
+0.897	[*A*]Table 4 lists[*R*]describe[*A*]the sine functions fitted to the data	context()	negated: False ,passive: False
+[LINE#149]The upper and lower bounds of the coefficients (95% confidence intervals) are also listed.
+0.690	[*A*]The lower bounds of the coefficients[*R*]are listed	context()	negated: False ,passive: False
+0.690	[*A*]The upper bounds of the coefficients[*R*]are listed	context()	negated: False ,passive: False
+[LINE#150]The tilt of the instrument is estimated to be of the order of 0.5.
+0.913	[*A*]The tilt of the instrument[*R*]to be[*A*]of the order of 0.5	context()	negated: False ,passive: True
+0.926	[*A*]The tilt of the instrument[*R*]is estimated[*A*]to be of the order of 0.5	context()	negated: False ,passive: True
+[LINE#151]The direction of the tilt is not consistent with the location of any slopes in the surrounding area, so it is thought that the instrument itself is tilted, rather than the flow being displaced from horizontal by the local terrain.
+0.903	[*A*]the flow[*R*]being displaced[*A*]from horizontal[*A*]by the local terrain	context()	negated: False ,passive: True
+0.952	[*A*]The direction of the tilt[*R*]is not[*A*]consistent with the location of any slopes in the surrounding area	context()	negated: True ,passive: True
+[LINE#152]The tilt is corrected during processing using a rotation matrix. .
+0.903	[*A*]The tilt[*R*]is corrected[*A*]during processing	context()	negated: False ,passive: True
+[LINE#153]7 shows the 60min averaged horizontal wind speeds obtained using the lidar DBS method and the sonic anemometer.
+0.882	[*A*]the 60min[*R*]averaged[*A*]horizontal wind speeds obtained	context(7 shows)	negated: False ,passive: True
+0.395	[*A*]7[*R*]shows[*A*]the 60min averaged horizontal wind speeds	context()	negated: False ,passive: False
+0.751	[*A*]horizontal wind speeds[*R*]obtained	context()	negated: False ,passive: False
+[LINE#154]The lidar-derived wind speeds are taken from the range gate closest to the height of the sonic anemometer.
+0.956	[*A*]The lidar-derived wind speeds[*R*]are taken[*A*]from the range gate closest to the height of the sonic anemometer	context()	negated: False ,passive: True
+[LINE#155]The midpoint of this gate is 180m.
+0.853	[*A*]The midpoint of this gate[*R*]is[*A*]180m	context()	negated: False ,passive: True
+[LINE#156]A linear fit has been applied to the data using a weighted total least squares, with the weighting determined by the sampling error of each hourly mean wind speed from both the sonic anemometer and the lidar (Section 2.2.4).
+0.937	[*A*]the weighting[*R*]determined[*A*]by the sampling error of each hourly mean wind speed from both the sonic anemometer and the lidar	context()	negated: False ,passive: True
+0.903	[*A*]the data[*R*]using[*A*]a weighted total least squares	context()	negated: False ,passive: False
+0.911	[*A*]A linear fit[*R*]has been applied[*A*]to the data	context()	negated: False ,passive: True
+[LINE#157]Despite the large horizontal distance between the two instruments, and the low sampling frequency of the lidar, there is a close agreement between the datasets (0.99x+0.81).
+[LINE#158]There is a large spread in the data around the fitted curve (root mean squared error=1.12ms-1), especially when compared with similar studies carried out in flat, homogeneous terrain, with less favourable conditions filtered out (for example, Gottschall et al., 2012).
+0.732	[*A*]similar studies[*R*]carried out	context()	negated: False ,passive: False
+0.751	[*A*]less favourable conditions[*R*]filtered out	context()	negated: False ,passive: False
+[LINE#159]Some of the spread may be explained by the sampling error (as discussed in Section 2.2.4.), and some by the distance between the two instruments (Bradley et al., 2012).
+0.919	[*A*]Some of the spread[*R*]may be explained[*A*]by the sampling error	context()	negated: False ,passive: True
+0.948	[*A*]Some of the spread[*R*]may be explained[*A*]by the sampling error ( as discussed in Section 2.2.4	context()	negated: False ,passive: True
+[LINE#160]The fact that the slope of the linear fit is not significantly different from one and that the intercept is close to zero give confidence that this method is suitable for long-term wind speed observations.
+0.925	[*A*]this method[*R*]is[*A*]suitable for long - term wind speed observations	context()	negated: False ,passive: True
+0.879	[*A*]the intercept[*R*]is[*A*]close to zero give confidence that this method is suitable for long - term wind speed observations	context()	negated: False ,passive: True
+0.829	[*A*]the slope of the linear fit[*R*]is not[*A*]significantly different from one	context()	negated: True ,passive: True
+[LINE#161]Separating the data into stable, neutral and unstable conditions shows small differences based on stability (Table 5).
+0.956	[*A*]Separating the data into unstable conditions[*R*]shows[*A*]small differences based on stability ( Table 5 )	context()	negated: False ,passive: False
+0.956	[*A*]Separating the data into neutral conditions[*R*]shows[*A*]small differences based on stability ( Table 5 )	context()	negated: False ,passive: False
+0.903	[*A*]small differences[*R*]based[*A*]on stability	context()	negated: False ,passive: True
+0.956	[*A*]Separating the data into stable conditions[*R*]shows[*A*]small differences based on stability ( Table 5 )	context()	negated: False ,passive: False
+[LINE#162] The stability was determined by the stability parameter  =z/L, where L=-u3/(g(wT)/T) is the Obukhov length , =0.41 is the von Karman constant, g=9.81ms-2 is acceleration due to gravity, w is the mean heat flux (w' and T being fluctuations about the means), T is the air temperature, the friction velocity u2=uw2+vw2 and z=190-4.3; the height of the sensor minus a displacement height.
+0.899	[*A*]The stability[*R*]was determined[*A*]by the stability parameter  =z/L	context(=0.41 is g=9.81ms - 2 is T is)	negated: False ,passive: True
+0.724	[*A*]=0.41[*R*]is	context(g=9.81ms - 2 is T is)	negated: False ,passive: False
+0.916	[*A*]g=9.81ms-2[*R*]is[*A*]acceleration due to gravity	context(T is)	negated: False ,passive: True
+0.822	[*A*]T[*R*]is[*A*]the air temperature	context()	negated: False ,passive: True
+0.971	[*A*]L=-u3[*R*]is[*A*]the Obukhov length[*A*]the stability parameter  =z/L	context()	negated: False ,passive: True
+0.813	[*A*]T[*R*]being[*A*]fluctuations about the means	context()	negated: False ,passive: True
+[LINE#163]Neutral conditions were defined as ||<0.1, unstable conditions as <-0.1 and stable conditions as >0.1.
+0.993	[*A*]Neutral conditions[*R*]were defined as[*A*]0.1	context()	negated: False ,passive: False
+0.767	[*A*]Neutral conditions[*R*]were defined[*A*]as | | < 0.1	context()	negated: False ,passive: True
+[LINE#164]The linear fit is best during stable conditions, with the y-intercept at 0.36, compared to 0.81 when all of the data is used, and 1.05 in unstable conditions.
+0.932	[*A*]The linear fit[*R*]is[*A*]best[*A*]compared to 0.81 1.05 in unstable conditions	context()	negated: False ,passive: True
+0.769	[*A*]all of the data[*R*]is used	context()	negated: False ,passive: False
+0.828	[*A*]The linear fit[*R*]is[*A*]best[*A*]compared to 0.81	context()	negated: False ,passive: True
+[LINE#165]8 shows the mean difference between wind speeds measured by the lidar and sonic anemometer against anemometer wind speed.
+0.937	[*A*]wind speeds[*R*]measured[*A*]by the lidar and sonic anemometer against anemometer wind speed	context()	negated: False ,passive: True
+0.449	[*A*]8[*R*]shows[*A*]the mean difference between wind speeds	context()	negated: False ,passive: False
+[LINE#166]The data was divided into bins of 1ms-1.
+0.903	[*A*]The data[*R*]was divided[*A*]into bins of 1ms-1	context()	negated: False ,passive: True
+[LINE#167]The error bars show the standard error of the data in each bin.
+0.942	[*A*]The error bars[*R*]show[*A*]the standard error of the data in each bin	context()	negated: False ,passive: False
+[LINE#168]The mean difference between the two instruments remains fairly constant, with the lidar overestimating the wind speed by between 0 and 0.5ms-1.
+0.903	[*A*]the lidar[*R*]overestimating[*A*]the wind speed[*A*]by between 0 and 0.5ms-1	context()	negated: False ,passive: False
+0.960	[*A*]The mean difference between the two instruments[*R*]remains[*A*]fairly constant[*A*]with the lidar overestimating the wind speed by between 0 and 0.5ms-1	context()	negated: False ,passive: True
+[LINE#169] At wind speeds greater than 20ms-1the lidar appears to be overestimating the wind speed.
+[LINE#170]Further observations would be required to determine whether this is an accurate reflection of the performance of this method at very high wind speeds.
+0.937	[*A*]Further observations[*R*]would be required[*A*]to determine whether this is an accurate reflection of the performance of this method at very high wind speeds	context()	negated: False ,passive: True

@@ -4,9 +4,10 @@ from SORE.my_utils import clean_raw_input
 
 def write_sentences_to_txt_file(input_dict, output_folder):
     """
-    Reads the json input from step 1 and prepares separate text files for OIE.
-    :param input_docs: a json-files containing unprocessed papers
-    :param output_folder: directory to write a txt file to, for each of the document IDs found in the input_dict
+    Reads the json input from a dataset file and prepares separate text files for OIE.
+
+    :param input_dict: A json-file containing unprocessed papers.
+    :param output_folder: Directory to write a txt file to, for each of the document IDs found in the input_dict.
     """
 
     processed_files = []

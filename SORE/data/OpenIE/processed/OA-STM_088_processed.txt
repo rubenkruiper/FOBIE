@@ -1,0 +1,458 @@
+[LINE#1](CaP) materials such as synthetic hydroxyapatite (HA, Ca10(PO4)6(OH)2) and -tricalcium phosphate (-TCP, Ca3(PO4)2) are well-known for their potential in bone tissue engineering and drug delivery applications.
+0.894	[*A*]Ca3[*R*]are[*A*]well - known for their potential in drug delivery applications	context()	negated: False ,passive: True
+0.894	[*A*]Ca3[*R*]are[*A*]well - known for their potential in bone tissue engineering applications	context()	negated: False ,passive: True
+[LINE#2]Processing such materials into submicrofibres might contribute to improve their biocompatibility.
+0.851	[*A*]Processing such materials into submicrofibres[*R*]to improve[*A*]their biocompatibility	context()	negated: False ,passive: False
+0.871	[*A*]Processing such materials into submicrofibres[*R*]might contribute[*A*]to improve their biocompatibility	context()	negated: False ,passive: True
+[LINE#3]This paper presents a new method for creating CaP submicrofibres through the electrospinning route.
+0.947	[*A*]This paper[*R*]presents[*A*]a new method for creating CaP submicrofibres through the electrospinning route	context()	negated: False ,passive: False
+[LINE#4]A thermal treatment at sintering temperature (1100C) was applied to electrospun polymer fibres filled with hydroxyapatite nanoparticles to cause aggregation of the nanoparticles and vaporise the polymer matrix.
+0.921	[*A*]A thermal treatment at sintering temperature[*R*]was applied[*A*]to electrospun polymer fibres	context()	negated: False ,passive: True
+0.911	[*A*]electrospun polymer fibres[*R*]filled[*A*]with hydroxyapatite nanoparticles	context()	negated: False ,passive: True
+0.921	[*A*]A thermal treatment at sintering temperature[*R*]was applied[*A*]to electrospun polymer fibres[*A*]to cause aggregation of the nanoparticles	context()	negated: False ,passive: True
+[LINE#5]The images taken by electron microscopy revealed that the treated samples maintained their submicrofibrous morphology.
+0.817	[*A*]the treated samples[*R*]maintained[*A*]their submicrofibrous morphology	context(The images taken by electron microscopy revealed)	negated: False ,passive: False
+0.685	[*A*]The images taken by electron microscopy[*R*]revealed[*A*]that the treated samples maintained their submicrofibrous morphology	context()	negated: False ,passive: False
+0.903	[*A*]The images[*R*]taken[*A*]by electron microscopy	context()	negated: False ,passive: True
+[LINE#6]Moreover, Fourier transform infrared spectroscopy, X-ray diffraction and X-ray photoelectron spectroscopy analysis confirmed that the resulting fibres are made of hydroxypatite and tricalcium phosphates.
+0.888	[*A*]the resulting fibres[*R*]are made[*A*]of tricalcium phosphates	context(Fourier transform X-ray photoelectron spectroscopy analysis confirmed)	negated: False ,passive: True
+0.761	[*A*]X-ray photoelectron spectroscopy analysis[*R*]confirmed[*A*]that the resulting fibres are made of tricalcium phosphates	context(Fourier transform)	negated: False ,passive: False
+0.838	[*A*]Fourier[*R*]transform[*A*]X-ray photoelectron spectroscopy analysis confirmed that the resulting fibres are made of tricalcium phosphates	context()	negated: False ,passive: False
+0.888	[*A*]the resulting fibres[*R*]are made[*A*]of hydroxypatite phosphates	context(Fourier transform X-ray photoelectron spectroscopy analysis confirmed)	negated: False ,passive: True
+0.761	[*A*]X-ray photoelectron spectroscopy analysis[*R*]confirmed[*A*]that the resulting fibres are made of hydroxypatite phosphates	context(Fourier transform)	negated: False ,passive: False
+0.838	[*A*]Fourier[*R*]transform[*A*]X-ray photoelectron spectroscopy analysis confirmed that the resulting fibres are made of hydroxypatite phosphates	context()	negated: False ,passive: False
+0.888	[*A*]the resulting fibres[*R*]are made[*A*]of tricalcium phosphates	context(Fourier transform X-ray diffraction confirmed)	negated: False ,passive: True
+0.724	[*A*]X-ray diffraction[*R*]confirmed[*A*]that the resulting fibres are made of tricalcium phosphates	context(Fourier transform)	negated: False ,passive: False
+0.838	[*A*]Fourier[*R*]transform[*A*]X-ray diffraction confirmed that the resulting fibres are made of tricalcium phosphates	context()	negated: False ,passive: False
+0.888	[*A*]the resulting fibres[*R*]are made[*A*]of hydroxypatite phosphates	context(Fourier transform X-ray diffraction confirmed)	negated: False ,passive: True
+0.724	[*A*]X-ray diffraction[*R*]confirmed[*A*]that the resulting fibres are made of hydroxypatite phosphates	context(Fourier transform)	negated: False ,passive: False
+0.838	[*A*]Fourier[*R*]transform[*A*]X-ray diffraction confirmed that the resulting fibres are made of hydroxypatite phosphates	context()	negated: False ,passive: False
+0.888	[*A*]the resulting fibres[*R*]are made[*A*]of tricalcium phosphates	context(Fourier transform infrared spectroscopy confirmed)	negated: False ,passive: True
+0.724	[*A*]infrared spectroscopy[*R*]confirmed[*A*]that the resulting fibres are made of tricalcium phosphates	context(Fourier transform)	negated: False ,passive: False
+0.838	[*A*]Fourier[*R*]transform[*A*]infrared spectroscopy confirmed that the resulting fibres are made of tricalcium phosphates	context()	negated: False ,passive: False
+0.888	[*A*]the resulting fibres[*R*]are made[*A*]of hydroxypatite phosphates	context(Fourier transform infrared spectroscopy confirmed)	negated: False ,passive: True
+0.724	[*A*]infrared spectroscopy[*R*]confirmed[*A*]that the resulting fibres are made of hydroxypatite phosphates	context(Fourier transform)	negated: False ,passive: False
+0.838	[*A*]Fourier[*R*]transform[*A*]infrared spectroscopy confirmed that the resulting fibres are made of hydroxypatite phosphates	context()	negated: False ,passive: False
+[LINE#7]To conclude, the results presented in this paper have demonstrated that CaP fibres can be prepared by electrospinning a PLGA-HA composite solution and subsequently applying a thermal treatment at sintering temperature to the electrospun fibres.
+0.950	[*A*]CaP fibres[*R*]applying[*A*]a thermal treatment[*A*]at sintering temperature to the electrospun fibres[*A*]subsequently	context()	negated: False ,passive: False
+0.882	[*A*]the results presented in this paper[*R*]have demonstrated[*A*]that CaP fibres can be prepared by subsequently applying a thermal treatment at sintering temperature to the electrospun fibres	context()	negated: False ,passive: False
+0.741	[*A*]CaP fibres[*R*]can be prepared	context(the results presented in this paper have demonstrated)	negated: False ,passive: False
+0.882	[*A*]the results presented in this paper[*R*]have demonstrated[*A*]that CaP fibres can be prepared by electrospinning a PLGA - HA composite solution	context()	negated: False ,passive: False
+0.928	[*A*]CaP fibres[*R*]by electrospinning[*A*]a PLGA - HA composite solution	context()	negated: False ,passive: False
+0.903	[*A*]the results[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#8]The polymer phase was evaporated at the high temperatures while the nanoparticles were sintered, allowing the samples to retain their submicrofibrous morphology.
+0.732	[*A*]the nanoparticles[*R*]were sintered	context()	negated: False ,passive: False
+0.848	[*A*]The polymer phase[*R*]was evaporated[*A*]at the high temperatures[*A*]while the nanoparticles were sintered[*A*]allowing the samples to retain their submicrofibrous morphology	context()	negated: False ,passive: True
+[LINE#9]Hydroxyapatite was identified to be the main phase in the treated samples.
+0.906	[*A*]Hydroxyapatite[*R*]to be[*A*]the main phase in the treated samples	context()	negated: False ,passive: True
+0.771	[*A*]Hydroxyapatite[*R*]was identified	context()	negated: False ,passive: False
+[LINE#10]Tricalcium phosphates were also found, as a result of the dehydroxylation and decomposition of deficient HA at high temperature.
+0.641	[*A*]Tricalcium phosphates[*R*]were found	context()	negated: False ,passive: False
+[LINE#11]The chemistry of the new fibres holds great potential for bone tissue engineering.
+0.948	[*A*]The chemistry of the new fibres[*R*]holds[*A*]great potential for bone tissue engineering	context()	negated: False ,passive: False
+[LINE#12]However, more investigations are to be carried out, in particular to improve their mechanical properties, as these are currently insufficient for the fibres to be used as bone scaffold.
+0.903	[*A*]the fibres[*R*]to be used[*A*]as bone scaffold	context()	negated: False ,passive: True
+0.296	[*A*]these[*R*]are[*A*]currently[*A*]insufficient	context()	negated: False ,passive: True
+0.698	[*A*]more investigations[*R*]to be carried out	context()	negated: False ,passive: False
+0.890	[*A*]more investigations[*R*]are[*A*]to be carried out, in particular to improve their mechanical properties,	context()	negated: False ,passive: True
+[LINE#13]Nevertheless, this simple approach is promising for the creation of submicrofibres made of a wide variety of ceramic materials without the use of toxic and expensive chemical precursors.
+0.931	[*A*]submicrofibres[*R*]made[*A*]of a wide variety of ceramic materials without the use of expensive chemical precursors	context()	negated: False ,passive: True
+0.931	[*A*]submicrofibres[*R*]made[*A*]of a wide variety of ceramic materials without the use of toxic chemical precursors	context()	negated: False ,passive: True
+0.911	[*A*]this simple approach[*R*]is promising[*A*]for the creation of submicrofibres	context()	negated: False ,passive: False
+[LINE#14]In previous research, CaP fibres have been successfully produced by electrospinning through the combinative use of chemical precursors and heat treatments at temperature below 800C [13-17].
+0.949	[*A*]CaP fibres[*R*]have been successfully produced[*A*]In previous research	context()	negated: False ,passive: True
+[LINE#15]The strategy presented in this paper differs in the way that the CaP material was directly incorporated into the electrospun composite fibres in the form of nanoparticles.
+0.957	[*A*]the CaP material[*R*]was directly incorporated[*A*]into the electrospun composite fibres in the form of nanoparticles	context()	negated: False ,passive: True
+0.801	[*A*]The strategy presented in this paper[*R*]differs	context()	negated: False ,passive: False
+0.903	[*A*]The strategy[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#16]Furthermore, the electrospinning process was followed by the heat treatment at sintering temperatures, i.e. above 1000C.
+0.952	[*A*]the electrospinning process[*R*]was followed[*A*]by the heat treatment at sintering temperatures, i.e. above 1000C	context()	negated: False ,passive: True
+[LINE#17]This simple way of creating CaP fibres avoids the use of chemical precursors, often toxic and expensive, and potentially allows the creation of nano- and micro-fibres from a wide variety of ceramic material.
+0.965	[*A*]This simple way of creating CaP fibres[*R*]allows[*A*]the creation of micro-fibres from a wide variety of ceramic material	context()	negated: False ,passive: False
+0.965	[*A*]This simple way of creating CaP fibres[*R*]allows[*A*]the creation of nano - from a wide variety of ceramic material	context()	negated: False ,passive: False
+[LINE#18]Here, we successfully demonstrated the approach with PLGA as a sacrificial polymer.
+0.639	[*A*]we[*R*]successfully demonstrated[*A*]the approach with PLGA as a sacrificial polymer[*A*]Here	context()	negated: False ,passive: False
+[LINE#19]However, cheaper materials such as polyvinylalcohol and polyvinylpyrrolidone could be used since these polymers have already been shown to be suitable for the preparation of ceramic fibres using a high temperature treatment [15].
+0.785	[*A*]cheaper materials such as polyvinylpyrrolidone[*R*]could be used	context()	negated: False ,passive: False
+0.903	[*A*]ceramic fibres[*R*]using[*A*]a high temperature treatment	context()	negated: False ,passive: False
+0.887	[*A*]these polymers[*R*]to be[*A*]suitable for the preparation of ceramic fibres	context()	negated: False ,passive: True
+0.761	[*A*]these polymers[*R*]have been shown[*A*]already	context()	negated: False ,passive: True
+0.785	[*A*]cheaper materials such as polyvinylalcohol[*R*]could be used	context()	negated: False ,passive: False
+[LINE#20]Polymers having low melting points, such as polycaprolactone, were not able to maintain the fibrous structure during the thermal treatment (data not shown).
+0.939	[*A*]the thermal treatment[*R*]not shown[*A*]data	context()	negated: True ,passive: True
+0.939	[*A*]Polymers having low melting points, such as polycaprolactone[*R*]to maintain[*A*]the fibrous structure[*A*]during the thermal treatment	context()	negated: False ,passive: False
+0.961	[*A*]Polymers having low melting points, such as polycaprolactone[*R*]were not[*A*]able to maintain the fibrous structure during the thermal treatment	context()	negated: True ,passive: True
+0.894	[*A*]Polymers[*R*]having[*A*]low melting points, such as polycaprolactone	context()	negated: False ,passive: False
+[LINE#21]To enable the sintering process, particles must be densely packed.
+0.713	[*A*]particles[*R*]must be densely packed	context()	negated: False ,passive: False
+[LINE#22]Therefore fibres prepared from a solution containing highly concentrated HA nanoparticles (50% w/v) were selected for this work.
+0.913	[*A*]fibres prepared from a solution[*R*]were selected[*A*]for this work	context()	negated: False ,passive: True
+0.918	[*A*]a solution[*R*]containing[*A*]highly concentrated HA nanoparticles	context()	negated: False ,passive: False
+0.894	[*A*]fibres[*R*]prepared[*A*]from a solution	context()	negated: False ,passive: True
+[LINE#23]Moreover, the large amount of nanoparticles in the polymer matrix might have played a role in maintaining the fibrous morphology while the polymer was subsequently molten and vaporised.
+0.813	[*A*]the polymer[*R*]was[*A*]subsequently molten and vaporised	context()	negated: False ,passive: True
+0.948	[*A*]the large amount of nanoparticles in the polymer matrix[*R*]might have played[*A*]a role in maintaining the fibrous morphology	context()	negated: False ,passive: False
+[LINE#24]The SEM images have revealed that the resulting CaP fibres acquire a segmented aspect, while the nanoparticles (seen at the surface of PLGA-HA composites) are not visible anymore (Fig. 1, right side).
+0.925	[*A*]the resulting CaP fibres[*R*]acquire[*A*]a segmented aspect	context(The SEM images have revealed)	negated: False ,passive: False
+0.830	[*A*]The SEM images[*R*]have revealed[*A*]that the resulting CaP fibres acquire a segmented aspect	context()	negated: False ,passive: False
+0.866	[*A*]the nanoparticles (seen at the surface of PLGA-HA composites)[*R*]are not Fig[*A*]anymore	context()	negated: True ,passive: True
+0.905	[*A*]the nanoparticles[*R*]seen[*A*]at the surface of PLGA-HA composites	context()	negated: False ,passive: True
+[LINE#25]These observations suggest that sintering has occurred.
+0.665	[*A*]sintering[*R*]has occurred	context(These observations suggest)	negated: False ,passive: False
+0.731	[*A*]These observations[*R*]suggest[*A*]that sintering has occurred	context()	negated: False ,passive: False
+[LINE#26]In sintering processes, small individual structures merge together by diffusion to form bigger structures.
+0.897	[*A*]small individual structures[*R*]to form[*A*]bigger structures	context()	negated: False ,passive: False
+0.939	[*A*]small individual structures[*R*]merge together[*A*]to form bigger structures[*A*]In sintering processes	context()	negated: False ,passive: True
+[LINE#27]To confirm the chemical nature of the heat-treated samples, further characterisations involving FTIR, XPS and XRD were performed.
+0.918	[*A*]further characterisations[*R*]involving[*A*]XRD	context()	negated: False ,passive: True
+0.918	[*A*]further characterisations[*R*]involving[*A*]XPS	context()	negated: False ,passive: True
+0.918	[*A*]further characterisations[*R*]involving[*A*]FTIR	context()	negated: False ,passive: True
+[LINE#28]FTIR analysis confirmed that the polymer was burnt out and evaporated during the thermal treatment since no characteristic of PLGA was observed in the spectrum of CaP fibres.
+0.787	[*A*]FTIR analysis[*R*]confirmed[*A*]that evaporated during the thermal treatment	context()	negated: False ,passive: False
+0.949	[*A*]no characteristic of PLGA[*R*]was observed[*A*]in the spectrum of CaP fibres	context()	negated: False ,passive: True
+0.687	[*A*]the polymer[*R*]was burnt out	context(FTIR analysis confirmed)	negated: False ,passive: False
+0.787	[*A*]FTIR analysis[*R*]confirmed[*A*]that the polymer was burnt out	context()	negated: False ,passive: False
+[LINE#29]Moreover, no band corresponding to carbonates was observed in the range 1400-1550cm-1, which suggests that carbonate ions were only present in trace quantities.
+0.878	[*A*]carbonate ions[*R*]were[*A*]only present in trace quantities	context(the range suggests)	negated: False ,passive: True
+0.689	[*A*]the range[*R*]suggests[*A*]that carbonate ions were only present in trace quantities	context()	negated: False ,passive: False
+0.926	[*A*]no band corresponding to carbonates[*R*]was observed[*A*]in the range	context()	negated: False ,passive: True
+[LINE#30]This may be due to the volatile nature of the carbonate group.
+0.381	[*A*]This[*R*]may be[*A*]due to the volatile nature of the carbonate group	context()	negated: False ,passive: True
+[LINE#31]Also, the emerged peaks from the splitting of the 1 and 3 vibration modes are characteristic of tricalcium phosphate [21].
+0.957	[*A*]the emerged peaks from the splitting of the 3 vibration modes[*R*]are[*A*]characteristic of tricalcium phosphate [ 21	context()	negated: False ,passive: True
+0.957	[*A*]the emerged peaks from the splitting of the 1 vibration modes[*R*]are[*A*]characteristic of tricalcium phosphate [ 21	context()	negated: False ,passive: True
+[LINE#32]This suggests that the decomposition of HA started during the heat treatment.
+0.925	[*A*]the decomposition of HA[*R*]started[*A*]during the heat treatment	context(This suggests)	negated: False ,passive: True
+0.258	[*A*]This[*R*]suggests[*A*]that the decomposition of HA started during the heat treatment	context()	negated: False ,passive: False
+[LINE#33]Moreover, consultation of the literature indicates that the spectra observed for CaP fibres is typical for a mixture of HA and -tricalcium phosphate [22-24].
+[LINE#34]This last observation is in agreement with the outcomes of the XRD analysis: HA was identified as the main phase of the CaP fibres, but -tricalcium phosphates (-TCP) and whitlockite (a Mg-containing -TCP) were also identified.
+0.751	[*A*]a Mg - containing - TCP[*R*]were identified	context()	negated: False ,passive: False
+0.625	[*A*]- tricalcium phosphates[*R*]were identified	context()	negated: False ,passive: False
+0.929	[*A*]This last observation[*R*]is[*A*]in agreement with the outcomes of the XRD analysis	context(HA was identified)	negated: False ,passive: True
+0.850	[*A*]HA[*R*]was identified[*A*]as the main phase of the CaP fibres	context()	negated: False ,passive: True
+[LINE#35] The XPS data clearly indicates that the HA nanoparticles used in this experiment are deficient in calcium.
+0.901	[*A*]the HA nanoparticles[*R*]are[*A*]deficient in calcium	context(The XPS data clearly indicates)	negated: False ,passive: True
+0.883	[*A*]The XPS data[*R*]clearly indicates[*A*]that the HA nanoparticles used in this experiment are deficient in calcium	context()	negated: False ,passive: False
+0.933	[*A*]the HA nanoparticles[*R*]used[*A*]in this experiment	context()	negated: False ,passive: True
+[LINE#36]This could explain why the HA decomposition occurs before 1200C since deficient HA start their decomposition at temperatures lower than pure HA (ratio=1.67) [19].
+0.918	[*A*]the HA decomposition[*R*]occurs[*A*]before 1200C[*A*]since deficient HA start their decomposition at temperatures lower than pure HA (ratio=1.67) [19	context(This could explain)	negated: False ,passive: True
+0.363	[*A*]This[*R*]could explain[*A*]why the HA decomposition occurs before 1200C	context()	negated: False ,passive: False
+0.946	[*A*]deficient HA[*R*]start[*A*]their decomposition[*A*]at temperatures lower than pure HA (ratio=1.67) [19	context()	negated: False ,passive: False
+[LINE#37]In the literature, this decomposition is described as partial although the reason remains unknown.
+0.767	[*A*]the reason[*R*]remains[*A*]unknown	context()	negated: False ,passive: True
+0.943	[*A*]this decomposition[*R*]is described[*A*]as partial[*A*]although the reason remains unknown[*A*]In the literature	context()	negated: False ,passive: True
+[LINE#38]The commonly accepted decomposition reaction for deficient HA isCa10(PO4)6(OH)23Ca3(PO4)2+CaO+H2OThe XPS analysis also reveals low calcium phosphate levels in the PLGA-HA samples, despite the fact that the fibres are filled with a large amount of nanoparticles.
+0.903	[*A*]the fibres[*R*]are filled[*A*]with a large amount of nanoparticles	context()	negated: False ,passive: True
+0.884	[*A*]OH)23Ca3(PO4)2+CaO+H2OThe XPS analysis[*R*]reveals[*A*]low calcium phosphate levels in the PLGA-HA samples[*A*]despite the fact that the fibres are filled with a large amount of nanoparticles	context()	negated: False ,passive: False
+[LINE#39]Since XPS is a surface chemical analysis technique (with analysis depth less than 10nm), this suggests that the nanoparticles lying at the surface of the fibres were embedded in a thin layer of polymer.
+0.878	[*A*]the nanoparticles[*R*]lying[*A*]at the surface of the fibres	context(this suggests)	negated: False ,passive: True
+0.217	[*A*]this[*R*]suggests[*A*]that the nanoparticles lying at the surface of the fibres were embedded in a thin layer of polymer	context()	negated: False ,passive: False
+0.887	[*A*]the nanoparticles[*R*]were embedded[*A*]in a thin layer of polymer	context()	negated: False ,passive: True
+0.887	[*A*]XPS[*R*]is[*A*]a surface chemical analysis technique (with analysis depth	context()	negated: False ,passive: True
+[LINE#40]The presence of carbon observed by XPS at the surface of the HA nanoparticles might result from atmospheric contamination by CO2 and volatile fatty acids.
+0.905	[*A*]The presence of carbon[*R*]might result[*A*]from atmospheric contamination	context()	negated: False ,passive: True
+0.911	[*A*]carbon[*R*]observed[*A*]by XPS[*A*]at the surface of the HA nanoparticles	context()	negated: False ,passive: True
+[LINE#41]At the surface of the CaP fibres, an additional reason for the presence of carbon might be the existence of residual atoms from the degradation-evaporation of the PLGA polymer.
+0.983	[*A*]an additional reason for the presence of carbon[*R*]might be[*A*]the existence of residual atoms from the degradation-evaporation of the PLGA polymer[*A*]At the surface of the CaP fibres	context()	negated: False ,passive: True
+[LINE#42]This would explain the higher proportion of carbon when compared to the native HA nanopowder and why the ratio of oxygen to carbon is lower.
+0.775	[*A*]the ratio of oxygen[*R*]is[*A*]lower	context(This would explain)	negated: False ,passive: True
+0.321	[*A*]This[*R*]would explain[*A*]why the ratio of oxygen to carbon is lower	context()	negated: False ,passive: False
+0.543	[*A*]This[*R*]would explain[*A*]the higher proportion of carbon when compared to the native HA nanopowder	context()	negated: False ,passive: False
+[LINE#43]The slightly lower percentage of oxygen in CaP fibres, compared to the HA nanopowder, may result from the loss of OH groups (dehydroxylation) that occur at high temperature.
+0.934	[*A*]the loss of OH groups[*R*]occur[*A*]at high temperature	context()	negated: False ,passive: True
+[LINE#44]For pure HA, this reaction is known to occur at sintering temperatures below 1200C with a conversion degree of 0.4 to 0.5 [25].
+[LINE#45]A simple way to present the reaction formula for dehydroxylation would beCa10(PO4)6(OH)2Ca10(PO4)6O+H2OThe resulting oxyhydroxyapatite cannot be detected by XRD due to the high similarity of its crystalline structures with hydroxyapatite.
+0.907	[*A*]resulting oxyhydroxyapatite[*R*]can not be detected[*A*]by XRD[*A*]due to the high similarity of its crystalline structures with hydroxyapatite	context()	negated: True ,passive: True
+0.953	[*A*]A simple way to present the reaction formula for dehydroxylation[*R*]would beCa10[*A*]PO4	context()	negated: False ,passive: True
+[LINE#46]It could not be seen by FTIR either, since the band characteristic of 3OH was observed below 400cm-1 which is below the range explored in this study.
+0.903	[*A*]the range[*R*]explored[*A*]in this study	context()	negated: False ,passive: True
+0.619	[*A*]400cm-1[*R*]is[*A*]below the range	context()	negated: False ,passive: True
+0.856	[*A*]the band characteristic of 3OH[*R*]was observed[*A*]below 400cm-1	context()	negated: False ,passive: True
+0.498	[*A*]It[*R*]could not be seen[*A*]by FTIR[*A*]either	context()	negated: True ,passive: True
+[LINE#47]Systems containing both HA and TCP phases have been intensively investigated and have shown potential for bone tissue engineering [26,27].
+0.818	[*A*]Systems containing TCP phases[*R*]have been intensively investigated	context()	negated: False ,passive: False
+0.911	[*A*]Systems[*R*]containing[*A*]TCP phases	context()	negated: False ,passive: False
+0.832	[*A*]Systems containing both HA phases[*R*]have been intensively investigated	context()	negated: False ,passive: False
+0.911	[*A*]Systems[*R*]containing[*A*]both HA phases	context()	negated: False ,passive: False
+0.894	[*A*]Systems[*R*]have shown[*A*]potential for bone tissue engineering [ 26,27	context()	negated: False ,passive: False
+[LINE#48]-TCP has exceptionally good tissue compatibility, allowing direct bonding between the regenerated and the native bone without intermediate connective tissue, and encouraging faster bone regeneration and resorbability than HA.
+0.928	[*A*]- TCP[*R*]has[*A*]exceptionally good tissue compatibility[*A*]allowing direct bonding between the regenerated and the native bone without encouraging resorbability than HA	context()	negated: False ,passive: False
+0.766	[*A*]- TCP[*R*]has exceptionally good tissue compatibility allowing[*A*]direct bonding between the regenerated and the native bone	context(- TCP has)	negated: False ,passive: False
+0.928	[*A*]- TCP[*R*]has[*A*]exceptionally good tissue compatibility[*A*]allowing direct bonding between the regenerated and the native bone without encouraging faster bone regeneration than HA	context()	negated: False ,passive: False
+0.840	[*A*]- TCP[*R*]has exceptionally good tissue compatibility allowing[*A*]direct bonding between the regenerated and the native bone without intermediate connective tissue	context(- TCP has)	negated: False ,passive: False
+0.914	[*A*]- TCP[*R*]has[*A*]exceptionally good tissue compatibility[*A*]allowing direct bonding between the regenerated and the native bone without intermediate connective tissue	context()	negated: False ,passive: False
+[LINE#49]/TCP systems have been developed in order to regulate the resorption kinetics through varying the ratio HA/TCP.
+0.927	[*A*]TCP systems[*R*]have been developed[*A*]in order	context()	negated: False ,passive: True
+[LINE#50]For similar reasons, the chemistry of the CaP fibres is likely to induce an excellent response from bone tissue.
+0.940	[*A*]the chemistry of the CaP fibres[*R*]to induce[*A*]an excellent response from bone tissue	context()	negated: False ,passive: False
+0.961	[*A*]the chemistry of the CaP fibres[*R*]is[*A*]likely to induce an excellent response from bone tissue	context()	negated: False ,passive: True
+[LINE#51]Measurements of mechanical robustness of the CaP fibres remain to be conducted, but initial inspection has indicated profound scaffold fragility compared to the PLGA-HA composites.
+0.918	[*A*]initial inspection[*R*]has indicated[*A*]profound scaffold fragility[*A*]compared to the PLGA - HA composites	context()	negated: False ,passive: False
+0.849	[*A*]Measurements of mechanical robustness of the CaP fibres[*R*]to be conducted	context()	negated: False ,passive: False
+0.888	[*A*]Measurements of mechanical robustness of the CaP fibres[*R*]remain[*A*]to be conducted	context()	negated: False ,passive: True
+[LINE#52]Although the polymer-based fibres are more flexible and less fragile, the absence of polymer matrix may be preferred for applications such as bone tissue engineering and drug delivery.
+0.814	[*A*]the polymer - based fibres[*R*]are[*A*]less fragile	context()	negated: False ,passive: True
+0.926	[*A*]the absence of polymer matrix[*R*]may be preferred[*A*]for applications such as drug delivery	context()	negated: False ,passive: True
+0.926	[*A*]the absence of polymer matrix[*R*]may be preferred[*A*]for applications such as bone tissue engineering	context()	negated: False ,passive: True
+0.814	[*A*]the polymer - based fibres[*R*]are[*A*]more flexible	context()	negated: False ,passive: True
+[LINE#53]For PLGA in particular, the acidity of the polymer degradation product can cause tissue inflammation or deactivation of the drug.
+0.938	[*A*]the acidity of the polymer degradation product[*R*]can cause[*A*]tissue inflammation or deactivation of the drug	context()	negated: False ,passive: False
+[LINE#54]If bone tissue engineering applications are considered, where robustness is required, CaP fibres will necessitate further improvement to their mechanical properties.
+0.927	[*A*]CaP fibres[*R*]will necessitate[*A*]further improvement	context()	negated: False ,passive: False
+0.713	[*A*]robustness[*R*]is required	context()	negated: False ,passive: False
+0.769	[*A*]bone tissue engineering applications[*R*]are considered	context()	negated: False ,passive: False
+[LINE#55]Alternatively, in their current condition, fibres may be more appropriate as coating or filling material for ceramic or metal implants, in order to enhance osteoconduction and facilitate the incorporation of the implant into the native bone tissue.
+0.929	[*A*]fibres[*R*]may be[*A*]more appropriate as coating or filling material for ceramic or metal implants[*A*]in their current condition	context()	negated: False ,passive: True
+[LINE#56]Calcium phosphate (CaP) materials are known to support bone ingrowth and to promote bone integration [1].
+0.940	[*A*]Calcium phosphate ( CaP ) materials[*R*]to support[*A*]bone ingrowth	context()	negated: False ,passive: False
+0.845	[*A*]Calcium phosphate ( CaP ) materials[*R*]are known	context()	negated: False ,passive: False
+[LINE#57]They are also non-toxic, biodegradable and can easily adsorb bioactive molecules at their surface.
+0.465	[*A*]They[*R*]can easily adsorb[*A*]bioactive molecules[*A*]at their surface	context()	negated: False ,passive: True
+0.361	[*A*]They[*R*]are[*A*]also[*A*]non-toxic , biodegradable	context()	negated: False ,passive: True
+[LINE#58] These characteristics make them useful for both tissue engineering(TE) and drug delivery applications [2,3].
+0.835	[*A*]These characteristics[*R*]make[*A*]them useful for drug delivery applications	context()	negated: False ,passive: False
+0.835	[*A*]These characteristics[*R*]make[*A*]them useful for both tissue engineering	context()	negated: False ,passive: False
+[LINE#59]Among CaP materials, synthetic hydroxyapatite (HA, Ca10PO46(OH)2) and -tricalcium phosphate (-TCP, Ca3(PO4)2) are most widely used.
+0.958	[*A*]synthetic hydroxyapatite (HA, Ca10PO46(OH)2) and -tricalcium phosphate[*R*]are used[*A*]Among CaP materials	context()	negated: False ,passive: True
+[LINE#60]HA is the main form of calcium-phosphate crystal found in human bone.
+0.919	[*A*]calcium-phosphate crystal[*R*]found[*A*]in human bone	context()	negated: False ,passive: True
+0.887	[*A*]HA[*R*]is[*A*]the main form of calcium-phosphate crystal	context()	negated: False ,passive: True
+[LINE#61]Usually, the degradability of CaP materials varies according to the Ca/P ratio, with -TCP being more soluble than HA [4].
+0.896	[*A*]with -TCP[*R*]being[*A*]more soluble than HA [4	context()	negated: False ,passive: True
+0.953	[*A*]the degradability of CaP materials[*R*]varies[*A*]according to the Ca/P ratio	context()	negated: False ,passive: True
+[LINE#62]Therefore, mixing CaP materials may help to control, to some extent, the degradation of the TE scaffold.
+0.964	[*A*]mixing CaP materials[*R*]may help[*A*]to control, to some extent, the degradation of the TE scaffold	context()	negated: False ,passive: False
+[LINE#63] In particular, HA/-TCP ceramic scaffolds have been shown to be more effective in bone repair than pure HA or pure -TCP[5].CaP solid bodies have been used for many applications but they usually face the issue of being too brittle.
+0.992	[*A*]5 ].cap solid bodies[*R*]have been used for[*A*]many applications	context()	negated: False ,passive: False
+0.814	[*A*]HA/-TCP ceramic scaffolds[*R*]have been shown	context(CaP solid bodies have been used)	negated: False ,passive: False
+0.918	[*A*]CaP solid bodies[*R*]have been used[*A*]for many applications	context()	negated: False ,passive: True
+0.707	[*A*]they[*R*]face[*A*]the issue of being too brittle[*A*]usually	context()	negated: False ,passive: False
+0.968	[*A*]HA/-TCP ceramic scaffolds[*R*]to be[*A*]more effective in bone repair than pure HA or pure -TCP[5	context()	negated: False ,passive: True
+[LINE#64]The poor mechanical properties of CaP ceramic materials have severely obstructed their clinical applications [6].
+0.924	[*A*]The poor mechanical properties of CaP ceramic materials[*R*]have severely obstructed[*A*]their clinical applications	context()	negated: False ,passive: False
+[LINE#65]Fibres and other types of particle are generally more successful for filling bone defects and helping to repair the damaged tissue.
+0.919	[*A*]other types of particle[*R*]are[*A*]generally[*A*]more successful for helping to repair the damaged tissue	context()	negated: False ,passive: True
+0.919	[*A*]other types of particle[*R*]are[*A*]generally[*A*]more successful for filling bone defects	context()	negated: False ,passive: True
+0.894	[*A*]Fibres[*R*]are[*A*]generally[*A*]more successful for helping to repair the damaged tissue	context()	negated: False ,passive: True
+0.894	[*A*]Fibres[*R*]are[*A*]generally[*A*]more successful for filling bone defects	context()	negated: False ,passive: True
+[LINE#66] Furthermore, they can be dispersed in polymer matrices for mechanical reinforcement purposes and for improved biocompatibility[7].CaP fibres have been produced through several routes including spinning, extrusion, precipitation, sol-gel and pyrolysis, and electrospinning [8-13].
+[LINE#67]Electrospinning is a simple technology that allows the production of nano- and micro-fibres by applying a high voltage to a polymer solution.
+0.718	[*A*]a simple technology[*R*]allows	context()	negated: False ,passive: False
+0.804	[*A*]Electrospinning[*R*]is[*A*]a simple technology that allows	context()	negated: False ,passive: True
+0.933	[*A*]a simple technology[*R*]allows[*A*]the production of and micro-fibres by applying a high voltage to a polymer solution	context()	negated: False ,passive: False
+0.868	[*A*]Electrospinning[*R*]is[*A*]a simple technology that allows the production of and micro-fibres by applying a high voltage to a polymer solution	context()	negated: False ,passive: True
+[LINE#68]It has been used to produce different types of ceramic fibres through the use of chemical precursors mixed to the polymer solution and by performing a thermal treatment on the resulting fibres [14,15].
+0.903	[*A*]chemical precursors[*R*]mixed[*A*]to the polymer	context()	negated: False ,passive: True
+0.569	[*A*]It[*R*]has been used[*A*]to produce different types of ceramic fibres through the use of chemical precursors mixed to the polymer by performing a thermal treatment on the resulting fibres	context()	negated: False ,passive: True
+0.903	[*A*]chemical precursors[*R*]mixed[*A*]to the polymer solution	context()	negated: False ,passive: True
+0.411	[*A*]It[*R*]to produce[*A*]different types of ceramic fibres	context()	negated: False ,passive: False
+0.569	[*A*]It[*R*]has been used[*A*]to produce different types of ceramic fibres through the use of chemical precursors	context()	negated: False ,passive: True
+[LINE#69]However, the production of CaP fibres by electrospinning remains poorly investigated.
+0.836	[*A*]the production of CaP fibres by electrospinning[*R*]poorly investigated	context()	negated: False ,passive: False
+0.878	[*A*]the production of CaP fibres by electrospinning[*R*]remains[*A*]poorly investigated	context()	negated: False ,passive: True
+[LINE#70] al. have created HA microfibres by electrospinning a polymer mixture containing Ca(NO3)24H2O, (.
+0.925	[*A*]a polymer mixture[*R*]containing[*A*]Ca(NO3)24H2O	context()	negated: False ,passive: False
+[LINE#71]C2H5O)3PO (precursors) and by performing a thermal treatment on the collected fibres at 600C for 1h [13].
+[LINE#72]The generation of HA nanofibres has been investigated by Kim and Kim [16].
+0.953	[*A*]The generation of HA nanofibres[*R*]has been investigated[*A*]by Kim and Kim	context()	negated: False ,passive: True
+[LINE#73]They have based their strategy on the use of sol-gel precursors of the apatites and by adjusting the concentration of the sols, they could vary the diameter of the fibres in a range of a few micrometres to hundreds of nanometres.
+0.552	[*A*]They[*R*]have based their strategy by adjusting[*A*]the concentration of the sols	context(They have based they could vary)	negated: False ,passive: False
+0.401	[*A*]They[*R*]have based[*A*]their strategy[*A*]by adjusting the concentration of the sols	context(they could vary)	negated: False ,passive: False
+0.518	[*A*]They[*R*]have based[*A*]their strategy on the use of sol - gel precursors of the apatites	context(they could vary)	negated: False ,passive: False
+0.552	[*A*]they[*R*]could vary[*A*]the diameter of the fibres	context()	negated: False ,passive: False
+[LINE#74]Calcination was performed at 700C for 2h.
+0.911	[*A*]Calcination[*R*]was performed[*A*]at 700C[*A*]for 2h	context()	negated: False ,passive: True
+[LINE#75] Also, Tadjiev et al. have used the same precursors as Wu and colleagues and heat treatments between 500 and 800C to produce -TCP ceramic nanofibres [17].Sintering of pure HA particles is usually reported to occur above 1000C.
+0.922	[*A*]Tadjiev et al[*R*]have used[*A*]the same precursors[*A*]as heat treatments	context()	negated: False ,passive: False
+0.945	[*A*]Sintering of pure HA particles[*R*]to occur[*A*]above 1000C	context()	negated: False ,passive: True
+0.853	[*A*]Sintering of pure HA particles[*R*]is reported[*A*]usually	context()	negated: False ,passive: True
+0.958	[*A*]Tadjiev et al[*R*]have used[*A*]the same precursors[*A*]as colleagues between 500 and 800C to produce - TCP ceramic nanofibres	context()	negated: False ,passive: False
+[LINE#76]The choice of the sintering temperature is important as it has an effect on the properties of the resulting sample.
+0.522	[*A*]it[*R*]has[*A*]an effect on the properties of the resulting sample	context()	negated: False ,passive: False
+0.941	[*A*]The choice of the sintering temperature[*R*]is[*A*]important[*A*]as it has an effect on the properties of the resulting sample	context()	negated: False ,passive: True
+[LINE#77] Most investigators agree that pure HA (ratio CaP=1.67) is stable in an air and argon atmosphere attemperatures upto 1200C [18-20].
+0.932	[*A*]pure HA[*R*]is[*A*]stable[*A*]in an argon atmosphere attemperatures upto 1200C [ 18-20	context(Most investigators agree)	negated: False ,passive: True
+0.840	[*A*]Most investigators[*R*]agree[*A*]that pure HA ( ratio CaP=1.67 ) is stable in an argon atmosphere attemperatures upto 1200C [ 18-20	context()	negated: False ,passive: False
+0.932	[*A*]pure HA[*R*]is[*A*]stable[*A*]in an air atmosphere attemperatures upto 1200C [ 18-20	context(Most investigators agree)	negated: False ,passive: True
+0.840	[*A*]Most investigators[*R*]agree[*A*]that pure HA ( ratio CaP=1.67 ) is stable in an air atmosphere attemperatures upto 1200C [ 18-20	context()	negated: False ,passive: False
+[LINE#78] However, decomposition of HA at temperatures as low as 800C has been observed for calcium deficient HA samples[19].This paper investigates a new approach to obtain CaP submicrofibres through the electrospinning route.
+0.991	[*A*]19 ].this paper[*R*]investigates[*A*]a new approach obtain through the electrospinning route	context()	negated: False ,passive: False
+0.970	[*A*]This paper[*R*]investigates[*A*]a new approach to obtain CaP submicrofibres through the electrospinning route[*A*]decomposition of HA at temperatures as low	context()	negated: False ,passive: False
+0.932	[*A*]800C[*R*]has been observed[*A*]for calcium deficient HA samples	context()	negated: False ,passive: True
+[LINE#79] In a previous research article [7], we have demonstrated that HA nanoparticles can be incorporated into Poly(lactic-co-glycolic acid)(PLGA) fibres at high concentration (upto 50% in weight to volume ratio within the polymer solution).
+0.949	[*A*]HA nanoparticles[*R*]can be incorporated[*A*]into Poly(lactic-co-glycolic acid)(PLGA) fibres[*A*]at high concentration (upto 50% in weight to volume ratio within the polymer solution	context(we have demonstrated)	negated: False ,passive: True
+0.444	[*A*]we[*R*]have demonstrated[*A*]that HA nanoparticles can be incorporated into Poly(lactic-co-glycolic acid)(PLGA) fibres at high concentration (upto 50% in weight to volume ratio within the polymer solution[*A*]In a previous research article	context()	negated: False ,passive: False
+[LINE#80]Here, we report that applying a heat treatment at sintering temperatures to such PLGA-HA composite fibres forces the aggregations of the nanoparticles and vaporises the polymer matrix, leading to the creation of CaP submicrofibres.
+0.905	[*A*]applying a heat[*R*]vaporises[*A*]the polymer matrix[*A*]leading to the creation of CaP submicrofibres	context(we report)	negated: False ,passive: False
+0.444	[*A*]we[*R*]report[*A*]that applying a heat vaporises the polymer matrix , leading to the creation of CaP submicrofibres[*A*]Here	context()	negated: False ,passive: False
+0.444	[*A*]we[*R*]report[*A*]that applying a heat treatment at sintering temperatures to such PLGA - HA composite fibres forces the aggregations of the nanoparticles[*A*]Here	context()	negated: False ,passive: False
+[LINE#81] Materials and methodsPreparation of electrospinning solutions:.
+[LINE#82] Polymer solutions were prepared by dissolving Poly(lactic-co-glycolic acid) (PLGA, ratio 75:25,.
+0.947	[*A*]Polymer solutions[*R*]were prepared[*A*]by dissolving Poly(lactic-co-glycolic acid) (PLGA, ratio 75:25	context()	negated: False ,passive: True
+[LINE#83] Mw: 66-107kDa, Sigma-Aldrich Chemical Company Ltd., Dorset, UK)into 1,1,1,3,3,3-hexafluoroisopropanol (HFIP, Apollo Scientific Limited, Cheshire, UK) at a concentration of 15% (weight to volume ratio).
+[LINE#84]Deficient hydroxyapatite synthetic nanoparticles with an average particle diameter of 93nm (HA nanopowder, Sigma-Aldrich) was then added to the polymer solution at concentrations of 50% (weight to volume ratio).
+0.960	[*A*]Deficient hydroxyapatite synthetic nanoparticles with an average particle diameter of 93nm[*R*]was added[*A*]to the polymer solution at concentrations of 50%[*A*]then	context()	negated: False ,passive: True
+[LINE#85]Solutions were agitated at room temperature on a roller for at least 24h to allow for complete dissolution of the polymers.
+0.919	[*A*]at least 24h[*R*]to allow[*A*]for complete dissolution of the polymers	context()	negated: False ,passive: False
+0.894	[*A*]Solutions[*R*]were[*A*]agitated[*A*]at room temperature on a roller	context()	negated: False ,passive: True
+[LINE#86]Each solution was then homogenised on ice using a vibracell ultrasonicator (130W, 20kHz; Sonics Materials Inc., Newtown, USA) prior to electrospinning.
+0.916	[*A*]Each solution[*R*]was homogenised[*A*]on ice[*A*]then	context()	negated: False ,passive: True
+[LINE#87]The polymer solution was transferred to a 1ml or 5ml syringe and positioned in the pump for the electrospinning process.
+0.897	[*A*]The polymer solution[*R*]positioned[*A*]in the pump for the electrospinning process	context()	negated: False ,passive: True
+0.911	[*A*]The polymer solution[*R*]was transferred[*A*]to a 1ml or 5ml syringe	context()	negated: False ,passive: True
+[LINE#88]The solution was pushed towards the electrospinning nozzle at a rate of 1ml/h and the voltage was set at 12.2kV.
+0.918	[*A*]the voltage[*R*]was set[*A*]at 12.2kV	context()	negated: False ,passive: True
+0.937	[*A*]The solution[*R*]was pushed[*A*]towards the electrospinning nozzle at a rate of 1ml / h	context()	negated: False ,passive: True
+[LINE#89]The electrospun fibres were collected in the form of a random mesh, as described previously in [7].Preparation of calcium phosphate fibres: The PLGA-HA electrospun samples were folded to fit into an alumina ceramic crucible and the container was placed in the middle of a furnace (University of Oxford, Materials Department, Parks Road).
+0.707	[*A*]The electrospun fibres[*R*]were collected[*A*]as described previously in [7	context(The PLGA - HA electrospun samples were folded)	negated: False ,passive: True
+0.885	[*A*]The PLGA-HA electrospun samples[*R*]were folded[*A*]to fit into an alumina ceramic crucible	context()	negated: False ,passive: True
+0.903	[*A*]the container[*R*]was placed[*A*]in the middle of a furnace	context()	negated: False ,passive: True
+0.890	[*A*]The PLGA-HA electrospun samples[*R*]to fit[*A*]into an alumina ceramic crucible	context()	negated: False ,passive: True
+[LINE#90]The heat treatment was applied in a 50kPa Argon atmosphere at 1100C for 1h.
+0.925	[*A*]The heat treatment[*R*]was applied[*A*]in a 50kPa Argon atmosphere at 1100C for 1h	context()	negated: False ,passive: True
+[LINE#91]The furnace was brought to a temperature with a heating rate of 0.27C/s and was cooled at a rate of 0.1C/s.
+0.918	[*A*]The furnace[*R*]was cooled[*A*]at a rate of 0.1C / s	context()	negated: False ,passive: True
+0.947	[*A*]The furnace[*R*]was brought[*A*]to a temperature with a heating rate of 0.27C / s	context()	negated: False ,passive: True
+[LINE#92]The treated samples were collected next day and were removed for characterisation.
+0.911	[*A*]The treated samples[*R*]were removed[*A*]for characterisation	context()	negated: False ,passive: True
+0.911	[*A*]The treated samples[*R*]were collected[*A*]next day	context()	negated: False ,passive: True
+[LINE#93]Samples (PLGA-HA composites before and after treatment) were mounted on an aluminium stub using a carbon adhesive disk.
+0.877	[*A*]Samples[*R*]were mounted[*A*]on an aluminium stub	context()	negated: False ,passive: True
+0.880	[*A*]PLGA - HA composites before[*R*]were mounted[*A*]on an aluminium stub	context()	negated: False ,passive: True
+[LINE#94] The materials were then coated with a 2.5nm layer of platinum using a Cressington 208 HR Sputter coater(Vortex Control Systems Inc., Texas, USA) and high resolution images of the scaffolds were taken using a JSM 840F scanning electron microscope (JEOL, Tokyo, Japan).
+0.801	[*A*]high resolution images of the scaffolds[*R*]were taken	context()	negated: False ,passive: False
+0.993	[*A*]The materials[*R*]were coated with[*A*]2.5 nm layer	context()	negated: False ,passive: False
+0.943	[*A*]a 2.5 nm layer of platinum[*R*]using[*A*]a Cressington 208 HR Sputter coater	context()	negated: False ,passive: False
+0.916	[*A*]The materials[*R*]were coated[*A*]with a 2.5 nm layer of platinum[*A*]then	context()	negated: False ,passive: True
+[LINE#95]On each sample, three different areas were observed randomly at different magnifications.
+0.948	[*A*]three different areas[*R*]were observed randomly[*A*]at different magnifications[*A*]On each sample	context()	negated: False ,passive: True
+[LINE#96] Fourier transform infrared spectroscopy.
+0.544	[*A*]Fourier[*R*]transform[*A*]infrared spectroscopy	context()	negated: False ,passive: True
+[LINE#97]The surface chemistry of the treated samples was analysed by using a FTIR spectrometer (Bruker Optics Limited, Ettlingen, Germany).
+0.816	[*A*]The surface chemistry of the treated samples[*R*]was analysed	context()	negated: False ,passive: False
+[LINE#98]Pure PLGA fibres, PLGA-HA composite fibres and pure HA nanopowders were also analysed as controls.
+0.901	[*A*]pure HA nanopowders[*R*]were analysed[*A*]as controls	context()	negated: False ,passive: True
+0.850	[*A*]PLGA - HA composite fibres[*R*]were analysed[*A*]as controls	context()	negated: False ,passive: True
+0.901	[*A*]Pure PLGA fibres[*R*]were analysed[*A*]as controls	context()	negated: False ,passive: True
+[LINE#99] Each spectrum was acquired and averaged with a resolution of 4cm-1 by accumulation of 128 scans and the signal was measured in a range between 400 and 4000cm-1.X-ray diffraction (XRD):.
+0.903	[*A*]Each spectrum[*R*]averaged[*A*]with a resolution of 4cm	context()	negated: False ,passive: True
+0.903	[*A*]Each spectrum[*R*]was measured[*A*]in a range between 400 and 4000cm-1.X-ray diffraction	context()	negated: False ,passive: True
+0.732	[*A*]Each spectrum[*R*]was acquired	context()	negated: False ,passive: False
+[LINE#100]Samples were prepared by grinding the electrospun materials into powder and spreading the powder onto a crystal of silicon covered with a layer of silicone grease.
+0.919	[*A*]a crystal of silicon[*R*]covered[*A*]with a layer of silicone grease	context()	negated: False ,passive: True
+0.877	[*A*]Samples[*R*]by spreading[*A*]the powder[*A*]onto a crystal of silicon	context()	negated: False ,passive: False
+0.877	[*A*]Samples[*R*]by grinding[*A*]the electrospun materials[*A*]into powder	context()	negated: False ,passive: False
+0.713	[*A*]Samples[*R*]were prepared	context()	negated: False ,passive: False
+[LINE#101]Excess powder was removed and the crystal and powder were exposed to an X-ray beam.
+0.903	[*A*]the powder[*R*]were exposed[*A*]to an X-ray beam	context()	negated: False ,passive: True
+0.903	[*A*]the crystal[*R*]were exposed[*A*]to an X-ray beam	context()	negated: False ,passive: True
+0.732	[*A*]Excess powder[*R*]was removed	context()	negated: False ,passive: False
+[LINE#102]X-ray diffraction measurements were carried out using a fully automated Siemens D5000 powder diffractometer, employing a Cu K radiation (=0.15406nm) and a secondary monochromator.
+0.895	[*A*]X-ray diffraction measurements[*R*]were carried out[*A*]employing a secondary monochromator	context()	negated: False ,passive: True
+0.911	[*A*]X-ray diffraction measurements[*R*]were carried out[*A*]employing a Cu K radiation	context()	negated: False ,passive: True
+[LINE#103]The samples were continuously spun during data collection and scanned using a step size of 0.05 2 over the range of 5-75 2, with a count time of 12s/step.
+0.887	[*A*]The samples[*R*]using[*A*]a step size of 0.05 2[*A*]over the range of 5-75 2	context()	negated: False ,passive: False
+0.732	[*A*]The samples[*R*]were scanned	context()	negated: False ,passive: False
+0.903	[*A*]The samples[*R*]were continuously spun[*A*]during data collection[*A*]with a count time of 12s / step	context()	negated: False ,passive: True
+[LINE#104]For comparison purposes, the X-ray diffraction of the HA nanopowder and of the PLGA-HA fibres were also recorded.
+0.766	[*A*]the X-ray diffraction of the HA of the PLGA - HA fibres[*R*]were recorded	context()	negated: False ,passive: False
+0.797	[*A*]the X-ray diffraction of the HA nanopowder[*R*]were recorded	context()	negated: False ,passive: False
+[LINE#105] X-ray photoelectron spectroscopy: Samples were mounted on a stub using a double sided adhesive tab before being placed into the ultrahigh vacuum (210-7mPa) analysis chamber of the spectrometer.
+0.903	[*A*]a stub[*R*]using[*A*]a double sided adhesive tab	context()	negated: False ,passive: False
+0.894	[*A*]Samples[*R*]were mounted[*A*]on a stub[*A*]before being placed into the ultrahigh vacuum	context()	negated: False ,passive: True
+[LINE#106] XPS analysis was carried out using a VG Clam 4 MCD analyser system with X-ray radiation from the Mg K band.
+0.732	[*A*]XPS analysis[*R*]was carried out	context()	negated: False ,passive: False
+[LINE#107]Recording was performed with an energy of 100eV and a take-off angle of 90.
+0.771	[*A*]Recording[*R*]was performed	context()	negated: False ,passive: False
+[LINE#108]The spectra were analysed using Microcal Origin 6.0 software and the assignment of the peaks was performed with reference to the UKSAF and NIST databases.
+[LINE#109]As controls, HA nanopowder and PLGA-HA fibres were also analysed.
+0.885	[*A*]PLGA - HA fibres[*R*]were analysed[*A*]As controls	context()	negated: False ,passive: True
+0.925	[*A*]HA nanopowder[*R*]were analysed[*A*]As controls	context()	negated: False ,passive: True
+[LINE#110] The morphologies of PLGA-HA electrospun fibres before (left side) and after the treatment at 1100C (right side) are shown in Fig..
+0.946	[*A*]The morphologies of PLGA-HA electrospun fibres before (left side[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#111]Interestingly, the treated samples (referred as "CaP fibres" in this paper) retain the submicrofibrous morphology of PLGA-HA composites.
+0.980	[*A*]the treated samples (referred as "CaP fibres" in this paper)[*R*]retain[*A*]the submicrofibrous morphology of PLGA-HA composites	context()	negated: False ,passive: False
+0.913	[*A*]the treated samples[*R*]referred[*A*]as "CaP fibres" in this paper	context()	negated: False ,passive: True
+[LINE#112]and (f) also reveals that the nanoparticles observed on PLGA-HA fibres have disappeared to leave a smooth and segmented surface in CaP fibres.
+0.933	[*A*]the nanoparticles[*R*]observed[*A*]on[*A*]PLGA - HA fibres have disappeared to leave a segmented surface in CaP fibres	context((f) reveals)	negated: False ,passive: False
+0.051	[*A*](f)[*R*]reveals[*A*]that the nanoparticles observed on PLGA - HA fibres have disappeared to leave a segmented surface in CaP fibres	context()	negated: False ,passive: False
+0.889	[*A*]PLGA - HA fibres[*R*]to leave[*A*]a segmented surface[*A*]in CaP fibres	context()	negated: False ,passive: False
+0.641	[*A*]PLGA - HA fibres[*R*]have disappeared	context((f) reveals the nanoparticles observed)	negated: False ,passive: False
+0.933	[*A*]the nanoparticles[*R*]observed[*A*]on[*A*]PLGA - HA fibres have disappeared to leave a smooth surface in CaP fibres	context((f) reveals)	negated: False ,passive: False
+0.051	[*A*](f)[*R*]reveals[*A*]that the nanoparticles observed on PLGA - HA fibres have disappeared to leave a smooth surface in CaP fibres	context()	negated: False ,passive: False
+0.889	[*A*]PLGA - HA fibres[*R*]to leave[*A*]a smooth surface[*A*]in CaP fibres	context()	negated: False ,passive: False
+[LINE#113]FTIR analysis: The FTIR spectra obtained from the different samples are indicated in Fig. 2.
+0.928	[*A*]FTIR analysis[*R*]are indicated[*A*]in Fig	context()	negated: False ,passive: True
+0.933	[*A*]The FTIR spectra[*R*]obtained[*A*]from the different samples	context()	negated: False ,passive: True
+[LINE#114]The spectra obtained from pure PLGA fibres and from HA nanopowder serve as controls.
+0.918	[*A*]The spectra[*R*]obtained[*A*]from HA nanopowder[*A*]serve as controls	context()	negated: False ,passive: False
+0.953	[*A*]The spectra obtained from pure PLGA fibres[*R*]serve[*A*]as controls	context()	negated: False ,passive: False
+0.918	[*A*]The spectra[*R*]obtained[*A*]from pure PLGA fibres	context()	negated: False ,passive: True
+[LINE#115]In the PLGA spectrum, the C3O characteristic bands in the region 1065-1280cm-1 can be seen.
+0.992	[*A*]1065 -1280cm -1[*R*]can be seen In[*A*]the PLGA spectrum	context()	negated: False ,passive: False
+0.969	[*A*]the C3O characteristic bands in the region[*R*]can be seen[*A*]In the PLGA spectrum	context()	negated: False ,passive: True
+[LINE#116] On the other hand, the spectrum of HA nanopowder reveals the characteristic peak assigned to PO4-3: 1 vibration mode at about 964cm-1, 3 vibration mode at 1031cm-1 and 1091cm-1.
+0.911	[*A*]the characteristic peak[*R*]assigned[*A*]to PO4-3	context()	negated: False ,passive: True
+0.944	[*A*]the spectrum of HA nanopowder[*R*]reveals[*A*]the characteristic peak assigned to PO4-3	context()	negated: False ,passive: False
+[LINE#117]The spectrum of untreated PLGA-HA sample displays both characteristics from PLGA and HA, as described in [7].
+0.933	[*A*]The spectrum of untreated PLGA - HA sample[*R*]displays[*A*]both characteristics[*A*]from HA[*A*]as described in [ 7	context()	negated: False ,passive: False
+0.933	[*A*]The spectrum of untreated PLGA - HA sample[*R*]displays[*A*]both characteristics from PLGA[*A*]as described in [ 7	context()	negated: False ,passive: False
+[LINE#118]On the other hand, the spectrum of CaP fibres seems to have less characteristics of PLGA (CO and C3O bands).
+0.945	[*A*]the spectrum of CaP fibres[*R*]to have[*A*]less characteristics of PLGA C3O bands	context()	negated: False ,passive: False
+0.945	[*A*]the spectrum of CaP fibres[*R*]to have[*A*]less characteristics of PLGA	context()	negated: False ,passive: False
+0.832	[*A*]the spectrum of CaP fibres[*R*]seems	context()	negated: False ,passive: False
+[LINE#119]However, the aspect of the curve is slightly different from the one recorded for the HA nanopowder.
+0.918	[*A*]the one[*R*]recorded[*A*]for the HA nanopowder	context()	negated: False ,passive: True
+0.943	[*A*]the aspect of the curve[*R*]is[*A*]slightly different from the one	context()	negated: False ,passive: True
+[LINE#120]Indeed, weak absorption peaks can be detected at about 993, 1043 and 1067cm-1 near the 3 vibration mode of PO4-3 (1031cm-1 and 1091cm-1).
+0.993	[*A*]weak absorption peaks[*R*]can be detected at[*A*]about 1067cm - 1	context()	negated: False ,passive: False
+0.911	[*A*]weak absorption peaks[*R*]can be detected[*A*]at about 1067cm	context()	negated: False ,passive: True
+0.993	[*A*]weak absorption peaks[*R*]can be detected at[*A*]about 1043	context()	negated: False ,passive: False
+0.783	[*A*]weak absorption peaks[*R*]can be detected[*A*]at about 1043	context()	negated: False ,passive: True
+0.993	[*A*]weak absorption peaks[*R*]can be detected at[*A*]about 993	context()	negated: False ,passive: False
+0.783	[*A*]weak absorption peaks[*R*]can be detected[*A*]at about 993	context()	negated: False ,passive: True
+[LINE#121] Another small shoulder could be observed at about 950cm-1 near the 1 vibration mode characteristic (964cm-1).XPS analysis:.
+0.993	[*A*]Another small shoulder[*R*]could be observed near[*A*]1 vibration mode characteristic	context()	negated: False ,passive: False
+0.943	[*A*]Another small shoulder[*R*]could be observed[*A*]at about 950cm-1[*A*]near the 1 vibration mode characteristic (964cm-1	context()	negated: False ,passive: True
+[LINE#122]The experimental binding energies of the O 1s, C 1s, P 2p, and Ca 2p electrons and proportions of the corresponding atomes are indicated in Table 1.
+0.911	[*A*]electrons[*R*]are indicated[*A*]in Table 1	context()	negated: False ,passive: True
+0.634	[*A*]C[*R*]Ca 2p	context()	negated: False ,passive: False
+0.962	[*A*]The experimental binding energies of the O 1 s[*R*]are indicated[*A*]in Table 1	context()	negated: False ,passive: True
+[LINE#123] In PLGA-HA fibres, C 1s was found at 284.4eV, O 1s at 530.7eV, Ca 2p at 345.5eV, and.
+0.939	[*A*]C 1s[*R*]was found[*A*]at 284.4eV[*A*]In PLGA-HA fibres	context()	negated: False ,passive: True
+[LINE#124]P 2p at 130.2eV. Carbon was the dominant element (51%) while only 2.37% of Ca and 2.95% of P were detected in the sample (ratio Ca/P=1.24).
+0.932	[*A*]only 2.37 2.95 % of P[*R*]were detected[*A*]in the sample	context()	negated: False ,passive: True
+0.938	[*A*]Carbon[*R*]was[*A*]the dominant element	context()	negated: False ,passive: True
+0.944	[*A*]only 2.37 % of Ca[*R*]were detected[*A*]in the sample	context()	negated: False ,passive: True
+0.967	[*A*]Carbon[*R*]was[*A*]the dominant element[*A*]while only 2.37 % of Ca were detected in the sample	context()	negated: False ,passive: True
+[LINE#125]In HA nanopowder, O was found to be the dominant element with 50.87%, while Ca and P reached values as high as 13.94% and 10.13% respectively (ratio Ca/P=1.37).
+0.894	[*A*]P[*R*]reached[*A*]values as high as 13.94 10.13 % respectively ( ratio Ca / P=1.37	context()	negated: False ,passive: False
+0.813	[*A*]P[*R*]reached[*A*]values as high as 13.94 %	context()	negated: False ,passive: False
+0.919	[*A*]Ca[*R*]reached[*A*]values as high as 13.94 10.13 % respectively ( ratio Ca / P=1.37	context()	negated: False ,passive: False
+0.855	[*A*]Ca[*R*]reached[*A*]values as high as 13.94 %	context()	negated: False ,passive: False
+0.833	[*A*]O[*R*]to be[*A*]the dominant element with 50.87 %	context()	negated: False ,passive: True
+0.914	[*A*]O[*R*]was found[*A*]In HA nanopowder	context()	negated: False ,passive: True
+[LINE#126]Ca 2p and P 2p were found at slightly higher binding energies: 347.5eV and 133.3eV, respectively.
+0.827	[*A*]P 2p[*R*]were found[*A*]at slightly higher binding energies[*A*]respectively	context()	negated: False ,passive: True
+[LINE#127]CaP fibres showed very similar observation when compared to the pure nanopowder in terms of binding energies and percentages of elements.
+0.953	[*A*]CaP fibres[*R*]showed[*A*]very similar observation[*A*]when compared to the pure nanopowder in terms of percentages of elements	context()	negated: False ,passive: False
+0.953	[*A*]CaP fibres[*R*]showed[*A*]very similar observation[*A*]when compared to the pure nanopowder in terms of binding energies of elements	context()	negated: False ,passive: False
+[LINE#128]Although the ratio O/C is slightly lower, 1.49 against 2.03 for the HA nanopowder, O was still the major element at 46.41%.
+0.887	[*A*]O[*R*]was[*A*]still[*A*]the major element at 46.41%	context()	negated: False ,passive: True
+0.853	[*A*]the ratio O/C[*R*]is[*A*]slightly lower	context()	negated: False ,passive: True
+[LINE#129] Ca and P reached values of 12.78% and 9.6%, respectively (ratio Ca/P=1.33).XRD analysis: The XRD patterns of the samples are shown in Fig..
+0.871	[*A*]P[*R*]reached[*A*]values of respectively ( ratio Ca / P=1.33 ) . XRD analysis	context(The XRD patterns of the samples are shown)	negated: False ,passive: False
+0.871	[*A*]P[*R*]reached[*A*]values of 9.6 % ( ratio Ca / P=1.33 ) . XRD analysis	context(The XRD patterns of the samples are shown)	negated: False ,passive: False
+0.871	[*A*]P[*R*]reached[*A*]values of 12.78 % ( ratio Ca / P=1.33 ) . XRD analysis	context(The XRD patterns of the samples are shown)	negated: False ,passive: False
+0.947	[*A*]The XRD patterns of the samples[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#130]The chemical identification was performed by comparing the experimental X-ray patterns to standards compiled by the International Centre for Diffraction Data (ICDD).
+0.911	[*A*]standards[*R*]compiled[*A*]by the International Centre for Diffraction Data	context()	negated: False ,passive: True
+0.897	[*A*]The chemical identification[*R*]by comparing[*A*]the experimental X-ray patterns[*A*]to standards	context()	negated: False ,passive: False
+0.751	[*A*]The chemical identification[*R*]was performed	context()	negated: False ,passive: False
+[LINE#131] The analysis show that the diffractogram obtained for the PLGA-HA sample and HA nanopowder identified synthetic hydroxyapatite(Ca5(PO4)3OH) with a probability above 99% for both.
+0.910	[*A*]HA nanopowder[*R*]identified[*A*]synthetic hydroxyapatite	context(The analysis show)	negated: False ,passive: False
+0.875	[*A*]The analysis[*R*]show[*A*]that HA nanopowder identified synthetic hydroxyapatite ( Ca5 ( PO4 ) 3OH ) with a probability above 99 % for both	context()	negated: False ,passive: False
+0.918	[*A*]the diffractogram[*R*]obtained[*A*]for the PLGA - HA sample nanopowder	context()	negated: False ,passive: True
+0.952	[*A*]The analysis[*R*]show[*A*]the diffractogram obtained for the PLGA - HA sample nanopowder	context()	negated: False ,passive: False
+[LINE#132] The pattern observed for CaP fibres identified hydroxyapatite with a probability of 81% with small amounts of whitlockite (Ca9(Mg,Fe++)(PO4)6(PO3OH))and -TCP (Ca3(PO4)2) with probabilities of 14% and 11% respectively.
+0.918	[*A*]The pattern[*R*]observed[*A*]for CaP fibres	context()	negated: False ,passive: True

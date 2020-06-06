@@ -1,0 +1,1196 @@
+[LINE#1] The recently proposed TCP-targeted Low-rate Distributed Denial-of-Service(LDDoS) attacks send fewer packets to attack legitimate flows by exploiting the vulnerability in TCP's congestion control mechanism.
+0.903	[*A*]fewer packets[*R*]to attack[*A*]legitimate flows	context()	negated: False ,passive: False
+0.989	[*A*]The recently proposed TCP-targeted Low-rate Distributed Denial-of-Service(LDDoS) attacks[*R*]send[*A*]fewer packets to attack legitimate flows by exploiting the vulnerability in TCP's congestion control mechanism	context()	negated: False ,passive: False
+[LINE#2]They are difficult to detect while causing severe damage to TCP-based applications.
+0.620	[*A*]They[*R*]to detect[*A*]while causing severe damage to TCP-based applications	context()	negated: False ,passive: False
+0.361	[*A*]They[*R*]are[*A*]difficult to detect	context()	negated: False ,passive: True
+[LINE#3]Existing approaches can only detect the presence of an LDDoS attack, but fail to identify LDDoS flows.
+0.880	[*A*]Existing approaches[*R*]can detect[*A*]the presence of an LDDoS attack	context()	negated: False ,passive: False
+[LINE#4]In this paper, we propose a novel metric - Congestion Participation Rate (CPR) - and a CPR-based approach to detect and filter LDDoS attacks by their intention to congest the network.
+0.607	[*A*]we[*R*]propose[*A*]a CPR - based approach to filter LDDoS attacks by their intention[*A*]In this paper	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]propose[*A*]a CPR - based approach[*A*]In this paper	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]propose[*A*]a novel metric - Congestion Participation Rate[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#5]The major innovation of the CPR-base approach is its ability to identify LDDoS flows.
+0.956	[*A*]The major innovation of the CPR-base approach[*R*]is[*A*]its ability to identify LDDoS flows	context()	negated: False ,passive: True
+[LINE#6]A flow with a CPR higher than a predefined threshold is classified as an LDDoS flow, and consequently all of its packets will be dropped.
+0.409	[*A*]consequently all of its packets[*R*]will be dropped	context()	negated: False ,passive: False
+0.960	[*A*]A flow with a CPR higher than a predefined threshold[*R*]is classified[*A*]as an LDDoS flow	context()	negated: False ,passive: True
+[LINE#7]We analyze the effectiveness of CPR theoretically by quantifying the average CPR difference between normal TCP flows and LDDoS flows and showing that CPR can differentiate them.
+0.719	[*A*]CPR[*R*]can differentiate[*A*]them	context(LDDoS showing)	negated: False ,passive: False
+0.488	[*A*]LDDoS[*R*]showing[*A*]that CPR can differentiate them	context()	negated: False ,passive: False
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.240	[*A*]We[*R*]analyze[*A*]the effectiveness of CPR theoretically by quantifying the average CPR difference between normal TCP flows and LDDoS flows and showing that CPR can differentiate them	context()	negated: False ,passive: False
+[LINE#8]We conduct ns-2 simulations, test-bed experiments, and Internet traffic trace analysis to validate our analytical results and evaluate the performance of the proposed approach.
+0.388	[*A*]We[*R*]conduct Internet traffic trace analysis to evaluate[*A*]the performance of the proposed approach	context(We conduct)	negated: False ,passive: False
+0.388	[*A*]We[*R*]conduct[*A*]Internet traffic trace analysis[*A*]to evaluate the performance of the proposed approach	context()	negated: False ,passive: False
+0.256	[*A*]We[*R*]conduct Internet traffic trace analysis to validate[*A*]our analytical results	context(We conduct)	negated: False ,passive: False
+0.256	[*A*]We[*R*]conduct[*A*]Internet traffic trace analysis[*A*]to validate our analytical results	context()	negated: False ,passive: False
+0.388	[*A*]We[*R*]conduct test - bed experiments to evaluate[*A*]the performance of the proposed approach	context(We conduct)	negated: False ,passive: False
+0.388	[*A*]We[*R*]conduct[*A*]test - bed experiments[*A*]to evaluate the performance of the proposed approach	context()	negated: False ,passive: False
+0.256	[*A*]We[*R*]conduct test - bed experiments to validate[*A*]our analytical results	context(We conduct)	negated: False ,passive: False
+0.256	[*A*]We[*R*]conduct[*A*]test - bed experiments[*A*]to validate our analytical results	context()	negated: False ,passive: False
+0.569	[*A*]We[*R*]conduct[*A*]ns - 2 simulations to evaluate the performance of the proposed approach	context()	negated: False ,passive: False
+0.999	[*A*]We[*R*]conduct[*A*]2 simulations	context()	negated: False ,passive: False
+0.256	[*A*]We[*R*]conduct ns - 2 simulations to validate[*A*]our analytical results	context(We conduct)	negated: False ,passive: False
+0.256	[*A*]We[*R*]conduct[*A*]ns - 2 simulations[*A*]to validate our analytical results	context()	negated: False ,passive: False
+[LINE#9]Experimental results demonstrate that the proposed CPR-based approach is substantially more effective compared to an existing Discrete Fourier Transform (DFT)-based approach - one of the most efficient approaches in detecting LDDoS attacks.
+0.946	[*A*]the proposed CPR-based approach[*R*]is[*A*]substantially more effective[*A*]compared to an existing Discrete Fourier Transform	context(Experimental results demonstrate)	negated: False ,passive: True
+0.840	[*A*]Experimental results[*R*]demonstrate[*A*]that the proposed CPR-based approach is substantially more effective compared to an existing Discrete Fourier Transform	context()	negated: False ,passive: False
+[LINE#10]We also provide experimental guidance to choose the CPR threshold in practice.
+0.456	[*A*]We[*R*]provide[*A*]experimental guidance to choose the CPR threshold in practice	context()	negated: False ,passive: False
+[LINE#11] In this paper, we have proposed an effective and efficient approach to detect and filter TCP-targeted LDDoS attacks [2,9] based on a novel metric - Congestion Participation Rate.
+0.907	[*A*]filter TCP - targeted LDDoS attacks[*R*]based[*A*]on a novel metric - Congestion Participation Rate	context()	negated: False ,passive: True
+0.740	[*A*]we[*R*]have proposed[*A*]an efficient approach to filter TCP - targeted LDDoS attacks[*A*]In this paper	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]have proposed[*A*]an efficient approach to detect[*A*]In this paper	context()	negated: False ,passive: False
+0.935	[*A*]an effective approach to filter TCP - targeted LDDoS attacks[*R*]based[*A*]on a novel metric - Congestion Participation Rate	context()	negated: False ,passive: True
+0.740	[*A*]we[*R*]have proposed[*A*]an effective approach to filter TCP - targeted LDDoS attacks[*A*]In this paper	context()	negated: False ,passive: False
+0.595	[*A*]we[*R*]have proposed[*A*]an effective approach to detect[*A*]In this paper	context()	negated: False ,passive: False
+[LINE#12]The CPR-based approach can achieve per-flow-level detection of LDDoS attacks.
+0.953	[*A*]The CPR-based approach[*R*]can achieve[*A*]per-flow-level detection of LDDoS attacks	context()	negated: False ,passive: False
+[LINE#13]We have analytically expressed the upper bound of the average CPR for normal TCP flows and the lower bound of the average CPR for LDDoS flows, using several network parameters that are directly measureable.
+0.754	[*A*]several network parameters[*R*]are[*A*]directly measureable	context()	negated: False ,passive: True
+0.614	[*A*]We[*R*]have analytically expressed[*A*]the upper bound of the average CPR for normal TCP flows and the lower bound of the average CPR for LDDoS flows	context()	negated: False ,passive: False
+[LINE#14]We have implemented the CPR-based approach and conducted comprehensive experiments in both ns-2 and test-bed.
+0.452	[*A*]We[*R*]have conducted[*A*]comprehensive experiments in test - bed	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]have conducted[*A*]comprehensive experiments in both ns - 2	context()	negated: False ,passive: False
+0.498	[*A*]We[*R*]have implemented[*A*]the CPR - based approach	context()	negated: False ,passive: False
+[LINE#15]The experiment results have demonstrated that, compared to the existing Discrete Fourier Transform (DFT)-based approach, the CPR-based approach is effective for all LDDoS attacks considered, while the DFT-based approach is effective for a limited set of LDDoS attack types.
+0.803	[*A*]all LDDoS attacks[*R*]considered	context()	negated: False ,passive: False
+0.964	[*A*]the DFT-based approach[*R*]is[*A*]effective for a limited set of LDDoS attack types	context()	negated: False ,passive: True
+0.972	[*A*]the CPR-based approach[*R*]is[*A*]effective for all LDDoS attacks[*A*]while the DFT-based approach is effective for a limited set of LDDoS attack types	context(The experiment results have demonstrated)	negated: False ,passive: True
+0.853	[*A*]The experiment results[*R*]have demonstrated[*A*]that, compared to the existing Discrete Fourier Transform (DFT)-based approach, the CPR-based approach is effective for all LDDoS attacks	context()	negated: False ,passive: False
+[LINE#16]We should note here that the CPR-based approach requires the router where it is deployed to turn on the Random Early Detection (RED) [11] queue management mechanism, to work properly on an extreme scenario described in Section 3.2.
+0.195	[*A*]it[*R*]is deployed	context()	negated: False ,passive: False
+0.911	[*A*]an extreme scenario[*R*]described[*A*]in Section 3.2	context()	negated: False ,passive: True
+0.932	[*A*]the CPR-based approach[*R*]requires[*A*]the router where it is deployed to turn on the Random Early Detection (RED) [11] queue management mechanism, to work properly on an extreme scenario	context(We should note)	negated: False ,passive: False
+0.218	[*A*]We[*R*]should note[*A*]here[*A*]that the CPR-based approach requires the router	context()	negated: False ,passive: False
+[LINE#17]The RED mechanism is already supported by most existing routers (such as the WRED in Cisco routers).In the future work, we will reduce the required memory size by implementing MBF techniques in the CPR-based approach.
+0.960	[*A*]The RED mechanism[*R*]is supported[*A*]by most existing routers (such as the WRED in Cisco routers[*A*]already	context(we will reduce)	negated: False ,passive: True
+0.686	[*A*]we[*R*]will reduce[*A*]the required memory size[*A*]by implementing MBF techniques in the CPR-based approach[*A*]In the future work	context()	negated: False ,passive: False
+[LINE#18]Another promising direction we hope to achieve is the deep integration of our CPR-based approach with the RED mechanism.
+0.849	[*A*]Another promising direction[*R*]to achieve[*A*]we	context(we hope)	negated: False ,passive: True
+0.189	[*A*]we[*R*]hope[*A*]to achieve	context()	negated: False ,passive: False
+0.799	[*A*]Another promising direction we hope to achieve[*R*]is[*A*]the deep integration of our CPR-based approach with the RED mechanism	context()	negated: False ,passive: True
+[LINE#19]Lastly, the CPR metric proposed in this paper could be applied to detect a number of variants of LDDoS attacks, such as LDDoS attacks against application servers [40] and LDDoS attacks against 3G/WiMax wireless networks [53].
+0.934	[*A*]the CPR metric[*R*]to detect[*A*]LDDoS attacks against 3G / WiMax wireless networks	context()	negated: False ,passive: False
+0.958	[*A*]the CPR metric[*R*]could be applied[*A*]to detect LDDoS attacks against 3G / WiMax wireless networks	context()	negated: False ,passive: True
+0.958	[*A*]the CPR metric[*R*]could be applied[*A*]to detect a number of variants of LDDoS attacks , such as LDDoS attacks against application servers	context()	negated: False ,passive: True
+0.933	[*A*]the CPR metric[*R*]proposed[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#20]Our CPR-based approach is an online algorithm that can be easily implemented in a router because its basic mechanism is simply counting packets, and then calculating the CPR based on Eq.
+0.852	[*A*]the CPR[*R*]based[*A*]on Eq	context()	negated: False ,passive: True
+0.732	[*A*]its basic mechanism[*R*]is calculating[*A*]the CPR based on Eq[*A*]then	context()	negated: False ,passive: False
+0.897	[*A*]an online algorithm[*R*]can be easily implemented[*A*]in a router	context()	negated: False ,passive: True
+0.559	[*A*]its basic mechanism[*R*]is counting[*A*]packets	context()	negated: False ,passive: False
+0.825	[*A*]an online algorithm[*R*]can be easily implemented[*A*]in a router[*A*]because its basic mechanism is simply counting packets	context()	negated: False ,passive: True
+0.713	[*A*]Our CPR - based approach[*R*]is[*A*]an online algorithm that can be easily implemented in a router	context()	negated: False ,passive: True
+[LINE#21](1), whose accuracy has been verified in the previous section.
+[LINE#22]In this section we discuss practical issues related to the implementation of the CPR-based approach..
+0.918	[*A*]practical issues[*R*]related[*A*]to the implementation of the CPR-based approach	context()	negated: False ,passive: True
+0.740	[*A*]we[*R*]discuss[*A*]practical issues related to the implementation of the CPR-based approach[*A*]In this section	context()	negated: False ,passive: False
+[LINE#23]Flow table sizesCompared to existing approaches on detecting LDDoS attacks [9,18,23-27], our CPR-based approach is capable of detecting whether a flow is an attack flow or a normal TCP flow.
+0.942	[*A*]Flow table sizesCompared to existing approaches on detecting LDDoS attacks [9,18,23-27], our CPR-based approach[*R*]is[*A*]capable of detecting whether a flow is an attack flow or a normal TCP flow	context()	negated: False ,passive: True
+0.918	[*A*]Flow table[*R*]sizesCompared[*A*]to existing approaches on detecting LDDoS attacks	context()	negated: False ,passive: True
+[LINE#24]A flow table is required to maintain the CPR of all the flows passing through the router where the CPR-based approach is installed.
+0.962	[*A*]the CPR-based approach[*R*]is installed[*A*]the router	context()	negated: False ,passive: True
+0.911	[*A*]all the flows[*R*]passing[*A*]through the router	context()	negated: False ,passive: True
+0.897	[*A*]A flow table[*R*]to maintain[*A*]the CPR of all the flows	context()	negated: False ,passive: False
+0.911	[*A*]A flow table[*R*]is required[*A*]to maintain the CPR of all the flows	context()	negated: False ,passive: True
+[LINE#25]Our CPR-based approach requires 19.44MB memory to maintain 11,341,289 flows in an ISP trace with OC48 speed (conducted in.[28-30]) using a bloom filter calculator [31] with the probability of false positive of 0.001.
+0.847	[*A*]an ISP trace with OC48 speed[*R*]conducted[*A*]in.[28-30	context()	negated: False ,passive: True
+0.860	[*A*]Our CPR-based approach[*R*]requires[*A*]19.44MB memory[*A*]to maintain 11,341,289 flows in an ISP trace with OC48 speed	context()	negated: False ,passive: False
+[LINE#26]However, the CPR-based module should be installed on routers to which the bottleneck link, to the potential victim, is connected.
+0.914	[*A*]routers[*R*]is connected[*A*]the bottleneck link, to the potential victim	context()	negated: False ,passive: True
+0.944	[*A*]the CPR-based module[*R*]should be installed[*A*]on routers	context()	negated: False ,passive: True
+[LINE#27]Such routers are unlikely to be ISP routers since they are unlikely to be bottleneck [32].
+0.575	[*A*]they[*R*]to be[*A*]bottleneck	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]are[*A*]unlikely to be bottleneck	context()	negated: False ,passive: True
+0.837	[*A*]Such routers[*R*]to be[*A*]ISP routers[*A*]since they are unlikely to be bottleneck	context()	negated: False ,passive: True
+0.918	[*A*]Such routers[*R*]are[*A*]unlikely to be ISP routers	context()	negated: False ,passive: True
+[LINE#28]Consequently the number of flows our CPR-based approach needs to maintain will be considerably less than the one in the ISP trace leading to smaller size memory requirements.
+0.429	[*A*]our CPR-based approach[*R*]needs to maintain to maintain	context(our CPR - based approach needs)	negated: False ,passive: False
+0.474	[*A*]our CPR-based approach[*R*]needs[*A*]to maintain	context()	negated: False ,passive: False
+0.933	[*A*]the ISP trace[*R*]leading[*A*]to smaller size memory requirements	context()	negated: False ,passive: False
+0.883	[*A*]the number of flows our CPR-based approach needs to maintain[*R*]will be[*A*]considerably less than the one in the ISP trace	context()	negated: False ,passive: True
+[LINE#29]Additionally, as will be discussed in the next subsection, Multilevel Bloom Filter techniques have been proposed, which can be used to further reduce the flow table size.
+0.818	[*A*]Multilevel Bloom Filter techniques[*R*]have been proposed	context()	negated: False ,passive: False
+[LINE#30]Besides the flow table, our CPR-based approach also needs a flow size estimation, which can be achieved through existing solutions implemented at current routers such as Cisco NetFlow [10].
+0.918	[*A*]existing solutions[*R*]implemented[*A*]at current routers such as Cisco NetFlow	context()	negated: False ,passive: True
+0.737	[*A*]a flow size estimation[*R*]can be achieved	context()	negated: False ,passive: False
+0.812	[*A*]our CPR-based approach[*R*]needs[*A*]a flow size estimation, which can be achieved through existing solutions	context()	negated: False ,passive: False
+[LINE#31] P address spoofingAccording to the way it generates spoofed source addresses, IP address spoofing can be classified into two types: fixed spoofing and random spoofing.
+0.911	[*A*]IP address spoofing[*R*]can be classified[*A*]into two types	context()	negated: False ,passive: True
+0.452	[*A*]it[*R*]generates[*A*]spoofed source addresses	context()	negated: False ,passive: False
+0.903	[*A*]P address[*R*]spoofingAccording[*A*]to the way	context()	negated: False ,passive: True
+[LINE#32]Fixed spoofing generally does not cause a large-space overhead for our approach, as its source addresses are chosen from a predefined list [33].
+0.660	[*A*]its source addresses[*R*]are chosen[*A*]from a predefined list	context()	negated: False ,passive: True
+0.873	[*A*]Fixed spoofing[*R*]does not cause[*A*]a large-space overhead[*A*]for our approach[*A*]as its source addresses are chosen from a predefined list	context()	negated: True ,passive: False
+[LINE#33]While random spoofing would drastically increase the flow table size needed in our approach because a flow is defined based on IP addresses.
+0.732	[*A*]a flow[*R*]is defined	context()	negated: False ,passive: False
+0.881	[*A*]the flow table size[*R*]needed[*A*]in our approach[*A*]because a flow is defined based on IP addresses	context()	negated: False ,passive: True
+0.835	[*A*]random spoofing[*R*]would drastically increase[*A*]the flow table size needed in our approach	context()	negated: False ,passive: False
+[LINE#34]There are already a number of solutions to tackle IP spoofing [34], such as Network Ingress Filtering [35].
+0.737	[*A*]a number of solutions[*R*]spoofing	context()	negated: False ,passive: False
+[LINE#35]However, since none of the solutions are widely deployed, we describe an alternative technique "Multilevel Bloom Filters" that can be integrated into our approach to mitigate the large-space-overhead problem caused by random spoofing.
+0.938	[*A*]the large-space-overhead problem[*R*]caused[*A*]by random spoofing	context()	negated: False ,passive: True
+0.825	[*A*]an alternative technique[*R*]can be integrated[*A*]into our approach[*A*]to mitigate the large-space-overhead problem	context()	negated: False ,passive: True
+0.240	[*A*]we[*R*]describe[*A*]an alternative technique "Multilevel Bloom Filters" that can be integrated into our approach	context()	negated: False ,passive: False
+0.684	[*A*]none of the solutions[*R*]are deployed	context()	negated: False ,passive: False
+[LINE#36]Multilevel Bloom Filters (MBF) have been shown to be an effective approach for mitigating the large-space-overhead problem by providing a trade-off between the space requirement and the false positive rate [36].
+0.950	[*A*]Multilevel Bloom Filters[*R*]to be[*A*]an effective approach for mitigating the large-space-overhead problem by providing a trade-off between the space requirement and the false positive rate	context()	negated: False ,passive: True
+0.776	[*A*]Multilevel Bloom Filters[*R*]have been shown	context()	negated: False ,passive: False
+[LINE#37]The MBF technique is inspired by the success of the Stochastic Fair Blue (SFB) [36] algorithm, which is a scalable approach to record and update the state information of flows through Multilevel Bloom Filters.
+0.971	[*A*]the Stochastic Fair Blue ( SFB ) [ 36 ] algorithm[*R*]is[*A*]a scalable approach to update the state information of flows through Multilevel Bloom Filters	context()	negated: False ,passive: True
+0.946	[*A*]the Stochastic Fair Blue ( SFB ) [ 36 ] algorithm[*R*]is[*A*]a scalable approach to record	context()	negated: False ,passive: True
+0.964	[*A*]The MBF technique[*R*]is inspired[*A*]by the success of the Stochastic Fair Blue ( SFB ) [ 36 ] algorithm	context()	negated: False ,passive: True
+[LINE#38]According to [36], the MBF effectively gives the algorithm NL unique "buckets" using LN number of bins (L levels with N bins in each level).
+0.797	[*A*]the MBF[*R*]effectively gives the algorithm using[*A*]LN number of bins	context(the MBF effectively gives)	negated: False ,passive: False
+0.858	[*A*]the MBF[*R*]effectively gives[*A*]the algorithm[*A*]NL unique "buckets	context()	negated: False ,passive: False
+[LINE#39]That is, we can save (1-LN/NL)100% of required buffer or memory space by using Multilevel Bloom Filters.
+0.999	[*A*]we[*R*]can save[*A*]100 %	context()	negated: False ,passive: False
+0.407	[*A*]we[*R*]can save[*A*]100% of required buffer or memory space	context()	negated: False ,passive: False
+[LINE#40]For example, we can save up to (1-223/232)=91.3% of the required memory by using a MBF with L=2 and N=23.
+0.569	[*A*]we[*R*]can save up[*A*]to ( 1-223/232 ) =91.3 % of the required memory	context()	negated: False ,passive: False
+[LINE#41]In our recent work.[37], we have employed MBF techniques and observe an efficient memory save using the approach with an affordable false positive rate. .
+0.388	[*A*]we[*R*]have employed MBF techniques using[*A*]the approach with an affordable false positive rate	context(we have employed)	negated: False ,passive: False
+0.425	[*A*]we[*R*]have employed[*A*]MBF techniques[*A*]In our recent work . [ 37	context()	negated: False ,passive: False
+[LINE#42]P trafficOur CPR-based approach has been demonstrated to work effectively in distinguishing normal TCP flows from LDDoS flows.
+0.950	[*A*]P trafficOur CPR-based approach[*R*]to work effectively[*A*]in distinguishing normal TCP flows from LDDoS flows	context()	negated: False ,passive: False
+0.845	[*A*]P trafficOur CPR-based approach[*R*]has been demonstrated	context()	negated: False ,passive: False
+[LINE#43]Since UDP flows normally do not reduce their transmission rate when the network is congested, we believe that the current CPR-based approach will treat a UDP flow as an attack flow if the UDP flow behaves non-responsively.
+0.947	[*A*]the current CPR-based approach[*R*]will treat[*A*]a UDP flow[*A*]as an attack flow[*A*]if the UDP flow behaves non-responsively	context(we believe)	negated: False ,passive: False
+0.869	[*A*]Since UDP flows normally[*R*]do not reduce[*A*]their transmission rate[*A*]when the network is congested	context(we believe)	negated: True ,passive: False
+0.317	[*A*]we[*R*]believe[*A*]that the current CPR-based approach will treat a UDP flow as an attack flow	context()	negated: False ,passive: False
+0.813	[*A*]the network[*R*]is[*A*]congested	context()	negated: False ,passive: True
+0.831	[*A*]the UDP flow[*R*]behaves[*A*]non-responsively	context()	negated: False ,passive: False
+0.634	[*A*]UDP[*R*]flows normally	context()	negated: False ,passive: False
+[LINE#44]Further investigation on differentiating UDP flows and attack flows, and the fairness issue will be investigated in future work.
+0.868	[*A*]Further investigation on differentiating UDP[*R*]flows	context()	negated: False ,passive: False
+0.911	[*A*]the fairness issue[*R*]will be investigated[*A*]in future work	context()	negated: False ,passive: True
+[LINE#45]Integration of REDThe motivation of employing the RED [11] queue management mechanism together with our approach is to improve the performance of our approach in the extreme scenario described in Section 3.2.
+0.959	[*A*]the extreme scenario described in Section[*R*]has approach of[*A*]3.2	context()	negated: False ,passive: False
+0.911	[*A*]the extreme scenario[*R*]described[*A*]in Section 3.2	context()	negated: False ,passive: True
+0.870	[*A*]Integration of REDThe motivation of employing the RED [11] queue management mechanism together with our approach[*R*]is[*A*]to improve the performance of our approach in the extreme scenario	context()	negated: False ,passive: True
+[LINE#46]The the RED [11] mechanism enable our CPR-based approach to still be effective in detecting LDDoS attack flows in that very extreme scenario.
+0.991	[*A*]11 ] mechanism[*R*]enable[*A*]our CPR based approach	context()	negated: False ,passive: False
+0.860	[*A*]LDDoS attack[*R*]flows[*A*]in that very extreme scenario	context()	negated: False ,passive: True
+0.818	[*A*]our CPR-based approach[*R*]to be[*A*]effective in detecting LDDoS attack[*A*]still	context()	negated: False ,passive: True
+0.930	[*A*]The the RED [11] mechanism[*R*]enable[*A*]our CPR-based approach[*A*]to still be effective in detecting LDDoS attack	context()	negated: False ,passive: False
+[LINE#47]Although the RED mechanism is found to be notably vulnerable to LDoS attacks [37,38], it does not introduce vulnerabilities, because our approach detects and filters attack flows while simultaneously protecting RED from being exploited. .
+0.700	[*A*]our approach filters[*R*]attack[*A*]flows[*A*]while simultaneously protecting RED from being exploited	context()	negated: False ,passive: False
+0.463	[*A*]it[*R*]does not introduce[*A*]vulnerabilities[*A*]because our approach filters attack flows while simultaneously protecting RED from being exploited	context()	negated: True ,passive: False
+0.341	[*A*]our approach[*R*]detects	context()	negated: False ,passive: False
+0.309	[*A*]it[*R*]does not introduce[*A*]vulnerabilities[*A*]because our approach detects	context()	negated: True ,passive: False
+0.934	[*A*]the RED mechanism[*R*]to be[*A*]notably vulnerable to LDoS attacks	context()	negated: False ,passive: True
+0.803	[*A*]the RED mechanism[*R*]is found	context()	negated: False ,passive: False
+[LINE#48]analysisFinally we briefly discuss how difficult it would be for an attacker to evade our CPR-based approach.
+0.293	[*A*]it[*R*]would be[*A*]for an attacker[*A*]to evade our CPR-based approach	context(we discuss)	negated: False ,passive: True
+0.360	[*A*]we[*R*]discuss[*A*]how difficult it would be for an attacker to evade our CPR-based approach	context()	negated: False ,passive: False
+[LINE#49] The various types of LDDoS attacks shown in Fig.3 may adopt different detection evasion strategies while causing the same damage to normal flows.
+0.888	[*A*]The various types of LDDoS attacks[*R*]may adopt different detection evasion strategies causing[*A*]the same damage to normal flows	context(The various types of LDDoS attacks may adopt)	negated: False ,passive: False
+0.924	[*A*]The various types of LDDoS attacks[*R*]may adopt[*A*]different detection evasion strategies[*A*]while causing the same damage to normal flows	context()	negated: False ,passive: False
+0.944	[*A*]LDDoS attacks[*R*]shown[*A*]in Fig.3	context()	negated: False ,passive: True
+[LINE#50] For example, AFI LDDoS attacks could enlarge the attack period.
+0.877	[*A*]AFI LDDoS attacks[*R*]could enlarge[*A*]the attack period	context()	negated: False ,passive: False
+[LINE#51]Ta for each attack flow; AWI LDDoS attacks could narrow the attack burst width Tb of each attack flow; ARI LDDoS attacks could reduce the attack burst rate Rb for every attack flow and MI LDDoS attacks could employ one or several of the aforementioned strategies.
+0.869	[*A*]ARI LDDoS attacks[*R*]could reduce[*A*]the attack burst rate[*A*]for every attack flow and MI LDDoS attacks	context()	negated: False ,passive: False
+[LINE#52]We have evaluated the performance of the proposed approach under AFI, AWI, and ARI LDDoS attacks in Section 4.2 and against MI LDDoS attacks in Section 4.4.
+0.614	[*A*]We[*R*]have evaluated[*A*]the performance of the proposed approach under ARI LDDoS attacks against MI LDDoS attacks in Section 4.4	context()	negated: False ,passive: False
+0.614	[*A*]We[*R*]have evaluated[*A*]the performance of the proposed approach under ARI LDDoS attacks in Section 4.2	context()	negated: False ,passive: False
+0.498	[*A*]We[*R*]have evaluated[*A*]the performance of the proposed approach under AWI	context()	negated: False ,passive: False
+0.498	[*A*]We[*R*]have evaluated[*A*]the performance of the proposed approach under AFI	context()	negated: False ,passive: False
+[LINE#53] Experimental results show that the Congestion Participation Rate (CPR) is a reliable and robust metric for identifying LDDoS attack flows for all LDDoS attack categories listed in Fig.3.Generally, an attacker might want to lower the CPR value by sending fake pulses that do not cause network congestion.
+0.949	[*A*]all LDDoS attack categories[*R*]listed[*A*]in Fig.3.Generally	context()	negated: False ,passive: True
+0.887	[*A*]fake pulses[*R*]do not cause[*A*]network congestion	context()	negated: True ,passive: False
+0.926	[*A*]the Congestion[*R*]flows[*A*]for all LDDoS attack categories	context()	negated: False ,passive: True
+0.724	[*A*]an attacker[*R*]might want to lower the CPR value by sending[*A*]fake pulses that do not cause network congestion	context(an attacker might want to lower)	negated: False ,passive: False
+0.896	[*A*]an attacker[*R*]might want to lower[*A*]the CPR value[*A*]by sending fake pulses	context(an attacker might want)	negated: False ,passive: False
+0.896	[*A*]an attacker[*R*]might want[*A*]to lower the CPR value by sending fake pulses	context()	negated: False ,passive: False
+0.747	[*A*]the Congestion[*R*]is[*A*]a reliable and robust metric	context(Experimental results show)	negated: False ,passive: True
+0.875	[*A*]Experimental results[*R*]show[*A*]that the Congestion Participation Rate (CPR) is a reliable and robust metric for identifying LDDoS attack flows for all LDDoS attack categories	context()	negated: False ,passive: False
+[LINE#54]Although fake pulses may lower the CPR value of an LDDoS flow, as long as the flow still sends packets during congestion periods, it will be detected since it still has a higher CPR than a normal TCP flow.
+0.665	[*A*]it[*R*]has[*A*]a higher CPR than a normal TCP flow[*A*]still	context()	negated: False ,passive: False
+0.607	[*A*]it[*R*]will be detected[*A*]since it still has a higher CPR than a normal TCP flow[*A*]as long as the flow still sends packets during congestion periods	context()	negated: False ,passive: True
+0.949	[*A*]the flow[*R*]sends[*A*]packets[*A*]during congestion periods[*A*]still	context()	negated: False ,passive: False
+0.918	[*A*]fake pulses[*R*]may lower[*A*]the CPR value of an LDDoS flow	context()	negated: False ,passive: False
+[LINE#55]The only way to completely evade our CPR-based detection is to send all the attack packets using the TCP congestion control mechanism, in other words, to make an LDDoS flow behave like a normal TCP flow.
+0.936	[*A*]The only way to completely evade our CPR-based detection[*R*]is[*A*]to send all the attack packets using the TCP congestion control mechanism, in other words	context()	negated: False ,passive: True
+[LINE#56]In this case, the LDDoS flow hardly achieves any obvious attack effects.
+0.955	[*A*]the LDDoS flow[*R*]achieves[*A*]any obvious attack effects[*A*]In this case	context()	negated: False ,passive: False
+[LINE#57]To summarize, to the attacker, there is a trade-off between mounting an effective attack but being detected or evading our approach but loosing attack effectiveness.
+[LINE#58]Distributed Denial-of-Service (DDoS) attacks [1] have been identified as a major threat to today's Internet services.
+0.940	[*A*]Distributed Denial-of-Service[*R*]have been identified[*A*]as a major threat to today's Internet services	context()	negated: False ,passive: True
+[LINE#59]Being a new kind of DDoS attacks, TCP-targeted Low-rate Distributed Denial-of-Service (LDDoS) [2] attacks are more efficient in terms of causing damage to legitimate flows and more difficult to detect when compared to traditional flooding-based DDoS attacks.
+[LINE#60]Traditional flooding-based DDoS attacks employ a "sledge-hammer" approach of high-rate transmission of packets, which obviously distinguishes themselves from normal data flows in statistical characteristics.
+0.795	[*A*]packets[*R*]distinguishes[*A*]themselves[*A*]from normal data	context()	negated: False ,passive: False
+0.942	[*A*]Traditional flooding-based DDoS attacks[*R*]employ[*A*]a "sledge-hammer" approach of high-rate transmission of packets, which obviously distinguishes themselves from normal data flows in statistical characteristics	context()	negated: False ,passive: False
+[LINE#61]Many of the proposed approaches for detecting DDoS attacks have been based on these statistical characteristics [3-7].LDDoS attacks are quite different from the traditional flooding-based DDoS attacks as they exploit the vulnerabilities in TCP's congestion control mechanism.
+0.914	[*A*]LDDoS attacks[*R*]are[*A*]quite different from the traditional flooding-based DDoS attacks[*A*]as they exploit the vulnerabilities in TCP's congestion control mechanism	context(Many of the proposed approaches for detecting DDoS attacks have been based)	negated: False ,passive: True
+0.936	[*A*]Many of the proposed approaches for detecting DDoS attacks[*R*]have been based[*A*]on these statistical characteristics	context()	negated: False ,passive: True
+0.658	[*A*]they[*R*]exploit[*A*]the vulnerabilities in TCP's congestion control mechanism	context()	negated: False ,passive: False
+[LINE#62]Instead of sending continuous network traffic, an LDDoS attacker sends periodically pulsing data flows, which may dramatically reduce the average rate of attack flows.
+0.905	[*A*]periodically pulsing data flows[*R*]may dramatically reduce[*A*]the average rate of attack flows	context()	negated: False ,passive: False
+[LINE#63]LDDoS attacks have already been observed in the Internet2 Abilene backbone [8], thus presenting a new challenge to the security of the Internet.
+0.954	[*A*]LDDoS attacks[*R*]have been observed[*A*]in the Internet2 Abilene backbone[*A*]thus presenting a new challenge to the security of the Internet[*A*]already	context()	negated: False ,passive: True
+[LINE#64]When facing large scale LDDoS attacks, existing defense approaches can only detect the presence of the LDDoS attack, but cannot determine whether a particular flow is an attack flow or not.
+0.913	[*A*]a particular flow[*R*]is[*A*]an attack flow or not	context(existing defense approaches can not determine)	negated: False ,passive: True
+0.915	[*A*]existing defense approaches[*R*]can not determine[*A*]whether a particular flow is an attack flow or not	context()	negated: True ,passive: False
+0.935	[*A*]existing defense approaches[*R*]can detect[*A*]the presence of the LDDoS attack[*A*]When facing large scale LDDoS attacks	context()	negated: False ,passive: False
+[LINE#65]In this paper we propose a novel metric "Congestion Participation Rate" (CPR) to identify LDDoS flows.
+0.585	[*A*]we[*R*]propose[*A*]a novel metric "Congestion Participation Rate[*A*]In this paper	context(In this paper we propose a novel metric " Congestion Participation Rate " ( CPR ) to identify LDDoS flows)	negated: False ,passive: False
+0.664	[*A*]In this paper we propose a novel metric "Congestion Participation Rate" (CPR) to identify LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.954	[*A*]a novel metric "Congestion Participation Rate[*R*]to identify[*A*]LDDoS	context()	negated: False ,passive: False
+[LINE#66]The CPR-based approach exploits the fact that LDDoS flows actively induce network congestion whereas normal TCP flows actively avoid network congestion.
+0.933	[*A*]normal TCP flows[*R*]actively avoid[*A*]network congestion	context()	negated: False ,passive: False
+0.855	[*A*]LDDoS[*R*]flows actively induce[*A*]network congestion	context()	negated: False ,passive: False
+0.881	[*A*]The CPR-based approach[*R*]exploits[*A*]the fact that LDDoS flows actively induce network congestion[*A*]whereas normal TCP flows actively avoid network congestion	context()	negated: False ,passive: False
+[LINE#67]That is, normal TCP flows will tend to send fewer packets during network congestion whereas LDDoS flows would not.
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+[LINE#68]The Congestion Participation Rate (CPR) can accurately capture this fundamental difference, and hence allow us to identify LDDoS flows.
+0.887	[*A*]The Congestion[*R*]can accurately capture[*A*]this fundamental difference	context()	negated: False ,passive: False
+[LINE#69]Our contributions are summarized as follows:We propose a novel metric - Congestion Participation Rate (CPR) to identify LDDoS flows by measuring the intention of network flows to congest the network.
+0.843	[*A*]Our contributions are summarized as follows:We propose a novel metric - Congestion Participation Rate (CPR) to identify LDDoS flows by measuring the intention of network[*R*]flows	context()	negated: False ,passive: False
+0.954	[*A*]a novel metric - Congestion Participation Rate[*R*]to identify[*A*]LDDoS	context()	negated: False ,passive: False
+0.590	[*A*]follows:We[*R*]propose[*A*]a novel metric - Congestion Participation Rate	context()	negated: False ,passive: False
+0.773	[*A*]Our contributions[*R*]are summarized[*A*]as follows:We propose a novel metric - Congestion Participation Rate (CPR) to identify LDDoS	context()	negated: False ,passive: True
+[LINE#70]To the best of our knowledge, it is the first metric that could recognize LDDoS flows by quantifying each flow's intention of congesting the network.We propose and implement a CPR-based approach to detect and filter LDDoS attacks.
+0.645	[*A*]the first metric[*R*]could recognize[*A*]LDDoS flows by quantifying each flow 's intention of congesting implement a CPR - based approach to filter LDDoS attacks	context()	negated: False ,passive: False
+0.435	[*A*]it[*R*]is[*A*]the first metric that could recognize LDDoS flows by quantifying each flow 's intention of congesting implement a CPR - based approach to filter LDDoS attacks	context()	negated: False ,passive: True
+0.645	[*A*]the first metric[*R*]could recognize[*A*]LDDoS flows by quantifying each flow 's intention of congesting implement a CPR - based approach	context()	negated: False ,passive: False
+0.435	[*A*]it[*R*]is[*A*]the first metric that could recognize LDDoS flows by quantifying each flow 's intention of congesting implement a CPR - based approach	context()	negated: False ,passive: True
+0.639	[*A*]LDDoS[*R*]flows	context(the first metric could recognize)	negated: False ,passive: False
+0.645	[*A*]the first metric[*R*]could recognize[*A*]LDDoS flows by quantifying each flow 's intention of congesting the network.We propose	context()	negated: False ,passive: False
+0.435	[*A*]it[*R*]is[*A*]the first metric that could recognize LDDoS flows by quantifying each flow 's intention of congesting the network.We propose	context()	negated: False ,passive: True
+[LINE#71]The CPR-based approach is an originality innovation that can effectively identify LDDoS in a per-flow basis in large-scale LDDoS attacks as far as we are concerned.We conduct intensive experiments, including both ns-2 simulations and test-bed experiments, to validate our analytical results and evaluate the performance of the CPR-based approach.
+0.913	[*A*]an originality innovation[*R*]can effectively identify[*A*]LDDoS	context()	negated: False ,passive: False
+0.940	[*A*]The CPR - based approach[*R*]is[*A*]an originality innovation that can effectively identify LDDoS in a per - flow basis in large - scale LDDoS attacks as far evaluate the performance of the CPR - based approach	context()	negated: False ,passive: True
+0.910	[*A*]an originality innovation[*R*]can effectively identify as far[*A*]LDDoS	context()	negated: False ,passive: False
+0.940	[*A*]The CPR - based approach[*R*]is[*A*]an originality innovation that can effectively identify LDDoS in a per - flow basis in large - scale LDDoS attacks as far	context()	negated: False ,passive: True
+[LINE#72]The experimental results demonstrate that the CPR-based approach is effective for all of the LDDoS attacks considered while the existing Discrete Fourier Transform (DFT)-based approach is only effective for a small set of LDDoS attacks.We obtain the trade-off between the detection rate and the false positive rate for the CPR-based approach through a comprehensive set of experiments.
+0.961	[*A*]the existing Discrete Fourier Transform (DFT)-based approach[*R*]is[*A*]only effective for a small set of LDDoS attacks.We	context()	negated: False ,passive: True
+0.803	[*A*]the LDDoS attacks[*R*]considered	context()	negated: False ,passive: False
+0.956	[*A*]the CPR-based approach[*R*]is[*A*]effective for all of the LDDoS attacks	context(The experimental results demonstrate)	negated: False ,passive: True
+0.853	[*A*]The experimental results[*R*]demonstrate[*A*]that the CPR-based approach is effective for all of the LDDoS attacks	context()	negated: False ,passive: False
+[LINE#73]This trade-off provides experimental guidance for choosing a CPR threshold in practice.
+0.918	[*A*]This trade-off[*R*]provides[*A*]experimental guidance for choosing a CPR threshold in practice	context()	negated: False ,passive: False
+[LINE#74]It is worth noting that the CPR-based approach is designed to distinguish between normal TCP flows and LDDoS flows.
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.945	[*A*]the CPR-based approach[*R*]to distinguish[*A*]between normal TCP flows and LDDoS flows	context()	negated: False ,passive: False
+0.435	[*A*]It[*R*]is[*A*]worth noting that the CPR-based approach is designed to distinguish between normal TCP flows and LDDoS flows	context()	negated: False ,passive: True
+[LINE#75]Differentiating normal UDP flows and LDDoS flows will be investigated in future work.
+0.933	[*A*]Differentiating LDDoS flows[*R*]will be investigated[*A*]in future work	context()	negated: False ,passive: True
+0.939	[*A*]Differentiating normal UDP flows[*R*]will be investigated[*A*]in future work	context()	negated: False ,passive: True
+[LINE#76]The LDDoS attacks in this paper, if not declared otherwise, precisely refer to TCP-targeted LDDoS attacks including Shrew attacks [2] and Pulsing DoS (PDoS) attacks [9].
+[LINE#77]The CPR-base approach is also designed to counter TCP-targeted LDDoS attacks [2,9].The rest of the paper is organized as follows.
+0.914	[*A*]The CPR-base approach[*R*]is designed[*A*]to counter TCP-targeted LDDoS attacks	context(The rest of the paper is organized)	negated: False ,passive: True
+0.778	[*A*]The rest of the paper[*R*]is organized[*A*]as follows	context()	negated: False ,passive: True
+0.945	[*A*]The CPR-base approach[*R*]to counter[*A*]TCP-targeted LDDoS attacks	context()	negated: False ,passive: False
+[LINE#78]Section 2 presents the modeling of LDoS attacks and LDDoS attacks.
+0.918	[*A*]Section 2[*R*]presents[*A*]the modeling of LDDoS attacks	context()	negated: False ,passive: False
+0.918	[*A*]Section 2[*R*]presents[*A*]the modeling of LDoS attacks	context()	negated: False ,passive: False
+[LINE#79]Section 3 defines the metric of CPR, describes the CPR-based approach and analyzes the boundaries of average CPR for normal and attack flows.
+0.905	[*A*]Section 3[*R*]describes[*A*]the CPR-based approach	context()	negated: False ,passive: False
+0.918	[*A*]Section 3[*R*]defines[*A*]the metric of CPR	context()	negated: False ,passive: False
+[LINE#80]Intensive experiments based on ns-2 simulations and real network configurations are presented in Sections 4 and 5 respectively.
+0.938	[*A*]Intensive experiments based on real network configurations[*R*]are presented[*A*]in Sections 5[*A*]respectively	context()	negated: False ,passive: True
+0.938	[*A*]Intensive experiments based on real network configurations[*R*]are presented[*A*]in Sections 4[*A*]respectively	context()	negated: False ,passive: True
+0.903	[*A*]Intensive experiments[*R*]based[*A*]on real network configurations	context()	negated: False ,passive: True
+0.943	[*A*]Intensive experiments based on ns - 2 simulations[*R*]are presented[*A*]in Sections 5[*A*]respectively	context()	negated: False ,passive: True
+0.943	[*A*]Intensive experiments based on ns - 2 simulations[*R*]are presented[*A*]in Sections 4[*A*]respectively	context()	negated: False ,passive: True
+0.903	[*A*]Intensive experiments[*R*]based[*A*]on ns - 2 simulations	context()	negated: False ,passive: True
+[LINE#81]Section 6 discusses several important issues related to the deployment of the CPR-based approach.
+0.925	[*A*]several important issues[*R*]related[*A*]to the deployment of the CPR-based approach	context()	negated: False ,passive: True
+0.947	[*A*]Section 6[*R*]discusses[*A*]several important issues related to the deployment of the CPR-based approach	context()	negated: False ,passive: False
+[LINE#82]Section 7 reviews existing work that is directly related to the proposed approach.
+0.913	[*A*]existing work[*R*]is[*A*]directly related to the proposed approach	context()	negated: False ,passive: True
+[LINE#83]Finally we conclude the paper in Section 8.
+0.595	[*A*]we[*R*]conclude[*A*]the paper[*A*]in Section 8[*A*]Finally	context()	negated: False ,passive: False
+[LINE#84]this section we model the LDDoS attacks.
+0.639	[*A*]we[*R*]model[*A*]the LDDoS attacks[*A*]this section	context()	negated: False ,passive: False
+[LINE#85]Our target is to detect and filter LDDoS attack flows.
+0.738	[*A*]Our target[*R*]is[*A*]to filter LDDoS attack flows	context()	negated: False ,passive: True
+0.452	[*A*]Our target[*R*]is[*A*]to detect	context()	negated: False ,passive: True
+[LINE#86]A flow is uniquely determined by a 5-tuple (Source IP, Source Port, Destination IP, Destination Port, Protocol).
+0.947	[*A*]A flow[*R*]is uniquely determined[*A*]by a 5-tuple (Source IP, Source Port, Destination IP, Destination Port, Protocol	context()	negated: False ,passive: True
+[LINE#87] We use four parameters (Ta,Tb,Rb,s) to describe an LDoS attack flow, where Tais the LDoS attack period, Tb is the LDoS attack burst width (or pulsing width), Rb is the LDoS attack burst rate (or pulsing rate), and sis the starting time of the attack flow (see Fig..
+0.938	[*A*]Tb[*R*]is[*A*]the LDoS attack burst width ( , Rb is pulsing rate	context()	negated: False ,passive: True
+0.904	[*A*]Rb[*R*]is[*A*]the LDoS attack burst rate	context()	negated: False ,passive: True
+0.904	[*A*]Tb[*R*]is[*A*]the LDoS attack burst width	context()	negated: False ,passive: True
+0.498	[*A*]We[*R*]use[*A*]four parameters[*A*]to describe an LDoS attack flow	context()	negated: False ,passive: False
+0.678	[*A*]We[*R*]sis[*A*]the starting time of the attack flow ( see Fig	context()	negated: False ,passive: False
+[LINE#88]LDDoS attack consists of multiple LDoS attack flows, F1,F2,  Fn, that may originate from different machines distributed on the Internet.
+0.903	[*A*]different machines[*R*]distributed[*A*]on the Internet	context()	negated: False ,passive: True
+0.922	[*A*]multiple LDoS attack flows, F1,F2,  Fn[*R*]may originate[*A*]from different machines	context()	negated: False ,passive: False
+0.947	[*A*]LDDoS attack[*R*]consists[*A*]of multiple LDoS attack flows, F1,F2,  Fn	context()	negated: False ,passive: True
+[LINE#89] Assuming that Ta,Tb, and Rb are identical for every LDoS flow.
+[LINE#90] Fi, we define an LDDoS flow group as a set of attack flows that have the same starting times. The starting time of an LDDoS flow group is just the starting time of each flow in the group.
+0.108	[*A*]that[*R*]have[*A*]the same starting times	context(we define)	negated: False ,passive: False
+0.433	[*A*]we[*R*]define[*A*]an LDDoS flow group[*A*]as a set of attack	context()	negated: False ,passive: False
+[LINE#91]We assume that the starting gap between consecutive LDDoS flow groups remains constant in an LDDoS attack.
+0.956	[*A*]the starting gap between consecutive LDDoS flow groups[*R*]remains[*A*]constant[*A*]in an LDDoS attack	context(We assume)	negated: False ,passive: True
+0.317	[*A*]We[*R*]assume[*A*]that the starting gap between consecutive LDDoS flow groups remains constant in an LDDoS attack	context()	negated: False ,passive: False
+[LINE#92]For example, in Fig. 2, sg1 represents the starting gap between LDDoS flow groups 1 and 2, and sg2 represents the starting gap between LDDoS flow groups 2 and 3.
+0.840	[*A*]sg2[*R*]represents[*A*]the starting gap between LDDoS flow groups 3	context()	negated: False ,passive: False
+0.840	[*A*]sg2[*R*]represents[*A*]the starting gap between LDDoS flow groups 2	context()	negated: False ,passive: False
+0.903	[*A*]sg1[*R*]represents[*A*]the starting gap between LDDoS flow groups[*A*]in Fig . 2	context()	negated: False ,passive: False
+[LINE#93]Our assumption corresponds to that both sg1 and sg2 are equal to a constant in an LDDoS attack.
+0.385	[*A*]that sg2[*R*]are equal to[*A*]a constant	context()	negated: False ,passive: False
+0.425	[*A*]sg2[*R*]are[*A*]equal to a constant in an LDDoS attack	context()	negated: False ,passive: True
+0.185	[*A*]Our assumption[*R*]corresponds[*A*]to that	context()	negated: False ,passive: True
+0.385	[*A*]that both sg1[*R*]are equal to[*A*]a constant	context()	negated: False ,passive: False
+[LINE#94]This starting gap is denoted as .
+0.783	[*A*]This starting gap[*R*]is denoted[*A*]as	context()	negated: False ,passive: True
+[LINE#95]We further assume that each group has an identical number, m, of flows.
+0.905	[*A*]each group[*R*]has[*A*]an identical number, m, of flows	context(We assume)	negated: False ,passive: False
+0.239	[*A*]We[*R*]assume[*A*]that each group has an identical number, m, of flows	context()	negated: False ,passive: False
+[LINE#96]Based on the definition and assumption above, we describe an LDDoS attack using four parameters (n,g,m,), where n is the total number of flows in the attack, g is the number of attack flow groups, and m is the number of members in an LDDoS flow group.
+0.443	[*A*]we[*R*]describe[*A*]an LDDoS attack	context(g is)	negated: False ,passive: False
+0.822	[*A*]g[*R*]is[*A*]the number of attack flow groups	context()	negated: False ,passive: True
+0.874	[*A*]m[*R*]is[*A*]the number of members in an LDDoS flow group	context()	negated: False ,passive: True
+0.957	[*A*]an LDDoS attack[*R*]using[*A*]four parameters (n,g,m,), where n is the total number of flows in the attack	context()	negated: False ,passive: False
+[LINE#97]=mg based on the above assumptions.
+[LINE#98]It is worth noting that the aforementioned assumption only eases the classification of LDDoS attacks and is not required by our detection system.
+0.258	[*A*]It[*R*]is[*A*]worth noting that the aforementioned assumption is not required by our detection system	context()	negated: False ,passive: True
+0.435	[*A*]It[*R*]is[*A*]worth noting that the aforementioned assumption only eases the classification of LDDoS attacks	context()	negated: False ,passive: True
+[LINE#99] Based on these assumptions and definitions, we classify LDDoS attacks into four categories (Fig. 3), according to how the three characteristics Ta,Tb, and.
+0.498	[*A*]we[*R*]classify[*A*]LDDoS attacks[*A*]into four categories[*A*]according to	context()	negated: False ,passive: False
+[LINE#100]Rb are being distributed among multiple flows in an LDDoS attack.
+0.840	[*A*]Rb[*R*]are being distributed[*A*]among multiple flows in an LDDoS attack	context()	negated: False ,passive: True
+[LINE#101] Although our classification is by no means complete, it is enough for us to analyze the characteristics of the LDDoS attacks and to conduct experiments to evaluate our approach.1.Attack Frequency Intensification (AFI) LDDoS attack(n>0, g=n, m=1, .
+0.264	[*A*]us[*R*]to conduct experiments to evaluate[*A*]our approach.1.Attack	context(us to conduct)	negated: False ,passive: False
+0.397	[*A*]us[*R*]to conduct[*A*]experiments	context()	negated: False ,passive: False
+0.498	[*A*]us[*R*]to analyze[*A*]the characteristics of the LDDoS attacks	context()	negated: False ,passive: False
+0.278	[*A*]it[*R*]is[*A*]enough	context()	negated: False ,passive: True
+0.632	[*A*]our classification[*R*]is complete[*A*]by no means	context()	negated: False ,passive: True
+[LINE#102]Ta/g)The first category represents the LDDoS attacks whose aggregate attack period is equally distributed among n flows.
+0.806	[*A*]the LDDoS attacks[*R*]is equally distributed[*A*]among n flows	context()	negated: False ,passive: True
+0.925	[*A*]The first category[*R*]represents[*A*]the LDDoS attacks	context()	negated: False ,passive: False
+[LINE#103] The attack frequency of the aggregate flow is intensified by n times, compared to the frequency of each attack flow.2.Attack burst Width Intensification (AWI) LDDoS attack(n>0, g=n, m=1, second category corresponds to the case when the aggregate burst width of an LDDoS attack is equally distributed among n flows.
+0.959	[*A*]The attack frequency of the aggregate flow[*R*]is intensified[*A*]by n times[*A*]compared to the frequency of each attack flow.2.Attack burst Width Intensification (AWI) LDDoS attack	context(second category corresponds)	negated: False ,passive: True
+0.882	[*A*]second category[*R*]corresponds[*A*]to the case	context()	negated: False ,passive: True
+0.888	[*A*]the aggregate burst width of an LDDoS attack[*R*]is equally distributed[*A*]among n flows	context()	negated: False ,passive: True
+[LINE#104]An attack burst of a flow is immediately followed by a burst from another flow.
+0.941	[*A*]An attack burst of a flow[*R*]is followed[*A*]by a burst from another flow[*A*]immediately	context()	negated: False ,passive: True
+[LINE#105] In this case, the attack burst width of the aggregate attack flow is intensified by ntimes.3.Attack burst Rate Intensification (ARI) LDDoS attack(n>0, g=1, m=n, =0)The third category describes the LDDoS attacks in which n flows start at the same time, and the burst rate of the aggregate attack flow is intensified n times.4.Mixed Intensification (MI).
+0.830	[*A*]the burst rate of the aggregate attack flow[*R*]is intensified	context()	negated: False ,passive: False
+0.929	[*A*]the LDDoS attacks[*R*]n flows[*A*]at the same time	context()	negated: False ,passive: True
+0.925	[*A*]The third category[*R*]describes[*A*]the LDDoS attacks	context()	negated: False ,passive: False
+0.975	[*A*]the attack burst width of the aggregate attack flow[*R*]is intensified[*A*]by ntimes.3.Attack burst Rate Intensification[*A*]In this case	context()	negated: False ,passive: True
+[LINE#106]LDDoS attack(n>0, g>1, m>1, 0)The last category can be considered as the combination of the previous three.
+[LINE#107]Let Ta,Tb, and Rb be the parameters for a single attack flow, and Ta+,Tb+, and Rb+ be the parameters for the aggregate flow of an LDDoS attack.
+0.979	[*A*]Ta+,Tb+, and Rb+[*R*]be[*A*]the parameters for the aggregate flow of an LDDoS attack	context()	negated: False ,passive: True
+[LINE#108]Table 1 demonstrates the relationship between Ta+,Tb+,Rb+, and Ta,Tb,Rb.
+0.718	[*A*]Table 1[*R*]demonstrates[*A*]the relationship between Ta+,Tb+,Rb+, and Ta,Tb	context()	negated: False ,passive: False
+[LINE#109] Real network and internet trace experimentsIn addition to the simulation conducted using ns-2 , we set up a test-bed shown in Fig.16 to further evaluate the performance of the CPR-based approach.
+0.333	[*A*]we[*R*]set up a test-bed shown in Fig.16 to evaluate[*A*]the performance of the CPR-based approach	context(we set up)	negated: False ,passive: False
+0.550	[*A*]we[*R*]set up[*A*]a test-bed shown in Fig.16[*A*]to further evaluate the performance of the CPR-based approach	context()	negated: False ,passive: False
+0.937	[*A*]a test-bed[*R*]shown[*A*]in Fig.16	context()	negated: False ,passive: True
+0.955	[*A*]Real network and internet trace experimentsIn addition to the simulation[*R*]conducted[*A*]using ns-2 , we set up a test-bed shown in Fig.16 to further evaluate the performance of the CPR-based approach	context()	negated: False ,passive: False
+[LINE#110]Entities in the test-bed are all PCs, whose function, OS and installed software are listed in Table 5.
+0.917	[*A*]Entities in the test - bed[*R*]are[*A*]all[*A*]PCs	context(installed software are listed)	negated: False ,passive: True
+0.900	[*A*]installed software[*R*]are listed[*A*]in Table 5	context()	negated: False ,passive: True
+0.877	[*A*]OS[*R*]are listed[*A*]in Table 5	context()	negated: False ,passive: True
+0.943	[*A*]Entities in the test - bed[*R*]are[*A*]all[*A*]PCs , OS are listed in Table 5	context()	negated: False ,passive: True
+0.816	[*A*]PCs[*R*]are listed[*A*]in Table 5	context()	negated: False ,passive: True
+0.943	[*A*]Entities in the test - bed[*R*]are[*A*]all[*A*]PCs , whose function are listed in Table 5	context()	negated: False ,passive: True
+[LINE#111]In the test-bed experiments, normal TCP flows include short-lived TCP (e.g., SSH) and long-lived TCP (e.g., FTP).
+0.968	[*A*]normal TCP flows[*R*]include[*A*]short - long - lived TCP[*A*]In the test - bed experiments	context()	negated: False ,passive: True
+0.968	[*A*]normal TCP flows[*R*]include[*A*]short - lived TCP[*A*]In the test - bed experiments	context()	negated: False ,passive: True
+[LINE#112]We use these two kinds of TCP flows to represent the mixed TCP traffic on the real network.
+0.433	[*A*]We[*R*]use these two kinds of TCP flows to represent[*A*]the mixed TCP traffic on the real network	context(We use)	negated: False ,passive: False
+0.550	[*A*]We[*R*]use[*A*]these two kinds of TCP flows[*A*]to represent the mixed TCP traffic on the real network	context()	negated: False ,passive: False
+[LINE#113]We modify the TFN2K [20], a well-known DDoS attack tool, to label its attack flows by the ID field in the IP header.
+0.463	[*A*]We[*R*]modify[*A*]the TFN2K[*A*]to label its attack flows by the ID field in the IP header	context()	negated: False ,passive: False
+[LINE#114]We also add LDDoS attack function to the TFN2K and correct its header-checksum algorithm.
+0.526	[*A*]We[*R*]add[*A*]LDDoS attack function[*A*]to the TFN2K	context()	negated: False ,passive: False
+[LINE#115] We name the refined program as TFN2K4R(Tribe Flood Network 2000 For Research).
+0.498	[*A*]We[*R*]name[*A*]the refined program as TFN2K4R	context()	negated: False ,passive: False
+[LINE#116]TF2K4R is used to generate labeled LDDoS traffic.
+0.921	[*A*]TF2K4R[*R*]to generate[*A*]labeled LDDoS traffic	context()	negated: False ,passive: False
+0.932	[*A*]TF2K4R[*R*]is used[*A*]to generate labeled LDDoS traffic	context()	negated: False ,passive: True
+[LINE#117]The labels are used to verify the detection rate of our CPR-based approach.
+0.810	[*A*]The labels[*R*]to verify[*A*]the detection rate of our CPR-based approach	context()	negated: False ,passive: False
+0.890	[*A*]The labels[*R*]are used[*A*]to verify the detection rate of our CPR-based approach	context()	negated: False ,passive: True
+[LINE#118]In the experiments User1 and User2 use FTP (long-live TCP flows) to upload a 32MB file to Server while User3 and User4 use SCP (short-lived TCP flows) to transfer 50 copies of a 0.5MB file to Server.
+0.957	[*A*]User4[*R*]use[*A*]SCP ( short - lived TCP flows[*A*]to transfer 50 copies of a 0.5MB file to Server	context()	negated: False ,passive: False
+0.957	[*A*]User3[*R*]use[*A*]SCP ( short - lived TCP flows[*A*]to transfer 50 copies of a 0.5MB file to Server	context()	negated: False ,passive: False
+0.973	[*A*]long - live TCP[*R*]flows[*A*]In User2 use FTP	context()	negated: False ,passive: True
+0.874	[*A*]User4[*R*]use SCP to transfer[*A*]50 copies of a 0.5MB file[*A*]to Server	context(User4 use)	negated: False ,passive: False
+0.945	[*A*]User4[*R*]use[*A*]SCP[*A*]to transfer 50 copies of a 0.5MB file to Server	context()	negated: False ,passive: False
+0.857	[*A*]short - lived TCP[*R*]flows	context()	negated: False ,passive: False
+0.874	[*A*]User3[*R*]use SCP to transfer[*A*]50 copies of a 0.5MB file[*A*]to Server	context(User3 use)	negated: False ,passive: False
+0.945	[*A*]User3[*R*]use[*A*]SCP[*A*]to transfer 50 copies of a 0.5MB file to Server	context()	negated: False ,passive: False
+0.857	[*A*]long - live TCP[*R*]flows	context()	negated: False ,passive: False
+[LINE#119]For the attack, we fix the first six parameters in the 7-tuple (n,g,m,,Ta,Tb,Rb) and vary the last parameter Rb.
+0.522	[*A*]we[*R*]fix[*A*]the first six parameters in	context()	negated: False ,passive: False
+0.522	[*A*]we[*R*]fix[*A*]the first six parameters in the 7 - tuple	context()	negated: False ,passive: False
+[LINE#120]The first six parameters are fixed as n=4, g=1, m=4, =0,Ta=1s, and Tb=200ms.
+0.992	[*A*]six parameters[*R*]are fixed as[*A*]Tb=200 ms	context()	negated: False ,passive: False
+0.931	[*A*]The first six parameters[*R*]are fixed[*A*]as Ta=1 s	context()	negated: False ,passive: True
+0.992	[*A*]six parameters[*R*]are fixed as[*A*]=0	context()	negated: False ,passive: False
+0.992	[*A*]six parameters[*R*]are fixed as[*A*]m=4	context()	negated: False ,passive: False
+0.992	[*A*]six parameters[*R*]are fixed as[*A*]g=1	context()	negated: False ,passive: False
+0.992	[*A*]six parameters[*R*]are fixed as[*A*]n=4	context()	negated: False ,passive: False
+0.769	[*A*]The first six parameters[*R*]are fixed	context()	negated: False ,passive: False
+[LINE#121]The setting of these fixed parameters means that four attackers each simultaneously start an LDoS attack (Ta=1s,Tb=200ms,Rb,s=5s).
+0.957	[*A*]four attackers[*R*]start[*A*]an LDoS attack[*A*]simultaneously	context()	negated: False ,passive: False
+0.801	[*A*]The setting of these fixed parameters[*R*]means	context()	negated: False ,passive: False
+[LINE#122]A total of three experiments are conducted, each with a different Rb.
+0.785	[*A*]A total of three experiments[*R*]are conducted	context()	negated: False ,passive: False
+[LINE#123] Table 6 presents the average CPR for different flows, where FTP is the average CPR for long-lived FTP flows (User1 and User2), SCP is the average CPR for short-lived SCP flows (User3 and User4), and LDDoS is the average CPR for LDDoS flows.TCPeis the estimated average CPR of normal TCP flows calculated using (6) and LDDoSe is the estimated average CPR of LDDoS flows calculated using (9).
+0.904	[*A*]LDDoS[*R*]is[*A*]the average CPR for LDDoS flows.TCPeis	context()	negated: False ,passive: True
+0.948	[*A*]LDDoSe[*R*]is[*A*]the estimated average CPR of LDDoS	context()	negated: False ,passive: True
+0.923	[*A*]SCP[*R*]is[*A*]the average CPR for short-lived SCP flows (User3 and User4), and LDDoS is the average CPR for LDDoS flows.TCPeis the estimated average CPR of normal TCP flows calculated using (6) and LDDoSe is the estimated average CPR of LDDoS flows calculated	context()	negated: False ,passive: True
+0.904	[*A*]FTP[*R*]is[*A*]the average CPR for long-lived FTP	context()	negated: False ,passive: True
+[LINE#124]DIFe is the estimated average CPR difference between normal TCP flows and LDDoS flows, which equals to LDDoSe-TCPe.
+0.928	[*A*]LDDoS flows[*R*]equals[*A*]to LDDoSe-TCPe	context()	negated: False ,passive: True
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.967	[*A*]DIFe[*R*]is[*A*]the estimated average CPR difference between normal TCP flows and LDDoS flows	context()	negated: False ,passive: True
+[LINE#125]Table 6 shows a clear difference between the average CPR of LDDoS flows (LDDoS) and normal TCP flows (FTP and SCP).
+0.627	[*A*]Table 6[*R*]shows[*A*]a clear difference between the average CPR of LDDoS	context()	negated: False ,passive: False
+[LINE#126]It is also noticeable that the calculated TCPe and LDDoSe are quite close to the measured CPR (FTP,SCP and LDDoS), which indicates that our analysis in Section 3.3 is reasonable.
+0.459	[*A*]our analysis in Section 3.3[*R*]is[*A*]reasonable	context(the measured CPR indicates)	negated: False ,passive: True
+0.459	[*A*]our analysis in Section 3.3[*R*]is[*A*]reasonable	context(the measured CPR indicates)	negated: False ,passive: True
+0.914	[*A*]LDDoSe[*R*]are[*A*]quite close to the measured CPR	context(It is)	negated: False ,passive: True
+0.270	[*A*]It[*R*]is[*A*]also[*A*]noticeable[*A*]that LDDoSe are quite close to the measured CPR	context()	negated: False ,passive: True
+0.459	[*A*]our analysis in Section 3.3[*R*]is[*A*]reasonable	context(the measured CPR indicates)	negated: False ,passive: True
+0.459	[*A*]our analysis in Section 3.3[*R*]is[*A*]reasonable	context(the measured CPR indicates)	negated: False ,passive: True
+0.642	[*A*]the measured CPR[*R*]indicates[*A*]that our analysis in Section 3.3 is reasonable	context()	negated: False ,passive: False
+0.928	[*A*]the calculated TCPe[*R*]are[*A*]quite close to the measured CPR	context(It is)	negated: False ,passive: True
+0.229	[*A*]It[*R*]is[*A*]also[*A*]noticeable	context()	negated: False ,passive: True
+[LINE#127]We further use real Internet traffic to validate our CPR-based approach.
+0.259	[*A*]We[*R*]use real Internet traffic to validate[*A*]our CPR-based approach	context(We use)	negated: False ,passive: False
+0.259	[*A*]We[*R*]use[*A*]real Internet traffic[*A*]to validate our CPR-based approach	context()	negated: False ,passive: False
+[LINE#128]The LBNL/ICSI Enterprise Trace [21] is collected at a medium-sized enterprise site - one of the most possible places to install our approach.
+0.928	[*A*]The LBNL/ICSI Enterprise Trace[*R*]is collected[*A*]at a medium-sized enterprise site - one of the most possible places	context()	negated: False ,passive: True
+[LINE#129]We use (6) to estimate the average CPR of the TCP flows contained in the traces.
+0.885	[*A*]the average CPR of the TCP[*R*]flows contained[*A*]in the traces	context(We use to estimate)	negated: False ,passive: True
+0.454	[*A*]We[*R*]use to estimate[*A*]the average CPR of the TCP flows contained in the traces	context(We use)	negated: False ,passive: False
+0.515	[*A*]We[*R*]use[*A*]to estimate the average CPR of the TCP flows contained in the traces	context()	negated: False ,passive: False
+[LINE#130]The collected trace did not record dropped packets, thus we cannot calculate the drop-packet-ratio rTCP needed in (6).
+0.842	[*A*]the drop-packet-ratio rTCP[*R*]needed[*A*]in (6	context()	negated: False ,passive: True
+0.569	[*A*]we[*R*]can not calculate[*A*]the drop-packet-ratio rTCP needed in (6)	context()	negated: True ,passive: False
+0.911	[*A*]The collected trace[*R*]did not record[*A*]dropped packets	context()	negated: True ,passive: False
+[LINE#131]Instead, we use the out-of-sequence packets [22] to approximate rTCP.
+0.498	[*A*]we[*R*]use[*A*]the out-of-sequence packets[*A*]to approximate rTCP	context()	negated: False ,passive: False
+[LINE#132]The average CPR of the normal TCP flows for the three traces selected from [21] are 0.93%, 0.77%, and 0.70%, respectively.
+0.959	[*A*]The average CPR of the normal TCP flows for the three traces[*R*]are[*A*]0.93%, 0.77%, and 0.70%, respectively	context()	negated: False ,passive: True
+0.783	[*A*]the three traces[*R*]selected[*A*]from [21	context()	negated: False ,passive: True
+[LINE#133]This is because the traces were collected when the network was not congested (the ratio of out-of-sequence packet is very small) and their CPR values tend to be zero.
+0.367	[*A*]their CPR values[*R*]to be[*A*]zero	context()	negated: False ,passive: True
+0.476	[*A*]their CPR values[*R*]tend[*A*]to be zero	context()	negated: False ,passive: True
+0.732	[*A*]the traces[*R*]were collected	context()	negated: False ,passive: False
+0.415	[*A*]This[*R*]is[*A*]because the traces were collected their CPR values tend to be zero	context()	negated: False ,passive: True
+0.895	[*A*]the ratio of out - of - sequence packet[*R*]is[*A*]very small	context()	negated: False ,passive: True
+0.732	[*A*]the network[*R*]was not congested	context()	negated: True ,passive: False
+0.937	[*A*]the traces[*R*]were collected[*A*]when the network was not congested ( the ratio of out - of - sequence packet is very small	context()	negated: False ,passive: True
+0.567	[*A*]This[*R*]is[*A*]because the traces were collected when the network was not congested ( the ratio of out - of - sequence packet is very small )	context()	negated: False ,passive: True
+[LINE#134]Since currently there is no LDDoS attack trace publically available, using real attack traffic to validate our CPR-based approach remains one of our future work.
+0.756	[*A*]using real attack traffic to validate our CPR-based approach[*R*]remains[*A*]one of our future work	context()	negated: False ,passive: True
+[LINE#135]Related workLDoS attacks were proposed by Kuzmanovic [2] in 2003, which were also called shrew [2] attacks and Pulsing DoS (PDoS) attacks [9].
+0.925	[*A*]Related workLDoS attacks[*R*]were proposed[*A*]by Kuzmanovic [ 2[*A*]in 2003	context()	negated: False ,passive: True
+[LINE#136]LDDoS attacks are LDoS attacks that are launched from hosts distributed on the Internet.
+0.813	[*A*]hosts[*R*]distributed[*A*]on the Internet	context()	negated: False ,passive: True
+0.914	[*A*]LDoS attacks[*R*]are launched[*A*]from hosts	context()	negated: False ,passive: True
+0.918	[*A*]LDDoS attacks[*R*]are[*A*]LDoS attacks	context()	negated: False ,passive: True
+[LINE#137] Since LDoS was initially proposed in [2],a series of variants of LDoS attacks have been discussed, including:Reduction of Quality (RoQ) attacks [39] that exploit the performance vulnerability during a system's adaptation process.
+0.993	[*A*]LDoS[*R*]was proposed in[*A*]2	context()	negated: False ,passive: False
+0.934	[*A*]Quality (RoQ) attacks[*R*]exploit[*A*]the performance vulnerability[*A*]during a system's adaptation process	context()	negated: False ,passive: False
+0.708	[*A*]LDoS[*R*]was proposed[*A*]in [2[*A*]initially	context()	negated: False ,passive: True
+[LINE#138] RoQ attacks could dramatically reduce the service quality of a network element, or deprive it of a large amount of its capacity, by only occupying a small fraction of its capacity [39].LDoS attacks targeting application servers (LoRDAS attacks).
+0.991	[*A*]39 ].ldos attacks[*R*]could reduce[*A*]the service quality of a network element	context()	negated: False ,passive: False
+0.927	[*A*]LDoS attacks[*R*]targeting[*A*]application servers	context()	negated: False ,passive: False
+0.927	[*A*]RoQ attacks[*R*]could dramatically reduce[*A*]the service quality of a network element	context()	negated: False ,passive: False
+[LINE#139]LoRDAS attacks can reduce the availability of an application server in a controlled manner by generating pulsing service request, using only low-rate traffic.
+0.937	[*A*]LoRDAS attacks[*R*]can reduce[*A*]the availability of an application server in a controlled manner[*A*]by generating pulsing service request[*A*]using only low-rate traffic	context()	negated: False ,passive: False
+[LINE#140]These LDoS variants are not directly addressable by the CPR-based approach proposed in this paper.
+0.944	[*A*]the CPR-based approach[*R*]proposed[*A*]in this paper	context()	negated: False ,passive: True
+0.944	[*A*]These LDoS variants[*R*]are not[*A*]directly addressable by the CPR-based approach	context()	negated: True ,passive: True
+[LINE#141]Adopting the CPR-based approach to address these new variants is part of our future work.
+0.893	[*A*]Adopting the CPR-based approach[*R*]is[*A*]part of our future work	context()	negated: False ,passive: True
+[LINE#142]Presently approaches to detect and filter LDoS attacks mainly consider two characteristics of LDoS attacks.
+[LINE#143]One is the pulsing high rate characteristic and the other is the periodical characteristic.
+0.636	[*A*]the other[*R*]is[*A*]the periodical characteristic	context()	negated: False ,passive: True
+0.613	[*A*]One[*R*]is[*A*]the pulsing high rate characteristic	context()	negated: False ,passive: True
+[LINE#144][23] proposed approaches that explore the pulsing high rate characteristic of LDoS attacks.
+0.920	[*A*]23] proposed approaches[*R*]explore[*A*]the pulsing high rate characteristic of LDoS attacks	context()	negated: False ,passive: False
+[LINE#145](AQM) mechanisms (such as SRED [41]) were used to mitigate LDoS attacks.
+0.915	[*A*]AQM) mechanisms (such as SRED[*R*]to mitigate[*A*]LDoS attacks	context()	negated: False ,passive: False
+0.915	[*A*]AQM) mechanisms (such as SRED[*R*]were used[*A*]to mitigate LDoS attacks	context()	negated: False ,passive: True
+[LINE#146]Their approaches were easy to deploy and effective at improving the performance of normal TCP flows in the presence of LDoS attacks.
+0.773	[*A*]Their approaches[*R*]were[*A*]easy to deploy flows in the presence of LDoS attacks	context()	negated: False ,passive: True
+[LINE#147]However, the adaptive mechanisms in AQM algorithms are also targets of LDoS attacks.
+0.957	[*A*]the adaptive mechanisms in AQM algorithms[*R*]are[*A*]also[*A*]targets of LDoS attacks	context()	negated: False ,passive: True
+[LINE#148] RED-like algorithms [11,36,42], as typical representatives of AQM algorithms, have already been found to be considerably vulnerable to LDoS attacks [37,38].Shevtekar [24]proposed an approach based on the traffic anomaly of all the expired flows to detect LDoS attacks, considering the pulsing (short-lived) characteristic of the LDoS attacks.
+0.949	[*A*]Shevtekar[*R*]proposed[*A*]an approach based on the traffic anomaly of all the expired flows to detect LDoS attacks, considering the pulsing (short-lived) characteristic of the LDoS attacks	context()	negated: False ,passive: False
+0.920	[*A*]RED-like algorithms[*R*]to be[*A*]considerably vulnerable to LDoS attacks	context()	negated: False ,passive: True
+0.766	[*A*]RED-like algorithms[*R*]have been found[*A*]already	context()	negated: False ,passive: True
+[LINE#149]This approach has the capability to detect LDoS attacks even when the source and destination IP addresses are spoofed.
+0.769	[*A*]the destination IP addresses[*R*]are spoofed	context()	negated: False ,passive: False
+0.769	[*A*]the source IP addresses[*R*]are spoofed	context()	negated: False ,passive: False
+0.937	[*A*]This approach[*R*]has[*A*]the capability to detect LDoS attacks	context()	negated: False ,passive: False
+[LINE#150]Unfortunately it only identifies the presence of attacks, and not the identity of the attack flows.
+0.411	[*A*]it[*R*]identifies[*A*]the presence of attacks	context()	negated: False ,passive: False
+[LINE#151]Sun's approach [25] based on Dynamic Time Warping (DTW) examined the periodical characteristic of LDoS attacks.
+0.968	[*A*]Sun's approach [25] based on Dynamic Time Warping[*R*]examined[*A*]the periodical characteristic of LDoS attacks	context()	negated: False ,passive: False
+[LINE#152]This approach can detect LDoS attacks that employ variable attack pulsing periods.
+0.914	[*A*]LDoS attacks[*R*]employ[*A*]variable attack pulsing periods	context()	negated: False ,passive: False
+0.918	[*A*]This approach[*R*]can detect[*A*]LDoS attacks	context()	negated: False ,passive: False
+[LINE#153]However, since this DTW-based approach used the similarity between real-time LDoS flows and the sampled LDoS flows, it is only effective for the aggregate flow of LDDoS attacks.
+0.568	[*A*]it[*R*]is[*A*]only effective for the aggregate flow of LDDoS attacks	context()	negated: False ,passive: True
+0.844	[*A*]the sampled LDoS[*R*]flows	context()	negated: False ,passive: False
+0.970	[*A*]this DTW-based approach[*R*]used[*A*]the similarity between real-time LDoS flows and the sampled LDoS flows	context()	negated: False ,passive: False
+[LINE#154]In other words, it can only detect the presence of an LDDoS attack, but fails to identify whether a given flow is an LDDoS flow or not.
+0.573	[*A*]it[*R*]fails[*A*]to identify whether a given flow is an LDDoS flow or not	context()	negated: False ,passive: True
+0.393	[*A*]it[*R*]can detect[*A*]the presence of an LDDoS attack	context()	negated: False ,passive: False
+[LINE#155]Discrete Fourier Transform (DFT)-based approaches proposed by Chen [18] and Wei [26] consider both the periodical characteristic and the pulsing high rate characteristic of LDoS attacks.
+0.918	[*A*]based approaches[*R*]proposed[*A*]by Chen Wei	context()	negated: False ,passive: True
+0.934	[*A*]Discrete Fourier Transform[*R*]consider[*A*]both the pulsing high rate characteristic of LDoS attacks	context()	negated: False ,passive: False
+0.922	[*A*]Discrete Fourier Transform[*R*]consider[*A*]both the periodical characteristic	context()	negated: False ,passive: False
+0.918	[*A*]based approaches[*R*]proposed[*A*]by Chen	context()	negated: False ,passive: True
+[LINE#156]They explore the difference between the traffic spectrum of attack flows and that of normal flows.
+0.484	[*A*]They[*R*]explore[*A*]the difference between the traffic spectrum of attack flows and that of normal flows	context()	negated: False ,passive: False
+[LINE#157]DFT-based approaches are considered to be one of the most efficient approaches in detecting LDoS attacks.
+0.962	[*A*]DFT-based approaches[*R*]to be[*A*]one of the most efficient approaches in detecting LDoS attacks	context()	negated: False ,passive: True
+[LINE#158]However, they have difficulties in identifying single flows in large-scale LDDoS attacks.
+0.446	[*A*]they[*R*]have in identifying[*A*]single flows	context(they have)	negated: False ,passive: False
+0.704	[*A*]they[*R*]have[*A*]difficulties in identifying single flows in large-scale LDDoS attacks	context()	negated: False ,passive: False
+[LINE#159]Luo [9] proposed an approach based on wavelet transform after considering the influence of LDoS attacks on the input TCP data traffic and output TCP ACK traffic.
+0.947	[*A*]an approach[*R*]based[*A*]on wavelet transform after considering the influence of LDoS attacks on the input output TCP ACK traffic	context()	negated: False ,passive: True
+0.958	[*A*]Luo [ 9[*R*]proposed[*A*]an approach based on wavelet transform after considering the influence of LDoS attacks on the input output TCP ACK traffic	context()	negated: False ,passive: False
+0.947	[*A*]an approach[*R*]based[*A*]on wavelet transform after considering the influence of LDoS attacks on the input TCP data traffic TCP ACK traffic	context()	negated: False ,passive: True
+0.958	[*A*]Luo [ 9[*R*]proposed[*A*]an approach based on wavelet transform after considering the influence of LDoS attacks on the input TCP data traffic TCP ACK traffic	context()	negated: False ,passive: False
+[LINE#160]This approach considers both the attack flows' characteristics and their influence on network traffic.
+0.867	[*A*]This approach[*R*]considers[*A*]both the attack flows ' their influence on network traffic	context()	negated: False ,passive: False
+0.744	[*A*]the attack[*R*]flows	context(This approach considers)	negated: False ,passive: False
+0.882	[*A*]This approach[*R*]considers[*A*]both the attack flows ' characteristics	context()	negated: False ,passive: False
+[LINE#161]An extension to this approach is their Vanguard detection system that employs more metrics to detect various LDoS attacks [43].
+0.747	[*A*]their Vanguard detection system[*R*]employs[*A*]more metrics[*A*]to detect various LDoS attacks	context()	negated: False ,passive: False
+0.915	[*A*]An extension to this approach[*R*]is[*A*]their Vanguard detection system	context()	negated: False ,passive: True
+[LINE#162]These approaches are both limited by their ability to only detect the aggregate flow of an LDDoS attack.
+0.767	[*A*]These approaches[*R*]are limited[*A*]by their ability	context()	negated: False ,passive: True
+[LINE#163]The Shrew Attack Protection (SAP) mechanism.[44] mitigates the LDoS attack by giving priority to flows with high packet loss rate.
+0.940	[*A*]The Shrew Attack Protection (SAP) mechanism.[44[*R*]mitigates[*A*]the LDoS attack	context()	negated: False ,passive: False
+[LINE#164]While SAP can maintain high throughput for TCP flows under certain LDoS attacks and always prevent TCP sessions from closing, it has obvious performance degradation when the attack uses the ports protected by SAP.The generalized entropy metric and the information distance metric were proposed in [45] to detect LDDoS attacks.
+0.864	[*A*]SAP[*R*]can maintain high throughput prevent[*A*]TCP sessions[*A*]from closing[*A*]always	context(SAP can maintain)	negated: False ,passive: False
+0.820	[*A*]SAP[*R*]can maintain[*A*]high throughput	context()	negated: False ,passive: False
+0.951	[*A*]high throughput for TCP[*R*]flows[*A*]under certain LDoS attacks	context(it has)	negated: False ,passive: True
+0.467	[*A*]it[*R*]has[*A*]obvious performance degradation	context()	negated: False ,passive: False
+0.931	[*A*]the information distance metric[*R*]were proposed[*A*]in [ 45[*A*]to detect LDDoS attacks	context()	negated: False ,passive: True
+0.634	[*A*]SAP[*R*]can maintain	context()	negated: False ,passive: False
+0.918	[*A*]the ports[*R*]protected[*A*]by SAP.The	context()	negated: False ,passive: True
+0.918	[*A*]the attack[*R*]uses[*A*]the ports protected by SAP.The	context()	negated: False ,passive: False
+0.678	[*A*]it[*R*]has[*A*]obvious performance degradation[*A*]when the attack uses the ports protected by SAP.The generalized entropy metric were proposed in [ 45 ]	context()	negated: False ,passive: False
+0.636	[*A*]generalized entropy metric[*R*]were proposed[*A*]in [ 45[*A*]to detect LDDoS attacks	context()	negated: False ,passive: True
+0.877	[*A*]SAP[*R*]can maintain[*A*]high throughput for TCP flows under certain LDoS attacks	context()	negated: False ,passive: False
+[LINE#165]This approach has advantages in terms of detection speed and false positive rate.
+0.925	[*A*]This approach[*R*]has[*A*]advantages	context()	negated: False ,passive: False
+[LINE#166]The impracticality of this approach is rather unfortunate with successful implementation relying on gaining full control of all the routers in the network.
+0.937	[*A*]successful implementation[*R*]relying[*A*]on gaining full control of all the routers in the network	context()	negated: False ,passive: False
+0.964	[*A*]The impracticality of this approach[*R*]is[*A*]rather unfortunate with successful implementation relying on gaining full control of all the routers in the network	context()	negated: False ,passive: True
+[LINE#167]A mathematical model [46] and a defense technique [47] were proposed for LDoS attacks targeting application servers [40].
+0.913	[*A*]a defense technique[*R*]were proposed[*A*]for LDoS attacks	context()	negated: False ,passive: True
+0.927	[*A*]LDoS attacks[*R*]targeting[*A*]application servers	context()	negated: False ,passive: False
+0.913	[*A*]A mathematical model[*R*]were proposed[*A*]for LDoS attacks	context()	negated: False ,passive: True
+[LINE#168] The model and defense technique are stimulating, but more experiments and analyses are needed to test their effectiveness for LDDoS attacks targeting TCP traffic[2] that are studied in this paper.
+0.830	[*A*]more analyses[*R*]are needed[*A*]to test their effectiveness for LDDoS attacks	context(defense technique are)	negated: False ,passive: True
+0.887	[*A*]defense technique[*R*]are[*A*]more analyses are needed to test their effectiveness for LDDoS attacks targeting TCP traffic [ 2 ]	context()	negated: False ,passive: True
+0.830	[*A*]more experiments[*R*]are needed[*A*]to test their effectiveness for LDDoS attacks	context(defense technique are)	negated: False ,passive: True
+0.887	[*A*]defense technique[*R*]are[*A*]more experiments are needed to test their effectiveness for LDDoS attacks targeting TCP traffic [ 2 ]	context()	negated: False ,passive: True
+0.830	[*A*]more analyses[*R*]are needed[*A*]to test their effectiveness for LDDoS attacks	context(The model are)	negated: False ,passive: True
+0.887	[*A*]The model[*R*]are[*A*]more analyses are needed to test their effectiveness for LDDoS attacks targeting TCP traffic [ 2 ]	context()	negated: False ,passive: True
+0.830	[*A*]more experiments[*R*]are needed[*A*]to test their effectiveness for LDDoS attacks	context(The model are)	negated: False ,passive: True
+0.887	[*A*]The model[*R*]are[*A*]more experiments are needed to test their effectiveness for LDDoS attacks targeting TCP traffic [ 2 ]	context()	negated: False ,passive: True
+0.914	[*A*]LDDoS attacks[*R*]are studied[*A*]in this paper	context()	negated: False ,passive: True
+0.938	[*A*]LDDoS attacks[*R*]targeting[*A*]TCP traffic	context()	negated: False ,passive: False
+0.732	[*A*]defense technique[*R*]are stimulating	context()	negated: False ,passive: False
+0.732	[*A*]The model[*R*]are stimulating	context()	negated: False ,passive: False
+[LINE#169]In a large-scale LDDoS attack, the attack period of each single attack flow could be very long.
+0.973	[*A*]the attack period of each single attack flow[*R*]could be[*A*]very long[*A*]In a large-scale LDDoS attack	context()	negated: False ,passive: True
+[LINE#170]Its peak rate could be very small, and the pulsing period could be very short.
+0.783	[*A*]the pulsing period[*R*]could be[*A*]very short	context()	negated: False ,passive: True
+0.406	[*A*]Its peak rate[*R*]could be[*A*]very small	context()	negated: False ,passive: True
+[LINE#171]Thus the average rate of every single attack flow could be very low, even lower than a normal flow in a large-scale LDDoS attack.
+0.851	[*A*]the average rate of every single attack flow[*R*]could be even lower[*A*]very low	context()	negated: False ,passive: True
+[LINE#172]This is the main reason that existing approaches can only detect the aggregate flow of an LDDoS attack, rather than a single attack flow.
+0.921	[*A*]existing approaches[*R*]can detect[*A*]the aggregate flow of an LDDoS attack, rather than a single attack flow	context()	negated: False ,passive: False
+0.365	[*A*]This[*R*]is[*A*]the main reason that existing approaches can only detect the aggregate flow of an LDDoS attack, rather than a single attack flow	context()	negated: False ,passive: True
+[LINE#173]The Congestion Participation Rate (CPR)-based approach proposed in this paper can detect single LDDoS attack flows.
+0.807	[*A*]single LDDoS attack[*R*]flows	context(The Congestion Participation Rate can detect)	negated: False ,passive: False
+0.923	[*A*]The Congestion Participation Rate[*R*]can detect[*A*]single LDDoS attack flows	context()	negated: False ,passive: False
+0.903	[*A*]based approach[*R*]proposed[*A*]in this paper	context()	negated: False ,passive: True
+[LINE#174]In addition to existing LDoS detection approaches, flow-level Active Queue Management (AQM) mechanisms are also relevant to our approach as they detect and limit unresponsive [48] flows, including FRED [49], RED-PD [50], SFB [51], CHOKe[52], etc.
+0.685	[*A*]they[*R*]limit[*A*]48] flows, including FRED [49], RED-PD [50], SFB [51], CHOKe[52], etc.	context()	negated: False ,passive: False
+0.320	[*A*]they[*R*]detect	context()	negated: False ,passive: False
+0.936	[*A*]flow-level Active Queue Management (AQM) mechanisms[*R*]are[*A*]also[*A*]relevant to our approach[*A*]as they detect and limit unresponsive [48] flows, including FRED [49], RED-PD [50], SFB [51], CHOKe[52], etc.	context()	negated: False ,passive: True
+[LINE#175]However, most existing flow-level AQMs aim to maintain fairness among traffic flows instead of detecting LDDoS flows.
+0.965	[*A*]most existing flow-level AQMs aim[*R*]flows[*A*]instead[*A*]of detecting LDDoS flows	context()	negated: False ,passive: True
+[LINE#176]Moreover, some of them (RED-PD[50] and SFB[51]) have already been identified as being vulnerable to LDoS attacks [37,38].
+0.807	[*A*]some of them SFB [ 51[*R*]have been identified[*A*]as being vulnerable to LDoS attacks[*A*]already	context()	negated: False ,passive: True
+0.664	[*A*]some of them[*R*]as being[*A*]vulnerable to LDoS attacks	context()	negated: False ,passive: True
+0.895	[*A*]RED - PD[*R*]have been identified[*A*]as being vulnerable to LDoS attacks[*A*]already	context()	negated: False ,passive: True
+[LINE#177]this section we present our experiment results obtained from ns-2 [16].
+0.660	[*A*]our experiment results[*R*]obtained[*A*]from ns-2	context()	negated: False ,passive: True
+0.562	[*A*]we[*R*]present[*A*]our experiment results obtained from ns-2 [16][*A*]this section	context()	negated: False ,passive: False
+[LINE#178]Section 4.1 tests the influence of the RED mechanism on the approach.
+[LINE#179]Section 4.2 evaluates the performance of the CPR-based approach in the presence of different LDDoS attacks.
+0.947	[*A*]Section 4.2[*R*]evaluates[*A*]the performance of the CPR-based approach in the presence of different LDDoS attacks	context()	negated: False ,passive: False
+[LINE#180]Section 4.3 evaluates the performance of the approach in a challenging scenario - distinguishing LDDoS flows from short-lived HTTP flows.
+0.977	[*A*]the performance of the approach in a challenging scenario - distinguishing LDDoS[*R*]flows[*A*]from short-lived HTTP flows	context(Section 4.3 evaluates)	negated: False ,passive: True
+0.935	[*A*]Section 4.3[*R*]evaluates[*A*]the performance of the approach in a challenging scenario - distinguishing LDDoS flows from short-lived HTTP flows	context()	negated: False ,passive: False
+[LINE#181]Section 4.4 evaluates the trade-off between the detection rate and the false positive rate of our CPR-based approach that provides a quantitative guideline to determine the CPR threshold  in practice.
+0.794	[*A*]our CPR-based approach[*R*]provides[*A*]a quantitative guideline to determine the CPR threshold  in practice	context()	negated: False ,passive: False
+0.890	[*A*]Section 4.4[*R*]evaluates[*A*]the trade-off between the detection rate and the false positive rate of our CPR-based approach	context()	negated: False ,passive: False
+[LINE#182]Dumbbell network topologies are commonly used in congestion control studies [17].
+0.870	[*A*]Dumbbell network topologies[*R*]are used[*A*]in congestion control studies	context()	negated: False ,passive: True
+[LINE#183] 10 shows the experimental topology, which consists of two routers (R0, R1), 30 users(User1User30), 20 attackers (Attacker1Attacker20), 30 servers (Server1Server30), and a victim server (Victim Server).
+0.754	[*A*]10[*R*]shows[*A*]the experimental topology , which consists of two routers ( R0 , R1 ) , 30 users ( User1User30 ) , 20 attackers ( Attacker1Attacker20 ) , 30 servers ( a victim server ( Victim Server )	context()	negated: False ,passive: False
+0.897	[*A*]the experimental topology[*R*]consists[*A*]of two routers	context()	negated: False ,passive: True
+0.754	[*A*]10[*R*]shows[*A*]the experimental topology , which consists of two routers ( R0 , R1 ) , 30 users ( User1User30 ) , 20 attackers ( Attacker1Attacker20 ) , 30 servers ( Server1Server30 )	context()	negated: False ,passive: False
+[LINE#184]The link between two routers is the bottleneck link with a bandwidth of 5Mbps and one-way propagation delay of 6ms.
+0.964	[*A*]The link between two routers[*R*]is[*A*]the bottleneck link with a bandwidth of 5Mbps and one-way propagation delay of 6ms	context()	negated: False ,passive: True
+[LINE#185]All the other links have a bandwidth of 10Mbps and a one-way propagation delay of 2ms.
+0.948	[*A*]All the other links[*R*]have[*A*]a bandwidth of a one - way propagation delay of 2ms	context()	negated: False ,passive: False
+0.919	[*A*]All the other links[*R*]have[*A*]a bandwidth of 10Mbps	context()	negated: False ,passive: False
+[LINE#186]In this topology, Useri communicates with Serveri (i=130) using FTP (generated by Application/FTP using Newreno TCP in ns-2), and 20 attackers send UDP packets (generated by Application/Traffic/CBR in ns-2) to attack the Victim Server.
+0.991	[*A*]20 attackers[*R*]send[*A*]UDP packets generated by Application / Traffic / CBR in ns - 2	context()	negated: False ,passive: False
+0.928	[*A*]UDP packets[*R*]generated[*A*]by Application / Traffic / CBR[*A*]in ns - 2	context()	negated: False ,passive: True
+0.937	[*A*]20 attackers[*R*]send[*A*]UDP packets	context()	negated: False ,passive: False
+0.874	[*A*]Useri[*R*]communicates with Serveri using[*A*]FTP	context(Useri communicates)	negated: False ,passive: False
+0.950	[*A*]Useri[*R*]communicates[*A*]with Serveri[*A*]In this topology	context()	negated: False ,passive: False
+0.857	[*A*]FTP[*R*]generated[*A*]by Application / FTP	context()	negated: False ,passive: True
+[LINE#187]The queue size of the bottleneck link is 50.
+0.998	[*A*]the bottleneck link[*R*]has The queue size of[*A*]50	context()	negated: False ,passive: False
+0.876	[*A*]The queue size of the bottleneck link[*R*]is[*A*]50	context()	negated: False ,passive: True
+[LINE#188]A RED based on packet count is deployed at router R0 on the queues of the bottleneck link.
+0.914	[*A*]A RED[*R*]is deployed[*A*]at router R0[*A*]on the queues of the bottleneck link	context()	negated: False ,passive: True
+0.927	[*A*]A RED[*R*]based[*A*]on packet count	context()	negated: False ,passive: True
+[LINE#189]Other links use DropTail queues.
+0.918	[*A*]Other links[*R*]use[*A*]DropTail queues	context()	negated: False ,passive: False
+[LINE#190]A CPR-based detection module is installed at router R0 where most normal TCP packets are dropped when an LDDoS attack is present.
+0.867	[*A*]an LDDoS attack[*R*]is[*A*]present	context()	negated: False ,passive: True
+0.971	[*A*]most normal TCP packets[*R*]are dropped[*A*]when an LDDoS attack is present[*A*]router R0	context()	negated: False ,passive: True
+0.949	[*A*]A CPR-based detection module[*R*]is installed[*A*]at router R0	context()	negated: False ,passive: True
+[LINE#191]For comparison, we also install a module based on Cumulative Amplitude Spectrum (CAS) [18] at R0, CAS uses Discrete Fourier Transform (DFT) to locate anomalies caused by LDDoS flows.
+0.911	[*A*]anomalies[*R*]caused[*A*]by LDDoS	context()	negated: False ,passive: True
+0.508	[*A*]we[*R*]install[*A*]a module based on Cumulative Amplitude Spectrum (CAS) [18] at R0	context(CAS uses)	negated: False ,passive: False
+0.845	[*A*]CAS[*R*]uses[*A*]Discrete Fourier Transform[*A*]to locate anomalies	context()	negated: False ,passive: False
+0.947	[*A*]a module[*R*]based[*A*]on Cumulative Amplitude Spectrum (CAS) [18] at R0	context()	negated: False ,passive: True
+[LINE#192]A set of simulations are conducted and outlined in each of the following subsections.
+0.381	[*A*]A[*R*]outlined[*A*]in each of the following subsections	context()	negated: False ,passive: False
+0.769	[*A*]A set of simulations[*R*]are conducted	context()	negated: False ,passive: False
+[LINE#193]Each simulation lasts for 240s.
+0.925	[*A*]Each simulation[*R*]lasts[*A*]for 240s	context()	negated: False ,passive: True
+[LINE#194]LDDoS attack traffic begins at 120s and continues until 220s.
+0.855	[*A*]LDDoS[*R*]continues[*A*]until 220s	context()	negated: False ,passive: False
+0.911	[*A*]LDDoS attack traffic[*R*]begins[*A*]at 120 s	context()	negated: False ,passive: True
+[LINE#195]In Sections 4.1, 4.2, and 4.3, normal TCP traffic (the FTP flows from User to Server) begins at 20s and ends at 240s.
+0.968	[*A*]normal TCP[*R*]ends[*A*]at 240s[*A*]In 4.3	context()	negated: False ,passive: True
+0.973	[*A*]normal TCP[*R*]ends[*A*]at 240s[*A*]In Sections 4.1	context()	negated: False ,passive: True
+0.955	[*A*]normal TCP traffic[*R*]begins[*A*]at 20 s[*A*]In 4.3	context()	negated: False ,passive: True
+0.962	[*A*]normal TCP traffic[*R*]begins[*A*]at 20 s[*A*]In Sections 4.1	context()	negated: False ,passive: True
+0.949	[*A*]normal TCP traffic[*R*]flows[*A*]from User[*A*]to Server	context()	negated: False ,passive: True
+[LINE#196]While in Section 4.4, it begins at a random time between 20s and 240s, and ends at 240s.
+0.623	[*A*]it[*R*]ends[*A*]at 240s[*A*]While in Section 4.4	context()	negated: False ,passive: True
+0.595	[*A*]it[*R*]begins[*A*]at a random time between 20 s[*A*]While in Section 4.4	context()	negated: False ,passive: True
+0.702	[*A*]it[*R*]begins[*A*]at a random time between 20 s and 240 s[*A*]While in Section 4.4	context()	negated: False ,passive: True
+[LINE#197] In this section, we use a 7-tuple (n,g,m,,Ta,Tb,Rb) to describe the parameters of an LDDoS attack.. D on our approachWefirst explore the influence of the RED mechanism on normal TCP flows, LDDoS flows and their CPRs.
+0.607	[*A*]we[*R*]use[*A*]a 7 - tuple ( n , g , m ,, Ta , Tb , Rb ) to describe their CPRs[*A*]In this section	context()	negated: False ,passive: False
+0.551	[*A*]we[*R*]use[*A*]a 7 - tuple ( n , g , m[*A*]to describe the parameters of an LDDoS attack .. D on our approachWefirst explore the influence of the RED mechanism on normal TCP flows[*A*]In this section	context(In this section , we use a 7 - tuple ( n , g , m ,, Ta , Tb , Rb ) to describe the parameters of an LDDoS attack .. D on our approachWefirst explore the influence of the RED mechanism on normal TCP flows flows)	negated: False ,passive: False
+0.962	[*A*]In this section , we use a 7 - tuple ( n , g , m ,, Ta , Tb , Rb ) to describe the parameters of an LDDoS attack .. D on our approachWefirst explore the influence of the RED mechanism on normal TCP flows[*R*]flows	context()	negated: False ,passive: False
+[LINE#198]We consider an AFI LDDoS attack with parameters (n=20,g=20,m=1,=1s,Ta=20s,Tb=200ms,Rb=5Mbps).
+0.498	[*A*]We[*R*]consider[*A*]an AFI LDDoS attack with parameters	context()	negated: False ,passive: False
+[LINE#199]Here Rb is chosen to be close to the bandwidth of the bottleneck to represent the extreme situation to our CPR-based approach as described in Section 3.2.Then using the same parameters we repeat the experiment two times.
+0.833	[*A*]Rb[*R*]to be[*A*]close to the bandwidth of the bottleneck	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]repeat[*A*]the experiment	context()	negated: False ,passive: False
+0.913	[*A*]Rb[*R*]is chosen[*A*]to be close to the bandwidth of the bottleneck[*A*]Here	context()	negated: False ,passive: True
+[LINE#200]The first time we employ DropTail on the bottleneck queue at router R0 and the second time we employ RED.
+0.639	[*A*]we[*R*]employ[*A*]RED[*A*]the second time	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]employ[*A*]DropTail[*A*]on the bottleneck queue at the second time[*A*]The first time	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]employ[*A*]DropTail[*A*]on the bottleneck queue at router R0[*A*]The first time	context()	negated: False ,passive: False
+[LINE#201]The sampling frequency is f=1000Hz in both experiments and the results are shown in Table 3.In Table 3, a and na represent the average rates of normal TCP flows when there is an attack and when there is no attack, respectively.
+0.942	[*A*]The sampling frequency[*R*]is[*A*]f=1000Hz	context()	negated: False ,passive: True
+[LINE#202] rna represents the ratio of dropped packets to all packets at router R0 when there is no attack and rais the one when there is an attack.
+0.894	[*A*]rna[*R*]represents[*A*]the ratio of dropped packets to all packets at router R0 rais the one	context()	negated: False ,passive: False
+0.875	[*A*]rna[*R*]represents[*A*]the ratio of dropped packets to all packets at router R0	context()	negated: False ,passive: False
+[LINE#203]TCP represents the average CPR of the normal TCP flows and LDDoS is for the LDDoS flows.
+0.904	[*A*]LDDoS[*R*]is[*A*]for the LDDoS flows	context()	negated: False ,passive: True
+0.877	[*A*]TCP[*R*]represents[*A*]the average CPR of the normal TCP	context()	negated: False ,passive: False
+[LINE#204]The results in Table 3 indicate that when there is no attack RED has no obvious influence on the normal TCP flows (na and rna are almost the same for DropTail and RED).
+0.840	[*A*]rna[*R*]are[*A*]almost the same for RED	context()	negated: False ,passive: True
+0.840	[*A*]rna[*R*]are[*A*]almost the same for DropTail	context()	negated: False ,passive: True
+0.884	[*A*]The results in Table 3[*R*]indicate[*A*]when there is no attack	context()	negated: False ,passive: False
+0.931	[*A*]The results in Table 3[*R*]indicate[*A*]na are almost the same for RED	context()	negated: False ,passive: False
+0.904	[*A*]RED[*R*]has[*A*]no obvious influence on the normal TCP flows	context()	negated: False ,passive: False
+0.837	[*A*]The results in Table 3[*R*]indicate[*A*]that when there is no attack RED has no obvious influence on the normal TCP flows ( na are almost the same for DropTail	context()	negated: False ,passive: False
+0.904	[*A*]RED[*R*]has[*A*]no obvious influence on the normal TCP	context()	negated: False ,passive: False
+[LINE#205]However, when LDDoS attacks are present, RED significantly improves the throughput of normal TCP.
+0.927	[*A*]RED[*R*]significantly improves[*A*]the throughput of normal TCP[*A*]when LDDoS attacks are present	context()	negated: False ,passive: False
+0.817	[*A*]LDDoS attacks[*R*]are[*A*]present	context()	negated: False ,passive: True
+[LINE#206]Note that in this case, RED drops 25% packets, much more than the 7.6% from DropTail.
+[LINE#207]In other words, when the aggregate rate of the LDDoS flows is very close to the bottleneck bandwidth of network, deploying RED is able to drop more attack packets while increasing the throughput of the normal TCP flows.
+0.960	[*A*]when the aggregate rate of the LDDoS flows[*R*]is[*A*]very close to the bottleneck bandwidth of network	context(deploying RED is)	negated: False ,passive: True
+0.931	[*A*]deploying RED[*R*]is[*A*]able to drop more attack packets	context()	negated: False ,passive: True
+[LINE#208]Admittedly RED might also drop more legitimate packets than DropTail here, however it achieves a higher normal-TCP-flow throughput a than DropTail.
+0.756	[*A*]RED[*R*]might drop[*A*]more legitimate packets than DropTail here, however it achieves a higher normal-TCP-flow throughput a than DropTail	context(it achieves)	negated: False ,passive: False
+0.433	[*A*]it[*R*]achieves[*A*]a higher normal-TCP-flow throughput	context()	negated: False ,passive: False
+[LINE#209] The throughput a of normal TCP flows is considered to be more important than its drop ratiora when a network is under an LDDoS attack.
+0.937	[*A*]a network[*R*]is[*A*]under an LDDoS attack	context()	negated: False ,passive: True
+0.919	[*A*]The throughput a of normal TCP flows[*R*]to be[*A*]more important than its drop ratiora[*A*]when a network is under an LDDoS attack	context()	negated: False ,passive: True
+[LINE#210]Table 3 shows that under DropTail, the CPR-based approach may not be able to distinguish an LDDoS attack flow from a normal TCP flow since the two CPRs are close to one another.
+0.743	[*A*]the two CPRs[*R*]are[*A*]close to one another	context(the CPR - based approach to distinguish)	negated: False ,passive: True
+0.932	[*A*]the CPR-based approach[*R*]to distinguish[*A*]an LDDoS attack flow from a normal TCP flow	context()	negated: False ,passive: False
+0.983	[*A*]the CPR-based approach[*R*]may not be[*A*]able to distinguish an LDDoS attack flow from a normal TCP flow since the two CPRs are close to one another[*A*]under DropTail	context()	negated: True ,passive: True
+[LINE#211]However, it is also clear that the CPR-based approach under RED is able to detect an attack flow since the two CPRs are significantly different under RED. .
+0.915	[*A*]the CPR-based approach under RED[*R*]is[*A*]able to detect an attack flow	context(it is)	negated: False ,passive: True
+0.229	[*A*]it[*R*]is[*A*]also[*A*]clear	context()	negated: False ,passive: True
+0.925	[*A*]the two CPRs[*R*]are[*A*]significantly different under RED	context()	negated: False ,passive: True
+0.899	[*A*]the CPR-based approach under RED[*R*]to detect[*A*]an attack flow	context()	negated: False ,passive: False
+[LINE#212]this subsection, we conduct experiments to compare the effectiveness of our proposed CPR-based approach and the CAS approach [18] on detecting LDDoS attack flows under different categories of LDDoS attacks.
+0.550	[*A*]we[*R*]conduct experiments to compare[*A*]the effectiveness of the CAS approach [ 18 ] on detecting LDDoS attack flows under different categories of LDDoS attacks	context(we conduct)	negated: False ,passive: False
+0.686	[*A*]we[*R*]conduct[*A*]experiments[*A*]to compare the effectiveness of the CAS approach [ 18 ] on detecting LDDoS attack flows under different categories of LDDoS attacks[*A*]this subsection	context()	negated: False ,passive: False
+0.293	[*A*]we[*R*]conduct experiments to compare[*A*]the effectiveness of our proposed CPR - based approach	context(we conduct)	negated: False ,passive: False
+0.543	[*A*]we[*R*]conduct[*A*]experiments[*A*]to compare the effectiveness of our proposed CPR - based approach[*A*]this subsection	context()	negated: False ,passive: False
+[LINE#213]Parameters of the experiments are listed in Table 4, where for each of the three categories (AFI, AWI and ARI), we select a range of values for one variable and fix all the others.
+0.701	[*A*]we[*R*]fix[*A*]all the others[*A*]Table 4	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]select[*A*]a range of values for one variable	context()	negated: False ,passive: False
+0.931	[*A*]Parameters of the experiments[*R*]are listed[*A*]in Table 4	context()	negated: False ,passive: True
+[LINE#214]For example, for the AFI LDDoS attack, we vary the attack period Ta for each single attack flow from 20s to 40s.
+0.614	[*A*]we[*R*]vary[*A*]the attack period Ta for each single attack flow from 20s to 40s	context()	negated: False ,passive: False
+[LINE#215]The italic values in the table list the parameters corresponding to the aggregate attack flow.
+0.903	[*A*]the parameters[*R*]corresponding[*A*]to the aggregate attack flow	context()	negated: False ,passive: True
+[LINE#216]They are calculated according to Table 1, which demonstrates the relationship between the parameters of each LDDoS flow (Ta,Tb, and Rb) and their aggregate flow (Ta+,Tb+, and Rb+).
+0.918	[*A*]Table 1[*R*]demonstrates[*A*]the relationship between the parameters of each LDDoS flow (Ta,Tb, and Rb) and their aggregate flow	context()	negated: False ,passive: False
+0.320	[*A*]They[*R*]are calculated	context()	negated: False ,passive: False
+[LINE#217]The results for the MI LDDoS attack are not presented here and can be provided upon request, but this category is just the combination of other three and the results are quantitatively comparable.
+0.724	[*A*]the results[*R*]are[*A*]quantitatively comparable	context(this category is)	negated: False ,passive: True
+0.908	[*A*]this category[*R*]is[*A*]just the combination of other three	context()	negated: False ,passive: True
+0.788	[*A*]The results for the MI LDDoS attack[*R*]are not presented[*A*]here	context()	negated: True ,passive: True
+[LINE#218]11 shows the results for the AFI LDDoS attack.
+0.656	[*A*]11[*R*]shows[*A*]the results for the AFI LDDoS attack	context()	negated: False ,passive: False
+[LINE#219]Both the CPR-based approach and the CAS-based approach are quite effective for this category of the LDDoS attack.
+0.953	[*A*]the CAS - based approach[*R*]are[*A*]quite effective for this category of the LDDoS attack	context()	negated: False ,passive: True
+0.957	[*A*]Both the CPR - based approach[*R*]are[*A*]quite effective for this category of the LDDoS attack	context()	negated: False ,passive: True
+[LINE#220]It is worth noting that the difference between normal TCP flows and LDDoS flows in CPR (around 0.6) is larger than that in CAS (around 0.4).
+0.904	[*A*]LDDoS[*R*]flows[*A*]in CPR	context()	negated: False ,passive: True
+[LINE#221]We also observe that the average CPRs do not change too much as Ta increases.
+0.905	[*A*]the average CPRs[*R*]do not change[*A*]too much[*A*]as Ta increases	context(We observe)	negated: True ,passive: True
+0.274	[*A*]We[*R*]observe[*A*]that the average CPRs do not change too much as Ta increases	context()	negated: False ,passive: False
+0.634	[*A*]Ta[*R*]increases	context()	negated: False ,passive: False
+[LINE#222] This is because the CPR is calculated based on a ratio (.
+0.656	[*A*]the CPR[*R*]is calculated	context()	negated: False ,passive: False
+0.495	[*A*]This[*R*]is[*A*]because the CPR is calculated based on a ratio	context()	negated: False ,passive: True
+[LINE#223]When the attack period Ta increases, the attackers tend to send fewer packets.
+0.887	[*A*]the attackers[*R*]to send[*A*]fewer packets	context()	negated: False ,passive: False
+0.964	[*A*]the attackers[*R*]tend[*A*]to send fewer packets[*A*]When the attack period Ta increases	context()	negated: False ,passive: True
+[LINE#224]However, the ratio of the incoming packets in congestion to the total incoming packets measured by a router may remain unchanged.
+0.889	[*A*]the ratio of the incoming packets in congestion to the total incoming packets[*R*]may remain[*A*]unchanged	context()	negated: False ,passive: True
+0.919	[*A*]the total incoming packets[*R*]measured[*A*]by a router	context()	negated: False ,passive: True
+[LINE#225]This explains the similar observations in Figs.
+0.425	[*A*]This[*R*]explains[*A*]the similar observations in Figs	context()	negated: False ,passive: False
+[LINE#226]12 shows the results for the AWI LDDoS attack.
+0.656	[*A*]12[*R*]shows[*A*]the results for the AWI LDDoS attack	context()	negated: False ,passive: False
+[LINE#227]Our CPR-based approach is still effective - the difference in the average CPR for normal TCP flows and LDDoS flows is evident.
+0.545	[*A*]Our CPR-based approach[*R*]is[*A*]still[*A*]effective	context(the difference in the average CPR for normal TCP flows and LDDoS flows is)	negated: False ,passive: True
+0.876	[*A*]the difference in the average CPR for normal TCP flows and LDDoS flows[*R*]is[*A*]evident	context()	negated: False ,passive: True
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+[LINE#228]However, as Tb decreases (from 10ms to 0.1ms), the average CAS of the attack flows under the CAS-based approach also decreases.
+0.822	[*A*]the average CAS of the attack[*R*]decreases	context()	negated: False ,passive: False
+0.967	[*A*]the average CAS of the attack[*R*]flows[*A*]under the CAS-based approach	context()	negated: False ,passive: True
+0.634	[*A*]Tb[*R*]decreases	context()	negated: False ,passive: False
+[LINE#229]When Tb is around 0.5ms, the average CAS of the normal TCP flows and the LDDoS flows is about the same.
+0.806	[*A*]the average CAS of the normal TCP[*R*]is[*A*]about the same	context()	negated: False ,passive: True
+0.831	[*A*]the LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.962	[*A*]the average CAS of the normal TCP[*R*]flows[*A*]When Tb is around 0.5ms	context()	negated: False ,passive: True
+0.887	[*A*]Tb[*R*]is[*A*]around 0.5ms	context()	negated: False ,passive: True
+[LINE#230]13 shows the results for the ARI LDDoS attack.
+0.656	[*A*]13[*R*]shows[*A*]the results for the ARI LDDoS attack	context()	negated: False ,passive: False
+[LINE#231] Similar to previous results, our CPR-based approach is still effective whereas the effectiveness of the CAS-based approach decreases as Rb decreases (from 0.25Mbps to 0.01Mbps).These experimental results clearly demonstrate that our CPR-based approach works well for all three categories (AFI, AWI, and ARI) of LDDoS attacks whereas the CAS-based approach only works for.
+0.826	[*A*]our CPR - based approach[*R*]works well[*A*]for all three categories ( ARI ) of LDDoS attacks	context(These experimental results clearly demonstrate)	negated: False ,passive: False
+0.751	[*A*]These experimental results[*R*]clearly demonstrate[*A*]that our CPR - based approach works well for all three categories ( ARI ) of LDDoS attacks	context()	negated: False ,passive: False
+0.826	[*A*]our CPR - based approach[*R*]works well[*A*]for all three categories ( AWI ) of LDDoS attacks	context(These experimental results clearly demonstrate)	negated: False ,passive: False
+0.751	[*A*]These experimental results[*R*]clearly demonstrate[*A*]that our CPR - based approach works well for all three categories ( AWI ) of LDDoS attacks	context()	negated: False ,passive: False
+0.826	[*A*]our CPR - based approach[*R*]works well[*A*]for all three categories ( AFI ) of LDDoS attacks	context(These experimental results clearly demonstrate)	negated: False ,passive: False
+0.751	[*A*]These experimental results[*R*]clearly demonstrate[*A*]that our CPR - based approach works well for all three categories ( AFI ) of LDDoS attacks	context()	negated: False ,passive: False
+0.634	[*A*]Rb[*R*]decreases	context()	negated: False ,passive: False
+0.964	[*A*]the effectiveness of the CAS - based approach[*R*]decreases[*A*]as Rb decreases	context()	negated: False ,passive: True
+0.870	[*A*]the CAS - based approach[*R*]works[*A*]for	context()	negated: False ,passive: False
+0.891	[*A*]our CPR - based approach[*R*]is[*A*]still[*A*]effective[*A*]whereas the effectiveness of the CAS - based approach decreases as Rb decreases ( from 0.25Mbps to 0.01Mbps	context()	negated: False ,passive: True
+[LINE#232]AFI LDDoS. CAS distinguishes LDoS flows from normal TCP flows using their spectrum difference in low frequency band.
+0.883	[*A*]LDoS[*R*]flows[*A*]from normal TCP flows	context(AFI LDDoS . CAS distinguishes)	negated: False ,passive: True
+0.884	[*A*]AFI LDDoS. CAS[*R*]distinguishes[*A*]LDoS flows from normal TCP flows	context()	negated: False ,passive: False
+[LINE#233]It works well for small-scale LDoS attacks.
+0.498	[*A*]It[*R*]works well[*A*]for small-scale LDoS attacks	context()	negated: False ,passive: False
+[LINE#234]However, an attacker can dramatically reduce the burst width Tb and burst rate Rb of each LDDoS flow by launching large-scale LDDoS attacks, including LDoS attacks with spoofing IP addresses.
+0.947	[*A*]an attacker[*R*]can dramatically reduce[*A*]the burst rate[*A*]by launching large - scale LDDoS attacks , including LDoS attacks with spoofing IP addresses	context()	negated: False ,passive: False
+0.947	[*A*]an attacker[*R*]can dramatically reduce[*A*]the burst width Tb of each LDDoS flow[*A*]by launching large - scale LDDoS attacks , including LDoS attacks with spoofing IP addresses	context()	negated: False ,passive: False
+[LINE#235]The spectrum difference in low frequency band between an LDoS flow and a normal TCP flow decreases when Tb and Rb of each LDDoS flow are reduced.
+0.832	[*A*]Rb of each LDDoS flow[*R*]are reduced	context()	negated: False ,passive: False
+0.968	[*A*]The spectrum difference in low frequency band between an LDoS flow and a normal TCP flow[*R*]decreases[*A*]when Rb of each LDDoS flow are reduced	context()	negated: False ,passive: True
+0.634	[*A*]Tb[*R*]are reduced	context()	negated: False ,passive: False
+0.968	[*A*]The spectrum difference in low frequency band between an LDoS flow and a normal TCP flow[*R*]decreases[*A*]when Tb are reduced	context()	negated: False ,passive: True
+[LINE#236]For this reason DFT-based approaches, such as CAS, are not effective in detecting large-scale LDDoS attacks. .
+0.940	[*A*]For this reason DFT-based approaches, such as CAS[*R*]are not[*A*]effective in detecting large-scale LDDoS attacks	context()	negated: True ,passive: True
+[LINE#237]P trafficLDDoS flows can be short lived so that their traffic pattern is similar to that of normal short-lived flows like HTTP flows.
+0.645	[*A*]their traffic pattern[*R*]is[*A*]similar to that of normal short-lived flows like HTTP flows	context()	negated: False ,passive: True
+[LINE#238]Therefore, it is challenging to distinguish LDDoS flows from HTTP flows.
+0.456	[*A*]it[*R*]to distinguish[*A*]LDDoS flows from HTTP flows	context()	negated: False ,passive: False
+[LINE#239]In this subsection, we evaluate the performance of the CPR-based approach for distinguishing LDDoS flows from HTTP flows.
+0.740	[*A*]we[*R*]evaluate[*A*]the performance of the CPR-based approach for distinguishing LDDoS flows from HTTP flows[*A*]In this subsection	context()	negated: False ,passive: False
+[LINE#240]HTTP traffic in our experiment is generated by PackMime generator [19], that uses real Internet traces.
+0.503	[*A*]19[*R*]uses[*A*]real Internet traces	context()	negated: False ,passive: False
+0.739	[*A*]HTTP traffic in our experiment[*R*]is generated[*A*]by PackMime generator	context()	negated: False ,passive: True
+[LINE#241]The network topology is similar to that in Fig. 10, but with only 10 users (this is due to the limit of PackMime), 10 servers, and 10 attackers.
+0.495	[*A*]this[*R*]is[*A*]due to the limit of PackMime	context()	negated: False ,passive: True
+0.637	[*A*]The network topology[*R*]is[*A*]similar to that	context()	negated: False ,passive: True
+[LINE#242]Let Rc represent the average number of new connections started per second in PackMime.
+[LINE#243]We investigate the relationship between Rc and the average CPRs of normal HTTP flows and LDDoS flows.
+0.829	[*A*]the relationship between Rc and the average CPRs of normal HTTP[*R*]flows	context(We investigate)	negated: False ,passive: False
+0.560	[*A*]We[*R*]investigate[*A*]the relationship between Rc and the average CPRs of normal HTTP flows and LDDoS flows	context()	negated: False ,passive: False
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+[LINE#244] The experimental results are shown in Fig..
+0.925	[*A*]The experimental results[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#245]One can see from the figure that the difference between the average CPR of normal HTTP flows and that of LDDoS flows increases as Rcincreases.
+0.957	[*A*]the figure[*R*]flows[*A*]the difference between the average CPR of normal HTTP	context()	negated: False ,passive: True
+0.616	[*A*]One[*R*]can see[*A*]from the figure	context()	negated: False ,passive: False
+[LINE#246]Thus it is not harder but easier for our CPR-based approach to distinguish LDDoS flows from normal HTTP flows when there are more normal HTTP flows. .
+0.833	[*A*]Thus it is not easier for our CPR - based approach to distinguish LDDoS flows from normal HTTP[*R*]flows[*A*]when there are more normal HTTP flows	context()	negated: False ,passive: True
+0.350	[*A*]it[*R*]is not[*A*]easier for our CPR - based approach	context()	negated: True ,passive: True
+0.833	[*A*]Thus it is not harder for our CPR - based approach to distinguish LDDoS flows from normal HTTP[*R*]flows[*A*]when there are more normal HTTP flows	context()	negated: False ,passive: True
+0.350	[*A*]it[*R*]is not[*A*]harder for our CPR - based approach	context()	negated: True ,passive: True
+[LINE#247] -off of detection rate and false positive rateInthis subsection, we conduct experiments based on MI LDDoS attacks to systematically understand the principle of our CPR-based approach.
+0.498	[*A*]we[*R*]conduct[*A*]experiments based on MI LDDoS attacks	context()	negated: False ,passive: False
+0.355	[*A*]we[*R*]conduct experiments based on MI LDDoS attacks to systematically understand[*A*]the principle of our CPR - based approach	context(we conduct)	negated: False ,passive: False
+0.399	[*A*]we[*R*]conduct[*A*]experiments based on MI LDDoS attacks[*A*]to systematically understand the principle of our CPR - based approach	context()	negated: False ,passive: False
+0.911	[*A*]experiments[*R*]based[*A*]on MI LDDoS attacks	context()	negated: False ,passive: True
+[LINE#248]The parameters of the LDDoS attack are (n=20,g=5,m=4,Tg,Ta,Tb,Rb), where Ta[0.5,5]s, Tb [25]ms, and Rb[0.75,1.5]Mbps.
+0.949	[*A*]The parameters of the LDDoS attack[*R*]are[*A*]where Rb [ 0.75,1.5 ] Mbps	context()	negated: False ,passive: True
+0.845	[*A*]The parameters of the LDDoS attack[*R*]are	context()	negated: False ,passive: False
+[LINE#249] It took over 36h to conduct hundreds of experiments that still use the dumbbell network shown in Fig..
+0.942	[*A*]the dumbbell network[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.939	[*A*]experiments[*R*]use[*A*]the dumbbell network shown in Fig[*A*]still	context()	negated: False ,passive: False
+0.452	[*A*]It[*R*]took over[*A*]36h[*A*]to conduct hundreds of experiments	context()	negated: False ,passive: False
+[LINE#250]In these experiments, each user starts to send normal TCP traffic at a random time between 20s and 240s, and stops sending at 240s.
+0.758	[*A*]TCP traffic[*R*]sending	context()	negated: False ,passive: False
+0.905	[*A*]each user[*R*]to send[*A*]normal TCP traffic stops sending at 240s	context()	negated: False ,passive: False
+0.938	[*A*]each user[*R*]to send[*A*]normal TCP traffic[*A*]at a random time between 20 s and 240 s	context()	negated: False ,passive: False
+0.948	[*A*]each user[*R*]starts[*A*]In these experiments	context()	negated: False ,passive: True
+[LINE#251]This simulates users' random behavior on the Internet.
+0.381	[*A*]This[*R*]simulates[*A*]users' random behavior on the Internet	context()	negated: False ,passive: False
+[LINE#252]15a depicts the probability distribution of CPR of normal TCP flows and LDDoS flows.
+0.932	[*A*]15a[*R*]depicts[*A*]LDDoS flows	context()	negated: False ,passive: False
+0.932	[*A*]15a[*R*]depicts[*A*]the probability distribution of CPR of normal TCP flows	context()	negated: False ,passive: False
+[LINE#253]Clearly, the CPRs of these two different flows are distributed on the two ends between 0 and 1, with a small overlap in the middle.
+0.938	[*A*]the CPRs of these two different flows[*R*]are distributed[*A*]on the two ends between 0 and 1	context()	negated: False ,passive: True
+[LINE#254]Fig. 15a also provides experimental guidance for choosing the CPR  threshold in practice.
+0.816	[*A*]Fig[*R*]provides[*A*]experimental guidance for choosing the CPR  threshold in practice	context()	negated: False ,passive: False
+[LINE#255] From the figure, for any given CPR x(0,1), one can obtain the experimental likelihood(Hx) that the average CPR of LDDoS flows is higher than x, which is the ratio of the red area on the right side of x to the whole red area.
+0.927	[*A*]the average CPR of LDDoS flows[*R*]is[*A*]higher than x	context()	negated: False ,passive: True
+[LINE#256]Similarly, one can obtain the likelihood (Lx) that the average CPR of normal TCP flows is smaller than x.
+0.831	[*A*]the average CPR of normal TCP flows[*R*]is[*A*]smaller than	context()	negated: False ,passive: True
+0.530	[*A*]one[*R*]can obtain[*A*]the likelihood (Lx) that the average CPR of normal TCP flows is smaller than	context()	negated: False ,passive: False
+[LINE#257]Based on this, one can choose the CPR threshold  to be x to achieve detection rate Hx with a false positive rate (1-Lx).
+0.164	[*A*]a positive rate[*R*]has accuracy of[*A*]1 - lx	context()	negated: False ,passive: False
+0.492	[*A*]one[*R*]can choose the CPR threshold to to achieve[*A*]detection rate Hx	context(one can choose)	negated: False ,passive: False
+0.704	[*A*]one[*R*]can choose[*A*]the CPR threshold[*A*]to be x to achieve detection rate Hx with a false positive rate	context()	negated: False ,passive: False
+0.957	[*A*]the CPR threshold[*R*]be[*A*]x to achieve detection rate Hx with a false positive rate	context()	negated: False ,passive: True
+[LINE#258]Obviously, a higher x corresponds to a lower Hx and a higher Lx.
+0.925	[*A*]a higher x[*R*]corresponds[*A*]to a higher Lx	context()	negated: False ,passive: True
+0.925	[*A*]a higher x[*R*]corresponds[*A*]to a lower Hx	context()	negated: False ,passive: True
+[LINE#259]This trade-off is indicated in the Receiver Operating Characteristic (ROC) curve in Fig. 15b, where each point on the ROC curve corresponds to a CPR x(0,1) in Fig. 15a.
+0.976	[*A*]each point on the ROC curve[*R*]corresponds[*A*]to a CPR x[*A*]Fig. 15b	context()	negated: False ,passive: True
+0.918	[*A*]This trade-off[*R*]is indicated[*A*]in the Receiver	context()	negated: False ,passive: True
+[LINE#260]For example, when x=0.63, we can achieve a 100% detection rate with a 1.625% false positive rate.
+0.595	[*A*]we[*R*]can achieve[*A*]a 100% detection rate[*A*]when x=0.63	context()	negated: False ,passive: False
+[LINE#261]this section, we first propose the metric of CPR and then describe our CPR-based approach to detect and filter LDDoS attack flows..
+0.599	[*A*]we[*R*]propose[*A*]the metric of CPR[*A*]this section[*A*]first	context()	negated: False ,passive: False
+[LINE#262]major difference between normal TCP flows and LDDoS flows is that normal TCP flows actively avoid network congestion due to TCP's congestion control mechanism, whereas LDDoS flows actively induce network congestion to degrade network performance.
+0.833	[*A*]LDDoS[*R*]actively induce[*A*]network congestion	context()	negated: False ,passive: False
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+[LINE#263]Motivated by this difference, we propose Congestion Participation Rate (CPR) to distinguish between an LDDoS flow and a normal TCP flow.
+0.934	[*A*]Congestion Participation Rate[*R*]to distinguish[*A*]between an LDDoS flow and a normal TCP flow	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]propose[*A*]Congestion Participation Rate[*A*]to distinguish between an LDDoS flow and a normal TCP flow	context()	negated: False ,passive: False
+[LINE#264] Consider a router through which different flows (normal TCP flows and LDDoS attack flows) pass (see Fig. 4), at time t, we sample the incoming link of the router for a duration d and count the number of packets from every flow.
+0.857	[*A*]different flows LDDoS attack[*R*]flows	context()	negated: False ,passive: False
+0.831	[*A*]LDDoS attack[*R*]flows	context()	negated: False ,passive: False
+0.959	[*A*]different flows ( normal TCP flows pass ( see Fig[*R*]count[*A*]the number of packets	context()	negated: False ,passive: False
+[LINE#265]At the same time, we monitor the packet queue in the router.
+0.595	[*A*]we[*R*]monitor[*A*]the packet queue in the router[*A*]At the same time	context()	negated: False ,passive: False
+[LINE#266]If there is at least a packet dropped at the packet queue (because the queue is full) during d, we consider that the outgoing link of the router is congested at time t.
+0.933	[*A*]the outgoing link of the router[*R*]is[*A*]congested[*A*]at time	context(we consider)	negated: False ,passive: True
+0.271	[*A*]we[*R*]consider[*A*]that the outgoing link of the router is congested at time	context()	negated: False ,passive: False
+0.813	[*A*]the queue[*R*]is[*A*]full	context()	negated: False ,passive: True
+0.948	[*A*]at least a packet[*R*]dropped[*A*]at the packet queue (because the queue is full[*A*]during d	context()	negated: False ,passive: True
+[LINE#267] After a series of sampling T, we define the CPR of flow.
+0.595	[*A*]we[*R*]define[*A*]the CPR of flow[*A*]After a series of sampling T	context()	negated: False ,passive: False
+[LINE#268] Fi as(1)i=tTSi,ttTSi,twhere.
+[LINE#269]T is the set of sampling epochs when the outgoing link is congested.
+0.828	[*A*]the outgoing link[*R*]is[*A*]congested	context()	negated: False ,passive: True
+0.852	[*A*]T[*R*]is[*A*]the set of sampling epochs	context()	negated: False ,passive: True
+[LINE#270] In other words, the i is the ratio of the incoming packets in congestion to the total incoming packets from flow.
+0.952	[*A*]the i[*R*]is[*A*]the ratio of the incoming packets in congestion to the total incoming packets from flow	context()	negated: False ,passive: True
+[LINE#271]It is worth noting that the packets are sampled at the incoming link before they enter the packet queue or be dropped when the packet queue is full (due to the congestion of the outgoing link).
+0.685	[*A*]they[*R*]be dropped[*A*]when the packet queue is full (due to the congestion of the outgoing link	context()	negated: False ,passive: True
+0.616	[*A*]they[*R*]enter[*A*]the packet queue	context()	negated: False ,passive: False
+0.956	[*A*]the packet queue[*R*]is[*A*]full (due to the congestion of the outgoing link	context()	negated: False ,passive: True
+0.390	[*A*]It[*R*]is[*A*]worth noting that the packets are sampled at the incoming link	context()	negated: False ,passive: True
+[LINE#272]Thus the packet number measured here is for the packets sent by a flow to the router.
+0.925	[*A*]the packets[*R*]sent[*A*]by a flow to the router	context()	negated: False ,passive: True
+0.943	[*A*]the packet number measured here[*R*]is[*A*]for the packets	context()	negated: False ,passive: True
+0.783	[*A*]the packet number[*R*]measured[*A*]here	context()	negated: False ,passive: True
+[LINE#273]It is normally larger than the number of the packets from the flow that are forwarded by the router, as some of the packets may be dropped due to congestion.
+0.919	[*A*]some of the packets[*R*]may be dropped[*A*]due to congestion	context()	negated: False ,passive: True
+0.887	[*A*]the flow[*R*]are forwarded[*A*]by the router	context()	negated: False ,passive: True
+0.637	[*A*]It[*R*]is[*A*]normally larger than the number of the packets from the flow[*A*]as some of the packets may be dropped due to congestion	context()	negated: False ,passive: True
+[LINE#274]Since LDDoS flows actively induce network congestion while normal TCP flows actively avoid network congestion, the CPR of an LDDoS flow is expected to be considerably bigger than that of a normal TCP flow. .
+0.780	[*A*]the CPR of an LDDoS flow[*R*]to be[*A*]considerably bigger than that of a normal TCP flow	context()	negated: False ,passive: True
+0.738	[*A*]the CPR of an LDDoS flow[*R*]is expected	context()	negated: False ,passive: False
+0.831	[*A*]normal TCP[*R*]flows	context()	negated: False ,passive: False
+0.855	[*A*]LDDoS[*R*]flows actively induce[*A*]network congestion	context()	negated: False ,passive: False
+[LINE#275] The detecting and filtering approachFig. 5 shows the block diagram of our CPR-based approach for detecting and filtering.
+0.461	[*A*]5[*R*]shows[*A*]the block diagram of our CPR - based approach for filtering	context()	negated: False ,passive: False
+0.461	[*A*]5[*R*]shows[*A*]the block diagram of our CPR - based approach for detecting	context()	negated: False ,passive: False
+[LINE#276]This approach is expected to be deployed on a router where we want to detect and filter LDDoS attack flows.
+0.905	[*A*]This approach[*R*]to be deployed[*A*]on a router filter LDDoS attack flows	context()	negated: False ,passive: True
+0.887	[*A*]This approach[*R*]to be deployed[*A*]on a router	context()	negated: False ,passive: True
+0.732	[*A*]This approach[*R*]is expected	context()	negated: False ,passive: False
+[LINE#277]In the diagram, the flow size estimation module is a functional module that is already included in most Internet routers (for example Cisco NetFlow [10]).
+0.910	[*A*]a functional module[*R*]is included[*A*]in most Internet routers[*A*]already	context()	negated: False ,passive: True
+0.945	[*A*]the flow size estimation module[*R*]is[*A*]a functional module that is already included in most Internet routers[*A*]In the diagram	context()	negated: False ,passive: True
+[LINE#278]The CPR metric mainly works in the LDDoS Attack Detection module.
+0.949	[*A*]The CPR metric[*R*]works[*A*]in the LDDoS Attack Detection module	context()	negated: False ,passive: False
+[LINE#279]The router keeps CPR for every flow.
+0.918	[*A*]The router[*R*]keeps[*A*]CPR[*A*]for every flow	context()	negated: False ,passive: False
+[LINE#280]A flow is considered as an LDDoS attack flow if its CPR is higher than a threshold .
+0.620	[*A*]its CPR[*R*]is[*A*]higher than a threshold	context()	negated: False ,passive: True
+0.859	[*A*]A flow[*R*]is considered[*A*]as an LDDoS attack flow[*A*]if its CPR is higher than a threshold	context()	negated: False ,passive: True
+[LINE#281]We investigate this threshold analytically in Section 3.3 and use experiments to demonstrate how to determine the threshold in practice in Section 4.4.When an LDDoS flow is detected, we drop all packets from the detected flow until its CPR becomes smaller than the threshold .
+0.417	[*A*]we[*R*]drop[*A*]all packets[*A*]from the detected flow[*A*]until its CPR becomes smaller than the threshold	context()	negated: False ,passive: False
+0.391	[*A*]We[*R*]investigate analytically[*A*]this threshold	context(we drop)	negated: False ,passive: False
+0.467	[*A*]we[*R*]drop[*A*]all packets	context()	negated: False ,passive: False
+0.552	[*A*]its CPR[*R*]becomes[*A*]smaller than the threshold	context()	negated: False ,passive: True
+[LINE#282]A normal TCP flow may be mistakenly interpreted as an attack flow if it is initiated and starts to send data while the network is congested.
+0.813	[*A*]the network[*R*]is[*A*]congested	context()	negated: False ,passive: True
+0.411	[*A*]it[*R*]to send[*A*]data[*A*]while the network is congested	context()	negated: False ,passive: False
+0.243	[*A*]it[*R*]starts	context()	negated: False ,passive: False
+0.939	[*A*]A normal TCP flow[*R*]may be mistakenly interpreted[*A*]as an attack flow	context()	negated: False ,passive: True
+0.195	[*A*]it[*R*]is initiated	context()	negated: False ,passive: False
+0.893	[*A*]A normal TCP flow[*R*]may be mistakenly interpreted[*A*]as an attack flow[*A*]if it is initiated	context()	negated: False ,passive: True
+[LINE#283]To mitigate it, after a flow is regarded as an LDDoS flow, we keep on measuring its CPR.
+0.301	[*A*]we[*R*]keep on measuring[*A*]its CPR	context(we keep)	negated: False ,passive: False
+0.162	[*A*]we[*R*]keep	context()	negated: False ,passive: False
+0.918	[*A*]a flow[*R*]is regarded[*A*]as an LDDoS flow	context()	negated: False ,passive: True
+[LINE#284]If its CPR becomes smaller than the threshold, the flow will once again be considered as a normal flow and its packets will pass the router successfully.
+0.632	[*A*]its packets[*R*]will pass successfully[*A*]the router	context()	negated: False ,passive: False
+0.916	[*A*]the flow[*R*]will be considered[*A*]as a normal flow[*A*]once again	context()	negated: False ,passive: True
+0.552	[*A*]its CPR[*R*]becomes[*A*]smaller than the threshold	context()	negated: False ,passive: True
+[LINE#285]A normal TCP flow that was misclassified as an attack flow will reduce its CPR by sending data when the network is not congested.
+0.767	[*A*]the network[*R*]is not[*A*]congested	context()	negated: True ,passive: True
+0.875	[*A*]A normal TCP flow[*R*]will reduce[*A*]its CPR[*A*]by sending data	context()	negated: False ,passive: False
+0.928	[*A*]A normal TCP flow[*R*]was misclassified[*A*]as an attack flow	context()	negated: False ,passive: True
+[LINE#286]In the extreme scenario, the LDDoS attack can throttle all normal TCP flows and the aggregate rate of the LDDoS flows is also very close to the bottleneck bandwidth of network.
+0.958	[*A*]all normal TCP flows and the aggregate rate of the LDDoS flows[*R*]is[*A*]also[*A*]very close to the bottleneck bandwidth of network	context()	negated: False ,passive: True
+0.879	[*A*]the aggregate rate of the LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.980	[*A*]the LDDoS attack[*R*]can throttle[*A*]all normal TCP flows and the aggregate rate of the LDDoS flows[*A*]In the extreme scenario	context()	negated: False ,passive: False
+[LINE#287]There is almost no packet will be dropped in the scenario and consequently no network congestion can be observed.
+[LINE#288]When no network congestion can be observed from a scenario, the CPRs of both LDDoS flows and normal TCP flows all tend to be 0 according to the definition in (1).
+0.342	[*A*]all[*R*]to be[*A*]0[*A*]according to the definition in ( 1	context()	negated: False ,passive: True
+0.567	[*A*]all[*R*]tend[*A*]to be 0 according to the definition in ( 1	context()	negated: False ,passive: True
+0.831	[*A*]normal TCP[*R*]flows	context()	negated: False ,passive: False
+0.965	[*A*]the CPRs of both LDDoS[*R*]flows[*A*]When no network congestion can be observed from a scenario	context()	negated: False ,passive: True
+0.911	[*A*]no network congestion[*R*]can be observed[*A*]from a scenario	context()	negated: False ,passive: True
+[LINE#289]This is problematic for the CPR-based approach to distinguish LDDoS flows.
+0.648	[*A*]LDDoS[*R*]flows	context(the CPR - based approach to distinguish)	negated: False ,passive: False
+0.942	[*A*]the CPR-based approach[*R*]to distinguish[*A*]LDDoS flows	context()	negated: False ,passive: False
+0.223	[*A*]This[*R*]is[*A*]problematic	context()	negated: False ,passive: True
+[LINE#290]To solve this problem, we turn on the Random Early Detection (RED) [11] queue management mechanism on the router where we install the CPR-based module.
+0.999	[*A*]we[*R*]turn[*A*]11 ] queue management mechanism	context()	negated: False ,passive: False
+0.639	[*A*]we[*R*]install[*A*]the CPR-based module[*A*]the router	context()	negated: False ,passive: False
+0.568	[*A*]we[*R*]turn[*A*]on the Random[*A*]Early Detection (RED) [11[*A*]queue management mechanism on the router	context()	negated: False ,passive: False
+[LINE#291]In the extreme scenario mentioned above, the RED mechanism actively drops packets from the pulsing LDDoS flows.
+0.961	[*A*]the RED mechanism[*R*]actively drops[*A*]packets[*A*]In the extreme scenario	context()	negated: False ,passive: False
+0.783	[*A*]the extreme scenario[*R*]mentioned[*A*]above	context()	negated: False ,passive: True
+[LINE#292]Normally, RED drops packets in order to send congestion signals back to the sources.
+0.887	[*A*]RED[*R*]drops[*A*]packets[*A*]in order	context()	negated: False ,passive: False
+[LINE#293]As will be covered in Section 4, the CPR-based approach with RED effectively detects LDDoS attacks in this scenario.
+0.877	[*A*]RED[*R*]effectively detects[*A*]LDDoS attacks in this scenario	context()	negated: False ,passive: False
+[LINE#294]We configure the RED mechanism to be based on packet count as opposed to packet bytes because the packet-count RED is more sensitive to the small packets sent in an LDDoS attack flow. .
+0.918	[*A*]the RED mechanism[*R*]to be based[*A*]on packet count	context(We configure)	negated: False ,passive: True
+0.443	[*A*]We[*R*]configure[*A*]the RED mechanism to be based on packet count	context()	negated: False ,passive: False
+0.942	[*A*]the small packets[*R*]sent[*A*]in an LDDoS attack flow	context()	negated: False ,passive: True
+0.957	[*A*]the packet-count RED[*R*]is[*A*]more sensitive to the small packets	context()	negated: False ,passive: True
+[LINE#295] Bounds of the congestion participation ratesInthis subsection, we theoretically analyze the average CPR difference between normal TCP flows and LDDoS flows, which is critical for our approach to identify attack flows.
+0.638	[*A*]our approach[*R*]to identify[*A*]attack flows	context()	negated: False ,passive: False
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]theoretically analyze[*A*]the average CPR difference between normal TCP flows and LDDoS flows	context()	negated: False ,passive: False
+[LINE#296]More precisely, we conduct a worst-case analysis by computing the minimum average CPR difference between normal TCP flows and LDDoS flows.
+0.697	[*A*]LDDoS[*R*]flows	context()	negated: False ,passive: False
+[LINE#297]It is worth noting that, this section does not aim to establish a complete analytical model for CPR bounds, but to analyze the relationship between CPR bounds and several network parameters that are directly measureable.
+0.754	[*A*]several network parameters[*R*]are[*A*]directly measureable	context()	negated: False ,passive: True
+0.390	[*A*]It[*R*]is[*A*]worth noting that , this section does not aim to analyze the relationship between several network parameters	context()	negated: False ,passive: True
+0.435	[*A*]It[*R*]is[*A*]worth noting that , this section does not aim to analyze the relationship between CPR bounds	context()	negated: False ,passive: True
+[LINE#298]As stated in Section 3.3.3, to get the exact value of those CPR bounds, one sill needs to experimentally measure several network parameters.
+0.878	[*A*]one sill[*R*]needs to experimentally measure[*A*]several network parameters	context(one sill needs)	negated: False ,passive: False
+0.878	[*A*]one sill[*R*]needs[*A*]to experimentally measure several network parameters	context()	negated: False ,passive: False
+[LINE#299]Since LDDoS flows tend to have a higher CPR than normal TCP flows, the minimum average CPR difference is obtained by subtracting the upper bound of normal TCP flows' average CPR from the lower bound of the average CPR of LDDoS flows.
+0.945	[*A*]the minimum average CPR difference[*R*]by subtracting[*A*]the upper bound of normal TCP	context()	negated: False ,passive: False
+0.832	[*A*]the minimum average CPR difference[*R*]is obtained	context()	negated: False ,passive: False
+0.831	[*A*]normal TCP[*R*]flows	context()	negated: False ,passive: False
+0.857	[*A*]LDDoS[*R*]to have[*A*]a higher CPR than normal TCP flows	context()	negated: False ,passive: False
+0.855	[*A*]LDDoS[*R*]flows tend[*A*]to have a higher CPR	context()	negated: False ,passive: True
+[LINE#300]We obtain the theoretical equations for these two bounds in this subsection and verify the results through experiments in a real network in Section 5.
+0.569	[*A*]We[*R*]obtain[*A*]the theoretical equations for these two bounds in this subsection	context()	negated: False ,passive: False
+[LINE#301]Table 2 lists the notation used in our analysis.
+0.835	[*A*]the notation[*R*]used[*A*]in our analysis	context()	negated: False ,passive: True
+[LINE#302]When a network's bandwidth is sufficiently high, packets are unlikely to be dropped in the network, and an LDDoS attack cannot throttle normal TCP traffic either.
+0.944	[*A*]an LDDoS attack[*R*]can not throttle[*A*]normal TCP traffic[*A*]either	context()	negated: True ,passive: False
+0.877	[*A*]packets[*R*]to be dropped[*A*]in the network	context()	negated: False ,passive: True
+0.938	[*A*]packets[*R*]are[*A*]unlikely to be dropped in the network[*A*]When a network 's bandwidth is sufficiently high	context()	negated: False ,passive: True
+0.841	[*A*]a network 's bandwidth[*R*]is[*A*]sufficiently high	context()	negated: False ,passive: True
+[LINE#303]Therefore we focus on the scenario that a network's bandwidth is lower than users' demands, i.e., the network is relatively high loaded.
+0.937	[*A*]a network's bandwidth[*R*]is[*A*]lower than users' demands	context()	negated: False ,passive: True
+[LINE#304] This can be represented as TCP+LDDoS>.
+0.425	[*A*]This[*R*]can be represented[*A*]as TCP+LDDoS	context()	negated: False ,passive: True
+[LINE#305]B.Consider the following scenarios.
+[LINE#306] In a time period T, a set of normal TCP flows and LDDoS attack flows with average aggregate peak incoming rates TCP and LDDoS go through a router with outgoing bandwidth.
+0.905	[*A*]TCP and LDDoS[*R*]go[*A*]through a router with outgoing bandwidth	context()	negated: False ,passive: True
+0.831	[*A*]LDDoS attack[*R*]flows	context()	negated: False ,passive: False
+0.971	[*A*]a set of normal TCP[*R*]flows[*A*]In a time period T	context()	negated: False ,passive: True
+[LINE#307]B. Since TCP+LDDoS>B, network congestion and packet dropping will happen.
+0.788	[*A*]B. dropping[*R*]will happen	context()	negated: False ,passive: False
+0.732	[*A*]B. packet[*R*]will happen	context()	negated: False ,passive: False
+0.803	[*A*]B. network congestion[*R*]will happen	context()	negated: False ,passive: False
+0.698	[*A*]Since TCP+LDDoS > B[*R*]will happen	context()	negated: False ,passive: False
+[LINE#308]Let TT be the time when the outgoing link is in congestion and packets are dropped.
+0.939	[*A*]the outgoing packets[*R*]are dropped[*A*]the time	context()	negated: False ,passive: True
+0.960	[*A*]the outgoing link[*R*]is[*A*]in congestion[*A*]the time	context()	negated: False ,passive: True
+[LINE#309] We investigate the CPR through the ratio r of dropped packets to all incoming packets in this time period.
+0.498	[*A*]We[*R*]investigate[*A*]the CPR	context()	negated: False ,passive: False
+[LINE#310]T. More specifically, we want to establish the relationship between CPR and r. Note that r is the packet drop ratio that can be measured directly from network traffic..
+0.309	[*A*]we[*R*]want to establish[*A*]the relationship between CPR and r. Note that r is the packet drop ratio	context(we want)	negated: False ,passive: False
+0.372	[*A*]we[*R*]want[*A*]to establish the relationship between CPR and r. Note that r is the packet drop ratio	context()	negated: False ,passive: False
+0.905	[*A*]the packet drop ratio[*R*]can be measured directly[*A*]from network traffic	context()	negated: False ,passive: True
+[LINE#311] Upper bound of the CPR for normal TCP flowsAlthoughmany sophisticated TCP models have been proposed [12-15], we found that the simple model proposed in this subsection is sufficient for determining the upper bound of normal TCP flows' CPR.We first consider the situation when there is no LDDoS attack flow, i.e., all flows are normal TCP flows.
+0.767	[*A*]all flows[*R*]are[*A*]normal	context()	negated: False ,passive: True
+0.911	[*A*]the simple model[*R*]proposed[*A*]in this subsection	context()	negated: False ,passive: True
+0.969	[*A*]the simple model proposed in this subsection[*R*]is[*A*]sufficient for determining the upper bound of normal TCP flows	context(we found)	negated: False ,passive: True
+0.917	[*A*]Upper[*R*]bound[*A*]of the CPR[*A*]for normal TCP flowsAlthoughmany sophisticated TCP models	context(we found)	negated: False ,passive: False
+0.317	[*A*]we[*R*]found[*A*]that the simple model proposed in this subsection is sufficient for determining the upper bound of normal TCP flows	context()	negated: False ,passive: False
+0.639	[*A*]TCP[*R*]flows	context(CPR.We consider)	negated: False ,passive: False
+0.873	[*A*]CPR.We[*R*]consider[*A*]the situation[*A*]first	context()	negated: False ,passive: False
+[LINE#312]The situation when attack flows are present will be described next.
+0.842	[*A*]The situation when attack flows are present[*R*]will be described[*A*]next	context()	negated: False ,passive: True
+0.767	[*A*]attack flows[*R*]are[*A*]present	context()	negated: False ,passive: True
+[LINE#313]When there are only normal TCP flows, the traffic in time period T can be depicted in Fig. 6, which is obtained from our testbed experiment results.
+0.863	[*A*]the traffic in time period T[*R*]is obtained[*A*]from our testbed experiment results	context()	negated: False ,passive: True
+0.941	[*A*]the traffic in time period T[*R*]can be depicted[*A*]in Fig[*A*]When there are only normal TCP flows	context()	negated: False ,passive: True
+[LINE#314]We assume that the packet dropping is all due to network congestion.
+0.901	[*A*]the packet dropping[*R*]is[*A*]due to network congestion	context(We assume)	negated: False ,passive: True
+0.279	[*A*]We[*R*]assume[*A*]that the packet dropping is all due to network congestion	context()	negated: False ,passive: False
+[LINE#315] When the outgoing link is congested, the buffers of routers are fully filled, and TCP is higher than B.Thatis the reason for packet dropping.
+0.904	[*A*]TCP[*R*]is[*A*]higher than B.Thatis	context()	negated: False ,passive: True
+0.917	[*A*]the buffers of routers[*R*]are filled[*A*]When the outgoing link is congested	context()	negated: False ,passive: True
+0.828	[*A*]the outgoing link[*R*]is[*A*]congested	context()	negated: False ,passive: True
+[LINE#316] 6, one can see that the number of packets dropped in time period.
+0.897	[*A*]the number of packets[*R*]dropped[*A*]in time period	context(one can see)	negated: False ,passive: True
+0.310	[*A*]one[*R*]can see[*A*]that the number of packets dropped in time period	context()	negated: False ,passive: False
+[LINE#317] T is (TTCP)/z, whereas the total number of incoming packets in T is (TTCP)/z+((T-T)B)/z, which gives us rTCP in (3).Intuitionally, rTCP is the ratio of the shaded area to the area enclosed by the Rate curve and the Time axis (from 0 to T) in Fig. 7 , i.e., the area enclosed by the bold curves.(3)rTCP=TTCP/zTTCP/z+(T-T)B/z=TTCPTTCP+(T-T)BAccording to the definition of CPR in (1), we have the CPR of the aggregate TCP flows, TCP, as(4)TCP=TTCP/zTTCP/z+(T-T)B/z=TTCPTTCP+(T-T)BFig.graphically illustrates the calculation of TCP in (4).
+0.918	[*A*]the area[*R*]enclosed[*A*]by the Rate curve and the Time axis	context()	negated: False ,passive: True
+0.754	[*A*]the aggregate[*R*]flows	context()	negated: False ,passive: False
+0.706	[*A*]z[*R*]gives[*A*]us[*A*]rTCP[*A*]in (3	context()	negated: False ,passive: False
+0.969	[*A*]TCP=TTCP/zTTCP/z+(T-T)B/z=TTCPTTCP+(T-T)BFig.graphically[*R*]illustrates[*A*]the calculation of TCP[*A*]in	context()	negated: False ,passive: False
+0.846	[*A*]the area enclosed by the bold curves.[*R*]rTCP=TTCP	context()	negated: False ,passive: False
+0.951	[*A*]the total number of incoming packets in T[*R*]is[*A*]z, which gives us rTCP in (3)	context()	negated: False ,passive: True
+[LINE#318]TCP is the proportion of the shaded area to the area enclosed by the bold curves.
+0.903	[*A*]the area[*R*]enclosed[*A*]by the bold curves	context()	negated: False ,passive: True
+0.887	[*A*]TCP[*R*]is[*A*]the proportion of the shaded area to the area	context()	negated: False ,passive: True
+[LINE#319] (3) and (4) yield the relationship between the CPR of the aggregate TCP flows, TCP, and rTCPTCPTCPrTCP(TCP>0)0(TCP=0)In (5), when TCP=0, no packet dropping is observed.
+0.751	[*A*]no packet dropping[*R*]is observed	context()	negated: False ,passive: False
+0.754	[*A*]the aggregate[*R*]flows	context()	negated: False ,passive: False
+[LINE#320] Consequently, T=0 and TCP=0.From (2) and (5), we get (6):(6)TCP= TCPTCP-BrTCP=11-B/TCPrTCP(TCP>B).
+[LINE#321]From (6), we can see that the average CPR of normal TCP flows without attacks is determined by B/TCP and rTCP, which in practice can be obtained from network traffic.
+0.741	[*A*]the average CPR of normal TCP[*R*]flows	context(we can see)	negated: False ,passive: False
+0.443	[*A*]we[*R*]can see[*A*]that the average CPR of normal TCP flows without attacks[*A*]From (6	context()	negated: False ,passive: False
+[LINE#322]In other words, once we obtain B, TCP and rTCP, we can use (6) to get TCP.In Section 5, the accuracy of (6) is validated by real network traffic.
+0.901	[*A*]TCP.In Section 5[*R*]is validated[*A*]by real network traffic	context(we can use to get)	negated: False ,passive: True
+0.444	[*A*]we[*R*]can use to get[*A*]TCP.In Section 5 , the accuracy of ( 6 ) is validated by real network traffic	context(we can use)	negated: False ,passive: False
+0.497	[*A*]we[*R*]can use[*A*]to get TCP.In Section 5 , the accuracy of ( 6 ) is validated by real network traffic[*A*]once we obtain rTCP	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]obtain[*A*]rTCP	context()	negated: False ,passive: False
+0.901	[*A*]TCP.In Section 5[*R*]is validated[*A*]by real network traffic	context(we can use to get)	negated: False ,passive: True
+0.444	[*A*]we[*R*]can use to get[*A*]TCP.In Section 5 , the accuracy of ( 6 ) is validated by real network traffic	context(we can use)	negated: False ,passive: False
+0.497	[*A*]we[*R*]can use[*A*]to get TCP.In Section 5 , the accuracy of ( 6 ) is validated by real network traffic[*A*]once we obtain TCP	context()	negated: False ,passive: False
+0.498	[*A*]we[*R*]obtain[*A*]TCP	context()	negated: False ,passive: False
+0.999	[*A*]we[*R*]can use[*A*]6	context()	negated: False ,passive: False
+0.901	[*A*]TCP.In Section 5[*R*]is validated[*A*]by real network traffic	context(we can use to get)	negated: False ,passive: True
+0.444	[*A*]we[*R*]can use to get[*A*]TCP.In Section 5 , the accuracy of ( 6 ) is validated by real network traffic	context(we can use)	negated: False ,passive: False
+0.497	[*A*]we[*R*]can use[*A*]to get TCP.In Section 5 , the accuracy of ( 6 ) is validated by real network traffic[*A*]once we obtain B	context()	negated: False ,passive: False
+0.452	[*A*]we[*R*]obtain[*A*]B	context()	negated: False ,passive: False
+[LINE#323]When LDDoS attack flows are present with normal TCP flows in the network, normal TCP flows would be forced by the LDDoS flows to send packets only in the off-period of the attack (when the network is not congested) or may even stop sending.
+0.767	[*A*]the network[*R*]is not[*A*]congested	context()	negated: True ,passive: True
+0.980	[*A*]normal TCP flows[*R*]would be forced[*A*]by the LDDoS[*A*]When LDDoS attack flows are present with normal TCP flows in the network	context()	negated: False ,passive: True
+[LINE#324]Thus the CPR of normal TCP flows in this case is smaller than the one in the first case as shown in (6).
+0.949	[*A*]Thus the CPR of normal TCP flows in this case[*R*]is[*A*]smaller than the one in the first case	context()	negated: False ,passive: True
+[LINE#325]Therefore TCP in (6) represents the upper bound of the CPR of normal TCP flows.
+0.962	[*A*]TCP in (6[*R*]represents[*A*]the upper bound of the CPR of normal TCP flows	context()	negated: False ,passive: False
+[LINE#326]Lower bound of the CPR for LDDoS flowsThe lower bound of the average CPR for the aggregate LDDoS flows should be achieved in the extreme scenarios described in Section 3.2, i.e., when the aggregate rate of attack flows is very close to the bottleneck bandwidth.
+0.754	[*A*]the aggregate[*R*]flows	context()	negated: False ,passive: False
+0.958	[*A*]LDDoS flowsThe[*R*]bound[*A*]of the average CPR[*A*]for the aggregate[*A*]lower	context()	negated: False ,passive: False
+0.948	[*A*]the aggregate rate of attack flows[*R*]is[*A*]very close to the bottleneck bandwidth	context()	negated: False ,passive: True
+[LINE#327]9 illustrates the scenarios where two aggregate bursts with rate LDDoS very close to bandwidth B were sent one after the other with an interval between them.
+0.425	[*A*]9[*R*]illustrates[*A*]the scenarios where two aggregate bursts with rate LDDoS	context()	negated: False ,passive: False
+[LINE#328]The network is congested during two bursts T1 and T2.
+0.813	[*A*]The network[*R*]is[*A*]congested	context()	negated: False ,passive: True
+[LINE#329]However, since LDDoS is close to B, the number of dropped packets may be very small if no Active Queue Management (e.g., RED) is being deployed.
+0.792	[*A*]no Active Queue Management[*R*]is being deployed	context()	negated: False ,passive: False
+0.960	[*A*]the number of dropped packets[*R*]may be[*A*]very small[*A*]if no Active Queue Management (e.g., RED) is being deployed	context()	negated: False ,passive: True
+0.887	[*A*]LDDoS[*R*]is[*A*]close to B	context()	negated: False ,passive: True
+[LINE#330]As previously described, our CPR-based approach employs RED to actively drop packets from the pulsing LDDoS flows.
+0.765	[*A*]our CPR-based approach[*R*]to actively drop[*A*]packets[*A*]from the pulsing LDDoS flows	context()	negated: False ,passive: False
+0.484	[*A*]our CPR-based approach[*R*]employs RED	context()	negated: False ,passive: False
+[LINE#331]In Fig. 9, T1 and T2 represent the packet-dropping period (mainly due to the RED) in the two bursts.
+[LINE#332]Note that in the figure, both T1 and T2 are represented as a single period for illustrative purposes.
+[LINE#333]In fact, there may be multiple short periods distributed within each burst.
+0.911	[*A*]multiple short periods[*R*]distributed[*A*]within each burst	context()	negated: False ,passive: True
+[LINE#334]However, this simplification does not affect our analysis below.
+0.831	[*A*]this simplification[*R*]does not affect below[*A*]our analysis	context()	negated: True ,passive: False
+[LINE#335] In this situation, we can get (7) and (8).(7)rLDDoS=(T1+T2)LDDoS/z(T1+T2)LDDoS/z=(T1+T2)LDDoS(T1+T2)LDDoS(8)LDDoS=(T1+T2)LDDoS/z(T1+T2)LDDoS/z=(T1+T2)(T1+T2)From (7) and (8)LDDoSLDDoSrLDDoS(LDDoS>0)0(LDDoS=0)In (9), when LDDoS=0, no packet dropping is observed.
+0.551	[*A*]we[*R*]can get[*A*]7[*A*]In this situation	context()	negated: False ,passive: False
+0.999	[*A*]we[*R*]can get[*A*]7	context()	negated: False ,passive: False
+0.751	[*A*]no packet dropping[*R*]is observed	context()	negated: False ,passive: False
+0.551	[*A*]we[*R*]can get[*A*]In this situation	context()	negated: False ,passive: False
+[LINE#336]Consequently, T=0 and LDDoS=0.
+[LINE#337]If no RED is deployed, rLDDoS and LDDoS could drop to 0, resulting in the CPR for the LDDoS flow to be 0 as well.
+0.877	[*A*]LDDoS[*R*]could drop[*A*]to 0[*A*]resulting in the CPR	context()	negated: False ,passive: False
+0.831	[*A*]the LDDoS flow[*R*]to be[*A*]0[*A*]as well	context()	negated: False ,passive: True
+0.840	[*A*]rLDDoS[*R*]could drop[*A*]to 0[*A*]resulting in the CPR	context()	negated: False ,passive: True
+0.788	[*A*]no RED[*R*]is deployed	context()	negated: False ,passive: False
+[LINE#338]Under these conditions no attack flows will be detected.
+0.784	[*A*]no attack[*R*]flows	context()	negated: False ,passive: False
+[LINE#339]However, when we turn on RED on the router, packets will be dropped and attack flows will be detected.
+0.732	[*A*]attack flows[*R*]will be detected	context()	negated: False ,passive: False
+0.892	[*A*]packets[*R*]will be dropped[*A*]when we turn on RED on the router	context()	negated: False ,passive: True
+0.477	[*A*]we[*R*]turn[*A*]on the router	context()	negated: False ,passive: True
+[LINE#340]rLDDoS and LDDoS in (9) are mainly determined by the RED mechanism in practice, as will be described in the next section. .
+0.882	[*A*]LDDoS in ( 9[*R*]are determined[*A*]by the RED mechanism	context()	negated: False ,passive: True
+0.774	[*A*]rLDDoS[*R*]are determined[*A*]by the RED mechanism in practice[*A*]as will be described in the next section	context()	negated: False ,passive: True
+[LINE#341]Minimum average CPR difference between TCP and LDDoS flowsThe minimum average CPR difference is obtained by subtracting the upper bound of normal TCP flows' average CPR (TCP) from the lower bound of the average CPR of LDDoS flows (LDDoS).
+0.847	[*A*]Minimum average CPR difference between TCP and LDDoS flowsThe minimum average CPR difference[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#342]In order to calculate TCP and LDDoS based on (6) and (9), several parameters need to be measured from network traffic, including B, TCP,rTCP,LDDoS,LDDoS, and rLDDoS.Note that TCP and LDDoS , which respectively represents the average aggregate peak incoming rate of normal TCP flows and LDDoS flows, are normally higher than B - the bandwidth of the outgoing link of a router.
+0.879	[*A*]TCP and LDDoS[*R*]represents[*A*]the average aggregate peak incoming rate of normal TCP	context()	negated: False ,passive: False
+0.887	[*A*]several parameters[*R*]to be measured[*A*]from network traffic	context()	negated: False ,passive: True
+[LINE#343]They could be measured at a router by sampling packets from its incoming link before those packets enter the packet queue or be dropped when the packet queue is full (packets that manage to enter the packet queue will be finally sent to the outgoing link of the router).We measure these parameters in three test-bed experiments in Section 5 and show the calculation results - TCPe and LDDoSe - in Table 6.
+0.828	[*A*]the packet queue[*R*]is[*A*]full	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]measure[*A*]these parameters[*A*]in three test-bed experiments in Section 5	context()	negated: False ,passive: False
+0.751	[*A*]those packets[*R*]be dropped[*A*]when the packet queue is full (packets that manage to enter the packet queue will be finally sent to the outgoing link of the router).We measure these parameters in three test-bed experiments in Section 5 and show the calculation results - TCPe and LDDoSe - in Table 6	context()	negated: False ,passive: True
+0.951	[*A*]packets that manage to enter the packet queue[*R*]will be sent[*A*]to the outgoing link of the router[*A*]finally	context()	negated: False ,passive: True
+0.903	[*A*]those packets[*R*]enter[*A*]the packet queue	context()	negated: False ,passive: False
+0.214	[*A*]We[*R*]show	context()	negated: False ,passive: False
+0.442	[*A*]They[*R*]by sampling[*A*]packets[*A*]before those packets enter the packet queue or be dropped	context()	negated: False ,passive: False
+0.846	[*A*]packets[*R*]manage to enter[*A*]the packet queue	context(packets manage)	negated: False ,passive: False
+0.846	[*A*]packets[*R*]manage[*A*]to enter the packet queue	context()	negated: False ,passive: False
+0.616	[*A*]They[*R*]could be measured[*A*]at a router	context()	negated: False ,passive: True
+[LINE#344]According to Table 6, the minimum-average-CPR differences between normal TCP and LDDoS flows (DIFe, which equals to LDDoSe-TCPe) are 62.05%, 69.49%, and 73.46% for those three test-bed experiments, resulting in an overall minimum-average-CPR difference of 68.3%.
+0.329	[*A*]those three test bed experiments[*R*]have the minimum average CPR differences of[*A*]73.46 %	context()	negated: False ,passive: False
+0.973	[*A*]the minimum average CPR differences between normal TCP and LDDoS flows ( DIFe , which equals to LDDoSe - TCPe )[*R*]are[*A*]73.46 %	context()	negated: False ,passive: False
+0.903	[*A*]the minimum - average - CPR differences between normal TCP and LDDoS flows[*R*]are[*A*]73.46 % for those three test - bed experiments[*A*]resulting in an overall minimum - average - CPR difference of 68.3 %	context()	negated: False ,passive: True
+0.921	[*A*]DIFe[*R*]equals[*A*]to LDDoSe - TCPe	context()	negated: False ,passive: True
+0.869	[*A*]the minimum - average - CPR differences between normal TCP and LDDoS[*R*]flows	context()	negated: False ,passive: False

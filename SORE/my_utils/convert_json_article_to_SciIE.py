@@ -4,8 +4,9 @@ from SORE.my_utils import clean_raw_input
 def convert_doc_to_sciie_format(input_dict):
     """
     Reads an unprocessed json file and prepares a list of sentences in the SciIE format
-    :param input_docs: a json-files containing unprocessed papers
-    :return: processed_files: list of sentences ready to be input to a trained SciIE model
+
+    :param input_dict: A dataset json-file containing unprocessed papers.
+    :return: processed_sentences - a list of sentences ready to be input to a trained SciIE model
     """
     processed_sentences = []
     for doc_id in input_dict:

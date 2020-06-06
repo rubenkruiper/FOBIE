@@ -1,0 +1,689 @@
+[LINE#1]-reinforced composites and nanocomposites can contain a wide range of discrete particles, of various morphologies (e.g. spherical, fibre, and tube).
+0.931	[*A*]nanocomposites[*R*]can contain[*A*]a wide range of discrete particles , of various morphologies	context()	negated: False ,passive: False
+0.931	[*A*]nanocomposites[*R*]can contain[*A*]a wide range of discrete particles , of various morphologies ( fibre	context()	negated: False ,passive: False
+0.931	[*A*]nanocomposites[*R*]can contain[*A*]a wide range of discrete particles , of various morphologies ( e.g. spherical	context()	negated: False ,passive: False
+0.943	[*A*]- reinforced composites[*R*]can contain[*A*]a wide range of discrete particles , of various morphologies	context()	negated: False ,passive: False
+0.943	[*A*]- reinforced composites[*R*]can contain[*A*]a wide range of discrete particles , of various morphologies ( fibre	context()	negated: False ,passive: False
+0.943	[*A*]- reinforced composites[*R*]can contain[*A*]a wide range of discrete particles , of various morphologies ( e.g. spherical	context()	negated: False ,passive: False
+[LINE#2]Two-dimensional micrographs of the material are used to assess whether the particles are well- or poorly-dispersed, but typically use the assumption that all particles are identical and spherical.
+0.724	[*A*]the particles[*R*]are[*A*]well- or poorly-dispersed	context(Two - dimensional micrographs of the material to assess)	negated: False ,passive: True
+0.857	[*A*]Two-dimensional micrographs of the material[*R*]to assess[*A*]whether the particles are well- or poorly-dispersed, but typically use the assumption that all particles are identical and spherical	context()	negated: False ,passive: False
+0.767	[*A*]all particles[*R*]are[*A*]identical and spherical	context()	negated: False ,passive: True
+0.898	[*A*]Two-dimensional micrographs of the material[*R*]are used[*A*]to assess whether the particles are well- or poorly-dispersed, but typically use the assumption that all particles are identical and spherical	context()	negated: False ,passive: True
+[LINE#3]However we show, by considering elliptical particles, that the sizing and shapes of the discrete particles can change the overall appearance of the system, without the underlying mechanisms changing.
+0.913	[*A*]the shapes of the discrete particles[*R*]can change[*A*]the overall appearance of the system	context(we show)	negated: False ,passive: False
+0.291	[*A*]we[*R*]show[*A*]that the shapes of the discrete particles can change the overall appearance of the system , without the underlying mechanisms changing	context()	negated: False ,passive: False
+0.913	[*A*]the sizing of the discrete particles[*R*]can change[*A*]the overall appearance of the system	context(we show)	negated: False ,passive: False
+0.293	[*A*]we[*R*]show by considering[*A*]elliptical particles	context(we show)	negated: False ,passive: False
+0.291	[*A*]we[*R*]show[*A*]that the sizing of the discrete particles can change the overall appearance of the system , without the underlying mechanisms changing	context()	negated: False ,passive: False
+0.751	[*A*]the underlying mechanisms[*R*]changing	context()	negated: False ,passive: False
+[LINE#4]Thus our interpretation of particle dispersion is obtained by comparing our measurements to a reference system, which takes into account the particle morphologies, and demonstrates that discrepancies are brought on by oversimplification.
+0.897	[*A*]a reference system[*R*]takes[*A*]into account[*A*]the particle morphologies	context()	negated: False ,passive: False
+0.409	[*A*]our interpretation of particle dispersion[*R*]is obtained	context()	negated: False ,passive: False
+[LINE#5]Application to nanocomposite micrographsIn the above section we found that care needs to be taken when inferring the material's dispersion from a sample measurement of the nanoparticles' geometrical arrangement using Delaunay tessellation.
+0.920	[*A*]care[*R*]to be taken[*A*]when inferring the material's dispersion from a sample measurement of the nanoparticles' geometrical arrangement	context()	negated: False ,passive: True
+0.916	[*A*]care[*R*]needs[*A*]to be taken when inferring the material's dispersion from a sample measurement of the nanoparticles' geometrical arrangement	context(we found)	negated: False ,passive: False
+0.194	[*A*]we[*R*]found[*A*]that care needs to be taken	context()	negated: False ,passive: False
+[LINE#6]In this section we apply these techniques to example materials..
+0.595	[*A*]we[*R*]apply[*A*]these techniques[*A*]In this section	context()	negated: False ,passive: False
+[LINE#7]The quality of dispersionA pragmatic consideration is whether a reference model of point or identical disc nanoparticles will suffice for determining whether the material is randomly dispersed.
+0.936	[*A*]a reference model of point or identical disc nanoparticles[*R*]will suffice[*A*]for determining whether the material is randomly dispersed	context(The quality of dispersionA pragmatic consideration is)	negated: False ,passive: False
+0.969	[*A*]The quality of dispersionA pragmatic consideration[*R*]is[*A*]whether a reference model of point or identical disc nanoparticles will suffice for determining whether the material is randomly dispersed	context()	negated: False ,passive: True
+[LINE#8] 7 shows the correspondence between the dispersion type and combinations of the Area Disorder and area fraction, for poly-dispersed particles (Fig.7a) and low-to-moderate aspect ratio elliptical particles (Fig. 7b).
+0.567	[*A*]7[*R*]shows[*A*]the correspondence between the dispersion type and combinations of the fraction	context()	negated: False ,passive: False
+0.567	[*A*]7[*R*]shows[*A*]the correspondence between the dispersion type and combinations of the fraction , for poly-dispersed particles	context()	negated: False ,passive: False
+0.567	[*A*]7[*R*]shows[*A*]the correspondence between the dispersion type and combinations of the area	context()	negated: False ,passive: False
+0.567	[*A*]7[*R*]shows[*A*]the correspondence between the dispersion type and combinations of the area , for poly-dispersed particles	context()	negated: False ,passive: False
+0.612	[*A*]7[*R*]shows[*A*]the correspondence between the dispersion type and combinations of the Area Disorder	context()	negated: False ,passive: False
+[LINE#9]No such diagram can be used for categorising particles with high aspect ratio, defined as f4/3Af, in which it is possible for a random set of particles to have an ADDel very much larger than that expected for point particles.
+0.845	[*A*]a random set of particles[*R*]to have[*A*]an ADDel very much larger than that	context()	negated: False ,passive: False
+0.913	[*A*]high aspect ratio[*R*]defined[*A*]as f4/3Af	context()	negated: False ,passive: True
+0.044	[*A*]that[*R*]expected	context()	negated: False ,passive: False
+0.911	[*A*]No such diagram[*R*]can be used[*A*]for categorising particles with high aspect ratio	context()	negated: False ,passive: True
+[LINE#10]The middle grey region of the diagram shows all the possible values of ADDel that might indicate the system is random, depending on the morphology of the particles.
+0.905	[*A*]the system[*R*]is[*A*]random[*A*]depending on the morphology of the particles	context(all the possible values of ADDel might indicate)	negated: False ,passive: True
+0.951	[*A*]all the possible values of ADDel[*R*]might indicate[*A*]the system is random, depending on the morphology of the particles	context()	negated: False ,passive: False
+0.960	[*A*]The middle grey region of the diagram[*R*]shows[*A*]all the possible values of ADDel	context()	negated: False ,passive: False
+[LINE#11]The upper bound is that expected if the particles were point-like, while the lower bound may depend on the particle morphology.
+0.592	[*A*]the lower bound[*R*]may depend[*A*]on the particle morphology	context()	negated: False ,passive: False
+0.937	[*A*]the particles[*R*]were[*A*]point-like[*A*]while the lower bound may depend on the particle morphology	context()	negated: False ,passive: True
+0.530	[*A*]The upper bound[*R*]is[*A*]that expected if the particles were point-like,	context()	negated: False ,passive: True
+0.260	[*A*]upper[*R*]bound	context()	negated: False ,passive: False
+[LINE#12]A system is most poorly dispersed when all the nanoparticles have aggregated into a single cluster.
+0.911	[*A*]all the nanoparticles[*R*]have aggregated[*A*]into a single cluster	context()	negated: False ,passive: False
+0.937	[*A*]A system[*R*]is most poorly dispersed[*A*]when all the nanoparticles have aggregated into a single cluster	context()	negated: False ,passive: True
+[LINE#13]Thus Fig. 7 exhibits an un-physical region of high ADDel values that are excluded.
+0.776	[*A*]high ADDel values[*R*]are excluded	context()	negated: False ,passive: False
+[LINE#14]For identical spherical particles the division between a good and a poor dispersion is given by the dashed-line.
+0.970	[*A*]the division between a good and a poor dispersion[*R*]is given[*A*]by the dashed-line[*A*]For identical spherical particles	context()	negated: False ,passive: True
+[LINE#15] Poly-dispersing the sizes of a randomly dispersed set of particles increases the disorder of the system such that ADDel will be larger than that for identical particles, given by the dashed-line in Fig..
+0.905	[*A*]identical particles[*R*]given[*A*]by the dashed-line in Fig	context()	negated: False ,passive: True
+0.807	[*A*]ADDel[*R*]will be[*A*]larger than that[*A*]for identical particles	context()	negated: False ,passive: True
+0.953	[*A*]Poly-dispersing the sizes of a randomly dispersed set of particles[*R*]increases[*A*]the disorder of the system	context()	negated: False ,passive: False
+[LINE#16]Point-like particle behaviour can be approached by increasing the size range of the poly-dispersed particles.
+0.785	[*A*]Point-like particle behaviour[*R*]can be approached	context()	negated: False ,passive: False
+[LINE#17]Varying the shape of a particle away from spherical introduces more complex relations to the measured ADDel.
+[LINE#18]The lower bound of the grey region is defined by the minimum ADDel value given by HRE at fmin and approaches the dashed-line as the area fraction increases.
+0.949	[*A*]the minimum ADDel value[*R*]given[*A*]by HRE[*A*]at fmin	context()	negated: False ,passive: True
+0.385	[*A*]The[*R*]is defined[*A*]by the minimum ADDel value	context()	negated: False ,passive: True
+[LINE#19] At Af0.3 the two trend-lines converge which corresponds with the loss of the minima of ADDel with respect to f seen in Fig..
+0.971	[*A*]the two trend-lines[*R*]converge[*A*]which corresponds with the loss of the minima of ADDel with respect to f[*A*]At Af0.3	context()	negated: False ,passive: False
+0.840	[*A*]f[*R*]seen[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#20]A single sampleGetting a precise estimation of a material's mean Area Disorder from micrographs is impractical, given the high cost of microscopy and the large number of micrographs required.
+0.713	[*A*]micrographs[*R*]required	context()	negated: False ,passive: False
+0.990	[*A*]A single sampleGetting a precise estimation of a material's mean Area Disorder from micrographs[*R*]is[*A*]impractical[*A*]given the high cost of microscopy and the large number of micrographs	context()	negated: False ,passive: True
+0.718	[*A*]A single[*R*]sampleGetting[*A*]a precise estimation of a material's mean Area Disorder	context()	negated: False ,passive: False
+[LINE#21]Instead a small number of test micrographs of the material are used.
+0.843	[*A*]a small number of test micrographs of the material[*R*]are used	context()	negated: False ,passive: False
+[LINE#22]Each micrograph exhibits an unknown deviation away from the mean behaviour of the material.
+0.903	[*A*]Each micrograph[*R*]exhibits[*A*]an unknown deviation[*A*]away from the mean behaviour of the material	context()	negated: False ,passive: False
+[LINE#23]A statistical two-sided z-test is applied to determine whether a measured micrograph is likely to have come from a randomly dispersed material, of the form:(4)Z=(ADDel(test)-E(ADDel(HR)))/SAD(HR),where ADDel(test) is the measurement from the material, E (ADDel(HR)) and SAD(HR) are the mean and standard deviation, respectively, of the null-hypothesis HR model.
+0.897	[*A*]a measured micrograph[*R*]to have come[*A*]from a randomly dispersed material	context()	negated: False ,passive: True
+0.833	[*A*]SAD[*R*]are[*A*]the mean and standard deviation[*A*]respectively	context()	negated: False ,passive: True
+0.928	[*A*]ADDel[*R*]is[*A*]the measurement from the material	context()	negated: False ,passive: True
+0.964	[*A*]A statistical two-sided z-test[*R*]is applied[*A*]to determine whether a measured micrograph is likely to have come from a randomly dispersed material, of the form	context()	negated: False ,passive: True
+[LINE#24]Independent fluctuations in the particle distribution between samples of the HR model result in its Area Disorder being Gaussian-distributed about the mean value [22].
+0.962	[*A*]Independent fluctuations in the particle distribution between samples of the HR model[*R*]result[*A*]in its Area Disorder being Gaussian-distributed about the mean value	context()	negated: False ,passive: True
+[LINE#25]The null hypothesis is rejected at the 5% significance level if Z>1.96.
+0.993	[*A*]The null hypothesis[*R*]is rejected at[*A*]5 % significance level	context()	negated: False ,passive: False
+0.925	[*A*]The null hypothesis[*R*]is rejected[*A*]at the 5% significance level[*A*]if Z>1.96	context()	negated: False ,passive: True
+[LINE#26]In these cases the quality of the dispersion of the test material is likely to be better than randomly dispersed when Z<-1.96, or alternatively worse than that when Z>1.96.
+0.734	[*A*]Z[*R*]>[*A*]1.96	context()	negated: False ,passive: False
+0.845	[*A*]the quality of the dispersion of the test material[*R*]to be[*A*]better than randomly dispersed	context()	negated: False ,passive: True
+0.977	[*A*]the quality of the dispersion of the test material[*R*]is[*A*]likely to be better[*A*]In these cases	context()	negated: False ,passive: True
+[LINE#27]If the null hypothesis is not rejected then the test material is indeterminate from being random.
+0.828	[*A*]the test material[*R*]is[*A*]indeterminate	context()	negated: False ,passive: True
+0.783	[*A*]the null hypothesis[*R*]is not rejected[*A*]then	context()	negated: True ,passive: True
+[LINE#28]To perform the statistical z-test requires an estimate for the value of SAD(HR).
+0.948	[*A*]To perform the statistical z-test[*R*]requires[*A*]an estimate for the value of SAD	context()	negated: False ,passive: False
+[LINE#29] Values of SAD(HR) from our studies are summarised in Fig..
+0.744	[*A*]Values of SAD(HR) from our studies[*R*]are summarised[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#30]Example analysis of real micrographsThe above methodology is now applied to two real micrographs.
+0.946	[*A*]Example analysis of real micrographsThe above methodology[*R*]is applied[*A*]to two real micrographs[*A*]now	context()	negated: False ,passive: True
+[LINE#31] Material A (micrograph shown in Fig.consists of 20nm diameter silica nanoparticles in an anhydride-cured epoxy polymer matrix.
+0.947	[*A*]micrograph[*R*]shown[*A*]in Fig.consists of 20nm diameter silica nanoparticles in an anhydride-cured epoxy polymer matrix	context()	negated: False ,passive: True
+[LINE#32] Material B consists of the same silica nanoparticles (shown in Fig. 8b as light particles which are analysed) and CTBN rubber microparticles (shown in Fig. 8b as dark patches but are not analysed) set in the same anhydride-cured epoxy polymer [7].The micrographs are obtained using an atomic force microscope, and the centre of mass of each particle is identified using the imaging techniques outlined in [5].
+0.783	[*A*]the imaging techniques[*R*]outlined[*A*]in [ 5	context()	negated: False ,passive: True
+0.816	[*A*]the centre of mass of each particle[*R*]is identified	context()	negated: False ,passive: False
+0.732	[*A*]The micrographs[*R*]are obtained	context()	negated: False ,passive: False
+0.932	[*A*]the same silica[*R*]set[*A*]in the same anhydride-cured epoxy polymer	context()	negated: False ,passive: True
+0.927	[*A*]Material B[*R*]consists[*A*]of the same silica	context()	negated: False ,passive: True
+0.962	[*A*]the same silica CTBN rubber microparticles[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.961	[*A*]Material B[*R*]consists[*A*]of the same silica CTBN rubber microparticles ( shown in Fig . 8b as dark patches	context()	negated: False ,passive: True
+0.698	[*A*]light particles[*R*]are analysed	context()	negated: False ,passive: False
+0.938	[*A*]the same silica nanoparticles[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.927	[*A*]Material B[*R*]consists[*A*]of the same silica nanoparticles	context()	negated: False ,passive: True
+[LINE#33]These positions are then used to produce the Delaunay tessellation and calculate the Area Disorder.
+0.929	[*A*]These positions[*R*]are used[*A*]to calculate the Area Disorder[*A*]then	context()	negated: False ,passive: True
+0.905	[*A*]These positions[*R*]to produce[*A*]the Delaunay tessellation	context()	negated: False ,passive: False
+0.929	[*A*]These positions[*R*]are used[*A*]to produce the Delaunay tessellation[*A*]then	context()	negated: False ,passive: True
+[LINE#34]The size and extent of each identified nanoparticle is also recorded.
+0.724	[*A*]The extent of each identified nanoparticle[*R*]is recorded	context()	negated: False ,passive: False
+0.724	[*A*]The size of each identified nanoparticle[*R*]is recorded	context()	negated: False ,passive: False
+[LINE#35]The total area occupied by the nanoparticles is used to determine the area fraction of the micrograph, while the major and minor axis lengths of each nanoparticle give the particle's aspect ratio.
+0.948	[*A*]the major and minor axis lengths of each nanoparticle[*R*]give[*A*]the particle's aspect ratio	context()	negated: False ,passive: False
+0.927	[*A*]The total area occupied by the nanoparticles[*R*]to determine[*A*]the area fraction of the micrograph	context()	negated: False ,passive: False
+0.938	[*A*]The total area occupied by the nanoparticles[*R*]is used[*A*]to determine the area fraction of the micrograph	context()	negated: False ,passive: True
+0.911	[*A*]The total area[*R*]occupied[*A*]by the nanoparticles	context()	negated: False ,passive: True
+[LINE#36]From these we establish the reference HR model which has the equivalent area fraction, mean aspect ratio and number of particles.
+0.411	[*A*]we[*R*]mean[*A*]aspect ratio and number of particles	context()	negated: False ,passive: False
+0.927	[*A*]the reference HR model[*R*]has[*A*]the equivalent area fraction	context()	negated: False ,passive: False
+0.702	[*A*]we[*R*]establish[*A*]the reference HR model which has the equivalent area fraction[*A*]From these	context()	negated: False ,passive: False
+[LINE#37]The reference Area Disorder is then calculated from an ensemble of particle configurations.
+0.947	[*A*]The reference Area Disorder[*R*]is calculated[*A*]from an ensemble of particle configurations[*A*]then	context()	negated: False ,passive: True
+[LINE#38] Fig. 8 illustrates the micrographs used, and Table 2 tabulates the key statistics of the number of particles,mean and maximum aspect ratio and area fraction.
+0.568	[*A*]Table 2[*R*]tabulates[*A*]the key statistics of the number of particles	context()	negated: False ,passive: False
+0.732	[*A*]the micrographs[*R*]used	context()	negated: False ,passive: False
+0.933	[*A*]Fig . 8[*R*]illustrates[*A*]the micrographs used	context()	negated: False ,passive: False
+[LINE#39] The Area Disorder, measured from the micrograph, is stated along with analysis from the z-test using reference models of PR and HRE.These material cases demonstrate that when the aspect ratio is low and the particle density is small then testing against either the PR or.
+0.950	[*A*]The Area Disorder[*R*]is stated[*A*]z - test using reference models of HRE.These material cases	context()	negated: False ,passive: True
+0.828	[*A*]the aspect ratio[*R*]is[*A*]low	context()	negated: False ,passive: True
+0.776	[*A*]The Area Disorder[*R*]is stated	context()	negated: False ,passive: False
+0.922	[*A*]The Area Disorder[*R*]measured[*A*]from the micrograph	context()	negated: False ,passive: True
+[LINE#40]HRE model leads to the same conclusions.
+0.903	[*A*]HRE model[*R*]leads[*A*]to the same conclusions	context()	negated: False ,passive: False
+[LINE#41]Material A is found to be indeterminate from random and material B is poorly dispersed.
+0.732	[*A*]material B[*R*]is poorly dispersed	context()	negated: False ,passive: False
+0.914	[*A*]Material A[*R*]to be[*A*]indeterminate from material B is poorly dispersed	context()	negated: False ,passive: True
+0.732	[*A*]random B[*R*]is poorly dispersed	context()	negated: False ,passive: False
+0.914	[*A*]Material A[*R*]to be[*A*]indeterminate from random B is poorly dispersed	context()	negated: False ,passive: True
+0.788	[*A*]Material A[*R*]is found	context()	negated: False ,passive: False
+[LINE#42]The confidence in these conclusions, given by the Z values, depends on the reference model, with it being less certain using the PR model than using the more accurate HRE model.
+0.225	[*A*]it[*R*]being[*A*]less certain	context()	negated: False ,passive: True
+0.962	[*A*]The confidence in these conclusions, given by the Z values[*R*]depends[*A*]on the reference model	context()	negated: False ,passive: False
+0.927	[*A*]The confidence in these conclusions[*R*]given[*A*]by the Z values	context()	negated: False ,passive: True
+[LINE#43]It is expected that the difference between models becomes more prevalent with denser packings and/or higher aspect ratios and may lead to contradictory conclusions.
+0.900	[*A*]the difference between models[*R*]becomes[*A*]more prevalent with higher aspect ratios	context(It is expected)	negated: False ,passive: True
+0.900	[*A*]the difference between models[*R*]becomes[*A*]more prevalent with denser packings and /	context(It is expected)	negated: False ,passive: True
+0.358	[*A*]It[*R*]may lead[*A*]to contradictory conclusions	context(It is expected)	negated: False ,passive: False
+0.162	[*A*]It[*R*]is expected	context()	negated: False ,passive: False
+[LINE#44]Studies like the ones discussed in this article, for particle size dispersion and ellipticality of the shape, inform us of when differences in particle morphology (from that of identical discs) should or should not significantly affect the estimates of randomly-dispersed nanoparticles.
+0.918	[*A*]differences in particle morphology (from that of identical discs[*R*]should should not significantly affect[*A*]the estimates of randomly-dispersed nanoparticles	context()	negated: True ,passive: False
+0.838	[*A*]Studies like the ones[*R*]inform[*A*]us[*A*]of	context()	negated: False ,passive: False
+0.903	[*A*]the ones[*R*]discussed[*A*]in this article	context()	negated: False ,passive: True
+[LINE#45]These estimates are used as the basis from which to decide whether a material has nanoparticles dispersed better (hence more regularly arranged) or worse (more clustered) than random.
+0.260	[*A*]more[*R*]clustered	context()	negated: False ,passive: False
+0.732	[*A*]These estimates[*R*]are used	context()	negated: False ,passive: False
+[LINE#46]The microstructure is found to change with aspect ratio and area fraction, even in the absence of any chemical or crystalline growth effects.
+0.698	[*A*]The microstructure[*R*]to change	context()	negated: False ,passive: False
+0.732	[*A*]The microstructure[*R*]is found	context()	negated: False ,passive: False
+[LINE#47] At low aspect ratios, (relative to the area fraction)the particles behave particle-like and can be well described by disc/point particle theories.
+0.732	[*A*]the particles[*R*]behave	context()	negated: False ,passive: False
+0.961	[*A*]particle - like[*R*]can be well described[*A*]by disc / point particle theories[*A*]At low aspect ratios , ( relative to the area fraction	context()	negated: False ,passive: True
+[LINE#48]At moderate aspect ratios, the overall space restriction partially correlates the orientation of neighbouring particle.
+0.945	[*A*]the overall space restriction[*R*]correlates[*A*]the orientation of neighbouring particle[*A*]At moderate aspect ratios	context()	negated: False ,passive: False
+[LINE#49]At high aspect ratios a grain-like microstructure is formed, at a predictable onset, where the orientations of three or more neighbouring particles are correlated.
+0.961	[*A*]the orientations of three or more neighbouring particles[*R*]are correlated[*A*]a predictable onset	context()	negated: False ,passive: True
+0.939	[*A*]a grain-like microstructure[*R*]is formed[*A*]At high aspect ratios	context()	negated: False ,passive: True
+[LINE#50]In these systems particles may be better treated as line-like.
+[LINE#51]These studies have hence shown that ordering in polymers, which may previously have been attributed to crystallinity or attraction between particles, can arise from particle shape alone.
+0.866	[*A*]ordering in polymers[*R*]can arise alone[*A*]from particle shape	context(These studies have hence shown)	negated: False ,passive: True
+0.808	[*A*]These studies[*R*]have hence shown[*A*]that ordering in polymers, which may previously have been attributed to crystallinity or attraction between particles, can arise from particle shape alone	context()	negated: False ,passive: False
+0.893	[*A*]polymers[*R*]may have been attributed[*A*]to crystallinity or attraction between particles[*A*]previously	context()	negated: False ,passive: True
+[LINE#52]Overall, it is quite clear that, given the different behaviour of highly elongated particles, we will need to use much better reference systems than those of point or spherical particles if we are to make use of dispersion methods to interpret images of high aspect nanotubes or fibres.
+0.452	[*A*]we[*R*]are[*A*]to make use of dispersion methods	context()	negated: False ,passive: True
+[LINE#53]While differences between the current definitions of a well-dispersed system means that discrepancies in interpretation can exist, our work highlights that the inherent nature of dispersion can also prevent there being a unique value for the selected dispersion parameter, that covers all realistic particle morphologies with equivalent dispersion quality.
+0.913	[*A*]the inherent nature of dispersion[*R*]being[*A*]a unique value for the selected dispersion parameter	context()	negated: False ,passive: True
+0.862	[*A*]the inherent nature of dispersion[*R*]can prevent[*A*]there[*A*]being a unique value for the selected dispersion parameter	context(our work highlights)	negated: False ,passive: False
+0.443	[*A*]our work[*R*]highlights[*A*]that the inherent nature of dispersion can also prevent there being a unique value for the selected dispersion parameter,	context()	negated: False ,passive: False
+0.905	[*A*]the selected dispersion parameter[*R*]covers[*A*]all realistic particle morphologies with equivalent dispersion quality	context()	negated: False ,passive: True
+0.707	[*A*]discrepancies in interpretation[*R*]can exist	context(differences between the current definitions of a well - dispersed system means)	negated: False ,passive: False
+0.867	[*A*]differences between the current definitions of a well-dispersed system[*R*]means[*A*]that discrepancies in interpretation can exist	context()	negated: False ,passive: False
+[LINE#54]For example, a random set of spherical particles did not measure the same as a set of elliptical particles because of shape and size considerations.
+0.932	[*A*]a random set of spherical particles[*R*]did not measure[*A*]the same as a set of elliptical particles[*A*]because of size considerations	context()	negated: True ,passive: False
+0.932	[*A*]a random set of spherical particles[*R*]did not measure[*A*]the same as a set of elliptical particles[*A*]because of shape considerations	context()	negated: True ,passive: False
+[LINE#55]Instead fair ranking of dispersion quality requires the material under test to be compared to a reference model capturing similar particle morphologies.
+0.911	[*A*]a reference model[*R*]capturing[*A*]similar particle morphologies	context()	negated: False ,passive: False
+0.813	[*A*]test[*R*]to be compared[*A*]to a reference model	context()	negated: False ,passive: True
+0.932	[*A*]Instead fair ranking of dispersion quality[*R*]requires[*A*]the material under test	context()	negated: False ,passive: False
+[LINE#56]Further discussionParticle shape plays an important role in characterising the spatial behaviour of the nanoparticles in the material.
+0.943	[*A*]Further discussionParticle shape[*R*]plays[*A*]an important role in characterising the spatial behaviour of the nanoparticles in the material	context()	negated: False ,passive: False
+[LINE#57]Ellipses can approximate nanoparticles at low aspect ratio and nanotubes at very high aspect ratios.
+0.894	[*A*]Ellipses[*R*]can approximate[*A*]nanoparticles[*A*]at nanotubes[*A*]at very high aspect ratios	context()	negated: False ,passive: False
+0.894	[*A*]Ellipses[*R*]can approximate[*A*]nanoparticles[*A*]at low aspect ratio[*A*]at very high aspect ratios	context()	negated: False ,passive: False
+[LINE#58]A summary of the key features is provided in Table 3.For low to moderate aspect ratios, fAf<2/3, similar upper- and lower-bounds for the Area Disorder can be defined.
+0.930	[*A*]A summary of the key features[*R*]is provided[*A*]in Table 3.For[*A*]low to moderate aspect ratios	context(similar upper - and lower - bounds for the Area Disorder can be defined)	negated: False ,passive: True
+0.876	[*A*]similar upper- and lower-bounds for the Area Disorder[*R*]can be defined	context()	negated: False ,passive: False
+[LINE#59]The lower-bound is adjusted at area fractions below 0.3 to allow for a range of aspect ratios where the random arrangement of particles appears more regular than for discs.
+0.785	[*A*]the random arrangement of particles[*R*]appears	context()	negated: False ,passive: False
+[LINE#60] This analysis covers materials from the highly spherical, e.g. silica nanoparticle composites, to plate-like particles, rod-likewollastonite and aluminium borate whiskers.
+0.903	[*A*]This analysis[*R*]covers[*A*]aluminium borate whiskers	context()	negated: False ,passive: True
+0.903	[*A*]This analysis[*R*]covers[*A*]rod - likewollastonite borate whiskers	context()	negated: False ,passive: True
+0.886	[*A*]This analysis[*R*]covers[*A*]borate whiskers	context()	negated: False ,passive: True
+0.903	[*A*]This analysis[*R*]covers[*A*]materials	context()	negated: False ,passive: True
+[LINE#61]At high aspect ratios, satisfying fAf>2/3, it is no longer appropriate to use point or disc-like theories and instead line-like approximations can be used.
+0.769	[*A*]line-like approximations[*R*]can be used	context()	negated: False ,passive: False
+[LINE#62]These systems can have a spatial dispersion which is more clustered than expected for points and are most regularly arranged when organised along grain boundaries.
+0.897	[*A*]a spatial dispersion[*R*]are most regularly arranged[*A*]when organised along grain boundaries	context()	negated: False ,passive: True
+0.903	[*A*]These systems[*R*]can have[*A*]a spatial dispersion which are most regularly arranged	context()	negated: False ,passive: False
+0.920	[*A*]a spatial dispersion[*R*]is[*A*]more clustered than expected for points	context()	negated: False ,passive: True
+0.903	[*A*]These systems[*R*]can have[*A*]a spatial dispersion which is more clustered	context()	negated: False ,passive: False
+[LINE#63]When f there is no upper-limit to the number of line-like particles which can fit into the system.
+0.905	[*A*]line-like particles[*R*]can fit[*A*]into the system	context()	negated: False ,passive: True
+[LINE#64]Hence the Area Disorder for such a system can tend to 1 and an apparent high clustering of particle centres arises.
+0.816	[*A*]an apparent high clustering of particle centres[*R*]arises	context()	negated: False ,passive: False
+0.857	[*A*]the Area Disorder for such a system[*R*]can tend	context()	negated: False ,passive: False
+[LINE#65]Materials that fall into this category naturally include nanowires and short carbon fibres, but can also include (depending on Af) aluminium borate whiskers.
+0.921	[*A*]Materials that fall into this category[*R*]include[*A*]short carbon fibres	context()	negated: False ,passive: True
+0.921	[*A*]Materials that fall into this category[*R*]include[*A*]nanowires	context()	negated: False ,passive: True
+0.905	[*A*]Materials[*R*]fall[*A*]into this category	context()	negated: False ,passive: True
+0.847	[*A*]Materials[*R*]can include[*A*]depending on Af ) aluminium borate whiskers	context()	negated: False ,passive: True
+[LINE#66]Additionally, long nanofibres are flexible and may bend or weave around one another.
+0.677	[*A*]nanofibres[*R*]may bend	context()	negated: False ,passive: False
+0.842	[*A*]nanofibres[*R*]are[*A*]flexible[*A*]long	context()	negated: False ,passive: True
+[LINE#67]Interlocking of concave surfaces of nanoparticles could lead to closer packing than allowed for in these models.
+0.932	[*A*]Interlocking of concave surfaces of nanoparticles[*R*]could lead[*A*]to closer packing	context()	negated: False ,passive: False
+[LINE#68]Both these effects have been known to change a material's spatial appearance.
+0.897	[*A*]Both these effects[*R*]to change[*A*]a material's spatial appearance	context()	negated: False ,passive: False
+0.751	[*A*]Both these effects[*R*]have been known	context()	negated: False ,passive: False
+[LINE#69]These require comparison against a reference model with more morphological properties than the ellipses used in this study.
+0.903	[*A*]the ellipses[*R*]used[*A*]in this study	context()	negated: False ,passive: True
+0.657	[*A*]These[*R*]require[*A*]comparison against a reference model with more morphological properties than the ellipses	context()	negated: False ,passive: False
+[LINE#70]Broadening the distribution of particle sizes, such that the variance in particle areas increases, makes discrete particles appear more clustered than a system of identically sized particles but more regular than if they were either point-like or line-like (depending on aspect ratio).
+0.937	[*A*]the variance in particle areas increases[*R*]makes[*A*]discrete particles appear more clustered than a system of identically sized particles but more regular	context()	negated: False ,passive: False
+0.616	[*A*]they[*R*]were[*A*]either point-like or line-like	context()	negated: False ,passive: True
+[LINE#71] Thus, a material with an Area Disorder less than HRE is said to be spatially well-dispersed, or greater than.
+0.637	[*A*]HRE[*R*]to be[*A*]spatially well-dispersed	context()	negated: False ,passive: True
+0.634	[*A*]HRE[*R*]is said	context()	negated: False ,passive: False
+[LINE#72]PR/line-random (LR) is said to be poorly dispersed.
+0.836	[*A*]PR/line-random (LR[*R*]to be poorly dispersed	context()	negated: False ,passive: False
+0.836	[*A*]PR/line-random (LR[*R*]is said	context()	negated: False ,passive: False
+[LINE#73]Here PR/LR is used as the limiting model for extreme particle size variation.
+0.927	[*A*]PR/LR[*R*]is used[*A*]as the limiting model for extreme particle size variation[*A*]Here	context()	negated: False ,passive: True
+[LINE#74]Poly-dispersing the aspect ratios in HRE may provide a better representation of nanotubes in a material, where the micrograph of randomly orientated nanotubes contains imaged particles of different shapes depending on how each nanotube is sectioned or a material with several types of particle.
+0.975	[*A*]the micrograph of randomly orientated nanotubes[*R*]contains[*A*]imaged particles of different shapes depending on how each nanotube is sectioned or a material with several types of particle[*A*]a material	context()	negated: False ,passive: False
+0.732	[*A*]each nanotube[*R*]is sectioned	context()	negated: False ,passive: False
+0.949	[*A*]Poly-dispersing the aspect ratios in HRE[*R*]may provide[*A*]a better representation of nanotubes in a material	context()	negated: False ,passive: False
+0.952	[*A*]imaged particles of different shapes[*R*]depending[*A*]on how each nanotube is sectioned or a material with several types of particle	context()	negated: False ,passive: False
+[LINE#75]This can be done using our elliptical particle reference models by providing a unique aspect ratio for each particle.
+0.153	[*A*]This[*R*]can be done	context()	negated: False ,passive: False
+[LINE#76]These systems represent a hybrid between the particle and line descriptions, and need a test criteria for spatial-dispersion beyond that for discs (with lower limits for Area Disorder given by the mono-dispersed case and upper limits dependent on the maximum aspect ratio of a particle).
+0.964	[*A*]lower limits for Area Disorder[*R*]given[*A*]by the upper limits dependent on the maximum aspect ratio of a particle	context()	negated: False ,passive: True
+0.944	[*A*]lower limits for Area Disorder[*R*]given[*A*]by the mono - dispersed case	context()	negated: False ,passive: True
+0.868	[*A*]These systems[*R*]need[*A*]a test criteria for spatial - dispersion beyond that for discs ( with lower limits for Area Disorder	context()	negated: False ,passive: False
+0.903	[*A*]These systems[*R*]represent[*A*]a hybrid between the particle and line descriptions	context()	negated: False ,passive: False
+[LINE#77]However, due to the length of these nanotubes it is highly likely that the micrographs of such materials will exhibit conjoined nano-tubes, where one is actually underneath the other in the material.
+0.359	[*A*]one[*R*]is[*A*]actually[*A*]underneath the other	context()	negated: False ,passive: True
+[LINE#78]Hence to ensure reliability of our analysis development of error correction strategies is required, such as modifying the physical parameters (e.g. the area fraction or size dispersion parameters) or the reference models, by allowing some overlap between particles [5].
+0.505	[*A*]reliability of our analysis development of error correction strategies[*R*]is required	context()	negated: False ,passive: False
+[LINE#79]Particulate composites are an important and well-established class of composite materials.
+0.903	[*A*]Particulate composites[*R*]are[*A*]an well - established class of composite materials	context()	negated: False ,passive: True
+0.903	[*A*]Particulate composites[*R*]are[*A*]an important class of composite materials	context()	negated: False ,passive: True
+[LINE#80]The quality of discrete particle (nanoparticle) dispersion, which characterises the uniformity in spread of the particles through the material (i.e. whether the particles are ordered, random or clustered) can affect the material properties [1].
+0.939	[*A*]The quality of discrete particle (nanoparticle) dispersion[*R*]can affect[*A*]the material properties	context()	negated: False ,passive: False
+0.698	[*A*]the particles[*R*]clustered	context()	negated: False ,passive: False
+0.949	[*A*]discrete particle (nanoparticle) dispersion[*R*]characterises[*A*]the uniformity in spread of the particles through the material	context()	negated: False ,passive: False
+[LINE#81]It is time-consuming and expensive to obtain micrographs of a composite material, and so only a few images are available for analysis.
+0.411	[*A*]It[*R*]to obtain[*A*]micrographs of a composite material	context()	negated: False ,passive: False
+0.637	[*A*]It[*R*]is[*A*]time - consuming to obtain micrographs of a composite material	context()	negated: False ,passive: True
+0.919	[*A*]only a few images[*R*]are[*A*]available for analysis	context()	negated: False ,passive: True
+[LINE#82]Hence robust quantitative analysis must be performed on the available micrographs to obtain an objective measurement of dispersion.
+0.897	[*A*]robust quantitative analysis[*R*]to obtain[*A*]an objective measurement of dispersion	context()	negated: False ,passive: False
+0.911	[*A*]robust quantitative analysis[*R*]must be performed[*A*]on the available micrographs[*A*]to obtain an objective measurement of dispersion	context()	negated: False ,passive: True
+[LINE#83]The measurement of nanoparticle dispersion is rapidly advancing [2-5].
+0.999	[*A*]The measurement of nanoparticle dispersion[*R*]is advancing[*A*]2 -5	context()	negated: False ,passive: False
+0.785	[*A*]The measurement of nanoparticle dispersion[*R*]is rapidly advancing[*A*]2-5	context()	negated: False ,passive: False
+[LINE#84]Ideally these techniques would be applied universally to any type of nanocomposite or particulate-reinforced material.
+[LINE#85]These require a comparison against a known reference system, where typically the particles are either perfectly or randomly dispersed.
+0.901	[*A*]the particles[*R*]are perfectly dispersed[*A*]a known reference system	context()	negated: False ,passive: True
+0.544	[*A*]These[*R*]require[*A*]a comparison against a known reference system	context()	negated: False ,passive: False
+[LINE#86]Inappropriate idealisation of both the quality of the data and the particle morphology (i.e. the particle shape) leads to inaccurate conclusions.
+0.921	[*A*]Inappropriate idealisation of the particle morphology[*R*]leads[*A*]to inaccurate conclusions	context()	negated: False ,passive: False
+0.948	[*A*]Inappropriate idealisation of both the quality of the data[*R*]leads[*A*]to inaccurate conclusions	context()	negated: False ,passive: False
+[LINE#87]Nonetheless many analyses assume that theories where the particles are point-like (i.e. having no volume or shape) are valid.
+0.799	[*A*]theories where the particles are point-like[*R*]are[*A*]valid	context(Nonetheless many analyses assume)	negated: False ,passive: True
+0.828	[*A*]Nonetheless many analyses[*R*]assume[*A*]that theories where the particles are point-like (i.e. having no volume or shape) are valid	context()	negated: False ,passive: False
+0.887	[*A*]the particles[*R*]i.e. having[*A*]no volume or shape	context()	negated: False ,passive: False
+0.943	[*A*]the particles[*R*]are[*A*]point-like[*A*]theories	context()	negated: False ,passive: True
+[LINE#88]Thus a major hindrance is that it is not well understood how the morphological (shape) properties of the nanoparticles affect these parameters.
+0.504	[*A*]it[*R*]is not[*A*]well understood how the morphological (shape) properties of the nanoparticles affect these parameters	context(a major hindrance is)	negated: True ,passive: True
+0.769	[*A*]a major hindrance[*R*]is[*A*]that it is not well understood how the morphological (shape) properties of the nanoparticles affect these parameters	context()	negated: False ,passive: True
+[LINE#89] Types of nanomaterialsWithin a particular materialthere can be a significant variation of the nanoparticles' size, aspect ratio and regularity of shape.
+0.911	[*A*]a particular materialthere[*R*]can be[*A*]a significant variation of the regularity of shape	context()	negated: False ,passive: True
+0.911	[*A*]a particular materialthere[*R*]can be[*A*]a significant variation of the aspect ratio of shape	context()	negated: False ,passive: True
+0.943	[*A*]a particular materialthere[*R*]can be[*A*]a significant variation of the nanoparticles ' size of shape	context()	negated: False ,passive: True
+[LINE#90]Thus it is useful to consider some of the nanoparticles used in existing materials.
+0.903	[*A*]the nanoparticles[*R*]used[*A*]in existing materials	context()	negated: False ,passive: True
+[LINE#91]Many nanoparticles can be manufactured with a low aspect ratio (defined as the major axis length divided by the minor axis length such that a sphere has an aspect ratio of 1).
+0.925	[*A*]a sphere[*R*]has[*A*]an aspect ratio of 1	context()	negated: False ,passive: False
+0.919	[*A*]the major axis length[*R*]divided[*A*]by the minor axis length	context()	negated: False ,passive: True
+0.905	[*A*]a low aspect ratio[*R*]defined[*A*]as the major axis length	context()	negated: False ,passive: True
+0.732	[*A*]Many nanoparticles[*R*]can be manufactured	context()	negated: False ,passive: False
+[LINE#92](e.g. silica, titania and alumina) can be readily produced with diameters of 3-300nm, e.g. [6], but these often have an irregular surface [7].
+0.737	[*A*]e.g. silica , alumina[*R*]can be readily produced	context()	negated: False ,passive: False
+0.737	[*A*]e.g. silica , titania[*R*]can be readily produced	context()	negated: False ,passive: False
+0.643	[*A*]these[*R*]have[*A*]an irregular surface[*A*]often	context()	negated: False ,passive: False
+[LINE#93]Core-shell particles with a 100-300nm diameter rubbery core and a hard shell are often used for toughening of thermoset polymers, e.g. [8].
+0.941	[*A*]Core-shell particles with a hard shell[*R*]are used[*A*]for toughening of thermoset polymers[*A*]often	context()	negated: False ,passive: True
+0.955	[*A*]Core-shell particles with a 100-300 nm diameter rubbery core[*R*]are used[*A*]for toughening of thermoset polymers[*A*]often	context()	negated: False ,passive: True
+[LINE#94] Rubber particles can also be produced via phase-separation of initially soluble rubbers during curing of thermoset polymer matrices, and spherical particles with diameters between 40nm [9] and 200m[10] can be achieved, as reviewed by Bagheri et al.
+0.928	[*A*]spherical particles with diameters between 200 m[*R*]can be achieved[*A*]as reviewed by Bagheri et al	context()	negated: False ,passive: True
+0.928	[*A*]spherical particles with diameters between 40 nm[*R*]can be achieved[*A*]as reviewed by Bagheri et al	context()	negated: False ,passive: True
+0.873	[*A*]Rubber particles[*R*]can be produced[*A*]during curing of thermoset polymer matrices	context()	negated: False ,passive: True
+[LINE#95]However, poly-dispersity of the particle size cannot be neglected in these materials, as the formation of the carboxyl-terminated butadiene acrylonitrile (CTBN) rubber particles leads to large size variations.
+0.903	[*A*]rubber particles[*R*]leads[*A*]to large size variations	context()	negated: False ,passive: False
+0.960	[*A*]poly-dispersity of the particle size[*R*]can not be neglected[*A*]in these materials[*A*]as the formation of the carboxyl-terminated butadiene acrylonitrile (CTBN) rubber particles leads to large size variations	context()	negated: True ,passive: True
+[LINE#96][7] measured a mean diameter of 0.54m, but with a standard deviation of 0.27 times the mean value.
+0.342	[*A*]7[*R*]measured[*A*]a mean diameter of 0.54m	context()	negated: False ,passive: False
+[LINE#97]Conventional plate-like particles are generally irregularly shaped; particles such as muscovite mica are typically used with an average diameter between 10 and 80m [12] and a thickness of a few microns.
+0.738	[*A*]Conventional plate-like particles[*R*]are generally irregularly shaped	context(particles such as muscovite mica are used)	negated: False ,passive: False
+0.909	[*A*]particles such as muscovite mica[*R*]are used[*A*]with an average diameter between 10 and 80m [12] and a thickness of a few microns	context()	negated: False ,passive: True
+[LINE#98](e.g. montmorillonite or hectorite) are layered silicates with a structure of stacked platelets which can be exfoliated to give platelets approximately 1nm thick with lateral dimensions that can vary from 30nm to tens of microns [13].
+0.887	[*A*]lateral dimensions[*R*]can vary[*A*]from 30nm[*A*]to tens of microns	context()	negated: False ,passive: True
+0.927	[*A*]stacked platelets[*R*]can be exfoliated[*A*]to give platelets approximately 1nm thick with lateral dimensions	context()	negated: False ,passive: True
+[LINE#99]Research on graphene is very active at present, and platelets one atom thick with linear dimensions potentially in the order of millimetres are achievable, although smaller aspect ratios with linear dimensions of tens of microns would be expected for use in particulate composites [14].Particles can become very elongated, the extreme case being carbon fibres which are microns in diameter and can be kilometres long.
+0.479	[*A*]Research[*R*]platelets[*A*]one atom thick with linear dimensions	context(Particles can become)	negated: False ,passive: False
+0.968	[*A*]one atom thick with linear dimensions potentially in the order of millimetres[*R*]are[*A*]achievable[*A*]although smaller aspect ratios with linear dimensions of tens of microns would be expected for use in particulate composites	context(Research platelets Particles can become)	negated: False ,passive: True
+0.596	[*A*]Research[*R*]platelets[*A*]one atom thick with linear dimensions potentially in the order of millimetres are achievable , although smaller aspect ratios with linear dimensions of tens of microns would be expected for use in particulate composites	context(Particles can become)	negated: False ,passive: False
+0.787	[*A*]Research on graphene[*R*]is[*A*]very active	context(Particles can become)	negated: False ,passive: True
+0.696	[*A*]Particles[*R*]can become[*A*]very elongated	context()	negated: False ,passive: True
+0.877	[*A*]Particles[*R*]can be[*A*]kilometres[*A*]long	context()	negated: False ,passive: True
+0.953	[*A*]smaller aspect ratios with linear dimensions of tens of microns[*R*]would be expected[*A*]for use in particulate composites	context()	negated: False ,passive: True
+[LINE#100]However, these would not make particulate composites.
+0.544	[*A*]these[*R*]would not make[*A*]particulate composites	context()	negated: True ,passive: False
+[LINE#101]Chopped (short) carbon fibres are typically 7m in diameter and are 1-6mm long, giving aspect ratios of 140-850 [12].
+0.905	[*A*]short ) carbon fibres[*R*]giving[*A*]aspect ratios of 140-850 [ 12	context()	negated: False ,passive: False
+0.919	[*A*]short ) carbon fibres[*R*]are[*A*]1-6 mm long[*A*]giving aspect ratios of 140-850 [ 12	context()	negated: False ,passive: True
+0.919	[*A*]short ) carbon fibres[*R*]are[*A*]typically[*A*]7 m in diameter	context()	negated: False ,passive: True
+[LINE#102]Rod-like wollastonite particles are 10m in diameter and 50m long, giving an aspect ratio of up to 5 [12].
+0.996	[*A*]Rod like wollastonite particles[*R*]have length of[*A*]10 m 50 m	context()	negated: False ,passive: False
+0.944	[*A*]Rod - like wollastonite particles[*R*]are[*A*]10 m 50 m long[*A*]giving an aspect ratio of up to 5	context()	negated: False ,passive: True
+0.739	[*A*]diameter[*R*]has Rod like wollastonite particles of[*A*]10 m	context()	negated: False ,passive: False
+0.867	[*A*]Rod like wollastonite particles[*R*]have diameter of[*A*]10 m	context()	negated: False ,passive: False
+0.973	[*A*]Rod like wollastonite particles[*R*]are[*A*]10 m	context()	negated: False ,passive: False
+0.934	[*A*]Rod - like wollastonite particles[*R*]giving[*A*]an aspect ratio of up to 5	context()	negated: False ,passive: False
+0.944	[*A*]Rod - like wollastonite particles[*R*]are[*A*]10 m in diameter[*A*]giving an aspect ratio of up to 5	context()	negated: False ,passive: True
+[LINE#103]Aluminium borate whiskers have lengths between 10 and 20m and diameters of 0.5-1m giving aspect ratios of 10-40 [15].
+[LINE#104]Carbon nanotubes and silica nanowires can also have very high aspect ratios.
+0.859	[*A*]silica nanowires[*R*]can have[*A*]very high aspect ratios	context()	negated: False ,passive: False
+0.892	[*A*]Carbon nanotubes[*R*]can have[*A*]very high aspect ratios	context()	negated: False ,passive: False
+[LINE#105]Single-walled nanotube diameters range from 0.4 to 5.6nm with a maximum length of several millimetres, while for multiwalled nanotubes the diameter is from several to hundreds of nanometres, with lengths up to the centimetre range [16].
+0.925	[*A*]the diameter[*R*]is[*A*]from several to hundreds of nanometres	context()	negated: False ,passive: True
+0.952	[*A*]Single-walled nanotube diameters[*R*]range[*A*]from 0.4[*A*]to 5.6nm with a maximum length of several millimetres[*A*]while for multiwalled nanotubes the diameter is from several to hundreds of nanometres, with lengths up to the centimetre range	context()	negated: False ,passive: True
+[LINE#106]For multiwalled nanotubes, a length of 140m and a diameter of 120nm is typical [17], giving an aspect ratio of about 100.
+0.957	[*A*]a length of a diameter of 120 nm[*R*]is[*A*]typical[*A*]giving an aspect ratio of about 100	context()	negated: False ,passive: True
+0.943	[*A*]a length of 140 m[*R*]is[*A*]typical[*A*]giving an aspect ratio of about 100	context()	negated: False ,passive: True
+[LINE#107]Nanowires have been fabricated with lengths of 110mm and diameters as small as 60nm, giving an aspect ratio of around 3700 [18].
+0.894	[*A*]Nanowires[*R*]have been fabricated[*A*]with lengths of diameters as small as 60 nm[*A*]giving an aspect ratio of around 3700 [ 18	context()	negated: False ,passive: True
+0.931	[*A*]Nanowires[*R*]have been fabricated[*A*]with lengths of 110 mm as small as 60 nm[*A*]giving an aspect ratio of around 3700 [ 18	context()	negated: False ,passive: True
+[LINE#108]However, shorter lengths and hence smaller aspect ratios would again be expected for use in particulate composites.
+0.929	[*A*]hence smaller aspect ratios[*R*]would be expected[*A*]for use in particulate composites[*A*]again	context()	negated: False ,passive: True
+0.916	[*A*]shorter lengths[*R*]would be expected[*A*]for use in particulate composites[*A*]again	context()	negated: False ,passive: True
+[LINE#109]It would clearly be inappropriate to approximate particles with such high aspect ratios as point-like, i.e. having no size or shape.
+0.949	[*A*]approximate particles with such high aspect ratios as point-like[*R*]i.e. having[*A*]no size or shape	context()	negated: False ,passive: False
+0.463	[*A*]It[*R*]would be[*A*]inappropriate to approximate particles with such high aspect ratios as point-like	context()	negated: False ,passive: True
+[LINE#110]Material measurement and spatial representationA material's structure can be studied by taking images across its cross-section using a microscope.
+0.934	[*A*]spatial representationA material 's structure[*R*]by taking[*A*]images	context()	negated: False ,passive: False
+0.832	[*A*]spatial representationA material 's structure[*R*]can be studied	context()	negated: False ,passive: False
+0.732	[*A*]Material measurement[*R*]can be studied	context()	negated: False ,passive: False
+[LINE#111]Statistics on the positions of particle centres provide a direct way of assessing the spatial arrangement of nanoparticles, e.g. through Ripley's K-function or the pair-correlation function [19].
+0.967	[*A*]Statistics on the positions of particle centres[*R*]provide[*A*]a direct way of assessing the spatial arrangement of nanoparticles, e.g. through Ripley's K-function or the pair-correlation function	context()	negated: False ,passive: False
+[LINE#112] However, these analyses are complicated by features caused by the discrete size and shape of the particles [20].Partitioningthe image into space-filling regions can provide topological information about the material.
+0.894	[*A*]features[*R*]caused[*A*]by the shape of the particles	context()	negated: False ,passive: True
+0.894	[*A*]features[*R*]caused[*A*]by the discrete size of the particles	context()	negated: False ,passive: True
+0.903	[*A*]these analyses[*R*]are complicated[*A*]by features	context()	negated: False ,passive: True
+[LINE#113]One widely used method is Voronoi tessellation, where each region represents the space surrounding an enveloped nearest particle [21].
+0.903	[*A*]the space[*R*]surrounding[*A*]an enveloped nearest particle	context()	negated: False ,passive: True
+0.937	[*A*]each region[*R*]represents[*A*]the space surrounding an enveloped nearest particle [21]	context()	negated: False ,passive: False
+0.947	[*A*]One widely used method[*R*]is[*A*]Voronoi tessellation	context()	negated: False ,passive: True
+[LINE#114]A complementary representation is given by a network of Delaunay triangles.
+0.925	[*A*]A complementary representation[*R*]is given[*A*]by a network of Delaunay triangles	context()	negated: False ,passive: True
+[LINE#115]Each vertex of the triangles lies at a centre of mass position of a particle, such that the triplet of particles are considered as nearest neighbours.
+0.919	[*A*]the triplet of particles[*R*]are considered[*A*]as nearest neighbours	context()	negated: False ,passive: True
+0.926	[*A*]Each vertex of the triangles[*R*]lies[*A*]at a centre of mass position of a particle	context()	negated: False ,passive: True
+[LINE#116]1a shows how a Delaunay tessellation is applied to a real micrograph of a nanoparticle composite. .
+0.918	[*A*]a Delaunay tessellation[*R*]is applied[*A*]to a real micrograph of a nanoparticle composite	context(1a shows)	negated: False ,passive: True
+0.710	[*A*]1a[*R*]shows[*A*]how a Delaunay tessellation is applied to a real micrograph of a nanoparticle composite	context()	negated: False ,passive: False
+[LINE#117]Parametrizing dispersionOur chosen quantitative parameter for spatial dispersion is the Area Disorder of Delaunay tessellation (ADDel), which we previously showed gave a reliable measure of the system's spatial dispersion [5,22].
+0.606	[*A*]we[*R*]showed[*A*]gave a reliable measure of the system's spatial dispersion[*A*]previously	context()	negated: False ,passive: False
+0.973	[*A*]Parametrizing dispersionOur chosen quantitative parameter for spatial dispersion[*R*]is[*A*]the Area Disorder of Delaunay tessellation	context()	negated: False ,passive: True
+[LINE#118] The Area Disorder is a function of the coefficients of variation of the Delaunay triangle's area (A) and is calculated using(1)ADDel=(A/A+1)-1,where.
+0.758	[*A*]The Area[*R*]using	context()	negated: False ,passive: False
+0.788	[*A*]The Area[*R*]is calculated	context()	negated: False ,passive: False
+0.973	[*A*]The Area Disorder[*R*]is[*A*]a function of the coefficients of variation of the Delaunay triangle 's area	context()	negated: False ,passive: True
+[LINE#119] A and A are the mean and standard deviation of A,respectively [22].ADDel measures the global regularity of the particle arrangement within the system.
+0.948	[*A*]ADDel[*R*]measures[*A*]the global regularity of the particle arrangement within the system	context()	negated: False ,passive: False
+0.592	[*A*]A and A[*R*]are[*A*]the mean and standard deviation of A	context()	negated: False ,passive: True
+[LINE#120]The larger the value (where 0 ADDel1), the more clustered the system is.
+0.784	[*A*]the system[*R*]is	context()	negated: False ,passive: False
+[LINE#121]ADDel is chosen to be invariant to the number density of particles present.
+0.906	[*A*]ADDel[*R*]to be[*A*]invariant to the number density of particles present	context()	negated: False ,passive: True
+0.948	[*A*]ADDel[*R*]is chosen[*A*]to be invariant to the number density of particles present	context()	negated: False ,passive: True
+[LINE#122]The dispersion of a material is interpreted by comparing the measured ADDel against the expected value for a randomly arranged set of particles, i.e. it is compared to a reference model.
+0.452	[*A*]it[*R*]is compared[*A*]to a reference model	context()	negated: False ,passive: True
+0.785	[*A*]The dispersion of a material[*R*]is interpreted	context()	negated: False ,passive: False
+[LINE#123]If the material is statistically equal to or more regular than a model of random particles then it is taken to be well-dispersed.
+0.197	[*A*]it[*R*]to be[*A*]well-dispersed	context()	negated: False ,passive: True
+0.302	[*A*]it[*R*]is taken[*A*]then	context()	negated: False ,passive: True
+0.952	[*A*]the material[*R*]is[*A*]statistically equal to or more regular than a model of random particles	context()	negated: False ,passive: True
+[LINE#124]Otherwise, if the material is more clustered than the random model it is taken to be poorly-dispersed.
+0.197	[*A*]it[*R*]to be[*A*]poorly-dispersed	context()	negated: False ,passive: True
+0.754	[*A*]the random model[*R*]is taken[*A*]to be poorly-dispersed	context()	negated: False ,passive: True
+0.925	[*A*]the material[*R*]is[*A*]more clustered than the random model	context()	negated: False ,passive: True
+[LINE#125]It is this part of the analysis where the morphological properties of the particles become a concern.
+0.961	[*A*]the morphological properties of the particles[*R*]become[*A*]a concern[*A*]the analysis	context()	negated: False ,passive: True
+0.522	[*A*]It[*R*]is[*A*]this part of the analysis	context()	negated: False ,passive: True
+[LINE#126]Specifically, they affect the description of randomly arranged, by which we actually mean that particles have no preference to where they are found (i.e. there is neither attraction nor repulsion between particles), other than lying outside the exclusion areas set up by the macroscopic size of the particles.
+0.320	[*A*]they[*R*]are found	context()	negated: False ,passive: False
+0.880	[*A*]particles[*R*]have[*A*]no preference to where they are found (i.e. there is neither attraction nor repulsion between particles), other than lying outside the exclusion areas	context()	negated: False ,passive: False
+0.911	[*A*]the exclusion areas[*R*]set up[*A*]by the macroscopic size of the particles	context()	negated: False ,passive: True
+0.337	[*A*]they[*R*]affect[*A*]the description of randomly arranged, by which we actually mean that particles have no preference to where they are found (i.e. there is neither attraction nor repulsion between particles), other than lying outside the exclusion areas	context()	negated: False ,passive: False
+[LINE#127]Thus sets of nanoparticles with different morphological details can have the same dispersion quality but be structurally arranged differently. .
+0.943	[*A*]Thus sets of nanoparticles with different morphological details[*R*]can have[*A*]the same dispersion quality	context()	negated: False ,passive: False
+[LINE#128]Reference modelsA hard-core particle model can be used to represent the nanoparticles by their centre of mass positions.
+0.945	[*A*]Reference modelsA hard-core particle model[*R*]to represent[*A*]the nanoparticles	context()	negated: False ,passive: False
+0.947	[*A*]Reference modelsA hard-core particle model[*R*]can be used[*A*]to represent the nanoparticles by their centre of mass positions	context()	negated: False ,passive: True
+[LINE#129]These points are arranged such that they do not occupy the same space, as governed by the nanoparticles' physical size.
+0.616	[*A*]they[*R*]do not occupy[*A*]the same space	context()	negated: True ,passive: False
+0.732	[*A*]These points[*R*]are arranged	context()	negated: False ,passive: False
+[LINE#130]A major detraction of handling hard-core considerations is that they are complicated by the form of the particles, which is a combination of the particle sizes, shapes and orientations.
+0.913	[*A*]the particles[*R*]is[*A*]a combination of the particle orientations	context()	negated: False ,passive: True
+0.913	[*A*]the particles[*R*]is[*A*]a combination of the particle shapes	context()	negated: False ,passive: True
+0.562	[*A*]they[*R*]are complicated[*A*]by the form of the particles	context(A major detraction of handling hard - core considerations is)	negated: False ,passive: True
+0.861	[*A*]A major detraction of handling hard - core considerations[*R*]is[*A*]that they are complicated by the form of the particles	context()	negated: False ,passive: True
+0.913	[*A*]the particles[*R*]is[*A*]a combination of the particle sizes	context()	negated: False ,passive: True
+[LINE#131]Simplifying particles to centre of mass points may be tempting, particularly as much is known about the spatial statistical behaviour of uninhibited points.
+0.568	[*A*]as much[*R*]is known[*A*]about the spatial statistical behaviour of uninhibited points	context()	negated: False ,passive: True
+0.927	[*A*]Simplifying particles[*R*]may be[*A*]tempting[*A*]particularly as much is known about the spatial statistical behaviour of uninhibited points	context()	negated: False ,passive: True
+[LINE#132] However this simplification can lead to discrepancies in the interpretation compared to other measurements that consider the particle surface [23].For these models to be valid we assume that the material has no spatial gradients (i.e. the material has the same statistics anywhere within it)such that a sample micrograph of the material is truly representative of the whole. .
+0.908	[*A*]the material[*R*]has[*A*]no spatial gradients	context(we assume)	negated: False ,passive: False
+0.173	[*A*]we[*R*]assume[*A*]that the material has no spatial gradients (i.e. the material has the same statistics anywhere within it	context()	negated: False ,passive: False
+0.948	[*A*]a sample micrograph of the material[*R*]is[*A*]truly representative of the whole	context()	negated: False ,passive: True
+0.887	[*A*]other measurements[*R*]consider[*A*]the particle surface	context()	negated: False ,passive: False
+0.903	[*A*]this simplification[*R*]can lead[*A*]to discrepancies in the interpretation	context()	negated: False ,passive: False
+[LINE#133]Size and shapeThe effect of nanoparticle size on dispersion was previously studied using identical spherical particles [22].
+[LINE#134]By increasing the area fraction (coverage) of particles, the system appeared more regular, due to an enforced minimum separation distance (i.e. the particle diameter) and accordingly the Area Disorder would reduce.
+0.759	[*A*]the Area Disorder[*R*]would reduce	context(the system appeared accordingly)	negated: False ,passive: False
+0.678	[*A*]the system[*R*]appeared accordingly	context()	negated: False ,passive: False
+0.903	[*A*]the system[*R*]appeared[*A*]due to an enforced minimum separation distance	context()	negated: False ,passive: True
+0.732	[*A*]the system[*R*]appeared	context()	negated: False ,passive: False
+[LINE#135] Variation of particle sizes is introduced into micrographs from several sources, these include: (1) the non-identical manufacturing of nanoparticles; (2) stereological effects within the micrograph (e.g. the projection of nanoparticles); and (3) an intentional manufacturing of dissimilar sized nanoparticles (i.e. bi-disperse population).To investigate the role that the individual particle morphology (size, shape) has on dispersionwe model randomly disordered materials containing: (1) non-identical hard-core particles, with a size distribution and (2) non-circular ellipsoid particles with associated orientations and aspect ratios.
+0.969	[*A*]stereological effects within the micrograph ( e.g. the projection of nanoparticles ) ; and ( 3 ) an intentional manufacturing of dissimilar sized nanoparticles[*R*]To investigate[*A*]the role that the individual particle morphology ( size , shape ) has	context(Variation of particle sizes is introduced into micrographs from several sources include)	negated: False ,passive: False
+0.900	[*A*]Variation of particle sizes[*R*]is introduced[*A*]into micrographs from several sources	context(Variation of particle sizes is introduced into micrographs from several sources include)	negated: False ,passive: True
+0.905	[*A*]Variation of particle sizes is introduced into micrographs from several sources[*R*]include[*A*]these	context()	negated: False ,passive: True
+0.876	[*A*]materials[*R*]containing[*A*]non-circular ellipsoid particles with aspect ratios	context()	negated: False ,passive: False
+0.219	[*A*]these[*R*]include	context()	negated: False ,passive: False
+0.876	[*A*]materials[*R*]containing[*A*]non-circular ellipsoid particles with associated orientations	context()	negated: False ,passive: False
+0.876	[*A*]materials[*R*]containing[*A*]2 ) non-circular ellipsoid particles with aspect ratios	context()	negated: False ,passive: False
+0.940	[*A*]the role[*R*]has[*A*]the individual particle morphology	context()	negated: False ,passive: True
+0.900	[*A*]Variation of particle sizes[*R*]is introduced[*A*]into micrographs from several sources	context(these include)	negated: False ,passive: True
+0.444	[*A*]these[*R*]include[*A*]1 ) the non-identical manufacturing of nanoparticles	context()	negated: False ,passive: True
+0.876	[*A*]materials[*R*]containing[*A*]2 ) non-circular ellipsoid particles with associated orientations	context()	negated: False ,passive: False
+[LINE#136]Simulation and measurementMicrographs of a randomly dispersed material are modelled by a hard-core random particle model (HR), where the particle's size inhibits its placement within the system.
+0.956	[*A*]measurementMicrographs of a randomly dispersed material[*R*]are modelled[*A*]by a hard - core random particle model ( HR	context()	negated: False ,passive: True
+0.916	[*A*]the particle 's size[*R*]inhibits[*A*]its placement within the system[*A*]a hard - core random particle model ( HR	context()	negated: False ,passive: False
+0.948	[*A*]Simulation[*R*]are modelled[*A*]by a hard - core random particle model ( HR	context()	negated: False ,passive: True
+[LINE#137]Treating particles as points (in a point random model (PR)), would allow particles to be placed at random anywhere within the system irrespective of the other particles, which clearly is not correct.
+0.867	[*A*]particles[*R*]to be placed[*A*]at random anywhere within the system[*A*]irrespective of the other particles	context(random model ( PR would allow)	negated: False ,passive: True
+0.922	[*A*]random model (PR[*R*]would allow[*A*]particles to be placed at random anywhere within the system irrespective of the other particles	context()	negated: False ,passive: False
+0.754	[*A*]the other particles[*R*]is not[*A*]correct	context()	negated: True ,passive: True
+[LINE#138]Our model consists of a two-dimensional square system, with pre-set side length of L=1m, containing N=1000 discrete particles.
+0.971	[*A*]a two-dimensional square system, with pre-set side length of L=1m[*R*]containing[*A*]N=1000 discrete particles	context()	negated: False ,passive: False
+0.773	[*A*]Our model[*R*]consists[*A*]of a two-dimensional square system, with pre-set side length of L=1m	context()	negated: False ,passive: True
+[LINE#139] The overall coverage of particles in the material is given by the number density, =N/L2 (fixed at 1000m-2) and the area fraction, Af=a, where a is the mean cross-sectional area of a particle.
+0.449	[*A*]a[*R*]is[*A*]the mean cross-sectional area of a particle	context()	negated: False ,passive: True
+0.970	[*A*]The overall coverage of particles in the material[*R*]is given[*A*]by the number density, =N/L2 (fixed at 1000m-2) and the area fraction	context()	negated: False ,passive: True
+[LINE#140]Periodic boundary conditions are applied to the edges of the system to reduce finite size effects [22].
+0.911	[*A*]Periodic boundary conditions[*R*]are applied[*A*]to the edges of the system[*A*]to reduce finite size effects	context()	negated: False ,passive: True
+[LINE#141]Our choice of units is irrelevant to the dispersion quality.
+0.739	[*A*]Our choice of units[*R*]is[*A*]irrelevant to the dispersion quality	context()	negated: False ,passive: True
+[LINE#142] Discrete particles are described as ellipses with a centre of mass, semi-major (r+) and semi-minor (r-) axis lengths and an orientation angle1b shows a labelled schematic of two such particles.
+0.882	[*A*]Discrete particles[*R*]are described[*A*]as ellipses with a centre of mass , semi-minor	context(an orientation angle1b shows)	negated: False ,passive: True
+0.937	[*A*]Discrete particles[*R*]are described[*A*]as ellipses with a centre of mass , semi-minor ( r - ) axis lengths	context()	negated: False ,passive: True
+0.923	[*A*]Discrete particles[*R*]are described[*A*]as ellipses with a centre of mass , semi-major ( r+	context(an orientation angle1b shows)	negated: False ,passive: True
+0.916	[*A*]an orientation angle1b[*R*]shows[*A*]a labelled schematic of two such particles	context()	negated: False ,passive: False
+0.903	[*A*]Discrete particles[*R*]are described[*A*]as ellipses with a centre of mass	context()	negated: False ,passive: True
+[LINE#143]The aspect ratio of the elliptical particle is given by f=r+/r-.
+0.948	[*A*]The aspect ratio of the elliptical particle[*R*]is given[*A*]by f=r+	context()	negated: False ,passive: True
+[LINE#144]When f=1, then the particles are treated as discs..
+0.943	[*A*]the particles[*R*]are treated[*A*]as discs[*A*]When f=1[*A*]then	context()	negated: False ,passive: True
+[LINE#145]Method of modelling the hard-core random modelA configuration is produced by placing the particles one at a time into the system using the simple sequential inhibition (SSI) technique.
+0.959	[*A*]Method of modelling the hard-core random modelA configuration[*R*]by placing[*A*]the particles[*A*]at a time[*A*]into the system	context()	negated: False ,passive: False
+0.978	[*A*]Method of modelling the hard-core random modelA configuration[*R*]is produced[*A*]by placing the particles one at a time into the system	context()	negated: False ,passive: True
+[LINE#146]First, the particle's orientation angle  is selected from the range 0 to 180 with uniform probability of acceptance.
+0.957	[*A*]the particle's orientation angle[*R*]is selected[*A*]from the range[*A*]to 180[*A*]First	context()	negated: False ,passive: True
+[LINE#147]Next the centre of mass position is provisionally chosen at random and the distance between this particle and any pre-placed particles are measured.
+0.801	[*A*]the distance between any pre-placed particles[*R*]are measured	context()	negated: False ,passive: False
+0.785	[*A*]the distance between this particle[*R*]are measured	context()	negated: False ,passive: False
+0.887	[*A*]the centre of mass position[*R*]is provisionally chosen[*A*]at random[*A*]Next	context()	negated: False ,passive: True
+[LINE#148] If these distances are greater than the distance of closest approach between the elliptical particles (calculated using the algorithm developed by [24] and indicated as d in Fig.1b), then the new particle is accepted as not overlapping.
+0.918	[*A*]these distances[*R*]are indicated[*A*]as d in Fig.1b	context()	negated: False ,passive: True
+0.866	[*A*]the new particle[*R*]is accepted[*A*]as not overlapping[*A*]then	context()	negated: False ,passive: True
+0.767	[*A*]the algorithm[*R*]developed[*A*]by [ 24	context()	negated: False ,passive: True
+0.718	[*A*]the elliptical particles[*R*]calculated	context()	negated: False ,passive: False
+0.937	[*A*]these distances[*R*]are[*A*]greater than the distance of closest approach between the elliptical particles	context()	negated: False ,passive: True
+[LINE#149]If the particle is not accepted then a new position is generated, and the test repeated until it is accepted.
+0.195	[*A*]it[*R*]is accepted	context()	negated: False ,passive: False
+0.835	[*A*]the test[*R*]repeated[*A*]until it is accepted	context()	negated: False ,passive: True
+0.751	[*A*]a new position[*R*]is generated	context()	negated: False ,passive: False
+0.767	[*A*]the particle[*R*]is not accepted[*A*]then	context()	negated: True ,passive: True
+[LINE#150]The configuration of particles is complete when all particles have been placed.
+0.732	[*A*]all particles[*R*]have been placed	context()	negated: False ,passive: False
+0.937	[*A*]The configuration of particles[*R*]is[*A*]complete[*A*]when all particles have been placed	context()	negated: False ,passive: True
+[LINE#151]A reliable estimate for the mean Area Disorder, AD, and standard deviation, SAD is calculated from 1000 or 5000 configurations. .
+0.855	[*A*]SAD[*R*]is calculated[*A*]from 1000 or 5000 configurations	context()	negated: False ,passive: True
+[LINE#152] Models usedIn this article we explore the effect on the measured Area Disorder of two specific morphological properties:(1) the dispersion in particle sizes and (2) the aspect ratio of the particles.
+0.614	[*A*]we[*R*]explore[*A*]the effect on the measured Area Disorder of two specific morphological properties	context()	negated: False ,passive: False
+0.899	[*A*]Models[*R*]usedIn[*A*]this article we explore the effect on the measured Area Disorder of two specific morphological properties	context()	negated: False ,passive: False
+0.614	[*A*]we[*R*]explore[*A*]the effect on the measured Area Disorder of two specific morphological properties : ( 1 ) and ( 2 ) the aspect ratio of the particles	context()	negated: False ,passive: False
+0.899	[*A*]Models[*R*]usedIn[*A*]this article we explore the effect on the measured Area Disorder of two specific morphological properties : ( 1 ) and ( 2 ) the aspect ratio of the particles	context()	negated: False ,passive: False
+[LINE#153]We consider three variations of the hard-core random model.
+0.452	[*A*]We[*R*]consider[*A*]three variations of the hard-core random model	context()	negated: False ,passive: False
+[LINE#154] The first two types contain circularly-shaped (f=1) particles where the distribution of particle sizes is either bi-dispersed (HRB) or poly-dispersed.
+0.991	[*A*]two types[*R*]contain[*A*]circularly shaped f=1 particles where the distribution of particle sizes is either bi-dispersed ( HRB ) or poly-dispersed	context()	negated: False ,passive: False
+0.756	[*A*]the distribution of particle sizes[*R*]poly-dispersed	context()	negated: False ,passive: False
+0.756	[*A*]the distribution of particle sizes[*R*]bi-dispersed	context()	negated: False ,passive: False
+0.952	[*A*]the distribution of particle sizes[*R*]is[*A*]either bi-dispersed (HRB) or poly-dispersed	context()	negated: False ,passive: True
+0.956	[*A*]The first two types[*R*]contain[*A*]circularly-shaped (f=1) particles where the distribution of particle sizes is either bi-dispersed (HRB) or poly-dispersed	context()	negated: False ,passive: False
+[LINE#155] The third type has identical elliptically-shaped particles (HRE) with aspect ratios satisfying a collection of N particles are divided into two populations, numbering p1N and p2N, with p1 and p2 being positive unit-less values satisfying.
+0.916	[*A*]The third type[*R*]has[*A*]identical elliptically - shaped particles	context()	negated: False ,passive: False
+0.918	[*A*]aspect ratios[*R*]satisfying[*A*]a collection of N particles	context()	negated: False ,passive: False
+[LINE#156] The particle radii for the two populations are r and r2r (with scalar r21), respectively, such that the total area fraction is conserved through Af=r2p1+p2r22.In HRPthe particle radius is selected from a log-normal distribution of particle areas in which the mean radius, r, corresponds to the true area fraction and the standard deviation is equal to (sr), with s being a positive number.
+0.385	[*A*]the standard deviation[*R*]is equal to[*A*]( sr )	context()	negated: False ,passive: False
+0.897	[*A*]the mean radius[*R*]corresponds[*A*]to the true area fraction and the standard deviation	context()	negated: False ,passive: True
+0.927	[*A*]The particle radii for the two populations[*R*]is selected[*A*]from a log-normal distribution of particle areas	context()	negated: False ,passive: True
+0.769	[*A*]the total area fraction[*R*]is conserved	context()	negated: False ,passive: False
+0.813	[*A*]s[*R*]being[*A*]a positive number	context()	negated: False ,passive: True
+0.938	[*A*]The particle radii for the two populations[*R*]are[*A*]r and r2r (with scalar r21[*A*]respectively	context()	negated: False ,passive: True
+0.964	[*A*]The particle radii for the two populations[*R*]is[*A*]equal to (sr), with s being a positive number	context()	negated: False ,passive: True
+0.903	[*A*]The particle[*R*]radii[*A*]for the two populations	context()	negated: False ,passive: True
+[LINE#157] -dispersed and poly-dispersed particlesFig. 2a-c shows example arrangements of particles found for these systems, and Fig.3 shows the variation of the measured Area Disorder.
+0.931	[*A*]Fig.3[*R*]shows[*A*]the variation of the measured Area Disorder	context()	negated: False ,passive: False
+0.713	[*A*]particles[*R*]found	context()	negated: False ,passive: False
+0.449	[*A*]c[*R*]shows[*A*]example arrangements of particles	context()	negated: False ,passive: False
+[LINE#158]In all cases the Area Disorder is bounded between the conservative upper-bound, given by PR and the conservative lower-bound, given by identical hard-core discs (i.e. HRB with r2=1, or HRP with s=0).
+[LINE#159]Hence, increasing the area fraction results in a larger range of allowed values for ADDel, due to the lower-bound dropping towards zero as the geometrical arrangements become more crystalline.
+[LINE#160]Beginning with the bi-dispersed case (HRB), the morphology of the system is adjusted by either (i) 1r210 while keeping p2=p1=1/2; or (ii) 0p21 while keeping r2 fixed.
+0.561	[*A*]r2[*R*]fixed	context()	negated: False ,passive: False
+0.957	[*A*]the morphology of the system[*R*]is adjusted[*A*]by either (i)[*A*]while keeping p2=p1=1/2[*A*]Beginning with the bi-dispersed case	context()	negated: False ,passive: True
+[LINE#161] Increasing the size disparity between the two particle populations, through using larger r2, enlarges the value of the Area Disorder, see Fig.3a, with the effect of reducing the regularity in the arrangement of particles of the system.
+[LINE#162]The size-inhabitation of the larger particles ensures that the Area Disorder cannot exceed that expected for a set of point-like particles (f=0).
+0.766	[*A*]the Area Disorder[*R*]can not exceed	context(The size - inhabitation of the larger particles ensures)	negated: True ,passive: False
+0.867	[*A*]The size-inhabitation of the larger particles[*R*]ensures[*A*]that expected for a set of point-like particles	context()	negated: False ,passive: False
+[LINE#163]Thus the Area Disorder tends to a constant at high r2.
+0.949	[*A*]the Area Disorder[*R*]tends[*A*]to a constant at high r2	context()	negated: False ,passive: True
+[LINE#164] The broadness of the particle areas is characterised by the standard deviation of particle areas, S(a), shown in Fig..
+0.949	[*A*]the standard deviation of particle areas[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
+0.932	[*A*]The broadness of the particle areas[*R*]is characterised[*A*]by the standard deviation of particle areas	context()	negated: False ,passive: True
+[LINE#165] As the variance in particle sizes increases then.
+0.814	[*A*]the variance in particle sizes[*R*]increases[*A*]then	context()	negated: False ,passive: True
+[LINE#166]ADDel rises and the particles appear to be more clustered.
+0.735	[*A*]the particles[*R*]to be[*A*]more clustered	context()	negated: False ,passive: True
+0.732	[*A*]the particles[*R*]appear	context()	negated: False ,passive: False
+[LINE#167] By contrast, the Area Disorder is a singular peaked function of p2, as seen in Fig. 3b, which correlates with the peak in S(a) seen in Fig..
+0.940	[*A*]the peak in S[*R*]seen[*A*]in Fig	context()	negated: False ,passive: True
+0.934	[*A*]Fig. 3b[*R*]correlates[*A*]with the peak in S	context()	negated: False ,passive: False
+0.973	[*A*]the Area Disorder[*R*]is[*A*]a singular peaked function of p2, as seen in Fig. 3b,	context()	negated: False ,passive: True
+[LINE#168]The minimum value of ADDel is found when the system only has one population present, i.e. for particles which are mono-dispersed in size.
+0.877	[*A*]particles[*R*]are[*A*]mono-dispersed in size	context()	negated: False ,passive: True
+0.913	[*A*]the system[*R*]has[*A*]one population present, i.e. for particles	context()	negated: False ,passive: False
+0.964	[*A*]The minimum value of ADDel[*R*]is found[*A*]when the system only has one population present, i.e. for particles	context()	negated: False ,passive: True
+[LINE#169]The maximum value of ADDel, does not correspond to p2=1/2, but is biased towards systems with more smaller particles than larger particles.
+0.968	[*A*]The maximum value of ADDel[*R*]is[*A*]biased towards systems with more smaller particles than larger particles	context()	negated: False ,passive: True
+0.934	[*A*]The maximum value of ADDel[*R*]does not correspond[*A*]to p2=1/2	context()	negated: True ,passive: True
+[LINE#170]This suggests that a material with many small particles amongst a few large particles appears statistically more clustered (thus worse dispersed) than a few small particles dispersed amongst many large particles.
+0.839	[*A*]a material with many small particles amongst a few large particles[*R*]appears	context(This suggests)	negated: False ,passive: False
+0.224	[*A*]This[*R*]suggests[*A*]that a material with many small particles amongst a few large particles appears statistically more clustered (thus worse dispersed) than a few small particles	context()	negated: False ,passive: False
+0.919	[*A*]a few small particles[*R*]dispersed[*A*]amongst many large particles	context()	negated: False ,passive: True
+0.847	[*A*]a material with many small particles amongst a few large particles[*R*]more clustered	context()	negated: False ,passive: False
+[LINE#171] For particles that are poly-dispersed in size, Fig.3c shows the Area Disorder as a function of the parameter s for the area fractions 0.1 and 0.2.
+0.948	[*A*]Fig.3c[*R*]shows[*A*]the Area Disorder	context()	negated: False ,passive: False
+0.677	[*A*]particles[*R*]are poly-dispersed	context()	negated: False ,passive: False
+[LINE#172]Broadening the distribution of particle radii, by enlarging the parameter s, raises the value of the Area Disorder, and makes the particles of the system appear more clustered.
+[LINE#173] This behaviour mirrors the trend seen by increasing the disparity in sizes of a bi-dispersed population of particles where as S(a) increases with s so too does ADDel, as illustrated in Fig.this section we study the changes in behaviour of the Area Disorder as the aspect ratio of the nanoparticles increases, i.e. they become more fibre-like and less circular.
+0.303	[*A*]they[*R*]become[*A*]less circular	context()	negated: False ,passive: True
+0.920	[*A*]This behaviour[*R*]mirrors[*A*]the trend seen by increasing the disparity in sizes of a bi-dispersed population of particles	context(we study they become)	negated: False ,passive: True
+0.433	[*A*]we[*R*]study[*A*]the changes in behaviour of the Area Disorder	context(they become)	negated: False ,passive: False
+0.303	[*A*]they[*R*]become[*A*]more fibre-like	context()	negated: False ,passive: True
+0.937	[*A*]the trend[*R*]seen[*A*]by increasing the disparity in sizes of a bi-dispersed population of particles	context()	negated: False ,passive: True
+[LINE#174]4a-c gives sample particle arrangements for the HRE model at three different aspect ratios.
+0.894	[*A*]c[*R*]gives[*A*]sample particle arrangements for the HRE model at three different aspect ratios	context()	negated: False ,passive: False
+[LINE#175] the particle arrangement looks isotropic (random orientations and positions), but on increasing the aspect ratio the orientation of the neighbouring particles becomes more correlated leading to the appearance of grain like structures at high aspect ratios (Fig. 4c).Fig.5a plots the mean Area Disorder as a function of aspect ratio and area fraction.
+0.948	[*A*]Fig.5a[*R*]plots[*A*]the mean Area Disorder[*A*]as a function of aspect ratio and area fraction	context()	negated: False ,passive: False
+0.783	[*A*]the particle arrangement[*R*]looks[*A*]isotropic	context()	negated: False ,passive: False
+[LINE#176] We investigated a range of aspect ratios from f=1 (disc shape) up to f=160(Af=0.05), 70 (Af=0.1), 30 (Af=0.2) and 105a illustrates the complex relation between the apparent extent of regularity/clustering in the arrangement of nanoparticles given by ADDel and the shape of the particles.
+0.948	[*A*]105a[*R*]illustrates[*A*]the complex relation between the apparent extent of regularity / clustering in the arrangement of nanoparticles	context()	negated: False ,passive: False
+0.452	[*A*]We[*R*]investigated[*A*]a range of aspect ratios from f=1	context()	negated: False ,passive: False
+0.911	[*A*]nanoparticles[*R*]given[*A*]by ADDel and the shape of the particles	context()	negated: False ,passive: True
+0.509	[*A*]We[*R*]investigated up[*A*]to f=160 ( Af=0.05 ) , 70 ( Af=0.1 ) , 30	context()	negated: False ,passive: False
+[LINE#177]Each dataset can be divided into three distinct regions of behaviour.
+0.903	[*A*]Each dataset[*R*]can be divided[*A*]into three distinct regions of behaviour	context()	negated: False ,passive: True
+[LINE#178] When the aspect ratio is low, such that 1ffiso,.
+0.828	[*A*]the aspect ratio[*R*]is[*A*]low	context()	negated: False ,passive: True
+[LINE#179]ADDel decreases with f implying that the particles appear to be arranged more regularly.
+0.735	[*A*]the particles[*R*]to be arranged[*A*]more regularly	context()	negated: False ,passive: True
+0.870	[*A*]ADDel[*R*]decreases[*A*]with f implying that the particles appear to be arranged more regularly	context()	negated: False ,passive: True
+[LINE#180]When f=fiso then the isotropic appearance of the system is lost and some of the particles are rotationally correlated.
+0.769	[*A*]some of the particles[*R*]are rotationally correlated	context()	negated: False ,passive: False
+0.878	[*A*]the isotropic appearance of the system[*R*]is lost[*A*]then	context()	negated: False ,passive: True
+[LINE#181] An example configuration is given in Fig..
+0.925	[*A*]An example configuration[*R*]is given[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#182]At moderate aspect ratios, fisoffcol, the system behaviour is more complicated.
+0.960	[*A*]the system behaviour[*R*]is[*A*]more complicated[*A*]At moderate aspect ratios, fisoffcol	context()	negated: False ,passive: True
+[LINE#183]Initially it becomes more regular on raising f before switching to become progressively irregular in appearance, corresponding to a rise in ADDel.
+0.452	[*A*]it[*R*]becomes[*A*]more regular on raising f[*A*]before switching to become progressively irregular in appearance	context()	negated: False ,passive: True
+[LINE#184] An example configuration is given in Fig. fmin is plotted as a function of area fraction and aspect ratio in Fig..
+0.561	[*A*]fmin[*R*]is plotted	context()	negated: False ,passive: False
+0.925	[*A*]An example configuration[*R*]is given[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#185]For low area fractions (Af 0) the minimum value of ADDel corresponds well with fminAf=2.020.02.
+0.944	[*A*]the minimum value of ADDel[*R*]corresponds well[*A*]with fminAf=2.020.02	context()	negated: False ,passive: True
+[LINE#186]Nevertheless, the true behaviour of fmin deviates from this form at higher area fractions.
+[LINE#187]fmin represents a turning point from where the particles are predominantly in close proximity with one neighbour to that where particles are predominantly in contact with two or more particles, forming small networks.
+0.905	[*A*]two or more particles[*R*]forming[*A*]small networks	context()	negated: False ,passive: False
+0.847	[*A*]particles[*R*]are[*A*]predominantly[*A*]in contact with two or more particles[*A*]that	context()	negated: False ,passive: True
+0.767	[*A*]the particles[*R*]are[*A*]predominantly	context()	negated: False ,passive: True
+0.718	[*A*]fmin[*R*]represents[*A*]a turning point from where the particles are predominantly in close proximity with one neighbour to that	context()	negated: False ,passive: False
+[LINE#188] At high aspect ratios, f>fcol, the ADDel trend lines of various area fractions collapse (indicated by the solid line in Fig. beginning at the aspect ratio fcol3.6.
+0.969	[*A*]f>fcol, the ADDel trend lines of various area fractions collapse[*R*]beginning[*A*]at the aspect ratio fcol3.6	context()	negated: False ,passive: True
+0.974	[*A*]f>fcol, the ADDel trend lines of various area fractions collapse[*R*]indicated[*A*]by the solid line in Fig	context()	negated: False ,passive: True
+[LINE#189]The value of ADDel increases further to become greater than expected for PR giving a clustered appearance to the centre of mass positions of the particles.
+0.875	[*A*]PR[*R*]giving[*A*]a clustered appearance to the centre of mass positions of the particles	context()	negated: False ,passive: False
+0.928	[*A*]The value of ADDel[*R*]to become[*A*]greater than expected for PR	context()	negated: False ,passive: True
+0.844	[*A*]The value of ADDel[*R*]increases[*A*]further[*A*]to become greater	context()	negated: False ,passive: True
+[LINE#190] An example configuration is given in Fig..
+0.925	[*A*]An example configuration[*R*]is given[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#191]Here the system takes on a grain-like appearance where particles are either networked together forming the boundaries of the grain or in near rotational correlation, filling the interior of the grain.
+0.877	[*A*]particles[*R*]together forming[*A*]the boundaries of the grain	context()	negated: False ,passive: False
+0.877	[*A*]particles[*R*]networked[*A*]together forming the boundaries of the grain	context()	negated: False ,passive: True
+0.931	[*A*]particles[*R*]are[*A*]either networked together forming the boundaries of the grain or in near rotational correlation, filling the interior of the grain	context()	negated: False ,passive: True
+0.964	[*A*]the system[*R*]takes on[*A*]a grain-like appearance where particles are either networked together forming the boundaries of the grain or in near rotational correlation, filling the interior of the grain[*A*]Here	context()	negated: False ,passive: False
+[LINE#192]Note that there is no interaction (neither repulsion nor attraction) between the particles in the models.
+[LINE#193]Hence the formation of such grains, which is often quoted as indicating that interactions or crystallinity are present, is simply an effect of the high aspect ratio..
+0.982	[*A*]Hence the formation of such grains, which is often quoted as indicating that interactions or crystallinity are present[*R*]is[*A*]simply[*A*]an effect of the high aspect ratio	context()	negated: False ,passive: True
+0.832	[*A*]Hence the formation of such grains[*R*]is quoted[*A*]as indicating that interactions or crystallinity are present[*A*]often	context()	negated: False ,passive: True
+[LINE#194]moderate aspect ratio regime begins when there becomes no way of arranging all particles isotropically.
+0.908	[*A*]moderate aspect ratio regime[*R*]begins[*A*]when there becomes no way of arranging all particles isotropically	context()	negated: False ,passive: True
+[LINE#195]The minimum space (which includes the area occupied by the particle) that each particle requires to be rotationally unconstrained is a disc of radius r+.
+0.987	[*A*]The minimum space (which includes the area occupied by the particle) that each particle requires to be rotationally unconstrained[*R*]is[*A*]a disc of radius	context()	negated: False ,passive: True
+0.735	[*A*]each particle[*R*]to be[*A*]rotationally unconstrained	context()	negated: False ,passive: True
+0.767	[*A*]each particle[*R*]requires[*A*]to be rotationally unconstrained	context()	negated: False ,passive: False
+0.903	[*A*]the area[*R*]occupied[*A*]by the particle	context()	negated: False ,passive: True
+[LINE#196]The semi-major axis length is defined by r+= (f Af/())1/2.
+0.931	[*A*]The semi-major axis length[*R*]is defined[*A*]by r+=	context()	negated: False ,passive: True
+[LINE#197] The closest each disc can be packed is in a hexagonal close-packed crystallographic arrangement with an area fraction of /23, see Fig.onset at high aspect ratios of the collapse in ADDel behaviours and strong positional correlation at small length-scales happens with the materialisation of the grain-like structure.
+0.970	[*A*]The closest each disc can be packed[*R*]is[*A*]in a hexagonal close - packed crystallographic arrangement with an area fraction of / 23	context()	negated: False ,passive: True
+0.732	[*A*]each disc[*R*]can be packed	context()	negated: False ,passive: False
+[LINE#198]This occurs when there becomes no way of placing further particles into the grain network and thus the remainder have to go inside the grains.
+0.887	[*A*]the remainder[*R*]to go[*A*]inside the grains	context()	negated: False ,passive: False
+0.349	[*A*]This[*R*]occurs[*A*]when there becomes no way of placing further particles into the grain network	context()	negated: False ,passive: True
+[LINE#199]On average each particle is surrounded by six neighbours suggesting a hexagonal arrangement for the framework of the grains.
+0.903	[*A*]six neighbours[*R*]suggesting[*A*]a hexagonal arrangement for the framework of the grains	context()	negated: False ,passive: False
+0.527	[*A*]On average[*R*]is surrounded[*A*]by six neighbours	context()	negated: False ,passive: True
+[LINE#200] The closest that the particle centres can be placed apart, such that the particles only just touch, is approximately equal to r+ as r- becomes small (see Fig.6b where the dashed circles show potential lattice positions of the networked particles).
+0.565	[*A*]r[*R*]becomes[*A*]small	context()	negated: False ,passive: True
+0.967	[*A*]the dashed circles[*R*]show[*A*]potential lattice positions of the networked particles[*A*]Fig.6b	context()	negated: False ,passive: False
+0.898	[*A*]The closest that the particle centres can be placed apart,[*R*]is[*A*]approximately equal to r+	context()	negated: False ,passive: True
+0.783	[*A*]the particle centres[*R*]can be placed[*A*]apart	context()	negated: False ,passive: True
+[LINE#201]The lattice spacing for this hexagonal network, spanning the entire system, satisfies 1/=3r+2/2.
+0.999	[*A*]The lattice spacing for this hexagonal network , spanning the entire system[*R*]satisfies[*A*]1 /	context()	negated: False ,passive: False
+0.934	[*A*]The lattice spacing for this hexagonal network,[*R*]satisfies[*A*]1/=3r+2/2	context()	negated: False ,passive: False
+0.897	[*A*]this hexagonal network[*R*]spanning[*A*]the entire system	context()	negated: False ,passive: False
+0.732	[*A*]The lattice[*R*]spacing	context()	negated: False ,passive: False
+[LINE#202]Thus we arrive at(3)fAf233.627Hence a structural change in the system occurs at fAf>3.6, and is brought on by the high aspect ratio compared to the area fraction.
+0.411	[*A*]we[*R*]is brought on[*A*]by the high aspect ratio[*A*]compared to the area fraction	context()	negated: False ,passive: True
+0.452	[*A*]we[*R*]arrive[*A*]at ( 3[*A*]fAf233.627Hence a structural change in the system	context()	negated: False ,passive: True
+0.411	[*A*]we[*R*]fAf233.627Hence[*A*]a structural change in the system	context()	negated: False ,passive: False
+[LINE#203]The Area Disorder of the hexagonal grain network (GR) is analogous to ADDel=0.367 for the imperfect hexagonal lattice where, due to the length of the particle, an average of 4 out of the 7 lattice positions are occupied by particle centre of masses [5].
+0.973	[*A*]an average of 4 out of the 7 lattice positions[*R*]are occupied[*A*]by particle centre of masses[*A*]the imperfect hexagonal lattice[*A*]due to the length of the particle	context()	negated: False ,passive: True
+0.950	[*A*]The Area Disorder of the hexagonal grain network[*R*]to ADDel=0.367[*A*]for the imperfect hexagonal lattice	context()	negated: False ,passive: False
+0.962	[*A*]The Area Disorder of the hexagonal grain network[*R*]is[*A*]analogous to ADDel=0.367 for the imperfect hexagonal lattice	context()	negated: False ,passive: True

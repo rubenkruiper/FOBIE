@@ -1,0 +1,778 @@
+[LINE#1]A coupled Computational Fluid Dynamics-Rigid Body Dynamics (CFD-RBD) model is presented, which is capable of modelling the 3D flight of plate-type windborne debris.
+0.976	[*A*]A coupled Computational Fluid Dynamics-Rigid Body Dynamics (CFD-RBD) model[*R*]is[*A*]capable of modelling the 3D flight of plate-type windborne debris	context()	negated: False ,passive: True
+0.870	[*A*]A coupled Computational Fluid Dynamics-Rigid Body Dynamics (CFD-RBD) model[*R*]is presented	context()	negated: False ,passive: False
+[LINE#2]The RBD model is based on rotational quaternions, which means that complex spinning modes of flight can be modelled accurately and robustly.
+0.738	[*A*]complex spinning modes of flight[*R*]can be modelled robustly	context(rotational quaternions means)	negated: False ,passive: False
+0.780	[*A*]rotational quaternions[*R*]means[*A*]that complex spinning modes of flight can be modelled robustly	context()	negated: False ,passive: False
+0.738	[*A*]complex spinning modes of flight[*R*]can be modelled accurately	context(rotational quaternions means)	negated: False ,passive: False
+0.780	[*A*]rotational quaternions[*R*]means[*A*]that complex spinning modes of flight can be modelled accurately	context()	negated: False ,passive: False
+0.933	[*A*]The RBD model[*R*]is based[*A*]on rotational quaternions	context()	negated: False ,passive: True
+[LINE#3]For debris that is free to fly in the absence of obstructions, it is shown that, depending on the initial plate orientation, a number of distinct flight modes are observed.
+0.905	[*A*]debris[*R*]is[*A*]free to fly in the absence of obstructions	context()	negated: False ,passive: True
+[LINE#4]When the plate is aligned at right angles to the flow, the flight mode depends critically on the initial angle of attack.
+0.967	[*A*]the flight mode[*R*]depends critically[*A*]on the initial angle of attack[*A*]When the plate is aligned at right angles to the flow	context()	negated: False ,passive: False
+0.903	[*A*]the plate[*R*]is aligned[*A*]at right angles	context()	negated: False ,passive: True
+[LINE#5]The plate may wobble or flutter as it flies, never completing a full rotation, or it may enter an autorotational flight mode.
+0.452	[*A*]it[*R*]may enter[*A*]an autorotational flight mode	context()	negated: False ,passive: False
+0.195	[*A*]it[*R*]flies	context()	negated: False ,passive: False
+0.810	[*A*]The plate[*R*]flutter[*A*]as it flies	context()	negated: False ,passive: True
+0.732	[*A*]The plate[*R*]may wobble	context()	negated: False ,passive: False
+[LINE#6]Depending on the direction of rotation, the plate is capable of flying faster than the wind.
+0.698	[*A*]the plate[*R*]of flying faster	context()	negated: False ,passive: False
+0.925	[*A*]the plate[*R*]is[*A*]capable of flying faster than the wind	context()	negated: False ,passive: True
+[LINE#7]It does this by converting some of its potential energy into rotational energy.
+0.225	[*A*]It[*R*]does[*A*]this	context()	negated: False ,passive: False
+[LINE#8]The rotation of the plate causes the forces acting on the plate to further accelerate or decelerate it, depending on the rotation direction.
+0.719	[*A*]the forces[*R*]acting on the plate to accelerate[*A*]further	context(The rotation of the plate causes the forces acting)	negated: False ,passive: False
+0.882	[*A*]the forces[*R*]acting[*A*]on the plate	context(The rotation of the plate causes)	negated: False ,passive: False
+0.897	[*A*]The rotation of the plate[*R*]causes[*A*]the forces acting on the plate to further accelerate or decelerate it, depending on the rotation direction	context()	negated: False ,passive: False
+[LINE#9]When the plate is not aligned at right angles to the flow, the plate always enters a complex 3D spinning mode, with significant crosswind motion, which is absent when the plate is aligned at right angles to the flow.
+0.903	[*A*]the plate[*R*]is aligned[*A*]at right angles	context()	negated: False ,passive: True
+0.949	[*A*]significant crosswind motion[*R*]is[*A*]absent[*A*]when the plate is aligned at right angles to the flow	context()	negated: False ,passive: True
+0.958	[*A*]the plate[*R*]enters[*A*]a complex 3D spinning mode[*A*]When the plate is not aligned at right angles to the flow[*A*]always	context()	negated: False ,passive: False
+0.903	[*A*]the plate[*R*]is not aligned[*A*]at right angles	context()	negated: True ,passive: True
+[LINE#10]This spinning mode is more typical of plates flying in real wind storms.
+0.894	[*A*]plates[*R*]flying[*A*]in real wind storms	context()	negated: False ,passive: True
+0.932	[*A*]This spinning mode[*R*]is[*A*]more typical of plates	context()	negated: False ,passive: True
+[LINE#11]In addition, using a porous region to represent a simple double-eaved building, plates are launched from the roof and their trajectory is simulated.
+0.341	[*A*]their trajectory[*R*]is simulated	context()	negated: False ,passive: False
+0.894	[*A*]plates[*R*]are launched[*A*]from the roof	context()	negated: False ,passive: True
+[LINE#12]The complex flow fields around the building result in more realistic plate trajectories.
+[LINE#13]For this particular scenario, large suctions on the windward slope of the roof produce large amounts of lift in the plates released from that position, causing them to fly well above the building, never entering the wake of the building.
+0.902	[*A*]large suctions on the windward slope of the roof[*R*]produce large amounts of lift never entering[*A*]the wake of the building	context(large suctions on the windward slope of the roof produce)	negated: True ,passive: False
+0.925	[*A*]large suctions on the windward slope of the roof[*R*]produce[*A*]large amounts of lift[*A*]in the plates[*A*]causing them to fly well above the building, never entering the wake of the building	context()	negated: False ,passive: False
+0.773	[*A*]the plates[*R*]released[*A*]from that position	context()	negated: False ,passive: True
+[LINE#14]The introduction of a robust rigid body model based on quaternions, coupled with CFD flow simulations, as outlined in the Part I paper, has allowed the prediction of the free flight of plate-type debris to an extent not seen previously.
+0.992	[*A*]The introduction of a robust rigid body model based on quaternions, coupled with CFD flow simulations, as outlined in the Part[*R*]has allowed[*A*]the prediction of the free flight of plate-type debris to an extent	context()	negated: False ,passive: False
+0.884	[*A*]the Part[*R*]paper[*A*]I	context()	negated: False ,passive: True
+0.767	[*A*]an extent[*R*]not seen[*A*]previously	context()	negated: True ,passive: True
+0.926	[*A*]a robust rigid body model[*R*]based[*A*]on quaternions	context()	negated: False ,passive: True
+[LINE#15]The replacement of the limited Euler Angle parametrisation has allowed complex 3D spinning modes to be modelled easily.
+0.745	[*A*]complex 3D spinning modes[*R*]to be modelled easily	context(The replacement of the limited Euler Angle parametrisation has allowed)	negated: False ,passive: False
+0.948	[*A*]The replacement of the limited Euler Angle parametrisation[*R*]has allowed[*A*]complex 3D spinning modes to be modelled easily	context()	negated: False ,passive: False
+[LINE#16]Based on the results of CFD-RBD simulations, four primary flight modes have been confirmed, which depend on the initial orientation of the plate: autorotational, transitional, flutter and complex 3D spinning.
+0.727	[*A*]four primary flight modes[*R*]have been confirmed	context()	negated: False ,passive: False
+[LINE#17]These flight modes are found to be qualitatively similar to those experimentally observed by Kordi et al.
+0.269	[*A*]those[*R*]experimentally observed[*A*]by Kordi et al	context()	negated: False ,passive: True
+0.528	[*A*]These flight modes[*R*]to be[*A*]qualitatively[*A*]similar to those	context()	negated: False ,passive: True
+0.751	[*A*]These flight modes[*R*]are found	context()	negated: False ,passive: False
+[LINE#18](2010).The distance that the plate is likely to fly has been shown to be dependent on the direction of rotation, with the autorotational effects resulting in plates over-speeding with a non-dimensionalised horizontal speed greater than 1, or flying with a non-dimensionalised speed consistently below 1.
+0.911	[*A*]the autorotational effects[*R*]resulting[*A*]in plates	context()	negated: False ,passive: True
+0.229	[*A*]2010[*R*]has been shown	context()	negated: False ,passive: False
+0.698	[*A*]the plate[*R*]to fly	context()	negated: False ,passive: False
+0.713	[*A*]plates[*R*]over-speeding	context()	negated: False ,passive: False
+0.813	[*A*]the plate[*R*]is[*A*]likely to fly	context()	negated: False ,passive: True
+[LINE#19]Previous assumptions, suggesting a non-dimensionalised terminal horizontal speed of 1 are shown to be invalid, except for flutter mode plates which have no net rotation.
+0.897	[*A*]flutter mode plates[*R*]have[*A*]no net rotation	context()	negated: False ,passive: False
+0.869	[*A*]Previous assumptions, suggesting a non-dimensionalised terminal horizontal speed of 1[*R*]to be[*A*]invalid	context()	negated: False ,passive: True
+0.867	[*A*]Previous assumptions, suggesting a non-dimensionalised terminal horizontal speed of 1[*R*]are shown	context()	negated: False ,passive: False
+0.887	[*A*]Previous assumptions[*R*]suggesting[*A*]a non-dimensionalised terminal horizontal speed of 1	context()	negated: False ,passive: False
+[LINE#20]This coupling between the terminal horizontal speed and rotational direction is due to the direction of the autorotational drag component.
+0.964	[*A*]This coupling between the terminal horizontal speed and rotational direction[*R*]is[*A*]due to the direction of the autorotational drag component	context()	negated: False ,passive: True
+[LINE#21]The modelling of failure and flight of plate type roof components has traditionally been restricted to experimental investigations, such as Kordi and Kopp (2011).
+0.935	[*A*]The modelling of flight of plate type roof components[*R*]has been restricted[*A*]to experimental investigations , such as Kopp ( 2011	context()	negated: False ,passive: True
+0.935	[*A*]The modelling of flight of plate type roof components[*R*]has been restricted[*A*]to experimental investigations , such as Kordi ( 2011	context()	negated: False ,passive: True
+0.899	[*A*]The modelling of failure[*R*]has been restricted[*A*]to experimental investigations , such as Kopp ( 2011	context()	negated: False ,passive: True
+0.899	[*A*]The modelling of failure[*R*]has been restricted[*A*]to experimental investigations , such as Kordi ( 2011	context()	negated: False ,passive: True
+[LINE#22]The CFD-RBD models presented in the present research are capable of reproducing this behaviour and allowing more detailed investigations of the FSI involved.
+0.788	[*A*]the FSI[*R*]involved	context()	negated: False ,passive: False
+0.898	[*A*]The CFD - RBD models[*R*]are[*A*]capable of allowing more detailed investigations of the FSI	context()	negated: False ,passive: True
+0.880	[*A*]The CFD - RBD models[*R*]of reproducing[*A*]this behaviour	context()	negated: False ,passive: False
+0.880	[*A*]The CFD - RBD models[*R*]are[*A*]capable of reproducing this behaviour	context()	negated: False ,passive: True
+0.897	[*A*]The CFD - RBD models[*R*]presented[*A*]in the present research	context()	negated: False ,passive: True
+[LINE#23]Further, while traditionally numerical models have been limited to uniform steady wind-flow and simple launch conditions involving only initial orientation, the CFD-RBD model can be extended to more realistic flow conditions.
+0.911	[*A*]simple launch conditions[*R*]involving[*A*]only initial orientation	context()	negated: False ,passive: True
+0.911	[*A*]traditionally numerical models[*R*]have been limited[*A*]to simple launch conditions	context()	negated: False ,passive: True
+0.939	[*A*]the CFD - RBD model[*R*]can be extended[*A*]to more realistic flow conditions[*A*]Further	context()	negated: False ,passive: True
+0.911	[*A*]traditionally numerical models[*R*]have been limited[*A*]to uniform steady wind - flow	context()	negated: False ,passive: True
+[LINE#24]Using CFD-RBD simulations, the complex launch flow field is directly simulated and its impact on debris flight accounted for.
+0.454	[*A*]its impact on debris flight[*R*]accounted[*A*]for	context()	negated: False ,passive: False
+0.785	[*A*]the complex launch flow field[*R*]is directly simulated	context()	negated: False ,passive: False
+[LINE#25]The porous region building model presented here is a simple method of obtaining qualitatively similar flow fields to those observed with conventional wall bounded building models.
+0.732	[*A*]conventional wall[*R*]bounded	context()	negated: False ,passive: False
+0.083	[*A*]those[*R*]observed	context()	negated: False ,passive: False
+0.921	[*A*]The porous region building model presented here[*R*]is[*A*]a simple method of obtaining qualitatively similar flow fields to those	context()	negated: False ,passive: True
+0.814	[*A*]The porous region building model[*R*]presented[*A*]here	context()	negated: False ,passive: True
+[LINE#26]Free flight simulations-sensitivity to initial orientation.
+[LINE#27] D model and casesThe setup of the CFD model is described in detail in Section 3,.
+0.939	[*A*]casesThe setup of the CFD model[*R*]is described[*A*]in Section 3	context()	negated: False ,passive: True
+0.886	[*A*]D model[*R*]is described[*A*]in Section 3	context()	negated: False ,passive: True
+[LINE#28]Part I (Kakimpa et al., in press), which includes a detailed description of the CFD-RBD coupling.
+0.642	[*A*]Part I[*R*]includes[*A*]a detailed description of the CFD-RBD coupling	context()	negated: False ,passive: True
+[LINE#29]In the first series of 36 simulations (hereafter Batch 1) the plates were held at initial angles of attack in the vertical XY plane, z=90-, ranging from -85 to 90 at intervals of 5 (Fig. 3).
+0.774	[*A*]z=90[*R*]ranging[*A*]from -85[*A*]to 90	context()	negated: False ,passive: True
+0.970	[*A*]the plates[*R*]were held[*A*]at initial angles of attack in the vertical XY plane[*A*]In the first series of 36 simulations	context()	negated: False ,passive: True
+[LINE#30]Notice an increase in z corresponds to an increase in  and is of an opposite sense to the angle of attack.
+[LINE#31]The plates were held normal to the flow in the horizontal XZ plane for these simulations.
+0.947	[*A*]The plates[*R*]were held[*A*]normal to the flow in the horizontal XZ plane for these simulations	context()	negated: False ,passive: True
+[LINE#32]A second series of 41 simulations (hereafter Batch 2) were performed with the plate rotated at 15 intervals about the Z-axis and the Y-axis such that its initial orientation is no longer normal to the flow.
+0.918	[*A*]the plate[*R*]rotated[*A*]at 15 intervals about the Y - axis	context()	negated: False ,passive: True
+0.660	[*A*]its initial orientation[*R*]is no longer[*A*]normal to the flow	context()	negated: True ,passive: True
+0.918	[*A*]the plate[*R*]rotated[*A*]at 15 intervals about the Z - axis	context()	negated: False ,passive: True
+0.773	[*A*]A second series of 41 simulations[*R*]were performed	context()	negated: False ,passive: False
+[LINE#33]In these cases, an initial orientation, , about the Z-axis is applied, followed by a second rotation  about the Y-axis.
+0.968	[*A*]an initial orientation[*R*]is applied[*A*]followed by a second rotation  about the Y-axis[*A*]In these cases[*A*]about the Z-axis	context()	negated: False ,passive: True
+[LINE#34]These two rotations would correspond to a pitch followed by a yaw of the plate. .
+0.732	[*A*]a pitch[*R*]followed	context()	negated: False ,passive: False
+0.911	[*A*]These two rotations[*R*]would correspond[*A*]to a pitch	context()	negated: False ,passive: True
+[LINE#35]Debris flight modesBatch 1 simulations resulted in no significant lateral crosswind motion even though plates were free to translate and rotate in the crosswind direction.
+0.877	[*A*]plates[*R*]to rotate[*A*]in the crosswind direction	context()	negated: False ,passive: True
+0.964	[*A*]Debris flight modesBatch 1 simulations[*R*]resulted[*A*]in no significant lateral crosswind motion[*A*]even though plates were free to rotate in the crosswind direction	context()	negated: False ,passive: True
+0.677	[*A*]plates[*R*]to translate	context()	negated: False ,passive: False
+0.944	[*A*]Debris flight modesBatch 1 simulations[*R*]resulted[*A*]in no significant lateral crosswind motion[*A*]even though plates were free to translate	context()	negated: False ,passive: True
+[LINE#36]The debris trajectories for Batch 1 cases can be categorised into three distinct modes of flight; Flutter, Transitional and Autorotational.
+0.896	[*A*]The debris[*R*]trajectories[*A*]for Batch 1 cases[*A*]can be categorised into three distinct modes of flight	context()	negated: False ,passive: False
+[LINE#37]4 illustrates the corresponding modes observed for various initial angles of attack.
+0.911	[*A*]the corresponding modes[*R*]observed[*A*]for various initial angles of attack	context()	negated: False ,passive: True
+0.497	[*A*]4[*R*]illustrates[*A*]the corresponding modes observed for various initial angles of attack	context()	negated: False ,passive: False
+[LINE#38]The asymmetry of mode behaviour about z=90 initial orientation is attributed in part to the contribution of the plate's vertical velocity, which affects the effective angle of attack.
+0.913	[*A*]the plate's vertical velocity[*R*]affects[*A*]the effective angle of attack	context()	negated: False ,passive: False
+0.913	[*A*]The asymmetry of mode behaviour[*R*]is attributed[*A*]in part[*A*]to the contribution of the plate's vertical velocity	context()	negated: False ,passive: True
+[LINE#39] In the discussion of the various flight modes that follows, several figures are presented which contain the non-dimension parameters: the horizontal non-dimensional distance, Kx=Kxg/U2 and the non-dimensional time, Kt=Ktg/.
+0.933	[*A*]several figures[*R*]are presented[*A*]In the discussion of the various flight modes	context()	negated: False ,passive: True
+0.737	[*A*]the various flight modes[*R*]follows	context()	negated: False ,passive: False
+[LINE#40] The coordinates x, y and z used in these non-dimensional variables are in the fixed inertial reference frame (i.e. in the global coordinate system of the CFD domain)-they are not in the plate's local reference frame.Flutter11Andersen(2005) used the term "fluttering" to describe the motion of free-falling plates and the mechanism described here has similar traits.
+[LINE#41] is mainly translational and is observed for plates with an initial angle of attack in the range), the rotational motion of fluttering plates is characterised by oscillations between positive and negative values of z.
+0.932	[*A*]the rotational motion of fluttering plates[*R*]is characterised[*A*]by oscillations between positive and negative values of	context()	negated: False ,passive: True
+[LINE#42] Values of z generally remain within the range z<|o|, where o is the stable autorotational speed, which for a plate with the mass and inertia under consideration here is approximately 1.0 as shown by the dotted lines in Fig.(2010) called this mode "translational", but flutter is considered more descriptive.
+0.938	[*A*]the stable autorotational speed[*R*]is[*A*]approximately 1.0[*A*]as shown by the dotted lines in Fig	context()	negated: False ,passive: True
+0.897	[*A*]Values of z[*R*]remain[*A*]within the range z	context()	negated: False ,passive: True
+[LINE#43]This value of o is higher than the CFD-RBD and experimental fit predictions of o0.70 for a fixed-axis autorotating plate of similar dimensions (Kakimpa et al., 2010; Martinez-Vazquez et al., 2010).
+0.967	[*A*]This value of o[*R*]is[*A*]higher than the CFD-RBD and experimental fit predictions of o0.70 for a fixed-axis autorotating plate of similar dimensions	context()	negated: False ,passive: True
+[LINE#44]This may be attributed in part to the additional non-linear effects due to the presence of periodic fluctuations in the magnitude and direction of the mean wind speed relative the plate in the free-flight cases, while in the fixed-axis autorotational simulations the mean wind speed is kept constant.
+0.769	[*A*]the mean wind speed[*R*]is kept	context()	negated: False ,passive: False
+0.497	[*A*]This[*R*]may be attributed[*A*]in part[*A*]to the additional non-linear effects due to the presence of periodic fluctuations in the magnitude and direction of the mean wind speed relative the plate in the free-flight cases[*A*]while in the fixed-axis autorotational simulations the mean wind speed is kept constant	context()	negated: False ,passive: True
+[LINE#45]The amplitude of z increases from one cycle to the next for fluttering plates, and given a long enough flight duration, plates in the flutter mode would eventually reach zo and transition into stable autorotation.
+0.936	[*A*]plates in the flutter mode[*R*]would reach[*A*]transition[*A*]eventually	context()	negated: False ,passive: False
+0.936	[*A*]plates in the flutter mode[*R*]would reach zo[*A*]into stable autorotation[*A*]eventually	context()	negated: False ,passive: True
+[LINE#46] Transitional behaviour is observed for plates with an initial angle of attack in the range.
+0.903	[*A*]Transitional behaviour[*R*]is observed[*A*]for plates	context()	negated: False ,passive: True
+[LINE#47] These transitional mode plates initially exhibit oscillations between positive and negative values of  but eventually enter into stable autorotation when zo as shown in Fig. 5(b).Based on the results from fluttering and transitional plates , it might be postulated that provided the flight duration is long enough andthe mass moment of inertia of the plate is sufficiently large to allow plate autorotation, a free-flying plate will enter into autorotation at a stable value of o, regardless of the initial orientation.
+[LINE#48]Plate geometry and mass moment of inertia are therefore crucial parameters in determining whether plate autorotation occurs.
+0.919	[*A*]mass moment of inertia[*R*]are[*A*]therefore[*A*]crucial parameters in determining whether plate autorotation occurs	context()	negated: False ,passive: True
+0.903	[*A*]Plate geometry[*R*]are[*A*]therefore[*A*]crucial parameters in determining whether plate autorotation occurs	context()	negated: False ,passive: True
+[LINE#49]However, the rotational direction and time required to reach stable autorotation are found to be strongly dependent on the initial orientation of the plate.
+0.927	[*A*]the time required to reach stable autorotation[*R*]to be[*A*]strongly dependent on the initial orientation of the plate	context()	negated: False ,passive: True
+0.816	[*A*]the time required to reach stable autorotation[*R*]are found	context()	negated: False ,passive: False
+0.732	[*A*]the time[*R*]required	context()	negated: False ,passive: False
+0.934	[*A*]the rotational direction required to reach stable autorotation[*R*]to be[*A*]strongly dependent on the initial orientation of the plate	context()	negated: False ,passive: True
+0.830	[*A*]the rotational direction required to reach stable autorotation[*R*]are found	context()	negated: False ,passive: False
+0.897	[*A*]the rotational direction[*R*]to reach[*A*]stable autorotation	context()	negated: False ,passive: False
+0.911	[*A*]the rotational direction[*R*]required[*A*]to reach stable autorotation	context()	negated: False ,passive: True
+[LINE#50]It could be argued that flutter and transitional plates are essentially the same classification.
+[LINE#51]For the proposed classification to make sense, the flight time is crucial-if the plate enters an autorotational state (for even a single rotation) before it lands, then it can be termed transitional.
+0.243	[*A*]it[*R*]lands	context()	negated: False ,passive: False
+0.835	[*A*]the plate[*R*]enters[*A*]an autorotational state[*A*]before it lands	context()	negated: False ,passive: False
+0.911	[*A*]the proposed classification[*R*]to make[*A*]sense	context()	negated: False ,passive: False
+0.787	[*A*]the flight time[*R*]is[*A*]crucial	context(it can be termed)	negated: False ,passive: True
+0.285	[*A*]it[*R*]can be termed[*A*]transitional[*A*]then	context()	negated: False ,passive: True
+[LINE#52]This assumes that it has undergone at least one reversal of its rotational direction before autorotation sets in.
+0.264	[*A*]it[*R*]has undergone[*A*]at least one reversal of its rotational direction	context(This assumes)	negated: False ,passive: True
+0.135	[*A*]This[*R*]assumes[*A*]that it has undergone at least one reversal of its rotational direction before autorotation sets in	context()	negated: False ,passive: False
+[LINE#53]Autorotational flight occurs for -35<z<45.
+0.732	[*A*]Autorotational flight[*R*]occurs	context()	negated: False ,passive: False
+[LINE#54] Plates rotate with either positive or negative angular velocities from the start, with no change in rotational direction during the simulation, and quickly reach the stable autorotational speed, o, as shown in Fig..
+0.895	[*A*]Plates[*R*]rotate[*A*]o, as shown in Fig	context()	negated: False ,passive: True
+[LINE#55] The plate's rotational direction is strongly influenced by initial orientation, with plates having an initial orientation in the range -35<z<0 exhibiting z>0 while plates with initial orientation 0<z<45 have z<0, where the positive sense of rotation is shown in Fig. 3.It should be noted, however, that due to the high initial positive lift experienced by plates with initial angle of attack, z>0, in contrast to the negative lift experienced by plates with initial angle, z<0, the plates with a positive initial angle of attack are observed to fly further, Fig., for the flight durations considered.
+0.731	[*A*]0<z<45[*R*]have z[*A*]<0, where the positive sense of rotation is shown in Fig	context(plates with initial orientation should be noted)	negated: False ,passive: False
+0.692	[*A*]plates with initial orientation[*R*]should be noted	context()	negated: False ,passive: False
+0.949	[*A*]the plates with a positive initial angle of attack[*R*]to fly[*A*]further[*A*]Fig	context()	negated: False ,passive: True
+0.964	[*A*]the positive sense of rotation[*R*]is shown[*A*]in Fig[*A*]<0	context()	negated: False ,passive: True
+0.751	[*A*]the flight durations[*R*]considered	context()	negated: False ,passive: False
+0.911	[*A*]the negative lift[*R*]experienced[*A*]by plates with initial angle	context()	negated: False ,passive: True
+0.946	[*A*]the plates with a positive initial angle of attack[*R*]are observed[*A*]to fly further, Fig	context(plates having)	negated: False ,passive: True
+0.916	[*A*]plates[*R*]having[*A*]an initial orientation in the range -35<z<0 exhibiting z>0	context()	negated: False ,passive: False
+0.926	[*A*]the high initial positive lift[*R*]experienced[*A*]by plates	context()	negated: False ,passive: True
+0.926	[*A*]The plate's rotational direction[*R*]is strongly influenced[*A*]by initial orientation	context()	negated: False ,passive: True
+[LINE#56]This is despite having a lower horizontal velocity, u=u/Uw, as can be seen in Fig. 7(c).
+0.386	[*A*]This[*R*]is[*A*]despite having a lower horizontal velocity	context(u=u / Uw can be seen)	negated: False ,passive: True
+0.916	[*A*]u=u/Uw[*R*]can be seen[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#57]It can be seen from the slopes of the lines in Fig. 6(c), that plates with negative initial angle of attack would in fact catch up with the positive initial angle of attack plates and subsequently fly further, if released from a higher point above the ground.
+0.498	[*A*]It[*R*]can be seen[*A*]from the slopes of the lines in Fig	context()	negated: False ,passive: True
+[LINE#58]In all three modes, the terminal vertical velocity of the plate is found to be relatively independent of initial orientation.
+0.927	[*A*]the terminal vertical velocity of the plate[*R*]to be[*A*]relatively independent of initial orientation	context()	negated: False ,passive: True
+0.957	[*A*]the terminal vertical velocity of the plate[*R*]is found[*A*]In all three modes	context()	negated: False ,passive: True
+[LINE#59]The horizontal velocity is however strongly influenced by the rotational direction of the plate.
+0.870	[*A*]The horizontal velocity[*R*]is strongly influenced[*A*]by the rotational direction of the plate	context()	negated: False ,passive: True
+[LINE#60]Plates with a terminal z>0 fly with u>1, while plates with terminal z<0 exhibit u<1.
+[LINE#61] Plates in the transitional flight mode with an unstable z of zero mean, Fig. 5(b), exhibit an oscillating u with values close to 1.0, as shown in Fig..
+[LINE#62]These CFD-RBD results reveal that existing assumptions, in some models, that u has an asymptotic limit of 1.0 are in fact incorrect and need to be re-evaluated.
+0.760	[*A*]These CFD - RBD results[*R*]reveal[*A*]that need to be re-evaluated	context()	negated: False ,passive: False
+0.760	[*A*]These CFD - RBD results[*R*]reveal[*A*]that existing assumptions	context()	negated: False ,passive: False
+[LINE#63]Kordi and Kopp (2009) have identified that the limit may be above or below 1, depending on the sense of rotation.
+0.882	[*A*]the limit[*R*]may be[*A*]above or below 1[*A*]depending on the sense of rotation	context(Kordi and Kopp ( 2009 have identified)	negated: False ,passive: True
+0.870	[*A*]Kordi and Kopp (2009[*R*]have identified[*A*]that the limit may be above or below 1, depending on the sense of rotation	context()	negated: False ,passive: False
+[LINE#64]This coupling between the rotational direction and the terminal plate horizontal speed can be explained by the presence of autorotational drag, lift and torque.
+0.961	[*A*]This coupling between the rotational direction and the terminal plate horizontal speed[*R*]can be explained[*A*]by the presence of torque	context()	negated: False ,passive: True
+0.961	[*A*]This coupling between the rotational direction and the terminal plate horizontal speed[*R*]can be explained[*A*]by the presence of lift	context()	negated: False ,passive: True
+0.961	[*A*]This coupling between the rotational direction and the terminal plate horizontal speed[*R*]can be explained[*A*]by the presence of autorotational drag	context()	negated: False ,passive: True
+[LINE#65]Depending on the direction of rotation, the autorotational drag will either act to accelerate or decelerate the plate.
+0.602	[*A*]the autorotational drag[*R*]will act to accelerate or decelerate the plate to accelerate	context(the autorotational drag will act)	negated: False ,passive: False
+0.838	[*A*]the autorotational drag[*R*]will act[*A*]to accelerate or decelerate the plate	context()	negated: False ,passive: False
+[LINE#66]Consider the case of a plate that has quickly accelerated to a terminal vertical velocity and a stable horizontal velocity and has settled into its stable flight stage.
+0.887	[*A*]a plate[*R*]has quickly accelerated[*A*]to a stable horizontal velocity	context()	negated: False ,passive: True
+0.887	[*A*]a plate[*R*]has quickly accelerated[*A*]to a terminal vertical velocity	context()	negated: False ,passive: True
+0.810	[*A*]a plate[*R*]has settled[*A*]into its stable flight stage	context()	negated: False ,passive: True
+[LINE#67] In this stage, the plate exhibits fluid-structure interaction(FSI) effects equivalent to a fixed-axis plate autorotation.
+[LINE#68]8 shows the 10s-1 isosurface of Q-criterion for such a fixed-axis plate undergoing autorotation.
+0.932	[*A*]such a fixed-axis plate[*R*]undergoing[*A*]autorotation	context()	negated: False ,passive: True
+0.495	[*A*]8[*R*]shows[*A*]the 10s-1 isosurface of Q-criterion	context()	negated: False ,passive: False
+[LINE#69]The Q-criterion was proposed by Hunt et al.
+0.949	[*A*]The Q-criterion[*R*]was proposed[*A*]by Hunt et al	context()	negated: False ,passive: True
+[LINE#70](1988) as means by which vortices could be identified more easily and is defined as(1)Q=12(||2-|S|2),where a vortex is identified as a region where Q>0, characterised when the vorticity tensor,  is more prominent than the flow shear, represented by the strain-rate tensor, S. For the fixed-axis autorotating plate of Fig. 8, vortex shedding is observed from the retreating and advancing edges, as well as the side edges during each rotation.
+0.897	[*A*]the vorticity tensor[*R*]represented[*A*]by the strain-rate tensor	context()	negated: False ,passive: True
+0.920	[*A*]the vorticity tensor[*R*]is[*A*]more prominent than the flow shear	context()	negated: False ,passive: True
+0.894	[*A*]means[*R*]is defined[*A*]as ( 1 ) Q=12	context()	negated: False ,passive: True
+0.713	[*A*]vortices[*R*]could be identified more easily	context()	negated: False ,passive: False
+[LINE#71] 9 shows contours of Q-criterion for a flying, stably autorotating (in the anti-clockwise or positive z sense) plate as a vortex detaches from the advancing edge (see Fig..
+0.903	[*A*]a vortex[*R*]detaches[*A*]from the advancing edge	context()	negated: False ,passive: False
+0.951	[*A*]9 shows contours of Q-criterion for a flying[*R*]stably autorotating[*A*]plate	context()	negated: False ,passive: False
+[LINE#72] The plate is flying and the images are cropped such that the right-hand edge of (a) and(b) corresponds to the centre of (c) and (d), which in turn corresponds with the left-hand edge of (e) and (f).
+0.928	[*A*]the centre of (c)[*R*]corresponds[*A*]with the left - hand edge of	context()	negated: False ,passive: True
+0.843	[*A*]such ( b[*R*]corresponds[*A*]to the centre of (c)	context()	negated: False ,passive: True
+0.945	[*A*]the right - hand edge of (a)[*R*]corresponds[*A*]with the left - hand edge of	context()	negated: False ,passive: True
+0.732	[*A*]the images[*R*]are cropped	context()	negated: False ,passive: False
+0.732	[*A*]The plate[*R*]is flying	context()	negated: False ,passive: False
+[LINE#73]As the plate falls away to the lower right of the plots, the vortex is left behind.
+0.767	[*A*]the vortex[*R*]is left[*A*]behind	context()	negated: False ,passive: True
+0.925	[*A*]the plate[*R*]falls[*A*]away to the lower right of the plots	context()	negated: False ,passive: True
+[LINE#74]Clearly this differs from the fixed-axis autorotating case, but if the relative velocity of the plate to the air is taken into account, there are distinct similarities.
+0.948	[*A*]the relative velocity of the plate to the air[*R*]is taken[*A*]into account	context()	negated: False ,passive: True
+0.153	[*A*]this[*R*]differs	context()	negated: False ,passive: False
+[LINE#75]For a plate autorotating in the opposite direction, Fig. 10, a different pattern of vortex shedding is seen from the retreating edge in this case.
+0.903	[*A*]a plate[*R*]autorotating[*A*]in the opposite direction	context()	negated: False ,passive: True
+[LINE#76]It is suggested that fixed-axis autorotation is a sufficient qualitative representation of plate behaviour in the stable, autorotating flight stage.
+[LINE#77]Further, it would be expected that quasi-steady force models might be expected to perform well during this part of the flight (indeed evidence is presented in Part I that endorses this view).
+0.699	[*A*]quasi-steady force models[*R*]might be expected	context(it would be expected)	negated: False ,passive: False
+0.157	[*A*]it[*R*]would be expected	context()	negated: False ,passive: False
+0.814	[*A*]the flight (indeed evidence is presented in Part I[*R*]endorses[*A*]this view	context()	negated: False ,passive: False
+0.859	[*A*]indeed evidence[*R*]is presented[*A*]in Part I	context()	negated: False ,passive: True
+0.901	[*A*]quasi-steady force models[*R*]to perform[*A*]well[*A*]during this part of the flight (indeed evidence is presented in Part I	context()	negated: False ,passive: False
+[LINE#78]We may decompose the flow field into a vertical wind component flow associated with the relative downward motion between the plate and the surrounding air, and a horizontal wind flow component due to the mean horizontal relative wind speed.
+0.952	[*A*]a vertical wind component flow[*R*]associated[*A*]with the relative downward motion between the plate and the surrounding air, and a horizontal wind flow component due to the mean horizontal relative wind speed	context()	negated: False ,passive: True
+0.452	[*A*]We[*R*]may decompose[*A*]the flow field	context()	negated: False ,passive: False
+[LINE#79] The mean force in the X-direction, FX, and the mean force in the Y-direction, FY, over a rotational cycle may then also be decomposed into components due to the horizontal and vertical wind speeds, as illustrated in Fig..
+0.990	[*A*]The mean force in the X-direction, FX, and the mean force in the Y-direction, FY, over a rotational cycle[*R*]may be decomposed[*A*]into components[*A*]due to the horizontal and vertical wind speeds[*A*]as illustrated in Fig[*A*]then	context()	negated: False ,passive: True
+[LINE#80] For the plate shown with counter-clockwise (positive) rotational speed, the horizontal and vertical forces acting on the plate over a rotational cycle are(2)FX.
+0.975	[*A*]the vertical forces acting on the plate over a rotational cycle[*R*]are[*A*]2 ) FX[*A*]For the plate	context()	negated: False ,passive: True
+0.911	[*A*]the vertical forces[*R*]acting[*A*]on the plate[*A*]over a rotational cycle	context()	negated: False ,passive: False
+0.975	[*A*]the horizontal forces acting on the plate over a rotational cycle[*R*]are[*A*]2 ) FX[*A*]For the plate	context()	negated: False ,passive: True
+0.911	[*A*]the horizontal forces[*R*]acting[*A*]on the plate[*A*]over a rotational cycle	context()	negated: False ,passive: False
+0.784	[*A*]the plate[*R*]shown	context()	negated: False ,passive: False
+[LINE#81]DH+LV,(3)FY=DV-LH-mg,where DH and LH are respectively the drag and lift forces acting on the plate due to the relative horizontal wind speed, Uw-up, and DV and LV are the drag and lift forces acting on the plate due to the relative vertical wind speed, -vp.
+0.904	[*A*]LH[*R*]are[*A*]respectively[*A*]the lift forces acting on the plate due to the relative horizontal wind speed	context()	negated: False ,passive: True
+0.911	[*A*]the lift forces[*R*]acting[*A*]on the plate	context()	negated: False ,passive: False
+0.904	[*A*]DH[*R*]are[*A*]respectively[*A*]the lift forces acting on the plate due to the relative horizontal wind speed	context()	negated: False ,passive: True
+0.855	[*A*]LH[*R*]are[*A*]respectively[*A*]the drag	context()	negated: False ,passive: True
+0.855	[*A*]DH[*R*]are[*A*]respectively[*A*]the drag	context()	negated: False ,passive: True
+0.894	[*A*]forces[*R*]acting[*A*]on the plate	context()	negated: False ,passive: False
+[LINE#82]Let us start at the non-dimensional time, Kt1.0, when most plates, regardless of their sense of rotation, have reached their peak vertical speeds, whether positive or negative, and have similar horizontal speeds u0.4, as shown in Fig. 7(c).
+0.840	[*A*]Kt1.0[*R*]have reached[*A*]their peak[*A*]vertical speeds	context()	negated: False ,passive: False
+[LINE#83]For counter-clockwise rotating plates, since DH and LV both act to accelerate the plate, it will continue to accelerate beyond up0.8Uw, until upUw, implying a zero relative horizontal component of wind speed.
+0.577	[*A*]it[*R*]will continue[*A*]to accelerate beyond up0.8Uw[*A*]For counter-clockwise rotating plates[*A*]since LV both act	context()	negated: False ,passive: False
+0.293	[*A*]it[*R*]will continue to accelerate beyond up0.8Uw implying[*A*]a zero relative horizontal component of wind speed	context(it will continue)	negated: False ,passive: False
+0.577	[*A*]it[*R*]will continue[*A*]to accelerate beyond up0.8Uw[*A*]For counter-clockwise rotating plates[*A*]since DH both act	context()	negated: False ,passive: False
+0.456	[*A*]it[*R*]to accelerate[*A*]beyond up0.8Uw	context()	negated: False ,passive: True
+[LINE#84]Note that up is the instantaneous horizontal component of the plate's velocity.
+0.658	[*A*]Note that up[*R*]is[*A*]the instantaneous horizontal component of the plate's velocity	context()	negated: False ,passive: True
+[LINE#85] At this point, which occurs at Kt3.0, the drag and lift forces due to the relative horizontal wind speed become zero, DH.
+0.973	[*A*]the lift forces due to the relative horizontal wind speed[*R*]become[*A*]zero[*A*]At this point	context()	negated: False ,passive: True
+0.973	[*A*]the drag forces due to the relative horizontal wind speed[*R*]become[*A*]zero[*A*]At this point	context()	negated: False ,passive: True
+0.905	[*A*]this point[*R*]occurs[*A*]at Kt3.0	context()	negated: False ,passive: True
+[LINE#86]However, a significant horizontal accelerating force, FX=LV is still present because the plate is falling.
+0.732	[*A*]the plate[*R*]is falling	context()	negated: False ,passive: False
+0.887	[*A*]FX=LV[*R*]is[*A*]still[*A*]present[*A*]because the plate is falling	context()	negated: False ,passive: True
+[LINE#87] This continues to drive the horizontal velocity of the plate.
+0.342	[*A*]This[*R*]to drive[*A*]the horizontal velocity of the plate	context()	negated: False ,passive: False
+0.153	[*A*]This[*R*]continues	context()	negated: False ,passive: False
+[LINE#88]As up continues to increase beyond Uw, the horizontal component of relative wind speed becomes reversed and consequently, the drag and lift forces associated with this negative relative wind speed are also reversed.
+0.894	[*A*]forces[*R*]associated[*A*]with this negative relative wind speed	context()	negated: False ,passive: True
+0.936	[*A*]the horizontal component of relative wind speed[*R*]becomes are also reversed[*A*]consequently , lift forces	context()	negated: False ,passive: True
+0.710	[*A*]the horizontal component of relative wind speed[*R*]are reversed	context()	negated: False ,passive: False
+0.641	[*A*]the drag[*R*]are reversed	context()	negated: False ,passive: False
+0.938	[*A*]the horizontal component of relative wind speed[*R*]becomes[*A*]consequently , the drag are also reversed	context()	negated: False ,passive: True
+0.385	[*A*]up[*R*]to increase[*A*]beyond Uw	context()	negated: False ,passive: True
+[LINE#89]There comes a point, Kt6.0, where, on average, the drag force due to the over-speeding in the horizontal direction, DH, equates in magnitude, but is opposite in direction, to the lift force, LV, which is acting on the plate due its fall.
+0.730	[*A*]LV[*R*]is acting[*A*]on the plate[*A*]due its fall	context()	negated: False ,passive: False
+0.869	[*A*]DH[*R*]is[*A*]opposite in direction	context()	negated: False ,passive: True
+0.833	[*A*]DH[*R*]equates[*A*]in magnitude	context()	negated: False ,passive: False
+0.833	[*A*]LV[*R*]is acting[*A*]on the plate	context()	negated: False ,passive: False
+0.954	[*A*]where , on average , DH[*R*]is[*A*]opposite in direction	context()	negated: False ,passive: True
+[LINE#90]For those plates rotating in the counter-clockwise sense, the vertical velocity, v, will initially decrease in magnitude from its peak negative value to reach a mean vertical velocity of u-0.25 at Kt6.For plates rotating in the clockwise direction, the components of lift, LH and LV are reversed in direction.
+0.948	[*A*]the components of lift, LH and LV[*R*]are reversed[*A*]in direction	context()	negated: False ,passive: True
+0.927	[*A*]Kt6.For plates[*R*]rotating[*A*]in the clockwise direction	context()	negated: False ,passive: True
+0.903	[*A*]those plates[*R*]rotating[*A*]in the counter-clockwise sense[*A*]the vertical velocity	context()	negated: False ,passive: False
+[LINE#91]The drag due to the autorotating plate is independent of the sense of rotation, the lift is not.
+0.941	[*A*]The drag due to the autorotating plate[*R*]is[*A*]independent of the sense of rotation	context(the lift is not)	negated: False ,passive: True
+0.687	[*A*]the lift[*R*]is not	context()	negated: True ,passive: False
+[LINE#92] The same arguments as those above hold, except that the lift force due to the vertical component of the falling plate serves to keep the mean horizontal velocity, v<1.0, as seen in Fig.7(c).In summary, the terminal vertical and horizontal speeds of the plate are therefore thought to be controlled by the autorotational drag and lift associated with the non-linear interaction between the plate and the flow.
+0.778	[*A*]the terminal vertical and horizontal speeds of the plate[*R*]are thought	context()	negated: False ,passive: False
+0.952	[*A*]the autorotational drag and lift[*R*]associated[*A*]with the non-linear interaction between the plate and the flow	context()	negated: False ,passive: True
+0.951	[*A*]the lift force due to the vertical component of the falling plate[*R*]serves to keep[*A*]the mean horizontal velocity	context(the lift force due to the vertical component of the falling plate serves)	negated: False ,passive: False
+0.969	[*A*]the lift force due to the vertical component of the falling plate[*R*]serves[*A*]to keep the mean horizontal velocity, v<1.0	context()	negated: False ,passive: False
+0.939	[*A*]the terminal vertical and horizontal speeds of the plate[*R*]to be controlled[*A*]by the autorotational drag and lift	context()	negated: False ,passive: True
+[LINE#93]As a result of this interaction, a rotating plate is able to convert some of its gravitational potential energy into lateral kinetic energy and depending on the direction of rotation, this will result in plates exhibiting terminal horizontal wind speeds higher than the mean wind speed or consistently lower than the mean wind speed.
+0.381	[*A*]this[*R*]will result[*A*]in plates	context()	negated: False ,passive: True
+0.825	[*A*]a rotating plate[*R*]to convert[*A*]some of its gravitational potential energy[*A*]into lateral kinetic energy	context()	negated: False ,passive: False
+0.922	[*A*]a rotating plate[*R*]is[*A*]able to convert some of its gravitational potential energy into lateral kinetic energy	context()	negated: False ,passive: True
+[LINE#94]Complex 3D spinning is the final mode and this was observed for plates in Batch 2 only.
+0.425	[*A*]this[*R*]was observed[*A*]for plates[*A*]in Batch 2 only	context()	negated: False ,passive: True
+0.937	[*A*]Complex 3 D spinning[*R*]is[*A*]the final mode	context()	negated: False ,passive: True
+[LINE#95]As a result of the plate's non-zero yaw, side-force and torque are generated resulting in significant horizontal cross-wind motion and complex 3D free-axis autorotation.
+[LINE#96]12 illustrates the broad range of resulting debris trajectories observed for Batch 2 plates.
+0.948	[*A*]the broad range of resulting debris trajectories[*R*]observed[*A*]for Batch 2 plates	context()	negated: False ,passive: True
+0.698	[*A*]12[*R*]illustrates[*A*]the broad range of resulting debris trajectories observed for Batch 2 plates	context()	negated: False ,passive: False
+[LINE#97]The figure demonstrates both the considerable spread of trajectories and the fact that some of the plates cross the centreline several times.
+0.937	[*A*]some of the plates[*R*]cross[*A*]the centreline[*A*]several times	context()	negated: False ,passive: False
+0.845	[*A*]The figure[*R*]demonstrates[*A*]the fact that some of the plates cross the centreline several times	context()	negated: False ,passive: False
+0.903	[*A*]The figure[*R*]demonstrates[*A*]both the considerable spread of trajectories	context()	negated: False ,passive: False
+[LINE#98] Terminal horizontal and vertical speeds, u, andv, are in the same range as the Batch 1 modes.
+0.939	[*A*]Terminal vertical speeds , u , andv[*R*]are[*A*]in the same range as the Batch 1 modes	context()	negated: False ,passive: True
+0.939	[*A*]Terminal horizontal speeds , u , andv[*R*]are[*A*]in the same range as the Batch 1 modes	context()	negated: False ,passive: True
+[LINE#99]In addition, complex 3D spinning mode plates exhibit non-zero horizontal cross-wind velocity components as well as rotations about the X-axis and vertical Y-axis.
+[LINE#100]This flight mode has been identified by Kordi and Kopp (2009) as the most common flight mode based on observations of wind tunnel trajectories.
+0.925	[*A*]This flight mode[*R*]has been identified[*A*]by Kopp ( 2009[*A*]as the most common flight mode	context()	negated: False ,passive: True
+0.926	[*A*]the most common flight mode[*R*]based[*A*]on observations of wind tunnel trajectories	context()	negated: False ,passive: True
+0.925	[*A*]This flight mode[*R*]has been identified[*A*]by Kordi[*A*]as the most common flight mode	context()	negated: False ,passive: True
+[LINE#101]The CFD-RBD model has been shown to both qualitatively and quantitatively reproduce the four major flight modes observed experimentally by Kordi and Kopp (2009, 2011) in their destructive wind tunnel studies.
+0.890	[*A*]the four major flight modes[*R*]observed experimentally[*A*]by Kopp ( 2009 , 2011[*A*]in their destructive wind tunnel studies	context()	negated: False ,passive: True
+0.885	[*A*]The CFD - RBD model[*R*]to quantitatively reproduce[*A*]the four major flight modes observed experimentally by Kopp ( 2009 , 2011 ) in their destructive wind tunnel studies	context()	negated: False ,passive: False
+0.890	[*A*]the four major flight modes[*R*]observed experimentally[*A*]by Kordi[*A*]in their destructive wind tunnel studies	context()	negated: False ,passive: True
+0.885	[*A*]The CFD - RBD model[*R*]to quantitatively reproduce[*A*]the four major flight modes observed experimentally by Kordi in their destructive wind tunnel studies	context()	negated: False ,passive: False
+0.718	[*A*]The CFD - RBD model[*R*]has been shown	context()	negated: False ,passive: False
+0.748	[*A*]The CFD - RBD model[*R*]has been shown qualitatively[*A*]to both	context()	negated: False ,passive: True
+[LINE#102]13 shows instantaneous snapshots of a plate in each of the four flight modes.
+0.209	[*A*]a plate[*R*]has instantaneous snapshots of[*A*]13 shows instantaneous snapshots	context()	negated: False ,passive: False
+[LINE#103]Incorporating complex launch conditionsAccording to Kordi et al.
+[LINE#104] (2010), the common quasi-steady approach to windborne debris flight neglectstwo important facts:(i)windborne debris initiating from a real roof is affected by the building aerodynamics and the local velocities on the roof and in the wake, and(ii)the debris flies in the turbulent wind defined by both the terrain and the gust structure causing failure.
+0.911	[*A*]the gust structure[*R*]causing[*A*]failure	context()	negated: False ,passive: False
+0.911	[*A*]the turbulent wind[*R*]defined[*A*]by the gust structure	context()	negated: False ,passive: True
+0.911	[*A*]the turbulent wind[*R*]defined[*A*]by both the terrain	context()	negated: False ,passive: True
+0.903	[*A*]the debris[*R*]flies[*A*]in the turbulent wind	context()	negated: False ,passive: True
+0.769	[*A*]i ) windborne debris[*R*]initiating	context()	negated: False ,passive: False
+[LINE#105]CFD-RBD models offer an additional tool for the study of these effects because of their ability to simulate these complex flow fields around buildings as well as the non-linear interaction between debris and this flow.
+0.811	[*A*]CFD - RBD models[*R*]offer[*A*]an additional tool for the study of these effects[*A*]because of their ability	context()	negated: False ,passive: False
+[LINE#106]To this end, the CFD-RBD model was extended to include the complex velocity fields around a building.
+0.880	[*A*]the CFD-RBD model[*R*]to include[*A*]the complex velocity fields around a building	context()	negated: False ,passive: True
+0.939	[*A*]the CFD-RBD model[*R*]was extended[*A*]to include the complex velocity fields around a building[*A*]To this end	context()	negated: False ,passive: True
+[LINE#107]A low rise residential building was introduced into a cuboid domain (Fig. 16).
+0.926	[*A*]A low rise residential building[*R*]was introduced[*A*]into a cuboid domain	context()	negated: False ,passive: True
+[LINE#108]A square flat plate of side L=0.5m and thickness t=0.0125m is initially held static at the eaves of the building, as shown in Fig. 16 and then subsequently released into the flow and transported downstream.
+0.959	[*A*]A square flat plate of side L=0.5 thickness t=0.0125 m[*R*]is released[*A*]into the transported downstream[*A*]then[*A*]subsequently	context()	negated: False ,passive: True
+0.959	[*A*]A square flat plate of side L=0.5 thickness t=0.0125 m[*R*]is released[*A*]into the flow[*A*]then[*A*]subsequently	context()	negated: False ,passive: True
+0.970	[*A*]A square flat plate of side L=0.5 m t=0.0125 m[*R*]is released[*A*]into the transported downstream[*A*]then[*A*]subsequently	context()	negated: False ,passive: True
+0.970	[*A*]A square flat plate of side L=0.5 m t=0.0125 m[*R*]is released[*A*]into the flow[*A*]then[*A*]subsequently	context()	negated: False ,passive: True
+0.966	[*A*]A square flat plate of side L=0.5 thickness t=0.0125 m[*R*]is held[*A*]static[*A*]at the eaves of the building[*A*]as shown in Fig[*A*]initially	context()	negated: False ,passive: True
+0.975	[*A*]A square flat plate of side L=0.5 m t=0.0125 m[*R*]is held[*A*]static[*A*]at the eaves of the building[*A*]as shown in Fig[*A*]initially	context()	negated: False ,passive: True
+[LINE#109]The building has a square plan, with side 12L, an eaves height of 6L and a double-pitched roof with a 20 slope, giving a ridge height of approximately 8L.
+0.925	[*A*]The building[*R*]has[*A*]a square plan	context()	negated: False ,passive: False
+[LINE#110]The computational domain has dimensions 75L26L40L.
+0.932	[*A*]The computational domain[*R*]has[*A*]dimensions	context()	negated: False ,passive: False
+[LINE#111]This domain size is not constructed with the recommendations of Franke et al.
+0.751	[*A*]This domain size[*R*]is not constructed	context()	negated: True ,passive: False
+[LINE#112](2007), but rather to give the debris room to fly above and behind the building.
+[LINE#113]In all other respects the CFD setup is the same for the free flight simulations.
+0.971	[*A*]the CFD setup[*R*]is[*A*]the same for the free flight simulations[*A*]In all other respects	context()	negated: False ,passive: True
+[LINE#114]The results from three different simulations are presented here-one with a 1.0kg plate, a second with a 6.35kg plate (typical of a clay roofing tile), and a third with a 12kg plate.
+0.993	[*A*]The results from three different simulations[*R*]are presented with[*A*]1.0 kg plate	context()	negated: False ,passive: False
+0.932	[*A*]The results from three different simulations[*R*]are presented[*A*]here-one	context()	negated: False ,passive: True
+[LINE#115]The latter is rather heavy for a typical roof tile, but was used to test the range of applicability of the model.
+0.527	[*A*]The latter[*R*]to test[*A*]the range of applicability of the model	context()	negated: False ,passive: False
+0.568	[*A*]The latter[*R*]was used[*A*]to test the range of applicability of the model	context()	negated: False ,passive: True
+0.813	[*A*]The latter[*R*]is[*A*]rather heavy	context()	negated: False ,passive: True
+[LINE#116]A uniform inflow condition is used, with the wind speed of 35m/s (126km/h) is used, which is within the range of full-scale failure wind speeds typically discussed by Visscher and Kopp (2007).As described in Part 1 (Kakimpa et al., in press), the plate is held in an inner mesh region that translates and rotates monolithically with the plate in order to preserve mesh quality close to the plate walls, while the outer region of the domain is re-meshed to accommodate plate motion.
+0.933	[*A*]full - scale failure wind speeds[*R*]discussed[*A*]by Kopp ( 2007	context()	negated: False ,passive: True
+0.950	[*A*]Kakimpa et al[*R*]rotates monolithically[*A*]with the plate[*A*]in order[*A*]while the outer region of the domain is re-meshed to accommodate plate motion	context()	negated: False ,passive: False
+0.933	[*A*]full - scale failure wind speeds[*R*]discussed[*A*]by Visscher ( 2007	context()	negated: False ,passive: True
+0.932	[*A*]the outer region of the domain[*R*]is re-meshed[*A*]to accommodate plate motion	context()	negated: False ,passive: True
+0.737	[*A*]an inner mesh region[*R*]translates	context()	negated: False ,passive: False
+0.769	[*A*]A uniform inflow condition[*R*]is used	context()	negated: False ,passive: False
+[LINE#117]Since the plate is initially expected to coincide with wall boundaries of the roof, the use of body fitting meshes and building walls is not possible.
+0.814	[*A*]the use of building walls[*R*]is not[*A*]possible	context()	negated: True ,passive: True
+0.771	[*A*]the use of body[*R*]is not[*A*]possible	context()	negated: True ,passive: True
+0.698	[*A*]the plate[*R*]to coincide	context()	negated: False ,passive: False
+0.761	[*A*]the plate[*R*]is expected[*A*]initially	context()	negated: False ,passive: True
+[LINE#118]In order to address this limitation, the buildings have been represented as porous regions of high viscous resistance, as opposed to the traditional approach of using wall bounded volumes.
+0.937	[*A*]the buildings[*R*]have been represented[*A*]as porous regions of high viscous resistance[*A*]as opposed to the traditional approach of using wall bounded volumes	context()	negated: False ,passive: True
+[LINE#119]As a result of this porous building approach, the region occupied by the building can be re-meshed as the plate approaches the building and in addition, the plate can initially lie in contact with the geometric plane corresponding to the roof.
+0.911	[*A*]the geometric plane[*R*]corresponding[*A*]to the roof	context()	negated: False ,passive: True
+0.916	[*A*]the plate[*R*]can lie[*A*]in contact with the geometric plane[*A*]initially	context()	negated: False ,passive: True
+0.932	[*A*]the region occupied by the building[*R*]can be re-meshed[*A*]as the plate in addition	context()	negated: False ,passive: True
+0.903	[*A*]the plate[*R*]approaches[*A*]the building	context()	negated: False ,passive: True
+0.932	[*A*]the region occupied by the building[*R*]can be re-meshed[*A*]as the plate approaches the building	context()	negated: False ,passive: True
+0.903	[*A*]the region[*R*]occupied[*A*]by the building	context()	negated: False ,passive: True
+[LINE#120]A set of geometric expressions prescribing the volume bounded by the building's walls are used to define the mesh region occupied by the building.
+0.911	[*A*]the mesh region[*R*]occupied[*A*]by the building	context()	negated: False ,passive: True
+0.913	[*A*]A set of geometric expressions[*R*]are used[*A*]to define the mesh region	context()	negated: False ,passive: True
+0.903	[*A*]geometric expressions[*R*]prescribing[*A*]the volume bounded by the building's walls	context()	negated: False ,passive: False
+[LINE#121]Inside this region a source term, Si, is added to the each of the momentum transport equations in order to represent the momentum loss in each cell due to viscous resistance of the porous media as(4)Si=-vi,where  is the dynamic viscosity of the fluid, vi is the velocity component in the i direction, and  is the permeability of the media, which is assumed to be homogenous.
+0.788	[*A*]the permeability of the media[*R*]to be[*A*]homogenous	context()	negated: False ,passive: True
+0.788	[*A*]the permeability of the media[*R*]is assumed[*A*]to be homogenous	context()	negated: False ,passive: True
+0.812	[*A*]vi[*R*]is[*A*]the velocity component in the i direction[*A*]where is the dynamic viscosity of the fluid	context(Si is added)	negated: False ,passive: True
+0.917	[*A*]Si[*R*]is added[*A*]to the each of the momentum transport equations in order[*A*]Inside this region a source term	context()	negated: False ,passive: True
+[LINE#122]After calibration studies aimed at selecting an appropriate value of  that results in a near-zero velocity at the surface of the porous region, a very low permeability value of 10-9 has been used.
+0.957	[*A*]a very low permeability value of 10-9[*R*]has been used[*A*]After calibration studies	context()	negated: False ,passive: True
+0.845	[*A*]calibration studies[*R*]aimed[*A*]at selecting an appropriate value of  that results in a near-zero velocity at the surface of the porous region	context()	negated: False ,passive: True
+[LINE#123]Using this porous building approach, multiple buildings could be defined with relative ease with boundaries in very close proximity or even co-incident with the plate's walls.
+0.937	[*A*]multiple buildings[*R*]could be defined[*A*]with relative ease with boundaries in very close proximity or even co-incident with the plate's walls	context()	negated: False ,passive: True
+[LINE#124]A similar approach has been used with some success in the completely unrelated field of embankment erosion (Yusof et al., 2010).Standard wall-bounded simulations were run, without the porous model nor any debris, in order to compare the flow field from the porous building model to that from the wall-bounded building model.
+0.832	[*A*]Standard wall-bounded simulations[*R*]were run	context()	negated: False ,passive: False
+0.943	[*A*]A similar approach[*R*]has been used[*A*]with some success in the completely unrelated field of embankment erosion	context()	negated: False ,passive: True
+[LINE#125]17 shows the vertical profiles of the horizontal wind speed and turbulent kinetic energy for each of the two building representations above the ridge and the downstream top corner of the building.
+0.718	[*A*]17[*R*]shows[*A*]the vertical profiles of the turbulent kinetic energy for each of the two building representations above the downstream top corner of the building	context()	negated: False ,passive: False
+0.718	[*A*]17[*R*]shows[*A*]the vertical profiles of the turbulent kinetic energy for each of the two building representations above the ridge	context()	negated: False ,passive: False
+0.613	[*A*]17[*R*]shows[*A*]the vertical profiles of the horizontal wind speed	context()	negated: False ,passive: False
+[LINE#126] With the Y-coordinate having its origin at the ground, zero velocities are seen for the porous model inside the building, up to height of y/L=8 at the ridge and y.
+0.732	[*A*]zero velocities[*R*]are seen	context()	negated: False ,passive: False
+0.893	[*A*]the Y-coordinate[*R*]having[*A*]its origin[*A*]at the ground	context()	negated: False ,passive: False
+[LINE#127]The flow solution using the porous building model is shown to give a qualitatively and quantitatively similar prediction for the velocity flow field around the building, although the turbulent kinetic energy is over-predicted above the building.
+0.958	[*A*]The flow solution using the porous building model[*R*]to give[*A*]a quantitatively similar prediction for the velocity flow field around the building	context()	negated: False ,passive: False
+0.919	[*A*]the turbulent kinetic energy[*R*]is over-predicted[*A*]above the building	context()	negated: False ,passive: True
+0.958	[*A*]The flow solution using the porous building model[*R*]to give[*A*]a qualitatively similar prediction for the velocity flow field around the building	context()	negated: False ,passive: False
+0.830	[*A*]The flow solution using the porous building model[*R*]is shown	context()	negated: False ,passive: False
+0.911	[*A*]The flow solution[*R*]using[*A*]the porous building model	context()	negated: False ,passive: False
+[LINE#128]Clearly, these high levels of turbulence seen with the porous approach are not realistic (certainly when compared with experimental data but also with standard, wall-bounded Reynolds-Averaged Navier-Stokes models).
+0.953	[*A*]these high levels of turbulence[*R*]are not[*A*]realistic[*A*]certainly when compared with standard , wall - bounded Reynolds - Averaged Navier - Stokes models	context()	negated: True ,passive: True
+0.913	[*A*]these high levels of turbulence[*R*]are not[*A*]realistic[*A*]certainly when compared with experimental data	context()	negated: True ,passive: True
+0.894	[*A*]turbulence[*R*]seen[*A*]with the porous approach	context()	negated: False ,passive: True
+[LINE#129]The high turbulence is due to the very abrupt change in velocity between the outermost cell in the porous region and the cell above it in the free stream.
+0.922	[*A*]The high turbulence[*R*]is[*A*]due to the very abrupt change in velocity between the outermost cell in the porous region and the cell above it in the free stream	context()	negated: False ,passive: True
+[LINE#130]The shear stress creates a large production term in the turbulent kinetic energy transport equation, which otherwise would be modified by a law of the wall.
+0.921	[*A*]the turbulent kinetic energy transport equation[*R*]would be modified[*A*]by a law of the wall	context()	negated: False ,passive: True
+0.911	[*A*]The shear stress[*R*]creates[*A*]a large production term[*A*]in the turbulent kinetic energy transport equation	context()	negated: False ,passive: False
+[LINE#131]For the present, however, the assumption is made that it is the mean wind speed that most determines the trajectory of the plate.
+0.905	[*A*]the mean wind speed[*R*]most determines[*A*]the trajectory of the plate	context()	negated: False ,passive: False
+[LINE#132]Far from the building, the velocity and turbulence levels are identical.
+0.783	[*A*]the turbulence levels[*R*]are[*A*]identical	context()	negated: False ,passive: True
+0.783	[*A*]the velocity levels[*R*]are[*A*]identical	context()	negated: False ,passive: True
+[LINE#133]and (b) shows instantaneous snapshots of the plate during flight for all three simulations.
+[LINE#134]The lighter plate is seen to rise more rapidly and is ultimately found (not shown) to travel further as a result.
+0.779	[*A*]The lighter plate[*R*]is found[*A*]ultimately	context()	negated: False ,passive: True
+0.718	[*A*]The lighter plate[*R*]to rise more rapidly	context()	negated: False ,passive: False
+0.751	[*A*]The lighter plate[*R*]is seen	context()	negated: False ,passive: False
+[LINE#135]The heaviest plate simply does not have enough initial lift to overcome gravity and falls back onto the roof.
+0.920	[*A*]The heaviest plate[*R*]falls[*A*]back onto the roof	context()	negated: False ,passive: True
+0.897	[*A*]The heaviest plate[*R*]does not have[*A*]enough initial lift to overcome gravity	context()	negated: True ,passive: False
+[LINE#136]That in itself may cause further failures of the roof envelope.
+0.660	[*A*]That in itself[*R*]may cause[*A*]further failures of the roof envelope	context()	negated: False ,passive: False
+[LINE#137]In addition, Fig. 19 shows the velocity time-series for the 1kg and 6.35kg plates only.
+0.967	[*A*]Fig . 19[*R*]shows[*A*]the velocity time - series for 6.35 kg plates only	context()	negated: False ,passive: False
+0.949	[*A*]Fig . 19[*R*]shows[*A*]the velocity time - series for the 1 kg	context()	negated: False ,passive: False
+[LINE#138]Here, both plates are seen to accelerate both in the along wind direction and the vertical.
+0.698	[*A*]both plates[*R*]to accelerate	context()	negated: False ,passive: False
+0.887	[*A*]both plates[*R*]to accelerate[*A*]both in the along wind direction	context()	negated: False ,passive: True
+0.830	[*A*]both plates[*R*]are seen[*A*]Here	context()	negated: False ,passive: True
+[LINE#139]There is a very short period in which the plate moves in the upwind direction immediately after launch.
+0.943	[*A*]the plate[*R*]moves[*A*]in the upwind direction[*A*]immediately after launch[*A*]a very short period	context()	negated: False ,passive: True
+[LINE#140]This is due to the normal force acting on it at the point of launch, caused by the local suction.
+0.877	[*A*]launch[*R*]caused[*A*]by the local suction	context()	negated: False ,passive: True
+0.848	[*A*]the normal force[*R*]acting[*A*]on it[*A*]at the point of launch	context()	negated: False ,passive: False
+0.449	[*A*]This[*R*]is[*A*]due to the normal force	context()	negated: False ,passive: True
+[LINE#141] Although the flights are short, some time into the flights, as witnessed by the rotation of the plate, Fig.19(c), both plates may be entering a fluttering state, or perhaps the purely translation mode discussed by Kordi et al.
+0.943	[*A*]both plates[*R*]may be entering[*A*]a fluttering state[*A*]some time into the flights	context()	negated: False ,passive: False
+0.767	[*A*]the flights[*R*]are[*A*]short	context()	negated: False ,passive: True
+[LINE#142]In a unobstructed flow, plates of similar negative initial angle of attack would be expected to experience negative lift and positive torque during launch.
+0.934	[*A*]plates of similar negative initial angle of attack[*R*]to experience[*A*]positive torque[*A*]during launch	context()	negated: False ,passive: False
+0.934	[*A*]plates of similar negative initial angle of attack[*R*]to experience[*A*]negative lift[*A*]during launch	context()	negated: False ,passive: False
+0.961	[*A*]plates of similar negative initial angle of attack[*R*]would be expected[*A*]In a unobstructed flow	context()	negated: False ,passive: True
+[LINE#143]However, in the more realistic flow scenario presented, the "roof-launched" plates are shown to experience positive lift and negative torque due to the large suction pressures at the windward eaves of the building.
+0.953	[*A*]the " roof - launched " plates[*R*]to experience[*A*]negative torque[*A*]due to the large suction pressures at the windward eaves of the building	context()	negated: False ,passive: False
+0.927	[*A*]the " roof - launched " plates[*R*]to experience[*A*]positive lift	context()	negated: False ,passive: False
+0.957	[*A*]the " roof - launched " plates[*R*]are shown[*A*]in the more realistic flow scenario	context()	negated: False ,passive: True
+0.785	[*A*]the more realistic flow scenario[*R*]presented	context()	negated: False ,passive: False
+[LINE#144]Similar findings have been reported from recent destructive wind tunnel studies of launch and flight of a plate from a low rise building roof by Kordi and Kopp (2011).The plate trajectory is shown to be significantly affected by the flow field at the launch position, most notably, the suction pressures at the eaves which create the large positive vertical velocity, and a slight negative initial horizontal velocity.
+0.887	[*A*]the eaves[*R*]create[*A*]a slight negative initial horizontal velocity	context()	negated: False ,passive: False
+0.887	[*A*]the eaves[*R*]create[*A*]the large positive vertical velocity	context()	negated: False ,passive: False
+0.894	[*A*]The plate trajectory[*R*]to be significantly affected most notably[*A*]by the flow field	context()	negated: False ,passive: True
+0.687	[*A*]Similar findings[*R*]have been reported	context(The plate trajectory is shown)	negated: False ,passive: False
+0.687	[*A*]Similar findings[*R*]have been reported	context(The plate trajectory is shown)	negated: False ,passive: False
+0.707	[*A*]The plate trajectory[*R*]is shown	context()	negated: False ,passive: False
+0.897	[*A*]The plate trajectory[*R*]to be significantly affected[*A*]by the flow field	context()	negated: False ,passive: True
+[LINE#145]As both cases represent high lift trajectories, no significant interaction with the recirculation region in the wake of the building was observed.
+0.888	[*A*]no significant interaction with the recirculation region in the wake of the building[*R*]was observed	context()	negated: False ,passive: False
+0.903	[*A*]both cases[*R*]represent[*A*]high lift trajectories	context()	negated: False ,passive: False
+[LINE#146]This paper is a companion to Part I (Kakimpa et al., in press), in which a robust, coupled CFD-RBD (Computational Fluid Dynamics-Rigid Body Dynamics) model is developed.
+0.891	[*A*]a robust, coupled CFD-RBD (Computational Fluid Dynamics-Rigid Body Dynamics) model[*R*]is developed	context()	negated: False ,passive: False
+0.835	[*A*]a companion[*R*]to Part[*A*]I	context()	negated: False ,passive: False
+0.890	[*A*]This paper[*R*]is[*A*]a companion to Part I (Kakimpa et al	context()	negated: False ,passive: True
+[LINE#147]The model is shown to be capable of predicting the unconstrained free flight of plate-type debris.
+0.927	[*A*]The model[*R*]to be[*A*]capable of predicting the unconstrained free flight of plate-type debris	context()	negated: False ,passive: True
+0.732	[*A*]The model[*R*]is shown	context()	negated: False ,passive: False
+[LINE#148]The present paper takes that model and applies it to two cases.
+0.848	[*A*]The present paper[*R*]applies[*A*]it[*A*]to two cases	context()	negated: False ,passive: False
+0.789	[*A*]The present paper[*R*]takes[*A*]that model	context()	negated: False ,passive: False
+[LINE#149]Firstly, the model has been used to investigate the influence of the plate's initial orientation, Tachikawa number, mass moment of inertia and geometric parameters, such as thickness-ratio and aspect-ratio, on the trajectory of the plate.
+0.927	[*A*]the model[*R*]to investigate[*A*]the influence of the plate 's initial orientation inertia and geometric parameters , such as thickness - aspect - ratio , on the trajectory of the plate	context()	negated: False ,passive: False
+0.927	[*A*]the model[*R*]to investigate[*A*]the influence of the plate 's initial orientation inertia and geometric parameters , such as thickness - ratio	context()	negated: False ,passive: False
+0.887	[*A*]the model[*R*]to investigate[*A*]the influence of the plate 's initial orientation	context()	negated: False ,passive: False
+0.927	[*A*]the model[*R*]to investigate[*A*]the influence of the plate 's initial orientation , and geometric parameters , such as thickness - ratio	context()	negated: False ,passive: False
+[LINE#150]This first case will be referred to as the "Free flight Simulations".
+0.911	[*A*]This first case[*R*]will be referred[*A*]as the "Free flight Simulations	context()	negated: False ,passive: True
+[LINE#151]Secondly, the model has been applied to debris that is launched from the building envelope and whose subsequent flight is influenced by the flow field in the locale of the building.
+0.887	[*A*]the building[*R*]is influenced[*A*]by the flow field	context()	negated: False ,passive: True
+0.877	[*A*]debris[*R*]is launched[*A*]from the building	context()	negated: False ,passive: True
+0.877	[*A*]debris[*R*]is launched[*A*]from the building envelope	context()	negated: False ,passive: True
+0.903	[*A*]the model[*R*]has been applied[*A*]to debris	context()	negated: False ,passive: True
+[LINE#152]This second case will be referred to as "complex launch conditions".
+0.895	[*A*]This second case[*R*]will be referred[*A*]as "complex launch conditions	context()	negated: False ,passive: True
+[LINE#153]The Introduction of Part I describes the rationale behind the need for better understanding of the flow processes that occur during the flight of wind borne debris.
+0.769	[*A*]the flight of wind[*R*]borne	context()	negated: False ,passive: False
+0.897	[*A*]the flow processes[*R*]occur[*A*]during the flight of wind borne debris	context()	negated: False ,passive: True
+0.569	[*A*]I[*R*]describes[*A*]the rationale behind the need for better understanding of the flow processes	context()	negated: False ,passive: False
+[LINE#154]Here, we concern ourselves with a review of the literature appropriate to these complex launch conditions.
+0.444	[*A*]we[*R*]concern[*A*]ourselves[*A*]Here	context()	negated: False ,passive: False
+[LINE#155] Damage assessment reports of extreme windstorms in the UK, such as the Birmingham Tornado in 2005(Marshall and Robinson, 2006) have revealed a definitive link between damage to downstream property and windborne debris generated from upstream structures.
+0.926	[*A*]downstream property and windborne debris[*R*]generated[*A*]from upstream structures	context()	negated: False ,passive: True
+0.950	[*A*]Marshall and Robinson[*R*]have revealed[*A*]a definitive link between damage to downstream property and windborne debris	context()	negated: False ,passive: False
+[LINE#156]This pattern, illustrated in Fig. 1 is referred to as the debris damage chain (Minor and Beason, 1976; Holmes, 2010).
+0.992	[*A*]1[*R*]is referred to[*A*]Holmes 2010	context()	negated: False ,passive: False
+0.992	[*A*]1[*R*]is referred as[*A*]the debris damage chain	context()	negated: False ,passive: False
+0.905	[*A*]This pattern[*R*]illustrated[*A*]in Fig	context()	negated: False ,passive: True
+[LINE#157]With reference to the upwind building in Figs.
+[LINE#158]1 and 2 shows the sequence of roof failure.
+0.449	[*A*]2[*R*]shows[*A*]the sequence of roof failure	context()	negated: False ,passive: False
+0.449	[*A*]1[*R*]shows[*A*]the sequence of roof failure	context()	negated: False ,passive: False
+[LINE#159]A large suction at the upwind eave of the gable roof produces partial lift-off of tiles.
+0.957	[*A*]A large suction at the upwind eave of the gable roof[*R*]produces[*A*]partial lift-off of tiles	context()	negated: False ,passive: False
+[LINE#160]Lift off then continues as the wind gets under the roof, creating a positive pressure which assists the suction on the outside of the roof.
+0.897	[*A*]a positive pressure[*R*]assists[*A*]the suction on the outside of the roof	context()	negated: False ,passive: False
+0.927	[*A*]Lift off[*R*]creating[*A*]a positive pressure which assists the suction on the outside of the roof	context()	negated: False ,passive: False
+0.925	[*A*]the wind[*R*]gets[*A*]under the roof	context()	negated: False ,passive: True
+0.934	[*A*]Lift off[*R*]continues[*A*]as the wind gets under the roof[*A*]then	context()	negated: False ,passive: True
+[LINE#161]Two possibilities then occur: the peeling off of tiles across the roof or the entire roof structure being blown off.
+0.799	[*A*]Two possibilities[*R*]occur[*A*]then	context(the peeling off of tiles across the roof or the entire roof structure being blown off)	negated: False ,passive: True
+0.864	[*A*]the peeling off of tiles across the roof or the entire roof structure[*R*]being blown off	context()	negated: False ,passive: False
+[LINE#162](2006) extended the early work by Holmes (2004) on compact debris to plate-type debris.
+0.549	[*A*]2006[*R*]extended[*A*]the early work[*A*]by Holmes (2004	context()	negated: False ,passive: False
+[LINE#163]Model experiments and full-scale tests on plates were conducted and the plate's mode of motion was observed, together with measurements of plate trajectory, and velocities, all of which are affected by the wind field, model characteristics, and initial support configuration.
+0.878	[*A*]full - scale tests on plates the plate 's mode of motion[*R*]was observed	context()	negated: False ,passive: False
+0.592	[*A*]all of which[*R*]are affected[*A*]by the initial support configuration	context()	negated: False ,passive: True
+0.592	[*A*]all of which[*R*]are affected[*A*]by the model characteristics	context()	negated: False ,passive: True
+0.592	[*A*]all of which[*R*]are affected[*A*]by the wind field	context()	negated: False ,passive: True
+0.920	[*A*]Model[*R*]experiments[*A*]the plate 's mode of motion	context()	negated: False ,passive: False
+0.801	[*A*]full - scale tests on plates[*R*]were conducted	context()	negated: False ,passive: False
+0.732	[*A*]Model experiments[*R*]were conducted	context()	negated: False ,passive: False
+[LINE#164]More significantly, however, further experimental studies have recently been performed, mainly focused on investigating the effects of atmospheric turbulence and complex launch conditions on debris flight.
+0.933	[*A*]further experimental studies[*R*]focused[*A*]on investigating the effects of complex launch conditions on debris flight	context()	negated: False ,passive: False
+0.933	[*A*]further experimental studies[*R*]focused[*A*]on investigating the effects of atmospheric turbulence on debris flight	context()	negated: False ,passive: False
+0.779	[*A*]further experimental studies[*R*]have been performed[*A*]recently	context()	negated: False ,passive: True
+[LINE#165]Visscher and Kopp (2007), Kordi et al.
+[LINE#166](2010) and Kordi and Kopp (2011) have recently undertaken pioneering experimental work involving a destructive wind tunnel modelling approach that more realistically represents the unsteady force coefficients on the plate which change dramatically as the panel lifts off of the roof, leaving a hole beneath.
+0.855	[*A*]Kopp ( 2011[*R*]have undertaken pioneering[*A*]experimental work involving a destructive wind tunnel modelling approach	context(Kopp ( 2011 have undertaken)	negated: False ,passive: False
+0.913	[*A*]Kopp ( 2011[*R*]have undertaken[*A*]pioneering experimental work[*A*]recently	context()	negated: False ,passive: False
+0.855	[*A*]Kordi ( 2011[*R*]have undertaken pioneering[*A*]experimental work involving a destructive wind tunnel modelling approach	context(Kordi ( 2011 have undertaken)	negated: False ,passive: False
+0.913	[*A*]Kordi ( 2011[*R*]have undertaken[*A*]pioneering experimental work[*A*]recently	context()	negated: False ,passive: False
+0.927	[*A*]the unsteady force coefficients on the plate[*R*]change dramatically[*A*]as the panel lifts off of the roof[*A*]leaving a hole beneath	context()	negated: False ,passive: True
+0.949	[*A*]a destructive wind tunnel modelling approach[*R*]more realistically represents[*A*]the unsteady force coefficients on the plate which change dramatically as the panel lifts off of the roof ,	context()	negated: False ,passive: False
+0.845	[*A*]experimental work[*R*]involving[*A*]a destructive wind tunnel modelling approach that more realistically represents the unsteady force coefficients on the plate	context()	negated: False ,passive: True
+0.925	[*A*]the panel[*R*]lifts[*A*]off of the roof	context()	negated: False ,passive: False
+[LINE#167]The experiments also included a simulated turbulent atmospheric boundary layer.
+0.887	[*A*]The experiments[*R*]included[*A*]a simulated turbulent atmospheric boundary layer	context()	negated: False ,passive: True
+[LINE#168]This work has provided some insights into the influence of initial conditions (i.e. the fixing conditions and complex flow environment around the plate initially mounted on a roof) and flow turbulence to the mechanics of plate flight.
+0.937	[*A*]This work[*R*]has provided[*A*]some insights into the influence of initial conditions ( i.e. the complex flow environment around the plate and flow turbulence to the mechanics of plate flight	context()	negated: False ,passive: False
+0.903	[*A*]This work[*R*]has provided[*A*]some insights into the influence of initial conditions	context()	negated: False ,passive: False
+0.481	[*A*]This[*R*]mounted[*A*]on a roof[*A*]initially	context()	negated: False ,passive: True
+[LINE#169](2007) studied a 1:20 scale, aero-elastic "failure" model of a roof panel on a scaled house in a scaled, open country, turbulent boundary layer.
+0.618	[*A*]2007[*R*]studied[*A*]a 1:20 scale, aero-elastic "failure" model of a roof panel	context()	negated: False ,passive: False
+[LINE#170]The panel was held on the roof of the house with electromagnets which applied a restraining force.
+0.877	[*A*]electromagnets[*R*]applied[*A*]a restraining force	context()	negated: False ,passive: False
+0.903	[*A*]The panel[*R*]was held[*A*]on the roof of the house with electromagnets	context()	negated: False ,passive: True
+[LINE#171]For similar initial conditions, Visscher and Kopp (2007) observed different modes of flight including translational, autorotational and intermediate modes.
+0.833	[*A*]Kopp[*R*]observed[*A*]different modes of flight including intermediate modes	context()	negated: False ,passive: False
+0.833	[*A*]Kopp[*R*]observed[*A*]different modes of flight including autorotational modes	context()	negated: False ,passive: False
+0.833	[*A*]Kopp[*R*]observed[*A*]different modes of flight including translational modes	context()	negated: False ,passive: False
+0.920	[*A*]Visscher[*R*]observed[*A*]different modes of flight including intermediate modes	context()	negated: False ,passive: False
+0.920	[*A*]Visscher[*R*]observed[*A*]different modes of flight including autorotational modes	context()	negated: False ,passive: False
+0.920	[*A*]Visscher[*R*]observed[*A*]different modes of flight including translational modes	context()	negated: False ,passive: False
+[LINE#172]The translational mode was observed 75% of the time, while the autorotational mode was observed 25% of the time.
+0.932	[*A*]The translational mode[*R*]was observed[*A*]while the autorotational mode was observed 25% of the time	context()	negated: False ,passive: True
+[LINE#173]Translational trajectories were found to have a short range with less scatter, resulting in less dispersion in the landing location, while autorotational trajectories were far more variable in landing location.
+0.903	[*A*]autorotational trajectories[*R*]were[*A*]far more variable in landing location	context()	negated: False ,passive: True
+0.887	[*A*]Translational trajectories[*R*]to have[*A*]a short range with less scatter	context()	negated: False ,passive: False
+0.732	[*A*]Translational trajectories[*R*]were found	context()	negated: False ,passive: False
+[LINE#174]An initial overturning failure was observed for every test although the results were noted to be dependent on hold down strength, panel mass and size as well as the angle of attack of the wind and the house geometry.
+0.927	[*A*]the results[*R*]to be[*A*]dependent on hold down the angle of attack of the house geometry	context()	negated: False ,passive: True
+0.948	[*A*]An initial overturning failure[*R*]was observed[*A*]for every test[*A*]although the results were noted to be dependent on hold down the angle of attack of the house geometry	context()	negated: False ,passive: True
+0.927	[*A*]the results[*R*]to be[*A*]dependent on hold down the angle of attack of the wind	context()	negated: False ,passive: True
+0.948	[*A*]An initial overturning failure[*R*]was observed[*A*]for every test[*A*]although the results were noted to be dependent on hold down the angle of attack of the wind	context()	negated: False ,passive: True
+0.887	[*A*]the results[*R*]to be[*A*]dependent on hold down size	context()	negated: False ,passive: True
+0.948	[*A*]An initial overturning failure[*R*]was observed[*A*]for every test[*A*]although the results were noted to be dependent on hold down size	context()	negated: False ,passive: True
+0.887	[*A*]the results[*R*]to be[*A*]dependent on hold down panel mass	context()	negated: False ,passive: True
+0.948	[*A*]An initial overturning failure[*R*]was observed[*A*]for every test[*A*]although the results were noted to be dependent on hold down panel mass	context()	negated: False ,passive: True
+0.887	[*A*]the results[*R*]to be[*A*]dependent on hold down strength	context()	negated: False ,passive: True
+0.732	[*A*]the results[*R*]were noted	context()	negated: False ,passive: False
+0.948	[*A*]An initial overturning failure[*R*]was observed[*A*]for every test[*A*]although the results were noted to be dependent on hold down strength	context()	negated: False ,passive: True
+[LINE#175](2007) suggest that the effects of variability of the flow field on the resulting aero-dynamic normal forces play a critical role in determining the flight mode and this is probably most significant during the initial overturning and the first few moments thereafter.
+0.395	[*A*]this[*R*]is[*A*]probably[*A*]most significant[*A*]during the first few moments thereafter	context(2007 suggest)	negated: False ,passive: True
+0.565	[*A*]2007[*R*]suggest[*A*]this is probably most significant during the first few moments thereafter	context()	negated: False ,passive: False
+0.187	[*A*]this[*R*]is[*A*]probably[*A*]most significant	context(2007 suggest)	negated: False ,passive: True
+0.447	[*A*]2007[*R*]suggest[*A*]this is probably most significant during the initial overturning	context()	negated: False ,passive: False
+[LINE#176]They conclude that the sensitivity to particular flight conditions appears to be greater even than indicated by Baker (2007) when actual panel failures are considered.
+0.763	[*A*]the sensitivity to particular flight conditions[*R*]appears	context(They conclude)	negated: False ,passive: False
+0.429	[*A*]They[*R*]conclude[*A*]that the sensitivity to particular flight conditions appears to be greater	context()	negated: False ,passive: False
+0.933	[*A*]the sensitivity to particular flight conditions[*R*]to be[*A*]greater even than indicated by Baker (2007)[*A*]when actual panel failures are considered	context()	negated: False ,passive: True
+[LINE#177]Visscher and Kopp (2007) also found the speed at which sheathing panels fly to be a fraction of the mean wind speed and was calculated as 0.60 with standard deviation of 0.08 for the translational mode, and 0.70 with standard deviation of 0.12 for the autorotational mode for the particular panel, wind angle, roof location and hold-down force examined.
+0.713	[*A*]force[*R*]examined	context()	negated: False ,passive: False
+0.934	[*A*]Visscher and Kopp (2007[*R*]was calculated[*A*]as 0.60 with standard deviation of 0.08[*A*]for the translational mode	context()	negated: False ,passive: True
+0.887	[*A*]sheathing panels[*R*]to be[*A*]a fraction of the mean wind speed	context()	negated: False ,passive: True
+0.784	[*A*]sheathing panels[*R*]fly	context()	negated: False ,passive: False
+0.958	[*A*]Visscher and Kopp (2007[*R*]found[*A*]the speed at which sheathing panels fly to be a fraction of the mean wind speed	context()	negated: False ,passive: False
+[LINE#178]and then Kordi and Kopp (2011) applied the same failure model approach to investigate the effect of varying wind direction, debris properties and the surrounding neighbourhood structures.
+0.793	[*A*]Kopp[*R*]applied the same failure model approach to investigate[*A*]the effect of the surrounding neighbourhood structures	context(Kopp applied)	negated: False ,passive: False
+0.873	[*A*]Kopp[*R*]applied[*A*]the same failure model approach[*A*]to investigate the effect of the surrounding neighbourhood structures[*A*]then	context()	negated: False ,passive: False
+0.793	[*A*]Kopp[*R*]applied the same failure model approach to investigate[*A*]the effect of debris properties	context(Kopp applied)	negated: False ,passive: False
+0.873	[*A*]Kopp[*R*]applied[*A*]the same failure model approach[*A*]to investigate the effect of debris properties[*A*]then	context()	negated: False ,passive: False
+0.793	[*A*]Kopp[*R*]applied the same failure model approach to investigate[*A*]the effect of varying wind direction	context(Kopp applied)	negated: False ,passive: False
+0.873	[*A*]Kopp[*R*]applied[*A*]the same failure model approach[*A*]to investigate the effect of varying wind direction[*A*]then	context()	negated: False ,passive: False
+0.898	[*A*]Kordi[*R*]applied the same failure model approach to investigate[*A*]the effect of the surrounding neighbourhood structures	context(Kordi applied)	negated: False ,passive: False
+0.940	[*A*]Kordi[*R*]applied[*A*]the same failure model approach[*A*]to investigate the effect of the surrounding neighbourhood structures[*A*]then	context()	negated: False ,passive: False
+0.898	[*A*]Kordi[*R*]applied the same failure model approach to investigate[*A*]the effect of debris properties	context(Kordi applied)	negated: False ,passive: False
+0.940	[*A*]Kordi[*R*]applied[*A*]the same failure model approach[*A*]to investigate the effect of debris properties[*A*]then	context()	negated: False ,passive: False
+0.898	[*A*]Kordi[*R*]applied the same failure model approach to investigate[*A*]the effect of varying wind direction	context(Kordi applied)	negated: False ,passive: False
+0.940	[*A*]Kordi[*R*]applied[*A*]the same failure model approach[*A*]to investigate the effect of varying wind direction[*A*]then	context()	negated: False ,passive: False
+[LINE#179]They observed that with oblique wind approach angles relative to the roof ridge, complex 3D spinning was the most dominant mode of flight and that the mode of flight was dependent on the approaching wind direction.
+0.385	[*A*]flight[*R*]was dependent on[*A*]the approaching wind direction	context()	negated: False ,passive: False
+0.923	[*A*]the mode of flight[*R*]was[*A*]dependent on the approaching wind direction	context(They observed)	negated: False ,passive: True
+0.429	[*A*]They[*R*]observed[*A*]that the mode of flight was dependent on the approaching wind direction	context()	negated: False ,passive: False
+0.923	[*A*]complex 3 D spinning[*R*]was[*A*]the most dominant mode of flight	context(They observed)	negated: False ,passive: True
+0.429	[*A*]They[*R*]observed[*A*]that with oblique wind approach angles relative to the roof ridge , complex 3 D spinning was the most dominant mode of flight	context()	negated: False ,passive: False
+[LINE#180]Comparisons with the theoretical asymptotic limit from analytical models revealed conflicting results for different debris types with shingles flying close to the theoretical asymptotic limit speed while tiles did not.
+0.713	[*A*]tiles[*R*]did not	context()	negated: True ,passive: False
+0.894	[*A*]shingles[*R*]flying[*A*]close to the theoretical asymptotic limit speed	context()	negated: False ,passive: True
+0.948	[*A*]Comparisons with the theoretical asymptotic limit from analytical models[*R*]revealed[*A*]conflicting results for different debris types with shingles	context()	negated: False ,passive: False
+[LINE#181]The present work is broken down into the aforementioned sections the first dealing with free flight, the second with complex launch conditions.
+0.911	[*A*]The present work[*R*]is broken down[*A*]into the aforementioned sections	context()	negated: False ,passive: True
+[LINE#182]Parametric studiesAs described earlier, Tachikawa (1983) showed that debris trajectories are sensitive to the properties of the flow and the plate, not just its initial orientation.
+0.882	[*A*]debris trajectories[*R*]are[*A*]sensitive to the properties of the plate	context(Parametric studiesAs showed)	negated: False ,passive: True
+0.834	[*A*]Parametric studiesAs[*R*]showed[*A*]that debris trajectories are sensitive to the properties of the plate	context()	negated: False ,passive: False
+0.385	[*A*]debris trajectories[*R*]are sensitive to[*A*]the properties	context()	negated: False ,passive: False
+0.882	[*A*]debris trajectories[*R*]are[*A*]sensitive to the properties of the flow	context(Parametric studiesAs showed)	negated: False ,passive: True
+0.834	[*A*]Parametric studiesAs[*R*]showed[*A*]that debris trajectories are sensitive to the properties of the flow	context()	negated: False ,passive: False
+0.938	[*A*]Parametric studiesAs[*R*]described[*A*]earlier[*A*]Tachikawa	context()	negated: False ,passive: False
+[LINE#183]In this section, the sensitivity of plate's motion to the Tachikawa number, the dimensionless mass moment of inertia parameter, the thickness ratio and aspect ratio are studied.
+0.965	[*A*]the sensitivity of the thickness ratio and aspect ratio[*R*]are studied[*A*]In this section	context()	negated: False ,passive: True
+0.972	[*A*]the sensitivity of plate 's motion to the Tachikawa number[*R*]are studied[*A*]In this section	context()	negated: False ,passive: True
+[LINE#184]In order to achieve this, an additional 35 simulations are presented.
+0.992	[*A*]35 simulations[*R*]are presented In[*A*]order achieve	context()	negated: False ,passive: False
+0.769	[*A*]an additional 35 simulations[*R*]are presented	context()	negated: False ,passive: False
+[LINE#185]The cases are sub-divided into seven "Batches", A to G, depending on the initial orientation and expected flight as shown in Table 1.
+0.918	[*A*]The cases[*R*]are sub-divided[*A*]into seven " Batches[*A*]as shown in Table 1	context()	negated: False ,passive: True
+0.905	[*A*]The cases[*R*]expected[*A*]flight[*A*]as shown in Table 1	context()	negated: False ,passive: False
+0.903	[*A*]The cases[*R*]are sub-divided[*A*]into seven " Batches	context()	negated: False ,passive: True
+[LINE#186]Cases A and D are autorotational mode, case B transitional mode, case C flutter mode, while cases labeled E, F and G are expected to enter into a complex 3D spinning mode.
+0.581	[*A*]G[*R*]are expected	context(cases labeled)	negated: False ,passive: False
+0.581	[*A*]F[*R*]are expected	context(cases labeled)	negated: False ,passive: False
+0.813	[*A*]D[*R*]are[*A*]autorotational mode , case B transitional mode	context()	negated: False ,passive: True
+0.887	[*A*]labeled E[*R*]to enter[*A*]into a complex 3 D spinning mode	context()	negated: False ,passive: False
+0.677	[*A*]cases[*R*]are expected	context()	negated: False ,passive: False
+0.875	[*A*]D[*R*]are[*A*]autorotational mode , case B transitional mode[*A*]while cases labeled E are expected to enter into a complex 3 D spinning mode	context()	negated: False ,passive: True
+0.581	[*A*]G[*R*]are expected	context(cases labeled)	negated: False ,passive: False
+0.929	[*A*]cases[*R*]labeled[*A*]G are expected to enter into a complex 3 D spinning mode	context()	negated: False ,passive: False
+0.833	[*A*]G[*R*]to enter[*A*]into a complex 3 D spinning mode	context()	negated: False ,passive: False
+0.581	[*A*]F[*R*]are expected	context(cases labeled)	negated: False ,passive: False
+0.929	[*A*]cases[*R*]labeled[*A*]F are expected to enter into a complex 3 D spinning mode	context()	negated: False ,passive: False
+0.833	[*A*]F[*R*]to enter[*A*]into a complex 3 D spinning mode	context()	negated: False ,passive: False
+0.877	[*A*]Cases[*R*]are[*A*]autorotational mode , case B transitional mode	context()	negated: False ,passive: True
+0.897	[*A*]cases labeled E[*R*]to enter[*A*]into a complex 3 D spinning mode	context()	negated: False ,passive: False
+0.751	[*A*]cases labeled E[*R*]are expected	context()	negated: False ,passive: False
+0.920	[*A*]Cases[*R*]are[*A*]autorotational mode , case B transitional mode[*A*]while cases labeled E are expected to enter into a complex 3 D spinning mode	context()	negated: False ,passive: True
+[LINE#187]Within each Batch, five Cases were run.
+0.943	[*A*]five Cases[*R*]were run[*A*]Within each Batch	context()	negated: False ,passive: True
+[LINE#188]A description of the parameters associated with each of the cases is presented in Table 2.
+0.927	[*A*]A description of the parameters[*R*]is presented[*A*]in Table 2	context()	negated: False ,passive: True
+0.903	[*A*]the parameters[*R*]associated[*A*]with each of the cases	context()	negated: False ,passive: True
+[LINE#189] By combining the two tables, Case A3, for example, corresponds to an autorotational mode in a wind speed of 15.0.
+0.945	[*A*]Case A3[*R*]corresponds[*A*]to an autorotational mode in a wind speed of 15.0	context()	negated: False ,passive: True
+[LINE#190]Sensitivity to the Tachikawa numberTachikawa (1983) presented a non-dimensionalised formulation of the debris flight equations, which showed that plate type debris was controlled by a number of dimensionless parameters.
+0.888	[*A*]plate type debris[*R*]was controlled[*A*]by a number of dimensionless parameters	context(the debris flight equations showed)	negated: False ,passive: True
+0.812	[*A*]the debris flight equations[*R*]showed[*A*]that plate type debris was controlled by a number of dimensionless parameters	context()	negated: False ,passive: False
+0.934	[*A*]Sensitivity to the Tachikawa numberTachikawa[*R*]presented[*A*]a non-dimensionalised formulation of the debris flight equations	context()	negated: False ,passive: False
+[LINE#191] Chief among these was the ratio of aerodynamic force to gravitational force, K=,where  is the density of air, Uw is the mean wind speed, A is the area of the plate, m is the mass of the plate and g is the acceleration due to gravity.
+0.937	[*A*]Chief among these[*R*]was[*A*]the ratio of aerodynamic force to gravitational force	context(Uw is m is)	negated: False ,passive: True
+0.862	[*A*]Uw[*R*]is[*A*]the mean wind speed	context(m is)	negated: False ,passive: True
+0.822	[*A*]m[*R*]is[*A*]the mass of the plate	context()	negated: False ,passive: True
+0.852	[*A*]A[*R*]is[*A*]the area of the plate	context()	negated: False ,passive: True
+0.852	[*A*]g[*R*]is[*A*]the acceleration due to gravity	context()	negated: False ,passive: True
+[LINE#192]Later, the parameter K was called the Tachikawa number in recognition of this pioneering work (Holmes et al., 2006).
+0.968	[*A*]the parameter K[*R*]was called[*A*]the Tachikawa number[*A*]Later	context()	negated: False ,passive: True
+[LINE#193] In addition, Tachikawa used a Froude number, Fr=UwgL,and a dimensionless mass moment of =mL2I,where L is the characteristic length of the plateand I is the mass moment of inertia.
+0.522	[*A*]I[*R*]is[*A*]the mass moment of inertia	context()	negated: False ,passive: True
+0.887	[*A*]L[*R*]is[*A*]the characteristic length of the plateand	context()	negated: False ,passive: True
+0.932	[*A*]Tachikawa[*R*]used[*A*]a dimensionless mass moment of =mL2I	context()	negated: False ,passive: False
+0.920	[*A*]Tachikawa[*R*]used[*A*]a Froude number	context()	negated: False ,passive: False
+[LINE#194] To study the sensitivity to the Tachikawa number, K, within each case group, wind speeds 20.0.
+0.999	[*A*]wind[*R*]speeds[*A*]20.0	context()	negated: False ,passive: False
+0.886	[*A*]wind[*R*]speeds[*A*]20.0[*A*]within each case group	context()	negated: False ,passive: False
+[LINE#195]For example, cases D1, D2 and D3 correspond to Tachikawa numbers of 8.325, 6.374 and 4.683 for plates that were expected to enter the autorotational flight mode.
+0.877	[*A*]D3[*R*]correspond[*A*]to Tachikawa numbers of 4.683 for plates	context()	negated: False ,passive: True
+0.877	[*A*]D3[*R*]correspond[*A*]to Tachikawa numbers of 6.374 for plates	context()	negated: False ,passive: True
+0.877	[*A*]D3[*R*]correspond[*A*]to Tachikawa numbers of 8.325 for plates	context()	negated: False ,passive: True
+0.877	[*A*]D2[*R*]correspond[*A*]to Tachikawa numbers of 4.683 for plates	context()	negated: False ,passive: True
+0.877	[*A*]D2[*R*]correspond[*A*]to Tachikawa numbers of 6.374 for plates	context()	negated: False ,passive: True
+0.877	[*A*]D2[*R*]correspond[*A*]to Tachikawa numbers of 8.325 for plates	context()	negated: False ,passive: True
+0.920	[*A*]For example , cases[*R*]correspond[*A*]to Tachikawa numbers of 4.683 for plates	context()	negated: False ,passive: True
+0.920	[*A*]For example , cases[*R*]correspond[*A*]to Tachikawa numbers of 6.374 for plates	context()	negated: False ,passive: True
+0.877	[*A*]plates[*R*]to enter[*A*]the autorotational flight mode	context()	negated: False ,passive: False
+0.677	[*A*]plates[*R*]were expected	context()	negated: False ,passive: False
+0.920	[*A*]For example , cases[*R*]correspond[*A*]to Tachikawa numbers of 8.325 for plates	context()	negated: False ,passive: True
+[LINE#196]14(a), (c) and (e), with increasing K, plates are observed to fly further due to the greater influence of aerodynamic forces relative to gravitational forces.
+0.920	[*A*]plates[*R*]to fly[*A*]further[*A*]due to the greater influence of aerodynamic forces relative to gravitational forces	context()	negated: False ,passive: True
+0.713	[*A*]plates[*R*]are observed	context()	negated: False ,passive: False
+[LINE#197]Even when non-dimensionalised using K and when using a relatively small range of variation in Tachikawa number, the variation in mean trajectory is still evident.
+[LINE#198]The direct implication of this is that although K is shown to be an adequate parameterisation of debris flight range, the validity of fit expressions for Kx and Ky, such as those quoted in Lin et al.
+0.269	[*A*]those[*R*]quoted[*A*]in Lin et al	context()	negated: False ,passive: True
+0.833	[*A*]K[*R*]to be[*A*]an adequate parameterisation of debris flight range	context()	negated: False ,passive: True
+0.634	[*A*]K[*R*]is shown	context()	negated: False ,passive: False
+0.921	[*A*]The direct implication of this[*R*]is[*A*]that although K is shown to be an adequate parameterisation of debris flight range	context()	negated: False ,passive: True
+[LINE#199]Although such expressions have become incorporated into debris risk models (Lin and Vanmarcke, 2010), they are clearly not valid when the Tachikawa number differs from the range for which they are derived.
+0.884	[*A*]the range[*R*]are derived[*A*]they	context()	negated: False ,passive: True
+0.803	[*A*]the Tachikawa number[*R*]differs	context()	negated: False ,passive: False
+0.557	[*A*]they[*R*]are not[*A*]valid[*A*]when the Tachikawa number differs from the range	context()	negated: True ,passive: True
+0.903	[*A*]such expressions[*R*]have become incorporated[*A*]into debris risk models	context()	negated: False ,passive: True
+[LINE#200]It was also found that the terminal horizontal, vertical and rotational speeds were independent of K.
+[LINE#201]As a result, fit expressions for u may be expected to remain valid over a range of K.
+0.920	[*A*]fit expressions for u[*R*]to remain[*A*]valid[*A*]over a range of K.	context()	negated: False ,passive: True
+0.769	[*A*]fit expressions for u[*R*]may be expected	context()	negated: False ,passive: False
+[LINE#202]In addition, the lateral cross-wind velocity component in the 3D spinning mode cases is found to be sensitive to K.
+0.961	[*A*]the lateral cross-wind velocity component in the 3D spinning mode cases[*R*]to be[*A*]sensitive to K.	context()	negated: False ,passive: True
+0.878	[*A*]the lateral cross-wind velocity component in the 3D spinning mode cases[*R*]is found	context()	negated: False ,passive: False
+[LINE#203] As a result, a significant difference in the overall lateral dispersion of trajectories is therefore observed, Fig. 14(b), (d), (f), although a distinctive trend is difficult to identify with such limited data. . Sensitivityto plate propertiesFor each of the 7 initial orientations, a case, numbered 4 in Table 2, was run using a 0.563m square plate of thickness 0.025m.
+0.698	[*A*]a case[*R*]was run	context()	negated: False ,passive: False
+0.905	[*A*]a case[*R*]numbered[*A*]4[*A*]in Table 2	context()	negated: False ,passive: True
+0.932	[*A*]a distinctive trend[*R*]is[*A*]difficult to identify with such limited data	context()	negated: False ,passive: True
+0.930	[*A*]a significant difference in the overall lateral dispersion of trajectories[*R*]is observed[*A*]Fig	context()	negated: False ,passive: True
+[LINE#204]The density of the plate was adjusted to ensure that at the mean horizontal wind flow, the Tachikawa number, K and Froude number Fr are the same as in the number 1 cases.
+0.898	[*A*]The density of the plate[*R*]was adjusted[*A*]to ensure that at the mean horizontal wind flow, the Tachikawa number, K and Froude number Fr are the same as in the number 1 cases	context()	negated: False ,passive: True
+[LINE#205]The result is two sets of cases, A1 to G1 and A4 to G4, with the same set of initial orientations, aspect ratio and flow parameter but considerably lower thickness ratio, =t/L, and non-dimensionalised mass moment of inertia about the Z-axis, zz, in the A4 to G4 cases.
+0.960	[*A*]The result[*R*]is[*A*]two sets of cases , A1 to A4 to G4 , with the same set of initial orientations the Z - axis , zz , in the A4 to G4 cases	context()	negated: False ,passive: True
+0.976	[*A*]A1 to G1 , the Z - axis , zz , in the A4[*R*]to G4[*A*]cases	context()	negated: False ,passive: False
+0.925	[*A*]The result[*R*]is[*A*]two sets of cases	context()	negated: False ,passive: True
+[LINE#206]Similarly a fifth case, numbered 5 in Table 2 is run for each initial orientation, and the plate's K, FrL,  and zz are kept constant relative to cases numbered 4, but the width of the plate, B is increased to give a higher aspect ratio.
+0.833	[*A*]B[*R*]to give[*A*]a higher aspect ratio	context()	negated: False ,passive: False
+0.855	[*A*]B[*R*]is increased[*A*]to give a higher aspect ratio	context()	negated: False ,passive: True
+0.965	[*A*]Similarly a fifth case , numbered 5 in Table 2[*R*]is run[*A*]for each initial orientation	context()	negated: False ,passive: True
+0.920	[*A*]Similarly a fifth case[*R*]numbered[*A*]5[*A*]in Table 2	context()	negated: False ,passive: True
+[LINE#207]For plates of same B/L, K, and initial angle of attack, different flight modes may be observed due to changes in zz and .
+0.911	[*A*]different flight modes[*R*]may be observed[*A*]due to changes in zz	context()	negated: False ,passive: True
+[LINE#208]For instance, consider case F1 which has a plate of mass, m=3.0kg and Izz=0.25kgm2, and case F4 which has a plate of mass 0.534kg and Izz=0.014kgm2.
+0.869	[*A*]F4[*R*]has[*A*]a plate of mass Izz=0.014kgm2	context()	negated: False ,passive: False
+0.869	[*A*]F4[*R*]has[*A*]a plate of mass	context()	negated: False ,passive: False
+0.934	[*A*]case F1[*R*]has[*A*]a case	context()	negated: False ,passive: False
+0.758	[*A*]case F1[*R*]has Izz=0.25kgm2	context()	negated: False ,passive: False
+0.914	[*A*]case F1[*R*]has m=3.0[*A*]kg	context()	negated: False ,passive: False
+0.934	[*A*]case F1[*R*]has[*A*]a plate of mass	context()	negated: False ,passive: False
+[LINE#209] The results for these two cases are shown in Fig.and (b) and reveal that the plate changes from a flutter mode of flight for F4, to an autorotational mode of flight for F1.
+0.935	[*A*]the plate[*R*]changes[*A*]from a flutter mode of flight for F4 , to an autorotational mode of flight for F1	context(The results reveal)	negated: False ,passive: True
+0.840	[*A*]The results[*R*]reveal[*A*]that the plate changes from a flutter mode of flight for F4 , to an autorotational mode of flight for F1	context()	negated: False ,passive: False
+0.943	[*A*]The results for these two cases[*R*]are shown[*A*]in Fig.and (b)	context()	negated: False ,passive: True
+[LINE#210]The thickness ratio, , clearly affects the flight mode observed in this instance, which also results in a change in the cross-wind motion of debris for these complex 3D spinning cases.
+0.933	[*A*]The thickness ratio[*R*]clearly affects[*A*]the flight mode observed in this instance, which also results in a change in the cross-wind motion of debris for these complex 3D spinning cases	context()	negated: False ,passive: False
+[LINE#211]The effects, however, are not as clear for other cases.
+0.887	[*A*]The effects[*R*]are not[*A*]as clear for other cases	context()	negated: True ,passive: True
+[LINE#212] The cross-wind dispersion was also found to be highly sensitive to aspect ratio,.
+0.897	[*A*]The cross-wind dispersion[*R*]to be[*A*]highly sensitive to aspect ratio	context()	negated: False ,passive: True
+0.663	[*A*]The cross-wind dispersion[*R*]was found	context()	negated: False ,passive: False
+[LINE#213]B/L. A much greater dispersion is observed in both the cross-wind directions with increasing aspect ratio.
+0.911	[*A*]much greater dispersion[*R*]is observed[*A*]in both the cross-wind directions with increasing aspect ratio	context()	negated: False ,passive: True
+[LINE#214]Aspect ratio also had an effect on the observed flight modes, with none of the plates exhibiting the flutter mode at higher aspect ratios.
+0.913	[*A*]Aspect ratio[*R*]had[*A*]an effect on the observed flight modes	context()	negated: False ,passive: False
