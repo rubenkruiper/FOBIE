@@ -3,8 +3,10 @@ To test SORE this repository contains ~110 papers, which are copied from the
 These papers are sourced from 10 different scientific domains: Agriculture, Astronomy, Biology,
 Chemistry, Computer Science, Earth Science, Engineering, Materials Science, Mathematics and Medicine.  
 
-----
-### Train and use SciIE
+--------------------
+Train and use SciIE
+--------------------
+
 Clone the SciIE code from [this bitbucket repository](https://bitbucket.org/luanyi/scierc/src/master/), 
 also check this repository for more information on adjusting runtime parameters.
 
@@ -17,34 +19,39 @@ Install the following dependencies:
   * `pip install tensorflow_hub`
   * `pip install pyhocon`
 
-##### 1) Fetch GloVe embeddings and build kernels 
-Open the SciIE folder in a terminal/console window and run:
-  * `./scripts/fetch_required_data.sh`
-  * `./scripts/build_custom_kernels.sh`
+1. Fetch GloVe embeddings and build kernels
+    
+    Open the SciIE folder in a terminal/console window and run:
+      * `./scripts/fetch_required_data.sh`
+      * `./scripts/build_custom_kernels.sh`
 
-##### 2) Generate ELMo embeddings for FOBIE and train a model:
-First copy the SciIE formatted FOBIE files to: `[SciIE_folder]/data/processed_data/json/`  
-In the SORE directory you can find a folder called `sciie_scripts/`, copy the files to your `[SciIE_folder]`:
-  * Replace `[SciIE_folder]/experiments.conf` and place `embed_and_predict.py` and `generate_FOBIE_embeddings.py` alongside it
-  * Create a directory `[SciIE_folder]/FOBIE_output/` to store predictions
- 
-Generate the embeddings for the FOBIE dataset:
-  * Run `python generate_FOBIE_embeddings.py` (make sure to be in the correct environment)
+2. Generate ELMo embeddings for FOBIE and train a model
+    
+    First copy the SciIE formatted FOBIE files to: `[SciIE_folder]/data/processed_data/json/`  
+    
+    In the SORE directory you can find a folder called `sciie_scripts/`, copy the files to your `[SciIE_folder]`:
+      * Replace `[SciIE_folder]/experiments.conf` and place `embed_and_predict.py` and `generate_FOBIE_embeddings.py` alongside it
+      * Create a directory `[SciIE_folder]/FOBIE_output/` to store predictions
+     
+    Generate the embeddings for the FOBIE dataset:
+      * Run `python generate_FOBIE_embeddings.py` (make sure to be in the correct environment)
+    
+    To train a model you can run:
+      * `python singleton.py fobie_train & python evaluator.py fobie_train`
 
-To train a model you can run:
-  * `python singleton.py fobie_train & python evaluator.py fobie_train`
 
-<!-- Note: if training your own model, you have to stop running the training session manually. We followed patience=12.  -->
+3. Predict using your trained model
+    
+    You're now set to make predictions on unseen data:
+      * `python embed_and_predict.py fobie_train`
+      
+    This will loop through the files found in `[SciIE_folder]/data/processed_data/json/` 
+    and ask you which files to process before starting the embedding (can take a while for big files). 
 
-##### 3) Predict using your trained model
-You're now set to make predictions on unseen data:
-  * `python embed_and_predict.py fobie_train`
-  
-This will loop through the files found in `[SciIE_folder]/data/processed_data/json/` 
-and ask you which files to process before starting the embedding (can take a while for big files). 
+--------------------
+Prepare OpenIE 5
+--------------------
 
-----
-### Prepare OpenIE 5
 Clone the [github repo for OpenIE 5](https://github.com/dair-iitd/OpenIE-standalone),
 aslo see this repo for more information about compiling. 
 In the newly created `OpenIE-standalone` folder, you'll have to create a new directory called `lib/`.  
@@ -69,8 +76,10 @@ OpenIE is compiled using `sbt` and Java 8:
     * You may need to set the Scala version to [version 2.10.2](https://www.scala-lang.org/download/2.10.2.html)
 
   
-----
-### Run SORE
+------------
+Run SORE
+------------
+
 Create an environment and activate, e.g.;
   * `conda create --name SORE python=3.6`
   * `source activate SORE`
@@ -82,26 +91,22 @@ Install the requirements found inside `[FOBIE_repo]/SORE/`:
     * `python -m textblob.download_corpora`
 
 Edit the `SORE_settings.json` doc:
-  * Set the `path_to_OIE_jar`, for example:  
-`/Users/../../OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar`
+  * Set the `path_to_OIE_jar`, for example: `/Users/../../OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar`
+
  
 You can run the code for SORE from the FOBIE repository:
-  * `python run_SORE.py 
-  `
- #### Main settings
-  * Prepare_data: Yes/No - convert json data found in `[FOBIE_repo]/SORE/data/unprocessed/` to OpenIE and SciIE input files.
-  Note that to predict with SciIE you'll have to move these input files to `[SciIE_folder]/data/processed_data/json/`.
-  * Parse_narrowIE_predictions: Yes/No - parse SciIE prediction files to a single csv, specified in the 
-  settings file under `"narrowIE_input_files"`. These predictions files should be placed in `[FOBIE_repo]/SORE/data/narrowIE/predictions/`,
-  note that you'll have to move predictions made with SciIE here (from the `[SciIE_folder]/FOBIE_output/` folder).
+  * `python run_SORE.py`
+
+Main settings: 
+  * Prepare_data: Yes/No - convert json data found in `[FOBIE_repo]/SORE/data/unprocessed/` to OpenIE and SciIE input files. 
+    * Note that to predict with SciIE you'll have to move these input files to `[SciIE_folder]/data/processed_data/json/`.
+  * Parse_narrowIE_predictions: Yes/No - parse SciIE prediction files to a single csv, specified in the settings file under `"narrowIE_input_files"`. These predictions files should be placed in `[FOBIE_repo]/SORE/data/narrowIE/predictions/`, note that you'll have to move predictions made with SciIE here (from the `[SciIE_folder]/FOBIE_output/` folder).
   * Run_OIE: Yes/No - run OpenIE 5 on each of the files for which SciIE has found relations.
   * Filter_OIE: Yes/No - filter the OpenIE 5 extractions using the predicted relations stored in the narrowIE output csv file.
-  * convert_back_to_BRAT: Yes/No - convert the SORE extractions to a BRAT annotations format, 
-  this enables you to visualise the resulting extractions in [BRAT](https://brat.nlplab.org/index.html).
- 
+  * convert_back_to_BRAT: Yes/No - convert the SORE extractions to a BRAT annotations format, this enables you to visualise the resulting extractions in [BRAT](https://brat.nlplab.org/index.html).
+
+
 Note that FOBIE focuses on tradeoffs and other types of correlations in the Biology domain. Non-tradeoff relations 
-can be used to filter OpenIE extractions in distinct domains, but whether the arguments used for filtering are useful
- can vary. 
- 
-----
- If you have any questions, please let me know!
+can be used to filter OpenIE extractions in distinct domains, but whether the arguments used for filtering are useful can vary. 
+
+If you have any questions, please let me know!

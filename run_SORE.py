@@ -31,8 +31,8 @@ class DataPreparation():
 
         :param unprocessed_data_path: The path to the unprocessed input dataset (for an example of the format used
         check out the provided OA-STM dataset).
-        :param output_folder_narrowIE: The path to write files that can be used as narrow IE input (SciIE input format)
-        :param output_folder_OIE: The path to write  files that can be used as Open IE input (OpenIE 5 input format)
+        :param output_folder_narrowIE: The path to write files that can be used as narrow IE input (SciIE input format).
+        :param output_folder_OIE: The path to write  files that can be used as Open IE input (OpenIE 5 input format)/
         """
         self.unprocessed_data_path = unprocessed_data_path
         self.output_folder_narrowIE = output_folder_narrowIE
@@ -43,9 +43,7 @@ class DataPreparation():
         Start preparing the data for narrow and open IE, includes a simple pre-processing step in
         :func:`~SORE.my_utils.clean_content`.
 
-        :param max_num_docs_narrowIE: Maximum nr of documents to process at once with SciIE. This influences the time
-        to pre-compute the ELMo embeddings for a large dataset (You should consider using a different model!).
-        :return:
+        :param max_num_docs_narrowIE: Maximum nr of documents to process at once with SciIE. This influences the time to pre-compute the ELMo embeddings for a large dataset (You should consider using a different model!).
         """
         input_files = glob.glob(self.unprocessed_data_path +'*.json')
         prepare_data.convert_documents(max_num_docs_narrowIE, input_files, self.output_folder_OIE, self.output_folder_narrowIE)
@@ -83,9 +81,10 @@ class NarrowIEParser():
         """
         Iterates over the files prepared by :class:`DataPreparation`, which is capped to a maximum number of input files.
         Convert the predictions outputted by the SciIE model to a csv format for clustering. Predictions have the format:
+
         {"doc_key": "XXX",
-         "ner": [[[8, 8, "Generic"], [10, 10, "Generic"], [12, 14, "Generic"]]],
-         "relation": [[[8, 8, 10, 10, "Not_a_TradeOff"], [8, 8, 12, 14, "Not_a_TradeOff"]]]}
+        "ner": [[[8, 8, "Generic"], [10, 10, "Generic"], [12, 14, "Generic"]]],
+        "relation": [[[8, 8, 10, 10, "Not_a_TradeOff"], [8, 8, 12, 14, "Not_a_TradeOff"]]]}
 
         :param input_filename: Single file with narrow IE input, to retrieve the sentence string.
         :param predictions_filename: Single file with narrow IE predictions.

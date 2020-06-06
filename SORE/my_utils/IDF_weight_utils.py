@@ -182,10 +182,8 @@ class PrepIDFWeights():
         Overarching function to compute or load the IDF weights, as well as train or load a SentencePiece model - based
         on the settings provided to :class:`~SORE.my_utils.PrepIDFWeights`
 
-        :param input_file_prefixes: Select files to compute IDF weights for based on a possible prefixes, e.g., only
-        compute IDF weights over files that are derived from the OA-STM corpus.
-        :param sp_size: Size of the SentencePiece vocab, recommended 8k (input would be an int 8000), 16k or 32k, but
-        this depends on the size of your dataset.
+        :param input_file_prefixes: Select files to compute IDF weights for based on a possible prefixes, e.g., only compute IDF weights over files that are derived from the OA-STM corpus.
+        :param sp_size: Size of the SentencePiece vocab, recommended 8k (input would be an int 8000), 16k or 32k, but this depends on the size of your dataset.
         :param sp_storage_dir: Directory to store sp model, I believe this is redundant - self.output_dir could be used.
         """
 

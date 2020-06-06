@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SORE.filterOIE_with_narrowIE &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../SORE_documentation.html">SORE Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>SORE.filterOIE_with_narrowIE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for SORE.filterOIE_with_narrowIE</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">wget</span>
+<span class="kn">import</span> <span class="nn">csv</span><span class="o">,</span> <span class="nn">pickle</span>
+
+<span class="kn">from</span> <span class="nn">sklearn.manifold</span> <span class="kn">import</span> <span class="n">TSNE</span>
+<span class="kn">import</span> <span class="nn">SORE.my_utils.filter_utils</span> <span class="k">as</span> <span class="nn">fu</span>
+
+
+
+<div class="viewcode-block" id="NarrowIEOpenIECombiner"><a class="viewcode-back" href="../../SORE.html#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner">[docs]</a><span class="k">class</span> <span class="nc">NarrowIEOpenIECombiner</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encapsulates paths and settings for SORE filtering.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">oie_data_dir</span><span class="p">,</span> <span class="n">IDF_path</span><span class="p">,</span> <span class="n">csv_path</span><span class="p">,</span> <span class="n">SUBWORDUNIT</span><span class="p">,</span> <span class="n">sp_size</span><span class="p">,</span>
+                 <span class="n">number_of_clusters</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span>
+                 <span class="n">stemming</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">stopwords</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">SUBWORD_UNIT_COMBINATION</span><span class="o">=</span><span class="s2">&quot;avg&quot;</span><span class="p">,</span>
+                 <span class="n">path_to_embeddings</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialise the embedding and clustering settings and paths.</span>
+
+<span class="sd">        :param oie_data_dir: Input directory to all files that contain OIE extractions.</span>
+<span class="sd">        :param IDF_path: Path to the IDF_weights created during filter preparation.</span>
+<span class="sd">        :param csv_path: Path to the CSV file with combined extractions from narrow IE.</span>
+<span class="sd">        :param SUBWORDUNIT: Boolean value that indicates whether subwordunits have been used during IDF weight creation.</span>
+<span class="sd">        :param sp_size: The size of the SentencePiece vocab used to compute subwordunits.</span>
+<span class="sd">        :param number_of_clusters: The number of clusters to compute over the narrow IE arguments.</span>
+<span class="sd">        :param stemming: Boolean that determines whether keyphrases are stemmed before filtering.</span>
+<span class="sd">        :param stopwords: Boolean that determines whether stopwords are removed from keyphrases before filtering.</span>
+<span class="sd">        :param SUBWORD_UNIT_COMBINATION: How the weights for subwordunits are combined to a single weight per word.</span>
+<span class="sd">        :param path_to_embeddings: Path where ELMo PubMed embeddings can be found.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span> <span class="o">=</span> <span class="n">oie_data_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span> <span class="o">=</span> <span class="n">csv_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">number_of_clusters</span> <span class="o">=</span> <span class="n">number_of_clusters</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORD_UNIT_COMBINATION</span> <span class="o">=</span> <span class="n">SUBWORD_UNIT_COMBINATION</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stemming</span> <span class="o">=</span> <span class="n">stemming</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stopwords</span> <span class="o">=</span> <span class="n">stopwords</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">IDF_path</span> <span class="o">=</span> <span class="n">IDF_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">=</span> <span class="n">IDF_path</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">subwordunit</span> <span class="o">=</span> <span class="n">SUBWORDUNIT</span>
+        <span class="k">if</span> <span class="n">SUBWORDUNIT</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">sp_size</span><span class="p">)</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_options_path</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_weights_path</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">path_to_embeddings</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">=</span> <span class="s2">&quot;SORE/data/filter_data/elmo_pubmed/&quot;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">check_for_embeddings</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="NarrowIEOpenIECombiner.check_for_embeddings"><a class="viewcode-back" href="../../SORE.html#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.check_for_embeddings">[docs]</a>    <span class="k">def</span> <span class="nf">check_for_embeddings</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Check if the ELMo (pubmed) embeddings are present. If not found, will download them for reuse.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">types</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;*.hdf5&#39;</span><span class="p">,</span> <span class="s1">&#39;*.json&#39;</span><span class="p">]</span>
+        <span class="n">embedding_files</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">file_type</span> <span class="ow">in</span> <span class="n">types</span><span class="p">:</span>
+            <span class="n">embedding_files</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="n">file_type</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="n">embedding_files</span> <span class="o">==</span> <span class="p">[]:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No embedding files found, beginning download of ELMo PubMed files.&#39;</span><span class="p">)</span>
+            <span class="n">w</span> <span class="o">=</span> <span class="s2">&quot;https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/contributed/pubmed/elmo_2x4096_512_2048cnn_2xhighway_weights_PubMed_only.hdf5&quot;</span>
+            <span class="n">o</span> <span class="o">=</span> <span class="s2">&quot;https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/contributed/pubmed/elmo_2x4096_512_2048cnn_2xhighway_options.json&quot;</span>
+            <span class="n">wget</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="s1">&#39;ELmo_PubMed_weights.hdf5&#39;</span><span class="p">)</span>
+            <span class="n">wget</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="s1">&#39;ELmo_PubMed_options.json&#39;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_weights_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="s1">&#39;ELmo_PubMed_weights.hdf5&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_options_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="s1">&#39;ELmo_PubMed_options.json&#39;</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span><span class="s1">&#39;ELmo_PubMed_weights.hdf5&#39;</span> <span class="ow">in</span> <span class="n">embedding_files</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_weights_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="s1">&#39;ELmo_PubMed_weights.hdf5&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_options_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span> <span class="o">+</span> <span class="s1">&#39;ELmo_PubMed_options.json&#39;</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Found ELMo PubMed embeddings&quot;</span><span class="p">)</span>
+            <span class="k">pass</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Assuming the ELMo PubMed embeddings are correctly set in </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path_to_embeddings</span><span class="p">))</span></div>
+            <span class="c1"># would have to add other types of embeddings</span>
+
+
+<div class="viewcode-block" id="NarrowIEOpenIECombiner.prepare_narrowIE_embeddings"><a class="viewcode-back" href="../../SORE.html#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.prepare_narrowIE_embeddings">[docs]</a>    <span class="k">def</span> <span class="nf">prepare_narrowIE_embeddings</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">sp_model_path</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Prepare all embeddings for the narrow IE arguments, store them as pickle files for reuse (name based on settings).</span>
+<span class="sd">        If these pickle files already exist, simply load the embeddings.</span>
+
+<span class="sd">        :param prefix: Experiment name</span>
+<span class="sd">        :param sp_model_path: Path to the pre-trained SentencePiece model.</span>
+<span class="sd">        :return: Phrases extracted through narrow IE, corresponding embeddings and the embedder obj for re-use</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">settings</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{pr}</span><span class="s2">_</span><span class="si">{sp}{w}</span><span class="s2">_</span><span class="si">{stem}</span><span class="s2">_</span><span class="si">{stop}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pr</span><span class="o">=</span><span class="n">prefix</span><span class="p">,</span>
+                                                       <span class="n">sp</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span><span class="p">,</span>
+                                                       <span class="n">w</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">SUBWORD_UNIT_COMBINATION</span><span class="p">),</span>
+                                                       <span class="n">stem</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">stemming</span><span class="p">),</span>
+                                                       <span class="n">stop</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">stopwords</span><span class="p">))</span>
+
+
+        <span class="n">embedder</span> <span class="o">=</span> <span class="n">fu</span><span class="o">.</span><span class="n">PrepareEmbeddings</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">sp_model_path</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">IDF_path</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_options_path</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_weights_path</span><span class="p">,</span>
+                                        <span class="n">SUBWORD_UNIT_COMBINATION</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">SUBWORD_UNIT_COMBINATION</span><span class="p">,</span>
+                                        <span class="n">subwordunits</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">subwordunit</span><span class="p">,</span>
+                                        <span class="n">stemming</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">stemming</span><span class="p">,</span>
+                                        <span class="n">stopwords</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">stopwords</span><span class="p">)</span>
+
+        <span class="c1"># Check if the embeddings have already been pre-computed sometime before; re-use if they exist</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">+</span> <span class="s2">&quot;vectors/nIE_phrases_</span><span class="si">{settings}</span><span class="s2">.pkl&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">settings</span><span class="o">=</span><span class="n">settings</span><span class="p">)):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">narrowIE_data</span> <span class="o">=</span> <span class="n">embedder</span><span class="o">.</span><span class="n">load_narrowIE_data</span><span class="p">()</span>
+                <span class="n">narrowIE_embeddings</span> <span class="o">=</span> <span class="n">embedder</span><span class="o">.</span><span class="n">embed_all_narrowIE_phrases</span><span class="p">(</span><span class="n">narrowIE_data</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Narrow IE arguments not properly embedded.&quot;</span><span class="p">)</span>
+                <span class="k">return</span>
+
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">+</span> <span class="s2">&quot;vectors/nIE_phrases_</span><span class="si">{settings}</span><span class="s2">.pkl&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">settings</span><span class="o">=</span><span class="n">settings</span><span class="p">),</span>
+                      <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">narrowIE_data</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">+</span> <span class="s2">&quot;vectors/nIE_emb_</span><span class="si">{settings}</span><span class="s2">.pkl&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">settings</span><span class="o">=</span><span class="n">settings</span><span class="p">),</span>
+                      <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">narrowIE_embeddings</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">+</span> <span class="s2">&quot;vectors/nIE_phrases_</span><span class="si">{settings}</span><span class="s2">.pkl&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">settings</span><span class="o">=</span><span class="n">settings</span><span class="p">),</span>
+                      <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">narrowIE_data</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">+</span> <span class="s2">&quot;vectors/nIE_emb_</span><span class="si">{settings}</span><span class="s2">.pkl&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">settings</span><span class="o">=</span><span class="n">settings</span><span class="p">),</span>
+                      <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">narrowIE_embeddings</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">narrowIE_data</span><span class="p">,</span> <span class="n">narrowIE_embeddings</span><span class="p">,</span> <span class="n">embedder</span></div>
+
+
+<div class="viewcode-block" id="NarrowIEOpenIECombiner.get_docid_from_filename"><a class="viewcode-back" href="../../SORE.html#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.get_docid_from_filename">[docs]</a>    <span class="k">def</span> <span class="nf">get_docid_from_filename</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">output_name</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Simple returns the filename from a path.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">output_name</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span><span class="o">+</span><span class="s1">&#39;processed/&#39;</span><span class="o">+</span><span class="n">filename</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span><span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39;_processed.txt&#39;</span>
+        <span class="k">return</span> <span class="n">filename</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span><span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="NarrowIEOpenIECombiner.OIE_files_to_filter"><a class="viewcode-back" href="../../SORE.html#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.OIE_files_to_filter">[docs]</a>    <span class="k">def</span> <span class="nf">OIE_files_to_filter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Tries to ensure that only the &#39;processed OIE files&#39; are selected for which narrow IE extractions are found.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">input_files</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span> <span class="o">+</span> <span class="s1">&#39;*.txt&#39;</span><span class="p">)</span>
+        <span class="n">doc_ids_for_filtering</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">csv_f</span><span class="p">:</span>
+            <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictReader</span><span class="p">(</span><span class="n">csv_f</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
+                <span class="n">doc_ids_for_filtering</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;doc_id&#39;</span><span class="p">])</span>
+
+        <span class="n">doc_ids_for_filtering</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">doc_ids_for_filtering</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">input_files</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_docid_from_filename</span><span class="p">(</span><span class="n">f</span><span class="p">)</span> <span class="ow">in</span> <span class="n">doc_ids_for_filtering</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="NarrowIEOpenIECombiner.run"><a class="viewcode-back" href="../../SORE.html#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">filter_settings</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">,</span>
+            <span class="n">print_stats</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">print_clusters</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">plot</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">cluster_names</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Script to run the filtering process.</span>
+
+<span class="sd">        :param prefix: Name of the experiment.</span>
+<span class="sd">        :param filter_settings: A dict with filter settings, retrieved from the settings file (e.g. SORE/SORE_settings.json).</span>
+<span class="sd">        :param output_dir: Directory to store filtered and unfiltered extractions as json files.</span>
+<span class="sd">        :param print_stats: Boolean - determines whether you&#39;d like to print the filtering statistics</span>
+<span class="sd">        :param print_clusters: Boolean - determines whether you&#39;d like to print the clusters to get some insight</span>
+<span class="sd">        :param plot: Boolean - determines whether you&#39;d like to plot the clusters (by default not being used)</span>
+<span class="sd">        :param cluster_names: A list of names for the clusters, to provide the plot with labels.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">sp_model_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">_</span><span class="si">{}</span><span class="s2">.model&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span><span class="p">)</span>
+
+        <span class="n">narrowIE_phrases</span><span class="p">,</span> <span class="n">narrowIE_embeddings</span><span class="p">,</span> <span class="n">embedder</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepare_narrowIE_embeddings</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">sp_model_path</span><span class="p">)</span>
+
+        <span class="n">clusterer</span> <span class="o">=</span> <span class="n">fu</span><span class="o">.</span><span class="n">ClusterTradeOffs</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filter_data_path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">number_of_clusters</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">stemming</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">stopwords</span><span class="p">)</span>
+        <span class="n">km_model</span> <span class="o">=</span> <span class="n">clusterer</span><span class="o">.</span><span class="n">get_Kmeans_model</span><span class="p">(</span><span class="n">narrowIE_phrases</span><span class="p">,</span> <span class="n">narrowIE_embeddings</span><span class="p">)</span>
+
+        <span class="c1">## To gain some insight into the created clusters:</span>
+        <span class="k">if</span> <span class="n">print_clusters</span><span class="p">:</span>
+            <span class="n">clusters</span><span class="p">,</span> <span class="n">results</span> <span class="o">=</span> <span class="n">clusterer</span><span class="o">.</span><span class="n">cluster</span><span class="p">(</span><span class="n">km_model</span><span class="p">,</span> <span class="n">narrowIE_phrases</span><span class="p">,</span> <span class="n">narrowIE_embeddings</span><span class="p">)</span>
+            <span class="n">clusterer</span><span class="o">.</span><span class="n">cluster_insight</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+
+        <span class="c1"># need to pass the model to filter</span>
+        <span class="n">filterer</span> <span class="o">=</span> <span class="n">fu</span><span class="o">.</span><span class="n">SoreFilter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">IDF_path</span><span class="p">,</span>
+                                 <span class="bp">self</span><span class="o">.</span><span class="n">subwordunit</span><span class="p">,</span> <span class="n">sp_model_path</span><span class="p">,</span>
+                                 <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_weights_path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ELMo_options_path</span><span class="p">,</span> <span class="n">filter_settings</span><span class="p">)</span>
+
+        <span class="n">filterer</span><span class="o">.</span><span class="n">start_filtering</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">number_of_clusters</span><span class="p">,</span> <span class="n">narrowIE_phrases</span><span class="p">,</span> <span class="n">narrowIE_embeddings</span><span class="p">,</span>
+                                 <span class="n">embedder</span><span class="p">,</span> <span class="n">km_model</span><span class="p">,</span> <span class="n">print_stats</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">plot</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">cluster_names</span><span class="p">:</span>
+                <span class="c1"># You can manually label the clusters if you like</span>
+                <span class="n">category_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">cluster_names</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">category_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">number_of_clusters</span><span class="p">)]</span>
+
+            <span class="n">digits_proj</span> <span class="o">=</span> <span class="n">TSNE</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">randomstate</span><span class="p">)</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">clusters</span><span class="p">)</span>
+            <span class="n">clusterer</span><span class="o">.</span><span class="n">palplot</span><span class="p">(</span><span class="n">digits_proj</span><span class="p">,</span> <span class="n">km_model</span><span class="p">,</span> <span class="n">category_list</span><span class="p">)</span></div></div>
+
+
+
+
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

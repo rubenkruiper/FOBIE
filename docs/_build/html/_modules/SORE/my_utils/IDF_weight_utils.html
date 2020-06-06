@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SORE.my_utils.IDF_weight_utils &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../readme.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../SORE_documentation.html">SORE Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>SORE.my_utils.IDF_weight_utils</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for SORE.my_utils.IDF_weight_utils</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">json</span><span class="o">,</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">SORE.my_utils.spacyNLP</span> <span class="kn">import</span> <span class="n">spacy_nlp</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+<span class="kn">from</span> <span class="nn">textblob</span> <span class="kn">import</span> <span class="n">TextBlob</span>
+<span class="kn">import</span> <span class="nn">sentencepiece</span> <span class="k">as</span> <span class="nn">spm</span>
+
+
+<div class="viewcode-block" id="PrepIDFWeights"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights">[docs]</a><span class="k">class</span> <span class="nc">PrepIDFWeights</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encapsulates the setting for preparing IDF weights.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">prefix</span><span class="p">,</span>
+                 <span class="n">input_file_dir</span><span class="p">,</span>
+                 <span class="n">output_dir</span><span class="p">,</span>
+                 <span class="n">SUBWORDUNIT</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">STEMMING</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">STOPWORDS</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialise with desired settings.</span>
+
+<span class="sd">        :param prefix: Experiment name.</span>
+<span class="sd">        :param input_file_dir: Directory with files to compute the IDF weights (and SentenciePiece model) for.</span>
+<span class="sd">        :param output_dir: Directory to store the computed IDF weights (and SentenciePiece model).</span>
+<span class="sd">        :param SUBWORDUNIT: Boolean that determines whether to apply subword unit splitting</span>
+<span class="sd">        :param STEMMING: Boolean that determines whether to apply stemming</span>
+<span class="sd">        :param STOPWORDS: Boolean that determines whether to remove stopwords</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">output_dir</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Select a folder as output directory, make sure to end the string with &#39;/&#39;&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">=</span> <span class="n">prefix</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">=</span> <span class="n">output_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">input_file_dir</span> <span class="o">=</span> <span class="n">input_file_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span> <span class="o">=</span> <span class="n">STEMMING</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span> <span class="o">=</span> <span class="n">STOPWORDS</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORDUNIT</span> <span class="o">=</span> <span class="n">SUBWORDUNIT</span>
+
+        <span class="k">if</span> <span class="n">SUBWORDUNIT</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Note: stemming/stopword-removal does not affect IDF values for subword units. &quot;</span>
+                      <span class="s2">&quot;This hasn&#39;t been implemented, as it seems counter-productive w.r.t. the IDF values.&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sp</span> <span class="o">=</span> <span class="n">spm</span><span class="o">.</span><span class="n">SentencePieceProcessor</span><span class="p">()</span>
+            <span class="c1"># Initialise the sp_size parameter</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span> <span class="o">=</span> <span class="mi">10</span>
+
+
+<div class="viewcode-block" id="PrepIDFWeights.new_sentencepiece_vocab"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.new_sentencepiece_vocab">[docs]</a>    <span class="k">def</span> <span class="nf">new_sentencepiece_vocab</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sp_storage_dir</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Train a new SentencePiece model and vocabulary.</span>
+
+<span class="sd">        :param sp_storage_dir: Directory to store the SentencePiece model and vocabulary, set in :class:`~FilterPrep`.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">input_files</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">input_file_dir</span> <span class="o">+</span> <span class="s1">&#39;*.txt&#39;</span><span class="p">)</span>
+        <span class="n">current_pwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span><span class="o">+</span><span class="s1">&#39;/&#39;</span>
+        <span class="n">input_paths</span> <span class="o">=</span> <span class="p">[</span><span class="n">current_pwd</span> <span class="o">+</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">input_files</span><span class="p">]</span>
+
+        <span class="n">model_prefix</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span><span class="p">)</span>
+
+        <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">sp_storage_dir</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">spm</span><span class="o">.</span><span class="n">SentencePieceTrainer</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="nb">input</span><span class="o">=</span><span class="n">input_paths</span><span class="p">,</span>
+                                       <span class="n">model_prefix</span><span class="o">=</span><span class="n">model_prefix</span><span class="p">,</span>
+                                       <span class="n">vocab_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">RuntimeError</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The vocab size of your input documents is likely smaller that sp_size.&#39;</span><span class="p">)</span>
+            <span class="k">raise</span>
+
+        <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">current_pwd</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="PrepIDFWeights.txt_files_to_corpus"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.txt_files_to_corpus">[docs]</a>    <span class="k">def</span> <span class="nf">txt_files_to_corpus</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_file</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Prepare an input txt file to a list of sentences (following the settings of using subwordunits, stemming, stopwords),</span>
+<span class="sd">        so it can be added to a single corpus to compute the IDF weights.</span>
+
+<span class="sd">        :param input_file: .txt file to process</span>
+<span class="sd">        :return: list of processed sentences</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span><span class="p">:</span>
+            <span class="n">list_of_stopwords</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;SORE/my_utils/nltk_stopwords.txt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+                    <span class="n">list_of_stopwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">all_sentences</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+        <span class="n">processed_list_of_sentences</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">all_sentences</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORDUNIT</span><span class="p">:</span>
+                <span class="c1"># SentencePiece, indexing subwordunits does not require stemming or stopword removal</span>
+                <span class="n">sentence</span> <span class="o">=</span> <span class="n">sent</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;ascii&#39;</span><span class="p">,</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+                <span class="n">processed_list_of_sentences</span> <span class="o">+=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">vocab_idx</span><span class="p">)</span> <span class="k">for</span> <span class="n">vocab_idx</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">sp</span><span class="o">.</span><span class="n">EncodeAsIds</span><span class="p">(</span><span class="n">sentence</span><span class="p">)]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">spacy_sent</span> <span class="o">=</span> <span class="n">sent</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span><span class="p">:</span>
+                    <span class="n">spacy_sent</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">text</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">spacy_nlp</span><span class="p">(</span><span class="n">sent</span><span class="p">)]</span>
+                    <span class="n">spacy_sent</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">spacy_sent</span> <span class="k">if</span> <span class="n">w</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">list_of_stopwords</span><span class="p">]</span>
+                <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span><span class="p">:</span>
+                    <span class="n">spacy_sent</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">text</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">spacy_nlp</span><span class="p">(</span><span class="n">sent</span><span class="p">)]</span>
+                    <span class="n">stemmed_sent</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">spacy_sent</span><span class="p">:</span>
+                        <span class="n">stem</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">stem</span><span class="p">()</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">TextBlob</span><span class="p">(</span><span class="n">w</span><span class="p">)</span><span class="o">.</span><span class="n">words</span><span class="p">)</span>
+                        <span class="n">stemmed_sent</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stem</span><span class="p">)</span>
+                    <span class="n">spacy_sent</span> <span class="o">=</span> <span class="n">stemmed_sent</span>
+                <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span><span class="p">:</span>
+                    <span class="n">spacy_sent</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">text</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">spacy_nlp</span><span class="p">(</span><span class="n">sent</span><span class="p">)]</span>
+                    <span class="n">stemmed_sent</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">spacy_sent</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">w</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">list_of_stopwords</span><span class="p">:</span>
+                            <span class="n">stem</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">stem</span><span class="p">()</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">TextBlob</span><span class="p">(</span><span class="n">w</span><span class="p">)</span><span class="o">.</span><span class="n">words</span><span class="p">)</span>
+                            <span class="n">stemmed_sent</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stem</span><span class="p">)</span>
+                    <span class="n">spacy_sent</span> <span class="o">=</span> <span class="n">stemmed_sent</span>
+
+                <span class="n">spacy_sent</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">processed_list_of_sentences</span> <span class="o">+=</span> <span class="n">spacy_sent</span>
+
+        <span class="k">return</span> <span class="n">processed_list_of_sentences</span></div>
+
+
+<div class="viewcode-block" id="PrepIDFWeights.determine_output_name"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.determine_output_name">[docs]</a>    <span class="k">def</span> <span class="nf">determine_output_name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Determines the output name for the IDF weight file, so it can be reused with the same settings.</span>
+
+<span class="sd">        :return: path to the IDF weight file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORDUNIT</span><span class="p">:</span>
+            <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF.json&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span><span class="p">:</span>
+                <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF_stemmed_no_stopwords.json&quot;</span>
+            <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">STEMMING</span><span class="p">:</span>
+                <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span>  <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF_stemmed.json&quot;</span>
+            <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">STOPWORDS</span><span class="p">:</span>
+                <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span>  <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF_no_stopwords.json&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span>  <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF.json&quot;</span>
+
+        <span class="k">return</span> <span class="n">output_name</span></div>
+
+
+<div class="viewcode-block" id="PrepIDFWeights.dummy_tokenizer"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.dummy_tokenizer">[docs]</a>    <span class="k">def</span> <span class="nf">dummy_tokenizer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">doc</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">doc</span></div>
+
+
+<div class="viewcode-block" id="PrepIDFWeights.get_idf"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.get_idf">[docs]</a>    <span class="k">def</span> <span class="nf">get_idf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">corpus</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Compute IDF values for a single corpus (list of sentences from selection of files).</span>
+
+<span class="sd">        :param corpus: A single corpus (list of sentences)</span>
+<span class="sd">        :return: Dict with IDF weights for all tokens found in the corpus</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">vectorizer</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span>
+            <span class="n">strip_accents</span><span class="o">=</span><span class="s1">&#39;unicode&#39;</span><span class="p">,</span>
+            <span class="n">use_idf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">norm</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+            <span class="n">smooth_idf</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">sublinear_tf</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">binary</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="c1"># min_df=1, max_df=1.0, max_features=None, ngram_range=(1, 1),</span>
+            <span class="n">stop_words</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+            <span class="n">analyzer</span><span class="o">=</span><span class="s1">&#39;word&#39;</span><span class="p">,</span>
+            <span class="n">tokenizer</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">dummy_tokenizer</span><span class="p">,</span>
+            <span class="n">lowercase</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">preprocessor</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">dummy_tokenizer</span><span class="p">,</span> <span class="n">vocabulary</span><span class="o">=</span><span class="kc">None</span>
+        <span class="p">)</span>
+
+        <span class="n">vectorizer</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">corpus</span><span class="p">)</span>
+        <span class="n">idf_Y</span> <span class="o">=</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">idf_</span>
+        <span class="n">test_Y</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">get_feature_names</span><span class="p">()],</span> <span class="n">idf_Y</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="n">test_Y</span></div>
+
+
+<div class="viewcode-block" id="PrepIDFWeights.compute_IDF_weights"><a class="viewcode-back" href="../../../SORE.my_utils.html#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.compute_IDF_weights">[docs]</a>    <span class="k">def</span> <span class="nf">compute_IDF_weights</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_file_prefixes</span><span class="p">,</span> <span class="n">sp_size</span><span class="p">,</span> <span class="n">sp_storage_dir</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Overarching function to compute or load the IDF weights, as well as train or load a SentencePiece model - based</span>
+<span class="sd">        on the settings provided to :class:`~SORE.my_utils.PrepIDFWeights`</span>
+
+<span class="sd">        :param input_file_prefixes: Select files to compute IDF weights for based on a possible prefixes, e.g., only compute IDF weights over files that are derived from the OA-STM corpus.</span>
+<span class="sd">        :param sp_size: Size of the SentencePiece vocab, recommended 8k (input would be an int 8000), 16k or 32k, but this depends on the size of your dataset.</span>
+<span class="sd">        :param sp_storage_dir: Directory to store sp model, I believe this is redundant - self.output_dir could be used.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORDUNIT</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span> <span class="o">=</span> <span class="n">sp_size</span>
+            <span class="n">sp_model_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">_</span><span class="si">{}</span><span class="s2">.model&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">prefix</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sp_size</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">sp_model_name</span><span class="p">):</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loading existing sentencepiece model and vocab.&quot;</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">sp</span><span class="o">.</span><span class="n">Load</span><span class="p">(</span><span class="n">sp_model_name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Making new sentencepiece model and vocab from input files.&quot;</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">new_sentencepiece_vocab</span><span class="p">(</span><span class="n">sp_storage_dir</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">sp</span><span class="o">.</span><span class="n">Load</span><span class="p">(</span><span class="n">sp_model_name</span><span class="p">)</span>
+
+        <span class="n">corpus_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">input_files</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">for</span> <span class="n">input_file_name_prefix</span> <span class="ow">in</span> <span class="n">input_file_prefixes</span><span class="p">:</span>
+            <span class="n">input_files</span> <span class="o">+=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">input_file_dir</span> <span class="o">+</span> <span class="n">input_file_name_prefix</span> <span class="o">+</span> <span class="s1">&#39;*.txt&#39;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">input_files</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">input_files</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">input_file</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">input_files</span><span class="p">):</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Combining sentences into a single corpus for IDF (</span><span class="si">{}</span><span class="s1">/</span><span class="si">{}</span><span class="s1">); </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">idx</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">total</span><span class="p">,</span> <span class="n">input_file</span><span class="p">))</span>
+                <span class="n">corpus_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">txt_files_to_corpus</span><span class="p">(</span><span class="n">input_file</span><span class="p">))</span>
+
+        <span class="n">IDF</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_idf</span><span class="p">(</span><span class="n">corpus_list</span><span class="p">)</span>
+
+        <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">determine_output_name</span><span class="p">()</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_name</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">IDF</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+
+        <span class="c1"># print some tokens and IDF values</span>
+        <span class="n">value_types</span> <span class="o">=</span> <span class="s1">&#39;words&#39;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORDUNIT</span><span class="p">:</span>
+            <span class="n">value_types</span> <span class="o">=</span> <span class="s1">&#39;subword units&#39;</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Printing some IDF values, should be </span><span class="si">{}</span><span class="s2">!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">value_types</span><span class="p">))</span>
+        <span class="n">sanity_check</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">IDF</span><span class="o">.</span><span class="n">keys</span><span class="p">()]</span>
+        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">sanity_check</span><span class="p">[:</span><span class="mi">10</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">SUBWORDUNIT</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">sp</span><span class="o">.</span><span class="n">DecodeIds</span><span class="p">([</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)]))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span></div></div>
+
+
+
+
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

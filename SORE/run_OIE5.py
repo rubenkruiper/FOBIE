@@ -4,7 +4,17 @@ from tqdm import tqdm
 
 
 class OpenIE5_client(object):
+    """
+    Encapsulates functionality to query the Open IE 5 standalone server.
+    """
     def __init__(self, csv_path, oie_data_dir, path_to_OIE_jar):
+        """
+        Initialise with relevant paths.
+
+        :param csv_path: The narrow IE predictions CSV file holds the document identifiers relevant for SORE filtering, rather running OpenIE5 on all documents.
+        :param oie_data_dir: The path to all OpenIE5 input .txt files.
+        :param path_to_OIE_jar: The path to the OpenIE 5 standalone jar file.
+        """
         self.csv_path = csv_path
         self.oie_data_dir = oie_data_dir
         self.path_to_OIE_jar = path_to_OIE_jar
@@ -79,6 +89,7 @@ class OpenIE5_client(object):
                 lines_to_write.append(line_to_write)
 
         return lines_to_write
+
 
     def get_extractions(self):
         os.chdir(self.current_pwd)
