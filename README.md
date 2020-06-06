@@ -3,7 +3,8 @@ Semi-Open Relation Extraction
 
 Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntactically similar relations from scientific biological texts.
 
-Instructions for using the Semi-Open Relation Extraction (SORE) code be found inside the SORE folder Readme.md
+Instructions for using the Semi-Open Relation Extraction (SORE) code be found inside the SORE folder Readme.md, or 
+in [the ReadTheDocs documentations](https://sore-documentation.readthedocs.io/en/latest/).
 
 ### Format
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:
