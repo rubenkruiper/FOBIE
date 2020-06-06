@@ -1,0 +1,517 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>run_SORE &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SORE_documentation.html">SORE Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Module code</a> &raquo;</li>
+        
+      <li>run_SORE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for run_SORE</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">json</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">SORE</span> <span class="kn">import</span> <span class="n">prepare_data</span><span class="p">,</span> <span class="n">run_OIE5</span><span class="p">,</span> <span class="n">parse_narrowIE_output</span><span class="p">,</span> <span class="n">filterOIE_with_narrowIE</span><span class="p">,</span> <span class="n">SORE_to_BRAT</span>
+<span class="kn">from</span> <span class="nn">SORE.my_utils</span> <span class="kn">import</span> <span class="n">IDF_weight_utils</span>
+
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Make sure to have the correct dependencies installed `pip install requirements.txt`.</span>
+<span class="sd">To run this code for Semi-Open Relation Extraction from the command line:</span>
+<span class="sd">  * Use default settings file: python run_SORE.py</span>
+<span class="sd">  * python run_SORE.py -s &quot;path_to_my_settings_file.json&quot;</span>
+<span class="sd">  * python run_SORE.py --settings &quot;path_to_my_settings_file.json&quot;</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;SORE settings file - example in `SORE/SORE_settings.json`&#39;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-s&quot;</span><span class="p">,</span> <span class="s2">&quot;--settings&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&quot;SORE/SORE_settings.json&quot;</span><span class="p">,</span>
+                    <span class="n">help</span><span class="o">=</span><span class="s1">&#39;path to the your settings json.file&#39;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="DataPreparation"><a class="viewcode-back" href="../SORE_main.html#run_SORE.DataPreparation">[docs]</a><span class="k">class</span> <span class="nc">DataPreparation</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encapsulates the path to the input dataset, as well as paths to write files that can be processed</span>
+<span class="sd">    by narrow IE and Open IE systems.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">unprocessed_data_path</span><span class="o">=</span><span class="s2">&quot;SORE/data/unprocessed_data/&quot;</span><span class="p">,</span>
+                 <span class="n">output_folder_narrowIE</span><span class="o">=</span><span class="s1">&#39;SORE/data/narrowIE/input/&#39;</span><span class="p">,</span>
+                 <span class="n">output_folder_OIE</span><span class="o">=</span><span class="s1">&#39;SORE/data/OpenIE/inputs/&#39;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Construct DataPreparation object. There are no checks in place to see whether the provided paths exist.</span>
+
+<span class="sd">        :param unprocessed_data_path: The path to the unprocessed input dataset (for an example of the format used</span>
+<span class="sd">        check out the provided OA-STM dataset).</span>
+<span class="sd">        :param output_folder_narrowIE: The path to write files that can be used as narrow IE input (SciIE input format).</span>
+<span class="sd">        :param output_folder_OIE: The path to write  files that can be used as Open IE input (OpenIE 5 input format)/</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">unprocessed_data_path</span> <span class="o">=</span> <span class="n">unprocessed_data_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output_folder_narrowIE</span> <span class="o">=</span> <span class="n">output_folder_narrowIE</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output_folder_OIE</span> <span class="o">=</span> <span class="n">output_folder_OIE</span>
+
+<div class="viewcode-block" id="DataPreparation.start"><a class="viewcode-back" href="../SORE_main.html#run_SORE.DataPreparation.start">[docs]</a>    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">max_num_docs_narrowIE</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Start preparing the data for narrow and open IE, includes a simple pre-processing step in</span>
+<span class="sd">        :func:`~SORE.my_utils.clean_content`.</span>
+
+<span class="sd">        :param max_num_docs_narrowIE: Maximum nr of documents to process at once with SciIE. This influences the time to pre-compute the ELMo embeddings for a large dataset (You should consider using a different model!).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">input_files</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">unprocessed_data_path</span> <span class="o">+</span><span class="s1">&#39;*.json&#39;</span><span class="p">)</span>
+        <span class="n">prepare_data</span><span class="o">.</span><span class="n">convert_documents</span><span class="p">(</span><span class="n">max_num_docs_narrowIE</span><span class="p">,</span> <span class="n">input_files</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_folder_OIE</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_folder_narrowIE</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="NarrowIEParser"><a class="viewcode-back" href="../SORE_main.html#run_SORE.NarrowIEParser">[docs]</a><span class="k">class</span> <span class="nc">NarrowIEParser</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encapsulates the path and settings for the use of narrow IE predictions.</span>
+<span class="sd">    The RELATIONS_TO_STORE parameter determines which narrow IE extractions you use for clustering.</span>
+<span class="sd">      * ALL - Use all narrow IE arguments and relations found in all documents.</span>
+<span class="sd">      * TRADEOFFS - Use all narrow IE arguments and relations found in documents where a TradeOff relation was found.</span>
+<span class="sd">      * TRADEOFFS_AND_ARGMODS - Use only the TradeOff relations and their modifiers (in documents where a TradeOff relation was found).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">narrowIE_data_dir</span><span class="o">=</span><span class="s2">&quot;SORE/data/narrowIE/input/&quot;</span><span class="p">,</span>
+                 <span class="n">narrowIE_predictions_dir</span> <span class="o">=</span> <span class="s2">&quot;SORE/data/narrowIE/predictions/&quot;</span><span class="p">,</span>
+                 <span class="n">RELATIONS_TO_STORE</span> <span class="o">=</span> <span class="s2">&quot;TRADEOFFS_AND_ARGMODS&quot;</span><span class="p">,</span>
+                 <span class="n">output_csv_path</span> <span class="o">=</span> <span class="s2">&quot;SORE/data/narrowIE/&quot;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Construct NarrowIEParser object. There are no checks in place to see whether the provided paths exist.</span>
+
+<span class="sd">        :param narrowIE_data_dir: The path to where narrow IE input files were written by :class:`DataPreparation`.</span>
+<span class="sd">        :param narrowIE_predictions_dir: The path to a directory where predictions can be found, corresponding to the input files.</span>
+<span class="sd">        :param RELATIONS_TO_STORE: Which relations you&#39;d like to use during clustering and filtering.</span>
+<span class="sd">        :param output_csv_path: Path to store a single CSV file that store the narrow IE predictions for clustering and filtering.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">narrowIE_data</span> <span class="o">=</span> <span class="n">narrowIE_data_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">narrowIE_predictions</span> <span class="o">=</span> <span class="n">narrowIE_predictions_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">relations_to_store</span> <span class="o">=</span> <span class="n">RELATIONS_TO_STORE</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output_csv_path</span> <span class="o">=</span> <span class="n">output_csv_path</span>
+
+
+<div class="viewcode-block" id="NarrowIEParser.start"><a class="viewcode-back" href="../SORE_main.html#run_SORE.NarrowIEParser.start">[docs]</a>    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_filename</span><span class="p">,</span> <span class="n">predictions_filename</span><span class="p">,</span> <span class="n">output_csv</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Iterates over the files prepared by :class:`DataPreparation`, which is capped to a maximum number of input files.</span>
+<span class="sd">        Convert the predictions outputted by the SciIE model to a csv format for clustering. Predictions have the format:</span>
+
+<span class="sd">        {&quot;doc_key&quot;: &quot;XXX&quot;,</span>
+<span class="sd">        &quot;ner&quot;: [[[8, 8, &quot;Generic&quot;], [10, 10, &quot;Generic&quot;], [12, 14, &quot;Generic&quot;]]],</span>
+<span class="sd">        &quot;relation&quot;: [[[8, 8, 10, 10, &quot;Not_a_TradeOff&quot;], [8, 8, 12, 14, &quot;Not_a_TradeOff&quot;]]]}</span>
+
+<span class="sd">        :param input_filename: Single file with narrow IE input, to retrieve the sentence string.</span>
+<span class="sd">        :param predictions_filename: Single file with narrow IE predictions.</span>
+<span class="sd">        :param output_csv: CSV_file to temporarily store the relations found in predictions_filename</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">parse_narrowIE_output</span><span class="o">.</span><span class="n">start_parsing</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">narrowIE_data</span> <span class="o">+</span> <span class="n">input_filename</span><span class="p">,</span>
+                                            <span class="bp">self</span><span class="o">.</span><span class="n">narrowIE_predictions</span> <span class="o">+</span> <span class="n">predictions_filename</span><span class="p">,</span>
+                                            <span class="n">output_csv</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">relations_to_store</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="FilterPrep"><a class="viewcode-back" href="../SORE_main.html#run_SORE.FilterPrep">[docs]</a><span class="k">class</span> <span class="nc">FilterPrep</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encapsulates paths to all OpenIE paths. Note that all .txt files prepared for Open IE will be used when training</span>
+<span class="sd">    a SentencePiece model.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">input_file_dir</span><span class="o">=</span><span class="s1">&#39;SORE/data/OpenIE/inputs/&#39;</span><span class="p">,</span>
+                 <span class="n">output_dir</span><span class="o">=</span><span class="s2">&quot;SORE/data/filter_data/&quot;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialise FilterPrep with a directory to store the subword model and IDF weights for re-use.</span>
+
+<span class="sd">        :param input_file_dir: Directory with .txt files to process. Expecting one sentence a line, for OpenIE, for</span>
+<span class="sd">        SentencePiece (currently runs on ALL input .txt files) and for the creations of a single, large IDF corpus</span>
+<span class="sd">        (takes into account prefixes that can be provided in the settings file).</span>
+<span class="sd">        :param output_dir: Directory to store IDF weights and SentencePiece model &amp; vocab</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">input_file_dir</span> <span class="o">=</span> <span class="n">input_file_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">=</span> <span class="n">output_dir</span>
+
+<div class="viewcode-block" id="FilterPrep.determine_output_name"><a class="viewcode-back" href="../SORE_main.html#run_SORE.FilterPrep.determine_output_name">[docs]</a>    <span class="k">def</span> <span class="nf">determine_output_name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                              <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span>
+                              <span class="n">SUBWORDUNIT</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                              <span class="n">STEMMING</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                              <span class="n">STOPWORDS</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Determines the output name for the IDF weights and SentencePiece model &amp; vocab. In order to be re-used.</span>
+
+<span class="sd">        :param prefix: Experiment name.</span>
+<span class="sd">        :param SUBWORDUNIT: Boolean that determines whether to apply subword unit splitting</span>
+<span class="sd">        :param STEMMING: Boolean that determines whether to apply stemming</span>
+<span class="sd">        :param STOPWORDS: Boolean that determines whether to remove stopwords</span>
+<span class="sd">        :return:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">SUBWORDUNIT</span><span class="p">:</span>
+            <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">+</span> <span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF.json&quot;</span>
+        <span class="k">elif</span> <span class="n">STEMMING</span> <span class="ow">and</span> <span class="n">STOPWORDS</span><span class="p">:</span>
+            <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span> <span class="o">+</span> <span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF_stemmed_no_stopwords.json&quot;</span>
+        <span class="k">elif</span> <span class="n">STEMMING</span><span class="p">:</span>
+            <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span>  <span class="o">+</span> <span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF_stemmed.json&quot;</span>
+        <span class="k">elif</span> <span class="n">STOPWORDS</span><span class="p">:</span>
+            <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span>  <span class="o">+</span> <span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF_no_stopwords.json&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">output_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span>  <span class="o">+</span> <span class="n">prefix</span> <span class="o">+</span> <span class="s2">&quot;IDF.json&quot;</span>
+
+        <span class="k">return</span> <span class="n">output_name</span></div>
+
+
+<div class="viewcode-block" id="FilterPrep.start"><a class="viewcode-back" href="../SORE_main.html#run_SORE.FilterPrep.start">[docs]</a>    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+              <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span>
+              <span class="n">file_names</span><span class="o">=</span><span class="s2">&quot;OA-STM&quot;</span><span class="p">,</span>
+              <span class="n">sp_size</span><span class="o">=</span><span class="s2">&quot;8k&quot;</span><span class="p">,</span>
+              <span class="n">SUBWORDUNIT</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+              <span class="n">STEMMING</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+              <span class="n">STOPWORDS</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Start preparing the IDF weights (and possible the Sentencie vocab and model).</span>
+
+<span class="sd">        :param prefix: Experiment name.</span>
+<span class="sd">        :param file_names: Prefix for files to compute the IDF weights for.</span>
+<span class="sd">        :param sp_size: string that determines the name of the sentencepiece vocabulary</span>
+<span class="sd">        :param SUBWORDUNIT: Boolean that determines whether to apply subword unit splitting</span>
+<span class="sd">        :param STEMMING: Boolean that determines whether to apply stemming</span>
+<span class="sd">        :param STOPWORDS: Boolean that determines whether to remove stopwords</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_file_dir</span> <span class="o">==</span> <span class="s1">&#39;SORE/data/OpenIE/inputs/&#39;</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Compute IDF weights (and subword model) for all documents in the folder `SORE/data/OpenIE/inputs/`&quot;</span><span class="p">,</span>
+                  <span class="s2">&quot; that starts with either </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">file_names</span><span class="p">)))</span>
+            <span class="n">answer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Continue? (y, n): &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span>
+                <span class="k">pass</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">return</span>
+
+        <span class="n">IDF_computer</span> <span class="o">=</span> <span class="n">IDF_weight_utils</span><span class="o">.</span><span class="n">PrepIDFWeights</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_file_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">,</span>
+                                                                        <span class="n">SUBWORDUNIT</span><span class="p">,</span> <span class="n">STEMMING</span><span class="p">,</span> <span class="n">STOPWORDS</span><span class="p">)</span>
+        <span class="n">IDF_computer</span><span class="o">.</span><span class="n">compute_IDF_weights</span><span class="p">(</span><span class="n">file_names</span><span class="p">,</span> <span class="n">sp_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dir</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="SORE_filter"><a class="viewcode-back" href="../SORE_main.html#run_SORE.SORE_filter">[docs]</a><span class="k">class</span> <span class="nc">SORE_filter</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">     Encapsulates paths to all processed Open IE files and the processed narrow IE CSV file.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csv_path</span><span class="o">=</span><span class="s2">&quot;data/narrowIE/tradeoffs_and_argmods.csv&quot;</span><span class="p">,</span>
+                 <span class="n">sore_output_dir</span><span class="o">=</span><span class="s2">&quot;SORE/data/processed_data/&quot;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">        :param csv_path:</span>
+<span class="sd">        :param sore_output_dir:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span> <span class="o">=</span> <span class="n">csv_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sore_output_dir</span> <span class="o">=</span> <span class="n">sore_output_dir</span>
+
+<div class="viewcode-block" id="SORE_filter.start"><a class="viewcode-back" href="../SORE_main.html#run_SORE.SORE_filter.start">[docs]</a>    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">filter_settings</span><span class="p">,</span> <span class="n">IDF_weights_path</span><span class="p">,</span> <span class="n">SUBWORDUNIT</span><span class="p">,</span>
+                 <span class="n">oie_data_dir</span><span class="o">=</span><span class="s1">&#39;SORE/data/OpenIE/processed/&#39;</span><span class="p">,</span>
+                 <span class="n">sp_size</span><span class="o">=</span><span class="mi">16000</span><span class="p">,</span>
+                 <span class="n">number_of_clusters</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span>
+                 <span class="n">stemming</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">stopwords</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">SUBWORD_UNIT_COMBINATION</span><span class="o">=</span><span class="s2">&quot;avg&quot;</span><span class="p">,</span>
+                 <span class="n">print_stats</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">path_to_embeddings</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Starts the SORE filtering process, this includes embedding all narrow IE arguments for clustering, as well as</span>
+<span class="sd">         embedding all Open IE arguments to cluster with the same model, enabling cluster- and phrase-similarity checking.</span>
+
+<span class="sd">        :param prefix: A name to identify the created files that store IDFweights, sentencepiece model and vocab, etc.</span>
+<span class="sd">        :param filter_settings: A dict with filter settings, retrieved from the settings file (e.g. SORE/SORE_settings.json).</span>
+<span class="sd">        :param IDF_weights_path: Path to the IDF_weights created during filter preparation.</span>
+<span class="sd">        :param SUBWORDUNIT: Boolean value that indicates whether subwordunits have been used during IDF weight creation.</span>
+<span class="sd">        :param sp_size: Size of vocab used for sentencepiece subwordunits.</span>
+<span class="sd">        :param stemming: Boolean that determines whether keyphrases are stemmed before filtering.</span>
+<span class="sd">        :param stopwords: Boolean that determines whether stopwords are removed from keyphrases before filtering.</span>
+<span class="sd">        :param SUBWORD_UNIT_COMBINATION: How the weights for subwordunits are combined to a single weight per word.</span>
+<span class="sd">        :param print_stats: Whether to print the statistics on unfiltered OIE extractions.</span>
+<span class="sd">        :param path_to_embeddings: Path where ELMo PubMed embeddings can be found.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">filter</span> <span class="o">=</span> <span class="n">filterOIE_with_narrowIE</span><span class="o">.</span><span class="n">NarrowIEOpenIECombiner</span><span class="p">(</span><span class="n">oie_data_dir</span><span class="p">,</span><span class="n">IDF_weights_path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span><span class="p">,</span> <span class="n">SUBWORDUNIT</span><span class="p">,</span> <span class="n">sp_size</span><span class="p">,</span>
+                                                                <span class="n">number_of_clusters</span><span class="p">,</span> <span class="n">stemming</span><span class="p">,</span> <span class="n">stopwords</span><span class="p">,</span>
+                                                                <span class="n">SUBWORD_UNIT_COMBINATION</span><span class="p">,</span> <span class="n">path_to_embeddings</span><span class="p">)</span>
+
+        <span class="nb">filter</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">filter_settings</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sore_output_dir</span><span class="p">,</span>
+                   <span class="n">print_stats</span><span class="p">,</span>
+                   <span class="n">print_clusters</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                   <span class="n">plot</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                   <span class="n">cluster_names</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../SORE_main.html#run_SORE.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">all_settings</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Run Semi-Open Relation Extraction code following the provided settings file.</span>
+
+<span class="sd">    :param all_settings: Settings-file provided - e.g. python run_SORE.py -s &quot;path_to_my_settings_file.json&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">oie_data_dir</span> <span class="o">=</span> <span class="s1">&#39;SORE/data/OpenIE/processed/&#39;</span>
+    <span class="n">sore_output_dir</span> <span class="o">=</span> <span class="s1">&#39;SORE/data/processed_data/&#39;</span>
+    <span class="n">brat_output_dir</span> <span class="o">=</span> <span class="s1">&#39;SORE/data/brat_annotations/&#39;</span>
+
+    <span class="n">prep</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Prepare_data&#39;</span><span class="p">]</span>
+    <span class="n">parse_narrow</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Parse_narrowIE_predictions&#39;</span><span class="p">]</span>
+    <span class="n">runOIE</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Run_OIE&#39;</span><span class="p">]</span>
+    <span class="nb">filter</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filter_OIE&#39;</span><span class="p">]</span>
+
+    <span class="n">max_num_docs_narrowIE</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;data_prep&#39;</span><span class="p">][</span><span class="s1">&#39;max_num_docs_narrowIE&#39;</span><span class="p">]</span>
+
+    <span class="n">narrowIE_input_files</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;narrowIE&#39;</span><span class="p">][</span><span class="s1">&#39;narrowIE_input_files&#39;</span><span class="p">]</span>
+    <span class="n">RELATIONS_TO_STORE</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;narrowIE&#39;</span><span class="p">][</span><span class="s1">&#39;RELATIONS_TO_STORE&#39;</span><span class="p">]</span>
+
+
+    <span class="n">path_to_OIE_jar</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;OpenIE&#39;</span><span class="p">][</span><span class="s1">&#39;path_to_OIE_jar&#39;</span><span class="p">]</span>
+
+    <span class="n">sp_size</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;sp_size&#39;</span><span class="p">]</span>
+    <span class="n">SUBWORDUNIT</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;SUBWORDUNIT&#39;</span><span class="p">]</span>
+    <span class="n">STEMMING</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;STEMMING&#39;</span><span class="p">]</span>
+    <span class="n">STOPWORDS</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;STOPWORDS&#39;</span><span class="p">]</span>
+    <span class="n">prefix</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;prefix&#39;</span><span class="p">]</span>
+    <span class="n">file_names</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;file_names&#39;</span><span class="p">]</span>
+    <span class="n">number_of_clusters</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;number_of_clusters&#39;</span><span class="p">]</span>
+    <span class="n">SUBWORD_UNIT_COMBINATION</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;SUBWORD_UNIT_COMBINATION&#39;</span><span class="p">]</span>
+    <span class="n">print_stats</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;print_stats&#39;</span><span class="p">]</span>
+    <span class="n">filter_settings</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;Filtering&#39;</span><span class="p">][</span><span class="s1">&#39;filter_settings&#39;</span><span class="p">]</span>
+
+    <span class="n">convert_back_to_BRAT</span> <span class="o">=</span> <span class="n">all_settings</span><span class="p">[</span><span class="s1">&#39;convert_back_to_BRAT&#39;</span><span class="p">]</span>
+
+    <span class="k">if</span> <span class="n">prep</span><span class="p">:</span>
+        <span class="c1">### Prepare data for OpenIE and narrow IE</span>
+        <span class="c1"># Possible to define own data directories</span>
+        <span class="n">prep_obj</span> <span class="o">=</span> <span class="n">DataPreparation</span><span class="p">()</span>
+        <span class="n">prep_obj</span><span class="o">.</span><span class="n">start</span><span class="p">(</span><span class="n">max_num_docs_narrowIE</span><span class="p">)</span>
+
+    <span class="c1"># determine name for parsed narrowIE files</span>
+    <span class="n">suffix_options</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;ALL&#39;</span><span class="p">,</span> <span class="s1">&#39;TRADEOFFS&#39;</span><span class="p">,</span> <span class="s1">&#39;TRADEOFFS_AND_ARGMODS&#39;</span><span class="p">]</span>
+    <span class="n">suffixes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;_all_arguments.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;_tradeoffs.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;_tradeoffs_and_argmods.csv&quot;</span><span class="p">]</span>
+    <span class="n">output_suffix</span> <span class="o">=</span> <span class="n">suffixes</span><span class="p">[</span><span class="n">suffix_options</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">RELATIONS_TO_STORE</span><span class="p">)]</span>
+    <span class="n">narrowIE_parser</span> <span class="o">=</span> <span class="n">NarrowIEParser</span><span class="p">(</span><span class="n">RELATIONS_TO_STORE</span><span class="o">=</span><span class="n">RELATIONS_TO_STORE</span><span class="p">)</span>
+    <span class="n">combined_name</span> <span class="o">=</span> <span class="n">narrowIE_parser</span><span class="o">.</span><span class="n">output_csv_path</span> <span class="o">+</span> <span class="n">prefix</span> <span class="o">+</span> <span class="n">output_suffix</span>
+
+    <span class="k">if</span> <span class="n">parse_narrow</span><span class="p">:</span>
+        <span class="c1">### Parse narrow IE (need to run yourself for now)</span>
+        <span class="n">parse_files</span> <span class="o">=</span> <span class="p">[[</span><span class="n">input_filename</span><span class="p">,</span> <span class="s2">&quot;predictions_&quot;</span><span class="o">+</span><span class="n">input_filename</span><span class="p">]</span> <span class="k">for</span> <span class="n">input_filename</span> <span class="ow">in</span> <span class="n">narrowIE_input_files</span><span class="p">]</span>
+        <span class="n">csv_files</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">for</span> <span class="n">input_filename</span><span class="p">,</span> <span class="n">predictions_filename</span> <span class="ow">in</span> <span class="n">parse_files</span><span class="p">:</span>
+            <span class="n">output_csv</span> <span class="o">=</span> <span class="n">narrowIE_parser</span><span class="o">.</span><span class="n">output_csv_path</span> <span class="o">+</span> <span class="n">input_filename</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">output_suffix</span>
+            <span class="n">narrowIE_parser</span><span class="o">.</span><span class="n">start</span><span class="p">(</span><span class="n">input_filename</span><span class="p">,</span> <span class="n">predictions_filename</span><span class="p">,</span> <span class="n">output_csv</span><span class="p">)</span>
+            <span class="n">csv_files</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">output_csv</span><span class="p">)</span>
+
+        <span class="n">combined_csv</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">&#39;python&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">csv_files</span><span class="p">])</span>
+        <span class="n">combined_csv</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">combined_name</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Written all predictions to </span><span class="si">{}</span><span class="s2">.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">combined_name</span><span class="p">))</span>
+
+        <span class="k">for</span> <span class="n">file_to_remove</span> <span class="ow">in</span> <span class="n">csv_files</span><span class="p">:</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">file_to_remove</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">runOIE</span><span class="p">:</span>
+        <span class="c1">### Run Open IE</span>
+        <span class="c1"># If run separately from narrowOIE, the csv_path has to be</span>
+        <span class="c1"># Need to define own path_to_OIE_jar after building OpenIE5</span>
+        <span class="n">run_OIE5</span><span class="o">.</span><span class="n">run_OpenIE_5</span><span class="p">(</span><span class="n">combined_name</span><span class="p">,</span> <span class="n">path_to_OIE_jar</span><span class="p">)</span>
+
+    <span class="n">prepper</span> <span class="o">=</span> <span class="n">FilterPrep</span><span class="p">()</span>
+    <span class="n">my_SORE_filter</span> <span class="o">=</span> <span class="n">SORE_filter</span><span class="p">(</span><span class="n">combined_name</span><span class="p">,</span> <span class="n">sore_output_dir</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">filter</span><span class="p">:</span>
+        <span class="c1"># Compute IDF weights (and sentencepiece model and vocab if SUBWORDUNIT set to true)</span>
+        <span class="n">IDF_weights_path</span> <span class="o">=</span> <span class="n">prepper</span><span class="o">.</span><span class="n">determine_output_name</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">SUBWORDUNIT</span><span class="p">,</span> <span class="n">STEMMING</span><span class="p">,</span> <span class="n">STOPWORDS</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">IDF_weights_path</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Assuming IDF weights and sentencepiece model exist, since path exists: </span><span class="si">{}</span><span class="s2"> &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">IDF_weights_path</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">prepper</span><span class="o">.</span><span class="n">start</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">file_names</span><span class="p">,</span> <span class="n">sp_size</span><span class="p">,</span> <span class="n">SUBWORDUNIT</span><span class="p">,</span> <span class="n">STEMMING</span><span class="p">,</span> <span class="n">STOPWORDS</span><span class="p">)</span>
+
+        <span class="c1"># Filter!</span>
+        <span class="n">my_SORE_filter</span><span class="o">.</span><span class="n">start</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">filter_settings</span><span class="p">,</span> <span class="n">IDF_weights_path</span><span class="p">,</span> <span class="n">SUBWORDUNIT</span><span class="p">,</span> <span class="n">oie_data_dir</span><span class="p">,</span> <span class="n">sp_size</span><span class="p">,</span>
+                             <span class="n">number_of_clusters</span><span class="p">,</span> <span class="n">STEMMING</span><span class="p">,</span> <span class="n">STOPWORDS</span><span class="p">,</span> <span class="n">SUBWORD_UNIT_COMBINATION</span><span class="p">,</span> <span class="n">print_stats</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">convert_back_to_BRAT</span><span class="p">:</span>
+        <span class="c1"># ToDo - change this! Should be the original dataset filename</span>
+        <span class="n">dataset_paths</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;SORE/data/unprocessed_data/processed/&#39;</span> <span class="o">+</span> <span class="n">d</span> <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">narrowIE_input_files</span><span class="p">]</span>
+        <span class="n">converter</span> <span class="o">=</span> <span class="n">SORE_to_BRAT</span><span class="o">.</span><span class="n">BratConverter</span><span class="p">(</span><span class="n">dataset_paths</span><span class="p">,</span> <span class="n">combined_name</span><span class="p">,</span> <span class="n">sore_output_dir</span><span class="p">,</span> <span class="n">brat_output_dir</span><span class="p">)</span>
+        <span class="n">converter</span><span class="o">.</span><span class="n">convert_to_BRAT</span><span class="p">(</span><span class="n">prefix</span><span class="p">)</span></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">settings</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">all_settings</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span> <span class="c1"># ValueError as e</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;! Error loading settings file </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">settings</span><span class="p">))</span>
+        <span class="k">raise</span> <span class="n">e</span>
+
+    <span class="n">main</span><span class="p">(</span><span class="n">all_settings</span><span class="p">)</span>
+
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

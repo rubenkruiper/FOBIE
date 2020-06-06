@@ -1,0 +1,361 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SORE.run_OIE5 &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../SORE_documentation.html">SORE Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>SORE.run_OIE5</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for SORE.run_OIE5</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">csv</span>
+<span class="kn">from</span> <span class="nn">pyopenie</span> <span class="kn">import</span> <span class="n">OpenIE5</span>
+<span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+
+
+<div class="viewcode-block" id="OpenIE5_client"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client">[docs]</a><span class="k">class</span> <span class="nc">OpenIE5_client</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encapsulates functionality to query the Open IE 5 standalone server.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csv_path</span><span class="p">,</span> <span class="n">oie_data_dir</span><span class="p">,</span> <span class="n">path_to_OIE_jar</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialise with relevant paths.</span>
+
+<span class="sd">        :param csv_path: The narrow IE predictions CSV file holds the document identifiers relevant for SORE filtering, rather running OpenIE5 on all documents.</span>
+<span class="sd">        :param oie_data_dir: The path to all OpenIE5 input .txt files.</span>
+<span class="sd">        :param path_to_OIE_jar: The path to the OpenIE 5 standalone jar file.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span> <span class="o">=</span> <span class="n">csv_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span> <span class="o">=</span> <span class="n">oie_data_dir</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">path_to_OIE_jar</span> <span class="o">=</span> <span class="n">path_to_OIE_jar</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">current_pwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="OpenIE5_client.get_docid_from_filename"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client.get_docid_from_filename">[docs]</a>    <span class="k">def</span> <span class="nf">get_docid_from_filename</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">output_name</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">output_name</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span><span class="o">+</span><span class="s1">&#39;processed/&#39;</span><span class="o">+</span><span class="n">filename</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span><span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39;_processed.txt&#39;</span>
+        <span class="k">return</span> <span class="n">filename</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span><span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="OpenIE5_client.determine_in_and_output_files"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client.determine_in_and_output_files">[docs]</a>    <span class="k">def</span> <span class="nf">determine_in_and_output_files</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">input_files</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">oie_data_dir</span><span class="o">+</span><span class="s1">&#39;inputs/*.txt&#39;</span><span class="p">)</span>
+        <span class="n">docs_with_central_relations</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">csv_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">csv_f</span><span class="p">:</span>
+            <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictReader</span><span class="p">(</span><span class="n">csv_f</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
+                <span class="n">docs_with_central_relations</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;doc_id&#39;</span><span class="p">])</span>
+
+        <span class="n">docs_with_central_relations</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">docs_with_central_relations</span><span class="p">))</span>
+
+        <span class="n">OIE_input</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">input_files</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_docid_from_filename</span><span class="p">(</span><span class="n">f</span><span class="p">)</span> <span class="ow">in</span> <span class="n">docs_with_central_relations</span><span class="p">]</span>
+        <span class="n">output_files</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">get_docid_from_filename</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">OIE_input</span><span class="p">]</span>
+
+        <span class="n">file_paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">input_file</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">OIE_input</span><span class="p">):</span>
+            <span class="n">file_paths</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">input_file</span><span class="p">,</span> <span class="n">output_files</span><span class="p">[</span><span class="n">idx</span><span class="p">]])</span>
+
+        <span class="k">return</span> <span class="n">file_paths</span></div>
+
+<div class="viewcode-block" id="OpenIE5_client.parse_extractions"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client.parse_extractions">[docs]</a>    <span class="k">def</span> <span class="nf">parse_extractions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dict_list</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Parses the OpenIE5 json output for a single line, which has the format:</span>
+<span class="sd">        [{&#39;confidence&#39; : x1, &#39;sentence&#39;: y, &#39;extraction&#39;: {</span>
+<span class="sd">                                                    &#39;arg1&#39;: {&#39;text&#39;: str},</span>
+<span class="sd">                                                    &#39;rel&#39; : {&#39;text&#39;: str},</span>
+<span class="sd">                                                    &#39;arg2s&#39;: {&#39;text&#39;: str},</span>
+<span class="sd">        {&#39;confidence&#39; : x2, &#39;sentence&#39;: y, &#39;extraction: {}&#39; },</span>
+<span class="sd">         etc.. ]</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">lines_to_write</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">for</span> <span class="nb">tuple</span> <span class="ow">in</span> <span class="n">dict_list</span><span class="p">:</span>
+
+            <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">tuple</span><span class="p">[</span><span class="s1">&#39;extraction&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;arg1&#39;</span><span class="p">,</span> <span class="s1">&#39;rel&#39;</span><span class="p">,</span> <span class="s1">&#39;arg2s&#39;</span><span class="p">,</span> <span class="s1">&#39;context&#39;</span><span class="p">,</span> <span class="s1">&#39;offset&#39;</span><span class="p">,</span> <span class="s1">&#39;negated&#39;</span><span class="p">,</span> <span class="s1">&#39;passive&#39;</span><span class="p">]:</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Currently not handling the OIE extraction key: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">k</span><span class="p">))</span>
+                    <span class="k">pass</span>
+
+            <span class="n">ex</span> <span class="o">=</span>  <span class="nb">tuple</span><span class="p">[</span><span class="s1">&#39;extraction&#39;</span><span class="p">]</span>
+
+            <span class="n">line_to_write</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">context</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+                <span class="n">arg2s_string</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+                <span class="k">if</span> <span class="n">ex</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">]:</span>
+                    <span class="n">context</span> <span class="o">=</span> <span class="n">ex</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">][</span><span class="s1">&#39;text&#39;</span><span class="p">]</span>
+
+                <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">ex</span><span class="p">[</span><span class="s1">&#39;arg2s&#39;</span><span class="p">]:</span>
+                    <span class="n">arg2s_string</span> <span class="o">+=</span> <span class="s2">&quot;[*A*]</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">arg</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+
+                <span class="n">line_to_write</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{:.3f}</span><span class="se">\t</span><span class="s2">[*A*]</span><span class="si">{}</span><span class="s2">[*R*]</span><span class="si">{}{}</span><span class="se">\t</span><span class="s2">context(</span><span class="si">{}</span><span class="s2">)</span><span class="se">\t</span><span class="s2">negated: </span><span class="si">{}</span><span class="s2"> ,passive: </span><span class="si">{}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="nb">tuple</span><span class="p">[</span><span class="s1">&#39;confidence&#39;</span><span class="p">],</span> <span class="n">ex</span><span class="p">[</span><span class="s1">&#39;arg1&#39;</span><span class="p">][</span><span class="s1">&#39;text&#39;</span><span class="p">],</span>
+                    <span class="n">ex</span><span class="p">[</span><span class="s1">&#39;rel&#39;</span><span class="p">][</span><span class="s1">&#39;text&#39;</span><span class="p">],</span> <span class="n">arg2s_string</span><span class="p">,</span>
+                    <span class="n">context</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">ex</span><span class="p">[</span><span class="s1">&#39;negated&#39;</span><span class="p">]),</span> <span class="nb">str</span><span class="p">(</span><span class="n">ex</span><span class="p">[</span><span class="s1">&#39;passive&#39;</span><span class="p">]))</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="k">pass</span>
+
+            <span class="k">if</span> <span class="n">line_to_write</span><span class="p">:</span>
+                <span class="n">lines_to_write</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_to_write</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">lines_to_write</span></div>
+
+
+<div class="viewcode-block" id="OpenIE5_client.get_extractions"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client.get_extractions">[docs]</a>    <span class="k">def</span> <span class="nf">get_extractions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">current_pwd</span><span class="p">)</span>
+        <span class="n">extractor</span> <span class="o">=</span> <span class="n">OpenIE5</span><span class="p">(</span><span class="s1">&#39;http://localhost:8000&#39;</span><span class="p">)</span>
+
+        <span class="n">input_output_files</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">determine_in_and_output_files</span><span class="p">()</span>
+
+        <span class="k">for</span> <span class="n">input_file</span><span class="p">,</span> <span class="n">output_file</span> <span class="ow">in</span> <span class="n">input_output_files</span><span class="p">:</span>
+
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">output_file</span><span class="p">):</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> already exists, skipping and assuming it&#39;s already been processed!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">output_file</span><span class="p">))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_file</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;ascii&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                    <span class="n">lines_in_file</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+                <span class="n">number_of_lines</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="n">number_of_lines_processed</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">of</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">lines_in_file</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">leave</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+                        <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">:</span>
+                            <span class="k">pass</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="n">number_of_lines</span> <span class="o">+=</span> <span class="mi">1</span>
+                            <span class="n">of</span><span class="o">.</span><span class="n">writelines</span><span class="p">(</span><span class="s1">&#39;[LINE#</span><span class="si">{}</span><span class="s1">]</span><span class="si">{}</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">number_of_lines</span><span class="p">,</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()))</span>
+                            <span class="k">try</span><span class="p">:</span>
+                                <span class="c1"># OIE sometimes runs into issues,</span>
+                                <span class="c1"># JSON errors seem related to the presence of unicode characters in extractions.</span>
+                                <span class="c1"># - e.g. &quot;All methods find that β-strands 6, 5, 4, 3, 2 form first.&quot;</span>
+                                <span class="c1"># ConnectionErrors seems to be related to regex issues.</span>
+                                <span class="c1"># - e.g. &quot;Strands 6, 5, 4, 3, 2 form first (and in that order) and disagree on the relative ordering.&quot;</span>
+                                <span class="c1"># While the following does not throw and error - &quot;Not all β-strands are an issue.&quot;</span>
+                                <span class="c1"># Avoiding JSON errors by loading files in ascii encoding with errors being ignored</span>
+                                <span class="c1"># Skipping the sentences that run into regex-type issues.</span>
+                                <span class="n">extractions</span> <span class="o">=</span> <span class="n">extractor</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+                                <span class="n">stuff_to_write</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parse_extractions</span><span class="p">(</span><span class="n">extractions</span><span class="p">)</span>
+                                <span class="n">of</span><span class="o">.</span><span class="n">writelines</span><span class="p">(</span><span class="n">stuff_to_write</span><span class="p">)</span>
+                                <span class="n">number_of_lines_processed</span> <span class="o">+=</span> <span class="mi">1</span>
+                            <span class="k">except</span><span class="p">:</span>
+                                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Can&#39;t process: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()))</span>
+                                <span class="k">pass</span>
+
+                    <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Processed </span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> lines in </span><span class="si">{}</span><span class="s2"> with OpenIE5</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                        <span class="n">number_of_lines_processed</span><span class="p">,</span> <span class="n">number_of_lines</span><span class="p">,</span> <span class="n">input_file</span><span class="p">[:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]))</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Finished processing files with OpenIE5, will now shut down server.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="OpenIE5_client.start_server"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client.start_server">[docs]</a>    <span class="k">def</span> <span class="nf">start_server</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Starting server at port 8000&quot;</span><span class="p">)</span>
+        <span class="n">OIE_dir</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_OIE_jar</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;target&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">OIE_dir</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;To start an OpenIE5 server copy the following line into a new terminal window and run:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;cd </span><span class="si">{}</span><span class="s2"> ; java -Xmx10g -XX:+UseConcMarkSweepGC -jar </span><span class="si">{}</span><span class="s2"> --ignore-errors --httpPort 8000</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="n">OIE_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_OIE_jar</span>
+        <span class="p">))</span></div>
+
+<div class="viewcode-block" id="OpenIE5_client.stop_server"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.OpenIE5_client.stop_server">[docs]</a>    <span class="k">def</span> <span class="nf">stop_server</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s2">&quot;kill -9 `ps aux | grep &#39;java -Xmx10g -XX:+UseConcMarkSweepGC -jar &quot;</span>
+                      <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">path_to_OIE_jar</span> <span class="o">+</span>
+                      <span class="s2">&quot; --ignore-errors --httpPort 8000&#39;| grep -v grep | awk &#39;{print $2; exit}&#39;`&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Stopped the server&quot;</span><span class="p">)</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Error shutting down a pre-existing OpenIE5 server at port 8000&#39;</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="run_OpenIE_5"><a class="viewcode-back" href="../../SORE.html#SORE.run_OIE5.run_OpenIE_5">[docs]</a><span class="k">def</span> <span class="nf">run_OpenIE_5</span><span class="p">(</span><span class="n">csv_path</span><span class="p">,</span>
+                 <span class="n">path_to_OIE_jar</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">unprocessed_paths</span><span class="o">=</span><span class="s1">&#39;SORE/data/OpenIE/&#39;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">path_to_OIE_jar</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Change `path_to_OIE_jar` to the OpenIE 5 jar you have to assemble!&quot;</span><span class="p">)</span>
+    <span class="n">client</span> <span class="o">=</span> <span class="n">OpenIE5_client</span><span class="p">(</span><span class="n">csv_path</span><span class="p">,</span> <span class="n">unprocessed_paths</span><span class="p">,</span> <span class="n">path_to_OIE_jar</span><span class="p">)</span>
+    <span class="n">client</span><span class="o">.</span><span class="n">start_server</span><span class="p">()</span>
+    <span class="n">answer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Wait until the server is running to continue! Is the server ready? (y, n): &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span>
+            <span class="n">client</span><span class="o">.</span><span class="n">get_extractions</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">answer</span> <span class="o">==</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span>
+            <span class="k">pass</span>
+
+    <span class="n">client</span><span class="o">.</span><span class="n">stop_server</span><span class="p">()</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

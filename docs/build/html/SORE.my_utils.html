@@ -1,0 +1,723 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SORE utilities &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="SORE package" href="SORE.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Read Me</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="SORE_documentation.html">SORE Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="SORE_main.html">run_SORE.py main()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SORE.html">SORE package</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">SORE utilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils.IDF_weight_utils">IDF weight utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils.clean_raw_input">Clean input strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils.convert_json_article_to_OIE5">Convert json to OpenIE5 input format</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils.convert_json_article_to_SciIE">Convert json to SciIE input format</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils.filter_utils">SORE filtering utilities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils.spacyNLP">Custom spacy pipeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.my_utils">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="SORE_documentation.html">SORE Documentation</a> &raquo;</li>
+        
+      <li>SORE utilities</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/SORE.my_utils.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sore-utilities">
+<h1>SORE utilities<a class="headerlink" href="#sore-utilities" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-SORE.my_utils.IDF_weight_utils">
+<span id="idf-weight-utils"></span><h2>IDF weight utils<a class="headerlink" href="#module-SORE.my_utils.IDF_weight_utils" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.my_utils.IDF_weight_utils.</code><code class="sig-name descname">PrepIDFWeights</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">input_file_dir</span></em>, <em class="sig-param"><span class="n">output_dir</span></em>, <em class="sig-param"><span class="n">SUBWORDUNIT</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">STEMMING</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">STOPWORDS</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates the setting for preparing IDF weights.</p>
+<dl class="py method">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights.compute_IDF_weights">
+<code class="sig-name descname">compute_IDF_weights</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_file_prefixes</span></em>, <em class="sig-param"><span class="n">sp_size</span></em>, <em class="sig-param"><span class="n">sp_storage_dir</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights.compute_IDF_weights"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.compute_IDF_weights" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overarching function to compute or load the IDF weights, as well as train or load a SentencePiece model - based
+on the settings provided to <code class="xref py py-class docutils literal notranslate"><span class="pre">PrepIDFWeights</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_file_prefixes</strong> – Select files to compute IDF weights for based on a possible prefixes, e.g., only compute IDF weights over files that are derived from the OA-STM corpus.</p></li>
+<li><p><strong>sp_size</strong> – Size of the SentencePiece vocab, recommended 8k (input would be an int 8000), 16k or 32k, but this depends on the size of your dataset.</p></li>
+<li><p><strong>sp_storage_dir</strong> – Directory to store sp model, I believe this is redundant - self.output_dir could be used.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights.determine_output_name">
+<code class="sig-name descname">determine_output_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights.determine_output_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.determine_output_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determines the output name for the IDF weight file, so it can be reused with the same settings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>path to the IDF weight file</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights.dummy_tokenizer">
+<code class="sig-name descname">dummy_tokenizer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">doc</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights.dummy_tokenizer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.dummy_tokenizer" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights.get_idf">
+<code class="sig-name descname">get_idf</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">corpus</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights.get_idf"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.get_idf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute IDF values for a single corpus (list of sentences from selection of files).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>corpus</strong> – A single corpus (list of sentences)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Dict with IDF weights for all tokens found in the corpus</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights.new_sentencepiece_vocab">
+<code class="sig-name descname">new_sentencepiece_vocab</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sp_storage_dir</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights.new_sentencepiece_vocab"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.new_sentencepiece_vocab" title="Permalink to this definition">¶</a></dt>
+<dd><p>Train a new SentencePiece model and vocabulary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>sp_storage_dir</strong> – Directory to store the SentencePiece model and vocabulary, set in <code class="xref py py-class docutils literal notranslate"><span class="pre">FilterPrep</span></code>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.IDF_weight_utils.PrepIDFWeights.txt_files_to_corpus">
+<code class="sig-name descname">txt_files_to_corpus</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_file</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/IDF_weight_utils.html#PrepIDFWeights.txt_files_to_corpus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.IDF_weight_utils.PrepIDFWeights.txt_files_to_corpus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare an input txt file to a list of sentences (following the settings of using subwordunits, stemming, stopwords),
+so it can be added to a single corpus to compute the IDF weights.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>input_file</strong> – .txt file to process</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of processed sentences</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.my_utils.clean_raw_input">
+<span id="clean-input-strings"></span><h2>Clean input strings<a class="headerlink" href="#module-SORE.my_utils.clean_raw_input" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="SORE.my_utils.clean_raw_input.clean_content">
+<code class="sig-prename descclassname">SORE.my_utils.clean_raw_input.</code><code class="sig-name descname">clean_content</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">content</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/clean_raw_input.html#clean_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.clean_raw_input.clean_content" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple cleaning of the sentences found in the input files. Is called twice, during creation of
+OIE and narrowIE files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>content</strong> – a dict containing {sent_id : sentence}</p>
+</dd>
+<dt class="field-even">Return content</dt>
+<dd class="field-even"><p>a dict containing {sent_id : sentence}, where the sentences have been cleaned</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.my_utils.convert_json_article_to_OIE5">
+<span id="convert-json-to-openie5-input-format"></span><h2>Convert json to OpenIE5 input format<a class="headerlink" href="#module-SORE.my_utils.convert_json_article_to_OIE5" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="SORE.my_utils.convert_json_article_to_OIE5.write_sentences_to_txt_file">
+<code class="sig-prename descclassname">SORE.my_utils.convert_json_article_to_OIE5.</code><code class="sig-name descname">write_sentences_to_txt_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dict</span></em>, <em class="sig-param"><span class="n">output_folder</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/convert_json_article_to_OIE5.html#write_sentences_to_txt_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.convert_json_article_to_OIE5.write_sentences_to_txt_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads the json input from a dataset file and prepares separate text files for OIE.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dict</strong> – A json-file containing unprocessed papers.</p></li>
+<li><p><strong>output_folder</strong> – Directory to write a txt file to, for each of the document IDs found in the input_dict.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.my_utils.convert_json_article_to_SciIE">
+<span id="convert-json-to-sciie-input-format"></span><h2>Convert json to SciIE input format<a class="headerlink" href="#module-SORE.my_utils.convert_json_article_to_SciIE" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="SORE.my_utils.convert_json_article_to_SciIE.convert_doc_to_sciie_format">
+<code class="sig-prename descclassname">SORE.my_utils.convert_json_article_to_SciIE.</code><code class="sig-name descname">convert_doc_to_sciie_format</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dict</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/convert_json_article_to_SciIE.html#convert_doc_to_sciie_format"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.convert_json_article_to_SciIE.convert_doc_to_sciie_format" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads an unprocessed json file and prepares a list of sentences in the SciIE format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>input_dict</strong> – A dataset json-file containing unprocessed papers.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>processed_sentences - a list of sentences ready to be input to a trained SciIE model</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.my_utils.filter_utils">
+<span id="sore-filtering-utilities"></span><h2>SORE filtering utilities<a class="headerlink" href="#module-SORE.my_utils.filter_utils" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.my_utils.filter_utils.</code><code class="sig-name descname">ClusterTradeOffs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filter_data_path</span></em>, <em class="sig-param"><span class="n">number_of_clusters</span></em>, <em class="sig-param"><span class="n">sp_size</span></em>, <em class="sig-param"><span class="n">stemming</span></em>, <em class="sig-param"><span class="n">stopwords</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates settings and paths for clustering of narrow IE arguments.</p>
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.cluster">
+<code class="sig-name descname">cluster</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">km_model</span></em>, <em class="sig-param"><span class="n">phrases_dict</span></em>, <em class="sig-param"><span class="n">embeddings_dict</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.cluster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.cluster" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use a K-means model to compute the clusters for phrases and corresponding embeddings</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>km_model</strong> – The K-means model to use.</p></li>
+<li><p><strong>phrases_dict</strong> – The phrases to compute clusters for.</p></li>
+<li><p><strong>embeddings_dict</strong> – The embeddings corresponding to the phrases to compute clusters for.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>clustering_data - Cluster-information for the input phrases, and results - a dataframe containing clustering info</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.cluster_insight">
+<code class="sig-name descname">cluster_insight</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">results</span></em>, <em class="sig-param"><span class="n">amount_to_print</span><span class="o">=</span><span class="default_value">10</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.cluster_insight"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.cluster_insight" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Print a couple of lines (amount_to_print) per cluster to see what type of arguments they contain.</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>results</strong> – The dataframe containing cluster-information (in terms of words and phrases and their distance to the centroid)</p></li>
+<li><p><strong>amount_to_print</strong> – Number of ‘top phrases’ and ‘top words’ to print per cluster</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.cluster_kmeans">
+<code class="sig-name descname">cluster_kmeans</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_matrix</span></em>, <em class="sig-param"><span class="n">KM_CLUSTERS</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.cluster_kmeans"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.cluster_kmeans" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the K-means model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_matrix</strong> – Embeddings x (pre-processed) phrases</p></li>
+<li><p><strong>KM_CLUSTERS</strong> – Number of clusters</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>K-means model</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.get_Kmeans_model">
+<code class="sig-name descname">get_Kmeans_model</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">phrases_dict</span></em>, <em class="sig-param"><span class="n">embeddings_dict</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.get_Kmeans_model"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.get_Kmeans_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute or load a K-means model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>phrases_dict</strong> – Phrases to compute the K-means model.</p></li>
+<li><p><strong>embeddings_dict</strong> – Embeddings to compute the K-means model.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>K-means model</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.palplot">
+<code class="sig-name descname">palplot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">digits_proj</span></em>, <em class="sig-param"><span class="n">km_model</span></em>, <em class="sig-param"><span class="n">category_list</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.palplot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.palplot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.print_cluster_words">
+<code class="sig-name descname">print_cluster_words</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_phrases</span></em>, <em class="sig-param"><span class="n">amount_to_print</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.print_cluster_words"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.print_cluster_words" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine the words that are most commonly used in the phrases of a cluster.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cluster_phrases</strong> – Phrases that belong to a cluster</p></li>
+<li><p><strong>amount_to_print</strong> – Number of most-used words to return</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The most used words…</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.ClusterTradeOffs.scatter">
+<code class="sig-name descname">scatter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">colors</span></em>, <em class="sig-param"><span class="n">category_list</span></em>, <em class="sig-param"><span class="n">NUM_CLUSTERS</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#ClusterTradeOffs.scatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.ClusterTradeOffs.scatter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.my_utils.filter_utils.</code><code class="sig-name descname">PrepareEmbeddings</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">sp_model_path</span></em>, <em class="sig-param"><span class="n">sp_vocab_size</span></em>, <em class="sig-param"><span class="n">IDF_path</span></em>, <em class="sig-param"><span class="n">csv_path</span></em>, <em class="sig-param"><span class="n">elmo_options</span></em>, <em class="sig-param"><span class="n">elmo_weights</span></em>, <em class="sig-param"><span class="n">SUBWORD_UNIT_COMBINATION</span><span class="o">=</span><span class="default_value">'max'</span></em>, <em class="sig-param"><span class="n">subwordunits</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">stemming</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">stopwords</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates the settings, paths and functionality to prepare ELMo (PubMed) embeddings from narrow IE and Open IE extractions.</p>
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings.compute_weights_for_phrases">
+<code class="sig-name descname">compute_weights_for_phrases</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">preprocessed_phrases</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings.compute_weights_for_phrases"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings.compute_weights_for_phrases" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the IDF weights for the tokens in a list of preprocessed phrases</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>preprocessed_phrases</strong> – list of phrases to compute IDF weights for</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of IDF weights for the pre-processed tokens in each phrase</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings.embed_all_narrowIE_phrases">
+<code class="sig-name descname">embed_all_narrowIE_phrases</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">phrase_dict</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings.embed_all_narrowIE_phrases"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings.embed_all_narrowIE_phrases" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the embeddings for all the narrow IE phrases, following the preprocessing settings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>phrase_dict</strong> – Dict with phrases, to identify which document the narrow IE extractions belong to</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Dict with embeddings, to identify which document the embeddings belong to</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings.load_narrowIE_data">
+<code class="sig-name descname">load_narrowIE_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings.load_narrowIE_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings.load_narrowIE_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads the argument phrases from the narrow IE CSV file, and preprocesses them following the stemming/stopword settings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Phrases (with/without stopwords and possibly stemmed)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings.parse_argument_list">
+<code class="sig-name descname">parse_argument_list</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string_list</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings.parse_argument_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings.parse_argument_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads string of arguments (from the narrow IE extractions csv file) and outputs as list.
+:param string_list: Narrow IE CSV argument-string
+:return: Narrow IE argument list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings.porterstemmer">
+<code class="sig-name descname">porterstemmer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">str_input</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings.porterstemmer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings.porterstemmer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Porter stemmer - actually gets single words as input and output, so that the tokenisation of TextBlob and spacy aligns.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>str_input</strong> – string to stem</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>stemmed string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.PrepareEmbeddings.preprocess_and_embed_phrase_list">
+<code class="sig-name descname">preprocess_and_embed_phrase_list</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">preprocessed_phrases</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#PrepareEmbeddings.preprocess_and_embed_phrase_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.PrepareEmbeddings.preprocess_and_embed_phrase_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the embeddings for a list of OIE phrases.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>preprocessed_phrases</strong> – List of pre-processed phrases (e.g. no stopwords)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of embeddings for pre-processed phrases (e.g. no stopwords)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="SORE.my_utils.filter_utils.SoreFilter">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.my_utils.filter_utils.</code><code class="sig-name descname">SoreFilter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">OIE_path</span></em>, <em class="sig-param"><span class="n">csv_path</span></em>, <em class="sig-param"><span class="n">IDF_path</span></em>, <em class="sig-param"><span class="n">subwordunit</span></em>, <em class="sig-param"><span class="n">sp_model_path</span></em>, <em class="sig-param"><span class="n">emb_weights</span></em>, <em class="sig-param"><span class="n">emb_options</span></em>, <em class="sig-param"><span class="n">filter_settings</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates all settings and paths for the SORE filtering step.</p>
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.get_clusters_for_arguments">
+<code class="sig-name descname">get_clusters_for_arguments</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_model</span></em>, <em class="sig-param"><span class="n">embeddings</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.get_clusters_for_arguments"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.get_clusters_for_arguments" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the cluster_id for an argument-phrase.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cluster_model</strong> – K-means model</p></li>
+<li><p><strong>embeddings</strong> – List of embeddings for argument-phrases</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of cluster-ids per argument-phrase</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.get_weights_for_spacy_token">
+<code class="sig-name descname">get_weights_for_spacy_token</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arg</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.get_weights_for_spacy_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.get_weights_for_spacy_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the IDF-weights for the words in a single OIE phrase.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>arg</strong> – single Open IE argument phrase</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of tokens and list of corresponding IDF weights</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.get_weights_for_subwordunits">
+<code class="sig-name descname">get_weights_for_subwordunits</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arg</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.get_weights_for_subwordunits"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.get_weights_for_subwordunits" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the IDF-weights for the subword-units of a single spacy token in an OIE phrase.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>arg</strong> – single Open IE argument phrase</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of tokens and list of corresponding IDF weights</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.parse_openie_triple">
+<code class="sig-name descname">parse_openie_triple</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">line</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.parse_openie_triple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.parse_openie_triple" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses a line from an OIE file that contains an n-ary extraction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>line</strong> – string that contains an OIE extraction (n-ary, not necessarily a triple)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>OIE confidence score, list of arguments, relation, context, negation</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.phrase_similarity">
+<code class="sig-name descname">phrase_similarity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">narrowIE_embeddings</span></em>, <em class="sig-param"><span class="n">oie_arg_embedding</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.phrase_similarity"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.phrase_similarity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes the similarity between two phrases, similarity measure to use can be set in SORE_settings.json file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>narrowIE_embeddings</strong> – Embeddings for a phrase extracted by narrow IE</p></li>
+<li><p><strong>oie_arg_embedding</strong> – Embeddings for a phrase extracted by Open IE</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A similarity score</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.preprocess_arguments">
+<code class="sig-name descname">preprocess_arguments</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arg_list</span></em>, <em class="sig-param"><span class="n">embedder</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.preprocess_arguments"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.preprocess_arguments" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the settings from the embedder used to embed narrow IE phrases, in order to pre-process Open IE phrases.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>arg_list</strong> – List of Open IE argument-phrases.</p></li>
+<li><p><strong>embedder</strong> – The embedder object used to embed narrow IE phrases.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Preprocessed phrases and their length in number of tokens</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.read_openie_results">
+<code class="sig-name descname">read_openie_results</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">file_name</span></em>, <em class="sig-param"><span class="n">oie_cutoff</span></em>, <em class="sig-param"><span class="n">embedder</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.read_openie_results"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.read_openie_results" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads all OIE extractions for a single document, and pre-processes the phrases following the narrow IE embedding settings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file_name</strong> – Open IE extractions file.</p></li>
+<li><p><strong>oie_cutoff</strong> – Minimum confidence score for an Open IE extraction, if lower the extraction will be discarded.</p></li>
+<li><p><strong>embedder</strong> – Embedder object that encapsulates the settings used to pre-process narrow IE argument-phrases.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary with all the Open IE extractions for a document.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.my_utils.filter_utils.SoreFilter.start_filtering">
+<code class="sig-name descname">start_filtering</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">output_dir</span></em>, <em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">num_clusters</span></em>, <em class="sig-param"><span class="n">narrowIE_phrases</span></em>, <em class="sig-param"><span class="n">narrowIE_embeddings</span></em>, <em class="sig-param"><span class="n">embedder</span></em>, <em class="sig-param"><span class="n">cluster_model</span></em>, <em class="sig-param"><span class="n">print_stats</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#SoreFilter.start_filtering"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.SoreFilter.start_filtering" title="Permalink to this definition">¶</a></dt>
+<dd><p>Script to filter all the Open IE extractions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>output_dir</strong> – Path to a directory to write filtered files.</p></li>
+<li><p><strong>prefix</strong> – Name of the experiment for re-use.</p></li>
+<li><p><strong>num_clusters</strong> – Number of clusters (used to determine output name for re-use)</p></li>
+<li><p><strong>narrowIE_phrases</strong> – Phrases found by narrow IE for all documents.</p></li>
+<li><p><strong>narrowIE_embeddings</strong> – Embeddings for the phrases found by narrow IE for all documents.</p></li>
+<li><p><strong>embedder</strong> – Embedder object, which stores the settings used to embed the narrow IE phrases.</p></li>
+<li><p><strong>cluster_model</strong> – Clustering model trained on narrow IE phrases, in order to cluster the Open IE phrases.</p></li>
+<li><p><strong>print_stats</strong> – Boolean - determines whether the pre- and post-filtering statistics should be printed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.my_utils.filter_utils.get_stats_filtered">
+<code class="sig-prename descclassname">SORE.my_utils.filter_utils.</code><code class="sig-name descname">get_stats_filtered</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">SORE_style_dict</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#get_stats_filtered"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.get_stats_filtered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print the statistics for a dictionary with OIE extractions, post-filtering.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>SORE_style_dict</strong> – Dict with OIE extractions AFTER filtering with SORE.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.my_utils.filter_utils.get_stats_unfiltered">
+<code class="sig-prename descclassname">SORE.my_utils.filter_utils.</code><code class="sig-name descname">get_stats_unfiltered</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">OIE_style_dict</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/filter_utils.html#get_stats_unfiltered"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.filter_utils.get_stats_unfiltered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print the statistics for a dictionary with OIE extractions, pre-filtering.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>SORE_style_dict</strong> – Dict with OIE extractions BEFORE filtering with SORE.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.my_utils.spacyNLP">
+<span id="custom-spacy-pipeline"></span><h2>Custom spacy pipeline<a class="headerlink" href="#module-SORE.my_utils.spacyNLP" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="SORE.my_utils.spacyNLP.quote_merger">
+<code class="sig-prename descclassname">SORE.my_utils.spacyNLP.</code><code class="sig-name descname">quote_merger</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">doc</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/spacyNLP.html#quote_merger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.spacyNLP.quote_merger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="SORE.my_utils.spacyNLP.spacy_nlp">
+<code class="sig-prename descclassname">SORE.my_utils.spacyNLP.</code><code class="sig-name descname">spacy_nlp</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">too_be_parsed</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/my_utils/spacyNLP.html#spacy_nlp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.my_utils.spacyNLP.spacy_nlp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Instantiate a Spacy nlp parser (spacy.load(‘en_core_web_sm’, disable=[‘ner’,’tagger’]), which matches a couple
+of ‘trade-off’ expressions as single tokens - rather than [‘trade’, ‘-‘, ‘off’].</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>too_be_parsed</strong> – Some string to be parsed, could be single or multiple sentences.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The space doc for that string, containing sentence and token information.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.my_utils">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-SORE.my_utils" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="SORE.html" class="btn btn-neutral float-left" title="SORE package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

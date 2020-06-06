@@ -1,0 +1,582 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SORE package &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SORE utilities" href="SORE.my_utils.html" />
+    <link rel="prev" title="run_SORE.py main()" href="SORE_main.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Read Me</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="SORE_documentation.html">SORE Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="SORE_main.html">run_SORE.py main()</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">SORE package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.prepare_data">Prepare input data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.parse_narrowIE_output">Parse narrow IE predictions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.run_OIE5">Compute OpenIE 5 extractions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.filterOIE_with_narrowIE">SORE filtering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE.SORE_to_BRAT">Convert SORE output to BRAT annotations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-SORE">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SORE.my_utils.html">SORE utilities</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="SORE_documentation.html">SORE Documentation</a> &raquo;</li>
+        
+      <li>SORE package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/SORE.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sore-package">
+<h1>SORE package<a class="headerlink" href="#sore-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-SORE.prepare_data">
+<span id="prepare-input-data"></span><h2>Prepare input data<a class="headerlink" href="#module-SORE.prepare_data" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="SORE.prepare_data.convert_documents">
+<code class="sig-prename descclassname">SORE.prepare_data.</code><code class="sig-name descname">convert_documents</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">max_num_docs_narrowIE</span></em>, <em class="sig-param"><span class="n">input_files</span></em>, <em class="sig-param"><span class="n">output_folder_OIE</span></em>, <em class="sig-param"><span class="n">output_folder_narrowIE</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/prepare_data.html#convert_documents"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.prepare_data.convert_documents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads an unprocessed json file and prepares the input document for narrow and open IE. Scraped
+text in JEB and BMC files is processed to single-sentence-dict:</p>
+<blockquote>
+<div><p># {“doc_id”: {“sent_id”: {“sentence”:</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_files</strong> – list of a json-files containing unprocessed papers</p></li>
+<li><p><strong>output_folder_OIE</strong> – output folder for OIE files, one for each doc_id</p></li>
+<li><p><strong>output_folder_narrowIE</strong> – output folder for NarrowIE files, one for each input_file</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.prepare_data.write_dicts_to_files">
+<code class="sig-prename descclassname">SORE.prepare_data.</code><code class="sig-name descname">write_dicts_to_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">num_docs</span></em>, <em class="sig-param"><span class="n">dict_with_various_docs</span></em>, <em class="sig-param"><span class="n">input_doc</span></em>, <em class="sig-param"><span class="n">index</span></em>, <em class="sig-param"><span class="n">old_index</span></em>, <em class="sig-param"><span class="n">output_folder_OIE</span></em>, <em class="sig-param"><span class="n">output_folder_narrowIE</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/prepare_data.html#write_dicts_to_files"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.prepare_data.write_dicts_to_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call <a class="reference internal" href="SORE.my_utils.html#SORE.my_utils.convert_json_article_to_SciIE.convert_doc_to_sciie_format" title="SORE.my_utils.convert_json_article_to_SciIE.convert_doc_to_sciie_format"><code class="xref py py-func docutils literal notranslate"><span class="pre">convert_doc_to_sciie_format()</span></code></a> (and write the results) and
+<a class="reference internal" href="SORE.my_utils.html#SORE.my_utils.convert_json_article_to_OIE5.write_sentences_to_txt_file" title="SORE.my_utils.convert_json_article_to_OIE5.write_sentences_to_txt_file"><code class="xref py py-func docutils literal notranslate"><span class="pre">write_sentences_to_txt_file()</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>num_docs</strong> – max number of input articles to group in a single narrow IE file.</p></li>
+<li><p><strong>dict_with_various_docs</strong> – A group of num_docs articles to work on.</p></li>
+<li><p><strong>input_doc</strong> – An input dataset path in json format, used to determine output names</p></li>
+<li><p><strong>index</strong> – Final index of the set of  articles to work on (old_index + num_docs)</p></li>
+<li><p><strong>old_index</strong> – Starting index of current articles to work on.</p></li>
+<li><p><strong>output_folder_OIE</strong> – output folder for OIE files, one for each doc_id</p></li>
+<li><p><strong>output_folder_narrowIE</strong> – output folder for NarrowIE files, one for each input_file</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.parse_narrowIE_output">
+<span id="parse-narrow-ie-predictions"></span><h2>Parse narrow IE predictions<a class="headerlink" href="#module-SORE.parse_narrowIE_output" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="SORE.parse_narrowIE_output.convert_spans_to_tokenlist">
+<code class="sig-prename descclassname">SORE.parse_narrowIE_output.</code><code class="sig-name descname">convert_spans_to_tokenlist</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">predicted_spans</span></em>, <em class="sig-param"><span class="n">corresponding_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/parse_narrowIE_output.html#convert_spans_to_tokenlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.parse_narrowIE_output.convert_spans_to_tokenlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts the spans of relations found in a sentence to a list of tokens</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>predicted_spans</strong> – SciIE output, formatted with span_start and span_end as token indices.</p></li>
+<li><p><strong>corresponding_data</strong> – SciIE input file, which contains the list of tokens for each sentence.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.parse_narrowIE_output.read_sciie_output_format">
+<code class="sig-prename descclassname">SORE.parse_narrowIE_output.</code><code class="sig-name descname">read_sciie_output_format</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_doc</span></em>, <em class="sig-param"><span class="n">predictions_doc</span></em>, <em class="sig-param"><span class="n">RELATIONS_TO_STORE</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/parse_narrowIE_output.html#read_sciie_output_format"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.parse_narrowIE_output.read_sciie_output_format" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Reads the SciIE input and predictions, and prepares a list of arguments to write to a csv file. Choices for RELATIONS_TO_STORE:</dt><dd><ul class="simple">
+<li><p>ALL - Use all narrow IE arguments and relations found in all documents.</p></li>
+<li><p>TRADEOFFS - Use all narrow IE arguments and relations found in documents where a TradeOff relation was found.</p></li>
+<li><p>TRADEOFFS_AND_ARGMODS - Use only the TradeOff relations and their modifiers (in documents where a TradeOff relation was found).</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_doc</strong> – the input data to the SciIE system.</p></li>
+<li><p><strong>predictions_doc</strong> – the predictions from the SciIE system for the same input data.</p></li>
+<li><p><strong>RELATIONS_TO_STORE</strong> – variable that determines which arguments to store  - choice
+between ‘ALL’, ‘TRADEOFFS’, and ‘TRADEOFFS_AND_ARGMODS’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><cite>output_all_sentences</cite> a list of rows to write to a CSV file -
+[doc_id, sent_id, RELATIONS_TO_STORE, argument_list, sentence]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.parse_narrowIE_output.simple_tokens_to_string">
+<code class="sig-prename descclassname">SORE.parse_narrowIE_output.</code><code class="sig-name descname">simple_tokens_to_string</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tokenlist</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/parse_narrowIE_output.html#simple_tokens_to_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.parse_narrowIE_output.simple_tokens_to_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a list of tokens to a string.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>tokenlist</strong> – A list of tokens from the spacy parser</p>
+</dd>
+</dl>
+<p>:return : A string with all tokens concatenated, simply separated by a space.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.parse_narrowIE_output.start_parsing">
+<code class="sig-prename descclassname">SORE.parse_narrowIE_output.</code><code class="sig-name descname">start_parsing</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">pred</span></em>, <em class="sig-param"><span class="n">output_csv</span></em>, <em class="sig-param"><span class="n">RELATIONS_TO_STORE</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/parse_narrowIE_output.html#start_parsing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.parse_narrowIE_output.start_parsing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the parsing of a single set of narrow IE predictions, and write these to a temporary CSV file.
+The CSV file will be combined with others into one large CSV. Choices for RELATIONS_TO_STORE:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>ALL - Use all narrow IE arguments and relations found in all documents.</p></li>
+<li><p>TRADEOFFS - Use all narrow IE arguments and relations found in documents where a TradeOff relation was found.</p></li>
+<li><p>TRADEOFFS_AND_ARGMODS - Use only the TradeOff relations and their modifiers (in documents where a TradeOff relation was found).</p></li>
+</ul>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> – narrowIE input.</p></li>
+<li><p><strong>pred</strong> – narrowIE predictions.</p></li>
+<li><p><strong>output_csv</strong> – temporary csv file name.</p></li>
+<li><p><strong>RELATIONS_TO_STORE</strong> – Settings for which relatiosn to store.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.run_OIE5">
+<span id="compute-openie-5-extractions"></span><h2>Compute OpenIE 5 extractions<a class="headerlink" href="#module-SORE.run_OIE5" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="SORE.run_OIE5.OpenIE5_client">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.run_OIE5.</code><code class="sig-name descname">OpenIE5_client</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">csv_path</span></em>, <em class="sig-param"><span class="n">oie_data_dir</span></em>, <em class="sig-param"><span class="n">path_to_OIE_jar</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates functionality to query the Open IE 5 standalone server.</p>
+<dl class="py method">
+<dt id="SORE.run_OIE5.OpenIE5_client.determine_in_and_output_files">
+<code class="sig-name descname">determine_in_and_output_files</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client.determine_in_and_output_files"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client.determine_in_and_output_files" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="SORE.run_OIE5.OpenIE5_client.get_docid_from_filename">
+<code class="sig-name descname">get_docid_from_filename</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">output_name</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client.get_docid_from_filename"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client.get_docid_from_filename" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="SORE.run_OIE5.OpenIE5_client.get_extractions">
+<code class="sig-name descname">get_extractions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client.get_extractions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client.get_extractions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="SORE.run_OIE5.OpenIE5_client.parse_extractions">
+<code class="sig-name descname">parse_extractions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dict_list</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client.parse_extractions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client.parse_extractions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses the OpenIE5 json output for a single line, which has the format:
+[{‘confidence’ : x1, ‘sentence’: y, ‘extraction’: {</p>
+<blockquote>
+<div><p>‘arg1’: {‘text’: str},
+‘rel’ : {‘text’: str},
+‘arg2s’: {‘text’: str},</p>
+</div></blockquote>
+<dl class="simple">
+<dt>{‘confidence’<span class="classifier">x2, ‘sentence’: y, ‘extraction: {}’ },</span></dt><dd><p>etc.. ]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.run_OIE5.OpenIE5_client.start_server">
+<code class="sig-name descname">start_server</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client.start_server"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client.start_server" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="SORE.run_OIE5.OpenIE5_client.stop_server">
+<code class="sig-name descname">stop_server</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#OpenIE5_client.stop_server"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.OpenIE5_client.stop_server" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="SORE.run_OIE5.run_OpenIE_5">
+<code class="sig-prename descclassname">SORE.run_OIE5.</code><code class="sig-name descname">run_OpenIE_5</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">csv_path</span></em>, <em class="sig-param"><span class="n">path_to_OIE_jar</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unprocessed_paths</span><span class="o">=</span><span class="default_value">'SORE/data/OpenIE/'</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/run_OIE5.html#run_OpenIE_5"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.run_OIE5.run_OpenIE_5" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-SORE.filterOIE_with_narrowIE">
+<span id="sore-filtering"></span><h2>SORE filtering<a class="headerlink" href="#module-SORE.filterOIE_with_narrowIE" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.filterOIE_with_narrowIE.</code><code class="sig-name descname">NarrowIEOpenIECombiner</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">oie_data_dir</span></em>, <em class="sig-param"><span class="n">IDF_path</span></em>, <em class="sig-param"><span class="n">csv_path</span></em>, <em class="sig-param"><span class="n">SUBWORDUNIT</span></em>, <em class="sig-param"><span class="n">sp_size</span></em>, <em class="sig-param"><span class="n">number_of_clusters</span><span class="o">=</span><span class="default_value">50</span></em>, <em class="sig-param"><span class="n">stemming</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">stopwords</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">SUBWORD_UNIT_COMBINATION</span><span class="o">=</span><span class="default_value">'avg'</span></em>, <em class="sig-param"><span class="n">path_to_embeddings</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/filterOIE_with_narrowIE.html#NarrowIEOpenIECombiner"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates paths and settings for SORE filtering.</p>
+<dl class="py method">
+<dt id="SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.OIE_files_to_filter">
+<code class="sig-name descname">OIE_files_to_filter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/filterOIE_with_narrowIE.html#NarrowIEOpenIECombiner.OIE_files_to_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.OIE_files_to_filter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tries to ensure that only the ‘processed OIE files’ are selected for which narrow IE extractions are found.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.check_for_embeddings">
+<code class="sig-name descname">check_for_embeddings</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/filterOIE_with_narrowIE.html#NarrowIEOpenIECombiner.check_for_embeddings"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.check_for_embeddings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the ELMo (pubmed) embeddings are present. If not found, will download them for reuse.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.get_docid_from_filename">
+<code class="sig-name descname">get_docid_from_filename</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">output_name</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/filterOIE_with_narrowIE.html#NarrowIEOpenIECombiner.get_docid_from_filename"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.get_docid_from_filename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple returns the filename from a path.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.prepare_narrowIE_embeddings">
+<code class="sig-name descname">prepare_narrowIE_embeddings</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">sp_model_path</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/filterOIE_with_narrowIE.html#NarrowIEOpenIECombiner.prepare_narrowIE_embeddings"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.prepare_narrowIE_embeddings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare all embeddings for the narrow IE arguments, store them as pickle files for reuse (name based on settings).
+If these pickle files already exist, simply load the embeddings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> – Experiment name</p></li>
+<li><p><strong>sp_model_path</strong> – Path to the pre-trained SentencePiece model.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Phrases extracted through narrow IE, corresponding embeddings and the embedder obj for re-use</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">filter_settings</span></em>, <em class="sig-param"><span class="n">output_dir</span></em>, <em class="sig-param"><span class="n">print_stats</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">print_clusters</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">plot</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">cluster_names</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/filterOIE_with_narrowIE.html#NarrowIEOpenIECombiner.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.filterOIE_with_narrowIE.NarrowIEOpenIECombiner.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Script to run the filtering process.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> – Name of the experiment.</p></li>
+<li><p><strong>filter_settings</strong> – A dict with filter settings, retrieved from the settings file (e.g. SORE/SORE_settings.json).</p></li>
+<li><p><strong>output_dir</strong> – Directory to store filtered and unfiltered extractions as json files.</p></li>
+<li><p><strong>print_stats</strong> – Boolean - determines whether you’d like to print the filtering statistics</p></li>
+<li><p><strong>print_clusters</strong> – Boolean - determines whether you’d like to print the clusters to get some insight</p></li>
+<li><p><strong>plot</strong> – Boolean - determines whether you’d like to plot the clusters (by default not being used)</p></li>
+<li><p><strong>cluster_names</strong> – A list of names for the clusters, to provide the plot with labels.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE.SORE_to_BRAT">
+<span id="convert-sore-output-to-brat-annotations"></span><h2>Convert SORE output to BRAT annotations<a class="headerlink" href="#module-SORE.SORE_to_BRAT" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="SORE.SORE_to_BRAT.BratConverter">
+<em class="property">class </em><code class="sig-prename descclassname">SORE.SORE_to_BRAT.</code><code class="sig-name descname">BratConverter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">paths_to_datasets</span></em>, <em class="sig-param"><span class="n">narrowIE_path</span></em>, <em class="sig-param"><span class="n">SORE_processed_path</span></em>, <em class="sig-param"><span class="n">BRAT_output_path</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Encapsulates the paths to convert SORE filtered files to BRAT annotations (for visualisation of results).</p>
+<dl class="py method">
+<dt id="SORE.SORE_to_BRAT.BratConverter.convert_NIE_annotations">
+<code class="sig-name descname">convert_NIE_annotations</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sentence</span></em>, <em class="sig-param"><span class="n">narrowIE_args</span></em>, <em class="sig-param"><span class="n">sent_start_idx</span></em>, <em class="sig-param"><span class="n">span_counter</span></em>, <em class="sig-param"><span class="n">rel_counter</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter.convert_NIE_annotations"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter.convert_NIE_annotations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts the narrow IE annotations for a sentence to a list of annotations to write to the .ann file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sentence</strong> – String with input sentence.</p></li>
+<li><p><strong>narrowIE_args</strong> – Argument phrases found through narrow IE in that sentence.</p></li>
+<li><p><strong>sent_start_idx</strong> – Index of the sentence start in the whole document</p></li>
+<li><p><strong>span_counter</strong> – Index of the previous span annotation in the whole document</p></li>
+<li><p><strong>rel_counter</strong> – Index of the previous relation annotation in the whole document</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Lines to write for the narrow IE extractions in this sentence, and updated counters.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.SORE_to_BRAT.BratConverter.convert_OIE_annotations">
+<code class="sig-name descname">convert_OIE_annotations</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sentence</span></em>, <em class="sig-param"><span class="n">annotations</span></em>, <em class="sig-param"><span class="n">sent_start_idx</span></em>, <em class="sig-param"><span class="n">span_counter</span></em>, <em class="sig-param"><span class="n">event_counter</span></em>, <em class="sig-param"><span class="n">attribute_counter</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter.convert_OIE_annotations"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter.convert_OIE_annotations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts an Open IE  extraction (after/before filtering) for a sentence to a list of annotations to write.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sentence</strong> – String with input sentence.</p></li>
+<li><p><strong>annotations</strong> – One of possibly multiple Open IE extraction for this sentence</p></li>
+<li><p><strong>sent_start_idx</strong> – Index of the sentence start in the whole document</p></li>
+<li><p><strong>span_counter</strong> – Index of the previous span annotation in the whole document</p></li>
+<li><p><strong>event_counter</strong> – Index of the previous Open IE event annotation in the whole document</p></li>
+<li><p><strong>attribute_counter</strong> – Index of the previous event attribute in the whole document</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Lines to write for one Open IE extraction in this sentence, and updated counters.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.SORE_to_BRAT.BratConverter.convert_to_BRAT">
+<code class="sig-name descname">convert_to_BRAT</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter.convert_to_BRAT"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter.convert_to_BRAT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert the SORE extractions to BRAT annotations.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>prefix</strong> – Experiment name prefix for SORE files to convert.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.SORE_to_BRAT.BratConverter.get_complete_span">
+<code class="sig-name descname">get_complete_span</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">w_list</span></em>, <em class="sig-param"><span class="n">sentence</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter.get_complete_span"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter.get_complete_span" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine the string in the original sentence spanned by the first and last word of an argument-list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>w_list</strong> – List of words for an argument.</p></li>
+<li><p><strong>sentence</strong> – Sentence from which the argument was extracted.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The string in the sentence that corresponds to the argument-list.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.SORE_to_BRAT.BratConverter.parse_argument_list">
+<code class="sig-name descname">parse_argument_list</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string_list</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter.parse_argument_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter.parse_argument_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses a narrow IE argument from the narrow IE CSV file (duplicate of narrowIE_parser).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>string_list</strong> – String that holds the list of arguments in the CSV file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of argument-phrases</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="SORE.SORE_to_BRAT.BratConverter.prep_ann_line">
+<code class="sig-name descname">prep_ann_line</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">span_type</span></em>, <em class="sig-param"><span class="n">text</span></em>, <em class="sig-param"><span class="n">sentence</span></em>, <em class="sig-param"><span class="n">sent_start_idx</span></em>, <em class="sig-param"><span class="n">span_counter</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SORE/SORE_to_BRAT.html#BratConverter.prep_ann_line"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#SORE.SORE_to_BRAT.BratConverter.prep_ann_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare a line that should be written to the .ann file, for a given span.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> – A span of text (argument represented as string) found by SORE (or OpenIE if relevant lines are uncommented).</p></li>
+<li><p><strong>sentence</strong> – String with the sentence from the original input, in which the span was found.</p></li>
+<li><p><strong>sent_start_idx</strong> – Index of the sentence start in the whole document</p></li>
+<li><p><strong>span_counter</strong> – Index of the previous span annotation in the whole document</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The line to write to an .ann file, and the updated span_counter</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-SORE">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-SORE" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="SORE.my_utils.html" class="btn btn-neutral float-right" title="SORE utilities" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="SORE_main.html" class="btn btn-neutral float-left" title="run_SORE.py main()" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

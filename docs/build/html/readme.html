@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Read Me &mdash; Semi-Open Relation Extraction (SORE) 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SORE Documentation" href="SORE_documentation.html" />
+    <link rel="prev" title="Semi-Open Relation Extraction (SORE)" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Semi-Open Relation Extraction (SORE)
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Read Me</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#train-and-use-sciie">Train and use SciIE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prepare-openie-5">Prepare OpenIE 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run-sore">Run SORE</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SORE_documentation.html">SORE Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Semi-Open Relation Extraction (SORE)</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Read Me</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/readme.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="read-me">
+<h1>Read Me<a class="headerlink" href="#read-me" title="Permalink to this headline">¶</a></h1>
+<p>To test SORE this repository contains ~110 papers, which are copied from the
+[OA-STM corpus](<a class="reference external" href="https://github.com/elsevierlabs/OA-STM-Corpus">https://github.com/elsevierlabs/OA-STM-Corpus</a>).
+These papers are sourced from 10 different scientific domains: Agriculture, Astronomy, Biology,
+Chemistry, Computer Science, Earth Science, Engineering, Materials Science, Mathematics and Medicine.</p>
+<div class="section" id="train-and-use-sciie">
+<h2>Train and use SciIE<a class="headerlink" href="#train-and-use-sciie" title="Permalink to this headline">¶</a></h2>
+<p>Clone the SciIE code from [this bitbucket repository](<a class="reference external" href="https://bitbucket.org/luanyi/scierc/src/master/">https://bitbucket.org/luanyi/scierc/src/master/</a>),
+also check this repository for more information on adjusting runtime parameters.</p>
+<dl class="simple">
+<dt>Create a separate SciIE environment:</dt><dd><ul class="simple">
+<li><p><cite>conda create –name SCIIE python=2.7</cite></p></li>
+<li><p><cite>source activate SCIIE</cite></p></li>
+</ul>
+</dd>
+<dt>Install the following dependencies:</dt><dd><ul class="simple">
+<li><p><cite>pip install TensorFlow==1.8.0</cite></p></li>
+<li><p><cite>pip install tensorflow_hub</cite></p></li>
+<li><p><cite>pip install pyhocon</cite></p></li>
+</ul>
+</dd>
+</dl>
+<ol class="arabic">
+<li><p>Fetch GloVe embeddings and build kernels</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Open the SciIE folder in a terminal/console window and run:</dt><dd><ul class="simple">
+<li><p><cite>./scripts/fetch_required_data.sh</cite></p></li>
+<li><p><cite>./scripts/build_custom_kernels.sh</cite></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p>Generate ELMo embeddings for FOBIE and train a model</p>
+<blockquote>
+<div><p>First copy the SciIE formatted FOBIE files to: <cite>[SciIE_folder]/data/processed_data/json/</cite></p>
+<dl class="simple">
+<dt>In the SORE directory you can find a folder called <cite>sciie_scripts/</cite>, copy the files to your <cite>[SciIE_folder]</cite>:</dt><dd><ul class="simple">
+<li><p>Replace <cite>[SciIE_folder]/experiments.conf</cite> and place <cite>embed_and_predict.py</cite> and <cite>generate_FOBIE_embeddings.py</cite> alongside it</p></li>
+<li><p>Create a directory <cite>[SciIE_folder]/FOBIE_output/</cite> to store predictions</p></li>
+</ul>
+</dd>
+<dt>Generate the embeddings for the FOBIE dataset:</dt><dd><ul class="simple">
+<li><p>Run <cite>python generate_FOBIE_embeddings.py</cite> (make sure to be in the correct environment)</p></li>
+</ul>
+</dd>
+<dt>To train a model you can run:</dt><dd><ul class="simple">
+<li><p><cite>python singleton.py fobie_train &amp; python evaluator.py fobie_train</cite></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p>Predict using your trained model</p>
+<blockquote>
+<div><dl class="simple">
+<dt>You’re now set to make predictions on unseen data:</dt><dd><ul class="simple">
+<li><p><cite>python embed_and_predict.py fobie_train</cite></p></li>
+</ul>
+</dd>
+</dl>
+<p>This will loop through the files found in <cite>[SciIE_folder]/data/processed_data/json/</cite>
+and ask you which files to process before starting the embedding (can take a while for big files).</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="prepare-openie-5">
+<h2>Prepare OpenIE 5<a class="headerlink" href="#prepare-openie-5" title="Permalink to this headline">¶</a></h2>
+<p>Clone the [github repo for OpenIE 5](<a class="reference external" href="https://github.com/dair-iitd/OpenIE-standalone">https://github.com/dair-iitd/OpenIE-standalone</a>),
+aslo see this repo for more information about compiling.
+In the newly created <cite>OpenIE-standalone</cite> folder, you’ll have to create a new directory called <cite>lib/</cite>.</p>
+<dl class="simple">
+<dt>You will have to download and place into the <cite>lib/</cite> folder:</dt><dd><ul class="simple">
+<li><p>[The BONIE standalone jar](<a class="reference external" href="https://github.com/dair-iitd/OpenIE-standalone/releases/download/v5.0/BONIE.jar">https://github.com/dair-iitd/OpenIE-standalone/releases/download/v5.0/BONIE.jar</a>)</p></li>
+<li><p>[The CALMIE standalone jar](<a class="reference external" href="https://github.com/dair-iitd/OpenIE-standalone/releases/download/v5.0/ListExtractor.jar">https://github.com/dair-iitd/OpenIE-standalone/releases/download/v5.0/ListExtractor.jar</a>)</p></li>
+</ul>
+</dd>
+<dt>Furthermore, you will have to download and place into the <cite>data/</cite> folder:</dt><dd><ul class="simple">
+<li><p>[The Berkeley Language Model](<a class="reference external" href="https://drive.google.com/file/d/0B-5EkZMOlIt2cFdjYUJZdGxSREU/view?usp=sharing">https://drive.google.com/file/d/0B-5EkZMOlIt2cFdjYUJZdGxSREU/view?usp=sharing</a>)</p></li>
+</ul>
+</dd>
+<dt>OpenIE is compiled using <cite>sbt</cite> and Java 8:</dt><dd><ul class="simple">
+<li><p>Install [SDK](<a class="reference external" href="https://sdkman.io/install">https://sdkman.io/install</a>) by running <cite>curl -s “https://get.sdkman.io” | bash</cite></p></li>
+<li><p>Open a new terminal window and check that sdk is installed <cite>sdk version</cite></p></li>
+<li><p>Then install sbt <cite>sdk install sbt</cite>:
+* You may need sbt at version 0.13.x , e.g.: <cite>sdk install sbt 0.13.18</cite></p></li>
+<li><p>Inside the <cite>OpenIE-standalone/</cite> directory:
+* First run  <cite>bash compile.sh</cite> to compile SRLIE and ONRE
+* Then compile the jar file <cite>sbt -J-Xmx10000M clean compile assembly</cite>
+* You may have to [install Java 8](<a class="reference external" href="https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html">https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html</a>) first , e.g.: <cite>sdk install java 8.0.252-amzn</cite>
+* And add java to your path, e.g., <cite>export PATH=$PATH:~/.sdkman/candidates/java/8.0.252-amzn/bin</cite>
+* You may need to set the Scala version to [version 2.10.2](<a class="reference external" href="https://www.scala-lang.org/download/2.10.2.html">https://www.scala-lang.org/download/2.10.2.html</a>)</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="run-sore">
+<h2>Run SORE<a class="headerlink" href="#run-sore" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Create an environment and activate, e.g.;</dt><dd><ul class="simple">
+<li><p><cite>conda create –name SORE python=3.6</cite></p></li>
+<li><p><cite>source activate SORE</cite></p></li>
+</ul>
+</dd>
+<dt>Install the requirements found inside <cite>[FOBIE_repo]/SORE/</cite>:</dt><dd><ul class="simple">
+<li><p><cite>pip install -r requirements.txt</cite></p></li>
+<li><p>Download required language models
+* <cite>python -m spacy download en_core_web_sm</cite>
+* <cite>python -m textblob.download_corpora</cite></p></li>
+</ul>
+</dd>
+<dt>Edit the <cite>SORE_settings.json</cite> doc:</dt><dd><ul class="simple">
+<li><p>Set the <cite>path_to_OIE_jar</cite>, for example: <cite>/Users/../../OpenIE-standalone/target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar</cite></p></li>
+</ul>
+</dd>
+<dt>You can run the code for SORE from the FOBIE repository:</dt><dd><ul class="simple">
+<li><p><cite>python run_SORE.py</cite></p></li>
+</ul>
+</dd>
+<dt>Main settings:</dt><dd><ul class="simple">
+<li><p>Prepare_data: Yes/No - convert json data found in <cite>[FOBIE_repo]/SORE/data/unprocessed/</cite> to OpenIE and SciIE input files.
+* Note that to predict with SciIE you’ll have to move these input files to <cite>[SciIE_folder]/data/processed_data/json/</cite>.</p></li>
+<li><p>Parse_narrowIE_predictions: Yes/No - parse SciIE prediction files to a single csv, specified in the settings file under <cite>“narrowIE_input_files”</cite>. These predictions files should be placed in <cite>[FOBIE_repo]/SORE/data/narrowIE/predictions/</cite>, note that you’ll have to move predictions made with SciIE here (from the <cite>[SciIE_folder]/FOBIE_output/</cite> folder).</p></li>
+<li><p>Run_OIE: Yes/No - run OpenIE 5 on each of the files for which SciIE has found relations.</p></li>
+<li><p>Filter_OIE: Yes/No - filter the OpenIE 5 extractions using the predicted relations stored in the narrowIE output csv file.</p></li>
+<li><p>convert_back_to_BRAT: Yes/No - convert the SORE extractions to a BRAT annotations format, this enables you to visualise the resulting extractions in [BRAT](<a class="reference external" href="https://brat.nlplab.org/index.html">https://brat.nlplab.org/index.html</a>).</p></li>
+</ul>
+</dd>
+</dl>
+<p>Note that FOBIE focuses on tradeoffs and other types of correlations in the Biology domain. Non-tradeoff relations
+can be used to filter OpenIE extractions in distinct domains, but whether the arguments used for filtering are useful can vary.</p>
+<p>If you have any questions, please let me know!</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="SORE_documentation.html" class="btn btn-neutral float-right" title="SORE Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Semi-Open Relation Extraction (SORE)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Ruben Kruiper
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
