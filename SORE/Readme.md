@@ -15,7 +15,7 @@ Create a separate SciIE environment:
   * `source activate SCIIE`
 
 Install the following dependencies:
-  * `pip install TensorFlow==1.8.0`
+  * `pip install TensorFlow==1.14.0`
   * `pip install tensorflow_hub`
   * `pip install pyhocon`
 
