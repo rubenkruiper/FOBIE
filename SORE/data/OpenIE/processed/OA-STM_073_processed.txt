@@ -1,230 +1,230 @@
-[LINE#1]A wind farm with a simple electrical topology based on passive rectifiers and a single inverter (mutual topology) is compared to a more complex topology where each turbine has a separate inverter (separate topology).
+[LINE#0] A wind farm with a simple electrical topology based on passive rectifiers and a single inverter (mutual topology) is compared to a more complex topology where each turbine has a separate inverter (separate topology).
 0.919	[*A*]a simple electrical topology[*R*]based[*A*]on a single inverter	context()	negated: False ,passive: True
 0.957	[*A*]each turbine[*R*]has[*A*]a separate inverter[*A*]a more complex topology	context()	negated: False ,passive: False
 0.934	[*A*]A wind farm with a simple electrical topology[*R*]is compared[*A*]to a more complex topology	context()	negated: False ,passive: True
 0.919	[*A*]a simple electrical topology[*R*]based[*A*]on passive rectifiers	context()	negated: False ,passive: True
-[LINE#2]In both cases, the turbines are controlled electrically by varying the extracted power with the rotational velocity as control signal.
+[LINE#1] In both cases, the turbines are controlled electrically by varying the extracted power with the rotational velocity as control signal.
 0.927	[*A*]the turbines[*R*]by varying[*A*]the extracted power with the rotational velocity as control signal	context()	negated: False ,passive: False
 0.933	[*A*]the turbines[*R*]are controlled electrically[*A*]In both cases	context()	negated: False ,passive: True
-[LINE#3]These two electrical topologies are evaluated with respect to the absorbed power for a farm of four turbines placed either on a line or in a square configuration.
+[LINE#2] These two electrical topologies are evaluated with respect to the absorbed power for a farm of four turbines placed either on a line or in a square configuration.
 0.903	[*A*]four turbines[*R*]placed[*A*]either on a line or in a square configuration	context()	negated: False ,passive: True
 0.769	[*A*]These two electrical topologies[*R*]are evaluated	context()	negated: False ,passive: False
-[LINE#4]The evaluation is done with a vortex model for the aerodynamics, coupled with a model of the electromechanical system.
+[LINE#3] The evaluation is done with a vortex model for the aerodynamics, coupled with a model of the electromechanical system.
 0.887	[*A*]the aerodynamics[*R*]coupled[*A*]with a model of the electromechanical system	context()	negated: False ,passive: True
 0.732	[*A*]The evaluation[*R*]is done	context()	negated: False ,passive: False
-[LINE#5]Simulations predict that individual control is beneficial for aerodynamically independent turbines if the wind speeds differ significantly between the turbines.
+[LINE#4] Simulations predict that individual control is beneficial for aerodynamically independent turbines if the wind speeds differ significantly between the turbines.
 0.908	[*A*]individual control[*R*]is[*A*]beneficial for aerodynamically independent turbines[*A*]if the wind speeds differ significantly between the turbines	context(Simulations predict)	negated: False ,passive: True
 0.799	[*A*]Simulations[*R*]predict[*A*]that individual control is beneficial for aerodynamically independent turbines if the wind speeds differ significantly between the turbines	context()	negated: False ,passive: False
 0.751	[*A*]the wind speeds[*R*]differ significantly	context()	negated: False ,passive: False
-[LINE#6]If the differences in wind speed are caused by one turbine operating in the wake of another, the deviations in power output between the topologies are less prominent.
+[LINE#5] If the differences in wind speed are caused by one turbine operating in the wake of another, the deviations in power output between the topologies are less prominent.
 0.854	[*A*]the deviations in power output between the topologies[*R*]are[*A*]less prominent	context()	negated: False ,passive: True
 0.903	[*A*]one turbine[*R*]operating[*A*]in the wake of another	context()	negated: False ,passive: True
 0.926	[*A*]the differences in wind speed[*R*]are caused[*A*]by one turbine	context()	negated: False ,passive: True
-[LINE#7]The mutual topology can even deliver more power than the separate topology when one turbine is in the wake of another turbine if the wind speed changes rapidly.
+[LINE#6] The mutual topology can even deliver more power than the separate topology when one turbine is in the wake of another turbine if the wind speed changes rapidly.
 0.925	[*A*]one turbine[*R*]is[*A*]in the wake of another turbine	context()	negated: False ,passive: True
 0.870	[*A*]The mutual topology[*R*]can deliver[*A*]more power than the separate topology[*A*]if the wind speed changes rapidly	context()	negated: False ,passive: False
-[LINE#8]Simulations with aerodynamically independent turbines have indicated that a mutual DC-bus with passive rectification is a viable design choice unless the variations in wind speed are very large.
+[LINE#7] Simulations with aerodynamically independent turbines have indicated that a mutual DC-bus with passive rectification is a viable design choice unless the variations in wind speed are very large.
 0.960	[*A*]a mutual DC-bus with passive rectification[*R*]is[*A*]a viable design choice[*A*]unless the variations in wind speed are very large	context(Simulations with aerodynamically independent turbines have indicated)	negated: False ,passive: True
 0.875	[*A*]Simulations with aerodynamically independent turbines[*R*]have indicated[*A*]that a mutual DC-bus with passive rectification is a viable design choice	context()	negated: False ,passive: False
 0.814	[*A*]the variations in wind speed[*R*]are[*A*]very large	context()	negated: False ,passive: True
-[LINE#9]If the wind speed differences among the turbines are due to the turbines' mutual interaction, the mutual and the separate topologies are almost equal in performance.
+[LINE#8] If the wind speed differences among the turbines are due to the turbines' mutual interaction, the mutual and the separate topologies are almost equal in performance.
 0.932	[*A*]the mutual and the separate topologies[*R*]are[*A*]almost equal in performance	context()	negated: False ,passive: True
 0.938	[*A*]the wind speed differences among the turbines[*R*]are[*A*]due to the turbines' mutual interaction	context()	negated: False ,passive: True
-[LINE#10]This illustrates the importance of including the aerodynamic interaction between the turbines when the viability of a control system is analysed.
+[LINE#9] This illustrates the importance of including the aerodynamic interaction between the turbines when the viability of a control system is analysed.
 0.801	[*A*]the viability of a control system[*R*]is analysed	context()	negated: False ,passive: False
 0.497	[*A*]This[*R*]illustrates[*A*]the importance of including the aerodynamic interaction between the turbines	context()	negated: False ,passive: False
-[LINE#11]It is furthermore shown that the array configuration and the distance between the turbines are far more important than the electrical topology for the energy capture.
-[LINE#12]According to the dynamic simulations, the separate topology is only slightly more efficient for the line configuration, while the mutual topology obtained better results for the square configuration.
+[LINE#10] It is furthermore shown that the array configuration and the distance between the turbines are far more important than the electrical topology for the energy capture.
+[LINE#11] According to the dynamic simulations, the separate topology is only slightly more efficient for the line configuration, while the mutual topology obtained better results for the square configuration.
 0.911	[*A*]the mutual topology[*R*]obtained[*A*]better results for the square configuration	context()	negated: False ,passive: False
 0.956	[*A*]the separate topology[*R*]is[*A*]only slightly more efficient for the line configuration[*A*]while the mutual topology obtained better results for the square configuration	context()	negated: False ,passive: True
-[LINE#13]Power loss in the cores of the generators is larger when the mutual topology is used.
+[LINE#12] Power loss in the cores of the generators is larger when the mutual topology is used.
 0.751	[*A*]the mutual topology[*R*]is used	context()	negated: False ,passive: False
 0.957	[*A*]Power loss in the cores of the generators[*R*]is[*A*]larger[*A*]when the mutual topology is used	context()	negated: False ,passive: True
-[LINE#14] Control strategyThe tip speed ratio of a turbine is defined as(1) rV,where r is the turbine radius,  is the rotational velocity and V.
+[LINE#13+14]  Control strategyThe tip speed ratio of a turbine is defined as(1) rV,where r is the turbine radius,  is the rotational velocity and V.
 0.949	[*A*]Control strategyThe tip speed ratio of a turbine[*R*]is[*A*]the rotational velocity	context()	negated: False ,passive: True
 0.925	[*A*]r[*R*]is[*A*]the turbine radius[*A*]1 ) rV	context()	negated: False ,passive: True
 0.952	[*A*]Control strategyThe tip speed ratio of a turbine[*R*]is defined[*A*]as ( 1 ) rV	context()	negated: False ,passive: True
-[LINE#15]Maximal power absorption occurs at roughly the same tip speed ratio regardless of wind speed.
+[LINE#15] Maximal power absorption occurs at roughly the same tip speed ratio regardless of wind speed.
 0.943	[*A*]Maximal power absorption[*R*]occurs[*A*]at roughly the same tip speed ratio regardless of wind speed	context()	negated: False ,passive: True
-[LINE#16]Consequently, many control strategies strive to maintain the correct tip speed ratio by adjusting the rotational velocity.
+[LINE#16] Consequently, many control strategies strive to maintain the correct tip speed ratio by adjusting the rotational velocity.
 0.888	[*A*]many control strategies[*R*]strive to maintain the correct tip speed ratio by adjusting[*A*]the rotational velocity	context(many control strategies strive to maintain)	negated: False ,passive: False
 0.888	[*A*]many control strategies[*R*]strive to maintain[*A*]the correct tip speed ratio	context(many control strategies strive)	negated: False ,passive: False
 0.927	[*A*]many control strategies[*R*]strive[*A*]to maintain the correct tip speed ratio by adjusting the rotational velocity	context()	negated: False ,passive: False
-[LINE#17]Accurate real time wind speed measurements can be used to determine the proper rotational velocity.
+[LINE#17] Accurate real time wind speed measurements can be used to determine the proper rotational velocity.
 0.921	[*A*]Accurate real time wind speed measurements[*R*]to determine[*A*]the proper rotational velocity	context()	negated: False ,passive: False
 0.932	[*A*]Accurate real time wind speed measurements[*R*]can be used[*A*]to determine the proper rotational velocity	context()	negated: False ,passive: True
-[LINE#18]A weakness of this approach is that this data is typically not available.
+[LINE#18] A weakness of this approach is that this data is typically not available.
 0.632	[*A*]this data[*R*]is not[*A*]available	context(A weakness of this approach is)	negated: True ,passive: True
 0.828	[*A*]A weakness of this approach[*R*]is[*A*]that this data is typically not available	context()	negated: False ,passive: True
-[LINE#19]A method to control a single turbine without knowledge of the wind speed is presented in Ref.
+[LINE#19] A method to control a single turbine without knowledge of the wind speed is presented in Ref.
 0.970	[*A*]A method to control a single turbine without knowledge of the wind speed[*R*]is presented[*A*]in Ref	context()	negated: False ,passive: True
 0.903	[*A*]A method[*R*]to control[*A*]a single turbine	context()	negated: False ,passive: False
-[LINE#20] [10] and a brief overview is given here: For the given control strategy, there will be an equilibrium where the extracted power equals the turbine power (Pe=P), see Fig..
+[LINE#20]  [10] and a brief overview is given here: For the given control strategy, there will be an equilibrium where the extracted power equals the turbine power (Pe=P), see Fig..
 0.948	[*A*]the extracted power[*R*]equals[*A*]the turbine power[*A*]an equilibrium	context()	negated: False ,passive: True
-[LINE#21] For maximum power capture, this equilibrium should occur at the tip speed ratio max that gives the highest power coefficient CPmax:(2)Pe=.
+[LINE#21]  For maximum power capture, this equilibrium should occur at the tip speed ratio max that gives the highest power coefficient CPmax:(2)Pe=.
 0.913	[*A*]the tip speed ratio max[*R*]gives[*A*]the highest power coefficient	context()	negated: False ,passive: False
 0.903	[*A*]this equilibrium[*R*]should occur[*A*]at the tip speed ratio max	context()	negated: False ,passive: True
-[LINE#22] P=12CPmaxAV3=12CPmaxAr33max3=the extracted power increases as the cube of the rotational velocity as long as the tip speed ratio and the power coefficient are constant.
+[LINE#22+23]  P=12CPmaxAV3=12CPmaxAr33max3=the extracted power increases as the cube of the rotational velocity as long as the tip speed ratio and the power coefficient are constant.
 0.783	[*A*]the power coefficient[*R*]are[*A*]constant	context()	negated: False ,passive: True
 0.799	[*A*]the tip speed ratio[*R*]are[*A*]constant	context()	negated: False ,passive: True
-[LINE#23]If the extracted power is higher than the turbine power, the rotational velocity decreases, while it increases if the extracted power is lower.
+[LINE#24] If the extracted power is higher than the turbine power, the rotational velocity decreases, while it increases if the extracted power is lower.
 0.452	[*A*]it[*R*]increases[*A*]if the extracted power is lower	context()	negated: False ,passive: False
 0.823	[*A*]the rotational velocity[*R*]decreases[*A*]while it increases if the extracted power is lower	context()	negated: False ,passive: True
 0.932	[*A*]the extracted power[*R*]is[*A*]higher than the turbine power	context()	negated: False ,passive: True
 0.828	[*A*]the extracted power[*R*]is[*A*]lower	context()	negated: False ,passive: True
-[LINE#24]For low tip speed ratios, this control strategy may cause the turbine to stop, see Fig. 1.
+[LINE#25] For low tip speed ratios, this control strategy may cause the turbine to stop, see Fig. 1.
 0.678	[*A*]the turbine[*R*]to stop	context(this control strategy may cause)	negated: False ,passive: False
 0.905	[*A*]this control strategy[*R*]may cause[*A*]the turbine to stop, see Fig	context()	negated: False ,passive: False
 0.880	[*A*]the turbine[*R*]to see[*A*]Fig	context()	negated: False ,passive: False
-[LINE#25] In this work a more stable strategy is implemented:(3){Pe=00,Pe=k32(-2)+k2222<,where(4)k1=11-0k2due to continuity at =1.
+[LINE#26+27]  In this work a more stable strategy is implemented:(3){Pe=00,Pe=k32(-2)+k2222<,where(4)k1=11-0k2due to continuity at =1.
 0.944	[*A*]a more stable strategy[*R*]is implemented[*A*]In this work	context()	negated: False ,passive: True
-[LINE#26](Fig. 2) maintains a higher rotational velocity at low wind speeds, i.e. the turbine is prevented from stopping at the cost of a slightly lower power coefficient at low and steady wind speeds.
+[LINE#28] (Fig. 2) maintains a higher rotational velocity at low wind speeds, i.e. the turbine is prevented from stopping at the cost of a slightly lower power coefficient at low and steady wind speeds.
 0.943	[*A*]i.e. the turbine[*R*]is prevented[*A*]from stopping at the cost of a slightly lower power coefficient at steady wind speeds	context()	negated: False ,passive: True
 0.889	[*A*]Fig[*R*]maintains[*A*]a higher rotational velocity at low wind speeds , i.e. the turbine is prevented from stopping at the cost of a slightly lower power coefficient at steady wind speeds	context()	negated: False ,passive: False
 0.943	[*A*]i.e. the turbine[*R*]is prevented[*A*]from stopping at the cost of a slightly lower power coefficient at low wind speeds	context()	negated: False ,passive: True
 0.889	[*A*]Fig[*R*]maintains[*A*]a higher rotational velocity at low wind speeds , i.e. the turbine is prevented from stopping at the cost of a slightly lower power coefficient at low wind speeds	context()	negated: False ,passive: False
-[LINE#27]The purpose of the 2< case is to decrease the tip speed ratio at high wind speeds in order to reduce power absorption and mechanical loads.
+[LINE#29] The purpose of the 2< case is to decrease the tip speed ratio at high wind speeds in order to reduce power absorption and mechanical loads.
 0.970	[*A*]The purpose of the 2 < case[*R*]is[*A*]to decrease the tip speed ratio at high wind speeds in order	context()	negated: False ,passive: True
-[LINE#28]The control system is optimised for 6 m/s wind speed.
+[LINE#30] The control system is optimised for 6 m/s wind speed.
 0.751	[*A*]The control system[*R*]is optimised	context()	negated: False ,passive: False
-[LINE#29]The control system starts to extract power for a tip speed ratio of 4 at 3 m/s wind speed, uses the cubical behaviour between wind speeds 4.5 m/s and 9 m/s, and starts to decrease tip speed ratio above.
+[LINE#31] The control system starts to extract power for a tip speed ratio of 4 at 3 m/s wind speed, uses the cubical behaviour between wind speeds 4.5 m/s and 9 m/s, and starts to decrease tip speed ratio above.
 0.933	[*A*]The control system[*R*]to extract[*A*]power[*A*]for a tip speed ratio of 4 at 3 m / s wind speed	context()	negated: False ,passive: False
 0.800	[*A*]The control system[*R*]starts	context()	negated: False ,passive: False
-[LINE#30]These are the same control system parameters as in Ref.
+[LINE#32] These are the same control system parameters as in Ref.
 0.590	[*A*]These[*R*]are[*A*]the same control system parameters as in Ref	context()	negated: False ,passive: True
-[LINE#31]The aim in this work is not to find the strategy that maximises power production, as this would be an extensive task and likely very turbine specific, hence requiring a much more advanced aerodynamic model.
+[LINE#33] The aim in this work is not to find the strategy that maximises power production, as this would be an extensive task and likely very turbine specific, hence requiring a much more advanced aerodynamic model.
 0.178	[*A*]this[*R*]would be[*A*]likely	context()	negated: False ,passive: True
 0.906	[*A*]The aim in this work[*R*]is[*A*]not to find the strategy that maximises power production , as this would be likely	context()	negated: False ,passive: True
 0.921	[*A*]an extensive task very turbine specific[*R*]requiring[*A*]a much more advanced aerodynamic model	context()	negated: False ,passive: False
 0.497	[*A*]this[*R*]would be[*A*]an extensive task very turbine specific , hence requiring a much more advanced aerodynamic model	context()	negated: False ,passive: True
 0.887	[*A*]the strategy[*R*]maximises[*A*]power production	context()	negated: False ,passive: False
 0.906	[*A*]The aim in this work[*R*]is[*A*]not to find the strategy that maximises power production , as this would be an extensive task very turbine specific ,	context()	negated: False ,passive: True
-[LINE#32]The aim is instead to show that a simple topology, such as the mutual DC-bus, can be a viable solution for the control of a vertical axis turbine farm as it can obtain relatively good performance without the need for wind speed measurements and additional electrical components.
+[LINE#34] The aim is instead to show that a simple topology, such as the mutual DC-bus, can be a viable solution for the control of a vertical axis turbine farm as it can obtain relatively good performance without the need for wind speed measurements and additional electrical components.
 0.452	[*A*]it[*R*]can obtain[*A*]relatively good performance	context()	negated: False ,passive: False
 0.897	[*A*]The aim[*R*]is[*A*]instead[*A*]to show that a simple topology , such as the mutual DC - bus , can be a viable solution for the control of a vertical axis turbine farm	context()	negated: False ,passive: True
-[LINE#33]The control system used with the separate topology works well for independent turbines, but it is not optimised for turbine farms.
+[LINE#35] The control system used with the separate topology works well for independent turbines, but it is not optimised for turbine farms.
 0.452	[*A*]it[*R*]is not optimised[*A*]for turbine farms	context()	negated: True ,passive: True
 0.943	[*A*]The control system used with the separate topology[*R*]works well[*A*]for independent turbines	context()	negated: False ,passive: False
 0.751	[*A*]The control system[*R*]used	context()	negated: False ,passive: False
-[LINE#34]The dynamic simulation case, where the mutual topology performed better than the separate topology only shows that it worked better than this particular implementation of individually controlled turbines.
+[LINE#36] The dynamic simulation case, where the mutual topology performed better than the separate topology only shows that it worked better than this particular implementation of individually controlled turbines.
 0.157	[*A*]it[*R*]worked better	context(The dynamic simulation case , where the mutual topology performed better than the separate topology shows)	negated: False ,passive: False
 0.900	[*A*]The dynamic simulation case, where the mutual topology performed better than the separate topology[*R*]shows[*A*]that it worked better than this particular implementation of individually controlled turbines	context()	negated: False ,passive: False
 0.939	[*A*]the mutual topology[*R*]performed better[*A*]The dynamic simulation case	context()	negated: False ,passive: False
-[LINE#35]As individual turbine control has more parameters to control, maximum obtainable aerodynamic performance should at least be as high as the mutual topology, as individual control could copy the rotational velocities from the mutual topology.
+[LINE#37] As individual turbine control has more parameters to control, maximum obtainable aerodynamic performance should at least be as high as the mutual topology, as individual control could copy the rotational velocities from the mutual topology.
 0.903	[*A*]individual control[*R*]could copy[*A*]the rotational velocities from the mutual topology	context()	negated: False ,passive: False
 0.922	[*A*]maximum obtainable aerodynamic performance[*R*]should be[*A*]as high as the mutual topology[*A*]as individual control could copy the rotational velocities from the mutual topology	context()	negated: False ,passive: True
 0.732	[*A*]more parameters[*R*]to control	context()	negated: False ,passive: False
 0.932	[*A*]individual turbine control[*R*]has[*A*]more parameters to control	context()	negated: False ,passive: False
-[LINE#36]Active rectification both allows for individual turbine control and a mutual DC-bus [15].
+[LINE#38] Active rectification both allows for individual turbine control and a mutual DC-bus [15].
 0.905	[*A*]Active rectification[*R*]allows[*A*]for a mutual DC - bus	context()	negated: False ,passive: False
 0.887	[*A*]Active rectification[*R*]allows[*A*]for individual turbine control	context()	negated: False ,passive: False
-[LINE#37]Active rectification should also decrease the power loss in the generator winding, since currents can be drawn at unity power factor, although the possible increase of the generator efficiency with active rectification is only 0.1-0.5% in a similar case with the same turbine and generator [11].
+[LINE#39] Active rectification should also decrease the power loss in the generator winding, since currents can be drawn at unity power factor, although the possible increase of the generator efficiency with active rectification is only 0.1-0.5% in a similar case with the same turbine and generator [11].
 0.907	[*A*]Active rectification[*R*]should decrease[*A*]the power loss in the generator[*A*]since currents can be drawn at unity power factor , although the possible increase of the generator efficiency with active rectification is only 0.1-0.5 % in a similar case with the same generator [ 11 ]	context()	negated: False ,passive: False
 0.964	[*A*]the possible increase of the generator efficiency with active rectification[*R*]is[*A*]only 0.1-0.5 %	context()	negated: False ,passive: True
 0.894	[*A*]currents[*R*]can be drawn[*A*]at unity power factor	context()	negated: False ,passive: True
 0.732	[*A*]the generator[*R*]winding	context()	negated: False ,passive: False
 0.907	[*A*]Active rectification[*R*]should decrease[*A*]the power loss in the generator[*A*]since currents can be drawn at unity power factor , although the possible increase of the generator efficiency with active rectification is only 0.1-0.5 % in a similar case with the same turbine [ 11 ]	context()	negated: False ,passive: False
-[LINE#38]However, active rectifiers are more complex and have higher internal losses than passive diode rectifiers.
+[LINE#40] However, active rectifiers are more complex and have higher internal losses than passive diode rectifiers.
 0.903	[*A*]active rectifiers[*R*]have[*A*]higher internal losses than passive diode rectifiers	context()	negated: False ,passive: False
 0.767	[*A*]active rectifiers[*R*]are[*A*]more complex	context()	negated: False ,passive: True
-[LINE#39]The aerodynamic model is two-dimensional and some issues regarding the two-dimensional approximation have been discussed in Ref.
+[LINE#41] The aerodynamic model is two-dimensional and some issues regarding the two-dimensional approximation have been discussed in Ref.
 0.952	[*A*]some issues regarding the two - dimensional approximation[*R*]have been discussed[*A*]in Ref	context()	negated: False ,passive: True
 0.828	[*A*]The aerodynamic model[*R*]is[*A*]two - dimensional	context()	negated: False ,passive: True
-[LINE#40][11], such as over-estimation of power coefficients due to neglected aerodynamic losses etc.
-[LINE#41]For the wind farm case, the two-dimensional approximation may be less accurate, as the distance between the turbines generally is larger than the turbine height.
+[LINE#42] [11], such as over-estimation of power coefficients due to neglected aerodynamic losses etc.
+[LINE#43] For the wind farm case, the two-dimensional approximation may be less accurate, as the distance between the turbines generally is larger than the turbine height.
 0.933	[*A*]the distance between the turbines[*R*]is[*A*]larger than the turbine height	context()	negated: False ,passive: True
 0.952	[*A*]the two-dimensional approximation[*R*]may be[*A*]less accurate[*A*]as the distance between the turbines generally is larger than the turbine height	context()	negated: False ,passive: True
-[LINE#42]Further, the two-dimensional approximation should overestimate the mutual interaction as no flow expansion occurs in the vertical direction.
+[LINE#44] Further, the two-dimensional approximation should overestimate the mutual interaction as no flow expansion occurs in the vertical direction.
 0.911	[*A*]no flow expansion[*R*]occurs[*A*]in the vertical direction	context()	negated: False ,passive: True
 0.926	[*A*]the two-dimensional approximation[*R*]should overestimate[*A*]the mutual interaction[*A*]as no flow expansion occurs in the vertical direction	context()	negated: False ,passive: False
-[LINE#43]The model does not include dissipation of the wake due to turbulence, velocity gradients, viscosity etc.
+[LINE#45] The model does not include dissipation of the wake due to turbulence, velocity gradients, viscosity etc.
 0.903	[*A*]The model[*R*]does not include[*A*]dissipation of the wake[*A*]due to turbulence, velocity gradients, viscosity etc.	context()	negated: True ,passive: True
-[LINE#44]The extracted power from a turbine in another turbines wake is therefore not as accurate as a more realistic full three-dimensional model, especially when the distances between the turbines are large.
+[LINE#46] The extracted power from a turbine in another turbines wake is therefore not as accurate as a more realistic full three-dimensional model, especially when the distances between the turbines are large.
 0.977	[*A*]The extracted power from a turbine in another turbines wake[*R*]is[*A*]therefore[*A*]not as accurate as a more realistic full three-dimensional model	context()	negated: False ,passive: True
-[LINE#45]The model has problems with the accuracy at low tip speed ratios due to the high angles of incidence as the Gormont model only handles light stall.
+[LINE#47] The model has problems with the accuracy at low tip speed ratios due to the high angles of incidence as the Gormont model only handles light stall.
 0.922	[*A*]the Gormont model[*R*]handles[*A*]light stall	context()	negated: False ,passive: False
 0.952	[*A*]The model[*R*]has[*A*]problems with the accuracy at low tip speed ratios due to the high angles of incidence	context()	negated: False ,passive: False
-[LINE#46]This should not be a major concern at tip speed ratio 4, where most simulations are performed.
+[LINE#48] This should not be a major concern at tip speed ratio 4, where most simulations are performed.
 0.732	[*A*]most simulations[*R*]are performed	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]should not be[*A*]a major concern at tip speed ratio 4	context()	negated: True ,passive: True
-[LINE#47]This can however affect the simulations in some of the cases where all turbines are operated at similar rotational velocities, but with different wind speeds.
+[LINE#49] This can however affect the simulations in some of the cases where all turbines are operated at similar rotational velocities, but with different wind speeds.
 0.933	[*A*]all turbines[*R*]are operated[*A*]the cases	context()	negated: False ,passive: True
 0.286	[*A*]This[*R*]can affect[*A*]the simulations in some of the cases	context()	negated: False ,passive: False
-[LINE#48]Electrical systemThis paper considers a simple and robust turbine design described in Ref.
+[LINE#50] Electrical systemThis paper considers a simple and robust turbine design described in Ref.
 0.931	[*A*]a robust turbine design[*R*]described[*A*]in Ref	context()	negated: False ,passive: True
 0.925	[*A*]Electrical systemThis paper[*R*]considers[*A*]a robust turbine design described in Ref	context()	negated: False ,passive: False
 0.931	[*A*]a simple turbine design[*R*]described[*A*]in Ref	context()	negated: False ,passive: True
 0.925	[*A*]Electrical systemThis paper[*R*]considers[*A*]a simple turbine design described in Ref	context()	negated: False ,passive: False
-[LINE#49]Each turbine is connected to a direct driven cable wound PM generator.
+[LINE#51] Each turbine is connected to a direct driven cable wound PM generator.
 0.544	[*A*]direct[*R*]driven[*A*]cable wound PM generator	context()	negated: False ,passive: False
 0.732	[*A*]Each turbine[*R*]is connected	context()	negated: False ,passive: False
-[LINE#50]PM generators are rugged and have low losses since no power or additional components are required to magnetise the rotor.
+[LINE#52] PM generators are rugged and have low losses since no power or additional components are required to magnetise the rotor.
 0.927	[*A*]PM generators[*R*]have[*A*]low losses[*A*]since no power or additional components are required to magnetise the rotor	context()	negated: False ,passive: False
 0.767	[*A*]PM generators[*R*]are[*A*]rugged	context()	negated: False ,passive: True
-[LINE#51]The current of each generator is rectified with a passive diode rectifier.
+[LINE#53] The current of each generator is rectified with a passive diode rectifier.
 0.785	[*A*]The current of each generator[*R*]is rectified	context()	negated: False ,passive: False
-[LINE#52]Passive diode rectifiers are reliable since no control system is required and the switching frequency is low.
+[LINE#54] Passive diode rectifiers are reliable since no control system is required and the switching frequency is low.
 0.828	[*A*]the switching frequency[*R*]is[*A*]low	context()	negated: False ,passive: True
 0.933	[*A*]Passive diode rectifiers[*R*]are[*A*]reliable[*A*]since the switching frequency is low	context()	negated: False ,passive: True
 0.751	[*A*]no control system[*R*]is required	context()	negated: False ,passive: False
 0.933	[*A*]Passive diode rectifiers[*R*]are[*A*]reliable[*A*]since no control system is required	context()	negated: False ,passive: True
-[LINE#53]The rectified current charges a capacitance which, in turn, supplies power to an AC grid via an inverter.
-[LINE#54]A drawback of the mutual topology is that the turbines are not controlled individually.
+[LINE#55] The rectified current charges a capacitance which, in turn, supplies power to an AC grid via an inverter.
+[LINE#56] A drawback of the mutual topology is that the turbines are not controlled individually.
 0.687	[*A*]the turbines[*R*]are not controlled individually	context(A drawback of the mutual topology is)	negated: True ,passive: False
 0.842	[*A*]A drawback of the mutual topology[*R*]is[*A*]that the turbines are not controlled individually	context()	negated: False ,passive: True
-[LINE#55]The electromotive force of a permanent magnet synchronous machine is proportional to the angular velocity of the rotor.
+[LINE#57] The electromotive force of a permanent magnet synchronous machine is proportional to the angular velocity of the rotor.
 0.960	[*A*]The electromotive force of a permanent magnet synchronous machine[*R*]is[*A*]proportional to the angular velocity of the rotor	context()	negated: False ,passive: True
-[LINE#56]A generator with a diode rectifier does not deliver current to the DC-bus if the greatest line to line voltage of the generator is smaller than the DC-bus voltage.
+[LINE#58] A generator with a diode rectifier does not deliver current to the DC-bus if the greatest line to line voltage of the generator is smaller than the DC-bus voltage.
 0.967	[*A*]the greatest line to line voltage of the generator[*R*]is[*A*]smaller than the DC-bus voltage	context()	negated: False ,passive: True
 0.943	[*A*]A generator with a diode rectifier[*R*]does not deliver[*A*]current[*A*]to the DC-bus	context()	negated: True ,passive: False
-[LINE#57]Therefore, no power will be provided by a generator that operates below a threshold speed that is proportional to the DC-bus voltage.
+[LINE#59] Therefore, no power will be provided by a generator that operates below a threshold speed that is proportional to the DC-bus voltage.
 0.933	[*A*]a threshold speed[*R*]is[*A*]proportional to the DC-bus voltage	context()	negated: False ,passive: True
 0.698	[*A*]a generator[*R*]operates	context()	negated: False ,passive: False
 0.903	[*A*]no power[*R*]will be provided[*A*]by a generator	context()	negated: False ,passive: True
-[LINE#58]With the mutual topology, all generators are connected to the same DC-bus and start delivering power at the same rotational speed.
+[LINE#60] With the mutual topology, all generators are connected to the same DC-bus and start delivering power at the same rotational speed.
 0.732	[*A*]all generators[*R*]are connected	context()	negated: False ,passive: False
-[LINE#59]The separate topology does not have this limitation since each turbine has a separate DC-bus.
+[LINE#61] The separate topology does not have this limitation since each turbine has a separate DC-bus.
 0.937	[*A*]each turbine[*R*]has[*A*]a separate DC-bus	context()	negated: False ,passive: False
 0.925	[*A*]The separate topology[*R*]does not have[*A*]this limitation[*A*]since each turbine has a separate DC-bus	context()	negated: True ,passive: False
-[LINE#60]Grid losses and the efficiency of active power electronic devices are outside the scope of this paper.
+[LINE#62] Grid losses and the efficiency of active power electronic devices are outside the scope of this paper.
 0.938	[*A*]the efficiency of active power electronic devices[*R*]are[*A*]outside the scope of this paper	context()	negated: False ,passive: True
 0.903	[*A*]Grid losses[*R*]are[*A*]outside the scope of this paper	context()	negated: False ,passive: True
-[LINE#61]Instead only internal losses of the diode rectifiers and the generators are considered.
+[LINE#63] Instead only internal losses of the diode rectifiers and the generators are considered.
 0.801	[*A*]only internal losses of the generators[*R*]are considered	context()	negated: False ,passive: False
 0.816	[*A*]only internal losses of the diode rectifiers[*R*]are considered	context()	negated: False ,passive: False
-[LINE#62]The individual control is implemented with one rectifier and inverter for each turbine..
+[LINE#64] The individual control is implemented with one rectifier and inverter for each turbine..
 0.911	[*A*]The individual control[*R*]is implemented[*A*]with one inverter for each turbine	context()	negated: False ,passive: True
 0.911	[*A*]The individual control[*R*]is implemented[*A*]with one rectifier for each turbine	context()	negated: False ,passive: True
-[LINE#63] both the mutual and separate topology, the DC-bus voltage of bus n changes according to(6)dUDC,ndt=-IL,n-ixnIr,iCn,where Ir,i is the rectified current from generatori, xn is the set of turbines connected to DC-bus n, Cn is the bus capacitance and IL,n is the current drawn by the inverter.
+[LINE#65+66]  both the mutual and separate topology, the DC-bus voltage of bus n changes according to(6)dUDC,ndt=-IL,n-ixnIr,iCn,where Ir,i is the rectified current from generatori, xn is the set of turbines connected to DC-bus n, Cn is the bus capacitance and IL,n is the current drawn by the inverter.
 0.822	[*A*]xn[*R*]is[*A*]the set of turbines	context(Cn is)	negated: False ,passive: True
 0.862	[*A*]Cn[*R*]is[*A*]the bus capacitance	context()	negated: False ,passive: True
 0.636	[*A*]the current[*R*]drawn[*A*]by the inverter	context()	negated: False ,passive: True
 0.869	[*A*]Cn[*R*]is[*A*]the current drawn by the inverter	context()	negated: False ,passive: True
 0.619	[*A*]turbines[*R*]connected n	context()	negated: False ,passive: False
-[LINE#64]Here, the bus capacitance per generator is equal for both topologies.
+[LINE#67] Here, the bus capacitance per generator is equal for both topologies.
 0.385	[*A*]generator[*R*]is equal for[*A*]both topologies	context()	negated: False ,passive: False
 0.967	[*A*]the bus capacitance per generator[*R*]is[*A*]equal for both topologies[*A*]Here	context()	negated: False ,passive: True
-[LINE#65] The expression for the total extracted power from the farm is the same for both topologies,(7)Pfarm=n(Pe(n)-Ploss,n),where.
+[LINE#68]  The expression for the total extracted power from the farm is the same for both topologies,(7)Pfarm=n(Pe(n)-Ploss,n),where.
 0.964	[*A*]The expression for the total extracted power from the farm[*R*]is[*A*]the same[*A*]for both topologies	context()	negated: False ,passive: True
-[LINE#66]Ploss,n compensates for internal power losses.
+[LINE#69] Ploss,n compensates for internal power losses.
 0.833	[*A*]Ploss[*R*]n compensates[*A*]for internal power losses	context()	negated: False ,passive: False
-[LINE#67] (7) is satisfied on a per turbine basis with load currentsof(8)IL,i=Pgen,iUDC,iwith the separate topology.
+[LINE#70+71]  (7) is satisfied on a per turbine basis with load currentsof(8)IL,i=Pgen,iUDC,iwith the separate topology.
 0.571	[*A*]7[*R*]is[*A*]satisfied on a per turbine basis with load currentsof(8)IL,i=Pgen,iUDC,iwith the separate topology	context()	negated: False ,passive: True
-[LINE#68] (7) is satisfied by drawing the total load current(9)IL,1=.
+[LINE#72]  (7) is satisfied by drawing the total load current(9)IL,1=.
 0.525	[*A*]7[*R*]is[*A*]satisfied by drawing the total load current(9)IL	context()	negated: False ,passive: True
-[LINE#69]PfarmUDC,1.Further details on the implementation of the electrical system model, including parameter values, are found in Ref.
+[LINE#73] PfarmUDC,1.Further details on the implementation of the electrical system model, including parameter values, are found in Ref.
 0.980	[*A*]PfarmUDC,1.Further details on the implementation of the electrical system model, including parameter values[*R*]are found[*A*]in Ref	context()	negated: False ,passive: True
-[LINE#70]The electrical system has three principal loss mechanisms.
+[LINE#74] The electrical system has three principal loss mechanisms.
 0.932	[*A*]The electrical system[*R*]has[*A*]three principal loss mechanisms	context()	negated: False ,passive: False
-[LINE#71] The resistive loss in the armature of=a,c,bIk2,where R is the per phase resistance and Ik are the phase currents.
+[LINE#75+76]  The resistive loss in the armature of=a,c,bIk2,where R is the per phase resistance and Ik are the phase currents.
 0.906	[*A*]bIk2[*R*]are[*A*]the phase currents	context()	negated: False ,passive: True
 0.874	[*A*]R[*R*]is[*A*]Ik	context()	negated: False ,passive: True
 0.906	[*A*]bIk2[*R*]the are[*A*]the phase currents	context()	negated: False ,passive: True
 0.912	[*A*]R[*R*]is[*A*]bIk2	context()	negated: False ,passive: True
-[LINE#72] The rectified current from the generator is(11)Ir=12kc|Ik|.The rectified current is roughly proportional to the generator torque.
+[LINE#77+78]  The rectified current from the generator is(11)Ir=12kc|Ik|.The rectified current is roughly proportional to the generator torque.
 0.916	[*A*]The rectified current[*R*]is[*A*]roughly proportional to the generator torque	context(The rectified current from the generator is)	negated: False ,passive: True
 0.936	[*A*]The rectified current from the generator[*R*]is[*A*]11)Ir=12kc|Ik|	context()	negated: False ,passive: True
-[LINE#73] The loss due to the forward voltage drop of the diode rectifier is(12)PD=2IrUD.The power loss in the stator core due to hysteresis and eddy currents in the stator sheetskh, ke and kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [31].
+[LINE#79+80]  The loss due to the forward voltage drop of the diode rectifier is(12)PD=2IrUD.The power loss in the stator core due to hysteresis and eddy currents in the stator sheetskh, ke and kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [31].
 0.977	[*A*]The loss due to the forward voltage drop of the diode rectifier[*R*]is[*A*]12 ) PD=2IrUD.The power loss in the stator core due to eddy currents in the stator kc are constants related to classical eddy current loss respectively [ 31 ]	context()	negated: False ,passive: True
 0.977	[*A*]The loss due to the forward voltage drop of the diode rectifier[*R*]is[*A*]12 ) PD=2IrUD.The power loss in the stator core due to eddy currents in the stator kc are constants related to excess loss respectively [ 31 ]	context()	negated: False ,passive: True
 0.977	[*A*]The loss due to the forward voltage drop of the diode rectifier[*R*]is[*A*]12 ) PD=2IrUD.The power loss in the stator core due to eddy currents in the stator kc are constants related to hysteresis loss respectively [ 31 ]	context()	negated: False ,passive: True
@@ -237,317 +237,317 @@
 0.977	[*A*]The loss due to the forward voltage drop of the diode rectifier[*R*]is[*A*]12 ) PD=2IrUD.The power loss in the stator core due to hysteresis currents in the stator kc	context()	negated: False ,passive: True
 0.977	[*A*]The loss due to the forward voltage drop of the diode rectifier[*R*]is[*A*]12 ) PD=2IrUD.The power loss in the stator core due to hysteresis currents in the stator ke	context()	negated: False ,passive: True
 0.977	[*A*]The loss due to the forward voltage drop of the diode rectifier[*R*]is[*A*]12 ) PD=2IrUD.The power loss in the stator core due to hysteresis currents in the stator sheetskh	context()	negated: False ,passive: True
-[LINE#74]Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.
+[LINE#81] Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.
 0.616	[*A*]they[*R*]are[*A*]typically[*A*]small[*A*]compared to the core loss in slowly moving machines	context()	negated: False ,passive: True
 0.698	[*A*]Bearing friction[*R*]neglected	context()	negated: False ,passive: False
 0.871	[*A*]Bearing friction[*R*]are[*A*]neglected[*A*]since they are typically small compared to the core loss in slowly moving machines	context()	negated: False ,passive: True
-[LINE#75]most direct approach to farm control is to control each turbine separately as described in Section 2.
+[LINE#82] most direct approach to farm control is to control each turbine separately as described in Section 2.
 0.967	[*A*]most direct approach to farm control[*R*]is[*A*]to control each turbine separately as described in Section 2	context()	negated: False ,passive: True
-[LINE#76]This is referred to as the separate topology.
+[LINE#83] This is referred to as the separate topology.
 0.339	[*A*]This[*R*]is referred[*A*]as the separate topology	context()	negated: False ,passive: True
-[LINE#77] Individual control of a permanent magnet (PM)generator can be implemented with one rectifier and inverter for each turbine.
+[LINE#84+85]  Individual control of a permanent magnet (PM)generator can be implemented with one rectifier and inverter for each turbine.
 0.856	[*A*]Individual control of a permanent magnet ( PM ) generator[*R*]can be implemented	context()	negated: False ,passive: False
 0.953	[*A*]Individual control of a permanent magnet ( PM ) generator[*R*]can be implemented[*A*]with one rectifier for each turbine	context()	negated: False ,passive: True
-[LINE#78]Alternatively individual turbine control can be achieved with active rectifiers and/or DC-DC converters, which allow the entire farm to share the grid side inverter.
+[LINE#86] Alternatively individual turbine control can be achieved with active rectifiers and/or DC-DC converters, which allow the entire farm to share the grid side inverter.
 0.888	[*A*]the entire farm[*R*]to share[*A*]the grid side inverter	context(DC - DC converters allow)	negated: False ,passive: False
 0.909	[*A*]DC - DC converters[*R*]allow[*A*]the entire farm to share the grid side inverter	context()	negated: False ,passive: False
 0.769	[*A*]Alternatively individual turbine control[*R*]can be achieved	context()	negated: False ,passive: False
-[LINE#79]For the separate topology, all turbines are operated according to Eq.
+[LINE#87] For the separate topology, all turbines are operated according to Eq.
 0.933	[*A*]all turbines[*R*]are operated[*A*]For the separate topology	context()	negated: False ,passive: True
-[LINE#80](3).The complexity of the electrical system is reduced if all generators are connected to a mutual DC-bus through passive rectifiers.
+[LINE#88] (3).The complexity of the electrical system is reduced if all generators are connected to a mutual DC-bus through passive rectifiers.
 0.732	[*A*]all generators[*R*]are connected	context()	negated: False ,passive: False
 0.964	[*A*]The complexity of the electrical system[*R*]is reduced[*A*]if all generators are connected to a mutual DC-bus through passive rectifiers	context()	negated: False ,passive: True
-[LINE#81] This is referred to as the mutual topology, see Fig..
+[LINE#89]  This is referred to as the mutual topology, see Fig..
 0.425	[*A*]This[*R*]is referred[*A*]to as the mutual topology, see Fig	context()	negated: False ,passive: True
-[LINE#82]The separate and mutual topologies are identical if the "farm" consists of a single turbine.
+[LINE#90] The separate and mutual topologies are identical if the "farm" consists of a single turbine.
 0.943	[*A*]The mutual topologies[*R*]are[*A*]identical[*A*]if the " farm " consists of a single turbine	context()	negated: False ,passive: True
 0.897	[*A*]the " farm[*R*]consists[*A*]of a single turbine	context()	negated: False ,passive: True
 0.943	[*A*]The separate topologies[*R*]are[*A*]identical[*A*]if the " farm " consists of a single turbine	context()	negated: False ,passive: True
-[LINE#83]The only active component in the mutual topology is the grid side inverter, thereby limiting the control parameters to the total extracted power from the farm.
+[LINE#91] The only active component in the mutual topology is the grid side inverter, thereby limiting the control parameters to the total extracted power from the farm.
 0.973	[*A*]The only active component in the mutual topology[*R*]is[*A*]the grid side inverter[*A*]thereby limiting the control parameters to the total extracted power from the farm	context()	negated: False ,passive: True
-[LINE#84]An outline of the system benefits of the mutual topology is found in Ref.
+[LINE#92] An outline of the system benefits of the mutual topology is found in Ref.
 0.960	[*A*]An outline of the system benefits of the mutual topology[*R*]is found[*A*]in Ref	context()	negated: False ,passive: True
-[LINE#85]This topology tends to set an upper limit for the turbine rotational velocities, where the limit is proportional to the DC-bus voltage.
+[LINE#93] This topology tends to set an upper limit for the turbine rotational velocities, where the limit is proportional to the DC-bus voltage.
 0.937	[*A*]the limit[*R*]is[*A*]proportional to the DC-bus voltage	context()	negated: False ,passive: True
 0.887	[*A*]This topology[*R*]to set[*A*]an upper limit for the turbine rotational velocities	context()	negated: False ,passive: False
 0.952	[*A*]This topology[*R*]tends[*A*]to set an upper limit for the turbine rotational velocities	context()	negated: False ,passive: True
-[LINE#86]This prevents all turbines from operating at optimal tip speed ratio if wind speed variations exist between the turbines.
+[LINE#94] This prevents all turbines from operating at optimal tip speed ratio if wind speed variations exist between the turbines.
 0.911	[*A*]wind speed variations[*R*]exist[*A*]between the turbines	context()	negated: False ,passive: True
 0.381	[*A*]This[*R*]prevents[*A*]all turbines[*A*]from operating at optimal tip speed ratio	context()	negated: False ,passive: False
-[LINE#87]The total power extracted from the turbines is chosen as(5)Pe,tot=i=1NPe(i),where Pe(i) is given in Eq.
+[LINE#95] The total power extracted from the turbines is chosen as(5)Pe,tot=i=1NPe(i),where Pe(i) is given in Eq.
 0.857	[*A*]Pe[*R*]is given[*A*]in Eq	context()	negated: False ,passive: True
 0.948	[*A*]The total power extracted from the turbines[*R*]is chosen[*A*]as(5)Pe,tot=i=1NPe(i	context()	negated: False ,passive: True
 0.911	[*A*]The total power[*R*]extracted[*A*]from the turbines	context()	negated: False ,passive: True
-[LINE#88] (3), N is the number of turbines in the farm and i is the rotational velocity of turbine i. With this choice, both topologies yield identical behaviour if all turbines experience equal wind speed.
+[LINE#96+97+98]  (3), N is the number of turbines in the farm and i is the rotational velocity of turbine i. With this choice, both topologies yield identical behaviour if all turbines experience equal wind speed.
 0.457	[*A*]i[*R*]is[*A*]the rotational velocity of turbine i. With this choice	context(both topologies yield)	negated: False ,passive: True
 0.878	[*A*]both topologies[*R*]yield[*A*]identical behaviour[*A*]if all turbines experience equal wind speed	context()	negated: False ,passive: False
 0.903	[*A*]all turbines[*R*]experience[*A*]equal wind speed	context()	negated: False ,passive: False
 0.887	[*A*]N[*R*]is[*A*]the number of turbines in the farm	context()	negated: False ,passive: True
-[LINE#89]For different wind speeds, the average rotational velocity is higher for the mutual topology, compared to the separate topology, due to the cubic behaviour of the extracted power.
+[LINE#99] For different wind speeds, the average rotational velocity is higher for the mutual topology, compared to the separate topology, due to the cubic behaviour of the extracted power.
 0.937	[*A*]the average rotational velocity[*R*]is[*A*]higher for the mutual topology[*A*]compared to the separate topology	context()	negated: False ,passive: True
-[LINE#90]This causes the turbines that experience high wind speeds to have tip speed ratios closer to the optimal values than the turbines that experience low wind speeds.
+[LINE#100] This causes the turbines that experience high wind speeds to have tip speed ratios closer to the optimal values than the turbines that experience low wind speeds.
 0.858	[*A*]the turbines[*R*]experience high wind speeds to have[*A*]tip speed ratios[*A*]closer to the optimal values than the turbines	context(the turbines experience)	negated: False ,passive: False
 0.858	[*A*]the turbines[*R*]experience[*A*]high wind speeds	context()	negated: False ,passive: False
 0.887	[*A*]the turbines[*R*]experience[*A*]low wind speeds	context()	negated: False ,passive: False
 0.183	[*A*]This[*R*]causes[*A*]the turbines that experience high wind speeds	context()	negated: False ,passive: False
-[LINE#91]This is beneficial, as it is the turbines experiencing the higher wind speeds that deliver most of the power.
+[LINE#101] This is beneficial, as it is the turbines experiencing the higher wind speeds that deliver most of the power.
 0.905	[*A*]the higher wind speeds[*R*]deliver[*A*]most of the power	context()	negated: False ,passive: False
 0.845	[*A*]the turbines[*R*]experiencing[*A*]the higher wind speeds that deliver most of the power	context()	negated: False ,passive: False
 0.522	[*A*]it[*R*]is[*A*]the turbines experiencing the higher wind speeds	context()	negated: False ,passive: True
 0.307	[*A*]This[*R*]is[*A*]beneficial[*A*]as it is the turbines	context()	negated: False ,passive: True
-[LINE#92]Optimising each turbine individually works well if all turbines are aerodynamically independent.
+[LINE#102] Optimising each turbine individually works well if all turbines are aerodynamically independent.
 0.767	[*A*]all turbines[*R*]are[*A*]aerodynamically independent	context()	negated: False ,passive: True
 0.903	[*A*]each turbine[*R*]individually works well[*A*]if all turbines are aerodynamically independent	context()	negated: False ,passive: False
-[LINE#93]For an aerodynamically coupled problem, the characteristics of the control strategy will change.
+[LINE#103] For an aerodynamically coupled problem, the characteristics of the control strategy will change.
 0.801	[*A*]the characteristics of the control strategy[*R*]will change	context()	negated: False ,passive: False
-[LINE#94]If the reason for the lower wind speed of one turbine is that it is in the wake of another, decreasing the rotational velocity of the upstream turbine will decrease its power absorption (if it was running at optimal rotational velocity before), but will at the same time leave more energy for the turbine downstream.
+[LINE#104] If the reason for the lower wind speed of one turbine is that it is in the wake of another, decreasing the rotational velocity of the upstream turbine will decrease its power absorption (if it was running at optimal rotational velocity before), but will at the same time leave more energy for the turbine downstream.
 0.902	[*A*]the reason[*R*]will leave[*A*]more energy[*A*]for the turbine downstream[*A*]at the same time	context()	negated: False ,passive: False
 0.195	[*A*]it[*R*]was running[*A*]before	context()	negated: False ,passive: False
 0.467	[*A*]it[*R*]is[*A*]in the wake of another[*A*]decreasing the rotational velocity of the upstream turbine	context(the reason for the lower wind speed of one turbine is)	negated: False ,passive: True
 0.872	[*A*]the reason for the lower wind speed of one turbine[*R*]is[*A*]that it is in the wake of another , decreasing the rotational velocity of the upstream turbine	context()	negated: False ,passive: True
-[LINE#95]More information regarding the flow in a horizontal axis wind turbine farm can be found in Refs.
+[LINE#105] More information regarding the flow in a horizontal axis wind turbine farm can be found in Refs.
 0.961	[*A*]More information regarding the flow in a horizontal axis wind turbine farm[*R*]can be found[*A*]in Refs	context()	negated: False ,passive: True
-[LINE#96][20,21] and farm control systems are presented in e.g. Refs.
+[LINE#106] [20,21] and farm control systems are presented in e.g. Refs.
 0.992	[*A*]2021 ] and farm control systems[*R*]are presented in[*A*]e.g. Refs	context()	negated: False ,passive: False
 0.943	[*A*]20,21] and farm control systems[*R*]are presented[*A*]in e.g. Refs	context()	negated: False ,passive: True
-[LINE#97]Wind turbines are typically placed in farms where the turbines are in close proximity to each other.
+[LINE#107] Wind turbines are typically placed in farms where the turbines are in close proximity to each other.
 0.943	[*A*]the turbines[*R*]are[*A*]in close proximity to each other[*A*]farms	context()	negated: False ,passive: True
 0.936	[*A*]Wind turbines[*R*]are placed[*A*]in farms[*A*]typically	context()	negated: False ,passive: True
-[LINE#98]This can have economical benefits due to synergy effects such as common grid connection and infrastructure.
+[LINE#108] This can have economical benefits due to synergy effects such as common grid connection and infrastructure.
 0.497	[*A*]This[*R*]can have[*A*]economical benefits due to synergy effects such as common grid infrastructure	context()	negated: False ,passive: False
 0.497	[*A*]This[*R*]can have[*A*]economical benefits due to synergy effects such as common grid connection	context()	negated: False ,passive: False
-[LINE#99]The most common type of wind turbine is the horizontal axis turbine with active pitch control [1].
+[LINE#109] The most common type of wind turbine is the horizontal axis turbine with active pitch control [1].
 0.500	[*A*]the horizontal axis turbine[*R*]is The most common type of[*A*]wind turbine	context()	negated: False ,passive: False
 0.952	[*A*]The most common type of wind turbine[*R*]is[*A*]the horizontal axis turbine with active pitch control	context()	negated: False ,passive: True
-[LINE#100]This work is devoted to the straight bladed vertical axis turbine without pitch control, whereby the rotational velocity is the only parameter left for control of the turbine.
+[LINE#110] This work is devoted to the straight bladed vertical axis turbine without pitch control, whereby the rotational velocity is the only parameter left for control of the turbine.
 0.932	[*A*]the only parameter[*R*]left[*A*]for control of the turbine	context()	negated: False ,passive: True
 0.932	[*A*]the rotational velocity[*R*]is[*A*]the only parameter left for control of the turbine	context()	negated: False ,passive: True
 0.937	[*A*]This work[*R*]is devoted[*A*]to the straight bladed vertical axis turbine without pitch control	context()	negated: False ,passive: True
-[LINE#101]A comparison between the different design concepts is found in Ref.
+[LINE#111] A comparison between the different design concepts is found in Ref.
 0.948	[*A*]A comparison between the different design concepts[*R*]is found[*A*]in Ref	context()	negated: False ,passive: True
-[LINE#102]Pitch regulation for vertical axis turbines has previously been studied, see e.g. Refs.
+[LINE#112] Pitch regulation for vertical axis turbines has previously been studied, see e.g. Refs.
 0.933	[*A*]Pitch regulation for vertical axis turbines[*R*]see[*A*]e.g. Refs	context()	negated: False ,passive: False
 0.824	[*A*]Pitch regulation for vertical axis turbines[*R*]has been studied[*A*]previously	context()	negated: False ,passive: True
-[LINE#103]However, pitch is not considered here since it increases turbine complexity.
+[LINE#113] However, pitch is not considered here since it increases turbine complexity.
 0.452	[*A*]it[*R*]increases[*A*]turbine complexity	context()	negated: False ,passive: False
 0.703	[*A*]pitch[*R*]is not considered[*A*]here[*A*]since it increases turbine complexity	context()	negated: True ,passive: True
-[LINE#104]The number of constructed wind farms with straight bladed vertical axis turbines is quite limited, hence limiting the amount of empirical results.
+[LINE#114] The number of constructed wind farms with straight bladed vertical axis turbines is quite limited, hence limiting the amount of empirical results.
 0.954	[*A*]The number of constructed wind farms with straight bladed vertical axis turbines[*R*]limiting[*A*]the amount of empirical results	context()	negated: False ,passive: False
 0.970	[*A*]The number of constructed wind farms with straight bladed vertical axis turbines[*R*]is[*A*]quite limited[*A*]hence limiting the amount of empirical results	context()	negated: False ,passive: True
-[LINE#105]Simulations of vertical axis turbine farms have indicated that such turbines can be placed relatively close to each other with good performance for quite a wide range of incoming wind directions [6-8].
+[LINE#115] Simulations of vertical axis turbine farms have indicated that such turbines can be placed relatively close to each other with good performance for quite a wide range of incoming wind directions [6-8].
 0.724	[*A*]such turbines[*R*]can be placed[*A*]relatively close to each other	context(Simulations of vertical axis turbine farms have indicated)	negated: False ,passive: True
 0.865	[*A*]Simulations of vertical axis turbine farms[*R*]have indicated[*A*]that such turbines can be placed relatively close to each other with good performance for quite a wide range of incoming wind directions	context()	negated: False ,passive: False
-[LINE#106]The interaction between two turbines has been tested experimentally in a towing tank [9].
+[LINE#116] The interaction between two turbines has been tested experimentally in a towing tank [9].
 0.926	[*A*]The interaction between two turbines[*R*]has been tested experimentally[*A*]in a towing tank	context()	negated: False ,passive: True
-[LINE#107]These simulations and experiments are limited to turbines at constant rotational velocity, while for a control system study, variations in wind speeds and rotational velocities for the different turbines are of interest.
+[LINE#117] These simulations and experiments are limited to turbines at constant rotational velocity, while for a control system study, variations in wind speeds and rotational velocities for the different turbines are of interest.
 0.903	[*A*]These experiments[*R*]are limited[*A*]to turbines	context()	negated: False ,passive: True
 0.937	[*A*]These experiments[*R*]are limited[*A*]to turbines[*A*]while for a control system study , variations in wind speeds are of interest	context()	negated: False ,passive: True
 0.943	[*A*]variations in rotational velocities for the different turbines[*R*]are[*A*]of interest	context()	negated: False ,passive: True
 0.937	[*A*]These simulations[*R*]are limited[*A*]to turbines[*A*]while for a control system study , variations in rotational velocities for the different turbines are of interest	context()	negated: False ,passive: True
 0.919	[*A*]variations in wind speeds[*R*]are[*A*]of interest	context()	negated: False ,passive: True
 0.937	[*A*]These simulations[*R*]are limited[*A*]to turbines[*A*]while for a control system study , variations in wind speeds are of interest	context()	negated: False ,passive: True
-[LINE#108][10], a control strategy where the extracted power is proportional to the cube of the wind speed was applied to a horizontal axis turbine.
+[LINE#118] [10], a control strategy where the extracted power is proportional to the cube of the wind speed was applied to a horizontal axis turbine.
 0.992	[*A*]10 ][*R*]was applied to[*A*]a horizontal axis turbine	context()	negated: False ,passive: False
 0.960	[*A*]the extracted power[*R*]is[*A*]proportional to the cube of the wind speed[*A*]a control strategy	context()	negated: False ,passive: True
-[LINE#109][11] predict that a similar strategy should work for vertical axis turbines as well and this work is an extension of that work to turbine farms.
-[LINE#110]Although a rectifier and an inverter for each turbine can be used, a less complex approach is to connect several turbines to the same inverter.
+[LINE#119] [11] predict that a similar strategy should work for vertical axis turbines as well and this work is an extension of that work to turbine farms.
+[LINE#120] Although a rectifier and an inverter for each turbine can be used, a less complex approach is to connect several turbines to the same inverter.
 0.785	[*A*]an inverter for each turbine[*R*]can be used	context()	negated: False ,passive: False
 0.937	[*A*]a less complex approach[*R*]is[*A*]to connect several turbines to the same inverter	context()	negated: False ,passive: True
 0.732	[*A*]a rectifier[*R*]can be used	context()	negated: False ,passive: False
-[LINE#111]This electrical system has been studied in Refs.
+[LINE#121] This electrical system has been studied in Refs.
 0.911	[*A*]This electrical system[*R*]has been studied[*A*]in Refs	context()	negated: False ,passive: True
-[LINE#112][12-14] and several different electrical topologies have also been studied in Refs.
+[LINE#122] [12-14] and several different electrical topologies have also been studied in Refs.
 0.881	[*A*]several different electrical topologies[*R*]have been studied[*A*]in Refs	context()	negated: False ,passive: True
 0.992	[*A*]12 -14[*R*]have been studied in[*A*]Refs	context()	negated: False ,passive: False
 0.397	[*A*]12-14[*R*]have been studied[*A*]in Refs	context()	negated: False ,passive: True
-[LINE#113]All these studies focus on the electrical system of the farm, while the aerodynamic modelling is limited to prescribed power coefficients of the turbines.
+[LINE#123] All these studies focus on the electrical system of the farm, while the aerodynamic modelling is limited to prescribed power coefficients of the turbines.
 0.911	[*A*]the aerodynamic modelling[*R*]is limited[*A*]to prescribed power coefficients of the turbines	context()	negated: False ,passive: True
 0.911	[*A*]All these studies[*R*]focus[*A*]on the electrical system of the farm	context()	negated: False ,passive: False
-[LINE#114]Further, all these studies only consider horizontal axis turbines.
+[LINE#124] Further, all these studies only consider horizontal axis turbines.
 0.897	[*A*]all these studies[*R*]consider[*A*]horizontal axis turbines	context()	negated: False ,passive: False
-[LINE#115]The present work considers vertical axis turbines and provides a more elaborate aerodynamic description.
+[LINE#125] The present work considers vertical axis turbines and provides a more elaborate aerodynamic description.
 0.911	[*A*]The present work[*R*]provides[*A*]a more elaborate aerodynamic description	context()	negated: False ,passive: False
 0.911	[*A*]The present work[*R*]considers[*A*]vertical axis turbines	context()	negated: False ,passive: False
-[LINE#116]Time dependent aerodynamic simulations of the turbines are coupled with simulations of the electrical control system.
+[LINE#126] Time dependent aerodynamic simulations of the turbines are coupled with simulations of the electrical control system.
 0.953	[*A*]Time dependent aerodynamic simulations of the turbines[*R*]are coupled[*A*]with simulations of the electrical control system	context()	negated: False ,passive: True
-[LINE#117]The method includes the fluctuations in torque, which are characteristic to straight bladed vertical axis turbines.
+[LINE#127] The method includes the fluctuations in torque, which are characteristic to straight bladed vertical axis turbines.
 0.905	[*A*]the fluctuations in torque[*R*]are[*A*]characteristic to straight bladed vertical axis turbines	context()	negated: False ,passive: True
 0.937	[*A*]The method[*R*]includes[*A*]the fluctuations in torque, which are characteristic to straight bladed vertical axis turbines	context()	negated: False ,passive: True
-[LINE#118]These torque fluctuations cause small variations in the rotational velocity of the turbines.
+[LINE#128] These torque fluctuations cause small variations in the rotational velocity of the turbines.
 0.911	[*A*]These torque fluctuations[*R*]cause[*A*]small variations in the rotational velocity of the turbines	context()	negated: False ,passive: False
-[LINE#119]The method also includes the mutual aerodynamic interaction of the turbines, making it possible to study the control system behaviour when one turbine is in the wake of another.
+[LINE#129] The method also includes the mutual aerodynamic interaction of the turbines, making it possible to study the control system behaviour when one turbine is in the wake of another.
 0.925	[*A*]one turbine[*R*]is[*A*]in the wake of another	context()	negated: False ,passive: True
 0.810	[*A*]The method[*R*]includes[*A*]the mutual aerodynamic interaction of the turbines[*A*]making it possible	context()	negated: False ,passive: True
-[LINE#120]The vertical axis wind turbine in this study is similar to the 200 kW turbine built by Vertical Wind AB [18], which has a turbine height of 24 m, diameter of 26 m and uses a permanent magnet (PM) synchronous generator.
+[LINE#130] The vertical axis wind turbine in this study is similar to the 200 kW turbine built by Vertical Wind AB [18], which has a turbine height of 24 m, diameter of 26 m and uses a permanent magnet (PM) synchronous generator.
 0.922	[*A*]Vertical Wind AB[*R*]uses[*A*]a permanent magnet	context()	negated: False ,passive: False
 0.940	[*A*]Vertical Wind AB[*R*]has[*A*]a turbine height of 24 m	context()	negated: False ,passive: False
 0.949	[*A*]the 200 kW turbine[*R*]built[*A*]by Vertical Wind AB	context()	negated: False ,passive: True
 0.964	[*A*]The vertical axis wind turbine in this study[*R*]is[*A*]similar to the 200 kW turbine	context()	negated: False ,passive: True
-[LINE#121]The first part of the simulations evaluate the differences between the two topologies for approximately static wind conditions and aerodynamically independent turbines, where different asymptotic wind speeds are set for different turbines.
+[LINE#131] The first part of the simulations evaluate the differences between the two topologies for approximately static wind conditions and aerodynamically independent turbines, where different asymptotic wind speeds are set for different turbines.
 0.919	[*A*]different asymptotic wind speeds[*R*]are set[*A*]for different turbines	context()	negated: False ,passive: True
 0.956	[*A*]The first part of the simulations[*R*]evaluate[*A*]the differences between the two topologies for approximately static wind conditions and aerodynamically independent turbines	context()	negated: False ,passive: False
-[LINE#122]The second part studies aerodynamically coupled turbines in static wind fields.
+[LINE#132] The second part studies aerodynamically coupled turbines in static wind fields.
 0.919	[*A*]The second part studies[*R*]aerodynamically coupled[*A*]turbines[*A*]in static wind fields	context()	negated: False ,passive: False
-[LINE#123]Several farm configurations are studied at various incident wind directions.
+[LINE#133] Several farm configurations are studied at various incident wind directions.
 0.911	[*A*]Several farm configurations[*R*]are studied[*A*]at various incident wind directions	context()	negated: False ,passive: True
-[LINE#124]In this part, all variations in wind speed between the turbines originate from aerodynamic interactions between the turbines.
+[LINE#134] In this part, all variations in wind speed between the turbines originate from aerodynamic interactions between the turbines.
 0.967	[*A*]all variations in wind speed between the turbines[*R*]originate[*A*]from aerodynamic interactions between the turbines[*A*]In this part	context()	negated: False ,passive: True
-[LINE#125]The third part investigates the performance of the control systems for aerodynamically coupled turbines and rapid variations in wind speed.
+[LINE#135] The third part investigates the performance of the control systems for aerodynamically coupled turbines and rapid variations in wind speed.
 0.943	[*A*]The third part[*R*]investigates[*A*]the performance of the control systems for rapid variations in wind speed	context()	negated: False ,passive: False
 0.943	[*A*]The third part[*R*]investigates[*A*]the performance of the control systems for aerodynamically coupled turbines	context()	negated: False ,passive: False
-[LINE#126]All simulation cases are performed with four turbines.
+[LINE#136] All simulation cases are performed with four turbines.
 0.751	[*A*]All simulation cases[*R*]are performed	context()	negated: False ,passive: False
-[LINE#127]This relatively small number of turbines was chosen to keep the simulation times reasonable..
+[LINE#137] This relatively small number of turbines was chosen to keep the simulation times reasonable..
 0.921	[*A*]This relatively small number of turbines[*R*]to keep[*A*]the simulation times[*A*]reasonable	context()	negated: False ,passive: False
 0.932	[*A*]This relatively small number of turbines[*R*]was chosen[*A*]to keep the simulation times reasonable	context()	negated: False ,passive: True
-[LINE#128]Aerodynamically independent turbinesThe first simulations concern turbines without mutual aerodynamic interaction.
-[LINE#129]This corresponds to turbines which are spaced very far apart.
+[LINE#138] Aerodynamically independent turbinesThe first simulations concern turbines without mutual aerodynamic interaction.
+[LINE#139] This corresponds to turbines which are spaced very far apart.
 0.716	[*A*]turbines[*R*]are spaced[*A*]very far apart	context()	negated: False ,passive: True
 0.381	[*A*]This[*R*]corresponds[*A*]to turbines	context()	negated: False ,passive: True
-[LINE#130] In the simulations, the asymptotic wind speeds are slowly changed according to Fig..
+[LINE#140]  In the simulations, the asymptotic wind speeds are slowly changed according to Fig..
 0.960	[*A*]the asymptotic wind speeds[*R*]are slowly changed[*A*]according to Fig[*A*]In the simulations	context()	negated: False ,passive: True
-[LINE#131]All turbines are allowed a settling time of approximately 100 revolutions before the wind speed variations are initiated.
+[LINE#141] All turbines are allowed a settling time of approximately 100 revolutions before the wind speed variations are initiated.
 0.769	[*A*]the wind speed variations[*R*]are initiated	context()	negated: False ,passive: False
-[LINE#132]The wind speed variations are performed during a time interval that is 10 times longer than the settling time.
+[LINE#142] The wind speed variations are performed during a time interval that is 10 times longer than the settling time.
 0.920	[*A*]a time interval[*R*]is[*A*]10 times longer than the settling time	context()	negated: False ,passive: True
 0.919	[*A*]The wind speed variations[*R*]are performed[*A*]during a time interval	context()	negated: False ,passive: True
-[LINE#133]5 shows that the rotational velocities with the mutual topology are within a narrower span than the velocities under the separate topology.
+[LINE#143] 5 shows that the rotational velocities with the mutual topology are within a narrower span than the velocities under the separate topology.
 0.924	[*A*]the rotational velocities with the mutual topology[*R*]are[*A*]within a narrower span	context(5 shows)	negated: False ,passive: True
 0.277	[*A*]5[*R*]shows[*A*]that the rotational velocities with the mutual topology are within a narrower span than the velocities under the separate topology	context()	negated: False ,passive: False
-[LINE#134] The significant change in behaviour for the mutual topology at time 1800 s occurs when the turbine that experiences the lowest wind speed (turbine 4) stops delivering power andall turbine power is used to overcome the generator core loss.
+[LINE#144+145+146]  The significant change in behaviour for the mutual topology at time 1800 s occurs when the turbine that experiences the lowest wind speed (turbine 4) stops delivering power andall turbine power is used to overcome the generator core loss.
 0.962	[*A*]The significant change in behaviour for the mutual topology at time 1800 s occurs[*R*]is used[*A*]to overcome the generator core loss	context()	negated: False ,passive: True
 0.950	[*A*]the turbine that experiences the lowest wind speed (turbine 4)[*R*]stops delivering[*A*]power andall turbine power	context(the turbine that experiences the lowest wind speed ( turbine 4 ) stops)	negated: False ,passive: False
 0.858	[*A*]the turbine[*R*]experiences[*A*]the lowest wind speed	context(the turbine that experiences the lowest wind speed ( turbine 4 ) stops)	negated: False ,passive: False
 0.962	[*A*]the turbine that experiences the lowest wind speed (turbine 4)[*R*]stops[*A*]delivering power andall turbine power	context()	negated: False ,passive: False
 0.845	[*A*]1800 s[*R*]occurs[*A*]when the turbine that experiences the lowest wind speed (turbine 4) stops delivering power andall turbine power	context()	negated: False ,passive: True
-[LINE#135]The mutual topology is unable to extract power from turbine 4 since the higher rotational velocity causes both a reduced CP (57% of the separate topology at 1800 s) and an increased core loss.
+[LINE#147] The mutual topology is unable to extract power from turbine 4 since the higher rotational velocity causes both a reduced CP (57% of the separate topology at 1800 s) and an increased core loss.
 0.919	[*A*]the higher rotational velocity[*R*]causes[*A*]an increased core loss	context()	negated: False ,passive: False
 0.919	[*A*]the higher rotational velocity[*R*]causes[*A*]both a reduced CP	context()	negated: False ,passive: False
 0.897	[*A*]The mutual topology[*R*]to extract[*A*]power[*A*]from turbine 4	context()	negated: False ,passive: False
 0.932	[*A*]The mutual topology[*R*]is[*A*]unable to extract power from turbine 4	context()	negated: False ,passive: True
-[LINE#136]The separate topology is able to extract power from turbine 4 until 2700 s due to the lower rotational velocity.
+[LINE#148] The separate topology is able to extract power from turbine 4 until 2700 s due to the lower rotational velocity.
 0.897	[*A*]The separate topology[*R*]to extract[*A*]power[*A*]from turbine 4[*A*]until 2700 s due to the lower rotational velocity	context()	negated: False ,passive: False
 0.956	[*A*]The separate topology[*R*]is[*A*]able to extract power from turbine 4 until 2700 s due to the lower rotational velocity	context()	negated: False ,passive: True
-[LINE#137]At the time when the mutual topology stops extracting power from turbine 4, the rest of the turbines increase their rotational velocities faster, as the increases in delivered power from turbines 1 and 2 no longer are compensated for by a decrease in power from turbine 4, see Eq.
+[LINE#149] At the time when the mutual topology stops extracting power from turbine 4, the rest of the turbines increase their rotational velocities faster, as the increases in delivered power from turbines 1 and 2 no longer are compensated for by a decrease in power from turbine 4, see Eq.
 0.948	[*A*]the increases in delivered power from 2 no longer[*R*]are compensated[*A*]for[*A*]by a decrease in power from turbine 4	context()	negated: False ,passive: True
 0.943	[*A*]the increases in delivered power from turbines 1[*R*]are compensated[*A*]for[*A*]by a decrease in power from turbine 4	context()	negated: False ,passive: True
 0.924	[*A*]the rest of the turbines[*R*]increase faster[*A*]At the time	context()	negated: False ,passive: False
 0.897	[*A*]the mutual topology[*R*]extracting[*A*]power[*A*]from turbine 4	context()	negated: False ,passive: False
-[LINE#138]This is most beneficial for turbine 1, which obtains a better tip speed ratio and hence increases its efficiency.
+[LINE#150] This is most beneficial for turbine 1, which obtains a better tip speed ratio and hence increases its efficiency.
 0.393	[*A*]hence[*R*]increases[*A*]its efficiency	context()	negated: False ,passive: True
 0.307	[*A*]This[*R*]is[*A*]most beneficial for turbine 1[*A*]hence increases its efficiency	context()	negated: False ,passive: True
 0.887	[*A*]turbine 1[*R*]obtains[*A*]a better tip speed ratio	context()	negated: False ,passive: False
 0.449	[*A*]This[*R*]is[*A*]most beneficial for turbine 1	context()	negated: False ,passive: True
-[LINE#139]6, where the ratios between the mutual topology and the separate topology are displayed for each turbine.
+[LINE#151] 6, where the ratios between the mutual topology and the separate topology are displayed for each turbine.
 0.953	[*A*]the ratios between the mutual topology and the separate topology[*R*]are displayed[*A*]for each turbine	context()	negated: False ,passive: True
-[LINE#140]At the same point, turbine 3 starts to decrease its power coefficient at a higher rate, as the tip speed ratio for this turbine instead becomes less beneficial.
+[LINE#152] At the same point, turbine 3 starts to decrease its power coefficient at a higher rate, as the tip speed ratio for this turbine instead becomes less beneficial.
 0.818	[*A*]the tip speed ratio for this turbine[*R*]becomes[*A*]less beneficial	context()	negated: False ,passive: True
 0.948	[*A*]turbine 3[*R*]starts[*A*]At the same point	context()	negated: False ,passive: True
-[LINE#141]Even though the reduced turbine power absorption for the mutual topology appears significant for both turbines 3 and 4 (see Fig. 6), those two turbines are the ones that deliver the least energy.
+[LINE#153] Even though the reduced turbine power absorption for the mutual topology appears significant for both turbines 3 and 4 (see Fig. 6), those two turbines are the ones that deliver the least energy.
 0.887	[*A*]the ones[*R*]deliver[*A*]the least energy	context()	negated: False ,passive: False
-[LINE#142] A small increase in efficiency for turbine 1 can easily compensate for lower efficiency of turbines 3 and 4, see Fig..
-[LINE#143]At the worst case at time 1800 s, the delivered power for the mutual topology is slightly below 93% of the delivered power for the separate topology.
+[LINE#154]  A small increase in efficiency for turbine 1 can easily compensate for lower efficiency of turbines 3 and 4, see Fig..
+[LINE#155] At the worst case at time 1800 s, the delivered power for the mutual topology is slightly below 93% of the delivered power for the separate topology.
 0.968	[*A*]1800 s[*R*]is[*A*]slightly below 93% of the delivered power for the separate topology[*A*]At the worst case at time	context()	negated: False ,passive: True
-[LINE#144]This corresponds to a speed difference of around 5.4 m/s between the highest and the lowest wind speeds.
+[LINE#156] This corresponds to a speed difference of around 5.4 m/s between the highest and the lowest wind speeds.
 0.497	[*A*]This[*R*]corresponds[*A*]to a speed difference of around 5.4 m/s between the highest and the lowest wind speeds	context()	negated: False ,passive: True
-[LINE#145] The different losses in the electrical system with different topologies can be seen by comparing the turbine power and the delivered power in Fig..
+[LINE#157]  The different losses in the electrical system with different topologies can be seen by comparing the turbine power and the delivered power in Fig..
 0.856	[*A*]The different losses in the electrical system with different topologies[*R*]can be seen	context()	negated: False ,passive: False
-[LINE#146] The higher average rotational speed with the mutual topology increases the core loss, which dominates the total losses for this system at the studied wind speeds,.
+[LINE#158]  The higher average rotational speed with the mutual topology increases the core loss, which dominates the total losses for this system at the studied wind speeds,.
 0.933	[*A*]the core loss[*R*]dominates[*A*]the total losses for this system at the studied wind speeds	context()	negated: False ,passive: False
 0.967	[*A*]The higher average rotational speed with the mutual topology[*R*]increases[*A*]the core loss, which dominates the total losses for this system at the studied wind speeds	context()	negated: False ,passive: False
-[LINE#147]The resistive losses with the mutual topology are slightly higher than for the separate topology.
+[LINE#159] The resistive losses with the mutual topology are slightly higher than for the separate topology.
 0.938	[*A*]The resistive losses with the mutual topology[*R*]are[*A*]slightly higher than for the separate topology	context()	negated: False ,passive: True
-[LINE#148]This originates from turbine 1 which rotates at a lower speed than the corresponding turbine with the separate topology, see Eqs.
+[LINE#160] This originates from turbine 1 which rotates at a lower speed than the corresponding turbine with the separate topology, see Eqs.
 0.698	[*A*]turbine 1[*R*]rotates	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]originates[*A*]from turbine 1	context()	negated: False ,passive: True
-[LINE#149] the case with significant differences in wind speed between different turbines, it is investigated if the total power for the mutual topology can be increased through modification of the extracted power according to(14)Pe,k=ki=1NPe(i).Atthe time with the largest differences, i.e. at 1800 s, the overall power is increased by less than one percent with k in the range 0.8-0.9, which would cause a slight increase in rotational velocity.
+[LINE#161+162]  the case with significant differences in wind speed between different turbines, it is investigated if the total power for the mutual topology can be increased through modification of the extracted power according to(14)Pe,k=ki=1NPe(i).Atthe time with the largest differences, i.e. at 1800 s, the overall power is increased by less than one percent with k in the range 0.8-0.9, which would cause a slight increase in rotational velocity.
 0.897	[*A*]the range 0.8-0.9[*R*]would cause[*A*]a slight increase in rotational velocity	context()	negated: False ,passive: False
 0.911	[*A*]the overall power[*R*]is increased[*A*]by less than one percent	context()	negated: False ,passive: True
 0.816	[*A*]the total power for the mutual topology[*R*]can be increased	context()	negated: False ,passive: False
 0.614	[*A*]it[*R*]is investigated[*A*]if the total power for the mutual topology can be increased through modification of the extracted power according to(14)Pe	context()	negated: False ,passive: True
-[LINE#150]The small increase indicates that Eq.
+[LINE#163] The small increase indicates that Eq.
 0.751	[*A*]The small increase[*R*]indicates	context()	negated: False ,passive: False
-[LINE#151](5) is a reasonable choice also in the case of large wind speed differences between turbines.
+[LINE#164] (5) is a reasonable choice also in the case of large wind speed differences between turbines.
 0.408	[*A*]5[*R*]is[*A*]a reasonable choice	context()	negated: False ,passive: True
-[LINE#152]Turbine farmTwo different farm configurations with 4 turbines each are tested, one where all turbines are located on a line, which according to Refs.
+[LINE#165] Turbine farmTwo different farm configurations with 4 turbines each are tested, one where all turbines are located on a line, which according to Refs.
 0.943	[*A*]all turbines[*R*]are located[*A*]on a line[*A*]one	context()	negated: False ,passive: True
 0.879	[*A*]Turbine farmTwo different farm configurations with 4 turbines each[*R*]are tested	context()	negated: False ,passive: False
-[LINE#153][7,8] should be a good layout if the wind mainly comes from one direction.
+[LINE#166] [7,8] should be a good layout if the wind mainly comes from one direction.
 0.887	[*A*]the wind[*R*]comes[*A*]from one direction	context()	negated: False ,passive: True
 0.503	[*A*]7,8[*R*]should be[*A*]a good layout[*A*]if the wind mainly comes from one direction	context()	negated: False ,passive: True
-[LINE#154]The second configuration is a square configuration, which better illustrates the behaviour of the control systems when turbines operate in the wakes of others.
+[LINE#167] The second configuration is a square configuration, which better illustrates the behaviour of the control systems when turbines operate in the wakes of others.
 0.894	[*A*]turbines[*R*]operate[*A*]in the wakes of others	context()	negated: False ,passive: True
 0.897	[*A*]a square configuration[*R*]better illustrates[*A*]the behaviour of the control systems	context()	negated: False ,passive: False
 0.956	[*A*]The second configuration[*R*]is[*A*]a square configuration, which better illustrates the behaviour of the control systems	context()	negated: False ,passive: True
-[LINE#155]Both configurations are simulated with turbine spacings of 3 and 6 turbine diameters (see Fig. 9).
+[LINE#168] Both configurations are simulated with turbine spacings of 3 and 6 turbine diameters (see Fig. 9).
 0.903	[*A*]Both configurations[*R*]are simulated[*A*]with turbine spacings of 6 turbine diameters	context()	negated: False ,passive: True
 0.903	[*A*]Both configurations[*R*]are simulated[*A*]with turbine spacings of 3 turbine diameters	context()	negated: False ,passive: True
-[LINE#156]The simulations are performed as several separate simulations with different incoming wind directions, all with wind speed 7 m/s.
+[LINE#169] The simulations are performed as several separate simulations with different incoming wind directions, all with wind speed 7 m/s.
 0.903	[*A*]The simulations[*R*]are performed[*A*]as several separate simulations with different incoming wind directions	context()	negated: False ,passive: True
-[LINE#157] The extracted power is given in Fig. 10 for the line configuration and in Fig.11 for the square configuration.
+[LINE#170+171+172]  The extracted power is given in Fig. 10 for the line configuration and in Fig.11 for the square configuration.
 0.925	[*A*]The extracted power[*R*]is given[*A*]in Fig[*A*]for the line in Fig.11 for the square configuration	context()	negated: False ,passive: True
 0.925	[*A*]The extracted power[*R*]is given[*A*]in Fig[*A*]for the line configuration	context()	negated: False ,passive: True
-[LINE#158]The line configuration performs well for a wide range of incident wind angles.
+[LINE#173] The line configuration performs well for a wide range of incident wind angles.
 0.911	[*A*]The line configuration[*R*]performs well[*A*]for a wide range of incident wind angles	context()	negated: False ,passive: False
-[LINE#159]With 3D turbine spacing, the extracted power starts to decrease significantly for an incident angle of 70, while the 6D spacing performs well up to 80.
+[LINE#174] With 3D turbine spacing, the extracted power starts to decrease significantly for an incident angle of 70, while the 6D spacing performs well up to 80.
 0.844	[*A*]the 6D spacing[*R*]performs well[*A*]up to 80	context()	negated: False ,passive: False
 0.897	[*A*]the extracted power[*R*]to decrease significantly[*A*]for an incident angle of 70	context()	negated: False ,passive: True
 0.800	[*A*]the extracted power[*R*]starts	context()	negated: False ,passive: False
-[LINE#160]With higher angles of incident wind, the performance of the downwind turbines is reduced, since they are inside the wake of the upwind turbines.
+[LINE#175] With higher angles of incident wind, the performance of the downwind turbines is reduced, since they are inside the wake of the upwind turbines.
 0.616	[*A*]they[*R*]are[*A*]inside the wake of the upwind turbines	context()	negated: False ,passive: True
 0.909	[*A*]the performance of the downwind turbines[*R*]is reduced[*A*]since they are inside the wake of the upwind turbines	context()	negated: False ,passive: True
-[LINE#161]The square configuration does in general show lower performance than the line configuration, except for incident angles close to 90, as only two turbines in the square configuration are located downwind here.
+[LINE#176] The square configuration does in general show lower performance than the line configuration, except for incident angles close to 90, as only two turbines in the square configuration are located downwind here.
 0.842	[*A*]only two turbines in the square configuration[*R*]are located[*A*]downwind here	context()	negated: False ,passive: True
 0.870	[*A*]The square configuration[*R*]does show[*A*]lower performance than the line configuration	context()	negated: False ,passive: False
-[LINE#162]The small asymmetry around 45 for the square configuration is explained by the small asymmetry in the turbines themselves, as the rotational direction of the turbine slightly affects the wake behind it.
+[LINE#177] The small asymmetry around 45 for the square configuration is explained by the small asymmetry in the turbines themselves, as the rotational direction of the turbine slightly affects the wake behind it.
 0.882	[*A*]the rotational direction of the turbine[*R*]slightly affects[*A*]the wake behind it	context()	negated: False ,passive: False
 0.941	[*A*]The small asymmetry around 45 for the square configuration[*R*]is explained[*A*]by the small asymmetry in the turbines[*A*]as the rotational direction of the turbine slightly affects the wake behind it	context()	negated: False ,passive: True
-[LINE#163]The square configuration is more sensitive to the turbine spacing as a wider range of incidence angles causes a performance loss, compare Figs.
+[LINE#178] The square configuration is more sensitive to the turbine spacing as a wider range of incidence angles causes a performance loss, compare Figs.
 0.903	[*A*]the turbine[*R*]spacing[*A*]as a wider range of incidence angles	context()	negated: False ,passive: True
 0.932	[*A*]The square configuration[*R*]is[*A*]more sensitive to the turbine	context()	negated: False ,passive: True
-[LINE#164]It is therefore advisable to have a larger turbine spacing for the square configuration than for the line configuration.
+[LINE#179] It is therefore advisable to have a larger turbine spacing for the square configuration than for the line configuration.
 0.911	[*A*]a larger turbine[*R*]spacing[*A*]for the square configuration	context()	negated: False ,passive: False
-[LINE#165]The differences between the mutual and the separate topologies are generally very small.
+[LINE#180] The differences between the mutual and the separate topologies are generally very small.
 0.866	[*A*]The differences between the mutual and the separate topologies[*R*]are[*A*]generally[*A*]very small	context()	negated: False ,passive: True
-[LINE#166]For the line configuration at low incident wind angles, both topologies can be expected to work well, as the mutual interactions between the turbines are small.
+[LINE#181] For the line configuration at low incident wind angles, both topologies can be expected to work well, as the mutual interactions between the turbines are small.
 0.829	[*A*]the mutual interactions between the turbines[*R*]are[*A*]small	context()	negated: False ,passive: True
 0.698	[*A*]both topologies[*R*]to work well	context()	negated: False ,passive: False
 0.933	[*A*]both topologies[*R*]can be expected[*A*]For the line configuration at low incident wind angles	context()	negated: False ,passive: True
-[LINE#167]The trends do however continue over the entire interval of angles of incidence.
+[LINE#182] The trends do however continue over the entire interval of angles of incidence.
 0.859	[*A*]The trends[*R*]do continue[*A*]over the entire interval of angles of incidence	context()	negated: False ,passive: True
-[LINE#168]When a turbine operates in the wake of another, the mutual topology causes the upstream turbine to extract less energy due to the lower rotational velocity.
+[LINE#183] When a turbine operates in the wake of another, the mutual topology causes the upstream turbine to extract less energy due to the lower rotational velocity.
 0.888	[*A*]the upstream turbine[*R*]to extract[*A*]less energy	context(the mutual topology causes)	negated: False ,passive: False
 0.958	[*A*]the mutual topology[*R*]causes[*A*]the upstream turbine to extract less energy due to the lower rotational velocity[*A*]When a turbine operates in the wake of another	context()	negated: False ,passive: False
 0.903	[*A*]a turbine[*R*]operates[*A*]in the wake of another	context()	negated: False ,passive: True
-[LINE#169]This leaves more energy for the downstream turbine which gives more even energy absorption than with the separate topology.
+[LINE#184] This leaves more energy for the downstream turbine which gives more even energy absorption than with the separate topology.
 0.897	[*A*]the downstream turbine[*R*]gives[*A*]more even energy absorption than with the separate topology	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]leaves[*A*]more energy[*A*]for the downstream turbine	context()	negated: False ,passive: False
-[LINE#170]Therefore, the topology is not as important if the differences in wind speed are caused by mutual turbine interaction, compared to the independent turbines in Section 6.1.
+[LINE#185] Therefore, the topology is not as important if the differences in wind speed are caused by mutual turbine interaction, compared to the independent turbines in Section 6.1.
 0.926	[*A*]the differences in wind speed[*R*]are caused[*A*]by mutual turbine interaction[*A*]compared to the independent turbines in Section 6.1	context()	negated: False ,passive: True
 0.937	[*A*]the topology[*R*]is not[*A*]as important[*A*]if the differences in wind speed are caused by mutual turbine interaction, compared to the independent turbines in Section 6.1	context()	negated: True ,passive: True
-[LINE#171]The most significant difference is the 45 wind angle for the square configuration.
+[LINE#186] The most significant difference is the 45 wind angle for the square configuration.
 0.329	[*A*]the square configuration[*R*]has The significant difference of[*A*]45 wind angle	context()	negated: False ,passive: False
 0.973	[*A*]The most significant difference[*R*]is[*A*]45 wind angle	context()	negated: False ,passive: False
 0.937	[*A*]The most significant difference[*R*]is[*A*]the 45 wind angle for the square configuration	context()	negated: False ,passive: True
-[LINE#172]Here, two of the turbines are operating without any turbine behind them and should therefore operate at the tip speed ratio of independent turbines.
+[LINE#187] Here, two of the turbines are operating without any turbine behind them and should therefore operate at the tip speed ratio of independent turbines.
 0.174	[*A*]two[*R*]should operate[*A*]Here	context()	negated: False ,passive: True
 0.856	[*A*]two of the turbines[*R*]are operating[*A*]Here	context()	negated: False ,passive: True
-[LINE#173]For the other two turbines (middle turbines), one is in the wake of the other and it should therefore be a viable strategy to reduce the extraction for the first turbine for a higher power extraction on the second turbine.
+[LINE#188] For the other two turbines (middle turbines), one is in the wake of the other and it should therefore be a viable strategy to reduce the extraction for the first turbine for a higher power extraction on the second turbine.
 0.463	[*A*]it[*R*]should be[*A*]a viable strategy to reduce the extraction for the first turbine for a higher power extraction on the second turbine	context()	negated: False ,passive: True
 0.613	[*A*]one[*R*]is[*A*]in the wake of the other	context()	negated: False ,passive: True
-[LINE#174]The main issue here is that the two relatively independent turbines cause the mutual rotational velocity to increase, hence over-rotating the two middle turbines, thereby decreasing their efficiency.
+[LINE#189] The main issue here is that the two relatively independent turbines cause the mutual rotational velocity to increase, hence over-rotating the two middle turbines, thereby decreasing their efficiency.
 0.779	[*A*]the two relatively independent turbines[*R*]cause the mutual rotational velocity to increase over-rotating[*A*]the two middle turbines[*A*]thereby decreasing their efficiency	context(The main issue here is the two relatively independent turbines cause)	negated: False ,passive: False
 0.727	[*A*]the mutual rotational velocity[*R*]to increase	context(The main issue here is the two relatively independent turbines cause)	negated: False ,passive: False
 0.909	[*A*]the two relatively independent turbines[*R*]cause[*A*]the mutual rotational velocity to increase	context(The main issue here is)	negated: False ,passive: False
 0.875	[*A*]The main issue here[*R*]is[*A*]that the two relatively independent turbines cause the mutual rotational velocity to increase, hence over-rotating the two middle turbines,	context()	negated: False ,passive: True
-[LINE#175]Further, the rotational velocities of the two independent turbines are too low as the two middle turbines absorb less energy than the two independent turbines.
+[LINE#190] Further, the rotational velocities of the two independent turbines are too low as the two middle turbines absorb less energy than the two independent turbines.
 0.919	[*A*]the two middle turbines[*R*]absorb[*A*]less energy than the two independent turbines	context()	negated: False ,passive: False
 0.964	[*A*]the rotational velocities of the two independent turbines[*R*]are[*A*]too low[*A*]as the two middle turbines absorb less energy than the two independent turbines	context()	negated: False ,passive: True
-[LINE#176]This causes the independent turbines to operate at a too low tip speed ratio, hence reducing their performance.
+[LINE#191] This causes the independent turbines to operate at a too low tip speed ratio, hence reducing their performance.
 0.788	[*A*]the independent turbines[*R*]to operate[*A*]hence reducing their performance	context(This causes)	negated: False ,passive: True
 0.300	[*A*]This[*R*]causes[*A*]the independent turbines to operate at a too low tip speed ratio, hence reducing their performance	context()	negated: False ,passive: False
 0.393	[*A*]hence[*R*]reducing[*A*]their performance	context()	negated: False ,passive: True
-[LINE#177]The conclusion is that if all turbines are coupled to each other (or coupled in even pairs as for the square configuration at 0 and 90), the difference in extracted power is very small between the topologies.
+[LINE#192] The conclusion is that if all turbines are coupled to each other (or coupled in even pairs as for the square configuration at 0 and 90), the difference in extracted power is very small between the topologies.
 0.853	[*A*]The conclusion[*R*]is[*A*]that if all turbines are coupled in even pairs as for the square configuration at 90 ) , the difference in extracted power is very small between the topologies	context()	negated: False ,passive: True
 0.903	[*A*]all turbines[*R*]are coupled[*A*]in even pairs as for the square configuration[*A*]at 90	context()	negated: False ,passive: True
 0.853	[*A*]The conclusion[*R*]is[*A*]that if all turbines are coupled in even pairs as for the square configuration at 0 ) , the difference in extracted power is very small between the topologies	context()	negated: False ,passive: True
@@ -555,133 +555,133 @@
 0.930	[*A*]the difference in extracted power[*R*]is[*A*]very small between the topologies	context(The conclusion is)	negated: False ,passive: True
 0.853	[*A*]The conclusion[*R*]is[*A*]that if all turbines are coupled to each other ( , the difference in extracted power is very small between the topologies	context()	negated: False ,passive: True
 0.767	[*A*]all turbines[*R*]are coupled[*A*]to each other	context()	negated: False ,passive: True
-[LINE#178]However, if some turbines are coupled together while others are approximately independent, more energy will be absorbed with the separate topology. .
+[LINE#193] However, if some turbines are coupled together while others are approximately independent, more energy will be absorbed with the separate topology. .
 0.903	[*A*]more energy[*R*]will be absorbed[*A*]with the separate topology	context()	negated: False ,passive: True
 0.749	[*A*]others[*R*]are[*A*]approximately independent	context()	negated: False ,passive: True
 0.767	[*A*]some turbines[*R*]are coupled[*A*]together	context()	negated: False ,passive: True
-[LINE#179]Dynamic simulationsThe final simulations are performed with varying wind velocities for different turbines in the same simulation.
+[LINE#194] Dynamic simulationsThe final simulations are performed with varying wind velocities for different turbines in the same simulation.
 0.769	[*A*]Dynamic simulationsThe final simulations[*R*]are performed	context()	negated: False ,passive: False
-[LINE#180]To create a varying velocity field within the given model, several additional vortices are inserted from the start of the simulation.
+[LINE#195] To create a varying velocity field within the given model, several additional vortices are inserted from the start of the simulation.
 0.911	[*A*]several additional vortices[*R*]are inserted[*A*]from the start of the simulation	context()	negated: False ,passive: True
-[LINE#181] The additional vortices are given byxi=-R(150.5+i),i=0,1,2,,599,yi=-2Rsin(10xi),i=180sin(0.03xi),where (xi,yi) are the vortex positions and i.
+[LINE#196+197]  The additional vortices are given byxi=-R(150.5+i),i=0,1,2,,599,yi=-2Rsin(10xi),i=180sin(0.03xi),where (xi,yi) are the vortex positions and i.
 0.718	[*A*]xi , yi[*R*]are	context()	negated: False ,passive: False
 0.911	[*A*]The additional vortices[*R*]are given[*A*]byxi= - R	context()	negated: False ,passive: True
-[LINE#182]The particular values for these positions and strengths are chosen to get quite large fluctuations in the wind speed, while still originating from a simple expression.
+[LINE#198] The particular values for these positions and strengths are chosen to get quite large fluctuations in the wind speed, while still originating from a simple expression.
 0.921	[*A*]The particular values for these strengths[*R*]to get[*A*]quite large fluctuations in the wind speed	context()	negated: False ,passive: False
 0.932	[*A*]The particular values for these strengths[*R*]are chosen[*A*]to get quite large fluctuations in the wind speed	context()	negated: False ,passive: True
 0.921	[*A*]The particular values for these positions[*R*]to get[*A*]quite large fluctuations in the wind speed	context()	negated: False ,passive: False
 0.932	[*A*]The particular values for these positions[*R*]are chosen[*A*]to get quite large fluctuations in the wind speed	context()	negated: False ,passive: True
-[LINE#183]The vortices will in time form a pattern similar to a Karman street.
+[LINE#199] The vortices will in time form a pattern similar to a Karman street.
 0.929	[*A*]The vortices[*R*]will form[*A*]a pattern similar to a Karman street[*A*]in time	context()	negated: False ,passive: False
-[LINE#184] The wind speeds at the turbine positions in the square configuration with 3 turbine diameters are found in Fig..
+[LINE#200]  The wind speeds at the turbine positions in the square configuration with 3 turbine diameters are found in Fig..
 0.975	[*A*]The wind speeds at the turbine positions in the square configuration with 3 turbine diameters[*R*]are found[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#185]The shape is similar for the line configuration, although not identical as the turbine positions are different.
+[LINE#201] The shape is similar for the line configuration, although not identical as the turbine positions are different.
 0.905	[*A*]The shape[*R*]is[*A*]similar for the line configuration	context(the turbine positions are)	negated: False ,passive: True
 0.736	[*A*]the turbine positions[*R*]are[*A*]different	context()	negated: False ,passive: True
-[LINE#186]12 are obtained from the case with the separate topology by calculating the velocity contribution from only these additional vortices at the center position of each turbine.
+[LINE#202] 12 are obtained from the case with the separate topology by calculating the velocity contribution from only these additional vortices at the center position of each turbine.
 0.992	[*A*]12[*R*]are obtained from[*A*]the case with the separate topology by calculating the velocity contribution from only these additional vortices at the center position of each turbine	context()	negated: False ,passive: False
 0.657	[*A*]12[*R*]are obtained[*A*]from the case with the separate topology by calculating the velocity contribution from only these additional vortices at the center position of each turbine	context()	negated: False ,passive: True
-[LINE#187] The extracted powers as functions of time are presented in Fig. 13 for the line configuration and in Fig.14 for the square configuration.
+[LINE#203+204]  The extracted powers as functions of time are presented in Fig. 13 for the line configuration and in Fig.14 for the square configuration.
 0.993	[*A*]The extracted powers as functions of time[*R*]are presented for[*A*]13 for the line	context()	negated: False ,passive: False
 0.948	[*A*]The extracted powers as functions of time[*R*]are presented[*A*]in Fig[*A*]for the line in Fig.14 for the square configuration	context()	negated: False ,passive: True
 0.948	[*A*]The extracted powers as functions of time[*R*]are presented[*A*]in Fig[*A*]for the line configuration	context()	negated: False ,passive: True
-[LINE#188]In both cases, a low-pass filter has been applied to remove the effects of the power fluctuations during the revolution due to the torque ripple.
+[LINE#205] In both cases, a low-pass filter has been applied to remove the effects of the power fluctuations during the revolution due to the torque ripple.
 0.913	[*A*]a low-pass filter[*R*]to remove[*A*]the effects of the power fluctuations[*A*]during the revolution	context()	negated: False ,passive: False
 0.949	[*A*]a low-pass filter[*R*]has been applied[*A*]In both cases	context()	negated: False ,passive: True
-[LINE#189]The sinusoidal behaviour of the power can be related to the Karman-street behaviour of the velocity field.
+[LINE#206] The sinusoidal behaviour of the power can be related to the Karman-street behaviour of the velocity field.
 0.964	[*A*]The sinusoidal behaviour of the power[*R*]can be related[*A*]to the Karman-street behaviour of the velocity field	context()	negated: False ,passive: True
-[LINE#190]In total, the line configuration with the separate topology extracts 1.7% more energy than the mutual topology in the time interval from 200 s to 1400 s.
-[LINE#191]For the square configuration, the mutual topology extracts 6.2% more energy in the same time interval.
-[LINE#192]The mutual topology tends to keep all turbines at more similar rotational velocities than the separate topology.
+[LINE#207] In total, the line configuration with the separate topology extracts 1.7% more energy than the mutual topology in the time interval from 200 s to 1400 s.
+[LINE#208] For the square configuration, the mutual topology extracts 6.2% more energy in the same time interval.
+[LINE#209] The mutual topology tends to keep all turbines at more similar rotational velocities than the separate topology.
 0.897	[*A*]The mutual topology[*R*]to keep[*A*]all turbines[*A*]at more similar rotational velocities than the separate topology	context()	negated: False ,passive: False
 0.956	[*A*]The mutual topology[*R*]tends[*A*]to keep all turbines at more similar rotational velocities than the separate topology	context()	negated: False ,passive: True
-[LINE#193]For the line configuration, where the turbines are nearly independent, this is disadvantageous as it does not allow each turbine to fully adapt to the changes in wind speed.
+[LINE#210] For the line configuration, where the turbines are nearly independent, this is disadvantageous as it does not allow each turbine to fully adapt to the changes in wind speed.
 0.878	[*A*]each turbine[*R*]to fully adapt[*A*]to the changes in wind speed	context(it does not allow)	negated: False ,passive: False
 0.504	[*A*]it[*R*]does not allow[*A*]each turbine to fully adapt to the changes in wind speed	context()	negated: True ,passive: False
 0.223	[*A*]this[*R*]is[*A*]disadvantageous	context()	negated: False ,passive: True
 0.943	[*A*]the turbines[*R*]are[*A*]nearly independent[*A*]the line configuration	context()	negated: False ,passive: True
-[LINE#194]It was seen in Section 6.1 that for large variations in wind speed between the turbines, the separate topology should perform better, which is seen here.
+[LINE#211] It was seen in Section 6.1 that for large variations in wind speed between the turbines, the separate topology should perform better, which is seen here.
 0.707	[*A*]the separate topology[*R*]should perform better	context(It was seen)	negated: False ,passive: False
 0.397	[*A*]It[*R*]was seen[*A*]in Section 6.1	context()	negated: False ,passive: True
-[LINE#195][11] predicts that for rapid wind speed changes, it can be advantageous to keep the rotational velocity high to extract power at a high power coefficient for high wind speeds if the wind speed fluctuations are faster that the turbine response time.
+[LINE#212] [11] predicts that for rapid wind speed changes, it can be advantageous to keep the rotational velocity high to extract power at a high power coefficient for high wind speeds if the wind speed fluctuations are faster that the turbine response time.
 0.091	[*A*]11[*R*]predicts[*A*]that	context(it can be)	negated: False ,passive: False
 0.504	[*A*]it[*R*]can be[*A*]advantageous to keep the rotational velocity high to extract power at a high power coefficient for high wind speeds	context()	negated: False ,passive: True
 0.805	[*A*]the wind speed fluctuations[*R*]are[*A*]faster that the turbine response time	context()	negated: False ,passive: True
 0.528	[*A*]it[*R*]to keep[*A*]the rotational velocity high to extract power at a high power coefficient for high wind speeds	context()	negated: False ,passive: False
-[LINE#196]This is a possible explanation of the relatively good performance of the mutual topology.
+[LINE#213] This is a possible explanation of the relatively good performance of the mutual topology.
 0.567	[*A*]This[*R*]is[*A*]a possible explanation of the relatively good performance of the mutual topology	context()	negated: False ,passive: True
-[LINE#197]For the square configuration, the mutual topology performed better than the separate topology.
+[LINE#214] For the square configuration, the mutual topology performed better than the separate topology.
 0.751	[*A*]the mutual topology[*R*]performed better	context()	negated: False ,passive: False
-[LINE#198]One observed issue with the separate topology is that the turbines in front easily get high rotational velocities for the peak wind speeds.
+[LINE#215] One observed issue with the separate topology is that the turbines in front easily get high rotational velocities for the peak wind speeds.
 0.900	[*A*]the turbines in front[*R*]easily get[*A*]high rotational velocities for the peak wind speeds	context(One observed issue with the separate topology is)	negated: False ,passive: False
 0.904	[*A*]One observed issue with the separate topology[*R*]is[*A*]that the turbines in front easily get high rotational velocities for the peak wind speeds	context()	negated: False ,passive: True
-[LINE#199][11] that for rapid increases in wind speed, the turbine temporarily obtains a higher rotational velocity and power before the wake has formed.
+[LINE#216] [11] that for rapid increases in wind speed, the turbine temporarily obtains a higher rotational velocity and power before the wake has formed.
 0.934	[*A*]the turbine[*R*]obtains[*A*]a higher power[*A*]before the wake has formed[*A*]temporarily	context()	negated: False ,passive: False
 0.732	[*A*]the wake[*R*]has formed	context()	negated: False ,passive: False
 0.934	[*A*]the turbine[*R*]obtains[*A*]a higher rotational velocity before the wake has formed[*A*]temporarily	context()	negated: False ,passive: False
-[LINE#200]For rapid decreases in wind speed, the existing wake causes an additional drop in wind speed.
+[LINE#217] For rapid decreases in wind speed, the existing wake causes an additional drop in wind speed.
 0.911	[*A*]the existing wake[*R*]causes[*A*]an additional drop in wind speed	context()	negated: False ,passive: False
-[LINE#201]Hence the rotational velocity and the extracted power drop below the steady state value before the wake has drifted away.
+[LINE#218] Hence the rotational velocity and the extracted power drop below the steady state value before the wake has drifted away.
 0.767	[*A*]the wake[*R*]has drifted[*A*]away	context()	negated: False ,passive: True
-[LINE#202]For the square configuration, a rapid increase in wind speed causes the front turbine to obtain a high rotational velocity, which generates a large wake behind the turbine.
+[LINE#219] For the square configuration, a rapid increase in wind speed causes the front turbine to obtain a high rotational velocity, which generates a large wake behind the turbine.
 0.927	[*A*]the front turbine[*R*]to obtain[*A*]a high rotational velocity, which generates a large wake behind the turbine	context(a rapid increase in wind speed causes)	negated: False ,passive: False
 0.913	[*A*]a rapid increase in wind speed[*R*]causes[*A*]the front turbine to obtain a high rotational velocity	context()	negated: False ,passive: False
 0.905	[*A*]a high rotational velocity[*R*]generates[*A*]a large wake behind the turbine	context()	negated: False ,passive: False
-[LINE#203]This large wake will drift into the downwind turbine, hence reducing the rotational velocity of the second turbine.
+[LINE#220] This large wake will drift into the downwind turbine, hence reducing the rotational velocity of the second turbine.
 0.544	[*A*]hence[*R*]reducing[*A*]the rotational velocity of the second turbine	context()	negated: False ,passive: True
 0.911	[*A*]This large wake[*R*]will drift[*A*]into the downwind turbine[*A*]hence reducing the rotational velocity of the second turbine	context()	negated: False ,passive: True
-[LINE#204]15 at 1050 and 1170 s, where an increase in rotational velocity for turbines 1 and 3 in the separate case is followed by a rapid decrease in rotational velocity for turbine 3.
+[LINE#221] 15 at 1050 and 1170 s, where an increase in rotational velocity for turbines 1 and 3 in the separate case is followed by a rapid decrease in rotational velocity for turbine 3.
 0.971	[*A*]an increase in rotational velocity for 3 in the separate case[*R*]is followed[*A*]1170 s	context()	negated: False ,passive: True
 0.164	[*A*]velocity for turbines[*R*]has rotational of[*A*]1	context()	negated: False ,passive: False
 0.611	[*A*]the separate case[*R*]has rotational velocity of[*A*]1	context()	negated: False ,passive: False
 0.950	[*A*]an increase in rotational velocity for turbines[*R*]is followed[*A*]1170 s	context()	negated: False ,passive: True
-[LINE#205]The mutual topology does not suffer from this issue, as it prevents the turbines in the front from obtaining too high rotational velocities, while keeping the rotational velocity of the turbines in the back higher.
+[LINE#222] The mutual topology does not suffer from this issue, as it prevents the turbines in the front from obtaining too high rotational velocities, while keeping the rotational velocity of the turbines in the back higher.
 0.452	[*A*]it[*R*]prevents[*A*]the turbines	context()	negated: False ,passive: False
 0.899	[*A*]The mutual topology[*R*]does not suffer[*A*]from this issue[*A*]as it prevents the turbines in the front from obtaining too high rotational velocities	context()	negated: True ,passive: False
-[LINE#206]As the additional vortices are inserted at the initialization of the simulation and drift with the flow velocity, the wakes of the turbines will affect the motion of these vortices.
+[LINE#223] As the additional vortices are inserted at the initialization of the simulation and drift with the flow velocity, the wakes of the turbines will affect the motion of these vortices.
 0.943	[*A*]the additional vortices[*R*]are inserted[*A*]at the initialization of the drift with the flow velocity	context()	negated: False ,passive: True
 0.926	[*A*]the wakes of the turbines[*R*]will affect[*A*]the motion of these vortices	context()	negated: False ,passive: False
 0.911	[*A*]the additional vortices[*R*]are inserted[*A*]at the initialization of the simulation	context()	negated: False ,passive: True
-[LINE#207]12 are therefore not identical to the wind speeds for the mutual topology, and some of the differences seen in Figs.
+[LINE#224] 12 are therefore not identical to the wind speeds for the mutual topology, and some of the differences seen in Figs.
 0.918	[*A*]the differences[*R*]seen[*A*]in Figs	context()	negated: False ,passive: True
 0.657	[*A*]12[*R*]are[*A*]therefore[*A*]not identical to the wind speeds for the mutual topology, and some of the differences	context()	negated: False ,passive: True
-[LINE#208]13-15, such as the low rotational velocity for the separate topology at time 1130 s, can be explained by these differences in wind speed.
+[LINE#225] 13-15, such as the low rotational velocity for the separate topology at time 1130 s, can be explained by these differences in wind speed.
 0.887	[*A*]1130 s[*R*]can be explained[*A*]by these differences in wind speed	context()	negated: False ,passive: True
-[LINE#209]The vortex methodThe aerodynamic simulations are performed with the same two-dimensional vortex method as described in Ref.
+[LINE#226] The vortex methodThe aerodynamic simulations are performed with the same two-dimensional vortex method as described in Ref.
 0.944	[*A*]The vortex methodThe aerodynamic simulations[*R*]are performed[*A*]as described in Ref	context()	negated: False ,passive: True
-[LINE#210][11], and only the basic working principles are described here.
+[LINE#227] [11], and only the basic working principles are described here.
 0.799	[*A*]the basic working principles[*R*]are described[*A*]here	context()	negated: False ,passive: True
 0.263	[*A*]11[*R*]are described[*A*]here	context()	negated: False ,passive: True
-[LINE#211]The vortex model is used to calculate the velocity field, while an empirical model is used to determine lift and drag coefficients.
+[LINE#228] The vortex model is used to calculate the velocity field, while an empirical model is used to determine lift and drag coefficients.
 0.897	[*A*]an empirical model[*R*]to determine[*A*]drag coefficients	context()	negated: False ,passive: False
 0.911	[*A*]an empirical model[*R*]is used[*A*]to determine drag coefficients	context()	negated: False ,passive: True
 0.897	[*A*]an empirical model[*R*]to determine[*A*]lift	context()	negated: False ,passive: False
 0.911	[*A*]an empirical model[*R*]is used[*A*]to determine lift	context()	negated: False ,passive: True
 0.911	[*A*]The vortex model[*R*]is used[*A*]to calculate the velocity field	context()	negated: False ,passive: True
-[LINE#212]This choice was made to substantially increase the speed of the code, as solving the boundary layer with the vortex method is computationally demanding.
+[LINE#229] This choice was made to substantially increase the speed of the code, as solving the boundary layer with the vortex method is computationally demanding.
 0.751	[*A*]the vortex method[*R*]is computationally demanding	context()	negated: False ,passive: False
-[LINE#213]The empirical force coefficients are calculated from the data in Ref.
+[LINE#230] The empirical force coefficients are calculated from the data in Ref.
 0.931	[*A*]The empirical force coefficients[*R*]are calculated[*A*]from the data in Ref	context()	negated: False ,passive: True
-[LINE#214][24] combined with the dynamic stall model developed by Gormont [25] and later improved by Mass [26] using the parameters suggested by Berg [27].
+[LINE#231] [24] combined with the dynamic stall model developed by Gormont [25] and later improved by Mass [26] using the parameters suggested by Berg [27].
 0.918	[*A*]the parameters[*R*]suggested[*A*]by Berg	context()	negated: False ,passive: True
 0.944	[*A*]24] combined with the dynamic stall model[*R*]using[*A*]the parameters suggested by Berg	context()	negated: False ,passive: False
 0.931	[*A*]the dynamic stall model[*R*]developed[*A*]by Gormont	context()	negated: False ,passive: True
-[LINE#215]The code uses a panel to calculate the angle of attack from the velocity [28].
+[LINE#232] The code uses a panel to calculate the angle of attack from the velocity [28].
 0.903	[*A*]The code[*R*]uses[*A*]a panel[*A*]to calculate the angle of attack from the velocity	context()	negated: False ,passive: False
-[LINE#216]This angle of attack, combined with the Reynolds number, is used by the empirical force model to obtain the force coefficients.
+[LINE#233] This angle of attack, combined with the Reynolds number, is used by the empirical force model to obtain the force coefficients.
 0.959	[*A*]This angle of attack, combined with the Reynolds number[*R*]is used[*A*]by the empirical force model[*A*]to obtain the force coefficients	context()	negated: False ,passive: True
 0.920	[*A*]This angle of attack[*R*]combined[*A*]with the Reynolds number	context()	negated: False ,passive: True
-[LINE#217]The lift coefficient is later used to calculate the circulation according to the Kutta Joukowski lift formula (as suggested in Ref.
+[LINE#234] The lift coefficient is later used to calculate the circulation according to the Kutta Joukowski lift formula (as suggested in Ref.
 0.897	[*A*]The lift coefficient[*R*]to calculate[*A*]the circulation	context()	negated: False ,passive: False
 0.958	[*A*]The lift coefficient[*R*]is used[*A*]to calculate the circulation according to the Kutta Joukowski lift formula (as suggested in Ref[*A*]later	context()	negated: False ,passive: True
-[LINE#218][29]) and the vortex released from a blade is obtained as the change in circulation for the blade.
+[LINE#235] [29]) and the vortex released from a blade is obtained as the change in circulation for the blade.
 0.932	[*A*]the vortex released from a blade[*R*]is obtained[*A*]as the change in circulation for the blade	context()	negated: False ,passive: True
 0.903	[*A*]the vortex[*R*]released[*A*]from a blade	context()	negated: False ,passive: True
 0.992	[*A*]29 ][*R*]is obtained as[*A*]the change in circulation for the blade	context()	negated: False ,passive: False
 0.503	[*A*]29[*R*]is obtained[*A*]as the change in circulation for the blade	context()	negated: False ,passive: True
-[LINE#219]Tip vortex corrections are applied using finite wing theory.
+[LINE#236] Tip vortex corrections are applied using finite wing theory.
 0.803	[*A*]Tip vortex corrections[*R*]are applied	context()	negated: False ,passive: False
-[LINE#220]By combining the empirical model with the vortex model, only one vortex is released from each blade at each time step, which enables fast simulations.
+[LINE#237] By combining the empirical model with the vortex model, only one vortex is released from each blade at each time step, which enables fast simulations.
 0.911	[*A*]only one vortex[*R*]is released[*A*]from each blade[*A*]which enables fast simulations	context()	negated: False ,passive: True
-[LINE#221]To further increase the computational speed, vortices far away from the turbines are merged to reduce the total number of vortices.
+[LINE#238] To further increase the computational speed, vortices far away from the turbines are merged to reduce the total number of vortices.
 0.921	[*A*]To further increase the computational speed[*R*]vortices[*A*]far away from the turbines	context()	negated: False ,passive: True

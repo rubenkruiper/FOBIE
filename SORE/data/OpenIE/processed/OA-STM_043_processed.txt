@@ -1,4 +1,4 @@
-[LINE#1]Laboratory and field studies were conducted to assess the effects of glyphosate on Macrophomina phaseolina culture growth in vitro and the disease severity of charcoal rot in soybean fields at Stoneville, MS and Jackson, TN.
+[LINE#0] Laboratory and field studies were conducted to assess the effects of glyphosate on Macrophomina phaseolina culture growth in vitro and the disease severity of charcoal rot in soybean fields at Stoneville, MS and Jackson, TN.
 0.947	[*A*]field studies[*R*]were conducted[*A*]to assess the effects of the disease severity of charcoal rot in soybean fields at Jackson	context()	negated: False ,passive: True
 0.947	[*A*]field studies[*R*]were conducted[*A*]to assess the effects of the disease severity of charcoal rot in soybean fields at MS	context()	negated: False ,passive: True
 0.947	[*A*]field studies[*R*]were conducted[*A*]to assess the effects of the disease severity of charcoal rot in soybean fields at Stoneville	context()	negated: False ,passive: True
@@ -13,116 +13,116 @@
 0.947	[*A*]Laboratory studies[*R*]were conducted[*A*]to assess the effects of the disease severity of charcoal rot in soybean fields at Stoneville	context()	negated: False ,passive: True
 0.947	[*A*]field studies[*R*]were conducted[*A*]to assess the effects of glyphosate on Macrophomina phaseolina culture growth in vitro	context()	negated: False ,passive: True
 0.947	[*A*]Laboratory studies[*R*]were conducted[*A*]to assess the effects of glyphosate on Macrophomina phaseolina culture growth in vitro	context()	negated: False ,passive: True
-[LINE#2]Glyphosate inhibited M. phaseolina growth in a linear dose dependent manner when technical grade glyphosate acid (GlyCry) was used; however, growth was inhibited in an exponential dose dependent manner when a commercial formulation of glyphosate-potassium salt (Gly-K salt) was used.
+[LINE#1] Glyphosate inhibited M. phaseolina growth in a linear dose dependent manner when technical grade glyphosate acid (GlyCry) was used; however, growth was inhibited in an exponential dose dependent manner when a commercial formulation of glyphosate-potassium salt (Gly-K salt) was used.
 0.914	[*A*]Glyphosate[*R*]inhibited[*A*]M. phaseolina growth	context(growth was inhibited)	negated: False ,passive: False
 0.496	[*A*]growth[*R*]was inhibited	context()	negated: False ,passive: False
 0.805	[*A*]a commercial formulation of glyphosate-potassium salt[*R*]was used	context()	negated: False ,passive: False
 0.737	[*A*]technical grade glyphosate acid[*R*]was used	context()	negated: False ,passive: False
-[LINE#3]The glyphosate GR50 values (glyphosate concentration required to cause a 50% reduction) in culture radial growth ranged from 0.25 to 9.94 mM among the M. Phaseolina isolates, temperatures, and formulations.
+[LINE#2] The glyphosate GR50 values (glyphosate concentration required to cause a 50% reduction) in culture radial growth ranged from 0.25 to 9.94 mM among the M. Phaseolina isolates, temperatures, and formulations.
 0.963	[*A*]The glyphosate GR50 values (glyphosate concentration required to cause a 50% reduction) in culture radial growth ranged from 0.25 to 9.94 mM among the M. Phaseolina[*R*]isolates	context()	negated: False ,passive: False
 0.928	[*A*]GR50 values[*R*]ranged[*A*]from 0.25 to 9.94 mM among the M. Phaseolina	context()	negated: False ,passive: True
 0.887	[*A*]glyphosate concentration[*R*]to cause[*A*]a 50% reduction	context()	negated: False ,passive: False
 0.732	[*A*]glyphosate concentration[*R*]required	context()	negated: False ,passive: False
-[LINE#4]The three isolates differed in response to various concentrations across the three temperature regimes.
+[LINE#3] The three isolates differed in response to various concentrations across the three temperature regimes.
 0.246	[*A*]The three[*R*]differed	context()	negated: False ,passive: False
 0.679	[*A*]The three[*R*]isolates[*A*]differed in response to various concentrations across the three temperature regimes	context()	negated: False ,passive: False
-[LINE#5] Among the three isolates, TN 410 was the most sensitive for both GlyCry (.
+[LINE#4]  Among the three isolates, TN 410 was the most sensitive for both GlyCry (.
 0.973	[*A*]TN 410[*R*]was[*A*]the most sensitive for both GlyCry[*A*]Among the three isolates	context()	negated: False ,passive: True
-[LINE#6]This research indicates that glyphosate has the ability to inhibit growth of M. phaseolina in culture in vitro.
+[LINE#5] This research indicates that glyphosate has the ability to inhibit growth of M. phaseolina in culture in vitro.
 0.945	[*A*]glyphosate[*R*]has[*A*]the ability to inhibit growth of M. phaseolina in culture in vitro	context(This research indicates)	negated: False ,passive: False
 0.731	[*A*]This research[*R*]indicates[*A*]that glyphosate has the ability	context()	negated: False ,passive: False
-[LINE#7]The preliminary field studies demonstrated that application of glyphosate to glyphosate-resistant soybeans did not enhance or reduce the severity of charcoal rot in a no-till field in TN but had some suppressing effect in a tilled environment in MS when single applications were made at growth stage V3 and V6.
+[LINE#6] The preliminary field studies demonstrated that application of glyphosate to glyphosate-resistant soybeans did not enhance or reduce the severity of charcoal rot in a no-till field in TN but had some suppressing effect in a tilled environment in MS when single applications were made at growth stage V3 and V6.
 0.938	[*A*]The preliminary field studies[*R*]had[*A*]some suppressing effect in a tilled environment in MS	context()	negated: False ,passive: False
 0.796	[*A*]application of glyphosate to glyphosate-resistant soybeans[*R*]did not enhance	context(The preliminary field studies demonstrated)	negated: True ,passive: False
 0.864	[*A*]The preliminary field studies[*R*]demonstrated[*A*]that application of glyphosate to glyphosate-resistant soybeans did not enhance or reduce the severity of charcoal rot in a no-till field in TN	context()	negated: False ,passive: False
-[LINE#8] Charcoal rot of soybean, caused by Macrophomina phaseolina(Tassi) Goidanich, is one of the most important soilborne pathogens, infecting over 500 plant species in more than 100 plant families around the world (Smith and Wyllie, 1999).
+[LINE#7+8]  Charcoal rot of soybean, caused by Macrophomina phaseolina(Tassi) Goidanich, is one of the most important soilborne pathogens, infecting over 500 plant species in more than 100 plant families around the world (Smith and Wyllie, 1999).
 0.971	[*A*]Charcoal rot of soybean[*R*]is[*A*]one of the most important soilborne pathogens , infecting over 500 plant species in more than 100 plant families around the world ( Wyllie , 1999 )	context()	negated: False ,passive: True
 0.965	[*A*]Charcoal rot of soybean[*R*]is[*A*]one of the most important soilborne pathogens[*A*]infecting over 500 plant species in more than 100 plant families around the world	context()	negated: False ,passive: True
 0.940	[*A*]Charcoal rot of soybean[*R*]caused[*A*]by Macrophomina phaseolina	context()	negated: False ,passive: True
-[LINE#9]Charcoal rot has been a problem for soybean farmers in the United States for many years causing significant yield losses with estimated losses of 8.54  105 tonne per year from 1974 to 1994 in non-irrigated fields in the 16 southern states (Wrather et al., 2009; Wrather et al., 2006).Symptoms of charcoal rot are also referred to as dry-weather wilt or summer wilt, because it often occurs when plants are under heat and drought stresses (Smith and Wyllie, 1999).
-[LINE#10] These stresses can also occur in irrigated soybeans causing losses from 6 to 33% in experimental plots(Mengistu et al., 2011) and the combination of stress and the presence of M. phaseolina caused higher yield loss on soybeans than drought alone.
+[LINE#9] Charcoal rot has been a problem for soybean farmers in the United States for many years causing significant yield losses with estimated losses of 8.54  105 tonne per year from 1974 to 1994 in non-irrigated fields in the 16 southern states (Wrather et al., 2009; Wrather et al., 2006).Symptoms of charcoal rot are also referred to as dry-weather wilt or summer wilt, because it often occurs when plants are under heat and drought stresses (Smith and Wyllie, 1999).
+[LINE#10+11]  These stresses can also occur in irrigated soybeans causing losses from 6 to 33% in experimental plots(Mengistu et al., 2011) and the combination of stress and the presence of M. phaseolina caused higher yield loss on soybeans than drought alone.
 0.919	[*A*]the combination of stress[*R*]caused[*A*]higher yield loss on soybeans than drought alone	context()	negated: False ,passive: False
 0.933	[*A*]Mengistu et al[*R*]caused[*A*]higher yield loss on soybeans than drought alone	context()	negated: False ,passive: False
 0.903	[*A*]irrigated soybeans[*R*]causing[*A*]losses	context()	negated: False ,passive: False
 0.859	[*A*]These stresses[*R*]can occur[*A*]in irrigated soybeans	context()	negated: False ,passive: True
-[LINE#11]The pathogen attacks the plant throughout the season, often causing progressive debilitation of the host.
+[LINE#12] The pathogen attacks the plant throughout the season, often causing progressive debilitation of the host.
 0.893	[*A*]The pathogen[*R*]attacks the plant causing[*A*]progressive debilitation of the host[*A*]often	context(The pathogen attacks)	negated: False ,passive: False
 0.878	[*A*]The pathogen[*R*]attacks[*A*]the plant[*A*]throughout the season[*A*]often causing progressive debilitation of the host	context()	negated: False ,passive: False
-[LINE#12]After flowering, a light gray or silvery discoloration of the epidermal and sub-epidermal tissues develops in the taproot and the lower part of the stem.
+[LINE#13] After flowering, a light gray or silvery discoloration of the epidermal and sub-epidermal tissues develops in the taproot and the lower part of the stem.
 0.978	[*A*]a light gray or silvery discoloration of the epidermal and sub-epidermal tissues[*R*]develops[*A*]in the taproot[*A*]After flowering	context()	negated: False ,passive: True
-[LINE#13]The best diagnostic symptom is found when the epidermis is peeled away from the stem exposing numerous small, black bodies of microsclerotia that are frequently produced in the xylem and pith of the stem and may block water flow.
+[LINE#14] The best diagnostic symptom is found when the epidermis is peeled away from the stem exposing numerous small, black bodies of microsclerotia that are frequently produced in the xylem and pith of the stem and may block water flow.
 0.893	[*A*]microsclerotia[*R*]are produced[*A*]in the pith of the stem[*A*]frequently	context()	negated: False ,passive: True
 0.893	[*A*]microsclerotia[*R*]are produced[*A*]in the xylem of the stem[*A*]frequently	context()	negated: False ,passive: True
 0.877	[*A*]microsclerotia[*R*]may block[*A*]water flow	context()	negated: False ,passive: False
 0.903	[*A*]the stem[*R*]exposing[*A*]numerous small , black bodies of microsclerotia	context()	negated: False ,passive: False
 0.903	[*A*]the epidermis[*R*]is peeled[*A*]away from the stem	context()	negated: False ,passive: True
 0.919	[*A*]The best diagnostic symptom[*R*]is found[*A*]when the epidermis is peeled away from the stem	context()	negated: False ,passive: True
-[LINE#14]Efforts to manage charcoal rot in soybean through adjusting planting dates, crop rotation, planting densities, and irrigation have all been suggested as means of control (Mengistu et al., 2007) and no commercial resistant soybean variety is yet available for effective management of this disease.
+[LINE#15] Efforts to manage charcoal rot in soybean through adjusting planting dates, crop rotation, planting densities, and irrigation have all been suggested as means of control (Mengistu et al., 2007) and no commercial resistant soybean variety is yet available for effective management of this disease.
 0.943	[*A*]no commercial resistant soybean variety[*R*]is[*A*]yet[*A*]available for effective management of this disease	context()	negated: False ,passive: True
 0.949	[*A*]Mengistu et al[*R*]is[*A*]yet[*A*]available for effective management of this disease	context()	negated: False ,passive: True
-[LINE#15]Glyphosate (N-[phosphonomethyl]glycine) application on glyphosate-resistant crops has been shown to enhance and in a few cases reduce severity (Johal and Huber, 2009) of selected soybean diseases.
+[LINE#16] Glyphosate (N-[phosphonomethyl]glycine) application on glyphosate-resistant crops has been shown to enhance and in a few cases reduce severity (Johal and Huber, 2009) of selected soybean diseases.
 0.988	[*A*]Glyphosate ( N - [ phosphonomethyl ] glycine ) application on glyphosate - resistant crops[*R*]has been shown[*A*]in a few cases[*A*]reduce severity ( Huber , 2009 ) of selected soybean diseases	context()	negated: False ,passive: True
 0.988	[*A*]Glyphosate ( N - [ phosphonomethyl ] glycine ) application on glyphosate - resistant crops[*R*]has been shown[*A*]in a few cases[*A*]reduce severity ( Johal , 2009 ) of selected soybean diseases	context()	negated: False ,passive: True
 0.917	[*A*]Glyphosate ( N - [ phosphonomethyl ] glycine ) application on glyphosate - resistant crops[*R*]to enhance	context()	negated: False ,passive: False
 0.929	[*A*]Glyphosate ( N - [ phosphonomethyl ] glycine ) application on glyphosate - resistant crops[*R*]has been shown	context()	negated: False ,passive: False
-[LINE#16]Glyphosate is widely used in glyphosate-resistant (GR) crops for weed management (Johal and Huber, 2009).
+[LINE#17] Glyphosate is widely used in glyphosate-resistant (GR) crops for weed management (Johal and Huber, 2009).
 0.957	[*A*]Glyphosate[*R*]is widely used[*A*]in glyphosate - resistant ( GR ) crops for weed management	context()	negated: False ,passive: True
 0.932	[*A*]Glyphosate[*R*]is widely used[*A*]in glyphosate - resistant ( GR ) crops[*A*]for weed management	context()	negated: False ,passive: True
-[LINE#17]Glyphosate is a systemic broad-spectrum herbicide that inhibits 5-enolpyruvylshikimate 3-phosphate synthase (EPSPS), a key enzyme in the shikimate pathway for biosynthesis of aromatic acids and secondary metabolites (Means and Kremer, 2007).
+[LINE#18] Glyphosate is a systemic broad-spectrum herbicide that inhibits 5-enolpyruvylshikimate 3-phosphate synthase (EPSPS), a key enzyme in the shikimate pathway for biosynthesis of aromatic acids and secondary metabolites (Means and Kremer, 2007).
 0.915	[*A*]Glyphosate[*R*]is[*A*]a systemic broad - spectrum herbicide that inhibits 5 - enolpyruvylshikimate 3 - phosphate synthase ( EPSPS ) , a key enzyme in the shikimate pathway for biosynthesis of secondary metabolites ( Kremer , 2007 )	context()	negated: False ,passive: True
 0.915	[*A*]Glyphosate[*R*]is[*A*]a systemic broad - spectrum herbicide that inhibits 5 - enolpyruvylshikimate 3 - phosphate synthase ( EPSPS ) , a key enzyme in the shikimate pathway for biosynthesis of secondary metabolites ( Means )	context()	negated: False ,passive: True
 0.918	[*A*]a systemic broad - spectrum herbicide[*R*]inhibits enolpyruvylshikimate[*A*]5 - enolpyruvylshikimate 3 - phosphate synthase	context()	negated: False ,passive: False
 0.915	[*A*]Glyphosate[*R*]is[*A*]a systemic broad - spectrum herbicide that inhibits 5 - enolpyruvylshikimate 3 - phosphate synthase ( EPSPS ) , a key enzyme in the shikimate pathway for biosynthesis of aromatic acids	context()	negated: False ,passive: True
-[LINE#18]EPSPS is present in plants, fungi, and bacteria, but not in animals (Kishore and Shah, 1998).
+[LINE#19] EPSPS is present in plants, fungi, and bacteria, but not in animals (Kishore and Shah, 1998).
 0.855	[*A*]EPSPS[*R*]is not[*A*]in animals	context()	negated: True ,passive: True
 0.887	[*A*]EPSPS[*R*]is[*A*]present in bacteria	context()	negated: False ,passive: True
 0.887	[*A*]EPSPS[*R*]is[*A*]present in fungi	context()	negated: False ,passive: True
 0.887	[*A*]EPSPS[*R*]is[*A*]present in plants	context()	negated: False ,passive: True
-[LINE#19]Blockage of this pathway results in massive accumulation of shikimate in affected plant tissues leading to a deficiency of significant end-products such as lignins, alkaloids, and flavonoids and a decrease in CO2 fixation and biomass production in a dose dependent manner (Olesen and Cedergreen, 2010).
+[LINE#20] Blockage of this pathway results in massive accumulation of shikimate in affected plant tissues leading to a deficiency of significant end-products such as lignins, alkaloids, and flavonoids and a decrease in CO2 fixation and biomass production in a dose dependent manner (Olesen and Cedergreen, 2010).
 0.943	[*A*]affected plant tissues[*R*]leading[*A*]to a deficiency of significant end - products such as a decrease in biomass production in a dose dependent manner	context()	negated: False ,passive: False
 0.952	[*A*]affected plant tissues[*R*]leading[*A*]to a deficiency of significant end - products such as a decrease in CO2 fixation in a dose dependent manner	context()	negated: False ,passive: False
 0.943	[*A*]affected plant tissues[*R*]leading[*A*]to a deficiency of significant end - products such as flavonoids	context()	negated: False ,passive: False
 0.943	[*A*]affected plant tissues[*R*]leading[*A*]to a deficiency of significant end - products such as alkaloids	context()	negated: False ,passive: False
 0.943	[*A*]affected plant tissues[*R*]leading[*A*]to a deficiency of significant end - products such as lignins	context()	negated: False ,passive: False
-[LINE#20]Widespread use of glyphosate has raised a concern about its potential to affect plant pathogens in general and evolution of glyphosate-resistant weeds (Johal and Huber, 2009).
+[LINE#21] Widespread use of glyphosate has raised a concern about its potential to affect plant pathogens in general and evolution of glyphosate-resistant weeds (Johal and Huber, 2009).
 0.893	[*A*]Widespread use of glyphosate[*R*]has raised[*A*]a concern about its potential	context()	negated: False ,passive: False
-[LINE#21]Interactions between glyphosate use, other herbicides and plant diseases are well documented, with both positive and negative responses (Altman and Campbell, 1977; Johal and Huber, 2009).
+[LINE#22] Interactions between glyphosate use, other herbicides and plant diseases are well documented, with both positive and negative responses (Altman and Campbell, 1977; Johal and Huber, 2009).
 0.944	[*A*]Interactions between glyphosate use , other herbicides and plant diseases[*R*]are well documented[*A*]with both negative responses	context()	negated: False ,passive: True
 0.944	[*A*]Interactions between glyphosate use , other herbicides and plant diseases[*R*]are well documented[*A*]with both positive responses	context()	negated: False ,passive: True
-[LINE#22] Glyphosate herbicide is known to increase specific plant diseases caused by pathogens such as Corynespora cassiicola . glycines (Johal and Huber, 2009), Phytophthora megasperma.
+[LINE#23+24]  Glyphosate herbicide is known to increase specific plant diseases caused by pathogens such as Corynespora cassiicola . glycines (Johal and Huber, 2009), Phytophthora megasperma.
 0.954	[*A*]Glyphosate herbicide[*R*]to increase[*A*]specific plant diseases caused by pathogens such as Corynespora cassiicola . glycines ( Huber , 2009 ) , Phytophthora megasperma	context()	negated: False ,passive: False
 0.925	[*A*]specific plant diseases[*R*]caused[*A*]by pathogens such as Corynespora cassiicola . glycines	context()	negated: False ,passive: True
 0.954	[*A*]Glyphosate herbicide[*R*]to increase[*A*]specific plant diseases caused by pathogens such as Corynespora cassiicola . glycines ( Johal ) , Phytophthora megasperma	context()	negated: False ,passive: False
 0.788	[*A*]Glyphosate herbicide[*R*]is known	context()	negated: False ,passive: False
-[LINE#23] Geisler et al., 2002) and on micronutrient availability(Evans et al., 2007, Huber et al., 2004).
-[LINE#24] An increase in colonization of GR soybean roots by Fusarium virguliforme, the causal agent of sudden death syndrome (SDS) of soybean showed that susceptibility was independent of the GR trait or glyphosate use (.
+[LINE#25+26]  Geisler et al., 2002) and on micronutrient availability(Evans et al., 2007, Huber et al., 2004).
+[LINE#27]  An increase in colonization of GR soybean roots by Fusarium virguliforme, the causal agent of sudden death syndrome (SDS) of soybean showed that susceptibility was independent of the GR trait or glyphosate use (.
 0.381	[*A*]Fusarium virguliforme[*R*][is] the causal agent of[*A*]sudden death syndrome ( SDS )	context()	negated: False ,passive: False
 0.915	[*A*]susceptibility[*R*]was[*A*]independent of the GR trait or glyphosate use	context(An increase in colonization of GR soybean roots by Fusarium virguliforme showed)	negated: False ,passive: True
 0.935	[*A*]An increase in colonization of GR soybean roots by Fusarium virguliforme[*R*]showed[*A*]that susceptibility was independent of the GR trait or glyphosate use	context()	negated: False ,passive: False
-[LINE#25]Nijiti et al., 2003; Sanogo et al., 2000; Sanogo et al., 2001).
-[LINE#26](2009) reported that fungal colonization of GR soybean roots increased significantly after application of glyphosate but not after conventional post-emergence herbicides.
-[LINE#27]Also, in studies examining effects of glyphosate on Rhizoctonia and Sclerotinia rots in GR crops, none demonstrated increased disease levels relative to untreated controls (Bradely et al., 2002; Harikrishnan and Yang, 2001; Pankey et al., 2005).
+[LINE#28] Nijiti et al., 2003; Sanogo et al., 2000; Sanogo et al., 2001).
+[LINE#29] (2009) reported that fungal colonization of GR soybean roots increased significantly after application of glyphosate but not after conventional post-emergence herbicides.
+[LINE#30] Also, in studies examining effects of glyphosate on Rhizoctonia and Sclerotinia rots in GR crops, none demonstrated increased disease levels relative to untreated controls (Bradely et al., 2002; Harikrishnan and Yang, 2001; Pankey et al., 2005).
 0.911	[*A*]studies[*R*]examining[*A*]effects of glyphosate on Sclerotinia rots	context()	negated: False ,passive: False
 0.967	[*A*]none[*R*]demonstrated[*A*]increased disease levels relative to untreated controls ( Bradely et al . , 2002 ; Yang , 2001 ; Pankey et al . , 2005[*A*]in studies	context()	negated: False ,passive: False
 0.967	[*A*]none[*R*]demonstrated[*A*]increased disease levels relative to untreated controls ( Bradely et al . , 2002 ; Harikrishnan , 2001 ; Pankey et al . , 2005[*A*]in studies	context()	negated: False ,passive: False
 0.911	[*A*]studies[*R*]examining[*A*]effects of glyphosate on Rhizoctonia rots	context()	negated: False ,passive: False
-[LINE#28](Triticum aestivum L.) have shown that glyphosate provided both preventive and curative activities against Puccinia striiformis f. sp.
+[LINE#31] (Triticum aestivum L.) have shown that glyphosate provided both preventive and curative activities against Puccinia striiformis f. sp.
 0.891	[*A*]glyphosate[*R*]provided[*A*]curative activities against Puccinia striiformis f. sp	context(Triticum aestivum L. have shown)	negated: False ,passive: False
 0.869	[*A*]Triticum aestivum L.[*R*]have shown[*A*]that glyphosate provided curative activities against Puccinia striiformis f. sp	context()	negated: False ,passive: False
 0.891	[*A*]glyphosate[*R*]provided[*A*]both preventive activities against Puccinia striiformis f. sp	context(Triticum aestivum L. have shown)	negated: False ,passive: False
 0.869	[*A*]Triticum aestivum L.[*R*]have shown[*A*]that glyphosate provided both preventive activities against Puccinia striiformis f. sp	context()	negated: False ,passive: False
-[LINE#29]tritici and Puccinia triticina, which cause stripe and leaf rusts, respectively (Feng et al., 2005).
+[LINE#32] tritici and Puccinia triticina, which cause stripe and leaf rusts, respectively (Feng et al., 2005).
 0.790	[*A*]Puccinia triticina[*R*]cause[*A*]respectively	context()	negated: False ,passive: False
 0.914	[*A*]Puccinia triticina[*R*]cause[*A*]leaf rusts	context()	negated: False ,passive: False
 0.914	[*A*]Puccinia triticina[*R*]cause[*A*]stripe	context()	negated: False ,passive: False
 0.896	[*A*]tritici[*R*]cause[*A*]respectively[*A*]Feng et al	context()	negated: False ,passive: False
 0.877	[*A*]tritici[*R*]cause[*A*]leaf rusts	context()	negated: False ,passive: False
 0.877	[*A*]tritici[*R*]cause[*A*]stripe	context()	negated: False ,passive: False
-[LINE#30]Preliminary greenhouse studies by Feng et al.
-[LINE#31](2005) reported that application of glyphosate in GR soybeans suppressed Asian soybean rust, caused by Phakopsora pachyrhizi.
+[LINE#33] Preliminary greenhouse studies by Feng et al.
+[LINE#34] (2005) reported that application of glyphosate in GR soybeans suppressed Asian soybean rust, caused by Phakopsora pachyrhizi.
 0.920	[*A*]suppressed Asian soybean rust[*R*]caused[*A*]by Phakopsora pachyrhizi	context()	negated: False ,passive: True
 0.307	[*A*]2005[*R*]reported[*A*]that application of glyphosate in GR soybeans	context()	negated: False ,passive: False
-[LINE#32]Analyses of GR soybean root exudates suggest that promotion of rhizosphere and root colonization of GR soybean by specific microbial groups may be due to a combination of stimulation by glyphosate released through root exudation and altered physiology leading to exudation into the rhizosphere of high levels of carbohydrates and amino acids (Kremer et al., 2005).Glyphosate may be applied multiple times in commercial fields depending on field history, planting dates, environmental conditions and weed densities (Couler and Nafziger, 2007; Caleb et al., 2004).
+[LINE#35] Analyses of GR soybean root exudates suggest that promotion of rhizosphere and root colonization of GR soybean by specific microbial groups may be due to a combination of stimulation by glyphosate released through root exudation and altered physiology leading to exudation into the rhizosphere of high levels of carbohydrates and amino acids (Kremer et al., 2005).Glyphosate may be applied multiple times in commercial fields depending on field history, planting dates, environmental conditions and weed densities (Couler and Nafziger, 2007; Caleb et al., 2004).
 0.942	[*A*]Analyses[*R*]altered[*A*]physiology leading to exudation into the rhizosphere of high levels of amino acids ( Kremer et al . , 2005 ) . Glyphosate may be applied multiple times in commercial fields depending on field history , planting weed densities ( Nafziger . , 2004 )	context()	negated: False ,passive: False
 0.942	[*A*]Analyses[*R*]altered[*A*]physiology leading to exudation into the rhizosphere of high levels of amino acids ( Kremer et al . , 2005 ) . Glyphosate may be applied multiple times in commercial fields depending on field history , planting weed densities ( Couler . , 2004 )	context()	negated: False ,passive: False
 0.920	[*A*]Glyphosate[*R*]may be applied[*A*]multiple times[*A*]depending on field history[*A*]planting weed densities	context()	negated: False ,passive: False
@@ -139,27 +139,27 @@
 0.891	[*A*]promotion of rhizosphere[*R*]may be[*A*]due to a combination of stimulation	context(Analyses of GR soybean root exudates suggest)	negated: False ,passive: True
 0.897	[*A*]Analyses of GR soybean root exudates[*R*]suggest[*A*]that promotion of rhizosphere may be due to a combination of stimulation	context()	negated: False ,passive: False
 0.713	[*A*]glyphosate[*R*]released	context()	negated: False ,passive: False
-[LINE#33]As a result, there is limited knowledge whether single or sequential applications of glyphosate in the field affect charcoal rot severity.
+[LINE#36] As a result, there is limited knowledge whether single or sequential applications of glyphosate in the field affect charcoal rot severity.
 0.948	[*A*]single or sequential applications of glyphosate in the field[*R*]affect[*A*]charcoal rot severity	context()	negated: False ,passive: False
-[LINE#34]Most of the research examining the effect of herbicides, including glyphosate, on disease development in soybean has been limited to greenhouse and laboratory studies (Anderson and Kolmer, 2005; Feng et al., 2005) and did not include application timing under different environments (Harikrishnan and Yang, 2001; Meriles et al., 2006).
+[LINE#37] Most of the research examining the effect of herbicides, including glyphosate, on disease development in soybean has been limited to greenhouse and laboratory studies (Anderson and Kolmer, 2005; Feng et al., 2005) and did not include application timing under different environments (Harikrishnan and Yang, 2001; Meriles et al., 2006).
 0.905	[*A*]Most of the research[*R*]has been limited[*A*]to laboratory studies	context()	negated: False ,passive: True
 0.948	[*A*]Meriles[*R*]et[*A*]al	context()	negated: False ,passive: False
 0.905	[*A*]Most of the research[*R*]has been limited[*A*]to greenhouse studies	context()	negated: False ,passive: True
 0.937	[*A*]the research[*R*]examining[*A*]the effect of herbicides , including glyphosate , on disease development in soybean	context()	negated: False ,passive: False
-[LINE#35]To test if glyphosate has any effect on M. phaseolina, it is necessary to conduct both in vitro and field studies.
+[LINE#38] To test if glyphosate has any effect on M. phaseolina, it is necessary to conduct both in vitro and field studies.
 0.931	[*A*]glyphosate[*R*]has[*A*]any effect on M. phaseolina	context()	negated: False ,passive: False
-[LINE#36]This study reports the effect of glyphosate on M. phaseolina in vitro and the effect of glyphosate on the population dynamics of M. phaseolina (colony forming units) collected from infected soybean in the field.
+[LINE#39] This study reports the effect of glyphosate on M. phaseolina in vitro and the effect of glyphosate on the population dynamics of M. phaseolina (colony forming units) collected from infected soybean in the field.
 0.897	[*A*]colony forming units[*R*]collected[*A*]from infected soybean in the field	context()	negated: False ,passive: True
 0.918	[*A*]This study[*R*]reports[*A*]the effect of glyphosate on M. phaseolina	context()	negated: False ,passive: False
-[LINE#37]Results of this study will help soybean growers determine whether glyphosate application on GR soybean under different environments may or may not increase the risk of charcoal rot in infested fields.
+[LINE#40] Results of this study will help soybean growers determine whether glyphosate application on GR soybean under different environments may or may not increase the risk of charcoal rot in infested fields.
 0.933	[*A*]soybean growers[*R*]determine[*A*]whether glyphosate application on GR soybean under different environments may or may not increase the risk of charcoal rot in infested fields	context(Results of this study will help)	negated: False ,passive: False
 0.944	[*A*]Results of this study[*R*]will help[*A*]soybean growers determine whether glyphosate application on GR soybean under different environments may or may not increase the risk of charcoal rot in infested fields	context()	negated: False ,passive: False
-[LINE#38]Materials and methods. Experiment 1.
-[LINE#39]Effect of glyphosate on M. phaseolina growth in vitroThe treatments included six levels of concentrations of 0-20 mM of technical grade glyphosate acid (>97% purity, Sigma-Aldrich, St. Louis, MO) and twenty one levels of concentrations of 0-90 mM of the glyphosate-potassium salt formulation (48.8% glyphosate, N-(phosphonomethyl) glycine and 51.2% of other ingredients, Monsanto, St. Louis, MO).
+[LINE#41] Materials and methods. Experiment 1.
+[LINE#42] Effect of glyphosate on M. phaseolina growth in vitroThe treatments included six levels of concentrations of 0-20 mM of technical grade glyphosate acid (>97% purity, Sigma-Aldrich, St. Louis, MO) and twenty one levels of concentrations of 0-90 mM of the glyphosate-potassium salt formulation (48.8% glyphosate, N-(phosphonomethyl) glycine and 51.2% of other ingredients, Monsanto, St. Louis, MO).
 0.978	[*A*]Effect of glyphosate on M. phaseolina growth in vitroThe treatments[*R*]included[*A*]six levels of concentrations of 0-20 mM of technical grade glyphosate acid	context()	negated: False ,passive: True
-[LINE#40]The treatments also included three M. phaseolina cultures; TN 4, TN 294 and TN 410 for evaluation of their growth in vitro.
+[LINE#43] The treatments also included three M. phaseolina cultures; TN 4, TN 294 and TN 410 for evaluation of their growth in vitro.
 0.905	[*A*]The treatments[*R*]included[*A*]three M. phaseolina cultures	context()	negated: False ,passive: True
-[LINE#41]The three isolates were cultured from field collected samples in Jackson, TN and commonly used for routine field and greenhouse studies (data not published).
+[LINE#44] The three isolates were cultured from field collected samples in Jackson, TN and commonly used for routine field and greenhouse studies (data not published).
 0.737	[*A*]The three isolates[*R*]were[*A*]cultured from field collected samples in TN and commonly used for greenhouse studies	context()	negated: False ,passive: True
 0.911	[*A*]field[*R*]collected[*A*]samples in TN	context()	negated: False ,passive: False
 0.737	[*A*]The three isolates[*R*]were[*A*]cultured from field collected samples in TN and commonly used for routine field ( data not published	context()	negated: False ,passive: True
@@ -167,117 +167,117 @@
 0.713	[*A*]data[*R*]not published	context()	negated: True ,passive: False
 0.911	[*A*]field[*R*]collected[*A*]samples in Jackson	context()	negated: False ,passive: False
 0.737	[*A*]The three isolates[*R*]were[*A*]cultured from field collected samples in Jackson and commonly used for routine field ( data not published	context()	negated: False ,passive: True
-[LINE#42]Glyphosate stock solutions were prepared and filter sterilized.
+[LINE#45] Glyphosate stock solutions were prepared and filter sterilized.
 0.718	[*A*]Glyphosate stock solutions[*R*]sterilized	context()	negated: False ,passive: False
 0.911	[*A*]Glyphosate stock solutions[*R*]were[*A*]filter sterilized	context()	negated: False ,passive: True
 0.751	[*A*]Glyphosate stock solutions[*R*]were prepared	context()	negated: False ,passive: False
-[LINE#43]Glyphosate stocks were added to sterile molten potato dextrose agar (PDA, Difco Laboratories) to attain concentrations of 0-20 mM for pure glyphosate acid (GlyCry) and 0-90 mM for glyphosate-potassium salt (Gly-K salt).
+[LINE#46] Glyphosate stocks were added to sterile molten potato dextrose agar (PDA, Difco Laboratories) to attain concentrations of 0-20 mM for pure glyphosate acid (GlyCry) and 0-90 mM for glyphosate-potassium salt (Gly-K salt).
 0.937	[*A*]Glyphosate stocks[*R*]were added[*A*]to sterile molten potato dextrose agar[*A*]to attain concentrations of 0-20 mM for 0-90 mM for glyphosate - potassium salt	context()	negated: False ,passive: True
 0.937	[*A*]Glyphosate stocks[*R*]were added[*A*]to sterile molten potato dextrose agar[*A*]to attain concentrations of 0-20 mM for pure glyphosate acid	context()	negated: False ,passive: True
-[LINE#44]The solutions were mixed well, poured into 9-cm-diameter petri dishes, and the media was allowed to solidify.
+[LINE#47] The solutions were mixed well, poured into 9-cm-diameter petri dishes, and the media was allowed to solidify.
 0.698	[*A*]the media[*R*]to solidify	context()	negated: False ,passive: False
 0.732	[*A*]the media[*R*]was allowed	context()	negated: False ,passive: False
 0.717	[*A*]The solutions[*R*]were[*A*]mixed	context(The solutions were mixed poured)	negated: False ,passive: True
 0.880	[*A*]The solutions were mixed[*R*]poured[*A*]into 9 - cm - diameter petri dishes	context()	negated: False ,passive: True
-[LINE#45]Using a 2-mm sterile cork borer, 7 day old cultures grown on acidified PDA at 30 C were removed and placed at the center of five replicate plates and incubated at 24 C, 28 C, or 30 C in the dark.
+[LINE#48] Using a 2-mm sterile cork borer, 7 day old cultures grown on acidified PDA at 30 C were removed and placed at the center of five replicate plates and incubated at 24 C, 28 C, or 30 C in the dark.
 0.934	[*A*]Using a 2-mm sterile cork borer[*R*]placed[*A*]at the center of five replicate plates	context()	negated: False ,passive: True
 0.805	[*A*]Using a 2-mm sterile cork borer[*R*]were removed	context()	negated: False ,passive: False
 0.947	[*A*]7 day old cultures[*R*]grown[*A*]on acidified PDA[*A*]at 30 C	context()	negated: False ,passive: True
-[LINE#46]Radial growth was recorded in four directions for each plate over the course of 72 h. .
+[LINE#49] Radial growth was recorded in four directions for each plate over the course of 72 h. .
 0.903	[*A*]Radial growth[*R*]was recorded[*A*]in four directions for each plate[*A*]over the course of 72 h.	context()	negated: False ,passive: True
-[LINE#47]Effect of glyphosate on charcoal rot severity on soybean in the fieldField studies were conducted in 2009 and 2010 at the USDA-ARS Crop Production Systems Research farm, Stoneville, MS, and at the West Tennessee Research and Education Center at the University of Tennessee in Jackson, TN both under non-irrigated environments.
+[LINE#50] Effect of glyphosate on charcoal rot severity on soybean in the fieldField studies were conducted in 2009 and 2010 at the USDA-ARS Crop Production Systems Research farm, Stoneville, MS, and at the West Tennessee Research and Education Center at the University of Tennessee in Jackson, TN both under non-irrigated environments.
 0.965	[*A*]Effect of glyphosate on charcoal[*R*]were conducted[*A*]in 2009 and 2010[*A*]at the USDA-ARS Crop Production Systems Research farm, Stoneville, MS, and at the West Tennessee Research and Education Center at the University of Tennessee in Jackson	context()	negated: False ,passive: True
 0.957	[*A*]Effect of glyphosate on charcoal[*R*]rot[*A*]severity[*A*]on soybean in the fieldField studies	context()	negated: False ,passive: False
-[LINE#48] At both test locations, glyphosate treatments were: 1) glyphosate at 0.84 kg a.i/ha applied at V3 (third trifoliate); 2) glyphosate at 0.84 kg a.i/ ha applied at V6 (sixth trifoliate);3) glyphosate at 0.84 kg a.i/ha applied twice at V3 and V6; and 4) a no glyphosate applied (control).
+[LINE#51+52+53]  At both test locations, glyphosate treatments were: 1) glyphosate at 0.84 kg a.i/ha applied at V3 (third trifoliate); 2) glyphosate at 0.84 kg a.i/ ha applied at V6 (sixth trifoliate);3) glyphosate at 0.84 kg a.i/ha applied twice at V3 and V6; and 4) a no glyphosate applied (control).
 0.914	[*A*]glyphosate treatments[*R*]were[*A*]1 ) glyphosate at 0.84 kg[*A*]At both test locations	context()	negated: False ,passive: True
 0.751	[*A*]a no glyphosate[*R*]applied	context()	negated: False ,passive: False
-[LINE#49] The commercial formulation of the potassium salt of glyphosate(Roundup WeatherMax, Monsanto Agricultural Co., St. Louis, MO) was used.
+[LINE#54+55]  The commercial formulation of the potassium salt of glyphosate(Roundup WeatherMax, Monsanto Agricultural Co., St. Louis, MO) was used.
 0.820	[*A*]The commercial formulation of the potassium salt of glyphosate[*R*]was used	context()	negated: False ,passive: False
-[LINE#50]Glyphosate treatments were applied with a CO2-pressurized backpack sprayer that delivered 140 L/ha of spray solution at 193 kPa.
+[LINE#56] Glyphosate treatments were applied with a CO2-pressurized backpack sprayer that delivered 140 L/ha of spray solution at 193 kPa.
 0.950	[*A*]a CO2-pressurized backpack sprayer[*R*]delivered[*A*]140 L[*A*]at 193 kPa	context()	negated: False ,passive: False
 0.918	[*A*]Glyphosate treatments[*R*]were applied[*A*]with a CO2-pressurized backpack sprayer	context()	negated: False ,passive: True
-[LINE#51]All plots were hand weeded periodically throughout the growing season.
+[LINE#57] All plots were hand weeded periodically throughout the growing season.
 0.777	[*A*]hand[*R*]weeded periodically[*A*]throughout the growing season	context(All plots were)	negated: False ,passive: True
 0.882	[*A*]All plots[*R*]were[*A*]hand weeded periodically throughout the growing season	context()	negated: False ,passive: True
-[LINE#52]No nitrogen fertilizer was applied, and the crop was not irrigated.
+[LINE#58] No nitrogen fertilizer was applied, and the crop was not irrigated.
 0.732	[*A*]the crop[*R*]was not irrigated	context()	negated: True ,passive: False
 0.751	[*A*]No nitrogen fertilizer[*R*]was applied	context()	negated: False ,passive: False
-[LINE#53]Treatments were arranged in a randomized complete block design with four replications.
+[LINE#59] Treatments were arranged in a randomized complete block design with four replications.
 0.894	[*A*]Treatments[*R*]were arranged[*A*]in a randomized complete block design with four replications	context()	negated: False ,passive: True
-[LINE#54]The field in Stoneville, MS had Dundee silt loam soil (fine-silty, mixed, active, thermic typic endoqualf) with pH 6.5, 1.0% organic matter and soil textural fractions of 26% sand, 55% silt, and 19% clay.
+[LINE#60] The field in Stoneville, MS had Dundee silt loam soil (fine-silty, mixed, active, thermic typic endoqualf) with pH 6.5, 1.0% organic matter and soil textural fractions of 26% sand, 55% silt, and 19% clay.
 0.938	[*A*]MS[*R*]had[*A*]Dundee silt loam soil ( fine - silty , mixed , active	context()	negated: False ,passive: False
-[LINE#55]The experimental area was in GR soybean production for three years prior to this study.
+[LINE#61] The experimental area was in GR soybean production for three years prior to this study.
 0.942	[*A*]The experimental area[*R*]was[*A*]in GR soybean production[*A*]for three years[*A*]prior to this study	context()	negated: False ,passive: True
-[LINE#56]The land was tilled with a disk harrow followed by a field cultivator in the fall of each year.
+[LINE#62] The land was tilled with a disk harrow followed by a field cultivator in the fall of each year.
 0.751	[*A*]a disk harrow[*R*]followed	context()	negated: False ,passive: False
 0.732	[*A*]The land[*R*]was tilled	context()	negated: False ,passive: False
-[LINE#57]A charcoal rot susceptible cultivar, GR soybean cultivar 'AG4605RR, late maturity group (MG) IV was planted 18 May 2009 and 28 April 2010 using a Monosem NG Plus precision planter (Monosem ATI, Inc. Lenexa, Kansas) at 285,000 seeds/ha.
+[LINE#63] A charcoal rot susceptible cultivar, GR soybean cultivar 'AG4605RR, late maturity group (MG) IV was planted 18 May 2009 and 28 April 2010 using a Monosem NG Plus precision planter (Monosem ATI, Inc. Lenexa, Kansas) at 285,000 seeds/ha.
 0.845	[*A*]IV[*R*]was planted[*A*]18 May 28 April 2010[*A*]using a Monosem NG Plus precision planter[*A*]at 285,000 seeds	context()	negated: False ,passive: True
 0.993	[*A*]GR soybean cultivar IV[*R*]was planted at[*A*]285000 seeds / ha	context()	negated: False ,passive: False
 0.905	[*A*]A charcoal[*R*]rot[*A*]susceptible cultivar	context(IV was planted)	negated: False ,passive: False
 0.845	[*A*]IV[*R*]was planted[*A*]18 May 2009 April 2010[*A*]using a Monosem NG Plus precision planter[*A*]at 285,000 seeds	context()	negated: False ,passive: True
-[LINE#58]A tank mix of S-metolachlor at 1.12 kg a.i/ha plus pendimethalin at 1.12 kg a.i/ha plus paraquat at 0.84 kg a.i/ha was applied to the entire experimental area for early-season weed control immediately after planting with a tractor-mounted sprayer with TeeJet 8004 standard flat spray nozzles (TeeJet Spraying Systems Co., Wheaton, IL), at 187 L/ha water with 179 kPa.
+[LINE#64] A tank mix of S-metolachlor at 1.12 kg a.i/ha plus pendimethalin at 1.12 kg a.i/ha plus paraquat at 0.84 kg a.i/ha was applied to the entire experimental area for early-season weed control immediately after planting with a tractor-mounted sprayer with TeeJet 8004 standard flat spray nozzles (TeeJet Spraying Systems Co., Wheaton, IL), at 187 L/ha water with 179 kPa.
 0.968	[*A*]a.i / ha plus paraquat at 0.84 kg[*R*]was applied[*A*]to the entire experimental area for early - season weed control	context()	negated: False ,passive: True
 0.968	[*A*]pendimethalin / ha plus paraquat at 0.84 kg[*R*]was applied[*A*]to the entire experimental area for early - season weed control	context()	negated: False ,passive: True
 0.990	[*A*]A tank mix of S - metolachlor at 1.12 kg a.i / ha / ha plus paraquat at 0.84 kg[*R*]was applied[*A*]to the entire experimental area for early - season weed control	context()	negated: False ,passive: True
-[LINE#59]Each treatment plot consisted of eight rows spaced 51-cm apart and 7.6 m long.
+[LINE#65] Each treatment plot consisted of eight rows spaced 51-cm apart and 7.6 m long.
 0.911	[*A*]Each treatment plot[*R*]consisted[*A*]of eight 7.6 m long	context()	negated: False ,passive: True
 0.897	[*A*]Each treatment plot[*R*]spaced[*A*]51 - cm apart	context()	negated: False ,passive: True
 0.783	[*A*]Each treatment plot[*R*]consisted[*A*]of eight	context()	negated: False ,passive: True
 0.911	[*A*]Each treatment plot[*R*]consisted[*A*]of eight rows	context()	negated: False ,passive: True
-[LINE#60]The field in Jackson, TN had a Lexington silt loam soil (fine-silty, mixed, active, thermic ultic hapludalfs) with pH 6.1, 1.5% organic matter and soil textural fraction of 8% friable silt loam, 39% silty clay and silt loam, 15% friable sandy loam and 38% very friable sandy loam.
+[LINE#66] The field in Jackson, TN had a Lexington silt loam soil (fine-silty, mixed, active, thermic ultic hapludalfs) with pH 6.1, 1.5% organic matter and soil textural fraction of 8% friable silt loam, 39% silty clay and silt loam, 15% friable sandy loam and 38% very friable sandy loam.
 0.938	[*A*]TN[*R*]had[*A*]a Lexington silt loam soil ( fine - silty , mixed , active	context()	negated: False ,passive: False
-[LINE#61]The experimental area was under glyphosate-resistant soybean production for three years prior to this study and was planted each year in no-till.
+[LINE#67] The experimental area was under glyphosate-resistant soybean production for three years prior to this study and was planted each year in no-till.
 0.911	[*A*]The experimental area[*R*]was planted[*A*]each year[*A*]in no - till	context()	negated: False ,passive: True
 0.932	[*A*]The experimental area[*R*]was[*A*]under glyphosate - resistant soybean production[*A*]for three years[*A*]prior to this study	context()	negated: False ,passive: True
-[LINE#62]The experiment was conducted in a randomized complete block design with four replications.
+[LINE#68] The experiment was conducted in a randomized complete block design with four replications.
 0.903	[*A*]The experiment[*R*]was conducted[*A*]in a randomized complete block design with four replications	context()	negated: False ,passive: True
-[LINE#63]Plots were 3 m by 6 m with 1.5 m alleys in-between replications.
+[LINE#69] Plots were 3 m by 6 m with 1.5 m alleys in-between replications.
 0.973	[*A*]Plots[*R*]were[*A*]3 m	context()	negated: False ,passive: False
 0.813	[*A*]Plots[*R*]were[*A*]3 m by 6 m with 1.5 m alleys	context()	negated: False ,passive: True
-[LINE#64]Four rows were planted for each plot with 6 m long and 76 cm wide between rows.
+[LINE#70] Four rows were planted for each plot with 6 m long and 76 cm wide between rows.
 0.937	[*A*]Four rows[*R*]were planted[*A*]for each plot with 6 76 cm wide between rows	context()	negated: False ,passive: True
 0.992	[*A*]four rows[*R*]were planted for[*A*]each plot with 6 m long	context()	negated: False ,passive: False
 0.903	[*A*]Four rows[*R*]were planted[*A*]for each plot with 6 m long	context()	negated: False ,passive: True
-[LINE#65] A charcoal rot susceptible cultivar, glyphosate-resistant soybean 'AG4605RR',.
+[LINE#71]  A charcoal rot susceptible cultivar, glyphosate-resistant soybean 'AG4605RR',.
 0.925	[*A*]A charcoal[*R*]rot[*A*]susceptible cultivar, glyphosate-resistant soybean	context()	negated: False ,passive: False
-[LINE#66]IV was planted on 22 May 2009 and on 12 May 2010 using a four-row Almaco (Almaco Nevada, Iowa) planter equipped with John Deere XP row units and planted at a rate of 285,000 seeds/ha.
+[LINE#72] IV was planted on 22 May 2009 and on 12 May 2010 using a four-row Almaco (Almaco Nevada, Iowa) planter equipped with John Deere XP row units and planted at a rate of 285,000 seeds/ha.
 0.993	[*A*]IV[*R*]was planted on[*A*]12 may 2010	context()	negated: False ,passive: False
 0.877	[*A*]IV[*R*]was planted[*A*]on 12 May 2010[*A*]using a four - row Almaco	context()	negated: False ,passive: True
 0.993	[*A*]IV[*R*]was planted on[*A*]22 may 2009	context()	negated: False ,passive: False
 0.911	[*A*]planter[*R*]equipped[*A*]with John Deere XP row units	context()	negated: False ,passive: True
 0.877	[*A*]IV[*R*]was planted[*A*]on 22 May 2009[*A*]using a four - row Almaco	context()	negated: False ,passive: True
 0.855	[*A*]IV[*R*]was planted[*A*]at a rate of 285,000 seeds[*A*]ha	context()	negated: False ,passive: True
-[LINE#67]The planter was calibrated to travel at a speed of 8 km/h.
+[LINE#73] The planter was calibrated to travel at a speed of 8 km/h.
 0.698	[*A*]The planter[*R*]to travel	context()	negated: False ,passive: False
 0.732	[*A*]The planter[*R*]was calibrated	context()	negated: False ,passive: False
-[LINE#68]Glyphosate and dicamba diglycolamine were applied for burn down kill of the existing cover crop and emerged spring weeds on April 4 and 6 of 2009 and 2010, respectively.
+[LINE#74] Glyphosate and dicamba diglycolamine were applied for burn down kill of the existing cover crop and emerged spring weeds on April 4 and 6 of 2009 and 2010, respectively.
 0.937	[*A*]dicamba diglycolamine[*R*]were applied[*A*]for burn down kill of the existing cover crop of 2010 , respectively	context()	negated: False ,passive: True
 0.937	[*A*]dicamba diglycolamine[*R*]were applied[*A*]for burn down kill of the existing cover crop of 2009 , respectively	context()	negated: False ,passive: True
-[LINE#69] A pre-emergence application of paraquat dichloride at 0.249 g a.i/ha and fomesafen at 0.312 g a.i/ha was also applied after planting using a John Deere High Cycle with Teejet Air Inducted 1002 spray nozzles, (TeeJet Spraying Systems Co., Wheaton, IL), delivering 56.78 L/ha water at 275 kPa. .
+[LINE#75+76]  A pre-emergence application of paraquat dichloride at 0.249 g a.i/ha and fomesafen at 0.312 g a.i/ha was also applied after planting using a John Deere High Cycle with Teejet Air Inducted 1002 spray nozzles, (TeeJet Spraying Systems Co., Wheaton, IL), delivering 56.78 L/ha water at 275 kPa. .
 0.940	[*A*]g a.i/ha[*R*]delivering[*A*]56.78 L/ha water[*A*]at 275 kPa	context()	negated: False ,passive: False
 0.727	[*A*]a.i/ha[*R*]was applied	context()	negated: False ,passive: False
-[LINE#70]Inoculation and determination of M. phaseolina population densitiesMillet grain completely colonized and darkened with microsclerotia of M. phaseolina (Mengistu et al., 2007) was used to infest the fields and was applied with seed at planting at a rate of 1.5 g/m at both locations to minimize plot to plot variation.
+[LINE#77] Inoculation and determination of M. phaseolina population densitiesMillet grain completely colonized and darkened with microsclerotia of M. phaseolina (Mengistu et al., 2007) was used to infest the fields and was applied with seed at planting at a rate of 1.5 g/m at both locations to minimize plot to plot variation.
 0.970	[*A*]determination of M. phaseolina population densitiesMillet grain[*R*]was applied[*A*]with seed[*A*]at planting at a rate of 1.5 g / m at both locations	context()	negated: False ,passive: True
 0.948	[*A*]Inoculation[*R*]was applied[*A*]with seed[*A*]at planting at a rate of 1.5 g / m at both locations	context()	negated: False ,passive: True
 0.836	[*A*]determination of M. phaseolina population densitiesMillet grain[*R*]colonized	context()	negated: False ,passive: False
 0.677	[*A*]Inoculation[*R*]colonized	context()	negated: False ,passive: False
-[LINE#71]At the plant growth stage of R7 (Fehr et al., 1971), 10 randomly selected plants were carefully uprooted from the outside 2 rows of each plot in Jackson and the outside four rows of each plot in MS to determine colony forming units (CFU) of the pathogen.
+[LINE#78] At the plant growth stage of R7 (Fehr et al., 1971), 10 randomly selected plants were carefully uprooted from the outside 2 rows of each plot in Jackson and the outside four rows of each plot in MS to determine colony forming units (CFU) of the pathogen.
 0.956	[*A*]10 randomly selected plants[*R*]were carefully uprooted[*A*]from the outside four rows of each plot in MS[*A*]to determine colony	context()	negated: False ,passive: True
 0.959	[*A*]Jackson of in MS[*R*]has each plot from[*A*]2 rows	context()	negated: False ,passive: False
 0.993	[*A*]10 randomly selected plants[*R*]were uprooted from[*A*]2 rows	context()	negated: False ,passive: False
 0.956	[*A*]10 randomly selected plants[*R*]were carefully uprooted[*A*]from the outside 2 rows of each plot in Jackson of each plot in MS[*A*]to determine colony	context()	negated: False ,passive: True
-[LINE#72]In a previous study (Mengistu et al., 2007), the correlation between disease severity rating based on the intensity of discoloration of vascular tissues in stems and roots and CFU was significant.
+[LINE#79] In a previous study (Mengistu et al., 2007), the correlation between disease severity rating based on the intensity of discoloration of vascular tissues in stems and roots and CFU was significant.
 0.925	[*A*]disease severity rating[*R*]based[*A*]on the CFU	context()	negated: False ,passive: True
 0.965	[*A*]the correlation between disease severity rating[*R*]was[*A*]significant[*A*]In a previous study	context()	negated: False ,passive: True
 0.943	[*A*]disease severity rating[*R*]based[*A*]on the intensity of discoloration of vascular tissues in stems and roots	context()	negated: False ,passive: True
-[LINE#73]This suggested that CFU in soybean tissue could be used as a measure of disease severity when precise measurement of treatment effects is needed.
+[LINE#80] This suggested that CFU in soybean tissue could be used as a measure of disease severity when precise measurement of treatment effects is needed.
 0.925	[*A*]CFU in soybean tissue[*R*]could be used[*A*]as a measure of disease severity	context(This suggested)	negated: False ,passive: True
 0.258	[*A*]This[*R*]suggested[*A*]that CFU in soybean tissue could be used as a measure of disease severity	context()	negated: False ,passive: False
 0.785	[*A*]precise measurement of treatment effects[*R*]is needed	context()	negated: False ,passive: False
-[LINE#74]Plant samples were excised just below the cotyledonary node.
+[LINE#81] Plant samples were excised just below the cotyledonary node.
 0.903	[*A*]Plant samples[*R*]were excised[*A*]just below the cotyledonary node	context()	negated: False ,passive: True
-[LINE#75]The lower stem sections and roots including lateral and fibrous roots of each plant were thoroughly washed and rinsed in water to remove soil and air dried as described by Mengistu et al.
+[LINE#82] The lower stem sections and roots including lateral and fibrous roots of each plant were thoroughly washed and rinsed in water to remove soil and air dried as described by Mengistu et al.
 0.967	[*A*]roots including fibrous roots of each plant[*R*]were thoroughly rinsed[*A*]in water[*A*]to remove air dried as described by Mengistu et al	context()	negated: False ,passive: True
 0.967	[*A*]roots including fibrous roots of each plant[*R*]were thoroughly rinsed[*A*]in water[*A*]to remove soil dried as described by Mengistu et al	context()	negated: False ,passive: True
 0.967	[*A*]roots including lateral roots of each plant[*R*]were thoroughly rinsed[*A*]in water[*A*]to remove air dried as described by Mengistu et al	context()	negated: False ,passive: True
@@ -292,21 +292,21 @@
 0.816	[*A*]roots including lateral roots of each plant[*R*]were thoroughly washed	context()	negated: False ,passive: False
 0.856	[*A*]The lower stem sections including fibrous roots of each plant[*R*]were thoroughly washed	context()	negated: False ,passive: False
 0.856	[*A*]The lower stem sections including lateral roots of each plant[*R*]were thoroughly washed	context()	negated: False ,passive: False
-[LINE#76] The combined root and stem sections from each plot were ground with a Wiley Laboratory Mill 50/60HZ, Single phase, 1HP(Model 4-3375-E15, Thomas Scientific., Swedesboro, NJ) and passed through a 28-mesh screen (600-m openings).
+[LINE#83+84]  The combined root and stem sections from each plot were ground with a Wiley Laboratory Mill 50/60HZ, Single phase, 1HP(Model 4-3375-E15, Thomas Scientific., Swedesboro, NJ) and passed through a 28-mesh screen (600-m openings).
 0.906	[*A*]Swedesboro[*R*]passed[*A*]through a 28 - mesh screen	context()	negated: False ,passive: False
 0.922	[*A*]4-3375 - E15[*R*]passed[*A*]through a 28 - mesh screen	context()	negated: False ,passive: True
 0.960	[*A*]stem sections from each plot[*R*]were[*A*]ground with a Wiley Laboratory Mill 50/60HZ , Single phase , 1HP	context()	negated: False ,passive: True
 0.897	[*A*]The combined root[*R*]passed[*A*]through a 28 - mesh screen	context()	negated: False ,passive: True
 0.751	[*A*]The combined root[*R*]were ground	context()	negated: False ,passive: False
-[LINE#77]The mill was thoroughly cleaned between samples with air using a suction device.
+[LINE#85] The mill was thoroughly cleaned between samples with air using a suction device.
 0.911	[*A*]samples with air[*R*]using[*A*]a suction device	context()	negated: False ,passive: False
 0.903	[*A*]The mill[*R*]was thoroughly cleaned[*A*]between samples with air	context()	negated: False ,passive: True
-[LINE#78]For each sample, 5 mg of ground tissue was placed in a Waring blender with 100 ml of 0.525% NaOCl for 3 min and collected over a 45-m pore size sieve.
+[LINE#86] For each sample, 5 mg of ground tissue was placed in a Waring blender with 100 ml of 0.525% NaOCl for 3 min and collected over a 45-m pore size sieve.
 0.992	[*A*]5 mg of ground tissue[*R*]was collected For[*A*]each sample	context()	negated: False ,passive: False
 0.957	[*A*]5 mg of ground tissue[*R*]was collected[*A*]over a 45 - m pore size sieve[*A*]For each sample	context()	negated: False ,passive: True
 0.993	[*A*]5 mg of ground tissue[*R*]was placed for[*A*]3 min	context()	negated: False ,passive: False
 0.964	[*A*]5 mg of ground tissue[*R*]was placed[*A*]in a Waring blender[*A*]For each sample	context()	negated: False ,passive: True
-[LINE#79]The triturate was washed with sterile distilled water and then added to 100 ml of autoclaved PDA amended with rifampicin (100 mg L-1) and tergitol (0.1 ml L-1) that had been cooled to 60 C (Mengistu et al., 2007).
+[LINE#87] The triturate was washed with sterile distilled water and then added to 100 ml of autoclaved PDA amended with rifampicin (100 mg L-1) and tergitol (0.1 ml L-1) that had been cooled to 60 C (Mengistu et al., 2007).
 0.832	[*A*]100 ml of autoclaved PDA[*R*]amended	context()	negated: False ,passive: False
 0.993	[*A*]The triturate[*R*]was added to[*A*]100 ml	context()	negated: False ,passive: False
 0.929	[*A*]The triturate[*R*]was added[*A*]to 100 ml of autoclaved PDA[*A*]then	context()	negated: False ,passive: True
@@ -314,14 +314,14 @@
 0.897	[*A*]0.1 ml L[*R*]had been cooled[*A*]to 60 C	context()	negated: False ,passive: True
 0.897	[*A*]The triturate[*R*]was[*A*]0.1 ml L - 1 ) that had been cooled to 60 C ( Mengistu et al . , 2007 )	context()	negated: False ,passive: True
 0.903	[*A*]The triturate[*R*]was washed[*A*]with sterile distilled water	context()	negated: False ,passive: True
-[LINE#80]After 3 days of incubation at 30 C, M. phaseolina CFUs were counted and converted to CFU per gram of root and stem tissue. .
+[LINE#88] After 3 days of incubation at 30 C, M. phaseolina CFUs were counted and converted to CFU per gram of root and stem tissue. .
 0.425	[*A*]3[*R*]converted[*A*]to CFU	context()	negated: False ,passive: True
 0.993	[*A*]M. phaseolina CFUs[*R*]were counted After[*A*]3 days	context()	negated: False ,passive: False
 0.954	[*A*]M. phaseolina CFUs[*R*]were counted[*A*]After 3 days of incubation at 30 C	context()	negated: False ,passive: True
-[LINE#81] Data analysisData were analyzed using SAS 9.3(SAS Institute Inc., Cary, NC) for the in vitro test on radial growth of M. phaseolina.
+[LINE#89+90]  Data analysisData were analyzed using SAS 9.3(SAS Institute Inc., Cary, NC) for the in vitro test on radial growth of M. phaseolina.
 0.928	[*A*]Data analysisData[*R*]using[*A*]SAS 9.3(SAS Institute Inc	context()	negated: False ,passive: False
 0.938	[*A*]Data analysisData[*R*]were analyzed[*A*]using SAS 9.3(SAS Institute Inc	context()	negated: False ,passive: True
-[LINE#82]Regression analysis was used to predict growth as a function of concentration for both glyphosate acid and the commercial formulation as glyphosate-potassium salt at three experimental temperatures to get radius means for each concentration when temperature was maintained at 24, 28 and 30 C for each isolate.
+[LINE#91] Regression analysis was used to predict growth as a function of concentration for both glyphosate acid and the commercial formulation as glyphosate-potassium salt at three experimental temperatures to get radius means for each concentration when temperature was maintained at 24, 28 and 30 C for each isolate.
 0.927	[*A*]Regression analysis[*R*]to predict[*A*]growth as a function of concentration for both the commercial formulation as glyphosate - potassium salt at three experimental temperatures	context()	negated: False ,passive: False
 0.937	[*A*]Regression analysis[*R*]was used[*A*]to predict growth as a function of concentration for both the commercial formulation as glyphosate - potassium salt at three experimental temperatures	context()	negated: False ,passive: True
 0.894	[*A*]temperature[*R*]was maintained[*A*]at 30 C for each isolate	context()	negated: False ,passive: True
@@ -330,10 +330,10 @@
 0.911	[*A*]both glyphosate acid[*R*]to get[*A*]radius means	context()	negated: False ,passive: False
 0.887	[*A*]Regression analysis[*R*]to predict[*A*]growth as a function of concentration	context()	negated: False ,passive: False
 0.903	[*A*]Regression analysis[*R*]was used[*A*]to predict growth as a function of concentration	context()	negated: False ,passive: True
-[LINE#83]A fit linear regression model was used for the GlyCry in the form growth = intercept + slope*concentration.
-[LINE#84]A fit exponential regression model was used for Gly-K salt treatment in the form growth = intercept*concentrationslope.
+[LINE#92] A fit linear regression model was used for the GlyCry in the form growth = intercept + slope*concentration.
+[LINE#93] A fit exponential regression model was used for Gly-K salt treatment in the form growth = intercept*concentrationslope.
 0.960	[*A*]A fit exponential regression model[*R*]was used[*A*]for Gly-K salt treatment in the form growth = intercept*concentrationslope	context()	negated: False ,passive: True
-[LINE#85]The 50% growth reduction (GR50) was calculated as % reduction of the control for each combination of formulation, temperature and isolate.
+[LINE#94] The 50% growth reduction (GR50) was calculated as % reduction of the control for each combination of formulation, temperature and isolate.
 0.992	[*A*]50 % growth reduction[*R*]was calculated as[*A*]% reduction of the control for each combination of isolate	context()	negated: False ,passive: False
 0.944	[*A*]The 50 % growth reduction[*R*]was calculated[*A*]as % reduction of the control for each combination of isolate	context()	negated: False ,passive: True
 0.992	[*A*]50 % growth reduction[*R*]was calculated as[*A*]% reduction of the control for each combination of temperature	context()	negated: False ,passive: False
@@ -341,48 +341,48 @@
 0.992	[*A*]50 % growth reduction[*R*]was calculated as[*A*]% reduction of the control for each combination of formulation	context()	negated: False ,passive: False
 0.993	[*A*]The[*R*]was calculated as[*A*]50 % growth reduction	context()	negated: False ,passive: False
 0.944	[*A*]The 50 % growth reduction[*R*]was calculated[*A*]as % reduction of the control for each combination of formulation	context()	negated: False ,passive: True
-[LINE#86]Analysis for Gly-K salt effect on M. phaseolina in the field was tested for significance by analysis of variance (ANOVA).
+[LINE#95] Analysis for Gly-K salt effect on M. phaseolina in the field was tested for significance by analysis of variance (ANOVA).
 0.973	[*A*]Analysis for Gly-K salt effect on M. phaseolina in the field[*R*]was tested[*A*]for significance[*A*]by analysis of variance	context()	negated: False ,passive: True
-[LINE#87]There was a fixed effect associated with location (tilled and no-tilled), and the large significant interactions with location from the combined ANOVA indicated a significant F-value (F = 19.86, P = 0.0008); therefore, the treatment comparisons are based on ANOVA by location.
+[LINE#96] There was a fixed effect associated with location (tilled and no-tilled), and the large significant interactions with location from the combined ANOVA indicated a significant F-value (F = 19.86, P = 0.0008); therefore, the treatment comparisons are based on ANOVA by location.
 0.783	[*A*]a fixed effect[*R*]associated[*A*]with no - tilled	context()	negated: False ,passive: True
 0.677	[*A*]location[*R*]tilled	context()	negated: False ,passive: False
 0.911	[*A*]a fixed effect[*R*]associated[*A*]with location	context()	negated: False ,passive: True
 0.962	[*A*]the large significant interactions with location from the combined ANOVA[*R*]indicated[*A*]a significant F - value	context(the treatment comparisons are based)	negated: False ,passive: False
 0.868	[*A*]the treatment comparisons[*R*]are based[*A*]by location	context()	negated: False ,passive: True
-[LINE#88] Colony forming unit data were log10 transformed since there were zero values in the CFU data andthe data were back transformed after analysis.
+[LINE#97+98]  Colony forming unit data were log10 transformed since there were zero values in the CFU data andthe data were back transformed after analysis.
 0.859	[*A*]andthe data[*R*]were transformed[*A*]after analysis	context()	negated: False ,passive: True
 0.894	[*A*]Colony[*R*]forming[*A*]unit data	context()	negated: False ,passive: False
-[LINE#89]Graphing was completed using Sigma Plot 11.0 (Systat Software Inc., Chicago, IL).
+[LINE#99] Graphing was completed using Sigma Plot 11.0 (Systat Software Inc., Chicago, IL).
 0.713	[*A*]Graphing[*R*]was completed	context()	negated: False ,passive: False
-[LINE#90]Effect of glyphosate on M. phaseolina growth in vitroThe three isolates differed in their response to various concentrations across the three temperature regimes for the two formulations (Table 1).
+[LINE#100] Effect of glyphosate on M. phaseolina growth in vitroThe three isolates differed in their response to various concentrations across the three temperature regimes for the two formulations (Table 1).
 0.260	[*A*]three[*R*]isolates differed	context()	negated: False ,passive: False
-[LINE#91]There was a statistical difference in radial growth between the control (acidified potato dextrose agar (APDA)), and the two formulations at all temperatures.
-[LINE#92]The glyphosate GR50 values ranged between 0.25 and 9.94 mM for the three isolates, three temperatures and two formulations used (Table 1).
+[LINE#101] There was a statistical difference in radial growth between the control (acidified potato dextrose agar (APDA)), and the two formulations at all temperatures.
+[LINE#102] The glyphosate GR50 values ranged between 0.25 and 9.94 mM for the three isolates, three temperatures and two formulations used (Table 1).
 0.751	[*A*]the two formulations[*R*]used	context()	negated: False ,passive: False
 0.919	[*A*]The glyphosate GR50 values[*R*]ranged[*A*]between 0.25 and 9.94 mM for the two formulations	context()	negated: False ,passive: True
 0.919	[*A*]The glyphosate GR50 values[*R*]ranged[*A*]between 0.25 and 9.94 mM for the three temperatures	context()	negated: False ,passive: True
 0.919	[*A*]The glyphosate GR50 values[*R*]ranged[*A*]between 0.25 and 9.94 mM for the three isolates	context()	negated: False ,passive: True
-[LINE#93] Among the three isolates however, TN 410 was the most sensitive for both GlyCry (.
+[LINE#103]  Among the three isolates however, TN 410 was the most sensitive for both GlyCry (.
 0.973	[*A*]TN 410[*R*]was[*A*]the most sensitive for both GlyCry[*A*]Among the three isolates however	context()	negated: False ,passive: True
-[LINE#94]The radial growth with Gly-K salt showed little variation at various glyphosate concentrations and temperatures in comparison to GlyCry.
+[LINE#104] The radial growth with Gly-K salt showed little variation at various glyphosate concentrations and temperatures in comparison to GlyCry.
 0.964	[*A*]The radial growth with Gly - K salt[*R*]showed[*A*]little variation at various temperatures in comparison to GlyCry	context()	negated: False ,passive: False
 0.978	[*A*]The radial growth with Gly - K salt[*R*]showed[*A*]little variation at various glyphosate concentrations in comparison to GlyCry	context()	negated: False ,passive: False
-[LINE#95]GlyCry had maximum inhibition of 100% at 20 mM compared to Gly-K salt that required 15 mM.
+[LINE#105] GlyCry had maximum inhibition of 100% at 20 mM compared to Gly-K salt that required 15 mM.
 0.903	[*A*]GlyCry[*R*]had maximum inhibition at[*A*]20 mm	context()	negated: False ,passive: False
 0.997	[*A*]GlyCry[*R*]had maximum inhibition of[*A*]100 %	context()	negated: False ,passive: False
 0.928	[*A*]Gly-K salt[*R*]required[*A*]15 mM	context()	negated: False ,passive: False
 0.948	[*A*]GlyCry[*R*]had[*A*]maximum inhibition of 100%[*A*]at 20 mM[*A*]compared to Gly-K salt	context()	negated: False ,passive: False
-[LINE#96]The differences in the effects of these two formulations on radial growth may be due to the inert ingredients used in Gly-K salt (48.7%) as compared to the pure formulation in GlyCry (>97%).
+[LINE#106] The differences in the effects of these two formulations on radial growth may be due to the inert ingredients used in Gly-K salt (48.7%) as compared to the pure formulation in GlyCry (>97%).
 0.952	[*A*]the inert ingredients[*R*]used[*A*]in Gly-K salt[*A*]as compared to the pure formulation in GlyCry (>97%	context()	negated: False ,passive: True
 0.961	[*A*]The differences in the effects of these two formulations on radial growth[*R*]may be[*A*]due to the inert ingredients	context()	negated: False ,passive: True
-[LINE#97]The differences in the effects may also be due to differences in the ability of the isolates to degrade glyphosate to a much less phytotoxic metabolite (Reddy et al., 2008).
+[LINE#107] The differences in the effects may also be due to differences in the ability of the isolates to degrade glyphosate to a much less phytotoxic metabolite (Reddy et al., 2008).
 0.890	[*A*]The differences in the effects[*R*]may be[*A*]due to differences in the ability of the isolates	context()	negated: False ,passive: True
-[LINE#98]Amended media using both Gly-K salt and GlyCry reduced the radial growth of M. phaseolina compared to the control.
+[LINE#108] Amended media using both Gly-K salt and GlyCry reduced the radial growth of M. phaseolina compared to the control.
 0.896	[*A*]Amended media[*R*]using[*A*]GlyCry	context(Amended media using GlyCry reduced)	negated: False ,passive: False
 0.934	[*A*]Amended media using GlyCry[*R*]reduced[*A*]the radial growth of M. phaseolina[*A*]compared to the control	context()	negated: False ,passive: False
 0.896	[*A*]Amended media[*R*]using[*A*]both Gly - K salt	context(Amended media using both Gly - K salt reduced)	negated: False ,passive: False
 0.954	[*A*]Amended media using both Gly - K salt[*R*]reduced[*A*]the radial growth of M. phaseolina[*A*]compared to the control	context()	negated: False ,passive: False
-[LINE#99] A similar observation was made on radial growth and conidial germination and sporulation in F. solani glycines (Sanogo et al., 2000) with increasing concentrations of glyphosate herbicide(2000) observed that conidial germination, mycelial growth and sporulation of F. solani f.sp.
+[LINE#109+110+111]  A similar observation was made on radial growth and conidial germination and sporulation in F. solani glycines (Sanogo et al., 2000) with increasing concentrations of glyphosate herbicide(2000) observed that conidial germination, mycelial growth and sporulation of F. solani f.sp.
 0.925	[*A*]A similar observation[*R*]was made[*A*]on sporulation in F. solani glycines	context()	negated: False ,passive: True
 0.787	[*A*]increasing concentrations of glyphosate herbicide[*R*]observed[*A*]that of F.	context()	negated: False ,passive: False
 0.974	[*A*]Sanogo et al . , 2000 ) with increasing concentrations of glyphosate herbicide[*R*]observed[*A*]sporulation of F. solani f.sp	context()	negated: False ,passive: False
@@ -390,63 +390,63 @@
 0.751	[*A*]A similar observation[*R*]was made	context()	negated: False ,passive: False
 0.911	[*A*]A similar observation[*R*]was made[*A*]on radial growth	context()	negated: False ,passive: True
 0.916	[*A*]Sanogo et al . , 2000 ) with increasing concentrations of glyphosate herbicide[*R*]observed[*A*]that of F.	context()	negated: False ,passive: False
-[LINE#100]glycines were reduced by glyphosate and lactofen when used in a field and applied in a tank mix.
+[LINE#112] glycines were reduced by glyphosate and lactofen when used in a field and applied in a tank mix.
 0.894	[*A*]glycines[*R*]were reduced[*A*]by lactofen[*A*]when applied in a tank mix	context()	negated: False ,passive: True
 0.894	[*A*]glycines[*R*]were reduced[*A*]by lactofen[*A*]when used in a field	context()	negated: False ,passive: True
 0.894	[*A*]glycines[*R*]were reduced[*A*]by glyphosate[*A*]when applied in a tank mix	context()	negated: False ,passive: True
 0.894	[*A*]glycines[*R*]were reduced[*A*]by glyphosate[*A*]when used in a field	context()	negated: False ,passive: True
-[LINE#101]In contrast, Harikrishnan and Yang (2001) found no negative effect of glyphosate on vegetative growth of several Rhizoctonia solani isolates and anastomosis groups.
+[LINE#113] In contrast, Harikrishnan and Yang (2001) found no negative effect of glyphosate on vegetative growth of several Rhizoctonia solani isolates and anastomosis groups.
 0.922	[*A*]Yang ( 2001[*R*]found[*A*]anastomosis groups	context()	negated: False ,passive: False
 0.958	[*A*]Yang ( 2001[*R*]found[*A*]no negative effect of glyphosate on vegetative growth of several Rhizoctonia solani isolates	context()	negated: False ,passive: False
 0.906	[*A*]Harikrishnan[*R*]found[*A*]anastomosis groups	context()	negated: False ,passive: False
 0.958	[*A*]Harikrishnan ( 2001[*R*]found[*A*]no negative effect of glyphosate on vegetative growth of several Rhizoctonia solani isolates	context()	negated: False ,passive: False
-[LINE#102]It has been established that the optimal temperature for M. phaseolina growth in culture is 30 C (Mengistu et al., 2007).
-[LINE#103]As expected, growth of M. phaseolina under suboptimal temperatures of 24 and 28 C was reduced in both chemical formulations.
+[LINE#114] It has been established that the optimal temperature for M. phaseolina growth in culture is 30 C (Mengistu et al., 2007).
+[LINE#115] As expected, growth of M. phaseolina under suboptimal temperatures of 24 and 28 C was reduced in both chemical formulations.
 0.965	[*A*]growth of M. phaseolina under suboptimal temperatures of 28 C[*R*]was reduced[*A*]in both chemical formulations	context()	negated: False ,passive: True
 0.965	[*A*]growth of M. phaseolina under suboptimal temperatures of 24 C[*R*]was reduced[*A*]in both chemical formulations	context()	negated: False ,passive: True
-[LINE#104]Amended media using both Gly-K salt and GlyCry was used to predict levels at 0.1 mM because we could not define 0 in an experimental equation.
+[LINE#116] Amended media using both Gly-K salt and GlyCry was used to predict levels at 0.1 mM because we could not define 0 in an experimental equation.
 0.928	[*A*]Amended media using GlyCry[*R*]to predict[*A*]levels at 0.1 mM	context()	negated: False ,passive: False
 0.918	[*A*]Amended media[*R*]using[*A*]GlyCry	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]could not define[*A*]0[*A*]in an experimental equation	context()	negated: True ,passive: False
 0.950	[*A*]Amended media using both Gly - K salt[*R*]to predict[*A*]levels at 0.1 mM	context()	negated: False ,passive: False
 0.918	[*A*]Amended media[*R*]using[*A*]both Gly - K salt	context()	negated: False ,passive: False
-[LINE#105]Because of little growth occurring under these treatments, the rate of decrease is minimal at GR50.
+[LINE#117] Because of little growth occurring under these treatments, the rate of decrease is minimal at GR50.
 0.947	[*A*]the rate of decrease[*R*]is[*A*]minimal[*A*]at GR50	context()	negated: False ,passive: True
 0.903	[*A*]little growth[*R*]occurring[*A*]under these treatments	context()	negated: False ,passive: True
-[LINE#106]At 30 C the range of growth is much larger.
-[LINE#107]This makes the calculation of GR50 more accurate given the nature of the exponential equation.
+[LINE#118] At 30 C the range of growth is much larger.
+[LINE#119] This makes the calculation of GR50 more accurate given the nature of the exponential equation.
 0.543	[*A*]This[*R*]makes[*A*]the calculation of GR50 more accurate given the nature of the exponential equation	context()	negated: False ,passive: False
-[LINE#108]The significance value is indicated by the slope in the graph and the 95% confidence intervals (Fig. 1, Table 1).
+[LINE#120] The significance value is indicated by the slope in the graph and the 95% confidence intervals (Fig. 1, Table 1).
 0.943	[*A*]The significance value[*R*]is indicated[*A*]by the slope in the graph and the 95% confidence intervals	context()	negated: False ,passive: True
-[LINE#109]If the significance values for the upper and lower limits do not contain zero, then the trends are significant at P  0.05.
+[LINE#121] If the significance values for the upper and lower limits do not contain zero, then the trends are significant at P  0.05.
 0.842	[*A*]the significance values for the lower limits[*R*]do not contain[*A*]zero	context()	negated: True ,passive: False
 0.903	[*A*]the trends[*R*]are[*A*]significant at P 0.05	context()	negated: False ,passive: True
 0.842	[*A*]the significance values for the upper limits[*R*]do not contain[*A*]zero	context()	negated: True ,passive: False
-[LINE#110]Our in vitro study confirms these findings as evidence that GR50 was significantly lower (P  0.05) at 30 C compared to the lower temperatures of 24 and 28 C. .
+[LINE#122] Our in vitro study confirms these findings as evidence that GR50 was significantly lower (P  0.05) at 30 C compared to the lower temperatures of 24 and 28 C. .
 0.948	[*A*]GR50[*R*]was[*A*]significantly lower[*A*]at 30 C[*A*]compared to the lower temperatures of 28 C.	context()	negated: False ,passive: True
 0.948	[*A*]GR50[*R*]was[*A*]significantly lower[*A*]at 30 C[*A*]compared to the lower temperatures of 24 C.	context()	negated: False ,passive: True
 0.681	[*A*]Our in vitro study[*R*]confirms[*A*]these findings	context()	negated: False ,passive: False
-[LINE#111] Environmental dataAir temperature and precipitation data for the growing season were obtained from the Stoneville, MS and Jackson, TN locations (.
+[LINE#123]  Environmental dataAir temperature and precipitation data for the growing season were obtained from the Stoneville, MS and Jackson, TN locations (.
 0.960	[*A*]Environmental dataAir temperature and precipitation data for the growing season[*R*]were obtained[*A*]from the , TN locations	context()	negated: False ,passive: True
 0.960	[*A*]Environmental dataAir temperature and precipitation data for the growing season[*R*]were obtained[*A*]from the Jackson	context()	negated: False ,passive: True
 0.960	[*A*]Environmental dataAir temperature and precipitation data for the growing season[*R*]were obtained[*A*]from the MS	context()	negated: False ,passive: True
 0.960	[*A*]Environmental dataAir temperature and precipitation data for the growing season[*R*]were obtained[*A*]from the Stoneville	context()	negated: False ,passive: True
-[LINE#112]Crop water deficits as a result of hot and dry conditions during the growing season generally develop in June, July, and August, and these are critical months for M. phaseolina infection (Mengistu et al., 2007).
+[LINE#124] Crop water deficits as a result of hot and dry conditions during the growing season generally develop in June, July, and August, and these are critical months for M. phaseolina infection (Mengistu et al., 2007).
 0.965	[*A*]Crop water deficits as a result of dry conditions during the growing season[*R*]develop[*A*]in June	context()	negated: False ,passive: True
 0.965	[*A*]Crop water deficits as a result of hot conditions during the growing season[*R*]develop[*A*]in June	context()	negated: False ,passive: True
 0.590	[*A*]these[*R*]are[*A*]critical months for M. phaseolina infection	context()	negated: False ,passive: True
-[LINE#113]During these three months in 2009, there were at least 25 and 7 days when temperatures exceeded 35 C in MS and TN, respectively.
+[LINE#125] During these three months in 2009, there were at least 25 and 7 days when temperatures exceeded 35 C in MS and TN, respectively.
 0.948	[*A*]temperatures[*R*]exceeded[*A*]35 C[*A*]in TN[*A*]respectively[*A*]at least 7 days	context()	negated: False ,passive: False
 0.948	[*A*]temperatures[*R*]exceeded[*A*]35 C[*A*]in MS[*A*]respectively[*A*]at least 7 days	context()	negated: False ,passive: False
 0.948	[*A*]temperatures[*R*]exceeded[*A*]35 C[*A*]in TN[*A*]respectively[*A*]at least 25 days	context()	negated: False ,passive: False
 0.948	[*A*]temperatures[*R*]exceeded[*A*]35 C[*A*]in MS[*A*]respectively[*A*]at least 25 days	context()	negated: False ,passive: False
-[LINE#114]Total precipitation during the same month in 2009 was 27 and 36 cm in MS and TN, respectively.
+[LINE#126] Total precipitation during the same month in 2009 was 27 and 36 cm in MS and TN, respectively.
 0.739	[*A*]MS and TN[*R*]had Total precipitation of[*A*]36 cm	context()	negated: False ,passive: False
 0.834	[*A*]Total precipitation during the same month in 2009[*R*]had respectively of[*A*]36 cm	context()	negated: False ,passive: False
 0.867	[*A*]Total precipitation during the same month in 2009[*R*]had MS of[*A*]36 cm	context()	negated: False ,passive: False
 0.973	[*A*]Total precipitation during the same month in 2009[*R*]was[*A*]36 cm	context()	negated: False ,passive: False
 0.964	[*A*]Total precipitation during the same month in 2009[*R*]was[*A*]27 and 36 cm in MS and TN[*A*]respectively	context()	negated: False ,passive: True
-[LINE#115]In 2010, there were 50 days when temperature exceeded 35 C, and precipitation was only 9 cm in MS during the months of June, July, and August.
+[LINE#127] In 2010, there were 50 days when temperature exceeded 35 C, and precipitation was only 9 cm in MS during the months of June, July, and August.
 0.931	[*A*]precipitation[*R*]was[*A*]only 9 cm in MS[*A*]during the months of August	context()	negated: False ,passive: True
 0.931	[*A*]precipitation[*R*]was[*A*]only 9 cm in MS[*A*]during the months of July	context()	negated: False ,passive: True
 0.739	[*A*]MS[*R*]had precipitation of[*A*]9 cm	context()	negated: False ,passive: False
@@ -454,41 +454,41 @@
 0.973	[*A*]precipitation[*R*]was[*A*]9 cm	context()	negated: False ,passive: False
 0.931	[*A*]precipitation[*R*]was[*A*]only 9 cm in MS[*A*]during the months of June	context()	negated: False ,passive: True
 0.938	[*A*]temperature[*R*]exceeded[*A*]35 C[*A*]50 days	context()	negated: False ,passive: False
-[LINE#116]In the month of August alone there were 25 days when the temperature was above 35 C with only 9 cm precipitation during the three months.
+[LINE#128] In the month of August alone there were 25 days when the temperature was above 35 C with only 9 cm precipitation during the three months.
 0.957	[*A*]the temperature[*R*]was[*A*]above 35 C with only 9 cm precipitation[*A*]during the three months[*A*]25 days	context()	negated: False ,passive: True
-[LINE#117]In TN, there were 29 days when temperature exceeded 35 C during the three months.
+[LINE#129] In TN, there were 29 days when temperature exceeded 35 C during the three months.
 0.938	[*A*]temperature[*R*]exceeded[*A*]35 C[*A*]during the three months[*A*]29 days	context()	negated: False ,passive: False
-[LINE#118]Similar to MS, the August temperature in TN exceeded the 35 C mark for 25 days.
+[LINE#130] Similar to MS, the August temperature in TN exceeded the 35 C mark for 25 days.
 0.999	[*A*]the August temperature in TN[*R*]exceeded[*A*]35 c mark	context()	negated: False ,passive: False
 0.944	[*A*]the August temperature in TN[*R*]exceeded[*A*]the 35 C mark[*A*]for 25 days	context()	negated: False ,passive: False
-[LINE#119]However, the precipitation in TN during the same months in 2010 was 46 cm, far exceeding that of MS.
+[LINE#131] However, the precipitation in TN during the same months in 2010 was 46 cm, far exceeding that of MS.
 0.834	[*A*]the precipitation in TN during the same months in 2010[*R*]had However of[*A*]46 cm	context()	negated: False ,passive: False
 0.966	[*A*]TN[*R*]had the precipitation of[*A*]46 cm	context()	negated: False ,passive: False
 0.973	[*A*]the precipitation in TN during the same months in 2010[*R*]was[*A*]46 cm	context()	negated: False ,passive: False
 0.910	[*A*]the precipitation in TN during the same months in 2010[*R*]exceeding[*A*]that of MS.	context()	negated: False ,passive: False
 0.941	[*A*]the precipitation in TN during the same months in 2010[*R*]was[*A*]46 cm[*A*]far exceeding that of MS.	context()	negated: False ,passive: True
-[LINE#120]The 30 year average temperature over the three months was 32 C for both MS and TN (http://www.ncdc.noaa.gov).
+[LINE#132] The 30 year average temperature over the three months was 32 C for both MS and TN (http://www.ncdc.noaa.gov).
 0.888	[*A*]both MS and TN[*R*]had The year average temperature of[*A*]32 c	context()	negated: False ,passive: False
 0.973	[*A*]The 30 year average temperature over the three months[*R*]was[*A*]32 c	context()	negated: False ,passive: False
 0.960	[*A*]The 30 year average temperature over the three months[*R*]was[*A*]32 C	context()	negated: False ,passive: True
-[LINE#121]Thus, the temperature and moisture conditions during the test periods were favorable in all environments for M. phaseolina infection. .
+[LINE#133] Thus, the temperature and moisture conditions during the test periods were favorable in all environments for M. phaseolina infection. .
 0.948	[*A*]the moisture conditions during the test periods[*R*]were[*A*]favorable in all environments for M. phaseolina infection	context()	negated: False ,passive: True
 0.948	[*A*]the temperature conditions during the test periods[*R*]were[*A*]favorable in all environments for M. phaseolina infection	context()	negated: False ,passive: True
-[LINE#122]Effect of glyphosate on charcoal rot severity on soybean in the fieldAnalysis of variance for CFU indicates a location-by-year interaction (P  0.05), and therefore locations within each year were analyzed separately.
+[LINE#134] Effect of glyphosate on charcoal rot severity on soybean in the fieldAnalysis of variance for CFU indicates a location-by-year interaction (P  0.05), and therefore locations within each year were analyzed separately.
 0.769	[*A*]locations within each year[*R*]were analyzed separately	context()	negated: False ,passive: False
 0.964	[*A*]Effect of glyphosate on charcoal[*R*]rot[*A*]severity[*A*]on soybean in the fieldAnalysis of variance for CFU	context()	negated: False ,passive: False
-[LINE#123] The estimates of CFU of M. phaseolina following glyphosate treatment at each location are shown in Fig..
+[LINE#135]  The estimates of CFU of M. phaseolina following glyphosate treatment at each location are shown in Fig..
 0.978	[*A*]The estimates of CFU of M. phaseolina following glyphosate treatment at each location[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#124]The figure highlights the wide-range of CFU measurements across glyphosate applications and environments.
+[LINE#136] The figure highlights the wide-range of CFU measurements across glyphosate applications and environments.
 0.918	[*A*]The figure[*R*]highlights[*A*]the wide-range of CFU measurements across environments	context()	negated: False ,passive: False
 0.918	[*A*]The figure[*R*]highlights[*A*]the wide-range of CFU measurements across glyphosate applications	context()	negated: False ,passive: False
-[LINE#125]The CFU levels showed variation between the two locations.
+[LINE#137] The CFU levels showed variation between the two locations.
 0.933	[*A*]The CFU levels[*R*]showed[*A*]variation between the two locations	context()	negated: False ,passive: False
-[LINE#126]In general CFUs in MS were significantly (P  0.05) higher than in TN.
-[LINE#127] The level of CFU in both locations was still high enough to be considered severe in both years and locations (Mengistu et al., 2007; Smith and Wyllie, 1999).In 2009 in MS,applications made at either V3 or V6 had significantly (P  0.05) lower CFU of 62,300 and 56,400, respectively than a sequential application at V3 and V6 and the control with 91, 110 and 90,000, respectively.
+[LINE#138] In general CFUs in MS were significantly (P  0.05) higher than in TN.
+[LINE#139+140]  The level of CFU in both locations was still high enough to be considered severe in both years and locations (Mengistu et al., 2007; Smith and Wyllie, 1999).In 2009 in MS,applications made at either V3 or V6 had significantly (P  0.05) lower CFU of 62,300 and 56,400, respectively than a sequential application at V3 and V6 and the control with 91, 110 and 90,000, respectively.
 0.838	[*A*]The level of CFU in both locations[*R*]had P lower CFU of[*A*]62300	context()	negated: False ,passive: False
 0.978	[*A*]The level of CFU in both locations[*R*]was[*A*]still[*A*]high enough to be considered severe in both years and locations	context()	negated: False ,passive: True
-[LINE#128] In 2010, there was a similar trend where the CFU application made at V3 was 50, 650 and 34,750 at V6 that was significantly lower CFU(P  0.05) than the CFU from sequential application made at V3 and V6 and the control with CFU of 53,200 and 68,650, respectively.
+[LINE#141+142]  In 2010, there was a similar trend where the CFU application made at V3 was 50, 650 and 34,750 at V6 that was significantly lower CFU(P  0.05) than the CFU from sequential application made at V3 and V6 and the control with CFU of 53,200 and 68,650, respectively.
 0.989	[*A*]a similar trend where the CFU application made at V3 was 34,750 at V6[*R*]was[*A*]significantly lower CFU ( P 0.05 ) than the CFU from the control with CFU of 68,650	context()	negated: False ,passive: True
 0.952	[*A*]the CFU application[*R*]was[*A*]34,750[*A*]at V6[*A*]a similar trend where the CFU application made at V3 was 34,750 at V6 that was significantly lower CFU ( P 0.05 ) than the CFU from the control with CFU of 68,650 , respectively	context()	negated: False ,passive: True
 0.989	[*A*]a similar trend where the CFU application made at V3 was 34,750 at V6[*R*]was[*A*]significantly lower CFU ( P 0.05 ) than the CFU from the control with CFU of 53,200	context()	negated: False ,passive: True
@@ -508,12 +508,12 @@
 0.952	[*A*]the CFU application[*R*]was[*A*]50[*A*]at V6[*A*]a similar trend where the CFU application made at V3 was 50 at V6 that was significantly lower CFU ( P 0.05 ) than the CFU from sequential application made at V6 , respectively	context()	negated: False ,passive: True
 0.952	[*A*]the CFU application[*R*]was[*A*]50[*A*]at V6[*A*]a similar trend where the CFU application made at V3 was 50 at V6 that was significantly lower CFU ( P 0.05 ) than the CFU from sequential application made at V3 , respectively	context()	negated: False ,passive: True
 0.944	[*A*]the CFU application[*R*]made[*A*]at V3	context()	negated: False ,passive: True
-[LINE#129] The V6 application had significantly lower CFU (.
+[LINE#143]  The V6 application had significantly lower CFU (.
 0.957	[*A*]The V6 application[*R*]had[*A*]significantly lower CFU	context()	negated: False ,passive: False
-[LINE#130] P  0.05) than applications made at V3 or V3 and V6 and waswhen data were combined across the two years.
+[LINE#144+145]  P  0.05) than applications made at V3 or V3 and V6 and waswhen data were combined across the two years.
 0.894	[*A*]data[*R*]were combined[*A*]across the two years	context()	negated: False ,passive: True
 0.911	[*A*]applications[*R*]made[*A*]at V3 or V3 and V6	context()	negated: False ,passive: True
-[LINE#131]The CFU were 56,475 and 45,575 for V3 and V6 applications, respectively and 72,150 and 79,325 for applications made at both V3 & V6 and control, respectively.
+[LINE#146] The CFU were 56,475 and 45,575 for V3 and V6 applications, respectively and 72,150 and 79,325 for applications made at both V3 & V6 and control, respectively.
 0.329	[*A*]applications made at control[*R*]had The CFU of[*A*]79325	context()	negated: False ,passive: False
 0.329	[*A*]applications made at control[*R*]had The CFU of[*A*]72150	context()	negated: False ,passive: False
 0.329	[*A*]applications made at control[*R*]had The CFU of[*A*]45575	context()	negated: False ,passive: False
@@ -542,7 +542,7 @@
 0.329	[*A*]applications made at both V3 & , respectively[*R*]had The CFU of[*A*]56475	context()	negated: False ,passive: False
 0.973	[*A*]The CFU[*R*]were[*A*]56475	context()	negated: False ,passive: False
 0.927	[*A*]The CFU[*R*]were[*A*]56,475 for applications	context()	negated: False ,passive: True
-[LINE#132]The reason as to why the CFU levels were reduced at V3 and V6 rather than when applied twice at V3 and V6 in MS indicates that multiple applications of glyphosate may result in soybean injury and inhibition of soybean nodules causing stress to the crop (Reddy and Zablotowicz, 2003).
+[LINE#147] The reason as to why the CFU levels were reduced at V3 and V6 rather than when applied twice at V3 and V6 in MS indicates that multiple applications of glyphosate may result in soybean injury and inhibition of soybean nodules causing stress to the crop (Reddy and Zablotowicz, 2003).
 0.944	[*A*]the CFU levels[*R*]were reduced[*A*]at V6[*A*]when applied twice at V6 in MS	context()	negated: False ,passive: True
 0.900	[*A*]multiple applications of glyphosate[*R*]may result[*A*]in inhibition of soybean nodules[*A*]causing stress to the crop	context(The reason as to why the CFU levels were reduced at V6 rather than indicates)	negated: False ,passive: True
 0.951	[*A*]The reason as to why the CFU levels were reduced at V6 rather than[*R*]indicates[*A*]that multiple applications of glyphosate may result in inhibition of soybean nodules causing stress to the crop ( Zablotowicz , 2003 )	context()	negated: False ,passive: False
@@ -566,22 +566,22 @@
 0.900	[*A*]multiple applications of glyphosate[*R*]may result[*A*]in soybean injury of soybean nodules[*A*]causing stress to the crop	context(The reason as to why the CFU levels were reduced at V3 indicates)	negated: False ,passive: True
 0.941	[*A*]The reason as to why the CFU levels were reduced at V3[*R*]indicates[*A*]that multiple applications of glyphosate may result in soybean injury of soybean nodules causing stress to the crop ( Reddy )	context()	negated: False ,passive: False
 0.944	[*A*]the CFU levels[*R*]were reduced[*A*]at V3	context()	negated: False ,passive: True
-[LINE#133]The reduced CFU level from single applications may also be caused by indirect rather than by direct effect of glyphosate.
+[LINE#148] The reduced CFU level from single applications may also be caused by indirect rather than by direct effect of glyphosate.
 0.930	[*A*]The reduced CFU level from single applications[*R*]may be caused[*A*]by direct effect of glyphosate	context()	negated: False ,passive: True
 0.825	[*A*]The reduced CFU level from single applications[*R*]may be caused[*A*]by indirect	context()	negated: False ,passive: True
-[LINE#134]The tilled soil provides the dry conditions favorable for the increase in CFU level in MS.
+[LINE#149] The tilled soil provides the dry conditions favorable for the increase in CFU level in MS.
 0.952	[*A*]The tilled soil[*R*]provides[*A*]the dry conditions favorable for the increase in CFU level in MS.	context()	negated: False ,passive: False
-[LINE#135]This is in agreement with the finding of Mengistu et al.
+[LINE#150] This is in agreement with the finding of Mengistu et al.
 0.495	[*A*]This[*R*]is[*A*]in agreement with the finding of Mengistu et al	context()	negated: False ,passive: True
-[LINE#136](2008) that colony forming units in soybean tissue were greater under conventional tillage than under no-till when two applications of glyphosate at 0.84 kg a.i/ha were applied.
+[LINE#151] (2008) that colony forming units in soybean tissue were greater under conventional tillage than under no-till when two applications of glyphosate at 0.84 kg a.i/ha were applied.
 0.789	[*A*]two applications of glyphosate at 0.84 kg[*R*]were applied	context()	negated: False ,passive: False
 0.932	[*A*]colony forming units in soybean tissue[*R*]were[*A*]greater[*A*]under conventional tillage	context()	negated: False ,passive: True
-[LINE#137] The CFU levels in TN in 2009 were significantly lower(P  0.05) than in MS and were 25,450, 31,700 and 34,550 for applications made at V3, V6 and V3 and V6, respectively, while the control had CFU of 38,250.
+[LINE#152+153]  The CFU levels in TN in 2009 were significantly lower(P  0.05) than in MS and were 25,450, 31,700 and 34,550 for applications made at V3, V6 and V3 and V6, respectively, while the control had CFU of 38,250.
 0.937	[*A*]the control[*R*]had[*A*]CFU of 38,250	context()	negated: False ,passive: False
 0.927	[*A*]The CFU levels in TN in 2009[*R*]were[*A*]significantly lower than in MS	context()	negated: False ,passive: True
-[LINE#138]These CFU levels in TN were not significantly different (P  0.05) from each other.
+[LINE#154] These CFU levels in TN were not significantly different (P  0.05) from each other.
 0.897	[*A*]These CFU levels in TN[*R*]were not[*A*]significantly different (P  0.05) from each other	context()	negated: True ,passive: True
-[LINE#139]In 2010, the CFU levels were 39,450, 34,900, and 34,450 at V3, V6 and V3 and V6 applications, respectively, while the control had CFU of 25,300.
+[LINE#155] In 2010, the CFU levels were 39,450, 34,900, and 34,450 at V3, V6 and V3 and V6 applications, respectively, while the control had CFU of 25,300.
 0.128	[*A*]V6 applications[*R*]had the CFU levels of[*A*]34450	context()	negated: False ,passive: False
 0.968	[*A*]the CFU levels[*R*]were[*A*]34,450[*A*]at V6 applications[*A*]respectively[*A*]while the control had CFU of 25,300[*A*]In 2010	context()	negated: False ,passive: True
 0.128	[*A*]V3 applications[*R*]had the CFU levels of[*A*]34450	context()	negated: False ,passive: False
@@ -595,28 +595,28 @@
 0.973	[*A*]the CFU levels[*R*]were[*A*]39450	context()	negated: False ,passive: False
 0.937	[*A*]the control[*R*]had[*A*]CFU of 25,300	context()	negated: False ,passive: False
 0.968	[*A*]the CFU levels[*R*]were[*A*]39,450 , 34,900[*A*]at V3 applications[*A*]respectively[*A*]while the control had CFU of 25,300[*A*]In 2010	context()	negated: False ,passive: True
-[LINE#140]No statistical differences were detected in each of the two years or when the two years data were averaged.
+[LINE#156] No statistical differences were detected in each of the two years or when the two years data were averaged.
 0.926	[*A*]data[*R*]were averaged[*A*]the two years	context()	negated: False ,passive: True
 0.911	[*A*]No statistical differences[*R*]were detected[*A*]in each of the two years	context()	negated: False ,passive: True
-[LINE#141]The lower CFU values in TN may be due to soybean planting in no-till as opposed to planting in tilled soil as in MS.
+[LINE#157] The lower CFU values in TN may be due to soybean planting in no-till as opposed to planting in tilled soil as in MS.
 0.905	[*A*]The lower CFU values in TN[*R*]may be[*A*]due to soybean planting in no-till	context()	negated: False ,passive: True
-[LINE#142]No-tillage can result in cooler soil temperatures because of a high volume of crop residue on the soil surface.
+[LINE#158] No-tillage can result in cooler soil temperatures because of a high volume of crop residue on the soil surface.
 0.943	[*A*]No-tillage[*R*]can result[*A*]in cooler soil temperatures[*A*]because of a high volume of crop residue on the soil surface	context()	negated: False ,passive: True
-[LINE#143]Such high volume of residue has been shown to increase soil moisture retention compared to tilled soils (DeLaune and Sij, 2012).
+[LINE#159] Such high volume of residue has been shown to increase soil moisture retention compared to tilled soils (DeLaune and Sij, 2012).
 0.913	[*A*]Such high volume of residue[*R*]to increase[*A*]soil moisture retention[*A*]compared to tilled soils	context()	negated: False ,passive: False
 0.785	[*A*]Such high volume of residue[*R*]has been shown	context()	negated: False ,passive: False
-[LINE#144]For diseases like charcoal rot that thrive preferably under stress environments, the shift from tillage-based agriculture to no-till promoted water conservation thus reducing plant stress and thus the level of disease severity (Mengistu et al., 2008).When relating the glyphosate tested in vitro to what was used in the field, the concentrations of glyphosate required for inhibition are well beyond what would be applied under field conditions.
+[LINE#160] For diseases like charcoal rot that thrive preferably under stress environments, the shift from tillage-based agriculture to no-till promoted water conservation thus reducing plant stress and thus the level of disease severity (Mengistu et al., 2008).When relating the glyphosate tested in vitro to what was used in the field, the concentrations of glyphosate required for inhibition are well beyond what would be applied under field conditions.
 0.903	[*A*]the glyphosate[*R*]tested[*A*]in vitro[*A*]to what was used in the field	context()	negated: False ,passive: True
 0.924	[*A*]the concentrations of glyphosate required for inhibition[*R*]are[*A*]well beyond what would be applied under field conditions	context()	negated: False ,passive: True
 0.887	[*A*]water conservation[*R*]reducing[*A*]thus[*A*]the level of disease severity	context()	negated: False ,passive: False
 0.919	[*A*]the concentrations of glyphosate[*R*]required[*A*]for inhibition	context()	negated: False ,passive: True
-[LINE#145]Furthermore, the formulation and adjuvant ingredients used to enhance the efficacy of the active compound (Gly-K salt) in the field may affect growth in vitro when the Gly-K salt is formulated.
+[LINE#161] Furthermore, the formulation and adjuvant ingredients used to enhance the efficacy of the active compound (Gly-K salt) in the field may affect growth in vitro when the Gly-K salt is formulated.
 0.989	[*A*]adjuvant ingredients used to enhance the efficacy of the active compound ( Gly - K salt ) in the field[*R*]may affect[*A*]growth[*A*]when the Gly - K salt is formulated	context()	negated: False ,passive: False
 0.947	[*A*]adjuvant ingredients[*R*]used[*A*]to enhance the efficacy of the active compound ( Gly - K salt ) in the field	context()	negated: False ,passive: True
 0.832	[*A*]the Gly - K salt[*R*]is formulated	context()	negated: False ,passive: False
 0.989	[*A*]the formulation used to enhance the efficacy of the active compound ( Gly - K salt ) in the field[*R*]may affect[*A*]growth[*A*]when the Gly - K salt is formulated	context()	negated: False ,passive: False
 0.947	[*A*]the formulation[*R*]used[*A*]to enhance the efficacy of the active compound ( Gly - K salt ) in the field	context()	negated: False ,passive: True
-[LINE#146]This study suggests that multiple glyphosate applications did not increase charcoal rot levels in no-till environments, but disease severity increased when two applications were made in tilled environments, particularly when it was hot and dry.
+[LINE#162] This study suggests that multiple glyphosate applications did not increase charcoal rot levels in no-till environments, but disease severity increased when two applications were made in tilled environments, particularly when it was hot and dry.
 0.703	[*A*]This study[*R*]suggests[*A*]that multiple glyphosate applications did not increase charcoal rot disease severity increased when two applications were made in tilled environments , particularly when it was dry	context()	negated: False ,passive: False
 0.891	[*A*]multiple glyphosate applications[*R*]did not increase[*A*]charcoal rot disease severity	context(This study suggests)	negated: True ,passive: False
 0.703	[*A*]This study[*R*]suggests[*A*]that multiple glyphosate applications did not increase charcoal rot disease severity increased when two applications were made in tilled environments , particularly when it was hot	context()	negated: False ,passive: False

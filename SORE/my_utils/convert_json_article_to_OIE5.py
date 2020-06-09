@@ -12,6 +12,7 @@ def write_sentences_to_txt_file(input_dict, output_folder):
 
     processed_files = []
     for doc_id in input_dict:
+
         output_name = output_folder + doc_id.replace('.', '_') + '.txt'
 
         try:
@@ -19,11 +20,11 @@ def write_sentences_to_txt_file(input_dict, output_folder):
                 print("{} already exists, skipping and assuming it's already been processed!".format(output_name))
             else:
                 content = input_dict[doc_id]
-                content = clean_raw_input.clean_content(content)
+                content = clean_raw_input.clean_dict(content)
 
                 with open(output_name, 'w') as f:
                     for sent_id, sentence in content.items():
-                        f.writelines(sentence['sentence']+'\n')
+                        f.writelines("[LINE#{}] {}\n".format(sent_id, sentence['sentence']))
 
                 processed_files.append(output_name)
                 print('Processed ', doc_id, 'to a separate text file for OIE')

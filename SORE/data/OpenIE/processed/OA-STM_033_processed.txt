@@ -1,373 +1,373 @@
-[LINE#1]Let K be a number field of degree n with ring of integers OK.
-[LINE#2] By means of a criterion of Gilmer for polynomially dense subsets of the ring of integers of a number field, we show that, if hK[X] maps every element of OK of degree n to an algebraic integer, then h(X)is integral-valued over OK, that is, h(OK)OK.
+[LINE#0] Let K be a number field of degree n with ring of integers OK.
+[LINE#1+2]  By means of a criterion of Gilmer for polynomially dense subsets of the ring of integers of a number field, we show that, if hK[X] maps every element of OK of degree n to an algebraic integer, then h(X)is integral-valued over OK, that is, h(OK)OK.
 0.593	[*A*]then h[*R*]is[*A*]integral-valued	context(we show)	negated: False ,passive: True
 0.372	[*A*]we[*R*]show[*A*]that, if hK[X] maps every element of OK of degree n to an algebraic integer, then h(X)is integral-valued over OK	context()	negated: False ,passive: False
 0.888	[*A*]hK[*R*]maps[*A*]every element of OK of degree	context()	negated: False ,passive: False
-[LINE#3] A similar property holds if we consider the set of all algebraic integers of degree n and a polynomial fQ[X]:if f() is integral over Z for every algebraic integer  of degree n, then f() is integral over Z for every algebraic integer  of degree smaller than n.
+[LINE#3+4]  A similar property holds if we consider the set of all algebraic integers of degree n and a polynomial fQ[X]:if f() is integral over Z for every algebraic integer  of degree n, then f() is integral over Z for every algebraic integer  of degree smaller than n.
 0.397	[*A*]we[*R*]consider[*A*]the set of n and a polynomial fQ	context(A similar property holds)	negated: False ,passive: False
 0.919	[*A*]A similar property[*R*]holds[*A*]if we consider the set of n and a polynomial fQ [ X ] : if f ( ) is integral over Z for every algebraic integer of degree n , then f ( ) is integral over Z for every algebraic integer of degree smaller than	context()	negated: False ,passive: False
 0.514	[*A*]we[*R*]consider[*A*]the set of all algebraic integers of degree and a polynomial fQ	context(A similar property holds)	negated: False ,passive: False
 0.905	[*A*]A similar property[*R*]holds[*A*]if we consider the set of all algebraic integers of degree and a polynomial fQ	context()	negated: False ,passive: False
-[LINE#4]This second result is established by proving that the integral closure of the ring of polynomials in Q[X] which are integer-valued over the set of matrices Mn(Z) is equal to the ring of integral-valued polynomials over the set of algebraic integers of degree equal to n.
+[LINE#5] This second result is established by proving that the integral closure of the ring of polynomials in Q[X] which are integer-valued over the set of matrices Mn(Z) is equal to the ring of integral-valued polynomials over the set of algebraic integers of degree equal to n.
 0.385	[*A*]matrices Mn ( Z )[*R*]is equal to[*A*]the ring	context()	negated: False ,passive: False
 0.751	[*A*]This second result[*R*]is established	context()	negated: False ,passive: False
-[LINE#5]Let K be a number field of degree n over Q with ring of integers OK.
-[LINE#6]and OK, the evaluation of f(X) at  is an element of K.
+[LINE#6] Let K be a number field of degree n over Q with ring of integers OK.
+[LINE#7] and OK, the evaluation of f(X) at  is an element of K.
 0.938	[*A*]the evaluation of f[*R*]is[*A*]an element of K.	context()	negated: False ,passive: True
-[LINE#7]we say that f(X) is integral-valued on .
+[LINE#8] we say that f(X) is integral-valued on .
 0.626	[*A*]f(X[*R*]is[*A*]integral-valued on	context(we say)	negated: False ,passive: True
 0.279	[*A*]we[*R*]say[*A*]that f(X) is integral-valued on	context()	negated: False ,passive: False
-[LINE#8]If this condition holds for every OK, we say that f(X) is integral-valued over OK.
+[LINE#9] If this condition holds for every OK, we say that f(X) is integral-valued over OK.
 0.846	[*A*]f(X[*R*]is[*A*]integral-valued[*A*]over OK	context(we say)	negated: False ,passive: True
 0.309	[*A*]we[*R*]say[*A*]that f(X) is integral-valued over OK	context()	negated: False ,passive: False
 0.813	[*A*]this condition[*R*]holds[*A*]for	context()	negated: False ,passive: False
-[LINE#9]The set of such polynomials forms a ring, usually denoted by:Int(OK){fK[X]|f(OK)OK}.
+[LINE#10] The set of such polynomials forms a ring, usually denoted by:Int(OK){fK[X]|f(OK)OK}.
 0.832	[*A*]a ring[*R*]denoted[*A*]by[*A*]usually	context()	negated: False ,passive: True
-[LINE#10]Obviously, Int(OK)OK[X] and this is a strict containment (over Z, consider X(X-1)/2).
+[LINE#11] Obviously, Int(OK)OK[X] and this is a strict containment (over Z, consider X(X-1)/2).
 0.612	[*A*]this[*R*]is[*A*]a strict containment (over Z, consider X(X-1)/2	context()	negated: False ,passive: True
-[LINE#11] A classical problem regarding integral-valued polynomials is to find proper subsets S of OK such that if f(X) is any polynomial in K[X] such that f(s) is in OK for all s in S then f(X).
+[LINE#12+13]  A classical problem regarding integral-valued polynomials is to find proper subsets S of OK such that if f(X) is any polynomial in K[X] such that f(s) is in OK for all s in S then f(X).
 0.988	[*A*]such that if f(X) is any polynomial in K[X] such that f[*R*]is[*A*]in OK	context()	negated: False ,passive: True
 0.854	[*A*]f[*R*]is[*A*]any polynomial in K	context()	negated: False ,passive: True
 0.879	[*A*]A classical problem[*R*]regarding[*A*]integral-valued polynomials is to find proper subsets S of OK such that if f(X) is any polynomial in K[X] such that f(s) is in OK for all s in S then f(X	context()	negated: False ,passive: False
-[LINE#12]A subset S of OK with this property is usually called a polynomially dense subset of OK.
+[LINE#14] A subset S of OK with this property is usually called a polynomially dense subset of OK.
 0.952	[*A*]A subset S of OK[*R*]is called[*A*]a polynomially dense subset of OK[*A*]usually	context()	negated: False ,passive: True
-[LINE#13]For example, it is easy to see that cofinite subsets of OK have this property.
-[LINE#14] For a general reference of polynomially dense subsets and the so-called polynomial closure see [1](see also the references contained in there).
-[LINE#15] Obviously, for a polynomially dense subset S we have Int(S,OK){fK[X]|f(S)OK}=Int(OK)(in general we only have one containment).
+[LINE#15] For example, it is easy to see that cofinite subsets of OK have this property.
+[LINE#16+17]  For a general reference of polynomially dense subsets and the so-called polynomial closure see [1](see also the references contained in there).
+[LINE#18+19]  Obviously, for a polynomially dense subset S we have Int(S,OK){fK[X]|f(S)OK}=Int(OK)(in general we only have one containment).
 0.349	[*A*]we[*R*]have[*A*]one containment	context(we have)	negated: False ,passive: False
 0.550	[*A*]we[*R*]have[*A*]Int(S,OK){fK[X]|f(S)OK}=Int	context()	negated: False ,passive: False
-[LINE#16]Gilmer gave a criterion which characterizes polynomially dense subsets of a Dedekind domain with finite residue fields [6].
+[LINE#20] Gilmer gave a criterion which characterizes polynomially dense subsets of a Dedekind domain with finite residue fields [6].
 0.927	[*A*]a criterion[*R*]characterizes[*A*]polynomially dense subsets of a Dedekind domain with finite residue fields	context()	negated: False ,passive: False
 0.948	[*A*]Gilmer[*R*]gave[*A*]a criterion which characterizes polynomially dense subsets of a Dedekind domain with finite residue fields [6]	context()	negated: False ,passive: False
-[LINE#17]His result was later elaborated by McQuillan in this way ([9]; we state it for the ring of integers of a number field): a subset S of OK is polynomially dense in OK if and only if, for every non-zero prime ideal P of OK, S is dense in OK with respect to the P-adic topology.
+[LINE#21] His result was later elaborated by McQuillan in this way ([9]; we state it for the ring of integers of a number field): a subset S of OK is polynomially dense in OK if and only if, for every non-zero prime ideal P of OK, S is dense in OK with respect to the P-adic topology.
 0.956	[*A*]a subset S of OK[*R*]is[*A*]polynomially dense in OK	context(we state)	negated: False ,passive: True
 0.665	[*A*]His result[*R*]was elaborated[*A*]by McQuillan[*A*]later	context(we state)	negated: False ,passive: True
 0.264	[*A*]we[*R*]state[*A*]it	context()	negated: False ,passive: False
-[LINE#18]By means of this criterion, we show here the following theorem.
+[LINE#22] By means of this criterion, we show here the following theorem.
 0.522	[*A*]we[*R*]show[*A*]here[*A*]the following theorem	context()	negated: False ,passive: False
-[LINE#19]Theorem 1.1Let K be a number field of degree n over Q.
+[LINE#23] Theorem 1.1Let K be a number field of degree n over Q.
 0.808	[*A*]Theorem 1.1Let K[*R*]be[*A*]a number field of degree n over Q.	context()	negated: False ,passive: True
-[LINE#20] Let OK,n be the set of algebraic integers of K of degree.
-[LINE#21] Then OK,n is polynomially dense in OK.The previous problem concerns the integrality of the values of a polynomial with coefficients in a number field K over the set of algebraic integers of.
-[LINE#22]K. We also address here our interest to the study of the integrality of the values of a polynomial with rational coefficients over the set of algebraic integers of a proper finite extension of Q, or, more in general, over a set of algebraic integers which lie in possibly infinitely many number fields, but of bounded degree.
+[LINE#24]  Let OK,n be the set of algebraic integers of K of degree.
+[LINE#25+26]  Then OK,n is polynomially dense in OK.The previous problem concerns the integrality of the values of a polynomial with coefficients in a number field K over the set of algebraic integers of.
+[LINE#27] K. We also address here our interest to the study of the integrality of the values of a polynomial with rational coefficients over the set of algebraic integers of a proper finite extension of Q, or, more in general, over a set of algebraic integers which lie in possibly infinitely many number fields, but of bounded degree.
 0.887	[*A*]algebraic integers[*R*]lie[*A*]in possibly infinitely many number fields	context()	negated: False ,passive: True
 0.422	[*A*]We[*R*]address[*A*]here[*A*]our interest[*A*]to the study of the integrality of the values of a polynomial with rational coefficients over the set of algebraic integers of a proper finite extension of Q	context()	negated: False ,passive: False
-[LINE#23]In this direction, Loper and Werner introduced in [8] the following ring of integral-valued polynomials:IntQ(OK){fQ[X]|f(OK)OK}.
+[LINE#28] In this direction, Loper and Werner introduced in [8] the following ring of integral-valued polynomials:IntQ(OK){fQ[X]|f(OK)OK}.
 0.953	[*A*]Werner[*R*]introduced[*A*]in [ 8[*A*]In this direction	context()	negated: False ,passive: False
 0.953	[*A*]Loper[*R*]introduced[*A*]in [ 8[*A*]In this direction	context()	negated: False ,passive: False
-[LINE#24]This ring is the contraction to Q[X] of Int(OK).
+[LINE#29] This ring is the contraction to Q[X] of Int(OK).
 0.937	[*A*]This ring[*R*]is[*A*]the contraction to Q[X] of Int	context()	negated: False ,passive: True
-[LINE#25]It is easy to see that it is a subring of the usual ring of integer-valued polynomials Int(Z)={fQ[X]|f(Z)Z}.
-[LINE#26] Moreover, this is always a strict containment: take any prime integer p such that there exists a prime ideal of OK above p whose residue field strictly contains Z/pZ; then the polynomial X(X-1)(X-(p-1))/p is in Int(Z)[8] another ring of integral-valued polynomials has been introduced.
+[LINE#30] It is easy to see that it is a subring of the usual ring of integer-valued polynomials Int(Z)={fQ[X]|f(Z)Z}.
+[LINE#31+32+33+34]  Moreover, this is always a strict containment: take any prime integer p such that there exists a prime ideal of OK above p whose residue field strictly contains Z/pZ; then the polynomial X(X-1)(X-(p-1))/p is in Int(Z)[8] another ring of integral-valued polynomials has been introduced.
 0.908	[*A*]p-1))/p[*R*]is[*A*]in Int(Z)[8	context(another ring of integral - valued polynomials has been introduced)	negated: False ,passive: True
 0.780	[*A*]another ring of integral-valued polynomials[*R*]has been introduced	context()	negated: False ,passive: False
-[LINE#27]Given an integer n, we denote by An the set of all algebraic integers of degree less than or equal to n in a fixed algebraic closure Q of Q.
+[LINE#35] Given an integer n, we denote by An the set of all algebraic integers of degree less than or equal to n in a fixed algebraic closure Q of Q.
 0.614	[*A*]we[*R*]denote[*A*]by An[*A*]the set of all algebraic integers of degree less than or equal to n in a fixed algebraic closure	context()	negated: False ,passive: False
-[LINE#28]We define the following ringIntQ(An){fQ[X]|f(An)An}.
+[LINE#36] We define the following ringIntQ(An){fQ[X]|f(An)An}.
 0.498	[*A*]We[*R*]define[*A*]the following ringIntQ	context()	negated: False ,passive: False
-[LINE#29]Notice that for n=1 we have the usual ring Int(Z).
-[LINE#30]Given any algebraic integer  of degree n and f(X) any polynomial with rational coefficients, f() belongs to Q() and in particular its degree is less than or equal to n.
-[LINE#31] Therefore, a polynomial fQ[X] is in IntQ(An)if and only if for every  in An, f() is in the ring AQ of all algebraic integers.
+[LINE#37] Notice that for n=1 we have the usual ring Int(Z).
+[LINE#38] Given any algebraic integer  of degree n and f(X) any polynomial with rational coefficients, f() belongs to Q() and in particular its degree is less than or equal to n.
+[LINE#39+40]  Therefore, a polynomial fQ[X] is in IntQ(An)if and only if for every  in An, f() is in the ring AQ of all algebraic integers.
 0.933	[*A*]a polynomial fQ[*R*]is[*A*]in IntQ	context()	negated: False ,passive: True
-[LINE#32] We have then IntQ(An)=IntQ(An,A)={fQ[X]|f(An)A}, where the latter ring is the contraction to Q[X] of the ring Int(An,A), which is the ring of polynomials in Q[X] which are integer-valued over the subset An of A(notice that by definition the quotient field of A is Q).
+[LINE#41+42]  We have then IntQ(An)=IntQ(An,A)={fQ[X]|f(An)A}, where the latter ring is the contraction to Q[X] of the ring Int(An,A), which is the ring of polynomials in Q[X] which are integer-valued over the subset An of A(notice that by definition the quotient field of A is Q).
 1.000	[*A*]A}, where the latter ring is the contraction to Q[X] of the ring Int(An,A), which is the ring of polynomials in Q[X] which are integer-valued over the subset An of A(notice that by definition the quotient field of A[*R*]is[*A*]Q	context()	negated: False ,passive: True
 0.888	[*A*]An[*R*]is[*A*]the ring of polynomials in Q	context()	negated: False ,passive: True
 0.963	[*A*]the latter ring[*R*]is[*A*]the contraction to Q[X] of the ring Int	context()	negated: False ,passive: True
 0.498	[*A*]We[*R*]have[*A*]then IntQ	context()	negated: False ,passive: False
-[LINE#33] In particular, this implies that for all nN we have IntQ(An)IntQ(An-1).As the authors in [8] show, the ring IntQ(An) is also equal to(1)IntQ(An)=[K:Q]nIntQ(OK) where the intersection is over the set of all number fields K of degree less than or equal to n. One of the reason why these rings have been introduced was to show the existence of a Prfer domain lying properly between Z[X](see question Q1 at the beginning of [8]).
+[LINE#43+44+45+46+47]  In particular, this implies that for all nN we have IntQ(An)IntQ(An-1).As the authors in [8] show, the ring IntQ(An) is also equal to(1)IntQ(An)=[K:Q]nIntQ(OK) where the intersection is over the set of all number fields K of degree less than or equal to n. One of the reason why these rings have been introduced was to show the existence of a Prfer domain lying properly between Z[X](see question Q1 at the beginning of [8]).
 0.925	[*A*]the intersection[*R*]is[*A*]over the set of all number fields	context()	negated: False ,passive: True
 0.857	[*A*]the authors in [8] show[*R*]is[*A*]also[*A*]equal to(1	context()	negated: False ,passive: True
 0.732	[*A*]these rings[*R*]have been introduced	context()	negated: False ,passive: False
 0.577	[*A*]we[*R*]have[*A*]IntQ[*A*]for all nN	context(this implies)	negated: False ,passive: False
 0.153	[*A*]this[*R*]implies[*A*]that for all nN we have IntQ(An)IntQ(An-1).As the authors in [8] show, the ring IntQ(An) is also equal to(1)IntQ(An)=[K:Q]nIntQ(OK) where the intersection is over the set of all number fields K of degree less than or equal to n. One of the reason why these rings have been introduced was to show the existence of a Prfer domain	context()	negated: False ,passive: False
-[LINE#34]Indeed, they prove that IntQ(An) and IntQ(OK) for any number field K are examples of such rings.
+[LINE#48] Indeed, they prove that IntQ(An) and IntQ(OK) for any number field K are examples of such rings.
 0.950	[*A*]IntQ ( OK ) for any number field K[*R*]are[*A*]examples of such rings	context(they prove)	negated: False ,passive: True
 0.465	[*A*]they[*R*]prove[*A*]that IntQ ( OK ) for any number field K are examples of such rings	context()	negated: False ,passive: False
 0.950	[*A*]IntQ ( An ) for any number field K[*R*]are[*A*]examples of such rings	context(they prove)	negated: False ,passive: True
 0.465	[*A*]they[*R*]prove[*A*]that IntQ ( An ) for any number field K are examples of such rings	context()	negated: False ,passive: False
-[LINE#35]We can ask whether a result similar to Theorem 1.1 holds for An.
+[LINE#49] We can ask whether a result similar to Theorem 1.1 holds for An.
 0.870	[*A*]a result similar to Theorem 1.1[*R*]holds[*A*]for An	context(We can ask)	negated: False ,passive: False
 0.550	[*A*]We[*R*]can ask[*A*]whether a result similar to Theorem 1.1 holds for An	context()	negated: False ,passive: False
-[LINE#36]More specifically, let An be the subset of An of elements of degree equal to n.
-[LINE#37]We consider the following ringIntQ(An,An){fQ[X]|f(An)An} that is, polynomials with rational coefficients which map the set of algebraic integers of degree n to algebraic integers (which of course have degree less than or equal to n; like before, notice that IntQ(An,An)=IntQ(An,A), with the obvious notation).
+[LINE#50] More specifically, let An be the subset of An of elements of degree equal to n.
+[LINE#51] We consider the following ringIntQ(An,An){fQ[X]|f(An)An} that is, polynomials with rational coefficients which map the set of algebraic integers of degree n to algebraic integers (which of course have degree less than or equal to n; like before, notice that IntQ(An,An)=IntQ(An,A), with the obvious notation).
 0.992	[*A*]the following ringIntQ(An,An){fQ[X]|f(An)An} that is, polynomials with rational coefficients[*R*]map[*A*]the set of algebraic integers of degree n to algebraic integers	context()	negated: False ,passive: False
 0.195	[*A*]We[*R*]consider	context()	negated: False ,passive: False
-[LINE#38]A priori this ring contains IntQ(An), since An is a subset of An.
+[LINE#52] A priori this ring contains IntQ(An), since An is a subset of An.
 0.449	[*A*]An[*R*]is[*A*]a subset of An	context()	negated: False ,passive: True
 0.918	[*A*]this ring[*R*]contains[*A*]IntQ	context()	negated: False ,passive: False
-[LINE#39] By Theorem 1.1 it follows that there exist algebraic integers of degree smaller than n (namely, the ring of integers of all number fields of degree n) on which any fIntQ(An,An) is integral-valued(we treat this consequence of Theorem 1.1 in Remark 3.2).
+[LINE#53+54+55]  By Theorem 1.1 it follows that there exist algebraic integers of degree smaller than n (namely, the ring of integers of all number fields of degree n) on which any fIntQ(An,An) is integral-valued(we treat this consequence of Theorem 1.1 in Remark 3.2).
 0.498	[*A*]we[*R*]treat[*A*]this consequence of Theorem 1.1[*A*]in Remark 3.2	context()	negated: False ,passive: False
 0.700	[*A*]An[*R*]is[*A*]integral-valued	context()	negated: False ,passive: True
-[LINE#40]Using the same terminology adopted for subsets of the ring of integers of a number field, we say that An is not polynomially closed in An.
+[LINE#56] Using the same terminology adopted for subsets of the ring of integers of a number field, we say that An is not polynomially closed in An.
 0.363	[*A*]An[*R*]is not polynomially closed[*A*]in An	context(we say)	negated: True ,passive: True
 0.218	[*A*]we[*R*]say[*A*]that An is not polynomially closed in An	context()	negated: False ,passive: False
 0.943	[*A*]the same terminology[*R*]adopted[*A*]for subsets of the ring of integers of a number field	context()	negated: False ,passive: True
-[LINE#41] The main result of this paper is that the two rings of integral-valued polynomials over An and An actually coincide:Theorem 1.2For every positive integer.
+[LINE#57]  The main result of this paper is that the two rings of integral-valued polynomials over An and An actually coincide:Theorem 1.2For every positive integer.
 0.948	[*A*]The main result of this paper[*R*]is[*A*]every positive integer	context()	negated: False ,passive: True
 0.865	[*A*]The main result of this paper[*R*]is[*A*]An	context()	negated: False ,passive: True
 0.701	[*A*]The main result of this paper[*R*]is[*A*]that	context()	negated: False ,passive: True
-[LINE#42]IntQ(An,An)=IntQ(An).In this way, in order to check whether a polynomial fQ[X] is integral-valued over the set of algebraic integers of degree bounded by n, it is sufficient to check if f(X) is integral-valued over the set of algebraic integers of degree exactly equal to n.
+[LINE#58] IntQ(An,An)=IntQ(An).In this way, in order to check whether a polynomial fQ[X] is integral-valued over the set of algebraic integers of degree bounded by n, it is sufficient to check if f(X) is integral-valued over the set of algebraic integers of degree exactly equal to n.
 0.758	[*A*]it[*R*]is[*A*]sufficient to check if f(X) is integral-valued over the set of algebraic integers of degree exactly equal to[*A*]In this way	context()	negated: False ,passive: True
-[LINE#43]As above, we say that An is polynomially dense in An.
+[LINE#59] As above, we say that An is polynomially dense in An.
 0.430	[*A*]An[*R*]is[*A*]polynomially dense in An	context(we say)	negated: False ,passive: True
 0.218	[*A*]we[*R*]say[*A*]that An is polynomially dense in An	context()	negated: False ,passive: False
-[LINE#44] In particular, Theorems 1.1 and 1.2 also show that it is not necessary to take a set S of algebraic integers properly containing Z to exhibit a Prfer domain properly contained between Z[X] and Int(Z) (specifically, IntQ(S,A)).The ring IntQ(An)has been introduced in [8] also for another reason.
+[LINE#60+61+62]  In particular, Theorems 1.1 and 1.2 also show that it is not necessary to take a set S of algebraic integers properly containing Z to exhibit a Prfer domain properly contained between Z[X] and Int(Z) (specifically, IntQ(S,A)).The ring IntQ(An)has been introduced in [8] also for another reason.
 0.247	[*A*]1.2[*R*]show[*A*]that it is not necessary to take a set S of algebraic integers	context()	negated: False ,passive: False
 0.877	[*A*]Z[*R*]to exhibit[*A*]a Prfer domain	context()	negated: False ,passive: False
 0.918	[*A*]algebraic integers[*R*]properly containing[*A*]Z	context()	negated: False ,passive: False
 0.637	[*A*]IntQ[*R*]has been introduced[*A*]in [ 8	context()	negated: False ,passive: True
 0.944	[*A*]a Prfer domain[*R*]properly contained[*A*]between Z [ X ] and Int	context()	negated: False ,passive: True
 0.776	[*A*]Theorems 1.1[*R*]show[*A*]that it is not necessary to take a set S of algebraic integers	context()	negated: False ,passive: False
-[LINE#45]the noncommutative Z-algebra of nn matrices with entries in Z.
-[LINE#46]Given a matrix MMn(Z) and a polynomial fQ[X], f(M) is a matrix with rational entries.
+[LINE#63] the noncommutative Z-algebra of nn matrices with entries in Z.
+[LINE#64] Given a matrix MMn(Z) and a polynomial fQ[X], f(M) is a matrix with rational entries.
 0.920	[*A*]a polynomial fQ[*R*]is[*A*]a matrix with rational entries	context()	negated: False ,passive: True
 0.869	[*A*]f[*R*]is[*A*]a matrix with rational entries	context()	negated: False ,passive: True
-[LINE#47] If f(M) has integer entries, we say that f(X) is integer-valued on.
+[LINE#65]  If f(M) has integer entries, we say that f(X) is integer-valued on.
 0.820	[*A*]f(X[*R*]is[*A*]integer-valued on	context(we say)	negated: False ,passive: True
 0.271	[*A*]we[*R*]say[*A*]that f(X) is integer-valued on	context()	negated: False ,passive: False
 0.830	[*A*]M[*R*]has[*A*]integer entries	context()	negated: False ,passive: False
-[LINE#48] M. We consider the ring of polynomials which are integer-valued over all the matrices of Mn(Z)(introduced in [2]):Int(Mn(Z)){fQ[X]|f(M)Mn(Z),MMn(Z)}.
+[LINE#66+67]  M. We consider the ring of polynomials which are integer-valued over all the matrices of Mn(Z)(introduced in [2]):Int(Mn(Z)){fQ[X]|f(M)Mn(Z),MMn(Z)}.
 0.834	[*A*]all the matrices of Mn[*R*]introduced[*A*]in [2	context()	negated: False ,passive: True
 0.896	[*A*]polynomials[*R*]are[*A*]integer-valued over all the matrices of Mn	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]consider[*A*]the ring of polynomials	context()	negated: False ,passive: False
-[LINE#49] Like IntQ(An), Int(Mn(Z)) is a subring of the ring of integer-valued polynomial Int(Z)as the subalgebra of scalar matrices).
+[LINE#68+69]  Like IntQ(An), Int(Mn(Z)) is a subring of the ring of integer-valued polynomial Int(Z)as the subalgebra of scalar matrices).
 0.976	[*A*]IntQ(An), Int[*R*]is[*A*]a subring of the ring of integer-valued polynomial Int(Z)as the subalgebra of scalar matrices	context()	negated: False ,passive: True
-[LINE#50]In [8] the following theorem is proved: Theorem 1.3The ring Int(Mn(Z)) is not integrally closed and its integral closure is IntQ(An), which is a Prfer domain.
+[LINE#70] In [8] the following theorem is proved: Theorem 1.3The ring Int(Mn(Z)) is not integrally closed and its integral closure is IntQ(An), which is a Prfer domain.
 0.419	[*A*]Theorem 1.3The ring Int[*R*]integrally closed	context()	negated: True ,passive: False
 0.993	[*A*]the following theorem[*R*]is proved In[*A*]8 ]	context()	negated: False ,passive: False
 0.888	[*A*]IntQ[*R*]is[*A*]a Prfer domain	context()	negated: False ,passive: True
 0.756	[*A*]its integral closure[*R*]is[*A*]IntQ	context()	negated: False ,passive: True
 0.843	[*A*]the following theorem[*R*]is proved[*A*]In [ 8	context()	negated: False ,passive: True
-[LINE#51] What is behind the containment between these two rings of integer-valued polynomials, is based on the following fact: if fQ[X] is integer-valued over a matrix MMn(Z), then f(X) is integral-valued over the set of roots of the characteristic polynomial of M, which are elements of An (that is, the eigenvalues of M as a matrix over Q).
+[LINE#71+72]  What is behind the containment between these two rings of integer-valued polynomials, is based on the following fact: if fQ[X] is integer-valued over a matrix MMn(Z), then f(X) is integral-valued over the set of roots of the characteristic polynomial of M, which are elements of An (that is, the eigenvalues of M as a matrix over Q).
 0.904	[*A*]X[*R*]is[*A*]integral-valued over the set of roots of the characteristic polynomial of M	context()	negated: False ,passive: True
 0.823	[*A*]fQ[*R*]is[*A*]integer-valued over a matrix MMn(Z), then f(X) is integral-valued over the set of roots of the characteristic polynomial of M, which are elements of An (that is, the eigenvalues of M as a matrix over Q	context()	negated: False ,passive: True
 0.058	[*A*]that[*R*]is	context()	negated: False ,passive: False
 0.894	[*A*]the set of roots of the characteristic polynomial of M[*R*]are[*A*]elements of An (that is	context()	negated: False ,passive: True
-[LINE#52]This fact can be easily proved directly, but we will give an alternative point of view based on a representation of the ring Int(Mn(Z)) as an intersection of pullbacks of Q[X], which turn out to be equal to a particular class of rings of integer-valued polynomials over algebraic integers.
+[LINE#73] This fact can be easily proved directly, but we will give an alternative point of view based on a representation of the ring Int(Mn(Z)) as an intersection of pullbacks of Q[X], which turn out to be equal to a particular class of rings of integer-valued polynomials over algebraic integers.
 0.950	[*A*]pullbacks of Q[*R*]to be[*A*]equal to a particular class of rings of integer - valued polynomials over algebraic integers	context()	negated: False ,passive: True
 0.950	[*A*]pullbacks of Q[*R*]turn out[*A*]to be equal to a particular class of rings of integer - valued polynomials over algebraic integers	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]will give[*A*]an alternative point of view[*A*]as an intersection of pullbacks of Q	context()	negated: False ,passive: False
 0.732	[*A*]This fact[*R*]can be easily proved directly	context()	negated: False ,passive: False
-[LINE#53]Our Theorem 1.2 is proved by means of a result of Frisch ([3, Proposition 6.2], [4]) which says that the set of matrices with irreducible characteristic polynomial is polynomially dense in Mn(Z).We give a summary of the paper.
+[LINE#74] Our Theorem 1.2 is proved by means of a result of Frisch ([3, Proposition 6.2], [4]) which says that the set of matrices with irreducible characteristic polynomial is polynomially dense in Mn(Z).We give a summary of the paper.
 0.452	[*A*]We[*R*]give[*A*]a summary of the paper	context()	negated: False ,passive: False
 0.760	[*A*]Our Theorem 1.2[*R*]is proved[*A*]by means of a result of Frisch	context()	negated: False ,passive: True
-[LINE#54] In the second section we use Gilmers criterion to prove a generalization of Theorem 1.1 for orders of a number field.
+[LINE#75]  In the second section we use Gilmers criterion to prove a generalization of Theorem 1.1 for orders of a number field.
 0.433	[*A*]we[*R*]use Gilmers criterion to prove[*A*]a generalization of Theorem 1.1[*A*]for orders of a number field	context(we use)	negated: False ,passive: False
 0.686	[*A*]we[*R*]use[*A*]Gilmers criterion[*A*]to prove a generalization of Theorem 1.1 for orders of a number field[*A*]In the second section	context()	negated: False ,passive: False
-[LINE#55] K. By means of a result of Gyry, we also show that if we remove from OK,n those elements which generates OK as a Z-algebra (if any)we still get a polynomially dense subset.
+[LINE#76+77]  K. By means of a result of Gyry, we also show that if we remove from OK,n those elements which generates OK as a Z-algebra (if any)we still get a polynomially dense subset.
 0.560	[*A*]we[*R*]get[*A*]a polynomially dense subset[*A*]still	context(we show)	negated: False ,passive: False
 0.214	[*A*]we[*R*]show[*A*]that if we remove from OK,n those elements which generates OK as a Z-algebra (if any)we still get a polynomially dense subset	context()	negated: False ,passive: False
 0.913	[*A*]n those elements[*R*]generates[*A*]OK	context()	negated: False ,passive: False
 0.367	[*A*]we[*R*]remove[*A*]from OK[*A*]n those elements which generates OK as a Z-algebra (	context()	negated: False ,passive: False
 0.887	[*A*]K. By[*R*]means[*A*]of a result of Gyry	context()	negated: False ,passive: False
-[LINE#56]In Section 3 we establish the connection between the subring of Q[X] of integer-valued polynomials over a set of nn integral matrices with irreducible characteristic polynomial in a prescribed set P (these rings have been studied in [10]) and rings of integral-valued polynomials over the roots of the polynomials in P (which are algebraic integers of degree n), showing that the latter is the integral closure of the former.
+[LINE#78] In Section 3 we establish the connection between the subring of Q[X] of integer-valued polynomials over a set of nn integral matrices with irreducible characteristic polynomial in a prescribed set P (these rings have been studied in [10]) and rings of integral-valued polynomials over the roots of the polynomials in P (which are algebraic integers of degree n), showing that the latter is the integral closure of the former.
 0.767	[*A*]these rings[*R*]have been studied[*A*]in [10	context()	negated: False ,passive: True
 0.740	[*A*]we[*R*]establish[*A*]the connection between the subring of Q[X] of integer-valued polynomials over a set of nn integral matrices with irreducible characteristic polynomial in a prescribed set P[*A*]In Section 3	context()	negated: False ,passive: False
-[LINE#57]This result is achieved by means of Theorem 3.1.
+[LINE#79] This result is achieved by means of Theorem 3.1.
 0.918	[*A*]This result[*R*]is achieved[*A*]by means of Theorem 3.1	context()	negated: False ,passive: True
-[LINE#58]We need a result from [10] which says that the ring of integer-valued polynomials over matrices with prescribed characteristic polynomial pZ[X] is equal to the pullback ring Z[X]+p(X)Q[X].
+[LINE#80] We need a result from [10] which says that the ring of integer-valued polynomials over matrices with prescribed characteristic polynomial pZ[X] is equal to the pullback ring Z[X]+p(X)Q[X].
 0.381	[*A*]prescribed characteristic polynomial pZ [ X ][*R*]is equal to[*A*]the pullback ring Z [ X ] +p ( X ) Q [ X ]	context()	negated: False ,passive: False
 0.962	[*A*]the ring of integer-valued polynomials over matrices with prescribed characteristic polynomial pZ[*R*]is[*A*]equal to the pullback ring Z	context(10 says)	negated: False ,passive: True
 0.313	[*A*]10[*R*]says[*A*]that the ring of integer-valued polynomials over matrices with prescribed characteristic polynomial pZ[X] is equal to the pullback ring Z	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]need[*A*]a result from [10	context()	negated: False ,passive: False
-[LINE#59]Theorem 3.1 proves that the integral closure of the intersection of a collection of pullbacks of this kind is the intersection of the integral closure of the pullbacks of the family.
+[LINE#81] Theorem 3.1 proves that the integral closure of the intersection of a collection of pullbacks of this kind is the intersection of the integral closure of the pullbacks of the family.
 0.981	[*A*]the integral closure of the intersection of a collection of pullbacks of this kind[*R*]is[*A*]the intersection of the integral closure of the pullbacks of the family	context(Theorem 3.1 proves)	negated: False ,passive: True
 0.856	[*A*]Theorem 3.1[*R*]proves[*A*]that the integral closure of the intersection of a collection of pullbacks of this kind is the intersection of the integral closure of the pullbacks of the family	context()	negated: False ,passive: False
-[LINE#60]The crucial assumption we need is that the degree of the polynomials of the set P is bounded by the above integer n.
+[LINE#82] The crucial assumption we need is that the degree of the polynomials of the set P is bounded by the above integer n.
 0.595	[*A*]The crucial assumption we need[*R*]is[*A*]that the degree of the polynomials of the set P is bounded by the above integer	context()	negated: False ,passive: True
 0.894	[*A*]The crucial assumption[*R*]need[*A*]we	context()	negated: False ,passive: True
-[LINE#61]From this result, Theorem 1.2 follows.
+[LINE#83] From this result, Theorem 1.2 follows.
 0.788	[*A*]Theorem 1.2[*R*]follows	context()	negated: False ,passive: False
-[LINE#62]In Remark 3.2 we stress that Theorem 1.1 does not imply directly Theorem 1.2.We also prove another related result, analogous to Theorem 1.3.
+[LINE#84] In Remark 3.2 we stress that Theorem 1.1 does not imply directly Theorem 1.2.We also prove another related result, analogous to Theorem 1.3.
 0.892	[*A*]Theorem 1.2.We[*R*]prove[*A*]another related result	context(we stress Theorem 1.1 does not imply directly)	negated: False ,passive: False
 0.921	[*A*]Theorem 1.1[*R*]does not imply directly[*A*]Theorem 1.2.We also prove another related result	context(we stress)	negated: True ,passive: False
 0.514	[*A*]we[*R*]stress[*A*]that Theorem 1.1 does not imply directly Theorem 1.2.We also prove another related result[*A*]In Remark 3.2	context()	negated: False ,passive: False
-[LINE#63] As IntQ(An) is the integral closure of the ring Int(Mn(Z)), in the same way, for every number field K, IntQ(OK) (which by (1) is an overring of IntQ(An))is equal to the integral closure of a certain overring of Int(Mn(Z)), namely, the ring of integer-valued polynomials over the set MnK(Z) of matrices with characteristic polynomial equal to a minimal polynomial of some algebraic integer of maximal degree of K.
+[LINE#85+86+87]  As IntQ(An) is the integral closure of the ring Int(Mn(Z)), in the same way, for every number field K, IntQ(OK) (which by (1) is an overring of IntQ(An))is equal to the integral closure of a certain overring of Int(Mn(Z)), namely, the ring of integer-valued polynomials over the set MnK(Z) of matrices with characteristic polynomial equal to a minimal polynomial of some algebraic integer of maximal degree of K.
 0.385	[*A*]IntQ ( An ) )[*R*]is equal to[*A*]the integral closure	context()	negated: False ,passive: False
 0.927	[*A*]IntQ[*R*]is[*A*]equal to the integral closure of a certain overring of Int	context()	negated: False ,passive: True
 0.869	[*A*]IntQ[*R*]is[*A*]the integral closure of the ring	context()	negated: False ,passive: True
-[LINE#64] Polynomially dense subsets of the ring of integers of a number fieldWe recall from the introduction that a subset S of a domain D with quotient field K is polynomially dense in D if the ring Int(S,D){fK[X]|f(S)D} is equal to.
+[LINE#88]  Polynomially dense subsets of the ring of integers of a number fieldWe recall from the introduction that a subset S of a domain D with quotient field K is polynomially dense in D if the ring Int(S,D){fK[X]|f(S)D} is equal to.
 0.846	[*A*]the ring Int[*R*]is[*A*]equal to	context()	negated: False ,passive: True
 0.987	[*A*]a subset S of a domain D with quotient field K[*R*]is[*A*]polynomially dense in D[*A*]if the ring Int(S,D){fK[X]|f(S)D} is equal to	context()	negated: False ,passive: True
-[LINE#65]Int(D)={fK[X]|f(D)D}.Let K be a number field with ring of integers OK.
-[LINE#66] The statement of the criterion of Gilmer ([6, Theorem 8], originally stated for Dedekind domains with finite residue fields)we mentioned in the introduction is the following: a subset S of OK is polynomially dense in OK if and only if for every non-zero prime ideal P of OK and any positive integer k, the set S contains a complete set of representatives of the residue classes modulo Pk.
+[LINE#89] Int(D)={fK[X]|f(D)D}.Let K be a number field with ring of integers OK.
+[LINE#90+91]  The statement of the criterion of Gilmer ([6, Theorem 8], originally stated for Dedekind domains with finite residue fields)we mentioned in the introduction is the following: a subset S of OK is polynomially dense in OK if and only if for every non-zero prime ideal P of OK and any positive integer k, the set S contains a complete set of representatives of the residue classes modulo Pk.
 0.964	[*A*]a subset S of OK[*R*]is[*A*]polynomially dense in OK	context()	negated: False ,passive: True
 0.978	[*A*]The statement of the criterion of Gilmer[*R*]is[*A*]the following : a subset S of OK is polynomially dense in OK	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]mentioned[*A*]in the introduction	context()	negated: False ,passive: False
 0.870	[*A*]Theorem 8[*R*]stated[*A*]originally	context()	negated: False ,passive: False
-[LINE#67]According to Gilmers terminology, such a subset is called prime power complete.
+[LINE#92] According to Gilmers terminology, such a subset is called prime power complete.
 0.911	[*A*]such a subset[*R*]is called[*A*]prime power complete	context()	negated: False ,passive: True
-[LINE#68]As McQuillan showed in [9], this property corresponds to S being dense in OK with respect to the P-adic topology, for each non-zero prime ideal P of OK.
+[LINE#93] As McQuillan showed in [9], this property corresponds to S being dense in OK with respect to the P-adic topology, for each non-zero prime ideal P of OK.
 0.735	[*A*]this property[*R*]being[*A*]dense	context()	negated: False ,passive: True
 0.918	[*A*]this property[*R*]corresponds[*A*]to S[*A*]in OK	context()	negated: False ,passive: True
 0.802	[*A*]McQuillan[*R*]showed[*A*]in [9	context()	negated: False ,passive: False
-[LINE#69]By [1, Chapter IV] the same result holds for orders of K.
+[LINE#94] By [1, Chapter IV] the same result holds for orders of K.
 0.967	[*A*]the same result[*R*]holds[*A*]for orders of K.[*A*]By [1, Chapter IV	context()	negated: False ,passive: False
-[LINE#70]We recall that an order of K is a subring of K which has maximal rank as a Z-module; in particular, an order O of K is contained in OK, which is called maximal order.
+[LINE#95] We recall that an order of K is a subring of K which has maximal rank as a Z-module; in particular, an order O of K is contained in OK, which is called maximal order.
 0.951	[*A*]an order of K[*R*]is[*A*]a subring of K	context(We recall)	negated: False ,passive: True
 0.317	[*A*]We[*R*]recall[*A*]that an order of K is a subring of K	context()	negated: False ,passive: False
 0.953	[*A*]an order O of K[*R*]is contained[*A*]in OK	context()	negated: False ,passive: True
 0.954	[*A*]a subring of K[*R*]has[*A*]maximal rank as a Z-module	context()	negated: False ,passive: False
-[LINE#71]If n is the degree of K over Q and OOK is an order, we denote by On the set of elements of O of degree n, thus On{O|Q()=K}.
+[LINE#96] If n is the degree of K over Q and OOK is an order, we denote by On the set of elements of O of degree n, thus On{O|Q()=K}.
 0.884	[*A*]an order[*R*]denote[*A*]we	context()	negated: False ,passive: True
 0.495	[*A*]n[*R*]is[*A*]the degree of K over Q	context()	negated: False ,passive: True
-[LINE#72] We denote Int(On,O)={fK[X]|f(On)O} and Int(O)={fK[X]|f(O)O}(the quotient field of O is the number field K).
+[LINE#97+98]  We denote Int(On,O)={fK[X]|f(On)O} and Int(O)={fK[X]|f(O)O}(the quotient field of O is the number field K).
 0.899	[*A*]fK [ X ] |[*R*]is[*A*]the number field	context(We denote On)	negated: False ,passive: True
 0.426	[*A*]We[*R*]denote On[*A*]Int	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]denote[*A*]Int ( On , O ) = { fK	context()	negated: False ,passive: False
 0.614	[*A*]We[*R*]denote[*A*]Int ( On , O ) = { fK [ X ] | f	context()	negated: False ,passive: False
-[LINE#73]it is easy to see that, if a subset S of OK is polynomially dense in OK then it has non-zero intersection with On.
+[LINE#99] it is easy to see that, if a subset S of OK is polynomially dense in OK then it has non-zero intersection with On.
 0.964	[*A*]a subset S of OK[*R*]is[*A*]polynomially dense in OK	context()	negated: False ,passive: True
-[LINE#74]In fact, if S is contained in a proper subfield K of K, just consider a prime ideal P of OK whose residue field is strictly bigger than the residue field of the contraction of P to OK.
+[LINE#100] In fact, if S is contained in a proper subfield K of K, just consider a prime ideal P of OK whose residue field is strictly bigger than the residue field of the contraction of P to OK.
 0.855	[*A*]S[*R*]is contained[*A*]in a proper subfield	context()	negated: False ,passive: True
-[LINE#75] This implies that there are residue classes modulo P which are not covered by the set S.The nexttheorem is a generalization of Theorem 1.1 of the introduction.
+[LINE#101+102]  This implies that there are residue classes modulo P which are not covered by the set S.The nexttheorem is a generalization of Theorem 1.1 of the introduction.
 0.089	[*A*]This[*R*]implies[*A*]that there are residue classes	context()	negated: False ,passive: False
 0.953	[*A*]S.The nexttheorem[*R*]is[*A*]a generalization of Theorem 1.1 of the introduction	context()	negated: False ,passive: True
 0.887	[*A*]modulo P[*R*]are not covered[*A*]by the set	context()	negated: True ,passive: True
-[LINE#76] Theorem 2.1Let K be a number field of degree n and O an order of K. ThenInt(On,O)=Int(O) that is, On is polynomially dense in O. ProofGiven a non-zero ideal I of O, there exists I of degree.
+[LINE#103+104]  Theorem 2.1Let K be a number field of degree n and O an order of K. ThenInt(On,O)=Int(O) that is, On is polynomially dense in O. ProofGiven a non-zero ideal I of O, there exists I of degree.
 0.777	[*A*]Theorem 2.1Let K[*R*]be[*A*]a number field of degree[*A*]n	context()	negated: False ,passive: True
-[LINE#77] In fact, suppose IZ=dZ, for some non-zero integer d. Since dOI , it is sufficient to prove the claim for the principal ideals of O generated by an integer d. Pick an element.
+[LINE#105+106]  In fact, suppose IZ=dZ, for some non-zero integer d. Since dOI , it is sufficient to prove the claim for the principal ideals of O generated by an integer d. Pick an element.
 0.813	[*A*]O[*R*]generated[*A*]by an integer	context()	negated: False ,passive: True
-[LINE#78] Then there are exactly n conjugates of d over Q and they lie in dO.Let.
+[LINE#107]  Then there are exactly n conjugates of d over Q and they lie in dO.Let.
 0.658	[*A*]they[*R*]lie[*A*]in dO.Let	context()	negated: False ,passive: True
-[LINE#79]Pk be the power of a non-zero prime ideal of OK.
+[LINE#108] Pk be the power of a non-zero prime ideal of OK.
 0.887	[*A*]Pk[*R*]be the power of[*A*]a non-zero prime ideal	context()	negated: False ,passive: False
 0.874	[*A*]Pk[*R*]be[*A*]the power of a non-zero prime ideal of OK	context()	negated: False ,passive: True
-[LINE#80]By the discussion above Pk has non-trivial intersection with On.
-[LINE#81]We have to show that every residue class +Pk has a representative which lies in On.
+[LINE#109] By the discussion above Pk has non-trivial intersection with On.
+[LINE#110] We have to show that every residue class +Pk has a representative which lies in On.
 0.917	[*A*]every residue class[*R*]has[*A*]a representative which lies in On	context(We to show)	negated: False ,passive: False
 0.197	[*A*]We[*R*]to show[*A*]that every residue class +Pk has a representative	context()	negated: False ,passive: False
 0.905	[*A*]a representative[*R*]lies[*A*]in On	context()	negated: False ,passive: True
-[LINE#82] If OOn, pick an element Pk.
+[LINE#111]  If OOn, pick an element Pk.
 0.928	[*A*]OOn[*R*]pick[*A*]an element	context()	negated: False ,passive: False
-[LINE#83] Then, using an argument similar to the proof of the primitive element theorem, there is an integer k such that the algebraic integer =+k (which is in +Pk) is a generator of Q(,)=Q()=K, thus  has maximal degree n.
+[LINE#112+113+114]  Then, using an argument similar to the proof of the primitive element theorem, there is an integer k such that the algebraic integer =+k (which is in +Pk) is a generator of Q(,)=Q()=K, thus  has maximal degree n.
 0.381	[*A*]+Pk )[*R*]is a generator of[*A*]Q (	context()	negated: False ,passive: False
 0.982	[*A*]the algebraic integer =+k (which is in +Pk[*R*]is[*A*]a generator of Q(,)=Q()=K	context()	negated: False ,passive: True
 0.938	[*A*]the algebraic integer =+k[*R*]is[*A*]in +Pk	context()	negated: False ,passive: True
-[LINE#84] Since OK,nOKZOK we also have that OKZ is polynomially dense in OK.We may wonder whether there exist polynomially dense subsets properly contained in the subset On of an order.
+[LINE#115]  Since OK,nOKZOK we also have that OKZ is polynomially dense in OK.We may wonder whether there exist polynomially dense subsets properly contained in the subset On of an order.
 0.942	[*A*]that OKZ[*R*]is[*A*]polynomially dense in OK.We	context(we also have)	negated: False ,passive: True
 0.225	[*A*]we[*R*]also have[*A*]that OKZ is polynomially dense in OK.We	context()	negated: False ,passive: False
 0.911	[*A*]polynomially dense subsets[*R*]properly contained[*A*]in the subset	context()	negated: False ,passive: True
-[LINE#85] O of a number field K of degree.
-[LINE#86]The next proposition gives a positive answer to this question.
+[LINE#116]  O of a number field K of degree.
+[LINE#117] The next proposition gives a positive answer to this question.
 0.911	[*A*]The next proposition[*R*]gives[*A*]a positive answer to this question	context()	negated: False ,passive: False
-[LINE#87]Given such an order OOK, we consider the setAO{O|Z[]=O}.
+[LINE#118] Given such an order OOK, we consider the setAO{O|Z[]=O}.
 0.498	[*A*]we[*R*]consider[*A*]the setAO	context()	negated: False ,passive: False
-[LINE#88]The set AO is contained in On and it may be empty.
+[LINE#119] The set AO is contained in On and it may be empty.
 0.225	[*A*]it[*R*]may be[*A*]empty	context()	negated: False ,passive: True
 0.735	[*A*]The set[*R*]is contained in[*A*]On	context()	negated: False ,passive: True
-[LINE#89]By a result of Gyry, AO is a finite union of equivalence classes with respect to the equivalence relation given by =+m, for some mZ (see [7]).
+[LINE#120] By a result of Gyry, AO is a finite union of equivalence classes with respect to the equivalence relation given by =+m, for some mZ (see [7]).
 0.925	[*A*]the equivalence relation[*R*]given[*A*]by =+m	context()	negated: False ,passive: True
 0.961	[*A*]AO[*R*]is[*A*]a finite union of equivalence classes with respect to the equivalence relation	context()	negated: False ,passive: True
-[LINE#90] This means thatAO=i=1,,k(i+Z) where O=Z[i], i=1,.
+[LINE#121]  This means thatAO=i=1,,k(i+Z) where O=Z[i], i=1,.
 0.381	[*A*]This[*R*]means[*A*]thatAO=i=1,,k	context()	negated: False ,passive: False
-[LINE#91]With these notations we have the following Proposition.
+[LINE#122] With these notations we have the following Proposition.
 0.498	[*A*]we[*R*]have[*A*]the following Proposition	context()	negated: False ,passive: False
-[LINE#92] Proposition 2.1OnAO is polynomially dense in O. ProofIf AOis empty then by Theorem 2.1 we are done.
+[LINE#123+124]  Proposition 2.1OnAO is polynomially dense in O. ProofIf AOis empty then by Theorem 2.1 we are done.
 0.157	[*A*]we[*R*]are done	context(Proposition 2.1OnAO is empty then)	negated: False ,passive: False
 0.919	[*A*]Proposition 2.1OnAO[*R*]is empty then[*A*]in O. ProofIf AOis	context()	negated: False ,passive: True
-[LINE#93]Suppose now that AO is not empty.
+[LINE#125] Suppose now that AO is not empty.
 0.802	[*A*]AO[*R*]is not[*A*]empty	context()	negated: True ,passive: True
-[LINE#94]Pk be a power of a prime ideal P (our arguments hold for any ideal I of O, indeed).
+[LINE#126] Pk be a power of a prime ideal P (our arguments hold for any ideal I of O, indeed).
 0.887	[*A*]Pk[*R*]be a power of[*A*]a prime ideal P	context()	negated: False ,passive: False
 0.604	[*A*]our arguments[*R*]hold[*A*]for any ideal I of O, indeed	context()	negated: False ,passive: False
 0.858	[*A*]Pk[*R*]be[*A*]a power of a prime ideal P (our arguments hold for any ideal I of O, indeed	context()	negated: False ,passive: True
-[LINE#95]Suppose that a residue class +I is contained in AO.
-[LINE#96] This means that the class +I itself (and consequently the ideal I) can be partitioned into a finite union of sets,each contained in i+Z, i=i+.
+[LINE#127] Suppose that a residue class +I is contained in AO.
+[LINE#128+129]  This means that the class +I itself (and consequently the ideal I) can be partitioned into a finite union of sets,each contained in i+Z, i=i+.
 0.590	[*A*]each[*R*]contained[*A*]in i+Z	context()	negated: False ,passive: True
 0.554	[*A*]I[*R*]can be partitioned[*A*]into a finite union of sets[*A*]the class	context()	negated: False ,passive: True
 0.153	[*A*]This[*R*]means	context()	negated: False ,passive: False
-[LINE#97]That is, we have I=1,,k(i+Z)I.
+[LINE#130] That is, we have I=1,,k(i+Z)I.
 0.225	[*A*]we[*R*]have[*A*]I=1	context()	negated: False ,passive: False
-[LINE#98](there exists at least one such value of i, or else I would be empty).
+[LINE#131] (there exists at least one such value of i, or else I would be empty).
 0.225	[*A*]I[*R*]would be[*A*]empty	context()	negated: False ,passive: True
-[LINE#99] Then we haveI=i=1,,t(i+(ZI))(tk; the containment () is obvious; conversely, if I, for some i we have i, so that i and so -iZI).
+[LINE#132+133]  Then we haveI=i=1,,t(i+(ZI))(tk; the containment () is obvious; conversely, if I, for some i we have i, so that i and so -iZI).
 0.348	[*A*]we[*R*]haveI=i=1[*A*]t[*A*]if I[*A*]Then	context(the containment is)	negated: False ,passive: False
 0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
 0.348	[*A*]we[*R*]haveI=i=1[*A*]t[*A*]if I , for some i[*A*]Then	context(the containment is)	negated: False ,passive: False
 0.747	[*A*]the containment[*R*]is[*A*]obvious	context()	negated: False ,passive: True
-[LINE#100] Hence, the additive group of I is a finite union of residue classes modulo J.
+[LINE#134]  Hence, the additive group of I is a finite union of residue classes modulo J.
 0.706	[*A*]the additive group of I[*R*]modulo[*A*]J.	context()	negated: False ,passive: False
-[LINE#101] This is not possible: J is a free-Z module of rank 1 and I is a free-Z module of rank n>1. .
+[LINE#135]  This is not possible: J is a free-Z module of rank 1 and I is a free-Z module of rank n>1. .
 0.522	[*A*]I[*R*]is[*A*]a free - Z module of rank	context()	negated: False ,passive: True
 0.148	[*A*]This[*R*]is not[*A*]possible	context(J is)	negated: True ,passive: True
 0.822	[*A*]J[*R*]is[*A*]a free - Z module of rank 1	context()	negated: False ,passive: True
-[LINE#102] Rings of integer-valued polynomials as intersection ofpullbacksLet  be a fixed algebraic integer over Z.
+[LINE#136+137]  Rings of integer-valued polynomials as intersection ofpullbacksLet  be a fixed algebraic integer over Z.
 0.967	[*A*]Rings of integer-valued polynomials as intersection ofpullbacksLet[*R*]be[*A*]a fixed algebraic integer over Z.	context()	negated: False ,passive: True
-[LINE#103]Given a polynomial fQ[X], the evaluation of f(X) at  is an element of the number field K=Q(), which is by its very definition the set of all the f()s, with fQ[X].
+[LINE#138] Given a polynomial fQ[X], the evaluation of f(X) at  is an element of the number field K=Q(), which is by its very definition the set of all the f()s, with fQ[X].
 0.782	[*A*]K=Q[*R*]is[*A*]by its very definition	context()	negated: False ,passive: True
 0.957	[*A*]the evaluation of f(X) at[*R*]is[*A*]an element of the number field	context()	negated: False ,passive: True
-[LINE#104]This set is clearly a ring (a field, indeed), since it is the image under the evaluation homomorphism at  of the polynomial ring Q[X].
+[LINE#139] This set is clearly a ring (a field, indeed), since it is the image under the evaluation homomorphism at  of the polynomial ring Q[X].
 0.522	[*A*]it[*R*]is[*A*]the image under the evaluation homomorphism	context()	negated: False ,passive: True
 0.915	[*A*]This set[*R*]is[*A*]clearly[*A*]a ring (a field, indeed[*A*]since it is the image under the evaluation homomorphism at  of the polynomial ring	context()	negated: False ,passive: True
-[LINE#105]It is well-known that the set of those f()s which are integral over Z is a subring of K, called the ring of integers of K.
+[LINE#140] It is well-known that the set of those f()s which are integral over Z is a subring of K, called the ring of integers of K.
 0.236	[*A*]It[*R*]is[*A*]well-known	context()	negated: False ,passive: True
 0.940	[*A*]a subring of K[*R*]called[*A*]the ring of integers of K.	context()	negated: False ,passive: True
-[LINE#106]We denote this subring by OQ() (we stress that this subring does not depend on  but only on the number field K).
+[LINE#141] We denote this subring by OQ() (we stress that this subring does not depend on  but only on the number field K).
 0.882	[*A*]this subring[*R*]does not depend[*A*]only on the number field	context(we stress)	negated: True ,passive: False
 0.339	[*A*]we[*R*]stress[*A*]that this subring does not depend only on the number field	context()	negated: False ,passive: False
 0.724	[*A*]this subring[*R*]does not depend[*A*]on	context(we stress)	negated: True ,passive: False
 0.242	[*A*]we[*R*]stress[*A*]that this subring does not depend on	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]denote[*A*]this subring	context()	negated: False ,passive: False
-[LINE#107] Notice that, if fZ[X], then f() is clearly in Z[]OQ(), but there exist other polynomials f(X) in Q[X]Z[X].
+[LINE#142]  Notice that, if fZ[X], then f() is clearly in Z[]OQ(), but there exist other polynomials f(X) in Q[X]Z[X].
 0.797	[*A*]fZ[*R*]then is[*A*]clearly[*A*]in Z	context()	negated: False ,passive: True
-[LINE#108]In order to study this phenomenon, we introduce the following rings.
+[LINE#143] In order to study this phenomenon, we introduce the following rings.
 0.452	[*A*]we[*R*]introduce[*A*]the following rings	context()	negated: False ,passive: False
-[LINE#109] Definition 3.1RIntQ({},Z[])={fQ[X]|f()Z[]},SIntQ({},OQ())={fQ[X]|f()OQ()}.Noticethat Z[X]RSQ[X], so that R and S are Z[X]-algebras.
+[LINE#144+145]  Definition 3.1RIntQ({},Z[])={fQ[X]|f()Z[]},SIntQ({},OQ())={fQ[X]|f()OQ()}.Noticethat Z[X]RSQ[X], so that R and S are Z[X]-algebras.
 0.958	[*A*]Noticethat Z [ X ] RSQ [ X ] , so that S[*R*]are[*A*]Z [ X ] - algebras	context()	negated: False ,passive: True
 0.840	[*A*]R[*R*]are[*A*]Z [ X ] - algebras	context()	negated: False ,passive: True
-[LINE#110]If  generates the ring OQ() as a Z-algebra, that is Z[]=OQ(), we say that the ring of integers OQ() is monogenic.
+[LINE#146] If  generates the ring OQ() as a Z-algebra, that is Z[]=OQ(), we say that the ring of integers OQ() is monogenic.
 0.642	[*A*]OQ[*R*]is[*A*]monogenic	context(we say)	negated: False ,passive: True
 0.309	[*A*]we[*R*]say[*A*]that the ring of integers OQ() is monogenic	context()	negated: False ,passive: False
 0.954	[*A*]a Z-algebra[*R*]is[*A*]Z	context()	negated: False ,passive: True
-[LINE#111]In particular, if this condition holds, R=S.
+[LINE#147] In particular, if this condition holds, R=S.
 0.925	[*A*]this condition[*R*]holds[*A*]R=S	context()	negated: False ,passive: False
-[LINE#112]It is easy to see that in general the containment RS is proper.
-[LINE#113]Then f()=2OQ()Z[], so that fSR.
-[LINE#114]In general Z[] is only contained in OQ() and the two rings have the same quotient field Q().
+[LINE#148] It is easy to see that in general the containment RS is proper.
+[LINE#149] Then f()=2OQ()Z[], so that fSR.
+[LINE#150] In general Z[] is only contained in OQ() and the two rings have the same quotient field Q().
 0.925	[*A*]the two rings[*R*]have[*A*]the same quotient field Q	context()	negated: False ,passive: False
-[LINE#115]The integral closure of Z[] in Q() is obviously OQ().
+[LINE#151] The integral closure of Z[] in Q() is obviously OQ().
 0.971	[*A*]The integral closure of Z[] in Q[*R*]is[*A*]obviously[*A*]OQ	context()	negated: False ,passive: True
-[LINE#116] By the next lemma, the previous implication can be reversed, namely if R=.
+[LINE#152]  By the next lemma, the previous implication can be reversed, namely if R=.
 0.939	[*A*]the previous implication[*R*]can be reversed[*A*]By the next lemma	context()	negated: False ,passive: True
-[LINE#117]Lemma 3.1Let  be an algebraic integer and K=Q().
+[LINE#153] Lemma 3.1Let  be an algebraic integer and K=Q().
 0.953	[*A*]Lemma 3.1Let[*R*]be[*A*]K=Q	context()	negated: False ,passive: True
 0.944	[*A*]Lemma 3.1Let[*R*]be[*A*]an algebraic integer	context()	negated: False ,passive: True
-[LINE#118]We setR(){f()|fR},S(){f()|fS}.
-[LINE#119]Since Z[X]R we also have the other containment.
+[LINE#154] We setR(){f()|fR},S(){f()|fS}.
+[LINE#155] Since Z[X]R we also have the other containment.
 0.599	[*A*]we[*R*]have[*A*]the other containment[*A*]Since Z[X]R	context()	negated: False ,passive: False
-[LINE#120]For the same reason we have S()OK.
+[LINE#156] For the same reason we have S()OK.
 0.498	[*A*]we[*R*]have[*A*]S()OK	context()	negated: False ,passive: False
-[LINE#121]Let c=c=[OK:Z[]] and take OK.
-[LINE#122] Then f(X)g(X)/cQ[X] has the property that f()=OK, that is fSand its evaluation on  is  as wanted.
+[LINE#157] Let c=c=[OK:Z[]] and take OK.
+[LINE#158+159]  Then f(X)g(X)/cQ[X] has the property that f()=OK, that is fSand its evaluation on  is  as wanted.
 0.873	[*A*]the property that f[*R*]fSand[*A*]its evaluation	context()	negated: False ,passive: False
 0.873	[*A*]the property that f[*R*]is[*A*]fSand its evaluation	context()	negated: False ,passive: True
 0.802	[*A*]X)g[*R*]has[*A*]the property that f()=OK, that is fSand its evaluation[*A*]Then	context()	negated: False ,passive: False
-[LINE#123]By [1, Proposition IV.4.3], the integral closure of Int({},Z[]) in its quotient field Q()(X) is Int({},OK).
+[LINE#160] By [1, Proposition IV.4.3], the integral closure of Int({},Z[]) in its quotient field Q()(X) is Int({},OK).
 0.921	[*A*]Q()(X[*R*]is[*A*]Int[*A*]OK	context()	negated: False ,passive: True
-[LINE#124]We notice that Int({},OK)=OK+(X-)K[X], where K=Q(), so Int({},OK) is a pullback of K[X].
+[LINE#161] We notice that Int({},OK)=OK+(X-)K[X], where K=Q(), so Int({},OK) is a pullback of K[X].
 0.317	[*A*]We[*R*]notice[*A*]that Int({},OK)=OK+(X-)K[X], where K=Q(), so Int({},OK) is a pullback of K	context()	negated: False ,passive: False
-[LINE#125]The next proposition shows that analogous properties hold for the contraction of these rings to Q[X], which are the rings R and S, respectively.
+[LINE#162] The next proposition shows that analogous properties hold for the contraction of these rings to Q[X], which are the rings R and S, respectively.
 0.885	[*A*]The next proposition[*R*]shows[*A*]that analogous properties hold for the contraction of these rings to Q	context()	negated: False ,passive: False
 0.829	[*A*]Q[*R*]are respectively[*A*]the S	context()	negated: False ,passive: True
 0.908	[*A*]analogous properties[*R*]hold[*A*]for the contraction of these rings	context(The next proposition shows)	negated: False ,passive: False
 0.885	[*A*]The next proposition[*R*]shows[*A*]that analogous properties hold for the contraction of these rings to Q [ X ] , which are the rings R , respectively	context()	negated: False ,passive: False
 0.833	[*A*]Q[*R*]are[*A*]the rings R	context()	negated: False ,passive: True
-[LINE#126]For a general treatment of pullbacks see [5].
-[LINE#127]  be an algebraic integer of degree n over Z and pZ[X].
-[LINE#128]Then R and S are pullbacks of Q[X].
+[LINE#163] For a general treatment of pullbacks see [5].
+[LINE#164]   be an algebraic integer of degree n over Z and pZ[X].
+[LINE#165] Then R and S are pullbacks of Q[X].
 0.927	[*A*]S[*R*]are[*A*]pullbacks of Q[*A*]Then	context()	negated: False ,passive: True
 0.903	[*A*]R[*R*]are[*A*]pullbacks of Q[*A*]Then	context()	negated: False ,passive: True
-[LINE#129]In particular, R=Z[X]+M, where M is the maximal ideal of Q[X] generated by p(X).
+[LINE#166] In particular, R=Z[X]+M, where M is the maximal ideal of Q[X] generated by p(X).
 0.786	[*A*]X[*R*]generated[*A*]by p	context()	negated: False ,passive: True
 0.944	[*A*]M[*R*]is[*A*]the maximal ideal of Q[*A*]In particular, R=Z[X]+M	context()	negated: False ,passive: True
-[LINE#130] Moreover, the integral closure of R in its quotient field Q(X) is S, which is a Prfer domain, and.
+[LINE#167]  Moreover, the integral closure of R in its quotient field Q(X) is S, which is a Prfer domain, and.
 0.888	[*A*]S[*R*]is[*A*]a Prfer domain	context()	negated: False ,passive: True
 0.875	[*A*]the integral closure of R in its quotient field Q[*R*]is[*A*]S	context()	negated: False ,passive: True
-[LINE#131]R is integrally closed if and only if Z[]=OQ().
+[LINE#168] R is integrally closed if and only if Z[]=OQ().
 0.599	[*A*]R[*R*]is closed only[*A*]integrally	context()	negated: False ,passive: True
 0.561	[*A*]R[*R*]is integrally closed if	context()	negated: False ,passive: False
-[LINE#132]ProofIt is easy to see that M=p(X)Q[X] is a common ideal of R, S and Q[X].
+[LINE#169] ProofIt is easy to see that M=p(X)Q[X] is a common ideal of R, S and Q[X].
 0.904	[*A*]M=p ( X ) Q[*R*]is[*A*]a common ideal of Q	context(ProofIt to see)	negated: False ,passive: True
 0.845	[*A*]ProofIt[*R*]to see[*A*]that M=p ( X ) Q [ X ] is a common ideal of Q	context()	negated: False ,passive: False
 0.915	[*A*]ProofIt[*R*]is[*A*]easy to see that M=p ( X ) Q [ X ] is a common ideal of Q	context()	negated: False ,passive: True
@@ -377,7 +377,7 @@
 0.886	[*A*]M=p ( X ) Q[*R*]is[*A*]a common ideal of R	context(ProofIt to see)	negated: False ,passive: True
 0.845	[*A*]ProofIt[*R*]to see[*A*]that M=p ( X ) Q [ X ] is a common ideal of R	context()	negated: False ,passive: False
 0.915	[*A*]ProofIt[*R*]is[*A*]easy to see that M=p ( X ) Q [ X ] is a common ideal of R	context()	negated: False ,passive: True
-[LINE#133]We have the following diagram:(2)RR/MZ[]SS/MOQ()Q[X]Q[X]/MQ() where the vertical arrows are the natural inclusions and the horizontal arrows are the natural projection, which can be viewed as the evaluation of a polynomial f(X) at  (in fact, the residue class f(X)+M is equal to f()+M).
+[LINE#170] We have the following diagram:(2)RR/MZ[]SS/MOQ()Q[X]Q[X]/MQ() where the vertical arrows are the natural inclusions and the horizontal arrows are the natural projection, which can be viewed as the evaluation of a polynomial f(X) at  (in fact, the residue class f(X)+M is equal to f()+M).
 0.967	[*A*]the horizontal arrows[*R*]are[*A*]RR / MZ [ ] SS / MOQ ( ) Q [ X ] Q [ X ] / MQ ( ) where the vertical arrows are the horizontal arrows are the natural projection , which can be viewed as the evaluation of a polynomial f ( X ) at ( in fact , the residue class f ( X ) +M is equal to f ( ) +M )	context()	negated: False ,passive: True
 0.614	[*A*]We[*R*]have[*A*]the following diagram : ( 2 ) RR / MZ [ ] SS / MOQ ( ) Q [ X ] Q [ X ] / MQ ( ) where the vertical arrows are the horizontal arrows are the natural projection	context()	negated: False ,passive: False
 0.385	[*A*]the residue class f ( X ) +M[*R*]is equal to[*A*]f	context()	negated: False ,passive: False
@@ -386,287 +386,287 @@
 0.751	[*A*]the vertical arrows[*R*]are	context()	negated: False ,passive: False
 0.957	[*A*]the residue class f ( X ) +M[*R*]is[*A*]equal to f	context()	negated: False ,passive: True
 0.614	[*A*]We[*R*]have[*A*]the following diagram : ( 2 ) RR / MZ [ ] SS / MOQ ( ) Q [ X ] Q [ X ] / MQ ( ) where the vertical arrows are the natural inclusions are the natural projection	context()	negated: False ,passive: False
-[LINE#134]The kernel of the evaluation homomorphism at  at each row is the ideal M.
+[LINE#171] The kernel of the evaluation homomorphism at  at each row is the ideal M.
 0.970	[*A*]The kernel of the evaluation homomorphism at  at each row[*R*]is[*A*]the ideal M.	context()	negated: False ,passive: True
-[LINE#135]Notice that MZ={0}, so that Z injects into the above residue rings.
+[LINE#172] Notice that MZ={0}, so that Z injects into the above residue rings.
 0.858	[*A*]MZ={0[*R*]injects[*A*]into the above residue rings	context()	negated: False ,passive: False
-[LINE#136]Because of that and by Lemma 3.1, R/MR()=Z[] and S/MS()=OK.
-[LINE#137]Thus, by definition, R and S are pullbacks of Q[X].We have to show that R=Z[X]+M.
+[LINE#173] Because of that and by Lemma 3.1, R/MR()=Z[] and S/MS()=OK.
+[LINE#174] Thus, by definition, R and S are pullbacks of Q[X].We have to show that R=Z[X]+M.
 0.234	[*A*]We[*R*]to show[*A*]that R=Z [ X ] +M	context()	negated: False ,passive: False
-[LINE#138]The containment () is straightforward.
+[LINE#175] The containment () is straightforward.
 0.786	[*A*]The containment[*R*]is[*A*]straightforward	context()	negated: False ,passive: True
-[LINE#139]f(X)=g(X)/d, for some gZ[X] and dZ{0}.
-[LINE#140]Then g(X)=q(X)p(X)+r(X), for some q,rZ[X], deg(r)<n.
-[LINE#141],n-1 is a free Z-basis of the Z-module Z[].
+[LINE#176] f(X)=g(X)/d, for some gZ[X] and dZ{0}.
+[LINE#177] Then g(X)=q(X)p(X)+r(X), for some q,rZ[X], deg(r)<n.
+[LINE#178] ,n-1 is a free Z-basis of the Z-module Z[].
 0.656	[*A*]n-1[*R*]is[*A*]a free Z-basis of the Z-module Z	context()	negated: False ,passive: True
-[LINE#142] This means that, if r()=i=0,,n-1aii, for some a0,,an-1Z, then d divides ai for all i, so.
+[LINE#179]  This means that, if r()=i=0,,n-1aii, for some a0,,an-1Z, then d divides ai for all i, so.
 0.865	[*A*]if r()=i=0,,n-1aii, for some a0[*R*]divides ai[*A*]for all	context(This means)	negated: False ,passive: True
 0.135	[*A*]This[*R*]means[*A*]that, if r()=i=0,,n-1aii, for some a0,,an-1Z, then d divides ai for all i, so	context()	negated: False ,passive: False
-[LINE#143]Finally, since OQ() is the integral closure of Z[], we apply [5, Theorem 1.2] to our pullback diagram to conclude that S is the integral closure of R and R is integrally closed if and only if Z[]=OQ().
+[LINE#180] Finally, since OQ() is the integral closure of Z[], we apply [5, Theorem 1.2] to our pullback diagram to conclude that S is the integral closure of R and R is integrally closed if and only if Z[]=OQ().
 0.999	[*A*]we[*R*]apply[*A*]5	context()	negated: False ,passive: False
 0.821	[*A*]S[*R*]is is integrally closed if[*A*]the integral closure of R and R	context(Theorem 1.2 to conclude)	negated: False ,passive: True
 0.858	[*A*]Theorem 1.2[*R*]to conclude[*A*]that S is the integral closure of R and R is integrally closed if	context()	negated: False ,passive: False
 0.594	[*A*]S[*R*]is integrally closed if	context()	negated: False ,passive: False
 0.400	[*A*]we[*R*]apply[*A*]to our pullback diagram[*A*]Finally	context()	negated: False ,passive: False
 0.888	[*A*]OQ[*R*]is[*A*]the integral closure of Z	context()	negated: False ,passive: True
-[LINE#144]Finally, in a pullback diagram like in (2) (see for instance [5, Corollary 4.2]), S is a Prfer domain because Q[X] and OQ() are Prfer domains (indeed, they are Dedekind domains).
+[LINE#181] Finally, in a pullback diagram like in (2) (see for instance [5, Corollary 4.2]), S is a Prfer domain because Q[X] and OQ() are Prfer domains (indeed, they are Dedekind domains).
 0.848	[*A*]S[*R*]is[*A*]a Prfer domain[*A*]because OQ ( ) are Prfer domains ( indeed	context(they are)	negated: False ,passive: True
 0.833	[*A*]OQ[*R*]are[*A*]Prfer domains ( indeed	context()	negated: False ,passive: True
 0.899	[*A*]S[*R*]is[*A*]a Prfer domain[*A*]because Q [ X ] are Prfer domains ( indeed	context(they are)	negated: False ,passive: True
 0.607	[*A*]they[*R*]are[*A*]Dedekind domains	context()	negated: False ,passive: True
 0.857	[*A*]Q[*R*]are[*A*]Prfer domains ( indeed	context()	negated: False ,passive: True
-[LINE#145]Notice that, for the same result, if Z[]OK, R cannot be Prfer, since in this case Z[] is not integrally closed.
+[LINE#182] Notice that, for the same result, if Z[]OK, R cannot be Prfer, since in this case Z[] is not integrally closed.
 0.836	[*A*]R[*R*]can not be is not integrally closed[*A*]Prfer	context()	negated: True ,passive: True
-[LINE#146]We now consider an arbitrary set A of algebraic integers of bounded degree and the corresponding intersections of the rings R and S, for A, respectively.
+[LINE#183] We now consider an arbitrary set A of algebraic integers of bounded degree and the corresponding intersections of the rings R and S, for A, respectively.
 0.599	[*A*]We[*R*]consider[*A*]the corresponding intersections of S , for A[*A*]now	context()	negated: False ,passive: False
 0.666	[*A*]We[*R*]consider[*A*]the corresponding intersections of the rings R , for A[*A*]now	context()	negated: False ,passive: False
 0.305	[*A*]We[*R*]consider respectively[*A*]now	context()	negated: False ,passive: False
 0.666	[*A*]We[*R*]consider[*A*]an arbitrary set A of algebraic integers of bounded degree[*A*]now	context()	negated: False ,passive: False
-[LINE#147]We recall from the introduction that for each positive integer n, An denotes the set of algebraic integers of degree bounded by n and An the subset of An of those algebraic integers of degree equal to n. Definition 3.2Given a subset A of An, we setRAARSAAS.
+[LINE#184] We recall from the introduction that for each positive integer n, An denotes the set of algebraic integers of degree bounded by n and An the subset of An of those algebraic integers of degree equal to n. Definition 3.2Given a subset A of An, we setRAARSAAS.
 0.204	[*A*]we[*R*]setRAARSAAS	context()	negated: False ,passive: False
 0.195	[*A*]We[*R*]recall	context()	negated: False ,passive: False
-[LINE#148]Remark 3.1Notice that, for all AAn we have Z[X]RASAQ[X], so that RA and SA are Z[X]-algebras.
+[LINE#185] Remark 3.1Notice that, for all AAn we have Z[X]RASAQ[X], so that RA and SA are Z[X]-algebras.
 0.877	[*A*]SA[*R*]are[*A*]Z	context()	negated: False ,passive: True
 0.877	[*A*]RA[*R*]are[*A*]Z	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]have[*A*]Z	context()	negated: False ,passive: False
-[LINE#149]For every AAn, we have SAnSA.
+[LINE#186] For every AAn, we have SAnSA.
 0.498	[*A*]we[*R*]have[*A*]SAnSA	context()	negated: False ,passive: False
-[LINE#150] This containment implies that SA is Prfer, since it is an overring of the Prfer ring IntQ(An)=,,n} be the set of conjugates of  over Q.
+[LINE#187+188]  This containment implies that SA is Prfer, since it is an overring of the Prfer ring IntQ(An)=,,n} be the set of conjugates of  over Q.
 0.868	[*A*]SA[*R*]is[*A*]Prfer[*A*]since it is an overring of the Prfer ring IntQ(An)=,,n} be the set of conjugates of  over Q.	context(This containment implies)	negated: False ,passive: True
 0.766	[*A*]This containment[*R*]implies[*A*]that SA is Prfer	context()	negated: False ,passive: False
 0.945	[*A*]the Prfer ring IntQ[*R*]be[*A*]the set of conjugates of	context()	negated: False ,passive: True
 0.678	[*A*]it[*R*]is[*A*]an overring of the Prfer ring IntQ(An)=,,n} be the set of conjugates of	context()	negated: False ,passive: True
-[LINE#151] If we consider the action of the Galois group of Q(1,,n) over Q, it is easy to see that Ri=.
+[LINE#189]  If we consider the action of the Galois group of Q(1,,n) over Q, it is easy to see that Ri=.
 0.614	[*A*]we[*R*]consider[*A*]the action of the Galois group of Q(1,,n) over Q	context()	negated: False ,passive: False
-[LINE#152]In particular, S=SA and R=RA.
-[LINE#153]Given an algebraic integer  of degree mn, it is easy to see that the following equality holds:S=IntQ({},An){fQ[X]|f()An}.
-[LINE#154]It follows that, for any AAn, we have SA=IntQ(A,An)={fQ[X]|f(A)An}.
-[LINE#155]In the same way, as we remarked in the introduction, SA=IntQ(A,A).
+[LINE#190] In particular, S=SA and R=RA.
+[LINE#191] Given an algebraic integer  of degree mn, it is easy to see that the following equality holds:S=IntQ({},An){fQ[X]|f()An}.
+[LINE#192] It follows that, for any AAn, we have SA=IntQ(A,An)={fQ[X]|f(A)An}.
+[LINE#193] In the same way, as we remarked in the introduction, SA=IntQ(A,A).
 0.452	[*A*]we[*R*]remarked[*A*]in the introduction	context()	negated: False ,passive: False
-[LINE#156] From this fact it follows that the ring SA is integrally closed by [1, Proposition IV.4.1], since SA is the contraction to Q(X) of an integrally closed subring of Q(X).In particular, we have(3)SAn=.
+[LINE#194]  From this fact it follows that the ring SA is integrally closed by [1, Proposition IV.4.1], since SA is the contraction to Q(X) of an integrally closed subring of Q(X).In particular, we have(3)SAn=.
 0.954	[*A*]the ring SA[*R*]is integrally closed[*A*]by [1, Proposition IV.4.1[*A*]since SA is the contraction to Q(X) of an integrally closed subring of Q	context(it follows)	negated: False ,passive: True
 0.309	[*A*]it[*R*]follows[*A*]that the ring SA is integrally closed by [1, Proposition IV.4.1	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]have[*A*]SAn=	context()	negated: False ,passive: False
 0.938	[*A*]SA[*R*]is[*A*]the contraction to Q(X) of an integrally closed subring of Q	context()	negated: False ,passive: True
-[LINE#157] This is another representation of the rings IntQ(An) as an intersection of the rings.
+[LINE#195+196]  This is another representation of the rings IntQ(An) as an intersection of the rings.
 0.612	[*A*]This[*R*]is[*A*]another representation of the rings IntQ(An) as an intersection of the rings	context()	negated: False ,passive: True
-[LINE#158] In the same way, given a number field K, [K:.
-[LINE#159]Q]n, we haveIntQ(OK)=IntQ(OK,An)=SOK.So for all number fields K, the ring IntQ(OK) can be represented as an intersection of the rings S, OK.
+[LINE#197]  In the same way, given a number field K, [K:.
+[LINE#198] Q]n, we haveIntQ(OK)=IntQ(OK,An)=SOK.So for all number fields K, the ring IntQ(OK) can be represented as an intersection of the rings S, OK.
 0.945	[*A*]K, the ring IntQ[*R*]can be represented[*A*]as an intersection of the rings S[*A*]OK	context()	negated: False ,passive: True
 0.703	[*A*]we[*R*]haveIntQ[*A*]OK[*A*]=IntQ(OK,An)=SOK.So for all number fields K, the ring IntQ(OK) can be represented as an intersection of the rings S, OK[*A*]Q]n	context()	negated: False ,passive: False
-[LINE#160] Actually, by Theorem 2.1 we can restrict the intersection to the algebraic integers of K of degree.
+[LINE#199]  Actually, by Theorem 2.1 we can restrict the intersection to the algebraic integers of K of degree.
 0.498	[*A*]we[*R*]can restrict[*A*]the intersection[*A*]to the algebraic integers of K of degree	context()	negated: False ,passive: False
-[LINE#161]In most cases, we can even consider the intersection on strictly smaller subsets of algebraic integers which are polynomially dense in OK (see Proposition 2.1).
+[LINE#200] In most cases, we can even consider the intersection on strictly smaller subsets of algebraic integers which are polynomially dense in OK (see Proposition 2.1).
 0.905	[*A*]algebraic integers[*R*]are[*A*]polynomially[*A*]dense[*A*]in OK	context()	negated: False ,passive: True
 0.350	[*A*]we[*R*]can consider[*A*]the intersection	context()	negated: False ,passive: False
-[LINE#162] Q]=nOK,n (the union is over the family of number fields of degree n over Q).
-[LINE#163] By the above observation that SOK,n.
-[LINE#164] This representation for IntQ(An,An) is similar to the representation for IntQ(An) in (1)(notice that this intersection is over all the number fields K of degree equal to n, while in (1) the intersection is taken over all the number fields of degree less than or equal to n).
+[LINE#201]  Q]=nOK,n (the union is over the family of number fields of degree n over Q).
+[LINE#202]  By the above observation that SOK,n.
+[LINE#203+204]  This representation for IntQ(An,An) is similar to the representation for IntQ(An) in (1)(notice that this intersection is over all the number fields K of degree equal to n, while in (1) the intersection is taken over all the number fields of degree less than or equal to n).
 0.761	[*A*]the intersection[*R*]is taken less[*A*]in (1	context()	negated: False ,passive: True
 0.925	[*A*]this intersection[*R*]is[*A*]over all the number fields	context()	negated: False ,passive: True
 0.971	[*A*]This representation for IntQ[*R*]is[*A*]similar to the representation for IntQ(An) in	context()	negated: False ,passive: True
-[LINE#165]In particular, the equality in (4) shows that An is not polynomially closed in An.
+[LINE#205] In particular, the equality in (4) shows that An is not polynomially closed in An.
 0.845	[*A*]An[*R*]is not polynomially closed[*A*]in An	context(the equality in shows)	negated: True ,passive: True
 0.796	[*A*]the equality in[*R*]shows[*A*]that An is not polynomially closed in An	context()	negated: False ,passive: False
-[LINE#166] More precisely, given a polynomial fQ[X] which is integral-valued over the set of all the algebraic integers of degree n, it follows that f(X) is integral-valued over the ring of integers of every number field of degree.
+[LINE#206]  More precisely, given a polynomial fQ[X] which is integral-valued over the set of all the algebraic integers of degree n, it follows that f(X) is integral-valued over the ring of integers of every number field of degree.
 0.802	[*A*]a polynomial fQ[*R*]is[*A*]integral-valued	context()	negated: False ,passive: True
-[LINE#167]We notice that from (4) we have Theorem 1.2 for n=2.
+[LINE#207] We notice that from (4) we have Theorem 1.2 for n=2.
 0.586	[*A*]we[*R*]have[*A*]Theorem 1.2[*A*]from (4	context(We notice)	negated: False ,passive: False
 0.202	[*A*]We[*R*]notice[*A*]that from (4) we have Theorem 1.2 for n=2	context()	negated: False ,passive: False
-[LINE#168] However, this not prove Theorem 1.2 in general, because the algebraic integers of a number field of degree n have degree which divides n (for example, if n=3 then OK=.
+[LINE#208]  However, this not prove Theorem 1.2 in general, because the algebraic integers of a number field of degree n have degree which divides n (for example, if n=3 then OK=.
 0.856	[*A*]degree[*R*]divides n[*A*]for example	context()	negated: False ,passive: True
 0.972	[*A*]the algebraic integers of a number field of degree[*R*]n have[*A*]degree which divides n (for example, if n=3 then OK=	context()	negated: False ,passive: False
 0.543	[*A*]this[*R*]not prove[*A*]Theorem 1.2[*A*]in general[*A*]because the algebraic integers of a number field of degree n have degree	context()	negated: True ,passive: False
-[LINE#169]OK,3Z, no algebraic integers of degree 2 can be in OK).We give now a generalization of the last statement of Proposition 3.1.
+[LINE#209] OK,3Z, no algebraic integers of degree 2 can be in OK).We give now a generalization of the last statement of Proposition 3.1.
 0.822	[*A*]3Z[*R*]can be[*A*]in OK	context(We give)	negated: False ,passive: True
 0.433	[*A*]We[*R*]give[*A*]now[*A*]a generalization of the last statement of Proposition 3.1	context()	negated: False ,passive: False
-[LINE#170] The next theorem shows that, given any subset A of algebraic integers of degree bounded by n, the integral closure of RA is SA, so,by Proposition 3.1, we can say that the integral closure of the intersection of the rings R,  in A, is equal to the intersection of their integral closures S.
+[LINE#210+211]  The next theorem shows that, given any subset A of algebraic integers of degree bounded by n, the integral closure of RA is SA, so,by Proposition 3.1, we can say that the integral closure of the intersection of the rings R,  in A, is equal to the intersection of their integral closures S.
 0.944	[*A*]the integral closure of the intersection of the rings R[*R*]is[*A*]equal to the intersection of their integral closures[*A*]in A	context(we can say)	negated: False ,passive: True
 0.954	[*A*]the integral closure of RA[*R*]is[*A*]SA	context(The next theorem shows we can say)	negated: False ,passive: True
 0.881	[*A*]The next theorem[*R*]shows[*A*]that, given any subset A of algebraic integers of degree bounded by n, the integral closure of RA is SA	context(we can say)	negated: False ,passive: False
 0.195	[*A*]we[*R*]can say[*A*]that the integral closure of the intersection of the rings R,  in A, is equal to the intersection of their integral closures S.	context()	negated: False ,passive: False
-[LINE#171], SA is the integral closure of RA.The proof of Theorem 3.1 follows by the argument given in [8] to show that the integral closure of Int(Mn(Z)) is IntQ(An).
+[LINE#212] , SA is the integral closure of RA.The proof of Theorem 3.1 follows by the argument given in [8] to show that the integral closure of Int(Mn(Z)) is IntQ(An).
 0.883	[*A*]SA[*R*]is[*A*]the integral closure of RA.The proof of Theorem 3.1	context(SA is the integral closure of RA.The proof of Theorem 3.1 follows)	negated: False ,passive: True
 0.785	[*A*]SA is the integral closure of RA.The proof of Theorem 3.1[*R*]follows	context()	negated: False ,passive: False
 0.767	[*A*]the argument[*R*]given[*A*]in [8	context()	negated: False ,passive: True
-[LINE#172]such that cRA[f]RA.The lemma says that every element of SA is almost integral over RA, that is, SA is contained in the complete integral closure of RA (remember that both have the same quotient field Q(X)).
+[LINE#213] such that cRA[f]RA.The lemma says that every element of SA is almost integral over RA, that is, SA is contained in the complete integral closure of RA (remember that both have the same quotient field Q(X)).
 0.951	[*A*]every element of SA[*R*]is[*A*]almost integral over RA	context(cRA says)	negated: False ,passive: True
 0.738	[*A*]cRA[*R*]says[*A*]that every element of SA is almost integral over RA	context()	negated: False ,passive: False
-[LINE#173]In particular, we also have cZ[f]RA.
+[LINE#214] In particular, we also have cZ[f]RA.
 0.456	[*A*]we[*R*]have[*A*]cZ[f]RA	context()	negated: False ,passive: False
-[LINE#174] ProofIt is sufficient to show that there exists a non-zero cZsuch that for every iN, cf(X)iRA.
+[LINE#215+216]  ProofIt is sufficient to show that there exists a non-zero cZsuch that for every iN, cf(X)iRA.
 0.748	[*A*]ProofIt[*R*]to show[*A*]that there exists a non-zero cZsuch that for every iN, cf(X)iRA	context()	negated: False ,passive: False
 0.853	[*A*]ProofIt[*R*]is[*A*]sufficient to show that there exists a non-zero cZsuch that for every iN, cf(X)iRA	context()	negated: False ,passive: True
-[LINE#175]We know that f()OQ(), so there exists a monic polynomial mZ[X] of degree n such that m(f())=0.
+[LINE#217] We know that f()OQ(), so there exists a monic polynomial mZ[X] of degree n such that m(f())=0.
 0.243	[*A*]We[*R*]know	context()	negated: False ,passive: False
-[LINE#176] For all A we haveXi=q,i(X)m(X)+r,i(X) for some q,i,r,iZ[X], r,i(X)=0 or deg(r.
+[LINE#218]  For all A we haveXi=q,i(X)m(X)+r,i(X) for some q,i,r,iZ[X], r,i(X)=0 or deg(r.
 0.195	[*A*]we[*R*]haveXi=q	context()	negated: False ,passive: False
-[LINE#177] Since there is a uniform bound on the degree of the polynomials r,i(X), for A and iN, cf()iZ[] for some cZ (actually, we can take c=dn-1, where d is a common denominator of the coefficients of f(X)).
+[LINE#219+220]  Since there is a uniform bound on the degree of the polynomials r,i(X), for A and iN, cf()iZ[] for some cZ (actually, we can take c=dn-1, where d is a common denominator of the coefficients of f(X)).
 0.852	[*A*]d[*R*]is[*A*]a common denominator of the coefficients of f	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]can take[*A*]c=dn-1	context()	negated: False ,passive: False
 0.903	[*A*]a uniform[*R*]bound[*A*]on the degree of the polynomials r	context()	negated: False ,passive: True
-[LINE#178]Notice that c does not depend on i.
+[LINE#221] Notice that c does not depend on i.
 0.605	[*A*]c[*R*]does not depend[*A*]on	context()	negated: True ,passive: False
-[LINE#179]It follows that cf(X)iRA for all iN.
+[LINE#222] It follows that cf(X)iRA for all iN.
 0.266	[*A*]It[*R*]follows[*A*]that cf(X)iRA for all iN	context()	negated: False ,passive: False
-[LINE#180]The following proposition will prove Theorem 3.1, since SA is integrally closed by Remark 3.1.
+[LINE#223] The following proposition will prove Theorem 3.1, since SA is integrally closed by Remark 3.1.
 0.877	[*A*]SA[*R*]is integrally closed[*A*]by Remark 3.1	context()	negated: False ,passive: True
 0.925	[*A*]The following proposition[*R*]will prove[*A*]Theorem 3.1[*A*]since SA is integrally closed by Remark 3.1	context()	negated: False ,passive: False
-[LINE#181]every AAn, RASA is an integral ring extension.
+[LINE#224] every AAn, RASA is an integral ring extension.
 0.938	[*A*]RASA[*R*]is[*A*]an integral ring extension	context()	negated: False ,passive: True
-[LINE#182]ProofLet fSA and let cZ as in Lemma 3.2.
-[LINE#183] We show that there exists a monic Z[X] such that (f(X))RA.By hypothesis, for each A there exists mZ[X]monic of degree n such that m(f())=0.
+[LINE#225] ProofLet fSA and let cZ as in Lemma 3.2.
+[LINE#226+227+228]  We show that there exists a monic Z[X] such that (f(X))RA.By hypothesis, for each A there exists mZ[X]monic of degree n such that m(f())=0.
 0.148	[*A*]We[*R*]show[*A*]that there exists a monic Z	context()	negated: False ,passive: False
 0.732	[*A*]each A[*R*]there exists	context()	negated: False ,passive: False
-[LINE#184] Let S be a set of monic representatives in Z[X] of all the degree n monic polynomials in the quotient ring (Z/c2Z)[X] and let (X)=iSi(X)Z[X].
-[LINE#185] For each A there exists i=i().
-[LINE#186]Let =i where  is the product of the remaining j in S.
+[LINE#229]  Let S be a set of monic representatives in Z[X] of all the degree n monic polynomials in the quotient ring (Z/c2Z)[X] and let (X)=iSi(X)Z[X].
+[LINE#230]  For each A there exists i=i().
+[LINE#231] Let =i where  is the product of the remaining j in S.
 0.888	[*A*]=i[*R*]is[*A*]the product of the remaining j in S.	context()	negated: False ,passive: True
-[LINE#187] we have(f())=c2r(f())(f()).
+[LINE#232]  we have(f())=c2r(f())(f()).
 0.407	[*A*]we[*R*]have[*A*]=c2r	context()	negated: False ,passive: False
-[LINE#188]By the previous lemma (f()) is in Z[], and this holds for any A ( is independent of ).
+[LINE#233] By the previous lemma (f()) is in Z[], and this holds for any A ( is independent of ).
 0.495	[*A*]this[*R*]holds[*A*]for any A	context()	negated: False ,passive: False
-[LINE#189]Hence, (f(X))RA.  Remark 3.3We conclude this section with a remark.
+[LINE#234] Hence, (f(X))RA.  Remark 3.3We conclude this section with a remark.
 0.961	[*A*]f(X))RA.  Remark 3.3We[*R*]conclude[*A*]this section	context()	negated: False ,passive: False
-[LINE#190]The ring RA is integrally closed if and only if it is a Prfer domain, because its integral closure SA is always a Prfer domain.
+[LINE#235] The ring RA is integrally closed if and only if it is a Prfer domain, because its integral closure SA is always a Prfer domain.
 0.724	[*A*]its integral closure[*R*]is[*A*]always[*A*]a Prfer domain	context()	negated: False ,passive: True
 0.811	[*A*]The ring[*R*]is integrally closed if[*A*]only if it is a Prfer domain	context()	negated: False ,passive: True
-[LINE#191]If this holds, then all the overrings R of RA, for A, are integrally closed.
+[LINE#236] If this holds, then all the overrings R of RA, for A, are integrally closed.
 0.844	[*A*]then all the overrings R of RA, for A[*R*]are integrally closed	context(this holds)	negated: False ,passive: False
 0.161	[*A*]this[*R*]holds	context()	negated: False ,passive: False
-[LINE#192]By Proposition 3.1 this holds if and only if Z[]=OQ() for each such s.
+[LINE#237] By Proposition 3.1 this holds if and only if Z[]=OQ() for each such s.
 0.612	[*A*]this[*R*]holds[*A*]only[*A*]if Z [ ] =OQ ( ) for each such	context()	negated: False ,passive: False
 0.153	[*A*]this[*R*]holds if	context()	negated: False ,passive: False
-[LINE#193]If the last condition holds, clearly RA=SA.
+[LINE#238] If the last condition holds, clearly RA=SA.
 0.932	[*A*]the last condition[*R*]holds[*A*]clearly RA=SA	context()	negated: False ,passive: False
-[LINE#194]integrally closed if and only ifAAn, where An{An|Z[]=OQ()}.
-[LINE#195] If AOK,n, where K is a given number field,next subsection gives a connection between ring of integral-valued polynomials over algebraic integers and rings of integer-valued polynomials over integral matrices..
+[LINE#239] integrally closed if and only ifAAn, where An{An|Z[]=OQ()}.
+[LINE#240+241]  If AOK,n, where K is a given number field,next subsection gives a connection between ring of integral-valued polynomials over algebraic integers and rings of integer-valued polynomials over integral matrices..
 0.937	[*A*]next subsection[*R*]gives[*A*]a connection between ring of integral-valued polynomials over algebraic integers and rings of integer-valued polynomials over integral matrices	context()	negated: False ,passive: False
 0.864	[*A*]AOK[*R*]n where is[*A*]a given number field	context()	negated: False ,passive: True
-[LINE#196]-valued polynomials over matricesWe recall some results from [10].
+[LINE#242] -valued polynomials over matricesWe recall some results from [10].
 0.944	[*A*]-valued polynomials over matricesWe[*R*]recall[*A*]some results from [10	context()	negated: False ,passive: False
-[LINE#197]Given a subset M of Mn(Z), we consider the ring of polynomials which are integer-valued over M:Int(M,Mn(Z)){fQ[X]|f(M)Mn(Z),MM}.
+[LINE#243] Given a subset M of Mn(Z), we consider the ring of polynomials which are integer-valued over M:Int(M,Mn(Z)){fQ[X]|f(M)Mn(Z),MM}.
 0.877	[*A*]polynomials[*R*]are[*A*]integer-valued over M	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]consider[*A*]the ring of polynomials	context()	negated: False ,passive: False
-[LINE#198]Let Pn be the set of monic polynomials in Z[X] of degree n.
-[LINE#199] For a subset P of Pn we denote by MnP(Z)the subset of Mn(Z) of those matrices whose characteristic polynomial is in P.
+[LINE#244] Let Pn be the set of monic polynomials in Z[X] of degree n.
+[LINE#245+246]  For a subset P of Pn we denote by MnP(Z)the subset of Mn(Z) of those matrices whose characteristic polynomial is in P.
 0.926	[*A*]those matrices[*R*]is[*A*]in P.	context()	negated: False ,passive: True
 0.639	[*A*]we[*R*]denote[*A*]by MnP[*A*]For a subset P of Pn	context()	negated: False ,passive: False
-[LINE#200]If P={p(X)}, we set Mnp(Z)=MnP(Z); this is the set of matrices whose characteristic polynomial is equal to p(X).
+[LINE#247] If P={p(X)}, we set Mnp(Z)=MnP(Z); this is the set of matrices whose characteristic polynomial is equal to p(X).
 0.385	[*A*]whose characteristic polynomial[*R*]is equal to[*A*]p	context()	negated: False ,passive: False
 0.905	[*A*]matrices[*R*]is[*A*]equal to p	context()	negated: False ,passive: True
 0.449	[*A*]this[*R*]is[*A*]the set of matrices	context()	negated: False ,passive: True
 0.568	[*A*]we[*R*]set[*A*]Mnp	context()	negated: False ,passive: False
-[LINE#201]For a generic PPn, since MnP(Z)=pPMnp(Z) we have(5)Int(MnP(Z),Mn(Z))=pPInt(Mnp(Z),Mn(Z)).
+[LINE#248] For a generic PPn, since MnP(Z)=pPMnp(Z) we have(5)Int(MnP(Z),Mn(Z))=pPInt(Mnp(Z),Mn(Z)).
 0.596	[*A*]we[*R*]have[*A*]For a generic PPn	context()	negated: False ,passive: False
-[LINE#202] We recall that, by [10, Lemma 2.2 and Remark 2.1], for every pPnwe have(6)Int(Mnp(Z),Mn(Z))=Z[X]+p(X)Q[X].
+[LINE#249+250]  We recall that, by [10, Lemma 2.2 and Remark 2.1], for every pPnwe have(6)Int(Mnp(Z),Mn(Z))=Z[X]+p(X)Q[X].
 0.096	[*A*]We[*R*]recall[*A*]that	context()	negated: False ,passive: False
-[LINE#203]In this way, by (5) above, every ring of integer-valued polynomial over matrices with prescribed characteristic polynomial can be represented as an intersection of pullbacks of Q[X] of the above kind.
+[LINE#251] In this way, by (5) above, every ring of integer-valued polynomial over matrices with prescribed characteristic polynomial can be represented as an intersection of pullbacks of Q[X] of the above kind.
 0.989	[*A*]every ring of integer-valued polynomial over matrices with prescribed characteristic polynomial[*R*]can be represented[*A*]as an intersection of pullbacks of Q[X] of the above kind[*A*]by (5) above	context()	negated: False ,passive: True
-[LINE#204] By Proposition 3.1 and (6) we have the following corollary, which establishes the connection between rings of integer-valued polynomials over matrices and rings of integral-valued polynomials over algebraic integers:.
+[LINE#252]  By Proposition 3.1 and (6) we have the following corollary, which establishes the connection between rings of integer-valued polynomials over matrices and rings of integral-valued polynomials over algebraic integers:.
 0.702	[*A*]we[*R*]have[*A*]the following corollary , which establishes the connection between rings of integer - valued polynomials over matrices and rings of integral - valued polynomials over algebraic integers:.[*A*]By ( 6	context()	negated: False ,passive: False
 0.933	[*A*]the following corollary[*R*]establishes[*A*]the connection between rings of integer - valued polynomials over matrices and rings of integral - valued polynomials over algebraic integers:.	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]have[*A*]the following corollary , which establishes the connection between rings of integer - valued polynomials over matrices and rings of integral - valued polynomials over algebraic integers:.	context()	negated: False ,passive: False
-[LINE#205] Corollary 3.1Let  be an algebraic integer of degree n over Z and pZ[X].
+[LINE#253]  Corollary 3.1Let  be an algebraic integer of degree n over Z and pZ[X].
 0.937	[*A*]Corollary 3.1Let[*R*]be[*A*]an algebraic integer of degree n over pZ	context()	negated: False ,passive: True
 0.937	[*A*]Corollary 3.1Let[*R*]be[*A*]an algebraic integer of degree n over Z	context()	negated: False ,passive: True
-[LINE#206]ThenIntQ({},Z[])=Int(Mnp(Z),Mn(Z))=Z[X]+p(X)Q[X].
-[LINE#207] Remark 3.4Immediately from (6) and by the Cayley-Hamilton theorem, for every MMnp(Z) the evaluation of any fInt(Mnp(Z),Mn(Z))on M is a matrix in the Z-algebra Z[M].
-[LINE#208]Since Z[X] is obviously a subring of Int(Mnp(Z),Mn(Z)), we have:Int(Mnp(Z),Mn(Z))(M)={f(M)|fInt(Mnp(Z),Mn(Z))}=Z[M].
+[LINE#254] ThenIntQ({},Z[])=Int(Mnp(Z),Mn(Z))=Z[X]+p(X)Q[X].
+[LINE#255+256+257]  Remark 3.4Immediately from (6) and by the Cayley-Hamilton theorem, for every MMnp(Z) the evaluation of any fInt(Mnp(Z),Mn(Z))on M is a matrix in the Z-algebra Z[M].
+[LINE#258] Since Z[X] is obviously a subring of Int(Mnp(Z),Mn(Z)), we have:Int(Mnp(Z),Mn(Z))(M)={f(M)|fInt(Mnp(Z),Mn(Z))}=Z[M].
 0.888	[*A*]Z[*R*]is[*A*]obviously[*A*]a subring of Int	context()	negated: False ,passive: True
-[LINE#209]This result is a generalization of [3, Theorem 6.4] (indeed, it holds over any integral domain D).
+[LINE#259] This result is a generalization of [3, Theorem 6.4] (indeed, it holds over any integral domain D).
 0.905	[*A*]This result[*R*]is[*A*]a generalization of [3	context(it holds)	negated: False ,passive: True
 0.198	[*A*]it[*R*]holds	context()	negated: False ,passive: False
-[LINE#210]Let Cp be the companion matrix of p(X).
-[LINE#211]By [10, Lemma 2.2] we have Int(Mnp(Z),Mn(Z))=Int({Cp},Mn(Z)).
+[LINE#260] Let Cp be the companion matrix of p(X).
+[LINE#261] By [10, Lemma 2.2] we have Int(Mnp(Z),Mn(Z))=Int({Cp},Mn(Z)).
 0.740	[*A*]we[*R*]have[*A*]Int(Mnp(Z),Mn(Z))=Int[*A*]By [10	context()	negated: False ,passive: False
-[LINE#212]By the previous equality we haveInt({Cp},Mn(Z))=Int({Cp},Z[Cp]){fQ[X]|f(Cp)Z[Cp]}.
+[LINE#262] By the previous equality we haveInt({Cp},Mn(Z))=Int({Cp},Z[Cp]){fQ[X]|f(Cp)Z[Cp]}.
 0.452	[*A*]we[*R*]haveInt[*A*]Cp},Mn(Z))=Int	context()	negated: False ,passive: False
-[LINE#213] If we put together Corollary 3.1 and the previous equality we have(7)IntQ({},Z[])=Int({Cp},Z[Cp]).
+[LINE#263]  If we put together Corollary 3.1 and the previous equality we have(7)IntQ({},Z[])=Int({Cp},Z[Cp]).
 0.894	[*A*]the previous equality[*R*]have[*A*]we	context()	negated: False ,passive: True
 0.372	[*A*]we[*R*]put[*A*]together[*A*]the previous equality we have	context()	negated: False ,passive: False
 0.999	[*A*]we[*R*]have[*A*]7	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]have[*A*]IntQ	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]put together[*A*]Corollary 3.1	context()	negated: False ,passive: False
-[LINE#214]In the same way, we can prove that IntQ(Z[])=Int(Z[Cp]).
+[LINE#264] In the same way, we can prove that IntQ(Z[])=Int(Z[Cp]).
 0.452	[*A*]we[*R*]can prove[*A*]IntQ(Z[])=Int	context()	negated: False ,passive: False
-[LINE#215][3, Proposition 6.2] and [4] we have(8)Int(Mn(Z))=Int(Mnirr(Z),Mn(Z)), where Mnirr(Z) is the set of matrices with irreducible characteristic polynomial.
+[LINE#265] [3, Proposition 6.2] and [4] we have(8)Int(Mn(Z))=Int(Mnirr(Z),Mn(Z)), where Mnirr(Z) is the set of matrices with irreducible characteristic polynomial.
 0.889	[*A*]Mnirr ( Z[*R*]is[*A*]the set of matrices with irreducible characteristic polynomial	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]have[*A*]=Int ( Mnirr ( Z ) , Mn	context()	negated: False ,passive: False
 0.869	[*A*]Mnirr[*R*]is[*A*]the set of matrices with irreducible characteristic polynomial	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]have[*A*]Int ( Mn ( Z ) ) =Int	context()	negated: False ,passive: False
-[LINE#216]Let Pnirr be the subset of Pn of irreducible polynomials.
-[LINE#217] We can make a partition of Pnirr according to which number field of degree n a polynomial pPnirr has a root:.
+[LINE#266] Let Pnirr be the subset of Pn of irreducible polynomials.
+[LINE#267]  We can make a partition of Pnirr according to which number field of degree n a polynomial pPnirr has a root:.
 0.878	[*A*]n a polynomial pPnirr[*R*]has[*A*]a root:.	context()	negated: False ,passive: False
 0.614	[*A*]We[*R*]can make[*A*]a partition of Pnirr[*A*]according to which number field of degree n a polynomial pPnirr has a root:.	context()	negated: False ,passive: False
-[LINE#218] Pnirr=[K:Q]=nPnK where the union is taken over the set of all number fields K of degree n and PnK is the set of minimal polynomials of algebraic integers of OK of maximal degree n. Notice ,K we have KQ[X]/(p(X))Q(), where  is a root of p(X)(in particular,  is an algebraic integer of K).
+[LINE#268+269+270]  Pnirr=[K:Q]=nPnK where the union is taken over the set of all number fields K of degree n and PnK is the set of minimal polynomials of algebraic integers of OK of maximal degree n. Notice ,K we have KQ[X]/(p(X))Q(), where  is a root of p(X)(in particular,  is an algebraic integer of K).
 0.949	[*A*]KQ [ X ] / ( p ( X ) ) Q[*R*]is[*A*]an algebraic integer of K	context(we have)	negated: False ,passive: True
 0.930	[*A*]Pnirr= PnK[*R*]is[*A*]the set of minimal polynomials of algebraic integers of OK of maximal degree n. Notice	context(we have)	negated: False ,passive: True
 0.949	[*A*]KQ [ X ] / ( p ( X ) ) Q[*R*]is[*A*]an algebraic integer of K	context(we have)	negated: False ,passive: True
 0.960	[*A*]K of degree[*R*]is[*A*]the set of minimal polynomials of algebraic integers of OK of maximal degree n. Notice	context(we have)	negated: False ,passive: True
 0.162	[*A*]we[*R*]have	context()	negated: False ,passive: False
-[LINE#219]To ease the notation, we set MnPnK(Z)=MnK(Z).
+[LINE#271] To ease the notation, we set MnPnK(Z)=MnK(Z).
 0.503	[*A*]we[*R*]set[*A*]MnPnK	context()	negated: False ,passive: False
-[LINE#220]This is the set of matrices whose characteristic polynomial is irreducible and has a root in K.
+[LINE#272] This is the set of matrices whose characteristic polynomial is irreducible and has a root in K.
 0.770	[*A*]matrices[*R*]is[*A*]irreducible	context()	negated: False ,passive: True
 0.449	[*A*]This[*R*]is[*A*]the set of matrices	context()	negated: False ,passive: True
-[LINE#221]we have(9)Int(Mn(Z))=[K:Q]=nInt(MnK(Z),Mn(Z)).
+[LINE#273] we have(9)Int(Mn(Z))=[K:Q]=nInt(MnK(Z),Mn(Z)).
 0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
-[LINE#222] We have the following theorem, which resembles Theorem 1.3:.
+[LINE#274]  We have the following theorem, which resembles Theorem 1.3:.
 0.913	[*A*]the following theorem[*R*]resembles[*A*]Theorem 1.3	context()	negated: False ,passive: True
 0.498	[*A*]We[*R*]have[*A*]the following theorem, which resembles Theorem 1.3	context()	negated: False ,passive: False
-[LINE#223] Theorem 3.2For a given number field K, the ring Int(MnK(Z),Mn(Z)) is not integrally closed and its integral closure is.
+[LINE#275+276]  Theorem 3.2For a given number field K, the ring Int(MnK(Z),Mn(Z)) is not integrally closed and its integral closure is.
 0.431	[*A*]its integral closure[*R*]is	context()	negated: False ,passive: False
 0.776	[*A*]the ring Int[*R*]integrally closed	context()	negated: True ,passive: False
 0.806	[*A*]the ring Int[*R*]is not[*A*]integrally closed	context()	negated: True ,passive: True
-[LINE#224]IntQ(OK).We prove Theorems 1.2 and 3.2 together in the next and final subsection. .
+[LINE#277] IntQ(OK).We prove Theorems 1.2 and 3.2 together in the next and final subsection. .
 0.498	[*A*]We[*R*]prove[*A*]Theorems 3.2 together in the final subsection	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]prove[*A*]Theorems 3.2 together in the next subsection	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]prove[*A*]Theorems 1.2 together in the final subsection	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]prove[*A*]Theorems 1.2 together in the next subsection	context()	negated: False ,passive: False
-[LINE#225]Proofs of Theorems 1.2 and 3.2The connection between rings of integral-valued polynomials and rings of integer-valued polynomials over matrices is given by Corollary 3.1 and (7).
+[LINE#278] Proofs of Theorems 1.2 and 3.2The connection between rings of integral-valued polynomials and rings of integer-valued polynomials over matrices is given by Corollary 3.1 and (7).
 0.920	[*A*]3.2The connection between rings of integral - rings of integer - valued polynomials over matrices[*R*]is given[*A*]by ( 7	context()	negated: False ,passive: True
 0.975	[*A*]3.2The connection between rings of integral - rings of integer - valued polynomials over matrices[*R*]is given[*A*]by Corollary 3.1	context()	negated: False ,passive: True
 0.927	[*A*]3.2The connection between rings of integral - valued polynomials of integer - valued polynomials over matrices[*R*]is given[*A*]by ( 7	context()	negated: False ,passive: True
 0.977	[*A*]3.2The connection between rings of integral - valued polynomials of integer - valued polynomials over matrices[*R*]is given[*A*]by Corollary 3.1	context()	negated: False ,passive: True
 0.596	[*A*]Theorems[*R*]have Proofs of[*A*]1.2	context()	negated: False ,passive: False
 0.896	[*A*]Proofs[*R*]have Theorems of[*A*]1.2	context()	negated: False ,passive: False
-[LINE#226]Notice that the two rings Z[] and Z[Cp] are isomorphic, since both are isomorphic to Z[X]/(p(X)).We may now represent the rings of integer-valued polynomials over a set of matrices MnP(Z), P a subset of Pnirr, as an intersection of the pullback rings R, where  ranges through the set of roots of the polynomials in P.
+[LINE#279] Notice that the two rings Z[] and Z[Cp] are isomorphic, since both are isomorphic to Z[X]/(p(X)).We may now represent the rings of integer-valued polynomials over a set of matrices MnP(Z), P a subset of Pnirr, as an intersection of the pullback rings R, where  ranges through the set of roots of the polynomials in P.
 0.490	[*A*]We[*R*]may represent[*A*]the rings of integer - valued polynomials[*A*]now	context()	negated: False ,passive: False
 0.737	[*A*]the pullback rings R[*R*]ranges	context()	negated: False ,passive: False
-[LINE#227] Indeed, for such a subset P, by Corollary 3.1 and (5) where A(P)An is the set of roots of all the polynomials p(X) in P(notice that by assumption all these algebraic integers have degree equal to n).
+[LINE#280+281+282]  Indeed, for such a subset P, by Corollary 3.1 and (5) where A(P)An is the set of roots of all the polynomials p(X) in P(notice that by assumption all these algebraic integers have degree equal to n).
 0.635	[*A*]A ( P[*R*]is	context()	negated: False ,passive: False
 0.953	[*A*]all these algebraic integers[*R*]have[*A*]degree equal to n[*A*]by assumption	context()	negated: False ,passive: False
 0.856	[*A*]A ( P[*R*]is[*A*]the set of roots of	context()	negated: False ,passive: True
-[LINE#228]By Galois invariance (see Remark 3.1) for each polynomial pP we can just take one of its roots.
+[LINE#283] By Galois invariance (see Remark 3.1) for each polynomial pP we can just take one of its roots.
 0.226	[*A*]we[*R*]can take[*A*]one of its roots	context()	negated: False ,passive: False
-[LINE#229]In this way we have(10)Int(MnP(Z),Mn(Z))=RA(P)SA(P)=IntQ(A(S),An).
+[LINE#284] In this way we have(10)Int(MnP(Z),Mn(Z))=RA(P)SA(P)=IntQ(A(S),An).
 0.884	[*A*]this way[*R*]have[*A*]we	context()	negated: False ,passive: True
-[LINE#230]By Theorem 3.1, the latter ring is the integral closure of Int(MnP(Z),Mn(Z)).
+[LINE#285] By Theorem 3.1, the latter ring is the integral closure of Int(MnP(Z),Mn(Z)).
 0.942	[*A*]the latter ring[*R*]is[*A*]the integral closure of Int	context()	negated: False ,passive: True
-[LINE#231] In particular, by Remark 3.3, Int(MnP(Z),Mn(Z)) is integrally closed if and only if Z[]=OQ(), for all A(S).Let K be a number field of degree n over Q. Notice that the set of roots of the minimal polynomials of algebraic integers of degree n in K (this set is denoted by PnK in Remark 3.5) is exactly OK,.
+[LINE#286]  In particular, by Remark 3.3, Int(MnP(Z),Mn(Z)) is integrally closed if and only if Z[]=OQ(), for all A(S).Let K be a number field of degree n over Q. Notice that the set of roots of the minimal polynomials of algebraic integers of degree n in K (this set is denoted by PnK in Remark 3.5) is exactly OK,.
 0.857	[*A*]Mn[*R*]is integrally closed[*A*]Z	context()	negated: False ,passive: False
 0.985	[*A*]the set of roots of the minimal polynomials of algebraic integers of degree n in K ( this set is denoted by PnK in Remark 3.5 )[*R*]is[*A*]exactly OK	context()	negated: False ,passive: True
 0.918	[*A*]this set[*R*]is denoted[*A*]by PnK[*A*]in Remark 3.5	context()	negated: False ,passive: True
 0.873	[*A*]In particular , by Remark 3.3 , Int ( MnP ( Z ) , Mn ( Z[*R*]is integrally closed	context()	negated: False ,passive: False
-[LINE#232]Then (10) gives:(11)Int(MnK(Z),Mn(Z))=ROK,nSOK,n=IntQ(OK).
-[LINE#233]The equality SOK,n=IntQ(OK) is given by Theorem 1.1.
+[LINE#287] Then (10) gives:(11)Int(MnK(Z),Mn(Z))=ROK,nSOK,n=IntQ(OK).
+[LINE#288] The equality SOK,n=IntQ(OK) is given by Theorem 1.1.
 0.905	[*A*]The equality[*R*]is given[*A*]by Theorem 1.1	context()	negated: False ,passive: True
-[LINE#234]Hence, the integral closure of Int(MnK(Z),Mn(Z)) is IntQ(OK).
+[LINE#289] Hence, the integral closure of Int(MnK(Z),Mn(Z)) is IntQ(OK).
 0.958	[*A*]the integral closure of Int[*R*]is[*A*]IntQ	context()	negated: False ,passive: True
-[LINE#235]This containment is also proper.
+[LINE#290] This containment is also proper.
 0.813	[*A*]This containment[*R*]is[*A*]also[*A*]proper	context()	negated: False ,passive: True
-[LINE#236]In fact, the overrings R, for OK,n, are integrally closed if and only if Z[]=OK.
+[LINE#291] In fact, the overrings R, for OK,n, are integrally closed if and only if Z[]=OK.
 0.751	[*A*]the overrings R , for OK[*R*]n are integrally closed	context()	negated: False ,passive: False
 0.751	[*A*]the overrings R , for OK[*R*]n are integrally closed if	context()	negated: False ,passive: False
-[LINE#237]In general there are plenty of OK,n such that this condition is not satisfied (see Proposition 2.1).
+[LINE#292] In general there are plenty of OK,n such that this condition is not satisfied (see Proposition 2.1).
 0.918	[*A*]this condition[*R*]is not[*A*]satisfied (see Proposition 2.1	context()	negated: True ,passive: True
-[LINE#238] This concludes the proof of Theorem 3.2.In the same way, by (9) and (11) we have(12)Int(Mn(Z))=[K:Q]=nInt(MnK(Z),Mn(Z))=[K:Q]=nROK,(the latter equality is given in Remark 3.2).
+[LINE#293+294+295]  This concludes the proof of Theorem 3.2.In the same way, by (9) and (11) we have(12)Int(Mn(Z))=[K:Q]=nInt(MnK(Z),Mn(Z))=[K:Q]=nROK,(the latter equality is given in Remark 3.2).
 0.257	[*A*]we[*R*]have[*A*]by ( 11	context(This concludes)	negated: False ,passive: False
 0.257	[*A*]we[*R*]have[*A*]by ( 9	context(This concludes)	negated: False ,passive: False
 0.372	[*A*]This[*R*]concludes[*A*]the proof of Theorem 3.2.In	context()	negated: False ,passive: False
 0.925	[*A*]the latter equality[*R*]is given[*A*]in Remark 3.2	context()	negated: False ,passive: True
-[LINE#239] We remark that, as already mentioned in [8], this representation of Int(Mn(Z)) as an intersection of the rings R for An, shows that Int(Mn(Z)) is not Prfer, since there are many overrings R which are not integrally closed: by Proposition 3.1 it is sufficient to consider an algebraic integer  of degree n; then the corresponding R is such an overring.
+[LINE#296+297]  We remark that, as already mentioned in [8], this representation of Int(Mn(Z)) as an intersection of the rings R for An, shows that Int(Mn(Z)) is not Prfer, since there are many overrings R which are not integrally closed: by Proposition 3.1 it is sufficient to consider an algebraic integer  of degree n; then the corresponding R is such an overring.
 0.519	[*A*]R[*R*]integrally closed	context()	negated: True ,passive: False
 0.565	[*A*]R[*R*]are not[*A*]integrally closed	context()	negated: True ,passive: True
 0.457	[*A*]it[*R*]is[*A*]sufficient to consider an algebraic integer  of degree n	context(We remark this representation of Int ( Mn ( Z ) ) as an intersection of the rings R for An shows the corresponding R is)	negated: False ,passive: True
@@ -674,12 +674,12 @@
 0.715	[*A*]Int[*R*]is not[*A*]Prfer[*A*]since there are many overrings	context(We remark this representation of Int ( Mn ( Z ) ) as an intersection of the rings R for An shows)	negated: True ,passive: True
 0.975	[*A*]this representation of Int(Mn(Z)) as an intersection of the rings R for An[*R*]shows[*A*]that Int(Mn(Z)) is not Prfer	context(We remark)	negated: False ,passive: False
 0.195	[*A*]We[*R*]remark[*A*]that, as already mentioned in [8], this representation of Int(Mn(Z)) as an intersection of the rings R for An, shows that Int(Mn(Z)) is not Prfer, since there are many overrings R which are not integrally closed: by Proposition 3.1 it is sufficient to consider an algebraic integer  of degree n; then the corresponding R is such an overring	context()	negated: False ,passive: False
-[LINE#240]we have Int(Mn(Z))Int(Mn-1(Z)), by (12) RAnRAn-1, so that RAn=m=1,,nRAm=RAn.
+[LINE#298] we have Int(Mn(Z))Int(Mn-1(Z)), by (12) RAnRAn-1, so that RAn=m=1,,nRAm=RAn.
 0.498	[*A*]we[*R*]have[*A*]Int	context()	negated: False ,passive: False
-[LINE#241]In particular, by Theorem 3.1, the rings SAn and SAn are equal, since they are the integral closure of RAn and RAn, respectively, and these two rings coincide.
+[LINE#299] In particular, by Theorem 3.1, the rings SAn and SAn are equal, since they are the integral closure of RAn and RAn, respectively, and these two rings coincide.
 0.861	[*A*]SAn[*R*]are[*A*]equal[*A*]since they are the integral closure of RAn , respectively	context()	negated: False ,passive: True
 0.658	[*A*]they[*R*]are[*A*]the integral closure of RAn[*A*]respectively	context()	negated: False ,passive: True
 0.963	[*A*]the rings SAn[*R*]are[*A*]equal[*A*]since they are the integral closure of RAn , respectively[*A*]by Theorem 3.1	context()	negated: False ,passive: True
 0.751	[*A*]these two rings[*R*]coincide	context()	negated: False ,passive: False
-[LINE#242]By (3), the equality SAn=SAn is exactly Theorem 1.2.
+[LINE#300] By (3), the equality SAn=SAn is exactly Theorem 1.2.
 0.975	[*A*]the equality SAn=SAn[*R*]is[*A*]exactly[*A*]Theorem 1.2[*A*]By (3	context()	negated: False ,passive: True

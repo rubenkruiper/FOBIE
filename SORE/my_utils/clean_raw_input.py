@@ -1,6 +1,6 @@
 import re
 
-def clean_content(content):
+def clean_dict(content):
     """
     Simple cleaning of the sentences found in the input files. Is called twice, during creation of
     OIE and narrowIE files.
@@ -19,9 +19,9 @@ def clean_content(content):
             sent = sent.replace('\n', " ").replace('\t', " ")
             sent = re.sub(' +', ' ', sent)
 
-            # drop sentences shorter than 10 characters
-            if len(sent) < 10:
-                continue
+            # # drop sentences shorter than 10 characters
+            # if len(sent) < 10:
+            #     continue
 
             # assume these are separate sentences after all in case the next sent starts with a capital
             if new_sent != '' and sent[0].isupper():

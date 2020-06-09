@@ -1,46 +1,46 @@
-[LINE#1]We introduce efficient sets, a class of sets in Rp in which, in each set, no element is greater in all dimensions than any other.
+[LINE#0] We introduce efficient sets, a class of sets in Rp in which, in each set, no element is greater in all dimensions than any other.
 0.964	[*A*]no element[*R*]is[*A*]greater[*A*]in all dimensions than any other[*A*]a class of sets in Rp[*A*]in each set	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]introduce[*A*]efficient sets	context()	negated: False ,passive: False
-[LINE#2]Neither differentiability nor continuity is required of such sets, which include: level sets of utility functions, quasi-indifference classes associated with a preference relation not given by a utility function, mean-variance frontiers, production possibility frontiers, and Pareto efficient sets.
+[LINE#1] Neither differentiability nor continuity is required of such sets, which include: level sets of utility functions, quasi-indifference classes associated with a preference relation not given by a utility function, mean-variance frontiers, production possibility frontiers, and Pareto efficient sets.
 0.911	[*A*]a preference relation[*R*]not given[*A*]by a utility function	context()	negated: True ,passive: True
 0.903	[*A*]quasi-indifference classes[*R*]associated[*A*]with a preference relation	context()	negated: False ,passive: True
 0.927	[*A*]such sets[*R*]include[*A*]mean-variance frontiers, production possibility frontiers, and Pareto efficient sets	context()	negated: False ,passive: True
 0.919	[*A*]Neither differentiability nor continuity[*R*]is required[*A*]of such sets	context()	negated: False ,passive: True
-[LINE#3]By Lebesgue's density theorem, efficient sets have p-dimensional measure zero.
+[LINE#2] By Lebesgue's density theorem, efficient sets have p-dimensional measure zero.
 0.903	[*A*]efficient sets[*R*]have[*A*]p-dimensional measure zero	context()	negated: False ,passive: False
-[LINE#4]As Lebesgue measure provides an imprecise description of small sets, we then prove the stronger result that each efficient set in Rp has Hausdorff dimension at most p-1.
+[LINE#3] As Lebesgue measure provides an imprecise description of small sets, we then prove the stronger result that each efficient set in Rp has Hausdorff dimension at most p-1.
 0.964	[*A*]each efficient set in Rp[*R*]has[*A*]Hausdorff dimension at most p-1	context()	negated: False ,passive: False
 0.467	[*A*]we[*R*]prove[*A*]the stronger result that each efficient set in Rp has Hausdorff dimension at most p-1[*A*]then	context()	negated: False ,passive: False
 0.927	[*A*]Lebesgue measure[*R*]provides[*A*]an imprecise description of small sets	context()	negated: False ,passive: False
-[LINE#5]This may exceed its topological dimension, with the two notions becoming equivalent for smooth sets.
+[LINE#4] This may exceed its topological dimension, with the two notions becoming equivalent for smooth sets.
 0.911	[*A*]the two notions[*R*]becoming[*A*]equivalent for smooth sets	context()	negated: False ,passive: True
 0.250	[*A*]This[*R*]may exceed[*A*]its topological dimension[*A*]with the two notions becoming equivalent for smooth sets	context()	negated: False ,passive: False
-[LINE#6]We apply these results to stable sets in multi-good pillage games: for n agents and m goods, stable sets have dimension at most m(n-1)-1.
+[LINE#5] We apply these results to stable sets in multi-good pillage games: for n agents and m goods, stable sets have dimension at most m(n-1)-1.
 0.397	[*A*]We[*R*]apply[*A*]these results[*A*]to stable sets in multi-good pillage games	context(stable sets have)	negated: False ,passive: False
 0.388	[*A*]We[*R*]apply[*A*]these results[*A*]to stable sets in multi-good pillage games	context(stable sets have)	negated: False ,passive: False
 0.878	[*A*]stable sets[*R*]have[*A*]dimension at most m	context()	negated: False ,passive: False
-[LINE#7]This implies, and is much stronger than, the result that stable sets have m(n-1)-dimensional measure zero, as conjectured by Jordan.
+[LINE#6] This implies, and is much stronger than, the result that stable sets have m(n-1)-dimensional measure zero, as conjectured by Jordan.
 0.886	[*A*]stable sets[*R*]have m[*A*]n - 1 ) - dimensional measure zero	context()	negated: False ,passive: False
 0.153	[*A*]This[*R*]implies	context()	negated: False ,passive: False
-[LINE#8]Efficient sets have measure zeroLet p be Lebesgue's p-dimensional measure in Rp.
-[LINE#9] If x and y are in Rp then we write x=(x1,,xp);x-y denotes the Euclidean distance between x and y.
+[LINE#7] Efficient sets have measure zeroLet p be Lebesgue's p-dimensional measure in Rp.
+[LINE#8+9]  If x and y are in Rp then we write x=(x1,,xp);x-y denotes the Euclidean distance between x and y.
 0.801	[*A*]y[*R*]are[*A*]in Rp	context(we write y denotes)	negated: False ,passive: True
 0.577	[*A*]we[*R*]write[*A*]x=[*A*]then	context(y denotes)	negated: False ,passive: False
 0.586	[*A*]we[*R*]write[*A*]x=[*A*]then	context(y denotes)	negated: False ,passive: False
 0.777	[*A*]y[*R*]denotes[*A*]the Euclidean distance between x	context()	negated: False ,passive: False
 0.840	[*A*]x[*R*]are[*A*]in Rp	context()	negated: False ,passive: True
-[LINE#10] This section's main result is that each efficient set has measure zero:.
+[LINE#10]  This section's main result is that each efficient set has measure zero:.
 0.916	[*A*]each efficient set[*R*]has[*A*]measure	context(This section 's main result is)	negated: False ,passive: False
 0.828	[*A*]This section's main result[*R*]is[*A*]that each efficient set has measure	context()	negated: False ,passive: True
-[LINE#11] Theorem 2.1IfEis an efficient set inRp, thenp(E)=0.To establish this, we use Lebesgue's density theorem, which requires the following definition:.
+[LINE#11+12]  Theorem 2.1IfEis an efficient set inRp, thenp(E)=0.To establish this, we use Lebesgue's density theorem, which requires the following definition:.
 0.928	[*A*]Lebesgue's density theorem[*R*]requires[*A*]the following d	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]use[*A*]Lebesgue's density theorem	context()	negated: False ,passive: False
 0.814	[*A*]thenp(E)=0.To[*R*]establish[*A*]this	context()	negated: False ,passive: False
 0.184	[*A*]Theorem[*R*]2.1IfEis[*A*]an efficient set inRp	context()	negated: False ,passive: False
-[LINE#12] Definition 2.2The density of a measurable subset A of Rp at a pointa is A(a)limr0p(A{x:x-a<r})p({x:x-a<r}), whenever this limit exists.
+[LINE#13+14]  Definition 2.2The density of a measurable subset A of Rp at a pointa is A(a)limr0p(A{x:x-a<r})p({x:x-a<r}), whenever this limit exists.
 0.975	[*A*]Definition 2.2The density of a measurable subset A of Rp at a pointa[*R*]is[*A*]A(a)limr0p	context(this limit exists)	negated: False ,passive: True
 0.687	[*A*]this limit[*R*]exists	context()	negated: False ,passive: False
-[LINE#13] Lebesgue's density theorem is then: Theorem 2.3Corollary 2.14, Mattila, 1995IfAis measurable, thenA(x)exists and equals one for almost all pointsxinA. In particular, ifAis measurable and has positive measure, thenA(x)exists and equals one at somexinA.Example 2.4Cantor Sets with Positive MeasureCantor sets with linear measure arbitrarily close to one while remaining nowhere densemay also be constructed (Gelbaum and Olmsted, 1962, pp.88-89).
+[LINE#15+16+17]  Lebesgue's density theorem is then: Theorem 2.3Corollary 2.14, Mattila, 1995IfAis measurable, thenA(x)exists and equals one for almost all pointsxinA. In particular, ifAis measurable and has positive measure, thenA(x)exists and equals one at somexinA.Example 2.4Cantor Sets with Positive MeasureCantor sets with linear measure arbitrarily close to one while remaining nowhere densemay also be constructed (Gelbaum and Olmsted, 1962, pp.88-89).
 0.957	[*A*]Lebesgue[*R*]equals[*A*]one at somexinA.Example 2.4Cantor Sets with Positive MeasureCantor sets with linear measure[*A*]arbitrarily close to one while remaining nowhere densemay also be constructed ( Olmsted , 1962 , pp.88-89 )	context()	negated: False ,passive: True
 0.740	[*A*]Lebesgue[*R*]be constructed	context()	negated: False ,passive: False
 0.956	[*A*]Lebesgue[*R*]equals arbitrarily close[*A*]one at somexinA.Example 2.4Cantor Sets with Positive MeasureCantor sets with linear measure	context()	negated: False ,passive: True
@@ -50,68 +50,68 @@
 0.802	[*A*]Lebesgue[*R*]equals[*A*]one for	context()	negated: False ,passive: True
 0.776	[*A*]Theorem 2.3Corollary 2.14[*R*]exists	context()	negated: False ,passive: False
 0.878	[*A*]Lebesgue 's density theorem[*R*]is[*A*]then	context()	negated: False ,passive: True
-[LINE#14]Begin with E0=[0,1] and an arbitrary (0,1).
-[LINE#15]mutually disjoint closed intervals of equal length formed by removing open intervals of length 21-2n from the middle of each interval in En-1; for any n,2n-1 intervals are removed.
+[LINE#18] Begin with E0=[0,1] and an arbitrary (0,1).
+[LINE#19] mutually disjoint closed intervals of equal length formed by removing open intervals of length 21-2n from the middle of each interval in En-1; for any n,2n-1 intervals are removed.
 0.826	[*A*]2n-1 intervals[*R*]are removed[*A*]for any n	context()	negated: False ,passive: True
 0.947	[*A*]equal length[*R*]formed[*A*]by removing open intervals of length 21-2n from the middle of each interval in En-1	context()	negated: False ,passive: True
-[LINE#16]Thus, the length removed after n such operations is (12+14++12n), which converges to  as n converges to .
+[LINE#20] Thus, the length removed after n such operations is (12+14++12n), which converges to  as n converges to .
 0.740	[*A*]12+14++12n[*R*]converges[*A*]as n converges to	context()	negated: False ,passive: False
 0.925	[*A*]such operations[*R*]is[*A*]12+14++12n	context()	negated: False ,passive: True
 0.767	[*A*]the length[*R*]removed[*A*]after	context()	negated: False ,passive: True
-[LINE#17]The ensuing set therefore has linear measure 1-.
+[LINE#21] The ensuing set therefore has linear measure 1-.
 0.920	[*A*]The ensuing set[*R*]has[*A*]linear measure	context()	negated: False ,passive: False
-[LINE#18]3 illustrates an example in which =23, so that 1=13.
+[LINE#22] 3 illustrates an example in which =23, so that 1=13.
 0.381	[*A*]3[*R*]illustrates[*A*]an example in which =23	context()	negated: False ,passive: False
-[LINE#19]Unlike the middle-third Cantor set, the relative length of the removed segment decreases at each iteration.
+[LINE#23] Unlike the middle-third Cantor set, the relative length of the removed segment decreases at each iteration.
 0.938	[*A*]the relative length of the removed segment[*R*]decreases[*A*]at each iteration	context()	negated: False ,passive: True
-[LINE#20]Sets formed this way are also called 'fat' Cantor sets, Smith-Volterra-Cantor sets, or -Cantor sets (Edlin and Shannon, 1998; Aliprantis and Burkinshaw, 1981).
+[LINE#24] Sets formed this way are also called 'fat' Cantor sets, Smith-Volterra-Cantor sets, or -Cantor sets (Edlin and Shannon, 1998; Aliprantis and Burkinshaw, 1981).
 0.506	[*A*]Sets[*R*]formed	context()	negated: False ,passive: False
 0.961	[*A*]Cantor[*R*]sets[*A*]Smith-Volterra-Cantor sets, or -Cantor sets	context()	negated: False ,passive: False
-[LINE#21]As they have positive measure they must, by the Lebesgue density theorem, contain elements with density one.
+[LINE#25] As they have positive measure they must, by the Lebesgue density theorem, contain elements with density one.
 0.511	[*A*]they[*R*]must contain[*A*]elements with density one	context()	negated: False ,passive: False
 0.616	[*A*]they[*R*]have[*A*]positive measure	context()	negated: False ,passive: False
-[LINE#22]Intuitively, these are all the elements that are not the endpoints of intervals: while there are countably many endpoints (with density less than one), there are uncountably many elements that are not endpoints.1010Applying the same reasoning to measure zero Cantor sets, "almost all" points means "none".
+[LINE#26] Intuitively, these are all the elements that are not the endpoints of intervals: while there are countably many endpoints (with density less than one), there are uncountably many elements that are not endpoints.1010Applying the same reasoning to measure zero Cantor sets, "almost all" points means "none".
 0.905	[*A*]many elements[*R*]are not endpoints.1010Applying[*A*]the same reasoning[*A*]to measure zero Cantor sets	context()	negated: True ,passive: False
 0.883	[*A*]almost all" points[*R*]means[*A*]none	context()	negated: False ,passive: False
-[LINE#23] We may now state the proof of this section's main result: Proof of Theorem.
+[LINE#27]  We may now state the proof of this section's main result: Proof of Theorem.
 0.490	[*A*]We[*R*]may state[*A*]the proof of this section's main result[*A*]now	context()	negated: False ,passive: False
-[LINE#24]E is a closed (hence measurable) and, by Lemma 1.2, efficient set.
+[LINE#28] E is a closed (hence measurable) and, by Lemma 1.2, efficient set.
 0.918	[*A*]E[*R*]is[*A*]a closed (hence measurable) and, by Lemma 1.2, efficient set	context()	negated: False ,passive: True
-[LINE#25]Take any x in E and let B(x,r) be the open ball with center x and radius r.
-[LINE#26] Then, as U{yRp:yx},L{yRp:xy} and Ep(UB(x,r))=p(LB(x,r))=12pp(B(x,r)) which implies, in turn, that p(EB(x,r))(1-22p)p(B(x,r)).
+[LINE#29] Take any x in E and let B(x,r) be the open ball with center x and radius r.
+[LINE#30+31]  Then, as U{yRp:yx},L{yRp:xy} and Ep(UB(x,r))=p(LB(x,r))=12pp(B(x,r)) which implies, in turn, that p(EB(x,r))(1-22p)p(B(x,r)).
 0.683	[*A*]B ( x , r[*R*]implies	context()	negated: False ,passive: False
-[LINE#27] Thus, lim supr0p(EB(x,r))p(B(x,.
-[LINE#28]There are therefore no points x in E at which E(x) exists and equals one, and this implies that p(E)=0.1111Use of U alone yields the weaker bound of (2p-1)/2p<1, which still suffices for the result.
+[LINE#32]  Thus, lim supr0p(EB(x,r))p(B(x,.
+[LINE#33] There are therefore no points x in E at which E(x) exists and equals one, and this implies that p(E)=0.1111Use of U alone yields the weaker bound of (2p-1)/2p<1, which still suffices for the result.
 0.605	[*A*]E[*R*]equals[*A*]one	context()	negated: False ,passive: True
 0.686	[*A*]2p - 1[*R*]suffices[*A*]for the result[*A*]still	context()	negated: False ,passive: False
 0.872	[*A*]that p ( E ) =0.1111Use of U alone yields[*R*]bound	context()	negated: False ,passive: False
 0.153	[*A*]this[*R*]implies	context()	negated: False ,passive: False
 0.519	[*A*]x[*R*]exists	context()	negated: False ,passive: False
-[LINE#29]Since EE, and E has measure zero, it follows from the completeness of Lebesgue's measure that E is measurable and has measure zero.
+[LINE#34] Since EE, and E has measure zero, it follows from the completeness of Lebesgue's measure that E is measurable and has measure zero.
 0.309	[*A*]it[*R*]follows[*A*]from the completeness of Lebesgue 's measure that E has measure zero	context()	negated: False ,passive: True
 0.852	[*A*]E[*R*]has[*A*]measure zero	context()	negated: False ,passive: False
 0.816	[*A*]E[*R*]has[*A*]measure zero	context(it follows)	negated: False ,passive: False
 0.309	[*A*]it[*R*]follows[*A*]from the completeness of Lebesgue 's measure that E is measurable	context()	negated: False ,passive: True
 0.671	[*A*]E[*R*]is[*A*]measurable	context()	negated: False ,passive: True
-[LINE#30]Candeal and Indurin (1994) derive a similar result by assuming measurability.
+[LINE#35] Candeal and Indurin (1994) derive a similar result by assuming measurability.
 0.877	[*A*]Indurin[*R*]derive[*A*]a similar result[*A*]by assuming measurability	context()	negated: False ,passive: False
 0.920	[*A*]Candeal[*R*]derive[*A*]a similar result[*A*]by assuming measurability	context()	negated: False ,passive: False
-[LINE#31]Rather than requiring measurability of E, our result actually proves that E is measurable.
+[LINE#36] Rather than requiring measurability of E, our result actually proves that E is measurable.
 0.610	[*A*]E[*R*]is[*A*]measurable	context(our result proves)	negated: False ,passive: True
 0.295	[*A*]our result[*R*]proves[*A*]that E is measurable	context()	negated: False ,passive: False
-[LINE#32] In either case, the result is stronger than the familiar topological result that efficient sets have empty interior: a non-empty interior forces the existence of a ball of positive measure, so that measure zero sets are (weakly)subsets of those with empty interior; sets with empty interior but positive measure, like the Smith-Volterra-Cantor set, make the relation strict.1212Constructing a meager set-negligible, in the topological sense-with full measure on the unit interval is a standard exercise in analysis (q.v. Royden, 1988, Chapter 7, Ex.
+[LINE#37+38]  In either case, the result is stronger than the familiar topological result that efficient sets have empty interior: a non-empty interior forces the existence of a ball of positive measure, so that measure zero sets are (weakly)subsets of those with empty interior; sets with empty interior but positive measure, like the Smith-Volterra-Cantor set, make the relation strict.1212Constructing a meager set-negligible, in the topological sense-with full measure on the unit interval is a standard exercise in analysis (q.v. Royden, 1988, Chapter 7, Ex.
 0.999	[*A*]so that measure zero sets are ( weakly ) subsets of those with empty interior ; sets with positive measure , like the Smith - Volterra - Cantor set , make the relation strict.1212Constructing a meager set - negligible , in the topological sense[*R*]is[*A*]a standard exercise in analysis	context()	negated: False ,passive: True
 0.928	[*A*]the result[*R*]is[*A*]stronger than the familiar topological result that efficient sets have empty interior[*A*]In either case	context()	negated: False ,passive: True
 0.903	[*A*]efficient sets[*R*]have[*A*]empty interior	context()	negated: False ,passive: False
 0.948	[*A*]full measure on the unit interval[*R*]is[*A*]a standard exercise in analysis	context()	negated: False ,passive: True
 0.940	[*A*]the result[*R*]is[*A*]stronger than the familiar topological result that efficient sets have empty interior : a non-empty interior forces the existence of a ball of positive measure , so that measure zero sets are ( weakly ) subsets of those with empty interior ; sets with empty interior measure , like the Smith - Volterra - Cantor set , make the relation strict.1212Constructing a meager set - negligible[*A*]In either case	context()	negated: False ,passive: True
-[LINE#33] 33).As argued in the Introduction, finding that a set has Lebesgue measure zero for finite pis a challenge to find the correct dimension in which to measure the set.
+[LINE#39+40]  33).As argued in the Introduction, finding that a set has Lebesgue measure zero for finite pis a challenge to find the correct dimension in which to measure the set.
 0.897	[*A*]the correct dimension[*R*]to measure[*A*]the set	context()	negated: False ,passive: True
 0.903	[*A*]a challenge[*R*]to find[*A*]the correct dimension in which to measure the set	context()	negated: False ,passive: False
-[LINE#34]To make more precise observations about such a set, we need the notion of Hausdorff dimension, which we now introduce.
+[LINE#41] To make more precise observations about such a set, we need the notion of Hausdorff dimension, which we now introduce.
 0.870	[*A*]Hausdorff dimension[*R*]introduce[*A*]now	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]need[*A*]the notion of Hausdorff dimension	context()	negated: False ,passive: False
-[LINE#35] E of Rp is an efficient set if it has the property that, for all x and y in Rp, if xy then and y are not both in E. Efficient sets11Properly,this defines weakly efficient sets; these are larger than the conventionally defined efficient sets, which exclude distinct x and y such that xiyii.
+[LINE#42+43+44]  E of Rp is an efficient set if it has the property that, for all x and y in Rp, if xy then and y are not both in E. Efficient sets11Properly,this defines weakly efficient sets; these are larger than the conventionally defined efficient sets, which exclude distinct x and y such that xiyii.
 0.435	[*A*]it[*R*]has[*A*]the property that , for all y in Rp , if y are not both in E. Efficient sets11Properly , this defines weakly efficient sets	context()	negated: False ,passive: False
 0.889	[*A*]E of Rp[*R*]is[*A*]an efficient set[*A*]if it has the property	context(these are)	negated: False ,passive: True
 0.435	[*A*]it[*R*]has[*A*]the property that , for all y in Rp , if xy then are not both in E. Efficient sets11Properly , this defines weakly efficient sets	context()	negated: False ,passive: False
@@ -125,53 +125,53 @@
 0.888	[*A*]xy[*R*]are not[*A*]both in E. Efficient sets11Properly[*A*]then	context()	negated: True ,passive: True
 0.913	[*A*]the conventionally defined efficient sets[*R*]exclude[*A*]distinct x	context()	negated: False ,passive: False
 0.435	[*A*]it[*R*]has[*A*]the property that , for all x , if xy then are not both in E. Efficient sets11Properly , this defines weakly efficient sets	context()	negated: False ,passive: False
-[LINE#36]Thus, our bounds on the size of efficient sets therefore also apply to conventionally defined efficient sets.
+[LINE#45] Thus, our bounds on the size of efficient sets therefore also apply to conventionally defined efficient sets.
 0.727	[*A*]our bounds on the size of efficient sets[*R*]apply[*A*]to conventionally defined efficient sets	context()	negated: False ,passive: True
-[LINE#37] pervade economics, including as examples:level sets of continuous utility functions, quasi-indifference classes,22Let  be a preference relation on the positive orthant, R++p, which need not be represented by a continuous utility function.
+[LINE#46+47]  pervade economics, including as examples:level sets of continuous utility functions, quasi-indifference classes,22Let  be a preference relation on the positive orthant, R++p, which need not be represented by a continuous utility function.
 0.897	[*A*]the positive orthant[*R*]need not be represented[*A*]by a continuous utility function	context()	negated: True ,passive: True
 0.971	[*A*]pervade economics, including as examples:level sets of continuous utility functions, quasi-indifference classes[*R*]be[*A*]a preference relation on the positive orthant	context()	negated: False ,passive: True
-[LINE#38]Given any point x in R++p, each ray, R, from the origin is divided into two parts by a unique point, xR, such that x is strictly preferred to all points on R strictly below xR, while all points on R strictly beyond xR are strictly preferred to x.
+[LINE#48] Given any point x in R++p, each ray, R, from the origin is divided into two parts by a unique point, xR, such that x is strictly preferred to all points on R strictly below xR, while all points on R strictly beyond xR are strictly preferred to x.
 0.878	[*A*]all points on R strictly beyond xR[*R*]are strictly preferred[*A*]to	context()	negated: False ,passive: True
 0.813	[*A*]x[*R*]is strictly preferred[*A*]to all points	context()	negated: False ,passive: True
 0.943	[*A*]each ray, R, from the origin[*R*]is divided[*A*]into two parts	context()	negated: False ,passive: True
 0.937	[*A*]any point[*R*]x[*A*]in R++p	context()	negated: False ,passive: True
-[LINE#39]The quasi-indifference class for x is the set of such points xR.
+[LINE#49] The quasi-indifference class for x is the set of such points xR.
 0.943	[*A*]The quasi-indifference class for x[*R*]is[*A*]the set of such points	context()	negated: False ,passive: True
-[LINE#40]In the case of the lexicographic ordering on R++2, each quasi-indifference class is a vertical line (Beardon, 1995).
+[LINE#50] In the case of the lexicographic ordering on R++2, each quasi-indifference class is a vertical line (Beardon, 1995).
 0.967	[*A*]each quasi-indifference class[*R*]is[*A*]a vertical line[*A*]In the case of the lexicographic ordering on R++2	context()	negated: False ,passive: True
-[LINE#41]mean-variance frontiers, production possibility frontiers, Pareto efficient sets, and the efficient frontiers of data envelopment or stochastic frontier analysis.
-[LINE#42]Furthermore, we have natural intuitions about the size of such sets.
+[LINE#51] mean-variance frontiers, production possibility frontiers, Pareto efficient sets, and the efficient frontiers of data envelopment or stochastic frontier analysis.
+[LINE#52] Furthermore, we have natural intuitions about the size of such sets.
 0.452	[*A*]we[*R*]have[*A*]natural intuitions about the size of such sets	context()	negated: False ,passive: False
-[LINE#43]Most obviously, they are small.
+[LINE#53] Most obviously, they are small.
 0.361	[*A*]they[*R*]are[*A*]small	context()	negated: False ,passive: True
-[LINE#44]More strongly, their dimension is one less than that of their ambient space, making them subsets of regular curves or surfaces.
+[LINE#54] More strongly, their dimension is one less than that of their ambient space, making them subsets of regular curves or surfaces.
 0.317	[*A*]their dimension[*R*]is[*A*]one less than that of their ambient space[*A*]making them subsets of regular curves or surfaces	context()	negated: False ,passive: True
-[LINE#45]This paper proves that these intuitions are correct.
+[LINE#55] This paper proves that these intuitions are correct.
 0.724	[*A*]these intuitions[*R*]are[*A*]correct	context(This paper proves)	negated: False ,passive: True
 0.731	[*A*]This paper[*R*]proves[*A*]that these intuitions are correct	context()	negated: False ,passive: False
-[LINE#46]Our first intuition, that efficient sets should be small, is naturally thought of in the sense of Lebesgue: efficient sets in Rp should have p-dimensional measure zero.
+[LINE#56] Our first intuition, that efficient sets should be small, is naturally thought of in the sense of Lebesgue: efficient sets in Rp should have p-dimensional measure zero.
 0.922	[*A*]efficient sets in Rp[*R*]should have[*A*]p-dimensional measure zero	context()	negated: False ,passive: False
 0.767	[*A*]efficient sets[*R*]should be[*A*]small	context()	negated: False ,passive: True
-[LINE#47]We show that this is an immediate consequence of Lebesgue's density theorem.
+[LINE#57] We show that this is an immediate consequence of Lebesgue's density theorem.
 0.440	[*A*]this[*R*]is[*A*]an immediate consequence of Lebesgue's density theorem	context(We show)	negated: False ,passive: True
 0.382	[*A*]We[*R*]show[*A*]that this is an immediate consequence of Lebesgue's density theorem	context()	negated: False ,passive: False
-[LINE#48]Other proofs (with the additional assumption of measurability) exist in the literature; Candeal and Indurin (1994), for example, show this in the context of indifference sets.
+[LINE#58] Other proofs (with the additional assumption of measurability) exist in the literature; Candeal and Indurin (1994), for example, show this in the context of indifference sets.
 0.923	[*A*]Other proofs ( with the additional assumption of measurability[*R*]exist[*A*]in the literature	context(Indurin show)	negated: False ,passive: True
 0.908	[*A*]Indurin[*R*]show[*A*]this[*A*]in the context of indifference sets	context()	negated: False ,passive: False
 0.923	[*A*]Other proofs ( with the additional assumption of measurability[*R*]exist[*A*]in the literature	context(Candeal show)	negated: False ,passive: True
 0.908	[*A*]Candeal[*R*]show[*A*]this[*A*]in the context of indifference sets	context()	negated: False ,passive: False
-[LINE#49]As a measure theoretic result, it implies the weaker topological result that efficient sets have empty interior.33The most common version of this is that locally non-satiated indifference curves are not thick (Arrow and Hahn, 1971; Diewert, 1973; Mas-Colell et al., 1995).
+[LINE#59] As a measure theoretic result, it implies the weaker topological result that efficient sets have empty interior.33The most common version of this is that locally non-satiated indifference curves are not thick (Arrow and Hahn, 1971; Diewert, 1973; Mas-Colell et al., 1995).
 0.913	[*A*]locally non-satiated indifference curves[*R*]are not[*A*]thick Diewert	context(it implies the weaker topological result that efficient sets have empty interior.33The most common version of this is)	negated: True ,passive: True
 0.936	[*A*]the weaker topological result that efficient sets have empty interior.33The most common version of this[*R*]is[*A*]that locally non-satiated indifference curves are not thick Diewert	context(it implies)	negated: False ,passive: True
 0.913	[*A*]locally non-satiated indifference curves[*R*]are not[*A*]thick Hahn	context(it implies the weaker topological result that efficient sets have empty interior.33The most common version of this is)	negated: True ,passive: True
 0.936	[*A*]the weaker topological result that efficient sets have empty interior.33The most common version of this[*R*]is[*A*]that locally non-satiated indifference curves are not thick Hahn	context(it implies)	negated: False ,passive: True
 0.270	[*A*]it[*R*]implies[*A*]the weaker topological result that efficient sets have empty interior.33The most common version of this	context()	negated: False ,passive: False
 0.903	[*A*]efficient sets[*R*]have[*A*]empty interior.33The most common version of this	context()	negated: False ,passive: False
-[LINE#50]While topological notions of nullity and genericity are "less sharp" (Mas-Colell, 1985, p. 318) than their measure theoretic equivalents, they are more familiar to economists.
+[LINE#60] While topological notions of nullity and genericity are "less sharp" (Mas-Colell, 1985, p. 318) than their measure theoretic equivalents, they are more familiar to economists.
 0.908	[*A*]topological notions of genericity[*R*]are[*A*]less sharp " ( Mas - Colell , 1985 , p. 318 ) than their measure	context()	negated: False ,passive: True
 0.616	[*A*]they[*R*]are[*A*]more familiar to economists	context()	negated: False ,passive: True
 0.908	[*A*]topological notions of nullity[*R*]are[*A*]less sharp " ( Mas - Colell , 1985 , p. 318 ) than their measure	context()	negated: False ,passive: True
-[LINE#51]While this establishes the usual understanding of nullity, Lebesgue measure fails to differentiate between sets which are of measure zero, but of very different sizes.44Lebesgue measure is also meaningless if p is infinite, an observation which has led to interest in concepts like 'prevalence' and 'shyness' (Mas-Colell, 1985; Hunt et al., 1992).
+[LINE#61] While this establishes the usual understanding of nullity, Lebesgue measure fails to differentiate between sets which are of measure zero, but of very different sizes.44Lebesgue measure is also meaningless if p is infinite, an observation which has led to interest in concepts like 'prevalence' and 'shyness' (Mas-Colell, 1985; Hunt et al., 1992).
 0.887	[*A*]an observation[*R*]has led[*A*]to interest in concepts like ' shyness	context()	negated: False ,passive: False
 0.887	[*A*]an observation[*R*]has led[*A*]to interest in concepts like ' prevalence	context()	negated: False ,passive: False
 0.671	[*A*]p[*R*]is[*A*]infinite	context()	negated: False ,passive: True
@@ -179,50 +179,50 @@
 0.914	[*A*]Lebesgue measure[*R*]to differentiate[*A*]between sets	context()	negated: False ,passive: False
 0.927	[*A*]Lebesgue measure[*R*]fails[*A*]to differentiate between sets	context()	negated: False ,passive: True
 0.381	[*A*]this[*R*]establishes[*A*]the usual understanding of nullity	context()	negated: False ,passive: False
-[LINE#52]This is not a concern of the present paper.
+[LINE#62] This is not a concern of the present paper.
 0.381	[*A*]This[*R*]is not[*A*]a concern of the present paper	context()	negated: True ,passive: True
-[LINE#53]Consequently, it cannot establish our second natural intuition about efficient sets.
+[LINE#63] Consequently, it cannot establish our second natural intuition about efficient sets.
 0.309	[*A*]it[*R*]can not establish[*A*]our second natural intuition about efficient sets	context()	negated: True ,passive: False
-[LINE#54]For example, the straight line, the nowhere dense Cantor set formed by iteratively removing the middle third from line segments (q.v.
+[LINE#64] For example, the straight line, the nowhere dense Cantor set formed by iteratively removing the middle third from line segments (q.v.
 0.928	[*A*]the nowhere dense Cantor[*R*]by iteratively removing[*A*]the middle third[*A*]from line segments	context()	negated: False ,passive: False
 0.965	[*A*]the nowhere dense Cantor[*R*]set formed[*A*]by iteratively removing the middle third from line segments[*A*]For example, the straight line	context()	negated: False ,passive: True
-[LINE#55]Fig. 1), and the infinite length von Koch curve formed by iteratively augmenting line segments' middle thirds (q.v. Fig. 2) all have plane measure zero.
+[LINE#65] Fig. 1), and the infinite length von Koch curve formed by iteratively augmenting line segments' middle thirds (q.v. Fig. 2) all have plane measure zero.
 0.381	[*A*]all[*R*]have[*A*]plane measure zero	context()	negated: False ,passive: False
 0.949	[*A*]the infinite length von Koch curve[*R*]formed[*A*]by iteratively augmenting line segments' middle thirds	context()	negated: False ,passive: True
-[LINE#56]Thus, since Hausdorff, showing that a set has Lebesgue measure zero has simply raised a more basic problem, namely that of finding the appropriate dimension in which to then measure the set.
+[LINE#66] Thus, since Hausdorff, showing that a set has Lebesgue measure zero has simply raised a more basic problem, namely that of finding the appropriate dimension in which to then measure the set.
 0.910	[*A*]the appropriate dimension[*R*]to measure[*A*]the set[*A*]then	context()	negated: False ,passive: False
-[LINE#57]Furthermore, since Peano's space-filling curve in the late 19th century, a distinction has been drawn between topological and measure theoretic notions of dimension.55See Jordan and Xu (1999), Kehoe et al.
+[LINE#67] Furthermore, since Peano's space-filling curve in the late 19th century, a distinction has been drawn between topological and measure theoretic notions of dimension.55See Jordan and Xu (1999), Kehoe et al.
 0.970	[*A*]a distinction[*R*]has been drawn[*A*]between topological and measure theoretic notions of Xu[*A*]since Peano 's space - filling curve in the late 19th century	context()	negated: False ,passive: True
 0.970	[*A*]a distinction[*R*]has been drawn[*A*]between topological and measure theoretic notions of dimension.55See Jordan[*A*]since Peano 's space - filling curve in the late 19th century	context()	negated: False ,passive: True
-[LINE#58](2002) and Nisan and Segal (2006) for references to space filling curves, such as Peano's, in the economics literature.
+[LINE#68] (2002) and Nisan and Segal (2006) for references to space filling curves, such as Peano's, in the economics literature.
 0.925	[*A*]references to space[*R*]filling[*A*]curves , such as Peano 's	context()	negated: False ,passive: False
-[LINE#59] The former is better known to economists due to its applications within general equilibrium theory(q.v. Debreu, 1970, 1972, 1976): assuming differentiability, a p-1 dimensional object in Rp is a p-1-dimensional submanifold of Rp.
+[LINE#69+70]  The former is better known to economists due to its applications within general equilibrium theory(q.v. Debreu, 1970, 1972, 1976): assuming differentiability, a p-1 dimensional object in Rp is a p-1-dimensional submanifold of Rp.
 0.893	[*A*]The former is better known to economists due to its applications within general equilibrium theory[*R*]is[*A*]a p-1-dimensional submanifold of Rp	context()	negated: False ,passive: True
 0.445	[*A*]The former[*R*]known[*A*]to economists[*A*]due to its applications within general equilibrium theory	context()	negated: False ,passive: True
 0.603	[*A*]The former[*R*]is[*A*]better known to economists due to its applications within general equilibrium theory	context()	negated: False ,passive: True
-[LINE#60]As any point in the submanifold is locally homeomorphic to Rp-1, it can be described by p-1 parameters.
+[LINE#71] As any point in the submanifold is locally homeomorphic to Rp-1, it can be described by p-1 parameters.
 0.452	[*A*]it[*R*]can be described[*A*]by p-1 parameters	context()	negated: False ,passive: True
 0.937	[*A*]any point in the submanifold[*R*]is locally[*A*]homeomorphic to Rp-1	context()	negated: False ,passive: True
-[LINE#61]Application of Sard's theorem allows conclusions about solutions' uniqueness, at least locally.
+[LINE#72] Application of Sard's theorem allows conclusions about solutions' uniqueness, at least locally.
 0.943	[*A*]Application of Sard's theorem[*R*]allows at least locally[*A*]conclusions about solutions' uniqueness	context()	negated: False ,passive: False
-[LINE#62]When local uniqueness is not a desired property, the differentiability requirements of this approach are unnecessarily restrictive.
+[LINE#73] When local uniqueness is not a desired property, the differentiability requirements of this approach are unnecessarily restrictive.
 0.961	[*A*]the differentiability requirements of this approach[*R*]are[*A*]unnecessarily restrictive[*A*]When local uniqueness is not a desired property	context()	negated: False ,passive: True
 0.903	[*A*]local uniqueness[*R*]is not[*A*]a desired property	context()	negated: True ,passive: True
-[LINE#63]In some cases, differentiability may only fail on a null subset of a theoretically generated efficient set (e.g. the standard Leontief indifference curves); in others, such as the frontier of the production set in Jouini (1988), the failure is more pervasive.
+[LINE#74] In some cases, differentiability may only fail on a null subset of a theoretically generated efficient set (e.g. the standard Leontief indifference curves); in others, such as the frontier of the production set in Jouini (1988), the failure is more pervasive.
 0.924	[*A*]differentiability[*R*]may fail[*A*]on a null subset of a theoretically generated efficient set[*A*]In some cases	context(the failure is)	negated: False ,passive: True
 0.965	[*A*]the failure[*R*]is[*A*]more pervasive[*A*]in others, such as the frontier of the production	context()	negated: False ,passive: True
 0.937	[*A*]the production[*R*]set[*A*]in Jouini	context()	negated: False ,passive: True
-[LINE#64] In empirical work, where efficient sets are interpolated from a finite data set(e.g. data envelopment or stochastic frontier analysis), one may wish to know whether one's results are insensitive to differentiability or continuity conditions imposed by any particular interpolation technique.
+[LINE#75+76]  In empirical work, where efficient sets are interpolated from a finite data set(e.g. data envelopment or stochastic frontier analysis), one may wish to know whether one's results are insensitive to differentiability or continuity conditions imposed by any particular interpolation technique.
 0.599	[*A*]one's results[*R*]are[*A*]insensitive to differentiability or continuity conditions	context(one may wish to know)	negated: False ,passive: True
 0.518	[*A*]one[*R*]may wish to know[*A*]whether one's results are insensitive to differentiability or continuity conditions	context(one may wish)	negated: False ,passive: False
 0.518	[*A*]one[*R*]may wish[*A*]to know whether one's results are insensitive to differentiability or continuity conditions	context()	negated: False ,passive: False
 0.919	[*A*]differentiability or continuity conditions[*R*]imposed[*A*]by any particular interpolation technique	context()	negated: False ,passive: True
 0.943	[*A*]efficient sets[*R*]are interpolated[*A*]from a finite data set[*A*]empirical work	context()	negated: False ,passive: True
-[LINE#65]More fundamentally, though, topology's concern is shape, rather than size.
+[LINE#77] More fundamentally, though, topology's concern is shape, rather than size.
 0.932	[*A*]topology's concern[*R*]is[*A*]shape	context()	negated: False ,passive: True
-[LINE#66]Thus, even on metric spaces, topological dimension is an unreliable guide to size.
+[LINE#78] Thus, even on metric spaces, topological dimension is an unreliable guide to size.
 0.957	[*A*]topological dimension[*R*]is[*A*]an unreliable guide to size[*A*]even on metric spaces	context()	negated: False ,passive: True
-[LINE#67]A standard example is the union of the set of rationals and the irrationals on the unit interval: each has topological dimension zero, yet their union has dimension one.66More generally, the decomposition theorem states that any set in a separable, metrizable space with topological dimension p may be decomposed into p+1 disjoint subsets, each with dimension 0 (Hurewicz and Wallman, 1941).
+[LINE#79] A standard example is the union of the set of rationals and the irrationals on the unit interval: each has topological dimension zero, yet their union has dimension one.66More generally, the decomposition theorem states that any set in a separable, metrizable space with topological dimension p may be decomposed into p+1 disjoint subsets, each with dimension 0 (Hurewicz and Wallman, 1941).
 0.951	[*A*]metrizable space with topological dimension p[*R*]may be decomposed[*A*]into p+1 disjoint subsets[*A*]any set in a separable	context(the decomposition theorem states)	negated: False ,passive: True
 0.916	[*A*]A standard example[*R*]is[*A*]the irrationals on the unit interval	context(their union has one.66More generally)	negated: False ,passive: True
 0.578	[*A*]their union[*R*]has one.66More generally[*A*]dimension	context()	negated: False ,passive: False
@@ -240,14 +240,14 @@
 0.559	[*A*]each[*R*]has[*A*]topological dimension zero	context(the decomposition theorem states)	negated: False ,passive: False
 0.916	[*A*]A standard example[*R*]is[*A*]the union of the set of rationals	context(the decomposition theorem states)	negated: False ,passive: True
 0.828	[*A*]the decomposition theorem[*R*]states[*A*]that any set in a separable , metrizable space with topological dimension p may be decomposed into p+1 disjoint subsets	context()	negated: False ,passive: False
-[LINE#68]In such spaces, the coincidence theorem states that Lebesgue covering dimension, inductive dimension, and large inductive dimension-the three leading notions of topological dimension-are equivalent.
+[LINE#80] In such spaces, the coincidence theorem states that Lebesgue covering dimension, inductive dimension, and large inductive dimension-the three leading notions of topological dimension-are equivalent.
 0.958	[*A*]the coincidence theorem states large inductive dimension[*R*]are[*A*]equivalent[*A*]In such spaces	context()	negated: False ,passive: True
 0.954	[*A*]the coincidence theorem states inductive dimension[*R*]are[*A*]equivalent[*A*]In such spaces	context()	negated: False ,passive: True
 0.830	[*A*]the coincidence[*R*]theorem[*A*]states that Lebesgue covering dimension[*A*]In such spaces	context(the three leading notions of topological dimension are)	negated: False ,passive: False
 0.783	[*A*]the three leading notions of topological dimension[*R*]are[*A*]equivalent	context()	negated: False ,passive: True
 0.846	[*A*]states[*R*]Lebesgue covering[*A*]dimension	context(states Lebesgue)	negated: False ,passive: False
 0.846	[*A*]states[*R*]Lebesgue[*A*]covering dimension	context()	negated: False ,passive: False
-[LINE#69]More generally, homeomorphic transformations-which preserve topological dimension-can be arbitrarily extreme in their distortion of measure: continuous, monotone maps may be constructed from null sets to sets with full Lebesgue measure.77A classic example can be found in Gelbaum and Olmsted (1962, 8.16), which uses a Cantor function; Mehta (1991) also uses Cantor's function, in a different context.
+[LINE#81] More generally, homeomorphic transformations-which preserve topological dimension-can be arbitrarily extreme in their distortion of measure: continuous, monotone maps may be constructed from null sets to sets with full Lebesgue measure.77A classic example can be found in Gelbaum and Olmsted (1962, 8.16), which uses a Cantor function; Mehta (1991) also uses Cantor's function, in a different context.
 0.945	[*A*]Olmsted ( 1962 , 8.16[*R*]uses[*A*]a Cantor function	context()	negated: False ,passive: False
 0.905	[*A*]monotone maps[*R*]can be found[*A*]in Olmsted ( 1962 , 8.16	context()	negated: False ,passive: True
 0.878	[*A*]monotone maps[*R*]may be constructed[*A*]from null sets	context(Mehta uses)	negated: False ,passive: True
@@ -258,194 +258,194 @@
 0.842	[*A*]homeomorphic transformations - which preserve topological dimension[*R*]can be[*A*]arbitrarily extreme[*A*]in their distortion of measure	context(Mehta uses)	negated: False ,passive: True
 0.900	[*A*]Mehta[*R*]uses[*A*]Cantor 's function[*A*]in a different context	context()	negated: False ,passive: False
 0.887	[*A*]homeomorphic transformations[*R*]preserve[*A*]topological dimension	context()	negated: False ,passive: False
-[LINE#70]Thus, Hausdorff's measure theoretic understanding of dimension is used to establish our second intuition.
+[LINE#82] Thus, Hausdorff's measure theoretic understanding of dimension is used to establish our second intuition.
 0.904	[*A*]Hausdorff's measure theoretic understanding of dimension[*R*]to establish[*A*]our second intuition	context()	negated: False ,passive: False
 0.917	[*A*]Hausdorff's measure theoretic understanding of dimension[*R*]is used[*A*]to establish our second intuition	context()	negated: False ,passive: True
-[LINE#71]It is, by design, a more sensitive concept than either Lebesgue measure or topological dimension, being defined for any extended non-negative real number.88When even this is not fine enough, Hausdorff dimension may be defined over dimension functions (Falconer, 1990; Mattila, 1995).
+[LINE#83] It is, by design, a more sensitive concept than either Lebesgue measure or topological dimension, being defined for any extended non-negative real number.88When even this is not fine enough, Hausdorff dimension may be defined over dimension functions (Falconer, 1990; Mattila, 1995).
 0.910	[*A*]Hausdorff dimension[*R*]may be defined[*A*]over dimension functions	context(It is)	negated: False ,passive: True
 0.422	[*A*]It[*R*]is[*A*]by design	context()	negated: False ,passive: True
 0.178	[*A*]this[*R*]is not[*A*]fine enough	context()	negated: True ,passive: True
 0.962	[*A*]a more sensitive concept than either Lebesgue measure or topological dimension[*R*]being defined[*A*]for any extended non-negative real number.88When	context()	negated: False ,passive: True
-[LINE#72] subset E of Rp with p-dimensional Lebesgue measure zero, the Hausdorff dimension can be any number between 0 and p, inclusive (Beardon, 1965).
+[LINE#84+85]  subset E of Rp with p-dimensional Lebesgue measure zero, the Hausdorff dimension can be any number between 0 and p, inclusive (Beardon, 1965).
 0.933	[*A*]the Hausdorff dimension[*R*]can be[*A*]any number between 0 and p, inclusive	context()	negated: False ,passive: True
-[LINE#73]Of the above examples, Table 1 illustrates that only Hausdorff dimension is capable of discrimination between all three.
+[LINE#86] Of the above examples, Table 1 illustrates that only Hausdorff dimension is capable of discrimination between all three.
 0.916	[*A*]only Hausdorff dimension[*R*]is[*A*]capable of discrimination between all three	context(Table 1 illustrates)	negated: False ,passive: True
 0.856	[*A*]Table 1[*R*]illustrates[*A*]that only Hausdorff dimension is capable of discrimination between all three	context()	negated: False ,passive: False
-[LINE#74]The topological and Hausdorff notions of dimension do coincide for smooth sets.
-[LINE#75]For non-smooth sets, Hausdorff dimension may exceed topological dimension: any curve that is homeomorphic to a circle is a one-dimensional manifold, but a sufficiently irregular curve can have Hausdorff dimension greater than one.
+[LINE#87] The topological and Hausdorff notions of dimension do coincide for smooth sets.
+[LINE#88] For non-smooth sets, Hausdorff dimension may exceed topological dimension: any curve that is homeomorphic to a circle is a one-dimensional manifold, but a sufficiently irregular curve can have Hausdorff dimension greater than one.
 0.931	[*A*]a sufficiently irregular curve[*R*]can have[*A*]Hausdorff dimension greater than one	context()	negated: False ,passive: False
 0.910	[*A*]Hausdorff dimension[*R*]may exceed[*A*]topological dimension	context(any curve that is homeomorphic to a circle is)	negated: False ,passive: False
 0.946	[*A*]any curve that is homeomorphic to a circle[*R*]is[*A*]a one - dimensional manifold	context()	negated: False ,passive: True
 0.913	[*A*]any curve[*R*]is[*A*]homeomorphic to a circle	context()	negated: False ,passive: True
-[LINE#76]This is the case for the von Koch curve, whose topological dimension is 1 (Epstein and niatycki, 2008).
+[LINE#89] This is the case for the von Koch curve, whose topological dimension is 1 (Epstein and niatycki, 2008).
 0.945	[*A*]the von Koch curve[*R*]is[*A*]1 niatycki	context()	negated: False ,passive: True
 0.885	[*A*]This[*R*]is the case for[*A*]the von Koch curve	context()	negated: False ,passive: False
 0.858	[*A*]the von Koch curve[*R*]is[*A*]1	context()	negated: False ,passive: True
 0.495	[*A*]This[*R*]is[*A*]the case for the von Koch curve	context()	negated: False ,passive: True
-[LINE#77] (In contrast to topological dimension, Hausdorff dimension is only invariant under bi-Lipschitz transformations.).
+[LINE#90]  (In contrast to topological dimension, Hausdorff dimension is only invariant under bi-Lipschitz transformations.).
 0.944	[*A*]Hausdorff dimension[*R*]is[*A*]only invariant[*A*]under bi-Lipschitz transformations	context()	negated: False ,passive: True
-[LINE#78] Furthermore, approximations to the von Koch curve based on finite iterations of the sort displayed in Fig.2 maintain a constant Hausdorff dimension of 1.Our main result is that the Hausdorff dimension of any efficient set in Rp is no more than p-1.
+[LINE#91+92]  Furthermore, approximations to the von Koch curve based on finite iterations of the sort displayed in Fig.2 maintain a constant Hausdorff dimension of 1.Our main result is that the Hausdorff dimension of any efficient set in Rp is no more than p-1.
 0.899	[*A*]the Hausdorff dimension of any efficient set in Rp[*R*]is[*A*]no more than p-1	context(approximations to the von Koch curve maintain a constant Hausdorff dimension of 1.Our main result is)	negated: False ,passive: True
 0.755	[*A*]a constant Hausdorff dimension of 1.Our main result[*R*]is[*A*]that the Hausdorff dimension of any efficient set in Rp is no more than p-1	context(approximations to the von Koch curve maintain)	negated: False ,passive: True
 0.888	[*A*]approximations to the von Koch curve[*R*]maintain[*A*]a constant Hausdorff dimension of 1.Our main result	context()	negated: False ,passive: False
 0.903	[*A*]the sort[*R*]displayed[*A*]in Fig.2	context()	negated: False ,passive: True
 0.949	[*A*]approximations to the von Koch curve[*R*]based[*A*]on finite iterations of the sort	context()	negated: False ,passive: True
-[LINE#79]This satisfies our intuition that efficient sets are (subsets of) regular curves or surfaces rather than, say, thick sets like the von Koch curve.
+[LINE#93] This satisfies our intuition that efficient sets are (subsets of) regular curves or surfaces rather than, say, thick sets like the von Koch curve.
 0.937	[*A*]efficient sets[*R*]are[*A*]subsets of) regular curves or surfaces rather than, say, thick sets like the von Koch curve	context()	negated: False ,passive: True
 0.190	[*A*]This[*R*]satisfies[*A*]our intuition that efficient sets are (subsets of) regular curves or surfaces rather than, say, thick sets like the von Koch curve	context()	negated: False ,passive: False
-[LINE#80]This result derives entirely from the properties efficient sets, regardless of whether or not they are also sub-manifolds.
+[LINE#94] This result derives entirely from the properties efficient sets, regardless of whether or not they are also sub-manifolds.
 0.835	[*A*]This result[*R*]derives[*A*]entirely[*A*]from the properties efficient sets[*A*]regardless of whether or not they are also sub-manifolds	context()	negated: False ,passive: True
-[LINE#81]Finally, we provide a non-trivial application of the results, bounding the stable sets of multi-good pillage games.
+[LINE#95] Finally, we provide a non-trivial application of the results, bounding the stable sets of multi-good pillage games.
 0.108	[*A*]we[*R*]provide a non-trivial application of the results bounding	context(we provide)	negated: False ,passive: False
 0.531	[*A*]we[*R*]provide[*A*]a non-trivial application of the results[*A*]bounding the stable sets of multi-good pillage games[*A*]Finally	context()	negated: False ,passive: False
-[LINE#82]In one-good pillage games, the stable sets are finite (Jordan, 2006).99See Kerber and Rowat (2011) and Saxton (2011) for tighter bounds.
+[LINE#96] In one-good pillage games, the stable sets are finite (Jordan, 2006).99See Kerber and Rowat (2011) and Saxton (2011) for tighter bounds.
 0.948	[*A*]the stable sets[*R*]are[*A*]finite[*A*]In one - good pillage games	context()	negated: False ,passive: True
-[LINE#83]In the two-good world, Rowat (2009) proved that stable sets have empty interior, and Jordan has conjectured in personal communication that they have measure zero.
+[LINE#97] In the two-good world, Rowat (2009) proved that stable sets have empty interior, and Jordan has conjectured in personal communication that they have measure zero.
 0.616	[*A*]they[*R*]have[*A*]measure zero	context()	negated: False ,passive: False
 0.694	[*A*]Jordan[*R*]has conjectured[*A*]in personal communication that they have measure zero	context()	negated: False ,passive: False
 0.717	[*A*]stable sets[*R*]have[*A*]empty interior	context(Rowat ( 2009 proved)	negated: False ,passive: False
 0.855	[*A*]Rowat ( 2009[*R*]proved[*A*]that stable sets have empty interior[*A*]In the two - good world	context()	negated: False ,passive: False
-[LINE#84]We confirm Jordan's conjecture (and its stronger Hausdorff dimension variant) by showing that we may work equivalently in either of two convenient Euclidean subspaces: an mn-dimensional allocation space, or an m(n-1)-dimensional 'Edgeworth' space.
+[LINE#98] We confirm Jordan's conjecture (and its stronger Hausdorff dimension variant) by showing that we may work equivalently in either of two convenient Euclidean subspaces: an mn-dimensional allocation space, or an m(n-1)-dimensional 'Edgeworth' space.
 0.463	[*A*]We[*R*]confirm[*A*]Jordan's conjecture (and its stronger Hausdorff dimension variant	context()	negated: False ,passive: False
-[LINE#85]While it is straightforward to demonstrate this, by showing that the projection is bi-Lipschitz, we are not aware that this has been done before, making it perhaps of interest in its own right.
+[LINE#99] While it is straightforward to demonstrate this, by showing that the projection is bi-Lipschitz, we are not aware that this has been done before, making it perhaps of interest in its own right.
 0.140	[*A*]we[*R*]are not[*A*]aware that this has been done before[*A*]making it perhaps of interest in its own right	context()	negated: True ,passive: True
 0.269	[*A*]we[*R*]making perhaps[*A*]it	context()	negated: False ,passive: False
 0.178	[*A*]this[*R*]has been done[*A*]before	context()	negated: False ,passive: True
-[LINE#86]Section 2 proves that efficient sets in Rp have p-dimensional Lebesgue measure zero.
-[LINE#87]Section 3 introduces Hausdorff dimension and proves that efficient sets have dimension no more than p-1.
+[LINE#100] Section 2 proves that efficient sets in Rp have p-dimensional Lebesgue measure zero.
+[LINE#101] Section 3 introduces Hausdorff dimension and proves that efficient sets have dimension no more than p-1.
 0.882	[*A*]efficient sets[*R*]have[*A*]dimension	context(Section 3 proves)	negated: False ,passive: False
 0.731	[*A*]Section 3[*R*]proves[*A*]that efficient sets have dimension	context()	negated: False ,passive: False
 0.918	[*A*]Section 3[*R*]introduces[*A*]Hausdorff dimension	context()	negated: False ,passive: False
-[LINE#88]Section 4 introduces multi-good pillage games and applies the above results to bound their stable sets.
+[LINE#102] Section 4 introduces multi-good pillage games and applies the above results to bound their stable sets.
 0.835	[*A*]Section 4[*R*]applies[*A*]the above results[*A*]to bound their stable sets	context()	negated: False ,passive: False
 0.903	[*A*]Section 4[*R*]introduces[*A*]multi-good pillage games	context()	negated: False ,passive: False
-[LINE#89] Before proceeding, we note some basic properties of efficient sets that shall be used throughout:.
+[LINE#103]  Before proceeding, we note some basic properties of efficient sets that shall be used throughout:.
 0.887	[*A*]efficient sets[*R*]shall be used[*A*]throughout:.	context()	negated: False ,passive: True
 0.595	[*A*]we[*R*]note[*A*]some basic properties of efficient sets[*A*]Before proceeding	context()	negated: False ,passive: False
-[LINE#90] Lemma 1.2LetEbe an efficient set an efficient set;2.any subset ofEis an efficient set;3.ifTis a translation ofRp.
-[LINE#91]ProofSuppose that E is an efficient set, but that its closure E is not.
-[LINE#92]Then there are u and v in E with uv.
-[LINE#93]Since this implies that there are u and v in E with uuvv, this is a contradiction.
+[LINE#104+105]  Lemma 1.2LetEbe an efficient set an efficient set;2.any subset ofEis an efficient set;3.ifTis a translation ofRp.
+[LINE#106] ProofSuppose that E is an efficient set, but that its closure E is not.
+[LINE#107] Then there are u and v in E with uv.
+[LINE#108] Since this implies that there are u and v in E with uuvv, this is a contradiction.
 0.449	[*A*]this[*R*]is[*A*]a contradiction	context()	negated: False ,passive: True
 0.381	[*A*]this[*R*]implies[*A*]v in E with uuvv	context()	negated: False ,passive: False
 0.033	[*A*]this[*R*]implies[*A*]that there are u	context()	negated: False ,passive: False
-[LINE#94] The remaining two properties are trivial..
+[LINE#109]  The remaining two properties are trivial..
 0.799	[*A*]The remaining two properties[*R*]are[*A*]trivial	context()	negated: False ,passive: True
-[LINE#95]Measuring thin and highly irregular setsFigs.
-[LINE#96]1 and 2 illustrated that Lebesgue measure fails to distinguish between very different null sets.
+[LINE#110] Measuring thin and highly irregular setsFigs.
+[LINE#111] 1 and 2 illustrated that Lebesgue measure fails to distinguish between very different null sets.
 0.918	[*A*]that Lebesgue measure[*R*]fails[*A*]to distinguish between very different null sets	context(2 illustrated)	negated: False ,passive: True
 0.258	[*A*]2[*R*]illustrated[*A*]that Lebesgue measure fails to distinguish between very different null sets	context()	negated: False ,passive: False
 0.918	[*A*]that Lebesgue measure[*R*]fails[*A*]to distinguish between very different null sets	context(1 illustrated)	negated: False ,passive: True
 0.258	[*A*]1[*R*]illustrated[*A*]that Lebesgue measure fails to distinguish between very different null sets	context()	negated: False ,passive: False
 0.922	[*A*]that Lebesgue measure[*R*]to distinguish[*A*]between very different null sets	context()	negated: False ,passive: False
-[LINE#97]Hausdorff noted that a measure zero result indicated that the right dimension for measurement had yet to be found, and defined a set of measures for real rather than just integer dimensions.
+[LINE#112] Hausdorff noted that a measure zero result indicated that the right dimension for measurement had yet to be found, and defined a set of measures for real rather than just integer dimensions.
 0.902	[*A*]Hausdorff[*R*]noted defined[*A*]a set of measures	context(Hausdorff noted)	negated: False ,passive: False
 0.936	[*A*]Hausdorff[*R*]noted[*A*]defined a set of measures for real rather than just integer dimensions	context()	negated: False ,passive: False
 0.823	[*A*]the right dimension for measurement[*R*]had[*A*]yet	context(Hausdorff noted a measure zero result indicated)	negated: False ,passive: False
 0.841	[*A*]a measure zero result[*R*]indicated[*A*]that the right dimension for measurement had yet to be found	context(Hausdorff noted)	negated: False ,passive: False
 0.843	[*A*]Hausdorff[*R*]noted[*A*]that a measure zero result indicated that the right dimension for measurement had yet to be found	context()	negated: False ,passive: False
 0.756	[*A*]the right dimension for measurement[*R*]to be found	context()	negated: False ,passive: False
-[LINE#98]Example 3.1Consider a disc D lying in the plane.
+[LINE#113] Example 3.1Consider a disc D lying in the plane.
 0.911	[*A*]a disc D[*R*]lying[*A*]in the plane	context()	negated: False ,passive: True
-[LINE#99]Clearly D has positive, finite, two-dimensional measure, zero volume and, in any reasonable sense, infinite linear measure.
+[LINE#114] Clearly D has positive, finite, two-dimensional measure, zero volume and, in any reasonable sense, infinite linear measure.
 0.887	[*A*]D[*R*]has[*A*]infinite linear measure	context()	negated: False ,passive: False
 0.887	[*A*]D[*R*]has[*A*]zero volume	context()	negated: False ,passive: False
 0.887	[*A*]D[*R*]has[*A*]positive , finite , two - dimensional measure	context()	negated: False ,passive: False
-[LINE#100]Thus, denoting the measure in dimension t by Ht, we have H3(D)=0<H2(D)<+=H1(D).
+[LINE#115] Thus, denoting the measure in dimension t by Ht, we have H3(D)=0<H2(D)<+=H1(D).
 0.498	[*A*]we[*R*]have[*A*]H3[*A*]=0	context()	negated: False ,passive: False
-[LINE#101]The construction of Hausdorff measures allows us to extend these ideas to all extended real, positive t.
+[LINE#116] The construction of Hausdorff measures allows us to extend these ideas to all extended real, positive t.
 0.397	[*A*]us[*R*]to extend[*A*]these ideas[*A*]to all extended real, positive t.	context(The construction of Hausdorff measures allows)	negated: False ,passive: False
 0.922	[*A*]The construction of Hausdorff measures[*R*]allows[*A*]us to extend these ideas to all extended real, positive t.	context()	negated: False ,passive: False
-[LINE#102]In this case we shall see that Ht(D)=+ when t<2, while Ht(D)=0 when t>2.We now construct the t-dimensional Hausdorff measure and apply it to efficient sets.1313See Mattila (1995) for a more thorough treatment of the theory of Hausdorff dimension.
+[LINE#117] In this case we shall see that Ht(D)=+ when t<2, while Ht(D)=0 when t>2.We now construct the t-dimensional Hausdorff measure and apply it to efficient sets.1313See Mattila (1995) for a more thorough treatment of the theory of Hausdorff dimension.
 0.715	[*A*]Ht[*R*]apply[*A*]it[*A*]to efficient sets.1313See Mattila ( 1995	context(we shall see)	negated: False ,passive: False
 0.302	[*A*]we[*R*]shall see[*A*]that Ht ( D ) apply it to efficient sets.1313See Mattila ( 1995 ) for a more thorough treatment of the theory of Hausdorff dimension[*A*]In this case	context()	negated: False ,passive: False
 0.393	[*A*]we[*R*]shall see[*A*]that Ht ( D ) =+[*A*]In this case	context()	negated: False ,passive: False
-[LINE#103]A subset of Rp is said to be a -set, where >0, if its diameter, d() is at most .
+[LINE#118] A subset of Rp is said to be a -set, where >0, if its diameter, d() is at most .
 0.458	[*A*]its diameter, d[*R*]is[*A*]at most	context()	negated: False ,passive: True
 0.928	[*A*]A subset of Rp[*R*]to be[*A*]a -set	context()	negated: False ,passive: True
 0.818	[*A*]A subset of Rp[*R*]is said	context()	negated: False ,passive: False
-[LINE#104]A -covering of E,C(E,), is a countable collection of -sets whose union covers E; we denote the class of -coverings of E by C(E,).
+[LINE#119] A -covering of E,C(E,), is a countable collection of -sets whose union covers E; we denote the class of -coverings of E by C(E,).
 0.790	[*A*]C[*R*]is[*A*]a countable collection of -sets	context(we denote)	negated: False ,passive: True
 0.388	[*A*]we[*R*]denote[*A*]the class of -coverings of E	context()	negated: False ,passive: False
 0.802	[*A*]-sets[*R*]covers[*A*]E	context()	negated: False ,passive: True
-[LINE#105]If < then C(E,)C(E,), so that infAiC(E,)id(Ai)tinfAiC(E,)id(Ai)t, and this guarantees that the limit (3.1)Ht(E)=lim0{infAiC(E,)id(Ai)t} exists.
+[LINE#120] If < then C(E,)C(E,), so that infAiC(E,)id(Ai)tinfAiC(E,)id(Ai)t, and this guarantees that the limit (3.1)Ht(E)=lim0{infAiC(E,)id(Ai)t} exists.
 0.258	[*A*]this[*R*]guarantees[*A*]that the limit ( 3.1 ) Ht ( E ) =lim0 { infAiC ( E , ) id ( Ai ) t } exists	context()	negated: False ,passive: False
-[LINE#106]We call Ht(E), where t0, the t-dimensional Hausdorff (outer) measure of E.
+[LINE#121] We call Ht(E), where t0, the t-dimensional Hausdorff (outer) measure of E.
 0.568	[*A*]We[*R*]call[*A*]Ht	context()	negated: False ,passive: False
-[LINE#107] The Hausdorff p-dimensional measure.
-[LINE#108]Hp of a subset E of Rp is related to its Lebesgue measure p by Hp(E)=Kpp(E), where Kp is a (known) quantity which depends on p but not E.
+[LINE#122]  The Hausdorff p-dimensional measure.
+[LINE#123] Hp of a subset E of Rp is related to its Lebesgue measure p by Hp(E)=Kpp(E), where Kp is a (known) quantity which depends on p but not E.
 0.927	[*A*]a (known) quantity[*R*]depends[*A*]on p but not E.	context()	negated: False ,passive: False
 0.938	[*A*]Kp[*R*]is[*A*]a (known) quantity which depends on p but not E.	context()	negated: False ,passive: True
 0.808	[*A*]its Lebesgue measure[*R*]p[*A*]by Hp(E)=Kpp	context()	negated: False ,passive: True
 0.930	[*A*]Hp of a subset E of Rp[*R*]is related[*A*]to its Lebesgue measure	context()	negated: False ,passive: True
-[LINE#109] Thus, Hp(E)=0 if and only if p(E)=0.The key facts about the t-dimensional Hausdorff outer measure of E are: 1.if Ht(E)<+>t then Hs(E)=0, and2.if Ht(E)>0 and s<t then Hs(E)=+.
-[LINE#110] It follows that there is a unique non-negative number dim(E), called the Hausdorff dimension of E, Ht(E)={0if t>.
+[LINE#124+125+126]  Thus, Hp(E)=0 if and only if p(E)=0.The key facts about the t-dimensional Hausdorff outer measure of E are: 1.if Ht(E)<+>t then Hs(E)=0, and2.if Ht(E)>0 and s<t then Hs(E)=+.
+[LINE#127]  It follows that there is a unique non-negative number dim(E), called the Hausdorff dimension of E, Ht(E)={0if t>.
 0.927	[*A*]a unique non-negative number dim[*R*]called[*A*]the Hausdorff dimension of E	context()	negated: False ,passive: True
-[LINE#111]When t=dim(E), the value of Ht(E) can be anywhere in the closed extended interval [0,+].
+[LINE#128] When t=dim(E), the value of Ht(E) can be anywhere in the closed extended interval [0,+].
 0.962	[*A*]t=dim(E), the value of Ht(E[*R*]can be[*A*]anywhere in the closed extended interval	context()	negated: False ,passive: True
-[LINE#112]The Hausdorff dimension may be greater (but not smaller) than the topological dimension of a manifold.
+[LINE#129] The Hausdorff dimension may be greater (but not smaller) than the topological dimension of a manifold.
 0.831	[*A*]The Hausdorff dimension[*R*]may be[*A*]greater	context()	negated: False ,passive: True
-[LINE#113]The two definitions agree for sufficiently smooth manifolds.
+[LINE#130] The two definitions agree for sufficiently smooth manifolds.
 0.911	[*A*]The two definitions[*R*]agree[*A*]for sufficiently smooth manifolds	context()	negated: False ,passive: False
-[LINE#114] The preceding allows us to state this section's main result, a counterpart to Theorem 2.1 which establishes the Hausdorff dimension of an efficient set:.
+[LINE#131]  The preceding allows us to state this section's main result, a counterpart to Theorem 2.1 which establishes the Hausdorff dimension of an efficient set:.
 0.397	[*A*]us[*R*]to state[*A*]this section's main result	context(The preceding allows)	negated: False ,passive: False
 0.364	[*A*]The preceding[*R*]allows[*A*]us to state this section's main result	context()	negated: False ,passive: False
 0.945	[*A*]a counterpart to Theorem 2.1[*R*]establishes[*A*]the Hausdorff dimension of an efficient set:.	context()	negated: False ,passive: False
-[LINE#115] Theorem 3.2IfEis an efficient set inRp, thendim(E)p-1.The result that dim(E)p-1 is stronger than p(E)=0for it implies that Ht(E)=0 for all t with p-1<tp and not just for t=p.
+[LINE#132+133+134]  Theorem 3.2IfEis an efficient set inRp, thendim(E)p-1.The result that dim(E)p-1 is stronger than p(E)=0for it implies that Ht(E)=0 for all t with p-1<tp and not just for t=p.
 0.195	[*A*]it[*R*]implies	context()	negated: False ,passive: False
 0.367	[*A*]it[*R*]implies[*A*]that Ht ( E ) =0 for all t with p - 1 < tp	context()	negated: False ,passive: False
 0.875	[*A*]p - 1[*R*]is[*A*]stronger than p ( E	context()	negated: False ,passive: True
 0.875	[*A*]p - 1[*R*]is[*A*]stronger than p ( E ) tp	context()	negated: False ,passive: True
 0.819	[*A*]E ) p - 1.The result[*R*]dim	context()	negated: False ,passive: False
 0.184	[*A*]Theorem[*R*]3.2IfEis[*A*]an efficient set inRp	context()	negated: False ,passive: False
-[LINE#116]The rest of this section proves the above theorem, by means of the following steps.
+[LINE#135] The rest of this section proves the above theorem, by means of the following steps.
 0.926	[*A*]The rest of this section[*R*]proves[*A*]the above theorem	context()	negated: False ,passive: False
-[LINE#117]First, Lipschitz and bi-Lipschitz maps are defined; as they control sets' distortions, this allows presentation of a known theorem controlling sets' dimension under such mappings.
+[LINE#136] First, Lipschitz and bi-Lipschitz maps are defined; as they control sets' distortions, this allows presentation of a known theorem controlling sets' dimension under such mappings.
 0.790	[*A*]bi-Lipschitz maps[*R*]are defined[*A*]First	context(this allows)	negated: False ,passive: True
 0.836	[*A*]Lipschitz maps[*R*]are defined[*A*]First	context(this allows)	negated: False ,passive: True
 0.432	[*A*]this[*R*]allows[*A*]presentation of a known theorem controlling sets ' dimension under such mappings	context()	negated: False ,passive: False
 0.616	[*A*]they[*R*]control[*A*]sets ' distortions	context()	negated: False ,passive: False
-[LINE#118]In particular, a corollary determines their dimension relative to that of the unit sphere, S, in Rp.
+[LINE#137] In particular, a corollary determines their dimension relative to that of the unit sphere, S, in Rp.
 0.831	[*A*]a corollary[*R*]determines relative[*A*]their dimension	context()	negated: False ,passive: False
-[LINE#119] We then present a lemma that radially projects any bounded efficient set,.
+[LINE#138]  We then present a lemma that radially projects any bounded efficient set,.
 0.887	[*A*]a lemma[*R*]radially projects[*A*]any bounded efficient set	context()	negated: False ,passive: False
 0.422	[*A*]We[*R*]present[*A*]a lemma that radially projects any bounded efficient set,[*A*]then	context()	negated: False ,passive: False
-[LINE#120]Ei-possibly under a translation-onto the strictly positive orthant of the unit sphere, SR++p; this bounds dim(Ei)p-1.
+[LINE#139] Ei-possibly under a translation-onto the strictly positive orthant of the unit sphere, SR++p; this bounds dim(Ei)p-1.
 0.967	[*A*]this bounds[*R*]dim[*A*]possibly under a translation-onto the strictly positive orthant of the unit sphere	context()	negated: False ,passive: False
-[LINE#121]Finally, as any efficient set can be expressed as the countable union of the Ei, an existing result may be applied to bound dim(E)p-1, the theorem's result.
+[LINE#140] Finally, as any efficient set can be expressed as the countable union of the Ei, an existing result may be applied to bound dim(E)p-1, the theorem's result.
 0.948	[*A*]an existing result[*R*]may be applied[*A*]to bound dim[*A*]Finally	context()	negated: False ,passive: True
 0.751	[*A*]any efficient set[*R*]can be expressed	context()	negated: False ,passive: False
-[LINE#122]ARp, where ARp, is Lipschitz on A if there is a positive number K such that f(x)-f(y)Kx-y for all x and y in A.
+[LINE#141] ARp, where ARp, is Lipschitz on A if there is a positive number K such that f(x)-f(y)Kx-y for all x and y in A.
 0.812	[*A*]ARp[*R*]is[*A*]Lipschitz[*A*]if there is a positive number K such	context()	negated: False ,passive: True
 0.885	[*A*]ARp[*R*]is[*A*]Lipschitz[*A*]if there is a positive number K such[*A*]ARp	context()	negated: False ,passive: True
-[LINE#123]The number K is called a Lipschitz constant for f.
+[LINE#142] The number K is called a Lipschitz constant for f.
 0.944	[*A*]The number K[*R*]is called[*A*]a Lipschitz constant	context()	negated: False ,passive: True
-[LINE#124]The map is bi-Lipschitz if both it and its inverse are Lipschitz, yielding two Lipschitz constants.
+[LINE#143] The map is bi-Lipschitz if both it and its inverse are Lipschitz, yielding two Lipschitz constants.
 0.905	[*A*]The map[*R*]yielding[*A*]two Lipschitz constants	context()	negated: False ,passive: False
 0.680	[*A*]its inverse[*R*]are[*A*]Lipschitz	context()	negated: False ,passive: True
 0.680	[*A*]both it[*R*]are[*A*]Lipschitz[*A*]yielding two Lipschitz constants	context()	negated: False ,passive: True
 0.890	[*A*]The map[*R*]is[*A*]bi-Lipschitz[*A*]both it are Lipschitz	context()	negated: False ,passive: True
-[LINE#125]Contraction mappings, for which K1 in the following definition, are the best known example of Lipschitz mappings within economics.
+[LINE#144] Contraction mappings, for which K1 in the following definition, are the best known example of Lipschitz mappings within economics.
 0.928	[*A*]Contraction mappings[*R*]are[*A*]the best known example of Lipschitz mappings within economics	context()	negated: False ,passive: True
-[LINE#126]The following result forms the basis of all our results on Hausdorff dimension.
+[LINE#145] The following result forms the basis of all our results on Hausdorff dimension.
 0.899	[*A*]The following result[*R*]forms[*A*]the basis of all our results on Hausdorff dimension	context()	negated: False ,passive: False
-[LINE#127] It follows directly from the fact that a -covering {Ai} of the set E is mapped by a Lipschitz map f, with Lipschitz constant K, to a K-covering {f(Ai)} of the set f(E):.
+[LINE#146]  It follows directly from the fact that a -covering {Ai} of the set E is mapped by a Lipschitz map f, with Lipschitz constant K, to a K-covering {f(Ai)} of the set f(E):.
 0.971	[*A*]a -covering {Ai} of the set E[*R*]is mapped[*A*]by a Lipschitz map f	context()	negated: False ,passive: True
 0.367	[*A*]It[*R*]follows directly[*A*]from the fact that a -covering {Ai} of the set E is mapped by a Lipschitz map f, with Lipschitz constant K, to a K-covering {f(Ai)} of the set f	context()	negated: False ,passive: True
-[LINE#128]Theorem 3.4Theorem 7.5, Mattila, 1995Suppose thatf:ARpis Lipschitz, whereARp.
-[LINE#129] Thendim(f(A))dim(A).An important corollary for us is: Corollary 3.5IfAS, whereSisinRp, and if a LipschitzfmapsAintoRp, then(3.2)dim(f(A))dim(A)dim(S)=p-1.While the Hausdorff dimension of even simple sets may be difficult to compute (Falconer, 1990, Chapter 2), the Corollary's final equality is easily established.
-[LINE#130] Since S is compact, given any positive r,S can be covered by a finite number of open balls.
+[LINE#147] Theorem 3.4Theorem 7.5, Mattila, 1995Suppose thatf:ARpis Lipschitz, whereARp.
+[LINE#148+149]  Thendim(f(A))dim(A).An important corollary for us is: Corollary 3.5IfAS, whereSisinRp, and if a LipschitzfmapsAintoRp, then(3.2)dim(f(A))dim(A)dim(S)=p-1.While the Hausdorff dimension of even simple sets may be difficult to compute (Falconer, 1990, Chapter 2), the Corollary's final equality is easily established.
+[LINE#150]  Since S is compact, given any positive r,S can be covered by a finite number of open balls.
 0.813	[*A*]S[*R*]can be covered[*A*]by a finite number of open balls	context()	negated: False ,passive: True
 0.887	[*A*]S[*R*]is[*A*]compact, given any positive r	context()	negated: False ,passive: True
-[LINE#131]B(xj,r) of radius r centered at xj.
+[LINE#151] B(xj,r) of radius r centered at xj.
 0.903	[*A*]radius r[*R*]centered[*A*]at xj	context()	negated: False ,passive: True
-[LINE#132]Let Tj be the tangent space of S at xj; this is (up to an isometry) Rp-1.
+[LINE#152] Let Tj be the tangent space of S at xj; this is (up to an isometry) Rp-1.
 0.405	[*A*]this[*R*]is[*A*]up to an isometry	context()	negated: False ,passive: True
-[LINE#133]If r is sufficiently small then each SB(xj,r) can be projected (parallel to the normal of Tj) onto a ball in Tj, and these projections are bi-Lipschitz.
+[LINE#153] If r is sufficiently small then each SB(xj,r) can be projected (parallel to the normal of Tj) onto a ball in Tj, and these projections are bi-Lipschitz.
 0.767	[*A*]these projections[*R*]are[*A*]bi-Lipschitz	context()	negated: False ,passive: True
 0.822	[*A*]each SB ( xj , r[*R*]can be projected	context()	negated: False ,passive: False
 0.671	[*A*]r[*R*]is[*A*]sufficiently small[*A*]then	context()	negated: False ,passive: True
-[LINE#134] It follows from Theorem 3.4 (applied to each projection and its inverse)that for each xj,SB(xj,r) has dimension p-1; thus S, covered by a finite number of objects of dimension p-1 also has dimension p-1.The remaining two lemmas exploit our ability to express any efficient set E in terms of bounded efficient sets, which may be translated to lie within the strictly positive orthant.
+[LINE#154+155]  It follows from Theorem 3.4 (applied to each projection and its inverse)that for each xj,SB(xj,r) has dimension p-1; thus S, covered by a finite number of objects of dimension p-1 also has dimension p-1.The remaining two lemmas exploit our ability to express any efficient set E in terms of bounded efficient sets, which may be translated to lie within the strictly positive orthant.
 0.882	[*A*]SB ( xj , r[*R*]has[*A*]dimension p - 1	context(It follows S has)	negated: False ,passive: False
 0.433	[*A*]It[*R*]follows[*A*]from Theorem 3.4	context(S has)	negated: False ,passive: True
 0.309	[*A*]It[*R*]follows[*A*]from Theorem 3.4[*A*]applied to each projection that for each xj , SB ( xj , r ) has dimension p - 1	context(S has)	negated: False ,passive: True
@@ -454,58 +454,58 @@
 0.907	[*A*]SB ( xj , r[*R*]has[*A*]dimension p - 1	context()	negated: False ,passive: False
 0.897	[*A*]bounded efficient sets[*R*]may be translated[*A*]to lie within the strictly positive orthant	context()	negated: False ,passive: True
 0.923	[*A*]p - 1.The remaining two lemmas[*R*]exploit[*A*]our ability to express any efficient set E in terms of bounded efficient sets ,	context()	negated: False ,passive: False
-[LINE#135]Lemma 3.6Suppose thatE++is a bounded, efficient subset ofR++p.
-[LINE#136]Thendim(E++)p-1.We prove Lemma 3.6 by means of a radial projection, which we now construct.
+[LINE#156] Lemma 3.6Suppose thatE++is a bounded, efficient subset ofR++p.
+[LINE#157] Thendim(E++)p-1.We prove Lemma 3.6 by means of a radial projection, which we now construct.
 0.845	[*A*]a radial projection[*R*]construct[*A*]now	context()	negated: False ,passive: True
-[LINE#137]First, let x1p(1,1,,1)Rp; this is in SR++p and let ={yRp:y12x}.
+[LINE#158] First, let x1p(1,1,,1)Rp; this is in SR++p and let ={yRp:y12x}.
 0.495	[*A*]this[*R*]is[*A*]in SR++p	context()	negated: False ,passive: True
-[LINE#138]By Lemma 1.2, the translation of an efficient set is efficient; by Theorem 3.4 the translation (a degenerate bi-Lipschitz map) leaves unchanged the set's Hausdorff dimension.
+[LINE#159] By Lemma 1.2, the translation of an efficient set is efficient; by Theorem 3.4 the translation (a degenerate bi-Lipschitz map) leaves unchanged the set's Hausdorff dimension.
 0.832	[*A*]the translation of an efficient set[*R*]is[*A*]efficient	context(the translation leaves)	negated: False ,passive: True
 0.879	[*A*]the translation[*R*]leaves[*A*]unchanged[*A*]the set's Hausdorff dimension	context()	negated: False ,passive: False
-[LINE#139] Thus, it suffices to prove Lemma 3.6 in the case when E++. Further, as E++ is bounded, there is a translation of it that lies in  and outside S, allowing:.
+[LINE#160]  Thus, it suffices to prove Lemma 3.6 in the case when E++. Further, as E++ is bounded, there is a translation of it that lies in  and outside S, allowing:.
 0.685	[*A*]a translation of it[*R*]lies[*A*]outside S	context()	negated: False ,passive: True
 0.433	[*A*]it[*R*]suffices to prove[*A*]Lemma 3.6[*A*]in the case	context(it suffices)	negated: False ,passive: False
 0.399	[*A*]it[*R*]suffices[*A*]to prove Lemma 3.6 in the case when E++ . Further , as E++ is bounded , there is a translation of it	context()	negated: False ,passive: False
 0.389	[*A*]a translation of it[*R*]lies[*A*]in , allowing:.	context()	negated: False ,passive: True
-[LINE#140] Lemma 3.7LetE++be an efficient set lyingoutsideSin, so that its radial projectionEintoSlies in.
-[LINE#141] Then the inverse of the radial projection map,:EE++, is Lipschitz onE.The proof will use the following notation:given xE++, its radial projection onto SR++p is x=(x)=x/x; similarly, x=(x)=xx is the inverse image of x. Fig. 4 illustrates these points and mappings.1414The figure also includes the -coverings previously mentioned.
+[LINE#161+162]  Lemma 3.7LetE++be an efficient set lyingoutsideSin, so that its radial projectionEintoSlies in.
+[LINE#163+164+165]  Then the inverse of the radial projection map,:EE++, is Lipschitz onE.The proof will use the following notation:given xE++, its radial projection onto SR++p is x=(x)=x/x; similarly, x=(x)=xx is the inverse image of x. Fig. 4 illustrates these points and mappings.1414The figure also includes the -coverings previously mentioned.
 0.845	[*A*]the - coverings[*R*]mentioned[*A*]previously	context()	negated: False ,passive: True
 0.887	[*A*]mappings.1414The figure[*R*]includes[*A*]the - coverings previously mentioned	context()	negated: False ,passive: True
 0.927	[*A*]the inverse of the radial projection map[*R*]illustrates[*A*]these points	context()	negated: False ,passive: False
-[LINE#142]An alternative strategy for deriving a set's Hausdorff dimension to that pursued here is as follows.
+[LINE#166] An alternative strategy for deriving a set's Hausdorff dimension to that pursued here is as follows.
 0.929	[*A*]An alternative strategy for deriving a set's Hausdorff dimension to that[*R*]is[*A*]as follows	context()	negated: False ,passive: True
 0.053	[*A*]that[*R*]pursued[*A*]here	context()	negated: False ,passive: True
-[LINE#143]Letting # denote a set's cardinality, if #C(E,)t is bounded by a finite constant as 0, then dim(E)=t.
-[LINE#144] Proof of Lemma 3.7Suppose that u and v are in E, and let ru=u, and similarly for.
+[LINE#167] Letting # denote a set's cardinality, if #C(E,)t is bounded by a finite constant as 0, then dim(E)=t.
+[LINE#168]  Proof of Lemma 3.7Suppose that u and v are in E, and let ru=u, and similarly for.
 0.844	[*A*]Proof of Lemma 3.7Suppose[*R*]let similarly[*A*]for	context()	negated: False ,passive: False
 0.961	[*A*]Proof of Lemma 3.7Suppose[*R*]let[*A*]ru=u	context()	negated: False ,passive: False
-[LINE#145] Then (3.3)(u)-(v)=u-v=ruu-rvvruu-ruv+ruv-rvv=uu-v+|u-v|.As E++ is bounded, there is a positive number, K1,.
-[LINE#146]So, finding a positive number, K2, such that |u-v|K2u-v, therefore establishes that  is Lipschitz.
+[LINE#169]  Then (3.3)(u)-(v)=u-v=ruu-rvvruu-ruv+ruv-rvv=uu-v+|u-v|.As E++ is bounded, there is a positive number, K1,.
+[LINE#170] So, finding a positive number, K2, such that |u-v|K2u-v, therefore establishes that  is Lipschitz.
 0.162	[*A*]that[*R*]is[*A*]Lipschitz	context(| u-v | K2u-v establishes)	negated: False ,passive: True
 0.814	[*A*]|u-v|K2u-v[*R*]establishes[*A*]that  is Lipschitz	context()	negated: False ,passive: False
-[LINE#147] To find such a K2, notice that, for u and v in E, we have |uivi-1|=|ui-vi|vi<2pu-v,i=1, ,p, with the inequality holding as v, so that vi>12p for all i. Hence, for each i,.
+[LINE#171+172]  To find such a K2, notice that, for u and v in E, we have |uivi-1|=|ui-vi|vi<2pu-v,i=1, ,p, with the inequality holding as v, so that vi>12p for all i. Hence, for each i,.
 0.732	[*A*]the inequality[*R*]holding	context()	negated: False ,passive: False
-[LINE#148] As vu is false, there is some j with ujvj, and hence uju=ujvj.
+[LINE#173]  As vu is false, there is some j with ujvj, and hence uju=ujvj.
 0.671	[*A*]vu[*R*]is[*A*]false	context()	negated: False ,passive: True
-[LINE#149]Thus (3.4)vuujvj<1+2pu-v, so that (3.5)v<u+2puu-vu+2pK1u-v.
-[LINE#150] By symmetry between u and v, we also have (3.6)u<v+2pK1u-v; so that |u-v|<2pK1u-v, and, with K2=2pK1, the proof of Lemma 3.7.
+[LINE#174] Thus (3.4)vuujvj<1+2pu-v, so that (3.5)v<u+2puu-vu+2pK1u-v.
+[LINE#175]  By symmetry between u and v, we also have (3.6)u<v+2pK1u-v; so that |u-v|<2pK1u-v, and, with K2=2pK1, the proof of Lemma 3.7.
 0.999	[*A*]we[*R*]have[*A*]3.6	context()	negated: False ,passive: False
 0.170	[*A*]we[*R*]have	context()	negated: False ,passive: False
-[LINE#151]As Lemma 3.7 has established the Lipschitz mapping between E and E++, Corollary 3.5 then establishes Lemma 3.6, for efficient sets in R++p.
+[LINE#176] As Lemma 3.7 has established the Lipschitz mapping between E and E++, Corollary 3.5 then establishes Lemma 3.6, for efficient sets in R++p.
 0.974	[*A*]Corollary 3.5[*R*]establishes[*A*]Lemma 3.6[*A*]As Lemma 3.7 has established the Lipschitz mapping between E and E++[*A*]then	context()	negated: False ,passive: False
 0.938	[*A*]Lemma 3.7[*R*]has established[*A*]the Lipschitz mapping between E and E++	context()	negated: False ,passive: False
-[LINE#152]We may therefore now return to this section's main theorem:Proof of Theorem 3.2ConclusionAny efficient set ERp may be expressed as the countable union of bounded subsets, Ei:E=i=1Ei.
+[LINE#177] We may therefore now return to this section's main theorem:Proof of Theorem 3.2ConclusionAny efficient set ERp may be expressed as the countable union of bounded subsets, Ei:E=i=1Ei.
 0.650	[*A*]We[*R*]may return[*A*]to this section's main theorem:Proof of Theorem 3.2ConclusionAny efficient set ERp[*A*]now	context()	negated: False ,passive: True
-[LINE#153]By Lemma 1.2, each of the Ei is also efficient.
+[LINE#178] By Lemma 1.2, each of the Ei is also efficient.
 0.878	[*A*]each of the Ei[*R*]is[*A*]also[*A*]efficient	context()	negated: False ,passive: True
-[LINE#154]The lemma also allows translation of each Ei into R++p so that it satisfies the requirements of E++ in Lemma 3.7.
+[LINE#179] The lemma also allows translation of each Ei into R++p so that it satisfies the requirements of E++ in Lemma 3.7.
 0.498	[*A*]it[*R*]satisfies[*A*]the requirements of E++ in Lemma 3.7	context()	negated: False ,passive: False
 0.751	[*A*]The lemma[*R*]allows[*A*]translation of each Ei into R++p[*A*]so that it satisfies the requirements of E++ in Lemma 3.7	context()	negated: False ,passive: False
-[LINE#155]Lemmas 3.6 and 3.7 then establish that dim(Ei)p-1.
+[LINE#180] Lemmas 3.6 and 3.7 then establish that dim(Ei)p-1.
 0.874	[*A*]Lemmas 3.6[*R*]establish[*A*]that dim[*A*]then	context()	negated: False ,passive: False
-[LINE#156] Finally, as dimi=1Ei=supidimEi (Mattila, 1995, p.59), the result holds for any efficient set in Rp..
+[LINE#181]  Finally, as dimi=1Ei=supidimEi (Mattila, 1995, p.59), the result holds for any efficient set in Rp..
 0.964	[*A*]the result[*R*]holds[*A*]for any efficient set in Rp[*A*]Finally	context()	negated: False ,passive: False
-[LINE#157]Pillage games and stable setsWe now present a non-trivial application of the above results, allowing us to establish both Jordan's conjecture that stable sets in pillage games have measure zero, and its more precise Hausdorff dimension interpretation.
+[LINE#182] Pillage games and stable setsWe now present a non-trivial application of the above results, allowing us to establish both Jordan's conjecture that stable sets in pillage games have measure zero, and its more precise Hausdorff dimension interpretation.
 0.293	[*A*]us[*R*]to establish[*A*]both its more precise Hausdorff dimension interpretation	context(stable setsWe present allowing)	negated: False ,passive: False
 0.849	[*A*]stable setsWe[*R*]present a non-trivial application of the above results allowing[*A*]us to establish both its more precise Hausdorff dimension interpretation	context(stable setsWe present)	negated: False ,passive: False
 0.309	[*A*]us[*R*]to establish[*A*]both Jordan 's conjecture that stable sets in pillage games have measure zero	context(stable setsWe present allowing)	negated: False ,passive: False
@@ -513,47 +513,47 @@
 0.936	[*A*]stable setsWe[*R*]present[*A*]a non-trivial application of the above results[*A*]now	context()	negated: False ,passive: False
 0.926	[*A*]stable sets in pillage games[*R*]have[*A*]measure zero	context()	negated: False ,passive: False
 0.934	[*A*]Pillage games[*R*]present[*A*]a non-trivial application of the above results[*A*]now	context()	negated: False ,passive: False
-[LINE#158]Pillage games are cooperative games whose dominance operators are representable by power functions, increasing functions of both a coalition's membership and its resource holdings.
+[LINE#183] Pillage games are cooperative games whose dominance operators are representable by power functions, increasing functions of both a coalition's membership and its resource holdings.
 0.890	[*A*]Pillage games[*R*]are[*A*]cooperative games whose dominance operators are representable by power functions[*A*]increasing functions of both its resource holdings	context()	negated: False ,passive: True
 0.735	[*A*]cooperative games[*R*]are[*A*]representable	context()	negated: False ,passive: True
 0.937	[*A*]Pillage games[*R*]are[*A*]cooperative games whose dominance operators are representable by power functions[*A*]increasing functions of both a coalition 's membership	context()	negated: False ,passive: True
-[LINE#159]Thus, they model power contests independently of game forms (which may themselves be contested) while allowing externalities between coalitions both for (intrinsic) reasons and as a result of (extrinsic) resource holdings.
+[LINE#184] Thus, they model power contests independently of game forms (which may themselves be contested) while allowing externalities between coalitions both for (intrinsic) reasons and as a result of (extrinsic) resource holdings.
 0.806	[*A*]game forms[*R*]may be contested[*A*]themselves	context()	negated: False ,passive: True
-[LINE#160]They form an uncountable, open set of games, which typically take the two best known classes of cooperative games (those in characteristic and partition function form) as boundary points.
+[LINE#185] They form an uncountable, open set of games, which typically take the two best known classes of cooperative games (those in characteristic and partition function form) as boundary points.
 0.927	[*A*]an uncountable , open set of games[*R*]take[*A*]the two best known classes of cooperative games	context()	negated: False ,passive: False
 0.773	[*A*]They[*R*]form[*A*]an uncountable , open set of games , which typically take the two best known classes of cooperative games	context()	negated: False ,passive: False
 0.877	[*A*]games[*R*]take[*A*]the two best known classes of cooperative games[*A*]as boundary points	context()	negated: False ,passive: False
 0.680	[*A*]They[*R*]form[*A*]an uncountable , open set of games	context()	negated: False ,passive: False
-[LINE#161]Jordan (2006) introduced one-good pillage games; multi-good pillage games, as defined below, were introduced by Rowat (2009).Let there be m goods, each with unitary aggregate endowment, and a finite set I={1,,n} of agents, where n2.
+[LINE#186] Jordan (2006) introduced one-good pillage games; multi-good pillage games, as defined below, were introduced by Rowat (2009).Let there be m goods, each with unitary aggregate endowment, and a finite set I={1,,n} of agents, where n2.
 0.929	[*A*]Jordan (2006[*R*]Let[*A*]there be m goods, each with unitary aggregate endowment, and a finite set I={1,,n} of agents	context()	negated: False ,passive: False
 0.937	[*A*]a finite[*R*]set[*A*]I=	context()	negated: False ,passive: True
 0.922	[*A*]Jordan (2006[*R*]introduced[*A*]one-good pillage games	context()	negated: False ,passive: False
-[LINE#162]Agent i ranks allocations according to a continuous, strictly convex, strongly monotone preference relation i defined on R+m; denote strict preference by i and indifference by i.
+[LINE#187] Agent i ranks allocations according to a continuous, strictly convex, strongly monotone preference relation i defined on R+m; denote strict preference by i and indifference by i.
 0.709	[*A*]Agent i[*R*]ranks[*A*]allocations[*A*]according to	context(strongly monotone preference relation i defined on R+m denote)	negated: False ,passive: False
 0.735	[*A*]strongly monotone preference relation i defined on R+m[*R*]denote[*A*]strict preference by indifference by	context()	negated: False ,passive: False
 0.498	[*A*]i[*R*]defined[*A*]on R+m	context()	negated: False ,passive: False
-[LINE#163] ,xmi), where 0xji1 for each i andj. An allocation of the goods is a vector x=(x1,,xn), and the set of allocations is A={(x1,,xn):ix1i==ixmi=1,0xji1}(Rm)n, which we identify in a natural way with a subset of Rmn.
+[LINE#188+189]  ,xmi), where 0xji1 for each i andj. An allocation of the goods is a vector x=(x1,,xn), and the set of allocations is A={(x1,,xn):ix1i==ixmi=1,0xji1}(Rm)n, which we identify in a natural way with a subset of Rmn.
 0.935	[*A*]the set of allocations[*R*]is[*A*]A=	context(An allocation of the goods is)	negated: False ,passive: True
 0.941	[*A*]An allocation of the goods[*R*]is[*A*]the set of allocations is A=	context()	negated: False ,passive: True
 0.335	[*A*]n[*R*]identify[*A*]we	context()	negated: False ,passive: True
 0.943	[*A*]An allocation of the goods[*R*]is[*A*]a vector x=	context()	negated: False ,passive: True
 0.243	[*A*]i[*R*]andj	context()	negated: False ,passive: False
-[LINE#164]A coalition is any (possibly empty) set of agents (that is, a subset of I).
+[LINE#190] A coalition is any (possibly empty) set of agents (that is, a subset of I).
 0.879	[*A*]A coalition[*R*]is[*A*]any (possibly empty) set of agents (that is	context()	negated: False ,passive: True
-[LINE#165] A coalition's power is given by a power function: Definition 4.1A power function is a function :2IAR which, for all subsets C and C of I, and all allocations x and y, satisfies (WC)if CC when iC, then (C,y)>(C,x).These axioms-weak coalitional monotonicity, weak resource monotonicity, and strict resource monotonicity-extend those in Jordan(2006) from the one good to the m-good environment.1515Axiom (WR) implies that (0,x) is independent of x, and that, from (WC), this common value is the smallest value taken by .
+[LINE#191+192+193]  A coalition's power is given by a power function: Definition 4.1A power function is a function :2IAR which, for all subsets C and C of I, and all allocations x and y, satisfies (WC)if CC when iC, then (C,y)>(C,x).These axioms-weak coalitional monotonicity, weak resource monotonicity, and strict resource monotonicity-extend those in Jordan(2006) from the one good to the m-good environment.1515Axiom (WR) implies that (0,x) is independent of x, and that, from (WC), this common value is the smallest value taken by .
 0.776	[*A*]These axioms[*R*]extend[*A*]those in Jordan[*A*]from the one good	context()	negated: False ,passive: False
 0.783	[*A*]the smallest value[*R*]taken[*A*]by	context()	negated: False ,passive: True
 0.932	[*A*]this common value[*R*]is[*A*]the smallest value taken by	context()	negated: False ,passive: True
 0.953	[*A*]Definition 4.1A power function[*R*]is[*A*]a function	context()	negated: False ,passive: True
 0.919	[*A*]A coalition's power[*R*]is given[*A*]by a power function	context()	negated: False ,passive: True
-[LINE#166]This motivates the assumption that C0 in (SR).
+[LINE#194] This motivates the assumption that C0 in (SR).
 0.381	[*A*]This[*R*]motivates[*A*]the assumption	context()	negated: False ,passive: False
-[LINE#167] Yet (C,x)=(0,x) does not imply that C=0: under the wealth is power function, the leading example in Jordan(2006), a coalition's power is the aggregate quantity of the single good held by its members; if every iC holds zero quantities of the good, then (C,x)=(0,x).
+[LINE#195+196]  Yet (C,x)=(0,x) does not imply that C=0: under the wealth is power function, the leading example in Jordan(2006), a coalition's power is the aggregate quantity of the single good held by its members; if every iC holds zero quantities of the good, then (C,x)=(0,x).
 0.385	[*A*]Jordan ( 2006 )[*R*][is] power [of][*A*]a coalition	context()	negated: False ,passive: False
 0.920	[*A*]a coalition's power[*R*]is[*A*]the aggregate quantity of the single good	context(every iC holds then)	negated: False ,passive: True
 0.904	[*A*]every iC[*R*]holds then[*A*]zero quantities of the good	context()	negated: False ,passive: False
 0.881	[*A*]the single good[*R*]held[*A*]by its members	context()	negated: False ,passive: True
-[LINE#168] Given allocations x and y, we let Cxy be the coalition of agents who strictly prefer x to y.1616In Jordan (2006), the sets Cxy and Cyx are identified as W and L.Definition 4.2An allocation ydominatesan allocation x, written yx, if (Cyx,x)>(Cxy,x) or, equivalently, if the coalition who strictly prefers y to x has more power with allocation x than does the coalition who strictly prefers x to y.
+[LINE#197+198+199]  Given allocations x and y, we let Cxy be the coalition of agents who strictly prefer x to y.1616In Jordan (2006), the sets Cxy and Cyx are identified as W and L.Definition 4.2An allocation ydominatesan allocation x, written yx, if (Cyx,x)>(Cxy,x) or, equivalently, if the coalition who strictly prefers y to x has more power with allocation x than does the coalition who strictly prefers x to y.
 0.898	[*A*]Cyx[*R*]are identified[*A*]as L.Definition 4.2An allocation ydominatesan allocation x , written yx	context(agents strictly prefer)	negated: False ,passive: True
 0.619	[*A*]we[*R*]let[*A*]Cxy be the coalition of agents who strictly prefer x to y.1616 In Jordan ( 2006 ) , Cyx are identified as L.Definition 4.2An allocation ydominatesan allocation x , written yx , if ( Cyx , x ) >	context()	negated: False ,passive: False
 0.845	[*A*]Cyx[*R*]are identified[*A*]as W allocation ydominatesan allocation x , written yx	context(agents strictly prefer)	negated: False ,passive: True
@@ -572,18 +572,18 @@
 0.897	[*A*]if the coalition[*R*]strictly prefers[*A*]y to x has more power with allocation x	context()	negated: False ,passive: False
 0.858	[*A*]Cxy[*R*]be[*A*]the coalition of agents	context(we let)	negated: False ,passive: True
 0.503	[*A*]we[*R*]let[*A*]Cxy be the coalition of agents	context()	negated: False ,passive: False
-[LINE#169] Definition 4.3Given allocations u and v , the associated balance of power locus is the set B(u,v)={xA:,x)}.When Cuv=Cvu=0,B(u,v)=A.
+[LINE#200+201+202]  Definition 4.3Given allocations u and v , the associated balance of power locus is the set B(u,v)={xA:,x)}.When Cuv=Cvu=0,B(u,v)=A.
 0.948	[*A*]the associated balance of power locus[*R*]is[*A*]the set	context()	negated: False ,passive: True
 0.800	[*A*]Definition 4.3Given allocations[*R*]u	context()	negated: False ,passive: False
-[LINE#170]is equivalent to uiivi for all iI.
-[LINE#171]The set of u and v satisfying this condition holds all agents to their indifference curves.
+[LINE#203] is equivalent to uiivi for all iI.
+[LINE#204] The set of u and v satisfying this condition holds all agents to their indifference curves.
 0.908	[*A*]The set v satisfying this condition[*R*]holds[*A*]all agents[*A*]to their indifference curves	context()	negated: False ,passive: False
 0.891	[*A*]The set of u[*R*]holds[*A*]all agents[*A*]to their indifference curves	context()	negated: False ,passive: False
-[LINE#172]Similarly, when Cuv0 but Cvu=0, a move from v to u is Pareto improving.
-[LINE#173]As shall be seen in the proof of Theorem 4.7, this need not imply that uv.
+[LINE#205] Similarly, when Cuv0 but Cvu=0, a move from v to u is Pareto improving.
+[LINE#206] As shall be seen in the proof of Theorem 4.7, this need not imply that uv.
 0.773	[*A*]this need[*R*]not imply[*A*]that uv	context()	negated: True ,passive: False
-[LINE#174] See Jordan (2006) for a motivation of stable sets as the appropriate solution concept:.
-[LINE#175]SA of allocations is 1.internally stable if no allocation in S dominates another allocation in S;2.externally stable if each y in AS is dominated by some x in S;3.stable if it is both internally and externally stable.
+[LINE#207]  See Jordan (2006) for a motivation of stable sets as the appropriate solution concept:.
+[LINE#208] SA of allocations is 1.internally stable if no allocation in S dominates another allocation in S;2.externally stable if each y in AS is dominated by some x in S;3.stable if it is both internally and externally stable.
 0.278	[*A*]it[*R*]is[*A*]externally stable	context()	negated: False ,passive: True
 0.893	[*A*]no allocation in S[*R*]dominates[*A*]another allocation[*A*]3.stable if it is externally stable	context()	negated: False ,passive: False
 0.827	[*A*]SA of allocations[*R*]is 2.externally stable[*A*]1.internally stable	context()	negated: False ,passive: True
@@ -591,13 +591,13 @@
 0.939	[*A*]each y in AS[*R*]is dominated[*A*]by some x in S	context()	negated: False ,passive: True
 0.949	[*A*]no allocation in S[*R*]dominates[*A*]another allocation[*A*]in S	context()	negated: False ,passive: False
 0.827	[*A*]SA of allocations[*R*]is 2.externally stable 3.stable[*A*]1.internally stable	context()	negated: False ,passive: True
-[LINE#176] The preceding and one more set of definitions will allow us to represent internally stable sets as subsets of more tractable objects: Definition 4.5B+(u,v){xA: (Cuv,x)>(Cvu,x)};B-(u,v){xA:(Cuv,x)<(Cvu,x)}=B+(v,u);B{B(u,v):u,vA;Cuv,Cvu0};B{B(u,v):u,vA;CuvCvu0}.
-[LINE#177] Thus, B is the set of balance of power loci, excluding those generated when at least one of Cuv or Cvu is empty; its cardinality is 3n-2n+1+1.
+[LINE#209+210+211]  The preceding and one more set of definitions will allow us to represent internally stable sets as subsets of more tractable objects: Definition 4.5B+(u,v){xA: (Cuv,x)>(Cvu,x)};B-(u,v){xA:(Cuv,x)<(Cvu,x)}=B+(v,u);B{B(u,v):u,vA;Cuv,Cvu0};B{B(u,v):u,vA;CuvCvu0}.
+[LINE#212]  Thus, B is the set of balance of power loci, excluding those generated when at least one of Cuv or Cvu is empty; its cardinality is 3n-2n+1+1.
 0.885	[*A*]at least one of Cuv or Cvu[*R*]is[*A*]empty	context(its cardinality is)	negated: False ,passive: True
 0.730	[*A*]B[*R*]is[*A*]the set of balance of power loci, excluding those	context(its cardinality is)	negated: False ,passive: True
 0.398	[*A*]its cardinality[*R*]is[*A*]3n	context()	negated: False ,passive: True
 0.083	[*A*]those[*R*]generated	context()	negated: False ,passive: False
-[LINE#178] Similarly, B is the set of balance of power loci for which no more than one of Cuv and Cvu is non-empty; its cardinality is 3n-1.It follows that no two allocations in an internally stable set can lie on the same side of the balance of power locus that they induce: Lemma 4.6An internally stable set cannot contain two allocations,u,vA, such that eitheru,vB+(u,v)oru,vB-(u,v)for someB(u,v)inB.ProofSuppose that a stable set S contains two allocations u and v that are in B+(u,v).
+[LINE#213+214+215+216]  Similarly, B is the set of balance of power loci for which no more than one of Cuv and Cvu is non-empty; its cardinality is 3n-1.It follows that no two allocations in an internally stable set can lie on the same side of the balance of power locus that they induce: Lemma 4.6An internally stable set cannot contain two allocations,u,vA, such that eitheru,vB+(u,v)oru,vB-(u,v)for someB(u,v)inB.ProofSuppose that a stable set S contains two allocations u and v that are in B+(u,v).
 0.870	[*A*]no more than one of Cvu[*R*]is[*A*]non-empty	context(its cardinality is 1.It follows Lemma 4.6An internally stable set can not contain)	negated: False ,passive: True
 0.816	[*A*]u[*R*]are[*A*]in B+	context()	negated: False ,passive: True
 0.884	[*A*]power locus[*R*]induce[*A*]they	context()	negated: False ,passive: True
@@ -610,7 +610,7 @@
 0.600	[*A*]vB - ( u[*R*]inB.ProofSuppose	context(Lemma 4.6An internally stable set can not contain)	negated: False ,passive: False
 0.940	[*A*]Lemma 4.6An internally stable set[*R*]can not contain[*A*]two allocations , u , vA	context()	negated: True ,passive: False
 0.911	[*A*]the balance of power locus[*R*]induce[*A*]they	context()	negated: False ,passive: True
-[LINE#179]Then, by definition, (Cuv,v)>(Cvu,v), so that u dominates v. This is impossible, since u and v are in S, and S is stable.
+[LINE#217] Then, by definition, (Cuv,v)>(Cvu,v), so that u dominates v. This is impossible, since u and v are in S, and S is stable.
 0.440	[*A*]This[*R*]is[*A*]impossible[*A*]since v are in S	context(u dominates)	negated: False ,passive: True
 0.778	[*A*]u[*R*]dominates[*A*]This is impossible , since v are in S	context()	negated: False ,passive: False
 0.840	[*A*]v[*R*]are[*A*]in S	context()	negated: False ,passive: True
@@ -620,12 +620,12 @@
 0.187	[*A*]This[*R*]is[*A*]impossible	context(u dominates S is)	negated: False ,passive: True
 0.619	[*A*]S[*R*]is[*A*]stable	context(u dominates)	negated: False ,passive: True
 0.505	[*A*]u[*R*]dominates	context()	negated: False ,passive: False
-[LINE#180]Similarly, S cannot contain two allocations u and v that are in B+(v,u), which is B-(u,v).
+[LINE#218] Similarly, S cannot contain two allocations u and v that are in B+(v,u), which is B-(u,v).
 0.847	[*A*]B+[*R*]is[*A*]u , v	context()	negated: False ,passive: True
 0.449	[*A*]v that[*R*]are[*A*]in B+	context()	negated: False ,passive: True
 0.906	[*A*]two allocations u[*R*]is[*A*]u , v	context()	negated: False ,passive: True
 0.894	[*A*]S[*R*]can not contain[*A*]two allocations u , u ) , which is B - ( u , v )	context()	negated: True ,passive: False
-[LINE#181]In the one-good world, the lemma implies the basis for the result that stable sets are finite (Jordan, 2006): no stable set can contain a sequence of four allocations, x1,,x4 over which one coalition of agents always prefers xk+1 to xk and an opposing, disjoint coalition always prefers the reverse.
+[LINE#219] In the one-good world, the lemma implies the basis for the result that stable sets are finite (Jordan, 2006): no stable set can contain a sequence of four allocations, x1,,x4 over which one coalition of agents always prefers xk+1 to xk and an opposing, disjoint coalition always prefers the reverse.
 0.945	[*A*]one coalition of agents[*R*]prefers[*A*]the reverse[*A*]always	context()	negated: False ,passive: False
 0.945	[*A*]one coalition of agents[*R*]prefers[*A*]xk+1[*A*]to an opposing[*A*]always	context()	negated: False ,passive: False
 0.900	[*A*]the lemma[*R*]implies[*A*]the basis for the result that stable sets are finite ( Jordan[*A*]In the one - good world	context(no stable set can contain)	negated: False ,passive: False
@@ -633,7 +633,7 @@
 0.934	[*A*]disjoint coalition[*R*]prefers[*A*]the reverse[*A*]always	context()	negated: False ,passive: False
 0.945	[*A*]one coalition of agents[*R*]prefers[*A*]xk+1[*A*]to xk[*A*]always	context()	negated: False ,passive: False
 0.918	[*A*]stable sets[*R*]are[*A*]finite ( Jordan	context()	negated: False ,passive: True
-[LINE#182]This allows us to establish the representation of an internally stable set: Theorem 4.7Any internally stable set,S, is a subset of the union of a finite number of each of: balance of power loci, isolated allocations, and allocations over which all agents are indifferent.
+[LINE#220] This allows us to establish the representation of an internally stable set: Theorem 4.7Any internally stable set,S, is a subset of the union of a finite number of each of: balance of power loci, isolated allocations, and allocations over which all agents are indifferent.
 0.943	[*A*]all agents[*R*]are[*A*]indifferent[*A*]allocations	context()	negated: False ,passive: True
 0.948	[*A*]Theorem 4.7Any[*R*]is[*A*]a subset of the union of a finite number of each of : balance of isolated allocations	context()	negated: False ,passive: True
 0.767	[*A*]all agents[*R*]are[*A*]indifferent	context()	negated: False ,passive: True
@@ -641,14 +641,14 @@
 0.300	[*A*]This[*R*]allows[*A*]us to establish the representation of an internally stable set	context(Theorem 4.7Any is)	negated: False ,passive: False
 0.948	[*A*]Theorem 4.7Any[*R*]is[*A*]a subset of the union of a finite number of each of	context()	negated: False ,passive: True
 0.943	[*A*]all agents[*R*]are[*A*]indifferent[*A*]power loci	context()	negated: False ,passive: True
-[LINE#183] ProofIndex the balance of power loci in B by j=1,.
-[LINE#184]Any xA may be located relative to the balance of power locus induced by uj,vj as follows: x{B-(uj,vj)B(uj,vj)B+(uj,vj)}j(x)={-101}.Case 1: if j(x)=0 for some x in S and j in {1,,B}, then x belongs to one of the 3n-1 balance of power loci in B, consistent with the theorem.
+[LINE#221]  ProofIndex the balance of power loci in B by j=1,.
+[LINE#222] Any xA may be located relative to the balance of power locus induced by uj,vj as follows: x{B-(uj,vj)B(uj,vj)B+(uj,vj)}j(x)={-101}.Case 1: if j(x)=0 for some x in S and j in {1,,B}, then x belongs to one of the 3n-1 balance of power loci in B, consistent with the theorem.
 0.903	[*A*]power locus[*R*]induced[*A*]by uj	context()	negated: False ,passive: True
 0.927	[*A*]Any xA[*R*]may be located[*A*]relative to the balance of power locus	context()	negated: False ,passive: True
-[LINE#185] Case 2: now consider those x in S for which j(x)0 for all j.
-[LINE#186]Thus, (1(x),,B(x)) takes on one of 23n-1 values, a finite number.
+[LINE#223]  Case 2: now consider those x in S for which j(x)0 for all j.
+[LINE#224] Thus, (1(x),,B(x)) takes on one of 23n-1 values, a finite number.
 0.156	[*A*]1(x[*R*]takes	context()	negated: False ,passive: False
-[LINE#187] By Lemma 4.6, there cannot also be a y in Sfor all j in {1,,B}; were there, one of x and y would dominate the other, violating internal stability.
+[LINE#225+226]  By Lemma 4.6, there cannot also be a y in Sfor all j in {1,,B}; were there, one of x and y would dominate the other, violating internal stability.
 0.838	[*A*]one of y[*R*]would dominate the other violating[*A*]internal stability	context(one of y would dominate)	negated: False ,passive: False
 0.888	[*A*]one of y[*R*]would dominate[*A*]the other[*A*]violating internal stability	context()	negated: False ,passive: False
 0.611	[*A*]1 ,, B[*R*]were[*A*]there	context()	negated: False ,passive: True
@@ -656,114 +656,114 @@
 0.494	[*A*]one of x[*R*]would dominate the other violating[*A*]internal stability	context(one of x would dominate)	negated: False ,passive: False
 0.599	[*A*]one of x[*R*]would dominate[*A*]the other[*A*]violating internal stability	context()	negated: False ,passive: False
 0.945	[*A*]a y in Sfor[*R*]j[*A*]in { 1 ,, B	context()	negated: False ,passive: True
-[LINE#188]Thus, there are at most 23n-1 allocations that do not lie on one of the balance of power loci in B, consistent with the theorem.
+[LINE#227] Thus, there are at most 23n-1 allocations that do not lie on one of the balance of power loci in B, consistent with the theorem.
 0.953	[*A*]most 23n-1 allocations[*R*]do not lie[*A*]on one of the balance of power loci in B, consistent with the theorem	context()	negated: True ,passive: True
-[LINE#189]Case 3: the last case to consider is that when x and y in S are such that both the sets Cxy and Cyx are empty.
+[LINE#228] Case 3: the last case to consider is that when x and y in S are such that both the sets Cxy and Cyx are empty.
 0.675	[*A*]Cyx[*R*]are[*A*]empty	context()	negated: False ,passive: True
 0.806	[*A*]Case 3[*R*]is	context()	negated: False ,passive: False
 0.675	[*A*]Cxy[*R*]are[*A*]empty	context()	negated: False ,passive: True
 0.838	[*A*]Case 3[*R*]is[*A*]that both the sets Cxy are empty	context()	negated: False ,passive: True
-[LINE#190]In this case, xiy for all i in I, the indifference loci in the theorem's statement.
-[LINE#191]Suppose that there exists a second pair, x and y in S, such that xiy for all i in I.
-[LINE#192] To show that only finitely many such indifference intersections arise, consider two further subcases:if xixiyiy for all i in I then x and y lie on the same intersection of indifference loci, consistent with the theorem.
+[LINE#229] In this case, xiy for all i in I, the indifference loci in the theorem's statement.
+[LINE#230] Suppose that there exists a second pair, x and y in S, such that xiy for all i in I.
+[LINE#231+232]  To show that only finitely many such indifference intersections arise, consider two further subcases:if xixiyiy for all i in I then x and y lie on the same intersection of indifference loci, consistent with the theorem.
 0.497	[*A*]all[*R*]y lie[*A*]on the same intersection of indifference loci , consistent with the theorem	context()	negated: False ,passive: True
 0.303	[*A*]all[*R*]x[*A*]then	context()	negated: False ,passive: True
-[LINE#193]otherwise, without loss of generality, there exists at least one agent i in I for whom xix, so that at least one of Cxx and Cxx is non-empty.
+[LINE#233] otherwise, without loss of generality, there exists at least one agent i in I for whom xix, so that at least one of Cxx and Cxx is non-empty.
 0.905	[*A*]at least one of Cxx and Cxx[*R*]is[*A*]non-empty	context()	negated: False ,passive: True
-[LINE#194] Then, for each of x and x, if there exists a j in {1,,B}such that j(x) or j(x) equals zero, case 1, above, applies.
+[LINE#234+235]  Then, for each of x and x, if there exists a j in {1,,B}such that j(x) or j(x) equals zero, case 1, above, applies.
 0.680	[*A*]j(x) or j(x[*R*]applies	context()	negated: False ,passive: False
 0.928	[*A*]j(x) or j(x[*R*]equals[*A*]zero, case 1, above, applies[*A*]Then	context()	negated: False ,passive: True
 0.635	[*A*]j(x[*R*]j	context()	negated: False ,passive: False
 0.589	[*A*]j[*R*]x	context()	negated: False ,passive: False
-[LINE#195]Otherwise case 2 applies, and we are done.
+[LINE#236] Otherwise case 2 applies, and we are done.
 0.195	[*A*]we[*R*]are done	context()	negated: False ,passive: False
 0.732	[*A*]case 2[*R*]applies	context()	negated: False ,passive: False
-[LINE#196] Thus, Jordan's conjecture can be settled if the elements identified by the theorem can be bounded: the isolated allocations, as countable sets, have measure and dimension zero; Theorems 2.1 and 3.2 bound the indifferent allocations; the balance of power loci have not yet been bounded.
+[LINE#237+238]  Thus, Jordan's conjecture can be settled if the elements identified by the theorem can be bounded: the isolated allocations, as countable sets, have measure and dimension zero; Theorems 2.1 and 3.2 bound the indifferent allocations; the balance of power loci have not yet been bounded.
 0.903	[*A*]the elements[*R*]identified[*A*]by the theorem	context()	negated: False ,passive: True
-[LINE#197]Before bounding them, thus settling the conjecture, note that they belong to a measure zero subset of allocation space, ARmn, but the natural domain of Jordan's conjecture is what we shall define as Edgeworth space, ERm(n-1).
+[LINE#239] Before bounding them, thus settling the conjecture, note that they belong to a measure zero subset of allocation space, ARmn, but the natural domain of Jordan's conjecture is what we shall define as Edgeworth space, ERm(n-1).
 0.443	[*A*]we[*R*]shall define[*A*]as Edgeworth space , ERm ( n - 1	context(Before bounding them , thus settling the conjecture , note the natural domain of Jordan 's conjecture is)	negated: False ,passive: False
 0.919	[*A*]Before bounding them , thus settling the conjecture , note the natural domain of Jordan 's conjecture[*R*]is[*A*]what we shall define as Edgeworth space , ERm ( n - 1	context()	negated: False ,passive: True
-[LINE#198]As these two spaces are different, Theorems 2.1 and 3.2 cannot be immediately applied to bound balance of power loci.
+[LINE#240] As these two spaces are different, Theorems 2.1 and 3.2 cannot be immediately applied to bound balance of power loci.
 0.936	[*A*]Theorems 3.2[*R*]can not be applied[*A*]to bound balance of power loci[*A*]immediately	context()	negated: True ,passive: True
 0.936	[*A*]Theorems 2.1[*R*]can not be applied[*A*]to bound balance of power loci[*A*]immediately	context()	negated: True ,passive: True
 0.783	[*A*]these two spaces[*R*]are[*A*]different	context()	negated: False ,passive: True
-[LINE#199]We therefore first show that E can be identified with A in such a way that null sets in one of these spaces correspond to null sets in the other.
+[LINE#241] We therefore first show that E can be identified with A in such a way that null sets in one of these spaces correspond to null sets in the other.
 0.541	[*A*]E[*R*]can be identified[*A*]with A	context(We show)	negated: False ,passive: True
 0.427	[*A*]We[*R*]show[*A*]that E can be identified with A in such a way that null sets in one of these spaces correspond to null sets in the other[*A*]first	context()	negated: False ,passive: False
 0.938	[*A*]null sets in one of these spaces[*R*]correspond[*A*]to null sets in the other	context()	negated: False ,passive: True
-[LINE#200]Before proceeding, we fix concepts in the familiar two-good two-agent Edgeworth box.
+[LINE#242] Before proceeding, we fix concepts in the familiar two-good two-agent Edgeworth box.
 0.661	[*A*]we[*R*]fix[*A*]concepts[*A*]Before proceeding	context()	negated: False ,passive: False
-[LINE#201]Here the allocation space lies in R4, but the Edgeworth box lies in R2.
+[LINE#243] Here the allocation space lies in R4, but the Edgeworth box lies in R2.
 0.944	[*A*]the Edgeworth box[*R*]lies[*A*]in R2	context()	negated: False ,passive: True
 0.957	[*A*]the allocation space[*R*]lies[*A*]in R4[*A*]Here	context()	negated: False ,passive: True
-[LINE#202](1906) who made the appealing geometric observation that each point in the unit square [0,1]2 in R2 represents the allocation to the first agent, and the co-ordinates of this same point relative to a new origin taken at (1,1) (and all co-ordinate directions reversed) give the allocation to the second agent.
+[LINE#244] (1906) who made the appealing geometric observation that each point in the unit square [0,1]2 in R2 represents the allocation to the first agent, and the co-ordinates of this same point relative to a new origin taken at (1,1) (and all co-ordinate directions reversed) give the allocation to the second agent.
 0.949	[*A*]the co-ordinates of this same point relative to a new origin[*R*]give[*A*]the allocation[*A*]to the second agent	context()	negated: False ,passive: False
 0.783	[*A*]a new origin[*R*]taken[*A*]at ( 1,1	context()	negated: False ,passive: True
 0.921	[*A*]each point in the unit square[*R*]represents[*A*]the allocation	context()	negated: False ,passive: False
 0.416	[*A*]1906[*R*]made[*A*]the appealing geometric observation that each point in the unit square [ 0,1 ] 2 in R2 represents the allocation to the first agent	context()	negated: False ,passive: False
-[LINE#203]The essential feature is that the Edgeworth box lies in a lower dimensional space than does the set of allocations.
+[LINE#245] The essential feature is that the Edgeworth box lies in a lower dimensional space than does the set of allocations.
 0.918	[*A*]the Edgeworth box[*R*]lies[*A*]in a lower dimensional space	context(The essential feature is)	negated: False ,passive: True
 0.885	[*A*]The essential feature[*R*]is[*A*]that the Edgeworth box lies in a lower dimensional space	context()	negated: False ,passive: True
-[LINE#204]To proceed beyond this dominant case, consider the special case in which a unit endowment of a single good is shared between the agents in I.
+[LINE#246] To proceed beyond this dominant case, consider the special case in which a unit endowment of a single good is shared between the agents in I.
 0.970	[*A*]a unit endowment of a single good[*R*]is shared[*A*]between the agents in I.[*A*]the special case	context()	negated: False ,passive: True
-[LINE#205]Then the allocation space reduces to (4.1)A1={(x1,,xn)Rn:xj0,x1++xn=1}, where xj is the allocation to agent j.
+[LINE#247] Then the allocation space reduces to (4.1)A1={(x1,,xn)Rn:xj0,x1++xn=1}, where xj is the allocation to agent j.
 0.732	[*A*]the allocation[*R*]to agent	context()	negated: False ,passive: False
 0.852	[*A*]xj[*R*]is[*A*]the allocation to agent	context()	negated: False ,passive: True
 0.972	[*A*]the allocation space[*R*]reduces[*A*]to (4.1)A1={(x1,,xn)Rn[*A*]Then	context()	negated: False ,passive: False
-[LINE#206] As xn is completely determined by the other allocations via xn=1-(x1++xn-1), it is sufficient to consider the corresponding Edgeworth space(4.2)E1={(x1,.
+[LINE#248]  As xn is completely determined by the other allocations via xn=1-(x1++xn-1), it is sufficient to consider the corresponding Edgeworth space(4.2)E1={(x1,.
 0.568	[*A*]it[*R*]is[*A*]sufficient to consider the corresponding Edgeworth space	context()	negated: False ,passive: True
 0.820	[*A*]xn[*R*]is determined[*A*]by the other allocations via xn=1-(x1++xn-1	context()	negated: False ,passive: True
-[LINE#207] However, it is convenient to embed Rn-1 in Rn by identifying it with the subset {xn=0}, yielding E1={(x1,.
-[LINE#208]In these circumstances, the Edgeworth map, E, is the vertical projection map of Rn onto Rn-1{0} given by E(x1,,xn)=(x1,,xn-1,0).
+[LINE#249]  However, it is convenient to embed Rn-1 in Rn by identifying it with the subset {xn=0}, yielding E1={(x1,.
+[LINE#250] In these circumstances, the Edgeworth map, E, is the vertical projection map of Rn onto Rn-1{0} given by E(x1,,xn)=(x1,,xn-1,0).
 0.385	[*A*]0[*R*]given[*A*]by E(x1	context()	negated: False ,passive: True
 0.985	[*A*]the Edgeworth map, E[*R*]is[*A*]the vertical projection map of Rn onto Rn-1[*A*]In these circumstances	context()	negated: False ,passive: True
-[LINE#209] Thus, E maps A1 bijectively onto E1.The case of n=3 is illustrated in Fig..
+[LINE#251]  Thus, E maps A1 bijectively onto E1.The case of n=3 is illustrated in Fig..
 0.968	[*A*]E maps A1 bijectively onto E1.The case of n=3[*R*]is illustrated[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#210] In this case, A1 is the triangle in R3 with vertices (1,0,0),(0,1,0) and (0,0,1), and E1 is the triangle in R2 with vertices.
+[LINE#252]  In this case, A1 is the triangle in R3 with vertices (1,0,0),(0,1,0) and (0,0,1), and E1 is the triangle in R2 with vertices.
 0.970	[*A*]A1[*R*]is[*A*]the triangle in R3 with vertices[*A*]In this case	context()	negated: False ,passive: True
 0.931	[*A*]E1[*R*]is[*A*]the triangle in R2 with vertices	context()	negated: False ,passive: True
-[LINE#211]If we identify E1 with a subset of the plane x3=0, then we can regard E1 as the triangle in R3 with vertices (0,0,0),(0,1,0) and (1,0,0), and A1 projects vertically downwards onto E1.This reasoning extends to the case of n agents and m goods, each with unit aggregate.
+[LINE#253] If we identify E1 with a subset of the plane x3=0, then we can regard E1 as the triangle in R3 with vertices (0,0,0),(0,1,0) and (1,0,0), and A1 projects vertically downwards onto E1.This reasoning extends to the case of n agents and m goods, each with unit aggregate.
 0.953	[*A*]A1 projects vertically downwards onto E1.This reasoning[*R*]extends[*A*]to the case of m goods	context()	negated: False ,passive: True
 0.953	[*A*]A1 projects vertically downwards onto E1.This reasoning[*R*]extends[*A*]to the case of n agents	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]can regard[*A*]E1[*A*]as the triangle in R3 with vertices 0	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]can regard[*A*]E1[*A*]as the triangle in R3 with vertices	context()	negated: False ,passive: False
 0.225	[*A*]we[*R*]identify[*A*]E1	context()	negated: False ,passive: False
-[LINE#212]The allocation and Edgeworth spaces are now the spaces (4.3)AA1A1Rmn,EE1E1Rm(n-1), respectively, where each product has m factors.
+[LINE#254] The allocation and Edgeworth spaces are now the spaces (4.3)AA1A1Rmn,EE1E1Rm(n-1), respectively, where each product has m factors.
 0.903	[*A*]Edgeworth spaces[*R*]are[*A*]now[*A*]the spaces	context()	negated: False ,passive: True
 0.925	[*A*]each product[*R*]has m[*A*]factors	context()	negated: False ,passive: False
 0.911	[*A*]The allocation spaces[*R*]are[*A*]now[*A*]the spaces	context()	negated: False ,passive: True
-[LINE#213]As above, we can identify E with a subset of Rmn in which n of the co-ordinates are zero.
+[LINE#255] As above, we can identify E with a subset of Rmn in which n of the co-ordinates are zero.
 0.595	[*A*]we[*R*]can identify[*A*]E[*A*]As above	context()	negated: False ,passive: False
-[LINE#214] Then: Definition 4.8The Edgeworth mapE of A onto E is the map obtained by applying the map E to each factor of A.Theorem 4.9The Edgeworth mapEofAontoEsatisfies(4.4)E(x)-E(y)x-y2mnE(x)-E(y).ProofSince,xm,n-1,xm,n)); the first inequality in (4.4) is clear.
-[LINE#215]To verify the second inequality, recall that xj,n=1-(xj,1++xj,n-1).
-[LINE#216]Further, for all u and v in Rp,u-v1pu-vpu-v1, where 1 is the taxicab metric, u-v1j=1p|uj-vj|.
+[LINE#256+257]  Then: Definition 4.8The Edgeworth mapE of A onto E is the map obtained by applying the map E to each factor of A.Theorem 4.9The Edgeworth mapEofAontoEsatisfies(4.4)E(x)-E(y)x-y2mnE(x)-E(y).ProofSince,xm,n-1,xm,n)); the first inequality in (4.4) is clear.
+[LINE#258] To verify the second inequality, recall that xj,n=1-(xj,1++xj,n-1).
+[LINE#259] Further, for all u and v in Rp,u-v1pu-vpu-v1, where 1 is the taxicab metric, u-v1j=1p|uj-vj|.
 0.612	[*A*]1[*R*]is[*A*]the taxicab metric , u-v1j=1p | uj-vj |	context()	negated: False ,passive: True
 0.738	[*A*]1[*R*]is[*A*]the taxicab metric , u-v1j=1p | uj-vj |[*A*]Further and v in Rp	context()	negated: False ,passive: True
-[LINE#217] Thus, x-yj=1mi=1n(xj,i-yj,i)2x -y1j=1mi=1n|xj,i-yj,i|=E(x)-E(y)1+j=1m|xj ,n-yj,n|E(x)-E(y)1+j=1mi=1n-1|xj,i-yj,i|=2E(x)-E(y)12mnE(x)-E(y).
-[LINE#218]The theorem thus establishes that the Edgeworth map E is bi-Lipschitz, so that null sets in A correspond to null sets in E, and conversely.
+[LINE#260+261+262+263]  Thus, x-yj=1mi=1n(xj,i-yj,i)2x -y1j=1mi=1n|xj,i-yj,i|=E(x)-E(y)1+j=1m|xj ,n-yj,n|E(x)-E(y)1+j=1mi=1n-1|xj,i-yj,i|=2E(x)-E(y)12mnE(x)-E(y).
+[LINE#264] The theorem thus establishes that the Edgeworth map E is bi-Lipschitz, so that null sets in A correspond to null sets in E, and conversely.
 0.803	[*A*]the Edgeworth map E[*R*]is[*A*]bi-Lipschitz	context(The theorem establishes)	negated: False ,passive: True
 0.689	[*A*]The theorem[*R*]establishes[*A*]that the Edgeworth map E is bi-Lipschitz	context()	negated: False ,passive: False
 0.949	[*A*]the Edgeworth map E[*R*]is[*A*]bi-Lipschitz , so null sets in A correspond to null sets in E , and conversely	context(The theorem establishes)	negated: False ,passive: True
 0.780	[*A*]The theorem[*R*]establishes[*A*]that the Edgeworth map E is bi-Lipschitz , so null sets in A correspond to null sets in E , and conversely	context()	negated: False ,passive: False
-[LINE#219] We may now resolve the question of bounding balance of power loci:.
+[LINE#265]  We may now resolve the question of bounding balance of power loci:.
 0.490	[*A*]We[*R*]may resolve[*A*]the question of bounding balance of power loci:.[*A*]now	context()	negated: False ,passive: False
-[LINE#220]Lemma 4.10GivenuandvinA, the balance of power locusB(u,v)hasm(n-1)-dimensional measure zero.
-[LINE#221]Even with Theorem 4.9, Theorem 2.1 cannot yet be directly applied as the aggregate endowment constraint prevents xy for any allocations x and y.
+[LINE#266] Lemma 4.10GivenuandvinA, the balance of power locusB(u,v)hasm(n-1)-dimensional measure zero.
+[LINE#267] Even with Theorem 4.9, Theorem 2.1 cannot yet be directly applied as the aggregate endowment constraint prevents xy for any allocations x and y.
 0.919	[*A*]the aggregate endowment constraint[*R*]prevents[*A*]xy	context()	negated: False ,passive: False
 0.959	[*A*]Theorem 2.1[*R*]can not be directly applied[*A*]as the aggregate endowment constraint prevents xy for any allocations[*A*]yet	context()	negated: True ,passive: True
-[LINE#222]The proof therefore relies on a measure-preserving orthogonal map.
+[LINE#268] The proof therefore relies on a measure-preserving orthogonal map.
 0.887	[*A*]The proof[*R*]relies[*A*]on a measure-preserving orthogonal map	context()	negated: False ,passive: False
-[LINE#223] ProofTake three allocations u,v and x in ARmn with x=(x1,.
+[LINE#269]  ProofTake three allocations u,v and x in ARmn with x=(x1,.
 0.754	[*A*]three allocations[*R*]x	context()	negated: False ,passive: False
-[LINE#224]Now define a map :RmnRmn by (x1,,xn:u,v)(x1,,xn), where xi{xiif iCvu-xiif iCvu.
+[LINE#270] Now define a map :RmnRmn by (x1,,xn:u,v)(x1,,xn), where xi{xiif iCvu-xiif iCvu.
 0.754	[*A*]a map[*R*]RmnRmn	context()	negated: False ,passive: False
-[LINE#225]Obviously  depends parametrically on u and v; for simplicity, we omit this dependence in the notation.
+[LINE#271] Obviously  depends parametrically on u and v; for simplicity, we omit this dependence in the notation.
 0.388	[*A*]we[*R*]omit[*A*]this dependence in the notation	context()	negated: False ,passive: False
-[LINE#226]We now establish that (B(u,v)) is an efficient set in Rmn (although not in the positive orthant).
+[LINE#272] We now establish that (B(u,v)) is an efficient set in Rmn (although not in the positive orthant).
 0.900	[*A*]B(u,v[*R*]is[*A*]an efficient set in Rmn	context(We establish)	negated: False ,passive: True
 0.403	[*A*]We[*R*]establish[*A*]that (B(u,v)) is an efficient set in Rmn (although not in the positive orthant[*A*]now	context()	negated: False ,passive: False
-[LINE#227] Were it otherwise, there would exist allocations x and y in B(u,v).
-[LINE#228]In turn, as this sets xiyi for all iCvu and yixi for all other agents, SR implies (4.5)(Cvu,x)>(Cvu,y)=(Cuv,y)>(Cuv,x); so that xB(u,v), a contradiction proving that (B(u,v)) is an efficient set.
+[LINE#273]  Were it otherwise, there would exist allocations x and y in B(u,v).
+[LINE#274] In turn, as this sets xiyi for all iCvu and yixi for all other agents, SR implies (4.5)(Cvu,x)>(Cvu,y)=(Cuv,y)>(Cuv,x); so that xB(u,v), a contradiction proving that (B(u,v)) is an efficient set.
 0.999	[*A*]SR[*R*]implies[*A*]4.5	context()	negated: False ,passive: False
 0.886	[*A*]B ( u , v[*R*]is[*A*]an efficient set	context(a contradiction proving)	negated: False ,passive: True
 0.840	[*A*]a contradiction[*R*]proving[*A*]that ( B ( u , v ) ) is an efficient set	context()	negated: False ,passive: False
@@ -773,32 +773,32 @@
 0.806	[*A*]xB ( u , v[*R*]proving[*A*]that ( B ( u , v ) ) is an efficient set	context()	negated: False ,passive: False
 0.944	[*A*]SR[*R*]implies[*A*]as this sets xiyi for all iCvu for all other agents	context()	negated: False ,passive: False
 0.425	[*A*]this[*R*]sets xiyi[*A*]for all iCvu for all other agents	context()	negated: False ,passive: False
-[LINE#229]By Theorem 2.1, mn((B(u,v)))=0.
-[LINE#230]By Theorem 4.9, its projection into the Edgeworth space is also null, m(n-1)(E((B(u,v))))=0.
+[LINE#275] By Theorem 2.1, mn((B(u,v)))=0.
+[LINE#276] By Theorem 4.9, its projection into the Edgeworth space is also null, m(n-1)(E((B(u,v))))=0.
 0.622	[*A*]its projection into the Edgeworth space[*R*]is[*A*]also[*A*]null	context()	negated: False ,passive: True
-[LINE#231]As  is an orthogonal map, it preserves Euclidean distances, and therefore measures.
+[LINE#277] As  is an orthogonal map, it preserves Euclidean distances, and therefore measures.
 0.452	[*A*]it[*R*]preserves[*A*]Euclidean distances	context()	negated: False ,passive: False
-[LINE#232] The preceding establishes Jordan's conjecture:.
+[LINE#278]  The preceding establishes Jordan's conjecture:.
 0.613	[*A*]The preceding[*R*]establishes[*A*]Jordan's c	context()	negated: False ,passive: False
-[LINE#233]Theorem 4.11A stable set,SinAhasm(n-1)-dimensional measure zero.
-[LINE#234] Appealing to Theorem 3.2 instead of Theorem 2.1 bounds the Hausdorff dimension of balance of power loci, establishing a stronger and more natural interpretation of Jordan's conjecture: Theorem 4.12A stable set,S, inAhas dimension less than or equal tom(n-1)-1.We conclude by illustrating the preceding arguments in a two-good, two-agent Edgeworth box, depicted in Fig..
+[LINE#279] Theorem 4.11A stable set,SinAhasm(n-1)-dimensional measure zero.
+[LINE#280+281]  Appealing to Theorem 3.2 instead of Theorem 2.1 bounds the Hausdorff dimension of balance of power loci, establishing a stronger and more natural interpretation of Jordan's conjecture: Theorem 4.12A stable set,S, inAhas dimension less than or equal tom(n-1)-1.We conclude by illustrating the preceding arguments in a two-good, two-agent Edgeworth box, depicted in Fig..
 0.965	[*A*]a two-good, two-agent Edgeworth box[*R*]depicted[*A*]in Fig	context()	negated: False ,passive: True
 0.938	[*A*]2.1 bounds[*R*]establishing[*A*]a stronger and more natural interpretation of Jordan's conjecture	context()	negated: False ,passive: False
-[LINE#235] The power function is an extension of Jordan's wealth is power function, W(C,x)iC[x1i+(1-)x2i] for some (0,1).1717See.
-[LINE#236]Rowat (2009) for a more detailed presentation.
-[LINE#237]The power function depicted sets >12.
+[LINE#282]  The power function is an extension of Jordan's wealth is power function, W(C,x)iC[x1i+(1-)x2i] for some (0,1).1717See.
+[LINE#283] Rowat (2009) for a more detailed presentation.
+[LINE#284] The power function depicted sets >12.
 0.751	[*A*]The power function[*R*]depicted	context()	negated: False ,passive: False
-[LINE#238] The dashed line denotes the balance of power locus, B(t1,t2), where ti is agenti's tyrannical allocation, granting it the whole endowment.
+[LINE#285+286]  The dashed line denotes the balance of power locus, B(t1,t2), where ti is agenti's tyrannical allocation, granting it the whole endowment.
 0.737	[*A*]The dashed line[*R*]denotes the balance of power locus granting[*A*]it[*A*]the whole endowment	context(The dashed line denotes)	negated: False ,passive: False
 0.811	[*A*]The dashed line[*R*]denotes[*A*]the balance of power locus[*A*]granting it the whole endowment	context()	negated: False ,passive: False
 0.561	[*A*]ti[*R*]is agenti	context()	negated: False ,passive: False
-[LINE#239]By SR, agent 1 is strictly more powerful than agent 2 for allocations to its northeast, and vice versa.
+[LINE#287] By SR, agent 1 is strictly more powerful than agent 2 for allocations to its northeast, and vice versa.
 0.887	[*A*]agent 1[*R*]is versa[*A*]strictly more powerful than agent 2 for allocations to its vice	context()	negated: False ,passive: True
 0.500	[*A*]SR[*R*][is][*A*]agent	context()	negated: False ,passive: False
 0.915	[*A*]agent 1[*R*]is[*A*]strictly more powerful than agent 2 for allocations to its northeast	context()	negated: False ,passive: True
-[LINE#240]The indifference curve for each agent tangent to the balance of power locus is labeled as i.
+[LINE#288] The indifference curve for each agent tangent to the balance of power locus is labeled as i.
 0.905	[*A*]The indifference curve for each agent tangent to the balance of power locus[*R*]is labeled[*A*]as	context()	negated: False ,passive: True
-[LINE#241]The interval of allocations lying between the two tangencies forms an internally stable set as, for any x and y along that locus, agents 1 and 2 are opposed in interests, but equally powerful.
+[LINE#289] The interval of allocations lying between the two tangencies forms an internally stable set as, for any x and y along that locus, agents 1 and 2 are opposed in interests, but equally powerful.
 0.767	[*A*]agents 2[*R*]are[*A*]equally powerful	context()	negated: False ,passive: True
 0.767	[*A*]agents 1[*R*]are[*A*]equally powerful	context()	negated: False ,passive: True
 0.927	[*A*]The interval of allocations[*R*]forms[*A*]an internally stable set	context()	negated: False ,passive: False
@@ -807,26 +807,26 @@
 0.342	[*A*]1[*R*]opposed[*A*]in interests	context()	negated: False ,passive: True
 0.381	[*A*]1[*R*]are[*A*]opposed in interests	context()	negated: False ,passive: True
 0.894	[*A*]allocations[*R*]lying[*A*]between the two tangencies	context()	negated: False ,passive: True
-[LINE#242]Adding {t1,t2} to this set leaves it internally stable, while making it externally stable as well.
+[LINE#290] Adding {t1,t2} to this set leaves it internally stable, while making it externally stable as well.
 0.909	[*A*]Adding {t1,t2} to this set[*R*]leaves[*A*]it[*A*]internally stable[*A*]while making it externally stable as well	context()	negated: False ,passive: False
-[LINE#243]Consistent with Theorem 4.7, it is a subset of a balance of power locus, B(t1,t2), and the isolated tyrannical allocations; it has zero area, and is a curve of Hausdorff dimension one, a stronger claim.
+[LINE#291] Consistent with Theorem 4.7, it is a subset of a balance of power locus, B(t1,t2), and the isolated tyrannical allocations; it has zero area, and is a curve of Hausdorff dimension one, a stronger claim.
 0.522	[*A*]it[*R*]is[*A*]a subset of a balance of power	context()	negated: False ,passive: True
 0.467	[*A*]it[*R*]is[*A*]a subset of a balance of power	context(it has)	negated: False ,passive: True
 0.467	[*A*]it[*R*]has[*A*]zero area	context()	negated: False ,passive: False
 0.522	[*A*]it[*R*]is[*A*]a subset of a balance of power locus	context()	negated: False ,passive: True
-[LINE#244] This example illustrates both the finite bound on stable sets in the one-good world(Jordan, 2006), and how it must be modified for multiple goods.
+[LINE#292+293]  This example illustrates both the finite bound on stable sets in the one-good world(Jordan, 2006), and how it must be modified for multiple goods.
 0.452	[*A*]it[*R*]must be modified[*A*]for multiple goods	context()	negated: False ,passive: True
 0.911	[*A*]both the finite[*R*]bound[*A*]on stable sets in the one - good world	context()	negated: False ,passive: True
 0.732	[*A*]This example[*R*]illustrates	context()	negated: False ,passive: False
-[LINE#245]Simulate a single good by considering only allocations ordered by  for agent i.
+[LINE#294] Simulate a single good by considering only allocations ordered by  for agent i.
 0.903	[*A*]only allocations[*R*]ordered[*A*]by[*A*]for agent	context()	negated: False ,passive: True
-[LINE#246]Then, an internally stable set may contain a sequence of three allocations, t11y1t12, where yB(t1,t2) lies between the tangencies; Lemma 4.6 prevents addition of a fourth ordered allocation to a stable set.
+[LINE#295] Then, an internally stable set may contain a sequence of three allocations, t11y1t12, where yB(t1,t2) lies between the tangencies; Lemma 4.6 prevents addition of a fourth ordered allocation to a stable set.
 0.942	[*A*]an internally stable set[*R*]may contain[*A*]a sequence of three allocations, t11y1t12[*A*]Then	context(Lemma 4.6 prevents)	negated: False ,passive: False
 0.942	[*A*]Lemma 4.6[*R*]prevents[*A*]addition of a fourth ordered allocation to a stable set	context()	negated: False ,passive: False
 0.922	[*A*]yB(t1[*R*]lies[*A*]between the tangencies	context()	negated: False ,passive: True
-[LINE#247]However, with two goods, an internally stable, infinite sequence xk for k=1, such that agent 1 prefers each xk+1 to each xk, and agent 2 the reverse, can be constructed by using allocations in the interval of the balance of power locus.
+[LINE#296] However, with two goods, an internally stable, infinite sequence xk for k=1, such that agent 1 prefers each xk+1 to each xk, and agent 2 the reverse, can be constructed by using allocations in the interval of the balance of power locus.
 0.698	[*A*]agent 2[*R*]can be constructed	context()	negated: False ,passive: False
 0.903	[*A*]agent 1[*R*]prefers[*A*]each xk+1[*A*]to each xk	context()	negated: False ,passive: False
-[LINE#248]Intuitively, multiple goods break the monotonicity in Jordan (2006) between utility and power, maintaining stability by holding the middle allocation of Jordan's sequence fixed in power space, while 'stretching' it in utility space.
+[LINE#297] Intuitively, multiple goods break the monotonicity in Jordan (2006) between utility and power, maintaining stability by holding the middle allocation of Jordan's sequence fixed in power space, while 'stretching' it in utility space.
 0.933	[*A*]Jordan's sequence[*R*]fixed[*A*]in power space	context()	negated: False ,passive: True
 0.947	[*A*]multiple goods[*R*]break[*A*]the monotonicity in Jordan (2006) between utility and power, maintaining stability by holding the middle allocation of Jordan's sequence	context()	negated: False ,passive: False

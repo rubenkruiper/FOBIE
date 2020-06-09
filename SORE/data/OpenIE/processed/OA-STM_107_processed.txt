@@ -1,29 +1,29 @@
-[LINE#1]The paper presents a numerical model for bore-driven swash on permeable coarse-grained beaches.
+[LINE#0] The paper presents a numerical model for bore-driven swash on permeable coarse-grained beaches.
 0.937	[*A*]The paper[*R*]presents[*A*]a numerical model for bore-driven swash on permeable coarse-grained beaches	context()	negated: False ,passive: False
-[LINE#2]The surface flow module is modelled using the non-linear shallow water equations (NLSWEs), solved using the Godunov-based finite volume ADER scheme, which is suitable for handling steep bores as well as large source terms in the NLSWEs.
+[LINE#1] The surface flow module is modelled using the non-linear shallow water equations (NLSWEs), solved using the Godunov-based finite volume ADER scheme, which is suitable for handling steep bores as well as large source terms in the NLSWEs.
 0.980	[*A*]the Godunov-based finite volume ADER scheme[*R*]is[*A*]suitable for handling steep bores as well as large source terms in the NLSWEs	context()	negated: False ,passive: True
 0.919	[*A*]The surface flow module[*R*]is modelled[*A*]using the non-linear shallow water equations	context()	negated: False ,passive: True
-[LINE#3](i) infiltration and exfiltration modelled as vertical piston-like flow, (ii) horizontal pore-air movement within the unsaturated region of the beach, (iii) the horizontal groundwater flow.
+[LINE#2] (i) infiltration and exfiltration modelled as vertical piston-like flow, (ii) horizontal pore-air movement within the unsaturated region of the beach, (iii) the horizontal groundwater flow.
 0.894	[*A*]exfiltration[*R*]modelled[*A*]as vertical piston - like flow	context()	negated: False ,passive: True
 0.937	[*A*](i) infiltration[*R*]modelled[*A*]as vertical piston - like flow[*A*]ii ) horizontal pore-air movement within the unsaturated region of the beach , ( iii ) the horizontal groundwater flow	context()	negated: False ,passive: False
-[LINE#4]Model predictions of the surface and subsurface flow are in good agreement with measurements from large-scale laboratory experiments for swash on permeable, immobile beaches.
+[LINE#3] Model predictions of the surface and subsurface flow are in good agreement with measurements from large-scale laboratory experiments for swash on permeable, immobile beaches.
 0.937	[*A*]subsurface flow[*R*]are[*A*]in good agreement with measurements from large - scale laboratory experiments for swash on permeable , immobile beaches	context()	negated: False ,passive: True
 0.964	[*A*]Model predictions of the surface[*R*]are[*A*]in good agreement with measurements from large - scale laboratory experiments for swash on permeable , immobile beaches	context()	negated: False ,passive: True
-[LINE#5]In these simulations air velocity was sufficiently small to justify using Darcy's resistance law for the air flow, whereas the quadratic Forchheimer law had to be used for the infiltration and groundwater flow.
+[LINE#4] In these simulations air velocity was sufficiently small to justify using Darcy's resistance law for the air flow, whereas the quadratic Forchheimer law had to be used for the infiltration and groundwater flow.
 0.928	[*A*]the quadratic Forchheimer law[*R*]to be used[*A*]for flow	context()	negated: False ,passive: True
 0.928	[*A*]the quadratic Forchheimer law[*R*]to be used[*A*]for groundwater	context()	negated: False ,passive: True
 0.928	[*A*]the quadratic Forchheimer law[*R*]to be used[*A*]for the infiltration	context()	negated: False ,passive: True
-[LINE#6]The validated numerical model provides insight into the surface-subsurface water exchange for bore-driven swash on coarse-grained beaches.
+[LINE#5] The validated numerical model provides insight into the surface-subsurface water exchange for bore-driven swash on coarse-grained beaches.
 0.948	[*A*]The validated numerical model[*R*]provides[*A*]insight into the surface-subsurface water exchange for bore-driven swash on coarse-grained beaches	context()	negated: False ,passive: False
-[LINE#7]The impact of air entrapped between the wetting front and the groundwater level on the water exchange is examined in particular.
+[LINE#6] The impact of air entrapped between the wetting front and the groundwater level on the water exchange is examined in particular.
 0.737	[*A*]The impact of air[*R*]is examined	context()	negated: False ,passive: False
 0.948	[*A*]The impact of air[*R*]entrapped[*A*]between the wetting front and the groundwater level on the water exchange	context()	negated: False ,passive: True
-[LINE#8]Comparison of numerical model and laboratory experimentsThis section starts with the description of the numerical model set-up used to simulate the laboratory experiments of Steenhauer et al.
+[LINE#7] Comparison of numerical model and laboratory experimentsThis section starts with the description of the numerical model set-up used to simulate the laboratory experiments of Steenhauer et al.
 0.701	[*A*]experimentsThis section[*R*]starts[*A*]with the description of the numerical model	context()	negated: False ,passive: True
 0.948	[*A*]Comparison of numerical model experimentsThis section[*R*]starts[*A*]with the description of the numerical model	context()	negated: False ,passive: True
-[LINE#9]The main body of the section is divided into three parts.
+[LINE#8] The main body of the section is divided into three parts.
 0.932	[*A*]The main body of the section[*R*]is divided[*A*]into three parts	context()	negated: False ,passive: True
-[LINE#10]Section 3.2 assesses the overall ability of the numerical model to predict swash and subsurface flow within the beach by comparing the measured and model-predicted shoreline trajectory, water profiles, vertical hydraulic gradients and volume time-series.
+[LINE#9] Section 3.2 assesses the overall ability of the numerical model to predict swash and subsurface flow within the beach by comparing the measured and model-predicted shoreline trajectory, water profiles, vertical hydraulic gradients and volume time-series.
 0.937	[*A*]Section 3.2[*R*]assesses[*A*]the overall ability of the numerical model to predict subsurface flow within the beach by comparing model - predicted and volume time - series	context()	negated: False ,passive: False
 0.937	[*A*]Section 3.2[*R*]assesses[*A*]the overall ability of the numerical model to predict subsurface flow within the beach by comparing measured and volume time - series	context()	negated: False ,passive: False
 0.937	[*A*]Section 3.2[*R*]assesses[*A*]the overall ability of the numerical model to predict swash by comparing model - predicted and volume time - series	context()	negated: False ,passive: False
@@ -34,243 +34,243 @@
 0.937	[*A*]Section 3.2[*R*]assesses[*A*]the overall ability of the numerical model to predict swash by comparing vertical hydraulic gradients and volume time - series	context()	negated: False ,passive: False
 0.937	[*A*]Section 3.2[*R*]assesses[*A*]the overall ability of the numerical model to predict swash by comparing shoreline trajectory and volume time - series	context()	negated: False ,passive: False
 0.937	[*A*]Section 3.2[*R*]assesses[*A*]the overall ability of the numerical model to predict swash by comparing the and volume time - series	context()	negated: False ,passive: False
-[LINE#11]Sections 3.3 and 3.4 present measured and model-predicted pressure and groundwater behaviour respectively..
+[LINE#10] Sections 3.3 and 3.4 present measured and model-predicted pressure and groundwater behaviour respectively..
 0.716	[*A*]model[*R*]predicted[*A*]respectively	context()	negated: False ,passive: True
-[LINE#12]Numerical set-upThe numerical model described in Section 2 is used to simulate the large-scale laboratory experiments presented in Steenhauer et al.
+[LINE#11] Numerical set-upThe numerical model described in Section 2 is used to simulate the large-scale laboratory experiments presented in Steenhauer et al.
 0.943	[*A*]the large-scale laboratory experiments[*R*]presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.971	[*A*]Numerical set-upThe numerical model described in Section 2[*R*]to simulate[*A*]the large-scale laboratory experiments presented in Steenhauer et al	context()	negated: False ,passive: False
 0.953	[*A*]Numerical set-upThe numerical model described in Section 2[*R*]is used[*A*]to simulate the large-scale laboratory experiments	context()	negated: False ,passive: True
 0.932	[*A*]Numerical set-upThe numerical model[*R*]described[*A*]in Section 2	context()	negated: False ,passive: True
-[LINE#13]5 illustrates the set-up in a Cartesian system with x and z coordinates in the horizontal and vertical directions respectively, and with the origin at the initial shoreline position.
+[LINE#12] 5 illustrates the set-up in a Cartesian system with x and z coordinates in the horizontal and vertical directions respectively, and with the origin at the initial shoreline position.
 0.487	[*A*]5[*R*]illustrates[*A*]the set - up in a Cartesian system with z coordinates in the vertical directions respectively	context()	negated: False ,passive: False
 0.487	[*A*]5[*R*]illustrates[*A*]the set - up in a Cartesian system with z coordinates in the horizontal directions respectively	context()	negated: False ,passive: False
 0.543	[*A*]5[*R*]illustrates[*A*]the set - up in a Cartesian system with x coordinates in the vertical directions respectively	context()	negated: False ,passive: False
 0.543	[*A*]5[*R*]illustrates[*A*]the set - up in a Cartesian system with x coordinates in the horizontal directions respectively	context()	negated: False ,passive: False
-[LINE#14]The experiments involved two beach materials with nominal sediment diameters of 1.5mm and 8.5mm.
+[LINE#13] The experiments involved two beach materials with nominal sediment diameters of 1.5mm and 8.5mm.
 0.937	[*A*]The experiments[*R*]involved[*A*]two beach materials with nominal sediment diameters of 8.5mm	context()	negated: False ,passive: True
 0.937	[*A*]The experiments[*R*]involved[*A*]two beach materials with nominal sediment diameters of 1.5 mm	context()	negated: False ,passive: True
-[LINE#15] The dam-break set-up is simulated through a water reservoir with initial water depth in the reservoir 600mm for experimental series R60PER015 of the 1.5mm beach and experimental series.
+[LINE#14]  The dam-break set-up is simulated through a water reservoir with initial water depth in the reservoir 600mm for experimental series R60PER015 of the 1.5mm beach and experimental series.
 0.816	[*A*]The dam - break set - up[*R*]is simulated	context()	negated: False ,passive: False
-[LINE#16]An initial water level of 62mm in front of the beach and a corresponding groundwater level of 62mm within the beach were used in both cases.
+[LINE#15] An initial water level of 62mm in front of the beach and a corresponding groundwater level of 62mm within the beach were used in both cases.
 0.953	[*A*]a corresponding groundwater level of 62 mm within the beach[*R*]were used[*A*]in both cases	context()	negated: False ,passive: True
 0.938	[*A*]An initial water level of 62 mm[*R*]were used[*A*]in both cases	context()	negated: False ,passive: True
-[LINE#17]The initial shoreline position is defined through the initial water depth in front of the reservoir.
+[LINE#16] The initial shoreline position is defined through the initial water depth in front of the reservoir.
 0.769	[*A*]The initial shoreline position[*R*]is defined	context()	negated: False ,passive: False
-[LINE#18]The slope of the beach was 1:10.
+[LINE#17] The slope of the beach was 1:10.
 0.853	[*A*]The slope of the beach[*R*]was[*A*]1:10	context()	negated: False ,passive: True
-[LINE#19]A detailed description of the experimental set-up, surface and subsurface measurements and results are presented in Steenhauer et al.
+[LINE#18] A detailed description of the experimental set-up, surface and subsurface measurements and results are presented in Steenhauer et al.
 0.948	[*A*]A detailed description of the subsurface measurements[*R*]are presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.948	[*A*]A detailed description of the surface measurements[*R*]are presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.960	[*A*]A detailed description of the experimental set - up measurements[*R*]are presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.911	[*A*]results[*R*]are presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
-[LINE#20] (2011a).The following lists the main physical input parameters for the numerical model presented in Table 1:.
+[LINE#19]  (2011a).The following lists the main physical input parameters for the numerical model presented in Table 1:.
 0.925	[*A*]the numerical model[*R*]presented[*A*]in Table 1	context()	negated: False ,passive: True
-[LINE#21]The model uses a constant bed friction coefficient.
+[LINE#20] The model uses a constant bed friction coefficient.
 0.903	[*A*]The model[*R*]uses[*A*]a constant bed friction coefficient	context()	negated: False ,passive: False
-[LINE#22]The value of the friction coefficient was established by tuning its value in order to match the measured and predicted maximum run-up for swash on an impermeable beach.
+[LINE#21] The value of the friction coefficient was established by tuning its value in order to match the measured and predicted maximum run-up for swash on an impermeable beach.
 0.863	[*A*]The value of the friction coefficient[*R*]by tuning[*A*]its value[*A*]in order	context()	negated: False ,passive: False
 0.801	[*A*]The value of the friction coefficient[*R*]was established	context()	negated: False ,passive: False
-[LINE#23]The measured values come from the experiments of Kikkert et al.
+[LINE#22] The measured values come from the experiments of Kikkert et al.
 0.925	[*A*]The measured values[*R*]come[*A*]from the experiments of Kikkert et al	context()	negated: False ,passive: True
-[LINE#24]Stand-alone experiments using a constant head apparatus were undertaken (Steenhauer et al., 2011a) to measure the hydraulic resistance of the granular material.
+[LINE#23] Stand-alone experiments using a constant head apparatus were undertaken (Steenhauer et al., 2011a) to measure the hydraulic resistance of the granular material.
 0.919	[*A*]Stand-alone experiments[*R*]using[*A*]a constant head apparatus	context()	negated: False ,passive: False
-[LINE#25]Forchheimer coefficients and hydraulic conductivity were extracted from this dataset.
+[LINE#24] Forchheimer coefficients and hydraulic conductivity were extracted from this dataset.
 0.903	[*A*]hydraulic conductivity[*R*]were extracted[*A*]from this dataset	context()	negated: False ,passive: True
 0.927	[*A*]Forchheimer coefficients[*R*]were extracted[*A*]from this dataset	context()	negated: False ,passive: True
-[LINE#26]The calibration coefficient cK used in the groundwater module in Eq.
+[LINE#25] The calibration coefficient cK used in the groundwater module in Eq.
 0.949	[*A*]The calibration coefficient cK[*R*]used[*A*]in the groundwater module in Eq	context()	negated: False ,passive: False
-[LINE#27]The intrinsic permeability of the porous material, used in the subsurface flow model to determine the conductivity of air, was calculated from the linear Forchheimer coefficient (k=aaKg with a denoting the viscosity of water and g the gravitational coefficient).
+[LINE#26] The intrinsic permeability of the porous material, used in the subsurface flow model to determine the conductivity of air, was calculated from the linear Forchheimer coefficient (k=aaKg with a denoting the viscosity of water and g the gravitational coefficient).
 0.927	[*A*]the viscosity of water[*R*]g[*A*]the gravitational coefficient	context()	negated: False ,passive: False
 0.792	[*A*]the linear Forchheimer coefficient[*R*]k=aaKg	context()	negated: False ,passive: False
 0.939	[*A*]The intrinsic permeability of the porous material[*R*]was calculated[*A*]from the linear Forchheimer coefficient	context()	negated: False ,passive: True
 0.897	[*A*]the porous material[*R*]used[*A*]in the subsurface flow model[*A*]to determine the conductivity of air	context()	negated: False ,passive: True
-[LINE#28]A constant value for the effective porosity is used for both sediment types and is based on volume balance analysis of the surface and subsurface flow measurements (Steenhauer et al., 2011a).
+[LINE#27] A constant value for the effective porosity is used for both sediment types and is based on volume balance analysis of the surface and subsurface flow measurements (Steenhauer et al., 2011a).
 0.953	[*A*]A constant value for the effective porosity[*R*]is based[*A*]on volume balance analysis of the surface and subsurface flow	context()	negated: False ,passive: True
 0.938	[*A*]A constant value for the effective porosity[*R*]is used[*A*]for both sediment types	context()	negated: False ,passive: True
-[LINE#29]Capillary fringe: For the 1.5mm beach the model used a capillary fringe of 20mm obtained by model calibration.
+[LINE#28] Capillary fringe: For the 1.5mm beach the model used a capillary fringe of 20mm obtained by model calibration.
 0.903	[*A*]20mm[*R*]obtained[*A*]by model calibration	context()	negated: False ,passive: True
 0.943	[*A*]the model[*R*]used[*A*]a capillary fringe of 20mm[*A*]For the 1.5mm beach	context()	negated: False ,passive: False
-[LINE#30]This value is lower than the 50mm reported in Steenhauer et al.
+[LINE#29] This value is lower than the 50mm reported in Steenhauer et al.
 0.925	[*A*]the 50mm[*R*]reported[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.925	[*A*]This value[*R*]is[*A*]lower than the 50mm	context()	negated: False ,passive: True
-[LINE#31](2011a), based on direct observation of the dark-coloured fringe through the glass wall of the flume.
-[LINE#32]The capillary fringe was added at the initial groundwater level and the wetting tail, whereas at the wetting front it is assumed zero.
+[LINE#30] (2011a), based on direct observation of the dark-coloured fringe through the glass wall of the flume.
+[LINE#31] The capillary fringe was added at the initial groundwater level and the wetting tail, whereas at the wetting front it is assumed zero.
 0.848	[*A*]The capillary fringe[*R*]was added[*A*]at the wetting tail[*A*]whereas at the wetting front it is assumed zero	context()	negated: False ,passive: True
 0.848	[*A*]The capillary fringe[*R*]was added[*A*]at the initial groundwater level[*A*]whereas at the wetting front it is assumed zero	context()	negated: False ,passive: True
-[LINE#33] For the 8.5mm beach the capillary fringe was zero(Steenhauer et al., 2011a).The groundwater module was used only for the 8.5mm beach, where the groundwater response was directly observed at bore arrival.
+[LINE#32+33]  For the 8.5mm beach the capillary fringe was zero(Steenhauer et al., 2011a).The groundwater module was used only for the 8.5mm beach, where the groundwater response was directly observed at bore arrival.
 0.888	[*A*]The groundwater module[*R*]was used[*A*]only for the 8.5mm beach	context(the capillary fringe was)	negated: False ,passive: True
 0.949	[*A*]the capillary fringe[*R*]was[*A*]zero(Steenhauer et al[*A*]For the 8.5mm beach	context()	negated: False ,passive: True
 0.911	[*A*]the groundwater response[*R*]was directly observed[*A*]at bore arrival	context()	negated: False ,passive: True
-[LINE#34]In the 1.5mm beach the groundwater levels were not affected during the swash event, because the wetting front did not reach the groundwater within the swash cycle, due to the low permeability of the beach.
+[LINE#34] In the 1.5mm beach the groundwater levels were not affected during the swash event, because the wetting front did not reach the groundwater within the swash cycle, due to the low permeability of the beach.
 0.911	[*A*]the wetting front[*R*]did not reach[*A*]the groundwater	context()	negated: True ,passive: False
-[LINE#35]This means that the simulation for the 1.5mm beach is carried out with a constant groundwater level equal to the initial groundwater level.
+[LINE#35] This means that the simulation for the 1.5mm beach is carried out with a constant groundwater level equal to the initial groundwater level.
 0.780	[*A*]the simulation for the 1.5mm beach[*R*]is carried out	context(This means)	negated: False ,passive: False
 0.224	[*A*]This[*R*]means[*A*]that the simulation for the 1.5mm beach is carried out with a constant groundwater level equal to the initial groundwater level	context()	negated: False ,passive: False
-[LINE#36]All other modules were used for both beaches. .
+[LINE#36] All other modules were used for both beaches. .
 0.911	[*A*]All other modules[*R*]were used[*A*]for both beaches	context()	negated: False ,passive: True
-[LINE#37]Surface and subsurface flow hydrodynamicsThis section evaluates the ability of the numerical model to predict the swash and subsurface flow for permeable coarse-grained beaches. .
-[LINE#38]6 presents the measured and model-predicted shoreline position for the 1.5mm and 8.5mm beaches.
+[LINE#37] Surface and subsurface flow hydrodynamicsThis section evaluates the ability of the numerical model to predict the swash and subsurface flow for permeable coarse-grained beaches. .
+[LINE#38] 6 presents the measured and model-predicted shoreline position for the 1.5mm and 8.5mm beaches.
 0.381	[*A*]6[*R*]presents[*A*]8.5 mm beaches	context()	negated: False ,passive: False
 0.497	[*A*]6[*R*]presents[*A*]the measured and model - predicted shoreline position for the 1.5 mm	context()	negated: False ,passive: False
-[LINE#39]Time t=0 corresponds to the opening of the reservoir gate.
+[LINE#39] Time t=0 corresponds to the opening of the reservoir gate.
 0.927	[*A*]Time t=0[*R*]corresponds[*A*]to the opening of the reservoir gate	context()	negated: False ,passive: True
-[LINE#40] The shoreline position is defined as the location near the tip where the water depth is 5mm.
+[LINE#40]  The shoreline position is defined as the location near the tip where the water depth is 5mm.
 0.960	[*A*]the water depth[*R*]is[*A*]5mm[*A*]the tip	context()	negated: False ,passive: True
 0.911	[*A*]The shoreline position[*R*]is defined[*A*]as the location near the tip	context()	negated: False ,passive: True
-[LINE#41]Good agreement is generally seen between the model-predicted and measured shoreline position, in terms of the arrival of the bore and the movement of the tip on the slope in the uprush and early backwash.
+[LINE#41] Good agreement is generally seen between the model-predicted and measured shoreline position, in terms of the arrival of the bore and the movement of the tip on the slope in the uprush and early backwash.
 0.907	[*A*]Good agreement[*R*]is seen[*A*]between the model - predicted and measured shoreline position , in terms of the movement of the tip on the slope in the early backwash	context()	negated: False ,passive: True
 0.907	[*A*]Good agreement[*R*]is seen[*A*]between the model - predicted and measured shoreline position , in terms of the movement of the tip on the slope in the uprush	context()	negated: False ,passive: True
 0.907	[*A*]Good agreement[*R*]is seen[*A*]between the model - predicted and measured shoreline position , in terms of the arrival of the bore	context()	negated: False ,passive: True
-[LINE#42]In the later stages of the backwash on the 8.5mm beach the simulated rate of shoreline retreat is smaller than experimental values.
+[LINE#42] In the later stages of the backwash on the 8.5mm beach the simulated rate of shoreline retreat is smaller than experimental values.
 0.981	[*A*]the simulated rate of shoreline retreat[*R*]is[*A*]smaller than experimental values[*A*]In the later stages of the backwash on the 8.5mm beach	context()	negated: False ,passive: True
-[LINE#43]This is due to the limitations of the relatively simple groundwater model. .
+[LINE#43] This is due to the limitations of the relatively simple groundwater model. .
 0.567	[*A*]This[*R*]is[*A*]due to the limitations of the relatively simple groundwater model	context()	negated: False ,passive: True
-[LINE#44] Water profilesThe measured and predicted water profiles at several selected times during the swash cycle are presented in Fig. 7 for the 1.5mm beach and in Fig.
-[LINE#45]In the case of the 1.5mm beach, wetting front measurements covered the region between x=1023mm and 4242mm, i.e. up to around maximum run-up; for the 8.5mm beach, wetting front measurements were made between x=1313mm and 3179mm, i.e. up to around maximum run-up.
+[LINE#44+45]  Water profilesThe measured and predicted water profiles at several selected times during the swash cycle are presented in Fig. 7 for the 1.5mm beach and in Fig.
+[LINE#46] In the case of the 1.5mm beach, wetting front measurements covered the region between x=1023mm and 4242mm, i.e. up to around maximum run-up; for the 8.5mm beach, wetting front measurements were made between x=1313mm and 3179mm, i.e. up to around maximum run-up.
 0.885	[*A*]wetting front measurements[*R*]covered i.e. up[*A*]In the case of the 1.5mm beach	context(wetting front measurements were made)	negated: False ,passive: True
 0.934	[*A*]wetting front measurements[*R*]were made[*A*]between x=1313mm and 3179mm[*A*]for the 8.5mm beach	context()	negated: False ,passive: True
-[LINE#46]Note that the wetting tail of the infiltration profile could not be extracted from the experiments, so only the model-predicted wetting tail is presented in the figures.
-[LINE#47]Overall the figures show good agreement between predictions and measurements.
+[LINE#47] Note that the wetting tail of the infiltration profile could not be extracted from the experiments, so only the model-predicted wetting tail is presented in the figures.
+[LINE#48] Overall the figures show good agreement between predictions and measurements.
 0.925	[*A*]the figures[*R*]show[*A*]good agreement between predictions and measurements	context()	negated: False ,passive: False
-[LINE#48]The distinctly different behaviour of the subsurface flow for the two beaches is predicted well by the model.
+[LINE#49] The distinctly different behaviour of the subsurface flow for the two beaches is predicted well by the model.
 0.961	[*A*]The distinctly different behaviour of the subsurface flow for the two beaches[*R*]is predicted well[*A*]by the model	context()	negated: False ,passive: True
-[LINE#49]The overall shape of the subsurface flow profile is captured, as is the general timing and level of the wetting front in both uprush and backwash phases.
+[LINE#50] The overall shape of the subsurface flow profile is captured, as is the general timing and level of the wetting front in both uprush and backwash phases.
 0.957	[*A*]The overall shape of the subsurface flow profile[*R*]is captured[*A*]as is level of the wetting front in backwash phases	context()	negated: False ,passive: True
 0.957	[*A*]The overall shape of the subsurface flow profile[*R*]is captured[*A*]as is level of the wetting front in both uprush phases	context()	negated: False ,passive: True
 0.933	[*A*]The overall shape of the subsurface flow profile[*R*]is captured[*A*]as is the general timing	context()	negated: False ,passive: True
-[LINE#50] The numerical predictions for the 1.5mm beach reveal that the hydraulic gradient becomes negative and reverses the initially downward-propagating wetting front causing exfiltration, especially visible at t=9.55s in Fig. 7, where in the region between approximately x=1200 and 1500mmthe wetting front has almost returned back to the bed surface.
+[LINE#51+52]  The numerical predictions for the 1.5mm beach reveal that the hydraulic gradient becomes negative and reverses the initially downward-propagating wetting front causing exfiltration, especially visible at t=9.55s in Fig. 7, where in the region between approximately x=1200 and 1500mmthe wetting front has almost returned back to the bed surface.
 0.888	[*A*]the hydraulic gradient[*R*]reverses the initially downward - propagating wetting front causing[*A*]exfiltration	context(The numerical predictions for the 1.5 mm beach reveal the hydraulic gradient reverses)	negated: False ,passive: False
 0.888	[*A*]the hydraulic gradient[*R*]reverses[*A*]the initially downward - propagating wetting front[*A*]causing exfiltration	context(The numerical predictions for the 1.5 mm beach reveal)	negated: False ,passive: False
 0.900	[*A*]The numerical predictions for the 1.5 mm beach[*R*]reveal[*A*]that the hydraulic gradient reverses the initially downward - propagating wetting front causing exfiltration , especially visible at t=9.55 s in Fig	context()	negated: False ,passive: False
 0.897	[*A*]wetting front[*R*]has returned[*A*]back to the bed surface[*A*]in the region between approximately x=1200 and 1500mmthe	context(The numerical predictions for the 1.5 mm beach reveal)	negated: False ,passive: True
 0.743	[*A*]the hydraulic gradient[*R*]becomes[*A*]negative	context(The numerical predictions for the 1.5 mm beach reveal)	negated: False ,passive: True
 0.829	[*A*]The numerical predictions for the 1.5 mm beach[*R*]reveal[*A*]that the hydraulic gradient becomes negative	context()	negated: False ,passive: False
-[LINE#51]This agrees with the experimental findings of Steenhauer et al.
+[LINE#53] This agrees with the experimental findings of Steenhauer et al.
 0.425	[*A*]This[*R*]agrees[*A*]with the experimental findings of Steenhauer et al	context()	negated: False ,passive: False
-[LINE#52](2011a), who could not directly record the upwards movement of the wetting front, but were able to infer it from the wetting front and pressure measurements.
+[LINE#54] (2011a), who could not directly record the upwards movement of the wetting front, but were able to infer it from the wetting front and pressure measurements.
 0.906	[*A*]2011a[*R*]could not directly record[*A*]the upwards movement of the wetting front	context()	negated: True ,passive: False
-[LINE#53]The numerical simulation provides more detailed information on the build-up of pore-air pressure, which reaches a sufficiently high magnitude to not only decrease infiltration rates, but to reverse the flow, thus returning some of the infiltrated water back to the surface flow.
+[LINE#55] The numerical simulation provides more detailed information on the build-up of pore-air pressure, which reaches a sufficiently high magnitude to not only decrease infiltration rates, but to reverse the flow, thus returning some of the infiltrated water back to the surface flow.
 0.927	[*A*]pore-air pressure[*R*]reaches[*A*]a sufficiently high magnitude to not only to reverse the flow ,	context()	negated: False ,passive: False
 0.887	[*A*]pore-air pressure[*R*]reaches[*A*]a sufficiently high magnitude	context()	negated: False ,passive: False
 0.943	[*A*]The numerical simulation[*R*]provides[*A*]more detailed information on the build - up of pore-air pressure	context()	negated: False ,passive: False
-[LINE#54] Exfiltration takes place at the lower end of the beach between approximately x=1200 and 1500mm with rates generally between -2.
+[LINE#56]  Exfiltration takes place at the lower end of the beach between approximately x=1200 and 1500mm with rates generally between -2.
 0.931	[*A*]Exfiltration[*R*]takes[*A*]place[*A*]at the lower end of the beach between approximately x=1200 and 1500mm with rates	context()	negated: False ,passive: True
-[LINE#55]In the case of the 8.5mm beach the numerical predictions over-estimate the groundwater level, particularly in the backwash.
+[LINE#57] In the case of the 8.5mm beach the numerical predictions over-estimate the groundwater level, particularly in the backwash.
 0.948	[*A*]the numerical predictions[*R*]over-estimate[*A*]the groundwater level[*A*]particularly in the backwash[*A*]In the case of the 8.5mm beach	context()	negated: False ,passive: False
-[LINE#56]This is probably due to the relatively simple parameterisation of the groundwater flow.
+[LINE#58] This is probably due to the relatively simple parameterisation of the groundwater flow.
 0.567	[*A*]This[*R*]is[*A*]probably[*A*]due to the relatively simple parameterisation of the groundwater flow	context()	negated: False ,passive: True
-[LINE#57]However, for both beaches, the comparison between the measured and model-predicted surface and subsurface water profiles is satisfying.
+[LINE#59] However, for both beaches, the comparison between the measured and model-predicted surface and subsurface water profiles is satisfying.
 0.843	[*A*]the comparison between the measured and subsurface water profiles[*R*]is satisfying	context()	negated: False ,passive: False
 0.856	[*A*]the comparison between the measured and model - predicted surface[*R*]is satisfying	context()	negated: False ,passive: False
-[LINE#58]Vertical hydraulic gradientsVertical hydraulic gradients governing the rates of infiltration and exfiltration assess the exchange of water between the surface and the subsurface.
+[LINE#60] Vertical hydraulic gradientsVertical hydraulic gradients governing the rates of infiltration and exfiltration assess the exchange of water between the surface and the subsurface.
 0.909	[*A*]Vertical hydraulic gradientsVertical hydraulic gradients[*R*]governing[*A*]the rates of exfiltration	context(Vertical hydraulic gradientsVertical hydraulic gradients governing the rates of exfiltration assess)	negated: False ,passive: False
 0.963	[*A*]Vertical hydraulic gradientsVertical hydraulic gradients governing the rates of exfiltration[*R*]assess[*A*]the exchange of water between the surface and the subsurface	context()	negated: False ,passive: False
 0.909	[*A*]Vertical hydraulic gradientsVertical hydraulic gradients[*R*]governing[*A*]the rates of infiltration	context(Vertical hydraulic gradientsVertical hydraulic gradients governing the rates of infiltration assess)	negated: False ,passive: False
 0.963	[*A*]Vertical hydraulic gradientsVertical hydraulic gradients governing the rates of infiltration[*R*]assess[*A*]the exchange of water between the surface and the subsurface	context()	negated: False ,passive: False
-[LINE#59]9 presents time-series of the hydraulic gradient at several cross-shore locations for the 1.5mm and the 8.5mm beaches.
+[LINE#61] 9 presents time-series of the hydraulic gradient at several cross-shore locations for the 1.5mm and the 8.5mm beaches.
 0.381	[*A*]9[*R*]presents[*A*]time - series of the hydraulic gradient	context()	negated: False ,passive: False
-[LINE#60]Note that the results are given relative to time t0, which is the bore arrival time at each cross-shore location, and only while the wetting front is still moving towards the groundwater table.
+[LINE#62] Note that the results are given relative to time t0, which is the bore arrival time at each cross-shore location, and only while the wetting front is still moving towards the groundwater table.
 0.913	[*A*]time t0[*R*]is[*A*]the bore arrival time	context()	negated: False ,passive: True
-[LINE#61]Positive gradients are associated with infiltration.
+[LINE#63] Positive gradients are associated with infiltration.
 0.903	[*A*]Positive gradients[*R*]are associated[*A*]with infiltration	context()	negated: False ,passive: True
-[LINE#62]For the 1.5mm beach the agreement between model predictions and measurements is quite good after t=2s.
+[LINE#64] For the 1.5mm beach the agreement between model predictions and measurements is quite good after t=2s.
 0.952	[*A*]the agreement between model predictions and measurements[*R*]is[*A*]quite good[*A*]after t=2s	context()	negated: False ,passive: True
-[LINE#63]At the early stages of swash, however, there is a disagreement: the experimental results show an approximately constant gradient whereas the simulation results suggest a steep increase upon the bore arrival, followed by a gradual decline.
+[LINE#65] At the early stages of swash, however, there is a disagreement: the experimental results show an approximately constant gradient whereas the simulation results suggest a steep increase upon the bore arrival, followed by a gradual decline.
 0.944	[*A*]the experimental results[*R*]show[*A*]an approximately constant gradient[*A*]whereas the simulation results suggest a steep increase upon the bore arrival	context()	negated: False ,passive: False
 0.927	[*A*]a steep increase upon the bore arrival[*R*]followed[*A*]by a gradual decline	context()	negated: False ,passive: True
 0.943	[*A*]the simulation results[*R*]suggest[*A*]a steep increase upon the bore arrival, followed by a gradual decline	context()	negated: False ,passive: False
-[LINE#64]At the initial stages of infiltration, when the height of surface water is much greater than the penetration depth, hydraulic gradients are expected to be higher than later on.
+[LINE#66] At the initial stages of infiltration, when the height of surface water is much greater than the penetration depth, hydraulic gradients are expected to be higher than later on.
 0.735	[*A*]hydraulic gradients[*R*]to be[*A*]higher than later on	context()	negated: False ,passive: True
 0.732	[*A*]hydraulic gradients[*R*]are expected	context()	negated: False ,passive: False
 0.943	[*A*]the height of surface water[*R*]is[*A*]much greater than the penetration depth	context()	negated: False ,passive: True
-[LINE#65]Furthermore, when the penetration depth is small the experimental error in evaluating gradients is large.
+[LINE#67] Furthermore, when the penetration depth is small the experimental error in evaluating gradients is large.
 0.970	[*A*]the experimental error in evaluating gradients[*R*]is[*A*]large[*A*]when the penetration depth is small	context()	negated: False ,passive: True
 0.828	[*A*]the penetration depth[*R*]is[*A*]small	context()	negated: False ,passive: True
-[LINE#66]For these reasons the discrepancy between the simulation and the experimental results is probably due to experimental error.
+[LINE#68] For these reasons the discrepancy between the simulation and the experimental results is probably due to experimental error.
 0.960	[*A*]the discrepancy between the simulation and the experimental results[*R*]is[*A*]probably[*A*]due to experimental error	context()	negated: False ,passive: True
-[LINE#67]For the 8.5mm beach the modelling produces a reasonably accurate trend at x=1980mm, while at x=2780mm the model fails to predict the initial sharp rise and the decline at the later stages of the swash.
+[LINE#69] For the 8.5mm beach the modelling produces a reasonably accurate trend at x=1980mm, while at x=2780mm the model fails to predict the initial sharp rise and the decline at the later stages of the swash.
 0.887	[*A*]the model[*R*]to predict[*A*]the decline at the later stages of the swash	context()	negated: False ,passive: False
 0.970	[*A*]the model[*R*]fails[*A*]to predict the decline at the later stages of the swash[*A*]at x=2780 mm	context()	negated: False ,passive: True
 0.947	[*A*]the modelling[*R*]produces[*A*]a reasonably accurate trend at x=1980 mm[*A*]while at x=2780 mm the model fails to predict the decline at the later stages of the swash	context()	negated: False ,passive: False
 0.887	[*A*]the model[*R*]to predict[*A*]the initial sharp rise	context()	negated: False ,passive: False
 0.952	[*A*]the model[*R*]fails[*A*]to predict the initial sharp rise[*A*]at x=2780 mm	context()	negated: False ,passive: True
 0.947	[*A*]the modelling[*R*]produces[*A*]a reasonably accurate trend at x=1980 mm[*A*]while at x=2780 mm the model fails to predict the initial sharp rise	context()	negated: False ,passive: False
-[LINE#68]In this case the discrepancy between experimental and numerical results is probably caused by the modelling, most likely by the limited capability of the groundwater module.
+[LINE#70] In this case the discrepancy between experimental and numerical results is probably caused by the modelling, most likely by the limited capability of the groundwater module.
 0.946	[*A*]the discrepancy between experimental and numerical results[*R*]is caused[*A*]by the modelling[*A*]In this case	context()	negated: False ,passive: True
-[LINE#69]Overall the time-series of the hydraulic gradients display the steep increase at the time of bore arrival.
+[LINE#71] Overall the time-series of the hydraulic gradients display the steep increase at the time of bore arrival.
 0.943	[*A*]the time-series of the hydraulic gradients[*R*]display[*A*]the steep increase at the time of bore arrival	context()	negated: False ,passive: False
-[LINE#70]For both beaches hydraulic gradients gradually decrease with time, as the saturated zone above the wetting front becomes thicker.
+[LINE#72] For both beaches hydraulic gradients gradually decrease with time, as the saturated zone above the wetting front becomes thicker.
 0.943	[*A*]hydraulic gradients[*R*]gradually decrease[*A*]with time[*A*]For both beaches	context()	negated: False ,passive: True
-[LINE#71]Moreover, hydraulic gradients are significantly reduced by the build-up of pore-air pressure in the unsaturated region of the 1.5mm beach (Steenhauer et al., 2011a).
+[LINE#73] Moreover, hydraulic gradients are significantly reduced by the build-up of pore-air pressure in the unsaturated region of the 1.5mm beach (Steenhauer et al., 2011a).
 0.937	[*A*]hydraulic gradients[*R*]are significantly reduced[*A*]by the build-up of pore-air pressure in the unsaturated region of the 1.5mm beach	context()	negated: False ,passive: True
-[LINE#72]This pressure build-up is discussed in Section 3.3. .
+[LINE#74] This pressure build-up is discussed in Section 3.3. .
 0.926	[*A*]This pressure build-up[*R*]is discussed[*A*]in Section 3.3	context()	negated: False ,passive: True
-[LINE#73]10 presents the cumulative volume of infiltrated water as a function of time for the 1.5mm and the 8.5mm beaches.
+[LINE#75] 10 presents the cumulative volume of infiltrated water as a function of time for the 1.5mm and the 8.5mm beaches.
 0.698	[*A*]10[*R*]presents[*A*]the cumulative volume of infiltrated water[*A*]as a function of time for the 8.5 mm beaches	context()	negated: False ,passive: False
 0.544	[*A*]10[*R*]presents[*A*]the cumulative volume of infiltrated water[*A*]as a function of time for the 1.5 mm	context()	negated: False ,passive: False
-[LINE#74]The solid line corresponds to the numerical predictions and the symbols correspond to measured volumes of infiltration using two independent methods: i) based on the surface flow depth measurements and ii) based on the measured subsurface profiles (Steenhauer et al., 2011a).
+[LINE#76] The solid line corresponds to the numerical predictions and the symbols correspond to measured volumes of infiltration using two independent methods: i) based on the surface flow depth measurements and ii) based on the measured subsurface profiles (Steenhauer et al., 2011a).
 0.956	[*A*]measured volumes of infiltration[*R*]using[*A*]two independent methods : i ) based on the surface flow ii ) based on the measured subsurface profiles ( Steenhauer et al . ,	context()	negated: False ,passive: False
 0.891	[*A*]The solid line[*R*]corresponds[*A*]to the symbols	context()	negated: False ,passive: True
 0.956	[*A*]measured volumes of infiltration[*R*]using[*A*]two independent methods : i ) based on the surface flow ii ) based on the measured subsurface profiles ( Steenhauer et al . , 2011a )	context()	negated: False ,passive: False
 0.891	[*A*]The solid line[*R*]corresponds[*A*]to the numerical predictions	context()	negated: False ,passive: True
 0.948	[*A*]measured volumes of infiltration[*R*]using[*A*]two independent methods : i ) based on the surface flow depth measurements	context()	negated: False ,passive: False
 0.926	[*A*]the surface flow depth measurements[*R*]based[*A*]on the measured subsurface profiles	context()	negated: False ,passive: True
-[LINE#75]The agreement between model predictions and measurements is good for the uprush and early backwash, with the time of maximum run-up at approximately t=5.33s for the 1.5mm beach and at approximately t=4.52s for the 8.5mm beach. .
+[LINE#77] The agreement between model predictions and measurements is good for the uprush and early backwash, with the time of maximum run-up at approximately t=5.33s for the 1.5mm beach and at approximately t=4.52s for the 8.5mm beach. .
 0.952	[*A*]The agreement between model predictions and measurements[*R*]is[*A*]good for the early backwash	context()	negated: False ,passive: True
 0.952	[*A*]The agreement between model predictions and measurements[*R*]is[*A*]good for the uprush backwash	context()	negated: False ,passive: True
-[LINE#76]Pressure within the beachBuild-up of pressure was more significant within the 1.5mm beach.
+[LINE#78] Pressure within the beachBuild-up of pressure was more significant within the 1.5mm beach.
 0.968	[*A*]Pressure within the beachBuild-up of pressure[*R*]was[*A*]more significant within the 1.5mm beach	context()	negated: False ,passive: True
-[LINE#77]This section therefore compares the model-predicted and measured pressure within the 1.5mm beach.
+[LINE#79] This section therefore compares the model-predicted and measured pressure within the 1.5mm beach.
 0.887	[*A*]This section[*R*]measured[*A*]pressure[*A*]within the 1.5 mm beach	context()	negated: False ,passive: False
 0.698	[*A*]This section[*R*]compares	context()	negated: False ,passive: False
-[LINE#78]11 presents the numerical and experimental pressure head time-series at several cross-shore locations.
+[LINE#80] 11 presents the numerical and experimental pressure head time-series at several cross-shore locations.
 0.544	[*A*]11[*R*]presents[*A*]the experimental pressure head time - series	context()	negated: False ,passive: False
 0.544	[*A*]11[*R*]presents[*A*]the numerical pressure head time - series	context()	negated: False ,passive: False
-[LINE#79] The measurements at each x-location consisted of several pressure transducers positioned at various depths below the wetting front during the whole of the swash cycle (Steenhauer et al., 2011a) and presented in Fig..
+[LINE#81+82]  The measurements at each x-location consisted of several pressure transducers positioned at various depths below the wetting front during the whole of the swash cycle (Steenhauer et al., 2011a) and presented in Fig..
 0.925	[*A*]the swash cycle[*R*]presented[*A*]in Fig	context()	negated: False ,passive: True
 0.943	[*A*]several pressure transducers[*R*]positioned[*A*]at various depths below the wetting front during the whole of the swash cycle	context()	negated: False ,passive: True
 0.938	[*A*]The measurements at each x - location[*R*]consisted[*A*]of several pressure transducers	context()	negated: False ,passive: True
-[LINE#80]The pressure head within the unsaturated region of the beach is expressed in mm of water, with pa the pressure relative to atmospheric pressure pA.
+[LINE#83] The pressure head within the unsaturated region of the beach is expressed in mm of water, with pa the pressure relative to atmospheric pressure pA.
 0.856	[*A*]The pressure head within the unsaturated region of the beach[*R*]is expressed	context()	negated: False ,passive: False
-[LINE#81]The arrival of the pressure front, i.e. the time when pressure first changes, is predicted very well at all locations.
+[LINE#84] The arrival of the pressure front, i.e. the time when pressure first changes, is predicted very well at all locations.
 0.939	[*A*]pressure first changes[*R*]is predicted very well[*A*]at all locations[*A*]i.e. the time	context()	negated: False ,passive: True
-[LINE#82]The pressure front caused by air entrapment as shown in Steenhauer et al.
+[LINE#85] The pressure front caused by air entrapment as shown in Steenhauer et al.
 0.953	[*A*]The pressure front caused by air entrapment[*R*]shown[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.911	[*A*]The pressure front[*R*]caused[*A*]by air entrapment	context()	negated: False ,passive: True
-[LINE#83](2011a) propagates through the unsaturated region of the beach in the shoreward direction.
-[LINE#84]There is also good agreement with regard to the magnitude of the pressure head: the numerical predictions display a similar rise and fall in pressure head as observed in the measurements.
+[LINE#86] (2011a) propagates through the unsaturated region of the beach in the shoreward direction.
+[LINE#87] There is also good agreement with regard to the magnitude of the pressure head: the numerical predictions display a similar rise and fall in pressure head as observed in the measurements.
 0.888	[*A*]the numerical predictions[*R*]display[*A*]a similar fall[*A*]in pressure head	context()	negated: False ,passive: False
 0.911	[*A*]the numerical predictions[*R*]display[*A*]a similar rise	context()	negated: False ,passive: False
-[LINE#85] The effects of exfiltration and the associated air escape from the unsaturated region of the 1.5mm beach are seen at x=1980mm (top panel of Fig.as short periods of rapid decline in pressure close to the end of the swash event, at approximately t=9.3s in the model and slightly earlier in the experiments.
+[LINE#88+89]  The effects of exfiltration and the associated air escape from the unsaturated region of the 1.5mm beach are seen at x=1980mm (top panel of Fig.as short periods of rapid decline in pressure close to the end of the swash event, at approximately t=9.3s in the model and slightly earlier in the experiments.
 0.986	[*A*]The effects of the associated air escape from the unsaturated region of the 1.5 mm beach[*R*]are seen[*A*]at x=1980 mm ( top panel of Fig.as short periods of rapid decline in pressure close to the end of the swash event , at approximately t=9.3 s in the model and slightly earlier in the experiments	context()	negated: False ,passive: True
 0.993	[*A*]The effects of exfiltration[*R*]are seen at[*A*]1980 mm	context()	negated: False ,passive: False
 0.956	[*A*]The effects of exfiltration[*R*]are seen[*A*]at x=1980 mm ( top panel of Fig.as short periods of rapid decline in pressure close to the end of the swash event , at approximately t=9.3 s in the model and slightly earlier in the experiments	context()	negated: False ,passive: True
-[LINE#86]The rapid decline results from the additional pressure outlet occurring at the lower end of the beach (approximately between x=1200 and 1500mm, visible in Fig. 7).
+[LINE#90] The rapid decline results from the additional pressure outlet occurring at the lower end of the beach (approximately between x=1200 and 1500mm, visible in Fig. 7).
 0.956	[*A*]the additional pressure outlet[*R*]occurring[*A*]at the lower end of the beach (approximately between x=1200 and 1500mm, visible in Fig	context()	negated: False ,passive: True
-[LINE#87]The outlet is formed when the negative hydraulic gradient, created by the encapsulated air, has managed to push the wetting front back to the beach surface.
+[LINE#91] The outlet is formed when the negative hydraulic gradient, created by the encapsulated air, has managed to push the wetting front back to the beach surface.
 0.929	[*A*]the negative hydraulic gradient, created by the encapsulated air[*R*]has managed to push[*A*]the wetting front[*A*]back to the beach surface	context(the negative hydraulic gradient , created by the encapsulated air has managed)	negated: False ,passive: False
 0.955	[*A*]the negative hydraulic gradient, created by the encapsulated air[*R*]has managed[*A*]to push the wetting front back to the beach surface	context()	negated: False ,passive: False
 0.905	[*A*]the negative hydraulic gradient[*R*]created[*A*]by the encapsulated air	context()	negated: False ,passive: True
 0.937	[*A*]The outlet[*R*]is formed[*A*]when the negative hydraulic gradient, created by the encapsulated air, has managed to push the wetting front back to the beach surface	context()	negated: False ,passive: True
-[LINE#88]After the outlet is opened air is not only being released at locations beyond maximum run-up, but also at locations lower down the beach.
+[LINE#92] After the outlet is opened air is not only being released at locations beyond maximum run-up, but also at locations lower down the beach.
 0.908	[*A*]air[*R*]is being released[*A*]at locations lower down the beach[*A*]After the outlet is opened	context()	negated: False ,passive: True
 0.908	[*A*]air[*R*]is being released[*A*]at locations beyond maximum run-up[*A*]After the outlet is opened	context()	negated: False ,passive: True
 0.732	[*A*]the outlet[*R*]is opened	context()	negated: False ,passive: False
-[LINE#89]The pressure build-up occurring within the unsaturated region of the 1.5mm beach relates to a corresponding variation in air density relative to the air density at atmospheric pressure, a/A, which ranges between 0 and 1.2%.The interrelated flow processes of the subsurface region in the 1.5mm beach are complex.
+[LINE#93] The pressure build-up occurring within the unsaturated region of the 1.5mm beach relates to a corresponding variation in air density relative to the air density at atmospheric pressure, a/A, which ranges between 0 and 1.2%.The interrelated flow processes of the subsurface region in the 1.5mm beach are complex.
 0.880	[*A*]The interrelated flow processes of the subsurface region in the 1.5mm beach[*R*]are[*A*]complex	context(a / A ranges)	negated: False ,passive: True
 0.901	[*A*]a/A[*R*]ranges[*A*]between 0 and 1.2%	context()	negated: False ,passive: True
 0.926	[*A*]The pressure build-up[*R*]occurring[*A*]within the unsaturated region of the 1.5mm beach	context()	negated: False ,passive: True
-[LINE#90]Nevertheless, the model, despite some discrepancies, is able to capture the pressure behaviour affected by the water exchange between the swash and the subsurface quite well. .
+[LINE#94] Nevertheless, the model, despite some discrepancies, is able to capture the pressure behaviour affected by the water exchange between the swash and the subsurface quite well. .
 0.941	[*A*]the pressure behaviour[*R*]affected quite well[*A*]by the water exchange between the swash and the subsurface	context()	negated: False ,passive: True
 0.927	[*A*]the model[*R*]to capture[*A*]the pressure behaviour affected by the water exchange between the swash and the subsurface quite well	context()	negated: False ,passive: False
 0.913	[*A*]the model[*R*]is[*A*]able to capture the pressure behaviour	context()	negated: False ,passive: True
-[LINE#91]Groundwater behaviourIn contrast to the 1.5mm beach, within the 8.5mm beach infiltration was rapid, and the wetting front reached the groundwater level across the majority of the swash zone during the uprush.
+[LINE#95] Groundwater behaviourIn contrast to the 1.5mm beach, within the 8.5mm beach infiltration was rapid, and the wetting front reached the groundwater level across the majority of the swash zone during the uprush.
 0.927	[*A*]the wetting front[*R*]reached[*A*]the groundwater level across the majority of the swash zone[*A*]during the uprush	context()	negated: False ,passive: False
 0.978	[*A*]Groundwater behaviourIn contrast to the 1.5 mm beach[*R*]was[*A*]rapid[*A*]within the 8.5 mm beach infiltration	context()	negated: False ,passive: True
-[LINE#92]Groundwater response was hence simulated only in the case of the 8.5mm beach and discussed in the following.
+[LINE#96] Groundwater response was hence simulated only in the case of the 8.5mm beach and discussed in the following.
 0.903	[*A*]Groundwater response[*R*]was discussed[*A*]in the following	context()	negated: False ,passive: True
 0.903	[*A*]Groundwater response[*R*]was hence simulated[*A*]only in the case of the 8.5 mm beach	context()	negated: False ,passive: True
-[LINE#93]12 shows the surface and hydraulic head profiles obtained from the model and experiments at several selected times.
+[LINE#97] 12 shows the surface and hydraulic head profiles obtained from the model and experiments at several selected times.
 0.919	[*A*]the hydraulic head profiles[*R*]obtained[*A*]from the experiments at several selected times	context()	negated: False ,passive: True
 0.718	[*A*]12[*R*]shows[*A*]the hydraulic head profiles obtained from the experiments at several selected times	context()	negated: False ,passive: False
 0.919	[*A*]the hydraulic head profiles[*R*]obtained[*A*]from the model[*A*]at several selected times	context()	negated: False ,passive: True
@@ -279,94 +279,94 @@
 0.718	[*A*]12[*R*]shows[*A*]the surface profiles obtained from the experiments at several selected times	context()	negated: False ,passive: False
 0.911	[*A*]the surface profiles[*R*]obtained[*A*]from the model[*A*]at several selected times	context()	negated: False ,passive: True
 0.718	[*A*]12[*R*]shows[*A*]the surface profiles obtained from the model at several selected times	context()	negated: False ,passive: False
-[LINE#94]The agreement between the measured and model-predicted head profiles is good.
+[LINE#98] The agreement between the measured and model-predicted head profiles is good.
 0.912	[*A*]The agreement between the measured and model-predicted head profiles[*R*]is[*A*]good	context()	negated: False ,passive: True
-[LINE#95]13 presents time-series of the hydraulic head within the beach, H, at two cross-shore locations.
+[LINE#99] 13 presents time-series of the hydraulic head within the beach, H, at two cross-shore locations.
 0.657	[*A*]13[*R*]presents[*A*]time-series of the hydraulic head within the beach, H, at two cross-shore locations	context()	negated: False ,passive: False
-[LINE#96]The measured values for the hydraulic head are based on the pressure results of the lowest pressure transducer within the beach (Steenhauer et al., 2011a).For a short time at the start of the increase in hydraulic head, both the measured and model-predicted head display a small rate of hydraulic head increase resulting from the horizontal hydraulic gradients.
+[LINE#100] The measured values for the hydraulic head are based on the pressure results of the lowest pressure transducer within the beach (Steenhauer et al., 2011a).For a short time at the start of the increase in hydraulic head, both the measured and model-predicted head display a small rate of hydraulic head increase resulting from the horizontal hydraulic gradients.
 0.911	[*A*]hydraulic head increase[*R*]resulting[*A*]from the horizontal hydraulic gradients	context()	negated: False ,passive: True
 0.960	[*A*]The measured values for the hydraulic head[*R*]are based[*A*]on the pressure results of the lowest pressure transducer within the beach	context()	negated: False ,passive: True
-[LINE#97]They are mainly generated by the increased surface water levels at the lower end of the beach directly recharging groundwater flow.
+[LINE#101] They are mainly generated by the increased surface water levels at the lower end of the beach directly recharging groundwater flow.
 0.626	[*A*]They[*R*]are generated[*A*]by the increased surface water levels at the lower end of the beach	context()	negated: False ,passive: True
-[LINE#98] Furthermore, air entrapment between the wetting front and the groundwater surface increases pore-air pressure and hence creates a horizontal pressure gradient which induces air flow as well as groundwater flow in the shoreward direction.
+[LINE#102]  Furthermore, air entrapment between the wetting front and the groundwater surface increases pore-air pressure and hence creates a horizontal pressure gradient which induces air flow as well as groundwater flow in the shoreward direction.
 0.905	[*A*]a horizontal pressure gradient[*R*]induces[*A*]groundwater flow in the shoreward direction	context()	negated: False ,passive: False
 0.905	[*A*]a horizontal pressure gradient[*R*]induces[*A*]air flow	context()	negated: False ,passive: False
-[LINE#99]This period of slow increase lasts until the moment when the wetting front reaches the groundwater, marked by the steep increase in hydraulic head.
+[LINE#103] This period of slow increase lasts until the moment when the wetting front reaches the groundwater, marked by the steep increase in hydraulic head.
 0.887	[*A*]the groundwater[*R*]marked[*A*]by the steep increase in hydraulic head	context()	negated: False ,passive: True
 0.967	[*A*]the wetting front[*R*]reaches[*A*]the groundwater, marked by the steep increase in hydraulic head[*A*]the moment	context()	negated: False ,passive: False
 0.943	[*A*]This period of slow increase[*R*]lasts[*A*]until the moment	context()	negated: False ,passive: True
-[LINE#100] The groundwater level then rapidly rises towards the bed surface, before subsequently decreasing as the beach starts to drain in the backwashthe overall agreement for the 8.5mm sediment is quite good, several discrepancies are evident.
+[LINE#104+105]  The groundwater level then rapidly rises towards the bed surface, before subsequently decreasing as the beach starts to drain in the backwashthe overall agreement for the 8.5mm sediment is quite good, several discrepancies are evident.
 0.786	[*A*]the beach[*R*]is[*A*]quite good	context()	negated: False ,passive: True
 0.784	[*A*]the beach[*R*]starts	context()	negated: False ,passive: False
 0.925	[*A*]The groundwater level[*R*]rapidly rises[*A*]towards the bed surface[*A*]then	context(several discrepancies are)	negated: False ,passive: True
 0.724	[*A*]several discrepancies[*R*]are[*A*]evident	context()	negated: False ,passive: True
-[LINE#101]The time that the wetting front reaches the groundwater occurs slightly earlier in the numerical predictions than in the experimental results, e.g. at approximately t=2.8s versus t=2.9s for x=1180mm and at approximately t=3.8s versus t=4s for x=1980mm of Fig. 13.
+[LINE#106] The time that the wetting front reaches the groundwater occurs slightly earlier in the numerical predictions than in the experimental results, e.g. at approximately t=2.8s versus t=2.9s for x=1180mm and at approximately t=3.8s versus t=4s for x=1980mm of Fig. 13.
 0.934	[*A*]the wetting front[*R*]reaches[*A*]the groundwater[*A*]The time	context()	negated: False ,passive: False
 0.843	[*A*]The time that the wetting front reaches the groundwater[*R*]occurs slightly earlier	context()	negated: False ,passive: False
-[LINE#102]This is probably due to the over-prediction of the shoreline velocities and water depths in the surface flow model (visible in Fig. 12).
+[LINE#107] This is probably due to the over-prediction of the shoreline velocities and water depths in the surface flow model (visible in Fig. 12).
 0.612	[*A*]This[*R*]is[*A*]probably[*A*]due to the over-prediction of water depths in the surface flow model ( visible in Fig	context()	negated: False ,passive: True
 0.612	[*A*]This[*R*]is[*A*]probably[*A*]due to the over-prediction of the shoreline velocities in the surface flow model ( visible in Fig	context()	negated: False ,passive: True
-[LINE#103]As a result infiltration is not only induced sooner by the earlier arrival of the bore, but also the hydraulic gradient that drives the flow is over-estimated, enhancing the wetting front propagation towards the groundwater table.
+[LINE#108] As a result infiltration is not only induced sooner by the earlier arrival of the bore, but also the hydraulic gradient that drives the flow is over-estimated, enhancing the wetting front propagation towards the groundwater table.
 0.927	[*A*]the hydraulic gradient that drives the flow[*R*]enhancing[*A*]the wetting front propagation towards the groundwater table	context()	negated: False ,passive: False
 0.952	[*A*]the hydraulic gradient that drives the flow[*R*]is[*A*]over-estimated[*A*]enhancing the wetting front propagation towards the groundwater table	context()	negated: False ,passive: True
 0.897	[*A*]the hydraulic gradient[*R*]drives[*A*]the flow	context()	negated: False ,passive: False
 0.870	[*A*]a result infiltration[*R*]is induced sooner[*A*]by the earlier arrival of the bore	context()	negated: False ,passive: True
-[LINE#104]Furthermore the drainage of the backwash is not well simulated.
+[LINE#109] Furthermore the drainage of the backwash is not well simulated.
 0.785	[*A*]the drainage of the backwash[*R*]is not well simulated	context()	negated: True ,passive: False
-[LINE#105]Overall the beach in the experiments shows a quicker drainage than is observed in the numerical predictions.
+[LINE#110] Overall the beach in the experiments shows a quicker drainage than is observed in the numerical predictions.
 0.964	[*A*]the beach in the experiments[*R*]shows[*A*]a quicker drainage than is observed in the numerical predictions	context()	negated: False ,passive: False
-[LINE#106]This, as mentioned before, is due to the relatively simple parametrisation of the groundwater flow.
+[LINE#111] This, as mentioned before, is due to the relatively simple parametrisation of the groundwater flow.
 0.525	[*A*]This[*R*]is[*A*]due to the relatively simple parametrisation of the groundwater flow	context()	negated: False ,passive: True
-[LINE#107]Overall the agreement in the uprush and early backwash between the model and experimental results for hydraulic head within the beach is reasonably good.
+[LINE#112] Overall the agreement in the uprush and early backwash between the model and experimental results for hydraulic head within the beach is reasonably good.
 0.949	[*A*]the agreement in early backwash between the model and experimental results for hydraulic head within the beach[*R*]is[*A*]reasonably good	context()	negated: False ,passive: True
 0.949	[*A*]the agreement in the uprush between the model and experimental results for hydraulic head within the beach[*R*]is[*A*]reasonably good	context()	negated: False ,passive: True
-[LINE#108](2011a) defined the saturation boundary as the cross-shore limit of the fully saturated beach, i.e. the cross-shore location where the wetting front just merges with the groundwater.
+[LINE#113] (2011a) defined the saturation boundary as the cross-shore limit of the fully saturated beach, i.e. the cross-shore location where the wetting front just merges with the groundwater.
 0.939	[*A*]the wetting front[*R*]merges[*A*]with the groundwater[*A*]i.e. the cross-shore location	context()	negated: False ,passive: True
-[LINE#109] The predicted and measured time-series of the saturation boundary are shown in Fig..
+[LINE#114]  The predicted and measured time-series of the saturation boundary are shown in Fig..
 0.964	[*A*]The predicted and measured time-series of the saturation boundary[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#110]Early in the backwash the position of the saturation boundary becomes equivalent to what is more commonly referred to as the exit point (Steenhauer et al., 2011a).
+[LINE#115] Early in the backwash the position of the saturation boundary becomes equivalent to what is more commonly referred to as the exit point (Steenhauer et al., 2011a).
 0.975	[*A*]the position of the saturation boundary[*R*]becomes[*A*]equivalent to what is more commonly referred to as the exit point[*A*]Early in the backwash	context()	negated: False ,passive: True
-[LINE#111]The discrepancy between the numerical and experimental results of the position of the saturation boundary is again most likely due to the relatively simple parametrisation of the groundwater flow.
+[LINE#116] The discrepancy between the numerical and experimental results of the position of the saturation boundary is again most likely due to the relatively simple parametrisation of the groundwater flow.
 0.986	[*A*]The discrepancy between the numerical and experimental results of the position of the saturation boundary[*R*]is[*A*]again[*A*]most likely due to the relatively simple parametrisation of the groundwater flow	context()	negated: False ,passive: True
-[LINE#112]However, the overall agreement between model-predicted and measured saturation boundary position is satisfactory.
+[LINE#117] However, the overall agreement between model-predicted and measured saturation boundary position is satisfactory.
 0.817	[*A*]the overall agreement between[*R*]is[*A*]satisfactory	context()	negated: False ,passive: True
-[LINE#113]The swash model of Steenhauer et al.
-[LINE#114] simulating the movement of a steep bore over a permeable coarse-grained beach andthe movement of the wetting front within the beach has been extended to include the behaviour of air entrapment and groundwater.
+[LINE#118] The swash model of Steenhauer et al.
+[LINE#119+120]  simulating the movement of a steep bore over a permeable coarse-grained beach andthe movement of the wetting front within the beach has been extended to include the behaviour of air entrapment and groundwater.
 0.921	[*A*]simulating the movement of a steep[*R*]has been extended[*A*]to include the behaviour of groundwater	context()	negated: False ,passive: True
 0.921	[*A*]simulating the movement of a steep[*R*]has been extended[*A*]to include the behaviour of air entrapment	context()	negated: False ,passive: True
 0.937	[*A*]a steep[*R*]bore[*A*]over a permeable coarse - grained beach andthe movement of the wetting front within the beach	context()	negated: False ,passive: True
-[LINE#115]The new model has been validated by comparing model predictions with measurements from the large-scale laboratory experiments of Steenhauer et al.
+[LINE#121] The new model has been validated by comparing model predictions with measurements from the large-scale laboratory experiments of Steenhauer et al.
 0.751	[*A*]The new model[*R*]has been validated	context()	negated: False ,passive: False
-[LINE#116]The model has been used to gain more insights into key mechanisms of the water exchange between surface and subsurface, which cannot be easily studied via experiments alone.
+[LINE#122] The model has been used to gain more insights into key mechanisms of the water exchange between surface and subsurface, which cannot be easily studied via experiments alone.
 0.789	[*A*]the water exchange between surface and subsurface[*R*]can not be easily studied	context()	negated: True ,passive: False
 0.927	[*A*]The model[*R*]to gain[*A*]more insights into key mechanisms of the water exchange between surface and subsurface	context()	negated: False ,passive: False
 0.937	[*A*]The model[*R*]has been used[*A*]to gain more insights into key mechanisms of the water exchange between surface and subsurface	context()	negated: False ,passive: True
-[LINE#117]The following summarises the key findings of the paper:A numerical model for swash on permeable beaches has been developed.
+[LINE#123] The following summarises the key findings of the paper:A numerical model for swash on permeable beaches has been developed.
 0.864	[*A*]the key findings of the paper:A numerical model for swash on permeable beaches[*R*]has been developed	context(The following summarises)	negated: False ,passive: False
 0.628	[*A*]The following[*R*]summarises[*A*]the key findings of the paper:A numerical model for swash on permeable beaches	context()	negated: False ,passive: False
-[LINE#118]The model includes a novel approach to simulating the behaviour of air entrapped between the wetting front and the groundwater.
+[LINE#124] The model includes a novel approach to simulating the behaviour of air entrapped between the wetting front and the groundwater.
 0.894	[*A*]air[*R*]entrapped[*A*]between the wetting front and the groundwater	context()	negated: False ,passive: True
 0.903	[*A*]The model[*R*]includes[*A*]a novel approach to simulating the behaviour of air	context()	negated: False ,passive: True
-[LINE#119]This air pressure module solves for the horizontal pore-air movement within the unsaturated region of the beach, based on a mass balance equation of air using Darcy's law to parametrise flow resistance.The numerical predictions of surface and subsurface flow behaviour for a bore-driven swash on two permeable coarse-grained beaches (1.5mm and 8.5mm sediment) are in good agreement with large-scale laboratory swash measurements.
+[LINE#125] This air pressure module solves for the horizontal pore-air movement within the unsaturated region of the beach, based on a mass balance equation of air using Darcy's law to parametrise flow resistance.The numerical predictions of surface and subsurface flow behaviour for a bore-driven swash on two permeable coarse-grained beaches (1.5mm and 8.5mm sediment) are in good agreement with large-scale laboratory swash measurements.
 0.996	[*A*]based on a mass balance equation of air using Darcy 's law to parametrise flow resistance.The numerical predictions of subsurface flow behaviour for a bore-driven swash on two permeable coarse - grained beaches[*R*]are[*A*]in good agreement with large - scale laboratory swash measurements	context(This air pressure module solves)	negated: False ,passive: True
 0.943	[*A*]a mass balance equation of air[*R*]using[*A*]Darcy 's law[*A*]to parametrise flow resistance.The numerical predictions of surface	context()	negated: False ,passive: False
 0.948	[*A*]This air pressure module[*R*]solves[*A*]for the horizontal pore-air movement within the unsaturated region of the beach	context()	negated: False ,passive: False
-[LINE#120]The numerical results capture the main swash flow features and wetting front profiles in uprush and backwash, and give good predictions of hydraulic gradient and infiltrated volume time-series across the swash zone for both beaches.
+[LINE#126] The numerical results capture the main swash flow features and wetting front profiles in uprush and backwash, and give good predictions of hydraulic gradient and infiltrated volume time-series across the swash zone for both beaches.
 0.911	[*A*]The numerical results[*R*]capture[*A*]the wetting front profiles in backwash	context()	negated: False ,passive: False
 0.911	[*A*]The numerical results[*R*]capture[*A*]the wetting front profiles in uprush	context()	negated: False ,passive: False
 0.911	[*A*]The numerical results[*R*]capture[*A*]the main swash flow features	context()	negated: False ,passive: False
-[LINE#121]The numerical predictions of the pore-air pressure build-up within the two sediments are in good agreement with the large-scale laboratory measurements.
+[LINE#127] The numerical predictions of the pore-air pressure build-up within the two sediments are in good agreement with the large-scale laboratory measurements.
 0.979	[*A*]The numerical predictions of the pore-air pressure build-up within the two sediments[*R*]are[*A*]in good agreement with the large-scale laboratory measurements	context()	negated: False ,passive: True
-[LINE#122]The time when pressure first changes (i.e. the arrival of the pressure front) is well-predicted across the swash zone, as are the magnitudes of pressure head during uprush and backwash.
+[LINE#128] The time when pressure first changes (i.e. the arrival of the pressure front) is well-predicted across the swash zone, as are the magnitudes of pressure head during uprush and backwash.
 0.977	[*A*]The time when pressure first changes ( i.e. the arrival of the pressure front )[*R*]is[*A*]well - predicted across the swash zone[*A*]as are the magnitudes of pressure head during backwash	context()	negated: False ,passive: True
 0.977	[*A*]The time when pressure first changes ( i.e. the arrival of the pressure front )[*R*]is[*A*]well - predicted across the swash zone[*A*]as are the magnitudes of pressure head during uprush	context()	negated: False ,passive: True
-[LINE#123]well the groundwater response to surface-subsurface water exchange, with reasonable agreement between the model-predicted and measured exit point during the backwash.
-[LINE#124] Discrepancies between model and experimental results are primarily due to the relatively simple parametrisation of the bed shear stress for the surface flow and the approximation of the subsurface flow as (coupled)one-dimensional processes.The numerical predictions for a bore-driven swash on two steep coarse-grained beaches are thus consistent with the experimental results of Steenhauer et al.
+[LINE#129] well the groundwater response to surface-subsurface water exchange, with reasonable agreement between the model-predicted and measured exit point during the backwash.
+[LINE#130+131]  Discrepancies between model and experimental results are primarily due to the relatively simple parametrisation of the bed shear stress for the surface flow and the approximation of the subsurface flow as (coupled)one-dimensional processes.The numerical predictions for a bore-driven swash on two steep coarse-grained beaches are thus consistent with the experimental results of Steenhauer et al.
 0.987	[*A*]one - dimensional processes.The numerical predictions for a bore-driven swash on two steep coarse - grained beaches[*R*]are[*A*]thus consistent with the experimental results of Steenhauer et al	context()	negated: False ,passive: True
 0.964	[*A*]Discrepancies between model and experimental results[*R*]are[*A*]primarily due to the relatively simple parametrisation of the bed shear stress for the approximation of the subsurface flow[*A*]as ( coupled ) one - dimensional processes.The numerical predictions for a bore-driven swash on two steep coarse - grained beaches are thus consistent with the experimental results of Steenhauer et al	context()	negated: False ,passive: True
 0.989	[*A*]coupled ) one - dimensional processes.The numerical predictions for a bore-driven swash on two steep coarse - grained beaches[*R*]are[*A*]thus consistent with the experimental results of Steenhauer et al	context()	negated: False ,passive: True
 0.964	[*A*]Discrepancies between model and experimental results[*R*]are[*A*]primarily due to the relatively simple parametrisation of the bed shear stress for the surface flow[*A*]as ( coupled ) one - dimensional processes.The numerical predictions for a bore-driven swash on two steep coarse - grained beaches are thus consistent with the experimental results of Steenhauer et al	context()	negated: False ,passive: True
-[LINE#125] (2011a) and the model is considered validated for the level of accuracy required for engineering applications.The numerical results give further insight into the role of air entrapment, which significantly impedes infiltration into the 1.5mm beach, and even reverses the flow at the lower end of the beach during the backwash, generating exfiltration with rates between -2and -8.5mm/s.The numerical study shows that when the upwards-driven wetting front has reached the level of the bed surface of the 1.5mm beach, a pathway is created to release the air, at a higher pressure than atmospheric pressure, entrapped within the beach.
+[LINE#132+133+134]  (2011a) and the model is considered validated for the level of accuracy required for engineering applications.The numerical results give further insight into the role of air entrapment, which significantly impedes infiltration into the 1.5mm beach, and even reverses the flow at the lower end of the beach during the backwash, generating exfiltration with rates between -2and -8.5mm/s.The numerical study shows that when the upwards-driven wetting front has reached the level of the bed surface of the 1.5mm beach, a pathway is created to release the air, at a higher pressure than atmospheric pressure, entrapped within the beach.
 0.919	[*A*]the level of accuracy[*R*]required[*A*]for engineering applications.The numerical results	context()	negated: False ,passive: True
 0.887	[*A*]the model[*R*]validated[*A*]for the level of accuracy	context()	negated: False ,passive: True
 0.955	[*A*]a pathway[*R*]is created[*A*]to release the air , at a higher pressure than atmospheric pressure[*A*]when the upwards - driven wetting front has reached the level of the bed surface of the 1.5 mm beach	context(between - 2and - 8.5 mm / s.The numerical study shows)	negated: False ,passive: True
@@ -376,80 +376,80 @@
 0.956	[*A*]the upwards - driven wetting front[*R*]has reached[*A*]the level of the bed surface of the 1.5 mm beach	context()	negated: False ,passive: False
 0.822	[*A*]air entrapment[*R*]significantly impedes[*A*]infiltration[*A*]into the 1.5 mm beach / s.The numerical study shows that when the upwards - driven wetting front has reached the level of the bed surface of the 1.5 mm beach , a pathway is created to release the air , at a higher pressure than atmospheric pressure , entrapped within the beach	context()	negated: False ,passive: False
 0.887	[*A*]a pathway[*R*]entrapped[*A*]within the beach	context()	negated: False ,passive: True
-[LINE#126]Entrapped air is then not only released through the unsaturated region of the beach beyond the shoreline position, but also through the additional flow paths created at the lower end of the beach, where the beach has returned to its initially unsaturated state.The importance of modelling infiltration/exfiltration in and out of the unsaturated region, as well as pore-air pressure build-up within the unsaturated region of the beach, is shown by the numerical study.
+[LINE#135] Entrapped air is then not only released through the unsaturated region of the beach beyond the shoreline position, but also through the additional flow paths created at the lower end of the beach, where the beach has returned to its initially unsaturated state.The importance of modelling infiltration/exfiltration in and out of the unsaturated region, as well as pore-air pressure build-up within the unsaturated region of the beach, is shown by the numerical study.
 0.890	[*A*]the beach[*R*]has returned[*A*]to its initially unsaturated state.The importance of modelling infiltration / exfiltration out of the unsaturated region	context()	negated: False ,passive: True
 0.954	[*A*]pore-air pressure build - up within the unsaturated region of the beach[*R*]is shown[*A*]by the numerical study	context()	negated: False ,passive: True
 0.890	[*A*]the beach[*R*]has returned[*A*]to its initially unsaturated state.The importance of modelling infiltration / exfiltration in	context()	negated: False ,passive: True
 0.919	[*A*]the additional flow paths[*R*]created[*A*]at the lower end of the beach	context()	negated: False ,passive: True
 0.641	[*A*]Entrapped air[*R*]is then released	context()	negated: False ,passive: False
-[LINE#127]So far these physical processes have been neglected in swash models.
+[LINE#136] So far these physical processes have been neglected in swash models.
 0.948	[*A*]these physical processes[*R*]have been neglected[*A*]in swash models[*A*]So far	context()	negated: False ,passive: True
-[LINE#128]The insights from the numerical work significantly contribute to the better understanding and modelling of key physical processes for swash and similar flows.
+[LINE#137] The insights from the numerical work significantly contribute to the better understanding and modelling of key physical processes for swash and similar flows.
 0.956	[*A*]The insights from the numerical work[*R*]significantly contribute[*A*]to the modelling of key physical processes for similar flows	context()	negated: False ,passive: False
 0.932	[*A*]The insights from the numerical work[*R*]significantly contribute[*A*]to the modelling of key physical processes for swash	context()	negated: False ,passive: False
 0.956	[*A*]The insights from the numerical work[*R*]significantly contribute[*A*]to the better understanding of key physical processes for similar flows	context()	negated: False ,passive: False
 0.956	[*A*]The insights from the numerical work[*R*]significantly contribute[*A*]to the better understanding of key physical processes for swash	context()	negated: False ,passive: False
-[LINE#129] -driven swash on unsaturated coarse-grained beaches generates several interacting physical processes: surface flow over the beach face, infiltration into the initially unsaturated part of the beach, air entrapment below the wetting front(Steenhauer et al., 2011a) and groundwater flow.
-[LINE#130]Surface flow is commonly modelled using the Non-Linear Shallow Water Equations (NLSWEs); examples of such models are reviewed in Brocchini and Dodd (2008).
+[LINE#138+139+140]  -driven swash on unsaturated coarse-grained beaches generates several interacting physical processes: surface flow over the beach face, infiltration into the initially unsaturated part of the beach, air entrapment below the wetting front(Steenhauer et al., 2011a) and groundwater flow.
+[LINE#141] Surface flow is commonly modelled using the Non-Linear Shallow Water Equations (NLSWEs); examples of such models are reviewed in Brocchini and Dodd (2008).
 0.948	[*A*]the Non-Linear Shallow Water Equations ( NLSWEs ) ; examples of such models[*R*]are reviewed[*A*]in Dodd	context()	negated: False ,passive: True
 0.589	[*A*]Surface flow[*R*]is modelled	context(the Non-Linear Shallow Water Equations ( NLSWEs ) ; examples of such models are reviewed)	negated: False ,passive: False
 0.948	[*A*]the Non-Linear Shallow Water Equations ( NLSWEs ) ; examples of such models[*R*]are reviewed[*A*]in Brocchini	context()	negated: False ,passive: True
-[LINE#131] Many swash models account for groundwater flow.
+[LINE#142]  Many swash models account for groundwater flow.
 0.911	[*A*]Many swash models[*R*]account[*A*]for groundwater flow	context()	negated: False ,passive: False
-[LINE#132] Lara et al., 2006; Van Gent, 1994; Wurjanto and Kobayashi, 1993), but few include simulation of water infiltration into the unsaturated part of the beach (Dodd et al., 2008; Packwood, 1983; Steenhauer et al., 2011b), and, to the authors' knowledge, none simulates air movement within the beach.
+[LINE#143+144]  Lara et al., 2006; Van Gent, 1994; Wurjanto and Kobayashi, 1993), but few include simulation of water infiltration into the unsaturated part of the beach (Dodd et al., 2008; Packwood, 1983; Steenhauer et al., 2011b), and, to the authors' knowledge, none simulates air movement within the beach.
 0.894	[*A*]none[*R*]simulates[*A*]air movement[*A*]within the beach	context()	negated: False ,passive: False
 0.381	[*A*]few[*R*]include[*A*]simulation of water infiltration	context()	negated: False ,passive: True
-[LINE#133]However, the field investigations of Horn (2002, 2006) and a recent laboratory study by Steenhauer et al.
-[LINE#134](2011a) have shown that air entrapment can significantly impact on infiltration and exfiltration processes in natural beaches.
-[LINE#135]This paper presents a numerical model of bore-driven swash, including subsurface flow, for coarse-grained beaches.
+[LINE#145] However, the field investigations of Horn (2002, 2006) and a recent laboratory study by Steenhauer et al.
+[LINE#146] (2011a) have shown that air entrapment can significantly impact on infiltration and exfiltration processes in natural beaches.
+[LINE#147] This paper presents a numerical model of bore-driven swash, including subsurface flow, for coarse-grained beaches.
 0.937	[*A*]This paper[*R*]presents[*A*]a numerical model of bore-driven swash, including subsurface flow, for coarse-grained beaches	context()	negated: False ,passive: False
-[LINE#136]The model accounts for all relevant physical processes, namely the surface flow, infiltration and exfiltration, pore-air movement and groundwater flow.
+[LINE#148] The model accounts for all relevant physical processes, namely the surface flow, infiltration and exfiltration, pore-air movement and groundwater flow.
 0.903	[*A*]The model[*R*]accounts[*A*]for all relevant physical processes	context()	negated: False ,passive: False
-[LINE#137]Model predictions are compared with the detailed surface and subsurface flow measurements of Steenhauer et al.
+[LINE#149] Model predictions are compared with the detailed surface and subsurface flow measurements of Steenhauer et al.
 0.918	[*A*]Model predictions[*R*]are compared[*A*]with subsurface flow measurements of Steenhauer et al	context()	negated: False ,passive: True
 0.903	[*A*]Model predictions[*R*]are compared[*A*]with the detailed surface	context()	negated: False ,passive: True
-[LINE#138](2011a).The paper is organised as follows.
+[LINE#150] (2011a).The paper is organised as follows.
 0.767	[*A*]The paper[*R*]is organised[*A*]as follows	context()	negated: False ,passive: True
-[LINE#139]Section 2 describes the numerical model for bore-driven swash on permeable coarse-grained beaches, focussing in particular on the simulation of pore-air pressure and the groundwater behaviour.
+[LINE#151] Section 2 describes the numerical model for bore-driven swash on permeable coarse-grained beaches, focussing in particular on the simulation of pore-air pressure and the groundwater behaviour.
 0.937	[*A*]Section 2[*R*]describes[*A*]the numerical model for bore-driven swash on permeable coarse - grained beaches	context()	negated: False ,passive: False
-[LINE#140]In Section 3 experimental results are compared to numerical results giving an assessment of the capability of the model formulations.
+[LINE#152] In Section 3 experimental results are compared to numerical results giving an assessment of the capability of the model formulations.
 0.903	[*A*]numerical results[*R*]giving[*A*]an assessment of the capability of the model formulations	context()	negated: False ,passive: False
-[LINE#141]The main conclusions are summarised in Section 4.
+[LINE#153] The main conclusions are summarised in Section 4.
 0.911	[*A*]The main conclusions[*R*]are summarised[*A*]in Section 4	context()	negated: False ,passive: True
-[LINE#142]Model descriptionThe conceptual model of bore-driven swash on coarse-grained beaches is based on the experimental findings of Steenhauer et al.
+[LINE#154] Model descriptionThe conceptual model of bore-driven swash on coarse-grained beaches is based on the experimental findings of Steenhauer et al.
 0.976	[*A*]Model descriptionThe conceptual model of bore-driven swash on coarse-grained beaches[*R*]is based[*A*]on the experimental findings of Steenhauer et al	context()	negated: False ,passive: True
-[LINE#143](2011a), who used a large-scale swash rig to measure the time- and cross-shore-varying surface and subsurface flow characteristics for large-scale bore-driven swash on steep, coarse-grained beaches.
-[LINE#144] A definition sketch and the relevant flow quantities are shown in Fig.surface flow is described by the NLSWEs.
+[LINE#155] (2011a), who used a large-scale swash rig to measure the time- and cross-shore-varying surface and subsurface flow characteristics for large-scale bore-driven swash on steep, coarse-grained beaches.
+[LINE#156+157]  A definition sketch and the relevant flow quantities are shown in Fig.surface flow is described by the NLSWEs.
 0.877	[*A*]the relevant flow quantities[*R*]are shown is described[*A*]by the NLSWEs	context(the relevant flow quantities are shown)	negated: False ,passive: True
 0.900	[*A*]the relevant flow quantities[*R*]are shown[*A*]in Fig.surface flow	context()	negated: False ,passive: True
 0.925	[*A*]A definition sketch[*R*]is described[*A*]by the NLSWEs	context()	negated: False ,passive: True
-[LINE#145]The corresponding module calculates flow depth, h, and depth-averaged horizontal velocity, u.The infiltration/exfiltration is modelled as one-dimensional, vertical, piston-like movement.
+[LINE#158] The corresponding module calculates flow depth, h, and depth-averaged horizontal velocity, u.The infiltration/exfiltration is modelled as one-dimensional, vertical, piston-like movement.
 0.961	[*A*]u.The infiltration / exfiltration[*R*]is modelled[*A*]as one - dimensional , vertical , piston - like movement	context()	negated: False ,passive: True
 0.952	[*A*]The corresponding module[*R*]calculates[*A*]depth - averaged horizontal velocity , u.The infiltration / exfiltration is modelled as one - dimensional , vertical , piston - like movement	context()	negated: False ,passive: False
 0.911	[*A*]The corresponding module[*R*]calculates[*A*]h	context()	negated: False ,passive: False
 0.911	[*A*]The corresponding module[*R*]calculates[*A*]flow depth	context()	negated: False ,passive: False
-[LINE#146] In the uprush (Fig. 1, top panel) the surface water covers the beach surfaceso the 'piston' extends between the beach surface and the wetting front (a sharp boundary between the saturated and the unsaturated zones within the beach).
+[LINE#159+160+161]  In the uprush (Fig. 1, top panel) the surface water covers the beach surfaceso the 'piston' extends between the beach surface and the wetting front (a sharp boundary between the saturated and the unsaturated zones within the beach).
 0.897	[*A*]the ' piston[*R*]extends[*A*]between the beach surface and the wetting front	context()	negated: False ,passive: True
 0.967	[*A*]the surface water[*R*]covers[*A*]the beach[*A*]surfaceso the ' piston ' extends between the beach surface and the wetting front[*A*]In the uprush	context()	negated: False ,passive: True
-[LINE#147]In the backwash the surface water depth falls to zero, but the 'piston' continues to move in the subsurface.
+[LINE#162] In the backwash the surface water depth falls to zero, but the 'piston' continues to move in the subsurface.
 0.897	[*A*]the ' piston[*R*]to move[*A*]in the subsurface	context()	negated: False ,passive: True
 0.718	[*A*]the ' piston[*R*]continues	context()	negated: False ,passive: False
 0.964	[*A*]the surface water depth[*R*]falls[*A*]to zero[*A*]In the backwash	context()	negated: False ,passive: True
-[LINE#148]It is possible that by that time pore-air pressure below the 'piston' has sufficiently built up to reverse its direction and push it upwards, hence causing exfiltration.
-[LINE#149]Otherwise, the 'piston' continues to move downwards and another sharp interface called the 'wetting tail' forms on the top of the 'piston' (Fig. 1, bottom panel).
+[LINE#163] It is possible that by that time pore-air pressure below the 'piston' has sufficiently built up to reverse its direction and push it upwards, hence causing exfiltration.
+[LINE#164] Otherwise, the 'piston' continues to move downwards and another sharp interface called the 'wetting tail' forms on the top of the 'piston' (Fig. 1, bottom panel).
 0.943	[*A*]another sharp interface[*R*]called[*A*]the ' wetting tail ' forms on the top of the ' piston	context()	negated: False ,passive: True
 0.754	[*A*]the ' piston[*R*]to move[*A*]downwards	context()	negated: False ,passive: True
 0.718	[*A*]the ' piston[*R*]continues	context()	negated: False ,passive: False
-[LINE#150]The height of the 'piston' is called the saturated thickness and is denoted hf.
+[LINE#165] The height of the 'piston' is called the saturated thickness and is denoted hf.
 0.925	[*A*]The height[*R*]is[*A*]denoted hf	context()	negated: False ,passive: True
 0.921	[*A*]The height of the ' piston[*R*]is called[*A*]the saturated thickness	context()	negated: False ,passive: True
-[LINE#151] The levels of the wetting front and tail are denoted zf and zt respectively, and the volumetric flux (discharge per unit plan area) is denoted q, with positive sign in the case of downward flow.The air flow modulesimulates one-dimensional migration of air in the horizontal direction, i.e. the balance equations are integrated over the thickness of the unsaturated zone, ha.
+[LINE#166+167]  The levels of the wetting front and tail are denoted zf and zt respectively, and the volumetric flux (discharge per unit plan area) is denoted q, with positive sign in the case of downward flow.The air flow modulesimulates one-dimensional migration of air in the horizontal direction, i.e. the balance equations are integrated over the thickness of the unsaturated zone, ha.
 0.919	[*A*]The levels of tail[*R*]are denoted[*A*]zf	context()	negated: False ,passive: True
 0.932	[*A*]The levels of the wetting front[*R*]are denoted[*A*]zf	context()	negated: False ,passive: True
 0.878	[*A*]The levels[*R*]modulesimulates[*A*]one - dimensional migration of air[*A*]in the horizontal direction	context()	negated: False ,passive: False
 0.718	[*A*]the volumetric flux[*R*]is denoted q	context()	negated: False ,passive: False
-[LINE#152]The air is considered compressible.
-[LINE#153] The air pressure, density and discharge are denotedpa, a and Qa respectively.The groundwater flow module simulates one-dimensional movement of groundwater in the horizontal direction.
+[LINE#168] The air is considered compressible.
+[LINE#169+170]  The air pressure, density and discharge are denotedpa, a and Qa respectively.The groundwater flow module simulates one-dimensional movement of groundwater in the horizontal direction.
 0.749	[*A*]discharge[*R*]are[*A*]a	context()	negated: False ,passive: True
 0.749	[*A*]density[*R*]are[*A*]a	context()	negated: False ,passive: True
 0.964	[*A*]Qa respectively.The groundwater flow module[*R*]simulates[*A*]one - dimensional movement of groundwater in the horizontal direction	context()	negated: False ,passive: False
@@ -458,63 +458,63 @@
 0.894	[*A*]density[*R*]are[*A*]denotedpa	context()	negated: False ,passive: True
 0.944	[*A*]Qa respectively.The groundwater flow module[*R*]simulates[*A*]one - dimensional movement of groundwater[*A*]in the horizontal direction	context()	negated: False ,passive: False
 0.783	[*A*]The air pressure[*R*]are[*A*]denotedpa	context()	negated: False ,passive: True
-[LINE#154]The balance equations are integrated over the groundwater thickness, h.
+[LINE#171] The balance equations are integrated over the groundwater thickness, h.
 0.911	[*A*]The balance equations[*R*]are integrated[*A*]over the groundwater thickness	context()	negated: False ,passive: True
-[LINE#155]In the lower region of the beach the 'piston' has merged with the groundwater, so the whole depth of the beach is saturated.
+[LINE#172] In the lower region of the beach the 'piston' has merged with the groundwater, so the whole depth of the beach is saturated.
 0.801	[*A*]the whole depth of the beach[*R*]is saturated	context()	negated: False ,passive: False
 0.939	[*A*]the ' piston[*R*]has merged[*A*]with the groundwater[*A*]In the lower region of the beach	context()	negated: False ,passive: True
-[LINE#156]In this region we have introduced an imaginary boundary (a dashed line in Fig. 1), where the (nearly) vertical flow (above the boundary) is converted into quasi-horizontal groundwater flow (below the boundary).
+[LINE#173] In this region we have introduced an imaginary boundary (a dashed line in Fig. 1), where the (nearly) vertical flow (above the boundary) is converted into quasi-horizontal groundwater flow (below the boundary).
 0.973	[*A*]the (nearly) vertical flow (above the boundary[*R*]is converted[*A*]into quasi-horizontal groundwater flow (below the boundary[*A*]a dashed line in Fig	context()	negated: False ,passive: True
 0.595	[*A*]we[*R*]have introduced[*A*]an imaginary boundary[*A*]In this region	context()	negated: False ,passive: False
-[LINE#157]The imaginary boundary meets with the groundwater table at the most shoreward fully saturated cross-section of the beach, where the wetting front has just reached the groundwater table.
+[LINE#174] The imaginary boundary meets with the groundwater table at the most shoreward fully saturated cross-section of the beach, where the wetting front has just reached the groundwater table.
 0.870	[*A*]the wetting front[*R*]has reached[*A*]the groundwater table	context()	negated: False ,passive: False
 0.943	[*A*]The imaginary boundary[*R*]meets[*A*]with the groundwater table at the most shoreward fully saturated cross-section of the beach	context()	negated: False ,passive: False
-[LINE#158]Beyond this location groundwater flow has a free surface, i.e. it is unconfined.
-[LINE#159]The surface and subsurface models are coupled: they exchange volume and momentum via corresponding source terms in the volume and momentum balance equations.
+[LINE#175] Beyond this location groundwater flow has a free surface, i.e. it is unconfined.
+[LINE#176] The surface and subsurface models are coupled: they exchange volume and momentum via corresponding source terms in the volume and momentum balance equations.
 0.678	[*A*]subsurface models[*R*]are coupled	context(they exchange)	negated: False ,passive: False
 0.552	[*A*]they[*R*]exchange[*A*]momentum	context()	negated: False ,passive: False
 0.678	[*A*]The surface[*R*]are coupled	context(they exchange)	negated: False ,passive: False
 0.552	[*A*]they[*R*]exchange[*A*]volume	context()	negated: False ,passive: False
-[LINE#160]The flow variables in the surface and subsurface models are calculated at every spatial step and at every time-step across the swash zone.
+[LINE#177] The flow variables in the surface and subsurface models are calculated at every spatial step and at every time-step across the swash zone.
 0.903	[*A*]subsurface models[*R*]are calculated[*A*]at every time - step across the swash zone	context()	negated: False ,passive: True
 0.903	[*A*]subsurface models[*R*]are calculated[*A*]at every spatial step	context()	negated: False ,passive: True
 0.932	[*A*]The flow variables in the surface[*R*]are calculated[*A*]at every time - step across the swash zone	context()	negated: False ,passive: True
 0.932	[*A*]The flow variables in the surface[*R*]are calculated[*A*]at every spatial step	context()	negated: False ,passive: True
-[LINE#161] The model uses the horizontal x-coordinate and vertical z-coordinate for both surface and subsurface flow models with the origin set at the initial shoreline position (Fig.1).The conceptual model describes all relevant processes by one-dimensional models.
+[LINE#178+179]  The model uses the horizontal x-coordinate and vertical z-coordinate for both surface and subsurface flow models with the origin set at the initial shoreline position (Fig.1).The conceptual model describes all relevant processes by one-dimensional models.
 0.925	[*A*]the origin[*R*]set[*A*]at the initial shoreline position	context()	negated: False ,passive: True
 0.717	[*A*]The model[*R*]uses[*A*]the	context(The conceptual model describes)	negated: False ,passive: False
 0.888	[*A*]The conceptual model[*R*]describes[*A*]all relevant processes[*A*]by one - dimensional models	context()	negated: False ,passive: False
 0.767	[*A*]The model[*R*]uses[*A*]the horizontal x - coordinate	context()	negated: False ,passive: False
-[LINE#162]As mentioned earlier, the suitability of the NLSWEs for modelling the surface flow in the swash zone is well established.
+[LINE#180] As mentioned earlier, the suitability of the NLSWEs for modelling the surface flow in the swash zone is well established.
 0.922	[*A*]the suitability of the NLSWEs for modelling the surface flow in the swash zone[*R*]is well established	context()	negated: False ,passive: False
-[LINE#163]The significant part of bore excursion extends over an initially unsaturated beach.
+[LINE#181] The significant part of bore excursion extends over an initially unsaturated beach.
 0.932	[*A*]The significant part of bore excursion[*R*]extends[*A*]over an initially unsaturated beach	context()	negated: False ,passive: True
-[LINE#164]The experimental results of Steenhauer et al.
-[LINE#165](2011a) have shown that infiltration into the unsaturated zone is predominantly vertical.
+[LINE#182] The experimental results of Steenhauer et al.
+[LINE#183] (2011a) have shown that infiltration into the unsaturated zone is predominantly vertical.
 0.886	[*A*]have shown that infiltration into the unsaturated zone[*R*]is[*A*]predominantly vertical	context()	negated: False ,passive: True
-[LINE#166]The same study has also demonstrated that air pressure below the wetting front is approximately constant across ha (height of the unsaturated beach, Fig. 1), so that the direction of air movement is predominantly horizontal.
+[LINE#184] The same study has also demonstrated that air pressure below the wetting front is approximately constant across ha (height of the unsaturated beach, Fig. 1), so that the direction of air movement is predominantly horizontal.
 0.957	[*A*]air pressure below the wetting front[*R*]is[*A*]approximately constant across ha (height of the unsaturated beach	context(The same study has demonstrated)	negated: False ,passive: True
 0.751	[*A*]The same study[*R*]has demonstrated[*A*]that air pressure below the wetting front is approximately constant across ha (height of the unsaturated beach	context()	negated: False ,passive: False
 0.853	[*A*]the direction of air movement[*R*]is[*A*]predominantly horizontal	context()	negated: False ,passive: True
-[LINE#167]Our model assumes that air movement remains horizontal beyond the location of maximum swash run-up, where this assumption is less justified.
+[LINE#185] Our model assumes that air movement remains horizontal beyond the location of maximum swash run-up, where this assumption is less justified.
 0.882	[*A*]air movement[*R*]remains[*A*]horizontal beyond the location of maximum swash run-up	context(Our model assumes)	negated: False ,passive: True
 0.453	[*A*]Our model[*R*]assumes[*A*]that air movement remains horizontal beyond the location of maximum swash run-up	context()	negated: False ,passive: False
 0.698	[*A*]this assumption[*R*]less justified	context()	negated: False ,passive: False
 0.813	[*A*]this assumption[*R*]is[*A*]less justified	context()	negated: False ,passive: True
-[LINE#168]However, the vertical air movement is represented as a source term.
+[LINE#186] However, the vertical air movement is represented as a source term.
 0.769	[*A*]the vertical air movement[*R*]is represented	context()	negated: False ,passive: False
-[LINE#169]Similarly, groundwater movement is indeed reasonably close to being one-dimensional in the region where the wetting front has not yet reached the groundwater table, but the assumption of one-dimensional horizontal flow is less justified for the region where the beach is fully saturated.
+[LINE#187] Similarly, groundwater movement is indeed reasonably close to being one-dimensional in the region where the wetting front has not yet reached the groundwater table, but the assumption of one-dimensional horizontal flow is less justified for the region where the beach is fully saturated.
 0.901	[*A*]the beach[*R*]is saturated[*A*]the region	context()	negated: False ,passive: True
 0.934	[*A*]the assumption of one - dimensional horizontal flow[*R*]less justified[*A*]for the region	context()	negated: False ,passive: True
 0.957	[*A*]the assumption of one - dimensional horizontal flow[*R*]is[*A*]less justified for the region	context()	negated: False ,passive: True
 0.923	[*A*]the wetting front[*R*]has not reached[*A*]the groundwater table[*A*]the region[*A*]yet	context()	negated: True ,passive: False
 0.952	[*A*]groundwater movement[*R*]is[*A*]indeed[*A*]reasonably close to being one - dimensional in the region	context()	negated: False ,passive: True
-[LINE#170]Although the assumptions of flow one-dimensionality are not fully justified everywhere in the model, the model captures the main features of swash on coarse-grained beaches well, including the air pressure build-up and subsequent shoreward migration.
+[LINE#188] Although the assumptions of flow one-dimensionality are not fully justified everywhere in the model, the model captures the main features of swash on coarse-grained beaches well, including the air pressure build-up and subsequent shoreward migration.
 0.937	[*A*]the model[*R*]captures[*A*]the main features of swash on coarse - grained beaches well	context()	negated: False ,passive: False
 0.908	[*A*]the assumptions of flow one - dimensionality[*R*]are not justified[*A*]everywhere in the model	context()	negated: True ,passive: True
-[LINE#171]It must be pointed out that our model, as well as the experimental results of Steenhauer et al.
+[LINE#189] It must be pointed out that our model, as well as the experimental results of Steenhauer et al.
 0.195	[*A*]It[*R*]must be pointed out	context()	negated: False ,passive: False
-[LINE#172](2011a), apply for conditions where the incident bore does not vary in the long-shore direction, which means that air trapped below the wetting front and above the groundwater table, cannot escape in the long-shore direction..
+[LINE#190] (2011a), apply for conditions where the incident bore does not vary in the long-shore direction, which means that air trapped below the wetting front and above the groundwater table, cannot escape in the long-shore direction..
 0.899	[*A*]air trapped above the groundwater table[*R*]can not escape[*A*]in the long - shore direction	context(conditions where the incident bore does not vary in the long - shore direction means)	negated: True ,passive: False
 0.919	[*A*]conditions where the incident bore does not vary in the long - shore direction[*R*]means[*A*]that air trapped above the groundwater table , can not escape in the long - shore direction	context()	negated: False ,passive: False
 0.894	[*A*]air[*R*]trapped[*A*]above the groundwater table	context()	negated: False ,passive: True
@@ -523,31 +523,31 @@
 0.919	[*A*]conditions where the incident bore does not vary in the long - shore direction[*R*]means[*A*]that air trapped below the wetting front , can not escape in the long - shore direction	context()	negated: False ,passive: False
 0.894	[*A*]air[*R*]trapped[*A*]below the wetting front	context()	negated: False ,passive: True
 0.915	[*A*]the incident bore[*R*]does not vary[*A*]in the long - shore direction[*A*]conditions where the incident bore does not vary in the long - shore direction , which means that air trapped below the wetting front , can not escape in the long - shore direction	context()	negated: True ,passive: True
-[LINE#173]Surface flowThe surface flow model is based on the NLSWEs.
-[LINE#174] The continuity equation and the momentum equation of the NLSWEs are expressed in conservative form:(1)ht+uhx=-q(2)uht+u2hx+(12gh2)x=-0-ghtanwhere h , u is the depth-averaged horizontal velocity, q (m/s) is the volume flux through the beach surface, g is the gravitational acceleration,  is the density and .
-[LINE#175]The volume flux q transfers volume between surface and subsurface flows, and hence provides coupling of the surface and subsurface simulation modules.
+[LINE#191] Surface flowThe surface flow model is based on the NLSWEs.
+[LINE#192+193+194]  The continuity equation and the momentum equation of the NLSWEs are expressed in conservative form:(1)ht+uhx=-q(2)uht+u2hx+(12gh2)x=-0-ghtanwhere h , u is the depth-averaged horizontal velocity, q (m/s) is the volume flux through the beach surface, g is the gravitational acceleration,  is the density and .
+[LINE#195] The volume flux q transfers volume between surface and subsurface flows, and hence provides coupling of the surface and subsurface simulation modules.
 0.767	[*A*]subsurface[*R*]flows	context()	negated: False ,passive: False
-[LINE#176]The details of this coupling are presented later.
+[LINE#196] The details of this coupling are presented later.
 0.814	[*A*]The details of this coupling[*R*]are presented[*A*]later	context()	negated: False ,passive: True
-[LINE#177]The volume flux q also transfers horizontal momentum between the surface and subsurface flow.
+[LINE#197] The volume flux q also transfers horizontal momentum between the surface and subsurface flow.
 0.784	[*A*]The volume[*R*]flux q	context()	negated: False ,passive: False
-[LINE#178]However, in this model it was assumed that coarse grains at the beach surface fully absorb the fluid momentum, so the corresponding term in the momentum equation is omitted.
+[LINE#198] However, in this model it was assumed that coarse grains at the beach surface fully absorb the fluid momentum, so the corresponding term in the momentum equation is omitted.
 0.816	[*A*]the corresponding term in the momentum equation[*R*]is omitted	context()	negated: False ,passive: False
-[LINE#179] The first term on the right-hand side of the momentum equation denotes the bed shear stress and is replaced by a simple quadratic parametrisationas(3)0=12fu|u|where f is the friction coefficient.
+[LINE#199+200]  The first term on the right-hand side of the momentum equation denotes the bed shear stress and is replaced by a simple quadratic parametrisationas(3)0=12fu|u|where f is the friction coefficient.
 0.449	[*A*]f[*R*]is[*A*]the friction coefficient	context()	negated: False ,passive: True
 0.283	[*A*]0=12fu[*R*]u |	context()	negated: False ,passive: False
 0.964	[*A*]The first term on the right - hand side of the momentum equation[*R*]denotes[*A*]the bed shear stress	context()	negated: False ,passive: False
-[LINE#180]The NLSWEs are solved using the Godunov-based finite volume ADER scheme (Castro and Toro, 2008; Titarev and Toro, 2002; Toro and Titarev, 2006).
+[LINE#201] The NLSWEs are solved using the Godunov-based finite volume ADER scheme (Castro and Toro, 2008; Titarev and Toro, 2002; Toro and Titarev, 2006).
 0.830	[*A*]The NLSWEs[*R*]using[*A*]the Godunov - based finite volume ADER scheme	context()	negated: False ,passive: False
 0.852	[*A*]The NLSWEs[*R*]are solved[*A*]using the Godunov - based finite volume ADER scheme	context()	negated: False ,passive: True
-[LINE#181]The details of the scheme and numerical solution for the surface flow are presented in Steenhauer et al.
+[LINE#202] The details of the scheme and numerical solution for the surface flow are presented in Steenhauer et al.
 0.960	[*A*]The details of the numerical solution for the surface flow[*R*]are presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
 0.937	[*A*]The details of the scheme[*R*]are presented[*A*]in Steenhauer et al	context()	negated: False ,passive: True
-[LINE#182]Vertical filtrationWhen a bore arrives at an initially unsaturated region of the beach it generates nearly vertical piston-like downwards flow, which continues throughout the whole swash cycle.
+[LINE#203] Vertical filtrationWhen a bore arrives at an initially unsaturated region of the beach it generates nearly vertical piston-like downwards flow, which continues throughout the whole swash cycle.
 0.927	[*A*]nearly vertical piston-like downwards flow[*R*]continues[*A*]throughout the whole swash cycle	context()	negated: False ,passive: True
 0.569	[*A*]it[*R*]generates[*A*]nearly vertical piston-like downwards flow, which continues throughout the whole swash cycle	context()	negated: False ,passive: False
 0.903	[*A*]a bore[*R*]arrives[*A*]at an initially unsaturated region of the beach	context()	negated: False ,passive: True
-[LINE#183] Depending on the x-location and the stage within the swash cycle, the 'piston' can extend between (Fig. 1): (i) the beach surface and the wetting front; (ii) the wetting tail and the wetting front; (iii) the beach surface and the imaginary boundary (the dashed line in Fig. 1); (iv)the wetting tail and the imaginary boundary.
+[LINE#204+205+206]  Depending on the x-location and the stage within the swash cycle, the 'piston' can extend between (Fig. 1): (i) the beach surface and the wetting front; (ii) the wetting tail and the wetting front; (iii) the beach surface and the imaginary boundary (the dashed line in Fig. 1); (iv)the wetting tail and the imaginary boundary.
 0.913	[*A*]the ' piston[*R*]can extend[*A*]between ( Fig . 1[*A*]the imaginary boundary	context()	negated: False ,passive: False
 0.913	[*A*]the ' piston[*R*]can extend[*A*]between ( Fig . 1 ) the wetting tail	context()	negated: False ,passive: True
 0.913	[*A*]the ' piston[*R*]can extend[*A*]between ( Fig . 1 ) the imaginary boundary	context()	negated: False ,passive: True
@@ -555,118 +555,118 @@
 0.913	[*A*]the ' piston[*R*]can extend[*A*]between ( Fig . 1 ) the wetting front	context()	negated: False ,passive: True
 0.944	[*A*]Depending on the stage within the swash cycle[*R*]can extend[*A*]between ( Fig[*A*]ii ) the wetting tail	context()	negated: False ,passive: False
 0.944	[*A*]Depending on the stage within the swash cycle[*R*]can extend[*A*]between ( Fig[*A*]the beach surface and the wetting front	context()	negated: False ,passive: False
-[LINE#184]In order to evaluate the hydraulic gradient which drives the vertical filtration we first define the fluid potential for the upper and lower end of the 'piston'.
+[LINE#207] In order to evaluate the hydraulic gradient which drives the vertical filtration we first define the fluid potential for the upper and lower end of the 'piston'.
 0.666	[*A*]we[*R*]define[*A*]the fluid potential for the lower end of the ' piston[*A*]first	context()	negated: False ,passive: False
 0.883	[*A*]the hydraulic gradient[*R*]drives[*A*]the vertical filtration we first define the fluid potential for the lower end of the ' piston ' .	context()	negated: False ,passive: False
 0.666	[*A*]we[*R*]define[*A*]the fluid potential for the upper end of the ' piston[*A*]first	context()	negated: False ,passive: False
 0.883	[*A*]the hydraulic gradient[*R*]drives[*A*]the vertical filtration we first define the fluid potential for the upper end of the ' piston ' .	context()	negated: False ,passive: False
-[LINE#185] These can be expressed, in units of pressure, as:(4)t={pA+gh+gzbat the beach surfacepA+gzt-pctat the wetting tail(5)f={pa+gzf-pcfat the imaginary boundarywhere t and f are the fluid potential at the upper and the lower end of the saturated region respectively, pA is atmospheric pressure, pcf and pct is the capillary head at the wetting front and tail respectively, pa is the pore-air pressure below the wetting front, H is the hydraulic head of the horizontal groundwater flow,  is density of water, g is acceleration due to gravity and the meaning of other symbols is shown in Fig. hydraulic gradient, I, is now expressed as(6)I =t-fghfand it can be related to the flux q via a quadratic parametrisation of the hydraulic resistance(7)I=aKq+bKq|q|where aK and bK are the Forchheimer coefficients.
+[LINE#208+209+210+211+212+213]  These can be expressed, in units of pressure, as:(4)t={pA+gh+gzbat the beach surfacepA+gzt-pctat the wetting tail(5)f={pa+gzf-pcfat the imaginary boundarywhere t and f are the fluid potential at the upper and the lower end of the saturated region respectively, pA is atmospheric pressure, pcf and pct is the capillary head at the wetting front and tail respectively, pa is the pore-air pressure below the wetting front, H is the hydraulic head of the horizontal groundwater flow,  is density of water, g is acceleration due to gravity and the meaning of other symbols is shown in Fig. hydraulic gradient, I, is now expressed as(6)I =t-fghfand it can be related to the flux q via a quadratic parametrisation of the hydraulic resistance(7)I=aKq+bKq|q|where aK and bK are the Forchheimer coefficients.
 0.927	[*A*]bK[*R*]are[*A*]the Forchheimer coefficients[*A*]I=aKq+bKq | q	context()	negated: False ,passive: True
 0.388	[*A*]it[*R*]can be related[*A*]to the flux q	context(I =t fghfand)	negated: False ,passive: True
 0.324	[*A*]I[*R*]=t fghfand[*A*]it can be related to the flux q via a quadratic parametrisation of the hydraulic resistance	context()	negated: False ,passive: False
 0.927	[*A*]aK[*R*]are[*A*]the Forchheimer coefficients[*A*]I=aKq+bKq | q	context()	negated: False ,passive: True
-[LINE#186] The part of the model which calculates the movement of the wetting front (and the wetting tail) in cases(i) and (ii) is called the filtration module.
+[LINE#214+215]  The part of the model which calculates the movement of the wetting front (and the wetting tail) in cases(i) and (ii) is called the filtration module.
 0.887	[*A*]the model[*R*]calculates[*A*]the movement of the wetting tail	context()	negated: False ,passive: False
 0.887	[*A*]the model[*R*]calculates[*A*]the movement of the wetting tail[*A*]in cases	context()	negated: False ,passive: False
 0.887	[*A*]the model[*R*]calculates[*A*]the movement of the wetting front	context()	negated: False ,passive: False
 0.913	[*A*]The part of the model[*R*]is called[*A*]the filtration module	context()	negated: False ,passive: True
 0.887	[*A*]the model[*R*]calculates[*A*]the movement of the wetting front[*A*]in cases	context()	negated: False ,passive: False
-[LINE#187] The wetting front advances by filling the voids in the beach with water, so the corresponding continuity equation is(8)dzfdt=-qwhere q is the volume flux of the vertical flow, zf is the position of the wetting front (Fig. 1, top panel) and  defines the volume within the unsaturated part of the beach available for infiltration relative to the total volume, i.e. the effective porosity.
+[LINE#216+217]  The wetting front advances by filling the voids in the beach with water, so the corresponding continuity equation is(8)dzfdt=-qwhere q is the volume flux of the vertical flow, zf is the position of the wetting front (Fig. 1, top panel) and  defines the volume within the unsaturated part of the beach available for infiltration relative to the total volume, i.e. the effective porosity.
 0.923	[*A*]dzfdt=-qwhere q[*R*]is[*A*]the volume flux of the vertical flow	context(zf is)	negated: False ,passive: True
 0.822	[*A*]zf[*R*]is[*A*]the position of the wetting front	context()	negated: False ,passive: True
 0.815	[*A*]the corresponding continuity equation[*R*]is[*A*]8	context()	negated: False ,passive: True
 0.855	[*A*]zf[*R*]defines[*A*]the volume within the unsaturated part of the beach available for infiltration relative to the total volume	context()	negated: False ,passive: False
-[LINE#188]To simulate the propagation of the wetting front, Eqs.
-[LINE#189](4)-(7) are used to express the right-hand side of Eq.
-[LINE#190](8) in terms of the unknown wetting front position zf.
-[LINE#191]The resulting ODE is solved for zf using the fourth order Runge-Kutta method.
+[LINE#218] To simulate the propagation of the wetting front, Eqs.
+[LINE#219] (4)-(7) are used to express the right-hand side of Eq.
+[LINE#220] (8) in terms of the unknown wetting front position zf.
+[LINE#221] The resulting ODE is solved for zf using the fourth order Runge-Kutta method.
 0.840	[*A*]zf[*R*]using[*A*]the fourth order Runge-Kutta method	context()	negated: False ,passive: False
 0.933	[*A*]The resulting ODE[*R*]is solved[*A*]for zf	context()	negated: False ,passive: True
-[LINE#192]Further details can be found in Steenhauer et al.
+[LINE#222] Further details can be found in Steenhauer et al.
 0.918	[*A*]Further details[*R*]can be found[*A*]in Steenhauer et al	context()	negated: False ,passive: True
-[LINE#193] (2011b).In the case when vertical flow occurs between the wetting tail and the wetting front, lower panel) continuity requires that they move at the same speed.
+[LINE#223+224]  (2011b).In the case when vertical flow occurs between the wetting tail and the wetting front, lower panel) continuity requires that they move at the same speed.
 0.266	[*A*]they[*R*]move	context(lower panel ) continuity requires)	negated: False ,passive: False
 0.755	[*A*]lower panel) continuity[*R*]requires[*A*]that they move at the same speed[*A*]In the case	context()	negated: False ,passive: False
 0.903	[*A*]vertical flow[*R*]occurs[*A*]between the wetting tail and the wetting front	context()	negated: False ,passive: True
-[LINE#194] The position of the wetting tail, zt then follows from the displacement of the wetting front (8)).In the case when vertical flow occurs between the beach surface and the wetting front (case (i) above, and Fig. 1, upper panel)the vertical flow is coupled with the surface flow through the volumetric flux q.
+[LINE#225+226+227+228]  The position of the wetting tail, zt then follows from the displacement of the wetting front (8)).In the case when vertical flow occurs between the beach surface and the wetting front (case (i) above, and Fig. 1, upper panel)the vertical flow is coupled with the surface flow through the volumetric flux q.
 0.911	[*A*]the vertical flow[*R*]is coupled[*A*]with the surface flow through the volumetric flux	context()	negated: False ,passive: True
 0.853	[*A*]the wetting front ( case[*R*](i)[*A*]above	context()	negated: False ,passive: True
 0.937	[*A*]vertical flow[*R*]occurs[*A*]between the beach surface and the wetting front ( case	context()	negated: False ,passive: True
 0.954	[*A*]The position of the wetting tail[*R*]follows[*A*]from the displacement of the wetting front[*A*]then	context()	negated: False ,passive: True
-[LINE#195]Depending on the comparison of the fluid potential at the top and the base of the vertical flow, the flow direction can be downwards or upwards.
+[LINE#229] Depending on the comparison of the fluid potential at the top and the base of the vertical flow, the flow direction can be downwards or upwards.
 0.911	[*A*]the flow direction[*R*]can be[*A*]downwards or upwards	context()	negated: False ,passive: True
-[LINE#196] The latter for instance occurs if pore-air pressure within the unsaturated region of the beach reaches a sufficiently high magnitude to create negative hydraulic gradient(i.e. change the sign of q in Eq.
+[LINE#230+231]  The latter for instance occurs if pore-air pressure within the unsaturated region of the beach reaches a sufficiently high magnitude to create negative hydraulic gradient(i.e. change the sign of q in Eq.
 0.936	[*A*]The latter for instance[*R*]occurs[*A*]if pore-air pressure within the unsaturated region of the beach reaches a sufficiently high magnitude	context()	negated: False ,passive: True
 0.948	[*A*]pore-air pressure within the unsaturated region of the beach[*R*]reaches[*A*]a sufficiently high magnitude to create negative hydraulic gradient	context()	negated: False ,passive: False
-[LINE#197]The pressure build-up then drives the wetting front towards the bed surface causing exfiltration, i.e. water is returned to the surface flow through the volume flux shown in Eq.
+[LINE#232] The pressure build-up then drives the wetting front towards the bed surface causing exfiltration, i.e. water is returned to the surface flow through the volume flux shown in Eq.
 0.942	[*A*]the volume flux[*R*]shown[*A*]in Eq	context()	negated: False ,passive: True
 0.894	[*A*]water[*R*]is returned[*A*]to the surface flow through the volume flux	context()	negated: False ,passive: True
 0.949	[*A*]The pressure build-up[*R*]drives[*A*]the wetting front towards the bed surface causing exfiltration[*A*]then	context()	negated: False ,passive: False
-[LINE#198] (1).The filtration module does not handle the cases when the imaginary boundary defines the lower end of the vertical flow (.
-[LINE#199]These are the cases when the vertical flow recharges the horizontal groundwater flow.
+[LINE#233]  (1).The filtration module does not handle the cases when the imaginary boundary defines the lower end of the vertical flow (.
+[LINE#234] These are the cases when the vertical flow recharges the horizontal groundwater flow.
 0.911	[*A*]the vertical flow[*R*]recharges[*A*]the horizontal groundwater flow	context()	negated: False ,passive: False
 0.657	[*A*]These[*R*]are[*A*]the cases when the vertical flow recharges the horizontal groundwater flow	context()	negated: False ,passive: True
-[LINE#200]The flow rate is calculated using Eqs.
+[LINE#235] The flow rate is calculated using Eqs.
 0.751	[*A*]The flow rate[*R*]is calculated	context()	negated: False ,passive: False
-[LINE#201](4)-(7), and incorporated in the groundwater flow simulation (Section 2.4).
+[LINE#236] (4)-(7), and incorporated in the groundwater flow simulation (Section 2.4).
 0.381	[*A*]4[*R*]incorporated[*A*]in the groundwater flow simulation	context()	negated: False ,passive: True
-[LINE#202] In case (iv) the groundwater flow is coupled with the surface flow through the volumetric flux.
+[LINE#237]  In case (iv) the groundwater flow is coupled with the surface flow through the volumetric flux.
 0.948	[*A*]the groundwater flow[*R*]is coupled[*A*]with the surface flow through the volumetric flux[*A*]In case	context()	negated: False ,passive: True
-[LINE#203]Air pressureThe air pressure module is based on a mass balance equation for one-dimensional horizontal pore-air movement in the unsaturated region of the beach.
+[LINE#238] Air pressureThe air pressure module is based on a mass balance equation for one-dimensional horizontal pore-air movement in the unsaturated region of the beach.
 0.944	[*A*]Air pressureThe air pressure module[*R*]is based[*A*]on a mass balance equation	context()	negated: False ,passive: True
-[LINE#204] The control volume covers a computational celli, shown in Fig. 2 for two typical situations: in the presence and absence of a wetting front.
+[LINE#239+240]  The control volume covers a computational celli, shown in Fig. 2 for two typical situations: in the presence and absence of a wetting front.
 0.933	[*A*]a computational celli[*R*]shown[*A*]in Fig	context()	negated: False ,passive: True
 0.925	[*A*]The control volume[*R*]covers[*A*]a computational celli , shown in Fig	context()	negated: False ,passive: True
-[LINE#205]The latter situation occurs at cross-shore locations where the surface water depth is zero, for example at locations beyond the location of maximum run-up.
+[LINE#241] The latter situation occurs at cross-shore locations where the surface water depth is zero, for example at locations beyond the location of maximum run-up.
 0.964	[*A*]the surface water depth[*R*]is[*A*]zero[*A*]cross-shore locations	context()	negated: False ,passive: True
 0.943	[*A*]The latter situation[*R*]occurs[*A*]at cross-shore locations where the surface water depth is zero, for example at locations beyond the location of maximum run-up	context()	negated: False ,passive: True
-[LINE#206]Air pressure and density everywhere inside the unsaturated part of a cell is assumed to be constant.
+[LINE#242] Air pressure and density everywhere inside the unsaturated part of a cell is assumed to be constant.
 0.845	[*A*]density everywhere inside the unsaturated part of a cell[*R*]to be[*A*]constant	context()	negated: False ,passive: True
 0.843	[*A*]density everywhere inside the unsaturated part of a cell[*R*]is assumed	context()	negated: False ,passive: False
 0.735	[*A*]Air pressure[*R*]to be[*A*]constant	context()	negated: False ,passive: True
 0.732	[*A*]Air pressure[*R*]is assumed	context()	negated: False ,passive: False
-[LINE#207] The mass balance equation for air during a single computational step t =tn+1-tn is expressed as(9)nn+1d(Viaia)=tntn+1i-1aQi-1/2adt-tntn+1iaQi+1/2adt-tntn+1iaQibdtwhere.
+[LINE#243+244]  The mass balance equation for air during a single computational step t =tn+1-tn is expressed as(9)nn+1d(Viaia)=tntn+1i-1aQi-1/2adt-tntn+1iaQi+1/2adt-tntn+1iaQibdtwhere.
 0.993	[*A*]The mass balance equation for air during a single computational step t =tn+1 - tn[*R*]is expressed as[*A*]9	context()	negated: False ,passive: False
 0.984	[*A*]The mass balance equation for air during a single computational step t =tn+1-tn[*R*]is expressed[*A*]as(9)nn+1d(Viaia)=tntn+1i-1aQi-1/2adt-tntn+1iaQi+1/2adt-tntn+1iaQibdtwhere	context()	negated: False ,passive: True
-[LINE#208] Via denote the density and volume of air within the cell is the mass flux at the interface between computational cells i-1 and i and iaQib is the mass flux through the top of the computational cell i (i.e. the bed surface), which exists only in the absence of the wetting front (Fig. 2, right).Assuming Darcy resistance and homogeneous material, the horizontal flux can be written in terms of pressure as(10)Qi+1/2a= k(hia+hi+1a)2xa1i+1/2a[pia-pi+1a+i+1/2ag(zi-zi+1)]where k is the intrinsic permeability, a is the viscosity of air, x is the length of the cell, zi is the middle level of the unsaturated beach region in cell i, hia is the height of unsaturated cell i, ia is the density of air within the unsaturated celland pia is the pore-air pressure within the unsaturated cell i.
+[LINE#245+246+247+248+249+250+251+252]  Via denote the density and volume of air within the cell is the mass flux at the interface between computational cells i-1 and i and iaQib is the mass flux through the top of the computational cell i (i.e. the bed surface), which exists only in the absence of the wetting front (Fig. 2, right).Assuming Darcy resistance and homogeneous material, the horizontal flux can be written in terms of pressure as(10)Qi+1/2a= k(hia+hi+1a)2xa1i+1/2a[pia-pi+1a+i+1/2ag(zi-zi+1)]where k is the intrinsic permeability, a is the viscosity of air, x is the length of the cell, zi is the middle level of the unsaturated beach region in cell i, hia is the height of unsaturated cell i, ia is the density of air within the unsaturated celland pia is the pore-air pressure within the unsaturated cell i.
 0.411	[*A*]i[*R*]exists[*A*]only in the absence of the wetting front	context()	negated: False ,passive: True
 0.849	[*A*]i and iaQib[*R*]is[*A*]the mass flux through the top of the computational cell	context()	negated: False ,passive: True
 0.852	[*A*]k[*R*]is[*A*]the intrinsic permeability	context()	negated: False ,passive: True
 0.949	[*A*]the density and volume of air within the cell[*R*]is[*A*]the mass flux at the interface between computational cells	context(Via denote the horizontal flux can be written)	negated: False ,passive: True
 0.698	[*A*]the horizontal flux[*R*]can be written	context(Via denote)	negated: False ,passive: False
 0.721	[*A*]Via[*R*]denote	context()	negated: False ,passive: False
-[LINE#209]The approximation of flux Qi-1/2a on the right-hand side of the mass balance Eq.
-[LINE#210](10) for heterogeneous beach material is straightforward.
-[LINE#211] The vertical flux between cell i and the atmosphere is expressed using Darcy's law as(11)Qib=2kxhiaaia[(pia-pA)+iag(zi-zib)]where zib is the level of the bed surface and pAis the atmospheric pressure at the bed surface.
+[LINE#253] The approximation of flux Qi-1/2a on the right-hand side of the mass balance Eq.
+[LINE#254] (10) for heterogeneous beach material is straightforward.
+[LINE#255+256]  The vertical flux between cell i and the atmosphere is expressed using Darcy's law as(11)Qib=2kxhiaaia[(pia-pA)+iag(zi-zib)]where zib is the level of the bed surface and pAis the atmospheric pressure at the bed surface.
 0.786	[*A*]zib[*R*]pAis[*A*]the atmospheric pressure at the bed surface	context()	negated: False ,passive: False
 0.629	[*A*]zib[*R*]is	context()	negated: False ,passive: False
 0.732	[*A*]the atmosphere[*R*]is expressed	context()	negated: False ,passive: False
-[LINE#212](10) expresses the relationship between the air flux and the pressure gradient, which is assumed valid at any point in time.
+[LINE#257] (10) expresses the relationship between the air flux and the pressure gradient, which is assumed valid at any point in time.
 0.878	[*A*]the pressure gradient[*R*]is assumed[*A*]at any point in time	context()	negated: False ,passive: True
 0.618	[*A*]10[*R*]expresses[*A*]the relationship between the air flux and the pressure gradient	context()	negated: False ,passive: False
-[LINE#213]The average flux over time interval (tn,tn+1) is evaluated as(12)tntn+1iaQi+1/2adt=[(1-w)ia,nQi+1/2a,n+wia,nQi+1/2a,n+1]twhere 0w1 denotes the weighting coefficient, Qi+1/2a,n is found from Eq.
+[LINE#258] The average flux over time interval (tn,tn+1) is evaluated as(12)tntn+1iaQi+1/2adt=[(1-w)ia,nQi+1/2a,n+wia,nQi+1/2a,n+1]twhere 0w1 denotes the weighting coefficient, Qi+1/2a,n is found from Eq.
 0.845	[*A*]the weighting coefficient[*R*]is found[*A*]n	context()	negated: False ,passive: True
 0.718	[*A*]twhere 0w1[*R*]denotes[*A*]the weighting coefficient, Qi+1/2a,n is found from Eq	context()	negated: False ,passive: False
 0.773	[*A*]The average flux over time interval[*R*]is evaluated	context()	negated: False ,passive: False
-[LINE#214]taking flow quantities at tn, and Qi+1/2a,n+1 is found from Eq.
+[LINE#259] taking flow quantities at tn, and Qi+1/2a,n+1 is found from Eq.
 0.840	[*A*]n+1[*R*]is found[*A*]from Eq	context()	negated: False ,passive: True
-[LINE#215](10) taking solely pressure pa at time tn+1 (and other quantities at time tn).
-[LINE#216]The other terms on the right-hand side of the mass balance Eq.
-[LINE#217](9) are weighted between tn and tn+1 analogously.
+[LINE#260] (10) taking solely pressure pa at time tn+1 (and other quantities at time tn).
+[LINE#261] The other terms on the right-hand side of the mass balance Eq.
+[LINE#262] (9) are weighted between tn and tn+1 analogously.
 0.992	[*A*]9[*R*]are weighted between[*A*]tn and tn+1 analogously	context()	negated: False ,passive: False
 0.342	[*A*]9[*R*]are weighted[*A*]between tn and tn+1 analogously	context()	negated: False ,passive: True
-[LINE#218]The term on the left-hand side of the mass balance Eq.
-[LINE#219](9) represents the difference in mass between tn and tn+1 incorporating a change in volume (i.e. height of unsaturated zone) and a change in air density.
+[LINE#263] The term on the left-hand side of the mass balance Eq.
+[LINE#264] (9) represents the difference in mass between tn and tn+1 incorporating a change in volume (i.e. height of unsaturated zone) and a change in air density.
 0.455	[*A*]9[*R*]represents[*A*]the difference in mass between tn and tn+1 incorporating a change in volume a change in air density	context()	negated: False ,passive: False
 0.455	[*A*]9[*R*]represents[*A*]the difference in mass between tn and tn+1 incorporating a change in volume	context()	negated: False ,passive: False
-[LINE#220] It is expressed as(13)nn+1d(iaVia)=ia,n+1Via,n+1-ia,nVia ,n=ia,n+1xhia,n+1-ia,nxhia,nwhere  denotes the effective porosity , x is the length of cell i, and hia,n is the height of unsaturated zone in cell.
+[LINE#265+266+267]  It is expressed as(13)nn+1d(iaVia)=ia,n+1Via,n+1-ia,nVia ,n=ia,n+1xhia,n+1-ia,nxhia,nwhere  denotes the effective porosity , x is the length of cell i, and hia,n is the height of unsaturated zone in cell.
 0.905	[*A*]hia[*R*]is[*A*]the height of unsaturated zone	context()	negated: False ,passive: True
 0.157	[*A*]It[*R*]is expressed	context(x is i is)	negated: False ,passive: False
 0.816	[*A*]x[*R*]is[*A*]the length of cell	context(i is)	negated: False ,passive: True
 0.416	[*A*]i[*R*]is[*A*]the height of unsaturated zone	context()	negated: False ,passive: True
 0.989	[*A*]nn+1 d ( iaVia ) =ia , n+1Via , n+1 - ia , nVia , n=ia , n+1xhia , n+1 - ia , nxhia[*R*]nwhere denotes[*A*]the effective porosity	context()	negated: False ,passive: False
-[LINE#221]The height of unsaturated cell at time n+1 on the right-hand side of Eq.
-[LINE#222]where dhif,n* and dhi,n* are predictions of the movement of the wetting front and groundwater level during tn+1-tn (discussed in more detail in Section 2.5 and Appendix C).Air density ia,n+1 in Eq.
+[LINE#268] The height of unsaturated cell at time n+1 on the right-hand side of Eq.
+[LINE#269] where dhif,n* and dhi,n* are predictions of the movement of the wetting front and groundwater level during tn+1-tn (discussed in more detail in Section 2.5 and Appendix C).Air density ia,n+1 in Eq.
 0.961	[*A*]predictions of the movement of the groundwater level during tn+1 - tn[*R*]discussed[*A*]in more detail in Appendix C	context()	negated: False ,passive: True
 0.954	[*A*]predictions of the movement of the groundwater level during tn+1 - tn[*R*]discussed[*A*]in more detail[*A*]in Section 2.5	context()	negated: False ,passive: True
 0.965	[*A*]predictions of the movement of the wetting front level during tn+1 - tn[*R*]discussed[*A*]in more detail in Appendix C	context()	negated: False ,passive: True
@@ -674,7 +674,7 @@
 0.519	[*A*]dhi[*R*]are	context()	negated: False ,passive: False
 0.519	[*A*]n*[*R*]are	context()	negated: False ,passive: False
 0.519	[*A*]dhif[*R*]are	context()	negated: False ,passive: False
-[LINE#223] (13) is found through the relationship for an ideal gas undergoing a reversible (i.e. no entropy generation) adiabatic process given by(14)pia,n(ia,=constantwhere  is the heat capacity ratio, for which a value of 1.4 is commonly taken for a diatomic gas (such as air, which consists mainly of nitrogen and oxygen) at room temperature.
+[LINE#270+271]  (13) is found through the relationship for an ideal gas undergoing a reversible (i.e. no entropy generation) adiabatic process given by(14)pia,n(ia,=constantwhere  is the heat capacity ratio, for which a value of 1.4 is commonly taken for a diatomic gas (such as air, which consists mainly of nitrogen and oxygen) at room temperature.
 0.992	[*A*]13[*R*]is found through[*A*]the relationship for an ideal gas undergoing a reversible ( i.e. no entropy generation	context()	negated: False ,passive: False
 0.929	[*A*]a value of 1.4[*R*]is taken[*A*]for a diatomic gas (such as air[*A*]the heat capacity ratio	context()	negated: False ,passive: True
 0.950	[*A*]adiabatic process given by(14)pia,[*R*]n =constantwhere is[*A*]the heat capacity ratio, for which a value of 1.4 is commonly taken for a diatomic gas (such as air, which consists mainly of nitrogen and oxygen) at room temperature	context()	negated: False ,passive: True
@@ -682,74 +682,74 @@
 0.911	[*A*]an ideal gas[*R*]undergoing[*A*]a reversible (i.e. no entropy generation	context()	negated: False ,passive: True
 0.877	[*A*]air[*R*]consists[*A*]mainly[*A*]of nitrogen and oxygen	context()	negated: False ,passive: True
 0.503	[*A*]13[*R*]is found[*A*]through the relationship for an ideal gas	context()	negated: False ,passive: True
-[LINE#224]Expressions for all terms in the mass balance Eq.
-[LINE#225](9) are combined into a linear system presented in Appendix A.
+[LINE#272] Expressions for all terms in the mass balance Eq.
+[LINE#273] (9) are combined into a linear system presented in Appendix A.
 0.992	[*A*]9[*R*]are combined into[*A*]a linear system presented in Appendix A.	context()	negated: False ,passive: False
 0.925	[*A*]a linear system[*R*]presented[*A*]in Appendix A.	context()	negated: False ,passive: True
 0.342	[*A*]9[*R*]are combined[*A*]into a linear system	context()	negated: False ,passive: True
-[LINE#226]The set of equations is solved using Gaussian elimination. .
+[LINE#274] The set of equations is solved using Gaussian elimination. .
 0.919	[*A*]The set of equations[*R*]is solved[*A*]using Gaussian elimination	context()	negated: False ,passive: True
-[LINE#227]The groundwater module simulates the nearly horizontal movement of groundwater within the beach.
+[LINE#275] The groundwater module simulates the nearly horizontal movement of groundwater within the beach.
 0.911	[*A*]The groundwater module[*R*]simulates[*A*]the nearly horizontal movement of groundwater within the beach	context()	negated: False ,passive: False
-[LINE#228]The groundwater module is used in two steps.
+[LINE#276] The groundwater module is used in two steps.
 0.911	[*A*]The groundwater module[*R*]is used[*A*]in two steps	context()	negated: False ,passive: True
-[LINE#229]The first step is the prediction of groundwater levels within the unconfined region of the beach to enable the determination of the air pressure values in the air flow module.
+[LINE#277] The first step is the prediction of groundwater levels within the unconfined region of the beach to enable the determination of the air pressure values in the air flow module.
 0.956	[*A*]The first step[*R*]is[*A*]the prediction of groundwater levels within the unconfined region of the beach to enable the determination of the air pressure values in the air flow module	context()	negated: False ,passive: True
-[LINE#230]This step uses a quick procedure of the groundwater module described in Appendix C.
+[LINE#278] This step uses a quick procedure of the groundwater module described in Appendix C.
 0.925	[*A*]the groundwater module[*R*]described[*A*]in Appendix C.	context()	negated: False ,passive: True
 0.903	[*A*]This step[*R*]uses[*A*]a quick procedure of the groundwater module	context()	negated: False ,passive: False
-[LINE#231]Once the air flow module has been updated the second step is to determine the values for the groundwater levels within the confined and unconfined region of the beach as explained in the following.
+[LINE#279] Once the air flow module has been updated the second step is to determine the values for the groundwater levels within the confined and unconfined region of the beach as explained in the following.
 0.975	[*A*]the second step[*R*]is[*A*]to determine the values for the groundwater levels within the unconfined region of the beach[*A*]Once the air flow module has been updated	context()	negated: False ,passive: True
 0.975	[*A*]the second step[*R*]is[*A*]to determine the values for the groundwater levels within the confined region of the beach[*A*]Once the air flow module has been updated	context()	negated: False ,passive: True
 0.769	[*A*]the air flow module[*R*]has been updated	context()	negated: False ,passive: False
-[LINE#232] Groundwater flow in a computational celli can be either unconfined, i.e. with a free surface (Fig. 2), or confined (Fig. 3).
+[LINE#280+281]  Groundwater flow in a computational celli can be either unconfined, i.e. with a free surface (Fig. 2), or confined (Fig. 3).
 0.718	[*A*]a free surface[*R*]confined	context()	negated: False ,passive: False
 0.829	[*A*]Groundwater flow in a computational celli[*R*]can be[*A*]either unconfined	context()	negated: False ,passive: True
-[LINE#233]The latter case occurs when the wetting front has merged with the groundwater level.
+[LINE#282] The latter case occurs when the wetting front has merged with the groundwater level.
 0.911	[*A*]the wetting front[*R*]has merged[*A*]with the groundwater level	context()	negated: False ,passive: True
 0.943	[*A*]The latter case[*R*]occurs[*A*]when the wetting front has merged with the groundwater level	context()	negated: False ,passive: True
-[LINE#234]From this moment an imaginary boundary (dashed line in Fig. 3) is introduced in the model.
+[LINE#283] From this moment an imaginary boundary (dashed line in Fig. 3) is introduced in the model.
 0.992	[*A*]3[*R*]is introduced From[*A*]this moment	context()	negated: False ,passive: False
 0.971	[*A*]an imaginary boundary (dashed line in Fig[*R*]is introduced[*A*]in the model[*A*]From this moment	context()	negated: False ,passive: True
-[LINE#235] The boundary represents the zone where the vertical percolation (above the boundary) is converted into quasi-horizontal flow in the groundwater (below the boundary).The continuity equation for a cell i can be written as(15)Qi-1/2-Qi+1/2={-qixfor a confined beachHitxfor an unconfined beachwhere Qi-1/2 denotes the discharge at the interface between cells i-1 and i, qi denotes vertical flux (infiltration/exfiltration) through the imaginary upper boundary, Hi is the hydraulic head within the cell i and  is the effective porosity (Fig. 1).The horizontal flux Qi-1/2 is written in terms of hydraulic head.
+[LINE#284+285+286+287+288]  The boundary represents the zone where the vertical percolation (above the boundary) is converted into quasi-horizontal flow in the groundwater (below the boundary).The continuity equation for a cell i can be written as(15)Qi-1/2-Qi+1/2={-qixfor a confined beachHitxfor an unconfined beachwhere Qi-1/2 denotes the discharge at the interface between cells i-1 and i, qi denotes vertical flux (infiltration/exfiltration) through the imaginary upper boundary, Hi is the hydraulic head within the cell i and  is the effective porosity (Fig. 1).The horizontal flux Qi-1/2 is written in terms of hydraulic head.
 0.641	[*A*]i[*R*]is[*A*]the effective porosity ( Fig . 1 ) . The horizontal flux Qi - 1/2 is written in terms of hydraulic head .	context()	negated: False ,passive: True
 0.807	[*A*]Qi - 1/2 - Qi+1/2=[*R*]qixfor	context()	negated: False ,passive: False
 0.195	[*A*]i[*R*]can be written	context()	negated: False ,passive: False
 0.807	[*A*]The horizontal flux Qi - 1/2[*R*]is written	context()	negated: False ,passive: False
 0.973	[*A*]the vertical percolation ( above the boundary[*R*]is converted[*A*]into quasi-horizontal flow in the groundwater ( below the boundary[*A*]the zone	context()	negated: False ,passive: True
-[LINE#236] Hi)where hi is the height of the groundwater in cell i and Ki-1/2 is the hydraulic conductivity obtained from the linearised resistance law, i.e.(17)Ki-1/2=1aK+bKcK|up, the Forchheimer coefficients, upthe horizontal flux (in unit m/s), and cK a coefficient determined by model calibration (Section 3.1 and Appendix B).
+[LINE#289+290+291+292]  Hi)where hi is the height of the groundwater in cell i and Ki-1/2 is the hydraulic conductivity obtained from the linearised resistance law, i.e.(17)Ki-1/2=1aK+bKcK|up, the Forchheimer coefficients, upthe horizontal flux (in unit m/s), and cK a coefficient determined by model calibration (Section 3.1 and Appendix B).
 0.903	[*A*]a coefficient[*R*]determined[*A*]by model calibration	context()	negated: False ,passive: True
-[LINE#237]Qi+1/2 on the left-hand side of Eq.
-[LINE#238]The average discharge over time interval (tn,tn+1) is evaluated as(18)1ttntn+1Qi-1/2dt=[(1-w)Qi-1/2,n+wQi-1/2,n+1]where 0w1 denotes the weighting coefficient, and Qi-1/2,n is found from Eq.
+[LINE#293] Qi+1/2 on the left-hand side of Eq.
+[LINE#294] The average discharge over time interval (tn,tn+1) is evaluated as(18)1ttntn+1Qi-1/2dt=[(1-w)Qi-1/2,n+wQi-1/2,n+1]where 0w1 denotes the weighting coefficient, and Qi-1/2,n is found from Eq.
 0.993	[*A*]The average discharge over time interval ( tn , tn+1 )[*R*]is evaluated as[*A*]18	context()	negated: False ,passive: False
 0.698	[*A*]n+1[*R*]is found[*A*]n	context()	negated: False ,passive: True
 0.544	[*A*]0w1[*R*]denotes[*A*]the weighting coefficient	context()	negated: False ,passive: False
 0.868	[*A*]The average discharge over time interval[*R*]is evaluated[*A*]as(18)1ttntn+1Qi-1/2dt=[(1-w	context()	negated: False ,passive: True
-[LINE#239] the case of confined groundwater flow there are two more quantities that have to be evaluated: the imaginary upper boundary of the model and the vertical flux.
+[LINE#295]  the case of confined groundwater flow there are two more quantities that have to be evaluated: the imaginary upper boundary of the model and the vertical flux.
 0.500	[*A*]two more quantities[*R*]are the case of[*A*]confined groundwater flow there	context()	negated: False ,passive: False
 0.718	[*A*]two more quantities[*R*]to be evaluated	context()	negated: False ,passive: False
-[LINE#240]After the arrival of the wetting front, the region of the beach is considered confined and from this moment the boundary, initially coinciding with the groundwater level, moves towards the bed surface.
+[LINE#296] After the arrival of the wetting front, the region of the beach is considered confined and from this moment the boundary, initially coinciding with the groundwater level, moves towards the bed surface.
 0.832	[*A*]the boundary[*R*]coinciding[*A*]initially	context()	negated: False ,passive: True
 0.973	[*A*]the region of the beach[*R*]is considered[*A*]from this moment[*A*]the boundary , initially coinciding with the groundwater level , moves towards the bed surface[*A*]After the arrival of the wetting front	context()	negated: False ,passive: True
-[LINE#241] Reasonable results for the level of the imaginary boundary were obtained by assuming that the imaginary boundary moves with a vertical upward velocity equal to the vertical flux through the imaginary boundary q, i.e. during a time step.
+[LINE#297]  Reasonable results for the level of the imaginary boundary were obtained by assuming that the imaginary boundary moves with a vertical upward velocity equal to the vertical flux through the imaginary boundary q, i.e. during a time step.
 0.843	[*A*]Reasonable results for the level of the imaginary boundary[*R*]were obtained	context()	negated: False ,passive: False
-[LINE#242]This is smaller, by factor , than the height of the fluid volume that has recharged the horizontal groundwater during the same step.
+[LINE#298] This is smaller, by factor , than the height of the fluid volume that has recharged the horizontal groundwater during the same step.
 0.897	[*A*]the fluid volume[*R*]has recharged[*A*]the horizontal groundwater[*A*]during the same step	context()	negated: False ,passive: False
 0.567	[*A*]This[*R*]is[*A*]smaller, by factor , than the height of the fluid volume	context()	negated: False ,passive: True
-[LINE#243]In other words only a fraction of vertical flow (equal ) is immediately converted into horizontal flow, while the remaining part (1-) remains vertical.
+[LINE#299] In other words only a fraction of vertical flow (equal ) is immediately converted into horizontal flow, while the remaining part (1-) remains vertical.
 0.754	[*A*]the remaining part[*R*]remains[*A*]vertical	context()	negated: False ,passive: True
-[LINE#244]Although not based on a physical law, this is considered reasonable.
-[LINE#245]The vertical flux into the confined groundwater cell is driven by the difference in hydraulic head at the beach surface, Hih, and at the upper boundary of groundwater flow, Hi.
+[LINE#300] Although not based on a physical law, this is considered reasonable.
+[LINE#301] The vertical flux into the confined groundwater cell is driven by the difference in hydraulic head at the beach surface, Hih, and at the upper boundary of groundwater flow, Hi.
 0.943	[*A*]The vertical flux into the confined groundwater cell[*R*]is driven[*A*]by the difference[*A*]in hydraulic head	context()	negated: False ,passive: True
 0.964	[*A*]The vertical flux into the confined groundwater cell[*R*]is driven[*A*]by the difference in hydraulic head at the beach surface	context()	negated: False ,passive: True
-[LINE#246]It was necessary to use Forchheimer parameterisation of the subsurface flow resistance, as initial attempts with a Darcian model failed to adequately reproduce the water exchange between the surface flow and a coarse-grained beach during a bore-driven swash event.
+[LINE#302] It was necessary to use Forchheimer parameterisation of the subsurface flow resistance, as initial attempts with a Darcian model failed to adequately reproduce the water exchange between the surface flow and a coarse-grained beach during a bore-driven swash event.
 0.949	[*A*]initial attempts with a Darcian model[*R*]to adequately reproduce[*A*]the water exchange between the surface flow and a coarse-grained beach during a bore-driven swash event	context()	negated: False ,passive: False
 0.956	[*A*]initial attempts with a Darcian model[*R*]failed[*A*]to adequately reproduce the water exchange between the surface flow and a coarse-grained beach during a bore-driven swash event	context()	negated: False ,passive: True
-[LINE#247]Due to the quadratic law describing vertical flux through the imaginary boundary it was necessary to carry out the calculation of the hydraulic head within the confined region of the beach in two iterations.
+[LINE#303] Due to the quadratic law describing vertical flux through the imaginary boundary it was necessary to carry out the calculation of the hydraulic head within the confined region of the beach in two iterations.
 0.911	[*A*]the quadratic law[*R*]describing[*A*]vertical flux	context()	negated: False ,passive: False
-[LINE#248] In the first iteration the system of the confined region is solved with the Darcian vertical flux, and with the same weighting coefficient w as before, i.e. as(19)qi=Ki(1-w)Hih,n-Hi,nzib-zic+wHih,n+1-Hi,n+zib-zicwhere.
+[LINE#304]  In the first iteration the system of the confined region is solved with the Darcian vertical flux, and with the same weighting coefficient w as before, i.e. as(19)qi=Ki(1-w)Hih,n-Hi,nzib-zic+wHih,n+1-Hi,n+zib-zicwhere.
 0.961	[*A*]the system of the confined region[*R*]is solved[*A*]with the Darcian vertical flux[*A*]In the first iteration	context()	negated: False ,passive: True
-[LINE#249]Hih,n and Hih,n+1 are the hydraulic head at the bed surface based on the surface flow known at tn and tn+1 respectively, (Appendix B), zb is the bed level and zc is the level of the imaginary boundary within the confined region discussed above (bold dashed line in Fig. 3).
+[LINE#305] Hih,n and Hih,n+1 are the hydraulic head at the bed surface based on the surface flow known at tn and tn+1 respectively, (Appendix B), zb is the bed level and zc is the level of the imaginary boundary within the confined region discussed above (bold dashed line in Fig. 3).
 0.998	[*A*]Hih , Hih , n+1 are the hydraulic head at the bed surface based on the surface flow known at tn+1 respectively , ( Appendix B ) , zb is zc[*R*]is[*A*]the level of the imaginary boundary within the confined region	context()	negated: False ,passive: True
 0.441	[*A*]n+1[*R*]are[*A*]the hydraulic head at the bed surface based on the surface flow	context(zb is)	negated: False ,passive: True
 0.998	[*A*]Hih , Hih , n+1 are the hydraulic head at the bed surface based on the surface flow known at tn respectively , ( Appendix B ) , zb is zc[*R*]is[*A*]the level of the imaginary boundary within the confined region	context()	negated: False ,passive: True
@@ -764,56 +764,56 @@
 0.932	[*A*]the surface flow[*R*]known[*A*]at tn[*A*]respectively	context()	negated: False ,passive: True
 0.925	[*A*]the confined region[*R*]discussed[*A*]above ( bold dashed line in Fig	context()	negated: False ,passive: True
 0.938	[*A*]the hydraulic head at the bed surface[*R*]based[*A*]on the surface flow	context()	negated: False ,passive: True
-[LINE#250] This yields the first iteration for the hydraulic head within the beach at time level tn+1, Hi,.
+[LINE#306]  This yields the first iteration for the hydraulic head within the beach at time level tn+1, Hi,.
 0.497	[*A*]This[*R*]yields[*A*]the first iteration for the hydraulic head within the beach at time level tn+1, Hi	context()	negated: False ,passive: False
-[LINE#251] The system of the confined region is then solved with the vertical flux, qi calculated from the Forchheimer resistance law from the first iteration, i.e. as(20)qi=-aK2bK+12[(aKbK)2+4(zib-zic)bK[(1-w)(Hih,n-Hi,n)+w(Hih,n+1-Hi,n+)]]12By continuity the vertical flux q is equal to the volume flux q through the beach surface in Eq.
+[LINE#307+308+309]  The system of the confined region is then solved with the vertical flux, qi calculated from the Forchheimer resistance law from the first iteration, i.e. as(20)qi=-aK2bK+12[(aKbK)2+4(zib-zic)bK[(1-w)(Hih,n-Hi,n)+w(Hih,n+1-Hi,n+)]]12By continuity the vertical flux q is equal to the volume flux q through the beach surface in Eq.
 0.385	[*A*]the vertical flux q[*R*]is equal to[*A*]the volume flux	context()	negated: False ,passive: False
 0.840	[*A*]qi[*R*]calculated[*A*]from the Forchheimer resistance law[*A*]from the first iteration	context()	negated: False ,passive: True
-[LINE#252]This provides coupling between surface flow and groundwater flow at cross-shore locations where the groundwater flow is confined.
+[LINE#310] This provides coupling between surface flow and groundwater flow at cross-shore locations where the groundwater flow is confined.
 0.939	[*A*]the groundwater flow[*R*]is confined[*A*]cross-shore locations	context()	negated: False ,passive: True
 0.497	[*A*]This[*R*]provides[*A*]coupling between surface flow and groundwater flow at cross-shore locations	context()	negated: False ,passive: False
-[LINE#253]If the hydraulic head at the beach surface is greater than the hydraulic head within the confined region of the beach, the surface flow recharges groundwater and q is positive.
+[LINE#311] If the hydraulic head at the beach surface is greater than the hydraulic head within the confined region of the beach, the surface flow recharges groundwater and q is positive.
 0.699	[*A*]the surface flow[*R*]recharges	context(q is)	negated: False ,passive: False
 0.610	[*A*]q[*R*]is[*A*]positive	context()	negated: False ,passive: True
 0.853	[*A*]the surface flow recharges groundwater[*R*]is[*A*]positive	context()	negated: False ,passive: True
 0.970	[*A*]the hydraulic head at the beach surface[*R*]is[*A*]greater than the hydraulic head within the confined region of the beach	context()	negated: False ,passive: True
-[LINE#254]Otherwise, if the groundwater head becomes greater than the surface head, exfiltration occurs, i.e. q is negative.
+[LINE#312] Otherwise, if the groundwater head becomes greater than the surface head, exfiltration occurs, i.e. q is negative.
 0.381	[*A*]i.e. q[*R*]is[*A*]negative	context()	negated: False ,passive: True
 0.713	[*A*]exfiltration[*R*]occurs	context()	negated: False ,passive: False
 0.911	[*A*]the groundwater head[*R*]becomes[*A*]greater than the surface head	context()	negated: False ,passive: True
-[LINE#255]In the backwash when the swash depth becomes zero, the beach starts to drain.
+[LINE#313] In the backwash when the swash depth becomes zero, the beach starts to drain.
 0.698	[*A*]the beach[*R*]to drain	context()	negated: False ,passive: False
 0.948	[*A*]the beach[*R*]starts[*A*]In the backwash[*A*]when the swash depth becomes zero	context()	negated: False ,passive: True
 0.783	[*A*]the swash depth[*R*]becomes[*A*]zero	context()	negated: False ,passive: True
-[LINE#256]As no water enters the beach, the wetting tail, zt, initially at the level of the bed surface, starts to propagate downwards (Fig. 3).
+[LINE#314] As no water enters the beach, the wetting tail, zt, initially at the level of the bed surface, starts to propagate downwards (Fig. 3).
 0.980	[*A*]the wetting tail, zt, initially at the level of the bed surface[*R*]starts[*A*]As no water enters the beach	context()	negated: False ,passive: True
 0.903	[*A*]no water[*R*]enters[*A*]the beach	context()	negated: False ,passive: False
-[LINE#257]Before the wetting front has merged with the groundwater the wetting tail moves at the same speed as the wetting front.
+[LINE#315] Before the wetting front has merged with the groundwater the wetting tail moves at the same speed as the wetting front.
 0.911	[*A*]the wetting front[*R*]has merged[*A*]with the groundwater	context()	negated: False ,passive: True
-[LINE#258] Afterwards the level of the wetting tail is given by zit,n+1=zit,n-(qin+1t)/, where q is the vertical flux through the imaginary boundary of the groundwater flow calculated using the wetting tail level, zit, and the corresponding hydraulic head instead of zib and Hih in Eqs.
+[LINE#316+317]  Afterwards the level of the wetting tail is given by zit,n+1=zit,n-(qin+1t)/, where q is the vertical flux through the imaginary boundary of the groundwater flow calculated using the wetting tail level, zit, and the corresponding hydraulic head instead of zib and Hih in Eqs.
 0.979	[*A*]the level of the wetting tail[*R*]is given[*A*]by zit , n+1=zit , zit , and the corresponding hydraulic head instead of Hih in Eqs[*A*]Afterwards	context()	negated: False ,passive: True
 0.975	[*A*]the level of the wetting tail[*R*]is given[*A*]by zit , n+1=zit , zit , and the corresponding hydraulic head instead of zib[*A*]Afterwards	context()	negated: False ,passive: True
 0.961	[*A*]the level of the wetting tail[*R*]is given[*A*]by zit[*A*]Afterwards	context()	negated: False ,passive: True
 0.979	[*A*]the level of the wetting tail[*R*]is given[*A*]by zit , n+1=zit , n , and the corresponding hydraulic head instead of Hih in Eqs[*A*]Afterwards	context()	negated: False ,passive: True
 0.975	[*A*]the level of the wetting tail[*R*]is given[*A*]by zit , n+1=zit , n , and the corresponding hydraulic head instead of zib[*A*]Afterwards	context()	negated: False ,passive: True
-[LINE#259](16), (18) and (20) is written for each cell in the confined and unconfined region of the beach.
+[LINE#318] (16), (18) and (20) is written for each cell in the confined and unconfined region of the beach.
 0.503	[*A*]20[*R*]is written[*A*]for each cell[*A*]in the unconfined region of the beach	context()	negated: False ,passive: True
 0.992	[*A*]20[*R*]is written for[*A*]each cell	context()	negated: False ,passive: False
 0.503	[*A*]20[*R*]is written[*A*]for each cell[*A*]in the confined region of the beach	context()	negated: False ,passive: True
 0.992	[*A*]16[*R*]is written for[*A*]each cell	context()	negated: False ,passive: False
-[LINE#260]Together these equations form a linear system.
-[LINE#261]Details of the system are presented in Appendix B.
+[LINE#319] Together these equations form a linear system.
+[LINE#320] Details of the system are presented in Appendix B.
 0.931	[*A*]Details of the system[*R*]are presented[*A*]in Appendix B.	context()	negated: False ,passive: True
-[LINE#262]The set of equations is solved using Gaussian elimination.
+[LINE#321] The set of equations is solved using Gaussian elimination.
 0.919	[*A*]The set of equations[*R*]is solved[*A*]using Gaussian elimination	context()	negated: False ,passive: True
-[LINE#263]The most seaward groundwater cell is located at the position of the initial shoreline.
+[LINE#322] The most seaward groundwater cell is located at the position of the initial shoreline.
 0.926	[*A*]The most seaward groundwater cell[*R*]is located[*A*]at the position of the initial shoreline	context()	negated: False ,passive: True
-[LINE#264]Groundwater flow between the beach toe and the most seaward cell is incorporated using the procedure described in the last paragraph of Appendix C. .
+[LINE#323] Groundwater flow between the beach toe and the most seaward cell is incorporated using the procedure described in the last paragraph of Appendix C. .
 0.918	[*A*]the procedure[*R*]described[*A*]in the last paragraph of Appendix C.	context()	negated: False ,passive: True
 0.769	[*A*]the most seaward cell[*R*]is incorporated	context()	negated: False ,passive: False
-[LINE#265] 4 illustrates the coupling between the surface and subsurface flow solutions in a single computational time step (.
+[LINE#324]  4 illustrates the coupling between the surface and subsurface flow solutions in a single computational time step (.
 0.497	[*A*]4[*R*]illustrates[*A*]the coupling between the surface and subsurface flow solutions in a single computational time step	context()	negated: False ,passive: False
-[LINE#266] In summary, the model for swash on permeable beaches takes the following steps:The surface flow variables above the bed (water depth h and velocity u) are calculated.Trial values for the saturated thickness, hf,and for the height of the groundwater level, h,n*, are predicted based on the updated surface flow depth, hn+1, and the pore-air pressure in the unsaturated region of the beach, pa,n, at the previous time-level, tn.
+[LINE#325+326]  In summary, the model for swash on permeable beaches takes the following steps:The surface flow variables above the bed (water depth h and velocity u) are calculated.Trial values for the saturated thickness, hf,and for the height of the groundwater level, h,n*, are predicted based on the updated surface flow depth, hn+1, and the pore-air pressure in the unsaturated region of the beach, pa,n, at the previous time-level, tn.
 0.961	[*A*]steps:The surface flow variables above the bed velocity u[*R*]are[*A*]calculated.Trial values for for the height of the groundwater level , h , n* , are predicted based on the pore-air pressure in the unsaturated region of the beach	context()	negated: False ,passive: True
 0.977	[*A*]the model for swash on permeable beaches[*R*]takes[*A*]the following steps:The surface flow variables above the bed velocity u ) are calculated.Trial values for for the height of the groundwater level , h , n* , are predicted based on the pore-air pressure in the unsaturated region of the beach[*A*]In summary	context()	negated: False ,passive: False
 0.961	[*A*]steps:The surface flow variables above the bed velocity u[*R*]are[*A*]calculated.Trial values for for the height of the groundwater level , h , n* , are predicted based on hn+1	context()	negated: False ,passive: True
@@ -834,7 +834,7 @@
 0.977	[*A*]the model for swash on permeable beaches[*R*]takes[*A*]the following steps:The surface flow variables above the bed ( water depth h ) are calculated.Trial values for hf[*A*]In summary	context()	negated: False ,passive: False
 0.927	[*A*]steps:The surface flow variables above the bed[*R*]are[*A*]calculated.Trial values for the saturated thickness	context()	negated: False ,passive: True
 0.977	[*A*]the model for swash on permeable beaches[*R*]takes[*A*]the following steps:The surface flow variables above the bed ( water depth h ) are calculated.Trial values for the saturated thickness[*A*]In summary	context()	negated: False ,passive: False
-[LINE#267] The wetting front and groundwater estimate are obtained from the filtration module and from a quick procedure of the groundwater module respectively (Appendix C).The pore-air pressure in the unsaturated region of the beach, pa,n+1, is determined by taking into account the updated surface depth, hn+1 and the wetting front and groundwater predictions, hf, respectively.The filtration module solves for the corrected value of saturated thickness, hf,n+1 (and thus wetting front and tail level zf,n+1 and zt,n+1), and the vertical volume flux qn+1, with the hydraulic gradient calculated from the updated surface water depth, hn+1, and air pressure within the unsaturated region of the beach,pa,n+1.The groundwater module solves the corrected hydraulic head within the beach based on the updated pore-air pressure in the unsaturated region of the beach, pa,n+1, and the updated surface water depth at the beach face, hn+1, and also solves the vertical volume flux, qn+1, across the confined region of the beach.
+[LINE#327+328+329+330]  The wetting front and groundwater estimate are obtained from the filtration module and from a quick procedure of the groundwater module respectively (Appendix C).The pore-air pressure in the unsaturated region of the beach, pa,n+1, is determined by taking into account the updated surface depth, hn+1 and the wetting front and groundwater predictions, hf, respectively.The filtration module solves for the corrected value of saturated thickness, hf,n+1 (and thus wetting front and tail level zf,n+1 and zt,n+1), and the vertical volume flux qn+1, with the hydraulic gradient calculated from the updated surface water depth, hn+1, and air pressure within the unsaturated region of the beach,pa,n+1.The groundwater module solves the corrected hydraulic head within the beach based on the updated pore-air pressure in the unsaturated region of the beach, pa,n+1, and the updated surface water depth at the beach face, hn+1, and also solves the vertical volume flux, qn+1, across the confined region of the beach.
 0.911	[*A*]n+1.The groundwater module[*R*]solves[*A*]the corrected hydraulic head within the beach	context()	negated: False ,passive: False
 0.965	[*A*]pa,n+1, and the updated surface water depth[*R*]solves[*A*]the vertical volume flux, qn+1, across the confined region of the beach	context()	negated: False ,passive: False
 0.889	[*A*]n+1[*R*]by taking[*A*]into account[*A*]the updated surface depth, hn+1 and the wetting front and groundwater predictions, hf	context()	negated: False ,passive: False

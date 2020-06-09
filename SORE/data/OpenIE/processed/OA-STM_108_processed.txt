@@ -1,30 +1,30 @@
-[LINE#1]The abrupt onset of Antarctic glaciation during the Eocene-Oligocene Transition (33.7Ma, Oi1) is linked to declining atmospheric pCO2 levels, yet the mechanisms that forced pCO2 decline remain elusive.
+[LINE#0] The abrupt onset of Antarctic glaciation during the Eocene-Oligocene Transition (33.7Ma, Oi1) is linked to declining atmospheric pCO2 levels, yet the mechanisms that forced pCO2 decline remain elusive.
 0.829	[*A*]the mechanisms that forced pCO2 decline[*R*]remain[*A*]elusive	context()	negated: False ,passive: True
 0.887	[*A*]the mechanisms[*R*]forced[*A*]pCO2 decline	context()	negated: False ,passive: False
 0.892	[*A*]The abrupt onset of Antarctic glaciation during the Eocene - Oligocene Transition[*R*]is linked	context()	negated: False ,passive: False
-[LINE#2]Biogenic silicon cycling is inextricably linked to both long and short term carbon cycling through the diatoms, siliceous walled autotrophs which today account for up to 40% of primary production.
+[LINE#1] Biogenic silicon cycling is inextricably linked to both long and short term carbon cycling through the diatoms, siliceous walled autotrophs which today account for up to 40% of primary production.
 0.939	[*A*]siliceous walled autotrophs[*R*]account[*A*]for up to 40 % of primary production[*A*]today	context()	negated: False ,passive: False
 0.751	[*A*]Biogenic silicon cycling[*R*]is inextricably linked	context()	negated: False ,passive: False
-[LINE#3]It is hypothesised that during the Late Eocene a sharp rise in diatom abundance could have contributed to pCO2 drawdown and global cooling by increasing the proportion of organic carbon buried in marine sediment.
+[LINE#2] It is hypothesised that during the Late Eocene a sharp rise in diatom abundance could have contributed to pCO2 drawdown and global cooling by increasing the proportion of organic carbon buried in marine sediment.
 0.903	[*A*]organic carbon[*R*]buried[*A*]in marine sediment	context()	negated: False ,passive: True
 0.894	[*A*]pCO2[*R*]drawdown[*A*]by increasing the proportion of organic carbon	context()	negated: False ,passive: True
-[LINE#4] Diatom and sponge silicon isotope ratios(30Si) are here combined for the first time to reconstruct the late Eocene-early Oligocene ocean silicon cycle and provide new insight into the role of diatom productivity in Antarctic glaciation.
+[LINE#3+4]  Diatom and sponge silicon isotope ratios(30Si) are here combined for the first time to reconstruct the late Eocene-early Oligocene ocean silicon cycle and provide new insight into the role of diatom productivity in Antarctic glaciation.
 0.905	[*A*]sponge silicon isotope ratios[*R*]are here combined[*A*]for the first time	context()	negated: False ,passive: True
 0.949	[*A*]Diatom[*R*]provide[*A*]new insight into the role of diatom productivity in Antarctic glaciation	context()	negated: False ,passive: False
 0.920	[*A*]Diatom[*R*]are here combined[*A*]for the first time	context()	negated: False ,passive: True
-[LINE#5]At ODP site 1090 in the Southern Ocean, a 0.6 rise in diatom 30Si through the late Eocene documents increasing diatom silicic acid utilisation with high, near modern values attained by the earliest Oligocene.
+[LINE#5] At ODP site 1090 in the Southern Ocean, a 0.6 rise in diatom 30Si through the late Eocene documents increasing diatom silicic acid utilisation with high, near modern values attained by the earliest Oligocene.
 0.903	[*A*]modern values[*R*]attained[*A*]by the earliest Oligocene	context()	negated: False ,passive: True
 0.939	[*A*]the late Eocene documents[*R*]increasing[*A*]diatom	context()	negated: False ,passive: False
-[LINE#6]A concomitant 1.5 decline in sponge 30Si at ODP site 689 on the Maud Rise tracks an approximate doubling of intermediate depth silicic acid concentration in the high southern latitudes.
+[LINE#6] A concomitant 1.5 decline in sponge 30Si at ODP site 689 on the Maud Rise tracks an approximate doubling of intermediate depth silicic acid concentration in the high southern latitudes.
 0.991	[*A*]1.5 decline[*R*]tracks[*A*]an approximate doubling of intermediate depth	context()	negated: False ,passive: False
 0.968	[*A*]A concomitant 1.5 decline in sponge 30Si at ODP site 689 on the Maud Rise[*R*]tracks[*A*]an approximate doubling of intermediate depth	context()	negated: False ,passive: False
-[LINE#7]Intermediate depth silicic acid concentration peaked at 31.5Ma, coincident with the final establishment of a deepwater pathway through the Tasman Gateway and Drake Passage.
+[LINE#7] Intermediate depth silicic acid concentration peaked at 31.5Ma, coincident with the final establishment of a deepwater pathway through the Tasman Gateway and Drake Passage.
 0.937	[*A*]Intermediate depth silicic acid concentration[*R*]peaked[*A*]at 31.5Ma	context()	negated: False ,passive: True
-[LINE#8]These results suggest that upwelling intensification related to the spin-up of a circum-Antarctic current may have driven late Eocene diatom proliferation.
+[LINE#8] These results suggest that upwelling intensification related to the spin-up of a circum-Antarctic current may have driven late Eocene diatom proliferation.
 0.951	[*A*]upwelling intensification related to the spin-up of a circum-Antarctic current[*R*]may have driven[*A*]late Eocene diatom proliferation	context(These results suggest)	negated: False ,passive: False
 0.840	[*A*]These results[*R*]suggest[*A*]that upwelling intensification related to the spin-up of a circum-Antarctic current may have driven late Eocene diatom proliferation	context()	negated: False ,passive: False
 0.903	[*A*]upwelling intensification[*R*]related[*A*]to the spin-up of a circum-Antarctic current	context()	negated: False ,passive: True
-[LINE#9]Organic carbon burial associated with higher diatom abundance and export provides a mechanism that can account for pCO2 drawdown not only at, but also prior to, Antarctic glaciation as required by a pCO2 'threshold' mechanism for ice sheet growth.
+[LINE#9] Organic carbon burial associated with higher diatom abundance and export provides a mechanism that can account for pCO2 drawdown not only at, but also prior to, Antarctic glaciation as required by a pCO2 'threshold' mechanism for ice sheet growth.
 0.847	[*A*]Organic carbon burial associated with higher export[*R*]provides[*A*]a mechanism that can account for pCO2 drawdown	context()	negated: False ,passive: False
 0.898	[*A*]Organic carbon burial associated with higher export[*R*]provides[*A*]a mechanism that can account for pCO2 drawdown not only at	context()	negated: False ,passive: False
 0.911	[*A*]Organic carbon burial[*R*]associated[*A*]with higher export	context()	negated: False ,passive: True
@@ -33,52 +33,52 @@
 0.887	[*A*]a mechanism[*R*]can account[*A*]for pCO2 drawdown	context()	negated: False ,passive: False
 0.907	[*A*]Organic carbon burial associated with higher diatom abundance[*R*]provides[*A*]a mechanism that can account for pCO2 drawdown not only at	context()	negated: False ,passive: False
 0.911	[*A*]Organic carbon burial[*R*]associated[*A*]with higher diatom abundance	context()	negated: False ,passive: True
-[LINE#10]Reconstruction of the Eocene-Oligocene marine silicon cycle in the Southern Ocean has been achieved through the novel combination of diatom and sponge 30Si.
+[LINE#10] Reconstruction of the Eocene-Oligocene marine silicon cycle in the Southern Ocean has been achieved through the novel combination of diatom and sponge 30Si.
 0.915	[*A*]Reconstruction of the Eocene - Oligocene marine silicon cycle in the Southern Ocean[*R*]has been achieved	context()	negated: False ,passive: False
-[LINE#11]Increasing diatom 30Si, interpreted in light of both opal accumulation rates and sponge 30Si, provides the first biogeochemical evidence for diatom radiation during the late Eocene.
+[LINE#11] Increasing diatom 30Si, interpreted in light of both opal accumulation rates and sponge 30Si, provides the first biogeochemical evidence for diatom radiation during the late Eocene.
 0.934	[*A*]Increasing diatom 30Si[*R*]provides[*A*]the first biogeochemical evidence for diatom radiation[*A*]during the late Eocene	context()	negated: False ,passive: False
 0.934	[*A*]Increasing diatom 30Si[*R*]interpreted[*A*]in light of sponge 30Si	context()	negated: False ,passive: True
 0.958	[*A*]Increasing diatom 30Si[*R*]provides[*A*]the first biogeochemical evidence for diatom radiation during the late Eocene	context()	negated: False ,passive: False
 0.922	[*A*]Increasing diatom 30Si[*R*]interpreted[*A*]in light of both opal accumulation rates	context()	negated: False ,passive: True
-[LINE#12]Sponge 30Si records increasing silicic acid concentrations at intermediate depths in the Antarctic Zone throughout the late Eocene and the early Oligocene, coincident with the subsidence of Southern Ocean land bridges.
+[LINE#12] Sponge 30Si records increasing silicic acid concentrations at intermediate depths in the Antarctic Zone throughout the late Eocene and the early Oligocene, coincident with the subsidence of Southern Ocean land bridges.
 0.903	[*A*]30Si records[*R*]increasing[*A*]silicic acid concentrations at intermediate depths	context()	negated: False ,passive: False
-[LINE#13]Rising diatom abundance concomitant with reorganisation of Southern Ocean circulation, which are both key in controlling the marine silicic acid distribution, had implications for organic carbon burial and global climate.
-[LINE#14]A mechanistic link between the development of this system and Eocene-Oligocene pCO2 drawdown exists through diatom-driven burial of organic carbon triggered by intensified upwelling, suggesting that the biological carbon pump played a significant role in the onset of Antarctic glaciation.
+[LINE#13] Rising diatom abundance concomitant with reorganisation of Southern Ocean circulation, which are both key in controlling the marine silicic acid distribution, had implications for organic carbon burial and global climate.
+[LINE#14] A mechanistic link between the development of this system and Eocene-Oligocene pCO2 drawdown exists through diatom-driven burial of organic carbon triggered by intensified upwelling, suggesting that the biological carbon pump played a significant role in the onset of Antarctic glaciation.
 0.963	[*A*]A mechanistic link between the development of this system and Eocene-Oligocene pCO2 drawdown[*R*]exists[*A*]suggesting that the biological carbon pump played a significant role in the onset of Antarctic glaciation	context()	negated: False ,passive: True
-[LINE#15]In particular, this mechanism implies a drawdown of CO2 associated with events of a precursor nature to the glaciation, as is required from both modelling and pCO2 proxy reconstructions.
+[LINE#15] In particular, this mechanism implies a drawdown of CO2 associated with events of a precursor nature to the glaciation, as is required from both modelling and pCO2 proxy reconstructions.
 0.939	[*A*]a drawdown of CO2[*R*]associated[*A*]with events of a precursor nature to the glaciation	context()	negated: False ,passive: True
 0.918	[*A*]this mechanism[*R*]implies[*A*]a drawdown of CO2	context()	negated: False ,passive: False
-[LINE#16] The Eocene-Oligocene Transition(EOT) marks the onset of modern icehouse conditions when continental-scale ice sheets enveloped Antarctica ('Oi1,' 33.7Ma, Coxall et al., 2005; Ehrmann and Mackensen, 1992).
+[LINE#16+17]  The Eocene-Oligocene Transition(EOT) marks the onset of modern icehouse conditions when continental-scale ice sheets enveloped Antarctica ('Oi1,' 33.7Ma, Coxall et al., 2005; Ehrmann and Mackensen, 1992).
 0.973	[*A*]The Eocene - Oligocene Transition[*R*]marks[*A*]the onset of modern icehouse conditions when continental - scale ice sheets enveloped Antarctica ( ' Oi1 , ' 33.7Ma , Coxall et al . , 2005 ; Mackensen , 1992 )	context()	negated: False ,passive: False
 0.937	[*A*]continental - scale ice sheets[*R*]enveloped[*A*]Antarctica	context()	negated: False ,passive: False
 0.973	[*A*]The Eocene - Oligocene Transition[*R*]marks[*A*]the onset of modern icehouse conditions when continental - scale ice sheets enveloped Antarctica ( ' Oi1 , ' 33.7Ma , Coxall et al . , 2005 ; Ehrmann )	context()	negated: False ,passive: False
-[LINE#17]the non-linearity of global climate, with the emplacement of an ice volume between 60% and 100% of that present today on Antarctica over only 400ka, superimposed on a million-year timescale cooling trend (Coxall et al., 2005; Lear et al., 2008; Zachos et al., 2001).
+[LINE#18] the non-linearity of global climate, with the emplacement of an ice volume between 60% and 100% of that present today on Antarctica over only 400ka, superimposed on a million-year timescale cooling trend (Coxall et al., 2005; Lear et al., 2008; Zachos et al., 2001).
 0.926	[*A*]a million-year timescale[*R*]cooling[*A*]trend	context()	negated: False ,passive: False
 0.992	[*A*]the non-linearity of global climate, with the emplacement of an ice volume between 60% and 100% of that present today on Antarctica over only 400ka[*R*]superimposed[*A*]on a million-year timescale	context()	negated: False ,passive: True
-[LINE#18]Declining atmospheric pCO2 levels are thought to have driven the accelerated onset of Antarctic glaciation during Oi1, with numerical models suggesting a 'threshold' response of the cryosphere to a long-term lowering of pCO2 (DeConto and Pollard, 2003).
+[LINE#19] Declining atmospheric pCO2 levels are thought to have driven the accelerated onset of Antarctic glaciation during Oi1, with numerical models suggesting a 'threshold' response of the cryosphere to a long-term lowering of pCO2 (DeConto and Pollard, 2003).
 0.937	[*A*]numerical models[*R*]suggesting[*A*]a ' threshold ' response of the cryosphere to a long - term lowering of pCO2	context()	negated: False ,passive: False
 0.920	[*A*]Declining atmospheric pCO2 levels[*R*]to have driven[*A*]the accelerated onset of Antarctic glaciation[*A*]during Oi1[*A*]with numerical models	context()	negated: False ,passive: False
 0.769	[*A*]Declining atmospheric pCO2 levels[*R*]are thought	context()	negated: False ,passive: False
-[LINE#19]Recent reconstruction of pCO2 across the late Eocene and early Oligocene (Pagani et al., 2011) documents a decline that began 2Ma prior to geological and stable isotope evidence for Antarctic glaciation, supporting this hypothesis.
+[LINE#20] Recent reconstruction of pCO2 across the late Eocene and early Oligocene (Pagani et al., 2011) documents a decline that began 2Ma prior to geological and stable isotope evidence for Antarctic glaciation, supporting this hypothesis.
 0.969	[*A*]a decline that began 2Ma prior to stable isotope evidence for Antarctic glaciation[*R*]supporting[*A*]this hypothesis	context()	negated: False ,passive: False
 0.969	[*A*]a decline that began 2Ma prior to geological isotope evidence for Antarctic glaciation[*R*]supporting[*A*]this hypothesis	context()	negated: False ,passive: False
 0.969	[*A*]a decline that began 2Ma prior to stable isotope evidence for Antarctic glaciation ,[*R*]supporting[*A*]this hypothesis	context(a decline began)	negated: False ,passive: False
 0.879	[*A*]a decline[*R*]began[*A*]2Ma[*A*]prior to stable isotope evidence for Antarctic glaciation	context()	negated: False ,passive: False
 0.969	[*A*]a decline that began 2Ma prior to geological isotope evidence for Antarctic glaciation ,[*R*]supporting[*A*]this hypothesis	context(a decline began)	negated: False ,passive: False
 0.879	[*A*]a decline[*R*]began[*A*]2Ma[*A*]prior to geological isotope evidence for Antarctic glaciation	context()	negated: False ,passive: False
-[LINE#20]However, the mechanisms responsible for this gradual pCO2 drawdown remain unclear.
+[LINE#21] However, the mechanisms responsible for this gradual pCO2 drawdown remain unclear.
 0.854	[*A*]the mechanisms responsible for this gradual pCO2 drawdown[*R*]remain[*A*]unclear	context()	negated: False ,passive: True
-[LINE#21] The biological carbon pump, in particular associated with increased diatom abundance in the Southern Ocean during the late Eocene, represents a potential candidate (Rabosky and Sorhannus, 2009; Salamy and Zachos, 1999; Scher and Martin, 2006).Diatoms are prolific phytoplankton, today accounting for up to 40% of global primary production.
+[LINE#22]  The biological carbon pump, in particular associated with increased diatom abundance in the Southern Ocean during the late Eocene, represents a potential candidate (Rabosky and Sorhannus, 2009; Salamy and Zachos, 1999; Scher and Martin, 2006).Diatoms are prolific phytoplankton, today accounting for up to 40% of global primary production.
 0.934	[*A*]prolific phytoplankton[*R*]accounting[*A*]for up to 40 % of global primary production[*A*]today	context()	negated: False ,passive: False
 0.931	[*A*]Diatoms[*R*]are[*A*]prolific phytoplankton , today accounting for up to 40 % of global primary production	context()	negated: False ,passive: True
 0.905	[*A*]The biological carbon pump[*R*]represents[*A*]a potential candidate	context()	negated: False ,passive: False
 0.920	[*A*]The biological carbon pump[*R*]associated[*A*]with increased diatom abundance in the Southern Ocean[*A*]during the late Eocene	context()	negated: False ,passive: True
-[LINE#22]The formation of opaline frustules by diatoms imposes an absolute requirement for silicon, fundamentally linking the modern marine silicon and carbon cycles.
+[LINE#23] The formation of opaline frustules by diatoms imposes an absolute requirement for silicon, fundamentally linking the modern marine silicon and carbon cycles.
 0.938	[*A*]The formation of opaline frustules by diatoms[*R*]imposes[*A*]an absolute requirement for silicon	context()	negated: False ,passive: False
 0.938	[*A*]The formation of opaline frustules by diatoms[*R*]imposes[*A*]an absolute requirement for silicon[*A*]fundamentally linking the modern marine silicon	context()	negated: False ,passive: False
-[LINE#23]Among the phytoplankton, diatoms are notably important for the export and burial of organic carbon for a number of reasons.
+[LINE#24] Among the phytoplankton, diatoms are notably important for the export and burial of organic carbon for a number of reasons.
 0.960	[*A*]diatoms[*R*]are[*A*]notably important for the export and burial of organic carbon for a number of reasons[*A*]Among the phytoplankton	context()	negated: False ,passive: True
-[LINE#24] Firstly, diatoms efficiently export carbon from the surface ocean: their silica frustules provide ballast material, they are relatively large cells at the base of short food webs, and they form blooms that can terminate in aggregation and mass settling of cells (Baines et al., 2010; Buesseler, 1998; Ragueneau et al., 2000; Smetacek, 1999).
+[LINE#25+26]  Firstly, diatoms efficiently export carbon from the surface ocean: their silica frustules provide ballast material, they are relatively large cells at the base of short food webs, and they form blooms that can terminate in aggregation and mass settling of cells (Baines et al., 2010; Buesseler, 1998; Ragueneau et al., 2000; Smetacek, 1999).
 0.499	[*A*]they[*R*]form[*A*]blooms that can terminate in mass settling of cells ( Baines et al	context()	negated: False ,passive: False
 0.877	[*A*]blooms[*R*]can terminate[*A*]in mass settling of cells ( Baines et al	context()	negated: False ,passive: True
 0.499	[*A*]they[*R*]form[*A*]blooms that can terminate in aggregation settling of cells ( Baines et al	context()	negated: False ,passive: False
@@ -87,42 +87,42 @@
 0.911	[*A*]diatoms[*R*]efficiently export[*A*]carbon[*A*]from the surface Buesseler	context()	negated: False ,passive: False
 0.609	[*A*]their silica frustules[*R*]provide[*A*]ballast material	context(they are)	negated: False ,passive: False
 0.673	[*A*]they[*R*]are[*A*]relatively large cells at the base of short food webs	context()	negated: False ,passive: True
-[LINE#25]Secondly, diatoms may contribute up to 75% of primary production in upwelling regions of the world's oceans (Nelson et al., 1995).
+[LINE#27] Secondly, diatoms may contribute up to 75% of primary production in upwelling regions of the world's oceans (Nelson et al., 1995).
 0.894	[*A*]diatoms[*R*]may contribute[*A*]up to 75% of primary production	context()	negated: False ,passive: False
-[LINE#26]In these areas, nutrients and CO2 sequestered in the deep ocean by the biological pump are resupplied to the surface.
+[LINE#28] In these areas, nutrients and CO2 sequestered in the deep ocean by the biological pump are resupplied to the surface.
 0.894	[*A*]nutrients[*R*]sequestered[*A*]in the deep ocean[*A*]by the biological pump	context()	negated: False ,passive: True
 0.903	[*A*]these areas[*R*]sequestered[*A*]in the deep ocean[*A*]by the biological pump	context()	negated: False ,passive: True
-[LINE#27]Diatom domination of the resident phytoplankton community makes them critical in determining the magnitude of the CO2 flux to the atmosphere and the efficiency of the biological pump (Marinov et al., 2006; Sarmiento et al., 2004).Today, diatom production in the Southern Ocean, coupled with the unique overturning circulation of the Antarctic Circumpolar Current (ACC), plays an important role in determining the efficiency of the biological pump and in setting the ocean-atmosphere CO2 balance.
+[LINE#29] Diatom domination of the resident phytoplankton community makes them critical in determining the magnitude of the CO2 flux to the atmosphere and the efficiency of the biological pump (Marinov et al., 2006; Sarmiento et al., 2004).Today, diatom production in the Southern Ocean, coupled with the unique overturning circulation of the Antarctic Circumpolar Current (ACC), plays an important role in determining the efficiency of the biological pump and in setting the ocean-atmosphere CO2 balance.
 0.982	[*A*]diatom production in the Southern Ocean[*R*]plays[*A*]an important role in setting the ocean - atmosphere CO2 balance[*A*]Today	context()	negated: False ,passive: False
 0.978	[*A*]diatom production in the Southern Ocean[*R*]plays[*A*]an important role in determining the efficiency of the biological pump[*A*]Today	context()	negated: False ,passive: False
 0.968	[*A*]diatom production in the Southern Ocean[*R*]coupled[*A*]with the unique overturning circulation of the Antarctic Circumpolar Current	context()	negated: False ,passive: True
-[LINE#28]The wind-driven ACC facilitates deep upwelling to the south of the Polar Front.
+[LINE#30] The wind-driven ACC facilitates deep upwelling to the south of the Polar Front.
 0.944	[*A*]The wind-driven ACC[*R*]facilitates[*A*]deep upwelling	context()	negated: False ,passive: False
-[LINE#29] These upwelled waters are advected northwards by Ekman transport and thus provide nutrients that fuel diatom (as well as other phytoplankton) production, creating marked bands of opal and carbon export(Fig. 1; Speer et al., 2000; Ito et al., 2005).
+[LINE#31+32+33]  These upwelled waters are advected northwards by Ekman transport and thus provide nutrients that fuel diatom (as well as other phytoplankton) production, creating marked bands of opal and carbon export(Fig. 1; Speer et al., 2000; Ito et al., 2005).
 0.894	[*A*]nutrients[*R*]creating[*A*]marked bands of carbon export	context()	negated: False ,passive: False
 0.894	[*A*]nutrients[*R*]creating[*A*]marked bands of opal	context()	negated: False ,passive: False
 0.877	[*A*]nutrients[*R*]fuel[*A*]diatom	context()	negated: False ,passive: True
 0.925	[*A*]These upwelled waters[*R*]are[*A*]advected northwards by Ekman transport . , 2005	context()	negated: False ,passive: True
-[LINE#30]These surface waters are eventually subducted to intermediate depths and supply nutrients to the lower latitude thermocline.
+[LINE#34] These surface waters are eventually subducted to intermediate depths and supply nutrients to the lower latitude thermocline.
 0.923	[*A*]These surface waters[*R*]are subducted[*A*]to supply nutrients to the lower latitude thermocline[*A*]eventually	context()	negated: False ,passive: True
 0.923	[*A*]These surface waters[*R*]are subducted[*A*]to intermediate depths to the lower latitude thermocline[*A*]eventually	context()	negated: False ,passive: True
-[LINE#31]Thus, the amount and proportion of macronutrients used in this region play a major role in determining the efficiency of the biological pump globally (Sarmiento et al., 2004).
+[LINE#35] Thus, the amount and proportion of macronutrients used in this region play a major role in determining the efficiency of the biological pump globally (Sarmiento et al., 2004).
 0.949	[*A*]the amount and proportion of macronutrients[*R*]play[*A*]a major role in determining the efficiency of the biological pump globally	context()	negated: False ,passive: False
 0.894	[*A*]macronutrients[*R*]used[*A*]in this region	context()	negated: False ,passive: True
-[LINE#32]Travelling an alternative path, some of this upwelled water moves southwards, eventually forming Antarctic Bottom Water.
+[LINE#36] Travelling an alternative path, some of this upwelled water moves southwards, eventually forming Antarctic Bottom Water.
 0.958	[*A*]this upwelled water moves southwards[*R*]forming[*A*]Antarctic Bottom Water[*A*]eventually	context()	negated: False ,passive: False
-[LINE#33]The magnitude of phytoplankton production and export along this path relative to the degree of nutrient supply sets the degree to which CO2 escapes from the ocean.
+[LINE#37] The magnitude of phytoplankton production and export along this path relative to the degree of nutrient supply sets the degree to which CO2 escapes from the ocean.
 0.979	[*A*]The magnitude of export along this path relative to the degree of nutrient supply[*R*]sets[*A*]the degree to which CO2 escapes from the ocean	context()	negated: False ,passive: False
 0.920	[*A*]CO2[*R*]escapes[*A*]from the ocean	context()	negated: False ,passive: False
 0.981	[*A*]The magnitude of phytoplankton production along this path relative to the degree of nutrient supply[*R*]sets[*A*]the degree to which CO2 escapes from the ocean	context()	negated: False ,passive: False
-[LINE#34]Today, incomplete nutrient utilisation makes this a region of CO2 venting to the atmosphere (Marinov et al., 2006).Diatom radiation, coupled with the development of an ACC-type circulation, may have substantially increased the efficiency of the biological pump during the late Eocene and early Oligocene, facilitating organic carbon burial and contributing to the pCO2 drawdown hypothesised to have driven Antarctic Glaciation (Rabosky and Sorhannus, 2009; Scher and Martin, 2006).
+[LINE#38] Today, incomplete nutrient utilisation makes this a region of CO2 venting to the atmosphere (Marinov et al., 2006).Diatom radiation, coupled with the development of an ACC-type circulation, may have substantially increased the efficiency of the biological pump during the late Eocene and early Oligocene, facilitating organic carbon burial and contributing to the pCO2 drawdown hypothesised to have driven Antarctic Glaciation (Rabosky and Sorhannus, 2009; Scher and Martin, 2006).
 0.870	[*A*]Diatom radiation[*R*]may have increased[*A*]the efficiency of the biological pump[*A*]during the early Oligocene[*A*]facilitating organic carbon burial	context(incomplete nutrient utilisation makes)	negated: False ,passive: False
 0.914	[*A*]Diatom radiation[*R*]contributing[*A*]to the pCO2 drawdown	context()	negated: False ,passive: False
 0.928	[*A*]Diatom radiation[*R*]coupled[*A*]with the development of an ACC - type circulation	context()	negated: False ,passive: True
 0.870	[*A*]Diatom radiation[*R*]may have increased[*A*]the efficiency of the biological pump[*A*]during the late Eocene[*A*]facilitating organic carbon burial	context(incomplete nutrient utilisation makes)	negated: False ,passive: False
 0.931	[*A*]this a region of CO2[*R*]venting[*A*]to the atmosphere	context(incomplete nutrient utilisation makes)	negated: False ,passive: False
 0.924	[*A*]incomplete nutrient utilisation[*R*]makes[*A*]Today	context()	negated: False ,passive: False
-[LINE#35] Diatoms originated in the Jurassic, and open ocean diatom diversity and abundance increased through the late Cretaceous and Palaeogene, pumping silicic acid to depth and driving a concomitant decrease in shelf chert abundance.
+[LINE#39]  Diatoms originated in the Jurassic, and open ocean diatom diversity and abundance increased through the late Cretaceous and Palaeogene, pumping silicic acid to depth and driving a concomitant decrease in shelf chert abundance.
 0.956	[*A*]open ocean diatom abundance[*R*]increased[*A*]through Palaeogene[*A*]pumping silicic acid to driving a concomitant decrease in shelf chert abundance	context()	negated: False ,passive: True
 0.905	[*A*]open ocean diatom abundance[*R*]pumping[*A*]silicic acid[*A*]to driving a concomitant decrease in shelf chert abundance	context()	negated: False ,passive: False
 0.948	[*A*]open ocean diatom abundance[*R*]increased[*A*]through the[*A*]pumping silicic acid to driving a concomitant decrease in shelf chert abundance	context()	negated: False ,passive: True
@@ -136,29 +136,29 @@
 0.905	[*A*]open ocean diatom diversity[*R*]pumping[*A*]silicic acid[*A*]to depth	context()	negated: False ,passive: False
 0.919	[*A*]open ocean diatom diversity[*R*]increased[*A*]through the[*A*]pumping silicic acid to depth	context()	negated: False ,passive: True
 0.911	[*A*]Diatoms[*R*]originated[*A*]in the Jurassic	context()	negated: False ,passive: True
-[LINE#36]The late Eocene witnessed both a second diatom proliferation, culminating in an explosion of species diversity (Rabosky and Sorhannus, 2009) and enhanced Southern Ocean biogenic opal burial (Salamy and Zachos, 1999; Schumacher and Lazarus, 2004).
+[LINE#40] The late Eocene witnessed both a second diatom proliferation, culminating in an explosion of species diversity (Rabosky and Sorhannus, 2009) and enhanced Southern Ocean biogenic opal burial (Salamy and Zachos, 1999; Schumacher and Lazarus, 2004).
 0.944	[*A*]The late Eocene[*R*]witnessed[*A*]both a second diatom proliferation[*A*]culminating in an enhanced Southern Ocean biogenic opal burial	context()	negated: False ,passive: False
 0.933	[*A*]The late Eocene[*R*]witnessed[*A*]both a second diatom proliferation[*A*]culminating in an explosion of species diversity	context()	negated: False ,passive: False
 0.964	[*A*]The late Eocene[*R*]witnessed[*A*]both a second diatom proliferation[*A*]culminating in an explosion of species diversity ( Rabosky ) ; Schumacher	context()	negated: False ,passive: False
-[LINE#37]An increase in benthic 13C, indicative of enhanced organic carbon burial, took place concomitantly (Cramer et al., 2009), particularly in the high latitude Southern Ocean.
+[LINE#41] An increase in benthic 13C, indicative of enhanced organic carbon burial, took place concomitantly (Cramer et al., 2009), particularly in the high latitude Southern Ocean.
 0.966	[*A*]An increase in benthic 13C, indicative of enhanced organic carbon burial[*R*]took[*A*]place[*A*]concomitantly[*A*]particularly in the high latitude	context()	negated: False ,passive: True
-[LINE#38]The opening of the two tectonic gateways that allow an unimpeded current flow in the Southern Ocean also occurred gradually through the late Eocene and into the Oligocene.
+[LINE#42] The opening of the two tectonic gateways that allow an unimpeded current flow in the Southern Ocean also occurred gradually through the late Eocene and into the Oligocene.
 0.939	[*A*]The opening of the two tectonic gateways[*R*]occurred gradually[*A*]into the Oligocene	context()	negated: False ,passive: True
 0.789	[*A*]The opening of the two tectonic gateways[*R*]occurred gradually	context()	negated: False ,passive: False
 0.920	[*A*]the two tectonic gateways[*R*]allow[*A*]an unimpeded current flow in the Southern Ocean	context()	negated: False ,passive: False
-[LINE#39]Initial subsidence began between 50 (Drake Passage) and 35.5Ma (Tasman Gateway), with a deep connection completed by 33.5-30.2Ma (Livermore et al., 2007; Mackensen, 2004; Stickley et al., 2004).
+[LINE#43] Initial subsidence began between 50 (Drake Passage) and 35.5Ma (Tasman Gateway), with a deep connection completed by 33.5-30.2Ma (Livermore et al., 2007; Mackensen, 2004; Stickley et al., 2004).
 0.925	[*A*]a deep connection[*R*]completed[*A*]by 33.5-30.2Ma (Livermore et al	context()	negated: False ,passive: True
 0.903	[*A*]Initial subsidence[*R*]began[*A*]between 50[*A*]with a deep connection	context()	negated: False ,passive: True
-[LINE#40] From the time when these gateways opened, even to a relatively shallow depth, a complete pathway for wind-driven currents would have begun to affect Southern Ocean circulation, gradually intensifying upwelling as subsidence progressed (Livermore et al., 2007;.
+[LINE#44]  From the time when these gateways opened, even to a relatively shallow depth, a complete pathway for wind-driven currents would have begun to affect Southern Ocean circulation, gradually intensifying upwelling as subsidence progressed (Livermore et al., 2007;.
 0.713	[*A*]subsidence[*R*]progressed	context()	negated: False ,passive: False
 0.934	[*A*]a complete pathway for wind-driven currents[*R*]gradually intensifying[*A*]upwelling[*A*]as subsidence progressed	context()	negated: False ,passive: False
 0.944	[*A*]a complete pathway for wind-driven currents[*R*]to affect[*A*]Southern Ocean circulation	context()	negated: False ,passive: False
 0.961	[*A*]a complete pathway for wind-driven currents[*R*]would have begun[*A*]From the time	context()	negated: False ,passive: True
 0.933	[*A*]these gateways[*R*]opened[*A*]the time	context()	negated: False ,passive: False
-[LINE#41]The Late Eocene is thus hypothesised as the time when the important relationship between diatoms and the ACC developed.
+[LINE#45] The Late Eocene is thus hypothesised as the time when the important relationship between diatoms and the ACC developed.
 0.971	[*A*]the important relationship between diatoms and the ACC[*R*]developed[*A*]the time	context()	negated: False ,passive: True
 0.901	[*A*]The Late Eocene[*R*]is hypothesised[*A*]as the time	context()	negated: False ,passive: True
-[LINE#42]Affirming the link between diatom radiation and late Eocene pCO2 drawdown requires evidence that diatom diversification and opal deposition corresponded to increased diatom productivity and organic carbon burial.
+[LINE#46] Affirming the link between diatom radiation and late Eocene pCO2 drawdown requires evidence that diatom diversification and opal deposition corresponded to increased diatom productivity and organic carbon burial.
 0.903	[*A*]opal deposition[*R*]corresponded[*A*]to increased organic carbon burial	context()	negated: False ,passive: True
 0.946	[*A*]Affirming the link between diatom radiation and late Eocene pCO2 drawdown[*R*]requires[*A*]evidence that opal deposition corresponded to increased organic carbon burial	context()	negated: False ,passive: False
 0.903	[*A*]opal deposition[*R*]corresponded[*A*]to increased diatom productivity	context()	negated: False ,passive: True
@@ -167,70 +167,70 @@
 0.946	[*A*]Affirming the link between diatom radiation and late Eocene pCO2 drawdown[*R*]requires[*A*]evidence that diatom diversification corresponded to increased organic carbon burial	context()	negated: False ,passive: False
 0.903	[*A*]diatom diversification[*R*]corresponded[*A*]to increased diatom productivity	context()	negated: False ,passive: True
 0.917	[*A*]Affirming the link between diatom radiation and late Eocene pCO2 drawdown[*R*]requires[*A*]evidence that diatom diversification corresponded to increased diatom productivity	context()	negated: False ,passive: False
-[LINE#43]To this end, combined diatom and sponge silicon isotope records (30Si=[(30Si/28Si)Sample/(30Si/28Si)Standard-1]103) are used here to characterise the late Eocene-early Oligocene marine silicon cycle.
+[LINE#47] To this end, combined diatom and sponge silicon isotope records (30Si=[(30Si/28Si)Sample/(30Si/28Si)Standard-1]103) are used here to characterise the late Eocene-early Oligocene marine silicon cycle.
 0.973	[*A*]combined sponge silicon isotope records[*R*]are used[*A*]here[*A*]to characterise the late Eocene - early Oligocene marine silicon cycle[*A*]To this end	context()	negated: False ,passive: True
 0.973	[*A*]combined diatom silicon isotope records[*R*]are used[*A*]here[*A*]to characterise the late Eocene - early Oligocene marine silicon cycle[*A*]To this end	context()	negated: False ,passive: True
-[LINE#44] Diatom 30Si is a proxy for diatom silicic acid utilisation ( because frustule growth preferentially incorporates 28Si over 30Si with 30-1.1.
+[LINE#48+49]  Diatom 30Si is a proxy for diatom silicic acid utilisation ( because frustule growth preferentially incorporates 28Si over 30Si with 30-1.1.
 0.887	[*A*]Diatom 30Si[*R*]is a proxy for[*A*]diatom silicic acid utilisation (	context()	negated: False ,passive: False
 0.918	[*A*]frustule growth[*R*]preferentially incorporates[*A*]28Si[*A*]over 30Si	context()	negated: False ,passive: False
 0.970	[*A*]Diatom 30Si[*R*]is[*A*]a proxy for diatom silicic acid utilisation ( because frustule growth preferentially incorporates 28Si over 30Si with 30-1.1	context()	negated: False ,passive: True
-[LINE#45]Silicic acid utilisation is determined by both diatom uptake (broadly reflecting diatom productivity) and silicic acid supply to the surface ocean.
+[LINE#50] Silicic acid utilisation is determined by both diatom uptake (broadly reflecting diatom productivity) and silicic acid supply to the surface ocean.
 0.911	[*A*]Silicic acid utilisation[*R*]is determined[*A*]by silicic acid supply to the surface ocean	context()	negated: False ,passive: True
 0.911	[*A*]Silicic acid utilisation[*R*]is determined[*A*]by both diatom uptake	context()	negated: False ,passive: True
-[LINE#46]Although diatom 30Si has previously been used to reconstruct silicic acid utilisation, efforts to convert this to productivity have been hampered by a lack of knowledge of the concentration of silicic acid supplied from depth.
+[LINE#51] Although diatom 30Si has previously been used to reconstruct silicic acid utilisation, efforts to convert this to productivity have been hampered by a lack of knowledge of the concentration of silicic acid supplied from depth.
 0.903	[*A*]silicic acid[*R*]supplied[*A*]from depth	context()	negated: False ,passive: True
 0.956	[*A*]efforts to convert this to productivity[*R*]have been hampered[*A*]by a lack of knowledge of the concentration of silicic acid	context()	negated: False ,passive: True
 0.914	[*A*]diatom 30Si[*R*]to reconstruct[*A*]silicic acid utilisation	context()	negated: False ,passive: False
 0.936	[*A*]diatom 30Si[*R*]has been used[*A*]to reconstruct silicic acid utilisation[*A*]previously	context()	negated: False ,passive: True
-[LINE#47] Benthic siliceous sponges form spicules with a silicon isotope fractionation factor dependent on ambient silicic acid concentration (Hendry et al., 2010; Hendry and Robinson, 2012; Fig..
+[LINE#52]  Benthic siliceous sponges form spicules with a silicon isotope fractionation factor dependent on ambient silicic acid concentration (Hendry et al., 2010; Hendry and Robinson, 2012; Fig..
 0.956	[*A*]Benthic siliceous sponges[*R*]form[*A*]spicules with a silicon isotope fractionation factor dependent on ambient silicic acid concentration	context()	negated: False ,passive: False
-[LINE#48] Sponge 30Si constitutes a proxy for bottom-water silicic acid concentration and ocean circulationwhich can be used as a constraint on the concentration of silicic acid supplied to the surface ocean, facilitating resolution of the effects upon diatom 30Si of diatom uptake and silicic acid supply.
+[LINE#53+54]  Sponge 30Si constitutes a proxy for bottom-water silicic acid concentration and ocean circulationwhich can be used as a constraint on the concentration of silicic acid supplied to the surface ocean, facilitating resolution of the effects upon diatom 30Si of diatom uptake and silicic acid supply.
 0.927	[*A*]a proxy for bottom - water ocean[*R*]can be used[*A*]as a constraint on the concentration of silicic acid	context()	negated: False ,passive: True
 0.953	[*A*]Sponge 30Si[*R*]constitutes[*A*]a proxy for bottom - water ocean circulationwhich can be used as a constraint on the concentration of silicic acid	context()	negated: False ,passive: False
 0.943	[*A*]a constraint on the concentration of silicic acid[*R*]supplied[*A*]to the surface ocean	context()	negated: False ,passive: True
 0.921	[*A*]bottom - water silicic acid concentration[*R*]can be used[*A*]as a constraint on the concentration of silicic acid	context()	negated: False ,passive: True
 0.927	[*A*]Sponge 30Si[*R*]constitutes[*A*]a proxy for bottom - water silicic acid concentration	context()	negated: False ,passive: False
-[LINE#49]Study sites and age modelsDiatom and sponge 30Si were analysed in sediments from ODP Leg 177, Site 1090B, and ODP Leg 113, Site 689B, respectively (Table 1 and Fig. 3).
+[LINE#55] Study sites and age modelsDiatom and sponge 30Si were analysed in sediments from ODP Leg 177, Site 1090B, and ODP Leg 113, Site 689B, respectively (Table 1 and Fig. 3).
 0.932	[*A*]30Si[*R*]were analysed[*A*]in sediments from ODP Leg 177	context()	negated: False ,passive: True
-[LINE#50] Age control for our records comes from magnetostratigraphic age models (Site 689; Florindo and Roberts, 2005; Spiess, 1990 and Site 1090; Channell et al., 2003) on the CK95 GPTS (Cande and Kent, 1995), which yield satisfactory correlation of benthic foraminiferan/bulk 13C and 18O(Cramer et al., 2009; Pusz et al., 2011) between sites given our sample resolution of 200-500kyr (Fig. A1). .
+[LINE#56+57]  Age control for our records comes from magnetostratigraphic age models (Site 689; Florindo and Roberts, 2005; Spiess, 1990 and Site 1090; Channell et al., 2003) on the CK95 GPTS (Cande and Kent, 1995), which yield satisfactory correlation of benthic foraminiferan/bulk 13C and 18O(Cramer et al., 2009; Pusz et al., 2011) between sites given our sample resolution of 200-500kyr (Fig. A1). .
 0.921	[*A*]the CK95 GPTS[*R*]yield[*A*]satisfactory correlation of benthic foraminiferan / 18O ( Cramer et al . , 2009	context()	negated: False ,passive: False
 0.879	[*A*]the CK95 GPTS[*R*]yield[*A*]satisfactory correlation of benthic foraminiferan / 18O	context()	negated: False ,passive: False
 0.879	[*A*]the CK95 GPTS[*R*]yield[*A*]satisfactory correlation of benthic foraminiferan / bulk 13C	context()	negated: False ,passive: False
 0.702	[*A*]Age control for our records[*R*]comes[*A*]from magnetostratigraphic age models	context()	negated: False ,passive: True
-[LINE#51] Sediment preparation for diatom 30Si analysisInitial sediment cleaning to extract biogenic opal followed well-established methodologies using H2O2, HCl and heavy liquid (sodium polytungstate) (Hendry and Rickaby, 2008; Morley et al., 2004;.
+[LINE#58+59]  Sediment preparation for diatom 30Si analysisInitial sediment cleaning to extract biogenic opal followed well-established methodologies using H2O2, HCl and heavy liquid (sodium polytungstate) (Hendry and Rickaby, 2008; Morley et al., 2004;.
 0.887	[*A*]analysisInitial sediment[*R*]to extract[*A*]biogenic opal	context()	negated: False ,passive: False
-[LINE#52]Opal was then separated into narrow size ranges using microfiltration (Minoletti et al., 2009).
+[LINE#60] Opal was then separated into narrow size ranges using microfiltration (Minoletti et al., 2009).
 0.930	[*A*]Opal[*R*]was separated[*A*]into narrow size[*A*]then	context()	negated: False ,passive: True
-[LINE#53]Recent work has shown the 2-20m fraction is generally most representative of diatom 30Si (Egan et al., 2012).
+[LINE#61] Recent work has shown the 2-20m fraction is generally most representative of diatom 30Si (Egan et al., 2012).
 0.935	[*A*]the 2-20m fraction[*R*]is[*A*]generally[*A*]most representative of diatom 30Si	context(Recent work has shown)	negated: False ,passive: True
 0.935	[*A*]Recent work[*R*]has shown[*A*]the 2-20m fraction is generally most representative of diatom 30Si	context()	negated: False ,passive: False
-[LINE#54]An initial test measuring the 30Si of the 2-10m, 10-20m and 20-41m size fractions from selected samples was conducted to establish the correct size fraction for targeting diatom 30Si (Fig. 4).
+[LINE#62] An initial test measuring the 30Si of the 2-10m, 10-20m and 20-41m size fractions from selected samples was conducted to establish the correct size fraction for targeting diatom 30Si (Fig. 4).
 0.967	[*A*]20-41 m size fractions from selected samples[*R*]was conducted[*A*]to establish the correct size fraction for targeting diatom 30Si	context()	negated: False ,passive: True
-[LINE#55]Highest values in, and consistency between, the 2-10m and 10-20m fractions indicate these fractions best represent diatom 30Si (Figs. 4 and 6), consistent with smear slide observations.
+[LINE#63] Highest values in, and consistency between, the 2-10m and 10-20m fractions indicate these fractions best represent diatom 30Si (Figs. 4 and 6), consistent with smear slide observations.
 0.441	[*A*]best[*R*]represent[*A*]diatom 30Si (Figs. 4 and 6), consistent with smear slide observations	context(fractions indicate)	negated: False ,passive: False
 0.871	[*A*]fractions[*R*]indicate[*A*]these fractions	context()	negated: False ,passive: False
-[LINE#56]Consequently, the 2-10m size fraction was always analysed for diatom 30Si.
+[LINE#64] Consequently, the 2-10m size fraction was always analysed for diatom 30Si.
 0.992	[*A*]2 -10m size fraction[*R*]was analysed for[*A*]diatom 30Si	context()	negated: False ,passive: False
 0.946	[*A*]the 2-10m size fraction[*R*]was analysed[*A*]for diatom 30Si[*A*]always	context()	negated: False ,passive: True
-[LINE#57]The 10-20m fraction was additionally measured at given intervals to ensure diatom 30Si values were not offset by low 30Si silica components such as sponge spicules and radiolaria.
+[LINE#65] The 10-20m fraction was additionally measured at given intervals to ensure diatom 30Si values were not offset by low 30Si silica components such as sponge spicules and radiolaria.
 0.948	[*A*]The 10-20 m fraction[*R*]was additionally measured[*A*]at given intervals[*A*]to ensure diatom 30Si values were not offset by low 30Si silica components such as radiolaria	context()	negated: False ,passive: True
 0.992	[*A*]10 -20 m fraction[*R*]was measured at[*A*]given intervals	context()	negated: False ,passive: False
 0.948	[*A*]The 10-20 m fraction[*R*]was additionally measured[*A*]at given intervals[*A*]to ensure diatom 30Si values were not offset by low 30Si silica components such as sponge spicules	context()	negated: False ,passive: True
-[LINE#58]It is acknowledged that analysing smaller diatom size fractions may introduce a small seasonal or species-specific bias to measured diatom 30Si values.
-[LINE#59]However it is clear from the work of Egan et al.
+[LINE#66] It is acknowledged that analysing smaller diatom size fractions may introduce a small seasonal or species-specific bias to measured diatom 30Si values.
+[LINE#67] However it is clear from the work of Egan et al.
 0.568	[*A*]it[*R*]is[*A*]clear from the work of Egan et al	context()	negated: False ,passive: True
-[LINE#60](2012) that this is of minimum concern compared to the effect of including larger size fractions, which are highly likely to contain non-diatom opal in the Southern Ocean.
+[LINE#68] (2012) that this is of minimum concern compared to the effect of including larger size fractions, which are highly likely to contain non-diatom opal in the Southern Ocean.
 0.944	[*A*]larger size fractions[*R*]are[*A*]highly likely to contain non-diatom opal in the Southern Ocean	context()	negated: False ,passive: True
 0.449	[*A*]this[*R*]is[*A*]of minimum concern[*A*]compared to the effect of including larger size fractions	context()	negated: False ,passive: True
-[LINE#61]This is further attested to by the core top study of Ehlert et al.
+[LINE#69] This is further attested to by the core top study of Ehlert et al.
 0.326	[*A*]This[*R*]is attested[*A*]to[*A*]by the core top study of Ehlert et al	context()	negated: False ,passive: True
-[LINE#62](2012), who found that opal in the 11-32m size range in the Peruvian upwelling zone could be significantly offset from the 30Si of handpicked diatom samples by non-diatom opal.
-[LINE#63] Selection of the smaller size fraction in this region is therefore essential to producing a 30Si record that documents the targetenvironmental parameter, silicic acid utilisation, rather than the amount of non-diatom contamination.
+[LINE#70] (2012), who found that opal in the 11-32m size range in the Peruvian upwelling zone could be significantly offset from the 30Si of handpicked diatom samples by non-diatom opal.
+[LINE#71+72]  Selection of the smaller size fraction in this region is therefore essential to producing a 30Si record that documents the targetenvironmental parameter, silicic acid utilisation, rather than the amount of non-diatom contamination.
 0.933	[*A*]a 30Si record[*R*]documents[*A*]the targetenvironmental parameter, silicic acid utilisation, rather than the amount of non-diatom contamination	context()	negated: False ,passive: False
 0.971	[*A*]Selection of the smaller size fraction in this region[*R*]is[*A*]therefore essential to producing a 30Si record	context()	negated: False ,passive: True
-[LINE#64] After microseparation, diatom opal was subjected to additional chemical cleaning following.
+[LINE#73]  After microseparation, diatom opal was subjected to additional chemical cleaning following.
 0.943	[*A*]diatom opal[*R*]was subjected[*A*]to additional chemical cleaning following[*A*]After microseparation	context()	negated: False ,passive: True
-[LINE#65] Ellwood and Hunter (1999), which included reduction (hydroxylamine hydrochloride/acetic acid solution), etching (NaF) and oxidation(strong acid solution of 50% HNO3+10% HCl).Three samples from Site 1090 covering the age range investigated were studied by X-ray diffractometry.
+[LINE#74+75]  Ellwood and Hunter (1999), which included reduction (hydroxylamine hydrochloride/acetic acid solution), etching (NaF) and oxidation(strong acid solution of 50% HNO3+10% HCl).Three samples from Site 1090 covering the age range investigated were studied by X-ray diffractometry.
 0.950	[*A*]Hunter ( 1999[*R*]included[*A*]reduction ( hydroxylamine hydrochloride / acetic acid solution ) , oxidation	context()	negated: False ,passive: True
 0.922	[*A*]Hunter ( 1999[*R*]were studied[*A*]by X-ray diffractometry	context()	negated: False ,passive: True
 0.958	[*A*]Hunter ( 1999[*R*]included[*A*]reduction ( hydroxylamine hydrochloride / acetic acid solution ) , etching ( NaF ) HNO3+10 % HCl ) . Three samples from Site 1090	context()	negated: False ,passive: True
@@ -239,107 +239,107 @@
 0.939	[*A*]Three samples from Site 1090 covering the age range[*R*]were studied[*A*]by X-ray diffractometry	context()	negated: False ,passive: True
 0.751	[*A*]the age range[*R*]investigated	context()	negated: False ,passive: False
 0.926	[*A*]Three samples from Site 1090[*R*]covering[*A*]the age range investigated	context()	negated: False ,passive: False
-[LINE#66]All showed the diffuse peak representative of amorphous opal providing confirmation that the samples have not undergone diagenetic transformation to opal-CT..
+[LINE#76] All showed the diffuse peak representative of amorphous opal providing confirmation that the samples have not undergone diagenetic transformation to opal-CT..
 0.903	[*A*]the samples[*R*]have not undergone[*A*]diagenetic transformation	context()	negated: True ,passive: True
 0.481	[*A*]amorphous opal[*R*]providing[*A*]confirmation that the samples have not undergone diagenetic transformation to opal-CT	context()	negated: False ,passive: False
 0.302	[*A*]All[*R*]showed[*A*]the diffuse peak representative of amorphous opal providing confirmation that the samples have not undergone diagenetic transformation to opal-CT	context()	negated: False ,passive: False
-[LINE#67]Sponge spicule preparationSediments were prepared following existing techniques (Hendry et al., 2010), which were refined slightly to better suit the microseparation technique utilised here as a convenient alternative to sieving.
+[LINE#77] Sponge spicule preparationSediments were prepared following existing techniques (Hendry et al., 2010), which were refined slightly to better suit the microseparation technique utilised here as a convenient alternative to sieving.
 0.911	[*A*]the microseparation technique[*R*]utilised[*A*]here[*A*]as a convenient alternative to sieving	context()	negated: False ,passive: True
 0.830	[*A*]spicule preparationSediments[*R*]were prepared[*A*]Sponge	context()	negated: False ,passive: True
-[LINE#68]Initial cleaning with H2O2 and HCl was carried out to concentrate biogenic opal.
+[LINE#78] Initial cleaning with H2O2 and HCl was carried out to concentrate biogenic opal.
 0.939	[*A*]Initial cleaning with HCl[*R*]was carried out[*A*]to concentrate biogenic opal	context()	negated: False ,passive: True
 0.939	[*A*]Initial cleaning with H2O2[*R*]was carried out[*A*]to concentrate biogenic opal	context()	negated: False ,passive: True
-[LINE#69] From this pre-cleaned sample the >100m fraction was separated using microseparation (Minoletti et al., 2009)and between 50 and 100 spicules were hand-picked.
+[LINE#79+80]  From this pre-cleaned sample the >100m fraction was separated using microseparation (Minoletti et al., 2009)and between 50 and 100 spicules were hand-picked.
 0.949	[*A*]the > 100 m fraction[*R*]was separated[*A*]From this pre-cleaned sample	context()	negated: False ,passive: True
-[LINE#70] A range of spicule morphotypes were included, as it has been shown that neither spicule morphology nor species composition creates any consistent offset in 30Si.
+[LINE#81]  A range of spicule morphotypes were included, as it has been shown that neither spicule morphology nor species composition creates any consistent offset in 30Si.
 0.929	[*A*]neither spicule morphology nor species composition[*R*]creates[*A*]any consistent offset in 30Si	context(it has been shown)	negated: False ,passive: False
 0.162	[*A*]it[*R*]has been shown	context()	negated: False ,passive: False
 0.799	[*A*]A range of spicule morphotypes[*R*]were included[*A*]as it has been shown that neither spicule morphology nor species composition creates any consistent offset in 30Si	context()	negated: False ,passive: True
-[LINE#71]Spicules were sonicated in reagent grade methanol and dried down in 200L of concentrated HNO3.
+[LINE#82] Spicules were sonicated in reagent grade methanol and dried down in 200L of concentrated HNO3.
 0.713	[*A*]Spicules[*R*]were dried down	context()	negated: False ,passive: False
 0.894	[*A*]Spicules[*R*]were sonicated[*A*]in reagent grade methanol	context()	negated: False ,passive: True
-[LINE#72]Sponge 30Si data presented here are generally in agreement with the data from this site produced by De la Rocha (2003), despite different methodologies and specific sampling intervals (Fig. S2).
+[LINE#83] Sponge 30Si data presented here are generally in agreement with the data from this site produced by De la Rocha (2003), despite different methodologies and specific sampling intervals (Fig. S2).
 0.926	[*A*]Sponge 30Si data presented here[*R*]are[*A*]generally[*A*]in agreement with the data from this site[*A*]despite different specific sampling intervals	context()	negated: False ,passive: True
 0.918	[*A*]this site[*R*]produced[*A*]by De la Rocha	context()	negated: False ,passive: True
 0.926	[*A*]Sponge 30Si data presented here[*R*]are[*A*]generally[*A*]in agreement with the data from this site[*A*]despite different methodologies	context()	negated: False ,passive: True
 0.783	[*A*]Sponge 30Si data[*R*]presented[*A*]here	context()	negated: False ,passive: True
-[LINE#73] XRD analysis showed sponge spicules from the Eocene/Oligocene interval of this site to be amorphous opal (.
+[LINE#84]  XRD analysis showed sponge spicules from the Eocene/Oligocene interval of this site to be amorphous opal (.
 0.895	[*A*]sponge spicules from the Eocene/Oligocene interval of this site[*R*]to be[*A*]amorphous opal	context(XRD analysis showed)	negated: False ,passive: True
 0.935	[*A*]XRD analysis[*R*]showed[*A*]sponge spicules from the Eocene/Oligocene interval of this site to be amorphous opal	context()	negated: False ,passive: False
-[LINE#74]Opal dissolution and analysisCleaned sponge and diatom opal was dissolved via wet alkaline digestion (Cardinal et al., 2007; Ragueneau et al., 2005) in 0.2M NaOH at 100C for 40min (diatoms) or up to 1 week (sponge spicules).
+[LINE#85] Opal dissolution and analysisCleaned sponge and diatom opal was dissolved via wet alkaline digestion (Cardinal et al., 2007; Ragueneau et al., 2005) in 0.2M NaOH at 100C for 40min (diatoms) or up to 1 week (sponge spicules).
 0.830	[*A*]Opal dissolution and analysisCleaned sponge and diatom opal[*R*]was dissolved	context()	negated: False ,passive: False
-[LINE#75] The samples were acidified to pH2 with 0.2M thermally distilled HCl and separated from major ions using cation exchange resin(BioRad AG50W-X12, Georg et al., 2006).
+[LINE#86+87]  The samples were acidified to pH2 with 0.2M thermally distilled HCl and separated from major ions using cation exchange resin(BioRad AG50W-X12, Georg et al., 2006).
 0.887	[*A*]The samples[*R*]separated[*A*]from major ions	context()	negated: False ,passive: True
 0.732	[*A*]The samples[*R*]were acidified	context()	negated: False ,passive: False
-[LINE#76] Silicon isotope analysis was carried out using a Nu Instruments Nu-Plasma HR multi-collector inductively coupled plasma mass spectrometer run in medium resolution mode (.
+[LINE#88]  Silicon isotope analysis was carried out using a Nu Instruments Nu-Plasma HR multi-collector inductively coupled plasma mass spectrometer run in medium resolution mode (.
 0.932	[*A*]plasma mass spectrometer[*R*]run[*A*]in medium resolution mode	context()	negated: False ,passive: True
 0.803	[*A*]Silicon isotope analysis[*R*]was carried out	context()	negated: False ,passive: False
-[LINE#77]Samples were introduced via a self-aspirating PFA microconcentric nebuliser (ESI) in a Cetac Aridus II desolvating unit.
+[LINE#89] Samples were introduced via a self-aspirating PFA microconcentric nebuliser (ESI) in a Cetac Aridus II desolvating unit.
 0.713	[*A*]Samples[*R*]were introduced	context()	negated: False ,passive: False
-[LINE#78]Measurements included six to eight standard-sample brackets (brackets where the rate of machine drift outstripped bracketing rate were disregarded), each composed of twenty eight-second integrations.
+[LINE#90] Measurements included six to eight standard-sample brackets (brackets where the rate of machine drift outstripped bracketing rate were disregarded), each composed of twenty eight-second integrations.
 0.544	[*A*]each[*R*]composed[*A*]of twenty eight-second integrations	context()	negated: False ,passive: True
 0.732	[*A*]bracketing rate[*R*]were disregarded	context()	negated: False ,passive: False
 0.949	[*A*]the rate of machine drift[*R*]outstripped[*A*]brackets	context()	negated: False ,passive: True
 0.931	[*A*]Measurements[*R*]included[*A*]six to eight standard-sample brackets (brackets where the rate of machine drift outstripped bracketing rate were disregarded	context()	negated: False ,passive: True
-[LINE#79]Samples were measured relative to the NIST RM 8546 standard.
+[LINE#91] Samples were measured relative to the NIST RM 8546 standard.
 0.911	[*A*]Samples[*R*]were measured[*A*]relative to the NIST RM 8546 standard	context()	negated: False ,passive: True
-[LINE#80]The external diatomite standard (1.260.2, Reynolds et al., 2007) yielded a mean and 2SD of 1.230.25 (n=104).
+[LINE#92] The external diatomite standard (1.260.2, Reynolds et al., 2007) yielded a mean and 2SD of 1.230.25 (n=104).
 0.737	[*A*]The external diatomite standard[*R*]yielded	context()	negated: False ,passive: False
-[LINE#81]Error bars in the figures and text are this 2SD external reproducibility unless the internal reproducibility of the standard sample brackets was larger, in which case this is quoted instead. .
+[LINE#93] Error bars in the figures and text are this 2SD external reproducibility unless the internal reproducibility of the standard sample brackets was larger, in which case this is quoted instead. .
 0.948	[*A*]Error bars in text[*R*]are[*A*]this 2SD external reproducibility[*A*]unless the internal reproducibility of the standard sample brackets was larger , in which case this is quoted instead	context()	negated: False ,passive: True
 0.178	[*A*]this[*R*]is quoted[*A*]instead	context()	negated: False ,passive: True
 0.886	[*A*]the internal reproducibility of the standard sample brackets[*R*]was[*A*]larger	context()	negated: False ,passive: True
 0.952	[*A*]Error bars in the figures[*R*]are[*A*]this 2SD external reproducibility[*A*]unless the internal reproducibility of the standard sample brackets was larger , in which case this is quoted instead	context()	negated: False ,passive: True
-[LINE#82] Diatom species-specific silicon isotope fractionationBased on culture experiments (Sutton et al., 2013) , it has recently been suggested that the diatom silicon isotope fractionation factor may be species dependent, and in particular that the genus Chaetoceros may have a significantly larger, and the species Fragilariopsis kerguelensis, a significantly smaller 30 than the widely accepted value of -1.
+[LINE#94+95+96]  Diatom species-specific silicon isotope fractionationBased on culture experiments (Sutton et al., 2013) , it has recently been suggested that the diatom silicon isotope fractionation factor may be species dependent, and in particular that the genus Chaetoceros may have a significantly larger, and the species Fragilariopsis kerguelensis, a significantly smaller 30 than the widely accepted value of -1.
 0.920	[*A*]Chaetoceros[*R*]may have[*A*]the species Fragilariopsis kerguelensis	context()	negated: False ,passive: False
 0.932	[*A*]Diatom species-specific silicon isotope[*R*]fractionationBased[*A*]on culture experiments	context()	negated: False ,passive: True
-[LINE#83]Our previous Southern Ocean core top study included Antarctic Peninsula sediments containing Chaetoceros sp.
+[LINE#97] Our previous Southern Ocean core top study included Antarctic Peninsula sediments containing Chaetoceros sp.
 0.944	[*A*]Antarctic Peninsula sediments[*R*]containing[*A*]Chaetoceros sp	context()	negated: False ,passive: False
 0.823	[*A*]Our previous Southern Ocean core top study[*R*]included[*A*]Antarctic Peninsula sediments	context()	negated: False ,passive: True
-[LINE#84] and Pacific sector sediments containing F. kerguelensis.
+[LINE#98]  and Pacific sector sediments containing F. kerguelensis.
 0.944	[*A*]Pacific sector sediments[*R*]containing[*A*]F. kerguelensis	context()	negated: False ,passive: False
-[LINE#85]The size fractions analysed had up to 40% differences in the abundance of these diatoms (Fig. 5).
-[LINE#86] However, there is no detectable 30Si offset between size fractions in the core tops TAN127 or 3855a and b), whilst in KC08A (Fig. 5c), there is a slight negative offset of the 12-20m fraction which is opposite to that expected if the abundance of Chaetoceros was the cause (the suggested larger fractionation would act to lower 30Si in the smaller size fractions).
+[LINE#99] The size fractions analysed had up to 40% differences in the abundance of these diatoms (Fig. 5).
+[LINE#100+101]  However, there is no detectable 30Si offset between size fractions in the core tops TAN127 or 3855a and b), whilst in KC08A (Fig. 5c), there is a slight negative offset of the 12-20m fraction which is opposite to that expected if the abundance of Chaetoceros was the cause (the suggested larger fractionation would act to lower 30Si in the smaller size fractions).
 0.272	[*A*]which[*R*]is opposite to[*A*]that	context()	negated: False ,passive: False
 0.900	[*A*]the suggested larger fractionation[*R*]would act[*A*]to lower 30Si in the smaller size fractions	context(that expected)	negated: False ,passive: False
 0.036	[*A*]that[*R*]expected	context()	negated: False ,passive: False
 0.620	[*A*]the 12-20m fraction[*R*]is[*A*]opposite to that	context()	negated: False ,passive: True
 0.953	[*A*]the abundance of Chaetoceros[*R*]was[*A*]the cause	context()	negated: False ,passive: True
-[LINE#87] Rather, the 30Si values of size fractions between 2 and 20m display a good correlation (r2=0.92, Fig. 2a) with surface silicic acid concentration and, where the water source 30Si and silicic acid concentration are known or can be reasonably estimated, converge on an apparent 30 of -1(Egan et al., 2012; Fripiat et al., 2011c).
+[LINE#102+103+104]  Rather, the 30Si values of size fractions between 2 and 20m display a good correlation (r2=0.92, Fig. 2a) with surface silicic acid concentration and, where the water source 30Si and silicic acid concentration are known or can be reasonably estimated, converge on an apparent 30 of -1(Egan et al., 2012; Fripiat et al., 2011c).
 0.953	[*A*]the 30Si values of size fractions between 2 and 20[*R*]m display[*A*]a good correlation	context()	negated: False ,passive: False
-[LINE#88]This suggests that whilst inter-specific differences in fractionation factor exist in culture, in the natural environment the presence of such species does not yield a large offset in the 30Si signature of the diatom population as a whole.
+[LINE#105] This suggests that whilst inter-specific differences in fractionation factor exist in culture, in the natural environment the presence of such species does not yield a large offset in the 30Si signature of the diatom population as a whole.
 0.941	[*A*]the presence of such species[*R*]does not yield[*A*]a large offset in the 30Si signature of the diatom population as a whole	context(This suggests)	negated: True ,passive: False
 0.224	[*A*]This[*R*]suggests[*A*]that whilst inter-specific differences in fractionation factor exist in culture, in the natural environment the presence of such species does not yield a large offset in the 30Si signature of the diatom population as a whole	context()	negated: False ,passive: False
 0.926	[*A*]inter-specific differences in fractionation factor[*R*]exist[*A*]in culture	context()	negated: False ,passive: True
-[LINE#89] Although a down core effect cannot be completely ruled out, the good agreement between the 2-10m and 10-20m size fractions in our record from Site 1090and our previous core top study (Figs. 2 and 5) suggest that changes in the species specific fractionation factor are unlikely to be the dominant driver of Site 1090 diatom 30Si variation.
+[LINE#106+107]  Although a down core effect cannot be completely ruled out, the good agreement between the 2-10m and 10-20m size fractions in our record from Site 1090and our previous core top study (Figs. 2 and 5) suggest that changes in the species specific fractionation factor are unlikely to be the dominant driver of Site 1090 diatom 30Si variation.
 0.927	[*A*]changes in the species specific fractionation factor[*R*]to be[*A*]the dominant driver of Site	context()	negated: False ,passive: True
 0.982	[*A*]the good agreement between the 2-10 m and 10-20 m size fractions in our record from Site 1090and our previous core top study ( Figs . 2 ) suggest that changes in the species specific fractionation factor[*R*]are[*A*]unlikely to be the dominant driver of Site	context(Figs suggest)	negated: False ,passive: True
 0.692	[*A*]Figs[*R*]suggest[*A*]that changes in the species specific fractionation factor are unlikely to be the dominant driver of Site	context()	negated: False ,passive: False
 0.983	[*A*]the good agreement between the 2-10 m and 10-20 m size fractions in our record from Site 1090and our previous core top study ( Figs . 2 ) suggest that changes in the species specific fractionation factor[*R*]to be[*A*]the dominant driver of Site	context()	negated: False ,passive: True
 0.684	[*A*]a down core effect[*R*]can not be ruled out	context()	negated: True ,passive: False
-[LINE#90] Results and discussionOur new records of diatom and sponge 30Si are shown in Fig. 6c and b (respectively) alongside benthic 18O stacks for the main ocean basins (Fig.6a) in which the 1-1.5 positive excursion centred around 33.7Ma marks the onset of Antarctic glaciation (data from Cramer et al., 2009).
+[LINE#108+109+110]  Results and discussionOur new records of diatom and sponge 30Si are shown in Fig. 6c and b (respectively) alongside benthic 18O stacks for the main ocean basins (Fig.6a) in which the 1-1.5 positive excursion centred around 33.7Ma marks the onset of Antarctic glaciation (data from Cramer et al., 2009).
 0.757	[*A*]discussionOur new records of sponge 30Si[*R*]are shown[*A*]in Fig[*A*]alongside benthic 18O stacks for the main ocean basins	context()	negated: False ,passive: True
 0.757	[*A*]discussionOur new records of diatom 30Si[*R*]are shown[*A*]in Fig[*A*]alongside benthic 18O stacks for the main ocean basins	context()	negated: False ,passive: True
 0.960	[*A*]the 1-1.5 positive excursion[*R*]centred[*A*]around 33.7Ma[*A*]the main ocean basins	context()	negated: False ,passive: True
 0.970	[*A*]the 1-1.5 positive excursion centred around 33.7Ma[*R*]marks[*A*]the onset of Antarctic glaciation	context()	negated: False ,passive: False
 0.931	[*A*]the 1-1.5 positive excursion[*R*]centred[*A*]around 33.7Ma	context()	negated: False ,passive: True
 0.911	[*A*]Results[*R*]are shown[*A*]in Fig[*A*]alongside benthic 18O stacks for the main ocean basins	context()	negated: False ,passive: True
-[LINE#91] Through the late Eocene, between the beginning of our record at 38Ma and 33.2Ma, diatom 30Si rose by 0.6(Fig. 6c), equivalent to a doubling of silicic acid utilisation in the modern Southern Ocean (Fig. 2a).
+[LINE#111+112]  Through the late Eocene, between the beginning of our record at 38Ma and 33.2Ma, diatom 30Si rose by 0.6(Fig. 6c), equivalent to a doubling of silicic acid utilisation in the modern Southern Ocean (Fig. 2a).
 0.928	[*A*]diatom 30Si[*R*]rose equivalent[*A*]between the beginning of our record at 38Ma and 33.2Ma[*A*]by 0.6	context()	negated: False ,passive: True
-[LINE#92] Peak utilisation indicated by high, near modern values (Fripiat et al., 2011a) between 33.8 and 33Ma coincides with the glaciation driven 18O maximum (Fig..
+[LINE#113]  Peak utilisation indicated by high, near modern values (Fripiat et al., 2011a) between 33.8 and 33Ma coincides with the glaciation driven 18O maximum (Fig..
 0.918	[*A*]the glaciation[*R*]driven[*A*]18O maximum	context()	negated: False ,passive: False
 0.758	[*A*]Peak utilisation[*R*]coincides	context()	negated: False ,passive: False
 0.927	[*A*]Peak utilisation[*R*]indicated[*A*]by high[*A*]near modern values	context()	negated: False ,passive: True
-[LINE#93]Sponge 30Si declines by around 1.5 between 37 and 31.5Ma.
-[LINE#94] This translates to at least a doubling in silicic acid concentration at the intermediate depth of 1500m at site 689 (10-50 to 50-100mol/kg, Fig.2b; Hendry and Robinson, 2012).High diatom silicic acid utilisation may result either from limited silicic acid availability or from a high degree of diatom uptake.
-[LINE#95]Several lines of evidence suggest that the late Eocene diatom 30Si increase resulted from enhanced diatom uptake.
+[LINE#114] Sponge 30Si declines by around 1.5 between 37 and 31.5Ma.
+[LINE#115+116]  This translates to at least a doubling in silicic acid concentration at the intermediate depth of 1500m at site 689 (10-50 to 50-100mol/kg, Fig.2b; Hendry and Robinson, 2012).High diatom silicic acid utilisation may result either from limited silicic acid availability or from a high degree of diatom uptake.
+[LINE#117] Several lines of evidence suggest that the late Eocene diatom 30Si increase resulted from enhanced diatom uptake.
 0.937	[*A*]the late Eocene diatom 30Si increase[*R*]resulted[*A*]from enhanced diatom uptake	context(Several lines of evidence suggest)	negated: False ,passive: True
 0.864	[*A*]Several lines of evidence[*R*]suggest[*A*]that the late Eocene diatom 30Si increase resulted from enhanced diatom uptake	context()	negated: False ,passive: False
-[LINE#96]Firstly, the rising silicic acid concentration in intermediate waters through the late Eocene, as indicated by sponge 30Si decline (Fig. 6b), suggests the supply of silicic acid to the Southern Ocean surface is most likely to have increased across the period of diatom 30Si rise.
+[LINE#118] Firstly, the rising silicic acid concentration in intermediate waters through the late Eocene, as indicated by sponge 30Si decline (Fig. 6b), suggests the supply of silicic acid to the Southern Ocean surface is most likely to have increased across the period of diatom 30Si rise.
 0.977	[*A*]the rising silicic acid concentration in intermediate waters through the late Eocene[*R*]suggests[*A*]the supply of silicic acid to the Southern Ocean surface	context()	negated: False ,passive: False
-[LINE#97]Alternatively, lower silicic acid supply may have resulted from enhanced stratification.
+[LINE#119] Alternatively, lower silicic acid supply may have resulted from enhanced stratification.
 0.919	[*A*]lower silicic acid supply[*R*]may have resulted[*A*]from enhanced stratification	context()	negated: False ,passive: True
-[LINE#98]However, this situation cannot easily be reconciled with increasing opal contribution to Southern Ocean sediments during the late Eocene and Oi1 (Anderson and Delaney, 2005; Salamy and Zachos, 1999; Schumacher and Lazarus, 2004); the lower nutrient supply would limit diatom production and opal supply to the seafloor.
+[LINE#120] However, this situation cannot easily be reconciled with increasing opal contribution to Southern Ocean sediments during the late Eocene and Oi1 (Anderson and Delaney, 2005; Salamy and Zachos, 1999; Schumacher and Lazarus, 2004); the lower nutrient supply would limit diatom production and opal supply to the seafloor.
 0.933	[*A*]this situation[*R*]can not easily be reconciled[*A*]with increasing opal contribution to Southern Ocean sediments during Oi1	context(the lower nutrient supply would limit)	negated: True ,passive: True
 0.933	[*A*]this situation[*R*]can not easily be reconciled[*A*]with increasing opal contribution to Southern Ocean sediments during Oi1	context(the lower nutrient supply would limit)	negated: True ,passive: True
 0.933	[*A*]this situation[*R*]can not easily be reconciled[*A*]with increasing opal contribution to Southern Ocean sediments during Oi1	context(the lower nutrient supply would limit)	negated: True ,passive: True
@@ -353,85 +353,85 @@
 0.933	[*A*]this situation[*R*]can not easily be reconciled[*A*]with increasing opal contribution to Southern Ocean sediments during the late Eocene	context(the lower nutrient supply would limit)	negated: True ,passive: True
 0.933	[*A*]this situation[*R*]can not easily be reconciled[*A*]with increasing opal contribution to Southern Ocean sediments during the late Eocene	context(the lower nutrient supply would limit)	negated: True ,passive: True
 0.897	[*A*]the lower nutrient supply[*R*]would limit[*A*]diatom production[*A*]to the seafloor	context()	negated: False ,passive: False
-[LINE#99]Lastly, higher diatom uptake as the driver of rising 30Si at this time is in good agreement with peak diatom diversity (Rabosky and Sorhannus, 2009).
+[LINE#121] Lastly, higher diatom uptake as the driver of rising 30Si at this time is in good agreement with peak diatom diversity (Rabosky and Sorhannus, 2009).
 0.978	[*A*]higher diatom uptake as the driver of rising 30Si at this time[*R*]is[*A*]in good agreement with peak diatom diversity	context()	negated: False ,passive: True
-[LINE#100]Together, the diatom and sponge 30Si records provide the first biogeochemical footprint of major late Eocene diatom expansion and proliferation to near modern levels by the Oi1 event in the Southern Ocean.
+[LINE#122] Together, the diatom and sponge 30Si records provide the first biogeochemical footprint of major late Eocene diatom expansion and proliferation to near modern levels by the Oi1 event in the Southern Ocean.
 0.953	[*A*]the sponge 30Si records[*R*]provide[*A*]the first biogeochemical footprint of proliferation[*A*]to near modern levels[*A*]Together	context()	negated: False ,passive: False
 0.975	[*A*]the sponge 30Si records[*R*]provide[*A*]the first biogeochemical footprint of major late Eocene diatom expansion[*A*]to near modern levels[*A*]Together	context()	negated: False ,passive: False
 0.953	[*A*]the diatom 30Si records[*R*]provide[*A*]the first biogeochemical footprint of proliferation[*A*]to near modern levels[*A*]Together	context()	negated: False ,passive: False
 0.975	[*A*]the diatom 30Si records[*R*]provide[*A*]the first biogeochemical footprint of major late Eocene diatom expansion[*A*]to near modern levels[*A*]Together	context()	negated: False ,passive: False
-[LINE#101]Further insight into late Eocene-early Oligocene silicon cycling may be gained by defining 30Si1090 diatom-689 sponge=Site 1090 diatom 30Si-Site 689 sponge 30Si.
+[LINE#123] Further insight into late Eocene-early Oligocene silicon cycling may be gained by defining 30Si1090 diatom-689 sponge=Site 1090 diatom 30Si-Site 689 sponge 30Si.
 0.889	[*A*]Further insight into late Eocene-early Oligocene silicon cycling[*R*]may be gained	context()	negated: False ,passive: False
-[LINE#102]Diatom 30Si reflects both the silicic acid isotopic composition and silicic acid utilisation in surface waters.
+[LINE#124] Diatom 30Si reflects both the silicic acid isotopic composition and silicic acid utilisation in surface waters.
 0.927	[*A*]Diatom 30Si[*R*]reflects[*A*]silicic acid utilisation in surface waters	context()	negated: False ,passive: True
 0.927	[*A*]Diatom 30Si[*R*]reflects[*A*]both the silicic acid isotopic composition	context()	negated: False ,passive: True
-[LINE#103]However, here we can account for variations in the concentration and isotopic composition of upwelling waters by normalising the 30Si-1090 diatom values.
+[LINE#125] However, here we can account for variations in the concentration and isotopic composition of upwelling waters by normalising the 30Si-1090 diatom values.
 0.740	[*A*]we[*R*]can account[*A*]for variations in the isotopic composition of upwelling waters by normalising the 30Si - 1090 diatom values[*A*]here	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]can account[*A*]for variations in the concentration[*A*]here	context()	negated: False ,passive: False
-[LINE#104]This is achieved by subtracting Site 689 sponge 30Si values from Site 1090 diatom 30Si values.
+[LINE#126] This is achieved by subtracting Site 689 sponge 30Si values from Site 1090 diatom 30Si values.
 0.153	[*A*]This[*R*]is achieved	context()	negated: False ,passive: False
-[LINE#105]Assuming that (1) sponge spicule silicon isotopes reflect both the silicic acid concentration and isotopic composition, and (2) the intermediate waters bathing Site 689 and the surface waters near Site 1090 have a common source, in defining 30Si we are approximating a measure of the ocean's silicic acid gradient between Sites 689 and 1090.
+[LINE#127] Assuming that (1) sponge spicule silicon isotopes reflect both the silicic acid concentration and isotopic composition, and (2) the intermediate waters bathing Site 689 and the surface waters near Site 1090 have a common source, in defining 30Si we are approximating a measure of the ocean's silicic acid gradient between Sites 689 and 1090.
 0.614	[*A*]we[*R*]are approximating[*A*]a measure of the ocean 's silicic acid gradient between Sites 689 and 1090	context()	negated: False ,passive: False
-[LINE#106]30Si is a particularly powerful parameter eliminating the influence of whole ocean silicon isotopic shifts, which should affect diatom and sponge 30Si equally.
+[LINE#128] 30Si is a particularly powerful parameter eliminating the influence of whole ocean silicon isotopic shifts, which should affect diatom and sponge 30Si equally.
 0.925	[*A*]whole ocean silicon isotopic shifts[*R*]should affect equally[*A*]sponge 30Si	context()	negated: False ,passive: False
 0.911	[*A*]whole ocean silicon isotopic shifts[*R*]should affect equally[*A*]diatom	context()	negated: False ,passive: False
 0.919	[*A*]a particularly powerful parameter[*R*]eliminating[*A*]the influence of whole ocean silicon isotopic shifts	context()	negated: False ,passive: False
 0.961	[*A*]30Si[*R*]is[*A*]a particularly powerful parameter eliminating the influence of whole ocean silicon isotopic shifts ,	context()	negated: False ,passive: True
-[LINE#107]It is important to account for this, as modelling work suggests that changes in whole ocean 30Si of up to 0.4 may result from declining riverine inputs over ka timescales (De la Rocha and Bickle, 2005).
+[LINE#129] It is important to account for this, as modelling work suggests that changes in whole ocean 30Si of up to 0.4 may result from declining riverine inputs over ka timescales (De la Rocha and Bickle, 2005).
 0.840	[*A*]modelling work[*R*]suggests[*A*]that changes in whole ocean 30Si of up to 0.4 may result from declining riverine inputs over ka timescales	context()	negated: False ,passive: False
-[LINE#108]30Si1090 diatom-689 sponge increases by 1.5 between 37 and 34.5Ma, reaching a high just prior to, and stabilising across, the Oi1 event (Fig. 6d).
-[LINE#109]Linear regressions fitted through the sponge and diatom data between 38 and 34Ma were found to diverge significantly, with a p value of 2.410-5 for non-divergence using a maximum likelihood method.
+[LINE#130] 30Si1090 diatom-689 sponge increases by 1.5 between 37 and 34.5Ma, reaching a high just prior to, and stabilising across, the Oi1 event (Fig. 6d).
+[LINE#131] Linear regressions fitted through the sponge and diatom data between 38 and 34Ma were found to diverge significantly, with a p value of 2.410-5 for non-divergence using a maximum likelihood method.
 0.894	[*A*]non-divergence[*R*]using[*A*]a maximum likelihood method	context()	negated: False ,passive: False
 0.961	[*A*]Linear regressions[*R*]fitted[*A*]through the sponge and diatom data between 38 and 34Ma	context()	negated: False ,passive: True
-[LINE#110]The divergence in the 30Si records from Sites 1090 and 689 provides evidence for the development of a strong silicic acid gradient between high latitude intermediate waters and more northerly surface waters during the late Eocene.
+[LINE#132] The divergence in the 30Si records from Sites 1090 and 689 provides evidence for the development of a strong silicic acid gradient between high latitude intermediate waters and more northerly surface waters during the late Eocene.
 0.961	[*A*]The divergence in the 30Si records from Sites 689[*R*]provides[*A*]evidence	context()	negated: False ,passive: False
 0.961	[*A*]The divergence in the 30Si records from Sites 1090[*R*]provides[*A*]evidence	context()	negated: False ,passive: False
-[LINE#111] Based on interpolation of diatom 30Si across a hiatus at Site 1090 (Fig. 7a), 30Si1090 diatom-689 sponge reaches around 5 at 31.5Ma, approaching the modern day estimate of 5.5. Today.
+[LINE#133+134]  Based on interpolation of diatom 30Si across a hiatus at Site 1090 (Fig. 7a), 30Si1090 diatom-689 sponge reaches around 5 at 31.5Ma, approaching the modern day estimate of 5.5. Today.
 0.991	[*A*]-689 sponge[*R*]reaches[*A*]around 5 at 31.5Ma	context()	negated: False ,passive: False
 0.999	[*A*]30Si1090 diatom 689 sponge[*R*]reaches[*A*]5	context()	negated: False ,passive: False
 0.953	[*A*]30Si1090 diatom-689 sponge[*R*]reaches[*A*]around 5 at 31.5Ma[*A*]approaching the modern day estimate of 5.5	context()	negated: False ,passive: False
-[LINE#112]30Si1090 diatom-689 sponge is determined by both the silicic acid concentration of waters upwelled in the southern Antarctic Circumpolar Current (ACC), affecting the signal more strongly at Site 689, and the degree of diatom silicic acid utilisation during northerly Ekman transport, having a greater impact on Site 1090, as outlined below (Figs. 1 and 3).
+[LINE#135] 30Si1090 diatom-689 sponge is determined by both the silicic acid concentration of waters upwelled in the southern Antarctic Circumpolar Current (ACC), affecting the signal more strongly at Site 689, and the degree of diatom silicic acid utilisation during northerly Ekman transport, having a greater impact on Site 1090, as outlined below (Figs. 1 and 3).
 0.911	[*A*]waters[*R*]upwelled[*A*]in the southern Antarctic Circumpolar Current	context()	negated: False ,passive: True
 0.926	[*A*]30Si1090 diatom-689 sponge[*R*]is determined[*A*]by both the silicic acid concentration of waters	context()	negated: False ,passive: True
-[LINE#113] Site 689 is situated at the eastern extremity of the Weddell gyre (Barker et al., 1990), monitoring the nutrient status of upwelling and re-subducting waters in the Antarctic Zone of the Southern Ocean.
+[LINE#136]  Site 689 is situated at the eastern extremity of the Weddell gyre (Barker et al., 1990), monitoring the nutrient status of upwelling and re-subducting waters in the Antarctic Zone of the Southern Ocean.
 0.947	[*A*]Site 689[*R*]is situated[*A*]at the eastern extremity of the Weddell gyre[*A*]monitoring the nutrient status of re-subducting waters in the Antarctic Zone of the Southern Ocean	context()	negated: False ,passive: True
 0.918	[*A*]Site 689[*R*]is situated[*A*]at the eastern extremity of the Weddell gyre[*A*]monitoring the nutrient status of upwelling	context()	negated: False ,passive: True
-[LINE#114] Site 1090 is situated between the Sub-Antarctic and Sub-Tropical fronts (Gersonde et al., 1999)such that it underlies silicic acid depleted surface waters resulting from extensive diatom production along the northern pathway (Fig. 1 and 3b).
+[LINE#137+138]  Site 1090 is situated between the Sub-Antarctic and Sub-Tropical fronts (Gersonde et al., 1999)such that it underlies silicic acid depleted surface waters resulting from extensive diatom production along the northern pathway (Fig. 1 and 3b).
 0.935	[*A*]silicic acid[*R*]depleted[*A*]surface waters resulting from extensive diatom production along the northern pathway ( Fig . 3b )	context(it underlies)	negated: False ,passive: False
 0.935	[*A*]silicic acid[*R*]depleted[*A*]surface waters resulting from extensive diatom production along the northern pathway ( Fig . 1 )	context(it underlies)	negated: False ,passive: False
 0.397	[*A*]it[*R*]underlies[*A*]silicic acid depleted surface waters	context()	negated: False ,passive: False
 0.903	[*A*]surface waters[*R*]resulting[*A*]from extensive diatom production along the northern pathway	context()	negated: False ,passive: True
 0.748	[*A*]Site 1090[*R*]is situated[*A*]between the Sub-Antarctic and Sub-Tropical fronts ( Gersonde et al . , 1999 ) such that it underlies silicic acid depleted surface waters	context()	negated: False ,passive: True
-[LINE#115]Neither site moved significantly during the Cenozoic, implying the modern system of upwelling and surface water advection that is critically dependent on the presence of both the ACC and high diatom productivity was emergent through the late Eocene and fully developed by the early Oligocene.
+[LINE#139] Neither site moved significantly during the Cenozoic, implying the modern system of upwelling and surface water advection that is critically dependent on the presence of both the ACC and high diatom productivity was emergent through the late Eocene and fully developed by the early Oligocene.
 0.949	[*A*]surface water advection[*R*]is[*A*]critically dependent on the presence of both high diatom productivity	context()	negated: False ,passive: True
 0.933	[*A*]surface water advection[*R*]is[*A*]critically dependent on the presence of both the ACC	context()	negated: False ,passive: True
 0.887	[*A*]Neither site[*R*]implying[*A*]the modern system of surface water advection	context()	negated: False ,passive: False
 0.905	[*A*]Neither site[*R*]developed[*A*]by the early Oligocene	context()	negated: False ,passive: True
 0.887	[*A*]Neither site[*R*]implying[*A*]the modern system of upwelling	context()	negated: False ,passive: False
 0.918	[*A*]Neither site[*R*]moved significantly[*A*]during the Cenozoic	context()	negated: False ,passive: True
-[LINE#116]Late Eocene diatom proliferation likely occurred in response to subsidence of Southern Ocean land bridges and the concurrent development of circum-Antarctic upwelling.
+[LINE#140] Late Eocene diatom proliferation likely occurred in response to subsidence of Southern Ocean land bridges and the concurrent development of circum-Antarctic upwelling.
 0.954	[*A*]Late Eocene diatom proliferation[*R*]occurred[*A*]in response to subsidence of the concurrent development of circum-Antarctic upwelling	context()	negated: False ,passive: True
 0.940	[*A*]Late Eocene diatom proliferation[*R*]occurred[*A*]in response to subsidence of Southern Ocean land bridges	context()	negated: False ,passive: True
-[LINE#117] Steadily increasing silicic acid concentration at Site 689 from the beginning of our record until 31.5Ma (Fig.6b) is coincident with the subsidence of two southern hemisphere land bridges.
+[LINE#141+142]  Steadily increasing silicic acid concentration at Site 689 from the beginning of our record until 31.5Ma (Fig.6b) is coincident with the subsidence of two southern hemisphere land bridges.
 0.954	[*A*]31.5Ma[*R*]is[*A*]coincident with the subsidence of two southern hemisphere land bridges	context()	negated: False ,passive: True
-[LINE#118]Initial subsidence began between 50 (Drake Passage) and 35.5Ma (Tasman Gateway) with a deep connection in place by 33.5-30.2Ma (Livermore et al., 2007; Scher and Martin, 2006; Stickley et al., 2004).
+[LINE#143] Initial subsidence began between 50 (Drake Passage) and 35.5Ma (Tasman Gateway) with a deep connection in place by 33.5-30.2Ma (Livermore et al., 2007; Scher and Martin, 2006; Stickley et al., 2004).
 0.947	[*A*]Initial subsidence[*R*]began[*A*]between 50[*A*]with a deep connection in place by Martin , 2006	context()	negated: False ,passive: True
 0.947	[*A*]Initial subsidence[*R*]began[*A*]between 50[*A*]with a deep connection in place by Scher Stickley et al	context()	negated: False ,passive: True
 0.947	[*A*]Initial subsidence[*R*]began[*A*]between 50[*A*]with a deep connection in place by 33.5-30.2Ma Stickley et al	context()	negated: False ,passive: True
-[LINE#119]Before the opening of these gateways to circum-Antarctic current flow, the Southern Ocean was dominated by surface water sinking (Diester-Haass, 1995).
+[LINE#144] Before the opening of these gateways to circum-Antarctic current flow, the Southern Ocean was dominated by surface water sinking (Diester-Haass, 1995).
 0.976	[*A*]the Southern Ocean[*R*]was dominated[*A*]by surface water sinking[*A*]Before the opening of these gateways to circum-Antarctic current flow	context()	negated: False ,passive: True
-[LINE#120]We suggest that this sinking drove a southern overturning loop, analogous to modern North Atlantic deepwater formation, which drew in low latitude silicic acid/nutrient poor surface waters (Fig. 7c).
+[LINE#145] We suggest that this sinking drove a southern overturning loop, analogous to modern North Atlantic deepwater formation, which drew in low latitude silicic acid/nutrient poor surface waters (Fig. 7c).
 0.935	[*A*]this sinking[*R*]drove[*A*]a southern overturning loop, analogous to modern North Atlantic deepwater formation	context(We suggest)	negated: False ,passive: False
 0.317	[*A*]We[*R*]suggest[*A*]that this sinking drove a southern overturning loop, analogous to modern North Atlantic deepwater formation	context()	negated: False ,passive: False
 0.974	[*A*]a southern overturning loop, analogous to modern North Atlantic deepwater formation[*R*]drew[*A*]in low latitude	context()	negated: False ,passive: True
-[LINE#121]Without Southern Ocean upwelling, or exchange between the Pacific and Atlantic basins, overturning circulation would have been sluggish (Cramer et al., 2009) trapping silicic acid and other nutrients in the deep ocean, limiting surface primary productivity and hence organic carbon burial via the biological pump.
+[LINE#146] Without Southern Ocean upwelling, or exchange between the Pacific and Atlantic basins, overturning circulation would have been sluggish (Cramer et al., 2009) trapping silicic acid and other nutrients in the deep ocean, limiting surface primary productivity and hence organic carbon burial via the biological pump.
 0.947	[*A*]overturning circulation[*R*]would have been[*A*]sluggish[*A*]Cramer et al[*A*]2009) trapping silicic acid and other nutrients in the deep ocean, limiting surface primary productivity and hence organic carbon burial via the biological pump	context()	negated: False ,passive: True
-[LINE#122] Comparatively low early Palaeocene benthic 13C in the Pacific basin suggests nutrient-rich deepwater in this region.
+[LINE#147]  Comparatively low early Palaeocene benthic 13C in the Pacific basin suggests nutrient-rich deepwater in this region.
 0.973	[*A*]Palaeocene benthic 13C in the Pacific basin[*R*]suggests[*A*]nutrient-rich deepwater in this region[*A*]early	context()	negated: False ,passive: False
-[LINE#123] As gateway opening allowed the development of a circum-Antarctic current, the onset of upwelling, along with water flow from the Pacific to Atlantic, would have brought this deep store of nutrients to the surface (Fig..
+[LINE#148]  As gateway opening allowed the development of a circum-Antarctic current, the onset of upwelling, along with water flow from the Pacific to Atlantic, would have brought this deep store of nutrients to the surface (Fig..
 0.905	[*A*]the onset of upwelling[*R*]would have brought[*A*]this deep store of nutrients[*A*]to the surface	context()	negated: False ,passive: False
 0.903	[*A*]gateway opening[*R*]allowed[*A*]the development of a circum-Antarctic current	context()	negated: False ,passive: False
-[LINE#124]Such conditions of upwelling and high nutrient availability would have favoured diatom proliferation and opal export; high diatom nutrient uptake and growth rates, along with their large storage vacuole, provide a competitive advantage over other phytoplankton when nutrient input to the surface is high and episodic (Falkowski et al.,1998; Rabosky and Sorhannus, 2009; Tozzi et al., 2004).
+[LINE#149] Such conditions of upwelling and high nutrient availability would have favoured diatom proliferation and opal export; high diatom nutrient uptake and growth rates, along with their large storage vacuole, provide a competitive advantage over other phytoplankton when nutrient input to the surface is high and episodic (Falkowski et al.,1998; Rabosky and Sorhannus, 2009; Tozzi et al., 2004).
 0.913	[*A*]Such conditions of high nutrient availability[*R*]would have favoured[*A*]opal export	context(high growth rates , along with their large storage vacuole provide)	negated: False ,passive: False
 0.913	[*A*]Such conditions of high nutrient availability[*R*]would have favoured[*A*]opal export	context(high diatom nutrient uptake provide)	negated: False ,passive: False
 0.932	[*A*]Such conditions of high nutrient availability[*R*]would have favoured[*A*]diatom proliferation high growth rates	context()	negated: False ,passive: False
@@ -449,13 +449,13 @@
 0.952	[*A*]nutrient input to the surface[*R*]is[*A*]high Rabosky , 2009 ; Tozzi et al	context()	negated: False ,passive: True
 0.853	[*A*]nutrient input to the surface[*R*]is[*A*]high	context()	negated: False ,passive: True
 0.919	[*A*]Such conditions of upwelling[*R*]would have favoured[*A*]diatom proliferation high diatom nutrient uptake	context()	negated: False ,passive: False
-[LINE#125]Globally, the response to a newly established 'diatom pump' is expected to have been silicic acid drawdown, counter to the observed regional increase at Site 689.
+[LINE#150] Globally, the response to a newly established 'diatom pump' is expected to have been silicic acid drawdown, counter to the observed regional increase at Site 689.
 0.845	[*A*]the response to a newly established 'diatom pump[*R*]to have been[*A*]silicic	context()	negated: False ,passive: True
 0.748	[*A*]the response to a newly established 'diatom pump[*R*]is expected counter	context()	negated: False ,passive: False
-[LINE#126]Increased diatom productivity would have led to higher opal burial, lowering the whole-ocean inventory over time.
+[LINE#151] Increased diatom productivity would have led to higher opal burial, lowering the whole-ocean inventory over time.
 0.838	[*A*]Increased diatom productivity[*R*]would have led to higher opal burial lowering[*A*]the whole-ocean inventory over time	context(Increased diatom productivity would have led)	negated: False ,passive: False
 0.888	[*A*]Increased diatom productivity[*R*]would have led[*A*]to higher opal burial[*A*]lowering the whole-ocean inventory over time	context()	negated: False ,passive: False
-[LINE#127] However, high silicic acid concentration was maintained at Site 689 due to the establishment of the Antarctic overturning circulation(Fig. 7).Diatom expansion into this new, turbulent, nutrient-rich niche would have increased the proportion of organic carbon exported from the surface ocean and, together with an increase in Southern Ocean primary production, could have led to the observed increase in organic carbon burial during the late Eocene and early Oligocene (Figs. 1 and 6; Anderson and Delaney, 2005; Diester-Haass, 1995; Salamy and Zachos, 1999).
+[LINE#152+153]  However, high silicic acid concentration was maintained at Site 689 due to the establishment of the Antarctic overturning circulation(Fig. 7).Diatom expansion into this new, turbulent, nutrient-rich niche would have increased the proportion of organic carbon exported from the surface ocean and, together with an increase in Southern Ocean primary production, could have led to the observed increase in organic carbon burial during the late Eocene and early Oligocene (Figs. 1 and 6; Anderson and Delaney, 2005; Diester-Haass, 1995; Salamy and Zachos, 1999).
 0.954	[*A*]Diatom expansion into this new , turbulent , nutrient - rich niche[*R*]could have led[*A*]to the observed increase in organic carbon burial[*A*]during the 6	context()	negated: False ,passive: False
 0.961	[*A*]Diatom expansion into this new , turbulent , nutrient - rich niche[*R*]could have led[*A*]to the observed increase in organic carbon burial[*A*]during the late Eocene	context()	negated: False ,passive: False
 0.967	[*A*]Diatom expansion into this new , turbulent , nutrient - rich niche[*R*]would have increased[*A*]together[*A*]with an increase in Southern Ocean primary production	context()	negated: False ,passive: True
@@ -466,75 +466,75 @@
 0.967	[*A*]Diatom expansion into this new , turbulent , nutrient - rich niche[*R*]would have increased[*A*]Anderson	context()	negated: False ,passive: True
 0.903	[*A*]organic carbon[*R*]exported[*A*]from the surface ocean	context()	negated: False ,passive: True
 0.961	[*A*]Diatom expansion into this new , turbulent , nutrient - rich niche[*R*]would have increased[*A*]the proportion of organic carbon	context()	negated: False ,passive: False
-[LINE#128]Diatom production is characterised by high, rapid particle flux out of near surface waters, a process which enhances labile carbon concentration and organic carbon remineralisation in the deep ocean (Henson et al., 2012).
+[LINE#154] Diatom production is characterised by high, rapid particle flux out of near surface waters, a process which enhances labile carbon concentration and organic carbon remineralisation in the deep ocean (Henson et al., 2012).
 0.887	[*A*]a process[*R*]enhances[*A*]labile organic carbon remineralisation in the deep ocean	context()	negated: False ,passive: False
 0.724	[*A*]Diatom production[*R*]is characterised[*A*]by high	context(Diatom production is characterised by high flux)	negated: False ,passive: True
 0.783	[*A*]Diatom production is characterised by high[*R*]flux	context()	negated: False ,passive: False
 0.887	[*A*]a process[*R*]enhances[*A*]labile carbon concentration in the deep ocean	context()	negated: False ,passive: False
-[LINE#129]Although diatom production is not always linked to carbon export in the modern ocean, a strong coupling between production and export is observed in regions where nutrient supply is continuous, strong seasonal blooms occur and a diatom flora particularly efficient at carbon export exists, such as at Southern Ocean sites such near the Antarctic Polar Front (Buesseler et al., 2001).
+[LINE#155] Although diatom production is not always linked to carbon export in the modern ocean, a strong coupling between production and export is observed in regions where nutrient supply is continuous, strong seasonal blooms occur and a diatom flora particularly efficient at carbon export exists, such as at Southern Ocean sites such near the Antarctic Polar Front (Buesseler et al., 2001).
 0.977	[*A*]nutrient supply[*R*]is[*A*]a diatom flora particularly efficient at carbon export exists , such as at Southern Ocean sites such near the Antarctic Polar Front[*A*]regions	context()	negated: False ,passive: True
 0.745	[*A*]continuous , strong seasonal blooms[*R*]occur	context(nutrient supply is)	negated: False ,passive: False
 0.744	[*A*]nutrient supply[*R*]is	context()	negated: False ,passive: False
 0.761	[*A*]diatom production[*R*]is not linked[*A*]always	context()	negated: True ,passive: True
-[LINE#130]As such, diatom proliferation may have lowered pCO2 by facilitating coupled biogenic silica-organic carbon export to the deep ocean and marine sediments.
+[LINE#156] As such, diatom proliferation may have lowered pCO2 by facilitating coupled biogenic silica-organic carbon export to the deep ocean and marine sediments.
 0.903	[*A*]diatom proliferation[*R*]may have lowered[*A*]pCO2	context()	negated: False ,passive: False
-[LINE#131] Additionally, ocean alkalinity would have shifted as a result of increasing organic, relative to inorganic, carbon production and deposition (Diester-Haass, 1995; Henson et al., 2012), in keeping with pCO2 decline beginning 2Ma prior to the Oi1 event (.
+[LINE#157]  Additionally, ocean alkalinity would have shifted as a result of increasing organic, relative to inorganic, carbon production and deposition (Diester-Haass, 1995; Henson et al., 2012), in keeping with pCO2 decline beginning 2Ma prior to the Oi1 event (.
 0.937	[*A*]ocean alkalinity[*R*]would have shifted[*A*]as a result of increasing organic , relative to inorganic	context()	negated: False ,passive: True
 0.886	[*A*]pCO2 decline[*R*]beginning[*A*]prior to the Oi1 event	context()	negated: False ,passive: True
 0.947	[*A*]ocean alkalinity[*R*]would have shifted[*A*]as a result of increasing organic , relative to inorganic , carbon production ( Diester - Haass , 1995 ; Henson et al . , 2012 ) , in keeping with pCO2 decline beginning 2Ma prior to the Oi1 event	context()	negated: False ,passive: True
-[LINE#132]Eocene fluctuations in the equatorial Pacific carbonate compensation depth, coincident with increases in the accumulation of biogenic silica and organic carbon, have been linked to labile organic carbon input (Plike et al., 2012), hinting that the effects of diatom radiation were not limited to the Southern Ocean.
+[LINE#158] Eocene fluctuations in the equatorial Pacific carbonate compensation depth, coincident with increases in the accumulation of biogenic silica and organic carbon, have been linked to labile organic carbon input (Plike et al., 2012), hinting that the effects of diatom radiation were not limited to the Southern Ocean.
 0.970	[*A*]Eocene fluctuations in the equatorial Pacific carbonate compensation depth , coincident with increases in the accumulation of organic carbon[*R*]have been linked[*A*]hinting that the effects of diatom radiation were not limited to the Southern Ocean	context()	negated: False ,passive: True
 0.970	[*A*]Eocene fluctuations in the equatorial Pacific carbonate compensation depth , coincident with increases in the accumulation of biogenic silica[*R*]have been linked[*A*]hinting that the effects of diatom radiation were not limited to the Southern Ocean	context()	negated: False ,passive: True
-[LINE#133]The Oi1 global 13C excursion, indicative of organic carbon burial, coincides with the final approach of diatom 30Si towards consistently modern values (Fig. 6c) and peak Southern Ocean opal accumulation (Anderson and Delaney, 2005; Salamy and Zachos, 1999).
+[LINE#159] The Oi1 global 13C excursion, indicative of organic carbon burial, coincides with the final approach of diatom 30Si towards consistently modern values (Fig. 6c) and peak Southern Ocean opal accumulation (Anderson and Delaney, 2005; Salamy and Zachos, 1999).
 0.882	[*A*]The Oi1 global 13C excursion , indicative of organic carbon burial[*R*]coincides	context()	negated: False ,passive: False
-[LINE#134]At this time, upwelling may have been intensified by enhanced meridional temperature gradients resulting from Antarctic Glaciation, leading to elevated nutrient supply and driving a further pulse of biological productivity (Salamy and Zachos, 1999).
+[LINE#160] At this time, upwelling may have been intensified by enhanced meridional temperature gradients resulting from Antarctic Glaciation, leading to elevated nutrient supply and driving a further pulse of biological productivity (Salamy and Zachos, 1999).
 0.903	[*A*]elevated nutrient[*R*]driving[*A*]a further pulse of biological productivity	context()	negated: False ,passive: False
 0.931	[*A*]enhanced meridional temperature gradients[*R*]resulting[*A*]from Antarctic Glaciation	context()	negated: False ,passive: True
 0.681	[*A*]upwelling[*R*]may have been intensified[*A*]by enhanced meridional temperature gradients[*A*]At this time	context()	negated: False ,passive: True
-[LINE#135]Subsequently, 13C and opal burial decline, whilst diatom 30Si remains elevated (Fig. 6), suggesting a highly utilised but much reduced surface silicic acid pool.
+[LINE#161] Subsequently, 13C and opal burial decline, whilst diatom 30Si remains elevated (Fig. 6), suggesting a highly utilised but much reduced surface silicic acid pool.
 0.958	[*A*]whilst diatom 30Si remains[*R*]elevated[*A*]suggesting a much reduced surface silicic acid pool[*A*]Subsequently	context()	negated: False ,passive: True
 0.958	[*A*]whilst diatom 30Si remains[*R*]elevated[*A*]suggesting a highly utilised reduced surface silicic acid pool[*A*]Subsequently	context()	negated: False ,passive: True
 0.381	[*A*]much[*R*]reduced[*A*]surface silicic acid pool	context()	negated: False ,passive: True
 0.965	[*A*]whilst diatom 30Si remains[*R*]elevated[*A*]suggesting a much reduced surface silicic acid pool[*A*]Subsequently[*A*]13C	context()	negated: False ,passive: True
 0.965	[*A*]whilst diatom 30Si remains[*R*]elevated[*A*]suggesting a highly utilised reduced surface silicic acid pool[*A*]Subsequently[*A*]13C	context()	negated: False ,passive: True
-[LINE#136]This is consistent with productivity decline driven by nutrient limitation (Salamy and Zachos, 1999), in particular diatom silicon starvation.
+[LINE#162] This is consistent with productivity decline driven by nutrient limitation (Salamy and Zachos, 1999), in particular diatom silicon starvation.
 0.918	[*A*]productivity decline[*R*]driven[*A*]by nutrient limitation Zachos , 1999[*A*]in particular diatom silicon starvation	context()	negated: False ,passive: True
 0.903	[*A*]productivity decline[*R*]driven[*A*]by nutrient limitation[*A*]in particular diatom silicon starvation	context()	negated: False ,passive: True
 0.449	[*A*]This[*R*]is[*A*]consistent with productivity decline	context()	negated: False ,passive: True
-[LINE#137]The Southern Ocean attains surface and deepwater silicon isotopic compositions indistinguishable from the modern day at around 33Ma.
+[LINE#163] The Southern Ocean attains surface and deepwater silicon isotopic compositions indistinguishable from the modern day at around 33Ma.
 0.964	[*A*]The Southern Ocean[*R*]attains[*A*]deepwater silicon isotopic compositions indistinguishable from the modern day at around 33Ma	context()	negated: False ,passive: False
 0.933	[*A*]The Southern Ocean[*R*]attains[*A*]surface	context()	negated: False ,passive: False
-[LINE#138]This implies that once established, upwelling and diatom production, coupled with the deep regeneration cycle of biogenic opal, trapped silicic acid within a rather stable Southern Ocean "loop".
+[LINE#164] This implies that once established, upwelling and diatom production, coupled with the deep regeneration cycle of biogenic opal, trapped silicic acid within a rather stable Southern Ocean "loop".
 0.961	[*A*]diatom production , coupled with the deep regeneration cycle of biogenic opal[*R*]trapped[*A*]silicic acid[*A*]within a rather stable Southern Ocean	context()	negated: False ,passive: False
 0.887	[*A*]diatom production[*R*]coupled[*A*]with the deep regeneration cycle of biogenic opal	context()	negated: False ,passive: True
 0.153	[*A*]This[*R*]implies	context()	negated: False ,passive: False
 0.183	[*A*]This[*R*]implies[*A*]that once established , upwelling " loop	context()	negated: False ,passive: False
-[LINE#139]Today such self-limitation confines the diatoms to upwelling regions with high silicic acid concentrations.
-[LINE#140]It is interesting to consider that this sequestration of silicic acid in the deep ocean, which has often facilitated shifts in the locus of opal deposition during the latter Cenozoic (Cortese et al., 2004) through changes in the location of silicic acid resupply to the surface and altered advection of deepwaters, began as far back as the Late Eocene.
+[LINE#165] Today such self-limitation confines the diatoms to upwelling regions with high silicic acid concentrations.
+[LINE#166] It is interesting to consider that this sequestration of silicic acid in the deep ocean, which has often facilitated shifts in the locus of opal deposition during the latter Cenozoic (Cortese et al., 2004) through changes in the location of silicic acid resupply to the surface and altered advection of deepwaters, began as far back as the Late Eocene.
 0.920	[*A*]altered advection of deepwaters[*R*]began[*A*]as far back as the Late Eocene	context()	negated: False ,passive: True
-[LINE#141]It is acknowledged that there is considerable complexity in the relationship between the diatoms, the biological carbon pump, and atmospheric pCO2.
-[LINE#142]This is particularly well illustrated by a number of hypotheses invoking a role for diatoms in glacial interglacial CO2 cycles, predominantly through their ability to alter the partitioning of carbon between surface and deep ocean reservoirs (e.g. iron fertilisation, changes in the ratio of siliceous to calcareous primary producers, silicic acid leakage; e.g. Kohfeld and Ridgewell, 2009) and consequent effects on carbonate compensation.
+[LINE#167] It is acknowledged that there is considerable complexity in the relationship between the diatoms, the biological carbon pump, and atmospheric pCO2.
+[LINE#168] This is particularly well illustrated by a number of hypotheses invoking a role for diatoms in glacial interglacial CO2 cycles, predominantly through their ability to alter the partitioning of carbon between surface and deep ocean reservoirs (e.g. iron fertilisation, changes in the ratio of siliceous to calcareous primary producers, silicic acid leakage; e.g. Kohfeld and Ridgewell, 2009) and consequent effects on carbonate compensation.
 0.919	[*A*]a number of hypotheses[*R*]invoking[*A*]a role for diatoms in glacial interglacial CO2 cycles	context()	negated: False ,passive: False
 0.259	[*A*]This[*R*]is illustrated[*A*]by a number of hypotheses invoking a role for diatoms in glacial interglacial CO2 cycles , predominantly through their ability	context()	negated: False ,passive: True
-[LINE#143]Some, such as iron fertilisation, may also alter the degree to which diatom opal export is coupled with organic carbon and other nutrient export (Ragueneau et al., 2000).
+[LINE#169] Some, such as iron fertilisation, may also alter the degree to which diatom opal export is coupled with organic carbon and other nutrient export (Ragueneau et al., 2000).
 0.948	[*A*]diatom opal export[*R*]is coupled[*A*]with other nutrient export[*A*]the degree	context()	negated: False ,passive: True
 0.936	[*A*]Some , such as iron fertilisation[*R*]may alter[*A*]the degree to which diatom opal export is coupled with other nutrient export ( Ragueneau et al . , 2000	context()	negated: False ,passive: False
 0.948	[*A*]diatom opal export[*R*]is coupled[*A*]with organic carbon[*A*]the degree	context()	negated: False ,passive: True
 0.924	[*A*]Some , such as iron fertilisation[*R*]may alter[*A*]the degree to which diatom opal export is coupled with organic carbon	context()	negated: False ,passive: False
-[LINE#144]It is additionally noted that increased upwelling associated with the onset of a circum-Antarctic current may well have released carbon stored in the abyssal ocean to the atmosphere.
+[LINE#170] It is additionally noted that increased upwelling associated with the onset of a circum-Antarctic current may well have released carbon stored in the abyssal ocean to the atmosphere.
 0.894	[*A*]carbon[*R*]stored[*A*]in the abyssal ocean	context()	negated: False ,passive: True
-[LINE#145]Although the hypothesis that diatom radiation contributed to Eocene CO2 drawdown by increasing organic carbon burial is one of a number of possible interpretations of our data, and maybe subject to the aforementioned complexities, it is favoured by the long time interval considered.
+[LINE#171] Although the hypothesis that diatom radiation contributed to Eocene CO2 drawdown by increasing organic carbon burial is one of a number of possible interpretations of our data, and maybe subject to the aforementioned complexities, it is favoured by the long time interval considered.
 0.990	[*A*]the hypothesis that diatom radiation contributed to Eocene CO2 drawdown by increasing organic carbon burial[*R*]is[*A*]one of a number of possible interpretations maybe subject to the aforementioned complexities	context()	negated: False ,passive: True
 0.769	[*A*]the long time interval[*R*]considered	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]is favoured[*A*]by the long time interval	context()	negated: False ,passive: True
 0.981	[*A*]the hypothesis that diatom radiation contributed to Eocene CO2 drawdown by increasing organic carbon burial[*R*]is[*A*]one of a number of possible interpretations of our data	context()	negated: False ,passive: True
 0.905	[*A*]the hypothesis[*R*]contributed[*A*]to Eocene CO2 drawdown	context()	negated: False ,passive: True
-[LINE#146] Over millions of years, processes such as organic carbon burial, which control the size of the surficial carbon reservoir, are likely to be of greater importance to atmospheric pCO2 than mechanisms such as ocean circulation or biological mediation of the deep ocean carbon reservoir, which largely alter the partitioning of this surficial carbon between the ocean and atmospheric reservoirs.
+[LINE#172]  Over millions of years, processes such as organic carbon burial, which control the size of the surficial carbon reservoir, are likely to be of greater importance to atmospheric pCO2 than mechanisms such as ocean circulation or biological mediation of the deep ocean carbon reservoir, which largely alter the partitioning of this surficial carbon between the ocean and atmospheric reservoirs.
 0.944	[*A*]the deep ocean carbon reservoir[*R*]largely alter[*A*]the partitioning of this surficial carbon between the ocean and atmospheric reservoirs	context()	negated: False ,passive: False
 0.980	[*A*]processes such as organic carbon burial, which control the size of the surficial carbon reservoir[*R*]to be[*A*]of greater importance to atmospheric pCO2 than mechanisms such as ocean circulation or biological mediation of the deep ocean carbon reservoir	context()	negated: False ,passive: True
 0.989	[*A*]processes such as organic carbon burial, which control the size of the surficial carbon reservoir[*R*]are[*A*]likely to be of greater importance to atmospheric pCO2 than mechanisms such as ocean circulation or biological mediation of the deep ocean carbon reservoir[*A*]Over millions of years	context()	negated: False ,passive: True
 0.921	[*A*]processes such as organic carbon burial[*R*]control[*A*]the size of the surficial carbon reservoir	context()	negated: False ,passive: False
-[LINE#147]Diatom carbon fixation and silicification, which may be decoupled by changes in iron fertilisation or the relative silicifcation of the ambient species (Ragueneau et al., 2000), are suggested to have remained coupled through this time period based on the broad coincidence between increased diatom production (30Si, Southern Ocean opal burial), increased organic carbon burial, and positively trending 13C (Anderson and Delaney, 2005; Diester-Haass, 1995; Salamy and Zachos, 1999).
+[LINE#173] Diatom carbon fixation and silicification, which may be decoupled by changes in iron fertilisation or the relative silicifcation of the ambient species (Ragueneau et al., 2000), are suggested to have remained coupled through this time period based on the broad coincidence between increased diatom production (30Si, Southern Ocean opal burial), increased organic carbon burial, and positively trending 13C (Anderson and Delaney, 2005; Diester-Haass, 1995; Salamy and Zachos, 1999).
 0.911	[*A*]this time period[*R*]based[*A*]on the broad coincidence between increased diatom production	context()	negated: False ,passive: True
 0.984	[*A*]Diatom carbon fixation and silicification, which may be decoupled by changes in iron fertilisation or the relative silicifcation of the ambient species[*R*]to have remained[*A*]coupled through this time period	context()	negated: False ,passive: True
 0.944	[*A*]Diatom carbon fixation and silicification[*R*]may be decoupled[*A*]by changes in iron fertilisation or the relative silicifcation of the ambient species	context()	negated: False ,passive: True

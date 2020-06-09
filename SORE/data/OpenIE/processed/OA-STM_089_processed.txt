@@ -1,84 +1,84 @@
-[LINE#1]In this note we show how to include low order terms in the C well-posedness results for weakly hyperbolic equations with analytic time-dependent coefficients.
+[LINE#0] In this note we show how to include low order terms in the C well-posedness results for weakly hyperbolic equations with analytic time-dependent coefficients.
 0.790	[*A*]we[*R*]show[*A*]how to include low order terms in the C well-posedness results for weakly hyperbolic equations with analytic time-dependent coefficients[*A*]In this note	context()	negated: False ,passive: False
-[LINE#2]This is achieved by doing a different reduction to a system from the previously used one.
+[LINE#1] This is achieved by doing a different reduction to a system from the previously used one.
 0.153	[*A*]This[*R*]is achieved	context()	negated: False ,passive: False
-[LINE#3]We find the Levi conditions such that the C well-posedness continues to hold.
+[LINE#2] We find the Levi conditions such that the C well-posedness continues to hold.
 0.807	[*A*]the C well-posedness[*R*]to hold	context()	negated: False ,passive: False
 0.832	[*A*]the C well-posedness[*R*]continues	context()	negated: False ,passive: False
 0.435	[*A*]We[*R*]find[*A*]the Levi conditions such that the C well-posedness continues to hold	context()	negated: False ,passive: False
-[LINE#4] Examples and remarks on the condition (3.3) and the Levi conditions (3.4)In this section we collect some examples and we have a closer look at the hypothesis (3.3) and the Levi conditions(or (3.4)).We begin with the hypothesis (3.3).
+[LINE#3+4]  Examples and remarks on the condition (3.3) and the Levi conditions (3.4)In this section we collect some examples and we have a closer look at the hypothesis (3.3) and the Levi conditions(or (3.4)).We begin with the hypothesis (3.3).
 0.162	[*A*]we[*R*]have	context(We begin)	negated: False ,passive: False
 0.443	[*A*]we[*R*]have[*A*]the Levi conditions	context(We begin)	negated: False ,passive: False
 0.452	[*A*]We[*R*]begin[*A*]with the hypothesis	context()	negated: False ,passive: False
 0.418	[*A*]we[*R*]have[*A*]a closer look at the hypothesis ( 3.3 ) . We begin with the hypothesis ( 3.3 )	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]collect[*A*]some examples	context()	negated: False ,passive: False
-[LINE#5] For the sake of simplicity we will assume that the roots have only one zero at t=0 (the proof can be adapted to the case of a finite number of zeroes) and we will take the interval [a,b]=[0,T].Recall that in this case there exist positive constants c1,c2 such that(5.1)c11t2(t,)(t,)c21t2(t,), for t[0,T] and ||1.
+[LINE#5+6]  For the sake of simplicity we will assume that the roots have only one zero at t=0 (the proof can be adapted to the case of a finite number of zeroes) and we will take the interval [a,b]=[0,T].Recall that in this case there exist positive constants c1,c2 such that(5.1)c11t2(t,)(t,)c21t2(t,), for t[0,T] and ||1.
 0.195	[*A*]we[*R*]will take the interval Recall[*A*]that in this case there exist positive constants c1 , c2 such that	context(we will take)	negated: False ,passive: False
 0.388	[*A*]we[*R*]will take[*A*]the interval	context()	negated: False ,passive: False
 0.717	[*A*]the roots[*R*]have[*A*]only one zero[*A*]at t=0	context(we will assume the proof can be adapted)	negated: False ,passive: False
 0.188	[*A*]we[*R*]will assume[*A*]that the roots have only one zero at t=0	context(the proof can be adapted)	negated: False ,passive: False
 0.878	[*A*]the proof[*R*]can be adapted[*A*]to the case of a finite number of zeroes	context()	negated: False ,passive: True
-[LINE#6]Before we argue this, we note that we will write such bounds over intervals of the type [0,T], meaning that they hold over (0,T] and extend uniformly over t=0 (usually due to cancellation of zeros).
+[LINE#7] Before we argue this, we note that we will write such bounds over intervals of the type [0,T], meaning that they hold over (0,T] and extend uniformly over t=0 (usually due to cancellation of zeros).
 0.388	[*A*]we[*R*]will extend[*A*]uniformly[*A*]over t=0 ( usually due to cancellation of zeros	context(we note)	negated: False ,passive: False
 0.265	[*A*]we[*R*]note[*A*]that we will extend uniformly over t=0 ( usually due to cancellation of zeros[*A*]Before we argue this	context()	negated: False ,passive: False
 0.388	[*A*]we[*R*]will write[*A*]such bounds over intervals of the type	context(we note)	negated: False ,passive: False
 0.265	[*A*]we[*R*]note[*A*]that we will write such bounds over intervals of the type [ 0 , T ] , meaning that they hold over ( 0[*A*]Before we argue this	context()	negated: False ,passive: False
 0.225	[*A*]we[*R*]argue[*A*]this	context()	negated: False ,passive: False
-[LINE#7]Now, the estimate (5.1) is trivial when t is far from 0, i.e. t[,T][0,T] with >0, since both (t,) and (t,) are different from 0 there.
+[LINE#8] Now, the estimate (5.1) is trivial when t is far from 0, i.e. t[,T][0,T] with >0, since both (t,) and (t,) are different from 0 there.
 0.898	[*A*]i.e. t [ , T ] [ 0 , T ] with > 0[*R*]are[*A*]different from 0 there	context()	negated: False ,passive: True
 0.671	[*A*]t[*R*]is[*A*]far from 0	context()	negated: False ,passive: True
 0.949	[*A*]the estimate[*R*]is[*A*]trivial[*A*]when t is far from 0[*A*]Now	context()	negated: False ,passive: True
 0.903	[*A*]t[*R*]is[*A*]far from 0 , i.e. t [ , T ] [ 0 , T ] with > 0	context()	negated: False ,passive: True
 0.968	[*A*]the estimate[*R*]is[*A*]trivial[*A*]when t is far from 0 , i.e. t [ , T ] [ 0 , T ] with > 0 , since both ( t , ) are different from 0 there[*A*]Now	context()	negated: False ,passive: True
-[LINE#8] When we are on a sufficiently small interval [0,] using the analyticity in t of (t,) we have(5.2)t2(t(t,))22(t,)L([0,],||1)and(5.3)t22(t,)(t(t,))2L([0,],||1).
+[LINE#9+10+11]  When we are on a sufficiently small interval [0,] using the analyticity in t of (t,) we have(5.2)t2(t(t,))22(t,)L([0,],||1)and(5.3)t22(t,)(t(t,))2L([0,],||1).
 0.516	[*A*]we[*R*]have t2 of[*A*]5.2	context()	negated: False ,passive: False
 0.400	[*A*]we[*R*]have[*A*]5.2 ) t2[*A*]When we are on a sufficiently small interval	context()	negated: False ,passive: False
 0.905	[*A*]a sufficiently small interval[*R*]using[*A*]the analyticity[*A*]in t of	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]are[*A*]on a sufficiently small interval	context()	negated: False ,passive: True
-[LINE#9] To prove (5.2) recall the relation (4.2) and write (t,) as tkg(t,), where k=k() is positive and bounded and|g(t,)|0 for all t[0,T] and ||1.
+[LINE#12+13]  To prove (5.2) recall the relation (4.2) and write (t,) as tkg(t,), where k=k() is positive and bounded and|g(t,)|0 for all t[0,T] and ||1.
 0.869	[*A*]k=k[*R*]is[*A*]| g	context()	negated: False ,passive: True
 0.833	[*A*]k=k[*R*]is bounded[*A*]g	context()	negated: False ,passive: False
 0.869	[*A*]k=k[*R*]is[*A*]positive g	context()	negated: False ,passive: True
-[LINE#10]Hence,t2(t(t,))22(t,)=t2t2k-2(kg(t,)+ttg(t,))2t2kg2(t,)c for t[0,] and ||1.
-[LINE#11] Analogously, to prove (5.3) setting supt[0,T],||1|g(t,)|=1 and supt[0,T],||1|tg(t,)|=2 we gett22(t,)(t(t,))2=t2t2kg2(t,)t2k-2(kg(t,)+ttg(t,))2t2k+2t2k-2g2(t,)(k|g(t,)|-t|tg(t,)|)2t412(k0-t2)2, which is bounded on [0,]{:||1} choosing  small enough.
+[LINE#14] Hence,t2(t(t,))22(t,)=t2t2k-2(kg(t,)+ttg(t,))2t2kg2(t,)c for t[0,] and ||1.
+[LINE#15+16]  Analogously, to prove (5.3) setting supt[0,T],||1|g(t,)|=1 and supt[0,T],||1|tg(t,)|=2 we gett22(t,)(t(t,))2=t2t2kg2(t,)t2k-2(kg(t,)+ttg(t,))2t2k+2t2k-2g2(t,)(k|g(t,)|-t|tg(t,)|)2t412(k0-t2)2, which is bounded on [0,]{:||1} choosing  small enough.
 0.809	[*A*]T[*R*]|[*A*]1 | g ( t , ) T ] tg ( t , ) | =2 we gett22 ( t , ) ( t ( t , ) ) 2=t2t2kg2 ( t , ) t2k - 2 ( kg ( t , ) +ttg ( t , ) ) 2t2k+2t2k - 2g2 ( t , ) ( k | g ( t , ) | - t | tg ( t , ) | ) 2t412	context()	negated: False ,passive: False
 0.809	[*A*]T[*R*]|[*A*]1 | g ( t , ) supt ] tg ( t , ) | =2 we gett22 ( t , ) ( t ( t , ) ) 2=t2t2kg2 ( t , ) t2k - 2 ( kg ( t , ) +ttg ( t , ) ) 2t2k+2t2k - 2g2 ( t , ) ( k | g ( t , ) | - t | tg ( t , ) | ) 2t412	context()	negated: False ,passive: False
 0.524	[*A*]we[*R*]gett22[*A*]t , ) ( t ( t , ) ) 2=t2t2kg2	context()	negated: False ,passive: False
 0.809	[*A*]T[*R*]|[*A*]1 | g ( t , ) | =1 ] tg ( t , ) | =2 we gett22 ( t , ) ( t ( t , ) ) 2=t2t2kg2 ( t , ) t2k - 2 ( kg ( t , ) +ttg ( t , ) ) 2t2k+2t2k - 2g2 ( t , ) ( k | g ( t , ) | - t | tg ( t , ) | ) 2t412	context()	negated: False ,passive: False
 0.788	[*A*]k0 - t2 ) 2[*R*]is bounded[*A*]on [ 0	context()	negated: False ,passive: False
 0.809	[*A*]T[*R*]|[*A*]1 | 1 | tg ( t , ) | =2 we gett22 ( t , ) ( t ( t , ) ) 2=t2t2kg2 ( t , ) t2k - 2 ( kg ( t , ) +ttg ( t , ) ) 2t2k+2t2k - 2g2 ( t , ) ( k | g ( t , ) | - t | tg ( t , ) | ) 2t412	context()	negated: False ,passive: False
-[LINE#12]Thus (5.1) is valid for t[0,] and ||1.We are now ready to state the following proposition.
+[LINE#17] Thus (5.1) is valid for t[0,] and ||1.We are now ready to state the following proposition.
 0.877	[*A*]1.We[*R*]to state[*A*]the following proposition	context()	negated: False ,passive: False
 0.894	[*A*]1.We[*R*]are[*A*]now[*A*]ready to state the following proposition	context()	negated: False ,passive: True
 0.321	[*A*]5.1[*R*]is[*A*]valid	context()	negated: False ,passive: True
-[LINE#13] Proposition 5.1Let m=2 and let 1(t,)=1(t,)-1,2(t,)=2(t,)-1 be the renormalised roots of the characteristic polynomial of (1.1).
-[LINE#14]Assume that 1(t,) and 2(t,) which are analytic in t coincide at t=0 only, with 1(0,)=2(0,)=0.
+[LINE#18+19]  Proposition 5.1Let m=2 and let 1(t,)=1(t,)-1,2(t,)=2(t,)-1 be the renormalised roots of the characteristic polynomial of (1.1).
+[LINE#20] Assume that 1(t,) and 2(t,) which are analytic in t coincide at t=0 only, with 1(0,)=2(0,)=0.
 0.342	[*A*]1[*R*]are[*A*]analytic in t coincide at t=0 only	context()	negated: False ,passive: True
-[LINE#15] Then, the hypothesis (3.3) is equivalent to each of the following two conditions, for ||1 and T small enough:(i)there exists M>0 such thatt2(t1(t,))2+t2(t2(t,))2M(1(t,)-2(t, ))2,t[0,T],||1;(ii)there exists M>0such that12(t,)+22(t,)M(1(t,)-2(t,))2,t[0,T],||1.
+[LINE#21+22+23+24]  Then, the hypothesis (3.3) is equivalent to each of the following two conditions, for ||1 and T small enough:(i)there exists M>0 such thatt2(t1(t,))2+t2(t2(t,))2M(1(t,)-2(t, ))2,t[0,T],||1;(ii)there exists M>0such that12(t,)+22(t,)M(1(t,)-2(t,))2,t[0,T],||1.
 0.747	[*A*]0such that12[*R*]|[*A*]1	context()	negated: False ,passive: False
 0.949	[*A*]the hypothesis[*R*]is[*A*]equivalent to each of the following two conditions[*A*]Then	context()	negated: False ,passive: True
-[LINE#16]ProofWe recall that 1(t,) and 2(t,) are the roots of the characteristic polynomial2-||=1a,||(t)-||=2a,||(t).
+[LINE#25] ProofWe recall that 1(t,) and 2(t,) are the roots of the characteristic polynomial2-||=1a,||(t)-||=2a,||(t).
 0.400	[*A*]1[*R*]are[*A*]the roots of the characteristic polynomial2-||=1a	context(ProofWe recall)	negated: False ,passive: True
 0.843	[*A*]ProofWe[*R*]recall[*A*]that 1(t,) and 2(t,) are the roots of the characteristic polynomial2-||=1a,||(t)-||=2a,||(t	context()	negated: False ,passive: False
-[LINE#17]Hence,1(t,)=||=1a,||(t)-1-(t,)2 and2(t,)=||=1a,||(t)-1+(t,)2, where(t,)=(||=1a,||(t))2-2+4||=2a,||(t)-2.
-[LINE#18]Clearly,(1(t,)-2(t,))2=(t,).
-[LINE#19]Moreover,(t1(t,))2+(t2(t,))2c(t1(t,)+t2(t,))2+c(t(t,))2.
-[LINE#20]By definition |(t,)|=(t1(t,)+t2(t,))2, hence (3.3) implies(5.4)(t1(t,))2+(t2(t,))2c((t,)+(t(t,))2(t,))=c(t,).
-[LINE#21]From the previous observation (5.1) on  we have that (t,)c2(1/t2)(t,) on [0,T] for ||1.
+[LINE#26] Hence,1(t,)=||=1a,||(t)-1-(t,)2 and2(t,)=||=1a,||(t)-1+(t,)2, where(t,)=(||=1a,||(t))2-2+4||=2a,||(t)-2.
+[LINE#27] Clearly,(1(t,)-2(t,))2=(t,).
+[LINE#28] Moreover,(t1(t,))2+(t2(t,))2c(t1(t,)+t2(t,))2+c(t(t,))2.
+[LINE#29] By definition |(t,)|=(t1(t,)+t2(t,))2, hence (3.3) implies(5.4)(t1(t,))2+(t2(t,))2c((t,)+(t(t,))2(t,))=c(t,).
+[LINE#30] From the previous observation (5.1) on  we have that (t,)c2(1/t2)(t,) on [0,T] for ||1.
 0.096	[*A*]we[*R*]have[*A*]that	context()	negated: False ,passive: False
-[LINE#22]Applied to (5.4) this proves that (3.3) implies (i).Assume that (i) holds.
+[LINE#31] Applied to (5.4) this proves that (3.3) implies (i).Assume that (i) holds.
 0.576	[*A*](i)[*R*]holds	context(Applied Assume)	negated: False ,passive: False
 0.739	[*A*]Applied[*R*]Assume[*A*]that (i) holds	context()	negated: False ,passive: False
 0.192	[*A*]3.3[*R*]implies	context(this proves)	negated: False ,passive: False
 0.089	[*A*]this[*R*]proves[*A*]that (3.3) implies (i	context()	negated: False ,passive: False
-[LINE#23] By Taylors expansion and adding and subtracting the term t1(2t,)we can write(1(t,))2+(2(t,))2=(t1(1t,)t)2+(t2(2t,)t)22t2(t1(1t,)-t1(2t,))2+2t2(t1(2t,))2+t2(t2(2t,))2.
+[LINE#32+33]  By Taylors expansion and adding and subtracting the term t1(2t,)we can write(1(t,))2+(2(t,))2=(t1(1t,)t)2+(t2(2t,)t)22t2(t1(1t,)-t1(2t,))2+2t2(t1(2t,))2+t2(t2(2t,))2.
 0.195	[*A*]we[*R*]can write	context()	negated: False ,passive: False
-[LINE#24]yields(5.5)(1(t,))2+(2(t,))2ct2(t1(1t,)-t1(2t,))2+c(1(2t,)-2(2t,))2.
-[LINE#25]Both the summands in the right-hand side of (5.5) are bounded by (1(t,)-2(t,)).
-[LINE#26] Indeed, recalling that 1(t,)=tk1g1(t,), 2(t,)=tk2g2(t,), where g1(t,)0, g2(t,)0 and the functions k1(),k2() are positive and bounded, we obtaint2(t1(1t, )-t1(2t,))2(t,)=t2(k1(1t)k1-1g1(1t,)+(1t)k1tg1(1t,)-k2(2t)k2 -1g2(2t,)-(2t)k2tg2(2t,))2(tk1g1(t,)-tk2g2(t,))2cg1t2k1+cg2t2k2t2k(tk1-kg1(t,)-tk2-kg2(t,.
+[LINE#34] yields(5.5)(1(t,))2+(2(t,))2ct2(t1(1t,)-t1(2t,))2+c(1(2t,)-2(2t,))2.
+[LINE#35] Both the summands in the right-hand side of (5.5) are bounded by (1(t,)-2(t,)).
+[LINE#36+37+38]  Indeed, recalling that 1(t,)=tk1g1(t,), 2(t,)=tk2g2(t,), where g1(t,)0, g2(t,)0 and the functions k1(),k2() are positive and bounded, we obtaint2(t1(1t, )-t1(2t,))2(t,)=t2(k1(1t)k1-1g1(1t,)+(1t)k1tg1(1t,)-k2(2t)k2 -1g2(2t,)-(2t)k2tg2(2t,))2(tk1g1(t,)-tk2g2(t,))2cg1t2k1+cg2t2k2t2k(tk1-kg1(t,)-tk2-kg2(t,.
 0.407	[*A*]we[*R*]obtaint2[*A*]=t2 ( k1 ( 1t ) k1-1g1	context()	negated: False ,passive: False
 0.195	[*A*]we[*R*]obtaint2	context()	negated: False ,passive: False
-[LINE#27]Since the functions g1 and g2 are bounded with |g1(t,)|c1 and |g2(t,)|c2 for t[0,T] and ||1, we have that the bound from below|tk1-kg1(t,)-tk2-kg2(t,)|c3 holds uniformly in ||1 and t[0,T], when T is sufficiently small.
+[LINE#39] Since the functions g1 and g2 are bounded with |g1(t,)|c1 and |g2(t,)|c2 for t[0,T] and ||1, we have that the bound from below|tk1-kg1(t,)-tk2-kg2(t,)|c3 holds uniformly in ||1 and t[0,T], when T is sufficiently small.
 0.302	[*A*]we[*R*]have |[*A*]| 1	context()	negated: False ,passive: False
 0.955	[*A*]) - tk2 - kg2 ( t , ) | c3[*R*]holds uniformly[*A*]in | | 1	context(we have |)	negated: False ,passive: False
 0.162	[*A*]we[*R*]have |	context()	negated: False ,passive: False
@@ -94,65 +94,65 @@
 0.076	[*A*]we[*R*]have[*A*]that	context() - tk2 - kg2 ( t , ) | c3 holds uniformly)	negated: False ,passive: False
 0.974	[*A*]) - tk2 - kg2 ( t , ) | c3[*R*]holds uniformly[*A*]in | | 1[*A*]Since the functions	context()	negated: False ,passive: False
 0.671	[*A*]T[*R*]is[*A*]sufficiently small	context()	negated: False ,passive: True
-[LINE#28]Thus,t2(t1(1t,)-t1(2t,))2(t,)cg1t2k1+cg2t2k2t2k(tk1-kg1(t,)-tk2-kg2(t,))2C.
-[LINE#29]Analogously,(1(2t,)-2(2t,))2(t,)=(1(2t,)-2(2t,))2(1(t,)-2(t,))2=((2t)k1g1(2t,)-(2t)k2g2(2t,))2(tk1g1(t,)-tk2g2(t,))2cg1t2k1+cg2t2k2t2k(tk1-kg1(t,)-tk2-kg2(t,))2C.
-[LINE#30] This completes the proof of (i) implies(ii).It remains to prove that (ii) implies (3.3).
+[LINE#40] Thus,t2(t1(1t,)-t1(2t,))2(t,)cg1t2k1+cg2t2k2t2k(tk1-kg1(t,)-tk2-kg2(t,))2C.
+[LINE#41] Analogously,(1(2t,)-2(2t,))2(t,)=(1(2t,)-2(2t,))2(1(t,)-2(t,))2=((2t)k1g1(2t,)-(2t)k2g2(2t,))2(tk1g1(t,)-tk2g2(t,))2cg1t2k1+cg2t2k2t2k(tk1-kg1(t,)-tk2-kg2(t,))2C.
+[LINE#42+43]  This completes the proof of (i) implies(ii).It remains to prove that (ii) implies (3.3).
 0.372	[*A*]This[*R*]completes[*A*]the proof of (i)	context(It remains)	negated: False ,passive: False
 0.078	[*A*]It[*R*]remains[*A*]to prove that (ii) implies (3.3	context()	negated: False ,passive: True
-[LINE#31] We recall that from Lemma 5 in [6], applied to t1 and t2, the estimatet|ti(t,)|c|i(t,)| holds for i=1,2, uniformly in t[0,T] and ||1.
+[LINE#44+45]  We recall that from Lemma 5 in [6], applied to t1 and t2, the estimatet|ti(t,)|c|i(t,)| holds for i=1,2, uniformly in t[0,T] and ||1.
 0.096	[*A*]We[*R*]recall[*A*]that	context()	negated: False ,passive: False
 0.189	[*A*]We[*R*]recall |[*A*]| 1	context(We recall)	negated: False ,passive: False
 0.189	[*A*]We[*R*]recall[*A*]| | 1	context()	negated: False ,passive: False
 0.195	[*A*]We[*R*]recall uniformly	context()	negated: False ,passive: False
-[LINE#32]Then, under the hypothesis (ii) we gett2|(t,)|=t2(t1(t,)+2(t,))22t2(t1(t,))2+2t2(t2(t,))2c12(t,)+c22(t,)M(1(t,)-2(t,))2=M(t,).
+[LINE#46] Then, under the hypothesis (ii) we gett2|(t,)|=t2(t1(t,)+2(t,))22t2(t1(t,))2+2t2(t2(t,))2c12(t,)+c22(t,)M(1(t,)-2(t,))2=M(t,).
 0.639	[*A*]we[*R*]gett2[*A*]|[*A*]Then[*A*]under the hypothesis	context()	negated: False ,passive: False
-[LINE#33]Finally, from (5.1) we conclude that |(t,)|C(t,).
+[LINE#47] Finally, from (5.1) we conclude that |(t,)|C(t,).
 0.302	[*A*]we[*R*]conclude[*A*]Finally	context()	negated: False ,passive: False
-[LINE#34]We assume now for simplicity that the lower order terms in (1.1) are real-valued.
+[LINE#48] We assume now for simplicity that the lower order terms in (1.1) are real-valued.
 0.776	[*A*]the lower order terms in (1.1[*R*]are[*A*]real-valued	context(We assume)	negated: False ,passive: True
 0.271	[*A*]We[*R*]assume[*A*]now[*A*]that the lower order terms in (1.1) are real-valued	context()	negated: False ,passive: False
-[LINE#35] We want to compare the Levi condition in (4.11) with the corresponding Levi condition introduced in [6], which assumes(5.6)|bj(t,)|2cqjj(t,),j=1,.
+[LINE#49]  We want to compare the Levi condition in (4.11) with the corresponding Levi condition introduced in [6], which assumes(5.6)|bj(t,)|2cqjj(t,),j=1,.
 0.443	[*A*]We[*R*]want to compare[*A*]the Levi condition[*A*]with the corresponding Levi condition	context(We want)	negated: False ,passive: False
 0.628	[*A*]We[*R*]want[*A*]to compare the Levi condition in (4.11) with the corresponding Levi condition	context()	negated: False ,passive: False
 0.302	[*A*]6[*R*]assumes[*A*]5.6)|bj	context()	negated: False ,passive: False
 0.844	[*A*]the corresponding Levi condition[*R*]introduced[*A*]in [6	context()	negated: False ,passive: True
-[LINE#36]In general (5.6) is weaker than (4.11), in the sense that (4.11) implies (5.6).
+[LINE#50] In general (5.6) is weaker than (4.11), in the sense that (4.11) implies (5.6).
 0.229	[*A*]4.11[*R*]implies	context()	negated: False ,passive: False
 0.440	[*A*]5.6[*R*]is[*A*]weaker than (4.11), in the sense that (4.11) implies (5.6	context()	negated: False ,passive: True
-[LINE#37]However, for the second order equations we have: Proposition 5.2Let m=2.
+[LINE#51] However, for the second order equations we have: Proposition 5.2Let m=2.
 0.903	[*A*]the second order equations[*R*]have[*A*]we	context()	negated: False ,passive: True
-[LINE#38]If the roots 1,2 fulfil(5.7)12(t,)+22(t,)M(1(t,)-2(t,))2,t[a,b],||1, then the Levi condition (5.6) is equivalent to(5.8)|(q12b2-b1q22)(t,)|2c(t,) for t[a,b] and ||1.
+[LINE#52] If the roots 1,2 fulfil(5.7)12(t,)+22(t,)M(1(t,)-2(t,))2,t[a,b],||1, then the Levi condition (5.6) is equivalent to(5.8)|(q12b2-b1q22)(t,)|2c(t,) for t[a,b] and ||1.
 0.908	[*A*]the Levi condition[*R*]is[*A*]equivalent to ( 5.8[*A*]| 1[*A*]then	context()	negated: False ,passive: True
-[LINE#39]ProofWe recall that in this case the symmetriser is given by the matrixQ=(12+22-1-2-1-22).
+[LINE#53] ProofWe recall that in this case the symmetriser is given by the matrixQ=(12+22-1-2-1-22).
 0.941	[*A*]the symmetriser[*R*]is given[*A*]by the matrixQ=[*A*]in this case	context(ProofWe recall)	negated: False ,passive: True
 0.866	[*A*]ProofWe[*R*]recall[*A*]that in this case the symmetriser is given by the matrixQ=	context()	negated: False ,passive: False
-[LINE#40]From (5.7) it is clear that (t,) is equivalent to 12(t,)+22(t,).
-[LINE#41]We begin by writing|2b1(t,)|2|q22(t,)b1(t,)-q12(t,)b2(t,)+q12(t,)b2(t,)|22|q22(t,)b1(t,)-q12(t,)b2(t,)|2+2|q12(t,)b2(t,)|2.
+[LINE#54] From (5.7) it is clear that (t,) is equivalent to 12(t,)+22(t,).
+[LINE#55] We begin by writing|2b1(t,)|2|q22(t,)b1(t,)-q12(t,)b2(t,)+q12(t,)b2(t,)|22|q22(t,)b1(t,)-q12(t,)b2(t,)|2+2|q12(t,)b2(t,)|2.
 0.443	[*A*]We[*R*]begin by writing[*A*]|2b1	context(We begin)	negated: False ,passive: False
 0.162	[*A*]We[*R*]begin	context()	negated: False ,passive: False
-[LINE#42]Using the definition of the entries of Q given above, the fact that  is equivalent to 12+22 and the boundedness of b2, we obtain under the assumption (5.8) that|b1(t,)|2c((t,)+(1(t,)+2(t,))2)c(12(t,)+22(t,))=cq11(t,).
+[LINE#56] Using the definition of the entries of Q given above, the fact that  is equivalent to 12+22 and the boundedness of b2, we obtain under the assumption (5.8) that|b1(t,)|2c((t,)+(1(t,)+2(t,))2)c(12(t,)+22(t,))=cq11(t,).
 0.271	[*A*]we[*R*]obtain[*A*]that | b1 ( t , ) | 2c ( ( +22 ( t , ) ) =cq11	context()	negated: False ,passive: False
 0.157	[*A*]we[*R*]obtain	context()	negated: False ,passive: False
 0.069	[*A*]that[*R*]is[*A*]equivalent to 12+22	context()	negated: False ,passive: True
 0.900	[*A*]the entries of Q[*R*]given[*A*]above the fact that is equivalent to 12+22 and the boundedness of b2	context()	negated: False ,passive: True
-[LINE#43]This shows that (5.8) implies (5.6) for j=1.
+[LINE#57] This shows that (5.8) implies (5.6) for j=1.
 0.403	[*A*]5.8[*R*]implies[*A*]5.6) for j=1	context(This shows)	negated: False ,passive: False
 0.277	[*A*]This[*R*]shows[*A*]that (5.8) implies (5.6) for j=1	context()	negated: False ,passive: False
-[LINE#44]For j=2 condition (5.6) means |b2(t,)|C which is trivially satisfied.
+[LINE#58] For j=2 condition (5.6) means |b2(t,)|C which is trivially satisfied.
 0.632	[*A*]C[*R*]is[*A*]trivially satisfied	context()	negated: False ,passive: True
 0.897	[*A*]For j=2 condition[*R*]means[*A*]|b2(t,)|C	context()	negated: False ,passive: True
-[LINE#45]Conversely, if (5.6) holds then|q22(t,)b1(t,)-q12(t,)b2(t,)|22|q22(t,)b1(t,)|2+2|q12(t,)b2(t,)|2c(q11(t,)+q122(t,))c(12(t,)+22(t,)), which implies that (5.8) is valid.
+[LINE#59] Conversely, if (5.6) holds then|q22(t,)b1(t,)-q12(t,)b2(t,)|22|q22(t,)b1(t,)|2+2|q12(t,)b2(t,)|2c(q11(t,)+q122(t,))c(12(t,)+22(t,)), which implies that (5.8) is valid.
 0.267	[*A*]5.8[*R*]is[*A*]valid	context(+22 implies)	negated: False ,passive: True
 0.909	[*A*]t , ) +22 ( t , ) ) , which implies that ( 5.8[*R*]is[*A*]valid	context(+22 implies)	negated: False ,passive: True
 0.415	[*A*]+22[*R*]implies[*A*]that ( 5.8 ) is valid	context()	negated: False ,passive: False
 0.682	[*A*]5.6[*R*]holds[*A*]then[*A*]q22 ( t , ) b1 ( t , ) - q12 ( t , ) b2 ( t , ) | 22 | q22 ( t , ) t	context()	negated: False ,passive: False
-[LINE#46] so (4.11)(5.8)(5.6) under the assumption on the roots.
-[LINE#47]Proposition 5.2 also shows that the Levi conditions on the lower order terms can be improved by making use of the hypothesis (3.3).
+[LINE#60]  so (4.11)(5.8)(5.6) under the assumption on the roots.
+[LINE#61] Proposition 5.2 also shows that the Levi conditions on the lower order terms can be improved by making use of the hypothesis (3.3).
 0.836	[*A*]the Levi conditions on the lower order terms[*R*]can be improved	context(Proposition 5.2 shows)	negated: False ,passive: False
 0.885	[*A*]Proposition 5.2[*R*]shows[*A*]that the Levi conditions on the lower order terms can be improved by making use of the hypothesis	context()	negated: False ,passive: False
-[LINE#48]This requires a precise knowledge of the relation between the roots of the equation and the check function .
+[LINE#62] This requires a precise knowledge of the relation between the roots of the equation and the check function .
 0.497	[*A*]This[*R*]requires[*A*]a precise knowledge of the relation between the roots of the equation and the check function	context()	negated: False ,passive: False
-[LINE#49]In this note we study the Cauchy problem(1.1){M(t,Dt,Dx)u(t,x)=0,(t,x)(,T+)Rn,Dtju(t0,x)=gj(x),j=0,,m-1, where t0(,T+), the equationM(t,Dt,Dx)uDtmu-1jm,||ja,j(t)Dtm-jDxu=0 is hyperbolic with t-dependent coefficients, analytic in the principal part, and continuous in the lower order terms.
+[LINE#63] In this note we study the Cauchy problem(1.1){M(t,Dt,Dx)u(t,x)=0,(t,x)(,T+)Rn,Dtju(t0,x)=gj(x),j=0,,m-1, where t0(,T+), the equationM(t,Dt,Dx)uDtmu-1jm,||ja,j(t)Dtm-jDxu=0 is hyperbolic with t-dependent coefficients, analytic in the principal part, and continuous in the lower order terms.
 0.586	[*A*]we[*R*]study[*A*]the Cauchy problem[*A*]In this note	context(ja , j ( t ) Dtm - jDxu=0 is)	negated: False ,passive: False
 0.977	[*A*]ja , j ( t ) Dtm-jDxu=0[*R*]is[*A*]hyperbolic with t - dependent coefficients , analytic in the principal part	context()	negated: False ,passive: True
 0.993	[*A*]M ( t , Dt , Dx ) u ( t , x ) =0 , ( t , x ) ( , T+ ) , j ( t[*R*]is[*A*]hyperbolic with continuous[*A*]in the lower order terms	context(we study)	negated: False ,passive: True
@@ -163,134 +163,134 @@
 0.949	[*A*]Dtm-jDxu=0[*R*]is[*A*]hyperbolic with continuous in the lower order terms	context()	negated: False ,passive: True
 0.967	[*A*]Dtm-jDxu=0[*R*]is[*A*]hyperbolic with t - dependent coefficients , analytic in the principal part	context()	negated: False ,passive: True
 0.639	[*A*]we[*R*]study[*A*]the Cauchy problem[*A*]In this note	context()	negated: False ,passive: False
-[LINE#50]Equations of the form (1.1) have been extensively studied in the literature.
+[LINE#64] Equations of the form (1.1) have been extensively studied in the literature.
 0.905	[*A*]Equations of the form[*R*]have been extensively studied[*A*]in the literature	context()	negated: False ,passive: True
-[LINE#51] (1.1) is strictly hyperbolic and its coefficients are in the Hlder class, a,jC, 0 <1, it was shown by the authors in [5, Remark 8]that the Cauchy problem (1.1) is well-posed in Gevrey classes Gs(Rn) provided that 1s<1+1- (if =1, it is sufficient to assume the Lipschitz continuity of coefficients to get the well-posedness in Gs for all s1).
+[LINE#65+66+67]  (1.1) is strictly hyperbolic and its coefficients are in the Hlder class, a,jC, 0 <1, it was shown by the authors in [5, Remark 8]that the Cauchy problem (1.1) is well-posed in Gevrey classes Gs(Rn) provided that 1s<1+1- (if =1, it is sufficient to assume the Lipschitz continuity of coefficients to get the well-posedness in Gs for all s1).
 0.629	[*A*]its coefficients[*R*]are[*A*]in the Hlder class	context(it was shown)	negated: False ,passive: True
 0.274	[*A*]1.1[*R*]is[*A*]strictly hyperbolic	context(it was shown)	negated: False ,passive: True
 0.397	[*A*]it[*R*]was shown[*A*]by the authors in [ 5	context()	negated: False ,passive: True
 0.568	[*A*]it[*R*]is[*A*]sufficient to assume the Lipschitz continuity of coefficients	context()	negated: False ,passive: True
-[LINE#52]This extended to the general setting the results for certain second order equations by Colombini, de Giorgi and Spagnolo [1] who have also shown that the Gevrey index above is sharp.
+[LINE#68] This extended to the general setting the results for certain second order equations by Colombini, de Giorgi and Spagnolo [1] who have also shown that the Gevrey index above is sharp.
 0.847	[*A*]the Gevrey index above[*R*]is[*A*]sharp	context(1 have shown)	negated: False ,passive: True
 0.103	[*A*]1[*R*]have shown[*A*]that the Gevrey index above is sharp	context()	negated: False ,passive: False
 0.918	[*A*]the general[*R*]setting[*A*]the results[*A*]for certain second order equations by de Giorgi	context()	negated: False ,passive: False
 0.903	[*A*]the general[*R*]setting[*A*]the results[*A*]for certain second order equations	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]extended[*A*]to the general	context()	negated: False ,passive: True
-[LINE#53]A result for differential systems was proved in [7].
+[LINE#69] A result for differential systems was proved in [7].
 0.993	[*A*]A result for differential systems[*R*]was proved in[*A*]7 ]	context()	negated: False ,passive: False
 0.814	[*A*]A result for differential systems[*R*]was proved[*A*]in [7	context()	negated: False ,passive: True
-[LINE#54]We also refer to [5, Remark 16] for the Gevrey-Beurling ultradistributional well-posedness for 1s1+1-.
+[LINE#70] We also refer to [5, Remark 16] for the Gevrey-Beurling ultradistributional well-posedness for 1s1+1-.
 0.197	[*A*]We[*R*]refer[*A*]to [5	context()	negated: False ,passive: False
-[LINE#55] Equations with higher regularity a,jCkand lower order terms have been considered by Kinoshita and Spagnolo in [11] and by the authors in [6] in the Gevrey classes, yielding also the well-posedness in C in the case when the coefficients a,j of the principal part, ||=j, are analytic.
+[LINE#71+72]  Equations with higher regularity a,jCkand lower order terms have been considered by Kinoshita and Spagnolo in [11] and by the authors in [6] in the Gevrey classes, yielding also the well-posedness in C in the case when the coefficients a,j of the principal part, ||=j, are analytic.
 0.943	[*A*]lower order terms[*R*]have been considered[*A*]by the authors in [ 6 ] in the Gevrey classes	context()	negated: False ,passive: True
 0.993	[*A*]lower order terms[*R*]have been considered in[*A*]11 ]	context()	negated: False ,passive: False
 0.845	[*A*]the coefficients a , j of the principal part[*R*]are[*A*]analytic	context()	negated: False ,passive: True
-[LINE#56]There are also previous works on second and higher order equations using the quasisymmetrisers, see e.g. [4].
+[LINE#73] There are also previous works on second and higher order equations using the quasisymmetrisers, see e.g. [4].
 0.932	[*A*]previous works on higher order equations[*R*]using[*A*]the quasisymmetrisers	context()	negated: False ,passive: False
 0.932	[*A*]previous works on second order equations[*R*]using[*A*]the quasisymmetrisers	context()	negated: False ,passive: False
-[LINE#57]In [6], the assumptions on (1.1) have been formulated in terms of the characteristic roots while the Levi conditions on lower order terms can be expressed in terms of the coefficients of the operator M.
+[LINE#74] In [6], the assumptions on (1.1) have been formulated in terms of the characteristic roots while the Levi conditions on lower order terms can be expressed in terms of the coefficients of the operator M.
 0.857	[*A*]the Levi conditions on lower order terms[*R*]can be expressed	context()	negated: False ,passive: False
 0.961	[*A*]the assumptions on[*R*]have been formulated[*A*]while the Levi conditions on lower order terms can be expressed in terms of the coefficients of the operator[*A*]In [6	context()	negated: False ,passive: True
-[LINE#58]In addition, the quasisymmetriser has been used in [6] while here we use the symmetriser.
+[LINE#75] In addition, the quasisymmetriser has been used in [6] while here we use the symmetriser.
 0.595	[*A*]we[*R*]use[*A*]the symmetriser[*A*]here	context()	negated: False ,passive: False
 0.835	[*A*]the quasisymmetriser[*R*]has been used[*A*]in [6[*A*]while here we use the symmetriser	context()	negated: False ,passive: True
-[LINE#59]We refer to [5] and [6] for a review of the existing literature for this problem.
+[LINE#76] We refer to [5] and [6] for a review of the existing literature for this problem.
 0.569	[*A*]We[*R*]refer[*A*]to [ 6[*A*]for a review of the existing literature for this problem	context()	negated: False ,passive: False
 0.569	[*A*]We[*R*]refer[*A*]to [ 5[*A*]for a review of the existing literature for this problem	context()	negated: False ,passive: False
-[LINE#60]Recently, Jannelli and Taglialatela [10] treated Eq.
+[LINE#77] Recently, Jannelli and Taglialatela [10] treated Eq.
 0.954	[*A*]Taglialatela[*R*]treated[*A*]Eq[*A*]Recently	context()	negated: False ,passive: False
 0.961	[*A*]Jannelli[*R*]treated[*A*]Eq[*A*]Recently	context()	negated: False ,passive: False
-[LINE#61] (1.1) with analytic coefficients, without lower order terms, proving the C well-posedness under assumptions that can be expressed entirely in terms of the coefficients of the operator.
+[LINE#78]  (1.1) with analytic coefficients, without lower order terms, proving the C well-posedness under assumptions that can be expressed entirely in terms of the coefficients of the operator.
 0.677	[*A*]assumptions[*R*]can be expressed entirely	context()	negated: False ,passive: False
-[LINE#62]M. The purpose of this note is to show how to extend this to include lower order terms with Levi conditions still formulated in terms of the coefficients of M.
+[LINE#79] M. The purpose of this note is to show how to extend this to include lower order terms with Levi conditions still formulated in terms of the coefficients of M.
 0.870	[*A*]Levi conditions[*R*]formulated[*A*]still	context()	negated: False ,passive: True
 0.853	[*A*]The purpose of this note[*R*]is[*A*]to show how to extend this	context()	negated: False ,passive: True
-[LINE#63]This will be achieved in this paper by doing a different reduction of (1.1) to the first order system which will allow us to include the lower order terms in the energy.
+[LINE#80] This will be achieved in this paper by doing a different reduction of (1.1) to the first order system which will allow us to include the lower order terms in the energy.
 0.388	[*A*]us[*R*]to include[*A*]the lower order terms in the energy	context(the first order system will allow)	negated: False ,passive: False
 0.865	[*A*]the first order system[*R*]will allow[*A*]us to include the lower order terms in the energy	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]will be achieved[*A*]in this paper	context()	negated: False ,passive: True
-[LINE#64]Indeed, in the case of the homogeneous operators, the reduction used in [10], analogous to the one used by Colombini and Kinoshita in [2], was done to a system which is homogeneous of order one in .
+[LINE#81] Indeed, in the case of the homogeneous operators, the reduction used in [10], analogous to the one used by Colombini and Kinoshita in [2], was done to a system which is homogeneous of order one in .
 0.918	[*A*]the one[*R*]used[*A*]by Kinoshita[*A*]in [ 2	context()	negated: False ,passive: True
 0.913	[*A*]a system[*R*]is[*A*]homogeneous of order one in	context()	negated: False ,passive: True
 0.974	[*A*]the reduction used in [ 10 ] , analogous to the one[*R*]was done[*A*]to a system[*A*]in the case of the homogeneous operators	context()	negated: False ,passive: True
 0.918	[*A*]the one[*R*]used[*A*]by Colombini[*A*]in [ 2	context()	negated: False ,passive: True
-[LINE#65]Such a reduction cannot be used in the present context because the lower order terms introduce singularities in the symbols at =0.
+[LINE#82] Such a reduction cannot be used in the present context because the lower order terms introduce singularities in the symbols at =0.
 0.919	[*A*]the lower order terms[*R*]introduce[*A*]singularities[*A*]in the symbols at =0	context()	negated: False ,passive: False
 0.943	[*A*]Such a reduction[*R*]can not be used[*A*]in the present context[*A*]because the lower order terms introduce singularities in the symbols at =0	context()	negated: True ,passive: True
-[LINE#66]Instead, by employing a reduction to a pseudo-differential system, also used in [5], we are able to avoid such singularities.
+[LINE#83] Instead, by employing a reduction to a pseudo-differential system, also used in [5], we are able to avoid such singularities.
 0.411	[*A*]we[*R*]to avoid[*A*]such singularities	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]are[*A*]able to avoid such singularities	context()	negated: False ,passive: True
 0.788	[*A*]a pseudo-differential system[*R*]used[*A*]in [5	context()	negated: False ,passive: True
-[LINE#67]Thus, the analysis in this note is based on a reduction from [5] combined with a number of results from [10], with a subsequent treatment of lower order terms in the energy under Levi conditions introduced below.
+[LINE#84] Thus, the analysis in this note is based on a reduction from [5] combined with a number of results from [10], with a subsequent treatment of lower order terms in the energy under Levi conditions introduced below.
 0.788	[*A*]Levi conditions[*R*]introduced below	context()	negated: False ,passive: False
 0.926	[*A*]the analysis in this note[*R*]is based[*A*]on a reduction from [5	context()	negated: False ,passive: True
-[LINE#68]An interesting feature is that the C well-posedness holds for analytic coefficients in the principal part and lower order terms which are only continuous.
+[LINE#85] An interesting feature is that the C well-posedness holds for analytic coefficients in the principal part and lower order terms which are only continuous.
 0.947	[*A*]the C well - posedness[*R*]holds[*A*]for analytic coefficients in the lower order terms	context(An interesting feature is)	negated: False ,passive: False
 0.885	[*A*]An interesting feature[*R*]is[*A*]that the C well - posedness holds for analytic coefficients in the lower order terms	context()	negated: False ,passive: True
 0.771	[*A*]the lower order terms[*R*]are[*A*]only continuous	context()	negated: False ,passive: True
 0.947	[*A*]the C well - posedness[*R*]holds[*A*]for analytic coefficients in the principal part	context(An interesting feature is)	negated: False ,passive: False
 0.885	[*A*]An interesting feature[*R*]is[*A*]that the C well - posedness holds for analytic coefficients in the principal part	context()	negated: False ,passive: True
-[LINE#69]We also give a result for bounded (and possibly discontinuous) lower order terms.
+[LINE#86] We also give a result for bounded (and possibly discontinuous) lower order terms.
 0.528	[*A*]We[*R*]give[*A*]a result for bounded possibly discontinuous ) lower order terms	context()	negated: False ,passive: False
 0.411	[*A*]We[*R*]give[*A*]a result for bounded ( lower order terms	context()	negated: False ,passive: False
-[LINE#70]Our main point in this note is to demonstrate that by applying a different reduction to a system one can handle lower order terms in the energy estimates.
+[LINE#87] Our main point in this note is to demonstrate that by applying a different reduction to a system one can handle lower order terms in the energy estimates.
 0.616	[*A*]one[*R*]can handle[*A*]lower order terms[*A*]in the energy estimates	context()	negated: False ,passive: False
 0.669	[*A*]Our main point in this note[*R*]is[*A*]to demonstrate that by applying a different reduction to a system	context()	negated: False ,passive: True
-[LINE#71] For specific equations (e.g. second order equations)this result can be improved by other methods, but this lies outside our scope here.
+[LINE#88+89]  For specific equations (e.g. second order equations)this result can be improved by other methods, but this lies outside our scope here.
 0.250	[*A*]this[*R*]lies[*A*]outside our scope here	context()	negated: False ,passive: True
 0.943	[*A*]this result[*R*]can be improved[*A*]by other methods[*A*]For specific equations	context()	negated: False ,passive: True
-[LINE#72]In [1], Colombini, de Giorgi and Spagnolo, and in [3], Colombini and Spagnolo gave examples of second order equations with time-dependent coefficients which are not distributionally well-posed.
+[LINE#90] In [1], Colombini, de Giorgi and Spagnolo, and in [3], Colombini and Spagnolo gave examples of second order equations with time-dependent coefficients which are not distributionally well-posed.
 0.953	[*A*]Spagnolo[*R*]gave[*A*]examples of second order equations[*A*]In [ 1[*A*]in [ 3	context()	negated: False ,passive: False
 0.953	[*A*]Colombini[*R*]gave[*A*]examples of second order equations[*A*]In [ 1[*A*]in [ 3	context()	negated: False ,passive: False
 0.953	[*A*]Spagnolo[*R*]gave[*A*]examples of second order equations[*A*]in [ 3	context()	negated: False ,passive: False
 0.766	[*A*]time - dependent coefficients[*R*]are not posed[*A*]distributionally	context()	negated: True ,passive: True
 0.953	[*A*]Colombini[*R*]gave[*A*]examples of second order equations[*A*]in [ 3	context()	negated: False ,passive: False
-[LINE#73]In this paper, we also prove the distributional well-posedness of (1.1) in our setting.
+[LINE#91] In this paper, we also prove the distributional well-posedness of (1.1) in our setting.
 0.403	[*A*]we[*R*]prove[*A*]the distributional well-posedness of (1.1[*A*]in our setting[*A*]In this paper	context()	negated: False ,passive: False
-[LINE#74]In Section 2 we introduce the notations and recall the results of [10].
+[LINE#92] In Section 2 we introduce the notations and recall the results of [10].
 0.595	[*A*]we[*R*]introduce[*A*]the notations[*A*]In Section 2	context()	negated: False ,passive: False
-[LINE#75]In Section 3 we give our results.
+[LINE#93] In Section 3 we give our results.
 0.444	[*A*]we[*R*]give[*A*]our results[*A*]In Section 3	context()	negated: False ,passive: False
-[LINE#76]In Section 4 we give the proofs, and in Section 5 we analyse the meaning of the assumptions on both the principal part and lower order terms, and compare the obtained results with those in [6].
+[LINE#94] In Section 4 we give the proofs, and in Section 5 we analyse the meaning of the assumptions on both the principal part and lower order terms, and compare the obtained results with those in [6].
 0.702	[*A*]we[*R*]analyse[*A*]the meaning of the assumptions on both the lower order terms[*A*]in Section 5	context()	negated: False ,passive: False
 0.702	[*A*]we[*R*]analyse[*A*]the meaning of the assumptions on both the principal part[*A*]in Section 5	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]give[*A*]the proofs[*A*]In Section 4	context()	negated: False ,passive: False
-[LINE#77] We begin by recalling the theorem proved in [10] for the Cauchy problem(2.1){L(t,t,x)u(t,x)=0,for (t,x)(,T+)Rn,tju(t0,x)=gj(x),for xRn,j=0,,m-1, where t0(,T+), andL(t,t,x)u(t,x)=tmu(t,x)-1jm,||=ja,j(t)tm-jxu(t,x) is homogeneous of order m.
+[LINE#95+96]  We begin by recalling the theorem proved in [10] for the Cauchy problem(2.1){L(t,t,x)u(t,x)=0,for (t,x)(,T+)Rn,tju(t0,x)=gj(x),for xRn,j=0,,m-1, where t0(,T+), andL(t,t,x)u(t,x)=tmu(t,x)-1jm,||=ja,j(t)tm-jxu(t,x) is homogeneous of order m.
 0.560	[*A*]We[*R*]begin by recalling[*A*]the theorem proved in [ 10 ] for the Cauchy problem ( 2.1 ) { L ( t , t , x ) u ( t , x ) =0 , for ( t , x ) j=0 ,, m - 1 , where t0 ( , T+ ) , andL ( t , t , x ) u ( t , x ) =tmu ( t , x ) - 1jm , | | =ja , j ( t ) tm - jxu ( t , x ) is homogeneous of order m.	context(We begin)	negated: False ,passive: False
 0.560	[*A*]We[*R*]begin by recalling[*A*]the theorem proved in [ 10 ] for the Cauchy problem ( 2.1 ) { L ( t , t , x ) u ( t , x ) =0 , for ( t , x ) tju ( t0 , where t0 ( , T+ ) , andL ( t , t , x ) u ( t , x ) =tmu ( t , x ) - 1jm , | | =ja , j ( t ) tm - jxu ( t , x ) is homogeneous of order m.	context(We begin)	negated: False ,passive: False
 0.560	[*A*]We[*R*]begin by recalling[*A*]the theorem proved in [ 10 ] for the Cauchy problem ( 2.1 ) { L ( t , t , x ) u ( t , x ) =0 , for ( t , x ) ( ,	context(We begin)	negated: False ,passive: False
 0.397	[*A*]We[*R*]begin[*A*]by recalling the theorem	context()	negated: False ,passive: False
 0.830	[*A*]t[*R*]is[*A*]homogeneous of order m.	context()	negated: False ,passive: True
 0.918	[*A*]the theorem[*R*]proved[*A*]in [ 10[*A*]for the Cauchy problem	context()	negated: False ,passive: True
-[LINE#78]This requires some preliminary notions which are collected in the sequel.
+[LINE#97] This requires some preliminary notions which are collected in the sequel.
 0.897	[*A*]some preliminary notions[*R*]are collected[*A*]in the sequel	context()	negated: False ,passive: True
 0.381	[*A*]This[*R*]requires[*A*]some preliminary notions which are collected in the sequel	context()	negated: False ,passive: False
-[LINE#79])||jm-j be the symbol of i-mL.
+[LINE#98] )||jm-j be the symbol of i-mL.
 0.821	[*A*]jm-j[*R*]be[*A*]the symbol of i-mL	context()	negated: False ,passive: True
-[LINE#80]This is also the principal symbol of M in (1.1).
+[LINE#99] This is also the principal symbol of M in (1.1).
 0.495	[*A*]This[*R*]is[*A*]also[*A*]the principal symbol of M in (1.1	context()	negated: False ,passive: True
-[LINE#81]Let(2.2)A0(t,)=(010000101hmhm-1h1) be the companion matrix of P(t,,/||).
-[LINE#82] By construction the matrix A0(t,) is homogeneous of oder zero in , and the eigenvalues of A0(t, )|| are the characteristic roots 1(t,),,m(t,) of P(t,, the moment let us fix t(,T+)and  so that P is a polynomial in  with constant coefficients.
+[LINE#100] Let(2.2)A0(t,)=(010000101hmhm-1h1) be the companion matrix of P(t,,/||).
+[LINE#101+102+103+104]  By construction the matrix A0(t,) is homogeneous of oder zero in , and the eigenvalues of A0(t, )|| are the characteristic roots 1(t,),,m(t,) of P(t,, the moment let us fix t(,T+)and  so that P is a polynomial in  with constant coefficients.
 0.513	[*A*]us[*R*]fix[*A*]t[*A*]T+	context(the moment let)	negated: False ,passive: False
 0.330	[*A*]|[*R*]are[*A*]the characteristic roots 1	context(the moment let)	negated: False ,passive: True
 0.513	[*A*]us[*R*]fix[*A*]t[*A*]T+	context(the moment let)	negated: False ,passive: False
 0.503	[*A*]us[*R*]fix[*A*]t[*A*]T+	context(the moment let)	negated: False ,passive: False
 0.861	[*A*]the moment[*R*]let[*A*]us fix t ( , T+	context()	negated: False ,passive: False
-[LINE#83]In [8] Jannelli constructed a real symmetric mm matrix Q which is weakly positive definite if and only if P is weakly hyperbolic.
+[LINE#105] In [8] Jannelli constructed a real symmetric mm matrix Q which is weakly positive definite if and only if P is weakly hyperbolic.
 0.939	[*A*]a real symmetric mm matrix Q[*R*]is[*A*]weakly positive definite[*A*]if and only if P is weakly hyperbolic	context()	negated: False ,passive: True
 0.970	[*A*]Jannelli[*R*]constructed[*A*]a real symmetric mm matrix Q which is weakly positive definite[*A*]In [8	context()	negated: False ,passive: False
-[LINE#84] This Q is called the standard symmetriser of P. Note that the entries of Q are fixed polynomials functions of h1,.
+[LINE#106]  This Q is called the standard symmetriser of P. Note that the entries of Q are fixed polynomials functions of h1,.
 0.756	[*A*]This Q[*R*]Note[*A*]that the entries of Q are fixed polynomials functions of h1	context()	negated: False ,passive: False
 0.887	[*A*]This Q[*R*]is called[*A*]the standard symmetriser of P.	context()	negated: False ,passive: True
-[LINE#85]Let Qj be the principal jj minor of Q obtained by removing the first m-j rows and columns of Q and let j its determinant.
+[LINE#107] Let Qj be the principal jj minor of Q obtained by removing the first m-j rows and columns of Q and let j its determinant.
 0.845	[*A*]the principal jj minor of Q[*R*]obtained	context()	negated: False ,passive: False
-[LINE#86]we use the notations Q and  instead of Qm and m.
+[LINE#108] we use the notations Q and  instead of Qm and m.
 0.195	[*A*]we[*R*]use	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]use[*A*]the notations Q	context()	negated: False ,passive: False
-[LINE#87]The hyperbolicity of P can be seen at the level of the symmetriser Q and of its minors as stated in the following proposition (see [9]).
+[LINE#109] The hyperbolicity of P can be seen at the level of the symmetriser Q and of its minors as stated in the following proposition (see [9]).
 0.860	[*A*]The hyperbolicity of P[*R*]can be seen[*A*]at the level of its minors	context()	negated: False ,passive: True
 0.919	[*A*]The hyperbolicity of P[*R*]can be seen[*A*]at the level of the symmetriser	context()	negated: False ,passive: True
-[LINE#88] Proposition 2.1(i)P is strictly hyperbolic if and only if j>0 for all j=1, ,m.(ii)P is weakly hyperbolic if and only if there exists r<m such that=m-1==r+1=0 and r>0, (In this case there are exactly r distinct roots.)Clearly,when t and  vary in (,T+) and Rn, respectively, r becomes a function r(t,) homogeneous of degree 0 in  and analytic in t.
+[LINE#110+111+112+113+114]  Proposition 2.1(i)P is strictly hyperbolic if and only if j>0 for all j=1, ,m.(ii)P is weakly hyperbolic if and only if there exists r<m such that=m-1==r+1=0 and r>0, (In this case there are exactly r distinct roots.)Clearly,when t and  vary in (,T+) and Rn, respectively, r becomes a function r(t,) homogeneous of degree 0 in  and analytic in t.
 0.920	[*A*]r[*R*]becomes[*A*]a function r ( t , ) homogeneous of degree 0 analytic in[*A*]when vary in Rn	context()	negated: False ,passive: True
 0.920	[*A*]r[*R*]becomes[*A*]a function r ( t , ) homogeneous of degree 0 analytic in[*A*]when vary in ( , T+	context()	negated: False ,passive: True
 0.952	[*A*]Proposition 2.1 ( i ) P[*R*]is[*A*]strictly hyperbolic[*A*]if j > 0 for all j=1 , , m. ( ii ) P is weakly hyperbolic if and only if there exists r < m such that=m - 1 == r > 0 , ( In this case there are exactly r distinct roots	context(r becomes)	negated: False ,passive: True
@@ -321,50 +321,50 @@
 0.875	[*A*]r[*R*]becomes[*A*]a function r ( t , ) homogeneous of degree 0 in	context()	negated: False ,passive: True
 0.945	[*A*]m. ( ii ) P[*R*]is[*A*]weakly hyperbolic if and only if there exists r < m such that=m - 1 == r+1=0 > 0 , ( In this case there are exactly r distinct roots . ) Clearly , when t , respectively , r becomes a function r ( t , ) homogeneous of degree 0 in t.	context()	negated: False ,passive: True
 0.897	[*A*]Proposition 2.1 ( i ) P[*R*]is[*A*]strictly hyperbolic	context()	negated: False ,passive: True
-[LINE#89]When r is not identically zero one can define the functionr(t,)=r(t,)+(tr(t,))2r(t,), which is homogeneous of degree 0 in  as well, analytic on the interval (,T+).
+[LINE#115] When r is not identically zero one can define the functionr(t,)=r(t,)+(tr(t,))2r(t,), which is homogeneous of degree 0 in  as well, analytic on the interval (,T+).
 0.605	[*A*]r[*R*]is not[*A*]identically zero	context()	negated: True ,passive: True
 0.616	[*A*]one[*R*]can define[*A*]the functionr	context()	negated: False ,passive: False
 0.791	[*A*]r[*R*]is not[*A*]identically zero one can define the functionr ( t , )	context()	negated: True ,passive: True
-[LINE#90] In addition, the following property holds for  and : if t(t,) vanishes of order 2k at a point t then t(t,) vanishes of order 2k-2 at t.Note that estimating the quotient.
+[LINE#116+117+118]  In addition, the following property holds for  and : if t(t,) vanishes of order 2k at a point t then t(t,) vanishes of order 2k-2 at t.Note that estimating the quotient.
 0.136	[*A*]that[*R*]estimating[*A*]the quotient	context()	negated: False ,passive: False
 0.833	[*A*]the following property[*R*]holds[*A*]for that estimating the quotient	context()	negated: False ,passive: True
-[LINE#91]V/QV,V is equivalent to estimating the roots of the generalised Hamilton-Cayley polynomial(2.4)det(Q-tQ)=j=0mdj(t)m-j of Q and tQ, where d0=detQ, d1=-t(detQ), dm=(-1)mdet(tQ) and, if m2, d2=12trace(tQt(Qco)), where Qco is the cofactor matrix of Q.
+[LINE#119] V/QV,V is equivalent to estimating the roots of the generalised Hamilton-Cayley polynomial(2.4)det(Q-tQ)=j=0mdj(t)m-j of Q and tQ, where d0=detQ, d1=-t(detQ), dm=(-1)mdet(tQ) and, if m2, d2=12trace(tQt(Qco)), where Qco is the cofactor matrix of Q.
 0.918	[*A*]V[*R*]is[*A*]equivalent to estimating the roots of the generalised Hamilton - Cayley polynomial ( 2.4 ) det ( Q - tQ ) =j=0mdj ( t ) m - j of tQ	context()	negated: False ,passive: True
 0.918	[*A*]V[*R*]is[*A*]equivalent to estimating the roots of the generalised Hamilton - Cayley polynomial ( 2.4 ) det ( Q - tQ ) =j=0mdj ( t ) m - j of Q	context()	negated: False ,passive: True
-[LINE#92]We recall that the cofactor of Q is the matrix with entries qijco=(-1)i+jdij, where dij is the determinant of the submatrix obtained from Q by removing the i-th row and the j-th column.
+[LINE#120] We recall that the cofactor of Q is the matrix with entries qijco=(-1)i+jdij, where dij is the determinant of the submatrix obtained from Q by removing the i-th row and the j-th column.
 0.918	[*A*]the submatrix[*R*]obtained[*A*]from Q[*A*]by the j - th column	context()	negated: False ,passive: True
 0.925	[*A*]dij[*R*]is[*A*]the determinant of the submatrix[*A*]- 1 ) i+jdij	context()	negated: False ,passive: True
 0.969	[*A*]the cofactor of Q[*R*]is[*A*]the matrix with entries qijco= ( - 1 ) i+jdij	context(We recall)	negated: False ,passive: True
 0.317	[*A*]We[*R*]recall[*A*]that the cofactor of Q is the matrix with entries qijco= ( - 1 ) i+jdij	context()	negated: False ,passive: False
 0.918	[*A*]the submatrix[*R*]obtained[*A*]from Q	context()	negated: False ,passive: True
 0.852	[*A*]dij[*R*]is[*A*]the determinant of the submatrix	context()	negated: False ,passive: True
-[LINE#93] Finally, from the known identity12++m2=(d1d0)2-2d2d0, valid for the roots j, j=1, ,m, of the generalised Hamilton-Cayley polynomial, we see that d2 plays a fundamental role when one wants to estimate tQV,V/QV,V.
+[LINE#121+122+123]  Finally, from the known identity12++m2=(d1d0)2-2d2d0, valid for the roots j, j=1, ,m, of the generalised Hamilton-Cayley polynomial, we see that d2 plays a fundamental role when one wants to estimate tQV,V/QV,V.
 0.866	[*A*]d1d0)2-2d2d0, valid for the roots[*R*]j	context()	negated: False ,passive: False
 0.552	[*A*]one[*R*]wants to estimate[*A*]tQV	context(one wants)	negated: False ,passive: False
 0.620	[*A*]one[*R*]wants[*A*]to estimate tQV	context()	negated: False ,passive: False
-[LINE#94] We call(t,):=d2(t,) defined as above the check function of Q. Replacing Q with Qj in the definition of d2we define the check function j(t,) of Qj.
+[LINE#124+125]  We call(t,):=d2(t,) defined as above the check function of Q. Replacing Q with Qj in the definition of d2we define the check function j(t,) of Qj.
 0.877	[*A*]Q.[*R*]Replacing[*A*]Q[*A*]with Qj[*A*]in the definition of d2we	context()	negated: False ,passive: False
 0.877	[*A*]=d2[*R*]defined[*A*]as above the check function of Q. Replacing Q with Qj in the definition of d2we	context()	negated: False ,passive: True
 0.243	[*A*]We[*R*]call	context()	negated: False ,passive: False
-[LINE#95]Clearly, j(t,) is homogeneous of order zero in .
+[LINE#126] Clearly, j(t,) is homogeneous of order zero in .
 0.856	[*A*]j(t[*R*]is[*A*]homogeneous of order zero[*A*]in	context()	negated: False ,passive: True
-[LINE#96] is set to be identically zero.
-[LINE#97] We are now ready to state the C well-posedness theorem of Jannelli and Taglialatela given in [10].Sincethe purpose of this note is to describe the possibility of adding lower order terms to L we will avoid long technicalities and will focus on the non-degenerate case, i.e., the case with (,)0 is not identically zero in (,T+).We skip the treatment of the Cauchy problem (2.1) in the degenerate case since it is lengthy but remark that the analysis can be carried out in this case as well along the lines of the analysis of the general case in [6].
+[LINE#127]  is set to be identically zero.
+[LINE#128+129]  We are now ready to state the C well-posedness theorem of Jannelli and Taglialatela given in [10].Sincethe purpose of this note is to describe the possibility of adding lower order terms to L we will avoid long technicalities and will focus on the non-degenerate case, i.e., the case with (,)0 is not identically zero in (,T+).We skip the treatment of the Cauchy problem (2.1) in the degenerate case since it is lengthy but remark that the analysis can be carried out in this case as well along the lines of the analysis of the general case in [6].
 0.903	[*A*]the analysis[*R*]can be carried out[*A*]in this case	context()	negated: False ,passive: True
-[LINE#98] In the present context, it would make use of r(,) and the corresponding check function r(t,), where r=r() is the greatest integersuch that r(,)0 in (,T+).
+[LINE#130+131]  In the present context, it would make use of r(,) and the corresponding check function r(t,), where r=r() is the greatest integersuch that r(,)0 in (,T+).
 0.869	[*A*]r=r[*R*]is[*A*]the greatest integersuch	context()	negated: False ,passive: True
 0.595	[*A*]it[*R*]would make[*A*]use of r[*A*]In the present context	context()	negated: False ,passive: False
-[LINE#99] For more details on these for the case of homogeneous L, see Theorem 1 and Section 3 in [10].Theorem 2.2(See [10].)as in (2.1) be a weakly hyperbolic homogeneous operator with analytic coefficients in (,T+).
-[LINE#100] Let P(t,,) be the characteristic polynomial and A0(t,)the companion matrix of P(t,,/||).
-[LINE#101] Let Q(t,) be its symmetriser and (t,).
-[LINE#102] Assume that there exists a constant C>0 independent of such that(2.5)|(t,)|C(t,) holds for all t[a,b].
+[LINE#132+133]  For more details on these for the case of homogeneous L, see Theorem 1 and Section 3 in [10].Theorem 2.2(See [10].)as in (2.1) be a weakly hyperbolic homogeneous operator with analytic coefficients in (,T+).
+[LINE#134+135]  Let P(t,,) be the characteristic polynomial and A0(t,)the companion matrix of P(t,,/||).
+[LINE#136]  Let Q(t,) be its symmetriser and (t,).
+[LINE#137+138]  Assume that there exists a constant C>0 independent of such that(2.5)|(t,)|C(t,) holds for all t[a,b].
 0.869	[*A*]C[*R*]holds[*A*]for all t	context()	negated: False ,passive: False
-[LINE#103] Then, the Cauchy problem (2.1) is C well-posed in [a,b].We can write condition (2.5) in a different way by introducing the set ()={t1,,tN():(tj,)=0} and the functionZ(t,)={j=1N()|t-tj|if ()={t1,,tN()},1if ()=. Note that by the analyticity of  in t it follows that the function N() is locally bounded (see the proof of Lemma 5 in [6]).
+[LINE#139+140]  Then, the Cauchy problem (2.1) is C well-posed in [a,b].We can write condition (2.5) in a different way by introducing the set ()={t1,,tN():(tj,)=0} and the functionZ(t,)={j=1N()|t-tj|if ()={t1,,tN()},1if ()=. Note that by the analyticity of  in t it follows that the function N() is locally bounded (see the proof of Lemma 5 in [6]).
 0.551	[*A*]it[*R*]follows[*A*]in t	context()	negated: False ,passive: True
 0.555	[*A*]1if[*R*]Note[*A*]that	context()	negated: False ,passive: False
 0.388	[*A*]We[*R*]can write[*A*]condition	context(the Cauchy problem is)	negated: False ,passive: False
 0.963	[*A*]the Cauchy problem[*R*]is[*A*]C well - posed in [ a , b[*A*]Then	context()	negated: False ,passive: True
-[LINE#104] Using again the fact that (t,) is analytic in t and homogeneous of order 0 in  one can prove that there exist constants c1>0 and c2>0 independent of such thatc1(t,)Z2(t,)(t,)c2(t,)Z2(t,), for all t(,T+) and 0.
+[LINE#141+142]  Using again the fact that (t,) is analytic in t and homogeneous of order 0 in  one can prove that there exist constants c1>0 and c2>0 independent of such thatc1(t,)Z2(t,)(t,)c2(t,)Z2(t,), for all t(,T+) and 0.
 0.170	[*A*]Using again the fact homogeneous of order 0 in one[*R*]can prove[*A*]that there exist c2	context()	negated: False ,passive: False
 0.483	[*A*]Using again the fact homogeneous of order 0 in one[*R*]can prove[*A*]that there exist c2 > 0 independent of such thatc1	context()	negated: False ,passive: False
 0.529	[*A*]Using again the fact homogeneous of order 0 in one[*R*]can prove[*A*]that there exist constants c1 > 0 > 0 independent of such thatc1 ( t , ) Z2 ( t	context()	negated: False ,passive: False
@@ -374,35 +374,35 @@
 0.282	[*A*]one[*R*]can prove[*A*]that there exist c2 > 0 independent of such thatc1	context()	negated: False ,passive: False
 0.320	[*A*]one[*R*]can prove[*A*]that there exist constants c1 > 0 > 0 independent of such thatc1 ( t , ) Z2 ( t	context()	negated: False ,passive: False
 0.282	[*A*]one[*R*]can prove[*A*]that there exist constants c1 > 0 > 0 independent of such thatc1	context()	negated: False ,passive: False
-[LINE#105]Hence, (2.5) can be reformulated as follows: there exists a constant C>0 independent of  such that(2.6)Z2(t,)|(t,)|C(t,), for all t[a,b] and 0.
-[LINE#106]This extends to any space dimension the one-dimensional observation of Jannelli and Taglialatela made in [10, p. 1000].
+[LINE#143] Hence, (2.5) can be reformulated as follows: there exists a constant C>0 independent of  such that(2.6)Z2(t,)|(t,)|C(t,), for all t[a,b] and 0.
+[LINE#144] This extends to any space dimension the one-dimensional observation of Jannelli and Taglialatela made in [10, p. 1000].
 0.878	[*A*]the one - dimensional observation of Taglialatela[*R*]made[*A*]in [ 10	context()	negated: False ,passive: False
 0.878	[*A*]the one - dimensional observation of Jannelli[*R*]made[*A*]in [ 10	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]extends[*A*]to any space dimension	context()	negated: False ,passive: True
-[LINE#107] Note that the eigenvalues of the matrix A1=A(t,) are the roots of the characteristic polynomial P(t,,) and that the entries of the matrix A are related to the entries of the matrix A0 in (2.2) by the formula aj(t,)m-j+1=hm-j+1(t,)||m-j+1.
-[LINE#108] Applying the Fourier transform to the system (3.1) we obtain the system(4.1)DtV(t,)=A(t,)V(t,)+B(t,)V(t,),V(t0,)=V0(), where V=FxU and V0=.
-[LINE#109] FxU0.Note that by performing a reduction to a system of pseudo-differential equationsthe symmetriser Q(t,), defined as in [6, Section 3], is a matrix of 0-order symbols which can be expressed in terms of the rescaled roots j(t,)-1 (or eigenvalues of the matrix A).
+[LINE#145+146]  Note that the eigenvalues of the matrix A1=A(t,) are the roots of the characteristic polynomial P(t,,) and that the entries of the matrix A are related to the entries of the matrix A0 in (2.2) by the formula aj(t,)m-j+1=hm-j+1(t,)||m-j+1.
+[LINE#147]  Applying the Fourier transform to the system (3.1) we obtain the system(4.1)DtV(t,)=A(t,)V(t,)+B(t,)V(t,),V(t0,)=V0(), where V=FxU and V0=.
+[LINE#148+149]  FxU0.Note that by performing a reduction to a system of pseudo-differential equationsthe symmetriser Q(t,), defined as in [6, Section 3], is a matrix of 0-order symbols which can be expressed in terms of the rescaled roots j(t,)-1 (or eigenvalues of the matrix A).
 0.855	[*A*]t[*R*]defined[*A*]as in [ 6 , Section 3 ] , is a matrix of 0 - order symbols which can be expressed in terms of the rescaled roots j ( t	context()	negated: False ,passive: True
 0.737	[*A*]0 - order symbols[*R*]can be expressed	context()	negated: False ,passive: False
 0.913	[*A*]Section 3[*R*]is[*A*]a matrix of 0 - order symbols	context()	negated: False ,passive: True
-[LINE#110] More precisely, the entries qij of the symmetriser Q(t,) are polynomials in 1-1,.
-[LINE#111] Making use of the concept of the Bezout matrix associated to the couple of polynomials (P,P) it is also possible to express the entries of the symmetriser in terms of the coefficients hj,.
+[LINE#150]  More precisely, the entries qij of the symmetriser Q(t,) are polynomials in 1-1,.
+[LINE#151+152]  Making use of the concept of the Bezout matrix associated to the couple of polynomials (P,P) it is also possible to express the entries of the symmetriser in terms of the coefficients hj,.
 0.788	[*A*]the couple of polynomials[*R*]hj	context()	negated: False ,passive: False
 0.278	[*A*]it[*R*]is[*A*]also[*A*]possible	context()	negated: False ,passive: True
 0.933	[*A*]the Bezout matrix[*R*]associated[*A*]to the couple of polynomials	context()	negated: False ,passive: True
-[LINE#112]For further details we refer the reader to [10, p. 998].
+[LINE#153] For further details we refer the reader to [10, p. 998].
 0.452	[*A*]we[*R*]refer[*A*]the reader[*A*]to [10	context()	negated: False ,passive: False
-[LINE#113]We begin by proving some basic properties of the symmetriser which will be employed to prove the C well-posedness..
+[LINE#154] We begin by proving some basic properties of the symmetriser which will be employed to prove the C well-posedness..
 0.397	[*A*]We[*R*]begin by proving[*A*]some basic properties of the symmetriser	context(We begin)	negated: False ,passive: False
 0.397	[*A*]We[*R*]begin[*A*]by proving some basic properties of the symmetriser	context()	negated: False ,passive: False
 0.887	[*A*]the symmetriser[*R*]will be employed[*A*]to prove the C	context()	negated: False ,passive: True
-[LINE#114]The symmetriser QIt is useful to make a comparison between the symmetriser Q of the matrix A and the symmetriser Q0 with homogeneous entries of order 0 employed by Jannelli and Taglialatela in [10].
+[LINE#155] The symmetriser QIt is useful to make a comparison between the symmetriser Q of the matrix A and the symmetriser Q0 with homogeneous entries of order 0 employed by Jannelli and Taglialatela in [10].
 0.918	[*A*]order 0[*R*]employed[*A*]by Taglialatela[*A*]in [ 10	context()	negated: False ,passive: True
 0.918	[*A*]order 0[*R*]employed[*A*]by Jannelli[*A*]in [ 10	context()	negated: False ,passive: True
 0.786	[*A*]The symmetriser[*R*]is[*A*]useful	context()	negated: False ,passive: True
-[LINE#115] These two matrices are both symmetric with polynomial entries in 1-1,,m-1and 1||-1,,m||-1, respectively, as defined in [6, Section 3].
+[LINE#156+157]  These two matrices are both symmetric with polynomial entries in 1-1,,m-1and 1||-1,,m||-1, respectively, as defined in [6, Section 3].
 0.909	[*A*]These two matrices[*R*]are respectively[*A*]both symmetric with polynomial entries in 1-1	context()	negated: False ,passive: True
-[LINE#116] By construction, QA-AQ=0 and(4.2)(t,)=1i<jm(j(t,)-1-i(t,)-1)2=-m(m-1)1i<jm(j(t,)-i(t,))2=-m(m-1)||m(m-1)0(t,), where  and 0 are the determinants of Q and Q0, respectively, and 0 is expressed in terms of the 0-homogeneous roots i/||.
+[LINE#158+159]  By construction, QA-AQ=0 and(4.2)(t,)=1i<jm(j(t,)-1-i(t,)-1)2=-m(m-1)1i<jm(j(t,)-i(t,))2=-m(m-1)||m(m-1)0(t,), where  and 0 are the determinants of Q and Q0, respectively, and 0 is expressed in terms of the 0-homogeneous roots i/||.
 0.381	[*A*]0[*R*]are[*A*]the determinants of respectively	context()	negated: False ,passive: True
 0.425	[*A*]0[*R*]are[*A*]the determinants of Q0	context()	negated: False ,passive: True
 0.153	[*A*]0[*R*]are	context()	negated: False ,passive: False
@@ -412,16 +412,16 @@
 0.919	[*A*]the 0 - homogeneous roots[*R*]|[*A*]i	context()	negated: False ,passive: True
 0.153	[*A*]0[*R*]is expressed	context()	negated: False ,passive: False
 0.816	[*A*]t[*R*]are[*A*]the determinants of Q	context()	negated: False ,passive: True
-[LINE#117] The following lemma on symmetric positive semi-definite matrices will be in the sequel applied to Q.Lemma 4.1Let N(t)be any symmetric positive semi-definite matrix with bounded coefficients on an interval [a,b].
+[LINE#160+161]  The following lemma on symmetric positive semi-definite matrices will be in the sequel applied to Q.Lemma 4.1Let N(t)be any symmetric positive semi-definite matrix with bounded coefficients on an interval [a,b].
 0.983	[*A*]the sequel applied to Q.Lemma 4.1Let N(t)[*R*]be[*A*]any symmetric positive semi-definite matrix with bounded coefficients on an interval	context()	negated: False ,passive: True
 0.918	[*A*]the sequel[*R*]applied[*A*]to Q.Lemma 4.1Let N	context()	negated: False ,passive: True
 0.970	[*A*]The following lemma on symmetric positive semi-definite matrices[*R*]will be[*A*]in the sequel applied to Q.Lemma 4.1Let N(t)be any symmetric positive semi-definite matrix with bounded coefficients on an interval	context()	negated: False ,passive: True
-[LINE#118] Then, there exist two positive constants c1 and c2 depending only on the L-norm of the entries of N(t),Vc2|V|2 holds for all t[a,b] and VCm.
+[LINE#162+163]  Then, there exist two positive constants c1 and c2 depending only on the L-norm of the entries of N(t),Vc2|V|2 holds for all t[a,b] and VCm.
 0.945	[*A*]Then , there exist two positive constants c2 depending only on the L - norm of the entries of N ( t[*R*]holds[*A*]for all t VCm	context()	negated: False ,passive: True
 0.934	[*A*]Then , there exist two positive constants c2 depending only on the L - norm of the entries of N ( t[*R*]holds[*A*]for all t	context()	negated: False ,passive: True
 0.945	[*A*]Then , there exist two positive constants c1 depending only on the L - norm of the entries of N ( t[*R*]holds[*A*]for all t VCm	context()	negated: False ,passive: True
 0.934	[*A*]Then , there exist two positive constants c1 depending only on the L - norm of the entries of N ( t[*R*]holds[*A*]for all t	context()	negated: False ,passive: True
-[LINE#119] Since Q(t,) is a positive semi-definite matrix with eigenvalues i(t,), which satisfy symbol estimates of order 0 in  and we can assume them ordered, i.e., 12m , there exists a constant c0>0 such that01(t,)2(t,)m(t,)c0holds for all t[a,b] and Rn.
+[LINE#164+165+166+167]  Since Q(t,) is a positive semi-definite matrix with eigenvalues i(t,), which satisfy symbol estimates of order 0 in  and we can assume them ordered, i.e., 12m , there exists a constant c0>0 such that01(t,)2(t,)m(t,)c0holds for all t[a,b] and Rn.
 0.349	[*A*]i[*R*]satisfy[*A*]symbol estimates of order 0	context(i ( which satisfy symbol estimates of order 0 in and we can assume them ordered , i.e. , 12 m , there exists a constant c0 > c0holds)	negated: False ,passive: False
 0.968	[*A*]i ( which satisfy symbol estimates of order 0 in and we can assume them ordered , i.e. , 12 m , there exists a constant c0 >[*R*]c0holds[*A*]Rn[*A*]m	context()	negated: False ,passive: False
 0.407	[*A*]we[*R*]can assume[*A*]ordered , i.e. , 12 m	context()	negated: False ,passive: False
@@ -432,32 +432,32 @@
 0.157	[*A*]them[*R*]ordered	context(we can assume)	negated: False ,passive: False
 0.256	[*A*]we[*R*]can assume[*A*]them	context()	negated: False ,passive: False
 0.875	[*A*]Q ( t[*R*]is[*A*]a positive semi-definite matrix with eigenvalues i ( t , ) in and we can assume them ordered , i.e. , 12 m , there exists a constant c0 > 0 such that01 ( t , ) 2 ( t , ) m ( t , ) c0holds for all t	context()	negated: False ,passive: True
-[LINE#120]It follows that when detQ(t,)>0 we can writeQV,V1|V|2=detQ(t,)2(t,)m(t,)|V|2detQ(t,)c0m-1|V|2.
+[LINE#168] It follows that when detQ(t,)>0 we can writeQV,V1|V|2=detQ(t,)2(t,)m(t,)|V|2detQ(t,)c0m-1|V|2.
 0.949	[*A*]when detQ(t,)>0[*R*]can writeQV[*A*]we	context()	negated: False ,passive: True
 0.096	[*A*]It[*R*]follows[*A*]that	context()	negated: False ,passive: False
-[LINE#121]It follows that Lemma 4.1 holds for the matrix Q(t,).
-[LINE#122]More precisely, Lemma 4.2Let Q(t,) be the symmetriser of the weakly hyperbolic matrix A(t,) defined above.
+[LINE#169] It follows that Lemma 4.1 holds for the matrix Q(t,).
+[LINE#170] More precisely, Lemma 4.2Let Q(t,) be the symmetriser of the weakly hyperbolic matrix A(t,) defined above.
 0.771	[*A*]the weakly hyperbolic matrix[*R*]defined[*A*]above	context()	negated: False ,passive: True
-[LINE#123] Then, there exist two positive constants c1 and c2 such thatc1detQ(t,)|V|2Q(t,)V,.
-[LINE#124] Vc2|V|2 holds for all t[a,b], Rn.
+[LINE#171+172]  Then, there exist two positive constants c1 and c2 such thatc1detQ(t,)|V|2Q(t,)V,.
+[LINE#173]  Vc2|V|2 holds for all t[a,b], Rn.
 0.957	[*A*]Vc2|V|2[*R*]holds[*A*]for all t	context()	negated: False ,passive: False
-[LINE#125]Let I be a closed interval in R.
-[LINE#126] We recall (see also [10, pp. 1003-1004]) that if B(t) and C(t) are two real symmetric mm matrices, C(t) is nonnegative and detC(t) has only isolated zeros then(4.3)B(t)V,VC(t)V,VL(I(Cm0))if and only if the roots i of the generalised Hamilton-Cayley polynomialdet(C(t)-B(t))=h=0mdh(t)m-h of B(t) and C(t), are bounded functions of t. Sincei=1mi2(t)=d12(t)d02(t)-2d2(t)d0(t), we conclude that (4.3) holds if and only if(4.4)d12(t)d02(t)-2d2(t)d0(t) is bounded.
+[LINE#174] Let I be a closed interval in R.
+[LINE#175+176+177]  We recall (see also [10, pp. 1003-1004]) that if B(t) and C(t) are two real symmetric mm matrices, C(t) is nonnegative and detC(t) has only isolated zeros then(4.3)B(t)V,VC(t)V,VL(I(Cm0))if and only if the roots i of the generalised Hamilton-Cayley polynomialdet(C(t)-B(t))=h=0mdh(t)m-h of B(t) and C(t), are bounded functions of t. Sincei=1mi2(t)=d12(t)d02(t)-2d2(t)d0(t), we conclude that (4.3) holds if and only if(4.4)d12(t)d02(t)-2d2(t)d0(t) is bounded.
 0.833	[*A*]C[*R*]are[*A*]two real symmetric mm matrices	context()	negated: False ,passive: True
 0.279	[*A*]we[*R*]conclude[*A*]that ( 4.3 ) holds if and only if ( 4.4 ) d12 ( t ) d02 ( t ) - 2d2 ( t ) d0 ( t ) is bounded	context()	negated: False ,passive: False
 0.858	[*A*]B ( t[*R*]are[*A*]two real symmetric mm matrices	context()	negated: False ,passive: True
 0.278	[*A*]we[*R*]conclude[*A*]that ( 4.3 ) holds if and only if ( 4.4 ) d12 ( t ) d02 ( t ) - 2d2 ( t ) d0 ( t ) is bounded	context(We recall)	negated: False ,passive: False
 0.162	[*A*]We[*R*]recall	context()	negated: False ,passive: False
-[LINE#127]We are now ready to prove the following lemma.
+[LINE#178] We are now ready to prove the following lemma.
 0.411	[*A*]We[*R*]to prove[*A*]the following lemma	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]are[*A*]now[*A*]ready to prove the following lemma	context()	negated: False ,passive: True
-[LINE#128]Lemma 4.3Let Q(t,) be the symmetriser of the matrix A(t,).
+[LINE#179] Lemma 4.3Let Q(t,) be the symmetriser of the matrix A(t,).
 0.940	[*A*]Lemma 4.3Let Q[*R*]be[*A*]the symmetriser of the matrix	context()	negated: False ,passive: True
-[LINE#129] Let (t,)=detQ(t,), (t,)=(t,)+(t(t,))2/(t,), (t,).
-[LINE#130] Let I be a closed interval of R. Then,(4.5)(t,)(t,)tQ(t,)V,VQ(t,)V,VL(IRnCm0)if and only if(4.6)(t,)(t,)L(IRn).
-[LINE#131] ProofSincedet(Q-tQ)=mdet(Q-tQ), by (2.4)and the definition of d0, d1 and d2 we getdet(Q-tQ)=m-tm-1+m-2+h=3mdh()h2m-h.
+[LINE#180]  Let (t,)=detQ(t,), (t,)=(t,)+(t(t,))2/(t,), (t,).
+[LINE#181+182]  Let I be a closed interval of R. Then,(4.5)(t,)(t,)tQ(t,)V,VQ(t,)V,VL(IRnCm0)if and only if(4.6)(t,)(t,)L(IRn).
+[LINE#183+184]  ProofSincedet(Q-tQ)=mdet(Q-tQ), by (2.4)and the definition of d0, d1 and d2 we getdet(Q-tQ)=m-tm-1+m-2+h=3mdh()h2m-h.
 0.195	[*A*]we[*R*]getdet	context()	negated: False ,passive: False
-[LINE#132] Applying (4.3) to B=tQ and C= we obtain that (4.5) holds if and only ift and are bounded functions on IRnand there is no cancellation of unbounded terms in (4.4).
+[LINE#185+186+187+188]  Applying (4.3) to B=tQ and C= we obtain that (4.5) holds if and only ift and are bounded functions on IRnand there is no cancellation of unbounded terms in (4.4).
 0.564	[*A*]4.5[*R*]holds[*A*]are bounded functions on IRnand	context(we obtain)	negated: False ,passive: False
 0.483	[*A*]4.5[*R*]holds[*A*]only ift there is no cancellation of unbounded terms in ( 4.4	context(we obtain)	negated: False ,passive: False
 0.564	[*A*]4.5[*R*]holds[*A*]are bounded functions on IRnand	context(we obtain)	negated: False ,passive: False
@@ -465,101 +465,101 @@
 0.483	[*A*]4.5[*R*]holds[*A*]only ift there is no cancellation of unbounded terms in ( 4.4	context(we obtain)	negated: False ,passive: False
 0.324	[*A*]we[*R*]obtain[*A*]4.5 ) holds only ift there is no cancellation of unbounded terms in ( 4.4	context()	negated: False ,passive: False
 0.315	[*A*]we[*R*]obtain[*A*]4.5 ) holds if there is no cancellation of unbounded terms in ( 4.4	context()	negated: False ,passive: False
-[LINE#133]Since|t|C we have that (4.5) is equivalent to (4.6).
+[LINE#189] Since|t|C we have that (4.5) is equivalent to (4.6).
 0.321	[*A*]4.5[*R*]is[*A*]equivalent to (4.6	context()	negated: False ,passive: True
 0.350	[*A*]we[*R*]have[*A*]that[*A*]Since|t|C	context()	negated: False ,passive: False
-[LINE#134] A technical lemma about real analytic functions on a real intervalRecalling the relationship between  and 0 in (4.2)we can apply Proposition 4.1 in [10] to the determinant (t,) of the symmetriser Q(t,).
+[LINE#190+191+192]  A technical lemma about real analytic functions on a real intervalRecalling the relationship between  and 0 in (4.2)we can apply Proposition 4.1 in [10] to the determinant (t,) of the symmetriser Q(t,).
 0.614	[*A*]we[*R*]can apply[*A*]Proposition 4.1[*A*]in [ 10[*A*]to the determinant ( t , ) of the symmetriser Q	context()	negated: False ,passive: False
 0.317	[*A*]a real[*R*]intervalRecalling[*A*]the 0[*A*]in ( 4.2	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]can apply[*A*]Proposition 4.1[*A*]in [ 10[*A*]to the determinant ( t , ) of the symmetriser Q[*A*]in ( 4.2	context()	negated: False ,passive: False
-[LINE#135]This yields the following statement.
+[LINE#193] This yields the following statement.
 0.381	[*A*]This[*R*]yields[*A*]the following statement	context()	negated: False ,passive: False
-[LINE#136]Proposition 4.4Let (t,) be as above.
+[LINE#194] Proposition 4.4Let (t,) be as above.
 0.833	[*A*]Proposition 4.4Let[*R*]be[*A*]as above	context()	negated: False ,passive: True
-[LINE#137] Then,(i)there exists XSn-1 such that (t,)0 in (,T+) for any X and the set Sn-1X is negligible with respect to the Hausdorff (n-1)-measure;(ii)for any [a,b](,T+) such that for any X and any (0,e-1] there exists A,[a,b]such that:-A, is a union of at most p disjoint intervals,-m(A,),-mint[a,b]A,(t,)c12q(,)L([a,b]),-t[a,b]A,|t(t,)|(t,)dtc2log1.
+[LINE#195+196+197+198]  Then,(i)there exists XSn-1 such that (t,)0 in (,T+) for any X and the set Sn-1X is negligible with respect to the Hausdorff (n-1)-measure;(ii)for any [a,b](,T+) such that for any X and any (0,e-1] there exists A,[a,b]such that:-A, is a union of at most p disjoint intervals,-m(A,),-mint[a,b]A,(t,)c12q(,)L([a,b]),-t[a,b]A,|t(t,)|(t,)dtc2log1.
 0.952	[*A*]that ( t , ) 0 in the set[*R*]is[*A*]negligible with respect to the Hausdorff	context(ii ) for any is)	negated: False ,passive: True
 0.906	[*A*]ii ) for any[*R*]such is[*A*]a union of at most p disjoint intervals , - m ( A , ) , - mint [ a , b ] A , ( t , ) c12q ( , ) L ( [ a , b ] ) , - t [ a , b ] A , | t ( t , ) | ( t , ) dtc2log1	context()	negated: False ,passive: True
 0.938	[*A*]ii ) for any[*R*]is[*A*]A , [ a , b	context()	negated: False ,passive: True
-[LINE#138]Proposition 4.4 provides a partition of the interval [a,b] which is crucial in the proof of the C well-posedness in the next subsection. .
+[LINE#199] Proposition 4.4 provides a partition of the interval [a,b] which is crucial in the proof of the C well-posedness in the next subsection. .
 0.953	[*A*]the interval[*R*]is[*A*]crucial in the proof of the C well-posedness in the next subsection	context()	negated: False ,passive: True
 0.927	[*A*]Proposition 4.4[*R*]provides[*A*]a partition of the interval	context()	negated: False ,passive: False
-[LINE#139]  well-posedness of the Cauchy problem (1.1)To prove the C well-posedness of the Cauchy problem (1.1) in the form (4.1) we make use of the energyE(t,)={|V(t,)|2for tA/||, and /||X,Q(t,)V(t,),V(t,)for t[a,b]A/||, and /||X, defined for t[a,b], Rn when t[a,b]A/||, and /||X, and [a,b]A/||, is a finite union of at most p closed intervals [ci,di].
+[LINE#200+201+202+203]   well-posedness of the Cauchy problem (1.1)To prove the C well-posedness of the Cauchy problem (1.1) in the form (4.1) we make use of the energyE(t,)={|V(t,)|2for tA/||, and /||X,Q(t,)V(t,),V(t,)for t[a,b]A/||, and /||X, defined for t[a,b], Rn when t[a,b]A/||, and /||X, and [a,b]A/||, is a finite union of at most p closed intervals [ci,di].
 0.443	[*A*]we[*R*]make[*A*]use of the energyE	context(A / | | is)	negated: False ,passive: False
 0.443	[*A*]we[*R*]make[*A*]use of the energyE	context(A / | | is)	negated: False ,passive: False
 0.876	[*A*]A / | |[*R*]is[*A*]a finite union of at most p closed intervals	context()	negated: False ,passive: True
-[LINE#140]The set A/||, is a finite union of open intervals whose total length does not exceed .
+[LINE#204] The set A/||, is a finite union of open intervals whose total length does not exceed .
 0.913	[*A*]The set[*R*]is[*A*]a finite union of open intervals	context()	negated: False ,passive: True
-[LINE#141]We now distinguish between Kovalevskian energy and hyperbolic energy..
+[LINE#205] We now distinguish between Kovalevskian energy and hyperbolic energy..
 0.599	[*A*]We[*R*]distinguish[*A*]between Kovalevskian energy and hyperbolic energy[*A*]now	context()	negated: False ,passive: False
-[LINE#142] The Kovalevskian energyLet t[t,t]A/||, and /||X. HencetE(t,)=2ReV(t,),tV(t,)=2ReV(t,),iA(t,)V(t,)+iB(t,)V(t,)2(cA+cB)E(t,).
-[LINE#143]By Gronwalls Lemma on [t,t] we get(4.7)|V(t,)|e(cA+cB)(t-t)|V(t,)|cec(t-t)|V(t,)|. .
+[LINE#206+207]  The Kovalevskian energyLet t[t,t]A/||, and /||X. HencetE(t,)=2ReV(t,),tV(t,)=2ReV(t,),iA(t,)V(t,)+iB(t,)V(t,)2(cA+cB)E(t,).
+[LINE#208] By Gronwalls Lemma on [t,t] we get(4.7)|V(t,)|e(cA+cB)(t-t)|V(t,)|cec(t-t)|V(t,)|. .
 0.619	[*A*]we[*R*]get[*A*]t	context()	negated: False ,passive: False
-[LINE#144]The hyperbolic energyLet us work on any subinterval [ci,di] of [a,b]A/||,.
+[LINE#209] The hyperbolic energyLet us work on any subinterval [ci,di] of [a,b]A/||,.
 0.522	[*A*]us[*R*]work[*A*]on any subinterval [ci	context()	negated: False ,passive: False
-[LINE#145]Assuming /||X, we have that (t,)>0 on [ci,di].
+[LINE#210] Assuming /||X, we have that (t,)>0 on [ci,di].
 0.096	[*A*]we[*R*]have[*A*]that	context()	negated: False ,passive: False
-[LINE#146]Under the hypothesis (2.5) using (2.3), Lemma 4.3 and Lemma 4.2, we have thattE(t,)=tQ(t,)V(t,),V(t,)+Q(t,)tV(t,),V(t,)+Q(t,)V(t,),tV(t,)=tQ(t,)V(t,),V(t,)Q(t,)V,VE(t,)+Q(t,)(iA(t,)+iB(t,))V(t,),V(t,)+Q(t,)V(t,),(iA(t,)+iB(t,))V(t,)=tQ(t,)V(t,),V(t,)Q(t,)V,VE(t,)+i(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)C(t,)(t,)E(t,)+|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|.
-[LINE#147] At this point it is clear that if we have Levi conditions on the matrix B such that(4.8)|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|Q(t,)V,VL([a,b]RnCm0) , then there exists a constant c>0 such that(4.9)tE(t,)c(1+|t(t,)|(t,))E(t,) holds for t[ci,di] and Rnwith /||X. Before proving that this energy estimate yields the C well-posedness of the Cauchy problem (1.1) let us show that the Levi conditions (3.4) for the matrix B guarantee (4.8).
+[LINE#211] Under the hypothesis (2.5) using (2.3), Lemma 4.3 and Lemma 4.2, we have thattE(t,)=tQ(t,)V(t,),V(t,)+Q(t,)tV(t,),V(t,)+Q(t,)V(t,),tV(t,)=tQ(t,)V(t,),V(t,)Q(t,)V,VE(t,)+Q(t,)(iA(t,)+iB(t,))V(t,),V(t,)+Q(t,)V(t,),(iA(t,)+iB(t,))V(t,)=tQ(t,)V(t,),V(t,)Q(t,)V,VE(t,)+i(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)C(t,)(t,)E(t,)+|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|.
+[LINE#212+213+214+215]  At this point it is clear that if we have Levi conditions on the matrix B such that(4.8)|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|Q(t,)V,VL([a,b]RnCm0) , then there exists a constant c>0 such that(4.9)tE(t,)c(1+|t(t,)|(t,))E(t,) holds for t[ci,di] and Rnwith /||X. Before proving that this energy estimate yields the C well-posedness of the Cauchy problem (1.1) let us show that the Levi conditions (3.4) for the matrix B guarantee (4.8).
 0.498	[*A*]we[*R*]have[*A*]Levi conditions on the matrix B	context()	negated: False ,passive: False
-[LINE#148] Proposition 4.5Let bi and qij, i,j=1,,m, be the entries of the matrix B and Q defined above.
+[LINE#216+217]  Proposition 4.5Let bi and qij, i,j=1,,m, be the entries of the matrix B and Q defined above.
 0.788	[*A*]the entries of the matrix[*R*]defined[*A*]above	context()	negated: False ,passive: True
 0.526	[*A*]i[*R*]be[*A*]the entries of the matrix Q defined above	context()	negated: False ,passive: True
 0.783	[*A*]the matrix B[*R*]defined[*A*]above	context()	negated: False ,passive: True
 0.480	[*A*]i[*R*]be[*A*]the entries of the matrix B	context()	negated: False ,passive: True
-[LINE#149] If there exists a constant c>0 such that(4.10)|(qimbj-biqjm)(t,)|c(t,) holds for all 1i,.
+[LINE#218]  If there exists a constant c>0 such that(4.10)|(qimbj-biqjm)(t,)|c(t,) holds for all 1i,.
 0.632	[*A*]c[*R*]holds[*A*]for all 1i	context()	negated: False ,passive: False
-[LINE#150]ProofWe begin by observing that the matrix QB-BQ has entries dij=qimbj-biqjm.
+[LINE#219] ProofWe begin by observing that the matrix QB-BQ has entries dij=qimbj-biqjm.
 0.893	[*A*]the matrix[*R*]has[*A*]entries[*A*]dij=qimbj-biqjm	context(ProofWe by observing)	negated: False ,passive: False
 0.845	[*A*]ProofWe[*R*]by observing[*A*]that the matrix QB-BQ has entries dij=qimbj-biqjm	context()	negated: False ,passive: False
 0.771	[*A*]ProofWe[*R*]begin	context()	negated: False ,passive: False
-[LINE#151] It follows that(QB-BQ)V,V=i=1mj=1m(qimbj-biqjm)VjVi. Hence,|(QB-BQ)V,V|i,j=1,,m|qimbj-biqjm|(|Vi|2+|Vj|2) and by the hypothesis (4.10) we get|(QB-BQ)V,V(t,)|c(t,)|V(t,)|2, for some constant c>0, uniformly in t[a,b] and Rn.
+[LINE#220+221]  It follows that(QB-BQ)V,V=i=1mj=1m(qimbj-biqjm)VjVi. Hence,|(QB-BQ)V,V|i,j=1,,m|qimbj-biqjm|(|Vi|2+|Vj|2) and by the hypothesis (4.10) we get|(QB-BQ)V,V(t,)|c(t,)|V(t,)|2, for some constant c>0, uniformly in t[a,b] and Rn.
 0.568	[*A*]we[*R*]get[*A*]| ( QB - BQ ) V	context()	negated: False ,passive: False
 0.901	[*A*]V[*R*]|[*A*]i[*A*]QB - BQ ) V	context()	negated: False ,passive: False
 0.266	[*A*]It[*R*]follows[*A*]that[*A*]QB - BQ ) V , V=i=1mj=1 m	context()	negated: False ,passive: False
-[LINE#152]Finally, combining this estimate with the bound from below of Lemma 4.2 we obtain (4.8).
+[LINE#222] Finally, combining this estimate with the bound from below of Lemma 4.2 we obtain (4.8).
 0.999	[*A*]we[*R*]obtain[*A*]4.8	context()	negated: False ,passive: False
 0.257	[*A*]we[*R*]obtain[*A*]Finally	context()	negated: False ,passive: False
-[LINE#153]that when the lower order terms are real-valued then the matrix QB-BQ is skew-symmetric.
+[LINE#223] that when the lower order terms are real-valued then the matrix QB-BQ is skew-symmetric.
 0.916	[*A*]the matrix[*R*]is[*A*]skew-symmetric[*A*]that when the lower order terms are real-valued then	context()	negated: False ,passive: True
 0.799	[*A*]the lower order terms[*R*]are[*A*]real-valued[*A*]then	context()	negated: False ,passive: True
-[LINE#154]This means that dij=qimbj-biqjm is identically zero when i=j and dij=-dji.
+[LINE#224] This means that dij=qimbj-biqjm is identically zero when i=j and dij=-dji.
 0.839	[*A*]dij=qimbj - biqjm[*R*]is[*A*]identically zero i=j and dij= - dji	context(This means)	negated: False ,passive: True
 0.258	[*A*]This[*R*]means[*A*]that dij=qimbj - biqjm is identically zero i=j and dij= - dji	context()	negated: False ,passive: False
 0.839	[*A*]dij=qimbj - biqjm[*R*]is[*A*]identically[*A*]zero	context(This means)	negated: False ,passive: True
 0.258	[*A*]This[*R*]means[*A*]that dij=qimbj - biqjm is identically zero when and dij= - dji	context()	negated: False ,passive: False
-[LINE#155]It follows that the Levi conditions (4.8) can be rewritten as(4.11)|(qimbj-biqjm)(t,)|c(t,), for 1i<jm, t[a,b] and Rn.
-[LINE#156] We are now ready to prove Theorem 3.1.Proof of Theorem 3.1First of all, by the finite speed of propagation for hyperbolic equationswe can always assume that the Cauchy data in (1.1) are compactly supported.
+[LINE#225] It follows that the Levi conditions (4.8) can be rewritten as(4.11)|(qimbj-biqjm)(t,)|c(t,), for 1i<jm, t[a,b] and Rn.
+[LINE#226+227]  We are now ready to prove Theorem 3.1.Proof of Theorem 3.1First of all, by the finite speed of propagation for hyperbolic equationswe can always assume that the Cauchy data in (1.1) are compactly supported.
 0.456	[*A*]We[*R*]to prove[*A*]Theorem 3.1.Proof of Theorem 3.1First of all	context()	negated: False ,passive: False
-[LINE#157]We refer to the Kovalevskian energy and the hyperbolic energy introduced above.
+[LINE#228] We refer to the Kovalevskian energy and the hyperbolic energy introduced above.
 0.783	[*A*]the hyperbolic energy[*R*]introduced[*A*]above	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]refer[*A*]to the hyperbolic energy	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]refer[*A*]to the Kovalevskian energy	context()	negated: False ,passive: False
-[LINE#158]We note that in the energies in consideration we can assume ||1 since the continuity of V(t,) in  implies that both energies are bounded for ||1.
+[LINE#229] We note that in the energies in consideration we can assume ||1 since the continuity of V(t,) in  implies that both energies are bounded for ||1.
 0.541	[*A*]we[*R*]can assume[*A*]||1[*A*]in the energies in consideration	context(We note)	negated: False ,passive: False
 0.173	[*A*]We[*R*]note[*A*]that in the energies in consideration we can assume ||1 since the continuity of V(t,) in  implies that both energies are bounded for ||1	context()	negated: False ,passive: False
-[LINE#159]In particular, the Levi condition (4.10) for ||1 yields the energy estimate (4.9) for ||1.
-[LINE#160]Hence, by Gronwalls Lemma on [ci,di] we get the inequality(4.12)E(t,)ec(di-ci)exp(ccit|s(s,)|(s,)ds)E(ci,).
+[LINE#230] In particular, the Levi condition (4.10) for ||1 yields the energy estimate (4.9) for ||1.
+[LINE#231] Hence, by Gronwalls Lemma on [ci,di] we get the inequality(4.12)E(t,)ec(di-ci)exp(ccit|s(s,)|(s,)ds)E(ci,).
 0.522	[*A*]we[*R*]get[*A*]the inequality	context()	negated: False ,passive: False
-[LINE#161]Note that by Proposition 4.4, (ii), we have(t,)mins[a,b]A,(s,)c12q(,)L([a,b]), for all t[ci,di].
-[LINE#162] Hence, applying Lemma 4.2 to (4.12) we have that there exists a constant C>0 such that(4.13)|V(t,)|2C12q(,)L([a,b])exp(cit|s(s,)|(s,)ds)|V(ci,)|2,|V(t,)|2C12q(,)L([a,b])eClog(1/)|V(ci,)|2, for all t[ci,di] and for ||1, where we have used Proposition 4.4, (ii), in the last step.
+[LINE#232] Note that by Proposition 4.4, (ii), we have(t,)mins[a,b]A,(s,)c12q(,)L([a,b]), for all t[ci,di].
+[LINE#233+234+235]  Hence, applying Lemma 4.2 to (4.12) we have that there exists a constant C>0 such that(4.13)|V(t,)|2C12q(,)L([a,b])exp(cit|s(s,)|(s,)ds)|V(ci,)|2,|V(t,)|2C12q(,)L([a,b])eClog(1/)|V(ci,)|2, for all t[ci,di] and for ||1, where we have used Proposition 4.4, (ii), in the last step.
 0.173	[*A*]we[*R*]have[*A*]that there exists a constant C > 0 such that , ( ii ) , in the last step	context()	negated: False ,passive: False
 0.116	[*A*]we[*R*]have[*A*]that there exists a constant C >	context()	negated: False ,passive: False
-[LINE#163] Taking into account that we have at most p closed intervals [ci,di], by combining (4.7) with (4.13) we conclude that|V(b,)|C1pq(,)L([a,b])p/2eC(log(1we have that there exist constants C>0 and N such that(4.14)|V(b,)|Cpq+|V(a,)|, for ||1.
+[LINE#236+237]  Taking into account that we have at most p closed intervals [ci,di], by combining (4.7) with (4.13) we conclude that|V(b,)|C1pq(,)L([a,b])p/2eC(log(1we have that there exist constants C>0 and N such that(4.14)|V(b,)|Cpq+|V(a,)|, for ||1.
 0.225	[*A*]we[*R*]conclude[*A*]such	context()	negated: False ,passive: False
 0.877	[*A*]account[*R*]have[*A*]at most p[*A*]closed intervals	context()	negated: False ,passive: True
-[LINE#164]This proves the C well-posedness of the Cauchy problem (1.1).
+[LINE#238] This proves the C well-posedness of the Cauchy problem (1.1).
 0.425	[*A*]This[*R*]proves[*A*]the C well-posedness of the Cauchy problem	context()	negated: False ,passive: False
-[LINE#165]Similarly, (4.14) implies the well-posedness of (1.1) in D(Rn).
-[LINE#166]  Remark 4.7Note that we can write the matrix ,)=l=0m-1B-l(t,), where B-l has entriesb-l,j(t,)={||=m-j-lam-j+1,(t)j-m,for jm-l,0,otherwise, of order -l for j=1,.
+[LINE#239] Similarly, (4.14) implies the well-posedness of (1.1) in D(Rn).
+[LINE#240+241]   Remark 4.7Note that we can write the matrix ,)=l=0m-1B-l(t,), where B-l has entriesb-l,j(t,)={||=m-j-lam-j+1,(t)j-m,for jm-l,0,otherwise, of order -l for j=1,.
 0.452	[*A*]we[*R*]can write[*A*]the matrix	context()	negated: False ,passive: False
-[LINE#167] It follows that(QB-BQ)V,V=i=1mj=1m(qimbj-biqjm)VjVi=l=0m-1i,j=1,,m(qimb-.
+[LINE#242]  It follows that(QB-BQ)V,V=i=1mj=1m(qimbj-biqjm)VjVi=l=0m-1i,j=1,,m(qimb-.
 0.367	[*A*]It[*R*]follows[*A*]that[*A*]QB-BQ)V,V=i=1mj=1m(qimbj-biqjm	context()	negated: False ,passive: False
-[LINE#168]We notice that it is enough to put Levi conditions on terms up to order -(m-2) for the C well-posedness.
+[LINE#243] We notice that it is enough to put Levi conditions on terms up to order -(m-2) for the C well-posedness.
 0.628	[*A*]it[*R*]is[*A*]enough to put Levi conditions on terms up to order -(m-2	context(We notice)	negated: False ,passive: True
 0.202	[*A*]We[*R*]notice[*A*]that it is enough to put Levi conditions on terms up to order -(m-2) for the C well-posedness	context()	negated: False ,passive: False
-[LINE#169]Then, it is enough to put Levi conditions on terms up to order -(2h-1) in order to get the C well-posedness.
+[LINE#244] Then, it is enough to put Levi conditions on terms up to order -(2h-1) in order to get the C well-posedness.
 0.790	[*A*]it[*R*]is[*A*]enough to put Levi conditions on terms up to order -(2h-1[*A*]Then	context()	negated: False ,passive: True
-[LINE#170] Indeed, if|(qimb-l,j-b-l,iqjm)(t,)|c(t,),t[a,b],||1 for 1i,jm and 0l2h-1 then by the hypothesis (3.3) and Proposition 4.4we get the hyperbolic energytE(t,)=tQ(t,)V(t,),V(t,)Q(t,)V,VE(t,)+i(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)C(t,)(t,)E(t,)+l=02h-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)|+l=2hm-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)|c(1+|t(t,)|(t,))E(t,)+c-2h-2hE(t,).
+[LINE#245+246]  Indeed, if|(qimb-l,j-b-l,iqjm)(t,)|c(t,),t[a,b],||1 for 1i,jm and 0l2h-1 then by the hypothesis (3.3) and Proposition 4.4we get the hyperbolic energytE(t,)=tQ(t,)V(t,),V(t,)Q(t,)V,VE(t,)+i(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)C(t,)(t,)E(t,)+l=02h-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)|+l=2hm-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)|c(1+|t(t,)|(t,))E(t,)+c-2h-2hE(t,).
 0.999	[*A*]qimb l j b l iqjm[*R*]|[*A*]1	context()	negated: False ,passive: False
 0.996	[*A*]c ( t , ) , t [ a , b ] , | | 1 for 0l2h - 1 then by the hypothesis ( 3.3 ) and Proposition 4.4we[*R*]get[*A*]the hyperbolic energytE	context()	negated: False ,passive: False
 0.968	[*A*]| ( qimb - l , j - b - l , iqjm[*R*]|[*A*]1[*A*]for 0l2h - 1	context()	negated: False ,passive: False
@@ -568,15 +568,15 @@
 0.995	[*A*]c ( t , ) , t [ a , b ] , | | 1 for 1i then by the hypothesis ( 3.3 ) and Proposition 4.4we[*R*]get[*A*]the hyperbolic energytE	context()	negated: False ,passive: False
 0.914	[*A*]| ( qimb - l , j - b - l , iqjm[*R*]|[*A*]1[*A*]for 1i	context()	negated: False ,passive: False
 0.968	[*A*]Proposition 4.4we[*R*]get[*A*]the hyperbolic energytE[*A*]then	context()	negated: False ,passive: False
-[LINE#171]Note thatl=02h-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)| is estimated by means of the Levi conditions, whereas the bound -2h-2hE(t,) forl=2hm-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)| is obtained by symbol properties.
+[LINE#247] Note thatl=02h-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)| is estimated by means of the Levi conditions, whereas the bound -2h-2hE(t,) forl=2hm-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)| is obtained by symbol properties.
 0.786	[*A*]V[*R*]is obtained[*A*]by symbol properties	context()	negated: False ,passive: True
 0.877	[*A*]V[*R*]is estimated[*A*]by means of the Levi conditions[*A*]whereas the bound -2h-2hE(t,) forl=2hm-1|(Q(t,)B-l(t,)-B-l(t,)Q(t,))V(t,),V(t,)| is obtained by symbol properties	context()	negated: False ,passive: True
-[LINE#172] as in the proof of Theorem 3.1.Remark 4.8We thank the referee for pointing out that by using W, introduced in [6] (see Proposition 1, [6]) and the fact thatQV,V=(m-1)!|WV|2, one can estimate  (Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)  as follows:|(QB-BQ)V,V|=(m-1)!|WBV,WV-WV,WBV|C|WBV||WV|=CWBV,WBV12WV,WV12.
+[LINE#248+249+250]  as in the proof of Theorem 3.1.Remark 4.8We thank the referee for pointing out that by using W, introduced in [6] (see Proposition 1, [6]) and the fact thatQV,V=(m-1)!|WV|2, one can estimate  (Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)  as follows:|(QB-BQ)V,V|=(m-1)!|WBV,WV-WV,WBV|C|WBV||WV|=CWBV,WBV12WV,WV12.
 0.637	[*A*]W[*R*]introduced[*A*]in [ 6	context()	negated: False ,passive: True
-[LINE#173]Now, by setting the Levi condition(4.15)(BQB)V,V12c|t||V|, and applying the bound from below for the symmetriser in Lemma 4.2, we obtain|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|c|t||V|QV,V12c|t|QV,V=c2|t|QV,V.
+[LINE#251] Now, by setting the Levi condition(4.15)(BQB)V,V12c|t||V|, and applying the bound from below for the symmetriser in Lemma 4.2, we obtain|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|c|t||V|QV,V12c|t|QV,V=c2|t|QV,V.
 0.639	[*A*]we[*R*]obtain[*A*]|[*A*]Now	context()	negated: False ,passive: False
-[LINE#174]This will allow us to proceed with the energy estimate (4.9) even under the new Levi condition (4.15).The Levi conditions (4.10) and (4.15) seem unrelated.
-[LINE#175]We simply note that, in the case of second order equations with principal part Dttu-a(t)Dxx, a0, and arbitrary lower order terms, (4.15) is a condition on both the lower order terms b1 and b2 whereas (4.10) leaves b2 free.
+[LINE#252] This will allow us to proceed with the energy estimate (4.9) even under the new Levi condition (4.15).The Levi conditions (4.10) and (4.15) seem unrelated.
+[LINE#253] We simply note that, in the case of second order equations with principal part Dttu-a(t)Dxx, a0, and arbitrary lower order terms, (4.15) is a condition on both the lower order terms b1 and b2 whereas (4.10) leaves b2 free.
 0.239	[*A*]We[*R*]note[*A*]that , in the case of second order equations with arbitrary lower order terms , ( 4.15 ) is a condition on b2	context()	negated: False ,passive: False
 0.239	[*A*]We[*R*]note[*A*]that , in the case of second order equations with arbitrary lower order terms , ( 4.15 ) is a condition on both the lower whereas ( 4.10 ) leaves b2 free	context()	negated: False ,passive: False
 0.239	[*A*]We[*R*]note[*A*]that , in the case of second order equations with a0 , ( 4.15 ) is a condition on b2 whereas ( 4.10 ) leaves b2 free	context()	negated: False ,passive: False
@@ -585,57 +585,57 @@
 0.274	[*A*]We[*R*]note[*A*]that , in the case of second order equations with Dxx , ( 4.15 ) is a condition on both the lower whereas ( 4.10 ) leaves b2 free	context()	negated: False ,passive: False
 0.274	[*A*]We[*R*]note[*A*]that , in the case of second order equations with principal part Dttu-a ( t ) , ( 4.15 ) is a condition on b2	context()	negated: False ,passive: False
 0.274	[*A*]We[*R*]note[*A*]that , in the case of second order equations with principal part Dttu-a ( t ) , ( 4.15 ) is a condition on both the lower whereas ( 4.10 ) leaves b2 free	context()	negated: False ,passive: False
-[LINE#176]Finally, as suggested by the referee, one could slightly generalise the Levi condition (4.10) as follows:(4.16)|(qimbj-biqjm)(t,)|c((t,)+|t(t,)|).
+[LINE#254] Finally, as suggested by the referee, one could slightly generalise the Levi condition (4.10) as follows:(4.16)|(qimbj-biqjm)(t,)|c((t,)+|t(t,)|).
 0.775	[*A*]one[*R*]could slightly generalise[*A*]the Levi condition[*A*]Finally	context()	negated: False ,passive: False
-[LINE#177]Indeed, (4.16) implies|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|c(1+|t(t,)|)E(t,) and therefore the inequality (4.9) holds.
-[LINE#178]For the second order equationDttu-t2Dxxu+itDxu=0,,>0, the condition (4.16) forcestct2-1, on [0,T], hence 2-1, whereas the Levi condition (4.10) entails 2.
+[LINE#255] Indeed, (4.16) implies|(Q(t,)B(t,)-B(t,)Q(t,))V(t,),V(t,)|c(1+|t(t,)|)E(t,) and therefore the inequality (4.9) holds.
+[LINE#256] For the second order equationDttu-t2Dxxu+itDxu=0,,>0, the condition (4.16) forcestct2-1, on [0,T], hence 2-1, whereas the Levi condition (4.10) entails 2.
 0.806	[*A*]the Levi condition[*R*]entails[*A*]2	context()	negated: False ,passive: False
-[LINE#179]We are now ready to study the Cauchy problem (1.1) or, in other words, to add lower order terms to the equation in (2.1).
+[LINE#257] We are now ready to study the Cauchy problem (1.1) or, in other words, to add lower order terms to the equation in (2.1).
 0.644	[*A*]We in other words[*R*]to add[*A*]lower order terms[*A*]to the equation[*A*]in ( 2.1	context()	negated: False ,passive: False
 0.456	[*A*]We[*R*]to study[*A*]the Cauchy problem	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]are[*A*]now[*A*]ready to study the Cauchy problem	context()	negated: False ,passive: True
-[LINE#180]First, we describe the reduction of (1.1) to a system since we will be making use of the symmetriser of the corresponding companion matrix.
+[LINE#258] First, we describe the reduction of (1.1) to a system since we will be making use of the symmetriser of the corresponding companion matrix.
 0.452	[*A*]we[*R*]will be making[*A*]use of the symmetriser of the corresponding companion matrix	context()	negated: False ,passive: False
 0.562	[*A*]we[*R*]describe[*A*]the reduction of[*A*]to a system[*A*]since we will be making use of the symmetriser of the corresponding companion matrix[*A*]First	context()	negated: False ,passive: False
-[LINE#181] We rewrite the equationM(t,Dt,Dx)uDtmu-1jm,||ja,j(t)Dtm-jDxu=0 asDtmu(t,x)=1jm,||=ja,j(t)Dtm-jDxu(t,x)+1jm,||j-1a,.
+[LINE#259]  We rewrite the equationM(t,Dt,Dx)uDtmu-1jm,||ja,j(t)Dtm-jDxu=0 asDtmu(t,x)=1jm,||=ja,j(t)Dtm-jDxu(t,x)+1jm,||j-1a,.
 0.498	[*A*]We[*R*]rewrite[*A*]the equationM	context()	negated: False ,passive: False
-[LINE#182] First of all we perform the standard reduction to a system of pseudo-differential equations as in [5] by settingul=Dtl-1Dxm-lu, with l=1,.
+[LINE#260]  First of all we perform the standard reduction to a system of pseudo-differential equations as in [5] by settingul=Dtl-1Dxm-lu, with l=1,.
 0.595	[*A*]we[*R*]perform[*A*]the standard reduction[*A*]to a system of pseudo-differential equations[*A*]First of all	context()	negated: False ,passive: False
-[LINE#183] Dx is the pseudo-differential operator with symbol .
+[LINE#261]  Dx is the pseudo-differential operator with symbol .
 0.887	[*A*]Dx[*R*]is[*A*]the pseudo-differential operator with symbol	context()	negated: False ,passive: True
-[LINE#184] This transformation makes the mth-order equation above equivalent to the first order system(3.1)DtU=.
+[LINE#262]  This transformation makes the mth-order equation above equivalent to the first order system(3.1)DtU=.
 0.937	[*A*]This transformation[*R*]makes[*A*]the mth-order equation above equivalent to the first order system	context()	negated: False ,passive: False
-[LINE#185] A1(t,Dx)U+B(t,Dx)U, where U is the column vector with entries ul, A1(t,Dx) has symbol matrixA1(t,)=A(t,)=(010000101a1a2am), whereaj(t ,)=||=m-j+1a,m-j+1(t)j-m-1, and B(t,Dx) has symbol matrixB(t,)=(000000000b1b2bm), with(3.2)bj(t,)=||m-ja,m-j+1(t)j-m.
+[LINE#263+264+265]  A1(t,Dx)U+B(t,Dx)U, where U is the column vector with entries ul, A1(t,Dx) has symbol matrixA1(t,)=A(t,)=(010000101a1a2am), whereaj(t ,)=||=m-j+1a,m-j+1(t)j-m-1, and B(t,Dx) has symbol matrixB(t,)=(000000000b1b2bm), with(3.2)bj(t,)=||m-ja,m-j+1(t)j-m.
 0.974	[*A*]j - m - 1 , and B ( t[*R*]has[*A*]symbol matrixB	context()	negated: False ,passive: False
 0.990	[*A*]A1 ( t , Dx ) U+B ( t , Dx ) U , where U is the column vector with entries ul , A1 ( t , Dx[*R*]has[*A*]symbol matrixA1	context(Dx has)	negated: False ,passive: False
 0.864	[*A*]Dx[*R*]has[*A*]symbol matrixB	context()	negated: False ,passive: False
 0.852	[*A*]U[*R*]is ul[*A*]the column vector with entries	context()	negated: False ,passive: True
-[LINE#186] The initial conditions Dtju(t0,x)=gj(x),j=0,,m-1, are transformed intoul(t0,x)=Dxm-lgl-1(x), for l=1,,m, and generate the column vector U0(x).
+[LINE#266+267]  The initial conditions Dtju(t0,x)=gj(x),j=0,,m-1, are transformed intoul(t0,x)=Dxm-lgl-1(x), for l=1,,m, and generate the column vector U0(x).
 0.897	[*A*]The initial conditions[*R*]generate[*A*]the column vector	context()	negated: False ,passive: False
-[LINE#187] In the following theorem we use functions  and  which have been defined at the beginning of Section 2.Theorem3.1Let M(t,Dt,Dx) as in (1.1) be a weakly hyperbolic operator with analytic coefficients in (,T+) in the principal part, and lower order terms continuous in t.
+[LINE#268+269]  In the following theorem we use functions  and  which have been defined at the beginning of Section 2.Theorem3.1Let M(t,Dt,Dx) as in (1.1) be a weakly hyperbolic operator with analytic coefficients in (,T+) in the principal part, and lower order terms continuous in t.
 0.927	[*A*]Dt[*R*]be[*A*]a weakly hyperbolic operator with analytic coefficients in ( , T+ ) in the principal part , and lower order terms continuous in	context()	negated: False ,passive: True
 0.958	[*A*]Dt[*R*]be[*A*]a weakly hyperbolic operator with analytic coefficients in ( , T+ ) in the principal part , and lower order terms continuous in[*A*]In the following theorem	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]use[*A*]functions[*A*]as in ( 1.1	context()	negated: False ,passive: False
-[LINE#188] Let Q(t,)={qij(t,)}i,j=1m be the symmetriser of the matrix A(t,) of the principal part, .
-[LINE#189]Let (,)0 in (,T+) for all  with ||1 and let [a,b](,T+).
-[LINE#190] Assume that(i)there exists a constant C1>0 such that(3.3)|(t,)|C1(t,) holds for all t[a,b] and ||1;(ii)the Levi condition(3.4)|(qimbj-biqjm)(t,)|c(t,) holds for all 1i,.
+[LINE#270]  Let Q(t,)={qij(t,)}i,j=1m be the symmetriser of the matrix A(t,) of the principal part, .
+[LINE#271] Let (,)0 in (,T+) for all  with ||1 and let [a,b](,T+).
+[LINE#272]  Assume that(i)there exists a constant C1>0 such that(3.3)|(t,)|C1(t,) holds for all t[a,b] and ||1;(ii)the Levi condition(3.4)|(qimbj-biqjm)(t,)|c(t,) holds for all 1i,.
 0.828	[*A*]0 such |[*R*]|[*A*]1	context()	negated: False ,passive: False
-[LINE#191] Then the Cauchy problem (1.1) is C well-posed in [a,b] with initial data at t0 and it is also well-posed in D(Rn).One of the features of this resultis that we can allow lower order terms to be complex-valued.
+[LINE#273+274+275+276]  Then the Cauchy problem (1.1) is C well-posed in [a,b] with initial data at t0 and it is also well-posed in D(Rn).One of the features of this resultis that we can allow lower order terms to be complex-valued.
 0.699	[*A*]lower order terms[*R*]to be complex-valued	context(it is we can allow)	negated: False ,passive: False
 0.388	[*A*]we[*R*]can allow[*A*]lower order terms to be complex-valued	context(it is)	negated: False ,passive: False
 0.503	[*A*]it[*R*]is[*A*]also[*A*]well - posed in D	context()	negated: False ,passive: True
 0.982	[*A*]the Cauchy problem[*R*]is[*A*]C well - posed in [ a , b ] with initial data at t0[*A*]Then	context()	negated: False ,passive: True
-[LINE#192]In Remark 4.6 we will comment on a small simplification of the Levi conditions (ii) if the matrix B is real.
+[LINE#277] In Remark 4.6 we will comment on a small simplification of the Levi conditions (ii) if the matrix B is real.
 0.828	[*A*]the matrix B[*R*]is[*A*]real	context()	negated: False ,passive: True
 0.740	[*A*]we[*R*]will comment[*A*]on a small simplification of the Levi conditions (ii[*A*]In Remark 4.6	context()	negated: False ,passive: False
-[LINE#193]In the case when lower order terms are discontinuous but still bounded, we have the following counterpart of the result above.
+[LINE#278] In the case when lower order terms are discontinuous but still bounded, we have the following counterpart of the result above.
 0.595	[*A*]we[*R*]have[*A*]the following counterpart of the result above[*A*]In the case[*A*]when lower order terms are still bounded	context()	negated: False ,passive: False
 0.783	[*A*]lower order terms[*R*]are[*A*]still[*A*]bounded	context()	negated: False ,passive: True
 0.595	[*A*]we[*R*]have[*A*]the following counterpart of the result above[*A*]In the case[*A*]when lower order terms are discontinuous	context()	negated: False ,passive: False
 0.783	[*A*]lower order terms[*R*]are[*A*]discontinuous	context()	negated: False ,passive: True
-[LINE#194] The proof is similar to that of Theorem 4 in [6].Theorem 3.2Assumethe conditions of Theorem 3.1, but instead of assuming that lower order terms are continuous, assume only that they are bounded, i.e. that a,jL((,T+)), for all ||j-1 with 1jm.
+[LINE#279+280]  The proof is similar to that of Theorem 4 in [6].Theorem 3.2Assumethe conditions of Theorem 3.1, but instead of assuming that lower order terms are continuous, assume only that they are bounded, i.e. that a,jL((,T+)), for all ||j-1 with 1jm.
 0.845	[*A*]The proof[*R*]is[*A*]similar to that of Theorem 4 in [ 6	context()	negated: False ,passive: True
-[LINE#195] Then the statement remains true for C Cauchy data provided that we replace the well-posedness conclusion uCm([a,b];C(Rn))byuCm-1([a,b];C(Rn))W,m([a,b];C(Rn)), where W,m is the Sobolev space with m derivatives in L.The same distributional conclusion as we had in Theorem 3.1 also holds in Theorem 3.2, with the solutionuCm-1([a,b];D(Rn))W,m([a,b];D(Rn)), provided that the Cauchy data are all in D(Rn).
+[LINE#281+282+283]  Then the statement remains true for C Cauchy data provided that we replace the well-posedness conclusion uCm([a,b];C(Rn))byuCm-1([a,b];C(Rn))W,m([a,b];C(Rn)), where W,m is the Sobolev space with m derivatives in L.The same distributional conclusion as we had in Theorem 3.1 also holds in Theorem 3.2, with the solutionuCm-1([a,b];D(Rn))W,m([a,b];D(Rn)), provided that the Cauchy data are all in D(Rn).
 0.568	[*A*]we[*R*]had[*A*]in Theorem 3.1	context()	negated: False ,passive: False
 0.952	[*A*]m[*R*]is[*A*]the Sobolev space with m derivatives in L.The same distributional conclusion[*A*]C	context()	negated: False ,passive: True
 0.614	[*A*]we[*R*]replace[*A*]the well-posedness conclusion uCm([a,b];C(Rn))byuCm-1([a,b];C(Rn))W,m([a,b	context()	negated: False ,passive: False

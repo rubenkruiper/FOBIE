@@ -1,230 +1,230 @@
-[LINE#1] It is reported that a dual-layer carbon film on SiC wafer is prepared using carbide-derived carbon (CDC) process with subsequent chemical vapor deposition.
-[LINE#2]The dual-layer film includes a sub-layer of CDC and a top layer of CVD, which are prepared by chlorination of SiC and pyrolysis of CCl4 at high temperature respectively.
+[LINE#0]  It is reported that a dual-layer carbon film on SiC wafer is prepared using carbide-derived carbon (CDC) process with subsequent chemical vapor deposition.
+[LINE#1] The dual-layer film includes a sub-layer of CDC and a top layer of CVD, which are prepared by chlorination of SiC and pyrolysis of CCl4 at high temperature respectively.
 0.943	[*A*]a top layer of CVD[*R*]are prepared respectively[*A*]by pyrolysis of CCl4 at high temperature	context()	negated: False ,passive: True
 0.943	[*A*]a top layer of CVD[*R*]are prepared respectively[*A*]by chlorination of SiC	context()	negated: False ,passive: True
 0.937	[*A*]The dual - layer film[*R*]includes[*A*]a top layer of CVD	context()	negated: False ,passive: True
 0.937	[*A*]The dual - layer film[*R*]includes[*A*]a sub-layer of CDC	context()	negated: False ,passive: True
-[LINE#3]The CDC and CVD layers are mainly amorphous.
+[LINE#2] The CDC and CVD layers are mainly amorphous.
 0.831	[*A*]The CVD layers[*R*]are[*A*]mainly amorphous	context()	negated: False ,passive: True
 0.831	[*A*]The CDC layers[*R*]are[*A*]mainly amorphous	context()	negated: False ,passive: True
-[LINE#4]And similar dispersion effects are observed in the Raman spectra, although the D-band position of the CVD layer shifts to higher wavenumber (~1354cm-1) than that of the CDC layer (~1337cm-1).
+[LINE#3] And similar dispersion effects are observed in the Raman spectra, although the D-band position of the CVD layer shifts to higher wavenumber (~1354cm-1) than that of the CDC layer (~1337cm-1).
 0.925	[*A*]similar dispersion effects[*R*]are observed[*A*]in the Raman spectra	context()	negated: False ,passive: True
-[LINE#5]Surface chemistry analysis suggests that the unstable chemical bonds, mainly C-Cl, as well as dangling bonds in the CDC layer play an important role in promoting the nucleation of CVD carbon.
+[LINE#4] Surface chemistry analysis suggests that the unstable chemical bonds, mainly C-Cl, as well as dangling bonds in the CDC layer play an important role in promoting the nucleation of CVD carbon.
 0.898	[*A*]the unstable chemical bonds[*R*]dangling[*A*]bonds in the CDC layer	context(Surface chemistry analysis suggests the unstable chemical bonds , mainly C - Cl , as well as dangling bonds in the CDC layer play)	negated: False ,passive: True
 0.984	[*A*]the unstable chemical bonds, mainly C-Cl, as well as dangling bonds in the CDC layer[*R*]play[*A*]an important role[*A*]in promoting the nucleation of CVD carbon	context(Surface chemistry analysis suggests)	negated: False ,passive: False
 0.848	[*A*]Surface chemistry analysis[*R*]suggests[*A*]that the unstable chemical bonds, mainly C-Cl, as well as dangling bonds in the CDC layer play an important role in promoting the nucleation of CVD carbon	context()	negated: False ,passive: False
-[LINE#6]The surface morphology evolvement from SiC wafer to CDC layer and to dual-layer film is investigated by atomic force microscopy [AFM] and field emission scanning electronic microscopy [FESEM].
+[LINE#5] The surface morphology evolvement from SiC wafer to CDC layer and to dual-layer film is investigated by atomic force microscopy [AFM] and field emission scanning electronic microscopy [FESEM].
 0.961	[*A*]The surface morphology evolvement from SiC wafer to CDC to dual - layer film[*R*]is investigated[*A*]by atomic force microscopy [ AFM ] and field	context()	negated: False ,passive: True
 0.903	[*A*]field emission[*R*]scanning[*A*]electronic microscopy	context()	negated: False ,passive: False
 0.965	[*A*]The surface morphology evolvement from SiC wafer to CDC layer[*R*]is investigated[*A*]by atomic force microscopy [ AFM ] and field emission	context()	negated: False ,passive: True
-[LINE#7]The nanoporous surface formed in the CDC process is favorable for capturing carbon species from the gas phase and can act as a "seedbed" for the nucleation and growth of CVD layer.
+[LINE#6] The nanoporous surface formed in the CDC process is favorable for capturing carbon species from the gas phase and can act as a "seedbed" for the nucleation and growth of CVD layer.
 0.952	[*A*]The nanoporous surface[*R*]can act[*A*]as a " seedbed " for the growth of CVD layer	context()	negated: False ,passive: False
 0.911	[*A*]The nanoporous surface[*R*]can act[*A*]as a " seedbed " for the nucleation	context()	negated: False ,passive: False
 0.968	[*A*]The nanoporous surface formed in the CDC process[*R*]is[*A*]favorable for capturing carbon species from the gas phase	context()	negated: False ,passive: True
 0.925	[*A*]The nanoporous surface[*R*]formed[*A*]in the CDC process	context()	negated: False ,passive: True
-[LINE#8]The primary tribological study indicates that the dual-layer film shows great advantages in friction reduction and wear resistance with comparison to SiC and CDC layer, suggesting its potential in lubrication for SiC-based moving components.
+[LINE#7] The primary tribological study indicates that the dual-layer film shows great advantages in friction reduction and wear resistance with comparison to SiC and CDC layer, suggesting its potential in lubrication for SiC-based moving components.
 0.918	[*A*]CDC layer[*R*]suggesting[*A*]its potential in lubrication for SiC - based moving components	context()	negated: False ,passive: False
 0.952	[*A*]the wear resistance with comparison to SiC layer[*R*]suggesting[*A*]its potential in lubrication for SiC - based moving components	context()	negated: False ,passive: False
 0.769	[*A*]The primary tribological study[*R*]indicates	context()	negated: False ,passive: False
 0.779	[*A*]the dual - layer film[*R*]shows great advantages in friction reduction suggesting[*A*]its potential	context(The primary tribological study indicates the dual - layer film shows)	negated: False ,passive: False
 0.930	[*A*]the dual - layer film[*R*]shows[*A*]great advantages in friction reduction	context(The primary tribological study indicates)	negated: False ,passive: False
 0.776	[*A*]The primary tribological study[*R*]indicates[*A*]that the dual - layer film shows great advantages in friction reduction , suggesting its potential in lubrication for SiC - based moving components	context()	negated: False ,passive: False
-[LINE#9]A dual-layer carbon film was successfully synthesized by carbide-derived carbon process and subsequent chemical vapor deposition.
+[LINE#8] A dual-layer carbon film was successfully synthesized by carbide-derived carbon process and subsequent chemical vapor deposition.
 0.932	[*A*]A dual - layer carbon film[*R*]was successfully synthesized[*A*]by subsequent chemical vapor deposition	context()	negated: False ,passive: True
 0.932	[*A*]A dual - layer carbon film[*R*]was successfully synthesized[*A*]by carbide-derived carbon process	context()	negated: False ,passive: True
-[LINE#10]The dual-layer film is composed of a CDC layer formed by chlorination of SiC and a CVD layer formed by pyrolyzing the CCl4 at high temperature.
+[LINE#9] The dual-layer film is composed of a CDC layer formed by chlorination of SiC and a CVD layer formed by pyrolyzing the CCl4 at high temperature.
 0.922	[*A*]a CVD layer[*R*]by pyrolyzing[*A*]the CCl4[*A*]at high temperature	context()	negated: False ,passive: False
 0.933	[*A*]a CVD layer[*R*]formed[*A*]by pyrolyzing the CCl4 at high temperature	context()	negated: False ,passive: True
 0.944	[*A*]a CDC layer[*R*]formed[*A*]by a CVD layer	context()	negated: False ,passive: True
 0.944	[*A*]a CDC layer[*R*]formed[*A*]by chlorination of SiC	context()	negated: False ,passive: True
 0.937	[*A*]The dual - layer film[*R*]is composed[*A*]of a CDC layer	context()	negated: False ,passive: True
-[LINE#11]Due to the selective removal of Si from SiC, the as-received CDC layer is highly porous in structure and contains many dangling bonds and unsatisfied -bonds on the surface.
+[LINE#10] Due to the selective removal of Si from SiC, the as-received CDC layer is highly porous in structure and contains many dangling bonds and unsatisfied -bonds on the surface.
 0.949	[*A*]the as - received CDC layer[*R*]contains[*A*]many unsatisfied - bonds on the surface	context()	negated: False ,passive: False
 0.949	[*A*]the as - received CDC layer[*R*]contains[*A*]many dangling bonds on the surface	context()	negated: False ,passive: False
 0.961	[*A*]the as - received CDC layer[*R*]is[*A*]highly porous in structure	context()	negated: False ,passive: True
-[LINE#12]By AFM and FESEM observation, the porous structure of CDC layer is characterized with numerous nanopores that can benefit the surface capturing carbon containing species from gas mixture.
+[LINE#11] By AFM and FESEM observation, the porous structure of CDC layer is characterized with numerous nanopores that can benefit the surface capturing carbon containing species from gas mixture.
 0.976	[*A*]the porous structure of CDC layer[*R*]is characterized[*A*]with numerous nanopores[*A*]By FESEM observation	context()	negated: False ,passive: True
 0.919	[*A*]the surface capturing carbon[*R*]containing[*A*]species from gas mixture	context()	negated: False ,passive: False
 0.887	[*A*]numerous nanopores[*R*]can benefit[*A*]the surface capturing carbon containing species from gas mixture	context()	negated: False ,passive: False
 0.976	[*A*]the porous structure of CDC layer[*R*]is characterized[*A*]with numerous nanopores[*A*]By AFM	context()	negated: False ,passive: True
-[LINE#13]On the other hands, the as-received CDC surface is chemically active, so the pyrolyzed carbon atoms are readily bonded to the surface.
+[LINE#12] On the other hands, the as-received CDC surface is chemically active, so the pyrolyzed carbon atoms are readily bonded to the surface.
 0.897	[*A*]the as-received CDC surface[*R*]is[*A*]chemically active	context()	negated: False ,passive: True
-[LINE#14]In short, the CDC layer serves as a seed and intermediate layer for the subsequent CVD carbon deposition.
+[LINE#13] In short, the CDC layer serves as a seed and intermediate layer for the subsequent CVD carbon deposition.
 0.944	[*A*]the CDC layer[*R*]serves[*A*]as intermediate layer for the subsequent CVD carbon deposition	context()	negated: False ,passive: False
 0.933	[*A*]the CDC layer[*R*]serves[*A*]as a seed	context()	negated: False ,passive: False
-[LINE#15]The dual-layer film shows a typical amorphous structure, exhibiting D- and G-bands in Raman spectrum at ~1354 and ~1605cm-1, respectively.
+[LINE#14] The dual-layer film shows a typical amorphous structure, exhibiting D- and G-bands in Raman spectrum at ~1354 and ~1605cm-1, respectively.
 0.943	[*A*]The dual - layer film[*R*]shows[*A*]a typical amorphous structure	context()	negated: False ,passive: False
-[LINE#16]The preliminary tribological study demonstrates that the dual-layer film outperforms the single CDC layer in lubricating SiC substrate.
+[LINE#15] The preliminary tribological study demonstrates that the dual-layer film outperforms the single CDC layer in lubricating SiC substrate.
 0.923	[*A*]the dual-layer film[*R*]outperforms[*A*]the single CDC layer in lubricating SiC substrate	context(The preliminary tribological study demonstrates)	negated: False ,passive: False
 0.864	[*A*]The preliminary tribological study[*R*]demonstrates[*A*]that the dual-layer film outperforms the single CDC layer in lubricating SiC substrate	context()	negated: False ,passive: False
-[LINE#17]It is expected that this dual-layer film will find great potential in lubrication for SiC-based moving components.
+[LINE#16] It is expected that this dual-layer film will find great potential in lubrication for SiC-based moving components.
 0.923	[*A*]this dual-layer film[*R*]will find[*A*]great potential[*A*]in lubrication for SiC-based moving components	context(It is expected)	negated: False ,passive: False
 0.162	[*A*]It[*R*]is expected	context()	negated: False ,passive: False
-[LINE#18]In the future, it is necessary to further understand the growth mechanism, control the structure and improve the properties of this dual-layer film by optimizing the process parameters.
-[LINE#19]Film preparationThe dual-layer film was synthesized by pre-chlorination of single crystalline 6H-SiC wafer with subsequent chemical vapor deposition (CVD) using CCl4 as precursor.
+[LINE#17] In the future, it is necessary to further understand the growth mechanism, control the structure and improve the properties of this dual-layer film by optimizing the process parameters.
+[LINE#18] Film preparationThe dual-layer film was synthesized by pre-chlorination of single crystalline 6H-SiC wafer with subsequent chemical vapor deposition (CVD) using CCl4 as precursor.
 0.973	[*A*]Film preparationThe dual-layer film[*R*]was synthesized[*A*]by pre-chlorination of single crystalline 6H-SiC wafer with subsequent chemical vapor deposition	context()	negated: False ,passive: True
-[LINE#20] The n-type 6H-SiC wafer (1010mm2) withpolished Si-face was purchased from TianKe Blue Semiconducter Co. Ltd (Beijing, China), with nominal cut-off angle of about 0-5.
+[LINE#19+20]  The n-type 6H-SiC wafer (1010mm2) withpolished Si-face was purchased from TianKe Blue Semiconducter Co. Ltd (Beijing, China), with nominal cut-off angle of about 0-5.
 0.956	[*A*]Si-face[*R*]was purchased[*A*]from TianKe Blue Semiconducter Co. Ltd (Beijing, China	context(The n - type 6H - SiC wafer withpolished)	negated: False ,passive: True
 0.967	[*A*]The n-type 6H-SiC wafer[*R*]withpolished[*A*]Si-face was purchased from TianKe Blue Semiconducter Co. Ltd (Beijing, China), with nominal cut-off angle of about 0-5	context()	negated: False ,passive: False
-[LINE#21]The as-received SiC wafers were etched in dilute HF acid (40% solution) for 5min to remove a SiO2 layer, and ultrasonically cleaned in acetone bath for treatment.
+[LINE#21] The as-received SiC wafers were etched in dilute HF acid (40% solution) for 5min to remove a SiO2 layer, and ultrasonically cleaned in acetone bath for treatment.
 0.949	[*A*]The as - received SiC wafers[*R*]were ultrasonically cleaned[*A*]in acetone bath for treatment	context()	negated: False ,passive: True
 0.957	[*A*]The as - received SiC wafers[*R*]were etched[*A*]in dilute HF acid[*A*]for 5min[*A*]to remove a SiO2 layer	context()	negated: False ,passive: True
-[LINE#22] The schematic process to synthesize the dual-layer film was demonstrated in Fig..
+[LINE#22]  The schematic process to synthesize the dual-layer film was demonstrated in Fig..
 0.937	[*A*]the dual-layer film[*R*]was demonstrated[*A*]in Fig	context()	negated: False ,passive: True
 0.751	[*A*]The schematic process[*R*]to synthesize	context()	negated: False ,passive: False
-[LINE#23]Both the CDC process and CVD deposition were carried out in a tube furnace in turn.
+[LINE#23] Both the CDC process and CVD deposition were carried out in a tube furnace in turn.
 0.788	[*A*]CVD deposition[*R*]were carried out	context()	negated: False ,passive: False
 0.818	[*A*]Both the CDC process[*R*]were carried out	context()	negated: False ,passive: False
-[LINE#24]The CDC process was described in detail elsewhere [7].
+[LINE#24] The CDC process was described in detail elsewhere [7].
 0.803	[*A*]The CDC process[*R*]was described[*A*]elsewhere	context()	negated: False ,passive: True
-[LINE#25]In our experiments, the CDC layer was fabricated by chlorination of SiC in a gas mixture (Cl2 at a flow speed of 2mlmin-1+Ar at a flow speed of 98mlmin-1) at 1000C for 10min.
+[LINE#25] In our experiments, the CDC layer was fabricated by chlorination of SiC in a gas mixture (Cl2 at a flow speed of 2mlmin-1+Ar at a flow speed of 98mlmin-1) at 1000C for 10min.
 0.942	[*A*]the CDC layer[*R*]was fabricated[*A*]by chlorination of SiC in a gas mixture[*A*]In our experiments	context()	negated: False ,passive: True
-[LINE#26]The Si was preferred to react with Cl2 and removed away in the form of volatile SiCl4.
+[LINE#26] The Si was preferred to react with Cl2 and removed away in the form of volatile SiCl4.
 0.817	[*A*]The Si[*R*]was removed[*A*]away	context()	negated: False ,passive: True
 0.928	[*A*]The Si[*R*]to react[*A*]with Cl2	context()	negated: False ,passive: False
 0.788	[*A*]The Si[*R*]was preferred	context()	negated: False ,passive: False
-[LINE#27] The surface of SiC was converted into CDC and the shape of the sample stayed unchanged, as demonstrated in Fig..
+[LINE#27]  The surface of SiC was converted into CDC and the shape of the sample stayed unchanged, as demonstrated in Fig..
 0.937	[*A*]the shape of the sample[*R*]stayed[*A*]unchanged[*A*]as demonstrated in Fig	context()	negated: False ,passive: True
 0.949	[*A*]The surface of SiC[*R*]was converted[*A*]into CDC	context()	negated: False ,passive: True
-[LINE#28]Once the CDC process was finished, the Cl2 flow was stopped immediately.
+[LINE#28] Once the CDC process was finished, the Cl2 flow was stopped immediately.
 0.968	[*A*]the Cl2 flow[*R*]was stopped[*A*]immediately[*A*]Once the CDC process was finished	context()	negated: False ,passive: True
 0.803	[*A*]the CDC process[*R*]was finished	context()	negated: False ,passive: False
-[LINE#29]Subsequently, the CCl4 was evaporated at 60C [14] and introduced into reaction region with 50mlmin-1 Ar flow.
+[LINE#29] Subsequently, the CCl4 was evaporated at 60C [14] and introduced into reaction region with 50mlmin-1 Ar flow.
 0.993	[*A*]the CCl4[*R*]was introduced with[*A*]-1 ar flow	context()	negated: False ,passive: False
 0.958	[*A*]the CCl4[*R*]was introduced[*A*]into reaction region[*A*]Subsequently	context()	negated: False ,passive: True
 0.938	[*A*]the CCl4[*R*]was evaporated[*A*]at 60C	context()	negated: False ,passive: True
-[LINE#30]The carbon derived from pyrolyzing of CCl4 at 1000C nucleated and grew on top of CDC layer to form the CVD layer.
+[LINE#30] The carbon derived from pyrolyzing of CCl4 at 1000C nucleated and grew on top of CDC layer to form the CVD layer.
 0.905	[*A*]The carbon[*R*]to form[*A*]the CVD layer	context()	negated: False ,passive: False
 0.937	[*A*]The carbon[*R*]grew[*A*]on top of CDC layer[*A*]to form the CVD layer	context()	negated: False ,passive: True
 0.879	[*A*]The carbon derived from pyrolyzing of CCl4 at 1000C[*R*]nucleated	context()	negated: False ,passive: False
 0.918	[*A*]The carbon[*R*]derived[*A*]from pyrolyzing of CCl4 at 1000C	context()	negated: False ,passive: True
-[LINE#31]The duration for CVD deposition was 2h.
+[LINE#31] The duration for CVD deposition was 2h.
 0.964	[*A*]The duration for CVD deposition[*R*]was[*A*]2h	context()	negated: False ,passive: True
-[LINE#32]The two principal chemical reactions taking place in the process included(1)SiC+2Cl2SiCl4+Cwhich is thermodynamically allowed, with a Gibbs energy of G=-434.1kJ/mol at 1000C, and(2)CCl4C+Cl2which is also thermodynamically allowed, with a Gibbs energy of G=-36.672kJ/mol at 1000C.
+[LINE#32] The two principal chemical reactions taking place in the process included(1)SiC+2Cl2SiCl4+Cwhich is thermodynamically allowed, with a Gibbs energy of G=-434.1kJ/mol at 1000C, and(2)CCl4C+Cl2which is also thermodynamically allowed, with a Gibbs energy of G=-36.672kJ/mol at 1000C.
 0.885	[*A*]The two principal chemical reactions taking place in the process ( 2 ) CCl4C+Cl2which[*R*]is thermodynamically allowed	context()	negated: False ,passive: False
 0.992	[*A*]two principal chemical reactions[*R*]is allowed with[*A*]a Gibbs energy of G= - 434.1kJ / mol at 1000C	context()	negated: False ,passive: False
 0.856	[*A*]The two principal chemical reactions taking place in the process[*R*]is thermodynamically allowed	context()	negated: False ,passive: False
 0.991	[*A*]two principal chemical reactions[*R*]included[*A*]1 SiC+2Cl2SiCl4+Cwhich	context()	negated: False ,passive: False
 0.953	[*A*]The two principal chemical reactions taking place in the process[*R*]included[*A*]1 ) SiC+2Cl2SiCl4+Cwhich	context()	negated: False ,passive: True
 0.926	[*A*]The two principal chemical reactions[*R*]taking[*A*]place[*A*]in the process	context()	negated: False ,passive: True
-[LINE#33]The carbon produced by reaction (1) formed the CDC layer, while reaction (2) formed the CVD layer.
+[LINE#33] The carbon produced by reaction (1) formed the CDC layer, while reaction (2) formed the CVD layer.
 0.896	[*A*]reaction[*R*]formed[*A*]the CVD layer	context()	negated: False ,passive: False
 0.952	[*A*]The carbon produced by reaction (1)[*R*]formed[*A*]the CDC layer[*A*]while reaction (2) formed the CVD layer	context()	negated: False ,passive: False
 0.903	[*A*]The carbon[*R*]produced[*A*]by reaction	context()	negated: False ,passive: True
-[LINE#34]As a result, the dual-layer carbon film composed of sub-layer of CDC and top layer of CVD carbon was synthesized.
+[LINE#34] As a result, the dual-layer carbon film composed of sub-layer of CDC and top layer of CVD carbon was synthesized.
 0.915	[*A*]the dual - layer carbon film composed of top layer of CVD carbon[*R*]was synthesized	context()	negated: False ,passive: False
 0.943	[*A*]the dual - layer carbon film[*R*]composed[*A*]of top layer of CVD carbon	context()	negated: False ,passive: True
 0.899	[*A*]the dual - layer carbon film composed of sub-layer of CDC[*R*]was synthesized	context()	negated: False ,passive: False
 0.943	[*A*]the dual - layer carbon film[*R*]composed[*A*]of sub-layer of CDC	context()	negated: False ,passive: True
-[LINE#35]Moreover, single CDC film was also synthesized for comparison.
+[LINE#35] Moreover, single CDC film was also synthesized for comparison.
 0.901	[*A*]single CDC film[*R*]was synthesized[*A*]for comparison	context()	negated: False ,passive: True
-[LINE#36]The process parameters were the same to those in CDC process for dual-layer film preparation. .
+[LINE#36] The process parameters were the same to those in CDC process for dual-layer film preparation. .
 0.879	[*A*]The process parameters[*R*]were[*A*]the same to those in CDC process for dual-layer film preparation	context()	negated: False ,passive: True
-[LINE#37]Raman spectroscopy is a standard non-destructive analysis tool for characterization of various carbon materials.
+[LINE#37] Raman spectroscopy is a standard non-destructive analysis tool for characterization of various carbon materials.
 0.964	[*A*]Raman spectroscopy[*R*]is[*A*]a standard non-destructive analysis tool for characterization of various carbon materials	context()	negated: False ,passive: True
-[LINE#38]The CDC and the dual-layer films were studied on a Horiba HR800 Raman system with an Ar laser excitation wavelength of 532nm.
+[LINE#38] The CDC and the dual-layer films were studied on a Horiba HR800 Raman system with an Ar laser excitation wavelength of 532nm.
 0.937	[*A*]the dual - layer films[*R*]were studied[*A*]on a Horiba HR800 Raman system	context()	negated: False ,passive: True
 0.887	[*A*]The CDC[*R*]were studied[*A*]on a Horiba HR800 Raman system	context()	negated: False ,passive: True
-[LINE#39]This system is also equipped with a charge couple device (CCD) detector and an optical imaging for focusing the laser at a micro-region.
+[LINE#39] This system is also equipped with a charge couple device (CCD) detector and an optical imaging for focusing the laser at a micro-region.
 0.859	[*A*]This system[*R*]is equipped[*A*]with a charge	context()	negated: False ,passive: True
 0.859	[*A*]This system[*R*]is equipped[*A*]with a charge ( CCD ) detector	context()	negated: False ,passive: True
 0.859	[*A*]This system[*R*]is equipped[*A*]with a charge couple device	context()	negated: False ,passive: True
-[LINE#40]The Raman spectra were collected in the range between 600 and 2000cm-1 for 60s.
+[LINE#40] The Raman spectra were collected in the range between 600 and 2000cm-1 for 60s.
 0.957	[*A*]The Raman spectra[*R*]were collected[*A*]in the range between 600 and 2000cm-1 for 60s	context()	negated: False ,passive: True
-[LINE#41]X-ray photoelectron spectroscopy (XPS) was used to analyze the surface composition and chemical nature of the CDC layer and the dual-layer film.
+[LINE#41] X-ray photoelectron spectroscopy (XPS) was used to analyze the surface composition and chemical nature of the CDC layer and the dual-layer film.
 0.933	[*A*]X-ray photoelectron spectroscopy[*R*]was used[*A*]to analyze the chemical nature of the dual - layer film	context()	negated: False ,passive: True
 0.913	[*A*]X-ray photoelectron spectroscopy[*R*]was used[*A*]to analyze the chemical nature of the CDC layer	context()	negated: False ,passive: True
 0.933	[*A*]X-ray photoelectron spectroscopy[*R*]was used[*A*]to analyze the surface composition nature of the dual - layer film	context()	negated: False ,passive: True
 0.944	[*A*]X-ray photoelectron spectroscopy[*R*]was used[*A*]to analyze the surface composition nature of the CDC layer	context()	negated: False ,passive: True
-[LINE#42]The XPS measurement was performed on PHI-5702 multifunctional photoelectron spectrometer, using Al-Ka X-ray (250W) as the excitation source.
+[LINE#42] The XPS measurement was performed on PHI-5702 multifunctional photoelectron spectrometer, using Al-Ka X-ray (250W) as the excitation source.
 0.993	[*A*]The XPS measurement[*R*]was performed on[*A*]-5702 multifunctional photoelectron spectrometer	context()	negated: False ,passive: False
 0.944	[*A*]The XPS measurement[*R*]was performed[*A*]on PHI-5702 multifunctional photoelectron spectrometer	context()	negated: False ,passive: True
-[LINE#43]No pre-treatment on the samples was conducted.
+[LINE#43] No pre-treatment on the samples was conducted.
 0.785	[*A*]No pre-treatment on the samples[*R*]was conducted	context()	negated: False ,passive: False
-[LINE#44]Survey spectra with energy step of 0.4eV and core level photoelectron lines C1s, O1s, Cl2p and Si2p with energy step of 0.125eV were recorded.
+[LINE#44] Survey spectra with energy step of 0.4eV and core level photoelectron lines C1s, O1s, Cl2p and Si2p with energy step of 0.125eV were recorded.
 0.920	[*A*]Survey[*R*]spectra[*A*]with energy step of core level photoelectron lines	context()	negated: False ,passive: False
 0.845	[*A*]Si2p with energy step of 0.125eV[*R*]were recorded	context()	negated: False ,passive: False
 0.845	[*A*]Cl2p with energy step of 0.125eV[*R*]were recorded	context()	negated: False ,passive: False
 0.932	[*A*]Survey[*R*]spectra[*A*]with energy step of 0.4eV photoelectron lines	context()	negated: False ,passive: False
-[LINE#45]In order to investigate the surface topography evolvement, atomic force microscopy (AFM) was carried out with a Nanoscope IIIA Multimode apparatus (Veeco Instruments) under ambient conditions (relative humidity ~45%, temperature ~26-28C).
+[LINE#45] In order to investigate the surface topography evolvement, atomic force microscopy (AFM) was carried out with a Nanoscope IIIA Multimode apparatus (Veeco Instruments) under ambient conditions (relative humidity ~45%, temperature ~26-28C).
 0.718	[*A*]atomic force microscopy[*R*]was carried out	context()	negated: False ,passive: False
-[LINE#46]AFM was performed in the tapping mode using rectangular silicon cantilevers with spring constant of ~40Nm-1 and typical resonance frequencies between 250 and 300kHz.
+[LINE#46] AFM was performed in the tapping mode using rectangular silicon cantilevers with spring constant of ~40Nm-1 and typical resonance frequencies between 250 and 300kHz.
 0.855	[*A*]AFM[*R*]was performed[*A*]in the tapping mode	context()	negated: False ,passive: True
 0.919	[*A*]AFM[*R*]was performed[*A*]in the tapping mode using rectangular silicon cantilevers with spring constant of ~40Nm - 1 resonance frequencies between 250 and 300kHz	context()	negated: False ,passive: True
-[LINE#47] Field emission scanning electronic microscopy(FESEM, JSM-6701F) was also employed to observe the surface microstructure. .
+[LINE#47+48]  Field emission scanning electronic microscopy(FESEM, JSM-6701F) was also employed to observe the surface microstructure. .
 0.864	[*A*]FESEM[*R*]was employed[*A*]to observe the surface microstructure	context()	negated: False ,passive: True
 0.903	[*A*]Field emission[*R*]scanning[*A*]electronic microscopy	context()	negated: False ,passive: False
-[LINE#48]Friction testFriction and wear behaviors of SiC, CDC layer and dual-layer film were contrastively studied on a UMT-2MT tribo-meter (CETR, USA) with a ball-on-disk configuration in ambient conditions (temperature of 27C and relative humidity of 45%).
+[LINE#49] Friction testFriction and wear behaviors of SiC, CDC layer and dual-layer film were contrastively studied on a UMT-2MT tribo-meter (CETR, USA) with a ball-on-disk configuration in ambient conditions (temperature of 27C and relative humidity of 45%).
 0.931	[*A*]dual - layer film[*R*]were contrastively studied[*A*]on a UMT - 2MT tribo - meter	context()	negated: False ,passive: True
 0.938	[*A*]CDC layer[*R*]were contrastively studied[*A*]on a UMT - 2MT tribo - meter	context()	negated: False ,passive: True
 0.918	[*A*]Friction testFriction[*R*]were contrastively studied[*A*]on a UMT - 2MT tribo - meter	context()	negated: False ,passive: True
-[LINE#49]The Si3N4 and steel balls with diameter of 3mm made oscillating movement (5mm in amplitude) on the top of the samples for 30min.
+[LINE#50] The Si3N4 and steel balls with diameter of 3mm made oscillating movement (5mm in amplitude) on the top of the samples for 30min.
 0.938	[*A*]steel balls with diameter of 3 mm[*R*]made[*A*]oscillating movement	context()	negated: False ,passive: False
 0.927	[*A*]The Si3N4[*R*]made[*A*]oscillating movement[*A*]on the top of the samples for 30min	context()	negated: False ,passive: False
-[LINE#50]The test conditions were 1N in load and 20mms-1 in sliding speed.
+[LINE#51] The test conditions were 1N in load and 20mms-1 in sliding speed.
 0.911	[*A*]The test conditions[*R*]were 1N[*A*]in load and 20mms-1[*A*]in sliding speed	context()	negated: False ,passive: True
-[LINE#51]The friction coefficients were recorded by the tribo-meter.
+[LINE#52] The friction coefficients were recorded by the tribo-meter.
 0.911	[*A*]The friction coefficients[*R*]were recorded[*A*]by the tribo-meter	context()	negated: False ,passive: True
-[LINE#52]Because of their unique properties, such as high hardness, good corrosion resistance, and excellent chemical stability, SiC materials are widely used for tribological applications in extreme conditions [1].
+[LINE#53] Because of their unique properties, such as high hardness, good corrosion resistance, and excellent chemical stability, SiC materials are widely used for tribological applications in extreme conditions [1].
 0.859	[*A*]SiC materials[*R*]are used[*A*]for tribological applications in extreme conditions	context()	negated: False ,passive: True
-[LINE#53]However, the friction and wear coefficients of SiC materials are unacceptably high in unlubricated conditions [2].
+[LINE#54] However, the friction and wear coefficients of SiC materials are unacceptably high in unlubricated conditions [2].
 0.932	[*A*]the wear coefficients of SiC materials[*R*]are[*A*]unacceptably high in unlubricated conditions	context()	negated: False ,passive: True
 0.903	[*A*]the friction[*R*]are[*A*]unacceptably high in unlubricated conditions	context()	negated: False ,passive: True
-[LINE#54]To improve the tribological properties, carbon coatings such as diamond and diamond like carbon (DLC), are usually coated on such materials using chemical vapor deposition (CVD) process [3-5].
-[LINE#55]Although the CVD process is well established, the search for new methods for depositing carbon films continues.
+[LINE#55] To improve the tribological properties, carbon coatings such as diamond and diamond like carbon (DLC), are usually coated on such materials using chemical vapor deposition (CVD) process [3-5].
+[LINE#56] Although the CVD process is well established, the search for new methods for depositing carbon films continues.
 0.843	[*A*]the search for new methods for depositing carbon films[*R*]continues	context()	negated: False ,passive: False
 0.803	[*A*]the CVD process[*R*]is well established	context()	negated: False ,passive: False
-[LINE#56]A promising method for coating carbon films on SiC termed the "carbide-derived carbon" or CDC process is greatly attractive in recent years [6].
+[LINE#57] A promising method for coating carbon films on SiC termed the "carbide-derived carbon" or CDC process is greatly attractive in recent years [6].
 0.944	[*A*]CDC process[*R*]is[*A*]greatly attractive in recent years [6	context()	negated: False ,passive: True
 0.961	[*A*]A promising method for coating carbon films on SiC[*R*]termed[*A*]the "carbide-derived carbon	context()	negated: False ,passive: False
-[LINE#57]In this method, SiC is treated in a chlorine-containing gas mixture at high temperature, and the Si atoms preferentially react with Cl2 and leave the system in the form of SiCl4 [7].
+[LINE#58] In this method, SiC is treated in a chlorine-containing gas mixture at high temperature, and the Si atoms preferentially react with Cl2 and leave the system in the form of SiCl4 [7].
 0.944	[*A*]the Si atoms[*R*]preferentially react[*A*]with Cl2	context()	negated: False ,passive: False
 0.913	[*A*]SiC[*R*]is treated[*A*]in a chlorine - containing gas mixture[*A*]at high temperature[*A*]In this method	context()	negated: False ,passive: True
-[LINE#58]The left carbon atoms rearrange themselves and form a smooth carbon film that is intimately bonded to the underlying SiC substrate.
+[LINE#59] The left carbon atoms rearrange themselves and form a smooth carbon film that is intimately bonded to the underlying SiC substrate.
 0.737	[*A*]a smooth carbon film[*R*]is intimately bonded	context()	negated: False ,passive: False
 0.860	[*A*]The left carbon atoms[*R*]rearrange[*A*]themselves	context()	negated: False ,passive: False
-[LINE#59] Compared with CVD process, the CDC process can easily produce a thick carbon layer (above 100um) at a high rate [6,7].The CDC with unique nanostructure possesses many attractive physical, mechanical, and tribological properties.
-[LINE#60]In particular, it is reported in recent studies that the CDC coating can afford very low friction and wear to improve the tribological performance of the carbides.
+[LINE#60+61]  Compared with CVD process, the CDC process can easily produce a thick carbon layer (above 100um) at a high rate [6,7].The CDC with unique nanostructure possesses many attractive physical, mechanical, and tribological properties.
+[LINE#62] In particular, it is reported in recent studies that the CDC coating can afford very low friction and wear to improve the tribological performance of the carbides.
 0.901	[*A*]the CDC coating[*R*]to improve[*A*]the tribological performance of the carbides	context(recent studies can wear)	negated: False ,passive: False
 0.858	[*A*]recent studies[*R*]can wear[*A*]to improve the tribological performance of the carbides	context()	negated: False ,passive: True
 0.933	[*A*]the CDC coating[*R*]can afford[*A*]very low friction	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]is reported[*A*]in recent studies	context()	negated: False ,passive: True
-[LINE#61] Specifically, this coating can provide a friction coefficient of 0.03-0.3 and wear rate of 10-9-10-7mm3/Nmdepending on the chlorination process and friction test conditions [8-10].
+[LINE#63+64]  Specifically, this coating can provide a friction coefficient of 0.03-0.3 and wear rate of 10-9-10-7mm3/Nmdepending on the chlorination process and friction test conditions [8-10].
 0.903	[*A*]this coating[*R*]can provide[*A*]a friction coefficient of 0.03-0.3	context()	negated: False ,passive: False
-[LINE#62]Surprisingly, the CDC coating with high porosity (i.e.>57.2% for -SiC [11]) shows excellent tribological properties under dry friction condition.
+[LINE#65] Surprisingly, the CDC coating with high porosity (i.e.>57.2% for -SiC [11]) shows excellent tribological properties under dry friction condition.
 0.991	[*A*]57.2 %[*R*]shows[*A*]excellent tribological properties under dry friction condition	context()	negated: False ,passive: False
 0.965	[*A*]i.e.>57.2% for -SiC [11[*R*]shows[*A*]excellent tribological properties under dry friction condition	context()	negated: False ,passive: False
-[LINE#63]However, unpublished studies in our group confirm that the CDC coating is helpless in lubricating for SiC materials under some conditions, including high temperature (i.e. at 300C), water or oil lubrication and high load.
+[LINE#66] However, unpublished studies in our group confirm that the CDC coating is helpless in lubricating for SiC materials under some conditions, including high temperature (i.e. at 300C), water or oil lubrication and high load.
 0.834	[*A*]the CDC coating[*R*]is[*A*]helpless	context(unpublished studies in our group confirm)	negated: False ,passive: True
 0.561	[*A*]unpublished studies in our group[*R*]confirm[*A*]that the CDC coating is helpless in lubricating for SiC materials under some conditions, including high temperature (i.e. at 300C), water or oil lubrication and high load	context()	negated: False ,passive: False
-[LINE#64]The lubrication failure is attributed to the high porosity and the low strength of CDC coating.
+[LINE#67] The lubrication failure is attributed to the high porosity and the low strength of CDC coating.
 0.925	[*A*]The lubrication failure[*R*]is attributed[*A*]to the low strength of CDC coating	context()	negated: False ,passive: True
 0.911	[*A*]The lubrication failure[*R*]is attributed[*A*]to the high porosity	context()	negated: False ,passive: True
-[LINE#65]Further surface modification to improve the density and strength of CDC coating is urgent for extensive tribology application.
+[LINE#68] Further surface modification to improve the density and strength of CDC coating is urgent for extensive tribology application.
 0.928	[*A*]Further surface modification to improve the strength of CDC coating[*R*]is[*A*]urgent	context()	negated: False ,passive: True
 0.928	[*A*]Further surface modification to improve the density of CDC coating[*R*]is[*A*]urgent	context()	negated: False ,passive: True
-[LINE#66]Although there is little pertinent research on such work to date, some information can still be obtained in some literature.
+[LINE#69] Although there is little pertinent research on such work to date, some information can still be obtained in some literature.
 0.761	[*A*]some information[*R*]can be obtained[*A*]still	context()	negated: False ,passive: True
-[LINE#67]Grannen and Chang [12] deposited diamond films from fluorocarbon gases in microwave plasma on SiC and WC substrates without any pretreatments.
+[LINE#70] Grannen and Chang [12] deposited diamond films from fluorocarbon gases in microwave plasma on SiC and WC substrates without any pretreatments.
 0.656	[*A*]Chang WC[*R*]substrates	context()	negated: False ,passive: False
 0.788	[*A*]Grannen WC[*R*]substrates	context()	negated: False ,passive: False
 0.857	[*A*]Chang[*R*]deposited[*A*]diamond films[*A*]from fluorocarbon gases[*A*]in microwave plasma[*A*]on SiC	context()	negated: False ,passive: False
 0.921	[*A*]Grannen[*R*]deposited[*A*]diamond films[*A*]from fluorocarbon gases[*A*]in microwave plasma[*A*]on SiC	context()	negated: False ,passive: False
-[LINE#68]The proposed growth mechanism suggests that the surface carbon layer formed by the etching of carbide substrates with fluorine atomic favors the nucleation of diamond.
+[LINE#71] The proposed growth mechanism suggests that the surface carbon layer formed by the etching of carbide substrates with fluorine atomic favors the nucleation of diamond.
 0.948	[*A*]the surface carbon layer[*R*]formed[*A*]by the etching of carbide substrates with fluorine atomic favors	context()	negated: False ,passive: True
 0.769	[*A*]The proposed growth mechanism[*R*]suggests	context()	negated: False ,passive: False
-[LINE#69] It is reported that ultrananocrystalline diamond (UNCD) could also be deposited on the CDC films using microwave plasma CVD reactor and the tetrahedrally bonded carbon in the CDC films is suggested as a good seed for UNCD deposition [13].Accordingly, we attempt to prepare a novel dual-layer carbon coating on 6H-SiC wafers using CDC technique with subsequent CVD process in the present work.
+[LINE#72+73]  It is reported that ultrananocrystalline diamond (UNCD) could also be deposited on the CDC films using microwave plasma CVD reactor and the tetrahedrally bonded carbon in the CDC films is suggested as a good seed for UNCD deposition [13].Accordingly, we attempt to prepare a novel dual-layer carbon coating on 6H-SiC wafers using CDC technique with subsequent CVD process in the present work.
 0.433	[*A*]we[*R*]attempt to prepare[*A*]a novel dual - layer carbon coating[*A*]on 6H - SiC wafers	context(we attempt)	negated: False ,passive: False
 0.433	[*A*]we[*R*]attempt to prepare[*A*]a novel dual - layer carbon coating[*A*]on 6H - SiC wafers	context(we attempt)	negated: False ,passive: False
 0.550	[*A*]we[*R*]attempt[*A*]to prepare a novel dual - layer carbon coating on 6H - SiC wafers	context()	negated: False ,passive: False
-[LINE#70]According to our considerations, the CDC layer which is formed by chlorination of SiC acts as a seed and intermediate layer for subsequent deposition.
+[LINE#74] According to our considerations, the CDC layer which is formed by chlorination of SiC acts as a seed and intermediate layer for subsequent deposition.
 0.950	[*A*]the CDC layer[*R*]is formed[*A*]by chlorination of SiC acts as intermediate layer for subsequent deposition	context()	negated: False ,passive: True
 0.940	[*A*]the CDC layer[*R*]acts[*A*]as a seed	context()	negated: False ,passive: False
 0.934	[*A*]the CDC layer[*R*]is formed[*A*]by chlorination of SiC	context()	negated: False ,passive: True
-[LINE#71]The CVD process is operated in a same reactor using CCl4 as carbon source.
+[LINE#75] The CVD process is operated in a same reactor using CCl4 as carbon source.
 0.925	[*A*]a same reactor[*R*]using[*A*]CCl4[*A*]as carbon source	context()	negated: False ,passive: False
 0.933	[*A*]The CVD process[*R*]is operated[*A*]in a same reactor	context()	negated: False ,passive: True
-[LINE#72] We used Raman spectroscopy, X-ray photoelectron spectroscopy(XPS), atomic force microscopy (AFM) and field emission scanning electron microscopy (SEM) to determine the microstructure and chemistry of CDC and CVD films.
+[LINE#76+77]  We used Raman spectroscopy, X-ray photoelectron spectroscopy(XPS), atomic force microscopy (AFM) and field emission scanning electron microscopy (SEM) to determine the microstructure and chemistry of CDC and CVD films.
 0.931	[*A*]atomic force field emission[*R*]scanning[*A*]electron microscopy[*A*]to determine the chemistry of CVD films	context()	negated: False ,passive: False
 0.931	[*A*]atomic force field emission[*R*]scanning[*A*]electron microscopy[*A*]to determine the chemistry of CDC films	context()	negated: False ,passive: False
 0.931	[*A*]atomic force field emission[*R*]scanning[*A*]electron microscopy[*A*]to determine the microstructure of CVD films	context()	negated: False ,passive: False
@@ -234,46 +234,46 @@
 0.961	[*A*]atomic force microscopy ( AFM ) emission[*R*]scanning[*A*]electron microscopy[*A*]to determine the microstructure of CVD films	context()	negated: False ,passive: False
 0.961	[*A*]atomic force microscopy ( AFM ) emission[*R*]scanning[*A*]electron microscopy[*A*]to determine the microstructure of CDC films	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]used[*A*]Raman spectroscopy	context()	negated: False ,passive: False
-[LINE#73]And friction and wear properties of the CDC and dual-layer film are discussed.
+[LINE#78] And friction and wear properties of the CDC and dual-layer film are discussed.
 0.816	[*A*]properties of the dual - layer film[*R*]are discussed	context()	negated: False ,passive: False
 0.818	[*A*]properties of the CDC[*R*]are discussed	context()	negated: False ,passive: False
 0.713	[*A*]friction[*R*]are discussed	context()	negated: False ,passive: False
-[LINE#74]It is expected that this dual-layer film can provide better lubrication for SiC materials in many applications.
-[LINE#75] Raman spectrumFor the perfectly ordered graphite, the first-order Raman spectrum recorded in the near-infrared and visible light regimes shows only one peak around 1580cm-1, whereas disordered amorphous carbon generally exhibits two peaks: the so-called G-band at ~1580cm-1andthe so-called D-band (disorder induced (D)) at ~1350cm-1, which is associated with the double-resonance Raman mechanism [15].
+[LINE#79] It is expected that this dual-layer film can provide better lubrication for SiC materials in many applications.
+[LINE#80+81]  Raman spectrumFor the perfectly ordered graphite, the first-order Raman spectrum recorded in the near-infrared and visible light regimes shows only one peak around 1580cm-1, whereas disordered amorphous carbon generally exhibits two peaks: the so-called G-band at ~1580cm-1andthe so-called D-band (disorder induced (D)) at ~1350cm-1, which is associated with the double-resonance Raman mechanism [15].
 0.713	[*A*]disorder[*R*]induced	context()	negated: False ,passive: False
 0.897	[*A*]disordered amorphous carbon[*R*]exhibits[*A*]two peaks	context()	negated: False ,passive: False
 0.954	[*A*]the first-order Raman spectrum[*R*]shows[*A*]only one peak around 1580cm-1	context()	negated: False ,passive: False
 0.949	[*A*]the first-order Raman spectrum[*R*]recorded[*A*]in the near-infrared and visible light regimes	context()	negated: False ,passive: True
 0.982	[*A*]so-called D-band (disorder induced (D)) at ~1350cm-1[*R*]is associated[*A*]with the double-resonance Raman mechanism	context()	negated: False ,passive: True
-[LINE#76] The positions of D- and G-bands, their relative intensity ratio (ID/IG), and their full widthsat half maximum (FWHM) can be used to study the structural information of the carbon materials.
+[LINE#82+83]  The positions of D- and G-bands, their relative intensity ratio (ID/IG), and their full widthsat half maximum (FWHM) can be used to study the structural information of the carbon materials.
 0.817	[*A*]G - bands[*R*]to study[*A*]the structural information of the carbon materials	context()	negated: False ,passive: False
 0.817	[*A*]G - bands[*R*]can be used[*A*]to study the structural information of the carbon materials	context()	negated: False ,passive: True
 0.905	[*A*]The positions of D[*R*]can be used[*A*]to study the structural information of the carbon materials	context()	negated: False ,passive: True
-[LINE#77]2 presents the Raman spectra of SiC substrate, CDC layer, and dual-layer film to investigate the structure evolvement.
+[LINE#84] 2 presents the Raman spectra of SiC substrate, CDC layer, and dual-layer film to investigate the structure evolvement.
 0.425	[*A*]2[*R*]presents[*A*]the Raman spectra of dual - layer film	context()	negated: False ,passive: False
 0.425	[*A*]2[*R*]presents[*A*]the Raman spectra of CDC layer	context()	negated: False ,passive: False
 0.425	[*A*]2[*R*]presents[*A*]the Raman spectra of SiC substrate	context()	negated: False ,passive: False
-[LINE#78]The Raman spectrum of SiC has several peaks in the range of 800-2000cm-1.
+[LINE#85] The Raman spectrum of SiC has several peaks in the range of 800-2000cm-1.
 0.957	[*A*]The Raman spectrum of SiC[*R*]has[*A*]several peaks in the range of 800-2000cm-1	context()	negated: False ,passive: False
-[LINE#79]The strongest peak ~968cm-1 is the longitudinal (LO) optical phonon of SiC, while the peak ~782cm-1 is the transversal optical (TO) phonon.
+[LINE#86] The strongest peak ~968cm-1 is the longitudinal (LO) optical phonon of SiC, while the peak ~782cm-1 is the transversal optical (TO) phonon.
 0.952	[*A*]the peak ~782cm-1[*R*]is[*A*]the transversal optical (TO) phonon	context()	negated: False ,passive: True
 0.972	[*A*]The strongest peak ~968cm-1[*R*]is[*A*]the longitudinal[*A*]while the peak ~782cm-1 is the transversal optical (TO) phonon	context()	negated: False ,passive: True
-[LINE#80]The positions of D- and G-bands for CDC layer situate at ~1337cm-1 and ~1606cm-1, respectively, being different from the specific values for graphite (~1350cm-1 and ~1580cm-1).
+[LINE#87] The positions of D- and G-bands for CDC layer situate at ~1337cm-1 and ~1606cm-1, respectively, being different from the specific values for graphite (~1350cm-1 and ~1580cm-1).
 0.974	[*A*]The G - bands for CDC layer situate at ~1606cm - 1 , respectively[*R*]being[*A*]different from the specific values for graphite	context()	negated: False ,passive: True
 0.974	[*A*]The G - bands for CDC layer situate at ~1337cm - 1 , respectively[*R*]being[*A*]different from the specific values for graphite	context()	negated: False ,passive: True
 0.945	[*A*]The positions of D - , respectively[*R*]being[*A*]different from the specific values for graphite	context()	negated: False ,passive: True
-[LINE#81]Moreover, the D- and G-bands for CDC layer are greatly broadened and cannot be fitted with two Gaussians profiles.
+[LINE#88] Moreover, the D- and G-bands for CDC layer are greatly broadened and cannot be fitted with two Gaussians profiles.
 0.845	[*A*]G - bands for CDC layer[*R*]can not be fitted	context()	negated: True ,passive: False
 0.543	[*A*]the D[*R*]can not be fitted	context()	negated: True ,passive: False
 0.845	[*A*]G - bands for CDC layer[*R*]are greatly broadened	context()	negated: False ,passive: False
 0.543	[*A*]the D[*R*]are greatly broadened	context()	negated: False ,passive: False
-[LINE#82]As we know, the G-peak appears due to the in-plane bond-stretching motion of pairs of sp2 bonded C atoms in graphitic compounds whatever is their stacking order or their crystallite size.
+[LINE#89] As we know, the G-peak appears due to the in-plane bond-stretching motion of pairs of sp2 bonded C atoms in graphitic compounds whatever is their stacking order or their crystallite size.
 0.903	[*A*]the G-peak[*R*]is[*A*]their stacking order or their crystallite size	context()	negated: False ,passive: True
 0.961	[*A*]the G-peak[*R*]appears[*A*]due to the in-plane bond-stretching motion of pairs of sp2 bonded C atoms in graphitic compounds	context()	negated: False ,passive: True
 0.243	[*A*]we[*R*]know	context()	negated: False ,passive: False
-[LINE#83]The broadening and shifting to high wavenumbers of the G-band can be interpreted as an increase in bond angle disorder or the ultrasmall crystal size [16].
+[LINE#90] The broadening and shifting to high wavenumbers of the G-band can be interpreted as an increase in bond angle disorder or the ultrasmall crystal size [16].
 0.982	[*A*]The broadening and shifting to high wavenumbers of the G-band[*R*]can be interpreted[*A*]as an increase in bond angle disorder or the ultrasmall crystal size	context()	negated: False ,passive: True
-[LINE#84]Alternatively, the internal stress induced by the nonuniformity of the crystalline structure and the mismatch between CDC and SiC substrate leads to peak broadening and up-shifting in Raman spectrum of CDC layer [17].
+[LINE#91] Alternatively, the internal stress induced by the nonuniformity of the crystalline structure and the mismatch between CDC and SiC substrate leads to peak broadening and up-shifting in Raman spectrum of CDC layer [17].
 0.981	[*A*]the internal stress induced by the mismatch between SiC substrate[*R*]leads[*A*]to up - shifting in Raman spectrum of CDC layer [ 17	context()	negated: False ,passive: False
 0.981	[*A*]the internal stress induced by the mismatch between CDC substrate[*R*]leads[*A*]to up - shifting in Raman spectrum of CDC layer [ 17	context()	negated: False ,passive: False
 0.965	[*A*]the internal stress induced by the mismatch between SiC substrate[*R*]leads[*A*]to peak broadening	context()	negated: False ,passive: False
@@ -283,41 +283,41 @@
 0.979	[*A*]the internal stress induced by the nonuniformity of the crystalline structure substrate[*R*]leads[*A*]to up - shifting in Raman spectrum of CDC layer [ 17	context()	negated: False ,passive: False
 0.961	[*A*]the internal stress induced by the nonuniformity of the crystalline structure substrate[*R*]leads[*A*]to peak broadening	context()	negated: False ,passive: False
 0.911	[*A*]the internal stress[*R*]induced[*A*]by the nonuniformity of the crystalline structure substrate	context()	negated: False ,passive: True
-[LINE#85]Unfortunately, the origin of the D-band shifting toward smaller wavenumbers is unclear.
+[LINE#92] Unfortunately, the origin of the D-band shifting toward smaller wavenumbers is unclear.
 0.912	[*A*]the origin of the D-band shifting toward smaller wavenumbers[*R*]is[*A*]unclear	context()	negated: False ,passive: True
-[LINE#86]However, the presence of broad D-band further demonstrates the disorder structure.
+[LINE#93] However, the presence of broad D-band further demonstrates the disorder structure.
 0.927	[*A*]the presence of broad D-band[*R*]demonstrates[*A*]the disorder structure	context()	negated: False ,passive: False
-[LINE#87]Its large FWHM implies a large distribution of sp2 bonded clusters with different ring sizes in the CDC layer [18].
+[LINE#94] Its large FWHM implies a large distribution of sp2 bonded clusters with different ring sizes in the CDC layer [18].
 0.836	[*A*]Its large FWHM[*R*]implies[*A*]a large distribution of sp2 bonded clusters with different ring sizes in the CDC layer	context()	negated: False ,passive: False
-[LINE#88]2+2 Gaussian profiles can be used to fit the Raman spectrum [17] to calculate the integrated intensity ratio of D- and G-bands (ID/IG 1.70).
+[LINE#95] 2+2 Gaussian profiles can be used to fit the Raman spectrum [17] to calculate the integrated intensity ratio of D- and G-bands (ID/IG 1.70).
 0.698	[*A*]Gaussian profiles[*R*]to fit	context()	negated: False ,passive: False
 0.918	[*A*]Gaussian profiles[*R*]can be used[*A*]to fit the Raman spectrum	context()	negated: False ,passive: True
-[LINE#89] According to the Tuinstra and Koenig (TK) equation [19,20],the in-plane correlation length (La) or the average size of the graphite sheets in the CDC layer is estimated to be about 2.92nm.
+[LINE#96+97]  According to the Tuinstra and Koenig (TK) equation [19,20],the in-plane correlation length (La) or the average size of the graphite sheets in the CDC layer is estimated to be about 2.92nm.
 0.985	[*A*]the in-plane correlation length (La) or the average size of the graphite sheets in the CDC layer[*R*]to be[*A*]about 2.92nm	context()	negated: False ,passive: True
 0.987	[*A*]the in-plane correlation length (La) or the average size of the graphite sheets in the CDC layer[*R*]is estimated[*A*]to be about 2.92nm	context()	negated: False ,passive: True
-[LINE#90]The Raman features of the CVD layer are similar to that of the CDC layer, although the position of D-band shifts to the higher wavenumber at ~1354cm-1.
+[LINE#98] The Raman features of the CVD layer are similar to that of the CDC layer, although the position of D-band shifts to the higher wavenumber at ~1354cm-1.
 0.935	[*A*]The Raman features of the CVD layer[*R*]are[*A*]similar to that of the CDC layer, although the position of D-band shifts to the higher wavenumber at ~1354cm-1	context()	negated: False ,passive: True
-[LINE#91]Since the CVD carbon nucleates and grows on the top of CDC layer, top layer may copy the structure of CDC layer in some extent and therefore their Raman feature is similar.
+[LINE#99] Since the CVD carbon nucleates and grows on the top of CDC layer, top layer may copy the structure of CDC layer in some extent and therefore their Raman feature is similar.
 0.918	[*A*]top layer[*R*]may copy[*A*]the structure of CDC layer in some extent	context()	negated: False ,passive: False
 0.912	[*A*]the CVD[*R*]grows[*A*]on the top of CDC layer	context()	negated: False ,passive: True
 0.952	[*A*]top layer[*R*]may copy[*A*]the structure of CDC layer in some extent[*A*]Since the CVD carbon nucleates	context()	negated: False ,passive: False
 0.476	[*A*]their Raman feature[*R*]is[*A*]similar	context()	negated: False ,passive: True
-[LINE#92]The up-shifted D-band of CVD layer may be attributed to the increased size of the graphite microcrystalline.
+[LINE#100] The up-shifted D-band of CVD layer may be attributed to the increased size of the graphite microcrystalline.
 0.965	[*A*]The up-shifted D-band of CVD layer[*R*]may be attributed[*A*]to the increased size of the graphite microcrystalline	context()	negated: False ,passive: True
-[LINE#93]It is also necessary to note that the densification of the CVD layer and the reduced internal stress may lead to the difference in Raman spectrum.
-[LINE#94]The Raman spectrum of the CVD layer was also fitted with 2+2 Gaussian mode.
+[LINE#101] It is also necessary to note that the densification of the CVD layer and the reduced internal stress may lead to the difference in Raman spectrum.
+[LINE#102] The Raman spectrum of the CVD layer was also fitted with 2+2 Gaussian mode.
 0.993	[*A*]The Raman spectrum of the CVD layer[*R*]was fitted with[*A*]2 + 2 gaussian mode	context()	negated: False ,passive: False
 0.797	[*A*]The Raman spectrum of the CVD layer[*R*]was fitted	context()	negated: False ,passive: False
-[LINE#95]The integrated intensity ratio (ID/IG) reduces to 1.32, corresponding to an increased La of 3.75nm compared to CDC layer.
+[LINE#103] The integrated intensity ratio (ID/IG) reduces to 1.32, corresponding to an increased La of 3.75nm compared to CDC layer.
 0.949	[*A*]The integrated intensity ratio[*R*]reduces[*A*]to 1.32[*A*]corresponding to an increased La of 3.75nm compared to CDC layer	context()	negated: False ,passive: False
-[LINE#96]analysisThe XPS measurements were carried out aiming to determine the surface composition and chemical nature for SiC, CDC layer and dual-layer film, as demonstrated in Fig. 3.
+[LINE#104] analysisThe XPS measurements were carried out aiming to determine the surface composition and chemical nature for SiC, CDC layer and dual-layer film, as demonstrated in Fig. 3.
 0.944	[*A*]analysisThe XPS measurements[*R*]were carried out[*A*]aiming to determine the chemical nature for SiC[*A*]as demonstrated in Fig	context()	negated: False ,passive: True
 0.964	[*A*]analysisThe XPS measurements[*R*]were carried out[*A*]aiming to determine the surface composition for SiC , dual - layer film[*A*]as demonstrated in Fig	context()	negated: False ,passive: True
 0.944	[*A*]analysisThe XPS measurements[*R*]were carried out[*A*]aiming to determine the surface composition for SiC[*A*]as demonstrated in Fig	context()	negated: False ,passive: True
-[LINE#97]It is mentioned that oxidizing of silicon carbide surface can easily take place even at room temperature [21].
-[LINE#98]The oxygen peak in the survey spectrum may correspond to the contaminated oxygen or the oxidation of SiC surface (Fig. 3a).
+[LINE#105] It is mentioned that oxidizing of silicon carbide surface can easily take place even at room temperature [21].
+[LINE#106] The oxygen peak in the survey spectrum may correspond to the contaminated oxygen or the oxidation of SiC surface (Fig. 3a).
 0.967	[*A*]The oxygen peak in the survey spectrum[*R*]may correspond[*A*]to the contaminated oxygen or the oxidation of SiC surface	context()	negated: False ,passive: True
-[LINE#99]Surface analysis of the CDC layer reveals that it does not consist purely of carbon, but that it still contains O, Si and Cl components.
+[LINE#107] Surface analysis of the CDC layer reveals that it does not consist purely of carbon, but that it still contains O, Si and Cl components.
 0.545	[*A*]it[*R*]contains[*A*]Cl components[*A*]still	context(Surface analysis of the CDC layer reveals)	negated: False ,passive: False
 0.780	[*A*]Surface analysis of the CDC layer[*R*]reveals[*A*]that it still contains Cl components	context()	negated: False ,passive: False
 0.545	[*A*]it[*R*]contains[*A*]Si components[*A*]still	context(Surface analysis of the CDC layer reveals)	negated: False ,passive: False
@@ -326,24 +326,24 @@
 0.747	[*A*]Surface analysis of the CDC layer[*R*]reveals[*A*]that it still contains O components	context()	negated: False ,passive: False
 0.397	[*A*]it[*R*]does not consist[*A*]purely[*A*]of carbon	context(Surface analysis of the CDC layer reveals)	negated: True ,passive: True
 0.747	[*A*]Surface analysis of the CDC layer[*R*]reveals[*A*]that it does not consist purely of carbon	context()	negated: False ,passive: False
-[LINE#100]The oxygen is related to the oxidation of CDC as well as physical adsorption of O2 and H2O molecular due to the highly porous structure.
+[LINE#108] The oxygen is related to the oxidation of CDC as well as physical adsorption of O2 and H2O molecular due to the highly porous structure.
 0.947	[*A*]The oxygen[*R*]is related[*A*]to the physical adsorption of H2O molecular due to the highly porous structure	context()	negated: False ,passive: True
 0.937	[*A*]The oxygen[*R*]is related[*A*]to the physical adsorption of O2 molecular due to the highly porous structure	context()	negated: False ,passive: True
 0.947	[*A*]The oxygen[*R*]is related[*A*]to the oxidation of CDC molecular due to the highly porous structure	context()	negated: False ,passive: True
-[LINE#101]Surprisingly, the Si is identified within the CDC layer.
+[LINE#109] Surprisingly, the Si is identified within the CDC layer.
 0.938	[*A*]the Si[*R*]is identified[*A*]within the CDC layer	context()	negated: False ,passive: True
-[LINE#102][13] reported that the silicon maybe exist in oxidized forms of silicon, i.e. SiO2, which derives from the oxidation of the escaped SiCl4 gas with trace oxygen.
+[LINE#110] [13] reported that the silicon maybe exist in oxidized forms of silicon, i.e. SiO2, which derives from the oxidation of the escaped SiCl4 gas with trace oxygen.
 0.863	[*A*]the silicon[*R*]exist[*A*]in oxidized forms of silicon	context(13 reported)	negated: False ,passive: True
 0.321	[*A*]13[*R*]reported[*A*]that the silicon maybe exist in oxidized forms of silicon	context()	negated: False ,passive: False
 0.945	[*A*]i.e. SiO2[*R*]derives[*A*]from the oxidation of the escaped SiCl4 gas with trace oxygen	context()	negated: False ,passive: True
-[LINE#103]The surface atomic concentration of Cl in the CDC layer by XPS analysis is about 5.5at.%.
+[LINE#111] The surface atomic concentration of Cl in the CDC layer by XPS analysis is about 5.5at.%.
 0.968	[*A*]The surface atomic concentration of Cl in the CDC layer by XPS analysis[*R*]is[*A*]about 5.5at	context()	negated: False ,passive: True
-[LINE#104]Since the CDC layer results from selective etching of Si atoms in SiC by Cl2, some of the Cl2 is likely retained in the CDC layer in atomic or bonded form [22].
+[LINE#112] Since the CDC layer results from selective etching of Si atoms in SiC by Cl2, some of the Cl2 is likely retained in the CDC layer in atomic or bonded form [22].
 0.899	[*A*]some of the Cl2[*R*]is retained[*A*]in the CDC layer in atomic or bonded form	context()	negated: False ,passive: True
-[LINE#105] For the survey spectrum of dual-layer film, the surface composition is characterized by mainly the presence of C and O components with minor contents of Si (6.5at.%) and.
+[LINE#113]  For the survey spectrum of dual-layer film, the surface composition is characterized by mainly the presence of C and O components with minor contents of Si (6.5at.%) and.
 0.972	[*A*]the surface composition[*R*]is characterized[*A*]by mainly the presence of O components with minor contents of Si ( 6.5at . %[*A*]For the survey spectrum of dual - layer film	context()	negated: False ,passive: True
 0.972	[*A*]the surface composition[*R*]is characterized[*A*]by mainly the presence of C with minor contents of Si ( 6.5at . %[*A*]For the survey spectrum of dual - layer film	context()	negated: False ,passive: True
-[LINE#106]The attenuation of Si and Cl signals does not indicate that they are removed in subsequent CVD process, but their signals are covered by the top layer with increasing thickness.
+[LINE#114] The attenuation of Si and Cl signals does not indicate that they are removed in subsequent CVD process, but their signals are covered by the top layer with increasing thickness.
 0.576	[*A*]their signals[*R*]are covered[*A*]by the top layer with increasing thickness	context(The attenuation of Cl signals does not indicate)	negated: False ,passive: True
 0.805	[*A*]The attenuation of Cl signals[*R*]does not indicate[*A*]that their signals are covered by the top layer with increasing thickness	context()	negated: True ,passive: False
 0.597	[*A*]they[*R*]are removed[*A*]in subsequent CVD process	context(The attenuation of Cl signals does not indicate)	negated: False ,passive: True
@@ -352,151 +352,151 @@
 0.805	[*A*]The attenuation of Si signals[*R*]does not indicate[*A*]that their signals are covered by the top layer with increasing thickness	context()	negated: True ,passive: False
 0.597	[*A*]they[*R*]are removed[*A*]in subsequent CVD process	context(The attenuation of Si signals does not indicate)	negated: False ,passive: True
 0.756	[*A*]The attenuation of Si signals[*R*]does not indicate[*A*]that they are removed in subsequent CVD process	context()	negated: True ,passive: False
-[LINE#107]More detailed information about the surface chemistry can be obtained from the analysis of the core level C1s spectra.
+[LINE#115] More detailed information about the surface chemistry can be obtained from the analysis of the core level C1s spectra.
 0.961	[*A*]the core level[*R*]s[*A*]C1	context()	negated: False ,passive: True
 0.938	[*A*]More detailed information about the surface chemistry[*R*]can be obtained[*A*]from the analysis of the core level	context()	negated: False ,passive: True
-[LINE#108]3b-d shows the C1s core levels of SiC, CDC layer and CVD layer and their line shape fits.
+[LINE#116] 3b-d shows the C1s core levels of SiC, CDC layer and CVD layer and their line shape fits.
 0.847	[*A*]d[*R*]shows[*A*]the C1 s core levels of SiC	context(their line shape fits)	negated: False ,passive: False
 0.376	[*A*]their line shape[*R*]fits	context()	negated: False ,passive: False
 0.874	[*A*]d[*R*]shows[*A*]the C1 s core levels of SiC	context()	negated: False ,passive: False
-[LINE#109]The C1s peak on SiC demonstrates that the composition is dominated by the binding energy of C-Si (282.7eV) with CC (284.3eV), C-C (285.0eV), and C-O (286.1eV) at the high binding energy (Fig. 3b).
-[LINE#110]The C1s peak of CDC can be fitted by five components with binding energies of 284.4, 285.3, 286.2, 287.2, and 283.0eV.
+[LINE#117] The C1s peak on SiC demonstrates that the composition is dominated by the binding energy of C-Si (282.7eV) with CC (284.3eV), C-C (285.0eV), and C-O (286.1eV) at the high binding energy (Fig. 3b).
+[LINE#118] The C1s peak of CDC can be fitted by five components with binding energies of 284.4, 285.3, 286.2, 287.2, and 283.0eV.
 0.933	[*A*]peak of CDC[*R*]can be fitted[*A*]by five components with 283.0eV	context()	negated: False ,passive: True
 0.933	[*A*]peak of CDC[*R*]can be fitted[*A*]by five components with binding energies of 284.4	context()	negated: False ,passive: True
-[LINE#111]The first component is attributed to the sp2 bonded carbon, whereas the second one is attributed to the sp3 coordinated bonds in amorphous carbon [23,24].
+[LINE#119] The first component is attributed to the sp2 bonded carbon, whereas the second one is attributed to the sp3 coordinated bonds in amorphous carbon [23,24].
 0.897	[*A*]the second one[*R*]coordinated[*A*]bonds[*A*]in amorphous carbon	context()	negated: False ,passive: False
 0.911	[*A*]the second one[*R*]is attributed[*A*]to the sp3	context()	negated: False ,passive: True
 0.952	[*A*]The first component[*R*]is attributed[*A*]to the sp2 bonded carbon[*A*]whereas the second one is attributed to the sp3 coordinated bonds in amorphous carbon	context()	negated: False ,passive: True
-[LINE#112]The component at 287.2 and 283.0eV is assigned to CO bonded carbon [25] and C-Si bond, respectively.
+[LINE#120] The component at 287.2 and 283.0eV is assigned to CO bonded carbon [25] and C-Si bond, respectively.
 0.949	[*A*]The component at 283.0eV[*R*]is assigned[*A*]to CO	context()	negated: False ,passive: True
 0.931	[*A*]The component at 287.2[*R*]is assigned[*A*]to CO	context()	negated: False ,passive: True
-[LINE#113]The component with bonding energy of 286.2eV is attributed to C-Cl or C-O bond.
+[LINE#121] The component with bonding energy of 286.2eV is attributed to C-Cl or C-O bond.
 0.961	[*A*]The component with bonding energy of 286.2eV[*R*]is attributed[*A*]to C-Cl or C-O bond	context()	negated: False ,passive: True
-[LINE#114] 3d, the C1s peak of the dual-layer film is fitted by four components with the binding energy of 284.3, 285.1, 286.1, and 287.0eV. Similar to that of the CDC layer,the two contributions at low binding energy are assigned to the sp2 and sp3 C.
+[LINE#122+123]  3d, the C1s peak of the dual-layer film is fitted by four components with the binding energy of 284.3, 285.1, 286.1, and 287.0eV. Similar to that of the CDC layer,the two contributions at low binding energy are assigned to the sp2 and sp3 C.
 0.992	[*A*]two contributions[*R*]are assigned to[*A*]the sp3 C.	context()	negated: False ,passive: False
 0.948	[*A*]the two contributions at low binding energy[*R*]are assigned[*A*]to the sp3 C.	context()	negated: False ,passive: True
 0.992	[*A*]two contributions[*R*]are assigned to[*A*]the sp2	context()	negated: False ,passive: False
 0.938	[*A*]the two contributions at low binding energy[*R*]are assigned[*A*]to the sp2	context()	negated: False ,passive: True
-[LINE#115]The components at 286.1 and 287.0eV should be attributed to C-O and CO bond, respectively.
+[LINE#124] The components at 286.1 and 287.0eV should be attributed to C-O and CO bond, respectively.
 0.949	[*A*]The components at 287.0eV[*R*]should be attributed[*A*]to C - CO bond[*A*]respectively	context()	negated: False ,passive: True
 0.939	[*A*]The components at 287.0eV[*R*]should be attributed[*A*]to C - O bond[*A*]respectively	context()	negated: False ,passive: True
 0.931	[*A*]The components at 286.1[*R*]should be attributed[*A*]to C - CO bond[*A*]respectively	context()	negated: False ,passive: True
 0.919	[*A*]The components at 286.1[*R*]should be attributed[*A*]to C - O bond[*A*]respectively	context()	negated: False ,passive: True
-[LINE#116] From the XPS analysis, both the CDC and the dual-layer film mainly consist of sp2 bonded carbon with a small mixture of sp3 carbon, C-O, and C.
-[LINE#117]O. However, the effect of surface chemical nature of CDC layer under the top layer cannot be studied by XPS.
+[LINE#125]  From the XPS analysis, both the CDC and the dual-layer film mainly consist of sp2 bonded carbon with a small mixture of sp3 carbon, C-O, and C.
+[LINE#126] O. However, the effect of surface chemical nature of CDC layer under the top layer cannot be studied by XPS.
 0.978	[*A*]the effect of surface chemical nature of CDC layer under the top layer[*R*]can not be studied[*A*]by XPS	context()	negated: True ,passive: True
-[LINE#118] Indeed, there are many voids, defects, and active atomic and/or molecular sites, which may contain dangling or unsatisfied -bonds within the CDC film (especially near the top).
+[LINE#127]  Indeed, there are many voids, defects, and active atomic and/or molecular sites, which may contain dangling or unsatisfied -bonds within the CDC film (especially near the top).
 0.978	[*A*]many voids, defects, and active atomic and/or molecular sites[*R*]may contain[*A*]dangling or unsatisfied -bonds within the CDC film (especially near the top	context()	negated: False ,passive: False
-[LINE#119]Before the CVD process, such active sites are passivated by physical interaction (i.e. physical adsorption) and formation of metastable chemical bonds, e.g. the C-Cl bond.
+[LINE#128] Before the CVD process, such active sites are passivated by physical interaction (i.e. physical adsorption) and formation of metastable chemical bonds, e.g. the C-Cl bond.
 0.957	[*A*]such active sites[*R*]are passivated[*A*]by physical formation of metastable chemical bonds[*A*]Before the CVD process	context()	negated: False ,passive: True
 0.957	[*A*]such active sites[*R*]are passivated[*A*]by physical interaction[*A*]Before the CVD process	context()	negated: False ,passive: True
-[LINE#120]In other words, the surface of the CDC layer is highly active, which can act as a "seedbed" for nucleation and growth of the top layer. .
+[LINE#129] In other words, the surface of the CDC layer is highly active, which can act as a "seedbed" for nucleation and growth of the top layer. .
 0.897	[*A*]the surface of the CDC layer[*R*]is[*A*]highly active	context()	negated: False ,passive: True
-[LINE#121]4 shows the AFM images and corresponding 3D profiles of SiC wafer, CDC layer and dual-layer film, indicating surface morphology evolution in the process.
+[LINE#130] 4 shows the AFM images and corresponding 3D profiles of SiC wafer, CDC layer and dual-layer film, indicating surface morphology evolution in the process.
 0.905	[*A*]dual - layer film[*R*]indicating[*A*]surface morphology evolution[*A*]in the process	context()	negated: False ,passive: False
 0.922	[*A*]CDC layer film[*R*]indicating[*A*]surface morphology evolution[*A*]in the process	context()	negated: False ,passive: False
 0.495	[*A*]4[*R*]shows[*A*]the corresponding 3 D profiles of SiC wafer	context()	negated: False ,passive: False
 0.495	[*A*]4[*R*]shows[*A*]the AFM images film	context()	negated: False ,passive: False
-[LINE#122] The as-received SiC surface in Fig.4a and b is characterized by highly uniform and flat terraces.
+[LINE#131+132]  The as-received SiC surface in Fig.4a and b is characterized by highly uniform and flat terraces.
 0.962	[*A*]The as - received SiC surface in Fig.4a[*R*]b[*A*]terraces	context()	negated: False ,passive: False
-[LINE#123]The surface roughness RMS (root mean square roughness) is evaluated as 0.22nm.
+[LINE#133] The surface roughness RMS (root mean square roughness) is evaluated as 0.22nm.
 0.792	[*A*]The surface roughness RMS[*R*]is evaluated	context()	negated: False ,passive: False
 0.713	[*A*]root[*R*]mean	context()	negated: False ,passive: False
-[LINE#124]The step direction and terrace width are determined by the incidental disorientation of the substrate surface with respect to the crystallographic (0001) plane [26].
+[LINE#134] The step direction and terrace width are determined by the incidental disorientation of the substrate surface with respect to the crystallographic (0001) plane [26].
 0.937	[*A*]terrace width[*R*]are determined[*A*]by the incidental disorientation of the substrate surface with respect to the crystallographic ( 0001 ) plane	context()	negated: False ,passive: True
 0.943	[*A*]The step direction[*R*]are determined[*A*]by the incidental disorientation of the substrate surface with respect to the crystallographic ( 0001 ) plane	context()	negated: False ,passive: True
-[LINE#125]The step height is smaller than that of the dimension of the 6H-SiC unit cell in the direction perpendicular to the surface (c axis), which may resulted from the silicon oxide layer.
+[LINE#135] The step height is smaller than that of the dimension of the 6H-SiC unit cell in the direction perpendicular to the surface (c axis), which may resulted from the silicon oxide layer.
 0.976	[*A*]the dimension of the 6H-SiC unit cell in the direction perpendicular to the surface[*R*]may resulted[*A*]from the silicon oxide layer	context()	negated: False ,passive: True
 0.906	[*A*]The step height[*R*]is[*A*]smaller than that of the dimension of the 6H-SiC unit cell in the direction perpendicular to the surface	context()	negated: False ,passive: True
-[LINE#126] The morphology of the CDC layer prepared by chlorination is shown in Fig..
+[LINE#136]  The morphology of the CDC layer prepared by chlorination is shown in Fig..
 0.950	[*A*]The morphology of the CDC layer[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
 0.933	[*A*]the CDC layer[*R*]prepared[*A*]by chlorination	context()	negated: False ,passive: True
-[LINE#127] The SiC surface undergoes significant modification: it is now covered with numerous nanopores up to 100nm in width, and the original are disappeared.
+[LINE#137+138]  The SiC surface undergoes significant modification: it is now covered with numerous nanopores up to 100nm in width, and the original are disappeared.
 0.246	[*A*]the original[*R*]disappeared	context()	negated: False ,passive: False
 0.317	[*A*]the original[*R*]are[*A*]disappeared	context()	negated: False ,passive: True
 0.915	[*A*]The SiC surface[*R*]undergoes[*A*]significant modification	context(it is covered)	negated: False ,passive: True
 0.425	[*A*]it[*R*]is covered[*A*]with numerous nanopores in width[*A*]now	context()	negated: False ,passive: True
 0.279	[*A*]the original[*R*]are disappeared	context()	negated: False ,passive: False
-[LINE#128]The formation of CDC is accompanied by substantial changes in the morphology, leading to a considerable increasing surface roughness of 1.46nm.
+[LINE#139] The formation of CDC is accompanied by substantial changes in the morphology, leading to a considerable increasing surface roughness of 1.46nm.
 0.949	[*A*]The formation of CDC[*R*]is accompanied[*A*]by substantial changes in the morphology[*A*]leading to a considerable increasing surface roughness of 1.46nm	context()	negated: False ,passive: True
-[LINE#129]As a consequence of chlorination, the CDC layer possesses a nanoporous structure and an increasing specific surface area on the surface [6,27].
+[LINE#140] As a consequence of chlorination, the CDC layer possesses a nanoporous structure and an increasing specific surface area on the surface [6,27].
 0.933	[*A*]the CDC layer[*R*]possesses[*A*]an increasing specific surface area on the surface	context()	negated: False ,passive: False
 0.933	[*A*]the CDC layer[*R*]possesses[*A*]a nanoporous structure	context()	negated: False ,passive: False
-[LINE#130]The nanopores can easily capture the carbon species from the gas phase for the subsequent CVD process, which benefits the nucleation and growth of the CVD layer.
+[LINE#141] The nanopores can easily capture the carbon species from the gas phase for the subsequent CVD process, which benefits the nucleation and growth of the CVD layer.
 0.958	[*A*]the gas phase for the subsequent CVD process[*R*]benefits[*A*]the growth of the CVD layer	context()	negated: False ,passive: False
 0.958	[*A*]the gas phase for the subsequent CVD process[*R*]benefits[*A*]the nucleation of the CVD layer	context()	negated: False ,passive: False
 0.947	[*A*]The nanopores[*R*]can easily capture[*A*]the carbon species from the gas phase for the subsequent CVD process	context()	negated: False ,passive: False
-[LINE#131] After the CVD process, the surface morphology is characterized by spherical or ellipsoidal particles, as shown in Fig. f. The size of carbon particles is up to approximately 3m in diameter, and the surface roughness is substantially increased to 54.68nm in RMS.The surface microstructures of the CDC layer and the dual-layer film are also investigated by FESEM as shown in Fig..
+[LINE#142+143]  After the CVD process, the surface morphology is characterized by spherical or ellipsoidal particles, as shown in Fig. f. The size of carbon particles is up to approximately 3m in diameter, and the surface roughness is substantially increased to 54.68nm in RMS.The surface microstructures of the CDC layer and the dual-layer film are also investigated by FESEM as shown in Fig..
 0.952	[*A*]the surface roughness[*R*]is substantially increased[*A*]to 54.68nm in RMS.The surface microstructures of the CDC layer and the dual-layer film	context()	negated: False ,passive: True
 0.946	[*A*]the surface morphology[*R*]is characterized[*A*]by spherical or ellipsoidal particles[*A*]as shown in Fig[*A*]After the CVD process	context(The size of carbon particles is)	negated: False ,passive: True
 0.930	[*A*]The size of carbon particles[*R*]is[*A*]up to approximately 3m in diameter	context()	negated: False ,passive: True
-[LINE#132]As the CDC layer is formed by selective etching of Si from SiC, the surface is characterized of a highly porous structure mainly consisted of numerous nanoscale pores and a corresponding large specific area of the CDC layer (Fig. 5a).
+[LINE#144] As the CDC layer is formed by selective etching of Si from SiC, the surface is characterized of a highly porous structure mainly consisted of numerous nanoscale pores and a corresponding large specific area of the CDC layer (Fig. 5a).
 0.905	[*A*]a highly porous structure[*R*]consisted[*A*]of numerous nanoscale pores	context()	negated: False ,passive: True
 0.903	[*A*]the surface[*R*]is characterized[*A*]of a highly porous structure	context()	negated: False ,passive: True
 0.944	[*A*]the CDC layer[*R*]is formed[*A*]by selective etching of Si from SiC	context()	negated: False ,passive: True
-[LINE#133]Assuming all the Si atoms are removed from SiC and no volume change occurs, a large pore volume of 57.3% will be obtained.
+[LINE#145] Assuming all the Si atoms are removed from SiC and no volume change occurs, a large pore volume of 57.3% will be obtained.
 0.816	[*A*]a large pore volume of 57.3 %[*R*]will be obtained	context()	negated: False ,passive: False
 0.861	[*A*]Assuming all the Si atoms are removed from SiC[*R*]will be obtained	context()	negated: False ,passive: False
-[LINE#134]Such a unique microstructure of nanopores as well as the surface chemical activity should promote the nucleation and growth of CVD layer.
+[LINE#146] Such a unique microstructure of nanopores as well as the surface chemical activity should promote the nucleation and growth of CVD layer.
 0.931	[*A*]the surface chemical activity[*R*]should promote[*A*]the growth of CVD layer	context()	negated: False ,passive: False
 0.931	[*A*]the surface chemical activity[*R*]should promote[*A*]the nucleation of CVD layer	context()	negated: False ,passive: False
 0.943	[*A*]Such a unique microstructure of nanopores[*R*]should promote[*A*]the growth of CVD layer	context()	negated: False ,passive: False
 0.943	[*A*]Such a unique microstructure of nanopores[*R*]should promote[*A*]the nucleation of CVD layer	context()	negated: False ,passive: False
-[LINE#135]5b shows the microstructure of the CVD layer.
+[LINE#147] 5b shows the microstructure of the CVD layer.
 0.495	[*A*]5b[*R*]shows[*A*]the microstructure of the CVD layer	context()	negated: False ,passive: False
-[LINE#136]The whole surface is uniformly covered with quasi-spherical carbon particles with size in submicrometer scale, with accordance to the observation by AFM (Fig. 4c and d). .
+[LINE#148] The whole surface is uniformly covered with quasi-spherical carbon particles with size in submicrometer scale, with accordance to the observation by AFM (Fig. 4c and d). .
 0.952	[*A*]The whole surface[*R*]is uniformly covered[*A*]with quasi-spherical carbon particles with size in submicrometer scale , with accordance to the observation by AFM	context()	negated: False ,passive: True
 0.952	[*A*]The whole surface[*R*]is uniformly covered[*A*]with quasi-spherical carbon particles with size in submicrometer scale , with accordance to the observation by AFM ( Fig . 4c	context()	negated: False ,passive: True
-[LINE#137]Tribological propertyThe tribological behaviors of SiC wafer, CDC, and dual-layer film are contrastively investigated to evaluate the potential lubrication.
+[LINE#149] Tribological propertyThe tribological behaviors of SiC wafer, CDC, and dual-layer film are contrastively investigated to evaluate the potential lubrication.
 0.961	[*A*]Tribological propertyThe tribological behaviors of dual - layer film[*R*]are contrastively investigated[*A*]to evaluate the potential lubrication	context()	negated: False ,passive: True
 0.949	[*A*]Tribological propertyThe tribological behaviors of CDC[*R*]are contrastively investigated[*A*]to evaluate the potential lubrication	context()	negated: False ,passive: True
 0.953	[*A*]Tribological propertyThe tribological behaviors of SiC wafer[*R*]are contrastively investigated[*A*]to evaluate the potential lubrication	context()	negated: False ,passive: True
-[LINE#138]6a and b shows the friction coefficient as a function of sliding time of the samples sliding against Si3N4 and steel in room air, respectively.
+[LINE#150] 6a and b shows the friction coefficient as a function of sliding time of the samples sliding against Si3N4 and steel in room air, respectively.
 0.886	[*A*]the samples[*R*]sliding[*A*]in room air	context()	negated: False ,passive: True
-[LINE#139]After a run-in process of about 500s, the friction coefficient of SiC wafer against Si3N4 is steady at 0.80, which is the typical value of SiC ceramic in open air.
+[LINE#151] After a run-in process of about 500s, the friction coefficient of SiC wafer against Si3N4 is steady at 0.80, which is the typical value of SiC ceramic in open air.
 0.990	[*A*]the friction coefficient of SiC wafer against Si3N4[*R*]is[*A*]steady[*A*]at 0.80[*A*]which is the typical value of SiC ceramic in open air[*A*]After a run-in process of about 500s	context()	negated: False ,passive: True
-[LINE#140]Meanwhile, the friction coefficient curve fluctuates rather heavily during testing.
+[LINE#152] Meanwhile, the friction coefficient curve fluctuates rather heavily during testing.
 0.953	[*A*]the friction coefficient curve[*R*]fluctuates rather heavily[*A*]during testing[*A*]Meanwhile	context()	negated: False ,passive: True
-[LINE#141]The friction coefficient of the CDC layer greatly reduces to 0.25, showing an improved tribological behavior compared to SiC. When sliding against Si3N4, the friction coefficient of the dual-layer film is further reduced to 0.15.
+[LINE#153] The friction coefficient of the CDC layer greatly reduces to 0.25, showing an improved tribological behavior compared to SiC. When sliding against Si3N4, the friction coefficient of the dual-layer film is further reduced to 0.15.
 0.897	[*A*]The friction coefficient of the CDC layer[*R*]reduces showing[*A*]an improved tribological behavior	context(The friction coefficient of the CDC layer reduces)	negated: False ,passive: False
 0.963	[*A*]The friction coefficient of the CDC layer[*R*]reduces[*A*]to 0.25[*A*]showing an improved tribological behavior[*A*]compared to SiC[*A*]When sliding against Si3N4, the friction coefficient of the dual-layer film is further reduced to 0.15	context()	negated: False ,passive: False
 0.808	[*A*]the friction coefficient of the dual-layer film[*R*]is reduced[*A*]to 0.15	context()	negated: False ,passive: True
-[LINE#142]Differently, the friction coefficients of the CDC layer and the dual-layer film against steel ball are higher than Si3N4.
+[LINE#154] Differently, the friction coefficients of the CDC layer and the dual-layer film against steel ball are higher than Si3N4.
 0.967	[*A*]the friction coefficients of the dual - layer film against steel ball[*R*]are[*A*]higher than Si3N4	context()	negated: False ,passive: True
 0.961	[*A*]the friction coefficients of the CDC layer[*R*]are[*A*]higher than Si3N4	context()	negated: False ,passive: True
-[LINE#143]Specifically, the friction coefficient of the CDC layer drastically fluctuates in initial process and the average value is above 0.3, while that of the dual-layer film is very steady and slightly increases to 0.17.From the tribological results, we can conclude that the Si3N4 is the preferred dual material over the steel whenever sliding against the CDC layer or the dual-layer film.
+[LINE#155] Specifically, the friction coefficient of the CDC layer drastically fluctuates in initial process and the average value is above 0.3, while that of the dual-layer film is very steady and slightly increases to 0.17.From the tribological results, we can conclude that the Si3N4 is the preferred dual material over the steel whenever sliding against the CDC layer or the dual-layer film.
 0.927	[*A*]that of the dual-layer film[*R*]increases[*A*]to 0.17.From the tribological results	context()	negated: False ,passive: True
 0.876	[*A*]that of the dual-layer film[*R*]is[*A*]very steady	context()	negated: False ,passive: True
 0.889	[*A*]the average value[*R*]is[*A*]above 0.3[*A*]while that of the dual-layer film is very steady and slightly increases	context()	negated: False ,passive: True
 0.928	[*A*]the Si3N4[*R*]is[*A*]the preferred dual material over the steel	context(we can conclude)	negated: False ,passive: True
 0.309	[*A*]we[*R*]can conclude[*A*]that the Si3N4 is the preferred dual material over the steel	context()	negated: False ,passive: False
-[LINE#144]The steel is easily worn because of its much lower hardness than Si3N4.
+[LINE#156] The steel is easily worn because of its much lower hardness than Si3N4.
 0.859	[*A*]The steel[*R*]is easily worn[*A*]because of its much lower hardness than Si3N4	context()	negated: False ,passive: True
-[LINE#145]The debris from the steel retained in the contact surface can lead to severe abrasive wear.
+[LINE#157] The debris from the steel retained in the contact surface can lead to severe abrasive wear.
 0.913	[*A*]The debris from the steel[*R*]can lead[*A*]to severe abrasive wear	context()	negated: False ,passive: False
 0.903	[*A*]the steel[*R*]retained[*A*]in the contact surface	context()	negated: False ,passive: True
-[LINE#146]Moreover, chemical corrosion [28] and adhesive interaction prefer to occur in the contact surface to increase friction when sliding against steel.
+[LINE#158] Moreover, chemical corrosion [28] and adhesive interaction prefer to occur in the contact surface to increase friction when sliding against steel.
 0.887	[*A*]adhesive interaction[*R*]to occur[*A*]in the contact surface[*A*]to increase friction when sliding against steel	context()	negated: False ,passive: True
 0.903	[*A*]adhesive interaction[*R*]prefer[*A*]to occur in the contact surface to increase friction	context()	negated: False ,passive: False
 0.887	[*A*]chemical corrosion[*R*]prefer[*A*]to occur in the contact surface to increase friction	context()	negated: False ,passive: False
-[LINE#147]Whereas, such negative effects are attenuated when against Si3N4 ball because of its high hardness and chemical inertness.
+[LINE#159] Whereas, such negative effects are attenuated when against Si3N4 ball because of its high hardness and chemical inertness.
 0.823	[*A*]such negative effects[*R*]are attenuated[*A*]because of its chemical inertness	context()	negated: False ,passive: True
 0.823	[*A*]such negative effects[*R*]are attenuated[*A*]because of its high hardness	context()	negated: False ,passive: True
-[LINE#148]Additionally, the dual-layer film shows advantages over the CDC layer in friction reduction.
+[LINE#160] Additionally, the dual-layer film shows advantages over the CDC layer in friction reduction.
 0.943	[*A*]the dual-layer film[*R*]shows[*A*]advantages	context()	negated: False ,passive: False
-[LINE#149] As aforementioned, the surface of the CDC layer is highly active with many dangling bonds, unsatisfied -bonds, and unstable chemical bonds (the C-Cl, for instance).
+[LINE#161]  As aforementioned, the surface of the CDC layer is highly active with many dangling bonds, unsatisfied -bonds, and unstable chemical bonds (the C-Cl, for instance).
 0.979	[*A*]the surface of the CDC layer[*R*]is[*A*]highly active with many unstable chemical bonds ( the C - Cl , for instance	context()	negated: False ,passive: True
 0.961	[*A*]the surface of the CDC layer[*R*]is[*A*]highly active with many unsatisfied - bonds	context()	negated: False ,passive: True
 0.961	[*A*]the surface of the CDC layer[*R*]is[*A*]highly active with many dangling bonds	context()	negated: False ,passive: True
-[LINE#150]The presence of such bonds at sliding contact interfaces is undesirable as they can easily cause adhesive interactions during sliding motion.
+[LINE#162] The presence of such bonds at sliding contact interfaces is undesirable as they can easily cause adhesive interactions during sliding motion.
 0.616	[*A*]they[*R*]can easily cause[*A*]adhesive interactions[*A*]during sliding motion	context()	negated: False ,passive: False
 0.895	[*A*]The presence of such bonds at sliding contact interfaces[*R*]is[*A*]undesirable	context()	negated: False ,passive: True
-[LINE#151]In addition, hard particles of SiO2 in the CDC layer can increase the friction in the form of abrasion.
+[LINE#163] In addition, hard particles of SiO2 in the CDC layer can increase the friction in the form of abrasion.
 0.958	[*A*]hard particles of SiO2 in the CDC layer[*R*]can increase[*A*]the friction in the form of abrasion	context()	negated: False ,passive: False
-[LINE#152]For the dual-layer film, the active bonds are effectively eliminated by highly energetic carbon atoms generated in pyrolyzing of CCl4.
+[LINE#164] For the dual-layer film, the active bonds are effectively eliminated by highly energetic carbon atoms generated in pyrolyzing of CCl4.
 0.931	[*A*]highly energetic carbon atoms[*R*]generated[*A*]in pyrolyzing of CCl4	context()	negated: False ,passive: True
 0.939	[*A*]the active bonds[*R*]are effectively eliminated[*A*]For the dual-layer film	context()	negated: False ,passive: True
-[LINE#153]Moreover, the concentration of Cl atomics on the surface is greatly reduced, which can be seen from the XPS results.
+[LINE#165] Moreover, the concentration of Cl atomics on the surface is greatly reduced, which can be seen from the XPS results.
 0.937	[*A*]the concentration of Cl atomics on the surface[*R*]is reduced[*A*]which can be seen from the XPS results	context()	negated: False ,passive: True
-[LINE#154]As a result, the dual-layer film shows an improved tribological behavior compared with the CDC layer.
+[LINE#166] As a result, the dual-layer film shows an improved tribological behavior compared with the CDC layer.
 0.952	[*A*]the dual-layer film[*R*]shows[*A*]an improved tribological behavior[*A*]compared with the CDC layer	context()	negated: False ,passive: False

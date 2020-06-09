@@ -111,7 +111,8 @@ class BratConverter():
         while len(NIE_span_ids) > 1:
             a1, a2 = NIE_span_ids[:2]
             NIE_span_ids.pop(0)
-            relation = "R{}\tNIE_extraction Arg0:T{} Arg1:T{}".format(rel_counter, a1, a2)
+            # \t at the end seems required.
+            relation = "R{}\tNIE_extraction Arg0:T{} Arg1:T{}\t".format(rel_counter, a1, a2)
             rel_counter += 1
             lines_to_write.append(relation)
 
@@ -256,15 +257,25 @@ class BratConverter():
                     narrowIE_dict[doc_id] = {sent_id: [argument_list],
                                              "rel_types": relation_types}
 
+
         # because the OA-STM dataset has categories, use these to get some insight into filtering results per category
         OIE_dicts_per_category = {}
         SORE_dicts_per_category = {}
 
         for doc_id in SORE_dict.keys():
-            if dataset[doc_id]['metadata']['category'] != None:
-                category = dataset[doc_id]['metadata']['category']
-            else:
+
+            if doc_id != "OA-STM_020":
+                print("halt")
+
+            try:
+                if dataset[doc_id]['metadata'] != None:
+                    category = dataset[doc_id]['metadata']['category']
+                else:
+                    category = 'No_categories'
+            except KeyError:
+                # This occurs when the original doc_id contained '.', which is replaced for '_' somewhere
                 category = 'No_categories'
+
 
             if category in OIE_dicts_per_category:
                 OIE_dicts_per_category[category].update({doc_id: OIE_dict[doc_id]})
@@ -273,80 +284,77 @@ class BratConverter():
                 OIE_dicts_per_category[category] = {doc_id: OIE_dict[doc_id]}
                 SORE_dicts_per_category[category] = {doc_id: SORE_dict[doc_id]}
 
+            # Convert SORE spans back to BRAT annotations againto
+            # if category in ["Computer Science", "Biology"]: #
 
+            # need a .txt file and .ann file per doc_id
+            ann_file = self.BRAT_output_path + prefix + '[' + doc_id + '].ann'
+            txt_file = self.BRAT_output_path + prefix + '[' + doc_id + '].txt'
 
-            # Convert SORE spans back to BRAT annotations again
+            # Collect all sentences, and all (filtered) annotations for a document
+            all_sentences = ""
+            lines_for_document = []
+            sent_start_idx = 0
 
-            if category in ["Computer Science", "Biology"]: #
+            doc_span_cnt = 0
+            doc_attr_cnt = 1
+            doc_event_cnt = 1
+            doc_rel_cnt = 1
 
-                # need a .txt file and .ann file per doc_id
-                ann_file = self.BRAT_output_path + prefix + '[' + doc_id + '].ann'
-                txt_file = self.BRAT_output_path + prefix + '[' + doc_id + '].txt'
+            for sent_id, sent_ in OIE_dict[doc_id].items():
+                sentence = sent_[0].replace('(', "\(").replace(')', "\)")
 
-                # Collect all sentences, and all (filtered) annotations for a document
-                all_sentences = ""
-                lines_for_document = []
-                sent_start_idx = 0
+                lines_for_sent = []
+                ### Narrow IE extractions
+                if sent_id in narrowIE_dict[doc_id]:
+                    narrowIE_args = narrowIE_dict[doc_id][sent_id]
+                    anns, doc_span_cnt, doc_rel_cnt = self.convert_NIE_annotations(sentence, narrowIE_args,
+                                                                                     sent_start_idx, doc_span_cnt,
+                                                                                     doc_rel_cnt)
+                    lines_for_sent += anns
 
-                doc_span_cnt = 0
-                doc_attr_cnt = 1
-                doc_event_cnt = 1
-                doc_rel_cnt = 1
+                # ### SORE extractions
+                if sent_id in SORE_dict[doc_id]:
+                    extractions = SORE_dict[doc_id][sent_id][1:]
+                    for extraction in extractions:
+                        anns, doc_span_cnt, doc_event_cnt, doc_attr_cnt = self.convert_OIE_annotations(sentence,
+                                                                    extraction['extraction'], sent_start_idx,
+                                                                    doc_span_cnt, doc_attr_cnt, doc_event_cnt)
 
-                for sent_id, sent_ in OIE_dict[doc_id].items():
-                    sentence = sent_[0].replace('(', "\(").replace(')', "\)")
+                        # Might be able to handle redundancy here, or earlier on
+                        lines_for_sent += anns # [ann for ann in anns if ann not in lines_for_sent]
 
-                    lines_for_sent = []
-                    ### Narrow IE extractions
-                    if sent_id in narrowIE_dict[doc_id]:
-                        narrowIE_args = narrowIE_dict[doc_id][sent_id]
-                        anns, doc_span_cnt, doc_rel_cnt = self.convert_NIE_annotations(sentence, narrowIE_args,
-                                                                                         sent_start_idx, doc_span_cnt,
-                                                                                         doc_rel_cnt)
-                        lines_for_sent += anns
+                sent_start_idx += len(sentence)
+                all_sentences += sentence
+                lines_for_document += lines_for_sent
 
-                    # ### SORE extractions
-                    if sent_id in SORE_dict[doc_id]:
-                        extractions = SORE_dict[doc_id][sent_id][1:]
-                        for extraction in extractions:
-                            anns, doc_span_cnt, doc_event_cnt, doc_attr_cnt = self.convert_OIE_annotations(sentence,
-                                                                        extraction['extraction'], sent_start_idx,
-                                                                        doc_span_cnt, doc_attr_cnt, doc_event_cnt)
+                ############## only here to visualise the insane amount of OIE extractions ###
+                # # uncomment the code below, and comment the `Narrow IE extractions` and `SORE extractions` loops
+                # if sent_id in OIE_dict[doc_id]:
+                #     extractions = OIE_dict[doc_id][sent_id][1:]
+                #     for extraction in extractions:
+                #         anns, doc_span_cnt, doc_event_cnt, doc_attr_cnt = self.convert_OIE_annotations(sentence,
+                #                                                                                        extraction,
+                #                                                                                        sent_start_idx,
+                #                                                                                        doc_span_cnt,
+                #                                                                                        doc_attr_cnt,
+                #                                                                                        doc_event_cnt)
+                #
+                #         # Might be able to handle redundancy here, or earlier on
+                #         lines_for_sent += anns  # [ann for ann in anns if ann not in lines_for_sent]
+                #
+                # sent_start_idx += len(sentence)
+                # all_sentences += sentence
+                # lines_for_document += lines_for_sent
+                ############## only here to visualise ALL OIE extractions ###
 
-                            # Might be able to handle redundancy here, or earlier on
-                            lines_for_sent += anns # [ann for ann in anns if ann not in lines_for_sent]
+            with open(ann_file, 'w') as f:
+                for line in lines_for_document:
+                    if line.rstrip() != "":
+                        f.writelines(line + "\n")
 
-                    sent_start_idx += len(sentence)
-                    all_sentences += sentence
-                    lines_for_document += lines_for_sent
-
-                    ############## only here to visualise the insane amount of OIE extractions ###
-                    # # uncomment the code below, and comment the `Narrow IE extractions` and `SORE extractions` loops
-                    # if sent_id in OIE_dict[doc_id]:
-                    #     extractions = OIE_dict[doc_id][sent_id][1:]
-                    #     for extraction in extractions:
-                    #         anns, doc_span_cnt, doc_event_cnt, doc_attr_cnt = self.convert_OIE_annotations(sentence,
-                    #                                                                                        extraction,
-                    #                                                                                        sent_start_idx,
-                    #                                                                                        doc_span_cnt,
-                    #                                                                                        doc_attr_cnt,
-                    #                                                                                        doc_event_cnt)
-                    #
-                    #         # Might be able to handle redundancy here, or earlier on
-                    #         lines_for_sent += anns  # [ann for ann in anns if ann not in lines_for_sent]
-                    #
-                    # sent_start_idx += len(sentence)
-                    # all_sentences += sentence
-                    # lines_for_document += lines_for_sent
-                    ############## only here to visualise ALL OIE extractions ###
-
-                with open(ann_file, 'w') as f:
-                    for line in lines_for_document:
-                        if line.rstrip() != "":
-                            f.writelines(line + "\n")
-
-                with open(txt_file, 'w') as f:
-                    f.write(all_sentences)
+            with open(txt_file, 'w') as f:
+                f.write(all_sentences)
 
         for category in OIE_dicts_per_category.keys():
             print("\nCATEGORY:  {}".format(category))

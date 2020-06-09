@@ -1,9 +1,15 @@
-import spacy
+import spacy, os, sys
 from spacy.matcher import Matcher
 
 
+try:
+    nlp = spacy.load('en_core_web_sm', disable=['ner','tagger'])
+except OSError:
+    # spacy model not found
+    os.system("python -m spacy download en_core_web_sm")
+    print("Need to re-run to be able to load the spacy language model!")
+    sys.exit()
 
-nlp = spacy.load('en_core_web_sm', disable=['ner','tagger'])
 # no_parse_nlp = spacy.load('en_core_web_sm', disable=['ner','tagger','parser'])
 matcher = Matcher(nlp.vocab)
 matcher.add('trade-off', None, [{'ORTH': "trade"}, {'ORTH': '-'}, {'ORTH': "off"}])

@@ -1,11 +1,8 @@
-import json, glob, csv, os, pprint, pickle
+import json, glob, csv, os, pprint, pickle, sys
 
 import numpy as np
 import pandas as pd
-import seaborn as sns
 import sentencepiece as spm
-import matplotlib.patheffects as PathEffects
-import matplotlib.pyplot as plt
 
 from collections import Counter
 
@@ -16,6 +13,11 @@ from sklearn.metrics import pairwise
 from allennlp.commands.elmo import ElmoEmbedder
 
 from SORE.my_utils.spacyNLP import spacy_nlp
+
+# for plotting install seaborn and matplotlib
+# import seaborn as sns
+# import matplotlib.patheffects as PathEffects
+# import matplotlib.pyplot as plt
 
 
 
@@ -72,8 +74,15 @@ class PrepareEmbeddings():
         :return: stemmed string
         """
         self.blob = TextBlob(str_input.lower())
-        tokens = self.blob.words
-        stem = [token.stem() for token in tokens]
+        try:
+            tokens = self.blob.words
+            stem = [token.stem() for token in tokens]
+        except:
+            # Porter stemmer missing
+            os.system("python -m textblob.download_corpora")
+            print("Need to re-run to be able to load the porter stemmer!")
+            sys.exit()
+
         return ''.join([w for w in stem])
 
 

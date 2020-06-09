@@ -1,49 +1,49 @@
-[LINE#1] -organic framework (MOF) materials show promise for H2 storage andit is widely predicted by computational modelling that MOFs incorporating ultra-micropores are optimal for H2 binding due to enhanced overlapping potentials.
+[LINE#0+1]  -organic framework (MOF) materials show promise for H2 storage andit is widely predicted by computational modelling that MOFs incorporating ultra-micropores are optimal for H2 binding due to enhanced overlapping potentials.
 0.813	[*A*]H2[*R*]binding[*A*]due to enhanced overlapping potentials	context()	negated: False ,passive: True
 0.831	[*A*]MOFs incorporating ultra-micropores[*R*]are[*A*]optimal	context()	negated: False ,passive: True
 0.918	[*A*]materials[*R*]show[*A*]promise for H2 storage andit	context()	negated: False ,passive: False
-[LINE#2]We report the investigation using inelastic neutron scattering of the interaction of H2 in an ultra-microporous MOF material showing low H2 uptake capacity.
+[LINE#2] We report the investigation using inelastic neutron scattering of the interaction of H2 in an ultra-microporous MOF material showing low H2 uptake capacity.
 0.935	[*A*]the investigation[*R*]using[*A*]inelastic neutron scattering of the interaction of H2 in an ultra-microporous MOF material	context(We report)	negated: False ,passive: False
 0.397	[*A*]We[*R*]report[*A*]the investigation using inelastic neutron	context()	negated: False ,passive: False
 0.939	[*A*]an ultra-microporous MOF material[*R*]showing[*A*]low H2 uptake capacity	context()	negated: False ,passive: False
 0.947	[*A*]inelastic neutron[*R*]scattering[*A*]of the interaction of H2 in an ultra-microporous MOF material	context()	negated: False ,passive: True
-[LINE#3]The study has revealed that adsorbed H2 at 5K has a liquid recoil motion along the channel with very little interaction with the MOF host, consistent with the observed low uptake.
+[LINE#3] The study has revealed that adsorbed H2 at 5K has a liquid recoil motion along the channel with very little interaction with the MOF host, consistent with the observed low uptake.
 0.942	[*A*]adsorbed H2 at 5K[*R*]has[*A*]a liquid recoil motion along the channel	context(The study has revealed)	negated: False ,passive: False
 0.840	[*A*]The study[*R*]has revealed[*A*]that adsorbed H2 at 5K has a liquid recoil motion along the channel with very little interaction with the MOF host, consistent with the observed low uptake	context()	negated: False ,passive: False
-[LINE#4]The low H2 uptake is not due to incomplete activation or decomposition as the desolvated MOF shows CO2 uptake with a measured pore volume close to that of the single crystal pore volume.
+[LINE#4] The low H2 uptake is not due to incomplete activation or decomposition as the desolvated MOF shows CO2 uptake with a measured pore volume close to that of the single crystal pore volume.
 0.957	[*A*]the desolvated MOF[*R*]shows[*A*]CO2 uptake	context()	negated: False ,passive: False
 0.888	[*A*]The low H2 uptake[*R*]is not[*A*]due to incomplete activation or decomposition[*A*]as the desolvated MOF shows CO2 uptake with a measured pore volume close to that of the single crystal pore volume	context()	negated: True ,passive: True
-[LINE#5]This study represents a unique example of surprisingly low H2 uptake within a MOF material, and complements the wide range of studies on systems showing higher uptake capacities and binding interactions.
+[LINE#5] This study represents a unique example of surprisingly low H2 uptake within a MOF material, and complements the wide range of studies on systems showing higher uptake capacities and binding interactions.
 0.894	[*A*]systems[*R*]showing[*A*]higher binding interactions	context()	negated: False ,passive: False
 0.894	[*A*]systems[*R*]showing[*A*]higher uptake capacities	context()	negated: False ,passive: False
 0.903	[*A*]This study[*R*]complements[*A*]the wide range of studies on systems	context()	negated: False ,passive: True
 0.947	[*A*]This study[*R*]represents[*A*]a unique example of surprisingly low H2 uptake within a MOF material	context()	negated: False ,passive: False
-[LINE#6]S studies on the H2-loaded material NOTT-300 have revealed the detailed binding interaction within this system.
+[LINE#6] S studies on the H2-loaded material NOTT-300 have revealed the detailed binding interaction within this system.
 0.939	[*A*]S studies on the H2-loaded material NOTT-300[*R*]have revealed[*A*]the detailed binding interaction within this system	context()	negated: False ,passive: False
-[LINE#7]The adsorbed H2 molecules in NOTT-300 are found to have recoil motion along the pore channel with freedom to rotate in all directions, reminiscent of the behaviour of liquid H2.
+[LINE#7] The adsorbed H2 molecules in NOTT-300 are found to have recoil motion along the pore channel with freedom to rotate in all directions, reminiscent of the behaviour of liquid H2.
 0.937	[*A*]The adsorbed[*R*]H2[*A*]molecules in NOTT-300	context()	negated: False ,passive: False
-[LINE#8][Al(OH)2O4] moieties within the channel can only provide binding interactions to few H2 molecules and reach saturation quickly consistent with the experimentally observed low H2 uptake for this material.
+[LINE#8] [Al(OH)2O4] moieties within the channel can only provide binding interactions to few H2 molecules and reach saturation quickly consistent with the experimentally observed low H2 uptake for this material.
 0.972	[*A*]Al ( OH ) 2O4 ] moieties within the channel[*R*]can provide[*A*]binding interactions to reach saturation quickly consistent with the experimentally observed low H2 uptake for this material	context()	negated: False ,passive: False
-[LINE#9]The unusually low uptake of H2 in this study is related to the quantum effect of H2 which has a very low molecular mass [32] and the very weak interaction between the H2 and the NOTT-300 host is thus not sufficient to overcome this quantum effect, and therefore very little H2 is taken up by this porous material.
+[LINE#9] The unusually low uptake of H2 in this study is related to the quantum effect of H2 which has a very low molecular mass [32] and the very weak interaction between the H2 and the NOTT-300 host is thus not sufficient to overcome this quantum effect, and therefore very little H2 is taken up by this porous material.
 0.973	[*A*]the quantum effect of H2[*R*]has[*A*]the very weak interaction between the NOTT - 300 host	context()	negated: False ,passive: False
 0.911	[*A*]very little H2[*R*]is taken up[*A*]by this porous material	context()	negated: False ,passive: True
 0.954	[*A*]The unusually low uptake of H2 in this study[*R*]is[*A*]thus not sufficient to overcome this quantum effect	context()	negated: False ,passive: True
 0.950	[*A*]the quantum effect of H2[*R*]has[*A*]the very weak interaction between the H2	context()	negated: False ,passive: False
 0.950	[*A*]the quantum effect of H2[*R*]has[*A*]a very low molecular mass	context()	negated: False ,passive: False
 0.957	[*A*]The unusually low uptake of H2 in this study[*R*]is related[*A*]to the quantum effect of H2	context()	negated: False ,passive: True
-[LINE#10]We have also confirmed that the ultra-low H2 uptake is not due to incomplete activation or MOF decomposition as the desolvated MOF shows very high CO2 uptake with a measured pore volume close to that of the single crystal pore volume.
+[LINE#10] We have also confirmed that the ultra-low H2 uptake is not due to incomplete activation or MOF decomposition as the desolvated MOF shows very high CO2 uptake with a measured pore volume close to that of the single crystal pore volume.
 0.893	[*A*]the ultra-low H2 uptake[*R*]is not[*A*]due to incomplete activation or MOF decomposition[*A*]as the desolvated MOF shows very high CO2 uptake with a measured pore volume close to that of the single crystal pore volume	context(We have confirmed)	negated: True ,passive: True
 0.226	[*A*]We[*R*]have confirmed[*A*]that the ultra-low H2 uptake is not due to incomplete activation or MOF decomposition	context()	negated: False ,passive: False
 0.957	[*A*]the desolvated MOF[*R*]shows[*A*]very high CO2 uptake	context()	negated: False ,passive: False
-[LINE#11]Synthesis of [Al2(OH)2(C16O8H6)](H2O)6 (NOTT-300-solvate) and of the desolvated material NOTT-300 was carried out using previously reported methods [13]..
+[LINE#11] Synthesis of [Al2(OH)2(C16O8H6)](H2O)6 (NOTT-300-solvate) and of the desolvated material NOTT-300 was carried out using previously reported methods [13]..
 0.869	[*A*]Synthesis of the desolvated material NOTT - 300[*R*]was carried out	context()	negated: False ,passive: False
 0.918	[*A*]Synthesis of [ Al2 ( OH ) 2 ( C16O8H6 ) ] ( H2O ) 6 ( NOTT - 300 - solvate[*R*]was carried out	context()	negated: False ,passive: False
-[LINE#12]Gas adsorption isothermsH2 sorption isotherm was recorded at 77K (liquid nitrogen) on an IGA-003 system at the University of Nottingham under ultra-high vacuum from a diaphragm and turbo pumping system.
+[LINE#12] Gas adsorption isothermsH2 sorption isotherm was recorded at 77K (liquid nitrogen) on an IGA-003 system at the University of Nottingham under ultra-high vacuum from a diaphragm and turbo pumping system.
 0.970	[*A*]Gas adsorption isothermsH2 sorption isotherm[*R*]was recorded[*A*]at 77K ( liquid nitrogen[*A*]on an IGA - 003 system at the University of Nottingham	context()	negated: False ,passive: True
-[LINE#13] H2 gas used was ultra-pure research grade (99.999%).
+[LINE#13]  H2 gas used was ultra-pure research grade (99.999%).
 0.932	[*A*]H2 gas used[*R*]was[*A*]ultra-pure research grade	context()	negated: False ,passive: True
 0.732	[*A*]H2 gas[*R*]used	context()	negated: False ,passive: False
-[LINE#14]In a typical gas adsorption experiment, 100mg of NOTT-300 was loaded into the IGA, and degassed at 120C and high vacuum (10-10bar) for 1day to give fully desolvated NOTT-300. .
+[LINE#14] In a typical gas adsorption experiment, 100mg of NOTT-300 was loaded into the IGA, and degassed at 120C and high vacuum (10-10bar) for 1day to give fully desolvated NOTT-300. .
 0.666	[*A*]a typical gas adsorption experiment[*R*]had NOTT 300 of[*A*]100 mg	context()	negated: False ,passive: False
 0.932	[*A*]1day[*R*]to give[*A*]fully desolvated NOTT - 300	context()	negated: False ,passive: False
 0.981	[*A*]100 mg of NOTT - 300[*R*]was[*A*]for 1day to give fully desolvated NOTT - 300[*A*]In a typical gas adsorption experiment	context()	negated: False ,passive: True
@@ -51,39 +51,39 @@
 0.976	[*A*]100 mg of NOTT - 300[*R*]was degassed[*A*]at 120C[*A*]In a typical gas adsorption experiment	context()	negated: False ,passive: True
 0.992	[*A*]100 mg of NOTT - 300[*R*]was loaded In[*A*]a typical gas adsorption experiment	context()	negated: False ,passive: False
 0.976	[*A*]100 mg of NOTT - 300[*R*]was loaded[*A*]into the IGA[*A*]In a typical gas adsorption experiment	context()	negated: False ,passive: True
-[LINE#15]Inelastic neutron scatteringINS spectra were recorded on the TOSCA spectrometer at the ISIS Neutron Facility at the Rutherford Appleton Laboratory (UK) for energy transfers between -2 and 500meV.
+[LINE#15] Inelastic neutron scatteringINS spectra were recorded on the TOSCA spectrometer at the ISIS Neutron Facility at the Rutherford Appleton Laboratory (UK) for energy transfers between -2 and 500meV.
 0.913	[*A*]Inelastic neutron scatteringINS[*R*]were recorded[*A*]on the TOSCA spectrometer[*A*]at the ISIS Neutron Facility	context()	negated: False ,passive: True
-[LINE#16] In this region TOSCA has a resolution of 1%.
+[LINE#16]  In this region TOSCA has a resolution of 1%.
 0.222	[*A*]this region[*R*]has a resolution of[*A*]1 %	context()	negated: False ,passive: False
 0.997	[*A*]TOSCA[*R*]has a resolution of[*A*]1 %	context()	negated: False ,passive: False
 0.965	[*A*]TOSCA[*R*]has[*A*]a resolution of 1%[*A*]In this region	context()	negated: False ,passive: False
-[LINE#17]The sample of desolvated NOTT-300 (2.5g) was loaded into a cylindrical vanadium sample container and connected to a gas handling system.
+[LINE#17] The sample of desolvated NOTT-300 (2.5g) was loaded into a cylindrical vanadium sample container and connected to a gas handling system.
 0.732	[*A*]The sample[*R*]of connected	context()	negated: False ,passive: False
 0.945	[*A*]The sample of desolvated NOTT - 300[*R*]was loaded[*A*]into a cylindrical vanadium sample container	context()	negated: False ,passive: True
-[LINE#18]The sample was degassed at 10-7mbar and 120C for 1day to remove any remaining trace guest solvents.
+[LINE#18] The sample was degassed at 10-7mbar and 120C for 1day to remove any remaining trace guest solvents.
 0.918	[*A*]The sample[*R*]was degassed[*A*]at 120C for 1day[*A*]to remove any remaining trace guest solvents	context()	negated: False ,passive: True
 0.993	[*A*]The sample[*R*]was degassed at[*A*]10 -7mbar	context()	negated: False ,passive: False
 0.918	[*A*]The sample[*R*]was degassed[*A*]at 10-7mbar for 1day[*A*]to remove any remaining trace guest solvents	context()	negated: False ,passive: True
-[LINE#19]The temperature during data collection was controlled using the instrument built-in cryostat and electric heaters (50.2K).
+[LINE#19] The temperature during data collection was controlled using the instrument built-in cryostat and electric heaters (50.2K).
 0.903	[*A*]the instrument[*R*]built[*A*]- in cryostat	context()	negated: False ,passive: True
 0.785	[*A*]The temperature during data collection[*R*]was controlled	context()	negated: False ,passive: False
-[LINE#20]The loading of para-H2 (99.5%) was performed volumetrically at 40-50K in order to ensure that H2 was adsorbed into NOTT-300.
+[LINE#20] The loading of para-H2 (99.5%) was performed volumetrically at 40-50K in order to ensure that H2 was adsorbed into NOTT-300.
 0.993	[*A*]The loading of para - H2[*R*]was performed at[*A*]40 -50k	context()	negated: False ,passive: False
 0.803	[*A*]The loading of para-H2[*R*]was performed volumetrically[*A*]at 40-50K	context()	negated: False ,passive: True
-[LINE#21]Subsequently, the temperature was reduced to 5K in order to perform the scattering measurements with the minimum achievable thermal motion for H2 molecules.
+[LINE#21] Subsequently, the temperature was reduced to 5K in order to perform the scattering measurements with the minimum achievable thermal motion for H2 molecules.
 0.903	[*A*]the temperature[*R*]was reduced[*A*]to 5K[*A*]in order	context()	negated: False ,passive: True
-[LINE#22] (H2) is a promising alternative energy carrier not only because it can potentially achieve zero-carbon emission at the point of use, but also because H2 has a high energy density (33.3kWh/kg) compared to hydrocarbons (12.4-13.9kWh/kg).
+[LINE#22]  (H2) is a promising alternative energy carrier not only because it can potentially achieve zero-carbon emission at the point of use, but also because H2 has a high energy density (33.3kWh/kg) compared to hydrocarbons (12.4-13.9kWh/kg).
 0.887	[*A*]H2[*R*]has[*A*]a high energy density[*A*]compared to hydrocarbons	context()	negated: False ,passive: False
 0.927	[*A*]H2[*R*]is[*A*]a promising alternative energy carrier[*A*]because H2 has a high energy density ( 33.3kWh / kg ) compared to hydrocarbons	context()	negated: False ,passive: True
 0.350	[*A*]it[*R*]can achieve[*A*]zero - carbon emission[*A*]at the point of use	context()	negated: False ,passive: False
 0.869	[*A*]H2[*R*]is[*A*]a promising alternative energy carrier	context()	negated: False ,passive: True
-[LINE#23]The major scientific challenge for on-board H2 applications is that of inventing effective and efficient H2 storage materials, and there is an ever-increasing worldwide interest in meeting the United States Department of Energy's (DoE) H2 storage targets of 5.5wt% gravimetric and 40gL-1 volumetric by 2017.
+[LINE#23] The major scientific challenge for on-board H2 applications is that of inventing effective and efficient H2 storage materials, and there is an ever-increasing worldwide interest in meeting the United States Department of Energy's (DoE) H2 storage targets of 5.5wt% gravimetric and 40gL-1 volumetric by 2017.
 0.891	[*A*]The major scientific challenge for on - board H2 applications[*R*]is[*A*]that there is an ever - increasing worldwide interest in meeting the United States Department of Energy 's ( DoE ) H2 storage targets of 40gL - 1 volumetric by 2017	context()	negated: False ,passive: True
 0.891	[*A*]The major scientific challenge for on - board H2 applications[*R*]is[*A*]that there is an ever - increasing worldwide interest in meeting the United States Department of Energy 's ( DoE ) H2 storage targets of 5.5wt % gravimetric	context()	negated: False ,passive: True
 0.922	[*A*]The major scientific challenge for on - board H2 applications[*R*]is[*A*]that of inventing efficient H2 storage materials	context()	negated: False ,passive: True
 0.922	[*A*]The major scientific challenge for on - board H2 applications[*R*]is[*A*]that of inventing effective H2 storage materials	context()	negated: False ,passive: True
-[LINE#24]It is important to note that the DoE targets refer to storage within the whole system rather than within the storage medium alone, with a target operating temperature of -40 to 60C and an operating pressure below 100atm.
-[LINE#25]Although solid-state H2 storage based on chemisorption and physisorption has been extensively studied over recent years, so far no material is able to meet this DoE target thus presenting a major impediment for the realisation of the "Hydrogen Economy".
+[LINE#24] It is important to note that the DoE targets refer to storage within the whole system rather than within the storage medium alone, with a target operating temperature of -40 to 60C and an operating pressure below 100atm.
+[LINE#25] Although solid-state H2 storage based on chemisorption and physisorption has been extensively studied over recent years, so far no material is able to meet this DoE target thus presenting a major impediment for the realisation of the "Hydrogen Economy".
 0.943	[*A*]solid - state H2 storage based on physisorption[*R*]has been extensively studied[*A*]over recent years	context()	negated: False ,passive: True
 0.926	[*A*]solid - state H2 storage[*R*]based[*A*]on physisorption	context()	negated: False ,passive: True
 0.958	[*A*]this DoE target[*R*]presenting[*A*]a major impediment for the realisation of the " Hydrogen Economy	context()	negated: False ,passive: False
@@ -91,7 +91,7 @@
 0.964	[*A*]no material[*R*]is[*A*]able to meet this DoE target[*A*]so far	context()	negated: False ,passive: True
 0.943	[*A*]solid - state H2 storage based on chemisorption[*R*]has been extensively studied[*A*]over recent years	context()	negated: False ,passive: True
 0.926	[*A*]solid - state H2 storage[*R*]based[*A*]on chemisorption	context()	negated: False ,passive: True
-[LINE#26]Nevertheless, physisorption of molecular H2 based upon the non-dissociative interaction in porous solids is an especially attractive option since it shows fast kinetics and favourable thermodynamics over multiple adsorption and release cycles [2].
+[LINE#26] Nevertheless, physisorption of molecular H2 based upon the non-dissociative interaction in porous solids is an especially attractive option since it shows fast kinetics and favourable thermodynamics over multiple adsorption and release cycles [2].
 0.917	[*A*]physisorption of molecular H2[*R*]is[*A*]an especially attractive option[*A*]since it shows fast favourable thermodynamics over multiple release cycles [ 2	context()	negated: False ,passive: True
 0.522	[*A*]it[*R*]shows[*A*]fast favourable thermodynamics	context()	negated: False ,passive: False
 0.917	[*A*]physisorption of molecular H2[*R*]is[*A*]an especially attractive option[*A*]since it shows fast favourable thermodynamics over multiple adsorption cycles [ 2	context()	negated: False ,passive: True
@@ -100,147 +100,147 @@
 0.452	[*A*]it[*R*]shows fast[*A*]kinetics over multiple adsorption cycles	context()	negated: False ,passive: False
 0.917	[*A*]physisorption of molecular H2[*R*]is[*A*]an especially attractive option[*A*]since it shows fast kinetics over multiple adsorption cycles [ 2	context()	negated: False ,passive: True
 0.903	[*A*]molecular H2[*R*]based[*A*]upon the non-dissociative interaction in porous solids	context()	negated: False ,passive: True
-[LINE#27]Thus, enormous efforts have been focused on developing new porous solid materials for high capacity H2 storage.
+[LINE#27] Thus, enormous efforts have been focused on developing new porous solid materials for high capacity H2 storage.
 0.937	[*A*]enormous efforts[*R*]have been focused[*A*]on developing new porous solid materials for high capacity H2 storage	context()	negated: False ,passive: True
-[LINE#28](MOF) complexes are a sub-class of porous solids which show great promise for gas storage and separation due to their high surface area, low framework density, and tuneable functional pore environment [3].
+[LINE#28] (MOF) complexes are a sub-class of porous solids which show great promise for gas storage and separation due to their high surface area, low framework density, and tuneable functional pore environment [3].
 0.913	[*A*]porous solids[*R*]show[*A*]great promise for gas separation	context()	negated: False ,passive: False
 0.901	[*A*]porous solids[*R*]show[*A*]great promise for gas separation due to their low framework density	context()	negated: False ,passive: False
 0.850	[*A*]porous solids[*R*]show[*A*]great promise for gas storage[*A*]due to their low framework density	context()	negated: False ,passive: False
 0.901	[*A*]porous solids[*R*]show[*A*]great promise for gas separation due to their high surface area	context()	negated: False ,passive: False
 0.913	[*A*]porous solids[*R*]show[*A*]great promise for gas storage	context()	negated: False ,passive: False
 0.933	[*A*]MOF ) complexes[*R*]are[*A*]a sub-class of porous solids	context()	negated: False ,passive: True
-[LINE#29]MOF materials are usually built up from metal ions or clusters bridged by organic linkers to afford 3D extended frameworks with the formation of cavities ranging from microporous to mesoporous region.
+[LINE#29] MOF materials are usually built up from metal ions or clusters bridged by organic linkers to afford 3D extended frameworks with the formation of cavities ranging from microporous to mesoporous region.
 0.894	[*A*]cavities[*R*]ranging[*A*]from microporous[*A*]to mesoporous region	context()	negated: False ,passive: True
 0.919	[*A*]metal ions or clusters[*R*]bridged[*A*]by organic linkers	context()	negated: False ,passive: True
 0.761	[*A*]MOF materials[*R*]are built up[*A*]usually	context()	negated: False ,passive: True
-[LINE#30] Several members within this MOF family have achieved impressively high H2 adsorption capacities (albeit at cryogenic temperatures, typically at 77K)[4] with a record of 16wt% total uptake capacity observed in NU-100 [5] and MOF-200 [6].
+[LINE#30+31]  Several members within this MOF family have achieved impressively high H2 adsorption capacities (albeit at cryogenic temperatures, typically at 77K)[4] with a record of 16wt% total uptake capacity observed in NU-100 [5] and MOF-200 [6].
 0.991	[*A*]several members within this mof family[*R*]have achieved[*A*]impressively high H2 adsorption capacities	context()	negated: False ,passive: False
 0.952	[*A*]a record of 16wt% total uptake capacity[*R*]observed[*A*]in NU-100	context()	negated: False ,passive: True
 0.949	[*A*]Several members within this MOF family[*R*]have achieved[*A*]impressively high H2 adsorption capacities	context()	negated: False ,passive: False
-[LINE#31]However, these high uptake capacities drop dramatically with increasing temperature, and thus none is a practical material.
+[LINE#32] However, these high uptake capacities drop dramatically with increasing temperature, and thus none is a practical material.
 0.918	[*A*]none[*R*]is[*A*]a practical material	context()	negated: False ,passive: True
 0.769	[*A*]these high uptake capacities[*R*]drop dramatically	context()	negated: False ,passive: False
-[LINE#32]There is thus particular emphasis on optimising the interactions between MOF hosts and adsorbed H2 molecules, and the identification of specific binding interactions and properties of gases within confined space represents an important methodology for the development of better materials that may lead us to systems of practical use.
+[LINE#33] There is thus particular emphasis on optimising the interactions between MOF hosts and adsorbed H2 molecules, and the identification of specific binding interactions and properties of gases within confined space represents an important methodology for the development of better materials that may lead us to systems of practical use.
 0.957	[*A*]the identification of specific binding properties of gases within confined space[*R*]represents[*A*]an important methodology for the development of better materials	context()	negated: False ,passive: False
 0.810	[*A*]better materials[*R*]may lead[*A*]us[*A*]to systems of practical use	context()	negated: False ,passive: False
 0.957	[*A*]the identification of specific binding interactions of gases within confined space[*R*]represents[*A*]an important methodology for the development of better materials	context()	negated: False ,passive: False
-[LINE#33]In situ neutron powder diffraction (NPD) at below 10K has been used previously to determine the locations of D2 within a few best-behaving MOF materials incorporating exposed metal sites [7-12].
+[LINE#34] In situ neutron powder diffraction (NPD) at below 10K has been used previously to determine the locations of D2 within a few best-behaving MOF materials incorporating exposed metal sites [7-12].
 0.953	[*A*]a few best-behaving MOF materials[*R*]incorporating[*A*]exposed metal sites	context()	negated: False ,passive: False
 0.920	[*A*]situ neutron powder diffraction[*R*]to determine[*A*]the locations of D2[*A*]within a few best-behaving MOF materials	context()	negated: False ,passive: False
 0.971	[*A*]situ neutron powder diffraction[*R*]has been used[*A*]previously[*A*]to determine the locations of D2 within a few best-behaving MOF materials[*A*]In	context()	negated: False ,passive: True
-[LINE#34]It has been found that D2 can bind directly to vacant sites on metal centres, and that the adsorbed D2 molecules have molecular separations comparable to that to D2 in the solid state.
-[LINE#35]These studies have provided invaluable structural rationale for their observed high gas adsorption capacities.
+[LINE#35] It has been found that D2 can bind directly to vacant sites on metal centres, and that the adsorbed D2 molecules have molecular separations comparable to that to D2 in the solid state.
+[LINE#36] These studies have provided invaluable structural rationale for their observed high gas adsorption capacities.
 0.835	[*A*]These studies[*R*]have provided[*A*]invaluable structural rationale[*A*]for their observed high gas adsorption capacities	context()	negated: False ,passive: False
-[LINE#36]Research has thus focused understandably on MOFs with high H2 uptake capacities, while materials showing very low H2 uptake and/or incorporate fully coordinated metal centres are often ignored for this study.
+[LINE#37] Research has thus focused understandably on MOFs with high H2 uptake capacities, while materials showing very low H2 uptake and/or incorporate fully coordinated metal centres are often ignored for this study.
 0.894	[*A*]materials[*R*]showing[*A*]very low H2 uptake	context()	negated: False ,passive: False
 0.900	[*A*]Research[*R*]has focused understandably[*A*]on MOFs[*A*]with high H2 uptake capacities	context()	negated: False ,passive: False
-[LINE#37]Therefore, information on binding interactions within those low-uptake MOF systems is entirely lacking, but can still give important complementary data and potential understanding for the subsequent design and optimisation of hydrogen storage materials.
+[LINE#38] Therefore, information on binding interactions within those low-uptake MOF systems is entirely lacking, but can still give important complementary data and potential understanding for the subsequent design and optimisation of hydrogen storage materials.
 0.985	[*A*]information on binding interactions within those low - uptake MOF systems[*R*]is[*A*]entirely potential understanding for the optimisation of hydrogen storage materials	context()	negated: False ,passive: True
 0.976	[*A*]information on binding interactions within those low - uptake MOF systems[*R*]is[*A*]entirely potential understanding for the subsequent design	context()	negated: False ,passive: True
 0.908	[*A*]information[*R*]can give[*A*]important complementary data[*A*]still	context()	negated: False ,passive: False
 0.853	[*A*]information on binding interactions within those low - uptake MOF systems[*R*]is lacking	context()	negated: False ,passive: False
-[LINE#38]It is critical to the success of the NPD technique that the MOF complex adsorbs a significant amount of D2 to boost the observed signal.
+[LINE#39] It is critical to the success of the NPD technique that the MOF complex adsorbs a significant amount of D2 to boost the observed signal.
 0.922	[*A*]the MOF complex[*R*]to boost[*A*]the observed signal	context()	negated: False ,passive: False
 0.944	[*A*]the MOF complex[*R*]adsorbs[*A*]a significant amount of D2[*A*]to boost the observed signal	context()	negated: False ,passive: True
 0.568	[*A*]It[*R*]is[*A*]critical to the success of the NPD technique	context()	negated: False ,passive: True
-[LINE#39]This technique therefore has disadvantages when studying the binding interaction within MOFs with low uptakes.
+[LINE#40] This technique therefore has disadvantages when studying the binding interaction within MOFs with low uptakes.
 0.953	[*A*]This technique[*R*]has[*A*]disadvantages[*A*]when studying the binding interaction within MOFs with low uptakes	context()	negated: False ,passive: False
-[LINE#40]Furthermore, static crystallographic studies cannot provide insights into the dynamics of the adsorbed gas molecules.
+[LINE#41] Furthermore, static crystallographic studies cannot provide insights into the dynamics of the adsorbed gas molecules.
 0.911	[*A*]static crystallographic studies[*R*]can not provide[*A*]insights	context()	negated: True ,passive: False
-[LINE#41]Thus, it is very challenging to probe experimentally the H2 binding interactions within a porous host system which has very low gas uptake due to the lack of suitable characterisation techniques.
+[LINE#42] Thus, it is very challenging to probe experimentally the H2 binding interactions within a porous host system which has very low gas uptake due to the lack of suitable characterisation techniques.
 0.293	[*A*]it[*R*]is challenging to probe experimentally[*A*]the H2 binding interactions within a porous host system	context(it is challenging)	negated: False ,passive: False
 0.399	[*A*]it[*R*]is challenging[*A*]to probe experimentally the H2 binding interactions within a porous host system	context()	negated: False ,passive: False
 0.927	[*A*]a porous host system[*R*]has[*A*]very low gas uptake[*A*]due to the lack of suitable characterisation techniques	context()	negated: False ,passive: False
-[LINE#42]We report herein the application of the in situ inelastic neutron scattering (INS) technique to permit direct observation of the dynamics of the binding interactions between adsorbed H2 molecules and an aluminium-based porous MOF, NOTT-300, exhibiting moderate porosity, narrow pore window and very low uptake of H2.
+[LINE#43] We report herein the application of the in situ inelastic neutron scattering (INS) technique to permit direct observation of the dynamics of the binding interactions between adsorbed H2 molecules and an aluminium-based porous MOF, NOTT-300, exhibiting moderate porosity, narrow pore window and very low uptake of H2.
 0.341	[*A*]We[*R*]report herein the application of the in situ inelastic neutron scattering exhibiting[*A*]very low uptake of H2	context(We report)	negated: False ,passive: False
 0.940	[*A*]an aluminium - based porous MOF[*R*]exhibiting[*A*]narrow pore window	context()	negated: False ,passive: False
 0.614	[*A*]We[*R*]report[*A*]herein the application of the in situ inelastic neutron scattering ( INS ) technique to permit direct observation of the dynamics of the binding interactions between adsorbed H2 molecules and an aluminium - based porous MOF	context()	negated: False ,passive: False
 0.301	[*A*]We[*R*]report herein the application of the in situ inelastic neutron scattering exhibiting[*A*]moderate porosity	context(We report)	negated: False ,passive: False
 0.514	[*A*]We[*R*]report[*A*]herein the application of the in situ inelastic neutron scattering	context()	negated: False ,passive: False
-[LINE#43]This neutron spectroscopy study reveals that adsorbed H2 molecules do not interact with the organic ligand within the pore channels, and form very weak interactions with [Al(OH)2O4] moieties via a type of through-spacing interaction (Al-OH2).
+[LINE#44] This neutron spectroscopy study reveals that adsorbed H2 molecules do not interact with the organic ligand within the pore channels, and form very weak interactions with [Al(OH)2O4] moieties via a type of through-spacing interaction (Al-OH2).
 0.941	[*A*]adsorbed H2 molecules[*R*]do not form[*A*]very weak interactions with [ Al ( OH ) 2O4 ] moieties	context(This neutron spectroscopy study reveals)	negated: True ,passive: False
 0.864	[*A*]This neutron spectroscopy study[*R*]reveals[*A*]that adsorbed H2 molecules do not form very weak interactions with [ Al ( OH ) 2O4 ] moieties via a type of through - spacing interaction	context()	negated: False ,passive: False
 0.891	[*A*]adsorbed H2 molecules[*R*]do not interact[*A*]with the organic ligand within the pore channels	context(This neutron spectroscopy study reveals)	negated: True ,passive: False
 0.841	[*A*]This neutron spectroscopy study[*R*]reveals[*A*]that adsorbed H2 molecules do not interact with the organic ligand within the pore channels	context()	negated: False ,passive: False
-[LINE#44]Interestingly, the very low H2 adsorption has been successfully characterised as weak binding interactions and, for the first time, we have found that the adsorbed H2 in the pore channel has a liquid type recoil motion at 5K (below its melting point) as a direct result of this weak interaction to the MOF host.
+[LINE#45] Interestingly, the very low H2 adsorption has been successfully characterised as weak binding interactions and, for the first time, we have found that the adsorbed H2 in the pore channel has a liquid type recoil motion at 5K (below its melting point) as a direct result of this weak interaction to the MOF host.
 0.942	[*A*]the adsorbed H2 in the pore channel[*R*]has[*A*]a liquid type recoil motion at 5K (below its melting point	context(we have found)	negated: False ,passive: False
 0.302	[*A*]we[*R*]have found[*A*]that the adsorbed H2 in the pore channel has a liquid type recoil motion at 5K (below its melting point[*A*]for the first time	context()	negated: False ,passive: False
 0.944	[*A*]the very low H2 adsorption[*R*]has been successfully characterised[*A*]as weak binding interactions	context()	negated: False ,passive: True
-[LINE#45] Results and discussion. Crystal structural analysis and gas adsorptionNOTT-300 crystallises in a chiral space group and has an open structure comprising infinite chains of [AlO4(OH)2] moieties bridged by biphenyl-3,3',5,5'-tetracarboxylate ligands L4-.
+[LINE#46+47]  Results and discussion. Crystal structural analysis and gas adsorptionNOTT-300 crystallises in a chiral space group and has an open structure comprising infinite chains of [AlO4(OH)2] moieties bridged by biphenyl-3,3',5,5'-tetracarboxylate ligands L4-.
 0.894	[*A*]moieties[*R*]bridged[*A*]by biphenyl - 3,3	context()	negated: False ,passive: True
-[LINE#46]The Al(III) ion in NOTT-300 has an octahedral coordination environment with six oxygen atoms, four of which are from carboxylate groups and two of which are hydroxyl groups, giving an [AlO4(OH)2] moiety.
+[LINE#48] The Al(III) ion in NOTT-300 has an octahedral coordination environment with six oxygen atoms, four of which are from carboxylate groups and two of which are hydroxyl groups, giving an [AlO4(OH)2] moiety.
 0.718	[*A*]six oxygen atoms[*R*]are	context()	negated: False ,passive: False
 0.897	[*A*]six oxygen atoms[*R*]are[*A*]from carboxylate groups	context()	negated: False ,passive: True
 0.949	[*A*]The Al ( III ) ion in NOTT - 300[*R*]has[*A*]an octahedral coordination environment	context()	negated: False ,passive: False
-[LINE#47]These aluminium oxide moieties are further linked to each other via the corner-sharing hydroxyl groups 2-OH.
+[LINE#49] These aluminium oxide moieties are further linked to each other via the corner-sharing hydroxyl groups 2-OH.
 0.684	[*A*]These aluminium oxide moieties[*R*]are linked	context()	negated: False ,passive: False
-[LINE#48] MOFs are usually constructed from the 1D aluminium oxide chains linked by the carboxylate ligands (Fig. 1(c)).
+[LINE#50]  MOFs are usually constructed from the 1D aluminium oxide chains linked by the carboxylate ligands (Fig. 1(c)).
 0.932	[*A*]the 1D aluminium oxide chains[*R*]linked[*A*]by the carboxylate ligands	context()	negated: False ,passive: True
 0.835	[*A*]MOFs[*R*]are constructed[*A*]from the 1D aluminium oxide chains[*A*]usually	context()	negated: False ,passive: True
-[LINE#49]Two distinct types of aluminium oxide chains have been reported previously.
+[LINE#51] Two distinct types of aluminium oxide chains have been reported previously.
 0.842	[*A*]Two distinct types of aluminium oxide chains[*R*]have been reported[*A*]previously	context()	negated: False ,passive: True
-[LINE#50]The aluminium chain in MIL-120 is composed of [AlO2(OH)4] octahedra linking to each other via a common edge defined by two 2-(OH) groups [14].
+[LINE#52] The aluminium chain in MIL-120 is composed of [AlO2(OH)4] octahedra linking to each other via a common edge defined by two 2-(OH) groups [14].
 0.925	[*A*]a common edge[*R*]defined[*A*]by two 2-(OH) groups	context()	negated: False ,passive: True
 0.961	[*A*]The aluminium chain in MIL-120[*R*]is composed[*A*]of [AlO2(OH)4	context()	negated: False ,passive: True
-[LINE#51]The different positions of the common edge in the two crystallographically distinct Al sites induce a cis-trans connection mode of the octahedral units, and thus zigzag chains are generated.
+[LINE#53] The different positions of the common edge in the two crystallographically distinct Al sites induce a cis-trans connection mode of the octahedral units, and thus zigzag chains are generated.
 0.976	[*A*]The different positions of the common edge in the two crystallographically distinct Al sites[*R*]induce[*A*]a cis-trans connection mode of the octahedral units	context()	negated: False ,passive: False
-[LINE#52] The aluminium oxide chains in MIL-53and MIL-118 are composed of [AlO4(OH)2] octahedra linked to each other via vertex-sharing 2-(OH) groups [16-18].
+[LINE#54+55]  The aluminium oxide chains in MIL-53and MIL-118 are composed of [AlO4(OH)2] octahedra linked to each other via vertex-sharing 2-(OH) groups [16-18].
 0.794	[*A*]The aluminium oxide chains in MIL-53and MIL-118[*R*]linked	context()	negated: False ,passive: False
 0.949	[*A*]The aluminium oxide chains in MIL-53and MIL-118[*R*]are composed[*A*]of [AlO4(OH)2	context()	negated: False ,passive: True
-[LINE#53]In both case, the connections of the [AlO4(OH)2] octahedra adopt trans configurations, generating straight, rod-like aluminium building blocks.
+[LINE#56] In both case, the connections of the [AlO4(OH)2] octahedra adopt trans configurations, generating straight, rod-like aluminium building blocks.
 0.957	[*A*]the connections of the [AlO4(OH)2[*R*]octahedra adopt[*A*]trans configurations[*A*]generating straight, rod-like aluminium building blocks[*A*]In both case	context()	negated: False ,passive: False
-[LINE#54] Depending on the coordination mode of the carboxylate groups, the aluminium chains in MIL-53show small differences in linkage of the octahedral nodes.
-[LINE#55] However, in NOTT-300 the corner-sharing [AlO4(OH)2] octahedra in the aluminium oxide chains display a cis configuration, and in order to accommodate the hydroxide groups,adjacent [AlO4(OH)2] octahedra are rotated by 90o with respect to each other, thereby generating 41 screw axes.
+[LINE#57+58]  Depending on the coordination mode of the carboxylate groups, the aluminium chains in MIL-53show small differences in linkage of the octahedral nodes.
+[LINE#59+60]  However, in NOTT-300 the corner-sharing [AlO4(OH)2] octahedra in the aluminium oxide chains display a cis configuration, and in order to accommodate the hydroxide groups,adjacent [AlO4(OH)2] octahedra are rotated by 90o with respect to each other, thereby generating 41 screw axes.
 0.992	[*A*]300 the corner - sharing[*R*]are rotated with[*A*]respect to each other	context()	negated: False ,passive: False
 0.985	[*A*]the corner - sharing [ AlO4 ( OH ) 2 ] in order[*R*]are rotated[*A*]by 90o[*A*]thereby generating 41 screw axes[*A*]in NOTT - 300	context()	negated: False ,passive: True
-[LINE#56]This type of connection is distinct from the other two examples, and, therefore, represents a new type of aluminium oxide building block (Fig. 1(c)).
+[LINE#61] This type of connection is distinct from the other two examples, and, therefore, represents a new type of aluminium oxide building block (Fig. 1(c)).
 0.937	[*A*]This type of connection[*R*]is[*A*]distinct from the other two examples	context()	negated: False ,passive: True
-[LINE#57]The chirality of the NOTT-300 framework therefore arises from the formation of helical chains of [AlO4(OH)2] octahedra induced by the cis-configuration of 2-OH groups.
+[LINE#62] The chirality of the NOTT-300 framework therefore arises from the formation of helical chains of [AlO4(OH)2] octahedra induced by the cis-configuration of 2-OH groups.
 0.911	[*A*]octahedra[*R*]induced[*A*]by the cis-configuration of 2-OH groups	context()	negated: False ,passive: True
 0.974	[*A*]The chirality of the NOTT-300 framework[*R*]arises[*A*]from the formation of helical chains of [AlO4(OH)2	context()	negated: False ,passive: True
-[LINE#58]This overall connectivity affords a porous extended framework structure with square-shaped 1D channels with hydroxyl groups protruding into them, endowing the pore environment with free hydroxyl groups over four different directions (Fig. 1(b)).
+[LINE#63] This overall connectivity affords a porous extended framework structure with square-shaped 1D channels with hydroxyl groups protruding into them, endowing the pore environment with free hydroxyl groups over four different directions (Fig. 1(b)).
 0.835	[*A*]hydroxyl groups[*R*]protruding[*A*]into them	context()	negated: False ,passive: True
 0.911	[*A*]This overall connectivity[*R*]affords[*A*]a porous extended framework structure	context()	negated: False ,passive: False
-[LINE#59] The diameter of the channel window, taking into account the van der Waals radii of the surface atoms, is approximately 6-7.Desolvated NOTT-300 has a pore volume of 0.38ccg-1 and a BET surface area of 1370m2g-1and so the general porosity of NOTT-300 is moderate within the family of MOF complexes.
+[LINE#64+65]  The diameter of the channel window, taking into account the van der Waals radii of the surface atoms, is approximately 6-7.Desolvated NOTT-300 has a pore volume of 0.38ccg-1 and a BET surface area of 1370m2g-1and so the general porosity of NOTT-300 is moderate within the family of MOF complexes.
 0.956	[*A*]approximately 6-7.Desolvated NOTT - 300[*R*]has[*A*]a BET surface area of 1370m2g - 1and	context(The diameter of the channel window is)	negated: False ,passive: False
 0.960	[*A*]The diameter of the channel window[*R*]is[*A*]approximately 6-7.Desolvated NOTT - 300 has a BET surface area of 1370m2g - 1and	context()	negated: False ,passive: True
 0.905	[*A*]the general porosity of NOTT - 300[*R*]is[*A*]moderate	context()	negated: False ,passive: True
 0.947	[*A*]approximately 6-7.Desolvated NOTT - 300[*R*]has[*A*]a pore volume of 0.38ccg - 1	context(The diameter of the channel window is)	negated: False ,passive: False
 0.960	[*A*]The diameter of the channel window[*R*]is[*A*]approximately 6-7.Desolvated NOTT - 300 has a pore volume of 0.38ccg - 1	context()	negated: False ,passive: True
 0.921	[*A*]The diameter of the channel window[*R*]taking[*A*]into account[*A*]the van der	context()	negated: False ,passive: False
-[LINE#60] The H2 isotherm (Fig. 2) at 77K for NOTT-300 shows exceptionally low adsorption uptakes (26ccg-1 or 0.22wt%), albeit NOTT-300 shows very high uptakes of CO2and SO2(4.11), both of which have a larger kinetic diameter than that of H2 (2.89).
+[LINE#66+67]  The H2 isotherm (Fig. 2) at 77K for NOTT-300 shows exceptionally low adsorption uptakes (26ccg-1 or 0.22wt%), albeit NOTT-300 shows very high uptakes of CO2and SO2(4.11), both of which have a larger kinetic diameter than that of H2 (2.89).
 0.902	[*A*]very high uptakes of CO2and SO2[*R*]have[*A*]a larger kinetic diameter than that of H2 (2.89	context()	negated: False ,passive: False
 0.957	[*A*]NOTT-300[*R*]shows[*A*]very high uptakes of CO2and SO2	context()	negated: False ,passive: False
-[LINE#61]The uptake of H2 increases sharply in the low pressure region and reaches saturation at 1bar.
+[LINE#68] The uptake of H2 increases sharply in the low pressure region and reaches saturation at 1bar.
 0.918	[*A*]The uptake[*R*]reaches[*A*]saturation[*A*]at 1bar	context()	negated: False ,passive: False
 0.939	[*A*]The uptake of H2[*R*]increases sharply[*A*]in the low pressure region	context()	negated: False ,passive: True
-[LINE#62]By using the pore volume of NOTT-300 and the liquid density of H2 at its boiling point (20.3K), it is estimated that NOTT-300 can hold a maximum of 2.7wt% H2 (302ccg-1) at saturation.
-[LINE#63]Surprisingly, the experimental uptake is 10 times lower than this estimation, suggesting that NOTT-300 has unusually weak binding interaction to H2 molecules, even though the pore size of NOTT-300 (6-7) is believed to be optimal to afford strong overlapping potential to H2 molecules and thus boost the adsorption uptakes.
+[LINE#69] By using the pore volume of NOTT-300 and the liquid density of H2 at its boiling point (20.3K), it is estimated that NOTT-300 can hold a maximum of 2.7wt% H2 (302ccg-1) at saturation.
+[LINE#70] Surprisingly, the experimental uptake is 10 times lower than this estimation, suggesting that NOTT-300 has unusually weak binding interaction to H2 molecules, even though the pore size of NOTT-300 (6-7) is believed to be optimal to afford strong overlapping potential to H2 molecules and thus boost the adsorption uptakes.
 0.954	[*A*]the pore size of NOTT - 300[*R*]to be[*A*]optimal to afford strong overlapping potential to H2 molecules	context()	negated: False ,passive: True
 0.906	[*A*]the experimental uptake[*R*]is[*A*]10 times lower than this estimation[*A*]suggesting that NOTT - 300 has unusually weak binding interaction to H2 molecules	context()	negated: False ,passive: True
-[LINE#64]This anomalous H2 adsorption behaviour motivated us to further investigate the interactions between adsorbed H2 molecules and NOTT-300 host, and thus to understand its very low uptake.
+[LINE#71] This anomalous H2 adsorption behaviour motivated us to further investigate the interactions between adsorbed H2 molecules and NOTT-300 host, and thus to understand its very low uptake.
 0.226	[*A*]us[*R*]to to understand[*A*]its very low uptake	context()	negated: False ,passive: False
 0.350	[*A*]us[*R*]to investigate[*A*]the interactions between adsorbed H2 molecules	context()	negated: False ,passive: False
 0.915	[*A*]This anomalous H2 adsorption behaviour[*R*]motivated[*A*]us[*A*]to further investigate the interactions between adsorbed H2 molecules and thus to understand its very low uptake	context()	negated: False ,passive: False
 0.509	[*A*]us[*R*]to investigate[*A*]the interactions between adsorbed H2 molecules and NOTT - 300 host	context()	negated: False ,passive: False
 0.929	[*A*]This anomalous H2 adsorption behaviour[*R*]motivated[*A*]us[*A*]to further investigate the interactions between adsorbed H2 molecules and NOTT - 300 host	context()	negated: False ,passive: False
-[LINE#65] Inelastic neutron scattering (INS)studyDirect visualisation of the interaction between adsorbed H2 molecules and the NOTT-300 host is crucial to understanding the detailed mechanism of interaction and hence rationalising the unusually low observed uptake capacity.
+[LINE#72+73]  Inelastic neutron scattering (INS)studyDirect visualisation of the interaction between adsorbed H2 molecules and the NOTT-300 host is crucial to understanding the detailed mechanism of interaction and hence rationalising the unusually low observed uptake capacity.
 0.983	[*A*]INS ) studyDirect visualisation of the interaction between adsorbed H2 molecules and the NOTT - 300 host[*R*]is[*A*]crucial to understanding the detailed mechanism of hence rationalising the unusually low observed uptake capacity	context()	negated: False ,passive: True
 0.974	[*A*]INS ) studyDirect visualisation of the interaction between adsorbed H2 molecules and the NOTT - 300 host[*R*]is[*A*]crucial to understanding the detailed mechanism of interaction	context()	negated: False ,passive: True
 0.713	[*A*]neutron[*R*]scattering	context()	negated: False ,passive: False
-[LINE#66]INS is a powerful neutron spectroscopy technique which has unique advantages in probing H2 binding interactions by exploiting the high neutron scattering cross-section of hydrogen (82.02barns) [20].
+[LINE#74] INS is a powerful neutron spectroscopy technique which has unique advantages in probing H2 binding interactions by exploiting the high neutron scattering cross-section of hydrogen (82.02barns) [20].
 0.964	[*A*]a powerful neutron spectroscopy technique[*R*]has[*A*]unique advantages[*A*]in probing H2 binding interactions by exploiting the high neutron scattering cross-section of hydrogen	context()	negated: False ,passive: False
 0.903	[*A*]high neutron[*R*]scattering[*A*]cross-section of hydrogen	context()	negated: False ,passive: True
 0.938	[*A*]INS[*R*]is[*A*]a powerful neutron spectroscopy technique which has unique advantages in probing H2 binding interactions by exploiting the high neutron scattering cross-section of hydrogen (82.02barns) [20]	context()	negated: False ,passive: True
-[LINE#67]As a result, the INS spectrum is ultra-sensitive to the vibrations of hydrogen atoms and the rotations of the hydrogen molecule, with hydrogen being ten times more visible than other elements.
+[LINE#75] As a result, the INS spectrum is ultra-sensitive to the vibrations of hydrogen atoms and the rotations of the hydrogen molecule, with hydrogen being ten times more visible than other elements.
 0.967	[*A*]the INS spectrum[*R*]is[*A*]ultra-sensitive to the vibrations of the rotations of the hydrogen molecule	context()	negated: False ,passive: True
 0.894	[*A*]hydrogen[*R*]being[*A*]ten times more visible than other elements	context()	negated: False ,passive: True
 0.967	[*A*]the INS spectrum[*R*]is[*A*]ultra-sensitive to the vibrations of hydrogen atoms[*A*]with hydrogen being ten times more visible than other elements	context()	negated: False ,passive: True
-[LINE#68]In this study, we successfully used the INS technique to investigate the binding interaction for the NOTT-300/H2 system albeit it has such a low H2 uptake capacity.
+[LINE#76] In this study, we successfully used the INS technique to investigate the binding interaction for the NOTT-300/H2 system albeit it has such a low H2 uptake capacity.
 0.503	[*A*]it[*R*]has[*A*]such a low H2 uptake capacity	context(we successfully used to investigate)	negated: False ,passive: False
 0.550	[*A*]we[*R*]successfully used the INS technique to investigate[*A*]the binding interaction for the NOTT-300/H2 system albeit	context(we successfully used)	negated: False ,passive: False
 0.543	[*A*]we[*R*]successfully used[*A*]the INS technique[*A*]to investigate the binding interaction for the NOTT-300/H2 system albeit it has such a low H2 uptake capacity[*A*]In this study	context()	negated: False ,passive: False
-[LINE#69] The INS spectrum for the bare NOTT-300, collected at 5K to minimise the thermal motion of the adsorbed H2 and the framework host, was found to be similar to those for MOFs containing polyphenyl rings [18,21-23], and this experimental spectrum is in good agreement with the INS spectrum obtained from DFT calculation (Fig. 3(a)).
+[LINE#77]  The INS spectrum for the bare NOTT-300, collected at 5K to minimise the thermal motion of the adsorbed H2 and the framework host, was found to be similar to those for MOFs containing polyphenyl rings [18,21-23], and this experimental spectrum is in good agreement with the INS spectrum obtained from DFT calculation (Fig. 3(a)).
 0.915	[*A*]The INS spectrum for the bare NOTT - 300[*R*]to minimise[*A*]the framework host	context()	negated: False ,passive: False
 0.929	[*A*]The INS spectrum for the bare NOTT - 300[*R*]collected[*A*]at 5K	context()	negated: False ,passive: True
 0.813	[*A*]MOFs[*R*]containing[*A*]polyphenyl rings	context()	negated: False ,passive: False
@@ -249,18 +249,18 @@
 0.945	[*A*]the bare NOTT - 300[*R*]collected[*A*]at 5K[*A*]to minimise the thermal motion of the adsorbed H2	context()	negated: False ,passive: True
 0.944	[*A*]the INS spectrum[*R*]obtained[*A*]from DFT calculation	context()	negated: False ,passive: True
 0.942	[*A*]this experimental spectrum[*R*]is[*A*]in good agreement with the INS spectrum	context()	negated: False ,passive: True
-[LINE#70] Upon loading with H2 (0.25 H2/Al and 0.50 H2/Al) at 40-50K, the background of the INS spectra increases due to the recoil of the H2 molecules, and a broad hump is observed at low energy transfers (<30meV) confirming uptake of H2 by NOTT-300.
+[LINE#78]  Upon loading with H2 (0.25 H2/Al and 0.50 H2/Al) at 40-50K, the background of the INS spectra increases due to the recoil of the H2 molecules, and a broad hump is observed at low energy transfers (<30meV) confirming uptake of H2 by NOTT-300.
 0.913	[*A*]low energy transfers[*R*]confirming[*A*]uptake of H2	context()	negated: False ,passive: False
 0.972	[*A*]a broad hump[*R*]is observed[*A*]at low energy transfers[*A*]Upon loading with H2 ( 0.25 0.50 H2 / Al ) at 40-50K	context()	negated: False ,passive: True
 0.933	[*A*]low energy transfers ( < 30meV[*R*]confirming[*A*]uptake of H2[*A*]by NOTT - 300	context()	negated: False ,passive: False
 0.948	[*A*]a broad hump[*R*]is observed[*A*]at low energy transfers ( < 30meV[*A*]Upon loading with H2	context()	negated: False ,passive: True
-[LINE#71] The difference plots, calculated by subtraction of the background spectrum (bare MOF material and sample container) from the data collected for each H2 loading, display a broad hump centred at 20meV with only one small energy transfer peak at 8.8meVand (d)).The rotational transitions of molecular H2 give a molecular proof of the local environment that the H2 molecules experience when adsorbed on a solid surface or strongly hindered site.
+[LINE#79+80]  The difference plots, calculated by subtraction of the background spectrum (bare MOF material and sample container) from the data collected for each H2 loading, display a broad hump centred at 20meV with only one small energy transfer peak at 8.8meVand (d)).The rotational transitions of molecular H2 give a molecular proof of the local environment that the H2 molecules experience when adsorbed on a solid surface or strongly hindered site.
 0.932	[*A*]The rotational transitions of molecular H2[*R*]give[*A*]a molecular proof of the local environment	context()	negated: False ,passive: False
 0.925	[*A*]a broad hump[*R*]centred[*A*]at 20meV	context()	negated: False ,passive: True
 0.944	[*A*]The difference plots[*R*]display[*A*]a broad hump centred at 20meV with only one small energy transfer peak	context()	negated: False ,passive: False
 0.732	[*A*]the data[*R*]collected	context()	negated: False ,passive: False
 0.897	[*A*]The difference plots[*R*]calculated[*A*]by subtraction of the background spectrum[*A*]from the data	context()	negated: False ,passive: True
-[LINE#72] The rotational energy levels for a diatomic molecule are given by (1):(1)EJM=J(J+1)Brotwith J and M the angular momentum number and Brot is the rotational constant,that in the case of H2 Brot=7.35meV .
+[LINE#81+82]  The rotational energy levels for a diatomic molecule are given by (1):(1)EJM=J(J+1)Brotwith J and M the angular momentum number and Brot is the rotational constant,that in the case of H2 Brot=7.35meV .
 0.824	[*A*]The rotational energy levels for a diatomic molecule[*R*]are given[*A*]by ( 1	context(M the angular Brot is)	negated: False ,passive: True
 0.942	[*A*]M the angular Brot[*R*]is[*A*]the rotational constant	context()	negated: False ,passive: True
 0.819	[*A*]The rotational energy levels for a diatomic molecule[*R*]are given[*A*]by ( 1	context(the angular momentum number is)	negated: False ,passive: True
@@ -268,106 +268,106 @@
 0.896	[*A*]EJM=J ( J+1 ) Brotwith J[*R*]is[*A*]the rotational constant	context()	negated: False ,passive: True
 0.824	[*A*]The rotational energy levels for a diatomic molecule[*R*]are given[*A*]by ( 1	context(the angular momentum number is)	negated: False ,passive: True
 0.923	[*A*]the angular momentum number[*R*]is[*A*]the rotational constant	context()	negated: False ,passive: True
-[LINE#73] There are two nuclear spin isomers of molecular hydrogen, para-hydrogen (p-H2) with spins paired or antiparallel () and ortho-hydrogen (o-H2) with the spins unpaired or parallel.
-[LINE#74]Because quantum mechanical restrictions of the symmetry of the wave-function are responsible for the existence of both species, transitions between them are forbidden in optical spectroscopy, but in the case of INS the transitions between p-H2 and o-H2 are allowed because the neutron can exchange spin states with the molecule.
+[LINE#83]  There are two nuclear spin isomers of molecular hydrogen, para-hydrogen (p-H2) with spins paired or antiparallel () and ortho-hydrogen (o-H2) with the spins unpaired or parallel.
+[LINE#84] Because quantum mechanical restrictions of the symmetry of the wave-function are responsible for the existence of both species, transitions between them are forbidden in optical spectroscopy, but in the case of INS the transitions between p-H2 and o-H2 are allowed because the neutron can exchange spin states with the molecule.
 0.983	[*A*]the transitions between p - o - H2[*R*]are allowed[*A*]because the neutron can exchange spin states with the molecule[*A*]in the case of INS	context()	negated: False ,passive: True
 0.903	[*A*]the neutron[*R*]can exchange[*A*]spin states[*A*]with the molecule	context()	negated: False ,passive: False
 0.979	[*A*]the transitions between p - H2[*R*]are allowed[*A*]because the neutron can exchange spin states with the molecule[*A*]in the case of INS	context()	negated: False ,passive: True
 0.660	[*A*]transitions between them[*R*]are forbidden[*A*]in optical spectroscopy	context()	negated: False ,passive: True
 0.957	[*A*]quantum mechanical restrictions of the symmetry of the wave - function[*R*]are[*A*]responsible for the existence of both species	context()	negated: False ,passive: True
-[LINE#75] For p-H2 in the solid state, the environment is isotropic and the main rotational transition is J(10) that manifests itself as a very sharp peak at 14.7meV.
+[LINE#85+86]  For p-H2 in the solid state, the environment is isotropic and the main rotational transition is J(10) that manifests itself as a very sharp peak at 14.7meV.
 0.935	[*A*]the main rotational transition[*R*]is[*A*]J ( 10	context()	negated: False ,passive: True
 0.813	[*A*]the environment[*R*]is[*A*]isotropic	context()	negated: False ,passive: True
-[LINE#76]Such a peak has also been observed on high loadings of H2 on MgO thin films, indicating that H2 molecules are not interacting with the material surface [25].
+[LINE#87] Such a peak has also been observed on high loadings of H2 on MgO thin films, indicating that H2 molecules are not interacting with the material surface [25].
 0.825	[*A*]Such a peak[*R*]has been observed[*A*]on high loadings of H2 on MgO thin films[*A*]indicating that H2 molecules are not interacting with the material surface [25	context()	negated: False ,passive: True
-[LINE#77]In addition, a strong and broad shoulder with some weak overlying features appears at higher energies.
+[LINE#88] In addition, a strong and broad shoulder with some weak overlying features appears at higher energies.
 0.943	[*A*]a broad shoulder with some weak overlying features[*R*]appears[*A*]at higher energies	context()	negated: False ,passive: True
 0.943	[*A*]a strong shoulder with some weak overlying features[*R*]appears[*A*]at higher energies	context()	negated: False ,passive: True
-[LINE#78]This shoulder peak, centered at ca.
+[LINE#89] This shoulder peak, centered at ca.
 0.897	[*A*]This shoulder peak[*R*]centered[*A*]at ca	context()	negated: False ,passive: True
-[LINE#79]37meV, is smooth except for a sharp curtailment at energies below the rotational transition, the intensity in this shoulder coming from rotational transitions displaced by the translational recoil of the H2 molecule.
+[LINE#90] 37meV, is smooth except for a sharp curtailment at energies below the rotational transition, the intensity in this shoulder coming from rotational transitions displaced by the translational recoil of the H2 molecule.
 0.918	[*A*]rotational transitions[*R*]displaced[*A*]by the translational recoil of the H2 molecule	context()	negated: False ,passive: True
 0.926	[*A*]the intensity in this shoulder[*R*]coming[*A*]from rotational transitions	context()	negated: False ,passive: True
-[LINE#80]While the rotational line at 14.7meV disappears completely and the onset of recoil occurs below the rotational transition for H2 in the liquid state, only the recoil features are apparent for H2 within NOTT-300 (Fig. 3(f)).
+[LINE#91] While the rotational line at 14.7meV disappears completely and the onset of recoil occurs below the rotational transition for H2 in the liquid state, only the recoil features are apparent for H2 within NOTT-300 (Fig. 3(f)).
 0.936	[*A*]the onset of recoil[*R*]occurs[*A*]below the rotational transition for H2 in the liquid state	context(only the recoil features are Fig)	negated: False ,passive: True
 0.756	[*A*]only the recoil features[*R*]are Fig[*A*]apparent	context()	negated: False ,passive: True
 0.799	[*A*]only the recoil features[*R*]are[*A*]apparent	context()	negated: False ,passive: True
 0.856	[*A*]the rotational line at 14.7meV[*R*]disappears[*A*]completely	context()	negated: False ,passive: True
-[LINE#81]clearly shows the spectra of adsorbed H2 to be in a liquid-like state within the pore channel of NOTT-300 and not in the form of a solid on the solid surface.
-[LINE#82]Even at higher loading where H2 adsorption in NOTT-300 reaches saturation, a very weak and broad peak at 14.7meV observed (Fig. 3(d)).
+[LINE#92] clearly shows the spectra of adsorbed H2 to be in a liquid-like state within the pore channel of NOTT-300 and not in the form of a solid on the solid surface.
+[LINE#93] Even at higher loading where H2 adsorption in NOTT-300 reaches saturation, a very weak and broad peak at 14.7meV observed (Fig. 3(d)).
 0.999	[*A*]H2 adsorption in NOTT - 300[*R*]reaches[*A*]-300 reaches saturation	context()	negated: False ,passive: False
 0.812	[*A*]a very weak and broad peak at 14.7meV[*R*]observed Fig	context()	negated: False ,passive: False
 0.949	[*A*]H2 adsorption in NOTT-300[*R*]reaches[*A*]saturation	context()	negated: False ,passive: False
-[LINE#83]This peak indicates the presence of a very small amount of bulk H2 populated on the surface of NOTT-300, but the predominant feature is the recoil signal for H2 in the liquid state.
+[LINE#94] This peak indicates the presence of a very small amount of bulk H2 populated on the surface of NOTT-300, but the predominant feature is the recoil signal for H2 in the liquid state.
 0.942	[*A*]the predominant feature[*R*]is[*A*]the recoil signal for H2 in the liquid state	context()	negated: False ,passive: True
 0.948	[*A*]a very small amount of bulk H2[*R*]populated[*A*]on the surface of NOTT-300	context()	negated: False ,passive: True
 0.937	[*A*]This peak[*R*]indicates[*A*]the presence of a very small amount of bulk H2	context()	negated: False ,passive: False
-[LINE#84]This observation is distinct from previous studies on adsorbed H2 which show binding to open metal sites which induce strong host-guest interactions to H2 molecules [12,26].
+[LINE#95] This observation is distinct from previous studies on adsorbed H2 which show binding to open metal sites which induce strong host-guest interactions to H2 molecules [12,26].
 0.895	[*A*]previous studies on adsorbed H2[*R*]show to open[*A*]metal sites which induce strong host-guest interactions to H2 molecules [12,26]	context(previous studies on adsorbed H2 show)	negated: False ,passive: False
 0.915	[*A*]previous studies on adsorbed H2[*R*]show[*A*]binding to open metal sites	context()	negated: False ,passive: False
 0.887	[*A*]metal sites[*R*]induce[*A*]strong host-guest interactions	context()	negated: False ,passive: False
 0.925	[*A*]This observation[*R*]is[*A*]distinct from previous studies on adsorbed H2	context()	negated: False ,passive: True
-[LINE#85]Thus, comparison of the INS spectra suggests that adsorbed H2 molecules have very weak interactions to the NOTT-300 host and, therefore, can rotate freely in the channel to give recoil rotational motion.
+[LINE#96] Thus, comparison of the INS spectra suggests that adsorbed H2 molecules have very weak interactions to the NOTT-300 host and, therefore, can rotate freely in the channel to give recoil rotational motion.
 0.813	[*A*]adsorbed H2 molecules[*R*]can rotate freely to give[*A*]recoil[*A*]rotational motion	context(comparison of the INS spectra suggests adsorbed H2 molecules can rotate freely)	negated: False ,passive: False
 0.870	[*A*]adsorbed H2 molecules[*R*]can rotate freely[*A*]in the channel[*A*]to give recoil rotational motion	context(comparison of the INS spectra suggests)	negated: False ,passive: False
 0.884	[*A*]comparison of the INS spectra[*R*]suggests[*A*]that adsorbed H2 molecules have therefore , can rotate freely in the channel to give recoil rotational motion	context()	negated: False ,passive: False
 0.905	[*A*]adsorbed H2 molecules[*R*]have[*A*]very weak interactions to the NOTT - 300 host	context(comparison of the INS spectra suggests)	negated: False ,passive: False
 0.902	[*A*]comparison of the INS spectra[*R*]suggests[*A*]that adsorbed H2 molecules have very weak interactions to the NOTT - 300 host	context()	negated: False ,passive: False
-[LINE#86]For H2 adsorption on the surface of a solid material or strongly hindered active site, the degeneracy of a transition at 14.7meV can be lifted as the freedom for the H2 molecule to rotate in all directions is restricted, thus resulting in splitting of the peak.
+[LINE#97] For H2 adsorption on the surface of a solid material or strongly hindered active site, the degeneracy of a transition at 14.7meV can be lifted as the freedom for the H2 molecule to rotate in all directions is restricted, thus resulting in splitting of the peak.
 0.914	[*A*]the degeneracy of a transition at 14.7meV[*R*]is restricted[*A*]thus resulting in splitting of the peak	context()	negated: False ,passive: True
 0.938	[*A*]the degeneracy of a transition at 14.7meV[*R*]can be lifted[*A*]as the freedom	context()	negated: False ,passive: True
-[LINE#87]Depending on the energy of the interaction, the peak can split differently, and the shift and splitting of the peaks can therefore provide important information regarding the different adsorption sites and their geometry [27].
+[LINE#98] Depending on the energy of the interaction, the peak can split differently, and the shift and splitting of the peaks can therefore provide important information regarding the different adsorption sites and their geometry [27].
 0.815	[*A*]the splitting of the peaks[*R*]can provide[*A*]important information regarding their geometry [ 27	context()	negated: False ,passive: False
 0.890	[*A*]the splitting of the peaks[*R*]can provide[*A*]important information regarding the different adsorption sites	context()	negated: False ,passive: False
 0.815	[*A*]the shift of the peaks[*R*]can provide[*A*]important information regarding their geometry [ 27	context()	negated: False ,passive: False
 0.890	[*A*]the shift of the peaks[*R*]can provide[*A*]important information regarding the different adsorption sites	context()	negated: False ,passive: False
 0.732	[*A*]the peak[*R*]can split differently	context()	negated: False ,passive: False
-[LINE#88]Further information can also be gleaned from the change in the peaks on loading with H2, demonstrating site saturation and/or site interference.
+[LINE#99] Further information can also be gleaned from the change in the peaks on loading with H2, demonstrating site saturation and/or site interference.
 0.921	[*A*]Further information[*R*]can be gleaned[*A*]from the change in the peaks on loading with H2[*A*]demonstrating site interference	context()	negated: False ,passive: True
 0.921	[*A*]Further information[*R*]can be gleaned[*A*]from the change in the peaks on loading with H2[*A*]demonstrating site saturation interference	context()	negated: False ,passive: True
-[LINE#89]In this study, in addition to the broad hump at 20meV, a small peak appeared at low energy transfer, and the centre of mass of the rotational line of H2 is significantly shifted to 8.8meV, indicating the presence of a type of specific NOTT-300-H2 interaction.
+[LINE#100] In this study, in addition to the broad hump at 20meV, a small peak appeared at low energy transfer, and the centre of mass of the rotational line of H2 is significantly shifted to 8.8meV, indicating the presence of a type of specific NOTT-300-H2 interaction.
 0.981	[*A*]the centre of mass of the rotational line of H2[*R*]is significantly shifted[*A*]to 8.8meV[*A*]indicating the presence of a type of specific NOTT-300-H2 interaction	context()	negated: False ,passive: True
 0.948	[*A*]a small peak[*R*]appeared[*A*]at low energy transfer[*A*]In this study	context()	negated: False ,passive: True
-[LINE#90]To probe the site of the H2-framework interactions, it is important to evaluate the accessible voids of the MOF host.
-[LINE#91]The Al(III) centre in NOTT-300 is coordinated via six oxygen atoms to form a full octahedral coordination sphere, and can therefore be considered to be unavailable for direct interaction with adsorbed H2 molecules.
+[LINE#101] To probe the site of the H2-framework interactions, it is important to evaluate the accessible voids of the MOF host.
+[LINE#102] The Al(III) centre in NOTT-300 is coordinated via six oxygen atoms to form a full octahedral coordination sphere, and can therefore be considered to be unavailable for direct interaction with adsorbed H2 molecules.
 0.921	[*A*]The Al ( III ) centre in NOTT - 300[*R*]is coordinated[*A*]to form a full octahedral coordination sphere	context()	negated: False ,passive: True
-[LINE#92] The small increase in the intensity of this peak in the difference spectra upon increasing the H2 loading from 0.25 to 0.5 H2/.
-[LINE#93]Al suggests that the interacting site reaches saturation quickly, presumably owing to space constraints.
+[LINE#103]  The small increase in the intensity of this peak in the difference spectra upon increasing the H2 loading from 0.25 to 0.5 H2/.
+[LINE#104] Al suggests that the interacting site reaches saturation quickly, presumably owing to space constraints.
 0.838	[*A*]the interacting site[*R*]reaches quickly presumably owing[*A*]to space constraints	context(Al suggests the interacting site reaches quickly)	negated: False ,passive: False
 0.811	[*A*]the interacting site[*R*]reaches quickly[*A*]presumably owing to space constraints	context(Al suggests)	negated: False ,passive: False
 0.727	[*A*]Al[*R*]suggests[*A*]that the interacting site reaches saturation quickly, presumably owing to space constraints	context()	negated: False ,passive: False
-[LINE#94]Analysis of the crystal structure of NOTT-300 offers two possible void sites that could interact with adsorbed H2 molecules: the organic benzene rings and the inorganic [Al(OH)2O4] moieties.
+[LINE#105] Analysis of the crystal structure of NOTT-300 offers two possible void sites that could interact with adsorbed H2 molecules: the organic benzene rings and the inorganic [Al(OH)2O4] moieties.
 0.936	[*A*]Analysis of the crystal structure of NOTT - 300[*R*]offers[*A*]two possible void sites that could interact with adsorbed H2 molecules	context()	negated: False ,passive: False
 0.905	[*A*]two possible void sites[*R*]could interact[*A*]with adsorbed H2 molecules	context()	negated: False ,passive: False
 0.936	[*A*]Analysis of the crystal structure of NOTT - 300[*R*]offers[*A*]two possible void sites that could interact with adsorbed H2 molecules : the organic benzene rings moieties	context()	negated: False ,passive: False
-[LINE#95] The surface area around the benzene rings is sufficiently large to hold one H2/.
+[LINE#106]  The surface area around the benzene rings is sufficiently large to hold one H2/.
 0.876	[*A*]The surface area around the benzene rings[*R*]is[*A*]sufficiently large	context()	negated: False ,passive: True
-[LINE#96]However, INS studies of carbon materials show that the phenyl ring only forms weak interactions with adsorbed H2 molecules, resulting in a small splitting or shift in the 14.7meV rotational line.
+[LINE#107] However, INS studies of carbon materials show that the phenyl ring only forms weak interactions with adsorbed H2 molecules, resulting in a small splitting or shift in the 14.7meV rotational line.
 0.899	[*A*]the phenyl ring[*R*]forms[*A*]weak interactions with adsorbed H2 molecules	context(INS studies of carbon materials show)	negated: False ,passive: False
 0.924	[*A*]INS studies of carbon materials[*R*]show[*A*]that the phenyl ring only forms weak interactions with adsorbed H2 molecules, resulting in a small splitting or shift in the 14.7meV rotational line	context()	negated: False ,passive: False
-[LINE#97]For example, in the INS spectra for H2-loaded activated carbon materials, the splitting of the free rotor is very small, with peaks observed at 12.5 and 15meV [28].
+[LINE#108] For example, in the INS spectra for H2-loaded activated carbon materials, the splitting of the free rotor is very small, with peaks observed at 12.5 and 15meV [28].
 0.749	[*A*]peaks[*R*]observed[*A*]at 15meV	context()	negated: False ,passive: True
 0.984	[*A*]the splitting of the free rotor[*R*]is[*A*]very small[*A*]in the INS spectra for H2 - loaded activated carbon materials	context()	negated: False ,passive: True
 0.749	[*A*]peaks[*R*]observed[*A*]at 12.5	context()	negated: False ,passive: True
 0.984	[*A*]the splitting of the free rotor[*R*]is[*A*]very small[*A*]with peaks[*A*]in the INS spectra for H2 - loaded activated carbon materials	context()	negated: False ,passive: True
-[LINE#98]An even smaller splitting was observed in H2-loaded carbon nanotubes, with peaks at 13.5 and 14.5meV [29].
+[LINE#109] An even smaller splitting was observed in H2-loaded carbon nanotubes, with peaks at 13.5 and 14.5meV [29].
 0.931	[*A*]An even smaller splitting[*R*]was observed[*A*]in H2 - loaded carbon nanotubes	context()	negated: False ,passive: True
 0.931	[*A*]An even smaller splitting[*R*]was observed[*A*]in H2 - loaded carbon nanotubes[*A*]at 13.5 [ 29	context()	negated: False ,passive: True
-[LINE#99]Such a small energy shift implies that the adsorbed H2 molecules are encountering relatively little hindrance for rotation, probably because of the weak van der Waals interactions between hydrogen and carbon.
+[LINE#110] Such a small energy shift implies that the adsorbed H2 molecules are encountering relatively little hindrance for rotation, probably because of the weak van der Waals interactions between hydrogen and carbon.
 0.900	[*A*]the adsorbed H2 molecules[*R*]are encountering[*A*]relatively little hindrance for rotation	context(Such a small energy shift implies)	negated: False ,passive: False
 0.854	[*A*]Such a small energy shift[*R*]implies[*A*]that the adsorbed H2 molecules are encountering relatively little hindrance for rotation, probably because of the weak van der Waals interactions between hydrogen and carbon	context()	negated: False ,passive: False
 0.919	[*A*]the weak van der[*R*]Waals[*A*]interactions between hydrogen and carbon	context()	negated: False ,passive: False
-[LINE#100]In addition, no change to the molecular motion of the aromatic hydrogen atom on the phenyl rings of NOTT-300 (at 125meV suggested by the DFT calculation) was observed upon H2 loading.
-[LINE#101]Therefore, the population of the INS peak in this study cannot be attributed to H2 interaction with the benzene rings due to the observation of a significant shift in the rotational line to 8.8meV.
+[LINE#111] In addition, no change to the molecular motion of the aromatic hydrogen atom on the phenyl rings of NOTT-300 (at 125meV suggested by the DFT calculation) was observed upon H2 loading.
+[LINE#112] Therefore, the population of the INS peak in this study cannot be attributed to H2 interaction with the benzene rings due to the observation of a significant shift in the rotational line to 8.8meV.
 0.980	[*A*]the population of the INS peak in this study[*R*]can not be attributed[*A*]to H2 interaction with the benzene rings due to the observation of a significant shift in the rotational line to 8.8meV	context()	negated: True ,passive: True
-[LINE#102]Therefore, this leaves the [Al(OH)2O4] moiety as the likely sites within the channel to interact with the H2 molecules.
+[LINE#113] Therefore, this leaves the [Al(OH)2O4] moiety as the likely sites within the channel to interact with the H2 molecules.
 0.425	[*A*]this[*R*]leaves[*A*]the [Al(OH)2O4	context()	negated: False ,passive: False
-[LINE#103]It has been found that the interaction between H2 and oxygen atoms can cause a significant shift in the rotational line of H2.
-[LINE#104] For example, the INS spectra for H2 adsorbed on MgO surfaceshow that the rotational line is shifted to 11meV [25].
+[LINE#114] It has been found that the interaction between H2 and oxygen atoms can cause a significant shift in the rotational line of H2.
+[LINE#115+116]  For example, the INS spectra for H2 adsorbed on MgO surfaceshow that the rotational line is shifted to 11meV [25].
 0.743	[*A*]the rotational line[*R*]is shifted[*A*]to 11meV	context(the INS spectra for H2 surfaceshow)	negated: False ,passive: True
 0.870	[*A*]the INS spectra for H2[*R*]surfaceshow[*A*]that the rotational line is shifted to 11meV [25	context()	negated: False ,passive: False
 0.953	[*A*]the INS spectra for H2[*R*]adsorbed[*A*]on MgO	context()	negated: False ,passive: True
-[LINE#105]Furthermore, INS studies on MOF-5, in which the Zn(II) centres are also fully coordinated by oxygen donors to form a [Zn4O(O2CR)6] building block, show two distinct peaks at 10meV and 12meV, which are attributed to H2 interactions with oxygen atoms from the [Zn4O(O2CR)6] building block and with the benzene ring, respectively [21,30].
+[LINE#117] Furthermore, INS studies on MOF-5, in which the Zn(II) centres are also fully coordinated by oxygen donors to form a [Zn4O(O2CR)6] building block, show two distinct peaks at 10meV and 12meV, which are attributed to H2 interactions with oxygen atoms from the [Zn4O(O2CR)6] building block and with the benzene ring, respectively [21,30].
 0.927	[*A*]two distinct peaks at 12meV[*R*]are attributed[*A*]to H2 interactions with oxygen atoms	context()	negated: False ,passive: True
 0.953	[*A*]two distinct peaks at 12meV[*R*]are attributed[*A*]to H2 interactions with oxygen atoms with the benzene ring	context()	negated: False ,passive: True
 0.953	[*A*]two distinct peaks at 12meV[*R*]are attributed[*A*]to H2 interactions with oxygen atoms from the [ Zn4O ( O2CR ) 6 ] building block	context()	negated: False ,passive: True
@@ -375,14 +375,14 @@
 0.953	[*A*]two distinct peaks at 10meV[*R*]are attributed[*A*]to H2 interactions with oxygen atoms with the benzene ring	context()	negated: False ,passive: True
 0.953	[*A*]two distinct peaks at 10meV[*R*]are attributed[*A*]to H2 interactions with oxygen atoms from the [ Zn4O ( O2CR ) 6 ] building block	context()	negated: False ,passive: True
 0.963	[*A*]the Zn ( II ) centres[*R*]are coordinated[*A*]by oxygen donors[*A*]studies on MOF - 5	context()	negated: False ,passive: True
-[LINE#106]Consistent results were also obtained from DFT calculations of H2-loaded MOF-5, where the adsorbed H2 molecules are found to interact most strongly with the [Zn4O(O2CR)6] clusters and least strongly with the benzene rings [31].
+[LINE#118] Consistent results were also obtained from DFT calculations of H2-loaded MOF-5, where the adsorbed H2 molecules are found to interact most strongly with the [Zn4O(O2CR)6] clusters and least strongly with the benzene rings [31].
 0.578	[*A*]molecules[*R*]to interact most strongly strongly	context()	negated: False ,passive: False
 0.932	[*A*]molecules[*R*]to interact most strongly[*A*]with the [ Zn4O ( O2CR ) 6 ] clusters	context()	negated: False ,passive: False
 0.921	[*A*]Consistent results[*R*]were obtained[*A*]from DFT calculations of H2 - loaded MOF - 5	context()	negated: False ,passive: True
-[LINE#107]The peak at 8.8meV in the spectra for NOTT-300nH2 (n=0.5,1.0) in this study is entirely consistent with the INS peak (10meV) observed for MOF-5, confirming that the adsorbed H2 molecules in NOTT-300 are interacting with [Al(OH)2O4] moieties (Fig. 4).
+[LINE#119] The peak at 8.8meV in the spectra for NOTT-300nH2 (n=0.5,1.0) in this study is entirely consistent with the INS peak (10meV) observed for MOF-5, confirming that the adsorbed H2 molecules in NOTT-300 are interacting with [Al(OH)2O4] moieties (Fig. 4).
 0.935	[*A*]the adsorbed H2 molecules in NOTT-300[*R*]are interacting[*A*]moieties	context(The peak at 8.8meV in the spectra for NOTT - 300nH2 ( n=0.5,1.0 ) in this study is entirely consistent with the INS peak observed confirming)	negated: False ,passive: False
 0.942	[*A*]The peak at 8.8meV in the spectra for NOTT-300nH2 (n=0.5,1.0) in this study is entirely consistent with the INS peak[*R*]observed confirming[*A*]that the adsorbed H2 molecules in NOTT-300 are interacting with [Al(OH)2O4] moieties	context(The peak at 8.8meV in the spectra for NOTT - 300nH2 ( n=0.5,1.0 ) in this study is entirely consistent with the INS peak observed)	negated: False ,passive: False
 0.962	[*A*]The peak at 8.8meV in the spectra for NOTT-300nH2 (n=0.5,1.0) in this study is entirely consistent with the INS peak[*R*]observed[*A*]for MOF-5[*A*]confirming that the adsorbed H2 molecules in NOTT-300 are interacting with [Al(OH)2O4] moieties	context()	negated: False ,passive: False
 0.975	[*A*]NOTT-300nH2 (n=0.5,1.0) in this study[*R*]is[*A*]entirely consistent with the INS peak	context()	negated: False ,passive: True
-[LINE#108]Due to the space constraints and the possible repulsive interaction with the active hydroxyl groups 2-OH around [Al(OH)2O4] moieties, this site is saturated very quickly upon H2 loading consistent with the observed low uptake capacity.
+[LINE#120] Due to the space constraints and the possible repulsive interaction with the active hydroxyl groups 2-OH around [Al(OH)2O4] moieties, this site is saturated very quickly upon H2 loading consistent with the observed low uptake capacity.
 0.947	[*A*]this site[*R*]is saturated very quickly[*A*]upon H2 loading consistent with the observed low uptake capacity	context()	negated: False ,passive: True

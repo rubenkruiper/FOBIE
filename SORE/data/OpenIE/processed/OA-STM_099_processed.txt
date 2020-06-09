@@ -1,204 +1,204 @@
-[LINE#1]Phialemonium infection in humans is rare.
+[LINE#0] Phialemonium infection in humans is rare.
 0.841	[*A*]Phialemonium infection in humans[*R*]is[*A*]rare	context()	negated: False ,passive: True
-[LINE#2]We report a 7-year-old healthy boy who presented with chronic otorrhea, which persisted despite adequate antibiotic therapy and four preservative tympanomastoidectomy operations.
+[LINE#1] We report a 7-year-old healthy boy who presented with chronic otorrhea, which persisted despite adequate antibiotic therapy and four preservative tympanomastoidectomy operations.
 0.887	[*A*]chronic otorrhea[*R*]persisted[*A*]despite four preservative tympanomastoidectomy operations	context()	negated: False ,passive: True
 0.887	[*A*]chronic otorrhea[*R*]persisted[*A*]despite adequate antibiotic therapy	context()	negated: False ,passive: True
 0.934	[*A*]a 7 - year - old healthy boy[*R*]presented[*A*]with chronic otorrhea	context()	negated: False ,passive: False
 0.569	[*A*]We[*R*]report[*A*]a 7 - year - old healthy boy who presented with chronic otorrhea ,	context()	negated: False ,passive: False
-[LINE#3]Following 3 years of intermittent topical antibiotic therapy, cultures eventually grew Phialemonium, which necessitated a more extensive operation, combined with systemic/topical anti-fungal agent to achieve clinical cure.
+[LINE#2] Following 3 years of intermittent topical antibiotic therapy, cultures eventually grew Phialemonium, which necessitated a more extensive operation, combined with systemic/topical anti-fungal agent to achieve clinical cure.
 0.906	[*A*]Phialemonium[*R*]combined[*A*]with systemic/topical anti-fungal agent	context()	negated: False ,passive: True
 0.906	[*A*]Phialemonium[*R*]necessitated[*A*]a more extensive operation	context()	negated: False ,passive: False
 0.953	[*A*]cultures[*R*]grew[*A*]Phialemonium[*A*]Following 3 years of intermittent topical antibiotic therapy[*A*]eventually	context()	negated: False ,passive: True
-[LINE#4] A 7-year-old boy presented for right-sided otalgia and an ongoing otorrhea despite local and systemic antibiotic therapy administered for 1 month.
+[LINE#3]  A 7-year-old boy presented for right-sided otalgia and an ongoing otorrhea despite local and systemic antibiotic therapy administered for 1 month.
 0.938	[*A*]A 7 - year - old boy[*R*]presented[*A*]for an ongoing otorrhea[*A*]despite systemic antibiotic therapy	context()	negated: False ,passive: False
 0.938	[*A*]A 7 - year - old boy[*R*]presented[*A*]for an ongoing otorrhea[*A*]despite local antibiotic therapy	context()	negated: False ,passive: False
 0.911	[*A*]systemic antibiotic therapy[*R*]administered[*A*]for 1 month	context()	negated: False ,passive: True
 0.938	[*A*]A 7 - year - old boy[*R*]presented[*A*]for right - sided otalgia[*A*]despite systemic antibiotic therapy	context()	negated: False ,passive: False
 0.911	[*A*]local antibiotic therapy[*R*]administered[*A*]for 1 month	context()	negated: False ,passive: True
 0.938	[*A*]A 7 - year - old boy[*R*]presented[*A*]for right - sided otalgia[*A*]despite local antibiotic therapy	context()	negated: False ,passive: True
-[LINE#5]His past medical history was remarkable for recurrent episodes of otitis media since early childhood, allergic rhinitis and a cutaneous abscess that required drainage.
+[LINE#4] His past medical history was remarkable for recurrent episodes of otitis media since early childhood, allergic rhinitis and a cutaneous abscess that required drainage.
 0.905	[*A*]early a cutaneous abscess[*R*]required[*A*]drainage	context()	negated: False ,passive: False
 0.500	[*A*]His past medical history[*R*]was[*A*]remarkable	context()	negated: False ,passive: True
-[LINE#6]His social history was significant for living on a ranch, daily interaction with outdoor animals, and swimming in a lake 2 weeks prior.
+[LINE#5] His social history was significant for living on a ranch, daily interaction with outdoor animals, and swimming in a lake 2 weeks prior.
 0.805	[*A*]His social history[*R*]was[*A*]significant for living on a swimming in a lake 2 weeks prior	context()	negated: False ,passive: True
 0.805	[*A*]His social history[*R*]was[*A*]significant for living on a daily interaction with outdoor animals	context()	negated: False ,passive: True
 0.720	[*A*]His social history[*R*]was[*A*]significant for living on a ranch	context()	negated: False ,passive: True
-[LINE#7]On his initial physical exam (day "0"), otoscopy of the right ear revealed pink granulation tissue, obscuring the tympanic membrane (TM).
+[LINE#6] On his initial physical exam (day "0"), otoscopy of the right ear revealed pink granulation tissue, obscuring the tympanic membrane (TM).
 0.862	[*A*]otoscopy of the right ear[*R*]revealed pink granulation tissue obscuring[*A*]the tympanic membrane	context(otoscopy of the right ear revealed)	negated: False ,passive: False
 0.903	[*A*]otoscopy of the right ear[*R*]revealed[*A*]pink granulation tissue[*A*]obscuring the tympanic membrane[*A*]On his initial physical exam	context()	negated: False ,passive: False
-[LINE#8]Antibiotic treatment for acute otitis media failed, and examination of the right ear under anesthesia (EUA), performed on day 26, revealed a polyp arising from a posterior-superior TM perforation.
+[LINE#7] Antibiotic treatment for acute otitis media failed, and examination of the right ear under anesthesia (EUA), performed on day 26, revealed a polyp arising from a posterior-superior TM perforation.
 0.918	[*A*]a polyp[*R*]arising[*A*]from a posterior - superior TM perforation	context()	negated: False ,passive: True
 0.961	[*A*]examination of the right ear under anesthesia[*R*]revealed[*A*]a polyp arising from a posterior - superior TM perforation	context()	negated: False ,passive: False
 0.877	[*A*]anesthesia[*R*]performed[*A*]on day 26	context()	negated: False ,passive: True
 0.801	[*A*]Antibiotic treatment for acute otitis media[*R*]failed	context()	negated: False ,passive: False
-[LINE#9]Specimens sent to surgical pathology demonstrated granulation tissue with chronic inflammation.
+[LINE#8] Specimens sent to surgical pathology demonstrated granulation tissue with chronic inflammation.
 0.938	[*A*]Specimens[*R*]sent[*A*]to surgical pathology[*A*]demonstrated granulation tissue with chronic inflammation	context()	negated: False ,passive: False
-[LINE#10] Initial computed tomography (CT) of the temporal boneshowed a soft tissue opacification in the right middle ear cavity, poorly aerated mastoid cavity, and erosion of the scutum and ossicles.
+[LINE#9+10]  Initial computed tomography (CT) of the temporal boneshowed a soft tissue opacification in the right middle ear cavity, poorly aerated mastoid cavity, and erosion of the scutum and ossicles.
 0.976	[*A*]Initial computed tomography (CT) of the temporal[*R*]boneshowed[*A*]a soft tissue opacification in the right middle ear cavity, poorly aerated mastoid cavity, and erosion of the scutum and ossicles	context()	negated: False ,passive: False
-[LINE#11]These findings were consistent with chronic serous otitis media (CSOM), with a possible cholesteatoma (Fig. 2A).
+[LINE#11] These findings were consistent with chronic serous otitis media (CSOM), with a possible cholesteatoma (Fig. 2A).
 0.903	[*A*]These findings[*R*]were[*A*]consistent with chronic serous otitis media	context()	negated: False ,passive: True
-[LINE#12]Four months after initial presentation, an attic retraction pocket was observed with anterior tympanosclerosis of the right TM.
+[LINE#12] Four months after initial presentation, an attic retraction pocket was observed with anterior tympanosclerosis of the right TM.
 0.944	[*A*]an attic retraction pocket[*R*]was observed[*A*]Four months after initial presentation	context()	negated: False ,passive: True
-[LINE#13]A repeat CT study demonstrated mild improvement of right tympanomastoid cavity opacification with new-onset thinning of the mastoid cortex (Fig. 2B).
+[LINE#13] A repeat CT study demonstrated mild improvement of right tympanomastoid cavity opacification with new-onset thinning of the mastoid cortex (Fig. 2B).
 0.961	[*A*]A repeat CT study[*R*]demonstrated[*A*]mild improvement of right tympanomastoid cavity opacification with new-onset thinning of the mastoid cortex	context()	negated: False ,passive: False
-[LINE#14]The patient underwent a canal-wall-down (CWU) tympanomastoidectomy on day 169; operative findings were remarkable for keratin debris in the epitympanum, intact malleus and stapes bones, erosion of the incus, and significant swelling of the middle ear mucosa.
+[LINE#14] The patient underwent a canal-wall-down (CWU) tympanomastoidectomy on day 169; operative findings were remarkable for keratin debris in the epitympanum, intact malleus and stapes bones, erosion of the incus, and significant swelling of the middle ear mucosa.
 0.878	[*A*]The patient[*R*]underwent[*A*]a canal-wall-down[*A*]tympanomastoidectomy[*A*]on day 169	context(operative findings were)	negated: False ,passive: True
 0.878	[*A*]operative findings[*R*]were[*A*]remarkable[*A*]in the epitympanum	context()	negated: False ,passive: True
-[LINE#15]Surgical pathology revealed cholesteatoma and granulation tissue with chronic inflammation.
+[LINE#15] Surgical pathology revealed cholesteatoma and granulation tissue with chronic inflammation.
 0.903	[*A*]Surgical pathology[*R*]revealed[*A*]granulation tissue with chronic inflammation	context()	negated: False ,passive: False
 0.903	[*A*]Surgical pathology[*R*]revealed[*A*]cholesteatoma	context()	negated: False ,passive: False
-[LINE#16]Post-operatively, the patient continued to complain of right otorrhea, otalgia and mild ipsilateral conductive hearing loss despite antibiotic therapy.
+[LINE#16] Post-operatively, the patient continued to complain of right otorrhea, otalgia and mild ipsilateral conductive hearing loss despite antibiotic therapy.
 0.887	[*A*]the patient[*R*]to complain[*A*]of mild ipsilateral conductive hearing loss[*A*]despite antibiotic therapy	context()	negated: False ,passive: False
 0.905	[*A*]the patient[*R*]to complain[*A*]of otalgia	context()	negated: False ,passive: False
 0.887	[*A*]the patient[*R*]to complain[*A*]of right otorrhea	context()	negated: False ,passive: False
 0.830	[*A*]the patient[*R*]continued[*A*]Post-operatively	context()	negated: False ,passive: True
-[LINE#17]One year later, the patient developed a right post-auricular abscess that was emergently treated by surgical incision and drainage on day 533.
+[LINE#17] One year later, the patient developed a right post-auricular abscess that was emergently treated by surgical incision and drainage on day 533.
 0.862	[*A*]a right post-auricular abscess[*R*]was treated[*A*]by surgical drainage on day 533	context()	negated: False ,passive: True
 0.862	[*A*]a right post-auricular abscess[*R*]was treated[*A*]by surgical incision	context()	negated: False ,passive: True
-[LINE#18]A second CWU tympanomastoidectomy with bilateral tympanostomy tubes insertion was performed 2 months later, on day 628.
+[LINE#18] A second CWU tympanomastoidectomy with bilateral tympanostomy tubes insertion was performed 2 months later, on day 628.
 0.961	[*A*]A second CWU tympanomastoidectomy with bilateral tympanostomy tubes insertion[*R*]was performed[*A*]2 months later[*A*]on day 628	context()	negated: False ,passive: True
-[LINE#19]Operative findings included middle ear mucosa swelling with a small amount of debris in the epitympanum.
+[LINE#19] Operative findings included middle ear mucosa swelling with a small amount of debris in the epitympanum.
 0.911	[*A*]middle ear mucosa[*R*]swelling[*A*]with a small amount of debris in the epitympanum	context()	negated: False ,passive: True
 0.937	[*A*]Operative findings[*R*]included[*A*]middle ear mucosa swelling with a small amount of debris in the epitympanum	context()	negated: False ,passive: True
-[LINE#20]In a planned second-look CWU procedure performed 10 months later (day 922), there was no residual cholesteatoma.
+[LINE#20] In a planned second-look CWU procedure performed 10 months later (day 922), there was no residual cholesteatoma.
 0.953	[*A*]a planned second-look CWU procedure[*R*]performed[*A*]10 months later	context()	negated: False ,passive: True
-[LINE#21]However, right otorrhea persisted post-operatively.
+[LINE#21] However, right otorrhea persisted post-operatively.
 0.767	[*A*]right otorrhea[*R*]persisted[*A*]post-operatively	context()	negated: False ,passive: True
-[LINE#22] Otorrhea cultures over time (days 30-990) grew P. aeruginosa and Fusarium spp, and antibiotics were prescribed according to culture results(oral amoxicillin/azithromycin, intravenous ceftazidime and topical ciprofloxacin drops).Phialemonium species was first cultured from an otorrhea swab nearly 3 years after initial presentation (day 1135).
+[LINE#22+23]  Otorrhea cultures over time (days 30-990) grew P. aeruginosa and Fusarium spp, and antibiotics were prescribed according to culture results(oral amoxicillin/azithromycin, intravenous ceftazidime and topical ciprofloxacin drops).Phialemonium species was first cultured from an otorrhea swab nearly 3 years after initial presentation (day 1135).
 0.925	[*A*]Phialemonium species[*R*]was[*A*]first cultured from an otorrhea swab	context()	negated: False ,passive: True
 0.894	[*A*]antibiotics[*R*]were prescribed[*A*]according to culture results	context()	negated: False ,passive: True
 0.957	[*A*]Otorrhea cultures[*R*]grew[*A*]Fusarium spp[*A*]over time	context()	negated: False ,passive: True
 0.938	[*A*]Otorrhea cultures over time[*R*]grew[*A*]P. aeruginosa	context()	negated: False ,passive: True
-[LINE#23] The isolates were received on Sabouraud agar (Becton, Dickinson), sub-cultured on potatoflakes agar (Remel), and incubated at 30C.
+[LINE#24+25]  The isolates were received on Sabouraud agar (Becton, Dickinson), sub-cultured on potatoflakes agar (Remel), and incubated at 30C.
 0.918	[*A*]The isolates[*R*]were incubated[*A*]at 30C	context()	negated: False ,passive: True
 0.918	[*A*]The isolates[*R*]were received[*A*]on Sabouraud agar	context()	negated: False ,passive: True
-[LINE#24]After preliminary identification of Phialemonium species was reported, the isolates were referred to the Fungus Testing Laboratory at the University of Texas Medical Branch at Galveston, which confirmed the genus twice, but could not identify the exact species.
+[LINE#26] After preliminary identification of Phialemonium species was reported, the isolates were referred to the Fungus Testing Laboratory at the University of Texas Medical Branch at Galveston, which confirmed the genus twice, but could not identify the exact species.
 0.903	[*A*]preliminary identification[*R*]could not identify[*A*]the exact species	context()	negated: True ,passive: False
 0.950	[*A*]the University of Texas Medical Branch at Galveston[*R*]confirmed[*A*]the genus[*A*]twice	context()	negated: False ,passive: False
 0.952	[*A*]the isolates[*R*]were referred[*A*]to the Fungus Testing Laboratory[*A*]at the University of Texas Medical Branch at Galveston[*A*]After preliminary identification of Phialemonium species was reported	context()	negated: False ,passive: True
 0.832	[*A*]preliminary identification of Phialemonium species[*R*]was reported	context()	negated: False ,passive: False
-[LINE#25]This unusual fungal isolation was despite several attempts to treat for bacterial-origin otorrhea with antibiotics.
+[LINE#27] This unusual fungal isolation was despite several attempts to treat for bacterial-origin otorrhea with antibiotics.
 0.937	[*A*]This unusual fungal isolation[*R*]was[*A*]despite several attempts	context()	negated: False ,passive: True
-[LINE#26]Due to the persistent CSOM-related otorrhea, now complicated by a rare fungus, the possibility of an underlying immunologic deficiency was considered.
+[LINE#28] Due to the persistent CSOM-related otorrhea, now complicated by a rare fungus, the possibility of an underlying immunologic deficiency was considered.
 0.816	[*A*]the possibility of an underlying immunologic deficiency[*R*]was considered	context()	negated: False ,passive: False
 0.966	[*A*]the persistent CSOM-related otorrhea[*R*]complicated[*A*]by a rare fungus[*A*]now	context()	negated: False ,passive: True
-[LINE#27]However, a comprehensive work up of the patient was normal, and included complement levels in the blood, HIV test, immunoglobulin electrophoresis, blood protein electrophoresis, leukocyte adhesion deficiency test, T lymphocytes count and complete blood count.
+[LINE#29] However, a comprehensive work up of the patient was normal, and included complement levels in the blood, HIV test, immunoglobulin electrophoresis, blood protein electrophoresis, leukocyte adhesion deficiency test, T lymphocytes count and complete blood count.
 0.952	[*A*]a comprehensive work up of the patient[*R*]was[*A*]normal , complete blood count	context()	negated: False ,passive: True
 0.849	[*A*]a comprehensive work up of the patient[*R*]was[*A*]normal	context(T lymphocytes count)	negated: False ,passive: True
 0.686	[*A*]T lymphocytes[*R*]count	context()	negated: False ,passive: False
-[LINE#28]Despite a long-term administration of systemic/topical anti-fungals treatment (clotrimazole, 10mg troche given 5 times/day for 14 days, and voriconazole, 200mg tablet given twice/day, for 3 weeks), Phialemonium spp was still isolated in four consecutive cultures over the following year (days 1271, 1295, 1435, 1498).
+[LINE#30] Despite a long-term administration of systemic/topical anti-fungals treatment (clotrimazole, 10mg troche given 5 times/day for 14 days, and voriconazole, 200mg tablet given twice/day, for 3 weeks), Phialemonium spp was still isolated in four consecutive cultures over the following year (days 1271, 1295, 1435, 1498).
 0.936	[*A*]Phialemonium spp[*R*]was isolated[*A*]in four consecutive cultures[*A*]over the following year[*A*]still	context()	negated: False ,passive: True
 0.911	[*A*]200 mg tablet[*R*]given[*A*]twice[*A*]for 3 weeks	context()	negated: False ,passive: True
 0.959	[*A*]Phialemonium spp[*R*]was isolated[*A*]in four consecutive cultures[*A*]over the following year[*A*]10 mg troche given 5 times / day for 14 days , 200 mg tablet given twice / day[*A*]still	context()	negated: False ,passive: True
 0.895	[*A*]200 mg tablet[*R*]given[*A*]for 3 weeks	context()	negated: False ,passive: True
 0.911	[*A*]10 mg troche[*R*]given[*A*]5 times / day[*A*]for 14 days	context()	negated: False ,passive: True
-[LINE#29]Systemic anti-fungal therapy was eventually discontinued due to severe allergic skin reactions.
+[LINE#31] Systemic anti-fungal therapy was eventually discontinued due to severe allergic skin reactions.
 0.923	[*A*]Systemic anti-fungal therapy[*R*]was discontinued[*A*]due to severe allergic skin reactions[*A*]eventually	context()	negated: False ,passive: True
-[LINE#30]After attempting to treat the fungal infection medically for 12 months, the patient underwent a fifth tympanomastoidectomy.
+[LINE#32] After attempting to treat the fungal infection medically for 12 months, the patient underwent a fifth tympanomastoidectomy.
 0.964	[*A*]the patient[*R*]underwent[*A*]a fifth tympanomastoidectomy[*A*]After attempting to treat the fungal infection medically for 12 months	context()	negated: False ,passive: True
-[LINE#31]This procedure was done through a canal-wall-down (CWD) approach.
+[LINE#33] This procedure was done through a canal-wall-down (CWD) approach.
 0.732	[*A*]This procedure[*R*]was done	context()	negated: False ,passive: False
-[LINE#32]Intra-operatively, there was a small amount of cholesteatoma.
-[LINE#33]Significant swelling and inflammation of the middle ear mucosa were also observed.
+[LINE#34] Intra-operatively, there was a small amount of cholesteatoma.
+[LINE#35] Significant swelling and inflammation of the middle ear mucosa were also observed.
 0.827	[*A*]Significant swelling and inflammation of the middle ear mucosa[*R*]were observed	context()	negated: False ,passive: False
 0.771	[*A*]Significant[*R*]swelling	context()	negated: False ,passive: False
-[LINE#34]In post-operative monthly visits, the patient reported significant improvement of the right otalgia and otorrhea.
+[LINE#36] In post-operative monthly visits, the patient reported significant improvement of the right otalgia and otorrhea.
 0.943	[*A*]the patient[*R*]reported[*A*]significant improvement of the otorrhea[*A*]In post-operative monthly visits	context()	negated: False ,passive: False
 0.943	[*A*]the patient[*R*]reported[*A*]significant improvement of the right otalgia[*A*]In post-operative monthly visits	context()	negated: False ,passive: False
-[LINE#35]As expected, the mastoid bowl was epithelialized within 3 months.
+[LINE#37] As expected, the mastoid bowl was epithelialized within 3 months.
 0.993	[*A*]the mastoid bowl[*R*]was epithelialized within[*A*]within 3 months	context()	negated: False ,passive: False
 0.911	[*A*]the mastoid bowl[*R*]was epithelialized[*A*]within 3 months	context()	negated: False ,passive: True
-[LINE#36]No further surgical procedures were carried out, and no post-operative CT studies were performed.
+[LINE#38] No further surgical procedures were carried out, and no post-operative CT studies were performed.
 0.818	[*A*]no post-operative CT studies[*R*]were performed	context()	negated: False ,passive: False
 0.769	[*A*]No further surgical procedures[*R*]were carried out	context()	negated: False ,passive: False
-[LINE#37]At 18-months postoperative follow-up, all cultures from the right ear have been negative for Phialemonium spp.
+[LINE#39] At 18-months postoperative follow-up, all cultures from the right ear have been negative for Phialemonium spp.
 0.967	[*A*]all cultures from the right ear[*R*]have been[*A*]negative[*A*]for Phialemonium spp[*A*]At 18-months postoperative follow-up	context()	negated: False ,passive: True
-[LINE#38]We present an unusual case of CSOM in an immunocompetent patient presenting with persistent fungal otorrhea.
+[LINE#40] We present an unusual case of CSOM in an immunocompetent patient presenting with persistent fungal otorrhea.
 0.911	[*A*]an immunocompetent patient[*R*]presenting[*A*]with persistent fungal otorrhea	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]present[*A*]an unusual case of CSOM[*A*]in an immunocompetent patient	context()	negated: False ,passive: False
-[LINE#39]The isolated mold, Phialemonium, is an extremely rare human pathogen.
+[LINE#41] The isolated mold, Phialemonium, is an extremely rare human pathogen.
 0.920	[*A*]The isolated mold[*R*]is[*A*]an extremely rare human pathogen	context()	negated: False ,passive: True
-[LINE#40]To our knowledge, this is the first report of such an infection in the ear.
+[LINE#42] To our knowledge, this is the first report of such an infection in the ear.
 0.567	[*A*]this[*R*]is[*A*]the first report of such an infection in the ear	context()	negated: False ,passive: True
-[LINE#41]We describe a confined local Phialemonium infection in the tympanomastoid cavity without any systemic manifestations.
+[LINE#43] We describe a confined local Phialemonium infection in the tympanomastoid cavity without any systemic manifestations.
 0.452	[*A*]We[*R*]describe[*A*]a confined local Phialemonium infection	context()	negated: False ,passive: False
-[LINE#42]Unlike other cases of CSOM-associated otomycosis, the patients fungal infection was eradicated only after more aggressive treatment.
+[LINE#44] Unlike other cases of CSOM-associated otomycosis, the patients fungal infection was eradicated only after more aggressive treatment.
 0.919	[*A*]the patients fungal infection[*R*]was eradicated[*A*]only after more aggressive treatment	context()	negated: False ,passive: True
-[LINE#43]was first described as a human pathogen in 1986 (7).
-[LINE#44]Widely distributed in the environment, Phialemonium species have been isolated from air, soil, industrial water, and sewage.
+[LINE#45] was first described as a human pathogen in 1986 (7).
+[LINE#46] Widely distributed in the environment, Phialemonium species have been isolated from air, soil, industrial water, and sewage.
 0.927	[*A*]Phialemonium species[*R*]have been isolated[*A*]from sewage	context()	negated: False ,passive: True
 0.927	[*A*]Phialemonium species[*R*]have been isolated[*A*]from industrial water	context()	negated: False ,passive: True
 0.927	[*A*]Phialemonium species[*R*]have been isolated[*A*]from soil	context()	negated: False ,passive: True
 0.927	[*A*]Phialemonium species[*R*]have been isolated[*A*]from air	context()	negated: False ,passive: True
-[LINE#45]Although these species rarely cause human disease, this fungal infection can be fatal (9).
+[LINE#47] Although these species rarely cause human disease, this fungal infection can be fatal (9).
 0.996	[*A*]this fungal infection[*R*]can have fatality of[*A*]9	context()	negated: False ,passive: False
 0.783	[*A*]this fungal infection[*R*]can be[*A*]fatal (9	context()	negated: False ,passive: True
 0.934	[*A*]these species[*R*]cause[*A*]human disease[*A*]rarely	context()	negated: False ,passive: False
-[LINE#46]Due to its affinity to the endovascular system, Phialemonium spreads in the blood stream and can eventually cause endocarditis.
+[LINE#48] Due to its affinity to the endovascular system, Phialemonium spreads in the blood stream and can eventually cause endocarditis.
 0.582	[*A*]Due[*R*]can cause[*A*]endocarditis[*A*]eventually	context()	negated: False ,passive: False
 0.920	[*A*]Phialemonium[*R*]spreads[*A*]in the blood stream	context()	negated: False ,passive: True
-[LINE#47]To date, most of the reported Phialemonium infections cases manifested as systemic disease in immunocompromised patients and were associated with a high mortality rate.
+[LINE#49] To date, most of the reported Phialemonium infections cases manifested as systemic disease in immunocompromised patients and were associated with a high mortality rate.
 0.961	[*A*]most of the reported Phialemonium infections[*R*]were associated[*A*]with a high mortality rate[*A*]To date	context()	negated: False ,passive: True
 0.964	[*A*]most of the reported Phialemonium infections cases[*R*]manifested[*A*]as systemic disease[*A*]in immunocompromised patients[*A*]To date	context()	negated: False ,passive: True
-[LINE#48]We hypothesize two potential sources for this patients Phialemonium inoculation.
+[LINE#50] We hypothesize two potential sources for this patients Phialemonium inoculation.
 0.452	[*A*]We[*R*]hypothesize[*A*]two potential sources for this patients	context()	negated: False ,passive: False
-[LINE#49]First, his extensive history of animal contact puts him at greater risk for soil-borne pathogens [4].
+[LINE#51] First, his extensive history of animal contact puts him at greater risk for soil-borne pathogens [4].
 0.769	[*A*]his extensive history of animal contact[*R*]puts[*A*]him[*A*]at greater risk for soil-borne pathogens[*A*]First	context()	negated: False ,passive: False
-[LINE#50]Second, his exposure to lake water while swimming may have exposed him to Phialemonium as contaminated water is a common culture site [5].
+[LINE#52] Second, his exposure to lake water while swimming may have exposed him to Phialemonium as contaminated water is a common culture site [5].
 0.925	[*A*]contaminated water[*R*]is[*A*]a common culture site	context()	negated: False ,passive: True
-[LINE#51]These risk factors combined with an increased susceptibility to secondary fungal infections after chronic antibiotic therapy greatly increased the patients chance of becoming infected with Phialemonium.
+[LINE#53] These risk factors combined with an increased susceptibility to secondary fungal infections after chronic antibiotic therapy greatly increased the patients chance of becoming infected with Phialemonium.
 0.978	[*A*]These risk factors combined with an increased susceptibility to secondary fungal infections[*R*]increased[*A*]the patients chance of becoming infected with Phialemonium[*A*]after chronic antibiotic therapy	context()	negated: False ,passive: False
 0.911	[*A*]These risk factors[*R*]combined[*A*]with an increased susceptibility to secondary fungal infections	context()	negated: False ,passive: True
-[LINE#52]In the CWD procedure, the posterior wall of the external auditory canal is removed in order to create a single cavity mastoid bowl open to outside air.
+[LINE#54] In the CWD procedure, the posterior wall of the external auditory canal is removed in order to create a single cavity mastoid bowl open to outside air.
 0.973	[*A*]the posterior wall of the external auditory canal[*R*]is removed[*A*]in order[*A*]In the CWD procedure	context()	negated: False ,passive: True
-[LINE#53]This procedure externalizes the middle ear disease and gives chronic conditions, such as cholesteatoma, a pathway out of the closed middle ear cavity.
+[LINE#55] This procedure externalizes the middle ear disease and gives chronic conditions, such as cholesteatoma, a pathway out of the closed middle ear cavity.
 0.887	[*A*]This procedure[*R*]gives[*A*]chronic conditions, such as cholesteatoma	context()	negated: False ,passive: False
 0.903	[*A*]This procedure[*R*]externalizes[*A*]the middle ear disease	context()	negated: False ,passive: False
-[LINE#54]In pediatric CSOM cases, efforts are made to avoid this radical procedure.
-[LINE#55]Post-operative disadvantages include repeated external auditory canal and mastoid bowl cleaning, avoidance of water exposure, and possible hearing changes.
+[LINE#56] In pediatric CSOM cases, efforts are made to avoid this radical procedure.
+[LINE#57] Post-operative disadvantages include repeated external auditory canal and mastoid bowl cleaning, avoidance of water exposure, and possible hearing changes.
 0.903	[*A*]Post-operative disadvantages[*R*]include[*A*]repeated possible hearing changes	context()	negated: False ,passive: True
 0.903	[*A*]Post-operative disadvantages[*R*]include[*A*]repeated avoidance of water exposure	context()	negated: False ,passive: True
 0.903	[*A*]Post-operative disadvantages[*R*]include[*A*]repeated external mastoid bowl cleaning	context()	negated: False ,passive: True
 0.903	[*A*]Post-operative disadvantages[*R*]include[*A*]repeated external auditory canal	context()	negated: False ,passive: True
-[LINE#56]These can often severely affect the quality of life of a young child.
+[LINE#58] These can often severely affect the quality of life of a young child.
 0.582	[*A*]These[*R*]can severely affect[*A*]the quality of life of a young child[*A*]often	context()	negated: False ,passive: False
-[LINE#57]Thus many surgeons usually tend to choose the less aggressive CWU mastoidectomy approach early in the disease course.
+[LINE#59] Thus many surgeons usually tend to choose the less aggressive CWU mastoidectomy approach early in the disease course.
 0.905	[*A*]many surgeons[*R*]to choose[*A*]the less aggressive CWU mastoidectomy approach[*A*]early in the disease course	context()	negated: False ,passive: False
 0.973	[*A*]many surgeons[*R*]tend[*A*]to choose the less aggressive CWU mastoidectomy approach early in the disease course[*A*]usually	context()	negated: False ,passive: True
-[LINE#58]The described patient received the standard of care for CSOM.
+[LINE#60] The described patient received the standard of care for CSOM.
 0.925	[*A*]The described patient[*R*]received[*A*]the standard of care for CSOM	context()	negated: False ,passive: False
-[LINE#59]Each acute episode was promptly treated with antibiotic therapy, debriding and cleansing.
+[LINE#61] Each acute episode was promptly treated with antibiotic therapy, debriding and cleansing.
 0.911	[*A*]Each acute episode[*R*]was promptly treated[*A*]with cleansing	context()	negated: False ,passive: True
 0.911	[*A*]Each acute episode[*R*]was promptly treated[*A*]with debriding	context()	negated: False ,passive: True
 0.911	[*A*]Each acute episode[*R*]was promptly treated[*A*]with antibiotic therapy	context()	negated: False ,passive: True
-[LINE#60]The four CWU procedures were indicated by the presence of cholesteatoma as observed during EUA, clinic examination and imaging studies.
+[LINE#62] The four CWU procedures were indicated by the presence of cholesteatoma as observed during EUA, clinic examination and imaging studies.
 0.939	[*A*]The four CWU procedures[*R*]were indicated[*A*]by the presence of cholesteatoma[*A*]imaging studies	context()	negated: False ,passive: True
 0.949	[*A*]The four CWU procedures[*R*]were indicated[*A*]by the presence of cholesteatoma[*A*]as observed during EUA , clinic examination studies	context()	negated: False ,passive: True
-[LINE#61]However, the course of CSOM in this patient was complicated by the co-existence of a rare fungal infection.
+[LINE#63] However, the course of CSOM in this patient was complicated by the co-existence of a rare fungal infection.
 0.953	[*A*]the course of CSOM in this patient[*R*]was complicated[*A*]by the co-existence of a rare fungal infection	context()	negated: False ,passive: True
-[LINE#62]Initially the Phialemonium infection was treated with topical anti-fungal therapy; systemic anti-fungal were added.
+[LINE#64] Initially the Phialemonium infection was treated with topical anti-fungal therapy; systemic anti-fungal were added.
 0.952	[*A*]the Phialemonium infection[*R*]was treated[*A*]with topical anti-fungal therapy[*A*]Initially	context(systemic anti-fungal were added)	negated: False ,passive: True
 0.236	[*A*]systemic anti-fungal[*R*]were added	context()	negated: False ,passive: False
-[LINE#63]Late in the disease course a CWD tympanomastoidectomy was warranted after the patient continued to experience otorrhea, severe otalgia, residual cholesteatoma foci and repeated Phialemonium cultures.
+[LINE#65] Late in the disease course a CWD tympanomastoidectomy was warranted after the patient continued to experience otorrhea, severe otalgia, residual cholesteatoma foci and repeated Phialemonium cultures.
 0.903	[*A*]the patient[*R*]repeated[*A*]Phialemonium cultures	context()	negated: False ,passive: False
 0.961	[*A*]a CWD tympanomastoidectomy[*R*]was warranted[*A*]after the patient repeated Phialemonium cultures[*A*]Late in the disease course	context()	negated: False ,passive: True
 0.887	[*A*]the patient[*R*]to experience[*A*]otorrhea , severe otalgia	context()	negated: False ,passive: False
 0.732	[*A*]the patient[*R*]continued	context()	negated: False ,passive: False
 0.976	[*A*]a CWD tympanomastoidectomy[*R*]was warranted[*A*]after the patient continued to experience otorrhea , severe otalgia[*A*]Late in the disease course	context()	negated: False ,passive: True
-[LINE#64]With so little known about effective treatment methods for otic Phialemonium infections, further long-term follow-up is very important.
+[LINE#66] With so little known about effective treatment methods for otic Phialemonium infections, further long-term follow-up is very important.
 0.957	[*A*]so little known about effective treatment methods for otic Phialemonium infections, further long-term follow-up[*R*]is[*A*]very important	context()	negated: False ,passive: True
-[LINE#65]In our patient, eradication of the fungal infection was achieved only after the CWD tympanomastoidectomy procedure.
+[LINE#67] In our patient, eradication of the fungal infection was achieved only after the CWD tympanomastoidectomy procedure.
 0.936	[*A*]eradication of the fungal infection[*R*]was achieved[*A*]only after the CWD tympanomastoidectomy procedure[*A*]In our patient	context()	negated: False ,passive: True
-[LINE#66]We propose that early radical surgical intervention for the treatment of CSOM-associated Phialemonium infections may shorten the disease course.
+[LINE#68] We propose that early radical surgical intervention for the treatment of CSOM-associated Phialemonium infections may shorten the disease course.
 0.967	[*A*]early radical surgical intervention for the treatment of CSOM-associated Phialemonium infections[*R*]may shorten[*A*]the disease course	context(We propose)	negated: False ,passive: False
 0.317	[*A*]We[*R*]propose[*A*]that early radical surgical intervention for the treatment of CSOM-associated Phialemonium infections may shorten the disease course	context()	negated: False ,passive: False
-[LINE#67]Phialemonium spp are a type of dematiaceous fungi that are emerging as opportunistic pathogens of humans.
+[LINE#69] Phialemonium spp are a type of dematiaceous fungi that are emerging as opportunistic pathogens of humans.
 0.887	[*A*]Phialemonium spp[*R*]are a type of[*A*]dematiaceous fungi	context()	negated: False ,passive: False
 0.887	[*A*]dematiaceous fungi[*R*]are emerging[*A*]as opportunistic pathogens of humans	context()	negated: False ,passive: False
 0.903	[*A*]Phialemonium spp[*R*]are[*A*]a type of dematiaceous fungi	context()	negated: False ,passive: True
-[LINE#68]To date, less than 30 cases of human Phialemonium infections have been reported, mainly occurring in immunocompromised patients [1,2].
+[LINE#70] To date, less than 30 cases of human Phialemonium infections have been reported, mainly occurring in immunocompromised patients [1,2].
 0.992	[*A*]less than 30 cases of human Phialemonium infections[*R*]have been reported To[*A*]date	context()	negated: False ,passive: False
 0.934	[*A*]less than 30 cases of human Phialemonium infections[*R*]occurring[*A*]in immunocompromised patients	context()	negated: False ,passive: True
 0.961	[*A*]less than 30 cases of human Phialemonium infections[*R*]have been reported[*A*]mainly occurring in immunocompromised patients[*A*]To date	context()	negated: False ,passive: True
-[LINE#69]However, infection of immunocompetent patients have been reported in the literature as well in recent years [3].
+[LINE#71] However, infection of immunocompetent patients have been reported in the literature as well in recent years [3].
 0.919	[*A*]infection of immunocompetent patients[*R*]have been reported[*A*]in the literature[*A*]as well in recent years	context()	negated: False ,passive: True

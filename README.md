@@ -1,10 +1,12 @@
 Semi-Open Relation Extraction
 --
 
-Computer-Aided Biomimetics dataset for the extraction of TRADE-OFFS and syntactically similar relations from scientific biological texts.
+The Focused Open Biology Information Extraction (FOBIE) dataset aims to support IE from  Computer-Aided Biomimetics. 
+The dataset contains ~1,500 sentences from scientific biological texts. These sentences are annotated with TRADE-OFFS 
+and syntactically similar relations between unbounded arguments, as well as argument-modifiers. 
 
-Instructions for using the Semi-Open Relation Extraction (SORE) code be found inside the SORE folder Readme.md, or 
-in [the ReadTheDocs documentations](https://sore-documentation.readthedocs.io/en/latest/).
+The FOBIE dataset has been used to explore Semi-Open Relation Extraction (SORE). The code for this and instructions can 
+be found inside the SORE folder Readme.md, or in [the ReadTheDocs documentations](https://sore-documentation.readthedocs.io/en/latest/).
 
 ### Format
 The train/test/dev data files are provided in two formats. A verbose json format inspired on the Semeval2018 task 7 dataset:

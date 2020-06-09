@@ -1,8 +1,8 @@
 {
-  "Prepare_data": false,
+  "Prepare_data": true,
   "Parse_narrowIE_predictions": false,
-  "Run_OIE": false,
-  "Filter_OIE": false,
+  "Run_OIE": true,
+  "Filter_OIE": true,
   "data_prep": {
     "max_num_docs_narrowIE" : 200
   },

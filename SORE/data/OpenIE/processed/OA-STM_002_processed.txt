@@ -1,176 +1,176 @@
-[LINE#1]The transfer of a laboratory process into a manufacturing facility is one of the most critical steps required for the large scale production of cell-based therapy products.
+[LINE#0] The transfer of a laboratory process into a manufacturing facility is one of the most critical steps required for the large scale production of cell-based therapy products.
 0.948	[*A*]the most critical steps[*R*]required[*A*]for the large scale production of cell-based therapy products	context()	negated: False ,passive: True
 0.964	[*A*]The transfer of a laboratory process into a manufacturing facility[*R*]is[*A*]one of the most critical steps	context()	negated: False ,passive: True
-[LINE#2]This study describes the first published protocol for scalable automated expansion of human induced pluripotent stem cell lines growing in aggregates in feeder-free and chemically defined medium.
+[LINE#1] This study describes the first published protocol for scalable automated expansion of human induced pluripotent stem cell lines growing in aggregates in feeder-free and chemically defined medium.
 0.932	[*A*]human induced pluripotent stem cell lines[*R*]growing[*A*]in aggregates in chemically defined medium	context()	negated: False ,passive: True
 0.932	[*A*]human induced pluripotent stem cell lines[*R*]growing[*A*]in aggregates in feeder - free medium	context()	negated: False ,passive: True
 0.937	[*A*]This study[*R*]describes[*A*]the first published protocol for scalable automated expansion of human induced pluripotent stem cell lines	context()	negated: False ,passive: False
-[LINE#3]Cells were successfully transferred between different sites representative of research and manufacturing settings; and passaged manually and using the CompacT SelecT automation platform.
+[LINE#2] Cells were successfully transferred between different sites representative of research and manufacturing settings; and passaged manually and using the CompacT SelecT automation platform.
 0.840	[*A*]Cells[*R*]were using[*A*]the CompacT SelecT automation platform	context()	negated: False ,passive: False
 0.561	[*A*]Cells[*R*]were passaged manually	context()	negated: False ,passive: False
 0.813	[*A*]Cells[*R*]were successfully transferred[*A*]between different sites representative of research and manufacturing settings	context()	negated: False ,passive: True
-[LINE#4]Modified protocols were developed for the automated system and the management of cells aggregates (clumps) was identified as the critical step.
+[LINE#3] Modified protocols were developed for the automated system and the management of cells aggregates (clumps) was identified as the critical step.
 0.913	[*A*]the management of cells aggregates[*R*]was identified[*A*]as the critical step	context()	negated: False ,passive: True
 0.903	[*A*]Modified protocols[*R*]were developed[*A*]for the automated system	context()	negated: False ,passive: True
-[LINE#5]Cellular morphology, pluripotency gene expression and differentiation into the three germ layers have been used compare the outcomes of manual and automated processes.
-[LINE#6]In conclusion, we have successfully demonstrated a protocol passaging hiPSC in an automated system, the CompacT SelecT, with cells maintained as aggregates.
+[LINE#4] Cellular morphology, pluripotency gene expression and differentiation into the three germ layers have been used compare the outcomes of manual and automated processes.
+[LINE#5] In conclusion, we have successfully demonstrated a protocol passaging hiPSC in an automated system, the CompacT SelecT, with cells maintained as aggregates.
 0.813	[*A*]cells[*R*]maintained[*A*]as aggregates	context()	negated: False ,passive: True
 0.947	[*A*]a protocol[*R*]passaging[*A*]hiPSC[*A*]in an automated system, the CompacT SelecT, with cells	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]have successfully demonstrated[*A*]a protocol passaging hiPSC in an automated system, the CompacT SelecT, with cells[*A*]In conclusion	context()	negated: False ,passive: False
-[LINE#7]This work has shown that hiPSC can be passaged in an automated system without losing their pluripotent capabilities.
+[LINE#6] This work has shown that hiPSC can be passaged in an automated system without losing their pluripotent capabilities.
 0.825	[*A*]hiPSC[*R*]can be passaged[*A*]in an automated system	context(This work has shown)	negated: False ,passive: True
 0.740	[*A*]This work[*R*]has shown[*A*]that hiPSC can be passaged in an automated system without losing their pluripotent capabilities	context()	negated: False ,passive: False
 0.730	[*A*]hiPSC[*R*]without losing[*A*]their pluripotent capabilities	context()	negated: False ,passive: False
-[LINE#8]Cells maintained their characteristic hiPSC morphology and expressed pluripotency markers both by immunochemistry and qPCR.
+[LINE#7] Cells maintained their characteristic hiPSC morphology and expressed pluripotency markers both by immunochemistry and qPCR.
 0.813	[*A*]Cells[*R*]expressed[*A*]pluripotency markers	context()	negated: False ,passive: False
 0.740	[*A*]Cells[*R*]maintained[*A*]their characteristic hiPSC morphology	context()	negated: False ,passive: False
-[LINE#9]Additionally, these cells maintained the capacity to differentiate into the three germ layers (endoderm, mesoderm and neuroectoderm).
+[LINE#8] Additionally, these cells maintained the capacity to differentiate into the three germ layers (endoderm, mesoderm and neuroectoderm).
 0.937	[*A*]these cells[*R*]maintained[*A*]the capacity to differentiate into the three germ layers ( endoderm , neuroectoderm )	context()	negated: False ,passive: False
 0.937	[*A*]these cells[*R*]maintained[*A*]the capacity to differentiate into the three germ layers ( endoderm , mesoderm )	context()	negated: False ,passive: False
-[LINE#10] The comparison between manual and automated conditions showed the maintenance and passaging of hiPSC is feasible using the CompacT SelecT system, however to improve reproducibilitysome detailed changes will have to be implemented.
+[LINE#9+10]  The comparison between manual and automated conditions showed the maintenance and passaging of hiPSC is feasible using the CompacT SelecT system, however to improve reproducibilitysome detailed changes will have to be implemented.
 0.934	[*A*]The comparison between manual and automated conditions[*R*]showed however[*A*]the passaging of hiPSC	context()	negated: False ,passive: False
 0.934	[*A*]The comparison between manual and automated conditions[*R*]showed however[*A*]the maintenance of hiPSC	context()	negated: False ,passive: False
-[LINE#11]Further work is necessary to define more accurately the critical protocol parameters and take account of the constraints required when generating fully functional hiPSC lines for clinical applications.
+[LINE#11] Further work is necessary to define more accurately the critical protocol parameters and take account of the constraints required when generating fully functional hiPSC lines for clinical applications.
 0.903	[*A*]the constraints[*R*]required[*A*]when generating fully functional hiPSC lines for clinical applications	context()	negated: False ,passive: True
 0.925	[*A*]Further work[*R*]is[*A*]necessary to take account of the constraints	context()	negated: False ,passive: True
 0.925	[*A*]Further work[*R*]is[*A*]necessary to define more accurately the critical protocol parameters	context()	negated: False ,passive: True
-[LINE#12]With respect to future automated solutions incubator design must take into account the current necessity of not disturbing cells that require to be grown as aggregates, such as hiPSC and that take time (potentially up to 24h) to attach.
+[LINE#12] With respect to future automated solutions incubator design must take into account the current necessity of not disturbing cells that require to be grown as aggregates, such as hiPSC and that take time (potentially up to 24h) to attach.
 0.897	[*A*]not disturbing cells[*R*]take[*A*]time	context()	negated: False ,passive: False
 0.913	[*A*]not disturbing cells[*R*]to be grown[*A*]as aggregates , such as hiPSC	context()	negated: False ,passive: True
 0.913	[*A*]not disturbing cells[*R*]require[*A*]to be grown as aggregates , such as hiPSC	context()	negated: False ,passive: False
-[LINE#13] Automation would most certainly benefit from development of (conical)plastic vessels of the volume necessary to accommodate cell suspensions from T175 flasks as this could reduce the time for cell clumps to settle and thus speeding the passaging protocol.
+[LINE#13+14]  Automation would most certainly benefit from development of (conical)plastic vessels of the volume necessary to accommodate cell suspensions from T175 flasks as this could reduce the time for cell clumps to settle and thus speeding the passaging protocol.
 0.732	[*A*]cell clumps[*R*]to settle	context()	negated: False ,passive: False
 0.887	[*A*]cell suspensions[*R*]could reduce[*A*]the time for cell clumps to settle	context()	negated: False ,passive: False
 0.899	[*A*]Automation[*R*]would benefit[*A*]from development of ( conical ) plastic vessels of the volume necessary	context()	negated: False ,passive: True
-[LINE#14]The option to use a pipette with smaller bore than a 10ml pipette would assist the optimization of breaking cell clumps to the desirable size and reduce the single cell debris caused by pipetting.
+[LINE#15] The option to use a pipette with smaller bore than a 10ml pipette would assist the optimization of breaking cell clumps to the desirable size and reduce the single cell debris caused by pipetting.
 0.919	[*A*]the single cell debris[*R*]caused[*A*]by pipetting	context()	negated: False ,passive: True
-[LINE#15]While these modifications would be required to optimize the present protocol to ensure maximum yields of cells, this study represents a proof of principle that hiPSC can be expanded in clumps using automation without loss of quality.
+[LINE#16] While these modifications would be required to optimize the present protocol to ensure maximum yields of cells, this study represents a proof of principle that hiPSC can be expanded in clumps using automation without loss of quality.
 0.855	[*A*]hiPSC[*R*]can be expanded[*A*]in clumps	context()	negated: False ,passive: True
 0.868	[*A*]this study[*R*]represents[*A*]a proof of principle that hiPSC can be expanded in clumps	context()	negated: False ,passive: False
 0.813	[*A*]clumps[*R*]using[*A*]automation	context()	negated: False ,passive: False
 0.937	[*A*]these modifications[*R*]would be required[*A*]to optimize the present protocol to ensure maximum yields of cells	context()	negated: False ,passive: True
-[LINE#16] Human induced pluripotent stem cells (hiPSC) are generated from reprogrammed fibroblasts by overexpression of pluripotency factors.
+[LINE#17]  Human induced pluripotent stem cells (hiPSC) are generated from reprogrammed fibroblasts by overexpression of pluripotency factors.
 0.913	[*A*]Human induced pluripotent stem cells[*R*]are generated[*A*]from reprogrammed fibroblasts[*A*]by overexpression of pluripotency factors	context()	negated: False ,passive: True
 0.894	[*A*]Human[*R*]induced[*A*]pluripotent stem cells	context()	negated: False ,passive: False
-[LINE#17]These pluripotent cells have the unique characteristic to self renew in vitro while maintaining the capacity to differentiate into a broad number of cell types.
+[LINE#18] These pluripotent cells have the unique characteristic to self renew in vitro while maintaining the capacity to differentiate into a broad number of cell types.
 0.896	[*A*]These pluripotent cells[*R*]have the unique characteristic to self renew in vitro maintaining[*A*]the capacity to differentiate into a broad number of cell types	context(These pluripotent cells have)	negated: False ,passive: False
 0.891	[*A*]These pluripotent cells[*R*]have[*A*]the unique characteristic to self renew in vitro	context()	negated: False ,passive: False
 0.911	[*A*]the unique characteristic[*R*]to self renew[*A*]in vitro[*A*]while maintaining the capacity	context()	negated: False ,passive: True
-[LINE#18]By combining these unique properties, hiPSC could enable the generation of large quantity of cells for clinical applications.
+[LINE#19] By combining these unique properties, hiPSC could enable the generation of large quantity of cells for clinical applications.
 0.904	[*A*]hiPSC[*R*]could enable[*A*]the generation of large quantity of cells for clinical applications	context()	negated: False ,passive: False
-[LINE#19]Furthermore, the possibility of generating hiPSC from somatic cells using epigenetic reprogramming represents a unique opportunity for personalized regenerative medicine.
+[LINE#20] Furthermore, the possibility of generating hiPSC from somatic cells using epigenetic reprogramming represents a unique opportunity for personalized regenerative medicine.
 0.950	[*A*]the possibility of generating hiPSC from somatic cells[*R*]represents[*A*]a unique opportunity for personalized regenerative medicine	context()	negated: False ,passive: False
 0.903	[*A*]somatic cells[*R*]using[*A*]epigenetic reprogramming	context()	negated: False ,passive: False
-[LINE#20]Indeed, these pluripotent stem cells could enable the production of patient specific cell types that are fully immuno-compatible with the original donor thereby avoiding the need for immune suppressive treatment after cell transplantation.
+[LINE#21] Indeed, these pluripotent stem cells could enable the production of patient specific cell types that are fully immuno-compatible with the original donor thereby avoiding the need for immune suppressive treatment after cell transplantation.
 0.897	[*A*]the original donor[*R*]avoiding[*A*]the need for immune suppressive treatment after cell transplantation	context()	negated: False ,passive: False
 0.905	[*A*]patient specific cell types[*R*]are[*A*]fully immuno-compatible with the original donor	context()	negated: False ,passive: True
 0.919	[*A*]these pluripotent stem cells[*R*]could enable[*A*]the production of patient specific cell types	context()	negated: False ,passive: False
-[LINE#21]Nevertheless, the practical, financial and temporal obstacles in producing and validating personalized clinical-grade hiPSC and their differentiated progeny will almost certainly limit the feasibility of this approach.
+[LINE#22] Nevertheless, the practical, financial and temporal obstacles in producing and validating personalized clinical-grade hiPSC and their differentiated progeny will almost certainly limit the feasibility of this approach.
 0.714	[*A*]the practical , temporal obstacles in validating their differentiated progeny[*R*]will limit[*A*]the feasibility of this approach	context()	negated: False ,passive: False
 0.941	[*A*]the practical , temporal obstacles in validating personalized clinical - grade hiPSC[*R*]will limit[*A*]the feasibility of this approach	context()	negated: False ,passive: False
 0.714	[*A*]the practical , financial obstacles in validating their differentiated progeny[*R*]will limit[*A*]the feasibility of this approach	context()	negated: False ,passive: False
 0.941	[*A*]the practical , financial obstacles in validating personalized clinical - grade hiPSC[*R*]will limit[*A*]the feasibility of this approach	context()	negated: False ,passive: False
 0.908	[*A*]the practical , temporal obstacles in producing[*R*]will limit[*A*]the feasibility of this approach	context()	negated: False ,passive: False
 0.908	[*A*]the practical , financial obstacles in producing[*R*]will limit[*A*]the feasibility of this approach	context()	negated: False ,passive: False
-[LINE#22]These limitations could selectively restrict patient access to autologous cell-based therapies (Faden et al., 2003).
+[LINE#23] These limitations could selectively restrict patient access to autologous cell-based therapies (Faden et al., 2003).
 0.903	[*A*]These limitations[*R*]could selectively restrict[*A*]patient access to autologous cell-based therapies	context()	negated: False ,passive: False
-[LINE#23]The creation of clinical banks of hiPSC from donors that can provide HLA matching to recipients is proposed as a strategy to attenuate the host immune response to transplanted tissue (Lin et al., 2009; Taylor et al., 2005, 2011).Similarly, hiPSC can be used to develop in vitro disease models, allowing large scale studies otherwise restricted due to the limited availability of primary cells and biopsy material.
+[LINE#24] The creation of clinical banks of hiPSC from donors that can provide HLA matching to recipients is proposed as a strategy to attenuate the host immune response to transplanted tissue (Lin et al., 2009; Taylor et al., 2005, 2011).Similarly, hiPSC can be used to develop in vitro disease models, allowing large scale studies otherwise restricted due to the limited availability of primary cells and biopsy material.
 0.897	[*A*]large scale studies[*R*]restricted[*A*]due to the limited availability of biopsy material	context()	negated: False ,passive: True
 0.833	[*A*]hiPSC[*R*]to develop[*A*]in vitro disease models	context()	negated: False ,passive: True
 0.897	[*A*]large scale studies[*R*]restricted[*A*]due to the limited availability of primary cells	context()	negated: False ,passive: True
 0.896	[*A*]donors[*R*]can provide[*A*]HLA matching[*A*]to recipients	context()	negated: False ,passive: False
-[LINE#24]This application has been proven useful to model neurodegenerative diseases, cardiac syndromes and metabolic disorders in vitro for basic studies and drug screening (Ebert et al., 2009; Moretti et al., 2010; Rashid et al., 2010).
+[LINE#25] This application has been proven useful to model neurodegenerative diseases, cardiac syndromes and metabolic disorders in vitro for basic studies and drug screening (Ebert et al., 2009; Moretti et al., 2010; Rashid et al., 2010).
 0.887	[*A*]This application[*R*]to model[*A*]neurodegenerative metabolic disorders[*A*]for drug screening	context()	negated: False ,passive: False
 0.887	[*A*]This application[*R*]to model[*A*]neurodegenerative metabolic disorders	context()	negated: False ,passive: False
 0.887	[*A*]This application[*R*]to model[*A*]neurodegenerative diseases[*A*]for basic studies	context()	negated: False ,passive: False
 0.732	[*A*]This application[*R*]has been proven	context()	negated: False ,passive: False
-[LINE#25]However, each of these applications requires large quantity of hiPSC produced in reproducible and standardized ways.
+[LINE#26] However, each of these applications requires large quantity of hiPSC produced in reproducible and standardized ways.
 0.818	[*A*]large quantity of hiPSC[*R*]produced	context()	negated: False ,passive: False
 0.931	[*A*]each of these applications[*R*]requires[*A*]large quantity of hiPSC	context()	negated: False ,passive: False
-[LINE#26]Indeed, expansion of hiPSC remains time and resources consuming while experimental variability due to human intervention is almost systematic.
+[LINE#27] Indeed, expansion of hiPSC remains time and resources consuming while experimental variability due to human intervention is almost systematic.
 0.865	[*A*]experimental variability due to human intervention[*R*]is[*A*]almost systematic	context()	negated: False ,passive: True
 0.713	[*A*]resources[*R*]consuming	context()	negated: False ,passive: False
 0.957	[*A*]expansion of hiPSC[*R*]remains[*A*]resources consuming[*A*]while experimental variability due to human intervention is almost systematic	context()	negated: False ,passive: True
 0.933	[*A*]expansion of hiPSC[*R*]remains[*A*]time	context()	negated: False ,passive: True
-[LINE#27]Process automation has been a key mechanism to achieve controlled and standardized cell production.
+[LINE#28] Process automation has been a key mechanism to achieve controlled and standardized cell production.
 0.911	[*A*]a key mechanism[*R*]to achieve[*A*]controlled and standardized cell production	context()	negated: False ,passive: False
 0.937	[*A*]Process automation[*R*]has been[*A*]a key mechanism to achieve controlled and standardized cell production	context()	negated: False ,passive: True
-[LINE#28] Successful automated protocols have been developed for the expansion of human mesenchymal stem cells (Thomas et al., 2007) and human embryonic stem cells.
+[LINE#29]  Successful automated protocols have been developed for the expansion of human mesenchymal stem cells (Thomas et al., 2007) and human embryonic stem cells.
 0.911	[*A*]Successful automated protocols[*R*]have been developed[*A*]for the expansion of human mesenchymal stem cells	context()	negated: False ,passive: True
-[LINE#29]Scale up automation enables scale out for conventional formats with predictable process variation and quality outcome by removing manual interventions.
+[LINE#30] Scale up automation enables scale out for conventional formats with predictable process variation and quality outcome by removing manual interventions.
 0.931	[*A*]automation[*R*]enables[*A*]scale out for conventional formats with predictable process variation by removing manual interventions	context()	negated: False ,passive: False
-[LINE#30]However, little work has been done in developing technologies for automation and scale up of hiPSC for healthcare applications.
+[LINE#31] However, little work has been done in developing technologies for automation and scale up of hiPSC for healthcare applications.
 0.732	[*A*]little work[*R*]has been done	context()	negated: False ,passive: False
-[LINE#31]Several solutions and technologies have been developed for live cell production in suspension platforms (Ratcliffe et al., 2012).
+[LINE#32] Several solutions and technologies have been developed for live cell production in suspension platforms (Ratcliffe et al., 2012).
 0.903	[*A*]Several technologies[*R*]have been developed[*A*]for live cell production in suspension platforms	context()	negated: False ,passive: True
 0.732	[*A*]Several solutions[*R*]have been developed	context()	negated: False ,passive: False
-[LINE#32]However these are not readily adapted for cells growing in adherent conditions.
+[LINE#33] However these are not readily adapted for cells growing in adherent conditions.
 0.561	[*A*]cells[*R*]growing	context()	negated: False ,passive: False
 0.503	[*A*]these[*R*]readily adapted[*A*]for cells	context()	negated: True ,passive: True
 0.544	[*A*]these[*R*]are not[*A*]readily adapted for cells	context()	negated: True ,passive: True
-[LINE#33]Furthermore, large scale production of hiPSC for clinical applications would require expansion in culture using clinically compatible conditions in a reproducible way without loss of function and in sufficient numbers to create reproducible and cost effective therapeutic products.
+[LINE#34] Furthermore, large scale production of hiPSC for clinical applications would require expansion in culture using clinically compatible conditions in a reproducible way without loss of function and in sufficient numbers to create reproducible and cost effective therapeutic products.
 0.973	[*A*]large scale production of hiPSC for clinical applications[*R*]would require[*A*]expansion in culture[*A*]using clinically compatible conditions in a reproducible way without loss in sufficient numbers	context()	negated: False ,passive: False
 0.973	[*A*]large scale production of hiPSC for clinical applications[*R*]would require[*A*]expansion in culture[*A*]using clinically compatible conditions in a reproducible way without loss of function	context()	negated: False ,passive: False
-[LINE#34]Finally, passaging represent the main difficulty to develop an automation platform to expand hiPSC since these cells must be propagated as aggregates/clumps to maintain their integrity and quality (Beers et al., 2012).
+[LINE#35] Finally, passaging represent the main difficulty to develop an automation platform to expand hiPSC since these cells must be propagated as aggregates/clumps to maintain their integrity and quality (Beers et al., 2012).
 0.911	[*A*]aggregates / clumps[*R*]to maintain[*A*]quality	context()	negated: False ,passive: False
 0.947	[*A*]these cells[*R*]must be propagated[*A*]as aggregates / clumps to maintain quality ( Beers et al	context()	negated: False ,passive: True
 0.848	[*A*]aggregates / clumps[*R*]to maintain[*A*]their integrity	context()	negated: False ,passive: False
 0.835	[*A*]these cells[*R*]must be propagated[*A*]as aggregates / clumps to maintain their integrity	context()	negated: False ,passive: True
 0.544	[*A*]passaging[*R*]represent[*A*]the main difficulty to develop an automation platform	context()	negated: False ,passive: False
-[LINE#35]Indeed, evidence indicates that hiPSC grown and harvested as single cells are more likely to acquire genetic anomalies (Amps et al., 2011).
+[LINE#36] Indeed, evidence indicates that hiPSC grown and harvested as single cells are more likely to acquire genetic anomalies (Amps et al., 2011).
 0.931	[*A*]evidence[*R*]indicates harvested[*A*]as single cells are more likely to acquire genetic anomalies	context()	negated: False ,passive: True
 0.906	[*A*]hiPSC[*R*]grown[*A*]as single cells are more likely to acquire genetic anomalies	context(evidence indicates)	negated: False ,passive: True
 0.741	[*A*]evidence[*R*]indicates[*A*]that hiPSC grown	context()	negated: False ,passive: False
 0.887	[*A*]single cells[*R*]to acquire[*A*]genetic anomalies	context()	negated: False ,passive: False
 0.903	[*A*]single cells[*R*]are[*A*]more likely to acquire genetic anomalies	context()	negated: False ,passive: True
-[LINE#36]Consequently, standardization of cell counting and cell clump size measurement has proven to be impractical.
+[LINE#37] Consequently, standardization of cell counting and cell clump size measurement has proven to be impractical.
 0.803	[*A*]standardization of cell clump size measurement[*R*]to be[*A*]impractical	context()	negated: False ,passive: True
 0.771	[*A*]standardization of cell counting[*R*]to be[*A*]impractical	context()	negated: False ,passive: True
 0.769	[*A*]standardization of cell counting[*R*]has proven	context()	negated: False ,passive: False
-[LINE#37] Here, we have addressed all these issues by transferring an established manual method to grow hiPSCin feeder free and chemically defined medium onto an automated platform compatible with large scale production.
+[LINE#38+39]  Here, we have addressed all these issues by transferring an established manual method to grow hiPSCin feeder free and chemically defined medium onto an automated platform compatible with large scale production.
 0.550	[*A*]we[*R*]have addressed all these issues by transferring[*A*]an established manual method[*A*]to grow hiPSCin feeder chemically defined medium onto an automated platform compatible with large scale production	context(we have addressed)	negated: False ,passive: False
 0.433	[*A*]we[*R*]have addressed all these issues by transferring[*A*]an established manual method to grow hiPSCin feeder free	context(we have addressed)	negated: False ,passive: False
 0.531	[*A*]we[*R*]have addressed[*A*]all these issues[*A*]Here	context()	negated: False ,passive: False
 0.931	[*A*]an established manual method[*R*]to grow[*A*]hiPSCin feeder free	context()	negated: False ,passive: True
-[LINE#38]This study shows for the first time that large scale automated production of hiPSC is possible without the need of single cell dissociation thereby respecting their natural properties.
+[LINE#40] This study shows for the first time that large scale automated production of hiPSC is possible without the need of single cell dissociation thereby respecting their natural properties.
 0.870	[*A*]large scale automated production of hiPSC[*R*]is[*A*]possible	context(This study shows)	negated: False ,passive: True
 0.784	[*A*]This study[*R*]shows[*A*]for the first time[*A*]that large scale automated production of hiPSC is possible without the need of single cell dissociation thereby respecting their natural properties	context()	negated: False ,passive: False
 0.825	[*A*]single cell dissociation[*R*]respecting[*A*]their natural properties	context()	negated: False ,passive: False
-[LINE#39] Manual maintenance and passage of hiPSC in feeder free and chemically defined mediumhiPSC were cultured in feeder-free conditions using chemically defined medium (CDM-PVA) with Activin A (10ngml-1, R&D System) and FGF2 (12ngml-1, R&D Systems) -iPSC medium, as previously described (Brons et al., 2007).
+[LINE#41+42+43]  Manual maintenance and passage of hiPSC in feeder free and chemically defined mediumhiPSC were cultured in feeder-free conditions using chemically defined medium (CDM-PVA) with Activin A (10ngml-1, R&D System) and FGF2 (12ngml-1, R&D Systems) -iPSC medium, as previously described (Brons et al., 2007).
 0.933	[*A*]chemically defined mediumhiPSC[*R*]were[*A*]cultured[*A*]in feeder - free conditions	context()	negated: False ,passive: True
 0.887	[*A*]passage of hiPSC mediumhiPSC[*R*]were[*A*]cultured[*A*]in feeder - free conditions	context()	negated: False ,passive: True
 0.933	[*A*]Manual maintenance mediumhiPSC[*R*]were[*A*]cultured[*A*]in feeder - free conditions	context()	negated: False ,passive: True
-[LINE#40]50% IMDM (Gibco) added to 50% F12+GlutaMax-1 (Gibco), supplemented with 1% lipid concentrate (Gibco), 7gml-1 of insulin (Roche), 15gml-1 of transferrin (Roche), 450M of monothioglycerol (Sigma) and 1mgml-1 of Polyvinyl Alcohol (Sigma).
+[LINE#44] 50% IMDM (Gibco) added to 50% F12+GlutaMax-1 (Gibco), supplemented with 1% lipid concentrate (Gibco), 7gml-1 of insulin (Roche), 15gml-1 of transferrin (Roche), 450M of monothioglycerol (Sigma) and 1mgml-1 of Polyvinyl Alcohol (Sigma).
 0.899	[*A*]IMDM[*R*]added[*A*]to 50 %[*A*]50 %	context()	negated: False ,passive: False
-[LINE#41]Cells were harvested after 6 or 7 days of culture (dependent on visually confirmed confluence) using 1mgml-1 collagenase IV (Gibco) and 1mgml-1 dispase (Gibco).
+[LINE#45] Cells were harvested after 6 or 7 days of culture (dependent on visually confirmed confluence) using 1mgml-1 collagenase IV (Gibco) and 1mgml-1 dispase (Gibco).
 0.993	[*A*]Cells[*R*]were harvested after[*A*]after 6 or 7 days	context()	negated: False ,passive: False
 0.875	[*A*]Cells[*R*]were harvested[*A*]after 6 or 7 days of culture (dependent on visually confirmed confluence	context()	negated: False ,passive: True
-[LINE#42]Detached colonies were aspirated and pooled into a conical tube and washed with CDM-PVA medium.
+[LINE#46] Detached colonies were aspirated and pooled into a conical tube and washed with CDM-PVA medium.
 0.918	[*A*]Detached colonies[*R*]were washed[*A*]with CDM - PVA medium	context()	negated: False ,passive: True
 0.903	[*A*]Detached colonies[*R*]were pooled[*A*]into a conical tube	context()	negated: False ,passive: True
 0.732	[*A*]Detached colonies[*R*]were aspirated	context()	negated: False ,passive: False
-[LINE#43] A second wash step was performed before colonies were gently broken down into smaller cell aggregates (clumps)by pipetting and allowed to settle under gravity.
+[LINE#47+48]  A second wash step was performed before colonies were gently broken down into smaller cell aggregates (clumps)by pipetting and allowed to settle under gravity.
 0.877	[*A*]colonies[*R*]to settle[*A*]under gravity	context()	negated: False ,passive: False
 0.713	[*A*]colonies[*R*]were allowed	context()	negated: False ,passive: False
 0.919	[*A*]A second wash step[*R*]was performed[*A*]before colonies were allowed to settle under gravity	context()	negated: False ,passive: True
 0.894	[*A*]colonies[*R*]were gently broken down[*A*]into smaller cell aggregates	context()	negated: False ,passive: True
 0.948	[*A*]A second wash step[*R*]was performed[*A*]before colonies were gently broken down into smaller cell aggregates ( clumps ) by pipetting	context()	negated: False ,passive: True
-[LINE#44]It must be noted here that the aim was only to reduce the size of the aggregates and not to reduce them to single cells.
-[LINE#45] Cell clumps were plated at 1:10 split ratio to 0.1% porcine gelatin plates(Sigma), pre-coated with mouse embryonic fibroblast medium containing 10% FBS (Biosera) for 24h at 37C and 5% (v/v) CO2.
+[LINE#49] It must be noted here that the aim was only to reduce the size of the aggregates and not to reduce them to single cells.
+[LINE#50+51]  Cell clumps were plated at 1:10 split ratio to 0.1% porcine gelatin plates(Sigma), pre-coated with mouse embryonic fibroblast medium containing 10% FBS (Biosera) for 24h at 37C and 5% (v/v) CO2.
 0.961	[*A*]Cell clumps[*R*]were plated[*A*]at 1:10 split ratio to 0.1 % porcine gelatin plates[*A*]pre-coated with mouse embryonic fibroblast medium containing 10 % FBS ( Biosera ) for 24 h at 5 % ( v / v ) CO2	context()	negated: False ,passive: True
 0.919	[*A*]mouse embryonic fibroblast medium[*R*]containing[*A*]10 % FBS	context()	negated: False ,passive: False
 0.961	[*A*]Cell clumps[*R*]were plated[*A*]at 1:10 split ratio to 0.1 % porcine gelatin plates[*A*]pre-coated with mouse embryonic fibroblast medium containing 10 % FBS ( Biosera ) for 24 h at 37C	context()	negated: False ,passive: True
-[LINE#46]Y27632 (Sigma) was added for the first 48h.
+[LINE#52] Y27632 (Sigma) was added for the first 48h.
 0.877	[*A*]Y27632[*R*]was added[*A*]for the first 48h	context()	negated: False ,passive: True
-[LINE#47]Following this, maintenance medium was replaced daily until readiness for the next passage.
+[LINE#53] Following this, maintenance medium was replaced daily until readiness for the next passage.
 0.943	[*A*]maintenance medium[*R*]was replaced[*A*]daily[*A*]until readiness for the next passage[*A*]Following this	context()	negated: False ,passive: True
-[LINE#48]This protocol is routinely used for 6 well plates and T-25 flasks (Fig. 1). .
+[LINE#54] This protocol is routinely used for 6 well plates and T-25 flasks (Fig. 1). .
 0.993	[*A*]This protocol[*R*]is used for[*A*]25 flasks	context()	negated: False ,passive: False
 0.918	[*A*]This protocol[*R*]is routinely used[*A*]for T - 25 flasks	context()	negated: False ,passive: True
 0.993	[*A*]This protocol[*R*]is used for[*A*]6 well plates	context()	negated: False ,passive: False
 0.903	[*A*]This protocol[*R*]is routinely used[*A*]for 6 well plates	context()	negated: False ,passive: True
-[LINE#49] Manufacturing platform and instrumentationThe CompacT SelecT (.
-[LINE#50]The Automation Partnership, UK) is a fully automated cell culture platform which incorporates a small six-axis anthropomorphic robotic arm (Cell Therapy Manufacturing Facility, 2011) that can access 90 T175 flask and plate incubators, controlled at 37C under an atmosphere of 5% (v/v) CO2 and humidity.
+[LINE#55]  Manufacturing platform and instrumentationThe CompacT SelecT (.
+[LINE#56] The Automation Partnership, UK) is a fully automated cell culture platform which incorporates a small six-axis anthropomorphic robotic arm (Cell Therapy Manufacturing Facility, 2011) that can access 90 T175 flask and plate incubators, controlled at 37C under an atmosphere of 5% (v/v) CO2 and humidity.
 0.992	[*A*]a small six - axis anthropomorphic robotic arm ( Cell Therapy Manufacturing Facility , 2011 ) that can access plate incubators[*R*]controlled[*A*]at 37C[*A*]under an atmosphere of 5 % ( v / v ) humidity	context()	negated: False ,passive: True
 0.891	[*A*]a fully automated cell culture platform[*R*]incorporates[*A*]a small six - axis anthropomorphic robotic arm ( Cell Therapy Manufacturing Facility , 2011 ) that can access plate incubators , controlled at 37C under an atmosphere of 5 % ( v / v ) humidity	context()	negated: False ,passive: False
 0.992	[*A*]a small six - axis anthropomorphic robotic arm ( Cell Therapy Manufacturing Facility , 2011 ) that can access plate incubators[*R*]controlled[*A*]at 37C[*A*]under an atmosphere of 5 % ( v / v ) CO2	context()	negated: False ,passive: True
@@ -179,14 +179,14 @@
 0.934	[*A*]a small six - axis anthropomorphic robotic arm[*R*]can access[*A*]90 T175 flask	context()	negated: False ,passive: False
 0.891	[*A*]a fully automated cell culture platform[*R*]incorporates[*A*]a small six - axis anthropomorphic robotic arm ( Cell Therapy Manufacturing Facility , 2011 ) that can access 90 T175 flask	context()	negated: False ,passive: False
 0.968	[*A*]The Automation Partnership[*R*]is[*A*]a fully automated cell culture platform which incorporates a small six - axis anthropomorphic robotic arm ( Cell Therapy Manufacturing Facility , 2011 )	context()	negated: False ,passive: True
-[LINE#51]The system allows the automation of seeding, feeding and other cell culture processes in order to maintain cell lines in standard T175 cell culture flasks.
+[LINE#57] The system allows the automation of seeding, feeding and other cell culture processes in order to maintain cell lines in standard T175 cell culture flasks.
 0.903	[*A*]The system[*R*]allows[*A*]the automation of other cell culture processes	context()	negated: False ,passive: False
 0.903	[*A*]The system[*R*]allows[*A*]the automation of feeding	context()	negated: False ,passive: False
 0.903	[*A*]The system[*R*]allows[*A*]the automation of seeding	context()	negated: False ,passive: False
-[LINE#52]Flasks are bar-coded for identification and cell process tracking.
+[LINE#58] Flasks are bar-coded for identification and cell process tracking.
 0.813	[*A*]Flasks[*R*]are[*A*]bar - coded for cell process tracking	context()	negated: False ,passive: True
 0.813	[*A*]Flasks[*R*]are[*A*]bar - coded for identification	context()	negated: False ,passive: True
-[LINE#53] Two flask decappers and flask holders, automated medium pumping and an automatic cell counter(Cedex, Roche Innovatis AG, Germany) are integrated within a high-efficiency particulate air (HEPA) filtered cabinet to ensure sterility.
+[LINE#59+60]  Two flask decappers and flask holders, automated medium pumping and an automatic cell counter(Cedex, Roche Innovatis AG, Germany) are integrated within a high-efficiency particulate air (HEPA) filtered cabinet to ensure sterility.
 0.968	[*A*]high - efficiency particulate air[*R*]filtered[*A*]a high - efficiency particulate air ( HEPA ) filtered cabinet to ensure sterility	context()	negated: False ,passive: False
 0.938	[*A*]flask holders[*R*]are integrated[*A*]within a high - efficiency particulate air ( HEPA ) filtered cabinet	context()	negated: False ,passive: True
 0.887	[*A*]flask holders[*R*]to ensure[*A*]sterility	context()	negated: False ,passive: False
@@ -194,44 +194,44 @@
 0.934	[*A*]Cedex , Roche Innovatis AG[*R*]are integrated[*A*]within a high - efficiency particulate air	context()	negated: False ,passive: True
 0.887	[*A*]particulate air[*R*]filtered[*A*]cabinet	context()	negated: False ,passive: False
 0.967	[*A*]Two flask decappers , automated medium pumping[*R*]are integrated[*A*]within a high - efficiency particulate air ( HEPA ) filtered cabinet[*A*]to ensure sterility	context()	negated: False ,passive: True
-[LINE#54] At Loughborough University, the CompacT SelecT has been successfully used to culture many different cell types including human mesenchymal cells and human embryonic stem cells(Thomas et al., 2007, 2009a,b).
+[LINE#61+62]  At Loughborough University, the CompacT SelecT has been successfully used to culture many different cell types including human mesenchymal cells and human embryonic stem cells(Thomas et al., 2007, 2009a,b).
 0.980	[*A*]the CompacT SelecT[*R*]has been successfully used[*A*]to culture many different cell types including human embryonic stem cells[*A*]At Loughborough University	context()	negated: False ,passive: True
 0.980	[*A*]the CompacT SelecT[*R*]has been successfully used[*A*]to culture many different cell types including human mesenchymal cells[*A*]At Loughborough University	context()	negated: False ,passive: True
-[LINE#55]The CompacT SelecT has also been shown to be successful at preventing contamination when the GMP version of the CompacT SelecT passed the "sterile fill" runs (Chandra et al., 2012).
+[LINE#63] The CompacT SelecT has also been shown to be successful at preventing contamination when the GMP version of the CompacT SelecT passed the "sterile fill" runs (Chandra et al., 2012).
 0.958	[*A*]The CompacT SelecT[*R*]to be[*A*]successful at preventing contamination[*A*]when the GMP version of the CompacT SelecT passed the "sterile fill	context()	negated: False ,passive: True
 0.727	[*A*]The CompacT SelecT[*R*]has been shown	context()	negated: False ,passive: False
-[LINE#56]The CompacT SelecT allows activities during cell culture such as seeding, media changes and measurement cells in a controlled environment (Thomas, 2012).
+[LINE#64] The CompacT SelecT allows activities during cell culture such as seeding, media changes and measurement cells in a controlled environment (Thomas, 2012).
 0.933	[*A*]The CompacT SelecT[*R*]allows[*A*]activities	context()	negated: False ,passive: False
-[LINE#57]Thus this platform can be used to expand and differentiate batches of cells to a tighter specification than manual cell culture (Liu et al., 2010). .
+[LINE#65] Thus this platform can be used to expand and differentiate batches of cells to a tighter specification than manual cell culture (Liu et al., 2010). .
 0.937	[*A*]this platform[*R*]can be used[*A*]to differentiate batches of cells to a tighter specification than manual cell culture	context()	negated: False ,passive: True
 0.698	[*A*]this platform[*R*]to expand	context()	negated: False ,passive: False
 0.767	[*A*]this platform[*R*]can be used[*A*]to expand	context()	negated: False ,passive: True
-[LINE#58] Automated passage of hiPSC in feeder free and chemically defined medium using.
+[LINE#66]  Automated passage of hiPSC in feeder free and chemically defined medium using.
 0.903	[*A*]Automated passage[*R*]chemically defined[*A*]medium	context()	negated: False ,passive: False
-[LINE#59]CompacT SelecTThe automation enables scale out for conventional formats with predictable process variation and quality outcome by removing manual interventions.
-[LINE#60]The CompacT SelecT is a preferred platform for development process friendly method of automating the culture of cells that grow in adherent conditions.
+[LINE#67] CompacT SelecTThe automation enables scale out for conventional formats with predictable process variation and quality outcome by removing manual interventions.
+[LINE#68] The CompacT SelecT is a preferred platform for development process friendly method of automating the culture of cells that grow in adherent conditions.
 0.589	[*A*]cells[*R*]grow	context()	negated: False ,passive: False
 0.967	[*A*]The CompacT SelecT[*R*]is[*A*]a preferred platform for development process friendly method of automating the culture of cells	context()	negated: False ,passive: True
-[LINE#61]The automation step mimics the manual process and is therefore demonstrably similar to the manual cell culture steps.
+[LINE#69] The automation step mimics the manual process and is therefore demonstrably similar to the manual cell culture steps.
 0.925	[*A*]The automation[*R*]is[*A*]therefore[*A*]demonstrably similar to the manual cell culture steps	context()	negated: False ,passive: True
 0.911	[*A*]The automation step[*R*]mimics[*A*]the manual process	context()	negated: False ,passive: False
-[LINE#62]For many manual cell culture protocols, there is a centrifugation step to concentrate the cell suspension and allow for cells to be washed.
+[LINE#70] For many manual cell culture protocols, there is a centrifugation step to concentrate the cell suspension and allow for cells to be washed.
 0.561	[*A*]cells[*R*]to be washed	context()	negated: False ,passive: False
-[LINE#63]However, in this instance, cells grow in aggregates and do not require centrifugation as they settle under gravity.
+[LINE#71] However, in this instance, cells grow in aggregates and do not require centrifugation as they settle under gravity.
 0.616	[*A*]they[*R*]settle[*A*]under gravity	context()	negated: False ,passive: True
 0.896	[*A*]cells[*R*]grow[*A*]in this instance	context()	negated: False ,passive: True
-[LINE#64]In order to transfer the culture protocol to the CompacT SelecT it was necessary to scale up from a T25 to a T175 flask, media volumes were scaled proportionally to flask surface area, and work within the restricted set of plasticware and the allowable positioning of the plasticware within the automated system (Fig. 1).
-[LINE#65]Operating conditions of the manual culture process were followed as closely as possible (temperature, timing, splitting ratio, mixing, volumes), however a number of detailed changes had to be made to the manual protocol as are discussed later in the manuscript. .
+[LINE#72] In order to transfer the culture protocol to the CompacT SelecT it was necessary to scale up from a T25 to a T175 flask, media volumes were scaled proportionally to flask surface area, and work within the restricted set of plasticware and the allowable positioning of the plasticware within the automated system (Fig. 1).
+[LINE#73] Operating conditions of the manual culture process were followed as closely as possible (temperature, timing, splitting ratio, mixing, volumes), however a number of detailed changes had to be made to the manual protocol as are discussed later in the manuscript. .
 0.921	[*A*]however a number of detailed changes[*R*]to be made[*A*]to the manual protocol[*A*]as are discussed later in the manuscript	context()	negated: False ,passive: True
 0.816	[*A*]Operating conditions of the manual culture process[*R*]were followed as closely	context()	negated: False ,passive: False
-[LINE#66]Differentiation of hiPSC into endoderm, mesoderm and neuroectodermhiPSC were plated into gelatin plates pre coated with 10% FBS and maintained for 24h in iPSC medium before inducing differentiation into the three germ layers: endoderm, mesoderm and neuroectoderm as described previously (Vallier et al., 2009).
+[LINE#74] Differentiation of hiPSC into endoderm, mesoderm and neuroectodermhiPSC were plated into gelatin plates pre coated with 10% FBS and maintained for 24h in iPSC medium before inducing differentiation into the three germ layers: endoderm, mesoderm and neuroectoderm as described previously (Vallier et al., 2009).
 0.918	[*A*]gelatin plates[*R*]maintained[*A*]for 24 h in iPSC medium[*A*]before inducing differentiation into the three germ layers	context()	negated: False ,passive: True
 0.932	[*A*]neuroectodermhiPSC[*R*]pre coated[*A*]with 10 %[*A*]as described previously ( Vallier et al . , 2009	context()	negated: False ,passive: True
 0.948	[*A*]neuroectodermhiPSC[*R*]were plated[*A*]into gelatin plates[*A*]Differentiation of hiPSC into endoderm	context()	negated: False ,passive: True
 0.948	[*A*]mesoderm[*R*]were plated[*A*]into gelatin plates[*A*]Differentiation of hiPSC into endoderm	context()	negated: False ,passive: True
-[LINE#67] Differentiation was induced by supplementing CDM-PVA with Activin (R&D System), bFGF (R&D System), BMP4 (R&D System),.
+[LINE#75]  Differentiation was induced by supplementing CDM-PVA with Activin (R&D System), bFGF (R&D System), BMP4 (R&D System),.
 0.942	[*A*]Differentiation[*R*]was induced[*A*]by supplementing CDM-PVA with Activin (R&D System), bFGF (R&D System), BMP4	context()	negated: False ,passive: True
-[LINE#68] LY294002 (Promega), SB431542 (Tocris) and CHIR99021 (Stemgent) at different times and concentrations(Supplementary Online Material).Supplementary material related to this article can be found, in the online version, at http://dx.doi.org/10.1016/j.jbiotec.2013.12.009.Table S1Detailed protocol for inducing differentiation of hiPSC in the three germ layers: endoderm, mesoderm and neuroectoderm.
+[LINE#76+77+78]  LY294002 (Promega), SB431542 (Tocris) and CHIR99021 (Stemgent) at different times and concentrations(Supplementary Online Material).Supplementary material related to this article can be found, in the online version, at http://dx.doi.org/10.1016/j.jbiotec.2013.12.009.Table S1Detailed protocol for inducing differentiation of hiPSC in the three germ layers: endoderm, mesoderm and neuroectoderm.
 0.969	[*A*]CHIR99021 ( Stemgent ) at different concentrations ( Supplementary Online Material ) . Supplementary material[*R*]can be found[*A*]in the online version , at http://dx.doi.org/10.1016/j.jbiotec.2013.12.009.Table S1Detailed protocol for inducing differentiation of hiPSC in the three germ layers	context()	negated: False ,passive: True
 0.958	[*A*]CHIR99021 ( Stemgent ) at different concentrations ( Supplementary Online Material ) . Supplementary material[*R*]related[*A*]to this article	context()	negated: False ,passive: True
 0.969	[*A*]CHIR99021 ( Stemgent ) at different times ( Supplementary Online Material ) . Supplementary material[*R*]can be found[*A*]in the online version , at http://dx.doi.org/10.1016/j.jbiotec.2013.12.009.Table S1Detailed protocol for inducing differentiation of hiPSC in the three germ layers	context()	negated: False ,passive: True
@@ -243,57 +243,57 @@
 0.958	[*A*]LY294002 ( Promega ) at different concentrations ( Supplementary Online Material ) . Supplementary material[*R*]related[*A*]to this article	context()	negated: False ,passive: True
 0.965	[*A*]LY294002 ( Promega ) at different times[*R*]can be found[*A*]in the online version , at http://dx.doi.org/10.1016/j.jbiotec.2013.12.009.Table S1Detailed protocol for inducing differentiation of hiPSC in the three germ layers	context()	negated: False ,passive: True
 0.903	[*A*]Supplementary material[*R*]related[*A*]to this article	context()	negated: False ,passive: True
-[LINE#69] RPMI-B27 composition was 98% RPMI1640+GlutaMax (Gibco), 2% of B-27 supplement (Gibco) and 1% MEM non-essential amino acids (Gibco). .
+[LINE#79+80]  RPMI-B27 composition was 98% RPMI1640+GlutaMax (Gibco), 2% of B-27 supplement (Gibco) and 1% MEM non-essential amino acids (Gibco). .
 0.961	[*A*]RPMI - B27 composition[*R*]was[*A*]98 % RPMI1640+GlutaMax	context()	negated: False ,passive: True
 0.973	[*A*]RPMI B27 composition[*R*]was[*A*]98 % rpmi1640 +	context()	negated: False ,passive: False
 0.953	[*A*]RPMI - B27 composition[*R*]was[*A*]98 %	context()	negated: False ,passive: True
-[LINE#70]C were fixed for 20min at 4C in 4% paraformaldehyde (PFA) and washed three times in PBS.
+[LINE#81] C were fixed for 20min at 4C in 4% paraformaldehyde (PFA) and washed three times in PBS.
 0.840	[*A*]C[*R*]were washed[*A*]three times[*A*]in PBS	context()	negated: False ,passive: True
 0.840	[*A*]C[*R*]were fixed[*A*]for 20min at 4C	context()	negated: False ,passive: True
-[LINE#71] Cells were incubated 1h at room temperature in PBS containing 10% donkey or goat serum (depending on antibody, Serotec), for intra-cellular epitopes(Sigma) was added to the blocking solution.
+[LINE#82+83]  Cells were incubated 1h at room temperature in PBS containing 10% donkey or goat serum (depending on antibody, Serotec), for intra-cellular epitopes(Sigma) was added to the blocking solution.
 0.906	[*A*]Sigma[*R*]was added[*A*]to the blocking solution	context()	negated: False ,passive: True
 0.975	[*A*]1h at room temperature in PBS[*R*]containing[*A*]10% donkey or goat serum (depending on antibody, Serotec)	context()	negated: False ,passive: False
-[LINE#72]Cells were then subsequently incubated with primary antibodies diluted in 1% serum in PBS overnight at 4C.
+[LINE#84] Cells were then subsequently incubated with primary antibodies diluted in 1% serum in PBS overnight at 4C.
 0.918	[*A*]primary antibodies[*R*]diluted[*A*]in 1% serum in PBS[*A*]overnight[*A*]at 4C	context()	negated: False ,passive: True
 0.835	[*A*]Cells[*R*]were incubated[*A*]with primary antibodies[*A*]then[*A*]subsequently	context()	negated: False ,passive: True
-[LINE#73] TRA-1-60 (Santa Cruz, 1:100), OCT4 (Santa Cruz, 1:100), NANOG (R&D Systems, 1:100), and anti-SOX2 (R&D Systems, 1:100), SOX17(Abcam, 1:100), BRAC (R&D Systems, 1:100), MIXL1 (Abcam, 1:100), Nestin (Abcam, 1:100).
-[LINE#74]Cells were washed 3 times in PBS and incubated with secondary antibodies, Alexa Fluor 568 (Invitrogen) and Alexa Fluor 488 (Invitrogen), for 2h at room temperature.
+[LINE#85+86]  TRA-1-60 (Santa Cruz, 1:100), OCT4 (Santa Cruz, 1:100), NANOG (R&D Systems, 1:100), and anti-SOX2 (R&D Systems, 1:100), SOX17(Abcam, 1:100), BRAC (R&D Systems, 1:100), MIXL1 (Abcam, 1:100), Nestin (Abcam, 1:100).
+[LINE#87] Cells were washed 3 times in PBS and incubated with secondary antibodies, Alexa Fluor 568 (Invitrogen) and Alexa Fluor 488 (Invitrogen), for 2h at room temperature.
 0.993	[*A*]Cells[*R*]were incubated for[*A*]2 h	context()	negated: False ,passive: False
 0.813	[*A*]Cells[*R*]were incubated[*A*]with secondary antibodies	context()	negated: False ,passive: True
 0.840	[*A*]Cells[*R*]were washed[*A*]3 times[*A*]in PBS	context()	negated: False ,passive: True
 0.840	[*A*]Cells[*R*]were washed[*A*]3 times[*A*]in PBS[*A*]Alexa Fluor 568	context()	negated: False ,passive: True
-[LINE#75]Cells were washed three times with PBS and stained with Hoechst 33258 (Sigma, 1:10,000 diluted in PBS) for 5min.
+[LINE#88] Cells were washed three times with PBS and stained with Hoechst 33258 (Sigma, 1:10,000 diluted in PBS) for 5min.
 0.590	[*A*]1:10,000[*R*]diluted[*A*]in PBS	context()	negated: False ,passive: True
 0.840	[*A*]Cells[*R*]were stained[*A*]with Hoechst 33258 ( Sigma[*A*]for 5min	context()	negated: False ,passive: True
 0.840	[*A*]Cells[*R*]were washed[*A*]three times[*A*]with PBS	context()	negated: False ,passive: True
-[LINE#76]The cells were viewed in PBS using a Zeiss Axiovert 200M microscope. .
+[LINE#89] The cells were viewed in PBS using a Zeiss Axiovert 200M microscope. .
 0.905	[*A*]The cells[*R*]using[*A*]a Zeiss Axiovert 200M microscope	context()	negated: False ,passive: False
 0.918	[*A*]The cells[*R*]were viewed[*A*]in PBS[*A*]using a Zeiss Axiovert 200M microscope	context()	negated: False ,passive: True
-[LINE#77]A extraction, reverse-transcriptase PCR and quantitative PCRTotal RNAs were extracted from hiPSC using the GenElute Mammalian Total RNA Miniprep Kit (Sigma).
+[LINE#90] A extraction, reverse-transcriptase PCR and quantitative PCRTotal RNAs were extracted from hiPSC using the GenElute Mammalian Total RNA Miniprep Kit (Sigma).
 0.933	[*A*]reverse-transcriptase PCR and quantitative PCRTotal RNAs[*R*]were extracted[*A*]from hiPSC	context()	negated: False ,passive: True
-[LINE#78]For each sample 0.5g of total RNA was reverse transcribed using Superscript II reverse transcriptase (Invitrogen).
+[LINE#91] For each sample 0.5g of total RNA was reverse transcribed using Superscript II reverse transcriptase (Invitrogen).
 0.836	[*A*]For each sample 0.5g of total RNA[*R*]transcribed	context()	negated: False ,passive: False
 0.941	[*A*]For each sample 0.5g of total RNA[*R*]was transcribed[*A*]using Superscript II reverse transcriptase	context()	negated: False ,passive: True
-[LINE#79]RNA and primer were denatured at 65C for 5min and RT-PCR reaction mixtures incubated at 25C for 10min, 42C for 50min and 70C for 10min.
+[LINE#92] RNA and primer were denatured at 65C for 5min and RT-PCR reaction mixtures incubated at 25C for 10min, 42C for 50min and 70C for 10min.
 0.911	[*A*]primer[*R*]were denatured[*A*]at 65C[*A*]for RT - PCR reaction mixtures	context()	negated: False ,passive: True
 0.911	[*A*]primer[*R*]were denatured[*A*]at 65C[*A*]for 5min reaction mixtures	context()	negated: False ,passive: True
 0.953	[*A*]RT - PCR reaction mixtures[*R*]incubated[*A*]at 25C[*A*]for 10min	context()	negated: False ,passive: True
 0.877	[*A*]RNA[*R*]were denatured[*A*]at 65C[*A*]for RT - PCR reaction mixtures	context()	negated: False ,passive: True
 0.925	[*A*]5min reaction mixtures[*R*]incubated[*A*]at 25C[*A*]for 10min	context()	negated: False ,passive: True
 0.877	[*A*]RNA[*R*]were denatured[*A*]at 65C[*A*]for 5min reaction mixtures	context()	negated: False ,passive: True
-[LINE#80] qPCR was performed using Sensi Mix Sybr.
+[LINE#93]  qPCR was performed using Sensi Mix Sybr.
 0.857	[*A*]qPCR[*R*]using[*A*]Sensi Mix Sybr	context()	negated: False ,passive: False
 0.634	[*A*]qPCR[*R*]was performed	context()	negated: False ,passive: False
-[LINE#81]A negative control that contained only water and a positive control that contained RNA extracted from human embryonic stem cells (H9-WiCell) were also ran.
+[LINE#94] A negative control that contained only water and a positive control that contained RNA extracted from human embryonic stem cells (H9-WiCell) were also ran.
 0.820	[*A*]RNA[*R*]extracted[*A*]from human embryonic stem cells	context(a positive control contained)	negated: False ,passive: False
 0.889	[*A*]a positive control[*R*]contained[*A*]RNA extracted from human embryonic stem cells	context()	negated: False ,passive: False
 0.730	[*A*]A negative control that contained a positive control[*R*]were ran	context()	negated: False ,passive: False
 0.859	[*A*]A negative control[*R*]contained[*A*]a positive control that contained RNA extracted from human embryonic stem cells ( H9 - WiCell )	context()	negated: False ,passive: False
 0.743	[*A*]A negative control that contained only water[*R*]were ran	context()	negated: False ,passive: False
 0.897	[*A*]A negative control[*R*]contained[*A*]only water	context()	negated: False ,passive: False
-[LINE#82]The expression of the PBGD housekeeping gene was used to normalize qPCR reactions.
+[LINE#95] The expression of the PBGD housekeeping gene was used to normalize qPCR reactions.
 0.961	[*A*]The expression of the PBGD housekeeping gene[*R*]was used[*A*]to normalize qPCR reactions	context()	negated: False ,passive: True
-[LINE#83] Results and discussionAn human induced pluripotent stem cell line - BBHX8 (Vallier et al., 2009), derived from adult human fibroblasts using retroviral reprogramming with OCT4, SOX2, KLF4 and c-MYC was derived and manually maintained at the Anne McLaren Laboratory for Regenerative Medicine(LRM), University of Cambridge.
+[LINE#96+97+98]  Results and discussionAn human induced pluripotent stem cell line - BBHX8 (Vallier et al., 2009), derived from adult human fibroblasts using retroviral reprogramming with OCT4, SOX2, KLF4 and c-MYC was derived and manually maintained at the Anne McLaren Laboratory for Regenerative Medicine(LRM), University of Cambridge.
 0.987	[*A*]pluripotent stem cell line - BBHX8 ( Vallier et al . , 2009 ) , derived from adult human fibroblasts[*R*]was manually maintained[*A*]at the Anne McLaren Laboratory for Regenerative Medicine	context()	negated: False ,passive: True
 0.840	[*A*]MYC[*R*]was manually maintained[*A*]at the Anne McLaren Laboratory for Regenerative Medicine	context()	negated: False ,passive: True
 0.939	[*A*]Results , derived from adult human fibroblasts[*R*]was manually maintained[*A*]at the Anne McLaren Laboratory for Regenerative Medicine	context()	negated: False ,passive: True
@@ -308,16 +308,16 @@
 0.789	[*A*]Results , derived from adult human fibroblasts[*R*]was derived	context()	negated: False ,passive: False
 0.925	[*A*]adult human fibroblasts[*R*]using[*A*]retroviral reprogramming[*A*]with OCT4 - MYC	context()	negated: False ,passive: False
 0.877	[*A*]Results[*R*]derived[*A*]from adult human fibroblasts	context()	negated: False ,passive: True
-[LINE#84] In order to develop an automation process to expand hiPSC using CompacT SelecT, the hiPSC line was transferred to the Centre for Biological Engineering (CBE), Loughborough University where it was further cultured and passaged in T25 flasks using the manual protocol established at LRM.
+[LINE#99+100]  In order to develop an automation process to expand hiPSC using CompacT SelecT, the hiPSC line was transferred to the Centre for Biological Engineering (CBE), Loughborough University where it was further cultured and passaged in T25 flasks using the manual protocol established at LRM.
 0.498	[*A*]it[*R*]was passaged[*A*]in T25 flasks	context()	negated: False ,passive: True
 0.944	[*A*]the hiPSC line[*R*]was transferred[*A*]to the Centre[*A*]for Biological Engineering	context()	negated: False ,passive: True
 0.925	[*A*]the manual protocol[*R*]established[*A*]at LRM	context()	negated: False ,passive: True
 0.278	[*A*]it[*R*]was[*A*]further cultured	context()	negated: False ,passive: True
 0.944	[*A*]the hiPSC line[*R*]was transferred[*A*]to the Centre[*A*]for Biological Engineering	context()	negated: False ,passive: True
-[LINE#85] This line was subsequent scaled up to T175 flasks.
+[LINE#101]  This line was subsequent scaled up to T175 flasks.
 0.905	[*A*]This line[*R*]subsequent scaled[*A*]up[*A*]to T175 flasks	context()	negated: False ,passive: True
 0.937	[*A*]This line[*R*]was[*A*]subsequent scaled up to T175 flasks	context()	negated: False ,passive: True
-[LINE#86]When transferring to T175 flasks, two major limitations of the CompacT SelecT were taken into consideration: (i) as an alternative to the use of conical tubes the T175 flask was used to wash and pellet the cell clumps by gravity.
+[LINE#102] When transferring to T175 flasks, two major limitations of the CompacT SelecT were taken into consideration: (i) as an alternative to the use of conical tubes the T175 flask was used to wash and pellet the cell clumps by gravity.
 0.992	[*A*]two major limitations of the CompacT SelecT[*R*]were taken as[*A*]an alternative to the use of conical tubes the T175 flask was used to pellet the cell clumps by gravity	context()	negated: False ,passive: False
 0.922	[*A*]the T175 flask[*R*]to pellet[*A*]the cell clumps	context()	negated: False ,passive: False
 0.933	[*A*]the T175 flask[*R*]was used[*A*]to pellet the cell clumps by gravity	context()	negated: False ,passive: True
@@ -325,66 +325,66 @@
 0.776	[*A*]the T175 flask[*R*]to wash	context()	negated: False ,passive: False
 0.831	[*A*]the T175 flask[*R*]was used[*A*]to wash	context()	negated: False ,passive: True
 0.978	[*A*]two major limitations of the CompacT SelecT[*R*]were taken[*A*]into consideration[*A*]as an alternative to the use of conical tubes[*A*]When transferring to T175 flasks	context()	negated: False ,passive: True
-[LINE#87]This removed a process step but required a protocol modification that increased the time required for settling of aggregates.
+[LINE#103] This removed a process step but required a protocol modification that increased the time required for settling of aggregates.
 0.813	[*A*]a protocol modification[*R*]increased required[*A*]for settling of aggregates	context(a protocol modification increased)	negated: False ,passive: False
 0.870	[*A*]a protocol modification[*R*]increased[*A*]the time required for settling of aggregates	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]removed[*A*]a process step	context()	negated: False ,passive: False
-[LINE#88]10ml pipettes were used instead of 1000l tips when breaking the cell clumps to a desirable size (Fig. 2).
-[LINE#89]Cells were maintained using the manual protocol in both T25 and T175 flasks to show process transfer and scale up within both facilities.
+[LINE#104] 10ml pipettes were used instead of 1000l tips when breaking the cell clumps to a desirable size (Fig. 2).
+[LINE#105] Cells were maintained using the manual protocol in both T25 and T175 flasks to show process transfer and scale up within both facilities.
 0.816	[*A*]Cells[*R*]using[*A*]the manual protocol in T175	context()	negated: False ,passive: False
 0.786	[*A*]Cells[*R*]to scale up[*A*]within both facilities	context()	negated: False ,passive: True
 0.816	[*A*]Cells[*R*]using[*A*]the manual protocol in both T25	context()	negated: False ,passive: False
 0.561	[*A*]Cells[*R*]were maintained	context()	negated: False ,passive: False
-[LINE#90]The manual process of expanding T175 flasks was executed for three weeks to gain confidence in the protocol before cells were transferred to the CompacT SelecT. A split ratio of 1:10 was maintained and the cell clumps broken to the appropriate size by the operator using a 10ml pipette (Table 1).
+[LINE#106] The manual process of expanding T175 flasks was executed for three weeks to gain confidence in the protocol before cells were transferred to the CompacT SelecT. A split ratio of 1:10 was maintained and the cell clumps broken to the appropriate size by the operator using a 10ml pipette (Table 1).
 0.751	[*A*]The manual process[*R*]was maintained	context()	negated: False ,passive: False
 0.895	[*A*]the cell clumps[*R*]broken[*A*]by the operator	context()	negated: False ,passive: True
 0.840	[*A*]cells[*R*]were transferred[*A*]to the CompacT SelecT	context()	negated: False ,passive: True
 0.961	[*A*]The manual process of expanding T175 flasks[*R*]was executed[*A*]for three weeks[*A*]to gain confidence in the protocol[*A*]before cells were transferred to the CompacT SelecT	context()	negated: False ,passive: True
 0.903	[*A*]the operator[*R*]using[*A*]a 10ml pipette	context()	negated: False ,passive: False
-[LINE#91]However it become evident that mimicking the breaking of cell clumps to the desirable size by the operator would be the most difficult step to automate.
-[LINE#92]To adapt the T175 manual protocol to the CompacT SelecT, four iterations of the automation protocol were written and tested in the CompacT SelecT.
+[LINE#107] However it become evident that mimicking the breaking of cell clumps to the desirable size by the operator would be the most difficult step to automate.
+[LINE#108] To adapt the T175 manual protocol to the CompacT SelecT, four iterations of the automation protocol were written and tested in the CompacT SelecT.
 0.943	[*A*]four iterations of the automation protocol[*R*]were tested[*A*]in the CompacT SelecT	context()	negated: False ,passive: True
 0.801	[*A*]four iterations of the automation protocol[*R*]were written	context()	negated: False ,passive: False
-[LINE#93] The changes made in the four versions of the automated protocol were based on: (a)the time for the colonies to settle down by gravity after washing, (b) the distance of the pipette from the bottom of the flask when removing diluted enzyme solution without aspirating the cells clumps, (c) the pipetting speed and number of mixing steps required to achieve an homogeneous cell suspension of the desirable cell clump size without the presence of an undue number of single cells, and (d) the split ratio (Table 2).
+[LINE#109+110]  The changes made in the four versions of the automated protocol were based on: (a)the time for the colonies to settle down by gravity after washing, (b) the distance of the pipette from the bottom of the flask when removing diluted enzyme solution without aspirating the cells clumps, (c) the pipetting speed and number of mixing steps required to achieve an homogeneous cell suspension of the desirable cell clump size without the presence of an undue number of single cells, and (d) the split ratio (Table 2).
 0.985	[*A*]the time for the colonies to settle down by gravity[*R*](b)[*A*]the distance of the pipette from the bottom of the flask[*A*]after washing	context()	negated: False ,passive: False
 0.732	[*A*]the colonies[*R*]to settle down	context()	negated: False ,passive: False
 0.887	[*A*]The changes made in the four versions of the automated protocol[*R*]were based[*A*]on	context()	negated: False ,passive: True
 0.903	[*A*]The changes[*R*]made[*A*]in the four versions of the automated protocol	context()	negated: False ,passive: True
-[LINE#94]To take into account the small volumes of some reagents and to prevent inaccuracies of the dispensed volumes by a 10ml pipette or 1.6mm bore tubing, the media formulation was mixed manually.
-[LINE#95]Therefore, the automation platform was used to dispense the complete media.
+[LINE#111] To take into account the small volumes of some reagents and to prevent inaccuracies of the dispensed volumes by a 10ml pipette or 1.6mm bore tubing, the media formulation was mixed manually.
+[LINE#112] Therefore, the automation platform was used to dispense the complete media.
 0.897	[*A*]the automation platform[*R*]to dispense[*A*]the complete media	context()	negated: False ,passive: False
 0.911	[*A*]the automation platform[*R*]was used[*A*]to dispense the complete media	context()	negated: False ,passive: True
-[LINE#96]In the first version (A) of the automated protocol, several cell clumps were lost during the washing steps as the time for cell clumps to settle was insufficient, additionally several clumps were aspirated due to the pipette reaching close to the bottom of the flask when aspirating the enzymatic solution.
+[LINE#113] In the first version (A) of the automated protocol, several cell clumps were lost during the washing steps as the time for cell clumps to settle was insufficient, additionally several clumps were aspirated due to the pipette reaching close to the bottom of the flask when aspirating the enzymatic solution.
 0.732	[*A*]several clumps[*R*]were aspirated	context()	negated: False ,passive: False
 0.841	[*A*]cell clumps to settle[*R*]was[*A*]insufficient	context()	negated: False ,passive: True
 0.732	[*A*]cell clumps[*R*]to settle	context()	negated: False ,passive: False
 0.948	[*A*]several cell clumps[*R*]were lost[*A*]during the washing steps as the time[*A*]In the first version	context()	negated: False ,passive: True
 0.937	[*A*]the pipette[*R*]reaching[*A*]close to the bottom of the flask when aspirating the enzymatic solution	context()	negated: False ,passive: True
-[LINE#97]Care is essential during the two washes in order to dilute the enzyme concentration without aspirating cell clumps.
+[LINE#114] Care is essential during the two washes in order to dilute the enzyme concentration without aspirating cell clumps.
 0.843	[*A*]Care[*R*]is[*A*]essential	context()	negated: False ,passive: True
-[LINE#98]Moreover the low speed of mixing was insufficient to break the clumps to the desired size.
+[LINE#115] Moreover the low speed of mixing was insufficient to break the clumps to the desired size.
 0.913	[*A*]the low speed of mixing[*R*]to break[*A*]the clumps[*A*]to the desired size	context()	negated: False ,passive: False
 0.943	[*A*]the low speed of mixing[*R*]was[*A*]insufficient to break the clumps to the desired size	context()	negated: False ,passive: True
-[LINE#99]A higher split ratio was used when comparing to manual protocol.
+[LINE#116] A higher split ratio was used when comparing to manual protocol.
 0.919	[*A*]A higher split ratio[*R*]was used[*A*]when comparing to manual protocol	context()	negated: False ,passive: True
-[LINE#100] This was chosen to account for any potential cell loss during the automation steps described in the above.
+[LINE#117]  This was chosen to account for any potential cell loss during the automation steps described in the above.
 0.783	[*A*]the automation steps[*R*]described[*A*]in the above	context()	negated: False ,passive: True
 0.342	[*A*]This[*R*]to account[*A*]for any potential cell loss during the automation steps	context()	negated: False ,passive: False
 0.497	[*A*]This[*R*]was chosen[*A*]to account for any potential cell loss during the automation steps	context()	negated: False ,passive: True
-[LINE#101] The following versions (B-D) looked at improving Version A (Table 2) andsubsequently the outcome of the passage.
+[LINE#118+119]  The following versions (B-D) looked at improving Version A (Table 2) andsubsequently the outcome of the passage.
 0.913	[*A*]The following versions[*R*]looked[*A*]at improving Version A (Table 2) andsubsequently	context()	negated: False ,passive: False
-[LINE#102]It proved difficult to use the CEDEX cell counter to count clumps of cells in order to passage cells based on cell count as the CEDEX could not count the clumps accurately (data not shown).
+[LINE#120] It proved difficult to use the CEDEX cell counter to count clumps of cells in order to passage cells based on cell count as the CEDEX could not count the clumps accurately (data not shown).
 0.813	[*A*]cells[*R*]based[*A*]on cell count	context()	negated: False ,passive: True
 0.713	[*A*]data[*R*]not shown	context()	negated: True ,passive: False
 0.925	[*A*]the CEDEX[*R*]could not count accurately[*A*]the clumps	context()	negated: True ,passive: False
-[LINE#103]This would have improved process reproducibility, however the methods available for counting cell aggregates/clump are not yet suitable to be integrated within an automation platform.
+[LINE#121] This would have improved process reproducibility, however the methods available for counting cell aggregates/clump are not yet suitable to be integrated within an automation platform.
 0.321	[*A*]This[*R*]would have improved[*A*]process reproducibility	context(however the methods available for counting cell aggregates are not)	negated: False ,passive: False
 0.915	[*A*]however the methods available for counting cell aggregates[*R*]are not[*A*]yet[*A*]suitable to be integrated within an automation platform	context()	negated: True ,passive: True
-[LINE#104]A feature of the CompacT SelecT is its 90 T175 flask carousel incubators.
+[LINE#122] A feature of the CompacT SelecT is its 90 T175 flask carousel incubators.
 0.973	[*A*]A feature of the CompacT SelecT[*R*]is[*A*]90 t175 flask carousel incubators	context()	negated: False ,passive: False
 0.998	[*A*]the CompacT SelecT[*R*]has A feature of[*A*]90 t175 flask carousel incubators	context()	negated: False ,passive: False
 0.942	[*A*]A feature of the CompacT SelecT[*R*]is[*A*]its 90 T175 flask carousel incubators	context()	negated: False ,passive: True
-[LINE#105]While the robot placed the flasks gently in the incubator carousel without disturbing the cells, as soon as the carousel was rotated, cell clumps moved under centrifugal force to concentrate in parts of the flask resulting in a heterogeneous distribution of the cell clumps/colonies in the flask; this in particular can result in the growth of differentiated colonies.
+[LINE#123] While the robot placed the flasks gently in the incubator carousel without disturbing the cells, as soon as the carousel was rotated, cell clumps moved under centrifugal force to concentrate in parts of the flask resulting in a heterogeneous distribution of the cell clumps/colonies in the flask; this in particular can result in the growth of differentiated colonies.
 0.887	[*A*]cell clumps[*R*]to concentrate[*A*]in parts of the flask	context()	negated: False ,passive: False
 0.732	[*A*]the carousel[*R*]was rotated	context()	negated: False ,passive: False
 0.954	[*A*]cell clumps[*R*]moved[*A*]under centrifugal force[*A*]to concentrate in parts of the flask[*A*]While the robot placed the flasks gently in the incubator carousel without disturbing the cells, as soon	context(this in particular can result)	negated: False ,passive: True
@@ -392,18 +392,18 @@
 0.937	[*A*]the flask[*R*]resulting[*A*]in a heterogeneous distribution of the cell clumps/colonies in the flask	context()	negated: False ,passive: True
 0.824	[*A*]the robot[*R*]placed gently in the incubator carousel without disturbing[*A*]the cells[*A*]as soon as the carousel was rotated	context(the robot placed gently)	negated: False ,passive: False
 0.824	[*A*]the robot[*R*]placed gently[*A*]in the incubator carousel	context()	negated: False ,passive: False
-[LINE#106]This observation showed the importance of leaving the unattached cells in an undisturbed condition and that even the slightest movement can result in a heterogeneous distribution of the colonies.
+[LINE#124] This observation showed the importance of leaving the unattached cells in an undisturbed condition and that even the slightest movement can result in a heterogeneous distribution of the colonies.
 0.919	[*A*]even the slightest movement[*R*]can result[*A*]in a heterogeneous distribution of the colonies	context()	negated: False ,passive: True
 0.937	[*A*]This observation[*R*]showed[*A*]the importance of leaving the unattached cells in an undisturbed condition	context()	negated: False ,passive: False
-[LINE#107]Of the four flasks/protocol versions (A-D) tested in the CompacT SelecT, C was the best protocol based on colony morphology and absence of differentiation 7 days after passage (Fig. 2).
+[LINE#125] Of the four flasks/protocol versions (A-D) tested in the CompacT SelecT, C was the best protocol based on colony morphology and absence of differentiation 7 days after passage (Fig. 2).
 0.911	[*A*]the best protocol[*R*]based[*A*]on absence of differentiation	context()	negated: False ,passive: True
 0.887	[*A*]C[*R*]was[*A*]the best protocol based on absence of differentiation	context()	negated: False ,passive: True
 0.911	[*A*]the best protocol[*R*]based[*A*]on colony morphology of differentiation 7 days after passage	context()	negated: False ,passive: True
 0.938	[*A*]C[*R*]was[*A*]the best protocol based on colony morphology of differentiation 7 days after passage ( Fig	context()	negated: False ,passive: True
 0.843	[*A*]A - D[*R*]tested[*A*]in the CompacT SelecT	context()	negated: False ,passive: True
-[LINE#108]To further assess the quality of these cells when compared to manual protocols (T25Manual and T175Manual), expression of pluripotency markers was analyzed using qPCR and immunochemistry.
+[LINE#126] To further assess the quality of these cells when compared to manual protocols (T25Manual and T175Manual), expression of pluripotency markers was analyzed using qPCR and immunochemistry.
 0.769	[*A*]expression of pluripotency markers[*R*]was analyzed	context()	negated: False ,passive: False
-[LINE#109] These analyses showed high levels and homogenous expression of pluripotency markers and morphology characteristic of hiPSC for both manual and automated protocols (Fig.3).In addition, capacity of differentiation toward the three germ layers was confirmed by growing the hiPSC into culture conditions inductive for endoderm, mesoderm and neuroectoderm differentiation.
+[LINE#127+128]  These analyses showed high levels and homogenous expression of pluripotency markers and morphology characteristic of hiPSC for both manual and automated protocols (Fig.3).In addition, capacity of differentiation toward the three germ layers was confirmed by growing the hiPSC into culture conditions inductive for endoderm, mesoderm and neuroectoderm differentiation.
 0.963	[*A*]capacity of differentiation toward the three germ layers[*R*]was confirmed[*A*]by growing the hiPSC into culture conditions inductive for neuroectoderm differentiation	context(These analyses showed)	negated: False ,passive: True
 0.963	[*A*]capacity of differentiation toward the three germ layers[*R*]was confirmed[*A*]by growing the hiPSC into culture conditions inductive for mesoderm	context(These analyses showed)	negated: False ,passive: True
 0.882	[*A*]These analyses[*R*]showed[*A*]both automated protocols	context()	negated: False ,passive: False
@@ -416,16 +416,16 @@
 0.882	[*A*]These analyses[*R*]showed[*A*]homogenous expression of pluripotency markers	context()	negated: False ,passive: False
 0.878	[*A*]These analyses[*R*]showed[*A*]high levels	context(capacity of differentiation toward the three germ layers was confirmed)	negated: False ,passive: False
 0.961	[*A*]capacity of differentiation toward the three germ layers[*R*]was confirmed[*A*]by growing the hiPSC into culture conditions inductive for endoderm	context()	negated: False ,passive: True
-[LINE#110] Both manual protocols in T25 flasks and the automated protocol in T175 flasks showed homogeneous differentiation of hiPSC into the three germ layers as observed by the change of cell morphology and by the expression of endoderm markers: SOX17 and EOMES, mesoderm markers: BRACHURY and MIXL1 and neuroectoderm markers: NESTIN and SOX2.
+[LINE#129]  Both manual protocols in T25 flasks and the automated protocol in T175 flasks showed homogeneous differentiation of hiPSC into the three germ layers as observed by the change of cell morphology and by the expression of endoderm markers: SOX17 and EOMES, mesoderm markers: BRACHURY and MIXL1 and neuroectoderm markers: NESTIN and SOX2.
 0.957	[*A*]the automated protocol in T175 flasks[*R*]showed[*A*]homogeneous differentiation of hiPSC[*A*]into the three germ layers	context()	negated: False ,passive: False
 0.905	[*A*]the three germ layers[*R*]observed[*A*]by the expression of endoderm markers	context()	negated: False ,passive: True
 0.905	[*A*]the three germ layers[*R*]observed[*A*]by the change of cell morphology	context()	negated: False ,passive: True
 0.957	[*A*]Both manual protocols in T25 flasks[*R*]showed[*A*]homogeneous differentiation of hiPSC[*A*]into the three germ layers	context()	negated: False ,passive: False
-[LINE#111]These results suggest that cells expanded with our automation protocol retain the capacity to produce cell types with a clinical interest.
+[LINE#130] These results suggest that cells expanded with our automation protocol retain the capacity to produce cell types with a clinical interest.
 0.769	[*A*]cells expanded with our automation protocol[*R*]retain[*A*]the capacity to produce cell types with a clinical interest	context(These results suggest)	negated: False ,passive: False
 0.703	[*A*]These results[*R*]suggest[*A*]that cells expanded with our automation protocol retain the capacity	context()	negated: False ,passive: False
 0.561	[*A*]cells[*R*]expanded	context()	negated: False ,passive: False
-[LINE#112]Considered together, these data suggest that the transfer of protocols between the two facilities was successful and that both scale-up and automation protocols were shown to maintain cell function comparable to manually passaged hiPSC.
+[LINE#131] Considered together, these data suggest that the transfer of protocols between the two facilities was successful and that both scale-up and automation protocols were shown to maintain cell function comparable to manually passaged hiPSC.
 0.913	[*A*]both scale automation protocols[*R*]were shown[*A*]to maintain cell function comparable to manually passaged hiPSC	context(these data suggest)	negated: False ,passive: True
 0.835	[*A*]these data[*R*]suggest[*A*]that both scale automation protocols were shown to maintain cell function comparable to manually passaged hiPSC	context()	negated: False ,passive: False
 0.920	[*A*]both scale automation protocols[*R*]to maintain[*A*]cell function comparable to manually passaged hiPSC	context()	negated: False ,passive: False

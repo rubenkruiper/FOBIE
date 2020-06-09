@@ -1,80 +1,80 @@
-[LINE#1] Mitochondrial aminoacyl-tRNA synthetases are essential enzymes in protein synthesis since they charge tRNAswith their cognate amino acids.
+[LINE#0+1+2]  Mitochondrial aminoacyl-tRNA synthetases are essential enzymes in protein synthesis since they charge tRNAswith their cognate amino acids.
 0.465	[*A*]they[*R*]charge[*A*]tRNAswith their cognate amino acids	context()	negated: False ,passive: False
 0.871	[*A*]Mitochondrial aminoacyl-tRNA synthetases[*R*]are[*A*]essential enzymes in protein synthesis[*A*]since they charge tRNAswith their cognate amino acids	context()	negated: False ,passive: True
-[LINE#2]Mutations in the genes encoding mitochondrial aaRSs have been associated with a wide spectrum of human mitochondrial diseases.
+[LINE#3] Mutations in the genes encoding mitochondrial aaRSs have been associated with a wide spectrum of human mitochondrial diseases.
 0.938	[*A*]Mutations in the genes encoding mitochondrial aaRSs[*R*]have been associated[*A*]with a wide spectrum of human mitochondrial diseases	context()	negated: False ,passive: True
-[LINE#3]Here we report the identification of pathogenic mutations (a partial genomic deletion and a highly conserved p. Asp325Tyr missense variant) in FARS2, the gene encoding mitochondrial phenylalanyl-tRNA synthetase, in a patient with early-onset epilepsy and isolated complex IV deficiency in muscle.
+[LINE#4] Here we report the identification of pathogenic mutations (a partial genomic deletion and a highly conserved p. Asp325Tyr missense variant) in FARS2, the gene encoding mitochondrial phenylalanyl-tRNA synthetase, in a patient with early-onset epilepsy and isolated complex IV deficiency in muscle.
 0.740	[*A*]we[*R*]report[*A*]the identification of pathogenic mutations ( a highly conserved p. Asp325Tyr missense variant ) in FARS2 , the gene encoding mitochondrial phenylalanyl - tRNA synthetase , in a patient with isolated complex IV deficiency in muscle[*A*]Here	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]report[*A*]the identification of pathogenic mutations ( a highly conserved p. Asp325Tyr missense variant ) in FARS2 , the gene encoding mitochondrial phenylalanyl - tRNA synthetase , in a patient with early - onset epilepsy[*A*]Here	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]report[*A*]the identification of pathogenic mutations[*A*]Here	context()	negated: False ,passive: False
-[LINE#4]The biochemical defect was expressed in myoblasts but not in fibroblasts and associated with decreased steady state levels of COXI and COXII protein and reduced steady state levels of the mt-tRNAPhe transcript.
+[LINE#5] The biochemical defect was expressed in myoblasts but not in fibroblasts and associated with decreased steady state levels of COXI and COXII protein and reduced steady state levels of the mt-tRNAPhe transcript.
 0.751	[*A*]The biochemical defect[*R*]was expressed	context()	negated: False ,passive: False
-[LINE#5]Functional analysis of the recombinant mutant p. Asp325Tyr FARS2 protein showed an inability to bind ATP and consequently undetectable aminoacylation activity using either bacterial tRNA or human mt-tRNAPhe as substrates.
+[LINE#6] Functional analysis of the recombinant mutant p. Asp325Tyr FARS2 protein showed an inability to bind ATP and consequently undetectable aminoacylation activity using either bacterial tRNA or human mt-tRNAPhe as substrates.
 0.965	[*A*]Functional analysis of the recombinant mutant p. Asp325Tyr FARS2 protein[*R*]showed[*A*]an inability to bind ATP and consequently undetectable aminoacylation activity	context()	negated: False ,passive: False
-[LINE#6] Lentiviral transduction of cells with wildtype FARS2restored complex IV protein levels, confirming that the p.
+[LINE#7+8]  Lentiviral transduction of cells with wildtype FARS2restored complex IV protein levels, confirming that the p.
 0.782	[*A*]cells with wildtype FARS2restored complex IV protein levels[*R*]confirming[*A*]that the p.	context()	negated: False ,passive: False
-[LINE#7]Asp325Tyr mutation is pathogenic, causing respiratory chain deficiency and neurological deficits on account of defective aminoacylation of mt-tRNAPhe.
+[LINE#9] Asp325Tyr mutation is pathogenic, causing respiratory chain deficiency and neurological deficits on account of defective aminoacylation of mt-tRNAPhe.
 0.914	[*A*]Asp325Tyr mutation[*R*]causing[*A*]neurological deficits	context()	negated: False ,passive: False
 0.964	[*A*]Asp325Tyr mutation[*R*]is[*A*]pathogenic[*A*]causing neurological deficits on account of defective aminoacylation of mt - tRNAPhe	context()	negated: False ,passive: True
 0.914	[*A*]Asp325Tyr mutation[*R*]causing[*A*]respiratory chain deficiency	context()	negated: False ,passive: False
 0.964	[*A*]Asp325Tyr mutation[*R*]is[*A*]pathogenic[*A*]causing respiratory chain deficiency on account of defective aminoacylation of mt - tRNAPhe	context()	negated: False ,passive: True
-[LINE#8]We have identified a patient with early-onset epilepsy and isolated complex IV deficiency due to mutations in the FARS2 gene, prompted by diagnostic array CGH studies that identified a heterozygous interstitial 6p25.1 deletion.
+[LINE#10] We have identified a patient with early-onset epilepsy and isolated complex IV deficiency due to mutations in the FARS2 gene, prompted by diagnostic array CGH studies that identified a heterozygous interstitial 6p25.1 deletion.
 0.928	[*A*]diagnostic array CGH studies[*R*]identified[*A*]a heterozygous interstitial 6p25.1 deletion	context()	negated: False ,passive: False
 0.940	[*A*]isolated complex IV deficiency due to mutations in the FARS2 gene[*R*]prompted[*A*]by diagnostic array CGH studies	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]have identified[*A*]a patient with early - onset epilepsy	context()	negated: False ,passive: False
-[LINE#9]Scrutiny of the genes within the 88kb deleted region revealed two genes, LYRM4 and FARS2, 1both predicted to have a mitochondrial function.
+[LINE#11] Scrutiny of the genes within the 88kb deleted region revealed two genes, LYRM4 and FARS2, 1both predicted to have a mitochondrial function.
 0.902	[*A*]1both[*R*]predicted to have[*A*]a mitochondrial function	context(1both predicted)	negated: False ,passive: False
 0.952	[*A*]Scrutiny of the genes within the 88kb deleted region[*R*]revealed[*A*]two genes	context(1both predicted)	negated: False ,passive: False
 0.902	[*A*]1both[*R*]predicted[*A*]to have a mitochondrial function	context()	negated: False ,passive: False
-[LINE#10] LYRM4 encodes a protein required for nuclear and mitochondrial iron-sulphur protein biosynthesis,whilst FARS2 encodes the mitochondrial phenylalanyl-tRNA synthetase.
+[LINE#12+13]  LYRM4 encodes a protein required for nuclear and mitochondrial iron-sulphur protein biosynthesis,whilst FARS2 encodes the mitochondrial phenylalanyl-tRNA synthetase.
 0.903	[*A*]a protein[*R*]required[*A*]for mitochondrial iron - sulphur protein biosynthesis	context()	negated: False ,passive: True
 0.942	[*A*]LYRM4[*R*]encodes[*A*]a protein required for mitochondrial iron - sulphur protein biosynthesis[*A*]whilst FARS2 encodes the mitochondrial phenylalanyl - tRNA synthetase	context()	negated: False ,passive: False
 0.920	[*A*]FARS2[*R*]encodes[*A*]the mitochondrial phenylalanyl - tRNA synthetase	context()	negated: False ,passive: False
 0.903	[*A*]a protein[*R*]required[*A*]for nuclear iron - sulphur protein biosynthesis	context()	negated: False ,passive: True
 0.942	[*A*]LYRM4[*R*]encodes[*A*]a protein required for nuclear iron - sulphur protein biosynthesis[*A*]whilst FARS2 encodes the mitochondrial phenylalanyl - tRNA synthetase	context()	negated: False ,passive: False
-[LINE#11]At the time of referral, neither the LYRM4 or FARS2 genes had been reported in association with human pathology therefore both genes were bi-directionally sequenced.
+[LINE#14] At the time of referral, neither the LYRM4 or FARS2 genes had been reported in association with human pathology therefore both genes were bi-directionally sequenced.
 0.732	[*A*]both genes[*R*]were bi-directionally sequenced	context()	negated: False ,passive: False
 0.945	[*A*]neither the LYRM4 or FARS2 genes[*R*]had been reported[*A*]in association with human pathology[*A*]At the time of referral	context()	negated: False ,passive: True
-[LINE#12]Since then a mutation in LYRM4 has been identified in patients with combined OXPHOS disease [32].
+[LINE#15] Since then a mutation in LYRM4 has been identified in patients with combined OXPHOS disease [32].
 0.971	[*A*]a mutation in LYRM4[*R*]has been identified[*A*]in patients with combined OXPHOS disease[*A*]Since then	context()	negated: False ,passive: True
-[LINE#13] The affected individuals were homozygous for the mutation and manifested with deficiencies in respiratory chain complexes.
+[LINE#16]  The affected individuals were homozygous for the mutation and manifested with deficiencies in respiratory chain complexes.
 0.911	[*A*]The affected individuals[*R*]were manifested[*A*]with deficiencies in respiratory chain complexes	context()	negated: False ,passive: True
 0.911	[*A*]The affected individuals[*R*]were[*A*]homozygous for the mutation	context()	negated: False ,passive: True
-[LINE#14]I, II and III, as well as aconitase and ferrochelatase, all of which contain iron sulphur clusters [32].
-[LINE#15]This presentation differed to our patient and no potentially pathogenic mutations were identified within the LYRM4 gene.
+[LINE#17] I, II and III, as well as aconitase and ferrochelatase, all of which contain iron sulphur clusters [32].
+[LINE#18] This presentation differed to our patient and no potentially pathogenic mutations were identified within the LYRM4 gene.
 0.931	[*A*]no potentially pathogenic mutations[*R*]were identified[*A*]within the LYRM4 gene	context()	negated: False ,passive: True
 0.835	[*A*]This presentation[*R*]differed[*A*]to our patient	context()	negated: False ,passive: True
-[LINE#16] Analysis of the FARS2 gene, however, revealed a novel heterozygous c.973G>T transversion, predicting a p.
+[LINE#19+20]  Analysis of the FARS2 gene, however, revealed a novel heterozygous c.973G>T transversion, predicting a p.
 0.878	[*A*]Analysis of the FARS2 gene[*R*]revealed a novel heterozygous c.973G>T transversion predicting[*A*]a p.	context(Analysis of the FARS2 gene revealed)	negated: False ,passive: False
 0.917	[*A*]Analysis of the FARS2 gene[*R*]revealed[*A*]a novel heterozygous c.973G>T transversion	context()	negated: False ,passive: False
-[LINE#17]Asp325Tyr amino acid substitution.
-[LINE#18]Whole mtDNA genome sequencing was undertaken and excluded the possibility of a co-existing mtDNA point mutation, particularly within the mt-tRNAPhe (MTTF) gene.
+[LINE#21] Asp325Tyr amino acid substitution.
+[LINE#22] Whole mtDNA genome sequencing was undertaken and excluded the possibility of a co-existing mtDNA point mutation, particularly within the mt-tRNAPhe (MTTF) gene.
 0.590	[*A*]Whole[*R*]excluded[*A*]the possibility of a co-existing mtDNA point mutation	context()	negated: False ,passive: False
 0.818	[*A*]Whole mtDNA genome sequencing[*R*]was undertaken	context()	negated: False ,passive: False
-[LINE#19]Investigations into the consequences of a FARS2 mutation were therefore pursued.
+[LINE#23] Investigations into the consequences of a FARS2 mutation were therefore pursued.
 0.812	[*A*]Investigations into the consequences of a FARS2 mutation[*R*]were pursued	context()	negated: False ,passive: False
-[LINE#20]The FARS2 protein has four major domains: an N-terminal region (residues 1-83), a catalytic domain (residues 84-325), a linker region (residues 326-358) and a C-terminal domain (residues 359-451).
+[LINE#24] The FARS2 protein has four major domains: an N-terminal region (residues 1-83), a catalytic domain (residues 84-325), a linker region (residues 326-358) and a C-terminal domain (residues 359-451).
 0.949	[*A*]The FARS2 protein[*R*]has[*A*]four major domains	context()	negated: False ,passive: False
-[LINE#21]Asp325Tyr FARS2 mutation is located in the catalytic domain where the aminoacylation reaction occurs.
+[LINE#25] Asp325Tyr FARS2 mutation is located in the catalytic domain where the aminoacylation reaction occurs.
 0.939	[*A*]the aminoacylation reaction[*R*]occurs[*A*]the catalytic domain	context()	negated: False ,passive: True
 0.877	[*A*]Asp325Tyr FARS2 mutation[*R*]is located[*A*]in the catalytic domain	context()	negated: False ,passive: True
-[LINE#22]Based on the reported crystal structure of FARS2 [30], we predict that this mutation will disrupt ATP binding, affecting aminoacylation efficiency.
+[LINE#26] Based on the reported crystal structure of FARS2 [30], we predict that this mutation will disrupt ATP binding, affecting aminoacylation efficiency.
 0.896	[*A*]this mutation[*R*]will disrupt[*A*]ATP binding[*A*]affecting aminoacylation efficiency	context(we predict)	negated: False ,passive: False
 0.218	[*A*]we[*R*]predict[*A*]that this mutation will disrupt ATP binding	context()	negated: False ,passive: False
-[LINE#23]Consistent with an inability to bind ATP, we found a significant reduction in the aminoacylation capacity of the recombinant mutant protein in vitro, where activity was essentially undetectable.
+[LINE#27] Consistent with an inability to bind ATP, we found a significant reduction in the aminoacylation capacity of the recombinant mutant protein in vitro, where activity was essentially undetectable.
 0.876	[*A*]activity[*R*]was[*A*]essentially undetectable[*A*]vitro	context()	negated: False ,passive: True
 0.569	[*A*]we[*R*]found[*A*]a significant reduction in the aminoacylation capacity of the recombinant mutant protein in vitro	context()	negated: False ,passive: False
-[LINE#24]This was also consistent with the complex IV deficiency observed in the patient's muscle biopsy, the decreased steady state levels of COXI and COXII protein expression in myoblasts and in the reduced steady-state levels of the mt-tRNAPhe transcript.
+[LINE#28] This was also consistent with the complex IV deficiency observed in the patient's muscle biopsy, the decreased steady state levels of COXI and COXII protein expression in myoblasts and in the reduced steady-state levels of the mt-tRNAPhe transcript.
 0.939	[*A*]the complex IV deficiency[*R*]observed[*A*]in the patient 's muscle biopsy	context()	negated: False ,passive: True
 0.495	[*A*]This[*R*]was[*A*]also[*A*]consistent with the complex IV deficiency	context()	negated: False ,passive: True
-[LINE#25]These low levels of protein and mt-tRNA were relieved by transduction with a wild type copy of FARS2 confirming that the mutation was responsible for the biochemical phenotype and clinical presentation.
+[LINE#29] These low levels of protein and mt-tRNA were relieved by transduction with a wild type copy of FARS2 confirming that the mutation was responsible for the biochemical phenotype and clinical presentation.
 0.961	[*A*]These low levels of mt - tRNA[*R*]were relieved[*A*]by transduction with a wild type copy of FARS2	context()	negated: False ,passive: True
 0.937	[*A*]These low levels of protein[*R*]were relieved[*A*]by transduction with a wild type copy of FARS2	context()	negated: False ,passive: True
-[LINE#26]Unlike many mitochondrial disorders, where there is often vast clinical heterogeneity with a given genotype, a rapidly increasing number of mitochondrial tRNA synthetase genes are being reported in association with very discrete clinical phenotypes and syndromes.
+[LINE#30] Unlike many mitochondrial disorders, where there is often vast clinical heterogeneity with a given genotype, a rapidly increasing number of mitochondrial tRNA synthetase genes are being reported in association with very discrete clinical phenotypes and syndromes.
 0.934	[*A*]a rapidly increasing number of mitochondrial tRNA synthetase genes[*R*]are being reported[*A*]in association	context()	negated: False ,passive: True
-[LINE#27]For example, DARS2 mutations are associated with LBSL [7], YARS2 mutations with MLASA [10] and RARS2 mutations with PCH6 [9].
+[LINE#31] For example, DARS2 mutations are associated with LBSL [7], YARS2 mutations with MLASA [10] and RARS2 mutations with PCH6 [9].
 0.938	[*A*]DARS2 mutations[*R*]are associated[*A*]with LBSL	context()	negated: False ,passive: True
-[LINE#28]Interestingly, a recent report describes novel FARS2 mutations in two families with fatal intractable myoclonic epilepsy [20]; whilst the initial presenting symptom clearly correlates with our index case, there was no evidence of marked cerebral atrophy in our patient's brain MRI, which was a striking feature in the cases presented by these authors, although our patient did have structural brain abnormalities involving the corpus callosum and white matter abnormalities.
+[LINE#32] Interestingly, a recent report describes novel FARS2 mutations in two families with fatal intractable myoclonic epilepsy [20]; whilst the initial presenting symptom clearly correlates with our index case, there was no evidence of marked cerebral atrophy in our patient's brain MRI, which was a striking feature in the cases presented by these authors, although our patient did have structural brain abnormalities involving the corpus callosum and white matter abnormalities.
 0.911	[*A*]structural brain abnormalities[*R*]involving[*A*]the white matter abnormalities	context()	negated: False ,passive: True
 0.638	[*A*]our patient[*R*]did have[*A*]structural brain abnormalities involving the white matter abnormalities	context()	negated: False ,passive: False
 0.783	[*A*]structural brain abnormalities[*R*]involving[*A*]the corpus callosum	context()	negated: False ,passive: True
@@ -82,102 +82,102 @@
 0.860	[*A*]the initial presenting symptom[*R*]clearly correlates[*A*]with our index case	context()	negated: False ,passive: True
 0.903	[*A*]the cases[*R*]presented[*A*]by these authors	context()	negated: False ,passive: True
 0.782	[*A*]our patient 's brain MRI[*R*]was[*A*]a striking feature in the cases	context()	negated: False ,passive: True
-[LINE#29]Clinical phenotypes caused by mutations in the specific mt-aminoacyl-tRNA synthetases are associated with diversity in both tissue-specificity and clinical presentation [6].
+[LINE#33] Clinical phenotypes caused by mutations in the specific mt-aminoacyl-tRNA synthetases are associated with diversity in both tissue-specificity and clinical presentation [6].
 0.967	[*A*]Clinical phenotypes caused by mutations in the specific mt - aminoacyl - tRNA synthetases[*R*]are associated[*A*]with diversity[*A*]in both clinical presentation	context()	negated: False ,passive: True
 0.967	[*A*]Clinical phenotypes caused by mutations in the specific mt - aminoacyl - tRNA synthetases[*R*]are associated[*A*]with diversity in both tissue - specificity	context()	negated: False ,passive: True
 0.937	[*A*]Clinical phenotypes[*R*]caused[*A*]by mutations in the specific mt - aminoacyl - tRNA synthetases	context()	negated: False ,passive: True
-[LINE#30]Variability in clinical presentation may suggest the involvement of these enzymes in a secondary function besides their primary role in mitochondrial protein synthesis, however, these have not yet been identified.
+[LINE#34] Variability in clinical presentation may suggest the involvement of these enzymes in a secondary function besides their primary role in mitochondrial protein synthesis, however, these have not yet been identified.
 0.883	[*A*]Variability in clinical presentation[*R*]may suggest[*A*]the involvement of these enzymes in a secondary function besides their primary role in mitochondrial protein synthesis	context(these have not been identified)	negated: False ,passive: False
 0.240	[*A*]these[*R*]have not been identified[*A*]yet	context()	negated: True ,passive: True
-[LINE#31]Tissue-specificity may arise due to variation in the level of gene expression between tissues, which will designate that the enzyme activity will be either above or below the critical threshold in a particular tissue.
+[LINE#35] Tissue-specificity may arise due to variation in the level of gene expression between tissues, which will designate that the enzyme activity will be either above or below the critical threshold in a particular tissue.
 0.927	[*A*]the enzyme activity[*R*]will be[*A*]either above or below the critical threshold in a particular tissue	context(tissues will designate)	negated: False ,passive: True
 0.763	[*A*]tissues[*R*]will designate[*A*]that the enzyme activity will be either above or below the critical threshold in a particular tissue	context()	negated: False ,passive: False
 0.957	[*A*]Tissue-specificity[*R*]may arise[*A*]due to variation in the level of gene expression between tissues	context()	negated: False ,passive: True
-[LINE#32]In addition, differences in requirements for respiratory chain complexes activity and ATP produced by oxidative phosphorylation may also lead to the presence or absence of the phenotype in a particular tissue.
+[LINE#36] In addition, differences in requirements for respiratory chain complexes activity and ATP produced by oxidative phosphorylation may also lead to the presence or absence of the phenotype in a particular tissue.
 0.839	[*A*]ATP[*R*]may lead[*A*]to the presence or absence of the phenotype in a particular tissue	context()	negated: False ,passive: False
 0.855	[*A*]ATP[*R*]produced[*A*]by oxidative phosphorylation	context()	negated: False ,passive: True
-[LINE#33]In our patient, the respiratory chain complex IV deficiency was observed in both mature muscle and myoblasts but not in patient fibroblasts; this is not unprecedented and has been observed in other mt-aminoacyl-tRNA synthetase defects including YARS2 [11].
+[LINE#37] In our patient, the respiratory chain complex IV deficiency was observed in both mature muscle and myoblasts but not in patient fibroblasts; this is not unprecedented and has been observed in other mt-aminoacyl-tRNA synthetase defects including YARS2 [11].
 0.947	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in myoblasts[*A*]In our patient	context()	negated: False ,passive: True
 0.961	[*A*]the respiratory chain complex IV deficiency[*R*]has been observed[*A*]in other mt - aminoacyl - tRNA synthetase defects including YARS2[*A*]In our patient	context()	negated: False ,passive: True
 0.947	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in both mature muscle[*A*]In our patient	context()	negated: False ,passive: True
 0.933	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in myoblasts[*A*]In our patient	context(this is not)	negated: False ,passive: True
 0.933	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in both mature muscle[*A*]In our patient	context(this is not)	negated: False ,passive: True
 0.178	[*A*]this[*R*]is not[*A*]unprecedented	context()	negated: True ,passive: True
-[LINE#34]Moreover, we might have expected to observe multiple respiratory chain defects in these tissues, rather than an isolated complex IV defect, given the role of mt-aminoacyl-tRNA synthetases in mitochondrial translation; again, variability in the biochemical defects observed in human mt-aminoacyl-tRNA synthetase disorders has been reported, with MARS2 mutations leading to isolated complex I deficiency [16].
+[LINE#38] Moreover, we might have expected to observe multiple respiratory chain defects in these tissues, rather than an isolated complex IV defect, given the role of mt-aminoacyl-tRNA synthetases in mitochondrial translation; again, variability in the biochemical defects observed in human mt-aminoacyl-tRNA synthetase disorders has been reported, with MARS2 mutations leading to isolated complex I deficiency [16].
 0.911	[*A*]the biochemical defects[*R*]observed[*A*]in human mt-aminoacyl-tRNA synthetase disorders	context()	negated: False ,passive: True
 0.933	[*A*]an isolated complex[*R*]given[*A*]the role of mt-aminoacyl-tRNA synthetases in mitochondrial translation	context()	negated: False ,passive: True
 0.927	[*A*]MARS2 mutations[*R*]leading[*A*]to isolated complex	context()	negated: False ,passive: False
 0.504	[*A*]we[*R*]might have expected to observe[*A*]multiple respiratory chain defects in these tissues, rather than an isolated complex	context(we might have expected variability in the biochemical defects has been reported)	negated: False ,passive: False
 0.504	[*A*]we[*R*]might have expected[*A*]to observe multiple respiratory chain defects in these tissues, rather than an isolated complex	context(variability in the biochemical defects has been reported)	negated: False ,passive: False
 0.810	[*A*]variability in the biochemical defects[*R*]has been reported[*A*]again	context()	negated: False ,passive: True
-[LINE#35]There is no clear explanation for this and it does not appear to be related to the phenylalanine content of mtDNA-encoded COX subunits (Supplemental Table S2).
+[LINE#39] There is no clear explanation for this and it does not appear to be related to the phenylalanine content of mtDNA-encoded COX subunits (Supplemental Table S2).
 0.573	[*A*]it[*R*]to be related[*A*]to the phenylalanine content of mtDNA - encoded COX subunits	context()	negated: False ,passive: True
-[LINE#36]Despite the biochemical defects observed in myoblasts, we were not able to demonstrate a marked deficiency in de novo mitochondrial protein synthesis.
+[LINE#40] Despite the biochemical defects observed in myoblasts, we were not able to demonstrate a marked deficiency in de novo mitochondrial protein synthesis.
 0.411	[*A*]we[*R*]to demonstrate[*A*]a marked deficiency in de novo mitochondrial protein synthesis	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]were not[*A*]able to demonstrate a marked deficiency in de novo mitochondrial protein synthesis	context()	negated: True ,passive: True
 0.911	[*A*]the biochemical defects[*R*]observed[*A*]in myoblasts	context()	negated: False ,passive: True
-[LINE#37]This may, however, reflect a low level of residual aminoacylation activity that is sufficient to promote elongation under experimental conditions, where cells are essentially glycolytic.
+[LINE#41] This may, however, reflect a low level of residual aminoacylation activity that is sufficient to promote elongation under experimental conditions, where cells are essentially glycolytic.
 0.886	[*A*]cells[*R*]are[*A*]essentially glycolytic[*A*]experimental conditions	context()	negated: False ,passive: True
 0.920	[*A*]residual aminoacylation activity[*R*]is[*A*]sufficient to promote elongation under experimental conditions	context()	negated: False ,passive: True
 0.286	[*A*]This[*R*]may reflect[*A*]a low level of residual aminoacylation activity	context()	negated: False ,passive: True
-[LINE#38]Clinical phenotypes caused by mutations in the specific mt-aminoacyl-tRNA synthetases are associated with diversity in both tissue-specificity and clinical presentation [6].
+[LINE#42] Clinical phenotypes caused by mutations in the specific mt-aminoacyl-tRNA synthetases are associated with diversity in both tissue-specificity and clinical presentation [6].
 0.967	[*A*]Clinical phenotypes caused by mutations in the specific mt - aminoacyl - tRNA synthetases[*R*]are associated[*A*]with diversity[*A*]in both clinical presentation	context()	negated: False ,passive: True
 0.967	[*A*]Clinical phenotypes caused by mutations in the specific mt - aminoacyl - tRNA synthetases[*R*]are associated[*A*]with diversity in both tissue - specificity	context()	negated: False ,passive: True
 0.937	[*A*]Clinical phenotypes[*R*]caused[*A*]by mutations in the specific mt - aminoacyl - tRNA synthetases	context()	negated: False ,passive: True
-[LINE#39]Variability in clinical presentation may suggest the involvement of these enzymes in a secondary function besides their primary role in mitochondrial protein synthesis, however, these have not yet been identified.
+[LINE#43] Variability in clinical presentation may suggest the involvement of these enzymes in a secondary function besides their primary role in mitochondrial protein synthesis, however, these have not yet been identified.
 0.883	[*A*]Variability in clinical presentation[*R*]may suggest[*A*]the involvement of these enzymes in a secondary function besides their primary role in mitochondrial protein synthesis	context(these have not been identified)	negated: False ,passive: False
 0.240	[*A*]these[*R*]have not been identified[*A*]yet	context()	negated: True ,passive: True
-[LINE#40]Tissue-specificity may arise due to variation in the level of gene expression between tissues, which will designate that the enzyme activity will be either above or below the critical threshold in a particular tissue.
+[LINE#44] Tissue-specificity may arise due to variation in the level of gene expression between tissues, which will designate that the enzyme activity will be either above or below the critical threshold in a particular tissue.
 0.927	[*A*]the enzyme activity[*R*]will be[*A*]either above or below the critical threshold in a particular tissue	context(tissues will designate)	negated: False ,passive: True
 0.763	[*A*]tissues[*R*]will designate[*A*]that the enzyme activity will be either above or below the critical threshold in a particular tissue	context()	negated: False ,passive: False
 0.957	[*A*]Tissue-specificity[*R*]may arise[*A*]due to variation in the level of gene expression between tissues	context()	negated: False ,passive: True
-[LINE#41]In addition, differences in requirements for respiratory chain complexes activity and ATP produced by oxidative phosphorylation may also lead to the presence or absence of the phenotype in a particular tissue.
+[LINE#45] In addition, differences in requirements for respiratory chain complexes activity and ATP produced by oxidative phosphorylation may also lead to the presence or absence of the phenotype in a particular tissue.
 0.839	[*A*]ATP[*R*]may lead[*A*]to the presence or absence of the phenotype in a particular tissue	context()	negated: False ,passive: False
 0.855	[*A*]ATP[*R*]produced[*A*]by oxidative phosphorylation	context()	negated: False ,passive: True
-[LINE#42]In our patient, the respiratory chain complex IV deficiency was observed in both mature muscle and myoblasts but not in patient fibroblasts; this is not unprecedented and has been observed in other mt-aminoacyl-tRNA synthetase defects including YARS2 [11].
+[LINE#46] In our patient, the respiratory chain complex IV deficiency was observed in both mature muscle and myoblasts but not in patient fibroblasts; this is not unprecedented and has been observed in other mt-aminoacyl-tRNA synthetase defects including YARS2 [11].
 0.947	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in myoblasts[*A*]In our patient	context()	negated: False ,passive: True
 0.961	[*A*]the respiratory chain complex IV deficiency[*R*]has been observed[*A*]in other mt - aminoacyl - tRNA synthetase defects including YARS2[*A*]In our patient	context()	negated: False ,passive: True
 0.947	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in both mature muscle[*A*]In our patient	context()	negated: False ,passive: True
 0.933	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in myoblasts[*A*]In our patient	context(this is not)	negated: False ,passive: True
 0.933	[*A*]the respiratory chain complex IV deficiency[*R*]was observed[*A*]in both mature muscle[*A*]In our patient	context(this is not)	negated: False ,passive: True
 0.178	[*A*]this[*R*]is not[*A*]unprecedented	context()	negated: True ,passive: True
-[LINE#43]Moreover, we might have expected to observe multiple respiratory chain defects in these tissues, rather than an isolated complex IV defect, given the role of mt-aminoacyl-tRNA synthetases in mitochondrial translation; again, variability in the biochemical defects observed in human mt-aminoacyl-tRNA synthetase disorders has been reported, with MARS2 mutations leading to isolated complex I deficiency [16].
+[LINE#47] Moreover, we might have expected to observe multiple respiratory chain defects in these tissues, rather than an isolated complex IV defect, given the role of mt-aminoacyl-tRNA synthetases in mitochondrial translation; again, variability in the biochemical defects observed in human mt-aminoacyl-tRNA synthetase disorders has been reported, with MARS2 mutations leading to isolated complex I deficiency [16].
 0.911	[*A*]the biochemical defects[*R*]observed[*A*]in human mt-aminoacyl-tRNA synthetase disorders	context()	negated: False ,passive: True
 0.933	[*A*]an isolated complex[*R*]given[*A*]the role of mt-aminoacyl-tRNA synthetases in mitochondrial translation	context()	negated: False ,passive: True
 0.927	[*A*]MARS2 mutations[*R*]leading[*A*]to isolated complex	context()	negated: False ,passive: False
 0.504	[*A*]we[*R*]might have expected to observe[*A*]multiple respiratory chain defects in these tissues, rather than an isolated complex	context(we might have expected variability in the biochemical defects has been reported)	negated: False ,passive: False
 0.504	[*A*]we[*R*]might have expected[*A*]to observe multiple respiratory chain defects in these tissues, rather than an isolated complex	context(variability in the biochemical defects has been reported)	negated: False ,passive: False
 0.810	[*A*]variability in the biochemical defects[*R*]has been reported[*A*]again	context()	negated: False ,passive: True
-[LINE#44]There is no clear explanation for this and it does not appear to be related to the phenylalanine content of mtDNA-encoded COX subunits (Supplemental Table S2).
+[LINE#48] There is no clear explanation for this and it does not appear to be related to the phenylalanine content of mtDNA-encoded COX subunits (Supplemental Table S2).
 0.573	[*A*]it[*R*]to be related[*A*]to the phenylalanine content of mtDNA - encoded COX subunits	context()	negated: False ,passive: True
-[LINE#45]Despite the biochemical defects observed in myoblasts, we were not able to demonstrate a marked deficiency in de novo mitochondrial protein synthesis.
+[LINE#49] Despite the biochemical defects observed in myoblasts, we were not able to demonstrate a marked deficiency in de novo mitochondrial protein synthesis.
 0.411	[*A*]we[*R*]to demonstrate[*A*]a marked deficiency in de novo mitochondrial protein synthesis	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]were not[*A*]able to demonstrate a marked deficiency in de novo mitochondrial protein synthesis	context()	negated: True ,passive: True
 0.911	[*A*]the biochemical defects[*R*]observed[*A*]in myoblasts	context()	negated: False ,passive: True
-[LINE#46]This may, however, reflect a low level of residual aminoacylation activity that is sufficient to promote elongation under experimental conditions, where cells are essentially glycolytic.
+[LINE#50] This may, however, reflect a low level of residual aminoacylation activity that is sufficient to promote elongation under experimental conditions, where cells are essentially glycolytic.
 0.886	[*A*]cells[*R*]are[*A*]essentially glycolytic[*A*]experimental conditions	context()	negated: False ,passive: True
 0.920	[*A*]residual aminoacylation activity[*R*]is[*A*]sufficient to promote elongation under experimental conditions	context()	negated: False ,passive: True
 0.286	[*A*]This[*R*]may reflect[*A*]a low level of residual aminoacylation activity	context()	negated: False ,passive: True
-[LINE#47]To the best of our knowledge, the identification of a microdeletion represents a novel disease mechanism in association with a primary mitochondrial presentation; 6p25 deletions represent a rare but clinically characterised cytogenetic microdeletion syndrome, with less than 15 interstitial deletion cases reported in the literature to date [33,34].
+[LINE#51] To the best of our knowledge, the identification of a microdeletion represents a novel disease mechanism in association with a primary mitochondrial presentation; 6p25 deletions represent a rare but clinically characterised cytogenetic microdeletion syndrome, with less than 15 interstitial deletion cases reported in the literature to date [33,34].
 0.871	[*A*]deletions[*R*]represent[*A*]a clinically characterised cytogenetic microdeletion syndrome	context()	negated: False ,passive: False
 0.932	[*A*]less than 15 interstitial deletion cases[*R*]reported[*A*]in the literature	context()	negated: False ,passive: True
 0.941	[*A*]the identification of a microdeletion[*R*]represents[*A*]a novel disease mechanism in association with a primary mitochondrial presentation	context(deletions represent)	negated: False ,passive: False
 0.871	[*A*]deletions[*R*]represent[*A*]a rare to date	context()	negated: False ,passive: False
-[LINE#48]The smallest deletion reported in association with the 6p25 deletion syndrome is 900kb and involves the CDYL, RPP40, PP1R3G, LYRM4 and FARS2 genes [33].
+[LINE#52] The smallest deletion reported in association with the 6p25 deletion syndrome is 900kb and involves the CDYL, RPP40, PP1R3G, LYRM4 and FARS2 genes [33].
 0.925	[*A*]The smallest deletion[*R*]involves[*A*]the FARS2 genes	context()	negated: False ,passive: True
 0.925	[*A*]The smallest deletion[*R*]involves[*A*]the LYRM4 genes	context()	negated: False ,passive: True
 0.925	[*A*]The smallest deletion[*R*]involves[*A*]the PP1R3G genes	context()	negated: False ,passive: True
 0.925	[*A*]The smallest deletion[*R*]involves[*A*]the RPP40 genes	context()	negated: False ,passive: True
 0.925	[*A*]The smallest deletion[*R*]involves[*A*]the CDYL genes	context()	negated: False ,passive: True
 0.888	[*A*]The smallest deletion[*R*]reported[*A*]in association with the 6p25 deletion syndrome[*A*]is 900kb	context()	negated: False ,passive: False
-[LINE#49]have hypothesised that these genes are responsible for the characteristic 6p25 deletion syndrome features, given that the phenotype correlates to that of other deletion syndrome cases, whose deletions span up to 500Mb of the 6p25 region.
+[LINE#53] have hypothesised that these genes are responsible for the characteristic 6p25 deletion syndrome features, given that the phenotype correlates to that of other deletion syndrome cases, whose deletions span up to 500Mb of the 6p25 region.
 0.737	[*A*]other deletion syndrome cases[*R*]span up	context()	negated: False ,passive: False
 0.773	[*A*]the phenotype[*R*]correlates[*A*]to that of other deletion syndrome cases	context()	negated: False ,passive: False
-[LINE#50]Our patient presented with intractable infantile epilepsy (a feature never before reported in association with the 6p25 microdeletion syndrome) and a much smaller deletion than previously reported thereby prompting further investigation of the affected genes for a possible recessive aetiology.
+[LINE#54] Our patient presented with intractable infantile epilepsy (a feature never before reported in association with the 6p25 microdeletion syndrome) and a much smaller deletion than previously reported thereby prompting further investigation of the affected genes for a possible recessive aetiology.
 0.638	[*A*]Our patient[*R*]presented[*A*]with a much smaller deletion	context()	negated: False ,passive: False
 0.934	[*A*]a feature[*R*]reported[*A*]in association with the 6p25 microdeletion syndrome[*A*]never before	context()	negated: False ,passive: True
 0.638	[*A*]Our patient[*R*]presented[*A*]with intractable infantile epilepsy	context()	negated: False ,passive: False
-[LINE#51]Our patient is reported to have minor dysmorphic features involving the nasal root and the ears, whilst these dysmorphic features have not previously been reported in association with recessively-inherited FARS2 defects, they have been reported in patients with a classic 6p25 microdeletion syndrome.
+[LINE#55] Our patient is reported to have minor dysmorphic features involving the nasal root and the ears, whilst these dysmorphic features have not previously been reported in association with recessively-inherited FARS2 defects, they have been reported in patients with a classic 6p25 microdeletion syndrome.
 0.285	[*A*]Our patient[*R*]is reported	context(they have been reported)	negated: False ,passive: False
 0.911	[*A*]minor dysmorphic features[*R*]involving[*A*]the ears	context()	negated: False ,passive: True
 0.598	[*A*]Our patient[*R*]to have[*A*]minor dysmorphic features involving the ears ,	context()	negated: False ,passive: False
@@ -186,12 +186,12 @@
 0.935	[*A*]these dysmorphic features[*R*]have not been reported[*A*]in association with recessively - inherited FARS2 defects[*A*]previously	context()	negated: True ,passive: True
 0.911	[*A*]minor dysmorphic features[*R*]involving[*A*]the nasal root	context()	negated: False ,passive: True
 0.598	[*A*]Our patient[*R*]to have[*A*]minor dysmorphic features involving the nasal root	context()	negated: False ,passive: False
-[LINE#52]These findings suggest that haploinsufficiency of the LYRM4 and FARS2 genes may be, at least in part, responsible for some of the dysmorphic features of the 6p25 deletion syndrome.
+[LINE#56] These findings suggest that haploinsufficiency of the LYRM4 and FARS2 genes may be, at least in part, responsible for some of the dysmorphic features of the 6p25 deletion syndrome.
 0.948	[*A*]haploinsufficiency of the FARS2 genes[*R*]may be[*A*]at least in part[*A*]responsible for some of the dysmorphic features of the 6p25 deletion syndrome	context(These findings suggest)	negated: False ,passive: True
 0.840	[*A*]These findings[*R*]suggest[*A*]that haploinsufficiency of the FARS2 genes may be , at least in part , responsible for some of the dysmorphic features of the 6p25 deletion syndrome	context()	negated: False ,passive: False
 0.948	[*A*]haploinsufficiency of the LYRM4 genes[*R*]may be[*A*]at least in part[*A*]responsible for some of the dysmorphic features of the 6p25 deletion syndrome	context(These findings suggest)	negated: False ,passive: True
 0.840	[*A*]These findings[*R*]suggest[*A*]that haploinsufficiency of the LYRM4 genes may be , at least in part , responsible for some of the dysmorphic features of the 6p25 deletion syndrome	context()	negated: False ,passive: False
-[LINE#53]In conclusion, we demonstrate that compound heterozygous FARS2 mutations lead to an early-onset mitochondrial disease phenotype associated with respiratory chain dysfunction and characterised by infantile spasms that evolved into refractory focal epilepsy, neurodevelopmental regression and the development of subcortical white matter abnormalities on cranial MRI.
+[LINE#57] In conclusion, we demonstrate that compound heterozygous FARS2 mutations lead to an early-onset mitochondrial disease phenotype associated with respiratory chain dysfunction and characterised by infantile spasms that evolved into refractory focal epilepsy, neurodevelopmental regression and the development of subcortical white matter abnormalities on cranial MRI.
 0.938	[*A*]infantile spasms[*R*]evolved[*A*]into the development of subcortical white matter abnormalities on cranial MRI	context()	negated: False ,passive: True
 0.887	[*A*]infantile spasms[*R*]evolved[*A*]into neurodevelopmental regression	context()	negated: False ,passive: True
 0.887	[*A*]infantile spasms[*R*]evolved[*A*]into refractory focal epilepsy	context()	negated: False ,passive: True
@@ -199,55 +199,55 @@
 0.897	[*A*]compound heterozygous FARS2 mutations[*R*]lead[*A*]to an early - onset mitochondrial disease phenotype	context(we demonstrate)	negated: False ,passive: False
 0.399	[*A*]we[*R*]demonstrate[*A*]that compound heterozygous FARS2 mutations lead to an early - onset mitochondrial disease phenotype[*A*]In conclusion	context()	negated: False ,passive: False
 0.938	[*A*]an early - onset mitochondrial disease phenotype[*R*]associated[*A*]with respiratory chain dysfunction	context()	negated: False ,passive: True
-[LINE#54]Given the increasing influence of targeted exome capture and next generation sequencing to identify novel genes associated with early-onset mitochondrial disease, including several mt-aminoacyl-tRNA synthetases such as AARS2 [14] and EARS2 [15], our study nicely demonstrates that routine diagnostic genetic testing methodologies including array CGH can be crucial in the identification of underlying genetic defects.
+[LINE#58] Given the increasing influence of targeted exome capture and next generation sequencing to identify novel genes associated with early-onset mitochondrial disease, including several mt-aminoacyl-tRNA synthetases such as AARS2 [14] and EARS2 [15], our study nicely demonstrates that routine diagnostic genetic testing methodologies including array CGH can be crucial in the identification of underlying genetic defects.
 0.928	[*A*]routine diagnostic genetic testing methodologies including array CGH[*R*]can be[*A*]crucial[*A*]in the identification of underlying genetic defects	context(our study nicely demonstrates)	negated: False ,passive: True
 0.928	[*A*]routine diagnostic genetic testing methodologies including array CGH[*R*]can be[*A*]crucial[*A*]in the identification of underlying genetic defects	context(our study nicely demonstrates)	negated: False ,passive: True
 0.443	[*A*]our study[*R*]nicely demonstrates[*A*]that routine diagnostic genetic testing methodologies including array CGH can be crucial in the identification of underlying genetic defects	context()	negated: False ,passive: False
 0.903	[*A*]novel genes[*R*]associated[*A*]with early - onset mitochondrial disease	context()	negated: False ,passive: True
-[LINE#55]This may be of particular relevance to patients who have an as yet undetermined genetic defect following exome sequencing and principally those in whom single heterozygous nuclear gene defects have been identified.
+[LINE#59] This may be of particular relevance to patients who have an as yet undetermined genetic defect following exome sequencing and principally those in whom single heterozygous nuclear gene defects have been identified.
 0.785	[*A*]single heterozygous nuclear gene defects[*R*]have been identified	context()	negated: False ,passive: False
 0.877	[*A*]patients[*R*]have[*A*]an as yet undetermined genetic defect	context()	negated: False ,passive: False
 0.877	[*A*]patients[*R*]have[*A*]an as yet undetermined genetic defect following exome sequencing	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]may be[*A*]of particular relevance	context()	negated: False ,passive: True
-[LINE#56]The following are the supplementary data related to this article.
+[LINE#60] The following are the supplementary data related to this article.
 0.911	[*A*]the supplementary data[*R*]related[*A*]to this article	context()	negated: False ,passive: True
 0.568	[*A*]The following[*R*]are[*A*]the supplementary data related to this article	context()	negated: False ,passive: True
-[LINE#57]structure of wild type and mutated p.
-[LINE#58]The structure of the wildtype FARS2 (PDB reference 3CMQ) is depicted in grey.
+[LINE#61] structure of wild type and mutated p.
+[LINE#62] The structure of the wildtype FARS2 (PDB reference 3CMQ) is depicted in grey.
 0.922	[*A*]The structure of the wildtype FARS2 (PDB reference 3CMQ[*R*]is depicted[*A*]in grey	context()	negated: False ,passive: True
-[LINE#59]The ATP binding residues are shown in red and boxed; Asp325 position is indicated in yellow.
+[LINE#63] The ATP binding residues are shown in red and boxed; Asp325 position is indicated in yellow.
 0.812	[*A*]The ATP binding residues[*R*]are shown[*A*]in boxed	context(Asp325 position is indicated)	negated: False ,passive: True
 0.812	[*A*]The ATP binding residues[*R*]are shown[*A*]in red	context(Asp325 position is indicated)	negated: False ,passive: True
 0.724	[*A*]Asp325 position[*R*]is indicated[*A*]in yellow	context()	negated: False ,passive: True
-[LINE#60]B. ESYPred3D software was used to predict the change in structure once the p.
+[LINE#64] B. ESYPred3D software was used to predict the change in structure once the p.
 0.870	[*A*]B. ESYPred3D software[*R*]to predict[*A*]the change in structure	context()	negated: False ,passive: False
 0.887	[*A*]B. ESYPred3D software[*R*]was used[*A*]to predict the change in structure	context()	negated: False ,passive: True
-[LINE#61]Asp325Tyr mutation was introduced into FARS2, shown in cyan with ATP binding residues in red and boxed; Tyr325 is shown in yellow.
+[LINE#65] Asp325Tyr mutation was introduced into FARS2, shown in cyan with ATP binding residues in red and boxed; Tyr325 is shown in yellow.
 0.924	[*A*]Asp325Tyr mutation[*R*]was introduced[*A*]into FARS2	context(Tyr325 is shown)	negated: False ,passive: True
 0.855	[*A*]ATP[*R*]binding[*A*]residues in boxed	context()	negated: False ,passive: False
 0.924	[*A*]Asp325Tyr mutation[*R*]was introduced[*A*]into FARS2	context(Tyr325 is shown)	negated: False ,passive: True
 0.060	[*A*]Tyr325[*R*]is shown[*A*]in yellow	context()	negated: False ,passive: True
 0.855	[*A*]ATP[*R*]binding[*A*]residues in red	context()	negated: False ,passive: False
 0.928	[*A*]FARS2[*R*]shown[*A*]in cyan	context()	negated: False ,passive: True
-[LINE#62]The two structures were superimposed using a number of methods all of which gave the same modest changes shown here using the Chimera 1.7 software.
+[LINE#66] The two structures were superimposed using a number of methods all of which gave the same modest changes shown here using the Chimera 1.7 software.
 0.841	[*A*]the same modest changes[*R*]shown[*A*]here	context()	negated: False ,passive: True
 0.592	[*A*]all of which[*R*]gave[*A*]the same modest changes shown here	context()	negated: False ,passive: False
 0.933	[*A*]The two structures[*R*]using[*A*]a number of methods all of which gave the same modest changes	context()	negated: False ,passive: False
 0.751	[*A*]The two structures[*R*]were superimposed	context()	negated: False ,passive: False
-[LINE#63]Table S1Oligonucleotide sequences designed for LYRM4 (NM_020408.4) and FARS2 (NM_006567.3) gene analysis.
+[LINE#67] Table S1Oligonucleotide sequences designed for LYRM4 (NM_020408.4) and FARS2 (NM_006567.3) gene analysis.
 0.944	[*A*]Table S1Oligonucleotide sequences[*R*]designed[*A*]for FARS2 ( NM_006567.3 ) gene analysis	context()	negated: False ,passive: True
 0.944	[*A*]Table S1Oligonucleotide sequences[*R*]designed[*A*]for LYRM4 ( NM_020408.4 ) gene analysis	context()	negated: False ,passive: True
-[LINE#64]Table S2Phenylalanine content of mtDNA encoded polypeptides.
+[LINE#68] Table S2Phenylalanine content of mtDNA encoded polypeptides.
 0.897	[*A*]Table S2Phenylalanine content of mtDNA[*R*]encoded[*A*]polypeptides	context()	negated: False ,passive: False
-[LINE#65]The % phenyalanine content does not directly correlate with the deficiency seen in respiratory chain complex activities.
+[LINE#69] The % phenyalanine content does not directly correlate with the deficiency seen in respiratory chain complex activities.
 0.903	[*A*]the deficiency[*R*]seen[*A*]in respiratory chain complex activities	context()	negated: False ,passive: True
 0.769	[*A*]The % phenyalanine content[*R*]does not directly correlate	context()	negated: True ,passive: False
-[LINE#66]Supplementary data to this article can be found online at http://dx.doi.org/10.1016/j.bbadis.2013.10.008.
+[LINE#70] Supplementary data to this article can be found online at http://dx.doi.org/10.1016/j.bbadis.2013.10.008.
 0.814	[*A*]Supplementary data to this article[*R*]can be found[*A*]online[*A*]at http://dx.doi.org/10.1016/j.bbadis.2013.10.008.	context()	negated: False ,passive: True
-[LINE#67]Human mitochondria possess their own translation machinery in order to produce 13 mitochondrially-encoded polypeptides that are subunits of the oxidative phosphorylation (OXPHOS) complexes.
+[LINE#71] Human mitochondria possess their own translation machinery in order to produce 13 mitochondrially-encoded polypeptides that are subunits of the oxidative phosphorylation (OXPHOS) complexes.
 0.913	[*A*]13 mitochondrially-encoded polypeptides[*R*]are[*A*]subunits of the oxidative phosphorylation	context()	negated: False ,passive: True
 0.873	[*A*]Human mitochondria[*R*]possess[*A*]their own translation machinery	context()	negated: False ,passive: False
-[LINE#68]The translation machinery has a dual origin and comprises mitochondrially (mt-) encoded transfer RNAs (mt-tRNAs) and ribosomal RNAs (mt-rRNAs) as well as numerous, nuclear-encoded proteins including mitochondrial ribosomal proteins, initiation, elongation and termination factors, a methionyl-tRNA transformylase and mitochondrial aminoacyl-tRNA synthetases.
+[LINE#72] The translation machinery has a dual origin and comprises mitochondrially (mt-) encoded transfer RNAs (mt-tRNAs) and ribosomal RNAs (mt-rRNAs) as well as numerous, nuclear-encoded proteins including mitochondrial ribosomal proteins, initiation, elongation and termination factors, a methionyl-tRNA transformylase and mitochondrial aminoacyl-tRNA synthetases.
 0.937	[*A*]The translation[*R*]comprises[*A*]mitochondrially numerous , nuclear - encoded proteins including mitochondrial ribosomal termination factors	context()	negated: False ,passive: True
 0.937	[*A*]The translation[*R*]comprises[*A*]mitochondrially numerous , nuclear - encoded proteins including mitochondrial ribosomal elongation factors	context()	negated: False ,passive: True
 0.937	[*A*]The translation[*R*]comprises[*A*]mitochondrially numerous , nuclear - encoded proteins including mitochondrial ribosomal initiation factors	context()	negated: False ,passive: True
@@ -260,81 +260,81 @@
 0.732	[*A*]The translation[*R*]comprises mitochondrially	context()	negated: False ,passive: False
 0.903	[*A*]The translation[*R*]comprises mitochondrially[*A*]mt - ) encoded transfer RNAs	context()	negated: False ,passive: True
 0.932	[*A*]The translation machinery[*R*]has[*A*]a dual origin	context()	negated: False ,passive: False
-[LINE#69]Hence, mutations in either the mitochondrial genome (mtDNA) [1,2] or the nuclear DNA [3] can cause defects in mitochondrial protein synthesis resulting in a variety of mitochondrial disease phenotypes affecting both children and adults.
+[LINE#73] Hence, mutations in either the mitochondrial genome (mtDNA) [1,2] or the nuclear DNA [3] can cause defects in mitochondrial protein synthesis resulting in a variety of mitochondrial disease phenotypes affecting both children and adults.
 0.911	[*A*]mitochondrial disease phenotypes[*R*]affecting[*A*]both children and adults	context()	negated: False ,passive: False
 0.971	[*A*]mutations in either the mitochondrial genome (mtDNA) [1,2] or the nuclear DNA[*R*]can cause[*A*]defects in mitochondrial protein synthesis resulting in a variety of mitochondrial disease phenotypes	context()	negated: False ,passive: False
-[LINE#70](aaRSs) play a key role in the faithful translation of the genetic code since they catalyse the attachment of each amino acid to its cognate tRNA.
+[LINE#74] (aaRSs) play a key role in the faithful translation of the genetic code since they catalyse the attachment of each amino acid to its cognate tRNA.
 0.465	[*A*]they[*R*]catalyse[*A*]the attachment of each amino acid to its cognate	context()	negated: False ,passive: False
 0.894	[*A*]aaRSs[*R*]play[*A*]a key role[*A*]in the faithful translation of the genetic code[*A*]since they catalyse the attachment of each amino acid to its cognate	context()	negated: False ,passive: False
-[LINE#71]The human proteome includes two sets of aaRSs that are encoded by nuclear genes and are involved in either cytosolic or mitochondrial protein synthesis [4], with the exception of GARS and KARS that function in both domains.
+[LINE#75] The human proteome includes two sets of aaRSs that are encoded by nuclear genes and are involved in either cytosolic or mitochondrial protein synthesis [4], with the exception of GARS and KARS that function in both domains.
 0.771	[*A*]two sets of aaRSs[*R*]are involved[*A*]in either cytosolic or mitochondrial	context()	negated: False ,passive: True
 0.905	[*A*]two sets of aaRSs[*R*]are encoded[*A*]by nuclear genes	context()	negated: False ,passive: True
 0.879	[*A*]The human proteome[*R*]includes[*A*]two sets of aaRSs that are encoded by nuclear genes and are involved in either cytosolic or mitochondrial protein synthesis [4], with the exception of GARS and KARS that function in both domains	context()	negated: False ,passive: True
-[LINE#72] Based on the tRNA recognition mode and the domain organisation, aaRSs are divided into two classes:.
+[LINE#76]  Based on the tRNA recognition mode and the domain organisation, aaRSs are divided into two classes:.
 0.749	[*A*]aaRSs[*R*]are divided[*A*]into two classes:.	context()	negated: False ,passive: True
-[LINE#73] Class I aaRSs (mainly active as monomers) and Class II enzymes (mainly active as dimers or tetramers).
+[LINE#77]  Class I aaRSs (mainly active as monomers) and Class II enzymes (mainly active as dimers or tetramers).
 0.136	[*A*]I[*R*]aaRSs mainly active	context()	negated: False ,passive: False
-[LINE#74]In recent years, recessively-inherited mutations in a growing number of mitochondrial aminoacyl-tRNA synthetases of both classes have been associated with a diverse spectrum of early-onset mitochondrial clinical presentations [6].
+[LINE#78] In recent years, recessively-inherited mutations in a growing number of mitochondrial aminoacyl-tRNA synthetases of both classes have been associated with a diverse spectrum of early-onset mitochondrial clinical presentations [6].
 0.991	[*A*]recessively-inherited mutations in a growing number of mitochondrial aminoacyl-tRNA synthetases of both classes[*R*]have been associated[*A*]with a diverse spectrum of early-onset mitochondrial clinical presentations[*A*]In recent years	context()	negated: False ,passive: True
-[LINE#75] These include mutations in the genes for DARS2 causing leukoencephalopathy with brain stem and spinal cord involvement and lactate elevation.
+[LINE#79]  These include mutations in the genes for DARS2 causing leukoencephalopathy with brain stem and spinal cord involvement and lactate elevation.
 0.698	[*A*]These[*R*]include[*A*]mutations in the genes for DARS2 causing leukoencephalopathy with lactate elevation	context()	negated: False ,passive: True
 0.698	[*A*]These[*R*]include[*A*]mutations in the genes for DARS2 causing leukoencephalopathy with spinal cord involvement	context()	negated: False ,passive: True
 0.920	[*A*]DARS2[*R*]causing[*A*]leukoencephalopathy	context()	negated: False ,passive: False
 0.698	[*A*]These[*R*]include[*A*]mutations in the genes for DARS2 causing leukoencephalopathy with brain stem	context()	negated: False ,passive: True
-[LINE#76] RARS2 causing pontocerebellar hypoplasia type 6 (PCH6) [9], YARS2 causing myopathy, lactic acidosis and sideroblastic anaemia.
+[LINE#80]  RARS2 causing pontocerebellar hypoplasia type 6 (PCH6) [9], YARS2 causing myopathy, lactic acidosis and sideroblastic anaemia.
 0.894	[*A*]YARS2[*R*]causing[*A*]sideroblastic anaemia	context()	negated: False ,passive: False
 0.894	[*A*]YARS2[*R*]causing[*A*]lactic acidosis	context()	negated: False ,passive: False
 0.920	[*A*]YARS2[*R*]causing[*A*]myopathy	context()	negated: False ,passive: False
 0.894	[*A*]RARS2[*R*]causing[*A*]pontocerebellar hypoplasia type 6	context()	negated: False ,passive: False
-[LINE#77] SARS2 causing hyperuricemia, pulmonary hypertension, renal failure in infancy and alkalosis (HUPRA) syndrome [12],.
+[LINE#81]  SARS2 causing hyperuricemia, pulmonary hypertension, renal failure in infancy and alkalosis (HUPRA) syndrome [12],.
 0.713	[*A*]SARS2[*R*]causing	context()	negated: False ,passive: False
-[LINE#78] HARS2 associated with ovarian dysgenesis and sensorineural hearing loss [13],.
+[LINE#82]  HARS2 associated with ovarian dysgenesis and sensorineural hearing loss [13],.
 0.894	[*A*]HARS2[*R*]associated[*A*]with sensorineural hearing loss	context()	negated: False ,passive: True
 0.894	[*A*]HARS2[*R*]associated[*A*]with ovarian dysgenesis	context()	negated: False ,passive: True
-[LINE#79] AARS2 causing infantile cardiomyopathy [14], EARS2 associated with leukoencephalopathy [15],.
+[LINE#83]  AARS2 causing infantile cardiomyopathy [14], EARS2 associated with leukoencephalopathy [15],.
 0.802	[*A*]EARS2[*R*]associated[*A*]with leukoencephalopathy	context()	negated: False ,passive: False
 0.894	[*A*]AARS2[*R*]causing[*A*]infantile cardiomyopathy	context()	negated: False ,passive: False
-[LINE#80] MARS2 causing neurodegenerative phenotype in flies and autosomal recessive spastic ataxia frequently associated with leucoencephalopathy (ARSAL) in humans [16],.
+[LINE#84]  MARS2 causing neurodegenerative phenotype in flies and autosomal recessive spastic ataxia frequently associated with leucoencephalopathy (ARSAL) in humans [16],.
 0.965	[*A*]autosomal recessive spastic ataxia[*R*]associated[*A*]with leucoencephalopathy[*A*]frequently	context()	negated: False ,passive: True
 0.939	[*A*]flies[*R*]associated[*A*]with leucoencephalopathy[*A*]frequently	context()	negated: False ,passive: True
 0.894	[*A*]MARS2[*R*]causing[*A*]neurodegenerative phenotype in flies	context()	negated: False ,passive: False
-[LINE#81]LARS2 associated with premature ovarian failure and hearing loss in Perrault syndrome [17] and KARS, which encodes both the cytosolic and mitochondrial lysl-tRNA synthetases, and is associated with non-syndromic hearing impairment [18].
+[LINE#85] LARS2 associated with premature ovarian failure and hearing loss in Perrault syndrome [17] and KARS, which encodes both the cytosolic and mitochondrial lysl-tRNA synthetases, and is associated with non-syndromic hearing impairment [18].
 0.833	[*A*]KARS[*R*]encodes[*A*]both the mitochondrial lysl - tRNA synthetases	context()	negated: False ,passive: False
 0.833	[*A*]KARS[*R*]encodes[*A*]both the cytosolic lysl - tRNA synthetases	context()	negated: False ,passive: False
 0.833	[*A*]KARS[*R*]is associated[*A*]with non-syndromic hearing impairment	context()	negated: False ,passive: True
 0.911	[*A*]LARS2[*R*]associated[*A*]with KARS	context()	negated: False ,passive: True
 0.911	[*A*]LARS2[*R*]associated[*A*]with hearing loss in Perrault syndrome	context()	negated: False ,passive: True
 0.894	[*A*]LARS2[*R*]associated[*A*]with premature ovarian failure	context()	negated: False ,passive: True
-[LINE#82] Recently, mutations have been reported in the FARS2 (mitochondrial phenylalanyl-tRNA synthetase)gene in two families with infantile mitochondrial encephalopathy reminiscent of Alpers' syndrome [19,20].
+[LINE#86+87]  Recently, mutations have been reported in the FARS2 (mitochondrial phenylalanyl-tRNA synthetase)gene in two families with infantile mitochondrial encephalopathy reminiscent of Alpers' syndrome [19,20].
 0.948	[*A*]mutations[*R*]have been reported[*A*]in the FARS2[*A*]Recently	context()	negated: False ,passive: True
-[LINE#83]In the present study, we report novel FARS2 mutations including a large scale genomic deletion, in a child with muscle-restricted OXPHOS deficiency associated with intractable infantile epilepsy and abnormal brain MRI findings.
+[LINE#88] In the present study, we report novel FARS2 mutations including a large scale genomic deletion, in a child with muscle-restricted OXPHOS deficiency associated with intractable infantile epilepsy and abnormal brain MRI findings.
 0.913	[*A*]muscle - restricted OXPHOS deficiency[*R*]associated[*A*]with intractable abnormal brain MRI findings	context()	negated: False ,passive: True
 0.913	[*A*]muscle - restricted OXPHOS deficiency[*R*]associated[*A*]with intractable infantile epilepsy MRI findings	context()	negated: False ,passive: True
 0.740	[*A*]we[*R*]report[*A*]novel FARS2 mutations including a large scale genomic deletion , in a child with muscle - restricted OXPHOS deficiency[*A*]In the present study	context()	negated: False ,passive: False
-[LINE#84]Patient case reportThis young boy is the first child of healthy non-consanguineous, white British parents.
+[LINE#89] Patient case reportThis young boy is the first child of healthy non-consanguineous, white British parents.
 0.941	[*A*]young boy[*R*]is[*A*]the first child of healthy non-consanguineous, white British parents	context(Patient case reportThis)	negated: False ,passive: True
 0.923	[*A*]Patient case[*R*]reportThis[*A*]young boy is the first child of healthy non-consanguineous, white British parents	context()	negated: False ,passive: False
-[LINE#85]He was born at term following an uneventful pregnancy weighing 3132g (9th-25th centile).
+[LINE#90] He was born at term following an uneventful pregnancy weighing 3132g (9th-25th centile).
 0.524	[*A*]He[*R*]was born[*A*]following an uneventful pregnancy weighing 3132g (9th-25th centile	context()	negated: False ,passive: True
-[LINE#86]Early development was thought to be normal.
+[LINE#91] Early development was thought to be normal.
 0.735	[*A*]Early development[*R*]to be[*A*]normal	context()	negated: False ,passive: True
 0.732	[*A*]Early development[*R*]was thought	context()	negated: False ,passive: False
-[LINE#87]At approximately 6months of age he developed tonic upward eye deviation associated with flexion of his arms and neck consistent with infantile spasms.
+[LINE#92] At approximately 6months of age he developed tonic upward eye deviation associated with flexion of his arms and neck consistent with infantile spasms.
 0.919	[*A*]tonic upward eye deviation[*R*]associated[*A*]with flexion of neck consistent with infantile spasms	context()	negated: False ,passive: True
 0.860	[*A*]tonic upward eye deviation[*R*]associated[*A*]with flexion of his arms consistent with infantile spasms	context()	negated: False ,passive: True
-[LINE#88]An electroencephalograph (EEG) at this time was grossly abnormal (hypsarrhythmia) and strongly supported a diagnosis of West Syndrome.
+[LINE#93] An electroencephalograph (EEG) at this time was grossly abnormal (hypsarrhythmia) and strongly supported a diagnosis of West Syndrome.
 0.425	[*A*]An[*R*]strongly supported[*A*]a diagnosis of West Syndrome	context()	negated: False ,passive: False
 0.968	[*A*]An electroencephalograph ( EEG ) at this time[*R*]was[*A*]grossly abnormal ( hypsarrhythmia	context()	negated: False ,passive: True
-[LINE#89]Cranial MRI was reported as normal.
+[LINE#94] Cranial MRI was reported as normal.
 0.817	[*A*]Cranial MRI[*R*]was reported[*A*]as normal	context()	negated: False ,passive: True
-[LINE#90]Prednisolone was prescribed and treated the seizures effectively.
+[LINE#95] Prednisolone was prescribed and treated the seizures effectively.
 0.920	[*A*]Prednisolone[*R*]treated[*A*]the seizures[*A*]effectively	context()	negated: False ,passive: False
 0.771	[*A*]Prednisolone[*R*]was prescribed	context()	negated: False ,passive: False
-[LINE#91]Steroids were weaned over 6weeks and he remained seizure free for a further 6months.
+[LINE#96] Steroids were weaned over 6weeks and he remained seizure free for a further 6months.
 0.452	[*A*]he[*R*]remained[*A*]seizure free for a further 6months	context()	negated: False ,passive: True
 0.894	[*A*]Steroids[*R*]were weaned[*A*]over 6weeks	context()	negated: False ,passive: True
-[LINE#92]By the age of 1year, it was apparent that his early developmental progress was not being maintained and that he was functioning at the 6-8month developmental stage.
-[LINE#93]Seizures returned shortly after his first birthday and were prolonged, frequent and on occasion focal, involving his right arm, leg and right side of face.
+[LINE#97] By the age of 1year, it was apparent that his early developmental progress was not being maintained and that he was functioning at the 6-8month developmental stage.
+[LINE#98] Seizures returned shortly after his first birthday and were prolonged, frequent and on occasion focal, involving his right arm, leg and right side of face.
 0.821	[*A*]Seizures[*R*]returned[*A*]on occasion[*A*]involving his right side of face	context()	negated: False ,passive: True
 0.821	[*A*]Seizures[*R*]returned[*A*]on occasion[*A*]involving his leg	context()	negated: False ,passive: True
 0.821	[*A*]Seizures[*R*]returned[*A*]on occasion[*A*]involving his right arm	context()	negated: False ,passive: True
@@ -350,123 +350,123 @@
 0.821	[*A*]Seizures[*R*]returned[*A*]shortly[*A*]after his first birthday[*A*]involving his leg	context()	negated: False ,passive: True
 0.795	[*A*]Seizures[*R*]involving[*A*]his right arm	context()	negated: False ,passive: True
 0.821	[*A*]Seizures[*R*]returned[*A*]shortly[*A*]after his first birthday[*A*]involving his right arm	context()	negated: False ,passive: True
-[LINE#94]Clonazepam briefly improved seizure frequency, but subsequently his epilepsy has proved refractory to various combinations of anticonvulsant therapy.
+[LINE#99] Clonazepam briefly improved seizure frequency, but subsequently his epilepsy has proved refractory to various combinations of anticonvulsant therapy.
 0.759	[*A*]his epilepsy[*R*]has proved[*A*]refractory[*A*]to various combinations of anticonvulsant therapy[*A*]subsequently	context()	negated: False ,passive: False
 0.920	[*A*]Clonazepam[*R*]briefly improved[*A*]seizure frequency	context()	negated: False ,passive: False
-[LINE#95]Prolonged seizures of more than 60min have been associated with a stepwise regression in his neurodevelopment.
+[LINE#100] Prolonged seizures of more than 60min have been associated with a stepwise regression in his neurodevelopment.
 0.882	[*A*]Prolonged seizures of more than 60min[*R*]have been associated[*A*]with a stepwise regression in his neurodevelopment	context()	negated: False ,passive: True
-[LINE#96]Seizure semiology is now predominantly one of epilepsia partialis continua involving the right side of his face, right arm and right leg.
+[LINE#101] Seizure semiology is now predominantly one of epilepsia partialis continua involving the right side of his face, right arm and right leg.
 0.925	[*A*]Seizure semiology[*R*]is[*A*]now[*A*]predominantly right leg	context()	negated: False ,passive: True
 0.925	[*A*]Seizure semiology[*R*]is[*A*]now[*A*]predominantly[*A*]right arm	context()	negated: False ,passive: True
 0.825	[*A*]one of epilepsia partialis[*R*]continua involving[*A*]the right side of his face	context(Seizure semiology is)	negated: False ,passive: True
 0.770	[*A*]Seizure semiology[*R*]is[*A*]now[*A*]predominantly	context()	negated: False ,passive: True
-[LINE#97]The development of focal seizures and the progressive nature of the condition prompted a second cranial MRI at the age of 2years 6months.
+[LINE#102] The development of focal seizures and the progressive nature of the condition prompted a second cranial MRI at the age of 2years 6months.
 0.932	[*A*]the progressive nature of the condition[*R*]prompted[*A*]a second cranial	context()	negated: False ,passive: False
 0.926	[*A*]The development of focal seizures[*R*]prompted[*A*]a second cranial	context()	negated: False ,passive: False
-[LINE#98] By contrast with the previous scan, this MRI revealed symmetrical subcortical white matter lesions (Fig. 1A) with thinning of the anterior and genu of the corpus callosum1B).On examination, the patient had small, round, anteriorly rotated ears and a broad nasal root.
+[LINE#103+104+105]  By contrast with the previous scan, this MRI revealed symmetrical subcortical white matter lesions (Fig. 1A) with thinning of the anterior and genu of the corpus callosum1B).On examination, the patient had small, round, anteriorly rotated ears and a broad nasal root.
 0.961	[*A*]this MRI[*R*]revealed[*A*]symmetrical subcortical white matter lesions ( Fig . 1A ) with thinning of the genu of the corpus callosum1B	context()	negated: False ,passive: False
 0.907	[*A*]this MRI[*R*]revealed[*A*]symmetrical subcortical white matter lesions[*A*]with thinning of the genu of the corpus callosum1B	context()	negated: False ,passive: False
 0.961	[*A*]this MRI[*R*]revealed[*A*]symmetrical subcortical white matter lesions ( Fig . 1A ) with thinning of the anterior of the corpus callosum1B	context()	negated: False ,passive: False
 0.944	[*A*]the patient[*R*]had[*A*]small , round , anteriorly rotated ears[*A*]On examination	context(this MRI revealed)	negated: False ,passive: False
 0.907	[*A*]this MRI[*R*]revealed[*A*]symmetrical subcortical white matter lesions[*A*]with thinning of the anterior of the corpus callosum1B	context()	negated: False ,passive: False
-[LINE#99]He demonstrated no visual awareness but startled to loud noise.
+[LINE#106] He demonstrated no visual awareness but startled to loud noise.
 0.452	[*A*]He[*R*]demonstrated[*A*]startled to loud noise	context()	negated: False ,passive: False
 0.452	[*A*]He[*R*]demonstrated[*A*]no visual awareness	context()	negated: False ,passive: False
-[LINE#100]Tone was increased in all 4 limbs with internal rotation of both legs at the hips.
+[LINE#107] Tone was increased in all 4 limbs with internal rotation of both legs at the hips.
 0.993	[*A*]Tone[*R*]was increased in[*A*]4 limbs	context()	negated: False ,passive: False
 0.948	[*A*]Tone[*R*]was increased[*A*]in all 4 limbs with internal rotation of both legs at the hips	context()	negated: False ,passive: True
-[LINE#101]Reflexes were pathologically brisk.
+[LINE#108] Reflexes were pathologically brisk.
 0.749	[*A*]Reflexes[*R*]were[*A*]pathologically brisk	context()	negated: False ,passive: True
-[LINE#102]Brief myoclonic jerks were evident throughout the examination. .
+[LINE#109] Brief myoclonic jerks were evident throughout the examination. .
 0.911	[*A*]Brief myoclonic jerks[*R*]were[*A*]evident[*A*]throughout the examination	context()	negated: False ,passive: True
-[LINE#103]Structural investigation of the nuclear genome using genome-wide arrayEarly genetic screening included an Affymetrix Genome-wide Human SNP 6.0 array, which was used to detect DNA copy number changes in our patient.
+[LINE#110] Structural investigation of the nuclear genome using genome-wide arrayEarly genetic screening included an Affymetrix Genome-wide Human SNP 6.0 array, which was used to detect DNA copy number changes in our patient.
 0.999	[*A*]Structural investigation of the nuclear genome using genome - wide arrayEarly genetic screening[*R*]included[*A*]6.0 array	context()	negated: False ,passive: False
 0.876	[*A*]an Affymetrix Genome-wide Human SNP 6.0 array[*R*]to detect[*A*]DNA copy number changes in our patient	context()	negated: False ,passive: False
 0.876	[*A*]an Affymetrix Genome-wide Human SNP 6.0 array[*R*]was used[*A*]to detect DNA copy number changes in our patient	context()	negated: False ,passive: True
 0.970	[*A*]Structural investigation of the nuclear genome using genome-wide arrayEarly genetic screening[*R*]included[*A*]an Affymetrix Genome-wide Human SNP 6.0 array	context()	negated: False ,passive: True
-[LINE#104]Samples were prepared and processed according to the manufacturer's specifications and analysed using locally-established methods [21].
+[LINE#111] Samples were prepared and processed according to the manufacturer's specifications and analysed using locally-established methods [21].
 0.877	[*A*]Samples[*R*]using[*A*]locally - established methods	context()	negated: False ,passive: False
 0.713	[*A*]Samples[*R*]were analysed	context()	negated: False ,passive: False
 0.713	[*A*]Samples[*R*]were processed	context()	negated: False ,passive: False
 0.713	[*A*]Samples[*R*]were prepared	context()	negated: False ,passive: False
-[LINE#105]Array CEL intensity files were loaded into Genotyping Console (Affymetrix UK Ltd.) for analysis.
+[LINE#112] Array CEL intensity files were loaded into Genotyping Console (Affymetrix UK Ltd.) for analysis.
 0.949	[*A*]Array CEL intensity files[*R*]were loaded[*A*]into Genotyping Console[*A*]for analysis	context()	negated: False ,passive: True
-[LINE#106] An approximately 88kb deletion was identified within the short arm of chromosome 6, band p25.1but no similar deletions were identified in the controls.
+[LINE#113+114]  An approximately 88kb deletion was identified within the short arm of chromosome 6, band p25.1but no similar deletions were identified in the controls.
 0.891	[*A*]no similar deletions[*R*]were identified[*A*]in the controls	context(band p25.1but)	negated: False ,passive: True
 0.900	[*A*]An approximately 88kb deletion[*R*]was identified[*A*]within the short arm of chromosome 6	context(band p25.1but)	negated: False ,passive: True
 0.777	[*A*]band[*R*]p25.1but[*A*]no similar deletions were identified in the controls	context()	negated: False ,passive: False
-[LINE#107]This reported deletion was interrogated against ~5000 control samples using Nexus Copy Number v6.1TM (BioDiscovery Inc.).
+[LINE#115] This reported deletion was interrogated against ~5000 control samples using Nexus Copy Number v6.1TM (BioDiscovery Inc.).
 0.993	[*A*]This reported deletion[*R*]was interrogated against[*A*]5000 control samples	context()	negated: False ,passive: False
 0.925	[*A*]~5000 control samples[*R*]using[*A*]Nexus Copy Number v6.1TM	context()	negated: False ,passive: False
 0.911	[*A*]This reported deletion[*R*]was interrogated[*A*]against ~5000 control samples	context()	negated: False ,passive: True
-[LINE#108] Quantitative polymerase chain reaction(qPCR) using the SYBR-Green method was used to confirm the reported deletion and determine the inheritance pattern [21].
+[LINE#116+117]  Quantitative polymerase chain reaction(qPCR) using the SYBR-Green method was used to confirm the reported deletion and determine the inheritance pattern [21].
 0.941	[*A*]Quantitative polymerase chain reaction ( qPCR ) using the SYBR - Green method[*R*]to determine[*A*]the inheritance pattern	context()	negated: False ,passive: False
 0.950	[*A*]Quantitative polymerase chain reaction ( qPCR ) using the SYBR - Green method[*R*]was used[*A*]to determine the inheritance pattern	context()	negated: False ,passive: True
 0.950	[*A*]Quantitative polymerase chain reaction ( qPCR ) using the SYBR - Green method[*R*]was used[*A*]to confirm the reported deletion	context()	negated: False ,passive: True
 0.920	[*A*]Quantitative polymerase chain reaction[*R*]using[*A*]the SYBR - Green method	context()	negated: False ,passive: False
-[LINE#109]Identification of the genes within the reported deletion locus was achieved using the UCSC genome browser build GRCh36/hg18 at the time.
+[LINE#118] Identification of the genes within the reported deletion locus was achieved using the UCSC genome browser build GRCh36/hg18 at the time.
 0.843	[*A*]Identification of the genes within the reported deletion locus[*R*]was achieved	context()	negated: False ,passive: False
-[LINE#110]sequencingTotal genomic DNA was obtained using standard methods and the coding region plus intron-exon boundaries of the LYRM4 and FARS2 genes were amplified using locus specific primers (sequences provided in Supplemental Table S1).
+[LINE#119] sequencingTotal genomic DNA was obtained using standard methods and the coding region plus intron-exon boundaries of the LYRM4 and FARS2 genes were amplified using locus specific primers (sequences provided in Supplemental Table S1).
 0.879	[*A*]the intron - exon boundaries of the FARS2 genes[*R*]were amplified	context()	negated: False ,passive: False
 0.879	[*A*]the intron - exon boundaries of the LYRM4 genes[*R*]were amplified	context()	negated: False ,passive: False
 0.911	[*A*]sequences[*R*]provided[*A*]in Supplemental Table S1	context()	negated: False ,passive: True
 0.751	[*A*]the coding region[*R*]were amplified	context()	negated: False ,passive: False
 0.751	[*A*]sequencingTotal genomic DNA[*R*]was obtained	context()	negated: False ,passive: False
-[LINE#111]Amplicons were sequenced using the BigDye v3.1 kit and capillary electrophoresed on the ABI3130xl fluorescent sequencing platform (Life Technologies, Warrington, UK).
+[LINE#120] Amplicons were sequenced using the BigDye v3.1 kit and capillary electrophoresed on the ABI3130xl fluorescent sequencing platform (Life Technologies, Warrington, UK).
 0.911	[*A*]capillary[*R*]electrophoresed[*A*]on the ABI3130xl fluorescent sequencing platform	context()	negated: False ,passive: True
 0.932	[*A*]Amplicons[*R*]using[*A*]capillary electrophoresed on the ABI3130xl fluorescent sequencing platform ( Life Technologies , Warrington , UK )	context()	negated: False ,passive: False
 0.949	[*A*]the BigDye v3.1 kit[*R*]electrophoresed[*A*]on the ABI3130xl fluorescent sequencing platform	context()	negated: False ,passive: True
 0.896	[*A*]Amplicons[*R*]using[*A*]the BigDye v3.1 kit	context()	negated: False ,passive: False
 0.713	[*A*]Amplicons[*R*]were sequenced	context()	negated: False ,passive: False
-[LINE#112] Chromatograms were compared to corresponding GenBank reference sequences, LYRM4 NM_020408.4.
+[LINE#121]  Chromatograms were compared to corresponding GenBank reference sequences, LYRM4 NM_020408.4.
 0.896	[*A*]Chromatograms[*R*]to corresponding[*A*]GenBank reference sequences	context()	negated: False ,passive: False
 0.911	[*A*]Chromatograms[*R*]were compared[*A*]to corresponding GenBank reference sequences	context()	negated: False ,passive: True
-[LINE#113]All sequence variants were cross-referenced against dbSNP (build 135) then investigated using in silico methodologies.
+[LINE#122] All sequence variants were cross-referenced against dbSNP (build 135) then investigated using in silico methodologies.
 0.925	[*A*]All sequence variants[*R*]were cross-referenced[*A*]against dbSNP (build 135	context()	negated: False ,passive: True
-[LINE#114]Total genomic DNA was obtained using standard methods and the coding region plus intron-exon boundaries of the LYRM4 and FARS2 genes were amplified using locus specific primers (sequences provided in Supplemental Table S1).
+[LINE#123] Total genomic DNA was obtained using standard methods and the coding region plus intron-exon boundaries of the LYRM4 and FARS2 genes were amplified using locus specific primers (sequences provided in Supplemental Table S1).
 0.859	[*A*]the coding region plus intron-exon boundaries of the LYRM4 and FARS2 genes[*R*]were amplified	context()	negated: False ,passive: False
 0.911	[*A*]sequences[*R*]provided[*A*]in Supplemental Table S1	context()	negated: False ,passive: True
 0.751	[*A*]Total genomic DNA[*R*]was obtained	context()	negated: False ,passive: False
-[LINE#115]Amplicons were sequenced using the BigDye v3.1 kit and capillary electrophoresed on the ABI3130xl fluorescent sequencing platform (Life Technologies, Warrington, UK).
+[LINE#124] Amplicons were sequenced using the BigDye v3.1 kit and capillary electrophoresed on the ABI3130xl fluorescent sequencing platform (Life Technologies, Warrington, UK).
 0.911	[*A*]capillary[*R*]electrophoresed[*A*]on the ABI3130xl fluorescent sequencing platform	context()	negated: False ,passive: True
 0.932	[*A*]Amplicons[*R*]using[*A*]capillary electrophoresed on the ABI3130xl fluorescent sequencing platform ( Life Technologies , Warrington , UK )	context()	negated: False ,passive: False
 0.949	[*A*]the BigDye v3.1 kit[*R*]electrophoresed[*A*]on the ABI3130xl fluorescent sequencing platform	context()	negated: False ,passive: True
 0.896	[*A*]Amplicons[*R*]using[*A*]the BigDye v3.1 kit	context()	negated: False ,passive: False
 0.713	[*A*]Amplicons[*R*]were sequenced	context()	negated: False ,passive: False
-[LINE#116] Chromatograms were compared to corresponding GenBank reference sequences, LYRM4 NM_020408.4.
+[LINE#125]  Chromatograms were compared to corresponding GenBank reference sequences, LYRM4 NM_020408.4.
 0.896	[*A*]Chromatograms[*R*]to corresponding[*A*]GenBank reference sequences	context()	negated: False ,passive: False
 0.911	[*A*]Chromatograms[*R*]were compared[*A*]to corresponding GenBank reference sequences	context()	negated: False ,passive: True
-[LINE#117]All sequence variants were cross-referenced against dbSNP (build 135) then investigated using in silico methodologies.
+[LINE#126] All sequence variants were cross-referenced against dbSNP (build 135) then investigated using in silico methodologies.
 0.925	[*A*]All sequence variants[*R*]were cross-referenced[*A*]against dbSNP (build 135	context()	negated: False ,passive: True
-[LINE#118]In silico prediction toolsAmino acid residue conservation and predicted impact of the novel FARS2 variant was analysed using Ensembl release 66 [22], Polyphen2 [23], SIFT [24] and AlignGVGD [25]. .
+[LINE#127] In silico prediction toolsAmino acid residue conservation and predicted impact of the novel FARS2 variant was analysed using Ensembl release 66 [22], Polyphen2 [23], SIFT [24] and AlignGVGD [25]. .
 0.788	[*A*]FARS2 variant[*R*]was analysed	context()	negated: False ,passive: False
-[LINE#119] Mitochondrial genome sequencingWhole mtDNAgenome sequencing was performed on DNA derived from muscle as described previously [26]. .
+[LINE#128+129]  Mitochondrial genome sequencingWhole mtDNAgenome sequencing was performed on DNA derived from muscle as described previously [26]. .
 0.855	[*A*]DNA[*R*]derived[*A*]from muscle	context()	negated: False ,passive: True
 0.953	[*A*]Mitochondrial genome sequencingWhole mtDNAgenome sequencing[*R*]was performed[*A*]on DNA[*A*]as described previously [26	context()	negated: False ,passive: True
-[LINE#120]Tissue culture manipulationsPrimary fibroblast and myoblast cultures were established from skin and muscle biopsies and propagated in a humidified incubator with 5% CO2 at 37C.
+[LINE#130] Tissue culture manipulationsPrimary fibroblast and myoblast cultures were established from skin and muscle biopsies and propagated in a humidified incubator with 5% CO2 at 37C.
 0.944	[*A*]Tissue culture manipulationsPrimary myoblast cultures[*R*]were established[*A*]from muscle biopsies	context()	negated: False ,passive: True
 0.944	[*A*]Tissue culture manipulationsPrimary myoblast cultures[*R*]were established[*A*]from skin biopsies	context()	negated: False ,passive: True
 0.944	[*A*]Tissue culture manipulationsPrimary fibroblast cultures[*R*]were established[*A*]from muscle biopsies	context()	negated: False ,passive: True
 0.944	[*A*]Tissue culture manipulationsPrimary fibroblast cultures[*R*]were established[*A*]from skin biopsies	context()	negated: False ,passive: True
 0.957	[*A*]Tissue[*R*]propagated[*A*]in a humidified incubator with 5 % CO2 at 37C	context()	negated: False ,passive: False
-[LINE#121] Fibroblasts were cultured in Eagle's Minimal Essential Medium supplemented with 2mMl-glutamine, 1 non-essential amino acids and 10% foetal calf serum.
-[LINE#122]Myoblasts were grown in Skeletal Muscle Cell Growth Medium (PromoCell GmbH, Heidelberg Germany) with Supplement Mix (Epidermal Growth Factor, basic Fibroblast Growth Factor, and Insulin), 10% foetal calf serum, 50g/ml streptomycin and 50U/ml penicillin and 2mMl-glutamine.
+[LINE#131]  Fibroblasts were cultured in Eagle's Minimal Essential Medium supplemented with 2mMl-glutamine, 1 non-essential amino acids and 10% foetal calf serum.
+[LINE#132] Myoblasts were grown in Skeletal Muscle Cell Growth Medium (PromoCell GmbH, Heidelberg Germany) with Supplement Mix (Epidermal Growth Factor, basic Fibroblast Growth Factor, and Insulin), 10% foetal calf serum, 50g/ml streptomycin and 50U/ml penicillin and 2mMl-glutamine.
 0.911	[*A*]Myoblasts[*R*]were grown[*A*]in Skeletal Muscle Cell Growth Medium ( PromoCell GmbH[*A*]with Insulin	context()	negated: False ,passive: True
 0.911	[*A*]Myoblasts[*R*]were grown[*A*]in Skeletal Muscle Cell Growth Medium[*A*]with Insulin	context()	negated: False ,passive: True
 0.911	[*A*]Myoblasts[*R*]were grown[*A*]in Skeletal Muscle Cell Growth Medium ( PromoCell GmbH[*A*]with basic Fibroblast Growth Factor	context()	negated: False ,passive: True
 0.942	[*A*]Myoblasts[*R*]were grown[*A*]in Skeletal Muscle Cell Growth Medium ( PromoCell GmbH[*A*]with basic Fibroblast Growth Factor ) , 10 % foetal calf serum	context()	negated: False ,passive: True
 0.911	[*A*]Myoblasts[*R*]were grown[*A*]in Skeletal Muscle Cell Growth Medium[*A*]with Supplement Mix	context()	negated: False ,passive: True
 0.911	[*A*]Myoblasts[*R*]were grown[*A*]in Skeletal Muscle Cell Growth Medium ( PromoCell GmbH	context()	negated: False ,passive: True
-[LINE#123]Lentiviral particles containing wild-type FARS2 were purchased from Genecopoeia (LP-10240-Lv105-0200-S).
+[LINE#133] Lentiviral particles containing wild-type FARS2 were purchased from Genecopoeia (LP-10240-Lv105-0200-S).
 0.948	[*A*]Lentiviral particles containing wild-type FARS2[*R*]were purchased[*A*]from Genecopoeia	context()	negated: False ,passive: True
 0.903	[*A*]Lentiviral particles[*R*]containing[*A*]wild-type FARS2	context()	negated: False ,passive: False
-[LINE#124]Cells were infected overnight, following viral infection, transduced cells were selected with 2g/ml puromycin. .
+[LINE#134] Cells were infected overnight, following viral infection, transduced cells were selected with 2g/ml puromycin. .
 0.777	[*A*]Cells[*R*]were infected[*A*]overnight[*A*]following viral infection	context(transduced cells were selected)	negated: False ,passive: True
 0.687	[*A*]transduced cells[*R*]were selected	context()	negated: False ,passive: False
-[LINE#125] Respiratory chain enzyme activityActivities of the individual respiratory chain complexes(complexes I-IV) and citrate synthase were determined spectrophotometrically as previously described [27].
+[LINE#135+136]  Respiratory chain enzyme activityActivities of the individual respiratory chain complexes(complexes I-IV) and citrate synthase were determined spectrophotometrically as previously described [27].
 0.999	[*A*]Respiratory chain enzyme activityActivities of the individual respiratory chain complexes ( complexes I - IV ) and citrate synthase were determined .[*R*]described[*A*]27 ]	context()	negated: False ,passive: False
 0.732	[*A*]citrate synthase[*R*]were determined	context()	negated: False ,passive: False
-[LINE#126]E and Western blottingCells were harvested then lysed in lysate buffer (50mM Tris 7.5pH, 130mM NaCl, 2mM MgCl2, 1mM PMSF and 1% NP-40 (v/v)).
+[LINE#137] E and Western blottingCells were harvested then lysed in lysate buffer (50mM Tris 7.5pH, 130mM NaCl, 2mM MgCl2, 1mM PMSF and 1% NP-40 (v/v)).
 0.832	[*A*]Western blottingCells[*R*]lysed[*A*]in v / v[*A*]then	context()	negated: False ,passive: True
 0.732	[*A*]Western blottingCells[*R*]were harvested	context()	negated: False ,passive: False
 0.887	[*A*]Western blottingCells[*R*]lysed[*A*]in 1 %	context()	negated: False ,passive: True
@@ -477,32 +477,32 @@
 0.786	[*A*]E[*R*]lysed[*A*]in 1 %	context()	negated: False ,passive: True
 0.605	[*A*]E[*R*]were harvested[*A*]then	context()	negated: False ,passive: True
 0.868	[*A*]E[*R*]lysed[*A*]in lysate buffer[*A*]then	context()	negated: False ,passive: True
-[LINE#127]Proteins (20-50g) were separated by 10% SDS-PAGE and electroblotted onto PVDF membrane (Immobilon-P, Millipore Corporation).
+[LINE#138] Proteins (20-50g) were separated by 10% SDS-PAGE and electroblotted onto PVDF membrane (Immobilon-P, Millipore Corporation).
 0.590	[*A*]Proteins[*R*]electroblotted[*A*]onto PVDF membrane	context()	negated: False ,passive: True
 0.993	[*A*]Proteins[*R*]were separated by[*A*]10 %	context()	negated: False ,passive: False
 0.877	[*A*]Proteins[*R*]were separated[*A*]by 10 %	context()	negated: False ,passive: True
-[LINE#128] Membranes were sequentially probed using the following commercially available antibodies: FARS2 (PTG Labs, 16436-1-AP), Complex II SDHA 70kDa (MitoSciences, MS204), -actin (Sigma, A1978),.
+[LINE#139+140]  Membranes were sequentially probed using the following commercially available antibodies: FARS2 (PTG Labs, 16436-1-AP), Complex II SDHA 70kDa (MitoSciences, MS204), -actin (Sigma, A1978),.
 0.856	[*A*]Membranes[*R*]using[*A*]commercially available antibodies	context()	negated: False ,passive: False
 0.713	[*A*]Membranes[*R*]were sequentially probed	context()	negated: False ,passive: False
-[LINE#129] COX I (Molecular probes A6403), COX II (Molecular probes, A6404), NDUFB8 (MitoSciences, MS105), (MitoSciences, MS110) and NDUFA9.
-[LINE#130] Secondary antibodies were HRP conjugated and detection was by chemiluminescence (ECL+Kit, Amersham)according to the manufacturer's instructions and visualised with PhosphorImager/ImageQuant software (Molecular Dynamics, GE Healthcare).
+[LINE#141+142]  COX I (Molecular probes A6403), COX II (Molecular probes, A6404), NDUFB8 (MitoSciences, MS105), (MitoSciences, MS110) and NDUFA9.
+[LINE#143+144]  Secondary antibodies were HRP conjugated and detection was by chemiluminescence (ECL+Kit, Amersham)according to the manufacturer's instructions and visualised with PhosphorImager/ImageQuant software (Molecular Dynamics, GE Healthcare).
 0.931	[*A*]HRP detection[*R*]was[*A*]by chemiluminescence[*A*]according to the manufacturer 's instructions	context(Secondary antibodies were)	negated: False ,passive: True
 0.935	[*A*]Secondary antibodies[*R*]were[*A*]HRP detection was by chemiluminescence ( ECL+Kit , Amersham ) according to the manufacturer 's instructions	context()	negated: False ,passive: True
 0.841	[*A*]HRP[*R*]was[*A*]by chemiluminescence[*A*]according to the manufacturer 's instructions	context(Secondary antibodies were)	negated: False ,passive: True
 0.935	[*A*]Secondary antibodies[*R*]were[*A*]HRP conjugated was by chemiluminescence ( ECL+Kit , Amersham ) according to the manufacturer 's instructions	context()	negated: False ,passive: True
 0.634	[*A*]HRP[*R*]conjugated	context()	negated: False ,passive: False
 0.732	[*A*]Secondary antibodies[*R*]were visualised	context()	negated: False ,passive: False
-[LINE#131]A isolation and high-resolution northern blottingTotal RNA was extracted from cultured cells using TRIzoLTM (Invitrogen).
+[LINE#145] A isolation and high-resolution northern blottingTotal RNA was extracted from cultured cells using TRIzoLTM (Invitrogen).
 0.953	[*A*]A high - resolution northern blottingTotal RNA[*R*]was extracted[*A*]from cultured cells	context()	negated: False ,passive: True
 0.903	[*A*]A isolation[*R*]was extracted[*A*]from cultured cells	context()	negated: False ,passive: True
-[LINE#132]Samples (2g) were electrophoresed through 15% denaturing polyacrylamide gels.
+[LINE#146] Samples (2g) were electrophoresed through 15% denaturing polyacrylamide gels.
 0.903	[*A*]15%[*R*]denaturing[*A*]polyacrylamide gels	context()	negated: False ,passive: False
 0.677	[*A*]Samples[*R*]were electrophoresed	context()	negated: False ,passive: False
-[LINE#133]Separated RNA was electroblotted onto a GeneScreen Plus membrane (PerkinElmer, Beaconsfield, UK) and fixed by UV crosslinking prior to hybridization with radiolabelled probes.
+[LINE#147] Separated RNA was electroblotted onto a GeneScreen Plus membrane (PerkinElmer, Beaconsfield, UK) and fixed by UV crosslinking prior to hybridization with radiolabelled probes.
 0.927	[*A*]Separated RNA[*R*]was crosslinking[*A*]prior to hybridization with radiolabelled probes	context()	negated: False ,passive: False
 0.938	[*A*]Separated RNA[*R*]was fixed[*A*]by UV	context()	negated: False ,passive: True
 0.938	[*A*]Separated RNA[*R*]was electroblotted[*A*]onto a GeneScreen Plus membrane	context()	negated: False ,passive: True
-[LINE#134] , mt-tRNAVal and mt-tRNALeu were produced by PCR amplification using the following primers (GenBank accession number for human mtDNA: NC_019290.1): (position 3200-3219) 5-TATACCCACACCCACCCAAG-3 and reverse (position 3353-3334) 5-GCGATTAGAATGGGTACAAT-3; human mt-tRNAPhe forward (position 552-570) 5-CCAAACCCCAAAGACACCC-3 and reverse (position 712-694) 5-GAACGGGGATGCTTGCATG-3; human mt-tRNAVal forward (position 1579-1598) 5-CTGGAAAGTGCACTTGGACG-3 and reverse (position 1734-1714)5-GGGTAAATGGTTTGGCTAAGG-3. Purified PCR products were labelled with [-32P] dCTP (250Ci, 3000Ci/mmol; Perkin Elmer) using random hexamers and free nucleotides were removed by gel filtration.
+[LINE#148+149+150]  , mt-tRNAVal and mt-tRNALeu were produced by PCR amplification using the following primers (GenBank accession number for human mtDNA: NC_019290.1): (position 3200-3219) 5-TATACCCACACCCACCCAAG-3 and reverse (position 3353-3334) 5-GCGATTAGAATGGGTACAAT-3; human mt-tRNAPhe forward (position 552-570) 5-CCAAACCCCAAAGACACCC-3 and reverse (position 712-694) 5-GAACGGGGATGCTTGCATG-3; human mt-tRNAVal forward (position 1579-1598) 5-CTGGAAAGTGCACTTGGACG-3 and reverse (position 1734-1714)5-GGGTAAATGGTTTGGCTAAGG-3. Purified PCR products were labelled with [-32P] dCTP (250Ci, 3000Ci/mmol; Perkin Elmer) using random hexamers and free nucleotides were removed by gel filtration.
 0.922	[*A*]mt - tRNALeu[*R*]were removed[*A*]by gel filtration	context()	negated: False ,passive: True
 0.996	[*A*]5 - TATACCCACACCCACCCAAG - 3 human mt - reverse ( position 712-694 ) 5 - GAACGGGGATGCTTGCATG - 3 ; human mt - tRNAVal forward ( reverse ( position 1734-1714 ) 5 - GGGTAAATGGTTTGGCTAAGG - 3 . Purified PCR products[*R*]were labelled[*A*]with [ - 32P ] dCTP	context()	negated: False ,passive: True
 0.944	[*A*]mt - tRNALeu[*R*]were produced[*A*]by PCR amplification	context()	negated: False ,passive: True
@@ -522,50 +522,50 @@
 0.922	[*A*]3000Ci / mmol[*R*]were removed[*A*]by gel filtration	context()	negated: False ,passive: True
 0.914	[*A*]Perkin Elmer[*R*]using[*A*]random hexamers	context()	negated: False ,passive: False
 0.983	[*A*]human mt - tRNAVal forward ( position 1579-1598 ) 5 - CTGGAAAGTGCACTTGGACG - 3 5 - GGGTAAATGGTTTGGCTAAGG - 3 . Purified PCR products[*R*]were labelled[*A*]with [ - 32P ] dCTP	context()	negated: False ,passive: True
-[LINE#135] Hybridization was carried out overnight at 42C in 5 SSPE, 1% SDS, 10%(w:v) dextran sulphate, 50% (v:v) formamide and 5 Denhardt's solution.
+[LINE#151+152]  Hybridization was carried out overnight at 42C in 5 SSPE, 1% SDS, 10%(w:v) dextran sulphate, 50% (v:v) formamide and 5 Denhardt's solution.
 0.993	[*A*]Hybridization[*R*]was carried in[*A*]5 sspe	context()	negated: False ,passive: False
 0.911	[*A*]Hybridization[*R*]was carried out[*A*]overnight[*A*]at 42C[*A*]in 5 SSPE	context()	negated: False ,passive: True
-[LINE#136]Membranes were stringently washed before detection of signal by PhosphorImager/ImageQuant software. .
+[LINE#153] Membranes were stringently washed before detection of signal by PhosphorImager/ImageQuant software. .
 0.911	[*A*]Membranes[*R*]were stringently washed[*A*]before detection of signal by PhosphorImager/ImageQuant software	context()	negated: False ,passive: True
-[LINE#137] Metabolic labelling of mitochondrial proteinsynthesisEssentially as previously described [28], growing cells in culture were incubated with 35S methionine/cysteine (2mCi, 1175Ci/mmol; Perkin Elmer) for 2h in methionine- and cysteine-free DMEM (Sigma) to radiolabel the newly synthesised mitochondrial proteins.
+[LINE#154+155]  Metabolic labelling of mitochondrial proteinsynthesisEssentially as previously described [28], growing cells in culture were incubated with 35S methionine/cysteine (2mCi, 1175Ci/mmol; Perkin Elmer) for 2h in methionine- and cysteine-free DMEM (Sigma) to radiolabel the newly synthesised mitochondrial proteins.
 0.929	[*A*]Perkin Elmer ) for 2 h in cysteine - free DMEM[*R*]to radiolabel[*A*]the newly synthesised mitochondrial proteins	context()	negated: False ,passive: False
 0.795	[*A*]Metabolic labelling of mitochondrial[*R*]proteinsynthesisEssentially as described[*A*]28[*A*]previously	context()	negated: False ,passive: False
 0.999	[*A*]Metabolic labelling of mitochondrial[*R*]described[*A*]28 ]	context()	negated: False ,passive: False
 0.950	[*A*]Perkin Elmer ) for 2 h in methionine[*R*]to radiolabel[*A*]the newly synthesised mitochondrial proteins	context()	negated: False ,passive: False
 0.931	[*A*]growing cells in culture[*R*]were incubated[*A*]with 35 S methionine / cysteine	context()	negated: False ,passive: True
 0.795	[*A*]Metabolic labelling of mitochondrial[*R*]proteinsynthesisEssentially as described[*A*]previously	context()	negated: False ,passive: False
-[LINE#138]Radiolabelling was restricted to mtDNA encoded proteins by including 100g/ml emetine hydrochloride (Sigma) in the medium to inhibit cytosolic protein synthesis.
+[LINE#156] Radiolabelling was restricted to mtDNA encoded proteins by including 100g/ml emetine hydrochloride (Sigma) in the medium to inhibit cytosolic protein synthesis.
 0.921	[*A*]Radiolabelling[*R*]by including[*A*]100g/ml emetine hydrochloride[*A*]in the medium	context()	negated: False ,passive: False
-[LINE#139]A cell lysate (30g) was then prepared and separated through 15% SDS-PAGE followed by overnight fixation in 3% (v:v) glycerol, 10% (v:v) glacial acetic acid, 30% (v:v) methanol.
+[LINE#157] A cell lysate (30g) was then prepared and separated through 15% SDS-PAGE followed by overnight fixation in 3% (v:v) glycerol, 10% (v:v) glacial acetic acid, 30% (v:v) methanol.
 0.698	[*A*]A SDS - PAGE[*R*]followed	context()	negated: False ,passive: False
 0.381	[*A*]A[*R*]separated[*A*]through 15 %	context()	negated: False ,passive: True
 0.748	[*A*]A cell lysate[*R*]was prepared[*A*]then	context()	negated: False ,passive: True
-[LINE#140]vacuum dried at 60C, placed into a PhosphorImager cassette for 24-120h and analysed by PhosphorImager/ImageQuant software.
+[LINE#158] vacuum dried at 60C, placed into a PhosphorImager cassette for 24-120h and analysed by PhosphorImager/ImageQuant software.
 0.896	[*A*]vacuum[*R*]placed[*A*]into a PhosphorImager cassette[*A*]for 24-120 h	context()	negated: False ,passive: True
 0.911	[*A*]vacuum[*R*]dried[*A*]at 60C	context()	negated: False ,passive: True
-[LINE#141]It was subsequently rehydrated and Coomassie blue stained to confirm equal loading. .
+[LINE#159] It was subsequently rehydrated and Coomassie blue stained to confirm equal loading. .
 0.220	[*A*]It[*R*]was rehydrated[*A*]subsequently	context()	negated: False ,passive: True
-[LINE#142]Relative quantification of mtDNATotal DNA was extracted from cultured myoblasts by standard methods.
+[LINE#160] Relative quantification of mtDNATotal DNA was extracted from cultured myoblasts by standard methods.
 0.897	[*A*]Relative quantification of mtDNATotal DNA[*R*]was extracted[*A*]from cultured myoblasts[*A*]by standard methods	context()	negated: False ,passive: True
-[LINE#143]MT-ND4 was selected as the mtDNA marker and 18S as a nuclear DNA marker against which to normalise ND4 value.
+[LINE#161] MT-ND4 was selected as the mtDNA marker and 18S as a nuclear DNA marker against which to normalise ND4 value.
 0.993	[*A*]MT ND4[*R*]was selected as[*A*]18 s	context()	negated: False ,passive: False
 0.678	[*A*]MT - ND4[*R*]was selected	context()	negated: False ,passive: False
 0.896	[*A*]MT - ND4[*R*]was selected[*A*]as the mtDNA marker	context()	negated: False ,passive: True
-[LINE#144]The primer sequences were: ND4 forward 5-CCATTCTCCTCCTATCCCTCAAC-3 and reverse 5-CACAATCTGATGTTTTGGTTAAACTATATTT-3; and 18S forward 5-GTAACCCGTTGAACCCCATT-3 and reverse 5-CCATCCAATCGGTAGTAGCG-3. qPCR was performed (LightCycler Nano, Roche Diagnostics) using the FastStart Essential DNA Green Master (Roche Diagnostics).
+[LINE#162] The primer sequences were: ND4 forward 5-CCATTCTCCTCCTATCCCTCAAC-3 and reverse 5-CACAATCTGATGTTTTGGTTAAACTATATTT-3; and 18S forward 5-GTAACCCGTTGAACCCCATT-3 and reverse 5-CCATCCAATCGGTAGTAGCG-3. qPCR was performed (LightCycler Nano, Roche Diagnostics) using the FastStart Essential DNA Green Master (Roche Diagnostics).
 0.751	[*A*]The primer sequences[*R*]were	context()	negated: False ,passive: False
 0.911	[*A*]The primer sequences[*R*]were[*A*]reverse 5 - CACAATCTGATGTTTTGGTTAAACTATATTT - 3	context()	negated: False ,passive: True
 0.707	[*A*]The primer sequences[*R*]were	context(ND4 forward 5 - CCATTCTCCTCCTATCCCTCAAC - 3 was performed)	negated: False ,passive: False
 0.677	[*A*]ND4 forward 5 - CCATTCTCCTCCTATCCCTCAAC - 3[*R*]was performed	context()	negated: False ,passive: False
-[LINE#145]CT values were calculated automatically by the software and the relative quantification was determined using the CT method. .
+[LINE#163] CT values were calculated automatically by the software and the relative quantification was determined using the CT method. .
 0.698	[*A*]CT values[*R*]was determined	context()	negated: False ,passive: False
 0.903	[*A*]CT values[*R*]were calculated automatically[*A*]by the relative quantification	context()	negated: False ,passive: True
 0.903	[*A*]CT values[*R*]were calculated automatically[*A*]by the software	context()	negated: False ,passive: True
-[LINE#146] Analysis of mitochondrial morphology andnucleoidsMyoblasts were grown on 35mm plates as described earlier.
+[LINE#164+165]  Analysis of mitochondrial morphology andnucleoidsMyoblasts were grown on 35mm plates as described earlier.
 0.993	[*A*]Analysis of mitochondrial morphology andnucleoidsMyoblasts[*R*]were grown on[*A*]35mm plates	context()	negated: False ,passive: False
 0.926	[*A*]Analysis of mitochondrial morphology andnucleoidsMyoblasts[*R*]were grown[*A*]on 35mm plates[*A*]as described earlier	context()	negated: False ,passive: True
-[LINE#147]Cells were incubated with 3l/ml PicoGreen (Quant-ITTM) for 1h in culture media.
+[LINE#166] Cells were incubated with 3l/ml PicoGreen (Quant-ITTM) for 1h in culture media.
 0.840	[*A*]Cells[*R*]were incubated[*A*]with 3l/ml PicoGreen[*A*]for 1h in culture media	context()	negated: False ,passive: True
-[LINE#148] Tetramethylrhodamine methyl ester (5nM TMRM+, Invitrogen) was added for the final 15min of incubation and kept in the assay buffer (135mM NaCl, 5mM KCl, 0.4mM KH2PO4, 1.3mM CaCl2, 1mM MgSO4, 5.5mM glucose and 20mM HEPES; pH7.4 with NaOH) throughout washing and imaging.
+[LINE#167+168]  Tetramethylrhodamine methyl ester (5nM TMRM+, Invitrogen) was added for the final 15min of incubation and kept in the assay buffer (135mM NaCl, 5mM KCl, 0.4mM KH2PO4, 1.3mM CaCl2, 1mM MgSO4, 5.5mM glucose and 20mM HEPES; pH7.4 with NaOH) throughout washing and imaging.
 0.903	[*A*]Tetramethylrhodamine[*R*]kept[*A*]throughout imaging	context()	negated: False ,passive: False
 0.931	[*A*]Tetramethylrhodamine[*R*]kept[*A*]in 5.5 mM glucose pH7.4 with NaOH[*A*]throughout imaging	context()	negated: False ,passive: False
 0.903	[*A*]Tetramethylrhodamine[*R*]kept[*A*]throughout washing	context()	negated: False ,passive: False
@@ -573,11 +573,11 @@
 0.918	[*A*]Tetramethylrhodamine[*R*]kept[*A*]in[*A*]the assay buffer	context()	negated: False ,passive: False
 0.913	[*A*]Tetramethylrhodamine methyl ester[*R*]was added[*A*]for the final 15min of incubation pH7.4 with NaOH[*A*]throughout imaging	context()	negated: False ,passive: True
 0.913	[*A*]Tetramethylrhodamine methyl ester[*R*]was added[*A*]for the final 15min of incubation pH7.4 with NaOH[*A*]throughout washing	context()	negated: False ,passive: True
-[LINE#149]Imaging was performed at 63 magnification with an inverted fluorescence microscope (Axiovert 200M, Carl Zeiss) equipped with FITC and Texas Red filters. .
+[LINE#169] Imaging was performed at 63 magnification with an inverted fluorescence microscope (Axiovert 200M, Carl Zeiss) equipped with FITC and Texas Red filters. .
 0.920	[*A*]an inverted fluorescence microscope[*R*]equipped[*A*]with Texas Red filters	context()	negated: False ,passive: True
 0.920	[*A*]an inverted fluorescence microscope[*R*]equipped[*A*]with FITC filters	context()	negated: False ,passive: True
 0.920	[*A*]Imaging[*R*]was performed[*A*]at 63 magnification	context()	negated: False ,passive: True
-[LINE#150] Expression and purification of human FARS2FARS2 amplicons were generated from IMAGE clone 508877631883 (BC021112.1) by standard 35cycle PCR using a proofreading polymerase (KOD Hot Start Novagen) and the following primers, forward 5-CACACAGGATCCGCAGAGTGTGCCACCCAAAG-3 and reverse 5-CACACAGGATCCAGCCTGAGTGAAGTGGTGAC 3, incorporating BamHI restriction sites (underlined).
+[LINE#170+171]  Expression and purification of human FARS2FARS2 amplicons were generated from IMAGE clone 508877631883 (BC021112.1) by standard 35cycle PCR using a proofreading polymerase (KOD Hot Start Novagen) and the following primers, forward 5-CACACAGGATCCGCAGAGTGTGCCACCCAAAG-3 and reverse 5-CACACAGGATCCAGCCTGAGTGAAGTGGTGAC 3, incorporating BamHI restriction sites (underlined).
 0.944	[*A*]purification of human FARS2FARS2 amplicons[*R*]were generated[*A*]from IMAGE clone 508877631883[*A*]by standard 35cycle[*A*]PCR using the following primers , forward 5 - CACACAGGATCCGCAGAGTGTGCCACCCAAAG - 3	context()	negated: False ,passive: True
 0.913	[*A*]purification of human FARS2FARS2 amplicons[*R*]were generated[*A*]from IMAGE clone 508877631883[*A*]by standard 35cycle PCR[*A*]using a proofreading polymerase	context()	negated: False ,passive: True
 0.852	[*A*]PCR[*R*]using forward[*A*]the following primers	context()	negated: False ,passive: False
@@ -585,156 +585,156 @@
 0.913	[*A*]Expression of human FARS2FARS2 amplicons[*R*]were generated[*A*]from IMAGE clone 508877631883[*A*]by standard 35cycle PCR[*A*]using a proofreading polymerase	context()	negated: False ,passive: True
 0.776	[*A*]BamHI restriction sites[*R*]underlined	context()	negated: False ,passive: False
 0.889	[*A*]5 - CACACAGGATCCAGCCTGAGTGAAGTGGTGAC 3[*R*]incorporating[*A*]BamHI restriction sites	context()	negated: False ,passive: False
-[LINE#151]PCR products were digested prior to ligation into BamHI linearized pGEX-6P-1, using a Rapid DNA Ligation Kit (Thermo Scientific) according to manufacturer's instructions.
+[LINE#172] PCR products were digested prior to ligation into BamHI linearized pGEX-6P-1, using a Rapid DNA Ligation Kit (Thermo Scientific) according to manufacturer's instructions.
 0.920	[*A*]BamHI[*R*]linearized[*A*]pGEX-6P-1	context()	negated: False ,passive: False
 0.918	[*A*]PCR products[*R*]were digested[*A*]prior to ligation into BamHI linearized pGEX-6P-1[*A*]according to manufacturer's instructions	context()	negated: False ,passive: True
-[LINE#152]The construct was sequenced to confirm orientation and accuracy.
+[LINE#173] The construct was sequenced to confirm orientation and accuracy.
 0.903	[*A*]The construct[*R*]was sequenced[*A*]to confirm accuracy	context()	negated: False ,passive: True
 0.903	[*A*]The construct[*R*]was sequenced[*A*]to confirm orientation	context()	negated: False ,passive: True
-[LINE#153]It was used to transform competent Escherichia coli Tuner cells (Novagen) and subsequently as a template to generate a mutant copy of FARS2 by site-directed mutagenesis using the Quikchange procedure (Stratagene).
+[LINE#174] It was used to transform competent Escherichia coli Tuner cells (Novagen) and subsequently as a template to generate a mutant copy of FARS2 by site-directed mutagenesis using the Quikchange procedure (Stratagene).
 0.614	[*A*]It[*R*]was used[*A*]to transform competent Escherichia coli Tuner cells (Novagen) and subsequently as a template	context()	negated: False ,passive: True
-[LINE#154] Both fusion proteins were expressed following induction with 1mM IPTG at 37C for 4h and affinity purified using Glutathione Sepharose 4B. Wild-type and mutant FARS2 were released by PreScission protease (GE Healthcare) in elution buffer(0.75ml PBS, 1mM DTT, 1mM EDTA and 48U PreScission protease).
+[LINE#175+176]  Both fusion proteins were expressed following induction with 1mM IPTG at 37C for 4h and affinity purified using Glutathione Sepharose 4B. Wild-type and mutant FARS2 were released by PreScission protease (GE Healthcare) in elution buffer(0.75ml PBS, 1mM DTT, 1mM EDTA and 48U PreScission protease).
 0.751	[*A*]Both fusion proteins[*R*]were expressed	context()	negated: False ,passive: False
 0.952	[*A*]Both fusion proteins[*R*]were expressed[*A*]following induction with 1 mM IPTG at 37C for 4 affinity	context()	negated: False ,passive: True
 0.931	[*A*]Wild - mutant FARS2[*R*]were released[*A*]by PreScission protease	context()	negated: False ,passive: True
 0.952	[*A*]Both fusion proteins[*R*]were expressed[*A*]following induction with 1 mM IPTG at 37C for 4 h . Wild - mutant FARS2 were released by PreScission protease ( GE Healthcare ) in elution buffer	context()	negated: False ,passive: True
 0.931	[*A*]Wild - type FARS2[*R*]were released[*A*]by PreScission protease	context()	negated: False ,passive: True
 0.952	[*A*]Both fusion proteins[*R*]were expressed[*A*]following induction with 1 mM IPTG at 37C for 4 h	context()	negated: False ,passive: True
-[LINE#155] Template production, in vitro transcription and purification of human mitochondrialtRNAPheA construct was generated containing the T7 RNA polymerase promoter sequence, followed by the hammerhead ribozyme sequence, upstream of the mt-tRNAPhe sequence after which was positioned a BstNI site.
+[LINE#177+178]  Template production, in vitro transcription and purification of human mitochondrialtRNAPheA construct was generated containing the T7 RNA polymerase promoter sequence, followed by the hammerhead ribozyme sequence, upstream of the mt-tRNAPhe sequence after which was positioned a BstNI site.
 0.949	[*A*]Template production , in purification of human mitochondrialtRNAPheA construct was generated[*R*]containing[*A*]the T7 RNA polymerase promoter sequence	context()	negated: False ,passive: False
 0.944	[*A*]Template production[*R*]was generated[*A*]in purification of human mitochondrialtRNAPheA construct	context()	negated: False ,passive: True
 0.822	[*A*]the T7 RNA polymerase promoter sequence[*R*]followed	context()	negated: False ,passive: False
 0.954	[*A*]Template production , in vitro transcription of human mitochondrialtRNAPheA construct was generated[*R*]containing[*A*]the T7 RNA polymerase promoter sequence	context()	negated: False ,passive: False
 0.944	[*A*]Template production[*R*]was generated[*A*]in vitro transcription of human mitochondrialtRNAPheA construct	context()	negated: False ,passive: True
-[LINE#156]This was achieved using the following overlapping primers: forward 5-GTAATACGACTCACTATGGGAGATCTGCTGATGAGTCCGTGAGGACGA AACGGTACCCGGTACCGTCGTTTATGTAGCTTACCTC-3 and reverse 5-GTCCTGGTGTTTATGGGGTGATGTGAGCCCGTCTAAACATTTTCAGTGTATTGCTTTGAGGAGGTAAGCTACATAAAC-3.
+[LINE#179] This was achieved using the following overlapping primers: forward 5-GTAATACGACTCACTATGGGAGATCTGCTGATGAGTCCGTGAGGACGA AACGGTACCCGGTACCGTCGTTTATGTAGCTTACCTC-3 and reverse 5-GTCCTGGTGTTTATGGGGTGATGTGAGCCCGTCTAAACATTTTCAGTGTATTGCTTTGAGGAGGTAAGCTACATAAAC-3.
 0.153	[*A*]This[*R*]was achieved	context()	negated: False ,passive: False
-[LINE#157]Following annealing and extension, this double stranded product was cloned into SmaI linearized pUC18 and used to transform E. coli -select chemically competent cells (Bioline).
+[LINE#180] Following annealing and extension, this double stranded product was cloned into SmaI linearized pUC18 and used to transform E. coli -select chemically competent cells (Bioline).
 0.960	[*A*]this double stranded product[*R*]was used[*A*]to transform E. coli - select chemically competent cells[*A*]Following extension	context()	negated: False ,passive: True
 0.758	[*A*]E. coli[*R*]select	context()	negated: False ,passive: False
 0.920	[*A*]this double stranded product[*R*]to transform[*A*]E. coli - select chemically competent cells	context()	negated: False ,passive: False
 0.960	[*A*]this double stranded product[*R*]was used[*A*]to transform E. coli - select chemically competent cells[*A*]Following annealing	context()	negated: False ,passive: True
 0.960	[*A*]this double stranded product[*R*]was cloned[*A*]into SmaI linearized pUC18[*A*]Following extension	context()	negated: False ,passive: True
 0.960	[*A*]this double stranded product[*R*]was cloned[*A*]into SmaI linearized pUC18[*A*]Following annealing	context()	negated: False ,passive: True
-[LINE#158]Plasmid DNA was then purified and sequenced to validate the construct.
+[LINE#181] Plasmid DNA was then purified and sequenced to validate the construct.
 0.927	[*A*]Plasmid DNA[*R*]was sequenced[*A*]to validate the construct	context()	negated: False ,passive: True
 0.812	[*A*]Plasmid DNA[*R*]was purified[*A*]then	context()	negated: False ,passive: True
-[LINE#159]This was then linearised with BstNI and in vitro transcribed using AmpliScribe T7-Flash Transcription Kit according to the manufacturer's instructions (Epicentre, Madison, WI).
+[LINE#182] This was then linearised with BstNI and in vitro transcribed using AmpliScribe T7-Flash Transcription Kit according to the manufacturer's instructions (Epicentre, Madison, WI).
 0.302	[*A*]This[*R*]transcribed[*A*]according to the manufacturer 's instructions	context()	negated: False ,passive: True
 0.174	[*A*]This[*R*]was linearised[*A*]then	context()	negated: False ,passive: True
 0.634	[*A*]BstNI[*R*]transcribed	context()	negated: False ,passive: False
 0.581	[*A*]This[*R*]was linearised[*A*]with BstNI transcribed using AmpliScribe T7 - Flash Transcription Kit[*A*]according to the manufacturer 's instructions[*A*]then	context()	negated: False ,passive: True
-[LINE#160](1h at 55C) in buffer containing 30mM MgCl2 and 40mM Tris-HCl (pH8.0) to facilitate self-cleavage by the hammerhead ribozyme.
+[LINE#183] (1h at 55C) in buffer containing 30mM MgCl2 and 40mM Tris-HCl (pH8.0) to facilitate self-cleavage by the hammerhead ribozyme.
 0.934	[*A*]40mM Tris-HCl[*R*]to facilitate[*A*]self-cleavage	context()	negated: False ,passive: False
 0.911	[*A*]buffer[*R*]containing[*A*]30mM MgCl2	context()	negated: False ,passive: False
-[LINE#161]This ensured the exact mt-sequence at the 5 terminus rather than the T7 consensus motif.
+[LINE#184] This ensured the exact mt-sequence at the 5 terminus rather than the T7 consensus motif.
 0.381	[*A*]This[*R*]ensured[*A*]the exact mt-sequence	context()	negated: False ,passive: False
-[LINE#162]Purified RNA was separated by 15% denaturing PAGE.
+[LINE#185] Purified RNA was separated by 15% denaturing PAGE.
 0.938	[*A*]Purified RNA[*R*]was separated[*A*]by 15% denaturing PAGE	context()	negated: False ,passive: True
-[LINE#163]Fully cleaved mt-tRNAPhe was recovered from the gel in elution buffer (1M NH4OAc, 2mM EDTA and 0.2% (w/v) SDS). .
+[LINE#186] Fully cleaved mt-tRNAPhe was recovered from the gel in elution buffer (1M NH4OAc, 2mM EDTA and 0.2% (w/v) SDS). .
 0.926	[*A*]Fully cleaved mt - tRNAPhe[*R*]was recovered[*A*]from the gel in elution buffer	context()	negated: False ,passive: True
-[LINE#164]Functional analysis of recombinant mutant FARS2In vitro aminoacylation assays were performed essentially as described [29], in a 25l volume at 30C for 20min using 50M 3H phenylalanine (1mCi, 126.2Ci/mmol; Perkin Elmer), 4g tRNA and 2-4g enzyme in buffer containing 50mM Tris-HCl pH7.75, 12mM MgCl2, 10mM KCl, 0.2g/ml BSA and 2.5mM ATP as described.
+[LINE#187] Functional analysis of recombinant mutant FARS2In vitro aminoacylation assays were performed essentially as described [29], in a 25l volume at 30C for 20min using 50M 3H phenylalanine (1mCi, 126.2Ci/mmol; Perkin Elmer), 4g tRNA and 2-4g enzyme in buffer containing 50mM Tris-HCl pH7.75, 12mM MgCl2, 10mM KCl, 0.2g/ml BSA and 2.5mM ATP as described.
 0.933	[*A*]Functional analysis of recombinant mutant FARS2[*R*]were performed essentially[*A*]as described[*A*]in a 25l volume at 30C	context()	negated: False ,passive: True
 0.911	[*A*]buffer[*R*]containing[*A*]50 mM Tris - HCl pH7.75	context()	negated: False ,passive: False
 0.925	[*A*]vitro aminoacylation assays[*R*]were performed essentially[*A*]as described[*A*]in a 25l volume at 30C	context()	negated: False ,passive: True
-[LINE#165]Prior to addition, tRNAs were heated for 2min at 60C and cooled down slowly to room temperature.
+[LINE#188] Prior to addition, tRNAs were heated for 2min at 60C and cooled down slowly to room temperature.
 0.866	[*A*]tRNAs[*R*]were cooled down slowly[*A*]Prior to addition	context()	negated: False ,passive: True
 0.903	[*A*]tRNAs[*R*]were[*A*]heated for 2min at 60C[*A*]Prior to addition	context()	negated: False ,passive: True
-[LINE#166] At different time points, 5l aliquots were spotted onto Whatman 0.45Mnitrocellulose membrane and precipitated in ice cold 5% trichloroacetic acid.
+[LINE#189+190]  At different time points, 5l aliquots were spotted onto Whatman 0.45Mnitrocellulose membrane and precipitated in ice cold 5% trichloroacetic acid.
 0.943	[*A*]5l aliquots[*R*]were precipitated[*A*]in ice cold 5 % trichloroacetic acid[*A*]At different time points	context()	negated: False ,passive: True
 0.952	[*A*]5l aliquots[*R*]were spotted[*A*]onto Whatman 0.45Mnitrocellulose membrane[*A*]At different time points	context()	negated: False ,passive: True
-[LINE#167]Incorporation of radioactive phenylalanine was measured by liquid scintillation counting.
+[LINE#191] Incorporation of radioactive phenylalanine was measured by liquid scintillation counting.
 0.919	[*A*]Incorporation of radioactive phenylalanine[*R*]was measured[*A*]by liquid scintillation counting	context()	negated: False ,passive: True
-[LINE#168]Furthermore, to assess ATP binding only, reactions under similar conditions were performed using 2mM ATP (250Ci, 3000Ci/mmol; Perkin Elmer) and 4g enzyme.
+[LINE#192] Furthermore, to assess ATP binding only, reactions under similar conditions were performed using 2mM ATP (250Ci, 3000Ci/mmol; Perkin Elmer) and 4g enzyme.
 0.769	[*A*]reactions under similar conditions[*R*]were performed	context()	negated: False ,passive: False
 0.634	[*A*]ATP[*R*]binding only	context()	negated: False ,passive: False
-[LINE#169]Incorporation of radioactive ATP was measured by Cerenkov counter.
+[LINE#193] Incorporation of radioactive ATP was measured by Cerenkov counter.
 0.949	[*A*]Incorporation of radioactive ATP[*R*]was measured[*A*]by Cerenkov counter	context()	negated: False ,passive: True
-[LINE#170]Cytogenetic and molecular genetic analysisKaryotyping revealed no abnormalities, whilst high resolution array CGH of the index case revealed an interstitial subtelomeric 6p25.1 deletion, sized at 88kb, with analysis of familial samples confirming paternal (and grandpaternal) inheritance.
+[LINE#194] Cytogenetic and molecular genetic analysisKaryotyping revealed no abnormalities, whilst high resolution array CGH of the index case revealed an interstitial subtelomeric 6p25.1 deletion, sized at 88kb, with analysis of familial samples confirming paternal (and grandpaternal) inheritance.
 0.933	[*A*]molecular genetic analysisKaryotyping[*R*]revealed[*A*]no abnormalities	context()	negated: False ,passive: False
 0.903	[*A*]familial samples[*R*]confirming[*A*]grandpaternal ) inheritance	context()	negated: False ,passive: False
 0.903	[*A*]familial samples[*R*]confirming[*A*]paternal ( inheritance	context()	negated: False ,passive: False
 0.978	[*A*]high resolution array CGH of the index case[*R*]revealed[*A*]an interstitial subtelomeric 6p25.1 deletion , sized at 88kb , with analysis of familial samples	context()	negated: False ,passive: False
 0.933	[*A*]Cytogenetic genetic analysisKaryotyping[*R*]revealed[*A*]no abnormalities	context()	negated: False ,passive: False
-[LINE#171] Analysis of the breakpoints, chr6:5193613-5281294 (hg19), revealed two RefSeq genes within the locus, LYRM4 and FARS2, both of which are partially deleted - the 3 exons of LYRM4 and the regulatory region of the FARS2 gene, including the promoter and untranslated exon 1.
+[LINE#195]  Analysis of the breakpoints, chr6:5193613-5281294 (hg19), revealed two RefSeq genes within the locus, LYRM4 and FARS2, both of which are partially deleted - the 3 exons of LYRM4 and the regulatory region of the FARS2 gene, including the promoter and untranslated exon 1.
 0.991	[*A*]-5281294[*R*]revealed[*A*]two RefSeq genes within the locus both of which are partially deleted	context()	negated: False ,passive: False
 0.939	[*A*]chr6:5193613-5281294[*R*]revealed[*A*]two RefSeq genes within the locus[*A*]Analysis of the breakpoints	context()	negated: False ,passive: False
 0.896	[*A*]chr6:5193613-5281294[*R*]revealed[*A*]two RefSeq genes within FARS2	context()	negated: False ,passive: False
 0.896	[*A*]chr6:5193613-5281294[*R*]revealed[*A*]two RefSeq genes within LYRM4	context()	negated: False ,passive: False
 0.218	[*A*]both of which[*R*]are deleted	context()	negated: False ,passive: False
 0.896	[*A*]chr6:5193613-5281294[*R*]revealed[*A*]two RefSeq genes within the locus	context()	negated: False ,passive: False
-[LINE#172] Subsequent molecular genetic analysis of the LYRM4 gene revealed no known or potentially pathogenic mutations, whilst a novel heterozygous c.973G.
+[LINE#196]  Subsequent molecular genetic analysis of the LYRM4 gene revealed no known or potentially pathogenic mutations, whilst a novel heterozygous c.973G.
 0.958	[*A*]Subsequent molecular genetic analysis of the LYRM4 gene[*R*]revealed[*A*]no known or potentially pathogenic mutations	context()	negated: False ,passive: False
-[LINE#173]T transversion was identified in exon 5 of FARS2, predicting a p.
+[LINE#197] T transversion was identified in exon 5 of FARS2, predicting a p.
 0.918	[*A*]T transversion[*R*]was identified[*A*]in exon 5 of FARS2[*A*]predicting a p.	context()	negated: False ,passive: True
-[LINE#174]Asp325Tyr amino acid substitution.
-[LINE#175] Analysis of parental samples confirmed maternal inheritance of the c.973G.
+[LINE#198] Asp325Tyr amino acid substitution.
+[LINE#199]  Analysis of parental samples confirmed maternal inheritance of the c.973G.
 0.919	[*A*]Analysis of parental samples[*R*]confirmed[*A*]maternal inheritance of the c.973G	context()	negated: False ,passive: False
-[LINE#176] T variant, supporting recessive inheritance in this family.
+[LINE#200]  T variant, supporting recessive inheritance in this family.
 0.887	[*A*]T variant[*R*]supporting[*A*]recessive inheritance[*A*]in this family	context()	negated: False ,passive: False
-[LINE#177]Conservation analysis revealed the p.
+[LINE#201] Conservation analysis revealed the p.
 0.927	[*A*]Conservation analysis[*R*]revealed[*A*]the p.	context()	negated: False ,passive: False
-[LINE#178]Asp325 residue shows a moderate degree of evolutionary conservation (Fig. 2C), whilst in silico predictions using PolyPhen, AlignGVGD and SIFT support a deleterious effect on protein function.
+[LINE#202] Asp325 residue shows a moderate degree of evolutionary conservation (Fig. 2C), whilst in silico predictions using PolyPhen, AlignGVGD and SIFT support a deleterious effect on protein function.
 0.908	[*A*]Asp325 residue[*R*]shows[*A*]a moderate degree of evolutionary conservation	context()	negated: False ,passive: False
-[LINE#179]Analysis of the mitochondrial genome revealed no known or potentially pathogenic mtDNA mutations, thereby excluding the possibility of a novel or maternally transmitted mtDNA mutation.
+[LINE#203] Analysis of the mitochondrial genome revealed no known or potentially pathogenic mtDNA mutations, thereby excluding the possibility of a novel or maternally transmitted mtDNA mutation.
 0.862	[*A*]Analysis of the mitochondrial genome[*R*]revealed no known or potentially pathogenic mtDNA mutations excluding[*A*]the possibility of a novel	context(Analysis of the mitochondrial genome revealed)	negated: False ,passive: False
 0.949	[*A*]Analysis of the mitochondrial genome[*R*]revealed[*A*]no known or potentially pathogenic mtDNA mutations[*A*]thereby excluding the possibility of a novel or maternally transmitted mtDNA mutation	context()	negated: False ,passive: False
-[LINE#180]In particular, no mutation was found within the MTTF gene encoding the mt-tRNAPhe molecule..
+[LINE#204] In particular, no mutation was found within the MTTF gene encoding the mt-tRNAPhe molecule..
 0.933	[*A*]the MTTF gene[*R*]encoding[*A*]the mt-tRNAPhe molecule	context()	negated: False ,passive: False
 0.918	[*A*]no mutation[*R*]was found[*A*]within the MTTF gene	context()	negated: False ,passive: True
-[LINE#181]Biochemical analysis of OXPHOS activities revealed differential expression in patient cell typesA diagnostic skeletal muscle biopsy was obtained from the patient to allow the assessment of respiratory chain enzyme activities.
+[LINE#205] Biochemical analysis of OXPHOS activities revealed differential expression in patient cell typesA diagnostic skeletal muscle biopsy was obtained from the patient to allow the assessment of respiratory chain enzyme activities.
 0.919	[*A*]diagnostic skeletal muscle biopsy[*R*]was obtained[*A*]from the patient[*A*]to allow the assessment of respiratory chain enzyme activities	context()	negated: False ,passive: True
 0.897	[*A*]Biochemical analysis of OXPHOS activities[*R*]revealed[*A*]differential expression[*A*]in patient cell	context()	negated: False ,passive: False
-[LINE#182] Histochemical analysis revealed decreased reactivity for cytochrome c oxidase (COX, or complex IV) (Fig. 3A), an observation confirmed by the spectrophotometric assay of OXPHOS components that showed complex IV to be markedly decreased in the patient's muscle compared to controls (Fig.3B, Table 1).Primary fibroblast and myoblast cell lines were established from the patient, permitting a more detailed investigation of the molecular phenotype and characterisation of both the biochemical defect and underlying molecular disease mechanism.
+[LINE#206+207+208]  Histochemical analysis revealed decreased reactivity for cytochrome c oxidase (COX, or complex IV) (Fig. 3A), an observation confirmed by the spectrophotometric assay of OXPHOS components that showed complex IV to be markedly decreased in the patient's muscle compared to controls (Fig.3B, Table 1).Primary fibroblast and myoblast cell lines were established from the patient, permitting a more detailed investigation of the molecular phenotype and characterisation of both the biochemical defect and underlying molecular disease mechanism.
 0.892	[*A*]complex IV[*R*]to be decreased[*A*]in the patient's muscle[*A*]compared to controls	context()	negated: False ,passive: True
 0.907	[*A*]the spectrophotometric assay of OXPHOS components[*R*]showed[*A*]complex IV	context()	negated: False ,passive: False
 0.923	[*A*]cell lines[*R*]were established[*A*]from the patient[*A*]permitting a more detailed investigation of the molecular phenotype and characterisation of both the biochemical defect and underlying molecular disease mechanism	context(Primary myoblast)	negated: False ,passive: True
 0.926	[*A*]Primary[*R*]myoblast[*A*]cell lines were established from the patient, permitting a more detailed investigation of the molecular phenotype and characterisation of both the biochemical defect and underlying molecular disease mechanism	context()	negated: False ,passive: False
 0.771	[*A*]Primary[*R*]fibroblast	context()	negated: False ,passive: False
 0.903	[*A*]Histochemical analysis[*R*]revealed[*A*]decreased reactivity for cytochrome	context()	negated: False ,passive: False
-[LINE#183]Following the spectrophotometric analysis of skeletal muscle, the next assays focussed on the measurement of OXPHOS complex activities in patient-derived cell lines.
+[LINE#209] Following the spectrophotometric analysis of skeletal muscle, the next assays focussed on the measurement of OXPHOS complex activities in patient-derived cell lines.
 0.972	[*A*]the next assays[*R*]focussed[*A*]on the measurement of OXPHOS complex activities in patient-derived cell lines[*A*]Following the spectrophotometric analysis of skeletal muscle	context()	negated: False ,passive: False
-[LINE#184]These appeared to indicate a tissue-specific defect.
+[LINE#210] These appeared to indicate a tissue-specific defect.
 0.503	[*A*]These[*R*]to indicate[*A*]a tissue-specific defect	context()	negated: False ,passive: False
 0.260	[*A*]These[*R*]appeared	context()	negated: False ,passive: False
-[LINE#185] The respiratory chain enzyme activities were normal in patient fibroblasts, whilst patient myoblasts demonstrated an isolated complex IV defect, recapitulating the observations in skeletal muscle, albeit with a lesser severity (.
+[LINE#211]  The respiratory chain enzyme activities were normal in patient fibroblasts, whilst patient myoblasts demonstrated an isolated complex IV defect, recapitulating the observations in skeletal muscle, albeit with a lesser severity (.
 0.830	[*A*]patient myoblasts[*R*]demonstrated an isolated complex IV defect recapitulating[*A*]the observations in skeletal muscle	context(patient myoblasts demonstrated)	negated: False ,passive: False
 0.900	[*A*]patient myoblasts[*R*]demonstrated[*A*]an isolated complex IV defect	context()	negated: False ,passive: False
 0.937	[*A*]The respiratory chain enzyme activities[*R*]were[*A*]normal[*A*]in patient fibroblasts[*A*]whilst patient myoblasts demonstrated an isolated complex IV defect	context()	negated: False ,passive: True
-[LINE#186]We next examined the expression of FARS2 protein and several respiratory chain components.
+[LINE#212] We next examined the expression of FARS2 protein and several respiratory chain components.
 0.554	[*A*]We[*R*]examined[*A*]the expression of several respiratory chain components[*A*]next	context()	negated: False ,passive: False
 0.599	[*A*]We[*R*]examined[*A*]the expression of FARS2 protein[*A*]next	context()	negated: False ,passive: False
-[LINE#187]Western blot analysis demonstrated that the steady state levels of FARS2 was reduced in the patient.
+[LINE#213] Western blot analysis demonstrated that the steady state levels of FARS2 was reduced in the patient.
 0.937	[*A*]the steady state levels of FARS2[*R*]was reduced[*A*]in the patient	context(Western blot analysis demonstrated)	negated: False ,passive: True
 0.853	[*A*]Western blot analysis[*R*]demonstrated[*A*]that the steady state levels of FARS2 was reduced in the patient	context()	negated: False ,passive: False
-[LINE#188] Most mt-aaRSs appear to be present at low levels and so isolated mitochondria rather thancell lysates were analysed for steady state levels of FARS2 protein.
+[LINE#214+215]  Most mt-aaRSs appear to be present at low levels and so isolated mitochondria rather thancell lysates were analysed for steady state levels of FARS2 protein.
 0.905	[*A*]Most mt - aaRSs[*R*]to be[*A*]present at so isolated mitochondria rather thancell lysates	context()	negated: False ,passive: True
 0.905	[*A*]Most mt - aaRSs[*R*]to be[*A*]present at low levels	context()	negated: False ,passive: True
 0.769	[*A*]Most mt - aaRSs[*R*]appear	context()	negated: False ,passive: False
-[LINE#189]The patient exhibited levels that were approximately 50% of control, consistent with expression from only the maternally inherited allele (Fig. 3C).
+[LINE#216] The patient exhibited levels that were approximately 50% of control, consistent with expression from only the maternally inherited allele (Fig. 3C).
 0.920	[*A*]levels[*R*]were[*A*]approximately 50% of control, consistent with expression from only the maternally inherited allele	context()	negated: False ,passive: True
 0.868	[*A*]The patient[*R*]exhibited[*A*]levels that were approximately 50% of control, consistent with expression from only the maternally inherited allele (Fig. 3C)	context()	negated: False ,passive: False
-[LINE#190]Asp325Tyr mutation did not appear to affect stability.
+[LINE#217] Asp325Tyr mutation did not appear to affect stability.
 0.914	[*A*]Asp325Tyr mutation[*R*]to affect[*A*]stability	context()	negated: False ,passive: False
 0.788	[*A*]Asp325Tyr mutation[*R*]did not appear	context()	negated: True ,passive: False
-[LINE#191]The mitochondrially-encoded COXI and COXII subunits of complex IV were normal in patient fibroblasts but decreased in patient myoblasts when compared to age-matched controls (Fig. 3C).
+[LINE#218] The mitochondrially-encoded COXI and COXII subunits of complex IV were normal in patient fibroblasts but decreased in patient myoblasts when compared to age-matched controls (Fig. 3C).
 0.897	[*A*]COXII subunits of complex IV[*R*]were decreased[*A*]in patient myoblasts[*A*]when compared to age - matched controls	context()	negated: False ,passive: True
 0.927	[*A*]The mitochondrially - encoded COXI subunits of complex IV[*R*]were decreased[*A*]in patient myoblasts[*A*]when compared to age - matched controls	context()	negated: False ,passive: True
 0.897	[*A*]COXII subunits of complex IV[*R*]were[*A*]normal[*A*]in patient fibroblasts	context()	negated: False ,passive: True
 0.927	[*A*]The mitochondrially - encoded COXI subunits of complex IV[*R*]were[*A*]normal[*A*]in patient fibroblasts	context()	negated: False ,passive: True
-[LINE#192] In contrast, normal levels of the complex.
-[LINE#193]I protein NDUFB8, which is sensitive to CI assembly defects, was observed in both fibroblasts and myoblasts.
+[LINE#219]  In contrast, normal levels of the complex.
+[LINE#220] I protein NDUFB8, which is sensitive to CI assembly defects, was observed in both fibroblasts and myoblasts.
 0.268	[*A*]which[*R*]is sensitive to[*A*]CI assembly defects	context()	negated: False ,passive: False
 0.443	[*A*]I[*R*]protein[*A*]NDUFB8	context()	negated: False ,passive: False
 0.939	[*A*]NDUFB8[*R*]is[*A*]sensitive to CI assembly defects	context()	negated: False ,passive: True
-[LINE#194] These findings were consistent with the pattern of respiratory chain enzyme deficiency - an isolated complex IV defect associated with the FARS2 mutations, only seen in the patient's mature muscle or myoblasts (2 mutations affected mt-tRNAPhe steady state levels in myoblasts.
+[LINE#221+222]  These findings were consistent with the pattern of respiratory chain enzyme deficiency - an isolated complex IV defect associated with the FARS2 mutations, only seen in the patient's mature muscle or myoblasts (2 mutations affected mt-tRNAPhe steady state levels in myoblasts.
 0.903	[*A*]2 mutations[*R*]affected[*A*]mt-tRNAPhe steady state levels in myoblasts	context()	negated: False ,passive: False
 0.934	[*A*]an isolated complex IV defect[*R*]seen[*A*]in the patient's mature muscle or myoblasts	context()	negated: False ,passive: True
 0.953	[*A*]an isolated complex IV defect[*R*]associated[*A*]with the FARS2 mutations	context()	negated: False ,passive: True
 0.903	[*A*]These findings[*R*]were[*A*]consistent with the pattern of respiratory chain enzyme deficiency	context()	negated: False ,passive: True
-[LINE#195]To study the effect of the FARS2 mutations on the steady state levels of mt-tRNAPhe, high resolution northern blotting was performed using total RNA extracted from patient myoblasts.
+[LINE#223] To study the effect of the FARS2 mutations on the steady state levels of mt-tRNAPhe, high resolution northern blotting was performed using total RNA extracted from patient myoblasts.
 0.927	[*A*]total RNA[*R*]extracted[*A*]from patient myoblasts	context()	negated: False ,passive: True
 0.769	[*A*]high resolution northern blotting[*R*]was performed	context()	negated: False ,passive: False
-[LINE#196]The levels of mt-tRNAVal and mt-tRNALeu(UUR) were used as loading controls and the level of mt-tRNAPhe was assessed as a percentage relative to controls.
+[LINE#224] The levels of mt-tRNAVal and mt-tRNALeu(UUR) were used as loading controls and the level of mt-tRNAPhe was assessed as a percentage relative to controls.
 0.921	[*A*]The levels of mt - tRNALeu[*R*]was assessed[*A*]as a percentage relative to controls	context()	negated: False ,passive: True
 0.921	[*A*]The levels of mt - tRNALeu[*R*]were used[*A*]as the level of mt - tRNAPhe	context()	negated: False ,passive: True
 0.949	[*A*]The levels of mt - tRNALeu[*R*]were used[*A*]as loading controls was assessed as a percentage relative to controls	context()	negated: False ,passive: True
@@ -742,129 +742,129 @@
 0.956	[*A*]The levels of mt - tRNAVal[*R*]were used[*A*]as the level of mt - tRNAPhe was assessed as a percentage relative to controls	context()	negated: False ,passive: True
 0.903	[*A*]loading controls[*R*]was assessed[*A*]as a percentage relative to controls	context()	negated: False ,passive: True
 0.956	[*A*]The levels of mt - tRNAVal[*R*]were used[*A*]as loading controls was assessed as a percentage relative to controls	context()	negated: False ,passive: True
-[LINE#197] We observed an approximately 54% reduction in the level of mt-tRNAPhe when compared with normal controls.
+[LINE#225]  We observed an approximately 54% reduction in the level of mt-tRNAPhe when compared with normal controls.
 0.999	[*A*]We[*R*]observed[*A*]approximately 54 % reduction	context()	negated: False ,passive: False
 0.569	[*A*]We[*R*]observed[*A*]an approximately 54% reduction in the level of mt-tRNAPhe[*A*]when compared with normal controls	context()	negated: False ,passive: False
-[LINE#198] De novo mitochondrial protein synthesis was not affected by the FARS2 mutationsTo determine whether the FARS2 mutations led to impaired mitochondrial protein synthesis, we next evaluated the incorporation of 35S-methionine/cysteine into de novo synthesised mitochondrial proteins in patient myoblasts, compared to age-matched control cells.
+[LINE#226+227+228]  De novo mitochondrial protein synthesis was not affected by the FARS2 mutationsTo determine whether the FARS2 mutations led to impaired mitochondrial protein synthesis, we next evaluated the incorporation of 35S-methionine/cysteine into de novo synthesised mitochondrial proteins in patient myoblasts, compared to age-matched control cells.
 0.940	[*A*]De novo mitochondrial protein synthesis[*R*]was not affected[*A*]by the FARS2 mutationsTo	context(we evaluated)	negated: True ,passive: True
 0.606	[*A*]we[*R*]evaluated[*A*]the incorporation of 35S-methionine/cysteine into de novo synthesised mitochondrial proteins in patient myoblasts, compared to age-matched control cells[*A*]next	context()	negated: False ,passive: False
 0.953	[*A*]the incorporation of 35S-methionine/cysteine into de[*R*]novo synthesised[*A*]mitochondrial proteins[*A*]in patient myoblasts[*A*]compared to age-matched control cells	context()	negated: False ,passive: False
-[LINE#199] Although the FARS2 mutant cells showed a reduction in steady state levels of both complex IV subunits and mt-tRNAPhe, no significant decrease was observed in the de novo synthesis of mitochondrial proteins (Fig..
+[LINE#229]  Although the FARS2 mutant cells showed a reduction in steady state levels of both complex IV subunits and mt-tRNAPhe, no significant decrease was observed in the de novo synthesis of mitochondrial proteins (Fig..
 0.961	[*A*]the FARS2 mutant cells[*R*]showed[*A*]a reduction in steady state levels of mt - tRNAPhe	context()	negated: False ,passive: False
 0.925	[*A*]no significant decrease[*R*]was observed[*A*]in the de novo synthesis of mitochondrial proteins	context()	negated: False ,passive: True
 0.967	[*A*]the FARS2 mutant cells[*R*]showed[*A*]a reduction in steady state levels of both complex IV subunits	context()	negated: False ,passive: False
-[LINE#200]Altered distribution of mitochondrial nucleoidsThe dynamic mitochondrial network and the distribution of nucleoids within were examined in patient myoblasts using fluorescence microscopy following TMRM and PicoGreen staining.
+[LINE#230] Altered distribution of mitochondrial nucleoidsThe dynamic mitochondrial network and the distribution of nucleoids within were examined in patient myoblasts using fluorescence microscopy following TMRM and PicoGreen staining.
 0.926	[*A*]the distribution of nucleoids within[*R*]were examined[*A*]in patient myoblasts	context()	negated: False ,passive: True
 0.943	[*A*]Altered distribution of mitochondrial nucleoidsThe dynamic mitochondrial network[*R*]were examined[*A*]in patient myoblasts	context()	negated: False ,passive: True
-[LINE#201] No observable differences were found in either mitochondrial morphology or number.
+[LINE#231]  No observable differences were found in either mitochondrial morphology or number.
 0.911	[*A*]No observable differences[*R*]were found[*A*]in either mitochondrial morphology or number	context()	negated: False ,passive: True
-[LINE#202]The distribution of the mitochondrial reticulum appeared normal in patient cells compared to controls.
+[LINE#232] The distribution of the mitochondrial reticulum appeared normal in patient cells compared to controls.
 0.920	[*A*]The distribution of the mitochondrial reticulum[*R*]appeared[*A*]in patient cells[*A*]compared to controls	context()	negated: False ,passive: True
-[LINE#203] We did observe, however, that nucleoids were consistently found to be both larger and fewer in patient myoblasts.
+[LINE#233]  We did observe, however, that nucleoids were consistently found to be both larger and fewer in patient myoblasts.
 0.236	[*A*]We[*R*]did observe[*A*]however[*A*]that nucleoids were consistently found to be fewer in patient myoblasts	context()	negated: False ,passive: False
 0.877	[*A*]nucleoids[*R*]to be[*A*]fewer[*A*]in patient myoblasts	context()	negated: False ,passive: True
 0.657	[*A*]nucleoids[*R*]were consistently found	context(We did observe)	negated: False ,passive: False
 0.236	[*A*]We[*R*]did observe[*A*]however[*A*]that nucleoids were consistently found to be both larger in patient myoblasts	context()	negated: False ,passive: False
 0.877	[*A*]nucleoids[*R*]to be[*A*]both larger[*A*]in patient myoblasts	context()	negated: False ,passive: True
-[LINE#204]After assessing the mtDNA copy number it was clear that this change in nucleoid presentation was not associated with an observable decrease in mtDNA, as the levels in patient cells fell within normal limits (Fig. 4B). .
+[LINE#234] After assessing the mtDNA copy number it was clear that this change in nucleoid presentation was not associated with an observable decrease in mtDNA, as the levels in patient cells fell within normal limits (Fig. 4B). .
 0.943	[*A*]the levels in patient cells[*R*]fell[*A*]within normal limits	context()	negated: False ,passive: True
-[LINE#205]Asp325Tyr recombinant FARS2 indicated a significant decrease in both aminoacylation capacity and ATP bindingTo investigate if the FARS2 mutation in the patient cells was responsible for compromised mt-tRNA aminoacylation efficiency, we assessed in vitro aminoacylation activity of a recombinant FARS2 protein engineered to carry the identical p.
+[LINE#235] Asp325Tyr recombinant FARS2 indicated a significant decrease in both aminoacylation capacity and ATP bindingTo investigate if the FARS2 mutation in the patient cells was responsible for compromised mt-tRNA aminoacylation efficiency, we assessed in vitro aminoacylation activity of a recombinant FARS2 protein engineered to carry the identical p.
 0.939	[*A*]a recombinant FARS2 protein[*R*]engineered[*A*]to carry the identical p.	context()	negated: False ,passive: True
 0.970	[*A*]the FARS2 mutation in the patient cells[*R*]was[*A*]responsible for compromised mt - tRNA aminoacylation efficiency	context()	negated: False ,passive: True
 0.443	[*A*]we[*R*]assessed[*A*]in vitro aminoacylation activity of a recombinant FARS2 protein	context(Asp325Tyr recombinant ATP bindingTo investigate)	negated: False ,passive: False
 0.846	[*A*]Asp325Tyr recombinant ATP bindingTo[*R*]investigate[*A*]we assessed in vitro aminoacylation activity of a recombinant FARS2 protein	context()	negated: False ,passive: False
 0.902	[*A*]FARS2[*R*]indicated[*A*]a significant decrease in both aminoacylation capacity	context(Asp325Tyr recombinant)	negated: False ,passive: False
 0.917	[*A*]Asp325Tyr[*R*]recombinant[*A*]FARS2 indicated a significant decrease in both aminoacylation capacity	context()	negated: False ,passive: False
-[LINE#206]Asp325Tyr missense mutation as observed in our patient.
+[LINE#236] Asp325Tyr missense mutation as observed in our patient.
 0.865	[*A*]Asp325Tyr missense mutation[*R*]observed[*A*]in our patient	context()	negated: False ,passive: False
-[LINE#207]Both the mutant and wild-type recombinant proteins were assessed for monodispersion prior to activity assays.
+[LINE#237] Both the mutant and wild-type recombinant proteins were assessed for monodispersion prior to activity assays.
 0.938	[*A*]Both the wild - type recombinant proteins[*R*]were assessed[*A*]for monodispersion[*A*]prior to activity assays	context()	negated: False ,passive: True
 0.926	[*A*]Both the mutant recombinant proteins[*R*]were assessed[*A*]for monodispersion[*A*]prior to activity assays	context()	negated: False ,passive: True
-[LINE#208]Wild type FARS2 showed good activity on both the bacterial tRNA and human mt-tRNAPhe.
+[LINE#238] Wild type FARS2 showed good activity on both the bacterial tRNA and human mt-tRNAPhe.
 0.933	[*A*]Wild type FARS2[*R*]showed[*A*]good activity	context()	negated: False ,passive: False
-[LINE#209] As expected this activity was ATP dependent (.
+[LINE#239]  As expected this activity was ATP dependent (.
 0.937	[*A*]this activity[*R*]was[*A*]ATP dependent	context()	negated: False ,passive: True
-[LINE#210] In contrast, mutant FARS2 protein showed no detectable activity on either bacterial or human mt-tRNAPhe substrate even in the presence of ATP (Fig..
+[LINE#240]  In contrast, mutant FARS2 protein showed no detectable activity on either bacterial or human mt-tRNAPhe substrate even in the presence of ATP (Fig..
 0.911	[*A*]mutant FARS2 protein[*R*]showed[*A*]no detectable activity	context()	negated: False ,passive: False
-[LINE#211]In addition, we examined the previously reported crystal structure of FARS2 [30], upon which we superimposed the predicted structure of the p.
+[LINE#241] In addition, we examined the previously reported crystal structure of FARS2 [30], upon which we superimposed the predicted structure of the p.
 0.452	[*A*]we[*R*]superimposed[*A*]the predicted structure of the p.	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]examined[*A*]the previously reported crystal structure of FARS2	context()	negated: False ,passive: False
-[LINE#212] The modest distortion suggested that the FARS2 mutation would widen the ATP binding pocket and thus decrease affinity for ATP.
+[LINE#242]  The modest distortion suggested that the FARS2 mutation would widen the ATP binding pocket and thus decrease affinity for ATP.
 0.897	[*A*]the FARS2 mutation[*R*]would decrease[*A*]affinity for ATP	context(The modest distortion suggested)	negated: False ,passive: False
 0.853	[*A*]The modest distortion[*R*]suggested[*A*]that the FARS2 mutation would thus decrease affinity for ATP	context()	negated: False ,passive: False
 0.931	[*A*]the FARS2 mutation[*R*]would widen[*A*]the ATP binding pocket	context(The modest distortion suggested)	negated: False ,passive: False
 0.853	[*A*]The modest distortion[*R*]suggested[*A*]that the FARS2 mutation would widen the ATP binding pocket	context()	negated: False ,passive: False
-[LINE#213]Therefore, we further assessed the ability of both mutant and wild-type FARS2 to bind ATP in vitro.
+[LINE#243] Therefore, we further assessed the ability of both mutant and wild-type FARS2 to bind ATP in vitro.
 0.456	[*A*]we[*R*]assessed[*A*]the ability of both to bind ATP in vitro	context()	negated: False ,passive: False
 0.411	[*A*]we[*R*]assessed[*A*]the ability of both mutant in vitro	context()	negated: False ,passive: False
-[LINE#214]As predicted, wild type FARS2 protein showed high levels of ATP binding in contrast to the mutant p.
+[LINE#244] As predicted, wild type FARS2 protein showed high levels of ATP binding in contrast to the mutant p.
 0.931	[*A*]wild type FARS2 protein[*R*]showed[*A*]high levels of ATP	context()	negated: False ,passive: False
-[LINE#215] Asp325Tyr FARS2 protein, which showed no detectable ATP binding (Fig.5B).To investigate if the FARS2 mutation in the patient cells was responsible for compromised mt-tRNA aminoacylation efficiency, we assessed in vitro aminoacylation activity of a recombinant FARS2 protein engineered to carry the identical p.
+[LINE#245+246]  Asp325Tyr FARS2 protein, which showed no detectable ATP binding (Fig.5B).To investigate if the FARS2 mutation in the patient cells was responsible for compromised mt-tRNA aminoacylation efficiency, we assessed in vitro aminoacylation activity of a recombinant FARS2 protein engineered to carry the identical p.
 0.970	[*A*]the FARS2 mutation in the patient cells[*R*]was[*A*]responsible for compromised mt-tRNA aminoacylation efficiency	context()	negated: False ,passive: True
 0.481	[*A*]Asp325Tyr FARS2 protein[*R*]To investigate showed	context(Asp325Tyr FARS2 protein To investigate)	negated: False ,passive: False
 0.586	[*A*]Asp325Tyr FARS2 protein[*R*]To investigate	context()	negated: False ,passive: False
 0.939	[*A*]a recombinant FARS2 protein[*R*]engineered[*A*]to carry the identical p.	context()	negated: False ,passive: True
 0.788	[*A*]detectable ATP[*R*]binding	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]assessed[*A*]in vitro aminoacylation activity of a recombinant FARS2 protein	context()	negated: False ,passive: False
-[LINE#216]Asp325Tyr missense mutation as observed in our patient.
+[LINE#247] Asp325Tyr missense mutation as observed in our patient.
 0.865	[*A*]Asp325Tyr missense mutation[*R*]observed[*A*]in our patient	context()	negated: False ,passive: False
-[LINE#217]Both the mutant and wild-type recombinant proteins were assessed for monodispersion prior to activity assays.
+[LINE#248] Both the mutant and wild-type recombinant proteins were assessed for monodispersion prior to activity assays.
 0.938	[*A*]Both the wild - type recombinant proteins[*R*]were assessed[*A*]for monodispersion[*A*]prior to activity assays	context()	negated: False ,passive: True
 0.926	[*A*]Both the mutant recombinant proteins[*R*]were assessed[*A*]for monodispersion[*A*]prior to activity assays	context()	negated: False ,passive: True
-[LINE#218]Wild type FARS2 showed good activity on both the bacterial tRNA and human mt-tRNAPhe.
+[LINE#249] Wild type FARS2 showed good activity on both the bacterial tRNA and human mt-tRNAPhe.
 0.933	[*A*]Wild type FARS2[*R*]showed[*A*]good activity	context()	negated: False ,passive: False
-[LINE#219] As expected this activity was ATP dependent (.
+[LINE#250]  As expected this activity was ATP dependent (.
 0.937	[*A*]this activity[*R*]was[*A*]ATP dependent	context()	negated: False ,passive: True
-[LINE#220] In contrast, mutant FARS2 protein showed no detectable activity on either bacterial or human mt-tRNAPhe substrate even in the presence of ATP (Fig..
+[LINE#251]  In contrast, mutant FARS2 protein showed no detectable activity on either bacterial or human mt-tRNAPhe substrate even in the presence of ATP (Fig..
 0.911	[*A*]mutant FARS2 protein[*R*]showed[*A*]no detectable activity	context()	negated: False ,passive: False
-[LINE#221]In addition, we examined the previously reported crystal structure of FARS2 [30], upon which we superimposed the predicted structure of the p.
+[LINE#252] In addition, we examined the previously reported crystal structure of FARS2 [30], upon which we superimposed the predicted structure of the p.
 0.452	[*A*]we[*R*]superimposed[*A*]the predicted structure of the p.	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]examined[*A*]the previously reported crystal structure of FARS2	context()	negated: False ,passive: False
-[LINE#222] The modest distortion suggested that the FARS2 mutation would widen the ATP binding pocket and thus decrease affinity for ATP.
+[LINE#253]  The modest distortion suggested that the FARS2 mutation would widen the ATP binding pocket and thus decrease affinity for ATP.
 0.897	[*A*]the FARS2 mutation[*R*]would decrease[*A*]affinity for ATP	context(The modest distortion suggested)	negated: False ,passive: False
 0.853	[*A*]The modest distortion[*R*]suggested[*A*]that the FARS2 mutation would thus decrease affinity for ATP	context()	negated: False ,passive: False
 0.931	[*A*]the FARS2 mutation[*R*]would widen[*A*]the ATP binding pocket	context(The modest distortion suggested)	negated: False ,passive: False
 0.853	[*A*]The modest distortion[*R*]suggested[*A*]that the FARS2 mutation would widen the ATP binding pocket	context()	negated: False ,passive: False
-[LINE#223]Therefore, we further assessed the ability of both mutant and wild-type FARS2 to bind ATP in vitro.
+[LINE#254] Therefore, we further assessed the ability of both mutant and wild-type FARS2 to bind ATP in vitro.
 0.456	[*A*]we[*R*]assessed[*A*]the ability of both to bind ATP in vitro	context()	negated: False ,passive: False
 0.411	[*A*]we[*R*]assessed[*A*]the ability of both mutant in vitro	context()	negated: False ,passive: False
-[LINE#224]As predicted, wild type FARS2 protein showed high levels of ATP binding in contrast to the mutant p.
+[LINE#255] As predicted, wild type FARS2 protein showed high levels of ATP binding in contrast to the mutant p.
 0.931	[*A*]wild type FARS2 protein[*R*]showed[*A*]high levels of ATP	context()	negated: False ,passive: False
-[LINE#225]Asp325Tyr FARS2 protein, which showed no detectable ATP binding (Fig. 5B). .
+[LINE#256] Asp325Tyr FARS2 protein, which showed no detectable ATP binding (Fig. 5B). .
 0.790	[*A*]Asp325Tyr FARS2 protein, which showed no detectable ATP[*R*]binding	context()	negated: False ,passive: False
 0.879	[*A*]Asp325Tyr FARS2 protein[*R*]showed[*A*]no detectable ATP binding (Fig. 5B	context()	negated: False ,passive: False
-[LINE#226]Transduction of patient myoblasts restored the steady state level of both OXPHOS polypeptides and mt-tRNAPheImmortalised patient and control myoblasts were transduced with a lentiviral construct that would express wild type FARS2.
+[LINE#257] Transduction of patient myoblasts restored the steady state level of both OXPHOS polypeptides and mt-tRNAPheImmortalised patient and control myoblasts were transduced with a lentiviral construct that would express wild type FARS2.
 0.919	[*A*]Transduction of patient myoblasts[*R*]restored[*A*]the steady state level of mt - control myoblasts	context()	negated: False ,passive: False
 0.948	[*A*]Transduction of patient myoblasts[*R*]restored[*A*]the steady state level of mt - tRNAPheImmortalised patient myoblasts	context()	negated: False ,passive: False
 0.913	[*A*]a lentiviral construct[*R*]would express[*A*]wild type FARS2	context()	negated: False ,passive: False
 0.931	[*A*]Transduction of patient myoblasts[*R*]restored[*A*]the steady state level of both OXPHOS polypeptides	context()	negated: False ,passive: False
-[LINE#227]Following antibiotic selection to propagate transduced cells, RNA and cell lysates were prepared.
+[LINE#258] Following antibiotic selection to propagate transduced cells, RNA and cell lysates were prepared.
 0.933	[*A*]cell lysates[*R*]were prepared[*A*]Following antibiotic selection to propagate transduced cells	context()	negated: False ,passive: True
 0.898	[*A*]RNA[*R*]were prepared[*A*]Following antibiotic selection to propagate transduced cells	context()	negated: False ,passive: True
-[LINE#228]Similar analyses to those already described were performed on cell lines following transduction to examine steady state levels of both OXPHOS polypeptides and mt-tRNAs.
+[LINE#259] Similar analyses to those already described were performed on cell lines following transduction to examine steady state levels of both OXPHOS polypeptides and mt-tRNAs.
 0.905	[*A*]Similar analyses to those[*R*]were performed[*A*]on cell lines	context()	negated: False ,passive: True
 0.140	[*A*]those[*R*]described[*A*]already	context()	negated: False ,passive: True
-[LINE#229] Although Western blot analysis is at best semi-quantitative, steady state levels of mitochondrial aminoacyltRNA synthetases does generally appear to be very low requiring high amounts of mitochondrial protein to allow detection [31].
+[LINE#260+261]  Although Western blot analysis is at best semi-quantitative, steady state levels of mitochondrial aminoacyltRNA synthetases does generally appear to be very low requiring high amounts of mitochondrial protein to allow detection [31].
 0.926	[*A*]high amounts of mitochondrial protein[*R*]to allow[*A*]detection [31	context()	negated: False ,passive: False
 0.963	[*A*]Western blot analysis[*R*]is[*A*]at best semi-quantitative, steady state levels of mitochondrial aminoacyltRNA synthetases	context()	negated: False ,passive: True
-[LINE#230]The transduction procedure was performed simultaneously for both control and patient myoblasts, and although the level of FARS2 expression became significantly increased in both lines, the expression levels appeared to be even higher in the patient (Fig. 6A, cf C1 vs P).
+[LINE#262] The transduction procedure was performed simultaneously for both control and patient myoblasts, and although the level of FARS2 expression became significantly increased in both lines, the expression levels appeared to be even higher in the patient (Fig. 6A, cf C1 vs P).
 0.911	[*A*]The transduction procedure[*R*]was performed simultaneously[*A*]for both patient myoblasts	context()	negated: False ,passive: True
 0.911	[*A*]The transduction procedure[*R*]was performed simultaneously[*A*]for both control	context()	negated: False ,passive: True
 0.897	[*A*]the expression levels[*R*]to be[*A*]even higher in the patient	context()	negated: False ,passive: True
 0.751	[*A*]the expression levels[*R*]appeared	context()	negated: False ,passive: False
 0.934	[*A*]the level of FARS2 expression[*R*]significantly increased[*A*]in both lines	context()	negated: False ,passive: True
 0.944	[*A*]the level of FARS2 expression[*R*]became[*A*]significantly increased in both lines	context()	negated: False ,passive: True
-[LINE#231]Analysis of steady state levels of mitochondrially encoded COXI and COXII, which were lower than control in untransduced cells, were now restored, even exceeding control levels.
+[LINE#263] Analysis of steady state levels of mitochondrially encoded COXI and COXII, which were lower than control in untransduced cells, were now restored, even exceeding control levels.
 0.899	[*A*]Analysis of steady state levels of COXII[*R*]exceeding[*A*]control levels	context()	negated: False ,passive: False
 0.896	[*A*]Analysis of steady state levels of COXII[*R*]were restored[*A*]even exceeding control levels[*A*]now	context()	negated: False ,passive: True
 0.906	[*A*]COXII[*R*]were[*A*]lower than control in untransduced cells	context()	negated: False ,passive: True
 0.955	[*A*]Analysis of steady state levels of mitochondrially encoded COXI[*R*]exceeding[*A*]control levels	context()	negated: False ,passive: False
 0.953	[*A*]Analysis of steady state levels of mitochondrially encoded COXI[*R*]were restored[*A*]even exceeding control levels[*A*]now	context()	negated: False ,passive: True
 0.922	[*A*]mitochondrially encoded COXI[*R*]were[*A*]lower than control in untransduced cells	context()	negated: False ,passive: True
-[LINE#232] Similarly following transduction, analysis of mt-tRNAPhe levels indicated an increase from ~46% to >90% relative to control.
+[LINE#264]  Similarly following transduction, analysis of mt-tRNAPhe levels indicated an increase from ~46% to >90% relative to control.
 0.975	[*A*]analysis of mt-tRNAPhe levels[*R*]indicated[*A*]an increase from ~46% to >90% relative to control[*A*]Similarly following transduction	context()	negated: False ,passive: False
-[LINE#233]Transduction appeared to leave levels of mt-tRNAVal and mt-tRNALeu(UUR) unchanged (Fig. 6B).
+[LINE#265] Transduction appeared to leave levels of mt-tRNAVal and mt-tRNALeu(UUR) unchanged (Fig. 6B).
 0.932	[*A*]Transduction[*R*]to leave[*A*]levels of mt - mt - tRNALeu ( UUR ) unchanged ( Fig . 6B	context()	negated: False ,passive: False
 0.932	[*A*]Transduction[*R*]to leave[*A*]levels of mt - tRNAVal unchanged ( Fig . 6B	context()	negated: False ,passive: False
 0.713	[*A*]Transduction[*R*]appeared	context()	negated: False ,passive: False
-[LINE#234]Together these data indicate that replacement of wild type FARS2 was sufficient to restore levels of mt-tRNAPhe and complex IV polypeptides.
+[LINE#266] Together these data indicate that replacement of wild type FARS2 was sufficient to restore levels of mt-tRNAPhe and complex IV polypeptides.

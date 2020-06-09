@@ -1,88 +1,88 @@
-[LINE#1]The disruption of large-scale brain networks is increasingly recognised as a consequence of neurodegenerative dementias.
+[LINE#0] The disruption of large-scale brain networks is increasingly recognised as a consequence of neurodegenerative dementias.
 0.916	[*A*]The disruption of large-scale brain networks[*R*]is recognised[*A*]as a consequence of neurodegenerative dementias	context()	negated: False ,passive: True
-[LINE#2]We assessed adults with behavioural variant frontotemporal dementia and progressive supranuclear palsy using magnetoencephalography during an auditory oddball paradigm.
+[LINE#1] We assessed adults with behavioural variant frontotemporal dementia and progressive supranuclear palsy using magnetoencephalography during an auditory oddball paradigm.
 0.911	[*A*]progressive supranuclear palsy[*R*]using[*A*]magnetoencephalography[*A*]during an auditory oddball paradigm	context()	negated: False ,passive: False
 0.569	[*A*]We[*R*]assessed[*A*]adults with progressive supranuclear palsy using magnetoencephalography during an auditory oddball paradigm	context()	negated: False ,passive: False
 0.919	[*A*]behavioural variant frontotemporal dementia[*R*]using[*A*]magnetoencephalography[*A*]during an auditory oddball paradigm	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]assessed[*A*]adults	context()	negated: False ,passive: False
-[LINE#3]Network connectivity among bilateral temporal, frontal and parietal sources was examined using dynamic causal modelling.
+[LINE#2] Network connectivity among bilateral temporal, frontal and parietal sources was examined using dynamic causal modelling.
 0.856	[*A*]Network connectivity among bilateral temporal, frontal and parietal sources[*R*]was examined	context()	negated: False ,passive: False
-[LINE#4]We found evidence for a systematic change in effective connectivity in both diseases.
+[LINE#3] We found evidence for a systematic change in effective connectivity in both diseases.
 0.569	[*A*]We[*R*]found[*A*]evidence for a systematic change in effective connectivity in both diseases	context()	negated: False ,passive: False
-[LINE#5]Compared with healthy subjects, who had focal modulation of intrahemispheric frontal-temporal connections, the patient groups showed abnormally extensive and inefficient networks.
+[LINE#4] Compared with healthy subjects, who had focal modulation of intrahemispheric frontal-temporal connections, the patient groups showed abnormally extensive and inefficient networks.
 0.911	[*A*]the patient groups[*R*]showed[*A*]abnormally inefficient networks	context()	negated: False ,passive: False
 0.911	[*A*]the patient groups[*R*]showed[*A*]abnormally extensive networks	context()	negated: False ,passive: False
 0.913	[*A*]healthy subjects[*R*]had[*A*]focal modulation of intrahemispheric frontal - temporal connections	context()	negated: False ,passive: False
-[LINE#6]The changes in connectivity were accompanied by impaired responses of the auditory cortex to unexpected deviant tones (MMNm), despite normal responses to standard stimuli.
+[LINE#5] The changes in connectivity were accompanied by impaired responses of the auditory cortex to unexpected deviant tones (MMNm), despite normal responses to standard stimuli.
 0.948	[*A*]The changes in connectivity[*R*]were accompanied[*A*]by impaired responses of the auditory cortex to unexpected deviant tones[*A*]despite normal responses to standard stimuli	context()	negated: False ,passive: True
-[LINE#7]Together, these results suggest that neurodegeneration in two distinct clinical syndromes with overlapping profiles of prefrontal atrophy, causes a similar pattern of reorganisation of large-scale networks.
-[LINE#8]We discuss this network reorganisation in the context of other focal brain disorders and the specific vulnerability of functional brain networks to neurodegenerative disease.
+[LINE#6] Together, these results suggest that neurodegeneration in two distinct clinical syndromes with overlapping profiles of prefrontal atrophy, causes a similar pattern of reorganisation of large-scale networks.
+[LINE#7] We discuss this network reorganisation in the context of other focal brain disorders and the specific vulnerability of functional brain networks to neurodegenerative disease.
 0.569	[*A*]We[*R*]discuss[*A*]this network reorganisation[*A*]in the context of the specific vulnerability of functional brain networks to neurodegenerative disease	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]discuss[*A*]this network reorganisation[*A*]in the context of other focal brain disorders	context()	negated: False ,passive: False
-[LINE#9] We have shown that two neurodegenerative syndromes, bvFTDand PSP, cause a similar change in the organisation of large-scale functional brain networks.
+[LINE#8+9]  We have shown that two neurodegenerative syndromes, bvFTDand PSP, cause a similar change in the organisation of large-scale functional brain networks.
 0.918	[*A*]two neurodegenerative syndromes[*R*]cause[*A*]a similar change in the organisation of large-scale functional brain networks	context(We have shown)	negated: False ,passive: False
 0.317	[*A*]We[*R*]have shown[*A*]that two neurodegenerative syndromes, bvFTDand PSP, cause a similar change in the organisation of large-scale functional brain networks	context()	negated: False ,passive: False
-[LINE#10]The sparse intrahemispheric network with modulation of frontal-temporal connectivity was replaced by a widely distributed network with interhemispheric connectivity, and modulation of frontal-parietal and temporal-parietal connections.
+[LINE#10] The sparse intrahemispheric network with modulation of frontal-temporal connectivity was replaced by a widely distributed network with interhemispheric connectivity, and modulation of frontal-parietal and temporal-parietal connections.
 0.973	[*A*]The sparse intrahemispheric network with modulation of frontal - temporal connectivity[*R*]was replaced[*A*]by a widely distributed network with modulation of frontal - parietal and temporal - parietal connections	context()	negated: False ,passive: True
 0.957	[*A*]The sparse intrahemispheric network with modulation of frontal - temporal connectivity[*R*]was replaced[*A*]by a widely distributed network with interhemispheric connectivity	context()	negated: False ,passive: True
-[LINE#11]These network changes were accompanied by reduced amplitudes and delayed latencies of the MMNm.
+[LINE#11] These network changes were accompanied by reduced amplitudes and delayed latencies of the MMNm.
 0.925	[*A*]These network changes[*R*]were accompanied[*A*]by delayed latencies of the MMNm	context()	negated: False ,passive: True
 0.911	[*A*]These network changes[*R*]were accompanied[*A*]by reduced amplitudes	context()	negated: False ,passive: True
-[LINE#12]The similarity of the response of the neural networks to two clinically distinct disorders may reflect commonalities in their neuropathology, and is likely to be a response to focal degeneration in prefrontal cortex.
+[LINE#12] The similarity of the response of the neural networks to two clinically distinct disorders may reflect commonalities in their neuropathology, and is likely to be a response to focal degeneration in prefrontal cortex.
 0.887	[*A*]The similarity[*R*]to be[*A*]a response to focal degeneration in prefrontal cortex	context()	negated: False ,passive: True
 0.952	[*A*]The similarity[*R*]is[*A*]likely to be a response to focal degeneration in prefrontal cortex	context()	negated: False ,passive: True
 0.942	[*A*]The similarity of the response of the neural networks to two clinically distinct disorders[*R*]may reflect[*A*]commonalities in their neuropathology	context()	negated: False ,passive: True
-[LINE#13]This response includes recruitment to the network and more extensive, albeit inefficient, contextual modulation of connectivity.
+[LINE#13] This response includes recruitment to the network and more extensive, albeit inefficient, contextual modulation of connectivity.
 0.937	[*A*]This response[*R*]includes[*A*]recruitment to the more extensive , albeit inefficient , contextual modulation of connectivity	context()	negated: False ,passive: True
 0.937	[*A*]This response[*R*]includes[*A*]recruitment to the network inefficient , contextual modulation of connectivity	context()	negated: False ,passive: True
-[LINE#14]Given the importance of change detection to many higher cognitive functions, including learning and goal-directed behaviours, dysregulation of its underlying network may contribute to the higher order cognitive deficits observed in bvFTD and PSP.
+[LINE#14] Given the importance of change detection to many higher cognitive functions, including learning and goal-directed behaviours, dysregulation of its underlying network may contribute to the higher order cognitive deficits observed in bvFTD and PSP.
 0.937	[*A*]the higher order cognitive deficits[*R*]observed[*A*]in PSP	context()	negated: False ,passive: True
 0.937	[*A*]the higher order cognitive deficits[*R*]observed[*A*]in bvFTD	context()	negated: False ,passive: True
-[LINE#15]However, before these methods can be adopted as biomarkers for dementias, further work will be required to show the temporal evolution of plexopathy, and the extent to which it can be reversed by candidate therapies.
+[LINE#15] However, before these methods can be adopted as biomarkers for dementias, further work will be required to show the temporal evolution of plexopathy, and the extent to which it can be reversed by candidate therapies.
 0.452	[*A*]it[*R*]can be reversed[*A*]by candidate therapies	context()	negated: False ,passive: True
 0.887	[*A*]further work[*R*]to show[*A*]the temporal evolution of plexopathy	context()	negated: False ,passive: False
 0.964	[*A*]further work[*R*]will be required[*A*]to show the temporal evolution of plexopathy, and the extent[*A*]before these methods can be adopted as biomarkers for dementias	context()	negated: False ,passive: True
 0.903	[*A*]these methods[*R*]can be adopted[*A*]as biomarkers for dementias	context()	negated: False ,passive: True
-[LINE#16]This study confirms our principal hypothesis, regarding changes in functional brain networks caused by frontotemporal dementia and progressive supranuclear palsy.
+[LINE#16] This study confirms our principal hypothesis, regarding changes in functional brain networks caused by frontotemporal dementia and progressive supranuclear palsy.
 0.911	[*A*]functional brain networks[*R*]caused[*A*]by progressive supranuclear palsy	context()	negated: False ,passive: True
 0.911	[*A*]functional brain networks[*R*]caused[*A*]by frontotemporal dementia	context()	negated: False ,passive: True
 0.835	[*A*]This study[*R*]confirms[*A*]our principal hypothesis	context()	negated: False ,passive: False
-[LINE#17]There was a common pattern of reorganisation in response to both neurodegenerative diseases, with the recruitment of a more extended network in response to auditory stimuli.
-[LINE#18]There were additional abnormal interactions among frontal, temporal and parietal cortex, which were all modulated by the contextual difference between the standard and deviant tones.
+[LINE#17] There was a common pattern of reorganisation in response to both neurodegenerative diseases, with the recruitment of a more extended network in response to auditory stimuli.
+[LINE#18] There were additional abnormal interactions among frontal, temporal and parietal cortex, which were all modulated by the contextual difference between the standard and deviant tones.
 0.882	[*A*]cortex[*R*]were modulated[*A*]by the contextual difference between the standard and deviant tones	context()	negated: False ,passive: True
-[LINE#19]Despite this extended network there was a concomitant reduction in the temporal cortical responses to unpredictable stimuli: both amplitude and latency of the MMNm response to deviant stimuli were affected.
+[LINE#19] Despite this extended network there was a concomitant reduction in the temporal cortical responses to unpredictable stimuli: both amplitude and latency of the MMNm response to deviant stimuli were affected.
 0.853	[*A*]both latency of the MMNm response to deviant stimuli[*R*]were affected	context()	negated: False ,passive: False
 0.686	[*A*]both amplitude[*R*]were affected	context()	negated: False ,passive: False
-[LINE#20]In healthy older adults, there was evidence in favour of a sparse network with focal anatomical connectivity and restricted contextual modulation of only anterior frontal-temporal connections.
-[LINE#21]This concurs with previous studies using DCM of mismatch negativity.
+[LINE#20] In healthy older adults, there was evidence in favour of a sparse network with focal anatomical connectivity and restricted contextual modulation of only anterior frontal-temporal connections.
+[LINE#21] This concurs with previous studies using DCM of mismatch negativity.
 0.918	[*A*]previous studies[*R*]using[*A*]DCM of mismatch negativity	context()	negated: False ,passive: False
 0.153	[*A*]This[*R*]concurs	context()	negated: False ,passive: False
-[LINE#22]For example, in young adults with a roving oddball paradigm, Garrido et al.
-[LINE#23](2008, 2009b) found that the most likely network had bidirectional frontal-temporal connections, with connectivity modulated by the difference between the standard and deviant tones.
+[LINE#22] For example, in young adults with a roving oddball paradigm, Garrido et al.
+[LINE#23] (2008, 2009b) found that the most likely network had bidirectional frontal-temporal connections, with connectivity modulated by the difference between the standard and deviant tones.
 0.894	[*A*]connectivity[*R*]modulated[*A*]by the difference between the standard and deviant tones	context()	negated: False ,passive: True
-[LINE#24]Despite minor differences in task and network models, the organisational principles of the likely brain network were similar across studies: sparse and efficient connectivity for change detection.
-[LINE#25]In contrast, both patient groups were associated with a very different network model as the most likely, given the observed data.
+[LINE#24] Despite minor differences in task and network models, the organisational principles of the likely brain network were similar across studies: sparse and efficient connectivity for change detection.
+[LINE#25] In contrast, both patient groups were associated with a very different network model as the most likely, given the observed data.
 0.943	[*A*]both patient groups[*R*]were associated[*A*]with a very different network model as the most likely, given the observed data	context()	negated: False ,passive: True
-[LINE#26]The focal intrahemispheric networks were supplemented by interhemispheric connections, together with contextual modulation of all connections, including temporal-parietal connections, in response to deviant stimuli.
+[LINE#26] The focal intrahemispheric networks were supplemented by interhemispheric connections, together with contextual modulation of all connections, including temporal-parietal connections, in response to deviant stimuli.
 0.919	[*A*]The focal intrahemispheric networks[*R*]were supplemented[*A*]by interhemispheric connections	context()	negated: False ,passive: True
-[LINE#27]The comparison of model evidences did not distinguish between bvFTD and PSP, at either the family level of network architecture, or at the level of modulation of connections in response to change detection.
+[LINE#27] The comparison of model evidences did not distinguish between bvFTD and PSP, at either the family level of network architecture, or at the level of modulation of connections in response to change detection.
 0.937	[*A*]The comparison of model evidences[*R*]did not distinguish[*A*]between bvFTD and PSP	context()	negated: True ,passive: False
-[LINE#28]This suggests that disruption within the network can result in a generic shift of connectivity, leading to a similar response in terms of an inefficient and distributed network in both diseases.
+[LINE#28] This suggests that disruption within the network can result in a generic shift of connectivity, leading to a similar response in terms of an inefficient and distributed network in both diseases.
 0.944	[*A*]a generic shift of connectivity[*R*]leading[*A*]to a similar response in terms of an distributed network in both diseases	context()	negated: False ,passive: False
 0.900	[*A*]disruption within the network[*R*]can result[*A*]in a generic shift of connectivity	context(This suggests)	negated: False ,passive: True
 0.224	[*A*]This[*R*]suggests[*A*]that disruption within the network can result in a generic shift of connectivity	context()	negated: False ,passive: False
 0.944	[*A*]a generic shift of connectivity[*R*]leading[*A*]to a similar response in terms of an inefficient network in both diseases	context()	negated: False ,passive: False
-[LINE#29] In the two patient groups the strength of interhemispheric connections was related to measures of disease severity; more specifically increased temporal connectivity predicted poorer neuropsychological performance in both groups(ACE-r in PSP and verbal fluency in bvFTD) suggesting that this deviation from the pattern in health is a function of the disease process.
+[LINE#29+30]  In the two patient groups the strength of interhemispheric connections was related to measures of disease severity; more specifically increased temporal connectivity predicted poorer neuropsychological performance in both groups(ACE-r in PSP and verbal fluency in bvFTD) suggesting that this deviation from the pattern in health is a function of the disease process.
 0.875	[*A*]more specifically increased temporal connectivity[*R*]predicted[*A*]poorer neuropsychological performance in both groups ( ACE - r in verbal fluency in bvFTD ) suggesting that this deviation from the pattern in health is a function of the disease process	context()	negated: False ,passive: False
 0.941	[*A*]this deviation from the pattern in health[*R*]is[*A*]a function of the disease process	context(poorer neuropsychological performance in both groups suggesting)	negated: False ,passive: True
 0.845	[*A*]poorer neuropsychological performance in both groups[*R*]suggesting[*A*]that this deviation from the pattern in health is a function of the disease process	context()	negated: False ,passive: False
 0.947	[*A*]the strength of interhemispheric connections[*R*]was related[*A*]to measures of disease severity[*A*]In the two patient groups	context(more specifically increased temporal connectivity predicted)	negated: False ,passive: True
 0.875	[*A*]more specifically increased temporal connectivity[*R*]predicted[*A*]poorer neuropsychological performance in both groups ( ACE - r in PSP suggesting that this deviation from the pattern in health is a function of the disease process	context()	negated: False ,passive: False
-[LINE#30]In bvFTD, increased frontal and parietal interhemispheric connectivity also predicted better verbal fluency, which may potentially be compensatory.
+[LINE#31] In bvFTD, increased frontal and parietal interhemispheric connectivity also predicted better verbal fluency, which may potentially be compensatory.
 0.897	[*A*]parietal interhemispheric connectivity[*R*]predicted[*A*]better verbal fluency , which may potentially be compensatory	context()	negated: False ,passive: False
 0.666	[*A*]better verbal fluency[*R*]may be[*A*]compensatory	context()	negated: False ,passive: True
 0.897	[*A*]frontal interhemispheric connectivity[*R*]predicted[*A*]better verbal fluency , which may potentially be compensatory	context()	negated: False ,passive: False
-[LINE#31]Previous research also indicates that neuropsychological performance correlates with changes in electrophysiology: including relationships between frontal neuropsychological tests and P50 gating (Thomas et al., 2010); habituation of the N100 and verbal fluency (Soininen et al., 1995) and MMN amplitude and memory (Ruzzoli et al., 2012).The similar patterns of network connectivity in bvFTD and PSP might be explained by the partially overlapping profiles of prefrontal cortical atrophy and dysfunction in both diseases, despite diverse patterns of underlying neuropathology (Josephs et al., 2006; Mackenzie et al., 2011; Rohrer et al., 2011; Seelaar et al., 2011), although the atrophy is less severe in the frontal lobes of PSP than bvFTD.
+[LINE#32] Previous research also indicates that neuropsychological performance correlates with changes in electrophysiology: including relationships between frontal neuropsychological tests and P50 gating (Thomas et al., 2010); habituation of the N100 and verbal fluency (Soininen et al., 1995) and MMN amplitude and memory (Ruzzoli et al., 2012).The similar patterns of network connectivity in bvFTD and PSP might be explained by the partially overlapping profiles of prefrontal cortical atrophy and dysfunction in both diseases, despite diverse patterns of underlying neuropathology (Josephs et al., 2006; Mackenzie et al., 2011; Rohrer et al., 2011; Seelaar et al., 2011), although the atrophy is less severe in the frontal lobes of PSP than bvFTD.
 0.965	[*A*]The similar patterns of network connectivity in PSP[*R*]might be explained[*A*]by the partially overlapping profiles of prefrontal cortical dysfunction in both diseases[*A*]despite diverse patterns of underlying neuropathology	context(Previous research indicates)	negated: False ,passive: True
 0.965	[*A*]The similar patterns of network connectivity in PSP[*R*]might be explained[*A*]by the partially overlapping profiles of prefrontal cortical dysfunction in both diseases[*A*]despite diverse patterns of underlying neuropathology	context()	negated: False ,passive: True
 0.933	[*A*]neuropsychological performance[*R*]correlates[*A*]with changes in electrophysiology : including relationships between frontal neuropsychological tests and P50 gating ( Thomas et al	context(Previous research indicates The similar patterns of network connectivity in PSP might be explained)	negated: False ,passive: False
@@ -106,101 +106,101 @@
 0.810	[*A*]Previous research[*R*]indicates[*A*]that neuropsychological performance correlates with changes in electrophysiology : including relationships between frontal neuropsychological tests and P50 gating ( Thomas et al	context(The similar patterns of network connectivity in bvFTD might be explained)	negated: False ,passive: False
 0.946	[*A*]The similar patterns of network connectivity in bvFTD[*R*]might be explained[*A*]by the partially overlapping profiles of prefrontal cortical atrophy[*A*]despite diverse patterns of underlying neuropathology	context()	negated: False ,passive: True
 0.813	[*A*]the atrophy[*R*]is[*A*]less severe	context()	negated: False ,passive: True
-[LINE#32]The network similarity may also reflect the overlap of cognitive and behavioural impairments (Ghosh et al., 2012; Yatabe et al., 2011).
+[LINE#33] The network similarity may also reflect the overlap of cognitive and behavioural impairments (Ghosh et al., 2012; Yatabe et al., 2011).
 0.870	[*A*]The network similarity[*R*]may reflect[*A*]the overlap of behavioural impairments	context()	negated: False ,passive: True
 0.870	[*A*]The network similarity[*R*]may reflect[*A*]the overlap of cognitive impairments	context()	negated: False ,passive: True
-[LINE#33]Both diseases are associated with executive dysfunction (Bak and Hodges, 1998; Grafman et al., 1995; Millar et al., 2006), and poor social and emotion cognition (Ghosh et al., 2009, 2012; Keane et al., 2002; Rankin et al., 2005; Schrag et al., 2003).
+[LINE#34] Both diseases are associated with executive dysfunction (Bak and Hodges, 1998; Grafman et al., 1995; Millar et al., 2006), and poor social and emotion cognition (Ghosh et al., 2009, 2012; Keane et al., 2002; Rankin et al., 2005; Schrag et al., 2003).
 0.903	[*A*]Both diseases[*R*]are associated[*A*]with executive dysfunction	context()	negated: False ,passive: True
-[LINE#34] However, the two disorders are phenotypically distinct, at least in the study populations included here, despite reports of overlapping syndromes, occasional intermediate phenotypes or diagnostic evolution(Kertesz et al., 1999, 2011).The change in connectivity, from the sparse network model observed in health to a more distributed network in the patient groups, has two aspects of particular interest.
+[LINE#35+36]  However, the two disorders are phenotypically distinct, at least in the study populations included here, despite reports of overlapping syndromes, occasional intermediate phenotypes or diagnostic evolution(Kertesz et al., 1999, 2011).The change in connectivity, from the sparse network model observed in health to a more distributed network in the patient groups, has two aspects of particular interest.
 0.927	[*A*]the two disorders[*R*]are[*A*]phenotypically distinct[*A*]despite reports of overlapping syndromes, occasional intermediate phenotypes or diagnostic evolution	context(The change in connectivity , from the sparse network model observed)	negated: False ,passive: True
 0.940	[*A*]The change in connectivity, from the sparse network model[*R*]observed[*A*]in health[*A*]to a more distributed network in the patient groups	context()	negated: False ,passive: False
 0.962	[*A*]Kertesz et al., 1999, 2011[*R*]has[*A*]two aspects of particular interest	context()	negated: False ,passive: False
 0.783	[*A*]the study populations[*R*]included[*A*]here	context()	negated: False ,passive: True
-[LINE#35]The first is the inclusion and modulation of additional temporal-parietal connections.
+[LINE#37] The first is the inclusion and modulation of additional temporal-parietal connections.
 0.636	[*A*]The first[*R*]is[*A*]modulation of additional temporal - parietal connections	context()	negated: False ,passive: True
 0.636	[*A*]The first[*R*]is[*A*]the inclusion of additional temporal - parietal connections	context()	negated: False ,passive: True
-[LINE#36]This accords with observations from resting state studies which also demonstrate a posterior shift in activity with degenerative diseases that affect frontal cortex (Hughes and Rowe, 2013; Seeley et al., 2008; Zhou et al., 2010).
+[LINE#38] This accords with observations from resting state studies which also demonstrate a posterior shift in activity with degenerative diseases that affect frontal cortex (Hughes and Rowe, 2013; Seeley et al., 2008; Zhou et al., 2010).
 0.887	[*A*]degenerative diseases[*R*]affect[*A*]frontal cortex	context()	negated: False ,passive: False
 0.887	[*A*]state studies[*R*]demonstrate[*A*]a posterior shift in activity with degenerative diseases	context()	negated: False ,passive: False
-[LINE#37]This shift of increased connectivity in intact networks following reduced connectivity of damaged networks is reminiscent of the widespread changes observed after other forms of brain insult.
+[LINE#39] This shift of increased connectivity in intact networks following reduced connectivity of damaged networks is reminiscent of the widespread changes observed after other forms of brain insult.
 0.911	[*A*]the widespread changes[*R*]observed[*A*]after other forms of brain insult	context()	negated: False ,passive: True
 0.975	[*A*]This shift of increased connectivity in intact networks following reduced connectivity of damaged networks[*R*]is[*A*]reminiscent of the widespread changes	context()	negated: False ,passive: True
-[LINE#38] Such distributed reorganisation of macroscopic network connectivity, even remote from the regions of direct injury, has been associated with many different neurological conditions including stroke (Sharma et al., 2009), tumour excisions (Rowe et al., 2007) and.
+[LINE#40]  Such distributed reorganisation of macroscopic network connectivity, even remote from the regions of direct injury, has been associated with many different neurological conditions including stroke (Sharma et al., 2009), tumour excisions (Rowe et al., 2007) and.
 0.961	[*A*]Such distributed reorganisation of macroscopic network connectivity[*R*]has been associated[*A*]with many different neurological conditions including stroke ( Sharma et al . , 2009	context()	negated: False ,passive: True
-[LINE#39]Parkinson's disease (Rowe et al., 2010).The mechanism of this network reorganisation remains to be established, although our data are not sufficient to determine this.
+[LINE#41] Parkinson's disease (Rowe et al., 2010).The mechanism of this network reorganisation remains to be established, although our data are not sufficient to determine this.
 0.344	[*A*]our data[*R*]to determine[*A*]this	context()	negated: False ,passive: False
 0.383	[*A*]our data[*R*]are not[*A*]sufficient to determine this	context()	negated: True ,passive: True
 0.776	[*A*]Parkinson's disease[*R*]to be established	context()	negated: False ,passive: False
 0.911	[*A*]Parkinson's disease[*R*]remains[*A*]to be established, although our data are not sufficient to determine this	context()	negated: False ,passive: True
-[LINE#40]The posterior shift may be compensatory for loss of function in anterior regions, considering the relative integrity of posterior parietal lobes in both diseases despite any underlying pathological differences.
+[LINE#42] The posterior shift may be compensatory for loss of function in anterior regions, considering the relative integrity of posterior parietal lobes in both diseases despite any underlying pathological differences.
 0.943	[*A*]The posterior shift[*R*]may be[*A*]compensatory[*A*]considering the relative integrity of posterior parietal lobes in both diseases despite any underlying pathological differences	context()	negated: False ,passive: True
-[LINE#41]Alternatively, the shift may reflect relative disinhibition of posterior networks following frontal lobe dysfunction and loss of top down control.
+[LINE#43] Alternatively, the shift may reflect relative disinhibition of posterior networks following frontal lobe dysfunction and loss of top down control.
 0.903	[*A*]posterior networks[*R*]following[*A*]loss of top down control	context()	negated: False ,passive: False
 0.903	[*A*]posterior networks[*R*]following[*A*]frontal lobe dysfunction of top down control	context()	negated: False ,passive: False
 0.903	[*A*]the shift[*R*]may reflect[*A*]relative disinhibition of posterior networks	context()	negated: False ,passive: True
-[LINE#42] In patients who have focal lesions after stroke, rather than focal degeneration, recruitment of additional regions can be indicative of poorer recovery.
+[LINE#44]  In patients who have focal lesions after stroke, rather than focal degeneration, recruitment of additional regions can be indicative of poorer recovery.
 0.953	[*A*]recruitment of additional regions[*R*]can be[*A*]indicative of poorer recovery[*A*]In patients	context()	negated: False ,passive: True
 0.877	[*A*]patients[*R*]have[*A*]focal lesions after stroke	context()	negated: False ,passive: False
-[LINE#43]Thus increased activity in abnormal regions during degenerative disease may be a marker of decline.
-[LINE#44]Whether the extension of connected networks in response to frontal or frontotemporal degeneration is compensatory or not, it clearly distinguishes the patient populations from controls: the most likely network model for the control group was the least likely for the patient groups.
+[LINE#45] Thus increased activity in abnormal regions during degenerative disease may be a marker of decline.
+[LINE#46] Whether the extension of connected networks in response to frontal or frontotemporal degeneration is compensatory or not, it clearly distinguishes the patient populations from controls: the most likely network model for the control group was the least likely for the patient groups.
 0.397	[*A*]it[*R*]clearly distinguishes[*A*]the patient populations from controls	context(the most likely network model for the control group was)	negated: False ,passive: False
 0.951	[*A*]the most likely network model for the control group[*R*]was[*A*]the least likely for the patient groups	context()	negated: False ,passive: True
 0.920	[*A*]the extension of connected networks in response to frontal or frontotemporal degeneration[*R*]is[*A*]compensatory or not	context()	negated: False ,passive: True
-[LINE#45]The second feature of interest in the network change is that it is observed in the early stages of auditory processing.
+[LINE#47] The second feature of interest in the network change is that it is observed in the early stages of auditory processing.
 0.397	[*A*]it[*R*]is observed[*A*]in the early stages of auditory processing	context(The second feature of interest in the network change is)	negated: False ,passive: True
 0.861	[*A*]The second feature of interest in the network change[*R*]is[*A*]that it is observed in the early stages of auditory processing	context()	negated: False ,passive: True
-[LINE#46]The MMNm component is an early (between 100 and 200ms), automatic or largely pre-attentive response (Naatanen et al., 2007).
+[LINE#48] The MMNm component is an early (between 100 and 200ms), automatic or largely pre-attentive response (Naatanen et al., 2007).
 0.949	[*A*]The MMNm component[*R*]is[*A*]an early (between 100 and 200ms	context()	negated: False ,passive: True
-[LINE#47]Particularly relevant is that a prefrontal contribution to change detection also occurs within this early time window, demonstrated in Garrido and colleagues' dynamic causal modelling of a roving oddball paradigm (Garrido et al., 2008) and the effects of frontal lesions (Alho et al., 1994).
+[LINE#49] Particularly relevant is that a prefrontal contribution to change detection also occurs within this early time window, demonstrated in Garrido and colleagues' dynamic causal modelling of a roving oddball paradigm (Garrido et al., 2008) and the effects of frontal lesions (Alho et al., 1994).
 0.921	[*A*]a prefrontal contribution to change detection[*R*]occurs[*A*]within this early time window	context()	negated: False ,passive: True
 0.339	[*A*]Particularly relevant[*R*]is	context()	negated: False ,passive: False
 0.903	[*A*]a prefrontal contribution to change detection[*R*]occurs[*A*]within this early time window	context(Particularly relevant is that a prefrontal contribution to change detection also occurs within this early time window demonstrated)	negated: False ,passive: True
 0.450	[*A*]Particularly relevant[*R*]is[*A*]that a prefrontal contribution to change detection also occurs within this early time window	context(Particularly relevant is that a prefrontal contribution to change detection also occurs within this early time window demonstrated)	negated: False ,passive: True
 0.981	[*A*]Particularly relevant is that a prefrontal contribution to change detection also occurs within this early time window[*R*]demonstrated[*A*]in Garrido dynamic causal modelling of a roving oddball paradigm	context()	negated: False ,passive: True
-[LINE#48]This suggests that if the prefrontal cortical dysfunction in the two patient groups is the cause of the altered network response, then this affects the very early stages of stimuli processing.
+[LINE#50] This suggests that if the prefrontal cortical dysfunction in the two patient groups is the cause of the altered network response, then this affects the very early stages of stimuli processing.
 0.468	[*A*]this[*R*]affects[*A*]the very early stages of stimuli processing[*A*]then	context(This suggests)	negated: False ,passive: False
 0.224	[*A*]This[*R*]suggests[*A*]that if the prefrontal cortical dysfunction in the two patient groups is the cause of the altered network response, then this affects the very early stages of stimuli processing	context()	negated: False ,passive: False
 0.960	[*A*]the prefrontal cortical dysfunction in the two patient groups[*R*]is[*A*]the cause of the altered network response	context()	negated: False ,passive: True
-[LINE#49] Although this early component is distinct from the later M300 response, which reflects attentional processing (Wronka et al., 2008), it is still relevant to high order cognitive processes, (Naatanen et al., 2007,2012).Despite the similarities in the changes of network connectivity, differences between the groups were revealed in the evoked responses measured at the auditory cortex.
-[LINE#50]The changes in waveform analyses of the mismatch negativity cannot be attributed to simple hearing impairments: The patient groups did not differ in their M100 response to the standard tone.
+[LINE#51+52]  Although this early component is distinct from the later M300 response, which reflects attentional processing (Wronka et al., 2008), it is still relevant to high order cognitive processes, (Naatanen et al., 2007,2012).Despite the similarities in the changes of network connectivity, differences between the groups were revealed in the evoked responses measured at the auditory cortex.
+[LINE#53] The changes in waveform analyses of the mismatch negativity cannot be attributed to simple hearing impairments: The patient groups did not differ in their M100 response to the standard tone.
 0.934	[*A*]The changes in waveform analyses of the mismatch negativity[*R*]can not be attributed[*A*]to simple hearing impairments	context(The patient groups did not differ)	negated: True ,passive: True
 0.699	[*A*]The patient groups[*R*]did not differ	context()	negated: True ,passive: False
-[LINE#51]For the two patient groups, the mean amplitude of the MMNm was reduced and the peak latencies were delayed compared to the control group suggesting a global dysfunction of change detection.
+[LINE#54] For the two patient groups, the mean amplitude of the MMNm was reduced and the peak latencies were delayed compared to the control group suggesting a global dysfunction of change detection.
 0.911	[*A*]the control group[*R*]suggesting[*A*]a global dysfunction of change detection	context()	negated: False ,passive: False
 0.911	[*A*]the peak latencies[*R*]were delayed[*A*]compared to the control group	context()	negated: False ,passive: True
 0.965	[*A*]the mean amplitude of the MMNm[*R*]was reduced[*A*]For the two patient groups	context()	negated: False ,passive: True
-[LINE#52]Comparisons of the two patient groups revealed the bvFTD patients had delayed peak responses especially to the gap deviant.
+[LINE#55] Comparisons of the two patient groups revealed the bvFTD patients had delayed peak responses especially to the gap deviant.
 0.918	[*A*]the bvFTD patients[*R*]had delayed[*A*]peak responses especially to the gap deviant	context(Comparisons of the two patient groups revealed)	negated: False ,passive: False
 0.955	[*A*]Comparisons of the two patient groups[*R*]revealed[*A*]the bvFTD patients had delayed peak responses especially to the gap deviant	context()	negated: False ,passive: False
-[LINE#53]This deviant type relates to integrating information across time since the gap deviant has a brief silent pause after 25ms, compared to the continuous standard tone of 75ms.
+[LINE#56] This deviant type relates to integrating information across time since the gap deviant has a brief silent pause after 25ms, compared to the continuous standard tone of 75ms.
 0.932	[*A*]the gap deviant[*R*]has[*A*]a brief silent pause[*A*]after 25ms[*A*]compared to the continuous standard tone of 75ms	context()	negated: False ,passive: False
 0.943	[*A*]This deviant type[*R*]relates[*A*]to integrating information across time[*A*]since the gap deviant has a brief silent pause after 25ms, compared to the continuous standard tone of 75ms	context()	negated: False ,passive: True
-[LINE#54]Poor time estimation, or a slow internal clock, is described in neurodegenerative disease such as Parkinson's disease (Pastor et al., 1992), and in patients with focal prefrontal lesions (Casini and Ivry, 1999), and has been related anatomically to the prefrontal cortex cf.
+[LINE#57] Poor time estimation, or a slow internal clock, is described in neurodegenerative disease such as Parkinson's disease (Pastor et al., 1992), and in patients with focal prefrontal lesions (Casini and Ivry, 1999), and has been related anatomically to the prefrontal cortex cf.
 0.945	[*A*]1992), and in patients with focal prefrontal lesions[*R*]has been related anatomically[*A*]to the prefrontal cortex cf	context()	negated: False ,passive: True
-[LINE#55](Coull et al., 2011) which may explain the delayed response in bvFTD to this specific deviant type, considering the greater extent of frontal atrophy in these patients.
+[LINE#58] (Coull et al., 2011) which may explain the delayed response in bvFTD to this specific deviant type, considering the greater extent of frontal atrophy in these patients.
 0.932	[*A*]Coull[*R*]may explain[*A*]the delayed response in bvFTD to this specific deviant type[*A*]considering the greater extent of frontal atrophy in these patients	context()	negated: False ,passive: False
-[LINE#56]There are a number of limitations to the study.
-[LINE#57]We have grouped our patients into bvFTD and PSP based on clinical diagnostic criteria, however it is likely that the underlying pathologies may differ between individual patients within each group.
+[LINE#59] There are a number of limitations to the study.
+[LINE#60] We have grouped our patients into bvFTD and PSP based on clinical diagnostic criteria, however it is likely that the underlying pathologies may differ between individual patients within each group.
 0.293	[*A*]We[*R*]have grouped[*A*]our patients[*A*]into PSP[*A*]based on clinical diagnostic criteria	context(it is)	negated: False ,passive: False
 0.293	[*A*]We[*R*]have grouped[*A*]our patients[*A*]into bvFTD[*A*]based on clinical diagnostic criteria	context(it is)	negated: False ,passive: False
 0.330	[*A*]it[*R*]is[*A*]likely that the underlying pathologies may differ between individual patients within each group	context()	negated: False ,passive: True
 0.751	[*A*]the underlying pathologies[*R*]may differ	context()	negated: False ,passive: False
-[LINE#58]For PSP, clinicopathological correlations are high, with characteristic tau pathology in excess of 90% of cases.
+[LINE#61] For PSP, clinicopathological correlations are high, with characteristic tau pathology in excess of 90% of cases.
 0.767	[*A*]clinicopathological correlations[*R*]are[*A*]high	context()	negated: False ,passive: True
-[LINE#59]In bvFTD, the pathological correlations are poorer, and sporadic cases may be due to tau or ubiquitin pathology in approximately equal measure (Whitwell et al., 2012).
+[LINE#62] In bvFTD, the pathological correlations are poorer, and sporadic cases may be due to tau or ubiquitin pathology in approximately equal measure (Whitwell et al., 2012).
 0.937	[*A*]sporadic cases[*R*]may be[*A*]due to tau or ubiquitin pathology in approximately equal measure	context()	negated: False ,passive: True
 0.957	[*A*]the pathological correlations[*R*]are[*A*]poorer[*A*]In bvFTD	context()	negated: False ,passive: True
-[LINE#60]Despite the likely pathological heterogeneity in our group of bvFTD patients, they form a coherent clinical syndrome based on the neurocognitive systems that are most damaged by degeneration.
+[LINE#63] Despite the likely pathological heterogeneity in our group of bvFTD patients, they form a coherent clinical syndrome based on the neurocognitive systems that are most damaged by degeneration.
 0.850	[*A*]the neurocognitive systems[*R*]are damaged[*A*]by degeneration	context()	negated: False ,passive: True
 0.919	[*A*]a coherent clinical syndrome[*R*]based[*A*]on the neurocognitive systems	context()	negated: False ,passive: True
 0.680	[*A*]they[*R*]form[*A*]a coherent clinical syndrome based on the neurocognitive systems	context()	negated: False ,passive: False
-[LINE#61]Other factors may also contribute to the differences we observe, for example the patients in each group are in different stages of disease progression.
+[LINE#64] Other factors may also contribute to the differences we observe, for example the patients in each group are in different stages of disease progression.
 0.909	[*A*]the patients in each group[*R*]are[*A*]in different stages of disease progression	context(the differences observe)	negated: False ,passive: True
 0.859	[*A*]the differences[*R*]observe[*A*]we	context()	negated: False ,passive: True
 0.859	[*A*]Other factors[*R*]may contribute[*A*]to the differences	context()	negated: False ,passive: False
-[LINE#62]Medication is also a potential confound.
+[LINE#65] Medication is also a potential confound.
 0.938	[*A*]Medication[*R*]is[*A*]also[*A*]a potential confound	context()	negated: False ,passive: True
-[LINE#63] A number of pharmacological studies have examined the role of different neurotransmitters on the MMN, demonstrating both reductions and enhancements in amplitudes for serotonin and to a lesser extent dopaminergic medications (Kenemans and Kahkonen, 2011)(although see (Leung et al., 2010)).
+[LINE#66+67]  A number of pharmacological studies have examined the role of different neurotransmitters on the MMN, demonstrating both reductions and enhancements in amplitudes for serotonin and to a lesser extent dopaminergic medications (Kenemans and Kahkonen, 2011)(although see (Leung et al., 2010)).
 0.862	[*A*]A number of pharmacological studies[*R*]have examined the role of different neurotransmitters on the MMN demonstrating[*A*]enhancements	context(A number of pharmacological studies have examined)	negated: False ,passive: False
 0.949	[*A*]A number of pharmacological studies[*R*]have examined[*A*]the role of different neurotransmitters on the MMN[*A*]demonstrating enhancements in amplitudes to a lesser extent dopaminergic medications ( Kenemans ) ( although see ( Leung et al . , 2010	context()	negated: False ,passive: False
 0.909	[*A*]A number of pharmacological studies[*R*]have examined the role of different neurotransmitters on the MMN demonstrating[*A*]enhancements in amplitudes for serotonin a lesser extent dopaminergic medications	context(A number of pharmacological studies have examined)	negated: False ,passive: False
@@ -211,19 +211,19 @@
 0.949	[*A*]A number of pharmacological studies[*R*]have examined[*A*]the role of different neurotransmitters on the MMN[*A*]demonstrating both reductions in amplitudes to a lesser extent dopaminergic medications ( Kenemans ) ( although see ( Leung et al . , 2010	context()	negated: False ,passive: False
 0.909	[*A*]A number of pharmacological studies[*R*]have examined the role of different neurotransmitters on the MMN demonstrating[*A*]both reductions in amplitudes for serotonin a lesser extent dopaminergic medications	context(A number of pharmacological studies have examined)	negated: False ,passive: False
 0.939	[*A*]A number of pharmacological studies[*R*]have examined[*A*]the role of different neurotransmitters on the MMN[*A*]demonstrating both reductions in amplitudes for serotonin a lesser extent dopaminergic medications	context()	negated: False ,passive: False
-[LINE#64]In bvFTD particularly these are important considerations, since there are marked reductions in serotonergic innervation of prefrontal cortex (Huey et al., 2006; Salmon, 2007; Yang and Schmitt, 2001).
+[LINE#68] In bvFTD particularly these are important considerations, since there are marked reductions in serotonergic innervation of prefrontal cortex (Huey et al., 2006; Salmon, 2007; Yang and Schmitt, 2001).
 0.691	[*A*]these[*R*]are[*A*]important considerations[*A*]since there are marked reductions in serotonergic innervation of prefrontal cortex[*A*]In bvFTD	context()	negated: False ,passive: True
 0.691	[*A*]these[*R*]are[*A*]important considerations[*A*]since there are marked reductions in serotonergic innervation of prefrontal cortex ( Huey et al . , 2006 ; Salmon , 2007 ; Yang , 2001[*A*]In bvFTD	context()	negated: False ,passive: True
-[LINE#65] Although the post-hoc analysis of bvFTD patients taking serotonin reuptake inhibitors/agonists was not indicative of any significant effects, the current data set is not sufficient to resolve considerations of pharmacological effects on the mismatch negativity.
+[LINE#69+70]  Although the post-hoc analysis of bvFTD patients taking serotonin reuptake inhibitors/agonists was not indicative of any significant effects, the current data set is not sufficient to resolve considerations of pharmacological effects on the mismatch negativity.
 0.905	[*A*]the current data set[*R*]to resolve[*A*]considerations of pharmacological effects on the mismatch negativity	context()	negated: False ,passive: False
 0.948	[*A*]the current data set[*R*]is not[*A*]sufficient to resolve considerations of pharmacological effects on the mismatch negativity	context()	negated: True ,passive: True
 0.940	[*A*]the post-hoc analysis of bvFTD patients[*R*]was not[*A*]indicative of any significant effects	context()	negated: True ,passive: True
 0.927	[*A*]bvFTD patients[*R*]taking[*A*]serotonin reuptake inhibitors/agonists	context()	negated: False ,passive: False
-[LINE#66]Wienberg et al., 2010), which would require a larger and placebo controlled design.
+[LINE#71] Wienberg et al., 2010), which would require a larger and placebo controlled design.
 0.894	[*A*]placebo[*R*]controlled[*A*]design	context()	negated: False ,passive: False
 0.940	[*A*]Wienberg et al . , 2010[*R*]would require[*A*]a placebo controlled design	context()	negated: False ,passive: False
 0.940	[*A*]Wienberg et al . , 2010[*R*]would require[*A*]a larger controlled design	context()	negated: False ,passive: False
-[LINE#67]In considering the results of dynamic causal modelling, we stress that we evaluated a systematically constructed set of models which embodied our hypotheses, but we did not test all possible networks: this is both unnecessary and intractable computationally (Stephan et al., 2010).
+[LINE#72] In considering the results of dynamic causal modelling, we stress that we evaluated a systematically constructed set of models which embodied our hypotheses, but we did not test all possible networks: this is both unnecessary and intractable computationally (Stephan et al., 2010).
 0.181	[*A*]this[*R*]is[*A*]intractable[*A*]computationally	context()	negated: False ,passive: True
 0.397	[*A*]we[*R*]did not test[*A*]all possible networks	context(this is)	negated: True ,passive: False
 0.388	[*A*]we[*R*]evaluated[*A*]a systematically constructed set of models	context(we stress this is computationally)	negated: False ,passive: False
@@ -233,79 +233,79 @@
 0.230	[*A*]we[*R*]stress[*A*]that we evaluated a systematically constructed set of models[*A*]In considering the results of dynamic causal modelling	context(this is)	negated: False ,passive: False
 0.386	[*A*]this[*R*]is[*A*]both unnecessary computationally	context()	negated: False ,passive: True
 0.795	[*A*]models[*R*]embodied[*A*]our hypotheses	context()	negated: False ,passive: True
-[LINE#68]The model set was sufficient for our principal hypotheses and allowed us to examine cortico-cortical network changes related to the change detection paradigm.
+[LINE#73] The model set was sufficient for our principal hypotheses and allowed us to examine cortico-cortical network changes related to the change detection paradigm.
 0.397	[*A*]us[*R*]to examine[*A*]cortico-cortical network changes related to the change detection paradigm	context(The model allowed)	negated: False ,passive: False
 0.802	[*A*]The model[*R*]allowed[*A*]us to examine cortico-cortical network changes	context()	negated: False ,passive: False
 0.911	[*A*]cortico-cortical network changes[*R*]related[*A*]to the change detection paradigm	context()	negated: False ,passive: True
 0.881	[*A*]The model set[*R*]was[*A*]sufficient for our principal hypotheses	context()	negated: False ,passive: True
-[LINE#69]However, it should be noted that the biophysical model of dynamic causal modelling includes assumptions about the distinctions between feedforward, feedback and lateral connections, in terms of laminar architecture of cortex.
-[LINE#70] There is a degree of laminar specificity to FTD and PSP pathology (.
-[LINE#71]Armstrong and Cairns, 2009; Armstrong et al., 2012), but we do not over extend our modelling or inferences to make claims about the specific intracortical aetiology of the connectivity changes we identify.
+[LINE#74] However, it should be noted that the biophysical model of dynamic causal modelling includes assumptions about the distinctions between feedforward, feedback and lateral connections, in terms of laminar architecture of cortex.
+[LINE#75]  There is a degree of laminar specificity to FTD and PSP pathology (.
+[LINE#76] Armstrong and Cairns, 2009; Armstrong et al., 2012), but we do not over extend our modelling or inferences to make claims about the specific intracortical aetiology of the connectivity changes we identify.
 0.894	[*A*]the connectivity changes[*R*]identify[*A*]we	context()	negated: False ,passive: True
 0.455	[*A*]we[*R*]do not extend[*A*]our modelling or inferences[*A*]to make claims about the specific intracortical aetiology of the connectivity changes[*A*]over	context()	negated: True ,passive: False
-[LINE#72]Finally, we note that our analyses do not in themselves show progression of network connectivity changes with time, or in response to treatment.
+[LINE#77] Finally, we note that our analyses do not in themselves show progression of network connectivity changes with time, or in response to treatment.
 0.604	[*A*]our analyses[*R*]show[*A*]progression of network connectivity changes	context(we note)	negated: False ,passive: False
 0.265	[*A*]we[*R*]note[*A*]that our analyses do not in themselves show progression of network connectivity changes with time, or in response to treatment[*A*]Finally	context()	negated: False ,passive: False
-[LINE#73]These important issues call for further work, before such network modelling or magnetoencephalography can be used as diagnostic, prognostic or therapeutic biomarkers in bvFTD or PSP, although parallel studies in other degenerative diseases are promising in this direction (Zamrini et al., 2011).
+[LINE#78] These important issues call for further work, before such network modelling or magnetoencephalography can be used as diagnostic, prognostic or therapeutic biomarkers in bvFTD or PSP, although parallel studies in other degenerative diseases are promising in this direction (Zamrini et al., 2011).
 0.932	[*A*]parallel studies in other degenerative diseases[*R*]are promising[*A*]in this direction	context()	negated: False ,passive: False
 0.932	[*A*]These important issues[*R*]call[*A*]for further work	context()	negated: False ,passive: False
-[LINE#74]A key challenge to understanding the effects of neurodegeneration is to characterise the changing patterns of brain network connectivity, in response to both the disease and its treatment (Pievani et al., 2011; Seeley et al., 2009; Warren et al., 2012).
+[LINE#79] A key challenge to understanding the effects of neurodegeneration is to characterise the changing patterns of brain network connectivity, in response to both the disease and its treatment (Pievani et al., 2011; Seeley et al., 2009; Warren et al., 2012).
 0.960	[*A*]A key challenge to understanding the effects of neurodegeneration[*R*]is[*A*]to characterise the changing patterns of brain network connectivity	context()	negated: False ,passive: True
 0.975	[*A*]A key challenge to understanding the effects of neurodegeneration[*R*]is[*A*]to characterise the changing patterns of brain network connectivity , in response to both the disease	context()	negated: False ,passive: True
 0.911	[*A*]A key challenge[*R*]to understanding[*A*]the effects of neurodegeneration	context()	negated: False ,passive: False
-[LINE#75]The network paradigm of disease has many advantages, with the potential to elucidate selective vulnerability to a given neuropathology, explains the consequences of disease at a macroscopic level, and increases sensitivity of tools such as brain imaging that captures both integrative and segregated brain functions (Bassett and Bullmore, 2009; Mesulam, 1990).
+[LINE#80] The network paradigm of disease has many advantages, with the potential to elucidate selective vulnerability to a given neuropathology, explains the consequences of disease at a macroscopic level, and increases sensitivity of tools such as brain imaging that captures both integrative and segregated brain functions (Bassett and Bullmore, 2009; Mesulam, 1990).
 0.905	[*A*]brain imaging[*R*]captures[*A*]segregated brain functions[*A*]Mesulam , 1990	context()	negated: False ,passive: False
 0.905	[*A*]brain imaging[*R*]captures[*A*]segregated brain functions[*A*]Bullmore	context()	negated: False ,passive: False
 0.887	[*A*]brain imaging[*R*]captures[*A*]segregated brain functions	context()	negated: False ,passive: False
 0.887	[*A*]brain imaging[*R*]captures[*A*]both integrative brain functions	context()	negated: False ,passive: False
 0.903	[*A*]The network[*R*]increases[*A*]sensitivity of tools such as brain imaging	context()	negated: False ,passive: False
-[LINE#76]Many studies examine macroscopic networks using task-free 'resting state' paradigms, in which coactivation of distributed regions, or coherence among spontaneous neural oscillators, is thought to reflect functional networks (Corbetta, 2010).
+[LINE#81] Many studies examine macroscopic networks using task-free 'resting state' paradigms, in which coactivation of distributed regions, or coherence among spontaneous neural oscillators, is thought to reflect functional networks (Corbetta, 2010).
 0.903	[*A*]macroscopic networks[*R*]using[*A*]task-free 'resting state' paradigms	context()	negated: False ,passive: False
 0.937	[*A*]Many studies[*R*]examine[*A*]macroscopic networks using task-free 'resting state' paradigms	context()	negated: False ,passive: False
-[LINE#77] In response to task demands or experimental conditions, these networks are rapidly reconfigured to create a dynamic neuronal workspace for cognitive processing (Kitzbichler et al., 2011).Neurodegenerative syndromescommonly disrupt such large scale networks (Rowe, 2010).
+[LINE#82+83+84]  In response to task demands or experimental conditions, these networks are rapidly reconfigured to create a dynamic neuronal workspace for cognitive processing (Kitzbichler et al., 2011).Neurodegenerative syndromescommonly disrupt such large scale networks (Rowe, 2010).
 0.544	[*A*]Neurodegenerative[*R*]syndromescommonly disrupt[*A*]such large scale networks	context()	negated: False ,passive: False
 0.938	[*A*]these networks[*R*]to create[*A*]a dynamic neuronal workspace for cognitive processing (Kitzbichler et al., 2011).Neurodegenerative syndromescommonly disrupt such large scale networks (Rowe, 2010)	context()	negated: False ,passive: False
 0.903	[*A*]these networks[*R*]are rapidly reconfigured[*A*]to create a dynamic neuronal workspace for cognitive processing	context()	negated: False ,passive: True
-[LINE#78] For example, reductions in resting state connectivity mirror disease related changes in anatomical structure and connectivity with Alzheimer's disease, frontotemporal dementias and Parkinsonian syndromes (Greicius, 2008; Greicius et al., 2004; Seeley et al., 2009; Whitwell et al., 2011;.
+[LINE#85]  For example, reductions in resting state connectivity mirror disease related changes in anatomical structure and connectivity with Alzheimer's disease, frontotemporal dementias and Parkinsonian syndromes (Greicius, 2008; Greicius et al., 2004; Seeley et al., 2009; Whitwell et al., 2011;.
 0.948	[*A*]reductions in resting state connectivity mirror disease[*R*]related[*A*]changes[*A*]in ; Seeley et al . , 2009	context()	negated: False ,passive: False
 0.948	[*A*]reductions in resting state connectivity mirror disease[*R*]related[*A*]changes in Parkinsonian syndromes	context()	negated: False ,passive: False
 0.938	[*A*]reductions in resting state connectivity mirror disease[*R*]related[*A*]changes in frontotemporal dementias	context()	negated: False ,passive: False
 0.938	[*A*]reductions in resting state connectivity mirror disease[*R*]related[*A*]changes in anatomical structure	context()	negated: False ,passive: False
-[LINE#79]Task based network configuration can also be changed by focal degeneration and atrophy (Sonty et al., 2007).
+[LINE#86] Task based network configuration can also be changed by focal degeneration and atrophy (Sonty et al., 2007).
 0.909	[*A*]Task based network configuration[*R*]can be changed[*A*]by focal atrophy	context()	negated: False ,passive: True
 0.909	[*A*]Task based network configuration[*R*]can be changed[*A*]by focal degeneration	context()	negated: False ,passive: True
-[LINE#80]However, neurodegeneration not only weakens specific network connections, but can also lead to reorganisation of the networks by enhancing connectivity among the relatively unaffected regions (Seeley et al., 2008; Zhou et al., 2010).
+[LINE#87] However, neurodegeneration not only weakens specific network connections, but can also lead to reorganisation of the networks by enhancing connectivity among the relatively unaffected regions (Seeley et al., 2008; Zhou et al., 2010).
 0.824	[*A*]neurodegeneration[*R*]can lead[*A*]to reorganisation of the networks	context()	negated: False ,passive: False
 0.877	[*A*]neurodegeneration[*R*]weakens[*A*]specific network connections	context()	negated: False ,passive: False
-[LINE#81]Moreover, recent studies have emphasized the concordance between reductions in network connectivity during resting state and the distinctive focal atrophy patterns in neurodegenerative dementias (Seeley et al., 2009; Zhou et al., 2010) or changes in white matter tracts supporting those networks (Raj et al., 2012).Different clinical syndromes can result in specific changes to brain networks, but there may also be generic reorganisation in response to degeneration associated with diverse pathologies.
+[LINE#88] Moreover, recent studies have emphasized the concordance between reductions in network connectivity during resting state and the distinctive focal atrophy patterns in neurodegenerative dementias (Seeley et al., 2009; Zhou et al., 2010) or changes in white matter tracts supporting those networks (Raj et al., 2012).Different clinical syndromes can result in specific changes to brain networks, but there may also be generic reorganisation in response to degeneration associated with diverse pathologies.
 0.894	[*A*]degeneration[*R*]associated[*A*]with diverse pathologies	context()	negated: False ,passive: True
 0.789	[*A*]white matter tracts[*R*]supporting[*A*]those networks	context()	negated: False ,passive: False
-[LINE#82]In this study, we examined two distinct neurodegenerative diseases and asked whether disease specific neurodegeneration is related to particular network changes, or whether there is a 'transdiagnostic' network-level response affecting the macroscopic network dynamics.
+[LINE#89] In this study, we examined two distinct neurodegenerative diseases and asked whether disease specific neurodegeneration is related to particular network changes, or whether there is a 'transdiagnostic' network-level response affecting the macroscopic network dynamics.
 0.888	[*A*]disease specific neurodegeneration[*R*]is related[*A*]to particular network changes	context(we asked)	negated: False ,passive: True
 0.410	[*A*]we[*R*]asked[*A*]whether there is a 'transdiagnostic' network-level response[*A*]In this study	context()	negated: False ,passive: False
 0.943	[*A*]a 'transdiagnostic' network-level response[*R*]affecting[*A*]the macroscopic network dynamics	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]examined[*A*]two distinct neurodegenerative diseases[*A*]In this study	context()	negated: False ,passive: False
-[LINE#83]We examined behavioural variant frontotemporal dementia (bvFTD) and progressive supranuclear palsy (PSP); two rapidly progressive neurodegenerative diseases that have key differences in clinical phenotypes.
+[LINE#90] We examined behavioural variant frontotemporal dementia (bvFTD) and progressive supranuclear palsy (PSP); two rapidly progressive neurodegenerative diseases that have key differences in clinical phenotypes.
 0.913	[*A*]two rapidly progressive neurodegenerative diseases[*R*]have[*A*]key differences in clinical phenotypes	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]examined[*A*]behavioural variant frontotemporal dementia	context()	negated: False ,passive: False
-[LINE#84]bvFTD is characterised by changes in behaviour, cognition and personality (Rascovsky et al., 2011).
+[LINE#91] bvFTD is characterised by changes in behaviour, cognition and personality (Rascovsky et al., 2011).
 0.855	[*A*]bvFTD[*R*]is characterised[*A*]by changes in personality	context()	negated: False ,passive: True
 0.855	[*A*]bvFTD[*R*]is characterised[*A*]by changes in cognition	context()	negated: False ,passive: True
 0.855	[*A*]bvFTD[*R*]is characterised[*A*]by changes in behaviour	context()	negated: False ,passive: True
-[LINE#85] In contrast, PSP is defined by a vertical supranuclear gaze palsy, akinetic rigidity and falls(Litvan et al., 2003; Richardson et al., 1963), with typically milder cognitive impairment including apathy.
+[LINE#92+93]  In contrast, PSP is defined by a vertical supranuclear gaze palsy, akinetic rigidity and falls(Litvan et al., 2003; Richardson et al., 1963), with typically milder cognitive impairment including apathy.
 0.869	[*A*]PSP[*R*]falls[*A*]Litvan et al . , 2003	context()	negated: False ,passive: True
 0.855	[*A*]PSP[*R*]is defined[*A*]by a vertical supranuclear	context()	negated: False ,passive: True
 0.855	[*A*]PSP[*R*]is defined[*A*]by a vertical supranuclear akinetic rigidity	context()	negated: False ,passive: True
 0.855	[*A*]PSP[*R*]is defined[*A*]by a vertical supranuclear gaze palsy	context()	negated: False ,passive: True
-[LINE#86]The two syndromes have distinct and overlapping macroscopic anatomy of tissue loss.
+[LINE#94] The two syndromes have distinct and overlapping macroscopic anatomy of tissue loss.
 0.911	[*A*]The two syndromes[*R*]have overlapping[*A*]macroscopic anatomy of tissue loss	context()	negated: False ,passive: False
 0.911	[*A*]The two syndromes[*R*]have[*A*]distinct macroscopic anatomy of tissue loss	context()	negated: False ,passive: False
-[LINE#87]bvFTD is associated with marked atrophy of prefrontal cortex (orbital, ventral and/or medial), anterior insula, anterior cingulate and anterior temporal lobes including cortex and the amygdala (Schroeter et al., 2007, 2008; Seelaar et al., 2011; Seeley, 2010; Seeley et al., 2009), although other atrophy patterns with temporoparietal atrophy have been reported (Whitwell et al., 2009).
+[LINE#95] bvFTD is associated with marked atrophy of prefrontal cortex (orbital, ventral and/or medial), anterior insula, anterior cingulate and anterior temporal lobes including cortex and the amygdala (Schroeter et al., 2007, 2008; Seelaar et al., 2011; Seeley, 2010; Seeley et al., 2009), although other atrophy patterns with temporoparietal atrophy have been reported (Whitwell et al., 2009).
 0.979	[*A*]orbital ; Seelaar et al . , 2011 ; Seeley , 2010 ; Seeley et al . , 2009 ) , although other atrophy patterns with temporoparietal atrophy[*R*]have been reported	context()	negated: False ,passive: False
 0.801	[*A*]other atrophy patterns with temporoparietal atrophy[*R*]have been reported	context()	negated: False ,passive: False
 0.974	[*A*]Seelaar et al . , 2011 ; Seeley , 2010 ; Seeley et al . , 2009 ) , although other atrophy patterns with temporoparietal atrophy[*R*]have been reported	context()	negated: False ,passive: False
 0.855	[*A*]bvFTD[*R*]is associated[*A*]with marked atrophy of prefrontal cortex	context()	negated: False ,passive: True
-[LINE#88] In PSP atrophy is severe in the upper brain stem and superior cerebellar peduncle, with moderate atrophy of medial prefrontal cortex, insula/frontal operculum, cingulate cortex, precentral gyrus and superior parietal lobule (Brenneis et al., 2004; Chiu et al., 2012; Ghosh et al., 2012;, 2008).To compare the impact of bvFTD and PSP on macroscopic functional brain networks, we used an auditory oddball paradigm, providing a physiological measure of automatic change detection.
+[LINE#96+97]  In PSP atrophy is severe in the upper brain stem and superior cerebellar peduncle, with moderate atrophy of medial prefrontal cortex, insula/frontal operculum, cingulate cortex, precentral gyrus and superior parietal lobule (Brenneis et al., 2004; Chiu et al., 2012; Ghosh et al., 2012;, 2008).To compare the impact of bvFTD and PSP on macroscopic functional brain networks, we used an auditory oddball paradigm, providing a physiological measure of automatic change detection.
 0.293	[*A*]we[*R*]used an auditory oddball paradigm providing[*A*]a physiological measure of automatic change detection	context(we used)	negated: False ,passive: False
 0.293	[*A*]we[*R*]used an auditory oddball paradigm providing[*A*]a physiological measure of automatic change detection	context(we used)	negated: False ,passive: False
 0.293	[*A*]we[*R*]used an auditory oddball paradigm providing[*A*]a physiological measure of automatic change detection	context(we used)	negated: False ,passive: False
@@ -319,37 +319,37 @@
 0.293	[*A*]we[*R*]used an auditory oddball paradigm providing[*A*]a physiological measure of automatic change detection	context(we used)	negated: False ,passive: False
 0.293	[*A*]we[*R*]used an auditory oddball paradigm providing[*A*]a physiological measure of automatic change detection	context(we used)	negated: False ,passive: False
 0.388	[*A*]we[*R*]used[*A*]an auditory oddball paradigm[*A*]providing a physiological measure of automatic change detection	context()	negated: False ,passive: False
-[LINE#89]Such paradigms include a stream of 'standard' stimuli, interspersed with 'deviant' stimuli (e.g. differing from the standard by pitch or duration).
+[LINE#98] Such paradigms include a stream of 'standard' stimuli, interspersed with 'deviant' stimuli (e.g. differing from the standard by pitch or duration).
 0.718	[*A*]deviant' stimuli[*R*]differing	context()	negated: False ,passive: False
 0.897	[*A*]standard' stimuli[*R*]interspersed[*A*]with 'deviant' stimuli	context()	negated: False ,passive: True
 0.903	[*A*]Such paradigms[*R*]include[*A*]a stream of 'standard' stimuli	context()	negated: False ,passive: True
-[LINE#90]This unpredictable change elicits a robust electrophysiological mismatch negativity signal (MMN, or MMNm in the context of MEG studies), detectable by electro- or magneto-encephalography in auditory cortex between 100ms and 200ms after the onset of the deviant tone.
+[LINE#99] This unpredictable change elicits a robust electrophysiological mismatch negativity signal (MMN, or MMNm in the context of MEG studies), detectable by electro- or magneto-encephalography in auditory cortex between 100ms and 200ms after the onset of the deviant tone.
 0.952	[*A*]This unpredictable change[*R*]elicits[*A*]a robust electrophysiological mismatch negativity signal (MMN, or MMNm[*A*]in the context of MEG studies	context()	negated: False ,passive: False
-[LINE#91] This signal has been proposed as a marker of psychiatric and degenerative conditions such as Alzheimer's disease, Parkinson's disease and schizophrenia.
+[LINE#100]  This signal has been proposed as a marker of psychiatric and degenerative conditions such as Alzheimer's disease, Parkinson's disease and schizophrenia.
 0.903	[*A*]This signal[*R*]has been proposed[*A*]as a marker of degenerative conditions such as schizophrenia	context()	negated: False ,passive: True
 0.947	[*A*]This signal[*R*]has been proposed[*A*]as a marker of degenerative conditions such as Parkinson 's disease	context()	negated: False ,passive: True
 0.947	[*A*]This signal[*R*]has been proposed[*A*]as a marker of degenerative conditions such as Alzheimer 's disease	context()	negated: False ,passive: True
 0.903	[*A*]This signal[*R*]has been proposed[*A*]as a marker of psychiatric conditions such as schizophrenia	context()	negated: False ,passive: True
 0.947	[*A*]This signal[*R*]has been proposed[*A*]as a marker of psychiatric conditions such as Parkinson 's disease	context()	negated: False ,passive: True
 0.947	[*A*]This signal[*R*]has been proposed[*A*]as a marker of psychiatric conditions such as Alzheimer 's disease	context()	negated: False ,passive: True
-[LINE#92]Moreover, from a basic science perspective, change detection is an important element of higher order cognitive functions, such as attention and memory (cf.
+[LINE#101] Moreover, from a basic science perspective, change detection is an important element of higher order cognitive functions, such as attention and memory (cf.
 0.952	[*A*]change detection[*R*]is[*A*]an important element of higher order cognitive functions , such as memory	context()	negated: False ,passive: True
 0.952	[*A*]change detection[*R*]is[*A*]an important element of higher order cognitive functions , such as attention	context()	negated: False ,passive: True
-[LINE#93]2007).In addition to the auditory cortex, other brain regions contribute to the generation of the MMN response.
+[LINE#102] 2007).In addition to the auditory cortex, other brain regions contribute to the generation of the MMN response.
 0.925	[*A*]other brain regions[*R*]contribute[*A*]to the generation of the MMN response	context()	negated: False ,passive: False
-[LINE#94]These include prefrontal cortex (Boly et al., 2011; Doeller et al., 2003; Liasis et al., 2001; Rosburg et al., 2005; Schall et al., 2003), which is necessary for early change detection through frontal to temporal feedback connections (Alain et al., 1998; Alho et al., 1994; Garrido et al., 2009a).
+[LINE#103] These include prefrontal cortex (Boly et al., 2011; Doeller et al., 2003; Liasis et al., 2001; Rosburg et al., 2005; Schall et al., 2003), which is necessary for early change detection through frontal to temporal feedback connections (Alain et al., 1998; Alho et al., 1994; Garrido et al., 2009a).
 0.999	[*A*]Boly et al., 2011; Doeller et al., 2003; Liasis et al., 2001; Rosburg et al., 2005; Schall et al., 2003), which is necessary for early change detection through frontal[*R*]to temporal[*A*]feedback connections	context()	negated: False ,passive: False
 0.935	[*A*]Rosburg et al., 2005; Schall et al., 2003[*R*]is[*A*]necessary	context()	negated: False ,passive: True
 0.948	[*A*]Liasis[*R*]et[*A*]al	context()	negated: False ,passive: False
 0.544	[*A*]These[*R*]include[*A*]prefrontal cortex	context()	negated: False ,passive: True
-[LINE#95] Parietal cortex is also associated with the MMN, in both electrophysiological (Hsiao et al., 2010; Marco-Pallares et al., 2005) and fMRI studies (Molholm et al., 2005).To measure the network connectivity among these frontal, temporal and parietal cortical sources, we adopted dynamic causal modelling for magnetoencephalography data.
+[LINE#104+105]  Parietal cortex is also associated with the MMN, in both electrophysiological (Hsiao et al., 2010; Marco-Pallares et al., 2005) and fMRI studies (Molholm et al., 2005).To measure the network connectivity among these frontal, temporal and parietal cortical sources, we adopted dynamic causal modelling for magnetoencephalography data.
 0.884	[*A*]Parietal cortex[*R*]is associated[*A*]with the MMN	context(we adopted)	negated: False ,passive: True
 0.388	[*A*]we[*R*]adopted[*A*]dynamic causal modelling for magnetoencephalography data	context()	negated: False ,passive: False
-[LINE#96]Magnetoencephalography is sensitive to the spatiotemporal effects of bvFTD during cognitive tasks (Hughes et al., 2011), proportional to clinical deficits, and well tolerated by patients as a functional brain imaging modality.
+[LINE#106] Magnetoencephalography is sensitive to the spatiotemporal effects of bvFTD during cognitive tasks (Hughes et al., 2011), proportional to clinical deficits, and well tolerated by patients as a functional brain imaging modality.
 0.934	[*A*]the spatiotemporal effects of bvFTD during cognitive tasks[*R*]well tolerated[*A*]by patients as a functional brain imaging modality	context()	negated: False ,passive: True
 0.887	[*A*]Magnetoencephalography[*R*]is sensitive to[*A*]the spatiotemporal effects	context()	negated: False ,passive: False
 0.947	[*A*]Magnetoencephalography[*R*]is[*A*]sensitive to the spatiotemporal effects of bvFTD during cognitive tasks	context()	negated: False ,passive: True
-[LINE#97] Dynamic causal modelling has several advantages over other methods to test our hypotheses, including (1) empirical priors that introduce biophysical constraints on the network models; (2) the use of generative (predictive) models that can be tested against the observed data, and evaluated and compared using objective measures of the model evidences; and(3) embodying different hypotheses about the impact of disease on network structures and connectivity in explicit and directional spatiotemporal network models.
+[LINE#107+108]  Dynamic causal modelling has several advantages over other methods to test our hypotheses, including (1) empirical priors that introduce biophysical constraints on the network models; (2) the use of generative (predictive) models that can be tested against the observed data, and evaluated and compared using objective measures of the model evidences; and(3) embodying different hypotheses about the impact of disease on network structures and connectivity in explicit and directional spatiotemporal network models.
 0.812	[*A*]Dynamic causal modelling[*R*]has[*A*]several advantages over other methods to test our hypotheses , including ( 1 ) empirical priors that introduce biophysical constraints on the network models ;	context()	negated: False ,passive: False
 0.913	[*A*]generative ( predictive ) models[*R*]can be tested[*A*]against the observed data	context()	negated: False ,passive: True
 0.887	[*A*]empirical priors[*R*]introduce[*A*]biophysical constraints on the network models	context()	negated: False ,passive: False
@@ -359,62 +359,62 @@
 0.812	[*A*]Dynamic causal modelling[*R*]has[*A*]several advantages over other methods to test our hypotheses , including ( 1 ) empirical priors that introduce biophysical constraints on the network models ; ( 2 ) ; and ( 3 ) embodying different hypotheses about the impact of disease on network structures in directional spatiotemporal network models	context()	negated: False ,passive: False
 0.905	[*A*]1 ) empirical priors[*R*]introduce[*A*]biophysical constraints on the network models	context()	negated: False ,passive: False
 0.812	[*A*]Dynamic causal modelling[*R*]has[*A*]several advantages over other methods to test our hypotheses , including ( 1 ) empirical priors that introduce biophysical constraints on the network models ; ( 2 ) ; and ( 3 ) embodying different hypotheses about the impact of disease on network structures in explicit spatiotemporal network models	context()	negated: False ,passive: False
-[LINE#98] Dynamic causal modelling also incorporates the modulatory effects of experimental manipulations on connections, such as the difference between standard and deviant stimuli, providing evidence of the critical connections for change detection(Kiebel et al., 2006, 2007, 2008, 2009).We used dynamic causal modelling to measure network connectivity underlying the detection of change.
+[LINE#109+110]  Dynamic causal modelling also incorporates the modulatory effects of experimental manipulations on connections, such as the difference between standard and deviant stimuli, providing evidence of the critical connections for change detection(Kiebel et al., 2006, 2007, 2008, 2009).We used dynamic causal modelling to measure network connectivity underlying the detection of change.
 0.388	[*A*]We[*R*]used dynamic causal modelling to measure[*A*]network connectivity underlying the detection of change	context(Dynamic causal modelling incorporates We used)	negated: False ,passive: False
 0.388	[*A*]We[*R*]used[*A*]dynamic causal modelling[*A*]to measure network connectivity	context(Dynamic causal modelling incorporates)	negated: False ,passive: False
 0.915	[*A*]Dynamic causal modelling[*R*]incorporates[*A*]the modulatory effects of experimental manipulations on connections, such as the difference between standard and deviant stimuli	context()	negated: False ,passive: False
 0.903	[*A*]network connectivity[*R*]underlying[*A*]the detection of change	context()	negated: False ,passive: False
-[LINE#99]We included different families of network models to test two principal hypotheses.
+[LINE#111] We included different families of network models to test two principal hypotheses.
 0.452	[*A*]We[*R*]included[*A*]different families of network models	context()	negated: False ,passive: True
-[LINE#100]First, we predicted that the network recruited in health for change detection would be altered by disease.
+[LINE#112] First, we predicted that the network recruited in health for change detection would be altered by disease.
 0.928	[*A*]the network recruited in health for change detection[*R*]would be altered[*A*]by disease	context(we predicted)	negated: False ,passive: True
 0.399	[*A*]we[*R*]predicted[*A*]that the network recruited in health for change detection would be altered by disease[*A*]First	context()	negated: False ,passive: False
 0.903	[*A*]the network[*R*]recruited[*A*]in health[*A*]for change detection	context()	negated: False ,passive: True
-[LINE#101] Specifically, since bvFTD and PSP have prefrontal neuropathology, we predicted that network reorganisation would lead to more distributed networks with enhanced connectivity among the less affected parietal regions.
+[LINE#113+114]  Specifically, since bvFTD and PSP have prefrontal neuropathology, we predicted that network reorganisation would lead to more distributed networks with enhanced connectivity among the less affected parietal regions.
 0.920	[*A*]network reorganisation[*R*]would lead[*A*]to more distributed networks with enhanced connectivity among the less affected parietal regions	context(we predicted)	negated: False ,passive: False
 0.271	[*A*]we[*R*]predicted[*A*]that network reorganisation would lead to more distributed networks with enhanced connectivity among the less affected parietal regions	context()	negated: False ,passive: False
 0.877	[*A*]bvFTD and PSP[*R*]have[*A*]prefrontal neuropathology	context()	negated: False ,passive: False
-[LINE#102] Secondly, we predicted that disease would also affect the modulation of the network by the experimental context(i.e. the difference between the standard and deviant tones).
+[LINE#115+116]  Secondly, we predicted that disease would also affect the modulation of the network by the experimental context(i.e. the difference between the standard and deviant tones).
 0.810	[*A*]disease[*R*]would affect[*A*]the modulation of the network by the experimental context	context(we predicted)	negated: False ,passive: False
 0.271	[*A*]we[*R*]predicted[*A*]that disease would also affect the modulation of the network by the experimental context	context()	negated: False ,passive: False
-[LINE#103]Thus, we not only predict that patients will have a change in network architecture, but also a change in the dynamic modulation of connectivity from trial to trial.
+[LINE#117] Thus, we not only predict that patients will have a change in network architecture, but also a change in the dynamic modulation of connectivity from trial to trial.
 0.290	[*A*]we[*R*]predict[*A*]that a change in the dynamic modulation of connectivity from trial to trial	context()	negated: False ,passive: False
 0.867	[*A*]patients[*R*]will have[*A*]a change in network architecture	context(we predict)	negated: False ,passive: False
 0.164	[*A*]we[*R*]predict[*A*]that patients will have a change in network architecture	context()	negated: False ,passive: False
-[LINE#104]A corollary of this network change is reduced automatic detection of unpredictable change, and therefore a reduction in amplitudes and delayed latency of the MMNm response in the auditory cortex.
+[LINE#118] A corollary of this network change is reduced automatic detection of unpredictable change, and therefore a reduction in amplitudes and delayed latency of the MMNm response in the auditory cortex.
 0.948	[*A*]A corollary of this network change[*R*]is[*A*]therefore[*A*]a reduction in amplitudes	context()	negated: False ,passive: True
-[LINE#105]Seventeen patients with bvFTD were recruited using clinical diagnostic criteria, including abnormal clinical imaging, (Rascovsky et al., 2011).
+[LINE#119] Seventeen patients with bvFTD were recruited using clinical diagnostic criteria, including abnormal clinical imaging, (Rascovsky et al., 2011).
 0.905	[*A*]Seventeen patients with bvFTD[*R*]using[*A*]clinical diagnostic criteria, including abnormal clinical imaging	context()	negated: False ,passive: False
 0.769	[*A*]Seventeen patients with bvFTD[*R*]were recruited	context()	negated: False ,passive: False
-[LINE#106] We did not include patients with non-progressive mimics of bvFTD.
+[LINE#120]  We did not include patients with non-progressive mimics of bvFTD.
 0.498	[*A*]We[*R*]did not include[*A*]patients with non-progressive mimics of bvFTD	context()	negated: True ,passive: True
-[LINE#107]Ten patients with progressive supranuclear palsy were recruited, according to clinical diagnostic criteria (Litvan et al., 1996).
+[LINE#121] Ten patients with progressive supranuclear palsy were recruited, according to clinical diagnostic criteria (Litvan et al., 1996).
 0.920	[*A*]Ten patients with progressive supranuclear palsy[*R*]were recruited[*A*]according to clinical diagnostic criteria	context()	negated: False ,passive: True
-[LINE#108] Subjects underwent neuropsychological assessment including: the 100 point revised Addenbrooke's cognitive examination (ACE-r) (Mioshi et al., 2006), the mini mental state examination (MMSE), the motor section of the Unified Parkinson Disease Rating Scale (UPDRS)(Fahn, 1986) and the Progressive Supranuclear Palsy Rating Scale (PSPRS, PSP cases only) (Golbe and Ohman-Strickland, 2007).
+[LINE#122+123]  Subjects underwent neuropsychological assessment including: the 100 point revised Addenbrooke's cognitive examination (ACE-r) (Mioshi et al., 2006), the mini mental state examination (MMSE), the motor section of the Unified Parkinson Disease Rating Scale (UPDRS)(Fahn, 1986) and the Progressive Supranuclear Palsy Rating Scale (PSPRS, PSP cases only) (Golbe and Ohman-Strickland, 2007).
 0.911	[*A*]Subjects[*R*]underwent[*A*]neuropsychological assessment including : Mioshi et al	context()	negated: False ,passive: True
-[LINE#109]Thirty-four healthy aged-matched older adults were recruited from the volunteer panel of the MRC Cognition and Brain Sciences Unit or were relatives or spouses of the patients.
+[LINE#124] Thirty-four healthy aged-matched older adults were recruited from the volunteer panel of the MRC Cognition and Brain Sciences Unit or were relatives or spouses of the patients.
 0.939	[*A*]Thirty-four healthy aged-matched older adults[*R*]were[*A*]relatives or spouses of the patients	context()	negated: False ,passive: True
 0.972	[*A*]Thirty-four healthy aged-matched older adults[*R*]were recruited[*A*]from the volunteer panel of the MRC Cognition and Brain Sciences Unit	context()	negated: False ,passive: True
-[LINE#110]No subjects in the control group had a history of significant neurological, rheumatological or psychiatric illness, or cognitive complaints.
+[LINE#125] No subjects in the control group had a history of significant neurological, rheumatological or psychiatric illness, or cognitive complaints.
 0.967	[*A*]No subjects in the control group[*R*]had[*A*]a history of significant neurological, rheumatological or psychiatric illness, or cognitive complaints	context()	negated: False ,passive: False
-[LINE#111]Subject details are summarised in Table 1.
+[LINE#126] Subject details are summarised in Table 1.
 0.918	[*A*]Subject details[*R*]are summarised[*A*]in Table 1	context()	negated: False ,passive: True
-[LINE#112]The study was approved by the local Research Ethics Committee and participants gave written informed consent..
+[LINE#127] The study was approved by the local Research Ethics Committee and participants gave written informed consent..
 0.894	[*A*]participants[*R*]gave[*A*]written informed consent	context()	negated: False ,passive: False
 0.918	[*A*]The study[*R*]was approved[*A*]by the local Research Ethics Committee	context()	negated: False ,passive: True
-[LINE#113] Nm paradigmThe paradigm used to study cortical function and network connectivity wasthe multi-feature 'Optimum-1' paradigm (Naatanen et al., 2004), a variant of the auditory oddball paradigm for identification of the mismatch negativity.
+[LINE#128+129]  Nm paradigmThe paradigm used to study cortical function and network connectivity wasthe multi-feature 'Optimum-1' paradigm (Naatanen et al., 2004), a variant of the auditory oddball paradigm for identification of the mismatch negativity.
 0.958	[*A*]Nm paradigmThe paradigm[*R*]to study[*A*]cortical network connectivity wasthe multi-feature ' Optimum - 1 ' paradigm ( Naatanen et al . , 2004 ) , a variant of the auditory oddball paradigm for identification of the mismatch negativity	context()	negated: False ,passive: False
 0.922	[*A*]Nm paradigmThe paradigm[*R*]to study[*A*]cortical function wasthe multi-feature '	context()	negated: False ,passive: False
-[LINE#114]The stimuli comprised a sequence of harmonic tones presented every 500ms in three blocks of 5min.
+[LINE#130] The stimuli comprised a sequence of harmonic tones presented every 500ms in three blocks of 5min.
 0.937	[*A*]The stimuli[*R*]comprised[*A*]a sequence of harmonic tones presented every 500ms in three blocks of 5min	context()	negated: False ,passive: True
-[LINE#115]The standard tone was 75ms duration and contained three sinusoidal partials of 500, 1000 and 1500Hz.
+[LINE#131] The standard tone was 75ms duration and contained three sinusoidal partials of 500, 1000 and 1500Hz.
 0.925	[*A*]The standard tone[*R*]contained[*A*]three sinusoidal partials of 1500Hz	context()	negated: False ,passive: False
 0.911	[*A*]The standard tone[*R*]contained[*A*]three sinusoidal partials of 1000	context()	negated: False ,passive: False
 0.911	[*A*]The standard tone[*R*]contained[*A*]three sinusoidal partials of 500	context()	negated: False ,passive: False
 0.932	[*A*]The standard tone[*R*]was[*A*]75 ms duration	context()	negated: False ,passive: True
-[LINE#116]The five deviant tones differed from the standard by either frequency band (550, 1100, 1650Hz), intensity (+/-6dB), duration (25 vs 75ms), side of sound source (left or right rather than bilateral), and by a silent gap (silent mid 25ms).
+[LINE#132] The five deviant tones differed from the standard by either frequency band (550, 1100, 1650Hz), intensity (+/-6dB), duration (25 vs 75ms), side of sound source (left or right rather than bilateral), and by a silent gap (silent mid 25ms).
 0.769	[*A*]The five deviant tones[*R*]differed	context()	negated: False ,passive: False
-[LINE#117] The sequence started with fifteen standard tones, after which every other tone presented was one of the five deviant types,such that in a sequence of 10 tones, each deviant was presented once but the same deviant type was never immediately repeated.
+[LINE#133+134]  The sequence started with fifteen standard tones, after which every other tone presented was one of the five deviant types,such that in a sequence of 10 tones, each deviant was presented once but the same deviant type was never immediately repeated.
 0.810	[*A*]such the same deviant type[*R*]was never repeated[*A*]immediately	context()	negated: True ,passive: True
 0.937	[*A*]every other tone presented[*R*]was[*A*]one of the five deviant types	context()	negated: False ,passive: True
 0.937	[*A*]The sequence[*R*]started[*A*]with fifteen standard tones[*A*]after which every other tone presented was one of the five deviant types	context()	negated: False ,passive: True
@@ -422,72 +422,72 @@
 0.898	[*A*]every other tone presented[*R*]was[*A*]one of the five deviant types , such that in a sequence of 10 tones , each deviant was presented once	context()	negated: False ,passive: True
 0.751	[*A*]every other tone[*R*]presented	context()	negated: False ,passive: False
 0.845	[*A*]The sequence[*R*]started[*A*]with fifteen standard tones[*A*]after which every other tone presented was one of the five deviant types , such that in a sequence of 10 tones , each deviant was presented once	context()	negated: False ,passive: True
-[LINE#118]There were a total of 900 standards and 900 deviants.
-[LINE#119]The tones were presented binaurally via plastic tubes and earpieces at approximately 60dB above the hearing threshold. .
+[LINE#135] There were a total of 900 standards and 900 deviants.
+[LINE#136] The tones were presented binaurally via plastic tubes and earpieces at approximately 60dB above the hearing threshold. .
 0.993	[*A*]The tones[*R*]were presented at[*A*]approximately 60db	context()	negated: False ,passive: False
 0.886	[*A*]The tones[*R*]were presented binaurally[*A*]at approximately 60dB above the hearing threshold	context()	negated: False ,passive: True
-[LINE#120]Magnetoencephalography and data processingMEG data were collected with a 306-channel Vectorview system (Elekta Neuromag, Helsinki) in a light Elekta-Neuromag magnetically-shielded room.
+[LINE#137] Magnetoencephalography and data processingMEG data were collected with a 306-channel Vectorview system (Elekta Neuromag, Helsinki) in a light Elekta-Neuromag magnetically-shielded room.
 0.943	[*A*]data processingMEG data[*R*]were collected[*A*]in a light Elekta - Neuromag magnetically - shielded room	context()	negated: False ,passive: True
 0.943	[*A*]Magnetoencephalography processingMEG data[*R*]were collected[*A*]in a light Elekta - Neuromag magnetically - shielded room	context()	negated: False ,passive: True
-[LINE#121]A magnetometer and two orthogonal planar gradiometers were located at each of 102 positions.
+[LINE#138] A magnetometer and two orthogonal planar gradiometers were located at each of 102 positions.
 0.919	[*A*]two orthogonal planar gradiometers[*R*]were located[*A*]at each of 102 positions	context()	negated: False ,passive: True
 0.903	[*A*]A magnetometer[*R*]were located[*A*]at each of 102 positions	context()	negated: False ,passive: True
-[LINE#122]Vertical and horizontal eye movements were recorded using paired EOG electrodes.
+[LINE#139] Vertical and horizontal eye movements were recorded using paired EOG electrodes.
 0.913	[*A*]horizontal eye movements[*R*]using[*A*]paired EOG electrodes	context()	negated: False ,passive: False
 0.751	[*A*]horizontal eye movements[*R*]were recorded	context()	negated: False ,passive: False
 0.913	[*A*]Vertical eye movements[*R*]using[*A*]paired EOG electrodes	context()	negated: False ,passive: False
 0.751	[*A*]Vertical eye movements[*R*]were recorded	context()	negated: False ,passive: False
-[LINE#123]Head position was monitored using five Head-Position Indicator (HPI) coils.
-[LINE#124]The three-dimensional locations of the HPI coils and approximately 80 'head points' across the scalp, and three anatomical fiducials (the nasion and left and right pre-auricular points), were recorded using a 3D digitizer (Fastrak Polhemus Inc., Colchester, VA).
+[LINE#140] Head position was monitored using five Head-Position Indicator (HPI) coils.
+[LINE#141] The three-dimensional locations of the HPI coils and approximately 80 'head points' across the scalp, and three anatomical fiducials (the nasion and left and right pre-auricular points), were recorded using a 3D digitizer (Fastrak Polhemus Inc., Colchester, VA).
 0.718	[*A*]right pre-auricular points[*R*]were recorded	context()	negated: False ,passive: False
 0.718	[*A*]three anatomical fiducials[*R*]were recorded	context()	negated: False ,passive: False
 0.820	[*A*]approximately 80 ' head points ' across the scalp[*R*]were recorded	context()	negated: False ,passive: False
 0.861	[*A*]The three - dimensional locations of the HPI coils[*R*]were recorded	context()	negated: False ,passive: False
-[LINE#125]Data were down sampled from 1000 to 333Hz and pre-processed using MaxFilter software (Elekta-Neuromag) with movement compensation.
+[LINE#142] Data were down sampled from 1000 to 333Hz and pre-processed using MaxFilter software (Elekta-Neuromag) with movement compensation.
 0.993	[*A*]Data[*R*]were sampled from[*A*]1000 to 333hz and pre -	context()	negated: False ,passive: False
 0.771	[*A*]Data[*R*]were down sampled	context()	negated: False ,passive: False
-[LINE#126]The data were then processed separately for source analysis of the waveforms from auditory cortex using Brain Electrical Source Analysis (BESA version 5.3, Germany), and for network connectivity analysis using dynamic causal modelling with SPM 8. .
+[LINE#143] The data were then processed separately for source analysis of the waveforms from auditory cortex using Brain Electrical Source Analysis (BESA version 5.3, Germany), and for network connectivity analysis using dynamic causal modelling with SPM 8. .
 0.381	[*A*]Analysis[*R*][is] Electrical Source [of][*A*]Brain	context()	negated: False ,passive: False
 0.925	[*A*]network connectivity analysis[*R*]using[*A*]dynamic causal modelling[*A*]with SPM 8	context()	negated: False ,passive: False
 0.937	[*A*]the waveforms from auditory cortex[*R*]using[*A*]Brain Electrical Source Analysis	context()	negated: False ,passive: False
 0.916	[*A*]The data[*R*]were processed separately[*A*]for source analysis of the waveforms from auditory cortex[*A*]then	context()	negated: False ,passive: True
-[LINE#127] Data analysis: Auditory cortical waveformsData were high pass filtered over 1Hz /oct with no added padding) andthe artefact rejection threshold was set to 2500fT for magnetometers and 900fT for gradiometers.
+[LINE#144+145+146]  Data analysis: Auditory cortical waveformsData were high pass filtered over 1Hz /oct with no added padding) andthe artefact rejection threshold was set to 2500fT for magnetometers and 900fT for gradiometers.
 0.919	[*A*]andthe artefact rejection threshold[*R*]was set[*A*]to 2500 900 fT for gradiometers	context()	negated: False ,passive: True
 0.919	[*A*]andthe artefact rejection threshold[*R*]was set[*A*]to 2500 fT for magnetometers	context()	negated: False ,passive: True
 0.918	[*A*]high pass[*R*]filtered[*A*]over 1Hz / oct	context()	negated: False ,passive: True
 0.964	[*A*]Auditory cortical waveformsData[*R*]were[*A*]high pass filtered over 1Hz / oct with no added padding	context()	negated: False ,passive: True
-[LINE#128]Using BESA's adaptive artefact correction, eye-blinks were corrected and modelled in the source analysis with one fixed source.
+[LINE#147] Using BESA's adaptive artefact correction, eye-blinks were corrected and modelled in the source analysis with one fixed source.
 0.544	[*A*]Using[*R*]modelled[*A*]in the source analysis with one fixed source	context()	negated: False ,passive: True
 0.751	[*A*]eye - blinks[*R*]were corrected	context()	negated: False ,passive: False
-[LINE#129] Epochs were lowpass filtered to 40Hztime locked to the tone onset, baseline corrected (-100 to 0ms) and averaged from -100ms before tone onset to 400ms after onset.
+[LINE#148+149]  Epochs were lowpass filtered to 40Hztime locked to the tone onset, baseline corrected (-100 to 0ms) and averaged from -100ms before tone onset to 400ms after onset.
 0.877	[*A*]baseline[*R*]averaged[*A*]from -100ms[*A*]before tone onset[*A*]after onset	context()	negated: False ,passive: False
 0.876	[*A*]baseline[*R*]corrected[*A*]-100 to 0ms	context()	negated: False ,passive: False
 0.911	[*A*]lowpass[*R*]filtered[*A*]to 40Hztime	context()	negated: False ,passive: True
-[LINE#130]Source analysis of evoked responses from the gradiometer MEG channels, was performed for each subject on the MMNm response (deviant vs standard) of each deviant type, and also to the standard tone.
+[LINE#150] Source analysis of evoked responses from the gradiometer MEG channels, was performed for each subject on the MMNm response (deviant vs standard) of each deviant type, and also to the standard tone.
 0.978	[*A*]Source analysis of evoked responses from the gradiometer MEG channels[*R*]was performed[*A*]for each subject on the MMNm response ( to the standard tone	context()	negated: False ,passive: True
 0.965	[*A*]Source analysis of evoked responses from the gradiometer MEG channels[*R*]was performed[*A*]for each subject on the MMNm response	context()	negated: False ,passive: True
-[LINE#131]The forward model topography (leadfield) was estimated using a realistic head model, coregistered by fiducial and digitised scalp loci.
+[LINE#151] The forward model topography (leadfield) was estimated using a realistic head model, coregistered by fiducial and digitised scalp loci.
 0.905	[*A*]a realistic head model[*R*]coregistered[*A*]by fiducial	context()	negated: False ,passive: True
 0.737	[*A*]The forward model topography[*R*]was estimated	context()	negated: False ,passive: False
-[LINE#132]The inverse of this leadfield matrix was applied to the gradiometer data to estimate the source waveforms, varying source location and orientation iteratively until the residual difference between scalp and model waveforms was minimized.
+[LINE#152] The inverse of this leadfield matrix was applied to the gradiometer data to estimate the source waveforms, varying source location and orientation iteratively until the residual difference between scalp and model waveforms was minimized.
 0.956	[*A*]The inverse of this leadfield matrix[*R*]was applied[*A*]to the gradiometer data[*A*]to estimate the source waveforms[*A*]varying orientation iteratively until the residual difference between scalp and model waveforms was minimized	context()	negated: False ,passive: True
 0.830	[*A*]the residual difference between scalp and model waveforms[*R*]was minimized	context()	negated: False ,passive: False
 0.956	[*A*]The inverse of this leadfield matrix[*R*]was applied[*A*]to the gradiometer data[*A*]to estimate the source waveforms[*A*]varying source location iteratively until the residual difference between scalp and model waveforms was minimized	context()	negated: False ,passive: True
-[LINE#133]The data were fitted to two bilateral equivalent current dipoles (regional sources).
+[LINE#153] The data were fitted to two bilateral equivalent current dipoles (regional sources).
 0.732	[*A*]The data[*R*]were fitted	context()	negated: False ,passive: False
-[LINE#134]The fits were constrained by imposing symmetry on the two sources, but not constrained by location or orientation, and with regularisation constant 1% to stabilise source fitting in the presence of noise.
+[LINE#154] The fits were constrained by imposing symmetry on the two sources, but not constrained by location or orientation, and with regularisation constant 1% to stabilise source fitting in the presence of noise.
 0.932	[*A*]constant 1% to stabilise source[*R*]fitting[*A*]in the presence of noise	context()	negated: False ,passive: True
 0.887	[*A*]The fits[*R*]by imposing[*A*]symmetry[*A*]on the two sources	context()	negated: False ,passive: False
 0.903	[*A*]The fits[*R*]were constrained[*A*]by imposing symmetry on the two sources	context()	negated: False ,passive: True
-[LINE#135] To examine the MMNm waveforms the dipoles were fitted to an interval of 100 to 200ms to capture the likely MMNm based on previous literature(Bronnick et al., 2010; Engeland et al., 2002; Naatanen and Escera, 2000; Naatanen and Kahkonen, 2009; Naatanen et al., 2005; Pekkonen, 2000; Pekkonen et al., 2001; Thonnessen et al., 2008).
+[LINE#155+156]  To examine the MMNm waveforms the dipoles were fitted to an interval of 100 to 200ms to capture the likely MMNm based on previous literature(Bronnick et al., 2010; Engeland et al., 2002; Naatanen and Escera, 2000; Naatanen and Kahkonen, 2009; Naatanen et al., 2005; Pekkonen, 2000; Pekkonen et al., 2001; Thonnessen et al., 2008).
 0.933	[*A*]the likely MMNm[*R*]based[*A*]on previous literature	context()	negated: False ,passive: True
 0.903	[*A*]the dipoles[*R*]were fitted[*A*]to capture the likely MMNm	context()	negated: False ,passive: True
-[LINE#136]Analyses were conducted on the waveforms from the primary orientation of the regional sources.
+[LINE#157] Analyses were conducted on the waveforms from the primary orientation of the regional sources.
 0.931	[*A*]Analyses[*R*]were conducted[*A*]on the waveforms from the primary orientation of the regional sources	context()	negated: False ,passive: True
-[LINE#137]Across the 100ms fit intervals, the average amplitude and the peak latency were estimated for the MMNm waveform of each deviant.
+[LINE#158] Across the 100ms fit intervals, the average amplitude and the peak latency were estimated for the MMNm waveform of each deviant.
 0.948	[*A*]the average amplitude and the peak latency[*R*]were estimated[*A*]for the MMNm waveform of each deviant	context()	negated: False ,passive: True
 0.877	[*A*]the 100ms[*R*]fit[*A*]Across	context()	negated: False ,passive: True
-[LINE#138]Amplitude and latency were included as separate dependent variables in repeated measures analyses of variance (ANOVA), which had three factors: deviant type (duration, frequency, location, gap and intensity), location of the ECD (left and right hemisphere), and with group (bvFTD, PSP and controls) as a between subjects condition.
+[LINE#159] Amplitude and latency were included as separate dependent variables in repeated measures analyses of variance (ANOVA), which had three factors: deviant type (duration, frequency, location, gap and intensity), location of the ECD (left and right hemisphere), and with group (bvFTD, PSP and controls) as a between subjects condition.
 0.942	[*A*]latency[*R*]were included[*A*]as separate dependent variables in repeated measures analyses of variance ( ANOVA ) , which had three factors : deviant type ( intensity ) ) , and with group ( PSP ) as a between subjects condition	context()	negated: False ,passive: True
 0.942	[*A*]latency[*R*]were included[*A*]as separate dependent variables in repeated measures analyses of variance ( ANOVA ) , which had three factors : deviant type ( gap ) ) , and with group ( PSP ) as a between subjects condition	context()	negated: False ,passive: True
 0.942	[*A*]latency[*R*]were included[*A*]as separate dependent variables in repeated measures analyses of variance ( ANOVA ) , which had three factors : deviant type ( frequency ) ) , and with group ( PSP ) as a between subjects condition	context()	negated: False ,passive: True
@@ -507,141 +507,141 @@
 0.931	[*A*]latency[*R*]were included[*A*]as separate dependent variables in repeated measures analyses of variance	context()	negated: False ,passive: True
 0.954	[*A*]separate dependent variables in repeated measures analyses of variance[*R*]had[*A*]three factors	context()	negated: False ,passive: False
 0.948	[*A*]Amplitude[*R*]were included[*A*]as separate dependent variables in repeated measures analyses of variance	context()	negated: False ,passive: True
-[LINE#139]Planned pairwise comparisons between the two patient groups examined differences to specific deviant types for both amplitude and peak latency (Bonferroni corrected for multiple comparisons).To support the assumption that differences in the auditory evoked response to deviant tones would be due to impaired change detection, and not auditory perception per se, responses to the standard tone were examined.
+[LINE#160] Planned pairwise comparisons between the two patient groups examined differences to specific deviant types for both amplitude and peak latency (Bonferroni corrected for multiple comparisons).To support the assumption that differences in the auditory evoked response to deviant tones would be due to impaired change detection, and not auditory perception per se, responses to the standard tone were examined.
 0.948	[*A*]differences in the auditory evoked response to deviant tones[*R*]would be[*A*]due to impaired change detection	context()	negated: False ,passive: True
 0.920	[*A*]Bonferroni[*R*]corrected[*A*]for multiple comparisons	context()	negated: False ,passive: False
 0.886	[*A*]Planned pairwise comparisons between the two patient groups[*R*]examined[*A*]differences to specific deviant types for both amplitude and peak latency[*A*]To support the assumption that differences in the auditory evoked response to deviant tones would be due to impaired change detection	context(not auditory perception per se , responses to the standard tone were examined)	negated: False ,passive: False
 0.839	[*A*]not auditory perception per se, responses to the standard tone[*R*]were examined	context()	negated: False ,passive: False
-[LINE#140]An interval of 50-150ms was used to examine potential group differences in the M100, since differences here might reflect a hearing impairment.
+[LINE#161] An interval of 50-150ms was used to examine potential group differences in the M100, since differences here might reflect a hearing impairment.
 0.903	[*A*]differences here[*R*]might reflect[*A*]a hearing impairment	context()	negated: False ,passive: True
 0.937	[*A*]An interval of 50-150ms[*R*]was used[*A*]to examine potential group differences in the M100	context()	negated: False ,passive: True
-[LINE#141]An analysis of variance compared the peak amplitude of the M100 for the left and right EDCs, between the three subject groups. .
+[LINE#162] An analysis of variance compared the peak amplitude of the M100 for the left and right EDCs, between the three subject groups. .
 0.956	[*A*]An analysis of variance[*R*]compared[*A*]the peak amplitude of the M100 for the right EDCs	context()	negated: False ,passive: False
 0.931	[*A*]An analysis of variance[*R*]compared[*A*]the peak amplitude of the M100[*A*]for the left	context()	negated: False ,passive: False
-[LINE#142]Dynamic causal models of cortical interactionsSPM 8 was used to prepare the data for DCM, with a similar preprocessing pipeline to the waveform analysis, except epochs in which EOG that exceeded 150V were rejected, to remove blink artefacts.
+[LINE#163] Dynamic causal models of cortical interactionsSPM 8 was used to prepare the data for DCM, with a similar preprocessing pipeline to the waveform analysis, except epochs in which EOG that exceeded 150V were rejected, to remove blink artefacts.
 0.935	[*A*]EOG[*R*]were rejected[*A*]epochs	context()	negated: False ,passive: True
 0.906	[*A*]EOG[*R*]exceeded[*A*]150V	context()	negated: False ,passive: False
 0.975	[*A*]Dynamic causal models of cortical interactionsSPM 8[*R*]was used[*A*]to prepare the data for DCM, with a similar preprocessing pipeline to the waveform analysis	context()	negated: False ,passive: True
-[LINE#143]Robust averaging was used to average all the deviant tones and separately all the standard tones.
+[LINE#164] Robust averaging was used to average all the deviant tones and separately all the standard tones.
 0.945	[*A*]Robust averaging[*R*]to average[*A*]all the deviant tones and separately all the standard tones	context()	negated: False ,passive: True
 0.953	[*A*]Robust averaging[*R*]was used[*A*]to average all the deviant tones and separately all the standard tones	context()	negated: False ,passive: True
-[LINE#144]The averages of the two tone types from the gradiometer MEG channels were used for source reconstruction.
+[LINE#165] The averages of the two tone types from the gradiometer MEG channels were used for source reconstruction.
 0.971	[*A*]The averages of the two tone types from the gradiometer MEG channels[*R*]were used[*A*]for source reconstruction	context()	negated: False ,passive: True
-[LINE#145]A template cortical mesh was created, coregistered to the fiducial and headshape points, and used to estimate the forward model.
+[LINE#166] A template cortical mesh was created, coregistered to the fiducial and headshape points, and used to estimate the forward model.
 0.919	[*A*]A template cortical mesh[*R*]was coregistered[*A*]to headshape points	context()	negated: False ,passive: True
 0.919	[*A*]A template cortical mesh[*R*]was coregistered[*A*]to the fiducial	context()	negated: False ,passive: True
 0.905	[*A*]A template cortical mesh[*R*]to estimate[*A*]the forward model	context()	negated: False ,passive: False
 0.919	[*A*]A template cortical mesh[*R*]was used[*A*]to estimate the forward model	context()	negated: False ,passive: True
 0.769	[*A*]A template cortical mesh[*R*]was created	context()	negated: False ,passive: False
-[LINE#146]Inverse reconstruction was computed using SPM 8's standard inversion algorithm with default settings.
+[LINE#167] Inverse reconstruction was computed using SPM 8's standard inversion algorithm with default settings.
 0.732	[*A*]Inverse reconstruction[*R*]was computed	context()	negated: False ,passive: False
-[LINE#147]We then used DCM to examine directional changes in causal influences among brain regions, in a time window of 0-250ms.
+[LINE#168] We then used DCM to examine directional changes in causal influences among brain regions, in a time window of 0-250ms.
 0.349	[*A*]We[*R*]used DCM to examine[*A*]directional changes in causal influences[*A*]among brain regions[*A*]in a time window of 0-250ms	context(We used)	negated: False ,passive: False
 0.649	[*A*]We[*R*]used[*A*]DCM[*A*]to examine directional changes in causal influences among brain regions, in a time window of 0-250ms[*A*]then	context()	negated: False ,passive: False
-[LINE#148] A stepwise approach to DCM was used (Stephan et al., 2010), which included 1) specifying the network by systematic variation of intrinsic anatomical connections and the connections that are modulated by experimental context; 2) fitting the data to the model by optimising model parameters; 3) estimating the free energy limit on model evidences and 4)identifying the most likely model using a hierarchical Bayesian model comparison.
+[LINE#169+170]  A stepwise approach to DCM was used (Stephan et al., 2010), which included 1) specifying the network by systematic variation of intrinsic anatomical connections and the connections that are modulated by experimental context; 2) fitting the data to the model by optimising model parameters; 3) estimating the free energy limit on model evidences and 4)identifying the most likely model using a hierarchical Bayesian model comparison.
 0.887	[*A*]the connections[*R*]are modulated[*A*]by experimental context	context()	negated: False ,passive: True
 0.897	[*A*]intrinsic anatomical connections[*R*]are modulated[*A*]by experimental context	context()	negated: False ,passive: True
 0.263	[*A*]2010[*R*]included[*A*]1	context()	negated: False ,passive: True
 0.832	[*A*]A stepwise approach to DCM[*R*]was used	context()	negated: False ,passive: False
-[LINE#149]The network architecture of the model space extends a previous study examining coherence among frontal, parietal and temporal sources based on the BESA auditory evoked potential model (Hughes and Rowe, 2013).
+[LINE#171] The network architecture of the model space extends a previous study examining coherence among frontal, parietal and temporal sources based on the BESA auditory evoked potential model (Hughes and Rowe, 2013).
 0.967	[*A*]The network architecture of the model space[*R*]extends[*A*]a previous study examining coherence among frontal, parietal and temporal sources based on the BESA auditory evoked potential model	context()	negated: False ,passive: False
-[LINE#150] Six sources were modelled using equivalent current dipoles, including: bilateral temporal nodes (MNI coordinates: +/-43, -21, -4), bilateral frontal nodes (+/-35, 33, 28), and bilateral parietal nodes (+/-34, -71, 13).
+[LINE#172+173+174]  Six sources were modelled using equivalent current dipoles, including: bilateral temporal nodes (MNI coordinates: +/-43, -21, -4), bilateral frontal nodes (+/-35, 33, 28), and bilateral parietal nodes (+/-34, -71, 13).
 0.634	[*A*]MNI[*R*]coordinates	context()	negated: False ,passive: False
 0.732	[*A*]Six sources[*R*]were modelled	context()	negated: False ,passive: False
-[LINE#151]Using these six nodes fifteen generative models were built.
+[LINE#175] Using these six nodes fifteen generative models were built.
 0.751	[*A*]fifteen generative models[*R*]were built	context()	negated: False ,passive: False
-[LINE#152]The models were grouped into three families, which differed by the presence of extrinsic connections between nodes (see Fig. 2).
+[LINE#176] The models were grouped into three families, which differed by the presence of extrinsic connections between nodes (see Fig. 2).
 0.887	[*A*]three families[*R*]differed[*A*]by the presence of extrinsic connections between nodes	context()	negated: False ,passive: True
 0.903	[*A*]The models[*R*]were grouped[*A*]into three families	context()	negated: False ,passive: True
-[LINE#153]The three families of model contained either 'full', 'partial' or 'sparse' bidirectional connectivity.
+[LINE#177] The three families of model contained either 'full', 'partial' or 'sparse' bidirectional connectivity.
 0.952	[*A*]The three families of model[*R*]contained[*A*]either 'full', 'partial' or 'sparse	context()	negated: False ,passive: False
-[LINE#154]The family of models with full connectivity had intrahemispheric connections between temporal and frontal, temporal and parietal nodes, and frontal and parietal nodes, and interhemispheric connectivity between bilateral node pairs.
+[LINE#178] The family of models with full connectivity had intrahemispheric connections between temporal and frontal, temporal and parietal nodes, and frontal and parietal nodes, and interhemispheric connectivity between bilateral node pairs.
 0.952	[*A*]The family of models with full connectivity[*R*]had[*A*]intrahemispheric connections between temporal and parietal nodes	context()	negated: False ,passive: False
 0.952	[*A*]The family of models with full connectivity[*R*]had[*A*]intrahemispheric connections between temporal and frontal nodes	context()	negated: False ,passive: False
 0.970	[*A*]The family of models with full connectivity[*R*]had[*A*]intrahemispheric connections between temporal and frontal , temporal and parietal nodes	context()	negated: False ,passive: False
-[LINE#155]The family of models with partial connectivity had the same connections with the exception of the frontal-parietal connections, which were not included.
+[LINE#179] The family of models with partial connectivity had the same connections with the exception of the frontal-parietal connections, which were not included.
 0.756	[*A*]the frontal-parietal connections[*R*]were not included	context()	negated: True ,passive: False
 0.970	[*A*]The family of models with partial connectivity[*R*]had[*A*]the same connections with the exception of the frontal-parietal connections	context()	negated: False ,passive: False
-[LINE#156]The family of models with sparse connectivity had only intrahemispheric connections between temporal and frontal nodes, and temporal and parietal nodes, and no interhemispheric or frontal-parietal connectivity.
+[LINE#180] The family of models with sparse connectivity had only intrahemispheric connections between temporal and frontal nodes, and temporal and parietal nodes, and no interhemispheric or frontal-parietal connectivity.
 0.970	[*A*]The family of models with sparse connectivity[*R*]had[*A*]only intrahemispheric connections between temporal and frontal nodes, and temporal and parietal nodes	context()	negated: False ,passive: False
-[LINE#157]The extrinsic connections were modulated by the difference between the deviant and standard responses.
+[LINE#181] The extrinsic connections were modulated by the difference between the deviant and standard responses.
 0.911	[*A*]The extrinsic connections[*R*]were modulated[*A*]by the difference between the deviant and standard responses	context()	negated: False ,passive: True
-[LINE#158]Each family comprised five models, in which the connections between nodes were modulated in five ways: 1) allowing modulation to all connections, 2) to only anterior (frontal-temporal), or 3) to only posterior (temporal-parietal) connections, 4) to only forward or 5) to only backward connections.
+[LINE#182] Each family comprised five models, in which the connections between nodes were modulated in five ways: 1) allowing modulation to all connections, 2) to only anterior (frontal-temporal), or 3) to only posterior (temporal-parietal) connections, 4) to only forward or 5) to only backward connections.
 0.944	[*A*]the connections between nodes[*R*]were modulated[*A*]five models	context()	negated: False ,passive: True
-[LINE#159]For all models, the driving cortical input was specified at left and right auditory cortex.
+[LINE#183] For all models, the driving cortical input was specified at left and right auditory cortex.
 0.953	[*A*]the driving cortical input[*R*]was specified[*A*]at right auditory cortex[*A*]For all models	context()	negated: False ,passive: True
 0.953	[*A*]the driving cortical input[*R*]was specified[*A*]at left[*A*]For all models	context()	negated: False ,passive: True
-[LINE#160]Intrinsic connectivity within each of the temporal nodes was also modulated, in accordance with a prior DCM study of a roving oddball paradigm (Garrido et al., 2008, 2009b).To establish the best model for each group of subjects, we used Bayesian model comparison cf.
+[LINE#184] Intrinsic connectivity within each of the temporal nodes was also modulated, in accordance with a prior DCM study of a roving oddball paradigm (Garrido et al., 2008, 2009b).To establish the best model for each group of subjects, we used Bayesian model comparison cf.
 0.498	[*A*]we[*R*]used[*A*]Bayesian model comparison cf	context()	negated: False ,passive: False
 0.940	[*A*]Garrido et al., 2008[*R*]To establish[*A*]the best model for each group of subjects	context()	negated: False ,passive: False
 0.761	[*A*]Intrinsic connectivity within each of the temporal nodes[*R*]was modulated	context()	negated: False ,passive: False
-[LINE#161](Fastenrath et al., 2009; Kiebel et al., 2009; Stephan et al., 2009) for random-effects inferences that accommodate heterogeneity within group.
+[LINE#185] (Fastenrath et al., 2009; Kiebel et al., 2009; Stephan et al., 2009) for random-effects inferences that accommodate heterogeneity within group.
 0.905	[*A*]random-effects inferences[*R*]accommodate[*A*]heterogeneity	context()	negated: False ,passive: False
-[LINE#162]The free energy estimates of the bound on model evidences (adjusted for model complexity and covariance amongst parameters) were used to estimate the model exceedance probability (the probability that a model or family of models was more likely than any other model or family, to have generated the data) and the expected posterior model probability (the probability of that model, or family of models, given the observed data).This model comparison was completed in a two stage process.
+[LINE#186] The free energy estimates of the bound on model evidences (adjusted for model complexity and covariance amongst parameters) were used to estimate the model exceedance probability (the probability that a model or family of models was more likely than any other model or family, to have generated the data) and the expected posterior model probability (the probability of that model, or family of models, given the observed data).This model comparison was completed in a two stage process.
 0.921	[*A*]a model or family of models[*R*]to have generated[*A*]the data	context()	negated: False ,passive: False
 0.948	[*A*]a model or family of models[*R*]was[*A*]more likely than any other model or family	context()	negated: False ,passive: True
 0.911	[*A*]This model comparison[*R*]was completed[*A*]in a two stage process	context()	negated: False ,passive: True
 0.976	[*A*]The free energy estimates of the bound on model evidences (adjusted for model complexity and covariance amongst parameters[*R*]were used[*A*]to estimate the model exceedance probability	context()	negated: False ,passive: True
 0.945	[*A*]The free energy estimates of the bound on model evidences[*R*]adjusted[*A*]for model complexity and covariance	context()	negated: False ,passive: True
-[LINE#163]First, we identified the most likely anatomical network involved in responding to standard and deviant tones, by comparing the 'full', 'partial' and 'sparse' families of models cf.
+[LINE#187] First, we identified the most likely anatomical network involved in responding to standard and deviant tones, by comparing the 'full', 'partial' and 'sparse' families of models cf.
 0.926	[*A*]the most likely anatomical network[*R*]involved[*A*]in responding to deviant tones	context()	negated: False ,passive: True
 0.702	[*A*]we[*R*]identified[*A*]the most likely anatomical network involved in responding to deviant tones[*A*]First	context()	negated: False ,passive: False
 0.952	[*A*]the most likely anatomical network[*R*]involved[*A*]in responding to standard , by comparing the ' full ' , ' partial ' and ' sparse ' families of models cf	context()	negated: False ,passive: True
 0.702	[*A*]we[*R*]identified[*A*]the most likely anatomical network involved in responding to standard , by comparing the ' full ' , ' partial ' and ' sparse ' families of models cf[*A*]First	context()	negated: False ,passive: False
-[LINE#164]Secondly, we examined how the most likely network was modulated in response to the deviant vs standard tones.
+[LINE#188] Secondly, we examined how the most likely network was modulated in response to the deviant vs standard tones.
 0.897	[*A*]the most likely network[*R*]was modulated[*A*]in response to the deviant vs standard tones	context(we examined)	negated: False ,passive: True
 0.504	[*A*]we[*R*]examined[*A*]how the most likely network was modulated in response to the deviant vs standard tones	context()	negated: False ,passive: False
-[LINE#165]The five models that comprised the most likely family were compared to provide a single model for each group which describes how the connections were modulated.
+[LINE#189] The five models that comprised the most likely family were compared to provide a single model for each group which describes how the connections were modulated.
 0.678	[*A*]the connections[*R*]were modulated	context(each group describes)	negated: False ,passive: False
 0.858	[*A*]each group[*R*]describes[*A*]how the connections were modulated	context()	negated: False ,passive: False
 0.939	[*A*]The five models that comprised the most likely family[*R*]to provide[*A*]a single model for each group	context()	negated: False ,passive: False
 0.948	[*A*]The five models that comprised the most likely family[*R*]were compared[*A*]to provide a single model for each group	context()	negated: False ,passive: True
 0.897	[*A*]The five models[*R*]comprised[*A*]the most likely family	context()	negated: False ,passive: True
-[LINE#166]We report the model comparisons using the exceedance probability and expected posterior probability.
+[LINE#190] We report the model comparisons using the exceedance probability and expected posterior probability.
 0.452	[*A*]We[*R*]expected[*A*]posterior probability	context()	negated: False ,passive: False
 0.911	[*A*]the model comparisons[*R*]using[*A*]the exceedance probability	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]report[*A*]the model comparisons using the exceedance probability	context()	negated: False ,passive: False
-[LINE#167]Note that the Bayesian inference implicit in model selection makes a positive statement about the probabilities of models (within the set of 15 models tested) given the data, and do not make frequentist statistical inferences about the (un)likelihood of the data given a null hypotheses (Kass and Raftery, 1995; Raftery, 1995), obviating multiple comparison corrections.
+[LINE#191] Note that the Bayesian inference implicit in model selection makes a positive statement about the probabilities of models (within the set of 15 models tested) given the data, and do not make frequentist statistical inferences about the (un)likelihood of the data given a null hypotheses (Kass and Raftery, 1995; Raftery, 1995), obviating multiple comparison corrections.
 0.980	[*A*]Note that the Bayesian inference implicit in model selection[*R*]makes[*A*]a positive statement about the probabilities of models ( within the set of 15 models do not make frequentist statistical inferences about the ( un )[*A*]likelihood of the data given a null hypotheses ( Raftery , 1995 ) , obviating multiple comparison corrections	context()	negated: False ,passive: False
 0.897	[*A*]a null hypotheses[*R*]obviating[*A*]multiple comparison corrections	context()	negated: False ,passive: False
 0.976	[*A*]Note that the Bayesian inference implicit in model selection[*R*]makes[*A*]a positive statement about the probabilities of models ( within the set of 15 models do not make frequentist statistical inferences about the ( un )	context()	negated: False ,passive: False
 0.732	[*A*]15 models[*R*]tested	context()	negated: False ,passive: False
 0.976	[*A*]Note that the Bayesian inference implicit in model selection[*R*]makes[*A*]a positive statement about the probabilities of models ( within the set of 15 models tested ) given the data	context()	negated: False ,passive: False
-[LINE#168]Auditory cortical waveforms: The M100The maximum peak amplitudes, representing the M100 for the standard tone, within the 50-150ms window were compared between the bvFTD, PSP and control groups.
+[LINE#192] Auditory cortical waveforms: The M100The maximum peak amplitudes, representing the M100 for the standard tone, within the 50-150ms window were compared between the bvFTD, PSP and control groups.
 0.993	[*A*]The M100The maximum peak amplitudes representing the M100 for the standard tone[*R*]were compared within[*A*]50 -150ms window	context()	negated: False ,passive: False
 0.968	[*A*]The M100The maximum peak amplitudes[*R*]were compared[*A*]between the bvFTD, PSP and control groups[*A*]within the 50-150ms window	context()	negated: False ,passive: True
 0.945	[*A*]The M100The maximum peak amplitudes[*R*]representing[*A*]the M100	context()	negated: False ,passive: False
-[LINE#169]There were no significant differences between the three groups for left and right sources, suggesting normal early auditory processing of the standard tone (F(2,58)=1.2, p>0.05).
-[LINE#170] each deviant type, the average MMNm amplitude across the 100-200ms window and the latency of the peak amplitude were calculated.
+[LINE#193] There were no significant differences between the three groups for left and right sources, suggesting normal early auditory processing of the standard tone (F(2,58)=1.2, p>0.05).
+[LINE#194]  each deviant type, the average MMNm amplitude across the 100-200ms window and the latency of the peak amplitude were calculated.
 0.986	[*A*]the average MMNm amplitude across the 100-200ms window and the latency of the peak amplitude[*R*]were calculated[*A*]each deviant type	context()	negated: False ,passive: True
-[LINE#171]Two separate analyses of variance were used to investigate differences in mean amplitude and peak latency between bvFTD, PSP patients and controls.
+[LINE#195] Two separate analyses of variance were used to investigate differences in mean amplitude and peak latency between bvFTD, PSP patients and controls.
 0.953	[*A*]Two separate analyses of variance[*R*]to investigate[*A*]differences in mean amplitude and peak latency between bvFTD, PSP patients and controls	context()	negated: False ,passive: False
 0.960	[*A*]Two separate analyses of variance[*R*]were used[*A*]to investigate differences in mean amplitude and peak latency between bvFTD, PSP patients and controls	context()	negated: False ,passive: True
-[LINE#172]Each ANOVA had three factors: deviant type (frequency, intensity, duration, side and gap), laterality of dipole (left and right), and subject group (bvFTD, PSP and controls).There were significant differences in mean amplitude between the three subject groups, with the patient groups having reduced amplitudes (F(2,58)=5.1, p=0.009), but there were no significant interactions with deviant type, nor with dipole location (All F<1).
+[LINE#196] Each ANOVA had three factors: deviant type (frequency, intensity, duration, side and gap), laterality of dipole (left and right), and subject group (bvFTD, PSP and controls).There were significant differences in mean amplitude between the three subject groups, with the patient groups having reduced amplitudes (F(2,58)=5.1, p=0.009), but there were no significant interactions with deviant type, nor with dipole location (All F<1).
 0.911	[*A*]the patient groups[*R*]having reduced[*A*]amplitudes	context()	negated: False ,passive: False
 0.754	[*A*]deviant type[*R*]left	context()	negated: False ,passive: False
 0.933	[*A*]Each ANOVA[*R*]had[*A*]three factors: deviant type (frequency, intensity, duration, side and gap), laterality of dipole (left and right), and subject group	context()	negated: False ,passive: False
-[LINE#173]The pairwise comparisons between the bvFTD and PSP patient groups revealed no significant differences.
+[LINE#197] The pairwise comparisons between the bvFTD and PSP patient groups revealed no significant differences.
 0.934	[*A*]The pairwise comparisons between the bvFTD and PSP patient groups[*R*]revealed[*A*]no significant differences	context()	negated: False ,passive: False
-[LINE#174]1B.The ANOVA of peak latencies also revealed significant differences between the three groups, with the patient groups having later peaks than the controls (F(2,57)=3.4, p=0.037) but there were no interactions with deviant type, nor with dipole location (All F<1.7).
+[LINE#198] 1B.The ANOVA of peak latencies also revealed significant differences between the three groups, with the patient groups having later peaks than the controls (F(2,57)=3.4, p=0.037) but there were no interactions with deviant type, nor with dipole location (All F<1.7).
 0.911	[*A*]the patient groups[*R*]having[*A*]later peaks than the controls	context()	negated: False ,passive: False
 0.880	[*A*]1B.The ANOVA of peak latencies[*R*]revealed[*A*]significant differences between the three groups	context()	negated: False ,passive: False
-[LINE#175] The pairwise comparisons between the patient groups showed that the latencies for the bvFTD patients were significantly delayed compared to the PSP patients for the gap deviant (t(25)=3,.
+[LINE#199]  The pairwise comparisons between the patient groups showed that the latencies for the bvFTD patients were significantly delayed compared to the PSP patients for the gap deviant (t(25)=3,.
 0.937	[*A*]the latencies for the bvFTD patients[*R*]were significantly delayed[*A*]compared to the PSP patients for the gap deviant	context(The pairwise comparisons between the patient groups showed)	negated: False ,passive: True
 0.895	[*A*]The pairwise comparisons between the patient groups[*R*]showed[*A*]that the latencies for the bvFTD patients were significantly delayed compared to the PSP patients for the gap deviant	context()	negated: False ,passive: False
-[LINE#176]Network connectivity analysis (dynamic causal modelling)In the first stage of model comparison, 15 models were grouped into three families of five models.
+[LINE#200] Network connectivity analysis (dynamic causal modelling)In the first stage of model comparison, 15 models were grouped into three families of five models.
 0.903	[*A*]15 models[*R*]were grouped[*A*]into three families of five models	context()	negated: False ,passive: True
-[LINE#177]The three families had either 'full', 'partial' or 'sparse' extrinsic connectivity (Fig. 2).
+[LINE#201] The three families had either 'full', 'partial' or 'sparse' extrinsic connectivity (Fig. 2).
 0.956	[*A*]The three families[*R*]had[*A*]either 'full', 'partial' or 'sparse' extrinsic connectivity	context()	negated: False ,passive: False
-[LINE#178]For the control group, the most likely model family was the sparse network, (exceedance probability, p=0.77, posterior probability, p=0.46) in which there were bidirectional intrahemispheric connections between temporal and parietal nodes and between temporal and frontal nodes, but no interhemispheric connections, or frontal-parietal connectivity.
+[LINE#202] For the control group, the most likely model family was the sparse network, (exceedance probability, p=0.77, posterior probability, p=0.46) in which there were bidirectional intrahemispheric connections between temporal and parietal nodes and between temporal and frontal nodes, but no interhemispheric connections, or frontal-parietal connectivity.
 0.963	[*A*]the most likely model family[*R*]was[*A*]the sparse network, (exceedance probability, p=0.77, posterior probability, p=0.46) in which there were bidirectional intrahemispheric connections between temporal and parietal nodes and between temporal and frontal nodes, but[*A*]For the control group	context()	negated: False ,passive: True
-[LINE#179]and PSP, the model family with sparse connectivity was least likely (exceedance probability, p=0.24 and p=0.13, posterior probability, p=0.3 and p=0.24 respectively).
+[LINE#203] and PSP, the model family with sparse connectivity was least likely (exceedance probability, p=0.24 and p=0.13, posterior probability, p=0.3 and p=0.24 respectively).
 0.500	[*A*]PSP[*R*][is] the model family with[*A*]sparse connectivity	context()	negated: False ,passive: False
 0.700	[*A*]PSP[*R*]was[*A*]least likely	context()	negated: False ,passive: True
-[LINE#180]The models with a partial network connectivity, defined by interhemispheric connections in addition to the frontal-temporal and temporal-parietal connections, were most likely for both patient groups.
+[LINE#204] The models with a partial network connectivity, defined by interhemispheric connections in addition to the frontal-temporal and temporal-parietal connections, were most likely for both patient groups.
 0.927	[*A*]The models with a partial network connectivity[*R*]were[*A*]most likely for both patient groups	context()	negated: False ,passive: True
 0.939	[*A*]a partial network connectivity[*R*]defined[*A*]by interhemispheric connections in addition to the frontal-temporal and temporal-parietal connections	context()	negated: False ,passive: True
-[LINE#181] The partial models for the bvFTD and PSP patient groups had an exceedance probability of p=0.38 and p=0.45, posterior probability, p=0.35 and p=0.38 respectively (see Fig.3A for contrasting model family probability for each group).The second stage of our hierarchical model comparison examined how connectivity was modulated by the difference between the standard and deviant tones, and included the 5 models within the most favoured family for each group of subjects.
+[LINE#205+206]  The partial models for the bvFTD and PSP patient groups had an exceedance probability of p=0.38 and p=0.45, posterior probability, p=0.35 and p=0.38 respectively (see Fig.3A for contrasting model family probability for each group).The second stage of our hierarchical model comparison examined how connectivity was modulated by the difference between the standard and deviant tones, and included the 5 models within the most favoured family for each group of subjects.
 0.946	[*A*]The partial models for the PSP patient groups[*R*]had respectively[*A*]an exceedance probability of p=0.35	context()	negated: False ,passive: False
 0.871	[*A*]connectivity[*R*]was modulated[*A*]by the difference between the standard and deviant tones	context(The partial models for the PSP patient groups had respectively The second stage of our hierarchical model comparison examined)	negated: False ,passive: True
 0.802	[*A*]The second stage of our hierarchical model comparison[*R*]examined[*A*]how connectivity was modulated by the difference between the standard and deviant tones	context(The partial models for the PSP patient groups had respectively)	negated: False ,passive: False
@@ -658,49 +658,49 @@
 0.802	[*A*]The second stage of our hierarchical model comparison[*R*]examined[*A*]how connectivity was modulated by the difference between the standard and deviant tones	context(The partial models for the bvFTD patient groups had)	negated: False ,passive: False
 0.946	[*A*]The partial models for the bvFTD patient groups[*R*]had[*A*]an exceedance probability of p=0.38	context()	negated: False ,passive: False
 0.943	[*A*]The partial models[*R*]included[*A*]the 5 models within the most favoured family for each group of subjects	context()	negated: False ,passive: True
-[LINE#182]For the controls, within the family of sparse models, the model with anterior bidirectional connections was favoured (exceedance probability, p=0.53, posterior probability, p=0.29).
+[LINE#207] For the controls, within the family of sparse models, the model with anterior bidirectional connections was favoured (exceedance probability, p=0.53, posterior probability, p=0.29).
 0.953	[*A*]the model with anterior bidirectional connections[*R*]was favoured[*A*]exceedance probability, p=0.53, posterior probability, p=0.29[*A*]For the controls[*A*]within the family of sparse models	context()	negated: False ,passive: True
-[LINE#183]For patients with bvFTD, within the family of partial connectivity, the model in which all bidirectional connections were modulated was the favoured model (exceedance probability, p=0.44, posterior probability, p=0.29).
+[LINE#208] For patients with bvFTD, within the family of partial connectivity, the model in which all bidirectional connections were modulated was the favoured model (exceedance probability, p=0.44, posterior probability, p=0.29).
 0.977	[*A*]the model in which all bidirectional connections were modulated[*R*]was[*A*]the favoured model[*A*]within the family of partial connectivity	context()	negated: False ,passive: True
 0.939	[*A*]all bidirectional connections[*R*]were modulated[*A*]the model	context()	negated: False ,passive: True
-[LINE#184]For patients with PSP two models from the family with partial connectivity fit the data equally: the model in which all bidirectional connections were modulated and the model in which just posterior bidirectional connections were modulated (exceedance probability, p=0.33, posterior probability, p=0.27).
+[LINE#209] For patients with PSP two models from the family with partial connectivity fit the data equally: the model in which all bidirectional connections were modulated and the model in which just posterior bidirectional connections were modulated (exceedance probability, p=0.33, posterior probability, p=0.27).
 0.944	[*A*]just posterior bidirectional connections[*R*]were modulated[*A*]the model	context()	negated: False ,passive: True
 0.991	[*A*]two models[*R*]fit[*A*]the model in which all bidirectional connections were modulated exceedance probability , p=0.33 , posterior probability , p=0.27	context()	negated: False ,passive: False
 0.948	[*A*]all bidirectional connections[*R*]were modulated[*A*]exceedance probability , p=0.33 , posterior probability , p=0.27[*A*]the model	context()	negated: False ,passive: True
 0.864	[*A*]For patients with PSP two models from the family with partial connectivity[*R*]fit equally	context()	negated: False ,passive: False
-[LINE#185]3B for contrasting individual model probabilities for each group.
-[LINE#186]Notably however, for the two patient groups, the models with just anterior frontal-temporal modulation were the worst fit for the data (exceedance probability, p=0.03 and p=0.04, posterior probability p=0.11 and p=0.11, respectively), suggesting that in contrast to the control group data, a sparse network of frontal-temporal connectivity is unable to reliably account for the observed data. .
+[LINE#210] 3B for contrasting individual model probabilities for each group.
+[LINE#211] Notably however, for the two patient groups, the models with just anterior frontal-temporal modulation were the worst fit for the data (exceedance probability, p=0.03 and p=0.04, posterior probability p=0.11 and p=0.11, respectively), suggesting that in contrast to the control group data, a sparse network of frontal-temporal connectivity is unable to reliably account for the observed data. .
 0.915	[*A*]the models with just anterior frontal - temporal modulation[*R*]were[*A*]the worst fit for the data ( posterior probability p=0.11 , respectively[*A*]suggesting that in contrast to the control group data , a sparse network of frontal - temporal connectivity is unable to reliably account for the observed data	context()	negated: False ,passive: True
 0.915	[*A*]the models with just anterior frontal - temporal modulation[*R*]were[*A*]the worst fit for the data[*A*]suggesting that in contrast to the control group data , a sparse network of frontal - temporal connectivity is unable to reliably account for the observed data	context()	negated: False ,passive: True
 0.915	[*A*]the models with just anterior frontal - temporal modulation[*R*]were[*A*]the worst fit for the data ( exceedance probability , respectively[*A*]suggesting that in contrast to the control group data , a sparse network of frontal - temporal connectivity is unable to reliably account for the observed data	context()	negated: False ,passive: True
-[LINE#187]Correlations with behavioural analysesMultiple regression models were used to examine whether the changes observed in the evoked response and connectivity with disease were related to measures of disease severity.
+[LINE#212] Correlations with behavioural analysesMultiple regression models were used to examine whether the changes observed in the evoked response and connectivity with disease were related to measures of disease severity.
 0.956	[*A*]Correlations with behavioural analysesMultiple regression models[*R*]were used[*A*]to examine whether the changes observed in the connectivity with disease	context()	negated: False ,passive: True
 0.921	[*A*]Correlations with behavioural analysesMultiple regression models[*R*]were related[*A*]to measures of disease severity	context()	negated: False ,passive: True
 0.956	[*A*]Correlations with behavioural analysesMultiple regression models[*R*]were used[*A*]to examine whether the changes observed in the evoked response	context()	negated: False ,passive: True
-[LINE#188]In the first model for each of the patient groups the global ACE-r score was entered as the dependent variable and the predictor variables included the mean amplitude of the MMNm (collapsed across deviant types) and the frontal, temporal and parietal interhemispheric connectivity measures from the most likely 'partial' network model.
+[LINE#213] In the first model for each of the patient groups the global ACE-r score was entered as the dependent variable and the predictor variables included the mean amplitude of the MMNm (collapsed across deviant types) and the frontal, temporal and parietal interhemispheric connectivity measures from the most likely 'partial' network model.
 0.940	[*A*]the mean amplitude of the MMNm[*R*]collapsed[*A*]across deviant types	context()	negated: False ,passive: True
 0.968	[*A*]the global ACE-r score[*R*]included[*A*]the mean amplitude of the MMNm (collapsed across deviant types) and the frontal, temporal and parietal interhemispheric connectivity measures from the most likely 'partial' network model	context()	negated: False ,passive: True
 0.978	[*A*]the global ACE-r score[*R*]was entered[*A*]In the first model for each of the patient groups	context()	negated: False ,passive: True
-[LINE#189]These measures were selected since the interhemispheric connections were the defining difference between the most likely family models for the patient and control groups.
+[LINE#214] These measures were selected since the interhemispheric connections were the defining difference between the most likely family models for the patient and control groups.
 0.943	[*A*]the interhemispheric connections[*R*]were[*A*]the defining difference between the most likely family models for the patient and control groups	context()	negated: False ,passive: True
 0.937	[*A*]These measures[*R*]were selected[*A*]since the interhemispheric connections were the defining difference between the most likely family models for the patient and control groups	context()	negated: False ,passive: True
-[LINE#190]In the bvFTD group these MEG and DCM metrics did not significantly predict ACE-r scores.
+[LINE#215] In the bvFTD group these MEG and DCM metrics did not significantly predict ACE-r scores.
 0.968	[*A*]these DCM metrics[*R*]did not significantly predict[*A*]ACE - r scores[*A*]In the bvFTD group	context()	negated: True ,passive: False
 0.968	[*A*]these MEG metrics[*R*]did not significantly predict[*A*]ACE - r scores[*A*]In the bvFTD group	context()	negated: True ,passive: False
-[LINE#191]In PSP temporal interhemispheric connectivity significantly predicted the ACE-r score (=-.67, t(5)=-2.7, p=.04), suggesting that higher temporal interhemispheric connectivity is associated with poorer ACE-r in PSP.
+[LINE#216] In PSP temporal interhemispheric connectivity significantly predicted the ACE-r score (=-.67, t(5)=-2.7, p=.04), suggesting that higher temporal interhemispheric connectivity is associated with poorer ACE-r in PSP.
 0.928	[*A*]temporal interhemispheric connectivity[*R*]significantly predicted[*A*]the ACE-r score[*A*]suggesting that higher temporal interhemispheric connectivity is associated with poorer ACE-r in PSP[*A*]In PSP	context()	negated: False ,passive: False
-[LINE#192]The model explained a significant proportion of the variance of scores (R2(adj)=0.6, F(5,9)=5, p=0.05).
+[LINE#217] The model explained a significant proportion of the variance of scores (R2(adj)=0.6, F(5,9)=5, p=0.05).
 0.903	[*A*]The model[*R*]explained[*A*]a significant proportion of the variance of scores	context()	negated: False ,passive: False
-[LINE#193]Previous studies of different disease types have indicated that neuropsychological scores associated with frontal lobe executive functions, (such as verbal fluency), are related to frontal electrophysiological components, (Higuchi et al., 2013; Soininen et al., 1995; Thomas et al., 2010) and verbal fluency is particularly sensitive to differentiating Parkinsonian syndromes (Rittman et al., 2013).
+[LINE#218] Previous studies of different disease types have indicated that neuropsychological scores associated with frontal lobe executive functions, (such as verbal fluency), are related to frontal electrophysiological components, (Higuchi et al., 2013; Soininen et al., 1995; Thomas et al., 2010) and verbal fluency is particularly sensitive to differentiating Parkinsonian syndromes (Rittman et al., 2013).
 0.923	[*A*]verbal fluency[*R*]is[*A*]particularly sensitive to differentiating Parkinsonian syndromes	context(Previous studies of different disease types have indicated)	negated: False ,passive: True
 0.886	[*A*]Previous studies of different disease types[*R*]have indicated[*A*]that neuropsychological scores associated with frontal lobe executive functions, (such as verbal fluency), are related to frontal electrophysiological components, (Higuchi et al., 2013; Soininen et al., 1995; Thomas et al., 2010) and verbal fluency is particularly sensitive to differentiating Parkinsonian syndromes	context()	negated: False ,passive: False
 0.903	[*A*]neuropsychological scores[*R*]associated[*A*]with frontal lobe executive functions	context()	negated: False ,passive: True
-[LINE#194]Therefore a new regression model was used to test whether verbal fluency was associated with the MEG and DCM metrics.
+[LINE#219] Therefore a new regression model was used to test whether verbal fluency was associated with the MEG and DCM metrics.
 0.900	[*A*]verbal fluency[*R*]was associated[*A*]with the DCM metrics	context(a new regression model to test)	negated: False ,passive: True
 0.902	[*A*]a new regression model[*R*]to test[*A*]whether verbal fluency was associated with the DCM metrics	context()	negated: False ,passive: False
 0.900	[*A*]verbal fluency[*R*]was associated[*A*]with the MEG metrics	context(a new regression model to test)	negated: False ,passive: True
 0.902	[*A*]a new regression model[*R*]to test[*A*]whether verbal fluency was associated with the MEG metrics	context()	negated: False ,passive: False
-[LINE#195] For the bvFTD group, all predictor variables were significant: (amplitude: =.26, t(11)=2.6, p=.026; frontal interhemispheric connectivity: =17.5, t(11)=2.6, p=.02; temporal interhemispheric connectivity: =-9.5, t(11)=-2.2, p=.046; parietal interhemispheric connectivity=10.9, t(11)=2.6, p=.025), suggesting that increased MMNm amplitude, frontal and parietal interhemispheric connectivity, and reduced temporal interhemispheric were associated with better fluency.
+[LINE#220+221+222+223]  For the bvFTD group, all predictor variables were significant: (amplitude: =.26, t(11)=2.6, p=.026; frontal interhemispheric connectivity: =17.5, t(11)=2.6, p=.02; temporal interhemispheric connectivity: =-9.5, t(11)=-2.2, p=.046; parietal interhemispheric connectivity=10.9, t(11)=2.6, p=.025), suggesting that increased MMNm amplitude, frontal and parietal interhemispheric connectivity, and reduced temporal interhemispheric were associated with better fluency.
 0.911	[*A*]reduced temporal interhemispheric[*R*]were associated[*A*]with better fluency	context()	negated: False ,passive: True
 0.919	[*A*]interhemispheric connectivity temporal interhemispheric[*R*]were associated[*A*]with better fluency	context()	negated: False ,passive: True
 0.911	[*A*]parietal temporal interhemispheric[*R*]were associated[*A*]with better fluency	context()	negated: False ,passive: True
@@ -709,20 +709,20 @@
 0.913	[*A*]t ( 11 ) =2.6[*R*]were associated[*A*]with better fluency	context()	negated: False ,passive: True
 0.926	[*A*]parietal interhemispheric connectivity=10.9 temporal interhemispheric[*R*]were associated[*A*]with better fluency	context()	negated: False ,passive: True
 0.783	[*A*]all predictor variables[*R*]were[*A*]significant	context()	negated: False ,passive: True
-[LINE#196]The model also explained a significant proportion of the variance of fluency scores (R2(adj)=0.47, F(4,15)=4.4, p=0.02).
+[LINE#224] The model also explained a significant proportion of the variance of fluency scores (R2(adj)=0.47, F(4,15)=4.4, p=0.02).
 0.887	[*A*]The model[*R*]explained[*A*]a significant proportion of the variance of fluency scores	context()	negated: False ,passive: False
-[LINE#197]In the PSP group these MEG and DCM metrics did not significantly predict verbal fluency. .
+[LINE#225] In the PSP group these MEG and DCM metrics did not significantly predict verbal fluency. .
 0.961	[*A*]these DCM metrics[*R*]did not significantly predict[*A*]verbal fluency[*A*]In the PSP group	context()	negated: True ,passive: False
 0.961	[*A*]these MEG metrics[*R*]did not significantly predict[*A*]verbal fluency[*A*]In the PSP group	context()	negated: True ,passive: False
-[LINE#198] Pharmacological effectsTo address a potential confound of serotonergic medication in bvFTD, post-hoc analyses were conducted comparing bvFTD patients taking serotonergic medications (n=6, SSRI+) with those who were not (n=11, SSRI-) (see Table 1).
+[LINE#226+227]  Pharmacological effectsTo address a potential confound of serotonergic medication in bvFTD, post-hoc analyses were conducted comparing bvFTD patients taking serotonergic medications (n=6, SSRI+) with those who were not (n=11, SSRI-) (see Table 1).
 0.903	[*A*]bvFTD patients[*R*]taking[*A*]serotonergic medications	context()	negated: False ,passive: False
 0.847	[*A*]post-hoc analyses[*R*]comparing[*A*]bvFTD patients taking serotonergic medications (n=6, SSRI+) with those	context()	negated: False ,passive: False
 0.903	[*A*]post-hoc analyses[*R*]were conducted[*A*]comparing bvFTD patients	context()	negated: False ,passive: True
 0.071	[*A*]those[*R*]were not[*A*]n=11	context()	negated: True ,passive: True
-[LINE#199]The ANOVAs of the waveforms were repeated, and collapsed across laterality of dipole, with the serotonin bvFTD sub-groups as a between subject factor.
+[LINE#228] The ANOVAs of the waveforms were repeated, and collapsed across laterality of dipole, with the serotonin bvFTD sub-groups as a between subject factor.
 0.867	[*A*]The ANOVAs[*R*]collapsed[*A*]across laterality of dipole	context()	negated: False ,passive: True
 0.718	[*A*]The ANOVAs of the waveforms[*R*]were repeated	context()	negated: False ,passive: False
-[LINE#200]No significant differences between the groups were revealed for either amplitude (F(1,15)=0.9, ns) or peak latency (F(1,15)=1.0, ns) measures.
+[LINE#229] No significant differences between the groups were revealed for either amplitude (F(1,15)=0.9, ns) or peak latency (F(1,15)=1.0, ns) measures.
 0.955	[*A*]No significant differences between the groups[*R*]were revealed[*A*]for either amplitude (F(1,15)=0.9, ns	context(=0.9 , ns ) or peak latency ( F ( 1,15 ) =1.0 ns)	negated: False ,passive: True
 0.965	[*A*]=0.9, ns) or peak latency (F(1,15)=1.0[*R*]ns[*A*]measures	context()	negated: False ,passive: False
-[LINE#201] There were no significant interactions between deviant type and subject group for amplitude (F(4,60)=2.0, ns) or latency (F(1,15)=0.8,p>0.05).The Bayesian model comparison was repeated for the SSRI+ and SSRI- groups, and showed that the most likely model within the winning 'partial' network family was unchanged for both subgroups; i.e. the model in which all bidirectional connections were modulated by trial type.
+[LINE#230+231+232]  There were no significant interactions between deviant type and subject group for amplitude (F(4,60)=2.0, ns) or latency (F(1,15)=0.8,p>0.05).The Bayesian model comparison was repeated for the SSRI+ and SSRI- groups, and showed that the most likely model within the winning 'partial' network family was unchanged for both subgroups; i.e. the model in which all bidirectional connections were modulated by trial type.

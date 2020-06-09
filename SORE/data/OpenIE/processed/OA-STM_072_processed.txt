@@ -1,94 +1,94 @@
-[LINE#1]Just as with conventional forms of power generation, the energy produced by a wind farm gradually decreases over its lifetime, perhaps due to falling availability, aerodynamic performance or conversion efficiency.
+[LINE#0] Just as with conventional forms of power generation, the energy produced by a wind farm gradually decreases over its lifetime, perhaps due to falling availability, aerodynamic performance or conversion efficiency.
 0.929	[*A*]the energy produced by a wind farm[*R*]gradually decreases[*A*]over its lifetime, perhaps due to falling availability, aerodynamic performance or conversion efficiency	context()	negated: False ,passive: True
 0.903	[*A*]the energy[*R*]produced[*A*]by a wind farm	context()	negated: False ,passive: True
-[LINE#2]Understanding these factors is however complicated by the highly variable availability of the wind.
+[LINE#1] Understanding these factors is however complicated by the highly variable availability of the wind.
 0.870	[*A*]Understanding these factors[*R*]is complicated[*A*]by the highly variable availability of the wind	context()	negated: False ,passive: True
-[LINE#3]This paper reveals the rate of ageing of a national fleet of wind turbines using free public data for the actual and theoretical ideal load factors from the UK's 282 wind farms.
+[LINE#2] This paper reveals the rate of ageing of a national fleet of wind turbines using free public data for the actual and theoretical ideal load factors from the UK's 282 wind farms.
 0.937	[*A*]This paper[*R*]reveals[*A*]the rate of ageing of a national fleet of wind turbines	context()	negated: False ,passive: False
-[LINE#4]Actual load factors are recorded monthly for the period of 2002-2012, covering 1686 farm-years of operation.
+[LINE#3] Actual load factors are recorded monthly for the period of 2002-2012, covering 1686 farm-years of operation.
 0.911	[*A*]Actual load factors[*R*]are recorded[*A*]monthly[*A*]for the period of 2002-2012[*A*]covering 1686 farm-years of operation	context()	negated: False ,passive: True
-[LINE#5]Ideal load factors are derived from a high resolution wind resource assessment made using NASA data to estimate the hourly wind speed at the location and hub height of each wind farm, accounting for the particular models of turbine installed.
+[LINE#4] Ideal load factors are derived from a high resolution wind resource assessment made using NASA data to estimate the hourly wind speed at the location and hub height of each wind farm, accounting for the particular models of turbine installed.
 0.785	[*A*]the particular models of turbine[*R*]installed	context()	negated: False ,passive: False
 0.911	[*A*]Ideal load factors[*R*]are derived[*A*]from a high resolution wind resource assessment	context()	negated: False ,passive: True
-[LINE#6]By accounting for individual site conditions we confirm that load factors do decline with age, at a similar rate to other rotating machinery.
+[LINE#5] By accounting for individual site conditions we confirm that load factors do decline with age, at a similar rate to other rotating machinery.
 0.905	[*A*]load factors[*R*]do[*A*]decline	context(we confirm)	negated: False ,passive: False
 0.188	[*A*]we[*R*]confirm[*A*]that load factors do decline with age	context()	negated: False ,passive: False
-[LINE#7]Wind turbines are found to lose 1.6  0.2% of their output per year, with average load factors declining from 28.5% when new to 21% at age 19.
+[LINE#6] Wind turbines are found to lose 1.6  0.2% of their output per year, with average load factors declining from 28.5% when new to 21% at age 19.
 0.911	[*A*]average load factors[*R*]declining[*A*]from 28.5%	context()	negated: False ,passive: True
 0.903	[*A*]Wind turbines[*R*]to lose[*A*]1.6  0.2% of their output per year, with average load factors declining from 28.5% when new to 21% at age 19	context()	negated: False ,passive: False
 0.788	[*A*]Wind turbines[*R*]are found	context()	negated: False ,passive: False
-[LINE#8]This trend is consistent for different generations of turbine design and individual wind farms.
+[LINE#7] This trend is consistent for different generations of turbine design and individual wind farms.
 0.925	[*A*]This trend[*R*]is[*A*]consistent for different generations of individual wind farms	context()	negated: False ,passive: True
 0.925	[*A*]This trend[*R*]is[*A*]consistent for different generations of turbine design	context()	negated: False ,passive: True
-[LINE#9]This level of degradation reduces a wind farm's output by 12% over a twenty year lifetime, increasing the levelised cost of electricity by 9%.
+[LINE#8] This level of degradation reduces a wind farm's output by 12% over a twenty year lifetime, increasing the levelised cost of electricity by 9%.
 0.919	[*A*]This level of degradation[*R*]reduces[*A*]a wind farm's output[*A*]by 12%[*A*]over a twenty year lifetime[*A*]increasing the levelised cost of electricity by 9%	context()	negated: False ,passive: False
-[LINE#10]This paper demonstrates a generic and broadly applicable method for predicting a wind farm's monthly load factor, accounting for its location, hub height and the particular model of turbine installed.
+[LINE#9] This paper demonstrates a generic and broadly applicable method for predicting a wind farm's monthly load factor, accounting for its location, hub height and the particular model of turbine installed.
 0.937	[*A*]This paper[*R*]demonstrates[*A*]a broadly applicable method for predicting a wind farm 's monthly load factor	context()	negated: False ,passive: False
 0.433	[*A*]its the particular model of turbine[*R*]installed	context()	negated: False ,passive: False
 0.937	[*A*]This paper[*R*]demonstrates[*A*]a generic method for predicting a wind farm 's monthly load factor	context()	negated: False ,passive: False
-[LINE#11]We use this to estimate the ideal monthly load factors for 282 of the UK's wind farms over the last decade, and compare these to the actual outputs over this period.
+[LINE#10] We use this to estimate the ideal monthly load factors for 282 of the UK's wind farms over the last decade, and compare these to the actual outputs over this period.
 0.388	[*A*]We[*R*]use this to compare[*A*]these[*A*]to the actual outputs over this period	context(We use)	negated: False ,passive: False
 0.504	[*A*]We[*R*]use[*A*]this[*A*]to compare these to the actual outputs over this period	context()	negated: False ,passive: False
 0.952	[*A*]the UK[*R*]has wind farms for[*A*]over 282	context()	negated: False ,passive: False
 0.550	[*A*]We[*R*]use this to estimate[*A*]the ideal monthly load factors[*A*]for 282 of the UK 's wind farms over the last decade	context(We use)	negated: False ,passive: False
 0.550	[*A*]We[*R*]use[*A*]this[*A*]to estimate the ideal monthly load factors for 282 of the UK 's wind farms over the last decade	context()	negated: False ,passive: False
-[LINE#12]This allows us to correct for the rapid improvement in wind turbine technology over the last two decades and the huge seasonal variability in wind speeds, thus revealing the subtle rate of degradation.
+[LINE#11] This allows us to correct for the rapid improvement in wind turbine technology over the last two decades and the huge seasonal variability in wind speeds, thus revealing the subtle rate of degradation.
 0.293	[*A*]us[*R*]to correct for the huge seasonal variability in wind speeds revealing[*A*]the subtle rate of degradation	context(This allows us to correct)	negated: False ,passive: False
 0.388	[*A*]us[*R*]to correct[*A*]for the huge seasonal variability in wind speeds[*A*]thus revealing the subtle rate of degradation	context(This allows)	negated: False ,passive: False
 0.292	[*A*]This[*R*]allows[*A*]us to correct for the huge seasonal variability in wind speeds , thus revealing the subtle rate of degradation	context()	negated: False ,passive: False
 0.301	[*A*]us[*R*]to correct for the rapid improvement in wind turbine technology over the last two decades revealing[*A*]the subtle rate of degradation	context(This allows us to correct)	negated: False ,passive: False
 0.514	[*A*]us[*R*]to correct[*A*]for the rapid improvement in wind turbine technology over the last two decades	context(This allows)	negated: False ,passive: False
 0.300	[*A*]This[*R*]allows[*A*]us to correct for the rapid improvement in wind turbine technology over the last two decades , thus revealing the subtle rate of degradation	context()	negated: False ,passive: False
-[LINE#13]We find evidence of important, but not disastrous, performance degradation over time in a large sample of UK wind farms.
+[LINE#12] We find evidence of important, but not disastrous, performance degradation over time in a large sample of UK wind farms.
 0.678	[*A*]We[*R*]find[*A*]evidence of performance degradation over time in a large sample of UK wind farms	context()	negated: False ,passive: False
 0.522	[*A*]We[*R*]find[*A*]evidence of not disastrous	context()	negated: False ,passive: False
 0.522	[*A*]We[*R*]find[*A*]evidence of important	context()	negated: False ,passive: False
-[LINE#14]When variations in the weather and improvement in turbine design are accounted for, we find that the load factors of UK wind farms fall by 1.57% (0.41 percentage points) per year.
+[LINE#13] When variations in the weather and improvement in turbine design are accounted for, we find that the load factors of UK wind farms fall by 1.57% (0.41 percentage points) per year.
 0.954	[*A*]the load factors of UK wind farms[*R*]fall[*A*]by 1.57 %[*A*]per year	context(we find)	negated: False ,passive: True
 0.514	[*A*]we[*R*]find[*A*]that the load factors of UK wind farms fall by 1.57 % ( 0.41 percentage points ) per year[*A*]When variations in improvement in turbine design are accounted for	context()	negated: False ,passive: False
 0.954	[*A*]the load factors of UK wind farms[*R*]fall[*A*]by 1.57 %[*A*]per year	context(we find)	negated: False ,passive: True
 0.514	[*A*]we[*R*]find[*A*]that the load factors of UK wind farms fall by 1.57 % ( 0.41 percentage points ) per year[*A*]When variations in the weather are accounted for	context()	negated: False ,passive: False
-[LINE#15]This degradation rate appears consistent for different vintages of turbines and for individual wind farms, ranging from those built in the early 1990s to early 2010s.
+[LINE#14] This degradation rate appears consistent for different vintages of turbines and for individual wind farms, ranging from those built in the early 1990s to early 2010s.
 0.234	[*A*]those[*R*]built[*A*]in the early 1990 s	context()	negated: False ,passive: True
 0.528	[*A*]This degradation rate[*R*]ranging[*A*]from those	context()	negated: False ,passive: True
 0.751	[*A*]This degradation rate[*R*]appears	context()	negated: False ,passive: False
-[LINE#16] We use six methods of increasing complexity to find the following rates of degradation in absolute percentage points per year; and relative to the UK mean wind farm:Simple regression of all load factors against age (-0.44  0.04 absolute) (-1.69  0.17% relative);Average trend in load factors for individual farms (-0.48  0.36 absolute) ( -1.81  1.32% relative);Correct for wind resource and regress weather-corrected load factor against age (-0.45  0.01 absolute)  0.05% relative);Trend in weather-corrected load factors for individual farms against their age (-0.45  0.22 absolute) 0.82% relative);Capacity-weighted fit to individual farms against their year of commissioning (-0.50 nominal, -0.36 weather-corrected) (-1.90% and -1.24% relative);Full fixed effects regression, accounting for site-specific wind speeds, turbine model and site qualitycombined average of these measures is -0.43  0.05 percentage points per year, giving -1.6  0.2% annual degradation.
+[LINE#15+16+17+18+19]  We use six methods of increasing complexity to find the following rates of degradation in absolute percentage points per year; and relative to the UK mean wind farm:Simple regression of all load factors against age (-0.44  0.04 absolute) (-1.69  0.17% relative);Average trend in load factors for individual farms (-0.48  0.36 absolute) ( -1.81  1.32% relative);Correct for wind resource and regress weather-corrected load factor against age (-0.45  0.01 absolute)  0.05% relative);Trend in weather-corrected load factors for individual farms against their age (-0.45  0.22 absolute) 0.82% relative);Capacity-weighted fit to individual farms against their year of commissioning (-0.50 nominal, -0.36 weather-corrected) (-1.90% and -1.24% relative);Full fixed effects regression, accounting for site-specific wind speeds, turbine model and site qualitycombined average of these measures is -0.43  0.05 percentage points per year, giving -1.6  0.2% annual degradation.
 0.905	[*A*]Full fixed effects regression[*R*]accounting[*A*]for site-specific wind speeds	context()	negated: False ,passive: False
-[LINE#17]The similarity of results from different methods gives us confidence that the underlying trend is robust: the decline in load factor with age is neither an artefact of systematic variation in wind speeds nor of the continual improvement in technology.
+[LINE#20] The similarity of results from different methods gives us confidence that the underlying trend is robust: the decline in load factor with age is neither an artefact of systematic variation in wind speeds nor of the continual improvement in technology.
 0.793	[*A*]the underlying trend[*R*]is[*A*]robust	context(the decline in load factor with age is)	negated: False ,passive: True
 0.963	[*A*]the decline in load factor with age[*R*]is[*A*]neither an artefact of systematic variation in wind speeds nor of the continual improvement in technology	context()	negated: False ,passive: True
 0.828	[*A*]The similarity of results from different methods[*R*]gives[*A*]us[*A*]confidence that the underlying trend is robust: the decline in load factor with age is neither an artefact of systematic variation in wind speeds nor of the continual improvement in technology	context()	negated: False ,passive: False
-[LINE#18]Questions do however remain as to the exact form of this degradation, for example whether it is linear, quadratic or logarithmic with age; or how degradation rates are changing over time and whether they will be lower in the future.
+[LINE#21] Questions do however remain as to the exact form of this degradation, for example whether it is linear, quadratic or logarithmic with age; or how degradation rates are changing over time and whether they will be lower in the future.
 0.616	[*A*]they[*R*]will be[*A*]lower[*A*]in the future	context()	negated: False ,passive: True
 0.903	[*A*]degradation rates[*R*]are changing[*A*]over time	context()	negated: False ,passive: True
 0.522	[*A*]it[*R*]is[*A*]linear, quadratic or logarithmic with age	context()	negated: False ,passive: True
 0.828	[*A*]Questions[*R*]do remain[*A*]as to the exact form of this degradation, for example whether it is linear, quadratic or logarithmic with age; or how degradation rates are changing over time and whether they will be lower in the future	context()	negated: False ,passive: True
-[LINE#19]Access to data from more farms, and a more detailed wind resource assessment for each site will be fundamental to furthering our understanding of these issues.
+[LINE#22] Access to data from more farms, and a more detailed wind resource assessment for each site will be fundamental to furthering our understanding of these issues.
 0.909	[*A*]a more detailed wind resource assessment for each site[*R*]will be[*A*]fundamental to furthering our understanding of these issues	context()	negated: False ,passive: True
 0.910	[*A*]Access to data from more farms[*R*]will be[*A*]fundamental to furthering our understanding of these issues	context()	negated: False ,passive: True
-[LINE#20]The level of degradation we find is not insignificant, yet it is not unusual compared to conventional generation technologies.
+[LINE#23] The level of degradation we find is not insignificant, yet it is not unusual compared to conventional generation technologies.
 0.452	[*A*]it[*R*]is not[*A*]unusual[*A*]compared to conventional generation technologies	context()	negated: True ,passive: True
 0.478	[*A*]The level of degradation we find[*R*]is not[*A*]insignificant	context()	negated: True ,passive: True
 0.243	[*A*]we[*R*]find	context()	negated: False ,passive: False
-[LINE#21]The fact that it has been omitted from calculations of the levelised cost of electricity from wind means that these estimates are around 9% below the true value (depending on assumed discount rate and economic lifetime).
+[LINE#24] The fact that it has been omitted from calculations of the levelised cost of electricity from wind means that these estimates are around 9% below the true value (depending on assumed discount rate and economic lifetime).
 0.923	[*A*]these estimates[*R*]are[*A*]around 9% below the true value (depending on assumed discount rate and economic lifetime	context(The fact that it has been omitted from calculations of the levelised cost of electricity from wind means)	negated: False ,passive: True
 0.779	[*A*]The fact that it has been omitted from calculations of the levelised cost of electricity from wind[*R*]means[*A*]that these estimates are around 9% below the true value	context()	negated: False ,passive: False
 0.569	[*A*]it[*R*]has been omitted[*A*]from calculations of the levelised cost of electricity from wind	context()	negated: False ,passive: True
-[LINE#22]This is unlikely to be large enough to change the business case for wind power, but nonetheless it needs to be accounted for to give an accurate picture of its cost.
+[LINE#25] This is unlikely to be large enough to change the business case for wind power, but nonetheless it needs to be accounted for to give an accurate picture of its cost.
 0.274	[*A*]it[*R*]to be accounted[*A*]for to give an accurate picture of its cost	context()	negated: False ,passive: True
 0.418	[*A*]it[*R*]needs[*A*]to be accounted for to give an accurate picture of its cost	context()	negated: False ,passive: False
 0.455	[*A*]This[*R*]to be[*A*]large enough to change the business case for wind power	context()	negated: False ,passive: True
 0.567	[*A*]This[*R*]is[*A*]unlikely to be large enough to change the business case for wind power	context()	negated: False ,passive: True
-[LINE#23]Data processing and validationThe aim of our method was to use NASA modelled wind speed data as a predictor for the monthly energy output of wind farms.
+[LINE#26] Data processing and validationThe aim of our method was to use NASA modelled wind speed data as a predictor for the monthly energy output of wind farms.
 0.858	[*A*]validationThe aim of our method[*R*]was[*A*]to use NASA modelled wind speed data as a predictor for the monthly energy output of wind farms	context()	negated: False ,passive: True
 0.954	[*A*]Data processing[*R*]to use[*A*]NASA modelled wind speed data[*A*]as a predictor for the monthly energy output of wind farms	context()	negated: False ,passive: False
 0.970	[*A*]Data processing[*R*]was[*A*]to use NASA modelled wind speed data as a predictor for the monthly energy output of wind farms	context()	negated: False ,passive: True
-[LINE#24]Two forms of validation were performed to give confidence that this technique can estimate load factors for a given wind farm that are broadly representative and free of seasonal or inter-annual bias.
+[LINE#27] Two forms of validation were performed to give confidence that this technique can estimate load factors for a given wind farm that are broadly representative and free of seasonal or inter-annual bias.
 0.905	[*A*]a given wind farm[*R*]are[*A*]broadly representative and free of seasonal or inter-annual bias	context()	negated: False ,passive: True
 0.903	[*A*]this technique[*R*]can estimate[*A*]load factors[*A*]for a given wind farm	context()	negated: False ,passive: False
 0.848	[*A*]Two forms of validation[*R*]to give[*A*]confidence that this technique can estimate load factors for a given wind farm	context()	negated: False ,passive: False
 0.869	[*A*]Two forms of validation[*R*]were performed[*A*]to give confidence that this technique can estimate load factors for a given wind farm	context()	negated: False ,passive: True
-[LINE#25]The first test was whether interpolated values from the NASA GEOS-5 model accurately represent actual wind speeds measured at a particular location; and the second was that these speeds, when extrapolated to hub height and transformed using a representative power curve, accurately match the actual metered output from a wind farm.
+[LINE#28] The first test was whether interpolated values from the NASA GEOS-5 model accurately represent actual wind speeds measured at a particular location; and the second was that these speeds, when extrapolated to hub height and transformed using a representative power curve, accurately match the actual metered output from a wind farm.
 0.692	[*A*]these speeds , transformed[*R*]accurately match	context(the second was)	negated: False ,passive: False
 0.450	[*A*]the second[*R*]was[*A*]that these speeds , transformed using a representative power curve , accurately match the actual metered output from a wind farm	context()	negated: False ,passive: True
 0.698	[*A*]these speeds[*R*]transformed	context()	negated: False ,passive: False
@@ -97,7 +97,7 @@
 0.911	[*A*]interpolated values from the NASA GEOS - 5 model[*R*]accurately represent[*A*]actual wind speeds measured at a particular location	context(The first test was)	negated: False ,passive: False
 0.955	[*A*]The first test[*R*]was[*A*]whether interpolated values from the NASA GEOS - 5 model accurately represent actual wind speeds	context()	negated: False ,passive: True
 0.911	[*A*]actual wind speeds[*R*]measured[*A*]at a particular location	context()	negated: False ,passive: True
-[LINE#26] The data processing and validation was split into five stages:The NASA speeds at 10 m were compared to ground-based observations from the Met Office to validate our use of the GEOS-5 model (reported in our Supplementary Material);Wind speeds at each farm's location were extrapolated from 50 m to the hub height of that farm to account for wind shear;These extrapolated speeds were transformed into estimated ideal load factors using the power curve of the installed turbine model;The ideal hourly load factors were compared to the half-hourly metered output data for farms where this was available, to check that the preceding methods wererobust;Ideal load factors were aggregated for each farm monthly over the period of 2002-12, for comparison against the Ofgem/REF dataset.
+[LINE#29+30+31+32]  The data processing and validation was split into five stages:The NASA speeds at 10 m were compared to ground-based observations from the Met Office to validate our use of the GEOS-5 model (reported in our Supplementary Material);Wind speeds at each farm's location were extrapolated from 50 m to the hub height of that farm to account for wind shear;These extrapolated speeds were transformed into estimated ideal load factors using the power curve of the installed turbine model;The ideal hourly load factors were compared to the half-hourly metered output data for farms where this was available, to check that the preceding methods wererobust;Ideal load factors were aggregated for each farm monthly over the period of 2002-12, for comparison against the Ofgem/REF dataset.
 0.888	[*A*]These extrapolated speeds[*R*]were transformed[*A*]into estimated ideal load factors	context(Ideal load factors were aggregated)	negated: False ,passive: True
 0.938	[*A*]Ideal load factors[*R*]were aggregated[*A*]for each farm monthly[*A*]over the period of 2002-12, for comparison against the Ofgem/REF dataset	context()	negated: False ,passive: True
 0.923	[*A*]The data processing and validation[*R*]was split[*A*]into five stages:The NASA speeds	context(Wind speeds at each farm 's location were extrapolated)	negated: False ,passive: True
@@ -105,93 +105,93 @@
 0.919	[*A*]estimated ideal load factors[*R*]using[*A*]the power curve of the installed turbine model	context()	negated: False ,passive: False
 0.593	[*A*]this[*R*]was[*A*]available[*A*]farms	context()	negated: False ,passive: True
 0.952	[*A*]The ideal hourly load factors[*R*]were compared[*A*]to the half-hourly metered output data for farms	context()	negated: False ,passive: True
-[LINE#27]The following sections briefly summarise our methods and findings.
+[LINE#33] The following sections briefly summarise our methods and findings.
 0.848	[*A*]The following sections[*R*]briefly summarise[*A*]our findings	context()	negated: False ,passive: False
 0.848	[*A*]The following sections[*R*]briefly summarise[*A*]our methods	context()	negated: False ,passive: False
-[LINE#28]An extended validation section which covers each topic in greater depth is provided as supplementary material..
+[LINE#34] An extended validation section which covers each topic in greater depth is provided as supplementary material..
 0.957	[*A*]An extended validation section which covers each topic in greater depth[*R*]is provided[*A*]as supplementary material	context()	negated: False ,passive: True
 0.905	[*A*]An extended validation section[*R*]covers[*A*]each topic[*A*]in greater depth	context()	negated: False ,passive: False
-[LINE#29]Extrapolating wind speeds to turbine hub heightExtrapolating wind speeds from the height of measurement stations to the much higher hub height of wind turbines is "probably one of the most critical uncertainty factors affecting the wind power assessment at a site" [25].
+[LINE#35] Extrapolating wind speeds to turbine hub heightExtrapolating wind speeds from the height of measurement stations to the much higher hub height of wind turbines is "probably one of the most critical uncertainty factors affecting the wind power assessment at a site" [25].
 0.926	[*A*]the most critical uncertainty factors[*R*]affecting[*A*]the wind power assessment at a site	context()	negated: False ,passive: False
 0.906	[*A*]Extrapolating wind speeds[*R*]is[*A*]probably one of the most critical uncertainty factors	context()	negated: False ,passive: True
-[LINE#30]The change in horizontal wind speeds with height (known as wind shear or the wind profile) is generated by friction from the earth's surface, and so is highly dependent on the specific site conditions: the surface roughness of the terrain, air temperature, season, atmospheric stratification, and the wind speed itself.
+[LINE#36] The change in horizontal wind speeds with height (known as wind shear or the wind profile) is generated by friction from the earth's surface, and so is highly dependent on the specific site conditions: the surface roughness of the terrain, air temperature, season, atmospheric stratification, and the wind speed itself.
 0.934	[*A*]The change in horizontal wind speeds with height[*R*]is generated[*A*]by friction from the earth's surface	context()	negated: False ,passive: True
 0.905	[*A*]height[*R*]known[*A*]as wind shear or the wind profile	context()	negated: False ,passive: True
-[LINE#31] Many simplifications for extrapolating wind speeds exist, most notably the empirically derived power law and the theoretically derived log law ([25,26](1)wx=Alog(hx-dz0)The simplified log law assumes that wind speed, w, is related to the logarithm of its height, h, under the assumption of neutral atmospheric stability.
+[LINE#37+38]  Many simplifications for extrapolating wind speeds exist, most notably the empirically derived power law and the theoretically derived log law ([25,26](1)wx=Alog(hx-dz0)The simplified log law assumes that wind speed, w, is related to the logarithm of its height, h, under the assumption of neutral atmospheric stability.
 0.845	[*A*]wind speed[*R*]is related[*A*]to the logarithm of its height , h , under the assumption of neutral atmospheric stability	context(The simplified log law assumes)	negated: False ,passive: True
 0.726	[*A*]The simplified log law[*R*]assumes	context()	negated: False ,passive: False
 0.801	[*A*]Many simplifications for extrapolating wind speeds[*R*]exist	context()	negated: False ,passive: False
-[LINE#32] The logarithmic wind profile tends to zero at a height of the roughness length, z0, plus the surface displacement height, d, and is scaled by a constant, A, which equals the friction velocity (u*) divided by 0.4 (von Karman's constant).
+[LINE#39+40]  The logarithmic wind profile tends to zero at a height of the roughness length, z0, plus the surface displacement height, d, and is scaled by a constant, A, which equals the friction velocity (u*) divided by 0.4 (von Karman's constant).
 0.841	[*A*]The logarithmic wind profile[*R*]tends[*A*]to zero	context()	negated: False ,passive: True
 0.565	[*A*]u*[*R*]divided[*A*]by 0.4	context()	negated: False ,passive: True
 0.887	[*A*]a constant[*R*]equals[*A*]the friction velocity	context()	negated: False ,passive: True
 0.956	[*A*]The logarithmic wind profile[*R*]is scaled[*A*]by a constant , A , which equals the friction velocity ( u* ) divided by 0.4 ( von Karman 's constant	context()	negated: False ,passive: True
-[LINE#33]The log law provides robust extrapolations of wind speeds over a range of wind speeds, locations and altitudes [25,27].
+[LINE#41] The log law provides robust extrapolations of wind speeds over a range of wind speeds, locations and altitudes [25,27].
 0.911	[*A*]The log law[*R*]provides[*A*]robust extrapolations of wind speeds	context()	negated: False ,passive: False
-[LINE#34]The latter is especially important as turbine hub heights range from 25 to 100 m, and the Hellman exponent used in the power law decreases non-uniformly with height.
+[LINE#42] The latter is especially important as turbine hub heights range from 25 to 100 m, and the Hellman exponent used in the power law decreases non-uniformly with height.
 0.922	[*A*]the Hellman exponent[*R*]decreases[*A*]non-uniformly[*A*]with height	context()	negated: False ,passive: True
 0.933	[*A*]the Hellman exponent[*R*]used[*A*]in the power law	context()	negated: False ,passive: True
 0.911	[*A*]turbine hub heights[*R*]range[*A*]from 25[*A*]to 100 m	context()	negated: False ,passive: True
 0.952	[*A*]The latter[*R*]is[*A*]especially important[*A*]as turbine hub heights range from 25 to 100 m	context()	negated: False ,passive: True
-[LINE#35]The NASA data give simultaneous wind speeds at three heights, along with d, allowing the coefficients for wind shear to be calculated for the specific site and time of the observation.
+[LINE#43] The NASA data give simultaneous wind speeds at three heights, along with d, allowing the coefficients for wind shear to be calculated for the specific site and time of the observation.
 0.957	[*A*]The NASA data[*R*]give[*A*]simultaneous wind speeds[*A*]at three heights[*A*]allowing the coefficients for wind shear to be calculated for the time of the observation	context()	negated: False ,passive: False
 0.957	[*A*]The NASA data[*R*]give[*A*]simultaneous wind speeds[*A*]at three heights[*A*]allowing the coefficients for wind shear to be calculated for the specific site of the observation	context()	negated: False ,passive: False
-[LINE#36](2), allowing the coefficients A and z0 to be estimated by a least-squares regression of the three NASA observations.
-[LINE#37] The coefficient values were independently estimated for each site and time period with no smoothing or prior values, but were found to be temporally and spatially stable.(2)wx.
+[LINE#44] (2), allowing the coefficients A and z0 to be estimated by a least-squares regression of the three NASA observations.
+[LINE#45]  The coefficient values were independently estimated for each site and time period with no smoothing or prior values, but were found to be temporally and spatially stable.(2)wx.
 0.897	[*A*]The coefficient values[*R*]to be[*A*]temporally and spatially[*A*]stable[*A*]wx	context()	negated: False ,passive: True
 0.718	[*A*]The coefficient values[*R*]were found	context()	negated: False ,passive: False
 0.943	[*A*]The coefficient values[*R*]were independently estimated[*A*]for each site and time period with no smoothing or prior values	context()	negated: False ,passive: True
-[LINE#38] Alog(hx-d)-Alog(z0)At the average UK hub height of 60 m, wind speeds are 6-9% larger than at 50 m and 32-41% larger than at 10 m.
+[LINE#46+47]  Alog(hx-d)-Alog(z0)At the average UK hub height of 60 m, wind speeds are 6-9% larger than at 50 m and 32-41% larger than at 10 m.
 0.937	[*A*]wind speeds[*R*]are[*A*]6-9% larger than at 50 m and 32-41% larger than at 10 m.	context()	negated: False ,passive: True
-[LINE#39]The NASA data greatly reduces the extrapolation uncertainty compared with using 10 m met mast data. .
-[LINE#40]Converting wind speed to powerThe power curve for an 'ideal' wind farm was applied to the speed data at each site, estimating the potential output from a farm with perfect availability, perfect calibration, and no site-related performance loss (e.g. turbulence from surrounding geography or wake effects from other turbines).
+[LINE#48] The NASA data greatly reduces the extrapolation uncertainty compared with using 10 m met mast data. .
+[LINE#49] Converting wind speed to powerThe power curve for an 'ideal' wind farm was applied to the speed data at each site, estimating the potential output from a farm with perfect availability, perfect calibration, and no site-related performance loss (e.g. turbulence from surrounding geography or wake effects from other turbines).
 0.979	[*A*]Converting wind speed to powerThe power curve for an 'ideal' wind farm[*R*]was applied[*A*]to the speed data at each site[*A*]estimating the potential output from a farm with perfect availability, perfect calibration, and no site-related performance loss	context()	negated: False ,passive: True
-[LINE#41]We consider this to be the maximum possible attainment and name it the ideal yield.
+[LINE#50] We consider this to be the maximum possible attainment and name it the ideal yield.
 0.452	[*A*]We[*R*]consider[*A*]this name	context()	negated: False ,passive: False
 0.330	[*A*]this[*R*]to be[*A*]the maximum possible attainment	context(We consider)	negated: False ,passive: True
 0.514	[*A*]We[*R*]consider[*A*]this to be the maximum possible attainment the ideal yield	context()	negated: False ,passive: False
-[LINE#42]The meta-data that we integrated into the Ofgem/REF dataset gave the model of turbine used at each of the 282 wind farms.
+[LINE#51] The meta-data that we integrated into the Ofgem/REF dataset gave the model of turbine used at each of the 282 wind farms.
 0.894	[*A*]turbine[*R*]used[*A*]at each of the 282 wind farms	context()	negated: False ,passive: True
 0.874	[*A*]The meta-data that we integrated into the Ofgem/REF dataset[*R*]gave[*A*]the model of turbine	context()	negated: False ,passive: False
 0.920	[*A*]The meta-data[*R*]integrated[*A*]into the Ofgem/REF dataset	context()	negated: False ,passive: True
-[LINE#43]We compiled the power curves for 50 of these turbine models, accounting for 92% of the wind farms in the UK.
+[LINE#52] We compiled the power curves for 50 of these turbine models, accounting for 92% of the wind farms in the UK.
 0.444	[*A*]We[*R*]compiled the power curves accounting[*A*]for 92% of the wind farms in the UK	context(We compiled)	negated: False ,passive: False
 0.550	[*A*]We[*R*]compiled[*A*]the power curves[*A*]for 50 of these turbine models[*A*]accounting for 92% of the wind farms in the UK	context()	negated: False ,passive: False
-[LINE#44]For the remaining farms, the best match was found from the known curves, based on the installed turbine's capacity and power density (peak power divided by swept area).
+[LINE#53] For the remaining farms, the best match was found from the known curves, based on the installed turbine's capacity and power density (peak power divided by swept area).
 0.903	[*A*]peak power[*R*]divided[*A*]by swept area	context()	negated: False ,passive: True
 0.939	[*A*]the best match[*R*]was found[*A*]For the remaining farms	context()	negated: False ,passive: True
-[LINE#45]Supplementary Table 1 gives details of all the turbines considered.
+[LINE#54] Supplementary Table 1 gives details of all the turbines considered.
 0.751	[*A*]all the turbines[*R*]considered	context()	negated: False ,passive: False
 0.933	[*A*]Supplementary Table 1[*R*]gives[*A*]details of all the turbines	context()	negated: False ,passive: False
-[LINE#46]The power curve for a single turbine is shown in Fig. 5 with the aggregate power curve for a typical farm of these turbines.
+[LINE#55] The power curve for a single turbine is shown in Fig. 5 with the aggregate power curve for a typical farm of these turbines.
 0.948	[*A*]The power curve for a single turbine[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#47]The multi-turbine power curve accounts for the fact that wind speeds at the location of each individual turbine within a farm will vary according to a normal distribution.
+[LINE#56] The multi-turbine power curve accounts for the fact that wind speeds at the location of each individual turbine within a farm will vary according to a normal distribution.
 0.878	[*A*]wind speeds at the location of each individual turbine within a farm[*R*]will vary	context()	negated: False ,passive: False
 0.869	[*A*]The multi-turbine power curve[*R*]accounts[*A*]for the fact that wind speeds at the location of each individual turbine within a farm will vary according to a normal distribution	context()	negated: False ,passive: False
-[LINE#48]Following the practice of [10,20,28], the turbine power curve for each farm was convoluted by a normal distribution.
+[LINE#57] Following the practice of [10,20,28], the turbine power curve for each farm was convoluted by a normal distribution.
 0.957	[*A*]the turbine power curve for each farm[*R*]was convoluted[*A*]Following the practice of [10,20,28	context()	negated: False ,passive: True
-[LINE#49]The standard deviations were determined by the estimated geographic area that each farm covers [28], based on observations that UK farms occupy 100 m2 of land per kW capacity [29].
+[LINE#58] The standard deviations were determined by the estimated geographic area that each farm covers [28], based on observations that UK farms occupy 100 m2 of land per kW capacity [29].
 0.814	[*A*]each farm[*R*]covers[*A*]based on observations that UK farms occupy 100 m2 of land per kW capacity [29	context(The standard deviations were determined)	negated: False ,passive: True
 0.891	[*A*]The standard deviations[*R*]were determined[*A*]by the estimated geographic area	context()	negated: False ,passive: True
 0.938	[*A*]UK farms[*R*]occupy[*A*]100 m2 of land per kW capacity	context()	negated: False ,passive: False
-[LINE#50]The mean for each farm was chosen to normalise the total energy production to that of the individual turbine curve. .
+[LINE#59] The mean for each farm was chosen to normalise the total energy production to that of the individual turbine curve. .
 0.794	[*A*]The mean for each farm[*R*]to normalise[*A*]the total energy production[*A*]to that of the individual turbine curve	context()	negated: False ,passive: False
 0.879	[*A*]The mean for each farm[*R*]was chosen[*A*]to normalise the total energy production to that of the individual turbine curve	context()	negated: False ,passive: True
-[LINE#51]Comparing predicted and metered outputThe Ofgem/REF output data has monthly resolution, which is too coarse to see whether the structure of hourly wind variations accurately replicates output from operating turbines.
+[LINE#60] Comparing predicted and metered outputThe Ofgem/REF output data has monthly resolution, which is too coarse to see whether the structure of hourly wind variations accurately replicates output from operating turbines.
 0.944	[*A*]monthly resolution[*R*]is[*A*]too coarse to see whether the structure of hourly wind variations accurately replicates output from operating turbines	context()	negated: False ,passive: True
 0.978	[*A*]metered outputThe Ofgem / REF output data[*R*]has[*A*]monthly resolution , which is too coarse to see whether the structure of hourly wind variations accurately replicates output from operating turbines	context()	negated: False ,passive: False
-[LINE#52]Our second measure of wind farm energy production is the half-hourly metered output from all transmission-connected generators published on Elexon's TIBCO relay service.22www.bmreports.com.
+[LINE#61] Our second measure of wind farm energy production is the half-hourly metered output from all transmission-connected generators published on Elexon's TIBCO relay service.22www.bmreports.com.
 0.937	[*A*]all transmission-connected generators[*R*]published[*A*]on Elexon's TIBCO relay service.22	context()	negated: False ,passive: True
 0.870	[*A*]Our second measure of wind farm energy production[*R*]is[*A*]the half-hourly metered output from all transmission-connected generators	context()	negated: False ,passive: True
-[LINE#53] Data from 2005 to 2012 covers 25 TWh of output from the 47 wind farms highlighted in Fig.6b and c compare the hourly metered output from Black Law wind farm with NASA wind speeds interpolated at its location at 80 m above ground, and the ideal energy yields derived from these speeds.
+[LINE#62+63]  Data from 2005 to 2012 covers 25 TWh of output from the 47 wind farms highlighted in Fig.6b and c compare the hourly metered output from Black Law wind farm with NASA wind speeds interpolated at its location at 80 m above ground, and the ideal energy yields derived from these speeds.
 0.883	[*A*]NASA wind speeds[*R*]interpolated[*A*]at its location at 80 m above ground	context()	negated: False ,passive: True
 0.957	[*A*]Data[*R*]c compare[*A*]the hourly metered output from Black Law wind farm with NASA wind speeds	context()	negated: False ,passive: False
 0.919	[*A*]the ideal energy yields[*R*]derived[*A*]from these speeds	context()	negated: False ,passive: True
 0.931	[*A*]the 47 wind farms[*R*]highlighted[*A*]in Fig.6b	context()	negated: False ,passive: True
 0.953	[*A*]Data from 2005 to 2012[*R*]covers[*A*]25 TWh of output from the 47 wind farms	context()	negated: False ,passive: True
-[LINE#54]6b represents one hour's operation to give the empirical power curve for that farm.
+[LINE#64] 6b represents one hour's operation to give the empirical power curve for that farm.
 0.265	[*A*]6b[*R*]represents[*A*]one hour's operation to give the empirical power curve for that farm	context()	negated: False ,passive: False
-[LINE#55] This empirical curve follows the features of the farm-aggregated Siemens SWT-2.3-82 power curve (solid line), albeit shifted to the right (as NASA speeds are the theoretical maximum, and actual speeds will be lower due to local site features) and downwards (due to downtime and sub-optimal turbine calibration), with substantial scatter (as local conditions like turbulence vary over time).Fig.6c shows 1000 h of metered output together with the simulated ideal output, which was scaled by a constant factor of 0.698 for reasons explained in the next section.
+[LINE#65+66]  This empirical curve follows the features of the farm-aggregated Siemens SWT-2.3-82 power curve (solid line), albeit shifted to the right (as NASA speeds are the theoretical maximum, and actual speeds will be lower due to local site features) and downwards (due to downtime and sub-optimal turbine calibration), with substantial scatter (as local conditions like turbulence vary over time).Fig.6c shows 1000 h of metered output together with the simulated ideal output, which was scaled by a constant factor of 0.698 for reasons explained in the next section.
 0.941	[*A*]This empirical curve[*R*]follows[*A*]the features of the farm - aggregated Siemens SWT - 2.3-82 power curve	context(Fig.6c shows together)	negated: False ,passive: True
 0.938	[*A*]This empirical curve[*R*]follows[*A*]the features of the farm - aggregated Siemens SWT - 2.3-82 power curve	context(Fig.6c shows together)	negated: False ,passive: True
 0.961	[*A*]actual speeds[*R*]will be[*A*]lower[*A*]due to local site features ) sub-optimal turbine calibration[*A*]as local conditions like turbulence vary over time[*A*]This empirical curve follows the features of the farm - aggregated Siemens SWT - 2.3-82 power curve	context(Fig.6c shows together)	negated: False ,passive: True
@@ -206,116 +206,116 @@
 0.927	[*A*]NASA speeds[*R*]are[*A*]the theoretical maximum downtime	context()	negated: False ,passive: True
 0.894	[*A*]reasons[*R*]explained[*A*]in the next section	context()	negated: False ,passive: True
 0.905	[*A*]the simulated ideal output[*R*]was scaled[*A*]by a constant factor of 0.698 for reasons	context()	negated: False ,passive: True
-[LINE#56] The simulated ideal load factors for other farms compare similarly well to their metered outputs, with plots given in Supplementary Fig. a given wind farm's output is far from being a new science: on-sitemonitoring of conditions using wind turbine SCADA systems is commonplace; and software tools such as WaSP or consultancies such as GL Garrad Hassan are widely used in the field.
+[LINE#67+68+69]  The simulated ideal load factors for other farms compare similarly well to their metered outputs, with plots given in Supplementary Fig. a given wind farm's output is far from being a new science: on-sitemonitoring of conditions using wind turbine SCADA systems is commonplace; and software tools such as WaSP or consultancies such as GL Garrad Hassan are widely used in the field.
 0.945	[*A*]software tools such as WaSP or consultancies such as GL Garrad Hassan[*R*]are widely used[*A*]in the field	context()	negated: False ,passive: True
 0.840	[*A*]plots[*R*]given[*A*]in Supplementary Fig	context()	negated: False ,passive: True
 0.966	[*A*]a given wind farm's output[*R*]is[*A*]far from being a new science: on-sitemonitoring of conditions using wind turbine SCADA systems	context(on - sitemonitoring of conditions is)	negated: False ,passive: True
 0.878	[*A*]The simulated ideal load factors for other farms[*R*]compare similarly well[*A*]to their metered outputs[*A*]with plots	context(on - sitemonitoring of conditions is)	negated: False ,passive: True
 0.798	[*A*]on-sitemonitoring of conditions[*R*]is[*A*]commonplace	context()	negated: False ,passive: True
-[LINE#57]Data is not made publicly available, and these services come at a price of several thousand Euros.
+[LINE#70] Data is not made publicly available, and these services come at a price of several thousand Euros.
 0.918	[*A*]these services[*R*]come[*A*]at a price of several thousand Euros	context()	negated: False ,passive: True
-[LINE#58]On the other hand, national average data cannot reveal what is happening at individual wind farms.
+[LINE#71] On the other hand, national average data cannot reveal what is happening at individual wind farms.
 0.888	[*A*]national average data[*R*]can not reveal[*A*]what is happening at individual wind farms	context()	negated: True ,passive: False
-[LINE#59]We therefore employ farm-specific data for output and site-specific data for wind speeds, taken from free and publicly accessible datasets.
+[LINE#72] We therefore employ farm-specific data for output and site-specific data for wind speeds, taken from free and publicly accessible datasets.
 0.887	[*A*]wind speeds[*R*]taken[*A*]from publicly accessible datasets	context()	negated: False ,passive: True
 0.887	[*A*]wind speeds[*R*]taken[*A*]from free datasets	context()	negated: False ,passive: True
 0.528	[*A*]We[*R*]employ[*A*]farm - specific data for site - specific data for wind speeds	context()	negated: False ,passive: False
 0.411	[*A*]We[*R*]employ[*A*]farm - specific data for output	context()	negated: False ,passive: False
-[LINE#60]The primary data used in our main analysis are described in this section, and additional data used for validation are described in Section 4.
+[LINE#73] The primary data used in our main analysis are described in this section, and additional data used for validation are described in Section 4.
 0.926	[*A*]additional data used for validation[*R*]are described[*A*]in Section 4	context()	negated: False ,passive: True
 0.903	[*A*]additional data[*R*]used[*A*]for validation	context()	negated: False ,passive: True
 0.759	[*A*]The primary data used in our main analysis[*R*]are described[*A*]in this section	context()	negated: False ,passive: True
 0.848	[*A*]The primary data[*R*]used[*A*]in our main analysis	context()	negated: False ,passive: True
-[LINE#61]Further information on our data is given in the Supplementary Material..
+[LINE#74] Further information on our data is given in the Supplementary Material..
 0.739	[*A*]Further information on our data[*R*]is given[*A*]in the Supplementary Material	context()	negated: False ,passive: True
-[LINE#62]F output dataAll wind farms enrolled in the UK government's incentive scheme, the Renewables Obligation, publish their monthly outputs (in MWh) in the Ofgem Renewables and CHP Register.11www.renewablesandchp.ofgem.gov.uk.
-[LINE#63]Hughes extracted and cleaned this data, cross-linking outputs with details about each wind farm (its capacity and date of commissioning), and ensured that each wind farm contained only the same model and vintage of turbine [1].
+[LINE#75] F output dataAll wind farms enrolled in the UK government's incentive scheme, the Renewables Obligation, publish their monthly outputs (in MWh) in the Ofgem Renewables and CHP Register.11www.renewablesandchp.ofgem.gov.uk.
+[LINE#76] Hughes extracted and cleaned this data, cross-linking outputs with details about each wind farm (its capacity and date of commissioning), and ensured that each wind farm contained only the same model and vintage of turbine [1].
 0.891	[*A*]each wind farm[*R*]contained[*A*]only the same vintage of turbine	context(Hughes ensured)	negated: False ,passive: False
 0.843	[*A*]Hughes[*R*]ensured[*A*]that each wind farm contained only the same vintage of turbine	context()	negated: False ,passive: False
 0.891	[*A*]each wind farm[*R*]contained[*A*]only the same model of turbine	context(Hughes ensured)	negated: False ,passive: False
 0.843	[*A*]Hughes[*R*]ensured[*A*]that each wind farm contained only the same model of turbine	context()	negated: False ,passive: False
 0.920	[*A*]Hughes[*R*]cleaned[*A*]this data	context()	negated: False ,passive: False
 0.771	[*A*]Hughes[*R*]extracted	context()	negated: False ,passive: False
-[LINE#64]This cleaned dataset was published on the internet by the Renewable Energy Foundation (REF) [21].
+[LINE#77] This cleaned dataset was published on the internet by the Renewable Energy Foundation (REF) [21].
 0.952	[*A*]This cleaned dataset[*R*]was published[*A*]on the internet[*A*]by the Renewable Energy Foundation (REF) [21	context()	negated: False ,passive: True
-[LINE#65]We are very grateful to Prof. Hughes and the REF for making this rich data source available to the community.
+[LINE#78] We are very grateful to Prof. Hughes and the REF for making this rich data source available to the community.
 0.569	[*A*]We[*R*]are[*A*]very grateful to the REF for making this rich data source available to the community	context()	negated: False ,passive: True
 0.498	[*A*]We[*R*]are[*A*]very grateful to Prof. Hughes	context()	negated: False ,passive: True
-[LINE#66]We further validated this dataset, corrected the commissioning date for 15 wind farms (which were incorrectly reported by Ofgem), integrated further meta-data for each farm (the geographical location, wind turbine model and hub height), and extended the time-series by 8 months, adding data from April to December 2012.Our modified dataset is provided as Supplementary Material to this paper.
+[LINE#79] We further validated this dataset, corrected the commissioning date for 15 wind farms (which were incorrectly reported by Ofgem), integrated further meta-data for each farm (the geographical location, wind turbine model and hub height), and extended the time-series by 8 months, adding data from April to December 2012.Our modified dataset is provided as Supplementary Material to this paper.
 0.913	[*A*]15 wind farms[*R*]were incorrectly reported[*A*]by Ofgem	context()	negated: False ,passive: True
 0.411	[*A*]We[*R*]validated[*A*]this dataset	context()	negated: False ,passive: False
-[LINE#67]It contains 1687 farm-years of load factor data, covering onshore turbines built from 1991 onwards and spanning 11 years of operation.
+[LINE#80] It contains 1687 farm-years of load factor data, covering onshore turbines built from 1991 onwards and spanning 11 years of operation.
 0.766	[*A*]It[*R*]has load factor data spanning of[*A*]1687 farm - years	context()	negated: False ,passive: False
 0.999	[*A*]It[*R*]contains[*A*]1687 farm - years	context()	negated: False ,passive: False
 0.897	[*A*]load factor data[*R*]spanning[*A*]11 years of operation	context()	negated: False ,passive: False
 0.767	[*A*]onshore turbines[*R*]built[*A*]from 1991 onwards	context()	negated: False ,passive: True
 0.452	[*A*]It[*R*]contains[*A*]1687 farm-years of load factor data[*A*]covering onshore turbines	context()	negated: False ,passive: False
-[LINE#68]The study was restricted to onshore wind farms, as only a small amount of data was available for the UK's 20 offshore farms, and these would need to be considered separately as they face a very different operating environment and maintenance issues to onshore farms.
+[LINE#81] The study was restricted to onshore wind farms, as only a small amount of data was available for the UK's 20 offshore farms, and these would need to be considered separately as they face a very different operating environment and maintenance issues to onshore farms.
 0.993	[*A*]The study[*R*]was restricted to[*A*]20 offshore farms	context()	negated: False ,passive: False
 0.616	[*A*]they[*R*]face[*A*]a very different operating environment and maintenance issues	context()	negated: False ,passive: False
 0.229	[*A*]these[*R*]to be considered separately	context()	negated: False ,passive: False
 0.296	[*A*]these[*R*]would need[*A*]to be considered separately	context()	negated: False ,passive: False
 0.956	[*A*]only a small amount of data[*R*]was[*A*]available for the UK's 20 offshore farms	context()	negated: False ,passive: True
 0.947	[*A*]The study[*R*]was restricted[*A*]to onshore wind farms[*A*]as only a small amount of data was available for the UK's 20 offshore farms	context()	negated: False ,passive: True
-[LINE#69]1 provide a selection of summary statistics for the data.
+[LINE#82] 1 provide a selection of summary statistics for the data.
 0.381	[*A*]1[*R*]provide[*A*]a selection of summary statistics for the data	context()	negated: False ,passive: False
-[LINE#70]2 and 3 show what has happened to the load factor of these wind farms as they get older.
+[LINE#83] 2 and 3 show what has happened to the load factor of these wind farms as they get older.
 0.428	[*A*]they[*R*]get[*A*]older	context()	negated: False ,passive: True
-[LINE#71] simply plots the distribution of all observed load factors against age, showing a steady decline of -0.44  0.04 absolute percentage points per year past age one (1.69  0.17% loss per year relative to the UKmean load factor).As explained in the introduction this is not necessarily due to ageing if newer turbine models are more efficient at extracting energy from the wind.
+[LINE#84+85+86]  simply plots the distribution of all observed load factors against age, showing a steady decline of -0.44  0.04 absolute percentage points per year past age one (1.69  0.17% loss per year relative to the UKmean load factor).As explained in the introduction this is not necessarily due to ageing if newer turbine models are more efficient at extracting energy from the wind.
 0.911	[*A*]newer turbine models[*R*]are[*A*]more efficient at extracting energy from the wind	context()	negated: False ,passive: True
 0.497	[*A*]this[*R*]is not[*A*]necessarily[*A*]due to ageing[*A*]if newer turbine models are more efficient at extracting energy from the wind	context()	negated: True ,passive: True
 0.897	[*A*]newer turbine models[*R*]at extracting[*A*]energy[*A*]from the wind	context()	negated: False ,passive: False
-[LINE#72]The oldest turbines in the sample (aged 15-19 years) were built in the early- to mid-1990s; typically 300-500 kW two or three bladed machines on 25-50 m towers.
+[LINE#87] The oldest turbines in the sample (aged 15-19 years) were built in the early- to mid-1990s; typically 300-500 kW two or three bladed machines on 25-50 m towers.
 0.945	[*A*]The oldest turbines in the sample (aged 15-19 years[*R*]were built[*A*]in the early- to mid-1990s	context()	negated: False ,passive: True
 0.921	[*A*]The oldest turbines in the sample[*R*]aged[*A*]15-19 years	context()	negated: False ,passive: True
-[LINE#73]These will clearly be outperformed by the latest generation of 2-3 MW turbines which are no older than 5 years.
+[LINE#88] These will clearly be outperformed by the latest generation of 2-3 MW turbines which are no older than 5 years.
 0.922	[*A*]2-3 MW turbines[*R*]are[*A*]no older than 5 years	context()	negated: False ,passive: True
 0.484	[*A*]These[*R*]will be outperformed[*A*]by the latest generation of 2-3 MW turbines	context()	negated: False ,passive: True
-[LINE#74] To control for technology effects, Fig.3a charts the individual histories of the 53 farms which have more than ten years of data, using a 12-month moving average to smooth out seasonal variations in the wind.
+[LINE#89+90]  To control for technology effects, Fig.3a charts the individual histories of the 53 farms which have more than ten years of data, using a 12-month moving average to smooth out seasonal variations in the wind.
 0.911	[*A*]12-month[*R*]moving[*A*]average	context()	negated: False ,passive: True
 0.897	[*A*]the 53 farms[*R*]have[*A*]more than ten years of data	context()	negated: False ,passive: False
 0.921	[*A*]Fig.3a[*R*]charts[*A*]the individual histories of the 53 farms	context()	negated: False ,passive: False
-[LINE#75]Load factors tend to rise during the first year of operation while turbines are still being commissioned until the farm achieves full operation and teething problems are ironed out.
+[LINE#91] Load factors tend to rise during the first year of operation while turbines are still being commissioned until the farm achieves full operation and teething problems are ironed out.
 0.751	[*A*]the teething problems[*R*]are ironed out	context()	negated: False ,passive: False
 0.952	[*A*]Load factors[*R*]tend[*A*]to rise during the first year of operation while turbines are still being commissioned until the teething problems are ironed out	context()	negated: False ,passive: True
 0.903	[*A*]the farm[*R*]achieves[*A*]full operation	context()	negated: False ,passive: False
 0.743	[*A*]turbines[*R*]are being commissioned[*A*]still	context()	negated: False ,passive: True
 0.887	[*A*]Load factors[*R*]to rise[*A*]during the first year of operation	context()	negated: False ,passive: True
 0.952	[*A*]Load factors[*R*]tend[*A*]to rise during the first year of operation while turbines are still being commissioned until the farm achieves full operation	context()	negated: False ,passive: True
-[LINE#76]3b summarises the annual degradation rates, estimated by running individual linear regressions on each farm's unsmoothed load factors, excluding the first year.
+[LINE#92] 3b summarises the annual degradation rates, estimated by running individual linear regressions on each farm's unsmoothed load factors, excluding the first year.
 0.939	[*A*]the annual degradation rates[*R*]estimated[*A*]by running individual linear regressions on each farm's unsmoothed load factors, excluding the first year	context()	negated: False ,passive: True
 0.497	[*A*]3b[*R*]summarises[*A*]the annual degradation rates, estimated by running individual linear regressions on each farm's unsmoothed load factors, excluding the first year	context()	negated: False ,passive: False
-[LINE#77]The areas with the darkest shading are derived from farms which are old enough to give ten years of data; lighter areas add the more recent farms which have fewer observations.
+[LINE#93] The areas with the darkest shading are derived from farms which are old enough to give ten years of data; lighter areas add the more recent farms which have fewer observations.
 0.917	[*A*]The areas with the darkest shading[*R*]are derived[*A*]from farms	context(lighter areas add)	negated: False ,passive: True
 0.908	[*A*]lighter areas[*R*]add[*A*]the more recent farms which have fewer observations	context()	negated: False ,passive: False
 0.905	[*A*]the more recent farms[*R*]have[*A*]fewer observations	context()	negated: False ,passive: False
 0.786	[*A*]farms[*R*]to give[*A*]ten years of data	context()	negated: False ,passive: False
 0.786	[*A*]farms[*R*]are[*A*]old enough to give ten years of data	context()	negated: False ,passive: True
-[LINE#78]The degradation rates of individual farms are predominantly bunched around 0 to -1 percentage points of absolute load factor per year, but several outliers make the overall distribution fat-tailed.
+[LINE#94] The degradation rates of individual farms are predominantly bunched around 0 to -1 percentage points of absolute load factor per year, but several outliers make the overall distribution fat-tailed.
 0.903	[*A*]several outliers[*R*]make[*A*]the overall distribution fat - tailed	context()	negated: False ,passive: False
 0.993	[*A*]The degradation rates of individual farms the overall distribution fat - tailed[*R*]are bunched around[*A*]1 percentage points	context()	negated: False ,passive: False
 0.956	[*A*]The degradation rates of individual farms[*R*]are predominantly bunched[*A*]around 0 to - 1 percentage points of absolute load factor per year	context()	negated: False ,passive: True
-[LINE#79]A Cauchy (or Lorentz) distribution therefore provides a better fit than a normal distribution, centred on -0.48 with a half width at half maximum of 0.36.
+[LINE#95] A Cauchy (or Lorentz) distribution therefore provides a better fit than a normal distribution, centred on -0.48 with a half width at half maximum of 0.36.
 0.950	[*A*]Lorentz ) distribution[*R*]provides[*A*]a better fit than a normal distribution , centred on - 0.48 with a half width at half maximum of 0.36	context()	negated: False ,passive: False
 0.920	[*A*]distribution[*R*]provides[*A*]a better fit than a normal distribution , centred on - 0.48 with a half width at half maximum of 0.36	context()	negated: False ,passive: False
-[LINE#80]The distribution becomes wider for farms with fewer observations; and would stretch all the way from -25 to +15 points per year if farms with less than five years' data were included.
+[LINE#96] The distribution becomes wider for farms with fewer observations; and would stretch all the way from -25 to +15 points per year if farms with less than five years' data were included.
 0.830	[*A*]farms with less than five years ' data[*R*]were included	context()	negated: False ,passive: False
 0.903	[*A*]The distribution[*R*]becomes[*A*]wider for farms with fewer observations	context()	negated: False ,passive: True
-[LINE#81]With an absolute degradation rate of -0.48  0.36 points per year, a typical wind farm loses 1.81  1.32% of its output per year on average.
+[LINE#97] With an absolute degradation rate of -0.48  0.36 points per year, a typical wind farm loses 1.81  1.32% of its output per year on average.
 0.999	[*A*]a typical wind farm[*R*]loses[*A*]1.81 1.32 %	context()	negated: False ,passive: False
-[LINE#82]The range of degradation rates for individual farms is clearly much greater than uncertainty on the average rate for the dataset as a whole.
+[LINE#98] The range of degradation rates for individual farms is clearly much greater than uncertainty on the average rate for the dataset as a whole.
 0.973	[*A*]The range of degradation rates for individual farms[*R*]is[*A*]clearly[*A*]much greater than uncertainty on the average rate for the dataset as a whole	context()	negated: False ,passive: True
-[LINE#83]3 corrects for weather effects.
+[LINE#99] 3 corrects for weather effects.
 0.381	[*A*]3[*R*]corrects[*A*]for weather effects	context()	negated: False ,passive: False
-[LINE#84]To extract the true rate of degradation in the UK's wind farms, we account for variations in the weather over the last decade using a detailed wind resource assessment, and the rate of technology improvement by modelling the specific turbines installed at every wind farm. .
+[LINE#100] To extract the true rate of degradation in the UK's wind farms, we account for variations in the weather over the last decade using a detailed wind resource assessment, and the rate of technology improvement by modelling the specific turbines installed at every wind farm. .
 0.911	[*A*]the specific turbines[*R*]installed[*A*]at every wind farm	context()	negated: False ,passive: True
 0.964	[*A*]variations in the weather over the last decade[*R*]using[*A*]a detailed wind resource assessment, and the rate of technology improvement by modelling the specific turbines	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]account[*A*]for variations in the weather over the last decade	context()	negated: False ,passive: False
-[LINE#85]dataA database of wind speeds for the British Isles was created using NAA's MERRA dataset: a historical reanalysis of global atmospheric observations assimilated and processed using the Goddard Earth Observing System (GEOS-5) [22,23].
+[LINE#101] dataA database of wind speeds for the British Isles was created using NAA's MERRA dataset: a historical reanalysis of global atmospheric observations assimilated and processed using the Goddard Earth Observing System (GEOS-5) [22,23].
 0.751	[*A*]global atmospheric observations[*R*]processed	context()	negated: False ,passive: False
 0.816	[*A*]a historical reanalysis of global atmospheric observations[*R*]assimilated	context()	negated: False ,passive: False
 0.879	[*A*]dataA database of wind speeds for the British Isles[*R*]was created	context()	negated: False ,passive: False
-[LINE#86]Wind observations with "fairly complete global coverage" are taken from weather stations, balloons, aircraft, ships, buoys and satellites, and processed by the model to give data with hourly resolution on a  latitude and  longitude grid (approx. 55 by 44 km), at heights of 2 and 10 m above the surface displacement height (d, the point at which a logarithmic wind profile would tend to zero) and at 50 m above ground.
+[LINE#102] Wind observations with "fairly complete global coverage" are taken from weather stations, balloons, aircraft, ships, buoys and satellites, and processed by the model to give data with hourly resolution on a  latitude and  longitude grid (approx. 55 by 44 km), at heights of 2 and 10 m above the surface displacement height (d, the point at which a logarithmic wind profile would tend to zero) and at 50 m above ground.
 0.953	[*A*]a logarithmic wind profile[*R*]would tend[*A*]to zero[*A*]the point	context()	negated: False ,passive: True
 0.934	[*A*]Wind observations with " fairly complete global coverage[*R*]are taken[*A*]from processed by the model[*A*]to give data with hourly resolution on longitude grid[*A*]by 44 km	context()	negated: False ,passive: True
 0.958	[*A*]Wind observations with " fairly complete global coverage[*R*]are taken[*A*]from processed by the model[*A*]to give data with hourly resolution on a latitude ( approx . 55 by 44 km	context()	negated: False ,passive: True
@@ -331,7 +331,7 @@
 0.958	[*A*]Wind observations with " fairly complete global coverage[*R*]are taken[*A*]from balloons[*A*]at heights of 2 m above the surface displacement height ( d , the point	context()	negated: False ,passive: True
 0.953	[*A*]a logarithmic wind profile[*R*]would tend[*A*]to zero ) and at 50 m above ground[*A*]the point	context()	negated: False ,passive: True
 0.934	[*A*]Wind observations with " fairly complete global coverage[*R*]are taken[*A*]from weather stations	context()	negated: False ,passive: True
-[LINE#87]We acquired data for the UK, Ireland and surrounding waters (-15 to 10E, 46.5 to 65.5N) from 1993 to 2012, giving a database ith 1.06 billion observations (175,320 temporal  1521 geographic  three speed variables plus displacement height).
+[LINE#103] We acquired data for the UK, Ireland and surrounding waters (-15 to 10E, 46.5 to 65.5N) from 1993 to 2012, giving a database ith 1.06 billion observations (175,320 temporal  1521 geographic  three speed variables plus displacement height).
 0.293	[*A*]We[*R*]acquired data for surrounding waters ( - 15 giving[*A*]a database[*A*]ith 1.06 billion observations	context(We acquired)	negated: False ,passive: False
 0.108	[*A*]We[*R*]acquired data for surrounding waters ( - 15 to 65.5N	context(We acquired)	negated: False ,passive: False
 0.388	[*A*]We[*R*]acquired[*A*]data for surrounding waters ( - 15[*A*]to 10E[*A*]to 65.5N[*A*]from 1993[*A*]giving a database ith 1.06 billion observations	context()	negated: False ,passive: False
@@ -345,34 +345,34 @@
 0.433	[*A*]We[*R*]acquired[*A*]data for the UK to 10E ,[*A*]46.5 to 65.5N[*A*]from 1993 to 2012[*A*]giving a database ith 1.06 billion observations	context()	negated: False ,passive: False
 0.260	[*A*]46.5[*R*]to 65.5N	context()	negated: False ,passive: False
 0.939	[*A*]data[*R*]to 10E[*A*]the UK	context()	negated: False ,passive: True
-[LINE#88] This database was then processed using R [24] as follows:For each hour, the east (u) and north (v) components of wind speed were extracted at all three heights;A nonparametric polynomial surfacewas fitted to each set of spatially gridded observations using a 2-dimensional LOESS regression.
+[LINE#104+105+106]  This database was then processed using R [24] as follows:For each hour, the east (u) and north (v) components of wind speed were extracted at all three heights;A nonparametric polynomial surfacewas fitted to each set of spatially gridded observations using a 2-dimensional LOESS regression.
 0.769	[*A*]A nonparametric polynomial surfacewas[*R*]fitted	context()	negated: False ,passive: False
-[LINE#89] This allowed wind speeds at any coordinates to be locally interpolated using the nearest twelve observations, as in Fig. 4;The magnitude of the wind speed vector (w) was calculated at each location fromspeed was extrapolated from the three observation heights to the hub height of each farm (averaging 60  14 m) using the log law described in the next section.
+[LINE#107+108+109]  This allowed wind speeds at any coordinates to be locally interpolated using the nearest twelve observations, as in Fig. 4;The magnitude of the wind speed vector (w) was calculated at each location fromspeed was extrapolated from the three observation heights to the hub height of each farm (averaging 60  14 m) using the log law described in the next section.
 0.321	[*A*]This[*R*]allowed[*A*]wind speeds[*A*]at any coordinates[*A*]using the nearest twelve observations	context(The magnitude of the wind speed vector was extrapolated)	negated: False ,passive: False
 0.908	[*A*]The magnitude of the wind speed vector[*R*]was extrapolated[*A*]from the three observation heights	context()	negated: False ,passive: True
 0.905	[*A*]the wind speed vector[*R*]was calculated[*A*]at each location fromspeed	context()	negated: False ,passive: True
 0.911	[*A*]the log law[*R*]described[*A*]in the next section	context()	negated: False ,passive: True
-[LINE#90] The finding that wind turbines lose around 1.6% of their output each year poses three questions:1.What are the reasons for thiswe expect it to continue in future?3.What are its wider impacts?.
+[LINE#110+111]  The finding that wind turbines lose around 1.6% of their output each year poses three questions:1.What are the reasons for thiswe expect it to continue in future?3.What are its wider impacts?.
 0.513	[*A*]three questions:1.What[*R*]are[*A*]the reasons for thiswe	context(The finding that wind turbines lose around 1.6 % of their output each year poses)	negated: False ,passive: True
 0.818	[*A*]The finding that wind turbines lose around 1.6% of their output each year[*R*]poses[*A*]three questions:1.What are the reasons for thiswe	context()	negated: False ,passive: False
 0.835	[*A*]wind turbines[*R*]lose[*A*]around 1.6% of their output each year	context()	negated: False ,passive: False
-[LINE#91]Reasons for declining outputThe degradation rate we observe is perhaps to be expected, as it lies in the middle of the range experienced by gas turbine technologies: 0.75-2.25% per year [2].
+[LINE#112] Reasons for declining outputThe degradation rate we observe is perhaps to be expected, as it lies in the middle of the range experienced by gas turbine technologies: 0.75-2.25% per year [2].
 0.452	[*A*]it[*R*]lies[*A*]in the middle of the range	context()	negated: False ,passive: True
 0.773	[*A*]Reasons for declining outputThe degradation rate[*R*]to be expected	context()	negated: False ,passive: False
 0.930	[*A*]Reasons for declining outputThe degradation rate[*R*]is[*A*]perhaps[*A*]to be expected[*A*]as it lies in the middle of the range experienced by gas turbine technologies: 0.75-2.25% per year	context()	negated: False ,passive: True
 0.894	[*A*]outputThe degradation rate[*R*]observe[*A*]we	context()	negated: False ,passive: True
 0.903	[*A*]the range[*R*]experienced[*A*]by gas turbine technologies	context()	negated: False ,passive: True
-[LINE#92]As with gas turbines and other aerodynamic rotating machinery, a portion of the unrecoverable loss could be attributed to gradual deterioration, such as fouling of the blades (which will impede the aerodynamic performance) and a gradual reduction in component efficiencies (gearbox, bearings, generator).
+[LINE#113] As with gas turbines and other aerodynamic rotating machinery, a portion of the unrecoverable loss could be attributed to gradual deterioration, such as fouling of the blades (which will impede the aerodynamic performance) and a gradual reduction in component efficiencies (gearbox, bearings, generator).
 0.956	[*A*]a portion of the unrecoverable loss[*R*]could be attributed[*A*]to gradual deterioration , such as fouling of the blades	context()	negated: False ,passive: True
 0.887	[*A*]the blades[*R*]will impede[*A*]the aerodynamic performance	context()	negated: False ,passive: False
-[LINE#93]These may not be recoverable by maintenance procedures, but only by component replacement.
+[LINE#114] These may not be recoverable by maintenance procedures, but only by component replacement.
 0.296	[*A*]These[*R*]may not be[*A*]recoverable	context()	negated: True ,passive: True
-[LINE#94]A (potentially larger) contribution could come from availability declining with age, either because older turbines fail more frequently or because they take longer to bring back online.
+[LINE#115] A (potentially larger) contribution could come from availability declining with age, either because older turbines fail more frequently or because they take longer to bring back online.
 0.361	[*A*]they[*R*]take[*A*]longer	context()	negated: False ,passive: False
 0.767	[*A*]older turbines[*R*]fail[*A*]more frequently	context()	negated: False ,passive: True
 0.894	[*A*]availability[*R*]declining[*A*]with age	context()	negated: False ,passive: True
 0.932	[*A*]A (potentially larger) contribution[*R*]could come[*A*]from availability	context()	negated: False ,passive: True
-[LINE#95]Possible reasons for the latter are the likelihood that older machines suffer more serious failures, difficulty in obtaining components for obsolete models, and operators being less likely to hold comprehensive maintenance contracts.
+[LINE#116] Possible reasons for the latter are the likelihood that older machines suffer more serious failures, difficulty in obtaining components for obsolete models, and operators being less likely to hold comprehensive maintenance contracts.
 0.877	[*A*]operators[*R*]to hold[*A*]comprehensive maintenance contracts	context()	negated: False ,passive: False
 0.894	[*A*]operators[*R*]being[*A*]less likely to hold comprehensive maintenance contracts	context()	negated: False ,passive: True
 0.903	[*A*]older machines[*R*]suffer[*A*]operators being less likely to hold comprehensive maintenance contracts	context()	negated: False ,passive: False
@@ -382,65 +382,65 @@
 0.879	[*A*]Possible reasons for the latter[*R*]are[*A*]the likelihood that older machines suffer difficulty in obtaining components for obsolete models	context()	negated: False ,passive: True
 0.903	[*A*]older machines[*R*]suffer[*A*]more serious failures	context()	negated: False ,passive: False
 0.820	[*A*]Possible reasons for the latter[*R*]are[*A*]the likelihood that older machines suffer more serious failures	context()	negated: False ,passive: True
-[LINE#96]Availability will depend on the amount of effort the owner is willing to invest in maintenance, which may naturally fall over time as the asset is paid down, and will depend on electricity prices and O&M costs.
+[LINE#117] Availability will depend on the amount of effort the owner is willing to invest in maintenance, which may naturally fall over time as the asset is paid down, and will depend on electricity prices and O&M costs.
 0.732	[*A*]the asset[*R*]is paid down	context()	negated: False ,passive: False
 0.824	[*A*]maintenance[*R*]may fall[*A*]over time[*A*]as the asset is paid down	context()	negated: False ,passive: True
 0.887	[*A*]the owner[*R*]to invest[*A*]in maintenance	context()	negated: False ,passive: False
 0.925	[*A*]the owner[*R*]is[*A*]willing to invest in maintenance	context()	negated: False ,passive: True
 0.896	[*A*]Availability[*R*]will depend[*A*]on electricity prices and O&M costs	context()	negated: False ,passive: False
 0.894	[*A*]Availability[*R*]will depend[*A*]on the amount of effort	context()	negated: False ,passive: False
-[LINE#97] The manufacturer's availability warranty provided with a new turbine (which may for example guarantee 97% uptime)is also likely to exceed the standard provided by third party O&M providers in later life.
+[LINE#118+119]  The manufacturer's availability warranty provided with a new turbine (which may for example guarantee 97% uptime)is also likely to exceed the standard provided by third party O&M providers in later life.
 0.918	[*A*]the standard[*R*]provided[*A*]by third party O&M providers in later life	context()	negated: False ,passive: True
 0.989	[*A*]The manufacturer's availability warranty provided with a new turbine (which may for example guarantee 97% uptime)[*R*]to exceed[*A*]the standard provided by third party O&M providers in later life	context()	negated: False ,passive: False
 0.986	[*A*]The manufacturer's availability warranty provided with a new turbine (which may for example guarantee 97% uptime)[*R*]is[*A*]also[*A*]likely to exceed the standard	context()	negated: False ,passive: True
 0.785	[*A*]The manufacturer's availability warranty[*R*]provided	context()	negated: False ,passive: False
-[LINE#98]Early turbine death is a third contributing reason.
+[LINE#120] Early turbine death is a third contributing reason.
 0.932	[*A*]Early turbine death[*R*]is[*A*]a third contributing reason	context()	negated: False ,passive: True
-[LINE#99] If one turbine in a farm of four fails completely at age 17, the farm will continue operating at a maximum of 75% of its original load factor, which would translate to an annualised degradation rate of around 1.6%.Fig.9a highlights these first two reasons as a gradual downwards slope in the bulk of weather-corrected load factor observations, and isolated periods of very low output due to downtime which are concentrated towards higher ages.
+[LINE#121+122]  If one turbine in a farm of four fails completely at age 17, the farm will continue operating at a maximum of 75% of its original load factor, which would translate to an annualised degradation rate of around 1.6%.Fig.9a highlights these first two reasons as a gradual downwards slope in the bulk of weather-corrected load factor observations, and isolated periods of very low output due to downtime which are concentrated towards higher ages.
 0.644	[*A*]its original load factor[*R*]would translate[*A*]to an annualised degradation rate of around 1.6%	context()	negated: False ,passive: True
 0.698	[*A*]the farm[*R*]operating	context()	negated: False ,passive: False
 0.877	[*A*]downtime[*R*]are[*A*]concentrated towards higher ages	context()	negated: False ,passive: True
 0.938	[*A*]one turbine in a farm of four[*R*]fails completely[*A*]at age 17	context()	negated: False ,passive: True
-[LINE#100]3a shows an example of the third: Blyth Harbour stands out at the lower-right of the chart as its load factor declined from 12% to just 2% between the ages of 12 and 17.
+[LINE#123] 3a shows an example of the third: Blyth Harbour stands out at the lower-right of the chart as its load factor declined from 12% to just 2% between the ages of 12 and 17.
 0.921	[*A*]3a[*R*]shows[*A*]an example of the third	context(Blyth Harbour stands out)	negated: False ,passive: False
 0.907	[*A*]Blyth Harbour[*R*]stands out[*A*]at the lower-right of the chart	context()	negated: False ,passive: True
 0.757	[*A*]its load factor[*R*]declined[*A*]from 12% to just 2% between the ages of 12 and 17	context()	negated: False ,passive: True
-[LINE#101]By the end of its life only one of the nine turbines was generating, giving it the worst degradation rate of the farms we observed. .
+[LINE#124] By the end of its life only one of the nine turbines was generating, giving it the worst degradation rate of the farms we observed. .
 0.789	[*A*]only one of the nine turbines[*R*]was generating giving[*A*]it[*A*]the worst degradation rate of the farms	context(only one of the nine turbines was generating)	negated: False ,passive: False
 0.895	[*A*]only one of the nine turbines[*R*]was generating[*A*]giving it the worst degradation rate of the farms[*A*]By the end of its life	context()	negated: False ,passive: False
 0.884	[*A*]the farms[*R*]observed[*A*]we	context()	negated: False ,passive: True
-[LINE#102] Future trendsWhat of the future?.
-[LINE#103]Although our main calculations are based on linear rates of decline, we cannot yet know if this assumption is correct.
+[LINE#125]  Future trendsWhat of the future?.
+[LINE#126] Although our main calculations are based on linear rates of decline, we cannot yet know if this assumption is correct.
 0.770	[*A*]this assumption[*R*]is[*A*]correct	context(we can not know)	negated: False ,passive: True
 0.425	[*A*]we[*R*]can not know[*A*]if this assumption is correct[*A*]yet	context()	negated: True ,passive: False
 0.660	[*A*]our main calculations[*R*]are based[*A*]on linear rates of decline	context()	negated: False ,passive: True
-[LINE#104]9b and 11a suggest a slightly lower rate of ageing in the first six or seven years of a farm's life.
-[LINE#105]This early period is typically covered by comprehensive warranties which guarantee near-maximal output, whereas older farms may be less intensively maintained and thus deteriorate more rapidly.
+[LINE#127] 9b and 11a suggest a slightly lower rate of ageing in the first six or seven years of a farm's life.
+[LINE#128] This early period is typically covered by comprehensive warranties which guarantee near-maximal output, whereas older farms may be less intensively maintained and thus deteriorate more rapidly.
 0.732	[*A*]older farms[*R*]may be thus deteriorate more rapidly	context()	negated: False ,passive: False
 0.923	[*A*]This early period[*R*]is covered[*A*]by comprehensive warranties[*A*]whereas older farms may be thus deteriorate more rapidly[*A*]typically	context()	negated: False ,passive: True
 0.698	[*A*]older farms[*R*]less intensively maintained	context()	negated: False ,passive: False
 0.767	[*A*]older farms[*R*]may be[*A*]less intensively maintained	context()	negated: False ,passive: True
 0.887	[*A*]comprehensive warranties[*R*]guarantee[*A*]near - maximal output	context()	negated: False ,passive: False
 0.923	[*A*]This early period[*R*]is covered[*A*]by comprehensive warranties[*A*]whereas older farms may be less intensively maintained[*A*]typically	context()	negated: False ,passive: True
-[LINE#106]The pattern seen in these Figures could be produced if all turbines (of whatever cohort) had an initial period of slow decline, followed by accelerating degradation as they become older.
+[LINE#129] The pattern seen in these Figures could be produced if all turbines (of whatever cohort) had an initial period of slow decline, followed by accelerating degradation as they become older.
 0.939	[*A*]all turbines (of whatever cohort[*R*]had[*A*]an initial period of slow decline	context()	negated: False ,passive: False
 0.956	[*A*]The pattern seen in these Figures[*R*]could be produced[*A*]if all turbines (of whatever cohort) had an initial period of slow decline, followed by accelerating degradation	context()	negated: False ,passive: True
 0.361	[*A*]they[*R*]become[*A*]older	context()	negated: False ,passive: True
 0.903	[*A*]The pattern[*R*]seen[*A*]in these Figures	context()	negated: False ,passive: True
-[LINE#107]Alternatively, it could be that advances in technology mean that recent turbines experience relatively little decline and will continue to do so in the future, whereas earlier models have declined relatively faster throughout their lives.
+[LINE#130] Alternatively, it could be that advances in technology mean that recent turbines experience relatively little decline and will continue to do so in the future, whereas earlier models have declined relatively faster throughout their lives.
 0.878	[*A*]recent turbines[*R*]experience[*A*]relatively little decline	context(it could be advances in technology mean)	negated: False ,passive: False
 0.822	[*A*]advances in technology[*R*]mean[*A*]that recent turbines experience relatively little decline and will continue to do so in the future	context(it could be)	negated: False ,passive: False
 0.271	[*A*]it[*R*]could be[*A*]that advances in technology mean that recent turbines experience relatively little decline and will continue to do so in the future	context()	negated: False ,passive: True
 0.835	[*A*]earlier models[*R*]have declined relatively faster[*A*]throughout their lives	context()	negated: False ,passive: True
-[LINE#108]As those early turbines were new in the 1990s their output is not available in our dataset, and so the experience of those years does not show up in Figs.
+[LINE#131] As those early turbines were new in the 1990s their output is not available in our dataset, and so the experience of those years does not show up in Figs.
 0.937	[*A*]the experience of those years[*R*]does not show up[*A*]in Figs	context()	negated: True ,passive: True
 0.716	[*A*]As those early turbines were new in the 1990 s their output[*R*]is not[*A*]available[*A*]in our dataset	context()	negated: True ,passive: True
 0.848	[*A*]those early turbines[*R*]were[*A*]new[*A*]in the 1990 s their output	context()	negated: False ,passive: True
-[LINE#109]If those early turbines had declined rapidly when new, the kink visible in these Figures would have been lessened or even removed.
+[LINE#132] If those early turbines had declined rapidly when new, the kink visible in these Figures would have been lessened or even removed.
 0.773	[*A*]the kink visible in these Figures[*R*]removed	context()	negated: False ,passive: False
 0.801	[*A*]the kink visible in these Figures[*R*]would have been lessened	context()	negated: False ,passive: False
 0.783	[*A*]those early turbines[*R*]had declined rapidly[*A*]when new	context()	negated: False ,passive: True
-[LINE#110]Although the improvement in WCLF decline rates seen in farms commissioned after 2003 is statistically significant, that is no guarantee that this result will still hold if we were to repeat this study in a few years' time.
+[LINE#133] Although the improvement in WCLF decline rates seen in farms commissioned after 2003 is statistically significant, that is no guarantee that this result will still hold if we were to repeat this study in a few years' time.
 0.904	[*A*]this result[*R*]will hold[*A*]if we were to repeat this study in a few years' time[*A*]still	context()	negated: False ,passive: False
 0.071	[*A*]that[*R*]is[*A*]no guarantee that this result will still hold	context()	negated: False ,passive: True
 0.880	[*A*]the improvement in WCLF decline rates[*R*]is[*A*]statistically significant	context()	negated: False ,passive: True
@@ -448,48 +448,48 @@
 0.605	[*A*]farms[*R*]commissioned[*A*]after 2003	context()	negated: False ,passive: True
 0.569	[*A*]we[*R*]were[*A*]to repeat this study in a few years' time	context()	negated: False ,passive: True
 0.933	[*A*]WCLF decline rates[*R*]seen[*A*]in farms	context()	negated: False ,passive: True
-[LINE#111]Based on this, and further analysis in Supplementary Section 5.5, we must conclude that even though the initial signs are good, more data are required before we could say for sure that modern turbines are declining less rapidly than earlier cohorts. .
+[LINE#134] Based on this, and further analysis in Supplementary Section 5.5, we must conclude that even though the initial signs are good, more data are required before we could say for sure that modern turbines are declining less rapidly than earlier cohorts. .
 0.678	[*A*]modern turbines[*R*]are declining less rapidly	context(we could say)	negated: False ,passive: False
 0.695	[*A*]more data[*R*]are required[*A*]before we could say for sure that modern turbines are declining less rapidly than earlier cohorts	context(we must conclude)	negated: False ,passive: True
 0.678	[*A*]modern turbines[*R*]are declining less rapidly	context(we could say)	negated: False ,passive: False
 0.236	[*A*]we[*R*]could say[*A*]that modern turbines are declining less rapidly than earlier cohorts	context()	negated: False ,passive: False
 0.695	[*A*]more data[*R*]are required[*A*]before we could say for sure that modern turbines are declining less rapidly than earlier cohorts	context(we must conclude)	negated: False ,passive: True
 0.168	[*A*]we[*R*]must conclude[*A*]that even though the initial signs are good , more data are required before we could say for sure that modern turbines are declining less rapidly than earlier cohorts	context()	negated: False ,passive: False
-[LINE#112]Wider impactsThe cumulative lifetime output of a 100 MW wind farm with a 28.5% load factor would be 4.99 TWh over 20 years.
+[LINE#135] Wider impactsThe cumulative lifetime output of a 100 MW wind farm with a 28.5% load factor would be 4.99 TWh over 20 years.
 0.973	[*A*]Wider impactsThe cumulative lifetime output of a 100 MW wind farm with a 28.5 % load factor[*R*]would be[*A*]over 4.99 twh	context()	negated: False ,passive: False
 0.998	[*A*]a 100 MW wind farm with a 28.5 % load factor[*R*]would have Wider impactsThe cumulative lifetime output of[*A*]over 4.99 twh	context()	negated: False ,passive: False
 0.985	[*A*]Wider impactsThe cumulative lifetime output of a 100 MW wind farm with a 28.5% load factor[*R*]would be[*A*]4.99 TWh over 20 years	context()	negated: False ,passive: True
-[LINE#113]If this farm suffers a linear annual deterioration of -0.41 points after the first year, its lifetime output reduces to 4.37 TWh, a fall of 12.5%.
+[LINE#136] If this farm suffers a linear annual deterioration of -0.41 points after the first year, its lifetime output reduces to 4.37 TWh, a fall of 12.5%.
 0.700	[*A*]its lifetime output[*R*]reduces[*A*]to 4.37 TWh	context()	negated: False ,passive: True
 0.903	[*A*]this farm[*R*]suffers[*A*]a linear annual deterioration of -0.41 points[*A*]after the first year	context()	negated: False ,passive: False
-[LINE#114]This will increase the cost of electricity from wind generators, as less electricity is produced to recover the costs of construction.
+[LINE#137] This will increase the cost of electricity from wind generators, as less electricity is produced to recover the costs of construction.
 0.732	[*A*]less electricity[*R*]is produced	context()	negated: False ,passive: False
 0.497	[*A*]This[*R*]will increase[*A*]the cost of electricity from wind generators[*A*]as less electricity is produced to recover the costs of construction	context()	negated: False ,passive: False
-[LINE#115]The economic value of the lost output is relatively low as it mostly occurs in the far future.
+[LINE#138] The economic value of the lost output is relatively low as it mostly occurs in the far future.
 0.411	[*A*]it[*R*]occurs[*A*]in the far future	context()	negated: False ,passive: True
 0.916	[*A*]The economic value of the lost output[*R*]is[*A*]relatively low[*A*]as it mostly occurs in the far future	context()	negated: False ,passive: True
-[LINE#116]With a discount rate of 10%, degradation increases the levelised cost of electricity by 9%, from approximately 90 [4,5] to 98 per MWh.
+[LINE#139] With a discount rate of 10%, degradation increases the levelised cost of electricity by 9%, from approximately 90 [4,5] to 98 per MWh.
 0.942	[*A*]degradation[*R*]increases[*A*]the levelised cost of electricity[*A*]by 9%[*A*]from approximately 90 [4,5] to 98 per MWh	context()	negated: False ,passive: False
-[LINE#117]This impact becomes greater if the economic lifetime increases or the discount rate decreases.
+[LINE#140] This impact becomes greater if the economic lifetime increases or the discount rate decreases.
 0.830	[*A*]the economic lifetime increases or the discount rate[*R*]decreases	context()	negated: False ,passive: False
 0.937	[*A*]This impact[*R*]becomes[*A*]greater[*A*]if the economic lifetime increases or the discount rate decreases	context()	negated: False ,passive: True
-[LINE#118]A second impact is that more capacity will need to be installed to produce a given level of output.
+[LINE#141] A second impact is that more capacity will need to be installed to produce a given level of output.
 0.824	[*A*]more capacity[*R*]will need to produce[*A*]a given level of output	context(A second impact is more capacity will need)	negated: False ,passive: False
 0.920	[*A*]more capacity[*R*]will need[*A*]to be installed to produce a given level of output	context(A second impact is)	negated: False ,passive: False
 0.793	[*A*]A second impact[*R*]is[*A*]that more capacity will need to be installed	context()	negated: False ,passive: True
 0.887	[*A*]more capacity[*R*]to be installed[*A*]to produce a given level of output	context()	negated: False ,passive: True
-[LINE#119]The UK has a target for energy production from renewable sources (15% of all final energy by 2020), as opposed to a target for peak capacity.
+[LINE#142] The UK has a target for energy production from renewable sources (15% of all final energy by 2020), as opposed to a target for peak capacity.
 0.177	[*A*]The UK[*R*]has a target of[*A*]15 %	context()	negated: False ,passive: False
 0.944	[*A*]The UK[*R*]has[*A*]a target for energy production from renewable sources	context()	negated: False ,passive: False
-[LINE#120]If turbine build rates peak in the coming years, the average age of the UK's wind farms will creep upwards, and so the output from a fixed capacity can be expected to decline.
+[LINE#143] If turbine build rates peak in the coming years, the average age of the UK's wind farms will creep upwards, and so the output from a fixed capacity can be expected to decline.
 0.897	[*A*]the average age of the UK's wind farms[*R*]will creep[*A*]upwards	context()	negated: False ,passive: False
 0.773	[*A*]the output from a fixed capacity[*R*]to decline	context()	negated: False ,passive: False
 0.911	[*A*]turbine build rates[*R*]peak[*A*]in the coming years	context()	negated: False ,passive: True
-[LINE#121]For every year the fleet ages, an additional 435 MW (4 large farms) would need to be brought online to maintain the original capacity of the UK's anticipated 30 GW fleet.
+[LINE#144] For every year the fleet ages, an additional 435 MW (4 large farms) would need to be brought online to maintain the original capacity of the UK's anticipated 30 GW fleet.
 0.944	[*A*]the fleet ages[*R*]to maintain[*A*]the original capacity of the UK's anticipated 30 GW fleet	context()	negated: False ,passive: False
 0.962	[*A*]an additional 435 MW[*R*]to be brought[*A*]online[*A*]to maintain the original capacity of the UK's anticipated 30 GW fleet	context()	negated: False ,passive: True
 0.951	[*A*]an additional 435 MW[*R*]would need[*A*]For every year	context()	negated: False ,passive: False
-[LINE#122]Its effects are inevitable for all kinds of machinery, reducing the efficiency, output and availability of steam and gas turbines, solar PV modules, batteries and automobiles alike.
+[LINE#145] Its effects are inevitable for all kinds of machinery, reducing the efficiency, output and availability of steam and gas turbines, solar PV modules, batteries and automobiles alike.
 0.638	[*A*]Its effects[*R*]are[*A*]inevitable[*A*]for all kinds of machinery[*A*]reducing the automobiles alike	context()	negated: False ,passive: True
 0.638	[*A*]Its effects[*R*]are[*A*]inevitable[*A*]for all kinds of machinery[*A*]reducing the batteries alike	context()	negated: False ,passive: True
 0.576	[*A*]Its effects[*R*]are[*A*]inevitable[*A*]for all kinds of machinery[*A*]reducing the	context(Its effects are inevitable for all kinds of machinery , reducing the modules alike)	negated: False ,passive: True
@@ -497,26 +497,26 @@
 0.638	[*A*]Its effects[*R*]are[*A*]inevitable[*A*]for all kinds of machinery[*A*]reducing the availability alike	context()	negated: False ,passive: True
 0.638	[*A*]Its effects[*R*]are[*A*]inevitable[*A*]for all kinds of machinery[*A*]reducing the output alike	context()	negated: False ,passive: True
 0.638	[*A*]Its effects[*R*]are[*A*]inevitable[*A*]for all kinds of machinery[*A*]reducing the efficiency alike	context()	negated: False ,passive: True
-[LINE#123]Previous work on wind turbines has considered the reliability of individual components and the effect of ageing on availability, but any impact on the energy production of turbines or farms has not been widely reported.
+[LINE#146] Previous work on wind turbines has considered the reliability of individual components and the effect of ageing on availability, but any impact on the energy production of turbines or farms has not been widely reported.
 0.856	[*A*]any impact on the energy production of turbines or farms[*R*]has not been widely reported	context()	negated: True ,passive: False
 0.952	[*A*]Previous work on wind turbines[*R*]has considered[*A*]the reliability of individual components and the effect of ageing on availability	context()	negated: False ,passive: False
-[LINE#124]If load factors (also known as capacity factors) decrease significantly with age, wind farms will produce a lower cumulative lifetime output, increasing the levelised cost of electricity from the plants.
+[LINE#147] If load factors (also known as capacity factors) decrease significantly with age, wind farms will produce a lower cumulative lifetime output, increasing the levelised cost of electricity from the plants.
 0.824	[*A*]wind farms[*R*]will produce a lower cumulative lifetime output increasing[*A*]the levelised cost of electricity from the plants	context(wind farms will produce)	negated: False ,passive: False
 0.878	[*A*]wind farms[*R*]will produce[*A*]a lower cumulative lifetime output[*A*]increasing the levelised cost of electricity from the plants	context()	negated: False ,passive: False
 0.805	[*A*]load factors (also known as capacity factors[*R*]decrease significantly	context()	negated: False ,passive: False
 0.913	[*A*]load factors[*R*]known[*A*]as capacity factors	context()	negated: False ,passive: True
-[LINE#125]If the rate of degradation were too great, it could become worthwhile to prematurely replace the turbines with new models, implying that the economic life of the turbine was shorter than its technical life, further increasing its cost.
+[LINE#148] If the rate of degradation were too great, it could become worthwhile to prematurely replace the turbines with new models, implying that the economic life of the turbine was shorter than its technical life, further increasing its cost.
 0.799	[*A*]the rate of degradation[*R*]were[*A*]too great	context()	negated: False ,passive: True
-[LINE#126]This could have significant policy implications for the desirability of investing in wind power, as argued in a recent report by Hughes for the Renewable Energy Foundation (REF) [1].
+[LINE#149] This could have significant policy implications for the desirability of investing in wind power, as argued in a recent report by Hughes for the Renewable Energy Foundation (REF) [1].
 0.543	[*A*]This[*R*]could have[*A*]significant policy implications for the desirability of investing in wind power[*A*]as argued in a recent report by Hughes for the Renewable Energy Foundation (REF) [1	context()	negated: False ,passive: False
-[LINE#127]That report suggested that the load factors of wind farms in the UK have declined by 5-13% per year, normalising for month-by-month variations in wind speeds.
+[LINE#150] That report suggested that the load factors of wind farms in the UK have declined by 5-13% per year, normalising for month-by-month variations in wind speeds.
 0.970	[*A*]the load factors of wind farms in the UK[*R*]have declined[*A*]by 5-13% per year[*A*]normalising for month-by-month variations in wind speeds	context(That report suggested)	negated: False ,passive: True
 0.840	[*A*]That report[*R*]suggested[*A*]that the load factors of wind farms in the UK have declined by 5-13% per year	context()	negated: False ,passive: False
 0.971	[*A*]the load factors of wind farms in the UK[*R*]normalising[*A*]for month-by-month variations in wind speeds	context()	negated: False ,passive: False
-[LINE#128]These findings could represent a significant hurdle for the wind industry, but they require replication.
+[LINE#151] These findings could represent a significant hurdle for the wind industry, but they require replication.
 0.616	[*A*]they[*R*]require[*A*]replication	context()	negated: False ,passive: False
 0.903	[*A*]These findings[*R*]could represent[*A*]a significant hurdle for the wind industry	context()	negated: False ,passive: False
-[LINE#129]Several factors can confound the relationship between age and observed output in a fleet of wind farms, given that a turbine's output is dependent on wind speeds at its site and the efficiency with which it captures the energy in that wind.
+[LINE#152] Several factors can confound the relationship between age and observed output in a fleet of wind farms, given that a turbine's output is dependent on wind speeds at its site and the efficiency with which it captures the energy in that wind.
 0.231	[*A*]it[*R*]captures[*A*]the energy[*A*]in that wind	context()	negated: False ,passive: False
 0.937	[*A*]a turbine 's output[*R*]is[*A*]dependent on wind speeds at the efficiency	context()	negated: False ,passive: True
 0.845	[*A*]Several factors[*R*]observed[*A*]output[*A*]in a fleet of wind farms[*A*]given that a turbine 's output is dependent on wind speeds at the efficiency	context()	negated: False ,passive: False
@@ -524,67 +524,67 @@
 0.891	[*A*]a turbine 's output[*R*]is[*A*]dependent on wind speeds at its site	context()	negated: False ,passive: True
 0.748	[*A*]Several factors[*R*]observed[*A*]output[*A*]in a fleet of wind farms[*A*]given that a turbine 's output is dependent on wind speeds at its site	context()	negated: False ,passive: False
 0.903	[*A*]Several factors[*R*]can confound[*A*]the relationship between age	context()	negated: False ,passive: False
-[LINE#130]For example, if wind speeds have fallen slightly over time, farms would have lower load factors in recent months, when they were at their oldest, giving a spurious correlation between age and poor performance.
+[LINE#153] For example, if wind speeds have fallen slightly over time, farms would have lower load factors in recent months, when they were at their oldest, giving a spurious correlation between age and poor performance.
 0.575	[*A*]they[*R*]giving[*A*]a spurious correlation between age and poor performance	context()	negated: False ,passive: False
 0.465	[*A*]they[*R*]were[*A*]at their oldest[*A*]giving a spurious correlation between age and poor performance	context()	negated: False ,passive: True
 0.791	[*A*]farms[*R*]would have[*A*]lower load factors[*A*]in recent months[*A*]when they were at their oldest, giving a spurious correlation between age and poor performance	context()	negated: False ,passive: False
 0.903	[*A*]wind speeds[*R*]have fallen[*A*]slightly[*A*]over time	context()	negated: False ,passive: True
-[LINE#131] If improvements in design increase a turbine's output relative to capacity (its power coefficient)then newer turbines (of the improved design) will have higher load factors than old turbines, so that turbine output appears to decline with age, when really it improves with newer generations.
+[LINE#154+155]  If improvements in design increase a turbine's output relative to capacity (its power coefficient)then newer turbines (of the improved design) will have higher load factors than old turbines, so that turbine output appears to decline with age, when really it improves with newer generations.
 0.677	[*A*]age[*R*]improves	context()	negated: False ,passive: False
 0.698	[*A*]turbine output[*R*]to decline	context()	negated: False ,passive: False
 0.732	[*A*]turbine output[*R*]appears	context()	negated: False ,passive: False
 0.911	[*A*]improvements in design[*R*]increase[*A*]a turbine's output[*A*]relative to capacity	context()	negated: False ,passive: False
-[LINE#132]On the other hand, if the best (windiest) sites were occupied first, then old farms could have higher load factors than new ones built on inferior sites, so that turbines would appear to improve with age.
+[LINE#156] On the other hand, if the best (windiest) sites were occupied first, then old farms could have higher load factors than new ones built on inferior sites, so that turbines would appear to improve with age.
 0.677	[*A*]turbines[*R*]to improve	context()	negated: False ,passive: False
 0.713	[*A*]turbines[*R*]would appear	context()	negated: False ,passive: False
 0.903	[*A*]new ones[*R*]built[*A*]on inferior sites	context()	negated: False ,passive: True
 0.943	[*A*]old farms[*R*]could have[*A*]higher load factors than new ones[*A*]then	context()	negated: False ,passive: False
 0.829	[*A*]the best (windiest) sites[*R*]were occupied[*A*]first	context()	negated: False ,passive: True
-[LINE#133]This paper uses public domain data to infer the hour-by-hour wind speeds at the site of every wind farm in the UK, and the power curve for each farm's model of turbine to estimate the output that they would ideally produce.
+[LINE#157] This paper uses public domain data to infer the hour-by-hour wind speeds at the site of every wind farm in the UK, and the power curve for each farm's model of turbine to estimate the output that they would ideally produce.
 0.884	[*A*]the output[*R*]would ideally produce[*A*]they	context()	negated: False ,passive: True
 0.947	[*A*]This paper[*R*]uses[*A*]public domain data[*A*]to infer the hour - by - hour wind speeds at the site of every wind farm in the UK	context()	negated: False ,passive: False
-[LINE#134]This technique corrects for the confounding factors (wind patterns, turbine model and site quality), and validates well for farms that report their half-hourly output to National Grid.
+[LINE#158] This technique corrects for the confounding factors (wind patterns, turbine model and site quality), and validates well for farms that report their half-hourly output to National Grid.
 0.903	[*A*]This technique[*R*]corrects[*A*]for the confounding factors	context()	negated: False ,passive: False
 0.706	[*A*]farms[*R*]report[*A*]their half - hourly output[*A*]to National Grid	context()	negated: False ,passive: False
 0.732	[*A*]This technique[*R*]validates well	context()	negated: False ,passive: False
-[LINE#135]Simulated ideal outputs are compared with actual monthly load factors from a large portion of the UK's fleet over the last decade (282 wind farms, 4.5 GW, 53 TWh), yielding the normalised performance of each wind farm accounting for its wind resource availability, and a set of weather-corrected load factors which reveal the effects of ageing.
+[LINE#159] Simulated ideal outputs are compared with actual monthly load factors from a large portion of the UK's fleet over the last decade (282 wind farms, 4.5 GW, 53 TWh), yielding the normalised performance of each wind farm accounting for its wind resource availability, and a set of weather-corrected load factors which reveal the effects of ageing.
 0.913	[*A*]weather - corrected load factors[*R*]reveal[*A*]the effects of ageing	context()	negated: False ,passive: False
 0.933	[*A*]282 wind farms[*R*]yielding[*A*]the normalised performance of a set of weather - corrected load factors	context()	negated: False ,passive: False
 0.848	[*A*]each wind farm[*R*]accounting[*A*]for its wind resource availability	context()	negated: False ,passive: False
 0.897	[*A*]282 wind farms[*R*]yielding[*A*]the normalised performance of each wind farm	context()	negated: False ,passive: False
 0.952	[*A*]Simulated ideal outputs[*R*]are compared[*A*]with actual monthly load factors from a large portion of the UK 's fleet over the last decade	context()	negated: False ,passive: True
-[LINE#136]We measure the level of age-related degradation at the national level, accounting for the vintage of turbine and local site conditions at each wind farm.
+[LINE#160] We measure the level of age-related degradation at the national level, accounting for the vintage of turbine and local site conditions at each wind farm.
 0.409	[*A*]We[*R*]measure the level of age - related degradation at the national level accounting[*A*]for the vintage of local site conditions at each wind farm	context(We measure)	negated: False ,passive: False
 0.301	[*A*]We[*R*]measure the level of age - related degradation at the national level accounting[*A*]for the vintage of turbine	context(We measure)	negated: False ,passive: False
 0.514	[*A*]We[*R*]measure[*A*]the level of age - related degradation at the national level	context()	negated: False ,passive: False
-[LINE#137]We test different generations of technology and individual wind farms to confirm that specific units experienced similar declines in performance.
+[LINE#161] We test different generations of technology and individual wind farms to confirm that specific units experienced similar declines in performance.
 0.878	[*A*]specific units[*R*]experienced[*A*]similar declines in performance	context(We test to confirm)	negated: False ,passive: False
 0.188	[*A*]We[*R*]test different generations of individual wind farms to confirm[*A*]that specific units experienced similar declines in performance	context(We test)	negated: False ,passive: False
 0.330	[*A*]We[*R*]test[*A*]different generations of individual wind farms[*A*]to confirm that specific units experienced similar declines in performance	context()	negated: False ,passive: False
 0.878	[*A*]specific units[*R*]experienced[*A*]similar declines in performance	context(We test to confirm)	negated: False ,passive: False
 0.188	[*A*]We[*R*]test different generations of technology to confirm[*A*]that specific units experienced similar declines in performance	context(We test)	negated: False ,passive: False
 0.330	[*A*]We[*R*]test[*A*]different generations of technology[*A*]to confirm that specific units experienced similar declines in performance	context()	negated: False ,passive: False
-[LINE#138]We find the ageing effect to be present, but much smaller than predicted by Hughes, in line with experience of other rotating machinery.
+[LINE#162] We find the ageing effect to be present, but much smaller than predicted by Hughes, in line with experience of other rotating machinery.
 0.783	[*A*]the ageing effect[*R*]to be[*A*]present	context()	negated: False ,passive: True
 0.637	[*A*]We[*R*]find[*A*]the ageing effect to be present , in line with experience of other rotating machinery	context()	negated: False ,passive: False
-[LINE#139]The specific causes of this performance loss and their relative contribution are not considered in this paper, although an overview of potential reasons is given in the discussion and conclusions.
+[LINE#163] The specific causes of this performance loss and their relative contribution are not considered in this paper, although an overview of potential reasons is given in the discussion and conclusions.
 0.821	[*A*]The specific causes of their relative contribution[*R*]are not considered[*A*]in this paper[*A*]although an overview of potential reasons is given in the conclusions	context()	negated: True ,passive: True
 0.821	[*A*]The specific causes of their relative contribution[*R*]are not considered[*A*]in this paper[*A*]although an overview of potential reasons is given in the discussion	context()	negated: True ,passive: True
 0.926	[*A*]an overview of potential reasons[*R*]is given[*A*]in the conclusions	context()	negated: False ,passive: True
 0.960	[*A*]The specific causes of this performance loss[*R*]are not considered[*A*]in this paper[*A*]although an overview of potential reasons is given in the conclusions	context()	negated: True ,passive: True
 0.926	[*A*]an overview of potential reasons[*R*]is given[*A*]in the discussion	context()	negated: False ,passive: True
 0.960	[*A*]The specific causes of this performance loss[*R*]are not considered[*A*]in this paper[*A*]although an overview of potential reasons is given in the discussion	context()	negated: True ,passive: True
-[LINE#140]Due to the amount of data and processing required for this study we provide online supplementary material which documents our sources and their validation in greater depth, along with downloadable datasets of UK wind farms and their energy output histories.
+[LINE#164] Due to the amount of data and processing required for this study we provide online supplementary material which documents our sources and their validation in greater depth, along with downloadable datasets of UK wind farms and their energy output histories.
 0.825	[*A*]online supplementary material[*R*]documents[*A*]our sources and their validation[*A*]in greater depth	context()	negated: False ,passive: False
 0.463	[*A*]we[*R*]provide[*A*]online supplementary material which documents our sources and their validation in greater depth, along with downloadable datasets of UK wind farms and their energy output histories	context()	negated: False ,passive: False
 0.911	[*A*]data and processing[*R*]required[*A*]for this study	context()	negated: False ,passive: True
-[LINE#141]Previous studiesAll machinery experiences an unrecoverable loss in performance over time.
+[LINE#165] Previous studiesAll machinery experiences an unrecoverable loss in performance over time.
 0.911	[*A*]Previous studiesAll machinery[*R*]experiences[*A*]an unrecoverable loss in performance over time	context()	negated: False ,passive: False
-[LINE#142]Gas turbine efficiency suffers an unrecoverable decline of 0.3-0.6% per year despite regular washing and component replacement, or by 0.75-2.25% without [2].
+[LINE#166] Gas turbine efficiency suffers an unrecoverable decline of 0.3-0.6% per year despite regular washing and component replacement, or by 0.75-2.25% without [2].
 0.957	[*A*]Gas turbine efficiency[*R*]suffers[*A*]an unrecoverable decline of 0.3-0.6% per year[*A*]despite regular washing and component replacement, or by 0.75-2.25% without [2	context()	negated: False ,passive: False
-[LINE#143]Similarly, the output of solar photovoltaic panels declines by 0.5% per year on average [3].
-[LINE#144]This loss in performance is not routinely accounted for in studies of the levelised cost of electricity (LCOE) of wind power.
-[LINE#145]Recent studies by Mott MacDonald, Parsons Brinckerhoff and Arup accounted for the efficiency of conventional plants falling by 0.15-0.55% per year, but omitted any such factor for wind turbines [4-6].Previous studies of wind turbines have focussed on availability and reliability [7-9].
+[LINE#167] Similarly, the output of solar photovoltaic panels declines by 0.5% per year on average [3].
+[LINE#168] This loss in performance is not routinely accounted for in studies of the levelised cost of electricity (LCOE) of wind power.
+[LINE#169] Recent studies by Mott MacDonald, Parsons Brinckerhoff and Arup accounted for the efficiency of conventional plants falling by 0.15-0.55% per year, but omitted any such factor for wind turbines [4-6].Previous studies of wind turbines have focussed on availability and reliability [7-9].
 0.909	[*A*]Previous studies of wind turbines[*R*]have focussed[*A*]on reliability	context()	negated: False ,passive: False
 0.925	[*A*]Recent studies by Arup[*R*]accounted[*A*]for the efficiency of conventional plants	context(Previous studies of wind turbines have focussed)	negated: False ,passive: False
 0.931	[*A*]Recent studies by Parsons Brinckerhoff[*R*]accounted[*A*]for the efficiency of conventional plants	context(Previous studies of wind turbines have focussed)	negated: False ,passive: False
@@ -594,18 +594,18 @@
 0.882	[*A*]Recent studies[*R*]omitted[*A*]any such factor for wind turbines	context()	negated: False ,passive: False
 0.882	[*A*]Recent studies[*R*]omitted[*A*]any such factor for wind turbines	context(Previous studies of wind turbines have focussed)	negated: False ,passive: False
 0.909	[*A*]Previous studies of wind turbines[*R*]have focussed[*A*]on availability	context()	negated: False ,passive: False
-[LINE#146]There appear to be no long term fleet-level studies into loss of output from wind farms in open literature.
+[LINE#170] There appear to be no long term fleet-level studies into loss of output from wind farms in open literature.
 0.062	[*A*]There[*R*]appear	context()	negated: False ,passive: False
-[LINE#147]Regardless of technology, quantifying performance degradation is difficult because consistent and validated field data is hard to obtain [2].
+[LINE#171] Regardless of technology, quantifying performance degradation is difficult because consistent and validated field data is hard to obtain [2].
 0.956	[*A*]quantifying performance degradation[*R*]is[*A*]difficult[*A*]because validated field data is hard to obtain [ 2	context()	negated: False ,passive: True
 0.956	[*A*]quantifying performance degradation[*R*]is[*A*]difficult[*A*]because consistent field data is hard to obtain [ 2	context()	negated: False ,passive: True
-[LINE#148]The recent study by Hughes [1] is therefore significant, in that we believe it is the first to attempt to estimate the rate of decline in wind farm load factors on a national scale.
+[LINE#172] The recent study by Hughes [1] is therefore significant, in that we believe it is the first to attempt to estimate the rate of decline in wind farm load factors on a national scale.
 0.628	[*A*]the first[*R*]to attempt to estimate[*A*]the rate of decline in wind farm load factors on a national scale	context(the first to attempt)	negated: False ,passive: False
 0.628	[*A*]the first[*R*]to attempt[*A*]to estimate the rate of decline in wind farm load factors on a national scale	context()	negated: False ,passive: False
 0.584	[*A*]it[*R*]is[*A*]the first to attempt to estimate the rate of decline in wind farm load factors on a national scale	context(we believe)	negated: False ,passive: True
 0.264	[*A*]we[*R*]believe[*A*]it is the first	context()	negated: False ,passive: False
 0.890	[*A*]The recent study by Hughes [1[*R*]is[*A*]therefore significant	context()	negated: False ,passive: True
-[LINE#149]Hughes analysed over 10 years of operating data from the British and Danish fleets of turbines, finding rates of performance degradation that are much higher than for other technologies, and which vary remarkably between the UK and Denmark, and between onshore and offshore turbines.
+[LINE#173] Hughes analysed over 10 years of operating data from the British and Danish fleets of turbines, finding rates of performance degradation that are much higher than for other technologies, and which vary remarkably between the UK and Denmark, and between onshore and offshore turbines.
 0.771	[*A*]Hughes[*R*]analysed over 10 years of operating data from the Danish fleets of turbines finding[*A*]rates of performance degradation that are much higher than for other technologies , and which vary between offshore turbines	context(Hughes analysed)	negated: False ,passive: False
 0.771	[*A*]Hughes[*R*]analysed over 10 years of operating data from the Danish fleets of turbines finding[*A*]rates of performance degradation that are much higher than for other technologies , and which vary between onshore turbines	context(Hughes analysed)	negated: False ,passive: False
 0.771	[*A*]Hughes[*R*]analysed over 10 years of operating data from the British fleets of turbines finding[*A*]rates of performance degradation that are much higher than for other technologies , and which vary between offshore turbines	context(Hughes analysed)	negated: False ,passive: False
@@ -619,48 +619,48 @@
 0.802	[*A*]Hughes[*R*]analysed over 10 years of operating data from the British fleets of turbines finding[*A*]rates of performance degradation that are much higher than for other technologies , and which vary remarkably between the UK and Denmark	context(Hughes analysed)	negated: False ,passive: False
 0.934	[*A*]Hughes[*R*]analysed[*A*]over 10 years of operating data from the British fleets of turbines[*A*]finding rates of performance degradation	context()	negated: False ,passive: False
 0.898	[*A*]rates of performance degradation that are much higher than for other technologies , and[*R*]vary[*A*]remarkably	context()	negated: False ,passive: True
-[LINE#150]This was based on econometric analysis of monthly load factors, using a regression which corrected for the quality of each wind farm's location, the monthly variation in national wind conditions, and the age of each farm.
+[LINE#174] This was based on econometric analysis of monthly load factors, using a regression which corrected for the quality of each wind farm's location, the monthly variation in national wind conditions, and the age of each farm.
 0.381	[*A*]This[*R*]was based[*A*]on econometric analysis of monthly load factors	context()	negated: False ,passive: True
 0.698	[*A*]a regression[*R*]corrected	context()	negated: False ,passive: False
 0.381	[*A*]This[*R*]was based[*A*]on econometric analysis of monthly load factors[*A*]using a regression	context()	negated: False ,passive: True
-[LINE#151]Hughes argues (and shows mathematically) that accounting for monthly wind conditions with a set of 'fixed effects' determined by the regression is econometrically superior to using a measure of average wind speeds across the country, since site-specific conditions differ from the national average and the output of wind turbines depends non-linearly on the wind speed at every moment in time, which is very poorly captured by its average over a month.
+[LINE#175] Hughes argues (and shows mathematically) that accounting for monthly wind conditions with a set of 'fixed effects' determined by the regression is econometrically superior to using a measure of average wind speeds across the country, since site-specific conditions differ from the national average and the output of wind turbines depends non-linearly on the wind speed at every moment in time, which is very poorly captured by its average over a month.
 0.887	[*A*]fixed effects[*R*]determined[*A*]by the regression	context()	negated: False ,passive: True
 0.838	[*A*]every moment in time[*R*]is very poorly captured[*A*]by its average[*A*]over a month	context()	negated: False ,passive: True
 0.974	[*A*]that accounting for monthly wind conditions with a set of 'fixed effects[*R*]is[*A*]econometrically superior to using a measure of average wind speeds across the country	context(Hughes shows mathematically)	negated: False ,passive: True
 0.785	[*A*]Hughes[*R*]shows mathematically[*A*]that accounting for monthly wind conditions with a set of 'fixed effects' determined by the regression is econometrically superior to using a measure of average wind speeds across the country	context()	negated: False ,passive: False
 0.771	[*A*]Hughes[*R*]argues	context()	negated: False ,passive: False
-[LINE#152]We therefore use wind speed data with high temporal and spatial resolution, and measure the performance of wind farms by estimating their theoretical potential output over the course of a month and comparing this with the actual reported load factors.
+[LINE#176] We therefore use wind speed data with high temporal and spatial resolution, and measure the performance of wind farms by estimating their theoretical potential output over the course of a month and comparing this with the actual reported load factors.
 0.452	[*A*]We[*R*]measure[*A*]the performance of wind farms	context()	negated: False ,passive: False
 0.411	[*A*]We[*R*]use[*A*]wind speed data with high spatial resolution	context()	negated: False ,passive: False
 0.411	[*A*]We[*R*]use[*A*]wind speed data with high temporal resolution	context()	negated: False ,passive: False
-[LINE#153]While we believe we are the first researchers to assess wind farm performance with this kind of ex-post data, a number of papers present techniques to estimate output levels from time series of wind data.
+[LINE#177] While we believe we are the first researchers to assess wind farm performance with this kind of ex-post data, a number of papers present techniques to estimate output levels from time series of wind data.
 0.514	[*A*]we[*R*]are[*A*]the first researchers to assess wind farm performance with this kind of ex-post data, a number of papers present techniques to estimate output levels from time series of wind data.	context(we believe)	negated: False ,passive: True
 0.264	[*A*]we[*R*]believe[*A*]we are the first researchers	context()	negated: False ,passive: False
 0.911	[*A*]the first researchers[*R*]to assess[*A*]wind farm performance with this kind of ex-post data	context()	negated: False ,passive: False
-[LINE#154]Many studies have used hourly wind speed data recorded by met masts; for example investigations into wind variability by Pyry [10] and SKM [11], and estimates of future national output by Green et al.
+[LINE#178] Many studies have used hourly wind speed data recorded by met masts; for example investigations into wind variability by Pyry [10] and SKM [11], and estimates of future national output by Green et al.
 0.956	[*A*]hourly wind speed data[*R*]recorded[*A*]by met masts ; for example investigations into wind variability by SKM [ 11	context()	negated: False ,passive: True
 0.947	[*A*]Many studies[*R*]have used[*A*]hourly wind speed data recorded by met masts ; for example investigations into wind variability by SKM [ 11 ][*A*]met masts	context()	negated: False ,passive: False
 0.956	[*A*]hourly wind speed data[*R*]recorded[*A*]by met masts ; for example investigations into wind variability by Pyry [ 10 ] [ 11	context()	negated: False ,passive: True
 0.947	[*A*]Many studies[*R*]have used[*A*]hourly wind speed data recorded by met masts ; for example investigations into wind variability by Pyry [ 10 ] [ 11 ][*A*]met masts	context()	negated: False ,passive: False
 0.956	[*A*]hourly wind speed data[*R*]recorded[*A*]by met masts ; estimates of future national output by Green et al	context()	negated: False ,passive: True
 0.947	[*A*]Many studies[*R*]have used[*A*]hourly wind speed data recorded by met masts ; estimates of future national output by Green et al[*A*]met masts	context()	negated: False ,passive: False
-[LINE#155][12,13] and Sturt and Strbac [14].
-[LINE#156]Hourly met mast speeds have been directly compared to metered wind farm load factors in Northern Spain [15] and Scotland [16], showing that accurate estimates can be made for monthly energy generation, but not for hourly power outputs.
+[LINE#179] [12,13] and Sturt and Strbac [14].
+[LINE#180] Hourly met mast speeds have been directly compared to metered wind farm load factors in Northern Spain [15] and Scotland [16], showing that accurate estimates can be made for monthly energy generation, but not for hourly power outputs.
 0.918	[*A*]mast speeds[*R*]have been directly compared[*A*]to metered wind farm load factors in Northern Spain	context()	negated: False ,passive: True
-[LINE#157]More recent studies use reanalyses as a source of wind speed data: atmospheric boundary layer models which process physical observations from met masts and other sources into a coherent and spatially complete dataset, and are widely used to produce wind atlases.
+[LINE#181] More recent studies use reanalyses as a source of wind speed data: atmospheric boundary layer models which process physical observations from met masts and other sources into a coherent and spatially complete dataset, and are widely used to produce wind atlases.
 0.905	[*A*]atmospheric boundary layer models[*R*]process[*A*]physical observations from other sources	context()	negated: False ,passive: False
 0.905	[*A*]atmospheric boundary layer models[*R*]process[*A*]physical observations from met masts	context()	negated: False ,passive: False
-[LINE#158][17] were first to compare the European ERA-40 reanalysis to nacelle measurements of wind speed and power output at two turbines in Hungary, finding "surprisingly good" agreement.
+[LINE#182] [17] were first to compare the European ERA-40 reanalysis to nacelle measurements of wind speed and power output at two turbines in Hungary, finding "surprisingly good" agreement.
 0.661	[*A*]17[*R*]were[*A*]first[*A*]to compare the European ERA - 40 reanalysis to nacelle measurements of power output at two turbines in Hungary	context()	negated: False ,passive: True
 0.661	[*A*]17[*R*]were[*A*]first[*A*]to compare the European ERA - 40 reanalysis to nacelle measurements of wind speed at two turbines in Hungary	context()	negated: False ,passive: True
-[LINE#159][18] were able to replicate UK monthly load factors using a custom reanalysis model, while Kubik et al.
+[LINE#183] [18] were able to replicate UK monthly load factors using a custom reanalysis model, while Kubik et al.
 0.549	[*A*]18[*R*]were[*A*]able to replicate UK monthly load factors	context()	negated: False ,passive: True
-[LINE#160][19] compared the global NASA reanalysis to half-hourly farm output in Northern Ireland, finding it to be more accurate than met mast data.
+[LINE#184] [19] compared the global NASA reanalysis to half-hourly farm output in Northern Ireland, finding it to be more accurate than met mast data.
 0.398	[*A*]19[*R*]compared[*A*]the global NASA reanalysis[*A*]to half-hourly farm output in Northern Ireland[*A*]finding it to be more accurate	context()	negated: False ,passive: False
-[LINE#161]The first practical application appears to have been made by Ofgem to estimate the equivalent firm capacity of the UK's wind fleet during winter peaks in demand [20].
+[LINE#185] The first practical application appears to have been made by Ofgem to estimate the equivalent firm capacity of the UK's wind fleet during winter peaks in demand [20].
 0.949	[*A*]The first practical application[*R*]to have been made[*A*]by Ofgem[*A*]to estimate the equivalent firm capacity of the UK's wind fleet during winter peaks in demand [20	context()	negated: False ,passive: True
 0.769	[*A*]The first practical application[*R*]appears	context()	negated: False ,passive: False
-[LINE#162]Both Hawkins and Ofgem noted that the reanalysis outputs need to be scaled down by a constant factor (29% and 20% respectively) in order to match actual production in the UK, a finding which we elaborate upon in this paper.
+[LINE#186] Both Hawkins and Ofgem noted that the reanalysis outputs need to be scaled down by a constant factor (29% and 20% respectively) in order to match actual production in the UK, a finding which we elaborate upon in this paper.
 0.929	[*A*]the reanalysis outputs[*R*]need[*A*]to be scaled down by a constant factor ( 20 % respectively	context(Ofgem noted)	negated: False ,passive: False
 0.843	[*A*]Ofgem[*R*]noted[*A*]that the reanalysis outputs need to be scaled down by a constant factor ( 20 % respectively ) in order	context()	negated: False ,passive: False
 0.929	[*A*]the reanalysis outputs[*R*]need[*A*]to be scaled down by a constant factor ( 29 % ) in order	context(Ofgem noted)	negated: False ,passive: False
@@ -672,18 +672,18 @@
 0.856	[*A*]Both Hawkins[*R*]noted[*A*]that the reanalysis outputs need to be scaled down by a constant factor ( 29 % ) in order	context()	negated: False ,passive: False
 0.887	[*A*]a finding[*R*]elaborate[*A*]upon[*A*]in this paper	context()	negated: False ,passive: True
 0.897	[*A*]the reanalysis outputs[*R*]to be scaled[*A*]down[*A*]by a constant factor[*A*]in order	context()	negated: False ,passive: True
-[LINE#163] Simulated wind speedsThe average monthly wind speed at UK onshore wind farms was estimated to be 7.5 1.5 m/s at the location and hub height of each farm, which average 62 m above ground.
+[LINE#187+188]  Simulated wind speedsThe average monthly wind speed at UK onshore wind farms was estimated to be 7.5 1.5 m/s at the location and hub height of each farm, which average 62 m above ground.
 0.929	[*A*]onshore wind farms[*R*]was estimated[*A*]to be 7.5 1.5 m/s at the location and hub height of each farm	context(Simulated wind speedsThe)	negated: False ,passive: True
 0.882	[*A*]Simulated wind[*R*]speedsThe[*A*]average monthly wind speed	context()	negated: False ,passive: False
 0.962	[*A*]7.5 1.5 m/s at the location and hub height of each farm[*R*]average[*A*]62 m above ground	context()	negated: False ,passive: True
 0.933	[*A*]onshore wind farms[*R*]to be[*A*]7.5 1.5 m/s at the location and hub height of each farm, which average 62 m above ground	context()	negated: False ,passive: True
-[LINE#164]This average speed has experienced a slight decline over the last 12 years, although the trend is not statistically significant (-0.23  0.37 m/s per decade).
+[LINE#189] This average speed has experienced a slight decline over the last 12 years, although the trend is not statistically significant (-0.23  0.37 m/s per decade).
 0.767	[*A*]the trend[*R*]is not[*A*]statistically significant	context()	negated: True ,passive: True
 0.943	[*A*]This average speed[*R*]has experienced[*A*]a slight decline over the last 12 years[*A*]although the trend is not statistically significant (-0.23  0.37 m/s per decade	context()	negated: False ,passive: False
-[LINE#165]7 shows the correlation between the simulated monthly NASA wind speeds, averaged overall operating sites, and the national average load factors reported to Ofgem.
+[LINE#190] 7 shows the correlation between the simulated monthly NASA wind speeds, averaged overall operating sites, and the national average load factors reported to Ofgem.
 0.937	[*A*]the national average load factors[*R*]reported[*A*]to Ofgem	context()	negated: False ,passive: False
 0.495	[*A*]7[*R*]shows[*A*]the correlation between the simulated monthly NASA wind speeds	context()	negated: False ,passive: False
-[LINE#166]The correlation is very high as the simulation is able to represent the actual sites of generation and the evolution of this site population over time, reaffirming the strong linear relationship between speed and output at monthly resolution.
+[LINE#191] The correlation is very high as the simulation is able to represent the actual sites of generation and the evolution of this site population over time, reaffirming the strong linear relationship between speed and output at monthly resolution.
 0.887	[*A*]the simulation[*R*]to represent[*A*]the evolution of this site population[*A*]over time	context()	negated: False ,passive: False
 0.952	[*A*]the simulation[*R*]is[*A*]able to represent the evolution of this site population over time	context()	negated: False ,passive: True
 0.952	[*A*]The correlation[*R*]is[*A*]very high[*A*]as the simulation is able to represent the evolution of this site population over time	context()	negated: False ,passive: True
@@ -691,21 +691,21 @@
 0.927	[*A*]the simulation[*R*]to represent[*A*]the actual sites of generation , reaffirming the strong linear relationship between speed and output at monthly resolution	context()	negated: False ,passive: False
 0.925	[*A*]the simulation[*R*]is[*A*]able to represent the actual sites of generation	context()	negated: False ,passive: True
 0.952	[*A*]The correlation[*R*]is[*A*]very high[*A*]as the simulation is able to represent the actual sites of generation	context()	negated: False ,passive: True
-[LINE#167] The correlation between monthly average speed and reported load factor is also high for individual wind farms (averaging 0.84), as shown in Supplementary Fig.12.If performance declines with wind farm age, we would expect the reported load factor to fall relative to the simulated wind speed over the sample period.
+[LINE#192+193]  The correlation between monthly average speed and reported load factor is also high for individual wind farms (averaging 0.84), as shown in Supplementary Fig.12.If performance declines with wind farm age, we would expect the reported load factor to fall relative to the simulated wind speed over the sample period.
 0.988	[*A*]The correlation between monthly average speed and reported load factor is also high for individual wind farms (averaging 0.84), as shown in Supplementary Fig.12.If performance declines with wind farm age, we would expect the reported load factor[*R*]to fall[*A*]relative to the simulated wind speed[*A*]over the sample period	context(we would expect)	negated: False ,passive: True
 0.504	[*A*]we[*R*]would expect[*A*]the reported load factor to fall relative to the simulated wind speed over the sample period	context()	negated: False ,passive: False
 0.754	[*A*]individual wind farms[*R*]averaging[*A*]0.84	context()	negated: False ,passive: True
 0.950	[*A*]load factor[*R*]is[*A*]also[*A*]high for individual wind farms[*A*]as shown in Supplementary Fig.12.If performance declines with wind farm age	context(The correlation between monthly average speed reported)	negated: False ,passive: True
 0.947	[*A*]The correlation between monthly average speed[*R*]reported[*A*]load factor is also high for individual wind farms (averaging 0.84), as shown in Supplementary Fig.12.If performance declines with wind farm age	context()	negated: False ,passive: False
-[LINE#168]This is in fact the case although it is hard to see in Fig. 7, because so many new farms have been built that the average age of the UK fleet has only risen only from 4.8 to 7.2 years between 2002 and 2012.
+[LINE#194] This is in fact the case although it is hard to see in Fig. 7, because so many new farms have been built that the average age of the UK fleet has only risen only from 4.8 to 7.2 years between 2002 and 2012.
 0.945	[*A*]the average age of the UK fleet[*R*]has risen[*A*]only from 4.8 to 7.2 years between 2002 and 2012	context(so many new farms have been built)	negated: False ,passive: True
 0.726	[*A*]so many new farms[*R*]have been built	context()	negated: False ,passive: False
 0.238	[*A*]This[*R*]is[*A*]in fact[*A*]the case[*A*]although it is hard to see in Fig[*A*]because so many new farms have been built that the average age of the UK fleet has only risen only from 4.8 to 7.2 years between 2002 and 2012	context()	negated: False ,passive: True
-[LINE#169]The degradation rates derived below imply that this would reduce the fleet's average load factor by only 1 percentage point..
+[LINE#195] The degradation rates derived below imply that this would reduce the fleet's average load factor by only 1 percentage point..
 0.330	[*A*]this[*R*]would reduce[*A*]the fleet's average load factor[*A*]by only 1 percentage point	context(The degradation rates derived below imply)	negated: False ,passive: False
 0.854	[*A*]The degradation rates derived below[*R*]imply[*A*]that this would reduce the fleet's average load factor by only 1 percentage point	context()	negated: False ,passive: False
 0.783	[*A*]The degradation rates[*R*]derived[*A*]below	context()	negated: False ,passive: True
-[LINE#170]Ideal load factor and performance ratioThe ideal load factors derived from these wind speeds ignore a number of factors that will reduce the actual output attained by a wind farm at the given location and hub height.
+[LINE#196] Ideal load factor and performance ratioThe ideal load factors derived from these wind speeds ignore a number of factors that will reduce the actual output attained by a wind farm at the given location and hub height.
 0.907	[*A*]ideal load factors derived from these wind speeds[*R*]ignore[*A*]a number of factors that will reduce the actual output	context()	negated: False ,passive: False
 0.911	[*A*]ideal load factors[*R*]derived[*A*]from these wind speeds	context()	negated: False ,passive: True
 0.713	[*A*]performance[*R*]ratioThe	context()	negated: False ,passive: False
@@ -715,7 +715,7 @@
 0.939	[*A*]a number of factors[*R*]will reduce[*A*]the actual output attained by a wind farm at the given location	context()	negated: False ,passive: False
 0.922	[*A*]Ideal load factor load factors derived from these wind speeds[*R*]ignore[*A*]a number of factors that will reduce the actual output	context()	negated: False ,passive: False
 0.926	[*A*]Ideal load factor load factors[*R*]derived[*A*]from these wind speeds	context()	negated: False ,passive: True
-[LINE#171] Three are well-understood:1.Machine availability: analysis of national fleets suggests 4-7% downtime for farms and the electrical infrastructure they rely upon [9,30], which translates to an 11% reduction in energy output as turbines on average fail in windier than average conditions [31];2.Operating efficiency: sub-optimal control systems, misaligned components and electrical losses within the farm are found to reduce output by 2% in well-performing field installations relative to the turbine's supplied power curve [30];3.Wake effects: wind farms suffer from power loss as interactions between neighbouring turbines increase turbulence and reduce wind speeds; for relatively small (up to 20 turbine) onshore farms estimates are in the region of 5-15% [25,32-35];and two are less well understood:4.Turbine ageing: based on the findings from Fig.(and presented later in this paper), energy output from the UK's fleet is 7.5% lower than it would be for a fleet of the same turbines as-new, due to their average age being 5.9 years across the sample period33In practice ageing is not a separate issue from availability and efficiency, as these likely fall over a turbine's lifetime from the as-new values listed in points 1 and 2, producing the ageing effect that we observe.;5.Site conditions: imperfections in a turbine's surroundings are not considered in our model; for example: turbulence intensity, terrain slope, blockage effects, blade fouling (by dirt, ice, insects, etc.), or masking by surrounding terrain.
+[LINE#197+198+199]  Three are well-understood:1.Machine availability: analysis of national fleets suggests 4-7% downtime for farms and the electrical infrastructure they rely upon [9,30], which translates to an 11% reduction in energy output as turbines on average fail in windier than average conditions [31];2.Operating efficiency: sub-optimal control systems, misaligned components and electrical losses within the farm are found to reduce output by 2% in well-performing field installations relative to the turbine's supplied power curve [30];3.Wake effects: wind farms suffer from power loss as interactions between neighbouring turbines increase turbulence and reduce wind speeds; for relatively small (up to 20 turbine) onshore farms estimates are in the region of 5-15% [25,32-35];and two are less well understood:4.Turbine ageing: based on the findings from Fig.(and presented later in this paper), energy output from the UK's fleet is 7.5% lower than it would be for a fleet of the same turbines as-new, due to their average age being 5.9 years across the sample period33In practice ageing is not a separate issue from availability and efficiency, as these likely fall over a turbine's lifetime from the as-new values listed in points 1 and 2, producing the ageing effect that we observe.;5.Site conditions: imperfections in a turbine's surroundings are not considered in our model; for example: turbulence intensity, terrain slope, blockage effects, blade fouling (by dirt, ice, insects, etc.), or masking by surrounding terrain.
 0.660	[*A*]their average age[*R*]being[*A*]5.9 years across the sample period33	context()	negated: False ,passive: True
 0.919	[*A*]interactions between neighbouring turbines[*R*]increase[*A*]turbulence	context()	negated: False ,passive: False
 0.569	[*A*]it[*R*]would be[*A*]for a fleet of the same turbines as-new	context()	negated: False ,passive: True
@@ -732,7 +732,7 @@
 0.734	[*A*]the sample period33[*R*]is not[*A*]a separate issue from availability and efficiency[*A*]as these likely fall over a turbine's lifetime from the as-new values listed in points 1 and 2, producing the ageing effect that we observe.;5.Site conditions: imperfections in a turbine's surroundings are not considered in our model	context()	negated: True ,passive: True
 0.381	[*A*]two[*R*]are[*A*]less well understood:4.Turbine ageing	context()	negated: False ,passive: True
 0.894	[*A*]the ageing effect[*R*]observe[*A*]we	context()	negated: False ,passive: True
-[LINE#172] These impacts are highly site specific and hard to quantify with a single factor, with the only source we found estimating that they reduce output by 2-5%, plus 1% per 3% increase in turbulence intensity [36].Combiningthe first four terms, we could expect the ratio of observed to ideal load factors to be 0.890.980.900.925 = 0.725.
+[LINE#200+201]  These impacts are highly site specific and hard to quantify with a single factor, with the only source we found estimating that they reduce output by 2-5%, plus 1% per 3% increase in turbulence intensity [36].Combiningthe first four terms, we could expect the ratio of observed to ideal load factors to be 0.890.980.900.925 = 0.725.
 0.878	[*A*]These impacts[*R*]are[*A*]hard to quantify with a single factor	context(we could expect)	negated: False ,passive: True
 0.397	[*A*]we[*R*]found estimating[*A*]1 % per 3 % increase in turbulence intensity	context(we found)	negated: False ,passive: False
 0.562	[*A*]they[*R*]reduce[*A*]output[*A*]by 2-5 %	context(we found estimating)	negated: False ,passive: False
@@ -749,111 +749,111 @@
 0.112	[*A*]we[*R*]found estimating[*A*]that they reduce output by 2-5 %	context(we found)	negated: False ,passive: False
 0.878	[*A*]These impacts[*R*]are[*A*]highly site specific to quantify with a single factor	context(we found)	negated: False ,passive: True
 0.112	[*A*]we[*R*]found[*A*]estimating that they reduce output by 2-5 %	context()	negated: False ,passive: False
-[LINE#173]We call this metric the Performance Ratio (PR), which is analogous to availability, except it deals with output rather than uptime.
+[LINE#202] We call this metric the Performance Ratio (PR), which is analogous to availability, except it deals with output rather than uptime.
 0.452	[*A*]it[*R*]deals[*A*]with uptime	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]deals[*A*]with output	context()	negated: False ,passive: False
 0.940	[*A*]the Performance Ratio[*R*]is[*A*]analogous to availability	context()	negated: False ,passive: True
 0.568	[*A*]We[*R*]call[*A*]this metric[*A*]the Performance Ratio	context()	negated: False ,passive: False
-[LINE#174]Fig. 8 plots the relationship between actual and ideal load factors, showing that the performance ratio is unbiased across the range of simulated wind conditions.
+[LINE#203] Fig. 8 plots the relationship between actual and ideal load factors, showing that the performance ratio is unbiased across the range of simulated wind conditions.
 0.916	[*A*]the performance ratio[*R*]is[*A*]unbiased across the range of simulated wind conditions	context(actual and ideal load factors showing)	negated: False ,passive: True
 0.831	[*A*]actual and ideal load factors[*R*]showing[*A*]that the performance ratio is unbiased across the range of simulated wind conditions	context()	negated: False ,passive: False
-[LINE#175]Based on the simulated wind speeds and the model of turbine installed at each farm, the ideal load factor of UK onshore wind farms should average 38.4%, whereas the mean observed load factor for these farms from 2002 to 12 has been 26.3%.
+[LINE#204] Based on the simulated wind speeds and the model of turbine installed at each farm, the ideal load factor of UK onshore wind farms should average 38.4%, whereas the mean observed load factor for these farms from 2002 to 12 has been 26.3%.
 0.903	[*A*]the mean[*R*]observed[*A*]load factor[*A*]from 2002	context()	negated: False ,passive: False
 0.976	[*A*]the ideal load factor of UK onshore wind farms[*R*]should average[*A*]38.4%[*A*]whereas the mean observed load factor for these farms from 2002 to 12	context()	negated: False ,passive: True
 0.919	[*A*]the model of turbine[*R*]installed[*A*]at each farm	context()	negated: False ,passive: True
-[LINE#176]The average performance ratio of the farms is therefore 68  19%, confirming previous work from Ref.
+[LINE#205] The average performance ratio of the farms is therefore 68  19%, confirming previous work from Ref.
 0.973	[*A*]The average performance ratio of the farms[*R*]is[*A*]68 19 %	context()	negated: False ,passive: False
 0.998	[*A*]the farms[*R*]have The average performance ratio of[*A*]68 19 %	context()	negated: False ,passive: False
 0.960	[*A*]The average performance ratio of the farms[*R*]is[*A*]therefore 68  19%[*A*]confirming previous work from Ref	context()	negated: False ,passive: True
-[LINE#177][18] which found that a scale factor of 0.69 gave good correlation between load factors derived from a custom reanalysis and the Ofgem ROC data.
+[LINE#206] [18] which found that a scale factor of 0.69 gave good correlation between load factors derived from a custom reanalysis and the Ofgem ROC data.
 0.905	[*A*]a scale factor of 0.69[*R*]gave[*A*]good correlation between load factors	context(18 found)	negated: False ,passive: False
 0.313	[*A*]18[*R*]found[*A*]that a scale factor of 0.69 gave good correlation between load factors	context()	negated: False ,passive: False
 0.918	[*A*]load factors[*R*]derived[*A*]from a custom reanalysis and the Ofgem ROC data	context()	negated: False ,passive: True
-[LINE#178]This result does not imply that UK wind farms produce only two-thirds of what they ought to, for the ideal yield represents a hypothetical turbine sited on perfectly flat and smooth terrain, several kilometres from other turbines, foliage or buildings.
+[LINE#207] This result does not imply that UK wind farms produce only two-thirds of what they ought to, for the ideal yield represents a hypothetical turbine sited on perfectly flat and smooth terrain, several kilometres from other turbines, foliage or buildings.
 0.853	[*A*]UK wind farms[*R*]produce[*A*]only two-thirds of what they ought	context(This result does not imply)	negated: False ,passive: False
 0.733	[*A*]This result[*R*]does not imply[*A*]that UK wind farms produce only two-thirds of what they ought	context()	negated: True ,passive: False
 0.911	[*A*]a hypothetical turbine[*R*]sited[*A*]on perfectly flat and smooth terrain	context()	negated: False ,passive: True
-[LINE#179]The real-world factors 1-4 listed above suggest that a performance ratio of 0.725 should be expected, which leaves a reduction of 4 percentage points (6%) attributable to the specific site conditions for UK turbines.
+[LINE#208] The real-world factors 1-4 listed above suggest that a performance ratio of 0.725 should be expected, which leaves a reduction of 4 percentage points (6%) attributable to the specific site conditions for UK turbines.
 0.745	[*A*]a performance ratio of 0.725[*R*]should be expected	context(The real - world factors 1-4 listed above suggest)	negated: False ,passive: False
 0.904	[*A*]The real-world factors 1-4 listed above[*R*]suggest[*A*]that a performance ratio of 0.725 should be expected, which leaves a reduction of 4 percentage points (6%) attributable to the specific site conditions for UK turbines	context()	negated: False ,passive: False
 0.788	[*A*]The real-world factors[*R*]listed[*A*]above	context()	negated: False ,passive: True
-[LINE#180]-corrected load factorsCombining the observed and ideal load factor data allows us to calculate a weather-corrected load factor (WCLFf,t) for every observation, giving a time series for each farm that should not be affected by wind conditions changing from month to month.
+[LINE#209] -corrected load factorsCombining the observed and ideal load factor data allows us to calculate a weather-corrected load factor (WCLFf,t) for every observation, giving a time series for each farm that should not be affected by wind conditions changing from month to month.
 0.887	[*A*]each farm[*R*]should not be affected[*A*]by wind conditions	context()	negated: True ,passive: True
 0.903	[*A*]wind conditions[*R*]changing[*A*]from month[*A*]to month	context()	negated: False ,passive: True
 0.894	[*A*]load[*R*]factorsCombining[*A*]the observed and ideal load factor data	context()	negated: False ,passive: False
-[LINE#181]The actual load factor (LFf,t) for a given farm (f) and month (t) is divided by the ratio of its ideal load factor (ILFf,t) for that month to the farm's mean ideal load factor over the entire 2002-12 period (whether or not the farm existed throughout the whole period), as in Eq.
+[LINE#210] The actual load factor (LFf,t) for a given farm (f) and month (t) is divided by the ratio of its ideal load factor (ILFf,t) for that month to the farm's mean ideal load factor over the entire 2002-12 period (whether or not the farm existed throughout the whole period), as in Eq.
 0.891	[*A*]The actual load factor (LFf,t) for a given farm (f) and month[*R*]is divided[*A*]by the ratio of its ideal load factor[*A*]for that month[*A*]over the entire 2002-12 period	context()	negated: False ,passive: True
-[LINE#182]This can be simplified to the performance ratio (PR) for each month multiplied by the farm's average ILF.(3) WCLFf,t=LFf,t(ILFf,tILFf)=PRf,tILFfThe WCLF represents what a particular farm would have produced each month if wind conditions followed their long-term mean distribution.
+[LINE#211] This can be simplified to the performance ratio (PR) for each month multiplied by the farm's average ILF.(3) WCLFf,t=LFf,t(ILFf,tILFf)=PRf,tILFfThe WCLF represents what a particular farm would have produced each month if wind conditions followed their long-term mean distribution.
 0.877	[*A*]a particular farm[*R*]would have produced[*A*]each month[*A*]if wind conditions followed their long-term mean distribution	context(tILFfThe WCLF represents)	negated: False ,passive: False
 0.291	[*A*]This[*R*]can be simplified[*A*]for each month	context(tILFfThe WCLF represents)	negated: False ,passive: True
 0.819	[*A*]tILFfThe WCLF[*R*]represents[*A*]what a particular farm would have produced each month if wind conditions followed their long-term mean distribution	context()	negated: False ,passive: False
 0.835	[*A*]wind conditions[*R*]followed[*A*]their long-term mean distribution	context()	negated: False ,passive: True
 0.918	[*A*]each month[*R*]multiplied[*A*]by the farm's average ILF	context()	negated: False ,passive: True
-[LINE#183]As with the uncorrected load factors, the absolute value encompasses the available wind resource, the quality of the local site conditions, and the turbine model installed, but the variation over time is no longer dominated by seasonal weather patterns.
+[LINE#212] As with the uncorrected load factors, the absolute value encompasses the available wind resource, the quality of the local site conditions, and the turbine model installed, but the variation over time is no longer dominated by seasonal weather patterns.
 0.929	[*A*]the variation over time[*R*]is dominated[*A*]by seasonal weather patterns[*A*]no longer	context()	negated: False ,passive: True
 0.878	[*A*]the quality of the local site conditions, and the turbine model[*R*]installed	context()	negated: False ,passive: False
 0.911	[*A*]the absolute value[*R*]encompasses[*A*]the available wind resource	context()	negated: False ,passive: False
-[LINE#184]9a: removing the weather noise reveals a gradual decline in this farm's conversion efficacy, and allows periods of low availability to be easily identified.
+[LINE#213] 9a: removing the weather noise reveals a gradual decline in this farm's conversion efficacy, and allows periods of low availability to be easily identified.
 0.727	[*A*]periods of low availability[*R*]to be easily identified	context(removing the weather allows)	negated: False ,passive: False
 0.891	[*A*]removing the weather[*R*]allows[*A*]periods of low availability to be easily identified	context()	negated: False ,passive: False
 0.919	[*A*]removing the weather noise[*R*]reveals[*A*]a gradual decline in this farm 's conversion efficacy	context()	negated: False ,passive: False
-[LINE#185]9b shows the WCLF averaged across all farms of a given age (in months), revealing the aggregate level of degradation without the need for smoothing.
+[LINE#214] 9b shows the WCLF averaged across all farms of a given age (in months), revealing the aggregate level of degradation without the need for smoothing.
 0.893	[*A*]the WCLF[*R*]averaged[*A*]across all farms of a given age[*A*]in months[*A*]revealing the aggregate level of degradation without the need for smoothing	context(9b shows)	negated: False ,passive: True
 0.558	[*A*]9b[*R*]shows[*A*]the WCLF averaged across all farms of a given age (in months	context()	negated: False ,passive: False
-[LINE#186]The reduction in scatter reduces the uncertainty on this degradation rate from 0.04 when using nominal load factors (as in Fig. 2), to 0.01 points per year.
+[LINE#215] The reduction in scatter reduces the uncertainty on this degradation rate from 0.04 when using nominal load factors (as in Fig. 2), to 0.01 points per year.
 0.931	[*A*]The reduction in scatter[*R*]reduces[*A*]the uncertainty on this degradation rate[*A*]when using nominal load factors (as in Fig[*A*]to 0.01 points per year	context()	negated: False ,passive: False
-[LINE#187]Weather correction is notoriously difficult and has the potential to skew results as it makes large changes in the month-to-month load factor values.
+[LINE#216] Weather correction is notoriously difficult and has the potential to skew results as it makes large changes in the month-to-month load factor values.
 0.569	[*A*]it[*R*]makes[*A*]large changes in the month - to - month load factor values	context()	negated: False ,passive: False
 0.938	[*A*]Weather[*R*]has[*A*]the potential to skew results	context()	negated: False ,passive: False
 0.855	[*A*]Weather correction[*R*]is[*A*]notoriously difficult	context()	negated: False ,passive: True
-[LINE#188] We find this correction procedure to be unbiased with wind speed (as in Fig.2 and 9b shows that it has almost no effect on the fleet-average degradation rate (a change of 0.01 points per year).
+[LINE#217+218]  We find this correction procedure to be unbiased with wind speed (as in Fig.2 and 9b shows that it has almost no effect on the fleet-average degradation rate (a change of 0.01 points per year).
 0.295	[*A*]We[*R*]find[*A*]this correction procedure to be unbiased with wind speed ([*A*]as in 9b shows that it has almost no effect on the fleet - average degradation rate	context()	negated: False ,passive: False
 0.911	[*A*]this correction procedure[*R*]to be[*A*]unbiased with wind speed	context()	negated: False ,passive: True
 0.637	[*A*]We[*R*]find[*A*]this correction procedure to be unbiased with wind speed (	context()	negated: False ,passive: False
-[LINE#189] The distribution of WCLF decline rates at individual farms exhibits little change from that of the unmodified load factors presented in Fig.3b, averaging -0.45 instead of -0.48 points per year for farms with more than ten years of data.
-[LINE#190]As we find in Supplementary Section 5.3, the weather correction process can clean up the short-term fluctuations without having a systematic effect on the long-term trends. .
+[LINE#219+220]  The distribution of WCLF decline rates at individual farms exhibits little change from that of the unmodified load factors presented in Fig.3b, averaging -0.45 instead of -0.48 points per year for farms with more than ten years of data.
+[LINE#221] As we find in Supplementary Section 5.3, the weather correction process can clean up the short-term fluctuations without having a systematic effect on the long-term trends. .
 0.929	[*A*]the weather correction process[*R*]can clean up[*A*]the short-term fluctuations[*A*]As we find in Supplementary Section 5.3	context()	negated: False ,passive: False
 0.568	[*A*]we[*R*]find[*A*]in Supplementary Section 5.3	context()	negated: False ,passive: False
-[LINE#191]Technology improvement over generationsHaving rejected the idea that an underlying change in national wind speeds has distorted the results, we look at the evolution of the population of turbines.
+[LINE#222] Technology improvement over generationsHaving rejected the idea that an underlying change in national wind speeds has distorted the results, we look at the evolution of the population of turbines.
 0.924	[*A*]an underlying change in national wind speeds[*R*]has distorted[*A*]the results	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]look[*A*]at the evolution of the population of turbines	context()	negated: False ,passive: False
 0.900	[*A*]Technology improvement over generationsHaving[*R*]rejected[*A*]the idea that an underlying change in national wind speeds has distorted the results	context()	negated: False ,passive: False
-[LINE#192]The oldest farms in our sample are the earliest to have been built, using (presumably) the worst technology, and hence are likely to have the lowest load factors.
+[LINE#223] The oldest farms in our sample are the earliest to have been built, using (presumably) the worst technology, and hence are likely to have the lowest load factors.
 0.478	[*A*]The oldest farms in our sample[*R*]are[*A*]the earliest to have been built ,	context()	negated: False ,passive: True
 0.279	[*A*]the earliest[*R*]to have been built	context()	negated: False ,passive: False
 0.722	[*A*]The oldest farms in our sample[*R*]are[*A*]the earliest to have been built[*A*]using ( presumably ) the worst technology	context()	negated: False ,passive: True
-[LINE#193]10 shows the individual degradation rate for each farm against the year it began operating, for all farms with more than 5 years of data.
+[LINE#224] 10 shows the individual degradation rate for each farm against the year it began operating, for all farms with more than 5 years of data.
 0.170	[*A*]it[*R*]operating	context()	negated: False ,passive: False
 0.569	[*A*]it[*R*]began[*A*]operating, for all farms with more than 5 years of data	context()	negated: False ,passive: False
 0.580	[*A*]10[*R*]shows[*A*]the individual degradation rate for each farm against the year it began operating, for all farms with more than 5 years of data	context()	negated: False ,passive: False
-[LINE#194]Bubble size is proportional to capacity, bubble colour represents the number of observations, and horizontal bars depict the standard error on each decline rate.
+[LINE#225] Bubble size is proportional to capacity, bubble colour represents the number of observations, and horizontal bars depict the standard error on each decline rate.
 0.903	[*A*]horizontal bars[*R*]depict[*A*]the standard error on each decline rate	context()	negated: False ,passive: False
 0.908	[*A*]Bubble size[*R*]is[*A*]proportional to capacity	context(bubble colour represents)	negated: False ,passive: True
 0.882	[*A*]bubble colour[*R*]represents[*A*]the number of observations	context()	negated: False ,passive: False
-[LINE#195]Black lines show the best fit to the data using a capacity-weighted loess regression, showing the central estimate and the range that covers 95% of observations.
+[LINE#226] Black lines show the best fit to the data using a capacity-weighted loess regression, showing the central estimate and the range that covers 95% of observations.
 0.640	[*A*]Black lines[*R*]show the best fit to the data showing[*A*]the range that covers 95 % of observations	context(Black lines show)	negated: False ,passive: False
 0.887	[*A*]the range[*R*]covers[*A*]95 % of observations	context()	negated: False ,passive: True
 0.830	[*A*]Black lines[*R*]show the best fit to the data showing[*A*]the central estimate	context(Black lines show)	negated: False ,passive: False
 0.908	[*A*]Black lines[*R*]show[*A*]the best fit to the data	context()	negated: False ,passive: False
 0.903	[*A*]the data[*R*]using[*A*]a capacity - weighted loess regression	context()	negated: False ,passive: False
-[LINE#196]The central fit to the raw load factors in Fig. 10a has a mean of -0.50  0.07 points per year of operation, and although it shows noticeable variation between start years there is no long term trend.
+[LINE#227] The central fit to the raw load factors in Fig. 10a has a mean of -0.50  0.07 points per year of operation, and although it shows noticeable variation between start years there is no long term trend.
 0.997	[*A*]10a[*R*]has a mean of[*A*]-0.50 0.07 points per year	context()	negated: False ,passive: False
 0.467	[*A*]it[*R*]shows[*A*]noticeable variation between start years	context()	negated: False ,passive: False
 0.961	[*A*]10a[*R*]has[*A*]a mean of -0.50  0.07 points per year of operation	context()	negated: False ,passive: False
-[LINE#197]A few modern farms have seen increasing load factors over the first few years of their lives, but this is offset by the majority having declining outputs.
+[LINE#228] A few modern farms have seen increasing load factors over the first few years of their lives, but this is offset by the majority having declining outputs.
 0.903	[*A*]the majority[*R*]having[*A*]declining outputs	context()	negated: False ,passive: False
 0.381	[*A*]this[*R*]is offset[*A*]by the majority	context()	negated: False ,passive: True
 0.831	[*A*]A few modern farms[*R*]have seen increasing[*A*]load factors[*A*]over the first few years of their lives	context(A few modern farms have seen)	negated: False ,passive: False
 0.887	[*A*]A few modern farms[*R*]have seen[*A*]increasing load factors over the first few years of their lives	context()	negated: False ,passive: False
-[LINE#198] Correcting for the weather in Fig.10b greatly reduces the uncertainty on individual farms and the scatter between them.
+[LINE#229+230]  Correcting for the weather in Fig.10b greatly reduces the uncertainty on individual farms and the scatter between them.
 0.895	[*A*]Correcting for the weather in Fig.10b[*R*]reduces[*A*]the uncertainty on the scatter between them	context()	negated: False ,passive: False
 0.940	[*A*]Correcting for the weather in Fig.10b[*R*]reduces[*A*]the uncertainty on individual farms	context()	negated: False ,passive: False
-[LINE#199]It also reduces the mean decline rate to -0.36  0.05 points overall farms.
+[LINE#231] It also reduces the mean decline rate to -0.36  0.05 points overall farms.
 0.411	[*A*]It[*R*]reduces[*A*]the mean decline rate	context()	negated: False ,passive: False
-[LINE#200]This decline rate appears stable until 2002, after which it reduces for more recently commissioned turbines.
+[LINE#232] This decline rate appears stable until 2002, after which it reduces for more recently commissioned turbines.
 0.452	[*A*]it[*R*]reduces[*A*]for more recently commissioned turbines	context()	negated: False ,passive: False
 0.823	[*A*]This decline rate[*R*]appears[*A*]until 2002[*A*]after which it reduces for more recently commissioned turbines	context()	negated: False ,passive: True
-[LINE#201] Farms built before 2003 have an average decline rate of -0.49  0.05 points per year, whereas those built afterwards average -0.16 impact of weather correction is strongest on the farms commissioned most recently as they have the fewest years of data, and so the noise introduced by year-on-year variations in wind speed is strongest.
+[LINE#233+234]  Farms built before 2003 have an average decline rate of -0.49  0.05 points per year, whereas those built afterwards average -0.16 impact of weather correction is strongest on the farms commissioned most recently as they have the fewest years of data, and so the noise introduced by year-on-year variations in wind speed is strongest.
 0.997	[*A*]Farms built before 2003[*R*]have an average decline rate of[*A*]-0.49 0.05 points per year	context()	negated: False ,passive: False
 0.767	[*A*]the farms[*R*]commissioned[*A*]most recently	context()	negated: False ,passive: True
 0.936	[*A*]those built afterwards average -0.16 impact of weather correction[*R*]is[*A*]strongest on the farms[*A*]as they have the fewest years of data	context()	negated: False ,passive: True
@@ -862,75 +862,75 @@
 0.948	[*A*]Farms built before 2003[*R*]have[*A*]an average decline rate of -0.49  0.05 points per year	context()	negated: False ,passive: False
 0.616	[*A*]they[*R*]have[*A*]the fewest years of data	context()	negated: False ,passive: False
 0.605	[*A*]Farms[*R*]built[*A*]before 2003	context()	negated: False ,passive: True
-[LINE#202]This is most evident in the group of farms commissioned after 2003 which were pulled downwards by the low wind speeds experienced in 2010, and so see a notable improvement in Fig. 10b compared to a. .
+[LINE#235] This is most evident in the group of farms commissioned after 2003 which were pulled downwards by the low wind speeds experienced in 2010, and so see a notable improvement in Fig. 10b compared to a. .
 0.799	[*A*]the low wind speeds[*R*]experienced[*A*]in 2010	context()	negated: False ,passive: True
 0.503	[*A*]2003[*R*]were pulled[*A*]downwards[*A*]by the low wind speeds	context()	negated: False ,passive: True
 0.799	[*A*]the group of farms[*R*]commissioned[*A*]after 2003	context()	negated: False ,passive: True
 0.449	[*A*]This[*R*]is[*A*]most evident[*A*]in the group of farms[*A*]compared to a.	context()	negated: False ,passive: True
-[LINE#203] Full regression of national fleet performanceFour systematic factors determine the actual output of a wind farm:wind speeds at the site, the quality of individual turbine locations (with regards to turbulence and masking), the model of turbine installed and age-related deterioration of performance.
+[LINE#236+237+238]  Full regression of national fleet performanceFour systematic factors determine the actual output of a wind farm:wind speeds at the site, the quality of individual turbine locations (with regards to turbulence and masking), the model of turbine installed and age-related deterioration of performance.
 0.903	[*A*]systematic factors[*R*]determine[*A*]the actual output of a wind farm:wind speeds	context()	negated: False ,passive: False
 0.769	[*A*]the model of turbine[*R*]installed	context()	negated: False ,passive: False
 0.937	[*A*]systematic factors[*R*]determine[*A*]the actual output of a wind farm:wind speeds at the site	context()	negated: False ,passive: False
-[LINE#204]Other factors, such as the number of turbines suffering faults in a given month or undergoing planned maintenance, are less systematic.
+[LINE#239] Other factors, such as the number of turbines suffering faults in a given month or undergoing planned maintenance, are less systematic.
 0.845	[*A*]Other factors, such as the number of turbines[*R*]are[*A*]less systematic	context()	negated: False ,passive: True
 0.939	[*A*]Other factors, such as the number of turbines[*R*]undergoing[*A*]planned maintenance	context()	negated: False ,passive: True
 0.894	[*A*]turbines[*R*]suffering[*A*]faults[*A*]in a given month	context()	negated: False ,passive: False
-[LINE#205]As demonstrated by Hughes in Ref.
-[LINE#206][1], it is possible to separate the impact of turbine ageing from these other factors by using an error components model with fixed effects.
-[LINE#207]The observed load factor, LFf,t, of wind farm f in month t is estimated by least squares regression against the ideal load factor, ILFf,t, with fixed effects for each site, sf, and age of the turbine, Af,t, minimising the sum of the squares of the error component, f,t, as in Eq.
+[LINE#240] As demonstrated by Hughes in Ref.
+[LINE#241] [1], it is possible to separate the impact of turbine ageing from these other factors by using an error components model with fixed effects.
+[LINE#242] The observed load factor, LFf,t, of wind farm f in month t is estimated by least squares regression against the ideal load factor, ILFf,t, with fixed effects for each site, sf, and age of the turbine, Af,t, minimising the sum of the squares of the error component, f,t, as in Eq.
 0.938	[*A*]the turbine[*R*]minimising[*A*]the sum of the squares of the error component, f,t, as in Eq	context()	negated: False ,passive: False
 0.988	[*A*]The observed load factor, LFf,t, of wind farm f in month t is estimated by least squares[*R*]regression[*A*]against the ideal load factor	context()	negated: False ,passive: False
 0.948	[*A*]t, of wind farm f in month t[*R*]is estimated[*A*]by least squares	context()	negated: False ,passive: True
-[LINE#208]+ILFf,t+sf+Af,t+f,tThe fixed effects (sf and Af,t) are the freeform equivalent of a linear trend.
+[LINE#243] +ILFf,t+sf+Af,t+f,tThe fixed effects (sf and Af,t) are the freeform equivalent of a linear trend.
 0.955	[*A*]+ILFf , t+sf+Af , t+f , Af , t[*R*]are[*A*]the freeform equivalent of a linear trend	context()	negated: False ,passive: True
 0.955	[*A*]+ILFf , t+sf+Af , t+f , tThe fixed effects[*R*]are[*A*]the freeform equivalent of a linear trend	context()	negated: False ,passive: True
-[LINE#209]A numeric constant is determined for each site by the regression to control for any farm-specific factors which affect the actual wind speeds experienced at the site relative to the NASA estimates.
+[LINE#244] A numeric constant is determined for each site by the regression to control for any farm-specific factors which affect the actual wind speeds experienced at the site relative to the NASA estimates.
 0.931	[*A*]the actual wind speeds[*R*]experienced[*A*]at the site relative to the NASA estimates	context()	negated: False ,passive: True
 0.953	[*A*]any farm-specific factors[*R*]affect[*A*]the actual wind speeds experienced at the site relative to the NASA estimates	context()	negated: False ,passive: False
 0.911	[*A*]A numeric constant[*R*]is determined[*A*]for each site[*A*]by the regression	context()	negated: False ,passive: True
-[LINE#210]Similarly, constant modifiers are determined for each age of turbine (in years) to assess the impact of ageing.
+[LINE#245] Similarly, constant modifiers are determined for each age of turbine (in years) to assess the impact of ageing.
 0.887	[*A*]constant modifiers[*R*]to assess[*A*]the impact of ageing	context()	negated: False ,passive: False
 0.903	[*A*]constant modifiers[*R*]are determined[*A*]for each age of turbine	context()	negated: False ,passive: True
-[LINE#211]A linear or quadratic regression against age would not capture complex non-linear behaviour, and so ageing can be better understood through fixed effects.
+[LINE#246] A linear or quadratic regression against age would not capture complex non-linear behaviour, and so ageing can be better understood through fixed effects.
 0.619	[*A*]ageing[*R*]can be understood	context()	negated: False ,passive: False
 0.938	[*A*]A linear or quadratic regression against age[*R*]would not capture[*A*]complex non-linear behaviour	context()	negated: True ,passive: False
-[LINE#212] For it to be possible to solve this model, the fixed effect for one site (chosen at random) is held constant at zero, as is the effect for turbines aged 1, which together act as the referencepoint.44In the results presented, the performance of Shooters Bottom (in Somerset) aged 1 is used as a reference.
+[LINE#247+248]  For it to be possible to solve this model, the fixed effect for one site (chosen at random) is held constant at zero, as is the effect for turbines aged 1, which together act as the referencepoint.44In the results presented, the performance of Shooters Bottom (in Somerset) aged 1 is used as a reference.
 0.950	[*A*]the performance of Shooters Bottom (in Somerset[*R*]is used[*A*]as a reference	context()	negated: False ,passive: True
 0.735	[*A*]one site[*R*]chosen[*A*]at random	context()	negated: False ,passive: True
 0.342	[*A*]1[*R*]together act[*A*]as the referencepoint.44In the results	context()	negated: False ,passive: False
 0.713	[*A*]turbines[*R*]aged	context()	negated: False ,passive: False
-[LINE#213]In the model chosen by Hughes [1], the site fixed effects had to account for the model of turbine as well as local site conditions, and period fixed effects were used for each observation month to account for available wind resource (but with the same impact on every farm in that month).
+[LINE#249] In the model chosen by Hughes [1], the site fixed effects had to account for the model of turbine as well as local site conditions, and period fixed effects were used for each observation month to account for available wind resource (but with the same impact on every farm in that month).
 0.905	[*A*]the site fixed effects[*R*]to account[*A*]for the local site conditions	context()	negated: False ,passive: False
 0.848	[*A*]the site fixed effects[*R*]to account[*A*]for the model of turbine but with the same impact on every farm in that month	context()	negated: False ,passive: False
 0.918	[*A*]the model[*R*]chosen[*A*]by Hughes [ 1	context()	negated: False ,passive: True
 0.857	[*A*]period fixed effects[*R*]were used[*A*]for each observation month[*A*]to account for available wind resource ( but with the same impact on every farm in that month	context()	negated: False ,passive: True
-[LINE#214]In our model, the systematic effect of location-specific wind speeds and turbine model are both incorporated in the ideal load factor data, while the site dummy variables measure the extent to which each farm's surroundings and layout systematically give it more or less wind than the simulation predicts.
+[LINE#250] In our model, the systematic effect of location-specific wind speeds and turbine model are both incorporated in the ideal load factor data, while the site dummy variables measure the extent to which each farm's surroundings and layout systematically give it more or less wind than the simulation predicts.
 0.732	[*A*]the simulation[*R*]predicts	context()	negated: False ,passive: False
 0.882	[*A*]each farm's surroundings and layout[*R*]systematically give[*A*]it[*A*]more or less wind than the simulation predicts	context()	negated: False ,passive: False
 0.919	[*A*]the site dummy variables[*R*]measure[*A*]the extent	context()	negated: False ,passive: False
 0.947	[*A*]the systematic effect of location-specific wind speeds and turbine model[*R*]incorporated[*A*]in the ideal load factor data[*A*]while the site dummy variables measure the extent to which each farm's surroundings and layout systematically give it more or less wind	context()	negated: False ,passive: True
 0.969	[*A*]the systematic effect of location-specific wind speeds and turbine model[*R*]are[*A*]incorporated in the ideal load factor data[*A*]while the site dummy variables measure the extent to which each farm's surroundings and layout systematically give it more or less wind[*A*]In our model	context()	negated: False ,passive: True
-[LINE#215]The error term picks up the unsystematic factors affecting each observation.
+[LINE#251] The error term picks up the unsystematic factors affecting each observation.
 0.911	[*A*]the unsystematic factors[*R*]affecting[*A*]each observation	context()	negated: False ,passive: False
 0.911	[*A*]The error term[*R*]picks up[*A*]the unsystematic factors affecting each observation	context()	negated: False ,passive: False
-[LINE#216] The regression produced a constant offset of  = -1.634  1.529 percentage points of load factor55This is made up from the offset relative to the reference farm plus the average of all farm site effectsand an estimated coefficient on the ideal load factor of  = 0.755  0.003.
+[LINE#252+253+254]  The regression produced a constant offset of  = -1.634  1.529 percentage points of load factor55This is made up from the offset relative to the reference farm plus the average of all farm site effectsand an estimated coefficient on the ideal load factor of  = 0.755  0.003.
 0.896	[*A*]a constant offset of  = -1.634  1.529 percentage points of load factor55This[*R*]is made up	context(The regression produced)	negated: False ,passive: False
 0.935	[*A*]The regression[*R*]produced[*A*]a constant offset of  = -1.634  1.529 percentage points of load factor55This is made up from the offset relative to the reference farm plus the average of all farm site effectsand an estimated coefficient on the ideal load factor of  = 0.755  0.003	context()	negated: False ,passive: False
 0.956	[*A*]the average of all farm site[*R*]effectsand[*A*]an estimated coefficient on the ideal load factor of  = 0.755  0.003	context()	negated: False ,passive: False
-[LINE#217]This coefficient is above our average performance ratio of 68% as it is for one-year-old wind farms, and the age effects show that performance declines over time.
+[LINE#255] This coefficient is above our average performance ratio of 68% as it is for one-year-old wind farms, and the age effects show that performance declines over time.
 0.833	[*A*]the age effects[*R*]show[*A*]that performance declines over time	context()	negated: False ,passive: False
 0.522	[*A*]it[*R*]is[*A*]for one-year-old wind farms	context()	negated: False ,passive: True
 0.870	[*A*]This coefficient[*R*]is[*A*]above our average performance ratio of 68%	context()	negated: False ,passive: True
-[LINE#218]This model, which uses a highly specific wind resource assessment, provides a better fit to the observed data than using period fixed effects, giving an R2 of 0.802 compared to 0.657 attained in Ref.
+[LINE#256] This model, which uses a highly specific wind resource assessment, provides a better fit to the observed data than using period fixed effects, giving an R2 of 0.802 compared to 0.657 attained in Ref.
 0.590	[*A*]0.657[*R*]attained[*A*]in Ref	context()	negated: False ,passive: True
 0.863	[*A*]This model[*R*]uses[*A*]a highly specific wind resource assessment	context(This model , which uses a highly specific wind resource assessment provides)	negated: False ,passive: False
 0.960	[*A*]This model, which uses a highly specific wind resource assessment[*R*]provides[*A*]a better fit to the observed data than using period fixed effects, giving an R2 of 0.802 compared to 0.657	context()	negated: False ,passive: False
-[LINE#219]The full regression results are given in Supplementary Section 5.6, along with alternative model formulations which we tested.
+[LINE#257] The full regression results are given in Supplementary Section 5.6, along with alternative model formulations which we tested.
 0.894	[*A*]alternative model formulations[*R*]tested[*A*]we	context()	negated: False ,passive: True
 0.931	[*A*]The full regression results[*R*]are given[*A*]in Supplementary Section 5.6	context()	negated: False ,passive: True
-[LINE#220]11 plots the fixed effects produced by this regression, re-centred to give actual load factors as opposed to deviations from the reference point.
+[LINE#258] 11 plots the fixed effects produced by this regression, re-centred to give actual load factors as opposed to deviations from the reference point.
 0.911	[*A*]the fixed effects[*R*]produced[*A*]by this regression	context()	negated: False ,passive: True
-[LINE#221]11a shows the impact of turbine age on the load factor, taking account of spatial and temporal differences in the available wind resource, technology installed and local site conditions.
+[LINE#259] 11a shows the impact of turbine age on the load factor, taking account of spatial and temporal differences in the available wind resource, technology installed and local site conditions.
 0.902	[*A*]11a[*R*]shows the impact of turbine age on the load factor taking[*A*]account of temporal differences in the available wind resource , technology local site conditions	context(11a shows)	negated: False ,passive: False
 0.949	[*A*]11a[*R*]shows[*A*]the impact of turbine age on the load factor[*A*]taking account of temporal differences in the available wind resource , technology local site conditions	context()	negated: False ,passive: False
 0.857	[*A*]11a[*R*]shows the impact of turbine age on the load factor taking[*A*]account of temporal differences in the available wind resource	context(11a shows)	negated: False ,passive: False
@@ -939,15 +939,15 @@
 0.871	[*A*]technology[*R*]installed[*A*]site conditions	context(11a shows)	negated: False ,passive: False
 0.857	[*A*]11a[*R*]shows the impact of turbine age on the load factor taking[*A*]account of spatial differences in the available wind resource	context(11a shows)	negated: False ,passive: False
 0.924	[*A*]11a[*R*]shows[*A*]the impact of turbine age on the load factor	context()	negated: False ,passive: False
-[LINE#222]From Fig. 11a it can be seen that the uncertainty on the age fixed effects is small enough to be confident that there is indeed degradation, but is too large to be able to discern whether the trend beyond age 1 is linear, exponential, or some more complex function.
+[LINE#260] From Fig. 11a it can be seen that the uncertainty on the age fixed effects is small enough to be confident that there is indeed degradation, but is too large to be able to discern whether the trend beyond age 1 is linear, exponential, or some more complex function.
 0.717	[*A*]the uncertainty on the age fixed effects[*R*]to be[*A*]confident that there is indeed degradation	context()	negated: False ,passive: True
 0.964	[*A*]the uncertainty on the age fixed effects[*R*]is[*A*]too large to be able to discern whether the trend beyond age 1 is linear, exponential, or some more complex function	context()	negated: False ,passive: True
 0.836	[*A*]the uncertainty on the age fixed effects[*R*]is[*A*]small enough to be confident that there is indeed degradation	context(it can be seen)	negated: False ,passive: True
 0.162	[*A*]it[*R*]can be seen	context()	negated: False ,passive: False
-[LINE#223] For simplicity's sake we fit a linear trend to these effects, which falls from 28.5% at age 1 to the national average load factor of 26.3% for farms at the national average age (5.9 years), reaching 21.0% for the oldest farms aged 19.Fig.11b plots the site fixed effects added to the regression offset and the individual contributions from the ideal load factor at each farm (i.e. +ILFf+sf).
+[LINE#261+262]  For simplicity's sake we fit a linear trend to these effects, which falls from 28.5% at age 1 to the national average load factor of 26.3% for farms at the national average age (5.9 years), reaching 21.0% for the oldest farms aged 19.Fig.11b plots the site fixed effects added to the regression offset and the individual contributions from the ideal load factor at each farm (i.e. +ILFf+sf).
 0.948	[*A*]the site fixed effects[*R*]added[*A*]to the regression offset and the individual contributions from the ideal load factor at each farm (i.e. +ILFf+sf	context()	negated: False ,passive: True
 0.619	[*A*]we[*R*]fit[*A*]For simplicity's sake	context()	negated: False ,passive: True
-[LINE#224]This combination yields what we call the individual farm effects, which are the model's estimate of each farm's load factor at age 1, accounting for location (estimated wind resource), technology (turbine model and its hub height), and surroundings (local site quality).
+[LINE#263] This combination yields what we call the individual farm effects, which are the model's estimate of each farm's load factor at age 1, accounting for location (estimated wind resource), technology (turbine model and its hub height), and surroundings (local site quality).
 0.584	[*A*]we[*R*]call[*A*]the individual farm effects , which are the surroundings ( local site quality )	context(This combination yields)	negated: False ,passive: False
 0.905	[*A*]the individual farm effects[*R*]are[*A*]the surroundings	context()	negated: False ,passive: True
 0.432	[*A*]we[*R*]call[*A*]the individual farm effects , which are the model 's estimate of each farm 's load factor at its hub height	context(This combination yields)	negated: False ,passive: False
@@ -960,13 +960,13 @@
 0.802	[*A*]This combination[*R*]yields[*A*]what we call the individual farm effects	context()	negated: False ,passive: False
 0.958	[*A*]the model 's estimate of each farm 's load factor at age 1[*R*]accounting[*A*]for location	context()	negated: False ,passive: False
 0.939	[*A*]the individual farm effects[*R*]are[*A*]the model 's estimate of each farm 's load factor at age 1 , accounting for location	context()	negated: False ,passive: True
-[LINE#225]Regressing these farm effects against the year each farm was built yields no significant trend, implying that any technical improvement has been masked by diminishing site quality.
-[LINE#226]Many variations on this model can be considered; for example, using an exponential rather than linear fit, substituting the expected load factor with wind speeds (wf,t), or estimating the farms' performance ratio rather than load factor.
-[LINE#227]These models were found to give very similar results to the linear model in Eq.
+[LINE#264] Regressing these farm effects against the year each farm was built yields no significant trend, implying that any technical improvement has been masked by diminishing site quality.
+[LINE#265] Many variations on this model can be considered; for example, using an exponential rather than linear fit, substituting the expected load factor with wind speeds (wf,t), or estimating the farms' performance ratio rather than load factor.
+[LINE#266] These models were found to give very similar results to the linear model in Eq.
 0.905	[*A*]These models[*R*]to give[*A*]very similar results[*A*]to the linear model in Eq	context()	negated: False ,passive: False
 0.732	[*A*]These models[*R*]were found	context()	negated: False ,passive: False
-[LINE#228](2), with annual degradation rates that range from 1.5 to 1.9% per year.
+[LINE#267] (2), with annual degradation rates that range from 1.5 to 1.9% per year.
 0.897	[*A*]annual degradation rates[*R*]range[*A*]from 1.5[*A*]to 1.9% per year	context()	negated: False ,passive: True
-[LINE#229]Supplementary Section 5.6 details these results and shows that our extension of the original REF dataset did not skew the rate of decline.
+[LINE#268] Supplementary Section 5.6 details these results and shows that our extension of the original REF dataset did not skew the rate of decline.
 0.756	[*A*]our extension of the original REF dataset[*R*]did not skew[*A*]the rate of decline	context(Supplementary Section 5.6 shows)	negated: True ,passive: False
 0.807	[*A*]Supplementary Section 5.6[*R*]shows[*A*]that our extension of the original REF dataset did not skew the rate of decline	context()	negated: False ,passive: False

@@ -1,70 +1,70 @@
-[LINE#1]NaFeO2 is a promising candidate as positive electrode materials for rechargeable Na batteries.
+[LINE#0] NaFeO2 is a promising candidate as positive electrode materials for rechargeable Na batteries.
 0.967	[*A*]NaFeO2[*R*]is[*A*]a promising candidate as positive electrode materials for rechargeable Na batteries	context()	negated: False ,passive: True
-[LINE#2]However, its reversible range of sodium extraction is relatively narrow (x=ca. 0.4 in Na1-xFeO2) because of the irreversible structural change, presumably associated with the iron migration into the adjacent tetrahedral sites in Na layers as we recently reported.
+[LINE#1] However, its reversible range of sodium extraction is relatively narrow (x=ca. 0.4 in Na1-xFeO2) because of the irreversible structural change, presumably associated with the iron migration into the adjacent tetrahedral sites in Na layers as we recently reported.
 0.305	[*A*]we[*R*]reported[*A*]recently	context()	negated: False ,passive: False
 0.949	[*A*]the irreversible structural change[*R*]associated[*A*]with the iron migration into the adjacent tetrahedral sites in Na layers	context()	negated: False ,passive: True
 0.775	[*A*]its reversible range of sodium extraction[*R*]is[*A*]relatively narrow[*A*]because of the irreversible structural change	context()	negated: False ,passive: True
-[LINE#3]Herein, we report that cobalt-substituted NaFeO2 demonstrates excellent electrode performance in a non-aqueous Na cell at room temperature.
+[LINE#2] Herein, we report that cobalt-substituted NaFeO2 demonstrates excellent electrode performance in a non-aqueous Na cell at room temperature.
 0.958	[*A*]cobalt-substituted NaFeO2[*R*]demonstrates[*A*]excellent electrode performance in a non-aqueous Na cell at room temperature	context(we report)	negated: False ,passive: False
 0.309	[*A*]we[*R*]report[*A*]that cobalt-substituted NaFeO2 demonstrates excellent electrode performance in a non-aqueous Na cell at room temperature	context()	negated: False ,passive: False
-[LINE#4]NaFe0.5Co0.5O2 delivers approximately 160mAhg-1 of reversible capacity with relatively good capacity retention and excellent rate-capability in a voltage range of 2.5-4.0V, resulting in reversible formation of Na0.3Fe0.5Co0.5O2.
+[LINE#3] NaFe0.5Co0.5O2 delivers approximately 160mAhg-1 of reversible capacity with relatively good capacity retention and excellent rate-capability in a voltage range of 2.5-4.0V, resulting in reversible formation of Na0.3Fe0.5Co0.5O2.
 0.932	[*A*]NaFe0.5Co0.5O2[*R*]delivers[*A*]approximately 160mAhg - 1 of reversible capacity[*A*]resulting in reversible formation of Na0.3Fe0.5Co0.5O2	context()	negated: False ,passive: False
 0.999	[*A*]NaFe0.5Co0.5O2[*R*]delivers[*A*]approximately 160mahg - 1	context()	negated: False ,passive: False
 0.948	[*A*]NaFe0.5Co0.5O2[*R*]delivers[*A*]approximately 160mAhg - 1 of reversible capacity with relatively good capacity retention	context()	negated: False ,passive: False
-[LINE#5] The partial substitution of metal element for Fe in O3-type.
-[LINE#6]NaFeO2-based materials is proved to be the important strategy to suppress the irreversible phase transition, and thus improving the reversibility of sodium removal/insertion as the electrode materials.
+[LINE#4]  The partial substitution of metal element for Fe in O3-type.
+[LINE#5] NaFeO2-based materials is proved to be the important strategy to suppress the irreversible phase transition, and thus improving the reversibility of sodium removal/insertion as the electrode materials.
 0.920	[*A*]NaFeO2[*R*]improving[*A*]the reversibility of sodium removal / insertion as the electrode materials	context()	negated: False ,passive: False
 0.905	[*A*]NaFeO2 - based materials[*R*]to be[*A*]the important strategy to suppress the irreversible phase transition	context()	negated: False ,passive: True
-[LINE#7] Single phase and well-crystallized.
-[LINE#8]NaFe0.5Co0.5O2 is prepared by a solid-state method, and its electrode performance is compared in Na cells with NaFeO2 and NaCoO2.
+[LINE#6]  Single phase and well-crystallized.
+[LINE#7] NaFe0.5Co0.5O2 is prepared by a solid-state method, and its electrode performance is compared in Na cells with NaFeO2 and NaCoO2.
 0.700	[*A*]its electrode performance[*R*]is compared[*A*]in Na cells with NaCoO2	context()	negated: False ,passive: True
 0.700	[*A*]its electrode performance[*R*]is compared[*A*]in Na cells with NaFeO2	context()	negated: False ,passive: True
 0.920	[*A*]NaFe0.5Co0.5O2[*R*]is prepared[*A*]by a solid - state method	context()	negated: False ,passive: True
-[LINE#9]Available energy density is estimated to be 510mWhg-1 based on metallic sodium as positive electrode materials for rechargeable Na batteries.
+[LINE#8] Available energy density is estimated to be 510mWhg-1 based on metallic sodium as positive electrode materials for rechargeable Na batteries.
 0.944	[*A*]Available energy density[*R*]to be[*A*]510mWhg-1 based on metallic sodium as positive electrode materials for rechargeable Na batteries	context()	negated: False ,passive: True
 0.952	[*A*]Available energy density[*R*]is estimated[*A*]to be 510mWhg-1 based on metallic sodium as positive electrode materials for rechargeable Na batteries	context()	negated: False ,passive: True
-[LINE#10]NaFe0.5Co0.5O2 shows excellent rate-capability with small polarization; more than 75% of discharge capacity even at 10C rate.
-[LINE#11]Note that utilization of cobalt must be minimized for large-scale energy storage devices because cobalt is not an abundant element.
+[LINE#9] NaFe0.5Co0.5O2 shows excellent rate-capability with small polarization; more than 75% of discharge capacity even at 10C rate.
+[LINE#10] Note that utilization of cobalt must be minimized for large-scale energy storage devices because cobalt is not an abundant element.
 0.894	[*A*]cobalt[*R*]is not[*A*]an abundant element	context()	negated: True ,passive: True
-[LINE#12]The most important finding of our article is that large reversible capacity and excellent rate-capability, which are clearly better than those of NaCoO2, are achieved on the basis of NaFeO2-derived sodium insertion materials.
+[LINE#11] The most important finding of our article is that large reversible capacity and excellent rate-capability, which are clearly better than those of NaCoO2, are achieved on the basis of NaFeO2-derived sodium insertion materials.
 0.879	[*A*]excellent rate - capability , which are clearly better than those of NaCoO2[*R*]are achieved	context(The most important finding of our article is)	negated: False ,passive: False
 0.682	[*A*]The most important finding of our article[*R*]is[*A*]that excellent rate - capability , which are clearly better than those of NaCoO2 , are achieved on the basis of NaFeO2 - derived sodium insertion materials	context()	negated: False ,passive: True
 0.808	[*A*]excellent rate - capability[*R*]are[*A*]clearly[*A*]better than those of NaCoO2	context()	negated: False ,passive: True
 0.671	[*A*]large reversible capacity[*R*]are achieved	context(The most important finding of our article is)	negated: False ,passive: False
 0.682	[*A*]The most important finding of our article[*R*]is[*A*]that large reversible capacity , are achieved on the basis of NaFeO2 - derived sodium insertion materials	context()	negated: False ,passive: True
-[LINE#13]Further optimization study could allow us to design positive electrode materials, similar to O3-type NaFe0.5Co0.5O2, based on abundant elements with much less cobalt contents.
+[LINE#12] Further optimization study could allow us to design positive electrode materials, similar to O3-type NaFe0.5Co0.5O2, based on abundant elements with much less cobalt contents.
 0.550	[*A*]us[*R*]to design[*A*]positive electrode materials, similar to O3-type NaFe0.5Co0.5O2	context(Further optimization study could allow)	negated: False ,passive: False
 0.892	[*A*]Further optimization study[*R*]could allow[*A*]us to design positive electrode materials, similar to O3-type NaFe0.5Co0.5O2	context()	negated: False ,passive: False
 0.928	[*A*]O3-type NaFe0.5Co0.5O2[*R*]based[*A*]on abundant elements with much less cobalt contents	context()	negated: False ,passive: True
-[LINE#14]2 was prepared by heat-treatment of a mixture of Na2CO3, Fe3O4, and Co3O4.
+[LINE#13] 2 was prepared by heat-treatment of a mixture of Na2CO3, Fe3O4, and Co3O4.
 0.425	[*A*]2[*R*]was prepared[*A*]by heat - treatment of a mixture of Co3O4	context()	negated: False ,passive: True
 0.425	[*A*]2[*R*]was prepared[*A*]by heat - treatment of a mixture of Fe3O4	context()	negated: False ,passive: True
 0.425	[*A*]2[*R*]was prepared[*A*]by heat - treatment of a mixture of Na2CO3	context()	negated: False ,passive: True
-[LINE#15]The mixture was heated at 900C for 12h in air.
+[LINE#14] The mixture was heated at 900C for 12h in air.
 0.937	[*A*]The mixture[*R*]was[*A*]heated[*A*]at 900C	context()	negated: False ,passive: True
-[LINE#16]The sample was taken out from the furnace without cooling process inside the furnace, and then immediately transferred into an argon-filled glove box.
+[LINE#15] The sample was taken out from the furnace without cooling process inside the furnace, and then immediately transferred into an argon-filled glove box.
 0.916	[*A*]The sample[*R*]was transferred[*A*]into an argon - filled glove box[*A*]then[*A*]immediately	context()	negated: False ,passive: True
 0.903	[*A*]The sample[*R*]was taken out[*A*]from the furnace	context()	negated: False ,passive: True
-[LINE#17]The sample cooled to room temperature in the glove box and was kept inside to avoid the contact with moisture in air.
+[LINE#16] The sample cooled to room temperature in the glove box and was kept inside to avoid the contact with moisture in air.
 0.887	[*A*]The sample[*R*]to avoid[*A*]the contact with moisture in air	context()	negated: False ,passive: False
 0.903	[*A*]The sample[*R*]was kept inside[*A*]to avoid the contact with moisture in air	context()	negated: False ,passive: True
 0.887	[*A*]The sample[*R*]to room[*A*]temperature in the glove box	context()	negated: False ,passive: False
 0.732	[*A*]The sample[*R*]cooled	context()	negated: False ,passive: False
-[LINE#18]A synchrotron X-ray diffraction pattern of as-prepared NaFe0.5Co0.5O2 was collected at beam line BL02B2, SPring-8 in Japan, equipped with a large Debye-Scherrer camera [9].
+[LINE#17] A synchrotron X-ray diffraction pattern of as-prepared NaFe0.5Co0.5O2 was collected at beam line BL02B2, SPring-8 in Japan, equipped with a large Debye-Scherrer camera [9].
 0.934	[*A*]beam line BL02B2[*R*]equipped[*A*]with a large Debye-Scherrer camera	context()	negated: False ,passive: True
 0.944	[*A*]A synchrotron X-ray diffraction pattern of as-prepared NaFe0.5Co0.5O2[*R*]was collected[*A*]at beam line BL02B2	context()	negated: False ,passive: True
-[LINE#19]The wavelength of incident X-ray beam was set to 0.5 using a silicon monochromator, which was calibrated to 0.501 with a CeO2 standard.
+[LINE#18] The wavelength of incident X-ray beam was set to 0.5 using a silicon monochromator, which was calibrated to 0.501 with a CeO2 standard.
 0.993	[*A*]The wavelength of incident X-ray beam[*R*]was set to[*A*]0.5 using a silicon monochromator	context()	negated: False ,passive: False
 0.754	[*A*]a silicon monochromator[*R*]was calibrated[*A*]to 0.501	context()	negated: False ,passive: True
 0.829	[*A*]The wavelength of incident X-ray beam[*R*]was set[*A*]to 0.5	context()	negated: False ,passive: True
-[LINE#20]Structural analysis by the Rietveld method was carried out using RIETAN-FP [10].
+[LINE#19] Structural analysis by the Rietveld method was carried out using RIETAN-FP [10].
 0.845	[*A*]Structural analysis by the Rietveld method[*R*]was carried out	context()	negated: False ,passive: False
-[LINE#21]The morphological features of the sample were observed by using a field emission scanning electron microscope (SUPRA40, Carl Zeiss AG).Coin-type cells (R2032 type) were assembled to evaluate the electrode performance of NaFe1-yCoyO2.
+[LINE#20] The morphological features of the sample were observed by using a field emission scanning electron microscope (SUPRA40, Carl Zeiss AG).Coin-type cells (R2032 type) were assembled to evaluate the electrode performance of NaFe1-yCoyO2.
 0.905	[*A*]Coin-type cells[*R*]to evaluate[*A*]the electrode performance of NaFe1-yCoyO2	context()	negated: False ,passive: False
 0.905	[*A*]Coin-type cells[*R*]were assembled[*A*]to evaluate the electrode performance of NaFe1-yCoyO2	context()	negated: False ,passive: True
 0.921	[*A*]The morphological features of the sample[*R*]by using[*A*]a field emission scanning electron microscope	context()	negated: False ,passive: False
 0.801	[*A*]The morphological features of the sample[*R*]were observed	context()	negated: False ,passive: False
-[LINE#22]Positive electrodes consisted of 80wt.% prepared materials, 10wt.% acetylene black, and 10wt.% poly(vinylidene fluoride), which were mixed with N-methylpyrrolidone and pasted on Al foil, and then dried at 80C in vacuum.
+[LINE#21] Positive electrodes consisted of 80wt.% prepared materials, 10wt.% acetylene black, and 10wt.% poly(vinylidene fluoride), which were mixed with N-methylpyrrolidone and pasted on Al foil, and then dried at 80C in vacuum.
 0.905	[*A*]% poly[*R*]were mixed[*A*]with pasted on Al foil	context()	negated: False ,passive: True
 0.905	[*A*]% poly[*R*]were mixed[*A*]with N - methylpyrrolidone	context()	negated: False ,passive: True
 0.916	[*A*]Positive electrodes[*R*]consisted 10wt[*A*]of 80wt	context()	negated: False ,passive: True
@@ -74,38 +74,38 @@
 0.730	[*A*]% poly[*R*]were dried[*A*]then	context()	negated: False ,passive: True
 0.813	[*A*]%[*R*]prepared[*A*]materials	context()	negated: False ,passive: False
 0.918	[*A*]Positive electrodes[*R*]consisted[*A*]of 80wt	context()	negated: False ,passive: True
-[LINE#23]Metallic sodium disk is used as a negative electrode.
+[LINE#22] Metallic sodium disk is used as a negative electrode.
 0.911	[*A*]Metallic sodium disk[*R*]is used[*A*]as a negative electrode	context()	negated: False ,passive: True
-[LINE#24] Electrolyte solution used was 1.0moldm-3 NaClO4 dissolved in propylene carbonate(Kishida Chemical Co., Japan) with 2vol.% of fluoroethylene carbonate (FEC) as an electrolyte additive [1].
+[LINE#23+24]  Electrolyte solution used was 1.0moldm-3 NaClO4 dissolved in propylene carbonate(Kishida Chemical Co., Japan) with 2vol.% of fluoroethylene carbonate (FEC) as an electrolyte additive [1].
 0.897	[*A*]Electrolyte solution used[*R*]dissolved[*A*]in propylene carbonate	context()	negated: False ,passive: True
 0.963	[*A*]Electrolyte solution used[*R*]was[*A*]1.0moldm-3 NaClO4 dissolved in propylene carbonate(Kishida Chemical Co., Japan) with 2vol.% of fluoroethylene carbonate (FEC) as an electrolyte additive	context()	negated: False ,passive: True
 0.732	[*A*]Electrolyte solution[*R*]used	context()	negated: False ,passive: False
-[LINE#25]A glass fiber filter (GB-100R, ADVANTEC Co.) was used as a separator.
+[LINE#25] A glass fiber filter (GB-100R, ADVANTEC Co.) was used as a separator.
 0.905	[*A*]A glass fiber filter[*R*]was used[*A*]as a separator	context()	negated: False ,passive: True
-[LINE#26]Research interests in rechargeable Na(-ion) batteries operable at room temperature are renewed as a promising system for large-scale energy storage devices in 2010s [1-3].
+[LINE#26] Research interests in rechargeable Na(-ion) batteries operable at room temperature are renewed as a promising system for large-scale energy storage devices in 2010s [1-3].
 0.974	[*A*]Research interests in rechargeable Na(-ion) batteries[*R*]are renewed[*A*]as a promising system for large-scale energy storage devices in 2010s	context()	negated: False ,passive: True
 0.965	[*A*]Research interests in rechargeable Na(-ion) batteries[*R*]operable[*A*]at room temperature	context()	negated: False ,passive: False
-[LINE#27]materials have been intensively studied as electrode materials for the batteries.
+[LINE#27] materials have been intensively studied as electrode materials for the batteries.
 0.894	[*A*]materials[*R*]have been intensively studied[*A*]as electrode materials for the batteries	context()	negated: False ,passive: True
-[LINE#28] On the basis of the material abundance in the Earth's crust, layered (alpha-type).
-[LINE#29]NaFeO2, of which layer structure is also classified as "O3-type" following the Delmas' notation [4], is of the most interest from a perspective on both gravimetric and volumetric specific capacity as positive electrode materials for the Na batteries.
+[LINE#28]  On the basis of the material abundance in the Earth's crust, layered (alpha-type).
+[LINE#29] NaFeO2, of which layer structure is also classified as "O3-type" following the Delmas' notation [4], is of the most interest from a perspective on both gravimetric and volumetric specific capacity as positive electrode materials for the Na batteries.
 0.961	[*A*]NaFeO2[*R*]is[*A*]of the most interest from a perspective on volumetric specific capacity as positive electrode materials for the Na batteries	context()	negated: False ,passive: True
 0.961	[*A*]NaFeO2[*R*]is[*A*]of the most interest from a perspective on both gravimetric specific capacity as positive electrode materials for the Na batteries	context()	negated: False ,passive: True
 0.884	[*A*]NaFeO2[*R*]is classified[*A*]as " O3 - type	context()	negated: False ,passive: True
-[LINE#30]Indeed, as reported by Okada and coworkers, layered NaFeO2 is electrochemically active as Na intercalation host [5], whereas a lithium counterpart, layered LiFeO2, is known to be electrochemically inactive [6].
+[LINE#30] Indeed, as reported by Okada and coworkers, layered NaFeO2 is electrochemically active as Na intercalation host [5], whereas a lithium counterpart, layered LiFeO2, is known to be electrochemically inactive [6].
 0.754	[*A*]a lithium counterpart[*R*]to be[*A*]electrochemically inactive [ 6	context()	negated: False ,passive: True
 0.718	[*A*]a lithium counterpart[*R*]is known	context()	negated: False ,passive: False
 0.970	[*A*]layered NaFeO2[*R*]is[*A*]electrochemically active as Na intercalation host[*A*]whereas a lithium counterpart , layered LiFeO2 , is known to be electrochemically inactive [ 6	context()	negated: False ,passive: True
-[LINE#31]A Na//NaFeO2 cell shows a flat operating voltage profile at 3.3V vs.
+[LINE#31] A Na//NaFeO2 cell shows a flat operating voltage profile at 3.3V vs.
 0.961	[*A*]A Na//NaFeO2 cell[*R*]shows[*A*]a flat operating voltage profile	context()	negated: False ,passive: False
-[LINE#32]Na metal associated with Fe3+/Fe4+ redox [5].Recently, we revisited the layered NaFeO2 system and a systematic study was conducted to examine the electrode performance by changing the cut-off voltage in Na cells [7].
+[LINE#32] Na metal associated with Fe3+/Fe4+ redox [5].Recently, we revisited the layered NaFeO2 system and a systematic study was conducted to examine the electrode performance by changing the cut-off voltage in Na cells [7].
 0.952	[*A*]a systematic study[*R*]was conducted[*A*]to examine the electrode performance by changing the cut-off voltage in Na cells [7	context()	negated: False ,passive: True
 0.639	[*A*]we[*R*]revisited[*A*]the layered NaFeO2 system[*A*]Recently	context()	negated: False ,passive: False
 0.938	[*A*]Na metal[*R*]associated[*A*]with Fe3+/Fe4+ redox [5	context()	negated: False ,passive: True
-[LINE#33]When the cut-off voltage is limited to 3.4V in the sodium cells, NaFeO2 shows relatively good capacity retention with 80mAhg-1 of reversible capacity.
+[LINE#33] When the cut-off voltage is limited to 3.4V in the sodium cells, NaFeO2 shows relatively good capacity retention with 80mAhg-1 of reversible capacity.
 0.981	[*A*]NaFeO2[*R*]shows[*A*]relatively good capacity retention with 80mAhg-1 of reversible capacity[*A*]When the cut-off voltage is limited to 3.4V in the sodium cells	context()	negated: False ,passive: False
 0.926	[*A*]the cut-off voltage[*R*]is limited[*A*]to 3.4V in the sodium cells	context()	negated: False ,passive: True
-[LINE#34]The electrode reversibility is, however, significantly deteriorated by extending higher voltage above 3.5V. Ex-situ X-ray diffraction (XRD) study revealed an irreversible structure transition, presumably associated with partial migration of iron into adjacent and vacant tetrahedral sites created in Na layer by Na extraction, and thus the loss of Na conduction path.
+[LINE#34] The electrode reversibility is, however, significantly deteriorated by extending higher voltage above 3.5V. Ex-situ X-ray diffraction (XRD) study revealed an irreversible structure transition, presumably associated with partial migration of iron into adjacent and vacant tetrahedral sites created in Na layer by Na extraction, and thus the loss of Na conduction path.
 0.905	[*A*]an irreversible structure transition[*R*]associated[*A*]with partial migration of iron into vacant tetrahedral sites	context()	negated: False ,passive: True
 0.925	[*A*]vacant tetrahedral sites[*R*]created[*A*]in Na layer[*A*]by Na extraction	context()	negated: False ,passive: True
 0.913	[*A*]study[*R*]revealed[*A*]an irreversible structure transition , presumably associated with partial migration of iron into vacant tetrahedral sites	context(The electrode reversibility is)	negated: False ,passive: False
@@ -116,16 +116,16 @@
 0.897	[*A*]The electrode reversibility[*R*]is[*A*]however[*A*]significantly deteriorated by extending higher voltage above 3.5V	context()	negated: False ,passive: True
 0.905	[*A*]an irreversible structure transition[*R*]associated[*A*]with partial migration of iron	context()	negated: False ,passive: True
 0.897	[*A*]The electrode reversibility[*R*]significantly deteriorated[*A*]by extending higher voltage above 3.5V	context()	negated: False ,passive: True
-[LINE#35]This result is also consistent with a recent publication of first principle calculation in a series of sodium layered oxides [8].
+[LINE#35] This result is also consistent with a recent publication of first principle calculation in a series of sodium layered oxides [8].
 0.952	[*A*]This result[*R*]is[*A*]also[*A*]consistent with a recent publication of first principle calculation in a series of sodium layered oxides	context()	negated: False ,passive: True
-[LINE#36]It has been suggested that the iron migration was energetically possible after the 50% of sodium extraction.
-[LINE#37]In this paper, we report synthesis and remarkable electrode performance of highly-dense NaFe0.5Co0.5O2 powder, as O3-type NaFeO2-based positive electrode materials for the application of rechargeable Na-ion batteries.
+[LINE#36] It has been suggested that the iron migration was energetically possible after the 50% of sodium extraction.
+[LINE#37] In this paper, we report synthesis and remarkable electrode performance of highly-dense NaFe0.5Co0.5O2 powder, as O3-type NaFeO2-based positive electrode materials for the application of rechargeable Na-ion batteries.
 0.639	[*A*]we[*R*]report[*A*]remarkable electrode performance of highly - dense NaFe0.5Co0.5O2 powder[*A*]In this paper	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]report[*A*]synthesis[*A*]as O3 - type NaFeO2 - based positive electrode materials for the application of rechargeable Na - ion batteries[*A*]In this paper	context()	negated: False ,passive: False
-[LINE#38]The finding shown in this article will further extend and accelerate the development of NaFeO2-based electrode materials for Na-ion batteries.
+[LINE#38] The finding shown in this article will further extend and accelerate the development of NaFeO2-based electrode materials for Na-ion batteries.
 0.824	[*A*]The finding shown in this article[*R*]will extend[*A*]further	context()	negated: False ,passive: True
 0.925	[*A*]The finding[*R*]shown[*A*]in this article	context()	negated: False ,passive: True
-[LINE#39]We demonstrate that the iron migration in O3-NaFeO2 is effectively suppressed by metal substitution for iron, therefore, sodium insertion/extraction reversibility and capacity of O3-type NaFe0.5Co0.5O2 are surprisingly higher than those of NaCoO2 and NaFeO2 with enhanced capacity retention and rate capability.
+[LINE#39] We demonstrate that the iron migration in O3-NaFeO2 is effectively suppressed by metal substitution for iron, therefore, sodium insertion/extraction reversibility and capacity of O3-type NaFe0.5Co0.5O2 are surprisingly higher than those of NaCoO2 and NaFeO2 with enhanced capacity retention and rate capability.
 0.916	[*A*]sodium insertion / extraction capacity of O3 - type NaFe0.5Co0.5O2[*R*]are[*A*]surprisingly higher than those of NaFeO2 with enhanced rate capability	context()	negated: False ,passive: True
 0.916	[*A*]sodium insertion / extraction capacity of O3 - type NaFe0.5Co0.5O2[*R*]are[*A*]surprisingly higher than those of NaFeO2 with enhanced capacity retention	context()	negated: False ,passive: True
 0.916	[*A*]sodium insertion / extraction capacity of O3 - type NaFe0.5Co0.5O2[*R*]are[*A*]surprisingly higher than those of NaCoO2 with enhanced rate capability	context()	negated: False ,passive: True
@@ -138,16 +138,16 @@
 0.940	[*A*]the iron migration in O3 - NaFeO2[*R*]is effectively suppressed[*A*]by metal substitution for iron	context(We demonstrate sodium insertion / extraction reversibility are)	negated: False ,passive: True
 0.309	[*A*]We[*R*]demonstrate[*A*]that the iron migration in O3 - NaFeO2 is effectively suppressed by metal substitution for iron	context(sodium insertion / extraction reversibility are)	negated: False ,passive: False
 0.871	[*A*]sodium insertion / extraction reversibility[*R*]are[*A*]surprisingly higher than those of NaCoO2 with enhanced capacity retention	context()	negated: False ,passive: True
-[LINE#40]1 shows a result of Rietveld analysis on a synchrotron X-ray diffraction (SXRD) pattern.
+[LINE#40] 1 shows a result of Rietveld analysis on a synchrotron X-ray diffraction (SXRD) pattern.
 0.612	[*A*]1[*R*]shows[*A*]a result of Rietveld analysis on a synchrotron X-ray diffraction (SXRD) pattern	context()	negated: False ,passive: False
-[LINE#41] A schematic illustration of structure model and SEM images of as-prepared NaFe0.5Co0.5O2 are also shown in Fig..
+[LINE#41]  A schematic illustration of structure model and SEM images of as-prepared NaFe0.5Co0.5O2 are also shown in Fig..
 0.924	[*A*]A schematic illustration of SEM images of as - prepared NaFe0.5Co0.5O2[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
 0.915	[*A*]A schematic illustration of structure model[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#42]All of Bragg diffraction lines are nicely refined to the O3-type layered oxide (S.G.: R-3m) without any diffraction lines from impurity phases.
+[LINE#42] All of Bragg diffraction lines are nicely refined to the O3-type layered oxide (S.G.: R-3m) without any diffraction lines from impurity phases.
 0.944	[*A*]All of Bragg diffraction lines[*R*]are[*A*]nicely[*A*]refined to the O3-type layered oxide	context()	negated: False ,passive: True
-[LINE#43]The refined structural parameters are summarized in Table 1.
+[LINE#43] The refined structural parameters are summarized in Table 1.
 0.931	[*A*]The refined structural parameters[*R*]are summarized[*A*]in Table 1	context()	negated: False ,passive: True
-[LINE#44]Both Rwp and RB factors, which are the criteria of fit, are reasonably small, indicating that the O3-type layered phase is the appropriate structural model for NaFe0.5Co0.5O2.
+[LINE#44] Both Rwp and RB factors, which are the criteria of fit, are reasonably small, indicating that the O3-type layered phase is the appropriate structural model for NaFe0.5Co0.5O2.
 0.946	[*A*]the O3 - type layered phase[*R*]is[*A*]the appropriate structural model for NaFe0.5Co0.5O2	context(RB factors , which are the criteria of fit indicating)	negated: False ,passive: True
 0.897	[*A*]RB factors , which are the criteria of fit[*R*]indicating[*A*]that the O3 - type layered phase is the appropriate structural model for NaFe0.5Co0.5O2	context()	negated: False ,passive: False
 0.916	[*A*]RB factors , which are the criteria of fit[*R*]are[*A*]reasonably small[*A*]indicating that the O3 - type layered phase is the appropriate structural model for NaFe0.5Co0.5O2	context()	negated: False ,passive: True
@@ -156,37 +156,37 @@
 0.869	[*A*]Both Rwp factors[*R*]indicating[*A*]that the O3 - type layered phase is the appropriate structural model for NaFe0.5Co0.5O2	context()	negated: False ,passive: False
 0.892	[*A*]Both Rwp factors[*R*]are[*A*]reasonably small[*A*]indicating that the O3 - type layered phase is the appropriate structural model for NaFe0.5Co0.5O2	context()	negated: False ,passive: True
 0.922	[*A*]Both Rwp factors[*R*]are[*A*]the criteria of fit	context()	negated: False ,passive: True
-[LINE#45]Transition metals (Fe/Co) and Na are accommodated at the two distinct octahedral sites (3a and 3b sites, respectively) in the distorted cubic-close-packed oxygen array.
+[LINE#45] Transition metals (Fe/Co) and Na are accommodated at the two distinct octahedral sites (3a and 3b sites, respectively) in the distorted cubic-close-packed oxygen array.
 0.875	[*A*]Na[*R*]are accommodated[*A*]at the two distinct octahedral sites ( 3b sites , respectively ) in the distorted cubic - close - packed oxygen array	context()	negated: False ,passive: True
 0.875	[*A*]Na[*R*]are accommodated[*A*]at the two distinct octahedral sites ( 3a sites , respectively ) in the distorted cubic - close - packed oxygen array	context()	negated: False ,passive: True
 0.927	[*A*]Transition metals[*R*]are accommodated[*A*]at the two distinct octahedral sites ( 3b sites , respectively ) in the distorted cubic - close - packed oxygen array	context()	negated: False ,passive: True
 0.927	[*A*]Transition metals[*R*]are accommodated[*A*]at the two distinct octahedral sites ( 3a sites , respectively ) in the distorted cubic - close - packed oxygen array	context()	negated: False ,passive: True
-[LINE#46]Interatomic distances of (Fe/Co)-O and Na-O were calculated to be 1.99 and 2.36 on average, respectively.
+[LINE#46] Interatomic distances of (Fe/Co)-O and Na-O were calculated to be 1.99 and 2.36 on average, respectively.
 0.754	[*A*]Na - O[*R*]to be[*A*]2.36[*A*]respectively	context()	negated: False ,passive: True
 0.754	[*A*]Na - O[*R*]to be[*A*]1.99[*A*]respectively	context()	negated: False ,passive: True
 0.751	[*A*]Na - O[*R*]were calculated	context()	negated: False ,passive: False
 0.565	[*A*]O[*R*]to be[*A*]2.36[*A*]respectively	context()	negated: False ,passive: True
 0.565	[*A*]O[*R*]to be[*A*]1.99[*A*]respectively	context()	negated: False ,passive: True
 0.561	[*A*]O[*R*]were calculated	context()	negated: False ,passive: False
-[LINE#47]These values are consistent with the estimated values from the Shannon's ionic radii; 1.995 as the average between high-spin Fe3+-O (2.045) and low-spin Co3+-O (1.945), and 2.42 for Na-O at the octahedral environment, indicating that NaFe0.5Co0.5O2 is a member of solid solution between O3-NaFeO2 and O3-NaCoO2.
+[LINE#47] These values are consistent with the estimated values from the Shannon's ionic radii; 1.995 as the average between high-spin Fe3+-O (2.045) and low-spin Co3+-O (1.945), and 2.42 for Na-O at the octahedral environment, indicating that NaFe0.5Co0.5O2 is a member of solid solution between O3-NaFeO2 and O3-NaCoO2.
 0.385	[*A*]NaFe0.5Co0.5O2[*R*]is a member of[*A*]solid solution	context()	negated: False ,passive: False
 0.959	[*A*]NaFe0.5Co0.5O2[*R*]is[*A*]a member of solid solution between O3-NaFeO2 and O3-NaCoO2	context(1.995 as the average between high - spin Fe3+ - O ( 2.045 ) and low - spin Co3+ - O ( 1.945 ) , and 2.42 for Na - O at the octahedral environment indicating)	negated: False ,passive: True
 0.987	[*A*]1.995 as the average between high-spin Fe3+-O (2.045) and low-spin Co3+-O (1.945), and 2.42 for Na-O at the octahedral environment[*R*]indicating[*A*]that NaFe0.5Co0.5O2 is a member of solid solution between O3-NaFeO2 and O3-NaCoO2	context()	negated: False ,passive: False
 0.947	[*A*]These values[*R*]are[*A*]consistent with the estimated values from the Shannon's ionic radii	context()	negated: False ,passive: True
-[LINE#48]From SEM image in Fig. 1, the primary particle size of NaFe0.5Co0.5O2 is found to be ~5m with highly dense morphology which is beneficial to make composite electrode with high density.
+[LINE#48] From SEM image in Fig. 1, the primary particle size of NaFe0.5Co0.5O2 is found to be ~5m with highly dense morphology which is beneficial to make composite electrode with high density.
 0.920	[*A*]highly dense morphology[*R*]is[*A*]beneficial to make composite electrode with high density	context()	negated: False ,passive: True
 0.822	[*A*]the primary particle size of NaFe0.5Co0.5O2[*R*]to be ~5 m	context()	negated: False ,passive: False
 0.971	[*A*]the primary particle size of NaFe0.5Co0.5O2[*R*]is found[*A*]From SEM image in Fig	context()	negated: False ,passive: True
-[LINE#49] Initial charge/discharge curves of a Na//NaFe0.5Co0.5O2 cell are shown in Fig.2a with NaFeO2 and NaCoO2 for comparison.
+[LINE#49+50]  Initial charge/discharge curves of a Na//NaFe0.5Co0.5O2 cell are shown in Fig.2a with NaFeO2 and NaCoO2 for comparison.
 0.954	[*A*]Initial charge / discharge curves of a Na / / NaFe0.5Co0.5O2 cell[*R*]are shown[*A*]in Fig.2a[*A*]for comparison	context()	negated: False ,passive: True
-[LINE#50] When cut-off voltage is limited to 3.5V,.
+[LINE#51]  When cut-off voltage is limited to 3.5V,.
 0.919	[*A*]cut-off voltage[*R*]is limited[*A*]to 3.5V	context()	negated: False ,passive: True
-[LINE#51]NaFeO2 electrode shows approximately 100mAhg-1 of reversible capacity with nearly 3.3V flat voltage profile.
+[LINE#52] NaFeO2 electrode shows approximately 100mAhg-1 of reversible capacity with nearly 3.3V flat voltage profile.
 0.999	[*A*]NaFeO2 electrode[*R*]shows[*A*]approximately 100mahg -1	context()	negated: False ,passive: False
 0.964	[*A*]NaFeO2 electrode[*R*]shows[*A*]approximately 100mAhg-1 of reversible capacity with nearly 3.3V flat voltage profile	context()	negated: False ,passive: False
-[LINE#52]Detrimental structural damage of alpha-NaFeO2 structure, presumably because of the irreversible Fe migration into Na layer, restricts the reversibility of NaFeO2 by charge above 3.5V [7].
+[LINE#53] Detrimental structural damage of alpha-NaFeO2 structure, presumably because of the irreversible Fe migration into Na layer, restricts the reversibility of NaFeO2 by charge above 3.5V [7].
 0.972	[*A*]Detrimental structural damage of alpha-NaFeO2 structure, presumably because of the irreversible Fe migration into Na layer[*R*]restricts[*A*]the reversibility of NaFeO2 by charge above 3.5V	context()	negated: False ,passive: False
-[LINE#53] In contrast, NaCoO2 shows >140mAhg-1 of discharge capacity in the voltage range between 2.5 and 4.0V with step-wise voltage profile which is attributed to multiple and reversible phase transitions associated with CoO2 slab gliding and in-plane.
+[LINE#54]  In contrast, NaCoO2 shows >140mAhg-1 of discharge capacity in the voltage range between 2.5 and 4.0V with step-wise voltage profile which is attributed to multiple and reversible phase transitions associated with CoO2 slab gliding and in-plane.
 0.911	[*A*]reversible phase transitions[*R*]associated[*A*]with in-plane	context()	negated: False ,passive: True
 0.925	[*A*]reversible phase transitions[*R*]associated[*A*]with CoO2 slab gliding	context()	negated: False ,passive: True
 0.897	[*A*]step-wise voltage profile[*R*]is attributed[*A*]to reversible phase transitions	context()	negated: False ,passive: True
@@ -195,77 +195,77 @@
 0.925	[*A*]multiple phase transitions[*R*]associated[*A*]with CoO2 slab gliding	context()	negated: False ,passive: True
 0.897	[*A*]step-wise voltage profile[*R*]is attributed[*A*]to multiple phase transitions	context()	negated: False ,passive: True
 0.817	[*A*]NaCoO2[*R*]shows	context()	negated: False ,passive: False
-[LINE#54]Although NaFe0.5Co0.5O2 is regarded as an intermediate solid solution between NaFeO2 and NaCoO2, NaFe0.5Co0.5O2 surprisingly delivers highest reversible capacity of about 160mAhg-1 among the three samples.
+[LINE#55] Although NaFe0.5Co0.5O2 is regarded as an intermediate solid solution between NaFeO2 and NaCoO2, NaFe0.5Co0.5O2 surprisingly delivers highest reversible capacity of about 160mAhg-1 among the three samples.
 0.906	[*A*]NaFe0.5Co0.5O2[*R*]delivers[*A*]highest reversible capacity of about 160mAhg-1[*A*]among the three samples	context()	negated: False ,passive: False
 0.932	[*A*]NaFe0.5Co0.5O2[*R*]is regarded[*A*]as an intermediate solid solution between NaFeO2 and NaCoO2	context()	negated: False ,passive: True
-[LINE#55]It is noted that average operating voltage of NaFe0.5Co0.5O2 (3.14V) in Na cell is higher than 2.96V for NaCoO2.
-[LINE#56] NaFe0.5Co0.5O2 and NaCoO2 show relatively good capacity retention as shown in Fig..
+[LINE#56] It is noted that average operating voltage of NaFe0.5Co0.5O2 (3.14V) in Na cell is higher than 2.96V for NaCoO2.
+[LINE#57]  NaFe0.5Co0.5O2 and NaCoO2 show relatively good capacity retention as shown in Fig..
 0.931	[*A*]NaCoO2[*R*]show[*A*]relatively good capacity retention[*A*]as shown in Fig	context()	negated: False ,passive: False
 0.931	[*A*]NaFe0.5Co0.5O2[*R*]show[*A*]relatively good capacity retention[*A*]as shown in Fig	context()	negated: False ,passive: False
-[LINE#57]Discharge capacity is, however, reduced to approximately 85% after the fifty-cycle test.
+[LINE#58] Discharge capacity is, however, reduced to approximately 85% after the fifty-cycle test.
 0.927	[*A*]Discharge capacity[*R*]is[*A*]however[*A*]reduced to approximately 85% after the fifty-cycle test	context()	negated: False ,passive: True
-[LINE#58]The loss of reversible capacity is expected to be the degradation of electrolyte solution, especially in relation to the non-passivated surface of metallic sodium as a counter electrode [1].
+[LINE#59] The loss of reversible capacity is expected to be the degradation of electrolyte solution, especially in relation to the non-passivated surface of metallic sodium as a counter electrode [1].
 0.913	[*A*]The loss of reversible capacity[*R*]to be[*A*]the degradation of electrolyte solution	context()	negated: False ,passive: True
 0.785	[*A*]The loss of reversible capacity[*R*]is expected	context()	negated: False ,passive: False
-[LINE#59]In NaFe1-yCoyO2 system, large initial capacity of approximately 160mAhg-1 is observed for NaFe0.4Co0.6O2 and NaFe0.6Co0.4O2 similar to NaFe0.5Co0.5O2.
+[LINE#60] In NaFe1-yCoyO2 system, large initial capacity of approximately 160mAhg-1 is observed for NaFe0.4Co0.6O2 and NaFe0.6Co0.4O2 similar to NaFe0.5Co0.5O2.
 0.973	[*A*]large initial capacity of approximately 160mAhg - 1[*R*]is observed[*A*]for NaFe0.6Co0.4O2 similar to NaFe0.5Co0.5O2[*A*]In NaFe1 - yCoyO2 system	context()	negated: False ,passive: True
 0.993	[*A*]large initial capacity of approximately 160mAhg - 1[*R*]is observed In[*A*]nafe1 - ycoyo2 system	context()	negated: False ,passive: False
 0.973	[*A*]large initial capacity of approximately 160mAhg - 1[*R*]is observed[*A*]for NaFe0.4Co0.6O2[*A*]In NaFe1 - yCoyO2 system	context()	negated: False ,passive: True
-[LINE#60]However, it is found that NaFe0.5Co0.5O2 and NaFe0.4Co0.6O2 shows better capacity retention than NaFe0.6Co0.4O2.
-[LINE#61]Therefore, NaFe0.5Co0.5O2 is expected to be the optimum composition in the NaFe1-yCoyO2 system.
+[LINE#61] However, it is found that NaFe0.5Co0.5O2 and NaFe0.4Co0.6O2 shows better capacity retention than NaFe0.6Co0.4O2.
+[LINE#62] Therefore, NaFe0.5Co0.5O2 is expected to be the optimum composition in the NaFe1-yCoyO2 system.
 0.921	[*A*]NaFe0.5Co0.5O2[*R*]to be[*A*]the optimum composition in the NaFe1-yCoyO2 system	context()	negated: False ,passive: True
 0.771	[*A*]NaFe0.5Co0.5O2[*R*]is expected	context()	negated: False ,passive: False
-[LINE#62] Rate capability of the Na//NaFe0.5Co0.5O2 cell at rates of C/20 (12.1mAg-1)-30C (7.23Ag-1) is examined as shown in Fig..
+[LINE#63]  Rate capability of the Na//NaFe0.5Co0.5O2 cell at rates of C/20 (12.1mAg-1)-30C (7.23Ag-1) is examined as shown in Fig..
 0.979	[*A*]Rate capability of the Na//NaFe0.5Co0.5O2 cell at rates of C/20 (12.1mAg-1)-30C[*R*]is examined[*A*]as shown in Fig	context()	negated: False ,passive: True
-[LINE#63]The C-rate is defined based on theoretical capacity calculated from (Fe,Co)3+/4+ redox, which is equal to 241mAhg-1.
+[LINE#64] The C-rate is defined based on theoretical capacity calculated from (Fe,Co)3+/4+ redox, which is equal to 241mAhg-1.
 0.272	[*A*]which[*R*]is equal to[*A*]241mAhg - 1	context()	negated: False ,passive: False
 0.899	[*A*]Fe,Co)3+/4+ redox[*R*]is[*A*]equal to 241mAhg-1	context()	negated: False ,passive: True
 0.947	[*A*]theoretical capacity[*R*]calculated[*A*]from (Fe,Co)3+/4+ redox	context()	negated: False ,passive: True
 0.939	[*A*]The C-rate[*R*]is defined[*A*]based on theoretical capacity	context()	negated: False ,passive: True
-[LINE#64]The cell delivers large reversible capacity (>90% of C/20 rate) with small polarization even at 1C rate (241mAg-1).
+[LINE#65] The cell delivers large reversible capacity (>90% of C/20 rate) with small polarization even at 1C rate (241mAg-1).
 0.947	[*A*]The cell[*R*]delivers[*A*]large reversible capacity (>90% of C/20 rate) with small polarization even at 1C rate	context()	negated: False ,passive: False
-[LINE#65]It is noteworthy to emphasize that the micrometer-sized NaFe0.5Co0.5O2 delivers >100mAhg-1 of discharge capacity even at 30C rate (7.23Ag-1).
+[LINE#66] It is noteworthy to emphasize that the micrometer-sized NaFe0.5Co0.5O2 delivers >100mAhg-1 of discharge capacity even at 30C rate (7.23Ag-1).
 0.999	[*A*]the micrometer sized NaFe0.5Co0.5O2[*R*]delivers[*A*]-1 of discharge capacity	context()	negated: False ,passive: False
-[LINE#66]According to our knowledge, NaxFe0.5Co0.5O2 is one of the highest power positive electrode materials among layered NaxMeO2 materials [3,12-14].
+[LINE#67] According to our knowledge, NaxFe0.5Co0.5O2 is one of the highest power positive electrode materials among layered NaxMeO2 materials [3,12-14].
 0.967	[*A*]NaxFe0.5Co0.5O2[*R*]is[*A*]one of the highest power positive electrode materials among layered NaxMeO2 materials	context()	negated: False ,passive: True
-[LINE#67] Clearly, the rate-capability is highly improved compared with both NaFeO2 (Fig. 3a) and NaCoO2.
+[LINE#68]  Clearly, the rate-capability is highly improved compared with both NaFeO2 (Fig. 3a) and NaCoO2.
 0.947	[*A*]the rate - capability[*R*]is[*A*]highly improved[*A*]compared with NaCoO2	context()	negated: False ,passive: True
 0.947	[*A*]the rate - capability[*R*]is[*A*]highly improved[*A*]compared with both NaFeO2	context()	negated: False ,passive: True
-[LINE#68]The rate capability of NaFe0.5Co0.5O2 is surprisingly much better than that of NaCoO2.
+[LINE#69] The rate capability of NaFe0.5Co0.5O2 is surprisingly much better than that of NaCoO2.
 0.908	[*A*]The rate capability of NaFe0.5Co0.5O2[*R*]is[*A*]surprisingly much better than that of NaCoO2	context()	negated: False ,passive: True
-[LINE#69]From a stepwise voltage profile observed for NaxCoO2, limited rate capability is expected because of the phase boundary movement for two-phase regions and the tendency to Na/vacancy ordering (presumably coupled with charge ordering).
+[LINE#70] From a stepwise voltage profile observed for NaxCoO2, limited rate capability is expected because of the phase boundary movement for two-phase regions and the tendency to Na/vacancy ordering (presumably coupled with charge ordering).
 0.928	[*A*]Na / vacancy ordering[*R*]presumably coupled[*A*]with charge ordering	context()	negated: False ,passive: True
 0.952	[*A*]limited rate capability[*R*]is expected[*A*]because of the phase boundary movement for the tendency to Na / vacancy ordering	context()	negated: False ,passive: True
 0.943	[*A*]limited rate capability[*R*]is expected[*A*]because of the phase boundary movement for two - phase regions	context()	negated: False ,passive: True
 0.931	[*A*]a stepwise voltage profile[*R*]observed[*A*]for NaxCoO2	context()	negated: False ,passive: True
-[LINE#70]Although some voltage plateaus are still observed for NaFe0.5Co0.5O2, our in-situ XRD study revealed that a two phase region for NaFe0.5Co0.5O2 existed only at the beginning of charge process as O3-P3 phase transition [15].
+[LINE#71] Although some voltage plateaus are still observed for NaFe0.5Co0.5O2, our in-situ XRD study revealed that a two phase region for NaFe0.5Co0.5O2 existed only at the beginning of charge process as O3-P3 phase transition [15].
 0.965	[*A*]a two phase region for NaFe0.5Co0.5O2[*R*]existed[*A*]only at the beginning of charge process as O3-P3 phase transition	context(our in-situ XRD study revealed)	negated: False ,passive: True
 0.611	[*A*]our in-situ XRD study[*R*]revealed[*A*]that a two phase region for NaFe0.5Co0.5O2 existed only at the beginning of charge process as O3-P3 phase transition	context()	negated: False ,passive: False
 0.935	[*A*]some voltage plateaus[*R*]are observed[*A*]for NaFe0.5Co0.5O2[*A*]still	context()	negated: False ,passive: True
-[LINE#71]We propose that excellent rate capability originates from the difference in phase transition behavior and faster sodium diffusivity in the P3 phase.
+[LINE#72] We propose that excellent rate capability originates from the difference in phase transition behavior and faster sodium diffusivity in the P3 phase.
 0.941	[*A*]excellent rate capability[*R*]originates[*A*]from the difference in phase transition faster sodium diffusivity in the P3 phase	context(We propose)	negated: False ,passive: True
 0.317	[*A*]We[*R*]propose[*A*]that excellent rate capability originates from the difference in phase transition faster sodium diffusivity in the P3 phase	context()	negated: False ,passive: False
 0.891	[*A*]excellent rate capability[*R*]originates[*A*]from the difference in phase transition behavior	context(We propose)	negated: False ,passive: True
 0.279	[*A*]We[*R*]propose[*A*]that excellent rate capability originates from the difference in phase transition behavior	context()	negated: False ,passive: False
-[LINE#72]These results will be reported elsewhere in the future.
+[LINE#73] These results will be reported elsewhere in the future.
 0.903	[*A*]These results[*R*]will be reported[*A*]elsewhere in the future	context()	negated: False ,passive: True
-[LINE#73]From these results, it is concluded that the cobalt-substitution for Fe in NaFeO2 is effective to much improve its reversibility of sodium insertion and extraction as electrode materials.
+[LINE#74] From these results, it is concluded that the cobalt-substitution for Fe in NaFeO2 is effective to much improve its reversibility of sodium insertion and extraction as electrode materials.
 0.871	[*A*]the cobalt - substitution for Fe in NaFeO2[*R*]to improve[*A*]its reversibility of extraction	context()	negated: False ,passive: False
 0.871	[*A*]the cobalt - substitution for Fe in NaFeO2[*R*]to improve[*A*]its reversibility of sodium insertion as electrode materials	context()	negated: False ,passive: False
-[LINE#74]Ni/Mn substitution for Fe is the effective method to extend the reversibility limit of O3-NaFeO2 [12].
+[LINE#75] Ni/Mn substitution for Fe is the effective method to extend the reversibility limit of O3-NaFeO2 [12].
 0.979	[*A*]Ni/Mn substitution for Fe[*R*]is[*A*]the effective method to extend the reversibility limit of O3-NaFeO2 [12]	context()	negated: False ,passive: True
-[LINE#75]Common characters between NaCoO2 and NaNi0.5Mn0.5O2 are O3-P3 phase transition during the Na extraction process [15,16], which will be reported in elsewhere for more details.
+[LINE#76] Common characters between NaCoO2 and NaNi0.5Mn0.5O2 are O3-P3 phase transition during the Na extraction process [15,16], which will be reported in elsewhere for more details.
 0.964	[*A*]O3-P3 phase transition during the Na extraction process[*R*]will be reported elsewhere[*A*]for more details[*A*]in	context()	negated: False ,passive: True
 0.949	[*A*]Common characters between NaCoO2 and NaNi0.5Mn0.5O2[*R*]are[*A*]O3-P3 phase transition during the Na extraction process	context()	negated: False ,passive: True
-[LINE#76]Additionally, such iron migration process is not observed in P2-type Nax(Fe1/2Mn1/2)O2 [14], which is a layered polymorph possessing the different oxygen stacking.
+[LINE#77] Additionally, such iron migration process is not observed in P2-type Nax(Fe1/2Mn1/2)O2 [14], which is a layered polymorph possessing the different oxygen stacking.
 0.911	[*A*]a layered polymorph[*R*]possessing[*A*]the different oxygen stacking	context()	negated: False ,passive: False
 0.968	[*A*]P2-type Nax(Fe1/2Mn1/2)O2 [14[*R*]is[*A*]a layered polymorph possessing the different oxygen stacking	context()	negated: False ,passive: True
 0.956	[*A*]such iron migration process[*R*]is not observed[*A*]in P2-type Nax(Fe1/2Mn1/2)O2 [14	context()	negated: True ,passive: True
-[LINE#77]Probably, iron ions are not stabilized by the migration from the original octahedral sites to large prismatic sites in the P3- and P2-phases, resulting in suppression of the migration.
+[LINE#78] Probably, iron ions are not stabilized by the migration from the original octahedral sites to large prismatic sites in the P3- and P2-phases, resulting in suppression of the migration.
 0.947	[*A*]iron ions[*R*]are not stabilized[*A*]by the migration from the original octahedral sites to large prismatic sites in the P3 P2 - phases[*A*]resulting in suppression of the migration	context()	negated: True ,passive: True
 0.833	[*A*]P3[*R*]resulting[*A*]in suppression of the migration	context()	negated: False ,passive: True
 0.947	[*A*]iron ions[*R*]are not stabilized[*A*]by the migration from the original octahedral sites to large prismatic sites in[*A*]the P3 - , resulting in suppression of the migration	context()	negated: True ,passive: True
-[LINE#78]We conclude that the suppression of iron migration through these methodologies allows us to design innovative electrode materials based on sodium and iron that are the most Earth-abundant alkali-metal and transition-metal elements, respectively, in the future.
+[LINE#79] We conclude that the suppression of iron migration through these methodologies allows us to design innovative electrode materials based on sodium and iron that are the most Earth-abundant alkali-metal and transition-metal elements, respectively, in the future.
 0.279	[*A*]us[*R*]to design[*A*]innovative electrode materials based on iron that are the most Earth - abundant alkali - transition - metal elements , respectively , in the future	context(We conclude the suppression of iron migration through these methodologies allows)	negated: False ,passive: False
 0.949	[*A*]innovative electrode materials based on iron[*R*]are[*A*]the most Earth - abundant alkali - transition - metal elements , respectively , in the future	context()	negated: False ,passive: True
 0.279	[*A*]us[*R*]to design[*A*]innovative electrode materials based on iron that are the most Earth - abundant alkali - metal elements , respectively , in the future	context(We conclude the suppression of iron migration through these methodologies allows)	negated: False ,passive: False

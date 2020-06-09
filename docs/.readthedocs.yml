@@ -21,10 +21,7 @@ formats:
 python:
   version: 3.7
   install:
-    - requirements: requirements.txt
-    
-conda:
-  environment: docs/environment.yml
+    - requirements: docs/readthedocs.txt
 
 build:
   image: latest

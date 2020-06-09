@@ -1,140 +1,140 @@
-[LINE#1]A control system for a vertical axis wind turbine is presented.
+[LINE#0] A control system for a vertical axis wind turbine is presented.
 0.843	[*A*]A control system for a vertical axis wind turbine[*R*]is presented	context()	negated: False ,passive: False
-[LINE#2]The electric load is determined solely from the rotational velocity and the characteristics of the turbine, thus measurements of the incoming wind speed are not required.
+[LINE#1] The electric load is determined solely from the rotational velocity and the characteristics of the turbine, thus measurements of the incoming wind speed are not required.
 0.816	[*A*]thus measurements of the incoming wind speed[*R*]are not required	context()	negated: True ,passive: False
 0.751	[*A*]The electric load[*R*]is determined	context()	negated: False ,passive: False
 0.699	[*A*]The electric load[*R*]is determined	context(measurements of the incoming wind speed are not required)	negated: False ,passive: False
 0.756	[*A*]measurements of the incoming wind speed[*R*]are not required	context()	negated: True ,passive: False
-[LINE#3]The control system is evaluated with an aerodynamic vortex model coupled with an electrical model.
+[LINE#2] The control system is evaluated with an aerodynamic vortex model coupled with an electrical model.
 0.919	[*A*]an aerodynamic vortex model[*R*]coupled[*A*]with an electrical model	context()	negated: False ,passive: True
 0.751	[*A*]The control system[*R*]is evaluated	context()	negated: False ,passive: False
-[LINE#4]Three different sets of control system parameters are tested, representing different tradeoffs between a high power absorption and achieving a fast control strategy with high stability.
+[LINE#3] Three different sets of control system parameters are tested, representing different tradeoffs between a high power absorption and achieving a fast control strategy with high stability.
 0.953	[*A*]Three different sets of control system parameters[*R*]are tested[*A*]representing different tradeoffs between a high power absorption and achieving a fast control strategy with high stability	context()	negated: False ,passive: True
-[LINE#5]The simulations show that the three control strategies provide a similar power absorption as a reference strategy based on known wind speed.
+[LINE#4] The simulations show that the three control strategies provide a similar power absorption as a reference strategy based on known wind speed.
 0.900	[*A*]the three control strategies[*R*]provide[*A*]a similar power absorption	context(The simulations show)	negated: False ,passive: False
 0.853	[*A*]The simulations[*R*]show[*A*]that the three control strategies provide a similar power absorption as a reference strategy	context()	negated: False ,passive: False
 0.911	[*A*]a reference strategy[*R*]based[*A*]on known wind speed	context()	negated: False ,passive: True
-[LINE#6]For dynamic simulations with fast changes in wind speed, the fast control strategies are beneficial.
+[LINE#5] For dynamic simulations with fast changes in wind speed, the fast control strategies are beneficial.
 0.799	[*A*]the fast control strategies[*R*]are[*A*]beneficial	context()	negated: False ,passive: True
-[LINE#7]All control strategies are stable throughout the simulations when proper power absorption characteristics of the turbine are used.
+[LINE#6] All control strategies are stable throughout the simulations when proper power absorption characteristics of the turbine are used.
 0.816	[*A*]proper power absorption characteristics of the turbine[*R*]are used	context()	negated: False ,passive: False
 0.911	[*A*]All control strategies[*R*]are[*A*]stable[*A*]throughout the simulations	context()	negated: False ,passive: True
-[LINE#8]It is also shown that if peak power absorption is estimated at a too low tip speed ratio, the control strategies may inadvertently stop the turbine.
+[LINE#7] It is also shown that if peak power absorption is estimated at a too low tip speed ratio, the control strategies may inadvertently stop the turbine.
 0.911	[*A*]peak power absorption[*R*]is estimated[*A*]at a too low tip speed ratio	context()	negated: False ,passive: True
-[LINE#9]A simple control system, which only uses the rotational velocity as input, can be sufficient for controlling a vertical axis turbine.
+[LINE#8] A simple control system, which only uses the rotational velocity as input, can be sufficient for controlling a vertical axis turbine.
 0.958	[*A*]A simple control system, which only uses the rotational velocity as input[*R*]can be[*A*]sufficient for controlling a vertical axis turbine	context()	negated: False ,passive: True
 0.905	[*A*]A simple control system[*R*]uses[*A*]the rotational velocity as input	context()	negated: False ,passive: False
-[LINE#10]A combined aerodynamic-electrical simulation model has been used to evaluate the effectiveness of the control system.
+[LINE#9] A combined aerodynamic-electrical simulation model has been used to evaluate the effectiveness of the control system.
 0.927	[*A*]A combined aerodynamic-electrical simulation model[*R*]to evaluate[*A*]the effectiveness of the control system	context()	negated: False ,passive: False
 0.938	[*A*]A combined aerodynamic-electrical simulation model[*R*]has been used[*A*]to evaluate the effectiveness of the control system	context()	negated: False ,passive: True
-[LINE#11]The simulated performance is only slightly lower than for a reference control strategy with known wind speed.
+[LINE#10] The simulated performance is only slightly lower than for a reference control strategy with known wind speed.
 0.956	[*A*]The simulated performance[*R*]is[*A*]only slightly lower than for a reference control strategy with known wind speed	context()	negated: False ,passive: True
-[LINE#12]The difficulties of proper wind speed measurements make this simplified control strategy an attractive option.
+[LINE#11] The difficulties of proper wind speed measurements make this simplified control strategy an attractive option.
 0.938	[*A*]The difficulties of proper wind speed measurements[*R*]make[*A*]this simplified control strategy an attractive option	context()	negated: False ,passive: False
-[LINE#13]By decreasing the extracted energy at low rotational velocities, better stability can be achieved.
+[LINE#12] By decreasing the extracted energy at low rotational velocities, better stability can be achieved.
 0.732	[*A*]better stability[*R*]can be achieved	context()	negated: False ,passive: False
-[LINE#14]For rapidly oscillating wind conditions, this modification can also increase the extracted power.
+[LINE#13] For rapidly oscillating wind conditions, this modification can also increase the extracted power.
 0.916	[*A*]this modification[*R*]can increase[*A*]the extracted power[*A*]For rapidly oscillating wind conditions	context()	negated: False ,passive: False
-[LINE#15]The control strategy relies on accurate estimates of CPmax and, even more importantly, max.
+[LINE#14] The control strategy relies on accurate estimates of CPmax and, even more importantly, max.
 0.923	[*A*]The control strategy[*R*]relies even more importantly[*A*]on accurate estimates of CPmax	context()	negated: False ,passive: False
-[LINE#16]For system stability a slight overestimation of max is beneficial.
+[LINE#15] For system stability a slight overestimation of max is beneficial.
 0.853	[*A*]a slight overestimation of max[*R*]is[*A*]beneficial	context()	negated: False ,passive: True
-[LINE#17] Control theoryThe power extracted from a turbine is(2)P=12CPAV3,where A is the turbine area,  is the fluid density and CP.
+[LINE#16]  Control theoryThe power extracted from a turbine is(2)P=12CPAV3,where A is the turbine area,  is the fluid density and CP.
 0.449	[*A*]A[*R*]is[*A*]the turbine area	context()	negated: False ,passive: True
 0.933	[*A*]Control theoryThe power[*R*]extracted[*A*]from a turbine	context()	negated: False ,passive: True
-[LINE#18]The power coefficient is primarily a function of the tip speed ratio but does also depend on the Reynolds number, as can be seen in Fig. 2, where the turbine has been simulated for different wind speeds.
+[LINE#17] The power coefficient is primarily a function of the tip speed ratio but does also depend on the Reynolds number, as can be seen in Fig. 2, where the turbine has been simulated for different wind speeds.
 0.880	[*A*]The power[*R*]does depend[*A*]on the Reynolds number[*A*]as can be seen in Fig	context()	negated: False ,passive: False
 0.903	[*A*]the turbine[*R*]has been simulated[*A*]for different wind speeds	context()	negated: False ,passive: True
 0.932	[*A*]The power coefficient[*R*]is[*A*]primarily[*A*]a function of the tip speed ratio	context()	negated: False ,passive: True
-[LINE#19]Turbine details are described in Section 5.The peak of the power coefficient curves occurs at approximately the same tip speed ratio max.
+[LINE#18] Turbine details are described in Section 5.The peak of the power coefficient curves occurs at approximately the same tip speed ratio max.
 0.903	[*A*]Turbine details[*R*]are described[*A*]in Section 5.The	context()	negated: False ,passive: True
-[LINE#20]The peak value of the power coefficient, CPmax, is higher for higher wind speeds since the stall angle increases and the drag decreases for a wing with increased Reynolds number.
+[LINE#19] The peak value of the power coefficient, CPmax, is higher for higher wind speeds since the stall angle increases and the drag decreases for a wing with increased Reynolds number.
 0.789	[*A*]The peak value of the power coefficient[*R*]increased	context()	negated: False ,passive: False
 0.918	[*A*]the drag[*R*]decreases[*A*]for a wing with increased Reynolds number	context()	negated: False ,passive: True
 0.927	[*A*]CPmax[*R*]is[*A*]higher for higher wind speeds since the stall angle increases and the drag decreases for a wing with increased Reynolds number	context()	negated: False ,passive: True
-[LINE#21]The angular acceleration of the turbine is determined by(3)=P-PeJ,where Pe is the total mechanical power absorbed by the generator and J is the combined angular inertia of the turbine and drive train.
+[LINE#20] The angular acceleration of the turbine is determined by(3)=P-PeJ,where Pe is the total mechanical power absorbed by the generator and J is the combined angular inertia of the turbine and drive train.
 0.887	[*A*]J[*R*]is[*A*]the combined angular inertia of the turbine	context()	negated: False ,passive: True
 0.919	[*A*]the total mechanical power[*R*]absorbed[*A*]by the generator	context()	negated: False ,passive: True
 0.887	[*A*]Pe[*R*]is[*A*]the total mechanical power absorbed by the generator	context()	negated: False ,passive: True
 0.943	[*A*]The angular acceleration of the turbine[*R*]is determined[*A*]by(3)=P-PeJ	context()	negated: False ,passive: True
-[LINE#22]Most control strategies strive to maintain the  that optimises CP by varying Pe.
-[LINE#23]One way to accomplish this is to rely on real-time measurements of the wind speed, combined with an estimate of max.
+[LINE#21] Most control strategies strive to maintain the  that optimises CP by varying Pe.
+[LINE#22] One way to accomplish this is to rely on real-time measurements of the wind speed, combined with an estimate of max.
 0.897	[*A*]the wind speed[*R*]combined[*A*]with an estimate of max	context()	negated: False ,passive: True
 0.964	[*A*]One way to accomplish this[*R*]is[*A*]to rely on real-time measurements of the wind speed	context()	negated: False ,passive: True
-[LINE#24] This paper investigates control strategies where the extracted power is determined from the rotor speed alone1 shows the variation of aerodynamic power, P, with the rotational velocity for a given wind speed.
+[LINE#23+24]  This paper investigates control strategies where the extracted power is determined from the rotor speed alone1 shows the variation of aerodynamic power, P, with the rotational velocity for a given wind speed.
 0.943	[*A*]the extracted power[*R*]is determined[*A*]from the rotor speed alone1 shows the variation of aerodynamic power, P, with the rotational velocity for a given wind speed	context()	negated: False ,passive: True
 0.937	[*A*]This paper[*R*]investigates[*A*]control strategies where the extracted power is determined from the rotor speed alone1 shows the variation of aerodynamic power, P, with the rotational velocity for a given wind speed	context()	negated: False ,passive: False
-[LINE#25]In the same figure, an example of a control strategy based on the extracted power is illustrated.
+[LINE#25] In the same figure, an example of a control strategy based on the extracted power is illustrated.
 0.945	[*A*]an example of a control strategy[*R*]is illustrated[*A*]In the same figure	context()	negated: False ,passive: True
 0.911	[*A*]a control strategy[*R*]based[*A*]on the extracted power	context()	negated: False ,passive: True
-[LINE#26] (3), the turbine will increase its rotational velocity whenever P>Pe, decrease its rotational velocity if P<.
+[LINE#26]  (3), the turbine will increase its rotational velocity whenever P>Pe, decrease its rotational velocity if P<.
 0.802	[*A*]the turbine[*R*]will increase[*A*]its rotational velocity	context(whenever P > Pe decrease)	negated: False ,passive: False
 0.849	[*A*]whenever P>Pe[*R*]decrease[*A*]its rotational velocity	context()	negated: False ,passive: False
-[LINE#27] Pe and the control strategy will have an equilibrium whenever P.
+[LINE#27]  Pe and the control strategy will have an equilibrium whenever P.
 0.925	[*A*]the control strategy[*R*]will have[*A*]an equilibrium[*A*]whenever P.	context()	negated: False ,passive: False
 0.877	[*A*]Pe[*R*]will have[*A*]an equilibrium[*A*]whenever P.	context()	negated: False ,passive: False
-[LINE#28]In the case of Fig. 1, there is one stable region for high rotational velocities, while for too low rotational velocities, the extracted power is higher than the aerodynamic power and the turbine will stop.
+[LINE#28] In the case of Fig. 1, there is one stable region for high rotational velocities, while for too low rotational velocities, the extracted power is higher than the aerodynamic power and the turbine will stop.
 0.732	[*A*]the turbine[*R*]will stop	context()	negated: False ,passive: False
 0.828	[*A*]the extracted power[*R*]is[*A*]higher	context()	negated: False ,passive: True
 0.932	[*A*]the extracted power[*R*]is[*A*]higher than the aerodynamic power	context()	negated: False ,passive: True
-[LINE#29] The speed of the control strategy depends on the difference between the turbine torque T=P/ and the generator torque.
+[LINE#29]  The speed of the control strategy depends on the difference between the turbine torque T=P/ and the generator torque.
 0.932	[*A*]The speed of the control strategy[*R*]depends[*A*]on the difference between the turbine torque	context()	negated: False ,passive: False
-[LINE#30]Pe/, as this is the torque that accelerates/decelerates the turbine, see Eq.
+[LINE#30] Pe/, as this is the torque that accelerates/decelerates the turbine, see Eq.
 0.905	[*A*]the torque[*R*]see[*A*]Eq	context()	negated: False ,passive: False
 0.887	[*A*]the torque[*R*]decelerates[*A*]the turbine	context()	negated: False ,passive: False
 0.698	[*A*]the torque[*R*]accelerates	context()	negated: False ,passive: False
 0.365	[*A*]this[*R*]is[*A*]the torque that accelerates/decelerates the turbine, see Eq	context()	negated: False ,passive: True
-[LINE#31] If this strategy operates at the stable equilibrium and there is an increase in wind speed, the aerodynamic power will increase, hence P.
+[LINE#31]  If this strategy operates at the stable equilibrium and there is an increase in wind speed, the aerodynamic power will increase, hence P.
 0.751	[*A*]the aerodynamic power[*R*]will increase	context()	negated: False ,passive: False
 0.732	[*A*]this strategy[*R*]operates	context()	negated: False ,passive: False
-[LINE#32] Pe and the turbine will accelerate until a new equilibrium is reached.
+[LINE#32]  Pe and the turbine will accelerate until a new equilibrium is reached.
 0.903	[*A*]the turbine[*R*]will accelerate[*A*]until a new equilibrium is reached	context()	negated: False ,passive: True
 0.751	[*A*]a new equilibrium[*R*]is reached	context()	negated: False ,passive: False
 0.855	[*A*]Pe[*R*]will accelerate[*A*]until a new equilibrium is reached	context()	negated: False ,passive: False
-[LINE#33]Similarly, a decrease in wind speed will decrease the turbine rotational velocity.
+[LINE#33] Similarly, a decrease in wind speed will decrease the turbine rotational velocity.
 0.926	[*A*]a decrease in wind speed[*R*]will decrease[*A*]the turbine rotational velocity	context()	negated: False ,passive: False
-[LINE#34]The aim of the control strategy is, for each wind speed, to have a stable equilibrium at a rotational velocity that gives a high power coefficient.
+[LINE#34] The aim of the control strategy is, for each wind speed, to have a stable equilibrium at a rotational velocity that gives a high power coefficient.
 0.897	[*A*]a rotational velocity[*R*]gives[*A*]a high power coefficient	context()	negated: False ,passive: False
 0.938	[*A*]The aim of the control strategy[*R*]is[*A*]for each wind speed	context()	negated: False ,passive: True
-[LINE#35]To tune this strategy for the highest power coefficient at a given wind speed, both max and CPmax have to be known at this speed..
+[LINE#35] To tune this strategy for the highest power coefficient at a given wind speed, both max and CPmax have to be known at this speed..
 0.833	[*A*]CPmax[*R*]to be known[*A*]at this speed	context()	negated: False ,passive: True
 0.342	[*A*]both[*R*]to be known[*A*]at this speed	context()	negated: False ,passive: True
-[LINE#36] Studied control strategiesOne control strategy is to adjust the extracted power to be proportional to the cube of the rotational velocity.
+[LINE#36]  Studied control strategiesOne control strategy is to adjust the extracted power to be proportional to the cube of the rotational velocity.
 0.943	[*A*]Studied control strategiesOne control strategy[*R*]is[*A*]to adjust the extracted power	context()	negated: False ,passive: True
-[LINE#37] A),(4)Pe*=k23,where k2 is a constant and.
+[LINE#37]  A),(4)Pe*=k23,where k2 is a constant and.
 0.925	[*A*]k2[*R*]is[*A*]a constant[*A*]Pe*=k23	context()	negated: False ,passive: True
-[LINE#38]Pe* is the target mechanical power.
+[LINE#38] Pe* is the target mechanical power.
 0.887	[*A*]Pe*[*R*]is[*A*]the target mechanical power	context()	negated: False ,passive: True
-[LINE#39]This control strategy has been used for HAWTs before, see Ref.
+[LINE#39] This control strategy has been used for HAWTs before, see Ref.
 0.925	[*A*]This control strategy[*R*]has been used[*A*]for HAWTs[*A*]before[*A*]see Ref	context()	negated: False ,passive: True
-[LINE#40]is(5)CPe=Pe*12AV3,which, by using Eqs.
-[LINE#41] (1) and (4), can be rewritten as(6)CPe=k212A3R3.Note(6) only depends on , whereby the strategy has a similar behaviour for different wind speeds.
+[LINE#40] is(5)CPe=Pe*12AV3,which, by using Eqs.
+[LINE#41+42]  (1) and (4), can be rewritten as(6)CPe=k212A3R3.Note(6) only depends on , whereby the strategy has a similar behaviour for different wind speeds.
 0.925	[*A*]the strategy[*R*]has[*A*]a similar behaviour for different wind speeds	context()	negated: False ,passive: False
-[LINE#42] The normalised extracted power is plotted in Fig..
+[LINE#43]  The normalised extracted power is plotted in Fig..
 0.931	[*A*]The normalised extracted power[*R*]is plotted[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#43]The control strategy is designed to have its stable equilibrium at the peak of the 6 m/s curve and power extraction is thereby optimised at this velocity.
+[LINE#44] The control strategy is designed to have its stable equilibrium at the peak of the 6 m/s curve and power extraction is thereby optimised at this velocity.
 0.825	[*A*]The control strategy[*R*]to have[*A*]its stable equilibrium[*A*]at the peak of power extraction	context()	negated: False ,passive: False
 0.899	[*A*]The control strategy[*R*]is designed[*A*]to have its stable equilibrium at the peak of power extraction	context()	negated: False ,passive: True
 0.850	[*A*]The control strategy[*R*]is optimised[*A*]at this velocity	context()	negated: False ,passive: True
 0.883	[*A*]The control strategy[*R*]to have[*A*]its stable equilibrium[*A*]at the peak of the 6 m / s curve	context()	negated: False ,passive: False
 0.899	[*A*]The control strategy[*R*]is designed[*A*]to have its stable equilibrium at the peak of the 6 m / s curve	context()	negated: False ,passive: True
-[LINE#44]As the power coefficient increases with the wind speed, there is a small shift in the equilibrium tip speed ratio e towards higher values for increasing wind speeds.
-[LINE#45] 2 shows that this strategy is stable for all rotational velocities at the windspeeds 6 m/s and 12 m/s, while for 3 m/s, the turbine will stop if the tip speed ratio drops below 2.2.
+[LINE#45] As the power coefficient increases with the wind speed, there is a small shift in the equilibrium tip speed ratio e towards higher values for increasing wind speeds.
+[LINE#46+47]  2 shows that this strategy is stable for all rotational velocities at the windspeeds 6 m/s and 12 m/s, while for 3 m/s, the turbine will stop if the tip speed ratio drops below 2.2.
 0.991	[*A*]2 shows[*R*]m[*A*]12 s	context()	negated: False ,passive: False
 0.964	[*A*]the turbine[*R*]will stop[*A*]if the tip speed ratio drops below 2.2[*A*]6 m 12 m / s , while for 3 m / s	context()	negated: False ,passive: False
 0.982	[*A*]2 shows that this strategy is stable for all rotational velocities at the windspeeds[*R*]m[*A*]12 m / s[*A*]while for 3 m / s , the turbine will stop if the tip speed ratio drops below 2.2	context()	negated: False ,passive: False
 0.841	[*A*]the tip speed ratio[*R*]drops[*A*]below 2.2	context()	negated: False ,passive: True
 0.943	[*A*]the turbine[*R*]will stop[*A*]if the tip speed ratio drops below 2.2[*A*]for 3 m / s	context()	negated: False ,passive: False
 0.813	[*A*]this strategy[*R*]is[*A*]stable	context()	negated: False ,passive: True
-[LINE#46]At low tip speed ratios, the turbine acceleration is low for all wind speeds due to the close proximity of CP and CPe.
+[LINE#48] At low tip speed ratios, the turbine acceleration is low for all wind speeds due to the close proximity of CP and CPe.
 0.960	[*A*]the turbine acceleration[*R*]is[*A*]low[*A*]At low tip speed ratios	context()	negated: False ,passive: True
-[LINE#47] One way to avoid the problem with an unstable region for the 3 m/s curve, and to obtain a faster control strategy, is to introduce a second order term accordingto(7){Pe*=00,Pe*=k12(-0)>0,where and k1 and 0 are constants (strategy B).
+[LINE#49+50]  One way to avoid the problem with an unstable region for the 3 m/s curve, and to obtain a faster control strategy, is to introduce a second order term accordingto(7){Pe*=00,Pe*=k12(-0)>0,where and k1 and 0 are constants (strategy B).
 0.968	[*A*]One way to obtain a faster control strategy[*R*]is[*A*]to introduce a second order term accordingto ( 7 ) { Pe*=00	context()	negated: False ,passive: True
 0.949	[*A*]One way to obtain a faster control strategy[*R*]is[*A*]to introduce a second order term accordingto	context()	negated: False ,passive: True
 0.523	[*A*]0[*R*]are[*A*]constants[*A*]> 0	context()	negated: False ,passive: True
 0.986	[*A*]One way to avoid the problem with an unstable region for the 3 m / s curve[*R*]is[*A*]to introduce a second order term accordingto ( 7 ) { Pe*=00	context()	negated: False ,passive: True
 0.978	[*A*]One way to avoid the problem with an unstable region for the 3 m / s curve[*R*]is[*A*]to introduce a second order term accordingto	context()	negated: False ,passive: True
-[LINE#48] For the control strategy showed in Fig. 3, k1 and 0 are chosen so that the turbine starts to absorb power at =4 for 3 m/s wind speed and maximum CP.
+[LINE#51+52]  For the control strategy showed in Fig. 3, k1 and 0 are chosen so that the turbine starts to absorb power at =4 for 3 m/s wind speed and maximum CP.
 0.302	[*A*]0[*R*]are chosen[*A*]so that the turbine starts to absorb power at =4 for 3 m / s maximum CP	context()	negated: False ,passive: True
 0.265	[*A*]0[*R*]are chosen[*A*]so that the turbine starts to absorb power at =4 for 3 m / s wind speed	context()	negated: False ,passive: True
 0.754	[*A*]k1[*R*]are chosen[*A*]so that the turbine starts to absorb power at =4 for 3 m / s maximum CP	context()	negated: False ,passive: True
@@ -145,344 +145,344 @@
 0.784	[*A*]the turbine[*R*]starts	context()	negated: False ,passive: False
 0.936	[*A*]For the control strategy showed in Fig . 3[*R*]are chosen[*A*]so that the turbine starts to absorb power at =4 for 3 m / s wind speed	context()	negated: False ,passive: True
 0.925	[*A*]the control strategy[*R*]showed[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#49]With this modification of the control strategy, the tip speed ratio will be higher at low wind speeds (e=5.2 at 3 m/s) and lower at high wind speeds (e=3.7 at 12 m/s) compared to the design value max=4.1 at 6 m/s.
+[LINE#53] With this modification of the control strategy, the tip speed ratio will be higher at low wind speeds (e=5.2 at 3 m/s) and lower at high wind speeds (e=3.7 at 12 m/s) compared to the design value max=4.1 at 6 m/s.
 0.919	[*A*]the tip speed ratio[*R*]will be[*A*]higher[*A*]at low wind speeds[*A*]compared to the design value	context()	negated: False ,passive: True
-[LINE#50]For the 3 m/s and 6 m/s cases, the new strategy has larger differences between extracted and absorbed power for all values below the equilibrium, while for the 12 m/s case, only the region below =2 shows larger margins.
+[LINE#54] For the 3 m/s and 6 m/s cases, the new strategy has larger differences between extracted and absorbed power for all values below the equilibrium, while for the 12 m/s case, only the region below =2 shows larger margins.
 0.956	[*A*]the new strategy[*R*]has[*A*]larger differences between extracted and absorbed power for all values below the equilibrium[*A*]while for the 12 m / s case , only the region below =2 shows larger margins	context()	negated: False ,passive: False
 0.943	[*A*]only the region below =2[*R*]shows[*A*]larger margins	context()	negated: False ,passive: False
 0.975	[*A*]the new strategy[*R*]has[*A*]larger differences between extracted and absorbed power for all values below the equilibrium[*A*]while for the 12 m / s case , only the region below =2 shows larger margins[*A*]For the 3 m / s	context()	negated: False ,passive: False
-[LINE#51]These larger differences in power, combined with a smaller range of rotational velocities, provide a faster control at the expense of steady state operation further away from max.
+[LINE#55] These larger differences in power, combined with a smaller range of rotational velocities, provide a faster control at the expense of steady state operation further away from max.
 0.962	[*A*]These larger differences in power, combined with a smaller range of rotational velocities[*R*]provide[*A*]a faster control	context()	negated: False ,passive: False
 0.913	[*A*]These larger differences in power[*R*]combined[*A*]with a smaller range of rotational velocities	context()	negated: False ,passive: True
-[LINE#52]Note that forcing the turbine to operate at lower tip speed ratio for high wind speeds can be favourable from a structural mechanical point of view as it reduces structural loads.
+[LINE#56] Note that forcing the turbine to operate at lower tip speed ratio for high wind speeds can be favourable from a structural mechanical point of view as it reduces structural loads.
 0.452	[*A*]it[*R*]reduces[*A*]structural loads	context()	negated: False ,passive: False
 0.732	[*A*]the turbine[*R*]to operate	context()	negated: False ,passive: False
-[LINE#53]The third case (strategy C), is a mix of the two previous strategies, where strategy A is used in a middle region between 1 and 2, and a more rapid change in extracted power is used between 0 to 1 and above 2 up to the rated rotational velocity.
+[LINE#57] The third case (strategy C), is a mix of the two previous strategies, where strategy A is used in a middle region between 1 and 2, and a more rapid change in extracted power is used between 0 to 1 and above 2 up to the rated rotational velocity.
 0.842	[*A*]a more rapid change in extracted power[*R*]is used[*A*]between 0	context()	negated: False ,passive: True
 0.903	[*A*]strategy A[*R*]is used[*A*]in a middle region[*A*]between 1 and 2	context()	negated: False ,passive: True
 0.920	[*A*]The third case[*R*]is[*A*]a mix of the two previous strategies	context()	negated: False ,passive: True
-[LINE#54]This is accomplished by(8){Pe*=00,Pe*=k12(-0)0<1,Pe*=k231<2,Pe*=k32(-2)+k2222<,where(9)k1=11-0k2due to continuity.
+[LINE#58] This is accomplished by(8){Pe*=00,Pe*=k12(-0)0<1,Pe*=k231<2,Pe*=k32(-2)+k2222<,where(9)k1=11-0k2due to continuity.
 0.178	[*A*]This[*R*]is accomplished[*A*]by(8	context()	negated: False ,passive: True
-[LINE#55]The parameter values for strategies A-C are given in Table 1.The upper limit, 2, in Eq.
+[LINE#59] The parameter values for strategies A-C are given in Table 1.The upper limit, 2, in Eq.
 0.813	[*A*]C[*R*]are given[*A*]in Table 1.The upper limit	context()	negated: False ,passive: True
-[LINE#56](8) should be chosen with regard to structural and electrical aspects of the system.
+[LINE#60] (8) should be chosen with regard to structural and electrical aspects of the system.
 0.992	[*A*]8[*R*]should be chosen with[*A*]regard to electrical aspects of the system	context()	negated: False ,passive: False
 0.992	[*A*]8[*R*]should be chosen with[*A*]regard to structural aspects of the system	context()	negated: False ,passive: False
 0.133	[*A*]8[*R*]should be chosen	context()	negated: False ,passive: False
-[LINE#57]Optimal parameter values depend on desired turbine operation where structural, mechanical and electrical considerations are important.
+[LINE#61] Optimal parameter values depend on desired turbine operation where structural, mechanical and electrical considerations are important.
 0.943	[*A*]electrical considerations[*R*]are[*A*]important[*A*]desired turbine operation	context()	negated: False ,passive: True
 0.943	[*A*]mechanical considerations[*R*]are[*A*]important[*A*]desired turbine operation	context()	negated: False ,passive: True
 0.943	[*A*]structural considerations[*R*]are[*A*]important[*A*]desired turbine operation	context()	negated: False ,passive: True
 0.911	[*A*]Optimal parameter values[*R*]depend[*A*]on desired turbine operation	context()	negated: False ,passive: False
-[LINE#58] The equilibrium of strategy C is identical to that of strategy A between 4.5 m/s and 9 m/s, and 0 is kept to the same value as in strategy.
+[LINE#62]  The equilibrium of strategy C is identical to that of strategy A between 4.5 m/s and 9 m/s, and 0 is kept to the same value as in strategy.
 0.381	[*A*]0[*R*]is kept[*A*]to the same value as in strategy	context()	negated: False ,passive: True
 0.906	[*A*]The equilibrium of strategy C[*R*]is[*A*]identical to that of strategy A between 4.5 m/s and 9 m/s	context()	negated: False ,passive: True
-[LINE#59]For simplicity, k1=k3 is chosen, which slightly lowers the tip speed ratio at high wind speeds.
+[LINE#63] For simplicity, k1=k3 is chosen, which slightly lowers the tip speed ratio at high wind speeds.
 0.544	[*A*]slightly[*R*]lowers[*A*]the tip speed ratio at high wind speeds	context()	negated: False ,passive: True
 0.713	[*A*]k1=k3[*R*]is chosen	context()	negated: False ,passive: False
-[LINE#60]The differences between strategies B and C can be seen from a comparison of Figs.
+[LINE#64] The differences between strategies B and C can be seen from a comparison of Figs.
 0.948	[*A*]The differences between strategies B and C[*R*]can be seen[*A*]from a comparison of Figs	context()	negated: False ,passive: True
-[LINE#61]At low tip speed ratios for 12 m/s, the extracted power of strategy C is somewhat closer to the aerodynamic power, but it has larger margins at tip speed ratios closer to the peak.
+[LINE#65] At low tip speed ratios for 12 m/s, the extracted power of strategy C is somewhat closer to the aerodynamic power, but it has larger margins at tip speed ratios closer to the peak.
 0.637	[*A*]it[*R*]has[*A*]larger margins at tip speed ratios closer to the peak	context()	negated: False ,passive: False
 0.976	[*A*]the extracted power of strategy[*R*]is[*A*]somewhat closer to the aerodynamic power[*A*]At low tip speed ratios for 12 m / s	context()	negated: False ,passive: True
-[LINE#62]The decrease in tip speed ratio for the equilibrium is a reasonable design choice since lower rotational velocity reduces the forces on the turbine at high wind speed.
+[LINE#66] The decrease in tip speed ratio for the equilibrium is a reasonable design choice since lower rotational velocity reduces the forces on the turbine at high wind speed.
 0.911	[*A*]lower rotational velocity[*R*]reduces[*A*]the forces on the turbine	context()	negated: False ,passive: False
 0.975	[*A*]The decrease in tip speed ratio for the equilibrium[*R*]is[*A*]a reasonable design choice[*A*]since lower rotational velocity reduces the forces on the turbine at high wind speed	context()	negated: False ,passive: True
-[LINE#63] The 3 m/s case has its equilibrium at =4.9 instead of 5.2, while still having large differences between P and Pe*.
+[LINE#67]  The 3 m/s case has its equilibrium at =4.9 instead of 5.2, while still having large differences between P and Pe*.
 0.989	[*A*]The 3 m s case[*R*]has equilibrium of[*A*]4.9 instead of 5.2	context()	negated: False ,passive: False
 0.908	[*A*]The 3 m/s case[*R*]has[*A*]its equilibrium at =4.9 instead of 5.2[*A*]while still having large differences between P and Pe*	context()	negated: False ,passive: False
-[LINE#64] To further illustrate the control strategies at low rotational velocities, the power and torque are plotted against the rotational velocity in Fig.5 and are compared to the aerodynamic torque for wind speeds of 4.5 m/s and 6 m/s.
+[LINE#68+69]  To further illustrate the control strategies at low rotational velocities, the power and torque are plotted against the rotational velocity in Fig.5 and are compared to the aerodynamic torque for wind speeds of 4.5 m/s and 6 m/s.
 0.732	[*A*]the torque[*R*]are plotted	context()	negated: False ,passive: False
 0.732	[*A*]the power[*R*]are plotted	context()	negated: False ,passive: False
-[LINE#65]The equilibria in the power plot illustrate the steady state performance while the speed of the control strategy is directly proportional to the difference in torque.
+[LINE#70] The equilibria in the power plot illustrate the steady state performance while the speed of the control strategy is directly proportional to the difference in torque.
 0.948	[*A*]the speed of the control strategy[*R*]is[*A*]directly proportional to the difference in torque	context()	negated: False ,passive: True
 0.956	[*A*]The equilibria in the power plot[*R*]illustrate[*A*]the steady state performance[*A*]while the speed of the control strategy is directly proportional to the difference in torque	context()	negated: False ,passive: False
-[LINE#66]For the 6 m/s equilibrium, the higher slope of strategy B in the torque plot corresponds to a more rapid response of this strategy.
+[LINE#71] For the 6 m/s equilibrium, the higher slope of strategy B in the torque plot corresponds to a more rapid response of this strategy.
 0.953	[*A*]the higher slope of strategy B in the torque plot[*R*]corresponds[*A*]to a more rapid response of this strategy	context()	negated: False ,passive: True
-[LINE#67]Further, the decreased generated torque of strategy C (compared to A) at 1.4 shows the improvements in response times for this strategy at low rotational velocities.
+[LINE#72] Further, the decreased generated torque of strategy C (compared to A) at 1.4 shows the improvements in response times for this strategy at low rotational velocities.
 0.984	[*A*]the decreased generated torque of strategy C (compared to A) at 1.4[*R*]shows[*A*]the improvements in response times for this strategy at low rotational velocities	context()	negated: False ,passive: False
-[LINE#68] To compare all three strategies for the whole interval between 3 m/s and 12 m/s, the equilibrium tip speed ratio is plotted in Fig. 6, where it is seen that strategy.
+[LINE#73+74]  To compare all three strategies for the whole interval between 3 m/s and 12 m/s, the equilibrium tip speed ratio is plotted in Fig. 6, where it is seen that strategy.
 0.937	[*A*]the equilibrium tip speed ratio[*R*]is plotted[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#69]A keeps the tip speed ratio relatively constant, while strategy B has the largest variations.
+[LINE#75] A keeps the tip speed ratio relatively constant, while strategy B has the largest variations.
 0.925	[*A*]strategy B[*R*]has[*A*]the largest variations	context()	negated: False ,passive: False
 0.381	[*A*]A[*R*]keeps[*A*]the tip speed ratio[*A*]while strategy B has the largest variations	context()	negated: False ,passive: False
-[LINE#70]The lower plot in Fig. 6 illustrates the penalty in power production caused by the different control strategies, where the power reduction factor is defined as(10)Pl=CPmax-CP(e)CPmax.
+[LINE#76] The lower plot in Fig. 6 illustrates the penalty in power production caused by the different control strategies, where the power reduction factor is defined as(10)Pl=CPmax-CP(e)CPmax.
 0.960	[*A*]the power reduction factor[*R*]is defined[*A*]as(10)Pl=CPmax-CP(e[*A*]the different control strategies	context()	negated: False ,passive: True
 0.903	[*A*]power production[*R*]caused[*A*]by the different control strategies	context()	negated: False ,passive: True
 0.934	[*A*]The lower plot in Fig[*R*]illustrates[*A*]the penalty in power production	context()	negated: False ,passive: False
-[LINE#71]6 shows the amount of non-extracted power resulting from turbine operation at a non-optimal tip speed ratio.
+[LINE#77] 6 shows the amount of non-extracted power resulting from turbine operation at a non-optimal tip speed ratio.
 0.449	[*A*]6[*R*]shows[*A*]the amount of non-extracted power	context()	negated: False ,passive: False
-[LINE#72]For all schemes, the reduction of captured power is less than 2% for wind speeds above 4 m/s.
+[LINE#78] For all schemes, the reduction of captured power is less than 2% for wind speeds above 4 m/s.
 0.329	[*A*]wind speeds above 4 m / s[*R*]have the reduction of[*A*]less than 2 %	context()	negated: False ,passive: False
 0.888	[*A*]all schemes[*R*]have the reduction of[*A*]less than 2 %	context()	negated: False ,passive: False
 0.973	[*A*]the reduction of captured power[*R*]is[*A*]less than 2 %	context()	negated: False ,passive: False
 0.998	[*A*]captured power[*R*]has the reduction of[*A*]less than 2 %	context()	negated: False ,passive: False
 0.964	[*A*]the reduction of captured power[*R*]is[*A*]less than 2% for wind speeds above 4 m/s	context()	negated: False ,passive: True
-[LINE#73]Strategy C behaves almost as good as strategy A over the major part of the interval, and it should be noted that the loss at 12 m/s is intentional to reduce mechanical loads.
+[LINE#79] Strategy C behaves almost as good as strategy A over the major part of the interval, and it should be noted that the loss at 12 m/s is intentional to reduce mechanical loads.
 0.927	[*A*]the loss at 12 m / s[*R*]to reduce[*A*]mechanical loads	context()	negated: False ,passive: False
 0.953	[*A*]Strategy C[*R*]behaves[*A*]almost as good as strategy A over the major part of the interval	context()	negated: False ,passive: False
-[LINE#74]The control strategies A-C are designed for the variable rotational velocity operational regime.
+[LINE#80] The control strategies A-C are designed for the variable rotational velocity operational regime.
 0.851	[*A*]A-C[*R*]are designed[*A*]for the variable rotational velocity operational regime	context(The control strategies)	negated: False ,passive: True
 0.935	[*A*]The control[*R*]strategies[*A*]A-C are designed for the variable rotational velocity operational regime	context()	negated: False ,passive: False
-[LINE#75]For a real control system, additional limitations are necessary to prevent the turbine from exceeding rated power and rotational velocity.
+[LINE#81] For a real control system, additional limitations are necessary to prevent the turbine from exceeding rated power and rotational velocity.
 0.903	[*A*]the turbine[*R*]from exceeding[*A*]rated rotational velocity	context()	negated: False ,passive: False
 0.937	[*A*]additional limitations[*R*]are[*A*]necessary to prevent the turbine from exceeding rated rotational velocity	context()	negated: False ,passive: True
 0.903	[*A*]the turbine[*R*]from exceeding[*A*]rated power	context()	negated: False ,passive: False
 0.903	[*A*]additional limitations[*R*]are[*A*]necessary to prevent the turbine from exceeding rated power	context()	negated: False ,passive: True
-[LINE#76] Sensitivity analysisFor each strategy.
-[LINE#77]A-C, one parameter is of particular importance for optimisation of the power extraction (k2 for strategies A and C and k1 for strategy B).
+[LINE#82]  Sensitivity analysisFor each strategy.
+[LINE#83] A-C, one parameter is of particular importance for optimisation of the power extraction (k2 for strategies A and C and k1 for strategy B).
 0.925	[*A*]one parameter[*R*]is[*A*]of particular importance	context()	negated: False ,passive: True
-[LINE#78]This parameter is determined from max and CPmax, where all strategies in Section 2 are designed for CPmax=0.43 and max=4.1.
+[LINE#84] This parameter is determined from max and CPmax, where all strategies in Section 2 are designed for CPmax=0.43 and max=4.1.
 0.964	[*A*]all strategies in Section 2[*R*]are designed[*A*]for max=4.1[*A*]CPmax	context()	negated: False ,passive: True
 0.964	[*A*]all strategies in Section 2[*R*]are designed[*A*]for CPmax=0.43[*A*]CPmax	context()	negated: False ,passive: True
 0.918	[*A*]This parameter[*R*]is determined[*A*]from CPmax	context()	negated: False ,passive: True
 0.903	[*A*]This parameter[*R*]is determined[*A*]from max	context()	negated: False ,passive: True
-[LINE#79]In the present analysis, the power coefficient curves are determined through simulations.
+[LINE#85] In the present analysis, the power coefficient curves are determined through simulations.
 0.944	[*A*]the power coefficient curves[*R*]are determined[*A*]In the present analysis	context()	negated: False ,passive: True
-[LINE#80]Power coefficient curves for real turbines are not known.
+[LINE#86] Power coefficient curves for real turbines are not known.
 0.801	[*A*]Power coefficient curves for real turbines[*R*]are not known	context()	negated: True ,passive: False
-[LINE#81]Therefore, the sensitivity of the control strategies, with respect to errors in max and CPmax, needs to be investigated.
+[LINE#87] Therefore, the sensitivity of the control strategies, with respect to errors in max and CPmax, needs to be investigated.
 0.901	[*A*]the sensitivity of the control strategies , with respect to errors in CPmax[*R*]to be investigated	context()	negated: False ,passive: False
 0.916	[*A*]the sensitivity of the control strategies , with respect to errors in CPmax[*R*]needs[*A*]to be investigated	context()	negated: False ,passive: False
 0.870	[*A*]the sensitivity of the control strategies , with respect to errors in max[*R*]to be investigated	context()	negated: False ,passive: False
 0.889	[*A*]the sensitivity of the control strategies , with respect to errors in max[*R*]needs[*A*]to be investigated	context()	negated: False ,passive: False
-[LINE#82]Errors in max will have a stronger effect on the control strategies than errors in CPmax since the relation between rotational velocity and power is cubic, c.f.
+[LINE#88] Errors in max will have a stronger effect on the control strategies than errors in CPmax since the relation between rotational velocity and power is cubic, c.f.
 0.876	[*A*]the relation between rotational velocity and power[*R*]is[*A*]cubic	context()	negated: False ,passive: True
 0.952	[*A*]Errors in max[*R*]will have[*A*]a stronger effect on the control strategies than errors in CPmax	context()	negated: False ,passive: False
-[LINE#83]For strategy A, a 10% overestimation of max is equivalent to a 25% underestimation of CPmax.
+[LINE#89] For strategy A, a 10% overestimation of max is equivalent to a 25% underestimation of CPmax.
 0.956	[*A*]a 10% overestimation of max[*R*]is[*A*]equivalent to a 25% underestimation of CPmax	context()	negated: False ,passive: True
-[LINE#84]With an overestimated max, power extraction is reduced but the system stability is improved.
+[LINE#90] With an overestimated max, power extraction is reduced but the system stability is improved.
 0.751	[*A*]the system stability[*R*]is improved	context()	negated: False ,passive: False
 0.732	[*A*]power extraction[*R*]is reduced	context()	negated: False ,passive: False
-[LINE#85] Consequently, an underestimated max decreases stability, see Fig..
+[LINE#91]  Consequently, an underestimated max decreases stability, see Fig..
 0.925	[*A*]an underestimated max[*R*]decreases[*A*]stability[*A*]see Fig	context()	negated: False ,passive: False
-[LINE#86]For 3 m/s, the turbine will not run at all with strategy A, as the extracted power is larger than the turbine power.
+[LINE#92] For 3 m/s, the turbine will not run at all with strategy A, as the extracted power is larger than the turbine power.
 0.932	[*A*]the extracted power[*R*]is[*A*]larger than the turbine power	context()	negated: False ,passive: True
 0.964	[*A*]the turbine[*R*]will not run[*A*]at all[*A*]as the extracted power is larger than the turbine power[*A*]For 3 m/s	context()	negated: True ,passive: True
-[LINE#87]The same strategy should run for 6 m/s and 12 m/s, but with small margins, and the turbine will stop in the 6 m/s case if the tip speed ratio drops below 2.
+[LINE#93] The same strategy should run for 6 m/s and 12 m/s, but with small margins, and the turbine will stop in the 6 m/s case if the tip speed ratio drops below 2.
 0.911	[*A*]The same strategy[*R*]should run[*A*]for 6 m 12 m / s	context()	negated: False ,passive: True
 0.911	[*A*]The same strategy[*R*]should run[*A*]for 6 m / s / s	context()	negated: False ,passive: True
 0.751	[*A*]The same strategy[*R*]should run	context()	negated: False ,passive: False
 0.841	[*A*]the tip speed ratio[*R*]drops[*A*]below 2	context()	negated: False ,passive: True
 0.903	[*A*]the turbine[*R*]will stop[*A*]in the 6 m / s case[*A*]if the tip speed ratio drops below 2	context()	negated: False ,passive: True
-[LINE#88]Strategy C still works for the 3 m/s and 6 m/s cases, but with small margins in the 6 m/s case.
+[LINE#94] Strategy C still works for the 3 m/s and 6 m/s cases, but with small margins in the 6 m/s case.
 0.976	[*A*]Strategy C[*R*]works[*A*]for the 3 m 6 m / s cases , but with small margins in the 6 m / s case[*A*]still	context()	negated: False ,passive: False
 0.962	[*A*]Strategy C[*R*]works[*A*]for the 3 m / s[*A*]still	context()	negated: False ,passive: False
-[LINE#89]This highlights the importance of knowing relevant turbine characteristics prior to designing the control strategy.
+[LINE#95] This highlights the importance of knowing relevant turbine characteristics prior to designing the control strategy.
 0.497	[*A*]This[*R*]highlights[*A*]the importance of knowing relevant turbine characteristics prior to designing the control strategy	context()	negated: False ,passive: False
-[LINE#90]For stable operation, it is better to overestimate than to underestimate max.
+[LINE#96] For stable operation, it is better to overestimate than to underestimate max.
 0.522	[*A*]it[*R*]is[*A*]better to overestimate than to underestimate max	context()	negated: False ,passive: True
-[LINE#91]In general, all tested control strategies work well for the considered turbine and the differences between them are small.
-[LINE#92]These results are however only valid for this given turbine and requires that the real turbine actually behaves as the model predicts.
+[LINE#97] In general, all tested control strategies work well for the considered turbine and the differences between them are small.
+[LINE#98] These results are however only valid for this given turbine and requires that the real turbine actually behaves as the model predicts.
 0.874	[*A*]the real turbine[*R*]behaves[*A*]as the model predicts	context(These results requires)	negated: False ,passive: False
 0.814	[*A*]These results[*R*]requires[*A*]that the real turbine actually behaves as the model predicts	context()	negated: False ,passive: False
 0.732	[*A*]the model[*R*]predicts	context()	negated: False ,passive: False
 0.903	[*A*]These results[*R*]are[*A*]however[*A*]only valid for this given turbine	context()	negated: False ,passive: True
-[LINE#93]The aerodynamic simulation tool model is two-dimensional, which introduces an error in the simulated power and the real power coefficients are most likely lower.
+[LINE#99] The aerodynamic simulation tool model is two-dimensional, which introduces an error in the simulated power and the real power coefficients are most likely lower.
 0.853	[*A*]The aerodynamic simulation tool model[*R*]is[*A*]two - dimensional	context()	negated: False ,passive: True
-[LINE#94]This is presumably not crucial for the validity of the control strategy.
+[LINE#100] This is presumably not crucial for the validity of the control strategy.
 0.286	[*A*]This[*R*]is not[*A*]crucial for the validity of the control strategy	context()	negated: True ,passive: True
-[LINE#95]The vortex model gives a reasonable power coefficient curve, and a real curve will have a similar shape, even if it peaks at a somewhat different power coefficient.
+[LINE#101] The vortex model gives a reasonable power coefficient curve, and a real curve will have a similar shape, even if it peaks at a somewhat different power coefficient.
 0.899	[*A*]a real curve[*R*]will have[*A*]a similar shape[*A*]even if it peaks at a somewhat different power coefficient	context()	negated: False ,passive: False
 0.911	[*A*]The vortex model[*R*]gives[*A*]a reasonable power coefficient curve	context()	negated: False ,passive: False
-[LINE#96]The dynamic stall model in the vortex code cannot handle deep stall accurately.
+[LINE#102] The dynamic stall model in the vortex code cannot handle deep stall accurately.
 0.942	[*A*]The dynamic stall model in the vortex code[*R*]can not handle accurately[*A*]deep stall	context()	negated: True ,passive: False
-[LINE#97]This means that all results at lower tip speed ratios are inaccurate.
+[LINE#103] This means that all results at lower tip speed ratios are inaccurate.
 0.810	[*A*]all results at lower tip speed ratios[*R*]are[*A*]inaccurate	context(This means)	negated: False ,passive: True
 0.224	[*A*]This[*R*]means[*A*]that all results at lower tip speed ratios are inaccurate	context()	negated: False ,passive: False
-[LINE#98]Experiences from the test setup in Marsta [25] indicate that the actual power coefficient at low tip speed ratios is higher than the simulated values, which increases the stability of the control strategy and should therefore not be an issue for the chosen control strategy.
+[LINE#104] Experiences from the test setup in Marsta [25] indicate that the actual power coefficient at low tip speed ratios is higher than the simulated values, which increases the stability of the control strategy and should therefore not be an issue for the chosen control strategy.
 0.951	[*A*]the actual power coefficient at low tip speed ratios[*R*]is[*A*]higher than the simulated values[*A*]which increases the stability of the control strategy	context(Experiences from the test setup in Marsta indicate)	negated: False ,passive: True
 0.890	[*A*]Experiences from the test setup in Marsta[*R*]indicate[*A*]that the actual power coefficient at low tip speed ratios is higher than the simulated values , which increases the stability of the control strategy	context()	negated: False ,passive: False
-[LINE#99]These issues do however mean that the specific parameters for the control system used in this article may not be the best suited parameters for a real turbine.
+[LINE#105] These issues do however mean that the specific parameters for the control system used in this article may not be the best suited parameters for a real turbine.
 0.908	[*A*]the specific parameters for the control system[*R*]may not be[*A*]the best suited parameters for a real turbine	context(These issues do mean)	negated: True ,passive: True
 0.733	[*A*]These issues[*R*]do mean[*A*]that the specific parameters for the control system used in this article may not be the best suited parameters for a real turbine	context()	negated: False ,passive: False
 0.911	[*A*]the control system[*R*]used[*A*]in this article	context()	negated: False ,passive: True
-[LINE#100]Instead, the actual power coefficient curve should be measured to create a good control strategy.
+[LINE#106] Instead, the actual power coefficient curve should be measured to create a good control strategy.
 0.926	[*A*]the actual power coefficient curve[*R*]should be measured[*A*]to create a good control strategy	context()	negated: False ,passive: True
-[LINE#101]The sensitivity analysis shows that if no measured data exists for the power coefficient curve, a reasonable control strategy can still be created as long as max can be calculated with some accuracy, as this is the most important parameter.
+[LINE#107] The sensitivity analysis shows that if no measured data exists for the power coefficient curve, a reasonable control strategy can still be created as long as max can be calculated with some accuracy, as this is the most important parameter.
 0.813	[*A*]max[*R*]can be calculated[*A*]with some accuracy	context()	negated: False ,passive: True
 0.911	[*A*]no measured data[*R*]exists[*A*]for the power coefficient curve	context()	negated: False ,passive: True
 0.449	[*A*]this[*R*]is[*A*]the most important parameter	context()	negated: False ,passive: True
 0.944	[*A*]a reasonable control strategy[*R*]can be created[*A*]as long as max can be calculated with some accuracy, as this is the most important parameter[*A*]still	context(The sensitivity analysis shows)	negated: False ,passive: True
 0.865	[*A*]The sensitivity analysis[*R*]shows[*A*]that if no measured data exists for the power coefficient curve, a reasonable control strategy can still be created as long	context()	negated: False ,passive: False
-[LINE#102]Once max is known, CPmax should be possible to estimate from simulation data combined with data from other similar turbines.
+[LINE#108] Once max is known, CPmax should be possible to estimate from simulation data combined with data from other similar turbines.
 0.903	[*A*]simulation data[*R*]combined[*A*]with data from other similar turbines	context()	negated: False ,passive: True
 0.561	[*A*]max[*R*]is known	context()	negated: False ,passive: False
-[LINE#103]For more stable operation, a too high max can be chosen, which causes slightly less power but higher stability.
+[LINE#109] For more stable operation, a too high max can be chosen, which causes slightly less power but higher stability.
 0.769	[*A*]a too high max[*R*]can be chosen	context()	negated: False ,passive: False
-[LINE#104]Another simulation issue is that wind speed changes through modified asymptotic wind speed are not a fully realistic model, as the wind speed is changes instantaneously in the entire domain.
+[LINE#110] Another simulation issue is that wind speed changes through modified asymptotic wind speed are not a fully realistic model, as the wind speed is changes instantaneously in the entire domain.
 0.955	[*A*]wind speed changes through modified asymptotic wind speed[*R*]are not[*A*]a fully realistic model[*A*]as the wind speed is changes instantaneously in the entire domain	context(Another simulation issue is)	negated: True ,passive: True
 0.865	[*A*]Another simulation issue[*R*]is[*A*]that wind speed changes through modified asymptotic wind speed are not a fully realistic model, as the wind speed is changes instantaneously in the entire domain	context()	negated: False ,passive: True
 0.909	[*A*]the wind speed[*R*]is instantaneously[*A*]changes	context()	negated: False ,passive: True
-[LINE#105]This approximation should work for slow wind speed changes but be less accurate for rapid changes.
+[LINE#111] This approximation should work for slow wind speed changes but be less accurate for rapid changes.
 0.903	[*A*]This approximation[*R*]should work[*A*]for slow wind speed changes	context()	negated: False ,passive: False
-[LINE#106]This model error is most prominent for the step change in wind speed.
+[LINE#112] This model error is most prominent for the step change in wind speed.
 0.828	[*A*]This model error[*R*]is[*A*]most prominent	context()	negated: False ,passive: True
-[LINE#107]The simulations in this paper are intended to show the characteristics of the control strategies themselves.
+[LINE#113] The simulations in this paper are intended to show the characteristics of the control strategies themselves.
 0.913	[*A*]The simulations in this paper[*R*]to show[*A*]the characteristics of the control strategies	context()	negated: False ,passive: False
 0.926	[*A*]The simulations in this paper[*R*]are intended[*A*]to show the characteristics of the control strategies	context()	negated: False ,passive: True
-[LINE#108]Even if the values in oscillating winds are not exact, the trends should still be valid, showing that the control strategies are capable of handling variations in wind speed.
+[LINE#114] Even if the values in oscillating winds are not exact, the trends should still be valid, showing that the control strategies are capable of handling variations in wind speed.
 0.891	[*A*]the control strategies[*R*]are[*A*]capable of handling variations in wind speed	context(the trends showing)	negated: False ,passive: True
 0.787	[*A*]the trends[*R*]showing[*A*]that the control strategies are capable of handling variations in wind speed	context()	negated: False ,passive: False
 0.864	[*A*]the trends[*R*]should be[*A*]valid[*A*]showing that the control strategies are capable of handling variations in wind speed[*A*]still	context()	negated: False ,passive: True
 0.897	[*A*]the control strategies[*R*]of handling[*A*]variations in wind speed	context()	negated: False ,passive: False
-[LINE#109]The results show that the studied control strategies work if the power coefficient curve has a similar shape as the ones used in the article.
+[LINE#115] The results show that the studied control strategies work if the power coefficient curve has a similar shape as the ones used in the article.
 0.951	[*A*]the studied control strategies[*R*]work[*A*]if the power coefficient curve has a similar shape as the ones	context(The results show)	negated: False ,passive: False
 0.853	[*A*]The results[*R*]show[*A*]that the studied control strategies work if the power coefficient curve has a similar shape as the ones	context()	negated: False ,passive: False
 0.903	[*A*]the ones[*R*]used[*A*]in the article	context()	negated: False ,passive: True
 0.937	[*A*]the power coefficient curve[*R*]has[*A*]a similar shape as the ones	context()	negated: False ,passive: False
-[LINE#110]No studies have been performed on a turbine with much higher solidity, which would peak at a lower tip speed ratio, as the simulation tool is not designed for this region.
+[LINE#116] No studies have been performed on a turbine with much higher solidity, which would peak at a lower tip speed ratio, as the simulation tool is not designed for this region.
 0.911	[*A*]the simulation tool[*R*]is not designed[*A*]for this region	context()	negated: True ,passive: True
 0.903	[*A*]No studies[*R*]have been performed[*A*]on a turbine with much higher solidity	context()	negated: False ,passive: True
-[LINE#111]Further analysis is therefore required to investigate how the control strategy would work for such a turbine.
+[LINE#117] Further analysis is therefore required to investigate how the control strategy would work for such a turbine.
 0.891	[*A*]the control strategy[*R*]would work[*A*]for such a turbine	context(Further analysis to investigate)	negated: False ,passive: False
 0.910	[*A*]Further analysis[*R*]to investigate[*A*]how the control strategy would work for such a turbine	context()	negated: False ,passive: False
 0.907	[*A*]Further analysis[*R*]is required[*A*]to investigate how the control strategy would work for such a turbine	context()	negated: False ,passive: True
-[LINE#112]Electromechanical systemThis section presents the ordinary differential equations used to model the electrical and mechanical parts of the energy conversion system.
+[LINE#118] Electromechanical systemThis section presents the ordinary differential equations used to model the electrical and mechanical parts of the energy conversion system.
 0.948	[*A*]the ordinary differential equations[*R*]used[*A*]to model the mechanical parts of the energy conversion system	context()	negated: False ,passive: True
 0.943	[*A*]Electromechanical systemThis section[*R*]presents[*A*]the ordinary differential equations used to model the mechanical parts of the energy conversion system	context()	negated: False ,passive: False
 0.948	[*A*]the ordinary differential equations[*R*]used[*A*]to model the electrical parts of the energy conversion system	context()	negated: False ,passive: True
 0.943	[*A*]Electromechanical systemThis section[*R*]presents[*A*]the ordinary differential equations used to model the electrical parts of the energy conversion system	context()	negated: False ,passive: False
-[LINE#113]A passive diode rectifier and a DC-AC converter are used to supply the converted energy to a utility grid.
+[LINE#119] A passive diode rectifier and a DC-AC converter are used to supply the converted energy to a utility grid.
 0.934	[*A*]a DC - AC converter[*R*]to supply[*A*]the converted energy[*A*]to a utility grid	context()	negated: False ,passive: False
 0.944	[*A*]a DC - AC converter[*R*]are used[*A*]to supply the converted energy to a utility grid	context()	negated: False ,passive: True
 0.905	[*A*]A passive diode rectifier[*R*]to supply[*A*]the converted energy[*A*]to a utility grid	context()	negated: False ,passive: False
 0.919	[*A*]A passive diode rectifier[*R*]are used[*A*]to supply the converted energy to a utility grid	context()	negated: False ,passive: True
-[LINE#114]Diode rectifiers are robust and do not require a controller.
+[LINE#120] Diode rectifiers are robust and do not require a controller.
 0.894	[*A*]Diode[*R*]do not require[*A*]a controller	context()	negated: True ,passive: False
 0.817	[*A*]Diode rectifiers[*R*]are[*A*]robust	context()	negated: False ,passive: True
-[LINE#115]The diode rectifier has small internal power loss, compared to other semiconductor based rectifiers, since the switching occurs at zero current and a diode has a small forward voltage drop.
+[LINE#121] The diode rectifier has small internal power loss, compared to other semiconductor based rectifiers, since the switching occurs at zero current and a diode has a small forward voltage drop.
 0.913	[*A*]the switching[*R*]has[*A*]a small forward voltage drop	context()	negated: False ,passive: False
 0.903	[*A*]the switching[*R*]occurs[*A*]at a diode	context()	negated: False ,passive: True
 0.956	[*A*]The diode rectifier[*R*]has[*A*]small internal power loss[*A*]compared to other semiconductor based rectifiers[*A*]since the switching occurs at a diode has a small forward voltage drop	context()	negated: False ,passive: False
 0.767	[*A*]the switching[*R*]occurs[*A*]at zero current	context()	negated: False ,passive: True
 0.932	[*A*]The diode rectifier[*R*]has[*A*]small internal power loss[*A*]compared to other semiconductor based rectifiers[*A*]since the switching occurs at zero current	context()	negated: False ,passive: False
-[LINE#116]The primary drawback of passive rectification, compared to active rectification, is that the armature currents have high harmonic content, causing generator torque fluctuations and increased armature resistive loss [20].
+[LINE#122] The primary drawback of passive rectification, compared to active rectification, is that the armature currents have high harmonic content, causing generator torque fluctuations and increased armature resistive loss [20].
 0.838	[*A*]the armature currents[*R*]have high harmonic content causing[*A*]generator torque fluctuations	context(The primary drawback of passive rectification , compared to active rectification is the armature currents have)	negated: False ,passive: False
 0.888	[*A*]the armature currents[*R*]have[*A*]high harmonic content[*A*]causing generator torque fluctuations and increased armature resistive loss	context(The primary drawback of passive rectification , compared to active rectification is)	negated: False ,passive: False
 0.918	[*A*]The primary drawback of passive rectification, compared to active rectification[*R*]is[*A*]that the armature currents have high harmonic content, causing generator torque fluctuations and increased armature resistive loss [20]	context()	negated: False ,passive: True
-[LINE#117]The harmonic content of the armature currents can be reduced by adding inductance on the DC-side [21].
+[LINE#123] The harmonic content of the armature currents can be reduced by adding inductance on the DC-side [21].
 0.939	[*A*]The harmonic content of the armature currents[*R*]by adding[*A*]inductance[*A*]on the DC-side	context()	negated: False ,passive: False
 0.948	[*A*]The harmonic content of the armature currents[*R*]can be reduced[*A*]by adding inductance on the DC-side	context()	negated: False ,passive: True
-[LINE#118]Here the simplest system without extra inductance is considered.
+[LINE#124] Here the simplest system without extra inductance is considered.
 0.878	[*A*]the simplest system without extra inductance[*R*]is considered[*A*]Here	context()	negated: False ,passive: True
-[LINE#119]The model used for the electrical system is shown in Fig. 8, and all model parameters of the electromechanical model are presented in Table 2.The generator is modelled as Y-connected Thvenin equivalents of the three generator phases with the neutral terminal disconnected.
+[LINE#125] The model used for the electrical system is shown in Fig. 8, and all model parameters of the electromechanical model are presented in Table 2.The generator is modelled as Y-connected Thvenin equivalents of the three generator phases with the neutral terminal disconnected.
 0.947	[*A*]The model[*R*]is modelled[*A*]as Y - connected Thvenin equivalents of the three generator phases	context()	negated: False ,passive: True
 0.964	[*A*]all model parameters of the electromechanical model[*R*]are presented[*A*]in Table 2.The generator[*A*]The model	context()	negated: False ,passive: True
 0.948	[*A*]The model used for the electrical system[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
 0.903	[*A*]The model[*R*]used[*A*]for the electrical system	context()	negated: False ,passive: True
-[LINE#120]It follows from Kirchhoff's circuit laws that(17)L(I1t-I2t)=1-2-U1+U2-R(I1-I2)L(I2t-I3t)=2-3-U2+U3-R(I2-I3)I1+I2+I3=0where n and Un are electromotive forces and terminal voltages respectively.
+[LINE#126] It follows from Kirchhoff's circuit laws that(17)L(I1t-I2t)=1-2-U1+U2-R(I1-I2)L(I2t-I3t)=2-3-U2+U3-R(I2-I3)I1+I2+I3=0where n and Un are electromotive forces and terminal voltages respectively.
 0.993	[*A*]17 ) L ( I1t - I2t ) =1-2 - U1+U2 - R ( I1 - I2 ) L ( I2t - I3t ) =2-3 - U2+U3 - R ( I2 - I3 ) I1+I2+I3=0where Un[*R*]are respectively[*A*]electromotive terminal voltages	context(It follows)	negated: False ,passive: True
 0.993	[*A*]17 ) L ( I1t - I2t ) =1-2 - U1+U2 - R ( I1 - I2 ) L ( I2t - I3t ) =2-3 - U2+U3 - R ( I2 - I3 ) I1+I2+I3=0where Un[*R*]are respectively[*A*]electromotive forces	context(It follows)	negated: False ,passive: True
 0.992	[*A*]17 ) L ( I1t - I2t ) =1-2 - U1+U2 - R ( I1 - I2 ) L ( I2t - I3t ) =2-3 - U2+U3 - R ( I2 - I3 ) I1+I2+I3=0where[*R*]are respectively[*A*]electromotive terminal voltages	context()	negated: False ,passive: True
 0.982	[*A*]17 ) L ( I1t - I2t ) =1-2 - U1+U2 - R ( I1 - I2 ) L ( I2t - I3t ) =2-3 - U2+U3 - R ( I2 - I3 ) I1+I2+I3=0where[*R*]are respectively[*A*]n	context()	negated: False ,passive: True
 0.498	[*A*]It[*R*]follows[*A*]from Kirchhoff 's circuit laws	context()	negated: False ,passive: True
-[LINE#121]the flux linkage and NPP is the number of pole pairs.
+[LINE#127] the flux linkage and NPP is the number of pole pairs.
 0.920	[*A*]the flux linkage[*R*]is[*A*]the number of pole pairs	context()	negated: False ,passive: True
-[LINE#122]The power extracted from the electromotive forces is(19)Pg=n=1,2,3Inn.
+[LINE#128] The power extracted from the electromotive forces is(19)Pg=n=1,2,3Inn.
 0.953	[*A*]The power extracted from the electromotive forces[*R*]is[*A*]19)Pg=n=1,2	context()	negated: False ,passive: True
 0.903	[*A*]The power[*R*]extracted[*A*]from the electromotive forces	context()	negated: False ,passive: True
-[LINE#123] The voltage of the nth terminal of the generator is approximated by(20)Un=.
+[LINE#129]  The voltage of the nth terminal of the generator is approximated by(20)Un=.
 0.957	[*A*]The voltage of the nth terminal of the generator[*R*]is approximated[*A*]by(20)Un=	context()	negated: False ,passive: True
-[LINE#124]UDC+2UD2erf(InI),where UD is the forward voltage drop of one diode.
+[LINE#130] UDC+2UD2erf(InI),where UD is the forward voltage drop of one diode.
 0.944	[*A*]UD[*R*]is[*A*]the forward voltage drop of one diode[*A*]UDC+2UD2erf	context()	negated: False ,passive: True
-[LINE#125](20) simplifies the automatic error control of the used ODE solver package.
+[LINE#131] (20) simplifies the automatic error control of the used ODE solver package.
 0.661	[*A*]20[*R*]simplifies[*A*]the automatic error control of the used ODE solver package	context()	negated: False ,passive: False
-[LINE#126]The approximation approaches ideal diodes as I approaches zero.
+[LINE#132] The approximation approaches ideal diodes as I approaches zero.
 0.225	[*A*]I[*R*]approaches[*A*]zero	context()	negated: False ,passive: True
 0.835	[*A*]The approximation[*R*]approaches[*A*]ideal diodes[*A*]as I approaches zero	context()	negated: False ,passive: True
-[LINE#127] It follows from Kirchhoff's first law that the rectified generator current, Ir, is(21)Ir=12n=1,2,3|In|.The capacitor charges according to(22)UDCt=.
+[LINE#133]  It follows from Kirchhoff's first law that the rectified generator current, Ir, is(21)Ir=12n=1,2,3|In|.The capacitor charges according to(22)UDCt=.
 0.999	[*A*]The capacitor[*R*]charges[*A*]22	context()	negated: False ,passive: False
 0.443	[*A*]It[*R*]follows[*A*]from Kirchhoff's first law	context(Ir is The capacitor charges)	negated: False ,passive: True
 0.842	[*A*]Ir[*R*]is[*A*]21)Ir=12n=1,2,3|In|	context(The capacitor charges)	negated: False ,passive: True
 0.724	[*A*]The capacitor[*R*]charges[*A*]according to	context()	negated: False ,passive: False
-[LINE#128]Ir-IeC,and the power delivered to the load is(23)PL=ILUDC..
+[LINE#134] Ir-IeC,and the power delivered to the load is(23)PL=ILUDC..
 0.948	[*A*]the power delivered to the load[*R*]is[*A*]23 ) PL=ILUDC	context()	negated: False ,passive: True
 0.903	[*A*]the power[*R*]delivered[*A*]to the load	context()	negated: False ,passive: True
 0.949	[*A*]Ir - IeC[*R*]is[*A*]23 ) PL=ILUDC	context()	negated: False ,passive: True
-[LINE#129]The electrical system has three principal loss mechanisms.
+[LINE#135] The electrical system has three principal loss mechanisms.
 0.932	[*A*]The electrical system[*R*]has[*A*]three principal loss mechanisms	context()	negated: False ,passive: False
-[LINE#130] The resistive loss in the generator armature(24)Pr=.
-[LINE#131] Rn=1,2,3In2,loss due to the forward voltage drop in the diode rectifier(25)PD=2IrUDand loss in the statorkh,ke,kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [23].
-[LINE#132]Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.
+[LINE#136]  The resistive loss in the generator armature(24)Pr=.
+[LINE#137+138]  Rn=1,2,3In2,loss due to the forward voltage drop in the diode rectifier(25)PD=2IrUDand loss in the statorkh,ke,kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [23].
+[LINE#139] Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.
 0.616	[*A*]they[*R*]are[*A*]typically[*A*]small[*A*]compared to the core loss in slowly moving machines	context()	negated: False ,passive: True
 0.698	[*A*]Bearing friction[*R*]neglected	context()	negated: False ,passive: False
 0.871	[*A*]Bearing friction[*R*]are[*A*]neglected[*A*]since they are typically small compared to the core loss in slowly moving machines	context()	negated: False ,passive: True
-[LINE#133]The instantaneous power absorbed by the generator, Pe, is the sum of core loss and converted power(27)Pe=Pg+Pc.
+[LINE#140] The instantaneous power absorbed by the generator, Pe, is the sum of core loss and converted power(27)Pe=Pg+Pc.
 0.978	[*A*]The instantaneous power absorbed by the generator, Pe[*R*]is[*A*]the sum of core loss and converted power(27	context()	negated: False ,passive: True
 0.911	[*A*]The instantaneous power[*R*]absorbed[*A*]by the generator	context()	negated: False ,passive: True
-[LINE#134] On average, the power delivered to the load is(28)PL.
+[LINE#141]  On average, the power delivered to the load is(28)PL.
 0.948	[*A*]the power delivered to the load[*R*]is[*A*]28)PL	context()	negated: False ,passive: True
 0.903	[*A*]the power[*R*]delivered[*A*]to the load	context()	negated: False ,passive: True
-[LINE#135]Pe-Pc-Pr-PD,due to preservation of energy.
-[LINE#136]Generator efficiency is defined as(29)g=1-Pr+PctPg+Pct.
+[LINE#142] Pe-Pc-Pr-PD,due to preservation of energy.
+[LINE#143] Generator efficiency is defined as(29)g=1-Pr+PctPg+Pct.
 0.993	[*A*]Generator efficiency[*R*]is defined as[*A*]1 - pr +	context()	negated: False ,passive: False
 0.918	[*A*]Generator efficiency[*R*]is defined[*A*]as(29)g=1-Pr+PctPg+Pct	context()	negated: False ,passive: True
-[LINE#137]Several methods, such as adding a DC-side inductor or using an active rectifier, can be used to reduce the harmonic content of the armature currents and thereby reducing the armature resistive loss.
+[LINE#144] Several methods, such as adding a DC-side inductor or using an active rectifier, can be used to reduce the harmonic content of the armature currents and thereby reducing the armature resistive loss.
 0.985	[*A*]Several methods, such as adding a DC-side inductor or using an active rectifier[*R*]can be used[*A*]to reduce the harmonic content of the armature currents and thereby reducing the armature resistive loss	context()	negated: False ,passive: True
-[LINE#138]An active rectifier can draw currents with low harmonic content at unity power factor thus minimising the resistive loss for a given voltage and power level.
+[LINE#145] An active rectifier can draw currents with low harmonic content at unity power factor thus minimising the resistive loss for a given voltage and power level.
 0.897	[*A*]unity power factor[*R*]minimising[*A*]the resistive loss for a given power level	context()	negated: False ,passive: False
 0.897	[*A*]unity power factor[*R*]minimising[*A*]the resistive loss for a given voltage	context()	negated: False ,passive: False
 0.911	[*A*]An active rectifier[*R*]can draw[*A*]currents	context()	negated: False ,passive: False
-[LINE#139]At unity power factor, the armature current is proportional to the phase emf; it then follows from Eqs.
+[LINE#146] At unity power factor, the armature current is proportional to the phase emf; it then follows from Eqs.
 0.949	[*A*]the armature current[*R*]is[*A*]proportional to the phase emf[*A*]At unity power factor	context(it follows)	negated: False ,passive: True
 0.535	[*A*]it[*R*]follows[*A*]from Eqs[*A*]then	context()	negated: False ,passive: True
-[LINE#140]that the armature resistive loss is(30)Pr=2R3(Pg)2,when 0 and the phase currents are drawn at unity power factor.
+[LINE#147] that the armature resistive loss is(30)Pr=2R3(Pg)2,when 0 and the phase currents are drawn at unity power factor.
 0.926	[*A*]0 and the phase currents[*R*]are drawn[*A*]at unity power factor	context()	negated: False ,passive: True
 0.815	[*A*]the armature resistive loss[*R*]is[*A*]30	context()	negated: False ,passive: True
-[LINE#141]Core loss can be reduced by reducing thickness of the stator laminations or using stator material with lower hysteresis loss. .
+[LINE#148] Core loss can be reduced by reducing thickness of the stator laminations or using stator material with lower hysteresis loss. .
 0.937	[*A*]Core loss[*R*]can be reduced[*A*]by reducing thickness of the stator laminations or using stator material with lower hysteresis loss	context()	negated: False ,passive: True
-[LINE#142] Load control implementationControl strategies.
-[LINE#143] A-C are implemented by controlling the load current so that the average of the extracted power.
+[LINE#149]  Load control implementationControl strategies.
+[LINE#150]  A-C are implemented by controlling the load current so that the average of the extracted power.
 0.817	[*A*]A-C[*R*]by controlling[*A*]the load current	context()	negated: False ,passive: False
 0.756	[*A*]A-C[*R*]are implemented[*A*]by controlling the load current so that the average of the extracted power	context()	negated: False ,passive: True
-[LINE#144] Pe from the turbine is as close as possible to the power* prescribed by the applied control strategy.
+[LINE#151+152]  Pe from the turbine is as close as possible to the power* prescribed by the applied control strategy.
 0.903	[*A*]the power*[*R*]prescribed[*A*]by the applied control strategy	context()	negated: False ,passive: True
 0.937	[*A*]Pe from the turbine[*R*]is[*A*]as close as possible to the power*	context()	negated: False ,passive: True
-[LINE#145]Energy cannot flow "backwards" through the diode rectifier and, therefore, it is not possible to extract a power that is lower than that of the core loss of the generator.
+[LINE#153] Energy cannot flow "backwards" through the diode rectifier and, therefore, it is not possible to extract a power that is lower than that of the core loss of the generator.
 0.860	[*A*]a power[*R*]is[*A*]lower than that of the core loss of the generator	context()	negated: False ,passive: True
 0.821	[*A*]Energy[*R*]can not flow backwards[*A*]through the diode rectifier	context()	negated: True ,passive: True
-[LINE#146]Furthermore, the load current is always kept positive, i.e. the grid is never used to charge the capacitor.
+[LINE#154] Furthermore, the load current is always kept positive, i.e. the grid is never used to charge the capacitor.
 0.887	[*A*]the grid[*R*]to charge[*A*]the capacitor	context()	negated: False ,passive: False
-[LINE#147] The load current is(31)IL=max(0,Pe*-Pc* is a, control strategy specific, function of .
+[LINE#155+156]  The load current is(31)IL=max(0,Pe*-Pc* is a, control strategy specific, function of .
 0.762	[*A*]The load current[*R*]is[*A*]31	context(Pe* - Pc* is)	negated: False ,passive: True
 0.884	[*A*]Pe*-Pc*[*R*]is[*A*]a, control strategy specific, function of	context()	negated: False ,passive: True
-[LINE#148] In this paper, control strategies.
-[LINE#149]A-C are compared to a reference control strategy.
+[LINE#157]  In this paper, control strategies.
+[LINE#158] A-C are compared to a reference control strategy.
 0.841	[*A*]A-C[*R*]are compared[*A*]to a reference control strategy	context()	negated: False ,passive: True
-[LINE#150]The reference strategy uses both the asymptotic wind speed and the rotational velocity as control signals.
+[LINE#159] The reference strategy uses both the asymptotic wind speed and the rotational velocity as control signals.
 0.911	[*A*]The reference strategy[*R*]uses[*A*]the rotational velocity as control signals	context()	negated: False ,passive: False
 0.911	[*A*]The reference strategy[*R*]uses[*A*]both the asymptotic wind speed	context()	negated: False ,passive: False
-[LINE#151]In the reference strategy, the voltage level of the DC-bus, rather than the load current, is controlled by a PI-regulator.
+[LINE#160] In the reference strategy, the voltage level of the DC-bus, rather than the load current, is controlled by a PI-regulator.
 0.987	[*A*]the voltage level of the DC-bus, rather than the load current[*R*]is controlled[*A*]by a PI-regulator[*A*]In the reference strategy	context()	negated: False ,passive: True
-[LINE#152]Control of the voltage level is chosen since it simplifies the implementation of speed control.
+[LINE#161] Control of the voltage level is chosen since it simplifies the implementation of speed control.
 0.452	[*A*]it[*R*]simplifies[*A*]the implementation of speed control	context()	negated: False ,passive: False
 0.871	[*A*]Control of the voltage level[*R*]is chosen[*A*]since it simplifies the implementation of speed control	context()	negated: False ,passive: True
-[LINE#153]Voltage control is physically equivalent to current control in the sense that the only way to regulate the capacitor voltage is through control of the load current.
+[LINE#162] Voltage control is physically equivalent to current control in the sense that the only way to regulate the capacitor voltage is through control of the load current.
 0.957	[*A*]the only way to regulate the capacitor voltage[*R*]is[*A*]through control of the load current	context()	negated: False ,passive: True
 0.925	[*A*]Voltage control[*R*]is[*A*]physically equivalent to current control	context()	negated: False ,passive: True
-[LINE#154]The UDC setpoint depends only on the asymptotic wind speed V.
+[LINE#163] The UDC setpoint depends only on the asymptotic wind speed V.
 0.944	[*A*]The UDC setpoint[*R*]depends[*A*]only on the asymptotic wind speed V.	context()	negated: False ,passive: False
-[LINE#155]The mapping from V to UDC is determined in a simulated torque sweep where the voltage level is regulated so that the optimal tip speed ratio is maintained throughout the sweep.
+[LINE#164] The mapping from V to UDC is determined in a simulated torque sweep where the voltage level is regulated so that the optimal tip speed ratio is maintained throughout the sweep.
 0.926	[*A*]the optimal tip speed ratio[*R*]is maintained[*A*]throughout the sweep	context()	negated: False ,passive: True
 0.915	[*A*]the voltage level[*R*]is regulated[*A*]so that the optimal tip speed ratio is maintained throughout the sweep[*A*]a simulated torque sweep	context()	negated: False ,passive: True
 0.949	[*A*]The mapping from V to UDC[*R*]is determined[*A*]in a simulated torque sweep	context()	negated: False ,passive: True
-[LINE#156]A limited integrating term is added to the controller to compensate for torque fluctuations during wake formation.
+[LINE#165] A limited integrating term is added to the controller to compensate for torque fluctuations during wake formation.
 0.919	[*A*]A limited integrating term[*R*]is added[*A*]to the controller[*A*]to compensate for torque fluctuations during wake formation	context()	negated: False ,passive: True
-[LINE#157]Detailed modelling of a DC-AC converter is outside the scope of this paper.
+[LINE#166] Detailed modelling of a DC-AC converter is outside the scope of this paper.
 0.968	[*A*]Detailed modelling of a DC-AC converter[*R*]is[*A*]outside the scope of this paper	context()	negated: False ,passive: True
-[LINE#158]The DC-AC converter, for a system of this size, often consists of a DC-DC step and an IGBT based two-level inverter, but several other topologies exists [24].
+[LINE#167] The DC-AC converter, for a system of this size, often consists of a DC-DC step and an IGBT based two-level inverter, but several other topologies exists [24].
 0.968	[*A*]The DC - AC converter[*R*]consists[*A*]of an IGBT based two - level inverter[*A*]for a system of this size[*A*]often	context()	negated: False ,passive: True
 0.968	[*A*]The DC - AC converter[*R*]consists[*A*]of a DC - DC step[*A*]for a system of this size[*A*]often	context()	negated: False ,passive: True
 0.991	[*A*]several other topologies[*R*]exists[*A*]24	context()	negated: False ,passive: False
 0.999	[*A*]several other topologies[*R*]exists[*A*]24 ]	context()	negated: False ,passive: False
 0.751	[*A*]several other topologies[*R*]exists	context()	negated: False ,passive: False
-[LINE#159]The simple model of the DC-AC converter used here is realistic to the extent that capacitor is large enough to smoothen switching transients.
+[LINE#168] The simple model of the DC-AC converter used here is realistic to the extent that capacitor is large enough to smoothen switching transients.
 0.877	[*A*]capacitor[*R*]to smoothen[*A*]switching transients	context()	negated: False ,passive: False
 0.918	[*A*]capacitor[*R*]is[*A*]large enough to smoothen switching transients	context()	negated: False ,passive: True
 0.942	[*A*]The simple model of the DC-AC converter[*R*]is[*A*]realistic to the extent that capacitor is large enough to smoothen switching transients	context()	negated: False ,passive: True
 0.856	[*A*]the DC-AC converter[*R*]used[*A*]here	context()	negated: False ,passive: True
-[LINE#160] Interaction of electromechanical and aerodynamic modelThe combined electromechanical and aerodynamic system is simulated according to the following two step scheme ( two steps for each model):1.The aerodynamic code calculates the aerodynamic torque T1 at the given time and propagates all vortices.2.The electromechanical model uses this torque to calculate the rotor angle and speed after a virtual time step t.3.Theaerodynamic code calculates the aerodynamic torque T2 after the virtual time step with the updated rotor angle and speed from the electromechanical model.
+[LINE#169+170+171]  Interaction of electromechanical and aerodynamic modelThe combined electromechanical and aerodynamic system is simulated according to the following two step scheme ( two steps for each model):1.The aerodynamic code calculates the aerodynamic torque T1 at the given time and propagates all vortices.2.The electromechanical model uses this torque to calculate the rotor angle and speed after a virtual time step t.3.Theaerodynamic code calculates the aerodynamic torque T2 after the virtual time step with the updated rotor angle and speed from the electromechanical model.
 0.941	[*A*]Interaction of aerodynamic modelThe[*R*]uses[*A*]this torque[*A*]to calculate the rotor speed after a virtual time step t.3.Theaerodynamic code calculates the aerodynamic torque T2 after the virtual time step with the updated rotor angle from the electromechanical model	context()	negated: False ,passive: False
 0.699	[*A*]combined aerodynamic system[*R*]is simulated	context(Interaction of aerodynamic modelThe uses)	negated: False ,passive: False
 0.954	[*A*]Interaction of aerodynamic modelThe[*R*]calculates[*A*]the aerodynamic torque T2[*A*]after the virtual time step with the updated rotor speed from the electromechanical model	context()	negated: False ,passive: False
@@ -512,201 +512,201 @@
 0.939	[*A*]the aerodynamic torque T1[*R*]uses[*A*]this torque[*A*]to calculate the rotor angle after a virtual time step t.3.Theaerodynamic code calculates the aerodynamic torque T2 after the virtual time step with the updated rotor angle from the electromechanical model	context()	negated: False ,passive: False
 0.687	[*A*]electromechanical system[*R*]is simulated	context(Interaction of electromechanical modelThe combined)	negated: False ,passive: False
 0.952	[*A*]Interaction of electromechanical modelThe[*R*]combined[*A*]electromechanical system is simulated according to the following two step scheme	context()	negated: False ,passive: False
-[LINE#161]Vortex positions are recalculated using the average vortex velocities between the two steps.4.The electromechanical model assumes that the torque varies linearly between T1 and T2 during the time step, recalculates the new rotor angle and speed and transfers these values to the aerodynamic model.
+[LINE#172] Vortex positions are recalculated using the average vortex velocities between the two steps.4.The electromechanical model assumes that the torque varies linearly between T1 and T2 during the time step, recalculates the new rotor angle and speed and transfers these values to the aerodynamic model.
 0.886	[*A*]the torque[*R*]varies linearly[*A*]during the time step	context()	negated: False ,passive: True
-[LINE#162]As the time constants of the electromechanical model are much smaller than for the vortex model, each electromechanical step is simulated with the lsoda library11http://www.ccl.net/cca/software/SOURCES/C/kinetics2/index.shtml [accessed 20.20.2013].
+[LINE#173] As the time constants of the electromechanical model are much smaller than for the vortex model, each electromechanical step is simulated with the lsoda library11http://www.ccl.net/cca/software/SOURCES/C/kinetics2/index.shtml [accessed 20.20.2013].
 0.718	[*A*]the lsoda library11[*R*]accessed	context()	negated: False ,passive: False
 0.911	[*A*]each electromechanical step[*R*]is simulated[*A*]with the lsoda library11	context()	negated: False ,passive: True
 0.938	[*A*]the time constants of the electromechanical model[*R*]are[*A*]much smaller than for the vortex model	context()	negated: False ,passive: True
-[LINE#163]with variable step length, i.e. each step t of the electromechanical model usually corresponds to many internal steps.
-[LINE#164] Wind turbines are generally divided into horizontal axis wind turbines (HAWT) and vertical axis wind turbines.
+[LINE#174] with variable step length, i.e. each step t of the electromechanical model usually corresponds to many internal steps.
+[LINE#175]  Wind turbines are generally divided into horizontal axis wind turbines (HAWT) and vertical axis wind turbines.
 0.892	[*A*]Wind turbines[*R*]are divided[*A*]into vertical axis wind turbines	context()	negated: False ,passive: True
 0.892	[*A*]Wind turbines[*R*]are divided[*A*]into horizontal axis wind turbines	context()	negated: False ,passive: True
-[LINE#165]This work focuses on the VAWT, which is omnidirectional, implying that a yaw mechanism is not needed.
+[LINE#176] This work focuses on the VAWT, which is omnidirectional, implying that a yaw mechanism is not needed.
 0.833	[*A*]the VAWT[*R*]is[*A*]omnidirectional	context()	negated: False ,passive: True
 0.804	[*A*]This work[*R*]focuses[*A*]on the VAWT[*A*]implying that a yaw mechanism is not needed	context()	negated: False ,passive: False
-[LINE#166]Another advantage of the VAWT is that the vertical axis allows the generator to be placed on ground, which simplifies construction and maintenance.
+[LINE#177] Another advantage of the VAWT is that the vertical axis allows the generator to be placed on ground, which simplifies construction and maintenance.
 0.877	[*A*]ground[*R*]simplifies[*A*]maintenance	context()	negated: False ,passive: False
 0.882	[*A*]the generator[*R*]to be placed[*A*]on ground	context(Another advantage of the VAWT is the vertical axis allows)	negated: False ,passive: True
 0.891	[*A*]the vertical axis[*R*]allows[*A*]the generator to be placed on ground	context(Another advantage of the VAWT is)	negated: False ,passive: False
 0.913	[*A*]Another advantage of the VAWT[*R*]is[*A*]that the vertical axis allows the generator to be placed on ground	context()	negated: False ,passive: True
 0.877	[*A*]ground[*R*]simplifies[*A*]construction	context()	negated: False ,passive: False
-[LINE#167]A disadvantage of this design is that at low tip speed ratios(1)=rV,the turbine torque is low, which implies that the generator has to be operated as a motor to start the turbine.
+[LINE#178] A disadvantage of this design is that at low tip speed ratios(1)=rV,the turbine torque is low, which implies that the generator has to be operated as a motor to start the turbine.
 0.793	[*A*]the turbine torque[*R*]is[*A*]low	context(A disadvantage of this design is)	negated: False ,passive: True
 0.903	[*A*]A disadvantage of this design[*R*]is[*A*]that at low tip speed ratios(1)=rV,the turbine torque is low	context()	negated: False ,passive: True
 0.698	[*A*]the generator[*R*]to be operated	context()	negated: False ,passive: False
-[LINE#168] , r is the turbine radius,  is the turbine rotational velocity and V.
+[LINE#179]  , r is the turbine radius,  is the turbine rotational velocity and V.
 0.830	[*A*]r[*R*]is[*A*]the turbine rotational velocity	context()	negated: False ,passive: True
 0.852	[*A*]r[*R*]is[*A*]the turbine radius	context()	negated: False ,passive: True
-[LINE#169]Another characteristic feature of the VAWT is the cyclic loads from the aerodynamic forces on the blades.
+[LINE#180] Another characteristic feature of the VAWT is the cyclic loads from the aerodynamic forces on the blades.
 0.975	[*A*]Another characteristic feature of the VAWT[*R*]is[*A*]the cyclic loads from the aerodynamic forces on the blades	context()	negated: False ,passive: True
-[LINE#170]A common design consideration is if a pitch mechanism should be included or not.
+[LINE#181] A common design consideration is if a pitch mechanism should be included or not.
 0.751	[*A*]a pitch mechanism[*R*]should be included	context()	negated: False ,passive: False
 0.937	[*A*]A common design consideration[*R*]is[*A*]if a pitch mechanism should be included or not	context()	negated: False ,passive: True
-[LINE#171]The most common design is a HAWT with pitch regulation, where the turbine characteristics can be changed by varying the blade pitch angle [2].
+[LINE#182] The most common design is a HAWT with pitch regulation, where the turbine characteristics can be changed by varying the blade pitch angle [2].
 0.751	[*A*]the turbine characteristics[*R*]can be changed	context()	negated: False ,passive: False
 0.937	[*A*]The most common design[*R*]is[*A*]a HAWT with pitch regulation	context()	negated: False ,passive: True
-[LINE#172]Pitch control for a VAWT has been used to improve performance for turbines operating at low tip speed ratios by avoiding stall [3,4].
+[LINE#183] Pitch control for a VAWT has been used to improve performance for turbines operating at low tip speed ratios by avoiding stall [3,4].
 0.713	[*A*]turbines[*R*]operating	context()	negated: False ,passive: False
 0.944	[*A*]Pitch control for a VAWT[*R*]has been used[*A*]to improve performance for turbines	context()	negated: False ,passive: True
-[LINE#173]The present investigation considers turbines optimised for higher , where the effects of stall are much smaller.
+[LINE#184] The present investigation considers turbines optimised for higher , where the effects of stall are much smaller.
 0.799	[*A*]the effects of stall[*R*]are[*A*]much smaller	context()	negated: False ,passive: True
 0.943	[*A*]The present investigation[*R*]considers[*A*]turbines optimised for higher , where the effects of stall are much smaller	context()	negated: False ,passive: False
-[LINE#174]Pitch regulation of a VAWT further requires that the pitch angle is changed around the entire revolution, and such a mechanism is an additional source of mechanical failure.
+[LINE#185] Pitch regulation of a VAWT further requires that the pitch angle is changed around the entire revolution, and such a mechanism is an additional source of mechanical failure.
 0.913	[*A*]such a mechanism[*R*]is[*A*]an additional source of mechanical failure	context(Pitch regulation of a VAWT requires)	negated: False ,passive: True
 0.865	[*A*]Pitch regulation of a VAWT[*R*]requires[*A*]that such a mechanism is an additional source of mechanical failure	context()	negated: False ,passive: False
 0.888	[*A*]the pitch angle[*R*]is changed[*A*]around the entire revolution	context(Pitch regulation of a VAWT requires)	negated: False ,passive: True
 0.865	[*A*]Pitch regulation of a VAWT[*R*]requires[*A*]that the pitch angle is changed around the entire revolution	context()	negated: False ,passive: False
-[LINE#175]Furthermore, many models for pitch control of a VAWT require knowledge of the wind direction, adding the requirement for additional sensors [5,6].
-[LINE#176]For these reasons, pitch is not investigated here.
+[LINE#186] Furthermore, many models for pitch control of a VAWT require knowledge of the wind direction, adding the requirement for additional sensors [5,6].
+[LINE#187] For these reasons, pitch is not investigated here.
 0.605	[*A*]pitch[*R*]is not investigated[*A*]here	context()	negated: True ,passive: True
-[LINE#177]Instead, this paper considers a more robust way to control the turbine, where the turbine rotational velocity is the only control parameter.
+[LINE#188] Instead, this paper considers a more robust way to control the turbine, where the turbine rotational velocity is the only control parameter.
 0.937	[*A*]the turbine rotational velocity[*R*]is[*A*]the only control parameter	context()	negated: False ,passive: True
 0.903	[*A*]this paper[*R*]considers[*A*]a more robust way to control the turbine,	context()	negated: False ,passive: False
-[LINE#178] The rotational velocity can be controlled via the power extracted by the generator1).The investigation here treats control strategies which operate without measurements of the wind speed and where the generator torque is determined from the rotational velocity of the turbine.
+[LINE#189+190]  The rotational velocity can be controlled via the power extracted by the generator1).The investigation here treats control strategies which operate without measurements of the wind speed and where the generator torque is determined from the rotational velocity of the turbine.
 0.948	[*A*]the generator torque[*R*]is determined[*A*]from the rotational velocity of the turbine[*A*]the wind	context()	negated: False ,passive: True
 0.903	[*A*]The investigation[*R*]here treats[*A*]control strategies which operate without measurements of the wind	context()	negated: False ,passive: False
 0.698	[*A*]control strategies[*R*]operate	context()	negated: False ,passive: False
 0.937	[*A*]The investigation[*R*]here treats[*A*]control strategies which operate without measurements of the wind speed	context()	negated: False ,passive: False
 0.903	[*A*]the power[*R*]extracted[*A*]by the generator1	context()	negated: False ,passive: True
 0.751	[*A*]The rotational velocity[*R*]can be controlled	context()	negated: False ,passive: False
-[LINE#179]Similar strategies have been applied for HAWTs [7], but the low aerodynamic power of VAWTs at low  requires a separate investigation into the applicability of these models for the vertical axis case.
+[LINE#191] Similar strategies have been applied for HAWTs [7], but the low aerodynamic power of VAWTs at low  requires a separate investigation into the applicability of these models for the vertical axis case.
 0.973	[*A*]the low aerodynamic power of VAWTs at low[*R*]requires[*A*]a separate investigation into the applicability of these models for the vertical axis case	context()	negated: False ,passive: False
 0.903	[*A*]Similar strategies[*R*]have been applied[*A*]for HAWTs	context()	negated: False ,passive: True
-[LINE#180]The study of the control system is based on an aerodynamic simulation model for the turbine performance coupled with a model for the electrical system.
+[LINE#192] The study of the control system is based on an aerodynamic simulation model for the turbine performance coupled with a model for the electrical system.
 0.911	[*A*]the turbine performance[*R*]coupled[*A*]with a model for the electrical system	context()	negated: False ,passive: True
 0.932	[*A*]The study of the control system[*R*]is based[*A*]on an aerodynamic simulation model for the turbine performance	context()	negated: False ,passive: True
-[LINE#181]The control system is embedded into the electrical system.
+[LINE#193] The control system is embedded into the electrical system.
 0.911	[*A*]The control system[*R*]is embedded[*A*]into the electrical system	context()	negated: False ,passive: True
-[LINE#182]This approach gives full control of the input parameters and makes a study of the performance of the complete system possible.
+[LINE#194] This approach gives full control of the input parameters and makes a study of the performance of the complete system possible.
 0.937	[*A*]This approach[*R*]makes[*A*]a study of the performance of the complete system possible	context()	negated: False ,passive: False
 0.903	[*A*]This approach[*R*]gives[*A*]full control of the input parameters	context()	negated: False ,passive: False
-[LINE#183]All simulations are performed using the aerodynamic vortex code in Section 3, which provides realistic turbine torque ripple and wake effects, coupled with the electrical model in Section 4, which includes additional ripple effects from the rectification.
+[LINE#195] All simulations are performed using the aerodynamic vortex code in Section 3, which provides realistic turbine torque ripple and wake effects, coupled with the electrical model in Section 4, which includes additional ripple effects from the rectification.
 0.887	[*A*]Section 4[*R*]includes[*A*]additional ripple effects from the rectification	context()	negated: False ,passive: True
 0.927	[*A*]realistic turbine torque ripple and wake effects[*R*]coupled[*A*]with the electrical model in Section 4	context()	negated: False ,passive: True
 0.887	[*A*]All simulations[*R*]using[*A*]the aerodynamic vortex code[*A*]in Section 3	context()	negated: False ,passive: False
 0.732	[*A*]All simulations[*R*]are performed	context()	negated: False ,passive: False
-[LINE#184]This reasonably realistic system simulation helps avoiding the design of a control system that only works for idealised systems.
+[LINE#196] This reasonably realistic system simulation helps avoiding the design of a control system that only works for idealised systems.
 0.909	[*A*]This reasonably realistic system simulation[*R*]helps avoiding[*A*]the design of a control system	context(This reasonably realistic system simulation helps)	negated: False ,passive: False
 0.930	[*A*]This reasonably realistic system simulation[*R*]helps[*A*]avoiding the design of a control system	context()	negated: False ,passive: False
 0.920	[*A*]a control system[*R*]works[*A*]for idealised systems	context()	negated: False ,passive: False
-[LINE#185]In the dynamic tests of the control system, the asymptotic wind speed is changed during the simulation to determine how well the control system adapts the rotational velocity.
+[LINE#197] In the dynamic tests of the control system, the asymptotic wind speed is changed during the simulation to determine how well the control system adapts the rotational velocity.
 0.970	[*A*]the asymptotic wind speed[*R*]is changed[*A*]during the simulation[*A*]to determine how well the control system adapts the rotational velocity[*A*]In the dynamic tests of the control system	context()	negated: False ,passive: True
-[LINE#186]All studies are performed with control strategies A-C and compared to a reference strategy outlined in Section 4.2.
+[LINE#198] All studies are performed with control strategies A-C and compared to a reference strategy outlined in Section 4.2.
 0.911	[*A*]a reference strategy[*R*]outlined[*A*]in Section 4.2	context()	negated: False ,passive: True
 0.903	[*A*]All studies[*R*]are compared[*A*]to a reference strategy	context()	negated: False ,passive: True
 0.732	[*A*]All studies[*R*]are performed	context()	negated: False ,passive: False
-[LINE#187] The reference strategy uses prior knowledge of the asymptotic wind speed to maintain constant and optimal but it is not allowed to operate the generator as a motor.
+[LINE#199+200]  The reference strategy uses prior knowledge of the asymptotic wind speed to maintain constant and optimal but it is not allowed to operate the generator as a motor.
 0.411	[*A*]it[*R*]to operate[*A*]the generator[*A*]as a motor	context()	negated: False ,passive: False
 0.195	[*A*]it[*R*]is not allowed	context()	negated: True ,passive: False
 0.911	[*A*]The reference strategy[*R*]uses[*A*]prior knowledge of the asymptotic wind speed[*A*]to maintain	context()	negated: False ,passive: False
-[LINE#188]The turbine chosen for the simulations is similar to the 3 bladed 200 kW turbine built by vertical wind [22], and has a height of 24 m and a diameter of 26 m.
+[LINE#201] The turbine chosen for the simulations is similar to the 3 bladed 200 kW turbine built by vertical wind [22], and has a height of 24 m and a diameter of 26 m.
 0.837	[*A*]The turbine chosen for the simulations[*R*]is[*A*]similar to the 3	context()	negated: False ,passive: True
 0.933	[*A*]200 kW turbine[*R*]built[*A*]by vertical wind	context()	negated: False ,passive: True
 0.903	[*A*]The turbine[*R*]chosen[*A*]for the simulations	context()	negated: False ,passive: True
-[LINE#189]Due to the two-dimensional simplification of the simulation code, the exact chord cannot be simulated as it varies with height.
+[LINE#202] Due to the two-dimensional simplification of the simulation code, the exact chord cannot be simulated as it varies with height.
 0.195	[*A*]it[*R*]varies	context()	negated: False ,passive: False
 0.848	[*A*]the exact chord[*R*]can not be simulated[*A*]as it varies with height	context()	negated: True ,passive: True
-[LINE#190]Therefore, a chord of 0.75 m is chosen, which is a good approximation to the actual turbine..
+[LINE#203] Therefore, a chord of 0.75 m is chosen, which is a good approximation to the actual turbine..
 0.933	[*A*]a chord of 0.75 m[*R*]is[*A*]a good approximation to the actual turbine	context()	negated: False ,passive: True
 0.785	[*A*]a chord of 0.75 m[*R*]is chosen	context()	negated: False ,passive: False
-[LINE#191]Step responseThe first study evaluates system performance during a step change in wind speed.
+[LINE#204] Step responseThe first study evaluates system performance during a step change in wind speed.
 0.948	[*A*]responseThe first study[*R*]evaluates[*A*]system performance[*A*]Step	context()	negated: False ,passive: False
-[LINE#192]The wind speed is stepwise changed from 3 m/s to 6 m/s, then up to 10 m/s, followed by a decrease to 6 m/s and finally to 3 m/s.
+[LINE#205] The wind speed is stepwise changed from 3 m/s to 6 m/s, then up to 10 m/s, followed by a decrease to 6 m/s and finally to 3 m/s.
 0.911	[*A*]The wind speed[*R*]is stepwise changed[*A*]from 3 m / s[*A*]to 6 m / s	context()	negated: False ,passive: True
 0.909	[*A*]The wind speed[*R*]is stepwise changed then up[*A*]from 3 m / s[*A*]to 6 m / s	context()	negated: False ,passive: True
-[LINE#193] The wind speed and turbine tip speed ratio are plotted in Fig..
+[LINE#206]  The wind speed and turbine tip speed ratio are plotted in Fig..
 0.931	[*A*]turbine tip speed ratio[*R*]are plotted[*A*]in Fig	context()	negated: False ,passive: True
 0.925	[*A*]The wind speed[*R*]are plotted[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#194]As expected, the reference strategy has the fastest step response.
+[LINE#207] As expected, the reference strategy has the fastest step response.
 0.932	[*A*]the reference strategy[*R*]has[*A*]the fastest step response	context()	negated: False ,passive: False
-[LINE#195]The reference strategy is especially fast when the wind speed is reduced since the maximum generator torque is high while acceleration is limited by the turbine torque.
+[LINE#208] The reference strategy is especially fast when the wind speed is reduced since the maximum generator torque is high while acceleration is limited by the turbine torque.
 0.894	[*A*]acceleration[*R*]is limited[*A*]by the turbine torque	context()	negated: False ,passive: True
 0.937	[*A*]the maximum generator torque[*R*]is[*A*]high[*A*]while acceleration is limited by the turbine torque	context()	negated: False ,passive: True
 0.751	[*A*]the wind speed[*R*]is reduced	context()	negated: False ,passive: False
 0.828	[*A*]The reference strategy[*R*]is[*A*]especially fast	context()	negated: False ,passive: True
-[LINE#196]Strategies B and C are faster than A for the step change from 3 m/s to 6 m/s, which is due to higher initial rotational velocities and the larger difference between extracted and aerodynamic power.
+[LINE#209] Strategies B and C are faster than A for the step change from 3 m/s to 6 m/s, which is due to higher initial rotational velocities and the larger difference between extracted and aerodynamic power.
 0.875	[*A*]C[*R*]are[*A*]faster than A for the step change from 3 m / s to 6 m / s	context()	negated: False ,passive: True
 0.913	[*A*]6 m / s[*R*]is[*A*]due to the larger difference between extracted and aerodynamic power	context()	negated: False ,passive: True
 0.867	[*A*]6 m / s[*R*]is[*A*]due to higher initial rotational velocities	context()	negated: False ,passive: True
 0.937	[*A*]Strategies B[*R*]are[*A*]faster than A for the step change from 3 m / s to 6 m / s	context()	negated: False ,passive: True
-[LINE#197]Strategies A-C are designed for 6 m/s and will eventually reach the optimal tip speed ratio at this wind speed.
+[LINE#210] Strategies A-C are designed for 6 m/s and will eventually reach the optimal tip speed ratio at this wind speed.
 0.908	[*A*]Strategies[*R*]will reach[*A*]the optimal tip speed ratio[*A*]eventually	context()	negated: False ,passive: False
 0.813	[*A*]C[*R*]are designed[*A*]for 6 m / s	context()	negated: False ,passive: True
-[LINE#198]The deviations in  from max for strategy A at 3 m/s and 12 m/s are due to the Reynolds number dependence of CPmax, while the deviations for strategies B and C are due to design choices.
+[LINE#211] The deviations in  from max for strategy A at 3 m/s and 12 m/s are due to the Reynolds number dependence of CPmax, while the deviations for strategies B and C are due to design choices.
 0.981	[*A*]The deviations in from max for strategy A at 12 m / s[*R*]are[*A*]due to the Reynolds number dependence of CPmax[*A*]while the deviations for C are due to design choices	context()	negated: False ,passive: True
 0.981	[*A*]The deviations in from max for strategy A at 12 m / s[*R*]are[*A*]due to the Reynolds number dependence of CPmax , while the deviations for strategies	context()	negated: False ,passive: True
 0.919	[*A*]the deviations for C[*R*]are[*A*]due to design choices	context()	negated: False ,passive: True
 0.981	[*A*]The deviations in from max for strategy A at 3 m / s[*R*]are[*A*]due to the Reynolds number dependence of CPmax[*A*]while the deviations for C are due to design choices	context()	negated: False ,passive: True
 0.877	[*A*]strategies[*R*]are[*A*]due to design choices	context()	negated: False ,passive: True
 0.981	[*A*]The deviations in from max for strategy A at 3 m / s[*R*]are[*A*]due to the Reynolds number dependence of CPmax , while the deviations for strategies	context()	negated: False ,passive: True
-[LINE#199]The overshoot for strategies A-C, both for increasing and decreasing wind speed is an aerodynamic effect.
+[LINE#212] The overshoot for strategies A-C, both for increasing and decreasing wind speed is an aerodynamic effect.
 0.980	[*A*]The overshoot for strategies A - C , both for decreasing wind speed[*R*]is[*A*]an aerodynamic effect	context()	negated: False ,passive: True
 0.958	[*A*]The overshoot for strategies A - C[*R*]is[*A*]an aerodynamic effect	context()	negated: False ,passive: True
-[LINE#200]When the wind speed is increased, the wake behind the turbine is not fully developed, which results in a higher aerodynamic torque during the formation of the wake.
+[LINE#213] When the wind speed is increased, the wake behind the turbine is not fully developed, which results in a higher aerodynamic torque during the formation of the wake.
 0.951	[*A*]the wake behind the turbine[*R*]is not developed[*A*]which results in a higher aerodynamic torque during the formation of the wake[*A*]When the wind speed is increased	context()	negated: True ,passive: True
 0.751	[*A*]the wind speed[*R*]is increased	context()	negated: False ,passive: False
-[LINE#201]For decreasing wind speeds, the wake is over-developed, giving less aerodynamic torque, and the wake has to drift away before a steady state is obtained. .
+[LINE#214] For decreasing wind speeds, the wake is over-developed, giving less aerodynamic torque, and the wake has to drift away before a steady state is obtained. .
 0.751	[*A*]a steady state[*R*]is obtained	context()	negated: False ,passive: False
 0.887	[*A*]the wake[*R*]to drift[*A*]away[*A*]before a steady state is obtained	context()	negated: False ,passive: True
 0.887	[*A*]the wake[*R*]giving[*A*]less aerodynamic torque	context()	negated: False ,passive: False
 0.925	[*A*]the wake[*R*]is[*A*]over-developed[*A*]giving less aerodynamic torque	context()	negated: False ,passive: True
-[LINE#202]speedThe second study concerns how the control system handles oscillating wind speeds.
+[LINE#215] speedThe second study concerns how the control system handles oscillating wind speeds.
 0.911	[*A*]the control system[*R*]handles[*A*]oscillating wind speeds	context()	negated: False ,passive: False
-[LINE#203] The wind speed is set to oscillate between 3 m/s and 8 m/s and the frequency of the oscillation is varied, see Fig..
+[LINE#216]  The wind speed is set to oscillate between 3 m/s and 8 m/s and the frequency of the oscillation is varied, see Fig..
 0.802	[*A*]The wind speed[*R*]is[*A*]varied	context()	negated: False ,passive: True
 0.943	[*A*]The wind speed[*R*]is set[*A*]to oscillate between 3 m/s and 8 m/s and the frequency of the oscillation	context()	negated: False ,passive: True
-[LINE#204]At low oscillation frequencies, strategies A and C work well.
+[LINE#217] At low oscillation frequencies, strategies A and C work well.
 0.773	[*A*]At low oscillation frequencies , strategies[*R*]work well	context()	negated: False ,passive: False
-[LINE#205]While A starts to drop in efficiency quite early, strategy C keeps a higher efficiency a bit longer and appears to be a better strategy in general for this case, although the two strategies are similar.
+[LINE#218] While A starts to drop in efficiency quite early, strategy C keeps a higher efficiency a bit longer and appears to be a better strategy in general for this case, although the two strategies are similar.
 0.816	[*A*]While A starts to drop in efficiency[*R*]appears	context()	negated: False ,passive: False
 0.903	[*A*]A starts[*R*]to drop[*A*]in efficiency	context()	negated: False ,passive: True
 0.783	[*A*]the two strategies[*R*]are[*A*]similar	context()	negated: False ,passive: True
 0.903	[*A*]strategy C[*R*]keeps[*A*]a higher efficiency[*A*]a bit longer[*A*]although the two strategies are similar	context()	negated: False ,passive: False
 0.903	[*A*]A starts[*R*]to drop[*A*]in efficiency[*A*]quite early	context()	negated: False ,passive: True
-[LINE#206]For higher frequencies, strategy B is better than both A and C.
+[LINE#219] For higher frequencies, strategy B is better than both A and C.
 0.381	[*A*]strategy B[*R*]is better than[*A*]C.	context()	negated: False ,passive: False
 0.937	[*A*]strategy B[*R*]is[*A*]better than C.	context()	negated: False ,passive: True
 0.813	[*A*]strategy B[*R*]is[*A*]better than both A	context()	negated: False ,passive: True
-[LINE#207]Hz, the reference control strategy starts to drop rapidly in performance.
+[LINE#220] Hz, the reference control strategy starts to drop rapidly in performance.
 0.905	[*A*]the reference control strategy[*R*]to drop rapidly[*A*]in performance	context()	negated: False ,passive: True
 0.815	[*A*]the reference control strategy[*R*]starts	context()	negated: False ,passive: False
-[LINE#208] The explanation is found in Fig.11, where strategies A-C obtain higher average tip speed ratios for higher oscillation frequencies.
+[LINE#221+222]  The explanation is found in Fig.11, where strategies A-C obtain higher average tip speed ratios for higher oscillation frequencies.
 0.918	[*A*]The explanation[*R*]is found[*A*]in Fig.11	context()	negated: False ,passive: True
-[LINE#209]For all strategies A-C, the difference in aerodynamic and generator torque is larger when the wind speed is increasing, i.e. when  is slightly less than max, than when the wind speed is decreasing.
+[LINE#223] For all strategies A-C, the difference in aerodynamic and generator torque is larger when the wind speed is increasing, i.e. when  is slightly less than max, than when the wind speed is decreasing.
 0.964	[*A*]the difference in generator torque[*R*]is[*A*]larger[*A*]when the wind speed is increasing , i.e. when is slightly less than max , than when the wind speed is decreasing .	context()	negated: False ,passive: True
 0.751	[*A*]the wind speed[*R*]is increasing	context()	negated: False ,passive: False
 0.960	[*A*]the difference in aerodynamic[*R*]is[*A*]larger[*A*]when the wind speed is increasing , i.e. when is slightly less than max , than when the wind speed is decreasing .	context()	negated: False ,passive: True
-[LINE#210]Hence, the average tip speed ratio increases with increasing wind frequency.
-[LINE#211]For the reference strategy, =max is maintained whenever the wind speed is decreasing.
+[LINE#224] Hence, the average tip speed ratio increases with increasing wind frequency.
+[LINE#225] For the reference strategy, =max is maintained whenever the wind speed is decreasing.
 0.751	[*A*]the wind speed[*R*]is decreasing	context()	negated: False ,passive: False
 0.913	[*A*]=max[*R*]is maintained[*A*]whenever the wind speed is decreasing[*A*]For the reference strategy	context()	negated: False ,passive: True
-[LINE#212]However, turbine torque is insufficient to maintain optimal  when the wind speed increases rapidly, i.e. the average  decreases with increasing wind frequency.
+[LINE#226] However, turbine torque is insufficient to maintain optimal  when the wind speed increases rapidly, i.e. the average  decreases with increasing wind frequency.
 0.927	[*A*]turbine torque[*R*]to maintain[*A*]optimal[*A*]when the wind speed increases rapidly, i.e. the average  decreases with increasing wind frequency	context()	negated: False ,passive: False
 0.925	[*A*]turbine torque[*R*]is[*A*]insufficient to maintain optimal	context()	negated: False ,passive: True
-[LINE#213]As the power is proportional to the cube of the wind speed, keeping the correct tip speed ratio at high wind speeds is more important, which is the reason for the improved performance of strategies A-C, compared to the reference control strategy, during very rapid wind oscillations.
+[LINE#227] As the power is proportional to the cube of the wind speed, keeping the correct tip speed ratio at high wind speeds is more important, which is the reason for the improved performance of strategies A-C, compared to the reference control strategy, during very rapid wind oscillations.
 0.977	[*A*]keeping the correct tip speed ratio at high wind speeds[*R*]is[*A*]more important[*A*]which is the reason for the improved performance of strategies	context()	negated: False ,passive: True
 0.925	[*A*]the power[*R*]is[*A*]proportional to the cube of the wind speed	context()	negated: False ,passive: True
-[LINE#214] The control strategies are also tested with a higher average wind speed (9.5 m/s, compared to 5.5 m/s) and the results are found in Fig..
+[LINE#228]  The control strategies are also tested with a higher average wind speed (9.5 m/s, compared to 5.5 m/s) and the results are found in Fig..
 0.164	[*A*]a higher wind speed[*R*]has averageness of[*A*]9.5 m /	context()	negated: False ,passive: False
 0.918	[*A*]the results[*R*]are found[*A*]in Fig	context()	negated: False ,passive: True
 0.848	[*A*]The control strategies[*R*]are tested[*A*]compared to 5.5 m/s	context()	negated: False ,passive: True
-[LINE#215]In this high wind speed case, all strategies perform well and the differences between the strategies are only a few percent.
+[LINE#229] In this high wind speed case, all strategies perform well and the differences between the strategies are only a few percent.
 0.926	[*A*]the differences between the strategies[*R*]are[*A*]only a few percent	context()	negated: False ,passive: True
 0.933	[*A*]all strategies[*R*]perform well[*A*]In this high wind speed case	context()	negated: False ,passive: False
-[LINE#216]At this point, the reference strategy delivers the most power, followed by strategy A, then C and finally B. As mentioned before, the lower power extraction for strategy C, as compared to strategy A, is intentional to reduce structural loads.
+[LINE#230] At this point, the reference strategy delivers the most power, followed by strategy A, then C and finally B. As mentioned before, the lower power extraction for strategy C, as compared to strategy A, is intentional to reduce structural loads.
 0.935	[*A*]the reference strategy[*R*]delivers then finally[*A*]B. As mentioned before[*A*]At this point	context()	negated: False ,passive: False
 0.975	[*A*]the lower power extraction for strategy C , as compared to strategy A ,[*R*]is[*A*]intentional to reduce structural loads	context()	negated: False ,passive: True
 0.962	[*A*]the lower power extraction for strategy C , as compared to strategy A ,[*R*]to reduce[*A*]structural loads	context()	negated: False ,passive: False
 0.948	[*A*]the reference strategy[*R*]delivers[*A*]the most power[*A*]At this point	context()	negated: False ,passive: False
-[LINE#217]Because of the smaller variations in  there are smaller differences in delivered power between the strategies in the high wind speed case.
-[LINE#218]Furthermore, the increased wind speed increases the aerodynamic torque and thereby reduces the time constants of the mechanical system, which is another reason why the drop in delivered power is not as significant in the high wind speed case.
+[LINE#231] Because of the smaller variations in  there are smaller differences in delivered power between the strategies in the high wind speed case.
+[LINE#232] Furthermore, the increased wind speed increases the aerodynamic torque and thereby reduces the time constants of the mechanical system, which is another reason why the drop in delivered power is not as significant in the high wind speed case.
 0.926	[*A*]the drop in delivered power[*R*]is not[*A*]as significant in the high wind speed case	context()	negated: True ,passive: True
 0.949	[*A*]the mechanical system[*R*]is[*A*]another reason why the drop in delivered power is not as significant in the high wind speed case	context()	negated: False ,passive: True
 0.919	[*A*]the increased wind speed[*R*]increases[*A*]the aerodynamic torque	context()	negated: False ,passive: False
-[LINE#219]The small increase in power for higher wind frequencies is an aerodynamic effect and according to the present simulation model, it is actually possible to extract slightly more power in the oscillating case.
+[LINE#233] The small increase in power for higher wind frequencies is an aerodynamic effect and according to the present simulation model, it is actually possible to extract slightly more power in the oscillating case.
 0.960	[*A*]The small increase in power for higher wind frequencies[*R*]is[*A*]an aerodynamic effect	context()	negated: False ,passive: True
-[LINE#220]However, this increase is small and considering aerodynamic model uncertainties and approximations, such as that the wind speed changes are implemented as a change of asymptotic wind speed, further studies are required to determine if this effect is physical.
+[LINE#234] However, this increase is small and considering aerodynamic model uncertainties and approximations, such as that the wind speed changes are implemented as a change of asymptotic wind speed, further studies are required to determine if this effect is physical.
 0.777	[*A*]this effect[*R*]is[*A*]physical	context(further studies to determine)	negated: False ,passive: True
 0.845	[*A*]this increase[*R*]is considering[*A*]aerodynamic model approximations , such as that the wind speed changes are implemented as a change of asymptotic wind speed	context()	negated: False ,passive: False
 0.777	[*A*]this effect[*R*]is[*A*]physical	context(further studies to determine)	negated: False ,passive: True
@@ -715,141 +715,141 @@
 0.845	[*A*]this increase[*R*]is considering[*A*]aerodynamic model uncertainties , such as that the wind speed changes are implemented as a change of asymptotic wind speed	context()	negated: False ,passive: False
 0.897	[*A*]small , further studies[*R*]are required[*A*]to determine if this effect is physical	context(this increase is)	negated: False ,passive: True
 0.938	[*A*]this increase[*R*]is[*A*]small , further studies are required to determine if this effect is physical	context()	negated: False ,passive: True
-[LINE#221] The small variations between each simulation point in Fig.12 are within the simulation uncertainty, caused by the unsteady nature of the vortex wake..
+[LINE#235+236]  The small variations between each simulation point in Fig.12 are within the simulation uncertainty, caused by the unsteady nature of the vortex wake..
 0.897	[*A*]the simulation uncertainty[*R*]caused[*A*]by the unsteady nature of the vortex wake	context()	negated: False ,passive: True
 0.961	[*A*]The small variations between each simulation point in Fig.12[*R*]are[*A*]within the simulation uncertainty	context()	negated: False ,passive: True
-[LINE#222]Electrical analysisThe total system performance depends both on aerodynamic and electrical performance.
+[LINE#237] Electrical analysisThe total system performance depends both on aerodynamic and electrical performance.
 0.926	[*A*]Electrical analysisThe total system performance[*R*]depends[*A*]both on aerodynamic and electrical performance	context()	negated: False ,passive: False
-[LINE#223]While Section 2 only discusses the control strategies from an aerodynamic point of view, the simulations (Figs. 10 and 12) present the delivered power to the electrical load, see Eq.
+[LINE#238] While Section 2 only discusses the control strategies from an aerodynamic point of view, the simulations (Figs. 10 and 12) present the delivered power to the electrical load, see Eq.
 0.971	[*A*]the simulations ( Figs . 12 ) present the delivered power to the electrical load[*R*]see[*A*]Eq	context()	negated: False ,passive: False
 0.971	[*A*]the simulations ( Figs . 10 ) present the delivered power to the electrical load[*R*]see[*A*]Eq	context()	negated: False ,passive: False
 0.887	[*A*]Section 2[*R*]discusses[*A*]the control strategies from an aerodynamic point of view	context()	negated: False ,passive: False
-[LINE#224](23).The generator efficiency, defined in Eq.
+[LINE#239] (23).The generator efficiency, defined in Eq.
 0.913	[*A*]The generator efficiency[*R*]defined[*A*]in Eq	context()	negated: False ,passive: True
-[LINE#225] Strategies A-C lead to similar generator efficiencies,the two major trends being that increased average wind speed causes a higher generator efficiency while a higher frequency of the wind speed reduces the generator efficiency.
+[LINE#240+241]  Strategies A-C lead to similar generator efficiencies,the two major trends being that increased average wind speed causes a higher generator efficiency while a higher frequency of the wind speed reduces the generator efficiency.
 0.936	[*A*]increased average wind speed[*R*]causes[*A*]a higher generator efficiency[*A*]while a higher frequency of the wind speed reduces the generator efficiency	context(the two major trends being)	negated: False ,passive: False
 0.841	[*A*]the two major trends[*R*]being[*A*]that increased average wind speed causes a higher generator efficiency while a higher frequency of the wind speed reduces the generator efficiency	context()	negated: False ,passive: True
 0.938	[*A*]a higher frequency of the wind speed[*R*]reduces[*A*]the generator efficiency	context()	negated: False ,passive: False
-[LINE#226]In the high wind speed case at low frequencies, the generator efficiency of the reference strategy is similar to that of the other strategies.
+[LINE#242] In the high wind speed case at low frequencies, the generator efficiency of the reference strategy is similar to that of the other strategies.
 0.929	[*A*]the generator efficiency of the reference strategy[*R*]is[*A*]similar to that of the other strategies[*A*]In the high wind speed case at low frequencies	context()	negated: False ,passive: True
-[LINE#227]However, the generator efficiency with the reference strategy is lower at high wind frequencies.
+[LINE#243] However, the generator efficiency with the reference strategy is lower at high wind frequencies.
 0.952	[*A*]the generator efficiency with the reference strategy[*R*]is[*A*]lower[*A*]at high wind frequencies	context()	negated: False ,passive: True
-[LINE#228]This reduced efficiency is due to high resistive loss caused by the high generator torque during the rapid oscillations.
+[LINE#244] This reduced efficiency is due to high resistive loss caused by the high generator torque during the rapid oscillations.
 0.911	[*A*]high resistive loss[*R*]caused[*A*]by the high generator torque[*A*]during the rapid oscillations	context()	negated: False ,passive: True
 0.932	[*A*]This reduced efficiency[*R*]is[*A*]due to high resistive loss	context()	negated: False ,passive: True
-[LINE#229]In the low wind speed case at wind frequencies of 0.01-0.03 Hz, the generator efficiency is higher with the reference strategy than with the other strategies, since strategies A-C operate at too high rotational velocities and thereby increase the already dominant core loss.
+[LINE#245] In the low wind speed case at wind frequencies of 0.01-0.03 Hz, the generator efficiency is higher with the reference strategy than with the other strategies, since strategies A-C operate at too high rotational velocities and thereby increase the already dominant core loss.
 0.979	[*A*]the generator efficiency[*R*]is[*A*]higher with the reference strategy than with the other strategies[*A*]since thereby increase the already dominant core loss[*A*]In the low wind speed case at wind frequencies of 0.01-0.03 Hz	context()	negated: False ,passive: True
 0.561	[*A*]C[*R*]operate	context()	negated: False ,passive: False
 0.979	[*A*]the generator efficiency[*R*]is[*A*]higher with the reference strategy than with the other strategies[*A*]since strategies A - C operate at too high rotational velocities[*A*]In the low wind speed case at wind frequencies of 0.01-0.03 Hz	context()	negated: False ,passive: True
-[LINE#230]In the low wind speed case at wind frequencies above 0.003 Hz, the reference strategy causes a too low average tip speed ratio which reduces energy capture, see Figs.
+[LINE#246] In the low wind speed case at wind frequencies above 0.003 Hz, the reference strategy causes a too low average tip speed ratio which reduces energy capture, see Figs.
 0.927	[*A*]a too low average tip speed ratio[*R*]reduces[*A*]energy capture	context()	negated: False ,passive: False
 0.972	[*A*]the reference strategy[*R*]causes[*A*]a too low average tip speed ratio which reduces energy capture[*A*]In the low wind speed case at wind frequencies above 0.003 Hz	context()	negated: False ,passive: False
-[LINE#231]10 and 11.The resistive loss constitutes 19-27% of the generator losses in the high wind speed case and 5-7% of the generator losses in the low wind speed case.
+[LINE#247] 10 and 11.The resistive loss constitutes 19-27% of the generator losses in the high wind speed case and 5-7% of the generator losses in the low wind speed case.
 0.943	[*A*]11.The resistive loss[*R*]constitutes[*A*]19-27 % of the generator losses in 5-7 % of the generator losses in the low wind speed case	context()	negated: False ,passive: False
 0.615	[*A*]11.The resistive loss[*R*]have the generator losses of[*A*]-27 %	context()	negated: False ,passive: False
 0.999	[*A*]11.The resistive loss[*R*]constitutes[*A*]-27 %	context()	negated: False ,passive: False
 0.943	[*A*]11.The resistive loss[*R*]constitutes[*A*]19-27 % of the generator losses in the high wind speed case	context()	negated: False ,passive: False
-[LINE#232]Drawing currents at unity power factor would reduce the resistive loss by up to 17% in the high wind speed case and 12% in the low wind speed case, which corresponds to an increase of the generator efficiency by 0.1-0.5%.
+[LINE#248] Drawing currents at unity power factor would reduce the resistive loss by up to 17% in the high wind speed case and 12% in the low wind speed case, which corresponds to an increase of the generator efficiency by 0.1-0.5%.
 0.944	[*A*]the low wind speed case[*R*]corresponds[*A*]to an increase of the generator efficiency by 0.1-0.5 %	context()	negated: False ,passive: True
 0.932	[*A*]Drawing currents at unity power factor[*R*]would reduce[*A*]the resistive loss[*A*]by up to 12 %[*A*]in the low wind speed case	context()	negated: False ,passive: False
 0.932	[*A*]Drawing currents at unity power factor[*R*]would reduce[*A*]the resistive loss[*A*]by up to 17 %[*A*]in the high wind speed case	context()	negated: False ,passive: False
-[LINE#233]The diode loss constitutes 2-3% of the total loss.
+[LINE#249] The diode loss constitutes 2-3% of the total loss.
 0.615	[*A*]The diode[*R*]have loss of[*A*]2	context()	negated: False ,passive: False
 0.999	[*A*]The diode loss[*R*]constitutes[*A*]2	context()	negated: False ,passive: False
 0.911	[*A*]The diode loss[*R*]constitutes[*A*]2-3% of the total loss	context()	negated: False ,passive: False
-[LINE#234]Vortex methodAll aerodynamic simulations are performed with a vortex method, which is a time dependent simulation model based on the vorticity formulation of the incompressible version of Navier-Stokes equations [8].
+[LINE#250] Vortex methodAll aerodynamic simulations are performed with a vortex method, which is a time dependent simulation model based on the vorticity formulation of the incompressible version of Navier-Stokes equations [8].
 0.960	[*A*]a time dependent simulation model[*R*]based[*A*]on the vorticity formulation of the incompressible version of Navier-Stokes equations	context()	negated: False ,passive: True
 0.957	[*A*]a vortex method[*R*]is[*A*]a time dependent simulation model based on the vorticity formulation of the incompressible version of Navier-Stokes equations [8]	context()	negated: False ,passive: True
 0.769	[*A*]Vortex methodAll aerodynamic simulations[*R*]are performed	context()	negated: False ,passive: False
-[LINE#235]This is a Lagrangian method, which discretizes the vorticity field using point vortices.
+[LINE#251] This is a Lagrangian method, which discretizes the vorticity field using point vortices.
 0.922	[*A*]a Lagrangian method[*R*]discretizes[*A*]the vorticity field	context()	negated: False ,passive: False
 0.495	[*A*]This[*R*]is[*A*]a Lagrangian method	context()	negated: False ,passive: True
-[LINE#236]The vorticity is a conserved quantity within the fluid and new vortices can only be injected from the turbine boundaries.
+[LINE#252] The vorticity is a conserved quantity within the fluid and new vortices can only be injected from the turbine boundaries.
 0.888	[*A*]a conserved quantity within the new vortices[*R*]can be injected[*A*]from the turbine boundaries	context(The vorticity is)	negated: False ,passive: True
 0.941	[*A*]The vorticity[*R*]is[*A*]a conserved quantity within the new vortices can only be injected from the turbine boundaries	context()	negated: False ,passive: True
 0.888	[*A*]a conserved quantity within the fluid vortices[*R*]can be injected[*A*]from the turbine boundaries	context(The vorticity is)	negated: False ,passive: True
 0.941	[*A*]The vorticity[*R*]is[*A*]a conserved quantity within the fluid vortices can only be injected from the turbine boundaries	context()	negated: False ,passive: True
-[LINE#237]When a turbine is simulated, vortices are released from the turbine blades and propagate with the flow velocity.
+[LINE#253] When a turbine is simulated, vortices are released from the turbine blades and propagate with the flow velocity.
 0.938	[*A*]vortices[*R*]propagate[*A*]with the flow velocity[*A*]When a turbine is simulated	context()	negated: False ,passive: False
 0.938	[*A*]vortices[*R*]are released[*A*]from the turbine blades[*A*]When a turbine is simulated	context()	negated: False ,passive: True
 0.732	[*A*]a turbine[*R*]is simulated	context()	negated: False ,passive: False
-[LINE#238]Here, it is assumed that the viscosity is zero, which for high Reynolds numbers is an acceptable assumption outside the boundary layer.
+[LINE#254] Here, it is assumed that the viscosity is zero, which for high Reynolds numbers is an acceptable assumption outside the boundary layer.
 0.573	[*A*]zero[*R*]is[*A*]an acceptable assumption outside the boundary layer	context()	negated: False ,passive: True
-[LINE#239]Simulation of the boundary layer is computationally demanding and therefore not feasible if many revolutions are to be simulated.
+[LINE#255] Simulation of the boundary layer is computationally demanding and therefore not feasible if many revolutions are to be simulated.
 0.698	[*A*]many revolutions[*R*]to be simulated	context()	negated: False ,passive: False
 0.767	[*A*]many revolutions[*R*]are[*A*]to be simulated	context()	negated: False ,passive: True
 0.785	[*A*]Simulation of the boundary layer[*R*]is computationally demanding	context()	negated: False ,passive: False
-[LINE#240]To create a fast simulation code, an additional model is required.
+[LINE#256] To create a fast simulation code, an additional model is required.
 0.751	[*A*]an additional model[*R*]is required	context()	negated: False ,passive: False
-[LINE#241]There are two common approaches to this problem; the first is to use the Kutta condition [9], which gives the inviscid solution with zero drag force and neglects stall.
+[LINE#257] There are two common approaches to this problem; the first is to use the Kutta condition [9], which gives the inviscid solution with zero drag force and neglects stall.
 0.627	[*A*]the first[*R*]is[*A*]to use the Kutta condition	context()	negated: False ,passive: True
 0.922	[*A*]the Kutta condition[*R*]gives[*A*]the inviscid solution with zero drag force	context()	negated: False ,passive: False
-[LINE#242]The second is to use an empirical model for the forces, which requires external data, but includes drag forces and stall, which gives a more realistic power from the turbine.
+[LINE#258] The second is to use an empirical model for the forces, which requires external data, but includes drag forces and stall, which gives a more realistic power from the turbine.
 0.786	[*A*]stall[*R*]gives[*A*]a more realistic power from the turbine	context()	negated: False ,passive: False
 0.887	[*A*]drag forces[*R*]gives[*A*]a more realistic power	context()	negated: False ,passive: False
 0.887	[*A*]the forces[*R*]requires[*A*]external data	context()	negated: False ,passive: False
 0.636	[*A*]The second[*R*]is[*A*]to use an empirical model for the forces	context()	negated: False ,passive: True
-[LINE#243]The model chosen for this study uses empirical lift and drag coefficients and a dynamic stall model to handle large angles of attack.
+[LINE#259] The model chosen for this study uses empirical lift and drag coefficients and a dynamic stall model to handle large angles of attack.
 0.932	[*A*]The model chosen for this study[*R*]uses[*A*]empirical lift	context()	negated: False ,passive: False
 0.903	[*A*]The model[*R*]chosen[*A*]for this study	context()	negated: False ,passive: True
-[LINE#244]The chosen dynamic stall model is the model developed by Gormont [10] and later modified by Mass [11] with the parameters suggested by Berg [12].
+[LINE#260] The chosen dynamic stall model is the model developed by Gormont [10] and later modified by Mass [11] with the parameters suggested by Berg [12].
 0.918	[*A*]the parameters[*R*]suggested[*A*]by Berg [ 12	context()	negated: False ,passive: True
 0.949	[*A*]the model developed[*R*]modified[*A*]by Mass [ 11[*A*]with the parameters[*A*]later	context()	negated: False ,passive: True
 0.970	[*A*]The chosen dynamic stall model[*R*]is[*A*]the model developed later modified by Mass [ 11 ] with the parameters	context()	negated: False ,passive: True
 0.918	[*A*]the model[*R*]developed[*A*]by Gormont	context()	negated: False ,passive: True
 0.952	[*A*]The chosen dynamic stall model[*R*]is[*A*]the model developed by Gormont [ 10 ]	context()	negated: False ,passive: True
-[LINE#245]Lift and drag coefficients are obtained from Ref.
+[LINE#261] Lift and drag coefficients are obtained from Ref.
 0.918	[*A*]drag coefficients[*R*]are obtained[*A*]from Ref	context()	negated: False ,passive: True
 0.840	[*A*]Lift[*R*]are obtained[*A*]from Ref	context()	negated: False ,passive: True
-[LINE#246][13].To implement the empirical model, the angle of attack is calculated from the flow velocity using a linear panel method as described in Ref.
+[LINE#262] [13].To implement the empirical model, the angle of attack is calculated from the flow velocity using a linear panel method as described in Ref.
 0.911	[*A*]the flow velocity[*R*]using[*A*]a linear panel method	context()	negated: False ,passive: False
 0.931	[*A*]the angle of attack[*R*]is calculated[*A*]from the flow velocity[*A*]as described in Ref	context()	negated: False ,passive: True
-[LINE#247]The circulation for the inviscid case is calculated from the Kutta condition, and by comparing with the circulation for a wing in homogeneous wind, the circulation is converted into the corresponding angle of attack.
+[LINE#263] The circulation for the inviscid case is calculated from the Kutta condition, and by comparing with the circulation for a wing in homogeneous wind, the circulation is converted into the corresponding angle of attack.
 0.964	[*A*]the circulation[*R*]is converted[*A*]into the corresponding angle of attack[*A*]by comparing with the circulation for a wing in homogeneous wind	context()	negated: False ,passive: True
 0.943	[*A*]The circulation for the inviscid case[*R*]is calculated[*A*]from the Kutta condition	context()	negated: False ,passive: True
-[LINE#248]The empirical model uses this angle of attack to calculate the forces, and the Kutta Joukowski lift formula is used (as in Ref.
+[LINE#264] The empirical model uses this angle of attack to calculate the forces, and the Kutta Joukowski lift formula is used (as in Ref.
 0.944	[*A*]the Kutta Joukowski lift formula[*R*]is used[*A*]as in Ref	context()	negated: False ,passive: True
 0.911	[*A*]The empirical model[*R*]uses[*A*]this angle of attack[*A*]to calculate the forces	context()	negated: False ,passive: False
-[LINE#249][15]) to recover the circulation, which is now lower than the inviscid circulation if flow separation starts to occur.
+[LINE#265] [15]) to recover the circulation, which is now lower than the inviscid circulation if flow separation starts to occur.
 0.698	[*A*]flow separation[*R*]to occur	context()	negated: False ,passive: False
 0.784	[*A*]flow separation[*R*]starts	context()	negated: False ,passive: False
 0.913	[*A*]the circulation[*R*]is[*A*]now lower than the inviscid circulation	context()	negated: False ,passive: True
-[LINE#250]The magnitude of the vortices released into the flow is determined from the change in circulation for the blades, and one vortex is released from each blade at each time step.
+[LINE#266] The magnitude of the vortices released into the flow is determined from the change in circulation for the blades, and one vortex is released from each blade at each time step.
 0.903	[*A*]one vortex[*R*]is released[*A*]from each blade	context()	negated: False ,passive: True
 0.913	[*A*]The magnitude of the vortices[*R*]is determined[*A*]from the change in circulation for the blades	context()	negated: False ,passive: True
 0.903	[*A*]the vortices[*R*]released[*A*]into the flow	context()	negated: False ,passive: True
-[LINE#251]A two-dimensional vortex model is chosen in order to avoid the computational cost of a three-dimensional model.
+[LINE#267] A two-dimensional vortex model is chosen in order to avoid the computational cost of a three-dimensional model.
 0.932	[*A*]A two-dimensional vortex model[*R*]is chosen[*A*]in order	context()	negated: False ,passive: True
-[LINE#252]A drawback is that tip losses cannot be calculated directly from this model.
+[LINE#268] A drawback is that tip losses cannot be calculated directly from this model.
 0.882	[*A*]tip losses[*R*]can not be calculated directly[*A*]from this model	context(A drawback is)	negated: True ,passive: True
 0.853	[*A*]A drawback[*R*]is[*A*]that tip losses cannot be calculated directly from this model	context()	negated: False ,passive: True
-[LINE#253]As a simplified model, finite wing theory can be used to obtain some of the losses due to tip vortices.
+[LINE#269] As a simplified model, finite wing theory can be used to obtain some of the losses due to tip vortices.
 0.897	[*A*]finite wing theory[*R*]to obtain[*A*]some of the losses due to tip vortices	context()	negated: False ,passive: False
 0.943	[*A*]finite wing theory[*R*]can be used[*A*]to obtain some of the losses due to tip vortices	context()	negated: False ,passive: True
-[LINE#254] The finite wing theory equations are applied in a similar way as done by Paraschivoiu for the stream-tube model [16], e.g.(11)a0=1.8(0.8tbc),(12)CL=.
+[LINE#270+271]  The finite wing theory equations are applied in a similar way as done by Paraschivoiu for the stream-tube model [16], e.g.(11)a0=1.8(0.8tbc),(12)CL=.
 0.952	[*A*]The finite wing theory equations[*R*]are applied[*A*]as done by Paraschivoiu for the stream-tube model	context()	negated: False ,passive: True
-[LINE#255]CD+CL2ARare used as follows: The reduced angle of attack is calculated using Eqs.
+[LINE#272] CD+CL2ARare used as follows: The reduced angle of attack is calculated using Eqs.
 0.625	[*A*]CD+CL2ARare[*R*]used[*A*]as follows	context(The reduced angle of attack is calculated)	negated: False ,passive: False
 0.745	[*A*]The reduced angle of attack[*R*]is calculated	context()	negated: False ,passive: False
-[LINE#256](11)-(13), then, the dynamic stall model is used to obtain lift and drag coefficients and finally, the induced drag is calculated from Eq.
+[LINE#273] (11)-(13), then, the dynamic stall model is used to obtain lift and drag coefficients and finally, the induced drag is calculated from Eq.
 0.925	[*A*]the induced drag[*R*]is calculated[*A*]from Eq	context()	negated: False ,passive: True
 0.877	[*A*]the dynamic stall model[*R*]is used[*A*]to obtain drag finally[*A*]then	context()	negated: False ,passive: True
 0.905	[*A*]the dynamic stall model[*R*]to obtain[*A*]drag coefficients	context()	negated: False ,passive: False
 0.953	[*A*]the dynamic stall model[*R*]is used[*A*]to obtain drag coefficients[*A*]then	context()	negated: False ,passive: True
 0.905	[*A*]the dynamic stall model[*R*]to obtain[*A*]lift	context()	negated: False ,passive: False
 0.953	[*A*]the dynamic stall model[*R*]is used[*A*]to obtain lift[*A*]then	context()	negated: False ,passive: True
-[LINE#257] Here, tb is the blade thickness, cthe lift and drag coefficients for infinitely long blades, AR the aspect ratio,  the angle of attack without the corrections and e the corrected angle of attack.
+[LINE#274+275]  Here, tb is the blade thickness, cthe lift and drag coefficients for infinitely long blades, AR the aspect ratio,  the angle of attack without the corrections and e the corrected angle of attack.
 0.912	[*A*]tb[*R*]is[*A*]the blade thickness[*A*]Here	context()	negated: False ,passive: True
 0.892	[*A*]tb[*R*]is[*A*]the blade thickness[*A*]Here	context(cthe lift)	negated: False ,passive: True
 0.204	[*A*]cthe[*R*]lift	context()	negated: False ,passive: False
-[LINE#258]Another three-dimensional effect is the support structure for the blades, which has been neglected in the current work.
+[LINE#276] Another three-dimensional effect is the support structure for the blades, which has been neglected in the current work.
 0.921	[*A*]the support structure for the blades[*R*]has been neglected[*A*]in the current work	context()	negated: False ,passive: True
 0.964	[*A*]Another three-dimensional effect[*R*]is[*A*]the support structure for the blades, which has been neglected in the current work	context()	negated: False ,passive: True
-[LINE#259]For more information regarding struts, see Refs.
-[LINE#260] [17-19].The tangential is(15)FT=(CLsin-CDcos)12chVr2,where  is the angle of relative wind, h the turbine height and Vr the relative wind speed.
+[LINE#277] For more information regarding struts, see Refs.
+[LINE#278+279]  [17-19].The tangential is(15)FT=(CLsin-CDcos)12chVr2,where  is the angle of relative wind, h the turbine height and Vr the relative wind speed.
 0.922	[*A*]15 ) FT= ( CLsin-CDcos ) 12chVr2[*R*]is[*A*]the angle of relative wind	context()	negated: False ,passive: True
 0.925	[*A*]The tangential[*R*]is[*A*]15 ) FT= ( CLsin-CDcos ) 12chVr2	context()	negated: False ,passive: True
-[LINE#261]The turbine torque can be calculated by summation over the blades as(16)T=NbrFT,where r is the turbine radius and Nb is the number of blades.
+[LINE#280] The turbine torque can be calculated by summation over the blades as(16)T=NbrFT,where r is the turbine radius and Nb is the number of blades.
 0.944	[*A*]Nb[*R*]is[*A*]the number of blades[*A*]16 ) T=NbrFT	context()	negated: False ,passive: True
 0.925	[*A*]r[*R*]is[*A*]the turbine radius[*A*]16 ) T=NbrFT	context()	negated: False ,passive: True
 0.925	[*A*]The turbine torque[*R*]can be calculated[*A*]by summation[*A*]over the blades as ( 16 ) T=NbrFT	context()	negated: False ,passive: True

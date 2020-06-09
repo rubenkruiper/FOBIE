@@ -1,196 +1,196 @@
-[LINE#1]Lyapunov exponents (FTLE) are often used to identify Lagrangian Coherent Structures (LCS).
+[LINE#0] Lyapunov exponents (FTLE) are often used to identify Lagrangian Coherent Structures (LCS).
 0.928	[*A*]Lyapunov exponents[*R*]to identify[*A*]Lagrangian Coherent Structures	context()	negated: False ,passive: False
 0.937	[*A*]Lyapunov exponents[*R*]are used[*A*]to identify Lagrangian Coherent Structures[*A*]often	context()	negated: False ,passive: True
-[LINE#2]Most applications are confined to flows on two-dimensional (2D) surfaces where the LCS are characterized as curves.
+[LINE#1] Most applications are confined to flows on two-dimensional (2D) surfaces where the LCS are characterized as curves.
 0.895	[*A*]the LCS[*R*]are characterized[*A*]as curves[*A*]two-dimensional (2D) surfaces	context()	negated: False ,passive: True
 0.937	[*A*]Most applications[*R*]are confined[*A*]to flows on two-dimensional (2D) surfaces	context()	negated: False ,passive: True
-[LINE#3]The extension to three-dimensional (3D) flows, whose LCS are 2D structures embedded in a 3D volume, is theoretically straightforward.
+[LINE#2] The extension to three-dimensional (3D) flows, whose LCS are 2D structures embedded in a 3D volume, is theoretically straightforward.
 0.911	[*A*]2D structures[*R*]embedded[*A*]in a 3D volume	context()	negated: False ,passive: True
-[LINE#4]However, in geophysical flows at regional scales, full prognostic computation of the evolving 3D velocity field is not computationally feasible.
+[LINE#3] However, in geophysical flows at regional scales, full prognostic computation of the evolving 3D velocity field is not computationally feasible.
 0.973	[*A*]full prognostic computation of the evolving 3D velocity field[*R*]is not[*A*]computationally feasible[*A*]in geophysical flows at regional scales	context()	negated: True ,passive: True
-[LINE#5]The vertical or diabatic velocity, then, is either ignored or estimated as a diagnostic quantity with questionable accuracy.
+[LINE#4] The vertical or diabatic velocity, then, is either ignored or estimated as a diagnostic quantity with questionable accuracy.
 0.913	[*A*]The vertical or diabatic velocity[*R*]estimated[*A*]as a diagnostic quantity with questionable accuracy	context()	negated: False ,passive: True
 0.783	[*A*]The vertical or diabatic velocity[*R*]is ignored[*A*]then	context()	negated: False ,passive: True
-[LINE#6]Even in cases with reliable 3D velocities, it may prove advantageous to minimize the computational burden by calculating trajectories from velocities on carefully chosen surfaces only.
+[LINE#5] Even in cases with reliable 3D velocities, it may prove advantageous to minimize the computational burden by calculating trajectories from velocities on carefully chosen surfaces only.
 0.740	[*A*]it[*R*]may prove[*A*]advantageous to minimize the computational burden by calculating trajectories from velocities on carefully chosen surfaces only[*A*]Even in cases with reliable 3D velocities	context()	negated: False ,passive: False
-[LINE#7]When reliable 3D velocity information is unavailable or one velocity component is explicitly ignored, a reduced FTLE form to approximate 2D LCS surfaces in a 3D volume is necessary.
+[LINE#6] When reliable 3D velocity information is unavailable or one velocity component is explicitly ignored, a reduced FTLE form to approximate 2D LCS surfaces in a 3D volume is necessary.
 0.943	[*A*]reliable 3D velocity information[*R*]is[*A*]unavailable or one velocity component	context()	negated: False ,passive: True
-[LINE#8]The accuracy of two reduced FTLE formulations is assessed here using the ABC flow and a 3D quadrupole flow as test models.
+[LINE#7] The accuracy of two reduced FTLE formulations is assessed here using the ABC flow and a 3D quadrupole flow as test models.
 0.878	[*A*]The accuracy of two reduced FTLE formulations[*R*]is assessed[*A*]here	context()	negated: False ,passive: True
 0.961	[*A*]The accuracy of two reduced FTLE formulations[*R*]is assessed[*A*]here[*A*]using the ABC flow	context()	negated: False ,passive: True
-[LINE#9]One is the standard approach of knitting together FTLE patterns obtained on adjacent surfaces.
+[LINE#8] One is the standard approach of knitting together FTLE patterns obtained on adjacent surfaces.
 0.927	[*A*]FTLE patterns[*R*]obtained[*A*]on adjacent surfaces	context()	negated: False ,passive: True
 0.656	[*A*]One[*R*]is[*A*]the standard approach of knitting together FTLE patterns	context()	negated: False ,passive: True
-[LINE#10]The other is a new approximation accounting for the dispersion due to vertical (u,v) shear.
+[LINE#9] The other is a new approximation accounting for the dispersion due to vertical (u,v) shear.
 0.737	[*A*]The other[*R*]is[*A*]a new approximation accounting for the dispersion due to vertical (u,v) shear	context()	negated: False ,passive: True
-[LINE#11]The results are compared with those obtained from the full 3D velocity field.
+[LINE#10] The results are compared with those obtained from the full 3D velocity field.
 0.234	[*A*]those[*R*]obtained[*A*]from the full 3D velocity field	context()	negated: False ,passive: True
 0.545	[*A*]The results[*R*]are compared[*A*]with those	context()	negated: False ,passive: True
-[LINE#12]We introduce two diagnostic quantities to identify situations when a fully 3D computation is required for an accurate determination of the 2D LCS.
+[LINE#11] We introduce two diagnostic quantities to identify situations when a fully 3D computation is required for an accurate determination of the 2D LCS.
 0.301	[*A*]We[*R*]introduce to identify[*A*]situations	context(We introduce)	negated: False ,passive: False
 0.397	[*A*]We[*R*]introduce[*A*]two diagnostic quantities to identify situations	context()	negated: False ,passive: False
 0.937	[*A*]a fully 3D computation[*R*]is required[*A*]for an accurate determination of the 2D LCS	context()	negated: False ,passive: True
-[LINE#13]For the ABC flow, we found the full 3D calculation to be necessary unless the vertical (u,v) shear is sufficiently small.
+[LINE#12] For the ABC flow, we found the full 3D calculation to be necessary unless the vertical (u,v) shear is sufficiently small.
 0.342	[*A*]the vertical[*R*]is[*A*]sufficiently small	context()	negated: False ,passive: True
 0.952	[*A*]the full 3D calculation[*R*]to be[*A*]necessary[*A*]unless the vertical (u,v) shear is sufficiently small	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]found[*A*]the full 3D calculation to be necessary	context()	negated: False ,passive: False
-[LINE#14]However, both methods compare favorably with the 3D calculation for the quadrupole model scaled to typical open ocean conditions.
+[LINE#13] However, both methods compare favorably with the 3D calculation for the quadrupole model scaled to typical open ocean conditions.
 0.911	[*A*]the quadrupole model[*R*]scaled[*A*]to typical open ocean conditions	context()	negated: False ,passive: True
 0.903	[*A*]both methods[*R*]compare favorably[*A*]with the 3D calculation for the quadrupole model	context()	negated: False ,passive: True
-[LINE#15]In baroclinic geophysical flows one expects that LCS are 2D structures embedded in a 3D flow field.
+[LINE#14] In baroclinic geophysical flows one expects that LCS are 2D structures embedded in a 3D flow field.
 0.843	[*A*]LCS[*R*]are[*A*]2D structures embedded in a 3D flow field	context(one expects)	negated: False ,passive: True
 0.375	[*A*]one[*R*]expects[*A*]that LCS are 2D structures[*A*]In baroclinic geophysical flows	context()	negated: False ,passive: False
 0.911	[*A*]2D structures[*R*]embedded[*A*]in a 3D flow field	context()	negated: False ,passive: True
-[LINE#16]In many models, only 2D velocities are calculated from the primitive equations, with the third component obtained from a diagnostic computation.
+[LINE#15] In many models, only 2D velocities are calculated from the primitive equations, with the third component obtained from a diagnostic computation.
 0.911	[*A*]the third component[*R*]obtained[*A*]from a diagnostic computation	context()	negated: False ,passive: True
 0.953	[*A*]only 2D velocities[*R*]are calculated[*A*]from the primitive equations[*A*]with the third component[*A*]In many models	context()	negated: False ,passive: True
-[LINE#17]Typically that component is small, and since the diagnostic calculation contains numerical uncertainty, it may be preferable to estimate the LCS characterizing a 3D flow with more reliable 2D velocities.
+[LINE#16] Typically that component is small, and since the diagnostic calculation contains numerical uncertainty, it may be preferable to estimate the LCS characterizing a 3D flow with more reliable 2D velocities.
 0.999	[*A*]the LCS[*R*]characterizing[*A*]3 d flow	context()	negated: False ,passive: False
 0.911	[*A*]the diagnostic calculation[*R*]contains[*A*]numerical uncertainty	context()	negated: False ,passive: False
 0.813	[*A*]that component[*R*]is[*A*]small	context()	negated: False ,passive: True
-[LINE#18]The LCS intersect the corresponding surfaces along 1D curves.
+[LINE#17] The LCS intersect the corresponding surfaces along 1D curves.
 0.867	[*A*]The LCS[*R*]intersect[*A*]the corresponding surfaces along 1D curves	context()	negated: False ,passive: False
-[LINE#19]Here we investigated the conditions when 2D velocities are sufficient for delineating these curves.
+[LINE#18] Here we investigated the conditions when 2D velocities are sufficient for delineating these curves.
 0.911	[*A*]2D velocities[*R*]are[*A*]sufficient for delineating these curves	context()	negated: False ,passive: True
 0.702	[*A*]we[*R*]investigated[*A*]the conditions when 2D velocities are sufficient for delineating these curves[*A*]Here	context()	negated: False ,passive: False
-[LINE#20]As discussed in Section 1, the answer has consequences: If these conditions are satisfied, the computational cost can be reduced, in the case of FTLE2d2d cutting the number of required trajectories by a factor of three.
+[LINE#19] As discussed in Section 1, the answer has consequences: If these conditions are satisfied, the computational cost can be reduced, in the case of FTLE2d2d cutting the number of required trajectories by a factor of three.
 0.905	[*A*]the answer[*R*]has[*A*]consequences	context(the computational cost can be reduced)	negated: False ,passive: False
 0.699	[*A*]the computational cost[*R*]can be reduced	context()	negated: False ,passive: False
 0.767	[*A*]these conditions[*R*]are[*A*]satisfied	context()	negated: False ,passive: True
-[LINE#21] Moreover, the investigation here could validate, or negate,a substantial body of research in oceanography where only 2D velocities are readily available and in atmospheric sciences where diabatic velocities are often neglected.
+[LINE#20+21]  Moreover, the investigation here could validate, or negate,a substantial body of research in oceanography where only 2D velocities are readily available and in atmospheric sciences where diabatic velocities are often neglected.
 0.901	[*A*]diabatic velocities[*R*]are neglected[*A*]atmospheric sciences[*A*]often	context()	negated: False ,passive: True
 0.799	[*A*]only 2D velocities[*R*]are[*A*]readily available	context()	negated: False ,passive: True
 0.913	[*A*]the investigation[*R*]negate[*A*]a substantial body of research in oceanography where only 2D velocities are readily available and	context()	negated: False ,passive: False
 0.732	[*A*]the investigation[*R*]here could validate	context()	negated: False ,passive: False
-[LINE#22]Our approach was to study this issue with two simple models, the ABC flow and a quadrupole model scaled for open ocean conditions.
+[LINE#22] Our approach was to study this issue with two simple models, the ABC flow and a quadrupole model scaled for open ocean conditions.
 0.911	[*A*]a quadrupole model[*R*]scaled[*A*]for open ocean conditions	context()	negated: False ,passive: True
 0.701	[*A*]Our approach[*R*]was[*A*]to study this issue with a quadrupole model	context()	negated: False ,passive: True
 0.738	[*A*]Our approach[*R*]was[*A*]to study this issue with the ABC flow	context()	negated: False ,passive: True
 0.598	[*A*]Our approach[*R*]to study[*A*]this issue	context()	negated: False ,passive: False
 0.701	[*A*]Our approach[*R*]was[*A*]to study this issue with two simple models	context()	negated: False ,passive: True
-[LINE#23]In Section 2, we proposed two reduced representations of the Cauchy-Green tensor that utilized just 2D velocity information.
+[LINE#23] In Section 2, we proposed two reduced representations of the Cauchy-Green tensor that utilized just 2D velocity information.
 0.934	[*A*]the Cauchy-Green tensor[*R*]utilized[*A*]just 2D velocity information	context()	negated: False ,passive: False
 0.639	[*A*]we[*R*]proposed[*A*]two reduced representations of the Cauchy-Green tensor[*A*]In Section 2	context()	negated: False ,passive: False
-[LINE#24]One was the standard 22 matrix widely used in oceanography.
+[LINE#24] One was the standard 22 matrix widely used in oceanography.
 0.919	[*A*]the standard 22 matrix[*R*]widely used[*A*]in oceanography	context()	negated: False ,passive: True
 0.613	[*A*]One[*R*]was[*A*]the standard 22 matrix widely used in oceanography	context()	negated: False ,passive: True
-[LINE#25]The other was a reduced form of the 33 matrix that included the vertical shears of the horizontal positions but none of the terms involving gradients of vertical positions.
+[LINE#25] The other was a reduced form of the 33 matrix that included the vertical shears of the horizontal positions but none of the terms involving gradients of vertical positions.
 0.903	[*A*]the terms[*R*]involving[*A*]gradients of vertical positions	context()	negated: False ,passive: True
 0.933	[*A*]the 33 matrix[*R*]included[*A*]the vertical shears of the horizontal positions but none of the terms	context()	negated: False ,passive: True
 0.636	[*A*]The other[*R*]was[*A*]a reduced form of the 33 matrix	context()	negated: False ,passive: True
-[LINE#26]Two diagnostics were also proposed.
+[LINE#26] Two diagnostics were also proposed.
 0.641	[*A*]Two diagnostics[*R*]were proposed	context()	negated: False ,passive: False
-[LINE#27]One, Sv, involves the components of the 2D velocity gradient normal to the surfaces.
+[LINE#27] One, Sv, involves the components of the 2D velocity gradient normal to the surfaces.
 0.618	[*A*]One[*R*]involves[*A*]the components of the 2D velocity gradient normal to the surfaces	context()	negated: False ,passive: True
-[LINE#28]The other metric, Sw, involves the gradients of the vertical/diabatic velocity component.
+[LINE#28] The other metric, Sw, involves the gradients of the vertical/diabatic velocity component.
 0.551	[*A*]The other metric[*R*]involves[*A*]the gradients of the vertical/diabatic velocity component	context()	negated: False ,passive: True
-[LINE#29]This is not generally available in general circulation models, but was specified in the simple models used here and employed as a guide to the impact these terms might have on the FTLE estimates.
+[LINE#29] This is not generally available in general circulation models, but was specified in the simple models used here and employed as a guide to the impact these terms might have on the FTLE estimates.
 0.934	[*A*]the impact[*R*]might have[*A*]these terms	context()	negated: False ,passive: True
 0.783	[*A*]the simple models[*R*]used[*A*]here	context()	negated: False ,passive: True
 0.381	[*A*]This[*R*]is not[*A*]generally available in general circulation models	context()	negated: True ,passive: True
-[LINE#30]Comparisons of the FTLE obtained from the two approximations were made with that obtained from the complete 3D velocity fields.
+[LINE#30] Comparisons of the FTLE obtained from the two approximations were made with that obtained from the complete 3D velocity fields.
 0.136	[*A*]that[*R*]obtained[*A*]from the complete 3D velocity fields	context()	negated: False ,passive: True
 0.939	[*A*]Comparisons of the FTLE[*R*]obtained[*A*]from the two approximations	context()	negated: False ,passive: False
-[LINE#31]For the ABC model, when Sv was small, the analysis indicated that both approximations adequately described both LCS positions and peak FTLE values regardless of Sw (Section 4.2).
+[LINE#31] For the ABC model, when Sv was small, the analysis indicated that both approximations adequately described both LCS positions and peak FTLE values regardless of Sw (Section 4.2).
 0.896	[*A*]both approximations[*R*]adequately described[*A*]both peak FTLE values[*A*]regardless of Sw	context(the analysis indicated)	negated: False ,passive: False
 0.900	[*A*]the analysis[*R*]indicated[*A*]that both approximations adequately described both peak FTLE values regardless of Sw[*A*]when Sv was small	context()	negated: False ,passive: False
 0.896	[*A*]both approximations[*R*]adequately described[*A*]both LCS positions[*A*]regardless of Sw	context(the analysis indicated)	negated: False ,passive: False
 0.900	[*A*]the analysis[*R*]indicated[*A*]that both approximations adequately described both LCS positions regardless of Sw[*A*]when Sv was small	context()	negated: False ,passive: False
 0.734	[*A*]Sv[*R*]was[*A*]small	context()	negated: False ,passive: True
-[LINE#32]For moderate to large Sv values, neither approximation adequately delineated the 2D LCS (Section 4.1).
+[LINE#32] For moderate to large Sv values, neither approximation adequately delineated the 2D LCS (Section 4.1).
 0.918	[*A*]neither approximation[*R*]adequately delineated[*A*]the 2D LCS	context()	negated: False ,passive: False
-[LINE#33]In these cases, magnitudes of the approximate FTLEs deviated significantly from the exact value and the approximations produced spurious LCS ridges.
+[LINE#33] In these cases, magnitudes of the approximate FTLEs deviated significantly from the exact value and the approximations produced spurious LCS ridges.
 0.918	[*A*]the approximations[*R*]produced[*A*]spurious LCS ridges	context()	negated: False ,passive: False
 0.968	[*A*]magnitudes of the approximate FTLEs[*R*]deviated significantly[*A*]from the exact value[*A*]In these cases	context()	negated: False ,passive: False
-[LINE#34]Analysis of the FTLE approximations for the quadrupole were more encouraging.
+[LINE#34] Analysis of the FTLE approximations for the quadrupole were more encouraging.
 0.888	[*A*]Analysis of the FTLE approximations for the quadrupole[*R*]were[*A*]more encouraging	context()	negated: False ,passive: True
-[LINE#35]In this case, the vertical and horizontal velocities along with their gradients were constrained to be consistent with open ocean conditions.
+[LINE#35] In this case, the vertical and horizontal velocities along with their gradients were constrained to be consistent with open ocean conditions.
 0.707	[*A*]the horizontal velocities along with their gradients[*R*]to be[*A*]consistent with open ocean conditions	context()	negated: False ,passive: True
 0.810	[*A*]the horizontal velocities along with their gradients[*R*]were constrained[*A*]In this case	context()	negated: False ,passive: True
 0.707	[*A*]the vertical velocities along with their gradients[*R*]to be[*A*]consistent with open ocean conditions	context()	negated: False ,passive: True
 0.810	[*A*]the vertical velocities along with their gradients[*R*]were constrained[*A*]In this case	context()	negated: False ,passive: True
-[LINE#36]Both FTLE approximations yielded magnitudes comparable to the exact values.
+[LINE#36] Both FTLE approximations yielded magnitudes comparable to the exact values.
 0.933	[*A*]Both FTLE approximations[*R*]yielded[*A*]magnitudes comparable to the exact values	context()	negated: False ,passive: False
-[LINE#37]More importantly, no spurious LCS ridges or LCS position errors were discovered.
-[LINE#38]This suggests that, for geophysical models, approximate FTLEs computed using only 2D velocities may be accurate enough to reliably characterize important mixing structures.
+[LINE#37] More importantly, no spurious LCS ridges or LCS position errors were discovered.
+[LINE#38] This suggests that, for geophysical models, approximate FTLEs computed using only 2D velocities may be accurate enough to reliably characterize important mixing structures.
 0.960	[*A*]that, for geophysical models, approximate FTLEs computed using only 2D velocities[*R*]may be[*A*]accurate enough to reliably characterize important mixing structures	context(This suggests)	negated: False ,passive: True
 0.882	[*A*]approximate FTLEs[*R*]computed using[*A*]only 2D velocities	context(This suggests)	negated: False ,passive: False
 0.224	[*A*]This[*R*]suggests[*A*]that, for geophysical models, approximate FTLEs computed using only 2D velocities	context()	negated: False ,passive: False
-[LINE#39]Recent studies have used FTLEs to explore how LCS change with depth in the vicinity of ocean mesoscale eddies.
+[LINE#39] Recent studies have used FTLEs to explore how LCS change with depth in the vicinity of ocean mesoscale eddies.
 0.736	[*A*]LCS[*R*]change[*A*]in the vicinity of ocean mesoscale eddies	context(Recent studies have used to explore)	negated: False ,passive: True
 0.920	[*A*]Recent studies[*R*]have used FTLEs to explore[*A*]how LCS change with depth in the vicinity of ocean mesoscale eddies	context(Recent studies have used)	negated: False ,passive: False
 0.920	[*A*]Recent studies[*R*]have used[*A*]FTLEs[*A*]to explore how LCS change with depth in the vicinity of ocean mesoscale eddies	context()	negated: False ,passive: False
-[LINE#40]Branicki and Kirwan [27] and Bettencourt et al.
-[LINE#41][28] used 2D velocities to show that LCS surfaces near eddies are aligned almost vertically, like "curtains", in the water column.
-[LINE#42]Our analysis of approximate FTLEs in the idealized quadrupole does not invalidate these studies.
+[LINE#40] Branicki and Kirwan [27] and Bettencourt et al.
+[LINE#41] [28] used 2D velocities to show that LCS surfaces near eddies are aligned almost vertically, like "curtains", in the water column.
+[LINE#42] Our analysis of approximate FTLEs in the idealized quadrupole does not invalidate these studies.
 0.776	[*A*]Our analysis of approximate FTLEs in the idealized quadrupole[*R*]does not invalidate[*A*]these studies	context()	negated: True ,passive: False
-[LINE#43]However, a thorough assessment of approximate FTLEs in realistic ocean models is needed.
+[LINE#43] However, a thorough assessment of approximate FTLEs in realistic ocean models is needed.
 0.856	[*A*]a thorough assessment of approximate FTLEs in realistic ocean models[*R*]is needed	context()	negated: False ,passive: False
-[LINE#44]Such an investigation should be guided by the diagnostics developed here.
+[LINE#44] Such an investigation should be guided by the diagnostics developed here.
 0.767	[*A*]the diagnostics[*R*]developed[*A*]here	context()	negated: False ,passive: True
 0.911	[*A*]Such an investigation[*R*]should be guided[*A*]by the diagnostics	context()	negated: False ,passive: True
-[LINE#45]In particular, the diagnostic Sv was found useful for determining the accuracy of approximate FTLEs.
-[LINE#46]Its utility is related to the Richardson criterion noted in Section 5.
+[LINE#45] In particular, the diagnostic Sv was found useful for determining the accuracy of approximate FTLEs.
+[LINE#46] Its utility is related to the Richardson criterion noted in Section 5.
 0.933	[*A*]the Richardson criterion[*R*]noted[*A*]in Section 5	context()	negated: False ,passive: True
 0.642	[*A*]Its utility[*R*]related[*A*]to the Richardson criterion	context()	negated: False ,passive: True
 0.738	[*A*]Its utility[*R*]is[*A*]related to the Richardson criterion	context()	negated: False ,passive: True
-[LINE#47]This criterion is similar to that identified by Branicki et al.
+[LINE#47] This criterion is similar to that identified by Branicki et al.
 0.159	[*A*]that[*R*]identified[*A*]by Branicki et al	context()	negated: False ,passive: True
 0.614	[*A*]This criterion[*R*]is[*A*]similar to that	context()	negated: False ,passive: True
-[LINE#48][26], but replaces a scale velocity with N2 and gives a non-dimensional numerical threshold applicable to geophysical flows.
+[LINE#48] [26], but replaces a scale velocity with N2 and gives a non-dimensional numerical threshold applicable to geophysical flows.
 0.544	[*A*]26[*R*]gives[*A*]a non-dimensional numerical threshold applicable to geophysical flows	context()	negated: False ,passive: False
 0.590	[*A*]26[*R*]replaces[*A*]a scale velocity with N2	context()	negated: False ,passive: True
-[LINE#49]It is used somewhat differently here, in that it characterizes the accuracy of the FTLE approximations and not the verticality of the invariant manifolds.
+[LINE#49] It is used somewhat differently here, in that it characterizes the accuracy of the FTLE approximations and not the verticality of the invariant manifolds.
 0.452	[*A*]it[*R*]characterizes not[*A*]the verticality of the invariant manifolds	context()	negated: True ,passive: False
 0.498	[*A*]it[*R*]characterizes[*A*]the accuracy of the FTLE approximations	context()	negated: False ,passive: False
 0.225	[*A*]It[*R*]is used somewhat differently[*A*]here	context()	negated: False ,passive: True
-[LINE#50]Our results suggest that large values of Sv identify regions where FTLE2d2d approximations become problematic.
+[LINE#50] Our results suggest that large values of Sv identify regions where FTLE2d2d approximations become problematic.
 0.937	[*A*]large values of Sv[*R*]identify[*A*]regions where FTLE2d2d approximations become problematic	context(Our results suggest)	negated: False ,passive: False
 0.383	[*A*]Our results[*R*]suggest[*A*]that large values of Sv identify regions	context()	negated: False ,passive: False
 0.961	[*A*]FTLE2d2d approximations[*R*]become[*A*]problematic[*A*]regions	context()	negated: False ,passive: True
-[LINE#51]Finally, we recommend the new approximation FTLE3d2d for geophysical flows with no reliable information about vertical or diabatic velocities.
+[LINE#51] Finally, we recommend the new approximation FTLE3d2d for geophysical flows with no reliable information about vertical or diabatic velocities.
 0.740	[*A*]we[*R*]recommend[*A*]the new approximation FTLE3d2d for geophysical flows with no reliable information about vertical or diabatic velocities[*A*]Finally	context()	negated: False ,passive: False
-[LINE#52] FTLE3d2d accounts for additional dispersion due to vertical (u,v)shear using an approximate Cauchy-Green tensor based on the strain tensor shown in Eq.
+[LINE#52+53]  FTLE3d2d accounts for additional dispersion due to vertical (u,v)shear using an approximate Cauchy-Green tensor based on the strain tensor shown in Eq.
 0.942	[*A*]the strain tensor[*R*]shown[*A*]in Eq	context()	negated: False ,passive: True
 0.949	[*A*]an approximate Cauchy-Green tensor[*R*]based[*A*]on the strain tensor	context()	negated: False ,passive: True
 0.911	[*A*]shear[*R*]using[*A*]an approximate Cauchy-Green tensor	context()	negated: False ,passive: False
-[LINE#53]For the quadrupole studied here, this additional dispersion was often significant.
+[LINE#54] For the quadrupole studied here, this additional dispersion was often significant.
 0.960	[*A*]this additional dispersion[*R*]was[*A*]often[*A*]significant[*A*]For the quadrupole	context()	negated: False ,passive: True
 0.767	[*A*]the quadrupole[*R*]studied[*A*]here	context()	negated: False ,passive: True
-[LINE#54]15 shows the substantial improvement FTLE3d2d provides when compared with the FTLE2d2d approximation most often used in prior work.
+[LINE#55] 15 shows the substantial improvement FTLE3d2d provides when compared with the FTLE2d2d approximation most often used in prior work.
 0.942	[*A*]the substantial improvement FTLE3d2d[*R*]provides[*A*]when compared with the FTLE2d2d approximation	context(15 shows)	negated: False ,passive: False
 0.604	[*A*]15[*R*]shows[*A*]the substantial improvement FTLE3d2d provides	context()	negated: False ,passive: False
 0.959	[*A*]the FTLE2d2d approximation[*R*]used[*A*]in prior work[*A*]most often	context()	negated: False ,passive: True
-[LINE#55]Importantly, the necessary vertical (u,v) shear information is readily available in existing geophysical models.
+[LINE#56] Importantly, the necessary vertical (u,v) shear information is readily available in existing geophysical models.
 0.964	[*A*]the necessary vertical (u,v) shear information[*R*]is[*A*]readily available in existing geophysical models	context()	negated: False ,passive: True
-[LINE#56]Hassan Aref's 1984 seminal paper on chaotic advection [1] initiated a new direction for fluid mechanics research.
+[LINE#57] Hassan Aref's 1984 seminal paper on chaotic advection [1] initiated a new direction for fluid mechanics research.
 0.991	[*A*]1984 seminal paper[*R*]initiated[*A*]a new direction	context()	negated: False ,passive: False
 0.955	[*A*]Hassan Aref's 1984 seminal paper on chaotic advection[*R*]initiated[*A*]a new direction	context()	negated: False ,passive: False
-[LINE#57]Dynamical systems theory (DST) has provided a theoretical and computational basis for much of the subsequent developments.
+[LINE#58] Dynamical systems theory (DST) has provided a theoretical and computational basis for much of the subsequent developments.
 0.897	[*A*]Dynamical systems theory[*R*]has provided[*A*]a computational basis for much of the subsequent developments	context()	negated: False ,passive: False
 0.897	[*A*]Dynamical systems theory[*R*]has provided[*A*]a theoretical basis for much of the subsequent developments	context()	negated: False ,passive: False
-[LINE#58]DST methods are now widely used to identify critical material structures that govern transport patterns.
+[LINE#59] DST methods are now widely used to identify critical material structures that govern transport patterns.
 0.897	[*A*]critical material structures[*R*]govern[*A*]transport patterns	context()	negated: False ,passive: False
 0.887	[*A*]DST methods[*R*]widely used[*A*]to identify critical material structures	context()	negated: False ,passive: True
 0.903	[*A*]DST methods[*R*]are[*A*]now[*A*]widely used to identify critical material structures	context()	negated: False ,passive: True
-[LINE#59]In geophysical flows, these structures persist from a few hours to weeks.
+[LINE#60] In geophysical flows, these structures persist from a few hours to weeks.
 0.943	[*A*]these structures[*R*]persist[*A*]from a few hours[*A*]to weeks[*A*]In geophysical flows	context()	negated: False ,passive: True
-[LINE#60]They are precisely identified by evolving distinguished invariant manifolds.
+[LINE#61] They are precisely identified by evolving distinguished invariant manifolds.
 0.575	[*A*]They[*R*]by evolving[*A*]distinguished invariant manifolds	context()	negated: False ,passive: False
 0.320	[*A*]They[*R*]are precisely identified	context()	negated: False ,passive: False
-[LINE#61]Jones and Winkler [2] provide a widely used algorithm for computing such manifolds in two-dimensional (2D) flows.
+[LINE#62] Jones and Winkler [2] provide a widely used algorithm for computing such manifolds in two-dimensional (2D) flows.
 0.950	[*A*]Winkler [ 2[*R*]provide[*A*]a widely used algorithm for computing such manifolds in two - dimensional ( 2 D	context()	negated: False ,passive: False
 0.915	[*A*]a widely used algorithm for computing such manifolds in two - dimensional ( 2 D[*R*]flows	context()	negated: False ,passive: False
 0.950	[*A*]Jones [ 2[*R*]provide[*A*]a widely used algorithm for computing such manifolds in two - dimensional ( 2 D ) flows	context()	negated: False ,passive: False
-[LINE#62]The methodology has been extended to three-dimensional (3D) dynamical systems by Branicki and Wiggins [3].
+[LINE#63] The methodology has been extended to three-dimensional (3D) dynamical systems by Branicki and Wiggins [3].
 0.947	[*A*]The methodology[*R*]has been extended[*A*]to three - dimensional ( 3 D ) dynamical systems by Wiggins [ 3	context()	negated: False ,passive: True
 0.947	[*A*]The methodology[*R*]has been extended[*A*]to three - dimensional ( 3 D ) dynamical systems by Branicki [ 3	context()	negated: False ,passive: True
-[LINE#63]Although theoretically appealing, invariant manifold calculations are tedious and not easily automated.
+[LINE#64] Although theoretically appealing, invariant manifold calculations are tedious and not easily automated.
 0.751	[*A*]invariant manifold calculations[*R*]are not easily automated	context()	negated: True ,passive: False
 0.783	[*A*]invariant manifold calculations[*R*]are[*A*]tedious	context()	negated: False ,passive: True
-[LINE#64]Consequently, a much simpler, easily automated approach for determining approximate transport barriers from finite-time Lyapunov exponents (FTLE) has been developed [4-6].
+[LINE#65] Consequently, a much simpler, easily automated approach for determining approximate transport barriers from finite-time Lyapunov exponents (FTLE) has been developed [4-6].
 0.936	[*A*]a much simpler, easily automated approach for determining approximate transport barriers from finite-time Lyapunov exponents[*R*]has been developed	context()	negated: False ,passive: False
-[LINE#65]The patterns in FTLE and related diagnostic fields are now known in the literature as Lagrangian Coherent Structures (LCS).It is well known that LCS delineated by invariant manifolds and those derived from FTLE are equivalent for simple analytically prescribed flows.
+[LINE#66] The patterns in FTLE and related diagnostic fields are now known in the literature as Lagrangian Coherent Structures (LCS).It is well known that LCS delineated by invariant manifolds and those derived from FTLE are equivalent for simple analytically prescribed flows.
 0.923	[*A*]related diagnostic fields[*R*]are known[*A*]in the literature[*A*]now	context()	negated: False ,passive: True
 0.935	[*A*]related diagnostic fields[*R*]are known[*A*]in the literature[*A*]as Lagrangian Coherent Structures[*A*]now	context()	negated: False ,passive: True
 0.946	[*A*]Lagrangian Coherent Structures ( LCS ) that LCS delineated by invariant manifolds and those[*R*]are[*A*]equivalent for simple analytically prescribed flows	context()	negated: False ,passive: True
@@ -199,222 +199,222 @@
 0.939	[*A*]those derived from FTLE[*R*]are[*A*]equivalent for simple analytically prescribed flows	context()	negated: False ,passive: True
 0.269	[*A*]those[*R*]derived[*A*]from FTLE	context()	negated: False ,passive: True
 0.956	[*A*]The patterns in FTLE[*R*]are known[*A*]in the literature[*A*]as Lagrangian Coherent Structures[*A*]now	context()	negated: False ,passive: True
-[LINE#66]However, this appears not to be true generally.
+[LINE#67] However, this appears not to be true generally.
 0.155	[*A*]this[*R*]not to be[*A*]true[*A*]generally	context()	negated: True ,passive: True
 0.153	[*A*]this[*R*]appears	context()	negated: False ,passive: False
-[LINE#67]Branicki and Wiggins [7] made an extensive comparison of both methods and established useful criteria for identifying when they are in agreement.
+[LINE#68] Branicki and Wiggins [7] made an extensive comparison of both methods and established useful criteria for identifying when they are in agreement.
 0.894	[*A*]Wiggins[*R*]established[*A*]useful criteria	context()	negated: False ,passive: False
 0.833	[*A*]Branicki[*R*]established useful criteria for identifying[*A*]when they are in agreement	context(Branicki established)	negated: False ,passive: False
 0.902	[*A*]Branicki[*R*]established[*A*]useful criteria	context()	negated: False ,passive: False
 0.616	[*A*]they[*R*]are[*A*]in agreement	context()	negated: False ,passive: True
 0.877	[*A*]Wiggins[*R*]made[*A*]an extensive comparison of both methods	context()	negated: False ,passive: False
 0.922	[*A*]Branicki [ 7[*R*]made[*A*]an extensive comparison of both methods	context()	negated: False ,passive: False
-[LINE#68]Here, we study FTLE, with the expectation that our conclusions apply to the identification of transport barriers, within the provisos established by Branicki and Wiggins [7].It is noteworthy that other diagnostics of LCS have been proposed [8-14].
+[LINE#69] Here, we study FTLE, with the expectation that our conclusions apply to the identification of transport barriers, within the provisos established by Branicki and Wiggins [7].It is noteworthy that other diagnostics of LCS have been proposed [8-14].
 0.918	[*A*]the provisos[*R*]established[*A*]by Wiggins [ 7	context()	negated: False ,passive: True
 0.918	[*A*]the provisos[*R*]established[*A*]by Branicki [ 7	context()	negated: False ,passive: True
 0.638	[*A*]our conclusions[*R*]apply[*A*]to the identification of transport barriers	context()	negated: False ,passive: True
-[LINE#69]All LCS diagnostics have attributes that are appropriate for particular situations.
+[LINE#70] All LCS diagnostics have attributes that are appropriate for particular situations.
 0.877	[*A*]attributes[*R*]are[*A*]appropriate for particular situations	context()	negated: False ,passive: True
 0.836	[*A*]All LCS diagnostics[*R*]have[*A*]attributes that are appropriate for particular situations	context()	negated: False ,passive: False
-[LINE#70]Moreover, our impression is that all diagnostics agree when there are clear and robust LCS signatures.
+[LINE#71] Moreover, our impression is that all diagnostics agree when there are clear and robust LCS signatures.
 0.796	[*A*]all diagnostics[*R*]agree[*A*]when there are robust LCS signatures	context(our impression is)	negated: False ,passive: False
 0.364	[*A*]our impression[*R*]is[*A*]that all diagnostics agree when there are robust LCS signatures	context()	negated: False ,passive: True
 0.796	[*A*]all diagnostics[*R*]agree[*A*]when there are clear LCS signatures	context(our impression is)	negated: False ,passive: False
 0.364	[*A*]our impression[*R*]is[*A*]that all diagnostics agree when there are clear LCS signatures	context()	negated: False ,passive: True
-[LINE#71]Since all diagnostics are derived from trajectories, the effects of the approximations discussed here are likely to carry over to approaches other than FTLE as well.
+[LINE#72] Since all diagnostics are derived from trajectories, the effects of the approximations discussed here are likely to carry over to approaches other than FTLE as well.
 0.927	[*A*]the effects of the approximations[*R*]to carry over[*A*]to approaches other than FTLE[*A*]as well	context()	negated: False ,passive: False
 0.953	[*A*]the effects of the approximations[*R*]are[*A*]likely to carry over to approaches other than FTLE as well	context()	negated: False ,passive: True
 0.767	[*A*]the approximations[*R*]discussed[*A*]here	context()	negated: False ,passive: True
 0.903	[*A*]all diagnostics[*R*]are derived[*A*]from trajectories	context()	negated: False ,passive: True
-[LINE#72]Most studies that use DST methods to identify transport barriers have considered Hamiltonian-type flows and been restricted to 2D ([15], and references therein).
+[LINE#73] Most studies that use DST methods to identify transport barriers have considered Hamiltonian-type flows and been restricted to 2D ([15], and references therein).
 0.381	[*A*]Most[*R*]been restricted[*A*]to 2 D	context()	negated: False ,passive: True
 0.884	[*A*]Most studies[*R*]use[*A*]DST methods[*A*]to identify transport barriers	context(Most studies that use DST methods to identify transport barriers have considered)	negated: False ,passive: False
 0.956	[*A*]Most studies that use DST methods to identify transport barriers[*R*]have considered[*A*]Hamiltonian - type flows	context()	negated: False ,passive: False
-[LINE#73]This restriction, however, is not a theoretical limitation, since the mathematical constructs have no dimensional requirements [16].
+[LINE#74] This restriction, however, is not a theoretical limitation, since the mathematical constructs have no dimensional requirements [16].
 0.911	[*A*]the mathematical constructs[*R*]have[*A*]no dimensional requirements	context()	negated: False ,passive: False
 0.887	[*A*]This restriction[*R*]is not[*A*]a theoretical limitation[*A*]since the mathematical constructs have no dimensional requirements	context()	negated: True ,passive: True
-[LINE#74]Indeed, several applications of DST methods to idealized 3D flows have been published[17-21,7].
+[LINE#75] Indeed, several applications of DST methods to idealized 3D flows have been published[17-21,7].
 0.889	[*A*]several applications of DST methods to idealized 3D flows[*R*]have been published	context()	negated: False ,passive: False
-[LINE#75] Haller [22] developed a theoretical framework for calculating LCS in 3D flows and applied it to steady and unsteady.
+[LINE#76]  Haller [22] developed a theoretical framework for calculating LCS in 3D flows and applied it to steady and unsteady.
 0.862	[*A*]Haller[*R*]applied[*A*]it[*A*]to unsteady	context()	negated: False ,passive: False
 0.862	[*A*]Haller[*R*]applied[*A*]it[*A*]to steady	context()	negated: False ,passive: False
 0.919	[*A*]Haller [ 22[*R*]developed[*A*]a theoretical framework for calculating LCS in 3	context(Haller [ 22 ] developed a theoretical framework for calculating LCS in 3 flows)	negated: False ,passive: False
 0.906	[*A*]Haller [ 22 ] developed a theoretical framework for calculating LCS in 3[*R*]flows	context()	negated: False ,passive: False
-[LINE#76]Arnold-Beltrami-Childress (ABC) flows.
+[LINE#77] Arnold-Beltrami-Childress (ABC) flows.
 0.848	[*A*]Arnold-Beltrami-Childress[*R*]flows	context()	negated: False ,passive: False
-[LINE#77][23] extended LCS theory to n-dimensional systems.
+[LINE#78] [23] extended LCS theory to n-dimensional systems.
 0.549	[*A*]23[*R*]extended[*A*]LCS theory[*A*]to n-dimensional systems	context()	negated: False ,passive: False
-[LINE#78]These and other studies have provided considerable theoretical insight into the topology of stirring and mixing in 2D and 3D flows.
+[LINE#79] These and other studies have provided considerable theoretical insight into the topology of stirring and mixing in 2D and 3D flows.
 0.948	[*A*]These and other studies[*R*]have provided[*A*]considerable theoretical insight into the topology of mixing in 2 D	context()	negated: False ,passive: False
 0.948	[*A*]These and other studies[*R*]have provided[*A*]considerable theoretical insight into the topology of stirring in 2 D	context()	negated: False ,passive: False
 0.651	[*A*]3 D[*R*]flows	context()	negated: False ,passive: False
-[LINE#79]However, they are largely based on analytically prescribed flows or simple numerical models.
+[LINE#80] However, they are largely based on analytically prescribed flows or simple numerical models.
 0.511	[*A*]they[*R*]are based[*A*]on analytically prescribed flows or simple numerical models	context()	negated: False ,passive: True
-[LINE#80]Extensions of 2D methods to realistic 3D flows present a number of challenges that are not addressed in these studies.
+[LINE#81] Extensions of 2D methods to realistic 3D flows present a number of challenges that are not addressed in these studies.
 0.877	[*A*]challenges[*R*]are not addressed[*A*]in these studies	context()	negated: True ,passive: True
 0.920	[*A*]2D methods[*R*]flows[*A*]present a number of challenges	context()	negated: False ,passive: True
-[LINE#81]Some computational fluid dynamics studies require millions of particle trajectories to adequately resolve the complexity of the 2D LCS in 3D flows.
+[LINE#82] Some computational fluid dynamics studies require millions of particle trajectories to adequately resolve the complexity of the 2D LCS in 3D flows.
 0.891	[*A*]the complexity of the 2D LCS in 3[*R*]flows	context()	negated: False ,passive: False
 0.931	[*A*]millions of particle trajectories[*R*]to adequately resolve[*A*]the complexity of the 2D LCS in 3	context()	negated: False ,passive: False
 0.960	[*A*]Some computational fluid dynamics studies[*R*]require[*A*]millions of particle trajectories[*A*]to adequately resolve the complexity of the 2D LCS in 3	context()	negated: False ,passive: False
-[LINE#82] To reduce the prohibitive associated computational cost, alternative algorithms that rely on reduced representations of the Cauchy-Green tensor have been proposed [24].The approach of using a reduced Cauchy-Green tensor is attractive in the context of 3D geophysical flows, since the computation of 3D trajectories is hampered by a lack of reliable information about diabatic (atmosphere) or vertical (ocean) velocities.
+[LINE#83+84]  To reduce the prohibitive associated computational cost, alternative algorithms that rely on reduced representations of the Cauchy-Green tensor have been proposed [24].The approach of using a reduced Cauchy-Green tensor is attractive in the context of 3D geophysical flows, since the computation of 3D trajectories is hampered by a lack of reliable information about diabatic (atmosphere) or vertical (ocean) velocities.
 0.935	[*A*]computational cost, alternative algorithms that rely on reduced representations of the Cauchy-Green tensor[*R*]have been proposed	context()	negated: False ,passive: False
 0.956	[*A*]the computation of 3D trajectories[*R*]is hampered[*A*]by a lack of reliable information about diabatic (atmosphere) or vertical (ocean) velocities	context()	negated: False ,passive: True
 0.927	[*A*]computational cost, alternative algorithms[*R*]rely[*A*]on reduced representations of the Cauchy-Green tensor	context()	negated: False ,passive: False
 0.732	[*A*]the prohibitive[*R*]associated	context()	negated: False ,passive: False
-[LINE#83]These velocities are typically orders of magnitude smaller than the other two velocity components, and in many cases they are diagnostic variables recovered outside the prognostic model update cycle.
+[LINE#85] These velocities are typically orders of magnitude smaller than the other two velocity components, and in many cases they are diagnostic variables recovered outside the prognostic model update cycle.
 0.903	[*A*]diagnostic variables[*R*]recovered[*A*]outside the prognostic model update cycle	context()	negated: False ,passive: True
 0.741	[*A*]they[*R*]are[*A*]diagnostic variables recovered outside the prognostic model update cycle[*A*]in many cases	context()	negated: False ,passive: True
 0.937	[*A*]These velocities[*R*]are[*A*]typically[*A*]orders of magnitude smaller than the other two velocity components	context()	negated: False ,passive: True
-[LINE#84]The value of including the effects of approximate diabatic or vertical velocities in LCS computations remains unclear.
+[LINE#86] The value of including the effects of approximate diabatic or vertical velocities in LCS computations remains unclear.
 0.940	[*A*]The value of including the effects of approximate diabatic or vertical velocities in LCS computations[*R*]remains[*A*]unclear	context()	negated: False ,passive: True
-[LINE#85]As most geophysical flows are nearly 2D, one might anticipate vertical particle excursions to be negligible.
+[LINE#87] As most geophysical flows are nearly 2D, one might anticipate vertical particle excursions to be negligible.
 0.323	[*A*]one[*R*]to be[*A*]negligible	context()	negated: False ,passive: True
 0.616	[*A*]one[*R*]might anticipate[*A*]vertical particle excursions[*A*]to be negligible	context()	negated: False ,passive: False
 0.911	[*A*]most geophysical flows[*R*]are[*A*]nearly 2D	context()	negated: False ,passive: True
-[LINE#86] However, small vertical excursions can lead to significant horizontal end point differences due to vertical (u,v)[25].These considerations lead to the basic question addressed here: Under what conditions can 2D velocity fields satisfactorily generate 2D LCS in 3D flows?Due to the unreliability of the third velocity component in many situations, the answer to this question should ideally be based on a diagnostic readily available from 2D model flows.
+[LINE#88+89]  However, small vertical excursions can lead to significant horizontal end point differences due to vertical (u,v)[25].These considerations lead to the basic question addressed here: Under what conditions can 2D velocity fields satisfactorily generate 2D LCS in 3D flows?Due to the unreliability of the third velocity component in many situations, the answer to this question should ideally be based on a diagnostic readily available from 2D model flows.
 0.696	[*A*]the answer to this question[*R*]should be based[*A*]on a diagnostic readily available	context(D flows)	negated: False ,passive: True
 0.930	[*A*]These considerations[*R*]lead[*A*]to the basic question[*A*]v)[25	context(D flows)	negated: False ,passive: False
 0.647	[*A*]D[*R*]flows	context()	negated: False ,passive: False
 0.911	[*A*]small vertical excursions[*R*]can lead[*A*]to significant horizontal end point differences due to	context()	negated: False ,passive: False
-[LINE#87]Models for geophysical flows frequently solve the momentum equations for horizontal (respectively adiabatic) velocities in horizontal (respectively adiabatic) layers, leaving the normal velocity to be derived from the incompressibility condition.
+[LINE#90] Models for geophysical flows frequently solve the momentum equations for horizontal (respectively adiabatic) velocities in horizontal (respectively adiabatic) layers, leaving the normal velocity to be derived from the incompressibility condition.
 0.911	[*A*]the normal velocity[*R*]to be derived[*A*]from the incompressibility condition	context()	negated: False ,passive: True
 0.958	[*A*]velocities in horizontal (respectively adiabatic) layers[*R*]leaving[*A*]the normal velocity to be derived from the incompressibility condition	context()	negated: False ,passive: False
 0.965	[*A*]Models for geophysical flows[*R*]solve[*A*]the momentum equations for horizontal (respectively adiabatic[*A*]velocities in horizontal (respectively adiabatic) layers, leaving the normal velocity[*A*]frequently	context()	negated: False ,passive: False
-[LINE#88]Thus, information on two of the three velocity components and six of the nine velocity gradient components is provided directly.
+[LINE#91] Thus, information on two of the three velocity components and six of the nine velocity gradient components is provided directly.
 0.843	[*A*]information on six of the nine velocity gradient components[*R*]is provided directly	context()	negated: False ,passive: False
 0.830	[*A*]information on two of the three velocity components[*R*]is provided directly	context()	negated: False ,passive: False
-[LINE#89]This suggests a metric based on the magnitude of the components of the 2D velocity gradient tensor that are normal to the surfaces, since that information is currently not utilized in typical 2D analyses.
+[LINE#92] This suggests a metric based on the magnitude of the components of the 2D velocity gradient tensor that are normal to the surfaces, since that information is currently not utilized in typical 2D analyses.
 0.916	[*A*]that information[*R*]is not utilized[*A*]in typical 2D analyses[*A*]currently	context()	negated: True ,passive: True
 0.497	[*A*]This[*R*]suggests[*A*]a metric based on the magnitude of the components of the 2D velocity gradient	context()	negated: False ,passive: False
-[LINE#90]The importance of this quantity was also highlighted by Branicki et al.
+[LINE#93] The importance of this quantity was also highlighted by Branicki et al.
 0.907	[*A*]The importance of this quantity[*R*]was highlighted[*A*]by Branicki et al	context()	negated: False ,passive: True
-[LINE#91][26], who show that invariant manifolds are nearly vertical within a layer whose thickness is much smaller than the ratio of the horizontal velocities to their vertical gradients.
+[LINE#94] [26], who show that invariant manifolds are nearly vertical within a layer whose thickness is much smaller than the ratio of the horizontal velocities to their vertical gradients.
 0.717	[*A*]invariant manifolds[*R*]are[*A*]nearly vertical	context(26 show)	negated: False ,passive: True
 0.274	[*A*]26[*R*]show[*A*]that invariant manifolds are nearly vertical within a layer	context()	negated: False ,passive: False
 0.901	[*A*]a layer[*R*]is[*A*]much smaller than the ratio of the horizontal velocities to their vertical gradients	context()	negated: False ,passive: True
-[LINE#92]Also missing from the standard 2D analysis is any information on the normal velocity and its gradients, leading to the consideration of a second diagnostic capturing these effects.
+[LINE#95] Also missing from the standard 2D analysis is any information on the normal velocity and its gradients, leading to the consideration of a second diagnostic capturing these effects.
 0.946	[*A*]missing from the standard 2 D analysis[*R*]is[*A*]any information on its gradients[*A*]leading to the consideration of a second diagnostic capturing these effects	context()	negated: False ,passive: True
 0.970	[*A*]missing from the standard 2 D analysis[*R*]is[*A*]any information on the normal velocity[*A*]leading to the consideration of a second diagnostic capturing these effects	context()	negated: False ,passive: True
-[LINE#93]To assess the impacts of these neglected velocity gradient components, 2D LCS derived from FTLE ridges are considered.
+[LINE#96] To assess the impacts of these neglected velocity gradient components, 2D LCS derived from FTLE ridges are considered.
 0.756	[*A*]2D LCS derived from FTLE ridges[*R*]are considered	context()	negated: False ,passive: False
 0.864	[*A*]2D LCS[*R*]derived[*A*]from FTLE ridges	context()	negated: False ,passive: True
-[LINE#94]The structures obtained from 2D components of prescribed 3D velocity fields are compared with those from the full 3D fields.
+[LINE#97] The structures obtained from 2D components of prescribed 3D velocity fields are compared with those from the full 3D fields.
 0.868	[*A*]The structures[*R*]obtained[*A*]from 2D components of prescribed 3D velocity fields[*A*]are compared with those from the full 3D fields	context()	negated: False ,passive: True
-[LINE#95]For clarity in presentation, the geometry of the prescribed flows is here taken to be Cartesian, and the 2D surfaces are specified as horizontal planes.
+[LINE#98] For clarity in presentation, the geometry of the prescribed flows is here taken to be Cartesian, and the 2D surfaces are specified as horizontal planes.
 0.992	[*A*]2 d surfaces[*R*]are specified as[*A*]horizontal planes	context()	negated: False ,passive: False
 0.939	[*A*]the 2 D surfaces[*R*]are specified[*A*]as horizontal planes	context()	negated: False ,passive: True
 0.933	[*A*]the geometry of the prescribed flows[*R*]to be[*A*]Cartesian	context()	negated: False ,passive: True
 0.951	[*A*]the geometry of the prescribed flows[*R*]is taken[*A*]to be Cartesian[*A*]here	context()	negated: False ,passive: True
-[LINE#96]Two approaches for approximating 2D LCS from the 2D velocity field are considered.
-[LINE#97]The first treats each vertical level independently, with the 2D FTLE computed from 2D trajectories on each layer within the volume of interest.
+[LINE#99] Two approaches for approximating 2D LCS from the 2D velocity field are considered.
+[LINE#100] The first treats each vertical level independently, with the 2D FTLE computed from 2D trajectories on each layer within the volume of interest.
 0.568	[*A*]The first[*R*]treats[*A*]each vertical level[*A*]independently	context()	negated: False ,passive: False
-[LINE#98]This is the "business as usual" approach adopted by Branicki and Kirwan [27] in their assessment of the lobe structure of a large anticyclonic ring in the Gulf of Mexico.
+[LINE#101] This is the "business as usual" approach adopted by Branicki and Kirwan [27] in their assessment of the lobe structure of a large anticyclonic ring in the Gulf of Mexico.
 0.899	[*A*]approach[*R*]adopted[*A*]by Kirwan [ 27[*A*]in their assessment of the lobe structure of a large anticyclonic ring in the Gulf of Mexico	context()	negated: False ,passive: True
 0.899	[*A*]approach[*R*]adopted[*A*]by Branicki [ 27[*A*]in their assessment of the lobe structure of a large anticyclonic ring in the Gulf of Mexico	context()	negated: False ,passive: True
 0.449	[*A*]This[*R*]is[*A*]the " business as usual " approach	context()	negated: False ,passive: True
-[LINE#99][28] for a variation of this approach.
-[LINE#100]The second approach again uses 2D trajectories along each level surface, but accounts for the additional 3D dispersion due to horizontal separations between particle pairs in adjacent levels.
+[LINE#102] [28] for a variation of this approach.
+[LINE#103] The second approach again uses 2D trajectories along each level surface, but accounts for the additional 3D dispersion due to horizontal separations between particle pairs in adjacent levels.
 0.943	[*A*]The second approach[*R*]accounts[*A*]for the additional 3 D dispersion due to horizontal separations between particle pairs in adjacent levels	context()	negated: False ,passive: False
 0.999	[*A*]The second approach[*R*]uses[*A*]2 d trajectories	context()	negated: False ,passive: False
 0.939	[*A*]The second approach[*R*]uses[*A*]2 D trajectories along each level surface[*A*]again	context()	negated: False ,passive: False
-[LINE#101][29] for examples of this approach.
-[LINE#102]When computing FTLE in a 3D volume, the additional computational cost of the second approximation is minimal, since both approximations require 2D trajectories computed along each vertical level.
+[LINE#104] [29] for examples of this approach.
+[LINE#105] When computing FTLE in a 3D volume, the additional computational cost of the second approximation is minimal, since both approximations require 2D trajectories computed along each vertical level.
 0.911	[*A*]2D trajectories[*R*]computed[*A*]along each vertical level	context()	negated: False ,passive: True
 0.903	[*A*]both approximations[*R*]require[*A*]2D trajectories computed along each vertical level	context()	negated: False ,passive: False
 0.979	[*A*]the additional computational cost of the second approximation[*R*]is[*A*]minimal[*A*]since both approximations require 2D trajectories[*A*]When computing FTLE in a 3D volume	context()	negated: False ,passive: True
-[LINE#103]There is an additional approach that might be considered for approximating 2D LCS in cases where the full 3D velocity is known: using 3D trajectories, but restricting the analysis to a plane embedded in the flow.
+[LINE#106] There is an additional approach that might be considered for approximating 2D LCS in cases where the full 3D velocity is known: using 3D trajectories, but restricting the analysis to a plane embedded in the flow.
 0.949	[*A*]the full 3 D velocity[*R*]is known[*A*]cases	context()	negated: False ,passive: True
 0.903	[*A*]a plane[*R*]embedded[*A*]in the flow	context()	negated: False ,passive: True
 0.967	[*A*]the full 3 D velocity[*R*]is known[*A*]cases where the full 3 D velocity is known : using 3 D trajectories	context()	negated: False ,passive: True
 0.897	[*A*]an additional approach[*R*]might be considered[*A*]for approximating 2 D LCS in cases	context()	negated: False ,passive: True
-[LINE#104]Along this plane, the 3D FTLE can be approximated with a reduced Cauchy-Green tensor using only trajectories initialized on the plane, effectively neglecting normal gradients.
+[LINE#107] Along this plane, the 3D FTLE can be approximated with a reduced Cauchy-Green tensor using only trajectories initialized on the plane, effectively neglecting normal gradients.
 0.903	[*A*]only trajectories[*R*]initialized[*A*]on the plane	context()	negated: False ,passive: True
 0.949	[*A*]a reduced Cauchy-Green tensor[*R*]using[*A*]only trajectories initialized on the plane	context()	negated: False ,passive: False
 0.944	[*A*]the 3D FTLE[*R*]can be approximated[*A*]effectively neglecting normal gradients[*A*]Along this plane	context()	negated: False ,passive: True
-[LINE#105][24] compared this planar approximation with the full 3D rendering of FTLE fields and reported that the fields agreed quite well.
+[LINE#108] [24] compared this planar approximation with the full 3D rendering of FTLE fields and reported that the fields agreed quite well.
 0.687	[*A*]the fields[*R*]agreed quite well	context(24 reported)	negated: False ,passive: False
 0.259	[*A*]24[*R*]reported[*A*]that the fields agreed quite well	context()	negated: False ,passive: False
 0.931	[*A*]the full 3 D[*R*]rendering[*A*]of FTLE fields	context()	negated: False ,passive: True
-[LINE#106]Since this approach requires vertical velocities that are normally not available in geophysical models, and since the computational savings vis--vis the full solution are minimal in this context, we chose not to discuss this approach further.
+[LINE#109] Since this approach requires vertical velocities that are normally not available in geophysical models, and since the computational savings vis--vis the full solution are minimal in this context, we chose not to discuss this approach further.
 0.391	[*A*]we[*R*]chose not to discuss further[*A*]this approach	context(we chose)	negated: True ,passive: False
 0.900	[*A*]vis the full solution[*R*]are[*A*]minimal[*A*]in this context	context(we chose)	negated: False ,passive: True
 0.388	[*A*]we[*R*]chose not to discuss[*A*]this approach[*A*]further	context(we chose)	negated: True ,passive: False
 0.388	[*A*]we[*R*]chose[*A*]not to discuss this approach further	context()	negated: False ,passive: False
 0.837	[*A*]vertical velocities[*R*]are not[*A*]available in geophysical models	context()	negated: True ,passive: True
 0.845	[*A*]this approach[*R*]requires[*A*]vertical velocities that are normally not available in geophysical models	context()	negated: False ,passive: False
-[LINE#107]Two test flows are used in the analysis.
+[LINE#110] Two test flows are used in the analysis.
 0.911	[*A*]Two test flows[*R*]are used[*A*]in the analysis	context()	negated: False ,passive: True
-[LINE#108]The first is the well-studied ABC flow.
+[LINE#111] The first is the well-studied ABC flow.
 0.678	[*A*]The first[*R*]is[*A*]the well-studied ABC flow	context()	negated: False ,passive: True
-[LINE#109]The second, which is more relevant to geophysical flows, is a quadrupole with the velocities scaled to match typical open ocean conditions.
+[LINE#112] The second, which is more relevant to geophysical flows, is a quadrupole with the velocities scaled to match typical open ocean conditions.
 0.903	[*A*]the velocities[*R*]scaled[*A*]to match typical open ocean conditions	context()	negated: False ,passive: True
 0.958	[*A*]The second, which is more relevant to geophysical flows[*R*]is[*A*]a quadrupole with the velocities	context()	negated: False ,passive: True
 0.596	[*A*]The second[*R*]is[*A*]more relevant to geophysical flows	context()	negated: False ,passive: True
-[LINE#110]We anticipate that the results presented here will have some relevance to atmospheric flows when the diabatic velocities are small relative to the horizontal velocities.
+[LINE#113] We anticipate that the results presented here will have some relevance to atmospheric flows when the diabatic velocities are small relative to the horizontal velocities.
 0.900	[*A*]the results presented here[*R*]will have[*A*]some relevance	context(We anticipate)	negated: False ,passive: False
 0.279	[*A*]We[*R*]anticipate[*A*]that the results presented here will have some relevance to atmospheric flows	context()	negated: False ,passive: False
 0.783	[*A*]the diabatic velocities[*R*]are[*A*]small[*A*]relative	context()	negated: False ,passive: True
 0.767	[*A*]the results[*R*]presented[*A*]here	context()	negated: False ,passive: True
-[LINE#111]We also discuss only steady flow.
+[LINE#114] We also discuss only steady flow.
 0.411	[*A*]We[*R*]discuss[*A*]only steady flow	context()	negated: False ,passive: False
-[LINE#112]We found that adding prescribed time periodicity yielded little additional insight for these two test flows.
+[LINE#115] We found that adding prescribed time periodicity yielded little additional insight for these two test flows.
 0.900	[*A*]adding prescribed time periodicity[*R*]yielded[*A*]little additional insight for these two test flows	context(We found)	negated: False ,passive: False
 0.279	[*A*]We[*R*]found[*A*]that adding prescribed time periodicity yielded little additional insight for these two test flows	context()	negated: False ,passive: False
-[LINE#113]There are fundamental issues with more general time dependence, the most crucial being interaction between the integration period for evaluating the Cauchy-Green tensor and the intrinsic time scales of the flow.
-[LINE#114]A thorough investigation of this matter is ongoing.
+[LINE#116] There are fundamental issues with more general time dependence, the most crucial being interaction between the integration period for evaluating the Cauchy-Green tensor and the intrinsic time scales of the flow.
+[LINE#117] A thorough investigation of this matter is ongoing.
 0.865	[*A*]A thorough investigation of this matter[*R*]is[*A*]ongoing	context()	negated: False ,passive: True
-[LINE#115]The report is organized as follows.
+[LINE#118] The report is organized as follows.
 0.767	[*A*]The report[*R*]is organized[*A*]as follows	context()	negated: False ,passive: True
-[LINE#116]Section 3 provides a useful paradigm for studying arbitrary incompressible flows and describes the two test models.
+[LINE#119] Section 3 provides a useful paradigm for studying arbitrary incompressible flows and describes the two test models.
 0.903	[*A*]Section 3[*R*]describes[*A*]the two test models	context()	negated: False ,passive: False
 0.903	[*A*]Section 3[*R*]provides[*A*]a useful paradigm for studying arbitrary incompressible flows	context()	negated: False ,passive: False
-[LINE#117]Section 4 assesses the impact of the two FTLE approximations in a steady ABC flow and analyzes the critical parameters in the problem.
+[LINE#120] Section 4 assesses the impact of the two FTLE approximations in a steady ABC flow and analyzes the critical parameters in the problem.
 0.903	[*A*]Section 4[*R*]analyzes[*A*]the critical parameters in the problem	context()	negated: False ,passive: False
 0.947	[*A*]Section 4[*R*]assesses[*A*]the impact of the two FTLE approximations in a steady ABC flow	context()	negated: False ,passive: False
-[LINE#118]A steady quadrupole model is used to assess situations with more geophysical relevance in Section 5.
+[LINE#121] A steady quadrupole model is used to assess situations with more geophysical relevance in Section 5.
 0.905	[*A*]A steady quadrupole model[*R*]to assess[*A*]situations with more geophysical relevance in Section 5	context()	negated: False ,passive: False
 0.948	[*A*]A steady quadrupole model[*R*]is used[*A*]to assess situations with more geophysical relevance in Section 5	context()	negated: False ,passive: True
-[LINE#119]A summary of the results and some additional remarks are given in Section 6.
+[LINE#122] A summary of the results and some additional remarks are given in Section 6.
 0.932	[*A*]A summary of some additional remarks[*R*]are given[*A*]in Section 6	context()	negated: False ,passive: True
 0.926	[*A*]A summary of the results[*R*]are given[*A*]in Section 6	context()	negated: False ,passive: True
-[LINE#120]S in a steady quadrupoleAnalysis of the ABC flow (Section 4) identified the important role that vertical shear of the horizontal velocity plays in 3D LCS.
+[LINE#123] S in a steady quadrupoleAnalysis of the ABC flow (Section 4) identified the important role that vertical shear of the horizontal velocity plays in 3D LCS.
 0.897	[*A*]the important role[*R*]plays[*A*]in 3D LCS	context()	negated: False ,passive: True
 0.925	[*A*]S in a steady quadrupoleAnalysis of the ABC flow[*R*]identified[*A*]the important role that vertical shear of the horizontal velocity plays in 3D LCS	context()	negated: False ,passive: False
-[LINE#121]That analysis also demonstrated that two potentially appealing FTLE approximations can be significantly degraded when this shear is ignored.
+[LINE#124] That analysis also demonstrated that two potentially appealing FTLE approximations can be significantly degraded when this shear is ignored.
 0.929	[*A*]two potentially appealing FTLE approximations[*R*]can be[*A*]significantly degraded[*A*]when this shear is ignored	context(That analysis demonstrated)	negated: False ,passive: True
 0.810	[*A*]That analysis[*R*]demonstrated[*A*]that two potentially appealing FTLE approximations can be significantly degraded	context()	negated: False ,passive: False
 0.732	[*A*]this shear[*R*]is ignored	context()	negated: False ,passive: False
-[LINE#122]In ABC flows, however, all three velocity components have similar scales since w is constrained by the same parameters that control the (u,v) structure.
+[LINE#125] In ABC flows, however, all three velocity components have similar scales since w is constrained by the same parameters that control the (u,v) structure.
 0.754	[*A*]the same parameters[*R*]control[*A*]the	context()	negated: False ,passive: False
-[LINE#123]Consequently, ABC flows are not representative of most geophysical flows which have a natural disparity-typically three orders of magnitude or more-between the vertical and horizontal velocity scales.
+[LINE#126] Consequently, ABC flows are not representative of most geophysical flows which have a natural disparity-typically three orders of magnitude or more-between the vertical and horizontal velocity scales.
 0.897	[*A*]most geophysical flows[*R*]more-between[*A*]the vertical and horizontal velocity scales	context()	negated: False ,passive: False
 0.897	[*A*]most geophysical flows[*R*]have[*A*]a natural disparity	context()	negated: False ,passive: False
 0.939	[*A*]Consequently, ABC flows[*R*]are not[*A*]representative of most geophysical flows	context()	negated: True ,passive: True
-[LINE#124]To assess the validity of the two FTLE approximations defined in Section 2 for flows with representative geophysical velocity scalings, we now appeal to the quadrupole model described in Section 3.2.
+[LINE#127] To assess the validity of the two FTLE approximations defined in Section 2 for flows with representative geophysical velocity scalings, we now appeal to the quadrupole model described in Section 3.2.
 0.911	[*A*]the quadrupole model[*R*]described[*A*]in Section 3.2	context()	negated: False ,passive: True
 0.554	[*A*]we[*R*]appeal[*A*]to the quadrupole model[*A*]now	context()	negated: False ,passive: False
 0.961	[*A*]the two FTLE approximations[*R*]defined[*A*]in Section 2 for flows with representative geophysical velocity scalings	context()	negated: False ,passive: True
-[LINE#125]This model allows for a natural separation between the horizontal and vertical velocity scalings.
+[LINE#128] This model allows for a natural separation between the horizontal and vertical velocity scalings.
 0.937	[*A*]This model[*R*]allows[*A*]for a natural separation between the horizontal and vertical velocity scalings	context()	negated: False ,passive: False
-[LINE#126] Like the ABC flow, it also allows Sv and Sw to be varied independently, so that the relative importance of vertical velocities and vertical (u,v)shear can be examined separately.
+[LINE#129+130]  Like the ABC flow, it also allows Sv and Sw to be varied independently, so that the relative importance of vertical velocities and vertical (u,v)shear can be examined separately.
 0.609	[*A*]Sw[*R*]to be independently[*A*]varied	context(it allows)	negated: False ,passive: True
 0.392	[*A*]it[*R*]allows[*A*]Sw to be varied independently	context()	negated: False ,passive: False
 0.609	[*A*]Sv[*R*]to be independently[*A*]varied	context(it allows)	negated: False ,passive: True
 0.392	[*A*]it[*R*]allows[*A*]Sv to be varied independently	context()	negated: False ,passive: False
 0.805	[*A*]the relative importance of vertical velocities and vertical[*R*]can be examined separately	context()	negated: False ,passive: False
-[LINE#127] Given the choices of the model formulation specified in Section 3.2, the two diagnostics take on the following values: (29)Sv=|A1|sin2(x)cos2(y)+cos2(x)sin2(y) and (30)Sw2=2(B0+B1z)2[sin2(x)cos2(y)+cos2(x)sin2(y)]+B12[cos2(x)cos2(y)].For ocean flows, the Richardson shear criterion provides an approximate upper bound on Sv.
+[LINE#131+132]  Given the choices of the model formulation specified in Section 3.2, the two diagnostics take on the following values: (29)Sv=|A1|sin2(x)cos2(y)+cos2(x)sin2(y) and (30)Sw2=2(B0+B1z)2[sin2(x)cos2(y)+cos2(x)sin2(y)]+B12[cos2(x)cos2(y)].For ocean flows, the Richardson shear criterion provides an approximate upper bound on Sv.
 0.925	[*A*]an approximate upper[*R*]bound[*A*]on Sv	context()	negated: False ,passive: True
 0.949	[*A*]the Richardson shear criterion[*R*]provides[*A*]an approximate upper bound on Sv	context()	negated: False ,passive: False
 0.911	[*A*]the two diagnostics[*R*]take on[*A*]the following values	context()	negated: False ,passive: False
 0.911	[*A*]the model formulation[*R*]specified[*A*]in Section 3.2	context()	negated: False ,passive: True
-[LINE#128] From this criterion, we expect N2/Sv20.25 where N is the stratification.
+[LINE#133]  From this criterion, we expect N2/Sv20.25 where N is the stratification.
 0.944	[*A*]N[*R*]is[*A*]the stratification[*A*]N2/Sv20.25	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]expect[*A*]N2/Sv20.25	context()	negated: False ,passive: False
-[LINE#129]Flows with Sv values exceeding this limit will likely be unstable.
+[LINE#134] Flows with Sv values exceeding this limit will likely be unstable.
 0.749	[*A*]Flows with Sv values[*R*]will be[*A*]unstable	context()	negated: False ,passive: True
 0.927	[*A*]Sv values[*R*]exceeding[*A*]this limit	context()	negated: False ,passive: False
-[LINE#130]Here, we consider Nmax=1cycle/h (1.7510-3s-1) as an upper bound for ocean flows and we examine a range of A0 and A1 values corresponding to maximum Sv values ranging from 0.2Nmax to 2Nmax.
+[LINE#135] Here, we consider Nmax=1cycle/h (1.7510-3s-1) as an upper bound for ocean flows and we examine a range of A0 and A1 values corresponding to maximum Sv values ranging from 0.2Nmax to 2Nmax.
 0.498	[*A*]we[*R*]examine[*A*]a range of A1 values	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]examine[*A*]a range of A0 values	context()	negated: False ,passive: False
 0.829	[*A*]an upper bound for ocean[*R*]flows	context()	negated: False ,passive: False
@@ -425,157 +425,157 @@
 0.927	[*A*]A0 values[*R*]corresponding[*A*]to maximum Sv values	context()	negated: False ,passive: True
 0.639	[*A*]we[*R*]examine[*A*]a range of A0 values[*A*]Nmax=1cycle / h ( 1.7510-3s	context()	negated: False ,passive: False
 0.302	[*A*]we[*R*]consider[*A*]Here	context()	negated: False ,passive: False
-[LINE#131]An ocean limit on Sw is harder to establish.
+[LINE#136] An ocean limit on Sw is harder to establish.
 0.888	[*A*]An ocean limit on Sw[*R*]is[*A*]harder to establish	context()	negated: False ,passive: True
-[LINE#132]To allow for more direct comparisons between quadrupole experiments with w0, we choose to fix the maximum vertical velocity magnitude (|w|max) at the analysis depth z=-0.3km at 10-4ms-1 in all cases.
+[LINE#137] To allow for more direct comparisons between quadrupole experiments with w0, we choose to fix the maximum vertical velocity magnitude (|w|max) at the analysis depth z=-0.3km at 10-4ms-1 in all cases.
 0.504	[*A*]we[*R*]choose to fix[*A*]the maximum vertical velocity magnitude (|w|max) at the analysis depth z=-0.3km at 10-4ms-1 in all cases	context(we choose)	negated: False ,passive: False
 0.504	[*A*]we[*R*]choose[*A*]to fix the maximum vertical velocity magnitude (|w|max) at the analysis depth z=-0.3km at 10-4ms-1 in all cases	context()	negated: False ,passive: False
-[LINE#133]For our choices of |w|max=10-4ms-1 and L=200km, these horizontal w gradients do not exceed 1.5710-9s-1.
+[LINE#138] For our choices of |w|max=10-4ms-1 and L=200km, these horizontal w gradients do not exceed 1.5710-9s-1.
 0.999	[*A*]gradients[*R*]these horizontal do not exceed[*A*]1.5710 -9s - 1	context()	negated: False ,passive: False
 0.749	[*A*]gradients[*R*]do not exceed[*A*]1.5710-9s - 1	context()	negated: True ,passive: False
 0.999	[*A*]max=10-4 these gradients[*R*]horizontal do not exceed[*A*]1.5710 -9s - 1	context()	negated: False ,passive: False
 0.866	[*A*]max=10-4ms - 1 , these horizontal w gradients[*R*]do not exceed[*A*]1.5710-9s - 1	context()	negated: True ,passive: False
-[LINE#134]For the incompressible ocean flows considered here, the remaining contributor to Sw,w/z, is equal to the horizontal divergence.
+[LINE#139] For the incompressible ocean flows considered here, the remaining contributor to Sw,w/z, is equal to the horizontal divergence.
 0.938	[*A*]the remaining contributor to Sw[*R*]is[*A*]equal to the horizontal divergence	context()	negated: False ,passive: True
-[LINE#135]Estimates of ocean mesoscale horizontal divergence from drifter trajectories indicate that a conservative upper bound on its magnitude is 0.1f, where f is the Coriolis parameter [34-36].
+[LINE#140] Estimates of ocean mesoscale horizontal divergence from drifter trajectories indicate that a conservative upper bound on its magnitude is 0.1f, where f is the Coriolis parameter [34-36].
 0.874	[*A*]f[*R*]is[*A*]the Coriolis parameter	context()	negated: False ,passive: True
 0.848	[*A*]a conservative upper[*R*]bound[*A*]on its magnitude	context()	negated: False ,passive: True
 0.911	[*A*]Estimates of ocean[*R*]mesoscale[*A*]horizontal divergence from drifter trajectories	context()	negated: False ,passive: False
-[LINE#136]Consequently, we choose a representative mid-latitude f value of 110-4s-1 and examine a range of B0 and B1 values corresponding to maximum w/z magnitudes between 0.01f and 0.1f.
+[LINE#141] Consequently, we choose a representative mid-latitude f value of 110-4s-1 and examine a range of B0 and B1 values corresponding to maximum w/z magnitudes between 0.01f and 0.1f.
 0.947	[*A*]B1 values[*R*]corresponding[*A*]to maximum w/z magnitudes between 0.01f and 0.1f	context()	negated: False ,passive: True
 0.411	[*A*]we[*R*]examine[*A*]a range of B0 and B1 values	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]choose[*A*]a representative mid-latitude f value of 110-4s-1	context()	negated: False ,passive: False
-[LINE#137] For these parameter choices, since w/z is always at least two orders of magnitude larger than either or w/y,Sw|w/z|.In Sections 5.1 through 5.3, we consider three quadrupole cases: 1.Zero vertical (u,v) shear with nonzero vertical velocity gradients (Sv=0,max(Sw)0).2.Nonzero vertical (u,v) shear with zero vertical velocity (max(Sv)0,w=0,Sw=0).3.Nonzero vertical (u,v) shear with nonzero vertical velocity(max(Sv)0,w0,max(Sw)0).These three cases permit the investigation of the effects of Sv and Sw first separately and then jointly..
+[LINE#142+143+144+145]  For these parameter choices, since w/z is always at least two orders of magnitude larger than either or w/y,Sw|w/z|.In Sections 5.1 through 5.3, we consider three quadrupole cases: 1.Zero vertical (u,v) shear with nonzero vertical velocity gradients (Sv=0,max(Sw)0).2.Nonzero vertical (u,v) shear with zero vertical velocity (max(Sv)0,w=0,Sw=0).3.Nonzero vertical (u,v) shear with nonzero vertical velocity(max(Sv)0,w0,max(Sw)0).These three cases permit the investigation of the effects of Sv and Sw first separately and then jointly..
 0.270	[*A*]3.Nonzero vertical (u,v[*R*]shear	context(Sw | w z we consider These three cases permit first separately)	negated: False ,passive: False
 0.875	[*A*]max(Sw)0).2.Nonzero vertical (u,v[*R*]shear	context(Sw | w z we consider These three cases permit first separately)	negated: False ,passive: False
 0.252	[*A*]vertical (u,v[*R*]shear	context(Sw | w z we consider These three cases permit first separately)	negated: False ,passive: False
 0.577	[*A*]we[*R*]consider[*A*]three quadrupole cases[*A*]In Sections 5.1	context(Sw | w z These three cases permit first separately)	negated: False ,passive: False
 0.902	[*A*]These three cases[*R*]permit first separately[*A*]the investigation of the effects of Sv and Sw	context(Sw | w z)	negated: False ,passive: False
 0.604	[*A*]Sw|[*R*]w z[*A*]|[*A*]through 5.3	context()	negated: False ,passive: False
-[LINE#138] Zero vertical (u,v) shear with nonzero.
-[LINE#139]This is achieved by setting A1=0.
+[LINE#146]  Zero vertical (u,v) shear with nonzero.
+[LINE#147] This is achieved by setting A1=0.
 0.153	[*A*]This[*R*]is achieved	context()	negated: False ,passive: False
-[LINE#140] A0=0.5ms-1, and max(Sw) is varied by choosing (31)B0=-[2,5,8,11,14,17,20,23,26,29]10-4 in m s-1 and(32)B1=-[1,2,3,4,5,6,7,8,9,10]10-4 in m s-1 km-1.
+[LINE#148+149]  A0=0.5ms-1, and max(Sw) is varied by choosing (31)B0=-[2,5,8,11,14,17,20,23,26,29]10-4 in m s-1 and(32)B1=-[1,2,3,4,5,6,7,8,9,10]10-4 in m s-1 km-1.
 0.632	[*A*]max[*R*]is[*A*]varied	context()	negated: False ,passive: True
-[LINE#141]For these parameter choices, the peak w magnitude at z=-0.3km is fixed to 10-4ms-1.
+[LINE#150] For these parameter choices, the peak w magnitude at z=-0.3km is fixed to 10-4ms-1.
 0.974	[*A*]the peak w magnitude at z=-0.3km[*R*]is fixed[*A*]For these parameter choices	context()	negated: False ,passive: True
-[LINE#142]In the analysis layer, max(Sw) values, range from 0.0864 to 0.8640days-1.
+[LINE#151] In the analysis layer, max(Sw) values, range from 0.0864 to 0.8640days-1.
 0.962	[*A*]max(Sw) values[*R*]range[*A*]from 0.0864 to 0.8640days-1[*A*]In the analysis layer	context()	negated: False ,passive: True
-[LINE#143]Note that, since Sv=0,FTLE3d2d and FTLE2d2d are derived from identical Cauchy-Green tensors.
-[LINE#144]Thus, for this case only FTLE3d3d and FTLE2d2d are compared.
+[LINE#152] Note that, since Sv=0,FTLE3d2d and FTLE2d2d are derived from identical Cauchy-Green tensors.
+[LINE#153] Thus, for this case only FTLE3d3d and FTLE2d2d are compared.
 0.732	[*A*]FTLE2d2 d[*R*]are compared	context()	negated: False ,passive: False
 0.817	[*A*]FTLE3d3[*R*]d	context()	negated: False ,passive: False
-[LINE#145]11((a)-(c)) show plots of FTLE3d3d,FTLE2d2d, and their absolute difference at z=-0.3km with B0=-210-4ms-1 and B1=-10-3ms-1km-1.
+[LINE#154] 11((a)-(c)) show plots of FTLE3d3d,FTLE2d2d, and their absolute difference at z=-0.3km with B0=-210-4ms-1 and B1=-10-3ms-1km-1.
 0.930	[*A*]FTLE2d2[*R*]d[*A*]their absolute difference at B1= - 10-3ms - 1km - 1	context()	negated: False ,passive: False
 0.930	[*A*]FTLE2d2[*R*]d[*A*]their absolute difference at z= - 0.3 km with B0= - 210-4ms - 1	context()	negated: False ,passive: False
 0.957	[*A*]11 ( ( a ) - ( c[*R*]show[*A*]plots of FTLE3d3 d	context()	negated: False ,passive: False
-[LINE#146]The small absolute differences (Fig. 11(c)) demonstrate that FTLE2d2d is an excellent approximation in this case.
+[LINE#155] The small absolute differences (Fig. 11(c)) demonstrate that FTLE2d2d is an excellent approximation in this case.
 0.931	[*A*]FTLE2d2d[*R*]is[*A*]an excellent approximation in this case	context(The small absolute differences ( Fig demonstrate)	negated: False ,passive: True
 0.867	[*A*]The small absolute differences (Fig[*R*]demonstrate[*A*]that FTLE2d2d is an excellent approximation in this case	context()	negated: False ,passive: False
-[LINE#147]11(d) shows a plot of RMS(1) versus max(Sw).
+[LINE#156] 11(d) shows a plot of RMS(1) versus max(Sw).
 0.933	[*A*]11(d[*R*]shows[*A*]a plot of RMS(1) versus max	context()	negated: False ,passive: False
-[LINE#148]This plot indicates that the RMS difference is insignificant (on the order of 10-6days-1) for max(Sw) values up to about 0.43days-1.
+[LINE#157] This plot indicates that the RMS difference is insignificant (on the order of 10-6days-1) for max(Sw) values up to about 0.43days-1.
 0.966	[*A*]the RMS difference[*R*]is[*A*]insignificant (on the order of 10-6days-1) for max(Sw) values up to about 0.43days-1	context(This plot indicates)	negated: False ,passive: True
 0.840	[*A*]This plot[*R*]indicates[*A*]that the RMS difference is insignificant (on the order of 10-6days-1) for max(Sw) values up to about 0.43days-1	context()	negated: False ,passive: False
-[LINE#149]For higher values of max(Sw),RMS(1) increases rapidly by at least five orders of magnitude.
-[LINE#150]Since the peak values of FTLE2d2d are O(1), these differences are significant. .
+[LINE#158] For higher values of max(Sw),RMS(1) increases rapidly by at least five orders of magnitude.
+[LINE#159] Since the peak values of FTLE2d2d are O(1), these differences are significant. .
 0.767	[*A*]these differences[*R*]are[*A*]significant	context()	negated: False ,passive: True
 0.949	[*A*]the peak values of FTLE2d2d[*R*]are[*A*]O(1	context()	negated: False ,passive: True
-[LINE#151] Nonzero vertical (u,v) shear with no vertical velocityNextshear impacts the FTLE approximations when Sw=0.
-[LINE#152](30), this is obtained by specifying B0=B1=0.
+[LINE#160+161]  Nonzero vertical (u,v) shear with no vertical velocityNextshear impacts the FTLE approximations when Sw=0.
+[LINE#162] (30), this is obtained by specifying B0=B1=0.
 0.153	[*A*]this[*R*]is obtained	context()	negated: False ,passive: False
-[LINE#153]The following values are chosen for A0 and A1 to achieve a range of max(Sv): (33)A0=[0.53,0.59,0.65,0.80,0.95,1.10,1.25,1.40,1.55] in m s-1, and (34)A1=[0.10,0.30,0.50,1.00,1.50,2.00,2.50,3.00,3.50] in m s-1 km-1.
+[LINE#163] The following values are chosen for A0 and A1 to achieve a range of max(Sv): (33)A0=[0.53,0.59,0.65,0.80,0.95,1.10,1.25,1.40,1.55] in m s-1, and (34)A1=[0.10,0.30,0.50,1.00,1.50,2.00,2.50,3.00,3.50] in m s-1 km-1.
 0.952	[*A*]The following values[*R*]are chosen[*A*]for A1 to achieve a range of max ( Sv ) : ( 33 ) ( 34 ) A1=	context()	negated: False ,passive: True
 0.920	[*A*]A1[*R*]to achieve[*A*]a range of max	context()	negated: False ,passive: False
 0.952	[*A*]The following values[*R*]are chosen[*A*]for A1 to achieve a range of max ( Sv ) : ( 33 ) A0= [ 0.53,0.59,0.65,0.80,0.95,1.10,1.25,1.40,1.55 ] in m s - 1	context()	negated: False ,passive: True
 0.952	[*A*]The following values[*R*]are chosen[*A*]for A0 to achieve a range of max ( Sv ) : ( 33 ) ( 34 ) A1=	context()	negated: False ,passive: True
 0.920	[*A*]A0[*R*]to achieve[*A*]a range of max	context()	negated: False ,passive: False
 0.952	[*A*]The following values[*R*]are chosen[*A*]for A0 to achieve a range of max ( Sv ) : ( 33 ) A0= [ 0.53,0.59,0.65,0.80,0.95,1.10,1.25,1.40,1.55 ] in m s - 1	context()	negated: False ,passive: True
-[LINE#154]These nine (A0,A1) pairs were chosen so that the (u,v) velocities at z=-0.3km remain constant, with a peak value of 0.5 m s-1.
+[LINE#164] These nine (A0,A1) pairs were chosen so that the (u,v) velocities at z=-0.3km remain constant, with a peak value of 0.5 m s-1.
 0.868	[*A*]velocities at z=-0.3km[*R*]remain[*A*]constant	context()	negated: False ,passive: True
 0.869	[*A*]These nine (A0,A1) pairs[*R*]were chosen	context()	negated: False ,passive: False
-[LINE#155]Over this range of A1 values, max(Sv) increases from 110-4 s-1 to 3.510-3s-1 (0.2Nmax to 2Nmax).
+[LINE#165] Over this range of A1 values, max(Sv) increases from 110-4 s-1 to 3.510-3s-1 (0.2Nmax to 2Nmax).
 0.868	[*A*]max[*R*]increases[*A*]from 110-4 s-1 to 3.510-3s-1[*A*]Over this range of A1 values	context()	negated: False ,passive: True
-[LINE#156]Since w=0 here, the 3D and 2D trajectories are identical.
+[LINE#166] Since w=0 here, the 3D and 2D trajectories are identical.
 0.957	[*A*]the 3 2 D trajectories[*R*]are[*A*]identical[*A*]Since w=0 here	context()	negated: False ,passive: True
 0.948	[*A*]the 3 D[*R*]are[*A*]identical[*A*]Since w=0 here	context()	negated: False ,passive: True
-[LINE#157]Hence for this case, FTLE3d2d=FTLE3d3d, and we need only compare FTLE3d3d with FTLE2d2d.
+[LINE#167] Hence for this case, FTLE3d2d=FTLE3d3d, and we need only compare FTLE3d3d with FTLE2d2d.
 0.443	[*A*]we[*R*]need only compare[*A*]FTLE3d3d[*A*]with FTLE2d2d	context(we need only)	negated: False ,passive: False
 0.443	[*A*]we[*R*]need only[*A*]compare FTLE3d3d with FTLE2d2d	context()	negated: False ,passive: False
-[LINE#158]12(a)-(c) show the two FTLE fields and their differences at z=-0.3km, with A0=0.53ms-1 and A1=0.10ms-1km-1.
-[LINE#159]Note that the magnitude of the peak FTLE differences is comparable to the peak FTLE values.
-[LINE#160]FTLE differences are small at the eddy centers and along the LCS.
+[LINE#168] 12(a)-(c) show the two FTLE fields and their differences at z=-0.3km, with A0=0.53ms-1 and A1=0.10ms-1km-1.
+[LINE#169] Note that the magnitude of the peak FTLE differences is comparable to the peak FTLE values.
+[LINE#170] FTLE differences are small at the eddy centers and along the LCS.
 0.918	[*A*]FTLE differences[*R*]are[*A*]small[*A*]along the LCS	context()	negated: False ,passive: True
 0.903	[*A*]FTLE differences[*R*]are[*A*]small[*A*]at the eddy centers	context()	negated: False ,passive: True
-[LINE#161] Panel (d) of this figure shows the RMS(1) versus max(Sv).
+[LINE#171]  Panel (d) of this figure shows the RMS(1) versus max(Sv).
 0.964	[*A*]Panel (d) of this figure[*R*]shows[*A*]the RMS	context()	negated: False ,passive: False
-[LINE#162]The RMS differences rise rapidly with max(Sv) at first but increase more slowly after about 50days-1. .
+[LINE#172] The RMS differences rise rapidly with max(Sv) at first but increase more slowly after about 50days-1. .
 0.933	[*A*]The RMS differences[*R*]rise rapidly[*A*]with max[*A*]at first[*A*]after about 50days - 1	context()	negated: False ,passive: True
-[LINE#163] Nonzero vertical (u,v) shear, nonzero w gradientIn Sections 5.1 and 5.2, the effects of Sv and Sw were examined separately.
+[LINE#173+174+175]  Nonzero vertical (u,v) shear, nonzero w gradientIn Sections 5.1 and 5.2, the effects of Sv and Sw were examined separately.
 0.818	[*A*]the effects of Sw[*R*]were examined separately	context()	negated: False ,passive: False
 0.818	[*A*]the effects of Sv[*R*]were examined separately	context()	negated: False ,passive: False
-[LINE#164]Here, the general case where both max(Sv) and max(Sw) are nonzero is considered.
+[LINE#176] Here, the general case where both max(Sv) and max(Sw) are nonzero is considered.
 0.935	[*A*]the general case where max ( Sw ) are nonzero[*R*]is considered[*A*]Here	context()	negated: False ,passive: True
 0.565	[*A*]max[*R*]are[*A*]nonzero	context()	negated: False ,passive: True
 0.941	[*A*]the general case where both max ( Sv ) are nonzero[*R*]is considered[*A*]Here	context()	negated: False ,passive: True
 0.735	[*A*]both max[*R*]are[*A*]nonzero	context()	negated: False ,passive: True
-[LINE#165]Ninety separate cases are examined.
+[LINE#177] Ninety separate cases are examined.
 0.751	[*A*]Ninety separate cases[*R*]are examined	context()	negated: False ,passive: False
-[LINE#166]These cases pair each of the ten values of max(Sw) explored in Section 5.1 (range of B0 and B1 values shown in Eqs.
+[LINE#178] These cases pair each of the ten values of max(Sw) explored in Section 5.1 (range of B0 and B1 values shown in Eqs.
 0.937	[*A*]B1 values[*R*]shown[*A*]in Eqs	context()	negated: False ,passive: True
 0.903	[*A*]These cases[*R*]pair[*A*]each of the ten values of max	context()	negated: False ,passive: False
-[LINE#167](31) and (32)) with the nine values of max(Sv) explored in Section 5.2 (range of A0 and A1 values shown in Eqs.
+[LINE#179] (31) and (32)) with the nine values of max(Sv) explored in Section 5.2 (range of A0 and A1 values shown in Eqs.
 0.953	[*A*]A1 values[*R*]shown[*A*]in Eqs	context()	negated: False ,passive: True
 0.953	[*A*]A0 values[*R*]shown[*A*]in Eqs	context()	negated: False ,passive: True
 0.927	[*A*]the nine values of max[*R*]explored[*A*]in Section 5.2	context()	negated: False ,passive: True
-[LINE#168]13(a)-(e) show the three FTLE fields and their differences at z=-0.3km, with A0=0.53ms-1,A1=0.10ms-1km-1,B0=-1.110-3ms-1, and B1=-410-3ms-1km-1.
-[LINE#169]A comparison of panels (d) and (e) shows that 2 is much smaller than 1.
+[LINE#180] 13(a)-(e) show the three FTLE fields and their differences at z=-0.3km, with A0=0.53ms-1,A1=0.10ms-1km-1,B0=-1.110-3ms-1, and B1=-410-3ms-1km-1.
+[LINE#181] A comparison of panels (d) and (e) shows that 2 is much smaller than 1.
 0.223	[*A*]2[*R*]is[*A*]much smaller than 1	context()	negated: False ,passive: True
-[LINE#170]In particular, the magnitude of max(1) is comparable to the peak FTLE values, whereas max(2) is an order of magnitude smaller.
+[LINE#182] In particular, the magnitude of max(1) is comparable to the peak FTLE values, whereas max(2) is an order of magnitude smaller.
 0.781	[*A*]max[*R*]is smaller[*A*]an order of magnitude	context()	negated: False ,passive: True
 0.953	[*A*]the magnitude of max[*R*]is[*A*]comparable to the peak[*A*]whereas max(2) is an order of magnitude smaller	context()	negated: False ,passive: True
-[LINE#171]Also noteworthy are the uniformly small FTLE differences at the eddy centers and along the LCS, as in the previous section.
+[LINE#183] Also noteworthy are the uniformly small FTLE differences at the eddy centers and along the LCS, as in the previous section.
 0.718	[*A*]Also noteworthy[*R*]are[*A*]the uniformly small FTLE differences along the LCS , as in the previous section	context()	negated: False ,passive: True
 0.718	[*A*]Also noteworthy[*R*]are[*A*]the uniformly small FTLE differences at the eddy centers , as in the previous section	context()	negated: False ,passive: True
-[LINE#172]At eddy centers, Sv=0 and Sw=0, so that small differences are expected.
+[LINE#184] At eddy centers, Sv=0 and Sw=0, so that small differences are expected.
 0.933	[*A*]small differences[*R*]are expected[*A*]At eddy centers	context()	negated: False ,passive: True
-[LINE#173]The LCS, on the other hand, pass through both maxima and minima in the Sv and Sw fields.
+[LINE#185] The LCS, on the other hand, pass through both maxima and minima in the Sv and Sw fields.
 0.898	[*A*]The LCS[*R*]pass[*A*]through minima in the Sw fields	context()	negated: False ,passive: True
 0.898	[*A*]The LCS[*R*]pass[*A*]through minima in the Sv fields	context()	negated: False ,passive: True
 0.898	[*A*]The LCS[*R*]pass[*A*]through both maxima in the Sw fields	context()	negated: False ,passive: True
 0.898	[*A*]The LCS[*R*]pass[*A*]through both maxima in the Sv fields	context()	negated: False ,passive: True
-[LINE#174]We hypothesize that here the primary direction of dispersion lies in the horizontal plane, resulting in similar FTLE values for the approximations.
+[LINE#186] We hypothesize that here the primary direction of dispersion lies in the horizontal plane, resulting in similar FTLE values for the approximations.
 0.317	[*A*]We[*R*]hypothesize[*A*]that here the primary direction of dispersion lies in the horizontal plane, resulting in similar FTLE values for the approximations	context()	negated: False ,passive: False
 0.927	[*A*]the primary direction of dispersion[*R*]resulting[*A*]in similar FTLE values for the approximations	context()	negated: False ,passive: True
-[LINE#175]13(f) shows RMS(1) and RMS(2) versus max(Sv) for the case with max(Sw)=0.3456days-1.
+[LINE#187] 13(f) shows RMS(1) and RMS(2) versus max(Sv) for the case with max(Sw)=0.3456days-1.
 0.920	[*A*]13 ( f[*R*]shows[*A*]RMS	context()	negated: False ,passive: False
-[LINE#176]After an initial rise, RMS(2) quickly levels off at a relatively low value, while RMS(1) continues to grow.
+[LINE#188] After an initial rise, RMS(2) quickly levels off at a relatively low value, while RMS(1) continues to grow.
 0.640	[*A*]RMS(1[*R*]to grow	context()	negated: False ,passive: False
 0.681	[*A*]RMS(1[*R*]continues[*A*]to grow	context()	negated: False ,passive: False
-[LINE#177] 14 shows contour plots of RMS(1) and RMS(2) as a function of both max(Sw).
+[LINE#189]  14 shows contour plots of RMS(1) and RMS(2) as a function of both max(Sw).
 0.903	[*A*]14 shows[*R*]contour[*A*]plots of RMS	context()	negated: False ,passive: False
-[LINE#178]For RMS(2), the controlling diagnostic is max(Sw): For any nonzero value of max(Sv),RMS(2) increases rapidly as max(Sw) increases.
+[LINE#190] For RMS(2), the controlling diagnostic is max(Sw): For any nonzero value of max(Sv),RMS(2) increases rapidly as max(Sw) increases.
 0.959	[*A*]RMS(2) increases rapidly[*R*]increases[*A*]max	context()	negated: False ,passive: True
 0.658	[*A*]the controlling diagnostic[*R*]is[*A*]max	context()	negated: False ,passive: True
-[LINE#179]The exception occurs at very low values of max(Sv).
+[LINE#191] The exception occurs at very low values of max(Sv).
 0.903	[*A*]The exception[*R*]occurs[*A*]at very low values of max	context()	negated: False ,passive: True
-[LINE#180]Note that for max(Sv)=0,RMS(2) is small and noticeably lower than for max(Sv)>0.
+[LINE#192] Note that for max(Sv)=0,RMS(2) is small and noticeably lower than for max(Sv)>0.
 0.980	[*A*]Note that for max ( Sv ) =0[*R*]is[*A*]noticeably lower than for max ( Sv ) > 0	context()	negated: False ,passive: True
-[LINE#181]Sw is therefore important only in the presence of vertical (u,v) shear.
+[LINE#193] Sw is therefore important only in the presence of vertical (u,v) shear.
 0.926	[*A*]Sw[*R*]is[*A*]therefore important[*A*]only in the presence of vertical (u,v) shear	context()	negated: False ,passive: True
-[LINE#182]Even though changes in max(Sw) have a greater impact on RMS(2) than changes in max(Sv), an increase in max(Sv) is associated with larger RMS differences for almost all values of max(Sw).
+[LINE#194] Even though changes in max(Sw) have a greater impact on RMS(2) than changes in max(Sv), an increase in max(Sv) is associated with larger RMS differences for almost all values of max(Sw).
 0.945	[*A*]max[*R*]is associated[*A*]with larger RMS differences for almost all values of max[*A*]changes in	context()	negated: False ,passive: True
-[LINE#183] (greater than about 0.6days-1), this general rule no longer strictly holds, leading to the counter-intuitive result that increasing max(Sv)may actually improve the accuracy of the FTLE estimate slightly.
+[LINE#195+196]  (greater than about 0.6days-1), this general rule no longer strictly holds, leading to the counter-intuitive result that increasing max(Sv)may actually improve the accuracy of the FTLE estimate slightly.
 0.902	[*A*]increasing max[*R*]may improve slightly[*A*]the accuracy of the FTLE estimate	context()	negated: False ,passive: False
 0.859	[*A*]this general rule[*R*]leading[*A*]to the counter-intuitive result that increasing max(Sv)may actually improve the accuracy of the FTLE estimate slightly	context()	negated: False ,passive: False
 0.916	[*A*]this general rule[*R*]strictly holds[*A*]leading to the counter-intuitive result that increasing max(Sv)may actually improve the accuracy of the FTLE estimate slightly[*A*]no longer	context()	negated: False ,passive: True
-[LINE#184]This phenomenon may result from aliasing that arises when the integration time approximates an integer multiple of the eddy orbit period at some critical locations in the flow.
+[LINE#197] This phenomenon may result from aliasing that arises when the integration time approximates an integer multiple of the eddy orbit period at some critical locations in the flow.
 0.943	[*A*]the integration time[*R*]approximates[*A*]an integer multiple of the eddy orbit period at some critical locations in the flow	context()	negated: False ,passive: False
 0.920	[*A*]aliasing[*R*]arises[*A*]when the integration time approximates an integer multiple of the eddy orbit period at some critical locations in the flow	context()	negated: False ,passive: True
-[LINE#185] shows that, for RMS(1), the situation is reversed: Especially at low values of max(Sv), increasing max(Sw).
-[LINE#186]The errors are dominated by the vertical (u,v) shear effects.
+[LINE#198]  shows that, for RMS(1), the situation is reversed: Especially at low values of max(Sv), increasing max(Sw).
+[LINE#199] The errors are dominated by the vertical (u,v) shear effects.
 0.937	[*A*]The errors[*R*]are dominated[*A*]by the vertical (u,v) shear effects	context()	negated: False ,passive: True
-[LINE#187]As max(Sv) rises above about 100days-1,max(Sw) becomes more relevant, until it becomes the controlling factor (max(Sv)175days-1 and max(Sw)0.5days-1).It is worth noting that for most of the explored parameter space, RMS(1) is close to an order of magnitude larger than RMS(2).
+[LINE#200] As max(Sv) rises above about 100days-1,max(Sw) becomes more relevant, until it becomes the controlling factor (max(Sv)175days-1 and max(Sw)0.5days-1).It is worth noting that for most of the explored parameter space, RMS(1) is close to an order of magnitude larger than RMS(2).
 0.846	[*A*]max[*R*]becomes[*A*]more relevant[*A*]until it becomes the controlling factor[*A*]As max ( Sv ) rises above about 100days - 1	context(It is)	negated: False ,passive: True
 0.382	[*A*]It[*R*]is[*A*]worth noting that for most of the explored parameter space , RMS ( 1 ) is close to an order of magnitude larger than RMS	context()	negated: False ,passive: True
 0.452	[*A*]it[*R*]becomes[*A*]the controlling factor	context()	negated: False ,passive: True
@@ -583,115 +583,115 @@
 0.240	[*A*]it[*R*]becomes[*A*]the controlling factor ( max ( Sv ) 175days - 1 . It is worth noting that for most of the explored parameter space , RMS ( 1 ) is close to an order of magnitude larger than RMS ( 2 )	context()	negated: False ,passive: True
 0.873	[*A*]max[*R*]becomes[*A*]more relevant[*A*]until it becomes the controlling factor[*A*]As max ( Sv ) rises above about 100days - 1	context()	negated: False ,passive: True
 0.565	[*A*]max[*R*]rises[*A*]above about 100days - 1	context()	negated: False ,passive: True
-[LINE#188]This suggests that the additional computational cost for FTLE3d2d is often justified by the improvement in the FTLE approximation.
+[LINE#201] This suggests that the additional computational cost for FTLE3d2d is often justified by the improvement in the FTLE approximation.
 0.958	[*A*]the additional computational cost for FTLE3d2d[*R*]is justified[*A*]by the improvement in the FTLE approximation[*A*]often	context(This suggests)	negated: False ,passive: True
 0.258	[*A*]This[*R*]suggests[*A*]that the additional computational cost for FTLE3d2d is often justified by the improvement in the FTLE approximation	context()	negated: False ,passive: False
-[LINE#189]The metric used so far in the quadrupole analysis is an RMS difference between the exact FTLE field and FTLE approximations taken over the analysis layer at z=-0.3km.
+[LINE#202] The metric used so far in the quadrupole analysis is an RMS difference between the exact FTLE field and FTLE approximations taken over the analysis layer at z=-0.3km.
 0.938	[*A*]FTLE approximations[*R*]taken[*A*]over the analysis layer at z=-0.3km	context()	negated: False ,passive: True
 0.979	[*A*]The metric used so far in the quadrupole analysis[*R*]is[*A*]an RMS difference between the exact FTLE field and FTLE approximations	context()	negated: False ,passive: True
 0.568	[*A*]The metric[*R*]used[*A*]so far[*A*]in the quadrupole analysis	context()	negated: False ,passive: True
-[LINE#190]As for the ABC flow, identification of LCS positions as ridges and valleys may be less error-prone than the exact FTLE magnitudes over the entire field.
+[LINE#203] As for the ABC flow, identification of LCS positions as ridges and valleys may be less error-prone than the exact FTLE magnitudes over the entire field.
 0.973	[*A*]identification of LCS positions as valleys[*R*]may be[*A*]less error - prone than the exact FTLE magnitudes over the entire field	context()	negated: False ,passive: True
 0.973	[*A*]identification of LCS positions as ridges[*R*]may be[*A*]less error - prone than the exact FTLE magnitudes over the entire field	context()	negated: False ,passive: True
-[LINE#191]15 compares FTLE ridge positions, showing 1D cross-sections of FTLE3d3d,FTLE3d2d, and FTLE2d2d at z=-0.3km along an east-west transect at y=100km.
+[LINE#204] 15 compares FTLE ridge positions, showing 1D cross-sections of FTLE3d3d,FTLE3d2d, and FTLE2d2d at z=-0.3km along an east-west transect at y=100km.
 0.537	[*A*]15[*R*]compares FTLE ridge positions showing d[*A*]at z= - 0.3 km along an east - west transect[*A*]at y=100km	context(15 compares)	negated: False ,passive: False
 0.640	[*A*]15[*R*]compares[*A*]FTLE ridge positions[*A*]showing FTLE2d2 d at z= - 0.3 km along an east - west transect at y=100km	context()	negated: False ,passive: False
 0.420	[*A*]15[*R*]compares FTLE ridge positions showing[*A*]1 D cross-sections of FTLE3d3 d	context(15 compares)	negated: False ,passive: False
 0.525	[*A*]15[*R*]compares[*A*]FTLE ridge positions[*A*]showing 1 D cross-sections of FTLE3d3 d	context()	negated: False ,passive: False
-[LINE#192]The plots clearly show that both FTLE approximations capture the ridge locations nearly perfectly.
+[LINE#205] The plots clearly show that both FTLE approximations capture the ridge locations nearly perfectly.
 0.912	[*A*]both FTLE approximations[*R*]capture nearly perfectly[*A*]the ridge locations	context(The plots clearly show)	negated: False ,passive: False
 0.835	[*A*]The plots[*R*]clearly show[*A*]that both FTLE approximations capture the ridge locations nearly perfectly	context()	negated: False ,passive: False
-[LINE#193]FTLE3d2d also accurately reproduces the steep FTLE drop within the eddies.
+[LINE#206] FTLE3d2d also accurately reproduces the steep FTLE drop within the eddies.
 0.896	[*A*]FTLE3d2[*R*]accurately reproduces[*A*]the steep FTLE drop within the eddies	context()	negated: False ,passive: False
-[LINE#194]S in steady ABC flowsThe role of Sv and Sw in determining the accuracy of the two FTLE approximations given in Section 2 is first tested on the ABC flow.
+[LINE#207] S in steady ABC flowsThe role of Sv and Sw in determining the accuracy of the two FTLE approximations given in Section 2 is first tested on the ABC flow.
 0.970	[*A*]S in steady ABC flowsThe role of Sw in determining the accuracy of the two FTLE approximations[*R*]is tested[*A*]on the ABC flow[*A*]first	context()	negated: False ,passive: True
 0.970	[*A*]S in steady ABC flowsThe role of Sv in determining the accuracy of the two FTLE approximations[*R*]is tested[*A*]on the ABC flow[*A*]first	context()	negated: False ,passive: True
 0.939	[*A*]the two FTLE approximations[*R*]given[*A*]in Section 2	context()	negated: False ,passive: True
-[LINE#195]The range of values for the parameters was chosen to sample a reasonably large section of the parameter space, within the constraints of permitting stagnation points within the flow.
+[LINE#208] The range of values for the parameters was chosen to sample a reasonably large section of the parameter space, within the constraints of permitting stagnation points within the flow.
 0.927	[*A*]The range of values for the parameters[*R*]to sample[*A*]a reasonably large section of the parameter space	context()	negated: False ,passive: False
 0.960	[*A*]The range of values for the parameters[*R*]was chosen[*A*]to sample a reasonably large section of the parameter space	context()	negated: False ,passive: True
-[LINE#196]B and C are always set to be equal.
+[LINE#209] B and C are always set to be equal.
 0.565	[*A*]C[*R*]to be[*A*]equal	context()	negated: False ,passive: True
 0.641	[*A*]C[*R*]are set[*A*]to be equal[*A*]always	context()	negated: False ,passive: True
 0.565	[*A*]B[*R*]to be[*A*]equal	context()	negated: False ,passive: True
 0.641	[*A*]B[*R*]are set[*A*]to be equal[*A*]always	context()	negated: False ,passive: True
-[LINE#197]This condition implies that there is no scaling difference between the two horizontal velocities.
+[LINE#210] This condition implies that there is no scaling difference between the two horizontal velocities.
 0.703	[*A*]This condition[*R*]implies[*A*]that there is no scaling difference between the two horizontal velocities	context()	negated: False ,passive: False
-[LINE#198]As discussed in Section 3.1, the two ABC parameters independently control the two diagnostics, with Sv=A and Sw depending only on B, with values ranging from 0 to |B|2.
+[LINE#211] As discussed in Section 3.1, the two ABC parameters independently control the two diagnostics, with Sv=A and Sw depending only on B, with values ranging from 0 to |B|2.
 0.855	[*A*]Sw[*R*]depending[*A*]only[*A*]on B	context()	negated: False ,passive: False
 0.911	[*A*]values[*R*]ranging[*A*]from 0[*A*]to | B | 2	context()	negated: False ,passive: True
 0.855	[*A*]Sv=A[*R*]depending[*A*]only[*A*]on B	context()	negated: False ,passive: False
 0.939	[*A*]the two ABC parameters[*R*]independently control[*A*]the two diagnostics	context()	negated: False ,passive: False
-[LINE#199]We proceed by systematically varying one of the parameters while keeping the other fixed, resulting in two series of experiments.
+[LINE#212] We proceed by systematically varying one of the parameters while keeping the other fixed, resulting in two series of experiments.
 0.279	[*A*]the other[*R*]fixed	context()	negated: False ,passive: False
 0.407	[*A*]We[*R*]proceed[*A*]resulting in two series of experiments	context()	negated: False ,passive: False
-[LINE#200]As noted in Section 3.1, the condition guaranteeing stagnation points in the flow also implies that max(Sw)Sv.
+[LINE#213] As noted in Section 3.1, the condition guaranteeing stagnation points in the flow also implies that max(Sw)Sv.
 0.878	[*A*]the condition[*R*]guaranteeing[*A*]stagnation points[*A*]in the flow	context(the condition guaranteeing stagnation points in the flow implies)	negated: False ,passive: False
 0.826	[*A*]the condition guaranteeing stagnation points in the flow[*R*]implies[*A*]that max(Sw)Sv	context()	negated: False ,passive: False
-[LINE#201]This is the reverse of the situation studied in the quadrupole flow (Section 5)..
+[LINE#214] This is the reverse of the situation studied in the quadrupole flow (Section 5)..
 0.926	[*A*]the reverse of the situation[*R*]studied[*A*]in the quadrupole flow	context()	negated: False ,passive: True
 0.567	[*A*]This[*R*]is[*A*]the reverse of the situation studied in the quadrupole flow (Section 5	context()	negated: False ,passive: True
-[LINE#202] Fixed max(Sw) with increasing SvWe first consider a series of cases with Sv=A=[0.1,0.2,,1.1], keeping B=C fixed at a value of 0.8 for max(Sw)=1.13.Two examples of the three FTLE fields and their differences (1=|FTLE3d3d-FTLE2d2d| and 2=|FTLE3d3d-FTLE3d2d|) are shown in Figs.
+[LINE#215+216]  Fixed max(Sw) with increasing SvWe first consider a series of cases with Sv=A=[0.1,0.2,,1.1], keeping B=C fixed at a value of 0.8 for max(Sw)=1.13.Two examples of the three FTLE fields and their differences (1=|FTLE3d3d-FTLE2d2d| and 2=|FTLE3d3d-FTLE3d2d|) are shown in Figs.
 0.634	[*A*]B=C[*R*]fixed	context()	negated: False ,passive: False
 0.861	[*A*]|FTLE3d3d-FTLE3d2d[*R*]are shown[*A*]in Figs	context(Fixed max ( Sw ) with increasing SvWe consider)	negated: False ,passive: True
 0.981	[*A*]Fixed max(Sw) with increasing SvWe[*R*]consider[*A*]a series of cases with Sv=A=[0.1,0.2,,1.1[*A*]first	context()	negated: False ,passive: False
-[LINE#203]3 and 4 for Sv=0.1 and Sv=1.1, respectively.
-[LINE#204] show cross-sections of the same five fields at z=2 for an intermediate Sv value (Sv=0.5).When.
-[LINE#205]Sv is small, both FTLE approximations (FTLE3d2d and FTLE2d2d) adequately capture much of the larger-scale LCS structure (Fig. 3).
+[LINE#217] 3 and 4 for Sv=0.1 and Sv=1.1, respectively.
+[LINE#218]  show cross-sections of the same five fields at z=2 for an intermediate Sv value (Sv=0.5).When.
+[LINE#219] Sv is small, both FTLE approximations (FTLE3d2d and FTLE2d2d) adequately capture much of the larger-scale LCS structure (Fig. 3).
 0.680	[*A*]Sv[*R*]is[*A*]small	context(both FTLE approximations adequately capture)	negated: False ,passive: True
 0.680	[*A*]Sv[*R*]is[*A*]small	context(both FTLE approximations adequately capture)	negated: False ,passive: True
 0.916	[*A*]both FTLE approximations[*R*]adequately capture[*A*]much of the larger - scale LCS structure	context()	negated: False ,passive: False
-[LINE#206] As Sv increases, however, both approximate FTLEs miss important smaller scale structure (Fig. 5), and for large Sv (Fig. 4), the differences are particularly striking, as both approximate FTLEs miss important vertical structure when compared with the benchmark (Fig.5 suggests that accuracy of the two FTLE approximations degrades steadily as Sv increases.
+[LINE#220+221+222+223]  As Sv increases, however, both approximate FTLEs miss important smaller scale structure (Fig. 5), and for large Sv (Fig. 4), the differences are particularly striking, as both approximate FTLEs miss important vertical structure when compared with the benchmark (Fig.5 suggests that accuracy of the two FTLE approximations degrades steadily as Sv increases.
 0.947	[*A*]accuracy of the two FTLE approximations[*R*]degrades steadily[*A*]as Sv increases	context(Fig.5 suggests)	negated: False ,passive: True
 0.801	[*A*]Fig.5[*R*]suggests[*A*]that accuracy of the two FTLE approximations degrades steadily	context()	negated: False ,passive: False
 0.634	[*A*]Sv[*R*]increases	context()	negated: False ,passive: False
 0.885	[*A*]both approximate FTLEs[*R*]miss[*A*]important vertical structure[*A*]when compared with the benchmark (Fig.5 suggests that accuracy of the two FTLE approximations degrades steadily	context(the differences are striking)	negated: False ,passive: False
 0.589	[*A*]the differences[*R*]are striking	context()	negated: False ,passive: False
 0.932	[*A*]both approximate FTLEs[*R*]miss[*A*]important smaller scale structure	context()	negated: False ,passive: False
-[LINE#207]Plots of RMS FTLE differences (computed over the entire domain) as a function of Sv (Fig. 5(f)) confirm this steady degradation in both approximations over the range of Sv considered here.
+[LINE#224] Plots of RMS FTLE differences (computed over the entire domain) as a function of Sv (Fig. 5(f)) confirm this steady degradation in both approximations over the range of Sv considered here.
 0.978	[*A*]Plots of RMS FTLE differences (computed over the entire domain) as a function of Sv[*R*]confirm[*A*]this steady degradation in both approximations over the range of Sv	context()	negated: False ,passive: False
 0.880	[*A*]Plots of RMS FTLE differences[*R*]computed[*A*]over the entire domain	context()	negated: False ,passive: True
-[LINE#208]Curiously, both RMS difference curves exhibit inflection points near Sv=0.8.
+[LINE#225] Curiously, both RMS difference curves exhibit inflection points near Sv=0.8.
 0.949	[*A*]both RMS difference curves[*R*]exhibit[*A*]inflection points near Sv=0.8	context()	negated: False ,passive: False
-[LINE#209]Although A=B=C when Sv=0.8, a simple explanation for this feature in the difference growth rate eludes us.
+[LINE#226] Although A=B=C when Sv=0.8, a simple explanation for this feature in the difference growth rate eludes us.
 0.919	[*A*]Sv=0.8[*R*]eludes[*A*]us[*A*]A=B=C	context()	negated: False ,passive: False
-[LINE#210]5(f) shows that FTLE3d2d is a better approximation than FTLE2d2d for all Sv values considered.
+[LINE#227] 5(f) shows that FTLE3d2d is a better approximation than FTLE2d2d for all Sv values considered.
 0.963	[*A*]FTLE3d2d[*R*]is[*A*]a better approximation than FTLE2d2d for all Sv values	context(5 ( f shows)	negated: False ,passive: True
 0.676	[*A*]5(f[*R*]shows[*A*]that FTLE3d2d is a better approximation	context()	negated: False ,passive: False
 0.803	[*A*]all Sv values[*R*]considered	context()	negated: False ,passive: False
 0.817	[*A*]FTLE2d2[*R*]d	context()	negated: False ,passive: False
-[LINE#211]Note also that as they degrade, the spatial patterns in the two FTLE approximations remain quite similar to each other (Figs.
+[LINE#228] Note also that as they degrade, the spatial patterns in the two FTLE approximations remain quite similar to each other (Figs.
 0.320	[*A*]they[*R*]degrade	context()	negated: False ,passive: False
-[LINE#212]and 5(b)-(c)).RMS FTLE differences (Fig. 5(f)) are convenient metrics for demonstrating the relationship between increasing Sv and decreasing accuracy in FTLE approximations.
+[LINE#229] and 5(b)-(c)).RMS FTLE differences (Fig. 5(f)) are convenient metrics for demonstrating the relationship between increasing Sv and decreasing accuracy in FTLE approximations.
 0.982	[*A*]5(b)-(c)).RMS FTLE differences (Fig. 5(f[*R*]are[*A*]convenient metrics for demonstrating the relationship between increasing Sv and decreasing accuracy in FTLE approximations	context()	negated: False ,passive: True
-[LINE#213] However, because these scalar metrics represent average differences computed over the entire 3D domain, they cannot easily be used to distinguish cases with differences due mostly to errors in FTLE magnitude (as in Fig. 3) from cases with differences due to significant errors in FTLE ridge positions (as in Fig.4).The accuracy of approximate FTLE ridge positions can be explored by examining one-dimensional (1D) cross-sections of FTLE2d2d,FTLE3d2d, and FTLE3d3d.
+[LINE#230+231]  However, because these scalar metrics represent average differences computed over the entire 3D domain, they cannot easily be used to distinguish cases with differences due mostly to errors in FTLE magnitude (as in Fig. 3) from cases with differences due to significant errors in FTLE ridge positions (as in Fig.4).The accuracy of approximate FTLE ridge positions can be explored by examining one-dimensional (1D) cross-sections of FTLE2d2d,FTLE3d2d, and FTLE3d3d.
 0.575	[*A*]they[*R*]to distinguish[*A*]cases	context()	negated: False ,passive: False
 0.903	[*A*]average differences[*R*]computed[*A*]over the entire 3D domain	context()	negated: False ,passive: True
 0.911	[*A*]these scalar metrics[*R*]represent[*A*]average differences computed over the entire 3D domain	context()	negated: False ,passive: False
-[LINE#214] 6 provides an example along the x-direction at z=2,y=.
+[LINE#232]  6 provides an example along the x-direction at z=2,y=.
 0.381	[*A*]6[*R*]provides[*A*]an example along the x-direction	context()	negated: False ,passive: False
-[LINE#215]These plots demonstrate that ridges in both FTLE2d2d and FTLE3d2d align well with those for FTLE3d3d when Sv=0.1 (Fig. 6(a)).
+[LINE#233] These plots demonstrate that ridges in both FTLE2d2d and FTLE3d2d align well with those for FTLE3d3d when Sv=0.1 (Fig. 6(a)).
 0.918	[*A*]These plots[*R*]demonstrate[*A*]ridges in both FTLE2d2 d	context()	negated: False ,passive: False
 0.771	[*A*]FTLE3d2[*R*]d align well	context()	negated: False ,passive: False
 0.545	[*A*]These plots[*R*]demonstrate[*A*]that	context()	negated: False ,passive: False
-[LINE#216], FTLE2d2d and FTLE3d2d ridge positions are shifted significantly along the x-axis.
+[LINE#234] , FTLE2d2d and FTLE3d2d ridge positions are shifted significantly along the x-axis.
 0.939	[*A*]FTLE3d2 d ridge positions[*R*]are shifted significantly[*A*]along the x - axis	context()	negated: False ,passive: True
 0.938	[*A*]FTLE3d2[*R*]d[*A*]ridge positions	context()	negated: False ,passive: False
 0.878	[*A*]ridge positions[*R*]are shifted significantly[*A*]along the x - axis	context(FTLE2d2 d d)	negated: False ,passive: True
 0.949	[*A*]FTLE2d2[*R*]d d[*A*]ridge positions are shifted significantly along the x - axis	context()	negated: False ,passive: False
-[LINE#217]Additionally, when Sv=1.1, peak FTLE values tend to be underestimated and FTLE3d2d overestimates FTLE values near local minima.
+[LINE#235] Additionally, when Sv=1.1, peak FTLE values tend to be underestimated and FTLE3d2d overestimates FTLE values near local minima.
 0.938	[*A*]FTLE3d2 d[*R*]overestimates[*A*]FTLE values near local minima	context()	negated: False ,passive: False
 0.938	[*A*]FTLE3d2 d[*R*]overestimates[*A*]FTLE values[*A*]near local minima	context()	negated: False ,passive: False
 0.776	[*A*]peak FTLE values[*R*]to be underestimated	context()	negated: False ,passive: False
 0.867	[*A*]peak FTLE values[*R*]tend[*A*]to be underestimated	context()	negated: False ,passive: True
-[LINE#218]These profile plots indicate that neither FTLE2d2d nor FTLE3d2d is a good approximation for FTLE3d3d when the magnitude of Sv approaches that ofmax(Sw). .
+[LINE#236] These profile plots indicate that neither FTLE2d2d nor FTLE3d2d is a good approximation for FTLE3d3d when the magnitude of Sv approaches that ofmax(Sw). .
 0.782	[*A*]FTLE2d2[*R*]d	context(These profile plots indicate)	negated: False ,passive: False
 0.759	[*A*]These profile plots[*R*]indicate[*A*]that neither FTLE2d2d nor FTLE3d2d is a good approximation for FTLE3d3d	context()	negated: False ,passive: False
 0.927	[*A*]the magnitude of Sv[*R*]approaches[*A*]ofmax	context()	negated: False ,passive: True
-[LINE#219]Fixed Sv with increasing max(Sw)We now consider the effects of increasing max(Sw) on approximate FTLEs computed for the ABC flow.
+[LINE#237] Fixed Sv with increasing max(Sw)We now consider the effects of increasing max(Sw) on approximate FTLEs computed for the ABC flow.
 0.973	[*A*]the effects of increasing max(Sw) on approximate FTLEs[*R*]computed[*A*]for the ABC flow	context()	negated: False ,passive: True
 0.706	[*A*]We[*R*]consider[*A*]the effects of increasing max(Sw) on approximate FTLEs[*A*]now	context()	negated: False ,passive: False
-[LINE#220]Here, Sv is fixed by specifying A=0.1 and Sw is increased by choosing B=C=[0.5,0.6,,1.5].Examples of the three FTLE fields and their differences 1 and 2 are shown in Figs.
+[LINE#238] Here, Sv is fixed by specifying A=0.1 and Sw is increased by choosing B=C=[0.5,0.6,,1.5].Examples of the three FTLE fields and their differences 1 and 2 are shown in Figs.
 0.950	[*A*]Here , Sv is fixed by specifying Sw[*R*]is increased[*A*]by choosing B=C= [ 0.5,0.6 ,, 1.5 ] . Examples of their differences	context(2 are shown)	negated: False ,passive: True
 0.713	[*A*]Sv[*R*]is fixed[*A*]Here	context(2 are shown)	negated: False ,passive: True
 0.927	[*A*]Sv[*R*]is fixed[*A*]by specifying Sw[*A*]Here	context()	negated: False ,passive: True
@@ -706,257 +706,257 @@
 0.906	[*A*]Sv[*R*]is increased[*A*]by choosing B=C= [ 0.5,0.6 ,, 1.5 ] . Examples of the three FTLE fields	context()	negated: False ,passive: True
 0.857	[*A*]Sv[*R*]by specifying[*A*]A=0.1	context()	negated: False ,passive: False
 0.756	[*A*]Sv[*R*]is fixed[*A*]Here	context()	negated: False ,passive: True
-[LINE#221] show cross-sections of the same five fields at z=2 for an intermediate value (B.
-[LINE#222] Plots of RMS FTLE differences (computed over the entire domain) as a function of max(Sw) are shown in Fig.show that, even for large max(Sw), both approximations capture the LCS structure adequately.
-[LINE#223]RMS differences increase as max(Sw) increases (Fig. 9(f)), although the differences remain relatively small over the range of max(Sw) values considered here.
+[LINE#239]  show cross-sections of the same five fields at z=2 for an intermediate value (B.
+[LINE#240+241]  Plots of RMS FTLE differences (computed over the entire domain) as a function of max(Sw) are shown in Fig.show that, even for large max(Sw), both approximations capture the LCS structure adequately.
+[LINE#242] RMS differences increase as max(Sw) increases (Fig. 9(f)), although the differences remain relatively small over the range of max(Sw) values considered here.
 0.749	[*A*]values[*R*]considered[*A*]here	context()	negated: False ,passive: True
 0.903	[*A*]the differences[*R*]remain[*A*]relatively small over the range of max	context()	negated: False ,passive: True
 0.732	[*A*]RMS differences[*R*]increase	context()	negated: False ,passive: False
-[LINE#224] At all max(Sw) values considered, the RMS differences show that FTLE3d2d is a better approximation than FTLE2d2d.
+[LINE#243+244]  At all max(Sw) values considered, the RMS differences show that FTLE3d2d is a better approximation than FTLE2d2d.
 0.713	[*A*]values[*R*]considered	context()	negated: False ,passive: False
-[LINE#225] 10 displays 1D cross-sections of FTLE3d3d, FTLE3d2d, and FTLE2d2d along the x-direction at z=2 and y=.
-[LINE#226]These curves show that both FTLE approximations accurately describe peak FTLE values and ridge positions, with only small position differences along the x-axis.
+[LINE#245]  10 displays 1D cross-sections of FTLE3d3d, FTLE3d2d, and FTLE2d2d along the x-direction at z=2 and y=.
+[LINE#246] These curves show that both FTLE approximations accurately describe peak FTLE values and ridge positions, with only small position differences along the x-axis.
 0.931	[*A*]both FTLE approximations[*R*]accurately describe[*A*]peak FTLE ridge positions	context(These curves show)	negated: False ,passive: False
 0.875	[*A*]These curves[*R*]show[*A*]that both FTLE approximations accurately describe peak FTLE ridge positions	context()	negated: False ,passive: False
 0.931	[*A*]both FTLE approximations[*R*]accurately describe[*A*]peak FTLE values	context(These curves show)	negated: False ,passive: False
 0.875	[*A*]These curves[*R*]show[*A*]that both FTLE approximations accurately describe peak FTLE values , with only small position differences along the x - axis	context()	negated: False ,passive: False
-[LINE#227] Review of 3D FTLE theoryConsider the flow (1)dxdt=v(x,t),xR3,t[t0,tf] where v is a smooth velocity field and  is an open subset of R3.
+[LINE#247+248]  Review of 3D FTLE theoryConsider the flow (1)dxdt=v(x,t),xR3,t[t0,tf] where v is a smooth velocity field and  is an open subset of R3.
 0.495	[*A*]v[*R*]is[*A*]an open subset of R3	context()	negated: False ,passive: True
 0.852	[*A*]v[*R*]is[*A*]a smooth velocity field	context()	negated: False ,passive: True
-[LINE#228]Let x(t;t0,x0) denote the trajectory solution of (1) at time t with x(t0;t0,x0)=x0.
-[LINE#229]This solution is given by (2)x=x0+t0tv(x,)d.
+[LINE#249] Let x(t;t0,x0) denote the trajectory solution of (1) at time t with x(t0;t0,x0)=x0.
+[LINE#250] This solution is given by (2)x=x0+t0tv(x,)d.
 0.918	[*A*]This solution[*R*]is given[*A*]by (2)x=x0+t0tv	context()	negated: False ,passive: True
-[LINE#230] The right Cauchy-Green tensor is defined as (3)G=FTF, where the superscript T signifies the matrix transpose and F is the strain tensor (4)F=xx0.
+[LINE#251]  The right Cauchy-Green tensor is defined as (3)G=FTF, where the superscript T signifies the matrix transpose and F is the strain tensor (4)F=xx0.
 0.887	[*A*]F[*R*]is[*A*]the strain tensor	context()	negated: False ,passive: True
 0.911	[*A*]the superscript T[*R*]signifies[*A*]the matrix	context()	negated: False ,passive: False
 0.911	[*A*]the superscript T[*R*]signifies[*A*]the matrix transpose	context()	negated: False ,passive: False
 0.957	[*A*]The right Cauchy - Green tensor[*R*]is defined[*A*]as ( 3 ) G=FTF	context()	negated: False ,passive: True
-[LINE#231] The FTLE is then given by (5)(tf;t0,x0)=log(max(G))tf-t0, where max(G) is the maximum eigenvalue of the matrix.
+[LINE#252]  The FTLE is then given by (5)(tf;t0,x0)=log(max(G))tf-t0, where max(G) is the maximum eigenvalue of the matrix.
 0.830	[*A*]max[*R*]is[*A*]the maximum eigenvalue of the matrix	context()	negated: False ,passive: True
 0.838	[*A*]The FTLE[*R*]is given[*A*]by (5[*A*]then	context()	negated: False ,passive: True
-[LINE#232]LCS are typically defined as ridges of local maxima in the FTLE field computed from trajectories in forward time (tf>t0).
+[LINE#253] LCS are typically defined as ridges of local maxima in the FTLE field computed from trajectories in forward time (tf>t0).
 0.958	[*A*]ridges of local maxima in the FTLE field[*R*]computed[*A*]from trajectories in forward time	context()	negated: False ,passive: True
 0.840	[*A*]LCS[*R*]are typically defined[*A*]as ridges of local maxima in the FTLE field	context()	negated: False ,passive: True
-[LINE#233] Similarly, attracting LCS are defined as ridges in the backward-time (tf<t0).
+[LINE#254]  Similarly, attracting LCS are defined as ridges in the backward-time (tf<t0).
 0.903	[*A*]attracting LCS[*R*]are defined[*A*]as ridges in the backward-time	context()	negated: False ,passive: True
-[LINE#234] Where the peak values of these ridges are high, they have been shown to be good surrogates for the material manifolds that more precisely delineate LCS [6].Inthe full 3D formulation, x=(x,y,z),v=(u,v,w)R3, and (6)F0=xx0=[xx0xy0xz0yx0yy0yz0zx0zy0zz0].
+[LINE#255+256]  Where the peak values of these ridges are high, they have been shown to be good surrogates for the material manifolds that more precisely delineate LCS [6].Inthe full 3D formulation, x=(x,y,z),v=(u,v,w)R3, and (6)F0=xx0=[xx0xy0xz0yx0yy0yz0zx0zy0zz0].
 0.824	[*A*]the peak values of these ridges[*R*]are w[*A*]high	context()	negated: False ,passive: True
 0.575	[*A*]they[*R*]to be[*A*]good surrogates for the material	context()	negated: False ,passive: True
 0.320	[*A*]they[*R*]have been shown	context()	negated: False ,passive: False
 0.824	[*A*]the peak values of these ridges[*R*]are v[*A*]high	context()	negated: False ,passive: True
-[LINE#235]Our first FTLE approximation treats 2D horizontal cross-sections of  individually, so that x=(x,y) and v=(u,v).
+[LINE#257] Our first FTLE approximation treats 2D horizontal cross-sections of  individually, so that x=(x,y) and v=(u,v).
 0.777	[*A*]Our first FTLE approximation[*R*]treats[*A*]2 D horizontal cross-sections of v=[*A*]u , v	context()	negated: False ,passive: False
 0.672	[*A*]Our first FTLE approximation[*R*]treats[*A*]2 D horizontal cross-sections of that x= ( x , y	context()	negated: False ,passive: False
 0.999	[*A*]Our first FTLE approximation[*R*]treats[*A*]2 d horizontal cross - sections	context()	negated: False ,passive: False
 0.744	[*A*]Our first FTLE approximation[*R*]treats[*A*]2 D horizontal cross-sections of individually	context()	negated: False ,passive: False
-[LINE#236]In this case, tensor G is second order, with (7)F1=xx0=[xx0xy0yx0yy0].
+[LINE#258] In this case, tensor G is second order, with (7)F1=xx0=[xx0xy0yx0yy0].
 0.968	[*A*]tensor G[*R*]is[*A*]second order[*A*]In this case	context()	negated: False ,passive: True
-[LINE#237]While this approximation follows standard practice, it inherently neglects the fact that ocean flows are essentially 3D. A more appropriate reduction of the full matrix (6) for 2D cross-sections would be (8)F1=[xx0xy00yx0yy00001].
+[LINE#259] While this approximation follows standard practice, it inherently neglects the fact that ocean flows are essentially 3D. A more appropriate reduction of the full matrix (6) for 2D cross-sections would be (8)F1=[xx0xy00yx0yy00001].
 0.906	[*A*]A more appropriate reduction of the full matrix (6) for 2D cross-sections[*R*]would be[*A*]8	context()	negated: False ,passive: True
 0.767	[*A*]ocean flows[*R*]are[*A*]essentially 3D	context()	negated: False ,passive: True
 0.367	[*A*]it[*R*]inherently neglects[*A*]the fact that ocean flows are essentially 3D. A more appropriate reduction of the full matrix (6) for 2D cross-sections would be (8)F1=	context()	negated: False ,passive: False
 0.903	[*A*]this approximation[*R*]follows[*A*]standard practice	context()	negated: False ,passive: False
-[LINE#238]The singular values of F1 (i.e. the eigenvalues of G1) are identical to two of the singular values of F1, whose additional singular value is 1.
+[LINE#260] The singular values of F1 (i.e. the eigenvalues of G1) are identical to two of the singular values of F1, whose additional singular value is 1.
 0.700	[*A*]F1[*R*]is[*A*]1	context()	negated: False ,passive: True
 0.945	[*A*]The singular values of F1[*R*]are[*A*]identical to two of the singular values of F1	context()	negated: False ,passive: True
-[LINE#239]For incompressible flows, det(G0)=det(F0)=1 so that volumes are conserved under the flow map.
+[LINE#261] For incompressible flows, det(G0)=det(F0)=1 so that volumes are conserved under the flow map.
 0.894	[*A*]volumes[*R*]are conserved[*A*]under the flow map	context()	negated: False ,passive: True
-[LINE#240]Since G0 is symmetric and positive definite (with three positive eigenvalues), max(G0)1.
+[LINE#262] Since G0 is symmetric and positive definite (with three positive eigenvalues), max(G0)1.
 0.734	[*A*]G0[*R*]is[*A*]positive definite	context()	negated: False ,passive: True
 0.734	[*A*]G0[*R*]is[*A*]symmetric	context()	negated: False ,passive: True
-[LINE#241]In the following, we will restrict our discussion to such flows.
+[LINE#263] In the following, we will restrict our discussion to such flows.
 0.444	[*A*]we[*R*]will restrict[*A*]our discussion to such flows[*A*]In the following	context()	negated: False ,passive: False
-[LINE#242]It is likely then (although not guaranteed) that (7) and (8) will yield equivalent results.
+[LINE#264] It is likely then (although not guaranteed) that (7) and (8) will yield equivalent results.
 0.229	[*A*]It[*R*]is[*A*]likely[*A*]then[*A*]although not guaranteed	context()	negated: False ,passive: True
-[LINE#243]They will differ only where max(G1)<1, leading to a negative FTLE.
+[LINE#265] They will differ only where max(G1)<1, leading to a negative FTLE.
 0.913	[*A*]only where max[*R*]leading[*A*]to a negative FTLE	context()	negated: False ,passive: False
 0.320	[*A*]They[*R*]will differ	context()	negated: False ,passive: False
-[LINE#244]We did not encounter this problem in any of the cases reported here.
+[LINE#266] We did not encounter this problem in any of the cases reported here.
 0.767	[*A*]the cases[*R*]reported[*A*]here	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]did not encounter[*A*]this problem[*A*]in any of the cases	context()	negated: True ,passive: False
-[LINE#245] Our second FTLE approximation also ignores the vertical velocity w, which can be problematic in many geophysical fluid dynamics models, but considers vertical gradients, i.e. xR3.
+[LINE#267]  Our second FTLE approximation also ignores the vertical velocity w, which can be problematic in many geophysical fluid dynamics models, but considers vertical gradients, i.e. xR3.
 0.725	[*A*]Our second FTLE[*R*]considers[*A*]vertical gradients	context()	negated: False ,passive: False
 0.905	[*A*]the vertical velocity w[*R*]can be[*A*]problematic[*A*]in many geophysical fluid dynamics models	context()	negated: False ,passive: True
 0.797	[*A*]Our second FTLE approximation[*R*]ignores[*A*]the vertical velocity w , which can be problematic in many geophysical fluid dynamics models	context()	negated: False ,passive: False
-[LINE#246]Consequently, (9)F2=xx0=[xx0xy0xz0yx0yy0yz0001].
-[LINE#247]Unlike approximation F1,F2 accounts for the effects of vertical shear in the horizontal velocity components.
+[LINE#268] Consequently, (9)F2=xx0=[xx0xy0xz0yx0yy0yz0001].
+[LINE#269] Unlike approximation F1,F2 accounts for the effects of vertical shear in the horizontal velocity components.
 0.904	[*A*]F2[*R*]accounts[*A*]for the effects of vertical shear in the horizontal velocity components	context()	negated: False ,passive: False
-[LINE#248] To summarize, we will compare three different FTLE formulations: 1.3D form of tensor G with trajectories from 3D velocities(10)FTLE3d3d= log(max(G0))tf-t0with G0=F0TF02.2D form of tensor G with trajectories from 2D velocities(11)FTLE2d2d.
+[LINE#270+271]  To summarize, we will compare three different FTLE formulations: 1.3D form of tensor G with trajectories from 3D velocities(10)FTLE3d3d= log(max(G0))tf-t0with G0=F0TF02.2D form of tensor G with trajectories from 2D velocities(11)FTLE2d2d.
 0.498	[*A*]we[*R*]will compare[*A*]three different FTLE formulations	context()	negated: False ,passive: False
-[LINE#249] F1TF13.3D form of tensor G with trajectories from 2D velocities(12)FTLE3d2d.
-[LINE#250] F2TF2.It follows from these definitions (see the Appendix)that (13)FTLE3d2dFTLE2d2dtf,to,x0.
+[LINE#272]  F1TF13.3D form of tensor G with trajectories from 2D velocities(12)FTLE3d2d.
+[LINE#273+274]  F2TF2.It follows from these definitions (see the Appendix)that (13)FTLE3d2dFTLE2d2dtf,to,x0.
 0.920	[*A*]F2TF2.It[*R*]follows[*A*]from these definitions	context()	negated: False ,passive: True
-[LINE#251]However, there is no similar general relationship between FTLE3d3d and either of the two approximations.
-[LINE#252] It follows directly from the above that FTLE2d2d=FTLE3d2d.
+[LINE#275] However, there is no similar general relationship between FTLE3d3d and either of the two approximations.
+[LINE#276]  It follows directly from the above that FTLE2d2d=FTLE3d2d.
 0.266	[*A*]It[*R*]follows directly[*A*]from the above that FTLE2d2d=FTLE3d2d	context()	negated: False ,passive: True
-[LINE#253]Due to (4), this condition is satisfied if u/z=v/z=0x,t.
+[LINE#277] Due to (4), this condition is satisfied if u/z=v/z=0x,t.
 0.925	[*A*]this condition[*R*]is[*A*]satisfied[*A*]if u/z=v/z=0x,t.	context()	negated: False ,passive: True
-[LINE#254]Define (14)Sv=(uz)2+(vz)2 as the measure of the vertical shear in the horizontal velocities.
-[LINE#255]When Sv=0x,t,FTLE2d2d=FTLE3d2d.
-[LINE#256]We propose to determine threshold Sv values for which FTLE2d2d and FTLE3d2d differ significantly.
+[LINE#278] Define (14)Sv=(uz)2+(vz)2 as the measure of the vertical shear in the horizontal velocities.
+[LINE#279] When Sv=0x,t,FTLE2d2d=FTLE3d2d.
+[LINE#280] We propose to determine threshold Sv values for which FTLE2d2d and FTLE3d2d differ significantly.
 0.443	[*A*]We[*R*]propose to determine[*A*]threshold Sv values FTLE3d2 d differ significantly[*A*]FTLE3d2	context(We propose)	negated: False ,passive: False
 0.443	[*A*]We[*R*]propose[*A*]to determine threshold Sv values FTLE3d2	context()	negated: False ,passive: False
 0.718	[*A*]threshold Sv values[*R*]differ significantly	context()	negated: False ,passive: False
 0.443	[*A*]We[*R*]propose to determine[*A*]threshold Sv values	context(We propose)	negated: False ,passive: False
 0.443	[*A*]We[*R*]propose[*A*]to determine threshold Sv values	context()	negated: False ,passive: False
 0.971	[*A*]threshold Sv values[*R*]d[*A*]FTLE2d2	context()	negated: False ,passive: True
-[LINE#257] Similarly, (10) and (12) imply that FTLE3d3d=FTLE3d2dif z/x0=z/y0=0 and z/z0=1.
-[LINE#258]Due to (4), this condition is satisfied if w/x=w/y=w/z=0x,t.
+[LINE#281+282]  Similarly, (10) and (12) imply that FTLE3d3d=FTLE3d2dif z/x0=z/y0=0 and z/z0=1.
+[LINE#283] Due to (4), this condition is satisfied if w/x=w/y=w/z=0x,t.
 0.813	[*A*]this condition[*R*]is[*A*]satisfied if	context()	negated: False ,passive: True
-[LINE#259]To identify cases when FTLE3d2d is a poor approximation for FTLE3d3d, the relevant diagnostic is therefore the magnitude of the vertical velocity gradient: (15)Sw=(wx)2+(wy)2+(wz)2.Generally, both Sv and Sw are functions of t and x.
+[LINE#284] To identify cases when FTLE3d2d is a poor approximation for FTLE3d3d, the relevant diagnostic is therefore the magnitude of the vertical velocity gradient: (15)Sw=(wx)2+(wy)2+(wz)2.Generally, both Sv and Sw are functions of t and x.
 0.889	[*A*]the relevant diagnostic[*R*]is therefore 2.Generally[*A*]the magnitude of the vertical velocity gradient	context(both Sw are)	negated: False ,passive: True
 0.839	[*A*]both Sw[*R*]are[*A*]functions of t	context()	negated: False ,passive: True
 0.889	[*A*]the relevant diagnostic[*R*]is therefore 2.Generally[*A*]the magnitude of the vertical velocity gradient	context(both Sv are)	negated: False ,passive: True
 0.839	[*A*]both Sv[*R*]are[*A*]functions of t	context()	negated: False ,passive: True
-[LINE#260]However, below only steady flows are analyzed.
-[LINE#261]Furthermore, whenever there is x-dependence, we will focus on the maximum values achieved.
+[LINE#285] However, below only steady flows are analyzed.
+[LINE#286] Furthermore, whenever there is x-dependence, we will focus on the maximum values achieved.
 0.751	[*A*]the maximum values[*R*]achieved	context()	negated: False ,passive: False
 0.444	[*A*]we[*R*]will focus[*A*]on the maximum values[*A*]whenever there is[*A*]dependence	context()	negated: False ,passive: False
-[LINE#262]and max(Sw) will imply maxima taken over space x.
+[LINE#287] and max(Sw) will imply maxima taken over space x.
 0.898	[*A*]maxima[*R*]taken over[*A*]space	context(max will imply)	negated: False ,passive: False
 0.773	[*A*]max[*R*]will imply[*A*]maxima taken over space	context()	negated: False ,passive: False
-[LINE#263]In Sections 4 and 5, FTLE3d3d, defined in (10) and derived from the full 3D formulation, is the benchmark against which the two approximations FTLE2d2d, defined in (11), and FTLE3d2d, defined in (12), are evaluated.
+[LINE#288] In Sections 4 and 5, FTLE3d3d, defined in (10) and derived from the full 3D formulation, is the benchmark against which the two approximations FTLE2d2d, defined in (11), and FTLE3d2d, defined in (12), are evaluated.
 0.790	[*A*]FTLE3d2d[*R*]defined[*A*]in (12	context()	negated: False ,passive: True
 0.790	[*A*]FTLE2d2d[*R*]defined[*A*]in	context()	negated: False ,passive: True
 0.965	[*A*]FTLE3d3d[*R*]is[*A*]the benchmark against which the two approximations FTLE2d2d, defined in (11), and FTLE3d2d, defined in (12), are evaluated	context()	negated: False ,passive: True
 0.941	[*A*]FTLE3d2d[*R*]are evaluated[*A*]the benchmark	context()	negated: False ,passive: True
-[LINE#264] To quantify the roles of Sv and Sw, the root-mean-square(RMS) differences between FTLE3d3d and each of the approximations are computed.
+[LINE#289+290]  To quantify the roles of Sv and Sw, the root-mean-square(RMS) differences between FTLE3d3d and each of the approximations are computed.
 0.385	[*A*]Sw[*R*][is][*A*]the root	context()	negated: False ,passive: False
 0.385	[*A*]Sv[*R*][is][*A*]the root	context()	negated: False ,passive: False
 0.869	[*A*]the root - mean - square ( RMS ) differences between FTLE3d3[*R*]d	context()	negated: False ,passive: False
 0.769	[*A*]each of the approximations[*R*]are computed	context()	negated: False ,passive: False
-[LINE#265]To simplify the notation, we define (16)1=|FTLE3d3d-FTLE2d2d|(17)2=|FTLE3d3d-FTLE3d2d| and use the notation RMS(i) for the respective RMS values.
+[LINE#291] To simplify the notation, we define (16)1=|FTLE3d3d-FTLE2d2d|(17)2=|FTLE3d3d-FTLE3d2d| and use the notation RMS(i) for the respective RMS values.
 0.921	[*A*]FTLE3d2[*R*]use[*A*]the notation RMS[*A*]for the respective RMS values	context()	negated: False ,passive: False
 0.999	[*A*]we[*R*]define[*A*]1 = 2	context()	negated: False ,passive: False
 0.456	[*A*]we[*R*]use[*A*]the notation RMS[*A*]for the respective RMS values	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]define[*A*]1= 2= | FTLE3d3d	context()	negated: False ,passive: False
-[LINE#266]Admittedly, this criterion is somewhat crude, as it does not focus singularly on the ridges that define the LCS but includes off-ridge data.
+[LINE#292] Admittedly, this criterion is somewhat crude, as it does not focus singularly on the ridges that define the LCS but includes off-ridge data.
 0.452	[*A*]it[*R*]includes[*A*]off - ridge data	context()	negated: False ,passive: True
 0.870	[*A*]this criterion[*R*]is[*A*]somewhat crude[*A*]as it includes off - ridge data	context()	negated: False ,passive: True
 0.905	[*A*]the ridges[*R*]define[*A*]the LCS	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]does not focus singularly[*A*]on the ridges	context()	negated: True ,passive: False
 0.870	[*A*]this criterion[*R*]is[*A*]somewhat crude[*A*]as it does not focus singularly on the ridges	context()	negated: False ,passive: True
-[LINE#267]It does capture differences in ridge sharpness.
+[LINE#293] It does capture differences in ridge sharpness.
 0.452	[*A*]It[*R*]does capture[*A*]differences in ridge sharpness	context()	negated: False ,passive: False
-[LINE#268]Ridge position shifts are considered separately, but an adequate metric to quantify these differences eludes us.
+[LINE#294] Ridge position shifts are considered separately, but an adequate metric to quantify these differences eludes us.
 0.891	[*A*]an adequate metric to quantify these differences[*R*]eludes[*A*]us	context()	negated: False ,passive: False
 0.883	[*A*]Ridge position shifts[*R*]are considered separately[*A*]eludes us	context()	negated: False ,passive: True
-[LINE#269]For the computation of the FTLE, trajectories are determined by integrating the differential equation (1) using DLSODA from the Fortran ODEPACK library [30] with an absolute tolerance of 110-6 and a relative tolerance of 110-6.
+[LINE#295] For the computation of the FTLE, trajectories are determined by integrating the differential equation (1) using DLSODA from the Fortran ODEPACK library [30] with an absolute tolerance of 110-6 and a relative tolerance of 110-6.
 0.877	[*A*]trajectories[*R*]by integrating[*A*]the differential equation	context()	negated: False ,passive: False
 0.948	[*A*]trajectories[*R*]are determined[*A*]by integrating the differential equation[*A*]For the computation of the FTLE	context()	negated: False ,passive: True
 0.877	[*A*]trajectories[*R*]by integrating[*A*]the differential equation[*A*]with an absolute tolerance of 110-6	context()	negated: False ,passive: False
 0.967	[*A*]trajectories[*R*]are determined[*A*]by integrating the differential equation ( 1 ) using DLSODA from the Fortran ODEPACK library [ 30 ] with an absolute tolerance of 110-6[*A*]For the computation of the FTLE	context()	negated: False ,passive: True
-[LINE#270]The derivatives in the Cauchy-Green tensors are then approximated using second-order centered finite-differences.
+[LINE#296] The derivatives in the Cauchy-Green tensors are then approximated using second-order centered finite-differences.
 0.950	[*A*]The derivatives in the Cauchy-Green tensors[*R*]using[*A*]second-order centered finite-differences	context()	negated: False ,passive: False
 0.885	[*A*]The derivatives in the Cauchy-Green tensors[*R*]are approximated[*A*]then	context()	negated: False ,passive: True
-[LINE#271]Eigenvalues are calculated analytically using algebraic expressions.
+[LINE#297] Eigenvalues are calculated analytically using algebraic expressions.
 0.877	[*A*]Eigenvalues[*R*]analytically using[*A*]algebraic expressions	context()	negated: False ,passive: False
 0.713	[*A*]Eigenvalues[*R*]are calculated	context()	negated: False ,passive: False
-[LINE#272]Test models for 3D incompressible flowsWe study the impact of the vertical velocity and the vertical shear of the horizontal velocity components on the FTLE approximations in two analytic 3D flows.
+[LINE#298] Test models for 3D incompressible flowsWe study the impact of the vertical velocity and the vertical shear of the horizontal velocity components on the FTLE approximations in two analytic 3D flows.
 0.648	[*A*]D[*R*]flows	context(Test models for 3 D incompressible flowsWe study)	negated: False ,passive: False
 0.959	[*A*]Test models for 3 D incompressible flowsWe[*R*]study[*A*]the impact of the vertical shear of the horizontal velocity components on the FTLE approximations in two analytic 3	context()	negated: False ,passive: False
 0.938	[*A*]Test models for 3 D incompressible flowsWe[*R*]study[*A*]the impact of the vertical velocity	context()	negated: False ,passive: False
-[LINE#273]The first is the well known ABC flow [31], in which the scales of the vertical velocities and the vertical shear of horizontal velocities are commensurate with the corresponding horizontal scales.
+[LINE#299] The first is the well known ABC flow [31], in which the scales of the vertical velocities and the vertical shear of horizontal velocities are commensurate with the corresponding horizontal scales.
 0.975	[*A*]the scales of the vertical shear of horizontal velocities[*R*]are[*A*]commensurate with the corresponding horizontal scales[*A*]the well known ABC flow	context()	negated: False ,passive: True
 0.967	[*A*]the scales of the vertical velocities[*R*]are[*A*]commensurate with the corresponding horizontal scales[*A*]the well known ABC flow	context()	negated: False ,passive: True
 0.678	[*A*]The first[*R*]is[*A*]the well known ABC flow	context()	negated: False ,passive: True
-[LINE#274]Results of the analysis of this model are presented in Section 4.In many geophysical fluid flows, however, the vertical velocities are small relative to the horizontal velocities, and there may be a disparity between the magnitudes of the horizontal and vertical shears.
+[LINE#300] Results of the analysis of this model are presented in Section 4.In many geophysical fluid flows, however, the vertical velocities are small relative to the horizontal velocities, and there may be a disparity between the magnitudes of the horizontal and vertical shears.
 0.783	[*A*]the vertical velocities[*R*]are[*A*]small	context()	negated: False ,passive: True
 0.743	[*A*]the vertical velocities[*R*]are[*A*]small[*A*]relative	context(Results of the analysis of this model are presented)	negated: False ,passive: True
 0.924	[*A*]Results of the analysis of this model[*R*]are presented[*A*]in Section 4.In	context()	negated: False ,passive: True
 0.784	[*A*]geophysical fluid[*R*]flows	context()	negated: False ,passive: False
-[LINE#275]Since the ABC model cannot adequately represent these flows, we also study a single mode quadrupole model.
+[LINE#301] Since the ABC model cannot adequately represent these flows, we also study a single mode quadrupole model.
 0.411	[*A*]we[*R*]study[*A*]a single mode quadrupole model	context()	negated: False ,passive: False
 0.933	[*A*]the ABC model[*R*]can not adequately represent[*A*]these flows	context()	negated: True ,passive: False
-[LINE#276]Results and analysis for this model are described in Section 5.Even though our analyses are purely kinematic, we stress that both of these models have a dynamical basis.
+[LINE#302] Results and analysis for this model are described in Section 5.Even though our analyses are purely kinematic, we stress that both of these models have a dynamical basis.
 0.900	[*A*]both of these models[*R*]have[*A*]a dynamical basis	context(we stress)	negated: False ,passive: False
 0.831	[*A*]analysis for this model[*R*]are described[*A*]in Section 5.Even[*A*]though our analyses are purely kinematic	context(we stress)	negated: False ,passive: True
 0.900	[*A*]both of these models[*R*]have[*A*]a dynamical basis	context(we stress)	negated: False ,passive: False
 0.786	[*A*]Results[*R*]are described[*A*]in Section 5.Even[*A*]though our analyses are purely kinematic	context(we stress)	negated: False ,passive: True
 0.242	[*A*]we[*R*]stress[*A*]that both of these models have a dynamical basis	context()	negated: False ,passive: False
 0.383	[*A*]our analyses[*R*]are[*A*]purely kinematic	context()	negated: False ,passive: True
-[LINE#277]The ABC flow is an exact periodic solution to the nonlinear Euler equations in a non-rotating frame, while the quadrupole model solves the linear Euler equations on an f-plane in a periodic domain.
+[LINE#303] The ABC flow is an exact periodic solution to the nonlinear Euler equations in a non-rotating frame, while the quadrupole model solves the linear Euler equations on an f-plane in a periodic domain.
 0.925	[*A*]the quadrupole model[*R*]solves[*A*]the linear Euler equations[*A*]on an f-plane[*A*]in a periodic domain	context()	negated: False ,passive: False
 0.973	[*A*]The ABC flow[*R*]is[*A*]an exact periodic solution to the nonlinear Euler equations in a non-rotating frame[*A*]while the quadrupole model solves the linear Euler equations on an f-plane in a periodic domain	context()	negated: False ,passive: True
-[LINE#278]Both model flows can be expressed in the vector potential representation of a general 3D incompressible flow [32] with the 3D velocity v given in terms of two scalar potentials  and  as (18)v=[-k+(k)].Generally, k can be the unit vector normal to any preferred surface.
+[LINE#304] Both model flows can be expressed in the vector potential representation of a general 3D incompressible flow [32] with the 3D velocity v given in terms of two scalar potentials  and  as (18)v=[-k+(k)].Generally, k can be the unit vector normal to any preferred surface.
 0.699	[*A*]Both model flows[*R*]can be expressed	context(k can be)	negated: False ,passive: False
 0.770	[*A*]k[*R*]can be[*A*]the unit vector normal to any preferred surface	context()	negated: False ,passive: True
 0.949	[*A*]the 3 D velocity[*R*]given[*A*]as ( 18 ) v= [ - k+ ( k	context()	negated: False ,passive: True
 0.770	[*A*]k[*R*]can be[*A*]the unit vector normal to any preferred surface	context(Both model flows can be expressed)	negated: False ,passive: True
 0.699	[*A*]Both model flows[*R*]can be expressed	context()	negated: False ,passive: False
-[LINE#279]We take k to be the vertical unit vector, so the velocity components are (19a)u=-y+2zx,(19b)v=x+2zy,(19c)w=-h2, where h2 is the Laplacian with respect to the horizontal coordinates, i.e., (20)h2=x2+y2. and  are solutions to Helmholtz equations with Dirichlet and Neumann boundary conditions, respectively.
+[LINE#305] We take k to be the vertical unit vector, so the velocity components are (19a)u=-y+2zx,(19b)v=x+2zy,(19c)w=-h2, where h2 is the Laplacian with respect to the horizontal coordinates, i.e., (20)h2=x2+y2. and  are solutions to Helmholtz equations with Dirichlet and Neumann boundary conditions, respectively.
 0.874	[*A*]h2[*R*]is[*A*]the Laplacian	context()	negated: False ,passive: True
 0.411	[*A*]We[*R*]to be[*A*]the vertical unit vector	context()	negated: False ,passive: True
-[LINE#280]Each can be expressed in terms of sine and cosine functions for our two model domains, both of which are rectangular and periodic..
+[LINE#306] Each can be expressed in terms of sine and cosine functions for our two model domains, both of which are rectangular and periodic..
 0.389	[*A*]our two model domains[*R*]are[*A*]periodic	context()	negated: False ,passive: True
 0.389	[*A*]our two model domains[*R*]are[*A*]rectangular	context()	negated: False ,passive: True
 0.260	[*A*]Each[*R*]can be expressed	context()	negated: False ,passive: False
-[LINE#281]steady ABC flow can be derived from (19) by defining  and  as (21a)=-[Csin(y)+Bcos(x)],(21b)=A[-xcos(z)+ysin(z)]-, where x,y,zR.
+[LINE#307] steady ABC flow can be derived from (19) by defining  and  as (21a)=-[Csin(y)+Bcos(x)],(21b)=A[-xcos(z)+ysin(z)]-, where x,y,zR.
 0.993	[*A*]steady ABC flow[*R*]can be derived from[*A*]19	context()	negated: False ,passive: False
 0.831	[*A*]steady ABC flow[*R*]can be derived[*A*]from ( 19	context()	negated: False ,passive: True
-[LINE#282] The velocity components are then (22a)u= =Bsin(x)+Acos(z),(22c)w=Csin(y)+Bcos(x).Fig. 1 shows example cross-sections of this velocity field with A=1 and B=.
+[LINE#308+309+310]  The velocity components are then (22a)u= =Bsin(x)+Acos(z),(22c)w=Csin(y)+Bcos(x).Fig. 1 shows example cross-sections of this velocity field with A=1 and B=.
 0.982	[*A*]22c ) w=Csin ( y ) +Bcos ( x ) . Fig . 1[*R*]shows[*A*]example cross-sections of this velocity field	context()	negated: False ,passive: False
 0.925	[*A*]The velocity components[*R*]are[*A*]then[*A*]=Bsin ( x ) +Acos	context()	negated: False ,passive: True
-[LINE#283]Note that this assures the existence of stagnation points in the flow (see [33] for more details).
-[LINE#284]With this choice, the two free parameters independently control the two diagnostics.
+[LINE#311] Note that this assures the existence of stagnation points in the flow (see [33] for more details).
+[LINE#312] With this choice, the two free parameters independently control the two diagnostics.
 0.919	[*A*]the two free parameters[*R*]independently control[*A*]the two diagnostics	context()	negated: False ,passive: False
-[LINE#285]=A and is constant throughout the domain, while Sw=B2sin2(x)+C2cos2(y)=|B|sin2(x)+cos2(y), with values ranging from 0 to |B|2.
+[LINE#313] =A and is constant throughout the domain, while Sw=B2sin2(x)+C2cos2(y)=|B|sin2(x)+cos2(y), with values ranging from 0 to |B|2.
 0.911	[*A*]values[*R*]ranging[*A*]from 0[*A*]to | B | 2	context()	negated: False ,passive: True
-[LINE#286]The left inequality of the stagnation point condition above is therefore equivalent to max(Sw)Sv.
+[LINE#314] The left inequality of the stagnation point condition above is therefore equivalent to max(Sw)Sv.
 0.960	[*A*]The left inequality of the stagnation point condition above[*R*]is[*A*]therefore equivalent to max	context()	negated: False ,passive: True
-[LINE#287]The computations presented in Section 4 are performed on a grid of size 201201201 for x,y,z[0,2], from time t0=0 to tf=10. .
+[LINE#315] The computations presented in Section 4 are performed on a grid of size 201201201 for x,y,z[0,2], from time t0=0 to tf=10. .
 0.932	[*A*]The computations presented in Section 4[*R*]are performed[*A*]on a grid of size 201201201[*A*]for [ 0,2	context()	negated: False ,passive: True
 0.932	[*A*]The computations presented in Section 4[*R*]are performed[*A*]on a grid of size 201201201[*A*]for y[*A*]from time t0=0 to tf=10	context()	negated: False ,passive: True
 0.932	[*A*]The computations presented in Section 4[*R*]are performed[*A*]on a grid of size 201201201[*A*]for x[*A*]from time t0=0 to tf=10	context()	negated: False ,passive: True
 0.903	[*A*]The computations[*R*]presented[*A*]in Section 4	context()	negated: False ,passive: True
-[LINE#288] steady quadrupole flow is obtained from (19) by defining  and  as (23a) =A(z)sin(x/Lx)sin(y/Ly),(23b)=B(z)cos(x/Lx)cos(y/where x(-Lx,Lx),y(-Ly,Ly), and z(-H,0).
+[LINE#316+317+318]  steady quadrupole flow is obtained from (19) by defining  and  as (23a) =A(z)sin(x/Lx)sin(y/Ly),(23b)=B(z)cos(x/Lx)cos(y/where x(-Lx,Lx),y(-Ly,Ly), and z(-H,0).
 0.925	[*A*]steady quadrupole flow[*R*]is obtained[*A*]from ( 19[*A*]by ( x / Lx	context()	negated: False ,passive: True
 0.993	[*A*]steady quadrupole flow[*R*]is obtained from[*A*]19	context()	negated: False ,passive: False
 0.783	[*A*]steady quadrupole flow[*R*]is obtained[*A*]from ( 19	context()	negated: False ,passive: True
-[LINE#289] In this case, the velocity components are (24a)u=-(yA(z)+xBz(z))sin(xx)cos(yy),(24b)v=(xA(z)-yBz(z))cos(xx)sin(yy),(24c)w=(x2+y2)B(z)cos(xx)cos(yy), where (25)Bz=Bz(26)x=/Lx(27)y=.
+[LINE#319]  In this case, the velocity components are (24a)u=-(yA(z)+xBz(z))sin(xx)cos(yy),(24b)v=(xA(z)-yBz(z))cos(xx)sin(yy),(24c)w=(x2+y2)B(z)cos(xx)cos(yy), where (25)Bz=Bz(26)x=/Lx(27)y=.
 0.967	[*A*]the velocity components[*R*]are[*A*]-(yA(z)+xBz(z))sin(xx)cos(yy),(24b)v=(xA(z)-yBz(z))cos[*A*]In this case	context()	negated: False ,passive: True
-[LINE#290] We will restrict our analysis to a domain with Lx[29] used this model to illustrate manifolds and associated flow properties for a prescribed free surface with non-zero velocity.
+[LINE#320+321]  We will restrict our analysis to a domain with Lx[29] used this model to illustrate manifolds and associated flow properties for a prescribed free surface with non-zero velocity.
 0.350	[*A*]We[*R*]will restrict[*A*]our analysis[*A*]to a domain with Lx [ 29	context()	negated: False ,passive: False
-[LINE#291]Here the focus is on investigating the parameter space of Sv and Sw.
+[LINE#322] Here the focus is on investigating the parameter space of Sv and Sw.
 0.964	[*A*]the focus[*R*]is[*A*]on investigating the parameter space of Sw[*A*]Here	context()	negated: False ,passive: True
 0.964	[*A*]the focus[*R*]is[*A*]on investigating the parameter space of Sv[*A*]Here	context()	negated: False ,passive: True
-[LINE#292]For clarity, it is useful to further restrict the analysis to functions for A and B that are at most linear in z, i.e., (28a)A(z)=(1/)[A0+A1z](28b)B(z)=(1/22)[B0+B1z].Horizontal and vertical length and velocity parameters can be scaled to be appropriate for the atmosphere or ocean.
+[LINE#323] For clarity, it is useful to further restrict the analysis to functions for A and B that are at most linear in z, i.e., (28a)A(z)=(1/)[A0+A1z](28b)B(z)=(1/22)[B0+B1z].Horizontal and vertical length and velocity parameters can be scaled to be appropriate for the atmosphere or ocean.
 0.995	[*A*]i.e., (28a)A(z)=(1/)[A0+A1z](28b)B(z)=(1/22)[B0+B1z].Horizontal and vertical length and velocity parameters[*R*]to be[*A*]appropriate for the atmosphere or ocean	context()	negated: False ,passive: True
-[LINE#293]We choose typical oceanic values, setting the horizontal domain dimensions to Lx=Ly=200km.
+[LINE#324] We choose typical oceanic values, setting the horizontal domain dimensions to Lx=Ly=200km.
 0.333	[*A*]We[*R*]choose typical oceanic values setting[*A*]the horizontal domain dimensions[*A*]to Lx=Ly=200km	context(We choose)	negated: False ,passive: False
 0.433	[*A*]We[*R*]choose[*A*]typical oceanic values[*A*]setting the horizontal domain dimensions to Lx=Ly=200km	context()	negated: False ,passive: False
-[LINE#294]The domain depth is allowed to be infinite.
+[LINE#325] The domain depth is allowed to be infinite.
 0.754	[*A*]The domain depth[*R*]to be[*A*]infinite	context()	negated: False ,passive: True
 0.751	[*A*]The domain depth[*R*]is allowed	context()	negated: False ,passive: False
-[LINE#295]This is a computational convenience necessitated by the linear vertical profiles of w, which lead in extreme cases to a handful of particles in the domain reaching depths below 20 km.
+[LINE#326] This is a computational convenience necessitated by the linear vertical profiles of w, which lead in extreme cases to a handful of particles in the domain reaching depths below 20 km.
 0.938	[*A*]a handful of particles in the domain[*R*]reaching[*A*]depths below 20 km	context()	negated: False ,passive: False
 0.921	[*A*]the linear vertical profiles of w[*R*]lead[*A*]in extreme cases[*A*]to a handful of particles in the domain	context()	negated: False ,passive: False
 0.911	[*A*]a computational convenience[*R*]necessitated[*A*]by the linear vertical profiles of w	context()	negated: False ,passive: True
 0.567	[*A*]This[*R*]is[*A*]a computational convenience necessitated by the linear vertical profiles of w,	context()	negated: False ,passive: True
-[LINE#296]Various boundary conditions could be imposed at a more realistic oceanic depth.
+[LINE#327] Various boundary conditions could be imposed at a more realistic oceanic depth.
 0.911	[*A*]Various boundary conditions[*R*]could be imposed[*A*]at a more realistic oceanic depth	context()	negated: False ,passive: True
-[LINE#297]We have examined several and found no impact on our conclusions.
+[LINE#328] We have examined several and found no impact on our conclusions.
 0.309	[*A*]We[*R*]found[*A*]no impact on our conclusions	context()	negated: False ,passive: False
 0.225	[*A*]We[*R*]have examined[*A*]several	context()	negated: False ,passive: False
-[LINE#298]At any depth z in this flow, the LCS (ridges in the FTLE field) are straight lines at x=[-Lx,0,Lx] and y=[-Ly,0,Ly].
+[LINE#329] At any depth z in this flow, the LCS (ridges in the FTLE field) are straight lines at x=[-Lx,0,Lx] and y=[-Ly,0,Ly].
 0.922	[*A*]the LCS[*R*]are[*A*]straight lines at y=[*A*]At any depth z in this flow	context()	negated: False ,passive: True
 0.922	[*A*]the LCS[*R*]are[*A*]straight lines at x=[*A*]At any depth z in this flow	context()	negated: False ,passive: True
-[LINE#299]Computations are performed on a horizontal grid of size 257257 from time t0=0 to time tf=8days.
+[LINE#330] Computations are performed on a horizontal grid of size 257257 from time t0=0 to time tf=8days.
 0.894	[*A*]Computations[*R*]are performed[*A*]on a horizontal grid of size 257257[*A*]from time	context()	negated: False ,passive: True
-[LINE#300]The results presented here focus on a single horizontal layer at z=-0.3km.
+[LINE#331] The results presented here focus on a single horizontal layer at z=-0.3km.
 0.931	[*A*]The results presented here[*R*]focus[*A*]on a single horizontal layer at z=-0.3km	context()	negated: False ,passive: False
 0.767	[*A*]The results[*R*]presented[*A*]here	context()	negated: False ,passive: True
-[LINE#301]RMS differences as well as maxima are computed over this single layer only.
+[LINE#332] RMS differences as well as maxima are computed over this single layer only.
 0.894	[*A*]maxima[*R*]are computed[*A*]over this single layer only	context()	negated: False ,passive: True
 0.903	[*A*]RMS differences[*R*]are computed[*A*]over this single layer only	context()	negated: False ,passive: True
-[LINE#302]Trajectories in adjacent vertical layers at z=-0.29km and z=-0.31km are also computed to allow for finite-difference approximation of strain tensor terms involving vertical gradients, using a 10 m vertical spacing representative of many ocean models.
+[LINE#333] Trajectories in adjacent vertical layers at z=-0.29km and z=-0.31km are also computed to allow for finite-difference approximation of strain tensor terms involving vertical gradients, using a 10 m vertical spacing representative of many ocean models.
 0.955	[*A*]Trajectories in adjacent vertical layers at z= - 0.31 km[*R*]are computed[*A*]to allow for finite - difference approximation of strain tensor terms	context()	negated: False ,passive: True
 0.911	[*A*]strain tensor terms[*R*]involving[*A*]vertical gradients	context()	negated: False ,passive: True
 0.955	[*A*]Trajectories in adjacent vertical layers at z= - 0.29 km[*R*]are computed[*A*]to allow for finite - difference approximation of strain tensor terms	context()	negated: False ,passive: True
-[LINE#303]Parameter values in Section 5 are reported so that all quadrupole velocities have units of m s-1.
+[LINE#334] Parameter values in Section 5 are reported so that all quadrupole velocities have units of m s-1.
 0.911	[*A*]all quadrupole velocities[*R*]have[*A*]units of m s-1	context()	negated: False ,passive: False
 0.908	[*A*]Parameter values in Section 5[*R*]are reported[*A*]so that all quadrupole velocities have units of m s-1	context()	negated: False ,passive: True
-[LINE#304]With z in units of kilometers, this implies that A0 and B0 have units of m s-1, and A1 and B1 have units of m s-1 km-1.
+[LINE#335] With z in units of kilometers, this implies that A0 and B0 have units of m s-1, and A1 and B1 have units of m s-1 km-1.
 0.770	[*A*]B1[*R*]have[*A*]units of m s - 1 km - 1	context(this implies)	negated: False ,passive: False
 0.432	[*A*]this[*R*]implies[*A*]B1 have units of m s - 1 km - 1	context()	negated: False ,passive: False
 0.898	[*A*]A1[*R*]have[*A*]units of m s - 1 km - 1	context(this implies)	negated: False ,passive: False
@@ -965,10 +965,10 @@
 0.147	[*A*]this[*R*]implies[*A*]that B0 have units of m s - 1	context()	negated: False ,passive: False
 0.898	[*A*]A0[*R*]have[*A*]units of m s - 1	context(this implies)	negated: False ,passive: False
 0.172	[*A*]this[*R*]implies[*A*]that A0 have units of m s - 1	context()	negated: False ,passive: False
-[LINE#305] Note that B0 is the peak w magnitude at z=0, and when Bz=0,A0 is the peak horizontal velocity magnitude at z=0.Fig. 2 shows a steady quadrupole flow at depths 100, 500, 1000, and 1500 m with A(z) and B(z).
+[LINE#336+337]  Note that B0 is the peak w magnitude at z=0, and when Bz=0,A0 is the peak horizontal velocity magnitude at z=0.Fig. 2 shows a steady quadrupole flow at depths 100, 500, 1000, and 1500 m with A(z) and B(z).
 0.988	[*A*]Note that B0 is the peak w magnitude at z=0 , A0 is the peak horizontal velocity magnitude at z=0.Fig[*R*]shows[*A*]a steady quadrupole flow at depths	context()	negated: False ,passive: False
 0.988	[*A*]Note that B0 is the peak w magnitude at z=0 , A0 is the peak horizontal velocity magnitude at z=0.Fig[*R*]shows[*A*]a steady quadrupole flow at depths 500 , 1000	context()	negated: False ,passive: False
 0.988	[*A*]Note that B0 is the peak w magnitude at z=0 , A0 is the peak horizontal velocity magnitude at z=0.Fig[*R*]shows[*A*]a steady quadrupole flow at depths 100	context()	negated: False ,passive: False
 0.948	[*A*]A0[*R*]is[*A*]the peak horizontal velocity magnitude at z=0.Fig	context()	negated: False ,passive: True
 0.852	[*A*]B0[*R*]is[*A*]the peak w magnitude at z=0	context()	negated: False ,passive: True
-[LINE#306]Notice that the quadrupole strength varies linearly with depth.
+[LINE#338] Notice that the quadrupole strength varies linearly with depth.

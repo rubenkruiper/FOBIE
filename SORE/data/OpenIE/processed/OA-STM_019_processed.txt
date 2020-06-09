@@ -1,78 +1,78 @@
-[LINE#1]A number of highly-threaded, many-core architectures hide memory-access latency by low-overhead context switching among a large number of threads.
+[LINE#0] A number of highly-threaded, many-core architectures hide memory-access latency by low-overhead context switching among a large number of threads.
 0.957	[*A*]A number of highly-threaded, many-core architectures[*R*]hide[*A*]memory-access latency	context()	negated: False ,passive: False
-[LINE#2]The speedup of a program on these machines depends on how well the latency is hidden.
+[LINE#1] The speedup of a program on these machines depends on how well the latency is hidden.
 0.732	[*A*]the latency[*R*]is hidden	context()	negated: False ,passive: False
 0.943	[*A*]The speedup of a program on these machines[*R*]depends[*A*]on how well the latency is hidden	context()	negated: False ,passive: False
-[LINE#3]If the number of threads were infinite, theoretically, these machines could provide the performance predicted by the PRAM analysis of these programs.
+[LINE#2] If the number of threads were infinite, theoretically, these machines could provide the performance predicted by the PRAM analysis of these programs.
 0.918	[*A*]the performance[*R*]predicted[*A*]by the PRAM analysis of these programs	context()	negated: False ,passive: True
 0.947	[*A*]these machines[*R*]could provide[*A*]the performance predicted by the PRAM analysis of these programs	context()	negated: False ,passive: False
 0.799	[*A*]the number of threads[*R*]were[*A*]infinite	context()	negated: False ,passive: True
-[LINE#4]However, the number of threads per processor is not infinite, and is constrained by both hardware and algorithmic limits.
+[LINE#3] However, the number of threads per processor is not infinite, and is constrained by both hardware and algorithmic limits.
 0.903	[*A*]the number[*R*]is constrained[*A*]by both algorithmic limits	context()	negated: False ,passive: True
 0.903	[*A*]the number[*R*]is constrained[*A*]by both hardware limits	context()	negated: False ,passive: True
 0.829	[*A*]the number of threads per processor[*R*]is not[*A*]infinite	context()	negated: True ,passive: True
-[LINE#5]In this paper, we introduce the Threaded Many-core Memory (TMM) model which is meant to capture the important characteristics of these highly-threaded, many-core machines.
+[LINE#4] In this paper, we introduce the Threaded Many-core Memory (TMM) model which is meant to capture the important characteristics of these highly-threaded, many-core machines.
 0.936	[*A*]the Threaded Many-core Memory (TMM) model[*R*]is meant to capture[*A*]the important characteristics of these highly-threaded, many-core machines	context(the Threaded Many - core Memory ( TMM ) model is meant)	negated: False ,passive: False
 0.936	[*A*]the Threaded Many-core Memory (TMM) model[*R*]is meant[*A*]to capture the important characteristics of these highly-threaded, many-core machines	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]introduce[*A*]the Threaded Many-core Memory (TMM) model[*A*]In this paper	context()	negated: False ,passive: False
-[LINE#6]Since we model some important machine parameters of these machines, we expect analysis under this model to provide a more fine-grained and accurate performance prediction than the PRAM analysis.
+[LINE#5] Since we model some important machine parameters of these machines, we expect analysis under this model to provide a more fine-grained and accurate performance prediction than the PRAM analysis.
 0.333	[*A*]we[*R*]expect analysis to provide[*A*]a more accurate performance prediction than the PRAM analysis	context(we expect)	negated: False ,passive: False
 0.550	[*A*]we[*R*]expect[*A*]analysis[*A*]to provide a more accurate performance prediction than the PRAM analysis	context()	negated: False ,passive: False
 0.444	[*A*]we[*R*]expect analysis to provide[*A*]a more fine - grained performance prediction than the PRAM analysis	context(we expect)	negated: False ,passive: False
 0.550	[*A*]we[*R*]expect[*A*]analysis[*A*]to provide a more fine - grained performance prediction than the PRAM analysis	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]model[*A*]some important machine parameters of these machines	context()	negated: False ,passive: False
-[LINE#7]We analyze 4 algorithms for the classic all pairs shortest paths problem under this model.
+[LINE#6] We analyze 4 algorithms for the classic all pairs shortest paths problem under this model.
 0.999	[*A*]We[*R*]analyze[*A*]4 algorithms	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]analyze[*A*]4 algorithms for the classic	context()	negated: False ,passive: False
-[LINE#8]We find that even when two algorithms have the same PRAM performance, our model predicts different performance for some settings of machine parameters.
+[LINE#7] We find that even when two algorithms have the same PRAM performance, our model predicts different performance for some settings of machine parameters.
 0.752	[*A*]our model[*R*]predicts[*A*]different performance for some settings of machine parameters[*A*]even when two algorithms have the same PRAM performance	context(We find)	negated: False ,passive: False
 0.251	[*A*]We[*R*]find[*A*]that even when two algorithms have the same PRAM performance, our model predicts different performance for some settings of machine parameters	context()	negated: False ,passive: False
 0.918	[*A*]two algorithms[*R*]have[*A*]the same PRAM performance	context()	negated: False ,passive: False
-[LINE#9]For example, for dense graphs, the dynamic programming algorithm and Johnson's algorithm have the same performance in the PRAM model.
+[LINE#8] For example, for dense graphs, the dynamic programming algorithm and Johnson's algorithm have the same performance in the PRAM model.
 0.944	[*A*]Johnson 's algorithm[*R*]have[*A*]the same performance in the PRAM model	context()	negated: False ,passive: False
 0.931	[*A*]the dynamic programming algorithm[*R*]have[*A*]the same performance in the PRAM model	context()	negated: False ,passive: False
-[LINE#10]However, our model predicts different performance for large enough memory-access latency and validates the intuition that the dynamic programming algorithm performs better on these machines.
+[LINE#9] However, our model predicts different performance for large enough memory-access latency and validates the intuition that the dynamic programming algorithm performs better on these machines.
 0.919	[*A*]the dynamic programming algorithm[*R*]performs better[*A*]on these machines	context()	negated: False ,passive: False
 0.638	[*A*]our model[*R*]predicts[*A*]different performance for large enough memory - access latency	context()	negated: False ,passive: False
-[LINE#11]We validate several predictions made by our model using empirical measurements on an instantiation of a highly-threaded, many-core machine, namely the NVIDIA GTX 480.
+[LINE#10] We validate several predictions made by our model using empirical measurements on an instantiation of a highly-threaded, many-core machine, namely the NVIDIA GTX 480.
 0.835	[*A*]several predictions[*R*]made[*A*]by our model	context()	negated: False ,passive: True
 0.309	[*A*]We[*R*]validate[*A*]several predictions made by our model	context()	negated: False ,passive: False
-[LINE#12] Comparison of the various algorithmsAsour analysis of shortest paths algorithms indicates, the TMM model allows us to take the unique properties of highly-threaded, many-core architectures into consideration while analyzing the algorithms.
+[LINE#11+12]  Comparison of the various algorithmsAsour analysis of shortest paths algorithms indicates, the TMM model allows us to take the unique properties of highly-threaded, many-core architectures into consideration while analyzing the algorithms.
 0.514	[*A*]us[*R*]to take[*A*]the unique properties of highly-threaded, many-core architectures[*A*]into consideration[*A*]while analyzing the algorithms	context(Comparison of the various algorithmsAsour analysis of shortest paths algorithms indicates the TMM model allows)	negated: False ,passive: False
 0.906	[*A*]the TMM model[*R*]allows[*A*]us to take the unique properties of highly-threaded, many-core architectures into consideration while analyzing the algorithms	context(Comparison of the various algorithmsAsour analysis of shortest paths algorithms indicates)	negated: False ,passive: False
 0.950	[*A*]Comparison of the various algorithmsAsour analysis of shortest paths algorithms[*R*]indicates[*A*]the TMM model allows us to take the unique properties of highly-threaded, many-core architectures into consideration	context()	negated: False ,passive: False
-[LINE#13]Therefore, the model provides more nuance in the analysis of these algorithms for the highly-threaded, many-core machines than the PRAM model.
+[LINE#13] Therefore, the model provides more nuance in the analysis of these algorithms for the highly-threaded, many-core machines than the PRAM model.
 0.947	[*A*]the model[*R*]provides[*A*]more nuance in the analysis of these algorithms for the highly-threaded, many-core machines than the PRAM model	context()	negated: False ,passive: False
-[LINE#14]In this section, we will compare the running times of the various algorithms and see what interesting things this analysis tells us.
+[LINE#14] In this section, we will compare the running times of the various algorithms and see what interesting things this analysis tells us.
 0.542	[*A*]what interesting things[*R*]tells[*A*]us	context()	negated: False ,passive: True
 0.595	[*A*]we[*R*]will compare[*A*]the running times of the various algorithms[*A*]In this section	context()	negated: False ,passive: False
-[LINE#15]Table 3 indicates the running times of the various algorithms in both the PRAM model and the TMM model, as well as the conditions under which TMM results are the same as the PRAM results.
+[LINE#15] Table 3 indicates the running times of the various algorithms in both the PRAM model and the TMM model, as well as the conditions under which TMM results are the same as the PRAM results.
 0.964	[*A*]TMM results[*R*]are[*A*]the same as the PRAM results[*A*]both the conditions	context()	negated: False ,passive: True
 0.679	[*A*]Table 3[*R*]indicates[*A*]the running times of the various algorithms in both the conditions	context()	negated: False ,passive: False
 0.670	[*A*]Table 3[*R*]indicates[*A*]the running times of the various algorithms in the TMM model	context()	negated: False ,passive: False
 0.924	[*A*]TMM results[*R*]are[*A*]the same as the PRAM results	context(Table 3 indicates)	negated: False ,passive: True
 0.670	[*A*]Table 3[*R*]indicates[*A*]the running times of the various algorithms in both the PRAM model	context()	negated: False ,passive: False
-[LINE#16]We have ignored the span term, since the span is small relative to work in all of these algorithms.
+[LINE#16] We have ignored the span term, since the span is small relative to work in all of these algorithms.
 0.925	[*A*]the span[*R*]is[*A*]small relative to work in all of these algorithms	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]have ignored[*A*]the span term	context()	negated: False ,passive: False
-[LINE#17]As we can see, if L is small, then highly-threaded, many-core machines provide PRAM performance.
+[LINE#17] As we can see, if L is small, then highly-threaded, many-core machines provide PRAM performance.
 0.973	[*A*]highly-threaded, many-core machines[*R*]provide[*A*]PRAM performance[*A*]then	context()	negated: False ,passive: False
 0.734	[*A*]L[*R*]is[*A*]small	context()	negated: False ,passive: True
 0.195	[*A*]we[*R*]can see	context()	negated: False ,passive: False
-[LINE#18] However, the cut-off value for L is different for different algorithms where the performance in the TMM model differs from the PRAM modelis different for different algorithms.
+[LINE#18+19]  However, the cut-off value for L is different for different algorithms where the performance in the TMM model differs from the PRAM modelis different for different algorithms.
 0.966	[*A*]the performance in the TMM model[*R*]modelis[*A*]different for different algorithms[*A*]different algorithms	context()	negated: False ,passive: True
 0.965	[*A*]the performance in the TMM model[*R*]differs[*A*]different algorithms	context()	negated: False ,passive: True
 0.964	[*A*]the cut-off value for L[*R*]is[*A*]different for different algorithms	context()	negated: False ,passive: True
-[LINE#19]Therefore, the TMM model can be informative when comparing between algorithms.
+[LINE#20] Therefore, the TMM model can be informative when comparing between algorithms.
 0.933	[*A*]the TMM model[*R*]can be[*A*]informative[*A*]when comparing between algorithms	context()	negated: False ,passive: True
-[LINE#20]We will perform two types of comparison between these algorithms in this section.
+[LINE#21] We will perform two types of comparison between these algorithms in this section.
 0.569	[*A*]We[*R*]will perform[*A*]two types of comparison between these algorithms in this section	context()	negated: False ,passive: False
-[LINE#21]The first one considers the direct influence of machine parameters on asymptotic performance.
+[LINE#22] The first one considers the direct influence of machine parameters on asymptotic performance.
 0.911	[*A*]The first one[*R*]considers[*A*]the direct influence of machine parameters on asymptotic performance	context()	negated: False ,passive: False
-[LINE#22]Since machine parameters do not scale with problem size, in principle, machine parameters cannot change the asymptotic performance of algorithms in terms of problem size.
+[LINE#23] Since machine parameters do not scale with problem size, in principle, machine parameters cannot change the asymptotic performance of algorithms in terms of problem size.
 0.903	[*A*]machine parameters[*R*]can not change[*A*]the asymptotic performance of algorithms	context()	negated: True ,passive: False
 0.903	[*A*]machine parameters[*R*]do not scale[*A*]with problem size, in principle	context()	negated: True ,passive: False
-[LINE#23]That is, if the PRAM analysis indicates that some algorithm has a running time of O(n) and another one has the running time of O(nlgn), for large enough n, the first algorithm is always asymptotically better since eventually lgn will dominate whatever machine parameter advantage the second algorithm may have.
+[LINE#24] That is, if the PRAM analysis indicates that some algorithm has a running time of O(n) and another one has the running time of O(nlgn), for large enough n, the first algorithm is always asymptotically better since eventually lgn will dominate whatever machine parameter advantage the second algorithm may have.
 0.908	[*A*]another one[*R*]has[*A*]the running time of O ( nlgn	context(the PRAM analysis indicates)	negated: False ,passive: False
 0.921	[*A*]the PRAM analysis[*R*]indicates[*A*]That is , if the PRAM analysis indicates that another one has the running time of O ( nlgn ) , for large enough n , the first algorithm is always asymptotically better since eventually lgn will dominate whatever machine parameter advantage the second algorithm may have	context()	negated: False ,passive: False
 0.828	[*A*]the first algorithm[*R*]is[*A*]always[*A*]asymptotically better	context()	negated: False ,passive: True
@@ -81,88 +81,88 @@
 0.923	[*A*]some algorithm[*R*]has[*A*]a running time of O ( n	context(the PRAM analysis indicates)	negated: False ,passive: False
 0.887	[*A*]the PRAM analysis[*R*]indicates[*A*]that some algorithm has a running time of O ( n	context()	negated: False ,passive: False
 0.956	[*A*]the first algorithm[*R*]is[*A*]always[*A*]asymptotically better[*A*]since eventually lgn will dominate whatever machine parameter advantage the second algorithm may have	context()	negated: False ,passive: True
-[LINE#24]Therefore, for this first comparison, we only compare algorithms which have the same asymptotic performance under the PRAM model.
+[LINE#25] Therefore, for this first comparison, we only compare algorithms which have the same asymptotic performance under the PRAM model.
 0.896	[*A*]algorithms[*R*]have[*A*]the same asymptotic performance under the PRAM model	context()	negated: False ,passive: False
 0.573	[*A*]we[*R*]compare[*A*]algorithms which have the same asymptotic performance under the PRAM model	context()	negated: False ,passive: False
-[LINE#25]Second, we will also do a non-asymptotic comparison where we compare algorithms when the problem size is relatively small, but not very small.
+[LINE#26] Second, we will also do a non-asymptotic comparison where we compare algorithms when the problem size is relatively small, but not very small.
 0.779	[*A*]the problem size[*R*]is not very small[*A*]relatively small	context()	negated: False ,passive: True
 0.702	[*A*]we[*R*]compare[*A*]algorithms when the problem size is relatively small, but not very small[*A*]a non-asymptotic comparison	context()	negated: False ,passive: False
 0.226	[*A*]we[*R*]will do[*A*]a non-asymptotic comparison where we compare algorithms	context()	negated: False ,passive: False
-[LINE#26]In particular, we look at the case when lgn<Z.
+[LINE#27] In particular, we look at the case when lgn<Z.
 0.452	[*A*]we[*R*]look[*A*]at the case	context()	negated: False ,passive: False
-[LINE#27]In this case, even algorithms that are asymptotically worse in the PRAM model can be better in the TMM model, for large latency L.
+[LINE#28] In this case, even algorithms that are asymptotically worse in the PRAM model can be better in the TMM model, for large latency L.
 0.973	[*A*]even algorithms that are asymptotically worse in the PRAM model[*R*]can be[*A*]better[*A*]In this case	context()	negated: False ,passive: True
 0.887	[*A*]even algorithms[*R*]are[*A*]asymptotically worse[*A*]in the PRAM model	context()	negated: False ,passive: True
-[LINE#28]In the next section, we will look at even smaller problem sizes where the effects are even more dramatic..
+[LINE#29] In the next section, we will look at even smaller problem sizes where the effects are even more dramatic..
 0.943	[*A*]the effects[*R*]are[*A*]even more dramatic[*A*]even smaller problem sizes	context()	negated: False ,passive: True
 0.595	[*A*]we[*R*]will look[*A*]at even smaller problem sizes[*A*]In the next section	context()	negated: False ,passive: False
-[LINE#29] Influence of machine parametersAsthe table shows, the limits on machine parameters to get linear speedup are different for different algorithms.
+[LINE#30+31]  Influence of machine parametersAsthe table shows, the limits on machine parameters to get linear speedup are different for different algorithms.
 0.948	[*A*]the limits on machine parameters to get linear speedup[*R*]are[*A*]different for different algorithms	context()	negated: False ,passive: True
-[LINE#30]Therefore, even when two algorithms have the same PRAM performance, their performance on highly-threaded, many-core machines may vary significantly.
+[LINE#32] Therefore, even when two algorithms have the same PRAM performance, their performance on highly-threaded, many-core machines may vary significantly.
 0.969	[*A*]highly-threaded, many-core machines[*R*]may vary[*A*]significantly[*A*]even when two algorithms have the same PRAM performance, their performance on	context()	negated: False ,passive: True
 0.859	[*A*]two algorithms[*R*]have[*A*]the same PRAM performance, their performance on	context()	negated: False ,passive: False
-[LINE#31]Let us consider a few examples:.
-[LINE#32] Dynamic programming vs. Johnson's algorithm using binary heaps when m=O(n2)If(i.e., the graph is dense), the PRAM performance for both algorithms is the same.
+[LINE#33] Let us consider a few examples:.
+[LINE#34+35]  Dynamic programming vs. Johnson's algorithm using binary heaps when m=O(n2)If(i.e., the graph is dense), the PRAM performance for both algorithms is the same.
 0.897	[*A*]the PRAM performance for both algorithms[*R*]is[*A*]the same	context()	negated: False ,passive: True
-[LINE#33]However whenZ/Q<L<Z3/2C/Q, Johnson's algorithm has a significantly worse running time.
+[LINE#36] However whenZ/Q<L<Z3/2C/Q, Johnson's algorithm has a significantly worse running time.
 0.940	[*A*]Z3/2C/Q[*R*]has[*A*]a significantly worse running time	context()	negated: False ,passive: False
-[LINE#34]Take the example of L=O(Z3/2C/Q).
-[LINE#35]The Johnson running time is O(n3lgnZC/P) while the running time of the dynamic programming algorithm is simply O(n3lgn/P).
+[LINE#37] Take the example of L=O(Z3/2C/Q).
+[LINE#38] The Johnson running time is O(n3lgnZC/P) while the running time of the dynamic programming algorithm is simply O(n3lgn/P).
 0.957	[*A*]the running time of the dynamic programming algorithm[*R*]is[*A*]simply O(n3lgn/P	context()	negated: False ,passive: True
 0.970	[*A*]The Johnson running time[*R*]is[*A*]O[*A*]while the running time of the dynamic programming algorithm is simply O(n3lgn/P	context()	negated: False ,passive: True
 0.927	[*A*]The Johnson[*R*]running[*A*]time	context()	negated: False ,passive: False
-[LINE#36]'s algorithm using binary heaps vs.
+[LINE#39] 's algorithm using binary heaps vs.
 0.894	[*A*]algorithm[*R*]using[*A*]binary heaps	context()	negated: False ,passive: False
-[LINE#37] Johnson's algorithm using arrays when m=O(n2/lgn)If m=O(n2/lgn) (i.e., a somewhat sparse graph), these two algorithms have the same PRAM performance, but if Z/Q<LZC/Q, then the array implementation is better.
+[LINE#40+41+42]  Johnson's algorithm using arrays when m=O(n2/lgn)If m=O(n2/lgn) (i.e., a somewhat sparse graph), these two algorithms have the same PRAM performance, but if Z/Q<LZC/Q, then the array implementation is better.
 0.896	[*A*]the array implementation[*R*]is[*A*]better[*A*]then	context()	negated: False ,passive: True
 0.925	[*A*]these two algorithms[*R*]have[*A*]the same PRAM performance	context()	negated: False ,passive: False
-[LINE#38]For L=ZC/Q, the binary heap implementation has a running time of O(n3C/P), while the array implementation has a running time of simply O(n3/P). .
+[LINE#43] For L=ZC/Q, the binary heap implementation has a running time of O(n3C/P), while the array implementation has a running time of simply O(n3/P). .
 0.956	[*A*]the array implementation[*R*]has[*A*]a running time of simply O(n3/P	context()	negated: False ,passive: False
 0.960	[*A*]the binary heap implementation[*R*]has[*A*]a running time of O(n3C/P[*A*]while the array implementation has a running time of simply O(n3/P	context()	negated: False ,passive: False
-[LINE#39]Influence of graph sizeThe previous section shows the asymptotic power of the model; the results there hold for large sizes of graphs asymptotically.
+[LINE#44] Influence of graph sizeThe previous section shows the asymptotic power of the model; the results there hold for large sizes of graphs asymptotically.
 0.933	[*A*]Influence of graph sizeThe previous section[*R*]shows[*A*]the asymptotic power of the model	context(the results hold)	negated: False ,passive: False
 0.889	[*A*]the results[*R*]hold[*A*]for large sizes of graphs[*A*]asymptotically	context()	negated: False ,passive: False
-[LINE#40]However, the TMM model can also help decide on what algorithm to use based on the size of the graph.
+[LINE#45] However, the TMM model can also help decide on what algorithm to use based on the size of the graph.
 0.918	[*A*]the TMM model[*R*]can help decide[*A*]on what algorithm to use based on the size of the graph	context(the TMM model can help)	negated: False ,passive: False
 0.918	[*A*]the TMM model[*R*]can help[*A*]decide on what algorithm to use based on the size of the graph	context()	negated: False ,passive: False
-[LINE#41]In particular for certain sizes of graphs, algorithm A can be better than algorithm B even if it is asymptotically worse in the PRAM model.
+[LINE#46] In particular for certain sizes of graphs, algorithm A can be better than algorithm B even if it is asymptotically worse in the PRAM model.
 0.392	[*A*]A[*R*]can be[*A*]better than algorithm B[*A*]even if it is asymptotically worse in the PRAM model	context()	negated: False ,passive: True
-[LINE#42]Therefore, the TMM model can give us information that the PRAM model cannot.
+[LINE#47] Therefore, the TMM model can give us information that the PRAM model cannot.
 0.883	[*A*]the TMM model[*R*]can give[*A*]us[*A*]information	context()	negated: False ,passive: False
-[LINE#43]Consider the example of dynamic programming vs. Johnson's algorithm using arrays.
-[LINE#44]In the PRAM model, the dynamic programming algorithm is unquestionably worse than Johnson's.
+[LINE#48] Consider the example of dynamic programming vs. Johnson's algorithm using arrays.
+[LINE#49] In the PRAM model, the dynamic programming algorithm is unquestionably worse than Johnson's.
 0.970	[*A*]the dynamic programming algorithm[*R*]is[*A*]unquestionably worse than Johnson's[*A*]In the PRAM model	context()	negated: False ,passive: True
-[LINE#45]However, if lgn<Z, we may have a different conclusion.
+[LINE#50] However, if lgn<Z, we may have a different conclusion.
 0.452	[*A*]we[*R*]may have[*A*]a different conclusion	context()	negated: False ,passive: False
-[LINE#46] In this case, dynamic programming has runtime: (28)n3lgnLZCTP.
+[LINE#51]  In this case, dynamic programming has runtime: (28)n3lgnLZCTP.
 0.914	[*A*]dynamic programming[*R*]has runtime[*A*]28)n3lgnLZCTP[*A*]In this case	context()	negated: False ,passive: False
-[LINE#47] Johnson's algorithm has runtime: (29)min(n3LCTP,mnLTP)=n2LTPmin(nC,mn).If n2/m<C, i.e. dense graphs, , we have (30)n3lgnLZCTP<n3LCTP,if n2m<C.This indicates that when for small enough graphs where lgn<Z, there is a dichotomy.
+[LINE#52+53+54]  Johnson's algorithm has runtime: (29)min(n3LCTP,mnLTP)=n2LTPmin(nC,mn).If n2/m<C, i.e. dense graphs, , we have (30)n3lgnLZCTP<n3LCTP,if n2m<C.This indicates that when for small enough graphs where lgn<Z, there is a dichotomy.
 0.195	[*A*]we[*R*]have	context()	negated: False ,passive: False
 0.924	[*A*]Johnson's algorithm[*R*]has runtime[*A*]29)min(n3LCTP,mnLTP)=n2LTPmin(nC,mn).If n2/m<C, i.e. dense graphs, , we have (30)n3lgnLZCTP<n3LCTP,if n2m<C.This indicates	context()	negated: False ,passive: False
-[LINE#48]For dense graphs n2/m<C, the dynamic programming algorithm should be preferred, while for sparse graphs, Johnson's algorithm with arrays is better.
+[LINE#55] For dense graphs n2/m<C, the dynamic programming algorithm should be preferred, while for sparse graphs, Johnson's algorithm with arrays is better.
 0.888	[*A*]Johnson's algorithm with arrays[*R*]is[*A*]better	context()	negated: False ,passive: True
 0.948	[*A*]the dynamic programming algorithm[*R*]should be preferred[*A*]while for sparse graphs, Johnson's algorithm with arrays is better	context()	negated: False ,passive: True
-[LINE#49]We illustrate this performance dependence on sparsity with experiments in Section 7.We get a similar result when comparing the dynamic programming algorithm with Bellman-Ford when m=O(n).
+[LINE#56] We illustrate this performance dependence on sparsity with experiments in Section 7.We get a similar result when comparing the dynamic programming algorithm with Bellman-Ford when m=O(n).
 0.967	[*A*]experiments in Section 7.We[*R*]get[*A*]a similar result[*A*]when comparing the dynamic programming algorithm with Bellman-Ford	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]illustrate[*A*]this performance dependence on sparsity	context()	negated: False ,passive: False
-[LINE#50]In spite of being worse in the PRAM world, the dynamic programming algorithm is better when lgn<Z.Our model therefore allows us to do two things.
+[LINE#57] In spite of being worse in the PRAM world, the dynamic programming algorithm is better when lgn<Z.Our model therefore allows us to do two things.
 0.388	[*A*]us[*R*]to do[*A*]two things	context(Z.Our model allows)	negated: False ,passive: False
 0.527	[*A*]Z.Our model[*R*]allows[*A*]us to do two things[*A*]when lgn<	context()	negated: False ,passive: False
 0.841	[*A*]the dynamic programming algorithm[*R*]is[*A*]better	context()	negated: False ,passive: True
-[LINE#51]First, for a particular machine, given two algorithms which are asymptotically similar, we can pick the more appropriate algorithm for that particular machine given its machine parameters.
+[LINE#58] First, for a particular machine, given two algorithms which are asymptotically similar, we can pick the more appropriate algorithm for that particular machine given its machine parameters.
 0.848	[*A*]that particular machine[*R*]given[*A*]its machine parameters	context()	negated: False ,passive: True
 0.350	[*A*]we[*R*]can pick[*A*]the more appropriate algorithm for that particular machine[*A*]First	context()	negated: False ,passive: False
 0.735	[*A*]two algorithms[*R*]are[*A*]asymptotically similar	context()	negated: False ,passive: True
 0.897	[*A*]a particular machine[*R*]given[*A*]two algorithms which are asymptotically similar	context()	negated: False ,passive: True
-[LINE#52]Second, if we also consider the problem size,then we can do more.
+[LINE#59] Second, if we also consider the problem size,then we can do more.
 0.342	[*A*]we[*R*]can do[*A*]more[*A*]then	context()	negated: False ,passive: False
 0.411	[*A*]we[*R*]consider[*A*]the problem size	context()	negated: False ,passive: False
-[LINE#53]For small problem sizes, the asymptotically worse algorithm may in fact be better because it interacts better with the machine.
+[LINE#60] For small problem sizes, the asymptotically worse algorithm may in fact be better because it interacts better with the machine.
 0.452	[*A*]it[*R*]interacts[*A*]better with the machine	context()	negated: False ,passive: False
 0.800	[*A*]the asymptotically worse algorithm[*R*]may be[*A*]better[*A*]because it interacts better with the machine	context()	negated: False ,passive: True
-[LINE#54]We will draw more insights of this type in the next section.
+[LINE#61] We will draw more insights of this type in the next section.
 0.452	[*A*]We[*R*]will draw[*A*]more insights of this type in the next section	context()	negated: False ,passive: False
-[LINE#55]In this paper, we present a memory access model, called the Threaded Many-core Memory (TMM) model, that is well suited for modern highly-threaded, many-core systems that employ many threads and fast context switching to hide memory latency.
+[LINE#62] In this paper, we present a memory access model, called the Threaded Many-core Memory (TMM) model, that is well suited for modern highly-threaded, many-core systems that employ many threads and fast context switching to hide memory latency.
 0.887	[*A*]fast context[*R*]to hide[*A*]memory latency	context()	negated: False ,passive: False
 0.939	[*A*]modern highly - threaded , many - core systems[*R*]employ[*A*]many threads switching to hide memory latency	context()	negated: False ,passive: False
 0.251	[*A*]that[*R*]is[*A*]well suited for modern highly - threaded , many - core systems	context()	negated: False ,passive: True
@@ -170,273 +170,273 @@
 0.882	[*A*]many threads[*R*]switching to hide[*A*]memory latency	context(many threads switching)	negated: False ,passive: False
 0.882	[*A*]many threads[*R*]switching[*A*]to hide memory latency	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]present[*A*]a memory access model , called the Threaded Many - core Memory ( TMM ) model[*A*]In this paper	context()	negated: False ,passive: False
-[LINE#56]The model analyzes the significant factors that affect performance on many-core machines.
+[LINE#63] The model analyzes the significant factors that affect performance on many-core machines.
 0.897	[*A*]the significant factors[*R*]affect[*A*]performance on many-core machines	context()	negated: False ,passive: False
 0.845	[*A*]The model[*R*]analyzes[*A*]the significant factors that affect performance on many-core machines	context()	negated: False ,passive: False
-[LINE#57]In particular, it requires the work and depth (like PRAM algorithms), but also requires the analysis of the number of memory accesses.
+[LINE#64] In particular, it requires the work and depth (like PRAM algorithms), but also requires the analysis of the number of memory accesses.
 0.498	[*A*]it[*R*]requires[*A*]the depth ( like PRAM algorithms	context()	negated: False ,passive: False
 0.498	[*A*]it[*R*]requires[*A*]the work ( like PRAM algorithms	context()	negated: False ,passive: False
 0.411	[*A*]it[*R*]requires[*A*]the analysis of the number of memory accesses	context()	negated: False ,passive: False
-[LINE#58]Using these three values, we can properly order algorithms from slow to fast for many different settings of machine parameters on highly-threaded, many-core machines.
+[LINE#65] Using these three values, we can properly order algorithms from slow to fast for many different settings of machine parameters on highly-threaded, many-core machines.
 0.388	[*A*]we[*R*]can properly order[*A*]algorithms[*A*]from slow to fast	context()	negated: False ,passive: False
-[LINE#59]We analyzed 4 shortest paths algorithms in the TMM model and compared the analysis with the PRAM analysis.
+[LINE#66] We analyzed 4 shortest paths algorithms in the TMM model and compared the analysis with the PRAM analysis.
 0.498	[*A*]We[*R*]compared[*A*]the analysis[*A*]with the PRAM analysis	context()	negated: False ,passive: False
 0.999	[*A*]We[*R*]analyzed[*A*]4 shortest paths algorithms	context()	negated: False ,passive: False
 0.498	[*A*]We[*R*]analyzed[*A*]4 shortest paths algorithms in the TMM model	context()	negated: False ,passive: False
-[LINE#60]We find that algorithms with the same PRAM performance can have different TMM performance under certain machine parameter settings.
+[LINE#67] We find that algorithms with the same PRAM performance can have different TMM performance under certain machine parameter settings.
 0.947	[*A*]algorithms with the same PRAM performance[*R*]can have[*A*]different TMM performance under certain machine parameter settings	context(We find)	negated: False ,passive: False
 0.382	[*A*]We[*R*]find[*A*]that algorithms with the same PRAM performance can have different TMM performance under certain machine parameter settings	context()	negated: False ,passive: False
-[LINE#61] In addition, for certain problem sizes which fit in local memory,algorithms which are faster on PRAM may be slower under the TMM model.
+[LINE#68+69]  In addition, for certain problem sizes which fit in local memory,algorithms which are faster on PRAM may be slower under the TMM model.
 0.957	[*A*]algorithms which are faster on PRAM[*R*]may be[*A*]slower under the TMM model	context()	negated: False ,passive: True
 0.896	[*A*]algorithms[*R*]are[*A*]faster[*A*]on PRAM	context()	negated: False ,passive: True
 0.920	[*A*]certain problem sizes[*R*]fit[*A*]in local memory	context()	negated: False ,passive: True
-[LINE#62]Further, we implemented a pair of the algorithms and showed empirical performance is effectively predicted by the TMM model under a variety of circumstances.
+[LINE#70] Further, we implemented a pair of the algorithms and showed empirical performance is effectively predicted by the TMM model under a variety of circumstances.
 0.452	[*A*]we[*R*]implemented[*A*]a pair of the algorithms	context()	negated: False ,passive: False
-[LINE#63]Therefore, TMM is a model well-suited to compare algorithms and decide which one to implement under particular environments.
+[LINE#71] Therefore, TMM is a model well-suited to compare algorithms and decide which one to implement under particular environments.
 0.926	[*A*]TMM[*R*]is[*A*]a model well - suited to decide which one to implement under particular environments	context()	negated: False ,passive: True
 0.887	[*A*]TMM[*R*]is[*A*]a model well - suited to compare algorithms	context()	negated: False ,passive: True
-[LINE#64]To our knowledge, this is the first attempt to formalize the analysis of algorithms for highly-threaded, many-core computers using a formal model and asymptotic analysis.
+[LINE#72] To our knowledge, this is the first attempt to formalize the analysis of algorithms for highly-threaded, many-core computers using a formal model and asymptotic analysis.
 0.943	[*A*]highly - threaded , many - core computers[*R*]using[*A*]asymptotic analysis	context()	negated: False ,passive: False
 0.943	[*A*]highly - threaded , many - core computers[*R*]using[*A*]a formal model	context()	negated: False ,passive: False
 0.567	[*A*]this[*R*]is[*A*]the first attempt to formalize the analysis of algorithms for highly - threaded , many - core computers	context()	negated: False ,passive: True
-[LINE#65]There are many directions of future work.
-[LINE#66]One obvious direction is to design more algorithms under the TMM model.
+[LINE#73] There are many directions of future work.
+[LINE#74] One obvious direction is to design more algorithms under the TMM model.
 0.942	[*A*]One obvious direction[*R*]is[*A*]to design more algorithms under the TMM model	context()	negated: False ,passive: True
-[LINE#67]Ideally, this model can help us come up with new algorithms for highly-threaded, many-core machines.
+[LINE#75] Ideally, this model can help us come up with new algorithms for highly-threaded, many-core machines.
 0.157	[*A*]us[*R*]come up	context(this model can help)	negated: False ,passive: False
 0.862	[*A*]this model[*R*]can help[*A*]us come up with new algorithms for highly-threaded, many-core machines	context()	negated: False ,passive: False
-[LINE#68]Empirical validation of the TMM model across a wider number of physical machines and manufacturers is also worth doing.
+[LINE#76] Empirical validation of the TMM model across a wider number of physical machines and manufacturers is also worth doing.
 0.939	[*A*]Empirical validation of the TMM model across a wider number of manufacturers[*R*]is[*A*]also[*A*]worth doing	context()	negated: False ,passive: True
 0.945	[*A*]Empirical validation of the TMM model across a wider number of physical machines[*R*]is[*A*]also[*A*]worth doing	context()	negated: False ,passive: True
-[LINE#69]In addition, our current model only incorporates 2 levels of memory hierarchy.
+[LINE#77] In addition, our current model only incorporates 2 levels of memory hierarchy.
 0.766	[*A*]our current model[*R*]has memory hierarchy of[*A*]2 levels	context()	negated: False ,passive: False
 0.999	[*A*]our current model[*R*]incorporates[*A*]2 levels	context()	negated: False ,passive: False
 0.621	[*A*]our current model[*R*]incorporates[*A*]2 levels of memory hierarchy	context()	negated: False ,passive: False
-[LINE#70]While in this paper we assume that it is global memory vs. memory local to core groups, in principle, it can be any two levels of fast and slow memory.
+[LINE#78] While in this paper we assume that it is global memory vs. memory local to core groups, in principle, it can be any two levels of fast and slow memory.
 0.452	[*A*]it[*R*]can be[*A*]any two levels of slow memory	context()	negated: False ,passive: True
 0.574	[*A*]it[*R*]is[*A*]global memory vs. memory local to core groups , in principle	context(we assume)	negated: False ,passive: True
 0.265	[*A*]we[*R*]assume[*A*]that it is global memory vs. memory local to core groups , in principle[*A*]in this paper	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]can be[*A*]any two levels of fast memory	context()	negated: False ,passive: True
-[LINE#71]We would like to extend it to multi-level hierarchies which are becoming increasingly common.
+[LINE#79] We would like to extend it to multi-level hierarchies which are becoming increasingly common.
 0.256	[*A*]We[*R*]would like to extend[*A*]it[*A*]to multi-level hierarchies	context(We would like)	negated: False ,passive: False
 0.256	[*A*]We[*R*]would like[*A*]to extend it to multi-level hierarchies	context()	negated: False ,passive: False
 0.735	[*A*]multi-level hierarchies[*R*]are becoming[*A*]increasingly common	context()	negated: False ,passive: True
-[LINE#72]One way to do this is to design a "parameter-oblivious" model where algorithms do not know the machine parameters.
+[LINE#80] One way to do this is to design a "parameter-oblivious" model where algorithms do not know the machine parameters.
 0.938	[*A*]algorithms[*R*]do not know[*A*]the machine parameters[*A*]a "parameter-oblivious" model	context()	negated: True ,passive: False
 0.943	[*A*]One way to do this[*R*]is[*A*]to design a "parameter-oblivious" model	context()	negated: False ,passive: True
-[LINE#73]Other than the dynamic programming algorithm, all of the algorithms presented in this paper are, in fact, parameter-oblivious.
+[LINE#81] Other than the dynamic programming algorithm, all of the algorithms presented in this paper are, in fact, parameter-oblivious.
 0.888	[*A*]all of the algorithms[*R*]are[*A*]in fact, parameter-oblivious	context()	negated: False ,passive: True
 0.903	[*A*]the algorithms[*R*]presented[*A*]in this paper	context()	negated: False ,passive: True
-[LINE#74]And matrix multiplication in the dynamic programming can easily be made parameter-oblivious.
-[LINE#75]In this case, the algorithms should perform well under all settings of parameters, allowing us to apply the model at any two levels and get the same results.
+[LINE#82] And matrix multiplication in the dynamic programming can easily be made parameter-oblivious.
+[LINE#83] In this case, the algorithms should perform well under all settings of parameters, allowing us to apply the model at any two levels and get the same results.
 0.388	[*A*]us[*R*]to get[*A*]the same results	context(the algorithms should perform well allowing)	negated: False ,passive: False
 0.718	[*A*]the algorithms[*R*]should perform well allowing[*A*]us to get the same results	context(the algorithms should perform well)	negated: False ,passive: False
 0.874	[*A*]the algorithms[*R*]should perform well[*A*]under all settings of parameters[*A*]allowing us to get the same results[*A*]In this case	context()	negated: False ,passive: False
 0.388	[*A*]us[*R*]to apply[*A*]the model[*A*]at any two levels	context(the algorithms should perform well allowing)	negated: False ,passive: False
 0.718	[*A*]the algorithms[*R*]should perform well allowing[*A*]us to apply the model at any two levels	context(the algorithms should perform well)	negated: False ,passive: False
 0.918	[*A*]the algorithms[*R*]should perform well[*A*]under all settings of parameters[*A*]allowing us to apply the model at any two levels[*A*]In this case	context()	negated: False ,passive: False
-[LINE#76]Effect of problem sizeIn Section 5, we explored the asymptotic insights that can be drawn from the TMM model.
+[LINE#84] Effect of problem sizeIn Section 5, we explored the asymptotic insights that can be drawn from the TMM model.
 0.913	[*A*]the asymptotic insights[*R*]can be drawn[*A*]from the TMM model	context()	negated: False ,passive: True
 0.509	[*A*]we[*R*]explored[*A*]the asymptotic insights that can be drawn from the TMM model[*A*]Effect of problem sizeIn Section 5	context()	negated: False ,passive: False
-[LINE#77]However, the TMM model can also inform insights based on problem size.
+[LINE#85] However, the TMM model can also inform insights based on problem size.
 0.894	[*A*]insights[*R*]based[*A*]on problem size	context()	negated: False ,passive: True
 0.901	[*A*]the TMM model[*R*]can inform[*A*]insights based on problem size	context()	negated: False ,passive: False
-[LINE#78]In particular, some algorithms can take advantage of smaller problems better than others, since they can use fast local memory more effectively.
+[LINE#86] In particular, some algorithms can take advantage of smaller problems better than others, since they can use fast local memory more effectively.
 0.609	[*A*]they[*R*]can use more effectively[*A*]fast local memory	context()	negated: False ,passive: False
 0.903	[*A*]some algorithms[*R*]can take[*A*]advantage[*A*]of smaller problems better than others	context()	negated: False ,passive: False
-[LINE#79]In this section, we explore the insights that the TMM model provides in these cases..
+[LINE#87] In this section, we explore the insights that the TMM model provides in these cases..
 0.887	[*A*]the insights[*R*]provides[*A*]in these cases	context()	negated: False ,passive: True
 0.509	[*A*]we[*R*]explore[*A*]the insights that the TMM model provides in these cases[*A*]In this section	context()	negated: False ,passive: False
-[LINE#80]Vertices fit in local memoryWhen n<Z, all the vertices fit in local memory.
+[LINE#88] Vertices fit in local memoryWhen n<Z, all the vertices fit in local memory.
 0.905	[*A*]Vertices[*R*]fit[*A*]in local memory	context()	negated: False ,passive: True
-[LINE#81]Note that this does not mean that the entire problem fits in local memory, since the number of edges can still be much larger than the number of vertices.
+[LINE#89] Note that this does not mean that the entire problem fits in local memory, since the number of edges can still be much larger than the number of vertices.
 0.929	[*A*]the number of edges[*R*]can be[*A*]much larger than the number of vertices[*A*]still	context()	negated: False ,passive: True
-[LINE#82]In this scenario, the number of memory accesses by the first, second, and fourth algorithms is not affected at all.
+[LINE#90] In this scenario, the number of memory accesses by the first, second, and fourth algorithms is not affected at all.
 0.970	[*A*]the number of memory accesses by the fourth algorithms[*R*]is not affected[*A*]at all[*A*]In this scenario	context()	negated: True ,passive: True
 0.970	[*A*]the number of memory accesses by the second algorithms[*R*]is not affected[*A*]at all[*A*]In this scenario	context()	negated: True ,passive: True
 0.970	[*A*]the number of memory accesses by the first algorithms[*R*]is not affected[*A*]at all[*A*]In this scenario	context()	negated: True ,passive: True
-[LINE#83]In the dynamic programming algorithm, we consider the array of size n2 and being able to fit a row into local memory does not reduce the number of memory transfers.
+[LINE#91] In the dynamic programming algorithm, we consider the array of size n2 and being able to fit a row into local memory does not reduce the number of memory transfers.
 0.950	[*A*]the array of being able to fit a row into local memory[*R*]does not reduce[*A*]the number of memory transfers	context(we consider)	negated: True ,passive: False
 0.645	[*A*]we[*R*]consider[*A*]the array of being able to fit a row into local memory does not reduce the number of memory transfers[*A*]In the dynamic programming algorithm	context()	negated: False ,passive: False
 0.905	[*A*]the array of size n2[*R*]does not reduce[*A*]the number of memory transfers	context(we consider)	negated: True ,passive: False
 0.645	[*A*]we[*R*]consider[*A*]the array of size n2 does not reduce the number of memory transfers[*A*]In the dynamic programming algorithm	context()	negated: False ,passive: False
-[LINE#84]In Johnson's algorithm using binary heaps, each thread does its own single source shortest path.
+[LINE#92] In Johnson's algorithm using binary heaps, each thread does its own single source shortest path.
 0.916	[*A*]each thread[*R*]does[*A*]its own single source[*A*]In Johnson's algorithm	context()	negated: False ,passive: False
-[LINE#85]Since the local memory Z is shared among QT threads, each thread cannot hold its entire vertex array in local memory.
+[LINE#93] Since the local memory Z is shared among QT threads, each thread cannot hold its entire vertex array in local memory.
 0.835	[*A*]each thread[*R*]can not hold[*A*]its entire vertex array[*A*]in local memory	context()	negated: True ,passive: False
 0.931	[*A*]the local memory Z[*R*]is shared[*A*]among QT threads	context()	negated: False ,passive: True
-[LINE#86]In the Bellman-Ford algorithm, the cost is dominated by the cost of reading the edges.
+[LINE#94] In the Bellman-Ford algorithm, the cost is dominated by the cost of reading the edges.
 0.952	[*A*]the cost[*R*]is dominated[*A*]by the cost of reading the edges[*A*]In the Bellman-Ford algorithm	context()	negated: False ,passive: True
-[LINE#87]Therefore, the bounds do not change.
+[LINE#95] Therefore, the bounds do not change.
 0.732	[*A*]the bounds[*R*]do not change	context()	negated: True ,passive: False
-[LINE#88]For Johnson's algorithm using arrays, the cost is lower.
+[LINE#96] For Johnson's algorithm using arrays, the cost is lower.
 0.813	[*A*]the cost[*R*]is[*A*]lower	context()	negated: False ,passive: True
-[LINE#89]Now each core group can store the vertex array and does not need to access it from slow memory.
+[LINE#97] Now each core group can store the vertex array and does not need to access it from slow memory.
 0.796	[*A*]each core[*R*]does not need to access[*A*]it[*A*]from slow memory	context(each core does not need)	negated: True ,passive: False
 0.874	[*A*]each core[*R*]does not need[*A*]to access it from slow memory[*A*]Now	context()	negated: True ,passive: False
 0.948	[*A*]each core group[*R*]can store[*A*]the vertex array[*A*]Now	context()	negated: False ,passive: False
-[LINE#90]Therefore the bound on the number of memory operations changes to M=O(n2/C+mn)=O(mn) for connected graphs.
-[LINE#91]For these small problem sizes, the TMM model can provide even more insight.
+[LINE#98] Therefore the bound on the number of memory operations changes to M=O(n2/C+mn)=O(mn) for connected graphs.
+[LINE#99] For these small problem sizes, the TMM model can provide even more insight.
 0.933	[*A*]the TMM model[*R*]can provide[*A*]even more insight	context()	negated: False ,passive: False
-[LINE#92]As an example, compare the two versions of Johnson's algorithm, the one that uses arrays and the one that uses heaps.
+[LINE#100] As an example, compare the two versions of Johnson's algorithm, the one that uses arrays and the one that uses heaps.
 0.887	[*A*]the one[*R*]uses[*A*]heaps	context()	negated: False ,passive: False
 0.742	[*A*]the one[*R*]uses[*A*]the one that uses heaps	context()	negated: False ,passive: False
 0.887	[*A*]the one[*R*]uses[*A*]arrays	context()	negated: False ,passive: False
 0.913	[*A*]As an example[*R*]compare[*A*]the two versions of Johnson 's algorithm	context()	negated: False ,passive: True
-[LINE#93]the algorithm that uses heaps is better than the algorithm that uses arrays in the PRAM model.
+[LINE#101] the algorithm that uses heaps is better than the algorithm that uses arrays in the PRAM model.
 0.385	[*A*]heaps[*R*]is better than[*A*]the algorithm	context()	negated: False ,passive: False
 0.905	[*A*]the algorithm[*R*]uses[*A*]arrays[*A*]in the PRAM model	context()	negated: False ,passive: False
 0.943	[*A*]the algorithm that uses heaps[*R*]is[*A*]better than the algorithm	context()	negated: False ,passive: True
 0.698	[*A*]the algorithm[*R*]uses heaps	context()	negated: False ,passive: False
-[LINE#94]But in the TMM model, for large L, the algorithm that uses heaps has the running time of O(Lmnlgn/(TP))=O(Ln3/(TPlgn)), while the algorithm that uses arrays has the running time of O(Ln3/(TPlg2n)).
+[LINE#102] But in the TMM model, for large L, the algorithm that uses heaps has the running time of O(Lmnlgn/(TP))=O(Ln3/(TPlgn)), while the algorithm that uses arrays has the running time of O(Ln3/(TPlg2n)).
 0.863	[*A*]the algorithm[*R*]uses[*A*]arrays	context(Lmnlgn / ( TP ) ) =O ( Ln3 / ( TPlgn ) ) , while the algorithm that uses arrays has)	negated: False ,passive: False
 0.977	[*A*]Lmnlgn/(TP))=O(Ln3/(TPlgn)), while the algorithm that uses arrays[*R*]has[*A*]the running time of O	context()	negated: False ,passive: False
 0.858	[*A*]the algorithm[*R*]uses[*A*]heaps	context(the algorithm that uses heaps has)	negated: False ,passive: False
 0.941	[*A*]the algorithm that uses heaps[*R*]has[*A*]the running time of O[*A*]while the algorithm that uses arrays has the running time of O[*A*]in the TMM model	context()	negated: False ,passive: False
-[LINE#95]Therefore, the algorithm that uses arrays is better.
+[LINE#103] Therefore, the algorithm that uses arrays is better.
 0.853	[*A*]the algorithm that uses arrays[*R*]is[*A*]better	context()	negated: False ,passive: True
 0.887	[*A*]the algorithm[*R*]uses[*A*]arrays	context()	negated: False ,passive: False
-[LINE#96]Note that asymptotic analysis is a little dubious when we are talking about small problem sizes; therefore, this analysis should be considered skeptically.
+[LINE#104] Note that asymptotic analysis is a little dubious when we are talking about small problem sizes; therefore, this analysis should be considered skeptically.
 0.452	[*A*]we[*R*]are talking[*A*]about small problem sizes	context()	negated: False ,passive: False
-[LINE#97]However, the analysis is rigorous when we consider the circumstance that local memory size grows with problem size (i.e., Z is asymptotic).
+[LINE#105] However, the analysis is rigorous when we consider the circumstance that local memory size grows with problem size (i.e., Z is asymptotic).
 0.271	[*A*]we[*R*]consider[*A*]the circumstance that local memory size grows with problem size	context()	negated: False ,passive: False
 0.949	[*A*]the circumstance[*R*]grows[*A*]local memory size	context()	negated: False ,passive: True
 0.825	[*A*]the analysis[*R*]is[*A*]rigorous[*A*]when we consider the circumstance that local memory size grows with problem size (i.e., Z is asymptotic	context()	negated: False ,passive: True
-[LINE#98] Moreover, this type of analysis can still provide enough insight that it might guide implementation decisions under the more realistic circumstance of bounded (but potentially large).
+[LINE#106]  Moreover, this type of analysis can still provide enough insight that it might guide implementation decisions under the more realistic circumstance of bounded (but potentially large).
 0.452	[*A*]it[*R*]might guide[*A*]implementation decisions[*A*]under the more realistic circumstance of potentially large	context()	negated: False ,passive: False
 0.807	[*A*]this type of analysis[*R*]can provide[*A*]enough insight that it might guide implementation decisions under the more realistic circumstance of potentially large[*A*]still	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]might guide[*A*]implementation decisions[*A*]under the more realistic circumstance of bounded	context()	negated: False ,passive: False
 0.807	[*A*]this type of analysis[*R*]can provide[*A*]enough insight that it might guide implementation decisions under the more realistic circumstance of bounded[*A*]still	context()	negated: False ,passive: False
-[LINE#99]Edges fit in the combined local memoriesWhen m=O(PZ/Q), the edges fit in all the memories of the core groups combined.
+[LINE#107] Edges fit in the combined local memoriesWhen m=O(PZ/Q), the edges fit in all the memories of the core groups combined.
 0.945	[*A*]Edges[*R*]fit[*A*]in the combined local memoriesWhen m=O(PZ/Q	context(the edges fit)	negated: False ,passive: True
 0.908	[*A*]the edges[*R*]fit[*A*]in all the memories of the core groups	context()	negated: False ,passive: True
 0.751	[*A*]the core groups[*R*]combined	context()	negated: False ,passive: False
-[LINE#100]Again, the running time of the first,second, and third algorithms do not change, since they cannot take advantage of this property.
+[LINE#108] Again, the running time of the first,second, and third algorithms do not change, since they cannot take advantage of this property.
 0.872	[*A*]algorithms[*R*]do not change[*A*]since they can not take advantage of this property[*A*]third	context()	negated: True ,passive: True
 0.616	[*A*]they[*R*]can not take[*A*]advantage[*A*]of this property	context()	negated: True ,passive: False
 0.885	[*A*]the running time of[*R*]do not change[*A*]since they can not take advantage of this property[*A*]Again	context()	negated: True ,passive: True
-[LINE#101]However, the Bellman-Ford algorithm can take advantage of this property and each thread across all core groups is responsible for relaxing a single edge.
+[LINE#109] However, the Bellman-Ford algorithm can take advantage of this property and each thread across all core groups is responsible for relaxing a single edge.
 0.948	[*A*]each thread across all core groups[*R*]is[*A*]responsible for relaxing a single edge	context()	negated: False ,passive: True
 0.944	[*A*]the Bellman - Ford algorithm[*R*]can take[*A*]advantage[*A*]of this property	context()	negated: False ,passive: False
-[LINE#102]Now a portion of the arrays A,B and W fit in each core group's local memory and they never have to be read again.
+[LINE#110] Now a portion of the arrays A,B and W fit in each core group's local memory and they never have to be read again.
 0.973	[*A*]a portion of W[*R*]fit[*A*]in each core group 's local memory[*A*]Now	context()	negated: False ,passive: True
 0.973	[*A*]a portion of B[*R*]fit[*A*]in each core group 's local memory[*A*]Now	context()	negated: False ,passive: True
 0.323	[*A*]they[*R*]to be read[*A*]again	context()	negated: False ,passive: True
-[LINE#103]Therefore, the number of memory operations reduces to M=O(n3/C).
+[LINE#111] Therefore, the number of memory operations reduces to M=O(n3/C).
 0.937	[*A*]the number of memory operations[*R*]reduces[*A*]to M=O(n3/C	context()	negated: False ,passive: False
-[LINE#104]And the run time under the TMM model reduces to O(n3L/(CTP)).
+[LINE#112] And the run time under the TMM model reduces to O(n3L/(CTP)).
 0.953	[*A*]the run time under the TMM model[*R*]reduces[*A*]to O	context()	negated: False ,passive: True
-[LINE#105]Again, compare Bellman-Ford algorithm with Johnson's algorithm using binary heaps.
+[LINE#113] Again, compare Bellman-Ford algorithm with Johnson's algorithm using binary heaps.
 0.933	[*A*]Johnson's algorithm[*R*]using[*A*]binary heaps	context()	negated: False ,passive: False
-[LINE#106]When m=O(n2/lgn), Johnson's algorithm is better than the Bellman-Ford algorithm in the PRAM model.
+[LINE#114] When m=O(n2/lgn), Johnson's algorithm is better than the Bellman-Ford algorithm in the PRAM model.
 0.381	[*A*]'s algorithm[*R*]is better than[*A*]the Bellman - Ford algorithm	context()	negated: False ,passive: False
 0.973	[*A*]Johnson's algorithm[*R*]is[*A*]better than the Bellman-Ford algorithm in the PRAM model	context()	negated: False ,passive: True
-[LINE#107]However, in the TMM model, Johnson's has run time of O(Lmnlgn/(TP))=O(Ln3/(TP)), while Bellman-Ford with a run time of O(Ln3/(CTP)) flips to be the better one.
+[LINE#115] However, in the TMM model, Johnson's has run time of O(Lmnlgn/(TP))=O(Ln3/(TP)), while Bellman-Ford with a run time of O(Ln3/(CTP)) flips to be the better one.
 0.381	[*A*]Johnson[*R*][is] model [of][*A*]TMM	context()	negated: False ,passive: False
 0.833	[*A*]Ln3[*R*]to be[*A*]the better one	context()	negated: False ,passive: True
 0.869	[*A*]Ln3[*R*]flips[*A*]to be the better one	context()	negated: False ,passive: False
 0.978	[*A*]Johnson's[*R*]has run[*A*]time of O[*A*]while Bellman-Ford with a run time of O(Ln3/(CTP)) flips to be the better one[*A*]in the TMM model	context()	negated: False ,passive: False
-[LINE#108]this section, we conduct experiments to understand the extent of the applicability of our model in explaining the performance of algorithms on a real machine.
+[LINE#116] this section, we conduct experiments to understand the extent of the applicability of our model in explaining the performance of algorithms on a real machine.
 0.256	[*A*]we[*R*]conduct experiments to understand[*A*]the extent of the applicability of our model	context(we conduct)	negated: False ,passive: False
 0.497	[*A*]we[*R*]conduct[*A*]experiments[*A*]to understand the extent of the applicability of our model in explaining the performance of algorithms on a real machine[*A*]this section	context()	negated: False ,passive: False
-[LINE#109]This evaluation is a proof-of-concept that the model successfully predicts performance on one example of a highly-threaded, many-core machine.
+[LINE#117] This evaluation is a proof-of-concept that the model successfully predicts performance on one example of a highly-threaded, many-core machine.
 0.937	[*A*]the model[*R*]successfully predicts[*A*]performance on one example of a highly-threaded, many-core machine	context()	negated: False ,passive: False
 0.879	[*A*]This evaluation[*R*]is[*A*]a proof-of-concept that the model successfully predicts performance on one example of a highly-threaded, many-core machine	context()	negated: False ,passive: True
-[LINE#110]It is not meant to be an exhaustive empirical study of the model's applicability for all instances of highly-threaded, many-core machines.
+[LINE#118] It is not meant to be an exhaustive empirical study of the model's applicability for all instances of highly-threaded, many-core machines.
 0.528	[*A*]It[*R*]to be[*A*]an exhaustive empirical study of the model's applicability for all instances of highly-threaded, many-core machines	context()	negated: False ,passive: True
 0.195	[*A*]It[*R*]is not meant	context()	negated: True ,passive: False
-[LINE#111] We implemented two all-pairs shortest paths algorithms: the dynamic programming using matrix multiplication and Johnson's algorithm using arrays, on an NVIDIA GPU.In these experiments, we investigate the following aspects of the TMM model: Effect of the number of threads:the fact that the TMM model incorporates the number of threads per processor in the model is the primary differentiator between the PRAM and TMM models.
+[LINE#119+120]  We implemented two all-pairs shortest paths algorithms: the dynamic programming using matrix multiplication and Johnson's algorithm using arrays, on an NVIDIA GPU.In these experiments, we investigate the following aspects of the TMM model: Effect of the number of threads:the fact that the TMM model incorporates the number of threads per processor in the model is the primary differentiator between the PRAM and TMM models.
 0.443	[*A*]we[*R*]investigate[*A*]the following aspects of the TMM model	context(Johnson 's is)	negated: False ,passive: False
 0.397	[*A*]We[*R*]implemented[*A*]two all-pairs shortest paths algorithms	context(Johnson 's is)	negated: False ,passive: False
 0.932	[*A*]Johnson's[*R*]is[*A*]the primary differentiator between the PRAM and TMM models	context()	negated: False ,passive: True
 0.933	[*A*]the TMM model[*R*]incorporates[*A*]the number of threads per processor in the model	context()	negated: False ,passive: False
-[LINE#112]The TMM model predicts that as the number of threads increases the performance increases, up to a certain point.
+[LINE#121] The TMM model predicts that as the number of threads increases the performance increases, up to a certain point.
 0.900	[*A*]the number of threads[*R*]increases[*A*]the performance increases	context(The TMM model predicts)	negated: False ,passive: False
 0.867	[*A*]The TMM model[*R*]predicts[*A*]that as the number of threads increases the performance increases, up to a certain point	context()	negated: False ,passive: False
-[LINE#113]After this point, the number of threads does not matter, and the TMM model behaves the same as the PRAM model.
+[LINE#122] After this point, the number of threads does not matter, and the TMM model behaves the same as the PRAM model.
 0.944	[*A*]the TMM model[*R*]behaves[*A*]the same as the PRAM model	context()	negated: False ,passive: False
 0.944	[*A*]the number of threads[*R*]does not matter[*A*]After this point	context()	negated: True ,passive: True
-[LINE#114]In this set of experiments, we will use both the dynamic programming and Johnson's algorithms to demonstrate this dependence on the number of threads.Effect of fast local memory size: in some algorithms, including the dynamic programming via matrix multiplication, the size of the fast memory affects the performance of the algorithm in the TMM model.
+[LINE#123] In this set of experiments, we will use both the dynamic programming and Johnson's algorithms to demonstrate this dependence on the number of threads.Effect of fast local memory size: in some algorithms, including the dynamic programming via matrix multiplication, the size of the fast memory affects the performance of the algorithm in the TMM model.
 0.550	[*A*]we[*R*]will use both the Johnson 's algorithms to demonstrate[*A*]this dependence on the number of threads.Effect of fast local memory size	context(we will use the size of the fast memory affects)	negated: False ,passive: False
 0.686	[*A*]we[*R*]will use[*A*]both the Johnson 's algorithms[*A*]to demonstrate this dependence on the number of threads.Effect of fast local memory size[*A*]In this set of experiments	context(the size of the fast memory affects)	negated: False ,passive: False
 0.550	[*A*]we[*R*]will use both the dynamic programming to demonstrate[*A*]this dependence on the number of threads.Effect of fast local memory size	context(we will use the size of the fast memory affects)	negated: False ,passive: False
 0.686	[*A*]we[*R*]will use[*A*]both the dynamic programming[*A*]to demonstrate this dependence on the number of threads.Effect of fast local memory size[*A*]In this set of experiments	context(the size of the fast memory affects)	negated: False ,passive: False
 0.973	[*A*]the size of the fast memory[*R*]affects[*A*]the performance of the algorithm in the TMM model[*A*]in some algorithms , including the dynamic programming via matrix multiplication	context()	negated: False ,passive: False
-[LINE#115]We investigate this dependence.Comparison of the dynamic programming algorithm and Johnson's algorithm with arrays: for Johnson's algorithm using arrays, the PRAM performance does not depend on the graph's density.
+[LINE#124] We investigate this dependence.Comparison of the dynamic programming algorithm and Johnson's algorithm with arrays: for Johnson's algorithm using arrays, the PRAM performance does not depend on the graph's density.
 0.433	[*A*]We[*R*]investigate[*A*]Johnson 's algorithm with arrays	context(the PRAM performance does not depend)	negated: False ,passive: False
 0.958	[*A*]the PRAM performance[*R*]does not depend[*A*]on the graph 's density[*A*]for Johnson 's algorithm using arrays	context()	negated: True ,passive: False
 0.388	[*A*]We[*R*]investigate[*A*]this dependence.Comparison of the dynamic programming algorithm	context(the PRAM performance does not depend)	negated: False ,passive: False
 0.915	[*A*]the PRAM performance[*R*]does not depend[*A*]on the graph 's density	context()	negated: True ,passive: False
-[LINE#116]However, the TMM model predicts that performance can depend on the graph's density, when the number of threads is insufficient for the performance to be equivalent to the PRAM model.
+[LINE#125] However, the TMM model predicts that performance can depend on the graph's density, when the number of threads is insufficient for the performance to be equivalent to the PRAM model.
 0.926	[*A*]performance[*R*]can depend[*A*]on the graph's density[*A*]when the number of threads is insufficient for the performance to be equivalent to the PRAM model	context(the TMM model predicts)	negated: False ,passive: False
 0.863	[*A*]the TMM model[*R*]predicts[*A*]that performance can depend on the graph's density, when the number of threads is insufficient	context()	negated: False ,passive: False
 0.918	[*A*]the performance[*R*]to be[*A*]equivalent to the PRAM model	context()	negated: False ,passive: True
 0.841	[*A*]the number of threads[*R*]is[*A*]insufficient	context()	negated: False ,passive: True
-[LINE#117]Therefore, even though Johnson's algorithm is always faster than the dynamic programming algorithm according to the PRAM model (since its work is n3 while the dynamic programming algorithm has work n3lgn), the TMM model predicts that when the number of threads is small, the dynamic programming algorithm may do better, especially for dense graphs.
+[LINE#126] Therefore, even though Johnson's algorithm is always faster than the dynamic programming algorithm according to the PRAM model (since its work is n3 while the dynamic programming algorithm has work n3lgn), the TMM model predicts that when the number of threads is small, the dynamic programming algorithm may do better, especially for dense graphs.
 0.381	[*A*]n3lgn )[*R*][is] the model [of][*A*]TMM	context()	negated: False ,passive: False
 0.841	[*A*]the number of threads[*R*]is[*A*]small	context()	negated: False ,passive: True
 0.928	[*A*]the dynamic programming algorithm[*R*]may do better[*A*]especially for dense graphs[*A*]when the number of threads is small	context(the TMM model predicts)	negated: False ,passive: False
 0.863	[*A*]the TMM model[*R*]predicts[*A*]that when the number of threads is small, the dynamic programming algorithm may do better, especially for dense graphs	context()	negated: False ,passive: False
 0.947	[*A*]the dynamic programming algorithm[*R*]has[*A*]work n3lgn	context()	negated: False ,passive: False
 0.407	[*A*]its work[*R*]is	context()	negated: False ,passive: False
-[LINE#118]We demonstrate through experiments that, this is a true indicator of performance..
+[LINE#127] We demonstrate through experiments that, this is a true indicator of performance..
 0.386	[*A*]this[*R*]is[*A*]a true indicator of performance	context(We demonstrate)	negated: False ,passive: True
 0.162	[*A*]We[*R*]demonstrate[*A*]that, this is a true indicator of performance	context()	negated: False ,passive: False
-[LINE#119]Experimental SetupThe experiments are carried out on an NVIDIA GTX 480, which has 15 multiprocessors, each with 32 cores.
+[LINE#128] Experimental SetupThe experiments are carried out on an NVIDIA GTX 480, which has 15 multiprocessors, each with 32 cores.
 0.993	[*A*]Experimental SetupThe experiments[*R*]are carried on[*A*]480	context()	negated: False ,passive: False
 0.898	[*A*]an NVIDIA GTX 480[*R*]has[*A*]15 multiprocessors	context()	negated: False ,passive: False
 0.944	[*A*]Experimental SetupThe experiments[*R*]are carried out[*A*]on an NVIDIA GTX 480	context()	negated: False ,passive: True
-[LINE#120]As a typical highly-threaded, many-core machine, it also features a 1.5 GB global memory and 16 kB/48 kB of configurable on-chip shared memory per multiprocessor, which can be accessed with latency significantly lower than the global memory.
+[LINE#129] As a typical highly-threaded, many-core machine, it also features a 1.5 GB global memory and 16 kB/48 kB of configurable on-chip shared memory per multiprocessor, which can be accessed with latency significantly lower than the global memory.
 0.999	[*A*]it[*R*]features[*A*]16 kb / 48 kb	context()	negated: False ,passive: False
 0.917	[*A*]a 16 kB / 48 kB of configurable on - chip shared memory per multiprocessor[*R*]can be accessed	context()	negated: False ,passive: False
 0.573	[*A*]it[*R*]features[*A*]a 16 kB / 48 kB of configurable on - chip shared memory per multiprocessor	context()	negated: False ,passive: False
 0.999	[*A*]it[*R*]features[*A*]1.5 gb global memory	context()	negated: False ,passive: False
 0.807	[*A*]a 1.5 GB global memory[*R*]can be accessed	context()	negated: False ,passive: False
 0.456	[*A*]it[*R*]features[*A*]a 1.5 GB global memory	context()	negated: False ,passive: False
-[LINE#121]Runtimes are measured across various configurations of each problem, including graph size, thread count, shared memory size, and graph density.
+[LINE#130] Runtimes are measured across various configurations of each problem, including graph size, thread count, shared memory size, and graph density.
 0.931	[*A*]Runtimes[*R*]are measured[*A*]across various configurations of each problem , including graph density	context()	negated: False ,passive: True
 0.931	[*A*]Runtimes[*R*]are measured[*A*]across various configurations of each problem , including shared memory size	context()	negated: False ,passive: True
 0.931	[*A*]Runtimes[*R*]are measured[*A*]across various configurations of each problem , including thread count	context()	negated: False ,passive: True
 0.931	[*A*]Runtimes[*R*]are measured[*A*]across various configurations of each problem , including graph size	context()	negated: False ,passive: True
-[LINE#122]When plotted as execution time, the performance units are in seconds.
+[LINE#131] When plotted as execution time, the performance units are in seconds.
 0.948	[*A*]the performance units[*R*]are[*A*]in seconds[*A*]When plotted as execution time	context()	negated: False ,passive: True
-[LINE#123]In many cases, however, the trends we wish to see are more readily apparent when performance is shown in terms of speedup rather than execution time.
+[LINE#132] In many cases, however, the trends we wish to see are more readily apparent when performance is shown in terms of speedup rather than execution time.
 0.823	[*A*]the trends we wish to see[*R*]are[*A*]more readily apparent[*A*]when performance is shown in terms of execution time[*A*]In many cases	context()	negated: False ,passive: True
 0.836	[*A*]the trends[*R*]to see[*A*]we	context(we wish)	negated: False ,passive: True
 0.236	[*A*]we[*R*]wish[*A*]to see	context()	negated: False ,passive: False
 0.713	[*A*]performance[*R*]is shown	context()	negated: False ,passive: False
 0.823	[*A*]the trends we wish to see[*R*]are[*A*]more readily apparent[*A*]when performance is shown in terms of speedup[*A*]In many cases	context()	negated: False ,passive: True
-[LINE#124]This poses a problem, however, as it is arguably meaningless to attempt to realistically measure the single-core execution time of an application deployed on a modern GPU.
+[LINE#133] This poses a problem, however, as it is arguably meaningless to attempt to realistically measure the single-core execution time of an application deployed on a modern GPU.
 0.918	[*A*]an application[*R*]deployed[*A*]on a modern GPU	context()	negated: False ,passive: True
 0.278	[*A*]it[*R*]is[*A*]arguably[*A*]meaningless	context()	negated: False ,passive: True
 0.349	[*A*]This[*R*]poses[*A*]a problem[*A*]however[*A*]as it is arguably meaningless to attempt to realistically measure the single-core execution time of an application	context()	negated: False ,passive: False
-[LINE#125]We address this issue using the following technique: all speedup plots compare the measured, empirical execution time on P cores to the theoretical, asymptotic execution time on 1 core using the PRAM model.
+[LINE#134] We address this issue using the following technique: all speedup plots compare the measured, empirical execution time on P cores to the theoretical, asymptotic execution time on 1 core using the PRAM model.
 0.388	[*A*]We[*R*]address this issue using[*A*]the following technique	context(We address all speedup plots compare)	negated: False ,passive: False
 0.388	[*A*]We[*R*]address[*A*]this issue	context(all speedup plots compare)	negated: False ,passive: False
 0.927	[*A*]all speedup plots[*R*]compare[*A*]the measured, empirical execution time[*A*]on P cores to the theoretical, asymptotic execution time on 1 core	context()	negated: False ,passive: False
-[LINE#126]As a result, the speedup axis does not represent a quantitatively meaningful scale, and the scale is labeled "arbitrary" on the graphs to reflect this fact; however, the shape of the curves are representative of the speedup achievable relative to a fixed serial execution time.
+[LINE#135] As a result, the speedup axis does not represent a quantitatively meaningful scale, and the scale is labeled "arbitrary" on the graphs to reflect this fact; however, the shape of the curves are representative of the speedup achievable relative to a fixed serial execution time.
 0.678	[*A*]the scale[*R*]is labeled[*A*]arbitrary	context(the shape of the curves are)	negated: False ,passive: True
 0.385	[*A*]the curves[*R*]are representative of[*A*]the speedup achievable relative	context()	negated: False ,passive: False
 0.888	[*A*]the speedup axis[*R*]does not represent[*A*]a quantitatively meaningful scale	context(the shape of the curves are)	negated: True ,passive: False
 0.939	[*A*]the shape of the curves[*R*]are[*A*]representative of the speedup achievable relative to a fixed serial execution time	context()	negated: False ,passive: True
-[LINE#127]Effect of the number of threadsThe TMM model indicates that when the number of threads is small, the performance of algorithms depends on the number of threads.
+[LINE#136] Effect of the number of threadsThe TMM model indicates that when the number of threads is small, the performance of algorithms depends on the number of threads.
 0.942	[*A*]the performance of algorithms[*R*]depends[*A*]on the number of threads[*A*]when the number of threads is small	context(Effect of the number of threadsThe TMM model indicates)	negated: False ,passive: False
 0.914	[*A*]Effect of the number of threadsThe TMM model[*R*]indicates[*A*]that when the number of threads is small, the performance of algorithms depends on the number of threads	context()	negated: False ,passive: False
 0.841	[*A*]the number of threads[*R*]is[*A*]small	context()	negated: False ,passive: True
-[LINE#128]With sufficient number of threads, the performance converges to the PRAM performance and only depends on the problem size and the number of processors.
+[LINE#137] With sufficient number of threads, the performance converges to the PRAM performance and only depends on the problem size and the number of processors.
 0.887	[*A*]sufficient number[*R*]depends[*A*]on the number of processors	context()	negated: False ,passive: False
 0.887	[*A*]sufficient number[*R*]depends[*A*]on the problem size	context()	negated: False ,passive: False
 0.918	[*A*]the performance[*R*]converges[*A*]to the PRAM performance	context()	negated: False ,passive: False
-[LINE#129]We verify this result using both the dynamic programming and Johnson's algorithms.
+[LINE#138] We verify this result using both the dynamic programming and Johnson's algorithms.
 0.433	[*A*]We[*R*]verify this result using[*A*]both the Johnson 's algorithms	context(We verify)	negated: False ,passive: False
 0.388	[*A*]We[*R*]verify this result using[*A*]both the dynamic programming	context(We verify)	negated: False ,passive: False
 0.388	[*A*]We[*R*]verify[*A*]this result	context()	negated: False ,passive: False
-[LINE#130]For the dynamic programming algorithm, we generate random graphs with {1k,2k,4k,8k,16k} vertices.
+[LINE#139] For the dynamic programming algorithm, we generate random graphs with {1k,2k,4k,8k,16k} vertices.
 0.569	[*A*]we[*R*]generate[*A*]random graphs with {1k,2k,4k,8k,16k} vertices	context()	negated: False ,passive: False
-[LINE#131]To better utilize fast local memory, the problem is decomposed into sub-blocks, and we must also pick a block size.
+[LINE#140] To better utilize fast local memory, the problem is decomposed into sub-blocks, and we must also pick a block size.
 0.350	[*A*]we[*R*]must pick[*A*]a block size	context()	negated: False ,passive: False
 0.903	[*A*]the problem[*R*]is decomposed[*A*]into sub-blocks	context()	negated: False ,passive: True
-[LINE#132]Since we only care about the effect of threads and not the effect of shared memory (to be considered in the next subsection), here we show the results with a block size of 64, as it allows us to generate the maximum number of threads.
+[LINE#141] Since we only care about the effect of threads and not the effect of shared memory (to be considered in the next subsection), here we show the results with a block size of 64, as it allows us to generate the maximum number of threads.
 0.397	[*A*]us[*R*]to generate[*A*]the maximum number of threads	context(it allows)	negated: False ,passive: False
 0.630	[*A*]we[*R*]show[*A*]the results with a block size of 64[*A*]as it allows us to generate the maximum number of threads[*A*]here	context()	negated: False ,passive: False
 0.411	[*A*]we[*R*]care[*A*]about the effect not	context()	negated: False ,passive: False
@@ -444,146 +444,146 @@
 0.264	[*A*]it[*R*]allows[*A*]us to generate the maximum number of threads	context()	negated: False ,passive: False
 0.661	[*A*]we[*R*]show[*A*]the results[*A*]here	context()	negated: False ,passive: False
 0.411	[*A*]we[*R*]care[*A*]about the effect of threads	context()	negated: False ,passive: False
-[LINE#133]We increase the number of threads until we reach either the hardware limit or the limit imposed by the algorithm.
+[LINE#142] We increase the number of threads until we reach either the hardware limit or the limit imposed by the algorithm.
 0.903	[*A*]the limit[*R*]imposed[*A*]by the algorithm	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]reach[*A*]either the hardware limit or the limit	context()	negated: False ,passive: False
 0.418	[*A*]We[*R*]increase[*A*]the number of threads[*A*]until we reach either the hardware limit or the limit	context()	negated: False ,passive: False
-[LINE#134]3 shows the speedup while varying the number of threads per core.
+[LINE#143] 3 shows the speedup while varying the number of threads per core.
 0.449	[*A*]3[*R*]shows[*A*]the speedup[*A*]while varying the number of threads per core	context()	negated: False ,passive: False
-[LINE#135]We see that the speedup increases approximately linearly with the number of threads per core (as predicted by Eq.
+[LINE#144] We see that the speedup increases approximately linearly with the number of threads per core (as predicted by Eq.
 0.326	[*A*]We[*R*]see[*A*]that the speedup increases approximately linearly with the number of threads per core	context()	negated: False ,passive: False
-[LINE#136]This indicates that for this experiment, 16 is an estimated threshold of threads/core where the TMM model switches to the "PRAM range" and the number of threads no longer matters.
+[LINE#145] This indicates that for this experiment, 16 is an estimated threshold of threads/core where the TMM model switches to the "PRAM range" and the number of threads no longer matters.
 0.710	[*A*]16[*R*]is[*A*]an estimated threshold of threads / core where the TMM model switches to the number of threads no longer matters	context(This indicates)	negated: False ,passive: True
 0.930	[*A*]the TMM model switches to the number of threads[*R*]matters[*A*]no longer	context()	negated: False ,passive: True
 0.559	[*A*]16[*R*]is[*A*]an estimated threshold of threads / core	context(This indicates)	negated: False ,passive: True
 0.224	[*A*]This[*R*]indicates[*A*]that for this experiment , 16 is an estimated threshold of threads / core	context()	negated: False ,passive: False
-[LINE#137]Note that the expression for this threshold does not depend on the graph size, as it is equal to L/ZC.
+[LINE#146] Note that the expression for this threshold does not depend on the graph size, as it is equal to L/ZC.
 0.568	[*A*]it[*R*]is[*A*]equal to L/ZC	context()	negated: False ,passive: True
-[LINE#138]Also note that the speedup (both in and out of the PRAM range) is not impacted by the size of the graph (again as predicted by Eq.
-[LINE#139](10)).We see a similar performance dependence on the number of threads in Johnson's algorithm.
-[LINE#140]Here we ran experiments with 8k vertices and varied the number of edges (ranging between 32k and 32 M).
+[LINE#147] Also note that the speedup (both in and out of the PRAM range) is not impacted by the size of the graph (again as predicted by Eq.
+[LINE#148] (10)).We see a similar performance dependence on the number of threads in Johnson's algorithm.
+[LINE#149] Here we ran experiments with 8k vertices and varied the number of edges (ranging between 32k and 32 M).
 0.896	[*A*]edges[*R*]ranging[*A*]between 32 M	context()	negated: False ,passive: True
 0.677	[*A*]edges[*R*]ranging	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]varied[*A*]the number of edges[*A*]Here	context()	negated: False ,passive: False
 0.661	[*A*]we[*R*]ran[*A*]experiments with 8k vertices[*A*]Here	context()	negated: False ,passive: False
-[LINE#141] The speedup graph is shown in Fig..
+[LINE#150]  The speedup graph is shown in Fig..
 0.925	[*A*]The speedup graph[*R*]is shown[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#142]As we increase the number of threads, the speedup increases.
+[LINE#151] As we increase the number of threads, the speedup increases.
 0.883	[*A*]the speedup[*R*]increases[*A*]As we increase the number of threads	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]increase[*A*]the number of threads	context()	negated: False ,passive: False
-[LINE#143]We see two other interesting things, however.
+[LINE#152] We see two other interesting things, however.
 0.452	[*A*]We[*R*]see[*A*]two other interesting things[*A*]however	context()	negated: False ,passive: False
-[LINE#144]First, we never see the flattening of performance with increasing thread counts that is seen with the dynamic programming algorithm.
+[LINE#153] First, we never see the flattening of performance with increasing thread counts that is seen with the dynamic programming algorithm.
 0.718	[*A*]increasing thread counts[*R*]is seen	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]never see[*A*]the flattening of performance with increasing thread counts	context()	negated: True ,passive: False
-[LINE#145]Therefore, it appears that Johnson's algorithm requires more threads to reach the PRAM range where the performance no longer depends on the number of threads.
+[LINE#154] Therefore, it appears that Johnson's algorithm requires more threads to reach the PRAM range where the performance no longer depends on the number of threads.
 0.934	[*A*]the performance[*R*]depends[*A*]on the number of threads[*A*]no longer	context()	negated: False ,passive: False
 0.918	[*A*]more threads[*R*]to reach[*A*]the PRAM range	context()	negated: False ,passive: False
-[LINE#146]This is also predicted by our model as the number of threads/core required by the dynamic programming algorithm to reach PRAM range is TL/ZC while the corresponding number of threads required by Johnson's is TL/C, clearly a larger threshold.
+[LINE#155] This is also predicted by our model as the number of threads/core required by the dynamic programming algorithm to reach PRAM range is TL/ZC while the corresponding number of threads required by Johnson's is TL/C, clearly a larger threshold.
 0.911	[*A*]threads[*R*]required[*A*]by Johnson's	context()	negated: False ,passive: True
 0.911	[*A*]core[*R*]required[*A*]by the dynamic programming algorithm[*A*]to reach PRAM range	context()	negated: False ,passive: True
 0.944	[*A*]the corresponding number of threads[*R*]is[*A*]TL/C	context()	negated: False ,passive: True
 0.983	[*A*]core required by the dynamic programming algorithm to reach PRAM range[*R*]is[*A*]TL/ZC[*A*]while the corresponding number of threads required by Johnson's is TL/C	context(This is predicted)	negated: False ,passive: True
 0.144	[*A*]This[*R*]is predicted[*A*]by our model as the number of threads	context()	negated: False ,passive: True
-[LINE#147]Johnson's algorithm is not taking advantage of the fast local memory, and this factor influences the number of threads required to hide the latency to global memory.
+[LINE#156] Johnson's algorithm is not taking advantage of the fast local memory, and this factor influences the number of threads required to hide the latency to global memory.
 0.894	[*A*]threads[*R*]required[*A*]to hide the latency to global memory	context()	negated: False ,passive: True
 0.903	[*A*]this factor[*R*]influences[*A*]the number of threads	context()	negated: False ,passive: False
 0.933	[*A*]Johnson 's algorithm[*R*]is not taking[*A*]advantage[*A*]of the fast local memory	context()	negated: True ,passive: False
-[LINE#148]Second, we see that the performance depends on the number of edges.
+[LINE#157] Second, we see that the performance depends on the number of edges.
 0.878	[*A*]the performance[*R*]depends[*A*]on the number of edges	context(we see)	negated: False ,passive: False
 0.188	[*A*]we[*R*]see[*A*]that the performance depends on the number of edges	context()	negated: False ,passive: False
-[LINE#149]This is consistent with the fact that we are in the TMM range where the runtime is (mnL/TP) and not in the PRAM range where the runtime only depends on the number of vertices.
+[LINE#158] This is consistent with the fact that we are in the TMM range where the runtime is (mnL/TP) and not in the PRAM range where the runtime only depends on the number of vertices.
 0.944	[*A*]the runtime[*R*]depends[*A*]on the number of vertices[*A*]the PRAM range	context()	negated: False ,passive: False
 0.957	[*A*]the runtime[*R*]is[*A*]mnL/TP[*A*]the TMM range	context()	negated: False ,passive: True
 0.498	[*A*]we[*R*]are[*A*]in the TMM range	context()	negated: False ,passive: True
 0.238	[*A*]This[*R*]is[*A*]consistent with the fact that we are in the TMM range	context()	negated: False ,passive: True
-[LINE#150] The dependence on graph density is explored further in Fig..
+[LINE#159]  The dependence on graph density is explored further in Fig..
 0.937	[*A*]The dependence on graph density[*R*]is explored[*A*]further[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#151]Here, the runtime is plotted vs. number of graph edges for varying threads/core.
+[LINE#160] Here, the runtime is plotted vs. number of graph edges for varying threads/core.
 0.830	[*A*]the runtime[*R*]is plotted[*A*]Here	context()	negated: False ,passive: True
-[LINE#152]The linear relationship predicted by the last term of Eq.
+[LINE#161] The linear relationship predicted by the last term of Eq.
 0.925	[*A*]The linear relationship[*R*]predicted[*A*]by the last term of Eq	context()	negated: False ,passive: True
-[LINE#153](21) (for dense graphs) is illustrated clearly in the figure. .
-[LINE#154]Effect of fast local memory sizeIn highly-threaded, many-core machines, access to local memory is faster than access to slow global memory.
+[LINE#162] (21) (for dense graphs) is illustrated clearly in the figure. .
+[LINE#163] Effect of fast local memory sizeIn highly-threaded, many-core machines, access to local memory is faster than access to slow global memory.
 0.989	[*A*]Effect of fast local memory sizeIn highly-threaded, many-core machines, access to local memory[*R*]is[*A*]faster than access to slow global memory	context()	negated: False ,passive: True
-[LINE#155]Among our shortest paths algorithms, only the dynamic programming algorithm makes use of the local memory and the running time depends on this fast memory size.
+[LINE#164] Among our shortest paths algorithms, only the dynamic programming algorithm makes use of the local memory and the running time depends on this fast memory size.
 0.923	[*A*]only the dynamic programming algorithm[*R*]makes[*A*]use of the local memory and the running time[*A*]Among our shortest paths algorithms	context()	negated: False ,passive: False
-[LINE#156]In this experiment we verify the effect of this fast memory size on algorithm performance.
+[LINE#165] In this experiment we verify the effect of this fast memory size on algorithm performance.
 0.702	[*A*]we[*R*]verify[*A*]the effect of this fast memory size on algorithm performance[*A*]In this experiment	context()	negated: False ,passive: False
-[LINE#157]We set the fast memory size on our machine and measure its effect.
+[LINE#166] We set the fast memory size on our machine and measure its effect.
 0.372	[*A*]We[*R*]set[*A*]the fast memory size[*A*]on our machine	context()	negated: False ,passive: False
-[LINE#158]6 illustrates how this change has an impact on speedup across a range of threads/core.
+[LINE#167] 6 illustrates how this change has an impact on speedup across a range of threads/core.
 0.941	[*A*]this change[*R*]has[*A*]an impact on speedup across a range of threads/core	context(6 illustrates)	negated: False ,passive: False
 0.441	[*A*]6[*R*]illustrates[*A*]how this change has an impact on speedup across a range of threads/core	context()	negated: False ,passive: False
-[LINE#159]For a fixed Z (fast memory size), the maximum sub-block size B can be determined.
+[LINE#168] For a fixed Z (fast memory size), the maximum sub-block size B can be determined.
 0.957	[*A*]the maximum sub-block size B[*R*]can be determined[*A*]For a fixed Z	context()	negated: False ,passive: True
-[LINE#160]Then, varying thread counts has the same effect as previously illustrated in Fig. 3, increasing threads/core increases performance until the PRAM range is reached.
+[LINE#169] Then, varying thread counts has the same effect as previously illustrated in Fig. 3, increasing threads/core increases performance until the PRAM range is reached.
 0.803	[*A*]the PRAM range[*R*]is reached	context()	negated: False ,passive: False
 0.942	[*A*]varying thread counts[*R*]has[*A*]the same effect as previously illustrated in Fig	context()	negated: False ,passive: False
-[LINE#161]But as we can see from the figure, different block sizes have different performance for the same number of threads/core.
+[LINE#170] But as we can see from the figure, different block sizes have different performance for the same number of threads/core.
 0.943	[*A*]different block sizes[*R*]have[*A*]different performance for the same number of threads/core	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]can see[*A*]from the figure	context()	negated: False ,passive: False
-[LINE#162]This effect is predicted by Eq.
+[LINE#171] This effect is predicted by Eq.
 0.918	[*A*]This effect[*R*]is predicted[*A*]by Eq	context()	negated: False ,passive: True
-[LINE#163]As we increase the size of local memory, the performance improves, since we can use bigger blocks.
+[LINE#172] As we increase the size of local memory, the performance improves, since we can use bigger blocks.
 0.452	[*A*]we[*R*]can use[*A*]bigger blocks	context()	negated: False ,passive: False
 0.808	[*A*]the performance[*R*]improves[*A*]since we can use bigger blocks	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]increase[*A*]the size of local memory	context()	negated: False ,passive: False
-[LINE#164]In order to isolate the effect of block size from the effects of other parameters, we also plot this data in a pair of different formats in Figs.
+[LINE#173] In order to isolate the effect of block size from the effects of other parameters, we also plot this data in a pair of different formats in Figs.
 0.480	[*A*]we[*R*]plot[*A*]this data	context()	negated: False ,passive: False
-[LINE#165]7 and 8, in both cases limiting the number of threads/core to below the PRAM range (i.e., the range where speedup is linear in threads/core).
+[LINE#174] 7 and 8, in both cases limiting the number of threads/core to below the PRAM range (i.e., the range where speedup is linear in threads/core).
 0.798	[*A*]speedup[*R*]is[*A*]linear	context()	negated: False ,passive: True
 0.903	[*A*]both cases[*R*]limiting[*A*]the number of threads / core	context()	negated: False ,passive: False
-[LINE#166]The first curve shows the difference between the speedups for different block sizes.
+[LINE#175] The first curve shows the difference between the speedups for different block sizes.
 0.932	[*A*]The first curve[*R*]shows[*A*]the difference between the speedups for different block sizes	context()	negated: False ,passive: False
-[LINE#167]As the curve indicates, the delta speedup increases linearly with the number of threads/core, consistent with the model prediction of (B1-B2)T.
+[LINE#176] As the curve indicates, the delta speedup increases linearly with the number of threads/core, consistent with the model prediction of (B1-B2)T.
 0.732	[*A*]the curve[*R*]indicates	context()	negated: False ,passive: False
-[LINE#168]The second curve shows the ratio of the performance of block size 64 to block size 32, indicating a flat line, since the thread term cancels out. .
+[LINE#177] The second curve shows the ratio of the performance of block size 64 to block size 32, indicating a flat line, since the thread term cancels out. .
 0.751	[*A*]the thread term[*R*]cancels out	context()	negated: False ,passive: False
 0.932	[*A*]The second curve[*R*]shows[*A*]the ratio of the performance of block size 64	context()	negated: False ,passive: False
-[LINE#169]Comparison between the dynamic programming and Johnson's algorithmsIt is interesting to compare the dynamic programming algorithm and Johnson's algorithm with arrays, since the PRAM and the TMM model differ in predicting the relative performance of these algorithms.
+[LINE#178] Comparison between the dynamic programming and Johnson's algorithmsIt is interesting to compare the dynamic programming algorithm and Johnson's algorithm with arrays, since the PRAM and the TMM model differ in predicting the relative performance of these algorithms.
 0.803	[*A*]the TMM model[*R*]differ	context()	negated: False ,passive: False
 0.985	[*A*]Comparison between the dynamic programming and Johnson 's algorithmsIt[*R*]is[*A*]interesting[*A*]since the TMM model differ in predicting the relative performance of these algorithms	context()	negated: False ,passive: True
 0.788	[*A*]the PRAM[*R*]differ	context()	negated: False ,passive: False
 0.985	[*A*]Comparison between the dynamic programming and Johnson 's algorithmsIt[*R*]is[*A*]interesting[*A*]since the PRAM differ in predicting the relative performance of these algorithms	context()	negated: False ,passive: True
-[LINE#170]The PRAM model predicts that Johnson's algorithm should always be better.
+[LINE#179] The PRAM model predicts that Johnson's algorithm should always be better.
 0.821	[*A*]Johnson's algorithm[*R*]should be[*A*]better[*A*]always	context(The PRAM model predicts)	negated: False ,passive: True
 0.830	[*A*]The PRAM model[*R*]predicts[*A*]that Johnson's algorithm should always be better	context()	negated: False ,passive: False
-[LINE#171]However, from Section 5.2, for a small number of threads/core working on a dense graph, the TMM model predicts that dynamic programming may be better.
+[LINE#180] However, from Section 5.2, for a small number of threads/core working on a dense graph, the TMM model predicts that dynamic programming may be better.
 0.717	[*A*]dynamic programming[*R*]may be[*A*]better	context(the TMM model predicts)	negated: False ,passive: True
 0.796	[*A*]the TMM model[*R*]predicts[*A*]that dynamic programming may be better	context()	negated: False ,passive: False
 0.894	[*A*]core[*R*]working[*A*]on a dense graph	context()	negated: False ,passive: False
-[LINE#172] For the graphs with 8k vertices that we explored earlier, lgn<.
+[LINE#181]  For the graphs with 8k vertices that we explored earlier, lgn<.
 0.735	[*A*]8k vertices[*R*]explored[*A*]earlier	context()	negated: False ,passive: True
-[LINE#173]Z. Consequently, TMM predicts Johnson's algorithm is generally faster than dynamic programming for sparse graphs, but slower for relatively dense ones.
+[LINE#182] Z. Consequently, TMM predicts Johnson's algorithm is generally faster than dynamic programming for sparse graphs, but slower for relatively dense ones.
 0.934	[*A*]Johnson 's algorithm[*R*]is[*A*]slower for relatively dense ones	context(TMM predicts)	negated: False ,passive: True
 0.845	[*A*]TMM[*R*]predicts[*A*]Johnson 's algorithm is slower for relatively dense ones	context()	negated: False ,passive: False
 0.934	[*A*]Johnson 's algorithm[*R*]is[*A*]generally faster than dynamic programming for sparse graphs	context(TMM predicts)	negated: False ,passive: True
 0.898	[*A*]TMM[*R*]predicts[*A*]Johnson 's algorithm is generally faster than dynamic programming for sparse graphs	context()	negated: False ,passive: False
-[LINE#174]9 demonstrates this effect concretely.
+[LINE#183] 9 demonstrates this effect concretely.
 0.374	[*A*]9[*R*]demonstrates concretely[*A*]this effect	context()	negated: False ,passive: False
-[LINE#175]In addition, for the dense graph, the figure also shows the intersection between the runtime curves of the two algorithms.
+[LINE#184] In addition, for the dense graph, the figure also shows the intersection between the runtime curves of the two algorithms.
 0.944	[*A*]the figure[*R*]shows[*A*]the intersection between the runtime curves of the two algorithms	context()	negated: False ,passive: False
-[LINE#176]At that point (32 threads/core), dynamic programming has already been in the PRAM range with stable performance since 16 threads/core, while Johnson's has not.
+[LINE#185] At that point (32 threads/core), dynamic programming has already been in the PRAM range with stable performance since 16 threads/core, while Johnson's has not.
 0.788	[*A*]Johnson's[*R*]has not	context()	negated: True ,passive: False
 0.827	[*A*]dynamic programming[*R*]has been[*A*]in the PRAM range[*A*]with stable performance since 16 threads/core[*A*]while Johnson's has not[*A*]At that point[*A*]already	context()	negated: False ,passive: True
-[LINE#177]Its runtime is still benefiting by increasing the threads/core.
+[LINE#186] Its runtime is still benefiting by increasing the threads/core.
 0.673	[*A*]Its runtime[*R*]is benefiting[*A*]by increasing the threads/core[*A*]still	context()	negated: False ,passive: True
-[LINE#178]As a result, we predict that Johnson's runtime will flip to be the better one if given sufficient threads.
+[LINE#187] As a result, we predict that Johnson's runtime will flip to be the better one if given sufficient threads.
 0.791	[*A*]Johnson's runtime[*R*]will flip[*A*]to be the better one	context(we predict)	negated: False ,passive: False
 0.309	[*A*]we[*R*]predict[*A*]that Johnson's runtime will flip to be the better one	context()	negated: False ,passive: False
 0.806	[*A*]Johnson's runtime[*R*]to be[*A*]the better one	context()	negated: False ,passive: True
-[LINE#179] The peak performance of Johnson's being better than that of dynamic programmingis consistent with what the PRAM model predicts.
+[LINE#188+189]  The peak performance of Johnson's being better than that of dynamic programmingis consistent with what the PRAM model predicts.
 0.385	[*A*]'s[*R*]being better than[*A*]that	context()	negated: False ,passive: False
 0.803	[*A*]the PRAM model[*R*]predicts	context()	negated: False ,passive: False
 0.929	[*A*]The peak performance of Johnson's[*R*]being[*A*]better than that of dynamic programmingis consistent with what the PRAM model predicts	context()	negated: False ,passive: True
-[LINE#180], many-core devices such as GPUs have gained popularity in the last decade; both NVIDIA and AMD manufacture general purpose GPUs that fall in this category.
+[LINE#190] , many-core devices such as GPUs have gained popularity in the last decade; both NVIDIA and AMD manufacture general purpose GPUs that fall in this category.
 0.943	[*A*]many - core devices such as GPUs[*R*]have gained[*A*]popularity[*A*]in the last decade	context(AMD manufacture)	negated: False ,passive: False
 0.850	[*A*]AMD[*R*]manufacture[*A*]general purpose GPUs	context()	negated: False ,passive: False
 0.943	[*A*]many - core devices such as GPUs[*R*]have gained[*A*]popularity[*A*]in the last decade	context(both NVIDIA manufacture)	negated: False ,passive: False
 0.862	[*A*]both NVIDIA[*R*]manufacture[*A*]general purpose GPUs	context()	negated: False ,passive: False
 0.940	[*A*]general purpose GPUs[*R*]fall[*A*]in this category	context()	negated: False ,passive: True
-[LINE#181]The important distinction between these machines and traditional multi-core machines is that these devices provide a large number of low-overhead hardware threads with low-overhead context switching between them; this fast context-switch mechanism is used to hide the memory access latency of transferring data from slow large (and often global) memory to fast, small (and typically local) memory.
+[LINE#191] The important distinction between these machines and traditional multi-core machines is that these devices provide a large number of low-overhead hardware threads with low-overhead context switching between them; this fast context-switch mechanism is used to hide the memory access latency of transferring data from slow large (and often global) memory to fast, small (and typically local) memory.
 0.946	[*A*]this fast context - switch mechanism[*R*]is used[*A*]to hide the memory access latency of transferring data from slow large ( and often global ) memory to fast , typically local ) memory	context(The important distinction between these machines and traditional multi-core machines is)	negated: False ,passive: True
 0.872	[*A*]The important distinction between these machines and traditional multi-core machines[*R*]is[*A*]that these devices provide a large number of low - overhead hardware threads with low - overhead context switching between them ; this fast context - switch mechanism is used to hide the memory access latency of transferring data from slow large ( and often global ) memory to fast , typically local ) memory	context()	negated: False ,passive: True
 0.949	[*A*]this fast context - switch mechanism[*R*]to hide[*A*]the memory access latency of transferring data from slow large ( and often global ) memory to fast , typically local ) memory	context()	negated: False ,passive: False
@@ -592,49 +592,49 @@
 0.872	[*A*]The important distinction between these machines and traditional multi-core machines[*R*]is[*A*]that these devices provide a large number of low - overhead hardware threads with low - overhead context switching between them ; this fast context - switch mechanism is used to hide the memory access latency of transferring data from slow large ( and often global ) memory to fast , small ( ) memory	context()	negated: False ,passive: True
 0.949	[*A*]this fast context - switch mechanism[*R*]to hide[*A*]the memory access latency of transferring data from slow large ( and often global ) memory to fast , small ( ) memory	context()	negated: False ,passive: False
 0.860	[*A*]low - overhead context[*R*]switching[*A*]between them	context()	negated: False ,passive: False
-[LINE#182]Researchers have designed algorithms to solve many interesting problems for these devices, such as GPU sorting or hashing [1-4], linear algebra [5-7], dynamic programming [8,9], graph algorithms [10-13], and many other classic algorithms [14,15].
+[LINE#192] Researchers have designed algorithms to solve many interesting problems for these devices, such as GPU sorting or hashing [1-4], linear algebra [5-7], dynamic programming [8,9], graph algorithms [10-13], and many other classic algorithms [14,15].
 0.594	[*A*]GPU[*R*]hashing[*A*]1-4	context()	negated: False ,passive: False
 0.634	[*A*]GPU[*R*]sorting	context()	negated: False ,passive: False
 0.942	[*A*]Researchers[*R*]have designed[*A*]algorithms to solve many interesting problems for these devices, such as GPU sorting or hashing [1-4]	context()	negated: False ,passive: False
-[LINE#183]These projects generally report impressive gains in performance.
+[LINE#193] These projects generally report impressive gains in performance.
 0.887	[*A*]These projects[*R*]report[*A*]impressive gains in performance	context()	negated: False ,passive: False
-[LINE#184]These devices appear to be here to stay.
+[LINE#194] These devices appear to be here to stay.
 0.698	[*A*]These devices[*R*]to stay	context()	negated: False ,passive: False
 0.735	[*A*]These devices[*R*]to be[*A*]here[*A*]to stay	context()	negated: False ,passive: True
 0.732	[*A*]These devices[*R*]appear	context()	negated: False ,passive: False
-[LINE#185]While there is a lot of folk wisdom on how to design good algorithms for these highly-threaded machines, in addition to a significant body of work on performance analysis [16-20], there are no systematic theoretical models to analyze the performance of programs on these machines.
+[LINE#195] While there is a lot of folk wisdom on how to design good algorithms for these highly-threaded machines, in addition to a significant body of work on performance analysis [16-20], there are no systematic theoretical models to analyze the performance of programs on these machines.
 0.919	[*A*]no systematic theoretical models[*R*]to analyze[*A*]the performance of programs on these machines	context()	negated: False ,passive: False
-[LINE#186]We are interested in analyzing and characterizing performance of algorithms on these highly-threaded, many-core machines in a more abstract, algorithmic, and systematic manner.
+[LINE#196] We are interested in analyzing and characterizing performance of algorithms on these highly-threaded, many-core machines in a more abstract, algorithmic, and systematic manner.
 0.569	[*A*]We[*R*]are[*A*]interested in characterizing performance of algorithms on these highly - threaded , many - core machines in a more systematic manner	context()	negated: False ,passive: True
 0.569	[*A*]We[*R*]are[*A*]interested in characterizing performance of algorithms on these highly - threaded , many - core machines in a more algorithmic manner	context()	negated: False ,passive: True
 0.569	[*A*]We[*R*]are[*A*]interested in characterizing performance of algorithms on these highly - threaded , many - core machines in a more abstract manner	context()	negated: False ,passive: True
 0.225	[*A*]We[*R*]are[*A*]interested in analyzing	context()	negated: False ,passive: True
-[LINE#187]Theoretical analysis relies upon models that represent underlying assumptions; if a model does not capture the important aspects of target machines and programs, then the analysis is not predictive of real performance.
+[LINE#197] Theoretical analysis relies upon models that represent underlying assumptions; if a model does not capture the important aspects of target machines and programs, then the analysis is not predictive of real performance.
 0.903	[*A*]a model[*R*]does not capture[*A*]the important aspects of target programs	context()	negated: True ,passive: False
 0.878	[*A*]Theoretical analysis[*R*]relies[*A*]upon models	context(the analysis is not)	negated: False ,passive: False
 0.878	[*A*]the analysis[*R*]is not[*A*]predictive of real performance	context()	negated: True ,passive: True
 0.903	[*A*]a model[*R*]does not capture[*A*]the important aspects of target machines	context()	negated: True ,passive: False
 0.877	[*A*]models[*R*]represent[*A*]underlying assumptions	context()	negated: False ,passive: False
-[LINE#188]Over the years, computer scientists have designed various models to capture important aspects of the machines that we use.
+[LINE#198] Over the years, computer scientists have designed various models to capture important aspects of the machines that we use.
 0.878	[*A*]computer scientists[*R*]have designed various models to capture[*A*]important aspects of the machines	context(computer scientists have designed)	negated: False ,passive: False
 0.928	[*A*]computer scientists[*R*]have designed[*A*]various models[*A*]to capture important aspects of the machines[*A*]Over the years	context()	negated: False ,passive: False
 0.884	[*A*]the machines[*R*]use[*A*]we	context()	negated: False ,passive: True
-[LINE#189]The most fundamental model that is used to analyze sequential algorithms is the Random Access Machine (RAM) model [21], which we teach undergraduates in their first algorithms class.
+[LINE#199] The most fundamental model that is used to analyze sequential algorithms is the Random Access Machine (RAM) model [21], which we teach undergraduates in their first algorithms class.
 0.309	[*A*]we[*R*]teach[*A*]undergraduates[*A*]in their first algorithms class	context()	negated: False ,passive: False
 0.973	[*A*]The most fundamental model that is used to analyze sequential algorithms[*R*]is[*A*]the Random Access Machine (RAM) model	context()	negated: False ,passive: True
 0.905	[*A*]The most fundamental model[*R*]to analyze[*A*]sequential algorithms	context()	negated: False ,passive: False
 0.905	[*A*]The most fundamental model[*R*]is used[*A*]to analyze sequential algorithms	context()	negated: False ,passive: True
-[LINE#190]This model assumes that all operations, including memory accesses, take unit time.
+[LINE#200] This model assumes that all operations, including memory accesses, take unit time.
 0.903	[*A*]all operations, including memory accesses[*R*]take[*A*]unit time	context(This model assumes)	negated: False ,passive: False
 0.814	[*A*]This model[*R*]assumes[*A*]that all operations, including memory accesses, take unit time	context()	negated: False ,passive: False
-[LINE#191]While this model is a good predictor of performance on computationally intensive programs, it does not properly capture the important characteristics of the memory hierarchy of modern machines.
+[LINE#201] While this model is a good predictor of performance on computationally intensive programs, it does not properly capture the important characteristics of the memory hierarchy of modern machines.
 0.569	[*A*]it[*R*]does not properly capture[*A*]the important characteristics of the memory hierarchy of modern machines	context()	negated: True ,passive: False
 0.925	[*A*]this model[*R*]is[*A*]a good predictor of performance on computationally intensive programs	context()	negated: False ,passive: True
-[LINE#192]Aggarwal and Vitter proposed the Disk Access Machine (DAM) model [22] which counts the number of memory transfers from slow to fast memory instead of simply counting the number of memory accesses by the program.
+[LINE#202] Aggarwal and Vitter proposed the Disk Access Machine (DAM) model [22] which counts the number of memory transfers from slow to fast memory instead of simply counting the number of memory accesses by the program.
 0.932	[*A*]Vitter[*R*]proposed[*A*]the Disk Access Machine ( DAM ) model	context()	negated: False ,passive: False
 0.940	[*A*]the Disk Access Machine ( DAM ) model[*R*]counts[*A*]the number of memory transfers from slow to fast memory	context()	negated: False ,passive: False
 0.932	[*A*]Aggarwal[*R*]proposed[*A*]the Disk Access Machine ( DAM ) model	context()	negated: False ,passive: False
-[LINE#193]Therefore, it better captures the fact that modern machines have memory hierarchies and exploiting spatial and temporal locality on these machines can lead to better performance.
+[LINE#203] Therefore, it better captures the fact that modern machines have memory hierarchies and exploiting spatial and temporal locality on these machines can lead to better performance.
 0.878	[*A*]the fact[*R*]exploiting[*A*]temporal locality on these machines	context(it captures the fact exploiting temporal locality on these machines can lead)	negated: False ,passive: False
 0.928	[*A*]the fact exploiting temporal locality on these machines[*R*]can lead[*A*]to better performance	context(it captures)	negated: False ,passive: False
 0.462	[*A*]it[*R*]captures[*A*]the fact exploiting temporal locality on these machines can lead to better performance	context()	negated: False ,passive: False
@@ -644,127 +644,127 @@
 0.882	[*A*]memory hierarchies[*R*]can lead[*A*]to better performance	context(modern machines have)	negated: False ,passive: False
 0.882	[*A*]modern machines[*R*]have[*A*]memory hierarchies can lead to better performance	context()	negated: False ,passive: False
 0.290	[*A*]it[*R*]captures[*A*]the fact that modern machines have memory hierarchies can lead to better performance	context()	negated: False ,passive: False
-[LINE#194]There are also a number of other models that consider the memory access costs of sequential algorithms in different ways [23-29].For parallel computing, the analogue for the RAM model is the Parallel Random Access Machine (PRAM) model [30], and there is a large body of work describing and analyzing algorithms in the PRAM model [31,32].
+[LINE#204] There are also a number of other models that consider the memory access costs of sequential algorithms in different ways [23-29].For parallel computing, the analogue for the RAM model is the Parallel Random Access Machine (PRAM) model [30], and there is a large body of work describing and analyzing algorithms in the PRAM model [31,32].
 0.927	[*A*]other models[*R*]consider[*A*]the memory access costs of sequential algorithms in [ 23-29	context()	negated: False ,passive: False
 0.887	[*A*]other models[*R*]consider[*A*]the memory access costs of sequential algorithms	context()	negated: False ,passive: False
-[LINE#195] In the PRAM model, the algorithm's complexity is analyzed in terms of its work-the time taken by the algorithm on 1 processor, and span (also called depth and critical-pathlength)-the time taken by the algorithm on an infinite number of processors.
+[LINE#205+206]  In the PRAM model, the algorithm's complexity is analyzed in terms of its work-the time taken by the algorithm on 1 processor, and span (also called depth and critical-pathlength)-the time taken by the algorithm on an infinite number of processors.
 0.897	[*A*]the time span[*R*]called[*A*]critical - pathlength	context()	negated: False ,passive: True
 0.903	[*A*]the time[*R*]taken[*A*]by the algorithm on an infinite number of processors	context()	negated: False ,passive: True
 0.897	[*A*]the time span[*R*]called[*A*]depth	context()	negated: False ,passive: True
 0.903	[*A*]the time[*R*]taken[*A*]by the algorithm	context()	negated: False ,passive: True
 0.953	[*A*]the algorithm 's complexity[*R*]is analyzed[*A*]In the PRAM model	context()	negated: False ,passive: True
-[LINE#196] Given a machine with P processors, a PRAM algorithm with work W and span S.
-[LINE#197]The PRAM model also ignores the vagaries of the memory hierarchy and assumes that each memory access by the algorithm takes unit time.
+[LINE#207]  Given a machine with P processors, a PRAM algorithm with work W and span S.
+[LINE#208] The PRAM model also ignores the vagaries of the memory hierarchy and assumes that each memory access by the algorithm takes unit time.
 0.913	[*A*]each memory access by the algorithm[*R*]takes[*A*]unit time	context(The PRAM model assumes)	negated: False ,passive: False
 0.841	[*A*]The PRAM model[*R*]assumes[*A*]that each memory access by the algorithm takes unit time	context()	negated: False ,passive: False
 0.922	[*A*]The PRAM model[*R*]ignores[*A*]the vagaries of the memory hierarchy	context()	negated: False ,passive: False
-[LINE#198]For modern machines, however, this assumption seldom holds.
+[LINE#209] For modern machines, however, this assumption seldom holds.
 0.949	[*A*]this assumption[*R*]holds[*A*]For modern machines[*A*]seldom	context()	negated: False ,passive: True
-[LINE#199]Therefore, researchers have designed various models that capture memory hierarchies for various types of machines such as distributed memory machines [33-35], shared memory machines and multi-cores [36-40], or the combination of the two [41,42].All of these models capture particular capabilities and properties of the respective target machines, namely shared memory machines or distributed memory machines.
+[LINE#210] Therefore, researchers have designed various models that capture memory hierarchies for various types of machines such as distributed memory machines [33-35], shared memory machines and multi-cores [36-40], or the combination of the two [41,42].All of these models capture particular capabilities and properties of the respective target machines, namely shared memory machines or distributed memory machines.
 0.919	[*A*]All of these models[*R*]capture[*A*]particular capabilities and properties of the respective target machines	context()	negated: False ,passive: False
 0.887	[*A*]various models[*R*]capture[*A*]memory hierarchies	context()	negated: False ,passive: False
 0.905	[*A*]the respective target machines[*R*]namely shared[*A*]memory machines	context()	negated: False ,passive: False
-[LINE#200]While superficially highly-threaded, many-core machines such as GPUs are shared memory machines, their characteristics are very different from traditional multi-core or multiprocessor shared memory machines.
+[LINE#211] While superficially highly-threaded, many-core machines such as GPUs are shared memory machines, their characteristics are very different from traditional multi-core or multiprocessor shared memory machines.
 0.739	[*A*]their characteristics[*R*]are[*A*]very different from traditional multi-core or multiprocessor shared memory machines	context()	negated: False ,passive: True
-[LINE#201]The most important distinction between the multi-cores and highly-threaded, many-core machines is the number of threads per core.
+[LINE#212] The most important distinction between the multi-cores and highly-threaded, many-core machines is the number of threads per core.
 0.980	[*A*]The most important distinction between the multi-cores and highly-threaded, many-core machines[*R*]is[*A*]the number of threads per core	context()	negated: False ,passive: True
-[LINE#202] On multi-core machines, context switch cost is high, and most models nominally assume that only one (or a small constant number of)thread(s) are running on each machine and this thread blocks when there is a memory access.
+[LINE#213+214]  On multi-core machines, context switch cost is high, and most models nominally assume that only one (or a small constant number of)thread(s) are running on each machine and this thread blocks when there is a memory access.
 0.835	[*A*]most models[*R*]nominally assume[*A*]this thread blocks[*A*]when there is a memory access	context()	negated: False ,passive: False
 0.810	[*A*]most models[*R*]assume[*A*]only one ( when there is a memory access	context()	negated: False ,passive: False
 0.960	[*A*]context switch cost[*R*]is[*A*]high[*A*]On multi-core machines	context()	negated: False ,passive: True
-[LINE#203]Therefore, many models consider the number of memory transfers from slow memory to fast memory as a performance measure, and algorithms are designed to minimize these, since memory transfers take a significant amount of time.
+[LINE#215] Therefore, many models consider the number of memory transfers from slow memory to fast memory as a performance measure, and algorithms are designed to minimize these, since memory transfers take a significant amount of time.
 0.903	[*A*]memory transfers[*R*]take[*A*]a significant amount of time	context()	negated: False ,passive: False
 0.716	[*A*]algorithms[*R*]to minimize[*A*]these	context()	negated: False ,passive: False
 0.749	[*A*]algorithms[*R*]are designed[*A*]to minimize these	context()	negated: False ,passive: True
 0.937	[*A*]many models[*R*]consider[*A*]the number of memory transfers from slow memory to fast memory as a performance measure, and algorithms are designed to minimize these	context()	negated: False ,passive: False
-[LINE#204]In contrast, highly-threaded, many-core machines are explicitly designed to have a large number of threads per core and a fast context switching mechanism.
+[LINE#216] In contrast, highly-threaded, many-core machines are explicitly designed to have a large number of threads per core and a fast context switching mechanism.
 0.911	[*A*]a fast context[*R*]switching[*A*]mechanism	context()	negated: False ,passive: False
 0.905	[*A*]many - core machines[*R*]to have[*A*]a large number of threads per a fast context	context()	negated: False ,passive: False
 0.948	[*A*]many - core machines[*R*]are explicitly designed[*A*]to have a large number of threads per a fast context	context()	negated: False ,passive: True
 0.934	[*A*]highly - threaded , many - core machines[*R*]to have[*A*]a large number of threads per core	context()	negated: False ,passive: False
 0.943	[*A*]highly - threaded , many - core machines[*R*]are explicitly designed[*A*]to have a large number of threads per core	context()	negated: False ,passive: True
-[LINE#205]Highly-threaded many-cores are explicitly designed to hide memory latency; if a thread stalls on a memory operation, some other thread can be scheduled in its place.
+[LINE#217] Highly-threaded many-cores are explicitly designed to hide memory latency; if a thread stalls on a memory operation, some other thread can be scheduled in its place.
 0.913	[*A*]Highly-threaded many-cores[*R*]are explicitly designed[*A*]to hide memory latency	context(some other thread can be scheduled)	negated: False ,passive: True
 0.811	[*A*]some other thread[*R*]can be scheduled[*A*]in its place	context()	negated: False ,passive: True
 0.925	[*A*]a thread[*R*]stalls[*A*]on a memory operation	context()	negated: False ,passive: True
 0.921	[*A*]Highly-threaded many-cores[*R*]to hide[*A*]memory latency	context()	negated: False ,passive: False
-[LINE#206]In principle, the number of memory transfers does not matter as long as there are enough threads to hide their latency.
+[LINE#218] In principle, the number of memory transfers does not matter as long as there are enough threads to hide their latency.
 0.835	[*A*]enough threads[*R*]to hide[*A*]their latency	context()	negated: False ,passive: False
 0.871	[*A*]the number of memory transfers[*R*]does not matter[*A*]as long as there are enough threads	context()	negated: True ,passive: True
-[LINE#207]Therefore, if there are enough threads, we should, in principle, be able to use PRAM algorithms on such machines, since we can ignore the effect of memory transfers which is exactly what PRAM model does.
+[LINE#219] Therefore, if there are enough threads, we should, in principle, be able to use PRAM algorithms on such machines, since we can ignore the effect of memory transfers which is exactly what PRAM model does.
 0.741	[*A*]PRAM model[*R*]does	context(the effect of memory transfers is)	negated: False ,passive: False
 0.928	[*A*]the effect of memory transfers[*R*]is[*A*]exactly what PRAM model does	context()	negated: False ,passive: True
 0.614	[*A*]we[*R*]can ignore[*A*]the effect of memory transfers which is exactly what PRAM model does	context()	negated: False ,passive: False
 0.456	[*A*]we[*R*]to use[*A*]PRAM algorithms[*A*]on such machines	context()	negated: False ,passive: False
 0.393	[*A*]we[*R*]should be[*A*]able to use PRAM algorithms on such machines	context()	negated: False ,passive: True
-[LINE#208]However, the number of threads required to reach the point where one gets PRAM performance depends on both the algorithm and the hardware.
+[LINE#220] However, the number of threads required to reach the point where one gets PRAM performance depends on both the algorithm and the hardware.
 0.896	[*A*]the number of threads[*R*]depends on both the hardware to reach[*A*]the point where one gets PRAM performance	context(the number of threads depends)	negated: False ,passive: False
 0.880	[*A*]the number of threads[*R*]depends[*A*]on both the hardware	context()	negated: False ,passive: False
 0.896	[*A*]the number of threads[*R*]depends on both the algorithm to reach[*A*]the point where one gets PRAM performance	context(the number of threads depends)	negated: False ,passive: False
 0.880	[*A*]the number of threads[*R*]depends[*A*]on both the algorithm	context()	negated: False ,passive: False
 0.773	[*A*]one[*R*]gets[*A*]PRAM performance[*A*]the point	context()	negated: False ,passive: False
 0.713	[*A*]threads[*R*]required	context()	negated: False ,passive: False
-[LINE#209] Since no highly-threaded, many-core machine allows an infinite number of threads, it is important to understand both (1) how many threads does a particular algorithm need to achieve PRAM performance, and (2) how does an algorithm perform when it has fewer threads than required to get PRAM performance?.
+[LINE#221+222]  Since no highly-threaded, many-core machine allows an infinite number of threads, it is important to understand both (1) how many threads does a particular algorithm need to achieve PRAM performance, and (2) how does an algorithm perform when it has fewer threads than required to get PRAM performance?.
 0.568	[*A*]it[*R*]has[*A*]fewer threads than required to get PRAM performance	context()	negated: False ,passive: False
 0.948	[*A*]no highly - threaded , many - core machine[*R*]allows[*A*]an infinite number of threads	context()	negated: False ,passive: False
-[LINE#210]In this paper, we attempt to characterize these properties of algorithms.
+[LINE#223] In this paper, we attempt to characterize these properties of algorithms.
 0.388	[*A*]we[*R*]attempt to characterize[*A*]these properties of algorithms	context(we attempt)	negated: False ,passive: False
 0.531	[*A*]we[*R*]attempt[*A*]to characterize these properties of algorithms[*A*]In this paper	context()	negated: False ,passive: False
-[LINE#211]To motivate this enterprise and to understand the importance of high thread counts on highly-threaded, many-core machines, let us consider a simple application that performs Bloom filter set membership tests on an input stream of biosequence data on GPUs [3].
+[LINE#224] To motivate this enterprise and to understand the importance of high thread counts on highly-threaded, many-core machines, let us consider a simple application that performs Bloom filter set membership tests on an input stream of biosequence data on GPUs [3].
 0.939	[*A*]Bloom filter[*R*]set[*A*]membership tests[*A*]on an input stream of biosequence data[*A*]on GPUs	context(a simple application performs)	negated: False ,passive: False
 0.939	[*A*]Bloom filter[*R*]set[*A*]membership tests[*A*]on an input stream of biosequence data[*A*]on GPUs	context(a simple application performs)	negated: False ,passive: False
 0.928	[*A*]a simple application[*R*]performs[*A*]Bloom filter set membership tests on an input stream of biosequence data on GPUs [ 3	context()	negated: False ,passive: False
-[LINE#212]The problem is embarrassingly parallel, each set membership test is independent of every other membership test.
+[LINE#225] The problem is embarrassingly parallel, each set membership test is independent of every other membership test.
 0.777	[*A*]The problem[*R*]is[*A*]embarrassingly parallel	context(each set membership test is)	negated: False ,passive: True
 0.923	[*A*]each set membership test[*R*]is[*A*]independent of every other membership test	context()	negated: False ,passive: True
-[LINE#213]1 shows the performance of this application, varying the number of threads per processor core, for two distinct GPUs.
+[LINE#226] 1 shows the performance of this application, varying the number of threads per processor core, for two distinct GPUs.
 0.449	[*A*]1[*R*]shows[*A*]the performance of this application[*A*]varying the number of threads per processor	context()	negated: False ,passive: False
-[LINE#214]For both machines, the pattern is quite similar, at low thread counts, the performance increases (roughly linearly) with the number of threads, up until a transition region, after which the performance no longer increases with increasing thread count.
+[LINE#227] For both machines, the pattern is quite similar, at low thread counts, the performance increases (roughly linearly) with the number of threads, up until a transition region, after which the performance no longer increases with increasing thread count.
 0.934	[*A*]the performance[*R*]increases[*A*]with increasing thread count[*A*]no longer	context()	negated: False ,passive: True
 0.813	[*A*]the pattern[*R*]is[*A*]quite similar	context()	negated: False ,passive: True
-[LINE#215]While the location of the transition region is different for distinct GPU models, this general pattern is found in many applications.
+[LINE#228] While the location of the transition region is different for distinct GPU models, this general pattern is found in many applications.
 0.911	[*A*]this general pattern[*R*]is found[*A*]in many applications	context()	negated: False ,passive: True
 0.956	[*A*]the location of the transition region[*R*]is[*A*]different for distinct GPU models	context()	negated: False ,passive: True
-[LINE#216]Once sufficient threads are present, the PRAM model adequately describes the performance of the application and increasing the number of threads no longer helps.
+[LINE#229] Once sufficient threads are present, the PRAM model adequately describes the performance of the application and increasing the number of threads no longer helps.
 0.976	[*A*]the PRAM model[*R*]adequately describes[*A*]the performance of the increasing the number of threads no longer helps[*A*]Once sufficient threads are present	context()	negated: False ,passive: False
 0.871	[*A*]the performance of the application[*R*]helps[*A*]no longer	context(the PRAM model adequately describes)	negated: False ,passive: False
 0.950	[*A*]the PRAM model[*R*]adequately describes[*A*]the performance of the application no longer helps[*A*]Once sufficient threads are present	context()	negated: False ,passive: False
 0.767	[*A*]sufficient threads[*R*]are[*A*]present	context()	negated: False ,passive: True
-[LINE#217]In this work, we propose the Threaded Many-core Memory (TMM) model that captures the performance characteristics of these highly-threaded, many-core machines.
+[LINE#230] In this work, we propose the Threaded Many-core Memory (TMM) model that captures the performance characteristics of these highly-threaded, many-core machines.
 0.950	[*A*]the Threaded Many-core Memory (TMM) model[*R*]captures[*A*]the performance characteristics of these highly-threaded, many-core machines	context()	negated: False ,passive: False
 0.740	[*A*]we[*R*]propose[*A*]the Threaded Many-core Memory (TMM) model[*A*]In this work	context()	negated: False ,passive: False
-[LINE#218]This model explicitly models the large number of threads per processor and the memory latency to slow memory.
+[LINE#231] This model explicitly models the large number of threads per processor and the memory latency to slow memory.
 0.903	[*A*]This model[*R*]explicitly models[*A*]the large number of threads per the memory latency[*A*]to slow memory	context()	negated: False ,passive: False
 0.903	[*A*]This model[*R*]explicitly models[*A*]the large number of threads per processor	context()	negated: False ,passive: False
-[LINE#219]Note that while we motivate this model for highly-threaded many-core machines with synchronous computations, in principle, it can be used in any system which has fast context switching and enough threads to hide memory latency.
+[LINE#232] Note that while we motivate this model for highly-threaded many-core machines with synchronous computations, in principle, it can be used in any system which has fast context switching and enough threads to hide memory latency.
 0.913	[*A*]any system[*R*]has[*A*]fast enough threads to hide memory latency	context()	negated: False ,passive: False
 0.913	[*A*]any system[*R*]has[*A*]fast context switching	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]motivate[*A*]this model for highly - threaded many - core machines with synchronous computations	context()	negated: False ,passive: False
-[LINE#220]Typical examples of such machines include both NVIDIA and AMD/ATI GPUs and the YarcData uRiKA system.
+[LINE#233] Typical examples of such machines include both NVIDIA and AMD/ATI GPUs and the YarcData uRiKA system.
 0.937	[*A*]Typical examples of such machines[*R*]include[*A*]the YarcData uRiKA system	context()	negated: False ,passive: True
 0.937	[*A*]Typical examples of such machines[*R*]include[*A*]AMD	context()	negated: False ,passive: True
 0.937	[*A*]Typical examples of such machines[*R*]include[*A*]both NVIDIA	context()	negated: False ,passive: True
-[LINE#221]We do not try to model the Intel Xeon Phi, due to its limited use of threading for latency hiding.
+[LINE#234] We do not try to model the Intel Xeon Phi, due to its limited use of threading for latency hiding.
 0.433	[*A*]We[*R*]do not try to model[*A*]the Intel Xeon Phi	context(We do not try)	negated: True ,passive: False
 0.399	[*A*]We[*R*]do not try[*A*]to model the Intel Xeon Phi, due to its limited use of threading for latency hiding	context()	negated: True ,passive: False
-[LINE#222]In contrast, its approach to hide memory latency is primarily based on strided memory access patterns associated with vector computation.
+[LINE#235] In contrast, its approach to hide memory latency is primarily based on strided memory access patterns associated with vector computation.
 0.919	[*A*]strided memory access patterns[*R*]associated[*A*]with vector computation	context()	negated: False ,passive: True
 0.629	[*A*]its approach to hide memory latency[*R*]is based[*A*]on strided memory access patterns	context()	negated: False ,passive: True
-[LINE#223]If the latency of transfers from slow memory to fast memory is small, or if the number of threads per processor is infinite, then this model generally provides the same analysis results as the PRAM analysis.
+[LINE#236] If the latency of transfers from slow memory to fast memory is small, or if the number of threads per processor is infinite, then this model generally provides the same analysis results as the PRAM analysis.
 0.944	[*A*]this model[*R*]provides[*A*]the same analysis results as the PRAM analysis[*A*]then	context()	negated: False ,passive: False
 0.948	[*A*]the number of threads per processor[*R*]is[*A*]infinite	context()	negated: False ,passive: True
 0.904	[*A*]the latency of transfers from slow memory to fast memory[*R*]is[*A*]small	context()	negated: False ,passive: True
-[LINE#224]It, however, provides more intuition.
+[LINE#237] It, however, provides more intuition.
 0.411	[*A*]It[*R*]provides[*A*]more intuition	context()	negated: False ,passive: False
-[LINE#225]Ideally, we want to get the PRAM performance for algorithms using the fewest number of threads possible, since threads do have overhead.
+[LINE#238] Ideally, we want to get the PRAM performance for algorithms using the fewest number of threads possible, since threads do have overhead.
 0.433	[*A*]we[*R*]want to get[*A*]the PRAM performance for algorithms	context(we want)	negated: False ,passive: False
 0.503	[*A*]we[*R*]want[*A*]to get the PRAM performance for algorithms	context()	negated: False ,passive: False
 0.749	[*A*]threads[*R*]do have[*A*]overhead	context()	negated: False ,passive: False
 0.894	[*A*]algorithms[*R*]using[*A*]the fewest number of threads possible	context()	negated: False ,passive: False
-[LINE#226]This model can help us pick such algorithms.
+[LINE#239] This model can help us pick such algorithms.
 0.457	[*A*]us[*R*]pick[*A*]such algorithms	context(This model can help)	negated: False ,passive: False
 0.796	[*A*]This model[*R*]can help[*A*]us pick such algorithms	context()	negated: False ,passive: False
-[LINE#227]It also captures the reality of when memory latency is large and the number of threads is large but finite.
+[LINE#240] It also captures the reality of when memory latency is large and the number of threads is large but finite.
 0.889	[*A*]the reality of when memory latency is the number of threads[*R*]is[*A*]finite	context(It captures)	negated: False ,passive: True
 0.462	[*A*]It[*R*]captures[*A*]the reality of when memory latency is the number of threads is finite	context()	negated: False ,passive: False
 0.889	[*A*]the reality of when memory latency is the number of threads[*R*]is[*A*]large	context(It captures)	negated: False ,passive: True
@@ -772,105 +772,105 @@
 0.925	[*A*]memory latency[*R*]is[*A*]the number of threads	context()	negated: False ,passive: True
 0.813	[*A*]memory latency[*R*]is[*A*]large	context()	negated: False ,passive: True
 0.411	[*A*]It[*R*]captures[*A*]the reality of when memory latency is large	context()	negated: False ,passive: False
-[LINE#228]In particular, it can distinguish between algorithms that have the same PRAM analysis, but one may be better at hiding latency than another with a bounded number of threads.
+[LINE#241] In particular, it can distinguish between algorithms that have the same PRAM analysis, but one may be better at hiding latency than another with a bounded number of threads.
 0.657	[*A*]one[*R*]may be[*A*]better at hiding latency than another with a bounded number of threads	context()	negated: False ,passive: True
 0.896	[*A*]algorithms[*R*]have[*A*]the same PRAM analysis	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]can distinguish[*A*]between algorithms	context()	negated: False ,passive: False
-[LINE#229]This model is a high-level model meant to be generally applicable to a number of machines which allow a large number of threads with fast context switching.
+[LINE#242] This model is a high-level model meant to be generally applicable to a number of machines which allow a large number of threads with fast context switching.
 0.877	[*A*]machines[*R*]allow[*A*]a large number of threads	context()	negated: False ,passive: False
 0.952	[*A*]This model[*R*]is[*A*]a high-level model meant to be generally applicable to a number of machines	context()	negated: False ,passive: True
-[LINE#230]Therefore, it abstracts away many implementation details of either the machine or the algorithm.
+[LINE#243] Therefore, it abstracts away many implementation details of either the machine or the algorithm.
 0.569	[*A*]it[*R*]abstracts[*A*]away[*A*]many implementation details of either the machine or the algorithm	context()	negated: False ,passive: False
-[LINE#231]We also assume that the hardware provides 0-cost and perfect scheduling between threads.
+[LINE#244] We also assume that the hardware provides 0-cost and perfect scheduling between threads.
 0.878	[*A*]the hardware[*R*]provides[*A*]perfect scheduling between threads	context(We assume)	negated: False ,passive: False
 0.164	[*A*]We[*R*]assume[*A*]that the hardware provides perfect scheduling between threads	context()	negated: False ,passive: False
 0.878	[*A*]the hardware[*R*]provides[*A*]0 - cost scheduling between threads	context(We assume)	negated: False ,passive: False
 0.239	[*A*]We[*R*]assume[*A*]that the hardware provides 0 - cost scheduling between threads	context()	negated: False ,passive: False
-[LINE#232]In addition, it also models the machine as having only 2 levels of memory.
+[LINE#245] In addition, it also models the machine as having only 2 levels of memory.
 0.411	[*A*]it[*R*]models[*A*]the machine[*A*]as having only 2 levels of memory	context()	negated: False ,passive: False
-[LINE#233]In particular, we model a slow global memory and fast local memory shared by one core group.
+[LINE#246] In particular, we model a slow global memory and fast local memory shared by one core group.
 0.919	[*A*]a fast local memory[*R*]shared[*A*]by one core group	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]model[*A*]a fast local memory shared by one core group	context()	negated: False ,passive: False
 0.919	[*A*]a slow global memory[*R*]shared[*A*]by one core group	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]model[*A*]a slow global memory shared by one core group	context()	negated: False ,passive: False
-[LINE#234]In practice, these machines may have many levels of memory.
+[LINE#247] In practice, these machines may have many levels of memory.
 0.903	[*A*]these machines[*R*]may have[*A*]many levels of memory	context()	negated: False ,passive: False
-[LINE#235]However, we are interested in the interplay between the farthest level, since the latencies are the largest at that level, and therefore have the biggest impact on the performance.
+[LINE#248] However, we are interested in the interplay between the farthest level, since the latencies are the largest at that level, and therefore have the biggest impact on the performance.
 0.887	[*A*]the latencies[*R*]have[*A*]the biggest impact on the performance	context()	negated: False ,passive: False
 0.773	[*A*]the latencies[*R*]are[*A*]the largest at that level	context()	negated: False ,passive: True
 0.452	[*A*]we[*R*]are[*A*]interested in the interplay between the farthest level	context()	negated: False ,passive: True
-[LINE#236]We expect that the model can be extended to also model other levels of the memory hierarchy.
+[LINE#249] We expect that the model can be extended to also model other levels of the memory hierarchy.
 0.882	[*A*]the model[*R*]can be extended[*A*]to also model other levels of the memory hierarchy	context(We expect)	negated: False ,passive: True
 0.279	[*A*]We[*R*]expect[*A*]that the model can be extended to also model other levels of the memory hierarchy	context()	negated: False ,passive: False
-[LINE#237]We analyze 4 classic algorithms for the problem of computing All Pairs Shortest Paths (APSP) on a weighted graph in the TMM model [43].
+[LINE#250] We analyze 4 classic algorithms for the problem of computing All Pairs Shortest Paths (APSP) on a weighted graph in the TMM model [43].
 0.999	[*A*]We[*R*]analyze[*A*]4 classic algorithms	context()	negated: False ,passive: False
 0.614	[*A*]We[*R*]analyze[*A*]4 classic algorithms for the problem of computing All Pairs Shortest Paths (APSP) on a weighted graph in the TMM model	context()	negated: False ,passive: False
-[LINE#238]We compare the analysis from this model with the PRAM analysis of these 4 algorithms to gain intuition about the usefulness of both our model and the PRAM model for analyzing performance of algorithms on highly-threaded, many-core machines.
+[LINE#251] We compare the analysis from this model with the PRAM analysis of these 4 algorithms to gain intuition about the usefulness of both our model and the PRAM model for analyzing performance of algorithms on highly-threaded, many-core machines.
 0.444	[*A*]We[*R*]compare the analysis to gain[*A*]intuition about the usefulness of the PRAM model for analyzing performance of algorithms on highly - threaded , many - core machines	context(We compare)	negated: False ,passive: False
 0.184	[*A*]We[*R*]compare the analysis to gain[*A*]intuition about the usefulness of both our model	context(We compare)	negated: False ,passive: False
 0.550	[*A*]We[*R*]compare[*A*]the analysis[*A*]from this model with the PRAM analysis of these 4 algorithms	context()	negated: False ,passive: False
-[LINE#239]Our results validate the intuition that this model can provide more information than the PRAM model for the large latency, finite thread case.
+[LINE#252] Our results validate the intuition that this model can provide more information than the PRAM model for the large latency, finite thread case.
 0.947	[*A*]this model[*R*]can provide[*A*]more information than the PRAM model for the large latency	context()	negated: False ,passive: False
 0.554	[*A*]Our results[*R*]validate[*A*]the intuition that this model can provide more information than the PRAM model for the large latency	context()	negated: False ,passive: False
-[LINE#240]In particular, we compare these algorithms and find specific relationships between hardware parameters (latency, fast memory size, limits on number of threads) under which some algorithms are better than others even if they have the same PRAM cost.
+[LINE#253] In particular, we compare these algorithms and find specific relationships between hardware parameters (latency, fast memory size, limits on number of threads) under which some algorithms are better than others even if they have the same PRAM cost.
 0.385	[*A*]some algorithms[*R*]are better than[*A*]others	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]compare[*A*]these algorithms	context()	negated: False ,passive: False
-[LINE#241]Following the formal analysis, we assess the utility of the model by comparing empirically measured performance on an individual machine to that predicted by the model.
+[LINE#254] Following the formal analysis, we assess the utility of the model by comparing empirically measured performance on an individual machine to that predicted by the model.
 0.136	[*A*]that[*R*]predicted[*A*]by the model	context()	negated: False ,passive: True
 0.595	[*A*]we[*R*]assess[*A*]the utility of the model[*A*]Following the formal analysis	context()	negated: False ,passive: False
-[LINE#242]For two of the APSP algorithms, we illustrate the impact of various individual parameters on performance, showing the effectiveness of the model at predicting measured performance.
+[LINE#255] For two of the APSP algorithms, we illustrate the impact of various individual parameters on performance, showing the effectiveness of the model at predicting measured performance.
 0.934	[*A*]the impact of various individual parameters on performance[*R*]showing[*A*]the effectiveness of the model	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]illustrate[*A*]the impact of various individual parameters on performance, showing the effectiveness of the model at predicting measured performance	context()	negated: False ,passive: False
-[LINE#243]This paper is organized as follows.
+[LINE#256] This paper is organized as follows.
 0.767	[*A*]This paper[*R*]is organized[*A*]as follows	context()	negated: False ,passive: True
-[LINE#244]Section 2 presents related work.
+[LINE#257] Section 2 presents related work.
 0.903	[*A*]Section 2[*R*]presents[*A*]related work	context()	negated: False ,passive: False
-[LINE#245]Section 3 describes the TMM model.
+[LINE#258] Section 3 describes the TMM model.
 0.918	[*A*]Section 3[*R*]describes[*A*]the TMM model	context()	negated: False ,passive: False
-[LINE#246]Section 4 provides the 4 shortest paths algorithms and their analysis in both the PRAM and TMM models.
+[LINE#259] Section 4 provides the 4 shortest paths algorithms and their analysis in both the PRAM and TMM models.
 0.859	[*A*]Section 4[*R*]provides[*A*]their analysis[*A*]in both the TMM models	context()	negated: False ,passive: False
 0.859	[*A*]Section 4[*R*]provides[*A*]their analysis[*A*]in both the PRAM models	context()	negated: False ,passive: False
 0.903	[*A*]Section 4[*R*]provides[*A*]the 4 shortest paths algorithms	context()	negated: False ,passive: False
-[LINE#247]Section 5 provides the lessons learned from this model; in particular, we see that algorithms that have the same PRAM performance have different performance in the TMM model since they are better at hiding memory latency with fewer threads.
+[LINE#260] Section 5 provides the lessons learned from this model; in particular, we see that algorithms that have the same PRAM performance have different performance in the TMM model since they are better at hiding memory latency with fewer threads.
 0.869	[*A*]algorithms[*R*]have[*A*]the same PRAM performance	context(we see algorithms that have the same PRAM performance have)	negated: False ,passive: False
 0.950	[*A*]algorithms that have the same PRAM performance[*R*]have[*A*]different performance in the TMM model	context(we see)	negated: False ,passive: False
 0.878	[*A*]Section 5[*R*]provides[*A*]the lessons learned from this model	context(we see)	negated: False ,passive: False
 0.309	[*A*]we[*R*]see[*A*]that algorithms that have the same PRAM performance have different performance in the TMM model	context()	negated: False ,passive: False
 0.903	[*A*]the lessons[*R*]learned[*A*]from this model	context()	negated: False ,passive: True
 0.616	[*A*]they[*R*]are[*A*]better at hiding memory latency with fewer threads	context()	negated: False ,passive: True
-[LINE#248]Section 6 continues the discussion of lessons learned, concentrating on the effects of problem size.
+[LINE#261] Section 6 continues the discussion of lessons learned, concentrating on the effects of problem size.
 0.824	[*A*]Section 6[*R*]continues the discussion of lessons concentrating[*A*]on the effects of problem size	context(Section 6 continues)	negated: False ,passive: False
 0.878	[*A*]Section 6[*R*]continues[*A*]the discussion of lessons[*A*]concentrating on the effects of problem size	context()	negated: False ,passive: False
 0.713	[*A*]lessons[*R*]learned	context()	negated: False ,passive: False
-[LINE#249]Section 7 shows performance measurements for a pair of the APSP algorithms executing on a commercial GPU, illustrating correspondence between model predictions and empirical measurements.
+[LINE#262] Section 7 shows performance measurements for a pair of the APSP algorithms executing on a commercial GPU, illustrating correspondence between model predictions and empirical measurements.
 0.944	[*A*]the APSP algorithms[*R*]executing[*A*]on a commercial GPU	context()	negated: False ,passive: False
 0.925	[*A*]Section 7[*R*]shows[*A*]performance measurements	context()	negated: False ,passive: False
-[LINE#250]M algorithm and analysisAgain, one can do each single source computation in parallel.
+[LINE#263] M algorithm and analysisAgain, one can do each single source computation in parallel.
 0.616	[*A*]one[*R*]can do[*A*]each single source computation[*A*]in parallel	context()	negated: False ,passive: False
-[LINE#251]Each single source computation takes O(mn) work, making the total work of all pairs shortest paths O(mn2) and the total span O(mn).
-[LINE#252]One can improve the span by relaxing all edges in one iteration in parallel making the span O(n).
+[LINE#264] Each single source computation takes O(mn) work, making the total work of all pairs shortest paths O(mn2) and the total span O(mn).
+[LINE#265] One can improve the span by relaxing all edges in one iteration in parallel making the span O(n).
 0.616	[*A*]One[*R*]can improve[*A*]the span	context()	negated: False ,passive: False
-[LINE#253]this section, we briefly review the related work.
+[LINE#266] this section, we briefly review the related work.
 0.554	[*A*]we[*R*]review[*A*]the related work[*A*]this section[*A*]briefly	context()	negated: False ,passive: False
-[LINE#254]We first review the work on abstract models of computations for both sequential and parallel machines.
+[LINE#267] We first review the work on abstract models of computations for both sequential and parallel machines.
 0.666	[*A*]We[*R*]review[*A*]the work on abstract models of computations for parallel machines[*A*]first	context()	negated: False ,passive: False
 0.666	[*A*]We[*R*]review[*A*]the work on abstract models of computations for both sequential machines[*A*]first	context()	negated: False ,passive: False
-[LINE#255]We then review recent work on algorithms and performance analysis of GPUs which are the most common current instantiations of highly-threaded, many-core machines.
+[LINE#268] We then review recent work on algorithms and performance analysis of GPUs which are the most common current instantiations of highly-threaded, many-core machines.
 0.599	[*A*]We[*R*]review[*A*]recent work on performance analysis of GPUs[*A*]then	context()	negated: False ,passive: False
 0.920	[*A*]algorithms[*R*]are[*A*]the most common current instantiations of highly - threaded , many - core machines	context()	negated: False ,passive: True
 0.554	[*A*]We[*R*]review[*A*]recent work on algorithms[*A*]then	context()	negated: False ,passive: False
-[LINE#256]Many machine and memory models have been designed for various types of parallel and sequential machines.
+[LINE#269] Many machine and memory models have been designed for various types of parallel and sequential machines.
 0.911	[*A*]Many memory models[*R*]have been designed[*A*]for various types of sequential machines	context()	negated: False ,passive: True
 0.911	[*A*]Many memory models[*R*]have been designed[*A*]for various types of parallel	context()	negated: False ,passive: True
 0.911	[*A*]Many machine models[*R*]have been designed[*A*]for various types of sequential machines	context()	negated: False ,passive: True
 0.911	[*A*]Many machine models[*R*]have been designed[*A*]for various types of parallel	context()	negated: False ,passive: True
-[LINE#257]In an early work, Aggarwal et al.
-[LINE#258][25] present the Hierarchical Memory Model (HMM) and use it for a theoretical investigation of the inherent complexity of solving problems in RAM with a memory hierarchy of multiple levels.
-[LINE#259]It differs from the RAM model by defining that access to location x takes logx time, but it does not consider the concept of block transfers, which collects data into blocks to utilize spatial locality of reference in algorithms.
+[LINE#270] In an early work, Aggarwal et al.
+[LINE#271] [25] present the Hierarchical Memory Model (HMM) and use it for a theoretical investigation of the inherent complexity of solving problems in RAM with a memory hierarchy of multiple levels.
+[LINE#272] It differs from the RAM model by defining that access to location x takes logx time, but it does not consider the concept of block transfers, which collects data into blocks to utilize spatial locality of reference in algorithms.
 0.887	[*A*]block transfers[*R*]collects[*A*]data[*A*]to utilize spatial locality of reference in algorithms	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]does not consider[*A*]the concept of block transfers	context()	negated: True ,passive: False
-[LINE#260]The Block Transfer model (BT) [27] addresses this deficiency by defining that a block of consecutive locations can be copied from memory to memory, taking one unit of time per element after the initial access time.
-[LINE#261] propose the Memory Hierarchy (MH) Framework [26]that reflects important practical considerations that are hidden by the RAM and HMM models: data are moved in fixed size blocks simultaneously at different levels in the hierarchy, and the memory capacity as well as bus bandwidth are limited at each level.
+[LINE#273] The Block Transfer model (BT) [27] addresses this deficiency by defining that a block of consecutive locations can be copied from memory to memory, taking one unit of time per element after the initial access time.
+[LINE#274+275]  propose the Memory Hierarchy (MH) Framework [26]that reflects important practical considerations that are hidden by the RAM and HMM models: data are moved in fixed size blocks simultaneously at different levels in the hierarchy, and the memory capacity as well as bus bandwidth are limited at each level.
 0.919	[*A*]the memory bus bandwidth[*R*]are[*A*]limited at each level	context()	negated: False ,passive: True
 0.911	[*A*]the memory capacity[*R*]are limited[*A*]at each level	context()	negated: False ,passive: True
 0.913	[*A*]important practical considerations[*R*]are hidden[*A*]by the HMM models	context()	negated: False ,passive: True
@@ -878,129 +878,129 @@
 0.894	[*A*]data[*R*]are moved[*A*]in fixed size blocks[*A*]simultaneously[*A*]at different levels in the hierarchy	context()	negated: False ,passive: True
 0.897	[*A*]important practical considerations[*R*]are hidden[*A*]by the RAM models	context()	negated: False ,passive: True
 0.925	[*A*]the Memory Hierarchy ( MH ) Framework [ 26[*R*]reflects[*A*]important practical considerations that are hidden by the RAM models	context()	negated: False ,passive: True
-[LINE#262]But there are too many parameters in this model that can obscure algorithm analysis.
+[LINE#276] But there are too many parameters in this model that can obscure algorithm analysis.
 0.887	[*A*]this model[*R*]can obscure[*A*]algorithm analysis	context()	negated: False ,passive: False
-[LINE#263]Thus, they simplified and reduced the MH parameters by putting forward a new Uniform Memory Hierarchy (UMH) model [28,29].
+[LINE#277] Thus, they simplified and reduced the MH parameters by putting forward a new Uniform Memory Hierarchy (UMH) model [28,29].
 0.597	[*A*]they[*R*]reduced the MH parameters by putting[*A*]forward[*A*]a new Uniform Memory Hierarchy	context(they reduced)	negated: False ,passive: False
 0.704	[*A*]they[*R*]reduced[*A*]the MH parameters[*A*]by putting forward a new Uniform Memory Hierarchy ( UMH ) model [ 28,29	context()	negated: False ,passive: False
 0.320	[*A*]they[*R*]simplified	context()	negated: False ,passive: False
-[LINE#264]Later, an 'ideal-cache' model was introduced in [23,24] allowing analysis of cache-oblivious algorithms that use asymptotically optimal amounts of work and move data asymptotically optimally among multiple levels of cache without the necessity of tuning program variables according to hardware configuration parameters.
+[LINE#278] Later, an 'ideal-cache' model was introduced in [23,24] allowing analysis of cache-oblivious algorithms that use asymptotically optimal amounts of work and move data asymptotically optimally among multiple levels of cache without the necessity of tuning program variables according to hardware configuration parameters.
 0.993	[*A*]an ideal cache model[*R*]was introduced in[*A*]2324 ]	context()	negated: False ,passive: False
 0.862	[*A*]cache-oblivious algorithms[*R*]move asymptotically optimally[*A*]among multiple levels of cache	context()	negated: False ,passive: False
 0.905	[*A*]cache-oblivious algorithms[*R*]use[*A*]asymptotically optimal amounts of work	context()	negated: False ,passive: False
 0.964	[*A*]an 'ideal-cache' model[*R*]was introduced[*A*]in [23,24[*A*]allowing analysis of cache-oblivious algorithms[*A*]Later	context()	negated: False ,passive: True
-[LINE#265]In the parallel case, although widely used, the PRAM [30] model is unrealistic because it assumes all processors work synchronously and that interprocessor communication is free.
+[LINE#279] In the parallel case, although widely used, the PRAM [30] model is unrealistic because it assumes all processors work synchronously and that interprocessor communication is free.
 0.777	[*A*]interprocessor communication[*R*]is[*A*]free	context(it assumes)	negated: False ,passive: True
 0.194	[*A*]it[*R*]assumes[*A*]that interprocessor communication is free	context()	negated: False ,passive: False
 0.897	[*A*]the PRAM [ 30 ] model[*R*]is[*A*]unrealistic[*A*]because it assumes that interprocessor communication is free[*A*]In the parallel case	context()	negated: False ,passive: True
 0.687	[*A*]all processors[*R*]work synchronously	context(it assumes)	negated: False ,passive: False
 0.397	[*A*]it[*R*]assumes[*A*]all processors work synchronously	context()	negated: False ,passive: False
 0.960	[*A*]the PRAM [ 30 ] model[*R*]is[*A*]unrealistic[*A*]because it assumes all processors work synchronously[*A*]In the parallel case	context()	negated: False ,passive: True
-[LINE#266]Quite different to PRAM, the Bulk-Synchronous Parallel (BSP) model [34] attempts to bridge theory and practice by allowing processors to work asynchronously, and it models latency and limited bandwidth for distributed memory machines without shared memory.
+[LINE#280] Quite different to PRAM, the Bulk-Synchronous Parallel (BSP) model [34] attempts to bridge theory and practice by allowing processors to work asynchronously, and it models latency and limited bandwidth for distributed memory machines without shared memory.
 0.452	[*A*]it[*R*]models[*A*]limited bandwidth for distributed memory machines	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]models[*A*]limited bandwidth for distributed memory machines without shared memory	context()	negated: False ,passive: False
 0.452	[*A*]it[*R*]models[*A*]latency	context()	negated: False ,passive: False
-[LINE#267][33] offer a new parallel machine model called LogP based on BSP, characterizing a parallel machine by four parameters: number of processors, communication bandwidth, delay, and overhead.
+[LINE#281] [33] offer a new parallel machine model called LogP based on BSP, characterizing a parallel machine by four parameters: number of processors, communication bandwidth, delay, and overhead.
 0.959	[*A*]a new parallel machine model called LogP based on BSP[*R*]characterizing[*A*]a parallel machine[*A*]by four parameters : overhead	context()	negated: False ,passive: False
 0.661	[*A*]33[*R*]offer[*A*]a new parallel machine model called LogP based on BSP , characterizing a parallel machine by four parameters : overhead	context()	negated: False ,passive: False
 0.661	[*A*]33[*R*]offer[*A*]a new parallel machine model called LogP based on BSP , characterizing a parallel machine by four parameters : delay	context()	negated: False ,passive: False
 0.661	[*A*]33[*R*]offer[*A*]a new parallel machine model called LogP based on BSP , characterizing a parallel machine by four parameters : communication bandwidth	context()	negated: False ,passive: False
 0.959	[*A*]a new parallel machine model called LogP based on BSP[*R*]characterizing[*A*]a parallel machine[*A*]by four parameters	context()	negated: False ,passive: False
 0.661	[*A*]33[*R*]offer[*A*]a new parallel machine model called LogP based on BSP , characterizing a parallel machine by four parameters : number of processors	context()	negated: False ,passive: False
-[LINE#268]It reflects the convergence towards systems formed by a collection of computers connected by a communication network via message passing.
+[LINE#282] It reflects the convergence towards systems formed by a collection of computers connected by a communication network via message passing.
 0.894	[*A*]computers[*R*]connected[*A*]by a communication network via message passing	context()	negated: False ,passive: True
 0.894	[*A*]systems[*R*]formed[*A*]by a collection of computers	context()	negated: False ,passive: True
 0.452	[*A*]It[*R*]reflects[*A*]the convergence towards systems	context()	negated: False ,passive: True
-[LINE#269][35] present a two-level memory model and give a realistic treatment of parallel block transfers in parallel machines.
-[LINE#270]But this model assumes that processors are interconnected via sharing of internal memory.
+[LINE#283] [35] present a two-level memory model and give a realistic treatment of parallel block transfers in parallel machines.
+[LINE#284] But this model assumes that processors are interconnected via sharing of internal memory.
 0.657	[*A*]processors[*R*]are interconnected	context(this model assumes)	negated: False ,passive: False
 0.724	[*A*]this model[*R*]assumes[*A*]that processors are interconnected via sharing of internal memory	context()	negated: False ,passive: False
 0.877	[*A*]processors[*R*]via sharing[*A*]of internal memory	context()	negated: False ,passive: False
-[LINE#271]More recently, several models have been proposed emphasizing the use of private-cache chip multiprocessors (CMPs).
+[LINE#285] More recently, several models have been proposed emphasizing the use of private-cache chip multiprocessors (CMPs).
 0.887	[*A*]several models[*R*]emphasizing[*A*]the use of private-cache chip multiprocessors	context()	negated: False ,passive: False
 0.943	[*A*]several models[*R*]have been proposed[*A*]emphasizing the use of private-cache chip multiprocessors[*A*]More recently	context()	negated: False ,passive: True
-[LINE#272][36] present the Parallel External Memory (PEM) model with P processors and a two-level memory hierarchy, consisting of the main memory as external memory shared by all processors and caches as internal memory exclusive to each of the P processors.
+[LINE#286] [36] present the Parallel External Memory (PEM) model with P processors and a two-level memory hierarchy, consisting of the main memory as external memory shared by all processors and caches as internal memory exclusive to each of the P processors.
 0.937	[*A*]external memory[*R*]shared[*A*]by caches as internal memory exclusive to each of the P processors	context()	negated: False ,passive: True
 0.937	[*A*]external memory[*R*]shared[*A*]by all processors[*A*]as internal memory exclusive to each of the P processors	context()	negated: False ,passive: True
 0.921	[*A*]a two - level memory hierarchy[*R*]consisting[*A*]of the main memory as external memory	context()	negated: False ,passive: True
-[LINE#273][37] present a multi-core-cache model capturing the fact that multi-core machines have both per-processor private caches and a large shared cache on-chip.
+[LINE#287] [37] present a multi-core-cache model capturing the fact that multi-core machines have both per-processor private caches and a large shared cache on-chip.
 0.903	[*A*]multi-core machines[*R*]have[*A*]a large shared cache	context()	negated: False ,passive: False
 0.857	[*A*]a multi-core-cache model[*R*]capturing[*A*]the fact that multi-core machines have a large shared cache on - chip	context()	negated: False ,passive: False
 0.903	[*A*]multi-core machines[*R*]have[*A*]both per - processor private caches	context()	negated: False ,passive: False
 0.857	[*A*]a multi-core-cache model[*R*]capturing[*A*]the fact that multi-core machines have both per - processor private caches on - chip	context()	negated: False ,passive: False
-[LINE#274][44] present a concurrent cache-oblivious model.
-[LINE#275][38] also propose a parallel cache-oblivious (PCO) model to account for costs of a wide range of cache hierarchies.
-[LINE#276][39] present a hierarchical multi-level caching model (HM), consisting of a collection of cores sharing an arbitrarily large main memory through a hierarchy of caches of finite but increasing sizes that are successively shared by larger groups of cores.
+[LINE#288] [44] present a concurrent cache-oblivious model.
+[LINE#289] [38] also propose a parallel cache-oblivious (PCO) model to account for costs of a wide range of cache hierarchies.
+[LINE#290] [39] present a hierarchical multi-level caching model (HM), consisting of a collection of cores sharing an arbitrarily large main memory through a hierarchy of caches of finite but increasing sizes that are successively shared by larger groups of cores.
 0.894	[*A*]cores[*R*]sharing[*A*]an arbitrarily large main memory[*A*]through a hierarchy of caches of finite	context()	negated: False ,passive: False
 0.887	[*A*]increasing sizes[*R*]are successively shared[*A*]by larger groups of cores	context()	negated: False ,passive: True
-[LINE#277] They in [42] consider three types of caching systems for CMPs:.
+[LINE#291]  They in [42] consider three types of caching systems for CMPs:.
 0.644	[*A*]They in [42[*R*]consider[*A*]three types of caching systems	context()	negated: False ,passive: False
-[LINE#278]D-CMP with a private cache for each core, S-CMP with a single cache shared by all cores, and multi-core with private L1 caches and a shared L2 cache.
+[LINE#292] D-CMP with a private cache for each core, S-CMP with a single cache shared by all cores, and multi-core with private L1 caches and a shared L2 cache.
 0.953	[*A*]S - CMP with a single cache[*R*]shared[*A*]a shared L2 cache	context()	negated: False ,passive: False
 0.911	[*A*]a single cache[*R*]shared[*A*]by all cores[*A*]multi-core with private L1 caches	context()	negated: False ,passive: True
-[LINE#279]All the models above do not accurately describe highly-threaded, many-core systems, due to their distinctive architectures, i.e. the explicit use of many threads for the purpose of hiding memory latency.
+[LINE#293] All the models above do not accurately describe highly-threaded, many-core systems, due to their distinctive architectures, i.e. the explicit use of many threads for the purpose of hiding memory latency.
 0.919	[*A*]All the models above[*R*]do not accurately describe[*A*]highly-threaded, many-core systems	context()	negated: True ,passive: False
-[LINE#280]While there has not been much work on abstract machine models for highly-threaded, many-core machines, there has been a lot of recent work on designing calibrated performance models for particular instantiations of these machines such as NVIDIA GPUs.
-[LINE#281]We review some of that work here.
+[LINE#294] While there has not been much work on abstract machine models for highly-threaded, many-core machines, there has been a lot of recent work on designing calibrated performance models for particular instantiations of these machines such as NVIDIA GPUs.
+[LINE#295] We review some of that work here.
 0.231	[*A*]We[*R*]review[*A*]some of that work[*A*]here	context()	negated: False ,passive: False
-[LINE#282][19] describe a general performance model that predicts the performance of a biosequence database scanning application fairly precisely.
+[LINE#296] [19] describe a general performance model that predicts the performance of a biosequence database scanning application fairly precisely.
 0.909	[*A*]a biosequence database[*R*]scanning fairly precisely[*A*]application	context()	negated: False ,passive: False
 0.905	[*A*]a general performance model[*R*]predicts[*A*]the performance of a biosequence database	context()	negated: False ,passive: False
-[LINE#283]Their model incorporates the relationship between problem size and performance, but only targets their biosequence application.
+[LINE#297] Their model incorporates the relationship between problem size and performance, but only targets their biosequence application.
 0.447	[*A*]Their model[*R*]targets[*A*]their biosequence application	context()	negated: False ,passive: False
 0.638	[*A*]Their model[*R*]incorporates[*A*]the relationship between problem size and performance	context()	negated: False ,passive: False
-[LINE#284][45] propose a cache model for efficiently implementing three memory intensive scientific applications with nested loops.
-[LINE#285]It is helpful for applications with 2D-block representations while choosing an appropriate block size by estimating cache misses, but is not completely general.
+[LINE#298] [45] propose a cache model for efficiently implementing three memory intensive scientific applications with nested loops.
+[LINE#299] It is helpful for applications with 2D-block representations while choosing an appropriate block size by estimating cache misses, but is not completely general.
 0.225	[*A*]It[*R*]is not[*A*]completely general	context()	negated: True ,passive: True
 0.678	[*A*]It[*R*]is[*A*]helpful for applications with 2D - block representations[*A*]while choosing an appropriate block size by estimating cache misses	context()	negated: False ,passive: True
-[LINE#286][46] summarize five categories of optimization mechanisms, and use two metrics to prune the GPU performance optimization space by 98% via computing the utilization and efficiency of GPU applications.
-[LINE#287]They do not, however, consider memory latency and multiple conflicting performance indicators.
+[LINE#300] [46] summarize five categories of optimization mechanisms, and use two metrics to prune the GPU performance optimization space by 98% via computing the utilization and efficiency of GPU applications.
+[LINE#301] They do not, however, consider memory latency and multiple conflicting performance indicators.
 0.511	[*A*]They[*R*]do not consider[*A*]multiple conflicting performance indicators	context()	negated: True ,passive: False
 0.511	[*A*]They[*R*]do not consider[*A*]memory latency	context()	negated: True ,passive: False
-[LINE#288]are the first to define a general GPU analytical performance model in [47].
+[LINE#302] are the first to define a general GPU analytical performance model in [47].
 0.613	[*A*]the first[*R*]to define[*A*]a general GPU analytical performance model	context()	negated: False ,passive: False
-[LINE#289]They propose a simple yet efficient solution combining several well-known parallel computation models: PRAM, BSP, QRQW, but they do not model global memory coalescing.
+[LINE#303] They propose a simple yet efficient solution combining several well-known parallel computation models: PRAM, BSP, QRQW, but they do not model global memory coalescing.
 0.911	[*A*]a efficient solution[*R*]combining[*A*]several well - known parallel computation models	context()	negated: False ,passive: False
 0.755	[*A*]They[*R*]propose[*A*]a efficient solution combining several well - known parallel computation models : PRAM , BSP , QRQW	context()	negated: False ,passive: False
 0.911	[*A*]a simple solution[*R*]combining[*A*]several well - known parallel computation models	context()	negated: False ,passive: False
 0.755	[*A*]They[*R*]propose[*A*]a simple solution combining several well - known parallel computation models : PRAM , BSP , QRQW	context()	negated: False ,passive: False
 0.616	[*A*]they[*R*]do not model[*A*]global memory coalescing	context()	negated: True ,passive: False
-[LINE#290]Using a different approach, Hong et al.
-[LINE#291][17] propose another analytical model to capture the cost of memory operations by counting the number of parallel memory requests in terms of memory-warp parallelism (MWP) and computation-warp parallelism (CWP).
+[LINE#304] Using a different approach, Hong et al.
+[LINE#305] [17] propose another analytical model to capture the cost of memory operations by counting the number of parallel memory requests in terms of memory-warp parallelism (MWP) and computation-warp parallelism (CWP).
 0.959	[*A*]terms of computation - warp parallelism ( CWP )[*R*]have parallel memory requests of[*A*]17 ]	context()	negated: False ,passive: False
 0.959	[*A*]terms of memory - warp parallelism ( MWP )[*R*]have parallel memory requests of[*A*]17 ]	context()	negated: False ,passive: False
 0.911	[*A*]another analytical model[*R*]to capture[*A*]the cost of memory operations	context()	negated: False ,passive: False
-[LINE#292][16] measure performance factors in isolation and later combine them to model the overall performance via workflow graphs so that the interactive effects between different performance factors are modeled correctly.
+[LINE#306] [16] measure performance factors in isolation and later combine them to model the overall performance via workflow graphs so that the interactive effects between different performance factors are modeled correctly.
 0.816	[*A*]the interactive effects between different performance factors[*R*]are modeled correctly	context()	negated: False ,passive: False
-[LINE#293]The model can determine data access patterns, branch divergence, and control flow patterns only for a restricted class of kernels on traditional GPU architectures.
+[LINE#307] The model can determine data access patterns, branch divergence, and control flow patterns only for a restricted class of kernels on traditional GPU architectures.
 0.903	[*A*]The model[*R*]can determine[*A*]control flow patterns	context()	negated: False ,passive: False
 0.947	[*A*]The model[*R*]can determine[*A*]branch divergence[*A*]only for a restricted class of kernels on traditional GPU architectures	context()	negated: False ,passive: False
 0.947	[*A*]The model[*R*]can determine[*A*]data access patterns[*A*]only for a restricted class of kernels on traditional GPU architectures	context()	negated: False ,passive: False
-[LINE#294]Zhang and Owens [15] present a quantitative performance model that characterizes an application's performance as being primarily bounded by one of three potential limits: instruction pipeline, shared memory accesses, and global memory accesses.
+[LINE#308] Zhang and Owens [15] present a quantitative performance model that characterizes an application's performance as being primarily bounded by one of three potential limits: instruction pipeline, shared memory accesses, and global memory accesses.
 0.873	[*A*]Owens [ 15[*R*]present[*A*]a quantitative performance model that characterizes an application 's performance	context()	negated: False ,passive: False
 0.873	[*A*]Owens [ 15[*R*]present[*A*]a quantitative performance model that characterizes an application 's performance as being primarily bounded by one of three potential limits : instruction pipeline	context()	negated: False ,passive: False
 0.905	[*A*]a quantitative performance model[*R*]characterizes[*A*]an application 's performance	context()	negated: False ,passive: False
 0.776	[*A*]Zhang[*R*]present[*A*]a quantitative performance model that characterizes an application 's performance	context()	negated: False ,passive: False
 0.939	[*A*]a quantitative performance model[*R*]characterizes[*A*]an application 's performance[*A*]as being primarily bounded by one of three potential limits	context()	negated: False ,passive: False
 0.776	[*A*]Zhang[*R*]present[*A*]a quantitative performance model that characterizes an application 's performance as being primarily bounded by one of three potential limits : instruction pipeline	context()	negated: False ,passive: False
-[LINE#295][48] develop a performance analysis framework that consists of an analytical model and profiling tools.
+[LINE#309] [48] develop a performance analysis framework that consists of an analytical model and profiling tools.
 0.905	[*A*]a performance analysis framework[*R*]consists[*A*]of profiling tools	context()	negated: False ,passive: True
 0.905	[*A*]a performance analysis framework[*R*]consists[*A*]of an analytical model	context()	negated: False ,passive: True
-[LINE#296]The framework does a good job in performance diagnostics on case studies of real codes.
+[LINE#310] The framework does a good job in performance diagnostics on case studies of real codes.
 0.937	[*A*]The framework[*R*]does[*A*]a good job in performance diagnostics on case studies of real codes	context()	negated: False ,passive: False
-[LINE#297][49] also design a tool to estimate GPU memory performance by collecting performance-critical parameters.
-[LINE#298][50] present a model to estimate both computation time by precisely counting instructions and memory access time by a method to generate address traces.
-[LINE#299]All of these efforts are mainly focused on the practical calibrated performance models.
+[LINE#311] [49] also design a tool to estimate GPU memory performance by collecting performance-critical parameters.
+[LINE#312] [50] present a model to estimate both computation time by precisely counting instructions and memory access time by a method to generate address traces.
+[LINE#313] All of these efforts are mainly focused on the practical calibrated performance models.
 0.881	[*A*]All of these efforts[*R*]are focused[*A*]on the practical calibrated performance models	context()	negated: False ,passive: True
-[LINE#300]No attempts have been made to develop an asymptotic theoretical model applicable to a wide range of highly-threaded machines.
-[LINE#301]M algorithm and analysisThe TMM algorithm for this problem is more complicated and requires more data structure support.
+[LINE#314] No attempts have been made to develop an asymptotic theoretical model applicable to a wide range of highly-threaded machines.
+[LINE#315] M algorithm and analysisThe TMM algorithm for this problem is more complicated and requires more data structure support.
 0.949	[*A*]analysisThe TMM algorithm for this problem[*R*]requires[*A*]more data structure support	context()	negated: False ,passive: False
 0.927	[*A*]M algorithm[*R*]requires[*A*]more data structure support	context()	negated: False ,passive: False
 0.897	[*A*]analysisThe TMM algorithm for this problem[*R*]is[*A*]more complicated	context()	negated: False ,passive: True
 0.855	[*A*]M algorithm[*R*]is[*A*]more complicated	context()	negated: False ,passive: True
-[LINE#302]Each core group is responsible for one single-source shortest path calculation.
+[LINE#316] Each core group is responsible for one single-source shortest path calculation.
 0.932	[*A*]Each core group[*R*]is[*A*]responsible for one single-source shortest path calculation	context()	negated: False ,passive: True
-[LINE#303] For each single source calculation, we maintain three arrays, A,B and W, of size m, andone array D of size n. D contains the current guess of the shortest path to vertex i. B contains ending vertices of edges, sorted by vertex ID.
+[LINE#317+318]  For each single source calculation, we maintain three arrays, A,B and W, of size m, andone array D of size n. D contains the current guess of the shortest path to vertex i. B contains ending vertices of edges, sorted by vertex ID.
 0.443	[*A*]we[*R*]maintain[*A*]W	context(andone array D of size n. D contains)	negated: False ,passive: False
 0.443	[*A*]we[*R*]maintain[*A*]B	context(andone array D of size n. D contains)	negated: False ,passive: False
 0.839	[*A*]i. B[*R*]contains ending[*A*]vertices of edges	context(i. B contains)	negated: False ,passive: False
@@ -1009,23 +1009,23 @@
 0.839	[*A*]i. B[*R*]contains ending[*A*]vertices of edges	context(i. B contains)	negated: False ,passive: False
 0.839	[*A*]i. B[*R*]contains[*A*]ending vertices of edges	context()	negated: False ,passive: False
 0.504	[*A*]we[*R*]maintain[*A*]three arrays , of size m , andone array D of size n. D	context()	negated: False ,passive: False
-[LINE#304]Therefore B may contain multiple instances of the same vertex if that vertex has multiple incident edges.
+[LINE#319] Therefore B may contain multiple instances of the same vertex if that vertex has multiple incident edges.
 0.925	[*A*]that vertex[*R*]has[*A*]multiple incident edges	context()	negated: False ,passive: False
 0.683	[*A*]B[*R*]may contain[*A*]multiple instances of the same vertex[*A*]if that vertex has multiple incident edges	context()	negated: False ,passive: False
-[LINE#305] A[i] contains the starting vertex of the edge that ends at B[i]and W[i] contains the weight of that edge.
+[LINE#320+321]  A[i] contains the starting vertex of the edge that ends at B[i]and W[i] contains the weight of that edge.
 0.646	[*A*]W[*R*]contains[*A*]the weight of that edge	context()	negated: False ,passive: False
 0.926	[*A*]the edge[*R*]ends[*A*]at B	context()	negated: False ,passive: True
 0.386	[*A*]A[i[*R*]contains[*A*]the starting vertex of the edge that ends at B[i]and W[i] contains the weight of that edge	context()	negated: False ,passive: False
-[LINE#306]Therefore, both D and B are sorted.
+[LINE#322] Therefore, both D and B are sorted.
 0.634	[*A*]B[*R*]are sorted	context()	negated: False ,passive: False
 0.696	[*A*]both D[*R*]are[*A*]sorted	context()	negated: False ,passive: True
-[LINE#307]Each thread deals with one index in the array and relaxes that edge in each iteration.
+[LINE#323] Each thread deals with one index in the array and relaxes that edge in each iteration.
 0.773	[*A*]Each thread[*R*]relaxes[*A*]that edge[*A*]in each iteration	context()	negated: False ,passive: False
 0.903	[*A*]Each thread[*R*]deals[*A*]with one index in the array	context()	negated: False ,passive: False
-[LINE#308]All threads relax edges in parallel in order of B.
-[LINE#309]The total work and span are the same as the PRAM algorithm.
+[LINE#324] All threads relax edges in parallel in order of B.
+[LINE#325] The total work and span are the same as the PRAM algorithm.
 0.937	[*A*]The total work and span[*R*]are[*A*]the same as the PRAM algorithm	context()	negated: False ,passive: True
-[LINE#310]We can now calculate the time and speedup assuming threads can read all the arrays coalesced, M=O(mn2/C+n3/C)=O(mn2/C) for connected graphs.
+[LINE#326] We can now calculate the time and speedup assuming threads can read all the arrays coalesced, M=O(mn2/C+n3/C)=O(mn2/C) for connected graphs.
 0.867	[*A*]threads[*R*]can read[*A*]all the arrays	context(We can calculate assuming)	negated: False ,passive: False
 0.293	[*A*]We[*R*]can calculate the speedup assuming[*A*]threads can read all the arrays	context(We can calculate)	negated: False ,passive: False
 0.425	[*A*]We[*R*]can calculate[*A*]the speedup[*A*]now	context()	negated: False ,passive: False
@@ -1033,8 +1033,8 @@
 0.293	[*A*]We[*R*]can calculate the time assuming[*A*]threads can read all the arrays	context(We can calculate)	negated: False ,passive: False
 0.425	[*A*]We[*R*]can calculate[*A*]the time[*A*]now	context()	negated: False ,passive: False
 0.751	[*A*]all the arrays[*R*]coalesced	context()	negated: False ,passive: False
-[LINE#311] (25)TP=O(max(T1P,T,MLTP))(26)=O(max(mn2P,n,mn2LCTP)).Therefore, the speedup on P processors is (27)SP=(min(P,mn,CTLP)).Inthis case, we get linear speedup if CT/L1.
+[LINE#327+328]  (25)TP=O(max(T1P,T,MLTP))(26)=O(max(mn2P,n,mn2LCTP)).Therefore, the speedup on P processors is (27)SP=(min(P,mn,CTLP)).Inthis case, we get linear speedup if CT/L1.
 0.522	[*A*]we[*R*]get[*A*]linear speedup	context()	negated: False ,passive: False
 0.943	[*A*]the speedup on P processors[*R*]is[*A*]SP=	context()	negated: False ,passive: True
-[LINE#312] Subject to the limits on threads of Tmin(X,Z/(QS))for constant local memory usage per thread, this requires Lmin(CX,CZ/Q).
+[LINE#329+330]  Subject to the limits on threads of Tmin(X,Z/(QS))for constant local memory usage per thread, this requires Lmin(CX,CZ/Q).
 0.425	[*A*]this[*R*]requires[*A*]Lmin	context()	negated: False ,passive: False

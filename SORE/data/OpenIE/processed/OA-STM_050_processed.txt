@@ -1,51 +1,51 @@
-[LINE#1]In upland areas of Great Britain, large tracts of non-native conifer plantations have been established on poor quality agricultural land.
+[LINE#0] In upland areas of Great Britain, large tracts of non-native conifer plantations have been established on poor quality agricultural land.
 0.967	[*A*]large tracts of non-native conifer plantations[*R*]have been established[*A*]on poor quality agricultural land[*A*]In upland areas of Great Britain	context()	negated: False ,passive: True
-[LINE#2]There is now considerable interest in the conversion of some of these plantations to a more natural woodland comprised of native tree species.
+[LINE#1] There is now considerable interest in the conversion of some of these plantations to a more natural woodland comprised of native tree species.
 0.919	[*A*]a more natural woodland[*R*]comprised[*A*]of native tree species	context()	negated: False ,passive: True
-[LINE#3]We studied the tree regeneration and ground flora on 15 upland sites (altitudes ranging from 120m to 380m above sea level) that had been clearfelled of conifers.
+[LINE#2] We studied the tree regeneration and ground flora on 15 upland sites (altitudes ranging from 120m to 380m above sea level) that had been clearfelled of conifers.
 0.452	[*A*]We[*R*]studied[*A*]the ground flora	context()	negated: False ,passive: False
 0.897	[*A*]15 upland sites[*R*]had been clearfelled[*A*]of conifers	context()	negated: False ,passive: True
 0.894	[*A*]altitudes[*R*]ranging[*A*]from 120 m[*A*]to 380 m above sea level	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]studied[*A*]the tree regeneration	context()	negated: False ,passive: False
-[LINE#4]Regeneration of native tree species was successful where a clearcut site was adjacent to mature native trees, which acted as a seed source.
+[LINE#3] Regeneration of native tree species was successful where a clearcut site was adjacent to mature native trees, which acted as a seed source.
 0.897	[*A*]mature native trees[*R*]acted[*A*]as a seed source	context()	negated: False ,passive: False
 0.932	[*A*]a clearcut site[*R*]was[*A*]adjacent to mature native trees	context()	negated: False ,passive: True
 0.853	[*A*]Regeneration of native tree species[*R*]was[*A*]successful	context()	negated: False ,passive: True
-[LINE#5]Mean regeneration densities of native tree species on clearcut sites were typically greater than 1000stems/ha, exceeding minimum recommended planting densities for the establishment of new native woodland.
-[LINE#6]Whilst 10 native woody tree species were recorded, the regeneration was dominated by birch species.
+[LINE#4] Mean regeneration densities of native tree species on clearcut sites were typically greater than 1000stems/ha, exceeding minimum recommended planting densities for the establishment of new native woodland.
+[LINE#5] Whilst 10 native woody tree species were recorded, the regeneration was dominated by birch species.
 0.943	[*A*]the regeneration[*R*]was dominated[*A*]by birch species[*A*]Whilst 10 native woody tree species were recorded	context()	negated: False ,passive: True
 0.785	[*A*]10 native woody tree species[*R*]were recorded	context()	negated: False ,passive: False
-[LINE#7]Regeneration densities were significantly higher on clearcut sites than on adjacent areas of unplanted moorland, probably due to the lack of a dense ground flora following the clearfelling operations.
+[LINE#6] Regeneration densities were significantly higher on clearcut sites than on adjacent areas of unplanted moorland, probably due to the lack of a dense ground flora following the clearfelling operations.
 0.937	[*A*]Regeneration densities[*R*]were[*A*]significantly higher on clearcut sites than on adjacent areas of unplanted moorland, probably due to the lack of a dense ground flora following the clearfelling operations	context()	negated: False ,passive: True
-[LINE#8]Our results indicate that where local native seed sources exist, clearfelling upland conifer plantation sites to allow natural regeneration has the potential to be an effective method of establishing native woodland.
+[LINE#7] Our results indicate that where local native seed sources exist, clearfelling upland conifer plantation sites to allow natural regeneration has the potential to be an effective method of establishing native woodland.
 0.769	[*A*]local native seed sources[*R*]exist	context()	negated: False ,passive: False
 0.480	[*A*]Our results[*R*]indicate clearfelling[*A*]upland conifer plantation sites	context(Our results indicate)	negated: False ,passive: False
 0.453	[*A*]Our results[*R*]indicate[*A*]that where local native seed sources exist, clearfelling upland conifer plantation sites to allow natural regeneration has the potential	context()	negated: False ,passive: False
-[LINE#9]Discussion and conclusionWe have explored the regeneration density of native broadleaved species on clearfelled conifer sites in upland Britain.
+[LINE#8] Discussion and conclusionWe have explored the regeneration density of native broadleaved species on clearfelled conifer sites in upland Britain.
 0.957	[*A*]conclusionWe[*R*]have explored[*A*]the regeneration density of native broadleaved species on clearfelled conifer sites in upland Britain	context()	negated: False ,passive: False
 0.942	[*A*]Discussion[*R*]have explored[*A*]the regeneration density of native broadleaved species on clearfelled conifer sites in upland Britain	context()	negated: False ,passive: False
-[LINE#10]We compared regeneration on clearfelled sites to control sites that had neither been planted with conifers or clearfelled.
+[LINE#9] We compared regeneration on clearfelled sites to control sites that had neither been planted with conifers or clearfelled.
 0.677	[*A*]conifers[*R*]clearfelled	context()	negated: False ,passive: False
 0.824	[*A*]sites[*R*]had been planted[*A*]with conifers or clearfelled	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]compared[*A*]regeneration[*A*]on clearfelled sites	context()	negated: False ,passive: False
-[LINE#11]We restricted our analysis to a subset of sites with similar time since clearfelling and soil type.
+[LINE#10] We restricted our analysis to a subset of sites with similar time since clearfelling and soil type.
 0.418	[*A*]We[*R*]restricted[*A*]our analysis[*A*]to a subset of sites with similar time since soil type	context()	negated: False ,passive: False
 0.418	[*A*]We[*R*]restricted[*A*]our analysis[*A*]to a subset of sites with similar time since clearfelling	context()	negated: False ,passive: False
-[LINE#12]Mean regeneration density on this subset of clearfelled upland moorland sites (3392individuals/ha) was significantly greater than on upland moorland (64individuals/ha) or improved farmland (14individuals/ha) sites.
-[LINE#13]Availability of data meant that in this analysis we combined sites across regions (Lake District and eastern Scotland) and were unable to account for site location as a covariate.
+[LINE#11] Mean regeneration density on this subset of clearfelled upland moorland sites (3392individuals/ha) was significantly greater than on upland moorland (64individuals/ha) or improved farmland (14individuals/ha) sites.
+[LINE#12] Availability of data meant that in this analysis we combined sites across regions (Lake District and eastern Scotland) and were unable to account for site location as a covariate.
 0.411	[*A*]we[*R*]to account[*A*]for site location[*A*]as a covariate	context()	negated: False ,passive: False
-[LINE#14]Regeneration density on all clearfelled upland moorland sites (3515individuals/ha) was at the lower end of that recorded by Harmer and Morgan (2009) (3000-11,000individuals/ha) in a storm damaged lowland conifer site in south-east England that had been allowed to naturally regenerate.
+[LINE#13] Regeneration density on all clearfelled upland moorland sites (3515individuals/ha) was at the lower end of that recorded by Harmer and Morgan (2009) (3000-11,000individuals/ha) in a storm damaged lowland conifer site in south-east England that had been allowed to naturally regenerate.
 0.159	[*A*]that[*R*]recorded[*A*]by Morgan ( 2009	context()	negated: False ,passive: True
 0.159	[*A*]that[*R*]recorded[*A*]by Harmer	context()	negated: False ,passive: True
 0.909	[*A*]Regeneration density on all clearfelled upland moorland sites ( 3515individuals / ha[*R*]was[*A*]at the lower end of that	context()	negated: False ,passive: True
 0.882	[*A*]a storm damaged lowland conifer site in south - east England[*R*]to naturally regenerate	context()	negated: False ,passive: False
-[LINE#15] The regeneration density we recorded was lower than conifer regeneration within small windthrows (Jonsov et al., 2010) or clearfells (Modr et al., 2004; Holgn and Hnell, 2000) where sapling densities as great as 160,000individuals/ha have been recorded (Modr et al., 2004; Holgn and Hnell, 2000; Jonsov et al., 2010).
+[LINE#14+15+16]  The regeneration density we recorded was lower than conifer regeneration within small windthrows (Jonsov et al., 2010) or clearfells (Modr et al., 2004; Holgn and Hnell, 2000) where sapling densities as great as 160,000individuals/ha have been recorded (Modr et al., 2004; Holgn and Hnell, 2000; Jonsov et al., 2010).
 0.751	[*A*]160,000individuals/ha[*R*]have been recorded	context()	negated: False ,passive: False
 0.407	[*A*]we[*R*]recorded[*A*]where sapling densities as great	context()	negated: False ,passive: False
-[LINE#16]The high regeneration density in these studies was likely due to an ample seed source due to the surrounding woodland whereas in our study the seed source was limited to individual mature trees.
+[LINE#17] The high regeneration density in these studies was likely due to an ample seed source due to the surrounding woodland whereas in our study the seed source was limited to individual mature trees.
 0.911	[*A*]the seed source[*R*]was limited[*A*]to individual mature trees	context()	negated: False ,passive: True
 0.970	[*A*]The high regeneration density in these studies[*R*]was[*A*]likely[*A*]due to an ample seed source due to the surrounding woodland	context()	negated: False ,passive: True
-[LINE#17] Nevertheless, the regeneration density on clearfelled upland moorland sites and a clearfelled PAWS site (5790stems/ha) exceeded the suggested sapling stocking densities for new native woodland in Britain of between 500 and 2000stems/ha (Forestry Commission, 2010).The diversity of regenerating species was usually lower than that of the adjacent seed sources with regeneration dominated by birch on all but one clearfelled site, as has been found previously at storm damaged lowland sites in Britain (Harmer and Morgan, 2009; Harmer et al., 2011) and elsewhere in Europe.
+[LINE#18+19]  Nevertheless, the regeneration density on clearfelled upland moorland sites and a clearfelled PAWS site (5790stems/ha) exceeded the suggested sapling stocking densities for new native woodland in Britain of between 500 and 2000stems/ha (Forestry Commission, 2010).The diversity of regenerating species was usually lower than that of the adjacent seed sources with regeneration dominated by birch on all but one clearfelled site, as has been found previously at storm damaged lowland sites in Britain (Harmer and Morgan, 2009; Harmer et al., 2011) and elsewhere in Europe.
 0.982	[*A*]the regeneration density on a clearfelled PAWS site ( 5790stems / ha[*R*]exceeded[*A*]the suggested sapling stocking densities for new native woodland in Britain of 2000stems	context()	negated: False ,passive: False
 0.982	[*A*]the regeneration density on a clearfelled PAWS site ( 5790stems / ha[*R*]exceeded[*A*]the suggested sapling stocking densities for new native woodland in Britain of between 500 / ha	context()	negated: False ,passive: False
 0.894	[*A*]regeneration[*R*]dominated[*A*]by birch on all	context()	negated: False ,passive: True
@@ -55,19 +55,19 @@
 0.911	[*A*]regeneration[*R*]dominated[*A*]by birch on Harmer et al	context()	negated: False ,passive: True
 0.894	[*A*]regeneration[*R*]dominated[*A*]by birch[*A*]on all	context()	negated: False ,passive: True
 0.970	[*A*]the regeneration density on clearfelled upland moorland sites[*R*]exceeded[*A*]the suggested sapling stocking densities for new native woodland in Britain of between 500 / ha	context()	negated: False ,passive: False
-[LINE#18]Overall, birch accounted for 56% of regenerating saplings in our study.
+[LINE#20] Overall, birch accounted for 56% of regenerating saplings in our study.
 0.703	[*A*]birch[*R*]accounted[*A*]for 56% of regenerating saplings in our study	context()	negated: False ,passive: False
-[LINE#19]The density of birch regeneration on clearfelled upland moorland on our study sites is similar to that recorded in a storm damaged lowland conifer site in Britain (Harmer and Morgan, 2009) and to clearfelled upland conifer sites in Scotland (Wallace, 1998).
+[LINE#21] The density of birch regeneration on clearfelled upland moorland on our study sites is similar to that recorded in a storm damaged lowland conifer site in Britain (Harmer and Morgan, 2009) and to clearfelled upland conifer sites in Scotland (Wallace, 1998).
 0.159	[*A*]that[*R*]recorded[*A*]in a storm damaged lowland conifer site in Britain	context()	negated: False ,passive: True
 0.840	[*A*]storm[*R*]damaged[*A*]lowland conifer site in Britain	context()	negated: False ,passive: False
 0.233	[*A*]that[*R*]recorded[*A*]in a storm damaged lowland conifer site in Britain ( Harmer and to clearfelled upland conifer sites in Scotland	context()	negated: False ,passive: True
 0.466	[*A*]The density of birch regeneration on clearfelled upland moorland on our study sites[*R*]is[*A*]similar to that	context()	negated: False ,passive: True
-[LINE#20]Despite the presence of mature individuals of ash, beech, juniper and hazel adjacent to clearfelled sites only a handful of saplings of these species were noted.
+[LINE#22] Despite the presence of mature individuals of ash, beech, juniper and hazel adjacent to clearfelled sites only a handful of saplings of these species were noted.
 0.847	[*A*]the presence of mature individuals of hazel adjacent to clearfelled sites[*R*]were noted	context()	negated: False ,passive: False
 0.847	[*A*]the presence of mature individuals of juniper adjacent to clearfelled sites[*R*]were noted	context()	negated: False ,passive: False
 0.847	[*A*]the presence of mature individuals of beech adjacent to clearfelled sites[*R*]were noted	context()	negated: False ,passive: False
 0.847	[*A*]the presence of mature individuals of ash adjacent to clearfelled sites[*R*]were noted	context()	negated: False ,passive: False
-[LINE#21] Overall we found that pioneer, shade-intolerant species such as birch, rowan and willow regenerated more frequently than shade-tolerant species such as beech and holly (Brzeiziecki and Kienast, 1994).We explored the role of distance from seed source on regeneration density for distances up to 100m from the source.
+[LINE#23+24]  Overall we found that pioneer, shade-intolerant species such as birch, rowan and willow regenerated more frequently than shade-tolerant species such as beech and holly (Brzeiziecki and Kienast, 1994).We explored the role of distance from seed source on regeneration density for distances up to 100m from the source.
 0.894	[*A*]willow[*R*]regenerated[*A*]more frequently than shade-tolerant species such as holly	context()	negated: False ,passive: True
 0.894	[*A*]willow[*R*]regenerated[*A*]more frequently than shade-tolerant species such as beech	context()	negated: False ,passive: True
 0.271	[*A*]we[*R*]found[*A*]that pioneer , shade-intolerant species such as rowan regenerated more frequently than shade-tolerant species such as holly	context()	negated: False ,passive: False
@@ -78,7 +78,7 @@
 0.504	[*A*]We[*R*]explored[*A*]the role of distance from seed source on regeneration density for distances	context(we found)	negated: False ,passive: False
 0.188	[*A*]we[*R*]found[*A*]that pioneer	context()	negated: False ,passive: False
 0.813	[*A*]birch[*R*]regenerated[*A*]more frequently than shade-tolerant species such as beech	context()	negated: False ,passive: True
-[LINE#22]The regeneration of the small-seeded and wind-dispersed alder and birch species were found to be strongly dependent on the distance from parent trees.
+[LINE#25] The regeneration of the small-seeded and wind-dispersed alder and birch species were found to be strongly dependent on the distance from parent trees.
 0.939	[*A*]The regeneration of the wind - dispersed birch species[*R*]to be[*A*]strongly dependent on the distance from parent trees	context()	negated: False ,passive: True
 0.843	[*A*]The regeneration of the wind - dispersed birch species[*R*]were found	context()	negated: False ,passive: False
 0.939	[*A*]The regeneration of the wind - dispersed alder species[*R*]to be[*A*]strongly dependent on the distance from parent trees	context()	negated: False ,passive: True
@@ -87,32 +87,32 @@
 0.843	[*A*]The regeneration of the small - seeded birch species[*R*]were found	context()	negated: False ,passive: False
 0.939	[*A*]The regeneration of the small - seeded alder species[*R*]to be[*A*]strongly dependent on the distance from parent trees	context()	negated: False ,passive: True
 0.843	[*A*]The regeneration of the small - seeded alder species[*R*]were found	context()	negated: False ,passive: False
-[LINE#23]The majority of the saplings were found within 20m of a parent tree, although for birch there was a long tail, limited in our study to the width of the clearfelled site.
+[LINE#26] The majority of the saplings were found within 20m of a parent tree, although for birch there was a long tail, limited in our study to the width of the clearfelled site.
 0.915	[*A*]The majority of the saplings[*R*]were found[*A*]within 20m of a parent tree[*A*]although for birch there was a long tail, limited in our study to the width of the clearfelled site	context()	negated: False ,passive: True
-[LINE#24]The patchy distribution which results from this clumping around seed sources is not necessarily a disadvantage for establishment of natural woodland.
+[LINE#27] The patchy distribution which results from this clumping around seed sources is not necessarily a disadvantage for establishment of natural woodland.
 0.957	[*A*]The patchy distribution which results from this clumping around seed sources[*R*]is not[*A*]necessarily[*A*]a disadvantage for establishment of natural woodland	context()	negated: True ,passive: True
 0.897	[*A*]The patchy distribution[*R*]results[*A*]from this clumping around seed sources	context()	negated: False ,passive: True
-[LINE#25](1994) suggest that 20-50% of woodland sites should be retained as open ground to enhance structural diversity and wildlife value.
+[LINE#28] (1994) suggest that 20-50% of woodland sites should be retained as open ground to enhance structural diversity and wildlife value.
 0.909	[*A*]20-50 % of woodland sites[*R*]should be retained[*A*]as open ground[*A*]to enhance wildlife value	context(1994 suggest)	negated: False ,passive: True
 0.321	[*A*]1994[*R*]suggest[*A*]that 20-50 % of woodland sites should be retained as open ground to enhance wildlife value	context()	negated: False ,passive: False
 0.909	[*A*]20-50 % of woodland sites[*R*]should be retained[*A*]as open ground[*A*]to enhance structural diversity	context(1994 suggest)	negated: False ,passive: True
 0.321	[*A*]1994[*R*]suggest[*A*]that 20-50 % of woodland sites should be retained as open ground to enhance structural diversity	context()	negated: False ,passive: False
-[LINE#26]The fluctuations in sapling density may result in a more natural woodland structure to that produced through planting.
+[LINE#29] The fluctuations in sapling density may result in a more natural woodland structure to that produced through planting.
 0.044	[*A*]that[*R*]produced	context()	negated: False ,passive: False
 0.820	[*A*]The fluctuations in sapling density[*R*]may result[*A*]in a more natural woodland structure to that	context()	negated: False ,passive: True
-[LINE#27]The shoulder of the regeneration curve at distances less than 10m from the woodland edge could be attributable to an edge effect - root competition or light and rain interception from the mature trees counteracting the increased regeneration caused by the rise in seed density as you approach the edge.
+[LINE#30] The shoulder of the regeneration curve at distances less than 10m from the woodland edge could be attributable to an edge effect - root competition or light and rain interception from the mature trees counteracting the increased regeneration caused by the rise in seed density as you approach the edge.
 0.616	[*A*]you[*R*]approach[*A*]the edge	context()	negated: False ,passive: True
 0.911	[*A*]the increased regeneration[*R*]caused[*A*]by the rise in seed density	context()	negated: False ,passive: True
 0.943	[*A*]the mature trees[*R*]counteracting[*A*]the increased regeneration caused by the rise in seed density	context()	negated: False ,passive: False
 0.958	[*A*]The shoulder of the regeneration curve at distances[*R*]could be[*A*]attributable to an edge effect - root competition or light and rain interception from the mature trees	context()	negated: False ,passive: True
-[LINE#28]The seed dispersion curve for a point source (Harper, 1977; Nathan et al., 2001) is similarly shaped to the regeneration curves for solitary trees in having a peak in seed fall density a short distance from the parent tree.
+[LINE#31] The seed dispersion curve for a point source (Harper, 1977; Nathan et al., 2001) is similarly shaped to the regeneration curves for solitary trees in having a peak in seed fall density a short distance from the parent tree.
 0.934	[*A*]The seed dispersion curve for a point source[*R*]is similarly shaped[*A*]to the regeneration curves for solitary trees[*A*]in having a peak in seed	context()	negated: False ,passive: True
-[LINE#29]Regeneration of oak and rowan was found to be significantly clumped although not significantly dependent on distance from the seed source.
+[LINE#32] Regeneration of oak and rowan was found to be significantly clumped although not significantly dependent on distance from the seed source.
 0.933	[*A*]Regeneration of rowan[*R*]to be significantly clumped[*A*]although not significantly dependent on distance from the seed source	context()	negated: False ,passive: True
 0.751	[*A*]Regeneration of rowan[*R*]was found	context()	negated: False ,passive: False
 0.933	[*A*]Regeneration of oak[*R*]to be significantly clumped[*A*]although not significantly dependent on distance from the seed source	context()	negated: False ,passive: True
 0.751	[*A*]Regeneration of oak[*R*]was found	context()	negated: False ,passive: False
-[LINE#30] Rowan is primarily dispersed through ingestion by birds, particularly various thrush species (Raspe et al., 2000), while oak relies on hoarding by both birds and mammals but especially Garrulus glandarius (jay) and Apodemus sylvaticus (wood mouse)(Forget et al., 2004), both of which occur at the study sites.
+[LINE#33+34]  Rowan is primarily dispersed through ingestion by birds, particularly various thrush species (Raspe et al., 2000), while oak relies on hoarding by both birds and mammals but especially Garrulus glandarius (jay) and Apodemus sylvaticus (wood mouse)(Forget et al., 2004), both of which occur at the study sites.
 0.894	[*A*]oak[*R*]relies[*A*]on hoarding by both mammals	context()	negated: False ,passive: False
 0.862	[*A*]Rowan[*R*]is dispersed[*A*]by birds[*A*]while oak relies on hoarding by both mammals	context()	negated: False ,passive: True
 0.894	[*A*]oak[*R*]relies[*A*]on hoarding by both birds	context()	negated: False ,passive: False
@@ -121,14 +121,14 @@
 0.882	[*A*]Rowan[*R*]is dispersed[*A*]by birds[*A*]while oak relies on Apodemus sylvaticus	context()	negated: False ,passive: True
 0.911	[*A*]oak[*R*]relies[*A*]on hoarding especially Garrulus glandarius	context()	negated: False ,passive: False
 0.882	[*A*]Rowan[*R*]is dispersed[*A*]by birds[*A*]while oak relies on hoarding especially Garrulus glandarius	context()	negated: False ,passive: True
-[LINE#31]The distribution of regenerating saplings will therefore be partly controlled by the behaviour of the dispersing animal.
+[LINE#35] The distribution of regenerating saplings will therefore be partly controlled by the behaviour of the dispersing animal.
 0.890	[*A*]The distribution of regenerating saplings[*R*]will be partly controlled[*A*]by the behaviour of the dispersing animal	context()	negated: False ,passive: True
-[LINE#32]Previous work in central Europe has demonstrated that the majority of oak regeneration occurs within 100m of a seed source and declines rapidly at greater distances (Mirschel et al., 2011).
+[LINE#36] Previous work in central Europe has demonstrated that the majority of oak regeneration occurs within 100m of a seed source and declines rapidly at greater distances (Mirschel et al., 2011).
 0.906	[*A*]the majority of oak regeneration[*R*]occurs rapidly[*A*]within 100 m of a seed	context(Previous work in central Europe has demonstrated)	negated: False ,passive: True
 0.888	[*A*]Previous work in central Europe[*R*]has demonstrated[*A*]that the majority of oak regeneration occurs within 100 m of a seed declines rapidly at greater distances	context()	negated: False ,passive: False
 0.921	[*A*]the majority of oak regeneration[*R*]occurs rapidly[*A*]at greater distances[*A*]within 100 m of a seed source	context(Previous work in central Europe has demonstrated)	negated: False ,passive: True
 0.888	[*A*]Previous work in central Europe[*R*]has demonstrated[*A*]that the majority of oak regeneration occurs within 100 m of a seed source rapidly at greater distances	context()	negated: False ,passive: False
-[LINE#33] However, our findings are in contrast to previous work carried out in lowland sites in the UK that found positive relationships between the number of oak seedlings and distance to parent trees but no significant effect for birch seedlings(Harmer et al., 2005), possibly indicating differences between the shelterwood examined by Harmer et al.
+[LINE#37+38]  However, our findings are in contrast to previous work carried out in lowland sites in the UK that found positive relationships between the number of oak seedlings and distance to parent trees but no significant effect for birch seedlings(Harmer et al., 2005), possibly indicating differences between the shelterwood examined by Harmer et al.
 0.922	[*A*]Harmer et al[*R*]indicating[*A*]differences between the shelterwood	context()	negated: False ,passive: False
 0.974	[*A*]previous work carried out in lowland sites in the UK[*R*]found[*A*]positive relationships between the number of oak seedlings and no significant effect for birch seedlings	context()	negated: False ,passive: False
 0.638	[*A*]our findings[*R*]are[*A*]in contrast to previous work	context()	negated: False ,passive: True
@@ -136,103 +136,103 @@
 0.598	[*A*]our findings[*R*]indicating[*A*]differences between the shelterwood	context()	negated: False ,passive: False
 0.974	[*A*]previous work carried out in lowland sites in the UK[*R*]found[*A*]positive relationships between the number of oak seedlings and distance to parent trees	context()	negated: False ,passive: False
 0.638	[*A*]our findings[*R*]are[*A*]in contrast to previous work[*A*]possibly indicating differences between the shelterwood	context()	negated: False ,passive: True
-[LINE#34](2005) and the more extensive clearfells that we considered.
+[LINE#39] (2005) and the more extensive clearfells that we considered.
 0.903	[*A*]the more extensive clearfells[*R*]considered[*A*]we	context()	negated: False ,passive: True
-[LINE#35]The determination of any relationship between vascular plant cover and regeneration density was complicated by the constantly changing nature of ground flora - the current vegetation structure does not necessarily reflect that present when the seedlings first started growing.
+[LINE#40] The determination of any relationship between vascular plant cover and regeneration density was complicated by the constantly changing nature of ground flora - the current vegetation structure does not necessarily reflect that present when the seedlings first started growing.
 0.950	[*A*]The determination of any relationship between vascular plant cover and regeneration density[*R*]was complicated[*A*]by the constantly changing nature of ground flora	context(the current vegetation structure does not reflect)	negated: False ,passive: True
 0.675	[*A*]the current vegetation structure[*R*]does not reflect[*A*]that present[*A*]when the seedlings first started growing	context()	negated: True ,passive: True
 0.698	[*A*]the seedlings[*R*]growing	context()	negated: False ,passive: False
 0.832	[*A*]the seedlings[*R*]started[*A*]first	context()	negated: False ,passive: True
-[LINE#36]Indeed, the only significant correlation between regeneration density and vascular plant cover was the negative correlation found for birch seedlings (shorter than 0.5m).
+[LINE#41] Indeed, the only significant correlation between regeneration density and vascular plant cover was the negative correlation found for birch seedlings (shorter than 0.5m).
 0.751	[*A*]the negative correlation[*R*]found	context()	negated: False ,passive: False
 0.979	[*A*]the only significant correlation between regeneration density and vascular plant cover[*R*]was[*A*]the negative correlation found for birch seedlings (shorter than 0.5m)	context()	negated: False ,passive: True
-[LINE#37] The small size of a birch seed means that its food reserve is only sufficient to grow to 2cm in height(Miles and Kinnaird, 1979), before it must be able to support itself through photosynthesis.
+[LINE#42+43]  The small size of a birch seed means that its food reserve is only sufficient to grow to 2cm in height(Miles and Kinnaird, 1979), before it must be able to support itself through photosynthesis.
 0.822	[*A*]The small size of a birch seed[*R*]means[*A*]that its food reserve is only sufficient to grow to 2 cm in height ( Kinnaird , 1979 ) , before it must be able to support itself through photosynthesis	context()	negated: False ,passive: False
 0.674	[*A*]its food reserve[*R*]is[*A*]only sufficient to grow to 2 cm in height	context(The small size of a birch seed means)	negated: False ,passive: True
 0.822	[*A*]The small size of a birch seed[*R*]means[*A*]that its food reserve is only sufficient to grow to 2 cm in height ( Miles ) , before it must be able to support itself through photosynthesis	context()	negated: False ,passive: False
 0.274	[*A*]it[*R*]to support[*A*]itself	context()	negated: False ,passive: False
 0.309	[*A*]it[*R*]must be[*A*]able to support itself through photosynthesis	context()	negated: False ,passive: True
 0.621	[*A*]its food reserve[*R*]to grow[*A*]to 2 cm in height	context()	negated: False ,passive: True
-[LINE#38]This results in birch's difficulty in establishing itself in thick vegetation.
+[LINE#44] This results in birch's difficulty in establishing itself in thick vegetation.
 0.349	[*A*]This[*R*]results[*A*]in birch's difficulty in establishing itself in thick vegetation	context()	negated: False ,passive: True
-[LINE#39]Scarification (exposure of mineral soil) can increase seedling density in birch spp.
+[LINE#45] Scarification (exposure of mineral soil) can increase seedling density in birch spp.
 0.877	[*A*]Scarification[*R*]can increase[*A*]seedling density	context()	negated: False ,passive: False
-[LINE#40](Kinnaird, 1974; Karlsson, 1996).
-[LINE#41]The ground disturbance and lack of ground vegetation after clear felling provides opportunities for seedlings to become established in bare ground before it is covered with vegetation.
+[LINE#46] (Kinnaird, 1974; Karlsson, 1996).
+[LINE#47] The ground disturbance and lack of ground vegetation after clear felling provides opportunities for seedlings to become established in bare ground before it is covered with vegetation.
 0.452	[*A*]it[*R*]is covered[*A*]with vegetation	context()	negated: False ,passive: True
 0.795	[*A*]seedlings[*R*]established[*A*]in bare ground[*A*]before it is covered with vegetation	context()	negated: False ,passive: True
 0.880	[*A*]seedlings[*R*]to become[*A*]established in bare ground before it is covered with vegetation	context()	negated: False ,passive: True
 0.903	[*A*]clear felling[*R*]provides[*A*]opportunities for seedlings to become established in bare ground	context()	negated: False ,passive: False
-[LINE#42]In contrast, the lack of regeneration seen on the unplanted upland moorland and unplanted improved farmland sites is likely due to the dense flora coverage (120% and 142% respectively) in combination with the lack of any ground disturbance.
+[LINE#48] In contrast, the lack of regeneration seen on the unplanted upland moorland and unplanted improved farmland sites is likely due to the dense flora coverage (120% and 142% respectively) in combination with the lack of any ground disturbance.
 0.841	[*A*]unplanted improved farmland sites[*R*]is[*A*]likely	context()	negated: False ,passive: True
 0.919	[*A*]the lack of regeneration[*R*]seen[*A*]on the unplanted upland moorland	context()	negated: False ,passive: False
-[LINE#43]The rate of tree growth was slow, with regenerating trees achieving a median height of 104cm after 10years of growth post-felling.
+[LINE#49] The rate of tree growth was slow, with regenerating trees achieving a median height of 104cm after 10years of growth post-felling.
 0.903	[*A*]regenerating trees[*R*]achieving[*A*]a median height of 104cm[*A*]after 10years of growth post-felling	context()	negated: False ,passive: False
 0.964	[*A*]The rate of tree growth[*R*]was[*A*]slow[*A*]with regenerating trees achieving a median height of 104cm after 10years of growth post-felling	context()	negated: False ,passive: True
-[LINE#44]These growth rates are markedly poorer than those recorded by Harmer and Morgan (2009) in lowland England or by Worrell et al.
+[LINE#50] These growth rates are markedly poorer than those recorded by Harmer and Morgan (2009) in lowland England or by Worrell et al.
 0.371	[*A*]those[*R*]recorded[*A*]by Harmer and Morgan (2009) in lowland England or by Worrell et al	context()	negated: False ,passive: True
 0.569	[*A*]These growth rates[*R*]are[*A*]markedly poorer than those	context()	negated: False ,passive: True
-[LINE#45] We found that the height distribution of the regenerating trees changed with time since clearfelling (Fig. 3), with large numbers of small trees 4yearspost-felling changing to a more even distribution of heights 10years post-felling.
+[LINE#51+52]  We found that the height distribution of the regenerating trees changed with time since clearfelling (Fig. 3), with large numbers of small trees 4yearspost-felling changing to a more even distribution of heights 10years post-felling.
 0.750	[*A*]the height distribution of the regenerating trees[*R*]4yearspost-felling	context(We found)	negated: False ,passive: False
 0.515	[*A*]We[*R*]found[*A*]the height distribution of the regenerating trees changed with time since clearfelling (Fig. 3), with large numbers of small trees 4yearspost-felling	context()	negated: False ,passive: False
 0.911	[*A*]large numbers of small trees[*R*]changing post-felling[*A*]to a more even distribution of heights 10years	context()	negated: False ,passive: True
 0.952	[*A*]the regenerating trees[*R*]changed[*A*]with time since clearfelling (Fig. 3), with large numbers of small trees	context()	negated: False ,passive: True
-[LINE#46]This indicates that the recruitment of new trees is most prolific in the first few years following felling, with fewer seedlings 10years post-felling indicating a slowdown in this process.
+[LINE#53] This indicates that the recruitment of new trees is most prolific in the first few years following felling, with fewer seedlings 10years post-felling indicating a slowdown in this process.
 0.955	[*A*]the recruitment of new trees[*R*]is[*A*]most prolific[*A*]in the first few years following felling, with fewer seedlings 10years post-felling indicating a slowdown in this process	context(This indicates)	negated: False ,passive: True
 0.224	[*A*]This[*R*]indicates[*A*]that the recruitment of new trees is most prolific in the first few years following felling, with fewer seedlings 10years post-felling indicating a slowdown in this process	context()	negated: False ,passive: False
 0.751	[*A*]fewer seedlings 10years[*R*]post-felling	context()	negated: False ,passive: False
-[LINE#47]This decline is likely to be driven by the increase in herbaceous cover following clearfelling combined with the negative correlation between birch regeneration and herbaceous cover.
+[LINE#54] This decline is likely to be driven by the increase in herbaceous cover following clearfelling combined with the negative correlation between birch regeneration and herbaceous cover.
 0.931	[*A*]clearfelling[*R*]combined[*A*]with the negative correlation between birch regeneration and herbaceous cover	context()	negated: False ,passive: True
 0.887	[*A*]This decline[*R*]to be driven[*A*]by the increase in herbaceous cover following clearfelling	context()	negated: False ,passive: True
 0.952	[*A*]This decline[*R*]is[*A*]likely to be driven by the increase in herbaceous cover following clearfelling	context()	negated: False ,passive: True
-[LINE#48]The weighting of seedling recruitment to the years immediately following clearfelling may also contribute to the observed site to site variability in regenerating tree number since any temporal fluctuations in the ability of trees to regenerate will have substantial effects on the resulting density.
+[LINE#55] The weighting of seedling recruitment to the years immediately following clearfelling may also contribute to the observed site to site variability in regenerating tree number since any temporal fluctuations in the ability of trees to regenerate will have substantial effects on the resulting density.
 0.918	[*A*]The weighting of seedling recruitment to the years immediately following clearfelling[*R*]may contribute to the observed site will have[*A*]substantial effects on the resulting density	context(The weighting of seedling recruitment to the years immediately following clearfelling may contribute)	negated: False ,passive: False
 0.947	[*A*]The weighting of seedling recruitment to the years immediately following clearfelling[*R*]may contribute[*A*]to the observed site[*A*]to site variability in regenerating tree number since any temporal fluctuations in the ability of trees to regenerate	context()	negated: False ,passive: False
-[LINE#49] Potential factors influencing interannual variability in seed dispersal and seedling germination include temporal variation in seed production (Harper, 1977) and climatic factors such as wind speed or precipitation(Nyland, 1996) and amount of snow cover (Greene and Johnsson, 1997; Forestry Commission, 2004).We found that the dense layers of brash produced by windrowing significantly reduced the amount of natural regeneration.
+[LINE#56+57]  Potential factors influencing interannual variability in seed dispersal and seedling germination include temporal variation in seed production (Harper, 1977) and climatic factors such as wind speed or precipitation(Nyland, 1996) and amount of snow cover (Greene and Johnsson, 1997; Forestry Commission, 2004).We found that the dense layers of brash produced by windrowing significantly reduced the amount of natural regeneration.
 0.605	[*A*]brash[*R*]produced[*A*]by windrowing	context()	negated: False ,passive: True
 0.608	[*A*]the dense layers of brash[*R*]reduced the amount of natural regeneration by windrowing	context(We found the dense layers of brash reduced)	negated: False ,passive: False
 0.890	[*A*]the dense layers of brash[*R*]reduced[*A*]the amount of natural regeneration	context(We found)	negated: False ,passive: False
 0.271	[*A*]We[*R*]found[*A*]that the dense layers of brash produced by windrowing significantly reduced the amount of natural regeneration	context()	negated: False ,passive: False
 0.977	[*A*]Potential factors influencing interannual variability in seed dispersal and seedling germination[*R*]include[*A*]temporal variation in seed production (Harper, 1977) and climatic factors such as wind speed or precipitation(Nyland, 1996) and amount of snow cover	context()	negated: False ,passive: True
 0.903	[*A*]Potential factors[*R*]influencing[*A*]interannual variability in seed dispersal and seedling germination	context()	negated: False ,passive: False
-[LINE#50]Windrows could be up to a metre high and several metres wide, producing a physical barrier that prevented seedling establishment and creating regions with little or no regeneration.
+[LINE#58] Windrows could be up to a metre high and several metres wide, producing a physical barrier that prevented seedling establishment and creating regions with little or no regeneration.
 0.870	[*A*]a physical barrier[*R*]prevented seedling[*A*]establishment	context(a physical barrier prevented)	negated: False ,passive: False
 0.915	[*A*]a physical barrier[*R*]prevented[*A*]seedling establishment and creating regions with little or no regeneration	context()	negated: False ,passive: False
 0.807	[*A*]Windrows[*R*]producing[*A*]a physical barrier that prevented seedling establishment and creating regions with little or no regeneration	context()	negated: False ,passive: False
 0.894	[*A*]Windrows[*R*]could be[*A*]up to a metre high and several metres wide[*A*]producing a physical barrier	context()	negated: False ,passive: True
-[LINE#51] While we might expect seedlings from larger seeded species like rowan ( 200,000 seeds weigh 1kg) to have an advantage over seedlings from smaller seeded species such as birch ( 5.9million seeds weigh 1kg) in growing through brash (Leishman and Westoby, 1994)we found no significant difference between the proportion of rowan in windrows and interrows.
+[LINE#59+60+61+62]  While we might expect seedlings from larger seeded species like rowan ( 200,000 seeds weigh 1kg) to have an advantage over seedlings from smaller seeded species such as birch ( 5.9million seeds weigh 1kg) in growing through brash (Leishman and Westoby, 1994)we found no significant difference between the proportion of rowan in windrows and interrows.
 0.991	[*A*]200000 seeds[*R*]weigh[*A*]1 kg	context()	negated: False ,passive: False
 0.903	[*A*]200,000 seeds[*R*]weigh[*A*]1kg	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]found[*A*]no significant difference between the proportion of rowan in windrows and interrows	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]might expect[*A*]seedlings from larger seeded species like rowan	context()	negated: False ,passive: False
-[LINE#52]Furthermore, previous studies have found that where grazing pressure is high, brash (Truscott et al., 2004) and coarse woody debris (Smit et al., 2012) can help protect seedlings from browsing.
+[LINE#63] Furthermore, previous studies have found that where grazing pressure is high, brash (Truscott et al., 2004) and coarse woody debris (Smit et al., 2012) can help protect seedlings from browsing.
 0.920	[*A*]previous studies[*R*]have found[*A*]brash ( coarse woody debris ( Smit et al . , 2012 ) can help protect seedlings from browsing	context()	negated: False ,passive: False
 0.835	[*A*]previous studies[*R*]have found[*A*]that where grazing pressure is high , brash ( Truscott et al Smit et al . , 2012 ) can help protect seedlings from browsing	context()	negated: False ,passive: False
 0.813	[*A*]grazing pressure[*R*]is[*A*]high	context()	negated: False ,passive: True
-[LINE#53]However, it is difficult to draw any conclusions from our study as only a single site (U15) recorded significant browsing.
-[LINE#54]The low incidence of browsing at our study sites (grazing pressure was controlled) means that grazing is unlikely to limit regeneration (Palmer et al., 2004; Olesen and Madsen, 2008; Yamagawa et al., 2010).Clearfelled sites undergo substantial ground disturbance resulting in a mean 19% ground flora coverage 2years post-felling.
-[LINE#55]On upland moorland sites, vegetation after clearfelling was largely comprised of ruderal species such as wavy hair-grass and Deschampsia cespitosa (tufted hair-grass) before being joined by species associated with open moorland like ling heather and G. saxatile (heath bedstraw).
+[LINE#64] However, it is difficult to draw any conclusions from our study as only a single site (U15) recorded significant browsing.
+[LINE#65] The low incidence of browsing at our study sites (grazing pressure was controlled) means that grazing is unlikely to limit regeneration (Palmer et al., 2004; Olesen and Madsen, 2008; Yamagawa et al., 2010).Clearfelled sites undergo substantial ground disturbance resulting in a mean 19% ground flora coverage 2years post-felling.
+[LINE#66] On upland moorland sites, vegetation after clearfelling was largely comprised of ruderal species such as wavy hair-grass and Deschampsia cespitosa (tufted hair-grass) before being joined by species associated with open moorland like ling heather and G. saxatile (heath bedstraw).
 0.890	[*A*]vegetation after clearfelling[*R*]was comprised[*A*]of ruderal species such as Deschampsia cespitosa[*A*]before being joined by species	context()	negated: False ,passive: True
 0.894	[*A*]species[*R*]associated[*A*]with open moorland	context()	negated: False ,passive: True
 0.894	[*A*]species[*R*]associated[*A*]with open moorland like ling heather	context()	negated: False ,passive: True
 0.870	[*A*]vegetation after clearfelling[*R*]was comprised[*A*]of ruderal species such as wavy hair - grass[*A*]before being joined by species	context()	negated: False ,passive: True
-[LINE#56]Colonisation by woodland ground flora species was poor.
+[LINE#67] Colonisation by woodland ground flora species was poor.
 0.865	[*A*]Colonisation by woodland ground flora species[*R*]was[*A*]poor	context()	negated: False ,passive: True
-[LINE#57]Many previous studies have focused on restoration of PAWS to semi-natural woodland with current advice advocating a gradual approach to restoration through thinning (Thompson et al., 2003; Woodland Trust, 2005).
+[LINE#68] Many previous studies have focused on restoration of PAWS to semi-natural woodland with current advice advocating a gradual approach to restoration through thinning (Thompson et al., 2003; Woodland Trust, 2005).
 0.891	[*A*]Many previous studies[*R*]have focused on restoration of PAWS to semi-natural[*A*]woodland[*A*]with current advice	context(Many previous studies have focused)	negated: False ,passive: False
 0.908	[*A*]Many previous studies[*R*]have focused[*A*]on restoration of PAWS	context()	negated: False ,passive: False
 0.903	[*A*]current advice[*R*]advocating[*A*]a gradual approach to restoration through thinning	context()	negated: False ,passive: False
-[LINE#58]In this study we explored the potential conversion of conifer plantations on upland moorland and improved farmland to semi-natural woodland through a process of clearfelling followed by natural regeneration.
+[LINE#69] In this study we explored the potential conversion of conifer plantations on upland moorland and improved farmland to semi-natural woodland through a process of clearfelling followed by natural regeneration.
 0.702	[*A*]we[*R*]explored[*A*]the potential conversion of conifer plantations on improved farmland to semi-natural woodland[*A*]In this study	context()	negated: False ,passive: False
 0.769	[*A*]a process of clearfelling[*R*]followed	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]explored[*A*]the potential conversion of conifer plantations on upland moorland[*A*]In this study	context()	negated: False ,passive: False
-[LINE#59]There has been comparatively little work carried out on this despite the large area of uplands used for conifer plantations in Britain.
+[LINE#70] There has been comparatively little work carried out on this despite the large area of uplands used for conifer plantations in Britain.
 0.911	[*A*]uplands[*R*]used[*A*]for conifer plantations in Britain	context()	negated: False ,passive: True
 0.911	[*A*]comparatively little work[*R*]carried out[*A*]on this[*A*]despite the large area of uplands	context()	negated: False ,passive: True
-[LINE#60]We found that where remnants of native woodland survive, clearfelling results in conditions favourable for natural regeneration and typically producing regeneration densities of native species equal to or greater than that recommended for planting.
+[LINE#71] We found that where remnants of native woodland survive, clearfelling results in conditions favourable for natural regeneration and typically producing regeneration densities of native species equal to or greater than that recommended for planting.
 0.136	[*A*]that[*R*]recommended[*A*]for planting	context()	negated: False ,passive: True
 0.195	[*A*]We[*R*]found	context()	negated: False ,passive: False
-[LINE#61]Where forest managers aim to develop part of their forest estate as native woodland, we recommend sites be surveyed for native woodland remnants and adjacent conifers clearfelled to allow regeneration of native woodland.
+[LINE#72] Where forest managers aim to develop part of their forest estate as native woodland, we recommend sites be surveyed for native woodland remnants and adjacent conifers clearfelled to allow regeneration of native woodland.
 0.867	[*A*]sites[*R*]be surveyed[*A*]for native woodland adjacent conifers	context(we recommend)	negated: False ,passive: True
 0.388	[*A*]we[*R*]recommend[*A*]sites be surveyed for native woodland adjacent conifers	context()	negated: False ,passive: False
 0.919	[*A*]native woodland adjacent conifers[*R*]clearfelled[*A*]to allow regeneration of native woodland	context()	negated: False ,passive: True
@@ -241,42 +241,42 @@
 0.796	[*A*]forest managers[*R*]aim to develop[*A*]part of their forest estate as native woodland	context(forest managers aim)	negated: False ,passive: False
 0.862	[*A*]forest managers[*R*]aim[*A*]to develop part of their forest estate as native woodland	context()	negated: False ,passive: False
 0.911	[*A*]native woodland remnants[*R*]clearfelled[*A*]to allow regeneration of native woodland	context()	negated: False ,passive: True
-[LINE#62] Where seed sources of non-native conifer exist these species may also regenerate at high densities (Stokes et al., 2009; Stokes and Kerr, 2013) and further work is needed to explore to what extentthis hinders the development of semi-natural woodlands.
+[LINE#73+74]  Where seed sources of non-native conifer exist these species may also regenerate at high densities (Stokes et al., 2009; Stokes and Kerr, 2013) and further work is needed to explore to what extentthis hinders the development of semi-natural woodlands.
 0.903	[*A*]what extentthis[*R*]hinders[*A*]the development of semi-natural woodlands	context()	negated: False ,passive: False
 0.937	[*A*]further work[*R*]is needed[*A*]to explore to what extentthis hinders the development of semi-natural woodlands	context()	negated: False ,passive: True
 0.785	[*A*]seed sources of non-native conifer[*R*]exist	context()	negated: False ,passive: False
-[LINE#63] Gradual thinning of the conifer crop may be less likely to produce ideal conditions for natural regeneration (disturbed soil and little ground vegetation)while extending the supply of non-native conifer seed sources (Stokes et al., 2009), although further work is required to compare these approaches.
+[LINE#75+76]  Gradual thinning of the conifer crop may be less likely to produce ideal conditions for natural regeneration (disturbed soil and little ground vegetation)while extending the supply of non-native conifer seed sources (Stokes et al., 2009), although further work is required to compare these approaches.
 0.957	[*A*]Gradual thinning of the conifer crop[*R*]to produce[*A*]ideal conditions for natural regeneration ( disturbed little ground vegetation ) while extending the supply of non-native conifer seed sources ( Stokes et al . , 2009	context()	negated: False ,passive: False
 0.964	[*A*]Gradual thinning of the conifer crop[*R*]may be[*A*]less likely to produce ideal conditions for natural regeneration ( disturbed little ground vegetation ) while extending the supply of non-native conifer seed sources ( Stokes et al . , 2009	context()	negated: False ,passive: True
 0.903	[*A*]further work[*R*]is required[*A*]to compare these approaches	context()	negated: False ,passive: True
 0.949	[*A*]Gradual thinning of the conifer crop[*R*]to produce[*A*]ideal conditions for natural regeneration ( disturbed soil ) while extending the supply of non-native conifer seed sources	context()	negated: False ,passive: False
 0.956	[*A*]Gradual thinning of the conifer crop[*R*]may be[*A*]less likely to produce ideal conditions for natural regeneration ( disturbed soil ) while extending the supply of non-native conifer seed sources	context()	negated: False ,passive: True
-[LINE#64]Taking advantage of the natural regeneration process means that it may be possible to produce semi-natural woodland of a high ecological and landscape value at a substantially reduced cost (Jonsov et al., 2006).
+[LINE#77] Taking advantage of the natural regeneration process means that it may be possible to produce semi-natural woodland of a high ecological and landscape value at a substantially reduced cost (Jonsov et al., 2006).
 0.822	[*A*]Taking advantage of the natural regeneration process[*R*]means[*A*]that it may be possible to produce semi-natural woodland of a high ecological and landscape value at a substantially reduced cost (Jonsov et al., 2006	context()	negated: False ,passive: False
 0.544	[*A*]substantially[*R*]reduced[*A*]cost	context()	negated: False ,passive: True
-[LINE#65]However, where extensive thinning of non-native species would be required this would greatly increase costs (Stokes and Kerr, 2013).
-[LINE#66]We found natural regeneration was mostly of shade-intolerant pioneer species and was dominated by birch.
+[LINE#78] However, where extensive thinning of non-native species would be required this would greatly increase costs (Stokes and Kerr, 2013).
+[LINE#79] We found natural regeneration was mostly of shade-intolerant pioneer species and was dominated by birch.
 0.882	[*A*]natural regeneration[*R*]was dominated[*A*]by birch	context(We found)	negated: False ,passive: True
 0.397	[*A*]We[*R*]found[*A*]natural regeneration was dominated by birch	context()	negated: False ,passive: False
 0.908	[*A*]natural regeneration[*R*]was[*A*]mostly[*A*]of shade-intolerant pioneer species	context(We found)	negated: False ,passive: True
 0.397	[*A*]We[*R*]found[*A*]natural regeneration was mostly of shade-intolerant pioneer species	context()	negated: False ,passive: False
-[LINE#67]The lack of important timber producing species within the regeneration has been raised as a concern in lowland British sites (Harmer and Morgan, 2009) but is less likely to be a issue for upland sites where timber production may be a lower priority.
+[LINE#80] The lack of important timber producing species within the regeneration has been raised as a concern in lowland British sites (Harmer and Morgan, 2009) but is less likely to be a issue for upland sites where timber production may be a lower priority.
 0.953	[*A*]The lack of important timber producing species within the regeneration[*R*]has been raised[*A*]as a concern in lowland British sites	context()	negated: False ,passive: True
 0.894	[*A*]timber[*R*]producing[*A*]species within the regeneration	context()	negated: False ,passive: True
 0.903	[*A*]timber production[*R*]may be[*A*]a lower priority	context()	negated: False ,passive: True
 0.927	[*A*]The lack[*R*]to be[*A*]a issue for upland sites where timber production may be a lower priority	context()	negated: False ,passive: True
 0.925	[*A*]The lack[*R*]is[*A*]less likely to be a issue for upland sites	context()	negated: False ,passive: True
-[LINE#68]The dominance of birch within natural regeneration follows the expected pattern of natural succession and, given oak seed sources in the area, we might expect oak regeneration to follow in due course (Patterson, 1993).
+[LINE#81] The dominance of birch within natural regeneration follows the expected pattern of natural succession and, given oak seed sources in the area, we might expect oak regeneration to follow in due course (Patterson, 1993).
 0.878	[*A*]oak regeneration[*R*]to follow[*A*]in due course	context(we might expect)	negated: False ,passive: True
 0.388	[*A*]we[*R*]might expect[*A*]oak regeneration to follow in due course	context()	negated: False ,passive: False
 0.938	[*A*]The dominance of birch within natural regeneration[*R*]follows[*A*]the expected pattern of natural succession	context()	negated: False ,passive: True
-[LINE#69]Future work will quantify the rate at which oak seedlings establish and explore whether supplementary planting may be required.
+[LINE#82] Future work will quantify the rate at which oak seedlings establish and explore whether supplementary planting may be required.
 0.678	[*A*]supplementary planting[*R*]may be required	context(the rate explore)	negated: False ,passive: False
 0.858	[*A*]the rate[*R*]explore[*A*]whether supplementary planting may be required	context()	negated: False ,passive: False
 0.937	[*A*]Future work[*R*]will quantify[*A*]the rate at which explore whether supplementary planting may be required	context()	negated: False ,passive: False
 0.934	[*A*]the rate[*R*]establish[*A*]oak seedlings	context()	negated: False ,passive: True
 0.903	[*A*]Future work[*R*]will quantify[*A*]the rate at which oak seedlings establish	context()	negated: False ,passive: False
-[LINE#70]Given that recent work (Harmer and Kiewitt, 2007; Harmer et al., 2011) has shown that a gradual conversion of lowland conifer PAWS may not always allow satisfactory regeneration of broadleaved tree seedlings, we feel that clearfelling of conifer plantations followed by natural regeneration as a method of establishing semi-natural woodlands warrants further research and consideration.
+[LINE#83] Given that recent work (Harmer and Kiewitt, 2007; Harmer et al., 2011) has shown that a gradual conversion of lowland conifer PAWS may not always allow satisfactory regeneration of broadleaved tree seedlings, we feel that clearfelling of conifer plantations followed by natural regeneration as a method of establishing semi-natural woodlands warrants further research and consideration.
 0.950	[*A*]a gradual conversion of lowland conifer PAWS[*R*]may not allow[*A*]satisfactory regeneration of broadleaved tree seedlings[*A*]always	context(recent work ( Kiewitt , 2007 ; Harmer et al has shown)	negated: True ,passive: False
 0.929	[*A*]recent work ( Kiewitt , 2007 ; Harmer et al[*R*]has shown[*A*]that a gradual conversion of lowland conifer PAWS may not always allow satisfactory regeneration of broadleaved tree seedlings	context()	negated: False ,passive: False
 0.926	[*A*]conifer plantations[*R*]followed[*A*]as a method of establishing semi-natural woodlands warrants research and consideration	context()	negated: False ,passive: True
@@ -284,205 +284,205 @@
 0.926	[*A*]conifer plantations[*R*]followed[*A*]as a method of establishing semi-natural woodlands warrants further and consideration	context()	negated: False ,passive: True
 0.950	[*A*]a gradual conversion of lowland conifer PAWS[*R*]may not allow[*A*]satisfactory regeneration of broadleaved tree seedlings[*A*]always	context(recent work ( Harmer , 2007 ; Harmer et al has shown)	negated: True ,passive: False
 0.929	[*A*]recent work ( Harmer , 2007 ; Harmer et al[*R*]has shown[*A*]that a gradual conversion of lowland conifer PAWS may not always allow satisfactory regeneration of broadleaved tree seedlings	context()	negated: False ,passive: False
-[LINE#71] Timber plantations have been widely established across Northern Hemisphere mid-latitudes (Zerbe, 2002; Yamagawa et al., 2010) with plantation forests now making up 14% of total forest area in western European countries(Forest Europe, 2011) and about 70% of total forest area in Britain (Brockerhoff et al., 2008).
+[LINE#84+85+86]  Timber plantations have been widely established across Northern Hemisphere mid-latitudes (Zerbe, 2002; Yamagawa et al., 2010) with plantation forests now making up 14% of total forest area in western European countries(Forest Europe, 2011) and about 70% of total forest area in Britain (Brockerhoff et al., 2008).
 0.958	[*A*]plantation forests[*R*]making up[*A*]14% of total forest area in western European countries[*A*]now	context()	negated: False ,passive: False
 0.918	[*A*]Timber plantations[*R*]have been widely established[*A*]across Northern Hemisphere mid-latitudes[*A*]2010) with plantation forests	context()	negated: False ,passive: True
-[LINE#72] These plantation forests usually consist of fast-growing, non-native conifer species located on marginal agricultural land in the uplands.
+[LINE#87]  These plantation forests usually consist of fast-growing, non-native conifer species located on marginal agricultural land in the uplands.
 0.911	[*A*]non-native conifer species[*R*]located[*A*]on marginal agricultural land in the uplands	context()	negated: False ,passive: True
 0.845	[*A*]These plantation forests[*R*]consist[*A*]of fast-growing[*A*]usually	context()	negated: False ,passive: True
-[LINE#73]They are typically intensively managed for timber production with substantial site preparation before planting (e.g., ploughing, drainage, and occasional use of fertiliser) and harvesting of timber occurring by clearfelling after a relatively short rotation.
+[LINE#88] They are typically intensively managed for timber production with substantial site preparation before planting (e.g., ploughing, drainage, and occasional use of fertiliser) and harvesting of timber occurring by clearfelling after a relatively short rotation.
 0.644	[*A*]They[*R*]before planting[*A*]drainage and harvesting of timber occurring by clearfelling after a relatively short rotation	context()	negated: False ,passive: False
 0.616	[*A*]They[*R*]are typically intensively managed[*A*]for timber production with substantial site preparation	context()	negated: False ,passive: True
 0.713	[*A*]timber[*R*]occurring	context()	negated: False ,passive: False
 0.575	[*A*]They[*R*]intensively managed[*A*]for timber production with substantial site preparation	context()	negated: False ,passive: True
 0.616	[*A*]They[*R*]are[*A*]typically[*A*]intensively managed for timber production with substantial site preparation	context()	negated: False ,passive: True
-[LINE#74]Whilst plantation forests can provide habitat for a range of species (Humphrey et al., 2000; Quine and Humphrey, 2010; Bremer and Farley, 2010; Coote et al., 2012), semi-natural woodlands typically contain greater biological diversity (Brockerhoff et al., 2008; Bremer and Farley, 2010).
+[LINE#89] Whilst plantation forests can provide habitat for a range of species (Humphrey et al., 2000; Quine and Humphrey, 2010; Bremer and Farley, 2010; Coote et al., 2012), semi-natural woodlands typically contain greater biological diversity (Brockerhoff et al., 2008; Bremer and Farley, 2010).
 0.911	[*A*]Whilst plantation forests[*R*]can provide[*A*]habitat	context()	negated: False ,passive: False
-[LINE#75] Furthermore, plantation forests can result in soil and stream acidification (.
+[LINE#90]  Furthermore, plantation forests can result in soil and stream acidification (.
 0.903	[*A*]plantation forests[*R*]can result[*A*]in stream acidification	context()	negated: False ,passive: True
 0.903	[*A*]plantation forests[*R*]can result[*A*]in soil acidification	context()	negated: False ,passive: True
-[LINE#76]Carling et al., 2001) as well as potential negative impacts on water resources.
-[LINE#77]Recently, a greater interest in woodlands for their ecological and recreational value means that semi-natural and mixed forests consisting of native species are becoming increasingly valued (Felton et al., 2010).
+[LINE#91] Carling et al., 2001) as well as potential negative impacts on water resources.
+[LINE#92] Recently, a greater interest in woodlands for their ecological and recreational value means that semi-natural and mixed forests consisting of native species are becoming increasingly valued (Felton et al., 2010).
 0.819	[*A*]semi-natural and mixed forests consisting of native species[*R*]are becoming[*A*]increasingly valued	context(a greater interest in woodlands for their ecological and recreational value means)	negated: False ,passive: True
 0.803	[*A*]a greater interest in woodlands for their ecological and recreational value[*R*]means[*A*]that semi-natural and mixed forests consisting of native species are becoming increasingly valued (Felton et al., 2010[*A*]Recently	context()	negated: False ,passive: False
 0.805	[*A*]semi-natural and mixed forests consisting of native species[*R*]valued	context()	negated: False ,passive: False
 0.919	[*A*]semi-natural and mixed forests[*R*]consisting[*A*]of native species	context()	negated: False ,passive: True
-[LINE#78] As many plantations are now reaching the end of their rotations, there is considerable potential for establishment of semi-natural woodland on former plantation forest sites (Spiecker et al., 2004;.
+[LINE#93]  As many plantations are now reaching the end of their rotations, there is considerable potential for establishment of semi-natural woodland on former plantation forest sites (Spiecker et al., 2004;.
 0.855	[*A*]many plantations[*R*]are reaching[*A*]the end of their rotations[*A*]now	context()	negated: False ,passive: False
-[LINE#79]Dedrick et al., 2007).The restoration of plantation forests to semi-natural woodland can be carried out through a range of methods.
+[LINE#94] Dedrick et al., 2007).The restoration of plantation forests to semi-natural woodland can be carried out through a range of methods.
 0.830	[*A*]The restoration of plantation forests to semi-natural woodland[*R*]can be carried out	context()	negated: False ,passive: False
-[LINE#80]The conifer crop can either be clearfelled or the trees can be removed more gradually through multiple thinning operations.
+[LINE#95] The conifer crop can either be clearfelled or the trees can be removed more gradually through multiple thinning operations.
 0.732	[*A*]the trees[*R*]can be removed more gradually	context()	negated: False ,passive: False
 0.663	[*A*]The conifer crop[*R*]can be clearfelled	context()	negated: False ,passive: False
-[LINE#81]There are also a range of methods for establishing native trees including planting, direct seeding or natural regeneration.
-[LINE#82] Natural regeneration is the establishment of trees from seeds produced in situ (.
+[LINE#96] There are also a range of methods for establishing native trees including planting, direct seeding or natural regeneration.
+[LINE#97]  Natural regeneration is the establishment of trees from seeds produced in situ (.
 0.911	[*A*]seeds[*R*]produced[*A*]in situ	context()	negated: False ,passive: True
 0.925	[*A*]Natural regeneration[*R*]is[*A*]the establishment of trees from seeds	context()	negated: False ,passive: True
-[LINE#83]Harmer and Kerr, 1995) and is the preferred means of achieving native woodland expansion in Great Britain (Forestry Commission, 1994).
+[LINE#98] Harmer and Kerr, 1995) and is the preferred means of achieving native woodland expansion in Great Britain (Forestry Commission, 1994).
 0.968	[*A*]Kerr , 1995[*R*]is[*A*]the preferred means of achieving native woodland expansion in Great Britain	context()	negated: False ,passive: True
 0.961	[*A*]Harmer[*R*]is[*A*]the preferred means of achieving native woodland expansion in Great Britain	context()	negated: False ,passive: True
-[LINE#84]Potential advantages of natural regeneration include the preservation of local genotypes and greater structural diversity of the resulting woodland (Peterken, 1996), high seedling density (Holgn and Hnell, 2000) as well as increased cost-effectiveness (Tarp et al., 2000; Jonsov et al., 2006).
+[LINE#99] Potential advantages of natural regeneration include the preservation of local genotypes and greater structural diversity of the resulting woodland (Peterken, 1996), high seedling density (Holgn and Hnell, 2000) as well as increased cost-effectiveness (Tarp et al., 2000; Jonsov et al., 2006).
 0.960	[*A*]Potential advantages of natural regeneration[*R*]include[*A*]the , high seedling density ( Hnell , 2000 ) as well as increased cost - effectiveness ( Tarp et al . , 2000 ; Jonsov et al . , 2006	context()	negated: False ,passive: True
 0.960	[*A*]Potential advantages of natural regeneration[*R*]include[*A*]the , high seedling density ( Holgn , 2000 ) as well as increased cost - effectiveness ( Tarp et al . , 2000 ; Jonsov et al . , 2006	context()	negated: False ,passive: True
 0.926	[*A*]Potential advantages of natural regeneration[*R*]include[*A*]the greater structural diversity of the resulting woodland	context()	negated: False ,passive: True
 0.926	[*A*]Potential advantages of natural regeneration[*R*]include[*A*]the preservation of local genotypes	context()	negated: False ,passive: True
-[LINE#85] Natural regeneration has been studied in a range of environments including degraded lowland tropical pasture (Parrotta et al., 1997), tropical mountain forests (Holl et al., 2000), boreal forest (Peltzer et al., 2000; Holgn and Hnell, 2000; Hanssen, 2003; Man et al., 2008; Man et al., 2009), lowland European forests (Madsen and Larsen, 1997; Emborg, 1998; Olesen and Madsen, 2008; Modr et al., 2004; Swagrzyk et al., 2001; Harmer and Morgan, 2009; Wagner et al., 2010;.
+[LINE#100+101]  Natural regeneration has been studied in a range of environments including degraded lowland tropical pasture (Parrotta et al., 1997), tropical mountain forests (Holl et al., 2000), boreal forest (Peltzer et al., 2000; Holgn and Hnell, 2000; Hanssen, 2003; Man et al., 2008; Man et al., 2009), lowland European forests (Madsen and Larsen, 1997; Emborg, 1998; Olesen and Madsen, 2008; Modr et al., 2004; Swagrzyk et al., 2001; Harmer and Morgan, 2009; Wagner et al., 2010;.
 0.947	[*A*]Natural regeneration[*R*]has been studied[*A*]in a range of environments including degraded lowland tropical pasture ( Parrotta et al . , 1997 ) , tropical mountain forests ( Holl et al . , 2000 ) , boreal forest ( Peltzer et al . , 2000 ; Hnell . , 2009 ) , lowland European forests ( Madsen ; Wagner et al . , 2010	context()	negated: False ,passive: True
 0.937	[*A*]Natural regeneration[*R*]has been studied[*A*]in a range of environments including degraded lowland tropical pasture	context()	negated: False ,passive: True
 0.718	[*A*]lowland European forests[*R*]Madsen	context()	negated: False ,passive: False
 0.947	[*A*]Natural regeneration[*R*]has been studied[*A*]in a range of environments including degraded lowland tropical pasture ( Parrotta et al . , 1997 ) , tropical mountain forests ( Holl et al . , 2000 ) , boreal forest ( Peltzer et al . , 2000 ; Holgn . , 2009 ) , lowland European forests ( Madsen ; Wagner et al . , 2010	context()	negated: False ,passive: True
-[LINE#86] Smit et al., 2012) and European mountain forests (.
-[LINE#87]However, the regeneration of native species on clearfelled conifer plantations is still poorly understood (Zerbe, 2002) with Wallace (1998)'s study of birch regeneration in clearfelled spruce plantations the only previous study in upland Britain.
+[LINE#102]  Smit et al., 2012) and European mountain forests (.
+[LINE#103] However, the regeneration of native species on clearfelled conifer plantations is still poorly understood (Zerbe, 2002) with Wallace (1998)'s study of birch regeneration in clearfelled spruce plantations the only previous study in upland Britain.
 0.863	[*A*]the regeneration of native species on clearfelled conifer plantations[*R*]is poorly understood[*A*]still	context()	negated: False ,passive: True
-[LINE#88]Here we report the first extensive study of natural regeneration of native hardwood species on clearfelled upland conifer plantations in Britain.
+[LINE#104] Here we report the first extensive study of natural regeneration of native hardwood species on clearfelled upland conifer plantations in Britain.
 0.740	[*A*]we[*R*]report[*A*]the first extensive study of natural regeneration of native hardwood species on clearfelled upland conifer plantations in Britain[*A*]Here	context()	negated: False ,passive: False
-[LINE#89] We addressed the following questions: (i).
+[LINE#105]  We addressed the following questions: (i).
 0.452	[*A*]We[*R*]addressed[*A*]the following questions	context()	negated: False ,passive: False
-[LINE#90] How well do native tree species regenerate on clearfelled upland conifer plantations?.
-[LINE#91] How does regeneration on clearfelled conifer plantations compare to regeneration on improved farmland and open moorland?.
-[LINE#92] What are the dominant factors controlling regeneration?.
-[LINE#93] How does the ground flora develop in the years following clearfelling and how does this impact tree regeneration?.
-[LINE#94]Experimental sitesWe surveyed a total of 21 sites at 4 different upland locations: Hardknott forest and Rainsbarrow wood in the Lake District, north-west England and Clashindarroch forest and Bin forest in Aberdeenshire, north-east Scotland.
+[LINE#106]  How well do native tree species regenerate on clearfelled upland conifer plantations?.
+[LINE#107]  How does regeneration on clearfelled conifer plantations compare to regeneration on improved farmland and open moorland?.
+[LINE#108]  What are the dominant factors controlling regeneration?.
+[LINE#109+110]  How does the ground flora develop in the years following clearfelling and how does this impact tree regeneration?.
+[LINE#111] Experimental sitesWe surveyed a total of 21 sites at 4 different upland locations: Hardknott forest and Rainsbarrow wood in the Lake District, north-west England and Clashindarroch forest and Bin forest in Aberdeenshire, north-east Scotland.
 0.953	[*A*]Experimental sitesWe[*R*]surveyed[*A*]a total of 21 sites at 4 different upland locations	context()	negated: False ,passive: False
-[LINE#95]All forests surveyed were managed by the Forestry Commission.
+[LINE#112] All forests surveyed were managed by the Forestry Commission.
 0.925	[*A*]All forests surveyed[*R*]were managed[*A*]by the Forestry Commission	context()	negated: False ,passive: True
 0.732	[*A*]All forests[*R*]surveyed	context()	negated: False ,passive: False
-[LINE#96]The soil type, obtained from Forestry Commission soil maps, was used to predict the natural woodland community that would be expected to develop (Rodwell and Patterson, 1994).
+[LINE#113] The soil type, obtained from Forestry Commission soil maps, was used to predict the natural woodland community that would be expected to develop (Rodwell and Patterson, 1994).
 0.942	[*A*]The soil type , obtained from Forestry Commission soil maps[*R*]to predict[*A*]the natural woodland community that would be expected to develop ( Patterson , 1994 )	context()	negated: False ,passive: False
 0.737	[*A*]the natural woodland community[*R*]to develop	context()	negated: False ,passive: False
 0.737	[*A*]the natural woodland community[*R*]would be expected	context()	negated: False ,passive: False
 0.942	[*A*]The soil type , obtained from Forestry Commission soil maps[*R*]to predict[*A*]the natural woodland community that would be expected to develop ( Rodwell , 1994 )	context()	negated: False ,passive: False
 0.959	[*A*]The soil type , obtained from Forestry Commission soil maps[*R*]was used[*A*]to predict the natural woodland community	context()	negated: False ,passive: True
 0.913	[*A*]The soil type[*R*]obtained[*A*]from Forestry Commission soil maps	context()	negated: False ,passive: True
-[LINE#97] Details of the sites selected are given in Table 1 and locations are shown in Fig..
+[LINE#114]  Details of the sites selected are given in Table 1 and locations are shown in Fig..
 0.911	[*A*]locations[*R*]are shown[*A*]in Fig	context()	negated: False ,passive: True
 0.920	[*A*]Details of the sites[*R*]are given[*A*]in Table 1	context()	negated: False ,passive: True
 0.732	[*A*]the sites[*R*]selected	context()	negated: False ,passive: False
-[LINE#98]Hardknott forest was planted on upland moorland between 1940 and 1955 (N. Williams 2008, Forestry Commission, personal communication).
+[LINE#115] Hardknott forest was planted on upland moorland between 1940 and 1955 (N. Williams 2008, Forestry Commission, personal communication).
 0.927	[*A*]Hardknott forest[*R*]was planted[*A*]on upland moorland[*A*]between 1940 and 1955	context()	negated: False ,passive: True
-[LINE#99]There are several broadleaf woodland fragments of Quercus spp.
-[LINE#100], Sorbus aucuparia (rowan), Ilex aquifolium (holly) and Salix spp.
-[LINE#101] Nearby Rainsbarrow woodland was planted with conifers between 1959 and 1962 and is designated as a Planted Ancient Woodland Site (PAWS).
+[LINE#116] There are several broadleaf woodland fragments of Quercus spp.
+[LINE#117] , Sorbus aucuparia (rowan), Ilex aquifolium (holly) and Salix spp.
+[LINE#118]  Nearby Rainsbarrow woodland was planted with conifers between 1959 and 1962 and is designated as a Planted Ancient Woodland Site (PAWS).
 0.381	[*A*]Woodland Site[*R*][is] Ancient [of][*A*]Planted	context()	negated: False ,passive: False
 0.961	[*A*]Rainsbarrow[*R*]is designated[*A*]as a Planted Ancient Woodland Site[*A*]Nearby	context()	negated: False ,passive: True
 0.958	[*A*]Rainsbarrow woodland[*R*]was planted[*A*]with conifers between 1959 and 1962[*A*]Nearby	context()	negated: False ,passive: True
-[LINE#102]PAWS are sites with a long history of forest cover, with the original semi-natural woodland cleared and replaced by a plantation, a practice that was widespread in the UK before around 1980 (Thompson et al., 2003).
+[LINE#119] PAWS are sites with a long history of forest cover, with the original semi-natural woodland cleared and replaced by a plantation, a practice that was widespread in the UK before around 1980 (Thompson et al., 2003).
 0.953	[*A*]a practice[*R*]was[*A*]widespread[*A*]in the UK[*A*]before around 1980 ( Thompson et al . , 2003	context()	negated: False ,passive: True
 0.919	[*A*]the original semi-natural woodland[*R*]replaced[*A*]by a plantation	context()	negated: False ,passive: True
 0.769	[*A*]the original semi-natural woodland[*R*]cleared	context()	negated: False ,passive: False
 0.813	[*A*]PAWS[*R*]are[*A*]sites with a long history of forest cover	context()	negated: False ,passive: True
-[LINE#103]Clashindarroch forest was established from 1930 onwards (Forestry Commission, 1964).
+[LINE#120] Clashindarroch forest was established from 1930 onwards (Forestry Commission, 1964).
 0.993	[*A*]Clashindarroch forest[*R*]was established from[*A*]1930 onwards	context()	negated: False ,passive: False
 0.767	[*A*]Clashindarroch forest[*R*]was established[*A*]from 1930[*A*]onwards	context()	negated: False ,passive: True
-[LINE#104] Prior to afforestation, the land was mostly upland moorland with a dense flora of Calluna vulgaris (ling heather) and Vaccinium myrtillus (bilberry) with limited areas of Pteridium aquilinium (bracken) on the lower elevations.
+[LINE#121]  Prior to afforestation, the land was mostly upland moorland with a dense flora of Calluna vulgaris (ling heather) and Vaccinium myrtillus (bilberry) with limited areas of Pteridium aquilinium (bracken) on the lower elevations.
 0.977	[*A*]the land[*R*]was[*A*]mostly upland moorland with a dense flora of Calluna vulgaris[*A*]Prior to afforestation	context()	negated: False ,passive: True
 0.977	[*A*]the land[*R*]was[*A*]mostly upland moorland with a dense flora of Calluna vulgaris ( ling heather ) with limited areas of Pteridium aquilinium ( bracken ) on the lower elevations[*A*]Prior to afforestation	context()	negated: False ,passive: True
-[LINE#105]Bin forest was established from 1926 onwards when most of the land was upland moorland with dense ling heather vegetation (Forestry Commission, 1964).
+[LINE#122] Bin forest was established from 1926 onwards when most of the land was upland moorland with dense ling heather vegetation (Forestry Commission, 1964).
 0.993	[*A*]Bin forest[*R*]was established from[*A*]1926 onwards	context()	negated: False ,passive: False
 0.769	[*A*]most of the land[*R*]was upland	context()	negated: False ,passive: False
 0.817	[*A*]Bin forest[*R*]was established[*A*]from 1926 onwards	context()	negated: False ,passive: True
-[LINE#106]Both Clashindarroch and Bin forests retained small fragments of semi-natural woodland consisting largely of birch and rowan as well as Alnus glutinosa (common alder) and willow on the wetter ground.
+[LINE#123] Both Clashindarroch and Bin forests retained small fragments of semi-natural woodland consisting largely of birch and rowan as well as Alnus glutinosa (common alder) and willow on the wetter ground.
 0.927	[*A*]Bin forests[*R*]retained[*A*]small fragments of semi-natural woodland	context()	negated: False ,passive: False
 0.903	[*A*]semi-natural woodland[*R*]consisting[*A*]largely[*A*]of willow on the wetter ground	context()	negated: False ,passive: True
 0.918	[*A*]semi-natural woodland[*R*]consisting[*A*]largely[*A*]of Alnus glutinosa	context()	negated: False ,passive: True
 0.903	[*A*]semi-natural woodland[*R*]consisting[*A*]largely[*A*]of rowan	context()	negated: False ,passive: True
 0.903	[*A*]semi-natural woodland[*R*]consisting[*A*]largely[*A*]of birch	context()	negated: False ,passive: True
 0.933	[*A*]Both Clashindarroch forests[*R*]retained[*A*]small fragments of semi-natural woodland	context()	negated: False ,passive: False
-[LINE#107]At these 4 locations we surveyed 15 sites that had been afforested with conifers, clearfelled and then left to regenerate naturally.
+[LINE#124] At these 4 locations we surveyed 15 sites that had been afforested with conifers, clearfelled and then left to regenerate naturally.
 0.350	[*A*]we[*R*]surveyed[*A*]15 sites that had been afforested with conifers[*A*]At these 4 locations	context()	negated: False ,passive: False
 0.999	[*A*]we[*R*]surveyed[*A*]15 sites	context()	negated: False ,passive: False
 0.677	[*A*]conifers[*R*]clearfelled	context()	negated: False ,passive: False
 0.887	[*A*]15 sites[*R*]had been afforested[*A*]with conifers	context()	negated: False ,passive: True
 0.350	[*A*]we[*R*]surveyed[*A*]15 sites that had been afforested with conifers ,[*A*]At these 4 locations	context()	negated: False ,passive: False
-[LINE#108]Table 1 details the species of the felled conifer crop, which was generally dominated by Picea sitchensis (Sitka spruce), matching the dominant conifer species used across Britain (Forestry Commission, 2012).
+[LINE#125] Table 1 details the species of the felled conifer crop, which was generally dominated by Picea sitchensis (Sitka spruce), matching the dominant conifer species used across Britain (Forestry Commission, 2012).
 0.931	[*A*]the dominant conifer species[*R*]used[*A*]across Britain	context()	negated: False ,passive: True
-[LINE#109]The harvesting residues, known as brash, were typically windrowed - that is, gathered into regularly spaced linear mounds known as brash mats or windrows.
+[LINE#126] The harvesting residues, known as brash, were typically windrowed - that is, gathered into regularly spaced linear mounds known as brash mats or windrows.
 0.937	[*A*]regularly spaced linear mounds[*R*]known[*A*]as brash mats or windrows	context()	negated: False ,passive: True
 0.920	[*A*]The harvesting residues[*R*]known[*A*]as brash	context()	negated: False ,passive: True
-[LINE#110]Date of afforestation ranged from 1926 to 1942 and the date of clearfelling ranged from 1988 to 2009.
+[LINE#127] Date of afforestation ranged from 1926 to 1942 and the date of clearfelling ranged from 1988 to 2009.
 0.799	[*A*]the date of clearfelling[*R*]ranged[*A*]from 1988 to 2009	context()	negated: False ,passive: True
 0.783	[*A*]Date of afforestation[*R*]ranged[*A*]from 1926 to 1942	context()	negated: False ,passive: True
-[LINE#111]At the time of our surveys the time since clearfelling varied from 1 to 15years.
-[LINE#112]Table 1 details the date surveys were carried out.
+[LINE#128] At the time of our surveys the time since clearfelling varied from 1 to 15years.
+[LINE#129] Table 1 details the date surveys were carried out.
 0.751	[*A*]the date surveys[*R*]were carried out	context()	negated: False ,passive: False
-[LINE#113]The area of clearfells was estimated using digitized maps and varied between 0.9 and 35.2ha.
+[LINE#130] The area of clearfells was estimated using digitized maps and varied between 0.9 and 35.2ha.
 0.993	[*A*]The area of clearfells[*R*]was estimated between[*A*]0.9	context()	negated: False ,passive: False
 0.769	[*A*]The area of clearfells[*R*]was estimated[*A*]between 0.9	context()	negated: False ,passive: True
 0.769	[*A*]The area of clearfells[*R*]was estimated	context()	negated: False ,passive: False
-[LINE#114]We compared the rates of native tree regeneration on these clearfelled sites to nearby areas which had not been previously planted with conifers (control sites).
+[LINE#131] We compared the rates of native tree regeneration on these clearfelled sites to nearby areas which had not been previously planted with conifers (control sites).
 0.902	[*A*]nearby areas[*R*]had not been planted[*A*]with conifers[*A*]previously	context()	negated: True ,passive: True
 0.569	[*A*]We[*R*]compared[*A*]the rates of native tree regeneration on these clearfelled sites to nearby areas	context()	negated: False ,passive: False
-[LINE#115]The control sites were typically situated less than 1km from the study sites.
-[LINE#116]At a number of the sites former agricultural use had resulted in considerable alteration to the vegetation and the physical and chemical properties of the soil.
+[LINE#132] The control sites were typically situated less than 1km from the study sites.
+[LINE#133] At a number of the sites former agricultural use had resulted in considerable alteration to the vegetation and the physical and chemical properties of the soil.
 0.967	[*A*]former agricultural use[*R*]had resulted[*A*]in considerable alteration to the chemical properties of the soil[*A*]At a number of the sites	context()	negated: False ,passive: True
 0.967	[*A*]former agricultural use[*R*]had resulted[*A*]in considerable alteration to the physical properties of the soil[*A*]At a number of the sites	context()	negated: False ,passive: True
 0.948	[*A*]former agricultural use[*R*]had resulted[*A*]in considerable alteration to the vegetation[*A*]At a number of the sites	context()	negated: False ,passive: True
-[LINE#117] Therefore we broadly classified all sites as either upland moorland (UM), upland improved farmland (IF) or PAWS (P)based on the present land-use of the control sites or the land-use prior to afforestation for the clearfelled sites.
+[LINE#134+135]  Therefore we broadly classified all sites as either upland moorland (UM), upland improved farmland (IF) or PAWS (P)based on the present land-use of the control sites or the land-use prior to afforestation for the clearfelled sites.
 0.614	[*A*]we[*R*]broadly classified[*A*]all sites as either upland moorland (UM), upland improved farmland (IF) or PAWS (P)based on the present land	context()	negated: False ,passive: False
-[LINE#118]Both the control and the clearfelled sites were fenced to exclude stock.
+[LINE#136] Both the control and the clearfelled sites were fenced to exclude stock.
 0.897	[*A*]the clearfelled sites[*R*]to exclude[*A*]stock	context()	negated: False ,passive: False
 0.751	[*A*]the clearfelled sites[*R*]were fenced	context()	negated: False ,passive: False
 0.887	[*A*]the control[*R*]to exclude[*A*]stock	context()	negated: False ,passive: False
 0.732	[*A*]the control[*R*]were fenced	context()	negated: False ,passive: False
-[LINE#119]Capreolus capreolus (roe deer) and Cervus elaphus (red deer) were present at the Clashindarroch and Lake District sites.
+[LINE#137] Capreolus capreolus (roe deer) and Cervus elaphus (red deer) were present at the Clashindarroch and Lake District sites.
 0.905	[*A*]Cervus elaphus[*R*]were[*A*]present at the Lake District sites	context()	negated: False ,passive: True
 0.905	[*A*]Cervus elaphus[*R*]were[*A*]present at the Clashindarroch sites	context()	negated: False ,passive: True
 0.928	[*A*]Capreolus capreolus[*R*]were[*A*]present at the Lake District sites	context()	negated: False ,passive: True
 0.928	[*A*]Capreolus capreolus[*R*]were[*A*]present at the Clashindarroch sites	context()	negated: False ,passive: True
-[LINE#120]Only roe deer occurred in Bin forest.
+[LINE#138] Only roe deer occurred in Bin forest.
 0.925	[*A*]Only roe deer[*R*]occurred[*A*]in Bin forest	context()	negated: False ,passive: True
-[LINE#121]Deer control was practiced by the Forestry Commission at all sites. .
+[LINE#139] Deer control was practiced by the Forestry Commission at all sites. .
 0.918	[*A*]Deer control[*R*]was practiced[*A*]by the Forestry Commission[*A*]at all sites	context()	negated: False ,passive: True
-[LINE#122]Sampling methodsSites were surveyed using 22m temporary quadrats placed along equally spaced line transects.
+[LINE#140] Sampling methodsSites were surveyed using 22m temporary quadrats placed along equally spaced line transects.
 0.903	[*A*]temporary quadrats[*R*]placed[*A*]along equally spaced line transects	context()	negated: False ,passive: True
 0.732	[*A*]Sampling methodsSites[*R*]were surveyed	context()	negated: False ,passive: False
-[LINE#123] The separation S (in m) between transects and between quadrats on transects was computed by the formula (Harmer and Morgan, 2009): S=100Athe number of quadrats (detailed in Table 1).
+[LINE#141+142]  The separation S (in m) between transects and between quadrats on transects was computed by the formula (Harmer and Morgan, 2009): S=100Athe number of quadrats (detailed in Table 1).
 0.957	[*A*]The separation S ( in m ) between quadrats on transects[*R*]was computed[*A*]by the formula	context()	negated: False ,passive: True
 0.954	[*A*]The separation S ( in m[*R*]was computed[*A*]by the formula[*A*]between transects	context()	negated: False ,passive: True
-[LINE#124]Quadrats on forest track margins were omitted.
+[LINE#143] Quadrats on forest track margins were omitted.
 0.785	[*A*]Quadrats on forest track margins[*R*]were omitted	context()	negated: False ,passive: False
-[LINE#125]In total we surveyed 1140 quadrats.
+[LINE#144] In total we surveyed 1140 quadrats.
 0.999	[*A*]we[*R*]surveyed[*A*]1140 quadrats	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]surveyed[*A*]1140 quadrats[*A*]In total	context()	negated: False ,passive: False
-[LINE#126]Within each quadrat the species, number and height of all regenerating juveniles (defined here as either seedlings with a height 50cm or saplings with a height >50cm) were noted.
+[LINE#145] Within each quadrat the species, number and height of all regenerating juveniles (defined here as either seedlings with a height 50cm or saplings with a height >50cm) were noted.
 0.950	[*A*]number and height of all regenerating juveniles[*R*]were noted[*A*]Within each quadrat the species	context()	negated: False ,passive: True
 0.933	[*A*]all regenerating juveniles[*R*]defined[*A*]here[*A*]as either seedlings with a height 50cm or saplings with a height >50cm	context()	negated: False ,passive: True
-[LINE#127]The height of saplings was measured with an extensible folding rule.
+[LINE#146] The height of saplings was measured with an extensible folding rule.
 0.919	[*A*]The height of saplings[*R*]was measured[*A*]with an extensible folding rule	context()	negated: False ,passive: True
-[LINE#128] The incidence of leading stems damaged by browsing on trees <.
+[LINE#147]  The incidence of leading stems damaged by browsing on trees <.
 0.769	[*A*]The incidence of leading[*R*]stems damaged	context()	negated: False ,passive: False
-[LINE#129]No attempt was made to distinguish the different birch, oak and willow spp.
-[LINE#130]The distance to the nearest seed source (defined as a mature tree) was measured in the field for each tree species (all the sampled plots lay within 250m of a native seed source).
+[LINE#148] No attempt was made to distinguish the different birch, oak and willow spp.
+[LINE#149] The distance to the nearest seed source (defined as a mature tree) was measured in the field for each tree species (all the sampled plots lay within 250m of a native seed source).
 0.919	[*A*]all the sampled plots[*R*]lay[*A*]within 250m of a native seed source	context()	negated: False ,passive: True
 0.927	[*A*]The distance to the nearest seed source[*R*]was measured[*A*]in the field for each tree species	context()	negated: False ,passive: True
 0.905	[*A*]the nearest seed source[*R*]defined[*A*]as a mature tree	context()	negated: False ,passive: True
-[LINE#131]Within each quadrat we recorded the percentage of quadrat area beneath the canopy of each vascular plant species (as 2 or more species can overlap, this can result in a total vegetation cover of more than 100%) as well as the percentage cover of decaying woody debris (stumps, fallen logs and brash).
+[LINE#150] Within each quadrat we recorded the percentage of quadrat area beneath the canopy of each vascular plant species (as 2 or more species can overlap, this can result in a total vegetation cover of more than 100%) as well as the percentage cover of decaying woody debris (stumps, fallen logs and brash).
 0.638	[*A*]this[*R*]can result[*A*]in a total vegetation cover of more than 100%[*A*]Within each quadrat	context()	negated: False ,passive: True
 0.785	[*A*]as 2 or more species[*R*]can overlap	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]recorded[*A*]the percentage of quadrat area[*A*]beneath the canopy of each vascular plant species (as 2 or more species can overlap	context()	negated: False ,passive: False
-[LINE#132]Soil samples were taken from each quadrat and the pH was measured electrometrically using a soil-water paste.
+[LINE#151] Soil samples were taken from each quadrat and the pH was measured electrometrically using a soil-water paste.
 0.846	[*A*]the pH[*R*]electrometrically using[*A*]a soil - water paste	context()	negated: False ,passive: False
 0.867	[*A*]the pH[*R*]was measured[*A*]electrometrically using a soil - water paste	context()	negated: False ,passive: True
 0.903	[*A*]Soil samples[*R*]were taken[*A*]from each quadrat	context()	negated: False ,passive: True
-[LINE#133] We were interested in the effect of brash on regeneration density so in sites that had been recently clearfelled (U6a, F2 and F4)a transect with equally spaced quadrats was oriented along a windrow and, parallel to this, another transect along the adjacent area (interrow) between the windrows.
+[LINE#152+153]  We were interested in the effect of brash on regeneration density so in sites that had been recently clearfelled (U6a, F2 and F4)a transect with equally spaced quadrats was oriented along a windrow and, parallel to this, another transect along the adjacent area (interrow) between the windrows.
 0.945	[*A*]the effect of brash on regeneration density so in sites[*R*]was oriented[*A*]along a windrow	context()	negated: False ,passive: True
 0.710	[*A*]sites[*R*]had been clearfelled[*A*]recently	context()	negated: False ,passive: True
 0.569	[*A*]We[*R*]were[*A*]interested in the effect of brash on regeneration density so in sites	context()	negated: False ,passive: True
-[LINE#134]It was not possible to do this analysis on sites that had been clearfelled more than a few years ago as the vegetation growth and rotting of the brash made it increasingly difficult to discern windrows. .
+[LINE#154] It was not possible to do this analysis on sites that had been clearfelled more than a few years ago as the vegetation growth and rotting of the brash made it increasingly difficult to discern windrows. .
 0.871	[*A*]the rotting of the brash[*R*]made[*A*]it increasingly difficult to discern windrows	context()	negated: False ,passive: False
 0.838	[*A*]sites[*R*]had been clearfelled more[*A*]as the rotting of the brash made it increasingly difficult	context()	negated: False ,passive: True
 0.882	[*A*]the vegetation growth of the brash[*R*]made[*A*]it increasingly difficult to discern windrows	context()	negated: False ,passive: False
 0.838	[*A*]sites[*R*]had been clearfelled more[*A*]as the vegetation growth of the brash made it increasingly difficult	context()	negated: False ,passive: True
-[LINE#135] Trees and shrubs(i)The effect of environmental characteristics (distance to seed source,% vascular plant cover, % woody debris, altitude and soil pH) on the tree regeneration densities were examined using Spearman rank correlation coefficients.
+[LINE#155+156]  Trees and shrubs(i)The effect of environmental characteristics (distance to seed source,% vascular plant cover, % woody debris, altitude and soil pH) on the tree regeneration densities were examined using Spearman rank correlation coefficients.
 0.966	[*A*]shrubs ( i ) The effect of environmental characteristics ( distance to seed source , soil pH ) on the tree regeneration densities[*R*]were examined	context()	negated: False ,passive: False
 0.950	[*A*]shrubs ( i ) The effect of environmental characteristics ( distance to seed source , altitude ) on the tree regeneration densities[*R*]were examined	context()	negated: False ,passive: False
 0.958	[*A*]shrubs ( i ) The effect of environmental characteristics ( distance to seed source , % woody debris ) on the tree regeneration densities[*R*]were examined	context()	negated: False ,passive: False
 0.519	[*A*]shrubs[*R*]were examined	context()	negated: False ,passive: False
 0.740	[*A*]Trees[*R*]were examined	context()	negated: False ,passive: False
-[LINE#136] The analyses were carried out separately for the dominant species that were identified (birch, alder, rowan, willow and oak).(ii)To explore the influence of site type, regeneration densities on clearfelled upland moorland (UM) and clearfelled improved farmland(IF) were compared to control areas of unplanted UM and unplanted IF using a nested analysis of variance (ANOVA).
+[LINE#157+158+159]  The analyses were carried out separately for the dominant species that were identified (birch, alder, rowan, willow and oak).(ii)To explore the influence of site type, regeneration densities on clearfelled upland moorland (UM) and clearfelled improved farmland(IF) were compared to control areas of unplanted UM and unplanted IF using a nested analysis of variance (ANOVA).
 0.718	[*A*]the dominant species[*R*]were identified	context()	negated: False ,passive: False
 0.903	[*A*]The analyses[*R*]were carried out separately[*A*]for the dominant species	context()	negated: False ,passive: True
-[LINE#137] To avoid confounding the effects of site type, time since clearfelling and soil type this analysis was conducted on a subset of 4 clearfelled brown earth UM sites that were predicted to develop to NVC type W11 (U2L, U3L, U4L and U5) with similar times since clearfelling to our clearfelled IF sites(also brown earth sites predicted to develop to W11).
+[LINE#160+161]  To avoid confounding the effects of site type, time since clearfelling and soil type this analysis was conducted on a subset of 4 clearfelled brown earth UM sites that were predicted to develop to NVC type W11 (U2L, U3L, U4L and U5) with similar times since clearfelling to our clearfelled IF sites(also brown earth sites predicted to develop to W11).
 0.947	[*A*]this analysis[*R*]was conducted[*A*]on a subset of 4 clearfelled brown earth UM sites	context()	negated: False ,passive: True
 0.968	[*A*]4 clearfelled brown earth UM sites[*R*]were predicted[*A*]to develop to NVC type W11 ( U2L , U5 ) with similar times	context()	negated: False ,passive: True
 0.968	[*A*]4 clearfelled brown earth UM sites[*R*]were predicted[*A*]to develop to NVC type W11 ( U2L , U4L ) with similar times	context()	negated: False ,passive: True
@@ -490,37 +490,37 @@
 0.950	[*A*]4 clearfelled brown earth UM sites[*R*]to develop[*A*]to NVC type W11	context()	negated: False ,passive: True
 0.920	[*A*]also brown earth sites[*R*]to develop[*A*]to W11	context()	negated: False ,passive: True
 0.968	[*A*]4 clearfelled brown earth UM sites[*R*]were predicted[*A*]to develop to NVC type W11 ( U2L , U3L ) with similar times	context()	negated: False ,passive: True
-[LINE#138]Our control sites were also all brown earth soils (UL and Ua; Fa, Fb and Fc).
+[LINE#162] Our control sites were also all brown earth soils (UL and Ua; Fa, Fb and Fc).
 0.660	[*A*]Our control sites[*R*]were[*A*]also[*A*]all brown earth soils	context()	negated: False ,passive: True
-[LINE#139]A lack of Lake District IF sites meant that we were unable to account for the effect of site location as a covariate.
+[LINE#163] A lack of Lake District IF sites meant that we were unable to account for the effect of site location as a covariate.
 0.514	[*A*]we[*R*]were[*A*]unable to account for the effect of site location as a covariate	context(sites meant)	negated: False ,passive: True
 0.683	[*A*]sites[*R*]meant[*A*]that we were unable to account for the effect of site location as a covariate	context()	negated: False ,passive: False
 0.411	[*A*]we[*R*]to account[*A*]for the effect of site location as a covariate	context()	negated: False ,passive: False
-[LINE#140]The data was transformed using logarithms and the Satterthwaite approximation used due to unequal sample sizes.
+[LINE#164] The data was transformed using logarithms and the Satterthwaite approximation used due to unequal sample sizes.
 0.933	[*A*]the Satterthwaite approximation[*R*]used[*A*]due to unequal sample sizes	context()	negated: False ,passive: True
 0.918	[*A*]The data[*R*]was transformed[*A*]using the Satterthwaite approximation	context()	negated: False ,passive: True
 0.732	[*A*]The data[*R*]was transformed	context()	negated: False ,passive: False
-[LINE#141] When the difference was found to be significant the means of the site types were compared by Tukey's honestly significant differencetest.(iii)Regeneration densities on Lake District brown earth sites (U2L, U3L, U4L and U7L) were compared with densities on Lake District peaty gley sites (U9L and U10L) using a nested ANOVA.
+[LINE#165+166+167]  When the difference was found to be significant the means of the site types were compared by Tukey's honestly significant differencetest.(iii)Regeneration densities on Lake District brown earth sites (U2L, U3L, U4L and U7L) were compared with densities on Lake District peaty gley sites (U9L and U10L) using a nested ANOVA.
 0.958	[*A*]Regeneration densities on Lake District brown earth sites[*R*]were compared[*A*]with densities on Lake District peaty gley sites	context()	negated: False ,passive: True
 0.967	[*A*]the means of the site types[*R*]were compared[*A*]by Tukey's honestly significant differencetest[*A*]When the difference was found to be significant	context()	negated: False ,passive: True
 0.735	[*A*]the difference[*R*]to be[*A*]significant	context()	negated: False ,passive: True
 0.732	[*A*]the difference[*R*]was found	context()	negated: False ,passive: False
-[LINE#142] The data was transformed using logarithms and the Satterthwaite approximation used due to unequal sample.
+[LINE#168]  The data was transformed using logarithms and the Satterthwaite approximation used due to unequal sample.
 0.933	[*A*]the Satterthwaite approximation[*R*]used[*A*]due to unequal sample	context()	negated: False ,passive: True
 0.918	[*A*]The data[*R*]was transformed[*A*]using the Satterthwaite approximation	context()	negated: False ,passive: True
 0.732	[*A*]The data[*R*]was transformed	context()	negated: False ,passive: False
-[LINE#143]Clark-Evans nearest neighbour method (Blackith, 1958) was used to analyse the distribution pattern of regeneration for the animal-dispersed tree species of oak and rowan.
+[LINE#169] Clark-Evans nearest neighbour method (Blackith, 1958) was used to analyse the distribution pattern of regeneration for the animal-dispersed tree species of oak and rowan.
 0.950	[*A*]Clark - Evans[*R*]to analyse[*A*]the distribution pattern of regeneration for the animal - dispersed tree species of rowan	context()	negated: False ,passive: False
 0.950	[*A*]Clark - Evans[*R*]was used[*A*]to analyse the distribution pattern of regeneration for the animal - dispersed tree species of rowan	context()	negated: False ,passive: True
 0.950	[*A*]Clark - Evans[*R*]to analyse[*A*]the distribution pattern of regeneration for the animal - dispersed tree species of oak	context()	negated: False ,passive: False
 0.950	[*A*]Clark - Evans[*R*]was used[*A*]to analyse the distribution pattern of regeneration for the animal - dispersed tree species of oak	context()	negated: False ,passive: True
-[LINE#144]This method computes the ratio (R) of the mean distance between nearest neighbours and the expected distance in the case of random distribution dran (dran=1/2D, where the density D=number of stems/area).
+[LINE#170] This method computes the ratio (R) of the mean distance between nearest neighbours and the expected distance in the case of random distribution dran (dran=1/2D, where the density D=number of stems/area).
 0.937	[*A*]This method[*R*]computes[*A*]the ratio (R) of the mean distance between nearest neighbours and the expected distance in the case of random distribution dran	context()	negated: False ,passive: False
-[LINE#145]For R=1 the population is randomly distributed, for R significantly less than 1 the population is clumped and for R significantly greater than 1 the population is evenly dispersed.
+[LINE#171] For R=1 the population is randomly distributed, for R significantly less than 1 the population is clumped and for R significantly greater than 1 the population is evenly dispersed.
 0.732	[*A*]the population[*R*]is evenly dispersed	context()	negated: False ,passive: False
 0.954	[*A*]for R significantly less than 1[*R*]is clumped[*A*]the population	context()	negated: False ,passive: True
 0.732	[*A*]the population[*R*]is randomly distributed	context()	negated: False ,passive: False
-[LINE#146]A t-test was used to determine whether R was significantly different from 1.(v)A paired t-test (data transformed by square root) was applied to examine differences in regeneration density between the windrows and interrows at sites U6a, F2 and F4.
+[LINE#172] A t-test was used to determine whether R was significantly different from 1.(v)A paired t-test (data transformed by square root) was applied to examine differences in regeneration density between the windrows and interrows at sites U6a, F2 and F4.
 0.953	[*A*]data transformed by square root[*R*]was applied[*A*]to examine differences in regeneration density between the windrows and interrows at F4	context()	negated: False ,passive: True
 0.953	[*A*]data transformed by square root[*R*]was applied[*A*]to examine differences in regeneration density between the windrows and interrows at F2	context()	negated: False ,passive: True
 0.894	[*A*]data[*R*]transformed[*A*]by square root	context()	negated: False ,passive: True
@@ -528,36 +528,36 @@
 0.884	[*A*]A t - test[*R*]to determine[*A*]whether R was significantly different from 1	context()	negated: False ,passive: False
 0.953	[*A*]data transformed by square root[*R*]was applied[*A*]to examine differences in regeneration density between the windrows and interrows at sites U6a	context()	negated: False ,passive: True
 0.919	[*A*]A t - test[*R*]was used[*A*]to determine whether R was significantly different from 1	context()	negated: False ,passive: True
-[LINE#147]A 2-proportion z-test was used to compare the proportion of regenerating trees that were rowan in windrows and interrows.(vi)Linear regression analysis was used to examine the change in height of birch with time since clearfelling. .
-[LINE#148] Ground floraGround flora characteristics in each quadrat were analysed as: (i).
+[LINE#173] A 2-proportion z-test was used to compare the proportion of regenerating trees that were rowan in windrows and interrows.(vi)Linear regression analysis was used to examine the change in height of birch with time since clearfelling. .
+[LINE#174]  Ground floraGround flora characteristics in each quadrat were analysed as: (i).
 0.895	[*A*]Ground floraGround flora characteristics in each[*R*]were analysed[*A*]as: (i	context()	negated: False ,passive: True
-[LINE#149]Total number of species, S, (ii) % vascular plant cover of each species, and (iii) linear regression analysis was used to examine the difference in vascular plant coverage with time since clearfelling.
+[LINE#175] Total number of species, S, (ii) % vascular plant cover of each species, and (iii) linear regression analysis was used to examine the difference in vascular plant coverage with time since clearfelling.
 0.905	[*A*]Total number of species[*R*]to examine[*A*]the difference in vascular plant coverage	context()	negated: False ,passive: False
 0.943	[*A*]linear regression analysis[*R*]was used[*A*]to examine the difference in vascular plant coverage with time since clearfelling	context()	negated: False ,passive: True
-[LINE#150]Tree regenerationA total of 14 tree and shrub species were found to be regenerating, of which 10 were species native to Great Britain.
+[LINE#176] Tree regenerationA total of 14 tree and shrub species were found to be regenerating, of which 10 were species native to Great Britain.
 0.879	[*A*]Tree regenerationA total of 14 tree and shrub species[*R*]were found	context()	negated: False ,passive: False
-[LINE#151]The non-native species consisted of three conifers (Sitka spruce, Pinus contorta (lodgepole pine) and larch) and one broadleaved species (Alnus incana (grey alder)).
+[LINE#177] The non-native species consisted of three conifers (Sitka spruce, Pinus contorta (lodgepole pine) and larch) and one broadleaved species (Alnus incana (grey alder)).
 0.911	[*A*]The non-native species[*R*]consisted[*A*]of three conifers	context()	negated: False ,passive: True
 0.911	[*A*]The non-native species[*R*]consisted[*A*]of one broadleaved species	context()	negated: False ,passive: True
-[LINE#152] The native species were birch, oak, rowan, willow, common alder, Fraxinus excelsior.
+[LINE#178]  The native species were birch, oak, rowan, willow, common alder, Fraxinus excelsior.
 0.952	[*A*]The native species[*R*]were[*A*]birch, oak, rowan, willow, common alder, Fraxinus excelsior	context()	negated: False ,passive: True
-[LINE#153]Corylus avellana (common hazel) and Juniperus communis (common juniper).
+[LINE#179] Corylus avellana (common hazel) and Juniperus communis (common juniper).
 0.921	[*A*]Corylus avellana Juniperus[*R*]communis[*A*]common juniper	context()	negated: False ,passive: False
-[LINE#154] The mean density of regeneration of native species on clearfelled sites varied from 0stems/.
-[LINE#155]While the regeneration density of non-native tree species is shown in Table 2 it is important to note that in a number of study sites regenerating non-native conifers had been felled, making it difficult to draw any conclusions about the frequency of non-native regeneration.
+[LINE#180]  The mean density of regeneration of native species on clearfelled sites varied from 0stems/.
+[LINE#181] While the regeneration density of non-native tree species is shown in Table 2 it is important to note that in a number of study sites regenerating non-native conifers had been felled, making it difficult to draw any conclusions about the frequency of non-native regeneration.
 0.903	[*A*]study sites[*R*]regenerating[*A*]non-native conifers	context()	negated: False ,passive: False
 0.948	[*A*]the regeneration density of non-native tree species[*R*]is shown[*A*]in Table 2	context()	negated: False ,passive: True
-[LINE#156]The linear regression of time since clearfelling on regeneration density of native species was not found to be significant (r2=0.26, n.s.).
+[LINE#182] The linear regression of time since clearfelling on regeneration density of native species was not found to be significant (r2=0.26, n.s.).
 0.958	[*A*]The linear regression of time since clearfelling on regeneration density of native species[*R*]to be[*A*]significant (r2=0.26	context()	negated: False ,passive: True
 0.888	[*A*]The linear regression of time since clearfelling on regeneration density of native species[*R*]was not found	context()	negated: True ,passive: False
-[LINE#157]Table 3 shows the density of regeneration for native species and the fraction of clearfelled sites where each species was recorded.
+[LINE#183] Table 3 shows the density of regeneration for native species and the fraction of clearfelled sites where each species was recorded.
 0.933	[*A*]each species[*R*]was recorded[*A*]clearfelled sites	context()	negated: False ,passive: True
 0.636	[*A*]Table 3[*R*]shows[*A*]the fraction of clearfelled sites	context()	negated: False ,passive: False
 0.636	[*A*]Table 3[*R*]shows[*A*]the density of regeneration for native species	context()	negated: False ,passive: False
-[LINE#158]Regeneration was dominated by birch and rowan.
+[LINE#184] Regeneration was dominated by birch and rowan.
 0.894	[*A*]Regeneration[*R*]was dominated[*A*]by rowan	context()	negated: False ,passive: True
 0.894	[*A*]Regeneration[*R*]was dominated[*A*]by birch	context()	negated: False ,passive: True
-[LINE#159]Whilst the regeneration of holly and oak were recorded infrequently (<20% of sites), relatively high regeneration densities were recorded at specific sites for these species (for example, 723stems/ha in the case of oak).The regeneration density of birch and alder was found to be negatively correlated with distance from seed source (see Table 4).
+[LINE#185] Whilst the regeneration of holly and oak were recorded infrequently (<20% of sites), relatively high regeneration densities were recorded at specific sites for these species (for example, 723stems/ha in the case of oak).The regeneration density of birch and alder was found to be negatively correlated with distance from seed source (see Table 4).
 0.799	[*A*]the regeneration of oak[*R*]were recorded[*A*]infrequently	context()	negated: False ,passive: True
 0.756	[*A*]The regeneration density of alder[*R*]to be negatively correlated	context()	negated: False ,passive: False
 0.949	[*A*]The regeneration density of alder[*R*]was found[*A*]in the case of oak	context()	negated: False ,passive: True
@@ -565,70 +565,70 @@
 0.949	[*A*]The regeneration density of birch[*R*]was found[*A*]in the case of oak	context()	negated: False ,passive: True
 0.919	[*A*]relatively high regeneration densities[*R*]were recorded[*A*]at specific sites for these species	context()	negated: False ,passive: True
 0.799	[*A*]the regeneration of holly[*R*]were recorded[*A*]infrequently	context()	negated: False ,passive: True
-[LINE#160]In the case of birch, for example, 63% of regeneration occurred within 20m of a seed source.
+[LINE#186] In the case of birch, for example, 63% of regeneration occurred within 20m of a seed source.
 0.953	[*A*]63% of regeneration[*R*]occurred[*A*]within 20m of a seed source[*A*]In the case of birch	context()	negated: False ,passive: True
-[LINE#161]No significant relationship was found for rowan or oak.
+[LINE#187] No significant relationship was found for rowan or oak.
 0.751	[*A*]No significant relationship[*R*]was found	context()	negated: False ,passive: False
-[LINE#162]No significant relationship between plant cover and regeneration density was seen for any species.
+[LINE#188] No significant relationship between plant cover and regeneration density was seen for any species.
 0.948	[*A*]No significant relationship between plant cover and regeneration density[*R*]was seen[*A*]for any species	context()	negated: False ,passive: True
-[LINE#163]However, when the regenerating trees were divided into sapling (taller than 0.5m) or seedling (shorter than 0.5m) categories then a significant negative correlation was seen between birch seedling density and vascular plant cover.
+[LINE#189] However, when the regenerating trees were divided into sapling (taller than 0.5m) or seedling (shorter than 0.5m) categories then a significant negative correlation was seen between birch seedling density and vascular plant cover.
 0.970	[*A*]a significant negative correlation[*R*]was seen[*A*]between birch seedling density and vascular plant cover[*A*]when the regenerating trees were divided into sapling (taller than 0.5m) or seedling (shorter than 0.5m) categories[*A*]then	context()	negated: False ,passive: True
 0.943	[*A*]the regenerating trees[*R*]were divided[*A*]into sapling (taller than 0.5m) or seedling (shorter than 0.5m) categories	context()	negated: False ,passive: True
-[LINE#164]Birch also showed a significant negative correlation with the percentage of brash (woody debris).
+[LINE#190] Birch also showed a significant negative correlation with the percentage of brash (woody debris).
 0.833	[*A*]Birch[*R*]showed[*A*]a significant negative correlation with the percentage of brash	context()	negated: False ,passive: False
-[LINE#165]No such effects were noted for alder, willow, oak or rowan.
+[LINE#191] No such effects were noted for alder, willow, oak or rowan.
 0.911	[*A*]No such effects[*R*]were noted[*A*]for alder, willow, oak or rowan	context()	negated: False ,passive: True
-[LINE#166]Regeneration density against distance from seed source is plotted in Fig. 2.
+[LINE#192] Regeneration density against distance from seed source is plotted in Fig. 2.
 0.948	[*A*]Regeneration density against distance from seed source[*R*]is plotted[*A*]in Fig	context()	negated: False ,passive: True
-[LINE#167]In general, birch showed a broad shoulder of dense regeneration close to source, followed by a very rapid decline and then a long tail consisting of a slow decline.
+[LINE#193] In general, birch showed a broad shoulder of dense regeneration close to source, followed by a very rapid decline and then a long tail consisting of a slow decline.
 0.919	[*A*]then a long tail[*R*]consisting[*A*]of a slow decline	context()	negated: False ,passive: True
 0.855	[*A*]birch[*R*]showed[*A*]a broad shoulder of dense regeneration close to source	context()	negated: False ,passive: False
-[LINE#168]Linear regression found a logarithmic decline in birch density with increased distance to seed source (see Fig. 2).
+[LINE#194] Linear regression found a logarithmic decline in birch density with increased distance to seed source (see Fig. 2).
 0.961	[*A*]Linear regression[*R*]found[*A*]a logarithmic decline in birch density with increased distance to seed source (see Fig	context()	negated: False ,passive: False
-[LINE#169]No significant correlation between distance from seed source (for distances up to 100m from the source) and regeneration density was seen for animal-dispersed species (oak and rowan).
+[LINE#195] No significant correlation between distance from seed source (for distances up to 100m from the source) and regeneration density was seen for animal-dispersed species (oak and rowan).
 0.903	[*A*]regeneration density[*R*]was seen[*A*]for animal-dispersed species	context()	negated: False ,passive: True
-[LINE#170] However, the regeneration of both rowan and oak were still strongly clumped (R=0.23 and 0.28 respectively, both p<0.0001).We found significantly higher regeneration in interrows (mean (M)=2313, standard deviation (SD)=3463) than in windrows (M=522, SD=1113; t(66)=5.694, p=510-5).
+[LINE#196+197]  However, the regeneration of both rowan and oak were still strongly clumped (R=0.23 and 0.28 respectively, both p<0.0001).We found significantly higher regeneration in interrows (mean (M)=2313, standard deviation (SD)=3463) than in windrows (M=522, SD=1113; t(66)=5.694, p=510-5).
 0.388	[*A*]We[*R*]found[*A*]significantly higher regeneration in interrows	context(the regeneration of oak were strongly clumped)	negated: False ,passive: False
 0.749	[*A*]the regeneration of oak[*R*]were strongly clumped[*A*]respectively[*A*]still	context()	negated: False ,passive: True
 0.388	[*A*]We[*R*]found[*A*]significantly higher regeneration in interrows	context(the regeneration of both rowan were strongly clumped)	negated: False ,passive: False
 0.767	[*A*]the regeneration of both rowan[*R*]were strongly clumped[*A*]respectively[*A*]still	context()	negated: False ,passive: True
 0.223	[*A*]both[*R*]p[*A*]< 0.0001	context()	negated: False ,passive: False
-[LINE#171] We found no statistically significant difference between the proportion of trees that were rowans in windrows and interrows (z=-0.456, n.s.).Table 5 shows that the regeneration density of different site types (upland improved farmland or upland moorland).
+[LINE#198+199]  We found no statistically significant difference between the proportion of trees that were rowans in windrows and interrows (z=-0.456, n.s.).Table 5 shows that the regeneration density of different site types (upland improved farmland or upland moorland).
 0.911	[*A*]the regeneration density of different site types[*R*]upland improved[*A*]farmland or upland moorland	context(We found Table 5 shows)	negated: False ,passive: False
 0.887	[*A*]Table 5[*R*]shows[*A*]that the regeneration density of different site types (upland improved farmland or upland moorland	context(We found)	negated: False ,passive: False
 0.397	[*A*]We[*R*]found[*A*]no statistically significant difference between the proportion of trees	context()	negated: False ,passive: False
 0.877	[*A*]trees[*R*]were[*A*]rowans in windrows and interrows	context()	negated: False ,passive: True
-[LINE#172] upland improved farmland or upland moorland)produced a significant variation in total regeneration densities (F(3,8.9)=4.1, p=0.03).
+[LINE#200+201]  upland improved farmland or upland moorland)produced a significant variation in total regeneration densities (F(3,8.9)=4.1, p=0.03).
 0.921	[*A*]upland improved farmland or upland moorland[*R*]produced[*A*]a significant variation in total regeneration densities	context()	negated: False ,passive: False
-[LINE#173]20% of the total observed variation was due to variation between the different site types.
+[LINE#202] 20% of the total observed variation was due to variation between the different site types.
 0.952	[*A*]20% of the total observed variation[*R*]was[*A*]due to variation between the different site types	context()	negated: False ,passive: True
-[LINE#174] The overall regeneration density on clearfelled upland moorland was significantly greater than on unplanted upland moorland.
+[LINE#203]  The overall regeneration density on clearfelled upland moorland was significantly greater than on unplanted upland moorland.
 0.957	[*A*]The overall regeneration density on clearfelled upland moorland[*R*]was[*A*]significantly greater than on unplanted upland moorland	context()	negated: False ,passive: True
-[LINE#175]However there was no significant difference between the regeneration density of clearfelled improved farmland and unplanted improved farmland (see Table 5).
-[LINE#176] No significant difference in regeneration densities was found between brown earth and peaty gley soils (F(1,3.95)=1.75, n.s.).Mean birch height increased significantly with time after clearfelling from 19cm tall at 2years to 101cm tall 10years post felling3 contrasts the height distributions of birch trees 4years post-felling (measured at U4L) and 10years post-felling (measured at U10L).
+[LINE#204] However there was no significant difference between the regeneration density of clearfelled improved farmland and unplanted improved farmland (see Table 5).
+[LINE#205+206+207]  No significant difference in regeneration densities was found between brown earth and peaty gley soils (F(1,3.95)=1.75, n.s.).Mean birch height increased significantly with time after clearfelling from 19cm tall at 2years to 101cm tall 10years post felling3 contrasts the height distributions of birch trees 4years post-felling (measured at U4L) and 10years post-felling (measured at U10L).
 0.957	[*A*]Mean birch height[*R*]increased[*A*]significantly[*A*]with time[*A*]after clearfelling from 19 cm tall at 2years to 101 cm tall 10years	context()	negated: False ,passive: True
 0.905	[*A*]10years post-felling[*R*]measured[*A*]at U10L	context()	negated: False ,passive: True
 0.944	[*A*]the height distributions of birch trees 4years post-felling[*R*]measured[*A*]at U4L	context()	negated: False ,passive: True
 0.957	[*A*]Mean birch height[*R*]increased[*A*]significantly[*A*]after clearfelling from 19 cm tall at 2years to 101 cm tall 10years post felling3 contrasts the height distributions of birch trees 4years	context()	negated: False ,passive: True
 0.964	[*A*]No significant difference in regeneration densities[*R*]was found[*A*]between brown earth and peaty gley soils ( F ( 1,3.95 ) =1.75	context()	negated: False ,passive: True
-[LINE#177]Four years post-felling the number of regenerating trees declines exponentially with tree height so that we see large numbers of seedlings and few saplings.
+[LINE#208] Four years post-felling the number of regenerating trees declines exponentially with tree height so that we see large numbers of seedlings and few saplings.
 0.452	[*A*]we[*R*]see[*A*]large numbers of few saplings	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]see[*A*]large numbers of seedlings	context()	negated: False ,passive: False
-[LINE#178]Ten years post-felling this has changed to a more Gaussian distribution of heights with fewer seedlings..
+[LINE#209] Ten years post-felling this has changed to a more Gaussian distribution of heights with fewer seedlings..
 0.497	[*A*]this[*R*]has changed[*A*]to a more Gaussian distribution of heights with fewer seedlings	context()	negated: False ,passive: True
-[LINE#179]Ground floraWe recorded 70 species of vascular plants across the study locations (detailed in Supplementary Table 1).
+[LINE#210] Ground floraWe recorded 70 species of vascular plants across the study locations (detailed in Supplementary Table 1).
 0.999	[*A*]Ground floraWe[*R*]recorded[*A*]70 species	context()	negated: False ,passive: False
 0.927	[*A*]Ground floraWe[*R*]recorded[*A*]70 species of vascular plants across the study locations	context()	negated: False ,passive: False
-[LINE#180]The most frequent and abundant species was the perennial Deschampsia flexuousa (wavy hair-grass), being found on 78% of quadrats surveyed.
+[LINE#211] The most frequent and abundant species was the perennial Deschampsia flexuousa (wavy hair-grass), being found on 78% of quadrats surveyed.
 0.947	[*A*]The most abundant species[*R*]was[*A*]the perennial Deschampsia flexuousa	context()	negated: False ,passive: True
 0.713	[*A*]quadrats[*R*]surveyed	context()	negated: False ,passive: False
 0.947	[*A*]The most frequent species[*R*]was[*A*]the perennial Deschampsia flexuousa	context()	negated: False ,passive: True
-[LINE#181] The similarity of upland clearfelled sites was noteworthy: 5 species (bilberry, Galium saxatile (heath bedstraw), ling heather, foxglove and Potentilla erecta (tormentil))occurred in all upland sites and only 2 species occurred at a single site (Ajuga reptans (bugle) and Valeriana dioica (common valerian), both found at U10).
+[LINE#212+213]  The similarity of upland clearfelled sites was noteworthy: 5 species (bilberry, Galium saxatile (heath bedstraw), ling heather, foxglove and Potentilla erecta (tormentil))occurred in all upland sites and only 2 species occurred at a single site (Ajuga reptans (bugle) and Valeriana dioica (common valerian), both found at U10).
 0.425	[*A*]both[*R*]found[*A*]at U10	context()	negated: False ,passive: True
 0.894	[*A*]bilberry[*R*]occurred[*A*]at a single site	context()	negated: False ,passive: True
-[LINE#182] The predicted woodland type on clearfelled brown earth sites was W11 - upland oak - birch woodland with Hyacinthoides non-scripta (bluebell).
+[LINE#214]  The predicted woodland type on clearfelled brown earth sites was W11 - upland oak - birch woodland with Hyacinthoides non-scripta (bluebell).
 0.979	[*A*]The predicted woodland type on clearfelled brown earth sites[*R*]was[*A*]W11 - upland oak - birch woodland with Hyacinthoides non-scripta	context()	negated: False ,passive: True
-[LINE#183]However, on UM clearfelled sites desired invader species such as Oxalis acetosella (woodsorrel), Anemone nemorosa (wood anemone), Conopodium majus (pignut) and Primula vulgaris (primrose) were not found, while bluebell was seen on only 15 quadrats and Teucrium scorodonia (wood sage) on just 2.
+[LINE#215] However, on UM clearfelled sites desired invader species such as Oxalis acetosella (woodsorrel), Anemone nemorosa (wood anemone), Conopodium majus (pignut) and Primula vulgaris (primrose) were not found, while bluebell was seen on only 15 quadrats and Teucrium scorodonia (wood sage) on just 2.
 0.976	[*A*]on UM clearfelled sites desired invader species such as Primula vulgaris[*R*]were not found[*A*]while bluebell was seen on Teucrium scorodonia ( wood sage ) on just 2	context()	negated: True ,passive: True
 0.976	[*A*]on UM clearfelled sites desired invader species such as Primula vulgaris[*R*]were not found[*A*]while bluebell was seen on only 15 quadrats on just 2	context()	negated: True ,passive: True
 0.976	[*A*]on UM clearfelled sites desired invader species such as Conopodium majus[*R*]were not found[*A*]while bluebell was seen on Teucrium scorodonia ( wood sage ) on just 2	context()	negated: True ,passive: True
@@ -640,7 +640,7 @@
 0.920	[*A*]bluebell[*R*]was seen[*A*]on only 15 quadrats[*A*]on just 2	context()	negated: False ,passive: True
 0.976	[*A*]on UM clearfelled sites desired invader species such as Oxalis acetosella[*R*]were not found[*A*]while bluebell was seen on only 15 quadrats on just 2	context()	negated: True ,passive: True
 0.803	[*A*]UM clearfelled sites[*R*]desired	context()	negated: False ,passive: False
-[LINE#184]The solitary PAWS site that was examined had a considerably richer ground flora with wood sorrel, wood sage and bluebell seen on 21%, 29% and 79% of quadrats respectively.
+[LINE#216] The solitary PAWS site that was examined had a considerably richer ground flora with wood sorrel, wood sage and bluebell seen on 21%, 29% and 79% of quadrats respectively.
 0.871	[*A*]bluebell[*R*]seen[*A*]on 21 %[*A*]respectively	context(The solitary PAWS site had)	negated: False ,passive: True
 0.957	[*A*]The solitary PAWS site[*R*]had[*A*]bluebell seen on 21 % , 79 % of quadrats respectively	context()	negated: False ,passive: False
 0.871	[*A*]bluebell[*R*]seen[*A*]on 21 %	context(The solitary PAWS site had)	negated: False ,passive: True
@@ -648,11 +648,11 @@
 0.900	[*A*]a considerably richer ground[*R*]flora[*A*]with wood sorrel , wood sage	context(The solitary PAWS site had)	negated: False ,passive: False
 0.957	[*A*]The solitary PAWS site[*R*]had[*A*]a considerably richer ground flora with wood sorrel , wood sage	context()	negated: False ,passive: False
 0.792	[*A*]The solitary PAWS site[*R*]was examined	context()	negated: False ,passive: False
-[LINE#185] We found that the sites which had been clearfelled10years ago had significantly greater vascular plant coverage (111%) compared to sites that had been clearfelled 2years ago (11.7%, p=0.001).
+[LINE#217+218]  We found that the sites which had been clearfelled10years ago had significantly greater vascular plant coverage (111%) compared to sites that had been clearfelled 2years ago (11.7%, p=0.001).
 0.941	[*A*]the sites which had been clearfelled10years ago[*R*]had[*A*]significantly greater vascular plant coverage[*A*]compared to sites	context(We found)	negated: False ,passive: False
 0.279	[*A*]We[*R*]found[*A*]that the sites which had been clearfelled10years ago had significantly greater vascular plant coverage (111%) compared to sites	context()	negated: False ,passive: False
 0.877	[*A*]sites[*R*]had been clearfelled[*A*]2years ago	context()	negated: False ,passive: True
 0.887	[*A*]the sites[*R*]had been[*A*]clearfelled10years[*A*]ago	context()	negated: False ,passive: True
-[LINE#186]The % mean woody debris on spruce clearfell sites declined from 51% 2years after felling to 12.7% and 5.1% at 5 and 10years post-felling respectively.
+[LINE#219] The % mean woody debris on spruce clearfell sites declined from 51% 2years after felling to 12.7% and 5.1% at 5 and 10years post-felling respectively.
 0.956	[*A*]woody debris on spruce clearfell sites[*R*]declined[*A*]from 51% 2years[*A*]after felling to 12.7% and 5.1% at 5 and 10years	context()	negated: False ,passive: True
 0.585	[*A*]The %[*R*]mean	context()	negated: False ,passive: False

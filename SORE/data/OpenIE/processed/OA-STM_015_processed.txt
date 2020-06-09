@@ -1,82 +1,82 @@
-[LINE#1] We systematically investigate lower and upper bounds for the modified Bessel function ratio =I+1/I by functions of the form.
+[LINE#0+1]  We systematically investigate lower and upper bounds for the modified Bessel function ratio =I+1/I by functions of the form.
 0.195	[*A*]We[*R*]systematically investigate lower	context()	negated: False ,passive: False
-[LINE#2]G,(t)=t/(+t2+2) in case R is positive for all t>0, or equivalently, where -1 or  is a negative integer.
+[LINE#2] G,(t)=t/(+t2+2) in case R is positive for all t>0, or equivalently, where -1 or  is a negative integer.
 0.980	[*A*]G,(t)=t/(+t2+2) in case R[*R*]is[*A*]positive for all t>0, or equivalently	context()	negated: False ,passive: True
-[LINE#3]For -1, we give an explicit description of the set of lower bounds and show that it has a greatest element.
+[LINE#3] For -1, we give an explicit description of the set of lower bounds and show that it has a greatest element.
 0.522	[*A*]it[*R*]has[*A*]a greatest element	context()	negated: False ,passive: False
 0.452	[*A*]we[*R*]give[*A*]an explicit description of the set of lower bounds	context()	negated: False ,passive: False
-[LINE#4]We also characterize the set of upper bounds and its minimal elements.
+[LINE#4] We also characterize the set of upper bounds and its minimal elements.
 0.274	[*A*]We[*R*]characterize[*A*]the set of its minimal elements	context()	negated: False ,passive: False
 0.411	[*A*]We[*R*]characterize[*A*]the set of upper bounds	context()	negated: False ,passive: False
-[LINE#5]If -1/2, the minimal elements are tangent to R in exactly one point 0t, and have R as their lower envelope.
+[LINE#5] If -1/2, the minimal elements are tangent to R in exactly one point 0t, and have R as their lower envelope.
 0.825	[*A*]the minimal elements[*R*]have[*A*]R as their lower envelope	context()	negated: False ,passive: False
 0.920	[*A*]the minimal elements[*R*]to R[*A*]in exactly one point 0t	context()	negated: False ,passive: False
 0.911	[*A*]the minimal elements[*R*]are[*A*]tangent to R in exactly one point 0t	context()	negated: False ,passive: True
-[LINE#6]We also provide a new family of explicitly computable upper bounds.
+[LINE#6] We also provide a new family of explicitly computable upper bounds.
 0.411	[*A*]We[*R*]provide[*A*]a new family of explicitly computable upper bounds	context()	negated: False ,passive: False
-[LINE#7]Finally, if  is a negative integer, we explicitly describe the sets of lower and upper bounds, and give their greatest and least elements, respectively.
+[LINE#7] Finally, if  is a negative integer, we explicitly describe the sets of lower and upper bounds, and give their greatest and least elements, respectively.
 0.595	[*A*]we[*R*]explicitly describe[*A*]the sets of upper bounds[*A*]Finally	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]explicitly describe[*A*]the sets of lower bounds[*A*]Finally	context()	negated: False ,passive: False
-[LINE#8] Let I be the modified Bessel function of order , and.
-[LINE#9]R the (modified) Bessel function ratio R(t)=I+1(t)/I(t).
-[LINE#10] These ratios are of great importance in a variety of application areas, including statistics [e.g., 7] and numerical analysis [e.g., 1],either directly or through the fact that by the well-known recurrence relations for modified Bessel functions, log(I)(t)=I(t)I(t)=I+1(t)+(/t)I(t)I(t)=R(t)+t from which by integration and taking limits, log(I)(t)=0tR(s)ds+log(t/2)-log((+1)).For functions f and g defined on the positive reals, write fg iff f(t)g(t) for all t>0, with f<g defined analogously.
+[LINE#8]  Let I be the modified Bessel function of order , and.
+[LINE#9] R the (modified) Bessel function ratio R(t)=I+1(t)/I(t).
+[LINE#10+11+12]  These ratios are of great importance in a variety of application areas, including statistics [e.g., 7] and numerical analysis [e.g., 1],either directly or through the fact that by the well-known recurrence relations for modified Bessel functions, log(I)(t)=I(t)I(t)=I+1(t)+(/t)I(t)I(t)=R(t)+t from which by integration and taking limits, log(I)(t)=0tR(s)ds+log(t/2)-log((+1)).For functions f and g defined on the positive reals, write fg iff f(t)g(t) for all t>0, with f<g defined analogously.
 0.999	[*A*]that by the well-known recurrence relations for modified Bessel functions, log(I)(t)=I(t)I(t)=I+1(t)+(/t)I(t)I(t)=R(t)+t from which by integration and taking limits, log(I)(t)=0tR(s)ds+log(t/2)-log[*R*]write fg[*A*]iff f[*A*]for all t>0	context(that by the well - known recurrence relations for modified Bessel functions , log ( I ) ( t ) =I ( t ) I ( t ) =I+1 ( t ) + ( / t ) I ( t ) I ( t ) =R ( t ) +t from which by integration and taking limits , log ( I ) ( t ) =0tR ( s ) ds+log ( t / 2 ) - log write)	negated: False ,passive: False
 0.999	[*A*]that by the well-known recurrence relations for modified Bessel functions, log(I)(t)=I(t)I(t)=I+1(t)+(/t)I(t)I(t)=R(t)+t from which by integration and taking limits, log(I)(t)=0tR(s)ds+log(t/2)-log[*R*]write[*A*]fg iff f(t)g(t) for all t>0, with f	context()	negated: False ,passive: False
 0.903	[*A*]These ratios[*R*]are[*A*]of great importance[*A*]in a variety of application areas, including statistics	context()	negated: False ,passive: True
-[LINE#11]If neither fg nor gf, we say that f and g are incomparable.
+[LINE#13] If neither fg nor gf, we say that f and g are incomparable.
 0.589	[*A*]f and g[*R*]are[*A*]incomparable	context(we say)	negated: False ,passive: True
 0.188	[*A*]we[*R*]say[*A*]that f and g are incomparable	context()	negated: False ,passive: False
-[LINE#12]Let G be a family of functions on the positive reals and fG.
+[LINE#14] Let G be a family of functions on the positive reals and fG.
 0.887	[*A*]Let G[*R*]be a family of[*A*]functions	context()	negated: False ,passive: False
-[LINE#13] We say that f is the least element (minimum) of G iff fg for all gG, and that f is a minimal element of G iff there is no gG for which f>g, with the greatest element (maximum)and maximal elements of G defined analogously.
+[LINE#15+16]  We say that f is the least element (minimum) of G iff fg for all gG, and that f is a minimal element of G iff there is no gG for which f>g, with the greatest element (maximum)and maximal elements of G defined analogously.
 0.845	[*A*]no gG maximal elements of G[*R*]defined analogously	context()	negated: False ,passive: False
 0.348	[*A*]f[*R*]is[*A*]a minimal element of G[*A*]iff there is no gG maximal elements of G	context()	negated: False ,passive: True
 0.543	[*A*]no gG[*R*]defined analogously	context()	negated: False ,passive: False
 0.348	[*A*]f[*R*]is[*A*]a minimal element of G[*A*]iff there is no gG	context()	negated: False ,passive: True
 0.628	[*A*]f[*R*]is[*A*]the least element ( minimum ) of G iff fg for all gG	context(We say)	negated: False ,passive: True
 0.202	[*A*]We[*R*]say[*A*]that f is the least element ( minimum ) of G iff fg for all gG	context()	negated: False ,passive: False
-[LINE#14]Let G,(t)=t+t2+2, where in what follows we always (without loss of generality) take 0.
-[LINE#15][1] show that max(G+1,+1,G+1/2,+3/2)Rmin(G,,G,+2,G+1/2,+1/2).
+[LINE#17] Let G,(t)=t+t2+2, where in what follows we always (without loss of generality) take 0.
+[LINE#18] [1] show that max(G+1,+1,G+1/2,+3/2)Rmin(G,,G,+2,G+1/2,+1/2).
 0.327	[*A*]1[*R*]show[*A*]that max(G+1,+1,G+1/2,+3/2)Rmin(G,,G,+2,G+1/2	context()	negated: False ,passive: False
-[LINE#16]Such "Amos-type" bounds were re-established and extended in several publications (see Section 3 for details).
+[LINE#19] Such "Amos-type" bounds were re-established and extended in several publications (see Section 3 for details).
 0.953	[*A*]Such " Amos - type " bounds[*R*]were extended[*A*]in several publications	context()	negated: False ,passive: True
 0.857	[*A*]Such " Amos - type " bounds[*R*]were re-established	context()	negated: False ,passive: False
-[LINE#17]These bounds are very attractive because they allow both for explicit inversion and integration.
+[LINE#20] These bounds are very attractive because they allow both for explicit inversion and integration.
 0.616	[*A*]they[*R*]allow[*A*]both for explicit integration	context()	negated: False ,passive: False
 0.835	[*A*]These bounds[*R*]are[*A*]very attractive[*A*]because they allow both for explicit integration	context()	negated: False ,passive: True
 0.616	[*A*]they[*R*]allow[*A*]both for explicit inversion	context()	negated: False ,passive: False
 0.835	[*A*]These bounds[*R*]are[*A*]very attractive[*A*]because they allow both for explicit inversion	context()	negated: False ,passive: True
-[LINE#18]Thus, Amos-type bounds yield bounds (and approximations) also for R-1 and the antiderivate of R (equivalently, I and its logarithm).Let L={(,):G,R},U={(,):G,R} be the set of all (,) for which G, is a lower/upper Amos-type bound for R, and write GL={G,:(,)L},GU={G,:(,)U}, for the corresponding families of lower/upper Amos-type bounds for R.
+[LINE#21] Thus, Amos-type bounds yield bounds (and approximations) also for R-1 and the antiderivate of R (equivalently, I and its logarithm).Let L={(,):G,R},U={(,):G,R} be the set of all (,) for which G, is a lower/upper Amos-type bound for R, and write GL={G,:(,)L},GU={G,:(,)U}, for the corresponding families of lower/upper Amos-type bounds for R.
 0.939	[*A*]Amos - type bounds[*R*]yield[*A*]approximations	context()	negated: False ,passive: False
 0.939	[*A*]Amos - type bounds[*R*]yield[*A*]bounds ( also for R - 1	context()	negated: False ,passive: False
-[LINE#19]In this paper, we investigate the structure of GL and GU under the condition that R>0, or equivalently, -1 or  a negative integer.
+[LINE#22] In this paper, we investigate the structure of GL and GU under the condition that R>0, or equivalently, -1 or  a negative integer.
 0.639	[*A*]we[*R*]investigate[*A*]the structure of GL and GU[*A*]In this paper	context()	negated: False ,passive: False
-[LINE#20] Let v(t)=tI(t)/I+1(t)=t/R(t) and h,(t)=+t2+2 so that G,(t)=t/h,(t).Using, e.g.,.
+[LINE#23]  Let v(t)=tI(t)/I+1(t)=t/R(t) and h,(t)=+t2+2 so that G,(t)=t/h,(t).Using, e.g.,.
 0.735	[*A*]that G , ( t ) =t / h , ( t[*R*]Using e.g.	context()	negated: False ,passive: False
-[LINE#21]Watson [10, Formula 3.7.2], R(t)=t2n=0t2n/(4nn!(n++2))n=0t2n/(4nn!(n++1)).
-[LINE#22]If -1, all coefficients in the numerator and denominator series are non-negative and eventually positive, and hence R>0.
+[LINE#24] Watson [10, Formula 3.7.2], R(t)=t2n=0t2n/(4nn!(n++2))n=0t2n/(4nn!(n++1)).
+[LINE#25] If -1, all coefficients in the numerator and denominator series are non-negative and eventually positive, and hence R>0.
 0.829	[*A*]all coefficients in the denominator series[*R*]are[*A*]eventually positive	context()	negated: False ,passive: True
 0.829	[*A*]all coefficients in the denominator series[*R*]are[*A*]non-negative	context()	negated: False ,passive: True
 0.829	[*A*]all coefficients in the numerator series[*R*]are[*A*]eventually positive	context()	negated: False ,passive: True
 0.829	[*A*]all coefficients in the numerator series[*R*]are[*A*]non-negative	context()	negated: False ,passive: True
 0.754	[*A*]all coefficients[*R*]R[*A*]0	context()	negated: False ,passive: False
-[LINE#23]If  is a negative integer, the same is true; otherwise, limt0v(t)=2(+2)/(+1)=2(+1) which is negative if <-1, and hence R(t)<0 for all sufficiently small positive t.
+[LINE#26] If  is a negative integer, the same is true; otherwise, limt0v(t)=2(+2)/(+1)=2(+1) which is negative if <-1, and hence R(t)<0 for all sufficiently small positive t.
 0.381	[*A*]the same[*R*]is[*A*]true	context()	negated: False ,passive: True
 0.311	[*A*]the same[*R*]is otherwise[*A*]true	context()	negated: False ,passive: True
-[LINE#24]Using the asymptotic expansion of I for large argument [10, e.g., Formula 7.23.2], one can show that for arbitrary , (1)R(t)=1-+1/2t+2-1/42t2+O(1/t3),t, see also Schou [7, Eq.
+[LINE#27] Using the asymptotic expansion of I for large argument [10, e.g., Formula 7.23.2], one can show that for arbitrary , (1)R(t)=1-+1/2t+2-1/42t2+O(1/t3),t, see also Schou [7, Eq.
 0.935	[*A*]=1-+1/2t+2-1/42t2+O(1/t3[*R*]see[*A*]also[*A*]Schou [7, Eq	context(one can show)	negated: False ,passive: False
 0.465	[*A*]one[*R*]can show[*A*]that for arbitrary , (1)R(t)=1-+1/2t+2-1/42t2+O(1/t3),t, see also Schou [7, Eq	context()	negated: False ,passive: False
-[LINE#25] h, is increasing with h,(0)=+, we have G,>0 iff.
+[LINE#28]  h, is increasing with h,(0)=+, we have G,>0 iff.
 0.498	[*A*]we[*R*]have[*A*]G	context()	negated: False ,passive: False
 0.786	[*A*]h[*R*]is increasing[*A*]with h	context()	negated: False ,passive: True
-[LINE#26]Hence, when -1 or  is a negative integer and +0,G, is a (strict) upper or lower bound for R if and only if h, is a (strict) lower or upper bound for v, respectively.
+[LINE#29] Hence, when -1 or  is a negative integer and +0,G, is a (strict) upper or lower bound for R if and only if h, is a (strict) lower or upper bound for v, respectively.
 0.973	[*A*]when -1 or  is a negative integer and +0[*R*]is[*A*]a (strict) upper or lower bound for R if and only if h, is a (strict) lower or upper bound for v, respectively	context()	negated: False ,passive: True
 0.619	[*A*]when -1[*R*]is[*A*]a negative integer and +0	context()	negated: False ,passive: True
-[LINE#27]Lemma 1For -1,(2)v(t)=2(+1)+t22(+2)+O(t4),t0.ProofMore generally, if  is not a negative integer, v(t)=t(t/2)(1(+1)+t2/4(+2)+O(t4))(t/2)+1(1(+2)+t2/4(+3)+O(t4))=2(+1)+t24+O(t4)1+t24(+2)+O(t4)=2(+1)+t22(+2)+O(t4),t0.
-[LINE#28] If =-k is a negative integer, 1/(+n+1)vanishes for n from 0 to k-1, and hence v-k(t)=2n=kt2n/(4nn!(n-k+1))n=k-1t2n/(4nn!(n-k+2))=2t2k/(4kk!)t2(k-1)/(4k-1(k-1)!)1+t24(k+1)+O(t4)1+t24k+O(t4)=t22k+O(t4),t0.
+[LINE#30] Lemma 1For -1,(2)v(t)=2(+1)+t22(+2)+O(t4),t0.ProofMore generally, if  is not a negative integer, v(t)=t(t/2)(1(+1)+t2/4(+2)+O(t4))(t/2)+1(1(+2)+t2/4(+3)+O(t4))=2(+1)+t24+O(t4)1+t24(+2)+O(t4)=2(+1)+t22(+2)+O(t4),t0.
+[LINE#31+32]  If =-k is a negative integer, 1/(+n+1)vanishes for n from 0 to k-1, and hence v-k(t)=2n=kt2n/(4nn!(n-k+1))n=k-1t2n/(4nn!(n-k+2))=2t2k/(4kk!)t2(k-1)/(4k-1(k-1)!)1+t24(k+1)+O(t4)1+t24k+O(t4)=t22k+O(t4),t0.
 0.874	[*A*]a negative integer[*R*]vanishes[*A*]for n from 0 to k-1	context(= - k is)	negated: False ,passive: True
 0.900	[*A*]=-k[*R*]is[*A*]a negative integer, 1/(+n+1)vanishes for n from 0 to k-1	context()	negated: False ,passive: True
-[LINE#29] As for =-k=-1 we have 2(+1)=0 and +2=1= k, we can combine the two expansions to obtain the lemma.Lemma 2If >0,(3)h,(t)=(+)+t22+O(t4),t0.For arbitrary  and 0,(4)G,(t)=1-t+22-22t2+O(t-3),t.ProofIf >0, then t2+2= (1+t222+O(t4))=+t22+O(t4) for t0.
+[LINE#33+34+35]  As for =-k=-1 we have 2(+1)=0 and +2=1= k, we can combine the two expansions to obtain the lemma.Lemma 2If >0,(3)h,(t)=(+)+t22+O(t4),t0.For arbitrary  and 0,(4)G,(t)=1-t+22-22t2+O(t-3),t.ProofIf >0, then t2+2= (1+t222+O(t4))=+t22+O(t4) for t0.
 0.516	[*A*]we[*R*]have k of[*A*]2 + 2 = 1 =	context()	negated: False ,passive: False
 0.433	[*A*]we[*R*]can combine the two expansions to obtain[*A*]the lemma.Lemma 2If	context(we can combine)	negated: False ,passive: False
 0.595	[*A*]we[*R*]have[*A*]2 +2=1= k[*A*]As for = - k= - 1	context()	negated: False ,passive: False
@@ -85,294 +85,294 @@
 0.433	[*A*]we[*R*]can combine the two expansions to obtain[*A*]the lemma.Lemma 2If	context(we can combine)	negated: False ,passive: False
 0.433	[*A*]we[*R*]can combine[*A*]the two expansions[*A*]to obtain the lemma.Lemma 2If	context()	negated: False ,passive: False
 0.551	[*A*]we[*R*]have[*A*]+1 ) =0[*A*]As for = - k= - 1	context()	negated: False ,passive: False
-[LINE#30] As t,1+2/t2=1+2/(2t2)+O(t-4) and thus G,(t)=1/t+1+2/t2=11+/t+2/(2t2)+O(t-4)=1-t+22-22t2+O(t-3),t.Theorem 1For arbitrary ,G,R or G,R are only possible when +1/2 or +1/2, respectively.
+[LINE#36+37]  As t,1+2/t2=1+2/(2t2)+O(t-4) and thus G,(t)=1/t+1+2/t2=11+/t+2/(2t2)+O(t-4)=1-t+22-22t2+O(t-3),t.Theorem 1For arbitrary ,G,R or G,R are only possible when +1/2 or +1/2, respectively.
 0.195	[*A*]R[*R*]has potential_difference of[*A*]1 - t + 22 -22t2	context()	negated: False ,passive: False
 0.605	[*A*]R[*R*]are[*A*]only possible	context()	negated: False ,passive: True
-[LINE#31]If -1, then G,R or G,R are only possible when +2(+1) or 0+2(+1), respectively.
+[LINE#38] If -1, then G,R or G,R are only possible when +2(+1) or 0+2(+1), respectively.
 0.834	[*A*]R[*R*]has then of[*A*]0 + 2	context()	negated: False ,passive: False
 0.973	[*A*]R[*R*]are[*A*]0 + 2	context()	negated: False ,passive: False
 0.733	[*A*]R[*R*]are[*A*]only possible[*A*]then	context()	negated: False ,passive: True
-[LINE#32]ProofThe first assertion is immediate by comparing the expansions of R and G, for t.
+[LINE#39] ProofThe first assertion is immediate by comparing the expansions of R and G, for t.
 0.828	[*A*]ProofThe first assertion[*R*]is[*A*]immediate	context()	negated: False ,passive: True
-[LINE#33]If +<0,h, has a unique zero t>0, and G, changes from - to  at t.
+[LINE#40] If +<0,h, has a unique zero t>0, and G, changes from - to  at t.
 0.516	[*A*]h[*R*]has a unique t of[*A*]zero t > 0	context()	negated: False ,passive: False
 0.999	[*A*]h[*R*]has[*A*]zero t > 0	context()	negated: False ,passive: False
 0.830	[*A*]h[*R*]has[*A*]a unique zero t	context()	negated: False ,passive: False
-[LINE#34]If -1,R>0, so upper and lower G, bounds necessarily must have +0.
+[LINE#41] If -1,R>0, so upper and lower G, bounds necessarily must have +0.
 0.677	[*A*]bounds[*R*]must have +0	context()	negated: False ,passive: False
-[LINE#35]The second assertion now follows by comparing the values of v and h, at t=0.
+[LINE#42] The second assertion now follows by comparing the values of v and h, at t=0.
 0.845	[*A*]The second assertion[*R*]follows[*A*]now	context()	negated: False ,passive: True
-[LINE#36]Lemma 3Let 1<2 and min(1+1,2+2)0 .
-[LINE#37] Then G1,1<G2,2 iff 1+12+2, and G1,1>G2,2 iff.
-[LINE#38] Otherwise, if 1>2 and 1+1<2+2 andt=((2-1)2-(1-2)2)((2+1)2-(1-2)2)2(1-2),G1,1(s)>G2,2(s) for 0<s<t and G1,1(s)<G2,2(s) for s.
-[LINE#39] Then (0)=(1+1)-(2+2) and as t2+12-t2+22=(t2+12)-(t2+22)t2+12+t2+22=12-22t2+12+t2+220 as t,(t)()=1-2 as t.
-[LINE#40] As (t)=tt2+12-tt2+22, if 1<2 we have >0 and hence >0 iff (0)0, and.
-[LINE#41]As min(1+1,2+2)0,G1,1<G2,2 (or >) iff >0 (or <).
-[LINE#42]<2+2, has a unique zero t in (0,), which can be determined as follows.
+[LINE#43] Lemma 3Let 1<2 and min(1+1,2+2)0 .
+[LINE#44]  Then G1,1<G2,2 iff 1+12+2, and G1,1>G2,2 iff.
+[LINE#45]  Otherwise, if 1>2 and 1+1<2+2 andt=((2-1)2-(1-2)2)((2+1)2-(1-2)2)2(1-2),G1,1(s)>G2,2(s) for 0<s<t and G1,1(s)<G2,2(s) for s.
+[LINE#46+47]  Then (0)=(1+1)-(2+2) and as t2+12-t2+22=(t2+12)-(t2+22)t2+12+t2+22=12-22t2+12+t2+220 as t,(t)()=1-2 as t.
+[LINE#48+49]  As (t)=tt2+12-tt2+22, if 1<2 we have >0 and hence >0 iff (0)0, and.
+[LINE#50] As min(1+1,2+2)0,G1,1<G2,2 (or >) iff >0 (or <).
+[LINE#51] <2+2, has a unique zero t in (0,), which can be determined as follows.
 0.913	[*A*]a unique zero t in[*R*]can be determined[*A*]as follows	context()	negated: False ,passive: True
-[LINE#43] >1 so that t=u2-12 and t2+22=u2+(22-12), and (t)=0 iff 1+u-2=u2+(22-12).
-[LINE#44] Taking squares, u2+2(1-2)u+(1-2)2=u2+(22-12)from which u=22-122(1-2)-1-22.
-[LINE#45]Then u-1=(22-12)-(1-2)22(1-2)-1=(2-1-1+2)(2+1+1-2)2(1-2).
-[LINE#46]The numerator equals ((2+2)-(1+1))((1-2)+(1+2))>0 so that indeed u>1.
-[LINE#47] +21(1-2)-(1-2)22(1-2)=(2+1-1+2)(2-1+1-2)2(1-2) so that with t2= we indeed obtain t=((2-1)2-(1-2)2)((2+1)2-(1-2)2)2(1-2) for the unique solution of (t)=0 (and equivalently G1,1(t)=G2,2(t)).
+[LINE#52+53]  >1 so that t=u2-12 and t2+22=u2+(22-12), and (t)=0 iff 1+u-2=u2+(22-12).
+[LINE#54+55]  Taking squares, u2+2(1-2)u+(1-2)2=u2+(22-12)from which u=22-122(1-2)-1-22.
+[LINE#56] Then u-1=(22-12)-(1-2)22(1-2)-1=(2-1-1+2)(2+1+1-2)2(1-2).
+[LINE#57] The numerator equals ((2+2)-(1+1))((1-2)+(1+2))>0 so that indeed u>1.
+[LINE#58+59]  +21(1-2)-(1-2)22(1-2)=(2+1-1+2)(2-1+1-2)2(1-2) so that with t2= we indeed obtain t=((2-1)2-(1-2)2)((2+1)2-(1-2)2)2(1-2) for the unique solution of (t)=0 (and equivalently G1,1(t)=G2,2(t)).
 0.573	[*A*]we[*R*]obtain[*A*]t= ( ( 2-1 ) 2 - ( 1-2 ) 2 ) ( ( 2+1 ) 2 - ( 1-2 ) 2 ) 2 ( 1-2 ) for =0	context()	negated: False ,passive: False
 0.573	[*A*]we[*R*]obtain[*A*]t= ( ( 2-1 ) 2 - ( 1-2 ) 2 ) ( ( 2+1 ) 2 - ( 1-2 ) 2 ) 2	context()	negated: False ,passive: False
-[LINE#48] Clearly, (s)<0 for 0s<t and (s)>0 for s>t, so that G1,1(s)>G2,2(s) for 0<s<t and G1,1(s)<G2,2(s) for s>t, and the quadratic polynomial Q(t)=t2+t+ has two real zeros.
+[LINE#60+61+62]  Clearly, (s)<0 for 0s<t and (s)>0 for s>t, so that G1,1(s)>G2,2(s) for 0<s<t and G1,1(s)<G2,2(s) for s>t, and the quadratic polynomial Q(t)=t2+t+ has two real zeros.
 0.965	[*A*]s ) < 0 for the quadratic polynomial Q[*R*]has[*A*]two real zeros	context()	negated: False ,passive: False
 0.952	[*A*]s ) < 0 for 0 s[*R*]has[*A*]two real zeros	context()	negated: False ,passive: False
-[LINE#49]Then Q(t)<0 iff t1<t<t2.ProofTrivial, as Q(t)=(t-t1)(t-t2).
-[LINE#50]Previous workAmos [1] gives the bounds G+1/2,+3/2RG+1/2,+1/2,0 (Eq.
+[LINE#63] Then Q(t)<0 iff t1<t<t2.ProofTrivial, as Q(t)=(t-t1)(t-t2).
+[LINE#64] Previous workAmos [1] gives the bounds G+1/2,+3/2RG+1/2,+1/2,0 (Eq.
 0.905	[*A*]Previous workAmos[*R*]gives[*A*]the bounds[*A*]G+1/2,+3/2RG+1/2	context()	negated: False ,passive: False
-[LINE#51] (16)) and G+1,+1RG,+2G,,.
-[LINE#52] Using Lemma 3 with 1=+1<+3/2 we see that the first lower bound is uniformly better (larger) than the second one, whereas again with Lemma 3, neither of the upper bounds G+1/2,+1/2 and G,+2 is uniformly better (smaller) than the other: in fact, with 1-2=1/2,2-1=3/2 and 2+1=2+5/2, we get t=(9/4-1/4)(42+10+25/4-1/4)2(1/2)=2(+1)(2+3), so that G,+2(s)<G+1/2,+1/2(s)for 0<s<t and G+1/2,+1/2(s)<G,+2(s) for s>t.
+[LINE#65]  (16)) and G+1,+1RG,+2G,,.
+[LINE#66+67+68+69]  Using Lemma 3 with 1=+1<+3/2 we see that the first lower bound is uniformly better (larger) than the second one, whereas again with Lemma 3, neither of the upper bounds G+1/2,+1/2 and G,+2 is uniformly better (smaller) than the other: in fact, with 1-2=1/2,2-1=3/2 and 2+1=2+5/2, we get t=(9/4-1/4)(42+10+25/4-1/4)2(1/2)=2(+1)(2+3), so that G,+2(s)<G+1/2,+1/2(s)for 0<s<t and G+1/2,+1/2(s)<G,+2(s) for s>t.
 0.671	[*A*]+2[*R*]is[*A*]uniformly better ( smaller ) than the other	context()	negated: False ,passive: True
 0.579	[*A*]we[*R*]get[*A*]t= ( 9/4 - 1/4 ) ( 42+10+25/4 - 1/4 ) 2 ( 1/2 ) =2 ( +1 ) ( 2+3 ) , so that G , +2 ( s ) < G+1/2 , +1/2 ( s ) for 0 < s < G+1/2 , +1/2 ( s ) < G , +2 ( s ) for s >[*A*]in fact	context()	negated: False ,passive: False
 0.229	[*A*]we[*R*]get[*A*]t= ( 9/4 - 1/4	context()	negated: False ,passive: False
 0.599	[*A*]+2[*R*]is smaller[*A*]uniformly better	context()	negated: False ,passive: True
-[LINE#53]Nsell [5] gives rational bounds for R, and notes (p. 8) that the Amos-type bounds G+1/2,+3/2<R and R<G+1/2,+1/2 are valid for >-1 and >-1/2, respectively.
+[LINE#70] Nsell [5] gives rational bounds for R, and notes (p. 8) that the Amos-type bounds G+1/2,+3/2<R and R<G+1/2,+1/2 are valid for >-1 and >-1/2, respectively.
 0.296	[*A*]+1/2[*R*]are[*A*]valid[*A*]for > - 1/2	context()	negated: False ,passive: True
 0.296	[*A*]+1/2[*R*]are[*A*]valid[*A*]for > - 1	context()	negated: False ,passive: True
 0.296	[*A*]+1/2[*R*]are[*A*]valid[*A*]for > - 1/2[*A*]respectively	context()	negated: False ,passive: True
 0.296	[*A*]+1/2[*R*]are[*A*]valid[*A*]for > - 1[*A*]respectively	context()	negated: False ,passive: True
 0.833	[*A*]Nsell[*R*]gives[*A*]rational bounds for R	context()	negated: False ,passive: False
-[LINE#54] tanh<1=G0,0, so that the upper bound is in fact valid for -1/2.Simpson and Spector[9, Theorem 2] show that v(t)2-(2+1)v(t)-(t2++1/2)>0,t>0,0.
+[LINE#71+72]  tanh<1=G0,0, so that the upper bound is in fact valid for -1/2.Simpson and Spector[9, Theorem 2] show that v(t)2-(2+1)v(t)-(t2++1/2)>0,t>0,0.
 0.769	[*A*]Theorem 2[*R*]show	context(the upper bound is)	negated: False ,passive: False
 0.885	[*A*]the upper bound[*R*]is[*A*]in fact valid Spector [ 9 , Theorem 2 ] show that v ( t ) 2 - ( 2+1 ) v ( t	context()	negated: False ,passive: True
 0.909	[*A*]the upper bound[*R*]is valid[*A*]in fact	context()	negated: False ,passive: True
-[LINE#55]As the quadratic function Q(s)=s2-(2+1)s-(t2++1/2) has zeros +1/2(+1/2)2+(t2++1/2)=+1/2t2+(+1/2)(+3/2),Lemma 4 implies that v(t)>+1/2+t2+(+1/2)(+3/2) and hence R<G+1/2,(+1/2)(+3/2),0.
+[LINE#73] As the quadratic function Q(s)=s2-(2+1)s-(t2++1/2) has zeros +1/2(+1/2)2+(t2++1/2)=+1/2t2+(+1/2)(+3/2),Lemma 4 implies that v(t)>+1/2+t2+(+1/2)(+3/2) and hence R<G+1/2,(+1/2)(+3/2),0.
 0.961	[*A*]Lemma 4[*R*]implies[*A*]hence R < G+1/2 , ( +1/2 ) ( +3/2	context()	negated: False ,passive: False
 0.788	[*A*]Lemma 4[*R*]implies	context()	negated: False ,passive: False
 0.920	[*A*]2+1 ) s[*R*]has[*A*]zeros	context()	negated: False ,passive: False
-[LINE#56]Using Lemma 3, we see that this bound is uniformly better than the Amos-type bound G+1/2,+1/2.
+[LINE#74] Using Lemma 3, we see that this bound is uniformly better than the Amos-type bound G+1/2,+1/2.
 0.618	[*A*]this bound[*R*]is[*A*]uniformly better than the Amos-type	context(we see)	negated: False ,passive: True
 0.309	[*A*]we[*R*]see[*A*]that this bound is uniformly better than the Amos-type	context()	negated: False ,passive: False
 0.949	[*A*]the Amos-type[*R*]bound[*A*]G+1/2	context()	negated: False ,passive: True
 0.153	[*A*]this[*R*]bound	context()	negated: False ,passive: False
-[LINE#57] To compare with G,+2, note that((2-1)2-(1-2)2)((2+1)2-(1-2)2)=(22-12)2-2(22+12)(1-2)2+(1-2)4.
-[LINE#58] =+1/2,1=(+1/2)(+3/2),2= and 2=+2, we get 1-2=1/2,22-12=2+13/4,22+12=22+6+19/4 and t=(2+13/4)2-2(22+6+19/4)/4+1/16=32+10+33/4=(3+11/2)(+3/2), and therefore G+1/2,(+1/2)(+3/2)(s)<G,+2(s) for s>t, and G,+2(s)<G+1/2,(+1/2)(+3/2)(s) for 0<s<t.
+[LINE#75+76]  To compare with G,+2, note that((2-1)2-(1-2)2)((2+1)2-(1-2)2)=(22-12)2-2(22+12)(1-2)2+(1-2)4.
+[LINE#77+78+79]  =+1/2,1=(+1/2)(+3/2),2= and 2=+2, we get 1-2=1/2,22-12=2+13/4,22+12=22+6+19/4 and t=(2+13/4)2-2(22+6+19/4)/4+1/16=32+10+33/4=(3+11/2)(+3/2), and therefore G+1/2,(+1/2)(+3/2)(s)<G,+2(s) for s>t, and G,+2(s)<G+1/2,(+1/2)(+3/2)(s) for 0<s<t.
 0.523	[*A*]we[*R*]get[*A*]t[*A*]G+1/2	context()	negated: False ,passive: False
 0.477	[*A*]we[*R*]get[*A*]+2	context()	negated: False ,passive: False
 0.523	[*A*]we[*R*]get[*A*]G[*A*]< G+1/2	context()	negated: False ,passive: False
-[LINE#59]Neuman [6, Proposition 5] shows that v2(t)-(2+1)v(t)-(t2++1/2)<+3/2,t>0,>-3/2.
+[LINE#80] Neuman [6, Proposition 5] shows that v2(t)-(2+1)v(t)-(t2++1/2)<+3/2,t>0,>-3/2.
 0.955	[*A*]Proposition 5[*R*]shows[*A*]Neuman	context()	negated: False ,passive: False
-[LINE#60] As the quadratic function Q(s)=s2-(2+1)s-(t2+2(+1)) has zeros +1/2(+1/2)2+t2+2(+1)=+1/2t2+(+3/2)2,Lemma 4 implies that v(t)<+1/2+t2+(+3/2)2 for t>0 and >-3/2.
+[LINE#81+82]  As the quadratic function Q(s)=s2-(2+1)s-(t2+2(+1)) has zeros +1/2(+1/2)2+t2+2(+1)=+1/2t2+(+3/2)2,Lemma 4 implies that v(t)<+1/2+t2+(+3/2)2 for t>0 and >-3/2.
 0.822	[*A*]Lemma 4[*R*]implies[*A*]that v ( t ) <	context()	negated: False ,passive: False
 0.920	[*A*]2+1 ) s[*R*]has[*A*]zeros	context()	negated: False ,passive: False
-[LINE#61]If -1,v>0 and hence R>G+1/2,+3/2.Yuan and Kalbfleisch [11, Eq.
-[LINE#62]] show that G+1,+1RG,,>-1.Baricz and Neuman [2, Theorems 2.1 and 2.2] show that if a>1 and b=1/(4log(a)), then v(t)2-(2+1)v(t)-t2<2(+1),0<t2b,b-2 and that v(t)2-2v(t)-t2>4(+1),t>0,>-2 (the reference uses p-1 for ).
+[LINE#83] If -1,v>0 and hence R>G+1/2,+3/2.Yuan and Kalbfleisch [11, Eq.
+[LINE#84] ] show that G+1,+1RG,,>-1.Baricz and Neuman [2, Theorems 2.1 and 2.2] show that if a>1 and b=1/(4log(a)), then v(t)2-(2+1)v(t)-t2<2(+1),0<t2b,b-2 and that v(t)2-2v(t)-t2>4(+1),t>0,>-2 (the reference uses p-1 for ).
 0.767	[*A*]the reference[*R*]uses[*A*]p - 1[*A*]for	context()	negated: False ,passive: False
-[LINE#63]The former extends the earlier result of Neuman [6] when -3/2, in which case the bounds are not valid for all t>0.
+[LINE#85] The former extends the earlier result of Neuman [6] when -3/2, in which case the bounds are not valid for all t>0.
 0.943	[*A*]the bounds[*R*]are not[*A*]valid for all t>0[*A*]in which case	context()	negated: True ,passive: True
 0.613	[*A*]The former[*R*]extends[*A*]the earlier result of Neuman	context()	negated: False ,passive: False
-[LINE#64]As sQ(s)=s2-2s-(t2+4(+1)) has zeros 2+t2+4(+1)=t2+(+2)2,Lemma 4 yields that for -1, the latter is equivalent to R<G,+2, extending the previously established  range for this bound.
+[LINE#86] As sQ(s)=s2-2s-(t2+4(+1)) has zeros 2+t2+4(+1)=t2+(+2)2,Lemma 4 yields that for -1, the latter is equivalent to R<G,+2, extending the previously established  range for this bound.
 0.908	[*A*]the latter[*R*]is[*A*]equivalent to R	context()	negated: False ,passive: True
-[LINE#65]Laforgia and Natalini [4, Theorem 1.1] show that -+t2+2t<I(t)I-1(t),t>0,0 (the condition that t>0 is not stated explicitly in the theorem, but given in Eq.
+[LINE#87] Laforgia and Natalini [4, Theorem 1.1] show that -+t2+2t<I(t)I-1(t),t>0,0 (the condition that t>0 is not stated explicitly in the theorem, but given in Eq.
 0.653	[*A*]Natalini[*R*]show[*A*]that - +t2+2t < I	context()	negated: False ,passive: False
 0.918	[*A*]the condition[*R*]given[*A*]in Eq	context()	negated: False ,passive: True
 0.381	[*A*]0[*R*]is not stated explicitly[*A*]in the theorem	context()	negated: True ,passive: True
-[LINE#66](1.8) of the reference used in the proof).
+[LINE#88] (1.8) of the reference used in the proof).
 0.903	[*A*]the reference[*R*]used[*A*]in the proof	context()	negated: False ,passive: True
-[LINE#67] As t2+2-t=(t2+2)-2t(t2+2+)=t+t2+2=, the result is equivalent to R>G+1,+1,-1, which is weaker than the R>G+1/2,+3/2 bound.
+[LINE#89+90]  As t2+2-t=(t2+2)-2t(t2+2+)=t+t2+2=, the result is equivalent to R>G+1,+1,-1, which is weaker than the R>G+1/2,+3/2 bound.
 0.737	[*A*]the R>G+1/2[*R*]bound	context()	negated: False ,passive: False
 0.879	[*A*]>G+1[*R*]is[*A*]weaker than the R>G+1/2	context()	negated: False ,passive: True
 0.925	[*A*]the result[*R*]is[*A*]equivalent to R	context()	negated: False ,passive: True
-[LINE#68]Segura [8, Theorem 3] shows that I+1/2(t)I-1/2(t)<t+t2+2,t>0,0 or equivalently, R<G+1/2,+1/2 for -1/2.
+[LINE#91] Segura [8, Theorem 3] shows that I+1/2(t)I-1/2(t)<t+t2+2,t>0,0 or equivalently, R<G+1/2,+1/2 for -1/2.
 0.918	[*A*]Segura[*R*]shows[*A*]I+1/2(t)I-1/2(t)<t+t2+2	context()	negated: False ,passive: False
-[LINE#69]For r(t)=I(t)/(tI-1(t))=R-1(t)/t, Segura [8, Eqs.
-[LINE#70](22) and (61)] also shows that for t>0 and 0, 1(-1/2)+t2+(+1/2)2<r(t)<1+2+t2/(+1).
+[LINE#92] For r(t)=I(t)/(tI-1(t))=R-1(t)/t, Segura [8, Eqs.
+[LINE#93] (22) and (61)] also shows that for t>0 and 0, 1(-1/2)+t2+(+1/2)2<r(t)<1+2+t2/(+1).
 0.283	[*A*]61[*R*]shows	context()	negated: False ,passive: False
-[LINE#71] Clearly, the lower bound is equivalent to R>G+1/2,+3/2 for -1, and the upper bound to R(t)<t+1+(+1)2+t2(+1)/(+2) for t>0 and -1, which is weaker than the upper bound, Theorem 2.1] shows that for f(t)=I+1(t)/(tI(t))=R(t)/t, -+1t2+(+1)2t4+1t2<f(t)<-+1t2+(+1)2t4+1t2+14(+1)2(+2) for t>0 and >-1.
+[LINE#94+95]  Clearly, the lower bound is equivalent to R>G+1/2,+3/2 for -1, and the upper bound to R(t)<t+1+(+1)2+t2(+1)/(+2) for t>0 and -1, which is weaker than the upper bound, Theorem 2.1] shows that for f(t)=I+1(t)/(tI(t))=R(t)/t, -+1t2+(+1)2t4+1t2<f(t)<-+1t2+(+1)2t4+1t2+14(+1)2(+2) for t>0 and >-1.
 0.279	[*A*]the upper[*R*]bound	context()	negated: False ,passive: False
 0.279	[*A*]the lower[*R*]bound	context()	negated: False ,passive: False
-[LINE#72]As -+1t+(+1)2t2+1=t2+(+1)2-(+1)t, the lower bound again is equivalent to R>G+1,+1 for >-1.
-[LINE#73]Write UK(t) for the above upper bound and =1/(4(+1)2(+2)).
+[LINE#96] As -+1t+(+1)2t2+1=t2+(+1)2-(+1)t, the lower bound again is equivalent to R>G+1,+1 for >-1.
+[LINE#97] Write UK(t) for the above upper bound and =1/(4(+1)2(+2)).
 0.751	[*A*]the above upper[*R*]bound	context()	negated: False ,passive: False
-[LINE#74] UK(t) is the larger root of the quadratic polynomial sQ(s;t)=s2+2(+1)t2s-1t2-, so by Lemma 4, for any function s(t) with Q(s(t),t)<0 for all t>0.
+[LINE#98]  UK(t) is the larger root of the quadratic polynomial sQ(s;t)=s2+2(+1)t2s-1t2-, so by Lemma 4, for any function s(t) with Q(s(t),t)<0 for all t>0.
 0.888	[*A*]UK[*R*]is[*A*]the larger root of the quadratic polynomial sQ	context()	negated: False ,passive: True
-[LINE#75]Consider s(t)=G,+2(t)/t, and write =+2.
-[LINE#76]Then Q(s(t),t)<0 iff 1(+t2+2)2+2(+1)t21+t2+2<1t2+, which in turn is equivalent to (1+t2)(+t2+2)2-2(+1)(+t2+2)-t2>0.
+[LINE#99] Consider s(t)=G,+2(t)/t, and write =+2.
+[LINE#100] Then Q(s(t),t)<0 iff 1(+t2+2)2+2(+1)t21+t2+2<1t2+, which in turn is equivalent to (1+t2)(+t2+2)2-2(+1)(+t2+2)-t2>0.
 0.992	[*A*]Then Q(s(t),t)<0 iff 1(+t2+2)2+2(+1)t21+t2+2<1t2+[*R*]is[*A*]equivalent to (1+t2	context()	negated: False ,passive: True
-[LINE#77] so that t0 iff >0,t2=(+)2-2=(+2),+t2+2=2(+1)+, and the inequality becomes 0<P()=4+(4(+1)+2)3+(1+8(+1)+4(+1)2-1)2+(4(+1)+8(+1)2-2(+1)-2)+(4(+1)2-4(+1)2).
+[LINE#101+102]  so that t0 iff >0,t2=(+)2-2=(+2),+t2+2=2(+1)+, and the inequality becomes 0<P()=4+(4(+1)+2)3+(1+8(+1)+4(+1)2-1)2+(4(+1)+8(+1)2-2(+1)-2)+(4(+1)2-4(+1)2).
 0.859	[*A*]the inequality[*R*]becomes[*A*]0 < P ( ) =4+[*A*]that t0 iff > 0	context()	negated: False ,passive: True
-[LINE#78]The coefficient of the linear term is 0, so that P()=2(2+(4(+1)+2)+(8(+1)+4(+1)2)) and for >-1 we have P()>0 for >0.
+[LINE#103] The coefficient of the linear term is 0, so that P()=2(2+(4(+1)+2)+(8(+1)+4(+1)2)) and for >-1 we have P()>0 for >0.
 0.452	[*A*]we[*R*]have[*A*]P	context()	negated: False ,passive: False
 0.865	[*A*]The coefficient of the linear term[*R*]is[*A*]0	context()	negated: False ,passive: True
-[LINE#79]Thus, G,+2(t)/t<UK(t) for all t>0.
-[LINE#80] +2(t)t<-+1t2+(+1)2t4+1t2+14(+1)2(+2).Hence, the upper bound in Kokologiannaki [3, Theorem 2.1] is strictly weaker than the bound f(t)=R(t)/t<G,+2(t)/t.
+[LINE#104] Thus, G,+2(t)/t<UK(t) for all t>0.
+[LINE#105+106]  +2(t)t<-+1t2+(+1)2t4+1t2+14(+1)2(+2).Hence, the upper bound in Kokologiannaki [3, Theorem 2.1] is strictly weaker than the bound f(t)=R(t)/t<G,+2(t)/t.
 0.934	[*A*]Theorem 2.1[*R*]is[*A*]strictly weaker than +2 ( t ) / t	context()	negated: False ,passive: True
 0.934	[*A*]Theorem 2.1[*R*]is[*A*]strictly weaker than / t < G	context()	negated: False ,passive: True
 0.934	[*A*]Theorem 2.1[*R*]is[*A*]strictly weaker than the bound f	context()	negated: False ,passive: True
-[LINE#81]The various results can be summarized as follows: the "best" (in the sense of not being uniformly weaker than other) Amos-type bounds for R currently available are G+1/2,+3/2<R,-1,R<G,+2,-1,R<G+1/2,(+1/2)(+3/2),>0,R<G+1/2,+1/2,-1/20.
+[LINE#107] The various results can be summarized as follows: the "best" (in the sense of not being uniformly weaker than other) Amos-type bounds for R currently available are G+1/2,+3/2<R,-1,R<G,+2,-1,R<G+1/2,(+1/2)(+3/2),>0,R<G+1/2,+1/2,-1/20.
 0.718	[*A*]The various results[*R*]follows	context()	negated: False ,passive: False
 0.783	[*A*]The various results[*R*]can be summarized[*A*]as follows	context()	negated: False ,passive: True
-[LINE#82],):+1/2,+2(+1),0}and G+1/2,+3/2 is the maximum of the family GL of lower Amos-type bounds for R.
+[LINE#108] ,):+1/2,+2(+1),0}and G+1/2,+3/2 is the maximum of the family GL of lower Amos-type bounds for R.
 0.918	[*A*]+3/2[*R*]is[*A*]the maximum of the family	context()	negated: False ,passive: True
-[LINE#83] ProofWe already know that for -1,G+1/2,+3/2.
+[LINE#109]  ProofWe already know that for -1,G+1/2,+3/2.
 0.890	[*A*]ProofWe[*R*]know[*A*]already	context()	negated: False ,passive: False
-[LINE#84]By Theorem 1, G,R is only possible if +2(+1)=(+1/2)+(+3/2) and +1/2.
+[LINE#110] By Theorem 1, G,R is only possible if +2(+1)=(+1/2)+(+3/2) and +1/2.
 0.852	[*A*]R[*R*]is[*A*]only possible +1/2	context()	negated: False ,passive: True
 0.671	[*A*]R[*R*]is[*A*]only possible if	context()	negated: False ,passive: True
-[LINE#85]If <+3/2, Lemma 3 implies that G,<G+1/2,+3/2.
+[LINE#111] If <+3/2, Lemma 3 implies that G,<G+1/2,+3/2.
 0.847	[*A*]Lemma 3[*R*]implies[*A*]that G,<G+1/2	context()	negated: False ,passive: False
-[LINE#86]Otherwise, we trivially have G,G,+3/2G+1/2,+3/2.
+[LINE#112] Otherwise, we trivially have G,G,+3/2G+1/2,+3/2.
 0.456	[*A*]we[*R*]have[*A*]G,G,+3/2G+1/2	context()	negated: False ,passive: False
-[LINE#87]Theorem 4For -1,U is a closed convex set.
+[LINE#113] Theorem 4For -1,U is a closed convex set.
 0.887	[*A*]U[*R*]is[*A*]a closed convex set	context()	negated: False ,passive: True
-[LINE#88] ProofFor fixed t>0,(,)h,(t) is continuous, linear in , and satisfies,(t)2=(t2+2)-1/2-2(t2+2)-3/2=t2(t2+2)-3/20 and is thus convex.
+[LINE#114+115]  ProofFor fixed t>0,(,)h,(t) is continuous, linear in , and satisfies,(t)2=(t2+2)-1/2-2(t2+2)-3/2=t2(t2+2)-3/20 and is thus convex.
 0.938	[*A*]ProofFor[*R*]is[*A*]thus[*A*]convex	context()	negated: False ,passive: True
 0.771	[*A*]ProofFor[*R*]satisfies[*A*]2=	context()	negated: False ,passive: False
 0.915	[*A*]ProofFor fixed t > 0 , ( , ) h[*R*]is[*A*]continuous , linear in	context()	negated: False ,passive: True
-[LINE#89]By Theorem 1, G,R is only possible when +0, for which it is equivalent to h,v.
+[LINE#116] By Theorem 1, G,R is only possible when +0, for which it is equivalent to h,v.
 0.522	[*A*]it[*R*]is[*A*]equivalent to h	context()	negated: False ,passive: True
 0.671	[*A*]R[*R*]is[*A*]only possible[*A*]when +0	context()	negated: False ,passive: True
-[LINE#90]Hence, U=t>0{(,):h,(t)v(t)} is the intersection of closed convex sets, and thus a closed convex set.Let V()={:(,)U}()=supV()=sup{:V()0}.
+[LINE#117] Hence, U=t>0{(,):h,(t)v(t)} is the intersection of closed convex sets, and thus a closed convex set.Let V()={:(,)U}()=supV()=sup{:V()0}.
 0.940	[*A*]U=t>0[*R*]is[*A*]the intersection of closed convex sets	context()	negated: False ,passive: True
-[LINE#91] As limG,(t)=0 for t>0, clearly ()< for -1.Theorem):,max(0,-)()},with  continuous, decreasing and concave.
-[LINE#92]Thus, as h, is continuous and increasing in , if V() is non-empty, it is the closed interval [max(0,-),()].
+[LINE#118+119]  As limG,(t)=0 for t>0, clearly ()< for -1.Theorem):,max(0,-)()},with  continuous, decreasing and concave.
+[LINE#120] Thus, as h, is continuous and increasing in , if V() is non-empty, it is the closed interval [max(0,-),()].
 0.457	[*A*]it[*R*]is[*A*]the closed interval	context()	negated: False ,passive: True
 0.700	[*A*]V[*R*]is[*A*]non-empty	context()	negated: False ,passive: True
-[LINE#93] G, for all >0, so  must be decreasing as long as V().
-[LINE#94]If n,n=(n) is decreasing and non-negative and thus must have a finite limit .
+[LINE#121]  G, for all >0, so  must be decreasing as long as V().
+[LINE#122] If n,n=(n) is decreasing and non-negative and thus must have a finite limit .
 0.858	[*A*]n= ( n[*R*]must have[*A*]a finite limit	context()	negated: False ,passive: False
 0.489	[*A*]n=[*R*]n is decreasing	context()	negated: False ,passive: False
-[LINE#95] Taking limits in n+n0 and hn,nv implies that +0 and h,v.
+[LINE#123+124]  Taking limits in n+n0 and hn,nv implies that +0 and h,v.
 0.550	[*A*]nv[*R*]implies[*A*]that h	context()	negated: False ,passive: False
 0.550	[*A*]nv[*R*]implies[*A*]that +0	context()	negated: False ,passive: False
-[LINE#96]As U=V(), the first assertion follows.
+[LINE#125] As U=V(), the first assertion follows.
 0.751	[*A*]the first assertion[*R*]follows	context()	negated: False ,passive: False
-[LINE#97]Finally, as U is closed and convex,  must be continuous and concave.
+[LINE#126] Finally, as U is closed and convex,  must be continuous and concave.
 0.818	[*A*]convex[*R*]must be[*A*]concave[*A*]Finally	context()	negated: False ,passive: True
 0.818	[*A*]convex[*R*]must be[*A*]continuous[*A*]Finally	context()	negated: False ,passive: True
 0.634	[*A*]U[*R*]is closed	context()	negated: False ,passive: False
-[LINE#98]By Theorem 1, G,R is only possible if +2(+1)=+(+2) so that ()2(+1)-.
+[LINE#127] By Theorem 1, G,R is only possible if +2(+1)=+(+2) so that ()2(+1)-.
 0.671	[*A*]R[*R*]is[*A*]only possible	context()	negated: False ,passive: True
-[LINE#99]and >0, h,(t)=2(+1)+t22+O(t4),t0 by Eq.
-[LINE#100](2) shows that h,v is only possible if in fact +2>0, or equivalently, if 2(+1)-(+2)=.
+[LINE#128] and >0, h,(t)=2(+1)+t22+O(t4),t0 by Eq.
+[LINE#129] (2) shows that h,v is only possible if in fact +2>0, or equivalently, if 2(+1)-(+2)=.
 0.620	[*A*]v[*R*]is[*A*]only possible	context(2 shows)	negated: False ,passive: True
 0.168	[*A*]2[*R*]shows[*A*]that h	context()	negated: False ,passive: False
-[LINE#101] For <, Lemma 3 implies that G,2(+1)->G,+2R, so that indeed ()=2(+1)-..
+[LINE#130]  For <, Lemma 3 implies that G,2(+1)->G,+2R, so that indeed ()=2(+1)-..
 0.708	[*A*]Lemma 3[*R*]implies indeed	context()	negated: False ,passive: False
-[LINE#102]Let Q,(s)=2+(2(+1)-2-2)s+2(+1/2-)s2.Lemma 5Let =v-h, .
-[LINE#103],(t2+2)t2+2+(2(+1)-v(t)-h,(t))(t).ProofAs shown in Simpson and Spector [9], v satisfies the Riccati equation tv(t)=t2+2(+1)v(t)-v(t)2 and clearly, h,(t)=t/t2+2.
-[LINE#104] Hence, as v2=h2+(v2-h2)=h2+(v-h)(v+h), tv(t)=t2+2(+1)((t)+h,(t))-(h,(t)2+(t)(v(t)+h,(t)))=t2+2(+1)h,(t)-h,(t)2+(2(+1)-v(t)-h,(t))(t) with t2+2(+1)h,(t)-h,(t)2=t2+2(+1)(+t2+2)-(2 +2t2+2+t2+2)=2(+1)-2-2+2(+1-)t2+2 so that t2+2(+1)h,(t)-h,(t)2-t2t2+2=(2(+1)-2-2)t2+2+2(+1-)(t2+2)-t2t2+2=Q,(t2+2)t2+2, whence the lemma.
-[LINE#105]  equals +1/2 for -1/2 and 2+1 otherwise), and for -1 2-2=2(+1/2-)+(+1)(2+1-)(where the second expressions shows that  is well-defined).Lemma 6Let -1 .
+[LINE#131] Let Q,(s)=2+(2(+1)-2-2)s+2(+1/2-)s2.Lemma 5Let =v-h, .
+[LINE#132] ,(t2+2)t2+2+(2(+1)-v(t)-h,(t))(t).ProofAs shown in Simpson and Spector [9], v satisfies the Riccati equation tv(t)=t2+2(+1)v(t)-v(t)2 and clearly, h,(t)=t/t2+2.
+[LINE#133+134+135]  Hence, as v2=h2+(v2-h2)=h2+(v-h)(v+h), tv(t)=t2+2(+1)((t)+h,(t))-(h,(t)2+(t)(v(t)+h,(t)))=t2+2(+1)h,(t)-h,(t)2+(2(+1)-v(t)-h,(t))(t) with t2+2(+1)h,(t)-h,(t)2=t2+2(+1)(+t2+2)-(2 +2t2+2+t2+2)=2(+1)-2-2+2(+1-)t2+2 so that t2+2(+1)h,(t)-h,(t)2-t2t2+2=(2(+1)-2-2)t2+2+2(+1-)(t2+2)-t2t2+2=Q,(t2+2)t2+2, whence the lemma.
+[LINE#136+137+138]   equals +1/2 for -1/2 and 2+1 otherwise), and for -1 2-2=2(+1/2-)+(+1)(2+1-)(where the second expressions shows that  is well-defined).Lemma 6Let -1 .
 0.054	[*A*]that[*R*]is[*A*]well - defined	context(the second expressions shows)	negated: False ,passive: True
 0.574	[*A*]the second expressions[*R*]shows[*A*]that is well - defined	context()	negated: False ,passive: False
-[LINE#106] Then  is strictly concave with  equals (+1/2)(+3/2) if -1/2is non-negative and decreasing.
-[LINE#107]ProofThe assertions about the values of  at  and  are straightforward.
+[LINE#139+140+141]  Then  is strictly concave with  equals (+1/2)(+3/2) if -1/2is non-negative and decreasing.
+[LINE#142] ProofThe assertions about the values of  at  and  are straightforward.
 0.759	[*A*]ProofThe assertions about the values of[*R*]at are[*A*]straightforward	context()	negated: False ,passive: True
-[LINE#108]and there is nothing left to prove.
+[LINE#143] and there is nothing left to prove.
 0.732	[*A*]nothing left[*R*]to prove	context()	negated: False ,passive: False
 0.798	[*A*]nothing[*R*]left[*A*]to prove	context()	negated: False ,passive: True
-[LINE#109] The second derivative of f() is given by d2f()d2=.
+[LINE#144]  The second derivative of f() is given by d2f()d2=.
 0.927	[*A*]The second derivative of f[*R*]is given[*A*]by d2f()d2=	context()	negated: False ,passive: True
-[LINE#110] For f1()=2(+1/2-) and f2()=2+1+ we have f1()=-2,f1()=0,f2()=2(-) and f2()=-2, giving numerators -2 and -2(2+1 is the sum of two strictly concave functions, and thus strictly concave.
+[LINE#145+146+147]  For f1()=2(+1/2-) and f2()=2+1+ we have f1()=-2,f1()=0,f2()=2(-) and f2()=-2, giving numerators -2 and -2(2+1 is the sum of two strictly concave functions, and thus strictly concave.
 0.918	[*A*]2+1[*R*]is[*A*]the sum of two strictly concave functions	context()	negated: False ,passive: True
 0.225	[*A*]we[*R*]have[*A*]f1()=-2,f1	context()	negated: False ,passive: False
-[LINE#111]Clearly, d()d=-12+1-2+-2+1+2-2 with value -1 at =.
-[LINE#112]By strict concavity, the derivative of  is decreasing, and hence less than -1 for >, so that the derivative of f()=+() is negative for > and f is decreasing.
+[LINE#148] Clearly, d()d=-12+1-2+-2+1+2-2 with value -1 at =.
+[LINE#149] By strict concavity, the derivative of  is decreasing, and hence less than -1 for >, so that the derivative of f()=+() is negative for > and f is decreasing.
 0.133	[*A*]f[*R*]decreasing	context()	negated: False ,passive: False
 0.829	[*A*]the derivative of f[*R*]is[*A*]negative for >	context()	negated: False ,passive: True
 0.785	[*A*]the derivative of is decreasing[*R*]is decreasing	context()	negated: False ,passive: False
-[LINE#113]It remains to show that f()0.
+[LINE#150] It remains to show that f()0.
 0.266	[*A*]It[*R*]remains[*A*]to show that f()0	context()	negated: False ,passive: True
-[LINE#114]If -1/2, this is immediate from =+1/20.
+[LINE#151] If -1/2, this is immediate from =+1/20.
 0.449	[*A*]this[*R*]is[*A*]immediate from =+1/20	context()	negated: False ,passive: True
-[LINE#115] Otherwise, =2+1<0 and f()=2+1-(2+1), which is non-negative as 0-(2+1)1.
+[LINE#152+153]  Otherwise, =2+1<0 and f()=2+1-(2+1), which is non-negative as 0-(2+1)1.
 0.954	[*A*]Otherwise , f ( ) =2+1 - ( 2+1[*R*]is[*A*]non-negative as 0 - ( 2+1 ) 1	context()	negated: False ,passive: True
 0.961	[*A*]Otherwise , =2+1 < 0 ( ) =2+1 - ( 2+1[*R*]is[*A*]non-negative as 0 - ( 2+1 ) 1	context()	negated: False ,passive: True
-[LINE#116]ProofThe proof will be based on the ideas of Simpson and Spector [9].
+[LINE#154] ProofThe proof will be based on the ideas of Simpson and Spector [9].
 0.918	[*A*]ProofThe proof[*R*]will be based[*A*]on the ideas of Spector [ 9	context()	negated: False ,passive: True
 0.918	[*A*]ProofThe proof[*R*]will be based[*A*]on the ideas of Simpson	context()	negated: False ,passive: True
-[LINE#117] Suppose  is sufficiently often continuously differentiable on [0,) with (0)>0. Suppose that for all t>0,(t)=0 implies that there exists a suitable odd ksuch that (l)(t)=0 for l<k and (k)(t)>0.
+[LINE#155+156]  Suppose  is sufficiently often continuously differentiable on [0,) with (0)>0. Suppose that for all t>0,(t)=0 implies that there exists a suitable odd ksuch that (l)(t)=0 for l<k and (k)(t)>0.
 0.359	[*A*]Suppose[*R*]is[*A*]sufficiently often[*A*]continuously differentiable	context()	negated: False ,passive: True
-[LINE#118] Then (t)0 for all t0, as otherwise for s=inf{t>0:(t)=0} we would have (s-)=(k)(s)(-)k/k!<0 for all sufficiently small >0 and a suitable s(s-,s), which is impossible.
+[LINE#157+158]  Then (t)0 for all t0, as otherwise for s=inf{t>0:(t)=0} we would have (s-)=(k)(s)(-)k/k!<0 for all sufficiently small >0 and a suitable s(s-,s), which is impossible.
 0.802	[*A*]a suitable s[*R*]is[*A*]impossible	context()	negated: False ,passive: True
 0.812	[*A*]t ) =0[*R*]would have[*A*]we	context()	negated: False ,passive: True
-[LINE#119] In our case, =v-h,, where  and we already know for -1 that.
+[LINE#159+160]  In our case, =v-h,, where  and we already know for -1 that.
 0.999	[*A*]we[*R*]know[*A*]-1	context()	negated: False ,passive: False
 0.247	[*A*]we[*R*]know[*A*]for -1 that[*A*]In our case[*A*]already	context()	negated: False ,passive: False
-[LINE#120]By Lemma 6, +() is decreasing and hence maximal for = with value 2(+1).
+[LINE#161] By Lemma 6, +() is decreasing and hence maximal for = with value 2(+1).
 0.899	[*A*]+[*R*]is decreasing[*A*]By Lemma 6	context()	negated: False ,passive: False
-[LINE#121]Thus, for > we have +()<2(+1), or equivalently, (0)>0.Write s(t)=t2+2.
+[LINE#162] Thus, for > we have +()<2(+1), or equivalently, (0)>0.Write s(t)=t2+2.
 0.302	[*A*]we[*R*]have +[*A*]for >	context()	negated: False ,passive: False
-[LINE#122] If =+1/2, which is only possible if -1/2, we have =(+1/2)(+3/2) and Q,=.
+[LINE#163]  If =+1/2, which is only possible if -1/2, we have =(+1/2)(+3/2) and Q,=.
 0.786	[*A*]If =+1/2[*R*]is[*A*]only possible	context()	negated: False ,passive: True
-[LINE#123] If =-1/2, we already know that R-1/2=.
+[LINE#164]  If =-1/2, we already know that R-1/2=.
 0.376	[*A*]we[*R*]know[*A*]that R-1/2=[*A*]already	context()	negated: False ,passive: False
-[LINE#124]If (t)=0 for some t>0, Lemma 5 implies that (t)=2/(ts(t))>0, completing the proof for this case.
+[LINE#165] If (t)=0 for some t>0, Lemma 5 implies that (t)=2/(ts(t))>0, completing the proof for this case.
 0.619	[*A*]Lemma 5[*R*]implies[*A*]that	context()	negated: False ,passive: False
-[LINE#125]Hence, consider the case where <<+1/2.
-[LINE#126] Solving Q,(s)=0 has discriminant (2(+1)-2-2)2-8(+1/2-)2=(2(+1)-2-2the larger root of the first factor.
-[LINE#127] Hence, the discriminant vanishes, and with =-2(+1)-2-24(+1/2-)=22+1-24(+1/2-)=2+1-2>0 we have Q,(s)=(s-)2, where =2+1-2>0.If (t)=0 for some t>0, Lemma 5 implies that t(t)=Q,(s(t))/s(t).
+[LINE#166] Hence, consider the case where <<+1/2.
+[LINE#167+168]  Solving Q,(s)=0 has discriminant (2(+1)-2-2)2-8(+1/2-)2=(2(+1)-2-2the larger root of the first factor.
+[LINE#169+170]  Hence, the discriminant vanishes, and with =-2(+1)-2-24(+1/2-)=22+1-24(+1/2-)=2+1-2>0 we have Q,(s)=(s-)2, where =2+1-2>0.If (t)=0 for some t>0, Lemma 5 implies that t(t)=Q,(s(t))/s(t).
 0.788	[*A*]Lemma 5[*R*]implies	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]have[*A*]Q	context()	negated: False ,passive: False
-[LINE#128]If s(t),Q,(s(t))>0, and the proof is complete.
+[LINE#171] If s(t),Q,(s(t))>0, and the proof is complete.
 0.813	[*A*]the proof[*R*]is[*A*]complete	context()	negated: False ,passive: True
-[LINE#129] Otherwise, use Lemma 5 to write t(t)=(t)+(t)(t), where (t)=(s(t)-)2/s(t)=(s(t)-2+2s(t)) so that (t)=(s(t)-2s(t)/s(t)2) and (t)=(s(t)-2(s(t)s(t)2-2s(t)2s(t)3)).
-[LINE#130]If s(t)=,(t)=0 and (t)=2s(t)2/>0.
-[LINE#131] Differentiation gives (t)+t(t)=(t)+(t)(t)+(t)(t) and 2(t)+t(t)=(t)+(t)(t)+2(t)(t)+(t)(t), so that if s(t)=,(t)=(t)=(t)=0 and (t)=(t)/t>0, andthe proof is complete.Theorem 8Let -1 .
+[LINE#172+173]  Otherwise, use Lemma 5 to write t(t)=(t)+(t)(t), where (t)=(s(t)-)2/s(t)=(s(t)-2+2s(t)) so that (t)=(s(t)-2s(t)/s(t)2) and (t)=(s(t)-2(s(t)s(t)2-2s(t)2s(t)3)).
+[LINE#174] If s(t)=,(t)=0 and (t)=2s(t)2/>0.
+[LINE#175+176]  Differentiation gives (t)+t(t)=(t)+(t)(t)+(t)(t) and 2(t)+t(t)=(t)+(t)(t)+2(t)(t)+(t)(t), so that if s(t)=,(t)=(t)=(t)=0 and (t)=(t)/t>0, andthe proof is complete.Theorem 8Let -1 .
 0.937	[*A*]andthe proof[*R*]is[*A*]complete.Theorem 8Let - 1	context()	negated: False ,passive: True
 0.876	[*A*]Differentiation[*R*]gives[*A*]t	context()	negated: False ,passive: False
-[LINE#132]Then the elements of {G,():} are mutually incomparable.
+[LINE#177] Then the elements of {G,():} are mutually incomparable.
 0.900	[*A*]the elements of {G[*R*]are[*A*]mutually incomparable[*A*]Then	context()	negated: False ,passive: True
-[LINE#133]() is decreasing, whence the result by using Lemma 3.
+[LINE#178] () is decreasing, whence the result by using Lemma 3.
 0.855	[*A*]()[*R*]is decreasing[*A*]whence the result[*A*]by using Lemma 3	context()	negated: False ,passive: True
-[LINE#134] Theorem 9For -1/2,=+1/2 and(+1/2)=.
-[LINE#135]For arbitrary , G+1/2,=1-+1/2t+2(+1/2)2-22t2+O(t-3),t by Eq.
-[LINE#136](1) shows that G+1/2,R is only possible if 2(+1/2)2-2(+1/2)(-1/2), or equivalently, if 22(+1/2)2-(+1/2)(-1/2)=(+1/2)(+3/2).
+[LINE#179]  Theorem 9For -1/2,=+1/2 and(+1/2)=.
+[LINE#180] For arbitrary , G+1/2,=1-+1/2t+2(+1/2)2-22t2+O(t-3),t by Eq.
+[LINE#181] (1) shows that G+1/2,R is only possible if 2(+1/2)2-2(+1/2)(-1/2), or equivalently, if 22(+1/2)2-(+1/2)(-1/2)=(+1/2)(+3/2).
 0.839	[*A*]G+1/2,R[*R*]is[*A*]only possible	context(1 shows)	negated: False ,passive: True
 0.280	[*A*]1[*R*]shows[*A*]that G+1/2,R is only possible if 2(+1/2)2-2(+1/2)(-1/2), or equivalently, if 22(+1/2)2-(+1/2)(-1/2)=(+1/2	context()	negated: False ,passive: False
-[LINE#137] For <-1/2, the upper bound is negative, so that G+1/2,R is impossible for all 0 and hence.
+[LINE#182]  For <-1/2, the upper bound is negative, so that G+1/2,R is impossible for all 0 and hence.
 0.828	[*A*]G+1/2 , R[*R*]is[*A*]impossible[*A*]for all hence	context()	negated: False ,passive: True
 0.934	[*A*]the upper bound[*R*]is[*A*]negative[*A*]so that G+1/2 , R is impossible for all hence[*A*]For < - 1/2	context()	negated: False ,passive: True
 0.828	[*A*]G+1/2 , R[*R*]is[*A*]impossible[*A*]for all 0	context()	negated: False ,passive: True
 0.934	[*A*]the upper bound[*R*]is[*A*]negative[*A*]so that G+1/2 , R is impossible for all 0[*A*]For < - 1/2	context()	negated: False ,passive: True
-[LINE#138]For 1/2, the condition is equivalent to .
+[LINE#183] For 1/2, the condition is equivalent to .
 0.886	[*A*]the condition[*R*]is[*A*]equivalent to[*A*]For 1/2	context()	negated: False ,passive: True
-[LINE#139]that =+1/2 and (+1/2)=.
-[LINE#140]Theorem 10Let -1/2 and <<+1/2 .
-[LINE#141]Then there exists a unique positive t() at which G,() is tangent to R .
+[LINE#184] that =+1/2 and (+1/2)=.
+[LINE#185] Theorem 10Let -1/2 and <<+1/2 .
+[LINE#186] Then there exists a unique positive t() at which G,() is tangent to R .
 0.836	[*A*]G[*R*]is[*A*]tangent to R	context()	negated: False ,passive: True
-[LINE#142]The map t() is continuous and increasing on (,+1/2), with lim+t()=0 and lim+1/2-t()=.ProofWrite =().
+[LINE#187] The map t() is continuous and increasing on (,+1/2), with lim+t()=0 and lim+1/2-t()=.ProofWrite =().
 0.944	[*A*]The map t[*R*]is increasing[*A*]on ( , +1/2 ) , with lim+t ( ) lim+1/2 - t ( ) = . ProofWrite	context()	negated: False ,passive: True
 0.718	[*A*]The map t[*R*]is increasing	context()	negated: False ,passive: False
 0.802	[*A*]The map t[*R*]is[*A*]continuous ( , +1/2	context()	negated: False ,passive: True
-[LINE#143]By Theorem 6, we can find >0 such that 2(+1)--.
+[LINE#188] By Theorem 6, we can find >0 such that 2(+1)--.
 0.225	[*A*]we[*R*]can find[*A*]>	context()	negated: False ,passive: False
-[LINE#144] Using Lemma 3 and the fact that (+1/2)(+3/2)for 0<tt1 and G,(t)G+1/2,(+1/2)(+3/2)(t)>R(t) for tt2.
-[LINE#145]If G,>R, we have for all >0 sufficiently small that G,+(t)R(t) for t1tt2.
-[LINE#146]By the above, the same holds true for 0<tt1 and tt2.
-[LINE#147]for all >0 sufficiently small, which contradicts the maximality of .
+[LINE#189+190]  Using Lemma 3 and the fact that (+1/2)(+3/2)for 0<tt1 and G,(t)G+1/2,(+1/2)(+3/2)(t)>R(t) for tt2.
+[LINE#191] If G,>R, we have for all >0 sufficiently small that G,+(t)R(t) for t1tt2.
+[LINE#192] By the above, the same holds true for 0<tt1 and tt2.
+[LINE#193] for all >0 sufficiently small, which contradicts the maximality of .
 0.574	[*A*]>0 sufficiently small[*R*]contradicts[*A*]the maximality of	context()	negated: False ,passive: False
-[LINE#148]Thus, there must be at least one t>0 such that G,(t)=R(t), and clearly, the derivatives must agree at t as otherwise G, could not be an upper bound for R.
+[LINE#194] Thus, there must be at least one t>0 such that G,(t)=R(t), and clearly, the derivatives must agree at t as otherwise G, could not be an upper bound for R.
 0.857	[*A*]G[*R*]could not be[*A*]an upper bound for R.	context()	negated: True ,passive: True
 0.903	[*A*]the derivatives[*R*]must agree[*A*]at t	context()	negated: False ,passive: False
-[LINE#149]Equivalently, h, must be tangent to v at t.
+[LINE#195] Equivalently, h, must be tangent to v at t.
 0.565	[*A*]h[*R*]must be[*A*]tangent to v[*A*]at	context()	negated: False ,passive: True
-[LINE#150] By Lemma 5, this is the case iff t solves Q,(t2+2)=0, from which we infer that t=t() is uniquely determined and continuous as a function of .
+[LINE#196+197]  By Lemma 5, this is the case iff t solves Q,(t2+2)=0, from which we infer that t=t() is uniquely determined and continuous as a function of .
 0.836	[*A*]t=t[*R*]is[*A*]continuous as a function of	context(we infer)	negated: False ,passive: True
 0.309	[*A*]we[*R*]infer[*A*]that t=t ( ) is continuous as a function of	context()	negated: False ,passive: False
 0.385	[*A*]this[*R*]is the case iff[*A*]t	context()	negated: False ,passive: False
 0.642	[*A*]t=t[*R*]is[*A*]uniquely determined	context(we infer)	negated: False ,passive: True
 0.218	[*A*]we[*R*]infer[*A*]that t=t ( ) is uniquely determined	context()	negated: False ,passive: False
 0.495	[*A*]this[*R*]is[*A*]the case iff t solves Q	context()	negated: False ,passive: True
-[LINE#151] The limits for  from the right and+1/2 from the left are obvious.
+[LINE#198+199]  The limits for  from the right and+1/2 from the left are obvious.
 0.877	[*A*]The limits for  from the right and+1/2 from the left[*R*]are[*A*]obvious	context()	negated: False ,passive: True
-[LINE#152]To show that t is increasing, it suffices to show that it is injective.
+[LINE#200] To show that t is increasing, it suffices to show that it is injective.
 0.229	[*A*]it[*R*]is[*A*]injective	context(it suffices to show)	negated: False ,passive: True
 0.112	[*A*]it[*R*]suffices to show[*A*]that it is injective	context(it suffices)	negated: False ,passive: False
 0.112	[*A*]it[*R*]suffices[*A*]to show that it is injective	context()	negated: False ,passive: False
-[LINE#153]Hence, let <1<2<+1/2 and suppose that t(1)=t(2)=t.
-[LINE#154]Then with i=(i), the hi,i must have the same value and derivative at t, so that tt2+12=tt2+22, and hence 1=2, which is impossible as  is decreasing by Theorem 5.
+[LINE#201] Hence, let <1<2<+1/2 and suppose that t(1)=t(2)=t.
+[LINE#202] Then with i=(i), the hi,i must have the same value and derivative at t, so that tt2+12=tt2+22, and hence 1=2, which is impossible as  is decreasing by Theorem 5.
 0.342	[*A*]hence 1=2[*R*]is[*A*]impossible	context()	negated: False ,passive: True
-[LINE#155] Then {G,():+1/2} are the minimal elements of the family GU of upper Amos-type bounds for R, andR():+1/2}.ProofLet t>0.
-[LINE#156] By Theorem 10, there exists a unique <<+1/2and hence R(t)=G,()(t), proving the second assertion.
+[LINE#203+204]  Then {G,():+1/2} are the minimal elements of the family GU of upper Amos-type bounds for R, andR():+1/2}.ProofLet t>0.
+[LINE#205+206]  By Theorem 10, there exists a unique <<+1/2and hence R(t)=G,()(t), proving the second assertion.
 0.927	[*A*]a unique <<+1/2and hence R[*R*]proving[*A*]the second assertion	context()	negated: False ,passive: False
-[LINE#157]Let 1<2+1/2 and i=(i).
-[LINE#158]If 1=, Theorem 6 shows that 2(+1)=1+1>2+2.
+[LINE#207] Let 1<2+1/2 and i=(i).
+[LINE#208] If 1=, Theorem 6 shows that 2(+1)=1+1>2+2.
 0.818	[*A*]Theorem 6[*R*]shows 2+2[*A*]that 2(+1)=1+1>	context()	negated: False ,passive: False
-[LINE#159]If 1> and 1+12+2, Lemma 3 implies that RG2,2<G1,1, which is impossible as by Theorem 10, G1,1 must be the only tangent to R at t(1).
+[LINE#209] If 1> and 1+12+2, Lemma 3 implies that RG2,2<G1,1, which is impossible as by Theorem 10, G1,1 must be the only tangent to R at t(1).
 0.963	[*A*]G1,1[*R*]must be[*A*]RG2,2 < G1,1 , which is impossible as by Theorem 10 , G1,1 must be the only tangent to R at t	context(Lemma 3 implies)	negated: False ,passive: True
 0.877	[*A*]Lemma 3[*R*]implies[*A*]that RG2,2 < G1,1 , which is impossible as by Theorem 10 , G1,1 must be the only tangent	context()	negated: False ,passive: False
 0.846	[*A*]RG2,2 < G1,1[*R*]is[*A*]impossible	context()	negated: False ,passive: True
@@ -380,66 +380,66 @@
 0.948	[*A*]G1,1[*R*]must be[*A*]the only tangent to R at t ( 1 )	context()	negated: False ,passive: True
 0.858	[*A*]that RG2,2 < G1,1[*R*]is[*A*]impossible	context()	negated: False ,passive: True
 0.847	[*A*]Lemma 3[*R*]implies[*A*]that RG2,2 < G1,1	context()	negated: False ,passive: False
-[LINE#160] Thus we always have 1+1>2+2, and again by Lemma 3, there always exists t= such that G1,1(s)<G2,2(s) for 0<s<t and G1,1(s)>G2,2(s).
+[LINE#210+211]  Thus we always have 1+1>2+2, and again by Lemma 3, there always exists t= such that G1,1(s)<G2,2(s) for 0<s<t and G1,1(s)>G2,2(s).
 0.107	[*A*]there[*R*]exists[*A*]always	context()	negated: False ,passive: True
 0.999	[*A*]we[*R*]have[*A*]1 + 1 > 2 + 2 g11	context()	negated: False ,passive: False
 0.305	[*A*]we[*R*]have[*A*]1+1[*A*]always	context()	negated: False ,passive: False
 0.999	[*A*]we[*R*]have[*A*]1 + 1 > 2 + 2 such	context()	negated: False ,passive: False
 0.305	[*A*]we[*R*]have[*A*]1+1 >[*A*]always	context()	negated: False ,passive: False
-[LINE#161] As G,()>G,+2=G,() for <and trivially G,G,() provided that (,)U, the first assertion follows, and the proof is complete.Finally, let us consider the cases where =-k is a negative integer.
+[LINE#212+213]  As G,()>G,+2=G,() for <and trivially G,G,() provided that (,)U, the first assertion follows, and the proof is complete.Finally, let us consider the cases where =-k is a negative integer.
 0.751	[*A*]the first assertion[*R*]follows	context()	negated: False ,passive: False
 0.706	[*A*]the first assertion[*R*]follows	context(G , +2=G , ( ) for trivially G provided)	negated: False ,passive: False
 0.831	[*A*]G , +2=G , ( ) for trivially G[*R*]provided	context()	negated: False ,passive: False
 0.813	[*A*]the proof[*R*]is[*A*]complete.Finally	context()	negated: False ,passive: True
 0.926	[*A*]= - k[*R*]is[*A*]a negative integer[*A*]the cases	context()	negated: False ,passive: True
 0.861	[*A*]> G , +2=G , ( ) for <[*R*]provided	context()	negated: False ,passive: False
-[LINE#162] As readily seen from the series expansion, I-k 12If k is a positive integer,U-k={(-,):k}and G-k,k is the minimum of the family GU of upper Amos-type bounds for R-k.
+[LINE#214+215+216]  As readily seen from the series expansion, I-k 12If k is a positive integer,U-k={(-,):k}and G-k,k is the minimum of the family GU of upper Amos-type bounds for R-k.
 0.706	[*A*]I - k 12If k[*R*]is[*A*]a positive integer	context(k is)	negated: False ,passive: True
 0.715	[*A*]I - k 12If k[*R*]is[*A*]a positive integer	context(k is)	negated: False ,passive: True
 0.899	[*A*]k[*R*]is[*A*]the minimum of the family GU of upper Amos - type bounds for R - k	context()	negated: False ,passive: True
-[LINE#163] ProofAs R-k>0 and has a pole at t=0, the same must be true for upper bounds.
+[LINE#217]  ProofAs R-k>0 and has a pole at t=0, the same must be true for upper bounds.
 0.568	[*A*]the same[*R*]must be[*A*]true[*A*]for upper bounds	context()	negated: False ,passive: True
 0.965	[*A*]ProofAs R-k[*R*]has[*A*]a pole at t=0, the same must be true for upper bounds.	context()	negated: False ,passive: False
-[LINE#164]G, of R-k, implying that necessarily +=0.
+[LINE#218] G, of R-k, implying that necessarily +=0.
 0.510	[*A*]G, of R-k[*R*]implying[*A*]that necessarily +=0	context()	negated: False ,passive: False
-[LINE#165]As G-,(t)=tt2+2-=t(t2+2+)(t2+2)-2=t2+2+t=1G,(t), we have 1/G,=G-,R-k=1/Rk-1 iff Rk-1G,, i.e., (,)Lk-1.
+[LINE#219] As G-,(t)=tt2+2-=t(t2+2+)(t2+2)-2=t2+2+t=1G,(t), we have 1/G,=G-,R-k=1/Rk-1 iff Rk-1G,, i.e., (,)Lk-1.
 0.516	[*A*]we[*R*]have G of[*A*]1 /	context()	negated: False ,passive: False
 0.498	[*A*]we[*R*]have[*A*]1/G	context()	negated: False ,passive: False
-[LINE#166] From the characterization of L for -1 (Theorem 3), this is possible iff k-1/2 and 22k, or equivalently,.
+[LINE#220]  From the characterization of L for -1 (Theorem 3), this is possible iff k-1/2 and 22k, or equivalently,.
 0.223	[*A*]this[*R*]is[*A*]possible	context()	negated: False ,passive: True
-[LINE#167] Theorem 13If k is a positive integer,L-k={(,):-(k-1/2),+0,0}and G-(k-1/2),k-1/2 is the maximum of the family GL of lower Amos-type bounds for R-k.
+[LINE#221+222]  Theorem 13If k is a positive integer,L-k={(,):-(k-1/2),+0,0}and G-(k-1/2),k-1/2 is the maximum of the family GL of lower Amos-type bounds for R-k.
 0.744	[*A*]13If k[*R*]is	context(k - 1/2 is)	negated: False ,passive: False
 0.908	[*A*]13If k[*R*]is[*A*]a positive integer	context(k - 1/2 is)	negated: False ,passive: True
 0.916	[*A*]k - 1/2[*R*]is[*A*]the maximum of the family	context()	negated: False ,passive: True
-[LINE#168] ProofFor lower bounds G, of R-k, we must have +0 by the usual arguments, and Theorem 1 implies that necessarily -k+1/2.
+[LINE#223+224]  ProofFor lower bounds G, of R-k, we must have +0 by the usual arguments, and Theorem 1 implies that necessarily -k+1/2.
 0.788	[*A*]Theorem 1[*R*]implies	context()	negated: False ,passive: False
-[LINE#169] On the other hand, we also know that Rk-1Gk-1/2,k-1/2, or equivalently, G-(k-1/2),k-1/2R-k, and the proof is complete.Note that for k=1, we already know by Theorem 3 that G-1+1/2,-1+ 3/2=G-1/2,1/2 is the greatest lower bound for R-1, and Theorem 6 yields that -1(-1)=1,so that G-1,1 is the least upper bound for R-1 with =-1.
+[LINE#225+226+227]  On the other hand, we also know that Rk-1Gk-1/2,k-1/2, or equivalently, G-(k-1/2),k-1/2R-k, and the proof is complete.Note that for k=1, we already know by Theorem 3 that G-1+1/2,-1+ 3/2=G-1/2,1/2 is the greatest lower bound for R-1, and Theorem 6 yields that -1(-1)=1,so that G-1,1 is the least upper bound for R-1 with =-1.
 0.550	[*A*]1/2[*R*]is[*A*]the greatest lower bound for R-1	context(we know)	negated: False ,passive: True
 0.472	[*A*]we[*R*]know[*A*]that G-1+1/2,-1+ 3/2=G-1/2,1/2 is the greatest lower bound for R-1, and Theorem 6 yields that -1(-1)=1[*A*]for k=1[*A*]already	context()	negated: False ,passive: False
 0.678	[*A*]the proof[*R*]is complete.Note	context(we know)	negated: False ,passive: False
 0.334	[*A*]we[*R*]know[*A*]that Rk-1Gk-1/2,k-1/2, or equivalently, G-(k-1/2),k-1/2R-k, and the proof is complete.Note	context()	negated: False ,passive: False
 0.665	[*A*]the greatest[*R*]bound[*A*]for R-1[*A*]lower	context()	negated: False ,passive: True
 0.967	[*A*]G-1,1[*R*]is[*A*]the least upper bound for R-1 with =-1	context()	negated: False ,passive: True
-[LINE#170]this paper, we systematically investigate lower and upper Amos-type bounds for R=I+1/I on the positive reals when R is positive, or equivalently, when -1 or  is a negative integer.
+[LINE#228] this paper, we systematically investigate lower and upper Amos-type bounds for R=I+1/I on the positive reals when R is positive, or equivalently, when -1 or  is a negative integer.
 0.671	[*A*]R[*R*]is[*A*]positive, or equivalently	context()	negated: False ,passive: True
 0.463	[*A*]we[*R*]systematically investigate[*A*]lower and upper Amos-type bounds for R=I+1/I on the positive reals when R is positive, or equivalently, when -1 or  is a negative integer	context()	negated: False ,passive: False
-[LINE#171] For -1, the set L of all (,) giving lower bounds G,R has a simple explicit description, and G+1/2,+3/2 is the maximum of the family GL of lower Amos-type bounds for R (Theorem 3).For -1, the set U of all (,) giving upper bounds.
+[LINE#229]  For -1, the set L of all (,) giving lower bounds G,R has a simple explicit description, and G+1/2,+3/2 is the maximum of the family GL of lower Amos-type bounds for R (Theorem 3).For -1, the set U of all (,) giving upper bounds.
 0.913	[*A*]the set U of all[*R*]giving[*A*]upper bounds	context()	negated: False ,passive: False
 0.956	[*A*]+3/2[*R*]is[*A*]the maximum of the family GL of lower Amos - type bounds for R	context()	negated: False ,passive: True
 0.917	[*A*]the set L of all[*R*]giving[*A*]lower bounds	context(R has)	negated: False ,passive: False
 0.877	[*A*]R[*R*]has[*A*]a simple explicit description , the set U of all ( , ) giving upper bounds	context()	negated: False ,passive: False
 0.905	[*A*]a simple explicit description[*R*]giving[*A*]upper bounds	context()	negated: False ,passive: False
-[LINE#172] G,R is of the form {(,):,max(0,-)()}, where +1/2 and  is continuous, decreasing and concave (.
+[LINE#230+231]  G,R is of the form {(,):,max(0,-)()}, where +1/2 and  is continuous, decreasing and concave (.
 0.321	[*A*]+1/2[*R*]is[*A*]continuous	context()	negated: False ,passive: True
 0.852	[*A*]R[*R*]is[*A*]of the form	context()	negated: False ,passive: True
-[LINE#173] Theorem 5), with ()=+2 and +()<2(+1) for >.
-[LINE#174] If -1/2, =+1/2 and (+1/2)=(+1/2)(+3/2) by Theorem 9, and the upper bounds in the family {G,(),+1/2} are tangent to R in exactly one point t() (Theorem 10, taking t()=0 and t(+1/2)=), and the minimal elements of the family GU of upper Amos-type bounds for R, with R as their lower envelope (Theorem 11).Thus, for -1, the pointwise maximum over all lower Amos-type bounds equals G+1/2,+3/2<R, and hence is always smaller than R.
+[LINE#232]  Theorem 5), with ()=+2 and +()<2(+1) for >.
+[LINE#233+234+235+236]  If -1/2, =+1/2 and (+1/2)=(+1/2)(+3/2) by Theorem 9, and the upper bounds in the family {G,(),+1/2} are tangent to R in exactly one point t() (Theorem 10, taking t()=0 and t(+1/2)=), and the minimal elements of the family GU of upper Amos-type bounds for R, with R as their lower envelope (Theorem 11).Thus, for -1, the pointwise maximum over all lower Amos-type bounds equals G+1/2,+3/2<R, and hence is always smaller than R.
 0.957	[*A*]the minimal elements of the family GU of upper Amos - type bounds for R , with R as their lower envelope[*R*]is[*A*]always[*A*]smaller than R.	context()	negated: False ,passive: True
 0.877	[*A*]+1/2[*R*]are[*A*]tangent to R in exactly one point t	context()	negated: False ,passive: True
 0.944	[*A*]+1/2 } +3/2 < R[*R*]is[*A*]always[*A*]smaller than R.	context()	negated: False ,passive: True
-[LINE#175]On the other hand, for -1/2, the pointwise minimum over all upper Amos-type bounds equals R.
+[LINE#237] On the other hand, for -1/2, the pointwise minimum over all upper Amos-type bounds equals R.
 0.971	[*A*]the pointwise minimum over all upper Amos-type bounds[*R*]equals[*A*]R.	context()	negated: False ,passive: True
-[LINE#176] =min(+1/2,2+1), Theorems 7 and 8 establish a family {G,(),} of explicitly computable, mutually incomparable upper bounds for R with  (+1/2)=(+1/2), and Theorem 7 extends the range of the bound G+1/2,(+1/2)(+3/2)R given in Simpson and Spector [9] from 0 to -1/2, and for -1/2< <0 dominates G+1/2,+1/2 as the best previously available upper bound with =(and hence first order exact as t).Finally, for the cases where =-k is a negative integer, Theorems 12 and 13 give explicit characterizations of U-k and L-k, and establish G-k,k and G-(k-1/2),k-1/2 as the least upper and greatest lower Amos-type bounds for R-k, respectively.
+[LINE#238+239+240+241+242]  =min(+1/2,2+1), Theorems 7 and 8 establish a family {G,(),} of explicitly computable, mutually incomparable upper bounds for R with  (+1/2)=(+1/2), and Theorem 7 extends the range of the bound G+1/2,(+1/2)(+3/2)R given in Simpson and Spector [9] from 0 to -1/2, and for -1/2< <0 dominates G+1/2,+1/2 as the best previously available upper bound with =(and hence first order exact as t).Finally, for the cases where =-k is a negative integer, Theorems 12 and 13 give explicit characterizations of U-k and L-k, and establish G-k,k and G-(k-1/2),k-1/2 as the least upper and greatest lower Amos-type bounds for R-k, respectively.
 0.698	[*A*]upper[*R*]bound[*A*]with = ( , for the cases where = - k is a negative integer , establish G - G - ( k - 1/2 ) , k - 1/2 as the greatest lower Amos - type bounds for R - k , respectively	context()	negated: False ,passive: True
 0.937	[*A*]Theorem 7[*R*]extends Finally[*A*]the range of the bound G+1/2	context()	negated: False ,passive: False
 0.927	[*A*]Theorems 13[*R*]give[*A*]explicit characterizations of L - k k - 1/2	context()	negated: False ,passive: False
@@ -458,15 +458,15 @@
 0.938	[*A*]Theorem 7[*R*]extends[*A*]the range of the bound G+1/2	context()	negated: False ,passive: False
 0.926	[*A*]= - k[*R*]is[*A*]a negative integer[*A*]the cases	context()	negated: False ,passive: True
 0.590	[*A*]upper[*R*]bound[*A*]with =	context()	negated: False ,passive: False
-[LINE#177]For -1<-1/2, the value of  is not known; the results in this paper imply that <+1/2.
+[LINE#243] For -1<-1/2, the value of  is not known; the results in this paper imply that <+1/2.
 0.707	[*A*]the value of[*R*]is not known	context(the results in this paper imply)	negated: True ,passive: False
 0.784	[*A*]the results in this paper[*R*]imply[*A*]that <+1/2	context()	negated: False ,passive: False
-[LINE#178]It is also not known whether in this case R can be obtained as the lower envelope of all upper Amos-type bounds.
+[LINE#244] It is also not known whether in this case R can be obtained as the lower envelope of all upper Amos-type bounds.
 0.920	[*A*]R[*R*]can be obtained[*A*]as the lower envelope of all upper Amos-type bounds[*A*]in this case	context(It not known)	negated: False ,passive: True
 0.136	[*A*]It[*R*]not known	context()	negated: True ,passive: False
 0.678	[*A*]It[*R*]is[*A*]also[*A*]not known whether in this case R can be obtained as the lower envelope of all upper Amos-type bounds	context()	negated: False ,passive: True
-[LINE#179]For =-1, this is certainly not the case (as G-1,1 is the uniformly smallest upper bound).
+[LINE#245] For =-1, this is certainly not the case (as G-1,1 is the uniformly smallest upper bound).
 0.844	[*A*]G-1,1[*R*]is	context()	negated: False ,passive: False
 0.463	[*A*]this[*R*]is not[*A*]the case[*A*]as G-1,1 is[*A*]For =-1	context()	negated: True ,passive: True
-[LINE#180]-1<<-1/2 deserves further investigation.
+[LINE#246] -1<<-1/2 deserves further investigation.
 0.592	[*A*]<-1/2[*R*]deserves[*A*]further investigation	context()	negated: False ,passive: False

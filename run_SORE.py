@@ -309,8 +309,10 @@ def main(all_settings):
                              number_of_clusters, STEMMING, STOPWORDS, SUBWORD_UNIT_COMBINATION, print_stats)
 
     if convert_back_to_BRAT:
-        # ToDo - change this! Should be the original dataset filename
-        dataset_paths = ['SORE/data/unprocessed_data/processed/' + d for d in narrowIE_input_files]
+        dataset_paths = []
+        for input_data_prefix in file_names:
+            dataset_paths += glob.glob('SORE/data/unprocessed_data/processed/{}*.json'.format(input_data_prefix))
+
         converter = SORE_to_BRAT.BratConverter(dataset_paths, combined_name, sore_output_dir, brat_output_dir)
         converter.convert_to_BRAT(prefix)
 

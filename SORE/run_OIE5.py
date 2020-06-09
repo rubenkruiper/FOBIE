@@ -22,12 +22,22 @@ class OpenIE5_client(object):
 
 
     def get_docid_from_filename(self, filename, output_name=False):
+        """
+        Find the document ID in the file_path, or the file_name itself.
+
+        :param filename: Path to file
+        :param output_name: Boolean - true = return filename, false = return doc ID
+        :return:
+        """
         if output_name:
             return self.oie_data_dir+'processed/'+filename.rsplit('/',maxsplit=1)[1][:-4]+'_processed.txt'
         return filename.rsplit('/',maxsplit=1)[1][:-4]
 
 
     def determine_in_and_output_files(self):
+        """
+        Determine pairs of OIE input filepaths and corresponding OIE output filepaths.
+        """
         input_files = glob.glob(self.oie_data_dir+'inputs/*.txt')
         docs_with_central_relations = []
         with open(self.csv_path, 'r') as csv_f:
@@ -55,6 +65,10 @@ class OpenIE5_client(object):
                                                     'arg2s': {'text': str},
         {'confidence' : x2, 'sentence': y, 'extraction: {}' },
          etc.. ]
+         The output format is a list of lines to write, e.g., "0.900 [*A*] arg1 [*R*] rel [*A*] arg2 [*A*] arg 3 etc.. context(...) negated: ..., passive: ..."
+
+        :param dict_list: Json dict with OIE extractions for a sentence.
+        :return: List of strings, each representing an extraction.
         """
         lines_to_write = []
 
@@ -78,6 +92,7 @@ class OpenIE5_client(object):
                 for arg in ex['arg2s']:
                     arg2s_string += "[*A*]{}".format(arg['text'])
 
+                # Output format:
                 line_to_write = "{:.3f}\t[*A*]{}[*R*]{}{}\tcontext({})\tnegated: {} ,passive: {}\n".format(
                     tuple['confidence'], ex['arg1']['text'],
                     ex['rel']['text'], arg2s_string,
@@ -92,6 +107,9 @@ class OpenIE5_client(object):
 
 
     def get_extractions(self):
+        """
+        Query the OpenIE 5 server running at port 8000, parse the extractions and write sentence and extractions to a file.
+        """
         os.chdir(self.current_pwd)
         extractor = OpenIE5('http://localhost:8000')
 
@@ -113,7 +131,9 @@ class OpenIE5_client(object):
                             pass
                         else:
                             number_of_lines += 1
-                            of.writelines('[LINE#{}]{}\n'.format(number_of_lines, line.rstrip()))
+                            # The sentence ID has to match the sentence ID of the narrow IE output
+                            sent_id, sent = line.split("] ", maxsplit=1)
+                            of.writelines('{}] {}\n'.format(sent_id, sent.rstrip()))
                             try:
                                 # OIE sometimes runs into issues,
                                 # JSON errors seem related to the presence of unicode characters in extractions.
@@ -123,7 +143,7 @@ class OpenIE5_client(object):
                                 # While the following does not throw and error - "Not all β-strands are an issue."
                                 # Avoiding JSON errors by loading files in ascii encoding with errors being ignored
                                 # Skipping the sentences that run into regex-type issues.
-                                extractions = extractor.extract(line.rstrip())
+                                extractions = extractor.extract(sent)
                                 stuff_to_write = self.parse_extractions(extractions)
                                 of.writelines(stuff_to_write)
                                 number_of_lines_processed += 1
@@ -139,6 +159,9 @@ class OpenIE5_client(object):
 
 
     def start_server(self):
+        """
+        Asks the user to start the OpenIE5 server at port 8000, providing the command and waiting for user input to continue.
+        """
         print("Starting server at port 8000")
         OIE_dir = self.path_to_OIE_jar.split('target')[0]
         os.chdir(OIE_dir)
@@ -148,6 +171,9 @@ class OpenIE5_client(object):
         ))
 
     def stop_server(self):
+        """
+        Once all Open IE extractions have been collected and written to files, the server is shut down.
+        """
         try:
             os.system("kill -9 `ps aux | grep 'java -Xmx10g -XX:+UseConcMarkSweepGC -jar "
                       + self.path_to_OIE_jar +
@@ -160,6 +186,14 @@ class OpenIE5_client(object):
 def run_OpenIE_5(csv_path,
                  path_to_OIE_jar=None,
                  unprocessed_paths='SORE/data/OpenIE/'):
+    """
+    To run OpenIE5 a local server has to be started and queried. Not sure if python's GIL allows running these from a single script.
+
+    :param csv_path: Path to the CSV with narrow IE predictions - only documents with extractions in the CSV will be fed to OIE.
+    :param path_to_OIE_jar: Path to the OpenIE5 jar file - can be adjusted in the settings file.
+    :param unprocessed_paths: Path where Open IE input files are written during data preparation.
+    """
+    current_pwd = os.getcwd()+'/'
     if path_to_OIE_jar == None:
         print("Change `path_to_OIE_jar` to the OpenIE 5 jar you have to assemble!")
     client = OpenIE5_client(csv_path, unprocessed_paths, path_to_OIE_jar)
@@ -171,3 +205,4 @@ def run_OpenIE_5(csv_path,
             pass
 
     client.stop_server()
+    os.chdir(current_pwd)

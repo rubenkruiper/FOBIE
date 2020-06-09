@@ -1,74 +1,74 @@
-[LINE#1]In the frame of the Land Use/Land Cover Area Frame Survey sampling of topsoil was carried out on around 22,000 points in 25 EU Member States in 2009 and in additional 2 Member States in 2012.
+[LINE#0] In the frame of the Land Use/Land Cover Area Frame Survey sampling of topsoil was carried out on around 22,000 points in 25 EU Member States in 2009 and in additional 2 Member States in 2012.
 0.993	[*A*]the frame of the Land Use / Land Cover Area Frame Survey sampling of topsoil[*R*]was carried in[*A*]25 eu member states	context()	negated: False ,passive: False
 0.963	[*A*]the frame of the Land Use / Land Cover Area Frame Survey[*R*]was carried out[*A*]on around 22,000 points[*A*]in 2012[*A*]In	context()	negated: False ,passive: True
 0.381	[*A*]States[*R*][is] Member [of][*A*]EU	context()	negated: False ,passive: False
 0.963	[*A*]the frame of the Land Use / Land Cover Area Frame Survey[*R*]was carried out[*A*]on around 22,000 points[*A*]in 2009[*A*]in 2012[*A*]In	context()	negated: False ,passive: True
 0.927	[*A*]the Land Use / Land Cover Area Frame Survey[*R*]sampling[*A*]of topsoil	context()	negated: False ,passive: False
-[LINE#2]Besides other basic soil properties soil phosphorus (P) content of the samples were also measured in a single laboratory in both years.
-[LINE#3]Based on the results of the LUCAS topsoil survey we performed an assessment of plant available P status of European croplands.
+[LINE#1] Besides other basic soil properties soil phosphorus (P) content of the samples were also measured in a single laboratory in both years.
+[LINE#2] Based on the results of the LUCAS topsoil survey we performed an assessment of plant available P status of European croplands.
 0.569	[*A*]we[*R*]performed[*A*]an assessment of plant available P status of European croplands	context()	negated: False ,passive: False
-[LINE#4]Higher P levels can be observed in regions where higher crop yields can be expected and where high fertilizer P inputs are reported.
+[LINE#3] Higher P levels can be observed in regions where higher crop yields can be expected and where high fertilizer P inputs are reported.
 0.961	[*A*]higher crop yields[*R*]can be expected[*A*]regions where higher crop yields can be expected and where high fertilizer P inputs are reported	context()	negated: False ,passive: True
 0.911	[*A*]Higher P levels[*R*]can be observed[*A*]in regions	context()	negated: False ,passive: True
-[LINE#5]Plant available phosphorus levels were determined using two selected fertilizer recommendation systems: one from Hungary and one from the United Kingdom.
+[LINE#4] Plant available phosphorus levels were determined using two selected fertilizer recommendation systems: one from Hungary and one from the United Kingdom.
 0.905	[*A*]Plant available phosphorus levels[*R*]using[*A*]two selected fertilizer recommendation systems	context()	negated: False ,passive: False
 0.919	[*A*]Plant available phosphorus levels[*R*]were determined[*A*]using two selected fertilizer recommendation systems	context()	negated: False ,passive: True
-[LINE#6]The fertilizer recommendation system of the UK does not recommend additional fertilizer use on croplands with highest P supply, which covers regions mostly in Belgium and the Netherlands.
+[LINE#5] The fertilizer recommendation system of the UK does not recommend additional fertilizer use on croplands with highest P supply, which covers regions mostly in Belgium and the Netherlands.
 0.897	[*A*]highest P supply[*R*]covers[*A*]regions	context()	negated: False ,passive: True
 0.953	[*A*]The fertilizer recommendation system of the UK[*R*]does not recommend[*A*]additional fertilizer use[*A*]on croplands with highest P supply	context()	negated: True ,passive: False
-[LINE#7]According to a Hungarian advisory system there is a need for fertilizer P input in all regions of the EU.
-[LINE#8]We established a P fertilizer need map based on integrating results from the two systems.
+[LINE#6] According to a Hungarian advisory system there is a need for fertilizer P input in all regions of the EU.
+[LINE#7] We established a P fertilizer need map based on integrating results from the two systems.
 0.926	[*A*]a P fertilizer need map[*R*]based[*A*]on integrating results from the two systems	context()	negated: False ,passive: True
 0.569	[*A*]We[*R*]established[*A*]a P fertilizer need map based on integrating results from the two systems	context()	negated: False ,passive: False
-[LINE#9]Based on data from 2009 and 2012, P input demand of croplands in the European Union was estimated to 3,849,873 tons(P2O5)/year.
+[LINE#8] Based on data from 2009 and 2012, P input demand of croplands in the European Union was estimated to 3,849,873 tons(P2O5)/year.
 0.993	[*A*]P input demand of croplands in the European Union[*R*]was estimated to[*A*]3849873 tons	context()	negated: False ,passive: False
 0.961	[*A*]P input demand of croplands in the European Union[*R*]was estimated[*A*]to 3,849,873 tons[*A*]year	context()	negated: False ,passive: True
-[LINE#10]Meanwhile we found disparities of calculated input need and reported fertilizer statistics both on local (country) scale and EU level.
+[LINE#9] Meanwhile we found disparities of calculated input need and reported fertilizer statistics both on local (country) scale and EU level.
 0.639	[*A*]we[*R*]reported[*A*]fertilizer statistics both on local ( EU level[*A*]Meanwhile	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]reported[*A*]fertilizer statistics both on local ( country ) scale[*A*]Meanwhile	context()	negated: False ,passive: False
 0.595	[*A*]we[*R*]found[*A*]disparities of calculated input need[*A*]Meanwhile	context()	negated: False ,passive: False
-[LINE#11]The first ever uniform topsoil P survey of the EU highlights the contradictions between soil P management of different countries of the Union and the inconsistencies between reported P fertilizer consumption and advised P doses.
+[LINE#10] The first ever uniform topsoil P survey of the EU highlights the contradictions between soil P management of different countries of the Union and the inconsistencies between reported P fertilizer consumption and advised P doses.
 0.979	[*A*]the contradictions between soil P management of different countries of the Union and the inconsistencies between reported P[*R*]advised[*A*]P doses	context(The first ever uniform topsoil P survey of the EU highlights)	negated: False ,passive: False
 0.977	[*A*]The first ever uniform topsoil P survey of the EU[*R*]highlights[*A*]the contradictions between soil P management of different countries of the Union and the inconsistencies between reported P advised P doses	context()	negated: False ,passive: False
 0.981	[*A*]The first ever uniform topsoil P survey of the EU[*R*]highlights[*A*]the contradictions between soil P management of different countries of the Union and the inconsistencies between reported P fertilizer consumption	context()	negated: False ,passive: False
-[LINE#12]Our analysis shows a status of a baseline period of the years 2009 and 2012, while a repeated LUCAS topsoil survey can be a useful tool to monitor future changes of nutrient levels, including P in soils of the EU.
+[LINE#11] Our analysis shows a status of a baseline period of the years 2009 and 2012, while a repeated LUCAS topsoil survey can be a useful tool to monitor future changes of nutrient levels, including P in soils of the EU.
 0.970	[*A*]a repeated LUCAS topsoil survey[*R*]can be[*A*]a useful tool to monitor future changes of nutrient levels , including P in soils of the EU	context()	negated: False ,passive: True
 0.701	[*A*]Our analysis[*R*]shows[*A*]a status of a baseline period of the years	context()	negated: False ,passive: False
-[LINE#13]To optimize crop production economic benefits have to be considered in relation to environmental criteria.
+[LINE#12] To optimize crop production economic benefits have to be considered in relation to environmental criteria.
 0.921	[*A*]To optimize crop production economic benefits[*R*]to be considered[*A*]in relation to environmental criteria	context()	negated: False ,passive: True
-[LINE#14]Fertilizer doses have to be based on attainable yield and soil nutrient levels.
+[LINE#13] Fertilizer doses have to be based on attainable yield and soil nutrient levels.
 0.887	[*A*]Fertilizer doses[*R*]to be based[*A*]on soil nutrient levels	context()	negated: False ,passive: True
 0.887	[*A*]Fertilizer doses[*R*]to be based[*A*]on attainable yield	context()	negated: False ,passive: True
-[LINE#15]The recent EU-wide LUCAS topsoil survey provided the opportunity to have reliable comparison of P levels in soils of the EU.
+[LINE#14] The recent EU-wide LUCAS topsoil survey provided the opportunity to have reliable comparison of P levels in soils of the EU.
 0.949	[*A*]The recent EU-wide LUCAS topsoil survey[*R*]provided[*A*]the opportunity to have reliable comparison of P levels in soils of the EU	context()	negated: False ,passive: False
-[LINE#16]Based on measured values from uniform soil tests we provided first time reliable figures of P levels in soils of the EU, also in relation to cropping needs.
+[LINE#15] Based on measured values from uniform soil tests we provided first time reliable figures of P levels in soils of the EU, also in relation to cropping needs.
 0.614	[*A*]we[*R*]provided[*A*]first time reliable figures of P levels in soils of the EU	context()	negated: False ,passive: False
-[LINE#17]Based on these figures there are considerable differences within the Union; higher P levels can be observed in regions where higher crop yields can be expected (North-West Europe) due to favourable climatic conditions.
+[LINE#16] Based on these figures there are considerable differences within the Union; higher P levels can be observed in regions where higher crop yields can be expected (North-West Europe) due to favourable climatic conditions.
 0.888	[*A*]higher P levels[*R*]can be observed[*A*]in regions	context()	negated: False ,passive: True
 0.944	[*A*]where higher crop yields[*R*]can be expected[*A*]due to favourable climatic conditions[*A*]regions	context()	negated: False ,passive: True
-[LINE#18]On the other hand, higher P levels are measured in the regions where high fertilizer P inputs are reported and where probably the livestock densities are higher too.
+[LINE#17] On the other hand, higher P levels are measured in the regions where high fertilizer P inputs are reported and where probably the livestock densities are higher too.
 0.783	[*A*]the livestock densities[*R*]are[*A*]higher[*A*]too	context()	negated: False ,passive: True
 0.944	[*A*]high fertilizer P inputs[*R*]are reported[*A*]the regions	context()	negated: False ,passive: True
 0.911	[*A*]higher P levels[*R*]are measured[*A*]in the regions	context()	negated: False ,passive: True
-[LINE#19]We made an effort to estimate the P input need of European croplands, and found disparities of calculated input need and reported fertilizer statistics both on local (country) scale and on EU level.
+[LINE#18] We made an effort to estimate the P input need of European croplands, and found disparities of calculated input need and reported fertilizer statistics both on local (country) scale and on EU level.
 0.452	[*A*]We[*R*]reported[*A*]fertilizer statistics	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]reported[*A*]fertilizer statistics both on local ( country ) scale	context()	negated: False ,passive: False
 0.452	[*A*]We[*R*]found[*A*]disparities of calculated input need	context()	negated: False ,passive: False
 0.569	[*A*]We[*R*]made[*A*]an effort to estimate the P input need of European croplands	context()	negated: False ,passive: False
-[LINE#20]However further studies are needed to arrive to exact figures on a continental scale.
+[LINE#19] However further studies are needed to arrive to exact figures on a continental scale.
 0.887	[*A*]further studies[*R*]to arrive[*A*]to exact figures on a continental scale	context()	negated: False ,passive: True
 0.903	[*A*]further studies[*R*]are needed[*A*]to arrive to exact figures on a continental scale	context()	negated: False ,passive: True
-[LINE#21]This might be achieved by the regionalization of the analysis using regional or national fertilizer recommendation systems and with the application of crop-nutrient balance models.
+[LINE#20] This might be achieved by the regionalization of the analysis using regional or national fertilizer recommendation systems and with the application of crop-nutrient balance models.
 0.903	[*A*]the analysis[*R*]using[*A*]regional or national fertilizer recommendation systems	context()	negated: False ,passive: False
 0.497	[*A*]This[*R*]might be achieved[*A*]by the regionalization of the analysis using regional or national fertilizer recommendation systems and with the application of crop-nutrient balance models	context()	negated: False ,passive: True
-[LINE#22]Such an analysis is currently hindered by the non-existence or non-accessibility of recommendation system for many regions and the lack of statistics on crop yields within regions.
+[LINE#21] Such an analysis is currently hindered by the non-existence or non-accessibility of recommendation system for many regions and the lack of statistics on crop yields within regions.
 0.950	[*A*]Such an analysis[*R*]is hindered[*A*]by the non-existence or non-accessibility of recommendation system for many regions and the lack of statistics on crop yields within regions[*A*]currently	context()	negated: False ,passive: True
-[LINE#23]Nevertheless, the first ever uniform topsoil P survey of the EU highlights the contradictions between soil P management of different countries of the Union while also highlights the inconsistencies between reported P fertilizer consumption and advised P doses.
+[LINE#22] Nevertheless, the first ever uniform topsoil P survey of the EU highlights the contradictions between soil P management of different countries of the Union while also highlights the inconsistencies between reported P fertilizer consumption and advised P doses.
 0.981	[*A*]the first ever uniform topsoil P survey of the EU[*R*]highlights[*A*]the contradictions between soil P management of different countries of the Union[*A*]while also highlights the inconsistencies between reported P fertilizer consumption and advised P doses	context()	negated: False ,passive: False
-[LINE#24]Our findings also underline the need to improve statistics on fertilizer use and crop yields in the EU towards finer scale information.
+[LINE#23] Our findings also underline the need to improve statistics on fertilizer use and crop yields in the EU towards finer scale information.
 0.742	[*A*]Our findings[*R*]underline[*A*]the need to improve statistics on crop yields in the EU towards finer scale information	context()	negated: False ,passive: False
 0.742	[*A*]Our findings[*R*]underline[*A*]the need to improve statistics on fertilizer use in the EU towards finer scale information	context()	negated: False ,passive: False
-[LINE#25] We can assume that with the availability of more accurate information on crop yields and fertilizer input - including both mineral and organic P inputs - a coherent framework of soil P management can be worked out for the EU.Our analysisshows a status of a baseline period with data from the years 2009 and 2012, while a repeated LUCAS topsoil survey can be a useful tool to monitor future changes of nutrient levels, including P in soils of the EU.
+[LINE#24+25]  We can assume that with the availability of more accurate information on crop yields and fertilizer input - including both mineral and organic P inputs - a coherent framework of soil P management can be worked out for the EU.Our analysisshows a status of a baseline period with data from the years 2009 and 2012, while a repeated LUCAS topsoil survey can be a useful tool to monitor future changes of nutrient levels, including P in soils of the EU.
 0.309	[*A*]We[*R*]can assume[*A*]that with the availability of more accurate information on fertilizer input - including both organic P inputs - a coherent framework of soil P management can be worked out for the EU.Our analysisshows a status of a baseline period with data from the years 2012 , while a repeated LUCAS topsoil survey can be a useful tool	context()	negated: False ,passive: False
 0.309	[*A*]We[*R*]can assume[*A*]that with the availability of more accurate information on fertilizer input - including both organic P inputs - a coherent framework of soil P management can be worked out for the EU.Our analysisshows a status of a baseline period with data from the years 2009 , while a repeated LUCAS topsoil survey can be a useful tool	context()	negated: False ,passive: False
 0.309	[*A*]We[*R*]can assume[*A*]that with the availability of more accurate information on fertilizer input - including both mineral can be worked out for the EU.Our	context()	negated: False ,passive: False
@@ -78,45 +78,45 @@
 0.970	[*A*]a repeated LUCAS topsoil survey[*R*]can be[*A*]a useful tool to monitor future changes of nutrient levels , including P in soils of the EU	context()	negated: False ,passive: True
 0.953	[*A*]the EU.Our[*R*]analysisshows[*A*]a status of a baseline period with data from the years	context()	negated: False ,passive: False
 0.309	[*A*]We[*R*]can assume[*A*]that with the availability of more accurate information on crop yields including both mineral can be worked out for the EU.Our analysisshows a status of a baseline period with data from the years 2009 , while a repeated LUCAS topsoil survey can be a useful tool	context()	negated: False ,passive: False
-[LINE#26]P manure and fertilizers have been applied in excess in many European countries in the years of 1950-1980 to increase crop yield, resulting in varying accumulation of P within soil systems (Granstedt, 2000; Tunney et al., 2003) explaining high diversity across Europe.
+[LINE#26] P manure and fertilizers have been applied in excess in many European countries in the years of 1950-1980 to increase crop yield, resulting in varying accumulation of P within soil systems (Granstedt, 2000; Tunney et al., 2003) explaining high diversity across Europe.
 0.894	[*A*]fertilizers[*R*]have been applied[*A*]in excess[*A*]in many European countries[*A*]in the years of 1950-1980[*A*]to increase crop yield[*A*]resulting in varying accumulation of P within soil systems	context()	negated: False ,passive: True
 0.903	[*A*]P manure[*R*]have been applied[*A*]in excess[*A*]in many European countries[*A*]in the years of 1950-1980[*A*]to increase crop yield[*A*]resulting in varying accumulation of P within soil systems	context()	negated: False ,passive: True
-[LINE#27]A meta-analysis study of P fertilization in 80 years of research in Finland conducted by Valkama et al.
+[LINE#27] A meta-analysis study of P fertilization in 80 years of research in Finland conducted by Valkama et al.
 0.944	[*A*]research in Finland[*R*]conducted[*A*]by Valkama et al	context()	negated: False ,passive: True
-[LINE#28] (2009) revealed that yield increases due to P fertilization were highly depended upon soil texture and organic matter and decreased in the following order, organic soils>coarse-textured soils >clay soils which was in alignment with studies of Tennberg (1935), Tennberg and Jokihaara (1935), Salonen and Tainio (1957) and.
-[LINE#29] Moreover, like other soil properties texture and pH show great spatial variability across the EU.
-[LINE#30]As similar P supply to plants requires higher levels of measured extractable P in light soils and pH is mostly linked with the availability of carbonates in soil, which increases the required measured amount of P for adequate plant supply, P adsorption and availability are highly affected by those parameters.
+[LINE#28+29+30]  (2009) revealed that yield increases due to P fertilization were highly depended upon soil texture and organic matter and decreased in the following order, organic soils>coarse-textured soils >clay soils which was in alignment with studies of Tennberg (1935), Tennberg and Jokihaara (1935), Salonen and Tainio (1957) and.
+[LINE#31]  Moreover, like other soil properties texture and pH show great spatial variability across the EU.
+[LINE#32] As similar P supply to plants requires higher levels of measured extractable P in light soils and pH is mostly linked with the availability of carbonates in soil, which increases the required measured amount of P for adequate plant supply, P adsorption and availability are highly affected by those parameters.
 0.920	[*A*]soil[*R*]increases[*A*]the required measured amount of P for adequate plant supply, P adsorption and availability	context()	negated: False ,passive: False
 0.531	[*A*]pH[*R*]is linked	context()	negated: False ,passive: False
 0.961	[*A*]higher levels of measured extractable P in light soils and pH is mostly linked with the availability of carbonates in soil[*R*]are highly affected[*A*]by those parameters	context()	negated: False ,passive: True
 0.785	[*A*]similar P supply to plants[*R*]requires	context()	negated: False ,passive: False
-[LINE#31]Therefore, as to be expected, plant available P levels as determined by the Hungarian fertilizer recommendation systems differ from the extracted P amounts of the LUCAS topsoil samples (Figs.
-[LINE#32](Tth et al., 2013b) pointed out, three groups of countries can be distinguished in the EU based on the P levels of their cropland soils.
+[LINE#33] Therefore, as to be expected, plant available P levels as determined by the Hungarian fertilizer recommendation systems differ from the extracted P amounts of the LUCAS topsoil samples (Figs.
+[LINE#34] (Tth et al., 2013b) pointed out, three groups of countries can be distinguished in the EU based on the P levels of their cropland soils.
 0.913	[*A*]three groups of countries[*R*]can be[*A*]distinguished[*A*]in the EU	context(Tth et al pointed out)	negated: False ,passive: True
 0.854	[*A*]Tth et al[*R*]pointed out[*A*]three groups of countries can be distinguished in the EU based on the P levels of their cropland soils	context()	negated: False ,passive: False
-[LINE#33]These groups are (1) with generally low P levels, (2) with varying P levels and (3) with generally high P levels.
+[LINE#35] These groups are (1) with generally low P levels, (2) with varying P levels and (3) with generally high P levels.
 0.732	[*A*]These groups[*R*]are[*A*]1	context()	negated: False ,passive: True
-[LINE#34]Austria, Bulgaria, Cyprus, Estonia, Spain, Greece, Hungary, Italy, Lithuania, Portugal, Romania, Sweden, Slovenia and Slovakia belong to group I. Czech Republic, Germany, Denmark, Finland, France, Ireland, Poland, United Kingdom belong to group 2.
+[LINE#36] Austria, Bulgaria, Cyprus, Estonia, Spain, Greece, Hungary, Italy, Lithuania, Portugal, Romania, Sweden, Slovenia and Slovakia belong to group I. Czech Republic, Germany, Denmark, Finland, France, Ireland, Poland, United Kingdom belong to group 2.
 0.920	[*A*]Hungary[*R*]belong[*A*]to group	context()	negated: False ,passive: False
-[LINE#35]Belgium and the Netherlands belong to group 3.According to our current findings, higher P surpluses where detected in north-western regions of the EU compared to other parts of the continent which is in agreement with Csath and Radimszky (2011).
+[LINE#37] Belgium and the Netherlands belong to group 3.According to our current findings, higher P surpluses where detected in north-western regions of the EU compared to other parts of the continent which is in agreement with Csath and Radimszky (2011).
 0.788	[*A*]the Netherlands[*R*]belong	context()	negated: False ,passive: False
 0.926	[*A*]the continent[*R*]is[*A*]in agreement with Radimszky ( 2011	context()	negated: False ,passive: True
 0.926	[*A*]the continent[*R*]is[*A*]in agreement with Csath	context()	negated: False ,passive: True
 0.913	[*A*]higher P surpluses[*R*]detected[*A*]in north - western regions of the EU[*A*]compared to other parts of the continent	context()	negated: False ,passive: True
 0.899	[*A*]group[*R*]3.According[*A*]to our current findings[*A*]higher P surpluses where detected in north - western regions of the EU compared to other parts of the continent	context()	negated: False ,passive: False
 0.771	[*A*]Belgium[*R*]belong	context()	negated: False ,passive: False
-[LINE#36] This is likewise in agreement with older studies revealing a substantial accumulation of P in agricultural soils in the Netherlands, France and Germany with surpluses of 25-30kgha-1 (Smil, 2000; Tunney et al., 2003) while in Sweden, Norway and the UKthe elemental P surpluses in relation to livestock farms were about 8-20kgha-1.
+[LINE#38+39+40+41]  This is likewise in agreement with older studies revealing a substantial accumulation of P in agricultural soils in the Netherlands, France and Germany with surpluses of 25-30kgha-1 (Smil, 2000; Tunney et al., 2003) while in Sweden, Norway and the UKthe elemental P surpluses in relation to livestock farms were about 8-20kgha-1.
 0.947	[*A*]older studies[*R*]revealing[*A*]a substantial accumulation of P in agricultural soils in Germany with surpluses of 25-30kgha - 1	context()	negated: False ,passive: False
 0.947	[*A*]older studies[*R*]revealing[*A*]a substantial accumulation of P in agricultural soils in France with surpluses of 25-30kgha - 1	context()	negated: False ,passive: False
 0.947	[*A*]older studies[*R*]revealing[*A*]a substantial accumulation of P in agricultural soils in the Netherlands with surpluses of 25-30kgha - 1	context()	negated: False ,passive: False
 0.449	[*A*]This[*R*]is[*A*]likewise[*A*]in agreement with older studies	context()	negated: False ,passive: True
-[LINE#37]Moreover, P soil surpluses in Central and Eastern European countries are considered lower, even in the pre-1990 accumulative period, compared to the 15 EU countries (Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden and the United Kingdom) as reported by Ott and Rechberger (2012).
+[LINE#42] Moreover, P soil surpluses in Central and Eastern European countries are considered lower, even in the pre-1990 accumulative period, compared to the 15 EU countries (Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden and the United Kingdom) as reported by Ott and Rechberger (2012).
 0.993	[*A*]P soil surpluses in Eastern European countries[*R*]are considered in[*A*]-1990 accumulative period	context()	negated: False ,passive: False
 0.993	[*A*]P soil surpluses in Central countries[*R*]are considered in[*A*]-1990 accumulative period	context()	negated: False ,passive: False
-[LINE#38](2012) reported negative P balances for Hungary for the period 1989-2005 and the result of this trend is reflected in our findings, when compared to data presented by Baranyai et al.
+[LINE#43] (2012) reported negative P balances for Hungary for the period 1989-2005 and the result of this trend is reflected in our findings, when compared to data presented by Baranyai et al.
 0.871	[*A*]the result of this trend[*R*]is reflected[*A*]in our findings[*A*]when compared to data	context()	negated: False ,passive: True
 0.911	[*A*]data[*R*]presented[*A*]by Baranyai et al	context()	negated: False ,passive: True
-[LINE#39] The maps displaying soil P supply based on quintiles (Fig.1b) show that there are zones with high and low soil P levels which can be delineated in the EU and these zones are following climatic patterns.
+[LINE#44+45]  The maps displaying soil P supply based on quintiles (Fig.1b) show that there are zones with high and low soil P levels which can be delineated in the EU and these zones are following climatic patterns.
 0.709	[*A*]The maps displaying soil P supply[*R*]show[*A*]that there are zones with low soil P levels	context()	negated: False ,passive: False
 0.875	[*A*]The maps displaying soil P supply based on quintiles ( Fig.1b )[*R*]show[*A*]that there are zones with low soil P levels	context()	negated: False ,passive: False
 0.920	[*A*]low soil P levels[*R*]can be delineated[*A*]in the EU	context()	negated: False ,passive: True
@@ -127,55 +127,55 @@
 0.875	[*A*]The maps displaying soil P supply based on quintiles ( Fig.1b )[*R*]show[*A*]that there are zones with high soil P levels	context()	negated: False ,passive: False
 0.920	[*A*]high soil P levels[*R*]can be delineated[*A*]in the EU	context()	negated: False ,passive: True
 0.932	[*A*]The maps displaying soil P supply[*R*]based[*A*]on quintiles	context()	negated: False ,passive: True
-[LINE#40] Zones with most intensive P input(Fig. 6) show both the highest P and highest yield levels (Figs. 1 and 2).
+[LINE#46+47]  Zones with most intensive P input(Fig. 6) show both the highest P and highest yield levels (Figs. 1 and 2).
 0.939	[*A*]Zones with most intensive P input[*R*]show[*A*]both the highest yield levels	context()	negated: False ,passive: False
 0.939	[*A*]Zones with most intensive P input[*R*]show[*A*]both the highest P	context()	negated: False ,passive: False
-[LINE#41]However, the correlation between yields and P levels in the NUTS2 regions of the EU (Pearson coefficient=0.4; both based on the UK and Hungarian systems) suggest strong, but not exclusive P dependency of yield.
-[LINE#42]This finding might suggest that in most EU regions P application doses are adjusted to targeted yields.
+[LINE#48] However, the correlation between yields and P levels in the NUTS2 regions of the EU (Pearson coefficient=0.4; both based on the UK and Hungarian systems) suggest strong, but not exclusive P dependency of yield.
+[LINE#49] This finding might suggest that in most EU regions P application doses are adjusted to targeted yields.
 0.944	[*A*]P application doses[*R*]are adjusted[*A*]to targeted yields[*A*]in most EU regions	context(This finding might suggest)	negated: False ,passive: True
 0.835	[*A*]This finding[*R*]might suggest[*A*]that in most EU regions P application doses are adjusted to targeted yields	context()	negated: False ,passive: False
-[LINE#43]However in the extreme cases of very high or very low P levels, this assumption might not hold.
+[LINE#50] However in the extreme cases of very high or very low P levels, this assumption might not hold.
 0.957	[*A*]this assumption[*R*]might not hold[*A*]However in the extreme cases of very high or very low P levels	context()	negated: True ,passive: True
-[LINE#44] With regards to the comparison of P input our results confirm the scientific evidence that high P fertilizer inputs with positive P balance will increase the concentrations in the soil(Cordell et al., 2009), and also provide an insight to the regional distribution of different P supply levels in the regions of the EU in relation to P input.
+[LINE#51+52+53]  With regards to the comparison of P input our results confirm the scientific evidence that high P fertilizer inputs with positive P balance will increase the concentrations in the soil(Cordell et al., 2009), and also provide an insight to the regional distribution of different P supply levels in the regions of the EU in relation to P input.
 0.954	[*A*]high P fertilizer inputs with positive P balance[*R*]will provide[*A*]an insight to the regional distribution of different P supply levels in the regions of the EU in relation to P input	context()	negated: False ,passive: False
 0.554	[*A*]our results[*R*]confirm[*A*]the scientific evidence that high P fertilizer inputs with positive P balance will also provide an insight to the regional distribution of different P supply levels in the regions of the EU in relation to P input	context()	negated: False ,passive: False
 0.943	[*A*]high P fertilizer inputs with positive P balance[*R*]will increase[*A*]the concentrations in the soil	context()	negated: False ,passive: False
 0.508	[*A*]our results[*R*]confirm[*A*]the scientific evidence that high P fertilizer inputs with positive P balance will increase the concentrations in the soil	context()	negated: False ,passive: False
-[LINE#45]The two recommendation systems used in this study, Antal et al.
+[LINE#54] The two recommendation systems used in this study, Antal et al.
 0.919	[*A*]The two recommendation systems[*R*]used[*A*]in this study	context()	negated: False ,passive: True
-[LINE#46](1979) for Hungary and DEFRA (2010) for the United Kingdom, differ in their criteria to generate P recommendation.
+[LINE#55] (1979) for Hungary and DEFRA (2010) for the United Kingdom, differ in their criteria to generate P recommendation.
 0.916	[*A*]1979 ) for DEFRA ( 2010 ) for the United Kingdom[*R*]differ[*A*]to generate P recommendation	context()	negated: False ,passive: True
 0.955	[*A*]1979 ) for Hungary ( 2010 ) for the United Kingdom[*R*]differ[*A*]to generate P recommendation	context()	negated: False ,passive: True
-[LINE#47]While the DEFRA classifies P level categories according to measured P levels exclusively, the Hungarian system uses additional soil criteria such as soil texture and CaCO3.
+[LINE#56] While the DEFRA classifies P level categories according to measured P levels exclusively, the Hungarian system uses additional soil criteria such as soil texture and CaCO3.
 0.925	[*A*]the Hungarian system[*R*]uses[*A*]additional soil criteria such as CaCO3	context()	negated: False ,passive: False
 0.911	[*A*]the Hungarian system[*R*]uses[*A*]additional soil criteria such as soil texture	context()	negated: False ,passive: False
 0.927	[*A*]the DEFRA[*R*]classifies[*A*]P level categories[*A*]according to measured P levels exclusively	context()	negated: False ,passive: False
-[LINE#48]Underlying soil properties that affect P mobility should be handled with care as agricultural land is not generally uniform and show high spatial variations in soil biogeochemical attributes (Bechmann et al., 2007).Recommendations on fertilizer doses for different regions of Europe differ considerably if assessed by different methods (Fig. 4).
+[LINE#57] Underlying soil properties that affect P mobility should be handled with care as agricultural land is not generally uniform and show high spatial variations in soil biogeochemical attributes (Bechmann et al., 2007).Recommendations on fertilizer doses for different regions of Europe differ considerably if assessed by different methods (Fig. 4).
 0.767	[*A*]agricultural land[*R*]is not[*A*]generally uniform	context()	negated: True ,passive: True
 0.718	[*A*]Underlying soil properties[*R*]should be handled	context()	negated: False ,passive: False
 0.887	[*A*]soil properties[*R*]affect[*A*]P mobility	context()	negated: False ,passive: False
 0.982	[*A*]Bechmann et al., 2007).Recommendations on fertilizer doses for different regions of Europe[*R*]differ considerably[*A*]if assessed by different methods	context()	negated: False ,passive: True
-[LINE#49] The System of the UK suggests fertilization with low P doses for most of the EU (Fig. 4a), while the Hungarian system recommends high doses on areas (Fig.where high yields are expected (Fig. 2).
+[LINE#58+59+60]  The System of the UK suggests fertilization with low P doses for most of the EU (Fig. 4a), while the Hungarian system recommends high doses on areas (Fig.where high yields are expected (Fig. 2).
 0.751	[*A*]Fig.where high yields[*R*]are expected	context()	negated: False ,passive: False
 0.911	[*A*]the Hungarian system[*R*]recommends[*A*]high doses on areas	context()	negated: False ,passive: False
 0.970	[*A*]The System of the UK[*R*]suggests[*A*]fertilization with low P doses for most of the EU	context()	negated: False ,passive: False
-[LINE#50]This difference highlights the complexity of P management decisions in a continental context.
+[LINE#61] This difference highlights the complexity of P management decisions in a continental context.
 0.937	[*A*]This difference[*R*]highlights[*A*]the complexity of P management decisions in a continental context	context()	negated: False ,passive: False
-[LINE#51]The large difference between these two figures shows the constraint of any fertilizer recommendation systems for specific agroecological conditions and highlights the limitations of our current study as well.
+[LINE#62] The large difference between these two figures shows the constraint of any fertilizer recommendation systems for specific agroecological conditions and highlights the limitations of our current study as well.
 0.848	[*A*]The large difference[*R*]highlights[*A*]the limitations of our current study[*A*]as well	context()	negated: False ,passive: False
 0.970	[*A*]The large difference between these two figures[*R*]shows[*A*]the constraint of any fertilizer recommendation systems for specific agroecological conditions	context()	negated: False ,passive: False
-[LINE#52]The comparison of the results obtained from the two methods for the whole EU underlines the methodological differences between them and consequently warns about their applicability over the entire continent.
+[LINE#63] The comparison of the results obtained from the two methods for the whole EU underlines the methodological differences between them and consequently warns about their applicability over the entire continent.
 0.835	[*A*]The comparison[*R*]consequently warns[*A*]about their applicability over the entire continent	context()	negated: False ,passive: False
 0.851	[*A*]The comparison of the results[*R*]underlines[*A*]the methodological differences between them	context()	negated: False ,passive: False
 0.918	[*A*]the results[*R*]obtained[*A*]from the two methods for the whole EU	context()	negated: False ,passive: True
-[LINE#53]While the Hungarian system seem to overestimate the fertilizer need in the western part of Europe - mainly the areas under Atlantic and sub-Atlantic climate - the UK system underestimates the P input needs in Central and Eastern Europe.
+[LINE#64] While the Hungarian system seem to overestimate the fertilizer need in the western part of Europe - mainly the areas under Atlantic and sub-Atlantic climate - the UK system underestimates the P input needs in Central and Eastern Europe.
 0.905	[*A*]the P input[*R*]needs[*A*]in Central and Eastern Europe	context(sub-Atlantic climate underestimates)	negated: False ,passive: False
 0.879	[*A*]sub-Atlantic climate[*R*]underestimates[*A*]the P input needs in Central and Eastern Europe	context()	negated: False ,passive: False
 0.905	[*A*]the P input[*R*]needs[*A*]in Central and Eastern Europe	context(the areas under Atlantic underestimates)	negated: False ,passive: False
 0.934	[*A*]the areas under Atlantic[*R*]underestimates[*A*]the P input needs in Central and Eastern Europe	context()	negated: False ,passive: False
 0.897	[*A*]the Hungarian system[*R*]to overestimate[*A*]the fertilizer	context()	negated: False ,passive: False
 0.751	[*A*]the Hungarian system[*R*]seem	context()	negated: False ,passive: False
-[LINE#54]One explanation for this difference can be that the UK system is designed for croplands where the nutrient dynamics from soil decomposition processes is not conditioned by long dry (or dry and cold) periods, and natural rate of P release is higher than that of fixation, thus inherent soil P can contribute more to plant requirements.
+[LINE#65] One explanation for this difference can be that the UK system is designed for croplands where the nutrient dynamics from soil decomposition processes is not conditioned by long dry (or dry and cold) periods, and natural rate of P release is higher than that of fixation, thus inherent soil P can contribute more to plant requirements.
 0.915	[*A*]the UK system[*R*]is designed[*A*]for croplands	context(One explanation for this difference can be inherent soil P can contribute)	negated: False ,passive: True
 0.808	[*A*]One explanation for this difference[*R*]can be[*A*]that the UK system is designed for croplands	context(inherent soil P can contribute)	negated: False ,passive: True
 0.964	[*A*]the nutrient dynamics from soil decomposition processes[*R*]is not conditioned[*A*]by long cold ) periods[*A*]croplands	context()	negated: True ,passive: True
@@ -190,12 +190,12 @@
 0.808	[*A*]One explanation for this difference[*R*]can be[*A*]that the UK system is designed for croplands	context(thus inherent soil P can contribute)	negated: False ,passive: True
 0.897	[*A*]thus inherent soil P[*R*]can contribute[*A*]more[*A*]to plant requirements	context()	negated: False ,passive: False
 0.922	[*A*]the natural rate of P release[*R*]is[*A*]higher than that of fixation[*A*]croplands	context()	negated: False ,passive: True
-[LINE#55]The Hungarian system, on the other hand is developed for dryer and colder conditions, where natural P release is controlled by limited time available for biological activity.
+[LINE#66] The Hungarian system, on the other hand is developed for dryer and colder conditions, where natural P release is controlled by limited time available for biological activity.
 0.911	[*A*]natural P release[*R*]is controlled[*A*]by limited time available for biological activity	context()	negated: False ,passive: True
 0.830	[*A*]The Hungarian system , on the other hand[*R*]is developed	context()	negated: False ,passive: False
-[LINE#56]In any case, the strongest factor of diverging result is the validity of the systems for different climatic regions.
+[LINE#67] In any case, the strongest factor of diverging result is the validity of the systems for different climatic regions.
 0.970	[*A*]the strongest factor of diverging result[*R*]is[*A*]the validity of the systems for different climatic regions[*A*]In any case	context()	negated: False ,passive: True
-[LINE#57]Based on the above assumption a P fertilizer recommendation map (Fig. 5) of the EU was complied, where the UK method is applied for regions where oceanic and sub-oceanic climatic influence prevail and the Hungarian system is applied in climatic zones under continental and Mediterranean influence.
+[LINE#68] Based on the above assumption a P fertilizer recommendation map (Fig. 5) of the EU was complied, where the UK method is applied for regions where oceanic and sub-oceanic climatic influence prevail and the Hungarian system is applied in climatic zones under continental and Mediterranean influence.
 0.957	[*A*]the Hungarian system[*R*]is applied[*A*]in climatic zones under Mediterranean influence[*A*]regions	context()	negated: False ,passive: True
 0.948	[*A*]the Hungarian system[*R*]is applied[*A*]in climatic zones[*A*]regions	context()	negated: False ,passive: True
 0.960	[*A*]sub-oceanic climatic influence prevail[*R*]is applied[*A*]in climatic zones under Mediterranean influence[*A*]regions	context()	negated: False ,passive: True
@@ -203,93 +203,93 @@
 0.953	[*A*]sub-oceanic climatic influence prevail[*R*]is applied[*A*]in climatic zones[*A*]regions	context()	negated: False ,passive: True
 0.953	[*A*]oceanic climatic influence prevail[*R*]is applied[*A*]in climatic zones[*A*]regions	context()	negated: False ,passive: True
 0.933	[*A*]the UK method[*R*]is applied[*A*]for regions	context()	negated: False ,passive: True
-[LINE#58] Recent studies on continental P supply (Csath et al., 2011) supports our arguments that estimated P need pattern shown in Fig.5 is more consistent with the reality than maps produced by either of the two systems for the whole EU separately.
+[LINE#69+70]  Recent studies on continental P supply (Csath et al., 2011) supports our arguments that estimated P need pattern shown in Fig.5 is more consistent with the reality than maps produced by either of the two systems for the whole EU separately.
 0.891	[*A*]maps[*R*]produced separately[*A*]by either of the two systems for the whole EU	context()	negated: False ,passive: True
 0.952	[*A*]estimated P need pattern shown in Fig.5[*R*]is[*A*]more consistent with the reality than maps	context()	negated: False ,passive: True
 0.937	[*A*]estimated P need pattern[*R*]shown[*A*]in Fig.5	context()	negated: False ,passive: True
 0.879	[*A*]Recent studies on continental P supply (Csath et al., 2011[*R*]supports[*A*]our arguments that estimated P need pattern shown in Fig.5 is more consistent with the reality than maps	context()	negated: False ,passive: False
-[LINE#59]However, as the climate borders not always coincide with administrative borders the assessment at bordering regions as well as in transitional climatic zones might not be as accurate as in the regions where the recommendation systems were developed.
+[LINE#71] However, as the climate borders not always coincide with administrative borders the assessment at bordering regions as well as in transitional climatic zones might not be as accurate as in the regions where the recommendation systems were developed.
 0.913	[*A*]the assessment in transitional climatic zones[*R*]might not be[*A*]as accurate as in the regions	context(the climate borders not coincide)	negated: True ,passive: True
 0.730	[*A*]the climate borders[*R*]not coincide[*A*]always	context()	negated: True ,passive: True
 0.939	[*A*]the recommendation systems[*R*]were developed[*A*]the regions	context()	negated: False ,passive: True
 0.897	[*A*]the climate borders[*R*]might not be[*A*]as accurate as in the regions	context()	negated: True ,passive: True
-[LINE#60]The adaptation of regionally specific recommendation systems can probably increase the accuracy of similar maps in the future.
+[LINE#72] The adaptation of regionally specific recommendation systems can probably increase the accuracy of similar maps in the future.
 0.908	[*A*]The adaptation of regionally specific recommendation systems[*R*]can increase[*A*]the accuracy of similar maps in the future	context()	negated: False ,passive: False
-[LINE#61]Based on the regionally stratified combined application of the two systems, the calculated amount of current phosphorus need of the EU (3.85 million tons) is 1.5 million tons higher than the reported 2.36 million tons mineral fertilizer usage.
+[LINE#73] Based on the regionally stratified combined application of the two systems, the calculated amount of current phosphorus need of the EU (3.85 million tons) is 1.5 million tons higher than the reported 2.36 million tons mineral fertilizer usage.
 0.943	[*A*]the calculated amount of current phosphorus[*R*]need[*A*]of the EU	context()	negated: False ,passive: False
-[LINE#62] However, as 45% of P input in Eastern Europe and 55% in Western Europe are from manure(Eurostat, 2013a,b,c,d), the overall P balance is positive, with considerable overuse of fertilizer in certain regions of the EU.As seen from Table 3 fertilizer use in the UK as reported by the UK government was 30% lower than what the local advisory system recommends.
+[LINE#74+75]  However, as 45% of P input in Eastern Europe and 55% in Western Europe are from manure(Eurostat, 2013a,b,c,d), the overall P balance is positive, with considerable overuse of fertilizer in certain regions of the EU.As seen from Table 3 fertilizer use in the UK as reported by the UK government was 30% lower than what the local advisory system recommends.
 0.931	[*A*]55 % in Western Europe[*R*]are[*A*]from manure	context(the overall P balance is)	negated: False ,passive: True
 0.938	[*A*]the overall P balance[*R*]has considerable overuse of[*A*]3 fertilizer use	context()	negated: False ,passive: False
 0.952	[*A*]as 45 % of P input in Eastern Europe[*R*]are[*A*]from manure	context(the overall P balance is)	negated: False ,passive: True
 0.809	[*A*]the overall P balance[*R*]is[*A*]positive	context()	negated: False ,passive: True
 0.769	[*A*]the local advisory system[*R*]recommends	context()	negated: False ,passive: False
-[LINE#63]Based on figures from Tunney et al.
-[LINE#64](2003) manure application compensates the difference between the required nutrient input and reported mineral fertilizer use.
+[LINE#76] Based on figures from Tunney et al.
+[LINE#77] (2003) manure application compensates the difference between the required nutrient input and reported mineral fertilizer use.
 0.948	[*A*]2003) manure application[*R*]compensates[*A*]the difference between the required nutrient input and reported mineral fertilizer use	context()	negated: False ,passive: False
-[LINE#65]On the other hand, statistics from the FAO (2013) suggest 20% higher P fertilizer usage in the UK over the calculated needed amounts.
+[LINE#78] On the other hand, statistics from the FAO (2013) suggest 20% higher P fertilizer usage in the UK over the calculated needed amounts.
 0.950	[*A*]statistics from the FAO (2013[*R*]suggest[*A*]20% higher P fertilizer usage[*A*]in the UK	context()	negated: False ,passive: False
-[LINE#66]In the meanwhile the Hungarian P fertilizer input was only about 10% of the optimal calculated by the local system on the basis of soil P levels.
+[LINE#79] In the meanwhile the Hungarian P fertilizer input was only about 10% of the optimal calculated by the local system on the basis of soil P levels.
 0.586	[*A*]the Hungarian P fertilizer input[*R*]had the optimal calculated of[*A*]about 10 %	context()	negated: False ,passive: False
 0.973	[*A*]the Hungarian P fertilizer input[*R*]was[*A*]about 10 %	context()	negated: False ,passive: False
 0.974	[*A*]the meanwhile[*R*]had the Hungarian P fertilizer input of[*A*]about 10 %	context()	negated: False ,passive: False
 0.937	[*A*]the optimal[*R*]calculated[*A*]by the local system on the basis of soil P levels	context()	negated: False ,passive: True
 0.967	[*A*]the Hungarian P fertilizer input[*R*]was[*A*]only about 10% of the optimal[*A*]In the meanwhile	context()	negated: False ,passive: True
-[LINE#67]While organic P input from livestock of various densities can strengthen or weaken the magnitude of imbalances, the difference in soil P management in the two countries is very evident from the figures obtained from soil P test and fertilizer statistics.
+[LINE#80] While organic P input from livestock of various densities can strengthen or weaken the magnitude of imbalances, the difference in soil P management in the two countries is very evident from the figures obtained from soil P test and fertilizer statistics.
 0.903	[*A*]the figures[*R*]obtained[*A*]from soil P test and fertilizer statistics	context()	negated: False ,passive: True
 0.904	[*A*]the difference in soil P management in the two countries[*R*]is[*A*]very evident	context()	negated: False ,passive: True
 0.934	[*A*]organic P input from livestock of various densities[*R*]weaken[*A*]the magnitude of imbalances	context()	negated: False ,passive: False
 0.830	[*A*]organic P input from livestock of various densities[*R*]can strengthen	context()	negated: False ,passive: False
-[LINE#68]Fertilizer use statistics by different sources provide confusing values (Table 3).
+[LINE#81] Fertilizer use statistics by different sources provide confusing values (Table 3).
 0.949	[*A*]Fertilizer use statistics by different sources[*R*]provide[*A*]confusing values	context()	negated: False ,passive: False
-[LINE#69] However, considering the fact that the advisory system of the UK would discourage fertilizer use in some of the most fertile regions of the EU and recommends low input to the rest of the EU as well (Fig. 4a)we might well think that fertilizer statistics do not catch the exact figures of fertilizer consumption in the EU.
+[LINE#82+83]  However, considering the fact that the advisory system of the UK would discourage fertilizer use in some of the most fertile regions of the EU and recommends low input to the rest of the EU as well (Fig. 4a)we might well think that fertilizer statistics do not catch the exact figures of fertilizer consumption in the EU.
 0.896	[*A*]fertilizer statistics[*R*]do not catch[*A*]the exact figures of fertilizer consumption in the EU	context(we might think)	negated: True ,passive: False
 0.957	[*A*]the advisory system of the UK[*R*]recommends[*A*]low input[*A*]to the rest of the EU as well	context()	negated: False ,passive: False
 0.896	[*A*]fertilizer statistics[*R*]do not catch[*A*]the exact figures of fertilizer consumption in the EU	context(we might think)	negated: True ,passive: False
 0.226	[*A*]we[*R*]might think[*A*]that fertilizer statistics do not catch the exact figures of fertilizer consumption in the EU	context()	negated: False ,passive: False
 0.973	[*A*]the advisory system of the UK[*R*]would discourage[*A*]fertilizer use in some of the most fertile regions of the EU	context()	negated: False ,passive: False
-[LINE#70]In any case in some countries like Romania and Bulgaria the actual values certainly fall behind the needs, while in other regions, applications are above the recommended levels.
+[LINE#84] In any case in some countries like Romania and Bulgaria the actual values certainly fall behind the needs, while in other regions, applications are above the recommended levels.
 0.975	[*A*]the actual values[*R*]fall[*A*]behind the needs[*A*]while in other regions , applications are above the recommended levels[*A*]In any case in some countries like Bulgaria	context()	negated: False ,passive: True
 0.938	[*A*]applications[*R*]are[*A*]above the recommended levels[*A*]in other regions	context()	negated: False ,passive: True
 0.975	[*A*]the actual values[*R*]fall[*A*]behind the needs[*A*]while in other regions , applications are above the recommended levels[*A*]In any case in some countries like Romania	context()	negated: False ,passive: True
-[LINE#71]Although high levels of soil P are observed on areas with high input and high yields, like those in north-western Europe, according to the Hungarian system, high fertilizer doses on these areas are still needed to secure the required yield levels.
+[LINE#85] Although high levels of soil P are observed on areas with high input and high yields, like those in north-western Europe, according to the Hungarian system, high fertilizer doses on these areas are still needed to secure the required yield levels.
 0.941	[*A*]high fertilizer doses on these areas[*R*]are needed[*A*]to secure the required yield levels[*A*]still	context()	negated: False ,passive: True
 0.926	[*A*]high levels of soil P[*R*]are observed[*A*]on areas with high yields	context()	negated: False ,passive: True
 0.926	[*A*]high levels of soil P[*R*]are observed[*A*]on areas with high input	context()	negated: False ,passive: True
-[LINE#72]Interestingly, the system of the UK, would not recommend additional fertilizer input on some of these areas of high P levels, e.g. in Belgium and the Netherlands, while in reality, they are constantly further fertilized (FAO, 2013).
+[LINE#86] Interestingly, the system of the UK, would not recommend additional fertilizer input on some of these areas of high P levels, e.g. in Belgium and the Netherlands, while in reality, they are constantly further fertilized (FAO, 2013).
 0.934	[*A*]the system of the UK[*R*]would not recommend[*A*]additional fertilizer input[*A*]on some of these areas of high P levels	context()	negated: True ,passive: False
 0.235	[*A*]they[*R*]are fertilized	context()	negated: False ,passive: False
 0.933	[*A*]the system of the UK[*R*]would not recommend e.g.[*A*]additional fertilizer input[*A*]on some of these areas of high P levels	context()	negated: True ,passive: False
-[LINE#73]Organic manure adds considerable amounts of P in regions with high livestock densities.
+[LINE#87] Organic manure adds considerable amounts of P in regions with high livestock densities.
 0.964	[*A*]Organic manure[*R*]adds[*A*]considerable amounts of P in regions with high livestock densities	context()	negated: False ,passive: False
-[LINE#74]In fact, most countries, where high P levels are measured (Fig. 1) are countries where organic manure provides considerable P inputs (Fig. 7).
+[LINE#88] In fact, most countries, where high P levels are measured (Fig. 1) are countries where organic manure provides considerable P inputs (Fig. 7).
 0.943	[*A*]organic manure[*R*]provides[*A*]considerable P inputs[*A*]countries	context()	negated: False ,passive: False
 0.987	[*A*]most countries, where high P levels are measured (Fig. 1)[*R*]are[*A*]countries where organic manure provides considerable P inputs (Fig. 7)	context()	negated: False ,passive: True
 0.939	[*A*]high P levels[*R*]are measured[*A*]most countries	context()	negated: False ,passive: True
-[LINE#75] Inconsistency between recommended and reported fertilizer applications (Table 3.)proves differences in the farming practice in different regions of the EU, while also reflect the possible shortcomings of the fertilizer usage reporting systems.
+[LINE#89+90]  Inconsistency between recommended and reported fertilizer applications (Table 3.)proves differences in the farming practice in different regions of the EU, while also reflect the possible shortcomings of the fertilizer usage reporting systems.
 0.911	[*A*]the fertilizer usage[*R*]reporting[*A*]systems	context()	negated: False ,passive: False
 0.961	[*A*]Inconsistency between recommended and reported fertilizer applications[*R*]proves[*A*]differences in the farming practice in different regions of the EU[*A*]while also reflect the possible shortcomings of the fertilizer usage reporting systems	context()	negated: False ,passive: False
-[LINE#76]The observed differences certainly highlight the possibility to further optimize P management within the EU, as it has been already advised in regional context by a number of authors (Csath et al., 2011; Hejcmana et al., 2012; Valkama et al., 2009).
+[LINE#91] The observed differences certainly highlight the possibility to further optimize P management within the EU, as it has been already advised in regional context by a number of authors (Csath et al., 2011; Hejcmana et al., 2012; Valkama et al., 2009).
 0.490	[*A*]it[*R*]has been advised[*A*]in regional context[*A*]by a number of authors[*A*]already	context()	negated: False ,passive: True
 0.944	[*A*]The observed differences[*R*]highlight[*A*]the possibility to further optimize P management within the EU,	context()	negated: False ,passive: False
-[LINE#77]The need for better statistical data on actual yield levels and P applications is also an essential precondition for optimized P management in the EU.Knowing the different regional distribution of P supply levels in the European Union cannot only be of valuable input in assessing current soil nutrient supply in relation to food security (Lal, 2013) and in assessing the need for fertilizer input to soils in Europe (Schrder et al., 2011) but also be of great value for the study of soil P loss to the environment (Sharpley et al., 2002; Heathwaite et al., 2005).
+[LINE#92] The need for better statistical data on actual yield levels and P applications is also an essential precondition for optimized P management in the EU.Knowing the different regional distribution of P supply levels in the European Union cannot only be of valuable input in assessing current soil nutrient supply in relation to food security (Lal, 2013) and in assessing the need for fertilizer input to soils in Europe (Schrder et al., 2011) but also be of great value for the study of soil P loss to the environment (Sharpley et al., 2002; Heathwaite et al., 2005).
 0.967	[*A*]an essential precondition for optimized P management in the EU.Knowing[*R*]can be[*A*]of valuable input in assessing current soil nutrient supply in relation to food security (Lal, 2013) and in assessing the need for fertilizer input to soils in Europe	context()	negated: False ,passive: True
 0.986	[*A*]The need for better statistical data on actual yield levels and P applications[*R*]is[*A*]also[*A*]an essential precondition for optimized P management in the EU.Knowing	context()	negated: False ,passive: True
-[LINE#78] Soil represents a temporary reservoir for phosphorus (P) in which its availability affects plant growth and biological processes.
+[LINE#93]  Soil represents a temporary reservoir for phosphorus (P) in which its availability affects plant growth and biological processes.
 0.759	[*A*]its availability[*R*]affects[*A*]biological processes[*A*]a temporary reservoir for phosphorus	context()	negated: False ,passive: False
 0.909	[*A*]Soil[*R*]represents[*A*]a temporary reservoir for phosphorus ( P ) in which its availability affects biological processes	context()	negated: False ,passive: False
 0.759	[*A*]its availability[*R*]affects[*A*]plant growth[*A*]a temporary reservoir for phosphorus	context()	negated: False ,passive: False
 0.909	[*A*]Soil[*R*]represents[*A*]a temporary reservoir for phosphorus ( P ) in which its availability affects plant growth	context()	negated: False ,passive: False
-[LINE#79]Soil phosphorus (P) is an essential element for plant growth but is often slowly available to plants within the soil environment.
+[LINE#94] Soil phosphorus (P) is an essential element for plant growth but is often slowly available to plants within the soil environment.
 0.938	[*A*]Soil[*R*]is[*A*]often[*A*]slowly available to plants within the soil environment	context()	negated: False ,passive: True
 0.934	[*A*]Soil phosphorus[*R*]is[*A*]an essential element for plant growth	context()	negated: False ,passive: True
-[LINE#80]This is mainly due to soil P being sorbed to the soil reactive clay surfaces, Al and Fe oxides, carbonates, organic matter.
+[LINE#95] This is mainly due to soil P being sorbed to the soil reactive clay surfaces, Al and Fe oxides, carbonates, organic matter.
 0.947	[*A*]soil P[*R*]being sorbed[*A*]to the soil reactive clay surfaces , Fe oxides , carbonates , organic matter	context()	negated: False ,passive: True
 0.612	[*A*]This[*R*]is[*A*]mainly[*A*]due to soil P being sorbed to the soil reactive clay surfaces , Fe oxides , carbonates , organic matter	context()	negated: False ,passive: True
 0.903	[*A*]soil P[*R*]being sorbed[*A*]to the soil reactive clay surfaces	context()	negated: False ,passive: True
 0.567	[*A*]This[*R*]is[*A*]mainly[*A*]due to soil P being sorbed to the soil reactive clay surfaces	context()	negated: False ,passive: True
-[LINE#81]The soil pH then determines the chemical complexion of P (Torrent, 1997; Borggaard et al., 2004).
+[LINE#96] The soil pH then determines the chemical complexion of P (Torrent, 1997; Borggaard et al., 2004).
 0.934	[*A*]The soil[*R*]determines[*A*]the chemical complexion of P[*A*]then	context()	negated: False ,passive: False
-[LINE#82]At a soil pH above 5.5 most soil phosphate reacts with calcium and at a pH below 5.5 it will react with Al and Fe oxides leaving P only slowly available to plants.
+[LINE#97] At a soil pH above 5.5 most soil phosphate reacts with calcium and at a pH below 5.5 it will react with Al and Fe oxides leaving P only slowly available to plants.
 0.293	[*A*]it[*R*]will react with Fe leaving[*A*]P only slowly available to plants	context(it will react)	negated: False ,passive: False
 0.686	[*A*]it[*R*]will react[*A*]with Fe[*A*]At a soil pH above 5.5 most soil phosphate reacts at a pH below 5.5	context()	negated: False ,passive: False
 0.388	[*A*]it[*R*]will react with Al oxides leaving[*A*]P only slowly available to plants	context(it will react)	negated: False ,passive: False
@@ -298,69 +298,69 @@
 0.686	[*A*]it[*R*]will react[*A*]with Fe[*A*]At a soil pH above 5.5 most soil phosphate reacts with calcium	context()	negated: False ,passive: False
 0.388	[*A*]it[*R*]will react with Al oxides leaving[*A*]P only slowly available to plants	context(it will react)	negated: False ,passive: False
 0.686	[*A*]it[*R*]will react[*A*]with Al[*A*]At a soil pH above 5.5 most soil phosphate reacts with calcium	context()	negated: False ,passive: False
-[LINE#83]Historically crop production did rely on natural availabilities of soil phosphorus (P) and input from organic manure.
-[LINE#84]However with the increased food demand, improved agrotechnology and availability of mineral P forms in the 20th and 21st centuries, fertilizer P application became the substantial source of soil P (Cordell et al., 2009).
+[LINE#98] Historically crop production did rely on natural availabilities of soil phosphorus (P) and input from organic manure.
+[LINE#99] However with the increased food demand, improved agrotechnology and availability of mineral P forms in the 20th and 21st centuries, fertilizer P application became the substantial source of soil P (Cordell et al., 2009).
 0.911	[*A*]fertilizer P application[*R*]became[*A*]the substantial source of soil P	context()	negated: False ,passive: True
-[LINE#85]In developed countries P accumulation took place in the past decades, due to high doses of P fertilization (Lemercier et al., 2008).
+[LINE#100] In developed countries P accumulation took place in the past decades, due to high doses of P fertilization (Lemercier et al., 2008).
 0.943	[*A*]P accumulation[*R*]took[*A*]place[*A*]in the past decades[*A*]In developed countries	context()	negated: False ,passive: True
-[LINE#86]Although the impact of P input to soils had a positive impact on crop production the impact on the environment such as eutrophication has become a problem within Europe (Csath et al., 2011).
+[LINE#101] Although the impact of P input to soils had a positive impact on crop production the impact on the environment such as eutrophication has become a problem within Europe (Csath et al., 2011).
 0.952	[*A*]the impact on the environment such as eutrophication[*R*]has become[*A*]a problem within Europe	context()	negated: False ,passive: True
 0.952	[*A*]the impact of P input to soils[*R*]had[*A*]a positive impact on crop production	context()	negated: False ,passive: False
-[LINE#87]Additionally the world's P supply is both finite and non-renewable (Jordan-Meille et al., 2012) which has caused tension within global P markets (IFA, 2012).
+[LINE#102] Additionally the world's P supply is both finite and non-renewable (Jordan-Meille et al., 2012) which has caused tension within global P markets (IFA, 2012).
 0.853	[*A*]the world 's P supply[*R*]is[*A*]non-renewable	context()	negated: False ,passive: True
 0.834	[*A*]the world 's P supply[*R*]has Additionally of[*A*]2012	context()	negated: False ,passive: False
 0.973	[*A*]the world 's P supply[*R*]is[*A*]2012	context()	negated: False ,passive: False
 0.994	[*A*]the world[*R*]has P supply of[*A*]2012	context()	negated: False ,passive: False
 0.934	[*A*]Jordan - Meille et al[*R*]has caused[*A*]tension within global P markets	context()	negated: False ,passive: False
 0.829	[*A*]the world 's P supply[*R*]is	context()	negated: False ,passive: False
-[LINE#88]Hence, P fertilizer usage must be carried out to secure a sustainable environment and best possible utilization by crops.
+[LINE#103] Hence, P fertilizer usage must be carried out to secure a sustainable environment and best possible utilization by crops.
 0.911	[*A*]P fertilizer usage[*R*]must be carried out[*A*]to secure best possible utilization by crops	context()	negated: False ,passive: True
 0.911	[*A*]P fertilizer usage[*R*]must be carried out[*A*]to secure a sustainable environment	context()	negated: False ,passive: True
-[LINE#89]To meet these challenges fertilizers recommendations to farmers become a common practice worldwide generally optimizing fertilizer doses to sustain a desired yield without a load to the environment.
+[LINE#104] To meet these challenges fertilizers recommendations to farmers become a common practice worldwide generally optimizing fertilizer doses to sustain a desired yield without a load to the environment.
 0.933	[*A*]a common practice[*R*]optimizing[*A*]fertilizer doses[*A*]to sustain a desired yield without a load to the environment	context()	negated: False ,passive: False
 0.919	[*A*]fertilizers recommendations to farmers[*R*]become[*A*]a common practice worldwide generally optimizing fertilizer doses	context()	negated: False ,passive: True
-[LINE#90]Consequently, soil P recommendation systems are widely used around the world to ensure good soil management and nutrient efficiency promoting agricultural sustainability.
+[LINE#105] Consequently, soil P recommendation systems are widely used around the world to ensure good soil management and nutrient efficiency promoting agricultural sustainability.
 0.919	[*A*]good soil nutrient efficiency[*R*]promoting[*A*]agricultural sustainability	context()	negated: False ,passive: False
 0.881	[*A*]soil P recommendation systems[*R*]are used[*A*]around the world[*A*]to ensure good soil nutrient efficiency	context()	negated: False ,passive: True
 0.881	[*A*]soil P recommendation systems[*R*]are used[*A*]around the world[*A*]to ensure good soil management	context()	negated: False ,passive: True
-[LINE#91]However recommendation systems differ considerably among countries.
+[LINE#106] However recommendation systems differ considerably among countries.
 0.732	[*A*]recommendation systems[*R*]differ considerably	context()	negated: False ,passive: False
-[LINE#92]Not many systems can be found as peer reviewed literature; however a brief overview on those available is hereby given.
+[LINE#107] Not many systems can be found as peer reviewed literature; however a brief overview on those available is hereby given.
 0.888	[*A*]Not many systems[*R*]can be found[*A*]as peer reviewed literature	context(a brief overview on those available is hereby given)	negated: False ,passive: True
 0.756	[*A*]a brief overview on those available[*R*]is hereby given	context()	negated: False ,passive: False
 0.894	[*A*]peer[*R*]reviewed[*A*]literature	context()	negated: False ,passive: False
-[LINE#93]Phosphorus recommendation systems are commonly used in Brazil, in a country where soils are generally nutrient poor.
+[LINE#108] Phosphorus recommendation systems are commonly used in Brazil, in a country where soils are generally nutrient poor.
 0.938	[*A*]soils[*R*]are[*A*]generally nutrient poor[*A*]a country	context()	negated: False ,passive: True
 0.890	[*A*]Phosphorus recommendation systems[*R*]are used[*A*]in Brazil[*A*]in a country	context()	negated: False ,passive: True
-[LINE#94]The Brazilian recommendation systems are based on quantitative analyses of soil input variables.
+[LINE#109] The Brazilian recommendation systems are based on quantitative analyses of soil input variables.
 0.919	[*A*]The Brazilian recommendation systems[*R*]are based[*A*]on quantitative analyses of soil input variables	context()	negated: False ,passive: True
-[LINE#95] The input variable consists of the following factors; cation exchange capacity (CEC), base saturation (BS), base sum, exchangeable aluminium (Al),calcium/magnesium (Ca/Mg), potassium (K) and P levels, sodium (Na) saturation and electrical conductivity.
+[LINE#110+111+112]  The input variable consists of the following factors; cation exchange capacity (CEC), base saturation (BS), base sum, exchangeable aluminium (Al),calcium/magnesium (Ca/Mg), potassium (K) and P levels, sodium (Na) saturation and electrical conductivity.
 0.911	[*A*]The input variable[*R*]consists[*A*]of the following factors ; electrical conductivity	context()	negated: False ,passive: True
 0.911	[*A*]The input variable[*R*]consists[*A*]of the following factors ; base sum	context()	negated: False ,passive: True
 0.911	[*A*]The input variable[*R*]consists[*A*]of the following factors	context()	negated: False ,passive: True
-[LINE#96]The output variable of the system is the amount of fertilizer to be applied.
+[LINE#113] The output variable of the system is the amount of fertilizer to be applied.
 0.769	[*A*]the amount of fertilizer[*R*]to be applied	context()	negated: False ,passive: False
 0.948	[*A*]The output variable of the system[*R*]is[*A*]the amount of fertilizer to be applied	context()	negated: False ,passive: True
-[LINE#97]This is mainly based on 4 classes, low, medium, high to very high (Palhares et al., 2001).
+[LINE#114] This is mainly based on 4 classes, low, medium, high to very high (Palhares et al., 2001).
 0.437	[*A*]This[*R*]is based[*A*]on 4 classes, low, medium, high to very high (Palhares et al., 2001	context()	negated: False ,passive: True
-[LINE#98]While Brazil follows a detailed set of variables when recommending P fertilizer levels, the agronomists at Kansas University - who, among other land grant Universities in the United States, provide single rate recommendation for nutrients such as P - are developing a fertilizer recommendation system that gives growers the flexibility to choose a soil management practice suitable for their needs.
+[LINE#115] While Brazil follows a detailed set of variables when recommending P fertilizer levels, the agronomists at Kansas University - who, among other land grant Universities in the United States, provide single rate recommendation for nutrients such as P - are developing a fertilizer recommendation system that gives growers the flexibility to choose a soil management practice suitable for their needs.
 0.893	[*A*]a fertilizer recommendation system[*R*]gives[*A*]growers[*A*]the flexibility to choose a soil management practice suitable for their needs	context()	negated: False ,passive: False
 0.795	[*A*]growers[*R*]to choose[*A*]a soil management practice suitable for their needs	context()	negated: False ,passive: False
 0.852	[*A*]Brazil[*R*]follows a detailed set of variables recommending[*A*]P fertilizer levels	context(Brazil follows)	negated: False ,passive: False
 0.945	[*A*]Brazil[*R*]follows[*A*]a detailed set of variables[*A*]when recommending P fertilizer levels, the agronomists at Kansas University	context()	negated: False ,passive: False
-[LINE#99]This flexibility included choosing from 2 systems, the "nutrient sufficiency recommendation system" which is developed to provide a 90-95% maximum yield for the year, and the "build maintenance fertility program" based soil test values over a planned period of time, usually 4-8 years, for both immediate crop needs and build up levels to a non-limiting value (Leikam et al., 2003).
+[LINE#116] This flexibility included choosing from 2 systems, the "nutrient sufficiency recommendation system" which is developed to provide a 90-95% maximum yield for the year, and the "build maintenance fertility program" based soil test values over a planned period of time, usually 4-8 years, for both immediate crop needs and build up levels to a non-limiting value (Leikam et al., 2003).
 0.953	[*A*]the "nutrient sufficiency recommendation system" which is developed[*R*]to provide[*A*]a 90-95% maximum yield for the year	context()	negated: False ,passive: False
 0.773	[*A*]the "nutrient sufficiency recommendation system[*R*]is developed	context()	negated: False ,passive: False
 0.937	[*A*]This flexibility[*R*]included[*A*]choosing from 2 systems, the "nutrient sufficiency recommendation system" which is developed to provide a 90-95% maximum yield for the year, and the "build maintenance fertility program" based soil test values over a planned period of time, usually 4-8 years, for both immediate crop needs and build up levels to a non-limiting value	context()	negated: False ,passive: True
-[LINE#100]In West Africa, a framework to optimize soil fertility management in rice production is in use were the yield potential is estimated by an ecophysiological model based on weather conditions, cultivar species and sowing date.
+[LINE#117] In West Africa, a framework to optimize soil fertility management in rice production is in use were the yield potential is estimated by an ecophysiological model based on weather conditions, cultivar species and sowing date.
 0.911	[*A*]an ecophysiological model[*R*]based[*A*]on sowing date	context()	negated: False ,passive: True
 0.911	[*A*]an ecophysiological model[*R*]based[*A*]on cultivar species	context()	negated: False ,passive: True
 0.911	[*A*]an ecophysiological model[*R*]based[*A*]on weather conditions	context()	negated: False ,passive: True
 0.983	[*A*]a framework to optimize soil fertility management in rice production[*R*]is[*A*]in use[*A*]In West Africa	context()	negated: False ,passive: True
-[LINE#101]This yield potential is used as an input into a static model together with field specific data such as recovery efficiency of applied N, P and K, indigenous NPK supply and maximum NPK accumulation.
+[LINE#118] This yield potential is used as an input into a static model together with field specific data such as recovery efficiency of applied N, P and K, indigenous NPK supply and maximum NPK accumulation.
 0.911	[*A*]This yield potential[*R*]is used[*A*]as an input into a static model	context()	negated: False ,passive: True
 0.952	[*A*]This yield potential[*R*]is used[*A*]as an input into a static model together with field specific data such as recovery efficiency of applied N	context()	negated: False ,passive: True
-[LINE#102]Outputs of the framework include, required fertilizer doses to obtain different yield targets depending on yield potential and the soil nutrient supply (Haefele et al., 2003).Sims (1992) conducted a study assessing different P tests for fertilizer recommendations used in Europe and confirmed their effectiveness.
+[LINE#119] Outputs of the framework include, required fertilizer doses to obtain different yield targets depending on yield potential and the soil nutrient supply (Haefele et al., 2003).Sims (1992) conducted a study assessing different P tests for fertilizer recommendations used in Europe and confirmed their effectiveness.
 0.904	[*A*]Outputs of the framework[*R*]include[*A*]required fertilizer doses	context()	negated: False ,passive: True
 0.393	[*A*]1992[*R*]confirmed[*A*]their effectiveness	context()	negated: False ,passive: False
 0.890	[*A*]fertilizer doses[*R*]to obtain[*A*]different yield targets depending on yield potential . Sims ( 1992 confirmed their effectiveness .	context()	negated: False ,passive: False
@@ -375,37 +375,37 @@
 0.918	[*A*]fertilizer recommendations[*R*]used[*A*]in Europe	context()	negated: False ,passive: True
 0.888	[*A*]Outputs of the framework[*R*]required[*A*]to obtain different yield targets	context()	negated: False ,passive: False
 0.903	[*A*]a study[*R*]assessing[*A*]different P tests[*A*]for fertilizer recommendations	context()	negated: False ,passive: False
-[LINE#103]The amount of P extracted did however differ, with different extraction methods.
+[LINE#120] The amount of P extracted did however differ, with different extraction methods.
 0.705	[*A*]The amount of P extracted[*R*]did differ	context()	negated: False ,passive: False
 0.769	[*A*]The amount of P[*R*]extracted	context()	negated: False ,passive: False
-[LINE#104] (2012) published an overview of fertilizer P recommendation systems in Europe where fertilizer recommendation systems from 18 countries were compared weredata on different fertilization systems was obtained from the peer reviewed literature, personal contact and the "grey literature".
+[LINE#121+122]  (2012) published an overview of fertilizer P recommendation systems in Europe where fertilizer recommendation systems from 18 countries were compared weredata on different fertilization systems was obtained from the peer reviewed literature, personal contact and the "grey literature".
 0.926	[*A*]weredata on different fertilization systems[*R*]was obtained[*A*]from the " grey literature	context()	negated: False ,passive: True
 0.926	[*A*]weredata on different fertilization systems[*R*]was obtained[*A*]from personal contact	context()	negated: False ,passive: True
 0.894	[*A*]peer[*R*]reviewed[*A*]literature	context()	negated: False ,passive: False
 0.926	[*A*]weredata on different fertilization systems[*R*]was obtained[*A*]from the peer reviewed literature	context()	negated: False ,passive: True
 0.801	[*A*]fertilizer recommendation systems from 18 countries[*R*]were compared	context()	negated: False ,passive: False
 0.549	[*A*]2012[*R*]published[*A*]an overview of fertilizer P recommendation systems in Europe	context()	negated: False ,passive: False
-[LINE#105]In Europe P recommendation systems are mainly based on 3 steps.
-[LINE#106]The first step includes soil testing to approximate the crop available P pool in soil.
+[LINE#123] In Europe P recommendation systems are mainly based on 3 steps.
+[LINE#124] The first step includes soil testing to approximate the crop available P pool in soil.
 0.911	[*A*]The first step[*R*]includes[*A*]soil testing	context()	negated: False ,passive: True
-[LINE#107]The second test involves relating results from the before mentioned soil tests to yield response (correlations between soil P tests and field trials) to account, similarly to already mentioned Brazilian system, for a 90% maximum yield per year.
+[LINE#125] The second test involves relating results from the before mentioned soil tests to yield response (correlations between soil P tests and field trials) to account, similarly to already mentioned Brazilian system, for a 90% maximum yield per year.
 0.888	[*A*]The second test[*R*]involves[*A*]relating results from the before mentioned soil tests	context(correlations between soil P tests and field trials ) to account to mentioned)	negated: False ,passive: True
 0.944	[*A*]correlations between soil P tests and field trials) to account[*R*]to mentioned[*A*]Brazilian system[*A*]similarly[*A*]already	context()	negated: False ,passive: False
-[LINE#108]Based on these results, threshold values are often developed to divide soils into 3 different categories, "low", "medium", "high" and sometimes "excessive".
+[LINE#126] Based on these results, threshold values are often developed to divide soils into 3 different categories, "low", "medium", "high" and sometimes "excessive".
 0.761	[*A*]threshold values[*R*]are developed[*A*]often	context()	negated: False ,passive: True
-[LINE#109]From these categories the third step takes place, that is, the actual P recommendation is calculated.
+[LINE#127] From these categories the third step takes place, that is, the actual P recommendation is calculated.
 0.870	[*A*]the third step[*R*]takes[*A*]place[*A*]that is, the actual P recommendation is calculated[*A*]From these categories	context()	negated: False ,passive: True
-[LINE#110]According to the review conducted by Jordan-Meille et al.
+[LINE#128] According to the review conducted by Jordan-Meille et al.
 0.918	[*A*]the review[*R*]conducted[*A*]by Jordan-Meille et al	context()	negated: False ,passive: True
-[LINE#111](2012), the main difference between P recommendation systems in European countries was the chemical method used to extract P during the soil P test.
+[LINE#129] (2012), the main difference between P recommendation systems in European countries was the chemical method used to extract P during the soil P test.
 0.911	[*A*]the chemical method[*R*]used[*A*]to extract P during the soil P test	context()	negated: False ,passive: True
 0.977	[*A*]the main difference between P recommendation systems in European countries[*R*]was[*A*]the chemical method used to extract P during the soil P test	context()	negated: False ,passive: True
-[LINE#112]Some use strong extractants which dissolved strongly bound P and hence does not necessarily represent the actual labile pool of P in soils and others use week extractants like water or week acids which might underestimate available soil P (Neyroud and Lischer, 2003).
+[LINE#130] Some use strong extractants which dissolved strongly bound P and hence does not necessarily represent the actual labile pool of P in soils and others use week extractants like water or week acids which might underestimate available soil P (Neyroud and Lischer, 2003).
 0.892	[*A*]strong extractants[*R*]does not represent[*A*]the actual labile pool of P in soils and others	context()	negated: True ,passive: False
 0.887	[*A*]strong extractants[*R*]dissolved[*A*]strongly bound P	context()	negated: False ,passive: False
 0.905	[*A*]water or week acids[*R*]might underestimate[*A*]available soil P	context()	negated: False ,passive: False
 0.657	[*A*]Some[*R*]use[*A*]strong extractants which dissolved strongly bound P and hence does not necessarily represent the actual labile pool of P in soils and others use week extractants like water or week acids	context()	negated: False ,passive: False
-[LINE#113] Moreover about half of the recommendation systems used in Europe take into account other factors such as crop characteristic (Belgium, Hungary, Sweden, Denmark, England, France, Germany and Switzerland) and soil characteristics such as soil texture, clay and organic matter content, soil pH, carbonate content and soil type (France, Italy, Switzerland and the Netherlands) the frame of the Land Use/Land Cover Area Frame Survey (LUCAS, Eurostat, 2013a) sampling of topsoil (upper 20cm) was carried out on around 22,000 points in 25 EU Member States in 2009and in other 2 Member States - Bulgaria and Romania - in 2012 (Tth et al., 2013c).
+[LINE#131+132+133+134]  Moreover about half of the recommendation systems used in Europe take into account other factors such as crop characteristic (Belgium, Hungary, Sweden, Denmark, England, France, Germany and Switzerland) and soil characteristics such as soil texture, clay and organic matter content, soil pH, carbonate content and soil type (France, Italy, Switzerland and the Netherlands) the frame of the Land Use/Land Cover Area Frame Survey (LUCAS, Eurostat, 2013a) sampling of topsoil (upper 20cm) was carried out on around 22,000 points in 25 EU Member States in 2009and in other 2 Member States - Bulgaria and Romania - in 2012 (Tth et al., 2013c).
 0.957	[*A*]about half of the recommendation systems[*R*]take[*A*]into account[*A*]other factors such as crop characteristic ( soil characteristics such as soil type ( the Netherlands ) - in 2012	context()	negated: False ,passive: False
 0.957	[*A*]about half of the recommendation systems[*R*]take[*A*]into account[*A*]other factors such as crop characteristic ( soil characteristics such as soil type ( Italy ) - in 2012	context()	negated: False ,passive: False
 0.957	[*A*]about half of the recommendation systems[*R*]take[*A*]into account[*A*]other factors such as crop characteristic ( soil characteristics such as soil type ( France ) - in 2012	context()	negated: False ,passive: False
@@ -419,40 +419,40 @@
 0.957	[*A*]about half of the recommendation systems[*R*]take[*A*]into account[*A*]other factors such as crop characteristic ( England - in 2012	context()	negated: False ,passive: False
 0.921	[*A*]about half of the recommendation systems[*R*]take[*A*]into account[*A*]other factors such as crop characteristic	context()	negated: False ,passive: False
 0.925	[*A*]the recommendation systems[*R*]used[*A*]in Europe	context()	negated: False ,passive: True
-[LINE#114]Beside other basic soil properties soil nutrient (N, P, K) content of these samples were measured in a single laboratory using standard determination method (ISO, 1994) which is based on the method of Olsen et al.
+[LINE#135] Beside other basic soil properties soil nutrient (N, P, K) content of these samples were measured in a single laboratory using standard determination method (ISO, 1994) which is based on the method of Olsen et al.
 0.971	[*A*]a single laboratory using standard determination method (ISO, 1994)[*R*]is based[*A*]on the method of Olsen et al	context()	negated: False ,passive: True
 0.976	[*A*]P, K) content of these samples[*R*]were measured[*A*]in a single laboratory[*A*]Beside other basic soil properties soil nutrient (N	context()	negated: False ,passive: True
-[LINE#115]Results of the LUCAS topsoil survey and laboratory analysis allows an assessment of nutrient status of croplands at a European scale.
+[LINE#136] Results of the LUCAS topsoil survey and laboratory analysis allows an assessment of nutrient status of croplands at a European scale.
 0.948	[*A*]Results of laboratory analysis[*R*]allows[*A*]an assessment of nutrient status of croplands at a European scale	context()	negated: False ,passive: False
 0.939	[*A*]Results of the LUCAS topsoil survey[*R*]allows[*A*]an assessment of nutrient status of croplands at a European scale	context()	negated: False ,passive: False
-[LINE#116]As no coherent figures from EU Member States were available to date - mainly due to data accessibility problems or lack of data - the LUCAS topsoil survey provides a unique opportunity for a European overview of this issue.
+[LINE#137] As no coherent figures from EU Member States were available to date - mainly due to data accessibility problems or lack of data - the LUCAS topsoil survey provides a unique opportunity for a European overview of this issue.
 0.381	[*A*]States[*R*][is] Member [of][*A*]EU	context()	negated: False ,passive: False
 0.961	[*A*]the LUCAS topsoil survey[*R*]provides[*A*]a unique opportunity for a European overview of this issue	context()	negated: False ,passive: False
 0.952	[*A*]no coherent figures from EU Member States[*R*]were mainly due[*A*]available to date	context()	negated: False ,passive: True
-[LINE#117] The LUCAS topsoil P data can help to refine and update incomplete or outdated national spatial phosphorus datasets or just provide an independent set of data for cross-comparison for countries where soil P data is available, such as the UK (Emmett et al., 2010) or France(Huyghe, 2013).The aim of our current study was to make a comparative assessment of plant-available phosphorus levels of croplands in regions of the European Union using the data from the LUCAS topsoil survey.
+[LINE#138+139+140]  The LUCAS topsoil P data can help to refine and update incomplete or outdated national spatial phosphorus datasets or just provide an independent set of data for cross-comparison for countries where soil P data is available, such as the UK (Emmett et al., 2010) or France(Huyghe, 2013).The aim of our current study was to make a comparative assessment of plant-available phosphorus levels of croplands in regions of the European Union using the data from the LUCAS topsoil survey.
 0.960	[*A*]soil P data[*R*]is[*A*]available[*A*]countries	context()	negated: False ,passive: True
 0.814	[*A*]The LUCAS topsoil P data[*R*]can help to update[*A*]incomplete or outdated national spatial phosphorus datasets	context(The LUCAS topsoil P data can help The aim of our current study was)	negated: False ,passive: False
 0.663	[*A*]The LUCAS topsoil P data[*R*]can help to refine	context(The LUCAS topsoil P data can help The aim of our current study was)	negated: False ,passive: False
 0.928	[*A*]The LUCAS topsoil P data[*R*]can help[*A*]to refine and update incomplete or outdated national spatial phosphorus datasets or just provide an independent set of data for cross-comparison for countries where soil P data is available, such as the UK	context(The aim of our current study was)	negated: False ,passive: False
 0.836	[*A*]The aim of our current study[*R*]was[*A*]to make a comparative assessment of plant-available phosphorus levels of croplands in regions of the European Union	context()	negated: False ,passive: True
-[LINE#118]Plant available phosphorus levels were determined using two selected fertilizer recommendation systems: one from Hungary (Antal et al., 1979) one from the United Kingdom (DEFRA, 2010).
+[LINE#141] Plant available phosphorus levels were determined using two selected fertilizer recommendation systems: one from Hungary (Antal et al., 1979) one from the United Kingdom (DEFRA, 2010).
 0.905	[*A*]Plant available phosphorus levels[*R*]using[*A*]two selected fertilizer recommendation systems	context()	negated: False ,passive: False
 0.919	[*A*]Plant available phosphorus levels[*R*]were determined[*A*]using two selected fertilizer recommendation systems	context()	negated: False ,passive: True
-[LINE#119]These two systems were chosen as they are developed for two contrasting agro-ecologic regions of Europe, did not include site specific criteria which were not adaptable in other parts of the EU and hence were easily applicable to a large Pan European dataset such as the hereby presented LUCAS soil dataset.
+[LINE#142] These two systems were chosen as they are developed for two contrasting agro-ecologic regions of Europe, did not include site specific criteria which were not adaptable in other parts of the EU and hence were easily applicable to a large Pan European dataset such as the hereby presented LUCAS soil dataset.
 0.976	[*A*]site specific criteria hence were easily applicable to a large Pan European[*R*]dataset[*A*]such as the hereby presented LUCAS soil dataset	context()	negated: False ,passive: True
 0.918	[*A*]the hereby[*R*]presented[*A*]LUCAS soil dataset	context()	negated: False ,passive: False
 0.913	[*A*]site specific criteria[*R*]were not[*A*]adaptable in other parts of the EU dataset[*A*]such as the hereby presented LUCAS soil dataset	context()	negated: True ,passive: True
-[LINE#120]Further to the determination and comparison of plant available phosphorus levels we made an attempt for a general estimation of P demand of croplands in the European Union, based on yield statistics and the data from the LUCAS topsoil survey.
+[LINE#143] Further to the determination and comparison of plant available phosphorus levels we made an attempt for a general estimation of P demand of croplands in the European Union, based on yield statistics and the data from the LUCAS topsoil survey.
 0.966	[*A*]a general estimation of P demand of croplands in the European Union[*R*]based[*A*]on yield statistics	context()	negated: False ,passive: True
 0.614	[*A*]we[*R*]made[*A*]an attempt for a general estimation of P demand of croplands in the European Union	context()	negated: False ,passive: False
-[LINE#121] databaseApproximately 22,000 topsoil (upper 20cm) samples with unique georeferenced location were collected in 2009 from 25 European Union (EU) Member States (EU-27 except Bulgaria and Romania) andin 2012 in Bulgaria and Romania with the aim to produce the first coherent baseline topsoil database for continental scale monitoring (Tth et al., 2013a,b,c).
-[LINE#122]The soil sampling was undertaken within the frame of the Land Use/Land Cover Area Frame Survey (LUCAS), a EU wide project to monitor changes in the management and character of the land surface (Eurostat, 2013a).
+[LINE#144+145+146]  databaseApproximately 22,000 topsoil (upper 20cm) samples with unique georeferenced location were collected in 2009 from 25 European Union (EU) Member States (EU-27 except Bulgaria and Romania) andin 2012 in Bulgaria and Romania with the aim to produce the first coherent baseline topsoil database for continental scale monitoring (Tth et al., 2013a,b,c).
+[LINE#147] The soil sampling was undertaken within the frame of the Land Use/Land Cover Area Frame Survey (LUCAS), a EU wide project to monitor changes in the management and character of the land surface (Eurostat, 2013a).
 0.381	[*A*]2013a )[*R*][is] the character of[*A*]the land surface ( Eurostat	context()	negated: False ,passive: False
 0.939	[*A*]a EU wide project[*R*]to monitor[*A*]changes in the character of the land surface	context()	negated: False ,passive: False
 0.939	[*A*]a EU wide project[*R*]to monitor[*A*]changes in the management of the land surface	context()	negated: False ,passive: False
 0.952	[*A*]The soil sampling[*R*]was undertaken[*A*]within the frame of the Land Use / Land Cover Area Frame Survey	context()	negated: False ,passive: True
-[LINE#123] Based on a stratified sampling scheme samples were taken from all land cover classes, with systematically higher proportions from arable and grasslands.
-[LINE#124]Soil samples have been analysed for basic soil properties such as particle size distribution, pH, organic carbon, carbonates, NPK, cation exchange capacity (CEC) and multispectral signatures.
+[LINE#148]  Based on a stratified sampling scheme samples were taken from all land cover classes, with systematically higher proportions from arable and grasslands.
+[LINE#149] Soil samples have been analysed for basic soil properties such as particle size distribution, pH, organic carbon, carbonates, NPK, cation exchange capacity (CEC) and multispectral signatures.
 0.903	[*A*]Soil samples[*R*]have been analysed[*A*]for basic soil properties such as multispectral signatures	context()	negated: False ,passive: True
 0.903	[*A*]Soil samples[*R*]have been analysed[*A*]for basic soil properties such as cation exchange capacity	context()	negated: False ,passive: True
 0.918	[*A*]Soil samples[*R*]have been analysed[*A*]for basic soil properties such as NPK	context()	negated: False ,passive: True
@@ -460,154 +460,154 @@
 0.903	[*A*]Soil samples[*R*]have been analysed[*A*]for basic soil properties such as organic carbon	context()	negated: False ,passive: True
 0.918	[*A*]Soil samples[*R*]have been analysed[*A*]for basic soil properties such as pH	context()	negated: False ,passive: True
 0.903	[*A*]Soil samples[*R*]have been analysed[*A*]for basic soil properties such as particle size distribution	context()	negated: False ,passive: True
-[LINE#125]Analysis of soil parameters followed standard procedures.
+[LINE#150] Analysis of soil parameters followed standard procedures.
 0.919	[*A*]Analysis of soil parameters[*R*]followed[*A*]standard procedures	context()	negated: False ,passive: False
-[LINE#126](2013a) provided detailed description on the methodology and data of the LUCAS topsoil survey.
-[LINE#127]Analysis of the P amount was carried out with spectrometric determination of phosphorus soluble in sodium hydrogen carbonate solution (ISO, 1994).
+[LINE#151] (2013a) provided detailed description on the methodology and data of the LUCAS topsoil survey.
+[LINE#152] Analysis of the P amount was carried out with spectrometric determination of phosphorus soluble in sodium hydrogen carbonate solution (ISO, 1994).
 0.785	[*A*]Analysis of the P amount[*R*]was carried out	context()	negated: False ,passive: False
-[LINE#128]Results of P measurement of samples from the LUCAS topsoil survey were used in our assessment.
+[LINE#153] Results of P measurement of samples from the LUCAS topsoil survey were used in our assessment.
 0.894	[*A*]Results of P measurement of samples from the LUCAS topsoil survey[*R*]were used[*A*]in our assessment	context()	negated: False ,passive: True
-[LINE#129]1a shows the spatial representation of measured phosphorus content at the LUCAS sampling sites (Hermann, 2013). .
+[LINE#154] 1a shows the spatial representation of measured phosphorus content at the LUCAS sampling sites (Hermann, 2013). .
 0.967	[*A*]1a[*R*]shows[*A*]the spatial representation of measured phosphorus content at the LUCAS sampling sites	context()	negated: False ,passive: False
-[LINE#130]Region (NUTS) maps of the European UnionFor the regional analysis of P levels in the EU the maps of basic regions for the application of regional policies (NUTS2; Eurostat, 2013b) were used.
+[LINE#155] Region (NUTS) maps of the European UnionFor the regional analysis of P levels in the EU the maps of basic regions for the application of regional policies (NUTS2; Eurostat, 2013b) were used.
 0.740	[*A*]Eurostat[*R*]were used	context()	negated: False ,passive: False
-[LINE#131]The spatial dataset of the NUTS2 units was accessed from the Eurostat website. .
+[LINE#156] The spatial dataset of the NUTS2 units was accessed from the Eurostat website. .
 0.857	[*A*]The spatial dataset of the NUTS2 units[*R*]was accessed	context()	negated: False ,passive: False
-[LINE#132]E land cover dataThe CORINE land cover (CO-oRdination of INformation on the Environment; CLC) database (EEA, 2011) was used to delineate agricultural areas for the assessment.
+[LINE#157] E land cover dataThe CORINE land cover (CO-oRdination of INformation on the Environment; CLC) database (EEA, 2011) was used to delineate agricultural areas for the assessment.
 0.969	[*A*]E land cover dataThe CORINE land cover (CO-oRdination of INformation on the Environment; CLC) database (EEA[*R*]to delineate[*A*]agricultural areas[*A*]for the assessment	context()	negated: False ,passive: False
 0.969	[*A*]E land cover dataThe CORINE land cover (CO-oRdination of INformation on the Environment; CLC) database (EEA[*R*]was used[*A*]to delineate agricultural areas for the assessment	context()	negated: False ,passive: True
-[LINE#133] The CLC data of 2000 includes information on land cover in European countries, including member states of the European Union(JRC-EEA, 2005), therefore this dataset was used in the analysis.
+[LINE#158+159]  The CLC data of 2000 includes information on land cover in European countries, including member states of the European Union(JRC-EEA, 2005), therefore this dataset was used in the analysis.
 0.903	[*A*]this dataset[*R*]was used[*A*]in the analysis	context()	negated: False ,passive: True
 0.970	[*A*]The CLC data of 2000[*R*]includes[*A*]information on land cover in European countries, including member states of the European Union(JRC-EEA, 2005), therefore this dataset was used in the analysis	context()	negated: False ,passive: True
-[LINE#134]The dataset uses a classification scheme, including 44 land cover classes organized into three hierarchical levels (CEC-EEA, 1993).
+[LINE#160] The dataset uses a classification scheme, including 44 land cover classes organized into three hierarchical levels (CEC-EEA, 1993).
 0.919	[*A*]44 land cover classes[*R*]organized[*A*]into three hierarchical levels	context()	negated: False ,passive: True
 0.903	[*A*]The dataset[*R*]uses[*A*]a classification scheme, including 44 land cover classes	context()	negated: False ,passive: False
-[LINE#135]We focused our assessment on arable land (Corine categories 211, 212 and 213) for two reasons.
+[LINE#161] We focused our assessment on arable land (Corine categories 211, 212 and 213) for two reasons.
 0.309	[*A*]We[*R*]focused[*A*]our assessment[*A*]on arable land ( Corine categories 211	context()	negated: False ,passive: False
-[LINE#136]First, because arable areas are the main targets of fertilizer use and we were interested in analysing P levels from the viewpoint of actual and recommended P inputs.
+[LINE#162] First, because arable areas are the main targets of fertilizer use and we were interested in analysing P levels from the viewpoint of actual and recommended P inputs.
 0.411	[*A*]we[*R*]in analysing[*A*]P levels from the viewpoint of recommended P inputs	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]were[*A*]interested in analysing P levels from the viewpoint of recommended P inputs	context()	negated: False ,passive: True
 0.411	[*A*]we[*R*]in analysing[*A*]P levels from the viewpoint of actual	context()	negated: False ,passive: False
 0.569	[*A*]we[*R*]were[*A*]interested in analysing P levels from the viewpoint of actual	context()	negated: False ,passive: True
-[LINE#137]Second, because P levels of arable lands are crucial both for food security and environmental reasons.
+[LINE#163] Second, because P levels of arable lands are crucial both for food security and environmental reasons.
 0.926	[*A*]P levels of arable lands[*R*]are[*A*]crucial both for food security	context()	negated: False ,passive: True
-[LINE#138]Statistical data on crop yieldsOfficial statistics of the European Union on common wheat yields by regional (NUTS2) levels, and national crop statistics from the UK (DEFRA, 2012a) and Hungary (HCSO, 2013) were used in the analyses.
+[LINE#164] Statistical data on crop yieldsOfficial statistics of the European Union on common wheat yields by regional (NUTS2) levels, and national crop statistics from the UK (DEFRA, 2012a) and Hungary (HCSO, 2013) were used in the analyses.
 0.984	[*A*]Statistical data on crop yieldsOfficial statistics of the European Union on common wheat yields by national crop statistics from Hungary[*R*]were used[*A*]in the analyses	context()	negated: False ,passive: True
 0.972	[*A*]Statistical data on crop yieldsOfficial statistics of the European Union on common wheat yields by national crop statistics from the UK[*R*]were used[*A*]in the analyses	context()	negated: False ,passive: True
 0.974	[*A*]Statistical data on crop yieldsOfficial statistics of the European Union on common wheat yields by regional ( NUTS2 ) levels[*R*]were used[*A*]in the analyses	context()	negated: False ,passive: True
-[LINE#139] Data - which is presented in Fig.2 - were accessed through the Eurostat website (Eurostat, 2013c) and from the cereal production survey of UK (DEFRA, 2012a,b). .
+[LINE#165+166]  Data - which is presented in Fig.2 - were accessed through the Eurostat website (Eurostat, 2013c) and from the cereal production survey of UK (DEFRA, 2012a,b). .
 0.921	[*A*]Data[*R*]were accessed[*A*]from the cereal production survey of UK	context()	negated: False ,passive: True
 0.740	[*A*]Data[*R*]were accessed	context()	negated: False ,passive: False
 0.906	[*A*]Data[*R*]is presented[*A*]in Fig.2	context()	negated: False ,passive: True
-[LINE#140]Statistical data on fertilizer useOfficial fertilizer statistics from the UK (DEFRA, 2012b), Hungary (HCSO, 2013) and the FAO (FAO, 2013) were used for our comparative assessment. .
+[LINE#167] Statistical data on fertilizer useOfficial fertilizer statistics from the UK (DEFRA, 2012b), Hungary (HCSO, 2013) and the FAO (FAO, 2013) were used for our comparative assessment. .
 0.926	[*A*]Statistical data on fertilizer useOfficial fertilizer statistics from the FAO[*R*]were used[*A*]for our comparative assessment	context()	negated: False ,passive: True
 0.919	[*A*]Statistical data on fertilizer useOfficial fertilizer statistics from Hungary[*R*]were used[*A*]for our comparative assessment	context()	negated: False ,passive: True
 0.926	[*A*]Statistical data on fertilizer useOfficial fertilizer statistics from the UK[*R*]were used[*A*]for our comparative assessment	context()	negated: False ,passive: True
-[LINE#141]Categorization of measured P concentrationsWe used the measured P concentrations to establish nutrient level categories for each LUCAS topsoil sample and to perform comparative analysis of P levels in cropland of the EU.
+[LINE#168] Categorization of measured P concentrationsWe used the measured P concentrations to establish nutrient level categories for each LUCAS topsoil sample and to perform comparative analysis of P levels in cropland of the EU.
 0.590	[*A*]each[*R*]to perform[*A*]comparative analysis of P levels[*A*]in cropland of the EU	context()	negated: False ,passive: False
 0.944	[*A*]Categorization of measured P concentrationsWe[*R*]used[*A*]the measured P concentrations[*A*]to establish nutrient level categories	context()	negated: False ,passive: False
 0.970	[*A*]Categorization of measured P concentrationsWe[*R*]used[*A*]the measured P concentrations[*A*]to establish nutrient level categories for each LUCAS topsoil sample	context()	negated: False ,passive: False
-[LINE#142]In this study we classified the P concentration of soil samples from the LUCAS topsoil survey based on measured Olsen-P levels using equal-sized data subsets by each 20 percentiles (i) and threshold values of two different fertilizer recommendation systems (ii and iii).
+[LINE#169] In this study we classified the P concentration of soil samples from the LUCAS topsoil survey based on measured Olsen-P levels using equal-sized data subsets by each 20 percentiles (i) and threshold values of two different fertilizer recommendation systems (ii and iii).
 0.740	[*A*]we[*R*]classified[*A*]the P concentration of soil samples from the LUCAS topsoil survey[*A*]In this study	context()	negated: False ,passive: False
-[LINE#143]The most widely applied P fertilizer recommendation systems of Hungary and the UK were selected for this study to come to comparative figures on P supplies based on systems which were designed to support agricultural practices under distinct climatic conditions.
+[LINE#170] The most widely applied P fertilizer recommendation systems of Hungary and the UK were selected for this study to come to comparative figures on P supplies based on systems which were designed to support agricultural practices under distinct climatic conditions.
 0.968	[*A*]The most widely applied P fertilizer recommendation systems of the UK[*R*]were selected[*A*]for this study	context()	negated: False ,passive: True
 0.877	[*A*]systems[*R*]were designed[*A*]to support agricultural practices under distinct climatic conditions	context()	negated: False ,passive: True
 0.926	[*A*]comparative figures on P supplies[*R*]based[*A*]on systems	context()	negated: False ,passive: True
 0.903	[*A*]this study[*R*]to come[*A*]to comparative figures on P supplies	context()	negated: False ,passive: True
 0.965	[*A*]The most widely applied P fertilizer recommendation systems of Hungary[*R*]were selected[*A*]for this study	context()	negated: False ,passive: True
 0.877	[*A*]systems[*R*]to support[*A*]agricultural practices	context()	negated: False ,passive: False
-[LINE#144]The two systems were selected based on their applicability - they did not include site specific criteria which were not adaptable in other parts of the EU - and because they represent systems from different biophysical zones of Europe.
+[LINE#171] The two systems were selected based on their applicability - they did not include site specific criteria which were not adaptable in other parts of the EU - and because they represent systems from different biophysical zones of Europe.
 0.699	[*A*]The two systems[*R*]were selected	context(they did not include)	negated: False ,passive: False
 0.563	[*A*]they[*R*]did not include[*A*]site specific criteria which were not adaptable in other parts of the EU - and[*A*]because they represent systems from different biophysical zones of Europe	context()	negated: True ,passive: True
 0.658	[*A*]they[*R*]represent[*A*]systems from different biophysical zones of Europe	context()	negated: False ,passive: False
 0.913	[*A*]site specific criteria[*R*]were not[*A*]adaptable in other parts of the EU	context()	negated: True ,passive: True
-[LINE#145]P concentration threshold values related to P requirement of wheat were adapted following methodologies described by Antal et al.
+[LINE#172] P concentration threshold values related to P requirement of wheat were adapted following methodologies described by Antal et al.
 0.973	[*A*]by Antal et al[*R*]described[*A*]methodologies	context()	negated: False ,passive: False
 0.953	[*A*]P concentration threshold values related to P requirement of wheat[*R*]were adapted[*A*]following methodologies	context()	negated: False ,passive: True
 0.919	[*A*]P concentration threshold values[*R*]related[*A*]to P requirement of wheat	context()	negated: False ,passive: True
-[LINE#146] (1979) for Hungary and by DEFRA.
-[LINE#147]Wheat was used as an indicator crop for three reasons.
+[LINE#173]  (1979) for Hungary and by DEFRA.
+[LINE#174] Wheat was used as an indicator crop for three reasons.
 0.894	[*A*]Wheat[*R*]was used[*A*]as an indicator crop[*A*]for three reasons	context()	negated: False ,passive: True
-[LINE#148]On the one hand wheat has wide climate tolerance and cultivated in nearly all regions of the European Union.
-[LINE#149]It is also a plant with one of the largest areal share in the croplands of the EU.
+[LINE#175] On the one hand wheat has wide climate tolerance and cultivated in nearly all regions of the European Union.
+[LINE#176] It is also a plant with one of the largest areal share in the croplands of the EU.
 0.678	[*A*]It[*R*]is[*A*]also[*A*]a plant with one of the largest areal share in the croplands of the EU	context()	negated: False ,passive: True
-[LINE#150]Furthermore wheat has medium phosphorus requirement (appr.
+[LINE#177] Furthermore wheat has medium phosphorus requirement (appr.
 0.918	[*A*]wheat[*R*]has[*A*]medium phosphorus requirement	context()	negated: False ,passive: False
-[LINE#151]11kg P/ton grain yield) compared to other crops; thus can be indicative for a wide ranges of crop rotations as far as general P requirements of cropping systems are concerned.
+[LINE#178] 11kg P/ton grain yield) compared to other crops; thus can be indicative for a wide ranges of crop rotations as far as general P requirements of cropping systems are concerned.
 0.773	[*A*]general P requirements of cropping systems[*R*]concerned	context()	negated: False ,passive: False
 0.829	[*A*]general P requirements of cropping systems[*R*]are[*A*]concerned	context()	negated: False ,passive: True
-[LINE#152] The UK system is based on Olsen-P and the Hungarian system (2009) was applied to convert the AL-P based thresholds of the Hungarian system to Olsen-P levels.(1)y=0.5722x-1.0939 (r2=0.9672)where y is the Olsen-P level in mg/kgand x is the AL-P mg/kgBoth the UK and the Hungarian systems define five categories with regards to available P levels.
+[LINE#179+180+181+182]  The UK system is based on Olsen-P and the Hungarian system (2009) was applied to convert the AL-P based thresholds of the Hungarian system to Olsen-P levels.(1)y=0.5722x-1.0939 (r2=0.9672)where y is the Olsen-P level in mg/kgand x is the AL-P mg/kgBoth the UK and the Hungarian systems define five categories with regards to available P levels.
 0.874	[*A*]y[*R*]is[*A*]the Olsen-P level in mg	context()	negated: False ,passive: True
 0.939	[*A*]the AL-P[*R*]based[*A*]thresholds of the Hungarian system	context()	negated: False ,passive: False
 0.891	[*A*]the Hungarian systems[*R*]define[*A*]five categories with regards to available P levels	context(y=0.5722x - 1.0939 ( r2=0.9672 is)	negated: False ,passive: False
 0.931	[*A*]y=0.5722x-1.0939 (r2=0.9672[*R*]is[*A*]the AL-P mg	context()	negated: False ,passive: True
 0.944	[*A*]The UK system[*R*]is based[*A*]on Olsen-P and the Hungarian system	context()	negated: False ,passive: True
-[LINE#153]The UK system numbers the categories as 'P index' from 0 to 4, the Hungarian system use qualifiers - very low, low, medium, high and very high - to describe the classes.
+[LINE#183] The UK system numbers the categories as 'P index' from 0 to 4, the Hungarian system use qualifiers - very low, low, medium, high and very high - to describe the classes.
 0.913	[*A*]the Hungarian system use qualifiers[*R*]to describe[*A*]the classes	context()	negated: False ,passive: False
-[LINE#154]In our study we used the class qualifier names of the Hungarian system for the P index categories of the UK system as well.
+[LINE#184] In our study we used the class qualifier names of the Hungarian system for the P index categories of the UK system as well.
 0.303	[*A*]we[*R*]used as well[*A*]In our study	context()	negated: False ,passive: False
-[LINE#155]In addition to P measurements, the Hungarian system, considering the high pedodiversity in the country uses also soil criteria - such as soil texture, and CaCO3 - to classify soil samples into P level categories.
+[LINE#185] In addition to P measurements, the Hungarian system, considering the high pedodiversity in the country uses also soil criteria - such as soil texture, and CaCO3 - to classify soil samples into P level categories.
 0.870	[*A*]the Hungarian system[*R*]considering[*A*]the high pedodiversity in the country	context(the Hungarian system , considering the high pedodiversity in the country uses)	negated: False ,passive: False
 0.945	[*A*]the Hungarian system, considering the high pedodiversity in the country[*R*]uses[*A*]also[*A*]soil criteria - such as soil texture	context()	negated: False ,passive: False
 0.906	[*A*]CaCO3[*R*]to classify[*A*]soil samples[*A*]into P level categories	context()	negated: False ,passive: False
-[LINE#156]Therefore these soil properties were considered as well from the LUCAS topsoil database to assist the categorization.
+[LINE#186] Therefore these soil properties were considered as well from the LUCAS topsoil database to assist the categorization.
 0.895	[*A*]these soil properties[*R*]were considered as well[*A*]to assist the categorization	context()	negated: False ,passive: True
-[LINE#157]The system from the UK uses only the measured Olsen-P levels in its categorization.
+[LINE#187] The system from the UK uses only the measured Olsen-P levels in its categorization.
 0.946	[*A*]The system from the UK[*R*]uses[*A*]only the measured Olsen-P levels in its categorization	context()	negated: False ,passive: False
-[LINE#158]Table 1 summarizes the main characteristics of the two systems from the P categorization point of view.
+[LINE#188] Table 1 summarizes the main characteristics of the two systems from the P categorization point of view.
 0.679	[*A*]Table 1[*R*]summarizes[*A*]the main characteristics of the two systems from the P categorization point of view	context()	negated: False ,passive: False
-[LINE#159]Threshold values of the two fertilizer recommendation systems (Hungary, UK) were used separately to establish plant available P categories for each soil samples from the LUCAS Topsoil Survey.
+[LINE#189] Threshold values of the two fertilizer recommendation systems (Hungary, UK) were used separately to establish plant available P categories for each soil samples from the LUCAS Topsoil Survey.
 0.964	[*A*]Threshold values of the two fertilizer recommendation systems[*R*]were used separately[*A*]to establish plant available P categories for each soil samples from the LUCAS Topsoil Survey	context()	negated: False ,passive: True
-[LINE#160]Each soil sample was categorized into one of the five classes according to the two methods.
+[LINE#190] Each soil sample was categorized into one of the five classes according to the two methods.
 0.911	[*A*]Each soil sample[*R*]was categorized[*A*]into one of the five classes[*A*]according to the two methods	context()	negated: False ,passive: True
-[LINE#161]It is worth underlying that category thresholds of the different systems are calibrated by their authors according to the corresponding regional climatic-, soil- and management conditions, as well as related to attainable yields under these conditions.
+[LINE#191] It is worth underlying that category thresholds of the different systems are calibrated by their authors according to the corresponding regional climatic-, soil- and management conditions, as well as related to attainable yields under these conditions.
 0.939	[*A*]the corresponding regional climatic - , soil management conditions[*R*]related[*A*]to attainable yields under these conditions	context()	negated: False ,passive: True
 0.934	[*A*]corresponding regional climatic - , soil - conditions[*R*]related[*A*]to attainable yields under these conditions	context()	negated: False ,passive: True
-[LINE#162] Consequently, P category thresholds differ.. Spatial delineations and areal P levelcalculationsIn order to assess the distribution of phosphorus in the soils of the EU and enable estimations for P fertilizer need, two approaches were used.
+[LINE#192+193]  Consequently, P category thresholds differ.. Spatial delineations and areal P levelcalculationsIn order to assess the distribution of phosphorus in the soils of the EU and enable estimations for P fertilizer need, two approaches were used.
 0.751	[*A*]P category thresholds[*R*]differ	context()	negated: False ,passive: False
 0.706	[*A*]P category thresholds[*R*]differ	context(two approaches were used)	negated: False ,passive: False
 0.732	[*A*]two approaches[*R*]were used	context()	negated: False ,passive: False
-[LINE#163]First, we categorized LUCAS topsoil samples from agricultural land into five equal-sized data subsets based on measured lowest and highest P concentrations.
+[LINE#194] First, we categorized LUCAS topsoil samples from agricultural land into five equal-sized data subsets based on measured lowest and highest P concentrations.
 0.932	[*A*]five equal - sized data subsets[*R*]based[*A*]on highest P concentrations	context()	negated: False ,passive: True
 0.932	[*A*]five equal - sized data subsets[*R*]based[*A*]on measured lowest P concentrations	context()	negated: False ,passive: True
 0.639	[*A*]we[*R*]categorized[*A*]LUCAS topsoil samples[*A*]into five equal - sized data subsets[*A*]First	context()	negated: False ,passive: False
-[LINE#164]The first quintile of the LUCAS P concentration data were classified as having very low concentration, the second 20% having low, the third 20% with medium, the fourth 20% having high and the top 20% having very high P concentration.
+[LINE#195] The first quintile of the LUCAS P concentration data were classified as having very low concentration, the second 20% having low, the third 20% with medium, the fourth 20% having high and the top 20% having very high P concentration.
 0.919	[*A*]the top 20 %[*R*]having[*A*]very high P concentration	context()	negated: False ,passive: False
 0.919	[*A*]the fourth 20 %[*R*]having[*A*]the top 20 % having very high P concentration	context()	negated: False ,passive: False
 0.948	[*A*]the second 20 %[*R*]having[*A*]low , the third 20 % with medium , the fourth 20 %	context()	negated: False ,passive: False
 0.799	[*A*]the fourth 20 %[*R*]having[*A*]high	context()	negated: False ,passive: False
 0.919	[*A*]the second 20 %[*R*]having[*A*]low	context()	negated: False ,passive: False
 0.927	[*A*]The first quintile of the LUCAS P concentration data[*R*]were classified[*A*]as having very low concentration	context()	negated: False ,passive: True
-[LINE#165]Derived categories were ordered on a nominal scale from 1 (very low) to 5 (very high) and mean P categories and standard deviation figures were calculated by NUTS2 regions of the EU.
+[LINE#196] Derived categories were ordered on a nominal scale from 1 (very low) to 5 (very high) and mean P categories and standard deviation figures were calculated by NUTS2 regions of the EU.
 0.761	[*A*]Derived categories[*R*]were ordered very low[*A*]from 1	context()	negated: False ,passive: True
-[LINE#166] Results are presented for the point observations of LUCAS topsoil survey and also as generalized for the NUTS2 regions of the EU (Fig. 1a and b).Second, plant available.
+[LINE#197+198]  Results are presented for the point observations of LUCAS topsoil survey and also as generalized for the NUTS2 regions of the EU (Fig. 1a and b).Second, plant available.
 0.911	[*A*]Results[*R*]are presented[*A*]for the point observations of LUCAS topsoil b	context()	negated: False ,passive: True
 0.911	[*A*]Results[*R*]are presented[*A*]for the point observations of LUCAS topsoil	context()	negated: False ,passive: True
 0.942	[*A*]Results[*R*]are presented[*A*]for the point observations of LUCAS topsoil survey , plant available	context()	negated: False ,passive: True
-[LINE#167]P levels were calculated for all LUCAS topsoil samples taken from agricultural land using the two different fertilizer recommendation methods: one from Hungary and one from the UK.
+[LINE#199] P levels were calculated for all LUCAS topsoil samples taken from agricultural land using the two different fertilizer recommendation methods: one from Hungary and one from the UK.
 0.939	[*A*]all LUCAS topsoil samples[*R*]taken[*A*]from agricultural land	context()	negated: False ,passive: True
 0.918	[*A*]P levels[*R*]were calculated[*A*]for all LUCAS topsoil samples	context()	negated: False ,passive: True
-[LINE#168]P level categories derived using the two methods were ordered on a nominal scale, than mean P categories and standard deviation figures were calculated by NUTS regions of the EU, using the two methods in parallel.
+[LINE#200] P level categories derived using the two methods were ordered on a nominal scale, than mean P categories and standard deviation figures were calculated by NUTS regions of the EU, using the two methods in parallel.
 0.737	[*A*]P level categories derived[*R*]were ordered	context()	negated: False ,passive: False
 0.919	[*A*]P level categories derived[*R*]using[*A*]the two methods	context()	negated: False ,passive: False
 0.751	[*A*]P level categories[*R*]derived	context()	negated: False ,passive: False
-[LINE#169]Two maps displaying available P level in 10 categories - with subdivision of the five classes for better visual presentation - and variability within NUTS region were drawn for 27 EU Member States. .
+[LINE#201] Two maps displaying available P level in 10 categories - with subdivision of the five classes for better visual presentation - and variability within NUTS region were drawn for 27 EU Member States. .
 0.381	[*A*]States[*R*][is] Member [of][*A*]EU	context()	negated: False ,passive: False
 0.968	[*A*]better visual presentation - and variability within NUTS region[*R*]were drawn[*A*]for 27 EU Member States	context()	negated: False ,passive: True
 0.937	[*A*]Two maps[*R*]displaying[*A*]available P level[*A*]in 10 categories - with subdivision of the five classes for	context()	negated: False ,passive: False
-[LINE#170]Estimation of fertilizer P requirement of cropland of the EUP fertilizer requirement of croplands in the EU were calculated by the fertilizer recommendation systems of Hungary (Antal et al., 1979) and UK (DEFRA, 2012b).
+[LINE#202] Estimation of fertilizer P requirement of cropland of the EUP fertilizer requirement of croplands in the EU were calculated by the fertilizer recommendation systems of Hungary (Antal et al., 1979) and UK (DEFRA, 2012b).
 0.971	[*A*]Estimation of fertilizer P requirement of cropland of the EUP fertilizer requirement of croplands in the EU[*R*]were calculated[*A*]by the fertilizer recommendation systems of Hungary	context()	negated: False ,passive: True
-[LINE#171]Wheat was considered as an indicator crop and fertilizer doses for wheat cultivation were calculated.
-[LINE#172]Recommended P fertilizer doses were computed for each LUCAS samples and for each NUTS region taking into account the mean P supply category, the average wheat yield and the spatial extent of cropland of the regions.
+[LINE#203] Wheat was considered as an indicator crop and fertilizer doses for wheat cultivation were calculated.
+[LINE#204] Recommended P fertilizer doses were computed for each LUCAS samples and for each NUTS region taking into account the mean P supply category, the average wheat yield and the spatial extent of cropland of the regions.
 0.911	[*A*]each NUTS region[*R*]taking[*A*]into account[*A*]the mean P supply category	context()	negated: False ,passive: False
 0.956	[*A*]Recommended P fertilizer doses[*R*]were computed[*A*]for each LUCAS samples and for each NUTS region taking into account the mean P supply category	context()	negated: False ,passive: True
-[LINE#173]Mean wheat yields were obtained from time series statistics (Eurostat, 2013c; DEFRA, 2012a, HCSO, 2013).
+[LINE#205] Mean wheat yields were obtained from time series statistics (Eurostat, 2013c; DEFRA, 2012a, HCSO, 2013).
 0.911	[*A*]Mean wheat yields[*R*]were obtained[*A*]from time series statistics	context()	negated: False ,passive: True
-[LINE#174]Mathematical functions provided by Antal et al.
+[LINE#206] Mathematical functions provided by Antal et al.
 0.903	[*A*]Mathematical functions[*R*]provided[*A*]by Antal et al	context()	negated: False ,passive: True
-[LINE#175](1979) to calculate fertilizer doses were used.
+[LINE#207] (1979) to calculate fertilizer doses were used.
 0.801	[*A*]1979) to calculate fertilizer doses[*R*]were used	context()	negated: False ,passive: False
-[LINE#176]The UK system sets fertilizer dose targets according to three yield levels, therefore an interpolation using the forecast function based on regional yield statistics and fertilizer need was applied.
+[LINE#208] The UK system sets fertilizer dose targets according to three yield levels, therefore an interpolation using the forecast function based on regional yield statistics and fertilizer need was applied.
 0.937	[*A*]The UK system[*R*]sets[*A*]fertilizer dose targets[*A*]according to three yield levels	context(an interpolation using the forecast function was applied)	negated: False ,passive: False
 0.911	[*A*]the forecast function[*R*]based[*A*]on regional fertilizer need	context()	negated: False ,passive: True
 0.903	[*A*]an interpolation[*R*]using[*A*]the forecast function based on regional fertilizer need	context()	negated: False ,passive: False
@@ -615,32 +615,32 @@
 0.732	[*A*]an interpolation using the forecast function[*R*]was applied	context()	negated: False ,passive: False
 0.911	[*A*]the forecast function[*R*]based[*A*]on regional yield statistics	context()	negated: False ,passive: True
 0.903	[*A*]an interpolation[*R*]using[*A*]the forecast function based on regional yield statistics	context()	negated: False ,passive: False
-[LINE#177]Spatial extent of cropland in each NUTS region was determined using the CLC database.
+[LINE#209] Spatial extent of cropland in each NUTS region was determined using the CLC database.
 0.964	[*A*]Spatial extent of cropland in each NUTS region[*R*]was determined[*A*]using the CLC database	context()	negated: False ,passive: True
-[LINE#178]Following assessments using the two different systems and after analysing the spatial validity of each system, results were integrated to produce a single map of P input need for regions of the EU and an estimation of the overall P demand of arable land of the EU.
+[LINE#210] Following assessments using the two different systems and after analysing the spatial validity of each system, results were integrated to produce a single map of P input need for regions of the EU and an estimation of the overall P demand of arable land of the EU.
 0.932	[*A*]results[*R*]to produce[*A*]a single map of P input need for regions of the EU and an estimation of the overall P demand of arable land of the EU	context()	negated: False ,passive: False
 0.942	[*A*]results[*R*]were integrated[*A*]to produce a single map of P input need for regions of the EU and an estimation of the overall P demand of arable land of the EU	context()	negated: False ,passive: True
 0.903	[*A*]Following assessments[*R*]using[*A*]the two different systems	context()	negated: False ,passive: False
 0.943	[*A*]a single map of P input[*R*]need[*A*]for regions of the EU	context()	negated: False ,passive: True
-[LINE#179]In this process the UK method was applied for regions under oceanic and sub-oceanic influence and for temperate mountainous areas and the Hungarian system was applied in climatic zones under continental and Mediterranean influence.
+[LINE#211] In this process the UK method was applied for regions under oceanic and sub-oceanic influence and for temperate mountainous areas and the Hungarian system was applied in climatic zones under continental and Mediterranean influence.
 0.961	[*A*]the UK method[*R*]was applied[*A*]for regions[*A*]In this process	context()	negated: False ,passive: True
 0.925	[*A*]the Hungarian system[*R*]was applied[*A*]in climatic zones under Mediterranean influence	context()	negated: False ,passive: True
 0.911	[*A*]the Hungarian system[*R*]was applied[*A*]in climatic zones[*A*]under continental influence	context()	negated: False ,passive: True
 0.961	[*A*]the UK method[*R*]was applied[*A*]for regions for temperate mountainous areas[*A*]In this process	context()	negated: False ,passive: True
-[LINE#180]The climate zonation of Hartwich et al.
-[LINE#181](2005) was used for the delineations.
+[LINE#212] The climate zonation of Hartwich et al.
+[LINE#213] (2005) was used for the delineations.
 0.992	[*A*]2005[*R*]was used for[*A*]the delineations	context()	negated: False ,passive: False
 0.503	[*A*]2005[*R*]was used[*A*]for the delineations	context()	negated: False ,passive: True
-[LINE#182]Spatial analyses were performed using ArcGIS 10.0.
+[LINE#214] Spatial analyses were performed using ArcGIS 10.0.
 0.905	[*A*]Spatial analyses[*R*]using[*A*]ArcGIS 10.0	context()	negated: False ,passive: False
 0.732	[*A*]Spatial analyses[*R*]were performed	context()	negated: False ,passive: False
-[LINE#183]For statistical computations the SPSS 16.0 software package was used.
+[LINE#215] For statistical computations the SPSS 16.0 software package was used.
 0.992	[*A*]16.0 software package[*R*]was used For[*A*]statistical computations	context()	negated: False ,passive: False
 0.949	[*A*]For statistical computations[*R*]was used[*A*]the SPSS 16.0 software package	context()	negated: False ,passive: True
-[LINE#184] Plant available P levels in agricultural soils of the EUBased on the assessment of the LUCAS topsoil samples originating from agricultural land, considerably large differences can be observed, both among and within regions of the EU.
+[LINE#216+217]  Plant available P levels in agricultural soils of the EUBased on the assessment of the LUCAS topsoil samples originating from agricultural land, considerably large differences can be observed, both among and within regions of the EU.
 0.732	[*A*]large differences[*R*]can be observed	context()	negated: False ,passive: False
 0.939	[*A*]the LUCAS topsoil samples[*R*]originating[*A*]from agricultural land	context()	negated: False ,passive: True
-[LINE#185] While most European regions have soil samples which fall to the top 20% with regards to measured soil P contents (Fig. 1a), differences between distinct zones can be observed when looking at means of quintile categories of P concentrations by NUTS regions 1b).Measured P levels displayed by means of quintile categories of individual cropland topsoil samples in each NUTS region as well as P supply levels established on the basis of the systems of the UK (DEFRA, 2010) and Hungary (Antal et al., 1979) show similar pattern throughout Europe (Figs. 1 and 3), for the latter comparison shown by a Pearson correlation of 0.965 between them (the correlation is significant at the <0.01% level).Only a slight difference can be observed by comparing the results of the two expert-based categorizations, as the UK system (.
+[LINE#218+219+220]  While most European regions have soil samples which fall to the top 20% with regards to measured soil P contents (Fig. 1a), differences between distinct zones can be observed when looking at means of quintile categories of P concentrations by NUTS regions 1b).Measured P levels displayed by means of quintile categories of individual cropland topsoil samples in each NUTS region as well as P supply levels established on the basis of the systems of the UK (DEFRA, 2010) and Hungary (Antal et al., 1979) show similar pattern throughout Europe (Figs. 1 and 3), for the latter comparison shown by a Pearson correlation of 0.965 between them (the correlation is significant at the <0.01% level).Only a slight difference can be observed by comparing the results of the two expert-based categorizations, as the UK system (.
 0.952	[*A*]P supply levels[*R*]established[*A*]on the basis of the systems of Antal et al	context()	negated: False ,passive: True
 0.905	[*A*]the correlation[*R*]is[*A*]significant[*A*]at the < 0.01 % level	context(differences between distinct zones can be observed regions 1b ) . Measured P levels show)	negated: False ,passive: True
 0.955	[*A*]regions 1b ) . Measured P levels[*R*]show[*A*]similar pattern throughout Europe ( 3	context(differences between distinct zones can be observed)	negated: False ,passive: False
@@ -660,32 +660,32 @@
 0.913	[*A*]soil samples[*R*]fall[*A*]to the top 20 %	context()	negated: False ,passive: True
 0.925	[*A*]the correlation[*R*]is[*A*]significant[*A*]at the < 0.01 % level	context()	negated: False ,passive: True
 0.952	[*A*]most European regions[*R*]have[*A*]soil samples which fall to the top 20 % with regards to measured soil P contents ( Fig . 1a )	context()	negated: False ,passive: False
-[LINE#186] Fig. 3a) defines somewhat higher P categories in Spain, Ireland and a few other regions in North-Western Europe, while the Hungarian system (Fig.3b) grades some central European regions in higher categories than the UK system.
+[LINE#221+222]  Fig. 3a) defines somewhat higher P categories in Spain, Ireland and a few other regions in North-Western Europe, while the Hungarian system (Fig.3b) grades some central European regions in higher categories than the UK system.
 0.501	[*A*]Fig[*R*]defines[*A*]somewhat higher P categories[*A*]in a few other regions in North - Western Europe[*A*]while the Hungarian system ( Fig.3b ) grades some central European regions in higher categories than the UK system	context()	negated: False ,passive: False
 0.501	[*A*]Fig[*R*]defines[*A*]somewhat higher P categories in Ireland[*A*]while the Hungarian system ( Fig.3b ) grades some central European regions in higher categories than the UK system	context()	negated: False ,passive: False
 0.913	[*A*]the Hungarian system[*R*]grades[*A*]some central European regions[*A*]in higher categories than the UK system	context()	negated: False ,passive: False
 0.501	[*A*]Fig[*R*]defines[*A*]somewhat higher P categories in Spain[*A*]while the Hungarian system ( Fig.3b ) grades some central European regions in higher categories than the UK system	context()	negated: False ,passive: False
-[LINE#187] Results based on each approach of categorization suggest that plant available.
-[LINE#188]P levels follow main climatic patterns in Europe.
+[LINE#223]  Results based on each approach of categorization suggest that plant available.
+[LINE#224] P levels follow main climatic patterns in Europe.
 0.918	[*A*]P levels[*R*]follow[*A*]main climatic patterns in Europe	context()	negated: False ,passive: False
-[LINE#189]Areas of the Atlantic North Western Europe have the highest levels and the Mediterranean the lowest of phosphorus in cropland soils.
+[LINE#225] Areas of the Atlantic North Western Europe have the highest levels and the Mediterranean the lowest of phosphorus in cropland soils.
 0.961	[*A*]Areas of the Atlantic North Western Europe[*R*]have[*A*]the Mediterranean	context()	negated: False ,passive: False
 0.953	[*A*]Areas of the Atlantic North Western Europe[*R*]have[*A*]the highest levels	context()	negated: False ,passive: False
-[LINE#190]According to the systems of the UK and Hungary around half of Europe's croplands have high or very high levels of P supply and somewhat less than one third have low or very low levels of P (Table 2).
+[LINE#226] According to the systems of the UK and Hungary around half of Europe's croplands have high or very high levels of P supply and somewhat less than one third have low or very low levels of P (Table 2).
 0.926	[*A*]somewhat less than one third[*R*]have[*A*]low or very low levels of P	context()	negated: False ,passive: False
-[LINE#191]Our calculations based on the LUCAS data show decreasing areal share of croplands with different P levels in the order of very high, high, medium, very low and low P levels, respectively (Table 2).Most countries in the EU have diverse P levels, with considerable differences among their NUTS regions.
+[LINE#227] Our calculations based on the LUCAS data show decreasing areal share of croplands with different P levels in the order of very high, high, medium, very low and low P levels, respectively (Table 2).Most countries in the EU have diverse P levels, with considerable differences among their NUTS regions.
 0.931	[*A*]Most countries in the EU[*R*]have[*A*]diverse P levels	context(Our calculations based on the LUCAS data show)	negated: False ,passive: False
 0.803	[*A*]Our calculations based on the LUCAS data[*R*]show[*A*]decreasing areal share of croplands with different P levels in the order of very high, high, medium, very low and low P levels, respectively (Table 2	context()	negated: False ,passive: False
 0.680	[*A*]Our calculations[*R*]based[*A*]on the LUCAS data	context()	negated: False ,passive: True
-[LINE#192]More uniform distribution of P levels can be observed in Bulgaria, Czech Republic, Denmark, Finland Ireland and the Netherlands, all having relatively high P levels in all their agricultural land.
+[LINE#228] More uniform distribution of P levels can be observed in Bulgaria, Czech Republic, Denmark, Finland Ireland and the Netherlands, all having relatively high P levels in all their agricultural land.
 0.935	[*A*]More uniform distribution of P levels[*R*]can be observed[*A*]in the Netherlands[*A*]all having relatively high P levels in all their agricultural land	context()	negated: False ,passive: True
 0.935	[*A*]More uniform distribution of P levels[*R*]can be observed[*A*]in Finland Ireland[*A*]all having relatively high P levels in all their agricultural land	context()	negated: False ,passive: True
 0.935	[*A*]More uniform distribution of P levels[*R*]can be observed[*A*]in Denmark[*A*]all having relatively high P levels in all their agricultural land	context()	negated: False ,passive: True
 0.935	[*A*]More uniform distribution of P levels[*R*]can be observed[*A*]in Czech Republic[*A*]all having relatively high P levels in all their agricultural land	context()	negated: False ,passive: True
 0.935	[*A*]More uniform distribution of P levels[*R*]can be observed[*A*]in Bulgaria[*A*]all having relatively high P levels in all their agricultural land	context()	negated: False ,passive: True
-[LINE#193]Plant available P levels in some larger countries like France, Italy and Spain but also in some smaller countries like Austria or Portugal show high inter-regional variability.
+[LINE#229] Plant available P levels in some larger countries like France, Italy and Spain but also in some smaller countries like Austria or Portugal show high inter-regional variability.
 0.986	[*A*]Plant available P levels in some larger countries like France, Italy and Spain but also in some smaller countries like Austria or Portugal[*R*]show[*A*]high inter-regional variability	context()	negated: False ,passive: False
-[LINE#194] In contrast to the Benelux countries, Denmark, Germany and Polandsome countries like the Baltic States, Bulgaria, Hungary, Portugal and Romania have generally low levels of soil P in most of their NUTS regions.
+[LINE#230+231]  In contrast to the Benelux countries, Denmark, Germany and Polandsome countries like the Baltic States, Bulgaria, Hungary, Portugal and Romania have generally low levels of soil P in most of their NUTS regions.
 0.930	[*A*]Polandsome countries like Romania[*R*]have[*A*]generally low levels of soil P in most of their NUTS regions	context()	negated: False ,passive: False
 0.930	[*A*]Polandsome countries like Portugal[*R*]have[*A*]generally low levels of soil P in most of their NUTS regions	context()	negated: False ,passive: False
 0.930	[*A*]Polandsome countries like Hungary[*R*]have[*A*]generally low levels of soil P in most of their NUTS regions	context()	negated: False ,passive: False
@@ -701,16 +701,16 @@
 0.930	[*A*]Denmark countries like Hungary[*R*]have[*A*]generally low levels of soil P in most of their NUTS regions	context()	negated: False ,passive: False
 0.930	[*A*]Denmark countries like Bulgaria[*R*]have[*A*]generally low levels of soil P in most of their NUTS regions	context()	negated: False ,passive: False
 0.942	[*A*]Denmark countries like the Baltic States[*R*]have[*A*]generally low levels of soil P in most of their NUTS regions	context()	negated: False ,passive: False
-[LINE#195]The variability of P levels within the NUTS regions was also analysed by additional descriptive statistics, which show skewed distribution of P levels in soil samples in individual NUTS regions in nearly all cases.
+[LINE#232] The variability of P levels within the NUTS regions was also analysed by additional descriptive statistics, which show skewed distribution of P levels in soil samples in individual NUTS regions in nearly all cases.
 0.957	[*A*]additional descriptive statistics[*R*]show[*A*]skewed distribution of P levels in soil samples in individual NUTS regions	context()	negated: False ,passive: False
 0.860	[*A*]The variability of P levels within the NUTS regions[*R*]was analysed[*A*]by additional descriptive statistics	context()	negated: False ,passive: True
-[LINE#196]While due to volume constraints detailed figures are not presented here, it is worth noting that only regions in the Benelux countries with usually very high or high categories and Bulgaria and Romania with low categories were those where P content of soil samples do not spread over most categories..
+[LINE#233] While due to volume constraints detailed figures are not presented here, it is worth noting that only regions in the Benelux countries with usually very high or high categories and Bulgaria and Romania with low categories were those where P content of soil samples do not spread over most categories..
 0.890	[*A*]P content of soil samples[*R*]do not spread[*A*]over most categories[*A*]those	context()	negated: True ,passive: True
 0.435	[*A*]it[*R*]is[*A*]worth noting that only regions in the Benelux countries with usually very high or high categories and Bulgaria and Romania with low categories were those	context()	negated: False ,passive: True
 0.767	[*A*]detailed figures[*R*]are not presented[*A*]here	context()	negated: True ,passive: True
-[LINE#197] Estimates for P input need for crop production in the EUUnlike for P supply categoriesthe estimation of input need of different regions of the EU results quite different patterns when based on the recommendation systems from Hungary (Antal et al., 1979) and the UK (DEFRA, 2010).
+[LINE#234+235]  Estimates for P input need for crop production in the EUUnlike for P supply categoriesthe estimation of input need of different regions of the EU results quite different patterns when based on the recommendation systems from Hungary (Antal et al., 1979) and the UK (DEFRA, 2010).
 0.931	[*A*]Estimates for P input[*R*]need[*A*]for crop production[*A*]in the EUUnlike[*A*]when based on the recommendation systems from Hungary	context()	negated: False ,passive: False
-[LINE#198] The system of the UK does not recommend additional fertilizer use on croplands with the highest P supply, including regions in Belgium and the Netherlands, Sardinia and two regions in the UK and rather low level inputs are recommended for the rest of the croplands of the EU, except for two Italian, three English and one German regions, where more than 50kgha-1 P input is advised (Fig. 4a).According to the Hungarian system there is a need for fertilizer P input in all regions but two (one in Finland and Sardinia) of the EU.
+[LINE#236+237+238+239]  The system of the UK does not recommend additional fertilizer use on croplands with the highest P supply, including regions in Belgium and the Netherlands, Sardinia and two regions in the UK and rather low level inputs are recommended for the rest of the croplands of the EU, except for two Italian, three English and one German regions, where more than 50kgha-1 P input is advised (Fig. 4a).According to the Hungarian system there is a need for fertilizer P input in all regions but two (one in Finland and Sardinia) of the EU.
 0.968	[*A*]more than 50kgha - 1 P input[*R*]is advised[*A*]two Italian , one German regions	context()	negated: False ,passive: True
 0.968	[*A*]more than 50kgha - 1 P input[*R*]is advised[*A*]one German regions	context()	negated: False ,passive: True
 0.964	[*A*]The system of the UK[*R*]does not recommend[*A*]additional fertilizer use[*A*]on croplands with the highest P supply , including regions in two regions in the rather low level inputs	context()	negated: True ,passive: False
@@ -726,42 +726,42 @@
 0.970	[*A*]The system of the UK[*R*]does not recommend[*A*]additional fertilizer use[*A*]on croplands with the highest P supply , including regions in Sardinia in the UK	context()	negated: True ,passive: False
 0.970	[*A*]The system of the UK[*R*]does not recommend[*A*]additional fertilizer use[*A*]on croplands with the highest P supply , including regions in the Netherlands in the UK	context()	negated: True ,passive: False
 0.970	[*A*]The system of the UK[*R*]does not recommend[*A*]additional fertilizer use[*A*]on croplands with the highest P supply , including regions in Belgium in the UK	context()	negated: True ,passive: False
-[LINE#199]The need is higher (100kg P2O5 per ha or more) in regions with high yields.
+[LINE#240] The need is higher (100kg P2O5 per ha or more) in regions with high yields.
 0.813	[*A*]The need[*R*]is[*A*]higher	context()	negated: False ,passive: True
-[LINE#200]These regions are in France, Northern Italy, the UK, Ireland, Austria and Germany.
+[LINE#241] These regions are in France, Northern Italy, the UK, Ireland, Austria and Germany.
 0.918	[*A*]These regions[*R*]are[*A*]in Germany	context()	negated: False ,passive: True
 0.918	[*A*]These regions[*R*]are[*A*]in Austria	context()	negated: False ,passive: True
 0.918	[*A*]These regions[*R*]are[*A*]in Ireland	context()	negated: False ,passive: True
 0.918	[*A*]These regions[*R*]are[*A*]in the UK	context()	negated: False ,passive: True
 0.918	[*A*]These regions[*R*]are[*A*]in Northern Italy	context()	negated: False ,passive: True
 0.918	[*A*]These regions[*R*]are[*A*]in France	context()	negated: False ,passive: True
-[LINE#201]In some regions of the Netherlands and Belgium, where both yields and soil-P levels are high, the Hungarian system recommends medium-low additional P input.
+[LINE#242] In some regions of the Netherlands and Belgium, where both yields and soil-P levels are high, the Hungarian system recommends medium-low additional P input.
 0.964	[*A*]both soil - P levels[*R*]are[*A*]high[*A*]Belgium	context()	negated: False ,passive: True
 0.957	[*A*]the Hungarian system[*R*]recommends[*A*]medium - low additional P input[*A*]In some regions of Belgium	context()	negated: False ,passive: False
 0.952	[*A*]both yields[*R*]are[*A*]high[*A*]Belgium	context()	negated: False ,passive: True
 0.964	[*A*]both soil - P levels[*R*]are[*A*]high[*A*]the Netherlands	context()	negated: False ,passive: True
 0.957	[*A*]the Hungarian system[*R*]recommends[*A*]medium - low additional P input[*A*]In some regions of the Netherlands	context()	negated: False ,passive: False
 0.952	[*A*]both yields[*R*]are[*A*]high[*A*]the Netherlands	context()	negated: False ,passive: True
-[LINE#202]It is only in the case of regions with very low crop yields (<35q/ha) (e.g. in Cyprus, Estonia, Finland, Portugal, Puglia and Sicily in Italy) where the Hungarian system recommends low P inputs of less than 50kgha-1 P2O5 equivalent.
+[LINE#243] It is only in the case of regions with very low crop yields (<35q/ha) (e.g. in Cyprus, Estonia, Finland, Portugal, Puglia and Sicily in Italy) where the Hungarian system recommends low P inputs of less than 50kgha-1 P2O5 equivalent.
 0.952	[*A*]the Hungarian system[*R*]recommends[*A*]low P inputs of less than 50kgha - 1 P2O5 equivalent	context()	negated: False ,passive: False
 0.522	[*A*]It[*R*]is[*A*]only in the case of regions	context()	negated: False ,passive: True
-[LINE#203]Our calculations to sum the total P fertilizer input need on croplands of the EU resulted quite different figures if based on the Hungarian and the UK systems.
+[LINE#244] Our calculations to sum the total P fertilizer input need on croplands of the EU resulted quite different figures if based on the Hungarian and the UK systems.
 0.923	[*A*]the total P fertilizer input[*R*]need[*A*]on croplands of the EU[*A*]if based on the Hungarian and the UK systems	context(Our calculations to sum)	negated: False ,passive: False
 0.586	[*A*]Our calculations[*R*]to sum[*A*]if based on the Hungarian and the UK systems	context()	negated: False ,passive: False
-[LINE#204] According to the Hungarian system (Antal et al., 1979) the P2O5 input need of croplands in the European Union (EU27) was 8.2 million tons, while based on the system of the UK (DEFRA, 2010).
-[LINE#205]To assess the relationship between the estimates and the fertilizer use statistics we compared those in the two countries where the applied recommendation systems are developed (Table 3).
+[LINE#245+246]  According to the Hungarian system (Antal et al., 1979) the P2O5 input need of croplands in the European Union (EU27) was 8.2 million tons, while based on the system of the UK (DEFRA, 2010).
+[LINE#247] To assess the relationship between the estimates and the fertilizer use statistics we compared those in the two countries where the applied recommendation systems are developed (Table 3).
 0.944	[*A*]the applied recommendation systems[*R*]are developed[*A*]the two countries	context()	negated: False ,passive: True
 0.231	[*A*]we[*R*]compared[*A*]those in the two countries	context()	negated: False ,passive: False
-[LINE#206]We observed differences between estimated fertilizer consumption calculated on the basis of the LUCAS topsoil data and the fertilizer use according to the national (HCSO, 2013 and DEFRA, 2012b) and international statistics (FAO, 2013), in both countries.
+[LINE#248] We observed differences between estimated fertilizer consumption calculated on the basis of the LUCAS topsoil data and the fertilizer use according to the national (HCSO, 2013 and DEFRA, 2012b) and international statistics (FAO, 2013), in both countries.
 0.952	[*A*]estimated fertilizer consumption[*R*]calculated[*A*]on the basis of the LUCAS topsoil data and the fertilizer use	context()	negated: False ,passive: True
 0.452	[*A*]We[*R*]observed[*A*]differences between estimated fertilizer consumption	context()	negated: False ,passive: False
-[LINE#207] The climate zone based integration of the figures from the two systems allowed the preparation of a P fertilizer recommendation overview map of the EU.
+[LINE#249]  The climate zone based integration of the figures from the two systems allowed the preparation of a P fertilizer recommendation overview map of the EU.
 0.979	[*A*]The climate zone based integration of the figures from the two systems[*R*]allowed[*A*]the preparation of a P fertilizer recommendation overview map of the EU	context()	negated: False ,passive: False
-[LINE#208]Based on the underlying data of this map, the estimated annual P input need of the EU's agriculture is 3.85 million tons, annually.
+[LINE#250] Based on the underlying data of this map, the estimated annual P input need of the EU's agriculture is 3.85 million tons, annually.
 0.834	[*A*]the estimated annual P input need of the EU 's agriculture[*R*]has annually of[*A*]3.85 million tons	context()	negated: False ,passive: False
 0.973	[*A*]the estimated annual P input need of the EU 's agriculture[*R*]is[*A*]3.85 million tons	context()	negated: False ,passive: False
 0.998	[*A*]the EU 's agriculture[*R*]has the estimated annual P input need of[*A*]3.85 million tons	context()	negated: False ,passive: False
 0.976	[*A*]the estimated annual P input need of the EU's agriculture[*R*]is[*A*]3.85 million tons[*A*]annually	context()	negated: False ,passive: True
-[LINE#209]This input might be achieved by the combination of chemical fertilizers and manure.
+[LINE#251] This input might be achieved by the combination of chemical fertilizers and manure.
 0.903	[*A*]This input[*R*]might be achieved[*A*]by the combination of chemical manure	context()	negated: False ,passive: True
 0.903	[*A*]This input[*R*]might be achieved[*A*]by the combination of chemical fertilizers	context()	negated: False ,passive: True

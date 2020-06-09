@@ -12,7 +12,7 @@ def convert_doc_to_sciie_format(input_dict):
     for doc_id in input_dict:
 
         content = input_dict[doc_id]
-        content = clean_raw_input.clean_content(content)
+        content = clean_raw_input.clean_dict(content)
 
         for sent_id, sentence in content.items():
             sent_dict = {"clusters": [],
