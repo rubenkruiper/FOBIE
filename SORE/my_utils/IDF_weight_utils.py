@@ -59,7 +59,7 @@ class PrepIDFWeights():
 
         model_prefix = self.prefix + '_' + str(self.sp_size)
 
-        os.chdir( sp_storage_dir)
+        os.chdir(sp_storage_dir)
         try:
             spm.SentencePieceTrainer.train(input=input_paths,
                                        model_prefix=model_prefix,

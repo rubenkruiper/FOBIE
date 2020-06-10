@@ -294,7 +294,7 @@ class ClusterTradeOffs():
         return km
 
 
-    def get_Kmeans_model(self, phrases_dict, embeddings_dict):
+    def get_Kmeans_model(self, prefix, phrases_dict, embeddings_dict):
         """
         Compute or load a K-means model.
 
@@ -316,7 +316,8 @@ class ClusterTradeOffs():
 
         clustering_data = np.stack([x.squeeze() for x in embeddings])
 
-        settings = "{num}_{sp}{stem}_{stop}".format(num=str(self.number_of_clusters),
+        settings = "{prefix}_{num}_{sp}{stem}_{stop}".format(prefix=prefix,
+                                                  num=str(self.number_of_clusters),
                                                   sp=self.sp_size + '_',
                                                   stem=str(self.stemming),
                                                   stop=str(self.stopwords))
@@ -391,7 +392,7 @@ class ClusterTradeOffs():
         return [w for w, c in cluster_word_c.most_common(amount_to_print)]
 
 
-    def cluster_insight(self, results, amount_to_print=10):
+    def cluster_insight(self, results, num_clusters_to_drop, amount_to_print=10):
         """
          Print a couple of lines (amount_to_print) per cluster to see what type of arguments they contain.
 
@@ -404,12 +405,14 @@ class ClusterTradeOffs():
                 for line in f.readlines():
                     stopwords.append(line.strip())
 
+        cluster_ids_and_sizes = []
         for cluster_id in range(self.number_of_clusters):
             print("###################################################")
             cluster_phrases = results.loc[results['category'] == cluster_id]
             print("CLUSTER ID  - ", cluster_id,
                   "    SIZE: ", len(results.loc[results['category'] == cluster_id]))
             print(cluster_phrases.nsmallest(amount_to_print, 'distance'))
+            cluster_ids_and_sizes.append((cluster_id, len(results.loc[results['category'] == cluster_id])))
 
 
             top_phrases = cluster_phrases['phrase'].value_counts()
@@ -420,6 +423,13 @@ class ClusterTradeOffs():
             print("\nTOP {} WORDS IN CLUSTER".format(len(top_words)))
             print(top_words)
             print('\n\n\n')
+
+        def sort_by_cluster_size(idx_and_size):
+            return idx_and_size[1]
+
+        cluster_ids_and_sizes.sort(key=sort_by_cluster_size)
+        clusters_to_drop = [idx for idx, s in cluster_ids_and_sizes]
+        return clusters_to_drop[-num_clusters_to_drop:]
 
 
     def scatter(self, x, colors, category_list, NUM_CLUSTERS):
@@ -763,7 +773,7 @@ class SoreFilter():
 
 
     def start_filtering(self, output_dir, prefix, num_clusters, narrowIE_phrases, narrowIE_embeddings, embedder,
-                        cluster_model, print_stats):
+                        cluster_model, clusters_to_drop, print_stats):
         """
         Script to filter all the Open IE extractions.
 
@@ -810,6 +820,10 @@ class SoreFilter():
             else:
                 print("Filtering OIE document: {}".format(doc_id))
                 narrowIE_clusters = self.get_clusters_for_arguments(cluster_model, narrowIE_embeddings[doc_id])
+
+                # remove clusters to drop from narrowIE_clusters
+                for idx in sorted(clusters_to_drop, reverse=True):
+                    while idx in narrowIE_clusters: narrowIE_clusters.remove(idx)
 
                 possible_SORE_dict = {doc_id: {'narrowIE_args': narrowIE_phrases[doc_id]}}
                 total_triples = 0

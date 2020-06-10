@@ -1,6 +1,8 @@
 import glob, os, wget
 import csv, pickle
 
+import numpy as np
+
 from sklearn.manifold import TSNE
 import SORE.my_utils.filter_utils as fu
 
@@ -162,6 +164,7 @@ class NarrowIEOpenIECombiner(object):
 
 
     def run(self, prefix, filter_settings, output_dir,
+            num_clusters_to_drop=2,
             print_stats=False,
             print_clusters=False,
             plot=False,
@@ -184,12 +187,11 @@ class NarrowIEOpenIECombiner(object):
 
         clusterer = fu.ClusterTradeOffs(self.filter_data_path, self.number_of_clusters,
                                         self.sp_size, self.stemming, self.stopwords)
-        km_model = clusterer.get_Kmeans_model(narrowIE_phrases, narrowIE_embeddings)
+        km_model = clusterer.get_Kmeans_model(prefix, narrowIE_phrases, narrowIE_embeddings)
 
-        ## To gain some insight into the created clusters:
-        if print_clusters:
-            clusters, results = clusterer.cluster(km_model, narrowIE_phrases, narrowIE_embeddings)
-            clusterer.cluster_insight(results)
+        ## Gain some insight into the created clusters & determine which clusters are most general
+        clusters, results = clusterer.cluster(km_model, narrowIE_phrases, narrowIE_embeddings)
+        clusters_to_drop = clusterer.cluster_insight(results, num_clusters_to_drop)
 
         # need to pass the model to filter
         filterer = fu.SoreFilter(self.oie_data_dir, self.csv_path, self.IDF_path,
@@ -197,7 +199,7 @@ class NarrowIEOpenIECombiner(object):
                                  self.ELMo_weights_path, self.ELMo_options_path, filter_settings)
 
         filterer.start_filtering(output_dir, prefix, self.number_of_clusters, narrowIE_phrases, narrowIE_embeddings,
-                                 embedder, km_model, print_stats)
+                                 embedder, km_model, clusters_to_drop, print_stats)
 
         if plot:
             if cluster_names:
@@ -208,7 +210,3 @@ class NarrowIEOpenIECombiner(object):
 
             digits_proj = TSNE(random_state=self.randomstate).fit_transform(clusters)
             clusterer.palplot(digits_proj, km_model, category_list)
-
-
-
-
