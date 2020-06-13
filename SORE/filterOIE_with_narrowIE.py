@@ -93,11 +93,14 @@ class NarrowIEOpenIECombiner(object):
         :param sp_model_path: Path to the pre-trained SentencePiece model.
         :return: Phrases extracted through narrow IE, corresponding embeddings and the embedder obj for re-use
         """
-        settings = "{pr}_{sp}{w}_{stem}_{stop}".format(pr=prefix,
-                                                       sp=self.sp_size + '_',
-                                                       w=str(self.SUBWORD_UNIT_COMBINATION),
-                                                       stem=str(self.stemming),
-                                                       stop=str(self.stopwords))
+
+
+        settings = "{pr}[{num_clusters}]_{sp}{w}_{stem}_{stop}".format(pr=prefix,
+                                                                       num_clusters=self.number_of_clusters,
+                                                                       sp=self.sp_size + '_',
+                                                                       w=str(self.SUBWORD_UNIT_COMBINATION),
+                                                                       stem=str(self.stemming),
+                                                                       stop=str(self.stopwords))
 
 
         embedder = fu.PrepareEmbeddings(prefix, sp_model_path,

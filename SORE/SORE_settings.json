@@ -22,13 +22,14 @@
     "STEMMING": false,
     "STOPWORDS": true,
     "number_of_clusters": 35,
+    "num_clusters_to_drop": 0,
     "print_stats": true,
     "filter_settings": {
           "oie_cutoff": 0.65,
           "sim_type": "cos",
           "sim_threshold": 0.6,
           "token_length_threshold": 25,
-          "idf_threshold": 1.0
+          "idf_threshold": 3.0
     }
   },
   "convert_back_to_BRAT": true

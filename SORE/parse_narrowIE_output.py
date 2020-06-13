@@ -30,6 +30,8 @@ def convert_spans_to_tokenlist(predicted_spans, corresponding_data):
         if rel[4] == "TradeOff":
             tradeoff_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
             tradeoff_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
+            modified_tradeoff_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
+            modified_tradeoff_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
             all_rel_arguments.append(corresponding_data["sentences"][0][rel[0]:rel[1] + 1])
             all_rel_arguments.append(corresponding_data["sentences"][0][rel[2]:rel[3] + 1])
 
@@ -38,10 +40,12 @@ def convert_spans_to_tokenlist(predicted_spans, corresponding_data):
             arg_1 = corresponding_data["sentences"][0][rel[0]:rel[1] + 1]
             arg_2 = corresponding_data["sentences"][0][rel[2]:rel[3] + 1]
 
-            if arg_1 in tradeoff_arguments:
-                modified_tradeoff_arguments.append(arg_1 + arg_2)
-            elif arg_2 in tradeoff_arguments:
-                modified_tradeoff_arguments.append(arg_2 +  arg_1)
+            if arg_1 in modified_tradeoff_arguments:
+                modified_tradeoff_arguments.append(arg_1 + arg_2)   # ignore double occurrence of arg_1
+                # modified_tradeoff_arguments[modified_tradeoff_arguments.index(arg_1)] = arg_1 + arg_2
+            elif arg_2 in modified_tradeoff_arguments:
+                modified_tradeoff_arguments.append(arg_2 + arg_1)
+                # modified_tradeoff_arguments[modified_tradeoff_arguments.index(arg_2)] = arg_2 + arg_1
 
             if arg_1 in all_rel_arguments:
                 all_rel_arguments.append(arg_2)
@@ -101,16 +105,20 @@ def read_sciie_output_format(data_doc, predictions_doc, RELATIONS_TO_STORE):
             doc_id = doc_id.replace('.','_')
             sentence = simple_tokens_to_string(sent["sentences"][0])
 
+            argument_list = []
             if RELATIONS_TO_STORE == "ALL":
                 relation_types = 'All'
                 argument_list = [simple_tokens_to_string(arg) for arg in all_modified_args]
             if RELATIONS_TO_STORE == "TRADEOFFS":
-                if to_args != []:
-                    relation_types = 'All relations for documents with a TradeOff'
-                    argument_list = [simple_tokens_to_string(arg) for arg in all_modified_args]
+                relation_types = 'All relations for documents with a TradeOff'
+                if modified_to_args != []:
+                    argument_list = [simple_tokens_to_string(arg) for arg in to_args]
+                argument_list += [simple_tokens_to_string(arg) for arg in (modified_to_args)]
             if RELATIONS_TO_STORE == "TRADEOFFS_AND_ARGMODS":
                 relation_types = 'Only TradeOffs with their Arg-Modifiers'
-                argument_list = [simple_tokens_to_string(arg) for arg in (modified_to_args)]
+                if to_args != [] and modified_to_args == []:
+                    argument_list = [simple_tokens_to_string(arg) for arg in (to_args)]
+                argument_list += [simple_tokens_to_string(arg) for arg in (modified_to_args)]
 
             if argument_list != []:
                 rel_args_for_sent.append([doc_id, sent_id, sentence, relation_types, argument_list])

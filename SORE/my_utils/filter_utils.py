@@ -317,10 +317,10 @@ class ClusterTradeOffs():
         clustering_data = np.stack([x.squeeze() for x in embeddings])
 
         settings = "{prefix}_{num}_{sp}{stem}_{stop}".format(prefix=prefix,
-                                                  num=str(self.number_of_clusters),
-                                                  sp=self.sp_size + '_',
-                                                  stem=str(self.stemming),
-                                                  stop=str(self.stopwords))
+                                                             num=str(self.number_of_clusters),
+                                                             sp=self.sp_size + '_',
+                                                             stem=str(self.stemming),
+                                                             stop=str(self.stopwords))
 
         if not os.path.exists(self.filter_data_path + "vectors/km_model_{settings}.pkl".format(settings=settings)):
             print("Creating new K-means clustering model and storing it for reuse.")
@@ -428,8 +428,12 @@ class ClusterTradeOffs():
             return idx_and_size[1]
 
         cluster_ids_and_sizes.sort(key=sort_by_cluster_size)
-        clusters_to_drop = [idx for idx, s in cluster_ids_and_sizes]
-        return clusters_to_drop[-num_clusters_to_drop:]
+        if num_clusters_to_drop != 0:
+            clusters_to_drop = [idx for idx, s in cluster_ids_and_sizes][-num_clusters_to_drop:]
+        else:
+            clusters_to_drop = []
+
+        return clusters_to_drop
 
 
     def scatter(self, x, colors, category_list, NUM_CLUSTERS):
@@ -672,35 +676,6 @@ class SoreFilter():
             weights_for_args_dict[tuple(arg_list)] = weights_list
             return arg_list, weights_for_args_dict
 
-    #
-    # def get_weights_for_OIE_arguments(self, oie_dict):
-    #     """
-    #     Prepares a weight-vector for every Open IE argument-phrase.
-    #     SEEMS TO NOT BE IN USE
-    #     SEEMS TO NOT BE IN USE
-    #     SEEMS TO NOT BE IN USE
-    #
-    #     :param oie_dict: Dict for a single document, contains a.o. sentence-ids and extractions for that sentence.
-    #     :return: the
-    #     """
-    #     weights_for_args_dict = {None: 0}
-    #     for sent_id in oie_dict:
-    #         for idx, triple in enumerate(oie_dict[sent_id]['extractions']):
-    #             if self.subwordunit:
-    #                 oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_subwordunits(triple[0])
-    #                 oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_subwordunits(triple[-1])
-    #                 # context as well? or list of secondary args
-    #                 weights_for_args_dict.update(w1)
-    #                 weights_for_args_dict.update(w2)
-    #             else:
-    #                 oie_dict[sent_id]['extractions'][idx][0], w1 = self.get_weights_for_spacy_token(triple[0])
-    #                 oie_dict[sent_id]['extractions'][idx][-1], w2 = self.get_weights_for_spacy_token(triple[-1])
-    #                 # context as well? or list of secondary args
-    #                 weights_for_args_dict.update(w1)
-    #                 weights_for_args_dict.update(w2)
-    #
-    #     return oie_dict, weights_for_args_dict
-
 
     def get_clusters_for_arguments(self, cluster_model, embeddings):
         """
@@ -745,37 +720,11 @@ class SoreFilter():
 
         return max(similarities)
 
-    #
-    # def write_to_file(self, sore_input, oie_dict, filtered_triples):
-    #     """
-    #     Write the filtered triples to a file. Enables simply loading, e.g., if the pipeline breaks.
-    #
-    #     SEEMS TO BE OLD AND NOT USED
-    #     SEEMS TO BE OLD AND NOT USED
-    #     SEEMS TO BE OLD AND NOT USED
-    #     SEEMS TO BE OLD AND NOT USED
-    #
-    #     :param sore_input:
-    #     :param oie_dict:
-    #     :param filtered_triples:
-    #     :return:
-    #     """
-    #     # for all the filtered triples in the file store the overview in a readable format:
-    #     base_path, directory, filename = sore_input.rsplit('/', maxsplit=2)
-    #     output_filename = base_path + '/FILTERED_OIE/' + filename
-    #
-    #     # NEED TO MAKE THE DICT DUMPABLE (tuples are issue) -> convert to string
-    #     json_dict = { "oie_dict": oie_dict,
-    #                   'filtered_triples': filtered_triples}
-    #
-    #     with open(output_filename, 'w') as f:
-    #         json.dump(json_dict, f)
-
 
     def start_filtering(self, output_dir, prefix, num_clusters, narrowIE_phrases, narrowIE_embeddings, embedder,
                         cluster_model, clusters_to_drop, print_stats):
         """
-        Script to filter all the Open IE extractions.
+        Script to filter all the Open IE extractions. Iterates over the keys found in narrowIE_embeddings.
 
         :param output_dir: Path to a directory to write filtered files.
         :param prefix: Name of the experiment for re-use.

@@ -264,9 +264,6 @@ class BratConverter():
 
         for doc_id in SORE_dict.keys():
 
-            if doc_id != "OA-STM_020":
-                print("halt")
-
             try:
                 if dataset[doc_id]['metadata'] != None:
                     category = dataset[doc_id]['metadata']['category']
@@ -329,7 +326,7 @@ class BratConverter():
                 lines_for_document += lines_for_sent
 
                 ############## only here to visualise the insane amount of OIE extractions ###
-                # # uncomment the code below, and comment the `Narrow IE extractions` and `SORE extractions` loops
+                # uncomment the code below, and comment the `Narrow IE extractions` and `SORE extractions` loops
                 # if sent_id in OIE_dict[doc_id]:
                 #     extractions = OIE_dict[doc_id][sent_id][1:]
                 #     for extraction in extractions:
