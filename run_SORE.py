@@ -187,7 +187,7 @@ class SORE_filter():
         self.csv_path = csv_path
         self.sore_output_dir = sore_output_dir
 
-    def start(self, prefix, filter_settings, IDF_weights_path, SUBWORDUNIT,
+    def start(self, prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, irrelevant_cluster_ids,
                  oie_data_dir='SORE/data/OpenIE/processed/',
                  sp_size=16000,
                  number_of_clusters=50,
@@ -217,6 +217,7 @@ class SORE_filter():
                                                                 SUBWORD_UNIT_COMBINATION, path_to_embeddings)
 
         filter.run(prefix, filter_settings, self.sore_output_dir,
+                   irrelevant_cluster_ids,
                    num_clusters_to_drop,
                    print_stats,
                    print_clusters=True,
@@ -254,7 +255,8 @@ def main(all_settings):
     prefix = all_settings['Filtering']['prefix']
     file_names = all_settings['Filtering']['file_names']
     number_of_clusters = all_settings['Filtering']['number_of_clusters']
-    num_clusters_to_drop = all_settings['Filtering']['num_clusters_to_drop']
+    num_clusters_to_drop = all_settings['Filtering']['num_largest_clusters_to_drop']
+    irrelevant_cluster_ids = all_settings['Filtering']['irrelevant_cluster_ids']
     SUBWORD_UNIT_COMBINATION = all_settings['Filtering']['SUBWORD_UNIT_COMBINATION']
     print_stats = all_settings['Filtering']['print_stats']
     filter_settings = all_settings['Filtering']['filter_settings']
@@ -308,7 +310,7 @@ def main(all_settings):
             prepper.start(prefix, file_names, sp_size, SUBWORDUNIT, STEMMING, STOPWORDS)
 
         # Filter!
-        my_SORE_filter.start(prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, oie_data_dir, sp_size,
+        my_SORE_filter.start(prefix, filter_settings, IDF_weights_path, SUBWORDUNIT, irrelevant_cluster_ids, oie_data_dir, sp_size,
                              number_of_clusters, num_clusters_to_drop, STEMMING, STOPWORDS, SUBWORD_UNIT_COMBINATION, print_stats)
 
     if convert_back_to_BRAT:

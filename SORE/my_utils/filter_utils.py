@@ -243,12 +243,17 @@ class PrepareEmbeddings():
         embeddings = []
         for phrase_id, phrase in enumerate(preprocessed_phrases):
             if len(phrase) > 0:
-                elmo_embedding = self.elmo.embed_sentence(phrase)
-                average_over_elmo = np.average(elmo_embedding, axis=0)
-                # average over words in the phrase
-                weighted_embedding = np.average(average_over_elmo,
-                                                weights=weights_for_phrases[phrase_id],
-                                                axis=0)
+                try:
+                    elmo_embedding = self.elmo.embed_sentence(phrase)
+                    average_over_elmo = np.average(elmo_embedding, axis=0)
+                    # average over words in the phrase
+                    weighted_embedding = np.average(average_over_elmo,
+                                                    weights=weights_for_phrases[phrase_id],
+                                                    axis=0)
+                except:
+                    # Issue getting the embeddings for:
+                    print(preprocessed_phrases)
+                    print(phrase)
             else:
                 # phrase is empty after pre-processing
                 weighted_embedding = np.zeros([1, 1024])
@@ -746,6 +751,11 @@ class SoreFilter():
         SORE_dict = {}
 
         for doc_id in narrowIE_embeddings.keys():
+
+            # # doc_ids to test:
+            # if doc_id not in ["Burgess", "ACL_2020", "BMC_2955", "JEB_1285"]:
+            #     continue
+
             args_already_seen = []
 
             # output_per_doc_id

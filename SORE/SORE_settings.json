@@ -1,7 +1,7 @@
 {
-  "Prepare_data": true,
-  "Parse_narrowIE_predictions": false,
-  "Run_OIE": true,
+  "Prepare_data": false,
+  "Parse_narrowIE_predictions": true,
+  "Run_OIE": false,
   "Filter_OIE": true,
   "data_prep": {
     "max_num_docs_narrowIE" : 200
@@ -22,7 +22,8 @@
     "STEMMING": false,
     "STOPWORDS": true,
     "number_of_clusters": 35,
-    "num_clusters_to_drop": 0,
+    "num_largest_clusters_to_drop": 0,
+    "irrelevant_cluster_ids": [],
     "print_stats": true,
     "filter_settings": {
           "oie_cutoff": 0.65,

@@ -166,7 +166,7 @@ class NarrowIEOpenIECombiner(object):
         return [f for f in input_files if self.get_docid_from_filename(f) in doc_ids_for_filtering]
 
 
-    def run(self, prefix, filter_settings, output_dir,
+    def run(self, prefix, filter_settings, output_dir, irrelevant_cluster_ids,
             num_clusters_to_drop=2,
             print_stats=False,
             print_clusters=False,
@@ -195,6 +195,9 @@ class NarrowIEOpenIECombiner(object):
         ## Gain some insight into the created clusters & determine which clusters are most general
         clusters, results = clusterer.cluster(km_model, narrowIE_phrases, narrowIE_embeddings)
         clusters_to_drop = clusterer.cluster_insight(results, num_clusters_to_drop)
+        print("Dropping {} for size of the clusters, and {} because selected".format(str(clusters_to_drop),
+                                                                                     str(irrelevant_cluster_ids)))
+        clusters_to_drop += irrelevant_cluster_ids
 
         # need to pass the model to filter
         filterer = fu.SoreFilter(self.oie_data_dir, self.csv_path, self.IDF_path,
